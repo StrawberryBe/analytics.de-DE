@@ -10,7 +10,7 @@ ht-degree: 95%
 ---
 
 
-# referrer
+# Werber
 
 Die `referrer`-Variable überschreibt den automatisch erfassten Referrer in Berichten. Diese Variable ist hilfreich in Situationen, in denen der Referrer verloren gehen könnte, z. B. bei Redirects oder vorübergehender Weiterleitung des Besuchers an einen Zahlungsverarbeiter. Diese Variable hilft beim Ausfüllen der Dimensionen „Referrer“ und „Referrer-Domäne“.
 
@@ -35,7 +35,7 @@ Die `s.referrer`-Variable ist eine Zeichenfolge, die die URL der vorherigen Seit
 s.referrer = "https://example.com";
 ```
 
-Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
 
 ```js
 s.referrer = digitalData.page.pageInfo.referringURL;
