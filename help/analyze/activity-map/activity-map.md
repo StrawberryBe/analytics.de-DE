@@ -3,9 +3,9 @@ description: Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivi
 title: Übersicht über Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
