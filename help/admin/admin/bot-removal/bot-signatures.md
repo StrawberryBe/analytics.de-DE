@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,19 +20,19 @@ Sie können einen Bericht zur Data Warehouse mit IP-Adresse, Ansichten und einde
 
 ## Kein Werber
 
-Bots haben normalerweise keine verweisende URL. Bei der Segmentierung kann dies wie `Referring Domain equals Typed/Bookmarked`.
+Bots haben normalerweise keine verweisende URL. In der Segmentierung kann dies als `Referring Domain equals Typed/Bookmarked` gefiltert werden.
 
 ## Seltsame Benutzeragenten
 
-Bots verwenden häufig benutzerdefinierte Benutzeragenten, die nicht in die Browser-Dimension klassifiziert sind oder als `unknown` Version eines Standardbrowsers angezeigt werden. Unbekannte Safari und unbekannte Opera haben eine extrem hohe Wahrscheinlichkeit, Bots zu sein.
+Bots verwenden häufig benutzerdefinierte Benutzeragenten, die nicht in die Browser-Dimension klassifiziert sind oder als `unknown`-Version eines Standardbrowsers angezeigt werden. Unbekannte Safari und unbekannte Opera haben eine extrem hohe Wahrscheinlichkeit, Bots zu sein.
 
 ## Linux- oder &quot;Nicht angegeben&quot;-Betriebssysteme
 
-Wir wollen das großartige Open-Source-Linux-Betriebssystem nicht diskreditieren, aber anscheinend stellen Bots es gerne als Betriebssystem ein. Achten Sie jedoch darauf, legitimen Traffic von Linux-Benutzern auszuschließen. Bots legen auch gerne kein Betriebssystem fest, das als `Operating System &#x200B;equals Not Specified`... segmentiert werden kann.
+Wir wollen das großartige Open-Source-Linux-Betriebssystem nicht diskreditieren, aber anscheinend stellen Bots es gerne als Betriebssystem ein. Achten Sie jedoch darauf, legitimen Traffic von Linux-Benutzern auszuschließen. Bots legen auch gerne kein Betriebssystem fest, das als `Operating System &#x200B;equals Not Specified` segmentiert werden kann.
 
 ## Ansichten der Seite = Besuche = Individuelle Besucher
 
-Dies gilt insbesondere für den Benutzeragenten-Bericht. Wie Sie im folgenden Screenshot sehen können, hat die &quot;unbekannte Version&quot;dieser Browser fast dieselbe Anzahl von Besuchern wie individuelle Besucher (und fast dieselbe Anzahl von Ansichten). Dies kann bei der Segmentierung isoliert werden, indem ein [!UICONTROL Include] -Container für `Single Page Visits equals Enabled` oder `Hit Depth is less than 2`erstellt wird.
+Dies gilt insbesondere für den Benutzeragenten-Bericht. Wie Sie im folgenden Screenshot sehen können, hat die &quot;unbekannte Version&quot;dieser Browser fast dieselbe Anzahl von Besuchern wie individuelle Besucher (und fast dieselbe Anzahl von Ansichten). Dies kann in der Segmentierung isoliert werden, indem ein [!UICONTROL Include]-Container für `Single Page Visits equals Enabled` oder `Hit Depth is less than 2` erstellt wird.
 
 ![](assets/bots-browsers-unknown.png)
 
@@ -74,4 +74,4 @@ Manchmal versuchen Bots, Sites zu zwischenspeichern oder auf andere Weise zu umb
 
 Webhosting-Dienste wie Amazon Web Services oder Google Cloud können als Bot-Farmen missbraucht werden. Diese IP-Adressen sind mit einem hohen Risiko verbunden, Bots zu sein:
 &#x200B;
-* [Google Cloud](https://cloud.google.com/compute/): IP-Adressen-Beginn mit `&#x200B;35.199` oder `35.194&#x200B;`
+* [Google Cloud](https://cloud.google.com/compute/): IP-Adressen-Beginn mit  `&#x200B;35.199` oder  `35.194&#x200B;`
