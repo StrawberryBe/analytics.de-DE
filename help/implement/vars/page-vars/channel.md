@@ -10,7 +10,7 @@ ht-degree: 97%
 ---
 
 
-# channel
+# Kanal
 
 Die `channel`-Variable speichert normalerweise den Abschnitt der Website, auf dem sich eine bestimmte Seite befindet. Es ist hilfreich, zu bestimmen, welche Gruppen Ihrer Website am beliebtesten sind. Diese Variable füllt die Dimension „Website-Bereiche“.
 
@@ -35,7 +35,7 @@ Die `s.channel`-Variable ist eine Zeichenfolge, die normalerweise den Website-Be
 s.channel = "Example site section";
 ```
 
-Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
