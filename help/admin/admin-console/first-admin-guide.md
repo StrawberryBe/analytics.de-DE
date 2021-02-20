@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics-Handbuch für erste Administratoren
 description: Hier erfahren Sie, wie Sie mit Adobe Analytics, allgemeinen Rollentypen und der Anmeldung bei der Benutzeroberfläche beginnen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
