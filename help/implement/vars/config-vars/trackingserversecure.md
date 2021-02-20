@@ -41,4 +41,4 @@ Die Person, die die Erstanbieter-Cookie-Implementierung anfänglich konfiguriert
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
+CNAME-Einträge verweisen normalerweise auf eine Subdomäne unter `data.adobedc.net`, `sc.adobedc.net` oder `2o7.net`.
