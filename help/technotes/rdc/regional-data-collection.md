@@ -26,13 +26,13 @@ RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 |---------------------|-------------------|
 | Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney, China* |
 
-Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
+Hinweis: Wenn Ihre Analytics-Bildanforderung an die Endpunkte `adobedc`, `2o7.net` oder `omtrdc.net` gesendet wird, haben Sie eine Datenerfassung von Drittanbietern. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
 
 *China RDC benötigt das China Hinzufügen-On-Paket. Siehe oben stehenden Hinweis &quot;Wichtig&quot;.
 
 ## Erstanbieter-HTTPS-Datenerfassung
 
-| RDC-Typ | Data Collection Centers |
+| RDC-Typ | Datenerfassungszentren |
 |---------------------|-------------------|
 | Global (Standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 | Nur Amerika | Oregon, Virginia |
