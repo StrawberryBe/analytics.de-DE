@@ -3,9 +3,9 @@ description: In diesen Schritten wird beschrieben, wie Administratoren einer Ben
 title: Hinzufügen einer Data Warehouse-Benutzergruppe
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
 
