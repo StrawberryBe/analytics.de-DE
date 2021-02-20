@@ -1,13 +1,13 @@
 ---
-description: Wenn Besucherprofile zusammengeführt werden, nachdem sie zur gleichen Besucher-ID-Variablen zugehörig erkannt wurden, wird die Attribution im Verlaufsdatensatz nicht geändert.
-keywords: Analytics Implementation
+description: Wenn Besucherprofile zusammengeführt werden, nachdem sie zur gleichen Besucher-ID-Variablen zugehörig erkannt wurden, wird die Zuordnung im Verlaufsdatensatz nicht geändert.
+keywords: Analytics-Implementierung
 title: Attribution und Persistenz
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '542'
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
