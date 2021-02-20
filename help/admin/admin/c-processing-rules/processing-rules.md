@@ -28,7 +28,7 @@ Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltu
 
 ## Berechtigungen für Verarbeitungsregeln {#section_8A4846688050453784DAE4D89355169A}
 
-Administrators have rights to use processing rules **by default**. Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. Eine Anleitung finden Sie unter []
+Administratoren haben standardmäßig die Berechtigung, Verarbeitungsregeln **zu verwenden.** Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. Eine Anleitung finden Sie unter []
 
 ![](assets/processing-rules.png)
 
@@ -36,7 +36,7 @@ Administrators have rights to use processing rules **by default**. Administrator
 >
 >Da Verarbeitungsregeln dauerhafte Auswirkungen auf Analytics-Daten haben, empfiehlt Adobe dringend, dass Verarbeitungsregeladministratoren eine Zertifizierungsschulung in Adobe Analytics erhalten und mit allen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Sites, mobile Apps, Dateneinfüge-API usw.) vertraut sein sollten. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
 
-## Vereinfachung der Datenerfassung durch Kontextdaten  {#section_09EEA03612D24C15839631AA9E9668D8}
+## Vereinfachung der Datenerfassung durch Kontextdaten   {#section_09EEA03612D24C15839631AA9E9668D8}
 
 Kontextdatenvariablen sind Variablentypen, die nur für Verarbeitungsregeln verfügbar sind. Für die Verwendung von Kontextdatenvariablen werden Schlüssel-Wert-Datenpaare durch unsere Implementierung eingereicht, und es werden Verarbeitungsregeln angewendet, um diese Werte in Standard-Analytics-Variablen zu erfassen. So müssen Programmierer nicht immer genau wissen, welche Prop und/oder eVar welchen Wert enthalten muss.
 
@@ -44,11 +44,11 @@ Kontextdatenvariablen sind Variablentypen, die nur für Verarbeitungsregeln verf
 
 Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/contextdata.html) in der Implementierungshilfe.
 
-## Verwenden von Verarbeitungsregeln zum Korrigieren von Daten und zum Auslösen von Ereignissen  {#section_8284E72E999244E091CD7FB1A22342B6}
+## Verwenden von Verarbeitungsregeln zum Korrigieren von Daten und zum Auslösen von Ereignissen   {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Mit Verarbeitungsregeln können eingehende Werte überwacht werden. Dabei werden gängige Schreibfehler korrigiert und Ereignisse auf Basis der Berichtsdaten festgelegt. Props können in eVars kopiert werden, Werte lassen sich zu Berichtzwecken miteinander verketten, und Ereignisse können festgelegt werden.
 
-## Verwenden von Kontextdatenvariablen in Berichten  {#section_BD098BC503024A0B8703596628071134}
+## Verwenden von Kontextdatenvariablen in Berichten   {#section_BD098BC503024A0B8703596628071134}
 
 Sobald in Ihrer Implementierung Kontextdatenvariablen definiert sind, müssen diese in Variablen wie eVars kopiert werden, damit sie in Berichten verwendet werden können.
 
