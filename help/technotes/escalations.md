@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Einige Themen erfordern eine sofortige Adobe. Verwenden Sie diesen Prozess, um Zwischenfälle zu melden, die nicht innerhalb eines angemessenen Zeitrahmens im Verhältnis zur Schwere des Vorgangs behandelt werden.
 
-Senden Sie eine E-Mail mit den folgenden Informationen an [dmaEscalations@adobe.com](mailto:dmaescalations@adobe.com) :
+Senden Sie eine E-Mail mit den folgenden Informationen an [dmaEscalations@adobe.com](mailto:dmaescalations@adobe.com):
 
 * Die Ereignisnummer, die eskaliert werden soll
 * Die geschäftliche Begründung für die Eskalation
