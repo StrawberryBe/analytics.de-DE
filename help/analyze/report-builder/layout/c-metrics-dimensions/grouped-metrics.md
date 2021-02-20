@@ -3,9 +3,9 @@ description: Ab sofort können Sie diese beiden Metriktypen in ein und derselben
 title: Traffic- und Commerce-Metriken in derselben Anforderung kombinieren
 topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
