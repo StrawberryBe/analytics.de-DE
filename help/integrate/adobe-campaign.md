@@ -1,9 +1,9 @@
 ---
 description: Erfahren Sie, wie Sie Adobe Campaign-Berichte in Adobe Analytics aktivieren
 title: Wie integriere ich Adobe Campaign-Berichte in Adobe Analytics?
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Nach der Aktivierung der Report Suite für Adobe Campaign sind die folgenden Kla
 * Bereitstellungsbezeichnung (Campaign in Adobe Campaign)
 * Ausgeführte Bereitstellungsbezeichnung (Liste der individuellen ausgeführten Bereitstellungen)
 
-## In Adobe Analytics verfügbare Adobe Campaign-Dimensionen und -Metriken {#section_F33385C9660644AF84172EC39601469B}
+## In Adobe Analytics verfügbare Adobe Campaign-Dimensionen und -Metriken  {#section_F33385C9660644AF84172EC39601469B}
 
 Die folgenden **Metriken** sind in Campaign der Adobe Analytics Report Suites verfügbar:
 
