@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie die Dimensionen von Marketing-Kanäle in Work
 translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 94%
 
 ---
 
@@ -58,4 +58,4 @@ Die veralteten Firstkontakt- und Letztkontakt-Kanäle bieten einen hilfreichen E
 
 ![](assets/mc-viz6.png)
 
-In diesem Video erfahren Sie mehr über tabulatorübergreifende Marketing-Analyse: [Verwendung von tabulatorübergreifender Analyse zur Überprüfung der grundlegenden Marketingzuordnung in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+In diesem Video erfahren Sie mehr über tabulatorübergreifende Marketing-Analyse: [Verwenden der tabulatorübergreifenden Analyse, um die grundlegende Marketing-Zuordnung in Analysis Workspace zu untersuchen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
