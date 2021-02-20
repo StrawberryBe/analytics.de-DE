@@ -4,6 +4,9 @@ title: Metriken suchen
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Hier werden die zwei Hauptarten zum Suchen von Metriken beschrieben: Sortieren und Filtern.
 
-## Sortieren  {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Sortieren   {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 Wenn Sie einen Bericht öffnen und auf das Metriksymbol ![](assets/metrics_icon.png) auf der linken Seite des Berichts klicken, um die Metrikleiste anzuzeigen, werden in der Dropdown-Liste **[!UICONTROL Sortieren nach]** der Metrikauswahl vier Optionen zur Sortierung angezeigt:
 
@@ -25,7 +28,7 @@ Wenn Sie einen Bericht öffnen und auf das Metriksymbol ![](assets/metrics_icon.
 | Häufig verwendet | Nützlich, wenn Sie ein unerfahrener Benutzer sind und sehen möchten, was häufig im Bericht verwendet wird. |
 | Kürzlich verwendet | Nützlich, wenn Sie an einem Projekt arbeiten und denselben Satz aus Metriken immer wieder verwenden. |
 
-## Filtern - Erweiterte Auswahl  {#section_33818CC048C04F098703AC229693F8CA}
+## Filtern - Erweiterte Auswahl   {#section_33818CC048C04F098703AC229693F8CA}
 
 Wenn Sie einen Bericht öffnen, klicken Sie auf das Metriksymbol und anschließend auf **[!UICONTROL Verwalten]**. Klicken Sie dann auf das Filtersymbol. Sie haben verschiedene Möglichkeiten zum Filtern.
 
