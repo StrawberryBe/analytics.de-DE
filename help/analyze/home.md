@@ -22,7 +22,7 @@ Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden
 * **[!UICONTROL Report Builder]**: Ein Excel-Add-in, mit dem Sie Analytics-Daten abrufen und direkt in eine Arbeitsmappe einfügen können.
 * **[!UICONTROL Reporting-API]**: Stellen Sie Reporting-Anfragen direkt an die Server von Adobe und erhalten Sie Antworten, die Sie in Ihren eigenen Kunden-Reporting-Tools nutzen können.
 * **[!UICONTROL Reports &amp; Analytics]**: Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt die Verwendung von Analysis Workspace für die meisten Berichterstellungserfordernisse.
-* **[!UICONTROL Ad Hoc Analysis]**: Eine eigenständige Java-Anwendung mit stabilen Berichterstellungsfunktionen. Dieses Tool wurde nicht mehr aktualisiert und wird [am 1. März 2021](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)verstreichen.
+* **[!UICONTROL Ad Hoc Analysis]**: Eine eigenständige Java-Anwendung mit stabilen Berichterstellungsfunktionen. Dieses Tool wurde nicht mehr aktualisiert und ist ab dem 1. März 2021 [ein Sonnenuntergang.](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)
 
 ## Wichtige Artikel zu Analytics-Tools
 
