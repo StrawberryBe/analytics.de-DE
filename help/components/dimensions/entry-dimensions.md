@@ -1,12 +1,12 @@
 ---
 title: Einstiegsdimensionen
 description: Führt Einstiegsdimensionen und deren Verwendung auf.
-keywords: entry page, entry site section, entry server, entry custom insight
-translation-type: ht
+keywords: Entrypage, Einstiegsseiten, Einstiegsserver, Einstiegsseiten, Custom Insight
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 95%
 
 ---
 
