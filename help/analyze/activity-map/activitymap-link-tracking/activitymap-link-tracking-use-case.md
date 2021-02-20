@@ -41,7 +41,7 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Kaufen </p> <p> </p> <p> </p> <p>Kaufen </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
   </tr> 
  </tbody> 
@@ -49,7 +49,7 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
 
 Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Links zu unterscheiden? Sie haben drei Optionen: Sie können die Link-ID anpassen, die Region anpassen oder die Activity Map-Moduldatei AppMeasurement anpassen.
 
-## Link-ID mit s_objectID anpassen  {#section_01B0D463397B4837B2D46F087A6E5937}
+## Link-ID mit s_objectID anpassen   {#section_01B0D463397B4837B2D46F087A6E5937}
 
 Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposition auf einer Seite können Sie die Activity Map-Verfolgung verbessern. Sie können Activity Map auch zum Generieren von Berichten zum Linktyp oder zur Linkposition anstelle der Link-URL verwenden. Klicken Sie [hier](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html), um weitere Informationen zur Variablen s_objectID zu erhalten.
 
@@ -81,12 +81,12 @@ Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposit
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>Empfehlungsbereich </p> <p> </p> <p> </p> <p>Empfehlungsbereich </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Region anpassen  {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Region anpassen   {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link vom Typ „buy“ eine eigene Region definiert ist. Dazu fügen Sie einem der übergeordneten Elemente jedes Anker-Tags „Buy“ den Parameter „id“ hinzu.
 
@@ -117,13 +117,13 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Kaufen </p> <p> </p> <p> </p> <p>Kaufen </p> <p> </p> <p> </p> <p>Kaufen </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Activity Map-Moduldatei AppMeasurement anpassen  {#section_B933BB9F944E4D5389002908A5A881F8}
+## Activity Map-Moduldatei AppMeasurement anpassen   {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
