@@ -5,6 +5,9 @@ topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Mithilfe von Zielen können Sie die Leistung Ihrer Website messen und den Fortschritt bei der Erreichung Ihrer Zielsetzungen verfolgen. So möchten Sie beispielsweise die Anzahl der Besucher aus einer bestimmten Region oder den Umsatz pro Bestellung steigern oder die Anzahl der Treffer von einer bestimmten verweisenden Stelle erhöhen.
 
-## Ziele  {#concept_6516E81923E845198B7FC5D8F81DC35C}
+## Ziele   {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
 Mithilfe von Zielen können Sie die Leistung Ihrer Website messen und den Fortschritt bei der Erreichung Ihrer Zielsetzungen verfolgen. So möchten Sie beispielsweise die Anzahl der Besucher aus einer bestimmten Region oder den Umsatz pro Bestellung steigern oder die Anzahl der Treffer von einer bestimmten verweisenden Stelle erhöhen.
 
@@ -21,11 +24,11 @@ Mit der Zielsetzung legen Sie fest, welche Attributmetriken oder eVars gemessen 
 
 Sie können z. B. die Anzahl der Unique Visitors Ihrer Website messen und diese als Ziel festsetzen. Wählen Sie in dem Falle die gesamte Website aus. Wenn Sie jedoch nur die Anzahl der Unique Visitors Ihrer Website aus Zürich messen möchten, geben Sie eine entsprechende eVar an statt Ihre gesamte Website ins Auge zu fassen.
 
-## Zielgruppenfeld-Beschreibungen  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## Zielgruppenfeld-Beschreibungen   {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Ziele]**.
 
-Beschreibungen der Felder und Optionen auf der [!UICONTROL Add/Edit Target] Seite.
+Beschreibungen der Felder und Optionen auf der Seite [!UICONTROL Zielgruppe hinzufügen/bearbeiten]
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -36,7 +39,7 @@ Beschreibungen der Felder und Optionen auf der [!UICONTROL Add/Edit Target] Seit
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Zielname </td> 
+   <td colname="col1"> Target Name </td> 
    <td colname="col2">Geben Sie einen Zielnamen an, der auf der Seite <span class="wintitle">Ziel-Manager</span> angezeigt wird. </td> 
   </tr> 
   <tr> 
@@ -72,14 +75,14 @@ t_add_a_target.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. Klicken Sie auf der [!UICONTROL Target Manager] Seite auf **[!UICONTROL Add New]**.
+1. Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Ziele]**.
+1. Klicken Sie auf der Seite [!UICONTROL Ziel-Manager] auf **[!UICONTROL Neu hinzufügen]**.
 1. Konfigurieren Sie die unter [Zielgruppenfeld-Beschreibungen](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD) dargestellten Optionen.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
 ## Zielgruppe bearbeiten {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
+1. Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Ziele]**.
+1. Klicken Sie in der Spalte **[!UICONTROL Verwalten]** auf das Symbol **[!UICONTROL Bearbeiten]**.
 1. Konfigurieren Sie die unter [Zielgruppenfeld-Beschreibungen](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD) dargestellten Optionen.
 1. Klicken Sie auf **[!UICONTROL OK]**.
