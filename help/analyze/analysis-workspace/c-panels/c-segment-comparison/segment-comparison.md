@@ -2,10 +2,10 @@
 title: Übersicht über den Segmentvergleich
 description: Erfahren Sie, wie Sie das Bedienfeld „Segmentvergleich“, Teil von Segment IQ in Analysis Workspace, verwenden.
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1137'
+workflow-type: tm+mt
+source-wordcount: '1141'
 ht-degree: 100%
 
 ---
