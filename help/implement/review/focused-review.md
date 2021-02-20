@@ -1,9 +1,9 @@
 ---
 title: Gezielte Prüfung (nach jeder Website-Veröffentlichung)
 description: Führen Sie diese Schritte aus, um sicherzustellen, dass Ihre Implementierung fehlerfrei und im Einklang mit Ihren KPIs ausgeführt wird.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -43,4 +43,4 @@ Beurteilen Sie die Situation und erstellen Sie einen Plan zur Berichtigung der D
 
 *Sehen Sie sich dieses 2-minütige Video von Adobe Analytics Champion Sarah Owen darüber an, wann Sie Prüfungen Ihrer Implementierung auf sehr praktische Weise in Ihren vollen Zeitplan integrieren können:*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
