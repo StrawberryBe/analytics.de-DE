@@ -1,9 +1,9 @@
 ---
 title: Suchbegriff
 description: Der Suchbegriff, mit dem der Besucher Ihre Site erreichte.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
