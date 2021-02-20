@@ -1,9 +1,9 @@
 ---
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
