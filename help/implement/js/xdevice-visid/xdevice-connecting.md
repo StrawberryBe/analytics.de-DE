@@ -1,14 +1,14 @@
 ---
 description: Mithilfe der geräteübergreifenden Identifizierung erkennen Sie Ihre Besucher auch auf anderen Geräten wieder. Bei der geräteübergreifenden Besucherkennung werden Benutzer mithilfe der Besucherkennungsvariablen „s.visitorID“ geräteübergreifend zugeordnet.
-keywords: Analytics Implementation
+keywords: Analytics-Implementierung
 subtopic: Visitors
 title: Benutzer geräteübergreifend verbinden
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '399'
+workflow-type: tm+mt
+source-wordcount: '401'
 ht-degree: 100%
 
 ---
