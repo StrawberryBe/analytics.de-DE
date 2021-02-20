@@ -1,9 +1,9 @@
 ---
 title: Kundenloyalität
 description: Kategorien, die auf der Anzahl der vorherigen Käufe des Besuchers basieren.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
