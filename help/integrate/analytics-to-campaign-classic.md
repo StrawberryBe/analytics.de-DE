@@ -1,9 +1,9 @@
 ---
 description: Informationen über die Referenzarchitektur, Richtlinien, Konfigurationsschritte und Tests, die Implementierungsspezialisten befolgen müssen, wenn Adobe Analytics mit Adobe Campaign zusammenarbeiten soll.
 title: Einrichten der Zusammenarbeit von Analytics mit Adobe Campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%
 
