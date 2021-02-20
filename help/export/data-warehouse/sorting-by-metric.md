@@ -2,9 +2,9 @@
 description: Bietet nach Rang geordnet Detailberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind.
 title: Nach Metrik sortieren
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -31,8 +31,8 @@ In der Spalte „Berichtslayout“ sehen Sie, wie „Sortieren von Metriken“ m
 | Nach Metrik sortieren? | Metriken vorhanden? | Aufschlüsselungen vorhanden? | Datumsgranularität? | Maximale Zeilenzahl festgelegt? | Berichtslayout |
 |---|---|---|---|---|---|
 | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
-| Ja | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
-| Ja | Ja | Nein | Nein | nicht angegeben | 1 |
+| Ja | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 3 |
+| Ja | Ja | Nein | Nein | nicht angegeben | 3 |
 | Ja | Ja | Nein | Ja oder Nein | Nein | 1 |
 | Ja | Ja | Ja | Nein | Nein | 2 |
 | Ja | Ja | Nein | Ja | Ja | 3 |
