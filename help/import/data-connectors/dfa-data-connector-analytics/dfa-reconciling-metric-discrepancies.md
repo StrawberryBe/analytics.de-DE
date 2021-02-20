@@ -6,6 +6,9 @@ topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,7 @@ Bei Adobe werden für Metriken in Bezug auf die DFA-Integration folgende Termini
 
 Liste mit Ursachen für Datendiskrepanzen zwischen Adobe Analytics und DFA-Berichten
 
-### Benutzer von Safari und anderen Browsern mit geblockten Drittanbietercookies  {#section-4b0dc429a54a4744a33976b0bb2d1b2a}
+### Benutzer von Safari und anderen Browsern mit geblockten Drittanbietercookies   {#section-4b0dc429a54a4744a33976b0bb2d1b2a}
 
 Meistens werden Diskrepanzen zwischen Adobe Analytics und DFA durch nicht zugelassene Drittanbietercookies verursacht. Bei Safari und einigen anderen Browsern werden Drittanbietercookies standardmäßig geblockt. Erstanbietercookies, die von den meisten Analytics-Implementationen verwendet werden, werden also standardmäßig von Safari und manchen anderen Browsern zugelassen, während die von DFA verwendeten Drittanbietercookies abgelehnt werden.
 
@@ -40,7 +43,7 @@ Anhand von Beispieldaten zu unseren Analytics 15 Beta-Kunden haben wir festgest
 
 Diese Diskrepanz kann zu starken Abweichungen zwischen den von Analytics und den von DFA erfassten Daten führen.
 
-### Woran kann es liegen, dass in DFA mehr Impressionen angezeigt werden als in Adobe Analytics?  {#section-db0ad070a65a4985bcc589b2d0d30b90}
+### Woran kann es liegen, dass in DFA mehr Impressionen angezeigt werden als in Adobe Analytics?   {#section-db0ad070a65a4985bcc589b2d0d30b90}
 
 * Daten werden in nächtlichen Batches von DFA an die Adobe-Datenerfassungsserver gesendet. Diese Daten in Analytics können also bis zu zwei Tage älter sein als die in DFA-Berichten.
 * Adobe verwendet SAINT-Classifications zur Einteilung importierter DFA-Trackingcodes in verschiedene Sammelebenen (Kampagnenname, Platzierungsname, Anzeigenname usw.). Tritt die Diskrepanz beim Erstellen eines Classification-Berichts auf, können Sie anhand eines einfachen Tests herausfinden, ob die Klassifizierungen noch nicht mit den importierten Daten aktualisiert wurden:
@@ -50,7 +53,7 @@ Diese Diskrepanz kann zu starken Abweichungen zwischen den von Analytics und den
    * Notieren Sie sich aus diesem Bericht nicht klassifizierte DFA-Trackingcodes mit dem Format `DFA:XXXXX:XXXXX`.
    * Wenn Sie einen solchen Code finden, überprüfen Sie den nächtlichen SAINT-Classification-Prozess.
 
-### Woran kann es liegen, dass in DFA mehr Klicks angezeigt werden als Clickthroughs in Adobe Analytics?  {#section-2fce4608ed044bdc9cf812cb719d5d35}
+### Woran kann es liegen, dass in DFA mehr Klicks angezeigt werden als Clickthroughs in Adobe Analytics?   {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * DFA verzeichnet einen Klick, bevor Besucher auf die Kundenwebsite gelangen. Analytics verzeichnet Clickthroughs, nachdem die Landingpage geladen und das Adobe JavaScript-Beacon ausgeführt wurde. Solche Diskrepanzen entstehen also normalerweise dadurch, dass entweder Besucher nach dem Tracken eines Klicks durch DFA nicht auf die Landingpage gelangen oder  `s.maxDelay` abläuft.
 * Stellen Sie sicher, dass alle Platzierungen und kreativen Inhalte in der Floodlight-Konfiguration „clickThroughParam“ in der Landingpage-URL (zum Beispiel „`?CID=1`“) enthalten. Wird dieser Parameter nicht eingestellt, werden Clickthroughs nach dem ersten Treffer des Besuchs nicht durch Adobe Analytics JavaScript verzeichnet.
@@ -62,12 +65,12 @@ Diese Diskrepanz kann zu starken Abweichungen zwischen den von Analytics und den
 * Analytics versucht, mehrfach auftretende Clickthroughs zu erkennen und zu entfernen, damit diese nur einmal pro Kampagne und Besuch gezählt werden. Bei DFA werden Besucher, die auf „Zurück“ klicken und mehrmals über die Anzeige weitergeleitet werden, als zusätzliche ACM-Klicks erfasst. Bei Analytics werden diese Clickthroughs nicht mehrfach gezählt.
 * Für DFA Floodlight-Tags muss JavaScript nicht aktiviert sein, für Analytics schon. Daher kann es sein, dass DFA in einigen Fällen einen Treffer verzeichnet und Analytics nicht. Verwenden Sie den Analytics JavaScript-Bericht im Menü „Besucherprofil“, um herauszufinden, ob das ein Problem darstellen könnte.
 
-### Woran kann es liegen, dass in DFA mehr Post-Impressionsaktivitäten angezeigt werden als Durchsichten in Adobe Analytics?  {#section-5daa91039c404df48b6a3447c20406f7}
+### Woran kann es liegen, dass in DFA mehr Post-Impressionsaktivitäten angezeigt werden als Durchsichten in Adobe Analytics?   {#section-5daa91039c404df48b6a3447c20406f7}
 
 * Analytics versucht, mehrfach auftretende Clickthroughs zu erkennen und zu entfernen, damit diese nur einmal pro Kampagne und Besuch gezählt werden. Bei DFA werden Besucher, die auf „Zurück“ klicken und mehrmals über die Anzeige weitergeleitet werden, als zusätzliche ACM-Klicks erfasst. Bei Analytics werden diese Clickthroughs nicht mehrfach gezählt.
 * Für DFA Floodlight-Tags muss JavaScript nicht deaktiviert sein, für Analytics schon. Daher kann es sein, dass DFA in einigen Fällen einen Treffer verzeichnet und Analytics nicht. 
 * Bei DFA werden Post-Impressionsaktionen gezählt, wenn Floodlight-Tags verwendet werden, die auf der Kundenwebsite platziert werden können. Bei Analytics werden Durchsichten erfasst, nachdem das JavaScript-Beacon (Bildabfrage) ausgeführt wurde. Durch die Codeplatzierung auf der Webseite können Sie festlegen, ob ein Besuch auf einer nicht vollständig geladenen Seite als Post-Impressionsaktivität oder Durchsicht gezählt wird.
 
-### Was kann ich tun, wenn die Diskrepanzen in einem nicht akzeptablen Rahmen liegen und die möglichen Ursachen oben nicht zutreffen?  {#section-ca50eb75dd5d4d0396f4668b44d7547c}
+### Was kann ich tun, wenn die Diskrepanzen in einem nicht akzeptablen Rahmen liegen und die möglichen Ursachen oben nicht zutreffen?   {#section-ca50eb75dd5d4d0396f4668b44d7547c}
 
 Wenden Sie sich an Ihren Integrationsberater oder den Kundendienst von Adobe, um die Diskrepanzen zu dokumentieren und sie dem Data Connectors-Technikteam zu melden. Sie können die Bearbeitung Ihrer Anfrage mit Vergleichsdaten der betroffenen Metriken (auf Kampagnencodeebene) aus zwei bis drei Tagen beschleunigen. Geben Sie bei Ihrer Anfrage alle Lösungsversuche zur Diskrepanz an, die Sie bereits unternommen haben.
