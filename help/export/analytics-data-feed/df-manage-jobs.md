@@ -3,6 +3,9 @@ title: Verwalten von Daten-Feed-Aufträgen
 description: Erfahren Sie, wie Sie einzelne Aufträge in Daten-Feeds verwalten.
 translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Gehen Sie wie folgt vor, um auf das Daten-Feed-Auftragsmanagement zuzugreifen:
 
 1. Melden Sie sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 2. Klicken Sie oben rechts auf das 9-Raster-Menü und dann auf [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] > [!UICONTROL Daten-Feeds].
 4. Klicken Sie oben auf die Registerkarte „Aufträge“.
 
 ![Daten-Feed-Menü](assets/AdminMenu.png)
