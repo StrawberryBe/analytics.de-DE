@@ -5,13 +5,16 @@ topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
 source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 89%
 
 ---
 
 
 # Definitionen im Anforderungs-Assistenten – Rollierende Datumswerte
 
-Felddefinitionen für rollierende Datumswerte in ReportBuilder.
+Felddefinitionen für rollierende Datumswerte in Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
