@@ -1,15 +1,15 @@
 ---
 description: In diesem Abschnitt werden die Dateien beschrieben, die in einer Daten-Feed-Auslieferung enthalten sind.
-keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
+keywords: Datenfeed;Auftrag;Inhalt;Manifest;Datei;Suche;Trefferdaten;Versand-Inhalt
 subtopic: data feeds
 title: Daten-Feed-Inhalte – Übersicht
 topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '732'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 98%
 
 ---
 
