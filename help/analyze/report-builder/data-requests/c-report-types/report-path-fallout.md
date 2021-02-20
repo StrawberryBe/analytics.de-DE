@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +24,7 @@ Beschreibt, wie Report Builder Pfadsetzungs- und Fallout-Berichte unterstützt u
 | Vollständige Pfade | Nicht unterstützt. |
 | PathFinder | Ist als eigenständiger Bericht nicht verfügbar. Kann als Pfadbericht mithilfe eines Filters reproduziert werden. |
 | Pfadlänge | Wird nur für die Seitendimension unterstützt. |
-| Seitenanalyse >  Dimensionszusammenfassung | Ist als eigenständiger Bericht nicht verfügbar. Kann mit mehreren Anforderungen bei der Pfaddimension und mithilfe eines Filters reproduziert werden. |
+| Seitenübersicht > Analyse | Ist als eigenständiger Bericht nicht verfügbar. Kann mit mehreren Anforderungen bei der Pfaddimension und mithilfe eines Filters reproduziert werden. |
 | Seitenanalyse > Neuladungen | Ist als eigenständiger Bericht nicht verfügbar. Kann mit einem Dimensionsbericht mithilfe der Metrik „Neuladungen“ reproduziert werden. |
 | Seitenanalyse > Dimension „Tiefe“ | Wird nur für die Seitendimension unterstützt. |
 | Seitenanalyse > Besuchszeit pro Dimension | Nicht unterstützt. |
