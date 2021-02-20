@@ -3,9 +3,9 @@ description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen
 title: Segmente erstellen
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Die Funktionsweise von Segmenten mit eingebetteten Datumsbereichen ist in Analys
 1. Geben Sie für das ausgewählte Element einen Wert ein oder wählen Sie einen aus.
 1. Fügen Sie, sofern erforderlich, mithilfe von **[!UICONTROL Und]**-, **[!UICONTROL Oder]**- oder **[!UICONTROL Dann]**-Regeln weitere Behälter hinzu.
 1. Sehen Sie sich nach dem Platzieren der Behälter und dem Festlegen der Regeln rechts oben im Validierungsdiagramm die Ergebnisse des Segments an. Der Validator zeigt den Prozentsatz und die absolute Anzahl der Seitenansichten, Besuche und Unique Visitors an, die mit dem erstellten Segment übereinstimmen.
-1. Taggen Sie unter **[!UICONTROL Tags]**  den Behälter, indem Sie ein vorhandenes [Tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) auswählen oder ein neues erstellen.
+1. Taggen Sie unter **[!UICONTROL Tags]** den Behälter, indem Sie ein vorhandenes [Tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) auswählen oder ein neues erstellen.
 1. Klicken Sie zum **[!UICONTROL Speichern]** des Segments auf Speichern.
 
 Sie gelangen jetzt zum [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md). Dort können Sie Ihr Segment auf verschiedene Arten taggen, freigeben und verwalten.
