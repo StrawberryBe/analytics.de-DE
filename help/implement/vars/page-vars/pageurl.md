@@ -16,7 +16,7 @@ AppMeasurement erfasst automatisch die Seiten-URL bei jedem Treffer. Wenn Sie di
 
 >[!NOTE]
 >
->Diese Variable ist keine verfügbare Dimension in Analysis Workspace. Sie ist nur in Data Warehouse und Data Feeds verfügbar. Darüber hinaus entfernen die Datenerfassungsserver der Adobe diese Dimension aus allen Bildanforderungen zur [Linktracking](/help/implement/vars/functions/tl-method.md) . Wenn Sie die Seiten-URL als Dimension in Analysis Workspace verwenden möchten oder diese Dimension bei Linktracking-Treffern verwenden möchten, sollten Sie die `pageURL` Variable bei jedem Treffer in eine [eVar](evar.md) übergeben.
+>Diese Variable ist keine verfügbare Dimension in Analysis Workspace. Sie ist nur in Data Warehouse und Data Feeds verfügbar. Darüber hinaus entfernen die Datenerfassungsserver der Adobe diese Dimension aus allen [Linktracking](/help/implement/vars/functions/tl-method.md)-Bildanforderungen. Wenn Sie die Seiten-URL als Dimension in Analysis Workspace verwenden möchten oder diese Dimension bei Linktracking-Treffern verwenden möchten, übergeben Sie bei jedem Treffer die Variable `pageURL` in eine [eVar](evar.md).
 
 ## Seiten-URL in Adobe Experience Platform Launch
 
@@ -46,7 +46,7 @@ Wenn Sie die Seiten-URL als Dimension in Berichten verwenden möchten, sollten S
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;
