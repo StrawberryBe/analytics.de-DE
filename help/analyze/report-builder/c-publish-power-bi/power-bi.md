@@ -52,7 +52,7 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
    ![](assets/workbooks-power-bi.png)
 
-1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen.    ![](assets/view-data-pbi.png)
+1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen.     ![](assets/view-data-pbi.png)
 
 1. Sie können dann einen Bereich dieser Arbeitsmappe anheften, um sie in ein beliebiges Power BI-Dashboard einzuschließen.
 
