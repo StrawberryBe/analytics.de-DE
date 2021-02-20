@@ -4,6 +4,9 @@ title: Ausführen des Data Connectors-Integrationsassistenten
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '922'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,7 @@ Konfigurieren der Integration:
    <td colname="col3"> <p>Geben Sie den Integrationsnamen an, den Data Connectors in „Aktive Integrationsliste“ der Report Suite anzeigt. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Integrations-E-Mail-Adresse </p> </td> 
    <td colname="col3"> <p>Geben Sie die E-Mail-Adresse an, an die alle Benachrichtigungen zu dieser Integration gesendet werden, und klicken Sie dann auf <b>Weiter</b>, um mit Schritt 2 des Assistenten fortzufahren. </p> </td> 
   </tr> 
