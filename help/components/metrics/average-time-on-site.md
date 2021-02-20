@@ -48,7 +48,7 @@ Die durchschnittliche Besuchszeit pro Site für `Product page A` ist `00:01:35`.
 
 >[!NOTE]
 >
->Diese Metrik zeigt den Wert an, `"Invalid"` wenn das Dimensionselement nur Treffer enthält, die zuletzt bei einem Besuch auftraten. Für diese Metrik ist ein nachfolgender Treffer erforderlich, um die Besuchszeit zu verfolgen.
+>Diese Metrik zeigt den Wert `"Invalid"` an, wenn das Dimensionselement nur Treffer enthält, die zuletzt bei einem Besuch auftraten. Für diese Metrik ist ein nachfolgender Treffer erforderlich, um die Besuchszeit zu verfolgen.
 
 ## Durchschnittliche Besuchszeit pro Site (Sekunden)
 
