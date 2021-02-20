@@ -1,15 +1,15 @@
 ---
 description: Informationen zu Sonderzeichen, die im Daten-Feed verwendet werden.
-keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
+keywords: Datenfeed;Auftrag;Sonderzeichen;hit_data;Variablen mit mehreren Werten;Ereignis_Liste;products_Liste;mvvars
 subtopic: data feeds
 title: Sonderzeichen in Daten-Feeds
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 95%
 
 ---
 
