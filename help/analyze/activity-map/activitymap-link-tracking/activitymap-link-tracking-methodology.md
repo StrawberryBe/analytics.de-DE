@@ -3,9 +3,9 @@ description: Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. 
 title: Linktracking-Methode
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ In Activity Map basiert Linktracking auf diesen beiden IDs:
 * Primäre ID: Dies ist der erkennbare Parameter des Links.
 * Linkregion: Dies ist ein sekundärer Parameter, der es Benutzern ermöglicht, eine Zeichenfolge anzugeben, die für den gesamten Linkbereich der Seite oder der Region repräsentativ ist. Dieser Parameter kann automatisch generiert werden, wenn er nicht vom Benutzer bereitgestellt wird.
 
-## Primäre ID  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## Primäre ID   {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 Wenn der HTML-Code eine s_objectid enthält, dann wird diese standardmäßig als primäre ID verwendet. Andernfalls werden folgende Parameter als primäre ID verwendet (hier in der Reihenfolge der Priorität aufgeführt):
 
@@ -35,7 +35,7 @@ Wenn der HTML-Code eine s_objectid enthält, dann wird diese standardmäßig als
 * Src
 * Aktion
 
-## Verwenden von InnerText im Vergleich zur Linkaktion (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
+## Verwenden von InnerText im Vergleich zur Linkaktion (URL)   {#section_70C3573E22274522A8CC035BF18EC468}
 
 Die Linkaktion (URL) ist die Aktion, die von der Webseite beim Klicken auf den Link ausgeführt wird. Normalerweise wird die URL angegeben, die nach dem Klicken auf den Link aufgerufen wird. Einige der Probleme, die bei der Verwendung der Linkaktion auftreten, sind:
 
