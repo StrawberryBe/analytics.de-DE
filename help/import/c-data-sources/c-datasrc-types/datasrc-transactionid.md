@@ -1,9 +1,9 @@
 ---
 title: Transaktions-ID-Datenquellen
 description: Erfahren Sie mehr über den allgemeinen Workflow bei der Verwendung der Transaktions-ID-Datenquellen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
