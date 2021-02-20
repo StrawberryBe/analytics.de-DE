@@ -32,7 +32,7 @@ Diese Variable kann maximal 20 Byte speichern. Werte, die länger als 20 Byte si
 s.purchaseID = "ABC123";
 ```
 
-Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
 
 ```js
 s.purchaseID = digitalData.transaction.transactionID;
