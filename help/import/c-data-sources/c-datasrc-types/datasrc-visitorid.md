@@ -4,16 +4,16 @@ subtopic: Data sources
 title: Visitor ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
 
 
-# Visitor ID
+# Besucher-ID
 
 Besucher-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
 
@@ -23,7 +23,7 @@ Weitere Informationen finden Sie im Thema über das [Integrieren von Offline-Dat
 
 | Spaltenname | Beschreibung |
 |--- |--- |
-| Visitor ID | (Erforderlich) Eindeutiger Wert, der einen Kunden in Online- und Offline-Systemen kennzeichnet. |
+| Besucher-ID | (Erforderlich) Eindeutiger Wert, der einen Kunden in Online- und Offline-Systemen kennzeichnet. |
 | Datum | Verwenden Sie das folgende Datumsformat: MM/TT/JJJJ/HH/mm/SS (zum Beispiel 07/14/2017/06/00/00) |
 | Trackingcode | Name des Trackingcodes. |
 | Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
