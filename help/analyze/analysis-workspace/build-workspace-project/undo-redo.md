@@ -4,19 +4,22 @@ title: Einstellungen zum Rückgängigmachen und Wiederherstellen
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
 
 # Einstellungen zum Rückgängigmachen und Wiederherstellen
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
+**[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Projekt]** > **[!UICONTROL Rückgängig/Wiederherstellen]**
 
-* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
+* Die Option **[!UICONTROL Wiederherstellen]** (Wiederherstellen nach Rückgängigmachen) befindet sich im Menü **[!UICONTROL Bearbeiten]**.
 
-* Durch Klicken **[!UICONTROL Save]** wird der **[!UICONTROL Undo]** Stapel nicht gelöscht.
+* Durch Klicken auf **[!UICONTROL Speichern]** wird der Stapel **[!UICONTROL Rückgängig]** nicht entfernt.
 
-* **[!UICONTROL New Project]** oder **[!UICONTROL Open Existing Project]** löschen Sie den **[!UICONTROL Undo]** Stapel
+* Durch Auswahl von **[!UICONTROL Neues Projekt]** oder **[!UICONTROL Vorhandenes Projekt öffnen]** wird der Stapel **[!UICONTROL Rückgängig]** entfernt.
 
 * Änderungen der Report Suite können rückgängig gemacht/wiederhergestellt werden.
 * In der Nähe des Projektnamens wird eine Meldung bezüglich des Rückgängigmachens/Wiederherstellens angezeigt. Sie zeigt an, ob etwas rückgängig gemacht/wiederhergestellt wird.
