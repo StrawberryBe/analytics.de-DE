@@ -1,9 +1,9 @@
 ---
 title: eVar
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 100%
 
