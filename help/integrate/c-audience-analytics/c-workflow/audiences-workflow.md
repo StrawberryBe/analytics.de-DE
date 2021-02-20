@@ -3,8 +3,11 @@ description: Bereitstellen, Weitergeben und Verwenden von Zielgruppendaten.
 solution: Experience Cloud
 title: Workflow-Übersicht
 uuid: 211e079b-46ee-4238-856d-7cac40620717
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 100%
 
 ---
 
