@@ -32,7 +32,7 @@ Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Ve
    Die [!DNL .fin]-Datei muss genau den gleichen Namen aufweisen wie die Data Sources-Datei, mit Ausnahme der Dateierweiterung. Adobe stellt die Data Sources-Datei nicht für die Verarbeitung in eine Warteschlange, bis Sie die [!DNL .fin]-Datei hochgeladen haben.
 
    Laden Sie die Datei erst hoch, wenn alle Data Sources-Dateien vollständig hochgeladen wurden. Anderenfalls könnte Data Sources versuchen, eine unvollständige Datei zu verarbeiten.
-1. Nachdem die .fin-Datei hochgeladen wurde, müssen Sie sich unbedingt von der Data Sources-FTP-Site abmelden. Der Grund dafür ist, dass Analytics Abmeldedateien als Auslöser verwendet, um anzuzeigen, dass die Ereignisse zur Verarbeitung bereit sind.
+1. Nachdem die .fin-Datei hochgeladen wurde, müssen Sie sich unbedingt von der Data Sources-FTP-Site abmelden. Analytics verwendet daher Abmeldedateien als Trigger, um anzugeben, dass die Ereignisse zur Verarbeitung bereit sind.
 1. Achten Sie darauf, ob bei der Verarbeitung der Data Sources-Datei Meldungen ausgegeben werden.
 
    Im Data Sources-Manager werden Fehler angezeigt, die u. U. während der Dateiverarbeitung auftreten.
