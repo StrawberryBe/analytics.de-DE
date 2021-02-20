@@ -1,13 +1,13 @@
 ---
 description: Stellen Sie Adobe Analytics mithilfe des Dynamic Tag Managements bereit, indem Sie das Adobe Analytics-Tool erstellen und den Seiten-Code entweder automatisch oder manuell konfigurieren. Für die meisten Benutzer wird die automatische Methode empfohlen.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
+keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Analytics-Tool;Eigenschaft;Tooltyp;Toolname;Konfigurationsmethode;Analytics Premium;eVars;Ereignisse
 title: Adobe Analytics-Tool hinzufügen
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '750'
+workflow-type: tm+mt
+source-wordcount: '771'
 ht-degree: 100%
 
 ---
