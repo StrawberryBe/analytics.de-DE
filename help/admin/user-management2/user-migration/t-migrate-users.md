@@ -70,7 +70,7 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domäne angefordert </p> </td> 
-      <td colname="col2"> <p>Wenn Sie Benutzer als Enterprise- oder Federated IDs migrieren möchten, müssen Sie Systemadministrator sein und eine verfügbare Domäne über die Admin Console anfordern, bevor Sie Benutzer migrieren können. <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">Weitere Informationen</a>. </p> <p>Wenn Sie keine Domänen für Enterprise- oder Federated IDs anfordern möchten, überspringen Sie diesen Schritt und migrieren Sie Benutzer als Adobe IDs. Erfahren Sie <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">hier</a> mehr über ID-Typen. </p> </td> 
+      <td colname="col2"> <p>Wenn Sie Benutzer als Enterprise- oder Federated IDs migrieren möchten, müssen Sie Systemadministrator sein und eine verfügbare Domäne über die Admin Console anfordern, bevor Sie Benutzer migrieren können. <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">Weitere Informationen</a>. </p> <p>Wenn Sie keine Domänen für Enterprise- oder Federated IDs anfordern möchten, überspringen Sie diesen Schritt und migrieren Sie Benutzer als Adobe IDs. Erfahren Sie <a href="https://helpx.adobe.com/enterprise/help/identity.html">hier</a> mehr über ID-Typen. </p> </td> 
    </tr> 
    </tbody> 
    </table>
