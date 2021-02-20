@@ -6,8 +6,8 @@ uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3697'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ Beim Erstellen von Zielgruppensegmenten im Segmentaufbau definieren Sie Bedingun
 
 Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL AND] und [!UICONTROL OR] verbunden werden.
 
-## Sequenzielle Segmente  {#section_EE5B14287FC44E0B96E77679A2438948}
+## Sequenzielle Segmente   {#section_EE5B14287FC44E0B96E77679A2438948}
 
 Mit sequenziellen Segmenten können Sie Besucher anhand der Navigation und den Seitenansichten innerhalb Ihrer Site identifizieren, indem Sie ein Segment mit definierten Aktionen und Interaktionen bereitstellen. Mit sequenziellen Segmenten können Sie erkennen, was ein Besucher mag und was er meidet. Beim Erstellen sequenzieller Segmente wird der Operator [!UICONTROL THEN] eingesetzt, um die Navigation des Besuchers zu definieren und zu ordnen.
 
@@ -60,7 +60,7 @@ Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Da
 
 ## Anleitungsvideo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-In diesem Video erhalten Sie einen kurzen Überblick über die Container von Segmenten und ihre Verwendung: [Segmentieren von Containern in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+In diesem Video erhalten Sie einen kurzen Überblick über die Container von Segmenten und ihre Verwendung: [SegmentContainer in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Info zu Containern {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
