@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ In Freiformtabellen wird auf jeder Unterteilungsebene eine Zeile insgesamt angez
 
 ![](assets/total-row.png)
 
-## Gesamteinstellung anzeigen {#display-total}
+## Gesamteinstellung anzeigen  {#display-total}
 
 Unter **[!UICONTROL Spalteneinstellungen]** finden Sie die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]**. Wenn diese Einstellungen deaktiviert sind, werden die Summen aus der Tabelle entfernt. Dies kann in Fällen gewünscht werden, in denen Summen beispielsweise in bestimmten [Szenarien mit berechneten Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) keinen Sinn ergeben.
 
 ![](assets/column-settings-total.png)
 
-## Gesamteinstellungen für statische Zeile {#static-row-total}
+## Gesamteinstellungen für statische Zeile  {#static-row-total}
 
-Die Gesamtwerte für [statische Zeilen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) verhalten sich anders und werden unter **[!UICONTROL Zeileneinstellungen]** gesteuert.
+Die Gesamtwerte für [statische Zeilen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=de-DE) verhalten sich anders und werden unter **[!UICONTROL Zeileneinstellungen]** gesteuert.
 
 * **[!UICONTROL Summe der aktuellen Zeilen als Gesamtsumme anzeigen]**: Zeigt eine clientseitige Summe der Zeilen in der Tabelle, was bedeutet, dass die Gesamtsumme die Metriken wie Besuche oder Besucher **nicht** dedupliziert.
 * **[!UICONTROL Gesamtsumme anzeigen]**: Zeigt eine serverseitig Summe an, d. h. die Gesamtsumme dedupliziert Metriken wie Besuche oder Besucher.
