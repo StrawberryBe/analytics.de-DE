@@ -52,7 +52,7 @@ Wenn Sie eine geschützte Arbeitsmappe bearbeiten möchten (über das Kontextmen
 
 * Wenn Sie über die erforderlichen Berechtigungen verfügen, wird keine Meldung angezeigt und Sie können die Anforderung bearbeiten.
 
-## Arbeitsablauf {#section_260D05FF632B41DB97DB43E2ADBE2E75}
+## Arbeitsablauf  {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 
 Nehmen wir an, dass Arbeitsmappe A über eine Anforderung verfügt, die gesperrt ist und von Benutzer A erstellt wurde.
 
