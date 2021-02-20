@@ -1,13 +1,13 @@
 ---
 description: 'Nachstehend sind einige Best-Practice-Methoden für die Verarbeitung und Bereitstellung von Datenfeeds aufgeführt. Gehen Sie dazu folgendermaßen vor '
-keywords: Data Feed;best practices;traffic spike;hourly;ftp
+keywords: Datenfeed;Best Practices;Traffic-Spitze;Stündlich;FTP
 title: Best Practice und allgemeine Informationen
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '211'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 96%
 
 ---
 
