@@ -14,19 +14,19 @@ ht-degree: 78%
 
 Auf Plattformen von Drittanbietern wie Google Analytics stehen verschiedene Anpassungsoptionen zur Verfügung. Mit diesen Anpassungen können Anwender Dashboards, benutzerspezifische Berichte, gespeicherte Berichte und benutzerdefinierte Warnungen erstellen. Da Analysis Workspace seinen Anwendern das Erstellen von Berichten auf einer leeren Arbeitsfläche ermöglicht, sind die meisten Anpassungen direkt in das Tool integriert.
 
-This page assumes the user has a basic knowledge of using [!UICONTROL Analysis Workspace]. Siehe [Basisbericht in Analysis Workspace für GA-Anwender erstellen](reports/create-report.md), wenn Sie mit dem Tool in Adobe Analytics noch nicht vertraut sind.
+Diese Seite geht davon aus, dass der Benutzer über grundlegende Kenntnisse in der Verwendung von [!UICONTROL Analysis Workspace] verfügt. Siehe [Basisbericht in Analysis Workspace für GA-Anwender erstellen](reports/create-report.md), wenn Sie mit dem Tool in Adobe Analytics noch nicht vertraut sind.
 
 ## Dashboards
 
-The [!UICONTROL Analysis Workspace] architecture is built similar to the concept of dashboard widgets. Projects in [!UICONTROL Analysis Workspace] are the approximate equivalent to dashboards in Google Analytics. Visualizations in [!UICONTROL Analysis Workspace] are the approximate equivalent of widgets in Google Analytics.
+Die [!UICONTROL Analysis Workspace]-Architektur ist ähnlich wie das Konzept der Dashboard-Widgets aufgebaut. Projekte in [!UICONTROL Analysis Workspace] sind ungefähr äquivalent zu Dashboards in Google Analytics. Visualisierungen in [!UICONTROL Analysis Workspace] sind die ungefähr äquivalente Entsprechung von Widgets in Google Analytics.
 
 ### Hinzufügen von Inhalten zu einem Projekt
 
-1. Click the [!UICONTROL Visualizations] icon on the left and drag the desired visualization onto the workspace.
-2. Click the [!UICONTROL Components] icon on the left and drag the desired dimensions and metrics onto the visualization to populate it with data.
+1. Klicken Sie auf das Symbol [!UICONTROL Visualisierungen] links und ziehen Sie die gewünschte Visualisierung in den Arbeitsbereich.
+2. Klicken Sie auf das Symbol [!UICONTROL Komponenten] links und ziehen Sie die gewünschten Dimensionen und Metriken in die Visualisierung, um sie mit Daten zu füllen.
 3. Verschieben Sie die Kanten der Visualisierung, um die Größe zu ändern, und ziehen Sie den Titel der Visualisierung, um sie zu verschieben.
 
-All Google Analytics widgets are available in [!UICONTROL Analysis Workspace]:
+Alle Google Analytics-Widgets stehen unter [!UICONTROL Analysis Workspace] zur Verfügung:
 
 * Das **Metrik-Widget** entspricht ungefähr der Visualisierung der Zusammenfassungsnummer.
 * Das **Timeline-Widget** entspricht ungefähr der Linienvisualisierung.
@@ -41,12 +41,12 @@ All Google Analytics widgets are available in [!UICONTROL Analysis Workspace]:
 
 Nachdem Sie die Inhalte zu einem Projekt hinzugefügt haben, können Sie es freigeben.
 
-* To share the project with your colleagues, go to **[!UICONTROL Share > Share Project]**. Empfänger sind andere Anwender in Ihrer Organisation mit Adobe Analytics-Konten.
-* To share your project via a link, go to **[!UICONTROL Share > Get Project Link]**. Beachten Sie, dass hierfür in Ihrem Unternehmen weiterhin eine Anmeldung bei Adobe Analytics erforderlich ist.
+* Um das Projekt für Ihre Kollegen freizugeben, gehen Sie zu **[!UICONTROL Freigeben > Projekt freigeben]**. Empfänger sind andere Anwender in Ihrer Organisation mit Adobe Analytics-Konten.
+* Um Ihr Projekt über einen Link freizugeben, gehen Sie zu **[!UICONTROL Freigeben > Projektlink abrufen]**. Beachten Sie, dass hierfür in Ihrem Unternehmen weiterhin eine Anmeldung bei Adobe Analytics erforderlich ist.
 
 ### Exportieren von Projekten
 
-In addition to PDF, [!UICONTROL Analysis Workspace] offers a CSV export.
+Zusätzlich zu PDF führt [!UICONTROL Analysis Workspace] einen CSV-Export durch.
 
 1. Klicken Sie auf *[!UICONTROL Freigeben]* > *[!UICONTROL Datei jetzt senden]*, um ein modales Fenster zu öffnen.
 2. Geben Sie den Dateityp und die Empfänger an.
