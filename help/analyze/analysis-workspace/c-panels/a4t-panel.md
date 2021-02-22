@@ -2,10 +2,10 @@
 description: Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren.
 title: Bedienfeld „Analytics for Target“ (A4T)
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 82%
+source-wordcount: '1103'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,6 @@ Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse forts
 | Warum werden nicht verwendete Erlebnisse zurückgegeben, wenn ich in meiner Analyse ein Hit-Segement für eine bestimmte Target-Aktivität anwende? | Die A4T-Dimension ist eine Listenvariable, d. h. sie kann mehrere Aktivitäten (und Erlebnisse) gleichzeitig enthalten. [Weitere Infos](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | Berücksichtigt die Konfidenzmetrik extreme Bestellungen oder wendet sie eine Bonferroni-Korrektur für mehrere Bestellungen an? | Nein. [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) darüber, wie Analytics Konfidenz berechnet. |
 | Können Steigerungs- und Konfidenzmetriken mit anderen Dimensionen oder Aufschlüsselungen verwendet werden? | Steigerung und Konfidenz sind „gesperrte Metriken“ für die Dimension „Target-Erlebnisse“, da sie ein Kontrollerlebnis und ein Variantenerlebnis für die Berechnung erfordern. Sie können daher nicht aufgeschlüsselt oder mit anderen Dimensionen verwendet werden. |
-| Wann werden Steigerung und Konfidenz neu berechnet? | Steigerung und Konfidenz werden bei jeder Ausführung (oder erneuten Ausführung) des Bedienfelds, bei einer Änderung des Datumsbereichs oder bei Anwendung eines Segments auf das Bedienfeld oder die Tabelle neu berechnet. |
+| Wann werden Steigerung und Konfidenz neu berechnet? | Steigerung und Konfidenz werden bei jeder Ausführung (oder erneuten Ausführung) des Bedienfelds, bei einer Änderung des Datumsbereichs oder bei Anwendung eines Segments auf das Bedienfeld oder die Tabelle neu berechnet. Wenn Sie einen Segmentfilter auf die Freiform-Tabelle anwenden, muss er über alle Spalten hinweg angewendet werden. Andernfalls wird die Konfidenz nicht korrekt aktualisiert. Segmente auf Spaltenebene werden derzeit nicht unterstützt. |
 
 Weitere Informationen zu „Analytics for Target“-Berichten finden Sie unter [A4T-Reporting](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/reporting.html).
