@@ -2,10 +2,10 @@
 description: Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren.
 title: Bedienfeld „Analytics for Target“ (A4T)
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 86%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Für jede Freiformtabelle werden die folgenden Metrikspalten angezeigt:
 | Steigerung (Maximalwert) | Stellt die beste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % über der Kontrolle haben könnte.<br>Berechnung: siehe Steigerung (unten). |
 | Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Berechnung: Wenden Sie einen zweiseitigen t-Test mit y+y_control-2 Freiheitsgraden an, um den p-Wert zu finden, ob x/y gleich x_control/y_control ist. Berechnen Sie den t-Score, wobei stderr sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control) ist. Geben Sie 1-p als Konfidenz zurück, dass sie unterschiedlich sind. |
 
-Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen.
+Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen. Sie können ein Segment auch entweder auf Bereichsebene oder innerhalb der Freiform-Tabelle anwenden. Beachten Sie, dass Sie beim Hinzufügen in der Freiform-Tabelle eine Überlagerung über die gesamte Tabelle durchführen müssen, um die Steigerungs- und Konfidenzberechnungen beizubehalten. Segmente auf Spaltenebene werden derzeit nicht unterstützt.
 
 ## Häufig gestellte Fragen (FAQ) {#FAQ}
 
