@@ -26,7 +26,6 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 >Damit die interaktiven Steuerelemente funktionieren, muss Report Builder v5.0 installiert sein. >
 >* Wenn Sie Microsoft Excel unter Windows ausführen, aber Ihre Report Builder-Version niedriger ist, oder Sie Report Builder nicht installiert haben, können Sie den Wert im interaktiven Steuerelement zwar ändern, es werden jedoch weder die verknüpfte Anforderung noch die zugehörigen Parameter der Anforderung aktualisiert.
 >* Wenn Sie Excel auf einem Mac ausführen, wird die folgende Nachricht angezeigt, wenn Sie den Wert im Steuerelement ändern: „Das Makro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; kann nicht gefunden werden.“
-
 >
 
 
