@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: Advertising Analytics-Übersicht
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
+description: Entdecken Sie alles, was Sie mit Advertising Analytics tun können, in dieser Anleitung, einschließlich der erforderlichen Berechtigungen und verfügbaren Dimensionen und Metriken.
+title: Ein Leitfaden für Advertising Analytics
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
 
-# Advertising Analytics-Übersicht
+# Ein Leitfaden zu Advertising Analytics
 
 Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten Sie Daten zu Google AdWords/DFA oder Microsoft Bing Ads in Adobe Advertising Cloud (AMO) oder in Google/Bing anzeigen. Sie erhalten in Adobe Analytics folgende Daten: Impressionen, Klicks, Kosten, Qualitätsbewertung und durchschnittliche Position direkt aus Suchmaschinen sowie AMO-ID-Instanzen (Klickinstanzen).
 
