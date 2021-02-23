@@ -1,23 +1,20 @@
 ---
 description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
-subtopic: Get started
 title: Erste Schritte mit Reports and Analytics
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 97%
 
 ---
 
 
-# Erste Schritte mit Reports &amp; Analytics
+# Erste Schritte mit Reports &amp; Analysen
 
 Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
-Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Die Marketingberichte beinhalten zum Beispiel Informationen zu Folgendem:
+Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Einige Beispiele für Berichte:
 
 * Wie viele Personen Ihre Website besuchen
 * Wie viele dieser Besucher Unique Visitors sind (d. h. nur einmal gezählt werden)
@@ -91,39 +88,12 @@ Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png) und ansch
 
 Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die folgenden Informationen sind für die Ansicht oder Bearbeitung verfügbar:
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Art der Informationen </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>Kontaktperson </p> </td> 
-   <td> <p>Geben Sie die folgenden persönlichen Daten für Ihr Konto an: </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">Vorname (erforderlich) </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">Nachname (erforderlich) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Anrede/Titel </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">E-Mail-Adresse (erforderlich) </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">Telefonnummer </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Anmelden </p> </td> 
-   <td> <p>Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. </p> <p>Siehe auch: <a href="https://helpx.adobe.com/de/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Zurücksetzen des Kennworts für Reports &amp; Analytics</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Webdienst </p> </td> 
-   <td> <p>Zeigt den Webdienst-Benutzernamen und den gemeinsamen geheimen Schlüssel zu Ihrem Konto an. Mit diesen Anmeldedaten können Sie über die Webdienste-APIs auf die Experience Cloud zugreifen. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Anmerkung: Diese Informationen werden nur angezeigt, wenn das Konto als Webdienste-Benutzer autorisiert ist. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Diesen Computer ausschließen </p> </td> 
-   <td> <p>Wendet ein Cookie auf den aktuellen Computer an, um diesen von der Datenkollektion auszuschließen. Dies ist hilfreich wenn Sie vermeiden möchten, dass Ihre Online-Aktivitäten die Seitenansichts- und Besucher-Zahlen in Ihrer Domäne beeinflussen. </p> <p> <p>Anmerkung: Um diese Funktion nutzen zu können müssen Cookies in Ihrem Browser aktiviert sein. Wenn Sie Cookies auf Ihrem Computer löschen, müssen Sie das Ausschlusscookie wieder zurücksetzen. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Art der Informationen | Definition |
+| --- | --- |
+| Kontaktperson | Geben Sie die folgenden persönlichen Daten für Ihr Konto an:<ul><li>Vorname (erforderlich)</li><li>Nachname (erforderlich)</li><li>Anrede/Titel</li><li>E-Mail-Adresse (erforderlich)</li><li>Telefonnummer</li></ul> |
+| Anmelden | Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. Siehe auch: [Zurücksetzen des Kennworts für Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Webdienst | Zeigt den Webdienst-Benutzernamen und den gemeinsamen geheimen Schlüssel zu Ihrem Konto an. Mit diesen Anmeldedaten können Sie über die Webdienste-APIs auf die Experience Cloud zugreifen. Weitere Informationen finden Sie unter Developer Connection. **Anmerkung:** Diese Informationen werden nur angezeigt, wenn das Konto als Webdienste-Benutzer autorisiert ist. |
+| Diesen Computer ausschließen | Wendet ein Cookie auf den aktuellen Computer an, um diesen von der Datenkollektion auszuschließen. Dies ist hilfreich wenn Sie vermeiden möchten, dass Ihre Online-Aktivitäten die Seitenansichts- und Besucher-Zahlen in Ihrer Domäne beeinflussen. **Anmerkung:** Um diese Funktion nutzen zu können müssen Cookies in Ihrem Browser aktiviert sein. Wenn Sie Cookies auf Ihrem Computer löschen, müssen Sie das Ausschlusscookie wieder zurücksetzen. |
 
 ## Sprache der Benutzeroberfläche ändern
 
