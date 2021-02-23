@@ -2,9 +2,9 @@
 title: Adobe Analytics-Berechtigungen - Übersichtstabellen
 description: Tabellen, die die verfügbaren Adobe Analytics-Berechtigungen in der Admin Console zusammenfassen.
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Kosten | x |  |  |  | Gewährt Zugriff auf „Marketing-Kanäle > Marketingkanal-Kosten“ im Report Suite Manager. |
 | Benutzerdefinierter Kalender | x |  |  |  | Gewährt Zugriff auf „Allgemein > Kalender anpassen“ im Report Suite Manager. |
 | Data Feeds Manager | x |  |  |  | Gewährt Zugriff auf „Admin > Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
-| Datenreparatur-API | x |  |  |  | Neu (in Beta) - Gewährt Zugriff auf die Datenreparatur-API |
+| Datenreparatur-API | x |  |  |  | Gewährt Zugriff auf die Datenreparatur-API |
 | Data Sources Manager | x |  |  |  | Gewährt Zugriff auf „Admin > Data Sources“ im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
 | Standardmetriken | x |  |  |  | Gewährt Zugriff auf „Individuelle Report Suite-Einstellungen > Standardmetriken“ im Report Suite Manager. |
 | Nach IP-Adresse ausschließen | x |  |  |  | Gewährt Zugriff auf „Admin > Ausschluss nach IP“ im oberen Navigationsbereich von Analytics. |
