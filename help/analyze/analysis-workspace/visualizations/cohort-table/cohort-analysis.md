@@ -1,16 +1,16 @@
 ---
-title: Was ist eine Kohortenanalyse?
-description: Erfahren Sie mehr über die Kohortenanalyse in Analysis Workspace.
+title: Was ist Kohorte-Analyse und wie funktioniert sie?
+description: Informieren Sie sich genauer über die Daten rund um Ihre Audience und unterteilen Sie mit der Kohorten-Analyse die zugehörigen Gruppen. Erfahren Sie mehr über die Analyse der Kohorte in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 89%
 
 ---
 
 
-# Was ist eine [!UICONTROL Kohortenanalyse]?
+# Weitere Informationen zur [!UICONTROL Kohorte-Analyse] in Adobe Analytics
 
 Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die [!UICONTROL Kohortenanalyse] ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Erläuterungen zur [!UICONTROL Kohortenanalyse] sind im Internet verfügbar, z. B. unter [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
