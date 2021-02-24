@@ -2,10 +2,10 @@
 title: Implementieren mit AMP
 description: Implementieren Sie Adobe Analytics auf AMP-Seiten.
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Da Adobe Analytics zum Kompilieren und Senden einer Bildanforderung eine JavaScr
 
 ## Festlegen der Methode zum Implementieren von Adobe Analytics auf Seiten mit AMP
 
-Adobe bietet zwei Methoden zum Implementieren von Adobe Analytics auf Seiten mit AMP. Beide verwenden das HTML-Tag `<amp-analytics>`. Weitere Informationen finden Sie unter [amp-analytics-Tag](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) im ampproject-GitHub.
+Adobe bietet zwei Methoden zum Implementieren von Adobe Analytics auf Seiten mit AMP. Beide verwenden das HTML-Tag `<amp-analytics>`. Weitere Informationen finden Sie in der Dokumentation von AMP unter [amp-analytics-Tag](https://amp.dev/documentation/components/amp-analytics).
 
 * **Tracking-Vorlage `"adobeanalytics"` verwenden**: Erstellen Sie die Analytics-Anforderung direkt auf der Seite
 * **`"analytics_nativeConfig"` Tracking-Vorlage verwenden**: Verwenden Sie einen iFrame, der denselben AppMeasurement-Code enthält, den Sie auf Ihrer normalen Website bereitstellen
