@@ -2,13 +2,13 @@
 description: Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltung der Inhalte, die an die Berichterstellung gesendet wurden.
 subtopic: Processing rules
 title: Übersicht über Verarbeitungsregeln
-topic: Admin tools
+topic: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 68%
 
 ---
 
@@ -40,9 +40,19 @@ Administratoren haben standardmäßig die Berechtigung, Verarbeitungsregeln **zu
 
 Kontextdatenvariablen sind Variablentypen, die nur für Verarbeitungsregeln verfügbar sind. Für die Verwendung von Kontextdatenvariablen werden Schlüssel-Wert-Datenpaare durch unsere Implementierung eingereicht, und es werden Verarbeitungsregeln angewendet, um diese Werte in Standard-Analytics-Variablen zu erfassen. So müssen Programmierer nicht immer genau wissen, welche Prop und/oder eVar welchen Wert enthalten muss.
 
-![](assets/evar-context-map.png)
+```js
+s.contextData['author'] = "Robert Munch";
+s.contextData['section'] = "Books";
+s.contextData['genre'] = "Youth";
+```
 
-Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/contextdata.html) in der Implementierungshilfe.
+Nach der Einstellung im Code können Sie Verarbeitungsregeln festlegen, um Variablen Werte zuzuweisen. Beispiel:
+
+1. Ordnen Sie `author` zu `eVar2` zu
+2. Ordnen Sie `section` zu `prop1` und `eVar3` zu
+3. Wenn `author` und `section` vorhanden sind, setzen Sie `event5`
+
+Weitere Informationen finden Sie unter [contextData](/help/implement/vars/page-vars/contextdata.md) im Benutzerhandbuch für die Implementierung.
 
 ## Verwenden von Verarbeitungsregeln zum Korrigieren von Daten und zum Auslösen von Ereignissen   {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -52,4 +62,4 @@ Mit Verarbeitungsregeln können eingehende Werte überwacht werden. Dabei werden
 
 Sobald in Ihrer Implementierung Kontextdatenvariablen definiert sind, müssen diese in Variablen wie eVars kopiert werden, damit sie in Berichten verwendet werden können.
 
-Weitere Informationen finden Sie  [hier](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) und [hier](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+Weitere Informationen finden Sie unter [Kopieren einer Kontextdatenvariablen in eine eVar](processing-rules-examples/processing-rules-copy-context-data.md) und [Festlegen eines Ereignisses mithilfe einer Kontextdatenvariablen](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
