@@ -5,7 +5,7 @@ title: Übersicht über Verarbeitungsregeln
 topic: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ Mit Verarbeitungsregeln können eingehende Werte überwacht werden. Dabei werden
 
 Sobald in Ihrer Implementierung Kontextdatenvariablen definiert sind, müssen diese in Variablen wie eVars kopiert werden, damit sie in Berichten verwendet werden können.
 
-Weitere Informationen finden Sie unter [Kopieren einer Kontextdatenvariablen in eine eVar](processing-rules-examples/processing-rules-copy-context-data.md) und [Festlegen eines Ereignisses mithilfe einer Kontextdatenvariablen](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+Weitere Informationen finden Sie unter [Kopieren einer Kontextdatenvariablen in eine eVar](processing-rules-examples/processing-rules-copy-context-data.md) und [Festlegen eines Ereignisses mithilfe einer Kontextdatenvariablen](processing-rules-examples/processing-rules-copy-context-data-event.md).
