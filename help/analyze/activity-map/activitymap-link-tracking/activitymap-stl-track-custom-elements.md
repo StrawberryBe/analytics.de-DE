@@ -1,39 +1,38 @@
 ---
-description: Mit der s.tl()-Methode können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalte konfigurieren.
-title: s.tl()-Methode verwenden
-topic: Activity map
-uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
+title: Verwenden Sie die tl()-Methode mit Activity Map
+description: Mit der Methode tl() können Sie benutzerdefinierte Elemente verfolgen und das Überlagerungsrendering für dynamische Inhalte konfigurieren.
+topic: Activity Map
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 65cb0a49ef74156f0b8adf4a11c6fec6394d306f
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 43%
 
 ---
 
 
-# `tl()`-Methode verwenden
+# Verwenden Sie die `tl()`-Methode mit Activity Map
 
 Mit der `tl()`-Methode können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalte konfigurieren.
 
-## Benutzerdefinierte Elemente verfolgen {#section_5D6688DFFFC241718249A9A0C632E465}
+## Benutzerdefinierte Elemente verfolgen
 
-Durch Verwendung der [`tl()`-Methode](/help/implement/vars/functions/tl-method.md) als Bestandteil des Activity Map-Moduls AppMeasurement können Sie alle Objekte verfolgen, auf die geklickt wird, selbst Objekte, die keine Anker-Tags oder Bildelemente sind. Mit s.tl können Sie benutzerdefinierte Elemente verfolgen, die nicht zum Laden einer Seite führen.
+Durch Verwendung der [`tl()`-Methode](/help/implement/vars/functions/tl-method.md) als Bestandteil des Activity Map-Moduls AppMeasurement können Sie alle Objekte verfolgen, auf die geklickt wird, selbst Objekte, die keine Anker-Tags oder Bildelemente sind. Mit `tl()` können Sie alle benutzerspezifischen Elemente verfolgen, die nicht zum Laden der Seite führen.
 
 In der `tl()`-Methode wird der Parameter `linkName`, der aktuell zum Identifizieren der Exitlinks, benutzerdefinierten Links usw. dient, jetzt auch zum Identifizieren der Link-ID für die Activity Map-Variable verwendet.
 
 ```js
-s.tl(this,linkType,linkName,variableOverrides)
+s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-Mit anderen Worten, wenn Sie `s.tl()` zur Verfolgung Ihrer benutzerdefinierten Elemente verwenden, wird die Link-ID dem Wert entnommen, der als dritter Parameter (linkName) in der `s.tl()`-Methode übergeben wird. Sie wird nicht dem Standard-Linktracking-Algorithmus entnommen, der zur [Standardverfolgung](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in Activity Map verwendet wird.
+Wenn Sie also `tl()` verwenden, um Ihre benutzerdefinierten Elemente zu verfolgen, wird die Link-ID aus dem Wert gezogen, der als dritter Parameter (Linkname) in der `tl()`-Methode übergeben wird. Sie wird nicht dem Standard-Linktracking-Algorithmus entnommen, der zur [Standardverfolgung](activitymap-link-tracking-methodology.md) in Activity Map verwendet wird.
 
-## Überlagerungsrendering für dynamischen Inhalt {#section_FD24B61A732149C7B58BA957DD84A5E7}
+## Überlagerungsrendering für dynamischen Inhalt
 
-Wenn die Funktion s.tl() direkt vom onclick-Ereignis des HTML-Elements aufgerufen wird, kann Activity Map eine Überlagerung für dieses Element anzeigen, sobald die Webseite geladen ist. Beispiel:
+Wenn die `tl()`-Methode direkt vom On-Click-Ereignis des HTML-Elements aufgerufen wird, kann Activity Map beim Laden der Webseite eine Überlagerung für dieses Element anzeigen. Beispiel: 
 
 ```html
-<div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
+<a href="javascript:" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
 Wenn der Webseite nach dem ersten Laden Inhalt hinzugefügt wird, so wird die `tl()`-Methode indirekt aufgerufen und es können keine Überlagerungen für diesen neuen Inhalt angezeigt werden, es sei denn, er wird explizit aktiviert oder angeklickt. Dann wird ein neuer Link-Erfassungsprozess von Activity Map ausgelöst.
@@ -41,7 +40,7 @@ Wenn der Webseite nach dem ersten Laden Inhalt hinzugefügt wird, so wird die `t
 Wenn die `tl()`-Methode nicht direkt vom onclick-Ereignis eines HTML-Elements aufgerufen wird, kann Activity Map die Überlagerung erst anzeigen, nachdem der Benutzer auf dieses Element geklickt hat. Im folgenden Beispiel wird die `tl()`-Methode indirekt aufgerufen:
 
 ```html
-<div onclick="someFn(event)"></div>
+<a href="javascript:" onclick="someFn(event);">Example link text</a>
 <script>function someFn (event)
 {
   s.tl(event.srcElement,'o','Example custom link');
@@ -49,14 +48,18 @@ Wenn die `tl()`-Methode nicht direkt vom onclick-Ereignis eines HTML-Elements au
 </script>
 ```
 
-Die beste Möglichkeit für Activity Map, dynamische Inhalts-Links zu überlagern, besteht darin, eine benutzerdefinierte ActivityMap.link-Funktion einzurichten, um dieselbe Funktion aufzurufen, deren Rückgabewert an `s.tl` übergeben wird. Beispiel:
+Die beste Möglichkeit zum Überlagern dynamischer Inhaltslinks besteht darin, dass eine benutzerdefinierte `ActivityMap.link`-Funktion eingerichtet ist, um dieselbe Funktion aufzurufen, deren Rückgabewert an `tl()` übergeben wird. Beispiel:
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
-s.ActivityMap.link = function(element,linkName) {
-    return linkName ||      // if this is a s.tl call, just return string passed
-        makeLinkName(element) || // this is ActivityMap reporting time
-        originalLinkFunction(element,linkName); // our custom function didn't return anything, so just return the default ActivityMap Link
+s.ActivityMap.link = function(element,linkName)
+{
+    // if this is a s.tl call, just return string passed
+    return linkName ||      
+    // this is ActivityMap reporting time
+    makeLinkName(element) ||
+    // our custom function didn't return anything, so just return the default ActivityMap Link
+    originalLinkFunction(element,linkName);
 };
 ```
 
@@ -64,8 +67,8 @@ s.ActivityMap.link = function(element,linkName) {
 <button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
-Wir haben die ActivityMap.link-Funktion überschrieben, damit sie eine der drei Aktionen bewirkt, wenn sie aufgerufen wird:
+Hier haben wir die Funktion `ActivityMap.link` überschrieben, um bei einem Aufruf eines von drei Dingen auszuführen:
 
-1. Wenn linkName übergeben wird, wird dieser von s.tl() aufgerufen, es wird also nur zurückgegeben, was s.tl als linkName übergeben hat.
-2. Dies wird von Activity Map zur Berichtszeit aufgerufen, weshalb linkName nie übergeben wird und makeLinkName() mit dem Linkelement aufgerufen werden kann. Dieser Schritt hier ist ausschlaggebend: Der „makeLinkName(element)“-Aufruf sollte derselbe sein wie das dritte Argument beim s.tl-Aufruf im `<button>`-Tag. Deshalb verfolgen wird beim Aufruf von s.tl die Zeichenkette, die von makeLinkName zurückgegeben wird. Wenn Activity Map Berichte für die Links auf der Seite erstellt, wird derselbe Aufruf zur Erstellung eines Links verwendet.
-3. Als endgültige Lösung wird der ursprüngliche Rückgabewert der Standard-Activity Map-Link-Funktion zurückzugeben. Durch dieses Verfahren müssen Sie nur makeLinkName überschreiben bzw. benutzerdefinierten Code dafür schreiben, und nicht einen Link-Rückgabewert für alle Links auf der Seite erstellen.
+1. Wenn `linkName` übergeben wird, wurde dies von `tl()` aufgerufen, also geben Sie einfach zurück, was `tl()` als `linkName` weitergegeben wurde.
+2. Wenn Activity Map zur Berichte-Zeit aufgerufen wird, wird ein `linkName` nie übergeben. Rufen Sie daher `makeLinkName()` mit dem Link-Element auf. Dies ist der entscheidende Schritt hier - der `makeLinkName(element)`-Aufruf sollte mit dem 3. Argument des `tl()`-Aufrufs im `<button>`-Tag identisch sein. Das bedeutet, dass beim Aufruf von `tl()` die von `makeLinkName()` zurückgegebene Zeichenfolge verfolgt wird. Beim Activity Map von Berichten zu den Links auf der Seite wird der gleiche Aufruf verwendet, um einen Link zu erstellen.
+3. Als endgültige Lösung wird der ursprüngliche Rückgabewert der Standard-Activity Map-Link-Funktion zurückzugeben. Wenn Sie diesen Verweis so umschließen, dass er im Standardfall aufgerufen wird, müssen Sie nur benutzerdefinierten Code für `makeLinkName()` überschreiben und keinen Link-Rückgabewert für alle Links auf der Seite erstellen.
