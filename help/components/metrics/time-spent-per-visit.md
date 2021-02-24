@@ -2,7 +2,7 @@
 title: Zeit pro Besuch
 description: Die Zeit, die pro Besuch für das Dimensionselement verbracht wurde.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Diese Metrik ist aufgrund ihrer unterschiedlichen Verarbeitungsarchitektur nicht
 
 ## Berechnung dieser Metrik
 
-Diese Metrik verwendet die Formel [`Total seconds spent`](total-seconds-spent.md) `divided by` ([`Visits`](visits.md) `minus` [`Bounces`](bounces.md)).
+Diese Metrik verwendet die Formel [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`.
 
 ## Vergleich mit der durchschnittlichen Besuchszeit pro Site
 
