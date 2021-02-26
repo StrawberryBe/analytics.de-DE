@@ -1,22 +1,22 @@
 ---
-title: Adobe Analytics-Berechtigungen - Übersichtstabellen
-description: Tabellen, die die verfügbaren Adobe Analytics-Berechtigungen in der Admin Console zusammenfassen.
+title: Adobe Analytics-Berechtigungen – Übersichtstabellen
+description: Tabellen, die die verfügbaren Adobe Analytics-Berechtigungen in Admin Console zusammenfassen.
 translation-type: tm+mt
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 source-wordcount: '1255'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Analytics-Berechtigungen - Übersichtstabellen
+# Adobe Analytics-Berechtigungen – Übersichtstabellen
 
-Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Berechtigungen in der Admin Console nach logischen Gruppierungen zu identifizieren.
+Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Berechtigungen in Admin Console logisch gruppiert zu ermitteln.
 
 ## Report Suite-Tools
 
-| Report Suite-Tool | Administration | Zugriffskontrollen | Nur Berichte - Funktionen | Nicht mehr verwendet | Beschreibung |
+| Report Suite-Werkzeug | Administration | Zugriffskontrollen | Reine Berichtsfunktionen | Nicht mehr verwendet | Beschreibung |
 | --- | --- | --- | --- | --- | --- |
 | Kontozusammenfassung | x |  |  |  | Gewährt Zugriff auf „Allgemein > Allgemeine Kontoeinstellungen“ im Report Suite Manager. |
 | Kanäle | x |  |  |  | Gewährt Zugriff auf „Marketing-Kanäle“, einschließlich „Marketingkanal-Manager“, „Marketingkanal-Verarbeitungsregeln“ und „Marketingkanalablauf“ im Report Suite Manager. |
@@ -62,7 +62,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Report Suite insgesamt |  |  |  | x | Nicht verwendet. |
 | Report Suites (Lesen) |  |  |  | x | Nicht verwendet. |
 | Report Suites (Schreiben) |  |  |  | x | Nicht verwendet. |
-| Site Catalyst |  |  |  | x | Nicht verwendet. Verwenden Sie stattdessen „Zugriff auf Analysis Workspace“. |
+| SiteCatalyst |  |  |  | x | Nicht verwendet. Verwenden Sie stattdessen „Zugriff auf Analysis Workspace“. |
 | Social |  |  |  | x | Nicht verwendet. |
 | Text-Reportlet |  |  |  | x | Nicht verwendet. |
 | Traffic-Management |  |  |  | x | Nicht verwendet. |
@@ -72,7 +72,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 
 ## Analytics-Tools
 
-| Analytics-Werkzeug | Administration | Zugriffskontrollen | Nur Berichte - Funktionen | Nicht mehr verwendet | Beschreibung |
+| Analytics-Werkzeug | Administration | Zugriffskontrollen | Reine Berichtsfunktionen | Nicht mehr verwendet | Beschreibung |
 | --- | --- | --- | --- | --- | --- |
 | Code-Manager | x |  |  |  | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin > Code-Manager“. In den meisten Fällen sollten Sie stattdessen die in Adobe Experience Platform Launch enthaltenen Bibliotheken verwenden. |
 | Code-Manager – Web-Services | x |  |  |  | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
@@ -103,7 +103,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Advertising Analytics-Verwaltung |  |  |  | x | Nicht verwendet. |
 | Co-Branding |  |  |  | x | Wird nicht mehr länger verwendet. Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Co-Branding“. |
 | Excel-Lizenzanwender |  |  |  | x | Nicht verwendet. |
-| Mobile App Admin |  |  |  | x | Nicht verwendet. |
+| Mobile App-Admin |  |  |  | x | Nicht verwendet. |
 | Berechtigungsverwaltung |  |  |  | x | Wird nicht mehr länger verwendet. Gewährt Zugriff auf die Benutzeroberfläche der veralteten Benutzerverwaltung unter „Admin > Benutzerverwaltung“. |
 | Berechtigungen (lesen) – Web-Services |  |  |  | x | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API anzuzeigen. Verwenden Sie stattdessen die Adobe Admin Console. |
 | Berechtigungen (schreiben) – Web-Services |  |  |  | x | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API zu bearbeiten. Verwenden Sie stattdessen die Adobe Admin Console. |
