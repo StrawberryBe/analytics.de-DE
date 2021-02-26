@@ -3,10 +3,10 @@ description: Diese Änderungen an der Funktionsweise von berechneten Metriken in
 title: Häufig gestellte Fragen
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 100%
+source-wordcount: '2055'
+ht-degree: 98%
 
 ---
 
@@ -46,8 +46,6 @@ Diese Änderungen an der Funktionsweise von berechneten Metriken in [!DNL Analyt
 [Warum werden meine berechneten Metriken nicht im Marketing-Kanal-Bericht angezeigt?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [Warum enthalten einige der berechneten Metriken Formeln ohne die Klammern, die ich hinzugefügt habe?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
-
-[(Nur Ad Hoc Analysis) Werden berechnete Metriken mit eingebetteten oder Inline-Segmentdefinitionen weiterhin unterstützt?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [(Nur Report Builder) Warum sind berechnete Metriken aus meinen Anforderungen verschwunden?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -120,7 +118,7 @@ Globale berechnete Metriken können nun nicht mehr über Anmeldeunternehmen hinw
 
 Jetzt sind berechnete Metriken mit der Classification „Numerisch“ oder „Numerisch 2“ weiterhin in [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] und den APIs sichtbar. Sie werden allerdings in keinem Bericht mit einem angewendeten Segment unterstützt.
 
-Darüber hinaus werden berechnete Metriken mit der Classification „Numerisch“ oder „Numerisch 2“ in den folgenden Komponenten nicht unterstützt: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Echtzeitberichte], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse]. Wenn Sie eine berechnete Metrik mit der Classification Numerisch oder Numerisch2 erstellen oder bearbeiten, wird eine Kompatibilitätswarnung angezeigt, dass die berechnete Metrik mit bestimmten Produktbereichen nicht kompatibel ist.
+Darüber hinaus werden berechnete Metriken mit der Classification Numerisch oder Numerisch2 in den folgenden Komponenten nicht unterstützt: [!UICONTROL Analysis Workspace], [!UICONTROL Echtzeitberichte], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse-Analyse]. Wenn Sie eine berechnete Metrik mit der Classification Numerisch oder Numerisch2 erstellen oder bearbeiten, wird eine Kompatibilitätswarnung angezeigt, dass die berechnete Metrik mit bestimmten Produktbereichen nicht kompatibel ist.
 
 **Zu ergreifende Maßnahme**
 
@@ -183,14 +181,6 @@ Jetzt sind nur die berechneten Metriken in der Metrikauswahl in Marketingkanalbe
 ## Warum enthalten einige der berechneten Metriken Formeln ohne die Klammern, die ich hinzugefügt habe? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 Bei der Migration hat Adobe überflüssige Klammern aus einigen Formeln entfernt. Dabei wurden nur Klammern entfernt, die keinen Einfluss auf die Berechnung der Metrik haben. Die Daten werden dadurch nicht geändert, es wird lediglich die Formel vereinfacht.
-
-## (Nur Ad Hoc Analysis) Werden berechnete Metriken mit eingebetteten oder Inline-Segmentdefinitionen weiterhin unterstützt? {#section_B25C924A282F49388AB604E3D826F44C}
-
-In Ad Hoc Analysis erstellte berechnete Metriken konnten bisher Inline-Segmentdefinitionen enthalten. Dies ist nun nicht mehr möglich.
-
-**Zu ergreifende Maßnahme**
-
-Sie müssen das Segment explizit speichern. Vorhandene berechnete Metriken mit Inline-Segmentdefinitionen werden weiterhin ordnungsgemäß ausgeführt und können in Ad Hoc Analysis angezeigt werden. Sie können allerdings nicht gespeichert werden, ohne das Segment explizit zu speichern.
 
 ## (Nur Report Builder) Warum sind berechnete Metriken aus meinen Anforderungen verschwunden? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
