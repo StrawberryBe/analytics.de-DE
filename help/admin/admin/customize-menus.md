@@ -1,13 +1,13 @@
 ---
 description: Mit dieser Funktion können die Berichtsmenüs angepasst werden, die einem Benutzer in Reports & Analytics angezeigt werden. Sie können Berichte ein- oder ausblenden und sie benutzerübergreifend in verschiedene Ordner verschieben. Diese Funktion ist besonders dann nützlich, wenn in Ihrem Unternehmen nur bestimmte Berichte genutzt werden und das linke Menü nicht mit ungenutzten oder irrelevanten Daten überladen werden soll.
 title: Menüanpassung
-topic: Admin tools
+topic: Admin Tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Die Menüänderungen gelten für sämtliche Benutzer, die auf die Report Suite z
 
 >[!NOTE]
 >
->Änderungen der Menüstruktur wirken sich nicht auf Report Builder oder Ad Hoc Analysis aus. Ein umbenannter Bericht wird hingegen in beiden Anwendungen unter dem neuen Namen angezeigt.
+>Eine Änderung der Menüstruktur hat keine Auswirkungen auf den Report Builder. Die Umbenennung eines Berichts wird jedoch in diesem Tool widergespiegelt.
 
 ## Menüanpassung – Beschreibungen {#section_B0D224DACB914A378902A4E0E1234889}
 
