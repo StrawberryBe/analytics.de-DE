@@ -3,12 +3,12 @@ source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '646'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
-# Profile für Adobe Analytics
+# Produktprofile für Adobe Analytics
 
-Produkt-Profil sind Vorgaben für die Berechtigung, die Produktadministratoren Benutzern innerhalb eines Unternehmens zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
+Produktprofile sind Berechtigungsvorgaben, die Produktadministratoren Benutzern in einer Organisation zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
 
 Allgemeine Informationen zu Produktprofilen finden Sie unter [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html) im Enterprise-Benutzerhandbuch.
 
@@ -17,9 +17,9 @@ Allgemeine Informationen zu Produktprofilen finden Sie unter [Verwalten von Prod
 Produktprofiladministratoren sind eine optionale Gruppe, die Benutzer zu diesem Produktprofil hinzufügen oder entfernen kann. Beachten Sie, dass ein Produktprofiladministrator nicht mit einem Produktadministrator identisch ist:
 
 * Produktprofiladministratoren haben keinen vollständigen Zugriff auf Adobe Analytics. Der uneingeschränkte Zugriff auf Adobe Analytics ist Produktadministratoren vorbehalten.
-* Produktadministratoren können die Berechtigungselemente in ihrem Produkt-Profil anpassen.
-* Produktadministratoren können Benutzergruppen Produktgruppen Profil zuweisen oder entfernen.
-* Produktadministratoren eignen sich ideal für Teamleiter oder Manager, die Adobe Analytics für ihr Profil zuweisen und verwalten müssen. Für Einzelpersonen ist es nicht erforderlich, dass Systemadministratoren oder Produktadministratoren sich die Mühe geben, Zugriff auf Adobe Analytics zu gewähren.
+* Produktprofiladministratoren können die Berechtigungselemente in ihrem Produktprofil anpassen.
+* Produktprofiladministratoren können Benutzergruppen Produktprofile zuweisen oder entziehen.
+* Produktprofiladministratoren eignen sich ideal für Teamleiter oder Manager, die für ihr Team den Zugriff auf Adobe Analytics gewähren und verwalten müssen. Für Einzelpersonen ist es nicht erforderlich, dass Systemadministratoren oder Produktadministratoren sich die Mühe geben, Zugriff auf Adobe Analytics zu gewähren.
 
 ## Adobe Analytics-Berechtigungselemente
 
@@ -50,10 +50,10 @@ Die Berechtigungselemente der Report Suite-Tools gewähren Zugriff auf Funktione
 
 ### Analytics-Tools
 
-Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, die unabhängig von den Report Suite-Einstellungen sind. Eine vollständige Liste der Berechtigungselemente und Beschreibungen finden Sie unter [Produktberechtigungen für Analytics-Profil](analytics-tools.md).
+Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, die unabhängig von den Report Suite-Einstellungen sind. Eine vollständige Liste der Berechtigungselemente und Beschreibungen finden Sie bei den [Produktprofilberechtigungen für Analytics-Werkzeuge](analytics-tools.md).
 
 ## Produktprofilentwickler
 
-Entwickler ähneln Benutzern, allerdings können sie die Experience Cloud API auf Adobe I/O verwenden. Weitere Informationen finden Sie unter [Verwalten von Entwicklern](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) im Enterprise-Benutzerhandbuch. Wenn einem Benutzer Entwicklerzugriff für ein beliebiges Profil gewährt wird, kann er auf die Dev-Konsole (console.adobe.io) zugreifen und Adobe Analytics-Integrationen bearbeiten. Die für den Benutzer autorisierten Analytics-API-Aufrufe und -Antworten hängen von den Netzberechtigungen aller Profil ab, auf denen der Benutzer Zugriff auf Entwickler hat.
+Entwickler ähneln Benutzern, allerdings können sie die Experience Cloud API auf Adobe I/O verwenden. Weitere Informationen finden Sie unter [Verwalten von Entwicklern](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) im Enterprise-Benutzerhandbuch. Wenn einem Benutzer Entwicklerzugriff für ein beliebiges Profil gewährt wird, kann er auf Developer Console (console.adobe.io) zugreifen und Adobe Analytics-Integrationen bearbeiten. Die für den Benutzer autorisierten Analytics-API-Aufrufe und -Antworten hängen von den Netzberechtigungen aller Profile ab, bei denen der Benutzer Entwicklerzugriff hat.
 
-Beispielsweise könnte ein Entwicklerzugriffsmitglied des Profils mit Profil-Berechtigungen, einschließlich aller Metriken, aller Dimensionen und einer Report Suite, API-Aufrufe für jede Komponente in der jeweiligen Suite durchführen. Wenn die Anomalieerkennung hinzugefügt wird, können die Berichte umfassendere Antworten enthalten und die Anomaliedaten hinzufügen. Wenn ein Profil Zugriff auf ein Szenario innerhalb der Adobe Analytics-Oberfläche gewährt, aktivieren Entwickler-Zugriff auf ein ähnlich definiertes Profil im Prinzip entsprechende API-Aufrufe und -Antworten.
+Beispielsweise könnte ein Nutzer mit Entwicklerzugriff bei einem Profil, bei dem die Profilberechtigungen alle Metriken, alle Dimensionen und eine Report Suite mit einschließen, API-Aufrufe für jede Komponente in der jeweiligen Suite durchführen. Wenn die Anomalieerkennung hinzugefügt wird, können die Berichte umfassendere Antworten enthalten und die Anomaliedaten mit aufnehmen. Als Faustregel gilt: Wenn ein Profil Zugriff auf ein Szenario innerhalb der Adobe Analytics-Oberfläche gewährt, werden mit Entwicklerzugriff auf ein ähnlich definiertes Profil entsprechende API-Aufrufe und -Antworten ermöglicht.
