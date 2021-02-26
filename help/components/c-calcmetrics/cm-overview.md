@@ -4,10 +4,10 @@ keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metrike
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
@@ -39,16 +39,11 @@ Hier sehen Sie einen Vergleich zwischen den jeweiligen Möglichkeiten, die berec
 
 Sie können
 
-* Metriken über [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse] hinweg erstellen.
+* Erstellen Sie Metriken für [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analysen], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragserkennung].
 * Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, [ohne die Implementierung ändern zu müssen](https://youtu.be/CuQTm9RaUpY). Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren.
 * Metriken über Report Suites hinweg freigeben. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
 * (Nur erweiterte berechnete Metriken) Segmente für Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der Personen gezählt werden, für die dies die erste Sitzung ist.
 * (Nur erweiterte berechnete Metriken) Statistische Funktionen miteinbeziehen, um Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
-* Metriken, die in [!UICONTROL Ad Hoc Analysis] erstellt wurden, in anderen [!DNL Analytics]-Werkzeugen verwenden und umgekehrt.
-
-   >[!NOTE]
-   >
-   >Sie können weiterhin Metriken in Ad Hoc Analysis erstellen. Die Benutzeroberfläche des dortigen Generators für berechnete Metriken ähnelt jetzt dem neuen Generator für Metriken.
 
 ## Einschränkungen {#section_CB878B02451541D68A68B508D4DBD19A}
 
