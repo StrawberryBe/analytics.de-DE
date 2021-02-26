@@ -2,13 +2,13 @@
 description: Data Sources bietet zwei zusätzliche Möglichkeiten, um Ereignisse, die offline auftreten, in Ihre Online-Daten zu integrieren.
 subtopic: Data sources
 title: Transaktions- und Kundenintegration
-topic: Developer and implementation
+topic: Entwickler und Implementierung
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 84%
 
 ---
 
@@ -64,8 +64,6 @@ Mithilfe von Transaktions-IDs können Sie den Status eines Besuchers zu einem be
 
 Der Wechsel von der Online- in die Offline-Umgebung verläuft oftmals anonym.
 
-Transaktions-ID-Ereignisse zwar nicht in Metriken für Beiträge zu Besuchen enthalten (in Marketingberichten angezeigt), wohl aber in den Metriken zum Besucherbeitrag (nur in der Ad-hoc-Analyse) enthalten.
-
-Der Grund hierfür besteht darin, dass die Transaktions-ID-Daten nicht mit einem Besuch (weil das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verbunden sind. 
+Transaktions-ID-Ereignis sind nicht in den Metriken zum Besuchsbeitrag enthalten (die in den Marketing-Berichten angezeigt werden). Dies liegt daran, dass die Transaktions-ID-Daten nicht mit einem Besuch verknüpft sind (da das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verknüpft sind.
 
 Siehe [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
