@@ -3,12 +3,12 @@ description: Tabellendaten, die die Spalten im Daten-Feed beschreiben.
 keywords: Datenfeed;Spalten
 subtopic: data feeds
 title: Datenspaltenreferenz
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: f3b227e7d2f239076f7c38abd42af6e1a86b0069
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3406'
+source-wordcount: '3396'
 ht-degree: 83%
 
 ---
@@ -178,7 +178,6 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `resolution` | Numerische ID, die die Auflösung des Bildschirms darstellt. Wird in der Dimension [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md) verwendet. Verwendet die Suchtabelle `resolution.tsv`. | smallint unsigniert |
 | `s_kwcid` | Die Keyword-ID, die in Adobe Advertising Cloud-Integrationen verwendet wird. | varchar(255) |
 | `s_resolution` | Rohwert der Bildschirmauflösung. Wird mit der JavaScript-Funktion `screen.width x screen.height` erfasst. | char(20) |
-| `sampled_hit` | Wird nicht mehr verwendet. Wurde zuvor für das Sampling in Ad Hoc Analysis verwendet. | char(1) |
 | `search_engine` | Numerische ID, die die Suchmaschine darstellt, die den Besucher auf Ihre Site verwiesen hat. Verwendet `search_engines.tsv`-Suche. | smallint unsigniert |
 | `search_page_num` | Wird von der Dimension [Rang aller Suchseiten](/help/components/dimensions/all-search-page-rank.md) verwendet. Gibt an, auf welcher Seite der Suchergebnisse Ihre Site angezeigt wurde, ehe der Benutzer sich zu Ihrer Site durchgeklickt hat. | smallint unsigniert |
 | `secondary_hit` | Flag, das sekundäre Treffer verfolgt. In der Regel stammt das Ergebnis von Multi-Suite-Tagging- und VISTA-Regeln, die Treffer kopieren. | tinyint unsigniert |
