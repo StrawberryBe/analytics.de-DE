@@ -3,12 +3,12 @@ description: Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungss
 keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Anpassen von Berechtigungen für Analytics-Tools
-topic: Admin tools
+topic: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | [Report Suites ausblenden](/help/admin/company/c-hide-report-suites.md) | Erteilt die Berechtigung zum Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics. |
 | **Tools** | Mit diesen Einstellungen kann Zugriff auf Analytics-Tools (Oberflächen und Anwendungen) und erweiterte Funktionen wie Segmentierung und berechnete Metriken gewährt werden. |
 | [Aktuelle Daten](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/current-data.html) | Ermöglicht die Verwendung der Funktion „Aktuelle Daten“ für Berichte. |
-| [Ad Hoc Analysis](https://docs.adobe.com/content/help/de-DE/analytics/analyze/ad-hoc-analysis/adhoc-home.html)-Lizenzanwender | Gewährt Zugriff auf [!UICONTROL Ad Hoc Analysis]. |
 | Zugriff auf Web Services | Ermöglicht Nichtadministratoren Zugriff auf Web-Services. Erstellt Anmeldedaten für Web-Services. |
 | [Report Builder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Ermöglicht Mitgliedern der Gruppe Zugriff auf [!UICONTROL Report Builder]-Lizenzen. |
 | Zugriff auf [Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/home.html) | Gewährt Benutzern Zugriff auf Analysis Workspace, die für [!DNL Adobe Analytics] empfohlene Berichtsschnittstelle. |
