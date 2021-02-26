@@ -33,7 +33,7 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    >Bei Aktivierung der Komponentenanpassung ist die Virtual Report Suite **nur über Analysis Workspace** zugänglich, nicht aber über Folgendes:
    >
    >* [!UICONTROL Reports &amp; Analytics]
-   >* [!UICONTROL Ad Hoc Analysis ]
+   >* [!UICONTROL Ad Hoc Analysis]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
