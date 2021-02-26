@@ -3,10 +3,10 @@ source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '559'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-# Produktberechtigungen für Analytics-Profil
+# Produktprofilberechtigungen für Analytics-Werkzeuge
 
 Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen in Adobe Analytics. Die Berechtigungselemente der Analytics-Tools gelten nicht für eine Report Suite, sondern für Adobe Analytics als Ganzes.
 
@@ -33,13 +33,13 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Activity Map | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
 | Aktuelle Daten | Aktiviert die Option zum Anzeigen aktueller Daten in Reports &amp; Analytics-Berichten. |
 | Ad Hoc Analysis-Lizenzanwender | Aktiviert die Schaltfläche „Herunterladen“ unter „Tools > Ad Hoc Analysis“ und ermöglicht dem Benutzer die Authentifizierung mit dem Tool. Siehe [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
-| Mobile App Admin | Nicht verwendet. |
+| Mobile App-Admin | Nicht verwendet. |
 | Zugriff auf Web Services | Ermöglicht die Verwendung der API, einschließlich Authentifizierung bei Websites von Drittanbietern und dem Senden von API-Aufrufen. |
 | Report Builder | Aktiviert die Schaltfläche zum Herunterladen unter „Tools > Report Builder“ und ermöglicht dem Benutzer die Authentifizierung in Microsoft Excel. |
 | Zugriff auf Analysis Workspace | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
 | Zugriff auf Reports &amp; Analytics | Gewährt Zugriff auf Reports &amp; Analytics. Benutzer müssen entweder zu dieser Gruppe oder zu „Zugriff auf Analysis Workspace“ (empfohlen) gehören, um Adobe Analytics verwenden zu können. |
 | Analysis Workspace: als Vorlage speichern | Gewährt Zugriff auf „Projekt > Als Vorlage speichern“ in Analysis Workspace. |
-| Labzugriff | Gewähren Sie Benutzern Zugriff auf Labs und die Prototypen in Labs. |
+| Labzugriff | Gewährt Benutzern Zugriff auf Labs und die Prototypen in Labs. |
 | Erstellung berechneter Metriken | Ermöglicht die Erstellung berechneter Metriken für alle Analytics-Funktionen. |
 | Erstellung von Segmenten | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | Advertising Analytics-Verwaltung | Nicht verwendet. |
