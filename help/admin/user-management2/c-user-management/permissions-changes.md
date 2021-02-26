@@ -3,13 +3,13 @@ description: Inhalt älterer Berechtigungen
 keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Änderungen an Berechtigungen für Benutzer und Gruppen
-topic: Admin tools
+topic: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Weil API und Oberfläche dasselbe Berechtigungssystem verwenden, wird es sich be
   </tr> 
   <tr> 
    <td colname="col1"> <p>Änderungen an vordefinierten Gruppen </p> </td> 
-   <td colname="col2"> <p> <b>Administratorzugriff:</b> Vordefinierte Gruppen sind für Administratoren nicht länger notwendig. Administratoren haben jetzt Zugriff auf alle Elemente (Tools, Dimensionen und Metriken) sowie auf Web Service, Report Builder, Activity Map und Ad Hoc Analysis. </p> <p>Sinn und Zweck von Gruppen ist es künftig, den Zugriff von Nichtadministratoren zu ermöglichen oder einzuschränken. </p> <p> <b>Benutzerspezifische Gruppen:</b> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der  <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Anpassen der Analytics-Tools</a>. </p> <p> Benutzer mit <span class="term">Zugriff auf Berichte</span> wurden zu einer benutzerdefinierten Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
+   <td colname="col2"> <p> <b>Administratorzugriff:</b> Vordefinierte Gruppen sind für Administratoren nicht länger notwendig. Administratoren haben jetzt Zugriff auf alle Elemente (Tools, Metriken, Dimensionen) sowie auf Webdienst, Report Builder und Activity Map. </p> <p>Sinn und Zweck von Gruppen ist es künftig, den Zugriff von Nichtadministratoren zu ermöglichen oder einzuschränken. </p> <p> <b>Benutzerspezifische Gruppen:</b> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der  <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Anpassen der Analytics-Tools</a>. </p> <p> Benutzer mit <span class="term">Zugriff auf Berichte</span> wurden zu einer benutzerdefinierten Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Alle Dimensionen </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Alle Metriken </li> 
