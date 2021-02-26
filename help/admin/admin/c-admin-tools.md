@@ -3,9 +3,9 @@ description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
 + [Nach IP-Adresse ausschließen](exclude-ip.md)
 + [Suchmethoden](finding-methods.md)
 + [Allgemeine Kontoeinstellungen](general-acct-settings-admin.md)
-+ [Gruppenverwaltung](group.md)
 + [Interne URL-Filter](internal-url-filter-admin.md)
 + [Protokolle](logs.md)
 + [Marketing-Kanäle](marketing-channels-admin.md)
