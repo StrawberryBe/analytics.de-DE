@@ -2,12 +2,12 @@
 description: Schritte, in denen beschrieben wird, wie Benutzerkontoelemente (Dashboards, berechnete Metriken, Kalenderereignisse, Warnungen, Lesezeichen, Segmente, Analysis Workspace-Projekte und geplante Projekte) von einem Benutzerkonto auf ein anderes übertragen werden.
 subtopic: Users and groups
 title: Übertragen von Benutzerkontoelementen
-topic: Admin tools
+topic: Admin Tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,3 @@ Schritte, in denen beschrieben wird, wie Benutzerkontoelemente (Dashboards, bere
 1. Klicken Sie auf **[!UICONTROL OK]**, um zu bestätigen, dass Sie die ausgewählten Kontoressourcen übertragen möchten.
 
    Der Empfänger erhält alle Rechte für die ausgewählten Kontoressourcen des ursprünglichen Anwenders, mit Ausnahme der Rechte für terminierte Berichte.
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis-Ressourcen können nicht übertragen werden. Wenn Ihr Unternehmen mehrere Anmeldeunternehmen verwendet, können Sie zwischen Anmeldeunternehmen keine Transfers durchführen.
-
