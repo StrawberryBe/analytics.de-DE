@@ -2,13 +2,13 @@
 description: In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 subtopic: Classifications
 title: FTP-Import
-topic: Admin tools
+topic: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 96%
+source-wordcount: '723'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe empfiehlt, nach einem ersten Upload in eine Report Suite (für eine gegebe
 
 Jeder neue Schlüsselwert, den Sie hochladen, zählt als eindeutige Classification der entsprechenden Variable für den Monat.
 
-Wenn Sie die Zahl eindeutiger Classifications für den Monat überschritten haben, werden Ihnen für die über dem Grenzwert liegenden Classifications in den Berichten nicht die zugehörigen Classification-Daten angezeigt. Sie können sich diese Classifications entweder in Data Warehouse oder der Ad-hoc-Analyse anzeigen lassen.
+Wenn Sie die Zahl eindeutiger Classifications für den Monat überschritten haben, werden Ihnen für die über dem Grenzwert liegenden Classifications in den Berichten nicht die zugehörigen Classification-Daten angezeigt. Sie können diese Klassifizierungen in Data Warehouse sehen.
 
 >[!NOTE]
 >
