@@ -5,9 +5,9 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: '-Komponentenleitfaden '
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '637'
 ht-degree: 99%
 
 ---
@@ -168,7 +168,6 @@ ht-degree: 99%
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
    + [Häufig gestellte Fragen](segmentation/seg-transition.md)
    + [Best Practices](segmentation/best-practices.md)
-   + [Übergangsleitfaden für Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
    + [Häufig gestellte Fragen](c-calcmetrics/cm-transition.md)
