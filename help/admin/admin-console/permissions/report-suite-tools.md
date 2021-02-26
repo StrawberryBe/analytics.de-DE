@@ -3,17 +3,17 @@ source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '647'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
-# Produktberechtigungen für Report Suite-Profil
+# Produktprofil-Berechtigungen für Report Suite-Werkzeuge
 
 Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report Suite-Tools zu verstehen.
 
 | Berechtigungselement der Report Suite-Tools | Beschreibung |
 |------|------|
 | Data Warehouse | Nicht verwendet. Verwenden Sie stattdessen „Benutzerdefinierter Data Warehouse-Bericht“. |
-| Site Catalyst | Nicht verwendet. Verwenden Sie stattdessen „Zugriff auf Analysis Workspace“. |
+| SiteCatalyst | Nicht verwendet. Verwenden Sie stattdessen „Zugriff auf Analysis Workspace“. |
 | Report Suites (Lesen) | Nicht verwendet. |
 | Report Suites (Schreiben) | Nicht verwendet. |
 | Traffic-Management | Nicht verwendet. |
