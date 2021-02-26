@@ -1,13 +1,13 @@
 ---
 description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
 title: Data Warehouse-Segmentkompatibilität
-topic: Segments
+topic: Segmente
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
+   <th> Analysis Workspace, Reports &amp; Analysen </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
   </tr> 
   <tr> 
    <td> <b>Dimensionen</b> </td> 
-   <td>Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Folgende Dimensionen werden beispielsweise nur in Analysis Workspace, Reports &amp; Analytics und Ad Hoc Analysis unterstützt: 
+   <td>Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Beispielsweise werden diese Dimensionen nur in Analysis Workspace, Reports &amp; Analysen unterstützt: 
     <ul> 
      <li>Entryserver </li> 
      <li>Entrykategorie </li> 
