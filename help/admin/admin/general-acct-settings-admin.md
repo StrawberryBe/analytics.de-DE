@@ -1,13 +1,13 @@
 ---
 description: Feldbeschreibungen für die Report Suite „Allgemeine Kontoeinstellungen“ in der Admin-Konsole.
 title: Allgemeine Kontoeinstellungen
-topic: Admin tools
+topic: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: d4ecb31e7a79546c97207772e9df3eb4d673c35f
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 89%
+source-wordcount: '672'
+ht-degree: 88%
 
 ---
 
@@ -29,5 +29,4 @@ Diese Einstellungen umfassen Bearbeitungsoptionen für grundlegende Report Suit
 | Letztes Oktett der IP-Adresse durch 0 ersetzen | Das letzte Oktett wird entfernt, bevor eine Verarbeitung für den Treffer durchgeführt wird, einschließlich vor der IP-Filterung/dem Ausschluss, bevor Bot-Regeln überprüft werden, bevor Geosegmentation-Suchen usw. durchgeführt werden. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten angepasst werden, um IP-Adressen mit einer Null am Ende zu berücksichtigen. Übereinstimmung * sollte mit 0 übereinstimmen. Die IP-Adresse 11.22.33.44 wird beispielsweise auf 11.22.33.0 geändert. Die Geosegmentierungs-Daten sind dann nicht ganz so präzise wie bei Verwendung der vollständigen IP-Adresse. Insbesondere wird die Genauigkeit der Stadt stärker betroffen sein als die Genauigkeit von Land oder Region. Sowohl Bot-Regeln als auch VISTA-Regeln sind davon betroffen, da die vollständige IP-Adresse nicht mehr zur Verfügung steht. Außerdem wirkt sich diese Einstellung auf IP-basierte Verarbeitungsregeln aus, einschließlich der Marketingkanalregeln und der Verarbeitungsregeln für die Report Suite.   <br> **Hinweis**: Diese Einstellung ist standardmäßig für alle neuen Report Suites aktiviert, die ab Januar 2019 im London Data Center erstellt wurden – jedoch nur dann, wenn die Einstellungen für diese Report Suites aus einer Vorlage kopiert werden, die in der Admin Console aufgeführt ist. Report Suites mit Einstellungen, die aus anderen Report Suites dupliziert wurden, erben alle Einstellungen der ausgewählten Report Suite. |
 | IP-Verschleierung | Verwandelt IP-Adressen in nicht erkennbare Zeichenketten, was sie letztendlich aus den Adobe Datenspeichern löscht. Wenn die IP-Verschleierung aktiviert ist, geht die ursprüngliche IP-Adresse dauerhaft verloren.   <br> **Hinweis**: Die IP-Adressen werden überall in Analytics verschleiert, auch im Data Warehouse. Die IP-Einstellung in Target wird jedoch separat gesteuert. Diese Einstellung hat also keine Auswirkung auf Target.<br> Wenn die IP-Verschleierung aktiviert ist, werden alle erforderlichen Verarbeitungen durchgeführt, einschließlich IP-Filterung/Ausschluss, Bot-Regeln und Geosegmentation-Suchen, bevor die IP-Adresse verschleiert wird. Sie müssen nichts ändern, wenn Sie IP-Verschleierung aktivieren.<ul><li>Wenn **Deaktiviert** ausgewählt wird, bleibt die IP-Adresse in den Daten.</li><li>Wenn Sie **IP-Adresse verschleiern** aktivieren, wird die IP in zwei Doppelpunkte gefolgt von einem Hash-Wert (z. B. `::1932023538`) geändert.</li><li>Wenn Sie **IP-Adresse entfernen**`::X.X.X.X` aktivieren, wird die IP-Adresse nach der Geo-Suche in den Daten durch ersetzt.</li></ul>**Hinweis**: Diese Einstellung erfordert möglicherweise Änderungen an benutzerdefinierten [Bot-Regeln](/help/admin/admin/bot-removal/bot-rules.md) oder [IP-Ausschlüssen](/help/admin/admin/exclude-ip.md). |
 | Transaktions-ID-Speicher | Ermöglicht die Verwendung von [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)-Datenquellen. |
-| Ad Hoc Analysis aktivieren | Gibt an, ob die betreffende Report Suite in Ad Hoc Analysis als verfügbare Report Suite angezeigt wird. Verwenden Sie diese Einstellung, um einzugrenzen, welche Report Suites als eine Option für Ad Hoc Analysis angezeigt werden. Sie können beispielsweise Ad Hoc Analysis für Entwicklungs- und QA-Report Suites deaktivieren. |
 | Data Warehouse aktivieren | Aktiviert die Data Warehouse-Benutzeroberfläche unter „Analytics“ > „Tools“ > „Data Warehouse“. |
