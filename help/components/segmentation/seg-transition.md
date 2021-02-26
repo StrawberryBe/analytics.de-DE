@@ -1,13 +1,13 @@
 ---
 description: 'null'
 title: Häufig gestellte Fragen
-topic: Segments
+topic: Segmente
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,8 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 * Alle Segmente gelten nun für alle Report Suites.
 * Der [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) vereinfacht das Erstellen von Segmenten.
 * Der neue [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ermöglicht die Einrichtung von [Workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
-
-* Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/segmentation/segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden. Bisher wurden Ordner verwendet (in [!DNL Ad Hoc Analysis]), um Segmente zu organisieren.
-
-* [Sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) können jetzt außerhalb von Ad Hoc Analysis erstellt werden.
+* Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/segmentation/segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden.
+* Sie können [Sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) erstellen.
 * Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
 Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) im Digital Marketing Blog.
@@ -88,11 +86,11 @@ Ad-hoc-Analysen und Report Builder zeigen Segmente an, deren Inhaber Sie sind, s
 
 **Kann ich alle Analytics-Segmente im Segment-Manager verwalten?**
 
-Ja, alle Segmente können im Segment-Manager in Analysis Workspace und Reports &amp; Analytics sowie in Ad Hoc Analysis verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
+Ja, alle Segmente können im Segment-Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
 
 Administratoren können alle Segmente innerhalb der Benutzeroberflächen von Analysis Workspace und [!DNL Reports & Analytics] sehen.
 
-Ad Hoc Analysis und Report Builder zeigen lediglich von Ihnen erstellte Segmente oder Segmente, die spezifisch mit Ihnen geteilt wurden, an.
+Report Builder zeigt nur Segmente an, die von Ihnen erstellt wurden, oder Segmente, die spezifisch für Sie freigegeben wurden.
 
 **Warum kann ich dieses Segment nicht löschen?**
 
@@ -126,10 +124,6 @@ Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet
 
 ![](assets/seg_templates.png)
 
-**Was ist mit meinen vorhandenen Segmentordnern passiert?**
-
-Anstatt der (Ad Hoc Analysis-) Ordner verwendet der Segment-Manager   Tags. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
-
 **Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?**
 
 Terminierte Berichte werden weiterhin fehlerfrei mit den von Ihnen definierten Segmenten ausgeführt.
@@ -144,15 +138,9 @@ Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ 
 
 **Was passiert mit Data Warehouse-Segmenten?**
 
-Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten, z. B. Analysis Workspace, Ad Hoc Analysis und Reports &amp; Analytics.
+Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehousen-Segmente funktionieren auch in anderen Komponenten wie Analysis Workspace und Reports &amp; Analysen.
 
 Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erstellen oder bearbeiten. Durch den Produktkompatibilitätsmechanismus wird im Segment Builder automatisch ermittelt, ob ein Segment mit Data Warehouse kompatibel ist.
-
-**Was geschieht mit Favoriten-Segmenten (Ad Hoc Analysis)?**
-
-Diese Ad Hoc Analysis-Segmente werden in Adobe Analytics als gewöhnliche Segmente angezeigt.
-
-Verwechseln Sie sie nicht mit der Favoriten-Funktion im Segment-Manager, über die Sie Segmente als Favoriten markieren können.
 
 **Was geschieht mit vorkonfigurierten Segmenten?**
 
@@ -162,9 +150,7 @@ Verwechseln Sie sie nicht mit der Favoriten-Funktion im Segment-Manager, über d
 * **Besuche über eine gebührenpflichtige Suche**
 * **Besuche mit Besucher-ID-Cookie**
 
-Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert.
-
-Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
+Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
 **Was geschieht mit Experience Cloud (Suite)-Segmenten?**
 
