@@ -1,13 +1,13 @@
 ---
 description: Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benutzer der Administratorebene und Nicht-Administrator-Benutzer.
 title: Segmentberechtigungen nach Rolle
-topic: Segments
+topic: Segmente
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benutzer der Admi
   <tr> 
    <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
    <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: Können ihre eigenen Segmente und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword">Ad Hoc Analysis</span> und <span class="keyword">Report Builder</span>: Können ihre Segmenten und die, die für sie freigegeben wurden, anzeigen/bearbeiten/löschen usw. </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: Können ihre eigenen Segmente und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword"> Report Builder  </span>: Kann Ansicht/Bearbeitung/Löschen/usw. eigene Segmente und Segmente, die für sie freigegeben wurden. </p> </td> 
    <td colname="col4"> Können Segmente als autorisiert genehmigen. </td> 
    <td colname="col5"> Können beliebige Segmente innerhalb der gesamten Organisation anwenden. </td> 
   </tr> 
