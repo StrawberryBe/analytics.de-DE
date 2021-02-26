@@ -5,9 +5,9 @@ user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 98%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 98%
       + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Data Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Von Ad Hoc Analysis bereitgestellte Berichte](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Von Data Warehouse bereitgestellte Berichte](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Von Report Builder bereitgestellte Berichte](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Engineering Services-Interaktionen mit FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
