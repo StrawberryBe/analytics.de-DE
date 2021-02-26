@@ -1,13 +1,13 @@
 ---
 description: Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorlage auswählen oder eine Ihrer vorhandenen Report Suites als Modell verwenden.
 title: Neue Report Suite – Einstellungen
-topic: Admin tools
+topic: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 93%
 
 ---
 
@@ -65,11 +65,7 @@ Beschreibung der verwendeten Elemente beim  [Erstellen einer Report Suite](/help
   <tr> 
    <td colname="col1"> <span class="wintitle"> Multibytezeichenunterstützung deaktivieren </span> </td> 
    <td colname="col2"> <p>Deaktiviert die Multibytezeichenunterstützung für die Report Suite. Wenn Sie die Multibytezeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im ISO-8859-1-Format vorliegen. Auf Webseiten muss der Zeichensatz in der JavaScript-Variablen  <span class="varname"> „charSet“</span> angeben. </p> <p>Bei der Multibytezeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. </p> <p>Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multibytezeichenunterstützung für eine Report Suite geändert werden soll. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Ad Hoc Analysis für diese Suite aktivieren</span> </td> 
-   <td colname="col2"> Aktiviert die Anzeige dieser Report Suite, wenn Sie Ad Hoc Analysis durchführen. </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
