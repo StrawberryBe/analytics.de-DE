@@ -3,13 +3,13 @@ description: Passen Sie Gruppenberechtigungen für den Zugriff auf Analytics-Too
 keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Anpassen des Berichtszugriffs – Übersicht
-topic: Admin tools
+topic: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Passen Sie Gruppenberechtigungen für den Zugriff auf Analytics-Tools, Report Suite-Tools, Metriken und Dimensionen an.
 
@@ -42,7 +42,7 @@ Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools (
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Administratorzugriff/vordefinierte Gruppen </p> </td> 
-   <td colname="col2"> <p> Vordefinierte Gruppen sind für Administratoren nicht länger notwendig. Administratoren haben jetzt Zugriff auf alle Elemente (Tools, Dimensionen und Metriken) sowie auf Web Service, Report Builder, Activity Map und Ad Hoc Analysis. </p> <p>Sinn und Zweck von Gruppen ist es, den Zugriff von Nichtadministratoren zu ermöglichen oder einzuschränken. </p> </td> 
+   <td colname="col2"> <p> Vordefinierte Gruppen sind für Administratoren nicht länger notwendig. Administratoren haben jetzt Zugriff auf alle Elemente (Tools, Metriken, Dimensionen) sowie auf Webdienst, Report Builder und Activity Map. </p> <p>Sinn und Zweck von Gruppen ist es, den Zugriff von Nichtadministratoren zu ermöglichen oder einzuschränken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzerspezifische Gruppen </p> </td> 
