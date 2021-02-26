@@ -3,10 +3,10 @@ description: 'null'
 title: Fallout-Übersicht
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 99%
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -37,7 +37,7 @@ Eine Fallout-Visualisierung ist zur Analyse der folgenden Punkte nützlich:
 
 ## Segmentierung als Grundlage für Fluss und Fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Auf Workspace-Bedienfelder angewandte Segmente funktionieren ein wenig anders als Segmente, die auf Fallout- und Flussberichte in Reports &amp; Analytics oder Ad Hoc Analysis angewandt wurden. In den meisten Fällen liefern beide genau dieselben Ergebnisse. Der größte Unterschied besteht darin, dass in Reports &amp; Analytics und Ad Hoc Analysis dasselbe Segment auf jeden Schritt der Sequenz angewandt wird. Dies kann zu leichten Abweichungen bei den Ergebnissen führen.
+Segmente, die auf Workspace-Bereiche angewendet werden, funktionieren etwas anders als Segmente, die in Reports &amp; Analysen auf Trichteranalysen- und Flussberichte angewendet werden. In den meisten Fällen liefern beide genau dieselben Ergebnisse. Der Hauptunterschied besteht darin, dass Reports &amp; Analysen das Segment bei jedem Schritt der Sequenz anwendet. Dies kann zu leichten Abweichungen bei den Ergebnissen führen.
 
 Hier ist ein Beispiel eines Fallouts mit zwei Schritten:
 
@@ -47,13 +47,13 @@ Wenn Sie dann ein Segment auf Workspace-Bedienfeld-Ebene anwenden, kombiniert da
 
 ![](assets/fallout_seg.png)
 
-Beim Berechnen des Segments in Reports &amp; Analytics und Ad Hoc Analysis wird das Segment hingegen folgendermaßen kombiniert:
+Bei der Berechnung des Segments durch Reports &amp; Analysen wird das Segment dagegen folgendermaßen kombiniert:
 
 ![](assets/fallout_segments3.png)
 
-In Reports &amp; Analytics und Ad Hoc Analysis wird das Segment mit jedem Schritt kombiniert. Wenn sich die Container auf derselben Ebene wie der Fallout befinden (z. B. Besuch- oder Besucherebene), führt dies zu einem Angleich an die Anzahl an Besuchen oder Besuchern.
+Reports &amp; Analysen kombiniert das Segment mit jedem Schritt. Wenn sich die Container auf derselben Ebene wie der Fallout befinden (z. B. Besuch- oder Besucherebene), führt dies zu einem Angleich an die Anzahl an Besuchen oder Besuchern.
 
-Wenn sich das auf das Feld angewandte Segment jedoch unterhalb der Fallout-Ebene (d. h. Hit-Ebene) befindet, werden für das Segment je nach Kombination durch den Bericht unterschiedliche Ergebnisse angezeigt. Wie bereits erwähnt, entsprechen die Zahlen in Analysis Workspace in den meisten Fällen den Zahlen in Reports &amp; Analytics und Ad Hoc Analysis. Nur wenn alle folgenden Punkte zutreffen, stimmen sie **nicht** überein:
+Wenn sich das auf das Feld angewandte Segment jedoch unterhalb der Fallout-Ebene (d. h. Hit-Ebene) befindet, werden für das Segment je nach Kombination durch den Bericht unterschiedliche Ergebnisse angezeigt. Um dies zu wiederholen, stimmen die Zahlen in Analysis Workspace in den meisten Fällen mit denen in Reports &amp; Analysen überein. Nur wenn alle folgenden Punkte zutreffen, stimmen sie **nicht** überein:
 
 * Das Segment befindet sich nicht auf derselben Ebene wie der Fallout.
 * Das Segment weist eine Variable auf, bei der der Besucher/Besuch während eines Besuchs/Besuchers mehrere Werte besitzen kann.
