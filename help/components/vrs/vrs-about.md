@@ -3,10 +3,10 @@ description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodas
 title: Virtual Report Suites – Übersicht
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 | Funktion | Virtual Report Suite | Multisuite-Taggen |
 |--- |--- |--- |
 | Bietet Berichte mit Echtzeit- oder aktuellen Daten | Nein | Ja |
-| Funktioniert in allen Analytics Tools (Analysis Workspace, Report Builder, Ad Hoc Analysis usw.) | Ja.   Hinweis: Diese können nur in Reports &amp; Analytics als Virtual Report Suites identifiziert und bearbeitet werden. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden. | Ja |
+| Funktioniert in allen Analytics-Tools (Analysis Workspace, Report Builder usw.) | Ja. **Hinweis:** Diese können nur in Reports &amp; Analytics als Virtual Report Suites identifiziert und bearbeitet werden. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden. | Ja |
 | Hochladen von Daten (über Classifications, Datenfeeds usw.) | Nein | Ja |
 | Unterstützt die Erstellung von DL-Berichten, Lesezeichen, Dashboards, Zielgruppen, Warnhinweisen, Segmenten, berechneten Metriken... | Ja | Ja |
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
