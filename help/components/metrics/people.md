@@ -5,15 +5,15 @@ translation-type: tm+mt
 source-git-commit: 2a32ac1aafbbdfa4d0161666061fc9084af13fae
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
 # Personen
 
-Es gibt zwei Versionen der Metrik &quot;Personen&quot;.
+Es gibt zwei Versionen der Metrik für Personen.
 
-Bei Mitgliedern des [Device Co-op](https://docs.adobe.com/content/help/de-DE/device-co-op/using/data/people.html), die [Geräteübergreifende Analysen](../cda/overview.md) nicht verwenden, ist die Metrik &quot;Personen&quot;eine statistisch abgeleitete Anzahl der Personen, die im Bericht repräsentiert sind. Es ist die Anzahl der Besucher-IDs, die durch die Gerätekooperation identifiziert werden, plus die Anzahl der Geräte, die nicht durch die Kooperation identifiziert werden.
+Bei Mitgliedern der [Gerätekooperation](https://docs.adobe.com/content/help/de-DE/device-co-op/using/data/people.html), die nicht [geräteübergreifende Analysen](../cda/overview.md) verwenden, ist die Metrik für Personen die statistisch abgeleitete Anzahl der Personen, die im Bericht repräsentiert sind. Es ist die Anzahl der Besucher-IDs, die durch die Gerätekooperation identifiziert werden, zuzüglich der Anzahl der Geräte, die nicht durch die Kooperation identifiziert werden.
 
-Innerhalb einer Virtual Report Suite [Geräteübergreifende Analyse](../cda/overview.md) ist die Metrik &quot;Personen&quot;eine direkte Zählung individueller Personen anstelle einer statistischen Ableitung. Die Definition einer Person in CDA basiert entweder auf der Gerätekooperation, dem privaten Diagramm oder der feldbasierten Suche, je nachdem, wie CDA für die Basis-Report Suite konfiguriert ist. &quot;Personen&quot;ist die Summe der Personen, die im Bericht identifiziert wurden, plus die Anzahl der Geräte, die nicht als zu einer Person gehörend identifiziert wurden.
+Bei einer [geräteübergreifenden Analyse](../cda/overview.md) innerhalb einer Virtual Report Suite ist die Metrik für Personen statt einer statistischen Ableitung die direkte Anzahl eindeutiger Einzelanwender. Die Definition einer Person in der Cross-Device-Analyse (CDA) basiert entweder auf der Gerätekooperation, dem privaten Diagramm oder der feldbasierten Suche, je nachdem, wie die CDA für die zugrunde liegende Report Suite konfiguriert ist. Unter „Personen“ wird die Summe der Einzelanwender zusammengefasst, die im Bericht identifiziert wurden, zuzüglich der Anzahl der Geräte, die nicht als zu einer Person gehörend identifiziert wurden.
