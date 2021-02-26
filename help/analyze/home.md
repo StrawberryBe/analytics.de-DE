@@ -2,10 +2,10 @@
 title: Leitfaden für Analytics-Tools
 description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Adobe Analytics-Dashboard, Activity Map, Report Builder, Berichte-API und Reports & Analysen.
 translation-type: tm+mt
-source-git-commit: 378a1e8899722ce558677fdf2d57070d1a7ff965
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 75%
+source-wordcount: '235'
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,6 @@ Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden
 * **[!UICONTROL Report Builder]**: Ein Excel-Add-in, mit dem Sie Analytics-Daten abrufen und direkt in eine Arbeitsmappe einfügen können.
 * **[!UICONTROL Reporting-API]**: Stellen Sie Reporting-Anfragen direkt an die Server von Adobe und erhalten Sie Antworten, die Sie in Ihren eigenen Kunden-Reporting-Tools nutzen können.
 * **[!UICONTROL Reports &amp; Analytics]**: Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt die Verwendung von Analysis Workspace für die meisten Berichterstellungserfordernisse.
-* **[!UICONTROL Ad Hoc Analysis]**: Eine eigenständige Java-Anwendung mit stabilen Berichterstellungsfunktionen. Dieses Tool wurde nicht mehr aktualisiert und ist ab dem 1. März 2021 [ein Sonnenuntergang.](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)
 
 ## Wichtige Artikel zu Analytics-Tools
 
