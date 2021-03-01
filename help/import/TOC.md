@@ -7,8 +7,8 @@ user-guide-description: 'Transferieren Sie Daten aus externen Quellen in Analyti
 translation-type: tm+mt
 source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
