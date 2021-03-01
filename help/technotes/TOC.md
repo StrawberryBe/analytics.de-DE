@@ -7,8 +7,8 @@ user-guide-description: Eine Wissensdatenbank mit hilfreichen Artikeln, die nich
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
