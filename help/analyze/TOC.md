@@ -7,8 +7,8 @@ user-guide-description: Enthält Anleitungen für Analysis Workspace, das führe
 translation-type: tm+mt
 source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1048'
+ht-degree: 100%
 
 ---
 
