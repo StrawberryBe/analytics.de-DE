@@ -7,8 +7,8 @@ user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder tägl
 translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
