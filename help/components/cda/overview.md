@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 95%
+source-wordcount: '667'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,7 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse funktioniert nicht in allen Report Suites und kombiniert auch keine Daten aus mehreren Report Suites.
 * Adobe Analytics-Report Suites können nicht mit mehr als einem IMS-Tag verknüpft werden. Da die geräteübergreifende Analyse Geräte innerhalb einer Report Suite zuordnet, kann die geräteübergreifende Analyse nicht zum Zuordnen von Daten über mehrere IMS-Organisationen hinweg verwendet werden.
 * Die geräteübergreifende Analyse ist derzeit nicht mit Kundenattributen kompatibel. Diese beiden Funktionen können gleichzeitig in separaten Virtual Report Suites verwendet werden, die auf dieselbe Quell-Report Suite verweisen.
+* CDA ist derzeit nicht mit A4T kompatibel.
 * Die geräteübergreifende Analyse verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](../vrs/vrs-about.md) und [Berichtszeitverarbeitung](../vrs/vrs-report-time-processing.md).
 * Die 1.4 API wird nicht unterstützt. Power BI-Connectoren und Report Builder basieren beide auf der 1.4 API und sind daher nicht mit der geräteübergreifenden Analyse kompatibel.
 * Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
