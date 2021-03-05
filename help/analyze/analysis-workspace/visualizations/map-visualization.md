@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Verwenden Sie die Map-Visualisierung in einem Workspace-Projekt.
 title: Zuordnung
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
