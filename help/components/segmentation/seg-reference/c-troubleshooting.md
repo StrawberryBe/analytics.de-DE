@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Fehlerbehebung und Behebung von Problemen im Zusammenhang mit Segmenten.
 title: Fehlerbehebung bei der Segmentierung
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 96%
 
 ---
 
