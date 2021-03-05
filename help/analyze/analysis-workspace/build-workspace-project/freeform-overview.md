@@ -1,14 +1,14 @@
 ---
-description: 'null'
-keywords: Analysis Workspace
+description: Lernen Sie die Grundlagen für die Arbeit mit einem Workspace-Projekt kennen.
+keywords: 'Analysis Workspace '
 title: Übersicht über Projekte
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 30%
+source-wordcount: '1371'
+ht-degree: 29%
 
 ---
 
@@ -54,7 +54,7 @@ Innerhalb eines Projekts bietet das Menü Optionen zum Verwalten Ihres Projekts,
 | [Komponenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | Erstellen Sie neue Segmente, berechnete Metriken, Datumsbereiche oder Warnhinweiskomponenten aus Ihrem Projekt. Sie können auch über die linke Leiste neue Komponenten erstellen. Wenn sich Ihre Komponentendefinitionen kürzlich geändert haben, werden die neuesten Definitionen von &quot;Komponenten aktualisieren&quot;abgerufen. |
 | [Freigeben](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) | Kuratieren, Freigeben und Planen von PDF/CSV-Projekten für Empfänger in Ihrer Organisation. |
 | Hilfe | Rufen Sie die Hilfedokumentation, Videos und die Analytics [Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community) auf. Verwalten Sie die Sichtbarkeit der Workspace-Tipps sowie des [Debuggers](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Finden Sie Details zum Arbeitsbereich und Faktoren, die sich auf das Projekt [performance](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) auswirken. |
-| Schaltfläche &quot;Freigeben&quot;oder Inhaber | Wenn Sie sich für das Projekt in einer Eigene oder in einer Bearbeitung befinden, erhalten Sie über die Schaltfläche &quot;Freigeben&quot;oben rechts einen Einklick auf die Projektverwaltung, um Ihre Empfänger zu verwalten. Wenn Sie als Duplikat oder Ansicht für das Projekt fungieren, wird der Name des Projekteigentümers angezeigt. |
+| Schaltfläche &quot;Freigeben&quot;oder Inhaber | Wenn Sie sich für das Projekt in einer Eigene oder in einer Bearbeitung befinden, erhalten Sie über die Schaltfläche &quot;Freigeben&quot;in der rechten oberen Ecke Zugriff auf die Projektverwaltung, um Ihre Empfänger zu verwalten. Wenn Sie als Duplikat oder Ansicht für das Projekt fungieren, wird der Name des Projekteigentümers angezeigt. |
 
 ### Projektinfo und Einstellungen {#info-settings}
 
