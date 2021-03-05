@@ -1,16 +1,16 @@
 ---
 title: Analytics-Integration
-description: 'null'
+description: Erfahren Sie, wie Sie Daten von anderen Standorten in Adobe Analytics integrieren können.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 92%
 
 ---
 
 
-# Analytics Integration
+# Analytics-Integration
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
