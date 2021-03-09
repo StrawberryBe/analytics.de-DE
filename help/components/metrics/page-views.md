@@ -1,16 +1,16 @@
 ---
-title: 'Metrik "Ansichten" | Adobe Analytics '
-description: Erfahren Sie, wie die Metrik "Ansichten"in Adobe Analytics ausgearbeitet wird, und verstehen Sie auch den Unterschied zwischen Ansichten und Besuchen von Seiten.
-translation-type: tm+mt
+title: 'Erläuterung der Metrik „Seitenansichten“ | Adobe Analytics '
+description: Erfahren Sie, wie die Metrik „Seitenansichten“ in Adobe Analytics funktioniert, und lernen Sie den Unterschied zwischen Seitenansichten und Seitenbesuchen kennen.
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Weitere Informationen zu Seiten-Ansichten mit Adobe Analytics
+# Weitere Informationen zu Seitenansichten mit Adobe Analytics
 
 Die Metrik „Seitenansichten“ gibt an, wie oft ein bestimmtes Dimensionselement auf einer Seite festgelegt oder beibehalten wurde. Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
 
