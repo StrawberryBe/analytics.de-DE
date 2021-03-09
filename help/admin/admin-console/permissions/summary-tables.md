@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Benutzerdefinierter Data Warehouse-Bericht |  | x |  |  | Gewährt Zugriff auf „Tools > Data Warehouse“ im oberen Navigationsbereich von Analytics. |
 | Bot-Seiten |  |  | x |  | Gewährt Zugriff auf den Bericht „Bot-Seiten“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
 | Bots |  |  | x |  | Gewährt Zugriff auf den Bericht „Bots“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
-| Kanalbericht  |  |  | x |  | Gewährt Zugriff auf den Kanalübersichtsbericht unter „Marketing-Kanäle“ in Reports &amp; Analytics. |
+| Kanalbericht |  |  | x |  | Gewährt Zugriff auf den Kanalübersichtsbericht unter „Marketing-Kanäle“ in Reports &amp; Analytics. |
 | Rückkehrende Besucher pro Tag |  |  | x |  | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher pro Tag“ in Reports &amp; Analytics. |
 | Meine empfohlenen Berichte |  |  | x |  | Gewährt Zugriff auf „Site-Metriken > Meine empfohlenen Berichte“ in Reports &amp; Analytics. |
 | Echtzeitbericht |  |  | x |  | Gewährt Zugriff auf „Site-Metriken > Echtzeit“ in Reports &amp; Analytics. Verwenden Sie das Berechtigungselement „Konfiguration für Echtzeitberichte“, um Zugriff für die Einrichtung dieses Berichts zu gewähren. |
