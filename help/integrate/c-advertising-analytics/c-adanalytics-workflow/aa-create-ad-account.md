@@ -1,11 +1,11 @@
 ---
-title: Werbekonto einrichten
-uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
+title: Einrichten eines Werbekontos in Advertising Analytics
+description: Ermöglicht die Erstellung neuer Werbekonten und die Zuordnung mehrerer Konten zu mehreren Report Suites.
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 97%
 
 ---
 
