@@ -1,16 +1,16 @@
 ---
-title: Was ist Kohorte-Analyse und wie funktioniert sie?
-description: Informieren Sie sich genauer über die Daten rund um Ihre Audience und unterteilen Sie mit der Kohorten-Analyse die zugehörigen Gruppen. Erfahren Sie mehr über die Analyse der Kohorte in Analysis Workspace.
-translation-type: tm+mt
+title: Was ist eine Kohortenanalyse und wie funktioniert sie?
+description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgruppe und unterteilen Sie sie mit der Kohortenanalyse in die zugehörigen Gruppen. Erfahren Sie mehr über die Kohortenanalyse in Analysis Workspace.
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Weitere Informationen zur [!UICONTROL Kohorte-Analyse] in Adobe Analytics
+# Weitere Informationen zur [!UICONTROL Kohortenanalyse] in Adobe Analytics
 
 Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die [!UICONTROL Kohortenanalyse] ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Erläuterungen zur [!UICONTROL Kohortenanalyse] sind im Internet verfügbar, z. B. unter [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
@@ -26,7 +26,7 @@ Beispiele für die Nutzung einer [!UICONTROL Kohortenanalyse]:
 
 Die [!UICONTROL Kohortenanalyse] steht allen Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analysis Workspace] zur Verfügung.
 
-[Videoschulung](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  zur Kohorte-Analyse (4:36)
+[Video-Tutorial zur Kohortenanalyse](https://docs.adobe.com/content/help/de/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
@@ -69,5 +69,5 @@ Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Anweisungen zum Einrichten und Durchführen eines Kohortenberichts finden Sie unter  [Konfigurieren eines Kohortenanalyseberichts](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Anweisungen zum Einrichten und Durchführen eines Kohortenberichts finden Sie unter [Konfigurieren eines Kohortenanalyseberichts](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
