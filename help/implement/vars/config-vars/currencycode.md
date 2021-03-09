@@ -1,11 +1,11 @@
 ---
-title: currencyCode
-desciption: For eCommerce sites, set the currency the page deals in.
+title: Was ist die Variable "currencyCode", und wie verwende ich sie?
+description: Legt für E-Commerce-Sites die Währung fest, in der die Seite handelt.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 97%
 
 ---
 
