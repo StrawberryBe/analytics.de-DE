@@ -1,9 +1,9 @@
 ---
 title: Zeit pro Besuch
 description: Die Zeit, die pro Besuch für das Dimensionselement verbracht wurde.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
