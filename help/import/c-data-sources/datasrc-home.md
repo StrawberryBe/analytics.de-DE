@@ -1,14 +1,11 @@
 ---
 description: Sie können Adobe Analytics-Datenquellen nutzen, um manuell zusätzliche Online- oder Offline-Daten für die Berichterstellung zu importieren.
-subtopic: Data sources
-title: Data Sources-Übersicht
-topic: Developer and implementation
-uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
+title: Was sind Data Sources und wie nützen sie mir?
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a653fe3ad1056d5a40217d1481e8d2c5c7f849b2
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -39,4 +36,4 @@ Mit Data Sources können Sie die Daten vor dem Klick besser interpretieren, inde
 >
 >Damit Transaktions-ID-Datenquellen Offline-Daten mit Online-Ereignissen verknüpfen, muss die Transaktions-ID-Aufzeichnung von der Kundenunterstützung aktiviert werden. Weitere Informationen erhalten Sie unter [Transaktions-ID-Aufzeichnung](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C).
 
-Nach dem Import stehen die meisten Data Sources-Daten für alle Lösungen der Digital Marketing Suite zur Verfügung.
+Nach dem Import stehen die meisten Datenquellen-Daten in der Adobe Experience Cloud zur Verfügung.
