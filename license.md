@@ -1,176 +1,91 @@
 ---
 title: Apache-Lizenz
+description: Bedingungen der Apache-Lizenz.
 translation-type: tm+mt
-source-git-commit: 8f17602b6295864d0391695061cdf2e381c954b2
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+workflow-type: tm+mt
+source-wordcount: '1576'
+ht-degree: 99%
 
 ---
 
 
 # Apache-Lizenz
 
-    Version 2.0, Januar 2004
+    Version 2.0, Januar 2004
 <!--                        https://www.apache.org/licenses/  -->
 
-NUTZUNGSBEDINGUNGEN, REPRODUKTION UND VERTEILUNG
+BESTIMMUNGEN UND BEDINGUNGEN FÜR DIE NUTZUNG, VERVIELFÄLTIGUNG UND VERBREITUNG
 
 1. Definitionen.
 
-   " Lizenz" bezeichnet die Nutzungsbedingungen für Verwendung, Reproduktion und
-Verteilung gemäß den Abschnitten 1 bis 9 dieses Dokuments.
+   „Lizenz“ bedeutet die Bestimmungen und Bedingungen für die Nutzung, Vervielfältigung und Verteilung wie in den Abschnitten 1 bis 9 dieses Dokuments definiert.
 
-   " Licensor" bezeichnet den Urheberrechtsinhaber oder die Entität, die vom Urheberrechtsinhaber autorisiert wurde, der die Lizenz gewährt.
+   „Lizenzgeber“ ist der Urheberrechtsinhaber oder die vom Urheberrechtsinhaber autorisierte Stelle, die die Lizenz erteilt.
 
-   " Juristische Entität" bedeutet die Vereinigung der aktiven Entität und aller
-anderen Entitäten, die diese Entität steuern, von dieser kontrolliert werden oder diese mit einer gemeinsamen
-Steuerung steuern. Für die Zwecke dieser Definition bedeutet "control" (i) die Leistungsfähigkeit, direkt oder indirekt, um die
-Richtung oder Verwaltung dieser Entität zu verursachen, ob vertraglich oder
-anderweitig, oder (ii) Eigentümerschaft für 5% (50%) oder mehr der ausstehenden" Teilen" -Klicks oder (iii) vorteilhaftes Eigentum für diese Entität.
+   „Rechtsträger“ ist der Zusammenschluss des handelnden Rechtsträgers und aller anderen Rechtsträger, die diesen Rechtsträger kontrollieren, von ihm kontrolliert werden oder unter gemeinsamer Kontrolle mit ihm stehen. Für die Zwecke dieser Definition bedeutet „Kontrolle“ (i) die direkte oder indirekte Befugnis, die Leitung oder das Management eines solchen Unternehmens zu veranlassen, sei es durch Vertrag oder auf andere Weise, oder (ii) das Eigentum an fünfzig Prozent (50 %) oder mehr der ausstehenden Aktien oder (iii) das wirtschaftliche Eigentum an einem solchen Unternehmen.
 
-   " Sie" (oder "Your" ) bezeichnet eine einzelne oder juristische Entität,
-die Berechtigungen für diese Lizenz erteilt.
+   „Sie“ (oder „Ihr“) bezeichnet eine natürliche oder juristische Person, die die durch diese Lizenz gewährten Berechtigungen ausübt.
 
-   " Quelle" ist das bevorzugte Formular für Änderungen, einschließlich der Softwarequellcode, der Dokumentationsquelle
-und der Konfigurationsdateien.
+   Die „Quellform“ ist die bevorzugte Form für die Durchführung von Änderungen, einschließlich, aber nicht beschränkt auf Software-Quellcode, Dokumentationsquellen und Konfigurationsdateien.
 
-   " Objekt" ist ein beliebiges Formular, das aus der mechanischen
-Transformation oder Übersetzung eines Quellformulars resultiert, einschließlich kompilierter Objektcodes, generierter Dokumentation und
-Konversionen in andere Medientypen.
+   Unter „Objektform“ ist jede Form zu verstehen, die durch mechanische Transformation oder Übersetzung einer Quellform entsteht, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
 
-   " Work" bezeichnet die Autorenarbeit, die unter der Option "Quelle" oder"
-Objekt" zur Verfügung gestellt wird, die unter der Lizenz verfügbar gemacht wird, wie durch einen
-Urheberrechtshinweis angegeben, der in der Arbeitsfläche
-enthalten ist oder damit verknüpft ist (im Anhang unten finden Sie ein Beispiel).
+   „Werk“ bedeutet das unter der Lizenz zur Verfügung gestellte urheberrechtlich geschützte Werk, sei es in Form des Quelltextes oder des Objektes, wie durch einen Urheberrechtsvermerk angegeben, der in dem Werk enthalten oder diesem beigefügt ist (ein Beispiel ist im Anhang unten angegeben).
 
-   " Abgeleitete Werke" bezeichnet alle Aufgaben, ob im Quell- oder Objekt-Formular,
-die auf dem Arbeitsablauf (oder abgeleitet) basieren, für die die
-redaktionellen Überarbeitungen, Anmerkungen, Ausführungen oder andere Änderungen
-als Ganzes einer Originalarbeit des Authoring dienen. Für die Zwecke
-dieser Lizenz umfassen die abgeleitete Funktionsweise keine Funktionen, die nicht getrennt werden
-können, oder nur Links, die an die Schnittstellen von,
-Werk und Abgeleitete Werke gesendet werden.
+   „Abgeleitete Werke“ bedeutet jedes Werk, ob in Quell- oder Objektform, das auf dem Werk basiert (oder davon abgeleitet ist) und bei dem die redaktionellen Überarbeitungen, Anmerkungen, Ausarbeitungen oder andere Modifikationen insgesamt ein originäres Werk der Urheberschaft darstellen. Für die Zwecke dieser Lizenz umfassen abgeleitete Werke keine Werke, die von den Schnittstellen des Werkes und der abgeleiteten Werke trennbar bleiben oder diese lediglich verlinken (oder namentlich binden).
 
-   " Beitrag" bezieht sich auf alle Authoring-Vorgänge, einschließlich
-der Originalversion der Arbeit und aller Änderungen oder Ergänzungen
-dieser Werke oder Kopien, die absichtlich
-an den Lizenzgeber gesendet werden, um in den Urheberrechtsinhaber
-oder durch eine einzelne oder juristische Entität zu übertragen, die im Auftrag des
-Urheberrechtsinhabers zur Übermittlung berechtigt ist. Für die Zwecke dieser Definition bezeichnet "Gesendet" jede
-Form einer elektronischen, verborgenen oder schriftlichen Kommunikation, die an den Lizenzgeber oder dessen Vertreter gesendet wird,
-einschließlich jedoch nicht beschränkt auf
-die Kommunikation bei elektronischen Mailinglisten, Quellcodesteuerungssystemen und Ausgabenverfolgungssystemen, die vom
-Lizenzgeber verwaltet werden, um die Arbeit zu besprechen und zu verbessern, jedoch
-nicht die Kommunikation, die durch den Urheberrechtsinhaber als" Kein Beitrag" gekennzeichnet oder anderweitig
-zugewiesen.
+   „Beitrag“ bedeutet jedes urheberrechtlich geschützte Werk, einschließlich der Originalversion des Werks und aller Änderungen oder Ergänzungen dieses Werks oder abgeleiteter Werke davon, das dem Lizenzgeber vom Urheberrechtsinhaber oder von einer natürlichen oder juristischen Person, die zur Einreichung im Namen des Urheberrechtsinhabers berechtigt ist, absichtlich zur Aufnahme in das Werk vorgelegt wird. Für die Zwecke dieser Definition bedeutet „eingereicht“ jede Form der elektronischen, mündlichen oder schriftlichen Mitteilung, die an den Lizenzgeber oder seine Vertreter, einschließlich, aber nicht beschränkt auf Kommunikation über elektronische Mailinglisten, Quellcode-Kontrollsysteme, und Issue-Tracking-Systeme, die von oder im Namen der Lizenzgeber zum Zweck der Diskussion und Verbesserung des Werkes, aber Ausschluss von auffällig gekennzeichneter oder sonstiger Kommunikation vom Urheberrechtsinhaber schriftlich als „Kein Beitrag“ bezeichnet.
 
-   " Mitarbeiter" bedeutet den Lizenzgeber und jede einzelne oder juristische Entität
-für Namen, für die ein Beitrag von einem Lizenzgeber empfangen und
-anschließend im Arbeitsablauf enthalten ist.
+   „Beitragender“ ist der Lizenzgeber und jede natürliche oder juristische Person, in deren Namen ein Beitrag beim Lizenzgeber eingegangen und anschließend in das Werk aufgenommen worden ist.
 
-2. Gewähren der Copyright-Lizenz. Gemäß den Nutzungsbedingungen dieser Lizenz gewährt jeder Mitarbeiter Ihnen eine unbefristete,
-weltweite, nicht exklusive, gebührenpflichtige, gebührenfreie und unwiderrufliche Urheberrechtserlaubnis, die für
-die Reproduktion, Vorbereitung automatischer Werke von,
-öffentlich anzeigt, öffentlich ausgeblendet, unterlizenz und Verteilung der Arbeit im Quell- oder Objekt-Formular steht.
+2. Erteilung der Copyright-Lizenz. Vorbehaltlich der Bestimmungen und Bedingungen dieser Lizenz gewährt Ihnen jeder Mitwirkende hiermit eine unbefristete, weltweite, nicht-exklusive, kostenlose, gebührenfreie, unwiderrufliche Urheberrechtslizenz, um das Werk und die abgeleiteten Werke davon zu vervielfältigen, zu erstellen, öffentlich auszustellen, öffentlich vorzuführen, unterzulizenzieren und zu verbreiten, und zwar in Quell- oder Objektform.
 
-3. Erteilung der Patent-Lizenz. Gemäß den Bedingungen dieser Lizenz gewährt jeder Mitarbeiter Ihnen eine unbefristete,
-weltweite, nicht exklusive, gebührenpflichtige, gebührenfreie, unwiderrufliche, gebührenpflichtige, unwiderrufliche
-(außer wie in diesem Abschnitt angegebene) Patente, die die Arbeit vornehmen, verkaufen, importieren und anderweitig übertragen,
-wo diese Lizenz nur für diese Patentansprüche gilt. kann von einem solchen Mitarbeiter lizenziert
-werden, der allein durch seine
-Beitrags(s) allein oder durch Kombination ihrer Beitrags (s)
-mit der Aufgabe verletzt wird, an die solche Beitragsbeiträge gesendet wurden. Wenn Sie
-die Patentierung des Patents gegen eine Entität (einschließlich eines
-anfordernden oder Gegenschadenserfolgs in einer Rechtsanforderung) anfordern, dass das Werk
-oder einen Beitrag, der im Arbeitsablauf enthalten ist, eine direkte
-oder Teilnehmende Patentverletzung darstellt, werden alle Patente, die Ihnen unter dieser Lizenz für diese Arbeit erteilt wurden, dem Datum der Einreichung der Kalender entsprechend beendet.
+3. Erteilung der Patentlizenz. Vorbehaltlich der Bestimmungen und Bedingungen dieser Lizenz gewährt Ihnen jeder Mitwirkende hiermit eine unbefristete, weltweite, nicht-exklusive, kostenlose, gebührenfreie, unwiderrufliche (sofern in diesem Abschnitt nicht anders angegeben) Patentlizenz zum Verwenden, Anbieten, Verkaufen, Importieren und anderweitiges Übertragen des Werks, wobei eine solche Lizenz nur für diejenigen Patentansprüche gilt, die von diesem Beitragenden lizenzierbar sind und die notwendigerweise durch seine Beiträge allein oder durch die Kombination seiner Beiträge mit den Werken, für die solche Beiträge eingereicht wurde. Wenn Sie eine Patentrechtsklage gegen ein Unternehmen einleiten (einschließlich einer Widerklage oder Gegenklage in einem Rechtsstreit), in der behauptet wird, dass das Werk oder ein in das Werk eingebrachter Beitrag eine direkte oder mittelbare Patentverletzung darstellt, dann enden alle Patentlizenzen, die Ihnen unter dieser Lizenz für dieses Werk gewährt wurden, mit dem Datum der Einreichung der Klage.
 
-4. Neuverteilung. Sie können Kopien der Vorgänge "Work" oder" Derivative Works" auf allen Medien (mit oder ohne
-Änderungen) sowie im Quell- oder Objekt-Formular reproduzieren und verteilen, sofern Sie
-folgende Bedingungen erfüllen:
+4. Umverteilung. Sie dürfen Kopien des Werkes oder abgeleiteter Werke davon in jedem Medium, mit oder ohne Modifikationen, und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, dass Sie die folgenden Bedingungen erfüllen:
 
-   (a) Sie müssen allen anderen Empfängern des Werks oder der Kopie eine Kopie dieser Lizenz zuweisen. und
+   (a) Sie müssen allen anderen Empfängern des Werks oder der abgeleiteten Werke eine Kopie dieser Lizenz zukommen lassen; und
 
-   (b) Alle geänderten Dateien müssen hervorgehobene Hinweise
-enthalten, die darauf hinweisen, dass Sie die Dateien geändert haben. und
+   (b) Sie müssen dafür sorgen, dass alle veränderten Dateien einen auffälligen Hinweis tragen, der besagt, dass Sie die Dateien verändert haben; und
 
-   (c) Sie müssen im Quellformular aller gespeicherten Werke,
-die Sie verteilen, alle Copyright-, Patent-, Marken- und
-Zuordnungshinweise aus der Quellform des Arbeitsbereichs ausschließen,
-mit Ausnahme jener Hinweise, die keinem Teil der Abgeleitete Funktionsweise vorbehalten sind, und
+   (c) Sie müssen in der Quellform aller abgeleiteten Werke, die Sie verbreiten, alle Hinweise auf Urheberrechte, Patente, Marken und Zuschreibungen aus der Quellform des Werkes beibehalten, mit Ausnahme der Hinweise, die sich nicht auf einen Teil der abgeleiteten Werke beziehen; und
 
-   (d) Wenn die Arbeitsmappe im Rahmen der Verteilung eine "NOTICE" -Textdatei enthält, muss
-alle gespeicherten Werke, die Sie verteilen, eine lesbare Kopie der Zuordnungshinweise enthalten, die in dieser Benachrichtigungsdatei enthalten
-sind. Ausgenommen hiervon sind Hinweise, die keinem Teil der abgeleitete Arbeitsfläche vorbehalten sind, in mindestens einem
-der folgenden Orte: within a NOTICE file file distributed
-as part of the Derivative Works; innerhalb des Quellformulars oder
-der Dokumentation, falls diese zusammen mit den Abgeleiteten funktioniert; oder innerhalb
-einer von der Abgeleiteten Funktion generierten Anzeige, wenn und
-wann diese Drittanbieterhinweise normalerweise angezeigt werden. Der Inhalt
-der NOTICE-Datei dient nur zu Informationszwecken und
-ändert die Lizenz nicht. Sie können Ihre eigenen Zuordnungshinweise
-in abgeleitete Werke hinzufügen, die Sie verteilen, zusammen
-oder als Zusatz zum Hinweis-Text aus der Aufgabe, sofern
-diese zusätzlichen Zuordnungshinweise nicht als Ändern der Lizenz interpretiert
-werden können.
+   (d) Wenn das Werk eine „HINWEIS“-Textdatei als Teil seiner Verbreitung enthält, müssen alle abgeleiteten Werke, die Sie verbreiten, eine lesbare Kopie der in dieser HINWEIS-Datei enthaltenen Zuordnungshinweise, mit Ausnahme derjenigen Hinweise, die nicht sich auf irgendeinen Teil der abgeleiteten Werke beziehen, an mindestens einer der folgenden Stellen enthalten: in einer HINWEIS-Textdatei, die als Teil der abgeleiteten Werke verteilt wird; in der Quellform oder in der Dokumentation, sofern zusammen mit den abgeleiteten Werken bereitgestellt; oder in einer von den abgeleiteten Werken generierten Anzeige, wenn und wo solche Hinweise Dritter normalerweise erscheinen. Der Inhalt der HINWEIS-Datei dient ausschließlich zu Informationszwecken und verändert die Lizenz nicht. Sie können Ihre eigenen Zuordnungshinweise in abgeleitete Werke einfügen, die Sie zusammen mit oder als Ergänzung zum HINWEIS-Text des Werks verteilen, sofern diese zusätzlichen Zuordnungshinweise nicht als Änderung der Lizenz ausgelegt werden können.
 
-   Sie können Ihren Änderungen eigene Copyright-Anweisungen hinzufügen und
-ggf. zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Reproduktion oder Verteilung Ihrer Änderungen bereitstellen, oder
-für solche Kopien, sofern Ihre Nutzung,
-Reproduktion und Verteilung der Arbeitsmappe den Bedingungen entspricht, die in dieser Lizenz angegeben sind.
+   Sie können Ihre eigene Urheberrechtserklärung zu Ihren Modifikationen hinzufügen und zusätzliche oder andere Lizenzbedingungen für die Nutzung, Vervielfältigung oder Verbreitung Ihrer Modifikationen oder für solche abgeleiteten Werke als Ganzes bereitstellen, vorausgesetzt, dass Ihre Nutzung, Vervielfältigung und Verbreitung des Werks ansonsten den in dieser Lizenz genannten Bedingungen entspricht.
 
-5. Beitragsübermittlung. Sofern nicht explizit festgelegt, muss jeder Beitrag, der absichtlich für die Einbeziehung in den Lizenzgeber eingereicht wird, ohne zusätzliche Nutzungsbedingungen unter den Bedingungen dieser Lizenz liegen.
-Ungeachtet der oben stehenden Funktion wird die Bedingungen einer separaten Lizenzvereinbarung, die Sie möglicherweise mit dem Lizenzgeber in Verbindung mit diesen Beiträgen ausgeführt
-haben, nicht ersetzt oder geändert.
+5. Einreichen von Beiträgen. Sofern Sie nicht ausdrücklich etwas anderes angeben, unterliegt jeder Beitrag, den Sie dem Lizenzgeber absichtlich zur Aufnahme in das Werk vorgelegt haben, den Bedingungen dieser Lizenz, ohne zusätzliche Bestimmungen und Bedingungen.
+Ungeachtet der obigen Bestimmungen werden die Bedingungen einer gesonderten Lizenzvereinbarung, die Sie mit dem Lizenzgeber hinsichtlich solcher Beiträge ausgeführt haben, durch nichts ersetzt oder geändert.
 
-6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen,
-Marken, Dienstzeichen oder Produktnamen des Lizenzgebers,
-sofern nicht erforderlich, wenn dies für eine angemessene und benutzerspezifische Verwendung in der Beschreibung des
-Ursprungs der Work und Reproduktion des Inhalts der NOTICE-Datei erforderlich ist.
+6. Marken und Warenzeichen. Diese Lizenz erteilt keine Erlaubnis, die Handelsnamen, Warenzeichen, Dienstleistungsmarken oder Produktnamen des Lizenzgebers zu verwenden, außer wenn dies für eine angemessene und übliche Verwendung bei der Beschreibung der Herkunft des Werks und der Reproduktion des Inhalts der HINWEIS-Datei erforderlich ist.
 
-7. Haftungsausschluss. Sofern nicht durch geltende Gesetze erforderlich oder
-nicht schriftlich geschrieben, stellt der Lizenzgeber die Arbeit (und die einzelnen
-Mitarbeiter bereitgestellt) auf einer "AS IS" -BASIS bereit, ohne
-jegliche ausdrückliche oder
-stillschweigende Garantie, einschließlich der Garantien oder Bedingungen
-von TITLE, NICHT-VERLETZUNG, MERCHANTABILITY oder FITNESS FÜR EINEN
-BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Eignung für die Verwendung oder Neuverteilung der Arbeit zu bestimmen und alle Risiken zu übernehmen, die mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz verbunden sind.
+7. Haftungsausschluss. Sofern nicht durch geltendes Recht vorgeschrieben oder schriftlich vereinbart, stellt der Lizenzgeber das Werk (und jeder Beitragende stellt seine Beiträge) im Ist-Zustand zur Verfügung, OHNE MÄNGELGEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHER ART, weder ausdrücklich noch stillschweigend, einschließlich, aber nicht beschränkt auf Garantien oder Bedingungen für TITEL, NICHTVERLETZUNG, MARKTGÄNGIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Zweckmäßigkeit der Nutzung oder Neuverteilung des Werks zu bestimmen, und übernehmen alle Risiken, die mit der Ausübung der Rechte im Rahmen dieser Lizenz verbunden sind.
 
-8. Haftungsbeschränkung. In kein Ereignis und unter keine Rechtstheorie,
-sei es in Tort (einschließlich Nachlässigkeit), Vertrag oder anderweitig, sofern nicht gesetzlich vorgeschrieben (wie absichtliche und grossfahrende
-Handlungen), muss jeder Mitarbeiter-Mitarbeiter für Schäden haftbar sein, einschließlich etwaiger direkter, indirekter, indirekter,
-zusätzlicher oder nachfolgender Schäden, die auftreten, wenn ein Zeichen diese Lizenz oder nicht der Einsatz der Arbeit (einschließlich, jedoch nicht beschränkt auf Schäden beim Verlust von "Gefällt mir" -Klicks,
-der Arbeitsunterbrechung, dem Computerausfall oder -ausfall oder allen anderen kommerziellen Schäden oder Verlusten), selbst wenn solche Mitarbeiter
-wurde über die Wahrscheinlichkeit dieses Schadens informiert.
+8. Haftungsbeschränkung. In keinem Fall und nach keiner Rechtstheorie haftet ein Beitragender Ihnen gegenüber, sei es aus unerlaubter Handlung (einschließlich Fahrlässigkeit), aufgrund eines Vertrags oder aus anderen Gründen, es sei denn, dies ist gesetzlich vorgeschrieben (z. B. Vorsatz oder grobe Fahrlässigkeit) oder schriftlich vereinbart, für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die sich aus dieser Lizenz oder aus der Verwendung oder Unfähigkeit zur Verwendung des Werks ergeben (einschließlich, aber nicht beschränkt auf Schäden wegen Verlust des Firmenwerts, Arbeitsunterbrechung, Computerausfall oder Störung oder sonstige Schäden oder Verluste), selbst wenn der Beitragende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
-9. Akzeptieren von Garantien oder zusätzlichen Haftung. Bei der Neuverteilung
-der Aufgaben oder Abgeleitete Werke können Sie die Annahme der Support-, Gewährungs-, Behebungs- oder
-sonstigen Berechtigungsverpflichtungen und/oder Berechtigungen, die mit dieser
-Lizenz konsistent sind, anbieten und dafür Gebühren entrichten. Wenn Sie derartige Verpflichtungen akzeptieren, können Sie jedoch nur in Ihrem eigenen Namen und in Ihrer Alleinigen Verantwortung handeln, nicht im Namen
-anderer Mitarbeiter, und Sie können diese Verpflichtungen nur für die Haftung, den
-Schutz und die Aufbewahrung der einzelnen Mitarbeiter ohne jegliche Haftung für Mitarbeiter, die durch Ihr Einverständnis mit einer solchen Garantie oder zusätzlichen Haftung versichert sind, ausführen.
+9. Annahme der Gewährleistung oder zusätzlichen Haftung. Bei der Neuverteilung der Werke oder abgeleiteter Werke können Sie die Annahme von Support-, Gewährleistungs-, Entschädigungs- oder sonstigen Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz im Einklang stehen, anbieten und/oder eine Gebühr berechnen. Bei der Annahme solcher Verpflichtungen können Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Beitragenden, und nur dann, und nur dann, wenn Sie damit einverstanden sind, jeden Beitragenden für jegliche Haftung oder Ansprüche, die gegen diesen Beitragenden geltend gemacht werden, weil Sie eine solche Garantie oder zusätzliche Haftung akzeptieren, zu entschädigen, zu verteidigen und schadlos zu halten.
 
-ENDE DER GESCHÄFTSBEDINGUNGEN
+ENDE DER BESTIMMUNGEN UND BEDINGUNGEN
 
-ANHANG: Anwendung der Apache-Lizenz auf Ihre Arbeit.
+ANHANG: Verwendung der Apache-Lizenz.
 
-    Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den Followertexthinweis
-    hinzu, wobei die Felder mit Klammern " {}"
-    durch Ihre eigenen Identifizierungsinformationen ersetzt werden. (Don't include
-    the brackets!)  The text should be enclosed in the appropriate
-    comment syntax for the file format. We also recommend that a
-    file or class name and description of purpose be included on the
-    same "printed page" as the copyright notice for easier
-    identification within third-party archives.
+    Um die Apache-Lizenz zu verwenden, fügen Sie den
+    folgenden Textbaustein hinzu, wobei die Felder in Klammern „{}“
+    durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Die Klammern nicht
+    einschließen!)  Der Text sollte in der entsprechenden
+    Kommentar-Syntax für das Dateiformat enthalten sein. Wir empfehlen außerdem, einen
+    Datei- oder Klassennamen und eine Beschreibung des Verwendungszwecks auf
+    derselben „gedruckten Seite“ als Urheberrechtshinweis zur leichteren
+    Identifizierung in Archiven Dritter anzugeben.
 
 Copyright 2018 Adobe Systems, Inc
 
-Lizenziert unter der Apache-Lizenz, Version 2.0 (die Lizenz ");
-Sie dürfen diese Datei nur unter Einhaltung der Lizenzvereinbarung verwenden.
-Sie können eine Kopie der Lizenz unter
+Lizenziert unter der Apache-Lizenz, Version 2.0 (die „Lizenz“);
+Sie dürfen diese Datei nur in Übereinstimmung mit der Lizenz verwenden.
+Eine Kopie der Lizenz erhalten Sie unter
 
     https://www.apache.org/licenses/LICENSE-2.0
 
-Sofern nicht durch geltende Gesetze erforderlich oder das Schreiben nicht erfolgt, wird die unter der Lizenz verteilte Software
-auf einer "AS IS" -BASIS verteilt,
-ohne jegliche ausdrückliche oder implizite Bedingung.
-Weitere Informationen finden Sie in der Lizenz für die entsprechenden Berechtigungen und
-Einschränkungen unter der Lizenz.
+Sofern nicht durch geltendes Recht vorgeschrieben oder schriftlich vereinbart, wird Software, die unter der Lizenz vertrieben wird, im Ist-Zustand vertrieben, OHNE MÄNGELGEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHER ART, weder ausdrücklich noch stillschweigend.
+In der Lizenz finden Sie die spezifische Sprache für die Berechtigungen und Einschränkungen unter der Lizenz.
