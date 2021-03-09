@@ -1,11 +1,11 @@
 ---
-description: Entdecken Sie alles, was Sie mit Advertising Analytics tun können, in dieser Anleitung, einschließlich der erforderlichen Berechtigungen und verfügbaren Dimensionen und Metriken.
-title: Ein Leitfaden für Advertising Analytics
-translation-type: tm+mt
+description: Entdecken Sie in diesem detaillierten Leitfaden, was Sie alles mit Advertising Analytics tun können, einschließlich der erforderlichen Berechtigungen und verfügbaren Dimensionen und Metriken.
+title: Ein Leitfaden zu Advertising Analytics
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1282'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
