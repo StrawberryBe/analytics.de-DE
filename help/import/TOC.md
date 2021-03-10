@@ -5,10 +5,10 @@ user-guide-title: Importleitfaden für Analytics
 breadcrumb-title: Importleitfaden
 user-guide-description: 'Transferieren Sie Daten aus externen Quellen in Analytics, entweder als Massendatei oder in Echtzeit. '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 0%
       + [Demandbase-Standarddimensionen](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Benutzerdefinierte Demandbase-Dimensionen](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + DFA-Data Connector für Adobe Analytics {#dfa}
+      + [Informationen zum Ende der DFA-Integration](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [DFA-Data Connector für Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Voraussetzungen](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Integrationsfunktionen](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
