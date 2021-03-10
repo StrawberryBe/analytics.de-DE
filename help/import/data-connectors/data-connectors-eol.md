@@ -2,7 +2,7 @@
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 translation-type: tm+mt
-source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
+source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Demandbase CA | Veraltet |
 | Demandbase v3 | Veraltet |
 | DialogTech | Verfügbar in Adobe Exchange |
-| DoubleClick for Advertisers (DFA) | Veraltet |
+| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Veraltet |
 | DREAM | Veraltet |
 | DREAMmail 2.0 | Veraltet |
 | Dynamic Signal (Nital Vora) | Migration zu Exchange |
