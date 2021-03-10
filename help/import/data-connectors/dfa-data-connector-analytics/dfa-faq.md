@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen
 topic: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,6 @@ Vergewissern Sie sich zunächst, dass die Anzeige über eine Landingpage-URL ver
 
 Überprüfen Sie anschließend, ob Sie über eine funktionierende Integration verfügen. Führen Sie dazu die unter [Bestätigung einer erfolgreichen DFA-Integration](../dfa-data-connector-analytics/dfa-integration.md) beschriebenen Schritte durch. Wird mit dem Adobe-Treffer auf der Landingpage ein DFA-Trackingcode angezeigt, sollte dieser Clickthrough ebenfalls im DFA-Kampagnenbericht enthalten sein. Wenn Sie nicht sehen, dass die Report Suites übereinstimmen, vergewissern Sie sich, dass die *`s.account`*-Variable der Landingpage und die in „Reports &amp; Analysen“ angezeigte Report Suite übereinstimmen. Stimmen diese überein, suchen Sie nach Trackingcodes im Durchsichts-eVar-Bericht, die das Format DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX aufweisen.
 
-Diese geben an, dass die DFA-Rohdaten nicht durch die DFA-VISTA-Regel verarbeitet werden konnten. Sie können dieses Problem lösen, indem Sie über Ihren Kundenbetreuer eine Supportanfrage erstellen.
+Diese geben an, dass die DFA-Rohdaten nicht durch die DFA-VISTA-Regel verarbeitet werden konnten. Dieses Problem kann durch Öffnen eines Support-Tickets über Ihren Kundenbetreuer behoben werden.
 
 Können Sie das Problem mit keiner der oben aufgeführten Lösungen beheben, finden Sie unter  [Abgleich von Metrikdiskrepanzen](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) weitere Möglichkeiten.
