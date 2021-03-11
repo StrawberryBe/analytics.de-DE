@@ -1,9 +1,9 @@
 ---
 title: Technische Handbücher zu Adobe Analytics
 description: Benutzerhandbücher und Ressourcen zu Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
 
 [![Integration](assets/integrate_50px.png)](/help/integrate/home.md) [Integrationsleitfaden](/help/integrate/home.md) – Konfigurieren Sie die Integration mit anderen Adobe Experience Cloud-Lösungen, wie z. B. Audience Manager, Advertising Cloud und Target.
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html) [Streaming Media Analytics-Handbuch](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) – Implementieren von Adobe Analytics für Streaming-Medien. Beinhaltet auch Informationen zum Media SDK und zur Media Collection API.
+[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html) [Streaming Media Analytics-Handbuch](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html) – Implementieren von Adobe Analytics für Streaming-Medien. Beinhaltet auch Informationen zum Media SDK und zur Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/de-DE/data-workbench/using/home.html) [Data Workbench-Leitfäden](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – Erfahren Sie mehr über die hochflexiblen, leistungsstarken Mehrkanalfunktionen von [!UICONTROL Data Workbench]. Beinhaltet Leitfäden für den [!UICONTROL Data Workbench-Client] sowie Installation, [!UICONTROL Datensatzkonfiguration] usw.
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/de-DE/data-workbench/using/home.html) [Data Workbench-Leitfäden](https://docs.adobe.com/content/help/de-DE/data-workbench/using/home.html) – Erfahren Sie mehr über die hochflexiblen, leistungsstarken Mehrkanalfunktionen von [!UICONTROL Data Workbench]. Beinhaltet Leitfäden für den [!UICONTROL Data Workbench-Client] sowie Installation, [!UICONTROL Datensatzkonfiguration] usw.
 
 [![Technotes](assets/technotes_50px.png)](/help/technotes/home.md) [Technotes zu Analytics](/help/technotes/home.md) – Ein Nachschlagewerk mit hilfreichen Artikeln, die sich nicht auf ein bestimmtes Analysetool oder eine bestimmte Komponente beschränken.
 
