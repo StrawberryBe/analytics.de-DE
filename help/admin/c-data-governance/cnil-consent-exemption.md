@@ -1,11 +1,11 @@
 ---
 description: Informieren Sie sich über die Richtlinien und Empfehlungen für die Zustimmung der Benutzer zum Speichern oder Lesen von nicht erforderlichen Cookies auf Geräten oder Browsern.
 title: Was sind die CNIL-Richtlinien für Cookies und die Zustimmung der Benutzer?
-translation-type: ht
-source-git-commit: c5ebc92622e012699d64c27701b24a88429e9f4f
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 36259e3a36cad221d7264e5caa0a09a757dc4fe8
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,8 @@ Am 1. Oktober 2020 veröffentlichte die französische Datenschutzbehörde (im Fo
 Die Leitlinien sehen eine begrenzte Freistellung von der Zustimmungspflicht vor („Zustimmungsfreistellung“). Die Zustimmungsfreistellung gilt für Analytics-Cookies, deren Zweck nur auf die Messung der Zielgruppe der Site oder Mobile App im Auftrag des Web-Herausgebers beschränkt ist. Die Leitlinien sehen vor, dass für die Anwendung der Zustimmungsfreistellung die folgenden Bedingungen erfüllt sein müssen:
 
 * Maximale Datenaufbewahrung über 25 Monate.  Sie können Ihre aktuellen Einstellungen für die Datenaufbewahrung unter „Analytics“ > „Admin“ > „Datenverwaltung“ überprüfen.  [Datenaufbewahrung](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=de)
-* Cookie-Beschränkung auf 13 Monate. Mit der Variablen `cookieLifetime` können Sie den Ablauf Ihres Analytics-Cookies überschreiben.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=de)
+* Deaktivieren Sie Drittanbieter-Cookies in ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api),  [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api) und  [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
+* 13-Monats-Cookie-Grenzwert auf ein statisches Datum gesetzt, nicht rollierend.  Mit der Variablen `cookieLifetime` können Sie den Ablauf Ihres Analytics-Cookies überschreiben.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=de)
 * Eingeschränkter Umfang. Der Umfang des Cookies muss auf eine einzelne Site oder Anwendung beschränkt sein. [Browsercookies](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=de&quot;\l&quot;third-party-cookie-implementation)
 * Anonymisierung. Anonymisieren des letzten Oktetts der IP-Adresse. [Allgemeine Kontoeinstellungen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=de)
 * Besucher-ID aus Berichten ausblenden.  Die Besucher-IDs sind in Adobe Workspace und Adobe Reports and Analytics standardmäßig nicht sichtbar.  Besucher-IDs stehen in Daten-Feeds und Data Warehouse zur Verfügung.  Der Zugriff auf Daten-Feeds und Data Warehouse kann durch [Zugriffsberechtigungen in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391) beschränkt werden
@@ -30,10 +31,12 @@ Die Leitlinien sehen eine begrenzte Freistellung von der Zustimmungspflicht vor 
 
 Es gelten zusätzlich folgende Überlegungen:
 
+* Erwägen Sie, den Anmeldestatus in einer Analytics-Variablen zu erfassen, um votierte Daten von den Ausschluss-Daten für die Segmentierung oder Virtual Report Suites zu trennen oder zu separaten Endpunkten weiterzuleiten.
 * Keine Messung außerhalb der Site oder App ohne vorherige Zustimmung, z. B. keine Offsite-Kampagnen, E-Mail-Kampagnen oder iFrames.
 * Die Erfassung personenbezogener Daten in Variablen ist ohne Zustimmung nicht gestattet.
 * Daten dürfen nur zur Erstellung anonymer Statistiken verwendet werden, wobei sie nicht mit anderen Daten kombiniert werden dürfen.
 * Die Daten werden nicht für Querverweisaktionen verwendet.
 * GPS-Geopositionsdaten werden nicht erfasst.
+* Wenn die Endbenutzer-Einwilligung erteilt wurde, können die oben genannten Einstellungen geändert und die Einschränkungen gelockert werden.
 
 Weitere Informationen finden Sie auf der Website [CNIL Cookie Exemption](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications).
