@@ -2,10 +2,10 @@
 title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
@@ -51,7 +51,12 @@ Sowohl nicht authentifizierte als auch authentifizierte Treffer auf neuen Gerät
 
 ### Wiederholungszuordnung
 
-Ungefähr einmal pro Woche berechnet die geräteübergreifende Analyse historische Daten basierend auf Geräten, die sie jetzt erkennt, neu. Wenn ein Gerät Daten anfänglich sendet, ohne authentifiziert zu sein, und sich dann anmeldet, verknüpft die geräteübergreifende Analyse diese nicht authentifizierten Treffer mit der richtigen Person. Die folgende Tabelle stellt dieselben Daten wie oben dar, zeigt jedoch unterschiedliche Zahlen basierend auf der Wiederholung der Daten.
+Die Wiederholung findet entweder täglich oder wöchentlich statt, je nachdem, wie Sie die CDA konfiguriert haben. Während der erneuten Wiedergabe versucht CDA, historische Daten in einem definierten Lookback-Fenster neu anzugeben:
+
+* Die tägliche Wiederholung verwendet ein Lookback-Fenster von 1 Tag
+* Bei wöchentlicher Wiederholung wird ein 7-Tage-Lookback-Fenster verwendet.
+
+Wenn ein Gerät Daten anfänglich sendet, ohne authentifiziert zu sein, und sich dann anmeldet, verknüpft die geräteübergreifende Analyse diese nicht authentifizierten Treffer mit der richtigen Person. Die folgende Tabelle stellt dieselben Daten wie oben dar, zeigt jedoch unterschiedliche Zahlen basierend auf der Wiederholung der Daten.
 
 *Dieselben Daten nach der Wiederholung:*
 
@@ -65,9 +70,3 @@ Ungefähr einmal pro Woche berechnet die geräteübergreifende Analyse historisc
 | `6` | `246` | `Bob` | Bob meldet sich erneut auf seinem Desktop an | `1` (Cluster1) | `1` (Bob) |
 | `7` | `3579` | – | Bob ruft Ihre Site erneut auf einem Mobilgerät auf | `1` (Cluster1) | `1` (Bob) |
 | `8` | `3579` | `Bob` | Bob meldet sich erneut auf einem Mobilgerät an | `1` (Cluster1) | `1` (Bob) |
-
-## Zusammenfassung
-
-* **Wenn Sie ein Gerätediagramm verwenden**, werden die Daten bei der Veröffentlichung eines Clusters zugeordnet (normalerweise 3 Stunden bis 2 Wochen).
-* **Bei Verwendung von feldbasiertem Stitching** werden Daten, die weniger als eine Woche alt sind, sofort bekannten Geräten zugeordnet, neue oder nicht erkannte Geräte werden jedoch nicht sofort zugeordnet.
-* Die Daten werden einmal pro Woche wiederholt und historische Daten in der Virtual Report Suite auf der Grundlage der Geräte geändert, deren Identifizierung gelernt wurde.
