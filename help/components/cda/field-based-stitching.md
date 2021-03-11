@@ -2,10 +2,10 @@
 title: Feldbasiertes Stitching
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe von feldbasiertem Stitching vertraut.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,8 @@ Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching 
 ## Spezifische Einschränkungen für feldbasiertes Stitching
 
 * Feldbasiertes Stitching funktioniert am besten bei Report Suites mit einer hohen Benutzeridentifizierungsrate. Wenn Ihre Report Suite eine niedrige Identifizierungs- oder Anmelderate aufweist, sollten Sie das [Co-op-Diagramm](device-graph.md) verwenden.
+* Obwohl Props und eVars jeweils Regeln für die Behandlung von Groß- und Kleinbuchstaben für Berichte haben, transformiert die feldbasierte Suche die Eigenschaft oder das eVar, die für das Zuordnen verwendet wird, in keiner Weise. Bei der feldbasierten Suche wird der Wert im angegebenen Feld verwendet, da es Post VISTA-Regeln und Nachbearbeitungsregeln gibt. Wenn das Wort &quot;Bob&quot;beispielsweise manchmal in der Eigenschaftsvariablen/eVar angezeigt wird und manchmal das Wort &quot;BOB&quot;angezeigt wird, werden diese als zwei separate Personen behandelt.
 
 ## Nächste Schritte
 
-Sobald Ihre Organisation alle Anforderungen erfüllt und die Einschränkungen versteht, können Sie mit der [Einrichtung der geräteübergreifenden Analyse](setup.md) beginnen.
+Sobald Ihr Unternehmen alle Anforderungen erfüllt und die Einschränkungen versteht, können Sie den Beginn [Einrichten von geräteübergreifenden Analysen](setup.md) ausführen.
