@@ -2,9 +2,9 @@
 title: Geräteübergreifende Analyse einrichten
 description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,7 @@ CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering be
 * Die Report Suite-ID für die geräteübergreifende Report Suite, die mit CDA zu aktivieren ist
 * Welche CDA-Methode Sie verwenden möchten (feldbasiertes Stitching, privates Diagramm von Adobe oder Co-op-Diagramm von Adobe)
 * Wenn Sie die feldbasierte Zuordnung nutzen möchten, verwenden Sie die Prop oder die eVar, die die Benutzer-ID enthält
+* Ihre Voreinstellung für die Häufigkeit der Wiederholungen und die Lookback-Länge. Zu den verfügbaren Optionen gehören eine Wiederholung pro Woche mit einem 7-tägigen Lookback-Fenster oder eine tägliche Wiederholung mit einem 1-tägigen Lookback-Fenster.
 
 Sobald Sie dem Kundenbetreuer diese Informationen zur Verfügung gestellt haben, kann dieser mit Adobe Engineering zusammenarbeiten, um Ihre ausgewählte Report Suite für die CDA-Verarbeitung zu aktivieren.
 
