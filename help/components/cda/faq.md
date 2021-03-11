@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,11 @@ Wenn Sie den Mobilgerätetyp wie oben dargestellt verwenden, können Sie sehen, 
 
 ## Wie weit reicht die Zuordnung der geräteübergreifenden Analyse für Besucher zurück?
 
-Adobe bewahrt Daten zur Gerätezuordnung etwa 30 Tage lang auf. Wenn ein Gerät ursprünglich nicht, aber später innerhalb von 30 Tagen identifiziert wird, legt die geräteübergreifende Analyse rückwirkend fest, dass das Gerät bis zu 30 Tage in der Vergangenheit zu einer identifizierten Person gehört. Wenn ein Teil des nicht identifizierten Verhaltens eines Benutzers außerhalb des 30-Tage-Lookback-Fensters liegt, wird dieser Teil der Journey des Benutzers nicht zugeordnet.
+Die geräteübergreifende Heftung von CDA erfolgt in zwei gleichzeitigen Prozessen.
+
+* Das erste Verfahren wird als &quot;Live-Heften&quot;bezeichnet, das bei Datenströmen in Adobe Analytics auftritt. Während der Live-Suche versucht CDA, die Daten auf einer persönlichen Ebene neu zu präsentieren. Ist die Person zum Zeitpunkt der Live-Heftung jedoch unbekannt, greift CDA zur Darstellung der Person auf die Besucher-ID zurück.
+
+* Der zweite Prozess heißt &quot;Wiederholung&quot;. Während der Wiederholung geht CDA in der Zeit zurück und gibt historische Daten nach Möglichkeit innerhalb eines bestimmten Lookback-Fensters wieder. Dieses Lookback-Fenster dauert entweder 1 Tag oder 7 Tage, je nachdem, wie Sie CDA zur Konfiguration angefordert haben. Während der Wiederholung versucht CDA, Treffer erneut anzugeben, bei denen die Person vorher unbekannt war.
 
 * **Bei Verwendung eines Gerätediagramms** bleiben Gerätezuordnungen im Co-op-Diagramm und im privaten Diagramm für ca. 6 Monate bei Adobe erhalten. Eine ECID, die länger als sechs Monate keine Aktivität aufweist, wird aus dem Diagramm entfernt. Bereits in der geräteübergreifenden Analyse zugeordnete Daten sind nicht betroffen, aber nachfolgende Treffer für diese ECID werden als neue Person behandelt.
 
