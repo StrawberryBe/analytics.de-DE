@@ -1,11 +1,11 @@
 ---
 title: Mobilgerätedimensionen
-description: Dimensionen basierend auf der Benutzeragentenzeichenfolge des Geräts.
+description: Dimensionen, die auf der IP-Adresse des Geräts basieren.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,8 @@ Mobilgerätedimensionen bieten Einblicke in die Eigenschaften von Mobilgeräten,
 
 ## Füllen dieser Dimensionen mit Daten
 
-Diese Dimensionen verweisen auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten `User-Agent`-HTTP-Kopfzeile. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um Suchen zwischen Benutzeragent und Mobilgerätedimensionen zu unterstützen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), sind alle Mobilgerätedimensionen vorkonfiguriert.
+Diese Dimensionen verweisen auf interne Suchregeln von Adobe. [!UICONTROL Mobil-] Carriererücksichten werden anhand der IP-Adresse ermittelt, wobei Daten verwendet werden, die wir von NetAcuity (einem Digital Element-Produkt) erhalten.
+Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), sind alle Mobilgerätedimensionen vorkonfiguriert.
 
 ## Beschreibung der Mobilgerätedimensionen
 
