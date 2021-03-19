@@ -1,14 +1,11 @@
 ---
 description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
-subtopic: Data sources
-title: Vollständige Verarbeitung
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+title: Vollständige Verarbeitung Option für Data Sources
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 96%
+source-wordcount: '728'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Die Adobe plant, Datenquellen mit vollständiger Verarbeitung in Zukunft zu veraltet.
+>Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Adobe plant, Datenquellen mit vollständiger Verarbeitung in Zukunft auslaufen zu lassen. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 
