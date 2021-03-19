@@ -2,10 +2,10 @@
 title: Mobilgerätedimensionen
 description: Dimensionen, die auf der IP-Adresse des Geräts basieren.
 translation-type: tm+mt
-source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ Mobilgerätedimensionen bieten Einblicke in die Eigenschaften von Mobilgeräten,
 
 ## Füllen dieser Dimensionen mit Daten
 
-Diese Dimensionen verweisen auf interne Suchregeln von Adobe. [!UICONTROL Mobil-] Carriererücksichten werden anhand der IP-Adresse ermittelt, wobei Daten verwendet werden, die wir von NetAcuity (einem Digital Element-Produkt) erhalten.
+Diese Dimensionen verweisen auf Lookup-Regeln, die in der Adobe enthalten sind. [!UICONTROL Mobil-] Carriererücksichten werden anhand der IP-Adresse ermittelt, wobei Daten verwendet werden, die wir von NetAcuity (einem Digital Elements-Produkt) erhalten.
 Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), sind alle Mobilgerätedimensionen vorkonfiguriert.
 
 ## Beschreibung der Mobilgerätedimensionen
@@ -28,7 +28,7 @@ Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience 
 >Mit `"None"` gekennzeichnete Dimensionselemente sind keine Mobilgeräte. Wenn Sie einen Bericht wünschen, der nur Mobilgeräte enthält, ziehen Sie die Dimension „Mobilgerät“ in den Segmentbereich der Arbeitsfläche von Workspace.
 
 * **Mobilgerät – Audio-Unterstützung**: Stellt die Dateiformate fest, die vom Gerät wiedergegeben werden können. Zu den Beispielwerten gehören `"MP3"`, `"AAC"` und `"MIDI Monophonic"`. Die Werte in dieser Dimension schließen sich nicht gegenseitig aus. Ein einzelner Treffer kann mehreren Dimensionselementen zugeordnet werden.
-* **Mobilnetzbetreiber**: Wenn der Benutzeragent ein Mobilnetzbetreiber-spezifisches Gerät enthält, ist der Netzbetreiber ein Dimensionselement. Zu den Beispielwerten gehören `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` und `"Verizon"`.
+* **Mobilnetzbetreiber**: Die Werte für diese Dimension werden aufgefüllt, indem Daten von Drittanbietern (digitale Elemente) basierend auf den von Analytics erfassten IP-Adressen gesucht werden. Zu den Beispielwerten gehören `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` und `"Verizon"`.
 * **Mobilgerät – Farbtiefe**: Die Farbtiefe des Mobilgeräts in Bit.
 * **Mobilgerät – Cookie-Unterstützung**: Stellt fest, ob das Mobilgerät Cookies unterstützt. Dieser Bericht gibt nicht an, ob der Browser Cookies akzeptiert. Zu den Dimensionselementen gehören `"Supported"`, `"Not supported"` und `"Unknown"`.
 * **Mobilgerät**: Das Mobilgerät, das der Besucher verwendet.
