@@ -2,10 +2,10 @@
 title: Festlegen von Benutzereinstellungen in Analysis Workspace
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -31,7 +31,7 @@ Allgemeine Voreinstellungen gelten für Ihr Adobe Analytics-Erlebnis im Browser.
 
 ## Projektvoreinstellungen
 
-Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace erstellte Bereiche. Voreinstellungen können auch pro Projekt unter &quot;Arbeitsbereich&quot;> &quot;Projekt&quot;> &quot;Projektinfo und Einstellungen&quot;verwaltet werden.
+Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace erstellte Bereiche. Voreinstellungen können auch pro Projekt unter [!UICONTROL Arbeitsbereich] > [!UICONTROL Projekt] > [!UICONTROL Projektinfo und Einstellungen] verwaltet werden.
 
 | Abschnitt | Einstellung | Optionen |
 | --- | --- | --- |
