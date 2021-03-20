@@ -1,10 +1,10 @@
 ---
-title: null
-description: null
+title: Ende der Lebensdauer für Datenquellen mit vollständiger Verarbeitung
+description: Gründe für das Ende des Lebenszyklus und Vergleiche zwischen der Bulk Data Insertion API und der Datenquellen für die vollständige Verarbeitung.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '732'
 ht-degree: 12%
 
 ---
