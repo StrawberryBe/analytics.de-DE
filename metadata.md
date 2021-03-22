@@ -10,13 +10,14 @@ getting-started-url: https://helpx.adobe.com/de/analytics/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.de-DE
-type: Documentation
+type: Dokumentation
 index: true
+description: Umfasst Metadaten auf Repo-Ebene, die an die Dateien "TOC.md"des Benutzerhandbuchs weitergeleitet werden.
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 90%
 
 ---
 
