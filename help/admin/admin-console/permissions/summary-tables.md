@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '1243'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Traffic-Management | x |  |  |  | Gewährt Zugriff auf „Admin > Traffic-Management“. |
 | Web-Services | x |  |  |  | Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Web-Services“. |
 | Activity Map |  | x |  |  | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
-| Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis ist vom Ende der Lebensdauer betroffen. [Weitere Infos](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis wird nicht mehr unterstützt. [Weitere Infos](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Zugriff auf Analysis Workspace |  | x |  |  | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
 | Analysis Workspace: als Vorlage speichern |  | x |  |  | Gewährt Zugriff auf „Projekt > Als Vorlage speichern“ in Analysis Workspace. |
 | Erstellung berechneter Metriken |  | x |  |  | Ermöglicht die Erstellung berechneter Metriken für alle Analytics-Funktionen. |
