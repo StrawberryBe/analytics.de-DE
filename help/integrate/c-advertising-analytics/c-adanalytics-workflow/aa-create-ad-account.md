@@ -1,11 +1,11 @@
 ---
 title: Einrichten eines Werbekontos in Advertising Analytics
 description: Ermöglicht die Erstellung neuer Werbekonten und die Zuordnung mehrerer Konten zu mehreren Report Suites.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,8 +78,8 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlin
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Report Suite  Zuordnen </p> </td> 
-      <td colname="col2"> <p>Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. </p> <p>Wenn Ihre Report Suite nicht aufgeführt ist, können Sie sie mit diesem Tool <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >einer Experience Cloud-Organisation zuordnen</a>. </p> </td> 
+      <td colname="col1"> <p>Report Suite Zuordnen </p> </td> 
+      <td colname="col2"> <p>Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. </p> <p>Wenn Ihre Report Suite nicht aufgeführt ist, können Sie sie mit diesem Tool <a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html"  >einer Experience Cloud-Organisation zuordnen</a>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
