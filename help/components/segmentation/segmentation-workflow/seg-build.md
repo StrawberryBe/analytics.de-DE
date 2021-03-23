@@ -3,9 +3,9 @@ description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen
 title: Segmente erstellen
 topic: Segmente
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2040'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Sie können Regeldefinitionen und Container hinzufügen, um Ihre Segmente zu def
 1. **[!UICONTROL Segmente]**: Klicken Sie auf die Kopfzeile zum Erweitern.
 1. **[!UICONTROL Report Suite-Auswahl]**: Erlaubt die Auswahl der Report Suite, unter der dieses Segment gespeichert wird. Sie können das Segment weiterhin in allen Report Suites verwenden.
 1. **[!UICONTROL Segmentvorschau]**: Liefert eine Vorschau der Schlüsselmetriken, die anzeigen, ob es sich um ein gültiges Segment handelt und wie breit das Segment ist. Stellt eine Aufschlüsselung des Datensatzes dar, den Sie erwarten können, wenn Sie dieses Segment anwenden. Zeigt 3 konzentrische Kreise und eine Liste mit der Anzahl und dem Prozentsatz der Übereinstimmungen für [!UICONTROL Treffer], [!UICONTROL Besuche] und [!UICONTROL Besucher] für einen mit diesem Segment ausgeführten Datensatz. Dieses Diagramm wird beim Erstellen oder Ändern der Segmentdefinition sofort aktualisiert.
-1. **[!UICONTROL Produktkompatibilität]**: Liefert eine Liste der Produkte von Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse), mit denen das von Ihnen erstellte Segment kompatibel ist. Die meisten Segmente sind mit allen Produkten kompatibel. Es sind jedoch nicht alle Operatoren und Dimensionen mit allen Analytics-Produkten kompatibel. Dies betrifft insbesondere  [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Dieses Diagramm wird bei Änderungen der Segmentdefinition sofort aktualisiert.
+1. **[!UICONTROL Produktkompatibilität]**: Liefert eine Liste der Produkte von Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse), mit denen das von Ihnen erstellte Segment kompatibel ist. Die meisten Segmente sind mit allen Produkten kompatibel. Es sind jedoch nicht alle Operatoren und Dimensionen mit allen Analytics-Produkten kompatibel. Dies betrifft insbesondere [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Dieses Diagramm wird bei Änderungen der Segmentdefinition sofort aktualisiert.
 1. **[!UICONTROL Speichern]** oder **[!UICONTROL Abbrechen]**: Speichert oder bricht das Segment ab. Nachdem Sie auf **[!UICONTROL Speichern]** geklickt haben, gelangen Sie zum Segment-Manager, in dem Sie das Segment verwalten können.
 
 Die Funktionsweise von Segmenten mit eingebetteten Datumsbereichen ist in Analysis Workspace und [!UICONTROL Reports &amp; Analytics] weiterhin unterschiedlich: In Workspace wird der Datumsbereich des Bedienfelds mit dem eingebetteten Datumsbereich des Segments überschrieben. Im Gegensatz dazu erhalten Sie in [!UICONTROL Reports &amp; Analytics] die Schnittmenge des Datumsbereichs des Berichts und des eingebetteten Datumsbereichs des Segments.
