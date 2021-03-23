@@ -3,11 +3,11 @@ description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Wareh
 title: Data Warehouse-Segmentkompatibilität
 topic: Segmente
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reports &amp; Analysen </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
   </tr> 
   <tr> 
    <td> <b>Dimensionen</b> </td> 
-   <td>Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Beispielsweise werden diese Dimensionen nur in Analysis Workspace, Reports &amp; Analysen unterstützt: 
+   <td>Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Beispielsweise werden diese Dimensionen nur in Analysis Workspace und Reports &amp; Analytics unterstützt: 
     <ul> 
      <li>Entryserver </li> 
      <li>Entrykategorie </li> 
@@ -73,7 +73,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
      <li>Hierarchie (Alle Dimensionen, die mit „Hierarchie“ beginnen) </li> 
      <li>Treffertiefe </li> 
      <li>Treffertyp </li> 
-     <li>Stunde  Tag </li> 
+     <li>Stunde Tag </li> 
      <li>Monat des Jahres </li> 
      <li>Seiten nicht gefunden </li> 
      <li>Paid Search </li> 
