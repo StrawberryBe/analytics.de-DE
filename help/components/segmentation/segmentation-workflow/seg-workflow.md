@@ -3,9 +3,9 @@ description: Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die m
 title: Übersicht über den Segmentierungs-Workflow
 topic: Segmente
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ seg_workflow.xml
 
 Haben Sie alle wichtigen Fragen gestellt, bevor Sie Segmente erstellt und eine Umgebung für die Segmentverwaltung eingerichtet haben? Haben Sie das Segment mit Blick auf seinen Einsatzzweck und die konkrete Verwendung entworfen?
 
-Eine Hilfe bei der Planung und Organisation Ihrer Segmente bietet Ihnen die  Checkliste für die Segmentplanung.
+Eine Hilfe bei der Planung und Organisation Ihrer Segmente bietet Ihnen die Checkliste für die Segmentplanung.
 
 ![](assets/step2_icon.png) [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
