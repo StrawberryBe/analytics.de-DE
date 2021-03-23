@@ -1,11 +1,11 @@
 ---
-title: Was ist die Variable "currencyCode", und wie verwende ich sie?
-description: Legt für E-Commerce-Sites die Währung fest, in der die Seite handelt.
-translation-type: tm+mt
+title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
+description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
