@@ -2,11 +2,11 @@
 description: Anwendungsfälle zum Erstellen und Verwalten intelligenter Warnhinweise.
 title: Intelligente Warnhinweise – Anwendungsfälle
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Dadurch wird die Warnhinweiserstellung unverzüglich mit den entsprechenden Wert
 
 ![](assets/prepopulated_alert.png)
 
-## Warnhinweise zusammenfassen (stapeln), anstatt mehrere Warnhinweise zu erstellen   {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Warnhinweise zusammenfassen (stapeln), anstatt mehrere Warnhinweise zu erstellen {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 Durch das Stapeln von Warnhinweisen wird dafür gesorgt, dass Warnhinweise kombiniert werden und nicht separat angezeigt werden.
 
