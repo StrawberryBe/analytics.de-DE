@@ -2,11 +2,11 @@
 description: Diese Änderungen an der Funktionsweise von berechneten Metriken in Analytics können sich auf Ihre Arbeit auswirken.
 title: Häufig gestellte Fragen
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Globale berechnete Metriken können nun nicht mehr über Anmeldeunternehmen hinw
 
 Jetzt sind berechnete Metriken mit der Classification „Numerisch“ oder „Numerisch 2“ weiterhin in [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] und den APIs sichtbar. Sie werden allerdings in keinem Bericht mit einem angewendeten Segment unterstützt.
 
-Darüber hinaus werden berechnete Metriken mit der Classification Numerisch oder Numerisch2 in den folgenden Komponenten nicht unterstützt: [!UICONTROL Analysis Workspace], [!UICONTROL Echtzeitberichte], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse-Analyse]. Wenn Sie eine berechnete Metrik mit der Classification Numerisch oder Numerisch2 erstellen oder bearbeiten, wird eine Kompatibilitätswarnung angezeigt, dass die berechnete Metrik mit bestimmten Produktbereichen nicht kompatibel ist.
+Darüber hinaus werden berechnete Metriken mit der Klassifizierung „Numerisch“ oder „Numerisch 2“ in den folgenden Komponenten nicht unterstützt: [!UICONTROL Analysis Workspace], [!UICONTROL Echtzeit]-Berichte, [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse]. Wenn Sie eine berechnete Metrik mit der Classification Numerisch oder Numerisch2 erstellen oder bearbeiten, wird eine Kompatibilitätswarnung angezeigt, dass die berechnete Metrik mit bestimmten Produktbereichen nicht kompatibel ist.
 
 **Zu ergreifende Maßnahme**
 
