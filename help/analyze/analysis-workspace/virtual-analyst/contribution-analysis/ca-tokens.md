@@ -1,12 +1,12 @@
 ---
-description: Verwenden Sie die Analyse "Beitrag", um statistische Anomalien und Korrelationen in Daten zu identifizieren.
+description: Verwenden Sie die Beitragsanalyse, um statistische Anomalien und Korrelationen in Daten zu identifizieren.
 title: Übersicht über die Beitragsanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
