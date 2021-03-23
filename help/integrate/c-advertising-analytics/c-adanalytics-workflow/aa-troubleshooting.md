@@ -1,12 +1,12 @@
 ---
-description: Fehlerbehebung und Behebung von Problemen in Zusammenhang mit Advertising Analytics.
+description: Finden und Beheben von Problemen in Advertising Analytics.
 title: Problembehebung in Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 * [Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt.](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung.](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
-## Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt.{#section_9CAACDE6445C492DBAE542BA74DE6316}
+## Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt. {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
 Sie versuchen, [ein neues Werbekonto einzurichten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) und Ihre Report Suite wird nicht in der Dropdown-Liste **[!UICONTROL Report Suite auswählen]** angezeigt. Hierfür gibt es zwei mögliche Gründe:
 
@@ -39,7 +39,7 @@ Sie versuchen, [ein neues Werbekonto einzurichten](/help/integrate/c-advertising
  </tbody> 
 </table>
 
-## Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung.{#section_C99EA9A1946E4908B36778A331142B84}
+## Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung. {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
