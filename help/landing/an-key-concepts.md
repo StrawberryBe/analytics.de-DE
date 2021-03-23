@@ -1,9 +1,9 @@
 ---
 description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 title: Adobe Analytics – Schlüsselkonzepte
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | Berichte zur Customer Journey | Zeigt Informationen über den Pfad an, den Ihre Benutzer auf Ihrer Site oder in Ihrer App nehmen. Eigenschaften, eVars und Ereignisse können in dieser Analyse in Analysis Workspace verwendet werden. | [Analysis Workspace-Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace-Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics-Pfad](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Marketing-Kanäle | Mithilfe von Berichte erfahren Sie mehr zu den externen Kanälen, über die Besucher auf Ihre Site gelangen, und welche davon bei der Generierung von Konversionen am effektivsten sind. Zuordnungsansichten für die erste und letzte Berührung werden bereitgestellt. Das ist die bevorzugte externe Traffic-Berichtsquelle in Adobe Analytics (anders als Kampagnen oder Traffic-Quellen), da sie den umfassendsten Überblick sowohl über gezahlte als auch über organische Kanäle bietet. | [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Zeigt Informationen zu mit Mobilgeräten oder Tablets geöffneten Websites an. | [Mobil-Bericht](/help/components/dimensions/mobile-dimensions.md) |
-| Mobile App | Zeigt grundlegende Nutzungsinformationen in Bezug auf Ihre mobilen Anwendungen an. Diese Berichte sind verfügbar, wenn Ihre SDK implementiert und die Berichtsfunktion aktiviert wurde.  Zudem hat Adobe Mobile Services eine eigene Benutzeroberfläche für mobile Anwendungen erstellt, die vollständigere Anwendungsdaten anzeigt und es Ihnen ermöglicht, die Benutzerinteraktionen zu verstehen und zu verbessern.  Greifen Sie [hier](https://mobilemarketing.adobe.com) auf die Oberfläche zu. | [Adobe Mobile Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html) |
+| Mobile App | Zeigt grundlegende Nutzungsinformationen in Bezug auf Ihre mobilen Anwendungen an. Diese Berichte sind verfügbar, wenn Ihre SDK implementiert und die Berichtsfunktion aktiviert wurde.  Zudem hat Adobe Mobile Services eine eigene Benutzeroberfläche für mobile Anwendungen erstellt, die vollständigere Anwendungsdaten anzeigt und es Ihnen ermöglicht, die Benutzerinteraktionen zu verstehen und zu verbessern.  Greifen Sie [hier](https://mobilemarketing.adobe.com) auf die Oberfläche zu. | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | Produkte | Identifiziert, wie einzelne Produkte bzw. Produktgruppen (Kategorien) zu verschiedenen Konversionsmetriken wie Umsatz oder Checkouts beitragen. | [Produktbericht](/help/components/dimensions/product.md) |
 | Segmentvergleich | Erkennt die meisten statistisch signifikanten Unterschiede zwischen Segmenten mithilfe einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben. | [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Site-Inhaltsbericht | Zeigt an, welche Seiten und Bereiche Ihrer Site am aktivsten sind und welche Server am häufigsten genutzt werden. | [Site-Inhaltsbericht](/help/components/dimensions/page.md) |
@@ -97,7 +97,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | --- | --- | --- |
 | Downloads und Planung der Benutzeroberfläche | Daten aus Analysis Workspace als CSV oder PDF exportieren. | [PDF- oder CSV-Dateien herunterladen](/help/analyze/analysis-workspace/curate-share/download-send.md) |
 | Report Builder | Siehe Analytics-Werkzeuge. |  |
-| Analytics-API  | Erstellen Sie Ihre eigenen Anfragen für Analysedaten. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
+| Analytics-API | Erstellen Sie Ihre eigenen Anfragen für Analysedaten. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
 | Data Warehouse | Siehe Analytics-Werkzeuge. |  |
 | Analytics-Daten-Feed | Die präziseste Möglichkeit, Daten aus Analytics zu erhalten. Erstellen Sie einen trefferbasierten Feed, der über Analytics funktioniert. | [Analytics Data Feed](/help/export/analytics-data-feed/data-feed-overview.md) |
 
