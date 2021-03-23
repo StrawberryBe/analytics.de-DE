@@ -2,11 +2,11 @@
 description: Verwenden Sie die Flussvisualisierung in einem Workspace-Projekt.
 title: Flussübersicht
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Damit können Sie:
 
 >[!NOTE]
 >
->Informationen darüber, wie sich die Ergebnisse der Anwendung von Segmenten auf Fluss zwischen Analysis Workspace und Reports &amp; Analysen unterscheiden können, finden Sie unter [Segmentierung als Grundlage für Fluss und Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Informationen dazu, wie sich die Ergebnisse bei der Anwendung von Segmenten auf den Fluss zwischen Analysis Workspace und Reports &amp; Analytics unterscheiden können, finden Sie unter [Segmentierung als Grundlage für Fluss und Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Videoschulung](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=de-DE) zur Flussvisualisierung (4:56)
+[Tutorial zur Flussvisualisierung](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## Interdimensionale Flüsse {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -33,6 +33,6 @@ Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/vi
 
 Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
-## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren   {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
