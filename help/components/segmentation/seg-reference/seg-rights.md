@@ -3,11 +3,11 @@ description: Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benu
 title: Segmentberechtigungen nach Rolle
 topic: Segmente
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benutzer der Admi
   <tr> 
    <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
    <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: Können ihre eigenen Segmente und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword"> Report Builder  </span>: Kann Ansicht/Bearbeitung/Löschen/usw. eigene Segmente und Segmente, die für sie freigegeben wurden. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: Können ihre eigenen Segmente und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword"> Report Builder </span>: Kann seine eigenen und freigegebene Segmente anzeigen/bearbeiten/löschen usw. </p> </td> 
    <td colname="col4"> Können Segmente als autorisiert genehmigen. </td> 
    <td colname="col5"> Können beliebige Segmente innerhalb der gesamten Organisation anwenden. </td> 
   </tr> 
