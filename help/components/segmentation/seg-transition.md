@@ -3,11 +3,11 @@ description: Häufig gestellte Fragen zur Segmentierung.
 title: Häufig gestellte Fragen
 topic: Segmente
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 * Der [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) vereinfacht das Erstellen von Segmenten.
 * Der neue [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ermöglicht die Einrichtung von [Workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
 * Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/segmentation/segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden.
-* Sie können [Sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) erstellen.
+* Sie können [sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) erstellen.
 * Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
 Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) im Digital Marketing Blog.
@@ -86,11 +86,11 @@ Ad-hoc-Analysen und Report Builder zeigen Segmente an, deren Inhaber Sie sind, s
 
 **Kann ich alle Analytics-Segmente im Segment-Manager verwalten?**
 
-Ja, alle Segmente können im Segment-Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
+Ja, alle Segmente können in Segment Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
 
 Administratoren können alle Segmente innerhalb der Benutzeroberflächen von Analysis Workspace und [!DNL Reports & Analytics] sehen.
 
-Report Builder zeigt nur Segmente an, die von Ihnen erstellt wurden, oder Segmente, die spezifisch für Sie freigegeben wurden.
+Report Builder zeigt nur von Ihnen erstellte Segmente oder Segmente, die für Sie freigegeben wurden, an.
 
 **Warum kann ich dieses Segment nicht löschen?**
 
@@ -110,7 +110,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente unter Einhaltung der   [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Taggen Sie Segmente unter Einhaltung der [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Verwaltung alter Segmente {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -118,7 +118,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 
 Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt. [Mehr …](/help/components/segmentation/seg-transition.md)
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als   Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet:
 
@@ -138,7 +138,7 @@ Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ 
 
 **Was passiert mit Data Warehouse-Segmenten?**
 
-Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehousen-Segmente funktionieren auch in anderen Komponenten wie Analysis Workspace und Reports &amp; Analysen.
+Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten, z. B. Analysis Workspace und Reports &amp; Analytics.
 
 Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erstellen oder bearbeiten. Durch den Produktkompatibilitätsmechanismus wird im Segment Builder automatisch ermittelt, ob ein Segment mit Data Warehouse kompatibel ist.
 
@@ -162,7 +162,7 @@ Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Vorhand
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
-Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als   Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
+Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
 
 Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
@@ -315,7 +315,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
  </tbody> 
 </table>
 
-## Änderungen an auf Zeichenketten basierenden Dimensionen, die bekannte Werte besitzen    {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Änderungen an auf Zeichenketten basierenden Dimensionen, die bekannte Werte besitzen {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Auf Zeichenketten basierende Dimensionen, die einen bekannten Satz Werte besitzen, wurden in Aufzählungstypen geändert. Wenn Sie mit diesen Dimensionen ein Segment erstellen, wird die Liste mit allen bekannten Werten vorbelegt und „Gleich“ wird als einziger Operator unterstützt. So können Sie die genauen Werte, nach denen Sie suchen, schnell segmentieren, ohne nicht beabsichtigte Werte auszuwählen, die bei einer weniger restriktiven Übereinstimmung auftreten.
 
@@ -337,7 +337,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobile Lesezeichenlänge | Java aktiviert | Gebührenpflichtige Suche |
 | Mobil URL-Länge | Sprache |  |
 
-## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen    {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segmentaufbauoberfläche segmentiert werden:
 
