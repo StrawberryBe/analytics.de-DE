@@ -2,11 +2,11 @@
 description: Verwenden Sie die Visualisierung der horizontalen Leiste in einem Workspace-Projekt.
 title: Horizontalbalken und Horizontalbalken gestapelt
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer od
 
 ![](assets/horizontal_bar.png)
 
-## Horizontalbalken gestapelt   {#section_50C08E9E20A94024A6553BC352ADB597}
+## Horizontalbalken gestapelt {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Diese Visualisierung entspricht dem [!UICONTROL horizontalen Balkendiagramm], die Serien sind hier jedoch gestapelt.
 
