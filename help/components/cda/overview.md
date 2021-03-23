@@ -1,11 +1,11 @@
 ---
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 Die geräteübergreifende Analyse ist eine Funktion, mit der Analytics von einer geräteorientierten Ansicht zu einer personenorientierten Ansicht wechselt. Analysten können so das Benutzerverhalten über Browser, Geräte oder Apps hinweg nachvollziehen. Adobe unterstützt zwei übergreifende Workflows zum Verknüpfen von Gerätedaten:
 
 * [**Feldbasiertes Stitching**](field-based-stitching.md): Ermöglicht die Auswahl einer Analytics-Variablen als Grundlage für geräteübergreifendes Zuordnen in einer Virtual Report Suite. Verwendet deterministische Abgleiche, um Geräte miteinander zu verknüpfen. Adobe empfiehlt die Verwendung von feldbasiertem Stitching für die meisten Anwendungsfälle des deterministischen Abgleichs.
-* [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem Gerätediagramm, um Geräte einander zuzuordnen. Das Co-op-Diagramm verwendet sowohl deterministische als auch wahrscheinliche Übereinstimmung.
+* [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem Gerätediagramm, um Geräte einander zuzuordnen. Das Co-op-Diagramm nutzt sowohl deterministische als auch probabilistische Abgleiche.
 
 Mithilfe der geräteübergreifenden Analyse können Sie Fragen beantworten wie z. B.:
 
@@ -25,7 +25,7 @@ Mithilfe der geräteübergreifenden Analyse können Sie Fragen beantworten wie z
 * Welche sind die häufigsten Pfade, die Benutzer beim Wechsel von einem Gerät zum anderen verwenden? Wo steigen sie aus? Wo schließen sie ihre Aktion erfolgreich ab?
 * Wie unterscheidet sich das Verhalten von Benutzern mit mehreren Geräten von Benutzern mit nur einem Gerät?
 
-Beim Zuordnen von Geräten wird die variable Persistenz über Geräte hinweg übernommen. Beispiel: Ein Benutzer besucht Ihre Site zum ersten Mal über eine Werbeanzeige auf seinem Desktop. Der Benutzer findet Ihre Mobile App, installiert sie und tätigt schließlich einen Einkauf auf seinem Mobilgerät. Mit der geräteübergreifenden Analyse können Sie den Umsatz auf dem Mobilgerät der Anzeige zuordnen, auf die sie auf ihrem Desktop-Computer geklickt haben.
+Beim Zuordnen von Geräten wird die variable Persistenz über Geräte hinweg übernommen. Beispiel: Ein Benutzer besucht Ihre Site zum ersten Mal über eine Werbeanzeige auf seinem Desktop. Der Benutzer findet Ihre Mobile App, installiert sie und tätigt schließlich einen Einkauf auf seinem Mobilgerät. Mit der geräteübergreifenden Analyse können Sie den Umsatz auf dem Mobilgerät einer Anzeige zuordnen, auf die auf dem Desktop-Computer geklickt wurde.
 
 Aus Gründen der Partnerschaft und Transparenz möchten wir, dass unsere Kunden sich unserer Verwendung von Microsoft Azure in Verbindung mit geräteübergreifenden Analysen bewusst werden. Adobe verwendet Azur zum Speichern von Gerätediagrammdaten und zum Durchführen geräteübergreifender Zuordnungen. Daher werden Adobe Analytics-Daten zwischen dem Datenverarbeitungscenter von Adobe und den von Adobe bereitgestellten Instanzen von Microsoft Azure hin- und hergeleitet.
 
