@@ -2,11 +2,11 @@
 description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann.
 title: Virtual Report Suites – Übersicht
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Eine Virtual Report Suite erbt die meisten Service-Levels der zugrunde liegenden
 * Name der Report Suite
 * Berechtigungsgruppen (Virtual Report Suites können eigenen Berechtigungsgruppen zugewiesen werden.)
 
-## Vorteile von Virtual Report Suites  {#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## Vorteile von Virtual Report Suites {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
 Die Kunden zahlen für sekundäre Serveraufrufe, sodass eine Eliminierung dieser Aufrufe zu deutlichen Einsparungen führen kann. Eine Virtual Report Suite ist zudem vollständig retroaktiv. Wenn die globale Report Suite bereits Daten enthält, werden die relevanten Daten automatisch in eine neue Virtual Report Suite einbezogen. Eine neue sekundäre Report Suite beginnt erst nach ihrer Erstellung mit dem Erfassen von Daten, sodass sie keine historischen Daten beinhaltet. Beim Implementieren von Analytics müssen Sie lediglich Daten an eine Report Suite senden, anstatt Implementierungen für die globale Report Suite und alle sekundären Report Suites erstellen zu müssen.
 
@@ -41,7 +41,7 @@ Virtual Report Suites sind für Folgendes hilfreich:
 * Einzelkundenansicht der Daten (künftig)
 * Möglichkeit zur Erstellung unbegrenzter Virtual Report Suites zum Segmentieren von Daten
 
-## Einschränkungen von Virtual Report Suites  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Einschränkungen von Virtual Report Suites {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Virtual Report Suites haben die folgenden Einschränkungen:
 
@@ -51,12 +51,12 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 * Echtzeitbericht
 * Einstellungen und Variablennamen können nicht wie bei einer vollständigen Report Suite angepasst werden
 
-## Virtual Report Suites vs. Multisuite-Taggen  {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites vs. Multisuite-Taggen {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Funktion | Virtual Report Suite | Multisuite-Taggen |
 |--- |--- |--- |
 | Bietet Berichte mit Echtzeit- oder aktuellen Daten | Nein | Ja |
-| Funktioniert in allen Analytics-Tools (Analysis Workspace, Report Builder usw.) | Ja. **Hinweis:** Diese können nur in Reports &amp; Analytics als Virtual Report Suites identifiziert und bearbeitet werden. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden. | Ja |
+| Funktioniert in allen Analytics-Tools (Analysis Workspace, Report Builder usw.) | Ja. **Hinweis:** Diese können nur in Reports &amp; Analytics als Virtual Report Suites identifiziert und bearbeitet werden. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden. | Ja |
 | Hochladen von Daten (über Classifications, Datenfeeds usw.) | Nein | Ja |
 | Unterstützt die Erstellung von DL-Berichten, Lesezeichen, Dashboards, Zielgruppen, Warnhinweisen, Segmenten, berechneten Metriken... | Ja | Ja |
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
