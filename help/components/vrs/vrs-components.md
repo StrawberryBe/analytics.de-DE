@@ -2,9 +2,9 @@
 description: Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
 title: Zusammenstellung der Virtual Report Suite-Komponenten
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -64,12 +64,12 @@ Klicken Sie in Analysis Workspace auf das Informationssymbol für eine beliebige
 
 ![](assets/vrs-aw-renamed.png)
 
-## Komponentengruppen   {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Komponentengruppen {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Mithilfe von Komponentengruppen können Sie Ihrer Virtual Report Suite stapelweise Komponenten hinzufügen. Wenn Sie beispielsweise einen Standardsatz mit spezifischen Komponenten für die Mobile-App-Analyse importieren möchten, wählen Sie die Mobile-App-Gruppe aus. Daraufhin wird der Liste „Eingeschlossen“ der Virtual Report Suite automatisch ein entsprechender Satz mit Dimensionen und Metriken (bereits umbenannt) hinzugefügt.
 
 ![](assets/vrs-comp-grp.png)
 
-## Workspace-Verhalten   {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Workspace-Verhalten {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Weitere Informationen zum Kuratieren in Analysis Workspace finden Sie unter [Kuratieren und Freigeben von Projekten](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/curate.html).
