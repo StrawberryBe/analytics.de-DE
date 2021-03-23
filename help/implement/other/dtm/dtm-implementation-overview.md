@@ -4,11 +4,11 @@ keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Manageme
 title: Übersicht zur DTM-Implementierung
 topic: Entwickler und Implementierung
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
