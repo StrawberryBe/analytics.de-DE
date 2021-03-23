@@ -1,11 +1,11 @@
 ---
 description: Verwenden Sie die Donut-Visualisierung in einem Workspace-Projekt.
 title: Ringdiagramm
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
