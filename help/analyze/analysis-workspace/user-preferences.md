@@ -2,9 +2,9 @@
 title: Festlegen von Benutzereinstellungen in Analysis Workspace
 description: Sie können Landingpages- und Projektverweise an einem zentralen Ort festlegen.
 translation-type: tm+mt
-source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
+source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '224'
 ht-degree: 28%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 28%
 
 # Benutzerpräferenzen
 
-Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie die Analysis Workspace-Einstellungen und die zugehörigen Komponenten für Ihre Benutzer verwalten. Benutzereinstellungen gelten für alle *neuen* Projekte oder Bereiche.
+Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzereinstellungen] können Sie Einstellungen für Analysis Workspace und die zugehörigen Komponenten auf Benutzerebene verwalten. Benutzereinstellungen gelten für alle *neuen* Projekte oder Bereiche.
 
 ![Benutzerpräferenzen](assets/user-preferences.png)
 
