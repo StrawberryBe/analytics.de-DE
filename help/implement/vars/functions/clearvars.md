@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: Löscht die folgenden Werte aus dem Instanzobjekt. Diese Funktion entfernt die Elemente (legt sie als „undefiniert“ fest).
+description: Löschen Sie Variablenwerte aus dem Verfolgungsobjekt.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
