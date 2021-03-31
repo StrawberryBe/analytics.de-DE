@@ -1,13 +1,14 @@
 ---
 description: Im benutzerdefinierten Layout können Sie eine Metrik-Spalte in eine Balkengrafik mit einem zugehörigen Prozentwert oder in einen Prozentwert mit einer zugehörigen Balkengrafik konvertiert werden. Der Prozentwert ist der Metrikwert oder der Gesamtwert für alle nicht gefilterten Anforderungen für den jeweiligen Zeitraum.
 title: Microchart erstellen
-topic: Report builder
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 97%
 
 ---
 
