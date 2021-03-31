@@ -1,10 +1,12 @@
 ---
 description: Erfahren Sie, wie Sie die Anzeigedichte anpassen.
 title: Dichte anzeigen
+feature: Grundlagen zu Workspace
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '109'
 ht-degree: 100%
 
 ---
