@@ -1,13 +1,14 @@
 ---
 description: Feldbeschreibungen zur Verwaltung von Anforderungen in Report Builder.
 title: Anforderungen verwalten – Definitionen
-topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +27,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL
 >
 >Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
 
-## Definitionen  {#section_FD29D8614DE74F32A0027FA130F40304}
+## Definitionen {#section_FD29D8614DE74F32A0027FA130F40304}
 
 <table id="table_0880204181074BDBBA37E3DF2972A672"> 
  <thead> 
