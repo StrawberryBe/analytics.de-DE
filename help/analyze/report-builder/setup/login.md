@@ -1,12 +1,13 @@
 ---
 description: Erfahren Sie, wie Sie sich mit Ihrem Experience Cloud-Anmeldekonto bei Report Builder anmelden.
 title: Anmelden bei Report Builder
-topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 7e659a0c2b2e5c9ba30b3875bc5d19b5309bfe38
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '214'
 ht-degree: 48%
 
 ---
