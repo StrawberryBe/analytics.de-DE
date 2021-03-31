@@ -1,13 +1,14 @@
 ---
 description: Schritte und Überlegungen für die Aktualisierung von Report Builder.
 title: Report Builder aktualisieren
-topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 100%
 
 Schritte und Überlegungen für die Aktualisierung von Report Builder.
 
-## Aktualisierte FAQs  {#section_AFE40FF5544C418790A1C298C25CC18A}
+## Aktualisierte FAQs {#section_AFE40FF5544C418790A1C298C25CC18A}
 
 **F: Behalte ich die alte Version von Report Builder bei der Aktualisierung bei?**
 
