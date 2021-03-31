@@ -1,13 +1,14 @@
 ---
 description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID, die Region oder die Activity Map-Moduldatei AppMeasurement anpassen.
 title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
-topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +50,7 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
 
 Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Links zu unterscheiden? Sie haben drei Optionen: Sie können die Link-ID anpassen, die Region anpassen oder die Activity Map-Moduldatei AppMeasurement anpassen.
 
-## Link-ID mit s_objectID anpassen   {#section_01B0D463397B4837B2D46F087A6E5937}
+## Link-ID mit s_objectID anpassen  {#section_01B0D463397B4837B2D46F087A6E5937}
 
 Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposition auf einer Seite können Sie die Activity Map-Verfolgung verbessern. Sie können Activity Map auch zum Generieren von Berichten zum Linktyp oder zur Linkposition anstelle der Link-URL verwenden. Klicken Sie [hier](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html), um weitere Informationen zur Variablen s_objectID zu erhalten.
 
