@@ -1,13 +1,14 @@
 ---
 description: Ermöglicht es Ihnen, von Adobe Analytics aus auf einen vollständigen Satz an Metriken in der Activity Map-Symbolleiste zuzugreifen.
 title: Vollständiger Satz an Metriken
-topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 98%
 
 ---
 
