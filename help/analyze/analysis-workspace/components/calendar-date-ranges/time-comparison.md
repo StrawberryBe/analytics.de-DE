@@ -2,10 +2,12 @@
 description: Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die einen Datumsbereich enthält, einen standardmäßigen Datumsvergleich erstellen, z. B. Jahres-, Quartals-, Monatsvergleich usw.
 title: Datumsvergleich
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
+feature: Grundlagen zu Workspace
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '643'
 ht-degree: 100%
 
 ---
