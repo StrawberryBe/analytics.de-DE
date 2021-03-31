@@ -1,13 +1,13 @@
 ---
 description: Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informationen, die Ihnen helfen, Standardmenüoptionen im vereinfachten Menü zu finden.
 title: Einstellungen zur Berichtsanzeige und Navigation
-topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 100%
+source-wordcount: '1471'
+ht-degree: 99%
 
 ---
 
