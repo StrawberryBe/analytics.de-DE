@@ -2,11 +2,13 @@
 description: Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an.
 title: Treemap
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
+feature: Visualisierungen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '98'
+ht-degree: 96%
 
 ---
 
