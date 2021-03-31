@@ -2,13 +2,14 @@
 description: Informationen zum Planen, Herunterladen und Verteilen von Berichten.
 subtopic: Schedule
 title: Berichtsplanung und -verteilung
-topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
+feature: Berichte,Reports and Analytics
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 100%
+source-wordcount: '1668'
+ht-degree: 99%
 
 ---
 
