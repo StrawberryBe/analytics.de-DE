@@ -1,13 +1,14 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Zielgruppe den größten Nutzen bietet.
 title: Berichtsdiagramme ändern
-topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
+feature: Grundlagen zu Reports & Analysen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 98%
 
 ---
 
