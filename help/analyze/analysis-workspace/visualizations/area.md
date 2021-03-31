@@ -2,11 +2,13 @@
 description: Diese Visualisierung des Workspace ist wie ein Liniendiagramm, aber mit einem farbigen Bereich unterhalb der Linie.
 title: Bereich und Bereich gestapelt
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
+feature: Visualisierungen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
