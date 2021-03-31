@@ -1,13 +1,14 @@
 ---
 description: 'Im Dialogfeld „Anforderungs-Assistent: Schritt 1“ können Sie angeben, welche Granularität eine Datenanforderung haben soll. Durch die Granularität wird der Detailgrad für die zeitliche Auflösung des Berichts angegeben.'
 title: Granularität
-topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 98%
 
 ---
 
