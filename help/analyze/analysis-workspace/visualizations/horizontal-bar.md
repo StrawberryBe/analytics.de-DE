@@ -2,11 +2,13 @@
 description: Verwenden Sie die Visualisierung der horizontalen Leiste in einem Workspace-Projekt.
 title: Horizontalbalken und Horizontalbalken gestapelt
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '70'
-ht-degree: 100%
+feature: Visualisierungen
+role: Geschäftspraktiker, Administrator
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 95%
 
 ---
 
