@@ -1,11 +1,13 @@
 ---
 description: Ein Bedienfeld ist eine Sammlung von Tabellen und Visualisierungen
 title: Übersicht über Bedienfelder
+feature: Bedienfelder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 100%
+source-wordcount: '1008'
+ht-degree: 99%
 
 ---
 
