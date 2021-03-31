@@ -1,11 +1,12 @@
 ---
 title: Festlegen von Benutzereinstellungen in Analysis Workspace
-description: Sie können Landingpages- und Projektverweise an einem zentralen Ort festlegen.
+feature: Grundlagen zu Workspace
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 28%
+source-wordcount: '217'
+ht-degree: 31%
 
 ---
 
