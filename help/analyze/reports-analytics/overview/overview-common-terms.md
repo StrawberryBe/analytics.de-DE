@@ -1,13 +1,14 @@
 ---
 description: Eine Einführung in häufig gebrauchte Webanalysebegriffe, die in Marketingberichten verwendet werden
 title: Häufig verwendete Begriffe
-topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
+feature: Berichte,Reports and Analytics
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
