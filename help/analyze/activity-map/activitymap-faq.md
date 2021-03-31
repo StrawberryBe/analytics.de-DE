@@ -1,12 +1,13 @@
 ---
 description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
 title: Activity Map – Häufig gestellte Fragen
-topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '508'
 ht-degree: 38%
 
 ---
