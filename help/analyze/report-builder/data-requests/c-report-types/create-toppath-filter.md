@@ -1,13 +1,14 @@
 ---
 description: Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt werden.
 title: Pfadberichte durch Hinzufügen von abhängigen Anforderungen filtern
-topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
