@@ -1,13 +1,14 @@
 ---
 description: Activity Map bietet zwei Basismodi, um zusätzliche Berichte für die Seitenaktivität zu erstellen.
 title: Standardmodus im Vergleich zum Livemodus
-topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +22,7 @@ Activity Map bietet zwei Basismodi, um zusätzliche Berichte für die Seitenakti
 
 Durch Klicken auf die Schaltfläche „Modus“ in der Symbolleiste kann zwischen den beiden Modi umgeschaltet werden.
 
-## Standardmodus  {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
+## Standardmodus {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
 
 Im **Standardmodus** können Sie den Datumsbereich in der Symbolleiste wie unten gezeigt auswählen.
 
