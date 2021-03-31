@@ -1,13 +1,14 @@
 ---
 description: Hier finden Sie Ressourcen für weitere Informationen zu Adobe Activity Map.
 title: Ressourcen für weitere Informationen
-topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 96%
 
 ---
 
