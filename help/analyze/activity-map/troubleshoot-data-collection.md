@@ -1,10 +1,12 @@
 ---
 title: Fehlerbehebung bei der Activity Map-Datenerfassung
 description: Bestimmen Sie, warum Activity Map-Daten in Bildanforderungen nicht angezeigt werden können.
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '269'
 ht-degree: 3%
 
 ---
@@ -18,7 +20,7 @@ Wenn Sie keine Daten zu Activity Map-Dimensionen sehen, verwenden Sie diese Seit
 
 Vergewissern Sie sich zunächst, dass AppMeasurement Activity Map-Daten richtig erfasst.
 
-1. Laden Sie die [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de-DE) herunter und installieren Sie sie.
+1. Laden Sie die [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) herunter und installieren Sie sie.
 2. Navigieren Sie zu Ihrer Webseite und klicken Sie dann auf einen Link.
 3. Wenn die nachfolgende Seite geladen wird, öffnen Sie den Debugger. Überprüfen Sie, ob Sie die zwischen `activitymap.` und `.activitymap` aufgeteilten Activity Map-Kontextdatenvariablen sehen:
 
