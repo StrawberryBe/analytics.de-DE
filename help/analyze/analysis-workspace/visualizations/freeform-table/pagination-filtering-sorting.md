@@ -2,11 +2,13 @@
 description: Video über Paginierung, Filterung und Sortierung
 title: Paginierung, Filtern und Sortieren von Tabellen
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '96'
-ht-degree: 100%
+feature: Freiformtabellen
+role: Geschäftspraktiker, Administrator
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 97%
 
 ---
 
