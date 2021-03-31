@@ -2,13 +2,14 @@
 description: Anhand von Lesezeichen haben Sie Zugriff auf die Berichte, die Sie am meisten verwenden. Die von Ihnen erstellten Lesezeichen werden der Experience Cloud hinzugefügt und sind in integrierten Funktionen wie Data Connectors verfügbar.
 subtopic: Bookmarks
 title: Lesezeichen-Manager
-topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
+feature: Grundlagen zu Reports & Analysen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 98%
 
 ---
 
