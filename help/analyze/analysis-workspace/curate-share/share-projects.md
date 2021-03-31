@@ -2,10 +2,12 @@
 description: Projektfreigabe und Projektrollen in Workspace
 keywords: Analysis Workspace-Freigabe
 title: Freigeben von Projekten
+feature: Kuratieren und freigeben
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1109'
 ht-degree: 99%
 
 ---
