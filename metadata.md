@@ -2,22 +2,15 @@
 cloud: experience-cloud
 product: analytics
 solution: Analytics
-solution-title: Lernen und Support
-solution-hub-url: https://helpx.adobe.com/de/support/analytics.html
-solution-image: assets/analytics-icon-24.png
-getting-started-title: Erste Schritte
-getting-started-url: https://helpx.adobe.com/de/analytics/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.de-DE
 type: Dokumentation
 index: true
-description: Umfasst Metadaten auf Repo-Ebene, die an die Dateien "TOC.md"des Benutzerhandbuchs weitergeleitet werden.
+feature-set: Analytics
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 90%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
