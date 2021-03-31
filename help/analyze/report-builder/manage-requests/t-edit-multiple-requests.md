@@ -1,13 +1,14 @@
 ---
 description: Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report Suite, die Granularität und der Datumsbereich einer Anforderung zu beachten.
 title: Mehrere Anforderungen bearbeiten
-topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 99%
 
 ---
 
