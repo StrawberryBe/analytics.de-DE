@@ -2,10 +2,12 @@
 description: Linienvisualisierung zur Darstellung von (zeitbasierten) Trend-Datensätzen verwenden
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
+feature: Visualisierungen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '515'
 ht-degree: 65%
 
 ---
