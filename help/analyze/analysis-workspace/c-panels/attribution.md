@@ -1,11 +1,13 @@
 ---
 title: Attributionsbedienfeld
 description: Verwendung und Interpretation des Attributionsbedienfelds in Analysis Workspace.
+feature: Attribution
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 66%
+source-wordcount: '373'
+ht-degree: 65%
 
 ---
 
