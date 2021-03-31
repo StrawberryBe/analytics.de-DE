@@ -2,10 +2,12 @@
 description: In Analysis Workspace gibt es zwei Möglichkeiten zur Verwendung von Metriken.
 title: Metriken
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Grundlagen zu Workspace
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '257'
 ht-degree: 85%
 
 ---
