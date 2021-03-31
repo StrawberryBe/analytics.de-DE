@@ -1,13 +1,14 @@
 ---
 description: Sie können auch den Basisberichtstyp für Ihre Datenanforderung auswählen, z. B. Site-Metriken, Site-Content und Video.
 title: Übersicht über Berichtstypen
-topic: Report builder
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 97%
 
 ---
 
