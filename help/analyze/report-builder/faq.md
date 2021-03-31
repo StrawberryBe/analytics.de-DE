@@ -1,10 +1,12 @@
 ---
 title: Häufig gestellte Fragen zu Report Builder
 description: Häufig gestellte Fragen zum Report Builder
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
