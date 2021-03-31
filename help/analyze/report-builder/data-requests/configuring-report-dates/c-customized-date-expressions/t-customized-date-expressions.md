@@ -1,13 +1,14 @@
 ---
 description: Sie können einen komplexen Datumsbereich festlegen, indem Sie einen benutzerdefinierten Ausdruck verwenden.
 title: Benutzerdefinierte Datumsausdrücke – Übersicht
-topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 29%
+source-wordcount: '243'
+ht-degree: 30%
 
 ---
 
