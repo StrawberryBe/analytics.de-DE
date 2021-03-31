@@ -1,11 +1,13 @@
 ---
 title: Visual Basic-Makros in Report Builder
 description: Erweitern Sie die Funktionalität von Excel-Arbeitsmappen und Report Builder mit VBA.
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 98%
 
 ---
 
