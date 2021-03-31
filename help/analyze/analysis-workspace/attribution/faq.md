@@ -1,11 +1,13 @@
 ---
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
+feature: Attribution
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
