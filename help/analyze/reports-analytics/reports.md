@@ -1,11 +1,13 @@
 ---
 title: Berichte
 description: Die Dimensionen und Metriken, die Reports & Analytics für die einzelnen Berichte verwendet.
+feature: Berichte & Analytics-Grundlagen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 100%
+source-wordcount: '1869'
+ht-degree: 99%
 
 ---
 
