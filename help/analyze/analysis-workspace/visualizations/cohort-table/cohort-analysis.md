@@ -1,11 +1,13 @@
 ---
 title: Was ist eine Kohortenanalyse und wie funktioniert sie?
 description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgruppe und unterteilen Sie sie mit der Kohortenanalyse in die zugehörigen Gruppen. Erfahren Sie mehr über die Kohortenanalyse in Analysis Workspace.
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '492'
-ht-degree: 100%
+feature: Visualisierungen
+role: Geschäftspraktiker, Administrator
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 99%
 
 ---
 
