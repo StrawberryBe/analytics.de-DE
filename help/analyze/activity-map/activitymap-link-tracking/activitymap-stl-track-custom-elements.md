@@ -1,11 +1,12 @@
 ---
 title: Verwenden Sie die tl()-Methode mit Activity Map
 description: Mit der Methode tl() können Sie benutzerdefinierte Elemente verfolgen und das Überlagerungsrendering für dynamische Inhalte konfigurieren.
-topic: Activity Map
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 65cb0a49ef74156f0b8adf4a11c6fec6394d306f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 43%
 
 ---
