@@ -1,13 +1,14 @@
 ---
 description: Mit Überlagerungen verfügen Sie über zahlreiche Möglichkeiten zur Konfiguration der Datenvisualisierung, sodass Sie die Beliebtheit der Links auf einer Seite einfach feststellen und verstehen können.
 title: Anpassbare Überlagerungen
-topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '359'
+ht-degree: 99%
 
 ---
 
