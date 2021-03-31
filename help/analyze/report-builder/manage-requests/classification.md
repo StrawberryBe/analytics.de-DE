@@ -1,13 +1,14 @@
 ---
 description: Classification-Aufschlüsselungen werden zur Zuordnung von Analyseberichtsdaten zu bestimmten Eigenschaften eingesetzt. Classifications können für zahlreiche Zwecke eingesetzt werden, werden jedoch meistens dazu verwendet, Kampagnen-Trackingcodes (sowohl interne als auch externe) und Produkt-IDs zu klassifizieren.
 title: Classification
-topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
