@@ -2,13 +2,14 @@
 description: Anwendungsfälle für die Kohortenanalyse.
 keywords: Analysis Workspace
 title: Anwendungsfälle für die Kohortenanalyse
-topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
+feature: Visualisierungen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '932'
+ht-degree: 99%
 
 ---
 
