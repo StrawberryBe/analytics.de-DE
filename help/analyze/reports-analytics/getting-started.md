@@ -1,11 +1,13 @@
 ---
 description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 title: Erste Schritte mit Reports and Analytics
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '701'
-ht-degree: 100%
+feature: Grundlagen zu Reports & Analysen
+role: Geschäftspraktiker, Administrator
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 99%
 
 ---
 
