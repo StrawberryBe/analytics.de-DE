@@ -1,13 +1,14 @@
 ---
 description: Kopieren Sie ein ganzes Arbeitsblatt aus einer Quellarbeitsmappe in eine oder mehrere andere Arbeitsmappen.
 title: Anforderungen und Arbeitsblätter zwischen Arbeitsmappen kopieren
-topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 99%
 
 ---
 
