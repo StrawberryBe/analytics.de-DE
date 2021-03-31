@@ -2,11 +2,12 @@
 description: Mit der Funktion „Metriken mit Mehrfachanforderungen bearbeiten“ können Sie Metriken in einer vorhandenen Anforderung bzw. in einer Gruppe von Anforderungen mühelos hinzufügen, entfernen oder ersetzen.
 title: Metriken mit Mehrfachanforderungen bearbeiten
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 99%
 
 ---
 
