@@ -2,12 +2,13 @@
 description: Verwenden Sie Warnungen in Reports & Analysen.
 subtopic: Alerts
 title: Warnhinweise
-topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: Warnhinweise
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 99%
 
 ---
