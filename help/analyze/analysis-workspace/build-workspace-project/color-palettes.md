@@ -1,10 +1,12 @@
 ---
 description: Verwenden der Visualisierungsfarbpalette in Analysis Workspace
 title: Was sind Visualisierungsfarbpaletten und wie funktionieren sie?
+feature: Grundlagen zu Workspace
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
