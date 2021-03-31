@@ -1,13 +1,14 @@
 ---
 description: 'Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwendete Datumswerte auswählen, die Sie gespeichert haben. Wählen Sie im Dialogfeld „Anforderungs-Assistent: Schritt 1“ die Option „Vordefinierte Datumswerte“. Hier finden Sie die Felddefinitionen für voreingestellte Datumswerte in Report Builder.'
 title: Definitionen im Anforderungs-Assistenten – Vordefinierte Datumswerte
-topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 98%
 
 ---
 
