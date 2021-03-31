@@ -1,13 +1,14 @@
 ---
 description: Auf der Registerkarte „Seitendetails“ wird der Seitenbericht als Tabelle und der Seitenflussbericht als BowTie-Diagramm (Schmetterlingsgraf) angezeigt.
 title: Seitendetails
-topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
+feature: Activity Map
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
