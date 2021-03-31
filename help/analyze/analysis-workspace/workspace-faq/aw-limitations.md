@@ -1,10 +1,12 @@
 ---
 description: Liste der bekannten Einschränkungen in Adobe Analysis Workspace und der zugehörigen Komponenten
 title: Bekannte Einschränkungen in Analysis Workspace
+feature: Grundlagen zu Workspace
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
