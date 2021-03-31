@@ -1,11 +1,13 @@
 ---
 description: Berechnung der Gesamtsummen in Workspace.
 title: Workspace-Summen
+feature: Freiformtabellen
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '519'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +21,7 @@ In Freiformtabellen wird auf jeder Unterteilungsebene eine Zeile insgesamt angez
 
 ![](assets/total-row.png)
 
-## Gesamteinstellung anzeigen  {#display-total}
+## Gesamteinstellung anzeigen {#display-total}
 
 Unter **[!UICONTROL Spalteneinstellungen]** finden Sie die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]**. Wenn diese Einstellungen deaktiviert sind, werden die Summen aus der Tabelle entfernt. Dies kann in Fällen gewünscht werden, in denen Summen beispielsweise in bestimmten [Szenarien mit berechneten Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) keinen Sinn ergeben.
 
