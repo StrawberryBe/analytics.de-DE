@@ -2,11 +2,13 @@
 description: Häufige Probleme bei der Verwendung von Report Builder mit Power BI
 title: Fehlerbehebung für die Power BI-Integration
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: 3aae3b00db1d7f720641ed5ccbefd8acc03460e3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 51%
+source-wordcount: '375'
+ht-degree: 50%
 
 ---
 
