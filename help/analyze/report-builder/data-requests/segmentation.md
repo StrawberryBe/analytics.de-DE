@@ -1,13 +1,14 @@
 ---
 description: So können Sie in Report Builder Adobe Analytics-Segmente hinzufügen, bearbeiten, anwenden und filtern.
 title: Segmente verwalten
-topic: ReportBuilder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +52,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 1. Gehen Sie zurück zum Report Builder und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
 1. Nun können Sie dieses Segment anwenden.
 
-## Segmente suchen und anwenden   {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Segmente suchen und anwenden  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 Alle Segmente, die in Reports &amp; Analytics, Report Builder oder Data Warehouse erstellt wurden, werden in dieser Segmentliste angezeigt. Klicken Sie zum Aktualisieren der Liste auf das Aktualisierungssymbol ![](assets/refresh_icon.png).
 
