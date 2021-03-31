@@ -1,13 +1,14 @@
 ---
 description: Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anforderungen hinzugefügt und bearbeitet werden, indem Sie die Arbeitsmappe sperren. Dies ermöglicht eine Offline-Bearbeitung der Arbeitsmappen, indem alle Berichtsanforderungen angehalten werden – für eine effizientere Bearbeitung.
 title: Arbeitsmappen sperren/entsperren
-topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
+feature: Report Builder
+role: Geschäftspraktiker, Administrator
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +53,7 @@ Wenn Sie eine geschützte Arbeitsmappe bearbeiten möchten (über das Kontextmen
 
 * Wenn Sie über die erforderlichen Berechtigungen verfügen, wird keine Meldung angezeigt und Sie können die Anforderung bearbeiten.
 
-## Arbeitsablauf  {#section_260D05FF632B41DB97DB43E2ADBE2E75}
+## Arbeitsablauf {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 
 Nehmen wir an, dass Arbeitsmappe A über eine Anforderung verfügt, die gesperrt ist und von Benutzer A erstellt wurde.
 
