@@ -2,7 +2,7 @@
 title: Verarbeitungsregeln für Marketing-Kanäle
 description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
 translation-type: tm+mt
-source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 90%
@@ -118,7 +118,7 @@ Die [!UICONTROL gebührenpflichtigen Sucheinstellungen] für die Marketingkanalr
 
 Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
 
-### Kostenlose Suche   {#natural-search}
+### Kostenlose Suche  {#natural-search}
 
 Bei einer natürlichen Suche finden Besucher Ihre Website durch eine Web-Suche, bei der die Suchmaschine Ihre Website aufführt, ohne dass Sie dafür Gebühren entrichten müssen.
 
