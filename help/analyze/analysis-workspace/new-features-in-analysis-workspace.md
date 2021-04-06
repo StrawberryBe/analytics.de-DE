@@ -4,18 +4,26 @@ keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 feature: Grundlagen zu Workspace
 role: Geschäftspraktiker, Administrator
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8211'
-ht-degree: 99%
+source-wordcount: '8326'
+ht-degree: 98%
 
 ---
-
 
 # Neuerungen in Analysis Workspace
 
 Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de-DE).
+
+## März 2021
+
+| Funktion | Zieldatum | Beschreibung |
+| --- | --- | --- |
+| [!UICONTROL Komponenten] >  [!UICONTROL Benutzereinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie [!UICONTROL Analysis Workspace]-Einstellungen und zugehörige Komponenten für Ihren Benutzer verwalten. [!UICONTROL Die Benutzereinstellungen ] gelten für alle neuen Projekte und Bereiche. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite  [!UICONTROL Benutzereinstellungen ] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Workspace-Projekte: Hilfe > Tipps aktivieren</li><li>Workspace-Projekte: Leeres Bedienfeld _Beginn neuer Projekte mit dieser Option_</li></ul> |
+| [!UICONTROL Histogramm-Smart-Bucket-Prognose] | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket ] Predictionhilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
+
 
 ## Februar 2021
 
