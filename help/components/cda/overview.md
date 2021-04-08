@@ -1,14 +1,14 @@
 ---
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
-translation-type: ht
-source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
+translation-type: tm+mt
+source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 86%
 
 ---
-
 
 # Geräteübergreifende Analyse
 
@@ -36,7 +36,7 @@ Weitere Informationen zu den Funktionen der geräteübergreifenden Analyse finde
 Die Verwendung der geräteübergreifenden Analyse erfordert Folgendes: Die Methoden zum [feldbasierten Stitching](field-based-stitching.md) und der [Gerätediagrammme](device-graph.md) haben ebenfalls eigene spezifische Voraussetzungen.
 
 * Es muss ein Vertrag bei Adobe mit Adobe Analytics Ultimate abgeschlossen werden.
-* Die geräteübergreifende Analyse wird pro Report Suite aktiviert. Adobe empfiehlt, dass eine Report Suite geräteübergreifende Daten enthält, d. h. Daten von mehreren Gerätetypen (Web, App usw.). Einige Organisationen bezeichnen dieses Konzept als „globale“ Report Suite, obwohl die geräteübergreifende Analyse aus geografischer Sicht nicht unbedingt global sein muss.
+* Geräteübergreifende Analysen werden pro Report Suite aktiviert. Adobe empfiehlt, dass eine Report Suite geräteübergreifende Daten enthält, d. h. Daten von mehreren Gerätetypen (Web, App usw.). Einige Organisationen bezeichnen dieses Konzept als „globale“ Report Suite, obwohl die geräteübergreifende Analyse aus geografischer Sicht nicht unbedingt global sein muss.
 
 ## Einschränkungen
 
@@ -45,8 +45,9 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse ist nur über Analysis Workspace verfügbar.
 * Die geräteübergreifende Analyse funktioniert nicht in allen Report Suites und kombiniert auch keine Daten aus mehreren Report Suites.
 * Adobe Analytics-Report Suites können nicht mit mehr als einem IMS-Tag verknüpft werden. Da die geräteübergreifende Analyse Geräte innerhalb einer Report Suite zuordnet, kann die geräteübergreifende Analyse nicht zum Zuordnen von Daten über mehrere IMS-Organisationen hinweg verwendet werden.
-* Die geräteübergreifende Analyse ist derzeit nicht mit Kundenattributen kompatibel. Diese beiden Funktionen können gleichzeitig in separaten Virtual Report Suites verwendet werden, die auf dieselbe Quell-Report Suite verweisen.
+* Private Graph nutzt die gleichen ID-Syncs wie die, die von der Funktion [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes) in Experience Cloud und Adobe Analytics verwendet werden. Virtual Report Suites von CDA (unabhängig davon, ob sie auf einer privaten Grafik oder einer feldbasierten Suche basieren) sind jedoch nicht mit den übrigen Funktionen für Kundenattribute kompatibel. Kundenattribute-basierte Dimensionen stehen also nicht zur Verwendung in Virtual Report Suites von CDA zur Verfügung.
 * CDA ist derzeit nicht mit A4T kompatibel.
 * Die geräteübergreifende Analyse verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](../vrs/vrs-about.md) und [Berichtszeitverarbeitung](../vrs/vrs-report-time-processing.md).
 * Die 1.4 API wird nicht unterstützt. Power BI-Connectoren und Report Builder basieren beide auf der 1.4 API und sind daher nicht mit der geräteübergreifenden Analyse kompatibel.
 * Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
+* Die aktive Überwachung des CDA-Heftprozesses nach Adobe ist nur auf Produktions-Report Suites beschränkt.
