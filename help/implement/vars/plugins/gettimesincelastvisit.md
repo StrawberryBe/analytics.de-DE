@@ -1,11 +1,11 @@
 ---
 title: getTimeSinceLastVisit
 description: Messen Sie den Zeitraum zwischen zwei Besuchen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Wenn derselbe Code nach 4 Tagen weiterer Inaktivität auf derselben Domäne ausg
 
 ## Versionsverlauf
 
-### 2.0 (19. März 2021)
+### 2.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
