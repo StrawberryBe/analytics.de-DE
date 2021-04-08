@@ -1,11 +1,11 @@
 ---
 title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -185,10 +185,10 @@ Der Wert „300“ stammt aus dem Wert des pos-Parameters in der Variablen s.tes
 
 ## Versionsverlauf
 
-### 4.0 (19. März 2021)
+### 4.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
-* Abhängigkeiten vom `pt`-Plugin entfernt.
+* Abhängigkeiten vom Plug-in `pt` entfernt.
 
 ### 3.3 (24. September 2019)
 
