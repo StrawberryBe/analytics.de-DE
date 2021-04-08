@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: Messen Sie die Zeit, zu der eine bestimmte Aktion stattfindet.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Ghana liegt innerhalb der UTC/GMT-Zeitzone. Dieses Beispiel zeigt, dass kein Plu
 
 ### Für Internet Explorer-Browser
 
-Verwenden Sie das folgende Beispiel, wenn Sie Zeitaufteilungsdaten aus Internet Explorer-Besuchern ausschließen möchten. Der von IE-Browsern zurückgegebene Wert ist nur in der Ortszeit des Besuchers angegeben.
+Verwenden Sie das folgende Beispiel, wenn Sie Zeitaufteilungsdaten von Internet Explorer-Besuchern ausschließen möchten. Der von IE-Browsern zurückgegebene Wert ist nur in der Ortszeit des Besuchers angegeben.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,7 +118,7 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Ergebnisse von Aufrufen
 
-Man denke an ein Szenario, bei dem ein Besucher von Denver Colorado am 31. August 2020 um 9:15 Uhr eine Site besucht.
+Stellen Sie sich ein Szenario vor, bei dem ein Besucher aus Denver, Colorado, am 31. August 2020 um 9:15 Uhr eine Site besucht.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
@@ -136,7 +136,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ## Versionsverlauf
 
-### 6.3 (19. März 2021)
+### 6.3 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
@@ -160,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->Frühere Versionen dieses Plug-Ins konnten in Zukunft nicht alle Jahre verwendet werden. Wenn Sie eine frühere Version dieses Plug-Ins verwenden, empfiehlt Adobe dringend, ein Upgrade auf die neueste Version durchzuführen, um JavaScript-Fehler und Datenverluste zu vermeiden. Wenn eine Aktualisierung dieses Plug-Ins nicht möglich ist, stellen Sie sicher, dass die Variable `s._tpdst` im Plug-in-Code die entsprechenden Jahre in der Zukunft enthält.
+>Frühere Versionen dieses Plug-Ins konnten nicht für alle zukünftigen Jahre verwendet werden. Wenn Sie eine frühere Version dieses Plug-Ins verwenden, empfiehlt Adobe dringend, ein Upgrade auf die neueste Version durchzuführen, um JavaScript-Fehler und Datenverluste zu vermeiden. Wenn eine Aktualisierung dieses Plug-Ins nicht möglich ist, stellen Sie sicher, dass die Variable `s._tpdst` im Plug-in-Code die entsprechenden Jahre in der Zukunft enthält.
 
 ### 4.0 (22. August 2016)
 
