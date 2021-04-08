@@ -1,11 +1,11 @@
 ---
 title: addProductEvent
 description: Fügt den Variablen „products“ und „events“ benutzerspezifische Ereignisse hinzu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Der oben genannte Code hängt auch `"event35"` an das Ende von `s.events` **oder
 
 ## Versionsverlauf
 
-### 2.0 (19. März 2021)
+### 2.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
