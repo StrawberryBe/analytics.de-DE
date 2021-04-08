@@ -1,11 +1,11 @@
 ---
 title: inList
 description: Überprüfen Sie, ob ein Wert in einem anderen, durch Zeichen getrennten Wert enthalten ist.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27d151abe9bdf52c6eabdc3e9c785a99d08f971e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
