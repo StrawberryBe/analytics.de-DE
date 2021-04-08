@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Wenn Sie den Mobilgerätetyp wie oben dargestellt verwenden, können Sie sehen, 
 
 ## Wie weit reicht die Zuordnung der geräteübergreifenden Analyse für Besucher zurück?
 
-Die geräteübergreifende Heftung von CDA erfolgt in zwei gleichzeitigen Prozessen.
+Die geräteübergreifende Zuordnung der Cross-Device-Analyse erfolgt in zwei gleichzeitigen Prozessen.
 
-* Das erste Verfahren wird als &quot;Live-Heften&quot;bezeichnet, das bei Datenströmen in Adobe Analytics auftritt. Während der Live-Suche versucht CDA, die Daten auf einer persönlichen Ebene neu zu präsentieren. Ist die Person zum Zeitpunkt der Live-Heftung jedoch unbekannt, greift CDA zur Darstellung der Person auf die Besucher-ID zurück.
+* Das erste Verfahren wird als „Live-Zuordnung“ bezeichnet und läuft ab, wenn die Daten in Adobe Analytics strömen. Während der Live-Zuordnung versucht die Cross-Device-Analyse, die Daten auf Personenebene neu darzustellen. Ist die Person zum Zeitpunkt der Live-Zuordnung jedoch unbekannt, nutzt die Cross-Device-Analyse zur Darstellung der Person die Besucher-ID.
 
-* Der zweite Prozess heißt &quot;Wiederholung&quot;. Während der Wiederholung geht CDA in der Zeit zurück und gibt historische Daten nach Möglichkeit innerhalb eines bestimmten Lookback-Fensters wieder. Dieses Lookback-Fenster dauert entweder 1 Tag oder 7 Tage, je nachdem, wie Sie CDA zur Konfiguration angefordert haben. Während der Wiederholung versucht CDA, Treffer erneut anzugeben, bei denen die Person vorher unbekannt war.
+* Der zweite Prozess ist die sogenannte „Wiederholung“. Während der Wiederholung geht die Cross-Device-Analyse in der Zeit zurück und ordnet soweit möglich historische Daten innerhalb eines bestimmten Rückblickfensters neu zu. Dieses Rückblickfenster dauert je nach Konfiguration der Cross-Device-Analyse entweder 1 Tag oder 7 Tage. Während der Wiederholung versucht die Cross-Device-Analyse, Treffer neu darzustellen, bei denen die Person vorher unbekannt war.
 
 * **Bei Verwendung eines Gerätediagramms** bleiben Gerätezuordnungen im Co-op-Diagramm und im privaten Diagramm für ca. 6 Monate bei Adobe erhalten. Eine ECID, die länger als sechs Monate keine Aktivität aufweist, wird aus dem Diagramm entfernt. Bereits in der geräteübergreifenden Analyse zugeordnete Daten sind nicht betroffen, aber nachfolgende Treffer für diese ECID werden als neue Person behandelt.
 
