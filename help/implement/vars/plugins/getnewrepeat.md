@@ -1,11 +1,11 @@
 ---
 title: getNewRepeat
 description: Verfolgen Sie die Aktivitäten neuer oder wiederkehrender Besucher.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d44226202cd690d069f9c0c85c8af2ef8fd0106
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ s.eVar1=s.getNewRepeat(365);
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
