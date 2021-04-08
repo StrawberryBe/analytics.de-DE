@@ -1,11 +1,11 @@
 ---
 title: pt
 description: Führt eine Funktion für eine Liste von Variablen aus.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ for(var i = 0; i < parametersLength; i++)
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
