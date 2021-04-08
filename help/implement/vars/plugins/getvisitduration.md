@@ -1,11 +1,11 @@
 ---
 title: getVisitDuration
 description: Verfolgen Sie, wie viel Zeit ein Besucher bisher auf der Website verbracht hat.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ s.prop10 = s.getVisitDuration();
 
 ## Versionsverlauf
 
-### 2.1 (19. März 2021)
+### 2.1 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
