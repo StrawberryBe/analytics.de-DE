@@ -1,11 +1,11 @@
 ---
 title: getPageName
 description: Erstellen Sie einen leicht verständlichen Seitennamen aus dem aktuellen Website-Pfad.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 063da38c105072944a46ec0ab31930623b7974c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -200,7 +200,7 @@ s.pageName = getPageName();
 
 ## Versionsverlauf
 
-### 4.2 (19. März 2021)
+### 4.2 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
