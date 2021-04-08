@@ -1,11 +1,11 @@
 ---
 title: p_fo (Page First Only (nur einmal pro Seite))
 description: Stellen Sie sicher, dass bestimmte Routinen nur einmal pro Seite ausgelöst werden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ if(s.p_fo("myobject"))
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
