@@ -3,21 +3,21 @@ description: Erfahren Sie, wie Sie sich mit Ihrem Experience Cloud-Anmeldekonto 
 title: Anmelden bei Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '211'
+ht-degree: 49%
 
 ---
-
 
 # Anmelden bei Report Builder
 
 >[!IMPORTANT]
 >
->Report Builder Version 5.6.47 und höher unterstützt nur die Anmeldung von Experience Clouden und unterstützt keine Legacy-Anmeldungen wie SiteCatalyst Single-Sign-on oder die Standardanmeldung. Bis zum 30. April 2021 müssen alle Report Builder-Benutzer den Report Builder-Hinzufügen auf Version 5.6.47 oder höher aktualisieren, die eine wichtige Aktualisierung des Anmeldevorgangs enthält.
+>Report Builder Version 5.6.47 und höher unterstützt nur die Anmeldung von Experience Clouden und unterstützt keine Legacy-Anmeldungen wie SiteCatalyst Single-Sign-on oder die Standardanmeldung. **Bis zum 22. Juli 2021 müssen alle Report Builder-Benutzer den Report Builder-Hinzufügen auf Version 5.6.47 oder höher aktualisieren, die eine wichtige Aktualisierung des Anmeldevorgangs enthält.**
 
 Um sich bei Report Builder anzumelden, verwenden Sie Ihr Experience Cloud-Anmeldekonto.
 
@@ -43,4 +43,3 @@ So melden Sie sich bei Report Builder an
    * Klicken Sie bei Dublette auf eine Anforderung in Excel.
 
 1. Füllen Sie diese Felder auf der [!UICONTROL Anmeldeseite] aus und klicken Sie auf **[!UICONTROL OK]**.
-
