@@ -1,11 +1,11 @@
 ---
 title: getPercentPageViewed
 description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher aufgerufen hat.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f11ad012756b5d42b1b53483c8688e30b4b79c83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden k�
    * Ereignis: Core – Bibliothek geladen (Seitenanfang)
 1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
    * Erweiterung: Common Analytics Plugins
-   * Aktionstyp: Initialisieren von getPercentPageViewed
+   * Aktionstyp: getPercentPageViewed initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
@@ -114,7 +114,7 @@ if(s._ppvPreviousPage)
 
 ## Versionsverlauf
 
-### 5.0 (19. März 2021)
+### 5.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
