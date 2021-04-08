@@ -1,11 +1,11 @@
 ---
 title: manageVars
 description: Ändern Sie die Werte mehrerer Analytics-Variablen gleichzeitig.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ s.manageVars("cleanStr");
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
