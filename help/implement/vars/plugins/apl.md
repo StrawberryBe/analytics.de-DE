@@ -1,11 +1,11 @@
 ---
 title: apl (appendToList)
 description: Fügen Sie Werte an Variablen an, die mehrere Werte unterstützen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -300,7 +300,7 @@ Da die beiden Trennzeichen-Argumente unterschiedlich sind, wird der übergebene 
 
 ## Versionsverlauf
 
-### 4.0 (19. März 2021)
+### 4.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
