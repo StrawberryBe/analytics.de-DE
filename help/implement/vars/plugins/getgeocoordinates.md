@@ -1,11 +1,11 @@
 ---
 title: getGeoCoordinates
 description: Verfolgen Sie den Standort (geoLocation) eines Besuchers.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0947b075923956a4a48e09f8eeffc38e7fc0672
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ else
 
 ## Versionsverlauf
 
-### 2.0 (19. März 2021)
+### 2.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
