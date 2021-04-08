@@ -3,54 +3,54 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 feature: Grundlagen zu Workspace
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
 source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8326'
-ht-degree: 98%
+source-wordcount: '8323'
+ht-degree: 99%
 
 ---
 
 # Neuerungen in Analysis Workspace
 
-Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de-DE).
+Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
 
 ## März 2021
 
 | Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
-| [!UICONTROL Komponenten] >  [!UICONTROL Benutzereinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie [!UICONTROL Analysis Workspace]-Einstellungen und zugehörige Komponenten für Ihren Benutzer verwalten. [!UICONTROL Die Benutzereinstellungen ] gelten für alle neuen Projekte und Bereiche. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite  [!UICONTROL Benutzereinstellungen ] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Workspace-Projekte: Hilfe > Tipps aktivieren</li><li>Workspace-Projekte: Leeres Bedienfeld _Beginn neuer Projekte mit dieser Option_</li></ul> |
-| [!UICONTROL Histogramm-Smart-Bucket-Prognose] | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket ] Predictionhilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
+| [!UICONTROL Komponenten] >  [!UICONTROL Benutzereinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie die Einstellungen von [!UICONTROL Analysis Workspace] und dessen zugehörige Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Workspace-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Workspace-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
+| [!UICONTROL Histogramm-Smart-Bucket-Prognose] | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket Prediction] hilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
 
 
 ## Februar 2021
 
 | Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
-| Komponentenauswahl | 4. Februar 2021 | Die Dropdown-/Dropzone-Komponente in [!UICONTROL Quick Insights] wird allen Ablagebereichen in [!UICONTROL Workspace] hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, Optionen in einer Dropdown-Liste kompatibler Komponenten zu wählen oder den Raum weiterhin als Ablagebereich zu verwenden. |
+| Komponentenauswahl | 4. Februar 2021 | Die Dropdown-/Dropzone-Komponente, die in [!UICONTROL Quick Insights] gefunden wurde, wird allen Ablagebereichen in [!UICONTROL Workspace] hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, Optionen in einer Dropdown-Liste kompatibler Komponenten zu wählen oder den Raum weiterhin als Ablagebereich zu verwenden. |
 
 
-## 2021. Januar
+## Januar 2021
 
 | Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
 | Bild-URLs | 14. Januar 2021 | Sie können Workspace-Projekten Bilder hinzufügen, indem Sie auf eine öffentliche Bild-URL verweisen. |
-| Kombinierter Quell- und Einstellungs-Manager für Visualisierungen | 14. Januar 2021 | Der [!UICONTROL Datenquellen]-Manager (Punkt) und Einstellungsmanager (Zahnrad) für Visualisierungen wurden zu einem einzigen Popup zusammengefasst, sodass Sie Ihre Quelle und Einstellungen einfach vom gleichen Ort aus verwalten können. |
+| Kombinierter Quell- und Einstellungs-Manager für Visualisierungen | 14. Januar 2021 | Der Manager für [!UICONTROL Datenquellen] (Punkt) und der Einstellungs-Manager (Zahnrad) für Visualisierungen wurden zu einem einzigen Popup zusammengefasst, sodass Sie Ihre Quelle und Einstellungen einfach vom gleichen Ort aus verwalten können. |
 
 ## Oktober 2020
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Linienvisualisierung: [Option für Trend-Linien mit anpassbaren Durchschnittswerten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=de-DE) | Die Option für **[!UICONTROL anpassbare Durchschnittswerte]**[!UICONTROL  wurde den Durchschnittswerteinstellungen der Linienvisualisierung hinzugefügt. ] Ein anpassbarer Durchschnittswert, der auch als rollierender Durchschnitt bezeichnet wird, nutzt eine bestimmte Anzahl von Datenpunkten (bestimmt durch Auswahl eines **[!UICONTROL Zeitraums]**), errechnet einen Durchschnittswert und verwendet den Durchschnittswert als Punkt auf der Linie. |
-| [Hilfeseite zur Leistung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=de-DE) | Auf der Hilfeseite zur Leistung von Analysis Workspace werden die verschiedenen Faktoren, die die Projektleistung beeinflussen, sowie Links zu Optimierungs-Tipps angezeigt. |
+| Linienvisualisierung: [Option für Trend-Linien mit anpassbaren Durchschnittswerten](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/line.html) | Die Option für **[!UICONTROL angepasste Durchschnittswerte]** wurde den Durchschnittswerteinstellungen der [!UICONTROL Linienvisualisierung] hinzugefügt. Ein anpassbarer Durchschnittswert, der auch als rollierender Durchschnitt bezeichnet wird, nutzt eine bestimmte Anzahl von Datenpunkten (bestimmt durch Auswahl eines **[!UICONTROL Zeitraums]**), errechnet einen Durchschnittswert und verwendet den Durchschnittswert als Punkt auf der Linie. |
+| [Hilfeseite zur Leistung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Auf der Hilfeseite zur Leistung von Analysis Workspace werden die verschiedenen Faktoren, die die Projektleistung beeinflussen, sowie Links zu Optimierungs-Tipps angezeigt. |
 
 ## September 2020
 
 | Funktion | Beschreibung |
 | --- | --- |
-| [Download von 50.000 Objekten für eine einzige Dimension](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de-DE#download-items) | Sie können jetzt 50.000 Elemente für eine Dimension in einer Freiformtabelle herunterladen, wobei Segmente und Filter angewendet werden. Auf diese Weise können Sie auf mehr als 400 Datenzeilen außerhalb von Analysis Workspace zugreifen. |
+| [Download von 50.000 Objekten für eine einzige Dimension](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Sie können jetzt 50.000 Elemente für eine Dimension in einer Freiformtabelle herunterladen, wobei Segmente und Filter angewendet werden. Auf diese Weise können Sie auf mehr als 400 Datenzeilen außerhalb von Analysis Workspace zugreifen. |
 | [Verbesserungen der Linienvisualisierung](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Sie können die X- und Y-Achse jeder [!UICONTROL Linienvisualisierung] ein- oder ausblenden. Dies kann besonders dann hilfreich sein, wenn Ihre [!UICONTROL Linienvisualisierungen] kompakt sind.</li><li>Sie können bei jeder Linienvisualisierung eine Mindest- und Höchstwertebeschriftung darstellen, um rasch die Spitzen und Täler in einer Metrik hervorzuheben.</li><li>Sie können bei jeder Linienvisualisierung verschiedene Regressions-Trend-Linien einblenden, um den Daten-Trend leichter erkennbar zu machen. Zu den Optionen gehören [!UICONTROL Linear], [!UICONTROL Logarithmisch], [!UICONTROL Exponentiell], [!UICONTROL Leistung] und [!UICONTROL Quadratisch].</li></ul> |
 | Neue Datumsbereiche | Es wurden fünf neue Datumsbereiche hinzugefügt, sodass Sie aus Datumsbereichen wählen können, die keine partiellen Tagesdaten von heute enthalten: Letzte 7 volle Tage, Letzte 14 volle Tage, Letzte 30 volle Tage, Letzte 60 volle Tage, Letzte 90 volle Tage. |
 
@@ -72,10 +72,10 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Attribution IQ: algorithmische Attribution | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de-DE) |
-| Attribution IQ: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution IQ so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Dies erhöht in der Regel die Attributionsgenauigkeit für Ereignisse, die frühzeitig im Berichtszeitraum auftreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten aufgetreten sind. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de-DE#lookback-fenster) |
-| Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de-DE) |
-| Schreibgeschützte Workspace-Projekte | Workspace-Projekte können Benutzern schreibgeschützt freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de-DE) |
+| Attribution IQ: algorithmische Attribution | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution IQ so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Dies erhöht in der Regel die Attributionsgenauigkeit für Ereignisse, die frühzeitig im Berichtszeitraum auftreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten aufgetreten sind. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Schreibgeschützte Workspace-Projekte | Workspace-Projekte können Benutzern schreibgeschützt freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Aktualisiertes leeres Bedienfeld | Das leere Bedienfeld umfasst jetzt Bedienfelder und Visualisierungen, damit Sie den Analyse-Workflow, der für Sie am besten geeignet ist, einfacher auswählen können. |
 | Bedienfeld „Quick Insights“ (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
@@ -89,11 +89,11 @@ Am 21. Mai 2020 veröffentlichte neue Funktionen.
 | Funktion | Beschreibung |
 |--- |--- |
 | Freiform-Tabellen können in einem leeren Projekt automatisch erstellt werden. | Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiform-Tabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiform-Tabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren Freiform-Tabelle abgelegt werden. |
-| Verbesserungen bei der Barrierefreiheit | Das Adobe Analytics-Team hat verschiedene Verbesserungen an der Barrierefreiheit in Analysis Workspace vorgenommen, darunter verbesserte Tastaturnavigation, Farbkontrast und Unterstützung für Bildschirmlesehilfen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=de-DE) |
+| Verbesserungen bei der Barrierefreiheit | Das Adobe Analytics-Team hat verschiedene Verbesserungen an der Barrierefreiheit in Analysis Workspace vorgenommen, darunter verbesserte Tastaturnavigation, Farbkontrast und Unterstützung für Bildschirmlesehilfen. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## April 2020
 
-Am Donnerstag, 16. April 2020 veröffentlichte neue Funktion.
+Am 16. April 2020 veröffentlichte neue Funktion.
 
 | Funktion | Beschreibung |
 |--- |--- |
@@ -105,7 +105,7 @@ Am 12. März 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein gemeinsames Projekt bringen und sie nebeneinander darstellen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de-DE) |
+| Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein gemeinsames Projekt bringen und sie nebeneinander darstellen. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Schulungsanleitung | Diese neue Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modal „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Weitere Informationen ...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Februar 2020
@@ -114,8 +114,8 @@ Am 20. Februar 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Neue Workspace-Vorlage für Organisationen, die geräteübergreifende Analysen verwenden | Diese Vorlage zeigt, wie effektiv CDA beim Zusammenfügen von Besuchen ist, und informiert Sie über ausschließlich in CDA verfügbare Dimensionen und Metriken. Eine Report Suite, die CDA verwendet, ist erforderlich. Weitere Informationen finden Sie unter [Einrichten von geräteübergreifenden Analysen](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html?lang=de-DE). |
-| Neue Hotkeys in Workspace | <ul><li>Alle Bereiche reduzieren/erweitern: `alt + m`</li><li>Aktives Bedienfeld reduzieren/erweitern: `alt + ctrl + m`</li><li>Linke Leiste durchsuchen: `ctrl + /`</li><li>Zum nächsten Bereich wechseln: `alt + Right Key`</li><li>Zum vorherigen Bereich wechseln: `alt + Left Key`</li></ul>[Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=de-DE) |
+| Neue Workspace-Vorlage für Organisationen, die geräteübergreifende Analysen verwenden | Diese Vorlage zeigt, wie effektiv CDA beim Zusammenfügen von Besuchen ist, und informiert Sie über ausschließlich in CDA verfügbare Dimensionen und Metriken. Eine Report Suite, die CDA verwendet, ist erforderlich. Weitere Informationen finden Sie unter [Einrichten von geräteübergreifenden Analysen](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html). |
+| Neue Hotkeys in Workspace | <ul><li>Alle Bereiche reduzieren/erweitern: `alt + m`</li><li>Aktives Bedienfeld reduzieren/erweitern: `alt + ctrl + m`</li><li>Linke Leiste durchsuchen: `ctrl + /`</li><li>Zum nächsten Bereich wechseln: `alt + Right Key`</li><li>Zum vorherigen Bereich wechseln: `alt + Left Key`</li></ul>[Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Weitere Neuerungen in Workspace | <ul><li>Wenn ein Bedienfeld oder eine Visualisierung in Workspace abgelegt wird, wechselt die linke Leiste automatisch zu Komponenten, um einen nahtloseren Arbeitsablauf zu gewährleisten.</li><li>Für Vorlagenkomponenten können nun Aktionen ausgeführt werden (z. B. mit Tags versehen, als Favorit markieren, genehmigen).</li><li>Gefilterte Metrik- und Segmentlisten bieten die Schaltfläche „+“ zum Hinzufügen einer neuen Komponente, wenn Sie das, was Sie benötigen, nicht finden können.</li></ul> |
 | Workspace-Debugger | Der Workspace-Debugger wurde dem Menü „Hilfe“ hinzugefügt, sodass Sie ihn nahtlos zum Debuggen von Workspace-Anforderungen aktivieren können. [Weitere Informationen ...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -125,7 +125,7 @@ Am 16. Januar 2020 veröffentlichte neue Funktion.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| [Freiformtabellen-Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de-DE) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
+| [Freiformtabellen-Builder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
 
 ## Oktober 2019
 
@@ -133,7 +133,7 @@ Am 10. Oktober 2019 veröffentlichte Verbesserungen.
 
 | Verbesserung | Beschreibung |
 |--- |--- |
-| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]** und **[!UICONTROL Gesamtsumme]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=de-DE) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=de-DE)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
+| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]** und **[!UICONTROL Gesamtsumme]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
 | Option zum Entfernen von „Nicht angegeben (keine)“ | Den Berichtsfiltern wurde eine einfache Funktion zum Entfernen von „Nicht angegeben (keine)“ hinzugefügt. |
 | Wegfall der lilafarbenen Zeitkomponenten | Die lilafarbenen Zeitkomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) wurden entfernt. Diese Zeitkomponenten haben sich immer exakt wie ihre orangefarbenen Dimensionspendants verhalten. Durch diese Änderung wird das Erlebnis also optimiert. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]** in **[!UICONTROL Datumsbereiche]** umbenannt. |
 
@@ -151,9 +151,9 @@ Am 18. Juli 2019 veröffentlichte Verbesserungen.
 
 | Verbesserung | Beschreibung |
 |--- |--- |
-| Verbesserungen der Kohortenanalyse | Zur [Kohortenanalyse wurden neue Einstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html?lang=de-DE) hinzugefügt: <ul><li>Nur Prozentwert anzeigen</li><li>Prozentwert auf nächste Ganzzahl runden</li><li>Zeile mit durchschnittlichem Prozentwert anzeigen</li></ul> |
+| Verbesserungen der Kohortenanalyse | Zur [Kohortenanalyse wurden neue Einstellungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) hinzugefügt: <ul><li>Nur Prozentwert anzeigen</li><li>Prozentwert auf nächste Ganzzahl runden</li><li>Zeile mit durchschnittlichem Prozentwert anzeigen</li></ul> |
 | Elemente der letzten 18 Monate anzeigen | In der linken Leiste haben Benutzer jetzt die Möglichkeit, _Elemente aus den letzten 18 Monaten anzuzeigen_. Zuvor betrug der Anzeigezeitraum maximal 6 Monate. Dies erleichtert den Vergleich mit Seiten oder Kampagnen aus dem Vorjahr bzw. bis vor maximal 18 Monaten. |
-| Neue Vorlage für Analysis Workspace | Wir haben Analysis Workspace eine neue Vorlage mit dem Namen [Magento: Marketing &amp; Commerce](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de-DE) hinzugefügt. Sie wurde speziell für E-Commerce-Kunden von Magento konzipiert, aber alle anderen Einzelhändler können sie ebenfalls verwenden, um nützliche Einblicke in ihre Commerce-Aktivitäten zu erhalten. |
+| Neue Vorlage für Analysis Workspace | Wir haben Analysis Workspace eine neue Vorlage mit dem Namen [Magento: Marketing &amp; Commerce](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) hinzugefügt. Sie wurde speziell für E-Commerce-Kunden von Magento konzipiert, aber alle anderen Einzelhändler können sie ebenfalls verwenden, um nützliche Einblicke in ihre Commerce-Aktivitäten zu erhalten. |
 
 ## Juni 2019
 
@@ -248,7 +248,7 @@ Am 13. September 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Neue Vorlage: Audionutzung</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=de-DE"  >Audioanalysen</a>. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-reports/media-workspace-templates.html"  >Audioanalysen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -547,7 +547,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Beim Kopieren eines Projekts bzw. bei der Verwendung der Funktion „Speichern unter“ führten bisher alle im Projekt gespeicherten internen Links zum Originalprojekt und nicht zum kopierten Projekt. </p> <p>Die internen Links beziehen sich nach dem Kopieren/Speichern nun auf das Projekt, in dem sie sich befinden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Beitragsanalyse: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de-DE"  > Token-Benachrichtigung </a> </p> </td> 
+   <td colname="col1"> <p>Beitragsanalyse: <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Token-Benachrichtigung </a> </p> </td> 
    <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung lautet „Anomalieerkennung und Beitragsanalyse“. Sie finden Sie unter <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span>.)  </p> </td> 
   </tr> 
   <tr> 
@@ -882,7 +882,7 @@ Am 20. April 2017 veröffentlichte neue Funktionen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Personenvorlage </a> </p> </td> 
-   <td colname="col2"> <p>Hinweis: Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von <a href="https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=de-DE"  > Adobe Experience Cloud Device Co-op </a> verfügbar. </p> <p>Die Vorlage basiert auf der Metrik für Personen, die eine deduplizierte Version der Metrik „Unique Visitors“ darstellt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. </p> </td> 
+   <td colname="col2"> <p>Hinweis: Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von <a href="https://docs.adobe.com/content/help/de-DE/device-co-op/using/data/people.html"  > Adobe Experience Cloud Device Co-op </a> verfügbar. </p> <p>Die Vorlage basiert auf der Metrik für Personen, die eine deduplizierte Version der Metrik „Unique Visitors“ darstellt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen an der Option zum Rückgängigmachen/Wiederherstellen </p> </td> 
@@ -1050,7 +1050,7 @@ Am 20. Oktober 2016 veröffentlichte neue Funktionen:
 
 Am 16. Juni 2016 veröffentlichte neue Funktionen:
 
-* [Neue Gruppenberechtigung](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de-DE), über die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** für Benutzer zulassen oder verweigern können. Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
+* [Neue Gruppenberechtigung](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html), über die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** für Benutzer zulassen oder verweigern können. Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
 * Das [Bedienfeld „Segmentvergleich“](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) erkennt die meisten statistisch signifikanten Unterschiede zwischen zwei beliebigen Segmenten mithilfe einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben.
 * [Neue Menüstruktur für „Projekte“](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), die das obere Menü neu gestaltet und erweiterbarer macht. Um z. B. ein **neues Kohorten-Bedienfeld** zu erstellen, muss jetzt ein leeres Bedienfeld erstellt werden, in dem eine Kohortentabellenvisualisierung abgelegt wird.
 * [Neue linke Leiste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Bedienfelder, Visualisierungen, Komponenten.
