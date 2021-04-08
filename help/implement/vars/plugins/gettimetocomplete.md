@@ -1,11 +1,11 @@
 ---
 title: getTimeToComplete
 description: Messen Sie die Zeit, die zum Ausführen einer Aufgabe benötigt wird.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Im zweiten Beispiel soll event1 den Beginn eines Registrierungsprozesses erfasse
 
 ## Versionsverlauf
 
-### 4.0 (19. März 2021)
+### 4.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
