@@ -1,11 +1,11 @@
 ---
 title: addProductEvar
 description: Fügt der Variable „products“ Merchandising-eVars hinzu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abed7197898d6c27448069350c9f2217d58293c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ s.addProductEvar("eVar1", "blue");
 
 ## Versionsverlauf
 
-### 2.0 (19. März 2021)
+### 2.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
