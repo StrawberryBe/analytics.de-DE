@@ -1,11 +1,11 @@
 ---
 title: rfl
 description: Entfernen Sie einen bestimmten Wert aus einer durch Zeichen getrennten Zeichenfolge.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c23f3cf764834636c1cdcefb2903efc9c90be7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -404,7 +404,7 @@ Beachten Sie auch hier, dass das Plug-in nur einen Wert zurückgibt; es setzt di
 
 ## Versionsverlauf
 
-### 2.1 (19. März 2021)
+### 2.1 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
