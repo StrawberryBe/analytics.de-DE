@@ -1,11 +1,11 @@
 ---
 title: getPreviousValue
 description: Rufen Sie den letzten Wert ab, der an eine Variable übergeben wird.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Wenn die Aufruffunktion s.t() ausgeführt wird, wird eine Bildanforderung erstel
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
