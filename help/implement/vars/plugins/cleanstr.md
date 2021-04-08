@@ -1,11 +1,11 @@
 ---
 title: cleanStr
 description: Entfernen oder ersetzen Sie alle unnötigen Zeichen aus einer Zeichenfolge.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Wenn Sie das Plug-in allein ausführen (ohne den Rückgabewert einer Variablen z
 
 ## Versionsverlauf
 
-### 2.0 (19. März 2021)
+### 2.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
