@@ -1,11 +1,11 @@
 ---
 title: getTimeBetweenEvents
 description: Messen Sie den Zeitraum zwischen zwei Ereignissen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
