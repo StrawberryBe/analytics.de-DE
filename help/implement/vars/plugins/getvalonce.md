@@ -1,11 +1,11 @@
 ---
 title: getValOnce
 description: Verhindern Sie, dass eine Analytics-Variable zweimal hintereinander auf denselben Wert gesetzt wird.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a81754ca6137d7bc1e790fe537acbb4bbdb8efb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Dieser Code verhindert, dass derselbe Wert während der Sitzung eines Benutzers 
 
 ## Versionsverlauf
 
-### 3.0 (19. März 2021)
+### 3.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
 
