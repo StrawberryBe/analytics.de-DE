@@ -1,11 +1,11 @@
 ---
 title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Cross-Device Analytics führt in einer virtuellen Report Suite zwei Durchgänge 
 
 ## Beispieltabelle
 
-Die folgenden Tabellen veranschaulichen, wie beide CDA-Methoden ([Feldbasiertes Stitching](field-based-stitching.md) und [Gerätediagramm](device-graph.md)) die Anzahl der eindeutigen Personen berechnen: 
+Die folgenden Tabellen veranschaulichen, wie beide CDA-Methoden ([Feldbasiertes Stitching](field-based-stitching.md) und [Gerätediagramm](device-graph.md)) die Anzahl der eindeutigen Personen berechnen:
 
 ### Live-Stitching
 
@@ -51,10 +51,10 @@ Sowohl nicht authentifizierte als auch authentifizierte Treffer auf neuen Gerät
 
 ### Wiederholungszuordnung
 
-Die Wiederholung findet entweder täglich oder wöchentlich statt, je nachdem, wie Sie die CDA konfiguriert haben. Während der erneuten Wiedergabe versucht CDA, historische Daten in einem definierten Lookback-Fenster neu anzugeben:
+Die Wiederholung wird entweder täglich oder wöchentlich durchgeführt, je nachdem, wie Sie die Cross-Device-Analyse konfiguriert haben. Während der Wiederholung versucht die Cross-Device-Analyse, historische Daten in einem definierten Rückblickfenster neu darzustellen:
 
-* Die tägliche Wiederholung verwendet ein Lookback-Fenster von 1 Tag
-* Bei wöchentlicher Wiederholung wird ein 7-Tage-Lookback-Fenster verwendet.
+* Bei der täglichen Wiederholung entspricht das Rückblickfenster 1 Tag.
+* Bei wöchentlicher Wiederholung wird ein Rückblickfenster von 7 Tagen verwendet.
 
 Wenn ein Gerät Daten anfänglich sendet, ohne authentifiziert zu sein, und sich dann anmeldet, verknüpft die geräteübergreifende Analyse diese nicht authentifizierten Treffer mit der richtigen Person. Die folgende Tabelle stellt dieselben Daten wie oben dar, zeigt jedoch unterschiedliche Zahlen basierend auf der Wiederholung der Daten.
 
