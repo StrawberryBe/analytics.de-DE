@@ -1,14 +1,14 @@
 ---
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
-translation-type: ht
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: ht
-source-wordcount: '1377'
-ht-degree: 100%
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
+translation-type: tm+mt
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 93%
 
 ---
-
 
 # Häufig gestellte Fragen
 
@@ -65,7 +65,7 @@ In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl v
 
 ## Was ist der Unterschied zwischen der Metrik „Personen“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
-Die Metrik [Personen](/help/components/metrics/people.md) ähnelt der Metrik [Unique Visitors](/help/components/metrics/unique-visitors.md) insofern, als sie die Anzahl der eindeutigen Einzelpersonen angibt. Bei der Verwendung der geräteübergreifenden Analyse werden Unique Visitors jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik „Personen“ ersetzt die Metrik „Individuelle Besucher“, wenn Cross-Device Analytics aktiviert ist. Es steht eine neue Metrik ([Individuelle Geräte](/help/components/metrics/unique-devices.md)) zur Verfügung, die außerhalb von Cross-Device Analytics ungefähr „Unique Visitors“ gleicht.
+Die Metrik [Personen](/help/components/metrics/people.md) ähnelt der Metrik [Unique Visitors](/help/components/metrics/unique-visitors.md) insofern, als sie die Anzahl der eindeutigen Einzelpersonen angibt. Bei der Verwendung der geräteübergreifenden Analyse werden Unique Visitors jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik „Personen“ ersetzt die Metrik „Unique Visitors“, wenn Cross-Device Analytics aktiviert ist. Es steht eine neue Metrik ([Individuelle Geräte](/help/components/metrics/unique-devices.md)) zur Verfügung, die außerhalb von Cross-Device Analytics ungefähr „Unique Visitors“ gleicht.
 
 ## Was ist der Unterschied zwischen der Metrik „Unique Devices“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
@@ -97,3 +97,11 @@ Wenden Sie sich an den Account Manager Ihres Unternehmens, wenn Sie zwischen den
 ## Wie geht Adobe mit individuellen Einschränkungen für eine eVar um, die beim feldbasierten Stitching verwendet wird?
 
 Die geräteübergreifende Analyse ruft Dimensionselemente ab, bevor sie für die Berichterstellung optimiert werden. Sie müssen sich bei der geräteübergreifenden Analyse keine Sorgen um individuelle Einschränkungen machen. Wenn Sie jedoch versucht haben, diese Eigenschaft/eVar in einem Workspace-Projekt zu verwenden, können Sie weiterhin das Dimensionselement [(Geringer Traffic)](/help/technotes/low-traffic.md) anzeigen.
+
+## Wie viele Report Suites meiner Firma können für CDA aktiviert werden?
+
+Es können mehrere Report Suites aktiviert werden. Jede zusätzliche Report Suite erhöht jedoch die Gesamtbereitstellungszeit, wenn mehrere Report Suites gleichzeitig angefordert werden. CDA führt keine Report Suites zusammen. Jede für CDA aktivierte Report Suite muss geräteübergreifend sein (Daten aus mehreren Oberflächen wie Desktop-Web, mobiles Web, mobile App usw.).
+
+## Wenn mein Experience Cloud-Org (auch IMS-Org genannt) mehrere Firmen in verschiedenen Regionen hat, kann ich dann CDA für alle aktivieren?
+
+Nein. Für dieselbe Organisation kann CDA nur für eine Region aktiviert sein.
