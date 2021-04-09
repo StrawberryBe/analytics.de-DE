@@ -1,18 +1,18 @@
 ---
 description: Entdecken Sie in diesem detaillierten Leitfaden, was Sie alles mit Advertising Analytics tun können, einschließlich der erforderlichen Berechtigungen und verfügbaren Dimensionen und Metriken.
 title: Ein Leitfaden zu Advertising Analytics
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Ein Leitfaden zu Advertising Analytics
 
-Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten Sie Daten zu Google AdWords/DFA oder Microsoft Bing Ads in Adobe Advertising Cloud (AMO) oder in Google/Bing anzeigen. Sie erhalten in Adobe Analytics folgende Daten: Impressionen, Klicks, Kosten, Qualitätsbewertung und durchschnittliche Position direkt aus Suchmaschinen sowie AMO-ID-Instanzen (Klickinstanzen).
+Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten Sie Daten zu Google AdWords/DFA oder Microsoft Bing Ads in Adobe Advertising Cloud (AMO) oder in Google/Bing anzeigen. Sie erhalten jetzt die folgenden Daten in Adobe Analytics: Impressionen, Klicks, Kostendaten direkt aus den Suchmaschinen sowie AMO-ID-Instanzen (Klicken Sie auf Instanzen). Qualitätsbewertung und durchschnittliche Positionen werden nicht mehr erfasst, da Google diese Metriken im September 2019 deprimiert hat.
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics fügt folgende Dimensionen und Metriken zu Analysis Worksp
 | AMO-Impressionen | Die Anzahl der Werbeimpressionen gemäß den Daten der Suchmaschine. |
 | AMO-Klicks | Die Anzahl der Klicks gemäß den Daten der Suchmaschine. |
 | AMO-Kosten | Die Kosten pro Keyword/Werbeanzeige gemäß den Daten der Suchmaschine. |
-| Durchschn. Pos. | Eine berechnete Metrik, die die durchschnittliche Position der Werbeanzeigen gemäß den Daten der Suchmaschine angibt. |
-| Durchschnittl. Qualitätsbewertung | Eine berechnete Metrik, die die durchschnittliche Qualitätsbewertung gemäß den Daten der Suchmaschine angibt. |
