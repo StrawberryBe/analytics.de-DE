@@ -1,20 +1,20 @@
 ---
 title: Ende der Lebensdauer für Datenquellen mit vollständiger Verarbeitung
 description: Gründe für das Ende des Lebenszyklus und Vergleiche zwischen der Bulk Data Insertion API und der Datenquellen für die vollständige Verarbeitung.
+exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 30%
+source-wordcount: '1208'
+ht-degree: 31%
 
 ---
-
 
 # Ende der Lebensdauer für Datenquellen mit vollständiger Verarbeitung
 
 Seit mehreren Jahren können Sie mit der Datenquellen-Funktion der vollständigen Verarbeitung Daten auf Trefferebene an Adobe Analytics senden. Diese Daten wurden auf dieselbe Weise verarbeitet wie Daten, die über unsere JavaScript-Bibliotheken und das mobile App-SDK erfasst wurden. Im Jahr 2020 veröffentlichte die Adobe die API [Massendateneinfügung](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), die dieselben Funktionen wie Datenquellen für die vollständige Verarbeitung, jedoch mit zusätzlichen Funktionen ausführt. In diesem Thema werden Einzelheiten zu den zusätzlichen Funktionen der Bulk Data Insertion API und die Unterschiede in den Dateiformaten erläutert.
 
-Ab dem 25. März 2021 verhindert die Adobe die Erstellung neuer Datenquellen mit voller Verarbeitung. Vorhandene Verbindungen werden weiterhin unterstützt, bis der Dienst vollständig veraltet ist. Die Streichung wird 2021 erfolgen, obwohl noch kein bestimmter Termin festgelegt wurde.
+Ab dem 25. März 2021 verhindert die Adobe die Erstellung neuer Datenquellen mit voller Verarbeitung. Bestehende Verbindungen werden weiterhin unterstützt, bis der Dienst am 31. Juli 2021 vollständig eingestellt ist.
 
 ## Warum schaffen wir diese Funktion ab?
 
