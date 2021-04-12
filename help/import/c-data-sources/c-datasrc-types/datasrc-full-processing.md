@@ -2,20 +2,20 @@
 description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 title: Vollständige Verarbeitung
 topic: Entwickler und Implementierung
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
-
 
 # Vollständige Verarbeitung
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Adobe plant, Datenquellen mit vollständiger Verarbeitung in Zukunft auslaufen zu lassen. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Adobe plant, Datenquellen mit vollständiger Verarbeitung am 31. Juli 2021 zu veraltet. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 
@@ -256,4 +256,3 @@ Die folgende Tabelle enthält Traffic-Variablen, die automatisch ausgefüllt wer
   </tr> 
  </tbody> 
 </table>
-
