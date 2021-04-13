@@ -1,14 +1,14 @@
 ---
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
-translation-type: ht
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: ht
-source-wordcount: '531'
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
+translation-type: tm+mt
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+workflow-type: tm+mt
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Abschaffung der Adobe Data Connectors
 
@@ -81,7 +81,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Lyris HQ | Veraltet |
 | MaritzCX (V 2.0) | Veraltet |
 | Merkle | Veraltet |
-| Offizielle Oracle Eloqua-Integration | Veraltet |
+| Offizielle Oracle Eloqua-Integration | Migration zu Exchange |
 | Optivo Broadmail (Episerver) | Migration zu Exchange |
 | Qualtrics v2 | Migration zu Exchange |
 | Responsys 2.0 | Veraltet |
