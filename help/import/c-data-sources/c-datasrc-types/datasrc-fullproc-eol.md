@@ -3,7 +3,7 @@ title: Ende der Lebensdauer für Datenquellen mit vollständiger Verarbeitung
 description: Gründe für das Ende des Lebenszyklus und Vergleiche zwischen der Bulk Data Insertion API und der Datenquellen für die vollständige Verarbeitung.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 31%
@@ -65,8 +65,8 @@ Weitere Informationen finden Sie im folgenden Vergleich der in &quot;Bulk Data I
 | linkName | linkName | Name des Links. |
 | linkType | linkType | Art des Links. Folgende Werte werden unterstützt: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF des Links. |
-| listn (z. B. Liste2). | Nicht unterstützt | Eine Liste getrennter Werte, die in eine Variable überführt und bei der Berichterstellung als einzelne Zeilenelemente behandelt werden. |
-| marketingCloudVisitorID | Nicht unterstützt | Marketing Cloud ID. Siehe [Besucher-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) und den Marketing Cloud-Besucher-ID-Dienst. |
+| listn (z. B. Liste2). | Nicht unterstützt | Eine Liste getrennter Werte, die in eine Variable überführt und bei der Berichterstellung als einzelne Zeilenelemente behandelt werden |
+| marketingCloudVisitorID | Nicht unterstützt | Marketing Cloud ID. Siehe [Besucher-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) und den Marketing Cloud-Besucher-ID-Dienst |
 | Nicht unterstützt | charSet | Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. |
 | Nicht unterstützt | clickAction | Objekt-ID für Besucher-ClickMap (oid). |
 | Nicht unterstützt | clickActionType | Objekt-ID-Typ für Besucher-ClickMap (oidt). |
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie im folgenden Vergleich der in &quot;Bulk Data I
 | Nicht unterstützt | clickTag | Objekt-Tag-Name für Besucher-ClickMap (ot). |
 | Nicht unterstützt | scXmlVer | Marketingberichte-XML-Anforderungsversion (z. B. 1.0). |
 | Nicht unterstützt | timezone | Zeitzonenversatz des Besuchers zu GMT in Stunden (z. B. -8). |
-| pageName | pageName | Name der Seite. |
+| pageName | pageName | Name der Seite |
 | pageType | pageType | Seitentyp (z. B. &quot;Fehlerseite&quot;). |
 | pageURL | pageURL | Seiten-URL (z. B. https://www.example.com/index.html). |
 | plugins | plugins | Durch Semikolon getrennte Liste von Browser-Plugin-Namen. |
