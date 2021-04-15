@@ -5,10 +5,10 @@ feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 70%
+source-wordcount: '465'
+ht-degree: 69%
 
 ---
 
@@ -57,9 +57,14 @@ Bei **neuen** Projekten, die noch nie gespeichert wurden, können nicht gespeich
 
 ## Vorherige Version öffnen {#previous-version}
 
+>[!NOTE]
+>
+>Frühere Projektversionen sind derzeit in begrenztem Umfang verfügbar.
+
 So öffnen Sie eine frühere Version eines Projekts:
 
-1. Zu Projekt wechseln > Vorherige Version öffnen
-1. Überprüfen Sie die Liste der vorherigen verfügbaren Versionen. Der Zeitstempel und der Editor werden zusätzlich zu den Notizen bereitgestellt, wenn sie beim Speichern des Editors hinzugefügt wurden. Versionen ohne Notizen werden 90 Tage lang gespeichert. Versionen mit Notizen werden für 1 Jahr gespeichert.
-1. Wählen Sie eine frühere Version aus und klicken Sie auf Laden.
-1. Die vorherige Version wird mit einer Benachrichtigung geladen. Die vorherige Version wird erst dann zur aktuellen gespeicherten Version Ihres Projekts, wenn Sie auf Speichern klicken. Wenn Sie von der geladenen Version weg navigieren, sehen Sie bei der Rückkehr die letzte gespeicherte Version des Projekts.
+1. Gehen Sie zu **[!UICONTROL Projekt]** > **[!UICONTROL Frühere Version öffnen]**
+1. Überprüfen Sie die Liste der vorherigen verfügbaren Versionen.
+   [!UICONTROL Es werden ] Timestampand   Editorare angezeigt, zusätzlich zu   Notesif, wenn sie beim Speichern des   Editors hinzugefügt wurden. Versionen ohne Notizen werden 90 Tage lang gespeichert. Versionen mit Notizen werden für 1 Jahr gespeichert.
+1. Wählen Sie eine frühere Version und klicken Sie auf **[!UICONTROL Laden]**.
+Die vorherige Version wird dann mit einer Benachrichtigung geladen. Die vorherige Version wird erst dann zur aktuellen gespeicherten Version Ihres Projekts, wenn Sie auf **[!UICONTROL Speichern]** klicken. Wenn Sie von der geladenen Version weg navigieren, sehen Sie bei der Rückkehr die letzte gespeicherte Version des Projekts.
