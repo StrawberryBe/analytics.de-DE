@@ -2,16 +2,16 @@
 description: Häufig gestellte Fragen zum DFA-Datenanschluss.
 keywords: DFA
 title: Häufig gestellte Fragen
-topic: Data Connectors
+feature: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
+exl-id: fc695d81-0d45-4a9f-a02d-8a14aadc43c7
 translation-type: tm+mt
-source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 97%
 
 ---
-
 
 # Häufig gestellte Fragen {#frequently-asked-questions}
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Wenn Sie überprüft haben, dass die Anmeldedaten gültig sind, stellen Sie sicher, dass der für die Integration bereitgestellte Benutzername für den API-Zugriff aktiviert ist. Der Data Connectors-Assistent verwendet die DFA-API zur Validierung der Anmeldedaten sowie zum Aktivieren und Deaktivieren der Adobe-spezifischen Einstellungen in der DFA-API. Der API-Zugriff ist eine Funktion, die ein Administrator in der DFA-Oberfläche aktivieren muss. Stellen Sie als Nächstes sicher, dass Sie Zugriff auf die im Assistenten ausgewählte Advertiser- oder Floodlight-Konfigurations-ID haben.
 
-## Warum werden mir keine Daten aus den nächtlich hochgeladenen Metriken (DFA-Impressionen, DFA-Klicks usw.) angezeigt?   {#section-465fd22ae6b447ffb6baf20b57daa433}
+## Warum werden mir keine Daten aus den nächtlich hochgeladenen Metriken (DFA-Impressionen, DFA-Klicks usw.) angezeigt?  {#section-465fd22ae6b447ffb6baf20b57daa433}
 
 Bei Version 1.5 der Integration kann das daran liegen, dass Ihre Integration noch keiner Client-Site-ID zugewiesen wurde. Für den nächtlichen Austausch sowie zum Abfragen von Daten vom DFA-Anzeigenserver ist eine Client-Site-ID (CSID) erforderlich. Es kann ab dem Datum der Integration bis zu drei Tage dauern, bis CSIDs mit Google ausgetauscht werden. Sobald die CSID bei Google eingegangen ist, erhalten Sie unter der E-Mail-Adresse der Integration die neue CSID sowie den aktuellen JavaScript-Code.
 
