@@ -2,16 +2,16 @@
 description: Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 subtopic: Marketing channels
 title: Marketing-Kanäle verwalten
-topic: Reports and analytics
+feature: Grundlagen zu Reports & Analysen
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
+exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 99%
 
 ---
-
 
 # Marketing-Kanäle verwalten
 
@@ -90,4 +90,3 @@ Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-
 >Adobe empfiehlt, dass Sie Ihren Bericht in einer Report Suite einrichten, die Sie zu Testzwecken als Vorlage verwenden können. Verwenden Sie die Vorlage, um Kanal- und Regelsätze global auf eine oder mehrere Produktions-Report Suites anzuwenden.
 >
 >Siehe [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-
