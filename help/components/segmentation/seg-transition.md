@@ -1,16 +1,16 @@
 ---
 description: Häufig gestellte Fragen zur Segmentierung.
 title: Häufig gestellte Fragen
-topic: Segmente
+feature: Segmente
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
+exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 100%
 
 ---
-
 
 # Häufig gestellte Fragen
 
@@ -337,7 +337,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobile Lesezeichenlänge | Java aktiviert | Gebührenpflichtige Suche |
 | Mobil URL-Länge | Sprache |  |
 
-## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segmentaufbauoberfläche segmentiert werden:
 
