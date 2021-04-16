@@ -1,16 +1,16 @@
 ---
 description: Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile Plattformen herunterladen.
 title: Code-Manager
-topic: Admin tools
+feature: Admin Tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
+exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
-
 
 # Code-Manager
 
