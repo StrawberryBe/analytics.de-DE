@@ -1,16 +1,16 @@
 ---
 description: Definiert allgemeine Einstellungen für eine Website, die Inhalte zusammenträgt, z. B. ein Nachrichtenportal.
 title: Aggregatorportal
-topic: Admin tools
+feature: Admin Tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
+exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
-
 
 # Aggregatorportal
 
@@ -49,4 +49,3 @@ Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die An
 | Seitenansichten | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors pro Tag | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors | Zähler (keine Subrelationen) | nicht angegeben |
-
