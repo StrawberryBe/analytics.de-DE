@@ -2,16 +2,16 @@
 description: In diesen Schritten erfahren Sie, wie Sie Verarbeitungsregeln aus einer Report Suite kopieren und ersetzen oder an eine andere Report Suite anhängen.
 subtopic: Processing rules
 title: Kopieren von Verarbeitungsregeln in eine andere Report Suite
-topic: Admin tools
+feature: Admin Tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
+exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---
-
 
 # Kopieren von Verarbeitungsregeln in eine andere Report Suite
 
