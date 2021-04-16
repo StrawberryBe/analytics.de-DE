@@ -2,16 +2,16 @@
 description: Verwenden Sie die DoubleClick for Advertisers-Integration mit Adobe Analytics.
 keywords: DFA
 title: DFA-Data Connector für Adobe Analytics
-topic: Data Connectors
+feature: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
+exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
 
 ---
-
 
 # DFA-Data Connector für Adobe Analytics {#dfa-data-connector-for-adobe-analytics}
 
@@ -46,7 +46,7 @@ Diese Integration erfasst Daten über Besucher, deren Aktionen von Anzeigen best
 
 ![](assets/Diagram1.png)
 
-Besucher gelangen zur Site eines Vermarkters, auf der die Anzeige gehostet wird. Diese Anzeige verfügt über die so genannte einzigartige Anzeigen-ID. Eine Anzeige besteht aus einer Platzierung sowie dem zugehörigen kreativen Inhalt. Sie beschreiben den Anzeigeort auf der Site des Vermarkters und den angezeigten Inhalt für Besucher. Rufen Besucher diese Anzeige, diese Platzierung oder diesen kreativen Inhalt von den DFA-Inhaltsservern ab, wird auf den DFA Floodlight-Servern für sie eine Impression getrackt (1).
+Besucher gelangen zur Site eines Vermarkters, auf der die Anzeige gehostet wird. Diese Anzeige verfügt über die so genannte eindeutige Anzeigen-ID. Eine Anzeige besteht aus einer Platzierung sowie dem zugehörigen kreativen Inhalt. Sie beschreiben den Anzeigeort auf der Site des Vermarkters und den angezeigten Inhalt für Besucher. Rufen Besucher diese Anzeige, diese Platzierung oder diesen kreativen Inhalt von den DFA-Inhaltsservern ab, wird auf den DFA Floodlight-Servern für sie eine Impression getrackt (1).
 
 Klicken Besucher auf die Anzeige (2), wird der Floodlight-Server kontaktiert, was als Klick zählt. Anschließend werden Besucher durch 302 auf die Landingpage weitergeleitet (3). Befinden sich die Besucher dann auf der Landingpage, wird dies als Clickthrough bezeichnet. Diese Seite enthält Adobe-Trackingcode, durch den Daten vom DFA Floodlight-Server abgerufen werden.
 
@@ -104,7 +104,7 @@ In der folgenden Tabelle sind die Funktionen jeder Version der Integration zusam
 | Timeout- und Fehlertracking | Nein | Ja | Ja |
 | Keine ausgehandelte Client-Site-ID erforderlich | Nein | Nein | Ja |
 
-### Info zu Version 1.5    {#section-b5a3e967cfa141ea8f740612336181be}
+### Info zu Version 1.5   {#section-b5a3e967cfa141ea8f740612336181be}
 
 In Version 1.5 der Integration wird das Integrate-Modul für Landingpage-JavaScript eingeführt. Das Integrate-Modul ermöglicht Abfragen des DFA-Anzeigenservers (ad.doubleclick.net) mit fester Größe. Dadurch wird die Abfragenbeschränkung auf 2.000 Bytes der Vorgängerversion umgangen. Außerdem wird mit ihr der verstellbare Timeoutwert   *`s.maxDelay`* eingeführt, damit die Erfassung von Adobe-Besucherdaten auch möglich ist, wenn das Netzwerk ausfällt. Fehler und Timeouts können auch in Analytics-Variablen erfasst werden.
 
