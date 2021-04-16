@@ -2,16 +2,16 @@
 description: Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
 keywords: Virtual Report Suite
 title: Häufig gestellte Fragen zu VRS
-topic: Reports and analytics
+feature: Grundlagen zu Reports & Analysen
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
+exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '904'
+ht-degree: 99%
 
 ---
-
 
 # Häufig gestellte Fragen zu VRS
 
@@ -29,7 +29,7 @@ Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
    <td colname="col1"> <b>Sollte ich meine Implementierung von mehreren Report Suites auf eine einzige globale Report Suite umstellen und dann Virtual Report Suites verwenden, um verschiedene Datensegmente für meine Benutzer verfügbar zu machen?</b> </td> 
    <td colname="col2"> <p>Eventuell. Es gibt bestimmte Umstände, unter denen Sie <b>weiterhin mit einzelnen Report Suites arbeiten sollten</b>: </p> 
     <ul> 
-     <li>Wenn Sie Variablen/Dimensionen mit einer großen Anzahl individueller Werte haben, kann die Konsolidierung in einer einzigen Report Suite dazu führen, dass in dieser globalen Suite die monatlichen Grenzen für individuelle Werte überschritten werden, was eine Kürzung zur Folge hat („Geringer Datenverkehr“ als Zeilenelement in Berichten). </li> 
+     <li>Wenn Sie Variablen/Dimensionen mit einer großen Anzahl eindeutiger Werte haben, kann die Konsolidierung in einer einzigen Report Suite dazu führen, dass in dieser globalen Suite die monatlichen Grenzen für eindeutige Werte überschritten werden, was eine Kürzung zur Folge hat („Geringer Datenverkehr“ als Zeilenelement in Berichten). </li> 
      <li>Wenn Sie für einzelne Segmente Ihrer Daten Berichte mit Echtzeit- oder aktuellen Daten benötigen (z. B. Marken, Geschäftsbereiche usw.) </li> 
      <li>Wenn Ihre verschiedenen Report Suites jeweils spezifische Tracking-Anforderungen haben (d. h., wenn diese Adobe Analytics-Variablen und -Ereignisse sehr unterschiedlich verwenden), müssen Sie bedenken, dass Sie mit einer konsolidierten globalen Report Suite keine zusätzlichen Variablen oder Ereignisse für das Tracking benutzen können. </li> 
     </ul> </td> 
@@ -75,4 +75,3 @@ Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
   </tr> 
  </tbody> 
 </table>
-
