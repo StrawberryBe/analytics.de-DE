@@ -2,16 +2,16 @@
 description: Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
 subtopic: Data sources
 title: Data Sources-Datei hochladen
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
+exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
 translation-type: tm+mt
-source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 87%
 
 ---
-
 
 # Data Sources-Datei hochladen
 
@@ -36,4 +36,3 @@ Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Ve
 1. Achten Sie darauf, ob bei der Verarbeitung der Data Sources-Datei Meldungen ausgegeben werden.
 
    Im Data Sources-Manager werden Fehler angezeigt, die u. U. während der Dateiverarbeitung auftreten.
-
