@@ -2,16 +2,16 @@
 description: 'Bei Aktivierung stellt die Data Connectors-DFA-Integration folgende Metriken für Ihre Adobe Analytics-Berichte zur Verfügung '
 keywords: DFA
 title: Integrationsfunktionen
-topic: Data connectors
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # Integrationsfunktionen {#integration-features}
 
@@ -45,7 +45,7 @@ Diese IDs stellen einen gemeinsamen Schlüssel für Genesis und DFA dar, um die 
 
 Die anderen Classifications, das Bereitstellungswerkzeug (DoubleClick for Advertisers) und der Kanal (Banneranzeige) weisen für jede DFA-Kampagne dieselben Werte auf und tragen so zur Erkennung der importierten DFA-Daten bei.
 
-## SearchCenter-Deduplizierung   {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
+## SearchCenter-Deduplizierung  {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
 Die DFA-Integration unterstützt nun Adobe SearchCenter. Wenn Sie die SearchCenter-Deduplizierung über den Data Connectors-Assistenten aktivieren, sorgen Besucher-Suchvorgänge nicht dafür, dass Daten vom DFA Floodlight-Server abgerufen werden. Zudem wird *`s.campaign`* nicht von DFA ausgefüllt, sodass SearchCenter diese ausfüllen kann. Außerdem werden die Variablen für jedes Produkt nun von DFA und SearchCenter durch Deduplizierungswerte ersetzt.
 
@@ -63,4 +63,3 @@ Wenn Sie im Assistenten **[!UICONTROL SearchCenter]** > **[!UICONTROL DFA-Dedupl
 >[!NOTE]
 >
 >Bei aktivierter SearchCenter > DFA-Deduplizierung und eingestelltem SearchCenter-Abfragezeichenfolgenparameter wird der Besuch bei der DFA-Verarbeitung nicht beachtet. Der SearchCenter-Abfragestringparameter sollte sich also vom DFA-Clickthrough-Parameter unterscheiden und keine Display-Anzeigen sollten den SearchCenter-Abfragestringparameter bestimmen.
-
