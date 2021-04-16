@@ -2,12 +2,12 @@
 description: Wenn Sie die Arbeit mit dem Segmentaufbau in Ad Hoc Analysis gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
 keywords: Segmentierung;Segmente
 title: Übergangsleitfaden für Ad Hoc Analysis
-topic: Segments
+feature: Segmente
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '832'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Wenn Sie die Arbeit mit dem Segmentaufbau in Ad Hoc Analysis gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
 
-## Funktionen    {#section_BD58629D1A9346BF879E229FA6BEC7A2}
+## Funktionen   {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * Alle Segmente gelten nun für alle Report Suites. Bisher waren Segmente spezifisch für eine Report Suite.
 * Ad Hoc Analysis umfassen Aktualisierungen für den Segment Builder und ein vollständiges Update des Segment-Managers.
@@ -115,7 +115,7 @@ In der Experience Cloud veröffentlichte Segmente können nicht gelöscht oder b
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Besuche mit mehr als 5 vorherigen Besuchen* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Besuche von Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als   Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
+   <td colname="col2"> <p> Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
   </tr> 
  </tbody> 
 </table>
