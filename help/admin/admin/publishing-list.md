@@ -1,16 +1,16 @@
 ---
 description: Mithilfe von Veröffentlichungslisten können verschiedene Berichte ganz einfach an unterschiedliche Gruppen in Ihrer Organisation gesendet werden, ohne dass dazu gesondert terminierte Berichte erstellt werden müssen. Veröffentlichungslisten sind bei standortspezifischen Report Suites hilfreich, wenn Sie jeder entsprechenden Abteilung ein Exemplar eines bestimmten Dashboards bereitstellen möchten. Sie können Veröffentlichungslisten auch verwenden, um bei der Arbeit mit einer einzelnen Report Suite Daten an viele Empfänger zu senden, ohne jeweils die einzelnen E-Mail-Adressen eingeben zu müssen.
 title: Veröffentlichungslisten
-topic: Admin tools
+feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
+exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # Veröffentlichungslisten
 
@@ -18,7 +18,7 @@ Mithilfe von Veröffentlichungslisten können verschiedene Berichte ganz einfach
 
 Beim Planen eines Berichts können mehrere Veröffentlichungslisten angegeben werden.
 
-## Veröffentlichungslisten-Manager – Beschreibungen  {#section_099DF8AC5691495F9B22C71266DD6004}
+## Veröffentlichungslisten-Manager – Beschreibungen {#section_099DF8AC5691495F9B22C71266DD6004}
 
 | Element | Beschreibung |
 |--- |--- |
