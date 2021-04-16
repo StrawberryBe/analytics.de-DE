@@ -1,16 +1,16 @@
 ---
 description: Beschreibungen der Report Suite-Typen und Vergleich globaler Report Suites und Datenaggregations-Report Suites.
 title: Report Suite-Ansätze
-topic: Admin Tools
+feature: Admin Tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
+exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 translation-type: tm+mt
-source-git-commit: 9bc2e0425fa99efb32561ad1f80605e078eb7650
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 27%
 
 ---
-
 
 # Report Suite-Ansätze
 
