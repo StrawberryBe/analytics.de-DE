@@ -2,16 +2,16 @@
 description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
 subtopic: Classifications
 title: Informationen über Unterklassifizierungen
-topic: Admin tools
+feature: Admin Tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
+exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 100%
 
 ---
-
 
 # Informationen über Unterklassifizierungen
 
@@ -79,7 +79,7 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 | 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 | Heather |
 | 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 | Aqua |
 
-### Produkt-Classification – Mehrere Dateien (Datei 1)   {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Produkt-Classification – Mehrere Dateien (Datei 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE |
 |---|---|---|---|---|---|
