@@ -2,12 +2,12 @@
 description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
 subtopic: Classifications
 title: Klassifizierungsregeln
-topic: Admin tools
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2020'
 ht-degree: 100%
 
 ---
@@ -159,7 +159,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
 
-## Regulärer Ausdruck – Klassifizieren eines bestimmten Zeichens   {#section_5D300C03FA484BADACBFCA983E738ACF}
+## Regulärer Ausdruck – Klassifizieren eines bestimmten Zeichens  {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Mit einem regulären Ausdruck können Sie beispielsweise ein bestimmes Zeichen in einer Zeichenfolge klassifizieren. Angenommen, der folgende Trackingcode enthält zwei wichtige Zeichen:
 
@@ -329,10 +329,12 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    >Report Suites werden *`only`* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:
    >
    >* Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
-   >
-   >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *`Variable`* in den [Klassifizierungsregelsätzen](/help/components/classifications/crb/classification-rule-set.md).)
-   >
-   >* Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
+      >
+      >   
+      (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *`Variable`* in den [Klassifizierungsregelsätzen](/help/components/classifications/crb/classification-rule-set.md).)
+      >
+      >
+   * Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
 
 
 1. Festlegen, ob vorhandene Werte überschrieben werden sollen:
