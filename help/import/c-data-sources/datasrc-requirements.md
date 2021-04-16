@@ -2,16 +2,16 @@
 description: Informationen zu den Anforderungen an Ihre Report Suite vor der Nutzung von Data Sources.
 subtopic: Data sources
 title: Anforderungen und Upload-Beschränkungen
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 98%
 
 ---
-
 
 # Anforderungen und Upload-Beschränkungen
 
@@ -25,7 +25,7 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 * [Multibyte-Unterstützung](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
 * [Hochladen von Webprotokolldateien ](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
-## Größenbeschränkungen   {#section_77B06D82CB374FFABD39F7D9A49D8E18}
+## Größenbeschränkungen  {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
 * Jedes FTP-Konto kann maximal Daten in Höhe von 50 MB umfassen. Die Verarbeitung wird angehalten, wenn die Datenmenge 50 MB übersteigt, und wird erst fortgesetzt, wenn die Gesamtmenge unter 50 MB liegt.
 
