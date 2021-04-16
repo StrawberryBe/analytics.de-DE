@@ -2,16 +2,16 @@
 description: In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der Einstellung „Zeitstempel optional“.
 keywords: Analytics-Implementierung
 title: Verwendung von „Zeitstempel optional“
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 
 ---
-
 
 # Verwendung von „Zeitstempel optional“
 
@@ -43,7 +43,7 @@ Eine Report Suite kann eine der folgenden Zeitstempeleinstellungen haben:
 * Zeitstempel erforderlich (Einstellen der Besucher-ID nicht unterstützt)
 * Zeitstempel optional (Einstellen der Besucher-ID unterstützt, aber nicht bei Treffern mit Zeitstempel)
 
-## Informationen zu den Funktionen von „Zeitstempel optional“  {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## Informationen zu den Funktionen von „Zeitstempel optional“ {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 „Zeitstempel optional“ ermöglicht die Berichterstattung über mehrere Report Suites, und zwar unabhängig davon, ob clientseitige Zeitstempel enthalten sind oder nicht. Wenn Sie die Option „Zeitstempel optional“ gewählt haben, können Sie Ihre App so aktualisieren, dass Zeitstempel, nach wie vor aber auch Daten ohne Zeitstempel aus früheren Apps verwendet werden.
 
