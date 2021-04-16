@@ -1,16 +1,16 @@
 ---
 description: Sie können das Segment für Marketingaktivitäten in der Zielgruppenbibliothek, in der Target-Komponente und im Audience Manager verwenden.
 title: Veröffentlichen von Segmenten in Experience Cloud
-topic: Segments
+feature: Segmente
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
+exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1346'
 ht-degree: 100%
 
 ---
-
 
 # Veröffentlichen von Segmenten in Experience Cloud
 
