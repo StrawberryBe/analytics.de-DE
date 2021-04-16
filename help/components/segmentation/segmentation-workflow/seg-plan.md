@@ -1,16 +1,16 @@
 ---
 description: Erläutert die Schritte und die Best Practices für die Planung von Segmenten.
 title: Segmente planen
-topic: Segments
+feature: Segmente
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Segmente planen
 
@@ -29,4 +29,3 @@ Wenn Sie für die Planung von Segmenten etwas Zeit aufwenden, verbessern Sie die
 
 1. Überlegen Sie, wie der **Genehmigungsprozess** verlaufen soll. Wird eine einzelne Person die Segmente prüfen und genehmigen oder wird dies die Entscheidung einer Kommission sein?
 1. Definieren Sie Ihre Segmente mit Blick auf eine **Segmentbibliothek**, die Unternehmensbenutzern die Möglichkeit gibt, Segmentteile oder Komponenten modular zu [stapeln](/help/components/segmentation/segmentation-workflow/seg-build.md) und wiederzuverwenden. Welche „Module“ müssen Sie definieren, um diese Bibliothek zu realisieren?
-
