@@ -2,16 +2,16 @@
 description: Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu einer anderen migriert.
 keywords: Analytics-Implementierung
 title: Besuchermigration
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
+exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 78%
 
 ---
-
 
 # Besuchermigration
 
@@ -29,7 +29,7 @@ Besuchermigration lässt Sie die Cookies zur Identifizierung von Besuchern beibe
 
 Wenn die Besuchermigration konfiguriert wurde und ein Benutzer die neue Domäne ohne einen Besucher-ID-Cookie besucht, führt der Server eine Umleitung zum vorherigen Datenerfassungs-Hostnamen aus, ruft jegliche verfügbaren Besucher-ID-Cookies ab und wechselt dann zurück zu der neuen Domäne. Wenn eine Besucher-ID unter dem früheren Hostnamen nicht gefunden werden kann, wird eine neue ID generiert. Dies erfolgt einmalig pro Besucher.
 
-## Migrieren von Besuchern  {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## Migrieren von Besuchern {#section_FF0C5C5CAEF343FFA1892B29311F7160}
 
 In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren von Besuchern erforderlich sind:
 
