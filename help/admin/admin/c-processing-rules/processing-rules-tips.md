@@ -2,16 +2,16 @@
 description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
 subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
-topic: Admin tools
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
-
 
 # Verarbeitungsregeln – Tipps und Tricks
 
@@ -33,7 +33,7 @@ Erstellen Sie eine leere HTML-Seite auf Ihrem Desktop, nehmen Sie den s_code von
 
 Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich, sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
 
-## Auf leere Werte hin überprüfen   {#section_EE84A5525E26415787930723B0CAAE0F}
+## Auf leere Werte hin überprüfen  {#section_EE84A5525E26415787930723B0CAAE0F}
 
 Wenn Sie eine Regel erstellen, sollten Sie berücksichtigen, dass ein Wert leer sein könnte. Wenn Sie keine Bedingung hinzufügen, die nach leeren Werten sucht, kann es passieren, dass Variablen unbeabsichtigter Weise durch leere Werte überschrieben werden.
 
