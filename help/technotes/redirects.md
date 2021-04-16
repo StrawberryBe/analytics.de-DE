@@ -3,16 +3,16 @@ description: Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu e
 keywords: Analytics-Implementierung
 subtopic: Redirects
 title: Umleitungen und Aliase
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 100%
 
 ---
-
 
 # Umleitungen und Aliase
 
@@ -30,7 +30,7 @@ Obwohl es nur zwei Typen von Umleitungen gibt, können sie auf verschiedene Arte
 
 [!DNL Analytics] erfasst einige Daten aus dem Browser und ist auf bestimmte Browsereigenschaften angewiesen. Zwei dieser Eigenschaften, die „Verweisende URL“ (oder „Verweis“) und die „Aktuelle URL“, können durch eine serverseitige Umleitung geändert werden. Da der Browser erkennt, dass eine URL abgefragt wurde, jedoch eine andere URL zurückgegeben wurde, wird die verweisende URL entfernt. Demzufolge ist die verweisende URL leer, und [!DNL Analytics] würde dann melden, dass zu der Seite kein Referrer vorhanden wäre.
 
-## Beispiel: Browsen ohne Umleitungen  {#section_5C835A4D665A4625A23333C2C21F152D}
+## Beispiel: Browsen ohne Umleitungen {#section_5C835A4D665A4625A23333C2C21F152D}
 
 Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht umgeleitet wird:
 
@@ -150,7 +150,7 @@ redirects_verify_referrer.xml
 
 Führen Sie einen Test durch, um zu überprüfen, dass die verweisende Stelle, die Quell-URL (*`s_server`*) und die Kampagnenvariablen erfasst werden.
 
-Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de-DE) repräsentiert.
+Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) repräsentiert.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
