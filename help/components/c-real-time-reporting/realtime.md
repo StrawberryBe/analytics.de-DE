@@ -1,16 +1,16 @@
 ---
 description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
 title: Übersicht über die Echtzeitberichterstellung
-topic: Reports
+topic-fix: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
+exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
 ---
-
 
 # Übersicht über die Echtzeitberichterstellung
 
@@ -48,7 +48,7 @@ Denken Sie daran, dass eVars (Konversionsmetriken) nicht unterstützt werden, da
 
 Das Einrichten und Anzeigen von Echtzeitberichten ist auf Administratoren oder Benutzer der Berechtigungsgruppen „Zugriff auf alle Berichte“ und „Fortschrittliche Berichterstellung“ beschränkt. Die Echtzeitanzeige respektiert jedoch die Zugriffsberechtigungen. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten.
 
-## Datenlatenz als Folge der A4T-Konfiguration    {#section_806CE36354FC4C539A0DED9266A5C704}
+## Datenlatenz als Folge der A4T-Konfiguration   {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Nach Aktivierung der A4T-Integration in Adobe [!DNL Target] ist in Adobe Analytics eine zusätzliche Latenz von 5 bis 10 Minuten festzustellen. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und [!DNL Target] für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
