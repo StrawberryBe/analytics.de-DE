@@ -1,16 +1,16 @@
 ---
 description: Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorlage auswählen oder eine Ihrer vorhandenen Report Suites als Modell verwenden.
 title: Neue Report Suite – Einstellungen
-topic: Admin Tools
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 93%
 
 ---
-
 
 # Neue Report Suite – Einstellungen
 
@@ -68,4 +68,3 @@ Beschreibung der verwendeten Elemente beim  [Erstellen einer Report Suite](/help
   </tr>  
  </tbody> 
 </table>
-
