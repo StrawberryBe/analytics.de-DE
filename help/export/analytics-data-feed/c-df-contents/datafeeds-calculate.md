@@ -2,16 +2,16 @@
 description: In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe von Daten-Feeds berechnet werden.
 keywords: Datenfeed;Auftrag;Metriken;Pre-Spalte;Post-Spalte;Bots;Datumsfilterung;Ereignis-Zeichenfolge;Allgemein;Formeln
 title: Metriken berechnen
-topic: Reports and analytics
+feature: Grundlagen zu Reports & Analysen
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 96%
 
 ---
-
 
 # Berechnung von häufig verwendeten Metriken mithilfe von Daten-Feeds
 
@@ -28,7 +28,7 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 ## Besuche
 
 1. Verkettet `post_visid_high`, `post_visid_low`, `visit_num` und `visit_start_time_gmt`.
-1. Zählen Sie die Anzahl der Einzelwerte.
+1. Zählen Sie die Anzahl der eindeutigen Werte.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 Alle Methoden, die Adobe zur Identifizierung von Unique Visitors verwendet (benutzerdefinierte Besucher-ID, Experience Cloud ID-Dienst usw.) werden letztlich als Wert in `post_visid_high` und `post_visid_low` berechnet. Die Verkettung dieser beiden Spalten kann als Standardmethode zur Identifizierung von Unique Visitors verwendet werden, unabhängig davon, wie Besucher als Unique Visitors identifiziert wurden. In der Spalte `post_visid_type` ist die Methode ersichtlich, die Adobe zur Identifizierung eines Unique Visitors verwendet hat.
 
 1. Verketten Sie `post_visid_high` und `post_visid_low`.
-2. Zählen Sie die Anzahl der Einzelwerte.
+2. Zählen Sie die Anzahl der eindeutigen Werte.
 
 ## Benutzerspezifische Links, Download- oder Exitlinks
 
