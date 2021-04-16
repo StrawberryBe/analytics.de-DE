@@ -1,16 +1,16 @@
 ---
 description: Definiert die allgemeinen Einstellungen für eine Website, für die Originalinhalte entwickelt und auf der Artikel und Videos präsentiert werden.
 title: Inhalte und Medien
-topic: Admin tools
+feature: Admin Tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # Inhalte und Medien
 
@@ -53,4 +53,3 @@ Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die An
 | Seitenansichten | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors pro Tag | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors | Zähler (keine Subrelationen) | nicht angegeben |
-
