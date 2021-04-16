@@ -1,16 +1,16 @@
 ---
 description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
 title: Data Warehouse-Übersicht
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
+exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
-
 
 # Data Warehouse-Übersicht
 
@@ -77,4 +77,3 @@ In dieser Tabelle werden die Felder und Optionen in dem Register [!UICONTROL Dat
   </tr> 
  </tbody> 
 </table>
-
