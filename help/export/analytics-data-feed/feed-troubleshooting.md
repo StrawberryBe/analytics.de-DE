@@ -3,20 +3,20 @@ description: Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
 keywords: Datenfeed;Fehlerbehebung
 title: Fehlerbehebung bei Daten-Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 99%
+source-wordcount: '1026'
+ht-degree: 91%
 
 ---
-
 
 # Fehlerbehebung bei Daten-Feeds
 
 Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
 
-## Fehler beim Speichern des Feeds   {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## Fehler beim Speichern des Feeds  {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 Datenfeed-Dateinamen umfassen die Report Suite-ID und das Datum. Zwei Feeds, die für dieselbe RSID und denselben Termin bzw. dieselben Termine konfiguriert sind, haben denselben Dateinamen. Wenn diese Feeds in dasselbe Verzeichnis gesendet werden, überschreibt eine Datei die andere. Um das Überschreiben einer Datei zu verhindern, können Sie keinen Feed erstellen, der einen vorhandenen Feed im selben Verzeichnis überschreiben könnte.
 
@@ -72,3 +72,9 @@ Einige Mobilnetzbetreiber (wie T-Mobile und O1) bieten keine Domänen mehr für 
 ## Übersicht zu Datenverarbeitung {#section_6346328F8D8848A7B81474229481D404}
 
 Bevor stündliche oder tägliche Daten verarbeitet werden, warten die Daten-Feeds, bis alle Treffer, die innerhalb des Zeitrahmens (Tag oder Stunde) in die Datenerfassung eingehen, in Data Warehouse geschrieben wurden. Anschließend erfassen die Daten-Feeds die Daten mit Zeitstempeln, die in diesen Zeitrahmen fallen, komprimieren die Daten und senden sie per FTP. Bei stündlichen Feeds werden die Daten normalerweise innerhalb von 15 bis 30 Minuten nach Ablauf der entsprechenden Stunde aus dem Data Warehouse geschrieben, es gibt jedoch keinen festgelegten Zeitraum. Wenn es keine Daten mit Zeitstempeln gibt, die in diesen Zeitrahmen passen, erfolgt der Prozess im nächsten Zeitrahmen erneut. Der aktuelle Daten-Feed-Prozess nutzt das Feld `date_time`, um zu ermitteln, welche Treffer zur entsprechenden Stunde gehören. Dieses Feld basiert auf der Zeitzone der Report Suite.
+
+## Datenfeed-Formate &quot;Stündlich&quot;und &quot;Täglich&quot;
+
+Bei Daten, die älter als 7 Tage sind, werden die &quot;stündlich&quot;-Dateien eines Tages in einer einzigen &quot;täglichen&quot;Datei zusammengefasst.
+
+Beispiel: Am 9. März 2021 wird ein neuer Datenfeed erstellt, und die Daten vom 1. Januar 2021 bis zum 9. März werden als &quot;stündlich&quot;bereitgestellt. Die &quot;Stündlich&quot;-Dateien vor dem 2. März 2021 werden jedoch in einer einzigen &quot;Täglich&quot;-Datei zusammengefasst. Sie können &quot;Stündliche&quot;Dateien nur aus Daten extrahieren, die weniger als 7 Tage nach dem Erstellungsdatum alt sind. In diesem Fall vom 2. März bis 9. März.
