@@ -1,16 +1,16 @@
 ---
 description: Definiert allgemeine Einstellungen für eine Website, auf der Informationen zu Dienstleistungen und Produkten bereitgestellt werden, die üblicherweise erst nach weiterführender Interaktion verkauft werden.
 title: Lead-Generierung
-topic: Admin tools
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
-
 
 # Lead-Generierung
 
@@ -46,4 +46,3 @@ Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die An
 | Seitenansichten | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors pro Tag | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors | Zähler (keine Subrelationen) | nicht angegeben |
-
