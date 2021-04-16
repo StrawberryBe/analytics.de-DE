@@ -3,16 +3,16 @@ description: Tabellendaten, die die Spalten im Daten-Feed beschreiben.
 keywords: Daten-Feed;Spalten
 subtopic: data feeds
 title: Datenspaltenreferenz
-topic: Reports and Analytics
+feature: Grundlagen zu Reports & Analysen
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: e1492147-6e7f-4921-b509-898e7efda596
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3396'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # Datenspaltenreferenz
 
@@ -70,7 +70,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `duplicated_from` | Wird nur in Report Suites mit VISTA-Regeln zur Trefferkopie verwendet. Gibt an, von welcher Report Suite der Treffer kopiert wurde. | varchar(40) |
 | `ef_id` | Der in Adobe Advertising Cloud-Integrationen verwendete `ef_id`. | varchar(255) |
 | `evar1 - evar250` | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Der beste Ort für weitere Informationen dazu, wie Ihre Organisation entsprechende eVars füllt, ist ein Dokument zum Lösungsentwurf, das für Ihre Organisation gilt. | varchar(255) |
-| `event_list` | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Enthält sowohl die Standardereignisse als auch die benutzerdefinierten Ereignisse 1–1000 Verwendet die `event.tsv`-Suche. | text |
+| `event_list` | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Enthält sowohl die Standardereignisse als auch die benutzerdefinierten Ereignisse 1–1000. Verwendet die `event.tsv`-Suche. | text |
 | `exclude_hit` | Flag, das angibt, dass der Hit nicht in das Reporting einfließt. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
 | `first_hit_page_url` | Die allererste URL des Besuchers. | varchar(255) |
 | `first_hit_pagename` | Variable, die in der Dimension [Ursprüngliche Entrypage](/help/components/dimensions/entry-dimensions.md) verwendet wird. Der Name der ursprünglichen Entrypage des Besuchers. | varchar(100) |
@@ -162,7 +162,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `paid_search` | Flag, das gesetzt wird, wenn der Treffer mit der gebührenpflichtigen Sucherkennung übereinstimmt. | tinyint unsigniert |
 | `partner_plugins` | Nicht verwendet. Teil einer veralteten Funktion. | varchar(255) |
 | `persistent_cookie` | Wird in der Dimension [Unterstützung persistenter Cookies](/help/components/dimensions/persistent-cookie-support.md) verwendet. Gibt an, ob der Benutzer Cookies unterstützt, die nicht nach jedem Treffer gelöscht werden. | char(1) |
-| `plugins` | Wird nicht mehr verwendet. Liste numerischer IDs, die den im Browser verfügbaren Plugins entsprechen Verwendet die `plugins.tsv`-Suche. | varchar(180) |
+| `plugins` | Wird nicht mehr verwendet. Liste numerischer IDs, die den im Browser verfügbaren Plugins entsprechen. Verwendet die `plugins.tsv`-Suche. | varchar(180) |
 | `pointofinterest` | Name des Mobile Services-Zielpunkts | varchar(255) |
 | `pointofinterestdistance` | Entfernung der Mobile Services zur Zielpunktmitte | varchar(255) |
 | `post_`-Spalten | Enthält den in diesen Berichten ultimativ verwendeten Wert. Jede Post-Spalte wird nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln gefüllt. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. | Vgl. entsprechende non-post-Spalte |
