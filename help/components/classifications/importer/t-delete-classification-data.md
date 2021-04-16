@@ -2,16 +2,16 @@
 description: In diesen Schritten wird beschrieben, wie Sie Classification-Daten löschen oder entfernen.
 subtopic: Classifications
 title: Löschen von Classification-Daten
-topic: Admin tools
+feature: Admin Tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
+exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
-
 
 # Löschen von Classification-Daten
 
