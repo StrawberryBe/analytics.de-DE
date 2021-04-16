@@ -2,16 +2,16 @@
 description: Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierarchien definieren, auf deren Grundlage Sie Hierarchieberichte mit dem gleichen Namen erstellen können.
 subtopic: Classifications
 title: Klassifizierungshierarchien
-topic: Admin tools
+feature: Admin Tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
+exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
-
 
 # Klassifizierungshierarchien
 
