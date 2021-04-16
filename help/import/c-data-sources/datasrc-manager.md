@@ -2,16 +2,16 @@
 description: Erstellen, verwalten und zeigen Sie die Nutzung von Datenquellen in einer Report Suite an.
 subtopic: Data sources
 title: Data Sources Manager
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+exl-id: a63137b8-deeb-4865-9be9-322416b00186
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
 ---
-
 
 # Data Sources Manager
 
@@ -77,6 +77,6 @@ Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswah
  </tbody> 
 </table>
 
-## Registerkarte „Dateiprotokoll“    {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## Registerkarte „Dateiprotokoll“   {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 Das Dateiprotokoll enthält eine Suchfunktion, mit der Sie anhand von Datenquelle-Name, Datenquelle-Typ, Dateiname, Empfangsdatum oder Status nach Informationen suchen können.
