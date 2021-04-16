@@ -2,16 +2,16 @@
 description: Nach der Bereitstellung können Sie die zusätzlichen Funktionen dieser Integration verwenden.
 subtopic: Qualtrics
 title: Verwenden der Integration
-topic: Data connectors
+feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
+exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # Verwenden der Integration {#using-the-integration}
 
@@ -31,4 +31,3 @@ Die folgenden Aktionen sind erforderlich, um aus dieser Integration in Adobe Ana
 Im Folgenden wird gezeigt, wie ein Analytiker ein Adobe Analytics-Segment mithilfe von Umfrageantwortdaten definieren kann. In diesem Fall wird eine Umfragefrage vorausgesetzt, beispielsweise „Wie zufrieden waren Sie mit Ihrem heutigen Besuch?“ Mithilfe dieser Frage können wir ein Segment erstellen, um „unzufriedene“ Besucher zu identifizieren. Ein solches Segment kann zum Drilldown in allen Adobe Analytics-Berichten verwendet werden, beispielsweise im „Einkaufs-Konversionstrichter“, wie unten dargestellt.
 
 ![](assets/using-1.png) ![](assets/using-2.png)
-
