@@ -2,16 +2,16 @@
 description: Eine Übersicht über die Schritte, die zur Planung der Implementierung einer Virtual Report Suite unternommen werden müssen.
 keywords: Virtual Report Suite
 title: Virtual Report Suite – Workflow
-topic: Reports and analytics
+feature: Grundlagen zu Reports & Analysen
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
+exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 98%
 
 ---
-
 
 # Virtual Report Suite – Workflow
 
