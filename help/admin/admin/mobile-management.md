@@ -1,15 +1,15 @@
 ---
 description: Durch die Aktivierung der App-Verwaltung aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken aus Mobile Apps.
 title: App-Verwaltung
-topic: Admin tools
+feature: Admin Tools
+exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 100%
 
 ---
-
 
 # App-Verwaltung
 
@@ -81,4 +81,3 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 | In-App-Online-Nachricht |  |
 | Push-Abonnement |  |
 | Nutzlast-ID |  |
-
