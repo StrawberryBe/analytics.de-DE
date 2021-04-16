@@ -2,16 +2,16 @@
 description: Data Warehouse bietet eine flexible Oberfläche zum Ausführen benutzerdefinierter Berichte. Anhand dieser Richtlinien vermindern Sie den Zeitaufwand für das Abrufen der Daten.
 keywords: Best Practices;Fehler;Timeout;Fehlerbehebung
 title: Best Practices für Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
+exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '292'
 ht-degree: 98%
 
 ---
-
 
 # Best Practices für Data Warehouse
 
