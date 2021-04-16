@@ -1,16 +1,16 @@
 ---
 description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“).
 title: Segmente filtern
-topic: Segments
+feature: Segmente
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
+exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # Segmente filtern
 
@@ -34,4 +34,3 @@ Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
    | Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als  [Favoriten](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
    | Weitere Filter > Genehmigt | Zeigt alle offiziell  [genehmigten](/help/components/segmentation/segmentation-workflow/seg-approve.md) Segmente an. |
    | Segmente durchsuchen | Sucht Segmente nach Namen. |
-
