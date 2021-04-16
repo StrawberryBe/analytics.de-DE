@@ -1,16 +1,16 @@
 ---
 description: Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten von freigegebenen Ereignissen.
 title: Kalenderereignisse
-topic: Reports and analytics
+feature: Grundlagen zu Reports & Analysen
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 99%
 
 ---
-
 
 # Kalenderereignisse
 
@@ -44,4 +44,3 @@ In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwiew
    |---|---|
    | **Über Bericht** | Damit können Sie vom Ereigniseigentümer vorgenommene Änderungen/Aktualisierungen anzeigen. |
    | **Freigabe aufheben** | Entfernt dieses Ereignis aus Ihrer Liste mit freigegebenen Ereignissen. |
-
