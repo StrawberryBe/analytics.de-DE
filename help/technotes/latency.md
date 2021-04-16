@@ -3,16 +3,16 @@ description: Die nachfolgenden Informationen helfen bei der Fehlerbehebung von R
 keywords: fehlende Daten; langsam
 subtopic: Current data
 title: Datenverfügbarkeit und -latenz
-topic: Reports
+topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
+exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 translation-type: tm+mt
-source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 99%
 
 ---
-
 
 # Datenverfügbarkeit und -latenz in Adobe Analytics
 
