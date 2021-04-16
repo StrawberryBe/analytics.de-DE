@@ -2,16 +2,16 @@
 description: Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 subtopic: Classifications
 title: Klassifizierungsregeln – Definitionen
-topic: Admin tools
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # Klassifizierungsregeln – Definitionen
 
@@ -144,4 +144,3 @@ Auf dieser Seite können Sie die Regeln in einem Regelsatz testen.
 |---|---|
 | Test ausführen | Beim Testen des Regelsatzes verwenden Sie Schlüssel aus dem Bericht, und es wird ermittelt, wie sich der Regelsatz auf diese Schlüssel auswirkt. |
 | Filter | Filtert die Werte im Bereich [!UICONTROL Ergebnisse]. |
-
