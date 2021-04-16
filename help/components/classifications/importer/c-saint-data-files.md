@@ -2,12 +2,12 @@
 description: Mit dem Importeur können Sie Classification-Daten in großen Mengen in Form einer Classification-Datendatei in die Analytics-Berichterstellung hochladen. Für den Import ist ein besonderes Dateiformat erforderlich, damit die Daten erfolgreich hochgeladen werden.
 subtopic: Classifications
 title: Klassifizierungsdatendateien
-topic: Admin tools
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1773'
 ht-degree: 100%
 
 ---
