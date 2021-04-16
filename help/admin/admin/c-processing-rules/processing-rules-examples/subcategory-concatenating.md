@@ -2,16 +2,16 @@
 description: Mit der Option „Verketten“ können Sie Werte durch die Kombination anderer Werte ausfüllen.
 subtopic: Processing rules
 title: Hinzufügen einer Unterkategorie durch Verketten von Kategorie und Seitenname
-topic: Admin tools
+feature: Admin Tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
+exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # Hinzufügen einer Unterkategorie durch Verketten von Kategorie und Seitenname
 
@@ -39,4 +39,3 @@ Mit der Option „Verketten“ können Sie Werte durch die Kombination anderer W
 Beispiel:
 
 ![](assets/add-subcategory-using-concat.png)
-
