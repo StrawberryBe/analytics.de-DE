@@ -2,22 +2,22 @@
 description: In diesem Thema erhalten Sie Antworten auf die am häufigsten gestellten Fragen.
 subtopic: Data sources
 title: Häufig gestellte Fragen zu Data Sources
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
+exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 95%
 
 ---
 
-
 # Häufig gestellte Fragen zu Data Sources
 
 In diesem Thema erhalten Sie Antworten auf die am häufigsten gestellten Fragen.
 
-## Wie können Offline-Daten mit Online-Ereignissen verknüpft werden?   {#section_F48A9474A70D4CB8B449DE305F199AD6}
+## Wie können Offline-Daten mit Online-Ereignissen verknüpft werden?  {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
 Damit Transaktions-ID-Datenquellen Offline-Daten mit Online-Events verbinden können, müssen Sie die Aufzeichnung der Transaktions-ID aktivieren. Weitere Informationen erhalten Sie unter [Transaktions-ID-Aufzeichnung](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C).
 
@@ -111,7 +111,7 @@ Data Sources erfasst keine Daten auf Stundenbasis. Wenn Sie einen Bericht für e
 
 ## Wie werden „Unique Visitors“ in einem Webserver-Protokoll Datenquelle-Upload berechnet?   {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-Die Anzahl an einmaligen Besuchern in einem Webserver-Protokoll wird als spezifische Kombination aus *`IP Address`* und *`User Agent`* im Webprotokoll berechnet. Jede einzigartige Kombination dieser beiden Elemente wird als Unique Visitor berechnet. Wenn die Spalte [!UICONTROL Benutzeragent] leer ist (oder nicht im Webprotokoll eingeschlossen ist), können wir nicht die Anzahl an Unique Visitors ermitteln, sodass der gesamte Upload als ein Unique Visitor zählt (selbst wenn mehrere IP-Adressen vorliegen).
+Die Anzahl an Unique Visitors in einem Webserver-Protokoll wird als spezifische Kombination aus *`IP Address`* und *`User Agent`* im Webprotokoll berechnet. Jede einzigartige Kombination dieser beiden Elemente wird als Unique Visitor berechnet. Wenn die Spalte [!UICONTROL Benutzeragent] leer ist (oder nicht im Webprotokoll eingeschlossen ist), können wir nicht die Zahl der Unique Visitors ermitteln, sodass der gesamte Upload als ein Unique Visitor zählt (selbst wenn mehrere IP-Adressen vorliegen).
 
 ## Wie kann ich in Data Sources herausfinden, welche Anmeldeinformationen zu welcher Report Suite gehören?   {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
