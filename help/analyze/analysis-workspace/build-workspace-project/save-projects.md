@@ -5,7 +5,7 @@ feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
+source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 54%
@@ -64,6 +64,9 @@ Bei **neuen** Projekten, die noch nie gespeichert wurden, können nicht gespeich
 So öffnen Sie eine frühere Version eines Projekts:
 
 1. Gehen Sie zu **[!UICONTROL Projekt]** > **[!UICONTROL Frühere Version öffnen]**
+
+   ![](assets/previous-versions.png)
+
 1. Überprüfen Sie die Liste der vorherigen verfügbaren Versionen.
    [!UICONTROL Es werden ] Timestampand   Editorare angezeigt, zusätzlich zu   Notesif, wenn sie beim Speichern des   Editors hinzugefügt wurden. Versionen ohne Notizen werden 90 Tage lang gespeichert. Versionen mit Notizen werden für 1 Jahr gespeichert.
 1. Wählen Sie eine frühere Version und klicken Sie auf **[!UICONTROL Laden]**.
