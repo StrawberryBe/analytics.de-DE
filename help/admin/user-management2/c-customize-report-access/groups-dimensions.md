@@ -3,16 +3,16 @@ description: Legen Sie Benutzerrechte auf einer granularen Ebene fest, einschlie
 keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Anpassen von Dimensionsberechtigungen
-topic: Admin tools
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
+exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 98%
 
 ---
-
 
 # Anpassen von Dimensionsberechtigungen
 
