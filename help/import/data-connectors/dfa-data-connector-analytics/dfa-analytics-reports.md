@@ -2,16 +2,16 @@
 description: Sobald eine Kommunikation zwischen DFA- und Adobe®-Erfassungsservern besteht, können Sie in Reports & Analysen Berichte mit DFA-Daten erstellen.
 keywords: DFA
 title: Analytics-Berichte mit DFA-Daten
-topic: Data connectors
+feature: Data Connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
+exl-id: e8b2dc3d-0360-4232-9a24-aa14e52f25d5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
-
 
 # Analytics-Berichte mit DFA-Daten {#analytics-reports-using-dfa-data}
 
