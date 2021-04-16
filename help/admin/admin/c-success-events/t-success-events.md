@@ -1,16 +1,16 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
 title: Konfigurieren von Erfolgsereignissen
-topic: Admin tools
+feature: Admin Tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
+exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # Konfigurieren von Erfolgsereignissen
 
@@ -44,4 +44,3 @@ In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
    >Sie können den Beitrag für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) Beitragsmetriken erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
