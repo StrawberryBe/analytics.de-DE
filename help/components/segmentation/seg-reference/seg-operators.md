@@ -1,16 +1,16 @@
 ---
 description: Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken.
 title: Vergleichsoperatoren für Segmente
-topic: Segments
+feature: Segmente
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
+exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # Vergleichsoperatoren für Segmente
 
@@ -55,4 +55,3 @@ Das einzige unterstützte Platzhalterzeichen ist das Sternchen: *. Wenn Sie nach
 | kleiner als | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist. |
 | größer als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
 | kleiner als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
-
