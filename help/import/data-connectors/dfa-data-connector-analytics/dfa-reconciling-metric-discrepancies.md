@@ -2,16 +2,16 @@
 description: Gelegentlich fallen einige Metriken beim Vergleich von Adobe Analytics- und DFA-Metriken gegebenenfalls nicht in eine akzeptable Differenz. Unten finden Sie eine Liste mit Metrikdefinitionen und möglichen Ursachen für Abweichungen.
 keywords: DFA
 title: Abgleich von Metrikdiskrepanzen
-topic: Data connectors
+feature: Data Connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
+exl-id: bfe0f9cb-1bbc-40f9-b996-0002d5143889
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1270'
 ht-degree: 100%
 
 ---
-
 
 # Abgleich von Metrikdiskrepanzen {#reconciling-metric-discrepancies}
 
@@ -35,7 +35,7 @@ Bei Adobe werden für Metriken in Bezug auf die DFA-Integration folgende Termini
 
 Liste mit Ursachen für Datendiskrepanzen zwischen Adobe Analytics und DFA-Berichten
 
-### Benutzer von Safari und anderen Browsern mit geblockten Drittanbietercookies   {#section-4b0dc429a54a4744a33976b0bb2d1b2a}
+### Benutzer von Safari und anderen Browsern mit geblockten Drittanbietercookies  {#section-4b0dc429a54a4744a33976b0bb2d1b2a}
 
 Meistens werden Diskrepanzen zwischen Adobe Analytics und DFA durch nicht zugelassene Drittanbietercookies verursacht. Bei Safari und einigen anderen Browsern werden Drittanbietercookies standardmäßig geblockt. Erstanbietercookies, die von den meisten Analytics-Implementationen verwendet werden, werden also standardmäßig von Safari und manchen anderen Browsern zugelassen, während die von DFA verwendeten Drittanbietercookies abgelehnt werden.
 
