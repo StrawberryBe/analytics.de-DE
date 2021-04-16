@@ -2,16 +2,16 @@
 description: Diese Schritte beschreiben, wie Sie Benutzergruppen zu einer Report Suite zuweisen.
 subtopic: Users and groups
 title: Zuweisen von Benutzergruppen zu einer Report Suite
-topic: Admin tools
+feature: Admin Tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
+exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
-
 
 # Zuweisen von Benutzergruppen zu einer Report Suite
 
