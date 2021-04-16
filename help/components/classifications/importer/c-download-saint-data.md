@@ -2,12 +2,12 @@
 description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 subtopic: Classifications
 title: Klassifizierungsvorlage
-topic: Admin tools
+feature: Admin Tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
