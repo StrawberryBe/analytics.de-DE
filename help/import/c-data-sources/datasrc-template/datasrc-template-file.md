@@ -2,16 +2,16 @@
 description: Informationen zur Data Sources-Vorlage, die ein Daten-Framework zum Übermitteln eines bestimmten Satzes an externen Daten an Data Sources bietet.
 subtopic: Data sources
 title: 'Data Sources-Vorlagenübersicht '
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
+exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
 ---
-
 
 # Data Sources-Vorlagenübersicht
 
