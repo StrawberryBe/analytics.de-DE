@@ -1,16 +1,16 @@
 ---
 description: Verwenden Sie Transaktions-ID in Datenquellen, um Online- und Offlinedaten miteinander zu verknüpfen.
 title: Transaktions-ID und Besucherprofile
-topic: Entwickler und Implementierung
+topic-fix: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
+exl-id: ca5f9e8d-853f-4444-a8fd-a20933ef33d7
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '657'
 ht-degree: 98%
 
 ---
-
 
 # Transaktions-ID und Besucherprofile
 
@@ -42,7 +42,7 @@ eVars, die mit Transaktions-ID-Datenquellen hochgeladen wurden, werden dem „Sc
 
 Der „Schnappschuss“ des Besucherprofils, der mit einer Transaktions-ID verbunden ist, kann nach 90 Tagen gelöscht werden. Der tatsächliche Löschplan kann jedoch abweichen. Sie können sich, falls erforderlich, an die Adobe-Kundenunterstützung wenden, um das Ablauffenster erweitern zu lassen. Wird eine Zeile nach dem Transaktions-ID-Ablauffenster hochgeladen, werden die Zeilendaten zwar aufgezeichnet, aber keine der Daten im „Schnappschuss“ des Besucherprofils werden gutgeschrieben, wenn das Profil gelöscht wurde.
 
-## Aufschlüsselungen und Segmentierung mithilfe von Transaktions-IDs   {#section_A4D39291200A42C496122FDB9EF6EF68}
+## Aufschlüsselungen und Segmentierung mithilfe von Transaktions-IDs  {#section_A4D39291200A42C496122FDB9EF6EF68}
 
 Mit Datenquellen hochgeladene eVars können verwendet werden, um im „Schnappschuss“ des Besucherprofils enthaltene eVars aufzuschlüsseln. Da diese Daten vom aktuellen Besucherprofil getrennt sind, können Sie keine anderen eVars zur Aufschlüsselung verwenden, die festgelegt wurden, bevor oder nachdem die Transaktions-ID festgelegt wurde, die aber nicht Teil des „Schnappschusses“ sind.
 
