@@ -1,16 +1,16 @@
 ---
 description: Im Abschnitt „Persistenter Traffic“ können Sie die erwarteten Traffic-Mengen ändern, damit Adobe die Ressourcen im Hinblick auf das neue Traffic-Niveau neu zuordnen kann.
 title: Angeben einer dauerhaften Traffic-Zunahme
-topic: Admin tools
+feature: Admin Tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
+exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
-
 
 # Angeben einer dauerhaften Traffic-Zunahme
 
@@ -29,4 +29,3 @@ Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Zunahmen]
    >[!NOTE]
    >
    >Wenn Sie einen dauerhaften Traffic-Anstieg planen, geben Sie bei Ihren Kontaktdaten eine Telefonnummer mit an, damit Adobe Sie bei Rückfragen erreichen kann.
-
