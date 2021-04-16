@@ -2,16 +2,16 @@
 description: 'Erfolgsereignisse sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Beispiel: Wenn ein Besucher einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden..'
 keywords: event
 title: Übersicht über Erfolgsereignisse
-topic: Admin tools
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
+exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 100%
 
 ---
-
 
 # Übersicht über Erfolgsereignisse
 
@@ -37,7 +37,7 @@ Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen
 
 Die Variable [s.events](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
 
-## Seite „Erfolgsereignisse“ – Beschreibungen   {#section_681ECEC981694CABBDBF00E18165B447}
+## Seite „Erfolgsereignisse“ – Beschreibungen  {#section_681ECEC981694CABBDBF00E18165B447}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**
 
@@ -53,4 +53,3 @@ Auf der Seite „Erfolgsereignisse“ können Sie die auf der Site verwendeten E
 | Eindeutige Ereignisaufzeichnung | **Einmal pro Besuch aufzeichnen**: Verbindet das angegebene Ereignis mit der Sitzung des Besuchers. Nachfolgende Zählungen für ein bestimmtes Ereignis im selben Besuch werden ignoriert. Für diese Art der Ereignis-Serialisierung sind keine Implementierungsänderungen erforderlich.<br>**Ereignis-ID verwenden:** Verbindet das angegebene Ereignis mit einer benutzerdefinierten ID. Nachfolgende Zählungen für ein bestimmtes Ereignis mit derselben Ereignis-ID werden ignoriert. Für diese Art der Ereignis-Serialisierung ist eine benutzerdefinierte ID in Treffern erforderlich, um Werte zu deduplizieren. Siehe [Ereignis-ID-Serialisierung](../../../implement/vars/page-vars/events/event-serialization.md) im Benutzerhandbuch zu Implementierungen. |
 | Beitrag | Ermöglicht die vollständige Attribution zu allen Dimensionselementen im Besuch. |
 | Warnung (Währungsereignis) | Wenn Sie den Ereignistyp ändern, also von einem Währungsereignis zu einem anderen Ereignistyp wechseln oder umgekehrt, wird eine Meldung angezeigt, dass die historischen Daten nicht für die Berichterstellung verfügbar sind.  Die unterschiedlichen Ereignistypen verwenden separate Datentabellen, die nicht gleichzeitig genutzt werden können. Beim Wiederherstellen des bisherigen Ereignistyps kann ein Teil der historischen Daten unter Umständen wiederhergestellt werden. Alle Daten, die nach der ersten Änderung erfasst wurden, sind jedoch nicht mehr verfügbar. Gehen Sie beim Ändern des Ereignistyps mit Vorsicht vor. |
-
