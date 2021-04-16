@@ -1,16 +1,16 @@
 ---
 description: Mit internen URL-Filtern werden die Referrer, die Sie als seitenintern betrachten, gekennzeichnet. Dies hilft, Berichte zu Traffic-Quellen mit Daten zu füllen und internen Traffic zu filtern.
 title: Interne URL-Filter
-topic: Admin tools
+feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
+exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
 translation-type: tm+mt
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # Interne URL-Filter
 
