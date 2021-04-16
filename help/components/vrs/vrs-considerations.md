@@ -2,16 +2,16 @@
 description: Virtual Report Suites und Multisuite-Tagging bieten unterschiedliche Vorteile. Erfahren Sie, welche die beste Lösung für Ihr Unternehmen ist.
 keywords: Virtual Report Suite, VRS
 title: Virtual Report Suites und Multisuite-Tagging
-topic: Adobe Analytics
+feature: Report Suite-Einstellungen
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1742'
 ht-degree: 99%
 
 ---
-
 
 # Virtual Report Suites und Multisuite-Tagging
 
@@ -43,9 +43,9 @@ Virtual Report Suites unterstützen keine Echtzeitberichte, weil die Daten segme
 
 Wenn Sie über eine globale Report Suite verfügen, die eine große Anzahl von Sites zusammenfasst, begegnet Ihnen unter Umständen regelmäßig der Zeileneintrag [geringer Traffic](/help/technotes/low-traffic.md). Wenn Sie Multi-Suite-Tagging verwenden, betrifft dieses Problem nur die globale Report Suite (einzelne Report Suites haben selten geringen Traffic). Wenn Sie Virtual Report Suites verwenden, werden individuelle Einschränkungen freigegeben, sodass einzelne Report Suites auch geringen Traffic anzeigen. Erwägen Sie die Verwendung von Multi-Suite-Tagging, wenn Sie vermeiden möchten, dass Daten mit geringem Traffic zusammengefasst werden.
 
-Beispiel: Eine große Medienorganisation verfügt über 100 Webeigenschaften. Jede Eigenschaft veröffentlicht monatlich einige tausend News-Artikel, zusätzlich zum Hosting aller Artikel aus den Vormonaten. Diese Organisation verwendet eine globale Report Suite, bei der eVar1 „Artikelname“ lautet. In diesem Bericht werden monatlich etwa 4 Millionen individuelle Artikelnamen aus den verschiedenen Eigenschaften zusammengeführt. Bei Verwendung einer Virtual Report Suite werden die 500.000 Top-Werte, die den Großteil des Traffics ausmachen, in Virtual Report Suites einbezogen. Die verbleibenden 3,5 Millionen werden als „geringer Traffic“ klassifiziert. Wenn Multi-Suite-Tagging verwendet wird, hat jede einzelne Report Suite ihre eigenen 500.000 Top-Werte. Die individuellen Einschränkungen der globalen Report Suite sind bei Multi-Suite-Tagging und Virtual Report Suites gleich.
+Beispiel: Eine große Medienorganisation verfügt über 100 Webeigenschaften. Jede Eigenschaft veröffentlicht monatlich einige tausend News-Artikel, zusätzlich zum Hosting aller Artikel aus den Vormonaten. Diese Organisation verwendet eine globale Report Suite, bei der eVar1 „Artikelname“ lautet. In diesem Bericht werden monatlich etwa 4 Millionen eindeutige Artikelnamen aus den verschiedenen Eigenschaften zusammengeführt. Bei Verwendung einer Virtual Report Suite werden die 500.000 Top-Werte, die den Großteil des Traffics ausmachen, in Virtual Report Suites einbezogen. Die verbleibenden 3,5 Millionen werden als „geringer Traffic“ klassifiziert. Wenn Multi-Suite-Tagging verwendet wird, hat jede einzelne Report Suite ihre eigenen 500.000 Top-Werte. Die individuellen Einschränkungen der globalen Report Suite sind bei Multi-Suite-Tagging und Virtual Report Suites gleich.
 
-Die Adobe-Kundenunterstützung kann die individuellen Wertgrenzen für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig beseitigt werden kann. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung und Kundenunterstützung.
+Die Adobe-Kundenunterstützung kann die eindeutigen Wertgrenzen für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig beseitigt werden kann. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung und Kundenunterstützung.
 
 ### Freigegebene Metriken über Report Suites hinweg
 
@@ -53,7 +53,7 @@ Virtual Report Suites verfügen nicht über eigene Dimensionen und Metriken, son
 
 Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. Einige Dimensionen und Ereignisse können zwischen zwei Sites freigegeben werden. Beispielsweise kann bei einer E-Mail-Registrierung dasselbe Ereignis auf mehreren Websites verwendet werden, wodurch dasselbe benutzerspezifische Ereignis ausgelöst wird. Andere Dimensionen können spezifisch für eine Site sein. Beispielsweise kann nur über eine Ihrer Sites vom Benutzer das Profilbild geändert werden. Dieses benutzerspezifische Ereignis wird nur auf der Website implementiert, die es unterstützt.
 
-Stellen Sie sicher, dass die Anzahl der individuellen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele individuelle Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/classifications/c-classifications.md). Sie können zum Beispiel die Classification „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
+Stellen Sie sicher, dass die Anzahl der eindeutigen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele eindeutige Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/classifications/c-classifications.md). Sie können zum Beispiel die Classification „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
 
 >[!TIP]
 >
