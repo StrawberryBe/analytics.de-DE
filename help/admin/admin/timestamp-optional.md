@@ -1,16 +1,16 @@
 ---
 description: Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Report Suite.
 title: Zeitstempel optional
-topic: Admin tools
+feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # Zeitstempel optional
 
@@ -41,7 +41,7 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
    * **Zeitstempel erforderlich** (Einstellung „s.visitorID“ wird nicht unterstützt)
    * **Zeitstempel optional** (Einstellung „s.visitorID“ wird unterstützt, aber nicht für Zeitstempeltreffer)
 
-## Änderung vorhandener Report Suites in „Zeitstempel optional“   {#section_40BCD3B4639241DEA716F7640ED33E72}
+## Änderung vorhandener Report Suites in „Zeitstempel optional“  {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. Wechseln Sie zu **Admin > Report Suites > Einstellungen bearbeiten > Allgemein > Zeitstempelkonfiguration**.
 1. Aktivieren Sie **Ausgewählte Report Suites in „Zeitstempel optional“ konvertieren**.
@@ -51,4 +51,3 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
 >[!NOTE]
 >
 >Wurde eine Report Suite auf **Zeitstempel optional** festgelegt, müssen Sie sich an die Adobe-Kundenunterstützung wenden, um diese oder andere Einstellungen zu ändern.
-
