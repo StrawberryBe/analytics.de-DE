@@ -7,9 +7,9 @@ feature: Grundlagen zu Reports & Analysen
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3405'
 ht-degree: 99%
 
 ---
@@ -157,7 +157,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `page_event_var2` | Wird nur in Linktracking-Bildanforderungen verwendet. Der benutzerdefinierte Name des Links, sofern angegeben. | varchar(100) |
 | `page_event_var3` | Wird nicht mehr verwendet. Enthielt Umfrage- und Medienmoduldaten. Füllte verwaltete Videoberichte in vorherigen Versionen von Adobe Analytics. | text |
 | `page_type` | Wird zum Füllen der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. Wird nur für 404-Seiten verwendet. Diese Variable sollte entweder leer sein oder den Wert `ErrorPage` enthalten. | char(20) |
-| `page_url` | Die URL des Treffers. Aus Bildanforderungen zum Linktracking entfernt. | varchar(255) |
+| `page_url` | Die URL des Treffers. In seiner Post-Variante (post_page_url) wird der Wert für Bildanforderungen zur Linktracking entfernt. | varchar(255) |
 | `pagename` | Wird zum Füllen der Dimension [Seite](/help/components/dimensions/page.md) verwendet. Wenn die Variable [`pagename`](/help/implement/vars/page-vars/pagename.md) leer ist, verwendet Analytics stattdessen `page_url`. | varchar(100) |
 | `paid_search` | Flag, das gesetzt wird, wenn der Treffer mit der gebührenpflichtigen Sucherkennung übereinstimmt. | tinyint unsigniert |
 | `partner_plugins` | Nicht verwendet. Teil einer veralteten Funktion. | varchar(255) |
