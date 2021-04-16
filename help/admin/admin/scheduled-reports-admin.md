@@ -1,16 +1,16 @@
 ---
 description: Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
 title: Warteschlange für terminierte Berichte
-topic: Reports
+topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
+exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # Warteschlange für terminierte Berichte
 
@@ -25,7 +25,7 @@ Zu den Admin-spezifischen Fähigkeiten des Managers für terminierte Berichte ge
 * Die neue Registerkarte [Berichtwarteschlange](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) mit allen Berichten, die zur Ausführung auf Berichtsservern in die Warteschlange gestellt wurden.
 * Anzeige der [Zeitplan-ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) in der Benutzeroberfläche der Berichtwarteschlange.
 
-## Alle terminierten Berichte anzeigen  {#section_3F167CAAEEC24140B476CF95B7402690}
+## Alle terminierten Berichte anzeigen {#section_3F167CAAEEC24140B476CF95B7402690}
 
 Auf der Registerkarte **[!UICONTROL Berichtsliste]** können Sie neben den von Ihnen terminierten Berichten mit der Option **[!UICONTROL Alle terminierten Berichte anzeigen]** alle terminierten Berichte in Ihrer Organisation anzeigen.
 
