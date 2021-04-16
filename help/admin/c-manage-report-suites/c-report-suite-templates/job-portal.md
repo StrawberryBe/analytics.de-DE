@@ -1,16 +1,16 @@
 ---
 description: Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stellensuche.
 title: Job-Portal
-topic: Admin tools
+feature: Admin Tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
-
 
 # Job-Portal
 
@@ -46,4 +46,3 @@ Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die An
 | Seitenansichten | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors pro Tag | Zähler (keine Subrelationen) | nicht angegeben |
 | Unique Visitors | Zähler (keine Subrelationen) | nicht angegeben |
-
