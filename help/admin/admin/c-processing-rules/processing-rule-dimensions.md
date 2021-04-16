@@ -2,22 +2,22 @@
 description: Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben können (sofern nicht anderweitig vermerkt).
 subtopic: Processing rules
 title: Für Verarbeitungsregeln verfügbare Dimensionen
-topic: Admin tools
+feature: Admin Tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '745'
 ht-degree: 86%
 
 ---
-
 
 # Für Verarbeitungsregeln verfügbare Dimensionen
 
 Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben können (sofern nicht anderweitig vermerkt).
 
-## Benutzerspezifische Werte und Kontextdaten   {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## Benutzerspezifische Werte und Kontextdaten  {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -219,4 +219,3 @@ Verarbeitungsregeln können Ereignisse einstellen, diese aber nicht als Bedingun
   </tr> 
  </tbody> 
 </table>
-
