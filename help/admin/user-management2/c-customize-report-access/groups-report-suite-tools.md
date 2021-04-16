@@ -3,16 +3,16 @@ description: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung,
 keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Anpassen von Berechtigungen für Report Suite-Tools
-topic: Admin tools
+feature: Admin Tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
+exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 93%
 
 ---
-
 
 # Anpassen von Berechtigungen für Report Suite-Tools
 
@@ -58,14 +58,14 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | Die benutzerspezifische Insight-Konversionsvariable (oder eVar) wird auf ausgewählten Webseiten Ihrer Site in den Adobe-Code aufgenommen. Ihr Hauptzweck besteht darin, Konversionserfolgsmetriken in benutzerspezifischen Marketing-Berichten zu segmentieren. |
 | [Suchmethoden](/help/admin/admin/finding-methods.md) | Ermöglicht es Ihnen, herauszufinden, wie verschiedene Berichte zu Suchmethoden Gutschriften für Konversionserfolgsergebnisse auf Ihrer Site erhalten. |
 | [Konversionsklassifizierungen](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
-| [Unique Visitor](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Ermöglicht das Festlegen einer Variable für Unique Visitor. |
+| [Unique Visitor](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Ermöglicht das Festlegen der Unique-Visitor-Variablen. |
 | [Erfolgsereignisse](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | Aktionen, die verfolgt werden können, beispielsweise Produktansicht, Checkout und Kauf. |
 | [Klassifizierungshierarchien](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
 | [Listenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html) | Wird auch als „List Var“ bezeichnet. Ähnlich wie bei Listen-Props sind bei Listenvariablen mehrere Werte in derselben Bildanforderung möglich. |
 | [Standardmetriken](/help/admin/admin/default-metrics.md) | In Reports &amp; Analytics wird ein Standardsatz an Metriken in allen Konversionsberichten angezeigt, es sei denn, ein Benutzer wählt einen benutzerspezifischen Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. |
 | [Verarbeitungsregeln](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Erteilt Zugriff auf Verarbeitungsregeln, durch die die Datenerfassung und Inhaltsverwaltung beim Senden an Berichte vereinfacht wird. |
 | **Werkzeuge und Berichte** |  |
-| [Anomalieerkennung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de-DE) | Ermöglicht Zugriff auf Anomalieerkennung, die eine statistische Methode bietet, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. |
+| [Anomalieerkennung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Ermöglicht Zugriff auf Anomalieerkennung, die eine statistische Methode bietet, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. |
 | [Kanalbericht](/help/components/c-marketing-channels/analyze-mc.md) | Ermöglicht Zugriff auf Marketing-Kanal-Berichte, zu finden unter „Berichte > Marketing-Kanalberichte“. |
 | [Echtzeitbericht](/help/admin/admin/realtime/t-realtime-admin.md) | Ermöglicht Zugriff auf den Echtzeitbericht. |
 | [Bot-Seiten](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bot-Seiten sind für bestimmte Reports &amp; Analysen-Berichte bestimmt, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
