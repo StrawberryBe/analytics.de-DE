@@ -1,16 +1,16 @@
 ---
 description: Sie können benutzerspezifische Berichtbeschreibungen für eVars, Props, Classifications und Ereignisse angeben. Die Beschreibungen sind für alle Endbenutzer verfügbar.
 title: Benutzerdefinierte Berichtbeschreibungen
-topic: Admin tools
+feature: Admin Tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
+exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # Benutzerdefinierte Berichtbeschreibungen
 
@@ -36,4 +36,3 @@ Die Beschreibung wird an zwei Stellen angezeigt:
 * Als QuickInfo, wenn Sie in der linken Navigation mit dem Cursor auf den Bericht zeigen:
 
    ![](assets/report_description_3.png)
-
