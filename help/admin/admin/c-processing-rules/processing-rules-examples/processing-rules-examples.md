@@ -2,16 +2,16 @@
 description: Häufige Einsatzmöglichkeiten für Verarbeitungsregeln.
 subtopic: Processing rules
 title: Beispiele für Verarbeitungsregeln
-topic: Admin tools
+feature: Admin Tools
 uuid: 804190bd-30f0-4001-9569-6352e20bb00b
+exl-id: 914a0d31-d256-456e-a44a-008490e86a23
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '99'
 ht-degree: 100%
 
 ---
-
 
 # Beispiele für Verarbeitungsregeln
 
