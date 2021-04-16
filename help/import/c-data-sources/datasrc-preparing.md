@@ -2,16 +2,16 @@
 description: Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
 subtopic: Data sources
 title: Vorbereiten auf die Verwendung von Data Sources
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
 ---
-
 
 # Vorbereiten auf die Verwendung von Data Sources
 
@@ -23,7 +23,7 @@ Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzu
 * [Transaktions-ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [Identifizieren eines gültigen Datumsbereichs für Datenquellendaten](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## Identifizieren und Benennen der Metriken   {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## Identifizieren und Benennen der Metriken  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 Sie müssen die Metriken oder Messungen verstehen, die in den Datenquellen enthalten sind, beispielsweise *`Off-line Sales Revenue by Product`*, *`Returns by Product`* oder *`Ad Impressions by Campaign`*. Dies sind die Namen, die Sie mit Berichtsmetriken (Ereignisse, Props und eVars) verbinden können.
 
