@@ -1,22 +1,22 @@
 ---
 description: Die Erkennung von Paid Search unterscheidet gebührenpflichtige von kostenlosen Suchvorgängen in Suchmaschinen- und Such-Keyword-Berichten. Sie können die Suchmaschinen angeben, in denen Sie kostenpflichtige Werbung verwenden, und eine in der URL von einem Besuch bei einer kostenpflichtigen Werbung gefundene Zeichenfolge eingeben.
 title: 'Erkennung von Paid Search '
-topic: Admin tools
+feature: Admin Tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
+exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # Erkennung von Paid Search
 
 Die Erkennung von Paid Search unterscheidet gebührenpflichtige von kostenlosen Suchvorgängen in Suchmaschinen- und Such-Keyword-Berichten. Sie können die Suchmaschinen angeben, in denen Sie kostenpflichtige Werbung verwenden, und eine in der URL von einem Besuch bei einer kostenpflichtigen Werbung gefundene Zeichenfolge eingeben.
 
-## Erkennung von Paid Search  – Beschreibungen   {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Erkennung von Paid Search  – Beschreibungen  {#section_0C2CFA0AF77B47098BE37CB024665D0D}
 
 In der folgenden Tabelle werden die Felder und Optionen beschrieben, die Sie zur [Konfiguration der Erkennung von Paid Search](/help/admin/admin/paid-search-detection/t-paid-search-detection.md) verwenden.
 
