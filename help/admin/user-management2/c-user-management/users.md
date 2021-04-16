@@ -2,16 +2,16 @@
 description: In der Verwaltung für Berichtbenutzer und Berichtgruppen auf der Seite „User Management“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Tools und Report Suites steuern.
 subtopic: Users and groups
 title: Übersicht über die Benutzerverwaltung
-topic: Admin tools
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # Übersicht über die Benutzerverwaltung
 
@@ -95,4 +95,3 @@ Erstellt ein Standard-Dashboard für eine bestimmte Report Suite.
 | [!UICONTROL Benutzerdefinierte Nachricht] | Hier können Sie zusätzlichen Inhalt für die Begrüßungsmeldung eingeben. Im Feld „Benutzerspezifische Nachricht“ wird HTML-Code unterstützt, aber es können keine Dateien angehängt werden. |
 | [!UICONTROL E-Mail-Vorschau] | Hiermit wird die Begrüßungs-E-Mail in einem separaten Browser-Fenster angezeigt. |
 | [!UICONTROL Als Standardbegrüßung einrichten] | Hiermit wird die Standardbegrüßungsmeldung um den Inhalt aus dem Bereich „Benutzerdefinierte Nachricht“ erweitert. |
-
