@@ -2,14 +2,14 @@
 description: Häufig gestellte Fragen zu Daten-Feeds
 keywords: Datenfeed;Auftrag;Pre-Spalte;Post-Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
+exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 75%
+source-wordcount: '420'
+ht-degree: 58%
 
 ---
-
 
 # Häufig gestellte Fragen zu Daten-Feeds
 
@@ -36,3 +36,9 @@ Daten-Feeds enthalten keine Bots, die nach [Admin Console-Bot-Regeln](https://do
 Einige Tabelleneditoren, insbesondere Microsoft Excel, runden automatisch sehr große Zahlen ab. Die Spalte `event_list` enthält viele kommagetrennte Zahlen, was dazu führt, dass Excel sie manchmal als große Zahl behandelt. Die letzten Ziffern werden auf `000` gerundet.
 
 Adobe empfiehlt, `hit_data.tsv`-Dateien nicht automatisch in Microsoft Excel zu öffnen. Verwenden Sie stattdessen das Excel-Dialogfeld &quot;Daten importieren&quot;und stellen Sie sicher, dass alle Felder als Text behandelt werden.
+
+## Warum kann ich keine &quot;stündliche&quot;Dateien aus Daten extrahieren, die älter als 7 Tage sind?
+
+Bei Daten, die älter als 7 Tage sind, werden die &quot;stündlich&quot;-Dateien eines Tages in einer einzigen &quot;täglichen&quot;Datei zusammengefasst.
+
+Beispiel: Am 9. März 2021 wird ein neuer Datenfeed erstellt, und die Daten vom 1. Januar 2021 bis zum 9. März werden als &quot;stündlich&quot;bereitgestellt. Die &quot;Stündlich&quot;-Dateien vor dem 2. März 2021 werden jedoch in einer einzigen &quot;Täglich&quot;-Datei zusammengefasst. Sie können &quot;Stündliche&quot;Dateien nur aus Daten extrahieren, die weniger als 7 Tage nach dem Erstellungsdatum alt sind. In diesem Fall vom 2. März bis 9. März.
