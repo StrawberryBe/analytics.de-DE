@@ -2,16 +2,16 @@
 description: Die Importdatei-Vorlage hilft Ihnen, mit dem Import zu beginnen.
 subtopic: Data sources
 title: Importdatei-Vorlage generieren
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # Importdatei-Vorlage generieren
 
@@ -45,4 +45,3 @@ Siehe [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasr
 1. Nachdem die Vorlage erstellt wurde, kopieren Sie die Daten in die entsprechenden Spalten aus der Datenquelle-Vorlage und stellen Sie dabei sicher, dass Sie das für diese Datenspalte erforderliche Datenformat berücksichtigen.
 
    Schritt Ergebnis 1. Speichern Sie die Data Sources-Datei unter einem Namen gemäß der von Ihnen ausgewählten Namensgebungskonvention. Adobe empfiehlt, eine konsistente Namensgebungskonvention für alle Data Sources-Dateien zu verwenden. Verwenden Sie eine gemeinsame Dateierweiterung wie .txt oder .tsv (oder verwenden Sie gar keine Erweiterung).
-
