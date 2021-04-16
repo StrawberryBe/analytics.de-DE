@@ -2,16 +2,16 @@
 description: Mithilfe von Datenquellen-Kategorien werden die unterschiedlichen Datenquellen-Typen identifiziert, die ähnliche Funktionen bieten.
 subtopic: Data sources
 title: Übersicht über Datentypen und Kategorien
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
+exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
 
 ---
-
 
 # Übersicht über Datentypen und Kategorien
 
@@ -53,7 +53,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu g
  </tbody> 
 </table>
 
-## Werbekampagnen    {#section_9AE27E347CFC48F29E7C1134B6E928A6}
+## Werbekampagnen   {#section_9AE27E347CFC48F29E7C1134B6E928A6}
 
 <table id="table_2A297A86CC3E4B1E8B72389AA148549A"> 
  <thead> 
@@ -230,4 +230,3 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu g
   </tr> 
  </tbody> 
 </table>
-
