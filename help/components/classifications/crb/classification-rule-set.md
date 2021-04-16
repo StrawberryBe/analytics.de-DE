@@ -2,12 +2,12 @@
 description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 subtopic: Classifications
 title: Klassifizierungsregelsätze
-topic: Admin tools
+feature: Admin Tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
-## Classification Rule Builder-Seite   {#section_C60B0888C76D49C596EF19F11808B718}
+## Classification Rule Builder-Seite  {#section_C60B0888C76D49C596EF19F11808B718}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
