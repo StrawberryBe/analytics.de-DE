@@ -2,16 +2,16 @@
 description: Erfahren Sie, wie Sie den Besucherinteraktionsablauf in Marketing-Kanälen festlegen.
 subtopic: Marketing channels
 title: Marketing-Kanalablauf
-topic: Reports and analytics
+feature: Grundlagen zu Reports & Analysen
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
-
 
 # Marketing-Kanalablauf
 
@@ -48,4 +48,3 @@ Geben Sie den Zeitraum der Besucherinteraktion an.
 
 3. Konfigurieren Sie die Felder für den Besucherinteraktionszeitraum.
 4. Klicken Sie auf **[!UICONTROL Speichern]**.
-
