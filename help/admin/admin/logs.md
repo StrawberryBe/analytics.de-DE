@@ -1,15 +1,15 @@
 ---
 description: Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen.
 title: Protokolle
-topic: Admin tools
+feature: Admin Tools
+exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
-source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
-
 
 # Protokolle
 
@@ -21,7 +21,7 @@ Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt
 
 Das Admin-Protokoll enthält alle Änderungen, die von Administratoren in den Admin Tools vorgenommen wurden. Das Protokoll ermöglicht die Erstellung benutzerdefinierter Berichte aus einem der drei Protokolle. Sie können nach Ereignissen suchen, die Ihre Kriterien in einem bestimmten Datumsbereich erfüllen.
 
-## Nutzungs- und Zugriffsprotokoll   {#section_6FBAF92D9EA244809C45A78A2F0A7232}
+## Nutzungs- und Zugriffsprotokoll  {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
 Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Berichtsnutzung auf Benutzerkontenebene auszuwerten. Beispielsweise können Sie damit Aktionen wie Öffnen, Erstellen, Aktualisieren, Aufheben der Freigabe und Löschen in Analysis Workspace verfolgen. Das bietet einen besseren Überblick darüber, wer Workspace wie häufig nutzt.
 
@@ -89,4 +89,3 @@ Unter anderem kann mit den folgenden Tools eine Report Suite außerhalb der [!UI
 | IP | Filtern Sie das Protokoll nach der IP-Adresse. |
 | Ereignis- | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
 | Bericht herunterladen | Exportiert den Inhalt des [!UICONTROL Nutzungs- und Zugriffsprotokolls] in eine durch Tabulatoren getrennte Datei. |
-
