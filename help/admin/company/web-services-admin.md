@@ -1,16 +1,16 @@
 ---
 description: Die Web Services APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
 title: Web-Services
-topic: Admin tools
+feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
+exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
-
 
 # Web-Services
 
