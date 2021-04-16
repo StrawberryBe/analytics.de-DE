@@ -1,16 +1,16 @@
 ---
 description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen von metrischen Dimensionen, Segmenten und Ereignissen für das Segmentieren von Besuchern auf der Grundlage von Behälterhierarchielogik, Regeln und Operatoren. Mit diesem integrierten Entwicklungstool können Sie einfache oder komplexe Segmente erstellen und speichern, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden.
 title: Segmente erstellen
-topic: Segmente
+feature: Segmente
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 100%
 
 ---
-
 
 # Segmentaufbau
 
@@ -244,4 +244,3 @@ Vorlagen werden mit dem Adobe-Logo „A“ gekennzeichnet. Nachfolgend sind eini
   </tr> 
  </tbody> 
 </table>
-
