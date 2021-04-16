@@ -2,16 +2,16 @@
 description: Mit Verarbeitungsregeln können Sie Änderungen an den Daten auf der Grundlage definierter Bedingungen vornehmen. Wenn Attribute oder Werte definierten Bedingungen entsprechen, können Werte festgelegt und gelöscht sowie Ereignisse festgelegt werden.
 subtopic: Processing rules
 title: Funktionsweise von Verarbeitungsregeln
-topic: Admin tools
+feature: Admin Tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '692'
 ht-degree: 100%
 
 ---
-
 
 # Funktionsweise von Verarbeitungsregeln
 
@@ -94,7 +94,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
  </tbody> 
 </table>
 
-## Bedingungen für Verarbeitungsregeln   {#section_387390EEE9BA4DA98698522A84326DB4}
+## Bedingungen für Verarbeitungsregeln  {#section_387390EEE9BA4DA98698522A84326DB4}
 
 Mit Bedingungen werden Seitenvariablen darauf überprüft, ob ein Wert vorhanden ist oder übereinstimmt. Sie können mehrere Bedingungen hinzufügen, und es kann festgelegt werden, ob sämtliche Bedingungen erfüllt werden müssen.
 
