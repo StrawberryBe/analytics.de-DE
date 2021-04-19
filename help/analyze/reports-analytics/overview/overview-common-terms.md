@@ -2,16 +2,16 @@
 description: Eine Einführung in häufig gebrauchte Webanalysebegriffe, die in Marketingberichten verwendet werden
 title: Häufig verwendete Begriffe
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Berichte,Reports and Analytics
-role: Geschäftspraktiker, Administrator
+feature: Grundlagen zu Reports & Analysen, Reports & Analysen
+role: Business Practitioner, Administrator
+exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 99%
 
 ---
-
 
 # Häufig verwendete Begriffe
 
@@ -51,7 +51,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p> Unique Visitor </p> </td> 
-   <td> <p>„Unique Visitor“-Berichte enthalten die Anzahl verschiedener Benutzer, die Ihre Seite in einem bestimmten Zeitraum besucht haben. Es gibt sechs verschiedene Berichte zu Unique Visitors: </p> 
+   <td> <p>Unique-Visitor-Berichte enthalten die Anzahl verschiedener Benutzer, die Ihre Seite in einem bestimmten Zeitraum besucht haben. Es gibt sechs verschiedene Unique-Visitor-Berichte: </p> 
     <ul id="ul_863B8DE8B9E74DE4A93C2C2931EEFB6D"> 
      <li id="li_21C835B71EF64B4DA821B674416C8B85">Stündlich </li> 
      <li id="li_36A498AE7D7A455C8DEB3AA0F025B597">Täglich </li> 
@@ -59,7 +59,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
      <li id="li_09263F6B1E114A8DB477793B560A0417">Monatlich </li> 
      <li id="li_A0B2CA3D44564045B02B55AF6E392F76">Quartalsweise </li> 
      <li id="li_296BC5B02921460690F35128B1192800">Jährlich </li> 
-    </ul> <p>Auch wenn der Besucher Ihre Website während eines bestimmten Zeitraums mehrere Male aufsucht und mehrere Seiten anzeigt, zeichnet der Bericht „Unique Visitors“ diese Person als Unique Visitor auf. </p> <p> <b>Besucher-Deduplizierung</b>: Bei der Datenkollektion werden Besucher anhand des Berichttitels unabhängig von der Kalenderauswahl dedupliziert. Zum Beispiel wird ein Besucher, der die Seite an vier unterschiedlichen Tagen in der Woche besucht, im <span class="wintitle">Bericht „Unique Visitors pro Woche“</span> nur einmal gezählt. In einem <span class="wintitle">Bericht „Unique Visitors pro Tag“</span> für diese Woche wird der gleiche Benutzer vier Mal erfasst. </p> </td> 
+    </ul> <p>Auch wenn der Besucher Ihre Website während eines bestimmten Zeitraums mehrere Male aufsucht und mehrere Seiten anzeigt, zeichnet der Unique-Visitor-Bericht diese Person als Unique Visitor auf. </p> <p> <b>Besucher-Deduplizierung</b>: Bei der Datenkollektion werden Besucher anhand des Berichttitels unabhängig von der Kalenderauswahl dedupliziert. Zum Beispiel wird ein Besucher, der die Seite an vier unterschiedlichen Tagen in der Woche besucht, im <span class="wintitle">Bericht „Unique Visitors pro Woche“</span> nur einmal gezählt. In einem <span class="wintitle">Bericht „Unique Visitors pro Tag“</span> für diese Woche wird der gleiche Benutzer vier Mal erfasst. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Konversions-(Erfolgs-)Ereignisse </p> </td> 
@@ -71,4 +71,3 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
  </tbody> 
 </table>
-
