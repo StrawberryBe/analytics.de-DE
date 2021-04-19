@@ -3,15 +3,15 @@ description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, 
 title: Filtern von Berichtsdaten
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 99%
 
 ---
-
 
 # Berichtsdaten filtern {#concept_09DC5B986A644738B12204DAC76A90E1}
 
