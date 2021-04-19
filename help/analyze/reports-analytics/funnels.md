@@ -3,15 +3,15 @@ description: In der Regel wird die Konversion zwischen Start-, End- und Meilenst
 title: Konversionstrichter
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 98%
 
 ---
-
 
 # Konversionstrichter
 
@@ -36,4 +36,3 @@ Die Berichttabelle zeigt Statistiken zu durchschnittlichen Verkäufen pro Clickt
 >[!NOTE]
 >
 >Instanzen entsprechen im Kontext dieser Berichte der Gesamtzahl der Besuche, bei denen eVar oder ein Ereignis definiert wurde.
-
