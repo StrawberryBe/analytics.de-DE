@@ -2,10 +2,10 @@
 description: Wenn Sie die Arbeit mit dem Segmentaufbau in Ad Hoc Analysis gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
 keywords: Segmentierung;Segmente
 title: Übergangsleitfaden für Ad Hoc Analysis
-feature: Segmente
+feature: Segmentierung
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
