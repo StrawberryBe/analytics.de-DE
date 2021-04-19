@@ -3,15 +3,15 @@ description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Be
 title: Metriken
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 98%
 
 ---
-
 
 # Metriken
 
@@ -47,4 +47,3 @@ t_metrics_set_default.xml
 * Wenn Sie sich zwischen Berichten bewegen, bleiben die Metriken erhalten, die im zuletzt betrachteten Bericht angezeigt wurden. Um Standardmetriken in diesem neuen Bericht anzuzeigen, klicken Sie auf die Dropdownliste [!UICONTROL „Metriken hinzufügen“] und anschließend auf [!UICONTROL „Standardwerte anzeigen“].
 
 * Wenn Sie auf [!UICONTROL „Standardwerte löschen“] klicken, werden die Standardmetriken für diesen Bericht entfernt und auf die ursprünglichen Standardmetriken für den betreffenden Bericht zurückgesetzt ([!UICONTROL „Seitenansichten“] für Props und für die in den Admin Tools festgelegten Einstellungen für eVars).
-
