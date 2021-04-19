@@ -3,15 +3,15 @@ description: Eine Einführung in die Funktionen eines Berichts, einschließlich 
 title: Berichtsfunktionen
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '333'
 ht-degree: 98%
 
 ---
-
 
 # Berichtsfunktionen
 
