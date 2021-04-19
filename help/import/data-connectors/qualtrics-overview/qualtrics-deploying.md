@@ -33,12 +33,11 @@ Zum Aktivieren der Integration müssen Sie den Qualtrics-Integrationsassistenten
    | Adobe SiteCatalyst-Token | [Generieren Ihres Qualtrics-Adobe Analytics-Tokens](../qualtrics-overview/qualtrics-token.md) |
 
 1. **Assistent: Schritt 2: Variablenzuordnungen**
-| Qualtrics Response List | Wählen Sie eine verfügbare Listenvariable aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  |
-|---|---|
-| Qualtrics Response ID | Wählen Sie eine verfügbare eVar oder Eigenschaft aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)   |
-| Tracking-Server | Geben Sie die Einstellung des Tracking-Servers (Domäne) an, mit der Sie Adobe Analytics-Daten verfolgen. Verwenden Sie die Variable 
-`trackingServerSecure` Tracking-Server, wenn er sich von Ihrer standardmäßigen Tracking-Server-Einstellung unterscheidet.   |
-| Qualtrics Survey Submissions | Wählen Sie ein verfügbares Ereignis aus Ihrer Report Suite aus (unter Umständen müssen Sie ein neues Ereignis im Report Suite Manager aktivieren). |
+   | Qualtrics Response List | Wählen Sie eine verfügbare Listenvariable aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  |
+   |---|---|
+   | Qualtrics Response ID | Wählen Sie eine verfügbare eVar oder Eigenschaft aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)   |
+   | Tracking-Server | Geben Sie die Einstellung des Tracking-Servers (Domäne) an, mit der Sie Adobe Analytics-Daten verfolgen. Verwenden Sie die Variable `trackingServerSecure` Tracking-Server, wenn er sich von Ihrer standardmäßigen Tracking-Server-Einstellung unterscheidet.   |
+   | Qualtrics Survey Submissions | Wählen Sie ein verfügbares Ereignis aus Ihrer Report Suite aus (unter Umständen müssen Sie ein neues Ereignis im Report Suite Manager aktivieren). |
 
 1. **Assistent Schritt 3**: Nicht erforderlich, nur informativ.
 
