@@ -2,15 +2,15 @@
 description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 title: Erste Schritte mit Reports and Analytics
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 99%
 
 ---
-
 
 # Erste Schritte mit Reports &amp; Analytics
 
@@ -19,7 +19,7 @@ Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Sch
 Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Einige Beispiele für Berichte:
 
 * Wie viele Personen Ihre Website besuchen
-* Wie viele dieser Besucher Unique Visitors sind (d. h. nur einmal gezählt werden)
+* Wie viele dieser Besucher Unique Visitors darstellen (d. h. nur ein Mal gezählt werden)
 * Wie diese zu Ihrer Site gelangten (ob sie einem Link folgen oder Ihre Site direkt aufrufen)
 * Welche Keywords die Besucher zum Browsen des Site-Inhalts einsetzen
 * Wie lange sie auf einer bestimmten Seite oder der gesamten Website verweilen
