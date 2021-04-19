@@ -2,16 +2,16 @@
 description: Segmente sind benutzerspezifische Teildatensätze oder Daten, die durch eigens erstellte Regeln gefiltert wurden. Segmente basieren auf Hits, Besuchen und Besuchern.
 title: Analytics-Segmentierung
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
-feature: Berichte
-role: Geschäftspraktiker, Administrator
+feature: Grundlagen zu Reports & Analysen
+role: Business Practitioner, Administrator
+exl-id: 021cd591-4e87-4351-bfee-9e3cc79a6a45
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '73'
 ht-degree: 95%
 
 ---
-
 
 # Analytics-Segmentierung {#analytics-segmentation}
 
