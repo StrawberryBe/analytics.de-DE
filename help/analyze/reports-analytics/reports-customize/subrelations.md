@@ -3,15 +3,15 @@ description: Vollständige Subrelationen sind für alle Konversionsberichte akti
 title: Subrelationen
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # Subrelationen
 
@@ -56,4 +56,3 @@ Zusammenfassend führen Subrelationen folgende Schritte aus, um den Bericht zu e
 * Isolieren der Bildanforderungen, die die Erfolgsereignisse beinhalten, die Sie im Bericht anzeigen.
 * Ausgeben der beibehaltenen Werte aller in der Subrelation verwendeten Konversionsvariablen.
 * Organisieren der Werte basierend auf der Reihenfolge der Subrelation. Wenn eine Variable keinen fortbestehenden Wert enthält (wenn beispielsweise eine eVar nie definiert wurde oder abgelaufen ist), wird sie unter „Keine“ gespeichert.
-
