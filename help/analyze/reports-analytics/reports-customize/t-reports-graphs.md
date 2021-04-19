@@ -3,15 +3,15 @@ description: In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpas
 title: Berichtsdiagramme ändern
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # Berichtsdiagramme ändern
 
@@ -68,4 +68,3 @@ Die verfügbaren Diagrammtypen sind vom Berichtstyp abhängig, den Sie ausführe
    **[!UICONTROL Punkt]**: Das Punktdiagramm enthält eine Streuungsanzeige der Metriken, die Sie im Verhältnis zueinander auswählen. Die Position der Punkte zeigt den Bezug der Metriken zueinander auf der horizontalen und vertikalen Achse, und die Größe der Punkte stellt die wichtigste Berichtsmetrik dar. Punktdiagramme ermöglichen Ihnen die Visualisierung von Daten in zwei Dimensionen, sodass Sie erkennen können, bei welchen Elementen es sich um Ausreißer handelt.
 
    ![](assets/graph_bubble.png)
-
