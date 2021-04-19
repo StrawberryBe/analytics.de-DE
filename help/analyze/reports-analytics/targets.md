@@ -3,15 +3,15 @@ description: Mithilfe von Zielen können Sie die Leistung Ihrer Website messen u
 title: 'Ziele '
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Grundlagen zu Reports & Analysen
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 99%
 
 ---
-
 
 # Zielgruppen
 
