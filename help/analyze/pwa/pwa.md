@@ -4,10 +4,10 @@ description: Progressive Web-Apps für Adobe Analytics
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
+source-git-commit: 3f3a9b7f81ce671a94b7fe71c3ef7e4ae206b875
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 88%
+source-wordcount: '290'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ Auf dieser Seite wird die Verwendung von Adobe Analytics mit progressiven Web-Ap
 
 PWAs können eine native App-Erfahrung sowie Offline-Funktionen für eine Website bereitstellen. Normalerweise umfassen PWAs einen Service Worker, Lösungen zum Zwischenspeichern und eine Manifestdatei. Dies alles kann zu schnelleren Ladezeiten, einfacherer Navigation und responsiverem Verhalten beitragen.
 
-Adobe Analytics funktioniert genauso nahtlos mit PWAs wie mit herkömmlichen Websites. Obwohl PWAs einige zusätzliche Anforderungen haben, um sich progressiv zu verhalten, sind sie im Hinblick auf die Datenerfassung und Berichterstellung durch Adobe Analytics mit den gleichen Hindernissen oder Einschränkungen wie herkömmliche Websites verbunden. Da Analytics bereits Offline-Tracking-Funktionen enthält, können Sie mit PWAs diese integrierte Funktion einfacher als mit herkömmlichen Websites nutzen.
+Adobe Analytics arbeitet genauso nahtlos mit PWA wie mit herkömmlichen Websites. Obwohl PWAs einige zusätzliche Anforderungen haben, um sich progressiv zu verhalten, sind sie im Hinblick auf die Datenerfassung und Berichterstellung durch Adobe Analytics mit den gleichen Hindernissen oder Einschränkungen wie herkömmliche Websites verbunden. Da Analytics bereits Offline-Tracking-Funktionen enthält, können Sie mit PWAs diese integrierte Funktion einfacher als mit herkömmlichen Websites nutzen.
 
 ## PWA-Analytics-Daten abrufen
 
@@ -51,4 +51,4 @@ Weitere Informationen zum Bearbeiten der Datei AppMeasurement.js finden Sie unte
 
 Weitere Informationen zum Konfigurieren der Datei AppMeasurement.js finden Sie unter [Übersicht über Konfigurationsvariablen](/help/implement/vars/config-vars/configuration-variables.md) und die einzelnen variablenspezifischen Seiten im selben Unterkapitel.
 
-Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie in der [Übersicht über die Javascript-Implementierung](/help/implement/js/overview.md).
+Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie unter [Übersicht über die JavaScript-Implementierung](/help/implement/js/overview.md).
