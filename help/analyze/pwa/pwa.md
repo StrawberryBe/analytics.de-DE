@@ -1,15 +1,15 @@
 ---
 title: PWAs für Analytics
 description: Progressive Web-Apps für Adobe Analytics
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '291'
+ht-degree: 88%
 
 ---
-
 
 # PWAs für Adobe Analytics
 
@@ -27,7 +27,7 @@ Zur Erfassung und Analyse Ihrer PWA-Daten mit [!UICONTROL Analytics] müssen Sie
 
 ## Offline-Tracking zur Erhöhung der PWA-Effektivität hinzufügen
 
-Sie können die Effektivität Ihrer PWA steigern, indem Sie die Adobe Analytics-Funktionen für [Offline-Tracking](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/functions/forceoffline.html) verwenden. Standardmäßig ist diese Funktion deaktiviert. Sie können der Datei AppMeasurement.js jedoch die folgende Eigenschaft hinzufügen, um sie zu aktivieren: `s.trackOffline=true;`.
+Sie können die Effektivität Ihrer PWA steigern, indem Sie die Adobe Analytics-Funktionen für [Offline-Tracking](/help/implement/vars/config-vars/trackoffline.md) verwenden. Standardmäßig ist diese Funktion deaktiviert. Sie können der Datei AppMeasurement.js jedoch die folgende Eigenschaft hinzufügen, um sie zu aktivieren: `s.trackOffline=true;`.
 
 In der folgenden Datei AppMeasurement.js wurde die Eigenschaft beispielsweise am Ende des Abschnitts `CONFIG SECTION` hinzugefügt:
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-Weitere Informationen zum Bearbeiten der Datei AppMeasurement.js finden Sie unter [Einfügen von Code in die Datei AppMeasurement.js](https://docs.adobe.com/content/help/de-DE/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html).
+Weitere Informationen zum Bearbeiten der Datei AppMeasurement.js finden Sie unter [Kern-AppMeasurement-Code einfügen](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md).
 
-Beispiele für Konfigurationen in der Datei AppMeasurement.js finden Sie unter [Konfigurieren der Datei AppMeasurement.js](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html#section_042412C29CC249E298F19B2BC2F43CE7).
+Weitere Informationen zum Konfigurieren der Datei AppMeasurement.js finden Sie unter [Übersicht über Konfigurationsvariablen](/help/implement/vars/config-vars/configuration-variables.md) und die einzelnen variablenspezifischen Seiten im selben Unterkapitel.
 
-Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie in der [Übersicht über die Javascript-Implementierung](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/migrate-from-hcode.html).
+Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie in der [Übersicht über die Javascript-Implementierung](/help/implement/js/overview.md).
