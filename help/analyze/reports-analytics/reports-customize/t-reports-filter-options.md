@@ -2,7 +2,7 @@
 description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
 title: Filtern von Berichtsdaten
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt

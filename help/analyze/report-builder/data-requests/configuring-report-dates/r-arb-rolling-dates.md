@@ -3,7 +3,7 @@ description: Felddefinitionen für rollierende Datumswerte in Report Builder
 title: Definitionen im Anforderungs-Assistenten – Rollierende Datumswerte
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Alle Top-Vergleichstabellen zeigen einen Differenzwert, der anhand verschiedener statistischer Tests berechnet wird, die von dem durchgeführten Vergleich abhängen. Unabhängig davon, welcher Test verwendet wird, wird der Differenzwert immer als Wert zwischen 0 und 1 angegeben.
 keywords: Analysis Workspace;Segment IQ
 title: Im Segmentvergleich verwendete statistische Tests
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 role: Business Practitioner, Administrator
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03

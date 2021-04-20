@@ -2,8 +2,8 @@
 description: Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die in Analysis Workspace verfügbar sind.
 keywords: Analysis Workspace
 title: Hotkeys (Tastaturbefehle)
-feature: Grundlagen zu Workspace
-role: Geschäftspraktiker, Administrator
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

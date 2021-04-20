@@ -3,7 +3,7 @@ description: Adobe Analytics-Inhaltspakete bieten vorgefertigte Power BI-Dashbo
 title: Adobe Analytics-Inhaltspakete für Power BI
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

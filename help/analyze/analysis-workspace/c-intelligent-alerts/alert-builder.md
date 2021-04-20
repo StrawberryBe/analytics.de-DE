@@ -2,8 +2,8 @@
 description: Lassen Sie sich Warnhinweise anzeigen, wenn Projektkomponenten bestimmte Schwellenwerte erreichen.
 title: Warnhinweiserstellung
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI-Tools
-role: Geschäftspraktiker, Administrator
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

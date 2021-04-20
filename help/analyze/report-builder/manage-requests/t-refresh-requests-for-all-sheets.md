@@ -3,7 +3,7 @@ description: Sie können Anforderungen in allen Arbeitsblättern oder mehrere An
 title: Anforderungen für alle Arbeitsblätter aktualisieren
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

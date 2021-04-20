@@ -2,7 +2,7 @@
 description: Virtual Report Suites und Multisuite-Tagging bieten unterschiedliche Vorteile. Erfahren Sie, welche die beste Lösung für Ihr Unternehmen ist.
 keywords: Virtual Report Suite, VRS
 title: Virtual Report Suites und Multisuite-Tagging
-feature: Report Suite-Einstellungen
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Sie können auch den Basisberichtstyp für Ihre Datenanforderung au
 title: Übersicht über Berichtstypen
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

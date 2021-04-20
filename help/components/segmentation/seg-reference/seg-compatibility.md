@@ -1,7 +1,7 @@
 ---
 description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
 title: Data Warehouse-Segmentkompatibilität
-feature: Segmentierung
+feature: Segmentation
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 translation-type: tm+mt

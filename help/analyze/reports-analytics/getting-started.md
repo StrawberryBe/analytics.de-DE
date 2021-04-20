@@ -1,7 +1,7 @@
 ---
 description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 title: Erste Schritte mit Reports and Analytics
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt

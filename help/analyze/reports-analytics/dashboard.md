@@ -3,7 +3,7 @@ description: Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, d
 subtopic: Dashboards
 title: Dashboards und Kurzberichte
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

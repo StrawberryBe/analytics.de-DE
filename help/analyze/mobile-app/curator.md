@@ -1,8 +1,8 @@
 ---
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
-feature: Analytics-Dashboard
-role: Geschäftspraktiker, Administrator
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

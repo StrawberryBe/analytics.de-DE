@@ -2,7 +2,7 @@
 description: Die Datenextraktion ermöglicht die Auswahl der Parameter, die auf der X- und Y-Achse des Berichts angezeigt werden, sowie des Objekts, nach dem der Bericht gefiltert wird.
 subtopic: Schedule
 title: Datenextraktion
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt

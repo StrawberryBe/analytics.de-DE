@@ -2,7 +2,7 @@
 title: Best Practices und Fehlerbehebung für das Reporting
 description: Best Practices und Tipps zur Fehlerbehebung beim Generieren von Berichten.
 keywords: Best Practices, Fehler, Timeout, Fehlerbehebung, langsam
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

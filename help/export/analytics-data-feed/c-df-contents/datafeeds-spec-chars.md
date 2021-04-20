@@ -3,7 +3,7 @@ description: Informationen zu Sonderzeichen, die im Daten-Feed verwendet werden.
 keywords: Datenfeed;Auftrag;Sonderzeichen;hit_data;Variablen mit mehreren Werten;Ereignis_Liste;products_Liste;mvvars
 subtopic: data feeds
 title: Sonderzeichen in Daten-Feeds
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt

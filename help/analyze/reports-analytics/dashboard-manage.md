@@ -3,7 +3,7 @@ description: Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigebe
 subtopic: Dashboards
 title: Dashboard-Manager
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 translation-type: tm+mt

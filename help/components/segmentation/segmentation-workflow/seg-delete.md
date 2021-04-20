@@ -1,7 +1,7 @@
 ---
 description: Führt einige Überlegungen auf, die Sie vor dem Löschen von Segmenten anstellen sollten.
 title: Segmente löschen
-feature: Segmentierung
+feature: Segmentation
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
 translation-type: tm+mt

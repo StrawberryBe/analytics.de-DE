@@ -3,7 +3,7 @@ description: Tabellendaten, die die Spalten im Daten-Feed beschreiben.
 keywords: Daten-Feed;Spalten
 subtopic: data feeds
 title: Datenspaltenreferenz
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt

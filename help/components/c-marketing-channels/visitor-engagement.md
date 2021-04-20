@@ -2,7 +2,7 @@
 description: Erfahren Sie, wie Sie den Besucherinteraktionsablauf in Marketing-Kanälen festlegen.
 subtopic: Marketing channels
 title: Marketing-Kanalablauf
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt

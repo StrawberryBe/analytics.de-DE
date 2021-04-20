@@ -2,8 +2,8 @@
 description: Verwenden Sie die Flussvisualisierung in einem Workspace-Projekt.
 title: Flussvisualisierung konfigurieren
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-feature: Visualisierungen
-role: Geschäftspraktiker, Administrator
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 description: Dateninkonsistenzen können große Probleme verursachen. Hier erfahren Sie, wie Sie statistische Anomalien mit Anomalieerkennungstechniken von Adobe identifizieren können. Fangen Sie noch heute an.
 title: In der Anomalieerkennung verwendete statistische Verfahren
-feature: AI-Tools
-role: Geschäftspraktiker, Administrator
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

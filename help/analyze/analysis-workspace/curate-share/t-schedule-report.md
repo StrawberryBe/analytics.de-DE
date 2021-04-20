@@ -2,8 +2,8 @@
 description: Versenden Sie ein Projekt aus Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
 keywords: Analysis Workspace
 title: Planen von Projekten
-feature: Kuratieren und freigeben
-role: Geschäftspraktiker, Administrator
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

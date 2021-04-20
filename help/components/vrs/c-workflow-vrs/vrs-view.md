@@ -2,7 +2,7 @@
 description: Klicken Sie auf das Symbol „i“ (Info) neben dem Namen der Report Suite, um die zugehörigen Informationen anzuzeigen.
 keywords: Virtual Report Suite
 title: Informationen zu Virtual Report Suites anzeigen
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 description: Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. Damit soll dem Benutzer geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysieren viel schneller zu identifizieren.
 title: In der Beitragsanalyse verwendete statistische Verfahren
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI-Tools
-role: Geschäftspraktiker, Administrator
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

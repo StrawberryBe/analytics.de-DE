@@ -3,7 +3,7 @@ description: Wenn Sie eine Arbeitsmappe bearbeiten und Platz für neue Anforderu
 title: Ausgabezuordnung löschen
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Bei einer Zeitunterteilung wird der Zeitstempel erfasster Hits in aussagekräftigere Dimensionen wie „Stunde des Tages“ oder „Tag der Woche“ unterteilt.
 title: Dimensionen für die Zeitunterteilung
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Grundlagen zu Workspace
-role: Geschäftspraktiker, Administrator
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 'Schritte zum Erstellen einer Anomalieerkennungsanforderung in Repo
 title: Konfigurieren einer Anomalieerkennungsanforderung
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

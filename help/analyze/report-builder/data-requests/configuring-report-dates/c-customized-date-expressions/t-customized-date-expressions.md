@@ -3,7 +3,7 @@ description: Sie können einen komplexen Datumsbereich festlegen, indem Sie eine
 title: Benutzerdefinierte Datumsausdrücke – Übersicht
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

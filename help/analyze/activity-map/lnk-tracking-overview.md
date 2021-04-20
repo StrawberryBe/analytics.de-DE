@@ -3,7 +3,7 @@ description: 'Activity Map verfolgt Links mit einem stabileren Algorithmus, der 
 title: Zuverlässiges Linktracking
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 feature: Activity Map
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

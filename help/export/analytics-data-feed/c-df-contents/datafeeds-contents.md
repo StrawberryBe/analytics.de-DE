@@ -3,7 +3,7 @@ description: In diesem Abschnitt werden die Dateien beschrieben, die in einer Da
 keywords: Datenfeed;Auftrag;Inhalt;Manifest;Datei;Suche;Trefferdaten;Versand-Inhalt
 subtopic: data feeds
 title: Daten-Feed-Inhalte – Übersicht
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt

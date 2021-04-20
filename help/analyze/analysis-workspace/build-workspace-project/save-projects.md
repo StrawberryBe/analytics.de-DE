@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie mehr über die verschiedenen Speicheroptionen, einschließlich automatisches Speichern, Speichern unter, Speichern als Vorlage und Öffnen früherer Versionen.
 title: Projekte speichern
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 title: Metriken
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt

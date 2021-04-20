@@ -2,7 +2,7 @@
 description: Eine Einführung in die Funktionen eines Berichts, einschließlich der Symbolleiste, des Kalenders und der Detailtabelle
 title: Berichtsfunktionen
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt

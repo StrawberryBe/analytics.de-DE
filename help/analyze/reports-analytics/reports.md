@@ -1,7 +1,7 @@
 ---
 title: Berichte
 description: Die Dimensionen und Metriken, die Reports & Analytics für die einzelnen Berichte verwendet.
-feature: Berichte & Analytics-Grundlagen und Analytics-Grundlagen
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt

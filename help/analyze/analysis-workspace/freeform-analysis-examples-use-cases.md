@@ -2,7 +2,7 @@
 description: Beispiele zur Verwendung von Datentabellen und Segmenten sowie exemplarische Anwendungsfälle für Analysis Workspace.
 keywords: Analysis Workspace
 title: Anwendungsfälle von Analysis Workspace
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

@@ -2,8 +2,8 @@
 description: Sie können PDF/CSV-Projekte für Empfänger in Ihrer Organisation kuratieren, freigeben und planen.
 title: Menü „Freigeben“
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: Kuratieren und freigeben
-role: Geschäftspraktiker, Administrator
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

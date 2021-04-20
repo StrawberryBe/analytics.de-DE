@@ -1,8 +1,8 @@
 ---
 description: Quick Insights ist ein Tool für neue Workspace-Benutzer, das diese beim Erstellen von Datentabellen und Visualisierungen unterstützt.
 title: Bedienfeld „Quick Insights“
-feature: Bedienfelder
-role: Geschäftspraktiker, Administrator
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

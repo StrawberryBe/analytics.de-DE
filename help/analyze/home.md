@@ -1,8 +1,8 @@
 ---
 title: Leitfaden für Analytics-Tools
 description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Adobe Analytics-Dashboards, Activity Map, Report Builder, Reporting-API und Reports & Analytics.
-feature: Grundlagen zu Workspace
-role: Geschäftspraktiker, Administrator
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Schritte für die Installation von Report Builder.
 title: Report Builder installieren
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

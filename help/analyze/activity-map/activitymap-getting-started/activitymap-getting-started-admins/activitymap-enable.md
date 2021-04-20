@@ -3,7 +3,7 @@ description: Erläutert die Schritte, die der Analytics-Administrator ausführen
 title: Activity Map aktivieren
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

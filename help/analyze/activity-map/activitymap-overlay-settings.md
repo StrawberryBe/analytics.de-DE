@@ -3,7 +3,7 @@ description: Das Activity Map-Einstellungsbedienfeld ermöglicht es Ihnen, die E
 title: Activity Map-Einstellungen konfigurieren
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

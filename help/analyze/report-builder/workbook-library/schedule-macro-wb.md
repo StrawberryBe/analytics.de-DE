@@ -3,7 +3,7 @@ description: Adobe Report Builder unterstützt das .xlsm-Format, mit dem Sie ein
 title: Arbeitsmappen mit Makros planen
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

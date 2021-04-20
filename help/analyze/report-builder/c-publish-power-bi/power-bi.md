@@ -3,7 +3,7 @@ description: Verwenden Sie Report Builder mit Microsoft Power BI.
 title: In Power BI veröffentlichen – Übersicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

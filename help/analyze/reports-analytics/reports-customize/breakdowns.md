@@ -2,7 +2,7 @@
 description: Verwenden Sie Aufschlüsselungen, wenn Sie weitere Informationen darüber erhalten möchten, wie ein Berichtselement oder -segment mit anderen Berichten zusammenhängt. Dies wird oftmals als „Aufschlüsselung“ eines Berichts durch einen anderen Bericht bezeichnet.
 title: Aufschlüsselung
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt

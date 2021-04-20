@@ -3,7 +3,7 @@ description: Im benutzerdefinierten Layout können Sie eine Metrik-Spalte in ein
 title: Microchart erstellen
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 'Die Activity Map-Benutzeroberfläche besteht aus zwei Teilen '
 title: Activity Map-Benutzeroberfläche
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

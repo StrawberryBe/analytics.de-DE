@@ -2,7 +2,7 @@
 description: Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
 keywords: Datenfeed;Seite;Ereignis;page_Ereignis;post_page_Ereignis
 title: Seitenereignissuche
-feature: Grundlagen zu Reports & Analysen
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt

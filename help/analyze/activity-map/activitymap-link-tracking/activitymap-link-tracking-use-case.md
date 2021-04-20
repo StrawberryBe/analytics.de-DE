@@ -3,7 +3,7 @@ description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mith
 title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 'Im Dialogfeld „Anforderungs-Assistent: Schritt 2“ können Sie 
 title: Übersicht über Metriken und Dimensionen
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

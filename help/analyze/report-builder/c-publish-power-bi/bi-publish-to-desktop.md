@@ -3,7 +3,7 @@ description: Erläutert, wie in Report Builder veröffentlichte Assets in Power�
 title: Veröffentlichte Assets in Power BI Desktop abrufen
 uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

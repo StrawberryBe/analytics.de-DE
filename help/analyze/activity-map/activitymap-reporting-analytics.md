@@ -3,7 +3,7 @@ description: Beschreibt, wie Berechtigungen festgelegt werden und welche Abmessu
 title: Activity Map – Berichterstattung in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

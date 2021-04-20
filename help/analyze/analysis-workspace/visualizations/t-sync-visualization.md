@@ -2,8 +2,8 @@
 description: Beim Synchronisieren von Visualisierungen können Sie kontrollieren, welche Datentabelle oder Datenquelle zu einer Visualisierung gehört.
 keywords: Analysis Workspace;Synchronisieren der Visualisierung mit der Datenquelle
 title: Data Sources verwalten
-feature: Visualisierungen
-role: Geschäftspraktiker, Administrator
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

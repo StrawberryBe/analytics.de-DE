@@ -1,7 +1,7 @@
 ---
 description: So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Bericht an.
 title: Segmente auswählen und anwenden
-feature: Segmentierung
+feature: Segmentation
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt

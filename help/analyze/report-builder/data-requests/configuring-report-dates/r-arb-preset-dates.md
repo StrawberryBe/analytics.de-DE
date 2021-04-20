@@ -3,7 +3,7 @@ description: 'Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie
 title: Definitionen im Anforderungs-Assistenten – Vordefinierte Datumswerte
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
-role: Geschäftspraktiker, Administrator
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
