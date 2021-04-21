@@ -2,14 +2,14 @@
 description: Einführung in die iPad-Anwendung.
 title: Adobe Analytics für iOS
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grundlagen zu Reports & Analysen
 role: Business Practitioner, Administrator
 exl-id: 04643de2-793f-403b-ba2f-807453efc2fe
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 95%
+source-wordcount: '110'
+ht-degree: 97%
 
 ---
 
