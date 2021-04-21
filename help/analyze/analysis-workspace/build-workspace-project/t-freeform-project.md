@@ -2,12 +2,12 @@
 description: Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
 keywords: Analysis Workspace
 title: Workspace-Projekt erstellen
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grundlagen zu Reports & Analysen
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '756'
 ht-degree: 99%
 
 ---
