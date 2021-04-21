@@ -2,13 +2,13 @@
 description: Mithilfe von Zielen können Sie die Leistung Ihrer Website messen und den Fortschritt bei der Erreichung Ihrer Zielsetzungen verfolgen. So möchten Sie beispielsweise die Anzahl der Besucher aus einer bestimmten Region oder den Umsatz pro Bestellung steigern oder die Anzahl der Treffer von einer bestimmten verweisenden Stelle erhöhen.
 title: 'Ziele '
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grundlagen zu Reports & Analysen
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 99%
 
 ---
