@@ -6,10 +6,10 @@ feature: Grundlagen zu Reports & Analysen
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 3926f1e451c8d100387745a125bb82b2e850de01
+source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 88%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Beschreibungen der Felder und Optionen auf der Seite [!UICONTROL Zielgruppe hinz
 | [!UICONTROL Element auswählen] | Zeigt das Auswahlformular für das ausgewählte Attribut bzw. die ausgewählte eVar an, damit Sie eine [!UICONTROL Erweiterte] Suche nach verwandten Elementen durchführen können. Wenn Sie beispielsweise die eVar [!UICONTROL Countries] auswählen, können Sie in der Elementliste das betreffende Land angeben. Wenn Sie die eVar [!UICONTROL Products] auswählen, können Sie in der Elementliste das betreffende Produkt angeben. Custom Insight-Variablen werden ebenfalls im Menü aufgeführt. Wenn Sie z. B. eine Custom Insight-Variable eingerichtet haben, die das Alter Ihrer Besucher misst, zeigt die Elementliste die Altersgruppen an, z. B. 18-24, 25-35 usw. |
 | [!UICONTROL Metrik] | Ermöglicht die Übernahme des Ziels für eine Metrik. In diesem Menü werden nur die Metriken angezeigt, die für eine bestimmte eVar übernommen werden können. Wenn Sie beispielsweise [!UICONTROL Products] als eVar auswählen, können Metriken wie z. B. [!UICONTROL Seitenausstiege] nicht für diese eVar übernommen werden. Die Metrik [!UICONTROL Seitenausstiege] kann für eine Webseiten-eVar übernommen werden. |
 | [!UICONTROL Zeitraum] | Ermöglicht Ihnen die Definition des [!UICONTROL Datumsbereichs] und der Einstellungen für die [!UICONTROL Granularität] des Ziels. Je nach gewähltem Datumsbereich stehen bestimmte Granularitätsoptionen nicht zur Verfügung. Wenn Sie Werte für Ihre Metriken eingeben, legen Sie einen Wert für die     Granularitätseinstellung fest. Wenn Ihr Datumsbereich z. B. den Monat Februar erfasst und Ihre Granularität wöchentlich ist, geben Sie für jede Woche des Monats Februar einen Wert ein. [!UICONTROL Zielberichte werden für die einzelnen Granularitätswerte angezeigt.] |
-| [!UICONTROL Werte] | Ermöglicht die Eingabe der Zielwerte für den Zeitraum und die ausgewählte Metrik. Dieser Wert entspricht den Zielwerten, die Sie zu erreichen versuchen. Wenn das Ziel beispielsweise auf Umsätzen basiert und Sie für einen bestimmten Monat einen Zielumsatz von 10.000 Euro definiert haben, müssen Sie in das Wertefeld für den betreffenden Monat 10.000 eingeben. |
+| [!UICONTROL Werte] | Ermöglicht die Eingabe der Zielwerte für den Zeitraum und die ausgewählte Metrik. Diese Werte sind die Zielgruppen, auf die Sie zugreifen möchten. Wenn das Ziel beispielsweise auf Umsätzen basiert und Sie für einen bestimmten Monat einen Zielumsatz von 10.000 Euro definiert haben, müssen Sie in das Wertefeld für den betreffenden Monat 10.000 eingeben. |
 
 ## hinzufügen einer [!UICONTROL Zielgruppe] {#task_94915391E26E4F808F2538AA92BC7E71}
 
