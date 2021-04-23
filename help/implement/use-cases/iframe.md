@@ -1,14 +1,14 @@
 ---
 title: AppMeasurement mit iframes verwenden
 description: Greifen Sie auf Adobe Analytics-Variablen innerhalb eines iFrame oder einer übergeordneten Seite zu, während Sie sich in einem iframe befinden.
+exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 translation-type: tm+mt
-source-git-commit: 355985a6baa1a1112e75446012be72f5c0a1d0c2
+source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 6%
 
 ---
-
 
 # AppMeasurement mit iframes verwenden
 
@@ -16,8 +16,9 @@ Sie können AppMeasurement-Variablen sowohl von untergeordneten als auch von üb
 
 Wenn Sie Adobe Experience Platform Launch verwenden, stellen Sie sicher, dass das Trackerobjekt global verfügbar ist. Siehe [Übersicht über die Adobe Analytics-Erweiterung](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) im Benutzerhandbuch zum Starten.
 
->!![CAUTION]
-Vermeiden Sie, AppMeasurement-Bibliotheken sowohl auf einer übergeordneten Seite als auch auf einem iframe zu verwenden. Dadurch entstehen Risiken beim Senden mehrerer Bildanforderungen, wodurch die Anzahl der Berichte steigt und die Anzahl der gebührenpflichtigen Serveraufrufe steigt.
+>[!CAUTION]
+>
+>Vermeiden Sie, AppMeasurement-Bibliotheken sowohl auf einer übergeordneten Seite als auch auf einem iframe zu verwenden. Dadurch entstehen Risiken beim Senden mehrerer Bildanforderungen, wodurch die Anzahl der Berichte steigt und die Anzahl der gebührenpflichtigen Serveraufrufe steigt.
 
 ## Zugriff auf AppMeasurement, das sich in einem iframe befindet
 
@@ -65,5 +66,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Wie bei anderen JavaScript-Codes können iframes nur dann kommunizieren, wenn Domänen und Protokolle übereinstimmen. Diese Beispiele funktionieren nicht, wenn sich der iframe-Inhalt in einer anderen Domäne als die übergeordnete Domäne befindet.
 * Wenn sich AppMeasurement in einem iframe befindet, wird die Variable [`referrer`](../vars/page-vars/referrer.md) auf die übergeordnete URL und nicht auf die tatsächliche verweisende URL eingestellt. Sie können die Variable `referrer` manuell festlegen, um dieses Problem zu beheben.
-* Der [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de-DE) erkennt keine Bildanforderungen, die innerhalb von iframes ausgelöst werden.
+* Der [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) erkennt keine Bildanforderungen, die innerhalb von iframes ausgelöst werden.
 * Activity Map zeigt die Heatmap nicht über Links an, die innerhalb von iframes angeklickt wurden. Stattdessen wird der gesamte iframe hervorgehoben.
