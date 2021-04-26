@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 85%
+source-wordcount: '1672'
+ht-degree: 81%
 
 ---
 
@@ -111,3 +111,7 @@ Nein. Für dieselbe Organisation kann CDA nur für eine Region aktiviert sein.
 Der Vorteil des 7-Tage-Lookback-Fensters besteht darin, dass CDA in der Lage ist, mit der Zeit weiter zurückzugehen und zu versuchen, zuvor anonyme Ereignis mit einigen Personen zu verbinden, die sich später innerhalb dieser 7 Tage angemeldet haben. Die Nachteile des 7-Tage-Lookback-Fensters sind 1) Replay wird nur einmal pro Woche ausgeführt und 2) die letzten 7 Tage können sich ändern.
 
 Die Vorteile der Verwendung des 1-Tage-Lookback-Fensters sind 1) Replay-Läufe jeden Tag und 2) nur gestern kann geändert werden. Der Nachteil des 1-tägigen Lookback-Fensters besteht darin, dass CDA nur noch einen Tag zurückgehen kann, um zu versuchen, zuvor anonyme Ereignis mit einer Person zu verbinden, die sich gestern angemeldet hat.
+
+## Was passiert mit den gehefteten Daten in meinen Virtual Report Suites von CDA, wenn meine Firma beschließt, Analytics Ultimate herunterzustufen?
+
+Wenn ein Kunde von Ultimate herabgestuft wird, hat er keinen Zugriff mehr auf zugewiesene Daten. Alle zuvor zugewiesenen Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites von CDA jetzt keine geräteübergreifende Verknüpfung widerspiegeln. Die Daten sehen ähnlich aus wie die ursprünglich nicht zugewiesene Report Suite.
