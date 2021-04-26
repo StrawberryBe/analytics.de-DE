@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '637'
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -170,7 +170,6 @@ ht-degree: 100%
    + [Best Practices](segmentation/best-practices.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
-   + [Häufig gestellte Fragen](c-calcmetrics/cm-transition.md)
    + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
    + Workflow bei berechneten Metriken {#calcmetric-workflow}
       + [Workflow bei berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
