@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 93%
+source-wordcount: '1605'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ## Wie kann ich die geräteübergreifende Analyse verwenden, um zu sehen, wie Benutzer von einem Gerätetyp zum anderen wechseln?
 
-Sie können eine Flussvisualisierung mit der Dimension „Mobilgerätetyp“ verwenden.
+Sie können eine Visualisierung [!UICONTROL Fluss] mit der Dimension Mobilgerätetyp verwenden.
 
 1. Melden Sie sich bei Adobe Analytics an und erstellen Sie ein neues leeres Workspace-Projekt.
 2. Klicken Sie auf der linken Seite auf die Registerkarte „Visualisierungen“ und ziehen Sie eine Flussvisualisierung in die Arbeitsfläche auf der rechten Seite.
@@ -105,3 +105,9 @@ Es können mehrere Report Suites aktiviert werden. Jede zusätzliche Report Suit
 ## Wenn mein Experience Cloud-Org (auch IMS-Org genannt) mehrere Firmen in verschiedenen Regionen hat, kann ich dann CDA für alle aktivieren?
 
 Nein. Für dieselbe Organisation kann CDA nur für eine Region aktiviert sein.
+
+## Was sind die Vor- und Nachteile einer 7-tägigen Wiederholung im Vergleich zu einer 1-tägigen Wiederholung?
+
+Der Vorteil des 7-Tage-Lookback-Fensters besteht darin, dass CDA in der Lage ist, mit der Zeit weiter zurückzugehen und zu versuchen, zuvor anonyme Ereignis mit einigen Personen zu verbinden, die sich später innerhalb dieser 7 Tage angemeldet haben. Die Nachteile des 7-Tage-Lookback-Fensters sind 1) Replay wird nur einmal pro Woche ausgeführt und 2) die letzten 7 Tage können sich ändern.
+
+Die Vorteile der Verwendung des 1-Tage-Lookback-Fensters sind 1) Replay-Läufe jeden Tag und 2) nur gestern kann geändert werden. Der Nachteil des 1-tägigen Lookback-Fensters besteht darin, dass CDA nur noch einen Tag zurückgehen kann, um zu versuchen, zuvor anonyme Ereignis mit einer Person zu verbinden, die sich gestern angemeldet hat.
