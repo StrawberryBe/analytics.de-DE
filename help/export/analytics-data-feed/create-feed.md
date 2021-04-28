@@ -1,14 +1,14 @@
 ---
 title: Erstellen oder Bearbeiten eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen oder bearbeiten.
+exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 translation-type: tm+mt
-source-git-commit: 8454f64604afaea03af8bb4d7cefc3cbab889ec6
+source-git-commit: 769f8cf2dc726df5b71b453f5bbcfb9f0e78e6d7
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '833'
+ht-degree: 95%
 
 ---
-
 
 # Erstellen oder Bearbeiten eines Daten-Feeds
 
@@ -21,9 +21,9 @@ Das Vorliegen grundlegender Kenntnisse zu Daten-Feeds ist empfehlenswert, bevor 
 * **Name**: Der Name des Daten-Feeds. Muss innerhalb der ausgewählten Report Suite eindeutig sein. Er kann bis zu 255 Zeichen enthalten.
 * **Report Suite:** Die Report Suite, auf der der Daten-Feed basiert. Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, müssen sie unterschiedliche Spaltendefinitionen haben. Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt.
 * **E-Mail nach Abschluss**: Die E-Mail-Adresse, die benachrichtigt werden soll, wenn die Verarbeitung eines Feeds abgeschlossen ist. Die E-Mail-Adresse muss korrekt formatiert sein.
-* **Feed-Intervall**: Stündliche Feeds enthalten Daten aus einer Stunde. Tägliche Feeds enthalten die Daten eines ganzen Tages.
+* **Feed-Intervall**: Stündliche Feeds enthalten Daten aus einer Stunde. Tägliche Feeds enthalten Daten zum vollen Tageswert; sie enthalten Daten von Mitternacht bis Mitternacht in der Zeitzone der Report Suite.
 * **Verarbeitung verzögern**: Warten Sie einen bestimmten Zeitraum, bevor Sie eine Daten-Feed-Datei verarbeiten. Eine Verzögerung kann nützlich sein, um mobilen Implementierungen die Möglichkeit zu geben, dass Offlinegeräte online gehen und Daten senden können. Sie kann auch verwendet werden, um die serverseitigen Prozesse Ihrer Organisation bei der Verwaltung zuvor verarbeiteter Dateien zu berücksichtigen. In den meisten Fällen ist keine Verzögerung erforderlich. Ein Feed kann um bis zu 120 Minuten verzögert werden.
-* **Start- und Enddaten**: Das Startdatum gibt das erste Datum an, an dem Sie einen Daten-Feed erstellen möchten. Legen Sie dieses Datum in der Vergangenheit fest, um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen. Feeds werden bis zum Enddatum verarbeitet.
+* **Start- und Enddaten**: Das Startdatum gibt das erste Datum an, an dem Sie einen Daten-Feed erstellen möchten. Legen Sie dieses Datum in der Vergangenheit fest, um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen. Feeds werden bis zum Enddatum verarbeitet. Beginns- und Enddaten basieren auf der Zeitzone der Report Suite.
 * **Kontinuierlicher Feed**: Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung.
 
 ## Zielfelder
