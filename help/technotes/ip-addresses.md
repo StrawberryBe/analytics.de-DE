@@ -1,14 +1,14 @@
 ---
 title: Von Adobe Analytics verwendete IPs und Domänen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von der Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
+source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 86%
 
 ---
-
 
 # Von Adobe Analytics verwendete IPs und Domänen
 
@@ -33,7 +33,7 @@ Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkter
 | Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## Alle IP-Adressblöcke von Adobe Analytics
+## Alle IP-Adressblöcke der Adobe Analytics-Datenerfassung
 
 Die folgende Tabelle enthält alle Standarddatenerfassungsserver und regionalen Datenerfassungsserver für Adobe Analytics. Sie enthalten keine einzelnen AWS-Hosts.
 
