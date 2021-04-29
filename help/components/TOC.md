@@ -5,10 +5,10 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 99%
 
 ---
 
@@ -249,6 +249,7 @@ ht-degree: 100%
    + [Unterstützte Echtzeit-Metriken und -Dimensionen](c-real-time-reporting/realtime-metrics.md)
 + Marketing-Kanäle {#marketing-channels}
    + [Erste Schritte mit Marketing-Kanälen](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Attribution IQ mit Marketing-Kanälen](c-marketing-channels/mchannel-best-practices.md)
    + [Marketing-Kanäle verwalten](c-marketing-channels/c-channels.md)
    + [Verarbeitungsregeln für Marketing-Kanäle](c-marketing-channels/c-rules.md)
    + [Klassifizierungen in Marketing-Kanälen](c-marketing-channels/classifictions-mchannel.md)
