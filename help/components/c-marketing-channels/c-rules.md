@@ -1,14 +1,14 @@
 ---
 title: Verarbeitungsregeln für Marketing-Kanäle
 description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 90%
+source-wordcount: '2149'
+ht-degree: 88%
 
 ---
-
 
 # Verarbeitungsregeln für Marketing-Kanäle
 
@@ -17,7 +17,8 @@ Die Verarbeitungsregeln für Marketing-Kanäle bestimmen, ob der Besucherzugriff
 ![](assets/buckets_2.png)
 
 Weitere Hinweise zur Verarbeitung:
-* Mit diesen Regeln erfasste Daten sind zu 100 % dauerhaft und nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. Es wird dringend empfohlen, alle Umstände zu prüfen und in Erwägung zu ziehen, bevor [!UICONTROL Marketingkanal-Verarbeitungsregeln] gespeichert werden, um zu verhindern, dass Daten in falschen Kanälen erfasst werden.
+
+* Mit diesen Regeln erfasste Daten sind zu 100 % dauerhaft und nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. Es wird dringend empfohlen, dass Sie alle Umstände überprüfen und berücksichtigen, bevor Sie [!UICONTROL Verarbeitungsregeln für Marketing-Kanal] speichern, um zu verhindern, dass Daten in falschen Kanälen erfasst werden.
 * Der Bericht kann bis zu 25 Kanäle gleichzeitig verarbeiten.
 * Regeln haben Zugriff auf Variablen, die von VISTA gesetzt wurden, können jedoch nicht auf Daten zugreifen, die von VISTA gelöscht wurden.
 * Dasselbe Ereignis kann niemals zwei Marketingkanälen gutgeschrieben werden (wie Käufe oder Klicks). In dieser Hinsicht unterscheiden sich Marketingkanäle von eVars (dasselbe Ereignis kann zwei eVars gutgeschrieben werden).
@@ -27,6 +28,7 @@ Weitere Hinweise zur Verarbeitung:
 
 * Sehen Sie sich die Konzeptinformationen unter [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) an.
 * Erstellen Sie einen oder mehr Kanäle, um Regeln zuweisen zu können. Weitere Informationen finden Sie unter [Hinzufügen von Marketing-Kanälen](/help/components/c-marketing-channels/c-channels.md).
+* Überprüfen Sie die Best Practices für die Verwendung von [!UICONTROL Marketing-Kanal] mit [!UICONTROL Attribution IQ].
 
 ## Einrichten von Marketingkanal-Verarbeitungsregeln
 
@@ -154,7 +156,7 @@ Eine Best Practice besteht darin, einen Kanal „Andere Kampagnen“ einzubezieh
 
 ### Soziale Netzwerke   {#social-networks}
 
-Diese Regel identifiziert Besucher, die aus einem sozialen Netzwerk wie Facebook;. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
+Diese Regel identifiziert Besucher, die aus einem sozialen Netzwerk wie Facebook stammen. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
 
 ![](assets/example_social.png)
 
