@@ -1,14 +1,14 @@
 ---
 title: Analysieren von Marketing-Kanälen
 description: Erfahren Sie, wie Sie die Dimensionen von Marketing-Kanäle in Workspace verwenden.
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 94%
+source-wordcount: '394'
+ht-degree: 85%
 
 ---
-
 
 # Analysieren von Marketing-Kanälen
 
@@ -17,12 +17,12 @@ Sie möchten wahrscheinlich wissen, welcher Ihrer Marketing-Kanäle der effektiv
 ![](assets/mc-dims.png)
 
 | Dimension/Metrik | Definition |
-|---|---|
+| --- | --- |
 | Marketing-Kanal | Dies ist die empfohlene Dimension für Marketing-Kanäle. Attribution IQ-Modelle können zur Laufzeit darauf angewendet werden. Diese Dimension verhält sich identisch mit den Dimensionen des Letztkontakt-Kanals, ist jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung mit einem anderen Attributionsmodell zu vermeiden. |
 | Letztkontakt-Kanal | Veraltete Dimension mit vorab angewendetem und unveränderlichem Letztkontakt-Attributionsmodell. |
 | Erstkontakt-Kanal | Veraltete Dimension mit vorab angewendetem und unveränderlichem Erstkontakt-Attributionsmodell. |
 | Marketing-Kanalinstanzen | Diese Metrik misst, wie oft ein Marketing-Kanal in einer Bildanforderung definiert wurde, einschließlich standardmäßiger Seitenansichten und benutzerspezifischer Link-Aufrufe. Enthält keine persistenten Werte. |
-| Neue Interaktionen | Diese Metrik ähnelt Instanzen, wird jedoch nur inkrementiert, wenn in einer Bildanforderung ein Erstkontakt-Marketing-Kanal definiert wird. |
+| Neue Interaktionen | Diese Metrik ähnelt Instanzen, wird jedoch nur inkrementiert, wenn in einer Bildanforderung First Touch-Marketing-Kanal definiert wird. |
 
 ## Basisanalyse
 
@@ -54,7 +54,7 @@ Beachten Sie, dass dieselbe Metrik (Online-Bestellungen) unterschiedliche Ergebn
 
 ## Tab-übergreifende Marketing-Analyse
 
-Die veralteten Firstkontakt- und Letztkontakt-Kanäle bieten einen hilfreichen Einblick in die Kanalinteraktionen:
+Mithilfe des veralteten First Touch-Kanals und des Last Touch-Kanals erhalten Sie eine hilfreiche Ansicht zu den Interaktionen der Kanal:
 
 ![](assets/mc-viz6.png)
 
