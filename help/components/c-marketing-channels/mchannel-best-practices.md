@@ -2,7 +2,7 @@
 title: Best Practices für die Implementierung von Adobe Analytics Marketing Kanäle
 description: Aktualisierte Best Practices für die Verwendung von Marketing-Kanälen mit Attribution IQ und Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Attribution IQ mit Marketing-Kanälen verwenden - Best Practices
+# Attribution IQ mit Marketing-Kanälen - Best Practices
 
 [Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Channelsare sind ein wertvolles und leistungsstarkes Merkmal von Adobe Analytics. Die aktuellen Anleitungen zur Implementierung von Marketing-Kanälen wurden zu einer Zeit formuliert, als weder [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=de#cja-usecases) existierten.
 
@@ -38,6 +38,6 @@ Benutzerdefinierte Zuordnungsmodelle, die mit der Marketing Kanal-Dimension in W
 
 Wenn Sie den Zeitraum für die Besucher-Interaktion auf das Minimum von &quot;1 Tag&quot;setzen, wird die Wahrscheinlichkeit, dass Werte beibehalten werden, minimiert. Da benutzerdefinierte Zuordnungsmodelle (AIQ) flexible Lookback-Fenster ermöglichen, sollten Sie den Mindestwert festlegen, um die Auswirkungen dieser Einstellung zu minimieren.
 
-## Best Practice #5: Verarbeitungsregeln für Marketing-Kanal sind nur für aktivierte Kanal vorhanden
+## Best Practice #5: Verarbeitungsregeln für Marketing-Kanal sollten nur für aktivierte Kanal vorhanden sein
 
 Stellen Sie sicher, dass Sie alle Verarbeitungsregeln für Marketing Kanal für deaktivierte Kanal entfernen. Regeln sollten nur für Marketing-Kanal vorhanden sein, die als aktiviert markiert sind.
