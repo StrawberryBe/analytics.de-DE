@@ -5,10 +5,10 @@ user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analysetool oder einer bestimmten Komponente gehören.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 0%
    + [Vergleichen von Daten mit vorherigen Datumsbereichen](event/compare-dates.md)
    + [Ableiten von Daten, die von Ereignissen betroffen sind](event/calcmetrics.md)
    + [Kommunizieren von Ereignissen an Benutzer](event/communicate.md)
-+ [Browsercookies](cookies.md)
++ [Cookies] {#cookies}
+   + [Browsercookies](cookies/cookies.md)
+   + [Optionen zur Abschwächung der Auswirkungen von Browser-Cookie-Einschränkungen](cookies/cookieless.md)
 + [Datenaufbewahrung](data-retention.md)
 + [Daten ausschließen](exclude-data.md)
 + [Von Adobe Analytics verwendete IPs und Domänen](ip-addresses.md)
