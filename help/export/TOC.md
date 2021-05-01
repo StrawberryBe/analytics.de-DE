@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '278'
+translation-type: tm+mt
+source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+workflow-type: tm+mt
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Häufig gestellte Fragen zu Daten-Feeds](analytics-data-feed/df-faq.md)
    + [Best Practice für Daten-Feeds](analytics-data-feed/data-feeds-best-practices.md)
-   + [Fehlerbehebung bei Daten-Feeds](analytics-data-feed/feed-troubleshooting.md)
    + [Fehlerbehebung bei Aufträgen](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse-Übersicht](data-warehouse/data-warehouse.md)
