@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
+source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 81%
+source-wordcount: '1674'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Beide diese Kennungen werden von Adobe zum Zeitpunkt der Berichterstellung berec
 
 ## Wie kann ich vom Gerätediagramm zum feldbasierten Stitching wechseln oder umgekehrt?
 
-Wenden Sie sich an den Account Manager Ihres Unternehmens, wenn Sie zwischen den Identifizierungsmethoden der CDA wechseln möchten. Der Account Manager kann Ihre Report Suite mit der gewünschten Methode zur Identifizierung von Personen bereitstellen. *Historische zugeordnete Daten aus der vorherigen Methode gehen verloren.*
+Der Wechsel vom Gerätediagramm zum feldbasierten Sticken oder umgekehrt kann über die Kundenunterstützung angefordert werden. Allerdings kann es einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist, und *Verlaufsgefügte Daten der vorherigen Methode gehen verloren.*
 
 ## Wie geht Adobe mit individuellen Einschränkungen für eine eVar um, die beim feldbasierten Stitching verwendet wird?
 
