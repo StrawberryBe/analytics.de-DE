@@ -1,30 +1,30 @@
 ---
 description: Wenn ein Bericht eine große Anzahl eindeutiger Werte aufweist, kann mit Adobe nun sichergestellt werden, dass die wichtigsten Werte in Ihrem Bericht auftauchen.
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
-feature: Metrics
+feature: 'Metriken  '
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 94%
+source-wordcount: '485'
+ht-degree: 79%
 
 ---
 
 # Wert „Geringer Datenverkehr“ in Adobe Analytics
 
-Wenn ein Bericht eine große Anzahl eindeutiger Werte aufweist, kann mit Adobe nun sichergestellt werden, dass die wichtigsten Werte in Ihrem Bericht auftauchen. Eindeutige Variablenwerte, die nach etwa 500.000 vorhandenen Werten gesammelt wurden, werden unter einem Zeileneintrag mit dem Titel **(Geringer Datenverkehr)** aufgeführt.
+Wenn ein Bericht viele eindeutige Werte enthält, stellt Adobe eine Funktion bereit, mit der sichergestellt wird, dass die wichtigsten Werte in Ihrem Bericht angezeigt werden. Eindeutige Variablenwerte, die nach etwa 500.000 vorhandenen Werten gesammelt wurden, werden unter einem Zeileneintrag mit dem Titel **(Geringer Datenverkehr)** aufgeführt.
 
 ## So funktioniert „Geringer Datenverkehr“
 
 * Das Reporting ist nicht betroffen, wenn die Variable in einem bestimmten Monat nicht 500.000 eindeutige Werte erreicht.
 * Wenn eine Variable diesen ersten Schwellenwert von 500.000 erreicht, werden die Daten unter „Geringer Datenverkehr“ erfasst. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
    * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
-   * Wenn ein Wert noch nicht im Reporting enthalten ist, wird überprüft, ob dieser Wert heute mehr als etwa zehnmal angezeigt wurde. Ist dies der Fall, wird der Wert dem Reporting hinzugefügt. Wenn er nicht mehr als zehnmal gezählt wurde, bleibt er unter „Geringer Datenverkehr“.
+   * Wenn sich ein Wert noch nicht in Berichte befindet, sind die Schwellenwerte für die Anzahl der angezeigten Werte von Backend-Konfigurationen abhängig. Sie stellen keine genaue &quot;10&quot;- oder &quot;100&quot;-Darstellung dar.
 * Wenn eine Report Suite mehr als 1.000.000 eindeutige Werte erreicht, wird eine aggressivere Filterung angewendet:
    * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
-   * Wenn ein Wert noch nicht im Reporting enthalten ist, wird überprüft, ob dieser Wert heute mehr als etwa 100 Mal angezeigt wurde. Ist dies der Fall, wird der Wert dem Reporting hinzugefügt. Wenn nicht, bleibt er unter „Geringer Datenverkehr“.
+   * Wenn sich ein Wert noch nicht in Berichte befindet, sind die Schwellenwerte für die Anzahl der angezeigten Werte von Backend-Konfigurationen abhängig. Sie stellen keine genaue &quot;10&quot;- oder &quot;100&quot;-Darstellung dar.
 
 >[!NOTE]
 >
