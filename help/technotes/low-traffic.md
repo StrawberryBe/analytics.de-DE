@@ -5,30 +5,28 @@ feature: 'Metriken  '
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
+source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 79%
+source-wordcount: '641'
+ht-degree: 48%
 
 ---
 
 # Wert „Geringer Datenverkehr“ in Adobe Analytics
 
-Wenn ein Bericht viele eindeutige Werte enthält, stellt Adobe eine Funktion bereit, mit der sichergestellt wird, dass die wichtigsten Werte in Ihrem Bericht angezeigt werden. Eindeutige Variablenwerte, die nach etwa 500.000 vorhandenen Werten gesammelt wurden, werden unter einem Zeileneintrag mit dem Titel **(Geringer Datenverkehr)** aufgeführt.
+Wenn ein Bericht viele eindeutige Werte enthält, stellt Adobe eine Funktion bereit, mit der sichergestellt wird, dass die wichtigsten Werte in Ihrem Bericht angezeigt werden. Eindeutige Variablenwerte, die nach etwa 500.000 vorhandenen Werten gesammelt wurden, werden unter einem Zeileneintrag mit dem Titel **[!UICONTROL Niedriger Traffic]** aufgeführt.
 
-## So funktioniert „Geringer Datenverkehr“
+## Funktionsweise von [!UICONTROL Low-Traffic]
 
 * Das Reporting ist nicht betroffen, wenn die Variable in einem bestimmten Monat nicht 500.000 eindeutige Werte erreicht.
 * Wenn eine Variable diesen ersten Schwellenwert von 500.000 erreicht, werden die Daten unter „Geringer Datenverkehr“ erfasst. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
-   * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
-   * Wenn sich ein Wert noch nicht in Berichte befindet, sind die Schwellenwerte für die Anzahl der angezeigten Werte von Backend-Konfigurationen abhängig. Sie stellen keine genaue &quot;10&quot;- oder &quot;100&quot;-Darstellung dar.
+   * Wenn ein Wert bereits in Berichten angezeigt wird, fügen Sie ihn wie gewohnt hinzu.
+   * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Zeileneintrag [!UICONTROL Niedriger Traffic] angezeigt. Wenn ein Wert, der im Zeileneintrag [!UICONTROL geringer Traffic] enthalten ist, innerhalb kürzester Zeit eine erhebliche Anzahl von Malen angezeigt wird, wird Beginn als eigener Zeileneintrag erkannt. Die erhebliche Anzahl der anzuzeigenden Elemente weist viele Abhängigkeiten auf, z. B. die Anzahl der Verarbeitungsserver und Daemonen, die Daten für diese Report Suite verarbeiten.
 * Wenn eine Report Suite mehr als 1.000.000 eindeutige Werte erreicht, wird eine aggressivere Filterung angewendet:
-   * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
-   * Wenn sich ein Wert noch nicht in Berichte befindet, sind die Schwellenwerte für die Anzahl der angezeigten Werte von Backend-Konfigurationen abhängig. Sie stellen keine genaue &quot;10&quot;- oder &quot;100&quot;-Darstellung dar.
+   * Wenn ein Wert bereits in Berichten angezeigt wird, fügen Sie ihn wie gewohnt hinzu.
+   * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Zeileneintrag [!UICONTROL Niedriger Traffic] angezeigt. Wenn ein Wert, der im Zeileneintrag [!UICONTROL geringer Traffic] enthalten ist, innerhalb kürzester Zeit eine erhebliche Anzahl von Malen angezeigt wird, wird Beginn als eigener Zeileneintrag erkannt. Die erhebliche Anzahl der anzuzeigenden Elemente weist viele Abhängigkeiten auf, z. B. die Anzahl der Verarbeitungsserver und Daemonen, die Daten für diese Report Suite verarbeiten.
 
->[!NOTE]
->
->Wenn ein Variablenwert ausreichend Traffic erhält, um die Gruppe „Niedriger Datenverkehr“ zu verlassen, werden die ersten erfassten Werte nicht zu dem entsprechenden Zeilenelement verschoben. Diese ersten 10 bis 100 Instanzen werden weiterhin unter „Geringer Datenverkehr“ aufgeführt.
+Warum verschiebt die Adobe ein Element aus dem Zeileneintrag [!UICONTROL Geringer Traffic] in einen eigenen Zeileneintrag? Dieser Schritt erkennt beispielsweise eine beliebte neue Seite oder ein neues Element, das später im Monat hinzugefügt wurde (nachdem die individuellen Werte überschritten wurden) und das viele Treffer/Ansichten erhält. Der Umzug soll nicht alle Treffer/Ansichten pro Tag oder Monat abfangen.
 
 ## Ändern der Schwellenwerte für eindeutige Werte
 
