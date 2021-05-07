@@ -2,16 +2,16 @@
 description: Verwenden Sie die Beitragsanalyse, um statistische Anomalien und Korrelationen in Daten zu identifizieren.
 title: Übersicht über die Beitragsanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI Tools
+feature: AI-Tools
 role: Business Practitioner, Administrator
+exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 99%
+source-wordcount: '1164'
+ht-degree: 91%
 
 ---
-
 
 # Übersicht über die Beitragsanalyse
 
@@ -47,41 +47,14 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
 
 ## Häufig gestellte Fragen {#section_11D0431AD2014B96AB9561CA66A367CE}
 
-<table id="table_357775E5058644099E26B15A6790E8AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Frage </th> 
-   <th colname="col2" class="entry"> Antwort </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Warum hat Adobe Token eingeführt? </b> </p> </td> 
-   <td colname="col2"> <p>Die Beitragsanalyse ist eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen?</b> </p> </td> 
-   <td colname="col2"> <p>Jedes Anmeldeunternehmen (nicht jeder Benutzer) erhält eine bestimmte Anzahl an Token pro Monat, mit denen Sie eine „vollständige“ Beitragsanalyse in Analysis Workspace durchführen können. </p> <p>Jedes Mal, wenn Sie eine neue Beitragsanalyse erstellen, bezahlen Sie ein Token. Das Laden von Projekten mit bereits ausgeführten Beitragsanalysen kostet kein Token. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Werden für die Beitragsanalyse in Reports &amp; Analytics Token fällig?</b> </p> </td> 
-   <td colname="col2"> <p>Nein. Die Beitragsanalyse steht seit der Version vom April 2018 nicht mehr in Reports &amp; Analytics zur Verfügung. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Was können wir tun, wenn unser Unternehmen keine Token mehr hat, wir aber weitere Beitragsanalysen durchführen möchten?</b> </p> </td> 
-   <td colname="col2"> <p>Sie können ein Upgrade auf ein anderes Adobe Analytics-Produkt durchführen, z. B. von Standard (2 Token/Monat) auf Ultimate (20 Token/Monat). Es ist nicht möglich, einfach zusätzliche Token zu kaufen. Sie müssen ein Upgrade innerhalb der bestehenden Paketstruktur durchführen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Wie kann ich den Zugriff auf die Beitragsanalyse beschränken?</b> </p> </td> 
-   <td colname="col2"> <p>Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können jedoch anderen Benutzern Zugriff gewähren, indem sie eine Berechtigungsgruppe in der <a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a> erstellen. Erteilen Sie nur jenen Benutzern die Berechtigung zur Verwendung der Beitragsanalyse, die einen Grund zu deren Nutzung haben und den Zugriff nicht missbrauchen werden. </p> <p>Die Berechtigung lautet „Beitragsanalyse“. Sie finden Sie unter <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Tools anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span></span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben?</b> </p> </td> 
-   <td colname="col2"> <p>Gehen Sie zu <span class="ignoretag"><span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Unternehmenseinstellungen</span> &gt; <span class="uicontrol">Funktionszugriffsebenen anzeigen</span></span>. Diese Seite enthält zwei Elemente: </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Frage | Antwort |
+| --- | --- |
+| Warum hat Adobe Token eingeführt? | Die Beitragsanalyse ist eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. |
+| Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen? | Jedes Anmeldeunternehmen (nicht jeder Benutzer) erhält eine bestimmte Anzahl an Token pro Monat, mit denen Sie eine „vollständige“ Beitragsanalyse in Analysis Workspace durchführen können.  Jedes Mal, wenn Sie eine neue Beitragsanalyse erstellen, bezahlen Sie ein Token. Das Laden von Projekten mit bereits ausgeführten Beitragsanalysen kostet kein Token. |
+| Werden für die Beitragsanalyse in Reports &amp; Analytics Token fällig? | Nein. Die Beitrags-Analyse wird ab April 2018 nicht mehr in Reports &amp; Analysen angeboten. |
+| Was können wir tun, wenn unser Unternehmen keine Token mehr hat, wir aber weitere Beitragsanalysen durchführen möchten? | Sie können ein Upgrade auf ein anderes Adobe Analytics-Produkt durchführen, z. B. von Standard (2 Token/Monat) auf Ultimate (20 Token/Monat). Es ist nicht möglich, einfach zusätzliche Token zu kaufen. Sie müssen ein Upgrade innerhalb der bestehenden Paketstruktur durchführen. |
+| Wie kann ich den Zugriff auf die Beitragsanalyse beschränken? | Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können anderen Benutzern jedoch Zugriff gewähren, indem sie eine Berechtigungsgruppe im Ordner [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) erstellen. Erteilen Sie nur jenen Benutzern die Berechtigung zur Verwendung der Beitragsanalyse, die einen Grund zu deren Nutzung haben und den Zugriff nicht missbrauchen werden. Die Berechtigung wird unter [!UICONTROL Report Suite-Tools] als [!UICONTROL Beitrags-Analyse] bezeichnet. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben? | Gehen Sie zu [!UICONTROL Admin] > [!UICONTROL All Admin] >[!UICONTROL Firma Settings Home] >[!UICONTROL Ansicht Feature Access Levels]. Look under<ul><li>Beitragsanalyse: Anzahl der monatlichen Nutzungs-Token</li><li>Beitragsanalyse: Anzahl der diesen Monat verwendeten Nutzungs-Token</li></ul> |
 
 ## Anomalieerkennung und Beitragsanalyse – Berechtigungen {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -89,7 +62,7 @@ Weiter unten finden Sie eine ausführliche Liste der Berechtigungen für die Ano
 
 >[!IMPORTANT]
 >
->Anomalieerkennung und Beitragsanalyse wurden aus dem Funktionsumfang von Reports &amp; Analytics entfernt und sind nun nur noch über Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation in Workspace nur Zugriff auf die Anomalieerkennung „tägliche Granularität“ haben.
+>Die Analyse &quot;Anomalieerkennung&quot;und &quot;Beitrag&quot;wurden aus dem Funktionssatz &quot;Reports &amp; Analysen&quot;entfernt und sind jetzt nur noch über Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation in Workspace nur Zugriff auf die Anomalieerkennung „tägliche Granularität“ haben.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
