@@ -5,10 +5,10 @@ user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analysetool oder einer bestimmten Komponente gehören.
 translation-type: tm+mt
-source-git-commit: ebed6c96d82a5a93e53e015f1e89431d2d8abae4
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 86%
+source-wordcount: '193'
+ht-degree: 84%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 86%
    + [Vergleichen von Daten mit vorherigen Datumsbereichen](event/compare-dates.md)
    + [Ableiten von Daten, die von Ereignissen betroffen sind](event/calcmetrics.md)
    + [Kommunizieren von Ereignissen an Benutzer](event/communicate.md)
+   + [Intelligente Datenausgleichung](event/intelligent-data-smoothing.md)
 + Cookies {#cookies}
    + [Browsercookies](cookies/cookies.md)
    + [Optionen zur Abschwächung der Auswirkungen von Browser-Cookie-Einschränkungen](cookies/cookieless.md)
