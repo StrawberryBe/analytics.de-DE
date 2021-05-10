@@ -2,14 +2,14 @@
 description: Erläutert Verbesserungen der serverseitigen Weiterleitung, die durch die EU-Cookie-Compliance-Verordnung veranlasst wurden.
 title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 91%
+source-wordcount: '539'
+ht-degree: 90%
 
 ---
-
 
 # DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 
@@ -30,7 +30,6 @@ Befolgen Sie abhängig von Ihrer Implementierungsmethode die folgenden Schritte.
 | Implementierungsmethode | Schritte |
 |--- |--- |
 | Adobe Experience Platform Launch | Wenn Sie die Adobe Analytics-Erweiterung installiert haben, fügen Sie dem benutzerdefinierten Code-Editor innerhalb der Aktionskonfiguration einer Regel die folgende Definition für Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die `contextdata`-Variable den Wert *0* für Kunden fest, die gezieltem Marketing zugestimmt haben. |
-| DTM | Fügen Sie die Kontextdatenvariable im Editor für benutzerdefinierte Seiten-Codes hinzu: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die Kontextdatenvariable den Wert „0“ für Kunden fest, die gezieltem Marketing zugestimmt haben. |
 | AppMeasurement | Fügen Sie die Kontextdatenvariablendefinition zur Datei „AppMeasurement.js“ hinzu:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die Kontextdatenvariable den Wert „0“ für Kunden fest, die gezieltem Marketing zugestimmt haben. |
 
 ## Berichterstellung (Optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
@@ -48,4 +47,3 @@ Um diese Art der Berichterstellung zu konfigurieren, weisen Sie die neue Kontext
    1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
    1. Überschreiben Sie unter **[!UICONTROL Immer ausführen]** den Wert der über die Kontextvariable „cm.ssf(Context Data)“ aktivierten Kontextvariable.
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
