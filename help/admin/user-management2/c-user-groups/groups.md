@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
 
@@ -110,14 +110,7 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
   <tr> 
    <td colname="col1"><b>Alle Report Suites</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Komplettzugriff, benutzerspezifisch, kein Zugriff) </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>Berechtigungen werden für Benutzer unterstützt, die über aktive <span class="keyword">TagManager</span>-Container verfügen. Für neue Benutzer sind sie nicht verfügbar. </p> <p>Adobe empfiehlt für die Implementierung die Verwendung des <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a>. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>Benutzeranmeldungen zuweisen</b> </td> 
    <td colname="col2"> </td> 
