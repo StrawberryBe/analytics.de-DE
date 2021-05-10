@@ -1,14 +1,14 @@
 ---
 title: Implementieren von Adobe Analytics
 description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft oder Anwendung.
+exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 translation-type: tm+mt
-source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 97%
 
 ---
-
 
 # Implementieren von Adobe Analytics
 
@@ -30,7 +30,7 @@ Der JavaScript-Code sendet eine Bildanforderung an die Adobe-Datenerfassungs-Ser
 Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um Daten an die Datenerfassungs-Server zu senden. Abhängig von der Plattform und den Anforderungen Ihres Unternehmens gibt es verschiedene Methoden, um diesen Code zu implementieren.
 
 * **Adobe Experience Platform Launch**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Platzieren Sie ein Loader-Tag auf jeder Seite und definieren Sie die einzelnen Variablen über die Benutzeroberfläche von Launch.
-* **Dynamic Tag Management**: Der Vorgänger von Launch. DTM verwendet eine ähnliche Benutzeroberfläche zur Implementierung von Analytics, wird jedoch nicht mehr aktualisiert und ist weniger flexibel. Adobe empfiehlt Launch zum Implementieren von Adobe Analytics.
+* **Dynamisches Tag-Management**: Das dynamische Tag-Management wurde eingestellt.
 * **Legacy JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Führt Variablen und Einstellungen auf, die für eine Implementierung verwendet werden. Dies kann für Launch-Implementierungen hilfreich sein, bei denen benutzerdefinierter Code verwendet wird.
 * **Mobile SDK**: Spezifische Bibliotheken zum einfachen Senden von Daten aus Ihrer App an Adobe.
 
