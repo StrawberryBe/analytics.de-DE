@@ -2,13 +2,13 @@
 description: Virtual Report Suites und Multisuite-Tagging bieten unterschiedliche Vorteile. Erfahren Sie, welche die beste Lösung für Ihr Unternehmen ist.
 keywords: Virtual Report Suite, VRS
 title: Virtual Report Suites und Multisuite-Tagging
-feature: Report Suite Settings
+feature: Report Suite-Einstellungen
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1712'
 ht-degree: 99%
 
 ---
@@ -101,7 +101,6 @@ Wenn Sie sich dafür entscheiden, sekundäre Server-Aufrufe zugunsten von Virtua
    * Verwenden Sie Treffercontainer, wenn Virtual Report Suites sich gegenseitig ausschließen sollen.
 2. Nachdem Sie bestätigt haben, dass die Virtual Report Suites korrekt eingerichtet sind, entfernen Sie die sekundären Report Suite-IDs aus Ihrer Implementierung. So entfernen Sie sekundäre Report Suites:
    * Klicken Sie in Adobe Experience Platform Launch auf das „x“ neben den Report Suites, die Sie nicht mehr verwenden möchten.
-   * Suchen Sie in DTM die Eigenschaft und das Analytics-Tool. Entfernen Sie in den Feldern „Produktionskonto-ID“ und „Testkonto-ID“ alle IDs der Report Suite, die Sie nicht mehr verwenden möchten.
    * Suchen Sie in veralteten JavaScript-Implementierungen die `s.account`-Variable und entfernen Sie alle Report Suite-IDs, die Sie nicht mehr verwenden möchten.
    * Behalten Sie in jedem Fall nur die IDs der globalen/übergeordneten Report Suites bei, die Daten Ihrer Sites und Apps erfassen.
    * Navigieren Sie zu „Admin“ > „Report Suites“ und blenden Sie alle nicht mehr verwendeten sekundären Report Suites aus.
