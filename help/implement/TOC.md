@@ -5,9 +5,9 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
 translation-type: tm+mt
-source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins  {#plugins}
+   + Plug-ins {#plugins}
       + [Übersicht über Plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -158,35 +158,7 @@ ht-degree: 100%
    + [Zuordnen von Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
 + Analytics auf anderen Plattformen implementieren {#other}
    + [Analytics mit fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
-   + Analytics mit DTM implementieren {#dtm}
-      + [Überblick über die Implementierung des Dynamic Tag Management](other/dtm/dtm-implementation-overview.md)
-      + [Webeigenschaft erstellen](other/dtm/t-create-web-property.md)
-      + [Hosting-Optionen konfigurieren](other/dtm/t-configure-hosting.md)
-      + Kopf- und Fußzeilen {#headers-footers}
-         + [Kopf- und Fußzeilencode hinzufügen](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [Kopf- und Fußzeilencode überprüfen](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Adobe Analytics-Tool {#analytics-tool}
-         + [Adobe Analytics-Tool hinzufügen](other/dtm/c-aa-tool/analytics-dtm.md)
-         + [Allgemein](other/dtm/c-aa-tool/general-settings-analytics.md)
-         + [Bibliotheksverwaltung](other/dtm/c-aa-tool/library-management.md)
-         + [Grundlegenden AppMeasurement-Code einfügen](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-         + [Globale Variablen](other/dtm/c-aa-tool/global-variables.md)
-         + [Seitenansichten und -inhalt](other/dtm/c-aa-tool/pageviews-content.md)
-         + [Linktracking](other/dtm/c-aa-tool/link-tracking.md)
-         + [Referrer und Kampagnen](other/dtm/c-aa-tool/referrers-campaigns.md)
-         + [Cookies](other/dtm/c-aa-tool/cookies-analytics.md)
-         + [Seiten-Code anpassen](other/dtm/c-aa-tool/customize-page-code.md)
-         + [Häufig gestellte Fragen zum Adobe Analytics-Tool](other/dtm/c-aa-tool/dtm-faq.md)
-      + [Datenelement erstellen](other/dtm/t-data-element.md)
-      + [Adobe Analytics manuell implementieren (alt)](other/dtm/t-analytics-deploy.md)
-      + Regeln {#rules}
-         + [Neue Regel erstellen](other/dtm/c-rules/t-rules-create.md)
-         + [Bedingungen für ereignisbasierte Regeln erstellen](other/dtm/c-rules/t-rules-event-conditions.md)
-         + [Bedingungen für Seitenladeregeln erstellen](other/dtm/c-rules/t-rules-page-conditions.md)
-         + [Erstellen Sie Bedingungen für Direktaufrufregeln](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [Aktionen einrichten, die von der Bedingung ausgelöst werden](other/dtm/c-rules/t-rules-actions.md)
-         + [Testen unveröffentlichter Regeln für Akamai-Hosting](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [Regeln für Bibliotheksdownload oder FTP testen](other/dtm/c-rules/t-test-rules-ftp.md)
+   + [Analytics mit DTM implementieren](other/dtm-implementation-overview.md)
    + [Analytics auf Ajax implementieren](other/ajax.md)
    + [Analytics auf AMP implementieren](other/amp.md)
    + [Analytics auf digitalen Assistenten implementieren](other/digital-assistants.md)
