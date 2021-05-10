@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 56%
+source-wordcount: '513'
+ht-degree: 53%
 
 ---
 
@@ -43,10 +43,14 @@ Wenn auf ein Element geklickt wird, durchläuft es mehrere Prüfungen, um zu bes
 * Ist dies ein `BUTTON`?
 
 Wenn die Antwort auf eine der vorangehenden Fragen Ja ist, wird dieses Element als Link verwendet und verfolgt.
- 
-Wichtig: Schaltflächen-Tags mit dem Attribut type=&quot;button&quot; werden von AppMeasurement nicht als Links erachtet. Erwägen Sie, type=&quot;button&quot; für die Schaltflächen-Tags zu entfernen und stattdessen role=&quot;button&quot; oder submit=&quot;button&quot; hinzuzufügen.
- 
-Wichtig: Ein Anker-Tags mit einem &quot;href&quot;, das Beginn mit &quot;#&quot;verwenden, wird von AppMeasurement als interner Speicherort für Zielgruppen und nicht als Link betrachtet (da Sie die Seite nicht verlassen). Standardmäßig verfolgt Activity Map diese internen Zielorte nicht. Es werden nur Links verfolgt, die den Benutzer zu einer neuen Seite führen.
+
+>[!IMPORTANT]
+>
+>Schaltflächen-Tags mit dem Attribut type=&quot;button&quot; werden von AppMeasurement nicht als Links betrachtet. Erwägen Sie, type=&quot;button&quot; für die Schaltflächen-Tags zu entfernen und stattdessen role=&quot;button&quot; oder submit=&quot;button&quot; hinzuzufügen.
+
+>[!IMPORTANT]
+>
+>Ein Verankerungs-Tag mit einem &quot;href&quot;, das Beginn mit &quot;#&quot;verwenden, wird von AppMeasurement als interner Speicherort für Zielgruppen und nicht als Link betrachtet (da Sie die Seite nicht verlassen). Standardmäßig verfolgt Activity Map diese internen Zielorte nicht. Es werden nur Links verfolgt, die den Benutzer zu einer neuen Seite führen.
 
 ## Wie verfolgt Activity Map andere visuelle HTML-Elemente?
 
@@ -55,7 +59,6 @@ a. Über die Funktion `s.tl()`.
 Wenn der Klick über einen `s.tl()`-Aufruf erfolgte, erhält Activity Map auch dieses Klick-Ereignis und stellt fest, ob eine `linkName`-Zeichenfolgenvariable gefunden wurde. Während der Ausführung von `s.tl()` wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde, das den `s.tl()`-Aufruf ausgelöst hat, wird zur Bestimmung der Region verwendet. Beispiel: 
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -70,7 +73,9 @@ b. Über die Variable `s_objectID`. Beispiel:
     
     &quot;
 
-Wichtig:  Beachten Sie, dass ein nachfolgender Semikolon (;) erforderlich ist, wenn `s_objectID` in Activity Map verwendet wird.
+>[!IMPORTANT]
+>
+>Bei Verwendung von `s_objectID` in Activity Map ist ein nachfolgender Semikolon (;) erforderlich.
 
 ## Können Sie mir einige Beispiele für Links nennen, die verfolgt werden?
 
