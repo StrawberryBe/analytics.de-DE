@@ -2,27 +2,24 @@
 description: So fordern Sie Datenzugriff und -löschung in Adobe Analytics an.
 title: Zugriffs- und Löschanfragen einreichen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
-
 # Zugriffs- und Löschanfragen einreichen
-
-
-## Überblick {#section_BD70882995894C1CA19C205C49FEC23C}
 
 Wenn Ihre Kunden (Verbraucher/Datensubjekte) wissen möchten, welche Daten Sie über sie besitzen, oder verlangen, dass ihre Daten aus Ihren Analytics-Datensätzen gelöscht werden, sind Sie als Datenverantwortlicher für die Beantwortung solcher Anfragen verantwortlich. Der Datenverantwortliche legt fest, wie die Organisation mit betroffenen Personen interagiert (z. B. über ein entsprechendes Benutzerportal), und managt die Interaktion mit ihnen. Es unterliegt darüber hinaus der Verantwortung des Datenverantwortlichen, die Kommunikation mit dem Datensubjekt abzuschließen, nachdem die Anfrage bearbeitet wurde. Als Auftragsverarbeiter akzeptiert Adobe Experience Cloud also keine Anfragen direkt von betroffenen Personen und gibt keine Daten direkt an diese zurück. Stattdessen erhält Adobe Anfragen nur von Ihnen als Datenverantwortlicher und gibt Daten auch nur an Sie zurück.
 
 Sie sollten in Erwägung ziehen, Ihren Apps und Websites Hinweise hinzuzufügen, über die Sie betroffene Personen über ihre Rechte zu direkt oder indirekt identifizierbaren sowie über andere von Ihnen erfasste Daten informieren.
 
-## Kundeneinwilligung verwalten   {#section_3012015E7E8942519FB9279CF7057EAB}
+## Kundeneinwilligung verwalten  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwilligung von Ihren Datensubjekten einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Abmeldemechanismus zu implementieren](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/opt-in.html). Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
+Als Verantwortlicher für die Verarbeitung der Daten sind Sie dafür verantwortlich, dass Sie die ausdrückliche Einwilligung Ihrer betroffenen Personen einholen, bevor Sie Daten zu ihnen erfassen (möglicherweise einschließlich Adobe Analytics-Daten), und dass Sie einen [Ausschluss-Mechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) auf Ihrer Website implementieren. Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
 
 ## Benutzer und ihre Daten validieren   {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
