@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 translation-type: tm+mt
-source-git-commit: d4296a721e01e37c57a8fb44b67599a3cc9e4758
+source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 60%
+source-wordcount: '652'
+ht-degree: 50%
 
 ---
 
@@ -43,8 +43,8 @@ Diese Einstellungen gelten für die Standardmodus-Überlagerung.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Dynamische Datenfilterung]** |  |
-| **[!UICONTROL Überlagerungen für Links ausblenden, die keine Treffer]** erhalten haben. | Dieses Kontrollkästchen ermöglicht Ihnen, die Überlagerungen für Links auszublenden, die keine Treffer erhalten haben, damit die Oberfläche übersichtlicher bleibt. |
+| **[!UICONTROL Dynamische Datenfilterung]** | Mit dieser Dropdownliste können Sie Überlagerungen für<ul><li>(Standard) Alle Links auf der Seite</li><li>Die obere (höchste) oder untere (niedrigste) Anzahl der Links mit Rangansicht auf der Seite, wobei # eine Auswahl von 1, 10, 50 oder 100 sein kann.</li></ul> |
+| **[!UICONTROL Überlagerungen für Links ausblenden, die keine Treffer]** erhalten haben. | Ein Kontrollkästchen, das die Sichtbarkeit von Überlagerungen für Links ohne Daten umschaltet.<ul><li>(Standard) Wenn das Kontrollkästchen aktiviert ist, wird keine Überlagerung angezeigt, wenn ein Link keine Activity Map-Linkdaten enthält.</li><li>Wenn das Kontrollkästchen deaktiviert ist und ein Link keine Activity Map-Link-Daten enthält, wird eine Überlagerung angezeigt und hat die Beschriftung &quot;-&quot;, d. h. &quot;K/A&quot;(nicht zutreffend). |
 
 ## Live-Einstellungen {#section_D30F6E62FB5D404090B588F396A460AF}
 
