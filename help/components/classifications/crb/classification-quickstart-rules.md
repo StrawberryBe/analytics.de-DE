@@ -5,10 +5,10 @@ title: Klassifizierungsregeln
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 100%
+source-wordcount: '2030'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Reg
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-Mit dem Rule Builder können Sie einen *`classification rule set`* erstellen, der eine Liste von *`classification rules`* ist. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
+Mit dem Regel-Builder können Sie einen *Classification-Regelsatz* erstellen, bei dem es sich um eine Liste von *Classification-Regeln* handelt. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
 
 Classification-Regeln eignen sich für Folgendes:
 
@@ -266,7 +266,7 @@ In diesem Ergebnis zeigt `a:b:1313` keine Übereinstimmung an.
 | `a{3,}` | 3 oder mehr von a |
 | `a{3,6}` | Zwischen 3 und 6 von a |
 
-https://rubular.com/ ist eine gute Ressource, mit der Sie die Gültigkeit regulärer Ausdrücke testen können.
+Eine gute Ressource zum Testen der Gültigkeit regulärer Ausdruck ist [https://rubular.com/](https://rubular.com/).
 
 ## Informationen zur Regelpriorität
 
@@ -294,7 +294,7 @@ Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für
 
 | Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
-| 1 | Enthält | Cowboys | Stadt | Dallas |
+| 3 | Enthält | Cowboys | Stadt | Dallas |
 | 2 | Enthält | Broncos | Stadt | Denver |
 
 Ein Benutzer sucht nach  *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
@@ -326,13 +326,15 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
    >[!NOTE]
    >
-   >Report Suites werden *`only`* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:
+   >Report Suites werden auf dieser Seite *nur* angezeigt, wenn die folgenden Bedingungen erfüllt sind:
    >
    >* Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
-   >
-   >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *`Variable`* in den [Klassifizierungsregelsätzen](/help/components/classifications/crb/classification-rule-set.md).)
-   >
-   >* Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
+      >
+      >   
+      (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
+      >
+      >
+   * Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
 
 
 1. Festlegen, ob vorhandene Werte überschrieben werden sollen:
@@ -405,7 +407,7 @@ In diesen Schritten wird beschrieben, wie Sie Classification-Regeln validieren u
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) Wenn Sie Klassifizierungen überschreiben möchten, aktivieren Sie die Option **[!UICONTROL Überschreiben von Classifications für]** *`<selection>`*.
+1. (Optional) Um Classifications zu überschreiben, aktivieren Sie **[!UICONTROL Classifications für]** &lt;*Auswahl* überschreiben.
 
    Mit dieser Option können Sie bestehende Classifications für die betroffenen Schlüssel überschreiben.
 
