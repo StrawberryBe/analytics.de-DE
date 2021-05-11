@@ -18,8 +18,9 @@ ht-degree: 100%
 Hotkeys (Tastaturbefehle) stehen in Analysis Workspace zur nahtlosen Navigation und Analyse, zum Hinzufügen von Bedienfeldern und Visualisierungen sowie zur Demokratisierung (Freigabe) zur Verfügung.
 
 Hinweis:
-* `Ctrl` = Windows und `Command` = Mac
-* `Alt` = Windows und `Option` = Mac
+
+* `Strg-Taste` = Windows und `Befehlstaste` = Mac
+* `Alt-Taste` = Windows und `Wahltaste` = Mac
 
 ## Navigationsaktionen
 
