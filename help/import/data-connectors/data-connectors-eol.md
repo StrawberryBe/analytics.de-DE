@@ -3,10 +3,10 @@ description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht m
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | MaritzCX (V 2.0) | Veraltet |
 | Merkle | Veraltet |
 | Offizielle Oracle Eloqua-Integration | Migration zu Exchange |
-| Optivo Broadmail (Episerver) | Migration zu Exchange |
+| Optivo Broadmail (Episerver) | Veraltet |
 | Qualtrics v2 | Migration zu Exchange |
 | Responsys 2.0 | Veraltet |
 | Selligent | Veraltet |
