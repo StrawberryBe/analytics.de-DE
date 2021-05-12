@@ -2,11 +2,10 @@
 description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
-feature: Workspace Basics
+feature: Workspace – Allgemeines
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8323'
 ht-degree: 99%
@@ -24,13 +23,11 @@ Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://d
 | [!UICONTROL Komponenten] >  [!UICONTROL Benutzereinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie die Einstellungen von [!UICONTROL Analysis Workspace] und dessen zugehörige Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Workspace-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Workspace-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
 | [!UICONTROL Histogramm-Smart-Bucket-Prognose] | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket Prediction] hilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
 
-
 ## Februar 2021
 
 | Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
 | Komponentenauswahl | 4. Februar 2021 | Die Dropdown-/Dropzone-Komponente, die in [!UICONTROL Quick Insights] gefunden wurde, wird allen Ablagebereichen in [!UICONTROL Workspace] hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, Optionen in einer Dropdown-Liste kompatibler Komponenten zu wählen oder den Raum weiterhin als Ablagebereich zu verwenden. |
-
 
 ## Januar 2021
 
@@ -1154,7 +1151,7 @@ Das Lineardiagramm enthält einen primären Messwert (z. B. den aktuellen Umsat
 
 ![](assets/scatter.png)
 
-Zeigen Sie die erzielten Impressionen und die Anzahl der Unique Users an, die diese Impressionen gesehen haben. Die Größe jedes Datenpunkts verdeutlicht visuell, wie oft ein Benutzer durchschnittlich eine Werbeanzeige gesehen hat. Die Größe und Daten variieren je nach ausgewählten Dimensionen, Datumsbereichen und Filtern.
+Zeigen Sie die erzielten Impressionen und die Anzahl der eindeutigen Benutzer an, die diese Impressionen gesehen haben. Die Größe jedes Datenpunkts verdeutlicht visuell, wie oft ein Benutzer durchschnittlich eine Werbeanzeige gesehen hat. Die Größe und Daten variieren je nach ausgewählten Dimensionen, Datumsbereichen und Filtern.
 
 >[!NOTE]
 >
@@ -1220,13 +1217,13 @@ In den Spalteneinstellungen können Sie bedingte Formatierung auf Zelldaten anwe
  </tbody> 
 </table>
 
-## Dimensionsvorschau  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Dimensionsvorschau {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Im Komponentenbedienfeld [!UICONTROL Dimensionen] können Sie den Cursor über das Informations-Symbol neben einer Dimension bewegen und eine Vorschau der fünf Dimensionen mit den höchsten Werten anzeigen.
 
 ![](assets/dimension-preview.png)
 
-## Legende sichtbar  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Legende sichtbar {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 In den [!UICONTROL Visualisierungseinstellungen] kann mit der Option **[!UICONTROL Legende eingeblendet]** die Visualisierungslegende ein- oder ausgeblendet werden.
 
@@ -1244,11 +1241,11 @@ Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das 
 
 ![](assets/anchor_Y_axis.png)
 
-## Projektname auf dem Registerkartentitel  {#section_497C61A030984BCCA2CEA553312C3226}
+## Projektname auf dem Registerkartentitel {#section_497C61A030984BCCA2CEA553312C3226}
 
 Beim Speichern eines Projekts wird der Titel auf der Registerkarte des Browsers als „`<Project Name>` - Analysis Workspace“ angezeigt. Diese Optimierung ist besonders hilfreich, wenn Sie mehrere Projekte in mehreren Browser-Registerkarten öffnen.
 
-## Eigentum von Projekten übertragen  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Eigentum von Projekten übertragen {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Administratoren haben die Möglichkeit, Projekte in [!UICONTROL Analysis Workspace] von einem Benutzer an einen anderen zu übertragen.
 
