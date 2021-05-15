@@ -3,11 +3,10 @@ description: Häufig gestellte Fragen zu Datenfeeds
 keywords: Datenfeed;Auftrag;Pre-Spalte;Post-Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 50%
+source-wordcount: '1324'
+ht-degree: 49%
 
 ---
 
@@ -70,17 +69,6 @@ In bestimmten Zeitzonen ändert sich die Zeit zweimal im Jahr aufgrund der Somme
 Bei STD-> DST-Transitionen (&quot;Spring Forward&quot;) erhält der Kunde nur 23 Dateien. Die in der DST-Transition übersprungene Stunde wird weggelassen. Wenn die Transition beispielsweise um 2 Uhr erfolgt, erhalten sie eine Datei für 1:00 Uhr und eine Datei für 3:00 Uhr. Es gibt keine 2:00-Datei, da sie bei 2:00 STD zu 3:00 Uhr DST wird.
 
 Bei der Erstellung von DST-> STD-Transitionen (&quot;Fall Back&quot;) erhält der Kunde 24 Dateien. Die Stunde der Transition umfasst jedoch Daten von zwei Stunden. Wenn die Transition beispielsweise um 2:00 Uhr erfolgt, wird die Datei für 1:00 Uhr um eine Stunde verschoben, enthält jedoch Daten für zwei Stunden. Es enthält Daten von 1:00 Uhr DST bis 2:00 Uhr STD (was 3:00 Uhr DST gewesen wäre). Die nächste Datei beginnt um 2:00 Uhr.
-
-## Erhalte ich Manifestdateien, wenn keine Daten erfasst werden? {#section_72510794694D42A9A75C966B812AEB0F}
-
-Sie können einen Datenfeed optional so konfigurieren, dass eine Manifestdatei bereitgestellt wird, wenn für einen bestimmten Zeitraum keine Daten erfasst werden. Wenn Sie diese Option aktivieren, erhalten Sie eine Manifestdatei, die folgendem Schema entspricht:
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
 
 ## Wie geht Analytics mit FTP-Übertragungsfehlern um? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
