@@ -1,10 +1,9 @@
 ---
 title: Adobe Analytics und Browsercookies
 description: Erfahren Sie, wie die von Adobe Analytics eingerichteten Drittanbieter- und Erstanbieter-Cookies durch Maßnahmen zur Rückverfolgung von Präventionsmaßnahmen beeinflusst werden.
-translation-type: tm+mt
-source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1985'
 ht-degree: 7%
 
 ---
@@ -16,6 +15,9 @@ In diesem Dokument wird erläutert, wie die Präventionsmaßnahmen der wichtigst
 
 ## Wie wurde die Verwendung von Cookies durch Browser eingeschränkt?
 
+>[!NOTE]
+>[Geräteübergreifende Analysen](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en#cda) und [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#comparing-cja-to-traditional-adobe-analytics) können mithilfe einer Personen-ID (z. B. einer Hash-Anmelde-ID) über Cookies hinweg verbunden werden, sofern eine ID verfügbar ist.
+
 ### Einschränkungen bei Drittanbieter-Cookies
 
 Cookies, die in einem Drittanbieterkontext verwendet werden, werden weitgehend eingestellt. Firefox und Safari haben begonnen, Drittanbieter-Cookies standardmäßig ab 2019 bzw. 2020 zu blockieren. Chrome hat Pläne angekündigt, die Unterstützung von Drittanbieter-Cookies irgendwann im Jahr 2022 einzustellen. In diesem Fall sind Drittanbieter-Cookies praktisch unbrauchbar.
@@ -24,40 +26,42 @@ Außerdem erlaubt Chrome derzeit nur Cookies, die das Attribut &quot;SameSite&qu
 
 #### Welche Adobe von Drittanbieter-Cookies sind betroffen?
 
-Der Besucher-ID-Dienst verwendet das [`demdex.net`](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)-Cookie, um einen beständigen Bezeichner für Besucher über verschiedene Kundendomänen hinweg bereitzustellen. In Browsern, in denen Drittanbieter-Cookies blockiert sind, steht keine domänenübergreifende Verfolgung zur Verfügung.
+Der Besucher-ID-Dienst verwendet das Cookie &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)&quot;, um eine beständige ID für Besucher über verschiedene Kundendomänen hinweg bereitzustellen. Der Legacy-Analytics-ID-Dienst, das Cookie &quot;s_vi&quot;, wird als Drittanbieter-Cookie für Implementierungen gesetzt, die keine benutzerdefinierte CNAME-Erfassungsdomäne verwenden.
+
+In Browsern, in denen Drittanbieter-Cookies blockiert sind, steht keine domänenübergreifende Verfolgung zur Verfügung.
 
 ### Erstanbieter-Cookie-Beschränkungen {#limitations-first-party-cookies}
 
-Erstanbieter-Cookies sind in allen gängigen Browsern zulässig. Apple beschränkt jedoch die Lebensdauer von Erstanbieter-Cookies, die von der Adobe über ihr Intelligent Tracking Programm (ITP) eingestellt werden. Dazu gehören Safari unter MacOS und alle Browser unter iOS und iPadOS.
+Erstanbieter-Cookies sind in allen gängigen Browsern zulässig. Apple beschränkt jedoch die Lebensdauer von Erstanbieter-Cookies, die von der Adobe über ihr Intelligent Tracking Programm (ITP) eingestellt werden. Dies betrifft sowohl Safari als auch alle Browser unter iOS und iPadOS.
 
-Die Erstanbieter-Cookies der Adobe sind auf einen Ablauf von 7 Tagen oder einen Ablauf von 24 Stunden für Clickthroughs beschränkt, von denen Apple feststellt, dass sie von Trackern stammen. Bei Ablauf von 7 Tagen verlängert sich das Ablaufdatum des Cookies um weitere sieben Tage, wenn ein Benutzer Ihre Site besucht und dann innerhalb dieser sieben Tage zurückkehrt. Wenn ein Benutzer jedoch Ihre Site besucht und dann innerhalb von acht Tagen zurückkehrt, wird er beim zweiten Besuch als neuer Benutzer behandelt.
+Die Erstanbieter-Cookies der Adobe sind auf einen Ablauf von 7 Tagen oder, bei Clickthroughs, die von Apple ermittelt werden, von Trackern ausgeführt werden, auf einen Ablauf von 24 Stunden beschränkt. Bei Ablauf von 7 Tagen verlängert sich das Ablaufdatum des Cookies um weitere sieben Tage, wenn ein Benutzer Ihre Site besucht und innerhalb von sieben Tagen zurückkehrt. Wenn ein Benutzer Ihre Site jedoch innerhalb von acht Tagen besucht und zurückkehrt, wird er beim zweiten Besuch als neuer Benutzer behandelt.
 
 Derzeit gelten ITP-Richtlinien für alle Erstanbieter-Cookies, die von der Adobe gesetzt werden, unabhängig davon, ob Sie den Besucher-ID-Dienst oder das Legacy-Analytics-ID-Cookie (&quot;s_vi&quot;-Cookie) verwenden. An einem Punkt galten diese Richtlinien nur für clientseitige Cookies und nicht für serverseitige Cookies, die über eine CNAME-Implementierung festgelegt wurden. Im November 2020 wurde ITP jedoch aktualisiert, um auch für CNAME-Implementierungen zu gelten.
 
-#### Zeitablauf der wichtigsten Änderungen der ITP-Politik
+#### Zeitablauf der wichtigsten Änderungen an der ITP-Richtlinie {#ITP-timeline}
 
 * Februar 2019 mit [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/): Clientseitige Cookies waren auf einen siebentägigen Ablauf beschränkt
 * April 2019 mit [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/): Clientseitige Cookies waren bei Anzeigenklicks auf 24 Stunden begrenzt, wenn die verweisende Domäne a) an der Site-übergreifenden Verfolgung beteiligt war und b) die endgültige URL eine Abfrage und/oder einen Fragmentbezeichner enthielt.
 * November 2020 mit [CNAME Cloaking und Absprung-Tracking-Verteidigung](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/): ITP-Beschränkungen wurden auf CNAME-Implementierungen erweitert.
 
-ITP-Richtlinien entwickeln sich häufig. Die neuesten Richtlinien finden Sie unter [Tracking Prevention in Webkit](https://webkit.org/tracking-prevention).
+ITP-Richtlinien entwickeln sich häufig. Die neuesten Richtlinien finden Sie unter Apple&#39;s [Tracking Prevention in Webkit](https://webkit.org/tracking-prevention).
 
 #### Welche Erstanbieter-Cookies von Adoben sind betroffen?
 
 Alle von der Adobe eingestellten Erstanbieter-Cookies und die zugehörigen JavaScript-Bibliotheken sind von den ITP-Richtlinien betroffen:
 
-* [`AMCV` von der Adobe Experience Cloud Besucher ID (ECID)-Dienstbibliothek ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) eingestellte Cookies
-* Das Analytics-Legacy [`s_vi`-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), wenn es mit der Erstanbieter-Datenerfassung mithilfe eines CNAME konfiguriert wird
-* Das Analytics-Legacy [`s_fid`-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), das das Ausweichcookie ist, das verwendet wird, wenn `s_vi` nicht eingestellt werden kann
+* [&quot;AMCV&quot;-](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) Cookies, die von der Adobe Experience Cloud Besucher ID (ECID)-Dienstbibliothek festgelegt werden
+* Das Analytics-Legacy-Cookie [&quot;s_vi&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), wenn es mit der Erstanbieter-Datenerfassung mithilfe eines CNAME konfiguriert wird
+* Das Analytics-Legacy-Cookie [&quot;s_fid&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), das das Ausweichcookie ist, das verwendet wird, wenn &quot;s_vi&quot;nicht eingestellt werden kann
 
 #### Welche Auswirkungen hat ITP auf Safari für Analytics?
 
-Die Auswirkungen der ITP-Beschränkungen variieren je nach Verhalten der Benutzer erheblich. Davon sind nur Besucher betroffen, die einen von ITP betroffenen Browser (d. h. Safari) verwenden und nach einer Abwesenheit von sieben Tagen zurückkehren. Wenn Besucher keinen ITP-Browser verwenden oder innerhalb von sieben Tagen zurückkehren, sind sie davon nicht betroffen. Es ist wichtig, dass Sie Ihre eigenen Daten in Analytics überprüfen, um zu verstehen, wie stark diese Einschränkung wirkt. Tipps zum Messen der Auswirkungen auf Ihre Sites finden Sie unter &quot;[Wie kann ich feststellen, ob Safari-Änderungen mein Geschäft betreffen?](#measure-itp-effect)&quot;
+Die Auswirkungen der ITP-Beschränkungen können je nach Verhalten der Benutzer erheblich variieren. Betroffen sind nur Besucher, die einen von ITP betroffenen Browser verwenden (z. B. Safari) und nach einer Abwesenheit von sieben Tagen zurückkehren. Wenn Besucher keinen ITP-Browser verwenden oder innerhalb von sieben Tagen zurückkehren, sind sie davon nicht betroffen. Es ist wichtig, dass Sie Ihre eigenen Daten in Analytics überprüfen, um zu verstehen, wie stark diese Einschränkung wirkt. Tipps zum Messen der Auswirkungen auf Ihre Sites finden Sie unter &quot;[Wie kann ich feststellen, ob Safari-Änderungen mein Geschäft betreffen?](#measure-itp-effect)&quot;
 
 Wenn sich diese Einschränkungen auf Ihre Daten auswirken, sehen Sie Folgendes:
 
 1. Erhöhte Besucher zählt, da wiederkehrende Besucher als neue Besucher behandelt werden, da ihre Cookies abgelaufen sind. Alle Metriken, die auf der Metrik &quot;Besucher&quot;basieren (z. B. &quot;Umsatz pro Besucher&quot;), sind ebenfalls betroffen.
-2. Änderungen an der Zuordnung. Konversionselemente sind an vorhergehende Aktivitäten desselben Besuchers gebunden. Sobald ein Cookie abläuft, werden zukünftige Ereignis mit einem neuen Besucher verknüpft, und Konversionen können nicht mehr an den ursprünglichen Besucher gebunden werden.
+2. Änderungen an der Zuordnung. Die Zuordnung hängt davon ab, dass Konversions-Ereignis mit vorherigen Aktivitäten desselben Besuchers verknüpft werden. Nach Ablauf eines Cookies werden nachfolgende Ereignis mit einem neuen Besucher verknüpft. Die Aktivitäten des neuen Besuchers können nicht an die Aktivitäten des vorherigen Besuchers gebunden werden.
 
 >[!NOTE]
 >
@@ -69,7 +73,7 @@ Wenn sich diese Einschränkungen auf Ihre Daten auswirken, sehen Sie Folgendes:
 
 Drittanbieter-Cookies werden nicht von den Websites erstellt, die Benutzer besuchen.
 
-Obwohl Browser derzeit alle Drittanbieter-Cookies gleich behandeln und entsprechend speichern, können sich Drittanbieter-Cookies unterschiedlich verhalten. Bei der Analytics-Drittanbieter-Cookie-Implementierung eines Kunden speichern Browser die Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)-ID als Drittanbieter-Cookie. Der Client ruft jedoch nur die Adobe und nicht zu unbekannte oder verdächtige Drittanbieter-Domänen auf. Dieses Cookie stellt domänenübergreifende IDs bereit und ermöglicht sicheren (HTTPS-)Inhalt. Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Obwohl Browser derzeit alle Drittanbieter-Cookies gleich behandeln und speichern, können sich Drittanbieter-Cookies auf unterschiedliche Weise verhalten. Bei der Analytics-Drittanbieter-Cookie-Implementierung eines Kunden speichern Browser die Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)-ID als Drittanbieter-Cookie. Der Client ruft jedoch nur die Adobe und nicht zu unbekannte oder verdächtige Drittanbieter-Domänen auf. Dieses Cookie stellt domänenübergreifende IDs bereit und ermöglicht sicheren (HTTPS-)Inhalt. Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 In Analytics-Implementierungen werden Drittanbieter-Cookies zur domänenübergreifenden Verfolgung und für Werbezwecke verwendet, einschließlich Targeting-Anzeigen. Mit Drittanbieter-Cookies können Sie Besucher identifizieren, wenn Sie verschiedene Domänen besuchen, deren Inhaber Sie sind, oder wenn Anzeigen auf Sites angezeigt werden, die Ihnen nicht gehören.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -85,7 +89,7 @@ Weitere Informationen finden Sie unter [Informationen zu Erstanbieter-Cookies](h
 
 ## Welches ist das SameSite-Cookie-Attribut und wie wirkt es sich auf Analytics-Cookies aus? {#samesite-effect}
 
-Mit der Veröffentlichung des Chrome 80-Browsers im Februar 2020 — und aufeinander folgenden Versionen von Firefox und Edge-Browsern — Das SameSite-Cookie-Attribut erzwingt die Angabe für drei verschiedene Werte, um das Verhalten von Site-übergreifenden Anforderungen zu steuern:
+Mit der Veröffentlichung des Chrome 80-Browsers im Februar 2020 — und aufeinander folgenden Versionen von Firefox und Edge-Browsern — Das SameSite-Cookie-Attribut erzwingt die Angabe für drei verschiedene Werte, die steuern, ob Cookies in einem Drittanbieterkontext verwendet werden können:
 
 * `None`: Diese Einstellung ermöglicht den Site-übergreifenden Zugriff und die Weitergabe von Cookies in einem Drittanbieterkontext. Um dieses Attribut anzugeben, müssen Sie auch `Secure` angeben und alle Browser-Anfragen müssen HTTPS nutzen. Beim Einstellen des Cookies verbinden Sie beispielsweise die Werte des Attributs wie folgt: `Set-Cookie: example_session=test12; SameSite=None; Secure`. Wenn die Cookies nicht richtig beschriftet sind, sind sie für die neueren Browser nicht verwendbar und werden abgelehnt.
 
@@ -97,9 +101,13 @@ Das Standardverhalten in diesen Browser-Versionen besteht darin, Cookies, die ke
 
 ### Wie verwaltet Analytics SameSite-Cookie-Attribute?
 
-Alle Cookie-Updates für Adoben werden über Adoben-Server verarbeitet, und die Adobe Edge-Server legen die entsprechenden Cookie-Attribute fest. Alle Drittanbieter-Cookies wurden serverseitig mit den entsprechenden Attributen aktualisiert. Für Ihre Sites sind keine JavaScript-Updates erforderlich.
+Für Kunden, die den Besucher-ID-Dienst verwenden, sind die Eigenschaften `SameSite=None` und `secure` standardmäßig eingestellt, sodass diese Cookies Anwendungsfälle von Drittanbietern unterstützen können.
 
-Diese Aktualisierung durch die Edge-Server der Adobe erfolgte automatisch, wenn die Benutzer jede Website besuchten, auf der das Cookie verwendet wurde. Bei den meisten Adoben hatten Cookies die entsprechenden Flags, als Chrome 80 im Jahr 2020 veröffentlicht wurde. Die Ausnahme bildeten Adobe Analytics-Implementierungen, die die Datenerfassung von Drittanbietern verwenden und nicht den Experience Cloud-Besucher-ID-Dienst verwenden. Bei dieser Implementierung müssen Sie die Kundenunterstützung bitten, die Flags zu ändern. Weitere Informationen finden Sie unter &quot;[Ändern Sie den Wert von &quot;SameSite&quot;, wenn Sie einen CNAME für mehrere Domänen](#samesite-one-cname) verwenden. Bis die Kennzeichnung geändert wird, kann es bei diesen Kunden zu einer geringfügigen vorübergehenden Zunahme neuer Besucher kommen, die sonst als wiederkehrende Besucher gekennzeichnet würden.
+Für Kunden, die Analytics-Legacy-IDs (&quot;s_vi&quot;und &quot;s_fid&quot;-Cookies) verwenden, werden Cookies auch eingestellt, um Anwendungsfälle von Drittanbietern mit Standardsammlungsdomänen zu aktivieren: adobedc.net, 2o7.net und omtrdc.net. Für Kunden, die eine CNAME-Implementierung verwenden, setzt Analytics `SameSite=Lax`.
+
+>[!NOTE]
+>
+>Wenn Sie mehrere Domänen besitzen und denselben CNAME für die Datenerfassung in all Ihren Domänen verwenden, wird das Cookie in diesen anderen Domänen als Drittanbieter-Cookie behandelt. Wenn Sie die Legacy-Analytics-IDs verwenden, sollten Sie Ihre Einstellung auf `SameSite=None` aktualisieren, damit diese Cookies auf allen Ihren Websites freigegeben werden können. Weitere Informationen finden Sie unter &quot;[Ändern Sie den Wert von &quot;SameSite&quot;, wenn Sie einen CNAME für mehrere Domänen](#samesite-one-cname) verwenden.
 
 Bei Browsern, die Google als falsch gehandhabt hat, wenn `SameSite` auf `None` eingestellt ist, bleibt `SameSite` stattdessen deaktiviert.
 
@@ -132,6 +140,10 @@ Adobe empfiehlt Kunden, die Auswirkungen innerhalb ihrer eigenen Firma zu messen
 * Messen Sie den Prozentsatz Ihres Traffics von ITP-basierten Browsern:
 
    1. Erstellen Sie ein Segment, um zu sehen, wie viele Besucher eine ITP-Plattform verwenden.
+
+      >[!NOTE]
+      >
+      >Die von ITP betroffenen Browser hängen davon ab, ob Sie eine CNAME-Implementierung verwenden. Weitere Informationen finden Sie unter &quot;[Zeitschiene der wichtigsten Änderungen an der ITP-Richtlinie](#ITP-timeline)&quot;.
 
       ![Segment für ITP-Besucher](/help/technotes/assets/itp-visitor-segment.png)
 
