@@ -3,11 +3,10 @@ description: In diesem Abschnitt werden die Dateien beschrieben, die in einer Da
 keywords: Datenfeed;Auftrag;Inhalt;Manifest;Datei;Suche;Trefferdaten;Versand-Inhalt
 subtopic: data feeds
 title: Daten-Feed-Inhalte – Übersicht
-feature: Grundlagen zu Reports & Analysen
+feature: Grundlegendes zu Reports & Analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 98%
@@ -18,7 +17,7 @@ ht-degree: 98%
 
 In diesem Abschnitt werden die Dateien beschrieben, die in einer Daten-Feed-Auslieferung enthalten sind.
 
-## Manifestdatei
+## Manifestdatei {#feed-manifest}
 
 Die Manifestdatei enthält folgende Details zu den einzelnen Dateien, die Bestandteil des hochgeladenen Datensatzes sind:
 
