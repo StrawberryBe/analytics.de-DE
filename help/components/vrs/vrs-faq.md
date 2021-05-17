@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu VRS
 feature: Grundlegendes zu Reports & Analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-source-git-commit: 3f8c9d0309c7d4c023e0c936e0a713b24e1482f6
+source-git-commit: c93cd1b14cd6b8e803c4e06209153c8e69af077a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 77%
+source-wordcount: '965'
+ht-degree: 75%
 
 ---
 
@@ -25,4 +25,4 @@ Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
 |  Ich habe „Bei Start neuen Besuch beginnen“ ausgewählt. Warum sehe ich nach wie vor wesentlich mehr Besuche als Starts? | Wenn „Bei Start neuen Besuch beginnen“ aktiviert wird, gilt der Timeout nach wie vor. Wenn ein Benutzer also die App zehn Minuten lang mit einminütigen Pausen zwischen den einzelnen Aktionen verwendet, beginnt bei jedem Besuch ein neuer Start und dann werden neun zusätzliche Besuche erstellt, wenn es beim aktuellen Besuch zu einem Timeout kommt. Damit Starts und Besuche bei der Verwendung der Option „Bei Start neuen Besuch beginnen“ so nahe beieinander sind wie möglich, sollten Sie einen längeren Timeout als den im SDK festgelegten Sitzungstimeout verwenden. |
 | Ich habe „Bei Start neuen Besuch beginnen“ festgelegt und einen längeren als den in meinem SDK festgelegten Timeout eingestellt. Warum habe ich immer noch wesentlich weniger Starts als Besuche? | Wenn der Timeout höher als der im SDK festgelegte Wert ist, versendet Ihre App höchstwahrscheinlich im Hintergrund Treffer und diese Treffer werden als neue Besuche aufgezeichnet. Dies können Sie prüfen, indem Sie die Dimension „Art des Treffers“ auf die übergeordnete Report Suite anwenden, um festzustellen, ob es Hintergrund-Treffer gibt.<br>**Hinweis**: Hintergrund- und Vordergrundtreffer werden nur in Version 4.13.6 und höher des SDK unterschieden. Wenn Sie eine frühere Version verwenden, werden alle Treffer als Vordergrundtreffer angezeigt. Wenn Sie die korrekte Version des SDK verwenden, sollten Sie die Einstellung „Starten neuer Besuche durch Hintergrundtreffer verhindern“ festlegen.    Hinweis: Wenn Sie die veraltete Verarbeitung von Hintergrundtreffern in der Admin Console deaktiviert haben, werden diese nicht in der übergeordneten Report Suite, sondern in der Virtual Report Suite angezeigt. |
 | Welche Version des SDK benötige ich, um Hintergrundtreffer zu verfolgen? | Sie müssen Version 4.13.6 oder eine spätere Version des SDK verwenden. |
-| Wie finde ich die ID einer Virtual Report Suite heraus? | In der [Virtual Report Suite API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md). |
+| Wie finde ich die ID einer Virtual Report Suite heraus? | <ul><li>Wenn Sie ein Workspace-Projekt öffnen, klicken Sie auf die Report Suite-Auswahl und suchen Sie im Suchfeld nach dem Namen einer Virtual Report Suite. Die ID wird unter dem Namen in den Suchergebnissen angezeigt:<br>![](assets/vrs-id.png)</li><li> Oder programmgesteuert in der [Virtual Report Suite API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md).</li></ul> |
