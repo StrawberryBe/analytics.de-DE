@@ -6,11 +6,10 @@ title: Anpassen von Berechtigungen für Metriken
 feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Kunden migriert haben, werden Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Admin]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und „Inhalt bewahren“.
 
