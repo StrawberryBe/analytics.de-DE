@@ -1,14 +1,13 @@
 ---
 description: Erläutert die neue Strategie zur kontinuierlichen Veröffentlichung von Funktionen für Adobe Analytics.
 title: Veröffentlichung von Adobe Analytics-Funktionen
-translation-type: ht
-source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
-
 
 # Veröffentlichung von Adobe Analytics-Funktionen
 
@@ -41,4 +40,4 @@ Die stufenweise Veröffentlichung ermöglicht es Adobe, den Software-Implementie
 | Frage | Antwort |
 |---|---|
 | Kann ich frühzeitigen Zugriff auf eine Funktion anfordern? | Nein. Es wird kein frühzeitiger Zugriff gewährt.<br>Wenn Sie frühe Analytics-Konzepte testen möchten, empfehlen wir Ihnen, [Adobe Analytics Labs](https://docs.adobe.com/content/help/de-DE/analytics/analyze/tech-previews/overview.html) zu testen, um Feedback zu unseren branchenführenden Innovationen zu geben. |
-| Hat diese Veröffentlichungsstrategie Auswirkungen auf meinen Zugriff auf Funktionen? | Nein. Sobald eine Funktion GA erreicht hat, haben Sie Zugriff auf die Funktion, wenn sie in Ihrem Analytics-Paket enthalten ist.<br>Details zu Ihrem Analytics-Paket finden Sie unter [!UICONTROL Admin] > [!UICONTROL Unternehmenseinstellungen] > [Funktionszugriffsebenen](https://docs.adobe.com/content/help/de-DE/analytics/admin/company-settings/feature-access-levels.html). |
+| Hat diese Veröffentlichungsstrategie Auswirkungen auf meinen Zugriff auf Funktionen? | Nein. Sobald eine Funktion GA erreicht hat, haben Sie Zugriff auf die Funktion, wenn sie in Ihrem Analytics-Paket enthalten ist.<br>Sie können die Ansichten Ihres Analytics-Pakets unter  [!UICONTROL Admin] >  [!UICONTROL Alle Admin] > Einstellungen [!UICONTROL  der ] Firma>  [Funktionenzugriffsstufen](https://docs.adobe.com/content/help/de-DE/analytics/admin/company-settings/feature-access-levels.html) aufrufen. |
