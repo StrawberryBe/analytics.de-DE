@@ -2,14 +2,13 @@
 description: Sie werden vom Data Connectors-Integrationsassistenten durch den Data Connectors-Integrationsprozess geführt.
 title: Konfigurieren der Integration
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 5036e577-611e-4fa1-9a80-dde9753aea53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
-
 
 # Konfigurieren der Integration {#configure-the-integration}
 
@@ -18,7 +17,7 @@ Sie werden vom Data Connectors-Integrationsassistenten durch den Data Connectors
 Konfigurieren der Integration:
 
 1. [Generieren](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud) Sie den Integrationskontoschlüssel über AppFigures.
-1. Navigieren Sie als Admin-Benutzer zu **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]** und klicken Sie auf **[!UICONTROL +Neu hinzufügen]**, um eine neue Integration hinzuzufügen.
+1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data Connectors]** als Admin-Benutzer und klicken Sie auf **[!UICONTROL + Hinzufügen Neu]**, um eine neue Integration hinzuzufügen.
 1. Nehmen Sie in der Liste **[!UICONTROL Anzeigen]** eine namensbasierte Auswahl vor und ziehen Sie die Integration **appFigures** in einen leeren Plug-in-Slot.
 1. Überprüfen Sie auf der Einführungsseite für die AppFigures-Integration den Text. Aktivieren Sie das Kontrollkästchen, um die mit der Integration verbundenen Gebühren zu akzeptieren, und klicken Sie dann auf **Weiter**.
 1. Wählen Sie die Report Suite aus, die Sie für diese Integration verwenden möchten.
