@@ -2,14 +2,13 @@
 description: Eine Übersicht über die Schritte, die zur Planung der Implementierung einer Virtual Report Suite unternommen werden müssen.
 keywords: Virtual Report Suite
 title: Virtual Report Suite – Workflow
-feature: Grundlagen zu Reports & Analysen
+feature: Grundlegendes zu Reports & Analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 98%
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -29,17 +28,8 @@ Nachdem sie erstellt wurde, wird eine Virtual Report Suite auf der Benutzeroberf
 
 Klicken Sie auf das Info-Symbol neben dem Namen der Report Suite, um   [die zugehörigen Informationen anzuzeigen](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png)Einrichten von [Gruppenberechtigungen](/help/components/vrs/c-workflow-vrs/vrs-create.md).
+![](assets/step3_icon.png) Öffnen Sie ein Projekt oder einen Bericht und wählen Sie eine Virtual Report Suite aus, um eine segmentierte Ansicht der Daten bereitzustellen.
 
-Beim Erstellen einer Virtual Report Suite ist es erforderlich, dass Sie Gruppenberechtigungen hinzufügen.
-
-Gruppenberechtigungen können auf zwei Arten bearbeitet werden:
-
-* Bearbeiten Sie die Virtual Report Suite im Virtual Report Suite Manager.
-* Navigieren Sie zu Admin > Benutzermanagement > Gruppen, wählen Sie dann die Gruppe mit Berechtigungen für die Virtual Report Suite aus, und klicken Sie auf Bearbeiten.
-
-![](assets/step4_icon.png) Öffnen Sie ein Projekt oder einen Bericht und wählen Sie eine Virtual Report Suite aus, um eine segmentierte Ansicht der Daten bereitzustellen.
-
-![](assets/step5_icon.png) [Verwalten](/help/components/vrs/c-workflow-vrs/vrs-manage.md) der Virtual Report Suite.
+![](assets/step4_icon.png) [Verwalten](/help/components/vrs/c-workflow-vrs/vrs-manage.md) der Virtual Report Suite.
 
 Im Virtual Report Suite Manager können Sie Virtual Report Suites bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Er ist für Nicht-Admin-Benutzer nicht sichtbar.
