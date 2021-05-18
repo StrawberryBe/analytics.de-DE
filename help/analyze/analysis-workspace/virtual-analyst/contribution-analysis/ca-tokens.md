@@ -5,8 +5,7 @@ uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 feature: AI-Tools
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-translation-type: tm+mt
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 91%
@@ -54,7 +53,7 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
 | Werden für die Beitragsanalyse in Reports &amp; Analytics Token fällig? | Nein. Die Beitrags-Analyse wird ab April 2018 nicht mehr in Reports &amp; Analysen angeboten. |
 | Was können wir tun, wenn unser Unternehmen keine Token mehr hat, wir aber weitere Beitragsanalysen durchführen möchten? | Sie können ein Upgrade auf ein anderes Adobe Analytics-Produkt durchführen, z. B. von Standard (2 Token/Monat) auf Ultimate (20 Token/Monat). Es ist nicht möglich, einfach zusätzliche Token zu kaufen. Sie müssen ein Upgrade innerhalb der bestehenden Paketstruktur durchführen. |
 | Wie kann ich den Zugriff auf die Beitragsanalyse beschränken? | Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können anderen Benutzern jedoch Zugriff gewähren, indem sie eine Berechtigungsgruppe im Ordner [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) erstellen. Erteilen Sie nur jenen Benutzern die Berechtigung zur Verwendung der Beitragsanalyse, die einen Grund zu deren Nutzung haben und den Zugriff nicht missbrauchen werden. Die Berechtigung wird unter [!UICONTROL Report Suite-Tools] als [!UICONTROL Beitrags-Analyse] bezeichnet. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben? | Gehen Sie zu [!UICONTROL Admin] > [!UICONTROL All Admin] >[!UICONTROL Firma Settings Home] >[!UICONTROL Ansicht Feature Access Levels]. Look under<ul><li>Beitragsanalyse: Anzahl der monatlichen Nutzungs-Token</li><li>Beitragsanalyse: Anzahl der diesen Monat verwendeten Nutzungs-Token</li></ul> |
+| Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben? | Gehen Sie zu [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Firma settings Home] >[!UICONTROL Ansicht Feature Access Levels]. Look under<ul><li>Beitragsanalyse: Anzahl der monatlichen Nutzungs-Token</li><li>Beitragsanalyse: Anzahl der diesen Monat verwendeten Nutzungs-Token</li></ul> |
 
 ## Anomalieerkennung und Beitragsanalyse – Berechtigungen {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
