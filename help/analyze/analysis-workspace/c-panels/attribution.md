@@ -3,14 +3,13 @@ title: Attributionsbedienfeld
 description: Verwendung und Interpretation des Attributionsbedienfelds in Analysis Workspace.
 feature: Attribution
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
+source-git-commit: e3005892edd0854f76956a500ca3a8927d0b31b1
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 65%
+source-wordcount: '442'
+ht-degree: 52%
 
 ---
-
 
 # Attributionsbedienfeld
 
@@ -40,6 +39,5 @@ Das Bedienfeld [!UICONTROL Attribution] ist eine einfache Möglichkeit, eine Ana
 * **Zuteilungstabelle**: Zeigt dieselben Daten wie das Balkendiagramm an, das als Tabelle dargestellt wird. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Bedienfeld gefiltert. Diese Tabelle verhält sich ähnlich wie jede andere Freiformtabelle in Workspace. So können Sie Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen.
 * **Überschneidungsdiagramm**: Ein Venn-Diagramm, das die drei wichtigsten Dimensionselemente und deren gemeinsame Teilnahme an einer Konversion anzeigt. Beispielsweise gibt die Größe der Blasenüberlagerung an, wie oft Konversionen auftraten, wenn ein Besucher beiden Dimensionselementen ausgesetzt war. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
 * **Leistungsdetails**: Ermöglicht den visuellen Vergleich von bis zu drei Zuordnungsmodellen mithilfe eines Streudiagramms.
-* **Trendleistung**: Zeigt den Trend der zugeordneten Konvertierungen für das Element der obersten Dimension. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
+* **Trendleistung**: Zeigt standardmäßig den Trend der Konversionsleistung nach Zuordnungsmodell für die erste Dimension an, die in der angrenzenden Freiform-Tabelle aufgeführt ist. Sie können in der Freiform-Tabelle verschiedene Dimensionzeilen auswählen, um den Trend für die ausgewählten Dimensionen anzuzeigen (z. B. Gesamtumsatz für jedes Zuordnungsmodell für Social-Kampagnen und gebührenpflichtige Suche). Alternativ können Sie Zellen in den Spalten für beliebige Metrik- und Zuordnungstypkombinationen in der Freiform-Tabelle auswählen, um die Trendleistung nach Dimensionswert für die angegebenen Zuordnungsmodelle (z. B. Gesamtumsatz nach Marketing-Kanal mit Last Touch- und First Touch-Zuordnung) anzuzeigen.
 * **Fluss**: Hier können Sie sehen, mit welchen Kanälen am häufigsten interagiert wird und in welcher Reihenfolge die Journey eines Besuchers angezeigt wird.
-
