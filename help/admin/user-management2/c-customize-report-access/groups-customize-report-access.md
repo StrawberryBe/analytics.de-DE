@@ -6,11 +6,10 @@ title: Anpassen des Berichtszugriffs – Übersicht
 feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 96%
+source-wordcount: '591'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Nachdem alle Kunden migriert haben, werden Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Admin]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Passen Sie Gruppenberechtigungen für den Zugriff auf Analytics-Tools, Report Suite-Tools, Metriken und Dimensionen an.
 
