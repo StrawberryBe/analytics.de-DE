@@ -3,14 +3,13 @@ description: Informationen zum Planen, Herunterladen und Verteilen von Berichten
 subtopic: Schedule
 title: Berichtsplanung und -verteilung
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics Basics,Reports and analytics
+feature: Grundlagen zu Reports & Analysen, Reports & Analysen
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1669'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +108,7 @@ Im [!UICONTROL Manager für geplante Berichte] können regelmäßige Berichtausl
 
 Im [!UICONTROL „Manager für geplante Berichte“] werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt.
 
-1. Um auf den Manager zuzugreifen, klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Terminierte Berichte]**.
+1. Um auf den Manager zuzugreifen, klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Geplante Berichte]**.
 
 ## Berichtlink freigeben {#task_9711DDE9E140451B8C914EC5513E21EC}
 
