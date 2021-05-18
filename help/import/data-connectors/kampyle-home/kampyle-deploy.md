@@ -2,14 +2,13 @@
 description: Stellen Sie den Kampyle-Datenanschluss in Adobe Analytics bereit.
 title: Bereitstellen der Integration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '450'
 ht-degree: 46%
 
 ---
-
 
 # Bereitstellen der Integration {#deploying-the-integration}
 
@@ -20,7 +19,7 @@ Bei der Bereitstellung dieser Integration müssen Sie den Integrationsassistente
 Um die Integration zu aktivieren, führen Sie den Konfigurationsassistenten in der Data Connectors-Oberfläche aus.
 
 1. Melden Sie sich bei Adobe Experience Cloud an.
-1. Navigieren Sie zu **[!UICONTROL Data Connectors]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data Connectors]**.
 1. Starten Sie den Kampyle-Integrationsassistenten.
 1. Wählen Sie die gewünschte Report Suite aus. Geben Sie dann einen Namen für die Integration ein.
 1. Konfigurieren Sie die folgenden Elemente:
