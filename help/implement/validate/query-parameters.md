@@ -1,14 +1,13 @@
 ---
 title: Datenerfassungs-Abfrageparameter
 description: Listet alle in Bildanforderungen verwendeten Abfragezeichenfolgenparameter auf.
-translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
+source-git-commit: 7025d132da9d281da6d57973a195a5e86a39bf18
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
-
 
 # Datenerfassungs-Abfrageparameter
 
@@ -46,6 +45,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `j` | Keine | Die im Browser installierte JavaScript-Version. |
 | `k` | Keine | Wird in der Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) verwendet. |
 | `l1` – `l3` | [`list1` – `list3`](../vars/page-vars/list.md) | Listenvariablen. |
+| `lrt` | Keine | Die &quot;letzte Anforderungszeitangabe&quot;, d. h. die Roundtrip-Zeit für die letzte Anforderung, in Millisekunden. Sie wird nur gesendet, wenn mehr als eine Anforderung von einer Seite gesendet wird oder wenn es sich bei der Seite um eine Einzelseitenanwendung handelt (SPA). |
 | `mid` | Keine | Experience Cloud-Besucher-ID. |
 | `ndh` | Keine | Markierung, die angibt, ob die Bildanforderung von AppMeasurement stammt. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Hilft festzustellen, wo Cookies gesetzt werden. |
