@@ -5,11 +5,10 @@ title: Data Sources Manager
 topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
@@ -17,15 +16,15 @@ ht-degree: 100%
 
 Erstellen, verwalten und zeigen Sie die Nutzung von Datenquellen in einer Report Suite an.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Alle Admin]** >  **[!UICONTROL Datenquellen]**.
 
-## Registerkarte „Erstellen“ {#section_74603FDA3D8842E49F1A51624A06DE20}
+## Registerkarte „Erstellen“  {#section_74603FDA3D8842E49F1A51624A06DE20}
 
 Über die Registerkarte [!UICONTROL Erstellen] können Sie eine neue Datenquelle für die aktuell ausgewählte Report Suite konfigurieren. Wenn Sie eine Datenquelle aktivieren, führt Sie der [!UICONTROL Data Sources-Assistent] durch den Erstellungsvorgang einer Data Sources-Vorlage und legt einen FTP-Speicherort zum Hochladen der Daten an.
 
 Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswahl auf der Registerkarte „Erstellen“ abhängig. Siehe   [Erstellen einer Importdatei-Vorlage](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
-## Registerkarte „Verwalten“ {#section_DD559A6701CA45F1A85E56F840F48DBE}
+## Registerkarte „Verwalten“  {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
