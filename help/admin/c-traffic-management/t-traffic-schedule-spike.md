@@ -1,14 +1,13 @@
 ---
 title: Planen von Traffic-Spitzen
 description: Partner mit Adobe, um sicherzustellen, dass Ereignisse mit hohem Traffic keine Latenz erleben.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 24%
+source-wordcount: '581'
+ht-degree: 23%
 
 ---
-
 
 # Planen von Traffic-Spitzen
 
@@ -18,7 +17,7 @@ Der erweiterte Server-seitige Datenausgleich mit mehreren dedizierten Mitarbeite
 
 Bitte lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Steigerungen](/help/admin/c-traffic-management/traffic-lead-time.md), bevor Sie eine Traffic-Spitze planen.
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic-Management]** > **[!UICONTROL Spitze planen]**.
 1. Geben Sie im Feld **[!UICONTROL Spitzenstartdatum]** an, ab welchem Datum mit der Traffic-Spitze zu rechnen ist.
