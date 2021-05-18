@@ -4,26 +4,25 @@ title: Activity Map aktivieren
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
-
 
 # Activity Map aktivieren {#enable-activity-map}
 
 Erläutert die Schritte, die der Analytics-Administrator ausführen muss, um die Activity Map-Linkerfassung und den Download durch den Benutzer zu ermöglichen.
 
-## Schritt 1. AppMeasurement-Code (Javascript) auf Version 1.6 (oder höher) aktualisieren {#section_5D1586289DF2489289B1B6C1C80C300D}
+## Schritt 1. AppMeasurement-Code (Javascript) auf Version 1.6 (oder höher) aktualisieren  {#section_5D1586289DF2489289B1B6C1C80C300D}
 
 Das Activity Map-Modul ist Bestandteil der Datei AppMeasurement.js (befindet sich oben in der Datei). Die AppMeasurement-Bibliothek lädt das Activity Map-Modul nach der Instanziierung.
 
 Activity Map-Daten können erst erfasst werden, nachdem AppMeasurement auf diese Version (oder höher) aktualisiert wurde.
 
-1. Laden Sie über **[!UICONTROL Analyse]** > **[!UICONTROL Admin]** > **[!UICONTROL Code-Manager]** den aktuellen AppMeasurement-Code (AppMeasurement_Javascript-1.6.zip) herunter und [implementieren Sie ihn](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html).
+1. Laden Sie den neuesten AppMeasurement-Code (AppMeasurement_Javascript-1.6.zip) unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code-Manager]** herunter und [implementieren Sie ihn](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html).
 
    Der verfügbare [Beispiel-Implementierungscode](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) veranschaulicht die Änderungen, die am Code durch Einbindung des Activity Map-Moduls vorgenommen wurden.
 
