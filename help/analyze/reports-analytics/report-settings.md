@@ -3,14 +3,13 @@ description: Einstellungen, die festlegen, wie alle Berichte angezeigt werden, u
 title: Einstellungen zur Berichtsanzeige und Navigation
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1470'
 ht-degree: 99%
 
 ---
-
 
 # Einstellungen zur Berichtsanzeige und Navigation
 
@@ -18,7 +17,7 @@ Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informatio
 
 ## Einstellungen zur Berichtsanzeige und Navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Berichtseinstellungen]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Komponenten]** >  **[!UICONTROL Alle Komponenten]** >  **[!UICONTROL Berichtseinstellungen]**
 
 | Element | Beschreibung |
 |--- |--- |
@@ -149,4 +148,3 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 | **Benutzerspezifische Berichte** |  |  |
 |  | Benutzerspezifische Berichte werden nur angezeigt, wenn Sie welche eingerichtet haben. | Benutzerspezifische Berichte |
 |  |  |  |
-
