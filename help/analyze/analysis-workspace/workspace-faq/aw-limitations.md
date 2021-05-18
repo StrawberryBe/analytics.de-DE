@@ -1,16 +1,15 @@
 ---
 description: Liste der bekannten Einschränkungen in Adobe Analysis Workspace und der zugehörigen Komponenten
 title: Bekannte Einschränkungen in Analysis Workspace
-feature: Workspace Basics
+feature: Workspace – Allgemeines
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 98%
 
 ---
-
 
 # Bekannte Einschränkungen in Analysis Workspace
 
@@ -53,7 +52,7 @@ Im Folgenden finden Sie eine Liste der bekannten Einschränkungen in Analysis Wo
 
 * Wenn die Berichtszeitverarbeitung aktiviert ist, werden bestimmte Komponenten nicht unterstützt. Eine vollständige Liste finden Sie unter [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md).
 
-## Komponenten > Berichtseinstellungen
+## Komponenten > Alle Komponenten > Berichtseinstellungen
 
 * Einige der Einstellungen auf der Seite [!UICONTROL Berichtseinstellungen] gelten nicht. Analysis Workspace verwendet nur die [!UICONTROL Einstellungen für Sprache/Währung/Kodierung] am unteren Rand: [!UICONTROL Tausendertrennzeichen], [!UICONTROL Kodierung des terminierten Berichts] und [!UICONTROL CSV-Trennzeichen].
 
