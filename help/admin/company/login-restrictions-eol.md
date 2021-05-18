@@ -1,14 +1,13 @@
 ---
 title: Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 description: Erfahren Sie mehr über die Abschaffung und die Auswirkungen für die Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
-translation-type: tm+mt
-source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
+exl-id: 67d822ee-005b-46cf-80b4-a5aa4412d746
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '546'
 ht-degree: 80%
 
 ---
-
 
 # Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 
@@ -28,7 +27,7 @@ Schließlich verfügt Adobe über eine funktionierende und weit überlegene Alte
 
 Für alle Kunden, die **[!UICONTROL IP-Anmeldebeschränkungen erzwingen]** eingerichtet haben, wird diese Funktion im Januar 2021 entfernt. Zu diesem Zeitpunkt werden noch festgelegte IP-Anmeldebeschränkungen nicht mehr erzwungen. Wenn Sie die Anmeldung weiterhin nach IP-Adresse beschränken müssen, sollten Sie die empfohlene Lösung für Single Sign-On und Federated IDs (weitere Informationen und Ressourcen unten) prüfen und implementieren.
 
-Zusätzlich wird die Einstellung **[!UICONTROL IP-Anmeldebeschränkungen erzwingen]** aus **[!UICONTROL Admin] > [!UICONTROL Firma-Einstellungen] > [!UICONTROL Sicherheitsmanager]** in der Analytics-Benutzeroberfläche entfernt (wie unten gezeigt).
+Zusätzlich wird die Einstellung **[!UICONTROL IP-Anmeldebeschränkungen erzwingen]** aus **[!UICONTROL Admin] > [!UICONTROL Alle Admin] > [!UICONTROL Firmen-Einstellungen] > [!UICONTROL Sicherheitsmanager]** in der Analytics-Benutzeroberfläche entfernt (wie unten gezeigt).
 
 ![](assets/sec-manager2.png)
 
