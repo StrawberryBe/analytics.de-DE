@@ -5,11 +5,10 @@ subtopic: Users and groups
 title: Änderungen an Berechtigungen für Benutzer und Gruppen
 feature: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 97%
+source-wordcount: '1566'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Benutzer- und Produktverwaltung wurden in die Admin Console [verschoben. ](https://helpx.adobe.com/de/enterprise/using/admin-console.html) Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Benutzer- und Produktverwaltung wurden in die Admin Console [verschoben. ](https://helpx.adobe.com/de/enterprise/using/admin-console.html) Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Kunden migriert haben, werden Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Admin]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 ## Was hat sich geändert? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
