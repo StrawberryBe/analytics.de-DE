@@ -4,14 +4,13 @@ title: Activity Map – Berichterstattung in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
-
 
 # Activity Map – Berichterstattung in Analytics
 
@@ -22,7 +21,7 @@ Beschreibt, wie Berechtigungen festgelegt werden und welche Abmessungen in Analy
 Bevor Anwender Berichte zu Activity Map-Abmessungen erstellen können, müssen Sie als der Administrator
 
 * [Der Activity Map Access Group Anwender hinzufügen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Report Suites hinzufügen, die auf diese Gruppe zugreifen können sollen. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Activity Map-Zugriff]** > **[!UICONTROL Bearbeiten]**.
+* Report Suites hinzufügen, die auf diese Gruppe zugreifen können sollen. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Activity Map-Zugriff]** > **[!UICONTROL Bearbeiten]**.
 * Den Anwenderzugriff auf Abmessungen anpassen. Weitere Informationen dazu finden Sie im unten stehenden Abschnitt.
 
 ## Analytics Activity Map-Abmessungen {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -41,4 +40,3 @@ Sie können den [Anwenderzugriff auf Abmessungen](https://docs.adobe.com/content
 * Navigieren Sie in Reports &amp; Analytics zu **[!UICONTROL Alle Berichte anzeigen]** > **[!UICONTROL Activity Map]**.
 
 * Um einen Link und eine Region für eine bestimmte Seite anzusehen, müssen Sie nur eine Aufschlüsselung auf der gewünschten Activity Map-Seite nach „Activity Map-Links und -Region“ erstellen.
-
