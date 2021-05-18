@@ -1,14 +1,13 @@
 ---
 title: Auswirkungen an Benutzer kommunizieren
 description: Erfahren Sie, wie Sie die Wirkung eines Ereignisses in Ihrem Unternehmen effektiv kommunizieren können.
-translation-type: tm+mt
-source-git-commit: 022d9cbfdae11d7efe1efb7fe503f4fdaa785be1
+exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
-
 
 # Auswirkungen des Ereignisses auf Benutzer kommunizieren
 
@@ -55,13 +54,13 @@ Für jede Trendvisualisierung in Workspace können Sie eine Reihe hinzufügen, d
 
 1. hinzufügen einer Linienvisualisierung. Betroffene Tage werden mit einer anderen Farbe dargestellt. Benutzer können auch auf das Symbol &quot;Info&quot;in der berechneten Metrik klicken, um weitere Informationen zu erhalten.
 
-   ![Infosymbol](assets/calcmetric_infoicon.png)
+   ![Info-Symbol](assets/calcmetric_infoicon.png)
 
 ## Kalendereinstellungen in Reports &amp; Analysen verwenden
 
 Wenn Sie Reports &amp; Analysen verwenden, können Sie mit einem [calendar-Ereignis](/help/components/t-calendar-event.md) die betroffenen Tage in einem beliebigen Trendbericht hervorheben. Diese Methode gilt nicht für Analysis Workspace.
 
-1. Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Kalenderkomponenten]**.
+1. Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Kalenderkomponenten]**.
 2. Geben Sie den gewünschten Titel, den Datumsbereich und den Notiztext ein.
 3. Klicken Sie auf **[!UICONTROL Speichern]**.
 
