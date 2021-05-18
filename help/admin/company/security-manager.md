@@ -4,11 +4,10 @@ title: Sicherheits-Manager
 feature: Admin Tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +17,7 @@ Mit dem Sicherheits-Manager können Sie den Zugriff auf Berichtsdaten kontrollie
 
 ## Einstellungen
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Sicherheit]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Alle Admin]** >  **[!UICONTROL Firmen-Einstellungen]** >  **[!UICONTROL Sicherheit]**
 
 | Einstellung | Beschreibung |
 |--- |--- |
