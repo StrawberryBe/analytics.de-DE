@@ -1,14 +1,13 @@
 ---
 title: Integrationsmodul
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 100%
+source-wordcount: '880'
+ht-degree: 98%
 
 ---
-
 
 # Integrationsmodul
 
@@ -35,7 +34,7 @@ Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff 
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 1. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
-1. Klicken Sie in der oberen Navigation auf [!UICONTROL Admin] > [!UICONTROL Code-Manager].
+1. Klicken Sie in der oberen Navigation auf **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code-Manager]**.
 1. Laden Sie die neueste JavaScript AppMeasurement-Bibliothek herunter.
 1. Entpacken Sie die Datei nach dem Herunterladen und suchen Sie `AppMeasurement_Module_Integrate.js`.
 
@@ -55,7 +54,7 @@ Nachdem das Integrationsmodul implementiert wurde, konfigurieren Sie es mit dies
 
 ### add
 
-Die `add`-Methode instanziiert ein Partnerobjekt, das als Zwischenspeicher variabler Daten dient, wenn Daten zwischen Partnersystemen und Ihrer Implementierung freigegeben werden. Diese Methode ist für alle Integrationen erforderlich. Für jeden individuellen Partner muss ein separates Partnerobjekt verwendet werden, wenn in einer Implementierung mehrere Partner verwendet werden.
+Die `add`-Methode instanziiert ein Partnerobjekt, das als Zwischenspeicher variabler Daten dient, wenn Daten zwischen Partnersystemen und Ihrer Implementierung freigegeben werden. Diese Methode ist für alle Integrationen erforderlich. Für jeden eindeutigen Partner muss ein separates Partnerobjekt verwendet werden, wenn in einer Implementierung mehrere Partner verwendet werden.
 
 ```JavaScript
 s.Integrate.add("<partner_name>");
