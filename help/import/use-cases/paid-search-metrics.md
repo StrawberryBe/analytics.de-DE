@@ -1,14 +1,13 @@
 ---
 title: Metriken zur gebührenpflichtigen Suche importieren
 description: Schritte zum Konfigurieren von Adobe Analytics zur Verfolgung Ihrer gebührenpflichtigen Suchmetriken (z. B. Google AdWords, MSN, Yahoo usw.) Verwenden von Data Sources.
-translation-type: tm+mt
-source-git-commit: 81592ab80942b802fff3df62d2cd44b1e376aff8
+exl-id: b25a2a26-d277-4a51-9194-973acb425095
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1212'
 ht-degree: 8%
 
 ---
-
 
 # [!UICONTROL Gebührenpflichtige Suchmetriken mit [!UICONTROL Datenquellen] importieren]
 
@@ -51,7 +50,7 @@ Sie sollten eine Meldung erhalten, dass Ihre Speichern genehmigt wurden.
 
 [!UICONTROL Mit Data ] Sources können Sie Nicht-Clickstream-Daten für Adobe Analytics freigeben. In diesem Fall verwenden wir Adobe Analytics zur Verfolgung von Metriken für gebührenpflichtige Suchen. Wir verwenden den Rückverfolgungscode als unseren Schlüssel, um die beiden Datenelemente - gebührenpflichtige Suchmetriken und Adobe Analytics-Metriken - miteinander zu verbinden.
 
-1. Navigieren Sie zu **[!UICONTROL Adobe Analytics > Admin > Data Sources]**.
+1. Navigieren Sie zu **[!UICONTROL Adobe Analytics > Admin > Alle Admin > Datenquellen]**.
 1. Wählen Sie die Registerkarte **[!UICONTROL Erstellen]**, um Beginn zu aktivieren, die neue Datenquellen aktivieren.
 1. Wählen Sie unter **[!UICONTROL Kategorie]** aus **[!UICONTROL Kampagne anzeigen]**.
 
