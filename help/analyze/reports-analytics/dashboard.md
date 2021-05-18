@@ -4,14 +4,13 @@ subtopic: Dashboards
 title: Dashboards und Kurzberichte
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1827'
+ht-degree: 98%
 
 ---
-
 
 # Dashboards und Kurzberichte
 
@@ -43,11 +42,11 @@ Bedenken Sie, dass einige häufig angezeigte Berichte nicht in Dashboards umgewa
 
 Neben den Dashboards, die Sie erstellen, stehen jedem Benutzer die folgenden, voreingestellten Dashboards zur Verfügung:
 
-**[!UICONTROL Komponenten] > [!UICONTROL Dashboards] > [!UICONTROL Freigegebene Dashboards] > [!UICONTROL Lokale Sites]**
+**[!UICONTROL Komponenten] >  [!UICONTROL Alle Komponenten] >  [!UICONTROL Dashboard] >  [!UICONTROL Freigegebene Dashboard] >  [!UICONTROL Lokale Sites]**
 
 Das anpassbare Dashboard bietet Ihnen eine Möglichkeit, Reportlets in der bereitgestellten Vorlage abzulegen.
 
-**[!UICONTROL Komponenten] > [!UICONTROL Dashboards] > [!UICONTROL Freigegebene Dashboards] > [!UICONTROL Dashboard „Site-Betrieb“]**
+**[!UICONTROL Komponenten] >  [!UICONTROL Alle Komponenten] >  [!UICONTROL Dashboard] >  [!UICONTROL Freigegebene Dashboard] >  [!UICONTROL Site-Betrieb-Dashboard]**
 
 Dieses Dashboard bietet Ihnen eine Übersicht über die Schlüsselmetriken in Bezug auf den Betrieb Ihrer Website. Zu den Berichten dieses Dashboards zählen:
 
@@ -188,7 +187,7 @@ t_dashboard_edit.xml
 
 **So bearbeiten Sie Dashboard- und Reportlet-Daten**
 
-1. Klicken Sie auf **[!UICONTROL Komponenten]** > **[!UICONTROL Dashboards]** > *Dashboard-Name*, um ein Dashboard zu öffnen.
+1. Klicken Sie auf **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboard]** > *Dashboard-Name*, um ein Dashboard zu öffnen.
 1. Klicken Sie auf **[!UICONTROL Layout]**.
 
 | Hierzu | Führen Sie folgende Schritte aus |
@@ -216,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Unternehmenseinstellungen]**.
+1. **[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Alle Admin]** ->  **[!UICONTROL Firmen-Einstellungen]**.
 1. Klicken Sie auf der Seite [!UICONTROL Unternehmenseinstellungen] auf **[!UICONTROL Co-Branding der Adobe Experience Cloud]**.
 1. Klicken Sie auf **[!UICONTROL Co-Branding aktivieren]**.
 1. Durchsuchen Sie Ihre Verzeichnisse, um das Bild auszuwählen, und klicken Sie auf **[!UICONTROL Speichern]**.
