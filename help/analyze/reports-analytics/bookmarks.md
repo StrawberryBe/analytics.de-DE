@@ -3,14 +3,13 @@ description: Anhand von Lesezeichen haben Sie Zugriff auf die Berichte, die Sie 
 subtopic: Bookmarks
 title: Lesezeichen-Manager
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Grundlagen zu Reports & Analysen
+feature: Grundlegendes zu Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 99%
+source-wordcount: '329'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Lesezeichen]**.
+**[!UICONTROL Analytics]** >  **[!UICONTROL Komponenten]** >  **[!UICONTROL Alle Komponenten]** >  **[!UICONTROL Lesezeichen]**.
 
 **Meine Lesezeichen**
 
