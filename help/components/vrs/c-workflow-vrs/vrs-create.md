@@ -2,14 +2,13 @@
 description: Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Aspekte berücksichtigen.
 keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
-feature: Grundlagen zu Reports & Analysen
+feature: Grundlegendes zu Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 99%
+source-wordcount: '368'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +49,7 @@ Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Asp
   </tr> 
   <tr> 
    <td colname="col1"> Gruppen </td> 
-   <td colname="col2"> <p>Wählen Sie die Berechtigungsgruppen aus, die Zugriff auf diese VRS besitzen sollen. (Sie können Gruppenberechtigungen auch unter <span class="ignoretag"><span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen</span></span> verwalten.) </p> </td> 
+   <td colname="col2"> <p>Wählen Sie die Berechtigungsgruppen aus, die Zugriff auf diese VRS besitzen sollen. (Sie können Gruppenberechtigungen auch von <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> Benutzerverwaltung</span> &gt; <span class="uicontrol"> Gruppen</span></span> verwalten.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Übergeordnete Report Suite </td> 
