@@ -4,10 +4,10 @@ description: Verwendung und Interpretation des Attributionsbedienfelds in Analys
 feature: Attribution
 role: Business Practitioner, Administrator
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: e3005892edd0854f76956a500ca3a8927d0b31b1
+source-git-commit: c38e20a7f9a295609181cc9435489ac86cda0852
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 52%
+ht-degree: 47%
 
 ---
 
@@ -36,7 +36,7 @@ Das Bedienfeld [!UICONTROL Attribution] ist eine einfache Möglichkeit, eine Ana
 
 * **Gesamtmetrik**: Die Gesamtanzahl der im Berichtszeitfenster aufgetretenen Konversionen. Hierbei handelt es sich um die Konversionen, die über die von Ihnen ausgewählte Dimension hinweg mit Attributen versehen werden.
 * **Vergleichsleiste**: Vergleicht visuell die zugeordneten Konvertierungen über die einzelnen Dimensionselemente Ihrer ausgewählten Dimension hinweg. Jede Balkenfarbe stellt ein bestimmtes Attributionsmodell dar.
-* **Zuteilungstabelle**: Zeigt dieselben Daten wie das Balkendiagramm an, das als Tabelle dargestellt wird. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Bedienfeld gefiltert. Diese Tabelle verhält sich ähnlich wie jede andere Freiformtabelle in Workspace. So können Sie Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen.
+* **Zuteilungstabelle**: Zeigt dieselben Daten wie das Balkendiagramm an, das als Tabelle dargestellt wird. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Bedienfeld gefiltert. Diese Tabelle ähnelt jeder anderen Freiform-Tabelle in Workspace, sodass Sie Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen können.
 * **Überschneidungsdiagramm**: Ein Venn-Diagramm, das die drei wichtigsten Dimensionselemente und deren gemeinsame Teilnahme an einer Konversion anzeigt. Beispielsweise gibt die Größe der Blasenüberlagerung an, wie oft Konversionen auftraten, wenn ein Besucher beiden Dimensionselementen ausgesetzt war. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
 * **Leistungsdetails**: Ermöglicht den visuellen Vergleich von bis zu drei Zuordnungsmodellen mithilfe eines Streudiagramms.
 * **Trendleistung**: Zeigt standardmäßig den Trend der Konversionsleistung nach Zuordnungsmodell für die erste Dimension an, die in der angrenzenden Freiform-Tabelle aufgeführt ist. Sie können in der Freiform-Tabelle verschiedene Dimensionzeilen auswählen, um den Trend für die ausgewählten Dimensionen anzuzeigen (z. B. Gesamtumsatz für jedes Zuordnungsmodell für Social-Kampagnen und gebührenpflichtige Suche). Alternativ können Sie Zellen in den Spalten für beliebige Metrik- und Zuordnungstypkombinationen in der Freiform-Tabelle auswählen, um die Trendleistung nach Dimensionswert für die angegebenen Zuordnungsmodelle (z. B. Gesamtumsatz nach Marketing-Kanal mit Last Touch- und First Touch-Zuordnung) anzuzeigen.
