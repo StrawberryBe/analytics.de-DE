@@ -1,14 +1,13 @@
 ---
 title: Fehlerbehebung bei der Anmeldung bei Adobe Analytics
 description: Schritte für den Fall, dass Sie sich nicht bei Adobe Analytics anmelden können.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: e670a043-c55b-4717-9b60-613ea4d04382
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
-
 
 # Fehlerbehebung bei der Anmeldung bei Adobe Analytics
 
@@ -45,7 +44,7 @@ Wenn das Problem durch Löschen der Cookies/des Cache des Browsers nicht behoben
 >Die folgenden Schritte zum Zurücksetzen des Passworts eines Benutzers gelten nur für Legacy-Analytics-IDs, nicht für Adobe ID. Wenn Ihr Unternehmen Adobe ID verwendet, können Sie Benutzerkonten unter [adminconsole.adobe.com](https://adminconsole.adobe.com) verwalten.
 
 1. Melden Sie sich bei Adobe Analytics mit einem Konto an, das über Administratorrechte verfügt.
-2. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]**.
+2. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]**.
 3. Klicken Sie auf die Registerkarte **[!UICONTROL Benutzer]** und dann auf **[!UICONTROL Bearbeiten]** neben dem gewünschten Benutzer.
 4. Ändern Sie das Kennwort in einen beliebigen Wert und aktivieren Sie das Kontrollkästchen **[!UICONTROL Erfordert Passwortänderung durch den Benutzer bei der nächsten Anmeldung]**.
 5. Informieren Sie den Benutzer über das neue Kennwort.
