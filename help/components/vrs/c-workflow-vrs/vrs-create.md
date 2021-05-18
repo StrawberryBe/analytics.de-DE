@@ -5,10 +5,10 @@ title: Virtual Report Suites erstellen
 feature: Grundlegendes zu Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 96%
+source-wordcount: '663'
+ht-degree: 73%
 
 ---
 
@@ -25,43 +25,50 @@ Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Asp
 
    ![](assets/new_vrs.png)
 
-1. Füllen Sie die Felder aus:
+## Einstellungen definieren
 
-<table id="table_0F85B56480BB46CBA5BE236BBD70156D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Name </td> 
-   <td colname="col2"> <p>Der Name der Virtual Report Suite wird nicht von der übergeordneten Report Suite geerbt und sollte eindeutig vergeben werden. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Beschreibung </td> 
-   <td colname="col2"> <p>Fügen Sie eine gute Beschreibung der Vorteile für Ihre geschäftlichen Benutzer hinzu. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Tags </td> 
-   <td colname="col2"> <p>Sie können Tags hinzufügen, um Ihre Report Suites zu organisieren. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Gruppen </td> 
-   <td colname="col2"> <p>Wählen Sie die Berechtigungsgruppen aus, die Zugriff auf diese VRS besitzen sollen. (Sie können Gruppenberechtigungen auch von <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> Benutzerverwaltung</span> &gt; <span class="uicontrol"> Gruppen</span></span> verwalten.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Übergeordnete Report Suite </td> 
-   <td colname="col2"> <p>Die Report Suite, von der diese Virtual Report Suite die folgenden Einstellungen erbt. Die meisten Service-Levels und Funktionen (z. B. eVar-Einstellungen, Verarbeitungsregeln, Classifications usw.) werden vererbt. Möchten Sie Änderungen diesen geerbten Einstellungen einer VRS vornehmen, müssen Sie die übergeordnete Report Suite anpassen (<span class="ignoretag"><span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span></span>). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Zeitzone </td> 
-   <td colname="col2"> <p>Die Auswahl einer Zeitzone ist optional. </p> <p>Wenn Sie eine Zeitzone auswählen, wird diese zusammen mit der VRS gespeichert. Wenn Sie keine Zeitzone auswählen, wird die Zeitzone der übergeordneten Report Suite verwendet. </p> <p>Bei der Bearbeitung einer VRS erscheint die mit ihr gespeicherte Zeitzone in einem Dropdown-Auswahlmenü. Wenn die VRS erstellt wurde, bevor Zeitzonen unterstützt wurden, wird die Zeitzone der übergeordneten Report Suite in der Dropdownauswahl angezeigt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Segmente </td> 
-   <td colname="col2"> <p>Sie können nur ein Segment hinzufügen oder Sie können <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-build.html"  >Segmente stapeln</a>. </p> <p> <p>Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine OR-Anweisung geändert werden. </p> </p> <p>Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Definieren Sie auf der Registerkarte [!UICONTROL Einstellungen] diese Einstellungen und klicken Sie dann auf **[!UICONTROL Weiter]**.
+
+| Element | Beschreibung |
+| --- |--- |
+| Name | Der Name der Virtual Report Suite wird nicht von der übergeordneten Report Suite geerbt und sollte eindeutig vergeben werden. |
+| Beschreibung | Fügen Sie eine gute Beschreibung der Vorteile für Ihre geschäftlichen Benutzer hinzu. |
+| Tags | Sie können Tags hinzufügen, um Ihre Report Suites zu organisieren. |
+| Quelle | Die Report Suite, von der diese Virtual Report Suite die folgenden Einstellungen erbt. Die meisten Service-Levels und Funktionen (z. B. eVar-Einstellungen, Verarbeitungsregeln, Classifications usw.) werden vererbt. Möchten Sie Änderungen diesen geerbten Einstellungen einer VRS vornehmen, müssen Sie die übergeordnete Report Suite anpassen (Admin > Report Suites). |
+| Zeitzone | Die Auswahl einer Zeitzone ist optional. Wenn Sie eine Zeitzone auswählen, wird diese zusammen mit der VRS gespeichert. Wenn Sie keine Zeitzone auswählen, wird die Zeitzone der übergeordneten Report Suite verwendet.  Bei der Bearbeitung einer VRS erscheint die mit ihr gespeicherte Zeitzone in einem Dropdown-Auswahlmenü. Wenn die VRS erstellt wurde, bevor Zeitzonen unterstützt wurden, wird die Zeitzone der übergeordneten Report Suite in der Dropdownauswahl angezeigt. |
+| Segmente | Sie können nur ein Segment hinzufügen oder Sie können Segmente stapeln.   Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine OR-Anweisung geändert werden. Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. |
+
+## Definition von Besuchen definieren
+
+Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einstellungen und klicken Sie dann auf **[!UICONTROL Weiter]**.
+
+![](assets/visit-definition.png)
+
+| Element | Beschreibung |
+| --- |--- |
+| **Definition für Besuch konfigurieren** |  |
+| Berichtszeitverarbeitung aktivieren | Verwenden Sie die Berichtszeitverarbeitung, um die standardmäßige Länge der Zeitüberschreitung des Besuchs zu ändern. Diese Einstellungen sind nicht destruktiv und gelten nur in Analysis Workspace. [Weitere Infos](/help/components/vrs/vrs-report-time-processing.md) |
+| Zeitüberschreitung für Besuch | Definiert den Inaktivitätswert, den ein Unique Visitor aufweisen muss, bevor automatisch ein neuer Besuch beginnt. Dies hat Auswirkungen auf die Besuchsmetriken, den Besuchssegment-Container und eVars, die beim Besuch erlöschen. |
+| Neuen Besuch mit Ereignis starten | Startet eine neue Sitzung, wenn eines der spezifizierten Ereignisse ausgelöst wird, unabhängig davon, ob eine Sitzung abgelaufen ist oder nicht. |
+| **Einstellungen für Mobile App-Besuche** | Ändern Sie, wie Besuche für App-Hits definiert werden, die über Adobe Mobile SDKs erfasst werden. Diese Einstellungen sind nicht destruktiv und gelten nur in Analysis Workspace. |
+| Verhindern Sie Hintergrund-Hits durch den Beginn eines neuen Besuchs | Verhindert, dass Hintergrund-Hits einen neuen Besuch starten und die Besuchs- und Unique Visitor-Metriken erhöht werden. |
+| Bei jedem Anwendungsstart einen neuen Besuch starten | Startet eine neue Sitzung, wenn eine App gestartet wird. [Weitere Infos](/help/components/vrs/vrs-mobile-visit-processing.md) |
+
+## Komponenten einschließen und umbenennen
+
+![](assets/components.png)
+
+1. Aktivieren Sie auf der Registerkarte [!UICONTROL Komponenten] das Kontrollkästchen, um die Kuratierung anzuwenden, um Komponenten für diese Virtual Report Suite in Analysis Workspace einzuschließen, auszuschließen und umzubenennen.
+Weitere Informationen zur VRS-Kuration finden Sie unter [Virtuelle Report Suite-Komponentenkuration](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+
+1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die VRS einbeziehen möchten, in den Abschnitt [!UICONTROL Eingeschlossene Komponenten].
+
+1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
+
+## Vorschau der Daten
+
+Auf der rechten Seite jeder Registerkarte können Sie die Gesamtanzahl der Treffer, Gesamtbesuche und Besucher in dieser Virtual Report Suite im Vergleich zur ursprünglichen Report Suite Vorschau haben.
+
+## Ansicht Produktkompatibilität
+
+Einige Funktionen von Virtual Report Suites werden nicht von allen Adobe Analytics-Produkten unterstützt. Mit der Liste zur Produktkompatibilität können Sie anhand Ihrer aktuellen Virtual Report Suite-Einstellungen sehen, welche Produkte in Adobe Analytics unterstützt werden.
