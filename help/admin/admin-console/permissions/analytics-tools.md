@@ -2,11 +2,10 @@
 title: Produktprofilberechtigungen für Analytics-Werkzeuge
 description: Verwenden Sie Analytics Tools-Berechtigungselemente, um Zugriff auf Funktionen in Adobe Analytics zu gewähren.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 73%
 
 ---
 
@@ -17,22 +16,22 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Berechtigungselement der Analytics-Tools | Beschreibung |
 |----|----|
 | Nutzung der Server-Aufrufe | Gewährt Zugriff auf „Admin > Nutzung der Serveraufrufe“. |
-| Code-Manager | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin > Code-Manager“. In den meisten Fällen sollten Sie stattdessen die in Adobe Experience Platform Launch enthaltenen Bibliotheken verwenden. |
+| Code-Manager | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Ermöglicht Zugriff auf Admin > Alle Admin > Code-Manager. In den meisten Fällen sollten Sie stattdessen die in Adobe Experience Platform Launch enthaltenen Bibliotheken verwenden. |
 | Code-Manager – Web-Services | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
-| Protokolle | Gewährt Zugriff auf „Admin > Protokolle“. |
+| Protokolle | Ermöglicht Zugriff auf Admin > Alle Admin > Protokolle. |
 | Protokolle – Web-Services | Gewährt Zugriff, um Protokolle über die 1.4-API abzurufen. |
-| Traffic-Management | Gewährt Zugriff auf „Admin > Traffic-Management“. |
-| Berechtigungsverwaltung | Wird nicht mehr länger verwendet. Gewährt Zugriff auf die Benutzeroberfläche der veralteten Benutzerverwaltung unter „Admin > Benutzerverwaltung“. |
+| Traffic-Management | Gewährt Zugriff auf Admin > Alle Admin > Traffic-Management. |
+| Berechtigungsverwaltung | Wird nicht mehr länger verwendet. Gewährt Zugriff auf die alte Benutzeroberfläche unter Admin > Alle Admin > Benutzerverwaltung. |
 | Berechtigungen (lesen) – Web-Services | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API anzuzeigen. Verwenden Sie stattdessen die Adobe Admin Console. |
 | Berechtigungen (schreiben) – Web-Services | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API zu bearbeiten. Verwenden Sie stattdessen die Adobe Admin Console. |
-| Sicherheit | Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Sicherheits-Manager“. |
-| Support | Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Support-Info“. |
-| Web-Services | Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Web-Services“. |
+| Sicherheit | Gewährt Zugriff auf Admin > Alle Admin > Einstellungen für die Firma > Sicherheitsmanager. |
+| Support | Gewährt Zugriff auf Admin > Alle Admin > Einstellungen für Firmen > Support-Info. |
+| Web-Services | Gewährt Zugriff auf Admin > Alle Admin > Einstellungen für die Firma > Web-Services. |
 | Single Sign-on | Wird nicht mehr länger verwendet. Gewährt Zugriff auf den nicht mehr unterstützten Single-Sign-On-Service. |
-| Ausstehende Aktionen | Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Ausstehende Aktionen“. |
-| Co-Branding | Wird nicht mehr länger verwendet. Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Co-Branding“. |
+| Ausstehende Aktionen | Gewährt Zugriff auf Admin > Alle Admin > Einstellungen für Firmen > Ausstehende Aktionen. |
+| Co-Branding | Wird nicht mehr länger verwendet. Gewährt Zugriff auf Admin > Alle Admin > Einstellungen für Firmen > Co-Branding. |
 | Voreinstellungen | Nicht verwendet. |
-| Ausblenden von Report Suites | Gewährt Zugriff auf „Admin > Unternehmenseinstellungen > Report Suites ausblenden“. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
+| Ausblenden von Report Suites | Gewährt Zugriff auf Admin > Alle Admin > Einstellungen für Firmen > Report Suites ausblenden. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
 | Excel-Lizenzanwender | Nicht verwendet. |
 | Activity Map | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
 | Aktuelle Daten | Aktiviert die Option zum Anzeigen aktueller Daten in Reports &amp; Analytics-Berichten. |
@@ -48,6 +47,6 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Erstellung von Segmenten | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | Advertising Analytics-Verwaltung | Nicht verwendet. |
 | Segmentveröffentlichung | Gewährt die Möglichkeit, ein Segment beim Erstellen oder Bearbeiten zu einer Experience Cloud-Zielgruppe zu machen. |
-| Integrationen (Erstellen) | Gewährt Zugriff auf „Admin > Data Connectors“ und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
-| Integrationen (Aktualisieren) | Gewährt Zugriff auf „Admin > Data Connectors“ und ermöglicht dem Benutzer das Ändern vorhandener Connector-Konfigurationen. |
-| Integrationen (Löschen) | Gewährt Zugriff auf „Admin > Data Connectors“ und ermöglicht dem Benutzer das Löschen von Data Connectors. |
+| Integrationen (Erstellen) | Ermöglicht Zugriff auf Admin > Alle Admin > Data Connectors und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
+| Integrationen (Aktualisieren) | Ermöglicht Zugriff auf Admin > Alle Admin > Data Connectors und ermöglicht dem Benutzer, bestehende Connector-Konfigurationen zu ändern. |
+| Integrationen (Löschen) | Gewährt Zugriff auf Admin > Alle Admin > Data Connectors und ermöglicht dem Benutzer das Löschen von Data Connectors. |
