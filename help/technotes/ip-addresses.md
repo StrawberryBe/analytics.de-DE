@@ -2,8 +2,7 @@
 title: Von Adobe Analytics verwendete IPs und Domänen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von der Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-translation-type: tm+mt
-source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
+source-git-commit: 9e013f484c9f417a1e2ac2c2a59d2e918cedf787
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 86%
@@ -33,9 +32,9 @@ Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkter
 | Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## Alle IP-Adressblöcke der Adobe Analytics-Datenerfassung
+## Alle Adobe Analytics-Datenerfassungs-IP-Adressblöcke
 
-Die folgende Tabelle enthält alle Standarddatenerfassungsserver und regionalen Datenerfassungsserver für Adobe Analytics. Sie enthalten keine einzelnen AWS-Hosts.
+Die folgende Tabelle enthält alle standardmäßigen Datenerfassungsserver und regionalen Datenerfassungsserver für Adobe Analytics. Sie enthalten keine einzelnen AWS-Hosts.
 
 | IP-Block (CIDR-Notation) |
 | --- |
@@ -113,13 +112,13 @@ Wenn Ihr Unternehmen es vorzieht, bestimmte IP-Adressbereiche zuzulassen, könne
 
 ## AWS-Hosts
 
-Adobe Analytics verwendet Amazon Web Services als Teil des Datenerfassungsprozesses. Die folgende Tabelle enthält AWS-Hosts, die für Adobe reserviert sind. Diese Hosts sind **nicht** im obigen aggregierten Blockbereich enthalten.
+Adobe Analytics verwendet Amazon Web Services als Teil seines Datenerfassungsprozesses. Die folgende Tabelle enthält AWS-Hosts, die für Adobe reserviert sind. Diese Hosts sind **nicht** im obigen aggregierten Blockbereich enthalten.
 
 | Standort | Host |
 | --- | --- |
-| Australien | `13.238.77.77` |
-| Australien | `52.62.21.192` |
-| Australien | `54.66.152.159` |
+| Australien | `13.54.219.183` |
+| Australien | `52.62.137.88` |
+| Australien | `54.79.162.112` |
 | China | `52.81.111.133` |
 | China | `140.179.22.22` |
 | Frankreich | `15.237.76.117` |
