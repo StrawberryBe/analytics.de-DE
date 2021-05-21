@@ -1,14 +1,14 @@
 ---
 title: Entwicklungsimplementierung validieren und in der Produktion veröffentlichen
-description: Erfahren Sie, wie Sie mit Adobe Experience Platform Launch Adobe Analytics für Ihre Produktions-Umgebung bereitstellen.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+description: Erfahren Sie, wie Sie Adobe Experience Platform Launch verwenden, um Adobe Analytics in Ihrer Produktionsumgebung bereitzustellen.
+exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Entwicklungsimplementierung validieren und in der Produktion veröffentlichen
 
