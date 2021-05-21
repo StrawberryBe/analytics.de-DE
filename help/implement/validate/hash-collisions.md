@@ -1,20 +1,20 @@
 ---
 title: Hash-Kollisionen
 description: Beschreibt, was eine Hash-Kollision ist und wie sie sich manifestieren kann.
-translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
-workflow-type: tm+mt
+exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
 
-
 # Hash-Kollisionen
 
 Adobe behandelt prop- und eVar-Werte als Zeichenfolgen, auch wenn der Wert eine Zahl ist. Manchmal sind diese Zeichenfolgen Hunderte von Zeichen lang, manchmal sind sie kurz. Um Platz zu sparen, die Performance zu verbessern und alles einheitlich zu gestalten, werden die Zeichenfolgen nicht direkt in der Verarbeitung verwendet. Stattdessen wird für jeden Wert ein 32-Bit- oder 64-Bit-Hash berechnet. Alle Berichte werden mit diesen Hash-Werten ausgeführt, wobei jeder Hash durch den Originaltext ersetzt wird. Hashes erhöhen die Performance von Analytics-Berichten drastisch.
 
-Bei den meisten Feldern wird die Zeichenfolge zuerst komplett in Kleinschreibung konvertiert (reduziert die Anzahl einzigartiger Werte). Hash-Werte werden auf Monatsbasis vergeben (bei der ersten Anzeige pro Monat). Von Monat zu Monat besteht eine geringe Wahrscheinlichkeit, dass zwei eindeutige Variablenwerte denselben Wert haben. Dieses Konzept wird als *Hash-Kollision* bezeichnet.
+Bei den meisten Feldern wird die Zeichenfolge zuerst komplett in Kleinschreibung konvertiert (reduziert die Anzahl eindeutiger Werte). Hash-Werte werden auf Monatsbasis vergeben (bei der ersten Anzeige pro Monat). Von Monat zu Monat besteht eine geringe Wahrscheinlichkeit, dass zwei eindeutige Variablenwerte denselben Wert haben. Dieses Konzept wird als *Hash-Kollision* bezeichnet.
 
 Hash-Kollisionen können sich wie folgt im Bericht manifestieren:
 
