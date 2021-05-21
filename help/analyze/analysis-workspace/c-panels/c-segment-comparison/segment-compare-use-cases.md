@@ -2,16 +2,16 @@
 title: Anwendungsfälle für Segmentvergleiche
 description: Erfahren Sie, wie Sie mithilfe des Segmentvergleichsfelds Einblicke in die Marketing-Strategie gewinnen können.
 keywords: Segment IQ
-feature: Panels
+feature: Bedienfelder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 99%
+exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
-
 
 # Anwendungsfälle für Segment IQ
 
