@@ -1,14 +1,14 @@
 ---
 title: Besuche
 description: Eine Folge von Seitenansichten während einer Sitzung.
-translation-type: tm+mt
-source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
-workflow-type: tm+mt
+exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # Besuche
 
@@ -56,6 +56,6 @@ Es wird für jeden betroffenen Zeitraum ein Besuch gezählt. Wenn Sie beispielsw
 
 Besuche im Kontext einer Dimension (z. B. [Marketing-Kanal](../dimensions/marketing-channel.md)) zeigen die Anzahl der Besuche, die zu einem bestimmten Zeitpunkt ein bestimmtes Dimensionselement enthielten. Häufig gibt es mehrere Dimensionselemente bei verschiedenen Treffern im selben Besuch. Der Versuch, Besuche zu summieren, die über Dimensionselemente berichten, ist in der Regel nicht sinnvoll.
 
-## Alle Besucher in Data Warehouse besuchen
+## Besuche aller Besucher in Data Warehouse
 
-Die Metrik &quot;Besuche - Alle Besucher&quot;steht zusätzlich zur Metrik &quot;Besuche&quot;in Data Warehouse zur Verfügung. Die Metrik &quot;Besuche - Alle Besucher&quot;ist mit der Metrik &quot;Besuche&quot;in anderen Analytics-Werkzeugen vergleichbar. Die Metrik &quot;Besuche&quot;in der Data Warehouse schließt Besucher ohne beständige Cookies aus. Adobe empfiehlt die Verwendung von &quot;Besuche - Alle Besucher&quot;in Anfragen zur Data Warehouse, bei denen Besuche als Metrik gewünscht werden.
+Die Metrik „Besuche – Alle Besucher“ steht zusätzlich zur Metrik „Besuche“ in Data Warehouse zur Verfügung. Die Metrik „Besuche – Alle Besucher“ ist mit der Metrik „Besuche“ in anderen Analytics-Tools vergleichbar. Die Metrik „Besuche“ in Data Warehouse schließt Besucher ohne beständige Cookies aus. Adobe empfiehlt die Verwendung von „Besuche – Alle Besucher“ in Data Warehouse-Anfragen, bei denen Besuche als Metrik gewünscht werden.
