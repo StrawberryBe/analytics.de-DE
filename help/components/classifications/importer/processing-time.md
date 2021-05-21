@@ -1,14 +1,14 @@
 ---
 title: Verarbeitungszeit von Classification Importer
 description: Verstehen Sie den Zeitrahmen, in dem Adobe Classification-Dateien verarbeitet, und wie Sie die Verarbeitungszeit minimieren.
-translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '416'
 ht-degree: 100%
 
 ---
-
 
 # Verarbeitungszeit von Classification Importer
 
@@ -25,7 +25,7 @@ Wenn Sie sehen möchten, ob eine Classification-Datei fertig ist, gehen Sie wie 
 
 Wenn Sie die Importzeit für Classifications minimieren möchten, empfiehlt Adobe dringend die Einhaltung der folgenden Richtlinien:
 
-* **Verwenden Sie nach Möglichkeit den Classification Rule Builder**: Der Classification Rule Builder verarbeitet Daten anders als der herkömmliche Klassifizierungs-Importer . Wenn die Classification-Daten bestimmten Mustern folgen, wird die Verwendung dieser Funktion dringend empfohlen.
+* **Verwenden Sie nach Möglichkeit den Classification Rule Builder**: Der Classification Rule Builder verarbeitet Daten anders als der herkömmliche Klassifizierungs-Importer. Wenn die Classification-Daten bestimmten Mustern folgen, wird die Verwendung dieser Funktion dringend empfohlen.
 * **Nur geänderte Zeilen hochladen**: Durch diese Vorgehensweise wird die Zeit für die Verarbeitung von Classification-Dateien erheblich reduziert, da unveränderte Zeilen nicht sortiert werden. Adobe empfiehlt dringend, nur geänderte Zeilen hochzuladen.
 * **Vorausplanen**: Beginnen Sie so bald wie möglich mit dem Hochladen von Classification-Daten, insbesondere wenn diese Daten während der Weihnachtssaison verwendet werden.
 * **Classification-Dateien nach Möglichkeit kombinieren**: Wenn eine Variable mehrere Classifications hat, laden Sie eine einzige Datei mit allen zutreffenden Classification hoch. Vermeiden Sie das Hochladen mehrerer Klassifizierungen für dieselbe Variable.
