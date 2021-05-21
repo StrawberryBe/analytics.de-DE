@@ -1,14 +1,14 @@
 ---
 title: Vormittag/Nachmittag
 description: Bestimmt, ob der Treffer am Vormittag oder am Nachmittag stattgefunden hat.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # Vormittag/Nachmittag
 
