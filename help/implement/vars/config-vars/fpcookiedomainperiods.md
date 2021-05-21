@@ -1,14 +1,14 @@
 ---
 title: cookieDomainPeriods
 description: Hilft AppMeasurement zu verstehen, welche Domäne Cookies speichern soll, wenn Ihre Domäne einen Punkt im Suffix hat.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
-
 
 # fpCookieDomainPeriods
 
@@ -19,7 +19,7 @@ Mithilfe der `fpCookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo
 
 >[!IMPORTANT]
 >
->Berücksichtigen Sie für diese Variable keine Unterdomänen. Legen Sie beispielsweise nicht `fpCookieDomainPeriods` für die Beispiel-URL `store.toys.example.com` fest. AppMeasurement erkennt standardmäßig, dass Cookies auf `example.com` gespeichert werden sollen. Das gilt auch für URLs mit vielen Unterdomänen.
+>Berücksichtigen Sie für diese Variable keine Subdomains. Legen Sie beispielsweise nicht `fpCookieDomainPeriods` für die Beispiel-URL `store.toys.example.com` fest. AppMeasurement erkennt standardmäßig, dass Cookies auf `example.com` gespeichert werden sollen. Das gilt auch für URLs mit vielen Unterdomänen.
 
 ## Erstanbieter-Domänenpunkte in Adobe Experience Platform Launch
 
