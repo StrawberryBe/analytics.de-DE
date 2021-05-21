@@ -1,27 +1,27 @@
 ---
-title: Vergleich verschiedener Methoden zum Ausschluss von Boten
+title: Vergleich verschiedener Methoden zum Ausschluss von Bots
 description: Ermöglicht den Vergleich verschiedener Methoden zum Ausschluss von Bots.
-translation-type: tm+mt
-source-git-commit: 76ee4a8db49765590e7cca864d6d4b152d7ba112
-workflow-type: tm+mt
+exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
+# Vergleich verschiedener Methoden zum Ausschluss von Bots
 
-# Vergleich verschiedener Methoden zum Ausschluss von Boten
+Die folgende Tabelle zeigt verschiedene Methoden zum Ausschluss von Bots und wie sie im Vergleich abschneiden.
 
-Die folgende Tabelle zeigt verschiedene Methoden zum Ausschluss von Bots und wie diese gegeneinander stapeln.
-
-| Methode | Bot-Regeln | Nach IP-Adresse ausschließen  | Kundenattribute | Segmentierung | Bewertung durch Dritte + Segmentierung | Unterdrücken der &#x200B; für Bots zur Laufzeit | Benutzerspezifische DB VISTA-Regel |
+| Methode | Bot-Regeln | Nach IP-Adresse ausschließen | Kundenattribute | Segmentierung | Bewertung durch Dritte + Segmentierung | Unterdrücken des Server-Aufrufs für Bots zur Laufzeit | Benutzerspezifische DB VISTA-Regel |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Beschreibung der Methode zum Ausschluss von Daten** | &#x200B; Ausschließen je nach Benutzeragent, IP-Adresse oder IP-Adressbereich | IP-Adresse | &#x200B; einer Kennzeichnung in Kundenattributen, die ECID als Bot identifiziert | &#x200B; Kriterien in einem Analytics-Segment, das bekannte Bots basierend auf dem Bot-Verhalten identifiziert | &#x200B; einem Drittanbieter wie z. B. [Perimeter X](https://www.perimeterx.com) oder [Akamai Bot Manager](https://www.akamai.com/us/en/products/security/bot-manager.jsp) weist jeder Ansicht eine Bewertung zu, wie wahrscheinlich ein Bot sein soll. Die Bewertung wird an Analytics gesendet und Segmente können verwendet werden, um Daten basierend auf dem Ergebnis auszufiltern. | &#x200B; clientseitige Logik verhindert, dass der Analytics-Server-Aufruf für Bots ausgeführt wird. | &#x200B; Eine VISTA-Regel verschiebt Traffic von Bots, die bestimmte Kriterien erfüllen, in eine separate Report Suite. |
-| **&#x200B; Bot-Namen sind für den Berichte verfügbar?** | Ja | Nein | Nein | Nein | Nein | Nein | Ja |
-| **&#x200B; Sie sehen können, welche Seiten von Bots besucht werden?** | Ja | Nein | Nein | Nein | Ja | Nein | Ja |
-| &#x200B;**Incurs server call cost for bots?** | Ja | Ja | Ja | Ja | Ja | Nein | Ja |
-| **Bot-Daten in Data Feeds verfügbar?** | Nein | Nein | Ja | Ja | Ja | Nein | Ja |
-| **Kann &#x200B; Berichte zum Bot-Traffic so erstellen, als wären sie echte Server-Aufrufe?** | Nein | Nein | Ja | Ja | Ja | Ja | Nein |
-| **Können Daten nachträglich aus einem Datensatz entfernt werden?** | Nein | Nein | &#x200B; Ja, nachdem deklarierte IDs implementiert wurden | Ja | Ja, sobald Ergebnisse implementiert sind | Nein | Nein |
-| **Unterliegt es in Kriterien individuellen Beschränkungen?** | Nein | Nein | Nein | Ja | Nein | Nein | Nein |
-| **Ist &#x200B; mit zusätzlichen Kosten verbunden?** | Nein | Nein | &#x200B; möglich, je nach Analytics-SKU | Nein | Ja | Nein | &#x200B; Ja - Kosten für die Implementierung und Pflege einer VISTA-Regel |
+| **Beschreibung der Methode zum Ausschluss von Daten** | Ausschluss basierend auf Benutzer-Agent, IP-Adresse oder IP-Adressbereich | IP-Adresse | Eine Markierung in Kundenattributen, die ECID als Bot identifiziert | Kriterien in einem Analytics-Segment, das bekannte Bots basierend auf dem Verhalten von Bots identifiziert | Ein Drittanbieter wie z. B. [Perimeter X](https://www.perimeterx.com) oder [Akamai Bot Manager](https://www.akamai.com/de/de/products/security/bot-manager.jsp) weist jeder Seitenansicht einen Wert zu, der angibt, mit welcher Wahrscheinlichkeit es sich um einen Bot handelt. Die Bewertung wird an Analytics gesendet und Segmente können verwendet werden, um Daten basierend auf dem Ergebnis auszufiltern. | Client-seitige Logik verhindert, dass der Server-Aufruf von Analytics für Bots ausgeführt wird. | Eine VISTA-Regel verschiebt Traffic von Bots, die bestimmte Kriterien erfüllen, in eine separate Report Suite. |
+| **Sind Bot-Namen für das Reporting verfügbar?** | Ja | Nein | Nein | Nein | Nein | Nein | Ja |
+| **Kann angezeigt werden, welche Seiten von Bots besucht werden?** | Ja | Nein | Nein | Nein | Ja | Nein | Ja |
+| &#x200B;**Entstehen Kosten für Server-Aufrufe wegen Bots?** | Ja | Ja | Ja | Ja | Ja | Nein | Ja |
+| **Sind Bot-Daten in Daten-Feeds verfügbar?** | Nein | Nein | Ja | Ja | Ja | Nein | Ja |
+| **Ist es möglich, Berichte zu Traffic durch Bots zu erstellen, als ob es sich um tatsächliche Server-Aufrufe handelt?** | Nein | Nein | Ja | Ja | Ja | Ja | Nein |
+| **Können Daten nachträglich aus einem Datensatz entfernt werden?** | Nein | Nein | Ja, nachdem deklarierte IDs implementiert wurden | Ja | Ja, sobald die Bewertungen implementiert wurden | Nein | Nein |
+| **Gibt es bei den Kriterien Beschränkungen für Unique-Werte?** | Nein | Nein | Nein | Ja | Nein | Nein | Nein |
+| **Fallen zusätzliche Kosten an?** | Nein | Nein | Möglich, je nach Analytics-SKU | Nein | Ja | Nein | Ja – es gibt Kosten für die Implementierung und Pflege einer VISTA-Regel |
