@@ -1,14 +1,14 @@
 ---
 title: writeSecureCookies
 description: Ermöglicht AppMeasurement das Setzen von Cookies mit dem Secure-Attribut.
-translation-type: tm+mt
-source-git-commit: defb701d01747685a421b89a553f47efe40f1432
-workflow-type: tm+mt
+exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # writeSecureCookies
 
@@ -20,12 +20,12 @@ Mit der Variablen `writeSecureCookies` kann AppMeasurement [sichere Cookies](htt
 
 ## Schreiben sicherer Cookies in Adobe Experience Platform Launch
 
-[!UICONTROL Schreiben Sie sichere ] Cookies ein Kontrollkästchen unter dem   Cookiesaccordion, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
+[!UICONTROL Sichere Cookies schreiben] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
-4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], das das Kontrollkästchen [!UICONTROL Sichere Cookies schreiben] anzeigt.
+4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Kontrollkästchen [!UICONTROL Sichere Cookies schreiben] angezeigt wird.
 
 ## s.writeSecureCookies in AppMeasurement und im benutzerspezifischen Launch-Code-Editor
 
