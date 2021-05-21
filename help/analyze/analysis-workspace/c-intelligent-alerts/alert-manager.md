@@ -2,16 +2,16 @@
 description: Warnhinweise erstellen, bearbeiten oder löschen.
 title: Warnhinweis-Manager
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+feature: KI-Tools
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 96%
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
-
 
 # Warnhinweis-Manager
 
@@ -36,4 +36,3 @@ Der Warnhinweis-Manager (**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]*
 * Den Eigentümer eines Warnhinweises angeben oder ändern.
 * Andere Filter hinzufügen.
 * Ein **Ablaufdatum** für den Warnhinweis definieren.
-
