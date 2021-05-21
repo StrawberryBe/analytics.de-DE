@@ -1,14 +1,14 @@
 ---
 title: Häufig gestellte Fragen zur Implementierung
 description: Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Informationen.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
-
 
 # Häufig gestellte Fragen zur Implementierung von Analytics
 
@@ -50,12 +50,12 @@ var s = new Object();
 >* Ändern Sie die `trackingServer`-Variable nicht von Adobe weg. AppMeasurement sendet weiterhin Bildanforderungen, die 404-Fehler zurückgeben.
 
 
-## Ich habe AppMeasurement über einen Code-Analyzer ausgeführt und seine Verwendung von `Math.random()` als potenzielles Sicherheitsrisiko gekennzeichnet. Wird `Math.random()` mit vertraulichen Daten verwendet?
+## Ich habe AppMeasurement über einen Code Analyzer ausgeführt und die Verwendung von `Math.random()` wurde als potenzielles Sicherheitsrisiko gekennzeichnet. Wird `Math.random()` mit vertraulichen Daten verwendet?
 
-Nein. Die Zahlen, die `Math.random()` verwenden, werden nicht zum Maskieren, Senden oder Empfangen sensibler Daten verwendet. Daten, die an Datenerfassungsserver der Adobe gesendet werden, hängen von der Sicherheit der zugrunde liegenden HTTPS-Verbindung ab. <!-- AN-173590 -->
+Nein. Die Zahlen, die `Math.random()` verwenden, werden nicht zum Maskieren, Senden oder Empfangen sensibler Daten verwendet. Daten, die an Datenerfassungs-Server von Adobe gesendet werden, sind auf die Sicherheit der zugrunde liegenden HTTPS-Verbindung angewiesen. <!-- AN-173590 -->
 
-AppMeasurement verwendet `Math.random()` in drei Schlüsselbereichen:
+AppMeasurement verwendet `Math.random()` in drei zentralen Bereichen:
 
-* **Probenahme**: Je nach Implementierung können einige Informationen für nur einen kleinen Prozentsatz der Besucher Ihrer Site gesammelt werden. `Math.random()` bestimmt, ob ein Besucher Daten senden soll. Bei den meisten Implementierungen wird kein Sampling verwendet.
+* **Sampling**: Je nach Implementierung können einige Informationen für nur einen kleinen Prozentsatz der Besucher Ihrer Site gesammelt werden. `Math.random()` bestimmt, ob ein Besucher Daten senden soll. Bei den meisten Implementierungen wird kein Sampling verwendet.
 * **Fallback-Besucher-ID**: Wenn die Besucher-ID nicht aus Cookies abgerufen werden kann, wird eine zufällige Besucher-ID generiert. Dieser Teil von AppMeasurement verwendet zwei Aufrufe von `Math.random()`.
-* **Cache-Busting**: Am Ende der Bildanforderungs-URLs wird eine Zufallszahl hinzugefügt, um die Zwischenspeicherung im Browser zu verhindern.
+* **Zwischenspeichern von Daten**: Am Ende der Bildanforderungs-URLs wird eine zufällig ausgewählte Zahl hinzugefügt, um die Zwischenspeicherung im Browser zu verhindern.
