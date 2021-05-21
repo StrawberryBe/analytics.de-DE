@@ -2,14 +2,14 @@
 description: Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-Nutzung jeder Report Suite aller Anmeldeunternehmen innerhalb der aktuellen Nutzungsperiode, die mit Ihrem Abrechnungsunternehmen zusammenhängen.
 title: Anzeigen der Nutzung der Report Suite
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: tm+mt
+exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 
 ---
-
 
 # Anzeigen der Nutzung der Report Suite
 
@@ -33,7 +33,7 @@ Das Dashboard zur Nutzung der Report Suite
 
 | Spalte | Definition |
 |--- |--- |
-| Report Suite  Name | Anzeigename der Report Suite |
+| Report Suite Name | Anzeigename der Report Suite |
 | Alle Aufrufe (% der Gesamtzahl) | Alle Server-Aufrufe, die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
 | Primäre Aufrufe (%) | Alle primären Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
 | Sekundäre Aufrufe (%) | Alle sekundären Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
@@ -41,7 +41,7 @@ Das Dashboard zur Nutzung der Report Suite
 | Sekundäre mobile Aufrufe (%) | Alle sekundären mobilen Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
 
 
-## Nutzungsbericht herunterladen   {#section_D7345660B5E043CD8850954216509A3D}
+## Nutzungsbericht herunterladen {#section_D7345660B5E043CD8850954216509A3D}
 
 Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der aktuellen Nutzungsperiode herunterladen (bis Januar 2015). Der Bericht wird als .csv-Datei heruntergeladen.
 
