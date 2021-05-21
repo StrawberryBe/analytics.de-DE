@@ -1,14 +1,14 @@
 ---
 title: Technische Hinweise zu Analytics
 description: Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem bestimmten Analytics-Tool oder einer bestimmten Komponente gehören.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # Technische Hinweise zu Analytics
 
