@@ -1,18 +1,18 @@
 ---
 title: AppMeasurement für JavaScript
 description: Erfahren Sie, wie Sie Adobe Analytics mit JavaScript ohne Tag-Management-System implementieren.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 
 ---
 
-
 # AppMeasurement für JavaScript
 
-AppMeasurement für JavaScript ist seit jeher eine gängige Methode zur Implementierung von Adobe Analytics. Da Tag-Management-Systeme jedoch immer beliebter werden, wird empfohlen, [Adobe Experience Platform Launch](../launch/overview.md) zu verwenden.
+AppMeasurement für JavaScript ist seit jeher eine gängige Methode zur Implementierung von Adobe Analytics. Da Tag Management-Systeme jedoch immer beliebter werden, wird empfohlen, [Adobe Experience Platform Launch](../launch/overview.md) zu verwenden.
 
 ## Genereller Workflow zum Senden von Daten an Adobe mit JavaScript
 
