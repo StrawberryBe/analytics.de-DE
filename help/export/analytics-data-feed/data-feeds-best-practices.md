@@ -1,20 +1,20 @@
 ---
 description: 'Nachstehend sind einige Best-Practice-Methoden für die Verarbeitung und Bereitstellung von Datenfeeds aufgeführt. Gehen Sie dazu folgendermaßen vor '
-keywords: Datenfeed;Best Practices;Traffic-Spitze;Stündlich;FTP
+keywords: Daten-Feed;Best Practices;Traffic-Spitze;stündlich;FTP
 title: Best Practice und allgemeine Informationen
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-
 # Best Practices
 
-Nachstehend sind einige Best-Practice-Methoden für die Verarbeitung und Bereitstellung von Datenfeeds aufgeführt. 
+Nachstehend sind einige Best-Practice-Methoden für die Verarbeitung und Bereitstellung von Datenfeeds aufgeführt.
 
 * Stellen Sie sicher, dass Sie erwartete Traffic-Spitzen frühzeitig kommunizieren. Latenz wirkt sich direkt auf die Verarbeitungszeit für Daten-Feeds aus. Siehe [Planen von Traffic-Spitzen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) im Admin-Benutzerhandbuch.
 * Daten-Feeds enthalten kein Service-Level-Agreement, es sei denn, in Ihrem Vertrag mit Adobe ist dies ausdrücklich festgelegt. Feeds werden in der Regel mehrere Stunden nach Ablauf des Berichtsfensters bereitgestellt, gelegentlich kann es jedoch bis zu 12 Stunden oder mehr dauern.
