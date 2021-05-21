@@ -1,14 +1,14 @@
 ---
 title: Produktansichten
 description: Die Anzahl der Aufrufe der Produktseiten.
-translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: tm+mt
+exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
 ---
-
 
 # Produktansichten
 
