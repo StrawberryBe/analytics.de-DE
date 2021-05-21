@@ -1,14 +1,14 @@
 ---
 title: account
 description: Verwenden Sie Variable „account“, um die Report Suite zu bestimmen, an die Daten gesendet werden.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # account
 
