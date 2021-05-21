@@ -1,14 +1,14 @@
 ---
 title: offlineHitLimit
 description: Legen Sie die maximale Anzahl von Treffern fest, die zum Offline-Tracking in die Warteschlange gestellt werden sollen.
-translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: tm+mt
+exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # offlineHitLimit
 
