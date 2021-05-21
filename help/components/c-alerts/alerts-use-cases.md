@@ -2,14 +2,14 @@
 description: Anwendungsfälle zum Erstellen und Verwalten intelligenter Warnhinweise.
 title: Intelligente Warnhinweise – Anwendungsfälle
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
+exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # Intelligente Warnhinweise – Anwendungsfälle
 
@@ -38,4 +38,3 @@ Dadurch wird die Warnhinweiserstellung unverzüglich mit den entsprechenden Wert
 Durch das Stapeln von Warnhinweisen wird dafür gesorgt, dass Warnhinweise kombiniert werden und nicht separat angezeigt werden.
 
 ![](assets/alerts_example2.png)
-
