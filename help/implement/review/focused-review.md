@@ -1,14 +1,14 @@
 ---
 title: Gezielte Prüfung (nach jeder Website-Veröffentlichung)
 description: Führen Sie diese Schritte aus, um sicherzustellen, dass Ihre Implementierung fehlerfrei und im Einklang mit Ihren KPIs ausgeführt wird.
-translation-type: tm+mt
-source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: tm+mt
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
 ---
-
 
 # Gezielte Prüfung (nach jeder Website-Veröffentlichung)
 
@@ -22,7 +22,7 @@ Die Kenntnis der 5 wichtigsten Leistungsindikatoren (Key Performance Indicators
 
 Hin und wieder stattfindende Code-Aktualisierungen können unbeabsichtigte Auswirkungen haben. Sie sollten sicherstellen, dass alle Metriken und Dimensionen, die Ihren [wichtigsten 5 KPIs](/help/implement/review/define-kpis.md) zugeordnet sind, weiterhin ihre Aufgabe korrekt erfüllen. Idealerweise sollte dies unmittelbar nach einer Website-Veröffentlichung erfolgen. Wenn Sie es in den letzten Monaten nicht getan haben, führen Sie es *jetzt* durch. Gehen Sie folgendermaßen vor:
 
-* Erstellen Sie Dashboards, um die Trendansicht der Ansichten dieser wichtigen Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de-DE#analysis-workspace) für jede Metrik ein). Überwachen Sie sie dann für ein oder zwei Tage, um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Suchen Sie nach Wendepunkten. Seien Sie bereit, alle wichtigen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um den Grund herauszufinden.
+* Erstellen Sie Dashboards, um die Trendansicht der Ansichten dieser wichtigen Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de#analysis-workspace) für jede Metrik ein). Überwachen Sie sie dann für ein oder zwei Tage, um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Suchen Sie nach Wendepunkten. Seien Sie bereit, alle wichtigen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um den Grund herauszufinden.
 * Führen Sie [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um allgemeine Trends Ihrer KPI-Metriken und -Variablen zu überwachen.
 
 *Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Kennzahlen und Variablen ihre Aufgabe ordnungsgemäß erfüllen, finden Sie in [diesen Tipps](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) von Adobe Analytics Champion Sarah Owen.*
@@ -35,7 +35,7 @@ Stellen Sie sicher, dass die letzte Site-Veröffentlichung die Datenerfassung f�
 
 Wenn Sie kürzlich Kennzahlen oder Variablen hinzugefügt oder geändert haben, müssen Sie Ihr Unternehmensanforderungsdokument (Business Requirement Document, BRD) und Ihre Lösungs-Design-Referenz (Solution Design Reference, SDR) aktualisieren.
 
-Wenn Sie keine Dokumentation Ihrer Implementierung haben, exportieren Sie eine Liste von Variablen und erstellen Sie Ihr BRD oder Ihre SDR mit [dieser Vorlage](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=de-DE#implementation).
+Wenn Sie keine Dokumentation Ihrer Implementierung haben, exportieren Sie eine Liste von Variablen und erstellen Sie Ihr BRD oder Ihre SDR mit [dieser Vorlage](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=de#implementation).
 
 ## 5. Beheben Sie sofort alle Lücken in Ihrer Datenqualität
 
