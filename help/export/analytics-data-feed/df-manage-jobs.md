@@ -1,14 +1,14 @@
 ---
 title: Verwalten von Daten-Feed-Aufträgen
 description: Erfahren Sie, wie Sie einzelne Aufträge in Daten-Feeds verwalten.
-translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
-workflow-type: tm+mt
+exl-id: b17e333e-290f-42e4-b304-1e34282237a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '495'
 ht-degree: 100%
 
 ---
-
 
 # Verwalten von Daten-Feed-Aufträgen
 
