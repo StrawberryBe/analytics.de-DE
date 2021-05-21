@@ -1,16 +1,16 @@
 ---
 description: Daten, die aus Websites oder mobilen Apps erfasst bzw. über Web-Service-APIs oder Datenquellen hochgeladen werden, werden im Adobe Data Warehouse verarbeitet und gespeichert. Diese Clickstream-Rohdaten bilden die Grundlage für den Datensatz, der von Adobe Analytics genutzt wird.
-keywords: Clickstream;Datenfeed;Datenfeed;Datenfeed
+keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
 title: Analytics-Daten-Feed-Dokumentation
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
-workflow-type: tm+mt
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Analytics-Daten-Feed-Dokumentation
 
@@ -68,4 +68,4 @@ Sobald Sie den grundlegenden Workflow beim Abrufen von Daten-Feeds kennen, könn
 
 Video zur Navigation auf der Daten-Feed-Oberfläche:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
