@@ -2,20 +2,20 @@
 description: Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
 title: Einfache Metrik vom Typ „Seitenansichten pro Besuch“ erstellen
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: tm+mt
+exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
-
 # Einfache Metrik vom Typ „Seitenansichten pro Besuch“ erstellen
 
 Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
 
-Eine ausführliche Beschreibung der Komponenten der Benutzeroberfläche finden Sie unter   [Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+Eine ausführliche Beschreibung der Komponenten der Benutzeroberfläche finden Sie unter [Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
 
@@ -33,4 +33,3 @@ Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche er
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Beachten Sie, dass die Formel unter **[!UICONTROL Zusammenfassung]** jedes Mal, wenn Sie die Metrikdefinition ändern, aktualisiert wird.
 1. Sie werden nun automatisch zum [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) geleitet, der dem Segment-Manager ähnlich ist. Damit können Sie Metriken freigeben, genehmigen, (erneut) taggen, umbenennen oder löschen.
-
