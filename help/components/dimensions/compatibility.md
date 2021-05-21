@@ -1,14 +1,14 @@
 ---
 title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
 ---
-
 
 # Kompatibilität von Analytics-Dimensionen
 
@@ -26,7 +26,7 @@ Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analy
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |---|---|
-| Analytics für Target | `targetraw` |
+| Analytics for Target | `targetraw` |
 | Zielgruppen-ID | `mcaudiences` |
 | Browser | `browser` |
 | Browser-Typ | `browsertype` |
@@ -84,7 +84,7 @@ Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analy
 | SC-TnT | `tntbase` |
 | Suchmaschine | `searchengine` |
 | Suchbegriff | `searchenginekeyword` |
-| Suchmaschine  – kostenlos | `searchenginenatural` |
+| Suchmaschine – kostenlos | `searchenginenatural` |
 | Suchmaschine – bezahlt | `searchenginepaid` |
 | Suchbegriff – kostenlos | `searchenginenaturalkeyword` |
 | Suchbegriff – bezahlt | `searchenginepaidkeyword` |
@@ -128,7 +128,7 @@ Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analy
 | Treffertyp | `hittype` |
 | Stunde | `daterangehour` |
 | Stunde des Tages | `timeparthourofday` |
-| Detail des Marketing-Kanals | `marketingchanneldetail` |
+| Details zum Marketing-Kanal | `marketingchanneldetail` |
 | Minute | `daterangeminute` |
 | Maximale mobile Lesezeichenlänge | `mobilebookmarklength` |
 | Mobilgerätenummer | `mobiledevicenumber` |
