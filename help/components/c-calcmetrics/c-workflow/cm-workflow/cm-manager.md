@@ -2,14 +2,14 @@
 description: Der Manager für berechnete Metriken bietet verschiedene Möglichkeiten zum Kuratieren von Metriken, wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
 title: Berechnete Metrik – Manager
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: 32430e77-2450-4672-9c21-255e76802a4c
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '352'
 ht-degree: 100%
 
 ---
-
 
 # Berechnete Metrik – Manager
 
@@ -33,5 +33,5 @@ Der Manager für berechnete Metriken zeigt Ihnen alle Segmente, die sich in Ihre
 | Tags | Zeigt Tags an, die entweder durch Sie oder durch Personen, die eine Metrik für Sie freigegeben haben, auf die Metrik angewendet wurden. |
 | Freigegeben für | Zeigt Personen oder Gruppen (nur Administrator) oder „Alle“ (nur Administrator) an, für die Sie das Segment freigegeben haben. |
 | Spaltenauswahl | Damit können Sie Spalten im Manager für berechnete Metriken aktivieren oder deaktivieren, um so die Ansicht anzupassen. |
-| Gemeinsam-Symbol  (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik von Ihnen oder für Sie freigegeben wurde. |
-| Freigegeben-Symbol  (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik durch einen Administrator genehmigt wurde. |
+| Gemeinsam-Symbol (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik von Ihnen oder für Sie freigegeben wurde. |
+| Freigegeben-Symbol (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik durch einen Administrator genehmigt wurde. |
