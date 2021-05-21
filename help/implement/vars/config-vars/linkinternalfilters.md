@@ -1,14 +1,14 @@
 ---
 title: linkInternalFilters
 description: Verwenden Sie die Variable „linkInternalFilters“, um das automatische Tracking von Exitlinks zu unterstützen.
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
-
 
 # linkInternalFilters
 
@@ -16,9 +16,9 @@ AppMeasurement bietet die Möglichkeit, Links, die auf eine Stelle außerhalb Ih
 
 Wenn diese Variable einen Wert enthält, verhält sich das automatische Tracking von Exitlinks wie eine Blockierungsliste. Wenn ein Link-Klick keinem `linkInternalFilters`-Wert entspricht, wird er als Exitlink betrachtet. Die gesamte URL wird mit dieser Variablen verglichen. Wenn [`linkLeaveQueryString`](linkleavequerystring.md) aktiviert ist, wird auch die Abfragezeichenfolge geprüft.
 
-Wenn Sie sowohl `linkInternalFilters` als auch `linkExternalFilters` gleichzeitig verwenden, muss der geklickte Link mit `linkExternalFilters`**übereinstimmen und** darf nicht mit `linkInternalFilters` überstimmen, um als Exitlink betrachtet zu werden. Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downloadlinks entspricht, hat der Downloadlink-Typ Priorität.
+Wenn Sie sowohl `linkInternalFilters` als auch `linkExternalFilters` gleichzeitig verwenden, muss der geklickte Link mit `linkExternalFilters` übereinstimmen **und** darf nicht mit `linkInternalFilters` überstimmen, um als Exitlink betrachtet zu werden. Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downloadlinks entspricht, hat der Downloadlink-Typ Priorität.
 
-Aktivität Map verwendet diese Variable, um festzustellen, welche Links zu Ihrer Site gehören. Adobe empfiehlt, diese Variable für Implementierungen festzulegen, die Aktivität Map verwenden.
+Activity Map verwendet diese Variable, um zu ermitteln, welche Links interne Links Ihrer Website sind. Adobe empfiehlt, diese Variable für Implementierungen festzulegen, die Activity Map verwenden.
 
 >[!NOTE]
 >
