@@ -1,16 +1,16 @@
 ---
 description: Aktives FTP und passives FTP regeln unterschiedlich, wie die Port-Verbindungen hergestellt werden, was gewisse Auswirkungen auf die Firewall hat.
-keywords: ftp;sftp
+keywords: FTP, sFTP
 title: Passiven FTP-Modus verwenden
 uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 92f39569-ee41-4c1d-b7de-7a0fff42896c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '101'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Passiven FTP-Modus verwenden
 
