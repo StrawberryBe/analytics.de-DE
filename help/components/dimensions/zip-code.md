@@ -1,14 +1,14 @@
 ---
 title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
-translation-type: tm+mt
-source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
-workflow-type: tm+mt
+exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # Postleitzahl
 
@@ -31,9 +31,9 @@ Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/hel
 
 Die Dimensionselemente beinhalten die Postleitzahl des Besuchers.
 
-## Über welche Postleitzahlen können Sie in Adobe Analytics Bericht erstatten?
+## Für welche Länder können Sie in Adobe Analytics Postleitzahlen-Berichte erstellen?
 
-* Åland Inseln
+* Aland-Inseln
 * Albanien
 * Algerien
 * Argentinien
@@ -74,7 +74,7 @@ Die Dimensionselemente beinhalten die Postleitzahl des Besuchers.
 * Japan
 * Jordanien
 * Kasachstan
-* Kirgizstan
+* Kirgisistan
 * Lettland
 * Libanon
 * Litauen
@@ -99,7 +99,7 @@ Die Dimensionselemente beinhalten die Postleitzahl des Besuchers.
 * Katar
 * Rumänien
 * Russische Föderation
-* Saudi Arabien
+* Saudi-Arabien
 * Senegal
 * Serbien
 * Singapur
@@ -110,7 +110,7 @@ Die Dimensionselemente beinhalten die Postleitzahl des Besuchers.
 * Sri Lanka
 * Schweden
 * Schweiz
-* Taiwan
+* Region Taiwan
 * Thailand
 * Tunesien
 * Türkei
