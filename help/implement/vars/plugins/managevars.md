@@ -1,14 +1,14 @@
 ---
 title: manageVars
 description: Ändern Sie die Werte mehrerer Analytics-Variablen gleichzeitig.
+exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 translation-type: ht
-source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '697'
 ht-degree: 100%
 
 ---
-
 
 # Adobe-Plug-in: manageVars
 
