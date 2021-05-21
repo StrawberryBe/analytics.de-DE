@@ -1,14 +1,14 @@
 ---
 title: US-DMA
 description: Das ausgewiesene Marktgebiet des Treffers.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '306'
 ht-degree: 100%
 
 ---
-
 
 # US-DMA
 
