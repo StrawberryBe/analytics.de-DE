@@ -1,14 +1,14 @@
 ---
 title: Warenkorbansicht
 description: Die Anzahl der Treffer, bei denen ein Besucher den Warenkorb angezeigt hat.
-translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
 ---
-
 
 # Warenkorbansicht
 
