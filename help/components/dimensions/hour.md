@@ -1,14 +1,14 @@
 ---
 title: Stunde
 description: Die Stunde, in der die Metrik aufgetreten ist.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
 ---
-
 
 # Stunde
 
