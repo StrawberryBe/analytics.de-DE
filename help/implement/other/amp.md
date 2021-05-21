@@ -1,14 +1,14 @@
 ---
 title: Implementieren mit AMP
 description: Implementieren Sie Adobe Analytics auf AMP-Seiten.
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 translation-type: ht
-source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
 ---
-
 
 # Implementieren mit AMP
 
