@@ -1,14 +1,14 @@
 ---
 title: Wochentag/Wochenende
 description: Bestimmt, ob der Treffer an einem Wochentag oder an einem Wochenende stattgefunden hat.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 
 ---
-
 
 # Wochentag/Wochenende
 
