@@ -1,14 +1,14 @@
 ---
 title: Betriebssystem
 description: Das Betriebssystem des Besuchers.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 
 ---
-
 
 # Betriebssystem
 
