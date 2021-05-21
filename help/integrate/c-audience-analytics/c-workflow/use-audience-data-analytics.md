@@ -3,14 +3,14 @@ description: 'Sie können die AAM Zielgruppen-Dimensionen überall in Analytics
 solution: Experience Cloud
 title: Zielgruppendaten in Analytics verwenden
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Zielgruppendaten in Analytics verwenden
 
@@ -54,9 +54,9 @@ AAM-Segmentdaten werden pro Treffer an Analytics weitergeleitet und stellen die 
 
 ![](assets/flow-aamaudiences.png)
 
-Zielgruppen können außerdem für [Fallout-Visualisierungen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) verwendet werden.
+Zielgruppen können außerdem für [Fallout-Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) verwendet werden.
 
-## Venn-Visualisierung in Analysis Workspace  {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Venn-Visualisierung in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 [Venn-Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/venn.html) zeigen Überlappungen zwischen bis zu 3 Segmenten.
 
@@ -82,10 +82,9 @@ Sie können die Zielgruppendimensionen zusammen mit den von Analytics erfassten 
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics und Report Builder  {#section_04E8FD30F73344D7937AD3C6CD19E34A}
+## Reports &amp; Analytics und Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
 
 1. Wenn Sie den Analytics-Bericht anzeigen möchten, wechseln Sie zu **[!UICONTROL Berichte]** > **[!UICONTROL Besucherprofil]** > **[!UICONTROL Zielgruppen-ID-Berichte]**.
 1. Über diesen Ordner können Sie sowohl auf die Dimension „Zielgruppen-ID“ als auch auf die Dimension „Zielgruppenname“ zugreifen.
 
    ![](assets/mc-audiences.png)
-
