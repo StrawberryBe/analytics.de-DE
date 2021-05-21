@@ -1,14 +1,14 @@
 ---
 title: Einrichten eines Werbekontos in Advertising Analytics
 description: Ermöglicht die Erstellung neuer Werbekonten und die Zuordnung mehrerer Konten zu mehreren Report Suites.
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '869'
 ht-degree: 100%
 
 ---
-
 
 # Werbekonto einrichten
 
@@ -92,4 +92,3 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlin
 >[!NOTE]
 >
 >Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden.
-
