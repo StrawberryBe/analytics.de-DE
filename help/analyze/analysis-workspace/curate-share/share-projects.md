@@ -2,16 +2,16 @@
 description: Projektfreigabe und Projektrollen in Workspace
 keywords: Analysis Workspace-Freigabe
 title: Freigeben von Projekten
-feature: Curate and Share
+feature: Kuratieren und Freigeben
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 99%
+exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1106'
+ht-degree: 100%
 
 ---
-
 
 # Freigeben von Projekten
 
@@ -61,14 +61,14 @@ Sie können auch auf **[!UICONTROL Kuratieren und freigeben]** klicken, um die P
 
 ## Freigeben für eine Gruppe von Empfängern {#Groups}
 
-Alle Benutzer können Projekte für Gruppen freigeben, also für eine Sammlung von Empfängern. In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) definiert.
+Alle Benutzer können Projekte für Gruppen freigeben, also für eine Sammlung von Empfängern. In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html) definiert.
 
 * Administratoren können für jede Gruppe freigeben, einschließlich „Alle“.
 * Nicht-Administratoren können für Gruppen freigeben, denen sie angehören (mit Ausnahme von „Alle“).
 
 ## Projekt-Link freigeben {#Links}
 
-Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben] > [!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Rolle aufgenommen wurde, erhält er eine Standardrolle. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**. [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) über das Erstellen von freigebbaren Links zu Workspace-Projekten.
+Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben] > [!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Rolle aufgenommen wurde, erhält er eine Standardrolle. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**. [Erfahren Sie mehr](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) über das Erstellen von freigebbaren Links zu Workspace-Projekten.
 
 ## Freigeben von Projekten im Projekt-Manager {#Manager}
 
