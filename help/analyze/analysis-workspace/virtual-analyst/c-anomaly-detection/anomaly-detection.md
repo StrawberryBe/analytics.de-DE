@@ -2,24 +2,24 @@
 description: Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden.
 title: Übersicht über die Anomalieerkennung
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: AI Tools
+feature: KI-Tools
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 89%
+exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
-
 
 # Übersicht über die Anomalieerkennung
 
 Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden.
 
-[Videoschulung](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  zur Anomalieerkennung (4:53)
+[Video-Tutorial zur Anomalieerkennung](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
-[Video-Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  zur Beitrags-Analyse (3:20)
+[Video-Tutorial zur Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
 
 >[!IMPORTANT]
 >
