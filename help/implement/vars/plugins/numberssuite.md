@@ -1,14 +1,14 @@
 ---
 title: Numbers Suite
 description: Generieren und bearbeiten Sie Zahlen zur Verwendung in anderen JavaScript-Variablen.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '638'
 ht-degree: 100%
 
 ---
-
 
 # Adobe-Plug-in: Numbers Suite
 
