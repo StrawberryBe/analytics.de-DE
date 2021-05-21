@@ -1,14 +1,14 @@
 ---
 title: Tag
 description: Der Tag, an dem die Metrik aufgetreten ist.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 2f93ae8b-422c-4e1e-81d3-43cc0aa442c4
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # Tag
 
