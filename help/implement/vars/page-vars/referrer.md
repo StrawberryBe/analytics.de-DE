@@ -1,16 +1,16 @@
 ---
 title: referrer
 description: Überschreiben Sie den automatisch erfassten Referrer für einen Treffer.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-
-# Werber
+# referrer
 
 Die `referrer`-Variable überschreibt den automatisch erfassten Referrer in Berichten. Diese Variable ist hilfreich in Situationen, in denen der Referrer verloren gehen könnte, z. B. bei Redirects oder vorübergehender Weiterleitung des Besuchers an einen Zahlungsverarbeiter. Diese Variable hilft beim Ausfüllen der Dimensionen „Referrer“ und „Referrer-Domäne“.
 
