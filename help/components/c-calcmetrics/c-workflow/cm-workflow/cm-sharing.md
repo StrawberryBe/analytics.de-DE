@@ -2,14 +2,14 @@
 description: Abhängig von Ihren Berechtigungen können Sie Metriken für Ihre gesamte Organisation, für Gruppen oder für einzelne Benutzer freigeben.
 title: Berechnete Metriken freigeben
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '275'
 ht-degree: 100%
 
 ---
-
 
 # Berechnete Metriken freigeben
 
@@ -41,4 +41,3 @@ Wann sollten Metriken für das gesamte Unternehmen und wann nur für eine Benutz
    Neben der Metrik wird das Freigabesymbol angezeigt:  ![](assets/share_icon.png)
 
 1. Sie können nach für Sie freigegebenen Metriken filtern, indem Sie **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Für mich freigegeben]** verwenden.
-
