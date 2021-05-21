@@ -1,16 +1,16 @@
 ---
 description: Verwenden der Visualisierungsfarbpalette in Analysis Workspace
 title: Was sind Visualisierungsfarbpaletten und wie funktionieren sie?
-feature: Workspace Basics
+feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '219'
+exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # Visualisierungsfarbpaletten
 
@@ -36,4 +36,3 @@ Bitte beachten Sie:
 
 1. Um Ihre eigene Palette festzulegen, wählen Sie **[!UICONTROL Benutzerdefinierte Palette]** unter den voreingestellten Optionen aus.
 1. Geben Sie bis zu 16 kommagetrennte hexadezimale Werte (z. B. #00a4e4) für die Farben an, die Sie verwenden möchten. Wenn Sie beispielsweise nur vier Werte verwenden möchten, werden diese Farben in Visualisierungen, die mehr Farben enthalten, automatisch wiederholt.
-
