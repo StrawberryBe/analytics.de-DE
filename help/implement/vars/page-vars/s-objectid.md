@@ -1,14 +1,14 @@
 ---
 title: s_objectID
 description: Hilft Activity Map, eindeutige Links auf Ihrer Website zu identifizieren.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
 ---
-
 
 # s_objectID
 
