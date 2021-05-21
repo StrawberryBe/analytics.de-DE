@@ -2,16 +2,16 @@
 description: Fallout-Visualisierung konfigurieren.
 title: Fallout-Visualisierung konfigurieren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualizations
+feature: Visualisierungen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 99%
+exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '683'
+ht-degree: 100%
 
 ---
-
 
 # Fallout-Visualisierung konfigurieren
 
