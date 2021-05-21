@@ -1,14 +1,14 @@
 ---
 title: Verwenden von XDM-Daten mit Analytics
-description: 'Übersicht über die Verwendung von XDM-Daten aus Experience Platform in Adobe Analytics '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
-workflow-type: tm+mt
+description: Übersicht über die Verwendung von XDM-Daten aus Experience Platform in Adobe Analytics
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Verwenden von Adobe Experience Platform Edge-Daten mit Analytics
 
@@ -25,7 +25,7 @@ Die automatische Zuordnung beruht auf einem Standard-[Schema](https://docs.adobe
 
 ## Manuelle Zuordnung
 
-[](xdm-manual.md)Die manuelle Zuordnung von XDM-Daten zu Analytics beruht auf [Analytics-Kontextdatenvariablen](../vars/page-vars/contextdata.md). Diese Variablen werden in JSON-Objekte eingefügt, die den jeweiligen Schemas entsprechen. In der Regel fügt Ihr Entwicklungsteam Kontextdaten bei der Implementierung hinzu und die Administratoren legen dann [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) fest, um diese Daten auf bestimmte Report Suites anzuwenden.
+[Die manuelle Zuordnung von XDM-Daten](xdm-manual.md) zu Analytics beruht auf [Analytics-Kontextdatenvariablen](../vars/page-vars/contextdata.md). Diese Variablen werden in JSON-Objekte eingefügt, die den jeweiligen Schemas entsprechen. In der Regel fügt Ihr Entwicklungsteam Kontextdaten bei der Implementierung hinzu und die Administratoren legen dann [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) fest, um diese Daten auf bestimmte Report Suites anzuwenden.
 
 ## Einrichten
 
