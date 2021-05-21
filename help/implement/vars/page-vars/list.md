@@ -1,16 +1,16 @@
 ---
 title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
 
-
-# Liste
+# list
 
 Listenvariablen sind benutzerspezifische Variablen, die Sie beliebig verwenden können. Sie funktionieren ähnlich wie eVars, allerdings können sie mehrere Werte im selben Treffer enthalten. Listenvariablen haben keine Zeichenbeschränkung.
 
@@ -18,7 +18,7 @@ Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und
 
 >[!NOTE]
 >
->Listenvariablen speichern die letzten 250 Werte pro Besucher. Wenn mehr als 250 individuelle Werte für einen bestimmten Besucher vorhanden sind, werden die ältesten Werte nicht den Metriken zugeordnet.
+>Listenvariablen speichern die letzten 250 Werte pro Besucher. Wenn mehr als 250 eindeutige Werte für einen bestimmten Besucher vorhanden sind, werden die ältesten Werte nicht den Metriken zugeordnet.
 
 ## Einrichten von Listenvariablen in den Report Suite-Einstellungen
 
