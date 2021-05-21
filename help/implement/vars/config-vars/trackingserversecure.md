@@ -1,14 +1,14 @@
 ---
 title: trackingServerSecure
 description: Stellen Sie fest, an welcher Position auf HTTPS-Seiten Bildanforderungen gesendet werden.
-translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
-workflow-type: tm+mt
+exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # trackingServerSecure
 
@@ -16,7 +16,7 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 
 >[!IMPORTANT]
 >
->Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Unique Visitor-Anzahl kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
+>Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Zahl der Unique Visitors kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
 
 ## SSL-Tracking-Server in Adobe Experience Platform Launch
 
@@ -41,4 +41,4 @@ Die Person, die die Erstanbieter-Cookie-Implementierung anfänglich konfiguriert
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME-Einträge verweisen normalerweise auf eine Subdomäne unter `data.adobedc.net`, `sc.adobedc.net` oder `2o7.net`.
+CNAME-Einträge verweisen normalerweise auf eine Subdomain auf `data.adobedc.net`, `sc.adobedc.net` oder `2o7.net`.
