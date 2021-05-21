@@ -1,75 +1,75 @@
 ---
-description: 'Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag & Drop in ein Projekt ziehen können. '
+description: 'Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag-and-Drop in einem Projekt platzieren können. '
 title: Komponentenübersicht
-feature: Workspace Basics
+feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 17%
+exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '739'
+ht-degree: 100%
 
 ---
 
-
 # Komponentenübersicht
 
-Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag &amp; Drop in ein Projekt ziehen können.
+Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag-and-Drop in einem Projekt platzieren können.
 
-Um das Menü &quot;Komponenten&quot;aufzurufen, klicken Sie in der linken Leiste auf das Symbol **[!UICONTROL Komponenten]**. Sie können zwischen [Bedienfeldern](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de-DE), [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) und Komponenten aus den linken Schienensymbolen oder über [Hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) wechseln.
+Klicken Sie auf der linken Leiste auf das Symbol **[!UICONTROL Komponenten]**, um auf das Menü „Komponenten“ zuzugreifen. Sie können über die Symbole in der linken Leiste oder über [Hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) zwischen [Bedienfeldern](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/panels.html), [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) und Komponenten wechseln.
 
 ![](assets/component-overview.png)
 
-Sie können die Dichteeinstellungen [für Ansichten](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) auch so anpassen, dass das Projekt in der linken Leiste weitere Werte gleichzeitig sehen kann, indem Sie **[!UICONTROL Projekt > Projektinfo und Einstellungen > Ansicht-Dichte]** aufrufen.
+Sie können auch die [Ansichtsdichteeinstellungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) für das Projekt anpassen, sodass in der linken Leiste mehr Werte gleichzeitig angezeigt werden können. Gehen Sie hierzu auf **[!UICONTROL Projekt > Projektinformationen und -einstellungen > Ansichtsdichte]**.
 
 ## Dimensionen {#dimensions}
 
-[****](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) Dimensionen sind Textattribute, die das Verhalten Ihres Besuchers beschreiben und in Ihrer Analyse angezeigt, aufgeschlüsselt und verglichen werden können. Sie befinden sich in der Leiste &quot;Komponente links&quot;(orangefarbener Abschnitt) und werden in der Regel als Tabellenzeilen angewendet.
+[**Dimensionen**](https://docs.adobe.com/content/help/de-DE/analytics/components/dimensions/overview.html) sind Textattribute, die das Verhalten Ihrer Besucher beschreiben und in Ihrer Analyse angezeigt, aufgeschlüsselt und verglichen werden können. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (orangefarbener Abschnitt) und werden in der Regel als Tabellenzeilen angewendet.
 
-Beispiele für Dimensionen sind [!UICONTROL Seitenname], [!UICONTROL Marketing-Kanal], [!UICONTROL Gerätetyp] und [!UICONTROL Produkte]. Dimensionen werden von der Adobe bereitgestellt und über Ihre benutzerdefinierte Implementierung erfasst (eVar, Props, Classifications usw.).
+Beispiele für Dimensionen sind [!UICONTROL Seitenname], [!UICONTROL Marketing-Kanäle], [!UICONTROL Geräteklasse] und [!UICONTROL Produkte]. Dimensionen werden von Adobe bereitgestellt und über Ihre benutzerdefinierte Implementierung erfasst (beispielsweise eVar, Props, Klassifizierungen).
 
-Jede Dimension enthält auch **Dimensionselemente** darin. Elemente der Dimension finden Sie in der Leiste &quot;Linke Komponente&quot;, indem Sie auf den Pfeil neben dem jeweiligen Dimensionsnamen klicken (Elemente sind gelb).
+Jede Dimension enthält auch **Dimensionselemente**. Dimensionselemente finden Sie in der Leiste „Komponente“ auf der linken Seite, indem Sie auf den rechten Pfeil neben dem jeweiligen Dimensionsnamen klicken (Elemente sind gelb).
 
-Beispiele für Dimensionselemente sind [!UICONTROL Homepage] (innerhalb der Dimension [!UICONTROL Seite]), [!UICONTROL Gebührenpflichtige Suche] (innerhalb der Dimension [!UICONTROL Marketing-Kanal]), [!UICONTROL Tablet] (innerhalb der Dimension [!UICONTROL Mobilgerätetyp] ) usw.
+Beispiele für Dimensionselemente sind [!UICONTROL Startseite] (innerhalb der Dimension [!UICONTROL Seite]), [!UICONTROL Paid Search] (innerhalb der Dimension [!UICONTROL Marketing-Kanal]) und [!UICONTROL Tablet] (innerhalb der Dimension [!UICONTROL Mobilgerätetyp]).
 
 ![](assets/dimensions.png)
 
 ## Metriken {#metrics}
 
-[**Metriken**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) sind quantitative Maßnahmen zum Verhalten von Besuchern. Sie befinden sich in der linken Leiste Komponente (grüner Abschnitt) und werden normalerweise als Tabellenspalten angewendet.
+[**Metriken**](https://docs.adobe.com/content/help/de-DE/analytics/components/metrics/overview.html) sind quantitative Messungen zum Verhalten von Besuchern. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (grüner Abschnitt) und werden normalerweise als Tabellenspalten angewendet.
 
-Zu den Metriken zählen [!UICONTROL Seitenbesuche], [!UICONTROL Ansichten], [!UICONTROL Bestellungen], [!UICONTROL Durchschnittliche Besuchszeit] und [!UICONTROL Umsatz/Bestellung]. Metriken werden von der Adobe bereitgestellt oder über Ihre benutzerdefinierte Implementierung ([!UICONTROL Erfolgsmetriken]) erfasst oder mit dem [Aufbau berechneter Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) erstellt.
+Zu den Metriken zählen beispielsweise [!UICONTROL Seitenansichten], [!UICONTROL Besuche], [!UICONTROL Bestellungen], [!UICONTROL Durchschnittliche Besuchszeit] und [!UICONTROL Umsatz/Bestellung]. Metriken werden von Adobe bereitgestellt, über Ihre benutzerdefinierte Implementierung ([!UICONTROL Erfolgsereignisse]) erfasst oder mit dem [Generator für berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) erstellt.
 
 ![](assets/metrics.png)
 
 ## Segmente {#segments}
 
-[**Bei**](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) Segmenten handelt es sich um Filter der Audience, die auf Ihre Analyse angewendet werden. Sie befinden sich in der Leiste &quot;Komponente links&quot;(blauer Abschnitt) und werden normalerweise oben in einem Bereich oder über den Metrikspalten in einer Tabelle angewendet.
+[**Segmente**](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) sind Zielgruppenfilter, die auf Ihre Analyse angewendet werden. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (blauer Abschnitt) und werden normalerweise oben in einem Bedienfeld oder über den Metrikspalten in einer Tabelle angewendet.
 
-Beispiele für Segmente sind [!UICONTROL Besucher für Mobilgeräte], [!UICONTROL E-Mail-Besuche] und [!UICONTROL Authentifizierte Treffer]. Segmente werden durch Adoben bereitgestellt oder im Dropzone [panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) erstellt oder mit dem [Segmentaufbau](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-build.html) erstellt.
+Beispiele für Segmente sind [!UICONTROL Besucher über Smartphone und Tablet], [!UICONTROL Besuche aus E-Mails] und [!UICONTROL Authentifizierte Treffer]. Segmente werden durch Adobe bereitgestellt oder in der [Dropzone des Bedienfelds](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/panels.html) oder mit dem [Segment Builder](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-build.html) erstellt.
 
 ![](assets/segments.png)
 
 ## Datumsbereiche {#date-ranges}
 
-[**Datumsbereiche**](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) sind der Datumsbereich, über den Sie Ihre Analyse durchführen. Sie befinden sich in der Leiste &quot;Komponente links&quot;(violetter Abschnitt) und werden normalerweise im Kalender der einzelnen Bereiche angewendet.
+[**Datumsbereiche**](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) sind der Zeitraum, für den Sie Ihre Analyse durchführen. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (violetter Abschnitt) und werden normalerweise im Kalender der einzelnen Bedienfelder angewendet.
 
-Beispiele für Datumsbereiche sind Juli 2019, [!UICONTROL Letzte 4 Wochen] und [!UICONTROL Diesen Monat]. Datumsbereiche werden nach Adobe bereitgestellt, im [Bereichskalender](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) angewendet oder mit dem [Datumsbereichsaufbau](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) erstellt.
+Beispiele für Datumsbereiche sind Juli 2019, [!UICONTROL Letzte 4 Wochen] und [!UICONTROL Diesen Monat]. Datumsbereiche werden von Adobe bereitgestellt, im [Kalender des Bedienfelds](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/panels.html) angewendet oder mit der [Datumsbereicherstellung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) erstellt.
 
 ![](assets/date-ranges.png)
 
 ## Komponentenaktionen {#actions}
 
-Sie können Komponenten (einzeln oder durch Auswahl mehrerer Komponenten) direkt in der linken Leiste verwalten. Klicken Sie mit der rechten Maustaste auf eine Komponente oder klicken Sie auf das Aktionspunkt-Symbol oben in der Liste der Komponente.
+Sie können Komponenten (einzeln oder durch Auswahl mehrerer Komponenten) direkt in der linken Leiste verwalten. Klicken Sie mit der rechten Maustaste auf eine Komponente oder klicken Sie oben in der Komponentenliste auf den Punkt „Aktion“.
 
 ![](assets/component-actions.png)
 
 | Komponentenaktion | Beschreibung |
 |--- |--- |
-| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Sie können dann in der linken Leiste nach Tag suchen, indem Sie auf den Filter klicken oder # eingeben. Tags fungieren auch als Filter in den Komponentenmanagern. |
-| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Wie Tags können Sie in der linken Leiste nach Favoriten suchen und sie in den Komponentenmanagern filtern. |
-| Genehmigen | Markieren Sie Komponenten als genehmigt, um Ihren Benutzern zu signalisieren, dass die Komponente vom Unternehmen genehmigt wurde. Wie Tags können Sie in der linken Leiste nach Genehmigt suchen und in den Komponentenmanagern filtern. |
-| Freigeben | Freigeben von Komponenten für Benutzer in Ihrer Organisation. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, z. B. Segmente oder berechnete Metriken. |
-| Löschen | Löschen Sie Komponenten, die Sie nicht mehr benötigen. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, z. B. Segmente oder berechnete Metriken. |
+| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Sie können dann in der linken Leiste nach Tags suchen, indem Sie auf den Filter klicken oder „#“ eingeben. Tags fungieren auch als Filter in den Komponenten-Managern. |
+| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Genauso wie nach Tags können Sie in der linken Leiste auch nach Favoriten suchen und diese in den Komponenten-Managern als Filter verwenden. |
+| Genehmigen | Markieren Sie Komponenten als „Genehmigt“, um Ihren Benutzern zu signalisieren, dass die Komponente vom Unternehmen genehmigt ist. Genauso wie nach Tags können Sie in der linken Leiste nach dem Status „Genehmigt“ suchen und diesen in den Komponenten-Managern als Filter verwenden. |
+| Freigeben | Freigeben von Komponenten für Benutzer in Ihrer Organisation. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
+| Löschen | Löschen Sie Komponenten, die Sie nicht mehr benötigen. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
 
-Benutzerdefinierte Komponenten können auch über ihre jeweiligen Komponentenmanager verwaltet werden. Beispiel: Der [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+Benutzerdefinierte Komponenten können auch über ihre jeweiligen Komponenten-Manager verwaltet werden. Ein Beispiel hierfür ist der [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
