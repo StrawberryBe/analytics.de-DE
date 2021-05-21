@@ -1,14 +1,14 @@
 ---
 title: Akquiseberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berichte erstellen.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Akquiseberichte
 
@@ -112,7 +112,7 @@ Der Bericht zum Benutzerfluss zeigt Pfaddaten im Zusammenhang mit Besuchern an, 
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle.
 2. Klicken Sie links auf das Symbol „Komponenten“ und ziehen Sie dann das Segment **Besuche von sozialen Websites** in den kleinen Bereich namens „Segment hier ablegen“ direkt über der Flussvisualisierung.
-3. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionen sind gelb gefärbt.
+3. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionselemente sind gelb markiert.
 4. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den mittigen Bereich namens „Dimension oder Element“.
 5. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
 
