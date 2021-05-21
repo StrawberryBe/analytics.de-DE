@@ -1,14 +1,14 @@
 ---
 title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe des Gerätediagramms vertraut.
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
 ---
-
 
 # Gerätediagramm
 
@@ -44,4 +44,3 @@ Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode i
 ## Nächste Schritte
 
 Sobald Ihre Organisation alle Anforderungen erfüllt und die Einschränkungen versteht, können Sie mit der [Einrichtung der geräteübergreifenden Analyse](setup.md) beginnen.
-
