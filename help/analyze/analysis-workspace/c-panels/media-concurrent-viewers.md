@@ -1,81 +1,81 @@
 ---
 title: Bedienfeld „Gleichzeitige Medienbetrachter“
-description: Verwenden und Interpretieren des Media Concurrent Viewers-Bedienfelds in Analysis Workspace.
-feature: Panels
+description: Verwendung und Interpretation des Bedienfelds „Gleichzeitige Medienbetrachter“ in Analysis Workspace.
+feature: Bedienfelder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 12%
+exl-id: 29575b51-e319-4156-9834-aa0b671afb31
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
-
 # Bedienfeld „Gleichzeitige Medienbetrachter“
 
-Media Analytics-Kunden können gleichzeitige Viewer analysieren, um zu verstehen, wo es zu einer Spitzenzeitäquivalenz kam oder wo es zu Dropdown-Listen kam, um wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Viewern zu erhalten und um bei der Fehlerbehebung oder Planung für Volumen oder Skalierung zu helfen.
+Media Analytics-Kunden können gleichzeitige Betrachter analysieren, um zu verstehen, wo Spitzenzeiten mit gleichzeitigen Ansichten auftraten oder wo es zu Abbrüchen kam. So erhalten sie wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Betrachtern, die bei der Fehlerbehebung, Planung von Volumen oder Skalierung helfen können.
 
 In Analysis Workspace bezeichnet der Begriff „Gleichzeitige Betrachter“ die Anzahl der Unique Visitors, die sich Ihre Medien-Streams unabhängig von der Anzahl der Sitzungen zu einem bestimmten Zeitpunkt ansehen.
 
-Das Bedienfeld &quot;Medienzeitgleich-Viewer&quot;ermöglicht die Analyse von gleichzeitigen Viewern im Zeitverlauf mit Details zur Spitzenzeitäquivalenz und der Möglichkeit, Unterteilungen und Vergleichen vorzunehmen.  Um auf das Medienkonforme Viewer-Bedienfeld zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten Media Analytics-Komponenten. Klicken Sie dann auf das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld in Ihr Analysis Workspace-Projekt.
+Das Bedienfeld „Gleichzeitige Medienbetrachter“ ermöglicht die Analyse von gleichzeitigen Betrachtern im Zeitverlauf mit Details zu Spitzenzeiten des gleichzeitigen Betrachtens und der Möglichkeit, Unterteilungen und Vergleiche vorzunehmen. Um auf das Bedienfeld „Gleichzeitige Medienbetrachter“ zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten Media Analytics-Komponenten. Klicken Sie dann auf das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld in Ihr Analysis Workspace-Projekt.
 
 ## Bedienfeldeingaben {#Input}
 
-Sie können das Media Concurrent Viewers-Bedienfeld mithilfe der folgenden Eingabeeinstellungen konfigurieren:
+Sie können das Bedienfeld „Gleichzeitige Medienbetrachter“ mithilfe der folgenden Eingabeeinstellungen konfigurieren:
 
 | Einstellung | Beschreibung |
 |---|---|
-| Datumsbereich der Bedienfelder | Der Datumsbereich des Bedienfelds ist standardmäßig &quot;Heute&quot;.  Sie können sie bearbeiten, um einen oder mehrere Monate gleichzeitig Ansicht. <br> <br>Diese Visualisierung ist auf 1440 Datenzeilen beschränkt (z. B. 24 Stunden bei einer Granularität auf Minutenebene).  Wenn eine Kombination aus Datumsbereich und Granularität zu mehr als 1440 Zeilen führt, wird die Granularität automatisch aktualisiert, um den vollständigen Datumsbereich aufzunehmen. |
-| Granularität | Die Standardeinstellung für die Granularität ist &quot;Minute&quot;. <br> <br>Diese Visualisierung ist auf 1440 Datenzeilen beschränkt (z. B. 24 Stunden bei einer Granularität auf Minutenebene).  Wenn eine Kombination aus Datumsbereich und Granularität zu mehr als 1440 Zeilen führt, wird die Granularität automatisch aktualisiert, um den vollständigen Datumsbereich aufzunehmen. |
-| Zusammenfassende Zahlen der Bedienfelder | Um Daten zu Datum und Uhrzeit für gleichzeitige Viewer anzuzeigen, steht eine Zusammenfassungsnummer zur Verfügung. Die maximale Anzahl zeigt Details zur Spitzenzeitäquivalenz an. Das Minimum zeigt Details zum Trough an.  Die Standardeinstellung im Bereich zeigt nur Maximum an, Sie können es jedoch ändern, um Minimum oder sowohl Maximum als auch Minimum anzuzeigen.<br><br>Wenn Sie Aufschlüsselungen verwenden, wird jeweils eine Zusammenfassungsnummer angezeigt. |
-| Aufschlüsselung der Reihen | Optional können Sie Ihre Visualisierung nach Segmenten, Dimensionen, Dimensionselementen oder Datumsbereichen unterteilen. <br><br>- Sie können bis zu 10 Zeilen auf einmal Ansicht. Aufschlüsselungen sind auf eine einzelne Ebene beschränkt.<br><br>- Beim Ziehen einer Dimension werden die Elemente der obersten Dimension automatisch anhand des ausgewählten Bereichsdatumsbereichs ausgewählt.<br><br>- Ziehen Sie zum Vergleichen von Datumsbereichen 2 oder mehr Datumsbereiche in den Filter für die Aufschlüsselung der Serie. |
+| Datumsbereich der Bedienfelder | Der Datumsbereich des Bedienfelds ist standardmäßig „Heute“.  Sie können ihn so verändern, dass Sie einen einzelnen Tag oder viele Monate auf einmal betrachten können. <br> <br>Diese Visualisierung ist auf 1440 Datenzeilen beschränkt (z. B. 24 Stunden bei einer Granularität auf Minutenebene).  Wenn eine Kombination aus Datumsbereich und Granularität zu mehr als 1440 Zeilen führt, wird die Granularität automatisch reduziert, um den vollständigen Datumsbereich zu erlauben. |
+| Granularität | Die Standardeinstellung für die Granularität ist „Minute“. <br> <br>Diese Visualisierung ist auf 1440 Datenzeilen beschränkt (z. B. 24 Stunden bei einer Granularität auf Minutenebene).  Wenn eine Kombination aus Datumsbereich und Granularität zu mehr als 1440 Zeilen führt, wird die Granularität automatisch reduziert, um den vollständigen Datumsbereich zu erlauben. |
+| Zusammenfassende Zahlen der Bedienfelder | Um Details zu Datum und Uhrzeit für gleichzeitige Betrachter anzuzeigen, steht eine Zusammenfassungsnummer zur Verfügung. Das Maximum zeigt Details zu Spitzenzeiten von gleichzeitigen Ansichten an. Das Minimum zeigt Details zum Tiefpunkt an.  Die Standardeinstellung im Bedienfeld zeigt nur das Maximum an, Sie können diese Einstellung jedoch ändern, um nur das Minimum oder sowohl Maximum als auch Minimum anzuzeigen.<br><br>Wenn Sie Aufschlüsselungen verwenden, wird jeweils eine Zusammenfassungsnummer angezeigt. |
+| Serienaufschlüsselung | Optional können Sie Ihre Visualisierung nach Segmenten, Dimensionen, Dimensionselementen oder Datumsbereichen unterteilen. <br><br>– Sie können bis zu 10 Zeilen auf einmal ansehen. Aufschlüsselungen sind auf eine einzelne Ebene beschränkt.<br><br>– Beim Ziehen einer Dimension werden die oberen Dimensionselemente automatisch anhand des im Bedienfelds ausgewählten Datumsbereichs ausgewählt.<br><br>– Ziehen Sie zum Vergleichen von Datumsbereichen zwei oder mehr Datumsbereiche in den Filter für die Aufschlüsselung der Serie. |
 
-### Standardmäßige Ansicht
+### Standardansicht
 
-![Standardmäßige Ansicht](assets/concurrent-viewers-default.png)
+![Standardansicht](assets/concurrent-viewers-default.png)
 
 
-### Aufschlüsselung nach Serie, Ansicht
+### Serienaufschlüsselungsansicht
 
-![Ansicht der Aufschlüsselung](assets/concurrent-viewers-series-breakdown.png)
+![Serienaufschlüsselungsansicht](assets/concurrent-viewers-series-breakdown.png)
 
 ## Bedienfeldausgabe {#Output}
 
-Das Medienkonforme Viewer-Bedienfeld gibt ein Liniendiagramm und Zusammenfassungsnummern zurück, die Details zum maximalen und/oder minimalen gleichzeitigen Viewer enthalten.  Oben im Bedienfeld wird eine Zusammenfassungszeile angezeigt, die Sie an die ausgewählten Bedienfeldeinstellungen erinnert.
+Das Bedienfeld „Gleichzeitige Medienbetrachter“ gibt ein Liniendiagramm und Zusammenfassungsnummern zurück, die Details zu maximalen und/oder minimalen gleichzeitigen Betrachtern enthalten.  Oben im Bedienfeld wird eine Zusammenfassungszeile angezeigt, die Sie an die ausgewählten Bedienfeldeinstellungen erinnert.
 
-Sie können das Bedienfeld jederzeit bearbeiten und neu erstellen, indem Sie oben rechts auf den Stift zum Bearbeiten klicken.
+Sie können das Bedienfeld jederzeit bearbeiten oder erneut erstellen, indem Sie oben rechts auf den Stift zum Bearbeiten klicken.
 
-Wenn Sie die Aufschlüsselung der Serie ausgewählt haben, werden eine Zeile im Liniendiagramm und eine Zusammenfassungsnummer für jede der folgenden Zeilen angezeigt:
+Wenn Sie Serienaufschlüsselung ausgewählt haben, wird für jeden der folgenden Punkte eine Zeile im Liniendiagramm und eine Zusammenfassungsnummer angezeigt:
 
-![Ausgabe von gleichzeitigen Viewern](assets/concurrent-viewers-output.png)
+![Output von gleichzeitigen Betrachtern](assets/concurrent-viewers-output.png)
 
 ### Datenquelle
 
-Die einzige Metrik, die in diesem Bedienfeld verwendet werden kann, sind gleichzeitige Viewer:
+Die einzige Metrik, die in diesem Bedienfeld verwendet werden kann, ist „Gleichzeitige Betrachter“:
 
 | Metrik | Beschreibung |
 |---|---|
-| Gleichzeitige Betrachter | Anzahl der individuellen Besucher, die Ihre Medienstreams zu einem bestimmten Zeitpunkt anzeigen, unabhängig von der Anzahl der Sitzungen.<br><br>Dies unterscheidet sich vom Berichte &quot;Gleichzeitiger Viewer&quot;im Bereich &quot;Berichte&quot;, der &quot;Gleichzeitige aktive Sitzungen&quot;verwendet.  Durch die Verwendung individueller Besucher werden unerwünschte &quot;Spitzen&quot;an den Grenzen der Show (wo die Sitzungen gleichzeitig enden und beginnen) entfernt. |
+| Gleichzeitige Betrachter | Anzahl der Unique Visitors, die Ihre(n) Medien-Stream(s) zu einem bestimmten Zeitpunkt angesehen haben, unabhängig von der Anzahl der Sitzungen.<br><br>Dies unterscheidet sich vom Bericht „Gleichzeitige Betrachter“ im Bereich „Berichte“, wo die gleichzeitigen aktiven Sitzungen zugrunde gelegt werden.  Durch die Verwendung der Unique Visitors werden unerwünschte „Spitzen“ in den Anzeige-Grenzbereichen (wo die Sitzungen gleichzeitig enden und beginnen) entfernt. |
 
-Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Zur Ansicht der Datenquelle können Sie mit der rechten Maustaste auf das Liniendiagramm klicken und als .csv-Datei herunterladen.  Serienunterteilungen werden einbezogen.
+Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Zur Ansicht der Datenquelle können Sie mit der rechten Maustaste auf das Liniendiagramm klicken und es als csv-Datei herunterladen.  Serienaufschlüsselungen werden einbezogen.
 
 
-![Ausgabe von gleichzeitigen Viewern](assets/concurrent-viewers-download-csv.png)
+![Output von gleichzeitigen Betrachtern](assets/concurrent-viewers-download-csv.png)
 
 ## Häufig gestellte Fragen (FAQ) {#FAQ}
 
 | Frage | Antwort |
 |---|---|
 | Wo ist die Freiformtabelle? Wie kann ich die Datenquelle anzeigen? | Die Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Sie können die Datenquelle herunterladen, indem Sie mit der rechten Maustaste auf das Liniendiagramm klicken und die CSV-Datei herunterladen. |
-| Warum hat sich meine Granularität verändert? | Diese Visualisierung ist auf 1440 Datenzeilen beschränkt (z. B. 24 Stunden bei einer Granularität auf Minutenebene).  Wenn eine Kombination aus Datumsbereich und Granularität zu mehr als 1440 Zeilen führt, wird die Granularität automatisch aktualisiert, um den vollständigen Datumsbereich aufzunehmen.<br><br>Wenn Sie von einem größeren auf einen kleineren Datumsbereich wechseln, wird die Granularität auf das niedrigste zulässige Detail aktualisiert, sobald der Datumsbereich geändert wurde. Um eine höhere Granularität Ansicht, bearbeiten Sie das Bedienfeld und erstellen Sie es erneut. |
-| Wie vergleiche ich Videonamen, Segmente, Inhaltstypen usw. | Um diese in einer einzigen Visualisierung zu vergleichen, ziehen Sie Segmente, Dimensionen oder bestimmte Dimensionselemente in den Filter für die Aufschlüsselung der Serie.<br><br>Die Ansicht ist auf 10 Aufschlüsselungen beschränkt.  Um mehr als 10 Ansichten zu ermöglichen, müssen Sie mehrere Bedienfelder verwenden. |
-| Wie vergleiche ich Datumsbereiche? | Um Datumsbereiche in einer einzigen Visualisierung zu vergleichen, verwenden Sie die Aufschlüsselungen der Reihen, indem Sie zwei oder mehr Datumsbereiche ziehen.  Diese Datumsbereiche setzen den Datumsbereich des Bereichs außer Kraft. |
-| Wie ändere ich den Visualisierungstyp? | Dieses Bedienfeld ermöglicht nur die Visualisierung der Linie für die Zeitreihen. |
+| Warum hat sich meine Granularität verändert? | Diese Visualisierung ist auf 1440 Datenzeilen beschränkt (z. B. 24 Stunden bei einer Granularität auf Minutenebene).  Wenn eine Kombination aus Datumsbereich und Granularität zu mehr als 1440 Zeilen führt, wird die Granularität automatisch aktualisiert, um den vollständigen Datumsbereich aufzunehmen.<br><br>Wenn Sie von einem größeren auf einen kleineren Datumsbereich wechseln, wird die Granularität auf das niedrigste zulässige Detail aktualisiert, sobald der Datumsbereich geändert wird. Um eine höhere Granularität zu sehen, bearbeiten Sie das Bedienfeld und erstellen Sie es erneut. |
+| Wie vergleiche ich Videonamen, Segmente, Inhaltstypen usw.? | Um diese in einer einzigen Visualisierung zu vergleichen, ziehen Sie Segmente, Dimensionen oder bestimmte Dimensionselemente in den Filter für die Serienaufschlüsselung.<br><br>Die Ansicht ist auf 10 Aufschlüsselungen beschränkt.  Um mehr als 10 ansehen zu können, müssen Sie mehrere Bedienfelder verwenden. |
+| Wie vergleiche ich Datumsbereiche? | Um Datumsbereiche in einer einzigen Visualisierung zu vergleichen, verwenden Sie die Serienaufschlüsselungen, indem Sie zwei oder mehr Datumsbereiche ziehen.  Diese Datumsbereiche setzen den Datumsbereich des Bedienfelds außer Kraft. |
+| Wie ändere ich den Visualisierungstyp? | Dieses Bedienfeld ermöglicht nur die Linienvisualisierung für die Zeitreihen. |
 | Kann ich die Anomalieerkennung ausführen? | Nein.  Die Anomalieerkennung ist für dieses Bedienfeld nicht verfügbar. |
-| Warum sollten Sie eindeutige Besucher anstelle von aktiven Sitzungen verwenden? | Die Verwendung individueller Besucher ermöglicht das Entfernen unerwünschter Spitzen an den Grenzen der Show (wobei die Sitzungen gleichzeitig enden und beginnen). |
-| Was bedeutet es, gleichzeitige Viewer mit höherer Granularität als Minute zu haben? | Bei einer Granularität von mehr als einer Minute stellen gleichzeitige Viewer die Summe der eindeutigen gleichzeitigen Viewer für alle Minuten innerhalb dieses Zeitraums dar.  Beispielsweise ist die Granularität gleichzeitiger Viewer auf Stundenebene die Summe der eindeutigen gleichzeitigen Viewer für alle Minuten innerhalb der Stunde. |
-| Was ist, wenn ich mehr als einen Tag auf der Minutenebene der Granularität sehen möchte? | Um auf Daten mit Granularität auf Minutenebene für bis zu 1 Monat gleichzeitig zuzugreifen, können Sie die Analytics 2.0-APIs verwenden. Weitere Informationen finden Sie unter [JSON-Berichtsdaten für gleichzeitige Viewer mit Analytics 2.0-APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
-| Zeigt der Arbeitsbereich dieselben Informationen wie der Bericht &quot;Gleichzeitige Viewer&quot;an? | Nein.  In Analysis Workspace ist &quot;Gleichzeitige Viewer&quot;definiert als die Anzahl der individuellen Besucher, die Ihren Medienstream zu einem bestimmten Zeitpunkt anzeigen, unabhängig von der Anzahl der Sitzungen.<br><br>Dies unterscheidet sich vom Berichte &quot;Gleichzeitiger Viewer&quot;im Bereich &quot;Berichte&quot;, der &quot;Gleichzeitige aktive Sitzungen&quot;verwendet.  Durch die Verwendung eindeutiger Besucher können unerwünschte Spitzen an den Grenzen der Anzeige entfernt werden, wobei die Sitzungen gleichzeitig enden und beginnen. |
+| Warum sollte ich Unique Visitors anstelle von aktiven Sitzungen verwenden? | Die Verwendung von Unique Visitors ermöglicht das Entfernen unerwünschter Spitzen in den Anzeige-Grenzbereichen (wo Sitzungen gleichzeitig enden und beginnen). |
+| Was bedeutet es, parallele Betrachter mit einer Granularität von mehr als einer Minute zu haben? | Bei einer Granularität von mehr als einer Minute stellen gleichzeitige Betrachter die Summe der gleichzeitigen Unique Viewers für alle Minuten innerhalb dieses Zeitraums dar. Beispielsweise ist die Granularität gleichzeitiger Betrachter auf Stundenebene die Summe der gleichzeitigen Unique Viewers für alle Minuten innerhalb der Stunde. |
+| Was ist, wenn ich mehr als einen Tag mit einer Granularität auf Minutenebene sehen möchte? | Um gleichzeitig auf Daten mit Granularität auf Minutenebene für bis zu 1 Monat zuzugreifen, können Sie die Analytics 2.0-APIs verwenden. Weitere Informationen finden Sie unter [Abrufen von JSON-Berichtsdaten zu gleichzeitigen Betrachtern mit Analytics 2.0-APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
+| Zeigt das Arbeitsbereich-Bedienfeld dieselben Informationen wie der Bericht zu gleichzeitigen Betrachtern? | Nein.  In Analysis Workspace bezeichnet der Begriff „Gleichzeitige Betrachter“ die Anzahl der Unique Visitors, die sich Ihre Medien-Streams zu einem bestimmten Zeitpunkt ansehen, unabhängig von der Anzahl der Sitzungen.<br><br>Dies unterscheidet sich vom Bericht „Gleichzeitige Betrachter“ im Bereich „Berichte“, wo die gleichzeitigen aktiven Sitzungen zugrunde gelegt werden.  Durch die Verwendung der Unique Visitors können unerwünschte Spitzen in den Anzeige-Grenzbereichen, wo die Sitzungen gleichzeitig enden und beginnen, entfernt werden. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
