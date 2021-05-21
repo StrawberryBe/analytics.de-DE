@@ -2,22 +2,22 @@
 description: Diese Visualisierung des Workspace ist wie ein Liniendiagramm, aber mit einem farbigen Bereich unterhalb der Linie.
 title: Bereich und Bereich gestapelt
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualizations
+feature: Visualisierungen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 97%
+exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '100'
+ht-degree: 100%
 
 ---
-
 
 # Bereich und Bereich gestapelt
 
 ## Bereich {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
-Diese Visualisierung des ist wie ein Liniendiagramm, aber mit einem farbigen Bereich unterhalb der Linie. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird.
+Diese Visualisierung entspricht einem Kantengraph, bei dem der Bereich unter der Linie farbig dargestellt ist. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird.
 
 ![](assets/area.png)
 
@@ -30,4 +30,3 @@ Diese Visualisierung entspricht einem Flächendiagramm, aber hier beginnt jede S
 Mit der neuen Einstellung für gestapelte Bereichsdiagramme erhalten Sie eine zu „100 % gestapelte“ Visualisierung.
 
 ![](assets/areastacked100.png)
-
