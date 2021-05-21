@@ -1,14 +1,14 @@
 ---
 title: Übersicht über Klassifizierungen
 description: Passen Sie die Gruppierung von Dimensionselementen an.
-translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Übersicht über Klassifizierungen
 
@@ -34,7 +34,7 @@ Die Reports &amp; Analysen Funktion beinhaltet vordefinierte Classifications f�
 
 Weitere Informationen finden Sie unter [Traffic-Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md) und [Konversion-Classifications](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
-In der folgenden Tabelle werden die verschiedenen verfügbaren Classification-Typen und die Variablentypen, die sie unterstützen, beschrieben. Beachten Sie die Informationen unter  [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md) vor dem Hochladen von Datendateien.
+In der folgenden Tabelle werden die verschiedenen verfügbaren Classification-Typen und die Variablentypen, die sie unterstützen, beschrieben. Beachten Sie die Informationen unter [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md) vor dem Hochladen von Datendateien.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
@@ -62,4 +62,3 @@ In der folgenden Tabelle werden die verschiedenen verfügbaren Classification-Ty
   </tr> 
  </tbody> 
 </table>
-
