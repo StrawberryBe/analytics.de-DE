@@ -2,16 +2,16 @@
 description: Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. Damit soll dem Benutzer geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysieren viel schneller zu identifizieren.
 title: In der Beitragsanalyse verwendete statistische Verfahren
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI Tools
+feature: KI-Tools
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '332'
+ht-degree: 100%
 
 ---
-
 
 # In der Beitragsanalyse verwendete statistische Verfahren
 
@@ -40,4 +40,3 @@ Die Beitragsanalyse erreicht dies durch Ausführung eines zweiteiligen Algorithm
    (Eine ähnliche Formel kann für den Zeitraum 1 genommen werden.)
 
    Für die Endergebnisse wird die Bewertung von jedem Dimensionselement dann mit dem Cramer-V-Messwert gewichtet und in einen Wert zwischen 0 und 1 skaliert, um den Verteilungswert zu erhalten.
-
