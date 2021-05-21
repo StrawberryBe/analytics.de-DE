@@ -1,14 +1,14 @@
 ---
 title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace zielgruppenbasierte Berichte erstellen.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '1715'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Zielgruppenberichte
 
@@ -59,7 +59,7 @@ Der Nutzer-Explorer-Bericht ermöglicht es Analysten, einzelne Besuche über ano
 
 Demografie- und Interessendaten liefern Informationen über Alter, Geschlecht und Interessen der Site-Anwender. Diese Daten werden von Google über Site-übergreifende Tracking-Funktionen erfasst.
 
-Demografie- und Interessensdaten werden von Adobe nicht automatisch erfasst. Wenn Ihr Unternehmen diese Daten jedoch erhält, können Sie hierfür Kundenattribute verwenden, eine Funktion innerhalb der Adobe Experience Cloud-Plattform. Sie ermöglicht die vollständige Kontrolle über die Organisation der Daten nach Attributen und ist nicht auf Demografie oder Interessen beschränkt.
+Demografie- und Interessensdaten werden von Adobe nicht automatisch erfasst. Wenn Ihr Unternehmen diese Daten jedoch erhält, können Sie hierfür Kundenattribute verwenden, eine Funktion innerhalb der Adobe Experience Cloud-Platform. Sie ermöglicht die vollständige Kontrolle über die Organisation der Daten nach Attributen und ist nicht auf Demografie oder Interessen beschränkt.
 
 Weitere Informationen finden Sie in der Hilfe zu Kundenattributen.
 
@@ -89,7 +89,7 @@ Wenn die Tabelle zusätzlich zur Karte gewünscht wird:
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Länder** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie in den Dimensionen [Länder](/help/components/dimensions/countries.md) im Komponenten-Benutzerhandbuch.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Länder](/help/components/dimensions/countries.md) im Benutzerhandbuch zu Komponenten.
 
 ## Verhalten – Neu und wiederkehrend
 
@@ -161,7 +161,7 @@ Der Übersichtsbericht für Mobilgeräte entspricht ungefähr der Dimension **Mo
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Mobilgerätetyp** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie in der Dimension [Mobilgerätetyp](/help/components/dimensions/mobile-dimensions.md) im Komponenten-Benutzerhandbuch.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Mobilgerätetyp](/help/components/dimensions/mobile-dimensions.md) im Benutzerhandbuch zu Komponenten.
 
 ## Mobil – Geräte
 
@@ -170,7 +170,7 @@ Der Mobilgerätebericht entspricht ungefähr der Dimension **Mobilgerät**.
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Mobilgerät** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie in der Dimension [Mobilgerät](/help/components/dimensions/mobile-dimensions.md) im Komponenten-Benutzerhandbuch.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Mobilgerät](/help/components/dimensions/mobile-dimensions.md) im Benutzerhandbuch zu Komponenten.
 
 ## Benutzerspezifisch
 
@@ -185,6 +185,6 @@ Mithilfe von Benchmarking-Berichten können Sie sehen, wie die verschiedenen Fac
 Der Flussbericht ist auf beiden Plattformen verfügbar. So erstellen Sie einen Flussbericht:
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle.
-2. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionen sind gelb gefärbt.
+2. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionselemente sind gelb markiert.
 3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den mittigen Bereich namens „Dimension oder Element“.
 4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
