@@ -1,14 +1,14 @@
 ---
 title: dynamicVariablePrefix
 description: Ermöglicht die Anpassung der Zeichenfolge zur Identifizierung dynamischer Variablen.
-translation-type: tm+mt
-source-git-commit: 03a4c0d5e080219a7fd96dff33ce122669351ac3
-workflow-type: tm+mt
+exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # dynamicVariablePrefix
 
