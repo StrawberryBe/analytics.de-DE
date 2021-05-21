@@ -2,14 +2,14 @@
 description: Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie Dimensionen, Segmente und Funktionen per Drag-and-Drop verschieben können, um benutzerdefinierte Metriken basierend auf Containerhierarchielogik, Regeln und Operatoren zu erstellen. Mit diesem integrierten Entwicklungstool können Sie einfache berechnete Metriken oder komplexe, erweiterte berechnete Metriken erstellen und speichern.
 title: Metriken erstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '968'
 ht-degree: 100%
 
 ---
-
 
 # Metriken erstellen
 
@@ -135,7 +135,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Funktionen </p> </td> 
-   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Funktionen werden in zwei Listen aufgeteilt:  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >Einfach</a> (am häufigsten verwendet) und <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Erweitert</a>. </p> </td> 
+   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Funktionen werden in zwei Listen aufgeteilt: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >Einfach</a> (am häufigsten verwendet) und <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Erweitert</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Report Suite-Auswahl </p> </td> 
@@ -143,4 +143,3 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
  </tbody> 
 </table>
-
