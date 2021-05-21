@@ -1,14 +1,14 @@
 ---
 title: registerPostTrackCallback
 description: Erstellen Sie Callback-Funktionen, nachdem Sie einen Treffer an Adobe gesendet haben.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # registerPostTrackCallback
 
@@ -30,7 +30,7 @@ Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwende
 
 ## s.registerPostTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die Funktion `s.registerPostTrackCallback` ist eine Funktion, die als einziges Argument eine Funktion akzeptiert. Die verschachtelte Funktion wird sofort ausgeführt, nachdem eine Bildanforderung erfolgreich gesendet wurde.
+Die Funktion `s.registerPostTrackCallback` ist eine Funktion, die als einziges Argument eine Funktion akzeptiert. Die verschachtelte Funktion wird direkt nach dem erfolgreichen Senden einer Bildanforderung ausgeführt.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
