@@ -1,14 +1,14 @@
 ---
 title: Implementieren mit AJAX
 description: Erfahren Sie, wie Sie Adobe Analytics mit AJAX auf einer Website implementieren.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
 ---
-
 
 # Implementieren mit AJAX
 
