@@ -1,14 +1,14 @@
 ---
 title: Warenkorb
 description: Die Anzahl der Treffer, bei denen ein Besucher sein erstes Produkt einem Warenkorb hinzugefügt hat.
-translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # Warenkorb
 
