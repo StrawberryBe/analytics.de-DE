@@ -1,16 +1,16 @@
 ---
 title: Freiformtabelle
 description: Freiformtabellen sind die Grundlage für die Analyse von Daten in Workspace
-feature: Freeform Tables
+feature: Freiformtabellen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 99%
+exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
-
 
 # Freiformtabelle
 
@@ -20,7 +20,7 @@ In Analysis Workspace bildet eine Freiformtabelle die Grundlage für die interak
 
 ## Automatisierte Tabellen
 
-Am schnellsten können Sie eine Tabelle erstellen, indem Sie Komponenten direkt in ein leeres Projekt, ein leeres Bedienfeld oder eine Freiformtabelle ablegen. Eine Freiformtabelle wird dann automatisch in einem empfohlenen Format erstellt. [Tutorial ansehen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=de-DE).
+Am schnellsten können Sie eine Tabelle erstellen, indem Sie Komponenten direkt in ein leeres Projekt, ein leeres Bedienfeld oder eine Freiformtabelle ablegen. Eine Freiformtabelle wird dann automatisch in einem empfohlenen Format erstellt. [Tutorial ansehen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=de).
 
 ![](assets/automated-table.png)
 
@@ -47,12 +47,12 @@ Es gibt verschiedene Arten, mit Freiformtabellen zu interagieren und sie anzupas
 
 ## Exportieren von Freiformtabellendaten
 
-Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de-DE) aller Daten für Analysis Workspace.
+Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
 
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten in Zwischenablage kopieren]** exportiert die angezeigten Tabellendaten. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl in Zwischenablage kopieren]**. Mit dem Hotkey **Strg+C** können auch ausgewählte Daten kopiert werden.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten als CSV-Datei herunterladen]** lädt die angezeigten Tabellendaten als CSV-Datei herunter. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl als CSV-Datei herunterladen]**.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Projekt > Elemente als CSV-Datei herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
 
-Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) aller Daten für Analysis Workspace.
+Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
 
 ![](assets/export-options.png)
