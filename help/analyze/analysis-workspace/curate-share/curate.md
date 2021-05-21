@@ -2,16 +2,16 @@
 description: Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben.
 keywords: Analysis Workspace-Kuratierung
 title: Kuratieren von Projekten
-feature: Curate and Share
+feature: Kuratieren und Freigeben
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 98%
+exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
-
 
 # Kuratieren von Projekten
 
