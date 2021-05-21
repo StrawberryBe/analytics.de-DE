@@ -1,14 +1,14 @@
 ---
 title: Besucher mit Experience Cloud ID
-description: Die Anzahl der Unique Visitors, die den Adobe Experience Cloud Identity Service verwenden.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+description: Die Anzahl der Unique Visitors, die den Adobe Experience Cloud ID Service verwenden.
+exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '376'
 ht-degree: 100%
 
 ---
-
 
 # Besucher mit Experience Cloud ID
 
