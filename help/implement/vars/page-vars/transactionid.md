@@ -1,14 +1,14 @@
 ---
 title: transactionID
 description: Verwenden Sie diese Variable, um Online- und Offline-Daten miteinander zu verknüpfen.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
 ---
-
 
 # transactionID
 
