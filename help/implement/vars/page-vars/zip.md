@@ -1,14 +1,14 @@
 ---
 title: zip
 description: Füllen Sie die Dimension „Postleitzahl“ manuell, wenn die Report Suite-Einstellungen dies zulassen.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
 ---
-
 
 # zip
 
