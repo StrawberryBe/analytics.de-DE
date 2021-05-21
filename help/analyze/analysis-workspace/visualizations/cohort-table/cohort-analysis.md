@@ -1,16 +1,16 @@
 ---
 title: Was ist eine Kohortenanalyse und wie funktioniert sie?
 description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgruppe und unterteilen Sie sie mit der Kohortenanalyse in die zugehörigen Gruppen. Erfahren Sie mehr über die Kohortenanalyse in Analysis Workspace.
-feature: Visualizations
+feature: Visualisierungen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 99%
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '493'
+ht-degree: 100%
 
 ---
-
 
 # Weitere Informationen zur [!UICONTROL Kohortenanalyse] in Adobe Analytics
 
@@ -72,4 +72,3 @@ Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf
 ![](assets/cohort-customizable-cohort-row.png)
 
 Anweisungen zum Einrichten und Durchführen eines Kohortenberichts finden Sie unter [Konfigurieren eines Kohortenanalyseberichts](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-
