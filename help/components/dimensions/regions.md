@@ -1,14 +1,14 @@
 ---
 title: Regionen
 description: Die geografische Region des Besuchers.
-translation-type: tm+mt
-source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '381'
 ht-degree: 100%
 
 ---
-
 
 # Regionen
 
