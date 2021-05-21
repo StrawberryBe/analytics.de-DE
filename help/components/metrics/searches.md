@@ -1,14 +1,14 @@
 ---
 title: Suchvorgänge
 description: Die Häufigkeit, mit der ein Treffer externen Suchkriterien entsprach.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # Suchvorgänge
 
