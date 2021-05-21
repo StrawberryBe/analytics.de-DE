@@ -2,16 +2,16 @@
 description: Sie können Anomalien in einer Tabelle oder einem Liniendiagramm anzeigen.
 title: Anomalien in Analysis Workspace anzeigen
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI Tools
+feature: KI-Tools
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # Anomalien in Analysis Workspace anzeigen
 
@@ -45,4 +45,3 @@ Das Konfidenzintervall der Anomalieerkennung skaliert nicht automatisch die Y-Ac
 Sie können festlegen, dass das Konfidenzintervall das Diagramm skaliert. Klicken Sie einfach auf das Symbol „Einstellungen“ (Zahnrad) und aktivieren Sie die Option **[!UICONTROL Skalierung der Y-Achse im Rahmen der Anomalieerkennung erlauben]**.
 
 ![](assets/scale-y-axis.png)
-
