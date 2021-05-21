@@ -1,14 +1,14 @@
 ---
 title: cleanStr
 description: Entfernen oder ersetzen Sie alle unnötigen Zeichen aus einer Zeichenfolge.
+exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 translation-type: ht
-source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # Adobe-Plug-in: cleanStr
 
