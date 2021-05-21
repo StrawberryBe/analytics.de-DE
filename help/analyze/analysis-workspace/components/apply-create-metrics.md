@@ -2,16 +2,16 @@
 description: In Analysis Workspace gibt es zwei Möglichkeiten zur Verwendung von Metriken.
 title: Metriken
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-feature: Workspace Basics
+feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 85%
+exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
-
 
 # Metriken
 
@@ -31,11 +31,11 @@ Um das schnelle Erstellen berechneter Metriken zu vereinfachen, wurde dem Spalte
 
 ![](assets/calc_metrics.png)
 
-[Berechnete Metriken: Implementierungslose Metriken](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  (3:42)
+[Berechnete Metriken: implementierungslose Metriken](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Vergleichen von Metriken mit verschiedenen Attributionsmodellen
 
-Wenn Sie ein Zuordnungsmodell schnell und einfach mit einem anderen vergleichen möchten, klicken Sie mit der rechten Maustaste auf eine Metrik und wählen Sie **[!UICONTROL Zuordnungsmodelle vergleichen]**:
+Wenn Sie Attributionsmodelle schnell und einfach miteinander vergleichen möchten, können Sie mit der rechten Maustaste auf eine Metrik klicken und **[!UICONTROL Attributionsmodelle vergleichen]** auswählen:
 
 ![Vergleichsattribution](assets/compare-attribution.png)
 
