@@ -1,24 +1,24 @@
 ---
-description: Übersicht über den Advertising Analytics-Arbeitsablauf.
+description: Übersicht über den Arbeitsablauf in Advertising Analytics
 title: Workflow-Übersicht
-translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
-workflow-type: tm+mt
+exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-
 # Workflow-Übersicht
 
-![](assets/step1_icon.png) Ordnen Sie alle Adobe Analytics Report Suites zu, in denen Sie Google/Bing-Suchdaten Ansicht haben möchten, Ihrem Experience Cloud zu.
+![](assets/step1_icon.png) Ordnen Sie sämtliche Adobe Analytics-Report Suites, in denen Google- oder Bing-Suchdaten angezeigt werden sollen, Ihrer Experience Cloud-Organisation zu.
 
 Weitere Informationen dazu finden Sie unter [Report Suites einer Organisation zuweisen](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Advertising Analytics-Reporting pro Report Suite aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Aktiviert den Berichte [!UICONTROL Advertising Analytics] für Experience-Cloud-fähige Report Suites.
+Aktiviert das Reporting in [!UICONTROL Advertising Analytics] für Experience Cloud-fähige Report Suites.
 
 ![](assets/step3_icon.png) [Advertising Analytics-Konto einrichten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -30,7 +30,7 @@ Hinweis: Die Suchdaten werden um ca. 6:00 Uhr in der Zeitzone Ihres Adobe Analy
 
 Das Reporting steht Ihnen wie folgt zur Verfügung:
 
-* Analysis Workspace: [!UICONTROL Vorlage für die gebührenpflichtige Suchleistung]
+* Analysis Workspace: Vorlage [!UICONTROL Paid Search Performance]
 * Reports &amp; Analytics
 * Report Builder
 * Analytics-Reporting-API
