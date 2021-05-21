@@ -1,14 +1,14 @@
 ---
 title: Seiten nicht gefunden
 description: URLs, die einen Fehler auf Ihrer Site zurückgegeben haben.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # Seiten nicht gefunden
 
@@ -21,7 +21,7 @@ Die Dimension „Seiten nicht gefunden“ gibt URLs an, die einen Fehler enthalt
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ruft Daten aus den Abfragezeichenfolgen [`pageType` und `g`](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. Wenn die Abfragezeichenfolge `pageType` gleich `errorPage` ist, wird die Abfragezeichenfolge `g` (Seiten-URL) aufgezeichnet. AppMeasurement erfasst diese Daten mit der [`pageType`](/help/implement/vars/page-vars/pagetype.md)-Variable. Wenn die Variable `pageType` nicht definiert oder auf einen anderen Wert als `errorPage` festgelegt ist, werden keine Daten für diese Dimension erfasst.
+Diese Dimension ruft Daten aus den  [`pageType`- und `g`-Abfragezeichenfolgen](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. Wenn die Abfragezeichenfolge `pageType` gleich `errorPage` ist, wird die Abfragezeichenfolge `g` (Seiten-URL) aufgezeichnet. AppMeasurement erfasst diese Daten mit der [`pageType`](/help/implement/vars/page-vars/pagetype.md)-Variable. Wenn die Variable `pageType` nicht definiert oder auf einen anderen Wert als `errorPage` festgelegt ist, werden keine Daten für diese Dimension erfasst.
 
 ## Dimensionselemente
 
