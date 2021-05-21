@@ -3,16 +3,16 @@ description: Schlüsseln Sie Dimensionen und Dimensionselemente in Analysis Work
 keywords: Analysis Workspace
 title: Dimensionen aufschlüsseln
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace Basics
+feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '233'
+exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # Dimensionen aufschlüsseln
 
@@ -33,7 +33,7 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
 
 [Hinzufügen von Dimensionen und Metriken zu Ihrem Projekt in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[Arbeiten mit Dimensionen in einer Freiformtabelle](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
+[Arbeiten mit Dimensionen in einer Freiformtabelle](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## Attributionsmodelle auf Aufschlüsselungen anwenden
 
