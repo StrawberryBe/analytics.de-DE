@@ -1,20 +1,20 @@
 ---
 title: charSet
 description: Die Variable „charSet“ bestimmt, mit welcher Codierung Adobe Ihre Bildanforderung analysiert.
-translation-type: tm+mt
-source-git-commit: 70410af433f540764b71bd29a81ff9d8210cb95c
-workflow-type: tm+mt
+exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # charSet
 
 Die Variable „charSet“ wird von Adobe verwendet, um eingehende Daten für die Speicherung und Berichterstellung in UTF-8 zu konvertieren. Die meisten Sites müssen diese Variable nicht festlegen.
 
-Legen Sie diese Variable nur fest, wenn in Berichten unleserliche Werte ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) angezeigt werden. Sie können diese Variable seitenweise einstellen, wenn Ihre Site auf verschiedenen Seiten unterschiedliche Kodierungen verwendet.
+Legen Sie diese Variable nur fest, wenn in Berichten unleserliche Werte ([Zeichensalat](https://de.wikipedia.org/wiki/Zeichensalat)) angezeigt werden. Diese Variable kann seitenweise eingestellt werden, wenn Ihre Website auf verschiedenen Seiten unterschiedliche Codierungen verwendet.
 
 ## Zeichensatz in Adobe Experience Platform Launch
 
