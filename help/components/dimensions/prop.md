@@ -1,16 +1,16 @@
 ---
 title: Prop
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
-translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
 
-
-# prop
+# Prop
 
 *Auf dieser Hilfeseite wird beschrieben, wie Props als Dimension funktionieren. Weitere Informationen zur Implementierung von Props finden Sie unter [Props](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.*
 
