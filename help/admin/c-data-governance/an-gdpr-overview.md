@@ -2,20 +2,20 @@
 description: Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics durchführen müssen, um DSGVO-Zugriffs- und -Löschberechtigungen von Datensubjekten zu unterstützen.
 title: Adobe Analytics und die DSGVO
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '629'
 ht-degree: 100%
 
 ---
 
-
 # Adobe Analytics und die DSGVO
 
 Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics durchführen müssen, um DSGVO-Zugriffs- und -Löschberechtigungen von Datensubjekten zu unterstützen.
 
-## Adobe-Übersicht   {#section_E582A1D77583410EBB790BB646854A2C}
+## Adobe-Übersicht {#section_E582A1D77583410EBB790BB646854A2C}
 
 >[!IMPORTANT]
 >
