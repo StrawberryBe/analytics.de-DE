@@ -1,16 +1,16 @@
 ---
-description: Data Feeds sind Exporte von durch Adobe empfangene Clickstream-Daten. Verfügbar sind sowohl standardmäßige als auch benutzerdefinierte Daten-Feeds.
-keywords: ftp;sftp
+description: Daten-Feeds sind Exporte von durch Adobe empfangene Clickstream-Daten. Verfügbar sind sowohl standardmäßige als auch benutzerdefinierte Daten-Feeds.
+keywords: FTP, sFTP
 title: Daten-Feeds
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
-translation-type: tm+mt
-source-git-commit: fc14751c810019c5257a23a8a598b16f42ed10ee
-workflow-type: tm+mt
+exl-id: 286050fa-e197-4b70-b167-da6921615c1b
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Daten-Feeds
 
