@@ -2,20 +2,20 @@
 description: Beispiele für Datenschutzbezeichnungen für Adobe Analytics-Variablen
 title: Datenschutzbezeichnungen für Analytics-Variablen
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '3649'
 ht-degree: 100%
 
 ---
 
-
 # Datenschutzbezeichnungen für Analytics-Variablen
 
 ## Grund der Datenbeschriftung {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
-Viele Adobe-Kunden verfügen über juristische Teams, die die Datenschutzgesetze (DSGVO, CCPA usw.) geprüft haben. Sie haben eigene Schlussfolgerungen bezüglich des Umgangs mit Daten gezogen, um Datenschutzgesetze einzuhalten. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Um diesen unterschiedlichen Vorstellungen bei der Datenverarbeitung unter Einhaltung des Datenschutzes und den verschiedenen Datensätzen beizukommen, können Datenverantwortliche die Einstellungen für die Datenverarbeitung unter Einhaltung des Datenschutzes ihrer individuellen Daten nach eigenen Wünschen anpassen. So kann jeder Kunde Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
+Viele Adobe-Kunden verfügen über juristische Teams, die die Datenschutzgesetze (DSGVO, CCPA usw.) geprüft haben. Sie haben eigene Schlussfolgerungen bezüglich des Umgangs mit Daten gezogen, um Datenschutzgesetze einzuhalten. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Um diesen unterschiedlichen Vorstellungen bei der Datenverarbeitung unter Einhaltung des Datenschutzes und den verschiedenen Datensätzen beizukommen, können Datenverantwortliche die Einstellungen für die Datenverarbeitung unter Einhaltung des Datenschutzes ihrer individuellen Daten nach eigenen Wünschen anpassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
 
 Adobe Analytics stellt Werkzeuge zur Verfügung, um Daten entsprechend ihrer Sensibilität und ihren vertraglichen Beschränkungen zu kennzeichnen. Kennzeichnungen sind wichtig und nützlich, denn sie helfen (1) die betroffenen Personen zu identifizieren, (2) zu bestimmen, welche Daten im Rahmen einer Zugriffsanforderung zurückgegeben werden sollen, und (3) Datenfelder zu identifizieren, die im Rahmen einer Löschanfrage gelöscht werden müssen.
 
@@ -23,13 +23,13 @@ Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern h
 
 Die Adobe Analytics-Datenschutzimplementierung unterstützt folgende Beschriftungen für Identitätsdaten, vertrauliche Daten und Data Governance.
 
-## DULE-Beschriftungen   {#section_B2E78130957647338495EF37DE21D6BC}
+## DULE-Beschriftungen {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE]
 >
 >Das DULE-Framework (Data Usage Labeling &amp; Enforcement) wurde entwickelt, um über alle Lösungen, Services und Plattformen von Adobe hinweg eine einheitliche Methode zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in der Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche vertraglichen Beschränkungen für die Daten gelten. In dieser ersten Version zeigt Analytics nur die DULE-Beschriftungen, die für den Datenschutz relevant sind. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
 
-## Beschriftungen für Identitätsdaten (DULE)   {#identity-data-labels}
+## Beschriftungen für Identitätsdaten (DULE) {#identity-data-labels}
 
 Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann.
 
@@ -63,7 +63,7 @@ Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu
  </tbody> 
 </table>
 
-## Beschriftungen für vertrauliche Daten (DULE)   {#sensitive-data-labels}
+## Beschriftungen für vertrauliche Daten (DULE) {#sensitive-data-labels}
 
 Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenbeschriftungen eingeführt, um andere Arten vertraulicher Informationen zu identifizieren.
 
@@ -205,7 +205,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
  </tbody> 
 </table>
 
-## Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON   {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren.
 
@@ -276,7 +276,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
   <tr> 
    <td colname="col1"> <p>Classifications </p> </td> 
    <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON, </p> </td> 
-   <td colname="col3"> <p>ID-GERÄT, ID-PERSON </p> <p>DEL-GERÄT, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -290,12 +290,12 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
   <tr> 
    <td colname="col1"> <p>Die meisten anderen Variablen </p> <p><i>(Ausnahmen finden Sie in der unten stehenden Tabelle.)</i> </p> </td> 
    <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-GERÄT, ID-PERSON </p> <p>DEL-GERÄT, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Variablen, denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen werden können/geändert   {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variablen, denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen werden können/geändert {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -318,7 +318,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Klassifizierungen </p> </td> 
+   <td colname="col2"> <p>Classifications </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/S1/S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -347,7 +347,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
      <li id="li_6046764B19FF4679B51E55671C2C0ADB">Datenverarbeitungsdimensionen </li> 
     </ul> </td> 
    <td colname="col2"> <p>IP-Adresse </p> <p>IP-Adresse 2 </p> </td> 
-   <td colname="col3"> <p>DEL-GERÄT/DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Sie können die DEL-Beschriftung zwar nicht ändern, Sie können sie jedoch zu DEL-DEVICE oder DEL-PERSON oder beidem ändern. </p> </td> 
   </tr> 
   <tr> 
@@ -358,7 +358,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
  </tbody> 
 </table>
 
-## Löschverarbeitung   {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Löschverarbeitung {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Die Adobe Analytics-Unterstützung für Datenschutz-Löschanfragen soll die Auswirkungen auf das Reporting minimieren. In den meisten Fällen sollten sich die in Berichten angezeigten Metriken nicht ändern. Ein Verlaufsbericht, der vor der Datenschutzlöschung ausgeführt wurde, stimmt mit dem Bericht nach der Löschung überein. Dies wird erreicht, indem die gelöschten Daten vollständig von der betroffenen Person getrennt werden, während nicht identifizierbare Daten beibehalten werden, damit die angezeigten Werte gleich bleiben.
 
@@ -436,7 +436,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
    <td colname="col2"> <p> Gibt den Namen der Analytics Report Suite an, die die Daten enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Besucher-ID </p> <p>MCID/ECID </p> </td> 
+   <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
    <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Werte für Unique Visitors im Verlaufsbericht. </p> </td> 
   </tr> 
   <tr> 
@@ -446,7 +446,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
  </tbody> 
 </table>
 
-## Datumsfelder für Zugriffsanfragen   {#section_6678FB4FF42B481C9B78E64F61782397}
+## Datumsfelder für Zugriffsanfragen {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
