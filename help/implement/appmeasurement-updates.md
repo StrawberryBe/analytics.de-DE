@@ -2,14 +2,14 @@
 title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
-workflow-type: tm+mt
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Versionshinweise für AppMeasurement für JavaScript
 
@@ -23,7 +23,7 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 Releasedatum: **4. August 2020**
 
-* Korrektur des Fehlers beim Werber, wenn der erste Treffer aufgrund der Abmeldeeinstellungen des Benutzers nicht gesendet wurde.
+* Korrektur für fehlenden Referrer, wenn der erste Treffer aufgrund der Opt-out-Einstellungen des Benutzers nicht gesendet wurde.
 
 ## Version 2.21.0
 
@@ -331,7 +331,7 @@ Releasedatum: **16. April 2015**
 Releasedatum: **19. Februar 2015**
 
 * Die Verarbeitung aller verzögerten Tracking-Aufrufe wurde vereinheitlicht. Dadurch werden Probleme mit während der Verzögerung zurückgestellten Variablen, z. B. dem angeklickten Objekt, behoben.
-* Geändert, sodass kein automatisches Referrer-Tracking nach dem ersten Tracking-Aufruf stattfindet. Der zweite, dritte usw. Tracking-Aufruf (im Regelfall Linktracking) zählen somit den Referrer nicht doppelt, wenn  *`s.referrer`* vor dem ersten Tracking-Aufruf manuell eingestellt wurde.
+* Geändert, sodass kein automatisches Referrer-Tracking nach dem ersten Tracking-Aufruf stattfindet. Der zweite, dritte usw. Tracking-Aufruf (im Regelfall Linktracking) zählen somit den Referrer nicht doppelt, wenn *`s.referrer`* vor dem ersten Tracking-Aufruf manuell eingestellt wurde.
 * Die ZIP-Datei für die Verteilung wurde aktualisiert und enthält nun die Visitor API 1.3.5.
 
 ## Version 1.4.2
@@ -426,7 +426,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) zu unterstützen.
 
 ## Version 1.1.1
 
