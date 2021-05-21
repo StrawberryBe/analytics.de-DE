@@ -1,14 +1,14 @@
 ---
 title: Seite
 description: Der Name der Seite.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
-
 
 # Seite
 
@@ -18,9 +18,9 @@ Diese Dimension hängt mit den Dimensionen [Website-Bereich](site-section.md) un
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ruft Daten aus der [`pageName` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in [Ansicht-Aufrufen (`t()`)](/help/implement/vars/functions/t-method.md) ab. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension, auch wenn die  `pageName` Abfrage-Zeichenfolge vorhanden ist.
+Diese Dimension ruft Daten aus der [`pageName`Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in [Aufrufen von Seitenansichten (`t()`)](/help/implement/vars/functions/t-method.md) ab. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension immer, auch wenn die Abfragezeichenfolge `pageName` vorhanden ist.
 
-AppMeasurement erfasst diese Daten mit der [`pageName`](/help/implement/vars/page-vars/pagename.md)-Variable. Wenn die Variable `pageName` nicht definiert ist, wird wieder die Variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md) verwendet.
+AppMeasurement erfasst diese Daten mit der [`pageName`](/help/implement/vars/page-vars/pagename.md)-Variable. Wenn die `pageName`-Variable nicht definiert ist, wird auf die Verwendung der [`pageURL`](/help/implement/vars/page-vars/pageurl.md)-Variable zurückgegriffen.
 
 ## Dimensionselemente
 
