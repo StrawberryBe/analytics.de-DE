@@ -1,43 +1,43 @@
 ---
-title: Definieren Sie Ihre 5 wichtigsten KPIs
-description: Stellen Sie sicher, dass Ihre wichtigsten Leistungsindikatoren sowie die zugehörigen Metriken und Dimensionen eng mit Ihren geschäftlichen Anforderungen übereinstimmen.
-translation-type: tm+mt
-source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
-workflow-type: tm+mt
+title: Definieren Sie Ihre fünf wichtigsten KPIs
+description: Stellen Sie sicher, dass Ihre wichtigsten Leistungsindikatoren sowie die zugehörigen Metriken und Dimensionen eng an Ihren geschäftlichen Anforderungen ausgerichtet sind.
+exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
+# Definieren Sie Ihre fünf wichtigsten KPIs
 
-# Definieren Sie Ihre 5 wichtigsten KPIs
+Sie können einfach nicht alles messen und Ihre Adobe Analytics-Implementierung ist am erfolgreichsten, wenn Sie vor allem das messen, was für das Unternehmen am wichtigsten ist. Arbeiten Sie mit Ihren Geschäftsführern zusammen, um die wichtigsten Leistungsindikatoren (KPIs) zu definieren, die für Ihr Unternehmen die größte Wirkung haben. Konzentrieren Sie Ihre Bemühungen dann auf die Metriken und Variablen, die diese KPIs unterstützen.
 
-Sie können einfach nicht alles messen, und Ihre Adobe Analytics-Implementierung ist am erfolgreichsten, wenn Sie vorrangig messen, was für das Unternehmen am wichtigsten ist. Arbeiten Sie mit Ihren Geschäftsführern zusammen, um die wichtigsten Leistungsindikatoren (KPIs) zu definieren, die für Ihr Unternehmen am wirkungsvollsten sind. Konzentrieren Sie dann Ihre Bemühungen auf die Metriken und Variablen, die diese KPIs unterstützen.
+## 1. Verstehen Sie Ihre Geschäftsziele
 
-## 1. Ihre Geschäftsziele verstehen
+Beginnen Sie damit, dass Sie zunächst einmal Ihre Geschäftsziele verstehen, sodass Sie die 5 KPIs wählen können, die für das Unternehmen am wichtigsten sind. Bei diesen KPIs kann es sich um Kennzahlen wie den Umsatz oder um berechnete Kennzahlen wie den Umsatz pro Besuch handeln. Die Kennzahlen können auch Variablen enthalten. Kopieren Sie NICHT einfach zufällige KPIs von anderen Firmen oder aus Branchenstandards – sie passen wahrscheinlich nicht zu IHREN Geschäftszielen.
 
-Beginn durch Verständnis der Geschäftsziele, sodass Sie die 5 KPIs wählen können, die für das Unternehmen am wichtigsten sind. Bei diesen KPIs kann es sich um Metriken wie Umsatz, berechnete Metriken wie Umsatz pro Besuch handeln, und die Metriken können auch Variablen enthalten. Kopieren Sie KEINE zufälligen KPIs aus anderen Firmen oder Branchenstandards - sie passen wahrscheinlich nicht zu Ihren Geschäftszielen.
+## 2. Stellen Sie die entscheidende Frage
 
-## 2. Die entscheidende Frage stellen
+Fragen Sie sich Folgendes: Wenn Ihre CEO auf einer Insel festsitzen würde und Sie ihr nur 5 Dinge über den Status des Unternehmen erzählen könnten, was wären diese Dinge? Wenn Sie ihr sagen würden, dass die durchschnittliche Besuchszeit auf einer Seite 1:30 wäre, würde ihr das überhaupt nicht helfen. Wenn Sie ihr jedoch mitteilen, dass Ihr durchschnittlicher Umsatz pro Besuch 2,00 USD betrug und Ihre Seite 2 Millionen Mal besucht wurde, hat sie dadurch wirklich eine Vorstellung vom geschäftlichen Erfolg.
 
-Fragen Sie sich: Wenn mein CEO auf einer Insel stecken würde und Sie ihr nur 5 Dinge über die Gesundheit der Unternehmen erzählen könnten, was wären diese Dinge? Wenn du ihr sagtest, dass die durchschnittliche Besuchszeit auf einer Seite 1:30 wäre, würde das ihr überhaupt nicht helfen. Wenn Sie ihr jedoch mitteilen, dass Ihr durchschnittlicher Umsatz pro Besuch 2,00 $ betrug und Sie 2 Mio. Mal besucht haben, dann gibt dies ihr einen echten Hinweis auf den Geschäftserfolg.
-
-## 3. Denken Sie daran, was KPIs sind und was sie nicht sind
+## 3. Behalten Sie im Kopf, was KPIs sind und was sie nicht sind
 
 ![](assets/kpis.png)
 
-## 4. KPIs definieren
+## 4. Definieren Sie Ihre KPIs
 
-Füllen Sie Ihr eigenes Diagramm wie das folgende aus:
+Füllen Sie Ihr eigenes Diagramm aus, das ähnlich wie das folgende aussieht:
 
 | Geschäftsziel | Metriken und Dimensionen |
 | --- | --- |
-| Umsatzsteigerung durch digitale Kanal | Umsatz pro Besuch |
-| Markenbewusstsein erhöhen | Besucher |
-| Stärkere und beständige Kundenbeziehungen | Anmeldungen, Klicks |
-| Site-Umrechnung | CTA-Klicks / Gesamte Ansichten |
-| Site-Interaktion | Ansichten pro individuellem Besucher, durchschnittliche Besucher auf der Site |
+| Umsatzsteigerung durch digitale Kanäle | Umsatz pro Besuch |
+| Steigern der Markenwahrnehmung | Besucher |
+| Fördern von vertieften und dauerhaften Kundenbeziehungen | Anmeldungen, Klicks |
+| Site-Konversionswerte | CTA-Klicks/Gesamte Ansichten |
+| Site-Interaktion | Seitenansichten pro Unique Visitor, Besuchszeit auf der Site bei durchschnittlichen Besuchern |
 
 ## 5. Überprüfen Sie Ihre KPIs regelmäßig
 
-Aktualisieren Sie Ihre KPIs mindestens alle 6 Monate - denken Sie daran, die Bedürfnisse des Unternehmens werden sich häufig ändern!
+Aktualisieren Sie Ihre KPIs mindestens alle 6 Monate – vergessen Sie nicht, dass sich die Bedürfnisse des Unternehmens häufig ändern!
