@@ -1,14 +1,14 @@
 ---
 title: Einzelseitenbesuche
 description: Eine Markierung, die angibt, dass der Besuch aus einer einzelnen Seite bestand.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # Einzelseitenbesuche
 
