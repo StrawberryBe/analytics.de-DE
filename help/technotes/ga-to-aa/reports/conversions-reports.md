@@ -1,14 +1,14 @@
 ---
 title: Konversionsberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Konversionsberichte in Adobe Analytics verwenden.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Konversionsberichte
 
@@ -30,7 +30,7 @@ In Analysis Workspace können diese Daten mithilfe der Fallout-Visualisierung an
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Fallout-Visualisierung auf den Arbeitsbereich über der Freiformtabelle.
 2. Klicken Sie auf das Symbol „Komponenten“ auf der linken Seite und suchen Sie dann die Dimension **Seiten**.
-3. Klicken Sie auf das Pfeilsymbol neben der Dimension „Seiten“, um die Seitenwerte anzuzeigen. Dimensionen sind gelb gefärbt.
+3. Klicken Sie auf das Pfeilsymbol neben der Dimension „Seiten“, um die Seitenwerte anzuzeigen. Dimensionselemente sind gelb markiert.
 4. Suchen Sie die gewünschte Seite, die als erster Touchpoint fungiert, und ziehen Sie sie in den Bereich „Touchpoint hinzufügen“ in der Visualisierung.
 5. Fügen Sie weitere gewünschte Touchpoints hinzu, indem Sie die Seitenwerte in die Visualisierung ziehen.
 
