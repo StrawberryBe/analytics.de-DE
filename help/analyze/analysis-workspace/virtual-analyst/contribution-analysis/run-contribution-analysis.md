@@ -2,16 +2,16 @@
 description: Führen Sie einen Beitragsanalyse-Report in einem Workspace-Projekt aus.
 title: Ausführen einer Beitragsanalyse
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: AI Tools
+feature: KI-Tools
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 99%
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
-
 
 # Ausführen einer Beitragsanalyse
 
@@ -74,4 +74,3 @@ Es kann von Zeit zu Zeit erforderlich sein, einige Dimensionen bei der Beitragsa
    ![](assets/excluded-dimensions.png)
 
 1. Löschen Sie einfach alle nicht erforderlichen Dimensionen, indem Sie auf das x-Symbol neben den einzelnen Dimensionen klicken. Speichern Sie dann die Liste, indem Sie auf **[!UICONTROL Als Standard festlegen]** klicken.
-
