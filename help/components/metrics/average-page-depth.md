@@ -1,14 +1,14 @@
 ---
 title: Durchschnittliche Klicktiefe
 description: Gibt an, bei wie vielen Seiten die Dimension im Durchschnitt vorhanden ist.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Durchschnittliche Klicktiefe
 
