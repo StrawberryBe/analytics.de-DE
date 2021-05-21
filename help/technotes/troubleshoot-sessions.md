@@ -1,14 +1,14 @@
 ---
 title: Fehlerbehebung bei Sitzungen in Adobe Analytics
 description: Erfahren Sie, wie Sie Probleme bei der Abmeldung von Adobe Analytics beheben können.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 191250ef-8313-47be-9717-046cce870998
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '345'
 ht-degree: 100%
 
 ---
-
 
 # Fehlerbehebung bei Sitzungen in Adobe Analytics
 
