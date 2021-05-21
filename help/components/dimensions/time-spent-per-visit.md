@@ -1,14 +1,14 @@
 ---
 title: Zeit pro Besuch
 description: Die Gesamtdauer des Besuchs.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Zeit pro Besuch
 
@@ -28,7 +28,7 @@ Diese Dimensionen sind nützlich, wenn Sie verstehen möchten, wie lange Besuche
 
 Diese Dimension basiert auf Besuchen, d. h., der Wert gilt für jeden Treffer innerhalb des Besuchs und ändert sich nicht. Vergleichen Sie diese Dimension mit der [Besuchszeit pro Seite](time-spent-on-page.md), die einer trefferbasierten Dimension entspricht.
 
-Diese Dimension bezieht sich auf die Metriken [Durchschnittliche Besuchszeit pro Site](../metrics/average-time-on-site.md) und [Zeit pro Besuch ](../metrics/time-spent-per-visit.md).
+Diese Dimension bezieht sich auf die Metriken [Durchschnittliche Besuchszeit pro Site](../metrics/average-time-on-site.md) und [Zeit pro Besuch](../metrics/time-spent-per-visit.md).
 
 ## Füllen dieser Dimension mit Daten
 
