@@ -1,14 +1,14 @@
 ---
 title: inList
 description: Überprüfen Sie, ob ein Wert in einem anderen, durch Zeichen getrennten Wert enthalten ist.
+exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 translation-type: ht
-source-git-commit: 27d151abe9bdf52c6eabdc3e9c785a99d08f971e
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '743'
 ht-degree: 100%
 
 ---
-
 
 # Adobe-Plug-in: inList
 
@@ -170,5 +170,3 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 ### v1.0 (2009)
 
 * Erste Version.
-
-
