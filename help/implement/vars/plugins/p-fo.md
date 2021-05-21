@@ -1,14 +1,14 @@
 ---
 title: p_fo (Page First Only (nur einmal pro Seite))
 description: Stellen Sie sicher, dass bestimmte Routinen nur einmal pro Seite ausgelöst werden.
+exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 translation-type: ht
-source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
 ---
-
 
 # Adobe-Plug-in: p_fo (Page First Only (nur einmal pro Seite))
 
