@@ -1,14 +1,14 @@
 ---
 title: Browser-Typ
 description: Die Organisation, die den Browser erstellt hat.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
 ---
-
 
 # Browser-Typ
 
