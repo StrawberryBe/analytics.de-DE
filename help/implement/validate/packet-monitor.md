@@ -2,14 +2,14 @@
 title: Paket-Analyzer
 description: Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
 keywords: Paket-Sniffer, http-Status, 200, 302, Charles
-translation-type: tm+mt
-source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
-workflow-type: tm+mt
+exl-id: db077293-f72c-4933-8a30-f1e1963f332e
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Paket-Analyzer
 
@@ -34,7 +34,7 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (Tag-Viewer) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (Tag-Viewer) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [Tamper Data](https://addons.mozilla.org/de-DE/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
