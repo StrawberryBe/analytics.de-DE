@@ -1,14 +1,14 @@
 ---
 title: Personen
 description: Die Anzahl der Einzelanwender, üblicherweise mit mehreren Geräten.
-translation-type: tm+mt
-source-git-commit: 2a32ac1aafbbdfa4d0161666061fc9084af13fae
-workflow-type: tm+mt
+exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '162'
 ht-degree: 100%
 
 ---
-
 
 # Personen
 
