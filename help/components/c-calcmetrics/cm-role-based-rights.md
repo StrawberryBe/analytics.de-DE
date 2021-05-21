@@ -2,14 +2,14 @@
 description: Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administratorebene und Nicht-Administratoren unterschieden.
 title: 'Berechnete Metriken: Rollenbasierte Rechte'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
-
 
 # Berechnete Metriken: Rollenbasierte Rechte
 
@@ -31,7 +31,7 @@ Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administrat
    <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
    <td colname="col02"> Administratoren können berechnete Metriken sowie <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html"  >Gruppen</a> erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. </td> 
    <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
-   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics </span>: Können ihre eigenen berechneten Metriken und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword"> Report Builder </span>: Hiermit können Sie die eigenen berechneten sowie die freigegeben Metriken anzeigen/bearbeiten/löschen usw. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: Können ihre eigenen berechneten Metriken und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword"> Report Builder </span>: Hiermit können Sie die eigenen berechneten sowie die freigegeben Metriken anzeigen/bearbeiten/löschen usw. </p> </td> 
    <td colname="col4"> Können berechnete Metriken als autorisiert genehmigen. </td> 
    <td colname="col5"> Können beliebige berechnete Metriken innerhalb der gesamten Organisation anwenden. </td> 
   </tr> 
@@ -45,4 +45,3 @@ Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administrat
   </tr> 
  </tbody> 
 </table>
-
