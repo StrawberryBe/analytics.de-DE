@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics-Handbuch für erste Administratoren
 description: Hier erfahren Sie, wie Sie mit Adobe Analytics, allgemeinen Rollentypen und der Anmeldung bei der Benutzeroberfläche beginnen.
-translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics-Handbuch für erste Administratoren
 
@@ -47,7 +47,7 @@ Der Produktadministratorzugriff für Experience Platform Launch ist nahezu ident
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der Admin Console an.
 1. Klicken Sie oben auf die Registerkarte „Produkte“. Alle von Ihrer Organisation erworbenen Produkte befinden sich auf der linken Seite. Klicken Sie auf „Experience Platform Launch“ und dann auf die Schaltfläche „Neues Profil“.
-1. Geben Sie diesem Profil den Namen „Vollständiger Admin-Zugriff für Experience Plattform Launch“ und klicken Sie dann auf „Fertig“.
+1. Geben Sie diesem Profil den Namen „Vollständiger Admin-Zugriff für Experience Platform Launch“ und klicken Sie dann auf „Fertig“.
 1. Klicken Sie auf der Seite „Produktprofile“ auf das neu erstellte Profil und dann auf die Registerkarte „Zugriffsberechtigungen“.
 1. Klicken Sie auf eine der Berechtigungspositionen. Wenn die automatische Einbindung verfügbar ist, aktivieren Sie diese. Wenn die automatische Einbindung nicht verfügbar ist, klicken Sie auf „Alle hinzufügen“. Beide Optionen verschieben alle Berechtigungselemente in die rechte Spalte.
 1. Klicken Sie auf „Speichern“. Wiederholen Sie den obigen Schritt für alle Berechtigungskategorien.
