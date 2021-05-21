@@ -1,14 +1,14 @@
 ---
 description: Systemanforderungen und ein Vergleich von Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse und Data Workbench
 title: Analytics – Produktvergleich und Voraussetzungen
+exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '429'
 ht-degree: 100%
 
 ---
-
 
 # Analytics – Produktvergleich und Voraussetzungen
 
