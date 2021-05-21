@@ -1,37 +1,37 @@
 ---
-description: Die FTP-Option für Classifications (SAINT) bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze. So können u. a. auch Daten in mehrere Report Suites und Datensätze mit mehr als 50.000 Zeilen hochgeladen werden.
-keywords: ftp;sftp
+description: Die FTP-Option für Klassifizierungen (SAINT) bietet mehr Flexibilität beim Hochladen großer Klassifizierungs-Datensätze. So können u. a. auch Daten in mehrere Report Suites und Datensätze mit mehr als 50.000 Zeilen hochgeladen werden.
+keywords: FTP, sFTP
 title: Classifications
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
-translation-type: tm+mt
-source-git-commit: 7a70a5185b768dbc09deca5c8989693501af0cca
-workflow-type: tm+mt
+exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-
-# Klassifizierungen
+# Classifications
 
 Die FTP-Option für Classifications bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze. So können u. a. auch Daten in mehrere Report Suites und Datensätze mit mehr als 50.000 Zeilen hochgeladen werden.
 
 Unter [Classifications](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/classifications-importer/c-working-with-saint.html) finden Sie Schritte für das Herunterladen von Classification-Daten über FTP und das Hochladen von Datendateien über FTP (einschließlich der für das Erstellen eines FTP-Kontos erforderlichen Schritte).
 
-Wie lange das System für das Importieren dieser Dateien benötigt, hängt von verschiedenen Faktoren ab. Wenn eine hochgeladene Datei mehr als drei Tage auf dem FTP-Server vorhanden ist, wenden Sie sich an die unterstützten Benutzer Ihres Unternehmens, um sich an die Kundenunterstützung der Adobe zu wenden.
+Wie lange das System für das Importieren dieser Dateien benötigt, hängt von verschiedenen Faktoren ab. Wenn eine hochgeladene Datei länger als drei Tage auf dem FTP-Server vorhanden ist, wenden Sie sich an einen unterstützten Benutzer Ihrer Organisation, damit er Kontakt mit der Adobe-Kundenunterstützung aufnimmt.
 
-Bei einem erfolgreichen Import erscheinen die entsprechenden Änderungen sofort in einem Export, während die Datenänderungen in Analytics bei einem Browserimport bis zu 4 Stunden und bei einem FTP-Import bis zu 24 Stunden später erscheinen können.
+Bei einem erfolgreichen Import erscheinen die entsprechenden Änderungen sofort in einem Export, während die Datenänderungen in Analytics bei einem Browser-Import bis zu 4 Stunden und bei einem FTP-Import bis zu 24 Stunden später erscheinen können.
 
 Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md).
 
-## Informationen zur Datei `.fin` für Classifications- und Data Sources-Uploads {#section_1484719F8A134EAE91212DBD8F15174F}
+## Informationen zur `.fin`-Datei für Uploads von Klassifizierungen und Datenquellen {#section_1484719F8A134EAE91212DBD8F15174F}
 
-Wenn Sie eine Classification- oder Datenquelle-Datei (`.tab` oder `.txt`) hochladen, müssen Sie beim Hochladen auch eine leere Datei hochladen, die genau denselben Namen hat wie die importierte Datendatei, jedoch mit der Erweiterung .`.fin`. Diese `.fin`-Datei ist eine Finish-Datei. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. Über die `.fin`-Datei erkennt Adobe, dass Sie mit Ihrem Import fertig sind.
+Beim Hochladen einer Klassifizierungs- oder einer Datenquelldatei (`.tab` oder `.txt`) müssen Sie auch eine leere Datei mit exakt demselben Namen wie die importierte Datei, jedoch mit der Dateierweiterung .`.fin`, hochladen. Diese `.fin`-Datei ist eine Finish-Datei. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. Über die `.fin`-Datei erkennt Adobe, dass Sie mit Ihrem Import fertig sind.
 
-Nachdem Sie sowohl die Quelldatei als auch die `.fin`-Datei gesendet haben, müssen Sie sich unbedingt von der FTP-Site abmelden. Der Grund dafür ist, dass Adobe Analytics Abmeldedateien als Trigger verwendet, der zur Verarbeitung bereit ist. Nach Abschluss des Imports entfernt Adobe beide Dateien aus dem FTP-Speicherort.
+Nachdem Sie sowohl die Quelldatei als auch die `.fin`-Datei übermittelt haben, müssen Sie sich unbedingt von der FTP-Site abmelden. Adobe Analytics verwendet Abmeldeereignisse nämlich als Trigger dafür, dass Dateien zur Verarbeitung bereit sind. Nach Abschluss des Imports entfernt Adobe beide Dateien aus dem FTP-Verzeichnis.
 
 Finish-Datei: [!DNL Classifications.fin]
 
-Wenn Sie Ihre Data Sources- oder Classification-Datei ohne zugehörige `.fin`-Datei hochladen, fügt die Adobe sie nicht zur Verarbeitung in die Warteschlange ein. Die Datei bleibt im FTP-Konto und wird nicht auf Ihre Daten in [!UICONTROL Experience Cloud] angewendet. Sie werden hierüber nur dann benachrichtigt, wenn Sie Ihre E-Mail-Adresse als [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] von Analytics angegeben haben. Wenn hier keine E-Mail-Adresse angegeben ist, wird keine Benachrichtigung gesendet.
+Wenn Sie Ihre Datenquell- oder Klassifizierungs-Datei ohne zugehörige `.fin`-Datei hochladen, fügt Adobe Ihre Datei nicht zur Verarbeitungswarteschlange hinzu. Die Datei bleibt im FTP-Konto und wird nicht auf Ihre Daten in [!UICONTROL Experience Cloud] angewendet. Sie werden hierüber nur dann benachrichtigt, wenn Sie Ihre E-Mail-Adresse als [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] von Analytics angegeben haben. Wenn hier keine E-Mail-Adresse angegeben ist, wird keine Benachrichtigung gesendet.
 
-Wenn Sie Ihre Datei zusammen mit einer `.fin`-Datei hochgeladen haben, die Datei jedoch fehlerhaft ist, wird sie zur Verarbeitung gesendet. Der Fehler sorgt dann dafür, dass die Verarbeitung abgebrochen und die Datei an einen Fehlerordner gesendet wird. In diesem Fall wird eine Benachrichtigung an die im Feld [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] angegebene E-Mail-Adresse gesendet. Wenn keine E-Mail-Adresse eingegeben wurde, wird keine Benachrichtigung gesendet.
+Wenn Sie Ihre Datei zusammen mit einer `.fin`-Datei hochgeladen haben, die Datei jedoch fehlerhaft ist, wird sie zur Verarbeitung gesendet. Der Fehler sorgt dann dafür, dass die Verarbeitung abgebrochen und die Datei an einen Fehlerordner gesendet wird. In diesem Fall wird eine Benachrichtigung an die im Feld [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] angegebene E-Mail-Adresse gesendet. Wenn keine E-Mail-Adresse angegeben wurde, wird keine Benachrichtigung gesendet.
