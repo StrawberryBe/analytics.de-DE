@@ -1,20 +1,20 @@
 ---
 title: CDA Workspace-Vorlage
 description: Beschreibt die einzelnen Felder in der CDA-Vorlage in Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: tm+mt
+exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 
 ---
 
-
 # CDA Workspace-Vorlage
 
 Adobe bietet eine Vorlage zum Anzeigen wichtiger geräteübergreifender Leistungsdaten.
 
-1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren AdobeID-Anmeldeinformationen an.
+1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie oben auf das 9-Raster-Symbol und dann auf Analytics.
 1. Klicken Sie oben auf [!UICONTROL Workspace] und anschließend auf [!UICONTROL Neues Projekt erstellen].
 1. Suchen Sie nach der Vorlage „Journey IQ: Geräteübergreifende Analyse“ und klicken Sie dann auf [!UICONTROL Erstellen].
