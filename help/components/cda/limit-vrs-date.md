@@ -1,32 +1,32 @@
 ---
 title: VRS auf bestimmte Daten beschränken
-description: Verstehen Sie, wie Sie einen VRS-Datumsbereich so beschränken, dass er sich nur auf geheftete Daten konzentriert.
-translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
-workflow-type: tm+mt
+description: Verstehen Sie, wie Sie einen VRS-Datumsbereich so beschränken, dass er sich nur auf zusammengefügte Daten konzentriert.
+exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # VRS auf bestimmte Daten beschränken
 
-Wenn wir das Sticken einschalten, die Nähen Beginn an einem bestimmten Datum. Nehmen wir an, das Datum ist der 1. Juni. Die CDA-VRS enthält noch vor dem 1. Juni noch nicht zugewiesene Daten. Eventuell möchten Sie Daten in der VRS vor dem 1. Juni ausblenden, damit sich Ihre Analyse nach dem Beginn der Stich auf Datumsbereiche konzentrieren kann.
+Wenn wir das Zusammenfügen von Daten einschalten, beginnt dieses Zusammenfügen an einem bestimmten Datum. Angenommen, dieses Datum ist der 1. Juni. Die CDA-VRS enthält Daten von vor dem 1. Juni, die noch nicht zusammengefügt wurden. Eventuell möchten Sie Daten in der VRS vor dem 1. Juni ausblenden, damit sich Ihre Analyse auf Datumsbereiche nach dem Beginn des Zusammenfügens konzentrieren kann.
 
-Sie können die VRS-Daten wie folgt auf bestimmte Daten beschränken:
+Sie können die VRS-Daten wie folgt auf bestimmte Datumsbereiche beschränken:
 
 ## Schritt 1: Erstellen einer VRS mit einem rollierenden täglichen Datumsbereich
 
-Wenn Sie die VRS einrichten, fügen Sie unter &quot;Komponenten&quot;einen Datumsbereich mit festem Beginn und einem rollierenden Datumsbereich hinzu. Der feste Beginn sollte der Tag sein, an dem das Nähen begann.
+Wenn Sie die VRS einrichten, fügen Sie unter „Komponenten“ einen Datumsbereich mit festem Beginn und einem täglich rollierenden Datumsbereich hinzu. Der feste Beginn sollte der Tag sein, an dem das Zusammenfügen begann.
 
 ![](assets/rolling-daily.png)
 
-## Schritt 2: Segment &quot;exclude-exclude&quot;erstellen
+## Schritt 2: Segment „exclude-exclude“ erstellen
 
-Erstellen Sie anschließend ein Treffersegment, das den Datumsbereich in einen Ausschlussabschnitt eines anderen Containers einfügt. Es handelt sich um ein &quot;Ausschließen&quot;.
+Erstellen Sie anschließend ein Treffersegment, das den Datumsbereich in einen Ausschluss-Container innerhalb eines anderen Ausschluss-Containers einfügt. Es handelt sich um ein „Ausschließen des Ausschließens“.
 
-Der Grund für den Ausschluss ist, dass Datumsbereiche den Datumsbereich des Berichts außer Kraft setzen sollen. Wenn Sie also nur den 1. Juni miteinbeziehen, wird der Datumsbereich des Berichts immer vom 1. Juni vorgestellt. Dies führt zu unerwünschten Ergebnissen. Wenn Sie &quot;Ausschließen&quot;auswählen, wird dieses Verhalten außer Kraft gesetzt und die Daten, die Sie daraus ziehen können, werden auf den entsprechenden Datumsbereich beschränkt.
+Der Grund für den Ausschluss ist, dass Datumsbereiche den Datumsbereich des Berichts außer Kraft setzen sollen. Wenn Sie also nur den Bereich ab dem 1. Juni mit einbeziehen, wird der Datumsbereich des Berichts immer ab dem 1. Juni sein. Dies führt zu unerwünschten Ergebnissen. Wenn Sie „exclude exclude“ auswählen, wird dieses Verhalten außer Kraft gesetzt und die Daten, aus denen Sie Informationen ziehen können, werden auf den entsprechenden Datumsbereich beschränkt.
 
 ![](assets/exclude-exclude.png)
 
@@ -34,8 +34,8 @@ Der Grund für den Ausschluss ist, dass Datumsbereiche den Datumsbereich des Ber
 
 ![](assets/apply-segment.png)
 
-## Schritt 4: Ergebnisse im Berichte
+## Schritt 4: Ergebnisse im Reporting ansehen
 
-Beachten Sie, dass Berichte nun am gewünschten Datum, d. h. am Tag der ersten Implementierung der Stich-Funktion, Beginn sind:
+Beachten Sie, dass das Reporting jetzt am gewünschten Datum beginnt, dem Tag, an dem das Zusammenfügen zum ersten Mal implementiert wurde:
 
 ![](assets/report-limited-dates.png)
