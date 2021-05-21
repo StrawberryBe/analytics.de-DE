@@ -1,16 +1,16 @@
 ---
 description: Auftretende Fehler werden in der Spalte „Auftragsstatus“ aufgeführt.
-keywords: Datenfeed;Auftrag;Fehlerbehebung;Fehler;FTP;chdir;Verbinden;Anmeldung;Put
+keywords: Daten-Feed;Auftrag;Fehlerbehebung;Fehler;FTP;chdir;verbinden;anmelden;verschieben
 title: Fehlerbehebung bei Aufträgen
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: c082bc95-cdae-448b-86b5-695660fb2352
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Fehlerbehebung bei Aufträgen
 
