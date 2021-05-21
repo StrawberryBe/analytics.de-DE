@@ -1,14 +1,14 @@
 ---
 title: Browser-Breite – zusammengefasst
 description: Die Breite des Browser-Fensters in Pixel.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
 ---
-
 
 # Browser-Breite
 
