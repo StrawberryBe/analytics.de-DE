@@ -1,16 +1,16 @@
 ---
 description: Berechnung der Gesamtsummen in Workspace.
 title: Workspace-Summen
-feature: Freeform Tables
+feature: Freiformtabellen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+exl-id: 883c3e44-4139-46a1-a261-e11841312465
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '516'
+ht-degree: 100%
 
 ---
-
 
 # Workspace-Summen
 
@@ -27,9 +27,9 @@ Unter **[!UICONTROL Spalteneinstellungen]** finden Sie die Optionen **[!UICONTRO
 
 ![](assets/column-settings-total.png)
 
-## Gesamteinstellungen für statische Zeile  {#static-row-total}
+## Gesamteinstellungen für statische Zeile {#static-row-total}
 
-Die Gesamtwerte für [statische Zeilen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=de-DE) verhalten sich anders und werden unter **[!UICONTROL Zeileneinstellungen]** gesteuert.
+Die Gesamtwerte für [statische Zeilen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) verhalten sich anders und werden unter **[!UICONTROL Zeileneinstellungen]** gesteuert.
 
 * **[!UICONTROL Summe der aktuellen Zeilen als Gesamtsumme anzeigen]**: Zeigt eine clientseitige Summe der Zeilen in der Tabelle, was bedeutet, dass die Gesamtsumme die Metriken wie Besuche oder Besucher **nicht** dedupliziert.
 * **[!UICONTROL Gesamtsumme anzeigen]**: Zeigt eine serverseitig Summe an, d. h. die Gesamtsumme dedupliziert Metriken wie Besuche oder Besucher.
@@ -45,4 +45,3 @@ Die Gesamtwerte für [statische Zeilen](https://experienceleague.adobe.com/docs/
 | Wenn benutzerdefinierte Tabellenfilter auf eine Freiformtabelle angewendet werden, werden alle berechneten Metriken und die bedingte Formatierung für den Filter berücksichtigt? | Derzeit nicht. **[!UICONTROL Nicht angegeben (keine) einschließen]** wird berücksichtigt, benutzerdefinierte Tabellenfilter haben jedoch keine Auswirkungen auf Folgendes:<ul><li>Maximaler/minimaler Spaltenbereich, der bei der bedingten Formatierung verwendet wird, wird über alle Daten hinweg angezeigt.</li><li>Berechnete Metriken, die Metriktypen **[!UICONTROL insgesamt]** nutzen.</li><li>Berechnete Metriken mit Funktionen, die über Zeilen in einer Freiformtabelle berechnen - d. h. Spaltensumme, Spaltenmax., Spaltenanzahl, Anzahl, Mittelwert, Median, Perzentil, Quartil, Zeilenzahl, Standardabweichung, Varianz, Kumulativer Wert, Kumulativer Durchschnitt, Regressionsvarianten, T-Score, T-Test, Z-Score, Z-Test.</li></ul> |
 | Was spiegelt der Metriktyp **[!UICONTROL Gesamtsumme]** in berechneten Metriken wider? | Die **[!UICONTROL Gesamtsumme]** bezieht sich weiterhin auf die **[!UICONTROL Gesamtsumme]** und spiegelt keine Filter wider, die auf eine Tabelle oder die **[!UICONTROL Tabellensumme]** angewendet wurden. |
 | Welcher Gesamtwert wird angezeigt, wenn Daten entweder kopiert und aus einer Freiformtabelle eingefügt oder über CSV heruntergeladen werden? | Die Zeile insgesamt spiegelt nur die **[!UICONTROL Tabellensumme]** wider und berücksichtigt die Einstellung **[!UICONTROL Summen anzeigen]**. |
-
