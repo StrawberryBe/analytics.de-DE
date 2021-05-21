@@ -1,14 +1,14 @@
 ---
 title: pt
 description: Führt eine Funktion für eine Liste von Variablen aus.
+exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 translation-type: ht
-source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '602'
 ht-degree: 100%
 
 ---
-
 
 # Adobe-Plug-in: pt
 
