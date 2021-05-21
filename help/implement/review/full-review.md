@@ -1,14 +1,14 @@
 ---
 title: Vollständige Prüfung
 description: Prüfen Sie Ihre Implementierung alle 6 Monate, um weiterhin die Ausrichtung an Geschäftsanforderungen und KPIs sicherzustellen.
-translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
-workflow-type: tm+mt
+exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Vollständige Prüfung (zweimal jährlich zur Prüfung Ihrer Implementierung)
 
@@ -16,13 +16,13 @@ Warum sollten Sie Ihre Implementierung alle 6 Monate prüfen? Weil Sie sicherst
 
 ## 1. Stellen Sie sicher, dass Ihre Implementierung weiterhin vollständig an unseren Geschäftsanforderungen ausgerichtet ist.
 
-Treffen Sie sich mit dem Geschäftsinhaber und/oder den Business Analysten, um die sich wandelnden Geschäftsanforderungen zu besprechen. Finden Sie für alle Anforderungen oder Messgelegenheiten, die derzeit von Ihrer Implementierung nicht erfüllt werden, heraus, wie Sie Ihre KPIs und Messpläne aktualisieren können. Denken Sie daran, Ihre Änderungen in Ihrer [BRD und SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=de-DE#implementation) aufzuzeichnen.
+Treffen Sie sich mit dem Geschäftsinhaber und/oder den Business Analysten, um die sich wandelnden Geschäftsanforderungen zu besprechen. Finden Sie für alle Anforderungen oder Messgelegenheiten, die derzeit von Ihrer Implementierung nicht erfüllt werden, heraus, wie Sie Ihre KPIs und Messpläne aktualisieren können. Denken Sie daran, Ihre Änderungen in Ihrer [BRD und SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=de#implementation) aufzuzeichnen.
 
 ## 2. Stellen Sie sicher, dass Ihre Kennzahlen und Variablen weiterhin ihre Aufgabe gut erfüllen.
 
-Prüfen Sie kurz all Ihre Kennzahlen und Variablen in der Reihenfolge ihrer Bedeutung für das Unternehmen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginnen Sie mit Ihren zentralen Metriken und Variablen – denjenigen, die mit Ihren [5 wichtigsten KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=de-DE#review) verbunden sind. Gehen Sie folgendermaßen vor:
+Prüfen Sie kurz all Ihre Kennzahlen und Variablen in der Reihenfolge ihrer Bedeutung für das Unternehmen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginnen Sie mit Ihren zentralen Metriken und Variablen – denjenigen, die mit Ihren [5 wichtigsten KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=de#review) verbunden sind. Gehen Sie folgendermaßen vor:
 
-* Erstellen Sie Dashboards, um monatliche Trendansichten Ihrer Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de-DE#analysis-workspace) für jede einzelne ein), um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um den Grund herauszufinden.
+* Erstellen Sie Dashboards, um monatliche Trendansichten Ihrer Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de#analysis-workspace) für jede einzelne ein), um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um den Grund herauszufinden.
 * Führen Sie das [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um allgemeine Trends Ihrer Kennzahlen und Variablen zu überwachen.
 
 Stellen Sie sicher, dass Ihre Implementierung nicht mit unnötigen Kennzahlen und Variablen überladen wird. Deaktivieren Sie Kennzahlen oder Variablen, die das Unternehmen nicht mehr benötigt oder verwendet. Sie können sie später löschen oder wiederverwenden.
