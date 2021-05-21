@@ -1,14 +1,14 @@
 ---
 title: registerPreTrackCallback
 description: Erstellen Sie Callback-Funktionen, bevor Sie einen Treffer an Adobe senden.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
-
 
 # registerPreTrackCallback
 
