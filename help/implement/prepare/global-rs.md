@@ -1,14 +1,14 @@
 ---
 title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
-translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
 ---
-
 
 # Überlegungen zur globalen Report Suite
 
