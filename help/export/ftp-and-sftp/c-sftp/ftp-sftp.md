@@ -1,16 +1,16 @@
 ---
 description: SFTP ist ein sicheres Protokoll für die Übertragung von Daten, mit dem sichergestellt wird, dass außer Ihnen niemand Ihre Daten sehen kann. Für Adobe Engineering Services kann ein SFTP-Konto eingerichtet werden, in dem Ihre Daten sicher sind.
-keywords: ftp;sftp
+keywords: FTP, sFTP
 title: Secure File Transfer Protocol – Übersicht
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: tm+mt
+exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Secure File Transfer Protocol – Übersicht
 
@@ -35,4 +35,3 @@ Hierbei wird die Datei über normales FTP an einen der Server von Adobe gesendet
 * [Verbindung zu Adobe über SFTP ohne Kennwort herstellen.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 * [Verbindung zu einem Adobe FTP-Konto mit SFTP herstellen.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
 * Sie können beliebige Berichte per Push an FTP-basierte Adobe Daten-Feeds/Reports &amp; Analytics/Ad Hoc usw. übertragen und dann abrufen. Adobe kann diese Berichte nicht an den von Ihnen eingerichteten SFTP-Server ausliefern.
-
