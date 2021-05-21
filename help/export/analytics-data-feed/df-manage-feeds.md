@@ -1,14 +1,14 @@
 ---
 title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
-translation-type: tm+mt
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
-workflow-type: tm+mt
+exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '637'
 ht-degree: 100%
 
 ---
-
 
 # Verwalten von Daten-Feeds
 
