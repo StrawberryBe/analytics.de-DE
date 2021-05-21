@@ -1,14 +1,14 @@
 ---
 title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
+exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 translation-type: ht
-source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '589'
 ht-degree: 100%
 
 ---
-
 
 # Funktionsweise der Wiederholung
 
