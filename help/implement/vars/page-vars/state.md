@@ -1,14 +1,14 @@
 ---
 title: state
-description: Füllen Sie den Bericht „Bundesstaat des Besuchers“ in Reports and Analytics.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+description: Füllen Sie den Bericht „Bundesstaat des Besuchers“ in Reports & Analytics.
+exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '215'
 ht-degree: 100%
 
 ---
-
 
 # state
 
