@@ -4,14 +4,14 @@ title: Fehlerbehebung und Best Practices für Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 81%
+exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1401'
+ht-degree: 100%
 
 ---
-
 
 # Fehlerbehebung und Best Practices für Report Builder
 
@@ -44,10 +44,10 @@ Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist
 
 Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die Verarbeitungsgeschwindigkeit verringert werden.
 
-* **Faktoren, die Versand** verlangsamen können: Es wurden zu viele Lesezeichen, Dashboards und Report Builder-Arbeitsmappen innerhalb weniger Stunden geplant. Beachten Sie auch, dass zu viele Report Builder-Arbeitsmappen etwa zur selben Zeit geplant wurden. In diesem Fall tritt in der Berichts-API-Warteschlange ein Rückstand ein.
-* **Mögliche Gründe für Verzögerungen bei der Ausführung von Arbeitsmappen**: Deutliche Erhöhung der Classifications oder Vergrößerung des Datumsbereichs der Anforderung im Laufe der Zeit.
-* **Ursachen, die zum Fehlschlagen** des Arbeitsmappen-Versands führen: Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere solche mit Datum und Uhrzeit.
-* **Zellen, die 0 s zurückgeben (keine Werte)**: Ein Apostroph oder ein einfaches Anführungszeichen im Excel-Blattnamen führt dazu, dass ReportBuilder keine Werte zurückgibt. (Dies ist eine Microsoft Excel-Einschränkung.)
+* **Faktoren, die die Bereitstellung verlangsamen können**: Es wurden zu viele Lesezeichen, Dashboards und Report Builder-Arbeitsmappen innerhalb weniger Stunden geplant. Es wurden möglicherweise zu viele Report Builder-Arbeitsmappen um die gleiche Uhrzeit herum geplant. In diesem Fall tritt in der Berichts-API-Warteschlange ein Rückstand ein.
+* **Mögliche Gründe für Verzögerungen bei der Ausführung von Arbeitsmappen**: Signifikante Zunahme der Klassifizierungen oder Vergrößerung des Anfragedatumsbereichs im Laufe der Zeit.
+* **Ursachen, die zum Scheitern der Bereitstellung von Arbeitsmappen führen**: Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere solche mit Datum und Uhrzeit.
+* **Zellen, die 0 (keine Werte) zurückgeben**: Wenn im Namen des Excel-Arbeitsblatts ein Apostroph oder ein einfaches Anführungszeichen enthalten ist, gibt Report Builder keine Werte zurück. (Dies ist eine Microsoft Excel-Einschränkung.)
 * **Individuelle Anforderungsleistung**: Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeinträchtigt werden:
 
    | Einstellung | Schnellere Leistung | Langsamere Leistung |
@@ -59,7 +59,7 @@ Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die 
    | Granularität | Aggregiert | Stündlich<ul><li>Täglich</li><li>Wöchentlich</li><li>Monatlich</li><li>Quartalsweise</li><li>Jährlich</li></ul> |
    | Anzahl der Einträge | Kleiner Datensatz | Großer Datensatz |
 
-* **Planungszeit**: Stärkere Planung über einen Zeitraum von 24 Stunden (siehe Tabelle unten). Durch vorhandene Lesezeichen, Dashboards und Report Builder-Arbeitsmappen, die zeitlich kurz aufeinander folgen, können Verzögerungen verursacht werden. Planen Sie größere, komplexere Anforderungen in den frühen Morgenstunden, um manuelle Abrufe und Aktualisierungen im Laufe des Arbeitstages zuzulassen.
+* **Zeitplanung**: Staffeln Sie die Zeitplanung über einen Zeitraum von 24 Stunden (siehe Tabelle unten). Durch vorhandene Lesezeichen, Dashboards und Report Builder-Arbeitsmappen, die zeitlich kurz aufeinander folgen, können Verzögerungen verursacht werden. Planen Sie größere, komplexere Anforderungen in den frühen Morgenstunden, um manuelle Abrufe und Aktualisierungen im Laufe des Arbeitstages zuzulassen.
 
    | Zeitplanung | 01:00 – 02:00 Uhr | 02:00 – 07:00 Uhr | 07:00 – 18:00 Uhr | 18:00 – 24:00 Uhr |
    |--- |--- |--- |--- |--- |
@@ -81,10 +81,10 @@ Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von Report B
 * **Der ausgewählte Bereich ist ungültig. Wählen Sie einen anderen Bereich aus.**: Diese Fehlermeldung wird angezeigt, wenn eine Zelle des Arbeitsblatts ausgewählt wird, der bereits eine Anforderung zugeordnet ist. Löschen Sie entweder die der Zelle zugeordnete Anforderung oder wählen Sie einen anderen Zellenbereich für die Verknüpfung aus. Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln, welche Zellen Anforderungen enthalten und die Anforderung löschen, bevor Sie die Zellen löschen (indem Sie Zeilen oder Spalten entfernen).
 * **Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**: Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in das [!UICONTROL Namensfeld] in der [!UICONTROL Formelleiste] eingeben.
 * **Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.**: Wenn Sie bereits eine Gruppe von Zellen mit dem Arbeitsblatt verknüpft haben, wird diese Fehlermeldung angezeigt.
-* **Reparaturen an Arbeitsmappen (entfernte Datensätze: Formel aus /xl/calcChain.xml Teil)**: Manchmal werden die Formeln einer Arbeitsmappe beim Speichern oder Übertragen beschädigt. Wenn die Datei geöffnet wird, versucht Excel diese Formeln auszuführen und schlägt fehl. Sie können dieses Problem beheben, indem Sie `calcChain.xml` aus der Tabelle entfernen und Excel zwingen, die Formelberechnungen zu aktualisieren.
+* **Reparaturen an Arbeitsmappen (entfernte Datensätze: Formel aus dem Teil /xl/calcChain.xml)**: Manchmal werden die Formeln einer Arbeitsmappe beim Speichern oder Übertragen beschädigt. Wenn die Datei geöffnet wird, versucht Excel diese Formeln auszuführen und schlägt damit fehl. Sie können dieses Problem beheben, indem Sie `calcChain.xml` aus der Tabelle entfernen, was Excel zwingt, die Formelberechnungen zu aktualisieren.
    1. Benennen Sie die Dateierweiterung der Arbeitsmappe von `.xlsx` in `.zip` um.
-   2. Dekomprimieren Sie den Inhalt und öffnen Sie den Ordner `/xl/`.
+   2. Dekomprimieren Sie dann den Inhalt und öffnen Sie den Ordner `/xl/`.
    3. Löschen `calcChain.xml`.
    4. Komprimieren Sie den Inhalt erneut und ändern Sie die Dateierweiterung wieder zurück in `.xlsx`.
-   5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anforderungen.
-* **Excel-Filter, die mit den Eingabe- oder Ausgabefeldern verknüpft sind, wurden möglicherweise gelöscht**: Report Builder verwendet Excel-Namen, um Datenanforderungen an Zellen anzuhängen. Wenn Sie Excel-Namen aus dem Names Manager löschen, wird dieser Fehler angezeigt. Anforderungen können nicht wiederhergestellt werden, wenn Excel-Namen gelöscht werden. Wenn die Arbeitsmappe geplant war, können Sie entweder eine Kopie vom Zeitplan-Manager herunterladen oder zuvor ausgelieferte Kopien der Arbeitsmappe öffnen.
+   5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anfragen.
+* **Excel-Zellen, die mit den Eingangsfiltern oder dem Ausgangsbereich verbunden sind, wurden möglicherweise gelöscht**: Report Builder verwendet Excel-Namen, um Datenanforderungen an Zellen anzuhängen. Wenn Sie Excel-Namen aus Names Manager löschen, kann dieser Fehler auftreten. Anfragen können nicht wiederhergestellt werden, wenn Excel-Namen gelöscht werden. Wenn die Arbeitsmappe eingeplant war, können Sie entweder eine Kopie vom Zeitplan-Manager herunterladen oder zuvor bereitgestellte Kopien der Arbeitsmappe öffnen.
