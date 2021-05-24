@@ -2,14 +2,13 @@
 description: Im Virtual Report Suite Manager können Administratoren Virtual Report Suites bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Er ist für Nicht-Admin-Benutzer nicht sichtbar.
 keywords: Virtual Report Suite
 title: Virtual Report Suites verwalten
-feature: Grundlagen zu Reports & Analysen
+feature: Grundlagen zu Reports & Analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
