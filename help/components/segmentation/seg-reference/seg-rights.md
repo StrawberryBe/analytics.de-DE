@@ -1,10 +1,9 @@
 ---
 description: Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benutzer der Administratorebene und Nicht-Administrator-Benutzer.
 title: Segmentberechtigungen nach Rolle
-feature: Segmentation
+feature: Segmentierung
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '134'
