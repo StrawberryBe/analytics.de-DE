@@ -5,7 +5,6 @@ title: Informationen über Unterklassifizierungen
 feature: Admin Tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '653'
@@ -32,7 +31,7 @@ Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen 
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Weitere Informationen über die Datendatei finden Sie unter  [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
+Weitere Informationen über die Datendatei finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
 
 Mehrstufige Classifications bestehen aus über- und untergeordneten Classifications. Beispiel:
 
@@ -79,7 +78,7 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 | 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 | Heather |
 | 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 | Aqua |
 
-### Produkt-Classification – Mehrere Dateien (Datei 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Produkt-Classification – Mehrere Dateien (Datei 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE |
 |---|---|---|---|---|---|
@@ -87,7 +86,7 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 | 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 |
 | 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 |
 
-### Produkt-Classification – Mehrere Dateien (Datei 2)   {#section_19ED95C33B174A9687E81714568D56A3}
+### Produkt-Classification – Mehrere Dateien (Datei 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | SCHLÜSSEL | CODE | CODE^FARBE |
 |---|---|---|
