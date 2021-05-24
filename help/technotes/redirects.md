@@ -6,7 +6,6 @@ title: Umleitungen und Aliase
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1125'
@@ -83,7 +82,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->Stellen Sie *`s.referrer`* nur einmal auf der Seite ein. Wenn Sie die Variable bei jedem Tracking-Aufruf oder jedem Klick festlegen, wird sie vom Referrer und ähnlichen Dimensionen wie Suchmaschinen und Schlüsselwörtern doppelt gezählt.
+>Stellen Sie *`s.referrer`* nur einmal auf der Seite ein. Wenn Sie die Variable bei jedem Tracking-Aufruf oder jedem Link-Klick festlegen, wird sie vom Referrer und ähnlichen Dimensionen wie Suchmaschinen und Schlüsselwörtern doppelt gezählt.
 
 ## Weiterleitungen mittels getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
