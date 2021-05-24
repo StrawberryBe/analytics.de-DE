@@ -2,7 +2,6 @@
 title: Klassifizierungen in Marketing-Kanälen
 description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -14,7 +13,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
+>Um die Effektivität von Marketingkanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 
 Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
 
