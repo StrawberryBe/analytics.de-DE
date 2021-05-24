@@ -1,17 +1,17 @@
 ---
-title: Von Adobe Analytics verwendete IPs und Domänen
-description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von der Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
+title: Von Adobe Analytics verwendete IPs und Domains
+description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 9e013f484c9f417a1e2ac2c2a59d2e918cedf787
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 86%
+ht-degree: 97%
 
 ---
 
-# Von Adobe Analytics verwendete IPs und Domänen
+# Von Adobe Analytics verwendete IPs und Domains
 
-Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Adobes Datenerfassungs-Servern oder Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens so zu ändern, dass der Zugriff und das Senden von Daten aus Ihrem Unternehmen heraus möglich ist.
+Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datenerfassungs-Servern oder -Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens so zu ändern, dass der Zugriff und das Senden von Daten aus Ihrem Unternehmen heraus möglich ist.
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkter
 
 | Technologie | Domäne |
 | --- | --- |
-| Adobe Analytics-Domänen | `adobe.com`, `adobe.net`, `adobe.io` |
+| Adobe Analytics-Domains | `adobe.com`, `adobe.net`, `adobe.io` |
 | Veraltete Adobe Analytics-Domäne | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
@@ -34,7 +34,7 @@ Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkter
 
 ## Alle Adobe Analytics-Datenerfassungs-IP-Adressblöcke
 
-Die folgende Tabelle enthält alle standardmäßigen Datenerfassungsserver und regionalen Datenerfassungsserver für Adobe Analytics. Sie enthalten keine einzelnen AWS-Hosts.
+Die folgende Tabelle enthält alle standardmäßigen Datenerfassungs-Server und regionalen Datenerfassungs-Server für Adobe Analytics. Sie enthält keine einzelnen AWS-Hosts.
 
 | IP-Block (CIDR-Notation) |
 | --- |
@@ -112,7 +112,7 @@ Wenn Ihr Unternehmen es vorzieht, bestimmte IP-Adressbereiche zuzulassen, könne
 
 ## AWS-Hosts
 
-Adobe Analytics verwendet Amazon Web Services als Teil seines Datenerfassungsprozesses. Die folgende Tabelle enthält AWS-Hosts, die für Adobe reserviert sind. Diese Hosts sind **nicht** im obigen aggregierten Blockbereich enthalten.
+Adobe Analytics verwendet Amazon Web Services als Teil des Datenerfassungsprozesses. Die folgende Tabelle enthält AWS-Hosts, die für Adobe reserviert sind. Diese Hosts sind **nicht** im obigen aggregierten Blockbereich enthalten.
 
 | Standort | Host |
 | --- | --- |
