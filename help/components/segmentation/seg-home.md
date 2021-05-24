@@ -2,10 +2,9 @@
 description: Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um Berichte mithilfe von Analytics-Funktionen, der Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten zu erstellen.
 keywords: Segmentierung;Segmente
 title: Analytics-Segmentierung
-feature: Segmentation
+feature: Segmentierung
 uuid: 845c1743-1264-4090-bccc-78830477f52e
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '174'
@@ -21,7 +20,7 @@ Die Analytics-Segmentierung umfasst den [Segment Builder](/help/components/segme
 
 ![](assets/seg__overview.png)
 
-Data Scientists und Marketinganalysten können für bedarfsgerechte Analysen Segmente einsetzen, erweitern und verfeinern und ein Segment dann für andere Benutzer speichern oder erweitern, verfeinern und als neues Segment in der Bibliothek speichern. Einmal in Gang gesetzt, handelt es sich um einen Kreislauf des Entwerfens und Verwaltens kodifizierter Zielgruppeneinblicke als  [einheitlicher Segmentarbeitsablauf](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Data Scientists und Marketinganalysten können für bedarfsgerechte Analysen Segmente einsetzen, erweitern und verfeinern und ein Segment dann für andere Benutzer speichern oder erweitern, verfeinern und als neues Segment in der Bibliothek speichern. Einmal in Gang gesetzt, handelt es sich um einen Kreislauf des Entwerfens und Verwaltens kodifizierter Zielgruppeneinblicke als [einheitlicher Segmentarbeitsablauf](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 **Einstieg**
 
