@@ -2,11 +2,10 @@
 title: Analysieren von Marketing-Kanälen
 description: Erfahren Sie, wie Sie die Dimensionen von Marketing-Kanäle in Workspace verwenden.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
+>Um die Effektivität von Marketingkanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 
 Sie möchten wahrscheinlich wissen, welcher Ihrer Marketing-Kanäle der effektivste ist und bei wem, damit Sie Ihre Bemühungen gezielter ausrichten und eine bessere Rendite aus Ihrem Marketing-Budget erzielen können. Die Dimensionen und Metriken der Marketing-Kanäle in Workspace sind eines der Tools in Adobe Analytics, mit dem Sie den Einfluss verschiedener Kanäle auf Ihre Bestellungen, Umsätze usw. verfolgen. und nützliche Einblicke in die Kanäle gewinnen können. Hier sind die Dimensionen und Metriken, die Sie in Bezug auf Marketing-Kanäle verwenden können:
 
@@ -26,7 +25,7 @@ Sie möchten wahrscheinlich wissen, welcher Ihrer Marketing-Kanäle der effektiv
 | Letztkontakt-Kanal | Veraltete Dimension mit vorab angewendetem und unveränderlichem Letztkontakt-Attributionsmodell. |
 | Erstkontakt-Kanal | Veraltete Dimension mit vorab angewendetem und unveränderlichem Erstkontakt-Attributionsmodell. |
 | Marketing-Kanalinstanzen | Diese Metrik misst, wie oft ein Marketing-Kanal in einer Bildanforderung definiert wurde, einschließlich standardmäßiger Seitenansichten und benutzerspezifischer Link-Aufrufe. Enthält keine persistenten Werte. |
-| Neue Interaktionen | Diese Metrik ähnelt Instanzen, wird jedoch nur inkrementiert, wenn in einer Bildanforderung First Touch-Marketing-Kanal definiert wird. |
+| Neue Interaktionen | Diese Metrik ähnelt Instanzen, wird jedoch nur inkrementiert, wenn in einer Bildanforderung ein First Touch-Marketingkanal definiert ist. |
 
 ## Basisanalyse
 
@@ -58,8 +57,8 @@ Beachten Sie, dass dieselbe Metrik (Online-Bestellungen) unterschiedliche Ergebn
 
 ## Tab-übergreifende Marketing-Analyse
 
-Mithilfe des veralteten First Touch-Kanals und des Last Touch-Kanals erhalten Sie eine hilfreiche Ansicht zu den Interaktionen der Kanal:
+Mit dem veralteten First Touch-Kanal und Last Touch-Kanal erhalten Sie einen hilfreichen Überblick über die Kanalinteraktionen:
 
 ![](assets/mc-viz6.png)
 
-In diesem Video erfahren Sie mehr über tabulatorübergreifende Marketing-Analyse: [Verwenden der tabulatorübergreifenden Analyse, um die grundlegende Marketing-Zuordnung in Analysis Workspace zu untersuchen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+In diesem Video erfahren Sie mehr über tabellenübergreifende Marketing-Analyse: [Verwenden der tabellenübergreifenden Analyse zum Untersuchen der grundlegenden Marketing-Attribution in Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
