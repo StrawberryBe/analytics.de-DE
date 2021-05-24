@@ -1,14 +1,13 @@
 ---
-description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
-title: Erste Schritte mit Reports and Analytics
-feature: Grundlagen zu Reports & Analysen
+description: Bevor Sie Reports & Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
+title: Erste Schritte mit Reports & Analytics
+feature: Grundlagen zu Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +43,7 @@ Browser- und Systemanforderungen zur Anmeldung in der Benutzeroberfläche von Re
 * Cookies und JavaScript müssen aktiviert sein.
 * Bildschirmauflösung von 1024 x 768 mit einer Farbtiefe von mindestens 16 Bit.
 
-## In Reports and Analytics anmelden
+## In Reports &amp; Analytics anmelden
 
 Richten Sie vor einem Zugriff auf die Schnittstelle mit Ihrem Kundenbetreuer oder mit der Adobe-Kundenunterstützung das Konto Ihres Unternehmens ein.
 
@@ -86,7 +85,7 @@ Informationen zum Bearbeiten von Benutzerkonten, Zurücksetzen von Benutzerkennw
 
 Sie können Kontaktdaten anzeigen und bearbeiten, ein Kennwort festlegen, Informationen zu Web-Services anzeigen und diesen Computer von der Datenkollektion ausschließen.
 
-Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png) und anschließend auf das Symbol **[!UICONTROL Kontoeinstellungen]** (Rädchensymbol) neben Ihrem Anmeldenamen.
+Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png)und anschließend auf das Symbol **[!UICONTROL Kontoeinstellungen]** (Rädchensymbol) neben Ihrem Anmeldenamen.
 
 Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die folgenden Informationen sind für die Ansicht oder Bearbeitung verfügbar:
 
@@ -99,7 +98,7 @@ Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die f
 
 ## Sprache der Benutzeroberfläche ändern
 
-In diesen Schritten wird beschrieben, wie Sie die Sprache der Benutzeroberfläche ändern können. Sie können die Benutzeroberfläche von Reports and Analytics in der Sprache Ihrer Wahl anzeigen.
+In diesen Schritten wird beschrieben, wie Sie die Sprache der Benutzeroberfläche ändern können. Sie können die Benutzeroberfläche von Reports &amp; Analytics in der Sprache Ihrer Wahl anzeigen.
 
 1. Melden Sie sich bei Analytics an und wählen Sie die Registerkarte **[!UICONTROL Berichte]** aus.
 1. Klicken Sie in der Fußzeile der Seite auf die aktive Sprache im Menü **[!UICONTROL Sprache]** und wählen Sie dann Ihre bevorzugte Sprache aus.
