@@ -2,7 +2,7 @@
 description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
-feature: Workspace – Allgemeines
+feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
@@ -20,8 +20,8 @@ Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://d
 
 | Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
-| [!UICONTROL Komponenten] >  [!UICONTROL Benutzereinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie die Einstellungen von [!UICONTROL Analysis Workspace] und dessen zugehörige Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Workspace-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Workspace-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
-| [!UICONTROL Histogramm-Smart-Bucket-Prognose] | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket Prediction] hilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
+| [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie die Einstellungen von [!UICONTROL Analysis Workspace] und dessen zugehörige Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Workspace-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Workspace-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
+| [!UICONTROL Histogramm Smart Bucket Prediction] | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket Prediction] hilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
 
 ## Februar 2021
 
@@ -435,7 +435,7 @@ Am 8. März 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Für vor Kurzem veröffentlichte benutzerdefinierte Vorlagen haben wir </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">oben im Projekt (beim Titel) ein Vorlagensymbol hinzugefügt, damit der Modus zum Bearbeiten der Vorlage einfacher von der Verwendung einer Vorlage als Ausgangspunkt für ein Projekt zu unterscheiden ist. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">ermöglicht, dass Benutzer ohne Administratorrechte Arbeitsbereichs-Projektvorlagen (über „Speichern untern“) erstellen und bearbeiten können, wenn sie über die Berechtigung zum Erstellen/Kuratieren von Projekten im Analysis Workspace verfügen. ( <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> &gt; <span class="uicontrol"> Gruppen </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten </span> &gt; <span class="uicontrol"> Analytics-Tools anpassen </span> &gt; &lt;a 13/&gt; Projekte in Analysis Workspace erstellen/kuratieren </span> </span>).<span class="uicontrol"> </span></li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">ermöglicht, dass Benutzer ohne Administratorrechte Arbeitsbereichs-Projektvorlagen (über „Speichern untern“) erstellen und bearbeiten können, wenn sie über die Berechtigung zum Erstellen/Kuratieren von Projekten im Analysis Workspace verfügen. ( <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Alle Administratoren </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> &gt; <span class="uicontrol"> Gruppen </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten </span> &gt; <span class="uicontrol"> Analytics-Tools anpassen </span> &lt;a 13/&gt; Erstellen/Kuratieren von Projekten in Analysis Workspace </span> </span>).<span class="uicontrol"> </span></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Beitragsanalyse: <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Token-Benachrichtigung </a> </p> </td> 
-   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung wird unter <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> &gt; </span> All admin </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> <span class="uicontrol"> Gruppen bearbeiten </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten  1/&gt; &gt; <span class="uicontrol"> Report Suite-Werkzeuge anpassen </span> &gt; <span class="uicontrol"> Werkzeuge und Berichte </span> )  </span></p> </td> 
+   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung heißt "Anomalieerkennung und Beitragsanalyse" unter <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Alle Administratoren </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> <span class="uicontrol"> Gruppen bearbeiten </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten &lt;a11 1/&gt; &gt; <span class="uicontrol"> Report Suite-Tools anpassen </span> &gt; <span class="uicontrol"> Tools und Berichte </span>. ) </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-Dateien mit Multibyte-Zeichen </p> </td> 
@@ -797,7 +797,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Fallout </a></b>-Verbesserungen </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  >Fallout</a></b>-Verbesserungen </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Unbeschränkte Segmente zum Vergleichen. </li> 
@@ -808,7 +808,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b> Fluss </b></a>-Verbesserungen </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>Fluss</b></a>-Verbesserungen </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Es wurde eine neue Visualisierungseinstellung namens <span class="wintitle"> Bezeichnungskürzung deaktivieren </span> hinzugefügt (Standard = deaktiviert). </li> 
@@ -845,7 +845,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/components/c-alerts/alert-manager.md"  > Verbesserungen für Warnhinweis-Manager </a></b> </p> </td> 
+   <td colname="col1"> <p>Verbesserungen für <b><a href="/help/components/c-alerts/alert-manager.md"  >Warnhinweis-Manager</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Warnhinweise können nun aktiviert/deaktiviert werden. </li> 
@@ -1249,4 +1249,4 @@ Beim Speichern eines Projekts wird der Titel auf der Registerkarte des Browsers 
 
 Administratoren haben die Möglichkeit, Projekte in [!UICONTROL Analysis Workspace] von einem Benutzer an einen anderen zu übertragen.
 
-Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Transfer]**, um Projekte zu übertragen.
+Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Übertragen]** , um Projekte zu übertragen.
