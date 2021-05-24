@@ -5,7 +5,6 @@ title: Klassifizierungshierarchien
 feature: Admin Tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '299'
@@ -31,7 +30,7 @@ Erstellen Sie die Classifications, bevor Sie sie einer Hierarchie hinzufügen.
 
 ## Erstellen einer Klassifizierungshierarchie {#task_3805EBCACC844261A7125D63D772CCDF}
 
-1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
+1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Classification-Hierarchien]**.
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Hierarchieaufbau für]** die Variable aus, in der Sie eine Classification-Hierarchie erstellen möchten.
