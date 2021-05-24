@@ -2,7 +2,6 @@
 title: getPageLoadTime
 description: Verfolgen Sie die Ladezeit einer Seite.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-translation-type: tm+mt
 source-git-commit: c814c023fe909b5e78d6dd46de8c27213a4d92be
 workflow-type: tm+mt
 source-wordcount: '580'
@@ -96,7 +95,7 @@ if(s._pltPreviousPage)
 
 ### 2.0.1 (26. März 2021)
 
-* Korrektur des Problems, bei dem das Plug-In Werte für das s-Objekt nicht korrekt einstellte.
+* Es wurde ein Problem behoben, bei dem das Plug-in Werte für das s -Objekt nicht korrekt setzte.
 
 ### 2.0 (19. März 2021)
 
