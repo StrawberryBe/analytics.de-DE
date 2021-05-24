@@ -2,7 +2,6 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-translation-type: tm+mt
 source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
 source-wordcount: '1674'
@@ -92,26 +91,26 @@ Beide diese Kennungen werden von Adobe zum Zeitpunkt der Berichterstellung berec
 
 ## Wie kann ich vom Gerätediagramm zum feldbasierten Stitching wechseln oder umgekehrt?
 
-Der Wechsel vom Gerätediagramm zum feldbasierten Sticken oder umgekehrt kann über die Kundenunterstützung angefordert werden. Allerdings kann es einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist, und *Verlaufsgefügte Daten der vorherigen Methode gehen verloren.*
+Der Wechsel vom Gerätediagramm zum feldbasierten Stitching oder umgekehrt kann über die Kundenunterstützung angefordert werden. Es kann jedoch einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist und *historische zugeordnete Daten aus der vorherigen Methode verloren gehen.*
 
 ## Wie geht Adobe mit individuellen Einschränkungen für eine eVar um, die beim feldbasierten Stitching verwendet wird?
 
 Die geräteübergreifende Analyse ruft Dimensionselemente ab, bevor sie für die Berichterstellung optimiert werden. Sie müssen sich bei der geräteübergreifenden Analyse keine Sorgen um individuelle Einschränkungen machen. Wenn Sie jedoch versucht haben, diese Eigenschaft/eVar in einem Workspace-Projekt zu verwenden, können Sie weiterhin das Dimensionselement [(Geringer Traffic)](/help/technotes/low-traffic.md) anzeigen.
 
-## Wie viele Report Suites meiner Firma können für CDA aktiviert werden?
+## Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse aktiviert werden?
 
-Es können mehrere Report Suites aktiviert werden. Jede zusätzliche Report Suite erhöht jedoch die Gesamtbereitstellungszeit, wenn mehrere Report Suites gleichzeitig angefordert werden. CDA führt keine Report Suites zusammen. Jede für CDA aktivierte Report Suite muss geräteübergreifend sein (Daten aus mehreren Oberflächen wie Desktop-Web, mobiles Web, mobile App usw.).
+Es können mehrere Report Suites aktiviert werden. Jede zusätzliche Report Suite erhöht jedoch die Bereitstellungszeit, wenn mehrere Report Suites gleichzeitig angefordert werden. Die geräteübergreifende Analyse führt keine Report Suites zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (Daten von mehreren Oberflächen wie Desktop-Web, mobiles Web, mobile Anwendung usw.).
 
-## Wenn mein Experience Cloud-Org (auch IMS-Org genannt) mehrere Firmen in verschiedenen Regionen hat, kann ich dann CDA für alle aktivieren?
+## Wenn meine Experience Cloud-Organisation (auch IMS-Organisation genannt) mehrere Unternehmen in verschiedenen Regionen hat, kann ich dann die geräteübergreifende Analyse für alle Unternehmen aktivieren?
 
-Nein. Für dieselbe Organisation kann CDA nur für eine Region aktiviert sein.
+Nein. Für dieselbe Organisation kann die geräteübergreifende Analyse nur für eine Region aktiviert sein.
 
-## Was sind die Vor- und Nachteile einer 7-tägigen Wiederholung im Vergleich zu einer 1-tägigen Wiederholung?
+## Welche Vor- und Nachteile hat eine Wiederholung über 7 Tage gegenüber einer Wiederholung über 1 Tag?
 
-Der Vorteil des 7-Tage-Lookback-Fensters besteht darin, dass CDA in der Lage ist, mit der Zeit weiter zurückzugehen und zu versuchen, zuvor anonyme Ereignis mit einigen Personen zu verbinden, die sich später innerhalb dieser 7 Tage angemeldet haben. Die Nachteile des 7-Tage-Lookback-Fensters sind 1) Replay wird nur einmal pro Woche ausgeführt und 2) die letzten 7 Tage können sich ändern.
+Der Vorteil des 7-tägigen Wiederholungs-Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse in der Lage ist, einen längeren Zeitraum zu nutzen, um zu versuchen, zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich später innerhalb dieser 7 Tage angemeldet hat. Die Nachteile des 7-Tage-Lookback-Fensters sind 1) Wiederholungen werden nur einmal pro Woche ausgeführt und 2) die letzten 7 Tage können sich ändern.
 
-Die Vorteile der Verwendung des 1-Tage-Lookback-Fensters sind 1) Replay-Läufe jeden Tag und 2) nur gestern kann geändert werden. Der Nachteil des 1-tägigen Lookback-Fensters besteht darin, dass CDA nur noch einen Tag zurückgehen kann, um zu versuchen, zuvor anonyme Ereignis mit einer Person zu verbinden, die sich gestern angemeldet hat.
+Die Vorteile der Verwendung des 1-tägigen Wiederholungs-Lookback-Fensters sind 1) Wiederholungsläufe täglich und 2) nur gestern kann sich ändern. Der Nachteil des 1-tägigen Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse nur einen Tag zurückgehen kann, um zu versuchen, zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich gestern angemeldet hat.
 
-## Was passiert mit den gehefteten Daten in meinen Virtual Report Suites von CDA, wenn meine Firma beschließt, Analytics Ultimate herunterzustufen?
+## Was passiert mit den zugeordneten Daten in meinen Virtual Report Suites der geräteübergreifenden Analyse, wenn mein Unternehmen beschließt, ein Upgrade von Analytics Ultimate durchzuführen?
 
-Wenn ein Kunde von Ultimate herabgestuft wird, hat er keinen Zugriff mehr auf zugewiesene Daten. Alle zuvor zugewiesenen Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites von CDA jetzt keine geräteübergreifende Verknüpfung widerspiegeln. Die Daten sehen ähnlich aus wie die ursprünglich nicht zugewiesene Report Suite.
+Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordnete Daten. Alle zuvor zugeordneten Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites der geräteübergreifenden Analyse jetzt keine geräteübergreifende Zuordnung widerspiegeln. Die Daten ähneln der ursprünglich nicht zugeordneten Report Suite.
