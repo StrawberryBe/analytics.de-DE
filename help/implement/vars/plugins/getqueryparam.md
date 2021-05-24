@@ -2,7 +2,6 @@
 title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-translation-type: tm+mt
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
 workflow-type: tm+mt
 source-wordcount: '918'
@@ -187,12 +186,12 @@ Der Wert „300“ stammt aus dem Wert des pos-Parameters in der Variablen s.tes
 
 ### 4.0.1 (26. März 2021)
 
-* Das Problem, dass undefined anstelle von &quot;&quot; zurückgegeben wurde, wenn der Parameter Abfrage nicht in der Abfrage vorhanden war, wurde aktualisiert.
+* Das Problem, bei dem nicht definiert statt &quot;&quot;zurückgegeben wurde, wenn der Abfrageparameter in der Abfragezeichenfolge nicht vorhanden war, wurde aktualisiert.
 
 ### 4.0 (19. März 2021)
 
 * Versionsnummer als Kontextdaten hinzugefügt.
-* Abhängigkeiten vom Plugin pt entfernt.
+* Abhängigkeiten vom pt-Plug-in wurden entfernt.
 
 ### 3.3 (24. September 2019)
 
