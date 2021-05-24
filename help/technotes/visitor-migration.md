@@ -5,11 +5,10 @@ title: Besuchermigration
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +16,13 @@ ht-degree: 78%
 
 Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu einer anderen migriert.
 
-Besuchermigration lässt Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
+Beim Migrieren von Besuchern können Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
 
-* Wechsel von `2o7.net` zu `adobedc.net`.
+* Wechseln von `2o7.net` zu `adobedc.net`.
 
-* Sie implementieren den [Experience Cloud-Besucher-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) und wechseln von einer CNAME/Erstanbieter-Datenerfassungsdomäne zu `adobedc.net`, `2o7.net` oder `omtrdc.net`
+* Sie implementieren den [Besucher-ID-Service von Experience Cloud](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) und wechseln von einer Datenerfassungs-Domain mit CNAME-Eintrag/Erstanbieterkontext zu `adobedc.net`, `2o7.net` oder `omtrdc.net`
 
-* Wechsel zu einer Datenerfassung mit Namen/Erstanbietern ( [Erstanbieter-Cookies)](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html).
+* Wechseln zu einer Datenerfassung mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html)).
 
 * Wechsel von einem CNAME-Eintrag zu einem anderen (Domänenwechsel).
 
@@ -51,11 +50,11 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 und mehr Stunden nach dem Konfigurationswechsel</b>: Aktualisieren Sie die Variablen <code> s.trackingServer</code> und <code> s.trackingServerSecure</code> in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. </p> </td> 
-   <td colname="col3"> <p>Nachdem Sie diese Änderung vorgenommen haben, überprüfen Sie mit dem <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en">-Experience Cloud-Debugger</a>, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungsserver gesendet wird. </p> </td> 
+   <td colname="col3"> <p>Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie den <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de">Experience Cloud Debugger</a>, um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungs-Server gesendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unmittelbar nach Aktualisierung Ihres Analytics-Code</b>: Testen Sie Ihre Website, um zu verifizieren, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. </p> </td> 
-   <td colname="col3"> <p>Verwenden Sie einen  <a href="../implement/validate/packet-monitor.md"> Paket-</a> Überwachung, um sicherzustellen, dass beim erstmaligen Zugriff auf Ihre Site oder nach dem Löschen von Cookies zwei 302-HTTP-Statuscodes (Umleitung) vor dem 200-HTTP-Statuscode (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
+   <td colname="col3"> <p>Verwenden Sie einen <a href="../implement/validate/packet-monitor.md">Paketmonitor</a>, um zu verifizieren, dass beim erstmaligen Zugriff auf Ihre Website bzw. nach dem Löschen von Cookies zwei HTTP-Status-Codes „302“ (Redirect) vor dem HTTP-Status-Code „200“ (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Im gesamten Migrationszeitraum</b>: Belassen Sie den DNS-Eintrag für den vorherigen Hostnamen weiterhin aktiviert. </p> </td> 
