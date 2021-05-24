@@ -2,7 +2,6 @@
 title: Häufig gestellte Fragen zu Klassifizierungen
 description: Häufig gestellte Fragen zur Verwendung von Klassifizierungen
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-translation-type: tm+mt
 source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
 workflow-type: tm+mt
 source-wordcount: '372'
@@ -35,7 +34,7 @@ Ja, dabei wird *jedoch jedes Dimensionselement als abrechnungsfähiger Server-Au
 
 ## Wie klassifiziere ich Werte, die Sonderzeichen enthalten?
 
-Die Verwendung von Leerzeichen vor und nach dem Komma in Classification-Daten und Trefferdaten wird nicht unterstützt, da Adobe Analytics die Leerzeichen aus diesen Daten abschneiden wird.
+Die Verwendung von Leerzeichen am Anfang und am Ende in beiden Classification-Daten und Trefferdaten wird nicht unterstützt, da Adobe Analytics die leeren Zeichen aus diesen Daten abschneiden wird.
 
 Die Verwendung von Sonderzeichen wie Kommas oder doppelten Anführungszeichen im Reporting wird normalerweise nicht empfohlen. In einigen Fällen ist ihre Verwendung jedoch erforderlich. Wenn Ihre Reporting-Werte solche Zeichen enthalten, die Sie klassifizieren möchten, gehen Sie wie folgt vor:
 
