@@ -1,10 +1,9 @@
 ---
 description: Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die mit dem Segment Builder erstellt wurden und mit dem Segment-Manager verwaltet werden.
 title: Übersicht über den Segmentierungs-Workflow
-feature: Segmentation
+feature: Segmentierung
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '241'
