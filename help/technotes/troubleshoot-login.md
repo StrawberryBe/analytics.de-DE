@@ -1,57 +1,57 @@
 ---
-title: Fehlerbehebung bei der Anmeldung bei Adobe Analytics
+title: Fehlerbehebung bei der Anmeldung in Adobe Analytics
 description: Schritte für den Fall, dass Sie sich nicht bei Adobe Analytics anmelden können.
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
-# Fehlerbehebung bei der Anmeldung bei Adobe Analytics
+# Fehlerbehebung bei der Anmeldung in Adobe Analytics
 
-Adobe Analytics verwendet mehrere Authentifizierungsmethoden, um sich anzumelden:
+Adobe Analytics verwendet mehrere Authentifizierungsmethoden bei der Anmeldung:
 
-* Adobe ID durch das Experience Cloud
-* Legacy-Analytics-ID
-* Single Sign-On
+* Adobe ID durch Experience Cloud
+* Alte Analytics ID
+* Single Sign-on
 
-**Wenn Sie regelmäßig auf Analytics und zufällig auftretende Beginn zugreifen und Probleme bei der Anmeldung auftreten, werden die meisten Probleme durch Löschen der Cookies und des Cache des Browsers behoben.**
+**Wenn Sie regelmäßig auf Analytics zugreifen und gelegentlich Probleme bei der Anmeldung auftreten, können Sie die meisten Probleme beheben, indem Sie die Cookies und den Cache Ihres Browsers löschen.**
 
-In einigen Fällen können Probleme mit der Verfügbarkeit die Möglichkeit zur Anmeldung beeinträchtigen. Überprüfen Sie [status.adobe.com](https://status.adobe.com) auf offene Fälle. Verwenden Sie andernfalls den entsprechenden Abschnitt, der von der Authentifizierungsmethode Ihres Unternehmens abhängt.
+In einigen Fällen können Probleme mit der Verfügbarkeit die Möglichkeit zur Anmeldung beeinträchtigen. Überprüfen Sie [status.adobe.com](https://status.adobe.com) auf offene Fälle. Verwenden Sie andernfalls den entsprechenden Abschnitt je nach der Authentifizierungsmethode Ihres Unternehmens.
 
 ## Adobe ID
 
-Beheben Sie Probleme bei der Anmeldung bei Adobe Analytics mit dem Experience Cloud.
+Beheben Sie Probleme bei der Anmeldung bei Adobe Analytics mit Experience Cloud.
 
-1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com). Wenn Sie nicht auf diese Site zugreifen können, wird diese Domäne von Ihrem Unternehmen möglicherweise nicht über Ihre Firewall zugelassen. Wenden Sie sich an das IT-Team Ihres Unternehmens, um dies zuzulassen. Unter [IPs und Domänen, die im Adobe Experience Cloud](https://helpx.adobe.com/de/analytics/kb/adobe-ip-addresses.html) verwendet werden, finden Sie hilfreiche Informationen für Ihr IT-Team.
+1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com). Wenn Sie nicht auf diese Site zugreifen können, wird diese Domain von Ihrem Unternehmen möglicherweise nicht durch Ihre Firewall gelassen. Wenden Sie sich an das IT-Team Ihres Unternehmens, um dies zuzulassen. Unter [IPs und Domains, die in Adobe Experience Cloud verwendet werden](https://helpx.adobe.com/de/analytics/kb/adobe-ip-addresses.html) finden Sie hilfreiche Informationen für Ihr IT-Team.
 
-2. Authentifizierung mit Adobe ID: Klicken Sie auf **[!UICONTROL Anmelden mit einem Adobe ID]**. Wenn Sie sich nicht anmelden können, überprüfen Sie bei der Dublette, ob Ihre E-Mail-Adresse korrekt eingegeben wurde. Klicken Sie andernfalls auf **[!UICONTROL Kennwort zurücksetzen]** und befolgen Sie die Anweisungen zum Zurücksetzen des Adobe ID-Kennworts.
+2. Authentifizierung mit Adobe ID: Klicken Sie auf **[!UICONTROL Anmelden mit einer Adobe ID]**. Wenn Sie sich nicht anmelden können, überprüfen Sie erneut, ob Ihre E-Mail-Adresse korrekt eingegeben wurde. Klicken Sie andernfalls auf **[!UICONTROL Passwort zurücksetzen]** und befolgen Sie die Anweisungen zum Zurücksetzen des Adobe ID-Passworts.
 
-3. Zugriff auf Analytics nach der Authentifizierung: Klicken Sie oben rechts auf das 9-Raster-Symbol und dann auf Analytics. Wenn Sie diese Option nicht haben oder sie ausgegraut ist, wenden Sie sich an einen Produktadministrator in Ihrem Unternehmen, um sicherzustellen, dass Sie über die richtigen Berechtigungen für den Zugriff auf Analytics verfügen.
+3. Zugriff auf Analytics nach der Authentifizierung: Klicken Sie oben rechts auf das 9-Raster-Symbol und dann auf „Analytics“. Wenn Sie diese Option nicht haben oder sie ausgegraut ist, wenden Sie sich an einen Produktadministrator in Ihrem Unternehmen, um sicherzustellen, dass Sie über die richtigen Berechtigungen für den Zugriff auf Analytics verfügen.
 
-## Legacy-Analytics-ID
+## Alte Analytics ID
 
 Ein Benutzer in Ihrer Organisation kann die folgende Fehlermeldung erhalten, wenn er versucht, sich anzumelden:
 
 *Als Sicherheitsmaßnahme wurde dieses Konto aufgrund zu vieler fehlgeschlagener Anmeldeversuche gesperrt.*
 
-Wenn das Problem durch Löschen der Cookies/des Cache des Browsers nicht behoben wird, setzen Sie das Kennwort des Benutzers mit einem Analytics-Administrator in Ihrem Unternehmen zurück.
+Wenn das Problem nicht durch Löschen der Cookies/des Cache des Browsers behoben werden kann, setzen Sie das Passwort des Benutzers mithilfe eines Analytics-Administrators in Ihrem Unternehmen zurück.
 
 >[!IMPORTANT]
 >
->Die folgenden Schritte zum Zurücksetzen des Passworts eines Benutzers gelten nur für Legacy-Analytics-IDs, nicht für Adobe ID. Wenn Ihr Unternehmen Adobe ID verwendet, können Sie Benutzerkonten unter [adminconsole.adobe.com](https://adminconsole.adobe.com) verwalten.
+>Die folgenden Schritte zum Zurücksetzen des Passworts eines Benutzers gelten nur für alte Analytics IDs, nicht für Adobe IDs. Wenn Ihr Unternehmen Adobe IDs verwendet, können Sie Benutzerkonten unter [adminconsole.adobe.com](https://adminconsole.adobe.com) verwalten.
 
 1. Melden Sie sich bei Adobe Analytics mit einem Konto an, das über Administratorrechte verfügt.
 2. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]**.
-3. Klicken Sie auf die Registerkarte **[!UICONTROL Benutzer]** und dann auf **[!UICONTROL Bearbeiten]** neben dem gewünschten Benutzer.
-4. Ändern Sie das Kennwort in einen beliebigen Wert und aktivieren Sie das Kontrollkästchen **[!UICONTROL Erfordert Passwortänderung durch den Benutzer bei der nächsten Anmeldung]**.
-5. Informieren Sie den Benutzer über das neue Kennwort.
+3. Klicken Sie auf die Registerkarte **[!UICONTROL Benutzer]** und dann neben dem gewünschten Benutzer auf **[!UICONTROL Bearbeiten]**.
+4. Ändern Sie das Passwort in eine beliebige Zeichenkette und aktivieren Sie das Kontrollkästchen **[!UICONTROL Benutzer auffordern, das Passwort bei der nächsten Anmeldung zu ändern]**.
+5. Informieren Sie den Benutzer über das neue Passwort.
 
-## Single Sign-On
+## Single Sign-on
 
-Wenden Sie sich an einen Administrator in Ihrer Organisation, um Single Sign-On-Probleme zu lösen.
+Wenden Sie sich an einen Administrator in Ihrer Organisation, um Probleme beim Single Sign-on zu lösen.
 
 ## Abgelaufene Anmeldungen
 
@@ -59,14 +59,14 @@ Ein Benutzer in Ihrer Organisation kann die folgende Fehlermeldung erhalten, wen
 
 *Fehler: Diese Anmeldung ist abgelaufen.*
 
-Dieser Fehler funktioniert wie beabsichtigt. Adobe Analytics bietet Administratoren die Möglichkeit, einen Datumsbereich festzulegen, in dem ein Benutzerkonto gültig ist. Wenn das aktuelle Datum außerhalb des gültigen Datumsbereichs für das Konto liegt, können sie sich nicht anmelden. Wenden Sie sich an einen Analytics-Administrator in Ihrem Unternehmen, um den gültigen Datumsbereich der Anmeldung zu erweitern. Adobe Die Kundenunterstützung ist nicht berechtigt, gültige Anmeldedatumsbereiche für Benutzerkonten zu ändern.
+Dieser Fehler ist beabsichtigt. Adobe Analytics bietet Administratoren die Möglichkeit, einen Datumsbereich festzulegen, in dem ein Benutzerkonto gültig ist. Wenn das aktuelle Datum außerhalb des gültigen Datumsbereichs für das Konto liegt, kann der Benutzer sich nicht anmelden. Wenden Sie sich an einen Analytics-Administrator in Ihrem Unternehmen, um den gültigen Datumsbereich der Anmeldung zu erweitern. Die Adobe-Kundenunterstützung ist nicht berechtigt, gültige Anmeldedatumsbereiche für Benutzerkonten zu ändern.
 
 ## Andere Anmeldeprobleme
 
 Wenn keiner der oben genannten Schritte funktioniert, ermitteln Sie den Umfang des Anmeldeproblems:
 
-* Tritt das Problem bei der Verwendung eines anderen Browsers auf, oder ist es in allen Browsern vorhanden?
+* Tritt das Problem bei der Verwendung eines anderen Browsers nicht auf oder ist es bei allen Browsern anzutreffen?
 * Tritt das Problem auf einem anderen Computer im Netzwerk auf oder ist es auf mehreren Computern vorhanden?
-* Versuchen Sie, sich mit einem anderen Netzwerk wie einer mobilen Datenverbindung, einer Bibliothek oder einem Heimnetzwerk anzumelden. Ist das Problem netzübergreifend vorhanden?
+* Versuchen Sie, sich mit einem anderen Netzwerk anzumelden, wie etwa einer mobilen Datenverbindung, einem Bibliotheks- oder einem Heimnetzwerk. Ist das Problem netzwerkübergreifend vorhanden?
 
-Wenn das Problem in Ihrem Netzwerk isoliert ist, wenden Sie sich an das IT-Team Ihres Unternehmens, um es zu beheben. Wenden Sie sich an den Kundendienst der Adobe, wenn Sie nicht auf ein einzelnes Netzwerk beschränkt sind.
+Wenn das Problem nur in Ihrem Netzwerk isoliert auftritt, wenden Sie sich an das IT-Team Ihres Unternehmens, um es zu beheben. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn es nicht auf ein einzelnes Netzwerk beschränkt ist.
