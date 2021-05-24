@@ -1,10 +1,9 @@
 ---
 description: Sequenzielle Segmente werden über den THEN-Operator anstelle von AND oder OR erstellt. THEN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten mit dem Filter „Alle einschließen“. Sequenzielle Segmente können außerdem nach einer Teilmenge an übereinstimmenden Treffern über die Optionen „Nur vor Sequenz“ und „Nur nach Sequenz“ weiter gefiltert werden.
 title: Sequentielle Segmente erstellen
-feature: Segmentation
+feature: Segmentierung
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '3858'
@@ -31,7 +30,7 @@ Wenn bei der Erstellung eines Segments „Alle einschließen“ ausgewählt ist,
 | Stimmt überein | A, dann B<br>A, dann B (in einem anderen Besuch) B<br>A, dann D, dann B |
 | Stimmt nicht überein mit | B, dann A |
 
-## „Nur vor Sequenz“ und „Nur nach Sequenz“  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## „Nur vor Sequenz“ und „Nur nach Sequenz“ {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 Die Optionen **[!UICONTROL Nur vor Sequenz]** und **[!UICONTROL Nur nach Sequenz]** filtern das Segment vor oder nach der angegebenen Sequenz nach einer Teilmenge an Daten.
 
@@ -179,11 +178,11 @@ Segmentregeln beinhalten alle Daten, es sei denn, Sie schließen mithilfe der Re
 
 Beispiel:
 
-* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die  *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite der „Homepage“ entspricht, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
+* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite der „Homepage“ entspricht, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
 * **Schließen Sie die Referrerdomäne aus**. Verwenden Sie eine Regel, die nur Referrerdomänen aus „Google.com“ einschließt und alle anderen Domänen ausschließt.
 * **Identifizieren Sie Nicht-Käufer**. Bestimmen Sie, wann Bestellungen größer als null sind, und schließen Sie dann den [!UICONTROL Besucher] aus.
 
-Der [!UICONTROL Exclude] kann zum Identifizieren einer Sequenz verwendet werden, in der vom Besucher keine spezifischen Besuche oder Treffer ausgeführt wurden. [!UICONTROL Ausschluss-Checkpoints] können auch in eine  [logische Gruppe](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Der [!UICONTROL Exclude] kann zum Identifizieren einer Sequenz verwendet werden, in der vom Besucher keine spezifischen Besuche oder Treffer ausgeführt wurden. [!UICONTROL Ausschluss-Checkpoints] können auch in eine [logische Gruppe](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Ausschluss zwischen Checkpoints
 
@@ -200,7 +199,7 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 **Dieses Segment erstellen**
 
-Erstellen Sie ein Segment, wie Sie dies für ein  einfaches oder verschachteltes sequenzielles Segment bzw. ein Segment mit gemischten Ebenen tun würden, und legen Sie dann den [!UICONTROL EXCLUDE]-Operator für das Behälterelement fest. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL THEN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
+Erstellen Sie ein Segment, wie Sie dies für ein einfaches oder verschachteltes sequenzielles Segment bzw. ein Segment mit gemischten Ebenen tun würden, und legen Sie dann den [!UICONTROL EXCLUDE]-Operator für das Behälterelement fest. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL THEN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -356,7 +355,7 @@ Mithilfe der in die Kopfzeilen der einzelnen Behälter integrierten [!UICONTROL 
 
 Mit den [!UICONTROL Within] und [!UICONTROL After]-Behältern und durch Angabe einer Granularität und Anzahl können Sie die Übereinstimmung auf eine angegebene Zeitdauer beschränken. Der [!UICONTROL Within]-Operator wird zum Angeben einer maximalen Zeitbegrenzung zwischen zwei Checkpoints verwendet. Mit dem [!UICONTROL After]-Operator wird eine minimale Zeitbegrenzung zwischen zwei Checkpoints angegeben.
 
-### After- und Within-Operatoren   {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After- und Within-Operatoren {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 Die Dauer wird durch einen einzelnen Großbuchstaben für die Granularität gefolgt von einer Zahl für die Wiederholungszahl der Granularität angegeben.
 
