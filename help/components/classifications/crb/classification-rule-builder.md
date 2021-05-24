@@ -5,11 +5,10 @@ title: Classification Rule Builder-Workflow
 feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +51,4 @@ Für die Implementierung von Classification-Regeln gelten die nachfolgenden allg
 
 **Blog**: Weitere Informationen zu dieser Funktion finden Sie im Digital Marketing Blog: [Regelbasierte Klassifizierungen](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Ansicht des Videos  [&quot;](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) Übersicht über Klassifizierungen&quot;.
+**Video**: Sehen Sie sich das Video [Übersicht über Klassifizierungen](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) an.
