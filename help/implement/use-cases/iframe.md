@@ -1,28 +1,27 @@
 ---
-title: AppMeasurement mit iframes verwenden
-description: Greifen Sie auf Adobe Analytics-Variablen innerhalb eines iFrame oder einer übergeordneten Seite zu, während Sie sich in einem iframe befinden.
+title: „AppMeasurement“ mit iFrames verwenden
+description: Greifen Sie auf Adobe Analytics-Variablen innerhalb eines IFrame oder einer übergeordneten Seite zu, während Sie sich in einem IFrame befinden.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-translation-type: tm+mt
 source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# AppMeasurement mit iframes verwenden
+# „AppMeasurement“ mit iFrames verwenden
 
-Sie können AppMeasurement-Variablen sowohl von untergeordneten als auch von übergeordneten iframes referenzieren. Es ist erforderlich, alle Variablen am selben Speicherort zu definieren, an dem sich die AppMeasurement-Bibliothek befindet. In den folgenden Beispielen wird erläutert, wie Sie grundlegende AppMeasurement-Variablen und -Methoden innerhalb und außerhalb eines iFrames festlegen.
+Sie können „AppMeasurement“-Variablen sowohl von untergeordneten als auch von übergeordneten iFrames aus referenzieren. Es ist erforderlich, alle Variablen am selben Speicherort zu definieren, an dem sich die „AppMeasurement“-Bibliothek befindet. In den folgenden Beispielen wird erläutert, wie Sie einfache „AppMeasurement“-Variablen und -Methoden innerhalb und außerhalb eines iFrames festlegen.
 
-Wenn Sie Adobe Experience Platform Launch verwenden, stellen Sie sicher, dass das Trackerobjekt global verfügbar ist. Siehe [Übersicht über die Adobe Analytics-Erweiterung](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) im Benutzerhandbuch zum Starten.
+Wenn Sie Adobe Experience Platform Launch verwenden, stellen Sie sicher, dass das Tracker-Objekt global verfügbar ist. Siehe [Übersicht über die Adobe Analytics-Erweiterung](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) im Launch-Benutzerhandbuch.
 
 >[!CAUTION]
 >
->Vermeiden Sie, AppMeasurement-Bibliotheken sowohl auf einer übergeordneten Seite als auch auf einem iframe zu verwenden. Dadurch entstehen Risiken beim Senden mehrerer Bildanforderungen, wodurch die Anzahl der Berichte steigt und die Anzahl der gebührenpflichtigen Serveraufrufe steigt.
+>Vermeiden Sie, „AppMeasurement“-Bibliotheken sowohl auf einer übergeordneten Seite als auch in einem IFrame zu verwenden. Dadurch entstehen Risiken beim Senden mehrerer Bildanfragen, wodurch die Größe der Berichte und die Anzahl der gebührenpflichtigen Server-Aufrufe steigt.
 
-## Zugriff auf AppMeasurement, das sich in einem iframe befindet
+## Zugriff auf „AppMeasurement“ in einem IFrame
 
-Sie können über das iframe-Objekt auf AppMeasurement-Variablen zugreifen. In diesen Beispielen wird [pageName](../vars/page-vars/pagename.md) festgelegt und die [t()-Methode](../vars/functions/t-method.md) mit zwei verschiedenen Methoden aufgerufen, um auf das iframe-Objekt zu verweisen.
+Sie können über das IFrame-Objekt auf „AppMeasurement“-Variablen zugreifen. In diesen Beispielen wird [pageName](../vars/page-vars/pagename.md) gesetzt und die [t()-Methode](../vars/functions/t-method.md) mit zwei verschiedenen Referenzierungsarten des IFrame-Objekts aufgerufen.
 
 ```js
 // Reference AppMeasurement code that resides within an iframe and send an image request
@@ -34,9 +33,9 @@ window.frames[0].contentWindow.s.pageName = "Page name within iframe";
 window.frames[0].contentWindow.s.t();
 ```
 
-## Zugriff auf AppMeasurement von innerhalb eines iframe
+## Zugriff auf „AppMeasurement“ innerhalb eines IFrame
 
-Sie können von einem iframe aus auf AppMeasurement-Variablen auf einer übergeordneten Seite zugreifen. In diesem Beispiel wird [pageName](../vars/page-vars/pagename.md) festgelegt und die [t()-Methode](../vars/functions/t-method.md) mit der [`parent`](https://www.w3schools.com/jsref/prop_win_parent.asp)-Eigenschaft aufgerufen.
+Sie können innerhalb eines IFrame auf „AppMeasurement“-Variablen auf einer übergeordneten Seite zugreifen. In diesem Beispiel wird [pageName](../vars/page-vars/pagename.md) gesetzt und die [t()-Methode](../vars/functions/t-method.md) mit der [`parent`](https://www.w3schools.com/jsref/prop_win_parent.asp)-Eigenschaft aufgerufen.
 
 ```js
 // Reference AppMeasurement code on a parent page from within an iframe and send an image request
@@ -44,9 +43,9 @@ parent.s.pageName = "Page Name on Hosted Window";
 parent.s.t();
 ```
 
-## Verwenden Sie `postMessage`- und Ereignis-Listener
+## Verwenden von `postMessage`- und Ereignis-Listenern
 
-Alternativ können Sie Variablen mit `postMessage`- und Ereignis-Listenern festlegen. Für diese Methode ist kein direkter Verweis auf einen iframe erforderlich.
+Alternativ können Sie Variablen mit `postMessage`- und Ereignis-Listenern festlegen. Für diese Methode ist kein direkter Verweis auf einen IFrame erforderlich.
 
 ```js
 // Place this code in your parent window
@@ -64,7 +63,7 @@ window.top.postMessage("Example page view call","https://example.com");
 
 ## Einschränkungen
 
-* Wie bei anderen JavaScript-Codes können iframes nur dann kommunizieren, wenn Domänen und Protokolle übereinstimmen. Diese Beispiele funktionieren nicht, wenn sich der iframe-Inhalt in einer anderen Domäne als die übergeordnete Domäne befindet.
-* Wenn sich AppMeasurement in einem iframe befindet, wird die Variable [`referrer`](../vars/page-vars/referrer.md) auf die übergeordnete URL und nicht auf die tatsächliche verweisende URL eingestellt. Sie können die Variable `referrer` manuell festlegen, um dieses Problem zu beheben.
-* Der [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) erkennt keine Bildanforderungen, die innerhalb von iframes ausgelöst werden.
-* Activity Map zeigt die Heatmap nicht über Links an, die innerhalb von iframes angeklickt wurden. Stattdessen wird der gesamte iframe hervorgehoben.
+* Wie bei anderen JavaScript-Codes können iFrames nur dann kommunizieren, wenn Domains und Protokolle übereinstimmen. Diese Beispiele funktionieren nicht, wenn sich der IFrame-Inhalt in einer anderen Domain als die übergeordnete Domain befindet.
+* Wenn sich „AppMeasurement“ in einem IFrame befindet, wird die [`referrer`](../vars/page-vars/referrer.md)-Variable auf die übergeordnete URL festgelegt und nicht auf die tatsächlich verweisende URL. Sie können zur Lösung dieses Problems die `referrer`-Variable manuell festlegen.
+* Der [Adobe Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) erkennt keine Bildanforderungen, die innerhalb von iFrames ausgelöst werden.
+* Activity Map zeigt die Heatmap nicht über Links an, auf die innerhalb von iFrames geklickt wurde. Stattdessen wird der gesamte IFrame hervorgehoben.
