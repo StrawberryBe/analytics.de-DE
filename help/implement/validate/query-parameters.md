@@ -45,7 +45,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `j` | Keine | Die im Browser installierte JavaScript-Version. |
 | `k` | Keine | Wird in der Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) verwendet. |
 | `l1` – `l3` | [`list1` – `list3`](../vars/page-vars/list.md) | Listenvariablen. |
-| `lrt` | Keine | Die &quot;letzte Anforderungszeitangabe&quot;, d. h. die Roundtrip-Zeit für die letzte Anforderung, in Millisekunden. Sie wird nur gesendet, wenn mehr als eine Anforderung von einer Seite gesendet wird oder wenn es sich bei der Seite um eine Einzelseitenanwendung handelt (SPA). |
+| `lrt` | Keine | Die &quot;letzte Anforderungszeitangabe&quot;, d. h. die Roundtrip-Zeit für die letzte Anforderung in Millisekunden. Sie wird nur gesendet, wenn mehr als eine Anforderung von einer Seite gesendet wird oder die Seite eine Einzelseitenanwendung ist (SPA). |
 | `mid` | Keine | Experience Cloud-Besucher-ID. |
 | `ndh` | Keine | Markierung, die angibt, ob die Bildanforderung von AppMeasurement stammt. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Hilft festzustellen, wo Cookies gesetzt werden. |
