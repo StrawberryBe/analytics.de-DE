@@ -1,20 +1,19 @@
 ---
 title: So legen Sie Benutzereinstellungen in Analysis Workspace fest
 description: Sie können allgemeine Voreinstellungen und Projektvoreinstellungen für Benutzer festlegen.
-feature: Workspace Basics
+feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-translation-type: tm+mt
 source-git-commit: bfbeac56917f4ff6b907c44f083638ee1e93c17e
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Benutzerpräferenzen
 
-Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzereinstellungen] können Sie Einstellungen für Analysis Workspace und die zugehörigen Komponenten auf Benutzerebene verwalten. Benutzereinstellungen gelten für alle ** neuen Projekte oder Bedienfelder.
+Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzereinstellungen] können Sie Einstellungen für Analysis Workspace und die zugehörigen Komponenten auf Benutzerebene verwalten. Benutzereinstellungen gelten für alle *neuen* Projekte oder Bedienfelder.
 
 ![Benutzerpräferenzen](assets/user-preferences.png)
 
@@ -29,7 +28,7 @@ Allgemeine Voreinstellungen gelten für Ihr Adobe Analytics-Erlebnis im Browser.
 
 ## Projekteinstellungen
 
-Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace erstellte Bereiche. Bestimmte Voreinstellungen können auch pro Projekt unter [!UICONTROL Arbeitsbereich] > [!UICONTROL Projekt] > [!UICONTROL Projektinformationen und -einstellungen] verwaltet werden.
+Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace erstellte Bedienfelder. Bestimmte Voreinstellungen können auch pro Projekt unter [!UICONTROL Arbeitsbereich] > [!UICONTROL Projekt] > [!UICONTROL Projektinformationen und -einstellungen] verwaltet werden.
 
 | Abschnitt | Einstellung | Optionen |
 | --- | --- | --- |
@@ -38,7 +37,7 @@ Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace 
 |  | [Farbpalette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=de) | <ul><li>Adobe-Paletten (Standard)</li><li>Benutzerdefinierte Paletten</li></ul> |
 | **Daten** |  |  |
 |  | [Report Suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#report-suite) | <ul><li>Zuletzt verwendet (Standard)</li><li>Spezifische Report Suite, die aus einer Liste ausgewählt wurde</li></ul> |
-|  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#calendar) | Wählen Sie aus einer Liste aus: <ul><li>Von der Adobe bereitgestellte Bereiche (Standard ist dieser Monat)</li><li>Benutzerdefinierte Bereiche</li></ul> |
+|  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#calendar) | Wählen Sie aus einer Liste, die Folgendes enthält: <ul><li>Von Adobe bereitgestellte Bereiche (Standard ist „Diesen Monat“)</li><li>Benutzerdefinierte Bereiche</li></ul> |
 |  | [Typ des Bedienfelds](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) | <ul><li>Freiform (Standard)</li><li>Leer</li><li>Quick Insights</li></ul> |
 |  | Zahlenformat | <ul><li>1.000,00 (Standard)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV-Trennzeichen Zeichen | <ul><li>Komma (Standard)</li><li>Semikolon</li><li>Doppelpunkt</li><li>Verkettungszeichen</li><li>Zeitraum</li><li>Leerzeichen</li><li>Tab</li></ul> |
