@@ -1,8 +1,7 @@
 ---
 title: Analytics in der Adobe Admin Console
-description: Erfahren Sie, wie Sie mit dem Adobe Admin Console Analytics-Produkte und -Benutzer verwalten.
+description: Erfahren Sie, wie Sie mit der Adobe Admin Console Analytics-Produkte und -Benutzer verwalten können.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '88'
@@ -19,5 +18,5 @@ In diesem Kapitel werden Konzepte erläutert, die Sie bezüglich der Analytics-s
 * Zugriffsberechtigung
 
    * [Produktprofile für Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-   * [Produktprofilberechtigungen für Report Suite-Werkzeuge](/help/admin/admin-console/permissions/report-suite-tools.md)
+   * [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](/help/admin/admin-console/permissions/report-suite-tools.md)
    * [Produktprofilberechtigungen für Analytics-Werkzeuge](/help/admin/admin-console/permissions/analytics-tools.md)
