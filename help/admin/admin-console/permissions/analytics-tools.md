@@ -2,10 +2,10 @@
 title: Produktprofilberechtigungen für Analytics-Werkzeuge
 description: Verwenden Sie die Berechtigungselemente der Analytics-Tools, um Zugriff auf Funktionen in Adobe Analytics zu gewähren.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 72%
 
 ---
 
@@ -21,16 +21,10 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Protokolle | Gewährt Zugriff auf &quot;Admin > Alle Admin > Protokolle&quot;. |
 | Protokolle – Web-Services | Gewährt Zugriff, um Protokolle über die 1.4-API abzurufen. |
 | Traffic-Management | Gewährt Zugriff auf &quot;Admin > Alle Administratoren > Traffic-Management&quot;. |
-| Berechtigungsverwaltung | Wird nicht mehr länger verwendet. Gewährt Zugriff auf die alte Benutzeroberfläche zur Benutzerverwaltung unter &quot;Admin > Alle Administratoren > Benutzerverwaltung&quot;. |
-| Berechtigungen (lesen) – Web-Services | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API anzuzeigen. Verwenden Sie stattdessen die Adobe Admin Console. |
-| Berechtigungen (schreiben) – Web-Services | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API zu bearbeiten. Verwenden Sie stattdessen die Adobe Admin Console. |
 | Sicherheit | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Sicherheits-Manager&quot;. |
 | Support | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Support-Info&quot;. |
 | Web-Services | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Web-Services&quot;. |
-| Single Sign-on | Wird nicht mehr länger verwendet. Gewährt Zugriff auf den nicht mehr unterstützten Single-Sign-On-Service. |
 | Ausstehende Aktionen | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Ausstehende Aktionen&quot;. |
-| Co-Branding | Wird nicht mehr länger verwendet. Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Co-Branding&quot;. |
-| Voreinstellungen | Nicht verwendet. |
 | Ausblenden von Report Suites | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Report Suites ausblenden&quot;. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
 | Excel-Lizenzanwender | Nicht verwendet. |
 | Activity Map | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
