@@ -3,7 +3,6 @@ title: PWAs für Analytics
 description: Progressive Web-Apps für Adobe Analytics
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '277'
@@ -47,6 +46,6 @@ s.trackOffline=true
 *** 
 ```
 
-Weitere Informationen zum Konfigurieren der Datei AppMeasurement.js finden Sie unter [Übersicht über Konfigurationsvariablen](/help/implement/vars/config-vars/configuration-variables.md) und die einzelnen variablenspezifischen Seiten im selben Unterkapitel.
+Weitere Informationen zum Konfigurieren der Datei AppMeasurement.js finden Sie unter [Übersicht über Konfigurationsvariablen](/help/implement/vars/config-vars/configuration-variables.md) und den einzelnen variablenspezifischen Seiten im selben Unterkapitel.
 
-Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie unter [Übersicht über die JavaScript-Implementierung](/help/implement/js/overview.md).
+Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie in der [Übersicht über die JavaScript-Implementierung](/help/implement/js/overview.md).
