@@ -7,18 +7,18 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: c38e20a7f9a295609181cc9435489ac86cda0852
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 47%
+ht-degree: 72%
 
 ---
 
 # Attributionsbedienfeld
 
-Das Bedienfeld [!UICONTROL Attribution] ist eine einfache Möglichkeit, eine Analyse zum Vergleichen verschiedener Zuordnungsmodelle zu erstellen. Dabei handelt es sich um eine Funktion in [Attribution IQ](../attribution/overview.md), die Ihnen einen eigenen Arbeitsbereich bietet, um Attributionsmodelle zu verwenden und zu vergleichen.
+Das [!UICONTROL Attributionsbedienfeld] bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Dabei handelt es sich um eine Funktion in [Attribution IQ](../attribution/overview.md), die Ihnen einen eigenen Arbeitsbereich bietet, um Attributionsmodelle zu verwenden und zu vergleichen.
 
 ## Erstellen eines Attributionsbedienfeldes
 
 1. Klicken Sie links auf das Bedienfeldsymbol.
-1. Ziehen Sie das Bedienfeld [!UICONTROL Zuordnung] in Ihr Analysis Workspace-Projekt.
+1. Ziehen Sie das [!UICONTROL Attributionsbedienfeld] in Ihr Analysis Workspace-Projekt.
 
    ![Neues Attributionsbedienfeld](assets/Attribution_Panel_1.png)
 
@@ -35,9 +35,9 @@ Das Bedienfeld [!UICONTROL Attribution] ist eine einfache Möglichkeit, eine Ana
 ## Visualisierungen der Attribution
 
 * **Gesamtmetrik**: Die Gesamtanzahl der im Berichtszeitfenster aufgetretenen Konversionen. Hierbei handelt es sich um die Konversionen, die über die von Ihnen ausgewählte Dimension hinweg mit Attributen versehen werden.
-* **Vergleichsleiste**: Vergleicht visuell die zugeordneten Konvertierungen über die einzelnen Dimensionselemente Ihrer ausgewählten Dimension hinweg. Jede Balkenfarbe stellt ein bestimmtes Attributionsmodell dar.
-* **Zuteilungstabelle**: Zeigt dieselben Daten wie das Balkendiagramm an, das als Tabelle dargestellt wird. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Bedienfeld gefiltert. Diese Tabelle ähnelt jeder anderen Freiform-Tabelle in Workspace, sodass Sie Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen können.
-* **Überschneidungsdiagramm**: Ein Venn-Diagramm, das die drei wichtigsten Dimensionselemente und deren gemeinsame Teilnahme an einer Konversion anzeigt. Beispielsweise gibt die Größe der Blasenüberlagerung an, wie oft Konversionen auftraten, wenn ein Besucher beiden Dimensionselementen ausgesetzt war. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
-* **Leistungsdetails**: Ermöglicht den visuellen Vergleich von bis zu drei Zuordnungsmodellen mithilfe eines Streudiagramms.
-* **Trendleistung**: Zeigt standardmäßig den Trend der Konversionsleistung nach Zuordnungsmodell für die erste Dimension an, die in der angrenzenden Freiform-Tabelle aufgeführt ist. Sie können in der Freiform-Tabelle verschiedene Dimensionzeilen auswählen, um den Trend für die ausgewählten Dimensionen anzuzeigen (z. B. Gesamtumsatz für jedes Zuordnungsmodell für Social-Kampagnen und gebührenpflichtige Suche). Alternativ können Sie Zellen in den Spalten für beliebige Metrik- und Zuordnungstypkombinationen in der Freiform-Tabelle auswählen, um die Trendleistung nach Dimensionswert für die angegebenen Zuordnungsmodelle (z. B. Gesamtumsatz nach Marketing-Kanal mit Last Touch- und First Touch-Zuordnung) anzuzeigen.
-* **Fluss**: Hier können Sie sehen, mit welchen Kanälen am häufigsten interagiert wird und in welcher Reihenfolge die Journey eines Besuchers angezeigt wird.
+* **Balkendiagramm für den Vergleich der Metrik-Attribution**: Vergleicht visuell die zugeordneten Konversionen über die einzelnen Dimensionselemente der von Ihren ausgewählten Dimension hinweg. Jede Balkenfarbe stellt ein bestimmtes Attributionsmodell dar.
+* **Attributionsvergleichstabelle**: Zeigt dieselben Daten wie das Balkendiagramm in Tabellenform an. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Bedienfeld gefiltert. Diese Tabelle ähnelt anderen Freiformtabellen in Workspace. Sie können damit Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen.
+* **Überlagerungsdiagramm**: Ein Venn-Diagramm, das die drei wichtigsten Dimensionselemente zeigt und wie oft sie gemeinsam an einer Konversion beteiligt sind. Beispielsweise gibt die Größe der Blasenüberlagerung an, wie oft Konversionen auftraten, wenn ein Besucher beiden Dimensionselementen ausgesetzt war. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
+* **Leistungsdetails**: Hiermit können Sie bis zu drei Attributionsmodelle visuell mit einem Streudiagramm vergleichen.
+* **Trendleistung**: Standardmäßig zeigt den Konversionsleistungstrend nach Attributionsmodell für die erste Dimension an, die in der angrenzenden Freiformtabelle aufgeführt ist. Sie können verschiedene Dimensionszeilen in der Freiformtabelle auswählen, um den Trend für die ausgewählten Dimensionen anzuzeigen (z. B. Gesamtumsatz für jedes Attributionsmodell für Social-Media-Kampagnen und gebührenpflichtige Suche). Alternativ können Sie Zellen in den Spalten für beliebige Metrik- und Attributionstypkombinationen in der Freiformtabelle auswählen, um die Trendleistung nach Dimensionswert für die angegebenen Attributionsmodelle anzuzeigen (z. B. Gesamtumsatz nach Marketing-Kanal mit Letztkontakt- und Erstkontakt-Attribution).
+* **Fluss**: Hiermit können Sie anzeigen, mit welchen Kanälen am häufigsten interagiert wird und wie sich die Reihenfolge in der Journey eines Besuchers darstellt.
