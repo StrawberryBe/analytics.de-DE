@@ -5,11 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualisierungen
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '683'
-ht-degree: 100%
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +52,7 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Pfad am Ende </p> <p>(Standard) </p> </td> 
-   <td colname="col2"> <p>Die Besucher, die „am Ende“ auf der nächsten Seite im Pfad, aber nicht notwendigerweise beim nächsten Hit landen, werden gezählt. </p> </td> 
+   <td colname="col2"> <p>Besucher werden gezählt, die "am Ende"auf der nächsten Seite im Pfad in dieser Sitzung landen, aber nicht notwendigerweise beim nächsten Treffer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nächster Hit </p> </td> 
