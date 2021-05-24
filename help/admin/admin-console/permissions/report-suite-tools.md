@@ -1,6 +1,6 @@
 ---
 title: Produktprofil-Berechtigungen für Report Suite-Werkzeuge
-description: Machen Sie sich mit den einzelnen Berechtigungselementen unter Report Suite Tools vertraut.
+description: Machen Sie sich mit den einzelnen Berechtigungselementen unter Report Suite-Tools vertraut.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
@@ -48,7 +48,7 @@ Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report S
 | Data Feeds Manager | Gewährt Zugriff auf „Admin > Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
 | Benutzerdefinierter Data Warehouse-Bericht | Gewährt Zugriff auf „Tools > Data Warehouse“ im oberen Navigationsbereich von Analytics. |
 | Rückkehrende Besucher pro Tag | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher pro Tag“ in Reports &amp; Analytics. |
-| Data Sources Manager | Ermöglicht Zugriff auf Admin > Alle Admin > Datenquellen in der oberen Navigation von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
+| Data Sources Manager | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Sources&quot;im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
 | Nach IP-Adresse ausschließen | Gewährt Zugriff auf „Admin > Ausschluss nach IP“ im oberen Navigationsbereich von Analytics. |
 | Letzte 100 Besucher | Nicht verwendet. |
 | Veraltete ClickMap | Nicht verwendet. Verwenden Sie stattdessen „Activity Map“ unter „Analytics-Tools“. |
