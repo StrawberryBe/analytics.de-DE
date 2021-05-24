@@ -2,14 +2,14 @@
 description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 translation-type: ht
-source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # Admin Tools
 
@@ -51,5 +51,5 @@ ht-degree: 100%
 + [Übersicht über Erfolgsereignisse](c-success-events/success-event.md)
 + [Zeitstempel optional](timestamp-optional.md)
 + [Übersicht über Traffic-Variablen (Eigenschaft)](c-traffic-variables/traffic-var.md)
-+ [Festlegen der Unique Visitor-Variable](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [Festlegen der Unique-Visitor-Variable](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Videomanagement](video-management.md)
