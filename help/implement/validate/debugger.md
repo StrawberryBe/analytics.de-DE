@@ -1,8 +1,7 @@
 ---
 title: Legacy Adobe Experience Cloud-Debugger
-description: Installieren Sie den Legacy Adobe Experience Cloud-Debugger. Dieser Debugger überprüft Tags für Analytics, Zielgruppe, Advertising Cloud, Identitätsdienst und Launch.
+description: Installieren Sie den Legacy Adobe Experience Cloud-Debugger. Dieser Debugger prüft Tags für Analytics, Target, Advertising Cloud, den Identitätsdienst und Launch.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '688'
