@@ -2,14 +2,14 @@
 description: 'Informationen '
 title: Metriktyp und Attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # Metriktyp und Attribution
 
@@ -33,6 +33,7 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 >* Eine vollständige Liste der unterstützten nicht standardmäßigen Modelle und Lookback-Fenster finden Sie in der Dokumentation zu [Attribution IQ](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/attribution/models.html).
 >* Die Zuordnungsmodelle „Marketing-Kanal – Letztkontakt“ und „Marketing-Kanal – Erstkontakt“ werden in das neue „Letztkontakt“- bzw. in das „Erstkontakt“-Attributionsmodell migriert. (Hinweis: Marketing-Kanäle werden nicht veraltet sein, sondern lediglich die beiden Zuordnungsmodelle, die in berechneten Metriken erscheinen.)
 >* Darüber hinaus wird die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. Diese Änderung an berechneten Metriken wird in Analysis Workspace, Reports &amp; Analytics, die Reporting-API und Report Builder übernommen. Weitere Informationen finden Sie unter **Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018**) weiter unten.
+
 >
 
 
@@ -82,4 +83,3 @@ Nach dem 19. Juli wurde dieses Verhalten in berechneten Metriken korrigiert. St
 | PROMO B | 2,50$ | 2,50$ | 2,50$ |
 | PROMO C | 2,50$ | 2,50$ | 2,50$ |
 | Gesamt | 10,00$ | 10,00$ | 10,00$ |
-
