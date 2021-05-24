@@ -2,7 +2,6 @@
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-translation-type: tm+mt
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
 source-wordcount: '648'
@@ -102,6 +101,6 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 
 ## Ausnahme: Adobe Campaign Classic
 
-Die EINZIGE Ausnahme vom 1. August 2021 ist die Adobe Campaign Classic-Integration. Diese Integration wird am 1. März 2022 offiziell eingestellt.
+Die EINZIGE Ausnahme zum Datum vom 1. August 2021 ist die Adobe Campaign Classic-Integration. Diese Integration wird offiziell am 1. März 2022 eingestellt.
 
-Am 1. August 2021 wird Adobe Campaign Classic zusammen mit allen anderen Integrationen aus der Data Connectors-Benutzeroberfläche entfernt. Die bestehenden Kampagnen-Integrationen werden jedoch bis zum 1. März 2022 Daten sammeln und an Adobe Analytics weiterleiten. Am 1. März 2022 werden keine Daten mehr erfasst und an Adobe Analytics weitergegeben. Adobe Campaign baut auf Adobe Exchange eine neue Integration auf, um die aktuelle Data Connectors-Integration zu ersetzen. Adobe Campaign geht davon aus, dass diese neue Integration rechtzeitig abgeschlossen werden kann, damit Kunden vor dem Stichtag für die Neuinstallation im März 2022 zur neuen Integration migrieren können.
+Am 1. August 2021 wird Adobe Campaign Classic zusammen mit allen anderen Integrationen aus der Data Connectors-Benutzeroberfläche entfernt. Vorhandene Campaign-Integrationen werden jedoch bis zum 1. März 2022 weiterhin Daten erfassen und an Adobe Analytics weitergeben. Am 1. März 2022 wird die Integration die Erfassung und Weitergabe von Daten an Adobe Analytics einstellen. Adobe Campaign erstellt eine neue Integration in Adobe Exchange, die die aktuelle Data Connectors-Integration ersetzt. Adobe Campaign geht davon aus, dass diese neue Integration rechtzeitig abgeschlossen werden kann, damit Kunden vor der Einstellung im März 2022 zur neuen Integration migrieren können.
