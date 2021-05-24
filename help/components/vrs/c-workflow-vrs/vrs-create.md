@@ -2,7 +2,7 @@
 description: Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Aspekte berücksichtigen.
 keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
-feature: Grundlegendes zu Reports & Analytics
+feature: Grundlagen zu Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
@@ -51,24 +51,24 @@ Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einste
 | Zeitüberschreitung für Besuch | Definiert den Inaktivitätswert, den ein Unique Visitor aufweisen muss, bevor automatisch ein neuer Besuch beginnt. Dies hat Auswirkungen auf die Besuchsmetriken, den Besuchssegment-Container und eVars, die beim Besuch erlöschen. |
 | Neuen Besuch mit Ereignis starten | Startet eine neue Sitzung, wenn eines der spezifizierten Ereignisse ausgelöst wird, unabhängig davon, ob eine Sitzung abgelaufen ist oder nicht. |
 | **Einstellungen für Mobile App-Besuche** | Ändern Sie, wie Besuche für App-Hits definiert werden, die über Adobe Mobile SDKs erfasst werden. Diese Einstellungen sind nicht destruktiv und gelten nur in Analysis Workspace. |
-| Verhindern Sie Hintergrund-Hits durch den Beginn eines neuen Besuchs | Verhindert, dass Hintergrund-Hits einen neuen Besuch starten und die Besuchs- und Unique Visitor-Metriken erhöht werden. |
+| Verhindern Sie Hintergrund-Hits durch den Beginn eines neuen Besuchs | Verhindert, dass Hintergrund-Hits einen neuen Besuch starten und die Besuchs- und Unique-Visitor-Metriken erhöht werden. |
 | Bei jedem Anwendungsstart einen neuen Besuch starten | Startet eine neue Sitzung, wenn eine App gestartet wird. [Weitere Infos](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## Komponenten einschließen und umbenennen
 
 ![](assets/components.png)
 
-1. Aktivieren Sie auf der Registerkarte [!UICONTROL Komponenten] das Kontrollkästchen, um die Kuratierung anzuwenden, um Komponenten für diese Virtual Report Suite in Analysis Workspace einzuschließen, auszuschließen und umzubenennen.
-Weitere Informationen zur VRS-Kuration finden Sie unter [Virtuelle Report Suite-Komponentenkuration](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+1. Aktivieren Sie auf der Registerkarte [!UICONTROL Komponenten] das Kontrollkästchen, um die Kuratierung anzuwenden und Komponenten für diese Virtual Report Suite in Analysis Workspace einzuschließen, auszuschließen und umzubenennen.
+Weitere Informationen zur VRS-Kuratierung finden Sie unter [Kuratierung der Virtual Report Suite-Komponenten](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
 
-1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die VRS einbeziehen möchten, in den Abschnitt [!UICONTROL Eingeschlossene Komponenten].
+1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die VRS einbeziehen möchten, in den Abschnitt [!UICONTROL Einbezogene Komponenten] .
 
-1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
+1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Vorschau der Daten
 
-Auf der rechten Seite jeder Registerkarte können Sie die Gesamtanzahl der Treffer, Gesamtbesuche und Besucher in dieser Virtual Report Suite im Vergleich zur ursprünglichen Report Suite Vorschau haben.
+Rechts auf jeder Registerkarte können Sie die Gesamtzahl der Treffer, Besuche und Besucher dieser Virtual Report Suite im Vergleich zur ursprünglichen Report Suite in der Vorschau anzeigen.
 
-## Ansicht Produktkompatibilität
+## Produktkompatibilität anzeigen
 
-Einige Funktionen von Virtual Report Suites werden nicht von allen Adobe Analytics-Produkten unterstützt. Mit der Liste zur Produktkompatibilität können Sie anhand Ihrer aktuellen Virtual Report Suite-Einstellungen sehen, welche Produkte in Adobe Analytics unterstützt werden.
+Einige Funktionen von Virtual Report Suites werden nicht von allen Adobe Analytics-Produkten unterstützt. Anhand der Produktkompatibilitätsliste können Sie anhand Ihrer aktuellen Virtual Report Suite-Einstellungen sehen, welche Produkte in Adobe Analytics unterstützt werden.
