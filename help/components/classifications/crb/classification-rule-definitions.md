@@ -5,7 +5,6 @@ title: Klassifizierungsregeln – Definitionen
 feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '880'
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 
-## Seite „Regeln“ {#section_4A5BF384EEEE4994B6DC888339833529}
+## Seite „Regeln“  {#section_4A5BF384EEEE4994B6DC888339833529}
 
 Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
 
@@ -47,7 +46,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen konfigurieren </p> </td> 
-   <td colname="col2"> <p>Zeigt die Seite <span class="wintitle">Verfügbare Report Suites</span> an, auf der Sie verfügbare Report Suites auswählen können, die für alle Regelsätze verwendet werden sollen. (Diese Seite wird auch angezeigt, wenn Sie den <span class="wintitle">Classification Rule Builder</span> zum ersten Mal ausführen.) </p> <p>Mit dieser Funktion soll die Ladezeit für Report Suites reduziert werden, falls Hunderte Report Suites verfügbar sind. </p> <p>Die hier gewählten Report Suites werden auf Regelebene verfügbar gemacht, wenn Sie auf <span class="uicontrol">Suites hinzufügen</span> klicken, während Sie eine Regel erstellen. </p> <p>Hinweis: Eine Report Suite steht <span class="term"> nur</span>zur Verfügung, wenn in den Report Suites mindestens eine Classification für die Variable in den <span class="wintitle"> Admin Tools</span> definiert ist. <p>(Eine Erläuterung zu dieser Voraussetzung finden Sie unter <span class="term">Variable</span> unter <a href="/help/components/classifications/crb/classification-rule-set.md"  >Klassifizierungsregelsätze</a>.) </p> </p> </td> 
+   <td colname="col2"> <p>Zeigt die Seite <span class="wintitle">Verfügbare Report Suites</span> an, auf der Sie verfügbare Report Suites auswählen können, die für alle Regelsätze verwendet werden sollen. (Diese Seite wird auch angezeigt, wenn Sie den <span class="wintitle">Classification Rule Builder</span> zum ersten Mal ausführen.) </p> <p>Mit dieser Funktion soll die Ladezeit für Report Suites reduziert werden, falls Hunderte Report Suites verfügbar sind. </p> <p>Die hier gewählten Report Suites werden auf Regelebene verfügbar gemacht, wenn Sie auf <span class="uicontrol">Suites hinzufügen</span> klicken, während Sie eine Regel erstellen. </p> <p>Hinweis: Eine Report Suite steht <span class="term"> nur</span> zur Verfügung, wenn in den Report Suites mindestens eine Classification für die Variable in den <span class="wintitle"> Admin Tools</span> definiert ist. <p>(Eine Erläuterung zu dieser Voraussetzung finden Sie unter <span class="term">Variable</span> unter <a href="/help/components/classifications/crb/classification-rule-set.md"  >Klassifizierungsregelsätze</a>.) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regeln überschreiben alle vorhandenen Werte </p> </td> 
@@ -134,7 +133,7 @@ Auf der Seite [!UICONTROL Regulärer Ausdruck] können Sie reguläre Ausdrücke 
 
 Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-## Seite „Tests“ {#section_EC926F97901C4E65901413F9683AA70A}
+## Seite „Tests“  {#section_EC926F97901C4E65901413F9683AA70A}
 
 Auf dieser Seite können Sie die Regeln in einem Regelsatz testen.
 
