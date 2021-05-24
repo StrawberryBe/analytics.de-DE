@@ -82,7 +82,7 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 
 * [Dokumentation zu Adobe Analytics-Erweiterungen](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
 * [Erste Schritte mit Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte.
-* [Adobe Experience Platform Launch-YouTube-Kanal](https://experienceleague.adobe.com?tag=Launch&amp;lang=de#recommended/solutions/experience-platform): Lehrvideos zur Nutzung von Launch.
+* [Adobe Experience Platform Launch-YouTube-Kanal](https://experienceleague.adobe.com/?tag=Launch&amp;lang=de#recommended/solutions/experience-platform): Lehrvideos zur Nutzung von Launch.
 
 ## Nächste Schritte
 
