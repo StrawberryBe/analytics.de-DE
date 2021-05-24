@@ -44,13 +44,13 @@ Virtual Report Suites sind für Folgendes hilfreich:
 
 Virtual Report Suites haben die folgenden Einschränkungen:
 
-* Einschränkungen von Segmenten gelten auch für Virtual Report Suites
+* Alle Einschränkungen von Segmenten gelten auch für Virtual Report Suites
 
-   Eine Virtual Report Suite ist lediglich ein Segment, das auf eine Report Suite angewendet wird. Da jede Report Suite über eine eigene Data Warehouse und einen eigenen Data Feed verfügt, ergeben sich aus der Verwendung mehrerer Report Suites einige Vorteile, die Segmente nicht bieten.
+   Eine Virtual Report Suite ist lediglich ein Segment, das auf eine Report Suite angewendet wird. Da jede Report Suite über eine eigene Data Warehouse und einen eigenen Daten-Feed verfügt, bietet die Verwendung mehrerer Report Suites einige Vorteile, die Segmente nicht bieten.
 * Echtzeitbericht
 * Einstellungen und Variablennamen können nicht wie in einer vollständigen Report Suite angepasst werden
 
-## Virtual Report Suites im Vergleich zu Multi-Suite-Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites im Vergleich zum Multi-Suite-Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Funktion | Virtual Report Suite | Multi-Suite-Tagging |
 |--- |--- |--- |
@@ -61,7 +61,7 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
 | Kann Admin-Funktionen verwenden, um einzelne Einstellungen für diese Report Suite zu ändern (Admin > Report Suites) | Nein (Einstellungen werden von der übergeordneten Report Suite geerbt.) | Ja |
 
-## Virtual Report Suites und Multi-Suite-Tagging kombinieren {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Kombinieren von Virtual Report Suites und Multi-Suite-Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 In einigen Fällen bietet die Verwendung von Virtual Report Suites und Multi-Suite-Tagging Vorteile.
 
