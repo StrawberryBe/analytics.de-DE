@@ -5,11 +5,10 @@ title: Übersicht über Bot-Regeln
 feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +31,7 @@ Bot-Traffic-Daten werden in einem separaten Repository zur Anzeige in den Berich
 
 ## Standard-IAB-Bot-Regeln
 
-Standard-IAB-Bot-Regeln können aktiviert werden, indem Sie das Kontrollkästchen [!UICONTROL IAB Bot-Filterungsregeln aktivieren] aktivieren. Diese Auswahl entfernt Bots in der Liste „International Spiders &amp; Bots List“ von IAB (International Advertising Bureau), um Bot-Traffic zu entfernen. Adobe aktualisiert diese Liste der IAB monatlich.
+Standard-IAB-Bot-Regeln können aktiviert werden, indem Sie das Kontrollkästchen [!UICONTROL IAB Bot-Filterungsregeln aktivieren] aktivieren. Diese Auswahl entfernt Bots in der Liste „International Spiders &amp; Bots List“ von IAB (International Advertising Bureau), um Bot-Traffic zu entfernen. Adobe aktualisiert diese Liste von IAB monatlich.
 
 ![](assets/bot-iab-checkbox.png)
 
