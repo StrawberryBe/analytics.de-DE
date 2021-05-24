@@ -1,8 +1,7 @@
 ---
 title: Produktprofile für Adobe Analytics
-description: Erfahren Sie, wie Profil als Berechtigungsvorgaben verwendet werden können, die Produktadministratoren Benutzern innerhalb eines Unternehmens zuweisen können.
+description: Erfahren Sie, wie Produktprofile als Berechtigungsvorgaben verwendet werden können, die Produktadministratoren Benutzern in einer Organisation zuweisen können.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '671'
