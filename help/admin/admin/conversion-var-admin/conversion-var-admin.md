@@ -5,7 +5,6 @@ title: Konversionsvariablen (eVar)
 feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1582'
@@ -52,7 +51,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
    <td colname="col2"> <p>Der Typ des Variablenwerts: </p> <p> <b>Textzeichenfolge</b>:</span> Erfasst die auf Ihrer Site verwendeten Textwerte. Dies ist der gängigste eVar-Typ und die Standardeinstellung. Diese eVar verhält sich ähnlich wie andere Variablen, bei denen der zugrundeliegende Wert eine statische Textzeichenfolge ist. Wenn Sie beispielsweise interne Kampagnen oder interne Suchkeywords nachverfolgen, ist dies die empfohlene Einstellung. </p> <p> <b>Zähler</b>:</span> Zählt, wie oft eine Aktion stattfindet, bevor sie zum Erfolg führt. Wenn Sie z. B. eine eVar verwenden, um interne Suchvorgänge auf Ihrer Seite zu verfolgen, bewirkt die Werteinstellung auf <span class="uicontrol">Textzeichenfolge</span>, dass Suchbegriffe verfolgt werden. Stellen Sie diesen Wert auf <span class="uicontrol">Zähler</span> ein, um die Zahl der durchgeführten Suchen unabhängig von den verwendeten Suchbegriffen zu zählen. Sie können z. B. eine Zähler-eVar nutzen, um die Anzahl der Male, die jemand vor Tätigen eines Kaufs Ihre interne Suche genutzt hat, zu zählen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Zuordnung</span> </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Zuordnung </span> </p> </td> 
    <td colname="col2"> <p>Legt fest, wie in Analytics Gutschriften für ein Erfolgsereignis zugewiesen werden, wenn eine Variable mehrere Werte vor dem Ereignis erhält. Folgende Werte werden unterstützt: </p> <p> <b>Zuletzt verwendet</b>: Der letzte eVar-Wert erhält immer die Gutschrift für Erfolgsereignisse, bis diese eVar abläuft. </p> <p> <b>Ausgangswert</b>: Der erste eVar-Wert erhält immer die Gutschrift für Erfolgsereignisse, bis diese eVar abläuft. </p> <p> <b>Linear</b>: Weist Erfolgsereignisse gleichmäßig allen eVar-Werten zu. Da bei der linearen Zuweisung Werte nur innerhalb eines Besuchs genau verteilt werden, sollten Sie die lineare Zuweisung bei einem eVar-Ablauf von „Besuch“ verwenden. </p> <p>Hinweis: Beim Wechsel zu oder von linearen Werten wird unterbunden, dass historische Daten angezeigt werden. Das Mischen von Zuweisungstypen in der Berichterstellungsoberfläche kann zu falsch angegebenen Daten in Berichten führen. Bei einer linearen Zuweisung etwa könnte der Umsatz auf eine Reihe unterschiedlicher eVar-Werte aufgeschlüsselt werden. Nach dem Zurücksetzen auf die „Zuletzt“-Zuweisung würden 100 % des Umsatzes dem aktuellsten Einzelwert zugewiesen. Diese Zuweisung kann dazu führen, dass Benutzer die falschen Schlüsse ziehen. </p> <p>Um die Wahrscheinlichkeit von Missverständnissen bei der Berichterstellung zu verringern, macht Analytics die historischen Daten für die Oberfläche nicht verfügbar. Wenn Sie sich entscheiden, die gegebene eVar wieder auf die ursprüngliche Zuweisungseinstellung zurückzusetzen, können diese angesehen werden – allerdings sollten Sie die eVar-Zuweisungseinstellungen nicht ändern, bloß um auf historische Daten zugreifen zu können. Adobe empfiehlt, eine neue eVar zu nutzen, wenn neue Zuweisungseinstellungen für bereits aufgezeichnete Daten gewünscht werden, statt die Zuweisungseinstellung einer eVar zu verändern, die bereits eine erhebliche Menge historischer Daten aufgebaut hat. </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +75,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Ablauf nach einem Monat: eVar läuft 31 Tage nach diesem Montag um 7:15 Uhr ab. </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Spezifische Konversionsereignisse.</b> Alle sonstigen Konversionsereignisse, die ausgelöst werden, nachdem das spezifische Ereignis, das eVar zugeordnet ist, eintritt. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nie.</b> Solange das Cookie  <span class="varname"> visitorID</span> intakt ist, kann ein beliebiger Zeitraum zwischen eVar und Ereignis verstreichen. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nie.</b> Solange das Cookie <span class="varname"> visitorID</span> intakt ist, kann ein beliebiger Zeitraum zwischen eVar und Ereignis verstreichen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
