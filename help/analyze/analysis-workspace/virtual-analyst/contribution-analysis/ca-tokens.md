@@ -2,7 +2,7 @@
 description: Verwenden Sie die Beitragsanalyse, um statistische Anomalien und Korrelationen in Daten zu identifizieren.
 title: Übersicht über die Beitragsanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI-Tools
+feature: KI-Tools
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
@@ -50,10 +50,10 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
 | --- | --- |
 | Warum hat Adobe Token eingeführt? | Die Beitragsanalyse ist eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. |
 | Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen? | Jedes Anmeldeunternehmen (nicht jeder Benutzer) erhält eine bestimmte Anzahl an Token pro Monat, mit denen Sie eine „vollständige“ Beitragsanalyse in Analysis Workspace durchführen können.  Jedes Mal, wenn Sie eine neue Beitragsanalyse erstellen, bezahlen Sie ein Token. Das Laden von Projekten mit bereits ausgeführten Beitragsanalysen kostet kein Token. |
-| Werden für die Beitragsanalyse in Reports &amp; Analytics Token fällig? | Nein. Die Beitrags-Analyse wird ab April 2018 nicht mehr in Reports &amp; Analysen angeboten. |
+| Werden für die Beitragsanalyse in Reports &amp; Analytics Token fällig? | Nein. Die Beitragsanalyse ist ab April 2018 nicht mehr in Reports &amp; Analytics verfügbar. |
 | Was können wir tun, wenn unser Unternehmen keine Token mehr hat, wir aber weitere Beitragsanalysen durchführen möchten? | Sie können ein Upgrade auf ein anderes Adobe Analytics-Produkt durchführen, z. B. von Standard (2 Token/Monat) auf Ultimate (20 Token/Monat). Es ist nicht möglich, einfach zusätzliche Token zu kaufen. Sie müssen ein Upgrade innerhalb der bestehenden Paketstruktur durchführen. |
-| Wie kann ich den Zugriff auf die Beitragsanalyse beschränken? | Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können anderen Benutzern jedoch Zugriff gewähren, indem sie eine Berechtigungsgruppe im Ordner [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) erstellen. Erteilen Sie nur jenen Benutzern die Berechtigung zur Verwendung der Beitragsanalyse, die einen Grund zu deren Nutzung haben und den Zugriff nicht missbrauchen werden. Die Berechtigung wird unter [!UICONTROL Report Suite-Tools] als [!UICONTROL Beitrags-Analyse] bezeichnet. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben? | Gehen Sie zu [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Firma settings Home] >[!UICONTROL Ansicht Feature Access Levels]. Look under<ul><li>Beitragsanalyse: Anzahl der monatlichen Nutzungs-Token</li><li>Beitragsanalyse: Anzahl der diesen Monat verwendeten Nutzungs-Token</li></ul> |
+| Wie kann ich den Zugriff auf die Beitragsanalyse beschränken? | Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können anderen Benutzern jedoch Zugriff gewähren, indem sie eine Berechtigungsgruppe in der [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) erstellen. Erteilen Sie nur jenen Benutzern die Berechtigung zur Verwendung der Beitragsanalyse, die einen Grund zu deren Nutzung haben und den Zugriff nicht missbrauchen werden. Die Berechtigung lautet [!UICONTROL Beitragsanalyse] unter [!UICONTROL Report Suite-Tools]. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben? | Gehen Sie zu [!UICONTROL Admin] > [!UICONTROL Alle Admin] >[!UICONTROL Unternehmenseinstellungen Home] >[!UICONTROL Funktionszugriffsebenen anzeigen]. Schauen Sie unter<ul><li>Beitragsanalyse: Anzahl der monatlichen Nutzungs-Token</li><li>Beitragsanalyse: Anzahl der diesen Monat verwendeten Nutzungs-Token</li></ul> |
 
 ## Anomalieerkennung und Beitragsanalyse – Berechtigungen {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -61,7 +61,7 @@ Weiter unten finden Sie eine ausführliche Liste der Berechtigungen für die Ano
 
 >[!IMPORTANT]
 >
->Die Analyse &quot;Anomalieerkennung&quot;und &quot;Beitrag&quot;wurden aus dem Funktionssatz &quot;Reports &amp; Analysen&quot;entfernt und sind jetzt nur noch über Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation in Workspace nur Zugriff auf die Anomalieerkennung „tägliche Granularität“ haben.
+>Anomalieerkennung und Beitragsanalyse wurden aus dem Funktionsumfang von Reports &amp; Analytics entfernt und sind jetzt nur noch über Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation in Workspace nur Zugriff auf die Anomalieerkennung „tägliche Granularität“ haben.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
