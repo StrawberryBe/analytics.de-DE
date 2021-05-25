@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
+source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 97%
+source-wordcount: '278'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
       + [Datenspaltenreferenz](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Seitenereignissuche](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Suche nach mobilen Attributen](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [Suche von Merchandising-eVar in post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [Merchandising-eVar-Suche](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Sonderzeichen](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Häufig gestellte Fragen zu Daten-Feeds](analytics-data-feed/df-faq.md)
