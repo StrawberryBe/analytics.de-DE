@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -23,10 +22,11 @@ ht-degree: 100%
    + [Verwalten von Daten-Feed-Aufträgen](analytics-data-feed/df-manage-jobs.md)
    + Daten-Feed-Inhalte {#data-feed-contents}
       + [Daten-Feed-Inhalte – Übersicht](analytics-data-feed/c-df-contents/datafeeds-contents.md)
-      + [Berechnete Metriken](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
+      + [Metriken berechnen](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Datenspaltenreferenz](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Seitenereignissuche](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Suche nach mobilen Attributen](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Suche von Merchandising-eVar in post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Sonderzeichen](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Häufig gestellte Fragen zu Daten-Feeds](analytics-data-feed/df-faq.md)
@@ -43,15 +43,15 @@ ht-degree: 100%
    + [Verwalten von Data Warehouse-Anforderungen](data-warehouse/data-warehouse-requests-manage.md)
    + [In Data Warehouse unterstützte Komponenten](data-warehouse/component-support.md)
    + [Häufig gestellte Fragen zu Data Warehouse](data-warehouse/faq.md)
-   + [Best Practice für Data Warehouse](data-warehouse/data-warehouse-bp.md)
+   + [Best Practices für Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP und SFTP {#ftp-and-sftp}
    + [FTP und SFTP mit der Adobe Experience Cloud verwenden](ftp-and-sftp/ftp-overview.md)
    + Von Adobe gehostete FTP-Konten einrichten {#set-up-ftp-accounts}
       + [FTP-Konten einrichten – Übersicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
-      + [Klassifizierungen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
+      + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
-      + [Data Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
+      + [Daten-Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Von Data Warehouse bereitgestellte Berichte](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Von Report Builder bereitgestellte Berichte](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Engineering Services-Interaktionen mit FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
