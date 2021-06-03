@@ -2,10 +2,10 @@
 title: websiteBot
 description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c4b44b573732e7bcdafdac539dec8ee7b680aa92
+source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 73%
+source-wordcount: '427'
+ht-degree: 52%
 
 ---
 
@@ -19,16 +19,19 @@ Mit dem `websiteBot`-Plug-in können Sie dynamisch identifizieren, ob Desktop-Be
 
 Dieses Plug-in führt zwei Prüfungen durch:
 
-* Zunächst wird anhand der Variablen `navigator.UserAgent` ermittelt, ob es sich bei dem Gerät um ein Desktop-Gerät oder ein Smartphone oder Tablet handelt. Smartphones und Tablets werden ignoriert.
-* Wenn es sich um ein Desktop-Gerät handelt, wird ein Ereignis-Listener für Mausbewegungen hinzugefügt.
+* Zunächst wird bei einem Desktop-Gerät ein Ereignis-Listener für die Mausbewegung hinzugefügt.
+* Als Nächstes bestimmt es mithilfe der `navigator.UserAgent` -Variablen, ob das Gerät ein Desktop- oder Mobilgerät ist. Smartphones und Tablets werden ignoriert.
 
-Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, legt das Plug-in die Variable `websiteBot` auf `true` fest. Wenn der Benutzeragent ein Smartphone oder Tablet ist oder eine Mausbewegung erkannt wird, legt das Plug-in die Variable `websiteBot` auf `false` fest.
+Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, kann das Plug-in
+
+* Führen Sie entweder einen [!UICONTROL Direktaufruf]-Regelaufruf (für Adobe Experience Platform Launch) durch oder
+* Führen Sie einen `s.tl`-Aufruf aus, um anzugeben, dass der Besucher kein Bot ist.
 
 ## Voraussetzungen
 
 Adobe empfiehlt vor der Verwendung dieses Plug-ins Folgendes:
 
-* **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Setzen Sie die Gültigkeit auf **Nie** und die Zuordnung auf **&quot;Ausgangswert (Erster)&quot;**.
+* **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Setzen Sie die Gültigkeit auf **Nie** und die Zuordnung auf **&quot;Ausgangswert (Erster)&quot;**. Diese eVar sollte in beiden Fällen festgelegt werden: wenn entweder die Regel [!UICONTROL Direktaufruf] oder der Aufruf `s.tl` ausgelöst wird.
 * **Benutzeragent in einer separaten Variablen** erfassen: Erfassen Sie die Benutzeragenten-Zeichenfolge in einer separaten Variablen, um die Wirksamkeit dieses Plug-ins zu überwachen. Legen Sie bei jedem Treffer eine eVar auf `navigator.UserAgent` fest, um diese Daten zu erfassen.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
