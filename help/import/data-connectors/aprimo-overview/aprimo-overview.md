@@ -2,20 +2,19 @@
 description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Adobe Analytics® mit E-Mail-Marketing, um ein leistungsfähiges Tool zu schaffen, um die Erfolgsmessung neu zu definieren und Zielgruppen mit relevanterem Messaging anzusprechen.
 title: Aprimo-Data Connector für Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: cd5191c9-68fb-42ad-98f6-23d5a72878da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 98%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
-
 
 # Aprimo-Data Connector für Adobe Analytics {#aprimo-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Am 1. August 2021 werden wir die Adobe Data Connector-Technologie beenden. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
+>Am 1. August 2021 wird die Adobe Data Connector-Technologie eingestellt. [Weitere Informationen...](/help/import/data-connectors/data-connectors-eol.md)
 
 Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Adobe Analytics® mit E-Mail-Marketing, um ein leistungsfähiges Tool zu schaffen, um die Erfolgsmessung neu zu definieren und Zielgruppen mit relevanterem Messaging anzusprechen.
 
@@ -54,7 +53,7 @@ Bevor Sie die Data Connectors-Integration für starten, sollten Sie die folgende
 * **Externes Tracking**: Zum Gewährleisten einer erfolgreichen Integration sollten Sie die Best Practice zur Aktivierung des externen Trackings für jede gesendete E-Mail-Kampagne befolgen. Weitere Informationen finden Sie unten im Abschnitt [!DNL ~Partner~].
 * **Datenschutz-Compliance**: Sie sollten sich darüber im Klaren sein, dass durch die Aktivierung des Empfänger- oder Besucher-ID-Trackings diese Funktion persönliche Informationen Ihrer Site-Besucher verfolgen kann. Dies wirkt sich auf den Datenschutz aus, sodass Ihre Organisation entsprechende Verfahren implementieren muss, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher.
 
-## Preise {#pricing}
+## Preise{#pricing}
 
  Achten Sie darauf, dass Ihrer Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe entstehen.
 
@@ -72,4 +71,4 @@ Diese Integration kann mit wiederkehrenden und Implementierungsgebühren verbund
 
 Für diese Integration sind Adobe Analytics-Variablen zur Verfolgung von Metriken erforderlich.
 
-Nachdem Sie die Ereignisse und eVars identifiziert haben, die in dieser Integration verwendet werden sollen, müssen sie in der Adobe Analytics Admin Console aktiviert werden (Anweisungen hierzu finden Sie unter [Report Suites](https://docs.adobe.com/content/help/de-DE/analytics/admin/manage-report-suites/report-suites-admin.html)).
+Nachdem Sie die Ereignisse und eVars identifiziert haben, die in dieser Integration verwendet werden sollen, müssen sie in der Adobe Analytics Admin Console aktiviert werden (Anweisungen hierzu finden Sie unter [Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)).
