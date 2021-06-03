@@ -2,17 +2,16 @@
 title: Implementierungs-Modal
 description: Setzen Sie mit den Erfahrungen von Erstkonsumenten Adobe Analytics-Implementierungen um.
 exl-id: 46d35adf-33f3-422c-abda-5f4b56f803aa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '30'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 75%
 
 ---
 
 # Implementierungs-Modal
 
-Weitere Informationen finden Sie unter [Erstellen einer Report Suite](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-console/create-report-suite.html).
+Weitere Informationen finden Sie unter [Erstellen einer Report Suite](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/create-report-suite.html).
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
