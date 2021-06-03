@@ -2,11 +2,10 @@
 description: Tracking bestimmt, wie Suchmaschinendaten von Ihrer Adobe Analytics-Implementierung verfolgt werden. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß mit den Suchmaschinendaten zu ergänzen.
 title: 'Tracking: Manueller Modus und Auto-Modus'
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +28,7 @@ Beachten Sie, dass Sie für die folgenden Aktionen verantwortlich sind, wenn Sie
 
 >[!IMPORTANT]
 >
->Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/csp.html) hinzufügen sollten.
+>Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html) hinzufügen sollten.
 
 ## Tracking im Manuellen Modus {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
