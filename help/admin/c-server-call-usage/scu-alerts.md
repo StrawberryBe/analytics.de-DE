@@ -2,11 +2,10 @@
 description: Fügen Sie Warnhinweise zur Nutzung von Server-Aufrufen hinzu oder verwalten Sie diese. Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites und Anmeldeunternehmen eines Abrechnungsunternehmens.
 title: Warnhinweise zur Nutzung von Server-Aufrufen
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites 
 
 ## Überblick
 
-Eine neue Warnhinweiskategorie namens **[!UICONTROL Warnhinweise zur Nutzung von Server-Aufrufen]** ist Teil der bestehenden Benutzeroberfläche [Warnhinweisverwaltung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Eine neue Warnhinweiskategorie namens **[!UICONTROL Warnhinweise zur Nutzung von Server-Aufrufen]** ist Teil der bestehenden Benutzeroberfläche [Warnhinweisverwaltung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 Diese Kategorie enthält **standardmäßig einen Warnhinweis**, der innerhalb jedes Anmeldeunternehmens auftaucht, das Zugriff auf die Funktion „Nutzung der Server-Aufrufe“ hat. Dieser Warnhinweis löst eine Benachrichtigung an alle Administratoren des Anmeldeunternehmen aus, wenn eines der folgenden Kriterien erfüllt ist:
 
