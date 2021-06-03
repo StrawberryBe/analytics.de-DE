@@ -3,14 +3,13 @@ description: Report Builder 5.2 unterstützt vereinheitlichte berechnete Adobe A
 title: Berechnete Metriken
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 99%
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
-
 
 # Berechnete Metriken
 
@@ -20,7 +19,7 @@ Report Builder 5.2 unterstützt vereinheitlichte berechnete Adobe Analytics-Metr
 >
 >Vorhandene Arbeitsmappen können auf Anforderungen mit alten Metrik-IDs verweisen. Wenn Sie Report Builder 5.2 verwenden, werden diese alten Metrik-IDs in die neue globale ID konvertiert. Wenn Sie diese Arbeitsmappe für einen Benutzer von Report Builder v5.1 oder älter freigeben, kann dieser Benutzer die berechneten Metriken nicht anzeigen.
 
-Weitere Informationen zum Erstellen und Verwalten von berechneten Metriken mit dem neuen Generator und Manager für berechnete Metriken finden Sie im Handbuch [Berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html).
+Weitere Informationen zum Erstellen und Verwalten von berechneten Metriken mit dem neuen Generator und Manager für berechnete Metriken finden Sie im Handbuch [Berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html).
 
 In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filtern und anwenden.
 
@@ -49,4 +48,3 @@ Folgende Filter stehen zur Verfügung:
 Wenn Sie die Filter ausgewählt haben, klicken Sie auf **[!UICONTROL Übernehmen]**, um sie auf Ihre Anforderung anzuwenden. Die ausgewählten Metriken werden zum Berichtslayout hinzugefügt.
 
 ![](assets/filtering_for_metric.png)
-
