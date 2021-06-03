@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 95%
+source-wordcount: '403'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Das Activity Map-Modul ist Bestandteil der Datei AppMeasurement.js (befindet sic
 
 Activity Map-Daten können erst erfasst werden, nachdem AppMeasurement auf diese Version (oder höher) aktualisiert wurde.
 
-1. Laden Sie den neuesten AppMeasurement-Code (AppMeasurement_Javascript-1.6.zip) herunter, indem Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code-Manager]** navigieren und [implementieren.](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html)
+1. Laden Sie den neuesten AppMeasurement-Code (AppMeasurement_Javascript-1.6.zip) herunter, indem Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code-Manager]** navigieren und [implementieren.](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=de)
 
    Der verfügbare [Beispiel-Implementierungscode](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) veranschaulicht die Änderungen, die am Code durch Einbindung des Activity Map-Moduls vorgenommen wurden.
 
@@ -54,7 +54,7 @@ Zunächst müssen Sie Activity Map-Berichte auf einer Report Suite-Ebene aktivie
 
    Dies bringt Sie zur Gruppenverwaltungsseite in der Admin Console.
 
-1. [Fügen Sie Benutzer dieser Gruppe hinzu](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) und klicken Sie auf **[!UICONTROL Gruppe speichern]**.
+1. [Fügen Sie Benutzer dieser Gruppe hinzu](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) und klicken Sie auf **[!UICONTROL Gruppe speichern]**.
 
 1. Dadurch können Ihre Admin-Benutzer Activity Map über **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Werkzeuge]** > **[!UICONTROL Activity Map]** herunterladen.
 
