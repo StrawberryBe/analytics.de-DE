@@ -3,14 +3,13 @@ description: Sie müssen diese Anforderungen bezüglich Experience Cloud-Lösung
 solution: Audience Manager
 title: Anforderungen an die serverseitige Weiterleitung
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '315'
+ht-degree: 93%
 
 ---
-
 
 # Anforderungen an die serverseitige Weiterleitung
 
@@ -18,11 +17,11 @@ Sie müssen diese Anforderungen bezüglich Experience Cloud-Lösung, -Service un
 
 ## Lösungsanforderungen
 
-Die serverseitige Weiterleitung funktioniert mit [Analytics](https://www.adobe.com/de/data-analytics-cloud/analytics.html) und [Audience Manager](https://www.adobe.com/de/analytics/audience-manager.html) und/oder [Zielgruppen](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/audience-library.html).
+Die serverseitige Weiterleitung funktioniert mit [Analytics](https://www.adobe.com/de/data-analytics-cloud/analytics.html) und [Audience Manager](https://www.adobe.com/de/analytics/audience-manager.html) und/oder [Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
 ## Dienstanforderungen
 
-Die serverseitige Weiterleitung erfordert den [Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html). Identity Service bietet eine universelle ID zum Identifizieren der Site-Besucher über alle Experience Cloud-Lösungen hinweg. Sie müssen den ID-Dienst implementieren, bevor die serverseitige Weiterleitung funktioniert.
+Die serverseitige Weiterleitung erfordert den [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Identity Service bietet eine universelle ID zum Identifizieren der Site-Besucher über alle Experience Cloud-Lösungen hinweg. Sie müssen den ID-Dienst implementieren, bevor die serverseitige Weiterleitung funktioniert.
 
 ## Codeversionen
 
@@ -36,5 +35,5 @@ Für die serverseitige Weiterleitung ist Version 1.5 (oder höher) der nachstehe
 
 Jedes Tool, das die von einem Browser ausgelösten HTTP-Anfragen überwacht. kann die Versionsnummer für den AppMeasurement und Visitor API-Code anzeigen. `AppMeasurement_Module_AudienceManagement.js` enthält keine Versions-ID und gibt keine Versions-ID zurück. In den folgenden Beispielen wird veranschaulicht, wie die Versions-IDs für `AppMeasurement.js`- und `VisitorAPI.js`-Code aussehen.
 
-* `AppMeasurement.js`: Der [Adobe Debugger](https://docs.adobe.com/content/help/de-DE/analytics/implementation/validate/debugger.html) gibt die AppMeasurement-Version wie folgt zurück: `Version of Code | JS-1.5.1`. In anderen Tools wird möglicherweise eine andere Kennzeichnung verwendet, der Wert folgt jedoch immer dem Muster `JS-X.X.X`, wobei `X` einer Versionsnummer entspricht.
+* `AppMeasurement.js`: Der [Adobe Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html) gibt die AppMeasurement-Version wie folgt zurück: `Version of Code | JS-1.5.1`. In anderen Tools wird möglicherweise eine andere Kennzeichnung verwendet, der Wert folgt jedoch immer dem Muster `JS-X.X.X`, wobei `X` einer Versionsnummer entspricht.
 * `VisitorAPI.js`: Suchen Sie nach dem Parameter `d_visid_ver`. Er gibt den Besucher-ID-Dienst wie folgt an: `d_visid_ver: 1.5.5`. Besucher-API-Code, der älter als Version 1.5.2 ist, enthält keine Versionsnummer. Sie verwenden wahrscheinlich eine ältere Codebibliothek (und müssen ein Upgrade durchführen), wenn die Überwachungsergebnisse keine Versionsnummer zurückgeben.
