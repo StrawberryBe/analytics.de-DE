@@ -2,11 +2,10 @@
 title: Zuordnen von Datenschichtobjekten zu Datenelementen
 description: Konfigurieren Sie Launch, um aus Ihrer Datenschicht zu lesen.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +19,7 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
 
 ## Verwenden von Adobe Experience Platform Launch zum Erstellen von Datenelementen
 
-[Datenelemente](https://docs.adobe.com/content/help/de-DE/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) sind Komponenten in Launch, die Sie im gesamten Tool verwenden können. Sie können mithilfe von Datenelementen Variablenwerte in der Adobe Analytics-Erweiterung zuweisen.
+[Datenelemente](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) sind Komponenten in Launch, die Sie im gesamten Tool verwenden können. Sie können mithilfe von Datenelementen Variablenwerte in der Adobe Analytics-Erweiterung zuweisen.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die gewünschte Launch-Eigenschaft.
