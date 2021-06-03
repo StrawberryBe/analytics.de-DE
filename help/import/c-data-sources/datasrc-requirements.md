@@ -5,11 +5,10 @@ title: Anforderungen und Upload-Beschränkungen
 topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 
 * Jedes FTP-Konto kann maximal Daten in Höhe von 50 MB umfassen. Die Verarbeitung wird angehalten, wenn die Datenmenge 50 MB übersteigt, und wird erst fortgesetzt, wenn die Gesamtmenge unter 50 MB liegt.
 
-## Daten   {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## Daten  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * Sie können an jedem Kalendertag Daten für 90 individuelle Daten hochladen. Wenn Sie diesen Grenzwert überschreiten, schlägt der Upload fehl und Sie erhalten eine Fehlermeldung, die darauf hinweist, dass Sie das Maximum für eindeutige Tage überschritten haben.
 * Nur Daten aktuellen Datums oder vergangener Daten können importiert werden. Versuchen Sie nicht, zukünftige Daten in Ihren Data Sources-Daten zu verwenden.
@@ -60,7 +59,7 @@ Data Sources unterstützt Multibyte-Codierung. Data Sources versucht, das Format
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Unterstützt. Für die mit Data Sources verwendete Report Suite muss die Unterstützung für Multibyte-Zeichen aktiviert werden. </p> <p>Siehe <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Neue Report Suite</a> in der Hilfe. </p> </td> 
+   <td colname="col2"> <p>Unterstützt. Für die mit Data Sources verwendete Report Suite muss die Unterstützung für Multibyte-Zeichen aktiviert werden. </p> <p>Siehe <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Neue Report Suite</a> in der Hilfe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 mit Byte Order Mark (EF BB BF) </td> 
@@ -90,12 +89,12 @@ Wenn Sie eine UTF-8- oder ISO-8859-1-Datei einreichen und Ihre Bericht-Suite die
 * Wenn der Fehler während der Konversion erkannt wird, erhalten Sie eine Meldung wie die folgende: „Fehlerhaftes Zeichen in Datei an Position 18 beim Konvertieren von UTF-8 nach ISO-8859-1“.
 * Die Datei wird ohne Fehler verarbeitet, aber es werden unleserliche Daten im Bericht ausgegeben.
 
-## Hochladen von Webprotokolldateien   {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Hochladen von Webprotokolldateien  {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Die nützlichsten Berichte zum Anzeigen von Webprotokolldaten sind Traffic-Berichte wie Seitenansichten.
 * Seitennamen werden als gesamte URL angezeigt, darunter auch die Abfragezeichenfolge.
 * Jede Dateianforderung wird als eigenständige Seitenansicht angezeigt, darunter Style Sheets und Grafikdateien.
-* Wenn Sie Informationen an die URL anhängen, können Dateien als eigenständige Seiten aufgezeichnet werden. Adobe zeichnet beispielsweise die folgenden URLs als zwei separate Seiten auf:
+* Wenn Sie Informationen an die URL anhängen, können Dateien als eigenständige Seiten aufgezeichnet werden. Beispielsweise zeichnet Adobe die folgenden URLs als zwei separate Seiten auf:
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
