@@ -3,11 +3,10 @@ description: Data Sources unterstützt die folgenden Variablen bei der Verarbeit
 title: Vollständige Verarbeitung
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 96%
+source-wordcount: '719'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Adobe plant, Datenquellen mit vollständiger Verarbeitung am 31. Juli 2021 zu veraltet. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Adobe plant, die volle Verarbeitung von Datenquellen am 31. Juli 2021 einzustellen. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 
@@ -48,7 +47,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>Kanal </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>Kanal-Zeichenfolge (z. B. Sportabteilung). </p> </td> 
   </tr> 
   <tr> 
@@ -68,8 +67,8 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>Ereignisse </p> </td> 
-   <td colname="col3"> <p>Ereigniszeichenfolge, mit derselben Syntax für die Variable <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> formatiert. </p> <p>Beispiel: </p> 
+   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col3"> <p>Ereigniszeichenfolge, mit derselben Syntax für die Variable <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> formatiert. </p> <p>Beispiel: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -117,7 +116,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Liste des Produkts (z. B. <code> "Sports;Ball;1;5.95"</code>). Kann maximal 4096 Byte pro Zeile enthalten.</p> </td> 
+   <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95"</code>). Kann einen Höchstwert von 4096 Byte pro Zeile enthalten.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
@@ -172,7 +171,7 @@ Die folgende Tabelle enthält Traffic-Variablen, die automatisch ausgefüllt wer
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. </p> <p>Eine vollständige Liste finden Sie im Whitepaper <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Multi-Byte Character Sets</a> (Internationalisierung). </p> </td> 
+   <td colname="col2"> <p>Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. </p> <p>Eine vollständige Liste finden Sie im Whitepaper <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Multi-Byte Character Sets</a> (Internationalisierung). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
