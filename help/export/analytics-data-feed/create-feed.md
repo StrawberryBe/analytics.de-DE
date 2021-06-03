@@ -2,10 +2,10 @@
 title: Erstellen oder Bearbeiten eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen oder bearbeiten.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 91%
+source-wordcount: '948'
+ht-degree: 82%
 
 ---
 
@@ -43,9 +43,19 @@ SFTP-Unterstützung für Daten-Feeds ist verfügbar. Erfordert einen SFTP-Host u
 
 ### S3
 
-Sie können Feeds direkt an Amazon S3-Behälter senden. Erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
+Sie können Feeds direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert einen Bucket-Namen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
 
 ![S3-Info](assets/dest-s3.jpg)
+
+Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+   >[!NOTE]
+   >
+   >[!DNL Analytics] fügt für jeden Upload in einen Amazon S3-Bucket den Bucket-Eigentümer zur BucketOwnerFullControl-ACL hinzu, unabhängig davon, ob der Bucket eine Richtlinie enthält, die dies erfordert. Weitere Informationen finden Sie unter &quot;[Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Datenfeeds?](df-faq.md#BucketOwnerFullControl)&quot;
 
 Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
 
