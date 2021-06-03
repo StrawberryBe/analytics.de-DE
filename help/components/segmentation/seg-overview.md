@@ -4,10 +4,10 @@ title: Info über Segmente und Container
 feature: Segmentierung
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '3700'
-ht-degree: 100%
+source-wordcount: '3698'
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Da
 
 ## Anleitungsvideo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-In diesem Video erhalten Sie einen kurzen Überblick über Segment-Container und ihre Verwendung: [Segment-Container in Adobe Analytics](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+In diesem Video erhalten Sie einen kurzen Überblick über Segment-Container und ihre Verwendung: [Segment-Container in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Info zu Containern {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
