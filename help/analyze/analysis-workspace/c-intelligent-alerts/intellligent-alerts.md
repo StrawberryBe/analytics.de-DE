@@ -5,11 +5,10 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 feature: KI-Tools
 role: Business Practitioner, Administrator
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Intelligente Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem.
 
-Hier finden Sie ein Video-Tutorial zu [intelligenten Warnhinweisen](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Hier finden Sie ein Video-Tutorial zu [intelligenten Warnhinweisen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Überblick
 
