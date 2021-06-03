@@ -3,11 +3,10 @@ description: Das neue System für intelligente Warnhinweise erlaubt eine feiner 
 title: Intelligente Warnhinweise
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ Die neuen Funktionen „Warnhinweiserstellung“ und „Warnhinweis-Manager“ e
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken.
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
 
-Das neue Warnhinweissystem enthält die folgenden Komponenten: Warnhinweiserstellung, Alert-Manager, Warnhinweisvorschau und einen besseren kontextbezogenen Zugriff für das Erstellen von Warnhinweisen. Die Benutzeroberfläche für das alte Warnhinweissystem wird nicht mehr zur Verfügung stehen, die Warnhinweise werden jedoch migriert. Einige alte Warnhinweisfunktionen [werden nicht mehr zur Verfügung stehen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/alerts.html).
+Das neue Warnhinweissystem enthält die folgenden Komponenten: Warnhinweiserstellung, Alert-Manager, Warnhinweisvorschau und einen besseren kontextbezogenen Zugriff für das Erstellen von Warnhinweisen. Die Benutzeroberfläche für das alte Warnhinweissystem wird nicht mehr zur Verfügung stehen, die Warnhinweise werden jedoch migriert. Einige alte Warnhinweisfunktionen [werden nicht mehr zur Verfügung stehen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
 Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
@@ -76,7 +75,7 @@ Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Be
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Frage: Kann ich eine Tabelle der „erwarteten Werte“, die die gepunktete Linie ausmachen, oder eine andere Art von Darstellung dieser Werte erhalten? </b> </p> </td> 
-   <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Anomalieerkennung in Report Builder</a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein fester 30-tägiger Schulungzeitraum verwendet, festes 95-%-Intervall. </p> </td> 
+   <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Anomalieerkennung in Report Builder</a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein fester 30-tägiger Schulungzeitraum verwendet, festes 95-%-Intervall. </p> </td> 
   </tr> 
  </tbody> 
 </table>
