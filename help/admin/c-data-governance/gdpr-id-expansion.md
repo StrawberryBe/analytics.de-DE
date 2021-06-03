@@ -3,11 +3,10 @@ description: 'Die IDs, die Sie einsenden, decken nicht immer alle Hit-Daten ab, 
 title: ID-Erweiterung
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1354'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1350'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +30,7 @@ Unter [JSON-Beispielanfrage](/help/admin/c-data-governance/gdpr-submit-access-de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie-ID-Erweiterung </p> </td> 
-   <td colname="col2"> <p>Viele Analytics-Kunden haben ursprünglich das (Legacy) <a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-privacy.html">Analytics-Cookie</a> verwendet, verwenden nun jedoch die <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/home.html">Identity Service (ECID)</a>, die früher als Marketing Cloud ID (MCID) bezeichnet wurde. Für Benutzer, die die Website erst nach der Umstellung zum ersten Mal besucht haben, ist nur eine ECID vorhanden. Bei Benutzern, die die Site schon zu Zeiten des Legacy-Cookies und auch nach der Umstellung besucht haben, werden zwar einige ihrer Daten in beiden Cookies gespeichert, ältere Daten verfügen jedoch nur über ein Analytics-Cookie und die neuesten in seltenen Fällen nur über eine ECID. </p> <p>Sie sollten sicherstellen, dass Sie sämtliche Daten von Besuchern finden, die über ein Analytics-Cookie (Besucher-ID) oder eine ECID identifiziert werden. Wenn Sie also derzeit die ECID verwenden und zuvor das Analytics-Cookie verwendet haben, sollten Sie, wenn Sie eine Anfrage mit einer der beiden Arten von IDs senden, beide IDs in die Anfrage aufnehmen oder die Option „expandIDs“ angeben. Wenn Sie „expandIDs“ angeben, sucht Adobe nach anderen ECIDs oder Analytics-Cookies, die mit den von Ihnen angegebenen Cookie-IDs übereinstimmen. Die Anfrage wird automatisch erweitert, um diese neu gefundenen Cookie-IDs hinzuzufügen. </p> </td> 
+   <td colname="col2"> <p>Viele Analytics-Kunden haben ursprünglich das (Legacy) <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html">Analytics-Cookie</a> verwendet, verwenden nun jedoch die <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html">Identity Service (ECID)</a>, die früher als Marketing Cloud ID (MCID) bezeichnet wurde. Für Benutzer, die die Website erst nach der Umstellung zum ersten Mal besucht haben, ist nur eine ECID vorhanden. Bei Benutzern, die die Site schon zu Zeiten des Legacy-Cookies und auch nach der Umstellung besucht haben, werden zwar einige ihrer Daten in beiden Cookies gespeichert, ältere Daten verfügen jedoch nur über ein Analytics-Cookie und die neuesten in seltenen Fällen nur über eine ECID. </p> <p>Sie sollten sicherstellen, dass Sie sämtliche Daten von Besuchern finden, die über ein Analytics-Cookie (Besucher-ID) oder eine ECID identifiziert werden. Wenn Sie also derzeit die ECID verwenden und zuvor das Analytics-Cookie verwendet haben, sollten Sie, wenn Sie eine Anfrage mit einer der beiden Arten von IDs senden, beide IDs in die Anfrage aufnehmen oder die Option „expandIDs“ angeben. Wenn Sie „expandIDs“ angeben, sucht Adobe nach anderen ECIDs oder Analytics-Cookies, die mit den von Ihnen angegebenen Cookie-IDs übereinstimmen. Die Anfrage wird automatisch erweitert, um diese neu gefundenen Cookie-IDs hinzuzufügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cookie-ID-Erweiterung über benutzerspezifische ID </p> </td> 
@@ -42,7 +41,7 @@ Unter [JSON-Beispielanfrage](/help/admin/c-data-governance/gdpr-submit-access-de
 
 In den ersten Monaten nach dem Inkrafttreten des Datenschutzes hat die überwiegende Mehrheit der Analytics-Datenschutzanfragen keine ID-Erweiterung beantragt, doch die Bestimmung des geeigneten Werts für Ihr Unternehmen liegt bei Ihnen. Sie sollten sich mit Ihrer Rechtsabteilung darüber beraten, ob eine Erweiterung der ID für Ihre Daten mit den von Ihnen verwendeten IDs und die von Ihnen in Adobe Analytics erfassten Daten erforderlich ist. Eine wichtige Überlegung sollte sein, dass auf einem gemeinsam genutzten Gerät, von dem aus mehrere Benutzer Ihre Website besucht haben, die Verwendung der ID-Erweiterung Daten von Treffern anderer Benutzer des Geräts in Daten beinhaltet, die von Zugriffsanfragen (in der Gerätedatei) zurückgegeben werden. Selbst wenn Sie bei der Beschriftung Best Practices befolgt haben, sodass keine privaten Daten (z. B. zu besuchten Seiten) in der Gerätedatei enthalten sind, enthält die Gerätedatei die Anzahl der besuchten Seiten und die Zeitpunkte der einzelnen Besuche. Ist es in Ordnung, wenn Sie diese Informationen an jemanden weitergeben, der möglicherweise nicht der Besucher war?
 
-Wenn Sie für eine Löschanfrage, bei der keine ID-Erweiterung verwendet wird, eine Nicht-Cookie-ID (eine andere ID als die ECID oder das Analytics-Cookie) verwenden, um zu löschende Treffer zu identifizieren, und diese ID eine „ID-DEVICE“-Beschriftung hat, ändern sich die Werte für Unique Visitors in Berichten, da nur einige Instanzen der Cookie-IDs anonymisiert werden, während andere unverändert bleiben. Wenn Sie keine ID-Erweiterung angeben, sollten Sie entweder eine Cookie-ID für Anfragen verwenden oder IDs mit einer „ID-PERSON“-Beschriftung verwenden.
+Wenn Sie für eine Löschanfrage, bei der keine ID-Erweiterung verwendet wird, eine Nicht-Cookie-ID (eine andere ID als die ECID oder das Analytics-Cookie) verwenden, um zu löschende Treffer zu identifizieren, und diese ID eine „ID-DEVICE“-Beschriftung hat, ändern sich die Zahlen der Unique Visitors in Berichten, da nur einige Instanzen der Cookie-IDs anonymisiert werden, während andere unverändert bleiben. Wenn Sie keine ID-Erweiterung angeben, sollten Sie entweder eine Cookie-ID für Anfragen verwenden oder IDs mit einer „ID-PERSON“-Beschriftung verwenden.
 
 Wenn Adobe eine ID-Erweiterung durchführt, kann ein zusätzlicher vollständiger Datenscan erforderlich sein, was die Zeit, die Adobe benötigt, um die Anfrage abzuschließen, erhöht, wodurch die Verarbeitungszeit oft um eine Woche verlängert wird.
 
