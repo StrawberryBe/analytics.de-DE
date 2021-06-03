@@ -3,11 +3,10 @@ description: Finden und Beheben von Problemen in Advertising Analytics.
 title: Problembehebung in Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 * [Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt.](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung.](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
-## Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt. {#section_9CAACDE6445C492DBAE542BA74DE6316}
+## Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt.  {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
 Sie versuchen, [ein neues Werbekonto einzurichten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) und Ihre Report Suite wird nicht in der Dropdown-Liste **[!UICONTROL Report Suite auswählen]** angezeigt. Hierfür gibt es zwei mögliche Gründe:
 
@@ -30,7 +29,7 @@ Sie versuchen, [ein neues Werbekonto einzurichten](/help/integrate/c-advertising
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Die Report Suite ist nicht der Experience Cloud-Organisations-ID des angemeldeten Benutzers zugeordnet. </p> </td> 
-   <td colname="col2"> <p>Entsprechende Schritte finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html"  >Report Suites einer Organisation zuordnen</a>. </p> </td> 
+   <td colname="col2"> <p>Entsprechende Schritte finden Sie unter <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >Report Suites einer Organisation zuordnen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Die Report Suite wurde nicht für Advertising Analytics-Reporting bereitgestellt. </p> </td> 
@@ -39,7 +38,7 @@ Sie versuchen, [ein neues Werbekonto einzurichten](/help/integrate/c-advertising
  </tbody> 
 </table>
 
-## Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung. {#section_C99EA9A1946E4908B36778A331142B84}
+## Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung.  {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
