@@ -2,11 +2,10 @@
 title: Manuelles Zuordnen von XDM-Daten zu Analytics
 description: Manuelles Zuordnen von XDM-Daten von Experience Platform zu Adobe Analytics
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 84%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 100%
 
 Das Adobe Experience Platform (AEP) Web SDK enthält Hilfen zur manuellen Zuordnung von Daten zwischen Platform und Analytics.
 
-Für XDM-Daten, die nicht automatisch Analytics zugeordnet werden, können Sie [Kontextdaten](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/contextdata.html) hinzufügen, um Ihrem [Schema](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/schema/composition.html) zu entsprechen. Anschließend können sie von Analytics-[Verarbeitungsregeln](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) zum Ausfüllen von Analytics-Variablen verwendet werden.
+Für XDM-Daten, die nicht automatisch Analytics zugeordnet werden, können Sie [Kontextdaten](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) hinzufügen, um Ihrem [Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) zu entsprechen. Anschließend können sie von Analytics-[Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) zum Ausfüllen von Analytics-Variablen verwendet werden.
 
-Außerdem können Sie einen Standardsatz von Listen und Aktionen verwenden, um Daten mit dem AEP Web SDK zu senden oder abzurufen. Weitere Information finden Sie unter [Produkte](https://docs.adobe.com/content/help/de-DE/experience-platform/edge/implement/commerce.html).
+Außerdem können Sie einen Standardsatz von Listen und Aktionen verwenden, um Daten mit dem AEP Web SDK zu senden oder abzurufen. Weitere Information finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html).
 
 ## Kontextdaten
 
@@ -47,7 +46,7 @@ Zur Verwendung durch Analytics werden XDM-Daten mit Punktnotation reduziert und 
 
 ## Verarbeitungsregeln
 
-Auf alle vom Edge Network erfassten Daten kann über [Verarbeitungsregeln](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) zugegriffen werden. In Analytics können Sie mithilfe von Verarbeitungsregeln Kontextdaten in Analytics-Variablen einbinden.
+Auf alle vom Edge Network erfassten Daten kann über [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) zugegriffen werden. In Analytics können Sie mithilfe von Verarbeitungsregeln Kontextdaten in Analytics-Variablen einbinden.
 
 In der folgenden Regel wird Analytics beispielsweise so eingestellt, dass **interne Suchbegriffe (eVar2)** mit den Daten gefüllt werden, die mit **a.x_atag.search.term(Kontextdaten)** verknüpft sind.
 
@@ -58,7 +57,7 @@ In der folgenden Regel wird Analytics beispielsweise so eingestellt, dass **inte
 
 Schemas dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Durch die systemübergreifende einheitliche Definition von Daten wird es einfacher, die Bedeutung beizubehalten und somit Wert aus Daten zu ziehen. Analytics-Kontextdaten arbeiten mit der durch das Schema definierten Struktur.
 
-Im folgenden Beispiel wird gezeigt, wie der [`event`-Befehl](https://docs.adobe.com/content/help/de-DE/experience-platform/edge/fundamentals/tracking-events.html) mit der `xdm`-Option zum Senden und Abrufen von Daten mit dem AEP Web SDK verwendet werden kann. In diesem Beispiel stimmt der `event`-Befehl mit dem [ExperienceEvent Commerce Details Schema](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) überein, sodass die productListItems-Werte `name` und `SKU` verfolgt werden:
+Im folgenden Beispiel wird gezeigt, wie der [`event`-Befehl](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) mit der `xdm`-Option zum Senden und Abrufen von Daten mit dem AEP Web SDK verwendet werden kann. In diesem Beispiel stimmt der `event`-Befehl mit dem [ExperienceEvent Commerce Details Schema](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) überein, sodass die productListItems-Werte `name` und `SKU` verfolgt werden:
 
 
 ```
@@ -83,4 +82,4 @@ alloy("event",{
 });
 ```
 
-Weitere Informationen zum Verfolgen von Ereignissen mit dem AEP Web SDK finden Sie unter [Verfolgen von Ereignissen](https://docs.adobe.com/content/help/de-DE/experience-platform/edge/fundamentals/tracking-events.html).
+Weitere Informationen zum Verfolgen von Ereignissen mit dem AEP Web SDK finden Sie unter [Verfolgen von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html).
