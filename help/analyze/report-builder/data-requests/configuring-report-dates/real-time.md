@@ -4,14 +4,13 @@ title: Echtzeitberichte
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 95%
+source-wordcount: '261'
+ht-degree: 94%
 
 ---
-
 
 # Echtzeitberichte
 
@@ -26,8 +25,8 @@ Sie haben folgende Möglichkeiten:
 * Verwenden Sie beliebige benutzerdefinierte Ereignisse, Warenkorbereignisse oder Instanzen.
 * Sie können sich bis zu 20 Stunden historische Echtzeitdaten anzeigen lassen.
 
-Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) aktiviert.
+Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) aktiviert.
 
 >[!NOTE]
 >
->[!UICONTROL Echtzeitberichte] sind mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Datenneuigkeit) nicht identisch. Mit dieser wird die Latenz für Standardberichte verkürzt, indem Daten angezeigt werden, bevor sie finalisiert wurden.
+>[!UICONTROL Echtzeitberichte] sind mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Datenneuigkeit) nicht identisch. Mit dieser wird die Latenz für Standardberichte verkürzt, indem Daten angezeigt werden, bevor sie finalisiert wurden.
