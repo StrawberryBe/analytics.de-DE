@@ -5,11 +5,10 @@ uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 feature: KI-Tools
 role: Business Practitioner, Administrator
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 91%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 100%
 
 Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden.
 
-[Video-Tutorial zur Anomalieerkennung](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[Video-Tutorial zur Anomalieerkennung](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
-[Video-Tutorial zur Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
+[Video-Tutorial zur Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
 
 >[!IMPORTANT]
 >
@@ -38,7 +37,7 @@ Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 * Spitzen in Videopufferereignissen
 * Spitzen in niedrigen Video-Bitraten
 
-Sowohl die Anomalieerkennung als auch die [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) sind zentrale Workflows in Analysis Workspace. Sie können Beitragsanalysen zu jeder beliebigen täglichen Anomalie ausführen und das Ergebnis in Ihr Analysis Workspace-Projekt einbetten.
+Sowohl die Anomalieerkennung als auch die [Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) sind zentrale Workflows in Analysis Workspace. Sie können Beitragsanalysen zu jeder beliebigen täglichen Anomalie ausführen und das Ergebnis in Ihr Analysis Workspace-Projekt einbetten.
 
 Der Algorithmus der Analysis Workspace-Anomalieerkennung umfasst:
 
