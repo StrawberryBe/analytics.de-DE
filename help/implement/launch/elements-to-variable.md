@@ -2,11 +2,10 @@
 title: Zuordnen von Datenelementen zu Analytics-Variablen
 description: Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analysis Workspace verwenden können.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Globale Variablen eignen sich ideal, wenn Sie Variablenwerte auf allen Seiten fe
 
 ### Variablen in Regeln festlegen
 
-Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. Siehe [Regeln](https://docs.adobe.com/content/help/de-DE/launch/using/reference/manage-resources/rules.html) im Benutzerhandbuch zu Adobe Experience Platform Launch.
+Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. Siehe [Regeln](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) im Benutzerhandbuch zu Adobe Experience Platform Launch.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die gewünschte Launch-Eigenschaft.
