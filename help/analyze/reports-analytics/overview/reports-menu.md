@@ -2,14 +2,13 @@
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Grundlagen zu Reports & Analysen
+feature: Grundlagen zu Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +31,7 @@ Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten mö
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://docs.adobe.com/content/help/de-DE/analytics/components/dimensions/overview.html).
+Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -66,7 +65,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmente <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Segmentaufbau</a> und <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Segment-Manager</a> zugreifen. </td> 
+   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Segmentaufbau</a> und <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Segment-Manager</a> zugreifen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriken <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -114,7 +113,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1">Report Suite-Auswahl <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Hier können Sie <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/manage-report-suites/report-suites-admin.html"  >normale Report Suites</a> und <a href="https://docs.adobe.com/help/de-DE/analytics/components/virtual-report-suites/vrs-about.html"  >Virtual Report Suites</a> auswählen. </td> 
+   <td colname="col2">Hier können Sie <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >normale Report Suites</a> und <a href="https://docs.adobe.com/help/de-DE/analytics/components/virtual-report-suites/vrs-about.html"  >Virtual Report Suites</a> auswählen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -123,6 +122,6 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
  </tbody> 
 </table>
 
-## Anpassen des Menüs „Alle Berichte“ {#section_7E47312747564FBE8A55EE5726B7DFF4}
+## Anpassen des Menüs „Alle Berichte“  {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/customize-menus.html) in der Admin-Hilfe.
+Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) in der Admin-Hilfe.
