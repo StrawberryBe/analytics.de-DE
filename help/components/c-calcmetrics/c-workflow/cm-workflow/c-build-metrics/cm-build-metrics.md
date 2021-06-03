@@ -3,11 +3,10 @@ description: Der Generator für berechnete Metriken bietet eine Arbeitsfläche, 
 title: Metriken erstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +87,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Produktkompatibilität </span> </td> 
-   <td colname="col3"> <p>Über die Produktkompatibilität können Sie sehen, ob die Metrik mit <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/current-data.html"  >aktuellen Daten</a>, mit vollständig verarbeiteten Daten oder nur mit Marketingkanalberichten (Erstkontaktzuordnung) kompatibel ist. <p>Hinweis: Bei aktuellen Daten werden nicht alle Metriken unterstützt. Metriken mit Segmenten oder Funktionen sind nicht mit aktuellen Daten kompatibel. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Mehr... </a> </p> </p> </td> 
+   <td colname="col3"> <p>Über die Produktkompatibilität können Sie sehen, ob die Metrik mit <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  >aktuellen Daten</a>, mit vollständig verarbeiteten Daten oder nur mit Marketingkanalberichten (Erstkontaktzuordnung) kompatibel ist. <p>Hinweis: Bei aktuellen Daten werden nicht alle Metriken unterstützt. Metriken mit Segmenten oder Funktionen sind nicht mit aktuellen Daten kompatibel. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Mehr... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Fügen Sie </span> </td> 
@@ -131,7 +130,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Segmenten </p> </td> 
-   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Wenn Sie Administrator sind, enthält diese Liste alle in Ihrem Anmeldeunternehmen erstellten Segmente. Wenn Sie kein Administrator sind, enthält diese Liste Segmente, deren Eigentümer Sie sind, sowie Segmente, die für Sie freigegeben wurden. <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segment-reference/seg-rights.html"  > Mehr... </a> </p> </td> 
+   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Wenn Sie Administrator sind, enthält diese Liste alle in Ihrem Anmeldeunternehmen erstellten Segmente. Wenn Sie kein Administrator sind, enthält diese Liste Segmente, deren Eigentümer Sie sind, sowie Segmente, die für Sie freigegeben wurden. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > Mehr... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Funktionen </p> </td> 
