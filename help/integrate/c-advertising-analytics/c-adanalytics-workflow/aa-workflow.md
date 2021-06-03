@@ -2,11 +2,10 @@
 description: Übersicht über den Arbeitsablauf in Advertising Analytics
 title: Workflow-Übersicht
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 ![](assets/step1_icon.png) Ordnen Sie sämtliche Adobe Analytics-Report Suites, in denen Google- oder Bing-Suchdaten angezeigt werden sollen, Ihrer Experience Cloud-Organisation zu.
 
-Weitere Informationen dazu finden Sie unter [Report Suites einer Organisation zuweisen](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html).
+Weitere Informationen dazu finden Sie unter [Report Suites einer Organisation zuweisen](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Advertising Analytics-Reporting pro Report Suite aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
