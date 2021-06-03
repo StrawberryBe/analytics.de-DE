@@ -3,14 +3,13 @@ description: Der erste Schritt beim Erstellen einer Anforderung in Report Builde
 title: 'Datenanforderungen – Anforderungs-Assistent: Schritt 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 95%
 
 ---
-
 
 # Datenanforderungen – Anforderungs-Assistent: Schritt 1
 
@@ -22,7 +21,7 @@ Im Dialogfeld „Anforderungs-Assistent: Schritt 1“ wählen Sie die Report Sui
 
 1. **Bereichsauswahl:** Hier können Sie eine Report Suite-ID aus einer Zelle in Excel auswählen. Siehe [Report Suites auswählen](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment**: Segmente sind benutzerspezifische Teildatensätze oder Daten, die durch eigens erstellte Regeln gefiltert wurden. Segmente basieren auf Treffern, Besuchen und Besuchern. Weitere Informationen zu Segmenten finden Sie im [Analytics-Segmentierungsleitfaden](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html).
+1. **Segment**: Segmente sind benutzerspezifische Teildatensätze oder Daten, die durch eigens erstellte Regeln gefiltert wurden. Segmente basieren auf Treffern, Besuchen und Besuchern. Weitere Informationen zu Segmenten finden Sie im [Analytics-Segmentierungsleitfaden](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
    Beispiel: Sie führen einen [!UICONTROL Seitenbericht] aus und wenden dann ein Segment „Erstbesuche“ an.
 
