@@ -5,11 +5,10 @@ title: Freigeben von Projekten
 feature: Kuratieren und Freigeben
 role: Business Practitioner, Administrator
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ Durch Freigeben können Sie ein Projekt anderen Analysis Workspace-Benutzern in 
 
 ## Projektrollen {#Roles}
 
-Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen sind mit dem Benutzer und der spezifischen Projekt-ID verknüpft. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html) verwaltet werden.
+Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen sind mit dem Benutzer und der spezifischen Projekt-ID verknüpft. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) verwaltet werden.
 
 | Rolle | Projektsteuerung |
 |---|---|
@@ -32,7 +31,7 @@ Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen s
 
 ### Keine Rolle zugewiesen (Empfänger des Projekt-Links)
 
-Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen [Link](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) zum Projekt erhält (**[!UICONTROL Freigeben] > [!UICONTROL Projekt-Link abrufen]**), wird er standardmäßig in eine Rolle eingefügt. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**.
+Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen [Link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=de) zum Projekt erhält (**[!UICONTROL Freigeben] > [!UICONTROL Projekt-Link abrufen]**), wird er standardmäßig in eine Rolle eingefügt. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**.
 
 ### Mehrere Rollen zugewiesen
 
@@ -55,20 +54,20 @@ Nach der Freigabe werden diese Komponenten im Dropdown-Menü „Komponenten“ i
 1. (Optional) Legen Sie diese Seite als die Landingpage für Empfänger fest.
 Diese Einstellung wird nicht beibehalten. Es handelt sich um eine einmalige Aktion zum Zeitpunkt der Freigabe.
 1. Klicken Sie auf „Freigeben“.
-Sie können auch auf **[!UICONTROL Kuratieren und freigeben]** klicken, um die Projektkuratierung automatisch anzuwenden. Wenn ein Projekt bereits freigegeben wurde, werden für diese Schaltflächen **[!UICONTROL Aktualisieren]** und **[!UICONTROL Kuratieren und aktualisieren]** angezeigt. Weitere Informationen zur [Projektkuratierung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Sie können auch auf **[!UICONTROL Kuratieren und freigeben]** klicken, um die Projektkuratierung automatisch anzuwenden. Wenn ein Projekt bereits freigegeben wurde, werden für diese Schaltflächen **[!UICONTROL Aktualisieren]** und **[!UICONTROL Kuratieren und aktualisieren]** angezeigt. Weitere Informationen zur [Projektkuratierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
 ![](assets/share-proj-modal.png)
 
 ## Freigeben für eine Gruppe von Empfängern {#Groups}
 
-Alle Benutzer können Projekte für Gruppen freigeben, also für eine Sammlung von Empfängern. In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html) definiert.
+Alle Benutzer können Projekte für Gruppen freigeben, also für eine Sammlung von Empfängern. In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) definiert.
 
 * Administratoren können für jede Gruppe freigeben, einschließlich „Alle“.
 * Nicht-Administratoren können für Gruppen freigeben, denen sie angehören (mit Ausnahme von „Alle“).
 
 ## Projekt-Link freigeben {#Links}
 
-Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben] > [!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Rolle aufgenommen wurde, erhält er eine Standardrolle. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**. [Erfahren Sie mehr](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) über das Erstellen von freigebbaren Links zu Workspace-Projekten.
+Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben] > [!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Rolle aufgenommen wurde, erhält er eine Standardrolle. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**. [Erfahren Sie mehr](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) über das Erstellen von freigebbaren Links zu Workspace-Projekten.
 
 ## Freigeben von Projekten im Projekt-Manager {#Manager}
 
