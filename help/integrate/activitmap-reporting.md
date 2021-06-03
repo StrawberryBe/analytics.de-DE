@@ -4,10 +4,10 @@ title: Activity Map-Berichterstellung
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 95%
 
 ---
 
@@ -29,4 +29,4 @@ Hierdurch kann Analytics von Activity Map (früher ClickMap) bereitgestellte Ben
    | Activity Map-Links | Listet alle erfassten Links auf der gesamten Website auf. |
    | Activity Map-Links und -Region | Listet alle erfassten Links zusammen mit ihrer Region über die gesamte Website hinweg auf. |
 
-Damit Daten in diese Berichte eingespeist werden können, muss eine Implementierung entsprechend der Anleitung erfolgen, die Sie in der [Activity Map-Dokumentation](https://docs.adobe.com/content/help/de-DE/analytics/analyze/activity-map/activity-map.html) finden.
+Damit Daten in diese Berichte eingespeist werden können, muss eine Implementierung entsprechend der Anleitung erfolgen, die Sie in der [Activity Map-Dokumentation](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) finden.
