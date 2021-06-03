@@ -2,10 +2,9 @@
 title: Ausschluss-Links
 description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '590'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt die Verwendung des Opt-in-Dienstes, insbesondere für Organisationen, die sich mit DSGVO-Vorschriften befassen. Weitere Informationen finden Sie unter [Übersicht über den Opt-in-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/opt-in-service/optin-overview.html) im Benutzerhandbuch des Experience Cloud ID-Dienstes.
+>Adobe empfiehlt die Verwendung des Opt-in-Dienstes, insbesondere für Organisationen, die sich mit DSGVO-Vorschriften befassen. Weitere Informationen finden Sie unter [Übersicht über den Opt-in-Dienst](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) im Benutzerhandbuch des Experience Cloud ID-Dienstes.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, den Besuchern Ihrer Website die Option bereitzustellen, sich von der Datenerfassung ausschließen zu lassen. Alle Implementierungsarten werden berücksichtigt; Ihre Organisation ist für Ihre eigene Datenschutzrichtlinie und für die Einhaltung der von Ihnen unterzeichneten Bedingungen verantwortlich.
 
@@ -37,7 +36,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
    2. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Mithilfe des [Adobe Experience Cloud-Debuggers](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html):
+* Mithilfe des [Adobe Experience Cloud-Debuggers](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    2. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
    3. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
