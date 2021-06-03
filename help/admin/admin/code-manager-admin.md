@@ -4,10 +4,10 @@ title: Code-Manager
 feature: Admin Tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 95%
+source-wordcount: '139'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile Plattformen herunterladen.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Alle Admin]** >  **[!UICONTROL Code-Manager]**.
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Admin]**  >  **[!UICONTROL Alle Admin]**  >  **[!UICONTROL Code-Manager]**.
 
 Nach dem Herunterladen der Bibliothek müssen Sie den Code so konfigurieren, dass Daten an den richtigen Tracking-Server und an die richtige Report Suite gesendet werden. Weitere Ressourcen zur Implementierung finden Sie im Benutzerhandbuch zur [Implementierung](/help/implement/home.md).
 
@@ -25,5 +25,5 @@ Nach dem Herunterladen der Bibliothek müssen Sie den Code so konfigurieren, das
 |--- |--- |
 | [!UICONTROL Name] | Der Name entspricht der Plattform, für die Sie die Datenerfassung aktivieren möchten. Native Bibliotheken werden für jede Plattform zur Verfügung gestellt, die in dieser Spalte aufgeführt ist. |
 | [!UICONTROL Typ] | Der Anwendungstyp, der mithilfe der einzelnen Bibliotheken gemessen werden kann. |
-| [!UICONTROL Version] | Aufführung der aktuellsten Version der Bibliothek. Klicken Sie auf die Versionsnummer, um die [Versionshistorie](https://docs.adobe.com/content/help/de-DE/analytics/implementation/appmeasurement-updates.html) anzuzeigen. |
+| [!UICONTROL Version] | Aufführung der aktuellsten Version der Bibliothek. Klicken Sie auf die Versionsnummer, um die [Versionshistorie](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html) anzuzeigen. |
 | [!UICONTROL Dokumentation] | Ansicht der Referenzdokumentation zur Bibliothek. |
