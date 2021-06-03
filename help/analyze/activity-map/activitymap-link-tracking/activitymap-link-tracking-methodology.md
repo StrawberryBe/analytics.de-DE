@@ -4,14 +4,13 @@ title: Linktracking-Methode
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1000'
 ht-degree: 99%
 
 ---
-
 
 # Linktracking-Methode
 
@@ -19,7 +18,7 @@ Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. Im Vordergrun
 
 >[!IMPORTANT]
 >
->Bei der Implementierung von Links, deren Text (nicht href) personenbezogene Daten (PII-Daten) enthalten könnte, sollte [s_objectID](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html) verwendet oder die Activity Map-Linkerfassung mit [s.ActivityMap.linkExclusions oder s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) ausgeschlossen werden. Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Bei der Implementierung von Links, deren Text (nicht href) personenbezogene Daten (PII-Daten) enthalten könnte, sollte [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) verwendet oder die Activity Map-Linkerfassung mit [s.ActivityMap.linkExclusions oder s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) ausgeschlossen werden. Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 In Activity Map basiert Linktracking auf diesen beiden IDs:
 
@@ -36,7 +35,7 @@ Wenn der HTML-Code eine s_objectid enthält, dann wird diese standardmäßig als
 * Src
 * Aktion
 
-## Verwenden von InnerText im Vergleich zur Linkaktion (URL)   {#section_70C3573E22274522A8CC035BF18EC468}
+## Verwenden von InnerText im Vergleich zur Linkaktion (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
 
 Die Linkaktion (URL) ist die Aktion, die von der Webseite beim Klicken auf den Link ausgeführt wird. Normalerweise wird die URL angegeben, die nach dem Klicken auf den Link aufgerufen wird. Einige der Probleme, die bei der Verwendung der Linkaktion auftreten, sind:
 
