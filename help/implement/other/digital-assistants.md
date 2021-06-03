@@ -2,11 +2,10 @@
 title: Implementieren von Analytics für digitale Assistenten
 description: Implementieren Sie Adobe Analytics für digitale Assistenten, wie Amazon Alexa oder Google Home.
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1266'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +73,7 @@ Cache-Control: no-cache
 
 ## Benutzer-/Besucheridentifizierung
 
-Adobe Analytics verwendet den [Adobe Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html), um Interaktionen über einen bestimmten Zeitraum hinweg mit derselben Person zu verknüpfen. Die meisten digitalen Assistenten geben eine `userID` zurück, mit der Sie die Aktivität für verschiedene Benutzer speichern können. In den meisten Fällen können Sie diesen Wert als eindeutige Kennung weitergeben. Einige Plattformen geben eine Kennung zurück, der länger als die zulässigen 100 Zeichen ist. In diesen Fällen empfiehlt Adobe, dass Sie die eindeutige Kennung mithilfe eines standardmäßigen Hashing-Algorithmus wie MD5 oder Sha1 auf einen Wert mit fester Länge hashen.
+Adobe Analytics verwendet den [Adobe Experience Cloud-Identitätsdienst](https://experienceleague.adobe.com/docs/id-service/using/home.html), um Interaktionen über einen bestimmten Zeitraum hinweg mit derselben Person zu verknüpfen. Die meisten digitalen Assistenten geben eine `userID` zurück, mit der Sie die Aktivität für verschiedene Benutzer speichern können. In den meisten Fällen können Sie diesen Wert als eindeutige Kennung weitergeben. Einige Plattformen geben eine Kennung zurück, der länger als die zulässigen 100 Zeichen ist. In diesen Fällen empfiehlt Adobe, dass Sie die eindeutige Kennung mithilfe eines standardmäßigen Hashing-Algorithmus wie MD5 oder Sha1 auf einen Wert mit fester Länge hashen.
 
 Die Verwendung des ID-Service bietet den größten Nutzen, wenn Sie ECIDs über verschiedene Geräte (z. B. Web-to-Digital-Assistant) hinweg zuordnen. Wenn es sich bei Ihrer App um eine mobile App handelt, verwenden Sie die Experience Platform-SDKs unverändert und senden Sie die Benutzer-ID mit der `setCustomerID`-Methode. Wenn Ihre App jedoch ein Dienst ist, verwenden Sie die vom Dienst als ECID bereitgestellte Benutzer-ID und legen Sie sie in der `setCustomerID` fest.
 
