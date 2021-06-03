@@ -5,11 +5,10 @@ title: Übersicht über Erfolgsereignisse
 feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen
 * **High Tech**: Download von White Papers, Gebotsanfragen, Formularausfüllung, Supportanfragen
 * **Automotive**: Leadeinsendung, Preisanfrage, Download von Broschüren
 
-Die Variable [s.events](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
+Die Variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
 
 ## Seite „Erfolgsereignisse“ – Beschreibungen  {#section_681ECEC981694CABBDBF00E18165B447}
 
