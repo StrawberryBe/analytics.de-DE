@@ -5,11 +5,10 @@ title: Verwenden der Integration
 feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +22,7 @@ Nach der Bereitstellung können Sie die zusätzlichen Funktionen dieser Integrat
 
 Die folgenden Aktionen sind erforderlich, um aus dieser Integration in Adobe Analytics Nutzen zu ziehen.
 
-1. Erstellen Sie ein Segment mit Umfrageantwortdaten (entsprechende Informationen finden Sie im Thema zum [Erstellen eines Segments](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html)).
+1. Erstellen Sie ein Segment mit Umfrageantwortdaten (entsprechende Informationen finden Sie im Thema zum [Erstellen eines Segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)).
 1. Wenden Sie das Segment auf wichtige Berichte an.
 
 ## Beispiel {#section-07051d0d60a44408a4e108034586c42f}
