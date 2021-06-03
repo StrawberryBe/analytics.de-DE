@@ -6,10 +6,10 @@ title: Anpassen von Berechtigungen für Metriken
 feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 93%
+source-wordcount: '241'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Kunden migriert haben, werden Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Admin]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Kunden migriert wurden, werden Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und „Inhalt bewahren“.
 
@@ -29,7 +29,7 @@ Die Einstellungen auf der Seite für die Metrikanpassung beziehen sich auf die R
 
 ## Lösungsereignisse
 
-Zusätzlich zu [benutzerspezifischen Ereignissen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html) enthält diese Kategorie Analytics-Lösungsereignisse, darunter Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video und Social. Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
+Zusätzlich zu [benutzerspezifischen Ereignissen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) enthält diese Kategorie Analytics-Lösungsereignisse, darunter Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video und Social. Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
 
 Sie können für benutzerdefinierte Ereignisse und Analytics-Lösungsereignisse (AEM, AMO, Mobile Video und Social) Zugriffsberechtigungen festlegen.
 
