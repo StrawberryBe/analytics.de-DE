@@ -2,26 +2,25 @@
 description: Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Data Connectors ein.
 title: Aktivieren der Integration
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 18fb2f55-f1fb-4d97-bd1e-8c5e74dbde69
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 97%
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
-
 
 # Aktivieren der Integration {#activate-the-integration}
 
 Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Data Connectors ein.
 
-1. Starten Sie [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) und klicken Sie auf **[!UICONTROL + Neu hinzufügen]**, [um eine neue Integration hinzuzufügen](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Starten Sie [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) und klicken Sie auf **[!UICONTROL + Neu hinzufügen]**, [um eine neue Integration hinzuzufügen](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
 1. Wählen Sie in der Liste **[!UICONTROL Anzeigen]** den Eintrag **[!UICONTROL Nach Name]** aus und ziehen Sie die Integration [!DNL ~Partner~] in einen leeren Plug-in-Slot.
 1. Führen Sie den Integrationsassistenten aus. Verwenden Sie dabei die Informationen aus der folgenden Tabelle:
 
 | Feld | Beschreibung |
 |--- |--- |
-| Report Suite  | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
+| Report Suite | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
 | Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in „Aktive Integrationsliste“ der Report Suite anzeigt. |
 | E-Mail-Adresse | Geben Sie eine E-Mail-Adresse an, an welche die Integrationsdaten gesendet werden können. |
 | Konto-ID | Dies ist die eindeutige Kennung, die Ihrer Organisation von Ihrem E-Mail-Serviceanbieter zugewiesen wurde. Sie wird verwendet, wenn Sie E-Mail-Kampagnendaten (z. B. Anzahl der versandten, geöffneten, angeklickten Elemente usw.) von Ihrem E-Mail-Serviceanbieter anfordern und Besuchersegmente an ihn senden. |
