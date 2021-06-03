@@ -2,11 +2,10 @@
 title: Übersicht über das Implementieren mit Launch
 description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Adobe Experience Platform Launch implementieren
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 96%
 
 ---
 
@@ -33,6 +32,6 @@ Erste Schritte finden Sie unter [Analytics-Eigenschaft in Adobe Experience Platf
 
 Launch kann in hohem Maße angepasst werden. Erfahren Sie, wie Sie Adobe Analytics optimal nutzen können, indem Sie die richtigen Daten in Ihre Implementierung aufnehmen.
 
-* [Launch-Dokumentation](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html): Erfahren Sie, wie die Benutzeroberfläche funktioniert und welche Erweiterungen verfügbar sind.
-* [Adobe Analytics-Erweiterung](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Verwenden Sie die Analytics-Erweiterung, um Daten an Adobe Analytics zu senden.
+* [Launch-Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html): Erfahren Sie, wie die Benutzeroberfläche funktioniert und welche Erweiterungen verfügbar sind.
+* [Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Verwenden Sie die Analytics-Erweiterung, um Daten an Adobe Analytics zu senden.
 * [Implementierungsvariablen](../vars/overview.md): Legen Sie fest, welche Variablen Sie an Datenerfassungs-Server senden möchten.
