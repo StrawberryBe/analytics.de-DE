@@ -5,10 +5,10 @@ uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '267'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Bevor Anwender Berichte zu Activity Map-Abmessungen erstellen können, müssen S
 
 ## Analytics Activity Map-Abmessungen {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-Sie können den [Anwenderzugriff auf Abmessungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) auf einer detaillierteren Ebene anpassen. In Analytics verfügbare Activity Map-Abmessungen:
+Sie können den [Anwenderzugriff auf Abmessungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) auf einer detaillierteren Ebene anpassen. In Analytics verfügbare Activity Map-Abmessungen:
 
 | Dimension | Beschreibung |
 |---|---|
