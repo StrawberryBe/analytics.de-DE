@@ -2,26 +2,25 @@
 description: Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Data Connectors ein.
 title: Aktivieren der Integration
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: b0d6849b-975a-4476-a2d3-36abeee12273
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 95%
+source-wordcount: '432'
+ht-degree: 96%
 
 ---
-
 
 # Aktivieren der Integration {#activate-the-integration}
 
 Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Data Connectors ein.
 
-1. Starten Sie [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) und klicken Sie auf **[!UICONTROL + Neu hinzufügen]**, [um eine neue Integration hinzuzufügen](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Starten Sie [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) und klicken Sie auf **[!UICONTROL + Neu hinzufügen]**, [um eine neue Integration hinzuzufügen](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
 1. Wählen Sie in der Liste **[!UICONTROL Anzeigen]** den Eintrag **[!UICONTROL Nach Name]** aus und ziehen Sie die Integration [!DNL ~Partner~] in einen leeren Plug-in-Slot.
 1. Führen Sie den Integrationsassistenten aus. Verwenden Sie dabei die Informationen aus der folgenden Tabelle:
 
 | Feld | Beschreibung |
 |--- |--- |
-| Report Suite  | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
+| Report Suite | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
 | Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in „Aktive Integrationsliste“ der Report Suite anzeigt. |
 | Integrations-UUID | Geben Sie Ihre Integrations-UUID für DreamMail an. |
 | Clientname | Geben Sie Ihren Clientnamen für DreamMail an. |
