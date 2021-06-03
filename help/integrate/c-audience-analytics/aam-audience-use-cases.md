@@ -3,11 +3,10 @@ description: Anwendungsfälle im Zusammenhang mit Advertising Analytics.
 title: Anwendungsfälle für Audience Analytics
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +22,7 @@ Als Reiseunternehmen können Sie bevorzugte Reiseziele schnell mit dem Kaufverha
 
 ## Look-Alike-Modellierung {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-Als Multi-Medien-Publisher können Sie Ihre Drittpartei-Zielgruppen über [Segment IQ](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) vergleichen, um die wesentlichen Unterscheidungsmerkmale zu verstehen. Dies hilft Ihnen dabei, hochwertige Erstpartei-Segmente für das Targeting zu erstellen.
+Als Multi-Medien-Publisher können Sie Ihre Drittpartei-Zielgruppen über [Segment IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) vergleichen, um die wesentlichen Unterscheidungsmerkmale zu verstehen. Dies hilft Ihnen dabei, hochwertige Erstpartei-Segmente für das Targeting zu erstellen.
 
 ## Analyse potenzieller Kunden {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
@@ -31,4 +30,4 @@ Als B2B-Händler können Sie jetzt das Verhalten Ihrer potenziellen Zielgruppe d
 
 ## Demografisches Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
-Als Ferienanlage können Sie [Histogramme in Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/histogram.html) verwenden, um Käufe auf Altersgruppen verteilt zu sehen. Dies hilft Ihnen dabei, die richtige Zielgruppe zu finden, die Sie für die einzelnen Teile Ihrer Anlage ansprechen sollten.
+Als Ferienanlage können Sie [Histogramme in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html) verwenden, um Käufe auf Altersgruppen verteilt zu sehen. Dies hilft Ihnen dabei, die richtige Zielgruppe zu finden, die Sie für die einzelnen Teile Ihrer Anlage ansprechen sollten.
