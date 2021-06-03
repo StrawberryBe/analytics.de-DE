@@ -6,9 +6,9 @@ title: Umleitungen und Aliase
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1123'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 Führen Sie einen Test durch, um zu überprüfen, dass die verweisende Stelle, die Quell-URL (*`s_server`*) und die Kampagnenvariablen erfasst werden.
 
-Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) repräsentiert.
+Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html) repräsentiert.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
