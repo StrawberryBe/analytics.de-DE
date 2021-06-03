@@ -1,11 +1,10 @@
 ---
 description: Sie können den Classification Rule Builder nicht mit Unterklassifizierungen kombinieren.
 title: Unterklassifizierungen und der Rule Builder
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +39,7 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 >
 >In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und der Rule Builder](/help/components/classifications/crb/sub-classification-rule-builder.md) beschriebenen Anwendungsfall ausführen.
 
-1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/c-classifications.html).
+1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
 
    Beispiel:
 
