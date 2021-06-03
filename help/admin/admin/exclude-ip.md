@@ -2,10 +2,10 @@
 title: Nach IP-Adresse ausschließen
 description: Verhindern, dass von bestimmten IP-Adressen generierte Daten in Berichten angezeigt werden.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 82%
+source-wordcount: '221'
+ht-degree: 79%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 82%
 
 Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websitetests und der Verwendung durch Mitarbeiter, können aus Berichten ausgeschlossen werden. Durch das Ausschließen von Daten nach der IP-Adresse wird die Genauigkeit der Berichte erhöht. Zudem können Sie Daten entfernen, die auf DoS-Angriffen oder anderen böswilligen Ereignissen beruhen und Ihre Berichte verfälschen könnten. Die Ausschlüsse lassen sich wahlweise oder über die Firewall konfigurieren.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Alle Admin]** > Nach IP  **[!UICONTROL ausschließen]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Admin]**  >  **[!UICONTROL Alle Admin]**  >  **[!UICONTROL Nach IP ausschließen]**
 
 >[!NOTE]
 >
->Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Server-Aufrufe](https://docs.adobe.com/content/help/de-DE/analytics/technotes/terms.html) in Rechnung gestellt.
+>Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Server-Aufrufe](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html) in Rechnung gestellt.
 
 Mit Platzhaltern (*) können Sie einen ganzen Adressenbereich ausschließen. Zum Beispiel würde `[!DNL 0.0.*.0]` sämtliche IP-Adressen zwischen `[!DNL 0.0.0.0]` und `[!DNL 0.0.255.0]` ausschließen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
 
 >[!TIP]
 >
->Private IP-Adressen müssen nicht ausgeschlossen werden. Nur externe IP-Adressen erreichen Datenerfassungsserver der Adobe. Zu den privaten Adressen gehören `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` und `169.254.*.*`.
+>Private IP-Adressen müssen nicht ausgeschlossen werden. Nur externe IP-Adressen erreichen die Datenerfassungsserver der Adobe. Zu den privaten Adressen gehören `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` und `169.254.*.*`.
 
 ## Auswirkung der IP-Verschleierung  {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
