@@ -5,10 +5,10 @@ title: Besuchermigration
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Beim Migrieren von Besuchern können Sie die Cookies zur Identifizierung von Bes
 
 * Wechseln von `2o7.net` zu `adobedc.net`.
 
-* Sie implementieren den [Besucher-ID-Service von Experience Cloud](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) und wechseln von einer Datenerfassungs-Domain mit CNAME-Eintrag/Erstanbieterkontext zu `adobedc.net`, `2o7.net` oder `omtrdc.net`
+* Sie implementieren den [Besucher-ID-Service von Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) und wechseln von einer Datenerfassungs-Domain mit CNAME-Eintrag/Erstanbieterkontext zu `adobedc.net`, `2o7.net` oder `omtrdc.net`
 
-* Wechseln zu einer Datenerfassung mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html)).
+* Wechseln zu einer Datenerfassung mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)).
 
 * Wechsel von einem CNAME-Eintrag zu einem anderen (Domänenwechsel).
 
