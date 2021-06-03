@@ -1,14 +1,13 @@
 ---
 title: Transaktions-ID-Datenquellen
 description: Erfahren Sie mehr über den allgemeinen Workflow bei der Verwendung der Transaktions-ID-Datenquellen.
-translation-type: tm+mt
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # Transaktions-ID-Datenquellen
 
@@ -21,7 +20,7 @@ Wenn Sie einen Online-Treffer senden, der einen `transactionID`-Wert enthält, e
 Verwenden Sie den folgenden generischen Workflow, um mit der Verwendung von Transaktions-ID-Datenquellen zu beginnen:
 
 1. Erstellen Sie eine Datenquelle (Kategorie „Generische“ und Typ „Generische Datenquelle (Transaktions-ID)“).
-1. Folgen Sie dem Setup-Assistenten für Daten-Feeds, um einen FTP-Speicherort zum Hochladen von Daten und Herunterladen einer Vorlagendatei für Datenquellen abzurufen.
+1. Führen Sie den Einrichtungsassistenten für die Datenquelle aus, um einen FTP-Speicherort zum Hochladen von Daten und Herunterladen einer Vorlagendatei für Datenquellen abzurufen.
 1. Aktualisieren Sie Ihre Implementierung, um die `transactionID`-Variable einzuschließen.
 1. Laden Sie eine Datenquellendatei mit einer `.fin`-Datei auf die FTP-Site hoch.
 
