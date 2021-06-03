@@ -2,11 +2,10 @@
 title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe des Gerätediagramms vertraut.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -30,9 +29,9 @@ Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode i
 >Wenn nicht alle Voraussetzungen erfüllt sind, ist die Aktivierung der geräteübergreifenden Analyse unter Umständen nicht möglich oder die Ergebnisse bei der Datenzuordnung sind schlecht.
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
-* Ihre Organisation muss das Co-op-Diagramm oder das private Diagramm des Identity Service der Adobe Experience Platform verwenden. Weitere Informationen finden Sie unter [Startseite](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html) im Benutzerhandbuch zur Co-op-Funktion des Geräts.
-* Ihre Implementierung muss die aktuelle Version des Experience Cloud Identity Service verwenden. Weitere Informationen finden Sie unter [Startseite](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) im Benutzerhandbuch des Experience Cloud ID-Dienstes. Bei den meisten Implementierungen mit Adobe Experience Platform Launch ist ECID wahrscheinlich bereits bereitgestellt.
-* Ihre Implementierung muss die `setCustomerIDs`-Funktion (oder das SDK-Äquivalent) immer dann aufrufen, wenn eine Person identifiziert werden kann, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Weitere Informationen finden Sie unter [`setCustomerIDs`](https://docs.adobe.com/content/help/de-DE/id-service/using/id-service-api/methods/setcustomerids.html) im Benutzerhandbuch des Experience Cloud Identity Service.
+* Ihre Organisation muss das Co-op-Diagramm oder das private Diagramm des Identity Service der Adobe Experience Platform verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) im Benutzerhandbuch zur Co-op-Funktion des Geräts.
+* Ihre Implementierung muss die aktuelle Version des Experience Cloud Identity Service verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/id-service/using/home.html) im Benutzerhandbuch des Experience Cloud ID-Dienstes. Bei den meisten Implementierungen mit Adobe Experience Platform Launch ist ECID wahrscheinlich bereits bereitgestellt.
+* Ihre Implementierung muss die `setCustomerIDs`-Funktion (oder das SDK-Äquivalent) immer dann aufrufen, wenn eine Person identifiziert werden kann, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Weitere Informationen finden Sie unter [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) im Benutzerhandbuch des Experience Cloud Identity Service.
 
 ## Besondere Einschränkungen für das Gerätediagramm
 
