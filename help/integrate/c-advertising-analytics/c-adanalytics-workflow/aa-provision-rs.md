@@ -3,11 +3,10 @@ description: Konfigurieren Sie eine Report Suite, die Experience Cloud zugeordne
 title: Report Suite für Advertising Analytics aktivieren
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Um die Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede der Experience Cloud zugeordnete Report Suite für das Advertising Analytics-Reporting konfigurieren.
 
-1. [Ordnen Sie Ihre Report Suite einer Organisation zu.](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html)
+1. [Ordnen Sie Ihre Report Suite einer Organisation zu.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 1. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
 1. Wählen Sie die Report Suite aus, die Ihrer Experience Cloud-Organisation zugeordnet ist.
