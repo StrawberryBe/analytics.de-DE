@@ -2,10 +2,9 @@
 title: Vergleichen von Adobe Analytics-Daten mit Produkten von Drittanbietern
 description: Machen Sie sich mit Ihren Optionen vertraut, wenn Sie Daten in Adobe Analytics direkt mit Daten vergleichen, die von anderen Analytics-Lösungen erfasst wurden.
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '252'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -18,6 +17,6 @@ Aufgrund dieser sehr unterschiedlichen Definitionen, Datenstruktur und Implement
 
 Wenn Sie eine große Diskrepanz zwischen Adobe Analytics und einem Analytics-Tool eines Drittanbieters sehen, stehen die folgenden Ressourcen zur Verfügung:
 
-* **Selbstprüfung mit dem Debugger**: Sie können die Seiten auf Ihrer Site mit dem [Debugger von Adobe](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) oder einem anderen Paketmonitor überprüfen. Mit dem Debugger können Sie Ihre Implementierung überprüfen, um sicherzustellen, dass die Bildanforderungen korrekt mit den richtigen Variablen ausgelöst werden.
+* **Selbstprüfung mit dem Debugger**: Sie können die Seiten auf Ihrer Site mit dem [Debugger von Adobe](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html) oder einem anderen Paketmonitor überprüfen. Mit dem Debugger können Sie Ihre Implementierung überprüfen, um sicherzustellen, dass die Bildanforderungen korrekt mit den richtigen Variablen ausgelöst werden.
 * **Selbstprüfung mit Daten-Feeds**: Adobe bietet Ihrem Unternehmen die Möglichkeit, täglich [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) mit allen Rohdaten zu erhalten. Ihr Unternehmen kann diese Daten dann verwenden und mit Ihren Analytics-Tools von Drittanbietern vergleichen, um Abweichungen festzustellen.
 * **Unterstützte Prüfung und Datenvalidierung mit Adobe Consulting**: Wenn Sie möchten, dass ein offizieller Adobe-Support-Mitarbeiter eine vollständige Implementierungsprüfung auf Ihrer Website durchführt, wenden Sie sich an den Account Manager Ihres Unternehmens. Sie können ein Treffen mit einem Implementierungsberater vereinbaren, der Ihre Site basierend auf dem Vertrag Ihres Unternehmens prüfen kann.
