@@ -4,10 +4,10 @@ title: Echtzeitberichte konfigurieren
 feature: Admin Tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '300'
+ht-degree: 97%
 
 ---
 
@@ -56,6 +56,6 @@ Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurich
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]**.
 
-   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Standardmäßig haben alle Benutzer Zugriff auf Echtzeitberichte.
