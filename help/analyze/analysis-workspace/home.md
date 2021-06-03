@@ -4,11 +4,10 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 97%
 
 ---
 
@@ -34,11 +33,11 @@ Nach der Anmeldung sollten Sie als Erstes das Analysis Workspace-Tutorial besuch
 
 ## Neues Projekt erstellen {#new-project}
 
-Nach Abschluss des Tutorials können Sie mit der Erstellung Ihres ersten Projekts beginnen. Das **neue Projektmodell** bietet verschiedene Optionen zum Starten Ihrer Analyse. Je nachdem, ob Sie Ihre Analyse über den Browser oder die Adobe Analytics Dashboards-Mobile-App freigeben möchten, können Sie mit einem leeren Projekt oder einer [leeren mobilen Scorecard](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/curator.html) beginnen.
+Nach Abschluss des Tutorials können Sie mit der Erstellung Ihres ersten Projekts beginnen. Das **neue Projektmodell** bietet verschiedene Optionen zum Starten Ihrer Analyse. Je nachdem, ob Sie Ihre Analyse über den Browser oder die Adobe Analytics Dashboards-Mobile-App freigeben möchten, können Sie mit einem leeren Projekt oder einer [leeren mobilen Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) beginnen.
 
 ![](assets/create-new-project.png)
 
-Sie können Ihre Analyse auch mit vordefinierten **Vorlagen** beginnen, entweder mit von Adobe bereitgestellten Standardvorlagen oder mit benutzerdefinierten Vorlagen, die von Ihrem Unternehmen erstellt wurden. Je nach Analyse oder Anwendungsfall stehen verschiedene Vorlagen zur Verfügung. [Hier erhalten Sie weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) über die verschiedenen verfügbaren Vorlagenoptionen.
+Sie können Ihre Analyse auch mit vordefinierten **Vorlagen** beginnen, entweder mit von Adobe bereitgestellten Standardvorlagen oder mit benutzerdefinierten Vorlagen, die von Ihrem Unternehmen erstellt wurden. Je nach Analyse oder Anwendungsfall stehen verschiedene Vorlagen zur Verfügung. [Hier erhalten Sie weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de) über die verschiedenen verfügbaren Vorlagenoptionen.
 
 ## Analyse erstellen {#analysis}
 
@@ -46,23 +45,23 @@ In Ihrem Workspace-Projekt können Sie von der linken Leiste aus auf **Bereiche,
 
 ### Komponenten
 
-**Komponenten** sind Dimensionen, Metriken, Segmente oder Datumsbereiche, die alle in einer **[!UICONTROL Freiformtabelle]** kombiniert werden können, um Sie bei der Beantwortung Ihrer betrieblichen Frage zu unterstützen. Machen Sie sich mit jedem [Komponententyp](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) vertraut, bevor Sie mit Ihrer Analyse fortfahren. Wenn Sie die Terminologie der Komponenten kennen, können Sie mit dem Ziehen und Ablegen beginnen, um [Ihre Analyse ](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)in einer **[!UICONTROL Freiform-Tabelle]** zu erstellen.
+**Komponenten** sind Dimensionen, Metriken, Segmente oder Datumsbereiche, die alle in einer **[!UICONTROL Freiformtabelle]** kombiniert werden können, um Sie bei der Beantwortung Ihrer betrieblichen Frage zu unterstützen. Machen Sie sich mit jedem [Komponententyp](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) vertraut, bevor Sie mit Ihrer Analyse fortfahren. Wenn Sie die Terminologie der Komponenten kennen, können Sie mit dem Ziehen und Ablegen beginnen, um [Ihre Analyse ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)in einer **[!UICONTROL Freiform-Tabelle]** zu erstellen.
 
 ![](assets/build-components.png)
 
 ### Visualisierungen
 
-**Visualisierungen** wie Balken- oder Liniendiagramme werden dann über den Daten hinzugefügt, um sie visuell darzustellen. Wählen Sie in der linken Leiste das mittlere Symbol **[!UICONTROL Visualisierungen]** aus, um die vollständige Liste der verfügbaren [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) anzuzeigen.
+**Visualisierungen** wie Balken- oder Liniendiagramme werden dann über den Daten hinzugefügt, um sie visuell darzustellen. Wählen Sie in der linken Leiste das mittlere Symbol **[!UICONTROL Visualisierungen]** aus, um die vollständige Liste der verfügbaren [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) anzuzeigen.
 
 ![](assets/build-visualizations.png)
 
 ### Bedienfelder
 
-**Bedienfelder** dienen zur Organisation Ihrer Analyse in einem Projekt und können viele Tabellen und Visualisierungen enthalten. Viele der in Analysis Workspace bereitgestellten Bedienfelder generieren einen vollständigen Satz von Analysen auf der Grundlage einiger Benutzereingaben. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Bedienfelder]** oben aus, um eine vollständige Liste der verfügbaren [Bedienfelder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/panels.html) anzuzeigen.
+**Bedienfelder** dienen zur Organisation Ihrer Analyse in einem Projekt und können viele Tabellen und Visualisierungen enthalten. Viele der in Analysis Workspace bereitgestellten Bedienfelder generieren einen vollständigen Satz von Analysen auf der Grundlage einiger Benutzereingaben. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Bedienfelder]** oben aus, um eine vollständige Liste der verfügbaren [Bedienfelder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) anzuzeigen.
 
 ![](assets/build-panels.png)
 
 ## Zusätzliche Ressourcen {#resources}
 
-* Adobe bietet Hunderte von [Analytics-Video-Tutorials](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/overview.html).
+* Adobe bietet Hunderte von [Analytics-Video-Tutorials](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html).
 * [Neuerungen in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) enthält aktuelle Informationen zu neuen Funktionen.
