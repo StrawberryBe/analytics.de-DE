@@ -3,11 +3,10 @@ description: Die Registerkarte „Nutzung der Report Suite“ bietet Daten über
 title: Anzeigen der Nutzung der Report Suite
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +18,7 @@ Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-N
 
 >[!IMPORTANT]
 >
->Falls eine Report Suite nicht mit einer [Experience Cloud-Organisation verbunden ist](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html), werden ihre Nutzungsdaten nicht im Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Experience Cloud-Organisationen zusammenhängen. Das Verhältnis zwischen einer Organisation und einer Abrechnungs-ID ist nicht immer 1:1.
+>Falls eine Report Suite nicht mit einer [Experience Cloud-Organisation verbunden ist](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), werden ihre Nutzungsdaten nicht im Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Experience Cloud-Organisationen zusammenhängen. Das Verhältnis zwischen einer Organisation und einer Abrechnungs-ID ist nicht immer 1:1.
 
 Das Dashboard zur Nutzung der Report Suite
 
