@@ -5,10 +5,10 @@ title: Konversionsvariablen (eVar)
 feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 100%
+source-wordcount: '1578'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Wenn eine Trafficmessung oder -pfaderstellung gewünscht wird, wird empfohlen, T
 
 >[!NOTE]
 >
->Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html).
+>Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Konversionsvariablen – Beschreibungen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -88,7 +88,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Merchandisingvariablen können einer oder zwei Syntaxen folgen: </p> <p> <b>Produktsyntax</b>:</span> Hiermit wird einem Produkt der eVar-Wert zugewiesen. Hinweis: Wenn die Produktsyntax ausgewählt ist, ist der Bereich „Merchandising-Binding-Ereignis“ deaktiviert und kann nicht für die Bearbeitung ausgewählt werden. Für diese Syntax können keine Binding-Ereignisse angewendet werden. </p> </p> <p> <b>Syntax der Konversionsvariablen</b>:</span> Hierbei wird einem Produkt nur dann die eVar zugewiesen, wenn ein Binding-Ereignis auftritt. In diesem Fall legen Sie fest, welche Ereignisse als Binding-Ereignisse gelten. </p> <p>Wenn Sie diese Einstellung ändern, ohne den JavaScript-Code zu aktualisieren, gehen Daten verloren. Siehe <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/variables/merchandising-variables/var-merchandising.html">Merchandising-Variablen</a>. </p> </td> 
+   <td colname="col2"> <p>Merchandisingvariablen können einer oder zwei Syntaxen folgen: </p> <p> <b>Produktsyntax</b>:</span> Hiermit wird einem Produkt der eVar-Wert zugewiesen. Hinweis: Wenn die Produktsyntax ausgewählt ist, ist der Bereich „Merchandising-Binding-Ereignis“ deaktiviert und kann nicht für die Bearbeitung ausgewählt werden. Für diese Syntax können keine Binding-Ereignisse angewendet werden. </p> </p> <p> <b>Syntax der Konversionsvariablen</b>:</span> Hierbei wird einem Produkt nur dann die eVar zugewiesen, wenn ein Binding-Ereignis auftritt. In diesem Fall legen Sie fest, welche Ereignisse als Binding-Ereignisse gelten. </p> <p>Wenn Sie diese Einstellung ändern, ohne den JavaScript-Code zu aktualisieren, gehen Daten verloren. Siehe <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html">Merchandising-Variablen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising-Binding-Ereignis</span> </p> <p>(nur eVar) </p> </td> 
