@@ -2,17 +2,16 @@
 title: Besucher mit Experience Cloud ID
 description: Die Anzahl der Unique Visitors, die den Adobe Experience Cloud ID Service verwenden.
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 96%
 
 ---
 
 # Besucher mit Experience Cloud ID
 
-Die Metrik „Besucher mit Experience Cloud ID“ gibt die Anzahl der Unique Visitors an, die von Adobe mithilfe des [Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) identifiziert wurden. Sie können diese Dimension mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
+Die Metrik „Besucher mit Experience Cloud ID“ gibt die Anzahl der Unique Visitors an, die von Adobe mithilfe des [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) identifiziert wurden. Sie können diese Dimension mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
 
 >[!NOTE]
 >
@@ -20,7 +19,7 @@ Die Metrik „Besucher mit Experience Cloud ID“ gibt die Anzahl der Unique Vis
 
 ## Berechnung dieser Metrik
 
-Diese Metrik basiert auf der Metrik [Unique Visitors](unique-visitors.md), mit der Ausnahme, dass sie nur die mit der `mid`-Abfragezeichenfolge identifizierten Personen enthält (basierend auf dem [`s_ecid`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie).
+Diese Metrik basiert auf der Metrik [Unique Visitors](unique-visitors.md), mit der Ausnahme, dass sie nur die mit der `mid`-Abfragezeichenfolge identifizierten Personen enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie).
 
 ## Debuggen Ihres Experience Cloud ID-Setups
 
