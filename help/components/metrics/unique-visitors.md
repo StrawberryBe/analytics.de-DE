@@ -2,11 +2,10 @@
 title: Unique Visitors
 description: Die Anzahl der Unique-Visitor-IDs.
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -29,9 +28,9 @@ Diese Metrik zählt die Anzahl der Unique-Visitor-IDs für ein gegebenes Dimensi
 | Verwendete Reihenfolge | Abfrageparameter (Erfassungsmethode) | Vorhanden, wenn |
 | --- | --- | --- |
 | 1 | `vid` | Die [`visitorID`](/help/implement/vars/config-vars/visitorid.md)-Variable ist gesetzt. |
-| 2 | `aid` | Der Besucher verfügt über ein vorhandenes [`s_vi`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie. Wird bei Implementierungen ohne oder vor der Implementierung des Besucher-Identity Service gesetzt. |
-| 3 | `mid` | Der Besucher verfügt über ein vorhandenes [`s_ecid`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie. Wird bei Implementierungen mit dem [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) gesetzt. |
-| 4 | `fid` | Besucher hat ein bestehendes [`s_fid`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie, oder wenn `aid` und `mid` aus irgendeinem Grund nicht gesetzt werden konnten. |
+| 2 | `aid` | Der Besucher verfügt über ein vorhandenes [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie. Wird bei Implementierungen ohne oder vor der Implementierung des Besucher-Identity Service gesetzt. |
+| 3 | `mid` | Der Besucher verfügt über ein vorhandenes [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie. Wird bei Implementierungen mit dem [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) gesetzt. |
+| 4 | `fid` | Besucher hat ein bestehendes [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie, oder wenn `aid` und `mid` aus irgendeinem Grund nicht gesetzt werden konnten. |
 | 5 | IP-Adresse, Benutzeragent, Gateway-IP-Adresse | Letztes Mittel, einen Unique Visitor zu identifizieren, wenn der Browser des Besuchers keine Cookies akzeptiert. |
 
 >[!NOTE]
