@@ -1,15 +1,14 @@
 ---
-description: Von der Benutzermigration betroffene Listen-APIs
+description: Listet die von der Benutzermigration betroffenen APIs auf
 title: Von der Benutzermigration betroffene APIs
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 92%
+source-wordcount: '243'
+ht-degree: 88%
 
 ---
-
 
 # Von der Benutzermigration betroffene APIs{#apis-affected-by-the-migration}
 
@@ -34,7 +33,7 @@ Die folgenden API-Methoden in den Versionen v1.3 und v1.4 der Admin-API werden n
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## Maßnahmen, die Sie ergreifen können  {#section-8b0b89a862614f729ebdbe092ce99027}
+## Maßnahmen, die Sie ergreifen können {#section-8b0b89a862614f729ebdbe092ce99027}
 
 Sollte Ihr Unternehmen diese Methoden derzeit verwenden, erhalten Sie nach dem 31. März 2018 eine Migrationsbenachrichtigung. Die Benachrichtigung erfolgt mindestens 30 Tage vor Beginn der Migration Ihres Unternehmens auf die Experience Cloud-Authentifizierung. Ab diesem Zeitpunkt werden diese Methoden nicht mehr unterstützt.
 
@@ -45,5 +44,4 @@ Weitere Informationen:
 * [Allgemeines User Management – Start](https://helpx.adobe.com/de/enterprise/help/users.html)
 * [User Managements-APIs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [User Managements-API-Forum](https://forums.adobe.com/community/umapi/overview)
-* [Migration des Analytics-Benutzerzugriffs und -managements zur Experience Cloud](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
-
+* [Migration des Analytics-Benutzerzugriffs und -managements zur Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
