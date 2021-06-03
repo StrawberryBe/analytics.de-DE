@@ -2,10 +2,10 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2433'
-ht-degree: 100%
+source-wordcount: '2429'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Korrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen aufgeschlüsselt. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.
 * **Aktuelle Daten:** eine Option in einigen Berichten, mit der kürzlich gesammelte Daten, die noch nicht vollständig verarbeitet wurden, aufgenommen werden können. Siehe [Aktuelle Daten](/help/analyze/reports-analytics/current-data.md) im Benutzerhandbuch zu Analysen.
 * **Benutzerspezifischer Link:** ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen. Siehe auch „Treffer“.
-* **Kundenattribute:** eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html) im Benutzerhandbuch zu zentralen Diensten.
+* **Kundenattribute:** eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) im Benutzerhandbuch zu zentralen Diensten.
 * **Support-Beauftragter:** ein bestimmter Anwender, der zur direkten Interaktion mit der Adobe-Kundenunterstützung bestimmt ist. Siehe [Support-Beauftragte](https://helpx.adobe.com/de/experience-cloud/supported-users.html) in der Experience Cloud-Wissensdatenbank.
 * **Datenerfassungs-Server:** Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungs-Server von Adobe gesendet.
 * **Daten-Connectoren:** eine vollständige Entwicklungslösung, die es Drittanbietern ermöglicht, das Hochladen von Daten in Adobe Analytics zu automatisieren. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Die meisten Daten-Connectoren verwenden einen ähnlichen Workflow wie den in Data Sources. Siehe „Data Connectors“ im Benutzerhandbuch zu Importen.
@@ -65,7 +65,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Custom Insight, ein alter Name für benutzerspezifische Traffic-Variablen.
 * **KPI:** Abkürzung für Key Performance Indicator. Metriken, die einem Unternehmen helfen, die Leistung seiner Site zu verstehen. Jede Organisation verfügt über unterschiedliche KPIs, die verschiedene Aspekte ihres Geschäfts messen. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
 * **Latenz:** die Verzögerung zwischen der Datenerfassung und der Verfügbarkeit in Berichten. Die typische Latenz in einer Report Suite beträgt 30 bis 90 Minuten. Siehe [Latenz](/help/technotes/latency.md) im Benutzerhandbuch zu technischen Informationen.
-* **Launch:** Kurzform von Adobe Experience Platform Launch, der aktuellen Implementierungslösung von Adobe. Siehe [Übersicht](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) im Benutzerhandbuch zu Adobe Experience Platform Launch.
+* **Launch:** Kurzform von Adobe Experience Platform Launch, der aktuellen Implementierungslösung von Adobe. Siehe [Übersicht](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html) im Benutzerhandbuch zu Adobe Experience Platform Launch.
 * **Listen-Prop:** eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerspezifische Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Prop](../implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
 * **Listenvariable:** eine separate Variable, die von Konversionsvariablen getrennt ist. Listenvariablen unterstützen mehrere Werte im selben Treffer und Variablenwerte werden bei einem Besuch beibehalten, ähnlich wie Konversionsvariablen. Ein Unternehmen kann nur drei Listenvariablen verwenden. Siehe [Liste](/help/implement/vars/page-vars/list.md) im Benutzerhandbuch zu Implementierungen.
 * **Anmeldeunternehmen:** eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind.
