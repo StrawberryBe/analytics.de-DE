@@ -3,9 +3,9 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen an der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,10 @@ ht-degree: 100%
 
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
-* Informationen zu [!UICONTROL Customer Journey Analytics] finden Sie [hier](https://docs.adobe.com/content/help/de-DE/analytics-platform/using/cja-landing.html).
-* Eine umfassende Liste der neuen Adobe Analytics-Funktionen, Admin-Benachrichtigungen und Fehlerbehebungen finden Sie in den aktuellen [Versionshinweisen zu Experience Cloud](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
+* Informationen zu [!UICONTROL Customer Journey Analytics] finden Sie [hier](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html).
+* Eine umfassende Liste der neuen Adobe Analytics-Funktionen, Admin-Benachrichtigungen und Fehlerbehebungen finden Sie in den aktuellen [Versionshinweisen zu Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 * Weitere Informationen zu neuen Funktionen finden Sie unter [Neue Funktionen in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) im Tools-Benutzerhandbuch.
-* Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html).
+* Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html).
 
 ## Wichtige Aktualisierungsdetails
 
@@ -38,7 +38,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 13. Januar 2020 | [Adobe Analytics und Browsercookies](/help/technotes/cookies/cookies.md) wurden hinzugefügt. |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](/help/admin/company/login-restrictions-eol.md). |
-| 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) festgelegt. |
+| 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) festgelegt. |
 | 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12. September 2019 | Neue Dokumentation für [Journey IQ: Geräteübergreifende Analysen](/help/components/cda/overview.md). |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](/help/analyze/pwa/pwa.md). |
