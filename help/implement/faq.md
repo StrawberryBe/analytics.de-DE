@@ -2,10 +2,9 @@
 title: Häufig gestellte Fragen zur Implementierung
 description: Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Informationen.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '499'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
@@ -20,7 +19,7 @@ Der Identitätsdienst weist eine eindeutige, beständige ID zu, die von den ande
 
 ## Wie wird Heartbeat-Video-Tracking implementiert?
 
-Weitere Informationen finden Sie unter [Messen von Audio und Video in Adobe Analytics](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html).
+Weitere Informationen finden Sie unter [Messen von Audio und Video in Adobe Analytics](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html).
 
 ## Kann eine Dienstunterbrechung bei Adobe die Performance beeinträchtigen?
 
