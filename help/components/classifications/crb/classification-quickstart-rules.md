@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Klassifizierungsregeln
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2028'
 ht-degree: 97%
 
 ---
@@ -19,7 +18,7 @@ Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Reg
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-Mit dem Regel-Builder können Sie einen *Classification-Regelsatz* erstellen, bei dem es sich um eine Liste von *Classification-Regeln* handelt. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
+Mit dem Rule Builder können Sie einen *Classification-Regelsatz* erstellen, der eine Liste von *Classification-Regeln* ist. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
 
 Classification-Regeln eignen sich für Folgendes:
 
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## Wichtige Informationen zu Regeln
 
-* Legen Sie [Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) für Classifications in den [!UICONTROL Admin Tools] fest.
+* Legen Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) für Classifications in den [!UICONTROL Admin Tools] fest.
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -208,7 +207,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 | Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | Regulärer Ausdruck  Für Übereinstimmungszeichenfolge a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## Reguläre Ausdrücke – Beispiel für „enthält nicht“ {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## Reguläre Ausdrücke – Beispiel für „enthält nicht“  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 Dieses Beispiel zeigt einen regulären Ausdruck, mit dem alle Zeichenfolgen abgeglichen werden, die bestimmte Zeichen nicht enthalten (in diesem Fall `13`).
 
@@ -266,7 +265,7 @@ In diesem Ergebnis zeigt `a:b:1313` keine Übereinstimmung an.
 | `a{3,}` | 3 oder mehr von a |
 | `a{3,6}` | Zwischen 3 und 6 von a |
 
-Eine gute Ressource zum Testen der Gültigkeit regulärer Ausdruck ist [https://rubular.com/](https://rubular.com/).
+Eine gute Ressource zum Testen der Gültigkeit regulärer Ausdrücke ist [https://rubular.com/](https://rubular.com/).
 
 ## Informationen zur Regelpriorität
 
@@ -294,7 +293,7 @@ Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für
 
 | Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
-| 3 | Enthält | Cowboys | Stadt | Dallas |
+| 1 | Enthält | Cowboys | Stadt | Dallas |
 | 2 | Enthält | Broncos | Stadt | Denver |
 
 Ein Benutzer sucht nach  *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
@@ -407,7 +406,7 @@ In diesen Schritten wird beschrieben, wie Sie Classification-Regeln validieren u
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) Um Classifications zu überschreiben, aktivieren Sie **[!UICONTROL Classifications für]** &lt;*Auswahl* überschreiben.
+1. (Optional) Um Classifications zu überschreiben, aktivieren Sie **[!UICONTROL Classifications für]** &lt;*selection* überschreiben.
 
    Mit dieser Option können Sie bestehende Classifications für die betroffenen Schlüssel überschreiben.
 
