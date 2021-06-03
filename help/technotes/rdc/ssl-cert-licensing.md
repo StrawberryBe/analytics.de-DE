@@ -2,19 +2,18 @@
 title: SSL-Zertifikatslizenzierung
 description: Zertifizierungsverfahren für kundenverwaltete Zertifikate
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 94%
 
 ---
 
 # SSL-/TLS-Zertifikatlizenzierung
 
-Adobe empfiehlt, dass Sie Ihr Zertifikat ohne zusätzliche Kosten im Rahmen des [Adobe-Programms für verwaltete Zertifikate](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html) verwalten. Das Adobe-Programm für verwaltete Zertifikate ist vollständig automatisiert und stellt sicher, dass Zertifikate zeitnah erneuert werden, sodass abgelaufene Zertifikate keine Auswirkungen haben.
+Adobe empfiehlt, dass Sie Ihr Zertifikat ohne zusätzliche Kosten im Rahmen des [Adobe-Programms für verwaltete Zertifikate](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) verwalten. Das Adobe-Programm für verwaltete Zertifikate ist vollständig automatisiert und stellt sicher, dass Zertifikate zeitnah erneuert werden, sodass abgelaufene Zertifikate keine Auswirkungen haben.
 
-Wenn Sie das [Adobe-Programm für verwaltete Zertifikate](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html) nicht verwenden möchten, sind Sie für die Bereitstellung eines SSL-/TLS-Zertifikats für Erstanbieter-Cookies verantwortlich.
+Wenn Sie das [Adobe-Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) nicht verwenden möchten, sind Sie für die Bereitstellung eines SSL-/TLS-Zertifikats für Erstanbieter-Cookies verantwortlich.
 
 Bei Bereitstellung Ihres eigenen Zertifikats sind Sie dafür verantwortlich, diese SSL-Zertifikate zu kaufen und zu verwalten.  Ihr SSL-/TLS-Zertifikat muss eine unbegrenzte Server-Lizenz enthalten.
 
