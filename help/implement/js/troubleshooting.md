@@ -2,11 +2,10 @@
 title: Fehlerbehebung bei der JavaScript-Implementierung
 description: Informieren Sie sich über häufige Probleme und Best Practices zur Fehlerbehebung bei der Implementierung von JavaScript.
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +85,7 @@ Diese beiden Variablenwerte werden in Adobe Analytics getrennt betrachtet. Das L
 
 Bei Implementierungen, die viele Variablen mit langen Werten füllen, kann es manchmal zu abgeschnittenen Bildanforderungen kommen. Einige ältere Browser, wie z. B. Internet Explorer, legen für Bildanforderungs-URLs eine Beschränkung von 2083 Zeichen fest. Wenn Ihr Unternehmen mit sehr langen Bildanforderungen konfrontiert ist, versuchen Sie Folgendes:
 
-* **Experience Cloud Identity Service verwenden**: AppMeasurement-Bibliotheken 1.4.1 und höher senden Bildanforderungen automatisch über HTTP-POST, wenn sie zu lang sind. Daten, die mit dieser Methode gesendet werden, werden unabhängig von der Länge nicht abgeschnitten. Weitere Informationen finden Sie unter [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
+* **Experience Cloud Identity Service verwenden**: AppMeasurement-Bibliotheken 1.4.1 und höher senden Bildanforderungen automatisch über HTTP-POST, wenn sie zu lang sind. Daten, die mit dieser Methode gesendet werden, werden unabhängig von der Länge nicht abgeschnitten. Weitere Informationen finden Sie unter [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 * **Verarbeitungsregeln verwenden**: [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md) können Werte von einer Variablen in eine andere kopieren. Diese Methode erspart Ihnen das Festlegen des gleichen Werts in mehreren Variablen. Beispiel:
 
    Immer ausführen:<br>
