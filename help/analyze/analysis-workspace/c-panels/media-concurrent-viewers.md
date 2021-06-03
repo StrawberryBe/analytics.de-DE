@@ -4,11 +4,10 @@ description: Verwendung und Interpretation des Bedienfelds „Gleichzeitige Medi
 feature: Bedienfelder
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1061'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 99%
 
 ---
 
@@ -75,7 +74,7 @@ Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Zur Ansicht der Da
 | Kann ich die Anomalieerkennung ausführen? | Nein.  Die Anomalieerkennung ist für dieses Bedienfeld nicht verfügbar. |
 | Warum sollte ich Unique Visitors anstelle von aktiven Sitzungen verwenden? | Die Verwendung von Unique Visitors ermöglicht das Entfernen unerwünschter Spitzen in den Anzeige-Grenzbereichen (wo Sitzungen gleichzeitig enden und beginnen). |
 | Was bedeutet es, parallele Betrachter mit einer Granularität von mehr als einer Minute zu haben? | Bei einer Granularität von mehr als einer Minute stellen gleichzeitige Betrachter die Summe der gleichzeitigen Unique Viewers für alle Minuten innerhalb dieses Zeitraums dar. Beispielsweise ist die Granularität gleichzeitiger Betrachter auf Stundenebene die Summe der gleichzeitigen Unique Viewers für alle Minuten innerhalb der Stunde. |
-| Was ist, wenn ich mehr als einen Tag mit einer Granularität auf Minutenebene sehen möchte? | Um gleichzeitig auf Daten mit Granularität auf Minutenebene für bis zu 1 Monat zuzugreifen, können Sie die Analytics 2.0-APIs verwenden. Weitere Informationen finden Sie unter [Abrufen von JSON-Berichtsdaten zu gleichzeitigen Betrachtern mit Analytics 2.0-APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
+| Was ist, wenn ich mehr als einen Tag mit einer Granularität auf Minutenebene sehen möchte? | Um gleichzeitig auf Daten mit Granularität auf Minutenebene für bis zu 1 Monat zuzugreifen, können Sie die Analytics 2.0-APIs verwenden. Weitere Informationen finden Sie unter [Abrufen von JSON-Berichtsdaten zu gleichzeitigen Betrachtern mit Analytics 2.0-APIs](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
 | Zeigt das Arbeitsbereich-Bedienfeld dieselben Informationen wie der Bericht zu gleichzeitigen Betrachtern? | Nein.  In Analysis Workspace bezeichnet der Begriff „Gleichzeitige Betrachter“ die Anzahl der Unique Visitors, die sich Ihre Medien-Streams zu einem bestimmten Zeitpunkt ansehen, unabhängig von der Anzahl der Sitzungen.<br><br>Dies unterscheidet sich vom Bericht „Gleichzeitige Betrachter“ im Bereich „Berichte“, wo die gleichzeitigen aktiven Sitzungen zugrunde gelegt werden.  Durch die Verwendung der Unique Visitors können unerwünschte Spitzen in den Anzeige-Grenzbereichen, wo die Sitzungen gleichzeitig enden und beginnen, entfernt werden. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
