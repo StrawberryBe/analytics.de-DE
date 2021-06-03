@@ -5,11 +5,10 @@ title: Vorbereiten auf die Verwendung von Data Sources
 topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +20,7 @@ Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzu
 * [Identifizieren von Datendimensionen](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
 * [Kampagnen-Trackingcode](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
 * [Transaktions-ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
-* [Identifizieren eines gültigen Datumsbereichs für Datenquellendaten](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [Identifizieren eines gültigen Datumsbereichs für Datenquelle-Daten ](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
 ## Identifizieren und Benennen der Metriken  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
@@ -29,7 +28,7 @@ Sie müssen die Metriken oder Messungen verstehen, die in den Datenquellen entha
 
 Nachdem Sie die entsprechenden Metrik-zu-Ereignis-Zuordnungen für die Data Sources-Daten bestimmt haben, benennen Sie die Ereignisse mit beschreibenden Namen für die zugeordnete Data Sources-Metrik um.
 
-Siehe [Erfolgsereignisse](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe der Admin Tools.
+Siehe [Erfolgsereignisse](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe der Admin Tools.
 
 >[!NOTE]
 >
@@ -51,7 +50,7 @@ Wenn Sie die zu verwendende Datendimension mit einer Datenquelle definiert haben
 
 Wenn Sie eVars verwenden, können Sie entweder vorhandene eVars oder neue eVars als Datendimensionen verwenden. Stellen Sie nach Auswahl einer eVar für den Empfang einer Datendimension aus Data Sources sicher, dass Sie sie ordnungsgemäß benennen.
 
-Siehe [Erfolgsereignisse](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe zu Analytics.
+Siehe [Erfolgsereignisse](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe zu Analytics.
 
 ## Kampagnen-Trackingcode {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +62,7 @@ Wenn Sie Data Sources-Metriken ohne zugeordneten eVar-Wert importieren, können 
 
 Mit einer Transaktions-ID wird ein Online-Ereignis mit einem Offline-Ereignis verbunden.
 
-## Identifizieren eines gültigen Datumsbereichs für Datenquelle-Daten   {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identifizieren eines gültigen Datumsbereichs für Datenquelle-Daten  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Nachdem Sie die Data Sources-Metriken (benutzerspezifische Ereignisse) und Datendimensionen (eVars) definiert haben, müssen Sie den Datumsbereich der Datenquelle-Daten überprüfen, die Sie importieren möchten. Sie können keine Data Sources-Daten importieren, die außerhalb des Bereichs der vorliegenden Berichtsdaten liegen.
 
