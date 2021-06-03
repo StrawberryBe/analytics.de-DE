@@ -6,11 +6,10 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '230'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 96%
 
 ---
 
@@ -31,9 +30,9 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
    >
    >Die Anzahl der in der Tabelle angezeigten Aufschlüsselungen ist auf 200 beschränkt. Für das Exportieren von Aufschlüsselungen ist diese Einschränkung höher.
 
-[Hinzufügen von Dimensionen und Metriken zu Ihrem Projekt in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[Hinzufügen von Dimensionen und Metriken zu Ihrem Projekt in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[Arbeiten mit Dimensionen in einer Freiformtabelle](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
+[Arbeiten mit Dimensionen in einer Freiformtabelle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## Attributionsmodelle auf Aufschlüsselungen anwenden
 
