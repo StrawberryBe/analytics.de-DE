@@ -2,13 +2,12 @@
 description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
 title: Filtern von Berichtsdaten
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Grundlagen zu Reports & Analysen
+feature: Grundlagen zu Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '677'
 ht-degree: 99%
 
 ---
@@ -55,7 +54,7 @@ Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzeleleme
 
 **Enthält nicht**
 
-Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://docs.adobe.com/content/help/de-DE/analytics/technotes/unspecified.html) aus Berichten filtern.
+Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) aus Berichten filtern.
 
 Enthält nicht: `none`
 
