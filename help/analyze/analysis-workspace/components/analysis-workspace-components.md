@@ -4,11 +4,10 @@ title: Komponentenübersicht
 feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 92%
 
 ---
 
@@ -16,15 +15,15 @@ ht-degree: 100%
 
 Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag-and-Drop in einem Projekt platzieren können.
 
-Klicken Sie auf der linken Leiste auf das Symbol **[!UICONTROL Komponenten]**, um auf das Menü „Komponenten“ zuzugreifen. Sie können über die Symbole in der linken Leiste oder über [Hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) zwischen [Bedienfeldern](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/panels.html), [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) und Komponenten wechseln.
+Klicken Sie auf der linken Leiste auf das Symbol **[!UICONTROL Komponenten]**, um auf das Menü „Komponenten“ zuzugreifen. Sie können über die Symbole in der linken Leiste oder über [Hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) zwischen [Bedienfeldern](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de), [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) und Komponenten wechseln.
 
 ![](assets/component-overview.png)
 
-Sie können auch die [Ansichtsdichteeinstellungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) für das Projekt anpassen, sodass in der linken Leiste mehr Werte gleichzeitig angezeigt werden können. Gehen Sie hierzu auf **[!UICONTROL Projekt > Projektinformationen und -einstellungen > Ansichtsdichte]**.
+Sie können auch die [Ansichtsdichteeinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=de) für das Projekt anpassen, sodass in der linken Leiste mehr Werte gleichzeitig angezeigt werden können. Gehen Sie hierzu auf **[!UICONTROL Projekt > Projektinformationen und -einstellungen > Ansichtsdichte]**.
 
 ## Dimensionen {#dimensions}
 
-[**Dimensionen**](https://docs.adobe.com/content/help/de-DE/analytics/components/dimensions/overview.html) sind Textattribute, die das Verhalten Ihrer Besucher beschreiben und in Ihrer Analyse angezeigt, aufgeschlüsselt und verglichen werden können. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (orangefarbener Abschnitt) und werden in der Regel als Tabellenzeilen angewendet.
+[**Dimensionen**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) sind Textattribute, die das Verhalten Ihrer Besucher beschreiben und in Ihrer Analyse angezeigt, aufgeschlüsselt und verglichen werden können. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (orangefarbener Abschnitt) und werden in der Regel als Tabellenzeilen angewendet.
 
 Beispiele für Dimensionen sind [!UICONTROL Seitenname], [!UICONTROL Marketing-Kanäle], [!UICONTROL Geräteklasse] und [!UICONTROL Produkte]. Dimensionen werden von Adobe bereitgestellt und über Ihre benutzerdefinierte Implementierung erfasst (beispielsweise eVar, Props, Klassifizierungen).
 
@@ -36,25 +35,25 @@ Beispiele für Dimensionselemente sind [!UICONTROL Startseite] (innerhalb der Di
 
 ## Metriken {#metrics}
 
-[**Metriken**](https://docs.adobe.com/content/help/de-DE/analytics/components/metrics/overview.html) sind quantitative Messungen zum Verhalten von Besuchern. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (grüner Abschnitt) und werden normalerweise als Tabellenspalten angewendet.
+[**Metriken**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) sind quantitative Messungen zum Verhalten von Besuchern. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (grüner Abschnitt) und werden normalerweise als Tabellenspalten angewendet.
 
-Zu den Metriken zählen beispielsweise [!UICONTROL Seitenansichten], [!UICONTROL Besuche], [!UICONTROL Bestellungen], [!UICONTROL Durchschnittliche Besuchszeit] und [!UICONTROL Umsatz/Bestellung]. Metriken werden von Adobe bereitgestellt, über Ihre benutzerdefinierte Implementierung ([!UICONTROL Erfolgsereignisse]) erfasst oder mit dem [Generator für berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) erstellt.
+Zu den Metriken zählen beispielsweise [!UICONTROL Seitenansichten], [!UICONTROL Besuche], [!UICONTROL Bestellungen], [!UICONTROL Durchschnittliche Besuchszeit] und [!UICONTROL Umsatz/Bestellung]. Metriken werden von Adobe bereitgestellt, über Ihre benutzerdefinierte Implementierung ([!UICONTROL Erfolgsereignisse]) erfasst oder mit dem [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) erstellt.
 
 ![](assets/metrics.png)
 
 ## Segmente {#segments}
 
-[**Segmente**](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) sind Zielgruppenfilter, die auf Ihre Analyse angewendet werden. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (blauer Abschnitt) und werden normalerweise oben in einem Bedienfeld oder über den Metrikspalten in einer Tabelle angewendet.
+[**Segmente**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) sind Zielgruppenfilter, die auf Ihre Analyse angewendet werden. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (blauer Abschnitt) und werden normalerweise oben in einem Bedienfeld oder über den Metrikspalten in einer Tabelle angewendet.
 
-Beispiele für Segmente sind [!UICONTROL Besucher über Smartphone und Tablet], [!UICONTROL Besuche aus E-Mails] und [!UICONTROL Authentifizierte Treffer]. Segmente werden durch Adobe bereitgestellt oder in der [Dropzone des Bedienfelds](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/panels.html) oder mit dem [Segment Builder](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-build.html) erstellt.
+Beispiele für Segmente sind [!UICONTROL Besucher über Smartphone und Tablet], [!UICONTROL Besuche aus E-Mails] und [!UICONTROL Authentifizierte Treffer]. Segmente werden durch Adobe bereitgestellt oder in der [Dropzone des Bedienfelds](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) oder mit dem [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) erstellt.
 
 ![](assets/segments.png)
 
 ## Datumsbereiche {#date-ranges}
 
-[**Datumsbereiche**](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) sind der Zeitraum, für den Sie Ihre Analyse durchführen. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (violetter Abschnitt) und werden normalerweise im Kalender der einzelnen Bedienfelder angewendet.
+[**Datumsbereiche**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) sind der Zeitraum, für den Sie Ihre Analyse durchführen. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (violetter Abschnitt) und werden normalerweise im Kalender der einzelnen Bedienfelder angewendet.
 
-Beispiele für Datumsbereiche sind Juli 2019, [!UICONTROL Letzte 4 Wochen] und [!UICONTROL Diesen Monat]. Datumsbereiche werden von Adobe bereitgestellt, im [Kalender des Bedienfelds](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/panels.html) angewendet oder mit der [Datumsbereicherstellung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) erstellt.
+Beispiele für Datumsbereiche sind Juli 2019, [!UICONTROL Letzte 4 Wochen] und [!UICONTROL Diesen Monat]. Datumsbereiche werden von Adobe bereitgestellt, im [Kalender des Bedienfelds](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) angewendet oder mit der [Datumsbereicherstellung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) erstellt.
 
 ![](assets/date-ranges.png)
 
