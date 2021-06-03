@@ -5,11 +5,10 @@ uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: Kuratieren und Freigeben
 role: Business Practitioner, Administrator
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '990'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ Sie können ein vollständiges Projekt unter **[!UICONTROL Projekt > Als PDF her
 
 Beachten Sie beim Herunterladen von Projekten Folgendes:
 
-* Die Anforderung von Projekt-Downloads kann mit oder ohne Speicherung eines Projekts erfolgen.  Es können jedoch nur gespeicherte Projekte [geplant](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) sein.
+* Die Anforderung von Projekt-Downloads kann mit oder ohne Speicherung eines Projekts erfolgen.  Es können jedoch nur gespeicherte Projekte [geplant](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) sein.
 * Der Export von im Browser heruntergeladenen PDF-Dateien kann mehrere Minuten dauern, da das Projekt auf den Adobe-Servern erneut ausgeführt wird, bevor es im PDF-Format ausgegeben wird. Wir empfehlen, das Projekt nicht zu verlassen, bis die PDF-Datei in Ihren Browser heruntergeladen wurde. Sie können jedoch beim Warten weiterhin Änderungen am Projekt vornehmen. Wenn die Ausgabe einer PDF-Datei länger als 5 Minuten dauert, werden Sie aufgefordert, diese stattdessen per E-Mail zu erhalten.
 * PDF-Downloads werden als einzelne Seite ohne Seitenumbruch gerendert.
 * Bei der PDF-Ausgabe eines Projekts wird das gerendert, was sich auf der Seite befindet. Wenn ein Projekt Visualisierungen und Bedienfelder in benutzerdefinierter Größe enthält, müssen Sie diese so ändern, dass die Größe automatisch bestimmt wird (Schaltfläche in der oberen rechten Ecke), damit der Inhalt nicht abgeschnitten wird.
@@ -90,4 +89,4 @@ Wenn Sie mehrere Downloads gleichzeitig anfordern, erhalten Sie eine Benachricht
 | --- | --- |
 | Warum besteht meine heruntergeladene PDF-Datei aus einer Seite? | In Workspace werden heruntergeladene PDFs derzeit nicht in Seiten unterteilt. |
 | Kann ich mehr als 50.000 Elemente mit der Option „Elemente als CSV herunterladen“ exportieren? | Während jeder Download bis zu 50.000 Dimensionselemente enthalten kann, können Sie die Sortierung der Tabelle ändern, um längere Elemente abzurufen, oder einen Filter anwenden, um spezifischere Elemente herunterzuladen. |
-| Beschreibung der Funktion **[!UICONTROL Visualisierung kopieren]** | **[!UICONTROL Visualisierung kopieren]** ist keine Exportoption. Damit können Sie eine Visualisierung oder ein Bedienfeld von einem Bereich in Workspace in einen anderen kopieren. Beispielsweise von einem Bedienfeld in ein anderes im selben Projekt oder von einem Projekt in ein anderes. [Intra-linking-Video](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| Beschreibung der Funktion **[!UICONTROL Visualisierung kopieren]** | **[!UICONTROL Visualisierung kopieren]** ist keine Exportoption. Damit können Sie eine Visualisierung oder ein Bedienfeld von einem Bereich in Workspace in einen anderen kopieren. Beispielsweise von einem Bedienfeld in ein anderes im selben Projekt oder von einem Projekt in ein anderes. [Intra-linking-Video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
