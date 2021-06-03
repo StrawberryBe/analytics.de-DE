@@ -2,14 +2,13 @@
 description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header und Datensignale in Aufrufen der serverseitigen Weiterleitung.
 title: Daten- und Codereferenz für die serverseitige Weiterleitung
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
-
 
 # Daten- und Codereferenz für die serverseitige Weiterleitung
 
@@ -17,7 +16,7 @@ Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header 
 
 ## Konfigurationsvariablen {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf Systemebene, die von unseren [Datenerfassungsservern](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) verwendet werden. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf Systemebene, die von unseren [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) verwendet werden. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Parameter | Beschreibung |
 |--- |--- |
@@ -43,7 +42,7 @@ Diese Header sind Felder und enthalten Informationen wie Aufrufe für Daten und 
 
 ## Kundendefinierte Signale {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Beschreibung |
 |--- |--- |
