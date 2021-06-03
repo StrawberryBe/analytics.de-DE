@@ -5,10 +5,9 @@ title: Schreibgeschützte Projekte
 feature: Kuratieren und Freigeben
 role: Business Practitioner, Administrator
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ Zu den deaktivierten Interaktionen in einem schreibgeschützten Projekt gehören
 
 * Ausgeblendete linke Leiste
 * Report Suite
-* Datumsbereich des Bedienfeldkalenders. Hinweis: Wenn Sie zulassen möchten, dass die Empfänger Kontrolle über den Kalender haben, fügen Sie einen [Dropdown-Filter mit Datumsbereichen](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) hinzu.
+* Datumsbereich des Bedienfeldkalenders. Hinweis: Wenn Sie zulassen möchten, dass die Empfänger Kontrolle über den Kalender haben, fügen Sie einen [Dropdown-Filter mit Datumsbereichen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) hinzu.
 * Freiformfilterung
 * Freiform – Anzahl der sichtbaren Zeilen
 * Freiformzeilen-, Spalten- oder Visualisierungseinstellungen
