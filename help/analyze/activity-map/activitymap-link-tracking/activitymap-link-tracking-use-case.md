@@ -4,14 +4,13 @@ title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 61%
+source-wordcount: '364'
+ht-degree: 59%
 
 ---
-
 
 # Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 
@@ -45,13 +44,13 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
    <td colname="col2">
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
     Kaufen<br/>
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -61,7 +60,7 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
     Empfehlungsbereich<br/>
      <br/>
      <br/>
-    Empfehlungsbedienfeld<br/>
+    Empfehlungsbereich<br/>
      <br/>
      <br/>
     Empfehlungsbereich<br/>
@@ -76,11 +75,11 @@ Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Link
 
 ## Link-ID mit s_objectID anpassen  {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Durch Erstellen einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder eine Link-Position auf einer Seite können Sie die Activity Map-Verfolgung verbessern oder Activity Map verwenden, um einen Link-Typ oder eine Link-Position zu melden, anstatt die Link-URL. Klicken Sie [hier](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html), um weitere Informationen zur Variablen zu erhalten.`s_objectID`
+Durch Erstellung einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder eine Link-Position auf einer Seite können Sie das Activity Map-Tracking verbessern oder Activity Map verwenden, um Berichte zu einem Linktyp oder einer Linkposition anstatt zur Link-URL zu erstellen. Klicken Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html), um weitere Informationen zur Variablen zu erhalten.`s_objectID`
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass ein nachfolgender Semikolon (`;`) erforderlich ist, wenn `s_objectID` in Activity Map verwendet wird.
+>Beachten Sie, dass ein Semikolon (`;`) erforderlich ist, wenn `s_objectID` in Activity Map verwendet wird.
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -107,13 +106,13 @@ Durch Erstellen einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder 
    <td colname="col2">
      <br/>
      <br/>
-    Produkt1<br/>
+    Product1<br/>
      <br/>
      <br/>
-    Produkt2<br/>
+    Product2<br/>
      <br/>
      <br/>
-    Produkt3<br/>
+    Product3<br/>
      <br/>
      <br/>
    </td> 
@@ -123,7 +122,7 @@ Durch Erstellen einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder 
     Empfehlungsbereich<br/>
      <br/>
      <br/>
-    Empfehlungsbedienfeld<br/>
+    Empfehlungsbereich<br/>
      <br/>
      <br/>
     Empfehlungsbereich<br/>
@@ -134,12 +133,12 @@ Durch Erstellen einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder 
  </tbody>
 </table>
 
-## Region anpassen   {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Region anpassen  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &quot;Kaufen&quot;eine eigene Region definiert ist. Fügen Sie dazu einen Parameter `"id"` zu einem der übergeordneten Elemente jedes Verankerungs-Tags &quot;Buy&quot;hinzu.
+Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &quot;Buy&quot;eine eigene Region definiert ist. Fügen Sie dazu einen Parameter `"id"` zu einem der übergeordneten Elemente jedes Verankerungs-Tags &quot;Buy&quot;hinzu.
 
 >[!NOTE]
->Sie sind nicht streng auf den Parameter `"id"` als Regionsbezeichner beschränkt. Sie können Ihre eigene ID auch mit der JavaScript-Variablen `"s.ActivityMap.regionIDAttribute"` festlegen.
+>Sie sind nicht auf den Parameter `"id"` als Regionskennung beschränkt. Sie können Ihre eigene Kennung auch mithilfe der JavaScript-Variablen `"s.ActivityMap.regionIDAttribute"` festlegen.
 >
 >
 ><table id="table_250DB52A869C466B942517BABA1C287B">
@@ -168,13 +167,13 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &
    <td colname="col2">
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
     Kaufen<br/>
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -195,7 +194,7 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &
  </tbody>
 </table>
 
-## Activity Map-Moduldatei AppMeasurement anpassen   {#section_B933BB9F944E4D5389002908A5A881F8}
+## Activity Map-Moduldatei AppMeasurement anpassen  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 Sie sollten den geänderten Code unbedingt testen, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
@@ -215,7 +214,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-Das `linkName` wird bei Aufrufen an `s.tl()` weitergeleitet.
+`linkName` wird bei Aufrufen an `s.tl()` übergeben.
 
 ```
 s.ActivityMap.region = function(ele) {
