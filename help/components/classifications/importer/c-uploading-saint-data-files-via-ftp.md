@@ -5,10 +5,10 @@ title: FTP-Import
 feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](https://docs.adobe.com/content/help/de-DE/analytics/export/ftp-and-sftp/ftp-overview.html).
+Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html).
 
 1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klicken Sie auf **[!UICONTROL Datei importieren]** und dann auf **[!UICONTROL FTP-Import]**.
