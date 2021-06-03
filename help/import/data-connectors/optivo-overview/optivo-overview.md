@@ -2,20 +2,19 @@
 description: Diese Integration kombiniert die Leistungsfähigkeit des in E-Mail-Marketingsoftware integrierten Feedback-Systems und der verhaltensbasierten Berichterstattung von Adobe Analytics, um leistungsstarke Analyse- und Optimierungsmöglichkeiten für Ihre Organisation zu schaffen.
 title: optivo® broadmail-Data Connector für Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1082'
 ht-degree: 98%
 
 ---
-
 
 # optivo® broadmail-Data Connector für Adobe Analytics {#optivo-broadmail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Am 1. August 2021 werden wir die Adobe Data Connector-Technologie beenden. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
+>Am 1. August 2021 wird die Adobe Data Connector-Technologie eingestellt. [Weitere Informationen...](/help/import/data-connectors/data-connectors-eol.md)
 
 Diese Integration kombiniert die Leistungsfähigkeit des in E-Mail-Marketingsoftware integrierten Feedback-Systems und der verhaltensbasierten Berichterstattung von Adobe Analytics, um leistungsstarke Analyse- und Optimierungsmöglichkeiten für Ihre Organisation zu schaffen.
 
@@ -72,7 +71,7 @@ Bevor Sie die Data Connectors-Integration für starten, sollten Sie die folgende
 
 * **Datenschutz-Compliance**: Sie sollten sich darüber im Klaren sein, dass durch die Aktivierung des Empfänger- oder Besucher-ID-Trackings diese Funktion persönliche Informationen Ihrer Site-Besucher verfolgen kann. Dies wirkt sich auf den Datenschutz aus, sodass Ihre Organisation entsprechende Verfahren implementieren muss, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher.
 
-## Preise {#pricing}
+## Preise{#pricing}
 
  Achten Sie darauf, dass Ihrer Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe entstehen.
 
@@ -90,4 +89,4 @@ Diese Integration steht [!DNL ~Partner~]-Kunden zur Verfügung. Es gelten jedoch
 
 Für diese Integration sind Adobe Analytics-Variablen zur Verfolgung von Metriken erforderlich.
 
-Nachdem Sie die Ereignisse und eVars identifiziert haben, die in dieser Integration verwendet werden sollen, müssen sie in der Analytics Admin Console aktiviert werden (Anweisungen hierzu finden Sie unter [Report Suites](https://docs.adobe.com/content/help/de-DE/analytics/admin/manage-report-suites/report-suites-admin.html)).
+Nachdem Sie die Ereignisse und eVars identifiziert haben, die in dieser Integration verwendet werden sollen, müssen sie in der Analytics Admin Console aktiviert werden (Anweisungen hierzu finden Sie unter [Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)).
