@@ -5,10 +5,10 @@ title: Classification Rule Builder-Workflow
 feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Für die Implementierung von Classification-Regeln gelten die nachfolgenden allg
 
 | Schritt | Wo | Beschreibung |
 |--- |--- |--- |
-| Schritt 1 (Voraussetzung): [Classification-Schema einrichten](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Einstellungen bearbeiten] > &lt;Traffic-Klassifizierungen oder Konversionsklassifizierungen> | Wählen Sie eine Variable aus und definieren Sie die für die Variable zu verwendenden Classifications. <br>Für Variablen muss mindestens eine Classification-Spalte erstellt werden, bevor sie in Regeln genutzt werden können.<br>Sobald Classifications aktiviert sind, können Sie den Importeur und den Rule Builder verwenden, um bestimmte Werte zu klassifizieren. |
+| Schritt 1 (Voraussetzung): [Classification-Schema einrichten](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Einstellungen bearbeiten] > &lt;Traffic-Klassifizierungen oder Konversionsklassifizierungen> | Wählen Sie eine Variable aus und definieren Sie die für die Variable zu verwendenden Classifications. <br>Für Variablen muss mindestens eine Classification-Spalte erstellt werden, bevor sie in Regeln genutzt werden können.<br>Sobald Classifications aktiviert sind, können Sie den Importeur und den Rule Builder verwenden, um bestimmte Werte zu klassifizieren. |
 | Schritt 2: [Regelsatz erstellen](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Admin] > [!UICONTROL Classification Rule Builder] > [!UICONTROL Regelsatz hinzufügen] | Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. |
 | Schritt 3: Report Suites und Variablen konfigurieren. | [!UICONTROL Classification Rule Builder] >  &lt;Ihr Regelsatz> | Wenden Sie den Regelsatz auf Report Suites und Variablen an. |
 | Schritt 4: [Classification-Regeln zum Satz hinzufügen](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] >  &lt;Ihr Regelsatz> | Ordnen Sie einer Classification eine Bedingung zu, und legen Sie die Aktion fest, die für die Regel ausgeführt werden soll.  Machen Sie sich mit den Informationen unter [Verarbeitung der Regeln](/help/components/classifications/crb/classification-quickstart-rules.md) vertraut. |
@@ -51,4 +51,4 @@ Für die Implementierung von Classification-Regeln gelten die nachfolgenden allg
 
 **Blog**: Weitere Informationen zu dieser Funktion finden Sie im Digital Marketing Blog: [Regelbasierte Klassifizierungen](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Sehen Sie sich das Video [Übersicht über Klassifizierungen](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) an.
+**Video**: Sehen Sie sich das Video [Übersicht über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) an.
