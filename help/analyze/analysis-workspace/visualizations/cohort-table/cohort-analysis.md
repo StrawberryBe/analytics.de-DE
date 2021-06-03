@@ -4,11 +4,10 @@ description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgrupp
 feature: Visualisierungen
 role: Business Practitioner, Administrator
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +27,7 @@ Beispiele für die Nutzung einer [!UICONTROL Kohortenanalyse]:
 
 Die [!UICONTROL Kohortenanalyse] steht allen Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analysis Workspace] zur Verfügung.
 
-[Video-Tutorial zur Kohortenanalyse](https://docs.adobe.com/content/help/de/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[Video-Tutorial zur Kohortenanalyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
