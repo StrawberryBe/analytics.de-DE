@@ -2,11 +2,10 @@
 title: Durchschnittliche Sitzungslänge (Mobil)
 description: Die durchschnittliche Sitzungslänge für das Mobilgerät.
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '83'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 90%
 
 ---
 
@@ -16,4 +15,4 @@ Die Metrik „Durchschnittliche Sitzungslänge (Mobil)“ zeigt die durchschnitt
 
 ## Berechnung dieser Metrik
 
-Diese Metrik wird mit den [Mobile-Metriken](https://docs.adobe.com/content/help/de-DE/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) berechnet`'Total session length' / ('Launches' - 'First launches'`.
+Diese Metrik wird mit den [Mobile-Metriken](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) berechnet`'Total session length' / ('Launches' - 'First launches'`.
