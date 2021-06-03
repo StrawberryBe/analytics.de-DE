@@ -3,11 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2142'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2132'
+ht-degree: 98%
 
 ---
 
@@ -309,8 +308,8 @@ Releasedatum: **18. Juni 2015**
 
 Releasedatum: **21. Mai 2015**
 
-* Die iOS SDK-Version 4.5 enthält eine neue iOS-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Apps, Today Widgets, Photo Editing Widgets und allen anderen Apps der iOS-Erweiterung erlaubt. Siehe [Implementierung der iOS-Erweiterung](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/ios-ext/ios-ext.html) im Mobile Services-Benutzerhandbuch.
-* Die Android SDK-Version 4.5 enthält eine neue Android-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihrer Android Wearable App ermöglicht. Siehe [Android Wearables](https://docs.adobe.com/content/help/de-DE/mobile-services/android/wearables-android/android-wearable.html) im Mobile Services-Benutzerhandbuch.
+* Die iOS SDK-Version 4.5 enthält eine neue iOS-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Apps, Today Widgets, Photo Editing Widgets und allen anderen Apps der iOS-Erweiterung erlaubt. Siehe [Implementierung der iOS-Erweiterung](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) im Mobile Services-Benutzerhandbuch.
+* Die Android SDK-Version 4.5 enthält eine neue Android-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihrer Android Wearable App ermöglicht. Siehe [Android Wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) im Mobile Services-Benutzerhandbuch.
 * Aufnahme der Visitor API 1.4.
 * AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 
@@ -395,7 +394,7 @@ Releasedatum: **22. Mai 2014**
 
 Releasedatum: **17. April 2014**
 
-* Unterstützung des [Experience Cloud-Besucher-ID-Dienstes](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
+* Unterstützung des [Experience Cloud-Besucher-ID-Dienstes](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.2.4
 
@@ -425,8 +424,8 @@ Releasedatum: **15. November 2013**
 
 Releasedatum: **14. November 2013**
 
-* Unterstützung für [Heartbeat-Videomessungen](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) zu unterstützen.
+* Unterstützung für [Heartbeat-Videomessungen](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html) hinzugefügt.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zu unterstützen.
 
 ## Version 1.1.1
 
