@@ -5,11 +5,10 @@ title: Verarbeitungsreihenfolge
 feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +36,7 @@ In den folgenden Tabellen sind die Daten aufgeführt, die in der Regel vor und n
 | Von VISTA hinzugefügte Daten | Verarbeitungsregeln werden vor VISTA angewendet. |
 | Anzahl besuchter Seiten | Im Allgemeinen beziehen sich Verarbeitungsregeln nur auf die im aktuellen Treffer befindlichen Daten. Die Anzahl besuchter Seiten wird nach der Anwendung der Verarbeitungsregeln kompiliert. |
 | Falls Seitenname nicht festgelegt ist, wird bereinigte URL-Adresse verwendet | Nachdem die Verarbeitungsregeln und die VISTA-Regeln angewendet wurden, wird die bereinigte URL-Adresse als Seitenname hinzugefügt, insofern kein Seitenname festgelegt wurde. Da dies nach der Anwendung der Verarbeitungsregeln geschieht, sollten Sie mit Hilfe einer Bedingung prüfen, ob die Angabe für den Seitennamen leer ist.  Wenn Sie unter „Site-Content“ die Option „Seitenberichte“ aufrufen und dort für Seitennamen „https://“-Werte angegeben sind, ist der Eintrag für den Seitennamen aller Wahrscheinlichkeit nach leer, und die URL-Adresse wird verwendet.  Sie können eine Bedingung einrichten, um zu prüfen, ob der Seitennamen-Eintrag leer ist bzw. ob dieser Eintrag bzw. der Eintrag für die URL-Adresse der Seite einen bestimmten Wert aufweist. Der Seitenname kann anschließend nach Bedarf festgelegt werden. |
-| Marketingkanal-Verarbeitungsregeln | Mit Hilfe von Verarbeitungsregeln können Sie Daten für die Verarbeitung mit [Marketingkanal-Regeln](https://docs.adobe.com/content/help/de-DE/analytics/components/marketing-channels/c-rules.html) vorbereiten. |
+| Marketingkanal-Verarbeitungsregeln | Mit Hilfe von Verarbeitungsregeln können Sie Daten für die Verarbeitung mit [Marketingkanal-Regeln](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html) vorbereiten. |
 | GEO-Suche | Dies betrifft die Werte „Bundesstaat des Besuchers“ und „Postleitzahl des Besuchers“. |
 | eVars-Speicherung | eVars aus einem vorherigen Treffer werden bei der Regelverarbeitung nicht bei jedem Treffer beibehalten. Es stehen jeweils nur die beim aktuell verarbeiteten Treffer festgelegten eVars zur Verfügung. |
 
