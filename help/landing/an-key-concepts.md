@@ -2,10 +2,10 @@
 description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 title: Adobe Analytics – Schlüsselkonzepte
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 99%
+source-wordcount: '1822'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurz
 | Analysis Workspace | Browserlösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse. Bietet mehr Berichtsflexibilität als Reports &amp; Analytics. | [Analysis Workspace-Homepage](/help/analyze/analysis-workspace/home.md) |
 | Reports &amp; Analytics (ehemals SiteCatalyst) | Browserlösung zur Berichterstellung und Analyse. Starter-Tool im Analytics-Paket. | [Reports &amp; Analytics-Homepage](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Excel-Add-in, mit dem Sie benutzerspezifische Anfragen für Adobe Analytics-Daten erstellen und mit Microsoft Excel visualisieren können. | [Report Builder-Homepage](/help/analyze/report-builder/home.md) |
-| Data Workbench (ehemals Insight) | Wurde konstruiert, um Sie bei der Sammlung, Verarbeitung, Analyse und Visualisierung von Online- und Offline-Kundeninteraktionen über mehrere Kanäle hinweg zu unterstützen. | [Data Workbench-Client](https://docs.adobe.com/content/help/de-DE/data-workbench/using/client/t-open-ins.html) |
+| Data Workbench (ehemals Insight) | Wurde konstruiert, um Sie bei der Sammlung, Verarbeitung, Analyse und Visualisierung von Online- und Offline-Kundeninteraktionen über mehrere Kanäle hinweg zu unterstützen. | [Data Workbench-Client](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | Unverarbeitete Rohdaten zur Speicherung und für benutzerdefinierte Berichte, die Sie durch Datenfilterung erstellen können. Nicht auf Treffer-Niveau. | [Data Warehouse-Homepage](/help/export/data-warehouse/data-warehouse.md) |
-| Adobe Mobile Services | Führt mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. | [Mobile Services-Homepage](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html) |
+| Adobe Mobile Services | Führt mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. | [Mobile Services-Homepage](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (früher Genesis) | Ermöglicht den Import von Nachverfolgungsdaten aus Drittanbieteranwendungen in Analytics, um eine vollständige Übersicht der Leistung an einem zentralen Ort bereitzustellen. Zum 1. August 2021 beabsichtigt Adobe, Integrationen von Data Connectors einzustellen. | [Data Connectors-Homepage](/help/import/data-connectors/data-connectors-eol.md) |
 | Adobe Experience Platform Launch | Die nächste Generation von Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs. | [Adobe Experience Platform Launch-Homepage](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
@@ -58,7 +58,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | Berichte zur Customer Journey | Zeigt Informationen über den Pfad an, den Ihre Benutzer auf Ihrer Site oder in Ihrer App nehmen. Eigenschaften, eVars und Ereignisse können in dieser Analyse in Analysis Workspace verwendet werden. | [Analysis Workspace-Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace-Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports &amp; Analytics-Pfad](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Marketing-Kanäle | Mithilfe von Berichte erfahren Sie mehr zu den externen Kanälen, über die Besucher auf Ihre Site gelangen, und welche davon bei der Generierung von Konversionen am effektivsten sind. Zuordnungsansichten für die erste und letzte Berührung werden bereitgestellt. Das ist die bevorzugte externe Traffic-Berichtsquelle in Adobe Analytics (anders als Kampagnen oder Traffic-Quellen), da sie den umfassendsten Überblick sowohl über gezahlte als auch über organische Kanäle bietet. | [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Zeigt Informationen zu mit Mobilgeräten oder Tablets geöffneten Websites an. | [Mobil-Bericht](/help/components/dimensions/mobile-dimensions.md) |
-| Mobile App | Zeigt grundlegende Nutzungsinformationen in Bezug auf Ihre mobilen Anwendungen an. Diese Berichte sind verfügbar, wenn Ihre SDK implementiert und die Berichtsfunktion aktiviert wurde.  Zudem hat Adobe Mobile Services eine eigene Benutzeroberfläche für mobile Anwendungen erstellt, die vollständigere Anwendungsdaten anzeigt und es Ihnen ermöglicht, die Benutzerinteraktionen zu verstehen und zu verbessern.  Greifen Sie [hier](https://mobilemarketing.adobe.com) auf die Oberfläche zu. | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Mobile App | Zeigt grundlegende Nutzungsinformationen in Bezug auf Ihre mobilen Anwendungen an. Diese Berichte sind verfügbar, wenn Ihre SDK implementiert und die Berichtsfunktion aktiviert wurde.  Zudem hat Adobe Mobile Services eine eigene Benutzeroberfläche für mobile Anwendungen erstellt, die vollständigere Anwendungsdaten anzeigt und es Ihnen ermöglicht, die Benutzerinteraktionen zu verstehen und zu verbessern.  Greifen Sie [hier](https://mobilemarketing.adobe.com) auf die Oberfläche zu. | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Produkte | Identifiziert, wie einzelne Produkte bzw. Produktgruppen (Kategorien) zu verschiedenen Konversionsmetriken wie Umsatz oder Checkouts beitragen. | [Produktbericht](/help/components/dimensions/product.md) |
 | Segmentvergleich | Erkennt die meisten statistisch signifikanten Unterschiede zwischen Segmenten mithilfe einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben. | [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Site-Inhaltsbericht | Zeigt an, welche Seiten und Bereiche Ihrer Site am aktivsten sind und welche Server am häufigsten genutzt werden. | [Site-Inhaltsbericht](/help/components/dimensions/page.md) |
@@ -84,7 +84,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | --- | --- | --- |
 | Classification Importer | Metadaten gegen erfasste Abmessungen über Browser- oder FTP-Upload importieren. Manuelles Verfahren im Vergleich zu Rule Builder. | [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) |
 | Regel-Builder | Automatisch Metadaten-Classifications von Abmessungen beruhend auf benutzerdefinierten Regeln erstellen. | [Classification Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) |
-| Kundenattribute | CRM-Daten, die zur Verwendung in Adobe Analytics und Adobe Target in die Experience Cloud hochgeladen wurden. | [Kundenattribute](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html) |
+| Kundenattribute | CRM-Daten, die zur Verwendung in Adobe Analytics und Adobe Target in die Experience Cloud hochgeladen wurden. | [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) |
 | Data Sources | Offline-Metriken gegen Dimensionen oder einfach nach Tagen in Analytics importieren. | [Data Sources](/help/import/c-data-sources/datasrc-home.md) |
 | Adobe Exchange Data Connectors | Siehe [Analytics-Werkzeuge](/help/import/data-connectors/data-connectors-eol.md). |  |
 | Native Integrationen | Audience Analytics &amp; Advertising Analytics. | Siehe Abschnitt „Wichtige Berichte“. |
@@ -106,7 +106,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | Entwicklungsressourcen | Dokumentation, die die verfügbaren Bibliotheken zur Sammlung von Analytics-daten über alle verfügbaren Plattformen hinweg enthält (Web, mobile Anwendung, Video, Flash usw.) | [Dokumente für Entwickler](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | Implementierungshandbuch | Eine Beschreibung der Datenerfassungsvariablen und Einzelheiten zur Implementierung von Datenerfassungscode in JavaScript. | [Implementierungshandbuch](/help/implement/home.md) |
 | AppMeasurement (s_code) | Globale Variablenverwaltung. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
-| Anwendungs-SDKs | Benutzerdefiniertes Paket, das eine vorausgefüllte Version der Konfigurationsdatei für Anwendungen enthält. | <ul><li>[iOS](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/de-DE/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
+| Anwendungs-SDKs | Benutzerdefiniertes Paket, das eine vorausgefüllte Version der Konfigurationsdatei für Anwendungen enthält. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | Adobe Experience Platform Launch | Siehe Analytics-Werkzeuge. |  |
 | VISTA | Ermöglicht die Anwendung serverseitiger Logik zum Ändern oder Segmentieren von Daten während der Erfassung. | [VISTA-Regeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Verarbeitungsregeln | Möglichkeit, Variablen in der Benutzeroberfläche von Analytics festzulegen, zu ändern und zu kopieren, um die erfassten Daten anzupassen. | [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md) |
