@@ -2,9 +2,9 @@
 description: Das müssen Sie über die Migration der Analytics-Benutzer-ID zur Admin Console in Adobe Experience Cloud wissen.
 title: Analytics-Benutzermigration zur Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3122'
 ht-degree: 97%
 
 ---
@@ -309,7 +309,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
 
 Sie sollten Ihre aktuellen Benutzer über diesen Migrationsplan proaktiv benachrichtigen. Es folgt eine Vorlage, die Sie anpassen und an all Ihre aktuellen Analytics-Benutzer senden können:
 
-Um alle Benutzer per E-Mail zu senden, navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** > [E-Mail-Benutzer](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
+Um alle Benutzer per E-Mail zu senden, navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** > [E-Mail-Benutzer](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html).
 
 **Betreff:** In Kürze: Eine neue Anmeldeart für Adobe Analytics und Adobe Experience Cloud.
 
