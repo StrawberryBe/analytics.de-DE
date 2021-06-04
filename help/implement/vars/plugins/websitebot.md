@@ -2,9 +2,9 @@
 title: websiteBot
 description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
+source-git-commit: 7b77e023e9328cd029c326d29a30f9c80b8fbcbd
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 52%
 
 ---
@@ -31,7 +31,7 @@ Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung er
 
 Adobe empfiehlt vor der Verwendung dieses Plug-ins Folgendes:
 
-* **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Setzen Sie die Gültigkeit auf **Nie** und die Zuordnung auf **&quot;Ausgangswert (Erster)&quot;**. Diese eVar sollte in beiden Fällen festgelegt werden: wenn entweder die Regel [!UICONTROL Direktaufruf] oder der Aufruf `s.tl` ausgelöst wird.
+* **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Setzen Sie die Gültigkeit auf **Nie** oder **Besuch** und die Zuordnung auf **&quot;Ausgangswert (Erster)&quot;**. Diese eVar sollte in beiden Fällen festgelegt werden: wenn entweder die Regel [!UICONTROL Direktaufruf] oder der Aufruf `s.tl` ausgelöst wird.
 * **Benutzeragent in einer separaten Variablen** erfassen: Erfassen Sie die Benutzeragenten-Zeichenfolge in einer separaten Variablen, um die Wirksamkeit dieses Plug-ins zu überwachen. Legen Sie bei jedem Treffer eine eVar auf `navigator.UserAgent` fest, um diese Daten zu erfassen.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
