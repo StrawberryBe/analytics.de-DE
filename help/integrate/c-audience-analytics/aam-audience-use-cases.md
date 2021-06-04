@@ -3,10 +3,10 @@ description: Anwendungsfälle im Zusammenhang mit Advertising Analytics.
 title: Anwendungsfälle für Audience Analytics
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 92%
+source-wordcount: '213'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Als Multi-Medien-Publisher können Sie Ihre Drittpartei-Zielgruppen über [Segme
 
 ## Analyse potenzieller Kunden {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-Als B2B-Händler können Sie jetzt das Verhalten Ihrer potenziellen Zielgruppe direkt vor dem Kauf mit der [sequenziellen Segmentierung](https://docs.adobe.com/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) genauestens analysieren. Dies bietet Ihnen ein besseres Verständnis darüber, welche Handlungen die Konversion fördern.
+Als B2B-Händler können Sie jetzt das Verhalten Ihrer potenziellen Zielgruppe direkt vor dem Kauf mit der [sequenziellen Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) genauestens analysieren. Dies bietet Ihnen ein besseres Verständnis darüber, welche Handlungen die Konversion fördern.
 
 ## Demografisches Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
