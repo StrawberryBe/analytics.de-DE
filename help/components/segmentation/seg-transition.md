@@ -4,9 +4,9 @@ title: Häufig gestellte Fragen
 feature: Segmentierung
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2071'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 
    * Sie können [Segmente vergleichen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
    * Verwenden Sie [Segmente als Dimensionen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) bei Vergleichen.
-   * Verwenden Sie Segmente in der [Fallout-Analyse](https://docs.adobe.com/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+   * Verwenden Sie Segmente in der [Fallout-Analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * Alle Segmente gelten nun für alle Report Suites.
