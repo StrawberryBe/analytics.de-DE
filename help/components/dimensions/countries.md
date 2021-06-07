@@ -2,10 +2,9 @@
 title: Länder
 description: Das Land, aus dem der Treffer stammt.
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '307'
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ Die Dimension „Länder“ gibt das Land an, aus dem der Treffer stammt. Diese 
 ## Füllen dieser Dimension mit Daten
 
 Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://info.digitalelement.com/de/) zusammen, um die Suche zwischen IP-Adresse und Land zu unterstützen. Diese Dimension ist bei allen Implementierungen vorkonfiguriert.
-
->[!TIP]
->
->Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich mit der Report Suite-ID an die Kundenunterstützung und bitten Sie darum, die Option „Geografie“ für die Report Suite zu deaktivieren.
 
 ## Dimensionselemente
 
