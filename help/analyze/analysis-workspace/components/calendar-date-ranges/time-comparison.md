@@ -5,11 +5,10 @@ uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '640'
-ht-degree: 100%
+source-git-commit: baea0f33276b07a93144d2225935013ab7007005
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +17,9 @@ ht-degree: 100%
 Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die einen Datumsbereich enthält, einen standardmäßigen Datumsvergleich erstellen, z. B. Jahres-, Quartals-, Monatsvergleich usw.
 
 ## Zeiträume vergleichen {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
+
+>[!NOTE]
+>[!UICONTROL Zeiträume vergleichen] nutzt erweiterte berechnete Metriken. Daher ist sie nur für Kunden mit Analytics Select-, Prime- und Ultimate-SKUs verfügbar.
 
 Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum bereitgestellt wird. Beispielsweise ist „Wie viel besser/schlechter geht es uns als zu diesem Zeitpunkt letztes Jahr?“ eine Kernfrage, um Ihr Geschäft zu verstehen. Der Datumsvergleich enthält automatisch eine Spalte „Differenz“, die die prozentuale Veränderung im Vergleich zu einem bestimmten Zeitraum angibt.
 
