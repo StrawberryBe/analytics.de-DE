@@ -2,10 +2,9 @@
 title: US-DMA
 description: Das ausgewiesene Marktgebiet des Treffers.
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '306'
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ Die Dimension „US-DMA“ gibt das ausgewiesene Marktgebiet (DMA) des Besuchers
 ## Füllen dieser Dimension mit Daten
 
 Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit Nielsen zusammen, um die Suche zwischen IP-Adresse und DMA zu unterstützen. Diese Dimension ist bei allen Implementierungen vorkonfiguriert.
-
->[!TIP]
->
->Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich mit der Report Suite-ID an die Kundenunterstützung und bitten Sie darum, die Option „Geografie“ für die Report Suite zu deaktivieren.
 
 ## Dimensionselemente
 
