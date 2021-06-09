@@ -5,10 +5,10 @@ title: Konversionsvariablen (eVar)
 feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2501d0a7b9e11569dc9feb3da378d445f72bef3d
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 98%
+source-wordcount: '1582'
+ht-degree: 83%
 
 ---
 
@@ -34,68 +34,18 @@ Wenn eine Trafficmessung oder -pfaderstellung gewünscht wird, wird empfohlen, T
 
 Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md) verwendet werden.
 
-<table id="table_E48D50926E6B492183300CA58A886927"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Element </p> </th> 
-   <th colname="col2" class="entry"> <p>Beschreibung </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Name </span> </p> </td> 
-   <td colname="col2"> <p>Der benutzerfreundliche Name der Konversionsvariablen. Dieser Name der eVar wird in der allgemeinen Berichterstattung und als Berichtname im Menü links genutzt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Typ</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Der Typ des Variablenwerts: </p> <p> <b>Textzeichenfolge</b>:</span> Erfasst die auf Ihrer Site verwendeten Textwerte. Dies ist der gängigste eVar-Typ und die Standardeinstellung. Diese eVar verhält sich ähnlich wie andere Variablen, bei denen der zugrundeliegende Wert eine statische Textzeichenfolge ist. Wenn Sie beispielsweise interne Kampagnen oder interne Suchkeywords nachverfolgen, ist dies die empfohlene Einstellung. </p> <p> <b>Zähler</b>:</span> Zählt, wie oft eine Aktion stattfindet, bevor sie zum Erfolg führt. Wenn Sie z. B. eine eVar verwenden, um interne Suchvorgänge auf Ihrer Seite zu verfolgen, bewirkt die Werteinstellung auf <span class="uicontrol">Textzeichenfolge</span>, dass Suchbegriffe verfolgt werden. Stellen Sie diesen Wert auf <span class="uicontrol">Zähler</span> ein, um die Zahl der durchgeführten Suchen unabhängig von den verwendeten Suchbegriffen zu zählen. Sie können z. B. eine Zähler-eVar nutzen, um die Anzahl der Male, die jemand vor Tätigen eines Kaufs Ihre interne Suche genutzt hat, zu zählen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Zuordnung </span> </p> </td> 
-   <td colname="col2"> <p>Legt fest, wie in Analytics Gutschriften für ein Erfolgsereignis zugewiesen werden, wenn eine Variable mehrere Werte vor dem Ereignis erhält. Folgende Werte werden unterstützt: </p> <p> <b>Zuletzt verwendet</b>: Der letzte eVar-Wert erhält immer die Gutschrift für Erfolgsereignisse, bis diese eVar abläuft. </p> <p> <b>Ausgangswert</b>: Der erste eVar-Wert erhält immer die Gutschrift für Erfolgsereignisse, bis diese eVar abläuft. </p> <p> <b>Linear</b>: Weist Erfolgsereignisse gleichmäßig allen eVar-Werten zu. Da bei der linearen Zuweisung Werte nur innerhalb eines Besuchs genau verteilt werden, sollten Sie die lineare Zuweisung bei einem eVar-Ablauf von „Besuch“ verwenden. </p> <p>Hinweis: Beim Wechsel zu oder von linearen Werten wird unterbunden, dass historische Daten angezeigt werden. Das Mischen von Zuweisungstypen in der Berichterstellungsoberfläche kann zu falsch angegebenen Daten in Berichten führen. Bei einer linearen Zuweisung etwa könnte der Umsatz auf eine Reihe unterschiedlicher eVar-Werte aufgeschlüsselt werden. Nach dem Zurücksetzen auf die „Zuletzt“-Zuweisung würden 100 % des Umsatzes dem aktuellsten Einzelwert zugewiesen. Diese Zuweisung kann dazu führen, dass Benutzer die falschen Schlüsse ziehen. </p> <p>Um die Wahrscheinlichkeit von Missverständnissen bei der Berichterstellung zu verringern, macht Analytics die historischen Daten für die Oberfläche nicht verfügbar. Wenn Sie sich entscheiden, die gegebene eVar wieder auf die ursprüngliche Zuweisungseinstellung zurückzusetzen, können diese angesehen werden – allerdings sollten Sie die eVar-Zuweisungseinstellungen nicht ändern, bloß um auf historische Daten zugreifen zu können. Adobe empfiehlt, eine neue eVar zu nutzen, wenn neue Zuweisungseinstellungen für bereits aufgezeichnete Daten gewünscht werden, statt die Zuweisungseinstellung einer eVar zu verändern, die bereits eine erhebliche Menge historischer Daten aufgebaut hat. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Läuft ab nach</span> </p> </td> 
-   <td colname="col2"> <p>Hier wird ein Zeitraum bzw. ein Ereignis angegeben, nach dem der eVar-Wert abläuft (d. h. keine Gutschrift für Erfolgsereignisse mehr erhält). Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. </p> <p>Wenn Sie den Ablauf über ein Ereignis festlegen, läuft die Variable nur ab, wenn das Ereignis eintritt. Tritt das Ereignis nicht ein, läuft die Variable auch nicht ab. </p> <p>Die verfügbaren Ablaufoptionen können in vier Hauptkategorien eingeteilt werden. </p> 
-    <ul id="ul_810A37C9B6624F429F2FB45C18F7B43F"> 
-     <li id="li_654D9D9044EC4E61AA7ABA372DBF8A93"><b>Auf Ebene einer Seitenansicht oder eines Besuchs.</b> Konversionsereignisse, die über die Seitenansicht oder Besuche hinausgehen, werden nicht mit eVar in Verbindung gebracht. </li> 
-     <li id="li_689FBC8B4DAC41B3B0166E6586DD1990"><b>Auf Grundlage eines Zeitraums, z. B. Tag, Woche, Monat oder Jahr.</b> Konversionsereignisse, die über den festgelegten Zeitraum hinausgehen, werden nicht mit eVar in Verbindung gebracht. Der Ablaufzeitraum beginnt mit der Einstellung der Variablen. eVars laufen, ausgehend von dem Zeitpunkt, zu dem sie festgelegt wurden, bei Erreichen der entsprechenden Sekunde (Minute, Stunde, Tag, Monat usw.) ab: 
-      <ul id="ul_80C7E3182B6B4356B8A3CA920B81C6D5"> 
-       <li id="li_F16F60319CCE406D9EDEFEC0A200BC4D">MINUTE = 60 Sekunden </li> 
-       <li id="li_45F47F3F5691415B84052B235DF3BB54">STUNDE = 3.600 Sekunden (60 Minuten) </li> 
-       <li id="li_5288CE7D168E4C85B3D9BB67A44D32EC">TAG = 86.400 Sekunden (24 Stunden) </li> 
-       <li id="li_60FC8BCD657745EE87B4E458CBA69583">WOCHE = 604.800 Sekunden (7 Tage) </li> 
-       <li id="li_7A05A66613C84F929F030310B9567CF5">MONAT = 2.678.400 Sekunden (31 Tage) </li> 
-       <li id="li_DCD3CABF59E34D5999B03E606B08AD85">QUARTAL = 8.035.200 Sekunden (93 Tage – 3 Monate mit 31 Tagen) </li> 
-       <li id="li_54351D2899454D39A8BA205910D2CCB1">JAHR = 31.536.000 Sekunden (365 Tage) </li> 
-      </ul> <p> </p> <p>Wenn ein Besuch am Montag um 7:00 Uhr beginnt und bei diesem Besuch um 7:15 Uhr eVar festgelegt wird, läuft diese wie folgt ab: </p> 
-      <ul id="ul_72B311006BE6428698313D251C0940DB"> 
-       <li id="li_50925D4A40AD4ACA88704A523138C5B9">Ablauf nach einem Tag: eVar läuft am Dienstag um 7:15 Uhr ab. </li> 
-       <li id="li_25846328766D4B4BAF407236C65C956C">Ablauf nach einer Woche: eVar läuft am folgenden Montag um 7:15 Uhr ab. </li> 
-       <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Ablauf nach einem Monat: eVar läuft 31 Tage nach diesem Montag um 7:15 Uhr ab. </li> 
-      </ul> </li> 
-     <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Spezifische Konversionsereignisse.</b> Alle sonstigen Konversionsereignisse, die ausgelöst werden, nachdem das spezifische Ereignis, das eVar zugeordnet ist, eintritt. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nie.</b> Solange das Cookie <span class="varname"> visitorID</span> intakt ist, kann ein beliebiger Zeitraum zwischen eVar und Ereignis verstreichen. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Status</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Hiermit wird der eVar-Status definiert: </p> <p><b>Deaktiviert</b>:</span> Deaktiviert die eVar. Entfernt die eVar aus der Liste der Konversionsvariablen. </p> <p> <b>Keine untergeordneten Beziehungen</b>:</span> Verhindert, dass die eVar durch eine Subrelation unterteilt wird. </p> <p> <b>Grundlegende untergeordnete Beziehungen</b>: </span>Ermöglicht die Aufschlüsselung einer eVar anhand eines Berichts mit vollständigen Subrelationen (z. B. „Produkte“ oder „Kampagnen“). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Zurücksetzen</span> </p> </td> 
-   <td colname="col2"> <p>Hiermit werden alle Werte in der eVar zurückgesetzt. </p> <p>Mit dieser Einstellung können Sie verhindern, dass bei einer Neuverwendung einer eVar alte Werte in neuen Berichten verwendet werden. Durch das Zurücksetzen werden historische Daten nicht gelöscht. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Merchandisingvariablen können einer oder zwei Syntaxen folgen: </p> <p> <b>Produktsyntax</b>:</span> Hiermit wird einem Produkt der eVar-Wert zugewiesen. Hinweis: Wenn die Produktsyntax ausgewählt ist, ist der Bereich „Merchandising-Binding-Ereignis“ deaktiviert und kann nicht für die Bearbeitung ausgewählt werden. Für diese Syntax können keine Binding-Ereignisse angewendet werden. </p> </p> <p> <b>Syntax der Konversionsvariablen</b>:</span> Hierbei wird einem Produkt nur dann die eVar zugewiesen, wenn ein Binding-Ereignis auftritt. In diesem Fall legen Sie fest, welche Ereignisse als Binding-Ereignisse gelten. </p> <p>Wenn Sie diese Einstellung ändern, ohne den JavaScript-Code zu aktualisieren, gehen Daten verloren. Siehe <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html">Merchandising-Variablen</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Merchandising-Binding-Ereignis</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Wenn „Merchandising“ auf <span class="uicontrol">Konversionsvariablensyntax</span> eingestellt ist, wird der aktuelle eVar-Wert durch die ausgewählten Ereignisse mit einem Produkt verbunden. </p> <p>Um ein Binding-Ereignis zu verwenden, setzen Sie <span class="uicontrol">„Zuordnung“ auf „Zuletzt verwendet“</span>. Wenn <span class="uicontrol">„Zuordnung“ auf „Ausgangswert“</span> eingestellt ist, bleibt die erste eVar-Produktverbindung erhalten, bis die eVar abläuft. Sie können mehrere Ereignisse auswählen, indem Sie die <code>ctrl</code>-Taste (Windows) oder die <code>cmd</code>-Taste (Mac) gedrückt halten und auf mehrere Elemente in der Liste klicken. Sie können nur ein Ereignis auswählen, wenn „Konversionsvariablensyntax“ ausgewählt wurde.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+
+| Element | Beschreibung |
+| --- | --- |
+| [!UICONTROL Name] | Der benutzerfreundliche Name der Konversionsvariablen. Auf diese Weise wird auf die eVar in der allgemeinen Berichterstellung verwiesen und im Menü links der Name des Berichts/der Dimension angegeben. |
+| [!UICONTROL Typ]   (nur eVar) | Der Typ des Variablenwerts:<ul><li>**[!UICONTROL Textzeichenfolge]**: Erfasst die auf Ihrer Site verwendeten Textwerte. Dies ist der gängigste eVar-Typ und die Standardeinstellung. Diese eVar verhält sich ähnlich wie andere Variablen, bei denen der zugrundeliegende Wert eine statische Textzeichenfolge ist. Wenn Sie beispielsweise interne Kampagnen oder interne Suchkeywords nachverfolgen, ist dies die empfohlene Einstellung.</li><li>**[!UICONTROL Zähler]**: Zählt, wie oft eine Aktion stattfindet, bevor sie zum Erfolg führt. Wenn Sie z. B. eine eVar verwenden, um interne Suchvorgänge auf Ihrer Seite zu verfolgen, bewirkt die Werteinstellung auf [!UICONTROL Textzeichenfolge], dass Suchbegriffe verfolgt werden. Stellen Sie diesen Wert auf [!UICONTROL Zähler] ein, um die Zahl der durchgeführten Suchen unabhängig von den verwendeten Suchbegriffen zu zählen. Sie können z. B. eine Zähler-eVar nutzen, um die Anzahl der Male, die jemand vor Tätigen eines Kaufs Ihre interne Suche genutzt hat, zu zählen.</li></ul> |
+| [!UICONTROL Zuordnung] | Legt fest, wie in Analytics Gutschriften für ein Erfolgsereignis zugewiesen werden, wenn eine Variable mehrere Werte vor dem Ereignis erhält. Folgende Werte werden unterstützt:<ul><li>**[!UICONTROL Zuletzt verwendet]**: Der letzte eVar-Wert erhält immer die Gutschrift für Erfolgsereignisse, bis diese eVar abläuft.</li><li>**[!UICONTROL Ausgangswert]**: Der erste eVar-Wert erhält immer die Gutschrift für Erfolgsereignisse, bis diese eVar abläuft.</li><li>**[!UICONTROL Linear]**: Weist Erfolgsereignisse gleichmäßig allen eVar-Werten zu. Da bei der linearen Zuweisung Werte nur innerhalb eines Besuchs genau verteilt werden, sollten Sie die lineare Zuweisung bei einem eVar-Ablauf von „Besuch“ verwenden.</li></ul> **Hinweis**: Beim Wechsel zu oder von linearen Werten wird verhindert, dass historische Daten angezeigt werden. Das Mischen von Zuweisungstypen in der Berichterstellungsoberfläche kann zu falsch angegebenen Daten in Berichten führen. Bei einer linearen Zuweisung etwa könnte der Umsatz auf eine Reihe unterschiedlicher eVar-Werte aufgeschlüsselt werden. Nach dem Zurücksetzen auf die „Zuletzt“-Zuweisung würden 100 % des Umsatzes dem aktuellsten Einzelwert zugewiesen. Diese Zuweisung kann dazu führen, dass Benutzer die falschen Schlüsse ziehen.<br><br>Um die Wahrscheinlichkeit von Missverständnissen bei der Berichterstellung zu vermeiden, macht Adobe Analytics die historischen Daten für die Benutzeroberfläche nicht verfügbar. Wenn Sie sich entscheiden, die gegebene eVar wieder auf die ursprüngliche Zuweisungseinstellung zurückzusetzen, können diese angesehen werden – allerdings sollten Sie die eVar-Zuweisungseinstellungen nicht ändern, bloß um auf historische Daten zugreifen zu können. Adobe empfiehlt, eine neue eVar zu nutzen, wenn neue Zuweisungseinstellungen für bereits aufgezeichnete Daten gewünscht werden, statt die Zuweisungseinstellung einer eVar zu verändern, die bereits eine erhebliche Menge historischer Daten aufgebaut hat. |
+| [!UICONTROL Läuft ab nach] | Hier wird ein Zeitraum bzw. ein Ereignis angegeben, nach dem der eVar-Wert abläuft (d. h. keine Gutschrift für Erfolgsereignisse mehr erhält). Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ zugeschrieben.  Wenn Sie den Ablauf über ein Ereignis festlegen, läuft die Variable nur ab, wenn das Ereignis eintritt. Tritt das Ereignis nicht ein, läuft die Variable auch nicht ab.  Die verfügbaren Ablaufoptionen können in vier Hauptkategorien eingeteilt werden.<ul><li>**Auf Ebene einer Seitenansicht oder eines Besuchs.** Konversionsereignisse, die über die Seitenansicht oder Besuche hinausgehen, werden nicht mit eVar in Verbindung gebracht.</li><li>**Auf Grundlage eines Zeitraums, z. B. Tag, Woche, Monat oder Jahr.** Konversionsereignisse, die über den festgelegten Zeitraum hinausgehen, werden nicht mit eVar in Verbindung gebracht. Der Ablaufzeitraum beginnt mit der Einstellung der Variablen. eVars laufen, ausgehend von dem Zeitpunkt, zu dem sie festgelegt wurden, bei Erreichen der entsprechenden Sekunde (Minute, Stunde, Tag, Monat usw.) ab: <ul><li>MINUTE = 60 Sekunden</li><li>STUNDE = 3.600 Sekunden (60 Minuten)</li><li>TAG = 86.400 Sekunden (24 Stunden)</li><li>WOCHE = 604.800 Sekunden (7 Tage)</li><li>MONAT = 2.678.400 Sekunden (31 Tage)</li><li>QUARTAL = 8.035.200 Sekunden (93 Tage – 3 Monate mit 31 Tagen)</li><li>JAHR = 31.536.000 Sekunden (365 Tage)</li><br>Wenn ein Besuch am Montag um 7:00 Uhr beginnt und bei diesem Besuch um 7:15 Uhr eVar festgelegt wird, läuft diese wie folgt ab:<li>Ablauf nach einem Tag: eVar läuft am Dienstag um 7:15 Uhr ab.</li><li>Ablauf nach einer Woche: eVar läuft am folgenden Montag um 7:15 Uhr ab.</li><li>Ablauf nach einem Monat: eVar läuft 31 Tage nach diesem Montag um 7:15 Uhr ab.</li></ul><li>**Spezifische Konversionsereignisse.** Alle sonstigen Konversionsereignisse, die ausgelöst werden, nachdem das spezifische Ereignis, das eVar zugeordnet ist, eintritt.</li><li>**Nie.** Solange das Cookie  visitorID intakt ist, kann ein beliebiger Zeitraum zwischen eVar und Ereignis verstreichen.</li></ul> |
+| [!UICONTROL Status]   (nur eVar) | Definiert den Status [!UICONTROL eVar]:<ul><li>**Deaktiviert**[!UICONTROL : Deaktiviert die eVar]. Entfernt [!UICONTROL eVar] aus der Liste der Konversionsvariablen.</li><li>**Keine Subrelationen**: Verhindert, dass Sie die Dimension   Ganz nah an eine Dimension aufschlüsseln.</li><li>**Grundlegende Subrelationen**: Ermöglicht die Aufschlüsselung einer eVar nach einer beliebigen Dimension (z. B. Produkte oder Kampagnen).</li></ul> |
+| [!UICONTROL Zurücksetzen] | Hiermit werden alle Werte in der eVar zurückgesetzt. Mit dieser Einstellung können Sie verhindern, dass bei einer Neuverwendung einer eVar alte Werte in neuen Berichten verwendet werden. Durch das Zurücksetzen werden historische Daten nicht gelöscht. |
+| [!UICONTROL Merchandising]  (nur eVar) | Merchandisingvariablen können einer oder zwei Syntaxen folgen:<ul><li>**[!UICONTROL Produktsyntax]**: Hiermit wird einem Produkt der eVar-Wert zugewiesen. **Hinweis**: Wenn  [!UICONTROL Produktsyntaxis ausgewählt ] ist, ist der Abschnitt &quot; [!UICONTROL Merchandising-Binding-] Ereignis&quot;deaktiviert und kann nicht zur Bearbeitung ausgewählt werden. Für diese Syntax sind [!UICONTROL Binding Events] nicht anwendbar.</li><li>**[!UICONTROL Syntax der Konversionsvariablen]**: Hierbei wird einem Produkt nur dann die eVar zugewiesen, wenn ein Binding-Ereignis auftritt. In diesem Fall wählen Sie die Ereignisse aus, die als [!UICONTROL Binding Events] fungieren.  Wenn Sie diese Einstellung ändern, ohne den JavaScript-Code zu aktualisieren, gehen Daten verloren. Siehe [Merchandising-Variablen](https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html).</li></ul> |
+| [!UICONTROL Merchandising-Binding-Ereignis] (nur eVar) | Wenn „Merchandising“ auf [!UICONTROL Konversionsvariablensyntax] eingestellt ist, wird der aktuelle eVar-Wert durch die ausgewählten Ereignisse mit einem Produkt verbunden. Um ein [!UICONTROL Binding-Ereignis] zu verwenden, setzen Sie [!UICONTROL Allocation] auf [!UICONTROL Zuletzt verwendet]. Wenn [!UICONTROL Zuordnung] auf [!UICONTROL Ausgangswert] gesetzt ist, bleibt die erste eVar-Produktbindung erhalten, bis die eVar abläuft. Sie können mehrere Ereignisse auswählen, indem Sie die Strg- (Windows) bzw. Befehlstaste (Mac) gedrückt halten und auf mehrere Elemente in der Liste klicken. Sie können ein Ereignis nur auswählen, wenn [!UICONTROL Konversionsvariablensyntax] ausgewählt ist. |
 
 **Ablauf**
 
@@ -112,7 +62,7 @@ Ein weiteres Beispiel: Wenn eine eVar im Mai dazu dienen soll, interne Werbeakti
 
 **Groß-/Kleinschreibung**
 
-eVars sind nicht von Schreibweise abhängig, sie werden jedoch in der Schreibweise angezeigt, die sie an der ersten Stelle ihres Auftretens hatten. Beispiel: Wenn eVar1 bei der ersten Instanz den Wert „Angemeldet“ enthält, in den darauf folgenden Instanzen jedoch „angemeldet“ heißt, wird in Berichten immer „Angemeldet“ als Wert von eVar angezeigt.
+Die Groß- oder Kleinschreibung, die für die Berichterstellung verwendet wird, basiert auf dem ersten Wert, den das Backend-System registriert. Dieser Wert kann entweder die erste jemals erkannte Instanz sein oder je nach Zeitraum (z. B. monatlich) variieren, je nach der Vielfalt und Menge der mit der Report Suite verknüpften Daten.
 
 **Zähler**
 
