@@ -2,11 +2,10 @@
 title: Implementieren mit fest programmierten Bildanforderungen
 description: Adobe Analytics mithilfe eines HTML-Bild-Tags (einer fest programmierten Bildanforderung) implementieren
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Im Folgenden finden Sie ein Beispiel für eine fest programmierte Bildanforderun
 * `https://` bezeichnet das Protokoll. Stimmen Sie das in der Bildanforderung verwendete Protokoll mit dem Protokoll ab, das der Rest Ihrer Website verwendet.
 * `example.data.adobedc.net` ist der in der [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)-Variablen enthaltene Wert.
 * `/b/ss/` ist in allen Bildanforderungen enthalten. Dabei handelt es sich um einen Teil der Dateistruktur für Bilder, die auf Adobe-Datenerfassungs-Servern gespeichert werden.
-* `examplersid` ist die Report Suite-ID, an die Sie Daten senden möchten.
+* `examplersid` ist die Report Suite-ID, an die Sie Daten senden möchten. Trennen Sie die IDs bei mehreren Report Suites durch Kommas und ohne Leerzeichen (z. B. `examplersid1,examplersid2` usw.).
 * `/1/` ist die Trefferquelle. Siehe `hit_source` unter [Datenspaltenreferenz](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) im Exportbenutzerhandbuch. Steuert die Reihenfolge, in der Cookies und andere Methoden Besucher identifizieren.
 * Alles nach dem Trennzeichen der Abfragezeichenfolge (`?`) sind Daten, die Sie in Berichte aufnehmen möchten. Eine vollständige Liste der Parameter, die Sie in eine Bildanforderung einbeziehen können, finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md).
 
