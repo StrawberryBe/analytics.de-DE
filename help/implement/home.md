@@ -5,7 +5,7 @@ exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Der JavaScript-Code sendet eine Bildanforderung an die Adobe-Datenerfassungs-Ser
 Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um Daten an die Datenerfassungs-Server zu senden. Abhängig von der Plattform und den Anforderungen Ihres Unternehmens gibt es verschiedene Methoden, um diesen Code zu implementieren.
 
 * **Adobe Experience Platform Launch**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Platzieren Sie ein Loader-Tag auf jeder Seite und definieren Sie die einzelnen Variablen über die Benutzeroberfläche von Launch.
-* **Dynamic Tag Management**: Das dynamische Tag-Management wurde eingestellt.
+* **Dynamic Tag Management**: Dynamic Tag Management wurde eingestellt.
 * **Legacy JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Führt Variablen und Einstellungen auf, die für eine Implementierung verwendet werden. Dies kann für Launch-Implementierungen hilfreich sein, bei denen benutzerdefinierter Code verwendet wird.
 * **Mobile SDK**: Spezifische Bibliotheken zum einfachen Senden von Daten aus Ihrer App an Adobe.
 
