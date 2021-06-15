@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,30 +17,30 @@ ht-degree: 99%
 + [Leitfaden für Analytics-Tools](home.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace – Übersicht](analysis-workspace/home.md)
-   + [Neuerungen in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
+   + [Neue Funktionen in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Projekte {#build-workspace-project}
       + [Übersicht über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Mehrere Report Suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [Hotkeys (Tastenkombinationen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [Hotkeys (Tastaturbefehle)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Farbpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichte anzeigen](analysis-workspace/build-workspace-project/view-density.md)
    + Komponenten {#components}
       + [Komponentenübersicht](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensionen {#dimensions}
-         + [Dimensionenvorschau](analysis-workspace/components/dimensions/view-dimensions.md)
-         + [Aufschlüsseln von Dimensionen](analysis-workspace/components/dimensions/t-breakdown-fa.md)
+         + [Dimensionsvorschau](analysis-workspace/components/dimensions/view-dimensions.md)
+         + [Dimensionen aufschlüsseln](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [Dimensionen für die Zeitunterteilung](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [Metriken](analysis-workspace/components/apply-create-metrics.md)
       + [Segmente](analysis-workspace/components/t-freeform-project-segment.md)
       + Kalender und Datumsbereiche {#calendar-date-ranges}
          + [Übersicht über Kalender und Datumsbereiche](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Erstellen Sie benutzerdefinierte Datumsbereiche](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [Benutzerdefinierte Datumsbereiche erstellen](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumsvergleich](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + Visualisierungen {#visualizations}
       + [Visualisierungsübersicht](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-      + [Data Sources verwalten](analysis-workspace/visualizations/t-sync-visualization.md)
+      + [Datenquellen verwalten](analysis-workspace/visualizations/t-sync-visualization.md)
       + Freiformtabelle {#freeform-table}
          + [Freiformtabelle](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Spalten- und Zeileneinstellungen {#column-row-settings}
@@ -65,7 +64,7 @@ ht-degree: 99%
          + [Flusseinstellungen](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Interdimensionale Flüsse](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histogramm](analysis-workspace/visualizations/histogram.md)
-      + [Landkarte](analysis-workspace/visualizations/map-visualization.md)
+      + [Zuordnung](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [Bereich und Bereich gestapelt](analysis-workspace/visualizations/area.md)
       + [Balken und Balken gestapelt](analysis-workspace/visualizations/bar.md)
@@ -89,13 +88,13 @@ ht-degree: 99%
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Projekte kuratieren oder freigeben {#curate-share}
+   + Kuratieren oder Freigeben von Projekten {#curate-share}
       + [Menü „Freigeben“](analysis-workspace/curate-share/send-schedule-files.md)
       + [Kuratieren von Projekten](analysis-workspace/curate-share/curate.md)
       + [Freigeben von Projekten](analysis-workspace/curate-share/share-projects.md)
       + [Erstellen von freigebbaren Links](analysis-workspace/curate-share/shareable-links.md)
       + [Schreibgeschützte Projekte](analysis-workspace/curate-share/view-only-projects.md)
-      + [Herunterladen von PDF- oder CSV-Dateien](analysis-workspace/curate-share/download-send.md)
+      + [PDF- oder CSV-Dateien herunterladen](analysis-workspace/curate-share/download-send.md)
       + [Planen von Projekten](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Übersicht über Attribution](analysis-workspace/attribution/overview.md)
@@ -143,7 +142,7 @@ ht-degree: 99%
       + [Datenanforderung erstellen](report-builder/data-requests/t-create-a-data-request.md)
       + Report Suites {#report-suites}
          + [Report Suite auswählen](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Report Suite aus einer bestehenden Anforderung in Excel auswählen](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Report Suite auswählen  aus einer vorhandenen Anfrage in Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel zum Suchen einer Report Suite-ID verwenden](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Segmente verwalten](report-builder/data-requests/segmentation.md)
       + [Überschreibungen der Veröffentlichungsliste zulassen](report-builder/data-requests/allow-publishing-list-overrides.md)
@@ -191,8 +190,8 @@ ht-degree: 99%
       + [Ausgabezuordnung löschen](report-builder/layout/delete-output-mapping.md)
       + [Anforderung benennen](report-builder/layout/name-a-request.md)
       + [Text Zellen voranstellen oder anhängen](report-builder/layout/prepend-and-postpend-text-to-cells.md)
-      + [Das benutzerdefinierte Layout konfigurieren](report-builder/layout/configure-the-custom-layout.md)
-      + [Metriken und Dimensionen zu Zellen zuordnen](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+      + [Benutzerdefiniertes Layout konfigurieren](report-builder/layout/configure-the-custom-layout.md)
+      + [Metriken und Dimensionen Zellen zuordnen](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Microchart erstellen](report-builder/layout/t-create-a-microchart.md)
       + Filterdimensionen {#filter-dimenson}
          + [Übersicht über Filterdimensionen](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
@@ -219,7 +218,7 @@ ht-degree: 99%
          + [Mehrere Kopien einer Anforderung erstellen](report-builder/manage-requests/c-copy-requests/t-create-more-than-one-copy-of-a-request.md)
          + [Verweisanforderungen kopieren](report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)
       + [Arbeitsmappe mit Anforderungen speichern](report-builder/manage-requests/save-a-workbook-with-requests.md)
-      + [Bedingte Formatierung angeben](report-builder/manage-requests/specify-conditional-formatting.md)
+      + [Bedingte Formatierung spezifizieren](report-builder/manage-requests/specify-conditional-formatting.md)
       + [Offline-Modus zum Erstellen und Bearbeiten von Anforderungen](report-builder/manage-requests/offline-mode.md)
    + [Report Builder-Optionen](report-builder/options.md)
    + [Berichtsanforderungen planen](report-builder/schedule-report-requests.md)
@@ -275,7 +274,7 @@ ht-degree: 99%
    + [Fehlerbehebung bei der Datenerfassung](activity-map/troubleshoot-data-collection.md)
    + [Ressourcen für weitere Informationen](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
-   + [Erste Schritte mit Reports and Analytics](reports-analytics/getting-started.md)
+   + [Erste Schritte mit Reports &amp; Analytics](reports-analytics/getting-started.md)
    + [Adobe Analytics – Schlüsselkonzepte](reports-analytics/key-concepts.md)
    + Übersicht über die Berichterstellungsoberfläche {#reporting-interface}
       + [Über die Datenerfassung](reports-analytics/overview/overview-data-collection.md)
@@ -307,14 +306,14 @@ ht-degree: 99%
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
    + [Fehlerbehebung](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics-Dashboards {#mobapp}
-   + [Adobe Analytics-Dashboards – Übersicht](mobile-app/home.md)
+   + [Adobe Analytics-Dashboards – Übersicht](mobile-app/home.md)
    + [Leitfaden für Kuratoren](mobile-app/curator.md)
    + [Schnellstarthandbuch für ausführende Benutzer](mobile-app/executive.md)
 + Progressive Web-Apps {#pwa}
    + [Progressive Web-Apps](pwa/pwa.md)
 + Analytics-Reporting-API {#analytics-reporting-api}
    + [Übersicht über die Analytics-Reporting-API](c-reporting-api/c-reporting-api.md)
-   + [Vergleich der Analytics-Reporting-APIs](c-reporting-api/api-comparison.md)
+   + [Vergleich der Analytics-Reporting-API](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
 + Labs {#tech-previews}
    + [Übersicht über Labs](tech-previews/overview.md)
