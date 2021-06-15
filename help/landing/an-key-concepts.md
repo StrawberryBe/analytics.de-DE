@@ -13,7 +13,7 @@ ht-degree: 97%
 
 Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 
-## Analytics-Tools {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
+## Analytics-Werkzeuge {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
 | Produkt | Beschreibung | Dokumentationslink |
 | --- | --- | --- |
@@ -24,7 +24,7 @@ Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurz
 | Data Warehouse | Unverarbeitete Rohdaten zur Speicherung und für benutzerdefinierte Berichte, die Sie durch Datenfilterung erstellen können. Nicht auf Treffer-Niveau. | [Data Warehouse-Homepage](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Führt mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. | [Mobile Services-Homepage](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (früher Genesis) | Ermöglicht den Import von Nachverfolgungsdaten aus Drittanbieteranwendungen in Analytics, um eine vollständige Übersicht der Leistung an einem zentralen Ort bereitzustellen. Zum 1. August 2021 beabsichtigt Adobe, Integrationen von Data Connectors einzustellen. | [Data Connectors-Homepage](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Die nächste Generation von Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs. | [Adobe Experience Platform Launch-Homepage](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Adobe Experience Platform Launch | Die nächste Generation von Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs. | [Adobe Experience Platform Launch-Übersicht](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## Wichtige Terminologie {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
