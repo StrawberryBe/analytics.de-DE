@@ -3,9 +3,9 @@ title: Ereignis-Serialisierung
 description: Hilft Ihnen, Metriken auf Ihrer Website zu deduplizieren.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Sie können das Feld für die Ereignis-ID entweder beim Konfigurieren der Analyt
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse], in dem jedes Ereignis ein Feld [!UICONTROL Ereignis-ID] enthält.
 
-Gültige Werte sind alphanumerische Zeichen bis zu 20 Byte. Wenn Sie einen Wert eingeben, der länger als 20 Byte ist, schneidet das System ihn auf die ersten 20 Byte ab.
+Gültige Werte sind alphanumerische Zeichen bis zu 20 Byte. Wenn Sie einen Wert eingeben, der länger als 20 Byte ist, kürzt das System ihn auf die ersten 20 Byte.
 
 ## Ereignis-IDs in AppMeasurement und im benutzerdefinierten Code-Editor in Launch verwenden
 
