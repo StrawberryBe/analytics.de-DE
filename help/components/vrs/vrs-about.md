@@ -6,7 +6,7 @@ exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: fb5de8ad4eee3e9017ab547823a7fa9132fa2457
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,13 +44,13 @@ Virtual Report Suites sind für Folgendes hilfreich:
 
 Virtual Report Suites haben die folgenden Einschränkungen:
 
-* Alle Einschränkungen von Segmenten gelten auch für Virtual Report Suites
+* Die Einschränkungen von Segmenten gelten auch für Virtual Report Suites
 
-   Eine Virtual Report Suite ist lediglich ein Segment, das auf eine Report Suite angewendet wird. Da jede Report Suite über eine eigene Data Warehouse und einen eigenen Daten-Feed verfügt, bietet die Verwendung mehrerer Report Suites einige Vorteile, die Segmente nicht bieten.
+   Eine Virtual Report Suite ist lediglich ein Segment, das auf eine Report Suite angewendet wird. Da alle Report Suites über ein eigenes Data Warehouse und einen eigenen Daten-Feed verfügen, bietet die Verwendung mehrerer Report Suites einige Vorteile gegenüber Segmenten.
 * Echtzeitbericht
-* Einstellungen und Variablennamen können nicht wie in einer vollständigen Report Suite angepasst werden
+* Einstellungen und Variablennamen können nicht wie bei einer vollständigen Report Suite angepasst werden
 
-## Virtual Report Suites im Vergleich zum Multi-Suite-Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites und Multi-Suite-Tagging im Vergleich {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Funktion | Virtual Report Suite | Multi-Suite-Tagging |
 |--- |--- |--- |
@@ -63,6 +63,6 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 
 ## Kombinieren von Virtual Report Suites und Multi-Suite-Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
-In einigen Fällen bietet die Verwendung von Virtual Report Suites und Multi-Suite-Tagging Vorteile.
+In einigen Fällen hat die Verwendung von Virtual Report Suites und Multi-Suite-Tagging Vorteile.
 
 Ein Einzelhändler kann beispielsweise eine Report Suite für jede Marke und Virtual Report Suites für die einzelnen Marken verwenden, um die Daten nach Region aufzuschlüsseln. Gleichermaßen kann eine Sportorganisation eine Report Suite für jedes Team verwenden und anschließend mithilfe von Virtual Report Suites die Fans in der Region der Teams von denen außerhalb der Region trennen.
