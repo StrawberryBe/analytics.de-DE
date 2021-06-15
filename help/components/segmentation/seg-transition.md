@@ -20,7 +20,7 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 * Segmentierung in Analysis Workspace:
 
    * Sie können [Segmente vergleichen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-   * Verwenden Sie [Segmente als Dimensionen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) bei Vergleichen.
+   * Verwenden Sie [Segmente als Dimensionen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) bei Vergleichen.
    * Verwenden Sie Segmente in der [Fallout-Analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
@@ -109,7 +109,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente unter Einhaltung der [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Taggen Sie Segmente unter Einhaltung der  [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Verwaltung alter Segmente {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -117,7 +117,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 
 Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt. [Mehr …](/help/components/segmentation/seg-transition.md)
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als  Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet:
 
@@ -161,7 +161,7 @@ Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Vorhand
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
-Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
+Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als  Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
 
 Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
@@ -323,7 +323,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobilgerätehersteller | Mobile E-Mail-Länge | Farbtiefe |
 |---|---|---|
 | Mobilgerät – Bildschirmgröße | Mobilgerätenummer | Bildschirmauflösung |
-| Mobilgerät – Bildschirmhöhe | Mobilgerät – PTT | Plugin |
+| Mobilgerät – Bildschirmhöhe | Gebührenpflichtige Suche | Plugin |
 | Mobilgerät – Cookie-Unterstützung | Mobilgerät – Mail-Design | Betriebssystem |
 | Mobilgerät – Bildunterstützung | Mobile Informationsdienste | Referrer-Typ |
 | Mobilgerät – Farbtiefe | Mobilgerätetyp | Suchmaschine |
@@ -333,7 +333,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobile Netzprotokolle | Mobilnetzbetreiber | Geo-Stadt |
 | Mobilbetriebssystem | Cookie | Geo-DMA |
 | Mobile Java-VM | Kundenloyalität | Persistentes Cookie |
-| Mobile Lesezeichenlänge | Java aktiviert | Gebührenpflichtige Suche |
+| Mobile Lesezeichenlänge | Java aktiviert | Paid Search |
 | Mobil URL-Länge | Sprache |  |
 
 ## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen {#section_84A8AAD0344148AD9F9211D3EB271903}
