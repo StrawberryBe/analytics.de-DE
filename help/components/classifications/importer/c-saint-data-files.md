@@ -31,7 +31,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Der Wert von Classifications darf nicht 0 (null) sein.
 * Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 * Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
-* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß  [maskiert wurde](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
+* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß   [maskiert wurde](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
 
    ```
    \t     tab character 
