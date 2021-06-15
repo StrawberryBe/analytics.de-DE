@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 ## Wie kann ich die geräteübergreifende Analyse verwenden, um zu sehen, wie Benutzer von einem Gerätetyp zum anderen wechseln?
 
-Sie können eine Visualisierung [!UICONTROL Fluss] mit der Dimension Mobilgerätetyp verwenden.
+Sie können eine [!UICONTROL Fluss]-Visualisierung mit der Dimension „Mobilgerätetyp“ verwenden.
 
 1. Melden Sie sich bei Adobe Analytics an und erstellen Sie ein neues leeres Workspace-Projekt.
 2. Klicken Sie auf der linken Seite auf die Registerkarte „Visualisierungen“ und ziehen Sie eine Flussvisualisierung in die Arbeitsfläche auf der rechten Seite.
@@ -91,7 +91,7 @@ Beide diese Kennungen werden von Adobe zum Zeitpunkt der Berichterstellung berec
 
 ## Wie kann ich vom Gerätediagramm zum feldbasierten Stitching wechseln oder umgekehrt?
 
-Der Wechsel vom Gerätediagramm zum feldbasierten Stitching oder umgekehrt kann über die Kundenunterstützung angefordert werden. Es kann jedoch einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist und *historische zugeordnete Daten aus der vorherigen Methode verloren gehen.*
+Der Wechsel vom Gerätediagramm zur feldbasierten Zuordnung oder umgekehrt kann über die Kundenunterstützung angefordert werden. Es kann jedoch einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist, und *historische zugeordnete Daten aus der vorherigen Methode gehen verloren*.
 
 ## Wie geht Adobe mit individuellen Einschränkungen für eine eVar um, die beim feldbasierten Stitching verwendet wird?
 
@@ -99,18 +99,18 @@ Die geräteübergreifende Analyse ruft Dimensionselemente ab, bevor sie für die
 
 ## Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse aktiviert werden?
 
-Es können mehrere Report Suites aktiviert werden. Jede zusätzliche Report Suite erhöht jedoch die Bereitstellungszeit, wenn mehrere Report Suites gleichzeitig angefordert werden. Die geräteübergreifende Analyse führt keine Report Suites zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (Daten von mehreren Oberflächen wie Desktop-Web, mobiles Web, mobile Anwendung usw.).
+Es können mehrere Report Suites aktiviert werden. Jede zusätzliche Report Suite erhöht jedoch die Bereitstellungszeit, wenn mehrere Report Suites gleichzeitig angefordert werden. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (mit Daten von mehreren Oberflächen wie Desktop-Web, mobilem Web, App usw.).
 
 ## Wenn meine Experience Cloud-Organisation (auch IMS-Organisation genannt) mehrere Unternehmen in verschiedenen Regionen hat, kann ich dann die geräteübergreifende Analyse für alle Unternehmen aktivieren?
 
-Nein. Für dieselbe Organisation kann die geräteübergreifende Analyse nur für eine Region aktiviert sein.
+Nein. Innerhalb einer Organisation kann die geräteübergreifende Analyse nur für eine Region aktiviert werden.
 
-## Welche Vor- und Nachteile hat eine Wiederholung über 7 Tage gegenüber einer Wiederholung über 1 Tag?
+## Welche Vor- und Nachteile hat eine Wiederholung über sieben Tage gegenüber einer Wiederholung über einen Tag?
 
-Der Vorteil des 7-tägigen Wiederholungs-Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse in der Lage ist, einen längeren Zeitraum zu nutzen, um zu versuchen, zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich später innerhalb dieser 7 Tage angemeldet hat. Die Nachteile des 7-Tage-Lookback-Fensters sind 1) Wiederholungen werden nur einmal pro Woche ausgeführt und 2) die letzten 7 Tage können sich ändern.
+Der Vorteil des siebentägigen Wiederholungs-Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse einen längeren Zeitraum nutzen kann, um zu versuchen, zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich später innerhalb dieser sieben Tage angemeldet hat. Die Nachteile des 7-Tage-Lookback-Fensters sind: 1) Wiederholungen werden nur einmal pro Woche ausgeführt, und 2) die letzten sieben Tage können sich ändern.
 
-Die Vorteile der Verwendung des 1-tägigen Wiederholungs-Lookback-Fensters sind 1) Wiederholungsläufe täglich und 2) nur gestern kann sich ändern. Der Nachteil des 1-tägigen Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse nur einen Tag zurückgehen kann, um zu versuchen, zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich gestern angemeldet hat.
+Die Vorteile der Verwendung des eintägigen Wiederholungs-Lookback-Fensters sind: 1) tägliche Wiederholungsläufe und 2) nur gestern kann sich ändern. Der Nachteil des eintägigen Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse nur einen Tag zurückgehen kann, um zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich gestern angemeldet hat.
 
-## Was passiert mit den zugeordneten Daten in meinen Virtual Report Suites der geräteübergreifenden Analyse, wenn mein Unternehmen beschließt, ein Upgrade von Analytics Ultimate durchzuführen?
+## Was passiert mit den zugeordneten Daten in meinen Virtual Report Suites für geräteübergreifende Analyse, wenn mein Unternehmen beschließt, ein Downgrade von Analytics Ultimate durchzuführen?
 
-Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordnete Daten. Alle zuvor zugeordneten Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites der geräteübergreifenden Analyse jetzt keine geräteübergreifende Zuordnung widerspiegeln. Die Daten ähneln der ursprünglich nicht zugeordneten Report Suite.
+Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordnete Daten. Alle zuvor zugeordneten Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites für geräteübergreifende Analyse jetzt keine geräteübergreifende Zuordnung widerspiegeln. Die Daten ähneln der ursprünglich nicht zugeordneten Report Suite.
