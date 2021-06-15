@@ -7,9 +7,9 @@ feature: Grundlagen zu Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3405'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mcvisid` | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | `mobile_id` | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
 | `mobileaction` | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
-| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format: `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:  `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
 | `mobileappperformancecrashid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
 | `mobileappstoreobjectid` | Wird im Appfigures-Daten-Connector verwendet. App Store-Objekt-ID. | varchar(255) |
@@ -156,7 +156,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `page_event_var2` | Wird nur in Linktracking-Bildanforderungen verwendet. Der benutzerdefinierte Name des Links, sofern angegeben. | varchar(100) |
 | `page_event_var3` | Wird nicht mehr verwendet. Enthielt Umfrage- und Medienmoduldaten. Füllte verwaltete Videoberichte in vorherigen Versionen von Adobe Analytics. | text |
 | `page_type` | Wird zum Füllen der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. Wird nur für 404-Seiten verwendet. Diese Variable sollte entweder leer sein oder den Wert `ErrorPage` enthalten. | char(20) |
-| `page_url` | Die URL des Treffers. In seiner Post-Variante (post_page_url) wird der Wert für Bildanforderungen zum Linktracking entfernt. | varchar(255) |
+| `page_url` | Die URL des Treffers. In seiner Post-Variante (post_page_url) wird der Wert für Bildanfragen zum Linktracking entfernt. | varchar(255) |
 | `pagename` | Wird zum Füllen der Dimension [Seite](/help/components/dimensions/page.md) verwendet. Wenn die Variable [`pagename`](/help/implement/vars/page-vars/pagename.md) leer ist, verwendet Analytics stattdessen `page_url`. | varchar(100) |
 | `paid_search` | Flag, das gesetzt wird, wenn der Treffer mit der gebührenpflichtigen Sucherkennung übereinstimmt. | tinyint unsigniert |
 | `partner_plugins` | Nicht verwendet. Teil einer veralteten Funktion. | varchar(255) |
@@ -211,7 +211,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `user_hash` | Wird nicht verwendet. Doppelkreuz in der Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
 | `user_server` | Verwendet in der Dimension [Server](/help/components/dimensions/server.md). | varchar(100) |
 | `userid` | Wird nicht verwendet. Die numerische ID für die Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
-| `username` | Die Report Suite-ID für den Treffer. | char(40) |
+| `username` | Die Report Suite-ID  für den Treffer. | char(40) |
 | `va_closer_detail` | Variable, die in der Dimension [Letztkontaktdetail](/help/components/dimensions/last-touch-detail.md) verwendet wird. | varchar(255) |
 | `va_closer_id` | Numerische ID, anhand derer die Dimension [Letztkontaktkanal](/help/components/dimensions/last-touch-channel.md) identifiziert wird. Die Suchtabelle für diese ID finden Sie im Marketingkanal-Manager. | tinyint unsigniert |
 | `va_finder_detail` | Variable, die in der Dimension [Erstkontaktdetail](/help/components/dimensions/first-touch-detail.md) verwendet wird. | varchar(255) |
