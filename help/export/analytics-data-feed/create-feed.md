@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -20,9 +20,9 @@ Das Vorliegen grundlegender Kenntnisse zu Daten-Feeds ist empfehlenswert, bevor 
 * **Name**: Der Name des Daten-Feeds. Muss innerhalb der ausgewählten Report Suite eindeutig sein. Er kann bis zu 255 Zeichen enthalten.
 * **Report Suite:** Die Report Suite, auf der der Daten-Feed basiert. Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, müssen sie unterschiedliche Spaltendefinitionen haben. Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt.
 * **E-Mail nach Abschluss**: Die E-Mail-Adresse, die benachrichtigt werden soll, wenn die Verarbeitung eines Feeds abgeschlossen ist. Die E-Mail-Adresse muss korrekt formatiert sein.
-* **Feed-Intervall**: Stündliche Feeds enthalten Daten aus einer Stunde. Tägliche Feeds enthalten Daten aus einem vollständigen Tageswert. sie enthalten Daten von Mitternacht bis Mitternacht in der Zeitzone der Report Suite.
+* **Feed-Intervall**: Stündliche Feeds enthalten Daten aus einer Stunde. Tägliche Feeds enthalten Daten eines ganzen Tages, von Mitternacht bis Mitternacht in der Zeitzone der Report Suite.
 * **Verarbeitung verzögern**: Warten Sie einen bestimmten Zeitraum, bevor Sie eine Daten-Feed-Datei verarbeiten. Eine Verzögerung kann nützlich sein, um mobilen Implementierungen die Möglichkeit zu geben, dass Offlinegeräte online gehen und Daten senden können. Sie kann auch verwendet werden, um die serverseitigen Prozesse Ihrer Organisation bei der Verwaltung zuvor verarbeiteter Dateien zu berücksichtigen. In den meisten Fällen ist keine Verzögerung erforderlich. Ein Feed kann um bis zu 120 Minuten verzögert werden.
-* **Start- und Enddaten**: Das Startdatum gibt das erste Datum an, an dem Sie einen Daten-Feed erstellen möchten. Legen Sie dieses Datum in der Vergangenheit fest, um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen. Feeds werden bis zum Enddatum verarbeitet. Das Start- und das Enddatum basieren auf der Zeitzone der Report Suite.
+* **Start- und Enddaten**: Das Startdatum gibt das erste Datum an, an dem Sie einen Daten-Feed erstellen möchten. Legen Sie dieses Datum in der Vergangenheit fest, um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen. Feeds werden bis zum Enddatum verarbeitet. Start- und Enddatum basieren auf der Zeitzone der Report Suite.
 * **Kontinuierlicher Feed**: Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung.
 
 ## Zielfelder
@@ -97,7 +97,7 @@ Es sind alle Spalten verfügbar, unabhängig davon, ob sie über Daten verfügen
 * **Escapezeichen entfernen**: Beim Erfassen von Daten können einige Zeichen (z. B. Zeilenumbrüche) Probleme verursachen. Aktivieren Sie dieses Kontrollkästchen, wenn diese Zeichen aus Feed-Dateien entfernt werden sollen.
 * **Komprimierungsformat**: Die verwendete Art der Komprimierung. Gzip gibt Dateien im `.tar.gz`-Format aus. Zip gibt Dateien im `.zip`-Format aus.
 * **Verpackungstyp**: Eine einzelne Datei gibt die `hit_data.tsv`-Datei in einer einzigen, potenziell riesigen Datei aus. Mehrere Dateien paginieren Ihre Daten in 2-GB-Blöcke (unkomprimiert). Wenn mehrere Dateien ausgewählt sind und die nicht komprimierten Daten für das Berichtsfenster weniger als 2 GB betragen, wird eine Datei gesendet. Adobe empfiehlt die Verwendung mehrerer Dateien für die meisten Daten-Feeds.
-* **Manifest**: Gibt an, ob Adobe eine  [Manifestdatei ](c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst werden. Wenn Sie Manifestdatei auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:
+* **Manifest**: Gibt an, ob Adobe eine [Manifestdatei](c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie diese Option auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, falls keine Daten erfasst werden:
 
 ```text
    Datafeed-Manifest-Version: 1.0
