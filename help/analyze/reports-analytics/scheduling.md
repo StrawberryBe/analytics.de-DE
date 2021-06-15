@@ -9,7 +9,7 @@ exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1669'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Im [!UICONTROL Manager für geplante Berichte] können regelmäßige Berichtausl
 
 Im [!UICONTROL „Manager für geplante Berichte“] werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt.
 
-1. Um auf den Manager zuzugreifen, klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Geplante Berichte]**.
+1. Um auf den Manager zuzugreifen, klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Terminierte Berichte]**.
 
 ## Berichtlink freigeben {#task_9711DDE9E140451B8C914EC5513E21EC}
 
