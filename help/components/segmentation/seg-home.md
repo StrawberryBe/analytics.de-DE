@@ -20,7 +20,7 @@ Die Analytics-Segmentierung umfasst den [Segment Builder](/help/components/segme
 
 ![](assets/seg__overview.png)
 
-Data Scientists und Marketinganalysten können für bedarfsgerechte Analysen Segmente einsetzen, erweitern und verfeinern und ein Segment dann für andere Benutzer speichern oder erweitern, verfeinern und als neues Segment in der Bibliothek speichern. Einmal in Gang gesetzt, handelt es sich um einen Kreislauf des Entwerfens und Verwaltens kodifizierter Zielgruppeneinblicke als [einheitlicher Segmentarbeitsablauf](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Data Scientists und Marketinganalysten können für bedarfsgerechte Analysen Segmente einsetzen, erweitern und verfeinern und ein Segment dann für andere Benutzer speichern oder erweitern, verfeinern und als neues Segment in der Bibliothek speichern. Einmal in Gang gesetzt, handelt es sich um einen Kreislauf des Entwerfens und Verwaltens kodifizierter Zielgruppeneinblicke als  [einheitlicher Segmentarbeitsablauf](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 **Einstieg**
 
