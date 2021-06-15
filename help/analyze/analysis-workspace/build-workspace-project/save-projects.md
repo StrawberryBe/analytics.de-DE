@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die verschiedenen Speicheroptionen, einschließlich „automatisches Speichern“, „Speichern unter“, „Als Vorlage speichern“ und „Frühere Versionen öffnen“.
+description: Erfahren Sie mehr über die verschiedenen Speicheroptionen, einschließlich automatisches Speichern, Speichern unter, Speichern als Vorlage und Öffnen früherer Versionen.
 title: Projekte speichern
 feature: Workspace – Allgemeines
 role: Business Practitioner, Administrator
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Projekte speichern
 
-Um Ihre Änderungen an einem Projekt zu speichern, gehen Sie zum Menü **[!UICONTROL Projekt]** in Workspace. In Workspace werden Projekte in manchen Fällen auch automatisch gespeichert.
+Um Ihre Änderungen an einem Projekt zu speichern, gehen Sie zum Menü **[!UICONTROL Projekt]** in Workspace. In Workspace werden Projekte in bestimmten Fällen auch automatisch gespeichert.
 
 ## Projektoptionen speichern {#Save}
 
@@ -22,7 +22,7 @@ Es gibt verschiedene Speicheraktionen, die Sie im Menü **[!UICONTROL Projekt]**
 | Aktion | Beschreibung |
 |---|---| 
 | **[!UICONTROL Speichern]** | Speichern Sie die Änderungen an Ihrem Projekt. Wenn das Projekt freigegeben ist, sehen auch die Empfänger des Projekts die Änderungen. Wenn Sie das Projekt zum ersten Mal speichern, werden Sie aufgefordert, dem Projekt einen Namen, eine (optionale) Beschreibung und (optionale) Tags hinzuzufügen. |
-| **[!UICONTROL Mit Hinweisen speichern]** | Bevor Sie das Projekt speichern, können Sie Hinweise über die Änderungen im Projekt hinzufügen. Hinweise werden mit der Projektversion gespeichert und stehen allen Editoren unter [!UICONTROL Projekt] > [!UICONTROL Frühere Version öffnen] zur Verfügung. |
+| **[!UICONTROL Mit Hinweisen speichern]** | Bevor Sie das Projekt speichern, fügen Sie Notizen zu den Änderungen im Projekt hinzu. Notizen werden mit der Projektversion gespeichert und stehen allen Editoren unter [!UICONTROL Projekt] > [!UICONTROL Frühere Version öffnen] zur Verfügung. |
 | **[!UICONTROL Speichern unter]** | Erstellen Sie ein Duplikat Ihres Projekts. Das ursprüngliche Projekt bleibt davon unberührt. |
 | **[!UICONTROL Als Vorlage speichern]** | Speichern Sie Ihr Projekt als [benutzerdefinierte Vorlage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de), die für Ihr Unternehmen unter **[!UICONTROL Projekt > Neu]** zur Verfügung steht. |
 
@@ -62,11 +62,11 @@ Bei **neuen** Projekten, die noch nie gespeichert wurden, können nicht gespeich
 
 So öffnen Sie eine frühere Version eines Projekts:
 
-1. Gehen Sie zu **[!UICONTROL Projekt]** > **[!UICONTROL Frühere Version öffnen]**.
+1. Gehen Sie zu **[!UICONTROL Projekt]** > **[!UICONTROL Frühere Version öffnen]**
 
    ![](assets/previous-versions.png)
 
-1. Überprüfen Sie die Liste der verfügbaren früheren Versionen.
-   Der [!UICONTROL Zeitstempel] und der [!UICONTROL Editor] werden zusätzlich zu den [!UICONTROL Hinweisen] angezeigt, wenn sie hinzugefügt wurden, als der [!UICONTROL Editor] die Hinweise speicherte. Versionen ohne Hinweise werden 90 Tage lang gespeichert. Versionen mit Notizen werden für ein Jahr gespeichert.
+1. Überprüfen Sie die Liste der verfügbaren älteren Versionen.
+   [!UICONTROL Zeitstempel] und [!UICONTROL Editor] werden ebenso wie [!UICONTROL Notizen] angezeigt, wenn diese beim Speichern im [!UICONTROL Editor] hinzugefügt wurden. Versionen ohne Notizen werden 90 Tage lang gespeichert. Versionen mit Notizen werden für ein Jahr gespeichert.
 1. Wählen Sie eine frühere Version aus und klicken Sie auf **[!UICONTROL Laden]**.
-Die vorherige Version wird dann mit einer Benachrichtigung geladen. Die vorherige Version wird erst zur aktuellen gespeicherten Version Ihres Projekts, wenn Sie auf **[!UICONTROL Speichern]** klicken. Wenn Sie die geladene Version verlassen, sehen Sie bei der Rückkehr die zuletzt gespeicherte Version des Projekts.
+Die vorherige Version wird dann mit einer Benachrichtigung geladen. Die vorherige Version wird nur dann zur aktuell gespeicherten Version Ihres Projekts, wenn Sie auf **[!UICONTROL Speichern]** klicken. Wenn Sie die geladene Version verlassen, sehen Sie bei der Rückkehr die zuletzt gespeicherte Version des Projekts.
