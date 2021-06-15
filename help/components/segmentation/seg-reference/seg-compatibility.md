@@ -72,7 +72,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
      <li>Hierarchie (Alle Dimensionen, die mit „Hierarchie“ beginnen) </li> 
      <li>Treffertiefe </li> 
      <li>Treffertyp </li> 
-     <li>Stunde Tag </li> 
+     <li>Stunde  Tag </li> 
      <li>Monat des Jahres </li> 
      <li>Seiten nicht gefunden </li> 
      <li>Paid Search </li> 
