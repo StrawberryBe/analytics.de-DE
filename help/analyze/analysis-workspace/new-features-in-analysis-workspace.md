@@ -1,18 +1,18 @@
 ---
 description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
-title: Neuerungen in Analysis Workspace
+title: Neue Funktionen in Analysis Workspace
 feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '8283'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
-# Neuerungen in Analysis Workspace
+# Neue Funktionen in Analysis Workspace
 
 Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
@@ -76,7 +76,7 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 | Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Aktualisiertes leeres Bedienfeld | Das leere Bedienfeld umfasst jetzt Bedienfelder und Visualisierungen, damit Sie den Analyse-Workflow, der für Sie am besten geeignet ist, einfacher auswählen können. |
 | Bedienfeld „Quick Insights“ (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Bedienfeld „Analytics for Target“ in Workspace (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Bedienfeld „Analytics for Target“ in Workspace  (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Seite „Info zu Workspace“ | Auf der Seite „Info zu Workspace“ finden Sie Informationen zu Ihrer Analysis Workspace-Umgebung, zu Ihren Adobe Analytics-Administratoren (falls Sie Support benötigen) und eine Möglichkeit, produktinternes Feedback zu geben. Diese Seite finden Sie unter „Workspace“ > „Hilfe“ > „Info zu Workspace“. |
 
 ## Mai 2020
@@ -304,7 +304,7 @@ Am 19. Juli 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Wenn möglich, wird nun eine Gesamtsumme für berechnete Metriken sowie für Prozentanteile angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Neu <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Vorgabe für den Datumsbereich </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Neu  <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Vorgabe für den Datumsbereich </a></b> </p> </td> 
    <td colname="col2"> <p>„Letzte 13 ganze Wochen“ wurde zur Vorgabe für den Datumsbereich in Analysis Workspace hinzugefügt. </p> </td> 
   </tr> 
  </tbody> 
@@ -364,7 +364,7 @@ Am 10. Mai 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Sie können nun nach oben und unten scrollen, während Sie Komponenten an eine andere Stelle ziehen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Zusätzliche Informationen zu <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Zusätzliche Informationen zu  <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td> 
    <td colname="col2"> <p>Wenn Sie den Mauszeiger in einem Liniendiagramm über eine Anomalie bewegen, werden in den Informationen jetzt das Datum und der Rohdatenwert der Anomalie angezeigt. </p> </td> 
   </tr> 
  </tbody> 
@@ -435,7 +435,7 @@ Am 8. März 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Für vor Kurzem veröffentlichte benutzerdefinierte Vorlagen haben wir </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">oben im Projekt (beim Titel) ein Vorlagensymbol hinzugefügt, damit der Modus zum Bearbeiten der Vorlage einfacher von der Verwendung einer Vorlage als Ausgangspunkt für ein Projekt zu unterscheiden ist. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">ermöglicht, dass Benutzer ohne Administratorrechte Arbeitsbereichs-Projektvorlagen (über „Speichern untern“) erstellen und bearbeiten können, wenn sie über die Berechtigung zum Erstellen/Kuratieren von Projekten im Analysis Workspace verfügen. ( <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Alle Administratoren </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> &gt; <span class="uicontrol"> Gruppen </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten </span> &gt; <span class="uicontrol"> Analytics-Tools anpassen </span> &lt;a 13/&gt; Erstellen/Kuratieren von Projekten in Analysis Workspace </span> </span>).<span class="uicontrol"> </span></li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">ermöglicht, dass Benutzer ohne Administratorrechte Arbeitsbereichs-Projektvorlagen (über „Speichern untern“) erstellen und bearbeiten können, wenn sie über die Berechtigung zum Erstellen/Kuratieren von Projekten im Analysis Workspace verfügen. (<span class="ignoretag"> <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Alle Administratoren</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Analytics-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Projekte in Analysis Workspace erstellen/kuratieren </span></span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Beitragsanalyse: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Token-Benachrichtigung </a> </p> </td> 
-   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung heißt "Anomalieerkennung und Beitragsanalyse" unter <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Alle Administratoren </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> <span class="uicontrol"> Gruppen bearbeiten </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten &lt;a11 1/&gt; &gt; <span class="uicontrol"> Report Suite-Tools anpassen </span> &gt; <span class="uicontrol"> Tools und Berichte </span>. ) </span> </p> </td> 
+   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung lautet „Anomalieerkennung und Beitragsanalyse“. Sie finden Sie unter <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Alle Administratoren</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span>.)  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-Dateien mit Multibyte-Zeichen </p> </td> 
@@ -883,7 +883,7 @@ Am 20. April 2017 veröffentlichte neue Funktionen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen an der Option zum Rückgängigmachen/Wiederherstellen </p> </td> 
-   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
+   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie  in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -956,7 +956,7 @@ Am 10. November 2016 veröffentlichte neue Funktion:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Datumsvergleich </a> </p> </td> 
-   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B. Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte, die die Änderung in Prozent angibt. </p> </td> 
+   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B. Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte,  die die Änderung in Prozent angibt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1249,4 +1249,4 @@ Beim Speichern eines Projekts wird der Titel auf der Registerkarte des Browsers 
 
 Administratoren haben die Möglichkeit, Projekte in [!UICONTROL Analysis Workspace] von einem Benutzer an einen anderen zu übertragen.
 
-Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Übertragen]** , um Projekte zu übertragen.
+Navigieren Sie zum Übertragen von Projekten zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Übertragen]**.
