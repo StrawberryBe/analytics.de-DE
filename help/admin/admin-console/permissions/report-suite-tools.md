@@ -1,11 +1,11 @@
 ---
 title: Produktprofil-Berechtigungen für Report Suite-Werkzeuge
-description: Machen Sie sich mit den einzelnen Berechtigungselementen unter Report Suite-Tools vertraut.
+description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report Suite-Werkzeuge vertraut.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 86%
+ht-degree: 89%
 
 ---
 
@@ -39,10 +39,10 @@ Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report S
 | Echtzeitbericht | Gewährt Zugriff auf „Site-Metriken > Echtzeit“ in Reports &amp; Analytics. Verwenden Sie das Berechtigungselement „Konfiguration für Echtzeitberichte“, um Zugriff für die Einrichtung dieses Berichts zu gewähren. |
 | Bot-Seiten | Gewährt Zugriff auf den Bericht „Bot-Seiten“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
 | Bots | Gewährt Zugriff auf den Bericht „Bots“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
-| Data Feeds Manager | Gewährt Zugriff auf „Admin > Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
+| Data Feeds Manager | Gewährt Zugriff auf „Admin > „Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
 | Benutzerdefinierter Data Warehouse-Bericht | Gewährt Zugriff auf „Tools > Data Warehouse“ im oberen Navigationsbereich von Analytics. |
 | Rückkehrende Besucher pro Tag | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher pro Tag“ in Reports &amp; Analytics. |
-| Data Sources Manager | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Sources&quot;im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
+| Data Sources Manager | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Datenquellen“ im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
 | Nach IP-Adresse ausschließen | Gewährt Zugriff auf „Admin > Ausschluss nach IP“ im oberen Navigationsbereich von Analytics. |
 | Rückkehrende Besucher | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher“ in Reports &amp; Analytics. |
 | Classifications | Gewährt Zugriff auf alle Classification-Einstellungen in Report Suite Manager. Dieses Berechtigungselement umfasst: <br>Traffic > Traffic-Klassifizierungen<br>Konversion > Konversionsklassifizierungen<br>Konversion > Klassifizierungshierarchien<br>Marketing-Kanäle > Marketingkanal-Klassifikationen<br>App-Verwaltung > App-Klassifizierungen<br>Medienverwaltung > Medienklassifizierungen<br>AEM > AEM Assets-Klassifizierungen<br>Adobe Campaign > Adobe-Klassifizierungen |
