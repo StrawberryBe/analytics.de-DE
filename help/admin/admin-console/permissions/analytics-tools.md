@@ -1,11 +1,11 @@
 ---
 title: Produktprofilberechtigungen für Analytics-Werkzeuge
-description: Verwenden Sie die Berechtigungselemente der Analytics-Tools, um Zugriff auf Funktionen in Adobe Analytics zu gewähren.
+description: Verwenden Sie die Berechtigungselemente der Analytics-Werkzeuge, um Zugriff auf Funktionen in Adobe Analytics zu gewähren.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -15,17 +15,17 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 
 | Berechtigungselement der Analytics-Tools | Beschreibung |
 |----|----|
-| Nutzung der Server-Aufrufe | Gewährt Zugriff auf „Admin > Nutzung der Serveraufrufe“. |
-| Code-Manager | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf &quot;Admin > Alle Admin > Code-Manager&quot;. In den meisten Fällen sollten Sie stattdessen die in Adobe Experience Platform Launch enthaltenen Bibliotheken verwenden. |
+| Nutzung der Server-Aufrufe | Gewährt Zugriff auf „Admin“ > „Server-Aufruf-Nutzung“. |
+| Code-Manager | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen sollten Sie stattdessen die in Adobe Experience Platform Launch enthaltenen Bibliotheken verwenden. |
 | Code-Manager – Web-Services | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
-| Protokolle | Gewährt Zugriff auf &quot;Admin > Alle Admin > Protokolle&quot;. |
+| Protokolle | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Protokolle“. |
 | Protokolle – Web-Services | Gewährt Zugriff, um Protokolle über die 1.4-API abzurufen. |
-| Traffic-Management | Gewährt Zugriff auf &quot;Admin > Alle Administratoren > Traffic-Management&quot;. |
-| Sicherheit | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Sicherheits-Manager&quot;. |
-| Support | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Support-Info&quot;. |
-| Web-Services | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Web-Services&quot;. |
-| Ausstehende Aktionen | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Ausstehende Aktionen&quot;. |
-| Ausblenden von Report Suites | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Report Suites ausblenden&quot;. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
+| Traffic-Management | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Traffic-Management“. |
+| Sicherheit | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Sicherheits-Manager“. |
+| Support | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Supportinfo“. |
+| Web-Services | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Web-Services“. |
+| Ausstehende Aktionen | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Ausstehende Aktionen“. |
+| Ausblenden von Report Suites | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Report Suites ausblenden“. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
 | Excel-Lizenzanwender | Nicht verwendet. |
 | Activity Map | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
 | Aktuelle Daten | Aktiviert die Option zum Anzeigen aktueller Daten in Reports &amp; Analytics-Berichten. |
@@ -41,6 +41,6 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Erstellung von Segmenten | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | Advertising Analytics-Verwaltung | Nicht verwendet. |
 | Segmentveröffentlichung | Gewährt die Möglichkeit, ein Segment beim Erstellen oder Bearbeiten zu einer Experience Cloud-Zielgruppe zu machen. |
-| Integrationen (Erstellen) | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Connectors&quot;und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
-| Integrationen (Aktualisieren) | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Connectors&quot;und ermöglicht dem Benutzer die Änderung vorhandener Connector-Konfigurationen. |
-| Integrationen (Löschen) | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Connectors&quot;und ermöglicht dem Benutzer das Löschen von Data Connectors. |
+| Integrationen (Erstellen) | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
+| Integrationen (Aktualisieren) | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Ändern vorhandener Connector-Konfigurationen. |
+| Integrationen (Löschen) | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Löschen von Data Connectors. |
