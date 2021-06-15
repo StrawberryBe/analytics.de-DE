@@ -17,7 +17,7 @@ Die Echtzeitberichterstellung zeigt den Webseitentraffic an und sortiert Seitena
 
 >[!NOTE]
 >
->Für den Echtzeitbericht sind keine zusätzlichen Implementierungen oder Taggings erforderlich. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md).
+>Für den Echtzeitbericht sind keine zusätzlichen Implementierungen oder Taggings erforderlich. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter  [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Site-Metriken]** > **[!UICONTROL Echtzeit]**
 
