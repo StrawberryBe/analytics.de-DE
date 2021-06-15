@@ -8,7 +8,7 @@ exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Beim Migrieren von Besuchern können Sie die Cookies zur Identifizierung von Bes
 
 * Sie implementieren den [Besucher-ID-Service von Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) und wechseln von einer Datenerfassungs-Domain mit CNAME-Eintrag/Erstanbieterkontext zu `adobedc.net`, `2o7.net` oder `omtrdc.net`
 
-* Wechseln zu einer Datenerfassung mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)).
+* Wechseln zu einer Datenerfassung mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=de)).
 
 * Wechsel von einem CNAME-Eintrag zu einem anderen (Domänenwechsel).
 
