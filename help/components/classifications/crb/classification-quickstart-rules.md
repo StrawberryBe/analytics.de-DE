@@ -7,7 +7,7 @@ uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2028'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,14 +18,14 @@ Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Reg
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-Mit dem Rule Builder können Sie einen *Classification-Regelsatz* erstellen, der eine Liste von *Classification-Regeln* ist. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
+Mit dem Rule Builder können Sie einen *Classification-Regelsatz* erstellen – eine Liste von *Classification-Regeln*. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
 
 Classification-Regeln eignen sich für Folgendes:
 
 * **E-Mail-** und **Display-Anzeigen:** Erstellen Sie Classification-Regeln, die die einzelnen Display-Anzeigekampagnen gruppieren, so dass ersichtlich wird, wie die Display-Kampagnen im Vergleich zu den E-Mail-Kampagnen abschneiden.
 
 * **Trackingcodes:** Erstellen Sie Classification-Regeln, die die aus den Zeichenfolgen in den Trackingcodes abgeleiteten Schlüsselwerte kategorisieren und dann prüfen, ob diese Schlüsselwerte mit den angegebenen Kriterien übereinstimmen.
-* **Suchbegriffe**: Mithilfe von  [regulären Ausdrücken](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
+* **Suchbegriffe**: Mithilfe von   [regulären Ausdrücken](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
 
 Der Trackingcode für eine E-Mail-Kampagnen-ID lautet beispielsweise:
 
@@ -78,11 +78,11 @@ about_classification_rules.xml
 
 ## In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?
 
-Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben. In den folgenden Situationen wird ein [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) (eine Variable) nicht durch eine Classification-Regel klassifiziert, wenn Folgendes gilt:
+Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben. In den folgenden Situationen wird ein  [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) (eine Variable) nicht durch eine Classification-Regel klassifiziert, wenn Folgendes gilt:
 
 * Der Schlüssel wurde bereits klassifiziert, und Sie haben nicht die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) ausgewählt.
 
-   Sie können Classifications überschreiben, wenn Sie  eine Regel [hinzufügen und aktivieren](/help/components/classifications/crb/classification-quickstart-rules.md), und wenn Sie eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
+   Sie können Classifications überschreiben, wenn Sie   eine Regel [hinzufügen und aktivieren](/help/components/classifications/crb/classification-quickstart-rules.md), und wenn Sie eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
 
 * Ein klassifizierter Schlüssel wird beim Überschreiben nach Ablauf eines bestimmten Zeitrahmens auch dann nicht in den Daten sichtbar, wenn Sie die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) aktiviert haben.
 * Der Schlüssel wird nicht klassifiziert, und nach Beginn des Zeitrahmens (vor etwa einem Monat) wurde der Schlüssel auch nicht in [!DNL Adobe Analytics] übergeben.
@@ -265,7 +265,7 @@ In diesem Ergebnis zeigt `a:b:1313` keine Übereinstimmung an.
 | `a{3,}` | 3 oder mehr von a |
 | `a{3,6}` | Zwischen 3 und 6 von a |
 
-Eine gute Ressource zum Testen der Gültigkeit regulärer Ausdrücke ist [https://rubular.com/](https://rubular.com/).
+[https://rubular.com/](https://rubular.com/) ist eine gute Ressource, mit der Sie die Gültigkeit regulärer Ausdrücke testen können.
 
 ## Informationen zur Regelpriorität
 
@@ -287,7 +287,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | 2 | Enthält | Fantasy | Suchtyp | Fantasie |
 | 3 | Enthält | Romo | Suchtyp | Spieler |
 
-Wenn ein Benutzer nach  *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
+Wenn ein Benutzer nach   *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
 
 Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für die folgenden Suchbegriffe fest:
 
@@ -296,7 +296,7 @@ Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für
 | 1 | Enthält | Cowboys | Stadt | Dallas |
 | 2 | Enthält | Broncos | Stadt | Denver |
 
-Ein Benutzer sucht nach  *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
+Ein Benutzer sucht nach   *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
 
 ## Hinzufügen einer Klassifizierungsregel zu einem Regelsatz {#add-classification-to-rule-set}
 
@@ -312,7 +312,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
 >[!NOTE]
 >
->Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von  [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
+>Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von   [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/classifications/crb/classification-rule-set.md).
 1. Klicken Sie auf der Regelsatzseite auf **[!UICONTROL Regel hinzufügen]**.
@@ -325,7 +325,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
    >[!NOTE]
    >
-   >Report Suites werden auf dieser Seite *nur* angezeigt, wenn die folgenden Bedingungen erfüllt sind:
+   >Report Suites werden *nur dann* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:
    >
    >* Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
       >
@@ -406,7 +406,7 @@ In diesen Schritten wird beschrieben, wie Sie Classification-Regeln validieren u
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) Um Classifications zu überschreiben, aktivieren Sie **[!UICONTROL Classifications für]** &lt;*selection* überschreiben.
+1. (Optional) Wenn Sie Classifications überschreiben möchten, aktivieren Sie die Option **[!UICONTROL Überschreiben von Classifications für]** &lt;*Auswahl*>.
 
    Mit dieser Option können Sie bestehende Classifications für die betroffenen Schlüssel überschreiben.
 
