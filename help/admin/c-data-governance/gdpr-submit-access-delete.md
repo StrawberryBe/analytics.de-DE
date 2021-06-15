@@ -4,9 +4,9 @@ title: Zugriffs- und Löschanfragen einreichen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Sie sollten in Erwägung ziehen, Ihren Apps und Websites Hinweise hinzuzufügen,
 
 ## Kundeneinwilligung verwalten {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Als Datenverantwortlicher sind Sie dafür verantwortlich, die ausdrückliche Einwilligung von Ihren Datensubjekten einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten), und einen [Opt-out-Mechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) auf Ihrer Website zu implementieren. Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
+Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwilligung von den betroffenen Personen einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Abmeldemechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) zu implementieren. Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
 
 ## Benutzer und ihre Daten validieren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -28,7 +28,7 @@ Hierzu müssen Sie auch die im Rahmen der Datenschutz-Zugriffsanfrage von Adobe 
 
 Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch zusätzliche Kopien replizierter Hits. Sie können entscheiden, welche dieser Dateien Sie an die betroffene Person zurückgeben. Sie können auch Daten extrahieren oder mit Daten aus anderen Systemen kombinieren, bevor Sie sie an das Datensubjekt zurücksenden.
 
-## Anfragen einreichen {#submit-requests}
+## Anfragen einreichen  {#submit-requests}
 
 Sie können Datenschutz-Zugriffs- und -Löschanfragen über unser [Datenschutz-UI-Portal](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) oder unsere [Datenschutz-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) senden.
 
