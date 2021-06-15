@@ -5,7 +5,7 @@ exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Acxiom | Veraltet |
 | Adform | Veraltet |
 | Anpassen | Migration zu Adobe Exchange |
-| Adobe Campaign | Migration zu Adobe Exchange (siehe Hinweis unten) |
+| Adobe Campaign | Migration zu Adobe Exchange  (siehe Hinweis unten) |
 | Appfigures | Migration zu Adobe Exchange |
 | Appsee | Veraltet |
 | AppsFlyer | Migration zu Adobe Exchange |
@@ -101,6 +101,6 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 
 ## Ausnahme: Adobe Campaign Classic
 
-Die EINZIGE Ausnahme zum Datum vom 1. August 2021 ist die Adobe Campaign Classic-Integration. Diese Integration wird offiziell am 1. März 2022 eingestellt.
+Die EINZIGE Ausnahme zum Datum vom 1. August 2021 ist die Adobe Campaign Classic-Integration. Diese Integration wird offiziell am 1. März 2022 eingestellt.
 
-Am 1. August 2021 wird Adobe Campaign Classic zusammen mit allen anderen Integrationen aus der Data Connectors-Benutzeroberfläche entfernt. Vorhandene Campaign-Integrationen werden jedoch bis zum 1. März 2022 weiterhin Daten erfassen und an Adobe Analytics weitergeben. Am 1. März 2022 wird die Integration die Erfassung und Weitergabe von Daten an Adobe Analytics einstellen. Adobe Campaign erstellt eine neue Integration in Adobe Exchange, die die aktuelle Data Connectors-Integration ersetzt. Adobe Campaign geht davon aus, dass diese neue Integration rechtzeitig abgeschlossen werden kann, damit Kunden vor der Einstellung im März 2022 zur neuen Integration migrieren können.
+Am 1. August 2021 wird Adobe Campaign Classic zusammen mit allen anderen Integrationen aus der Data Connectors-Benutzeroberfläche entfernt. Vorhandene Campaign-Integrationen werden jedoch bis zum 1. März 2022 weiterhin Daten erfassen und an Adobe Analytics weitergeben. Am 1. März 2022 werden die Erfassung und Weitergabe von Daten an Adobe Analytics eingestellt. Adobe Campaign erstellt eine neue Integration in Adobe Exchange als Ersatz für die aktuelle Data Connectors-Integration. Adobe Campaign geht davon aus, dass diese neue Integration rechtzeitig abgeschlossen werden kann, damit Kunden vor der Einstellung im März 2022 zur neuen Integration migrieren können.
