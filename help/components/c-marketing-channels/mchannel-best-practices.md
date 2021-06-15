@@ -1,55 +1,54 @@
 ---
-title: Best Practices für die Implementierung von Adobe Analytics Marketing Kanäle
+title: Best Practices für die Implementierung von Adobe Analytics-Marketing-Kanälen
 description: Aktualisierte Best Practices für die Verwendung von Marketing-Kanälen mit Attribution IQ und Customer Journey Analytics
-translation-type: tm+mt
-source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
+source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 3%
+source-wordcount: '645'
+ht-degree: 91%
 
 ---
 
 
-# Attribution IQ mit Marketing-Kanälen - Best Practices
+# Attribution IQ mit Marketing-Kanälen – Best Practices
 
-[Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Channelsare sind ein wertvolles und leistungsstarkes Merkmal von Adobe Analytics. Die aktuellen Anleitungen zur Implementierung von Marketing-Kanälen wurden zu einer Zeit formuliert, als weder [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=de#cja-usecases) existierten.
+[Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) sind eine wertvolle und leistungsstarke Funktion von Adobe Analytics. Die aktuelle Anleitung zur Implementierung von Marketing-Kanälen wurde zu einem Zeitpunkt formuliert, als weder [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=de#analysis-workspace) noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=de#cja-usecases) existierten.
 
-Um die Implementierung Ihrer Marketing-Kanal in Zukunft zu Testversand zu bringen und sicherzustellen, dass Berichte mit Attribution IQ und Customer Journey Analytics konsistent sind, stellen wir eine Reihe aktualisierter Best Practices zur Verfügung. Wenn Sie bereits Marketing-Kanal verwenden, können Sie unter diesen neuen Richtlinien die besten Optionen auswählen. Wenn Sie neu bei Marketing-Kanälen sind, empfehlen wir Ihnen, sich an alle neuen Best Practices zu halten.
+Um Ihre Implementierung von Marketing-Kanälen zukunftssicher zu machen und sicherzustellen, dass Berichte konsistent mit Attribution IQ und Customer Journey Analytics sind, stellen wir eine Reihe aktualisierter Best Practices bereit. Wenn Sie bereits Marketing-Kanäle verwenden, können Sie unter diesen neuen Richtlinien die besten Optionen auswählen. Wenn Sie mit Marketing-Kanälen noch nicht vertraut sind, empfehlen wir Ihnen, alle neuen Best Practices einzuhalten.
 
-Als die Marketing-Kanal zum ersten Mal eingeführt wurden, hatten sie nur First Touch- und Last Touch-Dimensionen. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe bietet allgemeine Dimensionen &quot;Marketing-Kanal&quot;und &quot;Marketing-Kanal-Detail&quot;, damit Sie sie mit Ihrem gewünschten Zuordnungsmodell verwenden können. Diese generischen Dimensionen verhalten sich identisch mit den Dimensionen des Last Touch-Kanals, sind jedoch anders beschriftet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Zuordnungsmodell zu vermeiden.
+Als Marketing-Kanäle eingeführt wurden, hatten sie nur die Dimensionen „Erstkontakt“ und „Letztkontakt“. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe stellt die generischen Dimensionen „Marketing-Kanal“ und „Marketing-Kanal-Detail“ bereit, die Sie mit Ihrem gewünschten Attributionsmodell verwenden können. Diese allgemeinen Dimensionen verhalten sich identisch mit den Dimensionen des Letztkontakt-Kanals, sind jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Attributionsmodell zu vermeiden.
 
-Da die Dimensionen des Marketing-Kanals von einer herkömmlichen Besuchsdefinition abhängen (wie in ihren Verarbeitungsregeln definiert), kann ihre Besuchsdefinition nicht mit Virtual Report Suites geändert werden. Diese überarbeiteten Verfahren ermöglichen klare und kontrollierte Lookback-Fenster mit Attribution IQ und mit CJA.
+Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition abhängen (wie in den Verarbeitungsregeln definiert), kann ihre Besuchsdefinition nicht mit Virtual Report Suites geändert werden. Diese überarbeiteten Vorgehensweisen ermöglichen klare und kontrollierte Lookback-Fenster mit Attribution IQ und CJA.
 
-## Best Practice Nr. 1: Nutzung von Attribution IQ für kontrollierte Analyse
+## Best Practice 1: Attribution IQ für kontrollierte Analysen nutzen
 
-Es wird empfohlen, [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) anstelle der vorhandenen Marketing-Kanal-Zuordnung zu verwenden, um Ihre Marketing-Kanal-Analyse zu präzisieren. Befolgen Sie die anderen bewährten Verfahren, um Konsistenz und stabile Kontrollen Ihrer Analyse mit Attribution IQ sicherzustellen.
+Es wird empfohlen, [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) anstelle der vorhandenen Marketing-Kanal-Attribution zu verwenden, um Ihre Marketing-Kanal-Analyse zu optimieren. Befolgen Sie die anderen Best Practices, um Konsistenz und zuverlässige Kontrollen Ihrer Analyse mit Attribution IQ sicherzustellen.
 
 ![](assets/attribution.png)
 
-* Die Konfiguration der Dimensionen Marketing Kanal- und Marketing Kanal-Detail legt Touchpoints fest, die entsprechend jeder Marketing Kanal-Instanz bewertet werden sollen.
-* Zur Analyse von Metriken sollte Ihr Unternehmen ein oder mehrere Zuordnungsmodelle verwenden. Speichern Sie benutzerdefinierte Metriken mit diesem Modell, um sie einfach wiederzuverwenden.
-* Standardmäßig werden die Daten mithilfe von &quot;Letztkontakt&quot;und der Einstellung des Besucher-Interaktionszeitraums zugeordnet. Attribution IQ-Metrikmodelle Angebot mehr Kontrolle über die Lookback-Fenster und mehr Vielfalt, einschließlich [algorithmische Zuordnung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
+* Die Konfiguration der Dimensionen Marketing-Kanal und Marketingkanal-Detail legt Touchpoints fest, die entsprechend den einzelnen Marketingkanal-Instanzen ausgewertet werden sollen.
+* Die Metrikanalyse sollte Ihr Unternehmen an einem oder mehreren Attributionsmodellen ausrichten. Speichern Sie benutzerdefinierte Metriken mit diesem Modell zur einfachen Wiederverwendung.
+* Standardmäßig werden Daten mithilfe von Letztkontakt und der Einstellung des Besucherinteraktionszeitraums zugeordnet. Attribution IQ-Metrikmodelle bieten eine bessere Kontrolle über die Lookback-Fenster und eine größere Vielfalt, einschließlich [algorithmischer Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de#analysis-workspace).
 
-## Best Practice Nr. 2: Keine Kanal-Definitionen für &quot;Direkt aktualisieren&quot;und &quot;Sitzung aktualisieren&quot;
+## Best Practice 2: Keine Kanaldefinitionen für „Direkt“ und „Sitzungsaktualisierung“
 
-Kanal zur direkten und internen/Sitzungsaktualisierung werden nicht für die Verwendung mit benutzerdefinierten Zuordnungsmodellen (Attribution IQ) empfohlen.
+Die Kanäle „Direkt“ und „Intern/Sitzungsaktualisierung“ werden nicht zur Verwendung mit benutzerdefinierten Attributionsmodellen (Attribution IQ) empfohlen.
 
-Was ist, wenn Ihr Unternehmen bereits Direct und Session Refresh konfiguriert hat? In diesem Fall sollten Sie eine Klassifizierung für Ihre Marketing-Kanal erstellen und diese beiden Kanal nicht klassifizieren. Die klassifizierte Dimension liefert dieselben Attribution IQ-Ergebnisse, als ob diese Kanal nie konfiguriert wären.
+Was passiert, wenn für Ihr Unternehmen bereits die Direkt- und Sitzungsaktualisierung konfiguriert ist? In diesem Fall empfehlen wir Ihnen [eine Classification](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) für Erstkontakt/Letztkontakt zu erstellen und die Kanäle Direkt- und Sitzungsaktualisierung nicht klassifiziert zu lassen. Die klassifizierte Dimension liefert dieselben Attribution IQ-Ergebnisse, als ob diese Kanäle noch nie konfiguriert wären.
 
 ![](assets/direct-session-refresh.png)
 
-## Best Practice Nr. 3: Last Touch-Kanal für alle Kanal überschreiben aktivieren
+## Best Practice 3: „Last Touch-Kanal außer Kraft setzen“ für alle Kanäle aktivieren
 
-Benutzerdefinierte Zuordnungsmodelle, die mit der Marketing Kanal-Dimension in Workspace verwendet werden, funktionieren am besten, wenn diese Einstellung aktiviert ist. Wenn Sie diese Einstellung aktivieren, zählt eine Marketing Kanal-Instanz, wenn ein neuer Kanal/Details auftritt. Sie sollten dies für alle Kanal aktivieren, mit Ausnahme von Direct oder Internal/Session Refresh, das wir nicht mehr für die Verwendung mit benutzerdefinierten Zuordnungsmodellen (Attribution IQ) empfehlen.
+Benutzerdefinierte Attributionsmodelle, die mit der Dimension „Marketing-Kanal“ in Workspace verwendet werden, funktionieren am besten, wenn diese Einstellung aktiviert ist. Durch Aktivierung dieser Einstellung wird eine Marketing-Kanal-Instanz gezählt, wenn ein neuer Kanal/ein neues Detail gefunden wird. Sie sollten dies für alle Kanäle mit Ausnahme von „Direkt“ oder „Intern/Sitzungsaktualisierung“ aktivieren, die nicht mehr für die Verwendung mit benutzerdefinierten Attributionsmodellen (Attribution IQ) empfohlen werden.
 
 ![](assets/override.png)
 
-## Best Practice Nr. 4: Besucher-Interaktionszeit minimieren
+## Best Practice 4: Zeitraum der Besucherinteraktion minimieren
 
-Wenn Sie den Zeitraum für die Besucher-Interaktion auf das Minimum von &quot;1 Tag&quot;setzen, wird die Wahrscheinlichkeit, dass Werte beibehalten werden, minimiert. Da benutzerdefinierte Zuordnungsmodelle (AIQ) flexible Lookback-Fenster ermöglichen, sollten Sie den Mindestwert festlegen, um die Auswirkungen dieser Einstellung zu minimieren.
+Wenn Sie den Zeitraum der Besucherinteraktion auf das Minimum „1 Tag“ setzen, wird die Wahrscheinlichkeit minimiert, dass Werte beibehalten werden. Da benutzerdefinierte Attributionsmodelle (AIQ) flexible Lookback-Fenster ermöglichen, empfehlen wir, den Mindestwert festzulegen, um die Auswirkungen dieser Einstellung zu minimieren.
 
 ![](assets/expiration.png)
 
-## Best Practice #5: Verarbeitungsregeln für Marketing-Kanal sollten nur für aktivierte Kanal vorhanden sein
+## Best Practice Nr. 5: Verarbeitungsregeln für Marketing-Kanäle nur für aktivierte Kanäle
 
-Stellen Sie sicher, dass Sie alle Verarbeitungsregeln für Marketing Kanal für deaktivierte Kanal entfernen. Regeln sollten nur für Marketing-Kanal vorhanden sein, die als aktiviert markiert sind.
+Stellen Sie sicher, dass Sie alle Verarbeitungsregeln für Marketing-Kanäle für deaktivierte Kanäle entfernen. Regeln sollten nur für Marketing-Kanäle vorhanden sein, die als aktiviert markiert sind.
