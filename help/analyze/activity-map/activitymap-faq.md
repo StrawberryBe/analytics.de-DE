@@ -8,7 +8,7 @@ exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktion
 
 Organisationen mit Verträgen für Adobe Analytics Standard, Premium und Ultimate haben Zugang zu Activity Map.
 
-## Wie unterstützt Activity Map Einzelseiten-Apps (SPA)?
+## Wie unterstützt Activity Map Single-Page Applications (SPA)?
 
-Alle paar Sekunden scannt Activity Map die Webseite und sucht nach Änderungen an der Seite. ActivityMap findet neuen Inhalt auf der Seite, ohne dass eine neue Seite geladen werden muss. Dieser neue Inhalt wird jedoch immer dem ersten pageName zugeordnet, der beim Laden der Seite gefunden wurde.
+Alle paar Sekunden scannt Activity Map die Web-Seite und sucht nach Änderungen an der Seite. Activity Map findet neuen Inhalt auf der Seite, ohne dass die Seite neu geladen werden muss. Dieser neue Inhalt wird jedoch immer dem ersten pageName zugeordnet, der beim Laden der Seite gefunden wurde.
 
-* Activity Map prüft, ob sich die Sichtbarkeit von Links, von denen es weiß, geändert hat. Wenn eine Änderung der Sichtbarkeit festgestellt wird, wird die Spalte &quot;Links auf Seite&quot;der Tabelle &quot;Präsenz&quot;für diesen Link mit [!UICONTROL Angezeigt] oder [!UICONTROL Ausgeblendet] aktualisiert.
+* Activity Map prüft, ob sich die Sichtbarkeit von bekannten Links geändert hat. Wenn eine Änderung der Sichtbarkeit festgestellt wird, wird die Spalte „Präsenz“ der Tabelle „Links auf Seite“ für diesen Link mit [!UICONTROL Angezeigt] oder [!UICONTROL Ausgeblendet] aktualisiert.
 
-* Wenn durch die Benutzerinteraktion neue Inhalte erstellt werden, werden alle neuen Elemente, die von AppMeasurement als Link erkannt werden, zur Tabelle [!UICONTROL Links auf Seite] hinzugefügt. Activity Map sendet eine neue Datenanforderung, die diese neuen Links enthält. Die neuen Links sollten in der Tabelle [!UICONTROL Links auf Seite] angezeigt werden, wenn die Datenanforderung von der Benutzeroberfläche verarbeitet wird.
+* Wenn durch Benutzerinteraktion neue Inhalte erstellt werden, werden alle neuen Elemente, die von AppMeasurement als Link erkannt werden, zur Tabelle [!UICONTROL Links auf Seite] hinzugefügt. Activity Map sendet eine neue Datenanfrage, die diese neuen Links enthält. Die neuen Links sollten in der Tabelle [!UICONTROL Links auf Seite] angezeigt werden, wenn die Datenanfrage von der Benutzeroberfläche verarbeitet wird.
 
 
 ## Bietet Activity Map Daten zu „Ansichten“?
