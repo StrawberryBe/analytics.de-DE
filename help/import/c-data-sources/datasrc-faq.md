@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1496'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Bei einer Datenquelle-Datei, in der mindestens einer der Datensätze nicht die g
 
 Mit Data Sources-Informationen kann eine Datenaggregation durchgeführt werden. Die Adobe-Kundenunterstützung muss die Datenaggregation jedoch ab den historischen Daten erneut verarbeiten, um die historischen Daten einzuschließen. Wenn das aktuelle Datum z. B. der 31. Oktober 2015 ist und Sie Daten für den 1. bis 15. August 2015 mit Data Sources hochladen, muss die Datenaggregation so eingerichtet sein, dass eine neue Verarbeitung ab dem 1. August 2015 durchgeführt wird, damit die neu importierten Daten eingeschlossen werden.
 
-Beachten Sie zudem, dass Daten niemals direkt über Data Sources in eine Datenaggregations-Report-Suite hochgeladen werden sollten. Wenn diese Daten in einer Datenaggregation eingeschlossen werden sollen, müssen Sie in eine standardmäßige Report Suite importiert werden, die auch als *`child suite`* der Datenaggregation bezeichnet wird. Wenden Sie sich an die Adobe-Kundenunterstützung, um weitere Informationen zu erhalten.
+Beachten Sie zudem, dass Daten niemals direkt über Data Sources in eine Datenaggregations-Report-Suite hochgeladen werden sollten. Wenn diese Daten in einer Datenaggregation eingeschlossen werden sollen, müssen Sie in eine standardmäßige Report Suite importiert werden, die auch als  *`child suite`* der Datenaggregation bezeichnet wird. Wenden Sie sich an die Adobe-Kundenunterstützung, um weitere Informationen zu erhalten.
 
 ## Warum enthält der Seitenansichtsbericht keine Data Sources-Daten für einen einzelnen Tag, sondern die korrekten Daten für eine Woche? {#section_E361A93AFDE1487989B4B0C4438EEDF7}
 
