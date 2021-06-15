@@ -5,7 +5,7 @@ exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Konversionsvariablen | x |  |  |  | Gewährt Zugriff auf „Konversions- > Konversionsvariablen“ im Report Suite Manager. |
 | Kosten | x |  |  |  | Gewährt Zugriff auf „Marketing-Kanäle > Marketingkanal-Kosten“ im Report Suite Manager. |
 | Benutzerdefinierter Kalender | x |  |  |  | Gewährt Zugriff auf „Allgemein > Kalender anpassen“ im Report Suite Manager. |
-| Data Feeds Manager | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Daten-Feeds&quot;im oberen Navigationsbereich von Analytics. |
+| Data Feeds Manager | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
 | Datenreparatur-API | x |  |  |  | Gewährt Zugriff auf die Datenreparatur-API |
-| Data Sources Manager | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Datenquellen&quot;im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
+| Data Sources Manager | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Datenquellen“ im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
 | Standardmetriken | x |  |  |  | Gewährt Zugriff auf „Individuelle Report Suite-Einstellungen > Standardmetriken“ im Report Suite Manager. |
 | Nach IP-Adresse ausschließen | x |  |  |  | Gewährt Zugriff auf „Admin > Ausschluss nach IP“ im oberen Navigationsbereich von Analytics. |
 | Suchmethoden | x |  |  |  | Gewährt Zugriff auf „Konversion > Suchmethoden“ im Report Suite Manager. |
@@ -69,24 +69,24 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Videoeinstellungen |  |  |  | x | Nicht verwendet. |
 | Webressourcen |  |  |  | x | Nicht verwendet. |
 
-## Analytics-Tools
+## Analytics-Werkzeuge
 
 | Analytics-Werkzeug | Administration | Zugriffskontrollen | Reine Berichtsfunktionen | Nicht mehr verwendet | Beschreibung |
 | --- | --- | --- | --- | --- | --- |
-| Code-Manager | x |  |  |  | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf &quot;Admin > Alle Admin > Code-Manager&quot;. In den meisten Fällen sollten Sie stattdessen die in Adobe Experience Platform Launch enthaltenen Bibliotheken verwenden. |
+| Code-Manager | x |  |  |  | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen sollten Sie stattdessen die in Adobe Experience Platform Launch enthaltenen Bibliotheken verwenden. |
 | Code-Manager – Web-Services | x |  |  |  | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
-| Ausblenden von Report Suites | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Report Suites ausblenden&quot;. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
-| Integrationen (Erstellen) | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Connectors&quot;und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
-| Integrationen (Löschen) | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Connectors&quot;und ermöglicht dem Benutzer das Löschen von Data Connectors. |
-| Integrationen (Aktualisieren) | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Data Connectors&quot;und ermöglicht dem Benutzer die Änderung vorhandener Connector-Konfigurationen. |
-| Protokolle | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Protokolle&quot;. |
+| Ausblenden von Report Suites | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Report Suites ausblenden“. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
+| Integrationen (Erstellen) | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
+| Integrationen (Löschen) | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Löschen von Data Connectors. |
+| Integrationen (Aktualisieren) | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Ändern vorhandener Connector-Konfigurationen. |
+| Protokolle | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Protokolle“. |
 | Protokolle – Web-Services | x |  |  |  | Gewährt Zugriff, um Protokolle über die 1.4-API abzurufen. |
-| Ausstehende Aktionen | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Ausstehende Aktionen&quot;. |
-| Sicherheit | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Sicherheits-Manager&quot;. |
-| Nutzung der Server-Aufrufe | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Nutzung der Server-Aufrufe&quot;. |
-| Support | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Support-Info&quot;. |
-| Traffic-Management | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Administratoren > Traffic-Management&quot;. |
-| Web-Services | x |  |  |  | Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Web-Services&quot;. |
+| Ausstehende Aktionen | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Ausstehende Aktionen“. |
+| Sicherheit | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Sicherheits-Manager“. |
+| Nutzung der Server-Aufrufe | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Server-Aufruf-Nutzung“. |
+| Support | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Supportinfo“. |
+| Traffic-Management | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Traffic-Management“. |
+| Web-Services | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Web-Services“. |
 | Activity Map |  | x |  |  | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
 | Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis wird nicht mehr unterstützt. [Weitere Infos](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Zugriff auf Analysis Workspace |  | x |  |  | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
@@ -100,11 +100,11 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Aktuelle Daten |  |  | x |  | Aktiviert die Option zum Anzeigen aktueller Daten in Reports &amp; Analytics-Berichten. |
 | Zugriff auf Reports &amp; Analytics |  |  | x |  | Gewährt Zugriff auf Reports &amp; Analytics. Benutzer müssen entweder zu dieser Gruppe oder zu „Zugriff auf Analysis Workspace“ (empfohlen) gehören, um Adobe Analytics verwenden zu können. |
 | Advertising Analytics-Verwaltung |  |  |  | x | Nicht verwendet. |
-| Co-Branding |  |  |  | x | Wird nicht mehr verwendet. Gewährt Zugriff auf &quot;Admin > Alle Admin > Unternehmenseinstellungen > Co-Branding&quot;. |
+| Co-Branding |  |  |  | x | Wird nicht mehr verwendet. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Co-Branding“. |
 | Excel-Lizenzanwender |  |  |  | x | Nicht verwendet. |
 | Mobile App-Admin |  |  |  | x | Nicht verwendet. |
-| Berechtigungsverwaltung |  |  |  | x | Wird nicht mehr verwendet. Gewährt Zugriff auf die alte Benutzeroberfläche zur Benutzerverwaltung unter &quot;Admin > Alle Administratoren > Benutzerverwaltung&quot;. |
-| Berechtigungen (lesen) – Web-Services |  |  |  | x | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API anzuzeigen. Verwenden Sie stattdessen die Adobe Admin Console. |
-| Berechtigungen (schreiben) – Web-Services |  |  |  | x | Wird nicht mehr länger verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API zu bearbeiten. Verwenden Sie stattdessen die Adobe Admin Console. |
+| Berechtigungsverwaltung |  |  |  | x | Wird nicht mehr verwendet. Gewährt Zugriff auf die Benutzeroberfläche der veralteten Benutzerverwaltung unter „Admin“ > „Alle Administratoren“ > „Benutzerverwaltung“. |
+| Berechtigungen (lesen) – Web-Services |  |  |  | x | Wird nicht mehr verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API anzuzeigen. Verwenden Sie stattdessen die Adobe Admin Console. |
+| Berechtigungen (schreiben) – Web-Services |  |  |  | x | Wird nicht mehr verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API zu bearbeiten. Verwenden Sie stattdessen die Adobe Admin Console. |
 | Voreinstellungen |  |  |  | x | Nicht verwendet. |
-| Single Sign-on |  |  |  | x | Wird nicht mehr länger verwendet. Gewährt Zugriff auf den nicht mehr unterstützten Single-Sign-On-Service. |
+| Single Sign-on |  |  |  | x | Wird nicht mehr verwendet. Gewährt Zugriff auf den nicht mehr unterstützten Single-Sign-On-Service. |
