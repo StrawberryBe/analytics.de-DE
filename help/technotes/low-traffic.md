@@ -7,25 +7,25 @@ exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Wert „Geringer Datenverkehr“ in Adobe Analytics
 
-Wenn ein Bericht viele eindeutige Werte aufweist, stellt Adobe Funktionen bereit, mit denen sichergestellt wird, dass die wichtigsten Werte in Ihrem Bericht angezeigt werden. Eindeutige Variablenwerte, die nach etwa 500.000 vorhandenen Werten gesammelt wurden, werden unter einem Zeileneintrag mit dem Titel **[!UICONTROL Geringer Traffic]** aufgeführt.
+Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sichergestellt werden, dass die wichtigsten Werte in Ihrem Bericht auftauchen. Eindeutige Variablenwerte, die nach etwa 500.000 vorhandenen Werten gesammelt wurden, werden unter einem Zeileneintrag mit dem Titel **[!UICONTROL Geringer Datenverkehr]** aufgeführt.
 
-## Funktionsweise von [!UICONTROL Geringer Traffic]
+## So funktioniert [!UICONTROL Geringer Datenverkehr]
 
 * Das Reporting ist nicht betroffen, wenn die Variable in einem bestimmten Monat nicht 500.000 eindeutige Werte erreicht.
 * Wenn eine Variable diesen ersten Schwellenwert von 500.000 erreicht, werden die Daten unter „Geringer Datenverkehr“ erfasst. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
-   * Wenn ein Wert bereits in Berichten angezeigt wird, fügen Sie ihn wie gewohnt hinzu.
-   * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Zeileneintrag [!UICONTROL Geringer Traffic] angezeigt. Wenn ein Wert, der im Zeileneintrag [!UICONTROL Geringer Traffic] enthalten ist, innerhalb kurzer Zeit sehr häufig angezeigt wird, wird er als eigener Zeileneintrag erkannt. Die beträchtliche Anzahl der zu sehenden Elemente weist viele Abhängigkeiten auf, z. B. die Anzahl der Verarbeitungsserver und Daemonen, die Daten für diese Report Suite verarbeiten.
+   * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
+   * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Zeileneintrag [!UICONTROL Geringer Traffic] angezeigt. Wenn ein Wert, der im Zeileneintrag [!UICONTROL Geringer Traffic] enthalten ist, innerhalb kurzer Zeit sehr häufig angezeigt wird, wird er als eigener Zeileneintrag erkannt. Wie häufig ein Element hierfür angezeigt werden muss, hängt von vielen Faktoren ab, z. B. der Anzahl der Verarbeitungs-Server und Daemons, die Daten für diese Report Suite verarbeiten.
 * Wenn eine Report Suite mehr als 1.000.000 eindeutige Werte erreicht, wird eine aggressivere Filterung angewendet:
-   * Wenn ein Wert bereits in Berichten angezeigt wird, fügen Sie ihn wie gewohnt hinzu.
-   * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Zeileneintrag [!UICONTROL Geringer Traffic] angezeigt. Wenn ein Wert, der im Zeileneintrag [!UICONTROL Geringer Traffic] enthalten ist, innerhalb kurzer Zeit sehr häufig angezeigt wird, wird er als eigener Zeileneintrag erkannt. Die beträchtliche Anzahl der zu sehenden Elemente weist viele Abhängigkeiten auf, z. B. die Anzahl der Verarbeitungsserver und Daemonen, die Daten für diese Report Suite verarbeiten.
+   * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
+   * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Zeileneintrag [!UICONTROL Geringer Traffic] angezeigt. Wenn ein Wert, der im Zeileneintrag [!UICONTROL Geringer Traffic] enthalten ist, innerhalb kurzer Zeit sehr häufig angezeigt wird, wird er als eigener Zeileneintrag erkannt. Wie häufig ein Element hierfür angezeigt werden muss, hängt von vielen Faktoren ab, z. B. der Anzahl der Verarbeitungs-Server und Daemons, die Daten für diese Report Suite verarbeiten.
 
-Warum verschiebt Adobe ein Element aus dem Zeileneintrag [!UICONTROL Geringer Traffic] in einen eigenen Zeileneintrag? Beispielsweise erkennt dieser Schritt möglicherweise eine beliebte neue Seite oder ein neues Element, das später im Monat hinzugefügt wurde (nachdem eindeutige Werte überschritten wurden) und das viele Treffer/Ansichten erhält. Die Verschiebung soll nicht alle Elemente erfassen, die eine bestimmte Anzahl von Treffern/Ansichten pro Tag oder Monat erhalten.
+Warum verschiebt Adobe ein Element aus dem Zeileneintrag [!UICONTROL Geringer Traffic] in einen eigenen Zeileneintrag? Dies geschieht, wenn eine beliebte neue Seite oder ein neues Element erkannt wird, die bzw. das später im Monat hinzugefügt wurde (nachdem eindeutige Werte überschritten wurden) und viele Treffer/Aufrufe erhält. Die Verschiebung soll nicht alle Elemente erfassen, die eine bestimmte Anzahl von Treffern/Aufrufen pro Tag oder Monat erhalten.
 
 ## Ändern der Schwellenwerte für eindeutige Werte
 
