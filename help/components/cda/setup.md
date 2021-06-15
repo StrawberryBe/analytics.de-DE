@@ -5,7 +5,7 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifend
 >
 >Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Siehe die [Übersichtsseite](overview.md) und die gewünschte Stitching-Methode ([feldbasiertes Stitching](field-based-stitching.md) oder [Gerätediagramm](device-graph.md)) für Voraussetzungen und Einschränkungen.
 
-## Öffnen Sie ein Ticket bei der Kundenunterstützung, um die geräteübergreifende Report Suite mit der geräteübergreifenden geräteübergreifenden Analyse zu versorgen.
+## Öffnen Sie ein Ticket bei der Kundenunterstützung, um die geräteübergreifende Report Suite mit geräteübergreifender Analyse zu versorgen.
 
 CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering bereitgestellt. Wenden Sie sich zunächst an die Kundenunterstützung und stellen Sie folgende Informationen bereit:
 
@@ -27,7 +27,7 @@ CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering be
 * Wenn Sie die feldbasierte Zuordnung nutzen möchten, verwenden Sie die Prop oder die eVar, die die Benutzer-ID enthält
 * Ihre Voreinstellung für die Häufigkeit der Wiederholungen und die Lookback-Länge. Zu den verfügbaren Optionen gehören eine Wiederholung pro Woche mit einem 7-tägigen Lookback-Fenster oder eine tägliche Wiederholung mit einem 1-tägigen Lookback-Fenster.
 
-Sobald Sie die Kundenunterstützung mit diesen Informationen versorgt haben, arbeiten sie mit Adobe Engineering zusammen, um Ihre ausgewählte Report Suite für die CDA-Verarbeitung zu aktivieren.
+Sobald Sie der Kundenunterstützung diese Informationen zur Verfügung gestellt haben, kann diese mit Adobe Engineering zusammenarbeiten, um Ihre ausgewählte Report Suite für die geräteübergreifende Analyse zu aktivieren.
 
 ## Erstellung einer geräteübergreifenden Virtual Report Suite zur geräteübergreifenden Ansicht
 
