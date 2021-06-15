@@ -5,13 +5,13 @@ exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
 # Ein Leitfaden zu Advertising Analytics
 
-Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten Sie Daten zu Google AdWords/DFA oder Microsoft Bing Ads in Adobe Advertising Cloud (AMO) oder in Google/Bing anzeigen. Sie erhalten jetzt die folgenden Daten in Adobe Analytics: Impressionen, Klicks, Kostendaten direkt aus den Suchmaschinen sowie AMO-ID-Instanzen (Klickinstanzen). Die Qualitätsbewertung und die durchschnittlichen Positionen werden nicht mehr erfasst, da Google diese Metriken im September 2019 deprimiert hat.
+Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten Sie Daten zu Google AdWords/DFA oder Microsoft Bing Ads in Adobe Advertising Cloud (AMO) oder in Google/Bing anzeigen. Sie erhalten in Adobe Analytics folgende Daten: Impressionen, Klicks, Kostendaten direkt aus Suchmaschinen sowie AMO-ID-Instanzen (Klickinstanzen). Qualitätsbewertung und durchschnittliche Positionen werden nicht mehr erfasst, da Google diese Metriken im September 2019 eingestellt hat.
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ Analytics umfasst zwei Berechtigungen, die Analytics-Administratoren automatisch
   <tr> 
    <td colname="col1"> <p>Advertising Analytics-Verwaltung </p> </td> 
    <td colname="col2"> <p>Ermöglicht Nutzern die Einrichtung, Bearbeitung und Anzeige von Werbesuchkonten. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span>  &gt;  <span class="uicontrol"> Alle Admin  </span>  &gt;  <span class="uicontrol"> Benutzerverwaltung</span>  &gt;  <span class="uicontrol"> Gruppen</span>  &gt; Zugriff auf alle Berichte  <span class="uicontrol"> bearbeiten</span>  &gt; Analytics-Tools  <span class="uicontrol"> anpassen</span>  &gt;  <span class="uicontrol"> Advertising Analytics-Verwaltung</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Alle Administratoren</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Analytics-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Advertising Analytics-Verwaltung</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Anmeldung bei adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produkte</span> &gt; <span class="uicontrol">Produktprofil</span> &gt; <span class="uicontrol">Registerkarte „Berechtigungen“</span> &gt; <span class="uicontrol">Analytics-Tools</span> &gt; <span class="uicontrol">Advertising Analytics-Verwaltung</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics-Konfiguration </p> </td> 
    <td colname="col2"> <p>Ermöglicht Benutzern die Konfiguration von Report Suites, die für Advertising Analytics bereitgestellt werden sollen. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span>  &gt;  <span class="uicontrol"> Alle Admin  </span>  &gt;  <span class="uicontrol"> Benutzerverwaltung</span>  &gt;  <span class="uicontrol"> Gruppen</span>  &gt; Zugriff auf alle Berichte  <span class="uicontrol"> bearbeiten</span>  &gt; Report Suite-Tools  <span class="uicontrol"> anpassen</span>  &gt;  <span class="uicontrol"> Advertising Analytics-Konfiguration</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Alle Administratoren</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Tools anpassen</span> &gt; <span class="uicontrol">Advertising Analytics-Konfiguration</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Anmeldung bei adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produkte</span> &gt; <span class="uicontrol">Produktprofil</span> &gt; <span class="uicontrol">Registerkarte „Berechtigungen“</span> &gt; <span class="uicontrol">Report Suite-Tools</span> &gt; <span class="uicontrol">Advertising Analytics-Konfiguration</span></span> </td> 
   </tr> 
  </tbody> 
