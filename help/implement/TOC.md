@@ -92,7 +92,7 @@ ht-degree: 99%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins {#plugins}
+   + Plug-ins   {#plugins}
       + [Übersicht über Plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -165,7 +165,7 @@ ht-degree: 99%
    + [Analytics auf Facebook Instant Articles implementieren](other/fb-instant-articles.md)
 + [Analytics auf Mobilgeräten implementieren](mobile-device-sdk.md)
 + Anwendungsfälle der Implementierung {#use-cases}
-   + [AppMeasurement mit iFrames verwenden](use-cases/iframe.md)
+   + [„AppMeasurement“ mit iFrames verwenden](use-cases/iframe.md)
    + [Tracking über verschiedene Implementierungstypen hinweg](use-cases/cross-type-implementation.md)
    + [Externes E-Mail-Tracking](use-cases/email-external.md)
 + Ihre Implementierung validieren {#validate}
