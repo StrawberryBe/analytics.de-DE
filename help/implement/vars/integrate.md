@@ -3,9 +3,9 @@ title: Integrationsmodul
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff 
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 1. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
-1. Klicken Sie in der oberen Navigation auf **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code-Manager]**.
+1. Klicken Sie in der oberen Navigation auf **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Code-Manager]**.
 1. Laden Sie die neueste JavaScript AppMeasurement-Bibliothek herunter.
 1. Entpacken Sie die Datei nach dem Herunterladen und suchen Sie `AppMeasurement_Module_Integrate.js`.
 
