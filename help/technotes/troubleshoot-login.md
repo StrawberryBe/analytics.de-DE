@@ -5,7 +5,7 @@ exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Wenn das Problem nicht durch Löschen der Cookies/des Cache des Browsers behoben
 >Die folgenden Schritte zum Zurücksetzen des Passworts eines Benutzers gelten nur für alte Analytics IDs, nicht für Adobe IDs. Wenn Ihr Unternehmen Adobe IDs verwendet, können Sie Benutzerkonten unter [adminconsole.adobe.com](https://adminconsole.adobe.com) verwalten.
 
 1. Melden Sie sich bei Adobe Analytics mit einem Konto an, das über Administratorrechte verfügt.
-2. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]**.
+2. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]**.
 3. Klicken Sie auf die Registerkarte **[!UICONTROL Benutzer]** und dann neben dem gewünschten Benutzer auf **[!UICONTROL Bearbeiten]**.
 4. Ändern Sie das Passwort in eine beliebige Zeichenkette und aktivieren Sie das Kontrollkästchen **[!UICONTROL Benutzer auffordern, das Passwort bei der nächsten Anmeldung zu ändern]**.
 5. Informieren Sie den Benutzer über das neue Passwort.
