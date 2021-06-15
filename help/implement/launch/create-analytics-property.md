@@ -3,9 +3,9 @@ title: Analytics-Eigenschaft in Launch erstellen
 description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -80,8 +80,8 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 
 ## Dokumentation und zusätzliche Ressourcen
 
-* [Dokumentation zu Adobe Analytics-Erweiterungen](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
-* [Erste Schritte mit Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte.
+* [Dokumentation zu Adobe Analytics-Erweiterungen](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=de#extensions-ref): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
+* [Erste Schritte mit Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=de#get-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte.
 * [Adobe Experience Platform Launch-YouTube-Kanal](https://experienceleague.adobe.com/?tag=Launch&amp;lang=de#recommended/solutions/experience-platform): Lehrvideos zur Nutzung von Launch.
 
 ## Nächste Schritte
