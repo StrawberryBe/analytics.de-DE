@@ -8,7 +8,7 @@ exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Asp
 
    ![](assets/new_vrs.png)
 
-## Einstellungen definieren
+## Definieren von Einstellungen
 
 Definieren Sie auf der Registerkarte [!UICONTROL Einstellungen] diese Einstellungen und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -38,7 +38,7 @@ Definieren Sie auf der Registerkarte [!UICONTROL Einstellungen] diese Einstellun
 | Zeitzone | Die Auswahl einer Zeitzone ist optional. Wenn Sie eine Zeitzone auswählen, wird diese zusammen mit der VRS gespeichert. Wenn Sie keine Zeitzone auswählen, wird die Zeitzone der übergeordneten Report Suite verwendet.  Bei der Bearbeitung einer VRS erscheint die mit ihr gespeicherte Zeitzone in einem Dropdown-Auswahlmenü. Wenn die VRS erstellt wurde, bevor Zeitzonen unterstützt wurden, wird die Zeitzone der übergeordneten Report Suite in der Dropdownauswahl angezeigt. |
 | Segmente | Sie können nur ein Segment hinzufügen oder Sie können Segmente stapeln.   Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine OR-Anweisung geändert werden. Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. |
 
-## Definition von Besuchen definieren
+## Festlegen der Definition von Besuchen
 
 Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einstellungen und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -54,14 +54,14 @@ Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einste
 | Verhindern Sie Hintergrund-Hits durch den Beginn eines neuen Besuchs | Verhindert, dass Hintergrund-Hits einen neuen Besuch starten und die Besuchs- und Unique-Visitor-Metriken erhöht werden. |
 | Bei jedem Anwendungsstart einen neuen Besuch starten | Startet eine neue Sitzung, wenn eine App gestartet wird. [Weitere Infos](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
-## Komponenten einschließen und umbenennen
+## Einschließen und Umbenennen von Komponenten
 
 ![](assets/components.png)
 
 1. Aktivieren Sie auf der Registerkarte [!UICONTROL Komponenten] das Kontrollkästchen, um die Kuratierung anzuwenden und Komponenten für diese Virtual Report Suite in Analysis Workspace einzuschließen, auszuschließen und umzubenennen.
-Weitere Informationen zur VRS-Kuratierung finden Sie unter [Kuratierung der Virtual Report Suite-Komponenten](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+Weitere Informationen zur VRS-Kuratierung finden Sie unter [Kuratierung der Virtual Report Suite-Komponenten](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=de#virtual-report-suites).
 
-1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die VRS einbeziehen möchten, in den Abschnitt [!UICONTROL Einbezogene Komponenten] .
+1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die VRS einbeziehen möchten, in den Abschnitt [!UICONTROL Einbezogene Komponenten].
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -69,6 +69,6 @@ Weitere Informationen zur VRS-Kuratierung finden Sie unter [Kuratierung der Virt
 
 Rechts auf jeder Registerkarte können Sie die Gesamtzahl der Treffer, Besuche und Besucher dieser Virtual Report Suite im Vergleich zur ursprünglichen Report Suite in der Vorschau anzeigen.
 
-## Produktkompatibilität anzeigen
+## Anzeigen der Produktkompatibilität
 
-Einige Funktionen von Virtual Report Suites werden nicht von allen Adobe Analytics-Produkten unterstützt. Anhand der Produktkompatibilitätsliste können Sie anhand Ihrer aktuellen Virtual Report Suite-Einstellungen sehen, welche Produkte in Adobe Analytics unterstützt werden.
+Einige Funktionen von Virtual Report Suites werden nicht von allen Adobe Analytics-Produkten unterstützt. In der Produktkompatibilitätsliste können Sie anhand Ihrer aktuellen Virtual Report Suite-Einstellungen sehen, welche Produkte in Adobe Analytics unterstützt werden.
