@@ -31,7 +31,7 @@ ht-degree: 96%
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Häufig gestellte Fragen zu Daten-Feeds](analytics-data-feed/df-faq.md)
    + [Best Practice für Daten-Feeds](analytics-data-feed/data-feeds-best-practices.md)
-   + [Fehlerbehebung bei Aufträgen](analytics-data-feed/jobs-troubleshooting.md)
+   + [Fehlerbehebung bei Vorgängen](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse-Übersicht](data-warehouse/data-warehouse.md)
    + [Hinzufügen einer Data Warehouse-Benutzergruppe](data-warehouse/t-dw-group.md)
