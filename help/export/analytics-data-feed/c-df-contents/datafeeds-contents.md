@@ -17,7 +17,7 @@ ht-degree: 100%
 
 In diesem Abschnitt werden die Dateien beschrieben, die in einer Daten-Feed-Bereitstellung enthalten sind.
 
-## Manifestdatei {#feed-manifest}
+## Manifestdatei   {#feed-manifest}
 
 Die Manifestdatei enthält folgende Details zu den einzelnen Dateien, die Bestandteil des hochgeladenen Datensatzes sind:
 
