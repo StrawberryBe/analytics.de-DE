@@ -17,7 +17,7 @@ Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Int
 
 Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Trefferebenenhierachie], wobei ein verschachteltes Behältermodell verwendet wird. Mit verschachtelten Behältern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Behältern und innerhalb der Behältern basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
-Sie können Segmente im Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in  Analysis Workspace) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Behältern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
+Sie können Segmente im Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in  Analysis Workspace) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Behältern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als  [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
 
 ## Segmente {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -108,7 +108,7 @@ Trefferbehälter enthalten Werte, die auf den Aufschlüsselungen einzelner Seite
 
 **Logischen Gruppenbehälters**
 
-Mit dem logischen Gruppenbehälter können Sie einen separaten Behälter innerhalb der Segmentregeln bereitstellen, um Entitäten zu filtern, die nicht hierarchiebasiert sind. Beispielsweise können Sie einen Behälter bereitstellen, der innerhalb des Segments verschachtelt ist, das besucherbasiert filtert. Dieser Logiktyp erfordert es, dass Sie die Hierarchie unterbrechen (da Sie bereits über einen Besucherbehälter auf der obersten Ebene verfügen), um nur nach ausgewählten Besuchern zu filtern. Dies lässt sich durch Verwendung des logischen Gruppenbehälters erreichen. Siehe [Beispiele für logische Gruppen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) als ergänzende Information.
+Mit dem logischen Gruppenbehälter können Sie einen separaten Behälter innerhalb der Segmentregeln bereitstellen, um Entitäten zu filtern, die nicht hierarchiebasiert sind. Beispielsweise können Sie einen Behälter bereitstellen, der innerhalb des Segments verschachtelt ist, das besucherbasiert filtert. Dieser Logiktyp erfordert es, dass Sie die Hierarchie unterbrechen (da Sie bereits über einen Besucherbehälter auf der obersten Ebene verfügen), um nur nach ausgewählten Besuchern zu filtern. Dies lässt sich durch Verwendung des logischen Gruppenbehälters erreichen. Siehe  [Beispiele für logische Gruppen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) als ergänzende Information.
 
 ## Verschachteln von Containern {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -155,7 +155,7 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Behälter wie [
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-Die einzige Ausnahme für diese Behälterhierarchie besteht in der Verwendung des [Logischen Gruppenbehälters](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Mit dem [!UICONTROL logischen Gruppenbehälter] können Sie einen Treffer innerhalb eines Behälters ohne spezielle Reihenfolge verschachteln, um Ereignisse und Dimensionen zu erfassen, jedoch außerhalb einer sequenziellen Reihenfolge.
+Die einzige Ausnahme für diese Behälterhierarchie besteht in der Verwendung des  [Logischen Gruppenbehälters](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Mit dem [!UICONTROL logischen Gruppenbehälter] können Sie einen Treffer innerhalb eines Behälters ohne spezielle Reihenfolge verschachteln, um Ereignisse und Dimensionen zu erfassen, jedoch außerhalb einer sequenziellen Reihenfolge.
 
 ![](assets/logic_group_hierarchy.png)
 
