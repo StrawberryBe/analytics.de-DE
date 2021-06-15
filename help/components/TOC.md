@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
-translation-type: tm+mt
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,19 +67,19 @@ ht-degree: 99%
    + [Monat](dimensions/month.md)
    + [Betriebssystemtypen](dimensions/operating-system-types.md)
    + [Betriebssysteme](dimensions/operating-systems.md)
-   + [Ursprüngliche Referrer-Domäne](dimensions/original-referring-domain.md)
+   + [Ursprüngliche Referrer-Domain](dimensions/original-referring-domain.md)
    + [Seiten-URL](dimensions/page-url.md)
    + [Seite](dimensions/page.md)
    + [Seiten nicht gefunden](dimensions/pages-not-found.md)
    + [Paid Search](dimensions/paid-search.md)
-   + [Unterstützung persistenter Cookies](dimensions/persistent-cookie-support.md)
+   + [Unterstützung beständiger Cookies](dimensions/persistent-cookie-support.md)
    + [Produkt](dimensions/product.md)
    + [Prop](dimensions/prop.md)
    + [Quartal des Jahres](dimensions/quarter-of-year.md)
    + [Quartal](dimensions/quarter.md)
    + [Referrer-Typ](dimensions/referrer-type.md)
    + [Referrer](dimensions/referrer.md)
-   + [Referrer-Domäne](dimensions/referring-domain.md)
+   + [Referrer-Domain](dimensions/referring-domain.md)
    + [Regionen](dimensions/regions.md)
    + [Rückkehrhäufigkeit](dimensions/return-frequency.md)
    + [Suchmaschine](dimensions/search-engine.md)
@@ -102,7 +101,7 @@ ht-degree: 99%
    + [Jahr](dimensions/year.md)
    + [Postleitzahl](dimensions/zip-code.md)
 + Metriken {#metrics}
-   + [Übersicht über Metriken](metrics/overview.md)
+   + [Metriken – Übersicht](metrics/overview.md)
    + [Durchschnittliche Klicktiefe](metrics/average-page-depth.md)
    + [Durchschnittliche Seitenansichten pro Besuch](metrics/average-page-views-per-visit.md)
    + [Durchschnittliche Sitzungslänge](metrics/average-session-length.md)
@@ -116,7 +115,7 @@ ht-degree: 99%
    + [Checkouts](metrics/checkouts.md)
    + [Content-Geschwindigkeit](metrics/content-velocity.md)
    + [Benutzerspezifische Ereignisse](metrics/custom-events.md)
-   + [Einträge](metrics/entries.md)
+   + [Einstiege](metrics/entries.md)
    + [Ausstiege](metrics/exits.md)
    + [Instanzen](metrics/instances.md)
    + [Mobilansichten](metrics/mobile-views.md)
@@ -155,7 +154,7 @@ ht-degree: 99%
       + [Segmente taggen](segmentation/segmentation-workflow/seg-tag.md)
       + [Segmente genehmigen](segmentation/segmentation-workflow/seg-approve.md)
       + [Segmente freigeben](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Segmente in der Experience Cloud veröffentlichen](segmentation/segmentation-workflow/seg-publish.md)
+      + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Segmente auswählen und anwenden](segmentation/segmentation-workflow/t-seg-apply.md)
       + [Segmente filtern](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Segmente als Favoriten markieren](segmentation/segmentation-workflow/t-seg-favorite.md)
@@ -186,7 +185,7 @@ ht-degree: 99%
       + [Berechnete Metriken taggen](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Berechnete Metriken genehmigen](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berechnete Metriken freigeben](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Berechnete Metrik – Manager](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Manager für berechnete Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Metrikreferenz {#calcmetrics-reference}
       + [Referenz: Grundfunktionen](c-calcmetrics/cm-reference/cm-functions.md)
       + [Referenz: Erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)
@@ -220,7 +219,7 @@ ht-degree: 99%
    + [Warnhinweiserstellung](c-alerts/alert-builder.md)
    + [Warnhinweis-Manager](c-alerts/alert-manager.md)
    + [Intelligente Warnhinweise – Anwendungsfälle](c-alerts/alerts-use-cases.md)
-+ Klassifizierungen {#classifications}
++ Classifications {#classifications}
    + [Übersicht über Klassifizierungen](classifications/c-classifications.md)
    + Classifications importer {#classifications-importer}
       + [Classifications importer – Übersicht](classifications/importer/c-working-with-saint.md)
@@ -244,7 +243,7 @@ ht-degree: 99%
    + [Häufig gestellte Fragen zu Klassifizierungen](classifications/faq.md)
 + [Kalenderereignisse](t-calendar-event.md)
 + Echtzeitberichterstellung {#real-time-reporting}
-   + [Übersicht über die Echtzeitberichterstellung ](c-real-time-reporting/realtime.md)
+   + [Übersicht über die Echtzeitberichterstellung](c-real-time-reporting/realtime.md)
    + [Echtzeitberichte konfigurieren](c-real-time-reporting/t-realtime-admin.md)
    + [Unterstützte Echtzeit-Metriken und -Dimensionen](c-real-time-reporting/realtime-metrics.md)
 + Marketing-Kanäle {#marketing-channels}
