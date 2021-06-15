@@ -7,7 +7,7 @@ exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Das einzige unterstützte Platzhalterzeichen ist das Sternchen: *. Wenn Sie nach
 
 **Beispiel**: Angenommen, Sie haben einen Seitennamen „My cool product“. Die Segmentregel „Seitenname entspricht My*product“ entspricht dem obigen Seitennamen. Die Regel „Seitenname entspricht My\\*product“ entspricht hingegen nur dem Seitennamen „My*Product“.
 
-## Standardbenutzer
+## Standardoperatoren
 
 | Operator | Die ausgewählte Dimension, das ausgewählte Segment oder metrische Ereignis... |
 |--- |--- |
@@ -42,7 +42,7 @@ Das einzige unterstützte Platzhalterzeichen ist das Sternchen: *. Wenn Sie nach
 | vorhanden | Gibt die Anzahl der vorhandenen Elemente zurück. Wenn Sie z. B. die Dimension „Seiten nicht gefunden“ mithilfe des Operators „vorhanden“ auswerten, wird die Anzahl der vorhandenen Fehlerseiten zurückgegeben. |
 | nicht vorhanden | Gibt alle nicht vorhandenen Elemente zurück. Wenn Sie zum Beispiel die Dimension „Seiten nicht gefunden“ mithilfe des Operators „nicht vorhanden“ auswerten, wird die Anzahl der Seiten zurückgegeben, bei denen diese Fehlerseite nicht vorhanden war. |
 
-## Data Warehousen
+## Data Warehouse-Operatoren
 
 | Operator | Die ausgewählte Dimension, das ausgewählte Segment oder metrische Ereignis... |
 | --- | --- |
@@ -51,7 +51,7 @@ Das einzige unterstützte Platzhalterzeichen ist das Sternchen: *. Wenn Sie nach
 | größer als | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist. |
 | größer als oder gleich | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
 
-## Unique Count-Operatoren
+## Distinct Count-Operatoren
 
 Sie können nach einer bestimmten Anzahl von Elementen innerhalb einer Dimension segmentieren. Beispiele: „Besucher, die mehr als 5 verschiedene Produkte angesehen haben“ oder „Besuche, bei denen mehr als 5 verschiedene Seiten angesehen wurden.“
 
