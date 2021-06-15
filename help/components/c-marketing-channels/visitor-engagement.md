@@ -8,7 +8,7 @@ exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Um die Effektivität von Marketingkanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
+>Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 
 Erfahren Sie, wie Sie den Ablaufzeitpunkt oder den Zeitraum der Besucherinteraktion für Marketing-Kanäle festlegen.
 
