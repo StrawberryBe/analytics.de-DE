@@ -105,7 +105,7 @@ Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser ab
 **Methode 2: Verwenden von Chrome Developer Tools (oder anderen Browser-Entwicklertools)**
 
 1. Starten Sie Chrome Developer Tools vor dem Laden einer Seite.
-1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die AAM-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) im Beispiel unten) festgelegt sein. Das Feld „demdex“ ist die AAM-UUID-Einstellung im Browser (`50814298273775797762943354787774730612` im Beispiel unten).
+1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die AAM-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) im Beispiel unten) festgelegt sein. Das Feld „demdex“ ist die AAM-UUID-Einstellung im Browser (`50814298273775797762943354787774730612` im Beispiel unten).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
