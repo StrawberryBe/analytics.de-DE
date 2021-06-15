@@ -5,7 +5,7 @@ exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Ja, dabei wird *jedoch jedes Dimensionselement als abrechnungsfähiger Server-Au
 
 ## Wie klassifiziere ich Werte, die Sonderzeichen enthalten?
 
-Die Verwendung von Leerzeichen am Anfang und am Ende in beiden Classification-Daten und Trefferdaten wird nicht unterstützt, da Adobe Analytics die leeren Zeichen aus diesen Daten abschneiden wird.
+Die Verwendung von Leerzeichen am Anfang und Ende in Classification-Daten und Trefferdaten wird nicht unterstützt, da Adobe Analytics Leerzeichen in diesen Daten abschneidet.
 
 Die Verwendung von Sonderzeichen wie Kommas oder doppelten Anführungszeichen im Reporting wird normalerweise nicht empfohlen. In einigen Fällen ist ihre Verwendung jedoch erforderlich. Wenn Ihre Reporting-Werte solche Zeichen enthalten, die Sie klassifizieren möchten, gehen Sie wie folgt vor:
 
