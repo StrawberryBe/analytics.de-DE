@@ -36,5 +36,6 @@ Sie können Daten Server-seitig mit der [Data Insertion-API](https://github.com/
 Praktische Schritte, mit denen Ihr Unternehmen die Abkehr von Third-Party-Cookies einleiten kann, finden Sie unter [Kundenakquise und -bindung in einer Welt ohne Cookies mit Adobe](https://business.adobe.com/de/solutions/cookieless.html) und in dem ausführlichen Artikel [Jenseits des Third-Party-Cookies: Ihr kompletter Leitfaden zu einer Welt ohne Third-Party-Cookies](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).
 
 >[!MORELIKETHIS]
-[Adobe Analytics und Browser-Cookies](cookies.md)>
+>
+>[Adobe Analytics und Browser-Cookies](cookies.md)>
 >
