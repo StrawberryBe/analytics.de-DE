@@ -2,10 +2,10 @@
 title: Analysieren von Marketing-Kanälen
 description: Erfahren Sie, wie Sie die Dimensionen von Marketing-Kanäle in Workspace verwenden.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Dieses Liniendiagramm zeigt die Trends bei Online-Bestellungen für verschiedene
 
 ## Anwenden von Attributionsmodellen
 
-Sie können [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) verwenden, um verschiedene Attributionsmodelle sofort anzuwenden:
+Sie können [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) verwenden, um verschiedene Attributionsmodelle sofort anzuwenden:
 
 ![](assets/mc-viz5.png)
 
