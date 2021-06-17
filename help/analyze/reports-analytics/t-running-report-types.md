@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Grundlagen zu Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 96%
+source-wordcount: '1299'
+ht-degree: 95%
 
 ---
 
@@ -57,23 +57,9 @@ Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe
 
 Seitenflussberichte zeigen die Reihenfolge an, in der Ihre Besucher auf Seiten zugreifen und auf Ihrer Website navigieren. Dieser Bericht bietet Antworten
 
-Sehen Sie sich die neue [Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
-
-Führen Sie einen [Pfadbericht](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html) aus.
+Sehen Sie sich die [Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an!
 
 Klicken Sie zum Beispiel auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Nächster Seitenfluss]**.
-
-![](assets/page_flow.png)
-
-Sie lesen diesen Bericht von links nach rechts, beginnend mit der ausgewählten Seite. Die nach der ausgewählten Seite angezeigten Seiten werden als Zweig angezeigt, der sich nach rechts erstreckt.
-
-Der Prozentsatz, zu dem jede nachfolgende Seite angezeigt wurde, ist neben dem Seitennamen angegeben. Die Breite der Linie, die mit jeder nächsten Seite verbunden ist, stellt diesen relativen Prozentwert dar.
-
-**[!UICONTROL Pfadansichten]**: Zeigt die Häufigkeit der Anzeige einer Seite an, wenn diese auf die angezeigten Pfade beschränkt sind.
-
-So kann die Seite der Datenschutzregeln z. B. insgesamt 10.000 Mal angezeigt worden sein, aber nur 500 dieser Seitenansichten erfolgten unmittelbar nach der Homepage. Aus diesem Grunde wird der Begriff Pfadansicht verwendet.
-
-Gleichermaßen wird der prozentuale Anteil durch die relative Breite der Linie dargestellt. Standardmäßig zeigt dieser Bericht fünf Zweitstufenverzweigungen und fünf Drittstufenverzweigungen an. Sie können die Anzahl der Verzweigungen erweitern, um bis zu zehn Zweitstufenverzweigungen und fünf Drittstufenverzweigungen anzuzeigen. Dadurch dehnen Sie die Höhe des Berichts aus und müssen wahrscheinlich scrollen, um das ganze Diagramm anzuzeigen.
 
 ## Marketingkanalbericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ Weitere Informationen finden Sie im [Marketingkanal](/help/components/c-marketin
 
 ## Anomalieerkennungsbericht ausführen {#task_4808C96327354D789C075823F5C3A049}
 
-Beschreibt, wie Sie die Diagramme für die Zusammenfassung und individuelle Metriken bei der Anomalieerkennung interpretieren.
-
-Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) in Analysis Workspace an!
-
-**[!UICONTROL Berichte]** > **[!UICONTROL Site-Metriken]** > **[!UICONTROL Anomalieerkennung]**.
-
->[!NOTE]
->
->Die Anomalieerkennung können Sie auch aus Projekten in Analysis Workspace ausführen. [Mehr …](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-Informationen zum Einrichten der Anomalieerkennung finden Sie im [Referenzhandbuch](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
-
-Bei der Anomalieerkennung werden zwei Diagrammtypen angezeigt: Ein Zusammenfassungsdiagramm und Diagramme für individuelle Metriken. Diagramme für individuelle Metriken werden nur angezeigt, wenn mindestens eine Anomalie für diese Metrik erkannt wurde.
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Diagrammtyp </p> </th> 
-   <th colname="col2" class="entry"> <p>Funktion </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Zusammenfassungsdiagramm </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Jedes Kästchen steht für eine Anomalie (pro Tag verfolgt), die einer Metrik unten entspricht. </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">Grüne Kästchen geben Anomalien oberhalb der Trendlinie und blaue Kästchen Anomalien unterhalb der Trendlinie an. </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">Gibt das Ausmaß der Anomalie an: Je größer die Anomalie, desto dunkler die Farbe des Datenpunktes und desto größer der Abstand zur Trendlinie. </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">Durch Klicken auf individuelle Anomalien wird das individuelle Metrikdiagramm dieser Anomalie (unterhalb des Zusammenfassungsdiagramms) nach oben geholt. </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Die Abweichungsprozentwerte (links neben dem Diagramm) werden wie folgt berechnet: 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">Wenn die oberen Grenzen und der erwartete Wert identisch sind, beträgt die Abweichung in Prozent 100 % </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Andernfalls ist die Abweichung in Prozent ((Istwert – oberer Grenzwert) / (oberer Grenzwert – erwarteter Wert)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Wenn die unteren Grenzen und der erwartete Wert identisch sind, beträgt die Abweichung in Prozent –100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Andernfalls ist die Abweichung in Prozent ((unterer Grenzwert – Istwert) / (erwarteter Wert – unterer Grenzwert)) * –100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Durch Klicken auf <span class="uicontrol">Anzeigen Segmente</span> wird die Segmentschiene eingeblendet, die es Ihnen ermöglicht, Segmente auf einen Anomalieerkennungsbericht anzuwenden. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Weitere Informationen</a> zur Segmentierung. </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">Durch Klicken auf <span class="uicontrol">Metriken bearbeiten</span> können Sie Metriken auswählen und die Auswahl für Metriken aufheben, für die Sie Anomalien erkennen möchten. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Diagramm für individuelle Metrik </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Zeigt Anomaliedatenpunkte für individuelle Trendmetriken (einschließlich berechneter Metriken) als Punkte an. </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">Zeigt die aktuellste Anomalie oben an und sortiert sekundär nach Anzahl der Anomalien. </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">Zeigt eine durchgehende Linie an, um die derzeit erfassten Istdaten anzugeben. Diese werden mit der Vorschau und der Fehlertoleranz verglichen, um zu bestimmen, ob Anomaliedatenpunkte vorliegen. </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">Zeigt eine gepunktete Linie an, die eine Vorschau basierend auf historischen Daten (also dem Schulungszeitraum) darstellt. </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">Zeigt die oberen und unteren 95 % Konfidenzintervalle/-grenzen grau schattiert an. </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">Sie können individuelle Berichte aus- und einblenden, indem Sie neben dem Metriknamen auf die doppelten Pfeile nach oben bzw. unten klicken. </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">Ändert die Anzeigereihenfolge der Metrikdiagramme aufgrund von Drilldowns im Übersichtsbericht (siehe oben). </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">Sie können Diagramme anhand von Suchbegriffen, wie „Seite“ für alle seitenbezogenen Metriken, filtern. </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">Sie können alle definierten Metriken oder nur diejenigen mit Anomalien anzeigen. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Anomalieerkennung einrichten {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-Schritte zur Auswahl von Report Suites, Metriken und Schulungs-/Anzeigezeiträumen für die Anomalieerkennung.
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-Sie richten die Anomalieerkennung unabhängig für jede Report Suite ein.
-
-1. Gehen Sie zu **[!UICONTROL Analysen > Berichte > Site-Metriken > Anomalieerkennung]**.
-1. Wählen Sie die Report Suite, für die Sie die tägliche Anomalieerkennung verfolgen möchten. Um eine Liste der Report Suites anzuzeigen, klicken Sie auf das Dropdown-Menü der Report Suite-Auswahl.
-1. Um die Metriken auszuwählen und/oder gefilterte Metriken zu definieren, klicken Sie oben rechts im Bildschirm auf **[!UICONTROL Metriken bearbeiten]**:  ![](assets/metrics_icon.png).
-
-   Sie können Metriken aus der Liste mit allen Metriken (einschließlich berechneter Metriken) oder aus einer Liste mit verfolgten Metriken auswählen. Sie können auch nach bestimmten Begriffen filtern, um die Liste einzugrenzen. 1. Sobald der Bericht generiert wurde, definieren Sie den **[!UICONTROL Schulungszeitraum]** und den **[!UICONTROL Ansichtszeitraum]** zur Anomalieerkennung. (Den Schulungszeitraum kann man sich als „Lernzeitraum“ für den Algorithmus vorstellen.)
-
-   ![](assets/view_training_periods.png)
-
-   Bedenken Sie Folgendes:
-
-* Der Schulungszeitraum endet direkt vor Beginn des Anzeigezeitraums.
-* Der Standardwert für die beiden Zeiträume beträgt 30 Tage. Sie können sie aber auf 60 oder 90 Tage verlängern.
-* Wenn Sie den Schulungszeitraum verlängern, erhalten Ihre Daten mehr Kontext, und die Größe einer Anomalie kann reduziert werden.
-
-   Der Metrikbericht für die Anomalieerkennung wird bei jeder Änderung eines Parameters aktualisiert.
-1. Optional: Wenden Sie Segmente auf den Bericht an, indem Sie auf **[!UICONTROL Segmente anzeigen]** klicken und ein oder mehrere vorhandene Segmente auswählen oder ein neues Segment erstellen und dieses anwenden.
-
-   ![](assets/ad_top_menu.png)
-
-   Weitere Informationen zum Erstellen und Verwalten von Segmenten erhalten Sie im [Leitfaden zur Analysesegmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Optional) Fügen Sie den Bericht zu den Favoriten hinzu oder setzen Sie ein Lesezeichen.
-1. (Optional) Ändern Sie das Enddatum des Anzeigezeitraums. Der Standardwert ist „Gestern“.
-1. Sie können den Bericht nun interpretieren. [Anzeigen von Diagrammen zur Anomalieerkennung](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+Sie können [Anomalieerkennung und Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) nur in Analysis Workspace ausführen.
 
 ## Echtzeitbericht ausführen {#task_5D25929C918E40B18965222FA94176B0}
 
 Beschreibt, wie Sie Echtzeitberichte anzeigen und interpretieren.
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL Berichte > Site-Metriken > Echtzeit]**.
 
