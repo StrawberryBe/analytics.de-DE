@@ -2,7 +2,7 @@
 description: Das müssen Sie über die Migration der Analytics-Benutzer-ID zur Admin Console in Adobe Experience Cloud wissen.
 title: Analytics-Benutzermigration zur Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '3122'
 ht-degree: 97%
@@ -18,7 +18,7 @@ Generelle Hilfestellung zu Admin Console-Themen (nicht in Bezug auf die Analytic
 
 Nach der Migration können Sie [Benutzer und Produkte der Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Admin Console verwalten.
 
-## Was ist die Migration der Analytics-Benutzer-ID? {#section-adbe49aba10c4e62afa836a97894107c}
+## Was ist die Migration der Analytics-Benutzer-ID?  {#section-adbe49aba10c4e62afa836a97894107c}
 
 Die Migration der Analytics-Benutzer-ID ermöglicht es Administratoren, Benutzerkonten einfach vom Analytics User Management zur Adobe Admin Console zu migrieren. Nachdem Sie Ihre Benutzer migriert haben, erhalten diese Zugang zu den Lösungen und Services, die in der Experience Cloud verfügbar sind. Die Migration erfolgt für Kunden stufenweise.
 
@@ -321,7 +321,7 @@ In unserem Unternehmen werden alle Adobe Analytics-Konten von [!DNL https://my.o
 
 **Hilfreiche Ressourcen:**
 
-[Anmelden und Profileinstellungen verwalten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
+[Anmelden und Profileinstellungen verwalten](https://helpx.adobe.com/de/enterprise/admin-guide.html/de/enterprise/using/manage-products.ug.html).
 
 Wenden Sie sich bei Fragen oder Bedenken an Ihre Analytics-Administratoren.
 
