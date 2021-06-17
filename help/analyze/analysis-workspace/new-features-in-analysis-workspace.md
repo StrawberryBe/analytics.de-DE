@@ -5,9 +5,9 @@ title: Neue Funktionen in Analysis Workspace
 feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '8283'
+source-wordcount: '8276'
 ht-degree: 98%
 
 ---
@@ -111,7 +111,7 @@ Am 20. Februar 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Neue Workspace-Vorlage für Organisationen, die geräteübergreifende Analysen verwenden | Diese Vorlage zeigt, wie effektiv CDA beim Zusammenfügen von Besuchen ist, und informiert Sie über ausschließlich in CDA verfügbare Dimensionen und Metriken. Eine Report Suite, die CDA verwendet, ist erforderlich. Weitere Informationen finden Sie unter [Einrichten von geräteübergreifenden Analysen](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html). |
+| Neue Workspace-Vorlage für Organisationen, die geräteübergreifende Analysen verwenden | Diese Vorlage zeigt, wie effektiv CDA beim Zusammenfügen von Besuchen ist, und informiert Sie über ausschließlich in CDA verfügbare Dimensionen und Metriken. Eine Report Suite, die CDA verwendet, ist erforderlich. Weitere Informationen finden Sie unter [Geräteübergreifende Analyse einrichten](/help/components/cda/setup.md) . |
 | Neue Hotkeys in Workspace | <ul><li>Alle Bereiche reduzieren/erweitern: `alt + m`</li><li>Aktives Bedienfeld reduzieren/erweitern: `alt + ctrl + m`</li><li>Linke Leiste durchsuchen: `ctrl + /`</li><li>Zum nächsten Bereich wechseln: `alt + Right Key`</li><li>Zum vorherigen Bereich wechseln: `alt + Left Key`</li></ul>[Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Weitere Neuerungen in Workspace | <ul><li>Wenn ein Bedienfeld oder eine Visualisierung in Workspace abgelegt wird, wechselt die linke Leiste automatisch zu Komponenten, um einen nahtloseren Arbeitsablauf zu gewährleisten.</li><li>Für Vorlagenkomponenten können nun Aktionen ausgeführt werden (z. B. mit Tags versehen, als Favorit markieren, genehmigen).</li><li>Gefilterte Metrik- und Segmentlisten bieten die Schaltfläche „+“ zum Hinzufügen einer neuen Komponente, wenn Sie das, was Sie benötigen, nicht finden können.</li></ul> |
 | Workspace-Debugger | Der Workspace-Debugger wurde dem Menü „Hilfe“ hinzugefügt, sodass Sie ihn nahtlos zum Debuggen von Workspace-Anforderungen aktivieren können. [Weitere Informationen ...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
