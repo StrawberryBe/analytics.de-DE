@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Grundlagen zu Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 95%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
@@ -16,16 +16,9 @@ ht-degree: 95%
 
 Schritte zum Ausführen der verschiedenen Berichtstypen.
 
-
 ## Führen Sie einen Rangbericht aus {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 In Rangberichten zeigt die Tabelle die Rangordnung der Berichtsseiten als Zahl oder Prozentwert im Verhältnis zur Metrik an. Bei Rangberichten können mehrere Metriken in einem Bericht angezeigt werden.
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. Erstellen Sie einen Bericht, wie zum Beispiel einen [!UICONTROL Seitenbericht] (**[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**).
 1. Klicken Sie im Berichtkopf auf **[!UICONTROL Rangansicht]**.
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 Trendberichte zeigen Metriken im Zeitverlauf an. Sie können diesen Berichtstyp verwenden, um die Leistung eines Segments von einem Zeitraum zum nächsten anzuzeigen.
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 Die meisten Konversions- und Traffic-Berichte verfügen über eine Trendanzeige. Mit dem [!UICONTROL Kalender] lassen sich Verbesserungen aus allen Zeitraumunterteilungen anzeigen, einschließlich Tage eines Monats, Wochen eines Jahres, Wochen eines Quartals, Monate eines Jahres usw. Trendberichte zeigen Trends einer Metrik (Umsatz, Bestellungen, Ansichten usw.) für bis zu fünf Elemente (Produkte, Kategorien, Webseiten usw.) an.
 
 **So führen Sie einen Trendbericht aus**
@@ -50,29 +37,9 @@ Die meisten Konversions- und Traffic-Berichte verfügen über eine Trendanzeige.
 1. Führen Sie einen Konversions- oder Traffic-Bericht aus, wie zum Beispiel **[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**.
 1. Klicken Sie unter **[!UICONTROL Berichttyp]** auf **[!UICONTROL Trendansicht]**.
 
-## Konversionstrichterbericht ausführen {#task_B926A74AA6A641138C2986C1635120CB}
-
-Konversionstrichterberichte geben Auskunft über den Prozentsatz an Besuchern, die einen bestimmten Satz an Ereignissen durchlaufen haben, um eine bestimmte Aktion auszuführen. So ermitteln Sie beispielsweise, wie viele Besucher während des Besuchs Ihrer Webseite Artikel in den Warenkorb gelegt und letztlich einen Artikel gekauft haben. Dieser Bericht zeigt auch die Anzahl der Besucher an, die den Vorgang nicht beendet haben.
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-Um diesen Bericht auszuführen, wählen Sie einen Bericht aus, z. B. einen Seitenbericht (**[!UICONTROL Berichte]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Trackingcode]** > **[!UICONTROL Kampagnen-Konversionstrichter]**).
-
-Siehe [Konversionsberichte](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html), um eine Beschreibung anzuzeigen.
-
 ## Fallout-Bericht ausführen {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 Der [!UICONTROL Fallout-Bericht] zeigt die Anzahl der Besucher an, die eine zuvor festgelegte Folge von Seiten besucht haben. Außerdem werden hier die Konversions- und Trichteranalyseraten jedes Schritts angezeigt.
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
 
@@ -85,11 +52,6 @@ Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe
 1. Klicken Sie auf **[!UICONTROL Bericht ausführen]**.
 
    ![Schritt Ergebnis](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [Fallout-Bericht – Beschreibung](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## Seitenflussbericht ausführen {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ So kann die Seite der Datenschutzregeln z. B. insgesamt 10.000 Mal angezeigt wor
 
 Gleichermaßen wird der prozentuale Anteil durch die relative Breite der Linie dargestellt. Standardmäßig zeigt dieser Bericht fünf Zweitstufenverzweigungen und fünf Drittstufenverzweigungen an. Sie können die Anzahl der Verzweigungen erweitern, um bis zu zehn Zweitstufenverzweigungen und fünf Drittstufenverzweigungen anzuzeigen. Dadurch dehnen Sie die Höhe des Berichts aus und müssen wahrscheinlich scrollen, um das ganze Diagramm anzuzeigen.
 
-## Trichterbericht ausführen {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-Sie können Erfolgsereignisse auswählen und diese einem [!UICONTROL „Einkaufskonversionstrichter“]- oder [!UICONTROL „Produktkonversionstrichter“]-Bericht hinzufügen.
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Produkte]** > [Produkt-Konversionstrichter](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
-
 ## Marketingkanalbericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
 
 Marketingkanalberichte geben einen Überblick über die Zuordnung der First Touch- und Last Touch-Kanäle mit standardmäßigen Berichterstellungsmetriken wie Umsatz, Bestellungen und Kosten. Diese Berichte ermöglichen Ihnen eine Analyse der Umsätze der einzelnen Kanäle.
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 Weitere Informationen finden Sie im [Marketingkanal](/help/components/c-marketing-channels/analyze-mc.md)-Hilfesystem.
 
 ## Anomalieerkennungsbericht ausführen {#task_4808C96327354D789C075823F5C3A049}
 
 Beschreibt, wie Sie die Diagramme für die Zusammenfassung und individuelle Metriken bei der Anomalieerkennung interpretieren.
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) in Analysis Workspace an!
 
