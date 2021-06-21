@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Warnhinweise
 role: Business Practitioner, Administrator
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 94%
+source-wordcount: '838'
+ht-degree: 95%
 
 ---
 
@@ -104,11 +104,6 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Warnhinweise mit ASI-Slot als Report Suite </p> </td> 
    <td colname="col2"> <p>Das Erstellen oder Bearbeiten von ASI-Slots ist nicht länger möglich und sie sind auch nicht in Analysis Workspace verfügbar. Daher werden sie von den neuen Warnhinweisen nicht unterstützt. </p> <p> </p> </td> 
-   <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Warnhinweise mit Teilnahmemetriken </p> </td> 
-   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  > Teilnahmemetriken</a> sind in Reports &amp; Analytics verfügbar, jedoch zur Zeit nicht im neuen Warnhinweissystem in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
