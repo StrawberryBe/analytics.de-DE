@@ -4,14 +4,13 @@ title: Einschränkungen und Spezifikationen
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 94%
 
 ---
-
 
 # Einschränkungen und Spezifikationen
 
@@ -38,7 +37,7 @@ Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power�
    **Beispiel für eine Bearbeitung MIT Beschädigung der Visualisierung:**
 
    1. Erstellen Sie in Report Builder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
-   2. Planen Sie die Veröffentlichung dieses Antrags bei Power BI.
+   2. Planen Sie die Veröffentlichung dieses Antrags an Power BI.
    3. Erstellen Sie in Power BI eine Visualisierung für „Seite“ und „Seitenansichten“.
    4. Bearbeiten Sie die Arbeitsmappe, indem Sie „Seitenansichten“ aus der Anforderung entfernen.
    5. Bearbeiten Sie den Plan mit der aktualisierten Arbeitsmappe und veröffentlichen Sie die Anforderung für Power BI erneut.
@@ -71,6 +70,5 @@ Standardmäßig wird der Name aus dem Dateinamen der Arbeitsmappe abgeleitet (oh
 Bedenken Sie Folgendes
 
 * Die Bezeichnung darf keine Kombination aus Buchstaben und Zahlen sein, die mit einer Zeilen- und Spaltenadresse verwechselt werden kann. Beispielsweise darf die Bezeichnung nicht A100 lauten, da dies die Adresse einer Zelle in einem Arbeitsblatt ist.
-* Die folgenden Zeichen sind für eine Bezeichnung nicht gültig: &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39; &#39; . Sie werden durch einen Unterstrich ersetzt.
+* Die folgenden Zeichen sind keine gültigen Beschriftungszeichen: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; und `'~', ' '` . Sie werden durch einen Unterstrich ersetzt.
 * Wenn Sie einen ungültigen Namen eingeben, wird eine Warnmeldung angezeigt, in der ein automatisch generierter Name vorgeschlagen wird. Wenn Sie auf **[!UICONTROL Ja]** klicken, wird dieser Name verwendet. Wenn Sie auf **[!UICONTROL Nein]** klicken, können Sie im erweiterten Assistenten einen neuen Namen eingeben.
-
