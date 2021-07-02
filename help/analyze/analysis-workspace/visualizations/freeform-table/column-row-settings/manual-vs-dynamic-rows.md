@@ -5,9 +5,9 @@ feature: Freiformtabellen
 role: Business Practitioner, Administrator
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ Dimensionselemente aus verschiedenen Dimensionen können derselben Tabelle hinzu
 Dynamische und statische Zeilen verhalten sich in der Freiform-Gesamtzeile unterschiedlich. Standardmäßig:
 
 * Dynamische Zeilen werden Server-seitig summiert und deduplizieren Metriken wie „Besuche“ oder „Besucher“.
-* Statische Zeilen werden Client-seitig summiert und deduplizieren **keine** Metriken. Um die Gesamtzeile Server-seitig zu berechnen, ändern Sie die Zeileneinstellung auf **Gesamtsumme anzeigen**. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Statische Zeilen werden Client-seitig summiert und deduplizieren **keine** Metriken. Um die Gesamtzeile Server-seitig zu berechnen, ändern Sie die Zeileneinstellung auf **Gesamtsumme anzeigen**. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=de)
