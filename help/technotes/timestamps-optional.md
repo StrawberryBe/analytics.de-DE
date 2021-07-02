@@ -8,7 +8,7 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der 
 >
 >Die Einstellung der optionalen Zeitstempel ist standardmäßig für alle neuen, aus einer Vorlage generierten Report Suites festgelegt. Neue Report Suites, die aus einer vorhandenen kopiert werden, übernehmen die Einstellungen der ursprünglichen Report Suite.
 
-Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optional](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html).
+Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optional](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=de).
 
 ## Zeitstempel optional: Integration von Daten mit und ohne Zeitstempel {#section_BF17CB593044462B993FD0D28EA56518}
 
