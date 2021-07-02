@@ -3,9 +3,9 @@ title: visitorID
 description: Verwenden Sie eine benutzerdefinierte Besucher-ID.
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe verwendet verschiedene Methoden zur Identifizierung von Besuchern Ihrer We
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den [Adobe Experience Cloud-Identitätsdienst](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+>Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den [Adobe Experience Cloud-Identitätsdienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
 
 ## Besucher-ID in Adobe Experience Platform Launch
 
