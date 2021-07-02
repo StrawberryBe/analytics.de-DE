@@ -4,9 +4,9 @@ title: Segmente in Analytics und Audience Manager – Grundlagen
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Bei Audience Manager-Segmenten ist die Zugehörigkeit fließend. Je nachdem, ob
 
 Ein Audience Manager-Segment wird in Analytics als Zielgruppe berechnet.
 
-Weitere Informationen finden Sie unter [Populationsdaten für Eigenschaften und Segmente im Segmentaufbau](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) und [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
+Weitere Informationen finden Sie unter [Populationsdaten für Eigenschaften und Segmente im Segmentaufbau](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de) und [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=de).
 
 ## Analytics-Segmente {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -44,4 +44,4 @@ Ein Analytics-Segment ist ein Filtermechanismus für Daten in Ihren Berichten. D
 
    Im Gegensatz dazu werden Besucher in Analytics basierend auf dem Datumsbereich für die Berichterstellung zu Segmenten hinzugefügt oder daraus entfernt. Ein Beispiel: Ein einzelner Besucher hat im vergangenen Monat einen Kauf getätigt. In AAM wäre dieser Besucher Teil eines „Käufer“-Segments, unabhängig vom Datumsbereich. In Analytics wäre der Besucher bei einem auf diesem Monat basierenden Bericht nicht im Segment enthalten. Allerdings wäre der Besucher bei einem auf diesem und dem vergangenen Monat basierenden Bericht im Segment enthalten.
 
-Weitere Informationen finden Sie im [Analytics-Segmentierungsleitfaden](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+Weitere Informationen finden Sie im [Analytics-Segmentierungsleitfaden](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de).
