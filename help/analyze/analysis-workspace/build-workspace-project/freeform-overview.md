@@ -7,9 +7,9 @@ feature: Grundlagen zu Workspace
 role: Business Practitioner, Administrator
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1366'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 | [Neues Projekt erstellen](/help/analyze/analysis-workspace/home.md) | Klicken Sie auf diesen Link, um ein neues Projekt oder von einer für Sie erstellten [Vorlage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#analysis-workspace) zu starten. |
 | Projekte verwalten | Wenn Sie auf diesen Link klicken, wird der Projektkomponentenmanager aufgerufen (**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Projekte]**). Dort sind all Ihre Projekte aufgeführt und Sie können Projekte taggen, freigeben, löschen, umbenennen, genehmigen, kopieren und in CSV exportieren. |
 | Als Landingpage festlegen | Wandelt diese Seite in Ihre Workspace-Landingpage um. |
-| [Tutorials anzeigen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Sie gelangen zu den Analysis Workspace-Tutorials. |
+| [Tutorials anzeigen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=de) | Sie gelangen zu den Analysis Workspace-Tutorials. |
 | Name | Name des Workspace-Projekts. |
 | Inhaber | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
-| Typ | Gibt an, ob es sich um ein Workspace-Projekt oder eine [mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) handelt. |
+| Typ | Gibt an, ob es sich um ein Workspace-Projekt oder eine [mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=de) handelt. |
 | [Projektrolle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) | Zeigt Ihre Rolle für das Projekt an – Inhaber, bearbeiten, duplizieren, anzeigen. |
 | Tags | Tags, die auf das Projekt angewendet wurden. |
 | Zuletzt geändert | Datum und Zeitpunkt der letzten Änderung des Projekts. |
@@ -77,7 +77,7 @@ Zu den Einstellungen gehören:
 
 ## Linke Leiste {#left-rail}
 
-In einem Projekt erfolgt der Zugriff auf [Bedienfelder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de), Tabellen, [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) und [Komponenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) von der linken Leiste aus. Das sind Ihre Projektbausteine.
+In einem Projekt erfolgt der Zugriff auf [Bedienfelder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de), Tabellen, [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) und [Komponenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=de) von der linken Leiste aus. Das sind Ihre Projektbausteine.
 
 Sie können auch über das [leere Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=de) auf Visualisierungen und Bedienfelder zugreifen.
 
@@ -91,7 +91,7 @@ Auf der Arbeitsfläche des Projekts können Sie Bedienfelder, Tabellen, Visualis
 
 Bedienfelder sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Anwendungsfällen für Analysen organisieren möchten. Das aktive Bedienfeld hat einen blauen Rand und bestimmt, welche Komponenten in der linken Leiste verfügbar sind.
 
-Je nach Ausgangspunkt, den Sie für Ihre Projekte ausgewählt haben, befindet sich auf der Arbeitsfläche zu Beginn entweder eine [Freiformtabelle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de) oder ein [leeres Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html). Die schnellste Möglichkeit, eine Analyse zu starten, besteht darin, eine oder mehrere Komponenten auszuwählen und sie einfach in die Projektarbeitsfläche zu ziehen. Eine Datentabelle wird automatisch für Sie erstellt. [Erfahren Sie mehr](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) über die verschiedenen Optionen zum Erstellen einer Tabelle oder nutzen Sie unser [Tutorial](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de#training-tutorial) für eine Anleitung zum Erstellen Ihres ersten Projekts.
+Je nach Ausgangspunkt, den Sie für Ihre Projekte ausgewählt haben, befindet sich auf der Arbeitsfläche zu Beginn entweder eine [Freiformtabelle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de) oder ein [leeres Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=de). Die schnellste Möglichkeit, eine Analyse zu starten, besteht darin, eine oder mehrere Komponenten auszuwählen und sie einfach in die Projektarbeitsfläche zu ziehen. Eine Datentabelle wird automatisch für Sie erstellt. [Erfahren Sie mehr](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de) über die verschiedenen Optionen zum Erstellen einer Tabelle oder nutzen Sie unser [Tutorial](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de#training-tutorial) für eine Anleitung zum Erstellen Ihres ersten Projekts.
 
 ![](assets/canvas.png)
 
@@ -107,9 +107,9 @@ Die folgenden Aktionen können im Projekt-Manager für ein oder mehrere Projekte
 
 | Aktion | Beschreibung |
 |---|---|
-| Fügen Sie | Erstellen Sie ein neues Projekt oder beginnen Sie mit einer [Vorlage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
+| Fügen Sie | Erstellen Sie ein neues Projekt oder beginnen Sie mit einer [Vorlage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de). |
 | Taggen oder genehmigen | Wählen Sie „Taggen“ oder „Genehmigen“, um Ihre Projekte zu organisieren und die Suche zu erleichtern. |
-| [Freigeben](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Stellen Sie ein Projekt für andere Analysis Workspace-Benutzer in Ihrer Organisation zur Verfügung. |
+| [Freigeben](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) | Stellen Sie ein Projekt für andere Analysis Workspace-Benutzer in Ihrer Organisation zur Verfügung. |
 | Löschen | Löschen Sie Ihr Projekt. |
 | Umbenennen | Bearbeiten Sie den Namen Ihres Projekts. |
 | Kopieren | Erstellen Sie ein Duplikat Ihres Projekts. Dadurch werden ein neues Projekt und eine neue Projekt-ID erstellt. Die mit dem Originalprojekt verknüpften Freigaben oder Zeitpläne werden nicht kopiert. |
