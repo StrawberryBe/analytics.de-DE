@@ -5,9 +5,9 @@ feature: Freiformtabellen
 role: Business Practitioner, Administrator
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ Es gibt verschiedene Arten, mit Freiformtabellen zu interagieren und sie anzupas
 * **Zeilen**
    * Sie können mehr Zeilen in einen einzigen Bildschirm einpassen, indem Sie die [Anzeigedichte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=de) des Projekts anpassen.
    * Jede Dimensionsreihe kann bis zu 400 Zeilen anzeigen, bevor die Paginierung erfolgt. Klicken Sie auf die Zahl neben „Zeilen“, um weitere Zeilen auf einer Seite anzuzeigen. Mit dem Pfeil in der Kopfzeile navigieren Sie zu einer anderen Seite.
-   * Zeilen können nach zusätzlichen Komponenten aufgeschlüsselt werden. Um mehrere Zeilen gleichzeitig zu aufzuschlüsseln, wählen Sie einfach mehrere Zeilen aus und ziehen dann die nächste Komponente auf die ausgewählten Zeilen. Weitere Informationen zu [Aufschlüsselungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
-   * Zeilen können [gefiltert](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) werden, um einen reduzierte Anzahl von Elementen anzuzeigen. Weitere Einstellungen finden Sie unter [Zeileneinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+   * Zeilen können nach zusätzlichen Komponenten aufgeschlüsselt werden. Um mehrere Zeilen gleichzeitig zu aufzuschlüsseln, wählen Sie einfach mehrere Zeilen aus und ziehen dann die nächste Komponente auf die ausgewählten Zeilen. Weitere Informationen zu [Aufschlüsselungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=de).
+   * Zeilen können [gefiltert](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=de) werden, um einen reduzierte Anzahl von Elementen anzuzeigen. Weitere Einstellungen finden Sie unter [Zeileneinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=de).
 
 * **Spalten**
    * Komponenten können innerhalb von Spalten gestapelt werden, um segmentierte Metriken, tabellenübergreifende Analysen und mehr zu erstellen.
-   * Die Ansicht jeder Spalte kann unter den [Spalteneinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) angepasst werden.
-   * Über das [Kontextmenü](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html) sind verschiedene Aktionen verfügbar. Das Menü enthält verschiedene Aktionen, je nachdem, ob Sie auf die Tabellenüberschrift, die Zeilen oder die Spalten klicken.
+   * Die Ansicht jeder Spalte kann unter den [Spalteneinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=de) angepasst werden.
+   * Über das [Kontextmenü](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html?lang=de) sind verschiedene Aktionen verfügbar. Das Menü enthält verschiedene Aktionen, je nachdem, ob Sie auf die Tabellenüberschrift, die Zeilen oder die Spalten klicken.
 
 ## Exportieren von Freiformtabellendaten
 
@@ -52,6 +52,6 @@ Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten als CSV-Datei herunterladen]** lädt die angezeigten Tabellendaten als CSV-Datei herunter. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl als CSV-Datei herunterladen]**.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Projekt > Elemente als CSV-Datei herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
 
-Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) aller Daten für Analysis Workspace.
+Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
 
 ![](assets/export-options.png)
