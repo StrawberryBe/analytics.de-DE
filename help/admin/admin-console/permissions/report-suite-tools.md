@@ -3,9 +3,9 @@ title: Produktprofil-Berechtigungen für Report Suite-Werkzeuge
 description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report Suite-Werkzeuge vertraut.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report S
 | Classifications | Gewährt Zugriff auf alle Classification-Einstellungen in Report Suite Manager. Dieses Berechtigungselement umfasst: <br>Traffic > Traffic-Klassifizierungen<br>Konversion > Konversionsklassifizierungen<br>Konversion > Klassifizierungshierarchien<br>Marketing-Kanäle > Marketingkanal-Klassifikationen<br>App-Verwaltung > App-Klassifizierungen<br>Medienverwaltung > Medienklassifizierungen<br>AEM > AEM Assets-Klassifizierungen<br>Adobe Campaign > Adobe-Klassifizierungen |
 | Meine empfohlenen Berichte | Gewährt Zugriff auf „Site-Metriken > Meine empfohlenen Berichte“ in Reports &amp; Analytics. |
 | Bild-Reportlet des Reports &amp; Analytics-Dashboards | Gewährt Zugriff auf Dashboard-Reportlets. |
-| Reportlet Metrikmessung des Reports &amp; Analytics-Dashboards | Gewährt Zugriff auf Dashboard-Reportlets. |
+| Metrikmessungs-Reportlet des Reports &amp; Analytics-Dashboards | Gewährt Zugriff auf Dashboard-Reportlets. |
 | Report Suite-Zusammenfassungs-Reportlet für Reports &amp; Analytics-Dashboard | Gewährt Zugriff auf Dashboard-Reportlets. |
-| Reports &amp; Analytics-DashboardText-Reportlet | Gewährt Zugriff auf Dashboard-Reportlets. |
+| Text-Reportlet des Reports &amp; Analytics-Dashboards | Gewährt Zugriff auf Dashboard-Reportlets. |
 | Report Suite-Zusammenfassungs-Reportlet für Reports &amp; Analytics-Dashboard | Gewährt Zugriff auf Dashboard-Reportlets. |
 | Externes Reportlet des Reports &amp; Analytics-Dashboards | Gewährt Zugriff auf Dashboard-Reportlets. |
 | Datenreparatur-API | Gewährt Zugriff auf die Datenreparatur-API |
