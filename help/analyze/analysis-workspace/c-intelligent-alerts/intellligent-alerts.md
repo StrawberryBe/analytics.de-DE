@@ -6,9 +6,9 @@ feature: KI-Tools
 role: Business Practitioner, Administrator
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Intelligente Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem.
 
-Hier finden Sie ein Video-Tutorial zu [intelligenten Warnhinweisen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Hier finden Sie ein Video-Tutorial zu [intelligenten Warnhinweisen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=de) (5:34)
 
 ## Überblick
 
