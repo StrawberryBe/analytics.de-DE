@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ Die älteren Firstkontakt- und Letztkontakt-Kanäle bieten einen hilfreichen Ein
 
 ![](assets/mc-viz6.png)
 
-In diesem Video erfahren Sie mehr über tabellenübergreifende Marketing-Analyse: [Verwenden der tabellenübergreifenden Analyse zum Untersuchen der grundlegenden Marketing-Attribution in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+In diesem Video erfahren Sie mehr über tabellenübergreifende Marketing-Analyse: [Verwenden der tabellenübergreifenden Analyse zum Untersuchen der grundlegenden Marketing-Attribution in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=de).
