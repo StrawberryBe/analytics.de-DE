@@ -5,9 +5,9 @@ title: Secure File Transfer Protocol – Übersicht
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ SFTP ist ein sicheres Protokoll für die Übertragung von Daten, mit dem sicherg
 
 Hierbei übertragen die Server von Adobe die Datei per Push auf Ihre Server. Faktisch wird sie an Ihren Endpunkt geliefert.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) - und [Analytics-Daten-Feed](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) können Daten per SFTP übertragen.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) - und [Analytics-Daten-Feed](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=de) können Daten per SFTP übertragen.
 
 Folgende Analytics-Werkzeuge können **keine** Daten per Push über SFTP zustellen:
 
