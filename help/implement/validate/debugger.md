@@ -3,7 +3,7 @@ title: Legacy Adobe Experience Cloud-Debugger
 description: Installieren Sie den Legacy Adobe Experience Cloud-Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising Cloud, Identity Service und Launch.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Dieses Debugging-Tool wird nicht mehr unterstützt. Adobe empfiehlt stattdessen die Chrome-Erweiterung [Adobe Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html).
+>Dieses Debugging-Tool wird nicht mehr unterstützt. Adobe empfiehlt stattdessen die Chrome-Erweiterung [Adobe Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de).
 
 Der [!UICONTROL Legacy-Debugger] prüft Tags für die meisten Adobe Experience Cloud-Dienste. Mithilfe des Debuggers können Sie sehen, welche Daten auf einer bestimmten Seite Ihrer Site an Adobe gesendet werden. Anhand dieser Informationen können Sie die Implementierung Ihrer Organisation reparieren oder validieren.
 
@@ -35,7 +35,7 @@ Jeder Browser hat verschiedene Möglichkeiten, Lesezeichen zu bearbeiten, aber d
 
 #### Chrome
 
-Wenn Sie darauf bestehen, die [Chrome-Erweiterung](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) nicht zu verwenden, kann stattdessen das Legacy-Debugger-Lesezeichen verwendet werden.
+Wenn Sie darauf bestehen, die [Chrome-Erweiterung](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) nicht zu verwenden, kann stattdessen das Legacy-Debugger-Lesezeichen verwendet werden.
 
 1. Klicken Sie auf die drei Punkte oben rechts und gehen Sie dann zu „Lesezeichen“ > „Lesezeichen-Manager“. Sie können auch die Tastenkombination `Ctrl` + `Shift` + `O` (Windows) oder `Cmd` + `Shift` + `O` (Mac) drücken.
 2. Klicken Sie oben rechts im Lesezeichen-Manager auf die drei Punkte und dann auf „Neues Lesezeichen hinzufügen“.
