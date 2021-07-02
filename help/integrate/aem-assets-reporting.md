@@ -3,9 +3,9 @@ description: Administrative Schritte für die Aktivierung von AEM Assets Reporti
 title: Berichten über AEM Assets in Adobe Analytics
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 source-git-commit: 0b9059aa03777d429a671f11c29e5f9831fac6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,4 +21,4 @@ Hiermit können in Analytics die Impressionen und Klicks auf Assets erfasst werd
 * Fügt neue Dimensionen zu den Asset-Variablen in Analysis Workspace hinzu: Asset-ID, Asset-Quelle und angeklickte Asset-ID
 * Fügt neue Dimensionen zu folgenden Asset-Ereignissen hinzu: Asset-Klicks und Asset-Impressionen.
 
-Damit Daten in diese Berichte eingespeist werden können, muss eine Implementierung entsprechend der Anleitung in der [Dokumentation zu AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=en) erfolgen.
+Damit Daten in diese Berichte eingespeist werden können, muss eine Implementierung entsprechend der Anleitung in der [Dokumentation zu AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=de) erfolgen.
