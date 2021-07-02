@@ -3,7 +3,7 @@ title: Ausschluss-Links
 description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
    2. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Mithilfe des [Adobe Experience Cloud-Debuggers](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html):
+* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    2. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
    3. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
