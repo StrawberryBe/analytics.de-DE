@@ -7,7 +7,7 @@ uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '1771'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Diese Zeichen haben in einer Datendatei eine spezielle Bedeutung. Vermeiden Sie 
 
 Kampagnendatumsangaben sind üblicherweise Datumsbereiche (Start- und Enddaten), die einzelnen Kampagnen zugewiesen wurden. Datumsangaben müssen das Format JJJJ/MM/TT aufweisen, zum Beispiel 2013/06/15-2013/06/30.
 
-Weitere Informationen finden Sie unter [Konversion-Classifications](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Weitere Informationen finden Sie unter [Konversion-Classifications](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=de).
 
 >[!NOTE]
 >
