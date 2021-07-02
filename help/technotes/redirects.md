@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 Führen Sie einen Test durch, um zu überprüfen, dass die verweisende Stelle, die Quell-URL (*`s_server`*) und die Kampagnenvariablen erfasst werden.
 
-Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html) repräsentiert.
+Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) repräsentiert.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
