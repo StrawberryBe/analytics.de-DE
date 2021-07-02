@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ SFTP-Unterstützung für Daten-Feeds ist verfügbar. Erfordert einen SFTP-Host u
 
 ### S3
 
-Sie können Feeds direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert einen Bucket-Namen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
+Sie können Feeds direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
 
 ![S3-Info](assets/dest-s3.jpg)
 
-Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
+Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
 * s3:GetObject
 * s3:PutObject
@@ -55,7 +55,7 @@ Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folg
 
    >[!NOTE]
    >
-   >[!DNL Analytics] fügt für jeden Upload in einen Amazon S3-Bucket den Bucket-Eigentümer zur BucketOwnerFullControl-ACL hinzu, unabhängig davon, ob der Bucket eine Richtlinie enthält, die dies erfordert. Weitere Informationen finden Sie unter &quot;[Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Datenfeeds?](df-faq.md#BucketOwnerFullControl)&quot;
+   >[!DNL Analytics] fügt für jeden Upload in einen Amazon S3-Bucket den Bucket-Eigentümer zur BucketOwnerFullControl-ACL hinzu, unabhängig davon, ob der Bucket eine Richtlinie enthält, die dies erfordert. Weitere Informationen finden Sie unter [Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Daten-Feeds?](df-faq.md#BucketOwnerFullControl).
 
 Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
 
