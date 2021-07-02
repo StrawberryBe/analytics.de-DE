@@ -3,9 +3,9 @@ title: websiteBot
 description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -20,24 +20,24 @@ Mit dem `websiteBot`-Plug-in können Sie dynamisch identifizieren, ob Desktop-Be
 Dieses Plug-in führt zwei Prüfungen durch:
 
 * Zunächst wird bei einem Desktop-Gerät ein Ereignis-Listener für die Mausbewegung hinzugefügt.
-* Als Nächstes bestimmt es mithilfe der `navigator.UserAgent` -Variablen, ob das Gerät ein Desktop- oder Mobilgerät ist. Smartphones und Tablets werden ignoriert.
+* Danach wird anhand der Variablen `navigator.UserAgent` ermittelt, ob es sich bei dem Gerät um ein Desktop-Gerät oder ein Smartphone bzw. Tablet handelt. Smartphones und Tablets werden ignoriert.
 
-Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, kann das Plug-in
+Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, kann das Plug-in 
 
-* Führen Sie entweder einen [!UICONTROL Direktaufruf]-Regelaufruf (für Adobe Experience Platform Launch) durch oder
-* Führen Sie einen `s.tl`-Aufruf aus, um anzugeben, dass der Besucher kein Bot ist.
+* entweder einen [!UICONTROL Direktaufruf]-Regelaufruf (für Adobe Experience Platform Launch) durchführen oder
+* einen `s.tl`-Aufruf ausführen, um anzugeben, dass der Besucher kein Bot ist.
 
 ## Voraussetzungen
 
 Adobe empfiehlt vor der Verwendung dieses Plug-ins Folgendes:
 
-* **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Setzen Sie die Gültigkeit auf **Nie** oder **Besuch** und die Zuordnung auf **&quot;Ausgangswert (Erster)&quot;**. Diese eVar sollte in beiden Fällen festgelegt werden: wenn entweder die Regel [!UICONTROL Direktaufruf] oder der Aufruf `s.tl` ausgelöst wird.
+* **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Legen Sie den Ablauf auf **Niemals** oder **Visit** und die Zuordnung auf **Ausgangswert (Erster)** fest. Diese eVar sollte in den beiden folgenden Fällen festgelegt werden: wenn entweder die Regel [!UICONTROL Direktaufruf] oder der Aufruf `s.tl` ausgelöst wird.
 * **Benutzeragent in einer separaten Variablen** erfassen: Erfassen Sie die Benutzeragenten-Zeichenfolge in einer separaten Variablen, um die Wirksamkeit dieses Plug-ins zu überwachen. Legen Sie bei jedem Treffer eine eVar auf `navigator.UserAgent` fest, um diese Daten zu erfassen.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-1. Fügen Sie eine neue `websiteBot` -Regel hinzu.
-1. Fügen Sie der `websiteBot`-Regel ein **Mouse Move Listener**-Ereignis mit diesem benutzerdefinierten Code hinzu:
+1. Fügen Sie eine neue Regel `websiteBot` hinzu.
+1. Fügen Sie der Regel `websiteBot` ein **Mausbewegung-Listener**-Ereignis mit diesem benutzerdefinierten Code hinzu:
 
    ```
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
@@ -72,13 +72,13 @@ Adobe empfiehlt vor der Verwendung dieses Plug-ins Folgendes:
       }))
    ```
 
-1. Fügen Sie eine Regel [!UICONTROL Direktaufruf] hinzu, die ein Analytics-Beacon auslöst, wobei `websiteBot` als Kennung verwendet wird. In diesem Beispiel wird ein `s.tl` -Aufruf verwendet:
+1. Fügen Sie eine Regel [!UICONTROL Direktaufruf] hinzu, die ein Analytics-Beacon auslöst, wobei `websiteBot` als Kennung verwendet wird. In diesem Beispiel wird ein `s.tl`-Aufruf verwendet:
 
    ![websiteBot-Kennung](assets/websitebot.png)
 
-1. Lösen Sie die Aktionen Adobe Analytics - Variablen festlegen und Adobe Analytics - Beacon senden in der Regel [!UICONTROL Direktaufruf] aus.  Eine Möglichkeit hierzu finden Sie im folgenden Beispiel:
+1. Lösen Sie die Aktionen „Adobe Analytics - Variablen festlegen“ und „Adobe Analytics - Beacon senden“ in der Regel [!UICONTROL Direktaufruf] aus. Eine Möglichkeit hierzu finden Sie im folgenden Beispiel:
 
-   ![Beacon-Aktionen senden](assets/websitebot2.png)
+   ![Aktionen „Beacon senden“](assets/websitebot2.png)
 
 
 ## Installieren des Plug-ins mit AppMeasurement
@@ -115,5 +115,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (3. Juni 2021)
 
 * Aktualisierter AppMeasurement-Plug-in-Code
-* Der Abschnitt &quot;Launch&quot;wurde mit erweiterten Anweisungen aktualisiert.
-* Der Abschnitt &quot;Verwenden des Plug-ins&quot;wurde aktualisiert.
+* Der Abschnitt „Launch“ wurde mit erweiterten Anweisungen aktualisiert.
+* Der Abschnitt „Verwenden des Plug-ins“ wurde aktualisiert.
