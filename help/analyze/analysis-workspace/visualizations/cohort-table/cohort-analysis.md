@@ -5,9 +5,9 @@ feature: Visualisierungen
 role: Business Practitioner, Administrator
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Beispiele für die Nutzung einer [!UICONTROL Kohortenanalyse]:
 
 Die [!UICONTROL Kohortenanalyse] steht allen Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analysis Workspace] zur Verfügung.
 
-[Video-Tutorial zur Kohortenanalyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[Video-Tutorial zur Kohortenanalyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis- workspace.html?lang=de) (4:36)
 
 >[!IMPORTANT]
 >
