@@ -1,19 +1,19 @@
 ---
-title: Suche von Merchandising-eVar in post_product_list
-description: Suchen Sie in der Spalte post_product_list in einem Daten-Feed nach der Merchandising-eVar-Instanz für jeden Lookup-Wert.
+title: Suche nach Merchandising-eVar-Instanzen in post_product_list
+description: Suchen Sie in der Spalte „post_product_list“ in einem Daten-Feed nach der Merchandising-eVar-Instanz für jeden Lookup-Wert.
 exl-id: null
 source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Suche von Merchandising-eVar in post_product_list
+# Suche nach Merchandising-eVar-Instanzen in post_product_list
 
-In Daten-Feeds kann die Spalte [post_product_list](datafeeds-reference.md) die Merchandising-eVar-Instanzen enthalten. Jeder eVar wird durch eine Zahl dargestellt.
+In Daten-Feeds kann die Spalte [post_product_list](datafeeds-reference.md) die Merchandising-eVar-Instanzen enthalten. Jede eVar wird durch eine Zahl dargestellt.
 
-Die Suche der Merchandising-eVar-Instanz nach post_product_list unterscheidet sich von der Suchspalte event_list im Daten-Feed.
+Die Suche der Merchandising-eVar-Instanz nach „post_product_list“ unterscheidet sich von der Suchspalte „event_list“ im Daten-Feed.
 
 | Suchwert | Merchandising-Instanz |
 |--- |--- |
