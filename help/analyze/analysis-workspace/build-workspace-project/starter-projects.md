@@ -8,7 +8,7 @@ exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 * **Leeres Projekt (Standard)**: Anweisungen hierzu finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * **Standardvorlage**: Diese Vorlagen werden von Adobe erstellt und mit dem Produkt geliefert.
-* **Benutzerdefinierte Vorlage**: Diese Vorlagen können von Benutzern mit Administratorrechten oder von Nichtadministratoren erstellt, freigegeben oder gelöscht werden, sofern ihnen die Berechtigung [!UICONTROL Analysis Workspace: als Vorlage speichern] in der Admin Console erteilt wurde. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
+* **Benutzerdefinierte Vorlage**: Diese Vorlagen können von Benutzern mit Administratorrechten oder von Nichtadministratoren erstellt, freigegeben oder gelöscht werden, sofern ihnen die Berechtigung [!UICONTROL Analysis Workspace: als Vorlage speichern] in der Admin Console erteilt wurde. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de)
 
 ![](assets/start_modal.png)
 
@@ -56,7 +56,7 @@ Wenn Sie einen Workspace zum ersten Mal öffnen, sind Vorlagen in der linken Lei
 
 Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern.
 
-Hier finden Sie ein Tutorial zu [Standardvorlagen in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Hier finden Sie ein Tutorial zu [Standardvorlagen in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html?lang=de) (2:46)
 
 Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten.
 
@@ -80,7 +80,7 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 * **Magento: Marketing und Handel**: Diese Vorlage schlüsselt Ihre E-Commerce-Konversionen nach der Marketing-Kanal-Attribution auf und bietet Einblicke nach Suchbegriff, Landingpage, Standort und mehr. Eine Videoübersicht finden Sie unter:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=de)
 
 ### Medien
 
@@ -118,7 +118,7 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 >[!NOTE]
 >
->Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html) verfügbar.
+>Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=de) verfügbar.
 
 Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version der Metrik „Unique Visitors“ ist. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
 
