@@ -3,9 +3,9 @@ title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ Befolgen Sie die folgenden allgemeinen Richtlinien, um die Implementierung einer
    >
    >Achten Sie darauf, dass jede benutzerdefinierte Variable domänenübergreifend gleich verwendet wird. Verwenden Sie nicht dieselbe eVar oder dasselbe Ereignis zu verschiedenen Zwecken auf Ihren Sites.
 1. Stellen Sie sicher, dass jede Domäne über eine Datenschicht verfügt, um die Datenerfassung zu vereinfachen. Daten können weiterhin ohne Datenschicht erfasst werden, doch die Zuverlässigkeit und Langlebigkeit Ihrer Implementierung nimmt dann ab, insbesondere wenn Ihre Site neu gestaltet wird.
-1. Verwenden Sie Adobe Experience Platform Launch, um Analytics zu implementieren. Verschiedene Sites erfordern wahrscheinlich unterschiedliche Datenelemente. Verwenden Sie für jede Domäne spezifische Regeln, um sicherzustellen, dass jedes Datenelement korrekt ausgefüllt wird, und weisen Sie diese Datenelemente dann ihren jeweiligen eVars und Ereignissen zu. Siehe [Launch-Übersicht](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html) im Benutzerhandbuch zu Adobe Experience Platform Launch.
-1. Schließen Sie den [Adobe Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) ein und verwenden Sie die Funktion [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html). Diese Funktion führt Besucherdaten zusammen, wenn Benutzer von einer Domäne auf eine andere klicken.
+1. Verwenden Sie Adobe Experience Platform Launch, um Analytics zu implementieren. Verschiedene Sites erfordern wahrscheinlich unterschiedliche Datenelemente. Verwenden Sie für jede Domäne spezifische Regeln, um sicherzustellen, dass jedes Datenelement korrekt ausgefüllt wird, und weisen Sie diese Datenelemente dann ihren jeweiligen eVars und Ereignissen zu. Siehe [Launch-Übersicht](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=de) im Benutzerhandbuch zu Adobe Experience Platform Launch.
+1. Schließen Sie den [Adobe Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) ein und verwenden Sie die Funktion [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=de). Diese Funktion führt Besucherdaten zusammen, wenn Benutzer von einer Domäne auf eine andere klicken.
 
 ## Ändern einer bestehenden Implementierung mit einer globalen Report Suite
 
