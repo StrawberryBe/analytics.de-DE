@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Zunächst müssen Sie Activity Map-Berichte auf einer Report Suite-Ebene aktivie
 
    Dies bringt Sie zur Gruppenverwaltungsseite in der Admin Console.
 
-1. [Fügen Sie Benutzer dieser Gruppe hinzu](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) und klicken Sie auf **[!UICONTROL Gruppe speichern]**.
+1. [Fügen Sie Benutzer dieser Gruppe hinzu](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) und klicken Sie auf **[!UICONTROL Gruppe speichern]**.
 
 1. Dadurch können Ihre Admin-Benutzer Activity Map über **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Werkzeuge]** > **[!UICONTROL Activity Map]** herunterladen.
 
