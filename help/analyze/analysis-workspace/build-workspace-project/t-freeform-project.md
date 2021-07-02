@@ -7,7 +7,7 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
 
 1. Legen Sie die Benutzerberechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer Gruppe hinzufügen, für die die Berechtigung zum **[!UICONTROL Erstellen/Kuratieren von Projekten in Analysis Workspace]** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte]**. (**[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** > [Gruppen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)).
+   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer Gruppe hinzufügen, für die die Berechtigung zum **[!UICONTROL Erstellen/Kuratieren von Projekten in Analysis Workspace]** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte]**. (**[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** > [Gruppen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de)).
 
 1. Klicken Sie in [!DNL Experience Cloud] auf **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
