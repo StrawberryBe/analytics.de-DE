@@ -8,7 +8,7 @@ exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen auswählen </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >Traffic-Classifications</a> und <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >Konversion-Classifications</a>. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=de"  >Traffic-Classifications</a> und <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=de"  >Konversion-Classifications</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aktivieren</span> </p> </td> 
