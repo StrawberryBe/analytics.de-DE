@@ -4,9 +4,9 @@ title: Einfache Metrik vom Typ „Seitenansichten pro Besuch“ erstellen
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche er
 1. Ziehen Sie für diese Metrik zunächst „Seitenansichten“ in die Arbeitsfläche und dann „Besuche“ darunter (warten Sie, bis die blaue Linie erscheint, bevor Sie die Metrik ablegen).
 1. Wählen Sie den Operator für Teilung. (Dies ist der Standardoperator.)
 1. Sie können jetzt oben rechts eine **[!UICONTROL Vorschau]** dieser Metrik sehen, während Sie sie erstellen.
-1. Mit der Produktkompatibilität wird angegeben, ob die Metrik mit [Aktuellen Daten](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) oder nur mit vollständig verarbeiteten Daten kompatibel ist.
+1. Mit der Produktkompatibilität wird angegeben, ob die Metrik mit [Aktuellen Daten](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=de) oder nur mit vollständig verarbeiteten Daten kompatibel ist.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Beachten Sie, dass die Formel unter **[!UICONTROL Zusammenfassung]** jedes Mal, wenn Sie die Metrikdefinition ändern, aktualisiert wird.
 1. Sie werden nun automatisch zum [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) geleitet, der dem Segment-Manager ähnlich ist. Damit können Sie Metriken freigeben, genehmigen, (erneut) taggen, umbenennen oder löschen.
