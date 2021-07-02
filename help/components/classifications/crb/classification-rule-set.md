@@ -7,7 +7,7 @@ uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Benennen Sie den Classification-Regelsatz, wenden Sie die Variable an und legen 
 
 1. (Voraussetzung) Definieren Sie die Classification-Struktur in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (Informationen zum Hinzufügen von Classifications finden Sie unter [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in der Admin Tools-Hilfe.)
+   (Informationen zum Hinzufügen von Classifications finden Sie unter [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) in der Admin Tools-Hilfe.)
 
    Variablen werden erst im Bereich [!UICONTROL Neuer Regelsatz] angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde.
 
