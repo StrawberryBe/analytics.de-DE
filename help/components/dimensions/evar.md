@@ -3,9 +3,9 @@ title: eVar
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wen
 
 Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 250 eVars verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
-Der (obere oder untere) Fall, der für die Berichterstellung verwendet wird, basiert auf dem ersten Wert, den das Backend-System registriert. Dieser Wert kann entweder die erste jemals erkannte Instanz sein oder je nach Zeitraum (z. B. monatlich) variieren, je nach der Vielfalt und Menge der mit der Report Suite verknüpften Daten.
+Die Groß- oder Kleinschreibung, die für die Berichterstellung verwendet wird, basiert auf dem ersten Wert, den das Backend-System registriert. Dieser Wert kann entweder die erste jemals erkannte Instanz sein oder je nach Zeitraum (z. B. monatlich) variieren, je nach der Vielfalt und Menge der mit der Report Suite verknüpften Daten.
 
 ## Füllen von eVars mit Daten
 
