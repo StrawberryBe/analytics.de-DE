@@ -5,7 +5,7 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,9 +121,9 @@ Die [!UICONTROL gebührenpflichtigen Sucheinstellungen] für die Marketingkanalr
 
 ![](assets/example_paid_search.png)
 
-Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
+Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=de) in „Admin“.
 
-### Kostenlose Suche   {#natural-search}
+### Kostenlose Suche  {#natural-search}
 
 Bei einer natürlichen Suche finden Besucher Ihre Website durch eine Web-Suche, bei der die Suchmaschine Ihre Website aufführt, ohne dass Sie dafür Gebühren entrichten müssen.
 
@@ -157,7 +157,7 @@ Eine Best Practice besteht darin, einen Kanal „Andere Kampagnen“ einzubezieh
 
 ![](assets/other-campaigns.png)
 
-### Soziale Netzwerke   {#social-networks}
+### Soziale Netzwerke  {#social-networks}
 
 Diese Regel identifiziert Besucher, die aus sozialen Netzwerken wie Facebook stammen. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
 
@@ -169,7 +169,7 @@ Diese Regel gilt für Besucher, bei denen die Referrer-URL mit den in der Admin 
 
 ![](assets/int-channel1.png)
 
-Weitere Informationen zum Auftreten dieses Kanals finden Sie unter [Gründe für „Intern“ (Sitzungsaktualisierung)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal).
+Weitere Informationen zum Auftreten dieses Kanals finden Sie unter [Gründe für „Intern“ (Sitzungsaktualisierung)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=de#internal).
 
 ### Direkt {#direct}
 
@@ -177,7 +177,7 @@ Diese Regel identifiziert Besucher, die über keine Referrer-Domäne verfügen. 
 
 ![](assets/example_direct.png)
 
-### Kanal „Referrer-Domänen“ {#referring-domains}
+### Kanal „Referrer-Domänen“  {#referring-domains}
 
 Der Kanal „Referrer-Domänen“ identifiziert Besucher mit einer Referrer-Domäne. Gemeinsam fungieren die Kanäle „Intern“, „Direkt“ und „Referrer-Domänen“ als Sammelstelle für alle verbleibenden Treffer, die noch nicht in einen Kanal kategorisiert wurden.
 
