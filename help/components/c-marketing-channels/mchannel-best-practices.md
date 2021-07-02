@@ -4,7 +4,7 @@ description: Aktualisierte Best Practices für die Verwendung von Marketing-Kan�
 source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Es wird empfohlen, [Attribution IQ](https://experienceleague.adobe.com/docs/anal
 
 ![](assets/attribution.png)
 
-* Die Konfiguration der Dimensionen Marketing-Kanal und Marketingkanal-Detail legt Touchpoints fest, die entsprechend den einzelnen Marketingkanal-Instanzen ausgewertet werden sollen.
+* Die Konfiguration der Dimensionen „Marketing-Kanal“ und „Marketing-Kanal-Detail“ legt Touchpoints fest, die entsprechend den einzelnen Marketing-Kanal-Instanzen bewertet werden sollen.
 * Die Metrikanalyse sollte Ihr Unternehmen an einem oder mehreren Attributionsmodellen ausrichten. Speichern Sie benutzerdefinierte Metriken mit diesem Modell zur einfachen Wiederverwendung.
 * Standardmäßig werden Daten mithilfe von Letztkontakt und der Einstellung des Besucherinteraktionszeitraums zugeordnet. Attribution IQ-Metrikmodelle bieten eine bessere Kontrolle über die Lookback-Fenster und eine größere Vielfalt, einschließlich [algorithmischer Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de#analysis-workspace).
 
@@ -33,7 +33,7 @@ Es wird empfohlen, [Attribution IQ](https://experienceleague.adobe.com/docs/anal
 
 Die Kanäle „Direkt“ und „Intern/Sitzungsaktualisierung“ werden nicht zur Verwendung mit benutzerdefinierten Attributionsmodellen (Attribution IQ) empfohlen.
 
-Was passiert, wenn für Ihr Unternehmen bereits die Direkt- und Sitzungsaktualisierung konfiguriert ist? In diesem Fall empfehlen wir Ihnen [eine Classification](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) für Erstkontakt/Letztkontakt zu erstellen und die Kanäle Direkt- und Sitzungsaktualisierung nicht klassifiziert zu lassen. Die klassifizierte Dimension liefert dieselben Attribution IQ-Ergebnisse, als ob diese Kanäle noch nie konfiguriert wären.
+Was passiert, wenn für Ihr Unternehmen bereits die Direkt- und Sitzungsaktualisierung konfiguriert ist? In diesem Fall empfehlen wir Ihnen, [eine Klassifizierung](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=de) für Erstkontakt/Letztkontakt zu erstellen und die Kanäle „Direkt“ und „Sitzungsaktualisierung“ nicht klassifiziert zu lassen. Die klassifizierte Dimension liefert dieselben Attribution IQ-Ergebnisse, als ob diese Kanäle noch nie konfiguriert wären.
 
 ![](assets/direct-session-refresh.png)
 
