@@ -4,9 +4,9 @@ title: Unterstützung mehrerer Währungen
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ Zielwährungs-Codes werden auf drei Ebenen definiert:
 
 ## Seitenebene
 
-Sie können eine JavaScript-Variable für die Zielwährung auf Seitenebene festlegen. Der Site-Eigentümer legt diese Variable mit dem entsprechenden dreistelligen ISO-4217-Währungs-Code fest (wie unten in diesem Dokument aufgeführt). Wenn die Variable [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) nicht auf dieser Ebene eingestellt ist, ist die Standardwährung die in der Report Suite angegebene Währung. Wenn die Variable auf Seitenebene mit der in der Report Suite angegebenen Variablen in Konflikt steht, hat die Variable in der Report Suite Vorrang.
+Sie können eine JavaScript-Variable für die Zielwährung auf Seitenebene festlegen. Der Site-Eigentümer legt diese Variable mit dem entsprechenden dreistelligen ISO-4217-Währungs-Code fest (wie unten in diesem Dokument aufgeführt). Wenn die Variable [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=de) nicht auf dieser Ebene eingestellt ist, ist die Standardwährung die in der Report Suite angegebene Währung. Wenn die Variable auf Seitenebene mit der in der Report Suite angegebenen Variablen in Konflikt steht, hat die Variable in der Report Suite Vorrang.
 
 
 ## Report Suite-Ebene
 
-Die **Basiswährung** wird beim [Erstellen von Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html) angegeben. Dies ist die Standardeinstellung für die Währung und hat Vorrang vor Währungs-Codes, die auf Seitenebene festgelegt werden. Wenn also eine Report Suite Bestellungen in US-Dollar, Euro und Britischen Pfund akzeptiert und der standardmäßige Währungs-Code der Report Suite auf „US-Dollar“ gesetzt ist, übersetzt die Datenbank am Reporting-Backend alle Transaktionen in US-Dollar.
+Die **Basiswährung** wird beim [Erstellen von Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=de) angegeben. Dies ist die Standardeinstellung für die Währung und hat Vorrang vor Währungs-Codes, die auf Seitenebene festgelegt werden. Wenn also eine Report Suite Bestellungen in US-Dollar, Euro und Britischen Pfund akzeptiert und der standardmäßige Währungs-Code der Report Suite auf „US-Dollar“ gesetzt ist, übersetzt die Datenbank am Reporting-Backend alle Transaktionen in US-Dollar.
 
 Marketing-Berichte verwenden zum Übersetzen der Seitenwährungswerte in die Standardwährungswerte der Report Suite den Wechselkurs, der zum Zeitpunkt der letzten Bildanforderung gültig ist. Report Suites verwenden „US-Dollar“ als Standardwährung.
 
