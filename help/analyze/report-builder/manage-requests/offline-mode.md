@@ -3,15 +3,14 @@ description: Im Offline-Modus werden Platzhalterdaten zurückgegeben, um das Ers
 title: Offline-Modus zum Erstellen und Bearbeiten von Anforderungen
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
-
 
 # Offline-Modus zum Erstellen und Bearbeiten von Anforderungen
 
@@ -36,4 +35,3 @@ So aktivieren Sie den Offline-Modus:
    >[!IMPORTANT]
    >
    >Stellen Sie sicher, dass Sie den Offline-Modus deaktiviert haben, bevor Sie Ihre Anforderung mit echten Daten ausführen. Hierfür gehen Sie einfach zurück zu **[!UICONTROL Optionen]** und entfernen den Haken.
-
