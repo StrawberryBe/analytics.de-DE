@@ -2,11 +2,10 @@
 description: Dateninkonsistenzen können große Probleme verursachen. Hier erfahren Sie, wie Sie statistische Anomalien mit Anomalieerkennungstechniken von Adobe identifizieren können. Fangen Sie noch heute an.
 title: In der Anomalieerkennung verwendete statistische Verfahren
 feature: KI-Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -18,7 +17,7 @@ Die Anomalieerkennung in Analysis Workspace setzt eine Reihe statistischer Verfa
 
 Je nach der im Bericht verwendeten Datumsgranularität werden 3 verschiedene statistische Verfahren eingesetzt – für stündliche, tägliche, wöchentliche/monatliche Anomalieerkennung. Die statistischen Verfahren werden nachfolgend beschrieben.
 
-## Anomalieerkennung für Granularität „Täglich“ {#section_758ACA3C0A6B4D399563ECABFB8316FA}
+## Anomalieerkennung für Granularität „Täglich“  {#section_758ACA3C0A6B4D399563ECABFB8316FA}
 
 Für Berichte mit täglicher Granularität berücksichtigt der Algorithmus verschiedene wichtige Faktoren, um Ergebnisse mit höchstmöglicher Genauigkeit bereitzustellen. Zuerst bestimmt der Algorithmus anhand der verfügbaren Daten, welches Modell anzuwenden ist. Die Auswahl erfolgt zwischen zwei Klassen – einem zeitreihenbasierten Modell oder einem Modell zur Erkennung von Ausreißern (als funktionale Filterung bezeichnet).
 
@@ -41,7 +40,7 @@ Nach Auswahl des Modells passt der Algorithmus die Ergebnisse basierend auf Feie
 * Cyber Monday (nur USA)
 * 24.–26. Dezember
 * 1. Januar
-* 31. Dezember
+* Dezember 31
 
 Diese Feiertage wurden anhand umfangreicher statistischer Analysen einer großen Anzahl von Datenpunkten ausgewählt, um die Feiertage zu ermitteln, die den größten Einfluss in den meisten Kunden-Trends gezeigt haben. Die Liste ist zwar nicht für alle Kunden oder Geschäftszyklen vollständig, wir haben jedoch festgestellt, dass eine Berücksichtigung dieser Feiertage die Zuverlässigkeit des Algorithmus insgesamt für fast alle Kundendatensätze stark verbessert hat.
 
@@ -59,13 +58,13 @@ Beachten Sie im folgenden Beispiel die deutliche Verbesserung der Performance an
 
 ![](assets/anomaly_statistics.png)
 
-## Anomalieerkennung für Granularität „Stündlich“ {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
+## Anomalieerkennung für Granularität „Stündlich“  {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
 
 Stündliche Daten basieren auf der gleichen Vorgehensweise des zeitreihenbasierten Algorithmus wie beim Algorithmus für tägliche Granularität: Allerdings setzt der Algorithmus hier primär auf zwei Trendmuster: den 24-Stunden-Zyklus sowie den Wochenende-Wochentag-Zyklus. Um diese beiden saisonalen Effekte zu erfassen, erstellt der stündliche Algorithmus zwei separate Modelle (für ein Wochenende und einen Wochentag), wobei er auf die gleiche Weise wie oben beschrieben vorgeht.
 
 Das Trainingfenster für stündliche Trends basiert auf einem 336-Stunden rückwärts gerichteten Fenster.
 
-## Anomalieerkennung für die Granularitäten „Wöchentlich“ und „Monatlich“ {#section_5D421576BFBC4B24A58DFCC0A6407545}
+## Anomalieerkennung für die Granularitäten „Wöchentlich“ und „Monatlich“  {#section_5D421576BFBC4B24A58DFCC0A6407545}
 
 Da wöchentliche und monatliche Trends nicht die gleichen wöchentlichen oder täglichen Trends wie bei täglicher oder stündlicher Granularität aufweisen, wird ein separater Algorithmus verwendet. Für wöchentliche oder monatliche Granularität wird ein aus zwei Schritten bestehender Ausreißererkennungsalgorithmus eingesetzt, der als GESD-Test (Generalized Extreme Studentized Deviate, Generalisierte Extreme Studentisierte Abweichung) bezeichnet wird. Dieser Test betrachtet die maximale Anzahl der zu erwartenden Anomalien kombiniert mit dem angepassten Box-Plot-Ansatz (ein nichtparametrisches Verfahren zur Erkennung von Ausreißern), um die maximale Anzahl von Ausreißern zu ermitteln. Die beiden Schritte sehen wie folgt aus:
 
