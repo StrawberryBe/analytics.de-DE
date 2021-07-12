@@ -3,15 +3,14 @@ description: Bevor Sie damit beginnen, einem Arbeitsblatt Elemente zuzuordnen, s
 title: Metriken und Dimensionen Zellen zuordnen
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 99%
+source-wordcount: '703'
+ht-degree: 100%
 
 ---
-
 
 # Metriken und Dimensionen Zellen zuordnen
 
