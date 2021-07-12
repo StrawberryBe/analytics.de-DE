@@ -3,12 +3,12 @@ description: Schritte zum Erstellen einer grundlegenden Report Builder-Datenanfo
 title: Datenanforderung erstellen
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ Schritte zum Erstellen einer grundlegenden Datenanforderung.
 1. Wählen Sie im Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1] eine [Report Suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Optional) Wählen Sie ein Segment, auf das Sie die Anforderung anwenden möchten. Wenn Sie eines oder mehrere Segmente ausgewählt haben, werden diese an den Anfang der Liste verschoben.
 
-   Report Builder verwendet Segmente auf dieselbe Weise wie Adobe Analytics. Weitere Informationen finden Sie im [Analytics-Segmentierungshandbuch](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Optional) Wählen Sie eine [Veröffentlichungsliste](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) für die Verteilung aus.
+   Report Builder verwendet Segmente auf dieselbe Weise wie Adobe Analytics. Weitere Informationen finden Sie im [Analytics-Segmentierungshandbuch](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de). 1. (Optional) Wählen Sie eine [Veröffentlichungsliste](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) für die Verteilung aus.
 1. Wählen Sie einen [Berichtstyp](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) aus.
 1. Definieren Sie einen [Datumsbereich](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) und eine [Granularität](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md) für den Bericht.
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
