@@ -2,12 +2,12 @@
 description: Seitenanalysen in Echtzeit (Livemodus) ermöglichen es Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
 title: Seitenanalysen in Echtzeit (Livemodus)
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -35,13 +35,13 @@ Wenn Sie überprüfen möchten, welches Element am häufigsten im Livemodus ange
 
 ## Datenlatenz als Folge der A4T-Konfiguration
 
-Nachdem die [A4T-Integration](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) in Adobe Target aktiviert wurde, kommt es in Adobe Analytics zu einer zusätzlichen Latenz von 5 bis 10 Minuten. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
+Nachdem die [A4T-Integration](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) in Adobe Target aktiviert wurde, kommt es in Adobe Analytics zu einer zusätzlichen Latenz von 5 bis 10 Minuten. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
 Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analytics wider, einschließlich Live-Stream und Echtzeit-Berichterstattung, und gilt für folgende Szenarien:
 
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
 
 Weitere Infos [hier](/help/analyze/activity-map/activitymap-standard-live.md).
