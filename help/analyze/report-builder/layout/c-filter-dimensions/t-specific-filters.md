@@ -3,15 +3,14 @@ description: Filter, die dimensionsspezifische Terme anwenden.
 title: Spezifische Filter
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 90%
+source-wordcount: '318'
+ht-degree: 91%
 
 ---
-
 
 # Spezifische Filter
 
@@ -37,6 +36,6 @@ Sie können dimensionsspezifische Filter setzen, indem Sie einen Filter erstelle
    * **Aus Liste:** Ermöglicht die Auswahl von Daten aus einer Liste, der Sie Daten hinzufügen können.
 1. Wenn Sie die Option **[!UICONTROL Aus Liste]** aktivieren, können Sie aus den verfügbaren aufgelisteten Elementen auswählen oder auf **[!UICONTROL Hinzufügen]** klicken.
 
-   Wenn Sie auf **[!UICONTROL Hinzufügen]** klicken, zeigt das Formular [!UICONTROL Aus Liste auswählen] eine Liste der verfügbaren Dimensionselemente für den Datumsbereich der aktuellen Anforderung an, beschränkt auf die ersten 10.000 Elemente. Sie können diese Elemente durchsuchen oder auf **[!UICONTROL Mehr ...]** klicken, um das [!UICONTROL Suchdialogfeld] anzuzeigen, in dem Sie detaillierter nach Dimensionen suchen können.
+   Wenn Sie auf **[!UICONTROL Hinzufügen]** klicken, zeigt das Formular [!UICONTROL Aus Liste auswählen] eine Liste der verfügbaren Dimensionselemente für den aktuellen Datumsbereich der Anfrage an, beschränkt auf die ersten 10.000 Elemente. Sie können diese Elemente durchsuchen oder auf **[!UICONTROL Mehr ...]** klicken, um das [!UICONTROL Suchdialogfeld] anzuzeigen, in dem Sie detaillierter nach Dimensionen suchen können.
 1. Klicken Sie im Dialogfeld [!UICONTROL Aus Liste auswählen] auf **[!UICONTROL OK]**.
 1. Speichern Sie im Formular [!UICONTROL Seiten auswählen], falls gewünscht, Ihren spezifischen Filter und klicken Sie dann auf **[!UICONTROL OK]**.
