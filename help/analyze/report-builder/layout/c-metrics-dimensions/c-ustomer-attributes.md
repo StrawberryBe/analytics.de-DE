@@ -2,12 +2,12 @@
 description: Kundenattribute werden in einem neuen Elementtyp namens „VisAttr“ gespeichert, der als Dimension oder Metrik konfiguriert werden kann.
 title: Kundenattribute
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 Kundenattribute werden in einem neuen Elementtyp namens „VisAttr“ gespeichert, der als Dimension oder Metrik konfiguriert werden kann.
 
-Weitere Informationen rund um das Hochladen von Kundenattributen finden Sie in der [Experience Cloud-Hilfe](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html).
+Weitere Informationen rund um das Hochladen von Kundenattributen finden Sie in der [Experience Cloud-Hilfe](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de).
 
 * Wenn VisAttr als Metrik konfiguriert ist, wird es sowohl als „Dimension“ als auch als „Metrik“ angezeigt.
 
