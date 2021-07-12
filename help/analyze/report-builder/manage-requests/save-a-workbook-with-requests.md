@@ -3,15 +3,14 @@ description: Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben
 title: Arbeitsmappe mit Anforderungen speichern
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 99%
+source-wordcount: '316'
+ht-degree: 100%
 
 ---
-
 
 # Arbeitsmappe mit Anforderungen speichern
 
@@ -27,7 +26,7 @@ Das Dialogfeld [!UICONTROL Vorlage speichern] ähnelt in einigen Punkten dem Exc
 
 Jeder Dateiname darf höchstens 255 Zeichen enthalten. Darüber hinaus darf ein Dateiname keines der folgenden Zeichen enthalten:
 
-\ ? | > &lt; : / * &#39;
+\ ? | > &lt; : / * &#39; &quot;
 
 Schließlich dürfen keine Unicode-Zeichen über den Satz der erweiterten ASCII-Zeichen hinaus verwendet werden.
 
