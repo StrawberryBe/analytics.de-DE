@@ -3,12 +3,12 @@ description: Schritte zum Ausführen der verschiedenen Berichtstypen.
 title: Verschiedene Berichtstypen ausführen
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Grundlagen zu Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1299'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Die meisten Konversions- und Traffic-Berichte verfügen über eine Trendanzeige.
 
 Der [!UICONTROL Fallout-Bericht] zeigt die Anzahl der Besucher an, die eine zuvor festgelegte Folge von Seiten besucht haben. Außerdem werden hier die Konversions- und Trichteranalyseraten jedes Schritts angezeigt.
 
-Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
+Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) in Analysis Workspace an.
 
 1. Klicken Sie in [!UICONTROL Adobe Analytics] auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Trichteranalyse]**.
 1. Klicken Sie auf der Seite [!UICONTROL Fallout-Bericht] auf **[!UICONTROL Fallout-Bericht-Report Builder starten]**.
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie im [Marketingkanal](/help/components/c-marketin
 
 ## Anomalieerkennungsbericht ausführen {#task_4808C96327354D789C075823F5C3A049}
 
-Sie können [Anomalieerkennung und Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) nur in Analysis Workspace ausführen.
+Sie können [Anomalieerkennung und Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de) nur in Analysis Workspace ausführen.
 
 ## Echtzeitbericht ausführen {#task_5D25929C918E40B18965222FA94176B0}
 
