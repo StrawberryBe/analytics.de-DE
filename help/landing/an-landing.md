@@ -2,7 +2,7 @@
 description: Erläutert die neue Strategie zur kontinuierlichen Veröffentlichung von Funktionen für Adobe Analytics.
 title: Neue Adobe Analytics-Landingpage
 hide-in-toc: true
-source-git-commit: e81ffc2ae03dd3d45a0286d37d7851a4302ad3aa
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 Die neue Landingpage für die Adobe-Analyse fasst sowohl Analysis Workspace als auch Reports &amp; Analytics in einer einzigen Benutzeroberfläche zusammen und fügt einen Zugriffspunkt unter dem Dach &quot;Workspace&quot;ein. Es enthält eine neue Startseite des Projektmanagers, ein aktualisiertes Berichtsmenü und aktualisierte Berichte sowie einen neuen Lernabschnitt, der Ihnen dabei hilft, effektiver zu beginnen.
 
-Die neue Seite verbessert die Entdeckung und leitet Benutzer von Reports &amp; Analytics zu einem verbesserten Berichtserlebnis in Workspace.
+Die neue Seite verbessert die Auffindbarkeit und leitet Benutzer von Reports &amp; Analytics zu einem verbesserten Berichtserlebnis in Workspace.
 
 >[!NOTE]
 >
