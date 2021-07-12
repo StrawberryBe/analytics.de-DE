@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: Benutzerdefinierte Datumsbereiche erstellen
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Grundlagen zu Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Erstellen Sie benutzerdefinierte Datumsbereiche in Analysis Workspace und speich
 
 Ein Datumsbereich wird auf der Bereichsebene angewendet. Klicken Sie, um einen Datumsbereich zu Ihrem Projekt hinzuzufügen, auf **Bedienfelder** > *`<select panel>`* und legen Sie einen neuen Datumsbereich fest.
 
-## Datumsbereich für „Vor zwei Monaten“ {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Datumsbereich für „Vor zwei Monaten“  {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 Der folgende benutzerdefinierte Datumsbereich zeigt den Bereich vor zwei Monaten mit einer Visualisierung der Zusammenfassungsänderung, die eine Trend-Entwicklung anzeigt.
 
