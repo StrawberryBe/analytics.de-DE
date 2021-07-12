@@ -3,15 +3,14 @@ description: Dank dieser Funktion wird die Report Builder-Verwendung in den norm
 title: Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '494'
 ht-degree: 99%
 
 ---
-
 
 # Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
 
@@ -49,7 +48,7 @@ Beispiel: Die Formel
 
 bedeutet: „Wenn die Zelle P5 Text enthält oder leer ist, aktualisieren Sie den Bereich der Zelle P9.“
 
-## Verwenden von Report Builder-Funktionen mit „Steuerelement formatieren“ {#section_26123090B5BD49748C8D8ED7A1C5ED84}
+## Verwenden von Report Builder-Funktionen mit „Steuerelement formatieren“  {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
 Ab sofort können Sie einem Steuerelement, das Sie erstellt haben, ein Makro zuweisen. Dieses Steuerelement kann eine Funktion sein, die eine Arbeitsmappenanforderung aktualisiert. Beispielsweise werden mit der Funktion AsyncRefreshActiveWorksheet alle Anforderungen in einem Arbeitsblatt aktualisiert. Manchmal möchten Sie jedoch vielleicht nur bestimmte Anforderungen und nicht alle aktualisieren.
 
@@ -59,7 +58,7 @@ Ab sofort können Sie einem Steuerelement, das Sie erstellt haben, ein Makro zuw
 
 ![](assets/assign_macro.png)
 
-## Weiterleiten von Parametern zu Report Builder-Funktionen über „Steuerelement formatieren“ {#section_ECCA1F4990D244619DFD79138064CEF0}
+## Weiterleiten von Parametern zu Report Builder-Funktionen über „Steuerelement formatieren“  {#section_ECCA1F4990D244619DFD79138064CEF0}
 
 Die beiden Funktionen, die einen Parameter annehmen, können mit „Steuerelement formatieren“ verwendet werden, jedoch nur über das Feld für Alternativtext:
 
@@ -78,4 +77,3 @@ Die beiden Funktionen, die einen Parameter annehmen, können mit „Steuerelemen
 1. Öffnen Sie unter [!UICONTROL Formeln] > [!UICONTROL Funktion einfügen] > [!UICONTROL Adobe.ReportBuilder.Bridge] die Liste der Report Builder-Parameter.
 
 1. Wählen Sie eine der beiden Funktionen aus, die auf AltTextParam enden, und klicken Sie auf **[!UICONTROL OK]**.
-
