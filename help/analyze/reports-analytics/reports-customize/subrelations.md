@@ -2,14 +2,13 @@
 description: Vollständige Subrelationen sind für alle Konversionsberichte aktiviert. So lassen sich beliebige eVar-Elemente weiter aufschlüsseln. Das Menü „Unterteilung nach“ in der Berichtstabelle wurde passend zum standardmäßigen Menü für die Analytics-Berichterstellung gestaltet und sorgt so für ein einheitliches Aussehen.
 title: Subrelationen
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Grundlagen zu Reports & Analysen
-role: Business Practitioner, Administrator
+feature: Grundlagen zu Reports & Analytics
+role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
