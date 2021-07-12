@@ -3,15 +3,14 @@ description: Schritte für die Deinstallation von Adobe Report Builder.
 title: Report Builder deinstallieren
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 89%
+source-wordcount: '122'
+ht-degree: 91%
 
 ---
-
 
 # Report Builder deinstallieren
 
@@ -25,5 +24,5 @@ Schritte für die Deinstallation von Adobe Report Builder.
 
    Falls Sie alle Dateien und Ordner vollständig aus Ihrem Programmordnerverzeichnis entfernen möchten, führen Sie diese Schritte nach der Deinstallation von Report Builder aus:
 1. Klicken Sie auf **[!UICONTROL Start]** > **[!UICONTROL Computer]**.
-1. Navigieren Sie zu [!DNL C:\Program Files\Adobe\]oder [!DNL C:\Program Files (x86)\Adobe.], wenn Sie eine 64-Bit-Version von Windows verwenden
+1. Navigieren Sie zu  [!DNL C:\Program Files\Adobe\]oder, falls Sie eine 64-Bit-Version von Windows verwenden, zu [!DNL C:\Program Files (x86)\Adobe.] .
 1. Löschen Sie den Report Builder-Ordner in diesem Verzeichnis, falls er noch vorhanden ist.
