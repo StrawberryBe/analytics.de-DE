@@ -2,15 +2,14 @@
 title: Best Practices und Fehlerbehebung für das Reporting
 description: Best Practices und Tipps zur Fehlerbehebung beim Generieren von Berichten.
 keywords: Best Practices, Fehler, Timeout, Fehlerbehebung, langsam
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '573'
 ht-degree: 97%
 
 ---
-
 
 # Best Practices und Fehlerbehebung für das Reporting
 
@@ -29,7 +28,7 @@ Die folgenden Faktoren tragen zu längeren Berichtgenerierungszeiten bei. Eine E
 
 * **Berichtszeitraum**: Der Hauptfaktor, der sich auf die Berichtgenerierungszeit auswirkt, ist die Anzahl der angeforderten Monate. Wenn Sie die Anzahl der Monate von drei auf eins verringern, wird die Generierungszeit erheblich verkürzt. Wenn Sie den Zeitraum aber von einem Monat auf eine Woche reduzieren, hat dies keine großen Auswirkungen auf die Berichtgenerierungszeit.
 * **Anzahl der Metriken**: Je höher die Anzahl der Metriken, desto länger die Berichtausführungszeit. Durch Entfernen von Metriken kann die Berichtgenerierungszeit häufig verbessert werden.
-* **Anzahl der Aufschlüsselungen**: Innerhalb eines Berichts stellt jede Aufschlüsselung eine separate Anforderung dar. Während individuelle Anforderungen schnell abgeschlossen werden können, kann die Ausführung von Tausenden Aufschlüsselungen in einem einzelnen Bericht die Berichtgenerierungszeit erheblich verlangsamen und die Report Suite-Warteschlange beeinträchtigen.
+* **Anzahl der Aufschlüsselungen**: Jede Aufschlüsselung innerhalb eines Berichts stellt eine separate Anforderung dar. Während individuelle Anforderungen schnell abgeschlossen werden können, kann die Ausführung von Tausenden Aufschlüsselungen in einem einzelnen Bericht die Berichtgenerierungszeit erheblich verlangsamen und die Report Suite-Warteschlange beeinträchtigen.
 * **Segmentkomplexität**: Segmente für zahlreiche Dimensionen oder mit vielen (mehr als 24) Regeln erhöhen die Verarbeitungsauswirkungen und verlängern die Berichtgenerierungszeit.
 * **Anzahl eindeutiger Werte**: Berichte mit Hunderttausenden eindeutigen Werten werden langsamer generiert als Berichte mit weniger eindeutigen Werten, selbst wenn das Segment oder der Filter die Anzahl der Werte reduziert, die schließlich in einem Bericht angezeigt werden. Beispiel: Ein Bericht, der Suchbegriffe anzeigt, wird im Allgemeinen langsamer generiert als andere Berichte, selbst wenn ein Filter angewendet wurde, um nur Suchbegriffe anzuzeigen, die einen bestimmen Wert enthalten.
 
