@@ -3,10 +3,9 @@ description: Häufig gestellte Fragen zum Linktracking in Activity Map.
 title: Linktracking – Häufig gestellte Fragen
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-translation-type: tm+mt
-source-git-commit: 7ba73d75dde80571125c83efb3265441b8d3278a
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 53%
@@ -28,7 +27,7 @@ Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit de
 * Für Kreditinstitute wird möglicherweise die Kontonummer als ein Link angezeigt. Wenn darauf geklickt wird, wird der Linktext erfasst.
 * Auf Websites für das Gesundheitswesen werden PII-Daten ebenfalls als Links angezeigt. Durch Klicken auf diese Links wird der Linktext erfasst. Dadurch werden die PII-Daten gesammelt.
 
-## Wann findet die Linktracking statt?
+## Wann erfolgt das Linktracking?
 
 Sobald ein Benutzer auf eine Seite klickt, identifiziert Activity Map den Link und die Region.
 
@@ -38,31 +37,31 @@ Wenn auf ein Element geklickt wird, durchläuft es mehrere Prüfungen, um zu bes
 
 * Ist dies ein `A`- oder `AREA`-Tag mit einer `href`-Eigenschaft?
 * Gibt es ein `onclick`-Attribut, das eine `s_objectID`-Variable festlegt?
-* Ist dies ein `INPUT`-Tag oder eine `SUBMIT`-Schaltfläche mit einem Wert oder einem untergeordneten Text?
-* Ist dies ein `INPUT`-Tag mit dem Typ `IMAGE` und einer `src`-Eigenschaft?
+* Ist dies ein `INPUT`-Tag oder eine `SUBMIT`-Schaltfläche mit einem Wert oder untergeordneten Text?
+* Ist dies ein `INPUT` -Tag mit dem Typ `IMAGE` und einer `src` -Eigenschaft?
 * Ist dies ein `BUTTON`?
 
 Wenn die Antwort auf eine der vorangehenden Fragen Ja ist, wird dieses Element als Link verwendet und verfolgt.
 
 >[!IMPORTANT]
 >
->Schaltflächen-Tags mit dem Attribut type=&quot;button&quot; werden von AppMeasurement nicht als Links betrachtet. Erwägen Sie, type=&quot;button&quot; für die Schaltflächen-Tags zu entfernen und stattdessen role=&quot;button&quot; oder submit=&quot;button&quot; hinzuzufügen.
+>Schaltflächen-Tags mit dem Attribut type=&quot;button&quot; werden von AppMeasurement nicht als Links betrachtet. Ziehen Sie in Erwägung, type=&quot;button&quot; auf den Schaltflächen-Tags zu entfernen und stattdessen role=&quot;button&quot; oder submit=&quot;button&quot; hinzuzufügen.
 
 >[!IMPORTANT]
 >
->Ein Verankerungs-Tag mit einem &quot;href&quot;, das Beginn mit &quot;#&quot;verwenden, wird von AppMeasurement als interner Speicherort für Zielgruppen und nicht als Link betrachtet (da Sie die Seite nicht verlassen). Standardmäßig verfolgt Activity Map diese internen Zielorte nicht. Es werden nur Links verfolgt, die den Benutzer zu einer neuen Seite führen.
+>Ein Verankerungs-Tag mit einem &quot;href&quot;, das mit &quot;#&quot;beginnt, wird von AppMeasurement als interner Zielort und nicht als Link betrachtet (da Sie die Seite nicht verlassen). Standardmäßig verfolgt Activity Map diese internen Zielorte nicht. Es werden nur Links verfolgt, die den Benutzer zu einer neuen Seite führen.
 
 ## Wie verfolgt Activity Map andere visuelle HTML-Elemente?
 
-a. Über die Funktion `s.tl()`.
+a. Über die Funktion `s.tl()` .
 
-Wenn der Klick über einen `s.tl()`-Aufruf erfolgte, erhält Activity Map auch dieses Klick-Ereignis und stellt fest, ob eine `linkName`-Zeichenfolgenvariable gefunden wurde. Während der Ausführung von `s.tl()` wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde, das den `s.tl()`-Aufruf ausgelöst hat, wird zur Bestimmung der Region verwendet. Beispiel: 
+Wenn der Klick über einen `s.tl()` -Aufruf erfolgte, erhält Activity Map auch dieses Klick-Ereignis und ermittelt, ob eine `linkName` -Zeichenfolgenvariable gefunden wurde. Während der Ausführung von `s.tl()` wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde und aus dem der `s.tl()`-Aufruf stammt, wird zur Bestimmung der Region verwendet. Beispiel:
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b. Über die Variable `s_objectID`. Beispiel: 
+b. Über die Variable `s_objectID` . Beispiel:
 
     &quot;
     
@@ -75,9 +74,9 @@ b. Über die Variable `s_objectID`. Beispiel:
 
 >[!IMPORTANT]
 >
->Bei Verwendung von `s_objectID` in Activity Map ist ein nachfolgender Semikolon (;) erforderlich.
+>Bei Verwendung von `s_objectID` im Activity Map muss ein Semikolon (;) folgen.
 
-## Können Sie mir einige Beispiele für Links nennen, die verfolgt werden?
+## Können Sie einige Beispiele für Links nennen, die verfolgt werden?
 
 ### Beispiel 1
 
@@ -115,7 +114,7 @@ b. Über die Variable `s_objectID`. Beispiel:
     </div>
 ```
 
-## Können Sie mir einige Beispiele von Links nennen, die NICHT verfolgt werden?
+## Können Sie einige Beispiele für Links nennen, die NICHT verfolgt werden?
 
 1. Grund: Anker-Tag hat keine gültige `href`:
    `<a name="innerAnchor">Section header</a>`
@@ -138,6 +137,6 @@ b. Über die Variable `s_objectID`. Beispiel:
    
    ```  
    
-1. Grund: Bei der Eigenschaft &quot;src&quot;fehlt ein Formulareingabeelement:
+1. Grund: Für die Eigenschaft &quot;src&quot;fehlt ein Formulareinglement:
 
    `<input type="image"/>`
