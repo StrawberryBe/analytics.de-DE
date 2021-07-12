@@ -2,9 +2,9 @@
 description: Häufig gestellte Fragen zu Workspace
 title: Häufig gestellte Fragen und Fehlerbehebung in Workspace
 feature: Grundlagen zu Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
