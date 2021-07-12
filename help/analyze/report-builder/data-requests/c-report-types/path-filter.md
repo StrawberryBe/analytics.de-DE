@@ -3,15 +3,14 @@ description: Beschreibt die Schritte, die beim Anwenden von Filtern bei Pfadsetz
 title: Pfadbericht mit dem Anforderungs-Assistenten filtern
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 99%
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
-
 
 # Pfadbericht mit dem Anforderungs-Assistenten filtern
 
