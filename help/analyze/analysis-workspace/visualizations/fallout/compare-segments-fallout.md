@@ -4,11 +4,10 @@ keywords: Fallout und Segmentierung;Segmente in Fallout-Analyse;Segmente in Fall
 title: Segmente in der Fallout-Analyse anwenden
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 feature: Visualisierungen
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
