@@ -3,15 +3,14 @@ description: Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie 
 title: Anzeigeüberschriften formatieren
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 99%
+source-wordcount: '410'
+ht-degree: 100%
 
 ---
-
 
 # Anzeigeüberschriften formatieren
 
