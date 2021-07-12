@@ -3,15 +3,14 @@ description: Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben
 title: Bedingte Formatierung spezifizieren
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 98%
+source-wordcount: '186'
+ht-degree: 100%
 
 ---
-
 
 # Bedingte Formatierung spezifizieren
 
@@ -26,4 +25,3 @@ Aus Sicherheitsgründen sind Makros, die Sie für eine Arbeitsmappe mit VBA (Vis
 >[!NOTE]
 >
 >Die bedingte Formatierung ist eine Excel-eigene Funktion. Informationen über die Erstellung von Formatierungsregeln finden Sie in der Excel-Dokumentation.
-
