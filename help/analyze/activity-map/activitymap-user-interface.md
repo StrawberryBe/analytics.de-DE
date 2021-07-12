@@ -3,15 +3,14 @@ description: 'Die Activity Map-Benutzeroberfläche besteht aus zwei Teilen '
 title: Activity Map-Benutzeroberfläche
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 98%
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
-
 
 # Activity Map-Benutzeroberfläche
 
@@ -35,4 +34,3 @@ Am unteren Rand der Seite können Sie den Bericht [Links auf Seite](/help/analyz
 Der Bericht „Links auf Seite“ bietet Ihnen eine Tabellenansicht der Links auf der aktuellen Seite, einschließlich zusätzlicher Klickinformationen. Der Bericht „Seitendetails“ stellt Analysedaten zu den Seiten dar, die vor und nach dem Besuch der aktuell angezeigten Seite aufgerufen wurden.
 
 ![](assets/bottom_panel.png)
-
