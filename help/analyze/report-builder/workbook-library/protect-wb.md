@@ -3,15 +3,14 @@ description: Sie können alle Anforderungen in einer Arbeitsmappe davor schütze
 title: Arbeitsmappen sperren/entsperren
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 99%
+source-wordcount: '470'
+ht-degree: 100%
 
 ---
-
 
 # Arbeitsmappen sperren/entsperren
 
@@ -70,4 +69,3 @@ Nehmen wir an, dass Arbeitsmappe A über eine Anforderung verfügt, die gesperr
 1. Der Benutzer meldet sich bei Report Builder an und öffnet Arbeitsmappe A.
 1. Der Benutzer kann die Anforderung nicht hinzufügen/bearbeiten.
 1. Der Benutzer kann die Arbeitsmappe nicht entsperren.
-
