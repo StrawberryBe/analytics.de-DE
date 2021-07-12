@@ -3,11 +3,10 @@ description: Verwenden Sie Report Builder mit Microsoft Power BI.
 title: In Power BI veröffentlichen – Übersicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -54,7 +53,7 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
    ![](assets/workbooks-power-bi.png)
 
-1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen. ![](assets/view-data-pbi.png)
+1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen.   ![](assets/view-data-pbi.png)
 
 1. Sie können dann einen Bereich dieser Arbeitsmappe anheften, um sie in ein beliebiges Power BI-Dashboard einzuschließen.
 
