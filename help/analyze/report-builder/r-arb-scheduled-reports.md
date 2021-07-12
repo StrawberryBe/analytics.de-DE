@@ -3,15 +3,14 @@ description: Feldbeschreibungen für den Manager für geplante Aufgaben.
 title: Manager für geplante Aufgaben
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '397'
 ht-degree: 97%
 
 ---
-
 
 # Manager für geplante Aufgaben
 
@@ -36,4 +35,3 @@ Im Manager für geplante Aufgaben können Sie eine Liste mit den vorhandenen ter
 | Status | Der Status gibt an, ob der Bericht gesendet oder nicht gesendet wurde. |
 | E-Mail/FTP | Die E-Mail- oder FTP-Adresse für den Empfänger des Berichts. |
 | Dateiformat | Das Bereitstellungsformat des Berichts, z. B. Excel, PDF, HTML usw. |
-
