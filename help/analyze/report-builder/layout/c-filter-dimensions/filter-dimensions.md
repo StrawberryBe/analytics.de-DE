@@ -3,15 +3,14 @@ description: Sie können Dimensionen filtern, die Sie dem Raster „Zeilenbezeic
 title: Übersicht über Filterdimensionen
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 98%
 
 ---
-
 
 # Übersicht über Filterdimensionen
 
@@ -58,7 +57,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
   <tr> 
    <td colname="col1"> <p>Enthält keine Begriffe </p> </td> 
    <td colname="col02"> <p>Gibt alles zurück, sofern es keinen von Ihnen eingegebenen Wert enthält. </p> </td> 
-   <td colname="col2"> <p>a b c </p> </td> 
+   <td colname="col2"> <p>b c </p> </td> 
    <td colname="col3"> <p>Stimmt überein mit <span class="term"> d e f</span>, aber nicht mit<span class="term"> c d e f</span>. </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +88,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
    <td colname="col1"> <p>Endet mit </p> </td> 
    <td colname="col02"> <p>Gibt Ergebnisse zurück, die mit einem bestimmten Wert enden. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Sucht nach <span class="term"> wxyz</span> aber nicht <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Stimmt mit <span class="term"> wxyz</span> überein, jedoch nicht mit <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Erweitert (Sonderzeichen) </p> </td> 
@@ -118,7 +117,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " " </td> 
+   <td colname="col1"> " " " </td> 
    <td colname="col2"> Gleich </td> 
    <td colname="col3"> <p>Nicht mit einem Escapezeichen versehen, sofern es nicht mit einem anderen Anführungszeichen verwendet wird. Beispiel: <span class="term">17"-Display</span> ist keine Wortgruppe. </p> </td> 
   </tr> 
