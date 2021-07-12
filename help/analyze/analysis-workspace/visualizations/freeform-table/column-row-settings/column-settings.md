@@ -3,11 +3,10 @@ description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatieru
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freiformtabellen
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
@@ -68,5 +67,5 @@ Analysis Workspace unterstützt die [Attribution](/help/analyze/analysis-workspa
 
 >[!MORELIKETHIS]
 >
->* [Data Sources verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
+>* [Datenquellen verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
