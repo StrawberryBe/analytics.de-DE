@@ -3,15 +3,14 @@ description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte wer
 title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 99%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
-
 
 # Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 
@@ -40,4 +39,3 @@ Mithilfe des importierten Bookmarklet werden die Report Suite, das ausgewählte 
 >[!IMPORTANT]
 >
 >Für den Datumsbereich wird derselbe Datumsbereich festgelegt, jedoch als statischer Datumsbereich – auch wenn es sich bei diesem Datumsbereich im Lesezeichen zu Reports &amp; Analytics um einen rollierenden Datumsbereich handelt.
-
