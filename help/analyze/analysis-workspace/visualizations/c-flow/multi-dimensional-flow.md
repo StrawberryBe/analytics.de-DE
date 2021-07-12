@@ -3,11 +3,10 @@ description: Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade
 title: Interdimensionale Flüsse
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualisierungen
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
