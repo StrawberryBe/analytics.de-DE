@@ -3,15 +3,14 @@ description: Neben den in Excel über Format > Zellen formatieren (Strg+1) verf�
 title: Datum formatieren
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 97%
+source-wordcount: '279'
+ht-degree: 98%
 
 ---
-
 
 # Datum formatieren
 
@@ -23,7 +22,7 @@ Klicken Sie im Menü **[!UICONTROL Format]** auf **[!UICONTROL Benutzerdefiniert
 
 In der folgenden Tabelle wird beschrieben, wie Datumsabkürzungen im Feld [!UICONTROL Benutzerdefiniertes Format] verwendet werden können:
 
-| Abkürzung | Bedeutung | Beispiel   mit Mittwoch, 14. März 2012 |
+| Abkürzung | Bedeutung | Beispiel   Verwendung von Mittwoch, 14. März 2012 |
 |--- |--- |--- |
 | MM/TT/JJJ | Volles numerisches Datum | 03/14/2012 |
 | M | Monatsnummer | 3 |
