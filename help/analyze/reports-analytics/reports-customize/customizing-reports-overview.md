@@ -3,12 +3,12 @@ description: Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benu
 title: Übersicht über das Anpassen von Berichten
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Grundlagen zu Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Datumsvergleiche aus Trendberichten sind nicht möglich.
 
 >[!NOTE]
 >
->Wenn Sie einen Datumsvergleich bei Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mit zwei separaten Anforderungen in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) übertragen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
+>Wenn Sie einen Datumsvergleich bei Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mit zwei separaten Anforderungen in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=de) übertragen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
 
 So führen Sie Datumsvergleiche zwischen Rangberichten in Reports &amp; Analytics aus:
 
@@ -223,4 +223,4 @@ Die meisten Berichte in Reports &amp; Analytics beinhalten jetzt die Schaltfläc
 
 Aktuell ist die Schaltfläche nur verfügbar, wenn Ihrem Benutzernamen vollständige Berechtigungen in Analysis Workspace zugewiesen sind.
 
-Weitere Informationen zu den Möglichkeiten, Ihren Bericht anzupassen, finden Sie im Handbuch zu [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
+Weitere Informationen zu den Möglichkeiten, Ihren Bericht anzupassen, finden Sie im Handbuch zu [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de).
