@@ -3,15 +3,14 @@ description: Das benutzerdefinierte Layout gleicht im Wesentlichen dem Pivot-Lay
 title: Benutzerdefiniertes Layout konfigurieren
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 97%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
-
 
 # Benutzerdefiniertes Layout konfigurieren
 
@@ -19,5 +18,5 @@ Das benutzerdefinierte Layout gleicht im Wesentlichen dem Pivot-Layout, aber Sie
 
 Die folgenden Themen beziehen sich ausschließlich auf das [!UICONTROL benutzerdefinierte Layout]:
 
-* [Metriken und Dimensionen zu Zellen zuordnen](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+* [Metriken und Dimensionen Zellen zuordnen](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
 * [Microchart erstellen](/help/analyze/report-builder/layout/t-create-a-microchart.md)
