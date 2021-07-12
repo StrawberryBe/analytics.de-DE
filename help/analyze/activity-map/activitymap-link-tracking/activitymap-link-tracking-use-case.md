@@ -3,12 +3,12 @@ description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mith
 title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -75,7 +75,7 @@ Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Link
 
 ## Link-ID mit s_objectID anpassen  {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Durch Erstellung einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder eine Link-Position auf einer Seite können Sie das Activity Map-Tracking verbessern oder Activity Map verwenden, um Berichte zu einem Linktyp oder einer Linkposition anstatt zur Link-URL zu erstellen. Klicken Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html), um weitere Informationen zur Variablen zu erhalten.`s_objectID`
+Durch Erstellung einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder eine Link-Position auf einer Seite können Sie das Activity Map-Tracking verbessern oder Activity Map verwenden, um Berichte zu einem Linktyp oder einer Linkposition anstatt zur Link-URL zu erstellen. Klicken Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=de), um weitere Informationen zur Variablen zu erhalten.`s_objectID`
 
 >[!IMPORTANT]
 >
