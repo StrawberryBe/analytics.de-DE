@@ -2,14 +2,13 @@
 description: Verwenden Sie Aufschlüsselungen, wenn Sie weitere Informationen darüber erhalten möchten, wie ein Berichtselement oder -segment mit anderen Berichten zusammenhängt. Dies wird oftmals als „Aufschlüsselung“ eines Berichts durch einen anderen Bericht bezeichnet.
 title: Aufschlüsselung
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Grundlagen zu Reports & Analysen
-role: Business Practitioner, Administrator
+feature: Grundlagen zu Reports & Analytics
+role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
