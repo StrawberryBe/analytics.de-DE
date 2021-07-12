@@ -1,17 +1,16 @@
 ---
-description: 'Power BI: Best Practices.'
+description: Best Practices für Power BI.
 title: Best Practices
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 97%
 
 ---
-
 
 # Best Practices
 
@@ -24,4 +23,3 @@ Wenn Sie eine Anforderung in Ihrer Arbeitsmappe löschen, stellen Sie sicher, da
 * Sofern möglich, löschen Sie keine Anforderungen, die Sie in Report Builder erstellt haben.
 * Wenn Sie Anforderungen in Report Builder löschen müssen, löschen Sie auch die entsprechenden Visualisierungen in Power BI.
 * Wenn Sie nicht sicher sind, löschen Sie die Anforderungen, die Sie nicht mehr benötigen, führen Sie eine erneute Veröffentlichung durch und wechseln Sie zu Power BI, um festzustellen, welche Visualisierungen beschädigt wurden.
-
