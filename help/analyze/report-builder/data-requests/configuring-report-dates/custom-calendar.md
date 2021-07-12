@@ -3,15 +3,14 @@ description: ReportBuilder verwendet den benutzerdefinierten Kalender von Analyt
 title: Benutzerdefinierter Kalender
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 91%
 
 ---
-
 
 # Benutzerdefinierter Kalender
 
@@ -46,8 +45,7 @@ Die einzelnen Kalenderformate werden im Folgenden beschrieben.
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: Januar hat vier Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Januar hat vier Wochen, Februar hat vier Wochen, März hat fünf Wochen usw. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: Januar hat fünf Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
-    </ul> <p>Hinweis:  Diese Kalenderoption wird für alle Adobe Analytics-Tools (Analysis Workspace, Reports &amp; Analysen, Report Builder und Activity Map) unterstützt. Die Ausnahme ist Data Warehouse, die keine benutzerdefinierten Kalender unterstützt. </p> </td> 
+    </ul> <p>Hinweis:  Diese Kalenderoption wird in allen Adobe Analytics-Tools (Analysis Workspace, Reports &amp; Analytics, Report Builder und Activity Map) unterstützt. Die Ausnahme ist Data Warehouse, die benutzerdefinierte Kalender nicht unterstützt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
