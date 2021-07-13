@@ -5,9 +5,9 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualisierungen
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,6 @@ Klicken Sie oben rechts auf den **Visualisierungseinstellungen**, um die Einstel
 | Legende sichtbar | Zeigt Informationen zur angezeigten Metrik an. |
 | Wert abkürzen | Wählen Sie diese Option, um Werte zu kürzen und bis zu 3 Dezimalstellen anzuzeigen. |
 | Wert zusammenfassen nach | Wählen Sie diese Option, um das Maximum, das Minimum, den Mittelwert, den Median oder die Summe für eine Auswahl von Daten anzuzeigen. |
-
-
-Klicken Sie oben rechts auf den **Visualisierungseinstellungen**, um die Einstellungen für die Zusammenfassungsnummer zu konfigurieren:
-
-| Einstellung | Definition |
-|--- |--- |
-| Prozentsatz | Zeigt Prozentsätze und keine Rohdaten an. |
-| Legende sichtbar | Zeigt Informationen zur angezeigten Metrik an. |
-| Wert abkürzen | Wählen Sie diese Option, um Werte zu kürzen und bis zu 3 Dezimalstellen anzuzeigen. |
-| Wert zusammenfassen nach | Wählen Sie diese Option, um das Maximum, das Minimum, den Mittelwert, den Median oder die Summe für eine Auswahl von Daten anzuzeigen. |
-
 
 ## Visualisierung für Zusammenfassungsänderung: {#summary-change}
 
