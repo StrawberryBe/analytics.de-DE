@@ -5,15 +5,14 @@ title: Bereitstellen der Integration
 feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
-# Bereitstellen der Integration {#deploying-the-integration}
+# Bereitstellen der Integration{#deploying-the-integration}
 
 Die Bereitstellung dieser Integration ist ein einfacher Prozess, der die folgenden Aktionen erfordert.
 
@@ -33,11 +32,12 @@ Zum Aktivieren der Integration müssen Sie den Qualtrics-Integrationsassistenten
    | Adobe SiteCatalyst-Token | [Generieren Ihres Qualtrics-Adobe Analytics-Tokens](../qualtrics-overview/qualtrics-token.md) |
 
 1. **Assistent: Schritt 2: Variablenzuordnungen**
-   | Qualtrics Response List | Wählen Sie eine verfügbare Listenvariable aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  |
+
+   | Qualtrics Response List | Wählen Sie eine verfügbare Listenvariable aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  |
    |---|---|
-   | Qualtrics Response ID | Wählen Sie eine verfügbare eVar oder Eigenschaft aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)   |
-   | Tracking-Server | Geben Sie die Einstellung des Tracking-Servers (Domäne) an, mit der Sie Adobe Analytics-Daten verfolgen. Verwenden Sie die Variable `trackingServerSecure` Tracking-Server, wenn er sich von Ihrer standardmäßigen Tracking-Server-Einstellung unterscheidet.   |
-   | Qualtrics Survey Submissions | Wählen Sie ein verfügbares Ereignis aus Ihrer Report Suite aus (unter Umständen müssen Sie ein neues Ereignis im Report Suite Manager aktivieren). |
+   | Qualtrics Response ID | Wählen Sie eine verfügbare eVar oder Eigenschaft aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  |
+   | Tracking-Server | Geben Sie die Einstellung des Tracking-Servers (Domäne) an, mit der Sie Adobe Analytics-Daten verfolgen. Verwenden Sie den Tracking-Server `trackingServerSecure`, wenn er sich von der Einstellung des Standard-Tracking-Servers unterscheidet.  |
+   | Qualtrics-Umfrageübermittlungen | Wählen Sie ein verfügbares Ereignis aus Ihrer Report Suite aus (unter Umständen müssen Sie im Report Suite Manager ein neues Ereignis aktivieren). |
 
 1. **Assistent Schritt 3**: Nicht erforderlich, nur informativ.
 
@@ -67,7 +67,7 @@ Nach Abschluss des Integrationsassistenten müssen Sie die Integration für jede
 
    ![](assets/integration_config.png)
 
-## Überprüfen der Integration {#verifying-the-integration}
+## Überprüfen der Integration{#verifying-the-integration}
 
 Nach Abschluss sämtlicher Implementierungsschritte können Sie überprüfen, ob die Integration die Daten erfolgreich übertragen hat.
 
