@@ -24,7 +24,6 @@ Laden Sie freigegebene Arbeitsmappen herunter und bearbeiten Sie sie.
 >
 >* **Bearbeiten:** Hierdurch wird eine Arbeitsmappe heruntergeladen und zur Bearbeitung geöffnet. Wenn Sie eine Arbeitsmappe, die Sie zum Bearbeiten heruntergeladen haben, wieder hochladen möchten, muss dies manuell erfolgen.
 >* **Löschen:** Hierdurch wird eine hochgeladene Arbeitsmappe gelöscht. Um eine Arbeitsmappe löschen zu können, müssen Sie deren Besitzer sein.
-
 >
 
 
