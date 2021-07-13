@@ -2,10 +2,10 @@
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Apteligent | Veraltet |
 | BlueHornet eMarketing Suite | Veraltet |
 | Verzweigung | Migration zu Exchange |
-| BrightEdge 2.0 | Veraltet |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Veraltet |
 | Bronto Software | Veraltet |
 | CheetahMail von Experian | Migration zu Exchange |
 | ClickTale | Veraltet |
 | Clicktale CA | Veraltet |
-| Conductor 2.0 | Veraltet |
+| Conductor 2.0, Conductor, Conductor Organic Metrics | Veraltet |
 | ContactLab 2.0 (Contact Send Connector) | Veraltet |
 | Coradiant TrueSight | Veraltet |
 | D&amp;B Visitor Intelligence | Veraltet |
@@ -62,7 +62,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | DialogTech | Verfügbar in Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Veraltet |
 | DREAM | Veraltet |
-| DREAMmail 2.0 | Veraltet |
+| DREAMmail 1.0, DREAMmail 2.0 | Veraltet |
 | Dynamic Signal (Nital Vora) | Migration zu Exchange |
 | eDialog Precision Central | Veraltet |
 | eC-messenger | Veraltet |
@@ -70,10 +70,11 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | emarsys xpress | Veraltet |
 | Epsilon Harmony | Migration zu Exchange |
 | EveryoneSocial für Adobe Analytics | Veraltet |
+| ExactTarget, ExactTarget 2.0 | Veraltet |
 | Fiksu | Veraltet |
-| ForeSee (v2.0) | Veraltet |
-| Foresee-Feedback | Veraltet |
+| ForeSee (v2.0), Foresee Feedback, Foresee Results | Veraltet |
 | Gigya | Veraltet |
+| Hootsuite | Veraltet |
 | Hybris | Veraltet |
 | Kampyle (jetzt Medallia) Feedback Analytics (1.1) | Veraltet |
 | Listrak | Migration zu Exchange |
@@ -83,11 +84,13 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Offizielle Oracle Eloqua-Integration | Migration zu Exchange |
 | Optivo Broadmail (Episerver) | Veraltet |
 | Qualtrics v2 | Migration zu Exchange |
-| Responsys 2.0 | Veraltet |
+| Responsys 1.0, Responsys 2.0 | Veraltet |
+| Salesforce.com | Veraltet |
 | Selligent | Veraltet |
-| seoClarity 2.0 | Veraltet |
+| seoClarity, seoClarity 2.0 | Veraltet |
 | Silverpop Engage (v2.0) | Veraltet |
 | Sizmek | Veraltet |
+| SmartFOCUS Digital | Veraltet |
 | SpotEffects | Veraltet |
 | StrongMail Systems, Inc. | Veraltet |
 | Synergy!360 | Veraltet |
@@ -98,6 +101,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | WhatCounts Email | Veraltet |
 | wywy | Veraltet |
 | Yesmail Enterprise | Veraltet |
+| Zeta Interactive | Veraltet |
 
 ## Ausnahme: Adobe Campaign Classic
 
