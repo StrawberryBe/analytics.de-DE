@@ -2,17 +2,16 @@
 description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 title: Konversionsklassifizierungen
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '551'
-ht-degree: 100%
+source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 92%
 
 ---
 
 # Konversionsklassifizierungen
 
-Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie *Popmusikbegriffe* kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
+Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle [!UICONTROL Paid Search]-Kampagnen in eine Kategorie wie *Popmusikbegriffe* klassifizieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (Clickthroughs) und Konversion in Erfolgsereignisse berichten. Sie können einer Variablen bis zu 255 Classifications hinzufügen.
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
