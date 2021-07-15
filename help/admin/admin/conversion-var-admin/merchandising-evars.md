@@ -1,9 +1,9 @@
 ---
 title: Merchandising-eVars und Methoden zur Produktsuche
 description: Ein tiefer Einblick in die Konzepte hinter Merchandising-eVars und deren Verarbeitung und Zuordnung von Daten.
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: e7bfb56b63a9134728360c91f3c835da1952fa5a
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,20 @@ Wir können eine zusätzliche eVar verwenden, um die Leistung aller Methoden zur
 * eVar1: Methoden zur Produktsuche
 
 Sie sollten keine dieser Variablen so konfigurieren, dass sie Standard-eVars sind, sondern sie stattdessen so konfigurieren, dass sie Merchandising-eVars sind.  Durch die Verwendung von Merchandising-eVars können Sie den von eVars erfassten Werten eine beliebige erfolgreiche Aktivität auf *pro Produkt*-Ebene statt auf *pro Besuch/pro Bestellung*-Ebene zuweisen. Ich werde den Unterschied zwischen der Verteilung pro Produkt und pro Bestellung im Rest dieses Dokuments klären.
+
+Um zu demonstrieren, wie diese Variablen festgelegt werden, beginne ich mit einem Beispiel, in dem ein Besucher entscheidet, dass er die interne Keyword-Suche &quot;Sandals&quot;verwendet, um ein Produkt auf der Site zu finden.  Auf der Suchergebnisseite für Suchbegriffe müssen Sie Daten in mindestens zwei eVars erfassen:
+
+* `eVar2` entspricht dem Suchbegriff, der in der Suche verwendet wurde (&quot;Sandals&quot;)
+* `eVar1` entspricht der verwendeten Suchmethode für das Produkt (&quot;interne Keyword-Suche&quot;).
+
+Wenn Sie diese beiden Variablen auf diese spezifischen Werte setzen, wissen Sie, dass der Besucher den internen Keyword-Suchbegriff &quot;Sandalen&quot;verwendet, um ein Produkt zu finden.
+Gleichzeitig wissen Sie, dass der Besucher nicht die anderen Methoden zur Produktsuche verwendet, um Produkte zu finden (z. B. durchsucht er nicht die Produktkategorien, während er eine Suchbegriffsuche durchführt). Um sicherzustellen, dass eine ordnungsgemäße Zuordnung pro Produkt erfolgt, sollten diese nicht verwendeten Methoden nicht dafür angerechnet werden, ein Produkt zu finden, das über eine interne Keyword-Suche gefunden wurde.  Daher müssen Sie Logik in den Code einfügen (z. B. AppMeasurement, AEP Web SDK usw.) , wodurch die mit diesen anderen Suchmethoden verknüpften eVars automatisch auf einen Wert ohne Suchmethode gesetzt werden.
+
+Wenn ein Benutzer beispielsweise mithilfe des Suchbegriffs &quot;sandals&quot;nach Produkten sucht, sollte die Logik des Analytics-Codes die Variablen auf der Seite mit den internen Suchergebnissen für Suchbegriffe auf die folgenden setzen:
+
+* eVar2=&quot;sandals&quot;: das Keyword &quot;Sandals&quot;in der internen Keyword-Suche verwendet wurde
+* eVar1=&quot;Interne Keyword-Suche&quot;: die Suchmethode &quot;Suche nach internen Keywords&quot;verwendet wurde
+* eVar3=&quot;Nicht-interne Kampagne&quot;: Es wurde keine interne Kampagne für den Zugriff auf die Suchergebnisseite verwendet.
+* eVar4=&quot;non-browse&quot;: Auf der Suchergebnisseite wurde keine Kategorie &quot;Durchsuchen&quot;aufgerufen.
+* eVar5=&quot;non-cross-sell&quot;: Auf der Suchergebnisseite wurde kein Link zum Querverkauf angeklickt
 
