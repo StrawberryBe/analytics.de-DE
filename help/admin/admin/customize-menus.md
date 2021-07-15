@@ -4,8 +4,7 @@ title: Menüanpassung
 feature: Admin Tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 92%
@@ -20,41 +19,15 @@ Die Menüänderungen gelten für sämtliche Benutzer, die auf die Report Suite z
 
 >[!NOTE]
 >
->Eine Änderung der Menüstruktur hat keine Auswirkungen auf den Report Builder. Die Umbenennung eines Berichts wird jedoch in diesem Tool widergespiegelt.
+>Änderungen an der Menüstruktur wirken sich nicht auf den Report Builder aus. Die Umbenennung eines Berichts wird jedoch in diesem Tool übernommen.
 
 ## Menüanpassung – Beschreibungen {#section_B0D224DACB914A378902A4E0E1234889}
 
-<table id="table_E609632569EB499184E56618C2CEF742"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Kalender </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Neuer Ordner</span> </td> 
-   <td colname="col2"> <p> Fügt einen neuen Ordner über dem zurzeit ausgewählten Element hinzu. Sie müssen mindestens einen Bericht zu einem Ordner hinzufügen, bevor der Ordner sichtbar wird. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Umbenennen</span> </td> 
-   <td colname="col2"> <p> Damit können Sie den Namen des zurzeit ausgewählten Elements ändern. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Standardname</span> </td> 
-   <td colname="col2"> <p> Stellt den Namen des zurzeit ausgewählten Elements wieder her. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Anzeige ein-/ausschalten</span> </td> 
-   <td colname="col2"> <p> Blendet das aktuell ausgewählte Element aus oder ein. Ausgeblendete Elemente werden auf der Seite „Menüanpassung“ mit einem grauen Linienmuster angezeigt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Löschen</span> </td> 
-   <td colname="col2"> <p> Entfernt das zurzeit ausgewählte Element aus dem Menü. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Standardangaben wiederherstellen</span> </td> 
-   <td colname="col2"> <p> Setzt das Menü in den Originalzustand zurück. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Kalender | Beschreibung |
+|--- |--- |
+| Neuer Ordner | Fügt einen neuen Ordner über dem zurzeit ausgewählten Element hinzu. Sie müssen mindestens einen Bericht zu einem Ordner hinzufügen, bevor der Ordner sichtbar wird. |
+| Umbenennen | Damit können Sie den Namen des zurzeit ausgewählten Elements ändern. |
+| Standardname | Stellt den Namen des zurzeit ausgewählten Elements wieder her. |
+| Anzeige ein-/ausschalten | Blendet das aktuell ausgewählte Element aus oder ein. Ausgeblendete Elemente werden auf der Seite „Menüanpassung“ mit einem grauen Linienmuster angezeigt. |
+| Löschen | Entfernt das zurzeit ausgewählte Element aus dem Menü. |
+| Standardangaben wiederherstellen | Setzt das Menü in den Originalzustand zurück. |
