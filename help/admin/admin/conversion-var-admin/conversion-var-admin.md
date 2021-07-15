@@ -5,7 +5,7 @@ title: Konversionsvariablen (eVar)
 feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
 | [!UICONTROL Merchandising]  (nur eVar) | Merchandisingvariablen können einer oder zwei Syntaxen folgen:<ul><li>**[!UICONTROL Produktsyntax]**: Hiermit wird einem Produkt der eVar-Wert zugewiesen. **Hinweis**: Wenn die [!UICONTROL Produktsyntax] ausgewählt ist, ist der Bereich [!UICONTROL „Merchandising-Binding-Ereignis“] deaktiviert und kann nicht für die Bearbeitung ausgewählt werden. Für diese Syntax können keine [!UICONTROL Binding-Ereignisse] angewendet werden.</li><li>**[!UICONTROL Syntax der Konversionsvariablen]**: Hierbei wird einem Produkt nur dann die eVar zugewiesen, wenn ein [!UICONTROL Binding-Ereignis] auftritt. In diesem Fall legen Sie fest, welche Ereignisse als [!UICONTROL Binding-Ereignisse] gelten.  Wenn Sie diese Einstellung ändern, ohne den JavaScript-Code zu aktualisieren, gehen Daten verloren. Siehe [Merchandising-Variablen](/help/components/dimensions/evar-merchandising.md).</li></ul> |
 | [!UICONTROL Merchandising-Binding-Ereignis] (nur eVar) | Wenn „Merchandising“ auf [!UICONTROL Konversionsvariablensyntax] eingestellt ist, wird der aktuelle eVar-Wert durch die ausgewählten Ereignisse mit einem Produkt verbunden. Um ein [!UICONTROL Binding-Ereignis] zu verwenden, setzen Sie [!UICONTROL Zuordnung] auf [!UICONTROL Zuletzt verwendet]. Wenn [!UICONTROL Zuordnung] auf [!UICONTROL Ausgangswert] eingestellt ist, bleibt die erste eVar-Produktverbindung erhalten, bis die eVar abläuft. Sie können mehrere Ereignisse auswählen, indem Sie die Strg-Taste (Windows) oder die Cmd-Taste (Mac) gedrückt halten und auf mehrere Elemente in der Liste klicken. Sie können nur dann ein Ereignis auswählen, wenn [!UICONTROL Konversionsvariablensyntax] ausgewählt ist. |
 
-**Ablauf**
+### Gültigkeit
 
 `eVars` laufen nach dem von Ihnen festgelegten Zeitraum ab. Nach dem Ablauf werden in der eVar keine Erfolgsereignisse mehr gezählt. eVars können auch so konfiguriert werden, dass sie bei Erfolgsereignissen ablaufen. Beispiel: Wenn Sie eine interne Werbeaktion haben, die am Ende eines Besuchs abläuft, werden für diese interne Werbeaktionen nur Einkäufe oder Registrierungen gezählt, die während des Besuchs erfolgten, in der sie aktiviert wurde.
 
@@ -58,10 +58,10 @@ Wenn Sie beispielsweise den Ablauf einer eVar von 30 auf 90 Tage ändern, bleibe
 
 Ein weiteres Beispiel: Wenn eine eVar im Mai dazu dienen soll, interne Werbeaktionen widerzuspiegeln (wobei sie nach 21 Tagen ablaufen soll) und im Juni dann eingesetzt wird, um interne Keywords zu erfassen, müssen Sie am 1. Juni ihren Ablauf erzwingen oder die Variable zurücksetzen. So verhindern Sie, dass die Werte zu der internen Werbeaktion vom Mai nicht im Bericht vom Juni auftauchen.
 
-**Groß-/Kleinschreibung**
+### Groß-/Kleinschreibung
 
 Bei eVars wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Groß- oder Kleinschreibung, die für das Reporting verwendet wird, basiert auf dem ersten Wert, den das Backend-System registriert. Dieser Wert kann entweder die erste jemals erkannte Instanz sein oder je nach Zeitraum (z. B. monatlich) variieren, je nach der Vielfalt und Menge der mit der Report Suite verknüpften Daten.
 
-**Zähler**
+### Zähler
 
 Während eVars meist zur Speicherung von Zeichenfolgenwerten dienen, können sie auch so konfiguriert werden, dass sie als Zähler funktionieren. Als Zähler sind eVars dann nützlich, wenn Sie die Anzahl von Aktionen zählen möchten, die ein Benutzer vor einem Ereignis durchführt. So können Sie eine eVar beispielsweise einsetzen, um die Anzahl der internen Suchvorgänge vor einem Kauf zu zählen. Sobald ein Besucher eine Suche durchführt, wird der Wert der eVar um 1 erhöht. Wenn ein Besucher vier Suchen durchführt, bevor er einen Einkauf tätigt, wird Ihnen zu jeder Instanz eine Zählersumme angezeigt (1,00, 2,00, 3,00 und 4.00). Für das Kaufereignis wird jedoch nur die 4,00 gutgeschrieben (Bestellungen und Umsatz). Als Werte für eVar-Zähler sind nur positive Zahlen erlaubt.
