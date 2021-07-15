@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics und Browser-Cookies
 description: Erfahren Sie, wie sich Tracking-Präventionsmaßnahmen auf von Adobe Analytics gesetzte Third-Party- und First-Party-Cookies auswirken.
-source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
-workflow-type: ht
+source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
+workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ In diesem Dokument wird erläutert, wie sich die Tracking-Präventionsmaßnahmen
 
 ### Einschränkungen bei Third-Party-Cookies
 
-Cookies, die in einem Third-Party-Kontext verwendet werden, werden weithin nicht mehr unterstützt. Firefox und Safari haben 2019 bzw. 2020 standardmäßig begonnen, Third-Party-Cookies zu blockieren. Chrome hat Pläne angekündigt, die Unterstützung von Third-Party-Cookies im Jahr 2022 einzustellen. Third-Party-Cookies sind dann effektiv nicht mehr verwendbar.
+Cookies, die in einem Third-Party-Kontext verwendet werden, werden weithin nicht mehr unterstützt. Firefox und Safari haben 2019 bzw. 2020 standardmäßig begonnen, Third-Party-Cookies zu blockieren. Chrome hat Pläne angekündigt, die Unterstützung von Third-Party-Cookies im Jahr 2023 einzustellen. Third-Party-Cookies sind dann effektiv nicht mehr verwendbar.
 
 Darüber hinaus lässt Chrome derzeit die Funktion von Cookies in einem Third-Party-Kontext nur zu, wenn das SameSite-Attribut auf „None“ gesetzt ist und sie als sicher gekennzeichnet sind, d. h., sie können nur über HTTPS verwendet werden. Weitere Informationen finden Sie im Abschnitt „[Was ist das SameSite-Cookie-Attribut und wie wirkt es sich auf Analytics aus?](#samesite-effect)“.
 
@@ -50,9 +50,9 @@ ITP-Richtlinien werden häufig weiterentwickelt. Die neuesten Richtlinien finden
 
 Alle von Adobe gesetzten First-Party-Cookies und die zugehörigen JavaScript-Bibliotheken sind von ITP-Richtlinien betroffen:
 
-* [AMCV-Cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), die von der Bibliothek des Besucher-ID-Diensts von Adobe Experience Cloud (ECID) festgelegt werden
+* [AMCV-Cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html), die von der Bibliothek des Besucher-ID-Diensts von Adobe Experience Cloud (ECID) festgelegt werden
 * Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de), wenn es für die First-Party-Datenerfassung mit CNAME konfiguriert ist
-* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
+* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
 
 #### Wie wirkt sich ITP auf Safari auf Analytics aus?
 
@@ -73,7 +73,7 @@ Wenn sich diese Einschränkungen auf Ihre Daten auswirken, sehen Sie Folgendes:
 
 Third-Party-Cookies werden nicht von den Websites erstellt, die Anwender besuchen.
 
-Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Third-Party-Cookies eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Third-Party-Cookie, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Third-Party-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Third-Party-Cookies eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Third-Party-Cookie, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Third-Party-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 In Analytics-Implementierungen werden Third-Party-Cookies für Domain-übergreifendes Tracking und für Werbeanwendungen wie Retargeting-Anzeigen verwendet. Mit Third-Party-Cookies können Sie Besucher identifizieren, die verschiedene Domains besuchen, deren Inhaber Sie sind, oder denen Anzeigen auf Sites präsentiert werden, deren Inhaber Sie nicht sind.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
