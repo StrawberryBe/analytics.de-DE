@@ -2,22 +2,22 @@
 description: Erläutert, wie die neue Landingpage sowohl Analysis Workspace als auch Reports & Analytics in einer einzigen Benutzeroberfläche und einem Zugriffspunkt unter dem Dach "Workspace"zusammenführt.
 title: Neue Adobe Analytics-Landingpage
 role: User, Admin
-source-git-commit: d932a02375f6f124d84dd275cd1134bb25ff76ec
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
-source-wordcount: '3044'
+source-wordcount: '3046'
 ht-degree: 6%
 
 ---
 
 # Neue Adobe Analytics-Landingpage
 
-Die neue Landingpage für die Adobe-Analyse fasst sowohl Analysis Workspace als auch Reports &amp; Analytics in einer einzigen Benutzeroberfläche zusammen und fügt einen Zugriffspunkt unter dem Dach &quot;Workspace&quot;ein. Es enthält eine neue Startseite des Projektmanagers, ein aktualisiertes Berichtsmenü, modernisierte Berichte und einen neuen Lernabschnitt, der Ihnen bei den ersten Schritten hilft.
+Die neue Landingpage für Adobe Analytics fasst sowohl Analysis Workspace als auch Reports &amp; Analytics in einer einzigen Benutzeroberfläche zusammen und fügt einen Zugriffspunkt unter dem Dach &quot;Workspace&quot;ein. Es enthält eine neue Startseite des Projektmanagers, ein aktualisiertes Berichtsmenü, modernisierte Berichte und einen neuen Lernabschnitt, der Ihnen bei den ersten Schritten hilft.
 
 Die neue Seite verbessert die Auffindbarkeit und leitet Benutzer von Reports &amp; Analytics zu einem verbesserten Berichtserlebnis in Workspace.
 
 >[!IMPORTANT]
 >
->Diese Landingpage wird sich in Kürze in der öffentlichen Betaversion befinden. Dies ist ein optionaler Ausgangspunkt. Sie können die vorhandene Landingpage verwenden, unabhängig davon, ob es sich um Workspace oder Berichte handelt. Wenn Sie sich für das Beta-Programm entscheiden, rufen Sie die Seite auf und klicken Sie oben im Bildschirm auf **[!UICONTROL Feedback geben]** , um Ihr Feedback und etwaige Fehler zu protokollieren. Sie können sich jederzeit vom Beta-Programm abmelden und wieder anmelden. Jede Arbeit, die in der Beta-Benutzeroberfläche ausgeführt wird, wird in das vorhandene/aktuelle Workspace-Erlebnis übernommen.
+>Diese Landingpage wird ab dem 21. Juli 2021 in &quot;Beta öffnen&quot;angezeigt. Dies ist ein optionaler Ausgangspunkt. Sie können die vorhandene Landingpage verwenden, unabhängig davon, ob es sich um Workspace oder Berichte handelt. Wenn Sie sich für das Beta-Programm entscheiden, rufen Sie die Seite auf und klicken Sie oben im Bildschirm auf **[!UICONTROL Feedback geben]** , um Ihr Feedback und etwaige Fehler zu protokollieren. Sie können sich jederzeit vom Beta-Programm abmelden und wieder anmelden. Jede Arbeit, die in der Beta-Benutzeroberfläche ausgeführt wird, wird in das vorhandene/aktuelle Workspace-Erlebnis übernommen.
 
 ## Zugriff auf die neue Landingpage {#access-landing}
 
