@@ -7,7 +7,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
 workflow-type: tm+mt
 source-wordcount: '1325'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Es gibt zwei Möglichkeiten, die AAM-UUID zu erfassen, die derzeit mit dem Brows
 
 Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser abrufen und sie im Audience Manager-Besucherprofil-Betrachter verwenden, um Eigenschaften- und Segmentmitgliedschaften zu validieren.
 
-**Methode 1: Adobe Experience Cloud Debugger verwenden**
+**Methode 1: Verwenden von Adobe Experience Cloud Debugger**
 
 1. Laden Sie den [Adobe Experience Cloud-Debugger](/help/implement/validate/debugger.md) im Chrome-Webstore herunter und installieren Sie ihn.
 1. Starten Sie den Debugger beim Laden einer Seite.
