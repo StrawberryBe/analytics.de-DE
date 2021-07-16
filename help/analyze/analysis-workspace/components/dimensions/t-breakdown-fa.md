@@ -9,7 +9,7 @@ exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
    >
    >Die Anzahl der in der Tabelle angezeigten Aufschlüsselungen ist auf 200 beschränkt. Für das Exportieren von Aufschlüsselungen ist diese Einschränkung höher.
 
-[Hinzufügen von Dimensionen und Metriken zu Ihrem Projekt in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=en) (11:39)
+[Hinzufügen von Dimensionen und Metriken zu Ihrem Projekt in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=de) (11:39)
 
 [Arbeiten mit Dimensionen in einer Freiformtabelle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html?lang=de) (15:35)
 
