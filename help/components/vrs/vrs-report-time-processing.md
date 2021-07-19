@@ -3,11 +3,10 @@ description: „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Eins
 title: Berichtszeitverarbeitung
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1423'
-ht-degree: 100%
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Während der Datenverarbeitung in Analytics fließen die Daten durch die Datener
 
 Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsoptionen. Sie können beispielsweise die Timeout-Zeitspanne für Besuche auf nicht destruktive Art und Weise beliebig ändern. Diese Änderungen spiegeln sich retroaktiv in der eVar-Persistenz und den Segmentcontainern wider, als hätten Sie diese Einstellungen vor dem Erfassen der Daten angewendet. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-„Berichtszeitverarbeitung“ ermöglicht zudem, dass Analytics verhindert, dass Hintergrundtreffer neue Besuche starten und dass das [mobile SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) die Berichterstellung zum Starten eines neuen Besuchs anweist, sobald ein App-Startereignis ausgelöst wird.
+„Berichtszeitverarbeitung“ ermöglicht zudem, dass Analytics verhindert, dass Hintergrundtreffer neue Besuche starten und dass das [mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) die Berichterstellung zum Starten eines neuen Besuchs anweist, sobald ein App-Startereignis ausgelöst wird.
 
 Die folgenden Konfigurationsoptionen sind momentan für Virtual Report Suites mit aktiviertem Berichtszeitverarbeitung verfügbar:
 
@@ -41,7 +40,7 @@ Die folgenden Konfigurationsoptionen sind momentan für Virtual Report Suites 
 * **Starten neuer Besuche bei allen App-Starts:** Zusätzlich zum Besuchstimeout können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein App-Startereignis aufgezeichnet wurde. Das Inaktivitätsfenster ist dabei unerheblich. Diese Einstellung nimmt Einfluss auf die Besuchsmetrik und den Besuchssegmentcontainer sowie die Besuchsablauflogik für eVars.
 * **Starten neuer Besuche mit Ereignis:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung auftrat oder nicht. Zur neuen Sitzung gehört auch das Ereignis, das sie ausgelöst hat. Zudem können Sie mehrere Ereignisse nutzen, um eine Sitzung zu starten, und eine neue Sitzung wird dann begonnen, wenn beliebige dieser Ereignisse in den Daten auftreten. Diese Einstellung wirkt sich auf Ihre Besuchszählung, den Besuchssegmentierungs-Container sowie die Besuchsablauflogik von eVars aus.
 
-„Berichtszeitverarbeitung“ unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Virtual Report Suites mit Berichtszeitverarbeitung sind nur in Analysis Workspace zugänglich, während der Zugriff über [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Daten-Feeds oder die Reporting-API nicht möglich ist.
+„Berichtszeitverarbeitung“ unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Virtual Report Suites, die die Berichtszeitverarbeitung verwenden, stehen nur in Analysis Workspace zur Verfügung und sind nicht in [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Daten-Feeds oder der Berichterstellungs-API verfügbar.
 
 Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus dem Datumsbereich der Berichterstellung stammen (nachfolgend als „Datumsfenster“ bezeichnet). Demnach bleiben auf „laufen nie ab“ festgelegte eVar-Werte für einen Besucher vor dem Datumsbereich der Berichterstellung in den Berichterstellungsfenstern nicht erhalten, und sie erscheinen nicht in Berichten. Das heißt auch, dass Kundenloyalitätsmessungen ausschließlich auf den im Berichterstellungsdatumsbereich vorhandenen Daten und nicht auf dem gesamten Verlauf vor dem Berichterstellungsdatumsbereich basieren.
 
