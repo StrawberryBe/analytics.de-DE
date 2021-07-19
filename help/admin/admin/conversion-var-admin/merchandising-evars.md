@@ -1,7 +1,7 @@
 ---
 title: Merchandising-eVars und Methoden zur Produktsuche
 description: Ein tiefer Einblick in die Konzepte hinter Merchandising-eVars und deren Verarbeitung und Zuordnung von Daten.
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ Wenn Sie beispielsweise `s.eVar1="Internal Keyword Search"` allein festlegen, we
 
 Zusammenfassend ist die native Metrik Instanzen für Merchandising-eVar ohne zusätzliche Konfiguration weniger nützlich als nützlich. Zum Glück hat Adobe [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en) veröffentlicht. Damit können Sie mehrere Attributionsmodelle für jede benutzerdefinierte Metrik anwenden, die von Adobe Analytics erfasst wird. Metriken, die diese Attributionsmodelle anwenden, verwenden nicht die Werte in den Spalten post_evar oder die Werte, die an ein bestimmtes Produkt gebunden sind. Stattdessen verwenden diese Metriken nur die Werte, die über die Bildanforderungen selbst übergeben werden (oder Werte, die über Adobe Analytics-Verarbeitungsregeln erfasst werden). Sie können die Funktionen im Attribution IQ verwenden, um eine präzise zugeordnete Instanzmetrik für alle Merchandising-eVars zu erhalten, die die Konversionsvariablensyntax verwenden.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 Beim Hinzufügen einer Instanzmetrik für ein Merchandising-eVar zu einem Bericht wäre das richtige Attribution IQ-Modell das &quot;Letztkontakt&quot;-Modell. Die Einstellung Lookback-Fenster für das Modell spielt in diesem Fall keine Rolle. Der Grund dafür ist, dass ein &quot;erzwungenes&quot;Letztkontakt-Attributionsmodell jedem einzelnen Wert, der über eine Anfrage übergeben wird, immer Instanzgutschriften zuweist. Dies ist unabhängig davon, ob die tatsächlichen Zuordnungs-/Bindungseinstellungen der eVar auf &quot;Zuletzt verwendet (Letzter)&quot;auf &quot;Ausgangswert (Erster)&quot;eingestellt sind.
