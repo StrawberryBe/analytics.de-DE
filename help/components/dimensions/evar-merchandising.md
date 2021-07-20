@@ -2,17 +2,18 @@
 title: eVar (Merchandising)
 description: Benutzerdefinierte Variablen, die mit der Produktdimension verknüpft sind.
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 90%
 
 ---
 
 # eVar (Merchandising)
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. Weitere Informationen zur Implementierung von Merchandising-eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. Informationen zur Implementierung von Merchandising-eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zur Implementierung.*
+
+Eine ausführliche Diskussion der Funktionsweise von Merchandising-eVars finden Sie unter [Merchandising-eVars und Produktsuchmethoden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
 
 Wenn Sie den Erfolg von externen Kampagnen oder externen Suchbegriffen messen möchten, wünschen Sie in der Regel einen einzigen Wert, den Sie für jedes eingetretene Erfolgsereignis der jeweiligen Kampagne oder dem Suchbegriff gutschreiben können. Wenn ein Kunde z. B. auf einen Link in einer E-Mail-Kampagne klickt, um Ihre Website zu besuchen, sollten alle daraus resultierenden Käufe dieser Kampagne gutsgeschrieben werden.
 
@@ -28,7 +29,7 @@ Wenn der Besucher diesen Kauf abschließt, wird Ihnen eine interne Suche nach ei
 
 | Interner Suchbegriff | Umsatz |
 |---|---|
-| Winterjacke | 157 $ |
+| Winterjacke | $157 |
 
 ## So können Merchandising-Variablen das Problem lösen
 
@@ -38,8 +39,8 @@ Wenn Merchandising für die „eVar“ aktiviert ist, würde das für das Beispi
 
 | Interner Suchbegriff | Umsatz |
 |---|---|
-| Winterjacke | 119 $ |
-| Brille | 38 $ |
+| Winterjacke | $119 |
+| Brille | $38 |
 
 Implementierungsanweisungen finden Sie unter [Merchandising-eVars](/help/implement/vars/page-vars/evar-merchandising.md).
 
