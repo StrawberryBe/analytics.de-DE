@@ -1,34 +1,37 @@
 ---
-title: Zuordnen von Datenelementen zu Analytics-Variablen
+title: Tag-Datenelemente Analytics-Variablen zuordnen
 description: Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analysis Workspace verwenden können.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 76%
 
 ---
 
-# Zuordnen von Datenelementen zu Analytics-Variablen
+# Tag-Datenelemente Analytics-Variablen zuordnen
 
-Sobald Sie über ein Repository mit Datenelementen in Adobe Experience Platform Launch verfügen, können Sie sie Analytics-Dimensionen zuweisen.
+Sobald Sie über ein Repository mit Tag-Datenelementen verfügen, können Sie sie Analytics-Dimensionen zuweisen.
+
+>[!NOTE]
+>Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
 
 ## Voraussetzungen
 
-[Ordnen Sie Datenschichtobjekte Datenelementen zu](layer-to-elements.md): Vergewissern Sie sich, dass Sie Datenelemente in Launch verstehen und mehrere Elemente zur Verfügung haben.
+[Ordnen Sie Datenschichtobjekte Datenelementen](layer-to-elements.md) zu: Vergewissern Sie sich, dass Sie mit Tag-Datenelementen vertraut sind und mehrere Elemente zur Verfügung haben.
 
 [Erstellen Sie ein Lösungs-Design-Dokument](../prepare/solution-design.md): Ein Lösungs-Design-Dokument ist für eine übersichtliche Organisation unverzichtbar. Wenn Sie Ihrem Lösungs-Design-Projekts folgen, wird die Zuweisung von Datenelementen zu Analytics-Variablen einfacher.
 
 ## Zuweisen von Datenelementen zu Analytics-Variablen
 
-Wenn Sie eine Bibliothek in Launch veröffentlichen, nachdem Sie diese Schritte ausgeführt haben, können Sie benutzerdefinierte Dimensionen in Analysis Workspace verwenden. Sie können Analytics-Variablen global oder in einzelnen Regeln festlegen.
+Wenn Sie eine Tag-Bibliothek veröffentlichen, nachdem Sie diese Schritte ausgeführt haben, können Sie benutzerdefinierte Dimensionen in Analysis Workspace verwenden. Sie können Analytics-Variablen global oder in einzelnen Regeln festlegen.
 
 ### Globale Variablen festlegen
 
 Globale Variablen eignen sich ideal, wenn Sie Variablenwerte auf allen Seiten festlegen möchten, auf denen Ihr Datenelement vorhanden ist.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
-1. Klicken Sie auf die gewünschte Launch-Eigenschaft.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
 1. Klicken Sie auf das Akkordeon [!UICONTROL Globale Variablen]. Daraufhin wird die Benutzeroberfläche zum Zuweisen globaler Variablen angezeigt.
 
@@ -37,7 +40,7 @@ Globale Variablen eignen sich ideal, wenn Sie Variablenwerte auf allen Seiten fe
 Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. Siehe [Regeln](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=de) im Benutzerhandbuch zu Adobe Experience Platform Launch.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
-1. Klicken Sie auf die gewünschte Launch-Eigenschaft.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf die Registerkarte [!UICONTROL Regeln] und dann auf die gewünschte Regel (oder erstellen Sie eine).
 1. Klicken Sie auf die Schaltfläche [!UICONTROL Hinzufügen] unter [!UICONTROL Aktionen].
 1. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf „Variablen festlegen“.
