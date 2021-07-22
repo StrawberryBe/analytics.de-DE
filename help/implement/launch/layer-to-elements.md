@@ -1,28 +1,33 @@
 ---
 title: Zuordnen von Datenschichtobjekten zu Datenelementen
-description: Konfigurieren Sie Launch, um aus Ihrer Datenschicht zu lesen.
+description: Konfigurieren Sie Tags, die aus Ihrer Datenschicht gelesen werden sollen.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 60%
 
 ---
 
 # Zuordnen von Datenschichtobjekten zu Datenelementen
 
-Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implementiert hat, können Sie innerhalb von Launch Datenschichtobjekte Datenelementen zuordnen.
+Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implementiert hat, können Sie Datenschichtobjekte Datenelementen innerhalb von Tags zuordnen.
+
+>[!NOTE]
+>Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
 
 ## Voraussetzungen
 
-[Erstellen Sie eine Datenschicht](../prepare/data-layer.md): Stellen Sie sicher, dass auf Ihrer Site eine Datenschicht vorhanden ist. Obwohl Sie technisch alle JavaScript-Objekte oder CSS-Elemente direkt auf der Seite zuordnen bzw. von dort scrapen können, empfiehlt Adobe diese Vorgehensweise nur als letztes Mittel. Wenn sich Ihr Sitelayout ändert, funktionieren die in Launch verwendeten CSS-Selektoren nicht mehr, was zu Datenverlusten führt.
+[Erstellen Sie eine Datenschicht](../prepare/data-layer.md): Stellen Sie sicher, dass auf Ihrer Site eine Datenschicht vorhanden ist. Obwohl Sie technisch alle JavaScript-Objekte oder CSS-Elemente direkt auf der Seite zuordnen bzw. von dort scrapen können, empfiehlt Adobe diese Vorgehensweise nur als letztes Mittel. Wenn sich Ihr Site-Layout ändert, funktionieren die in Tags verwendeten CSS-Selektoren nicht mehr, was zu Datenverlust führt.
 
-## Verwenden von Adobe Experience Platform Launch zum Erstellen von Datenelementen
+## Verwenden von Tags zum Erstellen von Datenelementen
 
-[Datenelemente](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html?lang=de#create-a-data-element) sind Komponenten in Launch, die Sie im gesamten Tool verwenden können. Sie können mithilfe von Datenelementen Variablenwerte in der Adobe Analytics-Erweiterung zuweisen.
+[Datenelemente ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) sind Komponenten in der Datenerfassungs-Benutzeroberfläche, die Sie im gesamten Tool verwenden können. Sie können mithilfe von Datenelementen Variablenwerte in der Adobe Analytics-Erweiterung zuweisen.
 
-1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
-1. Klicken Sie auf die gewünschte Launch-Eigenschaft.
+1. Gehen Sie zu [experience.adobe.com](https://experience.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
+1. Wählen Sie **[!UICONTROL Launch/Data Collection]** aus.
+1. Klicken Sie auf **[!UICONTROL Gehen Sie zu Launch/Data Collection]** und wählen Sie **[!UICONTROL Tags]** aus.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Datenelemente]** und dann auf **[!UICONTROL Datenelement hinzufügen]**.
 
    ![Datenelement erstellen](assets/createelement.png)
