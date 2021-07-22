@@ -1,28 +1,31 @@
 ---
 title: Adobe Analytics in einer Entwicklungsumgebung bereitstellen
-description: Erfahren Sie, wie Sie Adobe Experience Platform Launch verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
+description: Erfahren Sie, wie Sie Tags verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 66%
 
 ---
 
 # Analytics-Implementierung in einer Entwicklungsumgebung bereitstellen
 
-Nachdem eine Eigenschaft in Launch erstellt und konfiguriert wurde, können die Bibliotheken bereitgestellt und Code auf Ihrer Website implementiert werden.
+Nachdem Sie eine Tag-Eigenschaft erstellt und konfiguriert haben, können die Bibliotheken bereitgestellt und Code auf Ihrer Site implementiert werden.
+
+>[!NOTE]
+>Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
 
 ## Voraussetzungen
 
-[Erstellen und konfigurieren Sie eine Eigenschaft für Adobe Analytics in Launch](create-analytics-property.md): Greifen Sie auf das Tool zu und erstellen Sie einen Raum für Ihre Analytics-Implementierung.
+[Erstellen und konfigurieren Sie eine Tag-Eigenschaft für Adobe Analytics](create-analytics-property.md): Greifen Sie auf das Tool zu und erstellen Sie einen Bereich für Ihre Analytics-Implementierung.
 
 ## Erstellen von Adaptern und Umgebungen
 
-Launch ermöglicht die Bereitstellung von Code mit vielen organisatorischen Arbeitsabläufen. Führen Sie die folgenden Schritte aus, um die erforderlichen Mindestkomponenten für eine Analytics-Implementierung zu erstellen. Als Launch-Administrator können Sie innerhalb Ihres Unternehmens den richtigen Arbeitsablauf für die Bereitstellung von Adobe-Lösungen festlegen.
+Tags ermöglichen viele organisatorische Workflows bei der Bereitstellung von Code. Führen Sie die folgenden Schritte aus, um die erforderlichen Mindestkomponenten für eine Analytics-Implementierung zu erstellen. Als Tag-Administrator können Sie innerhalb Ihres Unternehmens den richtigen Arbeitsablauf für die Bereitstellung von Adobe-Lösungen festlegen.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
-2. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
+2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 3. Klicken Sie auf die Registerkarte „Adapter“ und dann auf „Adapter hinzufügen“.
 4. Benennen Sie ihn mit „Akamai“ und wählen Sie „Akamai“ im Dropdown-Menü „Typ“. Klicken Sie auf „Speichern“.
 5. Wechseln Sie zur Registerkarte „Umgebungen“ und klicken Sie dann auf „Neue Umgebung erstellen“.
@@ -35,16 +38,16 @@ Launch ermöglicht die Bereitstellung von Code mit vielen organisatorischen Arbe
 Trotz aller bisherigen Änderungen und Konfigurationen wurde kein Code veröffentlicht. Wenn Sie eine Bibliothek erstellen, also eine Sammlung von Änderungen, können Sie Code auf Ihrer Website veröffentlichen.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
-2. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
+2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 3. Klicken Sie auf die Registerkarte „Publishing“ und dann auf „Neue Bibliothek hinzufügen“.
 4. Benennen Sie die Bibliothek mit „Erste Änderungen“ und wählen Sie Ihre Entwicklungsumgebung aus.
 5. Klicken Sie auf „Alle geänderten Ressourcen hinzufügen“. Adobe Analytics, der Identitätsdienst und Core werden automatisch aufgeführt.
 6. Klicken Sie auf „Speichern“.
 7. Klicken Sie im Bildschirm „Publishing-Workflow“ auf das Dropdown-Menü neben der neuen Bibliothek und klicken Sie auf „Für Entwicklung erstellen“. Nach einigen Sekunden wird der gelbe Punkt in der Bibliothek grün, was darauf hinweist, dass die Erstellung erfolgreich war.
 8. Gehen Sie zur Registerkarte „Umgebungen“ und klicken Sie dann auf Ihre Entwicklungsumgebung.
-9. Kopieren Sie unter „Launch installieren“ die Codeblöcke und stellen Sie sie den Website-Inhabern Ihres Unternehmens zur Verfügung.
+9. Kopieren Sie unter &quot;Tags installieren&quot;die Codeblöcke und stellen Sie sie den Website-Eigentümern Ihres Unternehmens zur Verfügung.
 
-## Installation von Launch in der Entwicklungsumgebung Ihrer Website
+## Installieren von Tags in der Entwicklungsumgebung Ihrer Website
 
 Wenn Sie den Code Ihrer Website steuern, implementieren Sie die beiden Codeblöcke an ihren jeweiligen Positionen (im `<head>`-Tag und direkt über dem schließenden `</body>`-Tag) auf jeder Seite Ihrer Website. Dieser Code wird normalerweise in der übergreifenden Vorlage der Website platziert. Eine leere Seite, die nur Implementierungscode enthält, würde wie folgt aussehen:
 
@@ -71,8 +74,8 @@ Ein häufiger Grund dafür ist, dass Elemente bereits in anderen Bibliotheken vo
 
 ## Dokumentation und zusätzliche Ressourcen
 
-- [Erste Schritte mit Launch](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=de): Grundlegender Workflow von Launch
-- [Publishing mit Launch](https://experienceleague.adobe.com/docs/launch/using/reference/publish/overview.html?lang=de): Erfahren Sie mehr über Publishing und Umgebungen
+- [Schnellstartanleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Grundlegender Workflow der Tag-Implementierung
+- [Veröffentlichungsübersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en): Erfahren Sie mehr über Publishing und Umgebungen
 
 ## Nächste Schritte
 
