@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 94%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins  {#plugins}
+   + Plug-ins   {#plugins}
       + [Übersicht über Plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -149,13 +149,13 @@ ht-degree: 100%
       + [Besuchsbeispiel](js/xdevice-visid/visit-example.md)
       + [Häufig gestellte Fragen zu veralteten geräteübergreifenden Themen](js/xdevice-visid/xdevice-faq.md)
    + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
-+ Analytics mit Adobe Experience Platform Launch implementieren {#launch}
-   + [Launch-Übersicht](launch/overview.md)
-   + [Analytics-Eigenschaft erstellen](launch/create-analytics-property.md)
++ Analytics mithilfe von Tags in Adobe Experience Platform implementieren {#launch}
+   + [Übersicht über Tags](launch/overview.md)
+   + [Erstellen einer Analytics-Tag-Eigenschaft](launch/create-analytics-property.md)
    + [In einer Entwicklungsumgebung bereitstellen](launch/deploy-dev.md)
    + [In Produktionsumgebung validieren und veröffentlichen](launch/validate-publish-prod.md)
    + [Zuordnen von Datenschichtobjekten zu Datenelementen](launch/layer-to-elements.md)
-   + [Zuordnen von Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
+   + [Tag-Datenelemente Analytics-Variablen zuordnen](launch/elements-to-variable.md)
 + Analytics auf anderen Plattformen implementieren {#other}
    + [Analytics mit fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
    + [Analytics mit DTM implementieren](other/dtm-implementation-overview.md)
