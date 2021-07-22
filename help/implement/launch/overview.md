@@ -1,37 +1,40 @@
 ---
-title: Übersicht über das Implementieren mit Launch
-description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Adobe Experience Platform Launch implementieren
+title: Implementieren mit Tags in Adobe Experience Platform
+description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags implementieren
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 47%
 
 ---
 
-# Übersicht über das Implementieren mit Launch
+# Implementieren mit Tags in Adobe Experience Platform
 
-Während der gesamten Lebensdauer von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die derzeit von Adobe empfohlene Methode verwendet Adobe Experience Platform Launch.
+>[!NOTE]
+>Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
 
-Launch ist eine Tag-Management-Lösung, mit der Sie Analytics-Code zusammen mit anderen Tagging-Anforderungen bereitstellen können. Adobe bietet Integrationen mit anderen Lösungen und Produkten und ermöglicht die Bereitstellung von benutzerdefiniertem Code. Alle diese Aufgaben können ausgeführt werden, ohne dass Entwicklungsteams in Ihrer Organisation Code auf Ihrer Website aktualisieren müssen.
+Während der gesamten Lebensdauer von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die aktuelle Empfehlungsmethode von Adobe erfolgt über -Tags in Adobe Experience Platform.
 
-Alle Kunden mit einem aktiven Adobe Experience Cloud-Vertrag können Launch verwenden. Wenn Sie sich nicht sicher sind, ob Sie Zugriff haben, wenden Sie sich an einen Experience Cloud-Systemadministrator Ihres Unternehmens.
+Tags in Adobe Experience Platform sind eine Tag-Management-Lösung, mit der Sie Analytics-Code zusammen mit anderen Tagging-Anforderungen bereitstellen können. Adobe bietet Integrationen mit anderen Lösungen und Produkten und ermöglicht die Bereitstellung von benutzerdefiniertem Code. Alle diese Aufgaben können ausgeführt werden, ohne dass Entwicklungsteams in Ihrer Organisation Code auf Ihrer Website aktualisieren müssen.
+
+Alle Kunden mit einem aktiven Adobe Experience Cloud-Vertrag können Tags verwenden. Wenn Sie sich nicht sicher sind, ob Sie Zugriff haben, wenden Sie sich an einen Experience Cloud-Systemadministrator Ihres Unternehmens.
 
 ## Allgemeiner Workflow
 
-Um eine Implementierung mit Launch auszuführen, gehen Sie wie folgt vor:
+Gehen Sie wie folgt vor, um eine Implementierung mit Tags auszuführen:
 
-1. **Zugriff auf Launch erhalten**: Sie können über einen Systemadministrator in Ihrem Unternehmen Zugriff auf Launch erhalten.
-2. **Eigenschaft erstellen**: Eigenschaften sind übergreifende Behälter, die zum Verweisen auf Tag-Management-Daten verwendet werden.
+1. **Zugriff auf Tags** erhalten: Sie können über einen Systemadministrator in Ihrem Unternehmen Zugriff auf Platform-Tags erhalten.
+2. **Erstellen Sie eine Tag-Eigenschaft**: Eigenschaften sind übergreifende Container, die zum Verweisen auf Tag Management-Daten verwendet werden.
 3. **In einer Entwicklungsumgebung bereitstellen**: Verwenden Sie eine Umgebung, in der Sie die Entwicklung von Tags iterieren können.
 4. **In Produktionsumgebung validieren und veröffentlichen**: Vergewissern Sie sich, dass alles funktioniert, und veröffentlichen Sie es dann live.
 
-Erste Schritte finden Sie unter [Analytics-Eigenschaft in Adobe Experience Platform Launch erstellen](create-analytics-property.md).
+Erste Schritte finden Sie unter [Analytics-Tag-Eigenschaft](create-analytics-property.md) erstellen .
 
 ## Zusätzliche Ressourcen
 
-Launch kann in hohem Maße angepasst werden. Erfahren Sie, wie Sie Adobe Analytics optimal nutzen können, indem Sie die richtigen Daten in Ihre Implementierung aufnehmen.
+Tags können in hohem Maße angepasst werden. Erfahren Sie, wie Sie Adobe Analytics optimal nutzen können, indem Sie die richtigen Daten in Ihre Implementierung aufnehmen.
 
-* [Launch-Dokumentation](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=de): Erfahren Sie, wie die Benutzeroberfläche funktioniert und welche Erweiterungen verfügbar sind.
-* [Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=de): Verwenden Sie die Analytics-Erweiterung, um Daten an Adobe Analytics zu senden.
+* [Tags-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en#): Erfahren Sie, wie die Benutzeroberfläche funktioniert und welche Erweiterungen verfügbar sind.
+* [Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): Verwenden Sie die Analytics-Erweiterung, um Daten an Adobe Analytics zu senden.
 * [Implementierungsvariablen](../vars/overview.md): Legen Sie fest, welche Variablen Sie an Datenerfassungs-Server senden möchten.
