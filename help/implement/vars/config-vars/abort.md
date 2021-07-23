@@ -2,11 +2,10 @@
 title: abort
 description: Die Variable „abort“ ist ein boolescher Wert, der verhindert, dass ein Treffer an die Adobe-Datenerfassungs-Server gesendet wird.
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 79%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 Die Variable `abort` ist ein boolescher Wert, der verhindern kann, dass der nächste Tracking-Aufruf an Adobe gesendet wird.
 
-## Verwenden der abort-Variablen in Adobe Experience Platform Launch
+## Verwenden der abort-Variablen in der Datenerfassungs-Benutzeroberfläche in Adobe Experience Platform
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## AppMeasurement-Syntax und benutzerdefinierter Code-Editor in Launch
+## AppMeasurement-Syntax und benutzerdefinierter Code-Editor in der Datenerfassungs-Benutzeroberfläche
 
 Die `abort`-Variable ist ein boolescher Wert. Der Standardwert lautet `false`.
 
