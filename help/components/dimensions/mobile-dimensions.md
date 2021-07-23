@@ -2,11 +2,10 @@
 title: Mobilgerätedimensionen
 description: Dimensionen basierend auf der IP-Adresse des Geräts.
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ Mobilgerätedimensionen bieten Einblicke in die Eigenschaften von Mobilgeräten,
 ## Füllen dieser Dimensionen mit Daten
 
 Diese Dimensionen verweisen auf interne Suchregeln von Adobe. Aufrufe über [!UICONTROL Mobilnetzbetreiber] werden anhand der IP-Adresse ermittelt, wobei Daten verwendet werden, die wir von NetAcuity (einem Digital Elements-Produkt) erhalten.
-Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), sind alle Mobilgerätedimensionen vorkonfiguriert.
+Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über -Tags in Adobe Experience Platform), sind alle mobilen Dimensionen vorkonfiguriert.
 
 ## Beschreibung der Mobilgerätedimensionen
 
