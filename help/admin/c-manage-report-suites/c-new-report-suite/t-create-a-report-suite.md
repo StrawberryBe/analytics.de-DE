@@ -3,10 +3,10 @@ description: Erstellen Sie einen einfachen Container für die Datenerfassung in 
 title: Erstellen einer Report Suite
 feature: Admin Tools
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 65%
+source-wordcount: '376'
+ht-degree: 66%
 
 ---
 
@@ -47,4 +47,4 @@ Stellen Sie sicher, dass Sie sich über das [Experience Cloud](https://experienc
 
 ## Nächste Schritte
 
-[Erstellen und konfigurieren Sie eine Eigenschaft für Adobe Analytics in Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Erstellen eines Bereichs zur Verwaltung Ihrer Analytics-Implementierung
+[Erstellen Sie eine Adobe Analytics-Tag-Eigenschaft  ](/help/implement/launch/create-analytics-property.md): Erstellen eines Bereichs zur Verwaltung Ihrer Analytics-Implementierung
