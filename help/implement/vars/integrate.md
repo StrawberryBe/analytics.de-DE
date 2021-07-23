@@ -2,10 +2,10 @@
 title: Integrationsmodul
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '880'
-ht-degree: 100%
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Eine Organisation, die mit einem Adobe-Partner zusammenarbeitet, kann diese Schr
 
 ### Integrationsmodulcode abrufen
 
-Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff erforderlich, der zu einem Produktprofil mit Zugriff auf den Code-Manager gehört. Die Methode zum Abrufen des Modulcodes ist für alle Implementierungsmethoden gleich, einschließlich Adobe Experience Platform Launch.
+Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff erforderlich, der zu einem Produktprofil mit Zugriff auf den Code-Manager gehört. Die Methode zum Abrufen des Modulcodes ist für alle Implementierungsmethoden gleich, einschließlich Tags in Adobe Experience Platform.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 1. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
@@ -40,13 +40,15 @@ Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff 
 
 ### Platzieren Sie das Integrationsmodul in Ihrer Implementierung
 
-Für die Implementierung des Integrationsmoduls auf Ihrer Site ist der Zugriff auf Adobe Experience Platform Launch erforderlich. Wenn Sie eine ältere JavaScript-Implementierung verwenden, ist der Zugriff auf den Quellcode der Website Ihres Unternehmens erforderlich.
+Für die Implementierung des Integrate-Moduls auf Ihrer Site ist der Zugriff auf die Datenerfassungs-Benutzeroberfläche in Adobe Experience Platform erforderlich. Wenn Sie eine ältere JavaScript-Implementierung verwenden, ist der Zugriff auf den Quellcode der Website Ihres Unternehmens erforderlich.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
-2. Klicken Sie auf die Launch-Eigenschaft, die Sie bearbeiten möchten.
-3. Klicken Sie auf die Registerkarte „Erweiterungen“ und dann unter „Adobe Analytics“ auf „Konfigurieren“.
-4. Öffnen Sie „Tracker mit benutzerdefiniertem Code konfigurieren“ und klicken Sie dann auf „Editor öffnen“.
-5. Fügen Sie den Integrationsmodulcode in das modale Codefenster ein. Klicken Sie auf „Nach Abschluss speichern“.
+1. Gehen Sie zu `experience.adobe.com` und melden Sie sich bei entsprechender Aufforderung an.
+1. Wählen Sie [!UICONTROL Launch/Data Collection] aus.
+1. Klicken Sie auf [!UICONTROL Gehen Sie zu Launch/Data Collection] und wählen Sie [!UICONTROL Tags] aus.
+1. Klicken Sie auf die Tag-Eigenschaft, die Sie bearbeiten möchten.
+1. Klicken Sie auf die Registerkarte „Erweiterungen“ und dann unter „Adobe Analytics“ auf „Konfigurieren“.
+1. Öffnen Sie „Tracker mit benutzerdefiniertem Code konfigurieren“ und klicken Sie dann auf „Editor öffnen“.
+1. Fügen Sie den Integrationsmodulcode in das modale Codefenster ein. Klicken Sie auf „Nach Abschluss speichern“.
 
 ## Integrationsmodulmethoden
 
