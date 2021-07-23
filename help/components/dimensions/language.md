@@ -2,11 +2,10 @@
 title: Sprache
 description: Die bevorzugte Spracheinstellung im Browser.
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +19,7 @@ Die Dimension „Sprache“ zeigt die häufigsten Sprachen an, in denen die Besu
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `Accept-Language` in den Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), ist diese Dimension vorkonfiguriert.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `Accept-Language` in den Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über -Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert.
 
 ## Dimensionselemente
 
