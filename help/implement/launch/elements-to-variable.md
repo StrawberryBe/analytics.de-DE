@@ -2,10 +2,10 @@
 title: Tag-Datenelemente Analytics-Variablen zuordnen
 description: Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analysis Workspace verwenden können.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 76%
+source-wordcount: '505'
+ht-degree: 65%
 
 ---
 
@@ -30,16 +30,20 @@ Wenn Sie eine Tag-Bibliothek veröffentlichen, nachdem Sie diese Schritte ausgef
 
 Globale Variablen eignen sich ideal, wenn Sie Variablenwerte auf allen Seiten festlegen möchten, auf denen Ihr Datenelement vorhanden ist.
 
-1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
+1. Gehen Sie zu `experience.adobe.com` und melden Sie sich bei entsprechender Aufforderung an.
+1. Wählen Sie [!UICONTROL Launch/Data Collection] aus.
+1. Klicken Sie auf [!UICONTROL Gehen Sie zu Launch/Data Collection] und wählen Sie [!UICONTROL Tags] aus.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
 1. Klicken Sie auf das Akkordeon [!UICONTROL Globale Variablen]. Daraufhin wird die Benutzeroberfläche zum Zuweisen globaler Variablen angezeigt.
 
 ### Variablen in Regeln festlegen
 
-Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. Siehe [Regeln](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=de) im Benutzerhandbuch zu Adobe Experience Platform Launch.
+Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. Siehe [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in der Dokumentation zur Adobe Experience Platform-Datenerfassung.
 
-1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
+1. Gehen Sie zu `experience.adobe.com` und melden Sie sich bei entsprechender Aufforderung an.
+1. Wählen Sie [!UICONTROL Launch/Data Collection] aus.
+1. Klicken Sie auf [!UICONTROL Gehen Sie zu Launch/Data Collection] und wählen Sie [!UICONTROL Tags] aus.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf die Registerkarte [!UICONTROL Regeln] und dann auf die gewünschte Regel (oder erstellen Sie eine).
 1. Klicken Sie auf die Schaltfläche [!UICONTROL Hinzufügen] unter [!UICONTROL Aktionen].
