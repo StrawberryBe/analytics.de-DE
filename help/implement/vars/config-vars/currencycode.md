@@ -2,11 +2,10 @@
 title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
 description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 95%
 
 ---
 
@@ -26,14 +25,16 @@ Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unt
 
 Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält.
 
-## Währungscode in Adobe Experience Platform Launch
+## Währungscode in Adobe Experience Platform-Tags
 
 Währungscode ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfigurierung der Adobe Analytics-Erweiterung.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
-2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
-4. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Währungscode] angezeigt wird.
+1. Gehen Sie zu `experience.adobe.com` und melden Sie sich bei entsprechender Aufforderung an.
+1. Wählen Sie [!UICONTROL Launch/Data Collection] aus.
+1. Klicken Sie auf [!UICONTROL Gehen Sie zu Launch/Data Collection] und wählen Sie [!UICONTROL Tags] aus.
+1. Klicken Sie auf die gewünschte Eigenschaft.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+1. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Währungscode] angezeigt wird.
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
@@ -42,12 +43,12 @@ Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Wä
 Währungs-Code wird über Kontextdatenvariablen in der Adobe Analytics-Erweiterung an die Adobe Experience Platform Mobile SDKs übergeben.
 
 1. Legen Sie den Währungs-Code in einer Kontextdatenvariablen während `trackState` oder `trackAction` fest.
-2. Erstellen Sie eine Verarbeitungsregel für die Report Suite in der Adobe Analytics Admin Console. Legen Sie die Regel fest, um die Währungs-Code-Variable zu überschreiben.
-3. Übergeben Sie den Währungs-Code an die `products`-Variable in Ihrem Aufruf an `trackState` oder `trackAction`.
+1. Erstellen Sie eine Verarbeitungsregel für die Report Suite in der Adobe Analytics Admin Console. Legen Sie die Regel fest, um die Währungs-Code-Variable zu überschreiben.
+1. Übergeben Sie den Währungs-Code an die `products`-Variable in Ihrem Aufruf an `trackState` oder `trackAction`.
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
-## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor für die Datenerfassung
 
 Die `s.currencyCode`-Variable ist eine Zeichenfolge, die einen dreistelligen Code in Großbuchstaben enthält, der die Währung auf der Seite darstellt.
 
