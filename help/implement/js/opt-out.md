@@ -2,10 +2,10 @@
 title: Ausschluss-Links
 description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 95%
 
 ---
 
@@ -27,19 +27,22 @@ Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-C
 
 Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](../vars/config-vars/trackingserver.md)-Variablen in Ihrer Implementierung ab.
 
-* In Adobe Experience Platform Launch:
-   1. Melden Sie sich bei [launch.adobe.com](https://launch.adobe.com) an und klicken Sie auf die gewünschte Eigenschaft.
-   2. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
-   3. Klicken Sie auf das Akkordeon [!UICONTROL Allgemein] und notieren Sie den Wert [!UICONTROL Tracking-Server].
+* In der Adobe Experience Platform-Benutzeroberfläche zur Datenerfassung:
+   1. Gehen Sie zu `experience.adobe.com` und melden Sie sich bei entsprechender Aufforderung an.
+   1. Wählen Sie [!UICONTROL Launch/Data Collection] aus.
+   1. Klicken Sie auf [!UICONTROL Gehen Sie zu Launch/Data Collection] und wählen Sie [!UICONTROL Tags] aus.
+   1. Klicken Sie auf die gewünschte Eigenschaft.
+   1. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
+   1. Klicken Sie auf das Akkordeon [!UICONTROL Allgemein] und notieren Sie den Wert [!UICONTROL Tracking-Server].
 
 * In einer JavaScript-Implementierung:
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
-   2. Notieren Sie den Wert der `trackingServer`-Variablen.
+   1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
 * Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
-   2. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
-   3. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
+   1. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
+   1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
 
 Wenn Sie die `trackingServer`-Domäne Ihrer Implementierung gefunden haben, hängen Sie den Pfad `/optout.html` an das Ende an. Beispiel:
 
