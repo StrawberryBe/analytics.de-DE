@@ -2,11 +2,10 @@
 title: Fehlerbehebung bei H-Code-Implementierungen
 description: Erfahren Sie mehr über einige häufige Probleme bei älteren JavaScript-Implementierungen.
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +17,7 @@ Im Folgenden finden Sie Schritte zur Fehlerbehebung bei H-Code-Implementierungen
 
 >[!NOTE]
 >
->Während bei H-Code-Implementierungen der Code im `<body>`-Tag referenziert werden muss, ist bei anderen Implementierungen (z. B. bei Verwendung der Adobe Experience Platform Launch) der Code im `<head>`-Tag zu referenzieren.
+>Während bei H-Code-Implementierungen der Code im Tag `<body>` referenziert werden muss, erfordern andere Implementierungen (z. B. die Verwendung von Tags in Adobe Experience Platform), dass im Tag `<head>` auf Code verwiesen wird.
 
 Analytics-Code erstellt ein unsichtbares 1x1-Pixelbild. Früher war es gängige Praxis, den `s_code.js`-Verweis im `<head>`-Tag zu platzieren. Die Platzierung des Codes hier verhinderte, dass das Bild das Seitenlayout in irgendeiner Weise beeinflusst. Er wurde auch früher ausgeführt, sodass Seitenansichten auch bei partiell geladenen Seiten effizienter gezählt werden können.
 
