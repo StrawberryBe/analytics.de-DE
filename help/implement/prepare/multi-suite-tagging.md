@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Sie Multi-Suite-Tagging implementieren, um Bildanforderungen an mehrere Report Suites zu senden.
 title: Implementieren von Multi-Suite-Tagging
 exl-id: null
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ Mit [Multi-Suite-Tagging](/help/admin/c-manage-report-suites/rollup-report-suite
 
 Um Multi-Suite-Tagging zu implementieren, müssen Sie die Report Suite-ID (RSID) für die globale Report Suite sowie die RSIDs für die entsprechenden untergeordneten Report Suites in den Trackingcode für Ihre Webseiten und Apps aufnehmen.
 
-* Geben Sie bei Adobe Experience Platform Launch-Implementierungen jede der Report Suites für die [[!DNL Analytics] Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=de) an.
+* Geben Sie bei Implementierungen von Adobe Experience Platform-Tags die einzelnen Report Suites für die [[!DNL Analytics] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) an.
 
 * Trennen Sie bei älteren JavaScript- und mobilen SDK-Implementierungen die RSIDs durch Kommas und keine Leerzeichen (`rsid1,rsid2,rsid3` usw.).
 
