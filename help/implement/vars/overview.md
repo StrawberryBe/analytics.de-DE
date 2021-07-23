@@ -3,10 +3,10 @@ title: Übersicht über Variablen, Funktionen, Methoden und Plug-ins
 description: Erfahren Sie, welche Variablen Sie in die an Adobe gesendeten Daten aufnehmen können, um die Berichterstellung zu verbessern.
 keywords: Appmeasurement;Variablen;Vars;Konfiguration;Seite;Implementierung
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 82%
 
 ---
 
@@ -20,14 +20,14 @@ Analytics bietet eine Reihe von Variablen zur Erfassung von Analytics-Daten. Die
 
 ## Variablen und Implementierungsmethoden
 
-Adobe bietet mehrere Möglichkeiten, Adobe Analytics zu implementieren. Jede Seite enthält einen Abschnitt zur Implementierung der Variablen mit Launch und AppMeasurement für JavaScript.
+Adobe bietet mehrere Möglichkeiten, Adobe Analytics zu implementieren. Jede Seite enthält einen Abschnitt zur Implementierung der Variablen mithilfe von Tags in Adobe Experience Platform und AppMeasurement für JavaScript.
 
 ## Reihenfolge der Vorgänge
 
 AppMeasurement-Bibliotheken, die von Adobe Analytics veröffentlicht werden, befolgen beim Senden von Daten an Adobe eine bestimmte Reihenfolge. Wenn Sie diese Aufgaben nicht in der richtigen Reihenfolge ausführen, können die Daten unvollständig sein.
 
 1. Wenn Ihre Website eine Datenschicht verwendet, stellen Sie sicher, dass alle entsprechenden Variablen zuerst gefüllt werden. Weitere Informationen finden Sie unter [Datenschicht](../prepare/data-layer.md).
-2. Verwenden Sie die Datenschicht, um Analytics-Variablen zu füllen. Wenn Sie Launch verwenden, ist diese Aufgabe einfach zu bewältigen, indem Sie Datenelemente verwenden und dann das Datenelement einer Variablen zuweisen. Siehe [Datenelemente](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html?lang=de) im Launch-Benutzerhandbuch.
+2. Verwenden Sie die Datenschicht, um Analytics-Variablen zu füllen. Wenn Sie Tags in Adobe Experience Platform verwenden, ist diese Aufgabe einfach zu bewältigen, indem Sie Datenelemente verwenden und dann das Datenelement einer Variablen zuweisen. Siehe [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html).
 3. Rufen Sie die Tracking-Funktion auf. Die meisten AppMeasurement-Bibliotheken verwenden die `t()`-Methode, doch einige mobile SDKs verwenden `track()`. Wenn die Tracking-Funktion aufgerufen wird, werden alle im Analytics-Objekt definierten unterstützten Variablen in Form einer Bildanforderung an Adobe gesendet.
 
 ## Unzulässige Zeichen
