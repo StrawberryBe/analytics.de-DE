@@ -2,11 +2,10 @@
 title: cookieDomain
 description: Die Variable „cookieDomain“ hilft bei der Bestimmung der Domäne, in der Cookies gesetzt werden sollen.
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 87%
 
 ---
 
@@ -25,11 +24,11 @@ Diese Variable muss nur verwendet werden, wenn **beide** der folgenden Bedingung
 
 Nur eine kleine Anzahl von Implementierungen verwenden die `cookieDomain`-Variable, und selbst dann können alternative Variablen wie [`cookieDomainPeriods`](cookiedomainperiods.md) verwendet werden.
 
-## Cookie-Domäne in Adobe Experience Platform Launch
+## Cookie-Domäne in der Adobe Experience Platform-Datenerfassung
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.cookieDomain in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.cookieDomain in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `cookieDomain`-Variable ist eine Zeichenfolge und auf die Domäne eingestellt, in der Sie Cookies speichern möchten.
 
