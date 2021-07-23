@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 94%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -151,9 +151,9 @@ ht-degree: 94%
    + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
 + Analytics mithilfe von Tags in Adobe Experience Platform implementieren {#launch}
    + [Übersicht über Tags](launch/overview.md)
-   + [Erstellen einer Analytics-Tag-Eigenschaft](launch/create-analytics-property.md)
+   + [Erstellen einer Adobe Analytics-Tag-Eigenschaft](launch/create-analytics-property.md)
    + [In einer Entwicklungsumgebung bereitstellen](launch/deploy-dev.md)
-   + [In Produktionsumgebung validieren und veröffentlichen](launch/validate-publish-prod.md)
+   + [In der Produktion validieren und veröffentlichen](launch/validate-publish-prod.md)
    + [Zuordnen von Datenschichtobjekten zu Datenelementen](launch/layer-to-elements.md)
    + [Tag-Datenelemente Analytics-Variablen zuordnen](launch/elements-to-variable.md)
 + Analytics auf anderen Plattformen implementieren {#other}
