@@ -2,14 +2,14 @@
 title: Erstellen einer Analytics-Eigenschaft in Tags
 description: Erstellen Sie mithilfe von Tags einen Bereich, um die Datenerfassung anzupassen.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
 
-# Erstellen einer Analytics-Tag-Eigenschaft
+# Erstellen einer Adobe Analytics-Tag-Eigenschaft
 
 Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf Ihrer Website integrieren (einschließlich Analytics). Auf dieser Seite wird speziell beschrieben, wie ein Tag-Administrator eine grundlegende Adobe Analytics-Implementierung richtig konfigurieren kann.
 
