@@ -2,11 +2,10 @@
 title: Referrer-Domäne
 description: Die übergeordnete Domäne, auf der sich ein Besucher befand, bevor er zu Ihrer Site klickte.
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '492'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +23,7 @@ Derselbe Bericht kann zwischen Analysis Workspace und Data Warehouse unterschied
 
 Diese Dimension erfordert die Konfiguration auf der Analytics-Benutzeroberfläche und Daten in Bildanforderungen.
 
-* Innerhalb Ihrer Implementierung ruft diese Dimension Daten aus der [`r` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `document.referrer` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `r` bei allen Bildanforderungen einbeziehen.
+* Innerhalb Ihrer Implementierung ruft diese Dimension Daten aus der [`r` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `document.referrer` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über -Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `r` bei allen Bildanforderungen einbeziehen.
 * Auf der Analytics-Benutzeroberfläche müssen Sie die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md) Ihrer Report Suite konfigurieren. Wenn die internen URL-Filter nicht konfiguriert werden, können entweder interne Domänen enthalten sein oder die Anzeige externer Domänen verhindert werden.
 
 Adobe behält die Referrer-Domäne für einen Besuch bei. Wenn ein Besucher innerhalb eines einzelnen Besuchs Ihre Site verlässt und auf einer anderen Domäne erneut auf einen Link zu Ihnen klickt, wird der neue Wert aktualisiert und bleibt für den Rest des Besuchs erhalten. Wenn Sie nur den ursprünglichen Wert anzeigen möchten, finden Sie weitere Informationen unter [Ursprüngliche Referrer-Domäne](original-referring-domain.md).
