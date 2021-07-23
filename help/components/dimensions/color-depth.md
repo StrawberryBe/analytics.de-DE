@@ -2,11 +2,10 @@
 title: Farbtiefe
 description: Die Farbtiefe des Geräts.
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +15,7 @@ Die Dimension „Farbtiefe“ gibt an, wie viele Farben das Gerät unterstützt.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine Suchtabelle und übersetzt den Bitwert in ein lesbareres Format. Sie erfasst Daten aus der [`c`-Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen. AppMeasurement verwendet die `screen.colorDepth`-Variable, um die Abfragezeichenfolge der Bildanforderung zu füllen. Wenn Sie AppMeasurement verwenden (z. B. über Adobe Experience Platform Launch), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `c` bei jedem Treffer mit einem gültigen Bit-Wert einbeziehen.
+Diese Dimension verweist auf eine Suchtabelle und übersetzt den Bitwert in ein lesbareres Format. Sie erfasst Daten aus der [`c`-Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen. AppMeasurement verwendet die `screen.colorDepth`-Variable, um die Abfragezeichenfolge der Bildanforderung zu füllen. Wenn Sie AppMeasurement verwenden (z. B. über -Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `c` bei jedem Treffer mit einem gültigen Bit-Wert einbeziehen.
 
 ## Dimensionselemente
 
