@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zur Implementierung
 description: Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Informationen.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Weitere Informationen finden Sie unter [Messen von Audio und Video in Adobe Anal
 
 ## Kann eine Dienstunterbrechung bei Adobe die Performance beeinträchtigen?
 
-Nein. Die JavaScript-Datei wird nicht auf Adobe-Servern gehostet, sodass sich ein Systemausfall bei Adobe nicht auf Ihre AppMeasurement-Bibliothek auswirkt. Wenn Sie Adobe Experience Platform Launch verwenden, wird die JavaScript-Datei von Akamai oder von einem von Ihrem Unternehmen bestimmten Server-Standort gehostet.
+Nein. Die JavaScript-Datei wird nicht auf Adobe-Servern gehostet, sodass sich ein Systemausfall bei Adobe nicht auf Ihre AppMeasurement-Bibliothek auswirkt. Wenn Sie Tags in Adobe Experience Platform verwenden, wird die JavaScript-Datei von Akamai oder einem von Ihrem Unternehmen bestimmten Serverstandort gehostet.
 
 ## Kann das Senden von Daten vom Browser an die Adobe-Dienste die Performance beeinträchtigen?
 
@@ -33,7 +33,7 @@ AppMeasurement erstellt innerhalb der HTML-Seite ein Bildobjekt, das der Browser
 
 Manchmal möchte ein Unternehmen eine Implementierung aufgrund des Vertragsablaufs entfernen oder die Anzahl der Serveraufrufe verringern.
 
-* **Implementierungen mit Launch**: Deaktivieren oder deinstallieren Sie die Adobe Analytics-Erweiterung auf der Registerkarte [!UICONTROL Erweiterungen] und veröffentlichen Sie.
+* **Implementierungen mit Tags in Adobe Experience Platform**: Deaktivieren oder deinstallieren Sie die Adobe Analytics-Erweiterung in der Registerkarte &quot;  Erweiterung&quot;und veröffentlichen Sie dann.
 * **Ältere AppMeasurement-Implementierungen**: Ersetzen Sie den gesamten Inhalt Ihrer `s_code.js`-Datei durch die folgende Codezeile:
 
 ```js
