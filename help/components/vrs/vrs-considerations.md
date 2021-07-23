@@ -5,10 +5,10 @@ title: Virtual Report Suites und Multisuite-Tagging
 feature: Report Suite-Einstellungen
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 95%
+source-wordcount: '1756'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ Beispielsweise ist pro Report Suite nur ein Google DCM zulässig. Viele Unterneh
 
 Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von Zusammenfassungsdatenquellen aggregierte Metriken *ohne Besucher-ID* enthalten, können sie nicht in [!UICONTROL Besuche]- und [!UICONTROL Besucher]-Containern segmentiert werden. Da VRS mit Segmentierung arbeitet, sind Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites nicht verfügbar, wenn das Segment mit einem Besuchs- oder Besucherbehälter erstellt wurde.
 
-Zusammenfassungsdatenquellen werden in der Virtual Report Suite angezeigt, wenn ein Trefferbehälter verwendet wird und wenn für diesen Trefferbehälter Regeln festgelegt sind, die die Datenquelleninformationen enthalten.
+Zusammenfassungsdatenquellen werden in der virtuellen Report Suite angezeigt, wenn ein Treffercontainer verwendet wird und dieser Treffercontainer Regeln enthält, die so konditioniert sind, dass sie die Datenquelleninformationen einschließen.
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Wenn Sie sich dafür entscheiden, sekundäre Server-Aufrufe zugunsten von Virtua
    * Es empfiehlt sich, die [Segmentstapelung](/help/components/segmentation/segmentation-workflow/seg-build.md) als Best Practice zu verwenden, sodass Sie ein Segment an einem Ort bearbeiten und es auf alle abhängigen Virtual Report Suites anwenden können.
    * Verwenden Sie Treffercontainer, wenn Virtual Report Suites sich gegenseitig ausschließen sollen.
 2. Nachdem Sie bestätigt haben, dass die Virtual Report Suites korrekt eingerichtet sind, entfernen Sie die sekundären Report Suite-IDs aus Ihrer Implementierung. So entfernen Sie sekundäre Report Suites:
-   * Klicken Sie in Adobe Experience Platform Launch auf das „x“ neben den Report Suites, die Sie nicht mehr verwenden möchten.
+   * Klicken Sie in der Datenerfassungs-Benutzeroberfläche in Adobe Experience Platform auf das &quot;x&quot;neben allen Report Suites, die Sie nicht mehr verwenden möchten.
    * Suchen Sie in veralteten JavaScript-Implementierungen die `s.account`-Variable und entfernen Sie alle Report Suite-IDs, die Sie nicht mehr verwenden möchten.
    * Behalten Sie in jedem Fall nur die IDs der globalen/übergeordneten Report Suites bei, die Daten Ihrer Sites und Apps erfassen.
    * Navigieren Sie zu „Admin“ > „Report Suites“ und blenden Sie alle nicht mehr verwendeten sekundären Report Suites aus.
