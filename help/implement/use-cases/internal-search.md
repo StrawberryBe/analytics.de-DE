@@ -1,10 +1,9 @@
 ---
 title: Interne Suchbegriffe erfassen
-description: Verwenden Sie eine benutzerspezifische Variable, um interne Suchbegriffe zu erfassen.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+description: Verwenden Sie eine benutzerdefinierte Variable, um interne Suchbegriffe zu erfassen.
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
@@ -12,41 +11,41 @@ ht-degree: 2%
 
 # Interne Suchbegriffe erfassen
 
-Der Berichte der internen Suche ist für viele Organisationen unverzichtbar und stellt mit Adobe Analytics keine vordefinierte Dimension dar. Bei minimalen Implementierungsbemühungen kann der Berichte interner Suchbegriffe jedoch problemlos erfasst werden.
+Die interne Suchberichterstellung ist für viele Unternehmen von zentraler Bedeutung und stellt mit Adobe Analytics keine vordefinierte Dimension dar. Bei minimalen Implementierungsbemühungen kann jedoch die Berichterstellung über interne Suchbegriffe einfach erfasst werden.
 
 ## Voraussetzungen
 
-[Validieren einer Implementierung der Entwicklung und Veröffentlichen in der Produktion](../launch/validate-publish-prod.md): Auf dieser Seite wird davon ausgegangen, dass Sie über eine grundlegende Arbeitsimplementierung verfügen und im Adobe-Debugger eine Adobe Analytics-Bildanforderung angezeigt wird.
+[Validieren Sie eine Entwicklungsimplementierung und veröffentlichen Sie sie in der Produktion](../launch/validate-publish-prod.md): Auf dieser Seite wird davon ausgegangen, dass Sie über eine grundlegende funktionierende Implementierung verfügen und im Adobe-Debugger eine Adobe Analytics-Bildanforderung sehen.
 
-## Erstellen einer eVar für die interne Suche
+## Erstellen eines eVar für die interne Suche
 
-Folgen Sie [Umrechnungsvariablen admin](/help/admin/admin/conversion-var-admin/conversion-var-admin.md), um eine neue eVar für die interne Suche zu erstellen. Geben Sie dem eVar einen leicht erkennbaren Namen (z. B. &quot;Interner Suchbegriff&quot;) und zeichnen Sie das neue eVar im [Solution Design Dokument](../prepare/solution-design.md) Ihres Unternehmens auf.
+Folgen Sie [Umrechnungsvariablen admin](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) , um eine neue eVar für die interne Suche zu erstellen. Geben Sie dem eVar einen leicht erkennbaren Namen (z. B. &quot;Interner Suchbegriff&quot;) und zeichnen Sie den neuen eVar im [Lösungsdesigndokument](../prepare/solution-design.md) Ihres Unternehmens auf.
 
-## Interne Suchbegriffe bestimmen
+## Internen Suchbegriff bestimmen
 
-Die meisten internen Suchvorgänge verwenden Abfragen-Zeichenfolgen, um Suchbegriffdaten zwischen den Seiten weiterzugeben. Verwenden Sie die interne Suche Ihrer Site und beachten Sie die URL auf der Suchergebnisseite:
+Die meisten internen Suchvorgänge verwenden Abfragezeichenfolgen, um Suchbegriffdaten zwischen Seiten weiterzugeben. Verwenden Sie die interne Suche Ihrer Site und notieren Sie die URL auf der Suchergebnisseite:
 
 `https://example.com/search.html?q=kittens`
 
-Wenn die interne Suche Ihrer Site die URL nicht verwendet, suchen Sie den Suchbegriff an anderen Stellen, z. B. in einer Datenschicht oder einem Cookie. Arbeiten Sie mit Ihrem Site-Entwicklungsteam zusammen, wenn Sie nicht sicher sind, wo Sie internen Suchbegriff finden.
+Wenn die interne Suche Ihrer Site die URL nicht verwendet, suchen Sie nach dem Suchbegriff an anderen Stellen, z. B. in einer Datenschicht oder einem Cookie. Arbeiten Sie mit Ihrem Site-Entwicklungsteam zusammen, wenn Sie nicht sicher sind, wo Sie internen Suchbegriff finden.
 
-## Den Abfrage-Zeichenfolgenparameter einem Datenelement zuweisen
+## Den Abfragezeichenfolgenparameter einem Datenelement zuweisen
 
-Folgen Sie [Ordnen Sie Datenschichtobjekte Datenelementen](../launch/layer-to-elements.md) zu. Wählen Sie bei Auswahl von **[!UICONTROL Datenelementtyp]** **[!UICONTROL Abfrage-Zeichenfolgenparameter]** anstelle von **[!UICONTROL JavaScript-Variable]**. Fügen Sie den gewünschten Zeichenfolgenparameter (normalerweise `q`) in das Textfeld ein.
+Folgen Sie [Ordnen Sie Datenschichtobjekte Datenelementen](../launch/layer-to-elements.md) zu. Wählen Sie bei der Auswahl von **[!UICONTROL Datenelementtyp]** **[!UICONTROL Abfragezeichenfolgenparameter]** anstelle von **[!UICONTROL JavaScript-Variable]** aus. Fügen Sie den gewünschten Abfragezeichenfolgenparameter (normalerweise `q`) in das Textfeld ein.
 
 ## Ordnen Sie das Datenelement dem eVar zu
 
-Folgen Sie [Zuordnen von Datenelementen zum Start zu Analytics-Variablen](../launch/elements-to-variable.md). Stellen Sie sicher, dass Sie die gleiche eVar auswählen, die Sie in den Report Suite-Einstellungen erstellt haben.
+Folgen Sie [Zuordnen von Datenelementen zu Analytics-Variablen](../launch/elements-to-variable.md). Stellen Sie sicher, dass Sie dieselbe eVar auswählen, die Sie in den Report Suite-Einstellungen erstellt haben.
 
-## Beginn der Bereitstellung starten
+## Starten der Bereitstellung von Tags
 
-Folgen Sie [Eine Analytics-Implementierung in einer Development-Umgebung](../launch/deploy-dev.md) bereitstellen. Nachdem Sie bestätigt haben, dass die dev-Umgebung funktioniert, können Sie [eine Entwicklungsimplementierung überprüfen und in der Produktion veröffentlichen.](../launch/validate-publish-prod.md)
+Folgen Sie [Bereitstellen einer Analytics-Implementierung in einer Entwicklungsumgebung](../launch/deploy-dev.md). Nachdem Sie bestätigt haben, dass die Implementierung in Ihrer Entwicklungsumgebung funktioniert, können Sie [eine Entwicklungsimplementierung validieren und in der Produktion veröffentlichen](../launch/validate-publish-prod.md).
 
-## Berichte in Workspace
+## Reporting in Workspace
 
-Geben Sie Ihrer Implementierung etwas Zeit, um Daten zu erfassen, und dann können Sie mit der Dimension in Analysis Workspace Beginn ausführen.
+Geben Sie Ihrer Implementierung etwas Zeit für die Datenerfassung und können Sie dann mit der Verwendung der Dimension in Analysis Workspace beginnen.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-2. Wenn Sie nicht automatisch bei Adobe Analytics angemeldet sind, klicken Sie oben rechts auf das 9-Raster-Symbol und wählen Sie **[!UICONTROL Analytics]**.
-3. Klicken Sie auf die Registerkarte **[!UICONTROL Arbeitsbereich]** und erstellen Sie ein neues Projekt.
-4. Suchen Sie den Namen der eVar, die Sie unter &quot;Dimensionen&quot;erstellt haben, und ziehen Sie sie in die Arbeitsfläche.
+2. Wenn Sie nicht automatisch bei Adobe Analytics angemeldet sind, klicken Sie auf das 9-Raster-Symbol oben rechts und wählen Sie **[!UICONTROL Analytics]** aus.
+3. Klicken Sie auf die Registerkarte **[!UICONTROL Workspace]** und erstellen Sie ein neues Projekt.
+4. Suchen Sie den Namen der von Ihnen unter Dimensionen erstellten eVar und ziehen Sie sie in die Arbeitsfläche des Arbeitsbereichs.
