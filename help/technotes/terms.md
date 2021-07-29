@@ -2,10 +2,10 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2429'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '2439'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Custom Insight, ein alter Name für benutzerspezifische Traffic-Variablen.
 * **KPI:** Abkürzung für Key Performance Indicator. Metriken, die einem Unternehmen helfen, die Leistung seiner Site zu verstehen. Jede Organisation verfügt über unterschiedliche KPIs, die verschiedene Aspekte ihres Geschäfts messen. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
 * **Latenz:** die Verzögerung zwischen der Datenerfassung und der Verfügbarkeit in Berichten. Die typische Latenz in einer Report Suite beträgt 30 bis 90 Minuten. Siehe [Latenz](/help/technotes/latency.md) im Benutzerhandbuch zu technischen Informationen.
-* **Launch:** Kurzform von Adobe Experience Platform Launch, der aktuellen Implementierungslösung von Adobe. Siehe [Übersicht](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=de) im Benutzerhandbuch zu Adobe Experience Platform Launch.
+* **Launch:** wird nicht mehr als Begriff verwendet. Der gekürzte frühere Name der Tags in Adobe Experience Platform, der aktuellen Implementierungslösung der Adobe. Siehe [Übersicht über Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) im Adobe Experience Platform-Benutzerhandbuch.
 * **Listen-Prop:** eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerspezifische Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Prop](../implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
 * **Listenvariable:** eine separate Variable, die von Konversionsvariablen getrennt ist. Listenvariablen unterstützen mehrere Werte im selben Treffer und Variablenwerte werden bei einem Besuch beibehalten, ähnlich wie Konversionsvariablen. Ein Unternehmen kann nur drei Listenvariablen verwenden. Siehe [Liste](/help/implement/vars/page-vars/list.md) im Benutzerhandbuch zu Implementierungen.
 * **Anmeldeunternehmen:** eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind.
