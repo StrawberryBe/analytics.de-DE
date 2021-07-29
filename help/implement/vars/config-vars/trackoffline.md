@@ -2,11 +2,10 @@
 title: trackOffline
 description: Aktivieren oder deaktivieren Sie Offline-Tracking, wodurch sich die Datenerfassung in AppMeasurement ändert.
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -28,11 +27,11 @@ Wenn diese Option aktiviert ist, verwendet AppMeasurement den folgenden Prozess 
    * Wenn nicht auf Adobe-Datenerfassungs-Server zugegriffen werden kann, wird der Treffer Warteschlange auf dem Gerät hinzugefügt.
    * Wenn auf Adobe-Datenerfassungs-Server zugegriffen werden kann, werden der Treffer und die Warteschlange der Treffer gesendet, während das Gerät offline war.
 
-## Offline-Verfolgen in Adobe Experience Platform Launch
+## Offline-Tracking mit Tags in Adobe Experience Platform
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.trackOffline in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.trackOffline in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.trackOffline`-Variable ist ein boolescher Wert, der Offline-Tracking aktiviert oder deaktiviert. Der Standardwert lautet `false`. Setzen Sie diesen Wert auf `true`, wenn Sie Offline-Tracking aktivieren möchten.
 
