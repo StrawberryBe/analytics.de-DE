@@ -2,11 +2,10 @@
 title: s_gi()
 description: Erstellen und verfolgen Sie Instanzen von AppMeasurement.
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 93%
 
 ---
 
@@ -14,18 +13,18 @@ ht-degree: 100%
 
 Die `s_gi()`-Funktion instanziiert oder findet eine Instanz von AppMeasurement nach Report Suite-ID. AppMeasurement verfolgt jede erstellte Instanz, und die `s_gi()`-Funktion gibt die vorhandene Instanz für eine Berichtssuite zurück, falls eine solche existiert. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt.
 
-## s_gi() in Adobe Experience Platform Launch
+## s_gi() mit Tags in Adobe Experience Platform
 
 Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch auch ein globales Tracking-Objekt im Akkordeon [!UICONTROL Bibliotheksverwaltung] festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 4. Erweitern Sie das Akkordeon [!UICONTROL Bibliotheksverwaltung] und wählen Sie eine andere Optionsschaltfläche als [!UICONTROL Bibliothek für mich verwalten] aus.
 
 Im Textfeld für globale Variablen können Sie ein benutzerdefiniertes Tracking-Objekt festlegen. Der Standardwert lautet `s`.
 
-## s_gi() in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s_gi() in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Rufen Sie die `s_gi()`-Funktion auf, um ein Tracking-Objekt zu instanziieren. Das einzige Argument enthält eine kommagetrennte Zeichenfolge von Report Suite-IDs. Das Argument der Report Suite-ID ist erforderlich.
 
