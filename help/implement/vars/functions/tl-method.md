@@ -2,11 +2,10 @@
 title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 92%
 
 ---
 
@@ -16,20 +15,20 @@ Die `tl()`-Methode ist eine wichtige Kernkomponente von Adobe Analytics. Sie nim
 
 Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackExternalLinks`](../config-vars/trackexternallinks.md) aktiviert ist, ruft AppMeasurement automatisch die `tl()`-Methode auf, um Download- und Exitlinktracking-Daten zu senden. Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten haben möchte, können Sie die `tl()`-Methode manuell aufrufen. Benutzerspezifische Links können nur manuell verfolgt werden.
 
-## Linktracking-Aufruf in Adobe Experience Platform Launch
+## Linktracking-Aufruf mithilfe von Tags in Adobe Experience Platform
 
-Launch verfügt über einen speziellen Speicherort, um einen Linktracking-Aufruf festzulegen.
+Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Speicherort, um einen Linktracking-Aufruf festzulegen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 1. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
 1. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie [!UICONTROL Aktionstyp] auf „Beacon senden“.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
-Sie können keine optionalen Argumente in Launch festlegen.
+Sie können keine optionalen Argumente in der Datenerfassungs-Benutzeroberfläche festlegen.
 
-## s.tl()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.tl()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Rufen Sie die `s.tl()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
