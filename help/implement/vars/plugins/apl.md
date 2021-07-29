@@ -2,11 +2,10 @@
 title: apl (appendToList)
 description: Fügen Sie Werte an Variablen an, die mehrere Werte unterstützen.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1036'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +23,11 @@ Mit dem `apl`-Plug-in können Sie sicher neue Werte zu durch Listen getrennten V
 
 Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie vorhandenen Variablen, die eine Zeichenfolge aus durch Trennzeichen getrennten Werten enthalten, neue Werte hinzufügen möchten. Dieses Plug-in ist nicht erforderlich, wenn Sie Zeichenfolgen für Variablen mit getrennten Werten verknüpfen möchten.
 
-## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mithilfe von Tags in Adobe Experience Platform
 
 Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
 1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
@@ -40,11 +39,11 @@ Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden k�
    * Aktionstyp: APL („Append To List“ (An Liste anhängen)) initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in 
 
 Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 1. Erweitern Sie das Akkordeon [!UICONTROL Tracking mit benutzerdefiniertem Code konfigurieren], wodurch die Schaltfläche [!UICONTROL Editor öffnen] angezeigt wird.
