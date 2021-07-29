@@ -2,11 +2,10 @@
 title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 91%
 
 ---
 
@@ -18,18 +17,18 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 >
 >Wenn diese Variable in einem Treffer ohne Warenkorbereignis in der [`events`](events/events-overview.md)-Variable festgelegt wird, wird die Metrik [Produktansichten](/help/components/metrics/product-views.md) um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer mit der Variable `products` das entsprechende Warenkorbereignis festlegen.
 
-## Produkte in Adobe Experience Platform Launch
+## Produkte mit Tags in Adobe Experience Platform
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu setzen. Es gibt jedoch mehrere Erweiterungen von Drittanbietern, die helfen können.
+Es gibt kein spezielles Feld in der Datenerfassungs-Benutzeroberfläche, um diese Variable festzulegen. Es gibt jedoch mehrere Drittanbietererweiterungen, die helfen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie auf [!UICONTROL Katalog], um alle verfügbaren Erweiterungen anzuzeigen.
 4. Suchen Sie nach dem Begriff „product“, der mehrere verfügbare Erweiterungen zum Festlegen dieser Variablen anzeigt.
 
 Sie können eine dieser Erweiterungen oder den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax unten verwenden.
 
-## s.products in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.products in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Jedes einzelne Produkt kann über alle Felder hinweg bis zu 100 Byte enthalten. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
 
