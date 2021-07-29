@@ -2,11 +2,10 @@
 title: zip
 description: Füllen Sie die Dimension „Postleitzahl“ manuell, wenn die Report Suite-Einstellungen dies zulassen.
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ Mit der `zip`-Variablen können Sie die Dimension „Postleitzahl“ manuell fü
 >
 >Stellen Sie sicher, dass die [!UICONTROL Postleitzahlenoption] in den Report Suite-Einstellungen auf den gewünschten Wert eingestellt ist. Sie können diese Variable nicht verwenden, wenn immer [!UICONTROL geo-zip] verwendet wird. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md).
 
-## zip In Adobe Experience Platform Launch
+## Komprimieren mit Tags in Adobe Experience Platform
 
 Sie können die Postleitzahl entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
@@ -31,7 +30,7 @@ Sie können die Postleitzahl entweder beim Konfigurieren der Analytics-Erweiteru
 
 Sie können die Postleitzahl auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
 
-## s.zip in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.zip in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.zip`-Variable ist eine Zeichenfolge, die normalerweise eine Postleitzahl enthält, jedoch einen beliebigen Wert mit einer Länge von bis zu 50 Byte enthalten kann.
 
