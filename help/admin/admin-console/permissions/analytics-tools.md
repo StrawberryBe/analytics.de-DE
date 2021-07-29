@@ -2,9 +2,9 @@
 title: Produktprofilberechtigungen für Analytics-Werkzeuge
 description: Verwenden Sie die Berechtigungselemente der Analytics-Werkzeuge, um Zugriff auf Funktionen in Adobe Analytics zu gewähren.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,7 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Berechtigungselement der Analytics-Tools | Beschreibung |
 |----|----|
 | [!UICONTROL Nutzung der Server-Aufrufe] | Gewährt Zugriff auf „Admin“ > „Server-Aufruf-Nutzung“. |
-| [!UICONTROL Code-Manager] | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen verwenden Sie stattdessen die Bibliotheken, die in der Adobe Experience Platform-Datenerfassung enthalten sind. |
+| [!UICONTROL Code-Manager] | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen verwenden Sie stattdessen die in der Datenerfassungs-Benutzeroberfläche enthaltenen Bibliotheken. |
 | [!UICONTROL Code-Manager – Web-Services] | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
 | [!UICONTROL Protokolle] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Protokolle“. |
 | [!UICONTROL Protokolle – Web-Services] | Gewährt Zugriff, um Protokolle über die 1.4-API abzurufen. |
