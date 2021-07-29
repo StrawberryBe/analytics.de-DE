@@ -2,25 +2,24 @@
 title: campaign
 description: Füllen Sie die Dimension „Trackingcode“.
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '191'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 89%
 
 ---
 
-# campaign
+# Kampagne
 
 Die `campaign`-Variable dient der Erfassung von Trackingcodes auf Ihrer Website. In früheren Versionen von Adobe Analytics gab es eine Sonderbehandlung, bei der sie als Aufschlüsselung in die meisten Dimensionen verwendet werden konnte. In der aktuellen Version von Adobe Analytics ist sie mit einer eVar identisch.
 
 Diese Variable füllt die Dimension „Trackingcode“.
 
-## campaign in Adobe Experience Platform Launch
+## Kampagne mit Tags in Adobe Experience Platform
 
 Sie können „campaign“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
@@ -29,7 +28,7 @@ Sie können „campaign“ entweder beim Konfigurieren der Analytics-Erweiterung
 
 Sie können „campaign“ auf einen Wert oder einen Abfragezeichenfolgenparameter setzen.
 
-## s.campaign in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.campaign in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.campaign`-Variable ist eine Zeichenfolge, die normalerweise einen Trackingcode enthält, der in Marketing-Maßnahmen verwendet wird. Die maximale Länge beträgt 255 Byte. Werte, die länger als 255 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 
