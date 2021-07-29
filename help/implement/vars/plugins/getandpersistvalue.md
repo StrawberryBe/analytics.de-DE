@@ -2,11 +2,10 @@
 title: getAndPersistValue
 description: Speichern Sie einen Wert, der später jederzeit abgerufen werden kann.
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '934'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 90%
 
 ---
 
@@ -16,13 +15,13 @@ ht-degree: 100%
 >
 >Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Mit dem `getAndPersistValue`-Plug-in können Sie einen Wert in einem Cookie speichern, das später während eines Besuchs abgerufen werden kann. Es erfüllt eine ähnliche Rolle wie die Funktion [!UICONTROL Speicherdauer] in Adobe Experience Platform Launch. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie eine Analytics-Variable bei nachfolgenden Treffern automatisch auf dem gleichen Wert belassen wollen, nachdem die Variable gesetzt wurde. Dieses Plug-in ist nicht erforderlich, wenn die Funktion [!UICONTROL Speicherdauer] von Launch ausreicht oder Sie Variablen in nachfolgenden Treffern nicht auf denselben Wert setzen und beibehalten müssen. Die integrierte Persistenz von eVars erfordert nicht die Verwendung dieses Plug-ins, da diese Variablen Server-seitig von Adobe beibehalten werden.
+Mit dem `getAndPersistValue`-Plug-in können Sie einen Wert in einem Cookie speichern, das später während eines Besuchs abgerufen werden kann. Es erfüllt eine ähnliche Rolle wie die Funktion [!UICONTROL Speicherdauer] unter Verwendung von Tags in Adobe Experience Platform. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie eine Analytics-Variable bei nachfolgenden Treffern automatisch auf dem gleichen Wert belassen wollen, nachdem die Variable gesetzt wurde. Dieses Plug-in ist nicht erforderlich, wenn die Funktion [!UICONTROL Speicherdauer] in Adobe Experience Platform ausreicht. Es ist auch nicht erforderlich, dieses Plug-in zu verwenden, wenn Sie Variablen in nachfolgenden Treffern nicht auf denselben Wert setzen und beibehalten müssen. Die integrierte Persistenz von eVars erfordert nicht die Verwendung dieses Plug-ins, da diese Variablen Server-seitig von Adobe beibehalten werden.
 
-## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mithilfe von Tags in Adobe Experience Platform
 
 Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
 1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
@@ -34,11 +33,11 @@ Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden k�
    * Aktionstyp: getAndPersistValue initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in 
 
 Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 1. Erweitern Sie das Akkordeon [!UICONTROL Tracking mit benutzerdefiniertem Code konfigurieren], wodurch die Schaltfläche [!UICONTROL Editor öffnen] angezeigt wird.
