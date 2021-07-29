@@ -2,11 +2,10 @@
 title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
@@ -16,11 +15,11 @@ Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefiniert
 
 Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen, statt in nummerierten Variablen zu erfassen. Anstatt beispielsweise anzufordern, dass Entwicklungsteams den Autor der Seite `eVar10` zuweisen, können Sie sie stattdessen auffordern, ihn `s.contextData["author"]` zuzuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen Analysevariablen für die Berichterstellung zuzuordnen. Entwicklungsteams würden sich letztlich nur um Kontextdatenvariablen kümmern, nicht um die vielen Seitenvariablen, die Adobe anbietet.
 
-## Kontextdatenvariablen in Adobe Experience Platform Launch
+## Kontextdatenvariablen mit Tags in Adobe Experience Platform
 
-Es gibt keine spezielle Stelle in Launch, um Kontextdatenvariablen festzulegen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Die Datenerfassungs-Benutzeroberfläche verfügt über keinen speziellen Speicherort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.contextData`-Variable nimmt keinen Wert direkt an. Setzen Sie stattdessen die Eigenschaften dieser Variable auf eine Zeichenfolge.
 
