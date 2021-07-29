@@ -2,11 +2,10 @@
 title: linkDownloadFileTypes
 description: Legen Sie Dateierweiterungen fest, die automatisch als Downloadlinks verfolgt werden.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 91%
 
 ---
 
@@ -24,23 +23,25 @@ Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen 
 > * Downloads, die nach einer Umleitung ausgelöst werden
 > * Mit der rechten Maustaste klicken und „Ziel speichern unter...“ auswählen
 > * Links, die JavaScript verwenden, wie z. B. `javascript:openLink()`
+
 >
-> Bei diesen Download-Typen können Sie die [`tl()`](../functions/tl-method.md)-Methode manuell aufrufen.
+> 
+Bei diesen Download-Typen können Sie die [`tl()`](../functions/tl-method.md)-Methode manuell aufrufen.
 
 Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downloadlinks entspricht, hat der Downloadlink-Typ Priorität.
 
-## Download-Erweiterungen in Adobe Experience Platform Launch
+## Herunterladen von Erweiterungen mithilfe von Tags in Adobe Experience Platform
 
 Download-Erweiterungen sind eine Liste von Dateierweiterungen mit einem Feld, um bei der Konfiguration der Adobe Analytics-Erweiterung unter dem Akkordeon [!UICONTROL Linktracking] weitere hinzuzufügen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking], wodurch das Feld [!UICONTROL Download-Erweiterungen] angezeigt wird.
 
 Fügen Sie der Liste Dateierweiterungen hinzu, indem Sie Text in das Feld eingeben und auf [!UICONTROL Hinzufügen] klicken. Entfernen Sie Dateierweiterungen aus der Liste, indem Sie auf das entsprechende X-Symbol klicken.
 
-## s.linkDownloadFileTypes in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.linkDownloadFileTypes in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.linkDownloadFileTypes`-Variable ist eine Zeichenfolge aus kommagetrennten Dateierweiterungen. Verwenden Sie keine Leerzeichen.
 
