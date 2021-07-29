@@ -2,10 +2,10 @@
 title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
 description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 95%
+source-wordcount: '834'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +25,11 @@ Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unt
 
 Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält.
 
-## Währungscode in Adobe Experience Platform-Tags
+## Währungscode mit Tags in Adobe Experience Platform
 
 Währungscode ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfigurierung der Adobe Analytics-Erweiterung.
 
-1. Gehen Sie zu `experience.adobe.com` und melden Sie sich bei entsprechender Aufforderung an.
-1. Wählen Sie [!UICONTROL Launch/Data Collection] aus.
-1. Klicken Sie auf [!UICONTROL Gehen Sie zu Launch/Data Collection] und wählen Sie [!UICONTROL Tags] aus.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 1. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Währungscode] angezeigt wird.
@@ -48,7 +46,7 @@ Währungs-Code wird über Kontextdatenvariablen in der Adobe Analytics-Erweiteru
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
-## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor für die Datenerfassung
+## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.currencyCode`-Variable ist eine Zeichenfolge, die einen dreistelligen Code in Großbuchstaben enthält, der die Währung auf der Seite darstellt.
 
