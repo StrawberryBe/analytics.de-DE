@@ -2,11 +2,10 @@
 title: forceOnline
 description: Legen Sie den Online-Status von AppMeasurement manuell fest.
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 83%
 
 ---
 
@@ -20,11 +19,11 @@ Mit der `forceOnline()`-Methode können Sie den automatisch erkannten Status von
 
 AppMeasurement erkennt automatisch den Online-Status des Geräts. Mit der `forceOnline()`-Methode können Sie AppMeasurement zwingen, Treffer so zu behandeln, als ob das Gerät online wäre. Diese Methode akzeptiert keine Argumente und gibt keinen Wert zurück. Ihr einziger Zweck besteht darin, den Online-Status in AppMeasurement zu überschreiben.
 
-## Online erzwingen in Adobe Experience Platform Launch
+## Online mithilfe von Tags in Adobe Experience Platform erzwingen
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.forceOnline() in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.forceOnline() in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Sie können die `s.forceOnline()`-Methode an einer beliebigen Stelle in Ihrer Implementierung aufrufen, nachdem Sie das Analytics-Objekt instanziiert haben.
 
