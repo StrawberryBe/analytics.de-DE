@@ -2,11 +2,10 @@
 title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -16,11 +15,11 @@ Dimensionen und Metriken sind wichtige Komponenten für Berichte. Die `events`-V
 
 Bevor Sie Ereignisse implementieren, stellen Sie sicher, dass Sie sie in den Report Suite-Einstellungen unter [Erfolgsereignisse](/help/admin/admin/c-success-events/success-event.md) erstellen und konfigurieren. Wenn Sie vorhaben, benutzerspezifische Ereignisse in Linktracking-Treffern zu verwenden, stellen Sie sicher, dass [`linkTrackVars`](../../config-vars/linktrackvars.md) und [`linkTrackEvents`](../../config-vars/linktrackevents.md) korrekt eingestellt sind.
 
-## Ereignisse in Adobe Experience Platform Launch
+## Ereignisse mit Tags in Adobe Experience Platform
 
 Sie können Ereignisse entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
@@ -34,7 +33,7 @@ Es stehen verschiedene Funktionen zur Verfügung:
 * Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Wenn Sie beispielsweise `event1` unter der Dropdown-Liste auswählen und `10` in dieses Feld einschließen, wird `event1` in der Berichterstellung um 10 inkrementiert.
 * Eine Schaltfläche zum Hinzufügen eines weiteren Ereignisses. Die Anzahl der Ereignisse, die Sie in einen Treffer einbeziehen können, ist gewissermaßen unbegrenzt.
 
-## s.events in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.events in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.events`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Ereignissen enthält, die in den Treffer einbezogen werden sollen. Für diese Variable gibt es keine Byte-Begrenzung, daher wird sie nicht abgeschnitten. Zu gültigen Werten gehören:
 
