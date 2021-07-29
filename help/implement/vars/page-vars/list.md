@@ -2,15 +2,14 @@
 title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '363'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
-# list
+# Liste
 
 Listenvariablen sind benutzerspezifische Variablen, die Sie beliebig verwenden können. Sie funktionieren ähnlich wie eVars, allerdings können sie mehrere Werte im selben Treffer enthalten. Listenvariablen haben keine Zeichenbeschränkung.
 
@@ -24,11 +23,11 @@ Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und
 
 Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellungen konfigurieren, bevor Sie sie in Ihrer Implementierung verwenden. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
-## Listenvariablen in Adobe Experience Platform Launch
+## Listenvariablen mit Tags in Adobe Experience Platform
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.list1 – s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.list1 – s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Sie haben keine maximale Byte-Anzahl; jeder einzelne Wert hat jedoch ein Maximum von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in den Report Suite-Einstellungen festgelegt. Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
 
