@@ -2,11 +2,10 @@
 title: dynamicAccountList
 description: Legen Sie eine Logik fest, wie Ihre Implementierung die Report Suite bestimmt.
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Dynamische Konten werden nur mit älteren JavaScript-Implementierungen (H-Code) unterstützt. Diese Variablen werden in aktuellen AppMeasurement-Bibliotheken oder in Adobe Experience Platform Launch nicht unterstützt.
+>Dynamische Konten werden nur mit älteren JavaScript-Implementierungen (H-Code) unterstützt. Diese Variablen werden in aktuellen AppMeasurement-Bibliotheken oder der Datenerfassungs-Benutzeroberfläche nicht unterstützt.
 
 Die `s.dynamicAccountList`-Variable bestimmt dynamisch den Wert von `s_account`. Ist `dynamicAccountSelection` gleich `true`, wird die `dynamicAccountMatch`-Variable mit `dynamicAccountList` verglichen. Wenn eine Übereinstimmung gefunden wird, wird die entsprechende Report Suite-ID verwendet.
 
