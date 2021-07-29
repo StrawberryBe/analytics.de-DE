@@ -2,11 +2,10 @@
 title: doPlugins
 description: Konfigurieren Sie die Logik, kurz bevor ein Treffer kompiliert und an Adobe gesendet wird.
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 88%
 
 ---
 
@@ -19,11 +18,11 @@ Die `doPlugins`-Variable dient als „letzte Chance“, um Werte in Ihrer Implem
 
 Verwenden Sie die `doPlugins`-Variable, um Plug-in-Code aufzurufen und endgültige Variablenwerte festzulegen, bevor eine Bildanforderung kompiliert und an Adobe gesendet wird.
 
-## Plug-ins in Adobe Experience Platform Launch
+## Plug-ins mit Tags in Adobe Experience Platform
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.doPlugins in AppMeasurement und im benutzerdefinierten Code in Launch
+## s.doPlugins in AppMeasurement und im benutzerdefinierten Code in 
 
 Stellen Sie die `s.doPlugins`-Variable auf eine Funktion ein, die den gewünschten Code enthält. Die Funktion wird automatisch ausgeführt, wenn Sie einen Tracking-Aufruf ausführen.
 
