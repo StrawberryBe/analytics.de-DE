@@ -2,10 +2,10 @@
 title: Technische Handbücher zu Adobe Analytics
 description: Benutzerhandbücher und Ressourcen zu Analytics
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md) [Administratorhandbuch](/help/admin/home.md) – Erfahren Sie mehr über die Verwaltung von Benutzern und Produkten in Experience Cloud Admin Console, die Konfiguration von Report Suites, Unternehmenseinstellungen, Data Governance, die Nutzung von Server-Aufrufen, Traffic-Management und mehr.
 
-[![Implementierung](assets/implement_50px.png)](/help/implement/home.md) [Implementierungshandbuch](/help/implement/home.md) – Legen Sie fest, welche Daten erfasst werden, um Adobe Analytics optimal zu nutzen. Enthält Kapitel zu Implementierungen von [!UICONTROL Adobe Experience Platform Launch] und JavaScript.
+[![Implementierung](assets/implement_50px.png)](/help/implement/home.md) [Implementierungshandbuch](/help/implement/home.md) – Legen Sie fest, welche Daten erfasst werden, um Adobe Analytics optimal zu nutzen. Umfasst die Verwendung von Tags in Adobe Experience Platform- und JavaScript-Implementierungen.
 
 [![Komponenten](assets/components_50px.png)](/help/components/home.md) [Komponentenleitfaden](/help/components/home.md) – Erläutert die Funktionen zur Steuerung der Datennutzung. Zu Komponenten gehören u. a. Segmente, berechnete Metriken, Virtual Report Suites und Warnhinweise. Dieses Handbuch enthält auch einen Abschnitt zu Variablen mit einer Erläuterung aller verfügbarer Dimensionen und Metriken.
 
@@ -27,9 +27,9 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
 
 [![Integration](assets/integrate_50px.png)](/help/integrate/home.md) [Integrationsleitfaden](/help/integrate/home.md) – Konfigurieren Sie die Integration mit anderen Adobe Experience Cloud-Lösungen, wie z. B. Audience Manager, Advertising Cloud und Target.
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) [Streaming Media Analytics-Handbuch](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) – Implementieren von Adobe Analytics für Streaming-Medien. Beinhaltet auch Informationen zum Media SDK und zur Media Collection API.
+[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) [Streaming Media Analytics-Handbuch](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) – Implementieren von Adobe Analytics für Streaming-Medien. Beinhaltet auch Informationen zum Media SDK und zur Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=de) [Data Workbench-Leitfäden](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=de) – Erfahren Sie mehr über die hochflexiblen, leistungsstarken Mehrkanalfunktionen von [!UICONTROL Data Workbench]. Beinhaltet Leitfäden für den [!UICONTROL Data Workbench-Client] sowie Installation, [!UICONTROL Datensatzkonfiguration] usw.
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=de) [Data Workbench-Leitfäden](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) – Erfahren Sie mehr über die hochflexiblen, leistungsstarken Mehrkanalfunktionen von [!UICONTROL Data Workbench]. Beinhaltet Leitfäden für den [!UICONTROL Data Workbench-Client] sowie Installation, [!UICONTROL Datensatzkonfiguration] usw.
 
 [![Technotes](assets/technotes_50px.png)](/help/technotes/home.md) [Technotes zu Analytics](/help/technotes/home.md) – Ein Nachschlagewerk mit hilfreichen Artikeln, die sich nicht auf ein bestimmtes Analysetool oder eine bestimmte Komponente beschränken.
 
