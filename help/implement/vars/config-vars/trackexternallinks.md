@@ -2,11 +2,10 @@
 title: trackExternalLinks
 description: Aktivieren oder deaktivieren Sie das automatische Linktracking für Exitlinks.
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 87%
 
 ---
 
@@ -16,18 +15,18 @@ Adobe bietet die Möglichkeit, ausgehende Links zu verfolgen, ohne die [`tl()`](
 
 Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-URLs mit den Werten in [`linkInternalFilters`](linkinternalfilters.md) und [`linkExternalFilters`](linkexternalfilters.md). Bei Übereinstimmung wird automatisch ein Exitlinktracking-Aufruf ausgelöst.
 
-## Verfolgen von ausgehenden Links in Adobe Experience Platform Launch
+## Verfolgen ausgehender Links mithilfe von Tags in Adobe Experience Platform
 
 „Ausgehende Links verfolgen“ ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking], wodurch das Kontrollkästchen [!UICONTROL Ausgehende Links verfolgen] angezeigt wird.
 
 Aktivieren Sie das Kontrollkästchen, um das automatische Tracking von Exitlinks zu aktivieren.
 
-## s.trackExternalLinks in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.trackExternalLinks in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 `s.trackExternalLinks` ist ein boolescher Wert, der das automatische Tracking von Exitlinks aktiviert oder deaktiviert. Wenn Sie ausgehende Links nicht verfolgen oder die `tl()`-Methode zum Tracking von Exitlinks lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`.
 
