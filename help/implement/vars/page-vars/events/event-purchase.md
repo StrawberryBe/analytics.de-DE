@@ -2,11 +2,10 @@
 title: Kaufereignis
 description: Verwenden Sie das Kaufereignis, um Daten zu den Metriken „Bestellungen“, „Einheiten“ und „Umsatz“ zu erfassen.
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 90%
 
 ---
 
@@ -24,18 +23,18 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 >
 >Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispiel: `s.products="Womens;Socks;5;4.50"` wird nicht als 22,50 USD im Umsatz ausgewiesen, sondern als 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist. Beispiel: `s.products="Womens;Socks;5;22.50"`.
 
-## Festlegen des Kaufereignisses in Adobe Experience Platform Launch
+## Festlegen des Kaufereignisses mithilfe von Tags in Adobe Experience Platform
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse] und wählen Sie im Dropdown-Menü „Ereignisse“ [!UICONTROL purchase] aus.
 
-Andere abhängige Variablen wie `products` und `purchaseID` haben keine dedizierten Felder in Launch. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Andere abhängige Variablen wie `products` und `purchaseID` verfügen nicht über dedizierte Felder in der Datenerfassungs-Benutzeroberfläche. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor in Launch festlegen
+## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor in festlegen
 
 Das Kaufereignis ist eine Zeichenfolge, die als Teil der Ereignisvariablen festgelegt wird.
 
