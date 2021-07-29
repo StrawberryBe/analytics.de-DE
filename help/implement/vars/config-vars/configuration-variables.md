@@ -2,10 +2,10 @@
 title: Konfigurationsvariablen
 description: Verwenden Sie Konfigurationsvariablen, um festzustellen, wie Daten erfasst werden.
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 64%
+source-wordcount: '125'
+ht-degree: 68%
 
 ---
 
@@ -19,9 +19,7 @@ Bei JavaScript-Implementierungen mit `AppMeasurement.js` werden die Konfiguratio
 
 Bei Implementierungen mit Adobe Experience Platform-Tags werden Konfigurationsvariablen normalerweise durch Konfigurieren der Adobe Analytics-Erweiterung gefunden:
 
-1. Gehen Sie zu `experience.adobe.com` und melden Sie sich bei entsprechender Aufforderung an.
-1. Wählen Sie [!UICONTROL Launch/Data Collection] aus.
-1. Klicken Sie auf [!UICONTROL Gehen Sie zu Launch/Data Collection] und wählen Sie [!UICONTROL Tags] aus.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die Eigenschaft, die Sie bearbeiten möchten.
 1. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
 
