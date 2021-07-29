@@ -2,11 +2,10 @@
 title: purchaseID
 description: Deduplizieren Sie Treffer basierend auf einer eindeutigen Kaufkennung.
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ Wenn Adobe einen Treffer als doppelten Kauf erkennt, werden alle Konversionsdate
 
 Die Kauf-IDs gelten für alle Besucher und laufen nicht ab. Wenn ein Besucher eine bestimmte Kauf-ID festlegt und ein anderer Besucher dieselbe Kauf-ID ein Jahr später festlegt, wird der zweite Kauf dedupliziert.
 
-## Kauf-ID in Adobe Experience Platform Launch
+## Kauf-ID mithilfe von Tags in Adobe Experience Platform
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.purchaseID in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.purchaseID in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Die `s.purchaseID`-Variable ist eine Zeichenfolge, die eine eindeutige Kennung für einen Kauf enthält. Sie wird bei demselben Treffer wie ein Kaufereignis gesetzt. Verwenden Sie nur alphanumerische Zeichen, um diese Variable zu füllen.
 
