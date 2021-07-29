@@ -2,10 +2,10 @@
 description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 title: Adobe Analytics – Schlüsselkonzepte
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurz
 | Data Warehouse | Unverarbeitete Rohdaten zur Speicherung und für benutzerdefinierte Berichte, die Sie durch Datenfilterung erstellen können. Nicht auf Treffer-Niveau. | [Data Warehouse-Homepage](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Führt mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. | [Mobile Services-Homepage](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=de) |
 | Adobe Exchange Data Connectors (früher Genesis) | Ermöglicht den Import von Nachverfolgungsdaten aus Drittanbieteranwendungen in Analytics, um eine vollständige Übersicht der Leistung an einem zentralen Ort bereitzustellen. Zum 1. August 2021 beabsichtigt Adobe, Integrationen von Data Connectors einzustellen. | [Data Connectors-Homepage](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Die nächste Generation von Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs. | [Adobe Experience Platform Launch-Übersicht](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de) |
+| Tags in Adobe Experience Platform | Die nächste Generation von Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs. | [Übersicht über Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
 
 ## Wichtige Terminologie {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -107,7 +107,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | Implementierungshandbuch | Eine Beschreibung der Datenerfassungsvariablen und Einzelheiten zur Implementierung von Datenerfassungscode in JavaScript. | [Implementierungshandbuch](/help/implement/home.md) |
 | AppMeasurement (s_code) | Globale Variablenverwaltung. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | Anwendungs-SDKs | Benutzerdefiniertes Paket, das eine vorausgefüllte Version der Konfigurationsdatei für Anwendungen enthält. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=de)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=de)</li></ul> |
-| Adobe Experience Platform Launch | Siehe Analytics-Werkzeuge. |  |
+| Tags in Adobe Experience Platform | Siehe Analytics-Werkzeuge. |  |
 | VISTA | Ermöglicht die Anwendung serverseitiger Logik zum Ändern oder Segmentieren von Daten während der Erfassung. | [VISTA-Regeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Verarbeitungsregeln | Möglichkeit, Variablen in der Benutzeroberfläche von Analytics festzulegen, zu ändern und zu kopieren, um die erfassten Daten anzupassen. | [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | Debugger-Optionen | Es stehen mehrere Debugger und Paket-Sniffer zur Verfügung, mit denen Sie Ihre Implementierung überprüfen können, einschließlich des Adobe Experience Cloud-Debuggers. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=de) |
