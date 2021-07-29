@@ -2,11 +2,10 @@
 title: clearVars
 description: Löscht die folgenden Werte aus dem Instanzobjekt. Diese Funktion entfernt die Elemente (legt sie als „undefiniert“ fest).
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 87%
 
 ---
 
@@ -29,17 +28,17 @@ Diese Methode akzeptiert keine Argumente und gibt keinen Wert zurück. Der einzi
 * `zip`
 * `campaign`
 
-## Löschen von Variablen in Adobe Experience Platform Launch
+## Variablen mithilfe von Tags in Adobe Experience Platform löschen
 
 Legen Sie beim Konfigurieren einer Regel die Aktion „Variablen löschen“ fest.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen löschen].
 
-## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Sie können die `s.clearVars()`-Methode an einer beliebigen Stelle in Ihrer Implementierung aufrufen, nachdem Sie die Analytics-Objektinstanz instanziiert haben.
 
