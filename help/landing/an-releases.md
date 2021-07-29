@@ -2,10 +2,10 @@
 description: Erläutert die neue Strategie zur kontinuierlichen Veröffentlichung von Funktionen für Adobe Analytics.
 title: Veröffentlichung von Adobe Analytics-Funktionen
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Bei jeder Funktionsveröffentlichung kann die Timeline von RTP bis GA variieren.
 
 ## Funktionsmarkierungen
 
-Mithilfe von Funktionsmarkierungen wird die Sichtbarkeit neuer Funktionen während der Veröffentlichung gesteuert. Adobe empfiehlt, app.launchdarkly.com zur [Zulassungsliste](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=de) Ihrer Firewall hinzuzufügen, um eine optimale Veröffentlichung zu erzielen. Kurz nach der allgemeinen Verfügbarkeit wird die Markierung entfernt.
+Mithilfe von Funktionsmarkierungen wird die Sichtbarkeit neuer Funktionen während der Veröffentlichung gesteuert. Adobe empfiehlt, `app.launchdarkly.com` zur [Zulassungsliste](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=de) Ihrer Firewall hinzuzufügen, um eine optimale Veröffentlichung zu erzielen. Kurz nach der allgemeinen Verfügbarkeit wird die Markierung entfernt.
 
 Sie können sich Ihre aktiven Funktionsmarkierungen jederzeit unter **Hilfe > Über den Workspace > Aktive Funktionsmarkierungen** ansehen.
 
