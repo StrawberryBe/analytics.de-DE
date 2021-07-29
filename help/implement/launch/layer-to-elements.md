@@ -2,10 +2,10 @@
 title: Zuordnen von Datenschichtobjekten zu Datenelementen
 description: Konfigurieren Sie Tags, die aus Ihrer Datenschicht gelesen werden sollen.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 60%
+source-wordcount: '357'
+ht-degree: 61%
 
 ---
 
@@ -24,9 +24,7 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
 
 [Datenelemente ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) sind Komponenten in der Datenerfassungs-Benutzeroberfläche, die Sie im gesamten Tool verwenden können. Sie können mithilfe von Datenelementen Variablenwerte in der Adobe Analytics-Erweiterung zuweisen.
 
-1. Gehen Sie zu [experience.adobe.com](https://experience.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
-1. Wählen Sie **[!UICONTROL Launch/Data Collection]** aus.
-1. Klicken Sie auf **[!UICONTROL Gehen Sie zu Launch/Data Collection]** und wählen Sie **[!UICONTROL Tags]** aus.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Datenelemente]** und dann auf **[!UICONTROL Datenelement hinzufügen]**.
 
