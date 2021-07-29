@@ -2,11 +2,10 @@
 title: t
 description: Senden Sie einen Seitenansichts-Tracking-Aufruf an Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -36,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe empfängt die Bildanforderung und analysiert dann die Parameter für Anforderungsheader, URL und Abfragezeichenfolge. Datenerfassungs-Server geben dann ein transparentes 1x1-Pixel-Bild zurück, das unsichtbar auf Ihrer Website angezeigt wird.
 
-## Seitenansichts-Tracking-Aufruf in Adobe Experience Platform Launch
+## Seitenansichts-Tracking-Aufruf mithilfe von Tags in Adobe Experience Platform
 
-Launch verfügt über einen speziellen Speicherort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
+Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Speicherort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie [!UICONTROL Aktionstyp] auf „Beacon senden“.
 6. Klicken Sie auf die Optionsschaltfläche `s.t()`.
 
-## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
+## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
 Rufen Sie die `s.t()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
