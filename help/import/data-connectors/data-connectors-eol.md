@@ -2,10 +2,10 @@
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 Seit mehr als einem Jahrzehnt ist Adobe Analytics bestrebt, die marktführende Web- und Marketing-Analyselösung zur Erfüllung der Kundenanforderungen bereitzustellen. Im Zuge der Entwicklung von Technologie- und Geschäftsanforderungen streben wir danach, stets die höchsten Standards zu erfüllen.  Leider entsprechen die APIs, die diese Integration unterstützen, nicht mehr diesen Standards und sind in der modernen Adobe Analytics-Technologieinfrastruktur nicht mehr haltbar.
 
-**Zum 1. August 2021** beabsichtigt Adobe, Integrationen von Data Connectors einzustellen. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und Adobe zielt darauf ab, den Übergang für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
+**Mit Wirkung vom 1. August 2021** hat Adobe die Data Connectors-Integrationen eingestellt. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und Adobe zielt darauf ab, den Übergang für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
 
 ## Warum schaffen wir diese Funktion ab?
 
@@ -31,6 +31,8 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 
 ## Data Connector-Partnerstatus
 
+*Neueste Aktualisierung: 2. August 2021 (Hootsuite)*
+
 | Partner | Status |
 | --- | --- |
 | Acxiom | Veraltet |
@@ -44,12 +46,12 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Apteligent | Veraltet |
 | BlueHornet eMarketing Suite | Veraltet |
 | Verzweigung | Migration zu Exchange |
-| BrightEdge 2.0, BrightEdge, BrightEdge Express | Veraltet |
+| BrightEdge 2.0LeuchtendeRand, LeuchtendeRand Ausdrücken | Veraltet |
 | Bronto Software | Veraltet |
 | CheetahMail von Experian | Migration zu Exchange |
 | ClickTale | Veraltet |
 | Clicktale CA | Veraltet |
-| Conductor 2.0, Conductor, Conductor Organic Metrics | Veraltet |
+| Conductor 2.0Dirigent, Dirigent-organische Metriken | Veraltet |
 | ContactLab 2.0 (Contact Send Connector) | Veraltet |
 | Coradiant TrueSight | Veraltet |
 | D&amp;B Visitor Intelligence | Veraltet |
@@ -70,11 +72,11 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | emarsys xpress | Veraltet |
 | Epsilon Harmony | Migration zu Exchange |
 | EveryoneSocial für Adobe Analytics | Veraltet |
-| ExactTarget, ExactTarget 2.0 | Veraltet |
+| Exaktes Ziel, Exaktes Ziel 2.0 | Veraltet |
 | Fiksu | Veraltet |
-| ForeSee (v2.0), Foresee Feedback, Foresee Results | Veraltet |
+| ForeSee (v2.0)Feedback vorhersehen, Ergebnisse vorhersehen | Veraltet |
 | Gigya | Veraltet |
-| Hootsuite | Veraltet |
+| Hootsuite | Migration zu Exchange |
 | Hybris | Veraltet |
 | Kampyle (jetzt Medallia) Feedback Analytics (1.1) | Veraltet |
 | Listrak | Migration zu Exchange |
@@ -90,7 +92,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | seoClarity, seoClarity 2.0 | Veraltet |
 | Silverpop Engage (v2.0) | Veraltet |
 | Sizmek | Veraltet |
-| SmartFOCUS Digital | Veraltet |
+| Smart FOCUS Digital | Veraltet |
 | SpotEffects | Veraltet |
 | StrongMail Systems, Inc. | Veraltet |
 | Synergy!360 | Veraltet |
@@ -101,7 +103,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | WhatCounts Email | Veraltet |
 | wywy | Veraltet |
 | Yesmail Enterprise | Veraltet |
-| Zeta Interactive | Veraltet |
+| Zeta Interaktiv | Veraltet |
 
 ## Ausnahme: Adobe Campaign Classic
 
