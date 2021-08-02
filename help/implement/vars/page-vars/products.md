@@ -2,10 +2,10 @@
 title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 91%
+source-wordcount: '505'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 >[!NOTE]
 >
->Wenn diese Variable in einem Treffer ohne Warenkorbereignis in der [`events`](events/events-overview.md)-Variable festgelegt wird, wird die Metrik [Produktansichten](/help/components/metrics/product-views.md) um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer mit der Variable `products` das entsprechende Warenkorbereignis festlegen.
+>Wenn diese Variable in einem Treffer ohne die Variable [`events`](events/events-overview.md) festgelegt ist, wird die Metrik [Produktansichten](/help/components/metrics/product-views.md) um 1 inkrementiert. Stellen Sie sicher, dass Sie die entsprechenden Ereignisse bei jedem Treffer mit der Variable `products` festlegen.
 
 ## Produkte mit Tags in Adobe Experience Platform
 
