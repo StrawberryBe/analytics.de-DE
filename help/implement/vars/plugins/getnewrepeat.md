@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: Verfolgen Sie die Aktivitäten neuer oder wiederkehrender Besucher.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '788'
+ht-degree: 66%
 
 ---
 
@@ -69,42 +69,42 @@ Dieses Plug-in verwendet ein Cookie mit dem Namen `"s_nr[LENGTH]"`, bei dem `[LE
 
 ### Beispiel 1
 
-Der folgende Code setzt s.eVar1 für neue Besucher auf den Wert „Neu“ und setzt s.eVar1 während des restlichen Besuchs des Besuchers auf der Website weiterhin auf den Wert „Neu“ (bei jedem neuen Aufruf).
+Der folgende Code setzt `eVar1` für neue Besucher auf den Wert `"New"` und setzt `eVar1` während des restlichen Besuchs des Besuchers auf der Site weiterhin auf den Wert `"New"` (bei jedem neuen Aufruf).
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Beispiel 2
 
-Wenn der Besucher zu irgendeinem Zeitpunkt zwischen 31 Minuten und 30 Tagen seit dem letzten Aufruf von s.getNewRepeat() auf die Website zurückkommt, setzt der folgende Code s.eVar1 auf den Wert „Wiederkehrend“ und setzt s.eVar1 während des restlichen Besuchs des Besuchers auf der Website weiterhin auf den Wert „Wiederkehrend“ (bei jedem neuen Aufruf).
+Wenn der Besucher seit dem letzten Aufruf von `getNewRepeat()` 31 Minuten bis 30 Tage lang auf die Site zurückkehrt, setzt der folgende Code `eVar1` auf den Wert `"Repeat"` und setzt `eVar1` während des restlichen Besuchs des Besuchers auf der Site auf den Wert `"Repeat"` (mit jedem neuen Aufruf).
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Beispiel 3
 
-Wenn der Besucher seit dem letzten Aufruf von s.getNewRepeat () mindestens 30 Tage nicht auf der Website war, setzt der folgende Code s.eVar1 auf den Wert „Neu“ und setzt s.eVar1 während des restlichen Besuchs des Besuchers auf der Website weiterhin auf den Wert „Neu“ (bei jedem neuen Aufruf).
+Wenn der Besucher seit dem letzten Aufruf von `getNewRepeat()` mindestens 30 Tage nicht auf der Site war, setzt der folgende Code `eVar1` auf den Wert `"New"` und setzt `eVar1` während des restlichen Besuchs des Besuchers auf der Site auf den Wert `"New"` (mit jedem neuen Aufruf).
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Beispiel 4
 
-Wenn der Besucher zu irgendeinem Zeitpunkt zwischen 31 Minuten und 365 Tagen (d. h. 1 Jahr) seit dem letzten Aufruf von s.getNewRepeat() auf die Website zurückkommt, setzt der folgende Code s.eVar1 auf den Wert von „Wiederkehrend“ und setzt s.eVar1 während des restlichen Besuchs des Besuchers auf der Website weiterhin auf den Wert „Wiederkehrend“ (bei jedem neuen Aufruf).
+Wenn der Besucher seit dem letzten Aufruf von `getNewRepeat()` 31 Minuten bis 365 Tage (d. h. 1 Jahr) auf die Site zurückkehrt, setzt der folgende Code `eVar1` auf den Wert `"Repeat"` und setzt `eVar1` während des restlichen Besuchs des Besuchers auf der Site weiterhin auf den Wert `"Repeat"` (mit jedem neuen Aufruf).
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### Beispiel 5
 
-Wenn der Besucher seit mindestens 365 Tagen (d. h. 1 Jahr) seit dem letzten Aufruf von s.getNewRepeat() nicht auf der Website war, setzt der folgende Code s.eVar1 auf den Wert „Neu“ und setzt s.eVar1 während des restlichen Besuchs des Besuchers auf der Website weiterhin auf den Wert „Neu“ (bei jedem neuen Aufruf).
+Wenn der Besucher seit dem letzten Aufruf von `getNewRepeat()` mindestens 365 Tage (d. h. 1 Jahr) nicht mehr auf der Site war, setzt der folgende Code `eVar1` auf den Wert `"New"` und setzt `eVar1` während des restlichen Besuchs des Besuchers auf der Site weiterhin auf den Wert `"New"` (mit jedem neuen Aufruf).
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## Versionsverlauf
