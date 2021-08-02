@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über das Verwalten von Benutzern und Produkten in der Experience Cloud-Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 99%
@@ -56,7 +56,7 @@ ht-degree: 99%
    + [Veröffentlichungs-Widget](admin/publishing-widgets-admin.md)
    + [Voreinstellungs-Manager](admin/preferences-manager.md)
    + [Datenschutzeinstellungen](admin/privacy-settings.md)
-   + [Datenschutzeinstellungen](admin/privacy-reporting.md)
+   + [Datenschutzberichte](admin/privacy-reporting.md)
    + Verarbeitungsregeln {#processing-rules}
       + [Übersicht über Verarbeitungsregeln](admin/c-processing-rules/processing-rules.md)
       + Konfiguration der Verarbeitungsregeln {#processing-rules-configuration}
