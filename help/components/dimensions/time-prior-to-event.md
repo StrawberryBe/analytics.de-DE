@@ -2,11 +2,10 @@
 title: Zeit vor Ereignis
 description: Die Zeit zwischen der Metrik und dem ersten Treffer des Besuchs.
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +19,4 @@ Obwohl diese Dimension technisch bei allen Implementierungen vorkonfiguriert ist
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen zählen zeitbasierte Behälter von `"Less than 1 minute"` bis `"More than 15 hours"`. Wenn ein Besucher beispielsweise 23 Minuten von seinem ersten Treffer bis zu einem Kauf benötigte, würde er unter das Dimensionselement `"10 to 30 minutes"` fallen.
+Zu den Dimensionselementen zählen zeitbasierte Behälter von `"Less than 1 minute"` bis `"More than 15 hours"`. Wenn ein Besucher beispielsweise 23 Minuten von seinem ersten Treffer bis zu einem Kauf benötigte, würde er unter das Dimensionselement `"10 to 30 minutes"` fallen. Die Behälter können für diese Metrik nicht angepasst werden.
