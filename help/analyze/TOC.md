@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: ht
-source-wordcount: '1012'
-ht-degree: 100%
+source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Kuratieren oder Freigeben von Projekten {#curate-share}
+   + Kuratieren, Freigeben und Planen von Projekten {#curate-share}
       + [Menü „Freigeben“](analysis-workspace/curate-share/send-schedule-files.md)
       + [Kuratieren von Projekten](analysis-workspace/curate-share/curate.md)
       + [Freigeben von Projekten](analysis-workspace/curate-share/share-projects.md)
@@ -141,8 +141,8 @@ ht-degree: 100%
       + [Datenanforderungen – Anforderungs-Assistent: Schritt 1](report-builder/data-requests/data-requests.md)
       + [Datenanforderung erstellen](report-builder/data-requests/t-create-a-data-request.md)
       + Report Suites {#report-suites}
-         + [Report Suite auswählen](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Report Suite auswählen  aus einer vorhandenen Anfrage in Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Report Suite auswählen ](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Report Suite aus einer bestehenden Anforderung in Excel auswählen](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel zum Suchen einer Report Suite-ID verwenden](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Segmente verwalten](report-builder/data-requests/segmentation.md)
       + [Überschreibungen der Veröffentlichungsliste zulassen](report-builder/data-requests/allow-publishing-list-overrides.md)
