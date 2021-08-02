@@ -6,10 +6,10 @@ title: Datenspaltenreferenz
 feature: Grundlagen zu Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '3405'
-ht-degree: 100%
+source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+workflow-type: tm+mt
+source-wordcount: '3409'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mcvisid` | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | `mobile_id` | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
 | `mobileaction` | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
-| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:  `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:   `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
 | `mobileappperformancecrashid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
 | `mobileappstoreobjectid` | Wird im Appfigures-Daten-Connector verwendet. App Store-Objekt-ID. | varchar(255) |
@@ -211,7 +211,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `user_hash` | Wird nicht verwendet. Doppelkreuz in der Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
 | `user_server` | Verwendet in der Dimension [Server](/help/components/dimensions/server.md). | varchar(100) |
 | `userid` | Wird nicht verwendet. Die numerische ID für die Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
-| `username` | Die Report Suite-ID  für den Treffer. | char(40) |
+| `username` | Die Report Suite-ID für den Treffer. | char(40) |
 | `va_closer_detail` | Variable, die in der Dimension [Letztkontaktdetail](/help/components/dimensions/last-touch-detail.md) verwendet wird. | varchar(255) |
 | `va_closer_id` | Numerische ID, anhand derer die Dimension [Letztkontaktkanal](/help/components/dimensions/last-touch-channel.md) identifiziert wird. Die Suchtabelle für diese ID finden Sie im Marketingkanal-Manager. | tinyint unsigniert |
 | `va_finder_detail` | Variable, die in der Dimension [Erstkontaktdetail](/help/components/dimensions/first-touch-detail.md) verwendet wird. | varchar(255) |
@@ -274,7 +274,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `visit_referrer` | Die erste verweisende Stelle des Besuchs. | varchar(255) |
 | `visit_search_engine` | Numerische ID der ersten Suchmaschine des Besuchs. Verwendet die `search_engines.tsv`-Suche. | smallint unsigniert |
 | `visit_start_page_url` | Die erste URL des Besuchs. | varchar(255) |
-| `visit_start_pagename` | Der erste Seitenname des Besuchs. | varchar(100) |
+| `visit_start_pagename` | Der Wert &quot;Seitenname&quot;im ersten Treffer des Besuchs. | varchar(100) |
 | `visit_start_time_gmt` | Zeitstempel (in Unix-Zeit) des ersten Treffers des Besuchs. | int |
 | `weekly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer wöchentlicher Besucher ist. | tinyint unsigniert |
 | `yearly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer jährlicher Besucher ist. | tinyint unsigniert |
