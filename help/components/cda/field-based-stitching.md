@@ -2,11 +2,10 @@
 title: Feldbasiertes Stitching
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe von feldbasiertem Stitching vertraut.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +22,7 @@ Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching 
 >Wenn nicht alle Voraussetzungen erfüllt sind, ist die Aktivierung der geräteübergreifenden Analyse unter Umständen nicht möglich oder die Ergebnisse bei der Datenzuordnung sind schlecht.
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
-* Ihre Implementierung muss eine Prop oder eVar festlegen, die eine Person eindeutig identifiziert, wann immer dies möglich ist, z. B. wenn ein Benutzer sich anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Teilen Sie Ihrem Kundenbetreuer die gewünschte Identifizierungsvariable mit, wenn diese für feldbasiertes Stitching bereitgestellt wird.
+* Ihre Implementierung muss eine Prop oder eine eVar festlegen, die eine Person eindeutig identifiziert, wann immer dies möglich ist, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Teilen Sie Ihrem Kundenbetreuer die gewünschte Identifizierungsvariable mit, wenn diese für feldbasiertes Stitching bereitgestellt wird.
 
 ## Spezifische Einschränkungen für feldbasiertes Stitching
 
