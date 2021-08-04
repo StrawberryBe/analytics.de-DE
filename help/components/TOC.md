@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: ht
-source-wordcount: '639'
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+workflow-type: tm+mt
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
@@ -102,6 +102,7 @@ ht-degree: 100%
    + [Postleitzahl](dimensions/zip-code.md)
 + Metriken {#metrics}
    + [Metriken – Übersicht](metrics/overview.md)
+   + [Wiederholte Instanzen zählen](metrics/count-repeat-instances.md)
    + [Durchschnittliche Klicktiefe](metrics/average-page-depth.md)
    + [Durchschnittliche Seitenansichten pro Besuch](metrics/average-page-views-per-visit.md)
    + [Durchschnittliche Sitzungslänge](metrics/average-session-length.md)
