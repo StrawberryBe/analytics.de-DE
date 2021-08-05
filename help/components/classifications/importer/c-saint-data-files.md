@@ -4,10 +4,10 @@ subtopic: Classifications
 title: Klassifizierungsdatendateien
 feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 100%
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -178,6 +178,9 @@ Mit [!UICONTROL Klassifizierungen] können Sie Datumsbereiche zu Ihren Kampagne
 * Der betreffende Datumsbereich muss ein Anfangsdatum und (optional) ein Enddatum enthalten.
 
 So klassifizieren Sie Kampagnen basierend auf einem Datumsbereich:
+
+>[!IMPORTANT]
+>Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind.
 
 1. Melden Sie sich bei [!DNL Analytics] an und gehen Sie zu „Admin“ > „Klassifizierungen“.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Browser-Export]**, stellen Sie sicher, dass die Einstellungen für die datumsaktivierte Classification richtig sind, und klicken Sie dann auf „Datei exportieren“.
