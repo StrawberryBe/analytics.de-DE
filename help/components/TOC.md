@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
-source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 99%
 
 ---
 
@@ -231,6 +231,7 @@ ht-degree: 100%
       + [Klassifizierungsvorlage](classifications/importer/c-download-saint-data.md)
       + [Browser- und FTP-Import](classifications/importer/import-file.md)
       + [Browser-Import](classifications/importer/browser-import.md)
+      + [Browser-Export](classifications/importer/browser-export.md)
       + [FTP-Import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Verarbeitungszeit](classifications/importer/processing-time.md)
       + [Fehlerbehebung](classifications/importer/troubleshooting.md)
