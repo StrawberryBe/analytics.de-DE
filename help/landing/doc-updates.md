@@ -3,10 +3,10 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen an der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 71%
 
 ---
 
@@ -19,12 +19,30 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 * Weitere Informationen zu neuen Funktionen finden Sie unter [Neue Funktionen in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) im Tools-Benutzerhandbuch.
 * Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de).
 
-## Wichtige Aktualisierungsdetails
+## Details zu wichtigen Aktualisierungen der Dokumentation
 
 | Datum | Beschreibung |
 |---|---|
+| 5. August 2021 | Neues Thema zu [Wiederholte Instanzen zählen](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
+| 23. Juli 2021 | Ausführliche Diskussion zu [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
+| 15. Juli 2021 | Neue Dokumentation zu [Adobe Analytics-Landingpage](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=de) hinzugefügt |
+| 15. Juni 2021 | Aktualisierte [Best Practices für Marketingkanäle](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
+| 3. Juni 2021 | Die Dokumentation wurde mit genaueren Erläuterungen zur [Implementierung von Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) sowie [hier](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl) aktualisiert. |
+| 25. Mai 2021 | Die Dokumentation zu [Groß-/Kleinschreibung bei eVar in Berichten](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) wurde aktualisiert. |
+| 13. Mai 2021 | Aktualisierungen für [Data Warehouse-API-Anfragen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Sie unterstützen jetzt &quot;Stunden&quot;. |
+| März, April 2021 | Aktualisierungen der Adobe Analytics-Dashboards [Executive guide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) und [Kuratorhandbuch](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) |
+| 25. März 2021 | [Data Repair ](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) APIupdates (Filtern nach URLs, Abfragezeichenfolgen, at-Zeichen und mehr) |
+| 25. März 2021 | Neue Dokumentation zur [Nutzungsprotokoll-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) |
+| 14. Januar 2021 | Die Sprachauswahloption für Analytics-Dashboards wurde hinzugefügt. |
 | November 2020 | Neue Dokumente zur Prüfung einer Implementierung: <ul><li>[Vollständige Prüfung einer Implementierung](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=de)</li><li>[Gezielte Prüfung einer Implementierung](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=de)</li></ul> |
+| 23. Oktober 2020 | Die Dokumentation zu Adobe Analytics-Dashboards wurde erweitert. In der mobilen Scorecard in Workspace stimmt der Stil der Scorecard jetzt mit der App überein. |
+| 17. September 2020 | Neue Dokumentation zu [Bedienfeld &quot;Gleichzeitige Medienbetrachter&quot;in Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=de) |
+| 31. August 2020 | Es wurden Verbesserungen zur [feldbasierten Stitching-Dokumentation](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html) in der geräteübergreifenden Analyse hinzugefügt. |
 | 21. Juli 2020 | Wichtige Aktualisierungen und Überarbeitungen der [geräteübergreifenden Analyse](/help/components/cda/overview.md). Es wurde eine [feldbasierte Suche](/help/components/cda/field-based-stitching.md) hinzugefügt. |
+| 18. Juni 2021 | Neue Dokumentation zu [Attribution IQ: Algorithmische Zuordnung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
+| 18. Juni 2021 | Neue Dokumentation zu [Attribution IQ: Benutzerdefinierte Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
+| 31. Mai 2020 | Neue Dokumentation zu [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| 21. Mai 2020 | Neue Dokumentation für [Adobe Analytics-Dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) |
 | 28. April 2020 | Eine Dokumentation zur Metrik für [Content-Geschwindigkeit](/help/components/metrics/content-velocity.md) wurde hinzugefügt. |
 | 12. März 2020 | Es wurden Aktualisierungen zum [Veröffentlichen von Segmenten in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) hinzugefügt. |
 | 12. März 2020 | Aktualisierungen der CDA-Stitching-Latenz. |
@@ -38,7 +56,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 13. Januar 2020 | [Adobe Analytics und Browser-Cookies](/help/technotes/cookies/cookies.md) wurde hinzugefügt. |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](/help/admin/company/login-restrictions-eol.md). |
-| 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de) festgelegt. |
+| 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) festgelegt. |
 | 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12. September 2019 | Neue Dokumentation für [Journey IQ: Geräteübergreifende Analysen](/help/components/cda/overview.md). |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](/help/analyze/pwa/pwa.md). |
