@@ -2,7 +2,6 @@
 title: Besuche
 description: Eine Folge von Seitenansichten während einer Sitzung.
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '656'
@@ -34,7 +33,7 @@ Wenn ein Besucher eine dieser Aktionen ausführt, beginnt ein neuer Besuch:
 * Öffnet einen anderen Browser und navigiert auf demselben Computer zu Ihrer Site.
 * Derselbe Benutzer surft auf verschiedenen Geräten auf Ihrer Site.
 
-Wenn ein Besucher eine dieser Aktionen ausführt, wird ein neuer Besuch **nicht** gestartet, solange zwischen aufeinanderfolgenden Treffern weniger als 30 Minuten liegen:
+Wenn ein Besucher eine dieser Aktionen ausführt, wird ein neuer Besuch **erst** gestartet, wenn zwischen aufeinanderfolgenden Treffern mehr als 30 Minuten liegen:
 
 * Schließt seinen Browser und navigiert dann erneut zu Ihrer Site.
 * Startet den Computer neu, öffnet denselben Browser und navigiert erneut zu Ihrer Site.
