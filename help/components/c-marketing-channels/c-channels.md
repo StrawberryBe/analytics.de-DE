@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Marketing-Kanäle verwalten
 feature: Grundlagen zu Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ Es empfiehlt sich, die Option zum Außerkraftsetzen des Letztkontakts für die K
 
 Bevor Kanäle und ihre Daten im Bericht angezeigt werden, müssen Sie die Kanäle und die zur Datenverarbeitung erforderlichen Regeln einrichten. Sie können auch angeben, wie lange der [Besucherinteraktionszeitraum](/help/components/c-marketing-channels/visitor-engagement.md) dauern soll.
 
-Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) mehrere vordefinierte Kanäle zur Verfügung, die Sie nach Ihren Bedürfnissen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerdefinierte Regeln innerhalb der [Verarbeitungsregeln für Marketing-Kanäle](/help/components/c-marketing-channels/c-rules.md) definieren.
+Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) mehrere vordefinierte Kanäle zur Verfügung, die Sie nach Ihren Bedürfnissen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerdefinierte Regeln innerhalb von [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md) definieren.
 
 >[!NOTE]
 >
