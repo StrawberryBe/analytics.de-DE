@@ -5,7 +5,7 @@ feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -19,8 +19,8 @@ Der für die Zuordnung verwendete Algorithmus basiert auf der Harsanyi-Dividende
 
 Auf hoher Ebene betrachtet die Attributionsberechnung der Konversionsgewichtung für jeden Touchpoint jeden Marketing-Touchpoint innerhalb eines Lookback-Fensters als eine Koalition von Akteuren, auf die ein Überschuss gleichmäßig verteilt werden muss. Die Überschusshöhe jeder Koalition wird nach dem Überschuss bestimmt, der zuvor von jeder Unterkoalition (oder zuvor teilnehmenden Dimensionselementen) rekursiv erzeugt wurde. Weitere Einzelheiten finden Sie in den Originalarbeiten von John Harsanyi und Lloyd Shapley:
 
-* Shapley, Lloyd S. (1953). Ein Wert für N-Personen-Spiele. *Beiträge zur Spieltheorie, 2 (28)*, 307-317.
-* Harsanyi, John C. (1963). Ein vereinfachtes Verhandlungsmodell für das N-Personen-Kooperationsspiel. *International Economic Review 4(2)*, 194-220.
+* Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.
+* Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220.
 
 >[!NOTE]
 >
