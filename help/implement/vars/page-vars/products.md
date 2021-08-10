@@ -2,10 +2,10 @@
 title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
+source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 85%
+source-wordcount: '503'
+ht-degree: 80%
 
 ---
 
@@ -30,10 +30,10 @@ Sie können eine dieser Erweiterungen oder den Editor für benutzerdefinierten C
 
 ## s.products in AppMeasurement und im benutzerdefinierten Code-Editor in 
 
-Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Jedes einzelne Produkt kann über alle Felder hinweg bis zu 100 Byte enthalten. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
+Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
 
-* **Kategorie** (optional): Die übergeordnete Produktkategorie. Ihr Unternehmen entscheidet, wie Produkte in Kategorien unterteilt werden.
-* **Produktname** (erforderlich): Der Name des Produkts.
+* **Kategorie** (optional): Die übergeordnete Produktkategorie. Ihr Unternehmen entscheidet, wie Produkte in Kategorien unterteilt werden. Die maximale Länge für dieses Feld beträgt 100 Byte.
+* **Produktname** (erforderlich): Der Name des Produkts. Die maximale Länge für dieses Feld beträgt 100 Byte.
 * **Menge** (optional): Die Anzahl dieser Produkte im Warenkorb. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
 * **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Menge größer als 1, setzen Sie den Preis auf den Gesamtpreis und nicht auf den Einzelproduktpreis. Stellen Sie sicher, dass die Währung dieses Werts mit der [`currencyCode`](../config-vars/currencycode.md)-Variablen übereinstimmt. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
 * **Ereignisse** (optional): Ereignisse, die mit dem Produkt verknüpft sind. Trennen Sie mehrere Ereignisse mit einem senkrechten Strich (`|`). Weitere Informationen finden Sie unter [Ereignisse](events/events-overview.md).
@@ -44,11 +44,11 @@ Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pr
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Während pro Produkt ein 100-Byte-Grenze gilt, beträgt die Gesamtlänge der `products`-Variablen 64 KB. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
+Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge für die gesamte Zeichenfolge `products` beträgt 64 K. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -99,11 +99,11 @@ s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;e
 Wenn Sie die `digitalData`-[Datenschicht](../../prepare/data-layer.md) verwenden, können Sie das `digitalData.product`-Objekt-Array iterativ durchlaufen:
 
 ```js
-for(var i=0; i<digitalData.product.length; i++) {
+for(var i = 0; i < digitalData.product.length; i++) {
     // Add individual product info to the product string
     s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
     // If there are more products, add a comma
-    if(i != digitalData.product.length-1) {
+    if(i != digitalData.product.length - 1) {
         s.products += ",";
     }
 }
