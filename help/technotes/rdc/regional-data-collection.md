@@ -2,10 +2,9 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '475'
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -32,7 +31,7 @@ Hinweis: Wenn Ihre Analytics-Bildanforderung an die Endpunkte `adobedc`, `2o7.ne
 
 ## Erstanbieter-HTTPS-Datenerfassung
 
-| RDC-Typ | Data Collection Centers |
+| RDC-Typ | Datenerfassungszentren |
 |---------------------|-------------------|
 | Global (Standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 | Nur Amerika | Oregon, Virginia |
@@ -49,7 +48,6 @@ Hinweis: Experience-Edge „Global“ bietet die beste Leistung für Ihre Endanw
 | Vorteil | Beschreibung |
 | --- | --- |
 | Leistung | Mit RDC stellen Ihre Besucher eine Verbindung mit dem nächstgelegenen DCC her. Dadurch erhalten Sie die schnellste Reaktionszeit, was zu einem genaueren Tracking und schnelleren Ladezeiten führt. |
-| Redundanz | Im Falle einer Unterbrechung der Kommunikation mit einem DCC wird die Datenerfassung automatisch an das nächstgelegene DCC weitergeleitet, wodurch die Kontinuität des Service sichergestellt wird. |
 | Redundanz | Im Falle einer Unterbrechung der Kommunikation zwischen dem DCC und Ihrem DPC speichert die RDC-Infrastruktur von Adobe die Daten lokal und leitet sie bei der Wiederherstellung der Datenverbindung an das DPC weiter. |
 
 ## Funktionsweise von RDC
