@@ -3,7 +3,7 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen an der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 71%
@@ -22,7 +22,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 ## Details zu wichtigen Aktualisierungen der Dokumentation
 
 | Datum | Beschreibung |
-|---|---|
+| --- | --- |
 | 5. August 2021 | Neues Thema zu [Wiederholte Instanzen zählen](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
 | 23. Juli 2021 | Ausführliche Diskussion zu [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15. Juli 2021 | Neue Dokumentation zu [Adobe Analytics-Landingpage](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=de) hinzugefügt |
