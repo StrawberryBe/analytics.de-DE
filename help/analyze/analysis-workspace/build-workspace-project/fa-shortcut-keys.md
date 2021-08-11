@@ -6,7 +6,7 @@ feature: Grundlagen zu Workspace
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -77,6 +77,6 @@ Hinweis:
 | Als PDF herunterladen | Strg + Umsch + B |
 | Projekt kuratieren | Strg + Umsch + G |
 | Projekt freigeben | Strg + G |
-| Projektverknüpfung abrufen | Alt + L |
+| Projekt-Link abrufen | Alt + L |
 | Datei jetzt senden | Alt+S |
 | Datei planmäßig senden | Umsch+Alt+S |
