@@ -6,7 +6,7 @@ feature: Visualisierungen
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Eine Dimensionsbezeichnung jeweils oben in der Spalte „Fluss“ vereinfacht di
 
 Sehen wir uns 2 Anwendungsfälle an: einen App-Anwendungsfall und einen Web-Anwendungsfall.
 
-## Anwendungsfall 1: App {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Anwendungsfall 1: Mobile App {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 Die Dimension [!UICONTROL Aktionsname] wurde dem Fluss hinzugefügt, wobei das oberste zurückgegebene Element [!UICONTROL ItemAdded] ist:
 
