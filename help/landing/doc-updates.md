@@ -3,10 +3,10 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen an der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
-source-wordcount: '2845'
-ht-degree: 68%
+source-wordcount: '2930'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **August 2021** |  |
 | 5. August 2021 | Neues Thema zu [Wiederholte Instanzen zählen](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
-| 5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) und [Browser-Export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) wurde aktualisiert, um Optionen anzugeben, die nicht für Report Suites verfügbar sind, die für die neue Klassifizierungsarchitektur aktiviert sind. |
+| 5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) und [Browser-Export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) wurde aktualisiert, um Optionen anzuzeigen, die für Report Suites nicht verfügbar sind, die für die neue Klassifizierungsarchitektur aktiviert sind. |
 | 2. August 2021 | Mehrere Seiten wurden aktualisiert, um das Rebranding von [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) widerzuspiegeln. |
 | **Juli 2021** |  |
 | 23. Juli 2021 | Ausführliche Diskussion zu [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
@@ -41,10 +41,10 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 25. März 2021 | [Data Repair ](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) APIupdates (Filtern nach URLs, Abfragezeichenfolgen, at-Zeichen und mehr) |
 | 25. März 2021 | Neue Dokumentation zur [Nutzungsprotokoll-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) |
 | **Februar 2021** |  |
-| 4. Februar 2021 | Komponentenauswahl: Die Dropdown-/Dropzone-Komponente in [!UICONTROL Quick Insights] wird allen Dropzonen in [!UICONTROL Workspace] hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, Optionen in einer Dropdown-Liste kompatibler Komponenten zu wählen oder den Raum weiterhin als Ablagebereich zu verwenden. |
+| 4. Februar 2021 | Komponentenauswahl: Die Dropdown-/Dropzone-Komponente in [!UICONTROL Quick Insights] wurde allen Dropzonen in [!UICONTROL Workspace] hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, aus einer Dropdown-Liste kompatibler Komponenten auszuwählen oder den Bereich weiterhin als Dropzone zu verwenden. |
 | **Januar 2021** |  |
-| 14. Januar 2021 | Die Sprachauswahloption für Analytics-Dashboards wurde hinzugefügt. |
-| 14. Januar 2021 | Dokumentation dazu, wie Sie Bilder zu Workspace-Projekten hinzufügen können, indem Sie auf eine öffentliche Bild-URL verweisen. |
+| 14. Januar 2021 | Die Analytics-Dashboards-Dokumentation wurde um eine Sprachauswahloption erweitert. |
+| 14. Januar 2021 | Es wurde eine Dokumentation hinzugefügt, in der beschrieben wird, wie Sie Bilder zu Workspace-Projekten hinzufügen können, indem Sie auf eine öffentliche Bild-URL verweisen. |
 | 14. Januar 2021 | kombinierter Quell- und Einstellungsmanager für Workspace-Visualisierungen: Der [!UICONTROL Datenquellen]-Manager (Punkt) und der Einstellungs-Manager (Zahnrad) für Visualisierungen wurden zu einem Popover zusammengefasst, sodass Sie Ihre Quelle und Einstellungen einfach vom selben Ort aus verwalten können. |
 | **Dezember 2020** |  |
 | 7. Dezember 2020 | Es wurden alle relevanten Seiten dahingehend geändert, dass sie den Endpunkt &quot;adobedc.net&quot;enthalten oder ersetzen. |
@@ -110,14 +110,20 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 13. Januar 2020 | [Adobe Analytics und Browser-Cookies](/help/technotes/cookies/cookies.md) wurde hinzugefügt. |
 | 13. Januar 2020 | Die Seite [Welches Adobe Analytics-Tool verwendet werden soll](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) wurde geändert. |
 | **2019** |  |
+| 19. Dezember 2020 | Die standardmäßige [FTP-Datenspeichergrenze](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) wurde auf 10 GB geändert. |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](/help/admin/company/login-restrictions-eol.md). |
 | 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) festgelegt. |
+| 21. November 2019 | Die [FAQ zum Audience Analytics-Workflow](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) wurde aktualisiert, um die Verfügbarkeit in LiveStream anzuzeigen. |
+| 25. Oktober 2019 | Die Seite [Adobe Analytics-Schlüsselkonzepte](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html?lang=en) wurde aktualisiert. |
 | 10. Oktober 2019 | Aktualisierung der Gesamtwerte der Freiformtabelle: Sie enthalten nun zwei Summen: einen **[!UICONTROL Tabellensumme]** und einen **[!UICONTROL Gesamtwert]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=de) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=de)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
 | Oktober 10,2019 | In Workspace wurde die Möglichkeit hinzugefügt, &quot;Nicht angegeben (keine)&quot;einfach zu entfernen, um Filter zu melden. |
-| Oktober 10,2019 | In Workspace werden lilafarbene Granularitätskomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) nicht mehr unterstützt. Diese Zeitkomponenten haben sich immer exakt wie ihre orangefarbenen Dimensionspendants verhalten. Durch diese Änderung wird das Erlebnis also optimiert. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]** in **[!UICONTROL Datumsbereiche]** umbenannt. |
+| Oktober 10,2019 | In Workspace wurden lilafarbene Granularitätskomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) nicht mehr unterstützt. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]** in **[!UICONTROL Datumsbereiche]** umbenannt. |
+| 1. Oktober 2019 | Neuer Artikel zu [Workspace total](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en). |
 | 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](/help/implement/vars/config-vars/configuration-variables.md). |
+| 19. September 2019 | Die Dokumentation zur Segmentierung wurde überarbeitet, um [Logische Gruppencontainer](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=en#logic-group-containers) zu erklären. |
 | 12. September 2019 | Neue Dokumentation für [Journey IQ: Geräteübergreifende Analysen](/help/components/cda/overview.md). |
+| 12. September 2019 | Aktualisieren Sie das Dokument [Berechnete Metrik insgesamt](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=en) . |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](/help/analyze/pwa/pwa.md). |
 | 8. August 2019 | Neuer Artikel zu [Gesamtwerten für berechnete Metriken](/help/components/c-calcmetrics/cm-totals.md). |
 | 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/timestamp-optional.md). | 8. August 2019 | In Workspace wurde die Anzahl der Elemente, die in einem Dropdown-Filter platziert werden können, durch die Adobe von 50 auf 200 erhöht. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
