@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist
    * Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
 * **Firewall**: Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports von der Firewall in Ihrem Unternehmen freigegeben sind. Überprüfen Sie auch die interne IP-Adresse von Adobe auf weitere Firewall-Ausnahmen.
 
-## Recommendations zur Anforderungsoptimierung {#section_33EF919255BF46CD97105D8ACB43573F}
+## Empfehlungen für die Anforderungsoptimierung {#section_33EF919255BF46CD97105D8ACB43573F}
 
 Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die Verarbeitungsgeschwindigkeit verringert werden.
 
@@ -47,7 +47,7 @@ Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die 
 * **Mögliche Gründe für Verzögerungen bei der Ausführung von Arbeitsmappen**: Signifikante Zunahme der Klassifizierungen oder Vergrößerung des Anfragedatumsbereichs im Laufe der Zeit.
 * **Ursachen, die zum Scheitern der Bereitstellung von Arbeitsmappen führen**: Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere solche mit Datum und Uhrzeit.
 * **Zellen, die 0 (keine Werte) zurückgeben**: Wenn im Namen des Excel-Arbeitsblatts ein Apostroph oder ein einfaches Anführungszeichen enthalten ist, gibt Report Builder keine Werte zurück. (Dies ist eine Microsoft Excel-Einschränkung.)
-* **Individuelle Anforderungsleistung**: Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeinflusst werden:
+* **Individuelle Anfrageleistung**: Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeinflusst werden:
 
    | Einstellung | Schnellere Leistung | Langsamere Leistung |
    |--- |--- |--- |
