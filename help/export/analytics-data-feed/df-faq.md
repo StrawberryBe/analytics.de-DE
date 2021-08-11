@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zu Daten-Feeds
 keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+workflow-type: tm+mt
+source-wordcount: '1440'
+ht-degree: 95%
 
 ---
 
@@ -51,6 +51,10 @@ Daten-Feeds enthalten keine Bots, die nach [Admin Console-Bot-Regeln](https://ex
 Einige Tabellenkalkulationsprogramme, insbesondere Microsoft Excel, runden große Zahlen automatisch. Die Spalte `event_list` enthält viele kommagetrennte Zahlen, was manchmal dazu führt, dass Excel sie als eine große Zahl behandelt. Die letzten Ziffern werden auf `000` gerundet.
 
 Adobe empfiehlt deswegen, `hit_data.tsv`-Dateien nicht automatisch in Microsoft Excel zu öffnen. Verwenden Sie stattdessen das Excel-Dialogfeld „Daten importieren“ und stellen Sie sicher, dass alle Felder als Text behandelt werden.
+
+## Sind Spalten wie `hitid_high`, `hitid_low`, `visid_high` und `visid_low` garantiert eindeutig für den Treffer oder Besuch?
+
+In fast allen Fällen kennzeichnen die Verkettung von `hitid_high` und `hitid_low` einen Treffer eindeutig. Dasselbe Konzept gilt für die Verkettung von `visid_high` und `visid_low` für Besuche. Verarbeitungsanomalien können jedoch selten dazu führen, dass zwei Treffer dieselbe Treffer-ID teilen. Adobe empfiehlt, keine Daten-Feed-Workflows zu erstellen, die unflexibel darauf angewiesen sind, dass jeder Treffer eindeutig ist.
 
 ## Warum fehlen bei einigen Betreibern Informationen in der Spalte „Domain“? {#section_B7508D65370442C7A314EAED711A2C75}
 
