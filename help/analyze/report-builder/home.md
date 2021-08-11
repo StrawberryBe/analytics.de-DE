@@ -5,7 +5,7 @@ feature: Grundlagen zu Workspace
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
@@ -18,12 +18,12 @@ Adobe Report Builder ist ein Add-in für Microsoft Excel. Mit Report Builder kö
 ## Beliebte Hilfethemen
 
 * [Setup, Installation und Einrichtung](setup/login.md)
-* [Berichtsanforderungen planen](schedule-report-requests.md)
+* [Berichtsanfragen planen](schedule-report-requests.md)
 * [Fehlerbehebung und Best Practices für Report Builder](troubleshoot.md)
 * [Welche Optionen für das Erstellen von benutzerdefinierten Datumsbereichen stehen zur Verfügung?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
 * [Warum kann ich meine Segmente in Report Builder nicht sehen?](data-requests/segmentation.md)
 
 ## Häufige Fragen und Fehlerbehebung
 
-* [Wie wird eine Datenanforderung erstellt?](data-requests/t-create-a-data-request.md)
+* [Wie wird eine Datenanfrage erstellt?](data-requests/t-create-a-data-request.md)
 * [Fehlerbehebung und Best Practices für Report Builder](troubleshoot.md)
