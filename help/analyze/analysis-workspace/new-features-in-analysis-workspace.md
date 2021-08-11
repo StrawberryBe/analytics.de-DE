@@ -79,7 +79,7 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 | Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Aktualisiertes leeres Bedienfeld | Das leere Bedienfeld umfasst jetzt Bedienfelder und Visualisierungen, damit Sie den Analyse-Workflow, der für Sie am besten geeignet ist, einfacher auswählen können. |
 | Bedienfeld „Quick Insights“ (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Bedienfeld „Analytics for Target“ in Workspace  (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Bedienfeld „Analytics for Target“ in Workspace   (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Seite „Info zu Workspace“ | Auf der Seite „Info zu Workspace“ finden Sie Informationen zu Ihrer Analysis Workspace-Umgebung, zu Ihren Adobe Analytics-Administratoren (falls Sie Support benötigen) und eine Möglichkeit, produktinternes Feedback zu geben. Diese Seite finden Sie unter „Workspace“ > „Hilfe“ > „Info zu Workspace“. |
 
 ## Mai 2020
@@ -307,7 +307,7 @@ Am 19. Juli 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Wenn möglich, wird nun eine Gesamtsumme für berechnete Metriken sowie für Prozentanteile angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Neu  <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Vorgabe für den Datumsbereich </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Neu   <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Vorgabe für den Datumsbereich </a></b> </p> </td> 
    <td colname="col2"> <p>„Letzte 13 ganze Wochen“ wurde zur Vorgabe für den Datumsbereich in Analysis Workspace hinzugefügt. </p> </td> 
   </tr> 
  </tbody> 
@@ -367,7 +367,7 @@ Am 10. Mai 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Sie können nun nach oben und unten scrollen, während Sie Komponenten an eine andere Stelle ziehen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Zusätzliche Informationen zu  <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Zusätzliche Informationen zu   <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td> 
    <td colname="col2"> <p>Wenn Sie den Mauszeiger in einem Liniendiagramm über eine Anomalie bewegen, werden in den Informationen jetzt das Datum und der Rohdatenwert der Anomalie angezeigt. </p> </td> 
   </tr> 
  </tbody> 
@@ -778,7 +778,7 @@ Am 20. Juli 2017 veröffentlichte neue Funktionen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>„Projektverknüpfung abrufen“ bei Experience Cloud-Anmeldungen</b> </p> </td> 
-   <td colname="col2"> <p>Wenn Sie sich bisher mit Ihren Experience Cloud-Anmeldeinformationen angemeldet und zu Analytics navigiert haben, konnten Sie die Funktion <span class="ignoretag"> <span class="uicontrol"> Freigabe</span> &gt; <span class="uicontrol"> Projektverknüpfung abrufen</span></span> nicht nutzen. Das Problem wurde behoben. Sie müssen das Projekt immer noch speichern, bevor Sie auf diese Option klicken können. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie sich bisher mit Ihren Experience Cloud-Anmeldeinformationen angemeldet und zu Analytics navigiert haben, konnten Sie die Funktion <span class="ignoretag"> <span class="uicontrol"> Freigabe</span> &gt; <span class="uicontrol"> Projektverknüpfung abrufen</span> </span> nicht nutzen. Das Problem wurde behoben. Sie müssen das Projekt immer noch speichern, bevor Sie auf diese Option klicken können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filter für abgelaufene Projekte im Manager für geplante Projekte </a></b> </p> </td> 
@@ -886,7 +886,7 @@ Am 20. April 2017 veröffentlichte neue Funktionen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen an der Option zum Rückgängigmachen/Wiederherstellen </p> </td> 
-   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie  in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
+   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie   in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -959,7 +959,7 @@ Am 10. November 2016 veröffentlichte neue Funktion:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Datumsvergleich </a> </p> </td> 
-   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B. Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte,  die die Änderung in Prozent angibt. </p> </td> 
+   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B. Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte,   die die Änderung in Prozent angibt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
