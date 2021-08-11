@@ -5,7 +5,7 @@ feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 100%
 
