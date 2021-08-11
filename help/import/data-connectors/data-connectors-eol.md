@@ -38,7 +38,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Acxiom | Veraltet |
 | Adform | Veraltet |
 | Anpassen | Migration zu Adobe Exchange |
-| Adobe Campaign | Migration zu Adobe Exchange  (siehe Hinweis unten) |
+| Adobe Campaign | Migration zu Adobe Exchange   (siehe Hinweis unten) |
 | Appfigures | Migration zu Adobe Exchange |
 | Appsee | Veraltet |
 | AppsFlyer | Migration zu Adobe Exchange |
@@ -46,12 +46,12 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Apteligent | Veraltet |
 | BlueHornet eMarketing Suite | Veraltet |
 | Verzweigung | Migration zu Exchange |
-| BrightEdge 2.0LeuchtendeRand, LeuchtendeRand Ausdrücken | Veraltet |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Veraltet |
 | Bronto Software | Veraltet |
 | CheetahMail von Experian | Migration zu Exchange |
 | ClickTale | Veraltet |
 | Clicktale CA | Veraltet |
-| Conductor 2.0Dirigent, Dirigent-organische Metriken | Veraltet |
+| Conductor 2.0, Conductor, Conductor Organic Metrics | Veraltet |
 | ContactLab 2.0 (Contact Send Connector) | Veraltet |
 | Coradiant TrueSight | Veraltet |
 | D&amp;B Visitor Intelligence | Veraltet |
@@ -72,9 +72,9 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | emarsys xpress | Veraltet |
 | Epsilon Harmony | Migration zu Exchange |
 | EveryoneSocial für Adobe Analytics | Veraltet |
-| Exaktes Ziel, Exaktes Ziel 2.0 | Veraltet |
+| ExactTarget, ExactTarget 2.0 | Veraltet |
 | Fiksu | Veraltet |
-| ForeSee (v2.0)Feedback vorhersehen, Ergebnisse vorhersehen | Veraltet |
+| ForeSee (v2.0), Foresee Feedback, Foresee Results | Veraltet |
 | Gigya | Veraltet |
 | Hootsuite | Migration zu Exchange |
 | Hybris | Veraltet |
@@ -92,7 +92,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | seoClarity, seoClarity 2.0 | Veraltet |
 | Silverpop Engage (v2.0) | Veraltet |
 | Sizmek | Veraltet |
-| Smart FOCUS Digital | Veraltet |
+| SmartFOCUS Digital | Veraltet |
 | SpotEffects | Veraltet |
 | StrongMail Systems, Inc. | Veraltet |
 | Synergy!360 | Veraltet |
@@ -103,10 +103,10 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | WhatCounts Email | Veraltet |
 | wywy | Veraltet |
 | Yesmail Enterprise | Veraltet |
-| Zeta Interaktiv | Veraltet |
+| Zeta Interactive | Veraltet |
 
 ## Ausnahme: Adobe Campaign Classic
 
 Die EINZIGE Ausnahme zum Datum vom 1. August 2021 ist die Adobe Campaign Classic-Integration. Diese Integration wird offiziell am 1. März 2022 eingestellt.
 
-Am 1. August 2021 wird Adobe Campaign Classic zusammen mit allen anderen Integrationen aus der Data Connectors-Benutzeroberfläche entfernt. Vorhandene Campaign-Integrationen werden jedoch bis zum 1. März 2022 weiterhin Daten erfassen und an Adobe Analytics weitergeben. Am 1. März 2022 werden die Erfassung und Weitergabe von Daten an Adobe Analytics eingestellt. Wenn Sie diese Integration verwenden, müssen Sie vor dem 1. März 2022 zum neuen Campaign-Analytics-Connector wechseln. Weitere Informationen finden Sie in der [Adobe Campaign Classic-Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
+Am 1. August 2021 wird Adobe Campaign Classic zusammen mit allen anderen Integrationen aus der Data Connectors-Benutzeroberfläche entfernt. Vorhandene Campaign-Integrationen werden jedoch bis zum 1. März 2022 weiterhin Daten erfassen und an Adobe Analytics weitergeben. Am 1. März 2022 werden die Erfassung und Weitergabe von Daten an Adobe Analytics eingestellt. Wenn Sie diese Integration verwenden, müssen Sie vor dem 1. März 2022 zum neuen Campaign-Analytics-Connector wechseln. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=de).
