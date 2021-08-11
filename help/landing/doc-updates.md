@@ -1,12 +1,12 @@
 ---
 title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
-description: Wichtige Aktualisierungen an der Adobe Analytics-Dokumentation.
+description: Wesentliche Aktualisierungen des Adobe Analytics-Dokumentationssatzes.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
 workflow-type: tm+mt
-source-wordcount: '2930'
-ht-degree: 65%
+source-wordcount: '2886'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) und [Browser-Export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) wurde aktualisiert, um Optionen anzuzeigen, die für Report Suites nicht verfügbar sind, die für die neue Klassifizierungsarchitektur aktiviert sind. |
 | 2. August 2021 | Mehrere Seiten wurden aktualisiert, um das Rebranding von [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) widerzuspiegeln. |
 | **Juli 2021** |  |
-| 23. Juli 2021 | Ausführliche Diskussion zu [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
+| 23. Juli 2021 | Neue ausführliche Diskussion zu [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15. Juli 2021 | Neue Dokumentation zur neuen [Adobe Analytics-Landingpage](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=de) hinzugefügt |
 | **Juni 2021** |  |
 | 15. Juni 2021 | Aktualisierte [Best Practices für Marketingkanäle](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
@@ -70,19 +70,18 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 21. Juli 2020 | Wichtige Aktualisierungen und Überarbeitungen der [geräteübergreifenden Analyse](/help/components/cda/overview.md). Es wurde eine [feldbasierte Suche](/help/components/cda/field-based-stitching.md) hinzugefügt. |
 | 16. Juli 2020 | Neue Vorgaben für Datumsbereiche in Workspace. Es wurden vier neue Datumsbereiche hinzugefügt: ([!UICONTROL Diese Woche/Dieser Monat/Dieses Quartal/Dieses Jahr (außer heute)]). Auf diese Weise können Sie aus Datumsbereichen auswählen, die keine Daten von heute enthalten. |
 | **Juni 2020** |  |
-| 25. Juni 2020 | Das Bedienfeld &quot;Quick Insights&quot;in Workspace bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 25. Juni 2020 | Im Bereich &quot;Analytics for Target&quot;in Workspace können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse mit Steigerung und Konfidenz analysieren. [Weitere Informationen...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 25. Juni 2020 | Neue Dokumentation für [Bereich &quot;Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md)&quot;in Workspace. Es bietet Nicht-Analytikern und neuen Anwendern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. |
+| 25. Juni 2020 | Neue Dokumentation für [Analytics for Target-Bedienfeld](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) in Workspace. Damit können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse mit Steigerung und Konfidenz analysieren. |
 | 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Algorithmische Zuordnung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
 | 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Benutzerdefinierte Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
-| 18. Juni 2020 | Projektrollen für freigegebene Workspace-Projekte. Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
-| 18. Juni 2020 | Dokumentation dazu, wie Workspace-Projekte für Benutzer nur als &quot;Kann anzeigen&quot;freigegeben werden können. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de) |
-| 18. Juni 2020 | Neue Dokumentation zu Projektrollen für freigegebene Workspace-Projekte. Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 18. Juni 2020 | Schreibgeschützte Workspace-Projekte: Workspace-Projekte können Benutzern nur als &quot;Kann anzeigen&quot;freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 18. Juni 2020 | Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten. Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 18. Juni 2020 | Neue Dokumentation für [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) für freigegebene Workspace-Projekte. Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“.  |
+| 18. Juni 2020 | Neue Dokumentation zu [&quot;Nur anzeigen&quot; Workspace-Projekte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de). Projekte können Benutzern nur als &quot;Kann anzeigen&quot;freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. |
+| 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) für freigegebene Workspace-Projekte. Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“.  |
+| 18. Juni 2020 | Neue Dokumentation zu [Mitbearbeitung von Workspace-Projekten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. |
 | **Mai 2020** |  |
 | 31. Mai 2020 | Neue Dokumentation zu [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 21. Mai 2020 | Neue Dokumentation für [Adobe Analytics-Dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) |
-| 21. Mai 2020 | Dokumentation zu Verbesserungen der Barrierefreiheit in Analysis Workspace, einschließlich verbesserter Tastaturnavigation, Farbkontrast und Unterstützung für Bildschirmlesehilfen. [Weitere Informationen...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=de) |
+| 21. Mai 2020 | Neue Dokumentation zu [Verbesserungen der Barrierefreiheit](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=de) in Analysis Workspace, einschließlich verbesserter Tastaturnavigation, Farbkontrast und Unterstützung für Bildschirmlesehilfen. |
 | **April 2020** |  |
 | 28. April 2020 | Eine Dokumentation zur Metrik für [Content-Geschwindigkeit](/help/components/metrics/content-velocity.md) wurde hinzugefügt. |
 | 16. April 2020 | Dokumentation zum automatischen Erstellen von [!UICONTROL Freiformtabellen] aus einem leeren Status. Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiform-Tabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiform-Tabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren [!UICONTROL Freiformtabelle] abgelegt werden. |
