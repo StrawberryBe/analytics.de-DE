@@ -5,7 +5,7 @@ feature: Grundlagen zu Workspace
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden
 
 * [Adobe Analytics-Dashboards – Übersicht](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace – Erste Schritte](analysis-workspace/home.md)
-* [Progressive Web-Apps für Adobe Analytics](/help/analyze/pwa/pwa.md)
+* [Progressive Web Apps für Adobe Analytics](/help/analyze/pwa/pwa.md)
 * [Welches Adobe Analytics-Tool sollte ich verwenden?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder – Erste Schritte](report-builder/home.md)
 * [Activity Map – Erste Schritte](activity-map/activity-map.md)
@@ -40,6 +40,6 @@ Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden
 ## Wichtige Analytics-Ressourcen
 
 * [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
-* [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Analytics-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de)
+* [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
+* [Experience League](https://experienceleague.adobe.com/?lang=de#home)
