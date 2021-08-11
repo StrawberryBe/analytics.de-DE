@@ -5,7 +5,7 @@ feature: Grundlagen zu Workspace
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Allgemeine Voreinstellungen gelten für Ihr Adobe Analytics-Erlebnis im Browser.
 
 | Einstellung | Optionen |
 | --- | --- |
-| Landing page | <ul><li>Projektliste (Standard)</li><li>Leeres Projekt</li><li>Spezifisches Projekt  ausgewählt aus einer Liste</li></ul> |
+| Landing page | <ul><li>Projektliste (Standard)</li><li>Leeres Projekt</li><li>Spezifisches Projekt   ausgewählt aus einer Liste</li></ul> |
 | Tipps | <ul><li>Aktiviert (Standard)</li><li>Deaktiviert</li></ul> |
 
 ## Projekteinstellungen
@@ -40,4 +40,4 @@ Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace 
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#calendar) | Wählen Sie aus einer Liste, die Folgendes enthält: <ul><li>Von Adobe bereitgestellte Bereiche (Standard ist „Diesen Monat“)</li><li>Benutzerdefinierte Bereiche</li></ul> |
 |  | [Typ des Bedienfelds](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) | <ul><li>Freiform (Standard)</li><li>Leer</li><li>Quick Insights</li></ul> |
 |  | Zahlenformat | <ul><li>1.000,00 (Standard)</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | CSV-Trennzeichen  Zeichen | <ul><li>Komma (Standard)</li><li>Semikolon</li><li>Doppelpunkt</li><li>Verkettungszeichen</li><li>Zeitraum</li><li>Leerzeichen</li><li>Tab</li></ul> |
+|  | CSV-Trennzeichen   Zeichen | <ul><li>Komma (Standard)</li><li>Semikolon</li><li>Doppelpunkt</li><li>Verkettungszeichen</li><li>Zeitraum</li><li>Leerzeichen</li><li>Tab</li></ul> |
