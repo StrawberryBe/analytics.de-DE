@@ -84,9 +84,9 @@ Beispielsweise ist pro Report Suite nur ein Google DCM zulässig. Viele Unterneh
 
 ### Zusammenfassungsdatenquellen
 
-Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von Zusammenfassungsdatenquellen aggregierte Metriken *ohne Besucher-ID* enthalten, können sie nicht in [!UICONTROL Besuche]- und [!UICONTROL Besucher]-Containern segmentiert werden. Da VRS mit Segmentierung arbeitet, sind Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites nicht verfügbar, wenn das Segment mit einem Besuchs- oder Besucherbehälter erstellt wurde.
+Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von Zusammenfassungsdatenquellen aggregierte Metriken *ohne Besucher-ID* enthalten, können sie nicht in Containern des Typs [!UICONTROL Besuch] und [!UICONTROL Besucher] segmentiert werden. Da VRS mit Segmentierung arbeitet, sind Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites nicht verfügbar, wenn das Segment mit einem Container des Typs „Besuch“ oder „Besucher“ erstellt wurde.
 
-Zusammenfassungsdatenquellen werden in der virtuellen Report Suite angezeigt, wenn ein Treffercontainer verwendet wird und dieser Treffercontainer Regeln enthält, die so konditioniert sind, dass sie die Datenquelleninformationen einschließen.
+Zusammenfassungsdatenquellen werden in der virtuellen Report Suite angezeigt, wenn ein Treffer-Container verwendet wird und dieser Treffer-Container Regeln enthält, die aufgrund ihrer Bedingungen die Informationen zur Datenquelle einschließen.
 
 >[!TIP]
 >
