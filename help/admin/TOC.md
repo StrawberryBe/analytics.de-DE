@@ -35,10 +35,10 @@ ht-degree: 99%
       + [Klassifizierungshierarchien](admin/conversion-var-admin/classification-hierarchies.md)
       + [Listenvariablen](admin/conversion-var-admin/list-var-admin.md)
       + [Merchandising-eVars](admin/conversion-var-admin/merchandising-evars.md)
-   + [Währungscodes](admin/currency.md)
+   + [Währungs-Codes](admin/currency.md)
    + [Beschreibung benutzerspezifischer Berichte](admin/custom-desc-admin.md)
    + [Kalender anpassen](admin/custom-calendar.md)
-   + [Data Sources](admin/data-sources.md)
+   + [Datenquellen](admin/data-sources.md)
    + [Standardmetriken](admin/default-metrics.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Suchmethoden](admin/finding-methods.md)
@@ -48,7 +48,7 @@ ht-degree: 99%
    + [Marketing-Kanäle](admin/marketing-channels-admin.md)
    + [Menüanpassung](admin/customize-menus.md)
    + [Metriksichtbarkeit](admin/metric-visibility.md)
-   + [App-Verwaltung](admin/mobile-management.md)
+   + [Mobile-App-Verwaltung](admin/mobile-management.md)
    + Erkennung von Paid Search {#paid-search-detection}
       + [Übersicht über die Erkennung von Paid Search](admin/paid-search-detection/paid-search-detection.md)
       + [Konfigurieren der Erkennung von Paid Search](admin/paid-search-detection/t-paid-search-detection.md)
@@ -78,7 +78,7 @@ ht-degree: 99%
          + [Füllen interner Suchbegriffe mithilfe eines Abfragezeichenfolgenparameters](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
          + [Kopieren einer Kontextdatenvariable in eine eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
          + [Festlegen eines Ereignisses mit einer Kontextdatenvariablen](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [Entfernen eines Ereignisses aus einem Hit](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+         + [Entfernen eines Ereignisses aus einem Treffer](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [Verarbeitungsregeln – Tipps und Tricks](admin/c-processing-rules/processing-rules-tips.md)
    + Echtzeitberichte {#real-time-reports}
       + [Übersicht über Echtzeitberichte](admin/realtime/realtime.md)
@@ -86,12 +86,12 @@ ht-degree: 99%
       + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/realtime/realtime-metrics.md)
    + [Warteschlange für terminierte Berichte](admin/scheduled-reports-admin.md)
    + Server-seitige Weiterleitung {#server-side-forwarding}
-      + [Übersicht über die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf.md)
-      + [DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Anforderungen an die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [Daten- und Codereferenz für die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Überprüfen der serverseitigen Weiterleitungsimplementierung](admin/c-server-side-forwarding/ssf-verify.md)
-      + [Häufig gestellte Fragen zur serverseitigen Weiterleitung](admin/c-server-side-forwarding/ssf-faq.md)
+      + [Übersicht über die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf.md)
+      + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf-gdpr.md)
+      + [Anforderungen an die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf-requirements.md)
+      + [Daten- und Codereferenz für die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf-reference.md)
+      + [Überprüfen der Server-seitigen Weiterleitungsimplementierung](admin/c-server-side-forwarding/ssf-verify.md)
+      + [Häufig gestellte Fragen zur Server-seitigen Weiterleitung](admin/c-server-side-forwarding/ssf-faq.md)
    + [Vereinfachtes Berichtsmenü](admin/t-simplified-menu.md)
    + [Social-Media-Verwaltung](admin/social-management.md)
    + Erfolgsereignisse {#success-events}
@@ -102,19 +102,19 @@ ht-degree: 99%
    + Traffic-Variablen {#traffic-variables}
       + [Übersicht über Traffic-Variablen (Eigenschaft)](admin/c-traffic-variables/traffic-var.md)
       + [Aktivieren von Traffic-Variablen-Berichten](admin/c-traffic-variables/t-traffic-variable.md)
-      + [Traffic-Classifications](admin/c-traffic-variables/traffic-classifications.md)
+      + [Traffic-Klassifizierungen](admin/c-traffic-variables/traffic-classifications.md)
    + Unique-Visitor-Variable {#unique-visitor-variable}
       + [Festlegen der Unique-Visitor-Variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Anwendungsfall – Extrahieren von Besucher-IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
-   + [Videomanagement](admin/video-management.md)
-+ Analytics in der Adobe Admin Console {#admin-console}
+   + [Video-Management](admin/video-management.md)
++ Analytics  in der Adobe Admin Console {#admin-console}
    + [Analytics in der Adobe Admin Console](admin-console/home.md)
    + Zugriffsberechtigung {#permissions}
-      + [Analytics-Berechtigungen in Admin Console](admin-console/permissions/summary-tables.md)
+      + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
       + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
       + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics-Handbuch für erste Administratoren](admin-console/first-admin-guide.md)
+   + [Erstes Adobe Analytics-Handbuch für Administratoren](admin-console/first-admin-guide.md)
 + Unternehmenseinstellungen {#company-settings}
    + [Übersicht über Unternehmenseinstellungen](company/c-company-settings.md)
    + [Funktionszugriffsebenen](company/feature-access-levels.md)
