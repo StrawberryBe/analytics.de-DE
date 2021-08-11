@@ -3,19 +3,19 @@ description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategori
 title: Konversionsklassifizierungen
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Konversionsklassifizierungen
 
-Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle [!UICONTROL Paid Search]-Kampagnen in eine Kategorie wie *Popmusikbegriffe* klassifizieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (Clickthroughs) und Konversion in Erfolgsereignisse berichten. Sie können einer Variablen bis zu 255 Classifications hinzufügen.
+Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle Kampagnen des Typs [!UICONTROL  Paid Search] in einer Kategorie wie *Popmusik-Bedingungen* klassifizieren und Berichte zum Erfolg dieser Kategorie anhand von Metriken wie Instanzen (Klicks) und Konversion zu Erfolgsereignissen erstellen. Sie können einer Variablen bis zu 255 Klassifizierungen hinzufügen.
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
-Nach der Aktivierung der Classifications verwenden Sie den [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
+Nach der Aktivierung der Classifications verwenden Sie den  [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
 
 >[!WARNING]
 >
