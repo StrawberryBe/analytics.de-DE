@@ -6,7 +6,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleu
 **Erste Schritte für Administratoren**
 
 * [Activity Map aktivieren](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [Beispiel-Implementierungscode](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+* [Beispiel-Implementierungs-Code](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
 **Erste Schritte für Benutzer**
 
-* [Activity Map Browser-Plug-ins installieren](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+* [Activity Map Browser-Plug-ins installieren ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map starten](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
 **Activity Map-Funktionen**
@@ -52,5 +52,5 @@ Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleu
 * [Activity Map-Einstellungen konfigurieren](activitymap-overlay-settings.md)
 * [Activity Map-Benutzeroberfläche](activitymap-user-interface.md)
 * [Activity Map – Berichterstattung in Analytics](activitymap-reporting-analytics.md)
-* [Fehlerbehebung für Browsererweiterungen](troubleshooting-browser-extensions.md)
+* [Fehlerbehebung für Browser-Erweiterungen](troubleshooting-browser-extensions.md)
 * [Ressourcen für weitere Informationen](activitymap-info-resources.md)
