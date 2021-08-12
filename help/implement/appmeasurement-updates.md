@@ -3,10 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2132'
-ht-degree: 100%
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,12 @@ Gesammelte Versionshinweise für [!DNL AppMeasurement] für JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin/admin/code-manager-admin.md) herunterladen.
+
+## Version 2.22.1
+
+Releasedatum: **12. August 2021**
+
+* Kunden, die das Opt-out verwenden, haben möglicherweise gesehen, dass die Opt-out-Parameter für die serverseitige Weiterleitung beim Tracking von Links nicht berücksichtigt wurden. Die Korrekturen in dieser Version führen dazu, dass die Opt-out-Flags gesendet werden, wenn sie bei Tracking-Links vorhanden sind.
 
 ## Version 2.22.0
 
@@ -425,7 +431,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zu unterstützen.
 
 ## Version 1.1.1
 
