@@ -2,11 +2,10 @@
 title: Dimensionen – Übersicht
 description: Variablen, die Zeichenfolgenwerte enthalten.
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 85%
 
 ---
 
@@ -23,3 +22,9 @@ Wenn Sie beispielsweise die Dimension „Seite“ mit der Metrik „Besuche“ k
 | `Purchase page` | `100` |
 
 Jede Dimension stellt einen anderen Teil oder eine andere Facette Ihrer Site dar. Sie können eine oder mehrere dieser Dimensionen mit einer oder mehreren Metriken kombinieren, um einen gewünschten Bericht zu erstellen.
+
+## Dimensionsbeschreibungen hinzufügen
+
+In diesem Video wird beschrieben, wie Sie in Adobe Analytics Dimensionsbeschreibungen (und Metriken) hinzufügen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
