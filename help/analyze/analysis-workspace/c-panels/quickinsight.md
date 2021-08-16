@@ -4,10 +4,10 @@ title: Bedienfeld „Quick Insights“
 feature: Bedienfelder
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 99%
 
 ---
 
@@ -27,6 +27,10 @@ Um Ihnen dabei zu helfen und basierend auf der Nutzung von Datenkomponenten durc
 * Vertrautmachen mit der Terminologie und dem Vokabular für grundlegende Komponenten und Bestandteile von [!UICONTROL Analysis Workspace].
 * Ausführen einfacher Aufschlüsselungen von Dimensionen, Hinzufügen mehrerer Metriken oder Vergleichen von Segmenten in einer [!UICONTROL Freiformtabelle].
 * Ändern oder Ausprobieren verschiedener Visualisierungstypen, um das Suchwerkzeug für Ihre Analyse schnell und intuitiv zu finden.
+
+Im Folgenden finden Sie eine Videoübersicht zum Bedienfeld [!UICONTROL Quick Insights] :
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Grundlegende Terminologie
 
