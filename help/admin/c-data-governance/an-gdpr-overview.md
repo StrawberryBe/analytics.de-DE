@@ -3,10 +3,10 @@ description: Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics 
 title: Adobe Analytics und die DSGVO
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 97%
 
 ---
 
@@ -54,3 +54,9 @@ Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help/ad
    >Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die DSGVO-API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen.
 
 * Überprüfen Sie Ihre Berechtigungen: Um die Analytics-Benutzeroberfläche zur Data-Governance-Verwaltung zu verwenden, müssen Sie Adobe Analytics-Administrator sein.
+
+## AdobePrivacyJS: Clientseitige Identitätsauflösung für DSGVO-Anfragen
+
+Hier finden Sie eine Videoübersicht zu diesem Thema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
