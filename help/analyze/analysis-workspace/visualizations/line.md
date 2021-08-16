@@ -5,20 +5,20 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualisierungen
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
 # Linie
 
-Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
+Die Visualisierung [!UICONTROL Zeile] stellt Metriken anhand einer Zeile dar, um zu zeigen, wie sich Werte über einen bestimmten Zeitraum ändern. Ein [!UICONTROL Liniendiagramm] kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
 
 ![Linienvisualisierung](assets/line-viz.png)
 
-Klicken Sie auf das Zahnradsymbol oben rechts in der Linienvisualisierung, um auf die verfügbaren [**Visualisierungseinstellungen**](freeform-analysis-visualizations.md) zuzugreifen. Die Einstellungen sind in folgende Kategorien unterteilt:
+Klicken Sie auf das Zahnradsymbol oben rechts in der Visualisierung [!UICONTROL Zeile] , um auf [**Visualisierungseinstellungen**](freeform-analysis-visualizations.md) zuzugreifen. Die Einstellungen sind in folgende Kategorien unterteilt:
 
 * **Allgemein**: Einstellungen, die für verschiedene Visualisierungstypen gelten
 * **Achse**: Einstellungen, die sich auf die x- oder y-Achse der Linienvisualisierung auswirken
@@ -39,6 +39,10 @@ Unter **[!UICONTROL Visualisierungseinstellungen]** > **[!UICONTROL Überlagerun
 ## Trendzeilenüberlagerung anzeigen
 
 Unter **[!UICONTROL Visualisierungseinstellungen]** > **[!UICONTROL Überlagerungen]** > **[!UICONTROL Trendlinie anzeigen]** können Sie Ihrer Linienserie eine Regressionstrendlinie hinzufügen oder die Durchschnittstrendlinie in Ihre Linienserie verschieben. Trendlinien helfen, ein Muster in den Daten besser darzustellen.
+
+Im Folgenden finden Sie ein Video zum Hinzufügen von Trendlinien zu Linienvisualisierungen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >
