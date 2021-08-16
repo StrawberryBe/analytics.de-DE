@@ -2,16 +2,20 @@
 description: Tracking bestimmt, wie Suchmaschinendaten von Ihrer Adobe Analytics-Implementierung verfolgt werden. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß mit den Suchmaschinendaten zu ergänzen.
 title: 'Tracking: Manueller Modus und Auto-Modus'
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 97%
 
 ---
 
 # Tracking: Manueller Modus und Auto-Modus
 
 Tracking bestimmt, wie Suchmaschinendaten von Ihrer Adobe Analytics-Implementierung verfolgt werden. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß mit den Suchmaschinendaten zu ergänzen.
+
+Im Folgenden finden Sie eine Videoübersicht zur Implementierung der Advertising Analytics-Tracking-Vorlage:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 Zwei Trackingmodi werden unterstützt: Auto-Modus und Manueller Modus.
 
