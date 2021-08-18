@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 99%
       + [Berechnete Metriken insgesamt](c-calcmetrics/cm-totals.md)
 + Virtual Report Suites {#virtual-report-suites}
    + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
-   + [Zusammenstellung der Virtual Report Suite-Komponenten](vrs/vrs-components.md)
+   + [Virtual Report Suite - Komponentenkuratierung](vrs/vrs-components.md)
    + [VRS-Unterstützung in Mobile Services](vrs/vrs-mobile-services.md)
    + [Kontextbezogene Sitzungen](vrs/vrs-mobile-visit-processing.md)
    + [Berichtszeitverarbeitung](vrs/vrs-report-time-processing.md)
+   + [A4T-Überlegungen](vrs/vrs-a4t.md)
    + [Häufig gestellte Fragen zu VRS](vrs/vrs-faq.md)
    + [VRSs und Überlegungen zum globalen Tagging/Multi-Suite-Tagging](vrs/vrs-considerations.md)
    + VRS-Workflow {#vrs-workflow}
