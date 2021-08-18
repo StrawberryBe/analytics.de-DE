@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1016'
 ht-degree: 99%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 99%
       + [Übersicht über Attribution](analysis-workspace/attribution/overview.md)
       + [Attributionsmodelle und Lookback-Fenster](analysis-workspace/attribution/models.md)
       + [Algorithmische Attribution](analysis-workspace/attribution/algorithmic.md)
+      + [Best Practices für die Attribution](analysis-workspace/attribution/best-practices.md)
       + [Häufig gestellte Fragen](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
