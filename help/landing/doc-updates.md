@@ -3,9 +3,9 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wesentliche Aktualisierungen des Adobe Analytics-Dokumentationssatzes.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
+source-git-commit: 3da800f4f1a2f30032cd7b1554c082526f8cf9e0
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2903'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Datum | Beschreibung |
 | --- | --- |
 | **August 2021** |  |
+| 18. August 2021 | Neues Thema zu [A4T und Virtual Report Suites](/help/components/vrs/vrs-a4t.md) |
+| 18. August 2021 | Neues Thema zu [Best Practices für die Attribution](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5. August 2021 | Neues Thema zu [Wiederholte Instanzen zählen](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
 | 5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) und [Browser-Export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) wurde aktualisiert, um Optionen anzuzeigen, die für Report Suites nicht verfügbar sind, die für die neue Klassifizierungsarchitektur aktiviert sind. |
 | 2. August 2021 | Mehrere Seiten wurden aktualisiert, um das Rebranding von [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) widerzuspiegeln. |
