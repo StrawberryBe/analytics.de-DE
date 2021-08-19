@@ -4,19 +4,19 @@ title: Interne URL-Filter
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 95%
 
 ---
 
+
 # Interne URL-Filter
 
-**[!UICONTROL Admin > Report Suites > Einstellungen bearbeiten > Allgemein > Interne URL-Filter > Filter hinzufügen]**
-
 Mit internen URL-Filtern werden die Referrer, die Sie als seitenintern betrachten, gekennzeichnet. Dies hilft, Berichte zu Traffic-Quellen mit Daten zu füllen und internen Traffic zu filtern.
+
+**[!UICONTROL Admin]**  >  **[!UICONTROL Report Suites]**  > Einstellungen  **[!UICONTROL bearbeiten]**  >  **[!UICONTROL Allgemein]**  >  **[!UICONTROL Interne URL-Filter]**
 
 Ein Referrer oder eine verweisende Seite ist normalerweise die Seite, von der aus Besucher Ihre Website aufgerufen haben. Um Datenverzerrungen zu vermeiden, können Sie interne Seiten als Referrer herausfiltern. Berichte schließen gefilterte Referrer aus  der Dimension [Referrers](/help/components/dimensions/referrer.md), der Dimension [Referrerdomänen](/help/components/dimensions/referring-domain.md) und anderen Traffic-Quellendimensionen aus.
 
