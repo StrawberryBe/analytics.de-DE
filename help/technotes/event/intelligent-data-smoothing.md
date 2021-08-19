@@ -3,7 +3,7 @@ title: Intelligente Datenausgleichung
 description: Erfahren Sie, wie intelligente Datenausgleichung historische Trends analysiert, um den Wert einer Metrik innerhalb eines betroffenen Zeitraums vorherzusagen.
 feature: KI-Tools
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 In seltenen Fällen können einige Faktoren die Datenqualität beeinflussen. Bot-Traffic, Implementierungsänderungen oder Dienstunterbrechungen können sich auf die Integrität der erfassten Daten auswirken. Sie verkomplizieren auch die Analyse, wie sich das Ereignis auf die Vollständigkeit der Daten ausgewirkt haben kann.
 
-Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyze/tech-previews/overview.md), der dazu beitragen kann, diese Ansicht abzuschließen, indem historische Trends analysiert werden, um den Wert einer Metrik im betroffenen Zeitraum vorherzusagen. Der Prototyp wendet erweiterte maschinelle Lernalgorithmen an, um die erwarteten Werte für Metriken im Analysezeitraum darzustellen.
+Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyze/labs.md), der dazu beitragen kann, diese Ansicht abzuschließen, indem historische Trends analysiert werden, um den Wert einer Metrik im betroffenen Zeitraum vorherzusagen. Der Prototyp wendet erweiterte maschinelle Lernalgorithmen an, um die erwarteten Werte für Metriken im Analysezeitraum darzustellen.
 
 ## Intelligente Datenausgleichung ausführen
 
