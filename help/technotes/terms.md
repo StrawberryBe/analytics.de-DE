@@ -2,10 +2,10 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '2439'
-ht-degree: 98%
+source-wordcount: '2554'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Anwenderberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/admin/c-admin-tools.md) im Administratorhandbuch.
    * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Anwenderberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
 * **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
+* **Analysis Workspace:** Browserlösung zum Erstellen robuster, benutzerdefinierter Analyseprojekte und demokratisierender Erkenntnisse. Bietet mehr Berichtsflexibilität als Reports and Analytics.
 * **Anomalie:** Eine Anomalie wird mithilfe statistischer Modellierung entdeckt, um automatisch nach unerwarteten Trends in Daten zu suchen. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) im Benutzerhandbuch zu Analysen.
 * **AppMeasurement:** die Code-Bibliothek, mit der Daten erfasst und an Adobe gesendet werden. Siehe [Startseite](/help/implement/home.md) des Benutzerhandbuchs zu Implementierungen.
 * **ASI-Slot:** Dieser ist nicht mehr vorhanden. In früheren Versionen von Adobe Analytics boten die ASI-Slots einen temporären Report Suite-Container, um segmentierte Daten anzuzeigen. In der aktuellen Version von Adobe Analytics können Segmente sofort auf jeden Bericht angewendet werden.
@@ -44,10 +45,11 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Kundenattribute:** eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de) im Benutzerhandbuch zu zentralen Diensten.
 * **Support-Beauftragter:** ein bestimmter Anwender, der zur direkten Interaktion mit der Adobe-Kundenunterstützung bestimmt ist. Siehe [Support-Beauftragte](https://helpx.adobe.com/de/experience-cloud/supported-users.html) in der Experience Cloud-Wissensdatenbank.
 * **Datenerfassungs-Server:** Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungs-Server von Adobe gesendet.
-* **Daten-Connectoren:** eine vollständige Entwicklungslösung, die es Drittanbietern ermöglicht, das Hochladen von Daten in Adobe Analytics zu automatisieren. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Die meisten Daten-Connectoren verwenden einen ähnlichen Workflow wie den in Data Sources. Siehe „Data Connectors“ im Benutzerhandbuch zu Importen.
+* **Daten-Connectoren:** eine vollständige Entwicklungslösung, die es Drittanbietern ermöglicht, das Hochladen von Daten in Adobe Analytics zu automatisieren. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Die meisten Daten-Connectoren verwenden einen ähnlichen Workflow wie den in Data Sources. Siehe [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) im Benutzerhandbuch zu Importen.
 * **Daten-Feed:** ein Rohdatenexport, der jeden Treffer als Zeile und Variablen als separate Spalten auflistet. Am häufigsten werden Adobe Analytics-Daten in Datenbanken von Drittanbietern exportiert. Siehe [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten.
 * **Datenquellen:** Ermöglicht dem Anwender das Hochladen von Daten aus einer Datei in Adobe Analytics. Die Datei wird normalerweise von einer FTP-Site abgerufen. Siehe [Data Sources](/help/import/c-data-sources/datasrc-home.md) im Benutzerhandbuch zu Importen.
 * **Data Warehouse:** Eine Funktion in Adobe Analytics, mit der Sie größere Berichte anfordern können. Siehe [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) im Benutzerhandbuch zu Exporten.
+* **Data Workbench:** Zuvor als Insight bezeichnet. Wurde konstruiert, um Sie bei der Sammlung, Verarbeitung, Analyse und Visualisierung von Online- und Offline-Kundeninteraktionen über mehrere Kanäle hinweg zu unterstützen.
 * **Dimension:** ein Komponententyp, der Variablenwerte wie Text enthält. Beispiele sind Seitenname, Trackingcode oder Referrer-Domäne. Eine Metrik bildet normalerweise ihr Gegenstück.
 * **Ereignis-Serialisierung:** der Prozess der Implementierung von Maßnahmen zur Vermeidung der Erfassung doppelter Ereignisse. Siehe [Ereignis-Serialisierung](../implement/vars/page-vars/events/event-serialization.md) im Benutzerhandbuch zu Implementierungen.
 * **eVar:** Siehe „Konversionsvariable“.
@@ -71,6 +73,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Anmeldeunternehmen:** eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind.
 * **Marketing-Kanal:** eine Funktion in Adobe Analytics, die Treffer nach der Ankunft auf Ihrer Site kategorisiert. Die zur Kategorisierung von Treffern verwendete Logik kann mithilfe von Marketing-Kanal-Verarbeitungsregeln angepasst werden. Siehe [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
 * **Metrik:** ein Komponententyp, der quantitative Daten enthält. Metrikwerte enthalten in der Regel Zahlen wie Seitenansichten, Besuche und Umsatz. Eine Dimension bildet normalerweise ihr Gegenstück.
+* **Mobile Services:** Kombiniert mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. Siehe [Übersicht über Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=de).
 * **Multi-Suite-Tagging:** die Vorgehensweise, denselben Treffer an mehrere Report Suites zu senden. Mit der Einführung in Virtual Report Suites ist diese Vorgehensweise weitgehend nicht mehr erforderlich. Die meisten Multi-Suite-Tagging-Bemühungen unterstützen eine globale Report Suite.
 * **Normalisierung:** eine Möglichkeit, eine Visualisierung zu organisieren, bei der alle Metriken in gleiche Proportionen umgewandelt werden, sodass Trends leichter verglichen werden können.
 * **Vorfälle:** ein Metriktyp, der anzeigt, in wie vielen Treffern ein Dimensionselement festgelegt oder beibehalten wurde. Weitere Informationen finden Sie unter der Metrik [Vorfälle](/help/components/metrics/occurrences.md) im Komponenten-Benutzerhandbuch.
@@ -85,7 +88,9 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.
 * **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/realtime/realtime.md) im Administratorhandbuch.
+* **Report Builder:** Ein Microsoft Excel-Add-in, mit dem Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen können.
 * **Report Suite:** ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
+* **Reports &amp; Analytics:** Zuvor als SiteCatalyst bezeichnet. Browserlösung zur Berichterstellung und Analyse. Starter-Tool im Analytics-Paket.
 * **Rollierender Datumsbereich:** ein Typ des relativen Datumsbereichs, der sich im Zeitverlauf ändert. Ein Bericht mit den letzten sieben Tagen kann beispielsweise als rollierender Datumsbereich betrachtet werden. Siehe auch „Statischer Datumsbereich“.
 * **RSID:** Abkürzung für Report Suite-ID. Eine Report Suite verfügt sowohl über einen benutzerfreundlichen Namen als auch über eine Report Suite-ID.
 * **s.t():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.track()`. Siehe [t](../implement/vars/functions/t-method.md) im Benutzerhandbuch zu Implementierungen.
@@ -98,7 +103,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Serialisierung:** Siehe „Ereignis-Serialisierung“.
 * **Server-Aufruf:** Alternativname für eine Bildanforderung oder einen Treffer, der hauptsächlich im Zusammenhang mit der Abrechnung verwendet wird.
 * **Einzelzugriff:** ein Besuch, bei dem eine Dimension nur einen eindeutigen Wert aufwies. Der Besuch kann mehrere Treffer aufweisen, solange nicht mehrere eindeutige Werte vorhanden sind. Weitere Informationen finden Sie unter der Metrik [Einzelzugriff](/help/components/metrics/single-access.md) im Komponenten-Benutzerhandbuch. Siehe auch „Absprung“.
-* **SiteCatalyst:** wird nicht mehr als Begriff verwendet. Der frühere Produktname für Adobe Analytics.
+* **SiteCatalyst:** wird nicht mehr als Begriff verwendet. Ein ehemaliger Produktname für Adobe Analytics.
 * **Lösungs-Design-Dokument:** Auch als Lösungs-Design-Referenz (Solution Design Reference, SDR) bezeichnet. Ein internes Dokument, das von einem Unternehmen verwaltet wird und in dem die Verwendung benutzerspezifischer Variablen sowie die zum Ausfüllen verwendete Logik erläutert werden. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
 * **Subrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics boten Subrelationen die Möglichkeit, Konversionsvariablen aufzuschlüsseln. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.
 * **Erfolgsereignis:** eine verfolgte Aktion, die ein Anwender ausgeführt hat. Ihr Unternehmen legt fest, welche Ereignisse verfolgt werden und welche Erfolgsereignisvariablen Sie für das Tracking verwenden. Siehe [Benutzerspezifische Ereignisse](/help/components/metrics/custom-events.md) im Benutzerhandbuch zu Komponenten.
