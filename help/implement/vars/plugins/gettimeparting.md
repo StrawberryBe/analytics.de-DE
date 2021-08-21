@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Messen Sie die Zeit, zu der eine bestimmte Aktion stattfindet.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Verwenden des Plug-ins
 
-Die `getTimeParting`-Methode verwendet das folgende Argument:
+Die Funktion `getTimeParting` verwendet das folgende Argument:
 
 **`t`** (Optional, aber empfohlen, Zeichenfolge): Der Name der Zeitzone, in die die Ortszeit des Besuchers umgerechnet werden soll.  Die Standardeinstellung ist die UTC/GMT-Zeit. Eine vollständige Liste der gültigen Werte finden Sie unter [List of tz database time zones (Liste der Zeitzonen der Zeitzonen-Datenbank)](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) auf Wikipedia.
 
@@ -74,7 +74,7 @@ Zu den üblichen gültigen Werten gehören:
 * `"America/Denver"` für Mountain Time (MST)
 * `"America/Los_Angeles"` für Pacific Time (PST)
 
-Beim Aufrufen dieser Methode wird eine Zeichenfolge zurückgegeben, die die folgenden, durch einen senkrechten Strich (`|`) getrennte, Zeichen enthält:
+Der Aufruf dieser Funktion gibt eine Zeichenfolge zurück, die die folgende durch einen senkrechten Strich (`|`) getrennte Zeichenfolge enthält:
 
 * Das aktuelle Jahr
 * Der aktuelle Monat
@@ -82,55 +82,35 @@ Beim Aufrufen dieser Methode wird eine Zeichenfolge zurückgegeben, die die folg
 * Der Tag des Woche
 * Die aktuelle Zeit
 
-## Beispielaufrufe
-
-### Beispiele für bestimmte Zeitzonen
-
-Verwenden Sie den folgenden Beispielcode, wenn sich der Client in Paris, Frankreich befindet:
+## Beispiele
 
 ```js
-s.eVarX = getTimeParting("Europe/Paris");
-```
+// Use the following code if the visitor resides in Paris, France
+s.eVar8 = getTimeParting("Europe/Paris");
 
-Der Client befindet sich in San Jose, Kalifornien:
+// Use the following code if the visitor resides in San Jose, California
+s.eVar17 = getTimeParting("America/Los_Angeles");
 
-```js
-s.eVarX = getTimeParting("America/Los_Angeles");
-```
+// Use the following code if the visitor resides in Ghana.
+// Note that Ghana is in GMT time, the default time zone that the plug-in uses with no argument
+s.eVar22 = getTimeParting();
 
-Der Client befindet sich in Ghana:
-
-```js
-s.eVarX = getTimeParting();
-```
-
-Ghana liegt innerhalb der UTC/GMT-Zeitzone. Dieses Beispiel zeigt, dass kein Plug-in-Argument für UTC/GMT erforderlich ist.
-
-### Für Internet Explorer-Browser
-
-Verwenden Sie das folgende Beispiel, wenn Sie Zeitaufteilungsdaten von Internet Explorer-Besuchern ausschließen möchten. Der von IE-Browsern zurückgegebene Wert ist nur in der Ortszeit des Besuchers angegeben.
-
-```js
-if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+// Internet Explorer only returns the visitor's local time. Use this conditional statement to accommodate IE visitors
+if(!document.documentMode) s.eVar39 = getTimeParting("America/New_York");
 else s.eVarX = "Internet Explorer Visitors";
-```
 
-### Ergebnisse von Aufrufen
-
-Stellen Sie sich ein Szenario vor, bei dem ein Besucher aus Denver, Colorado, am 31. August 2020 um 9:15 Uhr eine Site besucht.
-
-```js
-s.eVar10 = getTimeParting("Europe/Athens");
+// Given a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+s.eVar10 = getTimeParting("Europe/Athens");
 
-s.eVar11 = getTimeParting("America/Nome");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+s.eVar11 = getTimeParting("America/Nome");
 
-s.eVar12 = getTimeParting("Asia/Calcutta");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+s.eVar12 = getTimeParting("Asia/Calcutta");
 
-s.eVar13 = getTimeParting("Australia/Sydney");
 // Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## Versionsverlauf
