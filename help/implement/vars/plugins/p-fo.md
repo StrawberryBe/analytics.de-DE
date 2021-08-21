@@ -2,10 +2,10 @@
 title: p_fo (Page First Only (nur einmal pro Seite))
 description: Stellen Sie sicher, dass bestimmte Routinen nur einmal pro Seite ausgelöst werden.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 82%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Verwenden des Plug-ins
 
-Die `p_fo`-Methode verwendet die folgenden Argumente:
+Die Funktion `p_fo` verwendet die folgenden Argumente:
 
 * **on** (erforderlich, Zeichenfolge): Der Name des JavaScript-Objekts, das vom Plug-in erzeugt wird, wenn das Objekt noch nicht auf der Seite vorhanden ist.
 
-Wenn das Objekt noch nicht vorhanden ist, gibt diese Methode `true` zurück und erzeugt das Objekt. Wenn das Objekt bereits vorhanden ist, gibt diese Methode `false` zurück.
+Wenn das Objekt noch nicht vorhanden ist, gibt diese Funktion `true` zurück und erstellt das Objekt. Wenn das Objekt bereits vorhanden ist, gibt diese Funktion `false` zurück.
 
 ## Beispielaufrufe
 
@@ -71,14 +71,14 @@ Der folgende Code prüft, ob das Objekt „myobject“ auf der Seite vorhanden i
 
 Wenn hingegen das Objekt „myobject“ bereits vorhanden ist, wenn p_fo aufgerufen wird, gibt die p_fo-Funktion den Wert „false“ zurück und die bedingte Anweisung wird daher als „false“ betrachtet.  In diesem Fall wird der Code innerhalb der bedingten Anweisung nicht ausgeführt.
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**HINWEIS:** Jedes Mal, wenn ein neues Seitenobjekt/DOM geladen wird (oder die aktuelle Seite erneut geladen wird), ist das im on-Argument angegebene Objekt nicht mehr vorhanden. Daher gibt das p_fo-Plug-in nach dem ersten Laden der Seite erneut „true“ zurück, wenn es ausgeführt wird.
+**HINWEIS:**  Jedes Mal, wenn ein neues Seitenobjekt/DOM geladen wird (oder die aktuelle Seite neu geladen wird), ist das im on-Argument angegebene Objekt nicht mehr vorhanden. Daher gibt das p_fo-Plug-in nach dem ersten Laden der Seite erneut &quot;true&quot;zurück, wenn es ausgeführt wird.
 
 ## Versionsverlauf
 
