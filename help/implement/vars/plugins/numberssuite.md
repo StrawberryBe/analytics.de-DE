@@ -2,10 +2,10 @@
 title: Numbers Suite
 description: Generieren und bearbeiten Sie Zahlen zur Verwendung in anderen JavaScript-Variablen.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 94%
+ht-degree: 79%
 
 ---
 
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Verwenden der Plug-ins
 
-Die `zeroPad`-Methode verwendet die folgenden Argumente:
+Die Funktion `zeroPad` verwendet die folgenden Argumente:
 
-* **num** (erforderlich, Ganzzahl): Die Nummer, die aufgefüllt werden soll. Die Methode rundet den Wert dieses Arguments ab, wenn es Dezimalstellen enthält.
+* **num** (erforderlich, Ganzzahl): Die Nummer, die aufgefüllt werden soll. Die Funktion rundet den Wert dieses Arguments ab, wenn es Dezimalstellen enthält.
 * **nod** (erforderlich, Ganzzahl): Die Anzahl der Ziffern im endgültigen Rückgabewert. Wenn die Zahl, die aufgefüllt werden soll, weniger Ziffern enthält als die Anzahl der zu verwendenden Ziffern, fügt das Plug-in dem `num`-Argument Nullen am Anfang hinzu.
 
-Die `randomNumber`-Methode verwendet die folgenden Argumente:
+Die Funktion `randomNumber` verwendet die folgenden Argumente:
 
 * **nod** (optional, Ganzzahl): Die Anzahl der Ziffern in der Zufallszahl, die Sie generieren möchten. Der Höchstwert beträgt 17 Ziffern. Der Standardwert beträgt 10 Ziffern.
 
-Die `twoDecimals`-Methode verwendet die folgenden Argumente:
+Die Funktion `twoDecimals` verwendet die folgenden Argumente:
 
 * **val** (erforderlich, Zahl): Eine Zahl (die durch ein Zeichenfolgen- oder Zahlenobjekt dargestellt wird), die auf das nächste Hundertstel gerundet werden soll.
 
 ## Rückgaben
 
-* Die **zeroPad**-Methode gibt eine Zeichenfolge zurück, die dem `num`-Argument entspricht, wobei jedoch eine bestimmte Anzahl von Nullen am Anfang des Werts hinzugefügt wird. Dadurch wird sichergestellt, dass der Rückgabewert die richtige Anzahl von Ziffern aufweist.
-* Die **randomNumber**-Methode gibt eine Zeichenfolge zurück, die einer Zufallszahl mit der gewünschten Anzahl von Ziffern entspricht.
-* Die **twoDecimals**-Methode gibt ein auf das nächste Hundertstel gerundetes Zahlenobjekt zurück.
+* Die Funktion **zeroPad** gibt eine Zeichenfolge zurück, die dem `num`-Argument entspricht, jedoch mit einer bestimmten Anzahl von Nullen am Anfang des Werts, wodurch sichergestellt wird, dass der Rückgabewert die richtige Anzahl von Ziffern aufweist.
+* Die Funktion **randomNumber** gibt eine Zeichenfolge zurück, die einer zufälligen Zahl mit der gewünschten Anzahl von Ziffern entspricht.
+* Die Funktion **twoDecimals** gibt ein auf das nächste Hundertstel gerundetes Zahlenobjekt zurück.
 
 ## Beispielaufrufe
 
