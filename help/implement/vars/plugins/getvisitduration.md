@@ -2,10 +2,10 @@
 title: getVisitDuration
 description: Verfolgen Sie, wie viel Zeit ein Besucher bisher auf der Website verbracht hat.
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '466'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## Verwenden des Plug-ins
 
-Die `getVisitDuration`-Methode verwendet keine Argumente. Sie gibt einen der folgenden Werte zurück:
+Die Funktion `getVisitDuration` verwendet keine Argumente. Sie gibt einen der folgenden Werte zurück:
 
 * `"first hit of visit"`
 * `"less than a minute"`
@@ -66,37 +66,16 @@ Die `getVisitDuration`-Methode verwendet keine Argumente. Sie gibt einen der fol
 
 Dieses Plug-in erzeugt ein Erstanbieter-Cookie mit dem Namen `"s_dur"`, das die Anzahl der Millisekunden angibt, die seit der Landung des Besuchers auf der Website vergangen sind. Das Cookie läuft nach 30 Minuten Inaktivität ab.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Der folgende Code ...
+## Beispiele
 
 ```js
-s.eVar10 = s.getVisitDuration();
+// Always sets eVar10 to the number of minutes passed since the visitor first landed on the site
+s.eVar10 = getVisitDuration();
+
+// Checks if the events variable contains the purchase event.
+// If it does, sets eVar56 to the number of minutes between the start of the visit and the time of purchase
+if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 ```
-
-... stellt eVar10 immer auf die Anzahl der Minuten ein, die vergangen sind, seit der Besucher auf der Website gelandet ist.
-
-### Beispiel 2
-
-Der folgende Code ...
-
-```js
-if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
-```
-
-... prüft mithilfe des InList-Plug-ins, ob die Ereignisvariable das Kaufereignis enthält.  Ist dies der Fall, wird eVar10 auf die Anzahl der Minuten zwischen dem Beginn des Besuchs und dem Kaufzeitpunkt des Besuchers eingestellt.
-
-### Beispiel 3
-
-Der folgende Code ...
-
-```js
-s.prop10 = s.getVisitDuration();
-```
-
-... stellt prop10 immer auf die Anzahl der Minuten ein, die vergangen sind, seit der Besucher auf der Website gelandet ist.  Dies ist nützlich, wenn bei prop10 die Pfadsetzung aktiviert ist.  Wenn Sie die Metrik „Ausstiege“ zum Bericht „prop10“ hinzufügen, wird ein granularer Streudiagramm-Bericht angezeigt, wie lange ein Besuch in Minuten gedauert hat, bevor ein Besucher die Website verlassen hat.
 
 ## Versionsverlauf
 
