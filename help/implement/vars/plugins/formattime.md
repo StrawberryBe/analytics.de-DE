@@ -2,10 +2,10 @@
 title: formatTime
 description: Konvertieren Sie eine Anzahl von Sekunden in das Äquivalent in Minuten, Stunden usw.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## Verwenden des Plug-ins
 
-Die `formatTime`-Methode verwendet die folgenden Argumente:
+Die Funktion `formatTime` verwendet die folgenden Argumente:
 
 * **`ns`** (erforderlich, Ganzzahl): Die Anzahl der Sekunden, die konvertiert oder formatiert werden sollen
 * **`tf`** (optional, Zeichenfolge): Der Formattyp, in dem die Sekunden zurückgegeben werden; standardmäßig auf Sekunden gesetzt
@@ -67,7 +67,7 @@ Die `formatTime`-Methode verwendet die folgenden Argumente:
    * Legen Sie diese Einstellung auf `"s"` fest, wenn Sie die Zeit in Sekunden wünschen (standardmäßig auf den nächsten 5-Sekunden-Benchmark gerundet)
 * **`bml`** (optional, Zahl): Die Länge der Rundungs-Benchmarks. Standardmäßig auf die im `tf`-Argument aufgeführten Benchmarks gesetzt
 
-Die Methode gibt die Anzahl der Sekunden zurück, die mit der im `tf`-Argument angegebenen Einheit formatiert wurden. Wenn das `tf`-Argument nicht festgelegt ist:
+Die Funktion gibt die Anzahl der Sekunden zurück, die mit der im `tf`-Argument angegebenen Einheit formatiert wurden. Wenn das `tf`-Argument nicht festgelegt ist:
 
 * Alles unter einer Minute wird auf den nächstliegenden 5-Sekunden-Benchmark gerundet
 * Alles zwischen einer Minute und einer Stunde wird auf den nächsten 1/2-Minuten-Benchmark gerundet
@@ -76,82 +76,31 @@ Die Methode gibt die Anzahl der Sekunden zurück, die mit der im `tf`-Argument a
 
 ## Beispiele
 
-### Beispiel 1
-
-Der folgende Code ...
-
 ```js
-s.eVar1 = s.formatTime(38242);
+// Sets eVar1 to "10.5 hours".
+// 38242 seconds equals 10 hours, 37 minutes, and 22 seconds. Since the tf argument is not set, the value returned is the number of seconds converted to the nearest quarter-hour benchmark.
+s.eVar1 = formatTime(38242);
+
+// Sets eVar4 to "10.75 hours".
+// 38250 seconds equals 10 hours, 37 minutes, and 30 seconds. This value rounds up to the nearest quarter hour.
+s.eVar4 = formatTime(38250);
+
+// Sets eVar9 to "637.5 minutes".
+s.eVar9 = formatTime(38242, "m");
+
+// Sets eVar14 to "640 minutes".
+// The tf argument forces the returned value to minutes, while the bml argument forces the value to the nearest 20-minute increment.
+s.eVar14 = formatTime(38242, "m", 20);
+
+// Sets eVar2 to "126 seconds", the closest 2-second benchmark to 125 seconds.
+s.eVar2 = formatTime(125, "s", 2);
+
+// Sets eVar7 to "3 minutes", the closest 3-minute benchmark to 125 seconds.
+s.eVar7 = formatTime(125, "m", 3);
+
+// Sets eVar55 to "2.4 minutes, the closest 2/5-minute benchmark to 145 seconds.
+s.eVar55 = formatTime(145, "m", .4);
 ```
-
-... setzt s.eVar1 auf „10,5 Stunden“
-
-Das übergebene Argument - 38242 Sekunden - entspricht 10 Stunden, 37 Minuten und 22 Sekunden.  Da das tf-Argument in diesem Aufruf nicht festgelegt ist und die Anzahl der Sekunden, die übergeben werden, zwischen einer Stunde und einem Tag liegt, gibt das Plug-in die Anzahl der Sekunden zurück, die auf den nächsten viertelstündigen Benchmark umgewandelt wurde.
-
-### Beispiel 2
-
-Der folgende Code ...
-
-```js
-s.eVar1 = s.formatTime(38250);
-```
-
-... setzt s.eVar1 auf „10,75 Stunden“
-Das übergebene Argument - 38250 Sekunden - entspricht 10 Stunden, 37 Minuten und 30 Sekunden.  Durch das Runden der Anzahl der übergebenen Sekunden auf den nächsten viertelstündigen Benchmark wird in diesem Fall der Endwert auf 10,75 Stunden festgelegt
-
-### Beispiel 3
-
-Der folgende Code ...
-
-```js
-s.eVar1 = s.formatTime(38242, "m");
-```
-
-... setzt s.eVar1 auf „637,5 Minuten“
-
-In diesem Fall zwingt das „m“-Argument das Plug-in, die Sekunden in den nächsten ½-Minuten-Benchmark umzurechnen
-
-### Beispiel 4
-
-Der folgende Code ...
-
-```js
-s.eVar1 = s.formatTime(38242, "m", 20);
-```
-
-... setzt s.eVar1 auf „640 Minuten“
-
-Der tf-Argumentwert („m“) zwingt das Plug-in, die Sekunden in Minuten umzurechnen, aber der bml-Argumentwert (20) zwingt das Plug-in auch, die Minutenumrechnung auf den nächsten 20-Minuten-Benchmark zu runden.
-
-### Beispiel 5
-
-Der folgende Code ...
-
-```js
-s.eVar1 = s.formatTime(125, "s", 2);
-```
-
-... setzt s.eVar1 auf „126 Sekunden“, was dem nächstgelegenen 2-Sekunden-Benchmark von 125 Sekunden entspricht
-
-### Beispiel 6
-
-Der folgende Code ...
-
-```js
-s.eVar1 = s.formatTime(125, "m", 3);
-```
-
-... setzt s.eVar1 auf „3 Minuten“, was dem nächstgelegenen 3-Minuten-Benchmark von 125 Sekunden entspricht
-
-### Beispiel 7
-
-Der folgende Code ...
-
-```js
-s.eVar1 = s.formatTime(145, "m", .4);
-```
-
-... setzt s.eVar1 auf „2,4 Minuten“, was dem nächstgelegenen 2/5-Sekunden-Benchmark (z. B. 0.4 = 2/5) von 145 Sekunden entspricht
 
 ## Versionsverlauf
 
