@@ -2,10 +2,10 @@
 title: apl (appendToList)
 description: Fügen Sie Werte an Variablen an, die mehrere Werte unterstützen.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## Verwenden des Plug-ins
 
-Die `apl`-Methode verwendet die folgenden Argumente:
+Die Funktion `apl` verwendet die folgenden Argumente:
 
 * **`lv`** (erforderlich, Zeichenfolge): Die Variable, die eine durch Trennzeichen getrennte Liste von Elementen enthält, der ein neuer Wert hinzugefügt werden soll
 * **`vta`** (erforderlich, Zeichenfolge): Eine durch Komma getrennte Liste der neuen Werte, die dem `lv`-Argumentwert hinzugefügt werden sollen.
@@ -71,231 +71,59 @@ Die `apl`-Methode verwendet die folgenden Argumente:
 * **`d2`** (optional, Zeichenfolge): Das Ausgabetrennzeichen. Der Standardwert ist derselbe Wert wie `d1`, wenn nicht festgelegt.
 * **`cc`** (optional, boolesch): Eine Markierung, die anzeigt, ob bei einer Prüfung die Groß-/Kleinschreibung beachtet wird. Wenn die Markierung `true` ist, wird bei der Duplizierungsprüfung die Groß- und Kleinschreibung beachtet. Wenn die Markierung `false` oder nicht gesetzt ist, wird bei der Duplizierungsprüfung nicht zwischen Groß- und Kleinschreibung unterschieden. Die Standardeinstellung ist `false`.
 
-Die `apl`-Methode gibt den Wert des `lv`-Arguments sowie alle nicht duplizierten Werte im `vta`-Argument zurück.
+Die Funktion `apl` gibt den Wert des `lv`-Arguments sowie alle nicht duplizierten Werte im `vta`-Argument zurück.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Wenn ...
+## Beispiele
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... lautet der Endwert von s.events:
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### Beispiel 2
-
-Wenn ...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
- ... und der folgende Code ausgeführt wird ...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... lautet der Endwert von s.events weiterhin:
-
-```js
-s.events = "event22,event23";
-```
-
-In diesem Beispiel hat der apl-Aufruf keine Änderungen an s.events vorgenommen, da s.events bereits „event23“ enthielt
-
-### Beispiel 3
-
-Wenn ...
-
-```js
-s.events = ""; //blank value
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
- ... lautet der Endwert von s.events ...
-
-```js
-s.events = "event23";
-```
-
-### Beispiel 4
-
-Wenn ...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
- ... lautet der Endwert von s.prop4 weiterhin ...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-... aber der Endwert von s.eVar5 lautet
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-Beachten Sie, dass das Plug-in nur einen Wert zurückgibt; es setzt die durch das lv-Argument übergebene Variable nicht unbedingt zurück.
-
-### Beispiel 5
-
-Wenn ...
-
-```js
-s.prop4 = "hello|people";
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
- ... lautet der Endwert von s.prop4 ...
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-Stellen Sie sicher, dass das Trennzeichen zwischen dem Wert des lv-Arguments und dem Wert der Argumente d1/d2 konsistent ist
-
-### Beispiel 6
-
-Wenn ...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-... lautet der Endwert von s.events:
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-Obwohl dieses Beispiel nicht praktikabel ist, zeigt es, dass bei Verwendung der Markierung, bei der die Groß- und Kleinschreibung beachtet werden muss, Vorsicht geboten ist.
-
-### Beispiel 7
-
-Wenn ...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-... lautet der Endwert von s.events:
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-Das Plug-in fügt s.events „event23“ nicht hinzu, da es bereits in s.events vorhanden ist.  Allerdings werden „event24“ und „event25“ zu s.events hinzugefügt, da keines der beiden Ereignisse zuvor in s.events enthalten war.
-
-### Beispiel 8
-
-Wenn ...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-... lautet der Endwert von s.linkTrackVars:
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-Die letzten drei Argumente (d. h. „,“, „,“, false) am Ende dieses apl-Aufrufs sind nicht erforderlich, verletzen aber auch nichts, da sie mit den Standardargumentwerten übereinstimmen.
-
-### Beispiel 9
-
-Wenn ...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.apl(s.events, "event23");
-```
-
-... lautet der Endwert von s.events weiterhin:
-
-```js
-s.events = "event22,event24";
-```
-
-Wenn Sie das Plug-in allein ausführen (ohne den Rückgabewert einer Variablen zuzuweisen), wird die Variable, die über das lv-Argument übergeben wird, nicht zurückgesetzt.
-
-### Beispiel 10
-
-Wenn ...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-... lautet der Endwert von s.list2:
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-Da die beiden Trennzeichen-Argumente unterschiedlich sind, wird der übergebene Wert durch das erste Trennzeichen-Argument („ “) getrennt und dann durch das zweite Trennzeichen („-“) verbunden.
 
 ## Versionsverlauf
 
@@ -323,7 +151,7 @@ Da die beiden Trennzeichen-Argumente unterschiedlich sind, wird der übergebene 
 
 ### 2.5 (18. Februar 2016)
 
-* Verwendet jetzt die `inList`-Methode für die Vergleichsverarbeitung
+* Verwendet jetzt die Funktion `inList` für die Vergleichsverarbeitung
 
 ### 2.0 (26. Januar 2016)
 
