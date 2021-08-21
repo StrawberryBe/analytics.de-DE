@@ -2,10 +2,10 @@
 title: addProductEvent
 description: Fügt den Variablen „products“ und „events“ benutzerspezifische Ereignisse hinzu.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 94%
+source-wordcount: '518'
+ht-degree: 88%
 
 ---
 
@@ -57,84 +57,51 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## Verwenden des Plug-ins
 
-Die `addProductEvent`-Methode verwendet die folgenden Argumente:
+Die Funktion `addProductEvent` verwendet die folgenden Argumente:
 
 * **`en`** (erforderlich, Zeichenfolge): Das Ereignis, das zum letzten Eintrag in der `products`-Variablen hinzugefügt wird. Wenn die `products`-Variable leer ist, wird ein „leerer“ Produkteintrag mit dem angehängten Ereignis (und dessen Wert) erstellt.
-* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im `en`-Argument zugewiesen wird.  Die Standardeinstellung ist `1`, wenn nicht festgelegt.
+* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im `en`-Argument zugewiesen wird.  Die Standardeinstellung ist `1`, wenn nicht festgelegt. In Anführungszeichen gesetzte Zahlen sind ebenfalls gültig.
 * **`ap`** (optional, boolesch): Wenn die Variable „products“ derzeit mehr als einen Produkteintrag enthält, wird mit dem Wert `true` (oder `1`) das Ereignis allen Produkteinträgen hinzugefügt.  Die Standardeinstellung ist `false`, wenn nicht festgelegt.
 
 `addProductEvent` gibt nichts zurück. Stattdessen werden das Ereignis und sein Wert der `products`-Variablen hinzugefügt. Das Plug-in fügt das Ereignis auch automatisch der [`events`](../page-vars/events/events-overview.md)-Variablen hinzu, da es auch dort benötigt wird.
 
 ## Cookies
 
-Das addProductEvent-Plug-in erstellt und verwendet keine Cookies.
+Die Funktion `addProductEvent` erstellt oder verwendet keine Cookies.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Der folgende Code setzt die Variable `s.products` auf `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+## Beispiele
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase";
-s.addProductEvent("event35", "25");
-```
+// Sets the products variable to ";product1;3;300,;product2;2;122,;product3;1;25;event35=25".
+// Also sets the events variable to "purchase,event35".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+s.events = "purchase";
+addProductEvent("event35", "25");
 
-Der obige Code setzt außerdem die Variable `s.events` auf `"purchase,event35"`
+// Sets the products variable to ";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+addProductEvent("event35", 25, true);
 
-### Beispiel 2
-
-Der folgende Code setzt die Variable `s.products` auf `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvent("event35", 25, 1);
-```
-
-Wenn das dritte Argument im `addProductEvent`-Aufruf `true` (oder `1`) lautet, wird für jeden Produkteintrag das im Aufruf angegebene Ereignis zu seinem Wert hinzugefügt.
-
-### Beispiel 3
-
-Der folgende Code setzt die Variable `s.products` auf `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
+// Also sets the s.events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
 s.events="purchase,event2";
-s.addProductEvent("event33", "12");
-s.addProductEvent("event34", "10");
-s.addProductEvent("event35", "15");
-```
+addProductEvent("event33", "12");
+addProductEvent("event34", "10");
+addProductEvent("event35", "15");
 
-Der obige Code setzt außerdem die Variable `s.events` auf `"purchase,event2,event33,event34,event35"`
-
-### Beispiel 4
-
-Der folgende Code setzt die Variable `s.products` auf `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15".
+// Also sets the events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1);
-s.addProductEvent("event35", "15", 1);
+addProductEvent("event33", "12", 1);
+addProductEvent("event34", 10, 1);
+addProductEvent("event35", "15", 1);
+
+// If the products variable isn't already set, sets it to ";;;;event35=25".
+// Also appends event35 to the events variable.
+addProductEvent("event35", "25");
 ```
-
-Der obige Code setzt auch die Variable `s.events` auf `"purchase,event2,event33,event34,event35"`.
-
->[!NOTE]
->
->Das zweite Argument im Aufruf kann entweder eine Ganzzahl **oder** eine Zeichenfolge sein, die eine Ganzzahl/Zahl darstellt
-
-### Beispiel 5
-
-Wenn `s.products` noch nicht festgelegt ist, setzt der folgende Code die Variable auf `";;;;event35=25"`
-
-```js
-s.addProductEvent("event35", "25");
-```
-
-Der oben genannte Code hängt auch `"event35"` an das Ende von `s.events` **oder**, falls `s.events` noch nicht spezifiziert ist, setzt der oben genannte Code `s.events` auf `"event35"`
 
 ## Versionsverlauf
 
