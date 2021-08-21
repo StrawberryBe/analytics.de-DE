@@ -2,10 +2,10 @@
 title: cleanStr
 description: Entfernen oder ersetzen Sie alle unnötigen Zeichen aus einer Zeichenfolge.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 75%
 
 ---
 
@@ -57,51 +57,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Verwenden des Plug-ins
 
-Die `cleanStr`-Methode verwendet die folgenden Argumente:
+Die Funktion `cleanStr` verwendet die folgenden Argumente:
 
 * **`str`** (erforderlich, Zeichenfolge): Der Wert, den Sie von der HTML-Codierung, zusätzlichen Leerzeichen, Tabulatoren oder anderen unnötigen Zeichen bereinigen möchten.
 
-Die Methode gibt den Wert des `str`-Arguments zurück, wobei alle unnötigen Zeichen entfernt werden.
+Die Funktion gibt den Wert des `str`-Arguments zurück, wobei alle unnötigen Zeichen entfernt werden.
 
 ## Beispiele
 
-### Beispiel 1
-
-Gehen Sie wie folgt vor (wobei die Punkte für Leerzeichen und die Pfeile für Tabulatorzeichen stehen)
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Wenn Sie den folgenden Code ausführen ...
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-... wird eVar1 auf „this is a messystring“(dies ist eine chaotische Zeichenfolge) gesetzt (mit allen zusätzlichen Leerzeichen und allen Tabulatorzeichen entfernt)
-
-### Beispiel 2
-
-Wenn ...
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-cleanStr(s.eVar1)
-```
-
-... lautet der Endwert von s.eVar1 weiterhin:
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Wenn Sie das Plug-in allein ausführen (ohne den Rückgabewert einer Variablen zuzuweisen), wird die Variable, die über das str-Argument übergeben wird, nicht zurückgesetzt.
 
 ## Versionsverlauf
 
