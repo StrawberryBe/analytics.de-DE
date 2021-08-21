@@ -2,10 +2,10 @@
 title: manageVars
 description: Ändern Sie die Werte mehrerer Analytics-Variablen gleichzeitig.
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Verwenden des Plug-ins
 
-Die `manageVars`-Methode verwendet die folgenden Argumente:
+Die Funktion `manageVars` verwendet die folgenden Argumente:
 
 * **`cb`** (erforderlich, Zeichenfolge): Der Name einer Callback-Funktion, mit der das Plug-in die Analytics-Variablen bearbeiten kann. Sie können eine Adobe-Funktion wie `cleanStr` oder Ihre eigene benutzerdefinierte Funktion verwenden.
 * **`l`** (optional, Zeichenfolge): Eine kommagetrennte Liste der Analytics-Variablen, die Sie bearbeiten möchten. Wenn nicht festgelegt, werden standardmäßig ALLE Adobe Analytics-Variablen bearbeiten. Dazu gehören:
@@ -79,7 +79,7 @@ Die `manageVars`-Methode verwendet die folgenden Argumente:
    * Alle Kontextdatenvariablen
 * **`Il`** (optional, boolesch): Setzen Sie den Wert auf `false`, wenn Sie die Liste der im `l`-Argument deklarierten Variablen *ausschließen* möchten, anstatt sie einzubeziehen. Die Standardeinstellung ist `true`.
 
-Der Aufruf dieser Methode gibt nichts zurück. Stattdessen werden die Werte der Analytics-Variablen basierend auf der gewünschten Callback-Funktion geändert.
+Der Aufruf dieser Funktion gibt nichts zurück. Stattdessen werden die Werte der Analytics-Variablen basierend auf der gewünschten Callback-Funktion geändert.
 
 ## Beispielaufrufe
 
@@ -88,7 +88,7 @@ Der Aufruf dieser Methode gibt nichts zurück. Stattdessen werden die Werte der 
 Der folgende Code ...
 
 ```js
-s.manageVars("lowerCaseVars");
+manageVars("lowerCaseVars");
 ```
 
 ... ändert die Werte aller oben beschriebenen Variablen in kleingeschriebene Versionen.  Die einzige Ausnahme hiervon ist die Ereignisvariable, da einige der Ereignisse (z. B. scAdd, scCheckout usw.) die Groß-/Kleinschreibung beachten und nicht klein geschrieben werden sollten
@@ -98,7 +98,7 @@ s.manageVars("lowerCaseVars");
 Der folgende Code ...
 
 ```js
-s.manageVars("lowerCaseVars", "events", false);
+manageVars("lowerCaseVars", "events", false);
 ```
 
 ... liefert im Wesentlichen genau dasselbe Ergebnis wie das erste Beispiel, da die Ereignisvariable standardmäßig nicht in Kleinbuchstaben geschrieben wird.
@@ -108,7 +108,7 @@ s.manageVars("lowerCaseVars", "events", false);
 Der folgende Code ...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
 ... ändert nur die Werte von eVar1, eVar2, eVar3 und list2 (z. B. in Kleinbuchstaben)
@@ -118,7 +118,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 Der folgende Code ...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
 ... ändert die Werte aller oben beschriebenen Variablen (z. B. in Kleinbuchstaben) AUSSER für eVar1, eVar2, eVar3 und list2
@@ -128,7 +128,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 Der folgende Code ...
 
 ```js
-s.manageVars("cleanStr");
+manageVars("cleanStr");
 ```
 
 ... ändert die Werte aller oben beschriebenen Variablen, einschließlich der Ereignisvariablen.  Die cleanStr-Callback-Funktion führt für jeden Variablenwert Folgendes aus:
