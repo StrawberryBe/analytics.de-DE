@@ -2,10 +2,10 @@
 title: getPageName
 description: Erstellen Sie einen leicht verständlichen Seitennamen aus dem aktuellen Website-Pfad.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -57,145 +57,43 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Verwenden des Plug-ins
 
-Die `getPageName`-Methode verwendet die folgenden Argumente:
+Die Funktion `getPageName` verwendet die folgenden Argumente:
 
 * **`si`** (optional, Zeichenfolge): Eine ID, die am Anfang der Zeichenfolge eingefügt wird, welche die ID der Website darstellt. Dieser Wert kann entweder eine numerische ID oder ein benutzerfreundlicher Name sein. Wenn sie nicht eingestellt ist, wird standardmäßig die aktuelle Domäne verwendet.
 * **`qv`** (optional, Zeichenfolge): Eine durch Komma getrennte Liste von Abfragezeichenfolgenparametern, die, falls sie in der URL enthalten sind, der Zeichenfolge hinzugefügt werden
 * **`hv`** (optional, Zeichenfolge): Eine durch Komma getrennte Liste von Parametern im URL-Hash, die, wenn sie in der URL gefunden werden, der Zeichenfolge hinzugefügt werden
 * **`de`** (optional, Zeichenfolge): Das Trennzeichen zum Aufteilen einzelner Teile der Zeichenfolge. Der Standardwert ist ein senkrechter Strich (`|`).
 
-Die Methode gibt eine Zeichenfolge zurück, die eine benutzerfreundlich formatierte Version der URL enthält. Diese Zeichenfolge wird normalerweise der `pageName`-Variablen zugewiesen, kann aber auch in anderen Variablen verwendet werden.
+Die Funktion gibt eine Zeichenfolge zurück, die eine benutzerfreundlich formatierte Version der URL enthält. Diese Zeichenfolge wird normalerweise der `pageName`-Variablen zugewiesen, kann aber auch in anderen Variablen verwendet werden.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Wenn die aktuelle URL lautet ...
+## Beispiele
 
 ```js
-https://mail.google.com/mail/u/0/#inbox
-```
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "mail.example.com|mail|u|0".
+s.pageName = getPageName();
 
- ... und der folgende Code ausgeführt wird ...
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "example|mail|u|0".
+s.pageName = getPageName("example");
 
-```js
-s.pageName = getPageName()
-```
+// Given the URL https://www.example.com/, sets the page variable to "www.example.com|home".
+// When the code runs on a URL that does not contain a path, it always adds the value of "home" to the end of the return value.
+s.pageName = getPageName();
 
-... lautet der Endwert von s.pageName:
+// Given the URL https://www.example.com/, sets the page variable to "example|home".
+s.pageName = getPageName("example","","","|");
 
-```js
-s.pageName = "mail.google.com|mail|u|0";
-```
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "www.example.com|en|booking|room-booking.html".
+s.pageName = getPageName();
 
-### Beispiel 2
-
-Wenn die aktuelle URL lautet ...
-
-```js
-https://mail.google.com/mail/u/0/#inbox
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.pageName = getPageName("gmail")
-```
-
-... lautet der Endwert von s.pageName:
-
-```js
-s.pageName = "gmail|mail|u|0";
-```
-
-### Beispiel 3
-
-Wenn die aktuelle URL lautet ...
-
-```js
-https://www.google.com/
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.pageName = getPageName()
-```
-
-... lautet der Endwert von s.pageName:
-
-```js
-s.pageName = "www.google.com|home"
-```
-
-**Hinweis**: Wenn der Code auf einer URL ausgeführt wird, die keinen Pfad enthält, wird immer der Wert „home“ am Ende des Rückgabewerts hinzugefügt
-
-### Beispiel 4
-
-Wenn die aktuelle URL lautet ...
-
-```js
-https://www.google.com/
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.pageName = getPageName("google","","","|")
-```
-
-... lautet der Endwert von s.pageName:
-
-```js
-s.pageName = "google|home"
-```
-
-### Beispiel 5
-
-Wenn die aktuelle URL lautet ...
-
-```js
-https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-s.pageName = getPageName()
-```
-
-... lautet der Endwert von s.pageName:
-
-```js
-s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
-```
-
-Wenn stattdessen jedoch der folgende Code ausgeführt wird...
-
-```js
-s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
-```
-
-... lautet der Endwert von s.pageName:
-
-```js
-s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "example: en: booking: room-booking.html: cid=1235: arrive=05-26: numGuests=2"
+s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 ```
 
 ## Aktualisieren von früheren Versionen
 
-Die Ausführung von Version 4.0+ des getPageName-Plug-ins hängt nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. des „s“ -Objekts) ab.  Wenn Sie sich für eine Aktualisierung auf diese Version entscheiden, müssen Sie den Code ändern, der das Plug-in aufruft, indem Sie alle Instanzen des „s“-Objekts aus dem Aufruf entfernen.
-Ändern Sie beispielsweise:
-
-```js
-s.pageName = s.getPageName();
-```
-
-... wie folgt:
-
-```js
-s.pageName = getPageName();
-```
+Version 4.0+ des Plug-ins `getPageName` ist nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. dem `s`-Objekt) abhängig. Wenn Sie auf diese Version aktualisieren, ändern Sie den Code, der das Plug-in aufruft, indem Sie alle Instanzen des `s` -Objekts aus dem Aufruf entfernen. Ändern Sie beispielsweise `s.getPageName();` in `getPageName();`.
 
 ## Versionsverlauf
 
