@@ -2,10 +2,10 @@
 title: inList
 description: Überprüfen Sie, ob ein Wert in einem anderen, durch Zeichen getrennten Wert enthalten ist.
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 85%
 
 ---
 
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Verwenden des Plug-ins
 
-Die `inList`-Methode verwendet die folgenden Argumente:
+Die Funktion `inList` gibt je nach Eingabe einen booleschen Wert zurück. Es verwendet die folgenden Argumente:
 
 * **`lv`** (erforderlich, Zeichenfolge oder Array): Eine durch Trennzeichen getrennte Liste von Werten oder ein JavaScript-Array-Objekt, die durchsucht werden soll
 * **`vtc`** (erforderlich, Zeichenfolge): Der zu suchende Wert
 * **`d`** (optional, Zeichenfolge): Das Trennzeichen, mit dem die einzelnen Werte im `lv`-Argument getrennt werden. Die Standardeinstellung ist ein Komma (`,`), wenn nicht festgelegt.
-* **`cc`** (optional, boolesch): Wenn auf `true` gesetzt, wird die Groß-/Kleinschreibung überprüft. Wenn auf `false` gesetzt oder nicht festgelegt, wird die Groß-/Kleinschreibung nicht überprüft. Die Standardeinstellung ist `false`.
+* **`cc`** (optional, boolesch): Wenn auf  `true` oder  `1` gesetzt, wird die Groß-/Kleinschreibung überprüft. Wenn auf `false` gesetzt oder nicht festgelegt, wird die Groß-/Kleinschreibung nicht überprüft. Die Standardeinstellung ist `false`.
 
-Der Aufruf dieser Methode gibt `true` zurück, wenn sie eine Übereinstimmung findet, und `false`, wenn sie keine Übereinstimmung findet.
+Der Aufruf dieser Funktion gibt `true` zurück, wenn eine Übereinstimmung gefunden wird, und `false`, wenn keine Übereinstimmung gefunden wird.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Wenn ...
+## Beispiele
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
- ... und der folgende Code ausgeführt wird ...
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-... ist die bedingte Wenn-Anweisung „true“
-
-### Beispiel 2
-
-Wenn ...
-
-```js
-s.events="event22,event24";
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-... ist die bedingte Wenn-Anweisung „false“, da der inList-Aufruf keine exakte Übereinstimmung zwischen event2 und einem der durch Trennzeichen getrennten Werte in s.events gefunden hat
-
-### Beispiel 3
-
-Wenn ...
-
-```js
-s.events="event22,event24";
-```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-... ist die bedingte WENN-Anweisung „true“, da der inList-Aufruf keine exakte Übereinstimmung zwischen event23 und einem der durch Trennzeichen getrennten Werte in s.events gefunden hat (beachten Sie den NICHT-Operator am Anfang des inList-Variablenaufrufs).
-
-### Beispiel 4
-
-Wenn ...
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
- ... und der folgende Code ausgeführt wird ...
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-... ist die bedingte WENN-Anweisung „false“.  Obwohl dieses Beispiel nicht praktikabel ist, zeigt es, dass bei Verwendung der Markierung, bei der die Groß- und Kleinschreibung beachtet werden muss, Vorsicht geboten ist.
-
-### Beispiel 5
-
-Wenn ...
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
- ... und der folgende Code ausgeführt wird ...
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-... ist die bedingte WENN-Anweisung „false“.  Der Wert des d-Arguments, das an den Aufruf übergeben wird (d. h. „|“) geht davon aus, dass die einzelnen Werte in s.linkTrackVars durch einen senkrechten Strich getrennt werden, während die Werte in Wirklichkeit durch ein Komma getrennt werden.  In diesem Fall versucht das Plug-in, eine Übereinstimmung zwischen dem gesamten Wert von s.linkTrackVars (d. h. „events,eVar1“) und dem zu suchenden Wert (d. h. „eVar1“) zu finden.
 
 ## Versionsverlauf
 
