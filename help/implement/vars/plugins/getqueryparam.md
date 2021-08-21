@@ -2,10 +2,10 @@
 title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 92%
+source-wordcount: '666'
+ht-degree: 76%
 
 ---
 
@@ -55,132 +55,58 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## Verwenden des Plug-ins
 
-Die `getQueryParam`-Methode verwendet die folgenden Argumente:
+Die Funktion `getQueryParam` verwendet die folgenden Argumente:
 
 * **`qsp`** (erforderlich): Eine durch Komma getrennte Liste von Abfragezeichenfolgenparametern, nach denen in der URL gesucht werden soll. Es wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 * **`de`** (optional): Das zu verwendende Trennzeichen, wenn mehrere Abfragezeichenfolgenparameter übereinstimmen. Der Standardwert ist eine leere Zeichenfolge.
 * **`url`** (optional): Eine benutzerdefinierte URL, Zeichenfolge oder Variable, aus der die Parameterwerte der Abfragezeichenfolge extrahiert werden. Die Standardeinstellung ist `window.location`.
 
-Der Aufruf dieser Methode gibt einen Wert zurück, der von den oben genannten Argumenten und der URL abhängt:
+Der Aufruf dieser Funktion gibt einen Wert zurück, der von den oben genannten Argumenten und der URL abhängt:
 
-* Wenn kein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Methode eine leere Zeichenfolge zurück.
-* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Methode den Parameterwert der Abfragezeichenfolge zurück.
-* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, der Wert jedoch leer ist, gibt die Methode `true` zurück.
-* Wenn mehrere übereinstimmende Abfragezeichenfolgenparameter gefunden werden, gibt die Methode eine Zeichenfolge zurück, bei der jeder Parameterwert durch die Zeichenfolge im `de`-Argument getrennt wird.
+* Wenn kein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Funktion eine leere Zeichenfolge zurück.
+* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Funktion den Parameterwert der Abfragezeichenfolge zurück.
+* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, der Wert jedoch leer ist, gibt die Funktion `true` zurück.
+* Wenn mehrere übereinstimmende Abfragezeichenfolgenparameter gefunden werden, gibt die Funktion eine Zeichenfolge zurück, bei der jeder Parameterwert durch die Zeichenfolge im `de`-Argument getrennt wird.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Wenn die aktuelle URL die folgende ist:
+## Beispiele
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-Der folgende Code setzt s.campaign auf „trackingcode1“:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### Beispiel 2
-
-Wenn die aktuelle URL die folgende ist:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Der folgende Code setzt s.campaign auf „trackingcode1:123456“:
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### Beispiel 3
-
-Wenn die aktuelle URL die folgende ist:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Der folgende Code setzt s.campaign auf „trackingcode1123456“:
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### Beispiel 4
-
-Wenn die aktuelle URL die folgende ist:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-Der folgende Code setzt s.campaign auf „123456“:
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### Beispiel 5
-
-Wenn die aktuelle URL die folgende ist:
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-Der folgende Code setzt s.campaign auf „123456“
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**Hinweis:** Das Plug-in ersetzt die URL zum Hash-Zeichen durch ein Fragezeichen, wenn kein Fragezeichen vorhanden ist.  Wenn die URL ein Fragezeichen vor dem Hash-Zeichen enthält, ersetzt das Plug-in die URL zum Hash-Zeichen durch ein kaufmännisches Und.
-
-### Beispiel 6
-
-Wenn die aktuelle URL die folgende ist ...
-
-```js
-http://www.abc123.com/
-```
-
-... und wenn die Variable s.testURL wie folgt eingestellt ist:
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-Der folgende Code setzt s.campaign überhaupt nicht:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-Allerdings setzt der folgende Code s.campaign auf „trackingcode1“:
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**Hinweis:** Der dritte Parameter kann jede beliebige Zeichenfolge/Variable sein, die der Code verwendet, um die Abfragezeichenfolgenparameter zu finden in
-
-Der folgende Code setzt s.eVar2 auf „123456|trackingcode1|true|300“:
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* Der Wert „123456“ stammt aus dem ecid-Parameter in der Variablen s.testURL
-* Der Wert von trackingcode1 stammt aus dem Parameter cid in der Variablen s.testURL
-* Der Wert „true“ ergibt sich aus der Existenz (aber nicht dem Wert) des Standortparameters nach dem Hash-Zeichen in der Variablen s.testURL
-
-Der Wert „300“ stammt aus dem Wert des pos-Parameters in der Variablen s.testURL
 
 ## Versionsverlauf
 
