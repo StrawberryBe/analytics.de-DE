@@ -2,10 +2,10 @@
 title: getPageLoadTime
 description: Verfolgen Sie die Ladezeit einer Seite.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 93%
+source-wordcount: '478'
+ht-degree: 88%
 
 ---
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## Verwenden des Plug-ins
 
-Die `getPageLoadTime`-Methode verwendet keine Argumente. Wenn diese Methode aufgerufen wird, wird nichts zurückgegeben. Stattdessen werden die folgenden Variablen festgelegt:
+Die Funktion `getPageLoadTime` verwendet keine Argumente. Wenn diese Funktion aufgerufen wird, wird nichts zurückgegeben. Stattdessen werden die folgenden Variablen festgelegt:
 
 * `s._pltPreviousPage`: Die vorherige Seite, damit Sie die Ladezeit mit der vorherigen Seite korrelieren können.
 * `s._pltLoadTime`: Die Zeit in Sekunden, die das Laden der vorherigen Seite dauerte.
@@ -67,29 +67,22 @@ Das getPageLoadTime-Plug-in erstellt zwei Erstanbieter-Cookies:
 * `s_plt`: Die Zeit in Sekunden, die das Laden der vorherigen Seite dauerte. Läuft am Ende der Browser-Sitzung ab.
 * `s_pltp` Der Wert der `s.pageName`-Variablen, der in der vorherigen Adobe Analytics-Bildanforderung aufgezeichnet wurde. Läuft am Ende der Browser-Sitzung ab.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Das Ausführen des folgenden Codes ...
+## Beispiel
 
 ```js
+// 1. Run the getPageLoadTime function if the pageName variable is set
+// 2. Set prop10 to the load time of the previous page
+// 3. Set eVar10 to the name of the previous page
+// 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
+// You can then use event100 in calculated metrics to obtain the average page load time per page.
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
   s.prop10 = s._pltLoadTime;
-  s.prop11 = s._pltPreviousPage
-  s.eVar10 = prop11;
+  s.eVar10 = s._pltPreviousPage
   s.events = "event100=" + s._pltLoadTime;
 }
 ```
-
-... geschieht Folgendes:
-
-* Das getPageLoadTime-Plug-in wird ausgeführt, wenn s.pageName gesetzt ist.
-* s.prop10 wird auf die Ladezeit der vorherigen Seite gesetzt.
-* s.prop11 und s.eVar10 werden auf den Namen der vorherigen Seite gesetzt (wie in s.pageName aufgezeichnet).
-* event100 wird gesetzt. Dabei handelt es sich um ein benutzerdefiniertes numerisches Ereignis, das der Ladezeit der vorherigen Seite entspricht.   Wenn Sie in diesem Fall ein benutzerspezifisches Ereignis verwenden, können Sie die Gesamtdauer für alle Seitenladevorgänge der vorherigen Seite (von allen Besuchern/Besuchen) abrufen und somit eine berechnete Metrik verwenden, um die durchschnittliche Seitenladezeit für jede Seite zu ermitteln.
 
 ## Versionsverlauf
 
