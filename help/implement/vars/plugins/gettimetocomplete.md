@@ -2,10 +2,10 @@
 title: getTimeToComplete
 description: Messen Sie die Zeit, die zum Ausführen einer Aufgabe benötigt wird.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 95%
+source-wordcount: '571'
+ht-degree: 88%
 
 ---
 
@@ -57,51 +57,31 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Verwenden des Plug-ins
 
-Die `getTimeToComplete`-Methode verwendet die folgenden Argumente:
+Die Funktion `getTimeToComplete` verwendet die folgenden Argumente:
 
 * **`sos`** (optional, Zeichenfolge): Stellen Sie `"start"` ein, wenn Sie den Timer starten möchten. Stellen Sie `"stop"` ein, wenn Sie den Timer anhalten möchten. Die Standardeinstellung ist `"start"`.
 * **`cn`** (optional, Zeichenfolge): Der Name des Cookies, in dem der Startzeit gespeichert werden soll. Die Standardeinstellung ist `"s_gttc"`.
 * **`exp`** (optional, Ganzzahl): Die Anzahl der Tage, in denen das Cookie (und der Timer) abläuft. Die Standardeinstellung ist `0`, was das Ende der Browser-Sitzung darstellt.
 
-Beim Aufrufen dieser Methode wird eine Zeichenfolge zurückgegeben, die die Anzahl der Tage, Stunden, Minuten und/oder Sekunden zwischen der `"start"`- und der `"stop"`-Aktion enthält.
+Der Aufruf dieser Funktion gibt eine Zeichenfolge zurück, die die Anzahl der Tage, Stunden, Minuten und/oder Sekunden zwischen der Aktion `"start"` und `"stop"` enthält.
 
-## Beispielaufrufe
-
-### Beispiel 1
-
-Verwenden Sie diese Anrufe, um die Zeit zwischen dem Beginn des Checkout-Prozesses und dem Kauf zu bestimmen.
-
-Starten Sie den Timer, wenn der Besucher den Checkout startet:
+## Beispiele
 
 ```js
-if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
+// Start the timer when the visitor starts the checkout
+if(s.events.indexOf("scCheckout") > -1) getTimeToComplete("start");
+
+// Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start
+// Sets prop1 to the amount of time it took to complete the purchase process
+if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
+
+// Simultaneously track the time it takes to complete a purchase and to fill out a registration form
+// Stores each timer in their own respective cookies so they run independently
+if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
 ```
-
-Beenden Sie den Timer, wenn der Besucher den Kauf tätigt, und setzen Sie prop1 auf den Zeitunterschied zwischen Stopp und Start:
-
-```js
-if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
-```
-
-s.prop1 erfasst die zum Abschluss des Kaufprozesses benötigte Zeit
-
-### Beispiel 2
-
-Wenn mehrere Timer gleichzeitig ausgeführt werden sollen (um verschiedene Prozesse zu messen), müssen Sie das cn-Cookie-Argument manuell festlegen.  Wenn Sie z. B. die Zeit messen möchten, die für den Abschluss eines Kaufs benötigt wird, würden Sie den folgenden Code festlegen ...
-
-```javascript
-if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
-if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
-```
-
-... aber wenn Sie auch (gleichzeitig) die Zeit messen wollten, die für das Ausfüllen eines Anmeldeformulars benötigt wird, würden Sie auch den folgenden Code ausführen:
-
-```js
-if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
-if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
-```
-
-Im zweiten Beispiel soll event1 den Beginn eines Registrierungsprozesses erfassen, der – aus welchen Gründen auch immer – bis zu 7 Tagen dauern kann, und event2 soll den Abschluss der Registrierung erfassen.  s.prop2 erfasst die zum Abschluss des Registrierungsprozesses benötigte Zeit
 
 ## Versionsverlauf
 
