@@ -2,10 +2,10 @@
 title: Übersicht über Plug-ins
 description: Fügen Sie Code auf Ihrer Website ein, um neue Funktionen einzuführen.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 84%
+source-wordcount: '366'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,3 @@ Jedes Unternehmen hat unterschiedliche Implementierungsanforderungen, sodass Sie
 4. Validieren Sie Ihre Implementierung und veröffentlichen Sie sie.
 
 Viele Unternehmen rufen Plug-ins über die [`doPlugins`](../functions/doplugins.md)-Funktion auf. Diese Funktion ist zwar nicht erforderlich, Adobe hält sie jedoch für eine Best Practice. AppMeasurement ruft diese Funktion kurz vor dem Kompilieren und Senden einer Bildanforderung auf. Dies ist ideal, da mehrere Plug-ins von anderen Analytics-Variablen abhängen.
-
-## Plug-ins mit nicht standardmäßigen Tracking-Objekten verwenden
-
-Plug-ins funktionieren standardmäßig nicht mit anderen Tracking-Objekten als `s`. Sie können jedoch den Plug-in-Code ändern, um das benutzerdefinierte Tracking-Objekt aufzunehmen. Ersetzen Sie in einem gegebenen Plug-in alle Verweise auf `s` mit dem gewünschten Tracking-Objekt.
