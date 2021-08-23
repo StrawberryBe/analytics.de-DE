@@ -2,10 +2,10 @@
 title: Verwenden von XDM-Daten mit Analytics
 description: Übersicht über die Verwendung von XDM-Daten aus Experience Platform in Adobe Analytics
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-source-git-commit: 501b64c7704c234b21a5ccb428883bc6fcaf166a
+source-git-commit: 3def20b348713b580429e342ad3319963cae6549
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 96%
+source-wordcount: '270'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Analytics erfasst XDM-Daten auf zwei Arten:
 
 ## Automatische Zuordnung
 
-Die automatische Zuordnung beruht auf einem Standard-[Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de) in XDM, mit dem JSON-Objekte automatisch befüllt werden, die normalerweise in der Analytics-Datenerfassung enthalten sind. Die Analytics-Variablen, die automatisch von XDM Ihren konfigurierten Report Suites zugeordnet werden, benötigen zur Integration keine Hilfe von Entwicklern.
+Die automatische Zuordnung beruht auf einem Standard-[Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de) in XDM, mit dem JSON-Objekte automatisch befüllt werden, die normalerweise in der Analytics-Datenerfassung enthalten sind. Die Analytics-Variablen, die automatisch von XDM Ihren konfigurierten Report Suites zugeordnet werden, benötigen zur Integration keine Hilfe von Entwicklern. Siehe [In Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) automatisch zugeordnete Variablen im Platform Web SDK-Benutzerhandbuch.
 
 ## Manuelle Zuordnung
 
