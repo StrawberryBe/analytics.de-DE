@@ -2,10 +2,10 @@
 title: Von Adobe Analytics verwendete IPs und Domains
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Die folgende Tabelle enthält alle standardmäßigen Datenerfassungs-Server und 
 
 ## Datenerfassungs- und FTP-IP-Adressblöcke
 
-Wenn Ihr Unternehmen es vorzieht, bestimmte IP-Adressbereiche zuzulassen, können Sie die folgende Tabelle verwenden. Alle Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
+Wenn Ihr Unternehmen es vorzieht, bestimmte IP-Adressbereiche zuzulassen, können Sie die folgende Tabelle verwenden. Alle Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten. FTP-Verbindungen für Data Warehouse- und Daten-Feeds stammen nur von den Standorten London, Oregon und Singapur.
 
 | Standort | IP-Bereich (CIDR-Notation) |
 | --- | --- |
