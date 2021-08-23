@@ -6,10 +6,10 @@ title: Datenspaltenreferenz
 feature: Grundlagen zu Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
-ht-degree: 99%
+source-wordcount: '3422'
+ht-degree: 98%
 
 ---
 
@@ -199,8 +199,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `state` | Statusvariable. | varchar(50) |
 | `stats_server` | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
 | `t_time_info` | Lokale Zeit des Besuchers. Das Format ist: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Wird in Adobe Target-Integrationen verwendet. | text |
-| `tnt_action` | Wird in Adobe Target-Integrationen verwendet. | text |
+| `tnt` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt_action` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die der Treffer qualifiziert ist. | text |
 | `tnt_post_vista` | Wird nicht mehr verwendet. Verwenden Sie stattdessen `post_tnt`. | text |
 | `transactionid` | Eine eindeutige Kennung, bei der später verschiedene Datenpunkte via Datenquellen hochgeladen werden können. Erfasst mithilfe der Variablen [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | `truncated_hit` | Ein Flag, das angibt, dass die Bildanforderung gekürzt wurde. Zeigt den Erhalt eines teilweisen Treffers an. <br>Y: Treffer abgeschnitten; Teiltreffer erhalten <br>N: Treffer nicht abgeschnitten; vollständigen Treffer erhalten | char(1) |
