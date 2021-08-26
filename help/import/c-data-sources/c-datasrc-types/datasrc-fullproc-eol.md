@@ -2,7 +2,7 @@
 title: Einstellung der Unterstützung für Data Sources mit vollständiger Verarbeitung
 description: Gründe für das Ende des Lebenszyklus und Vergleiche zwischen der Bulk Data Insertion API und Data Sources mit vollständiger Verarbeitung.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 31%
@@ -13,7 +13,7 @@ ht-degree: 31%
 
 Seit mehreren Jahren können Sie mit Data Sources mit vollständiger Verarbeitung Hit-Daten an Adobe Analytics senden. Diese Daten wurden auf dieselbe Weise verarbeitet wie Daten, die über unsere JavaScript-Bibliotheken und das Mobile App SDK erfasst wurden. Im Jahr 2020 veröffentlichte Adobe die [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), die dieselben Funktionen wie Data Sources mit vollständiger Verarbeitung, jedoch mit zusätzlichen Funktionen ausführt. In diesem Thema werden die zusätzlichen Funktionen der Bulk Data Insertion API erläutert und die Unterschiede in den Dateiformaten erläutert.
 
-Ab dem 25. März 2021 verhindert Adobe die Erstellung neuer Data Sources-Verbindungen mit vollständiger Verarbeitung . Vorhandene Verbindungen werden weiterhin unterstützt, bis der Dienst am 31. Juli 2021 vollständig eingestellt ist. Zusätzlich zu unserer Standarddokumentation bieten wir eine schrittweise Anleitung für die [Schritte, die zum Senden von Daten über die Bulk Data Insertion API](http://adobe.ly/aabdia) erforderlich sind.
+Ab dem 25. März 2021 verhindert Adobe die Erstellung neuer Data Sources-Verbindungen mit vollständiger Verarbeitung . Vorhandene Verbindungen werden weiterhin unterstützt, bis der Dienst am 31. Juli 2021 vollständig eingestellt ist. Zusätzlich zu unserer Standarddokumentation bieten wir eine schrittweise Anleitung für die [Schritte, die zum Senden von Daten über die Bulk Data Insertion API](https://adobe.ly/aabdia) erforderlich sind.
 
 ## Warum schaffen wir diese Funktion ab?
 

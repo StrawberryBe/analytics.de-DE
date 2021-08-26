@@ -2,9 +2,9 @@
 description: Entdecken Sie in diesem detaillierten Leitfaden, was Sie alles mit Advertising Analytics tun können, einschließlich der erforderlichen Berechtigungen und verfügbaren Dimensionen und Metriken.
 title: Ein Leitfaden zu Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1261'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1232'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ Diese Integration zielt auf folgende Zielgruppen ab:
 
 * Diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung.
 * Sie müssen Adobe Analytics-Administrator sein, um auf Advertising Analytics zugreifen zu können. Daraufhin können Sie auch Nicht-Administratoren [Zugriffsberechtigungen erteilen](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369).
-* Sämtliche Analytics Report Suites, in denen Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen [Ihrer Experience Cloud-Organisation zugeordnet](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) sein.
 * Für jede Report Suite, in der Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen Sie [die betreffenden Report Suites für Advertising Analytics aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**).
 
 * Sie benötigen die Anmeldedaten eines Benutzers mit Bearbeitungsberechtigungen für die Suchkonten, die Sie in Adobe Analytics integrieren möchten wie z. B. Google-Konto-ID und -Passwort.

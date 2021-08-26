@@ -3,10 +3,10 @@ description: Die Registerkarte „Nutzung der Report Suite“ bietet Daten über
 title: Anzeigen der Nutzung der Report Suite
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-N
 
 >[!IMPORTANT]
 >
->Falls eine Report Suite nicht mit einer [Experience Cloud-Organisation verbunden ist](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), werden ihre Nutzungsdaten nicht im Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Experience Cloud-Organisationen zusammenhängen. Das Verhältnis zwischen einer Organisation und einer Abrechnungs-ID ist nicht immer 1:1.
+>Wenn eine Report Suite nicht mit einer Experience Cloud-Organisation verknüpft ist, werden ihre Nutzungsdaten nicht in diesem Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Experience Cloud-Organisationen zusammenhängen. Das Verhältnis zwischen einer Organisation und einer Abrechnungs-ID ist nicht immer 1:1.
 
 Das Dashboard zur Nutzung der Report Suite
 
@@ -32,7 +32,7 @@ Das Dashboard zur Nutzung der Report Suite
 
 | Spalte | Definition |
 |--- |--- |
-| Name der Report Suite | Anzeigename der Report Suite |
+| Report Suite Name | Anzeigename der Report Suite |
 | Alle Aufrufe (% der Gesamtzahl) | Alle Server-Aufrufe, die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
 | Primäre Aufrufe (%) | Alle primären Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
 | Sekundäre Aufrufe (%) | Alle sekundären Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |

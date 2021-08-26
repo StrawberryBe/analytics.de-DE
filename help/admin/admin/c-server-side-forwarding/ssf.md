@@ -4,9 +4,9 @@ solution: Audience Manager
 title: Übersicht über die serverseitige Weiterleitung
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '821'
 ht-degree: 94%
 
 ---
@@ -32,7 +32,7 @@ Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Imple
 
 ## ![Grafik step1_icon.png](assets/step1_icon.png) ECID-Dienstimplementierung überprüfen
 
-Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Dienst implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) prüfen.
+Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Dienst implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=de) prüfen.
 
 Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festgelegt wurde. Dies gibt darüber Auskunft, dass der Identity Service korrekt implementiert wurde. Dies ist eine Voraussetzung für die serverseitige Weiterleitung.
 
@@ -51,7 +51,7 @@ Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festg
 
    * **AAM-Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
 
-      1. Entfernen Sie den DIL-Code, und installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Entfernen Sie den DIL-Code, und installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de).
       1. Aktivieren Sie die serverseitige Weiterleitung auf der Analytics Admin-Benutzeroberfläche, wie unter Schritt 3 beschrieben. Durch die Aktivierung dieser Einstellung vor dem Entfernen des DIL-Codes werden die Daten dupliziert, und es werden zusätzliche abgerechnete Serveraufrufe für Audience Manager erstellt.
    * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
 
@@ -64,10 +64,10 @@ Die serverseitige Weiterleitung auf Ebene der Report Suite wird dem alten Ansatz
 
 Gehen Sie zu **Analytics** > **Admin** > **Report Suites** > (**Report Suites** auswählen) > **Einstellungen bearbeiten** > **Allgemein** > **Serverseitige Weiterleitung**. Wenn das Kontrollkästchen folgenden Zustand aufweist, gilt das Nachfolgende:
 
-* **Inaktiv** (Sie können keine Auswahl treffen, oder das Menü ist nicht vorhanden): Die ausgewählten Report Suites sind der IMS-Org. nicht zugeordnet. Stellen Sie mithilfe der [Report Suite-Zuordnungs-UI](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) sicher, dass die jeweiligen Report Suites der entsprechenden Experience Cloud-Organisation zugeordnet sind.
+* **Inaktiv**  (Sie können keine Auswahl treffen oder das Menü existiert nicht): Sie haben die ausgewählten Report Suites nicht einer IMS-Organisation zugeordnet. Wenden Sie sich an die Kundenunterstützung , um sicherzustellen, dass die Report Suite korrekt zugeordnet ist.
 * **Deaktiviert**: Die neue serverseitige Weiterleitung ist nicht aktiviert. Lesen Sie den Inhalt der Seite, und fahren Sie dann mit der Aktivierung der Funktion fort.
 * **Aktiviert**: Die neue serverseitige Weiterleitung ist bereitgestellt. Sie können auch diese Audience Analytics-Integration einrichten.
 
 >[!NOTE]
 >
->In anderen Experience Cloud-Lösungen wie [Audience Manager](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.translate.html) oder [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) werden erst Daten angezeigt, nachdem alle drei Schritte abgeschlossen wurden. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.
+>In anderen Experience Cloud-Lösungen wie [Audience Manager](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.html) oder [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) werden erst Daten angezeigt, nachdem alle drei Schritte abgeschlossen wurden. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.

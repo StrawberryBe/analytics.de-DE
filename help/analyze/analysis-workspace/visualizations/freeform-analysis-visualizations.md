@@ -2,12 +2,12 @@
 description: Stellen Sie Ihre Daten mit Visualisierungen optisch dar.
 keywords: Analysis Workspace
 title: Visualisierungsübersicht
-feature: Visualisierungen
+feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1071'
 ht-degree: 100%
 
 ---
@@ -77,8 +77,6 @@ So bearbeiten Sie eine Legendenbezeichnung:
 
 1. Geben Sie den neuen Beschriftungstext ein.
 1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste]**.
-
-Hier finden Sie einen [Link zu einem Video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=de) zu diesem Thema.
 
 ## Rechtsklick auf Menü {#right-click}
 

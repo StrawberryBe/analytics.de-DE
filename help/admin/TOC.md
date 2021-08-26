@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über das Verwalten von Benutzern und Produkten in der Experience Cloud-Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '723'
 ht-degree: 99%
 
 ---
@@ -125,7 +125,6 @@ ht-degree: 99%
    + [Co-Branding](company/co-branding-admin.md)
    + [Ausblenden von Report Suites](company/c-hide-report-suites.md)
    + [Sicherheits-Manager](company/security-manager.md)
-   + [Abschaffung der Funktion „IP-Anmeldebeschränkungen erzwingen“](company/login-restrictions-eol.md)
 + Report Suites verwalten {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Datenaggregations-Report Suites und globale Report Suites](c-manage-report-suites/rollup-report-suite.md)

@@ -3,9 +3,9 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wesentliche Aktualisierungen des Adobe Analytics-Dokumentationssatzes.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 63%
 
 ---
@@ -31,9 +31,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 2. August 2021 | Mehrere Seiten wurden aktualisiert, um das Rebranding von [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) widerzuspiegeln. |
 | **Juli 2021** |  |
 | 23. Juli 2021 | Neue ausführliche Diskussion zu [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
-| 15. Juli 2021 | Neue Dokumentation zur neuen [Adobe Analytics-Landingpage](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=de) hinzugefügt |
+| 15. Juli 2021 | Neue Dokumentation zur neuen [Adobe Analytics-Landingpage](/help/analyze/landing.md) hinzugefügt |
 | **Juni 2021** |  |
-| 15. Juni 2021 | Aktualisierte [Best Practices für Marketingkanäle](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
+| 15. Juni 2021 | Aktualisierte [Best Practices für Marketingkanäle](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 3. Juni 2021 | Die Dokumentation wurde mit genaueren Erläuterungen zur [Implementierung von Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) sowie [hier](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl) aktualisiert. |
 | 25. Mai 2021 | Die Dokumentation zu [Groß-/Kleinschreibung bei eVar in Berichten](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) wurde aktualisiert. |
 | 13. Mai 2021 | Aktualisierungen für [Data Warehouse-API-Anfragen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Sie unterstützen jetzt &quot;Stunden&quot;. |
@@ -114,7 +114,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **2019** |  |
 | 19. Dezember 2020 | Die standardmäßige [FTP-Datenspeichergrenze](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) wurde auf 10 GB geändert. |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md). |
-| 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](/help/admin/company/login-restrictions-eol.md). |
+| 25. November 2019 | Neues Thema zur Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen. |
 | 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) festgelegt. |
 | 21. November 2019 | Die [FAQ zum Audience Analytics-Workflow](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) wurde aktualisiert, um die Verfügbarkeit in LiveStream anzuzeigen. |
 | 25. Oktober 2019 | Die Seite [Adobe Analytics-Schlüsselkonzepte](/help/technotes/terms.md) wurde aktualisiert. |
@@ -137,7 +137,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 13. Juni 2019 | Es wurden neue native Filter zur linken Schienensuche in Workspace hinzugefügt. Über das hinaus, was Sie heute sehen (Dimensionen, Metriken, Genehmigt usw.), wurden neue Filter wie „Berechnete Metriken“, „Kundenattribute“, „eVars“, „Eigenschaften“, „Video“ usw. hinzugefügt, damit die benötigten Komponenten leichter gefunden werden können. |
 | 4. Juni 2019 | Neues Handbuch mit dem Titel [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30. Mai 2019 | Aktualisierung von [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| 9. Mai 2019 | Eine neue Einstellung wurde zu den Fluss-Visualisierungseinstellungen hinzugefügt: Wiederholungsinstanzen einschließen. Siehe [Flusseinstellungen](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| 09. Mai 2019 | Eine neue Einstellung wurde zu den Fluss-Visualisierungseinstellungen hinzugefügt: Wiederholungsinstanzen einschließen. Siehe [Flusseinstellungen](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
 | 11. April 2019 | Verbesserungen der Best Practices zur Workspace-Optimierung: [Leistungsoptimierung](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11. April 2019 | Aktualisierung von [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14. März 2019 | Umfassende Aktualisierung von [Regionale Datenerfassung](/help/technotes/rdc/regional-data-collection.md). |

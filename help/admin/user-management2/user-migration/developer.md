@@ -3,10 +3,10 @@ description: Listet die von der Benutzermigration betroffenen APIs auf
 title: Von der Benutzermigration betroffene APIs
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 88%
+source-wordcount: '244'
+ht-degree: 86%
 
 ---
 
@@ -43,5 +43,5 @@ Weitere Informationen:
 
 * [Allgemeines User Management – Start](https://helpx.adobe.com/de/enterprise/help/users.html)
 * [User Managements-APIs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
-* [User Managements-API-Forum](https://forums.adobe.com/community/umapi/overview)
+* [User Managements-API-Forum](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migration des Analytics-Benutzerzugriffs und -managements zur Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

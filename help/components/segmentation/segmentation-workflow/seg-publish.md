@@ -1,12 +1,12 @@
 ---
 description: Sie können das Segment für Marketingaktivitäten in der Zielgruppenbibliothek, in der Target-Komponente und im Audience Manager verwenden.
 title: Veröffentlichen von Segmenten in Experience Cloud
-feature: Segmentierung
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1300'
 ht-degree: 100%
 
 ---
@@ -25,10 +25,8 @@ Außerdem haben wir die maximale Anzahl an publizierbaren Adobe Analytics-Segmen
 ## Voraussetzungen
 
 * Stellen Sie sicher, dass die Report Suite, in der Sie dieses Segment speichern, [für die Experience Cloud aktiviert](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish- audience-segment.html?lang=de) ist. Andernfalls können Sie sie nicht in der Experience Cloud veröffentlichen.
-* Vergewissern Sie sich, dass Sie an einer Report Suite arbeiten, die [Ihrer Experience Cloud-Organisation zugeordnet](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) ist.
 * Stellen Sie sicher, dass Ihre Organisation Experience Cloud IDs verwendet.
 * Bevor Sie Segmente veröffentlichen können, muss Ihr Administrator einem Produktprofil die Berechtigung für die [!UICONTROL Segmentveröffentlichung] in der [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) zuweisen und Sie zum Produktprofil hinzufügen.
-
 
 ## Zu beachten
 

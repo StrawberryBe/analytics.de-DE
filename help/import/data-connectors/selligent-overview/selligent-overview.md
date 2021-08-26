@@ -1,21 +1,20 @@
 ---
-description: Verwenden Sie den Selligent Data Connector mit Adobe Analytics.
+description: Verwenden Sie den Selligent-Data Connector mit Adobe Analytics.
 title: Selligent-Data Connector für Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 97%
 
 ---
 
-
-# Selligent-Data Connector für Adobe Analytics {#selligent-data-connector-for-adobe-analytics}
+# Selligent-Data Connector für Adobe Analytics{#selligent-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Am 1. August 2021 werden wir die Adobe Data Connector-Technologie beenden. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
+>Am 1. August 2021 wird die Adobe Data Connector-Technologie eingestellt. [Weitere Informationen...](/help/import/data-connectors/data-connectors-eol.md)
 
 Diese Integration umfasst die folgenden Hauptvorteile:
 
@@ -40,7 +39,7 @@ Bevor Sie diese Integration aktivieren, überprüfen Sie die folgenden Elemente 
 
 Auf diese Weise wird sichergestellt, dass vor der Aktivierung geeignete Best Practices angewendet werden und die entsprechenden Voraussetzungen vorliegen. Dies führt zu einer optimalen und erfolgreichen Integration.
 
-## Voraussetzungen für Adobe Analytics {#prerequisites-for-adobe-analytics}
+## Voraussetzungen für Adobe Analytics{#prerequisites-for-adobe-analytics}
 
 Führt die erforderlichen Aktionen auf, die in Adobe Analytics durchgeführt werden müssen, bevor Sie die Integration bereitstellen können.
 
@@ -97,7 +96,7 @@ Abgesehen von diesen eVars können einige Ereignisse reserviert werden, je nachd
   <tr> 
    <td colname="col1"> Ereignis </td> 
    <td colname="col2"> Ansichten </td> 
-   <td colname="col3"> Zum Speichern der Anzahl der angezeigten einmaligen E-Mails. </td> 
+   <td colname="col3"> Zum Speichern der Anzahl der angezeigten eindeutigen E-Mails. </td> 
    <td colname="col4"> <p><b>Typ</b>: Numerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +130,7 @@ Sie benötigen während der Einrichtung dieser Integration die folgenden Informa
 
    Die URL kann von der URL abgeleitet werden, die zum Anmelden bei der Selligent Marketing-Lösung verwendet wird. Ersetzen Sie den Teil „/simweb/login.aspx“ der URL durch „/automation/omniture.asmx“.
 
-   z. B: `http://<client-specific install url>/automation/omniture.asmx`
+   z. B: `https://<client-specific install url>/automation/omniture.asmx`
 
 * **Abfragezeichenfolgeparameter**: Diese werden an die URL der Landingpage für Nachrichten-ID und Empfänger-ID (Besucher-ID) angehängt. Dabei handelt es sich immer um die MID und RID für Nachrichten-ID bzw. Empfänger-ID.
 

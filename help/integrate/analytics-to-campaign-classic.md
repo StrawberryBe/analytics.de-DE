@@ -2,17 +2,16 @@
 description: Informationen über die Referenzarchitektur, Richtlinien, Konfigurationsschritte und Tests, die Implementierungsspezialisten befolgen müssen, wenn Adobe Analytics mit Adobe Campaign zusammenarbeiten soll.
 title: Einrichten der Zusammenarbeit von Analytics mit Adobe Campaign
 exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '68'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 64%
 
 ---
 
 # Einrichten der Zusammenarbeit von Adobe Analytics mit Campaign Classic
 
-Gehen Sie zu diesem Artikel [Analytics zu Campaign](https://helpx.adobe.com/de/marketing-cloud/how-to/analytics-ac.html), um mehr über die Zusammenarbeit von Adobe Analytics-Daten mit Campaign Classic zu erfahren:
+Weitere Informationen zur Integration von Adobe Analytics-Daten in Campaign Classic finden Sie unter [Erste Schritte mit Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html) .
 
 * Verwenden von Data Connector
 * Verwenden des Daten-Feeds von Analytics

@@ -1,13 +1,13 @@
 ---
 description: Häufig gestellte Fragen zur Segmentierung.
 title: Häufig gestellte Fragen
-feature: Segmentierung
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '2071'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '2080'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 * Sie können [sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) erstellen.
 * Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
-Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) im Digital Marketing Blog.
+Weitere Informationen finden Sie im Beitrag [Verbessern der Segmentierung in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) im Adoben-Blog .
 
 ## Zugriff auf die Segmentierungswerkzeuge {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe A
 
 Sie können wie folgt auf den Segment Builder zugreifen:
 
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie in der angezeigten Segmentleiste auf **[!UICONTROL Hinzufügen]** oder
+* Zeigen Sie einen vorhandenen Bericht an und klicken Sie im linken Navigationsbereich auf das Segmentsymbol ![Segmentsymbol](assets/segment_icon.png) . Klicken Sie in der angezeigten Segmentleiste auf **[!UICONTROL Hinzufügen]** oder
 
-* Klicken Sie oben im Segment-Manager auf **[!UICONTROL + Hinzufügen]**.  ![](assets/add_button.png)
+* Klicken Sie oben im Segment-Manager auf **[!UICONTROL + Hinzufügen]**.  ![Schaltfläche hinzufügen](assets/add_button.png)
 
    oder
 
@@ -53,13 +53,13 @@ Sie können wie folgt auf den Segment-Manager zugreifen:
 
 * Wechseln Sie in der oberen Navigation zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Segmente]** oder
 
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
+* Zeigen Sie einen vorhandenen Bericht an und klicken Sie im linken Navigationsbereich auf das Segmentsymbol ![Segmentsymbol](assets/segment_icon.png) . Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
 
 * drücken Sie an einer beliebigen Stelle die Schrägstrich-Taste (/) und suchen Sie nach Segment Manager.
 
 **Wo ist das Dropdown-Feld für Segmente?**
 
-Die Dropdown-Liste „Segmente“ in Reports &amp; Analytics wurde durch eine wesentlich umfangreichere Benutzeroberfläche des [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ersetzt, mit der Sie „universelle“ Segmente erstellen können, die über Report Suites und Adobe Analytics-Lösungen hinweg nutzbar sind. Um eine Liste der vorhandenen Segmente anzuzeigen, klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png)
+Die Dropdown-Liste „Segmente“ in Reports &amp; Analytics wurde durch eine wesentlich umfangreichere Benutzeroberfläche des [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ersetzt, mit der Sie „universelle“ Segmente erstellen können, die über Report Suites und Adobe Analytics-Lösungen hinweg nutzbar sind. Um eine Liste der vorhandenen Segmente anzuzeigen, klicken Sie auf das Segmentsymbol ![Segmentsymbol](assets/segment_icon.png)
 
 in der linken Navigation, woraufhin die Segmentleiste angezeigt wird.
 
@@ -67,7 +67,7 @@ in der linken Navigation, woraufhin die Segmentleiste angezeigt wird.
 
 Das Dropdown-Feld für die Report Suite wurde in die obere rechte Ecke jedes Berichts oder Dashboards neben die Datumsauswahl verschoben.
 
-![](assets/report_suite_selector.png)
+![Report Suite-Auswahl](assets/report_suite_selector.png)
 
 ## Zugriffsberechtigung {#section_648DFA3A882146C485A84ED014EEC707}
 
@@ -248,7 +248,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
   </tr> 
   <tr> 
    <td colname="col1"> Ursprüngliche Entrypage </td> 
-   <td colname="col2"> Ursprüngliche Entrypage </td> 
+   <td colname="col2"> Ursprüngliche Einstiegsseite </td> 
    <td colname="col3"> – </td> 
   </tr> 
   <tr> 

@@ -2,10 +2,10 @@
 title: Einrichten eines Werbekontos in Advertising Analytics
 description: Ermöglicht die Erstellung neuer Werbekonten und die Zuordnung mehrerer Konten zu mehreren Report Suites.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -64,24 +64,24 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlin
 
    >[!IMPORTANT]
    >
-   >Nur Report Suites, die [einer Experience Cloud-Organisation zugeordnet sind](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), stehen zur Auswahl zur Verfügung. Wenn Ihre Report Suite nicht aufgeführt ist, suchen Sie im Abschnitt [Problembehebung in Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) nach weiteren Informationen.
+   >Nur Report Suites, die einer Experience Cloud-Organisation zugeordnet sind, können ausgewählt werden. Wenn Ihre Report Suite nicht aufgeführt ist, suchen Sie im Abschnitt [Problembehebung in Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) nach weiteren Informationen.
 
    Legen Sie die **[!UICONTROL Zuordnungseinstellungen]** gemäß folgenden Richtlinien fest:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Einstellung </th> 
-      <th colname="col2" class="entry"> Beschreibung </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Report Suite Zuordnen </p> </td> 
-      <td colname="col2"> <p>Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. </p> <p>Wenn Ihre Report Suite nicht aufgeführt ist, können Sie sie mit diesem Tool <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >einer Experience Cloud-Organisation zuordnen</a>. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Einstellung </th> 
+   <th colname="col2" class="entry"> Beschreibung </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Report Suite Zuordnen </p> </td> 
+   <td colname="col2"> <p>Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Nachdem Sie auf „Speichern“ geklickt haben, wird ein Haftungsausschluss mit einer Reihe von Hinweisen angezeigt. Sie werden dazu aufgefordert zu bestätigen, dass Sie die Vereinbarung gelesen und verstanden haben. Aktivieren Sie das Kontrollkästchen und klicken Sie auf **[!UICONTROL OK]**.

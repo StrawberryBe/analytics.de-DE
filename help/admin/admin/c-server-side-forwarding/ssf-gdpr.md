@@ -3,16 +3,16 @@ description: Erläutert Verbesserungen der serverseitigen Weiterleitung, die dur
 title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
 # DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 
-In diesem Abschnitt werden Verbesserungen der serverseitigen Weiterleitung erläutert, die durch die [EU-Cookie-Compliance-Verordnung](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm) erforderlich wurden, die am 30. September 2017 in Kraft trat.
+In diesem Abschnitt werden Verbesserungen der serverseitigen Weiterleitung erläutert, die durch die [EU-Cookie-Compliance-Verordnung](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+und+ähnliche+Technologien) erforderlich wurden, die am 30. September 2017 in Kraft trat.
 
 Die serverseitige Weiterleitung wird verwendet, um Daten in Echtzeit von Adobe Analytics zu anderen [!DNL Experience Cloud Solutions] wie Audience Manager zu übertragen. Bei entsprechender Aktivierung ermöglicht die serverseitige Weiterleitung während des Datenerfassungsprozesses Analytics das Übergeben von Daten an andere Experience Cloud-Lösungen und diesen Lösungen das Übergeben von Daten an Analytics.
 
