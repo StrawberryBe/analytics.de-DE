@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse einrichten
 description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
+source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,7 @@ CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering be
 * Welche CDA-Methode Sie verwenden möchten (feldbasiertes Stitching, privates Diagramm von Adobe oder Co-op-Diagramm von Adobe)
 * Wenn Sie die feldbasierte Zuordnung nutzen möchten, verwenden Sie die Prop oder die eVar, die die Benutzer-ID enthält
 * Ihre Voreinstellung für die Häufigkeit der Wiederholungen und die Lookback-Länge. Zu den verfügbaren Optionen gehören eine Wiederholung pro Woche mit einem 7-tägigen Lookback-Fenster oder eine tägliche Wiederholung mit einem 1-tägigen Lookback-Fenster.
+Die Standardeinstellung ist eine wöchentliche Wiederholung mit einem 7-tägigen Lookback-Fenster. In diesem Fall können sich die Daten der letzten Woche ändern (da sie nach und nach zugeordnet und aktualisiert werden).
 
 Sobald Sie der Kundenunterstützung diese Informationen zur Verfügung gestellt haben, kann diese mit Adobe Engineering zusammenarbeiten, um Ihre ausgewählte Report Suite für die geräteübergreifende Analyse zu aktivieren.
 
@@ -50,7 +51,7 @@ Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Sui
 Wenn die geräteübergreifende Analyse für eine Virtual Report Suite aktiviert ist, beachten Sie die folgenden Änderungen:
 
 * Neben dem Namen der Virtual Report Suite wird ein neues geräteübergreifendes Symbol angezeigt. Dieses Symbol ist ausschließlich für geräteübergreifende Virtual Report Suites vorgesehen.
-* Eine neue Dimension mit der Bezeichnung [Identifizierter Status](../dimensions/identified-state.md) ist verfügbar. Diese Dimension bestimmt, ob die Experience Cloud ID für diesen Treffer dem Gerätediagramm zu diesem Zeitpunkt bekannt ist.
-* Es sind neue Metriken mit den Bezeichnungen [Personen](../metrics/people.md) und [Eindeutige Geräte](../metrics/unique-devices.md) verfügbar.
+* Eine neue Dimension mit der Bezeichnung [Identifizierter Status](../dimensions/identified-state.md) ist verfügbar.
+* Es sind neue Metriken mit den Bezeichnungen [Personen](../metrics/people.md), [Eindeutige Geräte](../metrics/unique-devices.md), Identifizierte Personen, Nicht identifizierte Personen und Personen mit Experience Cloud-ID verfügbar.
 * Die Metrik [Unique Visitors](../metrics/unique-visitors.md) ist nicht verfügbar, da sie durch „Personen“ und „Eindeutige Geräte“ ersetzt wurde.
 * Beim Erstellen von Segmenten wird der Segmentcontainer „Besucher“ durch den Container „Person“ ersetzt.

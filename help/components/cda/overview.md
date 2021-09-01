@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 99%
+source-wordcount: '771'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,10 @@ Die geräteübergreifende Analyse ist eine Funktion, mit der Analytics von einer
 
 * [**Feldbasiertes Stitching**](field-based-stitching.md): Ermöglicht die Auswahl einer Analytics-Variablen als Grundlage für geräteübergreifendes Zuordnen in einer Virtual Report Suite. Verwendet deterministische Abgleiche, um Geräte miteinander zu verknüpfen. Adobe empfiehlt die Verwendung von feldbasiertem Stitching für die meisten Anwendungsfälle des deterministischen Abgleichs.
 * [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem Gerätediagramm, um Geräte einander zuzuordnen. Das Co-op-Diagramm nutzt sowohl deterministische als auch probabilistische Abgleiche.
+
+>[!NOTE]
+>
+>Lesen Sie mehr über das [Ende der Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html).
 
 Mithilfe der geräteübergreifenden Analyse können Sie Fragen beantworten wie z. B.:
 
@@ -44,10 +48,11 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse ist nur über Analysis Workspace verfügbar.
 * Die geräteübergreifende Analyse funktioniert nicht in allen Report Suites und kombiniert auch keine Daten aus mehreren Report Suites.
 * Adobe Analytics-Report Suites können nicht mit mehr als einem IMS-Tag verknüpft werden. Da die geräteübergreifende Analyse Geräte innerhalb einer Report Suite zuordnet, kann die geräteübergreifende Analyse nicht zum Zuordnen von Daten über mehrere IMS-Organisationen hinweg verwendet werden.
-* Das private Diagramm nutzt dieselben ID-Synchronisierungen wie die, die die Funktion [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de#customer-attributes) in Experience Cloud und Adobe Analytics verwendet. Virtual Report Suites für geräteübergreifende Analyse (unabhängig davon, ob sie auf privatem Diagramm oder feldbasierter Zuordnung basieren) sind jedoch nicht mit dem Rest der Funktion „Kundenattribute“ kompatibel. Kundenattribut-basierte Dimensionen sind also nicht zur Verwendung in Virtual Report Suites für geräteübergreifende Analyse verfügbar.
+* Das private Diagramm nutzt dieselben ID-Synchronisierungen wie die, die die Funktion [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) in Experience Cloud und Adobe Analytics verwendet. Virtual Report Suites für geräteübergreifende Analyse (unabhängig davon, ob sie auf privatem Diagramm oder feldbasierter Zuordnung basieren) sind jedoch nicht mit dem Rest der Funktion „Kundenattribute“ kompatibel. Kundenattribut-basierte Dimensionen sind also nicht zur Verwendung in Virtual Report Suites für geräteübergreifende Analyse verfügbar.
 * CDA ist derzeit nicht mit A4T kompatibel.
 * Die geräteübergreifende Analyse verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](../vrs/vrs-about.md) und [Berichtszeitverarbeitung](../vrs/vrs-report-time-processing.md).
 * Die 1.4 API wird nicht unterstützt. Power BI-Connectoren und Report Builder basieren beide auf der 1.4 API und sind daher nicht mit der geräteübergreifenden Analyse kompatibel.
-* Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
 * Die aktive Überwachung des Zuordnungsprozesses für geräteübergreifende Analyse durch Adobe ist auf Report Suites im Produktionsbetrieb beschränkt.
 * Die geräteübergreifende Analyse ist derzeit nicht mit der [Datenreparatur-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) von Adobe Analytics kompatibel.
+* Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
+* Zugeordnete Daten haben eine Latenz von 8 bis 12 Stunden.

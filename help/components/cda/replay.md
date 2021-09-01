@@ -2,11 +2,10 @@
 title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +47,10 @@ Sowohl nicht authentifizierte als auch authentifizierte Treffer auf neuen Gerät
 * **Wenn feldbasiertes Stitching verwendet wird**, werden nicht authentifizierte Treffer auf erkannten Geräten von diesem Punkt an live zugeordnet.
 
    Die Attribution funktioniert, sobald die identifizierende benutzerdefinierte Variable mit einem Gerät verknüpft ist. Im obigen Beispiel werden alle Treffer mit Ausnahme der Treffer 1 und 3 live zugeordnet (sie verwenden alle die Kennung `Bob`). Die Attribution funktioniert bei Treffern 1 und 3 nach der Wiederholungszuordnung.
+
+>[!NOTE]
+>
+>Treffer mit Zeitstempel, die älter als 12 Stunden sind, werden im Live-Fluss nicht zugeordnet. Diese Treffer sind jedoch in der Wiederholungszuordnung enthalten, solange sie im Lookback-Fenster für die Wiederholung fallen.
 
 ### Wiederholungszuordnung
 

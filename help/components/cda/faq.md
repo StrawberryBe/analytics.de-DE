@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 100%
+source-wordcount: '1780'
+ht-degree: 94%
 
 ---
 
@@ -114,3 +114,11 @@ Die Vorteile der Verwendung des eintägigen Wiederholungs-Lookback-Fensters sind
 ## Was passiert mit den zugeordneten Daten in meinen Virtual Report Suites für geräteübergreifende Analyse, wenn mein Unternehmen beschließt, ein Downgrade von Analytics Ultimate durchzuführen?
 
 Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordnete Daten. Alle zuvor zugeordneten Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites für geräteübergreifende Analyse jetzt keine geräteübergreifende Zuordnung widerspiegeln. Die Daten ähneln der ursprünglich nicht zugeordneten Report Suite.
+
+## Warum unterscheidet sich die Gesamtzahl der Treffer zwischen meiner Quell-Report Suite und der Virtual Report Suite der geräteübergreifenden Analyse?
+
+Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für die geräteübergreifende Analyse erwartet. Sie hat nur geringe Auswirkungen auf die geräteübergreifenden Funktionen.
+
+## Warum ist die Metrik &quot;Identifizierte Personen&quot;überhöht?
+
+Wenn die Anzahl etwas höher ist als erwartet, kann ein eVar aufgrund von [Hash-Kollisionen](/help/implement/validate/hash-collisions.md) zu mehr als einer identifizierten Person gehören. Wenn die Anzahl viel höher ist als erwartet, wenden Sie sich für weitere Schritte zur Fehlerbehebung an die Kundenunterstützung.
