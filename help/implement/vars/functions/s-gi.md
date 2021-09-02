@@ -3,9 +3,9 @@ title: s_gi()
 description: Erstellen und verfolgen Sie Instanzen von AppMeasurement.
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 Die `s_gi()`-Funktion instanziiert oder findet eine Instanz von AppMeasurement nach Report Suite-ID. AppMeasurement verfolgt jede erstellte Instanz, und die `s_gi()`-Funktion gibt die vorhandene Instanz für eine Berichtssuite zurück, falls eine solche existiert. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt.
 
-## s_gi() mit Tags in Adobe Experience Platform
+## s_gi() bei Verwendung von Tags in Adobe Experience Platform
 
 Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch auch ein globales Tracking-Objekt im Akkordeon [!UICONTROL Bibliotheksverwaltung] festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
 
@@ -24,7 +24,7 @@ Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Si
 
 Im Textfeld für globale Variablen können Sie ein benutzerdefiniertes Tracking-Objekt festlegen. Der Standardwert lautet `s`.
 
-## s_gi() in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s_gi() in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Rufen Sie die `s_gi()`-Funktion auf, um ein Tracking-Objekt zu instanziieren. Das einzige Argument enthält eine kommagetrennte Zeichenfolge von Report Suite-IDs. Das Argument der Report Suite-ID ist erforderlich.
 
