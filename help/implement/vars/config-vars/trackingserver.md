@@ -3,9 +3,9 @@ title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 >
 >Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Zahl der Unique Visitors kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
 
-## Tracking-Server mit Tags in Adobe Experience Platform
+## Tracking-Server bei Verwendung von Tags in Adobe Experience Platform
 
 „Tracking-Server“ ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -28,9 +28,9 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 
 Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid].data.adobedc.net`ausgewählt.
 
-## s.trackingServer in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.trackingServer in AppMeasurement und im benutzerdefinierten Code-Editor
 
-Die `s.trackingServer`-Variable ist eine Zeichenfolge, die die Stelle enthält, an die Daten gesendet werden sollen.
+Die `s.trackingServer`-Variable ist eine Zeichenfolge, die den Ort enthält, an die Daten gesendet werden sollen.
 
 ## Bestimmen des Werts für „trackingServer“
 
