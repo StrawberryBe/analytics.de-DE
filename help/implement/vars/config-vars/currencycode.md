@@ -3,9 +3,9 @@ title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
 description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unt
 
 Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält.
 
-## Währungscode mit Tags in Adobe Experience Platform
+## Währungs-Code bei Verwendung von Tags in Adobe Experience Platform
 
-Währungscode ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfigurierung der Adobe Analytics-Erweiterung.
+Währungs-Code ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfigurierung der Adobe Analytics-Erweiterung.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
@@ -46,7 +46,7 @@ Währungs-Code wird über Kontextdatenvariablen in der Adobe Analytics-Erweiteru
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
-## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.currencyCode`-Variable ist eine Zeichenfolge, die einen dreistelligen Code in Großbuchstaben enthält, der die Währung auf der Seite darstellt.
 
