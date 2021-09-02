@@ -3,9 +3,9 @@ title: visitorNameSpace
 description: Eingestellte Variable, die die Cookie-Domäne bestimmt hatte.
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ In früheren Versionen von Adobe Analytics verwendete AppMeasurement die `visito
 >
 >Adobe empfiehlt die Verwendung von Erstanbieter-Cookies auf Ihrer Website. Erstanbieter-Cookies verwenden diese Variable nicht.
 
-## Besucher-Namespace mithilfe von Tags in Adobe Experience Platform
+## Besucher-Namespace bei Verwendung von Tags in Adobe Experience Platform
 
 [!UICONTROL Besucher-Namespace] ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -32,7 +32,7 @@ In früheren Versionen von Adobe Analytics verwendete AppMeasurement die `visito
 
 Adobe empfiehlt, dieses Feld nicht zu verwenden. Verwenden Sie stattdessen `trackingServer` und `trackingServerSecure`.
 
-## s.visitorNamespace in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.visitorNamespace in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.visitorNamespace`-Variable ist eine Zeichenfolge, die einen eindeutigen Wert pro Organisation enthält. Alte AppMeasurement-Bibliotheken enthielten diesen eindeutigen Wert automatisch, wenn sie von früheren Versionen von Adobe Analytics heruntergeladen wurden. Aktuelle AppMeasurement-Bibliotheken verwenden diese Variable nur, wenn `trackingServer` und `trackingServerSecure` gesetzt sind.
 
