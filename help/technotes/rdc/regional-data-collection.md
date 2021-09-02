@@ -3,7 +3,7 @@ title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Hinweis: Wenn Ihre Analytics-Bildanforderung an die Endpunkte `adobedc`, `2o7.ne
 
 ## Erstanbieter-HTTPS-Datenerfassung
 
-| RDC-Typ | Datenerfassungszentren |
+| RDC-Typ | Data Collection Centers |
 |---------------------|-------------------|
 | Global (Standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 | Nur Amerika | Oregon, Virginia |
