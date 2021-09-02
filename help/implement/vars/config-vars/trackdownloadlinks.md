@@ -3,9 +3,9 @@ title: trackDownloadLinks
 description: Aktivieren oder deaktivieren Sie das automatische Linktracking für Downloadlinks.
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe bietet die Möglichkeit, Downloadlinks zu verfolgen, ohne die [`tl()`](../
 
 Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-URLs mit den Werten in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Bei Übereinstimmung wird automatisch ein Download-Linktracking-Aufruf ausgelöst.
 
-## Tracking von Downloadlinks mit Tags in Adobe Experience Platform
+## Tracking von Downloadlinks mithilfe von Tags in Adobe Experience Platform
 
 „Downloadlinks verfolgen“ ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -26,7 +26,7 @@ Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-
 
 Aktivieren Sie das Kontrollkästchen, um das automatische Tracking von Downloadlinks zu aktivieren.
 
-## s.trackDownloadLinks in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.trackDownloadLinks in AppMeasurement und im benutzerdefinierten Code-Editor
 
 `s.trackDownloadLinks` ist ein boolescher Wert, der das automatische Tracking von Downloadlinks aktiviert oder deaktiviert. Wenn Sie Downloadlinks nicht verfolgen oder die `tl()`-Methode zum Tracking von Downloads lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`.
 
