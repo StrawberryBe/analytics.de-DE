@@ -3,13 +3,13 @@ description: Tabellendaten, die die Spalten im Daten-Feed beschreiben.
 keywords: Daten-Feed;Spalten
 subtopic: data feeds
 title: Datenspaltenreferenz
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3422'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -105,7 +105,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mcvisid` | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | `mobile_id` | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
 | `mobileaction` | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
-| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:   `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:    `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
 | `mobileappperformancecrashid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
 | `mobileappstoreobjectid` | Wird im Appfigures-Daten-Connector verwendet. App Store-Objekt-ID. | varchar(255) |
@@ -274,7 +274,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `visit_referrer` | Die erste verweisende Stelle des Besuchs. | varchar(255) |
 | `visit_search_engine` | Numerische ID der ersten Suchmaschine des Besuchs. Verwendet die `search_engines.tsv`-Suche. | smallint unsigniert |
 | `visit_start_page_url` | Die erste URL des Besuchs. | varchar(255) |
-| `visit_start_pagename` | Der Wert &quot;Seitenname&quot;im ersten Treffer des Besuchs. | varchar(100) |
+| `visit_start_pagename` | Der Wert „Seitenname“ im ersten Treffer des Besuchs. | varchar(100) |
 | `visit_start_time_gmt` | Zeitstempel (in Unix-Zeit) des ersten Treffers des Besuchs. | int |
 | `weekly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer wöchentlicher Besucher ist. | tinyint unsigniert |
 | `yearly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer jährlicher Besucher ist. | tinyint unsigniert |

@@ -6,8 +6,8 @@ breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über das Verwalten von Benutzern und Produkten in der Experience Cloud-Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -107,14 +107,14 @@ ht-degree: 99%
       + [Festlegen der Unique-Visitor-Variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Anwendungsfall – Extrahieren von Besucher-IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Video-Management](admin/video-management.md)
-+ Analytics  in der Adobe Admin Console {#admin-console}
++ Analytics   in der Adobe Admin Console {#admin-console}
    + [Analytics in der Adobe Admin Console](admin-console/home.md)
    + Zugriffsberechtigung {#permissions}
       + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
       + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
       + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
-   + [Erstes Adobe Analytics-Handbuch für Administratoren](admin-console/first-admin-guide.md)
+   + [Adobe Analytics-Handbuch für erste Administratoren](admin-console/first-admin-guide.md)
 + Unternehmenseinstellungen {#company-settings}
    + [Übersicht über Unternehmenseinstellungen](company/c-company-settings.md)
    + [Funktionszugriffsebenen](company/feature-access-levels.md)

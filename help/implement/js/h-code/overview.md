@@ -4,8 +4,8 @@ description: Erfahren Sie mehr über den Workflow zur Implementierung von H-Code
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Diese Version der Datenerfassung wird nicht mehr unterstützt. Aktualisieren Sie auf [Tags in Adobe Experience Platform](../../launch/overview.md) oder [AppMeasurement für JavaScript](../overview.md).
+>Diese Version der Datenerfassung wird nicht mehr unterstützt. Aktualisieren Sie auf entweder [Tags in Adobe Experience Platform](../../launch/overview.md) oder [AppMeasurement für JavaScript](../overview.md).
 
 Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Datenerfassung erfolgreich implementieren zu können. Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Implementierung mit H-Code geführt.
 
