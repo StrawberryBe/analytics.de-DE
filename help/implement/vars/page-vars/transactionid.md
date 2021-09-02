@@ -3,9 +3,9 @@ title: transactionID
 description: Verwenden Sie diese Variable, um Online- und Offline-Daten miteinander zu verknüpfen.
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Wenn Sie `transactionID` für einen Treffer festlegen, erstellt Adobe einen „S
 
 Adobe speichert standardmäßig alle (verknüpfte und nicht verknüpfte) Transaktions-ID-Werte bis zu 90 Tage lang. Wenn die Offline-Interaktion länger als 90 Tage dauert, lassen Sie diese Zeitspanne vom Kundendienst verlängern.
 
-## Transaktions-ID mit Tags in Adobe Experience Platform
+## Transaktions-ID bei Verwendung von Tags in Adobe Experience Platform
 
 Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -34,7 +34,7 @@ Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweit
 
 Sie können die Transaktions-ID auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
 
-## s.transactionID in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.transactionID in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.transactionID`-Variable ist eine Zeichenfolge, die eine eindeutige Kennung für eine Transaktion enthält. Gültige Werte sind alphanumerische Zeichen bis zu 100 Byte. Der Standardwert ist eine leere Zeichenfolge.
 
