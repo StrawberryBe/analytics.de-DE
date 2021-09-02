@@ -3,9 +3,9 @@ title: Util.cookieRead
 description: Ruft den Wert aus einem Cookie ab.
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 Cookies können Informationen über Seiten in derselben Domäne hinweg speichern und abrufen. Verwenden Sie die `Util.cookieRead()`-Methode, um einen Wert aus einem Cookie abzurufen.
 
-## Cookies mithilfe von Tags in Adobe Experience Platform lesen
+## Lesen von Cookies mithilfe von Tags in Adobe Experience Platform
 
 Sie können Cookies lesen, indem Sie Werte in Datenelementen festlegen.
 
@@ -25,7 +25,7 @@ Sie können Cookies lesen, indem Sie Werte in Datenelementen festlegen.
 
 Der Wert des Cookies wird im Datenelement gespeichert. Anschließend können Sie auf das Datenelement in Regeln verweisen, um Analytics-Variablen zuzuweisen.
 
-## s.Util.cookieRead() in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.Util.cookieRead() in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Rufen Sie die `s.Util.cookieRead()`-Methode auf, um einen gewünschten Cookie-Wert zu lesen. Das einzige Argument ist eine Zeichenfolge, die erforderlich ist. Diese Methode gibt eine Zeichenfolge zurück, die den Cookie-Wert enthält. Wenn die Cookies nicht vorhanden sind, wird eine leere Zeichenfolge zurückgegeben.
 
