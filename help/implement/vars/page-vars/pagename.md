@@ -3,9 +3,9 @@ title: pageName
 description: Der Name der Seite auf Ihrer Website.
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Wenn diese Variable bei einem gegebenen Seiten-Tracking-Aufruf nicht definiert i
 >
 >Datenerfassungs-Server von Adobe entfernen diese Dimension aus allen [Linktracking](/help/implement/vars/functions/tl-method.md)-Bildanforderungen. Wenn diese Dimension bei Linktracking-Treffern angezeigt werden soll, kopieren Sie sie in eine [eVar](evar.md).
 
-## Seitenname mit Tags in Adobe Experience Platform
+## Seitenname bei Verwendung von Tags in Adobe Experience Platform
 
 Sie können den Seitennamen entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -32,7 +32,7 @@ Sie können den Seitennamen entweder beim Konfigurieren der Analytics-Erweiterun
 
 Sie können den Seitennamen auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
 
-## s.pageName in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.pageName in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.pageName`-Variable ist eine Zeichenfolge, die normalerweise den Namen der Seite enthält. Sie hat einen Maximalwert von 100 Byte. Längere Werte werden abgeschnitten. Diese Kürzung umfasst Fälle, in denen auf `pageURL` zurückgegriffen wird, wenn diese Variable leer ist.
 
