@@ -3,9 +3,9 @@ title: prop
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie
 
 Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 75 Props verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
-## Props mit Tags in Adobe Experience Platform
+## Props mit Verwendung von Tags in Adobe Experience Platform
 
 Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -34,7 +34,7 @@ Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale
 
 Sie können eine Prop auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
 
-## s.prop1 – s.prop75 in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.prop1 – s.prop75 in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Jede Prop-Variable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Die maximale Länge beträgt 100 Byte. Werte, die länger als 100 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 
