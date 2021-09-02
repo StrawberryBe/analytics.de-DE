@@ -3,9 +3,9 @@ title: linkDownloadFileTypes
 description: Legen Sie Dateierweiterungen fest, die automatisch als Downloadlinks verfolgt werden.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downl
 
 ## Herunterladen von Erweiterungen mithilfe von Tags in Adobe Experience Platform
 
-Download-Erweiterungen sind eine Liste von Dateierweiterungen mit einem Feld, um bei der Konfiguration der Adobe Analytics-Erweiterung unter dem Akkordeon [!UICONTROL Linktracking] weitere hinzuzufügen.
+Download-Erweiterungen sind eine Liste von Dateierweiterungen, in der Sie bei der Konfiguration der Adobe Analytics-Erweiterung in einem Feld unter dem Akkordeon [!UICONTROL Linktracking] weitere Erweiterungen hinzufügen können.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
@@ -41,7 +41,7 @@ Download-Erweiterungen sind eine Liste von Dateierweiterungen mit einem Feld, um
 
 Fügen Sie der Liste Dateierweiterungen hinzu, indem Sie Text in das Feld eingeben und auf [!UICONTROL Hinzufügen] klicken. Entfernen Sie Dateierweiterungen aus der Liste, indem Sie auf das entsprechende X-Symbol klicken.
 
-## s.linkDownloadFileTypes in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.linkDownloadFileTypes in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.linkDownloadFileTypes`-Variable ist eine Zeichenfolge aus kommagetrennten Dateierweiterungen. Verwenden Sie keine Leerzeichen.
 
