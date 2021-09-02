@@ -3,9 +3,9 @@ title: cookieDomainPeriods
 description: Hilft AppMeasurement zu verstehen, welche Domäne Cookies speichern soll, wenn Ihre Domäne einen Punkt im Suffix hat.
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Mithilfe der `fpCookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo
 >
 >Berücksichtigen Sie für diese Variable keine Subdomains. Legen Sie beispielsweise nicht `fpCookieDomainPeriods` für die Beispiel-URL `store.toys.example.com` fest. AppMeasurement erkennt standardmäßig, dass Cookies auf `example.com` gespeichert werden sollen. Das gilt auch für URLs mit vielen Unterdomänen.
 
-## Erstanbieter-Domänenpunkte, die Tags in Adobe Experience Platform verwenden
+## Punkte im Namen von Erstanbieter-Domains bei Verwendung von Tags in Adobe Experience Platform
 
-„Erstanbieter-Domänenpunkte“ ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
+„Erstanbieter-Domain-Punkte“ ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
@@ -31,7 +31,7 @@ Mithilfe der `fpCookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo
 
 Setzen Sie dieses Feld nur bei Domänen, die einen Punkt im Suffix enthalten, auf `3`. Andernfalls kann dieses Feld leer gelassen werden.
 
-## s.fpCookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.fpCookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die Variable `fpCookieDomainPeriods` ist eine Zeichenfolge, die normalerweise auf `"3"` gesetzt wird, und zwar nur bei Domänen, die einen Punkt in ihrem Suffix enthalten. Der Standardwert ist `"2"`, der für die meisten Domänen geeignet ist.
 
