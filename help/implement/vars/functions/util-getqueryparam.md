@@ -3,9 +3,9 @@ title: Util.getQueryParam
 description: Gibt den Wert eines Abfragezeichenfolgenparameters zurück.
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können Abfragezeichenfolgenparameterdaten abrufen, indem Sie Werte in Daten
 
 Der Wert des Abfragezeichenfolgenparameters wird im Datenelement gespeichert. Anschließend können Sie auf das Datenelement in Regeln verweisen, um Analytics-Variablen zuzuweisen.
 
-## s.Util.getQueryParam() in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.Util.getQueryParam() in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Rufen Sie die `s.Util.getQueryParam()`-Methode auf, um einen Abfragezeichenfolgenwert aus der Browser-URL abzurufen. Das Zeichenfolgenargument, das einen Abfragezeichenfolgenparameter enthält, ist erforderlich. Diese Methode gibt eine Zeichenfolge zurück, die Sie Analytics-Variablen zuweisen können:
 
