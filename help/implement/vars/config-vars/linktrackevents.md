@@ -3,9 +3,9 @@ title: linkTrackEvents
 description: Bestimmen Sie, welche Ereignisse in Bildanforderungen zum Linktracking einbezogen werden sollen.
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen
 
 Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-method.md)-Methode) verwendet.
 
-## Ereignisse in Linktracking-Aufrufen mithilfe von Tags in Adobe Experience Platform
+## Ereignisse in Linktracking-Aufrufen mit Tags in Adobe Experience Platform
 
-Adobe Experience Platform fügt automatisch definierte Ereignisse in Linktracking-Treffern ein, wenn Sie keinen benutzerspezifischen Code verwenden.
+Adobe Experience Platform schließt definierte Ereignisse automatisch in Linktracking-Treffern ein, wenn Sie keinen benutzerspezifischen Code verwenden.
 
 >[!IMPORTANT]
 >
->Wenn Sie Ereignisse in der Datenerfassungs-Benutzeroberfläche mithilfe des benutzerdefinierten Code-Editors festlegen, müssen Sie das Ereignis auch in `linkTrackEvents` mit benutzerdefiniertem Code einbeziehen.
+>Wenn Sie Ereignisse in der Datenerfassungs-Benutzeroberfläche mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie das Ereignis auch in `linkTrackEvents` mit benutzerdefiniertem Code einbeziehen.
 
-## s.linkTrackEvents in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.linkTrackEvents in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.linkTrackEvents`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Ereignissen enthält, die Sie in Bildanforderungen zum Linktracking einbeziehen möchten (`tl()`-Methode). Die folgenden drei Kriterien müssen erfüllt sein, um Metriken in Linktracking-Treffer einzubeziehen:
 
@@ -35,7 +35,7 @@ Die `s.linkTrackEvents`-Variable ist eine Zeichenfolge, die eine kommagetrennte 
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-Der Standardwert für diese Variable ist eine leere Zeichenfolge. Wenn diese Variable nicht definiert ist, werden alle Ereignisse in Bildanforderungen zum Linktracking einbezogen. Beachten Sie, dass die Datenerfassung diese Variable automatisch basierend auf Ereignissen füllt, die in der Benutzeroberfläche festgelegt sind. Daher wird sie immer für Implementierungen festgelegt, die Tags in Adobe Experience Platform verwenden.
+Der Standardwert für diese Variable ist eine leere Zeichenfolge. Wenn diese Variable nicht definiert ist, werden alle Ereignisse in Bildanforderungen zum Linktracking einbezogen. Beachten Sie, dass die Datenerfassung diese Variable automatisch basierend auf den in der Benutzeroberfläche festgelegten Ereignissen füllt. Daher ist sie immer für Implementierungen eingerichtet, die Tags in Adobe Experience Platform verwenden.
 
 >[!TIP]
 >
