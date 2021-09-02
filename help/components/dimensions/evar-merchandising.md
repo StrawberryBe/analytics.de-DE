@@ -3,17 +3,18 @@ title: eVar (Merchandising)
 description: Benutzerdefinierte Variablen, die mit der Produktdimension verknüpft sind.
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # eVar (Merchandising)
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. Informationen zur Implementierung von Merchandising-eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zur Implementierung.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. Weitere Informationen zum Implementieren von Merchandising-eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zu Implementierungen.*
 
-Eine ausführliche Diskussion der Funktionsweise von Merchandising-eVars finden Sie unter [Merchandising-eVars und Produktsuchmethoden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
+Eine ausführliche Erläuterung der Funktionsweise von Merchandising-eVars finden Sie unter [Merchandising-eVars und Methoden zur Produktsuche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=de).
+
 
 Wenn Sie den Erfolg von externen Kampagnen oder externen Suchbegriffen messen möchten, wünschen Sie in der Regel einen einzigen Wert, den Sie für jedes eingetretene Erfolgsereignis der jeweiligen Kampagne oder dem Suchbegriff gutschreiben können. Wenn ein Kunde z. B. auf einen Link in einer E-Mail-Kampagne klickt, um Ihre Website zu besuchen, sollten alle daraus resultierenden Käufe dieser Kampagne gutsgeschrieben werden.
 
