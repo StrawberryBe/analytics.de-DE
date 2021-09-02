@@ -3,19 +3,19 @@ title: campaign
 description: Füllen Sie die Dimension „Trackingcode“.
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Kampagne
+# campaign
 
 Die `campaign`-Variable dient der Erfassung von Trackingcodes auf Ihrer Website. In früheren Versionen von Adobe Analytics gab es eine Sonderbehandlung, bei der sie als Aufschlüsselung in die meisten Dimensionen verwendet werden konnte. In der aktuellen Version von Adobe Analytics ist sie mit einer eVar identisch.
 
 Diese Variable füllt die Dimension „Trackingcode“.
 
-## Kampagne mit Tags in Adobe Experience Platform
+## Campaign bei Verwendung von Tags in Adobe Experience Platform
 
 Sie können „campaign“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -28,7 +28,7 @@ Sie können „campaign“ entweder beim Konfigurieren der Analytics-Erweiterung
 
 Sie können „campaign“ auf einen Wert oder einen Abfragezeichenfolgenparameter setzen.
 
-## s.campaign in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.campaign in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.campaign`-Variable ist eine Zeichenfolge, die normalerweise einen Trackingcode enthält, der in Marketing-Maßnahmen verwendet wird. Die maximale Länge beträgt 255 Byte. Werte, die länger als 255 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 
