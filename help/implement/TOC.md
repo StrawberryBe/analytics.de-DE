@@ -5,9 +5,9 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
 source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -149,13 +149,13 @@ ht-degree: 91%
       + [Besuchsbeispiel](js/xdevice-visid/visit-example.md)
       + [Häufig gestellte Fragen zu veralteten geräteübergreifenden Themen](js/xdevice-visid/xdevice-faq.md)
    + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
-+ Analytics mithilfe von Tags in Adobe Experience Platform implementieren {#launch}
++ Implementieren von Analytics mithilfe von Tags in Adobe Experience Platform {#launch}
    + [Übersicht über Tags](launch/overview.md)
-   + [Erstellen einer Adobe Analytics-Tag-Eigenschaft](launch/create-analytics-property.md)
-   + [In einer Entwicklungsumgebung bereitstellen](launch/deploy-dev.md)
-   + [In der Produktion validieren und veröffentlichen](launch/validate-publish-prod.md)
+   + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)
+   + [Bereitstellen in einer Entwicklungsumgebung](launch/deploy-dev.md)
+   + [Validieren und Veröffentlichen in der Produktionsumgebung](launch/validate-publish-prod.md)
    + [Zuordnen von Datenschichtobjekten zu Datenelementen](launch/layer-to-elements.md)
-   + [Tag-Datenelemente Analytics-Variablen zuordnen](launch/elements-to-variable.md)
+   + [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
 + Analytics auf anderen Plattformen implementieren {#other}
    + [Analytics mit fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
    + [Analytics mit DTM implementieren](other/dtm-implementation-overview.md)
