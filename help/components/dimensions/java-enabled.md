@@ -3,9 +3,9 @@ title: Java aktiviert
 description: Bestimmt, ob Java im Browser aktiviert ist.
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Die Dimension „Java aktiviert“ bestimmt, ob Java zu diesem Zeitpunkt im Brow
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ruft Daten aus der [`v` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten, indem erkennt wird, ob Java im Browser aktiviert ist. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über -Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `v` mit „Y“ oder „N“ einschließen, wenn Sie diese Dimension verwenden möchten.
+Diese Dimension ruft Daten aus der [`v` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten, indem erkennt wird, ob Java im Browser aktiviert ist. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `v` mit „Y“ oder „N“ einschließen, wenn Sie diese Dimension verwenden möchten.
 
 ## Dimensionselemente
 
