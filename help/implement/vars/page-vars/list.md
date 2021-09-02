@@ -3,13 +3,13 @@ title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Liste
+# list
 
 Listenvariablen sind benutzerspezifische Variablen, die Sie beliebig verwenden können. Sie funktionieren ähnlich wie eVars, allerdings können sie mehrere Werte im selben Treffer enthalten. Listenvariablen haben keine Zeichenbeschränkung.
 
@@ -25,9 +25,9 @@ Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellung
 
 ## Listenvariablen mit Tags in Adobe Experience Platform
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.list1 – s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.list1 – s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Sie haben keine maximale Byte-Anzahl; jeder einzelne Wert hat jedoch ein Maximum von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in den Report Suite-Einstellungen festgelegt. Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
 
