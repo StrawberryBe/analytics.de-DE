@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ Die mit dem Import-Tool importierten Daten müssen ein bestimmtes Format aufweis
 >
 >Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 
-Siehe [Fehlerbehebung beim Classification Importer](/help/components/classifications/importer/troubleshooting.md). Hier werden Probleme beschrieben, die sich aus falschen Dateiformaten und Dateiinhalten ergeben.
+Siehe [Fehlerbehebung beim Classification Importer](/help/components/classifications/importer/troubleshooting.md). Hier werden Probleme beschrieben, die sich durch falsche Dateiformate und Dateiinhalte ergeben.
