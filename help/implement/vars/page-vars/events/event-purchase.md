@@ -3,9 +3,9 @@ title: Kaufereignis
 description: Verwenden Sie das Kaufereignis, um Daten zu den Metriken „Bestellungen“, „Einheiten“ und „Umsatz“ zu erfassen.
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 >
 >Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispiel: `s.products="Womens;Socks;5;4.50"` wird nicht als 22,50 USD im Umsatz ausgewiesen, sondern als 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist. Beispiel: `s.products="Womens;Socks;5;22.50"`.
 
-## Festlegen des Kaufereignisses mithilfe von Tags in Adobe Experience Platform
+## Festlegen des Kaufereignisses mit Tags in Adobe Experience Platform
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
@@ -32,9 +32,9 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse] und wählen Sie im Dropdown-Menü „Ereignisse“ [!UICONTROL purchase] aus.
 
-Andere abhängige Variablen wie `products` und `purchaseID` verfügen nicht über dedizierte Felder in der Datenerfassungs-Benutzeroberfläche. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Andere abhängige Variablen wie `products` und `purchaseID` verfügen über keine eigenen Felder in der Datenerfassungs-Benutzeroberfläche. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor in festlegen
+## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor festlegen
 
 Das Kaufereignis ist eine Zeichenfolge, die als Teil der Ereignisvariablen festgelegt wird.
 
