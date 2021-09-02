@@ -3,9 +3,9 @@ title: Migration zu AppMeasurement für JavaScript
 description: Bestimmen Sie, was erforderlich ist, um Ihre H-Code-Implementierung zu migrieren.
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
