@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics in einer Entwicklungsumgebung bereitstellen
-description: Erfahren Sie, wie Sie Tags verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
+description: Hier erfahren Sie, wie Sie Tags verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 61%
 Nachdem Sie eine Tag-Eigenschaft erstellt und konfiguriert haben, können die Bibliotheken bereitgestellt und Code auf Ihrer Site implementiert werden.
 
 >[!NOTE]
->Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
+>Adobe Experience Platform Launch wurde umbenannt und umfasst eine Suite von Datenerfassungstechnologien in Experience Platform. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen vorgenommen. Eine Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de).
 
 ## Voraussetzungen
 
-[Erstellen und konfigurieren Sie eine Tag-Eigenschaft für Adobe Analytics](create-analytics-property.md): Greifen Sie auf das Tool zu und erstellen Sie einen Bereich für Ihre Analytics-Implementierung.
+[Erstellen und konfigurieren einer Tag-Eigenschaft für Adobe Analytics](create-analytics-property.md): Greifen Sie auf das Werkzeug zu und erstellen Sie einen Raum für Ihre Analytics-Implementierung.
 
 ## Erstellen von Adaptern und Umgebungen
 
-Tags ermöglichen viele organisatorische Workflows bei der Bereitstellung von Code. Führen Sie die folgenden Schritte aus, um die erforderlichen Mindestkomponenten für eine Analytics-Implementierung zu erstellen. Als Tag-Administrator können Sie innerhalb Ihres Unternehmens den richtigen Arbeitsablauf für die Bereitstellung von Adobe-Lösungen festlegen.
+Tags ermöglichen durch die Bereitstellung von Code zahlreiche betriebliche Arbeitsabläufe. Führen Sie die folgenden Schritte aus, um die erforderlichen Mindestkomponenten für eine Analytics-Implementierung zu erstellen. Als Tag-Administrator können Sie innerhalb Ihres Unternehmens den richtigen Arbeitsablauf für die Bereitstellung von Adobe-Lösungen einrichten.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
@@ -45,7 +45,7 @@ Trotz aller bisherigen Änderungen und Konfigurationen wurde kein Code veröffen
 6. Klicken Sie auf „Speichern“.
 7. Klicken Sie im Bildschirm „Publishing-Workflow“ auf das Dropdown-Menü neben der neuen Bibliothek und klicken Sie auf „Für Entwicklung erstellen“. Nach einigen Sekunden wird der gelbe Punkt in der Bibliothek grün, was darauf hinweist, dass die Erstellung erfolgreich war.
 8. Gehen Sie zur Registerkarte „Umgebungen“ und klicken Sie dann auf Ihre Entwicklungsumgebung.
-9. Kopieren Sie unter &quot;Tags installieren&quot;die Codeblöcke und stellen Sie sie den Website-Eigentümern Ihres Unternehmens zur Verfügung.
+9. Kopieren Sie unter „Tags installieren“ die Code-Blöcke und stellen Sie sie den Verantwortlichen Ihrer Unternehmens-Website zur Verfügung.
 
 ## Installieren von Tags in der Entwicklungsumgebung Ihrer Website
 
@@ -74,8 +74,8 @@ Ein häufiger Grund dafür ist, dass Elemente bereits in anderen Bibliotheken vo
 
 ## Dokumentation und zusätzliche Ressourcen
 
-- [Schnellstartanleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Grundlegender Workflow der Tag-Implementierung
-- [Veröffentlichungsübersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en): Erfahren Sie mehr über Publishing und Umgebungen
+- [Schnellstartanleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=de): Hier lernen Sie den grundlegenden Workflow der Tag-Implementierung kennen
+- [Publishing-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=de): Hier erfahren Sie mehr über das Publishing und Umgebungen
 
 ## Nächste Schritte
 
