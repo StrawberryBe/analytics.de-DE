@@ -3,9 +3,9 @@ title: Dynamische Variablen
 description: Kopieren Sie Variablen, ohne die Bildanforderungslänge zu erhöhen.
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Adobe ein Präfix für dynamische Variablen erkennt, kopiert es automatisch
 >
 >Achten Sie beim Kopieren von Variablen auf maximale Zeichenbeschränkungen. Wenn Sie z. B. `eVar1` nach `prop1` kopieren, kann `prop1` einen abgeschnittenen Wert haben, da sie eine 100-Byte-Grenze hat (während `eVar1` eine 255-Byte-Grenze hat).
 
-## Dynamische Variablen mithilfe von Tags in Adobe Experience Platform
+## Dynamische Variablen bei Verwendung von Tags in Adobe Experience Platform
 
 Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zeichenfolge akzeptiert. Dimensionselemente werden normalerweise beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festgelegt.
 
@@ -36,7 +36,7 @@ Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zei
 
 Platzieren Sie das Präfix der dynamischen Variablen in das Textfeld, gefolgt vom Abfragezeichenfolgenparameter oder dem HTTP-Header, auf den Sie verweisen möchten. Standardmäßig ist das dynamische Variablenpräfix `D=`.
 
-## Dynamische Variablen in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## Dynamische Variablen in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Dynamische Variablen sind Textzeichenfolgen, die anderen Variablen zugewiesen werden. Standardmäßig ist das dynamische Variablenpräfix `D=`. Bei dynamischen Variablen wird zwischen Groß- und Kleinschreibung unterschieden.
 
