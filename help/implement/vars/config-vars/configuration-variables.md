@@ -3,9 +3,9 @@ title: Konfigurationsvariablen
 description: Verwenden Sie Konfigurationsvariablen, um festzustellen, wie Daten erfasst werden.
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung 
 
 Bei JavaScript-Implementierungen mit `AppMeasurement.js` werden die Konfigurationsvariablen normalerweise oben in der JS-Datei festgelegt.
 
-Bei Implementierungen mit Adobe Experience Platform-Tags werden Konfigurationsvariablen normalerweise durch Konfigurieren der Adobe Analytics-Erweiterung gefunden:
+Bei Implementierungen, bei denen Adobe Experience Platform-Tags verwendet werden, werden die Konfigurationsvariablen normalerweise durch die Konfiguration der Adobe Analytics-Erweiterung gefunden:
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die Eigenschaft, die Sie bearbeiten möchten.
