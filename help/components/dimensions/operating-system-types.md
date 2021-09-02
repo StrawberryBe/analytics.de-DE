@@ -3,9 +3,9 @@ title: Betriebssystemtypen
 description: Das Betriebssystem unabhängig von der Version.
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Die Dimension „Betriebssystemtypen“ zeigt das übergeordnete Betriebssystem 
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über -Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert.
 
 ## Dimensionselemente
 
