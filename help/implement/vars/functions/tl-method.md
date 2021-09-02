@@ -3,9 +3,9 @@ title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackEx
 
 ## Linktracking-Aufruf mithilfe von Tags in Adobe Experience Platform
 
-Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Speicherort, um einen Linktracking-Aufruf festzulegen.
+Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Ort, um einen Linktracking-Aufruf festzulegen.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
@@ -26,9 +26,9 @@ Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Speicher
 1. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie [!UICONTROL Aktionstyp] auf „Beacon senden“.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
-Sie können keine optionalen Argumente in der Datenerfassungs-Benutzeroberfläche festlegen.
+Sie können in der Datenerfassungs-Benutzeroberfläche keine optionalen Argumente festlegen.
 
-## s.tl()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.tl()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Rufen Sie die `s.tl()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
@@ -55,7 +55,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### Link-Typ (erforderlich)
+### Link-Typ  (erforderlich)
 
 Das Link-Typ-Argument ist eine aus einem einzigen Buchstaben bestehende Zeichenfolge, die den Typ des Linktracking-Aufrufs bestimmt. Es gibt drei gültige Werte.
 
