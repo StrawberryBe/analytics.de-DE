@@ -3,9 +3,9 @@ title: linkLeaveQueryString
 description: Ermöglicht die Beibehaltung von Abfragezeichenfolgen in Linktracking-Dimensionen.
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Die Aktivierung von `linkLeaveQueryString` gilt für alle Linktracking-Dimension
 >
 >Diese Variable hat keine Auswirkungen auf Dimensionen außerhalb des Linktrackings. Sie betrifft nur benutzerspezifische Links, Exitlinks und Downloadlinks.
 
-## URL-Parameter mithilfe von Tags in Adobe Experience Platform beibehalten
+## Beibehalten von URL-Parametern mithilfe von Tags in Adobe Experience Platform
 
 [!UICONTROL URL-Parameter beibehalten] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -34,7 +34,7 @@ Die Aktivierung von `linkLeaveQueryString` gilt für alle Linktracking-Dimension
 
 Aktivieren Sie dieses Kontrollkästchen, wenn Sie Abfragezeichenfolgen in die Linktracking-Dimensionen einbeziehen möchten.
 
-## s.linkLeaveQueryString in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.linkLeaveQueryString in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.linkLeaveQueryString`-Variable ist ein boolescher Wert. Der Standardwert lautet `false`.
 
