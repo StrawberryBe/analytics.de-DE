@@ -3,9 +3,9 @@ title: Berechnung der Besuchszeit in Adobe Analytics
 description: Eine aggregierte Seite mit Dimensionen und Metriken zur Besuchszeit.
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 085fd95da383671a51ce1e5888bea3db92c038bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1581'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ In Adobe Analytics-Produkten stehen verschiedene [!UICONTROL Besuchszeit]-Metrik
 | [!UICONTROL Zeit pro Besuch] (Sekunden) | *Gesamtbesuchszeit in Sekunden/(Besuchsabsprünge)*<br> Stellt die durchschnittliche Zeit dar, die Besucher bei jedem Besuch mit einem bestimmten Dimensionselement interagieren. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Besuchszeit pro Besucher] (Sekunden) | *Gesamtbesuchszeit in Sekunden/Unique Visitors*<br> Stellt die durchschnittliche Zeit dar, die Besucher mit einem bestimmten Dimensionselement über die Lebensdauer des Besuchers (Cookie-Laufzeit) hinweg interagieren. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] (Sekunden) | Stellt die gesamte Zeit dar, die Besucher pro Dimensionselement-Sequenz mit einem bestimmten Dimensionselement interagieren. Anders als der Name vermuten lässt, beschränkt sich diese Metrik nicht nur auf Durchschnitte pro „Seite“. Weitere Informationen über Sequenzen finden Sie im Bereich „Berechnung der Besuchszeit“.<br>**Hinweis**: Diese Metrik unterscheidet sich auf der Dimensionselement-Ebene mit hoher Wahrscheinlichkeit von „Zeit pro Besuch“, da bei der Berechnung ein anderer Nenner verwendet wird. | Analysis Workspace, Reports &amp; Analytics (in Minuten angezeigt), Report Builder (in Minuten angezeigt) |
-| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Dies ist dieselbe Metrik wie *Durchschnittliche Besuchszeit pro Site (Sekunden)*, mit Ausnahme der Formatierung als Zeit (hh:mm:ss) | Analysis Workspace |
+| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Dies ist dieselbe Metrik wie die *Durchschnittliche auf der Site verbrachte Zeit (Sekunden)* mit unterschiedlicher Zeitformatierung (hh:mm:ss). | Analysis Workspace |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Veraltete Metrik.<br> Stattdessen empfehlen wir Ihnen die Verwendung von „Durchschnittliche Besuchszeit pro Site“, wenn Sie die durchschnittliche Zeit für ein Dimensionselement in Erfahrung bringen möchten. | Report Builder (wenn sich eine Dimension in der Anforderung befindet) |
 | [!UICONTROL Gesamtsitzungslänge], also [!UICONTROL Frühere Sitzungslänge] | Nur SDK für Mobilanwendungen. <br>Wird beim nächsten Start der App für die vorangegangene Sitzung bestimmt. Diese Metrik wird in Sekunden berechnet. Allerdings zählt sie nicht, wenn sie im Hintergrund ausgeführt wird, sondern nur, wenn sie direkt verwendet wird. Es handelt sich um eine Metrik auf Sitzungsebene.<br>Beispiel: Wir installieren die App ABC, starten die App und verwenden sie 2 Minuten lang, bevor wir die App schließen. Es werden keine Daten über diese Sitzungsdauer gesendet. Wenn wir die App das nächste Mal starten, wird die [!UICONTROL Frühere Sitzungslänge] mit einem Wert von 120 gesendet. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Mobile Services-Benutzeroberfläche |
 | [!UICONTROL Durchschnittliche Sitzungslänge] (Mobil) | *Gesamtsitzungslänge/(Starts – Erste Starts)*<br> Nur Mobile-App-SDK. Es handelt sich um eine Metrik auf Sitzungsebene. | Report Builder, Benutzeroberfläche von Mobile Services |
@@ -108,14 +108,14 @@ Aus diesem Grund geben diese Metriken möglicherweise ähnliche Ergebnisse auf B
 
 Angenommen, der folgende Satz von Server-Aufrufen gilt für einen einzigen Besucher mit einem einzigen Besuch:
 
-| Besuch – Trefferanzahl | 1 | 2 | 1 | 4 | 5 | 6 | 7 |
+| Besuch – Trefferanzahl | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
 | **Besuch – vergangene Zeit (in Sek.)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Besuchszeit in Sekunden** | 30 | 50 | 100 | 10 | 40 | 60 | – |
 | **Treffertyp** | Seite | Link | Seite | Seite | Seite | Seite | Seite |
-| **Seitenname** | Startseite | – | Produkt | Startseite | Startseite (neu laden) | Korb | Bestellungsbestätigung |
+| **Seitenname** | Startseite | – | Produkt | Startseite | Startseite  (neu laden) | Korb | Bestellungsbestätigung |
 |  |  |  |  |  |  |  |  |
-| **prop1** | A (festgelegt) | A (nach vorne verteilt) | nicht festgelegt | B (festgelegt) | B (festgelegt) | A (Set) | C (festgelegt) |
+| **prop1** | A  (festgelegt) | A (nach vorne verteilt) | nicht festgelegt | B (festgelegt) | B (festgelegt) | A (Set) | C  (festgelegt) |
 | **prop1 – Besuchszeit in Sekunden** | 30 | 50 | – | 10 | 40 | 60 | – |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Rot (festgelegt) | Rot (beibehalten) | (abgelaufen) | Blau (festgelegt) | Blau (festgelegt) | Blau (beibehalten) | Rot (festgelegt) |
