@@ -3,9 +3,9 @@ title: dynamicAccountSelection
 description: Die Variable „dynamicAccountSelection“ aktiviert oder deaktiviert die dynamische Kontoauswahl.
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
