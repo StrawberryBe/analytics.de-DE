@@ -5,16 +5,16 @@ title: Klassifizierungsvorlage
 feature: Admin Tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Klassifizierungsvorlage
 
-(Optional) Bevor Sie Klassifizierungen in Berichte und Projekte importieren, können Sie eine Vorlage herunterladen, mit der Sie eine Klassifizierungsdatendatei erstellen können. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
+(Optional) Vor dem Importieren von Klassifizierungen in Marketing-Berichte können Sie eine Vorlage herunterladen, um eine Klassifizierungsdatendatei zu erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 
 ## Klassifizierungsvorlage {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
@@ -26,7 +26,7 @@ ht-degree: 85%
 | --- | ---|
 | Report Suite auswählen | Wählen Sie die Report Suite aus, die in der Vorlage genutzt werden soll. Report Suite und Datensatz müssen übereinstimmen. |
 | Datensatz, der klassifiziert werden soll | Wählen Sie den Typ der Daten für die Datendatei aus. Das Menü enthält alle Berichte aus Ihren Report Suites, die für Classifications konfiguriert sind. |
-| Nummerisch exportieren 2 | **Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
+| Export von Numerisch 2 | **Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
 | Kodierung | Wählen Sie die Zeichenkodierung für die Datendatei aus. Standardmäßig wird das Kodierungsformat UTF-8 verwendet.<br>**Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
 | Download | Lädt die Vorlagendatei herunter. |
 
