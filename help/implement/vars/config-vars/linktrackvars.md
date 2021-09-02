@@ -3,9 +3,9 @@ title: linkTrackVars
 description: Geben Sie an, welche Variablen in Bildanforderungen zum Linktracking einbezogen werden sollen.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen
 
 Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-method.md)-Methode) verwendet.
 
-## Variablen in Linktracking-Aufrufen mithilfe von Tags in Adobe Experience Platform
+## Variablen in Linktracking-Aufrufen bei Verwendung von Tags in Adobe Experience Platform
 
-Adobe Experience Platform füllt diese Variable automatisch im Backend basierend auf den in der Benutzeroberfläche festgelegten Variablen. Daher wird sie in Implementierungen immer mithilfe von Tags in Adobe Experience Platform festgelegt.
+Adobe Experience Platform füllt diese Variable automatisch im Backend, basierend auf den in der Benutzeroberfläche festgelegten Variablen. Daher wird sie in Implementierungen immer mithilfe von Tags in Adobe Experience Platform festgelegt.
 
 >[!IMPORTANT]
 >
->Wenn Sie Variablen mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie die Variable auch in `linkTrackVars` mit benutzerdefiniertem Code einbeziehen.
+>Wenn Sie Variablen mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie die Variable auch in `linkTrackVars` unter Verwendung von benutzerdefiniertem Code einbeziehen.
 
-## s.linkTrackVars in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.linkTrackVars in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.linkTrackVars`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Variablen enthält, die Sie in Bildanforderungen zum Linktracking einbeziehen möchten (`tl()`-Methode). Die folgenden beiden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffer einzubeziehen:
 
