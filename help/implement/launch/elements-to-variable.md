@@ -1,24 +1,24 @@
 ---
-title: Tag-Datenelemente Analytics-Variablen zuordnen
+title: Zuordnen von Tag-Datenelementen zu Analytics-Variablen
 description: Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analysis Workspace verwenden können.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
-# Tag-Datenelemente Analytics-Variablen zuordnen
+# Zuordnen von Tag-Datenelementen zu Analytics-Variablen
 
 Sobald Sie über ein Repository mit Tag-Datenelementen verfügen, können Sie sie Analytics-Dimensionen zuweisen.
 
 >[!NOTE]
->Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
+>Adobe Experience Platform Launch wurde umbenannt und umfasst eine Suite von Datenerfassungstechnologien in Experience Platform. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen vorgenommen. Eine Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de).
 
 ## Voraussetzungen
 
-[Ordnen Sie Datenschichtobjekte Datenelementen](layer-to-elements.md) zu: Vergewissern Sie sich, dass Sie mit Tag-Datenelementen vertraut sind und mehrere Elemente zur Verfügung haben.
+[Zuordnen von Datenschichtobjekten zu Datenelementen](layer-to-elements.md): Vergewissern Sie sich, dass Sie Tag-Datenelemente verstehen und mehrere davon zur Verfügung haben.
 
 [Erstellen Sie ein Lösungs-Design-Dokument](../prepare/solution-design.md): Ein Lösungs-Design-Dokument ist für eine übersichtliche Organisation unverzichtbar. Wenn Sie Ihrem Lösungs-Design-Projekts folgen, wird die Zuweisung von Datenelementen zu Analytics-Variablen einfacher.
 
@@ -37,7 +37,7 @@ Globale Variablen eignen sich ideal, wenn Sie Variablenwerte auf allen Seiten fe
 
 ### Variablen in Regeln festlegen
 
-Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. Siehe [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in der Dokumentation zu Adobe Experience Platform-Tags.
+Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. Siehe [Regeln](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=de) in der Dokumentation zu Adobe Experience Platform-Tags.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
