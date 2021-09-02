@@ -3,9 +3,9 @@ title: websiteBot
 description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Dieses Plug-in führt zwei Prüfungen durch:
 
 Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, kann das Plug-in 
 
-* Führen Sie entweder einen Direktaufrufregel-Aufruf mithilfe von Tags in Adobe Experience Platform durch oder
+* Führen Sie entweder einen Aufruf mit der Regel „Direktaufruf“ mithilfe von Tags in Adobe Experience Platform durch oder
 * Führen Sie einen Linktracking-Aufruf aus, um anzugeben, dass der Besucher kein Bot ist.
 
 ## Voraussetzungen
@@ -34,7 +34,7 @@ Adobe empfiehlt vor der Verwendung dieses Plug-ins Folgendes:
 * **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Legen Sie den Ablauf auf **Niemals** oder **Visit** und die Zuordnung auf **Ausgangswert (Erster)** fest. Diese eVar sollte in den beiden folgenden Fällen festgelegt werden: wenn entweder die Regel [!UICONTROL Direktaufruf] oder der Aufruf `s.tl` ausgelöst wird.
 * **Benutzeragent in einer separaten Variablen** erfassen: Erfassen Sie die Benutzeragenten-Zeichenfolge in einer separaten Variablen, um die Wirksamkeit dieses Plug-ins zu überwachen. Legen Sie bei jedem Treffer eine eVar auf `navigator.UserAgent` fest, um diese Daten zu erfassen.
 
-## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in 
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
 1. Fügen Sie eine neue Regel `websiteBot` hinzu.
 1. Fügen Sie der Regel `websiteBot` ein **Mausbewegung-Listener**-Ereignis mit diesem benutzerdefinierten Code hinzu:
@@ -115,5 +115,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (3. Juni 2021)
 
 * Aktualisierter AppMeasurement-Plug-in-Code
-* Der Abschnitt zum benutzerdefinierten Code-Editor wurde mit erweiterten Anweisungen aktualisiert.
+* Der Abschnitt zum benutzerdefinierten Code-Editor wurde durch Anweisungen ergänzt.
 * Der Abschnitt „Verwenden des Plug-ins“ wurde aktualisiert.
