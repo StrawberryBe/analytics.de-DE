@@ -3,9 +3,9 @@ title: pageURL
 description: Überschreiben Sie die automatisch erfasste Seiten-URL auf Ihrer Website.
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ AppMeasurement erfasst automatisch die Seiten-URL bei jedem Treffer. Wenn Sie di
 >
 >Diese Variable ist keine verfügbare Dimension in Analysis Workspace. Sie ist nur in Data Warehouse und in Daten-Feeds verfügbar. Darüber hinaus entfernen die Datenerfassungs-Server von Adobe diese Dimension aus allen [Linktracking](/help/implement/vars/functions/tl-method.md)-Bildanforderungen. Wenn Sie die Seiten-URL als Dimension in Analysis Workspace verwenden möchten oder diese Dimension bei Linktracking-Treffern verwenden möchten, übergeben Sie bei jedem Treffer die Variable `pageURL` in eine [eVar](evar.md).
 
-## Seiten-URL mit Tags in Adobe Experience Platform
+## Seiten-URL bei Verwendung von Tags in Adobe Experience Platform
 
 Die Datenerfassungs-Benutzeroberfläche füllt automatisch die Seiten-URL. Sie können die Seiten-URL-Überschreibung jedoch entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -30,7 +30,7 @@ Die Datenerfassungs-Benutzeroberfläche füllt automatisch die Seiten-URL. Sie k
 
 Sie können die Seiten-URL auf einen beliebigen Zeichenfolgenwert einstellen.
 
-## s.pageURL in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.pageURL in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.pageURL`-Variable ist eine Zeichenfolge, die die URL der Seite enthält. AppMeasurement erfasst diese Variable automatisch. Sie können jedoch ihren Wert bei Bedarf überschreiben.
 
