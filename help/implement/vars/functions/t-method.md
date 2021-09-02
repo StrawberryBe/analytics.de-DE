@@ -3,9 +3,9 @@ title: t
 description: Senden Sie einen Seitenansichts-Tracking-Aufruf an Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe empfängt die Bildanforderung und analysiert dann die Parameter für Anforderungsheader, URL und Abfragezeichenfolge. Datenerfassungs-Server geben dann ein transparentes 1x1-Pixel-Bild zurück, das unsichtbar auf Ihrer Website angezeigt wird.
 
-## Seitenansichts-Tracking-Aufruf mithilfe von Tags in Adobe Experience Platform
+## Seitenansichts-Tracking-Aufruf unter Verwendung von Tags in Adobe Experience Platform
 
-Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Speicherort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
+Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Ort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
@@ -46,7 +46,7 @@ Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Speicher
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie [!UICONTROL Aktionstyp] auf „Beacon senden“.
 6. Klicken Sie auf die Optionsschaltfläche `s.t()`.
 
-## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Rufen Sie die `s.t()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
