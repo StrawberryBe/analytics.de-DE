@@ -3,9 +3,9 @@ title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 >[!NOTE]
 >
->Wenn diese Variable in einem Treffer ohne die Variable [`events`](events/events-overview.md) festgelegt ist, wird die Metrik [Produktansichten](/help/components/metrics/product-views.md) um 1 inkrementiert. Stellen Sie sicher, dass Sie die entsprechenden Ereignisse bei jedem Treffer mit der Variable `products` festlegen.
+>Wenn diese Variable in einem Treffer ohne die Variable [`events`](events/events-overview.md) festgelegt wird, wird die Metrik [Produktansichten](/help/components/metrics/product-views.md) um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer mit der Variablen `products` die entsprechenden Ereignisse festlegen.
 
-## Produkte mit Tags in Adobe Experience Platform
+## Produkte bei Verwendung von Tags in Adobe Experience Platform
 
-Es gibt kein spezielles Feld in der Datenerfassungs-Benutzeroberfläche, um diese Variable festzulegen. Es gibt jedoch mehrere Drittanbietererweiterungen, die helfen.
+Es gibt kein eigenes Feld in der Datenerfassungs-Benutzeroberfläche, um diese Variable festzulegen. Es gibt jedoch mehrere Erweiterungen von Drittanbietern, die dabei helfen können.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
@@ -28,7 +28,7 @@ Es gibt kein spezielles Feld in der Datenerfassungs-Benutzeroberfläche, um dies
 
 Sie können eine dieser Erweiterungen oder den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax unten verwenden.
 
-## s.products in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.products in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
 
@@ -44,7 +44,7 @@ Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pr
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge für die gesamte Zeichenfolge `products` beträgt 64 K. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
+Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge für die gesamte `products`-Zeichenfolge beträgt 64 K. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
