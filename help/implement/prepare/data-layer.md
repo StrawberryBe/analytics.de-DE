@@ -3,9 +3,9 @@ title: Datenschicht erstellen
 description: Erfahren Sie, was eine Datenschicht in Ihrer Analytics-Implementierung ist und wie sie zur Zuordnung von Variablen in Adobe Analytics verwendet werden kann.
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerwe
    >
    >Das Befolgen der von Adobe empfohlenen Datenschichtspezifikationen ist optional. Wenn Sie bereits über eine Datenschicht verfügen oder sich anderweitig gegen die Adobe-Spezifikationen entscheiden, stellen Sie sicher, dass Ihre Organisation sich an den zu befolgenden Spezifikationen orientiert.
 1. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `digitalData.page.pageInfo.pageID`.
-1. **Verwenden Sie Adobe Experience Platform-Tags, um Datenschichtobjekte Datenelementen** zuzuordnen: Erstellen Sie Datenelemente in der Datenerfassungs-Benutzeroberfläche in Adobe Experience Platform und ordnen Sie sie den in Ihrer Datenschicht beschriebenen JavaScript-Attributen zu.
-1. **Verwenden Sie die Adobe Analytics-Tag-Erweiterung, um Datenelemente Analytics-Variablen** zuzuordnen: Weisen Sie nach Ihrem Lösungsdesigndokument jedes Datenelement der entsprechenden Analytics-Variablen zu.
+1. **Verwenden Sie Tags in Adobe Experience Platform, um Datenschichtobjekte Datenelementen zuzuordnen**: Erstellen Sie Datenelemente in der Datenerfassungs-Benutzeroberfläche in Adobe Experience Platform und ordnen Sie sie den in Ihrer Datenschicht beschriebenen JavaScript-Attributen zu.
+1. **Verwenden Sie die Tag-Erweiterung von Adobe Analytics, um Datenelemente Analytics-Variablen zuzuordnen**: Ordnen Sie entsprechend Ihrem Lösungsentwurfsdokument jedes Datenelement der entsprechenden Analytics-Variablen zu.
 
 ## Spezifikationen
 
