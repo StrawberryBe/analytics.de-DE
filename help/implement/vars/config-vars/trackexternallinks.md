@@ -3,9 +3,9 @@ title: trackExternalLinks
 description: Aktivieren oder deaktivieren Sie das automatische Linktracking für Exitlinks.
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-
 
 Aktivieren Sie das Kontrollkästchen, um das automatische Tracking von Exitlinks zu aktivieren.
 
-## s.trackExternalLinks in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.trackExternalLinks in AppMeasurement und im benutzerdefinierten Code-Editor
 
 `s.trackExternalLinks` ist ein boolescher Wert, der das automatische Tracking von Exitlinks aktiviert oder deaktiviert. Wenn Sie ausgehende Links nicht verfolgen oder die `tl()`-Methode zum Tracking von Exitlinks lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`.
 
