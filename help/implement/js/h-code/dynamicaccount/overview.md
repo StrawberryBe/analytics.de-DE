@@ -3,9 +3,9 @@ title: Übersicht über dynamische Konten
 description: Erfahren Sie, wie Sie eine Report Suite mit H-Code dynamisch auswählen.
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Dynamische Konten werden nur mit älteren JavaScript-Implementierungen (H-Code) unterstützt. Diese Variablen werden in aktuellen AppMeasurement-Bibliotheken oder -Tags in Adobe Experience Platform nicht unterstützt.
+>Dynamische Konten werden nur mit älteren JavaScript-Implementierungen (H-Code) unterstützt. Diese Variablen werden in aktuellen AppMeasurement-Bibliotheken oder Tags in Adobe Experience Platform nicht unterstützt.
 
 Dynamische Konten sind eine Implementierungsfunktion, mit der Sie anhand der von Ihnen definierten Kriterien festlegen können, welche Report Suite verwendet werden soll. Wenn Ihr Unternehmen mehr als eine Report Suite benötigt, aber dieselbe Implementierung zwischen Ihren Websites verwenden möchte, sind dynamische Konten eine gute Lösung.
 
