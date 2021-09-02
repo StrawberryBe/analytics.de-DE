@@ -3,9 +3,9 @@ title: writeSecureCookies
 description: Ermöglicht AppMeasurement das Setzen von Cookies mit dem Secure-Attribut.
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Weitere Informationen zu Analytics-Cookies finden Sie [hier](https://experiencel
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Kontrollkästchen [!UICONTROL Sichere Cookies schreiben] angezeigt wird.
 
-## s.writeSecureCookies in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.writeSecureCookies in AppMeasurement und im benutzerspezifischen Code-Editor
 
 Die Variable `s.writeSecureCookies` ist ein boolescher Wert, der bestimmt, ob AppMeasurement beim Erstellen eines Cookies das Secure-Attribut einrichtet. Der Standardwert lautet `false`. Legen Sie diese Variable auf `true` fest, wenn der gesamte Inhalt auf Ihrer Site sicher ist und Cookies, die von AppMeasurement gesetzt werden, das Secure-Attribut aufweisen sollen.
 
