@@ -3,9 +3,9 @@ title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe des Gerätediagramms vertraut.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode i
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
 * Ihre Organisation muss das Co-op-Diagramm oder das private Diagramm des Identity Service der Adobe Experience Platform verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=de) im Benutzerhandbuch zur Co-op-Funktion des Geräts.
-* Ihre Implementierung muss die aktuelle Version des Experience Cloud Identity Service verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) im Benutzerhandbuch des Experience Cloud ID-Dienstes. Bei den meisten Implementierungen mit Tags in Adobe Experience Platform ist ECID wahrscheinlich bereits bereitgestellt.
+* Ihre Implementierung muss die aktuelle Version des Experience Cloud Identity Service verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) im Benutzerhandbuch des Experience Cloud Identity Service. Bei den meisten Implementierungen mit Tags in Adobe Experience Platform ist die ECID wahrscheinlich schon bereitgestellt.
 * Ihre Implementierung muss die `setCustomerIDs`-Funktion (oder das SDK-Äquivalent) immer dann aufrufen, wenn eine Person identifiziert werden kann, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Weitere Informationen finden Sie unter [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=de) im Benutzerhandbuch des Experience Cloud Identity Service.
 
 ## Besondere Einschränkungen für das Gerätediagramm
