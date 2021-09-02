@@ -3,9 +3,9 @@ title: channel
 description: Füllen Sie die Dimension „Website-Bereiche“.
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 Die `channel`-Variable speichert normalerweise den Abschnitt der Website, auf dem sich eine bestimmte Seite befindet. Es ist hilfreich, zu bestimmen, welche Gruppen Ihrer Website am beliebtesten sind. Diese Variable füllt die Dimension „Website-Bereiche“.
 
-## Kanal mit Tags in Adobe Experience Platform
+## Kanal bei Verwendung von Tags in Adobe Experience Platform
 
 Sie können „channel“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -26,7 +26,7 @@ Sie können „channel“ entweder beim Konfigurieren der Analytics-Erweiterung 
 
 Sie können „channel“ auf einen beliebigen Zeichenfolgenwert oder ein beliebiges Datenelement einstellen.
 
-## s.channel in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.channel in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.channel`-Variable ist eine Zeichenfolge, die normalerweise den Website-Bereich der Seite enthält. Sie hat einen Maximalwert von 100 Byte. Längere Werte werden abgeschnitten.
 
