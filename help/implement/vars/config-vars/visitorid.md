@@ -3,9 +3,9 @@ title: visitorID
 description: Verwenden Sie eine benutzerdefinierte Besucher-ID.
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ Adobe verwendet verschiedene Methoden zur Identifizierung von Besuchern Ihrer We
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den [Adobe Experience Cloud-Identitätsdienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+>Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
 
-## Besucher-ID mithilfe von Tags in Adobe Experience Platform
+## Besucher-ID bei Verwendung von Tags in Adobe Experience Platform
 
 [!UICONTROL Besucher-ID] ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -28,7 +28,7 @@ Adobe verwendet verschiedene Methoden zur Identifizierung von Besuchern Ihrer We
 
 Weisen Sie dieses Feld dem Datenelement zu, das Ihre benutzerdefinierte Besucher-ID enthält. Legen Sie für dieses Feld keinen statischen Wert fest.
 
-## s.visitorID in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.visitorID in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.visitorID`-Variable ist eine Zeichenfolge, die eine benutzerdefinierte eindeutige Kennung für den Besucher enthält. Gültige Werte sind alphanumerische Zeichen bis zu 100 Byte. Verwenden Sie in dieser Variablen keine Bindestriche, Leerzeichen, Unterstriche oder Symbole.
 
