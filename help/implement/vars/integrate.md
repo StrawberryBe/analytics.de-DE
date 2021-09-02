@@ -3,9 +3,9 @@ title: Integrationsmodul
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Eine Organisation, die mit einem Adobe-Partner zusammenarbeitet, kann diese Schr
 
 ### Integrationsmodulcode abrufen
 
-Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff erforderlich, der zu einem Produktprofil mit Zugriff auf den Code-Manager gehört. Die Methode zum Abrufen des Modulcodes ist für alle Implementierungsmethoden gleich, einschließlich Tags in Adobe Experience Platform.
+Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff erforderlich, der zu einem Produktprofil mit Zugriff auf den Code-Manager gehört. Die Methode zum Abrufen von Modul-Code ist für alle Implementierungsmethoden gleich, einschließlich Tags in Adobe Experience Platform.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 1. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
