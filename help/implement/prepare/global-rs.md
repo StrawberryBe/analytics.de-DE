@@ -3,9 +3,9 @@ title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Befolgen Sie die folgenden allgemeinen Richtlinien, um die Implementierung einer
    >
    >Achten Sie darauf, dass jede benutzerdefinierte Variable domänenübergreifend gleich verwendet wird. Verwenden Sie nicht dieselbe eVar oder dasselbe Ereignis zu verschiedenen Zwecken auf Ihren Sites.
 1. Stellen Sie sicher, dass jede Domäne über eine Datenschicht verfügt, um die Datenerfassung zu vereinfachen. Daten können weiterhin ohne Datenschicht erfasst werden, doch die Zuverlässigkeit und Langlebigkeit Ihrer Implementierung nimmt dann ab, insbesondere wenn Ihre Site neu gestaltet wird.
-1. Verwenden Sie Tags in Adobe Experience Platform, um Analytics zu implementieren. Verschiedene Sites erfordern wahrscheinlich unterschiedliche Datenelemente. Verwenden Sie für jede Domäne spezifische Regeln, um sicherzustellen, dass jedes Datenelement korrekt ausgefüllt wird, und weisen Sie diese Datenelemente dann ihren jeweiligen eVars und Ereignissen zu. Siehe [Tags - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+1. Verwenden Sie Tags in Adobe Experience Platform, um Analytics zu implementieren. Verschiedene Sites erfordern wahrscheinlich unterschiedliche Datenelemente. Verwenden Sie für jede Domäne spezifische Regeln, um sicherzustellen, dass jedes Datenelement korrekt ausgefüllt wird, und weisen Sie diese Datenelemente dann ihren jeweiligen eVars und Ereignissen zu. Siehe [Tags – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
 1. Schließen Sie den [Adobe Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) ein und verwenden Sie die Funktion [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=de). Diese Funktion führt Besucherdaten zusammen, wenn Benutzer von einer Domäne auf eine andere klicken.
 
 ## Ändern einer bestehenden Implementierung mit einer globalen Report Suite
@@ -50,8 +50,8 @@ Der Prozess der Umstellung einer vorhandenen Implementierung über mehrere Sites
 
 1. Bestimmen Sie, ob Sie eine Ihrer vorhandenen Report Suites oder eine neue Report Suite verwenden möchten. Wenn Sie die Verwendungszwecke vorhandener Variablen in Ihrer Implementierung ändern möchten, wird empfohlen, mit einer neuen Report Suite zu beginnen.
 2. Legen Sie ein Umstellungsdatum fest, an dem Sie zu einer globalen Report Suite wechseln möchten. Der beste Zeitpunkt für eine Umstellung ist zwischen zwei wichtigen Reporting-Zeiträumen oder in Kombination mit größeren Änderungen an Ihrer Site. Beispiele sind der Beginn eines Geschäftsquartals oder -jahres, während einer Site-Aktualisierung oder beim Wechsel zu einem neuen Tag-Management-System.
-3. Gehen Sie wie oben beschrieben vor (erstellen Sie eine Report Suite, erfassen Sie Reporting-Anforderungen in einem Lösungsdesigndokument und richten Sie auf jeder Site eine Datenschicht ein). Validieren Sie Ihre Implementierung bei der Implementierung von Tags in Adobe Experience Platform mit einer Entwicklungsversion Ihrer Website.
-4. Sobald Sie bestätigt haben, dass Ihre Implementierung an der Entwicklung funktioniert, veröffentlichen Sie Ihre Tags-Implementierung am Umstellungsdatum.
+3. Gehen Sie wie oben beschrieben vor (erstellen Sie eine Report Suite, erfassen Sie Reporting-Anforderungen in einem Lösungsdesigndokument und richten Sie auf jeder Site eine Datenschicht ein). Wenn Sie Tags in Adobe Experience Platform implementieren, validieren Sie Ihre Implementierung mithilfe einer Entwicklungsversion Ihrer Website.
+4. Sobald Sie sich vergewissert haben, dass Ihre Implementierung in der Entwicklung funktioniert, veröffentlichen Sie Ihre Tags-Implementierung am Umstellungsdatum.
 
 ## Weiterführende Seiten
 
