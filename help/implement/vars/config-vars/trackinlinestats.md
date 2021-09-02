@@ -4,9 +4,9 @@ description: Aktivieren oder deaktivieren Sie Activity Map in Ihrer Implementier
 keywords: Activity Map deaktivieren
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Activity Map ist eine Funktion in Adobe Analytics, mit der Daten darüber erfass
 
 Wenn diese Option aktiviert ist, erfasst AppMeasurement Informationen zum Link und sendet diese Daten in der nächsten Bildanforderung. Informationen aus jedem Klick werden in einem Cookie mit der Bezeichnung `s_sq` gespeichert.
 
-## ClickMap mithilfe von Tags in Adobe Experience Platform aktivieren
+## Aktivieren von ClickMap mithilfe von Tags in Adobe Experience Platform
 
 [!UICONTROL ClickMap aktivieren] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -27,7 +27,7 @@ Wenn diese Option aktiviert ist, erfasst AppMeasurement Informationen zum Link u
 
 Aktivieren Sie das Kontrollkästchen, um Activity Map-Tracking zu aktivieren.
 
-## s.trackInlineStats in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.trackInlineStats in AppMeasurement und im benutzerdefinierten Code-Editor
 
 `s.trackInlineStats` ist ein boolescher Wert, der Activity Map-Tracking aktiviert oder deaktiviert. Der Standardwert lautet `false`. Setzen Sie diesen Wert auf `true`, wenn Sie die Activity Map-Datenerfassung aktivieren möchten.
 
