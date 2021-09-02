@@ -1,20 +1,20 @@
 ---
 title: Entwicklungsimplementierung validieren und in der Produktion veröffentlichen
-description: Erfahren Sie, wie Sie mit Adobe Experience Platform-Tags Adobe Analytics in Ihrer Produktionsumgebung bereitstellen.
+description: Hier erfahren Sie, wie Sie Tags in Adobe Experience Platform verwenden, um Adobe Analytics in Ihrer Produktionsumgebung bereitzustellen.
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Entwicklungsimplementierung validieren und in der Produktion veröffentlichen
 
-Sobald Ihre Tag-Bibliothek in die Produktion verschoben wurde, kann Ihr Unternehmen mit der Verwendung von Adobe Analytics beginnen, um grundlegende Berichte abzurufen.
+Sobald Ihre Tag-Bibliothek in die Produktion verschoben wurde, kann Ihr Unternehmen Adobe Analytics verwenden, um grundlegende Berichte abzurufen.
 
 >[!NOTE]
->Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
+>Adobe Experience Platform Launch wurde umbenannt und umfasst eine Suite von Datenerfassungstechnologien in Experience Platform. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen vorgenommen. Eine Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de).
 
 ## Voraussetzungen
 
@@ -25,9 +25,9 @@ Sobald Ihre Tag-Bibliothek in die Produktion verschoben wurde, kann Ihr Unterneh
 Der Experience Cloud-Debugger ist ein Chrome-Plug-in, das alle auf einer Seite vorhandenen Experience Cloud-Tags anzeigt.
 
 1. Öffnen Sie den [Chrome-Webbrowser](https://www.google.com/intl/de/chrome/) und gehen Sie zu [Adobe Experience Cloud-Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) im Chrome Web Store, um die Erweiterung zu installieren.
-2. Navigieren Sie zu Ihrer Entwicklungswebsite, auf der Sie Tags implementiert haben.
+2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Tags implementiert haben.
 3. Klicken Sie oben rechts in Chrome auf das Symbol für den Adobe Experience Cloud-Debugger.
-4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und dem Adobe Experience Cloud-Besucher-ID-Dienst angezeigt werden:
+4. Wenn alles ordnungsgemäß implementiert ist, sollten Sie Inhalte in Adobe Analytics, Tags und den Besucher-ID-Service von Adobe Experience Cloud sehen:
 
 ![Debugger][assets/debugger.png]
 
@@ -37,20 +37,20 @@ Nachdem Sie überprüft haben, dass Daten angezeigt werden, können Sie Ihre Imp
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Publishing]** und suchen Sie Ihre Bibliothek in der Spalte &quot;Entwicklung&quot;.
-1. Klicken Sie in der Bibliothek auf das Dropdown-Menü und wählen Sie **[!UICONTROL Zur Genehmigung übermitteln]** aus. Klicken Sie im modalen Fenster auf **[!UICONTROL Submit]** .
-1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek (jetzt in der Spalte &quot;Gesendet&quot;) und wählen Sie **[!UICONTROL Build für Staging]** aus.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Publishing]** und suchen Sie die Bibliothek in der Spalte „Entwicklung“.
+1. Klicken Sie in der Bibliothek auf das Dropdown-Menü und wählen Sie **[!UICONTROL Zur Genehmigung übermitteln]**. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.
+1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek (jetzt in der Spalte „Gesendet“) und wählen Sie **[!UICONTROL Für Staging erstellen]**.
 1. Nach einigen Augenblicken wird das gelbe Licht der Bibliothek grün, was auf eine erfolgreiche Erstellung hinweist.
-1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek und wählen Sie **[!UICONTROL Zur Veröffentlichung genehmigen]** aus.
-1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt] ) und wählen Sie **[!UICONTROL Erstellen und in Produktion veröffentlichen]** aus.
-1. Klicken Sie auf der Registerkarte Umgebungen auf **[!UICONTROL Produktionsumgebung]**.
+1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek und wählen Sie **[!UICONTROL Für Publishing genehmigen]**.
+1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt]) und wählen Sie **[!UICONTROL Erstellen und in Produktion veröffentlichen]**.
+1. Klicken Sie auf der Registerkarte „Umgebungen“ auf **[!UICONTROL Produktionsumgebung]**.
 1. Kopieren Sie den Produktions-Kopf- und -Fußzeilencode und stellen Sie ihn Ihren Website-Inhabern zur Verfügung. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
 
 ## Überprüfen der Produktionsimplementierung
 
 Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beginnen Sie mit der offiziellen Datenerfassung für Adobe Analytics.
 
-1. Nachdem Sie von Ihren Website-Eigentümern bestätigt haben, dass sie den Tag-Code in die Produktion gepusht haben, navigieren Sie zur Homepage Ihrer Website in Chrome und öffnen Sie den [!UICONTROL Adobe Experience Cloud-Debugger].
+1. Nachdem Sie sich von Ihren Website-Verantwortlichen bestätigen haben lassen, dass diese den Tag-Code in die Produktion verschoben haben, navigieren Sie in Chrome zur Homepage Ihrer Website und öffnen Sie den [!UICONTROL Adobe Experience Cloud-Debugger].
 2. Wenn alles funktioniert, sollten Sie ähnliche Daten wie Ihre Tests in Ihrer Entwicklungsumgebung sehen. Zu diesem Zeitpunkt erfassen Sie jetzt Daten auf Ihrer Site und können nun Adobe Analytics für die Berichterstellung verwenden.
 
 ## Fehlerbehebung
