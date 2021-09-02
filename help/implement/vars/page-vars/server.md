@@ -3,9 +3,9 @@ title: server
 description: Füllen Sie die Dimension „Server“.
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können „server“ entweder beim Konfigurieren der Analytics-Erweiterung (
 
 Sie können „server“ auf einen beliebigen Zeichenfolgenwert oder ein beliebiges Datenelement einstellen.
 
-## s.server in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.server in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.server`-Variable ist eine Zeichenfolge, die normalerweise den Hostnamen Ihrer Website enthält. Sie hat einen Maximalwert von 100 Byte. Längere Werte werden abgeschnitten.
 
