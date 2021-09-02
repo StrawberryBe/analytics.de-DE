@@ -1,11 +1,11 @@
 ---
 title: Legacy Adobe Experience Cloud-Debugger
-description: Installieren Sie den Legacy Adobe Experience Cloud-Debugger. Dieser Debugger prüft Tags auf Analytics-, Target-, Advertising Cloud-, Identity-Dienst- und Datenerfassungs-Tags.
+description: Installieren Sie den Legacy Adobe Experience Cloud-Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising Cloud, Identity Service und die Datenerfassung.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Jeder Browser hat verschiedene Möglichkeiten, Lesezeichen zu bearbeiten, aber d
 
 #### Chrome
 
-Wenn Sie darauf bestehen, die [Chrome-Erweiterung](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) nicht zu verwenden, kann stattdessen das Legacy-Debugger-Lesezeichen verwendet werden.
+Wenn Sie darauf bestehen, die [Chrome-Erweiterung](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) nicht zu verwenden, kann stattdessen das Legacy-Debugger-Lesezeichen verwendet werden.
 
 1. Klicken Sie auf die drei Punkte oben rechts und gehen Sie dann zu „Lesezeichen“ > „Lesezeichen-Manager“. Sie können auch die Tastenkombination `Ctrl` + `Shift` + `O` (Windows) oder `Cmd` + `Shift` + `O` (Mac) drücken.
 2. Klicken Sie oben rechts im Lesezeichen-Manager auf die drei Punkte und dann auf „Neues Lesezeichen hinzufügen“.
