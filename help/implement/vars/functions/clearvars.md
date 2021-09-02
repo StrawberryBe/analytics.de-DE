@@ -3,9 +3,9 @@ title: clearVars
 description: Löscht die folgenden Werte aus dem Instanzobjekt. Diese Funktion entfernt die Elemente (legt sie als „undefiniert“ fest).
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Diese Methode akzeptiert keine Argumente und gibt keinen Wert zurück. Der einzi
 * `zip`
 * `campaign`
 
-## Variablen mithilfe von Tags in Adobe Experience Platform löschen
+## Löschen von Variablen mithilfe von Tags in Adobe Experience Platform
 
 Legen Sie beim Konfigurieren einer Regel die Aktion „Variablen löschen“ fest.
 
@@ -38,7 +38,7 @@ Legen Sie beim Konfigurieren einer Regel die Aktion „Variablen löschen“ fes
 4. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen löschen].
 
-## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Sie können die `s.clearVars()`-Methode an einer beliebigen Stelle in Ihrer Implementierung aufrufen, nachdem Sie die Analytics-Objektinstanz instanziiert haben.
 
