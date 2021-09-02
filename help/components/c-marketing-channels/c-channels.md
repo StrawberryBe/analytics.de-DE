@@ -5,9 +5,9 @@ title: Marketing-Kanäle verwalten
 feature: Grundlagen zu Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Beachten Sie bei der Erstellung von Kanälen die folgenden Richtlinien:
 
    Siehe [Berechtigungen für Marketing-Kanäle](/help/components/c-marketing-channels/c-channel-report-access.md).
 
-## Hinzufügen von Marketingkanälen {#add-mktg-channels}
+## Hinzufügen von Marketing-Kanälen {#add-mktg-channels}
 
-Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
+Fügen Sie im Marketing-Kanal-Manager Marketing-Kanäle hinzu.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 
    Wenn Sie mehrere Report Suites auswählen, wählen Sie eine Vorlage aus, die die Einstellungen aus der Vorlage in die jeweiligen Report Suites kopiert.
 
-   Siehe [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Siehe  [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Manager]**.
 
@@ -85,10 +85,10 @@ Es empfiehlt sich, die Option zum Außerkraftsetzen des Letztkontakts für die K
 
 Bevor Kanäle und ihre Daten im Bericht angezeigt werden, müssen Sie die Kanäle und die zur Datenverarbeitung erforderlichen Regeln einrichten. Sie können auch angeben, wie lange der [Besucherinteraktionszeitraum](/help/components/c-marketing-channels/visitor-engagement.md) dauern soll.
 
-Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) mehrere vordefinierte Kanäle zur Verfügung, die Sie nach Ihren Bedürfnissen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerdefinierte Regeln innerhalb von [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md) definieren.
+Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) mehrere vordefinierte Kanäle zur Verfügung, die Sie nach Ihren Bedürfnissen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerdefinierte Regeln innerhalb der [Marketing-Kanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md) definieren.
 
 >[!NOTE]
 >
 >Adobe empfiehlt, dass Sie Ihren Bericht in einer Report Suite einrichten, die Sie zu Testzwecken als Vorlage verwenden können. Verwenden Sie die Vorlage, um Kanal- und Regelsätze global auf eine oder mehrere Produktions-Report Suites anzuwenden.
 >
->Siehe [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>Siehe  [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
