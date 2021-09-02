@@ -3,9 +3,9 @@ title: eVar
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind
 
 Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie jede eVar in den Report Suite-Einstellungen konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
-## eVars mit Tags in Adobe Experience Platform
+## eVars bei Verwendung von Tags in Adobe Experience Platform
 
 Sie können eVars entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -34,7 +34,7 @@ Sie können eVars entweder beim Konfigurieren der Analytics-Erweiterung (globale
 
 Sie können eine eVar auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
 
-## s.eVar1 – s.eVar250 in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.eVar1 – s.eVar250 in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Jede eVar ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Die maximale Länge beträgt 255 Byte. Werte, die länger als 255 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 
