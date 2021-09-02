@@ -3,9 +3,9 @@ description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht m
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 Seit mehr als einem Jahrzehnt ist Adobe Analytics bestrebt, die marktführende Web- und Marketing-Analyselösung zur Erfüllung der Kundenanforderungen bereitzustellen. Im Zuge der Entwicklung von Technologie- und Geschäftsanforderungen streben wir danach, stets die höchsten Standards zu erfüllen.  Leider entsprechen die APIs, die diese Integration unterstützen, nicht mehr diesen Standards und sind in der modernen Adobe Analytics-Technologieinfrastruktur nicht mehr haltbar.
 
-**Ab dem 19. August 2021** wird Adobe die Data Connectors-Integrationen einstellen. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und Adobe zielt darauf ab, den Übergang für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
+**Mit dem 19. August 2021** wird Adobe Data-Connector-Integrationen einstellen. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und Adobe zielt darauf ab, den Übergang für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
 
 ## Warum schaffen wir diese Funktion ab?
 
@@ -31,14 +31,14 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 
 ## Data Connector-Partnerstatus
 
-*Neueste Aktualisierung: 2. August 2021 (Hootsuite)*
+*Letzte Aktualisierung: 2. August 2021 (Hootsuite)*
 
 | Partner | Status |
 | --- | --- |
 | Acxiom | Veraltet |
 | Adform | Veraltet |
 | Anpassen | Migration zu Adobe Exchange |
-| Adobe Campaign | Migration zu Adobe Exchange   (siehe Hinweis unten) |
+| Adobe Campaign | Migration zu Adobe Exchange    (siehe Hinweis unten) |
 | Appfigures | Migration zu Adobe Exchange |
 | Appsee | Veraltet |
 | AppsFlyer | Migration zu Adobe Exchange |
