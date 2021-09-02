@@ -3,9 +3,9 @@ title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannt
 
 ## Kontextdatenvariablen mit Tags in Adobe Experience Platform
 
-Die Datenerfassungs-Benutzeroberfläche verfügt über keinen speziellen Speicherort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Die Datenerfassungs-Benutzeroberfläche verfügt über keinen speziellen Ort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.contextData`-Variable nimmt keinen Wert direkt an. Setzen Sie stattdessen die Eigenschaften dieser Variable auf eine Zeichenfolge.
 
