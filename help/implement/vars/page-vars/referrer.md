@@ -3,9 +3,9 @@ title: referrer
 description: Überschreiben Sie den automatisch erfassten Referrer für einen Treffer.
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 Die `referrer`-Variable überschreibt den automatisch erfassten Referrer in Berichten. Diese Variable ist hilfreich in Situationen, in denen der Referrer verloren gehen könnte, z. B. bei Redirects oder vorübergehender Weiterleitung des Besuchers an einen Zahlungsverarbeiter. Diese Variable hilft beim Ausfüllen der Dimensionen „Referrer“ und „Referrer-Domäne“.
 
-## Referrer mit Tags in Adobe Experience Platform
+## Referrer bei Verwendung von Tags in Adobe Experience Platform
 
 Sie können „referrer“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -26,7 +26,7 @@ Sie können „referrer“ entweder beim Konfigurieren der Analytics-Erweiterung
 
 Sie können den Referrer auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
 
-## s.referrer in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.referrer in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Die `s.referrer`-Variable ist eine Zeichenfolge, die die URL der vorherigen Seite enthält. Diese Variable kann maximal 255 Byte speichern. Werte, die länger als 255 Byte sind, werden abgeschnitten. AppMeasurement setzt diese Variable automatisch auf `document.referrer`. Sie müssen diese Variable nur dann festlegen, wenn Sie den automatisch erfassten Wert überschreiben möchten.
 
