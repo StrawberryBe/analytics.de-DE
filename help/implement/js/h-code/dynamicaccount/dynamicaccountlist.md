@@ -3,9 +3,9 @@ title: dynamicAccountList
 description: Legen Sie eine Logik fest, wie Ihre Implementierung die Report Suite bestimmt.
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
