@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Multi-Suite-Tagging implementieren, um Bildan
 title: Implementieren von Multi-Suite-Tagging
 exl-id: null
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Mit [Multi-Suite-Tagging](/help/admin/c-manage-report-suites/rollup-report-suite
 
 Um Multi-Suite-Tagging zu implementieren, müssen Sie die Report Suite-ID (RSID) für die globale Report Suite sowie die RSIDs für die entsprechenden untergeordneten Report Suites in den Trackingcode für Ihre Webseiten und Apps aufnehmen.
 
-* Geben Sie bei Implementierungen von Adobe Experience Platform-Tags die einzelnen Report Suites für die [[!DNL Analytics] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) an.
+* Geben Sie bei Tags-Implementierungen in Adobe Experience Platform für die [[!DNL Analytics] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de) jede der Report Suites an.
 
 * Trennen Sie bei älteren JavaScript- und mobilen SDK-Implementierungen die RSIDs durch Kommas und keine Leerzeichen (`rsid1,rsid2,rsid3` usw.).
 
