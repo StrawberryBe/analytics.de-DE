@@ -3,9 +3,9 @@ title: Browser-Höhe – zusammengefasst
 description: Die Höhe des Browser-Fensters in Pixel.
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Die Browser-Höhe ist immer kleiner oder gleich der Bildschirmhöhe, da die Brow
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ruft Daten aus der [`bh` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `window.innerHeight` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über -Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `bh` beim ersten Treffer jedes Besuchs einbeziehen.
+Diese Dimension ruft Daten aus der [`bh` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `window.innerHeight` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `bh` beim ersten Treffer jedes Besuchs einbeziehen.
 
 Adobe behält die Browser-Höhe für einen Besuch bei. Wenn die Browser-Höhe während des Besuchs angepasst wird, wird die Anpassung nicht aufgezeichnet.
 
