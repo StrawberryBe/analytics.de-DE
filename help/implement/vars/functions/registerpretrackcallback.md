@@ -3,9 +3,9 @@ title: registerPreTrackCallback
 description: Erstellen Sie Callback-Funktionen, bevor Sie einen Treffer an Adobe senden.
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Jedes Mal, wenn Sie die `registerPreTrackCallback`-Variable aufrufen, binden Sie
 >
 >Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen `registerPreTrackCallback` und `registerPostTrackCallback` ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
 
-## Registrieren von Callback vor Tracking mit Tags in Adobe Experience Platform
+## Registrieren von Callback vor Tracking mithilfe von Tags in Adobe Experience Platform
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein dediziertes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.registerPreTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.registerPreTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor
 
-Die Funktion `s.registerPreTrackCallback` ist eine Funktion, die als einziges Argument eine Funktion akzeptiert. Die verschachtelte Funktion wird direkt vor dem Senden einer Bildanforderung ausgeführt.
+Die Funktion `s.registerPreTrackCallback` akzeptiert als einziges Argument eine Funktion. Die verschachtelte Funktion wird direkt vor dem Senden einer Bildanforderung ausgeführt.
 
 ```js
 s.registerPreTrackCallback(function(){/* Desired code */});
