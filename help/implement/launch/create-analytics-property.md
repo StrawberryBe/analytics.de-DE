@@ -1,20 +1,20 @@
 ---
 title: Erstellen einer Analytics-Eigenschaft in Tags
-description: Erstellen Sie mithilfe von Tags einen Bereich, um die Datenerfassung anzupassen.
+description: Erstellen Sie mithilfe von Tags einen Bereich, um die Art der Datenerfassung anzupassen.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Erstellen einer Adobe Analytics-Tag-Eigenschaft
+# Erstellen einer Tag-Eigenschaft in Adobe Analytics
 
-Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf Ihrer Website integrieren (einschließlich Analytics). Auf dieser Seite wird speziell beschrieben, wie ein Tag-Administrator eine grundlegende Adobe Analytics-Implementierung richtig konfigurieren kann.
+Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf Ihrer Website integrieren (einschließlich Analytics). Auf dieser Seite wird erläutert, wie ein Tag-Administrator eine grundlegende Adobe Analytics-Implementierung ordnungsgemäß konfigurieren kann.
 
 >[!NOTE]
->Adobe Experience Platform Launch wurde in Experience Platform als eine Suite von Datenerfassungstechnologien umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en).
+>Adobe Experience Platform Launch wurde umbenannt und umfasst eine Suite von Datenerfassungstechnologien in Experience Platform. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen vorgenommen. Eine Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de).
 
 ## Voraussetzungen
 
@@ -83,9 +83,9 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 
 ## Dokumentation und zusätzliche Ressourcen
 
-* [Dokumentation zur Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Tags.
-* [Erste Schritte mit Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Vollständige Dokumentation für Tags, einschließlich einer ausführlicheren Anleitung für die ersten Schritte
-* [Adobe Experience Platform Launch-Kanal](https://experienceleague.adobe.com/?tag=Launch&amp;lang=de#recommended/solutions/experience-platform): Videos zur Verwendung von Tags
+* [Dokumentation zu Adobe Analytics-Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de): Vollständige Dokumentation zur Adobe Analytics-Erweiterung in Tags.
+* [ Erste Schritte mit Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=de): Vollständige Dokumentation für Tags, einschließlich einer ausführlicheren Anleitung für die ersten Schritte.
+* [Adobe Experience Platform Launch-Kanal](https://experienceleague.adobe.com/?tag=Launch&amp;lang=de#recommended/solutions/experience-platform): Lernen Sie anhand von Videos, wie Tags verwendet werden.
 
 ## Nächste Schritte
 
