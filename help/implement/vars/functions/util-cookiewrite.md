@@ -3,9 +3,9 @@ title: Util.cookieWrite
 description: Schreibt einen Wert für ein Cookie.
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ Cookies können Informationen über Seiten in derselben Domäne hinweg speichern
 
 ## Setzen von Cookies mithilfe von Tags in Adobe Experience Platform
 
-Die Datenerfassungs-Benutzeroberfläche bietet nicht die Möglichkeit, Cookies in der Benutzeroberfläche festzulegen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Die Datenerfassungs-Benutzeroberfläche bietet keine Möglichkeit, Cookies in der Benutzeroberfläche festzulegen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.Util.cookieWrite() in AppMeasurement und im benutzerdefinierten Code-Editor in 
+## s.Util.cookieWrite() in AppMeasurement und im benutzerdefinierten Code-Editor
 
 Rufen Sie die `s.Util.cookieWrite()`-Methode auf, um ein Cookie auf einen gewünschten Wert festzulegen.
 
