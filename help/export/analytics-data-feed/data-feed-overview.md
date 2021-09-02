@@ -5,7 +5,7 @@ title: Analytics-Daten-Feed-Dokumentation
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Daten-Feeds sind eine leistungsstarke Methode, Rohdaten aus Adobe Analytics abzu
 Bevor Sie Daten-Feeds verwenden, müssen Sie alle folgenden Anforderungen erfüllen.
 
 * Sie haben eine FTP-Site und Anmeldeinformationen zur Hand. Daten-Feeds können nur an ein Serverziel gesendet werden. Ihr Unternehmen stellt in der Regel FTP-Anmeldeinformationen bereit. Adobe kann auf Anfrage einen FTP-Speicherort mit einer bescheidenen Menge Speicher bereitstellen. Wenden Sie sich an die Kundenunterstützung, um ein FTP-Ziel für Daten-Feeds anzufordern.
-* Eine funktionierende Implementierung, die Daten an Adobe-Datenerfassungsserver sendet. Siehe [Überprüfen und Veröffentlichen einer Implementierung ](/help/implement/launch/validate-publish-prod.md) im Benutzerhandbuch zur Implementierung.
+* Eine funktionierende Implementierung, die Daten an Adobe-Datenerfassungsserver sendet. Siehe [Überprüfen und Veröffentlichen einer Implementierung](/help/implement/launch/validate-publish-prod.md) im Benutzerhandbuch zur Implementierung.
 * Ihr Konto ist ein Analytics-Produktadministrator, oder Ihr Konto gehört zu einem Produktprofil mit Zugriff auf Daten-Feeds.
 
 ## Erste Schritte
