@@ -2,17 +2,16 @@
 title: Warenkorb
 description: Die Anzahl der Treffer, bei denen ein Besucher sein erstes Produkt einem Warenkorb hinzugefügt hat.
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 86%
 
 ---
 
 # Warenkorb
 
-Die Metrik „Entnahme aus Warenkorb“ zeigt an, wie oft ein Besucher etwas aus dem Warenkorb entfernt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden kein Interesse mehr an einem Produkt haben.
+Die Metrik &quot;Warenkorb&quot;gibt die Anzahl der Treffer an, bei denen ein Besucher sein erstes Produkt zu einem Warenkorb hinzugefügt hat.
 
 ## Berechnung dieser Metrik
 
