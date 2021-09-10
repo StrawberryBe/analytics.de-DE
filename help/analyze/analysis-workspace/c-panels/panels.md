@@ -1,13 +1,13 @@
 ---
 description: Ein Bedienfeld ist eine Sammlung von Tabellen und Visualisierungen
 title: Übersicht über Bedienfelder
-feature: Bedienfelder
+feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -59,9 +59,9 @@ Ziehen Sie ein beliebiges Segment aus der linken Leiste in den Ablagebereich des
 
 ### Ad-hoc-Segmentfilter
 
-Komponenten, die keine Segmente sind, können auch direkt in den Ablagebereich gezogen werden, um Ad-hoc-Segmente zu erstellen, wodurch Sie sich das Aufrufen von Segment Builder ersparen. Auf diese Weise erstellte Segmente werden automatisch als Segmente auf Trefferebene definiert. Diese Definition kann geändert werden, indem Sie auf das Informationssymbol (i) neben dem Segment und dann auf das stiftförmige Bearbeitungssymbol klicken und sie in Segment Builder bearbeiten.
+Komponenten, die keine Segmente sind, können auch direkt in die Dropzone gezogen werden, um Ad-hoc-Segmente zu erstellen. So sparen Sie Zeit und Mühe beim Aufrufen von Segment Builder. Auf diese Weise erstellte Segmente werden automatisch als Segmente auf Trefferebene definiert. Diese Definition kann geändert werden, indem Sie auf das Informationssymbol (i) neben dem Segment und dann auf das stiftförmige Bearbeitungssymbol klicken und sie in Segment Builder bearbeiten.
 
-Ad-hoc-Segmente sind projektgebunden und werden in Ihrer linken Leiste nicht angezeigt, es sei denn Sie machen sie öffentlich.
+Ad-hoc-Segmente sind lokal im Projekt und werden nicht in der linken Leiste angezeigt, es sei denn, Sie machen sie öffentlich.
 
 ![](assets/adhoc-segment-filter.png)
 
