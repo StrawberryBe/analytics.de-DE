@@ -2,11 +2,11 @@
 description: Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
 keywords: Analysis Workspace
 title: Workspace-Projekt erstellen
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 # Workspace-Projekt erstellen
 
 Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Workspace erläutert und Sie erfahren, wie ein Projekt erstellt wird.
 
