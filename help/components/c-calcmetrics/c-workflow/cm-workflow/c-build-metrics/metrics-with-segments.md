@@ -3,11 +3,10 @@ description: 'Durch die Segmentierung einzelner Metriken können Sie Metriken in
 title: Segmentierte Metriken
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +41,10 @@ Beispiel: Sie möchten unterschiedliche Aspekte des Segments „Deutsche Besuche
 1. Ziehen Sie in Analysis Workspace die Dimension **[!UICONTROL Seite]** in eine Freiform-Tabelle und dann die zwei neuen berechneten Metriken nebeneinander oben in die Tabelle:
 
    ![](assets/workspace-pages.png)
+
+Im Folgenden finden Sie eine Videoübersicht:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 ## Prozent der Gesamtmetriken {#percent-total}
 
