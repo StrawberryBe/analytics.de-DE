@@ -2,13 +2,13 @@
 description: Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Aspekte berücksichtigen.
 keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,10 @@ Definieren Sie auf der Registerkarte [!UICONTROL Einstellungen] diese Einstellun
 Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einstellungen und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
 ![](assets/visit-definition.png)
+
+Im Folgenden finden Sie ein Video zum Anpassen einer Besuchsdefinition in einer Virtual Report Suite:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | Element | Beschreibung |
 | --- |--- |
