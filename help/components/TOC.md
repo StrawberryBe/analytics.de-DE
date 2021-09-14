@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 0%
    + [Benutzerspezifische Ereignisse](metrics/custom-events.md)
    + [Einstiege](metrics/entries.md)
    + [Ausstiege](metrics/exits.md)
+   + [Identifizierte Personen](metrics/identified-people.md)
    + [Instanzen](metrics/instances.md)
    + [Mobilansichten](metrics/mobile-views.md)
    + [Neue Interaktionen](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 0%
    + [Seitenereignisse](metrics/page-events.md)
    + [Seitenansichten](metrics/page-views.md)
    + [Seiten nicht gefunden](metrics/pages-not-found.md)
+   + [Personen mit Experience Cloud-ID](metrics/people-with-exp-cloud-id.md)
    + [Personen](metrics/people.md)
    + [Produktansichten](metrics/product-views.md)
    + [Neuladungen](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 0%
    + [Besuchszeit pro Besucher](metrics/time-spent-per-visitor.md)
    + [Besuchszeit – Übersicht](metrics/time-spent.md)
    + [Gesamtbesuchszeit in Sekunden](metrics/total-seconds-spent.md)
+   + [Nicht identifizierte Personen](metrics/unidentified-people.md)
    + [Eindeutige Geräte](metrics/unique-devices.md)
    + [Unique Visitors](metrics/unique-visitors.md)
    + [Einheiten](metrics/units.md)
