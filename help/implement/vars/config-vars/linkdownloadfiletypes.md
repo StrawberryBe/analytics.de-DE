@@ -2,10 +2,10 @@
 title: linkDownloadFileTypes
 description: Legen Sie Dateierweiterungen fest, die automatisch als Downloadlinks verfolgt werden.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +19,13 @@ Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen 
 >
 >Nur tatsächliche Klicks werden automatisch verfolgt. Die folgenden Link-Typen werden nicht automatisch verfolgt:
 >
-> * Datei-Downloads, die beim Laden einer Seite automatisch eingeleitet werden
-> * Downloads, die nach einer Umleitung ausgelöst werden
-> * Mit der rechten Maustaste klicken und „Ziel speichern unter...“ auswählen
-> * Links, die JavaScript verwenden, wie z. B. `javascript:openLink()`
+>* Datei-Downloads, die beim Laden einer Seite automatisch eingeleitet werden
+>* Downloads, die nach einer Umleitung ausgelöst werden
+>* Mit der rechten Maustaste klicken und „Ziel speichern unter...“ auswählen
+>* Links, die JavaScript verwenden, wie z. B. `javascript:openLink()`
+
 >
-> Bei diesen Download-Typen können Sie die [`tl()`](../functions/tl-method.md)-Methode manuell aufrufen.
+>Bei diesen Download-Typen können Sie die [`tl()`](../functions/tl-method.md)-Methode manuell aufrufen.
 
 Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downloadlinks entspricht, hat der Downloadlink-Typ Priorität.
 
