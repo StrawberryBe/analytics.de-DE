@@ -23,7 +23,7 @@ Sie können auch die [Ansichtsdichteeinstellungen](https://experienceleague.adob
 
 ## Dimensionen {#dimensions}
 
-[**Dimensionen**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview. html?lang=de) sind Textattribute, die das Verhalten Ihrer Besucher beschreiben und in Ihrer Analyse angezeigt, aufgeschlüsselt und verglichen werden können. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (orangefarbener Abschnitt) und werden in der Regel als Tabellenzeilen angewendet.
+[**Dimensionen**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=de) sind Textattribute, die das Verhalten Ihrer Besucher beschreiben und in Ihrer Analyse angezeigt, aufgeschlüsselt und verglichen werden können. Sie befinden sich in der Leiste „Komponente“ auf der linken Seite (orangefarbener Abschnitt) und werden in der Regel als Tabellenzeilen angewendet.
 
 Beispiele für Dimensionen sind [!UICONTROL Seitenname], [!UICONTROL Marketing-Kanäle], [!UICONTROL Geräteklasse] und [!UICONTROL Produkte]. Dimensionen werden von Adobe bereitgestellt und über Ihre benutzerdefinierte Implementierung erfasst (beispielsweise eVar, Props, Klassifizierungen).
 

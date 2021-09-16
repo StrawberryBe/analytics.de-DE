@@ -24,7 +24,7 @@ Außerdem haben wir die maximale Anzahl an publizierbaren Adobe Analytics-Segmen
 
 ## Voraussetzungen
 
-* Stellen Sie sicher, dass die Report Suite, in der Sie dieses Segment speichern, [für die Experience Cloud aktiviert](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish- audience-segment.html?lang=de) ist. Andernfalls können Sie sie nicht in der Experience Cloud veröffentlichen.
+* Stellen Sie sicher, dass die Report Suite, in der Sie dieses Segment speichern, [für die Experience Cloud aktiviert](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=de) ist. Andernfalls können Sie sie nicht in der Experience Cloud veröffentlichen.
 * Stellen Sie sicher, dass Ihre Organisation Experience Cloud IDs verwendet.
 * Bevor Sie Segmente veröffentlichen können, muss Ihr Administrator einem Produktprofil die Berechtigung für die [!UICONTROL Segmentveröffentlichung] in der [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) zuweisen und Sie zum Produktprofil hinzufügen.
 
