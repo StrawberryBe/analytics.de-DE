@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 95%
+source-wordcount: '808'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,8 @@ ht-degree: 95%
 
 Die geräteübergreifende Analyse ist eine Funktion, mit der Analytics von einer geräteorientierten Ansicht zu einer personenorientierten Ansicht wechselt. Analysten können so das Benutzerverhalten über Browser, Geräte oder Apps hinweg nachvollziehen. Adobe unterstützt zwei übergreifende Workflows zum Verknüpfen von Gerätedaten:
 
-* [**Feldbasiertes Stitching**](field-based-stitching.md): Ermöglicht die Auswahl einer Analytics-Variablen als Grundlage für geräteübergreifendes Zuordnen in einer Virtual Report Suite. Verwendet deterministische Abgleiche, um Geräte miteinander zu verknüpfen. Adobe empfiehlt die Verwendung von feldbasiertem Stitching für die meisten Anwendungsfälle des deterministischen Abgleichs.
+* [**Feldbasiertes Stitching**](field-based-stitching.md): Die Stitching-Option wird empfohlen, da nur deterministische Abgleiche verwendet werden, um Geräte miteinander zu verknüpfen.
+Ermöglicht die Auswahl einer Analytics-Variablen als Grundlage für geräteübergreifendes Zuordnen in einer Virtual Report Suite.
 * [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem Gerätediagramm, um Geräte einander zuzuordnen. Das Co-op-Diagramm nutzt sowohl deterministische als auch probabilistische Abgleiche.
 
 >[!NOTE]
@@ -56,3 +57,5 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse ist derzeit nicht mit der [Datenreparatur-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) von Adobe Analytics kompatibel.
 * Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
 * Zugeordnete Daten haben eine Latenz von 8 bis 12 Stunden.
+* Die Zuordnung von Verlaufsdaten für ein bestimmtes Gerät wird für bis zu 1 Jahr gespeichert.
+* Wenn ein Gerät innerhalb eines Jahres eine sehr hohe Anzahl von Zuordnungsverlaufseinträgen erreicht, wird der Zuordnungsverlauf abgeschnitten. Die genaue Grenze hängt von der verwendeten Stitching-Option ab.
