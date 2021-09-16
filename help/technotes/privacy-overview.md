@@ -4,10 +4,10 @@ keywords: Datenschutz
 title: Datenschutzübersicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=de#General_Account_Settings"  > https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=de#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen finden Sie unter </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Allgemeine Kontoeinstellungen </a> im Admin-Benutzerhandbuch.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 

@@ -2,12 +2,12 @@
 description: Schritte zum Ausführen der verschiedenen Berichtstypen.
 title: Verschiedene Berichtstypen ausführen
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ Beschreibt, wie Sie Echtzeitberichte anzeigen und interpretieren.
 
 Bei der Echtzeitberichterstattung stehen zwei Hauptberichte zur Verfügung: ein Übersichtsbericht und ein Detailbericht. Sie bestehen jeweils aus mehreren Reportlets.
 
-Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-Referenzhandbuch](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
+Weitere Informationen finden Sie unter [Übersicht über die Echtzeitberichterstellung](/help/components/c-real-time-reporting/realtime.md) .
 
 1. Sehen Sie sich den **[!UICONTROL Übersichtsbericht]** und dessen Komponenten an:  ![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-R
    </tr> 
    </table>
 
-1. Klicken Sie auf einen Einzelposten im primären Reportlet, um die **[!UICONTROL Detailansicht]** für diesen Einzelposten anzuzeigen:  ![](assets/rtr_detail_report.png)
+2. Klicken Sie auf einen Einzelposten im primären Reportlet, um die **[!UICONTROL Detailansicht]** für diesen Einzelposten anzuzeigen:  ![](assets/rtr_detail_report.png)
 
    | **Elementtrend-Reportlet** | Stellt die Trendlinie des Elements, das im Übersichtsbericht ausgewählt wurde, für die letzten N Minuten dar. N kann über die Zeitraumauswahl konfiguriert werden. |
    |---|---|
