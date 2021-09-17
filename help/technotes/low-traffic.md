@@ -1,13 +1,13 @@
 ---
 description: Wenn ein Bericht eine große Anzahl eindeutiger Werte aufweist, kann mit Adobe nun sichergestellt werden, dass die wichtigsten Werte in Ihrem Bericht auftauchen.
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
-feature: Metriken
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sicher
    * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Zeileneintrag [!UICONTROL Geringer Traffic] angezeigt. Wenn ein Wert, der im Zeileneintrag [!UICONTROL Geringer Traffic] enthalten ist, innerhalb kurzer Zeit sehr häufig angezeigt wird, wird er als eigener Zeileneintrag erkannt. Wie häufig ein Element hierfür angezeigt werden muss, hängt von vielen Faktoren ab, z. B. der Anzahl der Verarbeitungs-Server und Daemons, die Daten für diese Report Suite verarbeiten.
 
 Warum verschiebt Adobe ein Element aus dem Zeileneintrag [!UICONTROL Geringer Traffic] in einen eigenen Zeileneintrag? Dies geschieht, wenn eine beliebte neue Seite oder ein neues Element erkannt wird, die bzw. das später im Monat hinzugefügt wurde (nachdem eindeutige Werte überschritten wurden) und viele Treffer/Aufrufe erhält. Die Verschiebung soll nicht alle Elemente erfassen, die eine bestimmte Anzahl von Treffern/Aufrufen pro Tag oder Monat erhalten.
+
+>[!NOTE]
+>Die Anzahl der Seitensuchvorgänge umfasst nicht nur Werte für [!UICONTROL pagename]/[!UICONTROL page_url]. Die Suchtabelle der Seite enthält mehrere Spalten/Felder wie [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] und den Klickkontext (die alte ClickMap -Daten).
 
 ## Ändern der Schwellenwerte für eindeutige Werte
 
