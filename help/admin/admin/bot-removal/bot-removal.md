@@ -2,10 +2,10 @@
 title: Entfernen von Bots in Adobe Analytics
 description: Entfernen von Bots in Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: ht
-source-wordcount: '796'
-ht-degree: 100%
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 98%
 
 ---
 
@@ -49,11 +49,11 @@ Hier erfahren Sie, wie Sie diese ID über das Datenelement erfassen können. Ach
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Nachdem dieses Datenelement eingerichtet wurde, befolgen Sie [diese Anweisungen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de), um mithilfe von Tags in Adobe Experience Platform deklarierte IDs in das ECID-Tool zu übertragen.
+Nachdem dieses Datenelement eingerichtet wurde, befolgen Sie [diese Anweisungen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en), um mithilfe von Tags in Adobe Experience Platform deklarierte IDs in das ECID-Tool zu übertragen.
 
 ### Schritt 2: Segmentierung verwenden, um Bots zu identifizieren
 
-Nachdem die ECID Ihres Besuchers in eine deklarierte ID übertragen wurde, können Sie die [Segmentierung in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=de) verwenden, um Besucher zu identifizieren, die sich wie Bots verhalten. Bots werden oft durch ihr Verhalten definiert: Besuche mit Einzelzugriff, ungewöhnliche Benutzeragenten, unbekannte Geräte-/Browser-Informationen, keine verweisenden Stellen, neue Besucher, ungewöhnliche Landingpages usw. Verwenden Sie die Möglichkeiten von Drilldowns und Segmentierung in Workspace, um die Bots zu identifizieren, die der IAB-Filterung und den Bot-Regeln Ihrer Report Suite entgangen sind. Hier ist zum Beispiel ein Screenshot eines Segments, das Sie verwenden könnten:
+Nachdem die ECID Ihres Besuchers in eine deklarierte ID übertragen wurde, können Sie die [Segmentierung in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) verwenden, um Besucher zu identifizieren, die sich wie Bots verhalten. Bots werden oft durch ihr Verhalten definiert: Besuche mit Einzelzugriff, ungewöhnliche Benutzeragenten, unbekannte Geräte-/Browser-Informationen, keine verweisenden Stellen, neue Besucher, ungewöhnliche Landingpages usw. Verwenden Sie die Möglichkeiten von Drilldowns und Segmentierung in Workspace, um die Bots zu identifizieren, die der IAB-Filterung und den Bot-Regeln Ihrer Report Suite entgangen sind. Hier ist zum Beispiel ein Screenshot eines Segments, das Sie verwenden könnten:
 
 ![](assets/bot-filter-seg1.png)
 

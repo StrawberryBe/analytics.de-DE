@@ -5,10 +5,10 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '8286'
+ht-degree: 99%
 
 ---
 
@@ -359,7 +359,7 @@ Am 10. Mai 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Wir stellen die Tipps des Tages (zusammen mit einem kurzen Video) unten rechts in der Oberfläche bereit. Anhand dieser Tipps können Sie sich mit einer Vielzahl an tollen Analysis Workspace-Funktionen vertraut machen. Sie können diese Tipps einfach ignorieren oder jederzeit über <span class="uicontrol"> Hilfe </span> &gt; <span class="uicontrol"> Tipps </span> auf sie zugreifen. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >Vorlagen für Segmente </a> und <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >Vorlagen für berechnete Metriken </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  >Vorlagen für Segmente </a> und <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >Vorlagen für berechnete Metriken </a></b> </p> </td> 
    <td colname="col2"> <p>In der linken Leiste werden nun Segmentvorlagen und Vorlagen für berechnete Metriken angezeigt. </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ Am 26. Oktober 2017 veröffentlichte neue Funktionen.
    <td colname="col2"> <p>Sie können jetzt mühelos zwischen Zeitgranularitäten umschalten, wenn die Dimension in der Datenquelle eine Zeitdimension ist. Sie können Granularitäten über ein Dropdownfeld in den Visualisierungseinstellungen umschalten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Vollständige Dimensionen und Ereignisse im Segmentablagebereich </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Vollständige Dimensionen und Ereignisse im Segmentablagebereich </a> </p> </td> 
    <td colname="col2"> <p>Früher konnten Sie nur Dimensionselemente, Datenbereiche oder Segmente in Segmentablagebereichen ablegen. Jetzt können Sie eine vollständige Dimension oder ein vollständiges Ereignis im Segmentablagebereich ablegen. In beiden Fällen erstellt Analysis Workspace Hit-Segmente für „vorhandene Variablen“. </p> <p>Beispiele: „Hit, wenn eVar1 vorhanden ist“ oder „Hit, wenn event1 vorhanden ist“. </p> <p>Hinweis: Sie können keine berechneten Metriken in einem Segmentbereich ablegen. Nur Dimensionen/Metriken, für die Sie Segmente erstellen können, sind für den Segmentbereich qualifiziert. </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ Am 19. Januar 2017 veröffentlichte neue Funktion:
    <td colname="col2"> <p>Unterstützung für Fallout-Visualisierung im CSV-Format hinzugefügt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Datumsbereiche in Segmenten </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Datumsbereiche in Segmenten </a> </p> </td> 
    <td colname="col2"> <p>Sie können Datumsbereiche zu entsprechenden Segment-Dropzones ziehen und ablegen (zum Beispiel Dropzones im Feldsegment, Dropzones im Fallout-Visualisierungssegment usw.). Die Datumsbereiche werden automatisch in Segmente umgewandelt. Die Datumsbereiche sind benutzerdefinierbar, Granularitäten wie Stunde/Tag/Woche/Monat/Quartal/Jahr jedoch nicht. </p> </td> 
   </tr> 
   <tr> 
@@ -1058,7 +1058,7 @@ Am 16. Juni 2016 veröffentlichte neue Funktionen:
 * [Trendauswahl](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (Liniendiagramm) für eine bewertete Tabelle ist jetzt verknüpft.
 * [Symbol „Visualisierung erstellen“](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): Wenn Sie auf dieses Symbol klicken, versucht das System, Ihre nächste Aktion zu erraten (Balkendiagramm, Venn ...).
 * Erweiterte Funktion [Manuelle Zeilen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
-* Dropzone [Segment hinzufügen](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+* Dropzone [Segment hinzufügen](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 * Kleinere Aktualisierungen:
 
    * Möglichkeit zum Löschen aller Visualisierungen in einem Bereich und aller Bereiche in einem Projekt. (Bislang mussten Sie mindestens eine Visualisierung oder ein Bedienfeld behalten.)
