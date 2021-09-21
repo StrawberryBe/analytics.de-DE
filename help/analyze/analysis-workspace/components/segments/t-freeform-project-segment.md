@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '496'
 ht-degree: 76%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 76%
 
 Sie können verschiedene Arten von Segmenten erstellen, je nachdem, wie komplex sie sein müssen, ob sie nur für dieses Projekt gelten sollen usw. Im Folgenden finden Sie eine Zusammenfassung der Segmenttypen:
 
-| Segmenttyp | Wo ist es erschaffen? | Wo finde ich Anwendung? | Mehrere Container? | Benutzeroberflächenfarbe |
-| --- | --- | --- | --- |
-| Komponentensegment | [Segmentaufbau](/help/components/segmentation/segmentation-workflow/seg-build.md) | Für alle Projekte über die linke Leiste | Ja | Blau |
-| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projektebene | Nein | Grau? |
-| Ad-hoc-Segmente: | Das sieht dann so aus | Nur Projektebene | Nein | ? |
-| - Ad-hoc-Workspace-Projektsegment | Ziehen und ablegen in Segment ? in einem neuen Projekt |  |  |  |
-| - Berechnetes metrikbasiertes Segment | Generator für berechnete Metriken |  |  |  |
-| - VRS-basiertes Segment | Virtual Report Suite Builder |  |  |  |
-| - Segment Builder &quot;apply&quot; | Segment Builder |  |  |  |
+| Segmenttyp | Wo erstellt? | Wo finde ich Anwendung? | Mehrere Container? |
+| --- | --- | --- | 
+| Komponentensegment | [Segmentaufbau](/help/components/segmentation/segmentation-workflow/seg-build.md) | Alle Projekte in der linken Leiste | Ja | Blau |
+| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projektebene | Nein |
+| Ad-hoc-Segmente: | Das sieht dann so aus | Nur Projektebene | Nein |
+| - Ad-hoc-Workspace-Projektsegment | Ziehen und ablegen in Segment ? in einem neuen Projekt |  |  |
+| - Berechnetes metrikbasiertes Segment | Generator für berechnete Metriken |  |  |
+| - VRS-basiertes Segment | Virtual Report Suite Builder |  |  |
+| - Segment Builder &quot;apply&quot; | Segment Builder |  |  |
 
 Eine ausführliche Diskussion der Segmentierung in Adobe Analytics finden Sie [hier](/help/components/segmentation/seg-overview.md).
 

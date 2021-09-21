@@ -3,9 +3,9 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,11 @@ Sie können innerhalb eines Projekts schnelle Segmente erstellen, um die Komplex
 
    Hier ist ein Beispiel für ein Segment, das Dimensionen und Metriken kombiniert:
 
+   ![](assets/quick-seg2.png)
+
+1. Klicken Sie auf **[!UICONTROL Anwenden]** , um dieses Segment auf das Bedienfeld anzuwenden.
+Das Segment wird oben angezeigt. Beachten Sie die graue Leiste im Gegensatz zur blauen Leiste für Segmente auf Komponentenebene auf der linken Seite.
+
+   ![](assets/quick-seg3.png)
+
+1. Im Schnellsegment
