@@ -3,10 +3,10 @@ description: Verwenden Sie Ad-hoc-Segmente in Analysis Workspace.
 title: Ad-hoc-Segmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,8 @@ Hier ist ein Beispiel für das Erstellen eines Segments für die Twitter-Referre
 
    In Ihrem Bedienfeld wird dieses Segment automatisch angewendet und Sie können die Ergebnisse sofort sehen.
 
-1. Hierzu
+1. Fügen Sie einem Bedienfeld bis zu 3 Ad-hoc-Segmente hinzu.
+1. Wenn Sie dieses Segment speichern möchten, lesen Sie den Abschnitt &quot;Ad-hoc-Segmente öffentlich machen&quot;.
 
 Bitte beachten Sie:
 
@@ -46,3 +47,4 @@ Sie können diese Segmente wie folgt öffentlich (global) machen:
 1. Klicken Sie dann im angezeigten Informationsfeld auf **[!UICONTROL Als öffentlich einstellen]**.
 
    ![](assets/segment-info.png)
+
