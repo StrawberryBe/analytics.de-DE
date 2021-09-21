@@ -3,10 +3,10 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -42,8 +42,22 @@ Sie können innerhalb eines Projekts schnelle Segmente erstellen, um die Komplex
    ![](assets/quick-seg2.png)
 
 1. Klicken Sie auf **[!UICONTROL Anwenden]** , um dieses Segment auf das Bedienfeld anzuwenden.
-Das Segment wird oben angezeigt. Beachten Sie die graue Leiste im Gegensatz zur blauen Leiste für Segmente auf Komponentenebene auf der linken Seite.
+Das Segment wird oben angezeigt. Beachten Sie die graue Seitenleiste im Gegensatz zur blauen Leiste für Segmente auf Komponentenebene auf der linken Seite.
 
    ![](assets/quick-seg3.png)
 
-1. Im Schnellsegment
+## Veröffentlichen von Schnellsegmenten
+
+Sie können diese Segmente wie folgt öffentlich (global) machen:
+
+1. Bewegen Sie den Mauszeiger über das Schnellsegment und klicken Sie auf das Symbol &quot;i&quot;.
+1. Klicken Sie auf **[!UICONTROL Open Builder]**.
+Dadurch wird das Segment im Segment Builder geöffnet.
+   >[!NOTE]
+   >Nachdem Sie das Segment im Segment Builder angewendet oder gespeichert haben, können Sie es nicht mehr im Schnellsegmentaufbau bearbeiten.
+1. Klicken Sie auf **[!UICONTROL OK]**.
+1. Klicken Sie im Segment Builder auf **[!UICONTROL Apply]**.
+1. Kehren Sie zu Workspace zurück und sehen Sie, wie das Segment jetzt eine blaue Seitenleiste aufweist, die anzeigt, dass es Teil der Komponentenbibliothek ist.
+
+   ![](assets/quick-seg4.png)
+
