@@ -5,12 +5,13 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 57%
+source-wordcount: '501'
+ht-degree: 42%
 
 ---
+
 
 # Segmente {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
@@ -18,14 +19,16 @@ Sie können verschiedene Arten von Segmenten in Workspace erstellen, je nachdem,
 
 | Segmenttyp | Wo erstellt? | Wo finde ich Anwendung? | Verwendungsbereiche |
 | --- | --- | --- | --- |
-| Komponentensegment | [Segmentaufbau](/help/components/segmentation/segmentation-workflow/seg-build.md) | Global/public | Für komplexe Segmente, sequenzielle Segmente |
-| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Projektebene, kann aber öffentlich machen | Flexibilität und Kontrolle beim Hinzufügen/Bearbeiten von Regeln, Namen und mehreren Regeln |
+| Komponentensegment | Klicken Sie auf +, um zum Segment Builder [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) zu gelangen. | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
+| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Projektebene, kann jedoch speichern und Ihrer Segmentliste hinzufügen. | Flexibilität beim Hinzufügen/Bearbeiten einer oder mehrerer Regeln |
 | Ad-hoc-Segmente: |  |  |  |
-| - Ad-hoc-Workspace-Projektsegment | [Ziehen und Ablegen in den Segmentablagebereich eines Projekts](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Projektebene, kann aber öffentlich machen | Für Standardsegmente mit einer Regel |
+| - Ad-hoc-Workspace-Projektsegment | [Ziehen und Ablegen in den Segmentablagebereich eines Projekts](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Projektebene, kann jedoch speichern und Ihrer Segmentliste hinzufügen. | Für Standardsegmente mit einer Regel (keine Begrenzung) |
 | - Berechnetes metrikbasiertes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | So definieren Sie einzelne berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
 | - VRS-basiertes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer VRS-Definition |
 
-Eine ausführliche Diskussion der Segmentierung in Adobe Analytics finden Sie [hier](/help/components/segmentation/seg-overview.md).
+Hier finden Sie ein Video zur Verwendung von Segmenten in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
 ## Segmente erstellen {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -37,11 +40,22 @@ Sie können in Analysis Workspace verschiedene Segmenttypen erstellen:
 
 ### Erstellen von Komponentensegmenten {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-Die Segmentleiste im Menü „Komponenten“ zeigt Segmente sowie Segmentvorlagen, die anhand dieser Symbole erkannt werden können:
+Die Segmentleiste im Menü &quot;Komponenten&quot;zeigt
+* Segmente, die Sie oder Ihr Unternehmen erstellt haben
+* Segmentvorlagen, wie durch das Symbol Adobe gekennzeichnet:
 
 ![](assets/segment_icons.png)
 
-[Verwendung von Segmenten in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=de) (6:46)
+Um ein Segment dieses Typs zu erstellen, haben Sie zwei Optionen. Beide führen Sie zum [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics.
+
+* Klicken Sie in der linken Leiste auf das Pluszeichen (+) neben [!UICONTROL Segmente]:
+
+![](assets/create-seg.png)
+
+oder
+
+* Gehen Sie zu [!UICONTROL Komponenten] > [!UICONTROL Segmente] und klicken Sie dann auf [!UICONTROL + Hinzufügen].
+
 
 ### Andere Methoden für das Anwenden von Segmenten {#section_10FF2E309BA84618990EA5B473015894}
 
@@ -58,7 +72,11 @@ Es gibt verschiedene weitere Methoden für das Anwenden von Segmenten auf ein Fr
 
 ## Segment IQ
 
-Segment IQ umfasst die folgenden Funktionen:
+Segment IQ (auch als Segmentvergleich bezeichnet) umfasst die folgenden Funktionen:
 
 * [Bedienfeld „Segmentvergleich“:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) Die Kernfunktion in Segment IQ. Ziehen Sie zwei Segmente in das Bedienfeld und zeigen Sie einen umfassenden Bericht an, der statistisch signifikante Unterschiede und Überschneidungen zwischen den beiden Zielgruppen zeigt.
 * [Vergleich von Segmenten hinsichtlich Fallout:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) Sehen Sie sich einen Vergleich verschiedener Zielgruppen im Kontext einer Fallout-Visualisierung an.
+
+## Weitere Infos
+
+Eine ausführliche Diskussion der Segmentierung in Adobe Analytics finden Sie [hier](/help/components/segmentation/seg-overview.md).
