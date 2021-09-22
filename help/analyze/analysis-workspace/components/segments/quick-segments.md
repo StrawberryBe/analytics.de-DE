@@ -3,9 +3,9 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Das Segment wird oben angezeigt. Beachten Sie die graue Seitenleiste im Gegensat
 Sie können schnelle Segmente speichern, indem Sie die folgenden Schritte ausführen.
 
 >[!IMPORTANT]
->Nachdem Sie das Segment gespeichert haben, können Sie es nicht mehr im Schnellsegmentaufbau bearbeiten, sondern nur noch im regulären Segmentaufbau.
+>Nachdem Sie das Segment gespeichert oder angewendet haben, können Sie es nicht mehr im Quick Segment Builder bearbeiten, sondern nur noch im regulären Segment Builder.
 
 1. Bewegen Sie den Mauszeiger über das Schnellsegment und wählen Sie das Infosymbol (&quot;i&quot;) aus.
 1. Wählen Sie **[!UICONTROL Segment speichern]**
@@ -65,13 +65,11 @@ Sie können schnelle Segmente speichern, indem Sie die folgenden Schritte ausfü
 
 1. Belassen Sie den Namen unverändert oder benennen Sie das Segment um.
 
-1. Kehren Sie zu Workspace zurück und sehen Sie, wie das Segment jetzt eine blaue Seitenleiste aufweist, die anzeigt, dass es Teil der Komponentenbibliothek ist.
+   Gehen Sie zurück zu Workspace und sehen Sie, wie das Segment jetzt über eine blaue Seitenleiste verfügt. Dies weist darauf hin, dass es nicht mehr im Schnellsegmentaufbau bearbeitet/geöffnet werden kann. Und durch Speichern wird sie Teil der Komponentenliste.
 
    ![](assets/quick-seg4.png)
 
-## Verfügbar machen von Segmenten für alle Ihre Projekte
-
-Nachdem Sie das Segment gespeichert haben, können Sie es Ihrer Segmentkomponentenliste hinzufügen und für alle Ihre Projekte verfügbar machen.
+Nachdem Sie das Segment angewendet haben, können Sie es Ihrer Segmentkomponentenliste hinzufügen und für alle Ihre Projekte verfügbar machen.
 
 1. Bewegen Sie den Mauszeiger über das gespeicherte Segment und wählen Sie das Stiftsymbol aus.
 
@@ -82,12 +80,8 @@ Nachdem Sie das Segment gespeichert haben, können Sie es Ihrer Segmentkomponent
 1. Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Stellen Sie dieses Segment für alle Projekte zur Verfügung und fügen Sie es zur Komponentenliste hinzu.]**
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Das Segment wird jetzt in Ihrer Segmentkomponentenliste für alle Ihre Projekte angezeigt.
-1. Sie können auch [das Segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) freigeben.
+1. Sie können auch [das Segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) für andere Personen in Ihrer Organisation freigeben.
 
-## Kurze Segmente in Ad-hoc-Segmente umwandeln
+## Was sind reine Projektsegmente?
 
-1. Bewegen Sie den Mauszeiger über das gespeicherte Segment und wählen Sie das Stiftsymbol aus.
-
-1. Klicken Sie oben im Segment Builder auf **[!UICONTROL Anwenden]**.
-
-Weitere Informationen zu Ad-hoc-Segmenten finden Sie [hier](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
+Nur-Projekt-Segmente sind entweder Schnellsegmente oder Ad-hoc-Workspace-Projektsegmente. Wenn Sie sie im Segment Builder bearbeiten/öffnen, wird das Feld &quot;Nur Projekt&quot;angezeigt. Wenn sie ein kurzes Segment im Builder anwenden, aber nicht das Kontrollkästchen &quot;Verfügbar machen&quot;aktivieren, ist es weiterhin ein reines Projekt-Segment, kann jedoch nicht mehr im QS-Builder geöffnet werden. Wenn sie das Kontrollkästchen aktivieren und SPEICHERN, ist es jetzt ein Komponentensegment.

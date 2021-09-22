@@ -3,23 +3,23 @@ description: Verwenden Sie Ad-hoc-Segmente in Analysis Workspace.
 title: Ad-hoc-Segmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 32%
+source-wordcount: '369'
+ht-degree: 25%
 
 ---
 
 
-# Ad-hoc-Segmente
+# Ad-hoc-Projektsegmente
 
-Im Folgenden finden Sie ein Video zum Erstellen von Ad-hoc-Segmenten:
+Hier finden Sie ein Video zum Erstellen von Ad-hoc-Projektsegmenten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Sie können Ad-hoc-Segmente erstellen, wenn Sie schnell untersuchen möchten, wie sich ein Segment auf Ihr Projekt auswirken könnte, ohne dazu den Segment Builder aufzurufen. Stellen Sie sich diese Segmente als temporäre Segmente auf Projektebene vor. Sie sind normalerweise nicht Teil Ihrer Segmentbibliothek wie Komponentensegmente in der linken Leiste. Sie können sie jedoch speichern, wie unten dargestellt.
+Sie können Ad-hoc-Projektsegmente erstellen, wenn Sie schnell untersuchen möchten, wie sich ein Segment auf Ihr Projekt auswirken könnte, ohne den Segment Builder aufzurufen. Stellen Sie sich diese Segmente als temporäre Segmente auf Projektebene vor. Sie sind normalerweise nicht Teil Ihrer Segmentbibliothek wie Komponentensegmente in der linken Leiste. Sie können sie jedoch speichern, wie unten dargestellt.
 
-Einen Vergleich dessen, was Ad-hoc-Segmente im Vergleich zu vollständigen Komponentensegmenten tun können, finden Sie unter [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Einen Vergleich dessen, was Ad-hoc-Projektsegmente im Vergleich zu vollständigen Komponentensegmenten tun können, finden Sie unter [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Ziehen Sie einen beliebigen Komponententyp (Dimension, Dimensionselement, Ereignis, Metrik, Segment, Segmentvorlage, Datumsbereich) in die Segment-Dropzone am oberen Rand eines Bedienfelds. Komponententypen werden automatisch in Segmente umgewandelt.
 Hier ist ein Beispiel für das Erstellen eines Segments für die Twitter-Referrer-Domäne:
@@ -41,7 +41,7 @@ Bitte beachten Sie:
 >
 >Auf diese Weise erstellte Segmente sind interne Segmente des Projekts.
 
-## Speichern von Ad-hoc-Segmenten {#ad-hoc-save}
+## Speichern von Ad-hoc-Projektsegmenten {#ad-hoc-save}
 
 Sie können diese Segmente speichern, indem Sie die folgenden Schritte ausführen:
 
@@ -50,3 +50,6 @@ Sie können diese Segmente speichern, indem Sie die folgenden Schritte ausführe
 
    ![](assets/segment-info.png)
 
+## Was sind reine Projektsegmente?
+
+Nur-Projekt-Segmente sind entweder Schnellsegmente oder Ad-hoc-Workspace-Projektsegmente. Wenn Sie sie im Segment Builder bearbeiten/öffnen, wird das Feld &quot;Nur Projekt&quot;angezeigt. Wenn sie ein kurzes Segment im Builder anwenden, aber nicht das Kontrollkästchen &quot;Verfügbar machen&quot;aktivieren, ist es weiterhin ein reines Projekt-Segment, kann jedoch nicht mehr im QS-Builder geöffnet werden. Wenn sie das Kontrollkästchen aktivieren und SPEICHERN, ist es jetzt ein Komponentensegment.
