@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 43%
+source-wordcount: '511'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können verschiedene Arten von Segmenten in Workspace erstellen, je nachdem,
 | Komponentensegment | Klicken Sie auf +, um zum Segment Builder [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) zu gelangen. | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
 | Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, kann jedoch speichern und Ihrer Segmentliste hinzufügen. | Flexibilität beim Hinzufügen/Bearbeiten einer oder mehrerer Regeln |
 | Ad-hoc-Segmente: |  |  |  |
-| - Ad-hoc-Workspace-Projektsegment | [Ziehen und Ablegen in den Segmentablagebereich eines Projekts](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Nur Projekt, kann jedoch speichern und Ihrer Segmentliste hinzufügen. | Für Standardsegmente mit einer Regel (keine Begrenzung) |
+| - Ad-hoc-Workspace-Projektsegment | [Ziehen und Ablegen in den Segmentablagebereich eines Projekts](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Nur Projekt, kann jedoch speichern und Ihrer Segmentliste hinzufügen. | Für Einzelregelsegmente (keine Begrenzung) |
 | - Berechnetes metrikbasiertes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | So definieren Sie einzelne berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
 | - VRS-basiertes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer VRS-Definition |
 
@@ -36,7 +36,7 @@ Sie können in Analysis Workspace verschiedene Segmenttypen erstellen:
 
 * [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [Ad-hoc-Segmente](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
-* Regelmäßige Komponentensegmente, die in der Segmentbibliothek enden (siehe unten)
+* Regelmäßige Komponentensegmente, die Sie im Segmentaufbau erstellen und die in der Segmentbibliothek enden (siehe unten)
 
 ### Erstellen von Segmenten mit Komponentenliste {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
@@ -46,7 +46,7 @@ Die Segmentleiste im Menü &quot;Komponenten&quot;zeigt
 
 ![](assets/segment_icons.png)
 
-Um ein Segment dieses Typs zu erstellen, haben Sie zwei Optionen. Beide führen Sie zum [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics.
+Um ein Segment dieses Typs zu erstellen, haben Sie zwei Optionen. Beide führen Sie zum [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics, wo Sie weitere Anweisungen finden können.
 
 * Klicken Sie in der linken Leiste auf das Pluszeichen (+) neben [!UICONTROL Segmente]:
 
