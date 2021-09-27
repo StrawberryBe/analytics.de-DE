@@ -3,7 +3,7 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Das Segment wird oben angezeigt. Die Seitenleiste mit blauen Streifen unterschei
 
 ## Schnellsegmente speichern
 
-Sie können Schnellsegmente entweder im Schnellsegment-Builder oder im Segment Builder speichern.
+Sie können Schnellsegmente entweder im [!UICONTROL Quick Segment Builder] oder im [!UICONTROL Segment Builder] speichern.
 
 >[!IMPORTANT]
 >Nachdem Sie das Segment gespeichert oder angewendet haben, können Sie es nicht mehr im Quick Segment Builder bearbeiten, sondern nur noch im regulären Segment Builder.
