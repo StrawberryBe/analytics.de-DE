@@ -3,9 +3,9 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
+source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -107,4 +107,4 @@ Nachdem Sie das Segment angewendet haben, können Sie es Ihrer Segmentkomponente
 
 ## Was sind reine Projektsegmente?
 
-Nur-Projekt-Segmente sind entweder Schnellsegmente oder Ad-hoc-Workspace-Projektsegmente. Beim Bearbeiten/Öffnen im Segmentaufbau wird das Feld &quot;Nur Projekt&quot;angezeigt. Wenn Sie ein kurzes Segment im Builder anwenden, aber das Kontrollkästchen &quot;Verfügbar machen&quot;nicht aktivieren, ist es weiterhin ein reines Projekt-Segment, kann jedoch nicht mehr im Schnellsegment-Builder geöffnet werden. Wenn Sie das Kontrollkästchen und SPEICHERN aktivieren, ist es jetzt ein Komponentensegment.
+Nur-Projekt-Segmente sind entweder Schnellsegmente oder Ad-hoc-Workspace-Projektsegmente. Beim Bearbeiten/Öffnen in [!UICONTROL Segment Builder] wird das Feld &quot;Nur Projekt&quot;angezeigt. Wenn Sie ein kurzes Segment im Builder anwenden, aber das Kontrollkästchen &quot;Verfügbar machen&quot;nicht aktivieren, ist es weiterhin ein reines Projekt-Segment, kann jedoch nicht mehr im [!UICONTROL Quick Segment Builder] geöffnet werden. Wenn Sie das Kontrollkästchen aktivieren und auf **[!UICONTROL SAVE]** klicken, handelt es sich jetzt um ein Komponentensegment.
