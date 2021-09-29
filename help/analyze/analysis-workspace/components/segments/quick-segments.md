@@ -3,9 +3,9 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
+source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 Sie können innerhalb eines Projekts schnelle Segmente erstellen, um die Komplexität des vollständigen [Segment Builders](/help/components/segmentation/segmentation-workflow/seg-build.md) zu umgehen. Schnellsegmente
 
-* Gilt nur für bestimmte Projekte (Sie können dies ändern).
-* Bis zu drei Regeln zulassen
+* Gilt nur für Projekte, in denen sie erstellt wurden (Sie können dies ändern).
+* Für bis zu 3 Regeln.
 * Sie dürfen keine verschachtelten Container oder sequenziellen Regeln aufnehmen.
-* Arbeiten in Bedienfeldern mit mehreren Report Suites
+* Arbeiten Sie in Projekten mit mehreren Report Suites.
 
 Einen Vergleich dessen, was Schnellsegmente im Vergleich zu vollständigen Komponentensegmenten tun können, finden Sie unter [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 

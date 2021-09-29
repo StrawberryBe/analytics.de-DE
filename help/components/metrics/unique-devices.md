@@ -2,10 +2,10 @@
 title: Eindeutige Geräte
 description: Die Anzahl der eindeutigen Geräte.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 6%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,7 @@ Beachten Sie, dass diese Metrik in Nicht-CDA-Report Suites nicht mit [Unique Vis
 
 ![Anzahl eindeutiger Geräte](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-Die Anzeige dieser Daten in einer Virtual Report Suite der geräteübergreifenden Analyse vor [Wiederholung](/help/components/cda/replay.md) würde Folgendes zeigen:
+Wenn Sie diese Daten in einer Virtual Report Suite der geräteübergreifenden Analyse vor [Replay](/help/components/cda/replay.md) anzeigen, werden möglicherweise nicht authentifizierte Treffer zugeordnet:
 
 * **5 eindeutige Geräte**: 1 für nicht authentifizierte Bob + 2 für Bob + 1 für Alice + 1 für Charles
 * **4  [Personen](people.md)**: 1  [Nicht identifizierte Personen](unidentified-people.md) + 3  [Identifizierte Personen](identified-people.md).
-

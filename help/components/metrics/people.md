@@ -2,10 +2,10 @@
 title: Personen
 description: Die Anzahl der Einzelanwender, üblicherweise mit mehreren Geräten.
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 7f9442d6be7930b9e040539dc683c62953aba342
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 53%
+source-wordcount: '161'
+ht-degree: 49%
 
 ---
 
@@ -17,4 +17,4 @@ Bei Mitgliedern der [Gerätekooperation](https://experienceleague.adobe.com/docs
 
 Innerhalb einer Virtual Report Suite [Cross-Device Analytics](../cda/overview.md) ist die Metrik &quot;Personen&quot;keine statistische Ableitung. Stattdessen handelt es sich um die Summe der Personen, die im Bericht identifiziert werden, plus die Anzahl der Geräte, die nicht als einer Person zugehörig identifiziert werden.
 
-Wenn ein Besucher während des Besuchs identifiziert wird, kann dieser Besucher als 2 Personen zählen, bis [Replay](/help/components/cda/replay.md) ausgeführt wird (1 nicht identifizierte Person und 1 identifizierte Person). Weitere Informationen finden Sie unter [Eindeutige Geräte](unique-devices.md) .
+Wird ein Besucher während des Besuchs identifiziert, kann dieser Besucher als 2 Personen zählen (1 nicht identifizierte Person und 1 identifizierte Person). [](/help/components/cda/replay.md) Diese doppelte Zählung wird anhand des Berichtsfensters, der Häufigkeit der Wiederholungen und der Erfolgsrate reduziert. Weitere Informationen finden Sie unter [Eindeutige Geräte](unique-devices.md) .

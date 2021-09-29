@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1949'
 ht-degree: 73%
 
 ---
@@ -128,8 +128,8 @@ Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitung
 
 Die Zahl der Metrik &quot;Identifizierte Personen&quot;kann etwas höher sein, wenn die Kennungseigenschaft/der eVar in eine [Hash-Kollision](/help/implement/validate/hash-collisions.md) läuft.
 
-Die Zahl der Metrik &quot;Identifizierte Personen&quot;kann deutlich höher sein, wenn bei der Identifikations-Prop/eVar zwischen Groß- und Kleinschreibung unterschieden wird. Beispielsweise sollten `bob` und `Bob` dieselbe Person sein, aber die Groß-/Kleinschreibung zwingt diese beiden Werte zur Unterscheidung.
+Bei feldbasiertem Stitching wird bei der benutzerdefinierten Variablen &quot;identifier&quot;zwischen Groß- und Kleinschreibung unterschieden. Die Zahl der Metrik &quot;Identifizierte Personen&quot;kann erheblich höher sein, wenn die Kennungswerte nicht mit der Groß-/Kleinschreibung übereinstimmen. Wenn beispielsweise `bob` und `Bob` gesendet und als dieselbe Person erwartet werden, interpretiert die geräteübergreifende Analyse diese beiden Werte als unterschiedlich.
 
-## Warum werden Werte angezeigt, wenn ich die ID-Prop/eVar mit der Metrik &quot;Nicht identifizierte Personen&quot;ansehe?
+## Warum sehe ich bei der Anzeige der Identifizierungseigenschaft/eVar Werte ungleich null für die Metrik &quot;Nicht identifizierte Personen&quot;?
 
-Diese Situation tritt normalerweise auf, wenn ein Besucher sowohl authentifizierte als auch nicht authentifizierte Treffer im Berichtsfenster generiert und [Replay](replay.md) noch nicht ausgeführt wurde. Vor der erneuten Wiedergabe gehört der Besucher sowohl zu &quot;Nicht identifiziert&quot;als auch zu &quot;Identifiziert&quot;in der Dimension [Identifizierter Status](/help/components/dimensions/identified-state.md), was dazu führt, dass einige Besucher nicht identifizierte Treffer einer Kennung zuordnen. Besucher bleiben in diesem Status, bis die Wiederholung ausgeführt wird (täglich oder wöchentlich, je nachdem, wie Ihr Unternehmen die geräteübergreifende Analyse eingerichtet hat). Wenn Sie Berichte nur für Daten nach der Wiederholung ausführen, wird dies gelindert.
+Diese Situation tritt normalerweise auf, wenn ein Besucher im Berichtsfenster sowohl authentifizierte als auch nicht authentifizierte Treffer generiert. Der Besucher gehört sowohl zu &quot;Nicht identifiziert&quot;als auch zu &quot;Identifiziert&quot;in der Dimension [Identifizierter Status](/help/components/dimensions/identified-state.md), was zu einer Zuordnung von nicht identifizierten Treffern zu einer Kennung führt. Dieses Szenario kann sich nach der Ausführung von [Replay](replay.md) ändern, je nach Wiederholungshäufigkeit und Erfolgsrate.
