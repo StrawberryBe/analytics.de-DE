@@ -3,9 +3,9 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Einen Vergleich dessen, was Schnellsegmente im Vergleich zu vollständigen Kompo
 
 ## Voraussetzungen
 
-Benutzer benötigen die Berechtigung [!UICONTROL Segmenterstellung] in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools), um schnelle Segmente erstellen zu können.
+Jeder kann ein [!UICONTROL Schnellsegment] erstellen. Sie benötigen jedoch die Berechtigung[!UICONTROL Segmenterstellung] in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools), um in der Lage zu sein, Schnellsegmente zu speichern oder sie im [!UICONTROL Segmentaufbau] zu öffnen.
 
 ## Schnellsegmente erstellen
 
@@ -56,7 +56,7 @@ Hier ist ein Beispiel für ein Segment, das Dimensionen und Metriken kombiniert:
 
 Das Segment wird oben angezeigt. Die Seitenleiste mit blauen Streifen unterscheidet sich von der blauen Seitenleiste für Segmente auf Komponentenebene in der Segmentbibliothek auf der linken Seite.
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## Schnellsegmente bearbeiten
 
@@ -73,24 +73,15 @@ Sie können Schnellsegmente entweder im [!UICONTROL Quick Segment Builder] oder 
 ### Speichern in Quick Segment Builder
 
 1. Sobald Sie das Schnellsegment angewendet haben, halten Sie den Mauszeiger darüber und wählen Sie das Infosymbol (&quot;i&quot;) aus.
+
+   ![](assets/quick-seg6.png)
+
 1. Klicken Sie auf **[!UICONTROL Verfügbar machen für alle Projekte und fügen Sie Ihrer Komponentenliste]** hinzu.
 1. (Optional) Benennen Sie das Segment um.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Beachten Sie, dass sich die Seitenleiste des Segments von gestreiftem Blau in Blau ändert. Er wird jetzt in der Komponentenliste in der linken Leiste angezeigt.
 
-### Im Segmentaufbau speichern
-
-1. Bewegen Sie den Mauszeiger über das Schnellsegment und wählen Sie das Infosymbol (&quot;i&quot;) aus.
-1. Wählen Sie **[!UICONTROL Segment speichern]**
-
-   ![](assets/save-quick-seg.png)
-
-1. Belassen Sie den Namen unverändert oder benennen Sie das Segment um.
-
-   Gehen Sie zurück zu Workspace und sehen Sie, wie das Segment jetzt über eine blaue Seitenleiste verfügt. Dies weist darauf hin, dass es nicht mehr im Schnellsegmentaufbau bearbeitet/geöffnet werden kann. Und durch Speichern wird sie Teil der Komponentenliste.
-
-   ![](assets/quick-seg4.png)
 
 Nachdem Sie das Segment angewendet haben, können Sie es Ihrer Segmentkomponentenliste hinzufügen und für alle Ihre Projekte verfügbar machen.
 
