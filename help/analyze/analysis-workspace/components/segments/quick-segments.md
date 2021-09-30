@@ -3,10 +3,10 @@ description: Verwenden Sie Schnellsegmente in Analysis Workspace.
 title: Schnellsegmente
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 1%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -61,16 +61,13 @@ Das Segment wird oben angezeigt. Die Seitenleiste mit blauen Streifen unterschei
 ## Schnellsegmente bearbeiten
 
 1. Bewegen Sie den Mauszeiger über das Schnellsegment und wählen Sie das Stiftsymbol aus.
-1. Bearbeiten Sie die Segmentdefinition oder den Segmentnamen.
+1. Bearbeiten Sie die Segmentdefinition und/oder den Segmentnamen.
+1. Klicken Sie auf [!UICONTROL Übernehmen].
 
 ## Schnellsegmente speichern
 
-Sie können Schnellsegmente entweder im [!UICONTROL Quick Segment Builder] oder im [!UICONTROL Segment Builder] speichern.
-
 >[!IMPORTANT]
 >Nachdem Sie das Segment gespeichert oder angewendet haben, können Sie es nicht mehr im Quick Segment Builder bearbeiten, sondern nur noch im regulären Segment Builder.
-
-### Speichern in Quick Segment Builder
 
 1. Sobald Sie das Schnellsegment angewendet haben, halten Sie den Mauszeiger darüber und wählen Sie das Infosymbol (&quot;i&quot;) aus.
 
@@ -81,20 +78,6 @@ Sie können Schnellsegmente entweder im [!UICONTROL Quick Segment Builder] oder 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Beachten Sie, dass sich die Seitenleiste des Segments von gestreiftem Blau in Blau ändert. Er wird jetzt in der Komponentenliste in der linken Leiste angezeigt.
-
-
-Nachdem Sie das Segment angewendet haben, können Sie es Ihrer Segmentkomponentenliste hinzufügen und für alle Ihre Projekte verfügbar machen.
-
-1. Bewegen Sie den Mauszeiger über das gespeicherte Segment und wählen Sie das Stiftsymbol aus.
-
-1. Beachten Sie dieses Dialogfeld oben im Segment Builder:
-
-   ![](assets/project-only.png)
-
-1. Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Stellen Sie dieses Segment für alle Projekte zur Verfügung und fügen Sie es zur Komponentenliste hinzu.]**
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-1. Das Segment wird jetzt in Ihrer Segmentkomponentenliste für alle Ihre Projekte angezeigt.
-1. Sie können auch [das Segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) für andere Personen in Ihrer Organisation freigeben.
 
 ## Was sind reine Projektsegmente?
 
