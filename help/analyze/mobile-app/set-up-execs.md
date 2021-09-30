@@ -3,10 +3,10 @@ description: So erstellen Sie eine Analytics-Dashboards-Scorecard
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
 
-## Systemanforderungen ausführender Benutzer
+## Sicherstellen, dass Mobile-App-Benutzer Zugriff auf Adobe Analytics haben
+
+1. Richten Sie neue Benutzer in der [Experience Cloud-Admin Console](/help/admin/admin-console/permissions/product-profile.md) ein.
+
+1. Um Scorecards freigeben zu können, müssen Sie App-Benutzern Berechtigungen für den Zugriff auf Scorecard-Komponenten wie Analysis Workspace, die Report Suites, auf denen Scorecards basieren, sowie Segmente, Metriken und Dimensionen gewähren.
+
+## Systemanforderungen von App-Benutzern
 
 Um sicherzustellen, dass ausführende Benutzer Zugriff auf Ihre Scorecards in der App haben, stellen Sie Folgendes sicher:
 
 * Auf den Geräten Ihrer Benutzer muss mindestens iOS-Version 10 oder Android-Version 4.4 (KitKat) installiert sein.
-* Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
-* Sie müssen die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben haben.
-* Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
-* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Hinweis: Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **[!UICONTROL eingebettete Komponenten freizugeben]**.
+* Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein..
+* Sie haben mobile Scorecards für sie korrekt erstellt und für diese freigegeben.
+* Sie haben Zugriff auf die Komponenten, die die Scorecard enthält. Beachten Sie, dass Sie beim Freigeben Ihrer Scorecards für **[!UICONTROL Freigeben eingebetteter Komponenten]** eine Option auswählen können.
 
 ## Hilfe für Führungskräfte beim Herunterladen und Installieren der App
 
