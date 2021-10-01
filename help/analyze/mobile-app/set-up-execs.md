@@ -3,7 +3,7 @@ description: So erstellen Sie eine Analytics-Dashboards-Scorecard
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 74%
@@ -48,7 +48,7 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
 
 ![Willkommensbildschirm der App](assets/welcome.png)
 
-## Helfen Sie Führungskräften beim Zugriff auf Ihre Scorecard
+## Helfen Sie Führungskräften beim Zugriff auf Ihre Scorecard.
 
 1. Lassen Sie ausführende Benutzer sich bei der App anmelden.
 
