@@ -3,10 +3,10 @@ description: So erstellen Sie eine Scorecard für Adobe Analytics-Dashboards
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 77%
+source-wordcount: '1192'
+ht-degree: 58%
 
 ---
 
@@ -42,10 +42,10 @@ Sie können auf die Vorlage [!UICONTROL Leere mobile Scorecard] zugreifen, indem
 
 ![Scorecard-Vorlage](assets/new_template.png)
 
-### Tools-Vorlage
+### Tools-Menü
 
-1. Gehen Sie ins Menü **[!UICONTROL Tools]** und wählen Sie **[!UICONTROL Analytics-Dashboards (Smartphone und Tablet)]** aus. 
-1. Klicken Sie im nachfolgenden Bildschirm auf den Button **[!UICONTROL Neue Scorecard erstellen]**.
+1. Wählen Sie im Menü **[!UICONTROL Tools]** die Option **[!UICONTROL Analytics-Dashboards (Mobile App)]** aus.
+1. Klicken Sie im nachfolgenden Bildschirm auf **[!UICONTROL Neue Scorecard erstellen]**.
 
 ## Scorecard mit Daten konfigurieren und speichern
 
@@ -60,29 +60,15 @@ So implementieren Sie die Scorecard-Vorlage:
    ![Kacheln hinzufügen](assets/build_list.png)
 
 
-   *Von jeder Kachel aus können Sie auf eine Detailansicht zugreifen, die zusätzliche Informationen über die Metrik anzeigt, wie z. B. die obersten Elemente in einer Liste verwandter Dimensionen.*
+1. Von jeder Kachel aus können Sie auf eine Detailansicht zugreifen, die zusätzliche Informationen über die Metrik anzeigt, wie z. B. die obersten Elemente in einer Liste verwandter Dimensionen.
 
 ### Dimensionen oder Metriken hinzufügen
 
-So fügen Sie einer Metrik eine zugehörige Dimension hinzu:
+Um einer Metrik eine verwandte Dimension hinzuzufügen, ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab.
 
-Ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab.
-
-Sie können beispielsweise geeignete Dimensionen (wie **[!DNL DMA Region]** in diesem Beispiel) zur Metrik **[!UICONTROL Unique Visitors]** hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Dimensionen, die Sie hinzufügen, werden im Aufschlüsselungsabschnitt der kachelspezifischen **[!UICONTROL Eigenschaften]** angezeigt. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
+Sie können beispielsweise geeignete Dimensionen (wie **[!DNL Marketing Channel]** in diesem Beispiel) zur Metrik **[!UICONTROL Unique Visitors]** hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Aufschlüsselungen von Dimensionen werden unter dem Abschnitt [!UICONTROL DrillINS] (Aufschlüsselung) des kachelspezifischen Abschnitts **[!UICONTROL Eigenschaften]** angezeigt. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
 
 ![Dimensionen hinzufügen](assets/layer_dimensions.png)
-
-### Anzeigen und Konfigurieren von Kacheleigenschaften
-
-Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die dieser Kachel zugeordnet sind. In dieser Leiste können Sie einen neuen **[!UICONTROL Titel]** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
-
-![Kachel „Eigenschaften“](assets/properties_tile.png)
-
-Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Aufschlüsselungsansicht für ausführende Benutzer in der App dargestellt wird. Wenn keine Dimension auf die Kachel angewendet wurde, werden je nach Standarddatumsbereich entweder **Stunden** oder **Tage** als Aufschlüsselungsdimension verwendet.
-
-![Aufschlüsselungsansicht](assets/break_view.png)
-
-Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der Detailansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
 
 ### Segmente anwenden
 
@@ -92,13 +78,7 @@ Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen 
 
 ![Segmente für Filter erstellen](assets/segment_ui.png)
 
-### Komponenten entfernen
-
-Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Erstbesuche** dargestellt:
-
-![Komponenten entfernen](assets/new_remove.png)
-
-### Datumsbereiche
+### Datumsbereiche hinzufügen
 
 Um Datumsbereichskombinationen, die in Ihrer Wertungsliste ausgewählt werden können, hinzuzufügen oder zu entfernen, wählen Sie die Dropdown-Liste „Datumsbereich“ aus.
 
@@ -122,6 +102,50 @@ Wenn der gewünschte Datumsbereich noch nicht erstellt wurde, können Sie durch 
 
 Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue Komponente für den Datumsbereich erstellen und speichern können.
 
+### Visualisierungen anwenden
+
+Analytics-Dashboards bieten jetzt vier Visualisierungen, die großartige Einblicke in Dimensionselemente bieten. Wenden Sie eine andere Visualisierung an, indem Sie den [!UICONTROL Diagrammtyp] der Eigenschaften einer Kachel ändern:
+
+![Kacheleigenschaften](assets/properties.png)
+
+** Donutvisualisierung**
+
+Ähnlich wie bei einem Tortendiagramm zeigt diese Visualisierung Daten als Teile oder Segmente eines Ganzen an. Verwenden Sie ein Ringdiagramm, wenn Sie Prozentsätze eines Gesamtwerts vergleichen. Nehmen wir beispielsweise an, Sie möchten sehen, welche Anzeigenplattform zur Gesamtzahl der Unique Visitors beigetragen hat:
+
+![Donut-Visualisierung](assets/donut-viz.png)
+
+**Linienvisualisierung**
+
+Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
+
+**[!UICONTROL Horizontale ] Barvisualisierung**
+
+Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer oder mehreren Metriken darstellen.
+
+### Anzeigen und Konfigurieren von Kacheleigenschaften
+
+Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die dieser Kachel zugeordnet sind. In dieser Leiste können Sie einen neuen **[!UICONTROL Titel]** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
+
+![Kachel „Eigenschaften“](assets/properties_tile.png)
+
+Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Ansicht &quot;Drill ins&quot;(Aufschlüsselung) für ausführende Benutzer in der App angezeigt wird. Wenn keine Dimension auf die Kachel angewendet wurde, werden je nach Standarddatumsbereich entweder **Stunden** oder **Tage** als Aufschlüsselungsdimension verwendet.
+
+Aufschlüsselungen verfeinern Ihre Analyse, indem sie Metriken und Dimensionen buchstäblich nach anderen Metriken und Dimensionen aufschlüsseln, z. B. in diesem Einzelhandelsbeispiel:
+
+* Metrik &quot;Unique Visitors&quot;aufgeschlüsselt nach Anzeigenplattform (AMO-ID)
+* Besuche aufgeschlüsselt nach Produktkategorie (Einzelhandel)
+* Gesamtumsatz, aufgeschlüsselt nach Produktnamen
+
+![Aufschlüsselungsansicht](assets/break_view.png)
+
+Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der Detailansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
+
+### Komponenten entfernen
+
+Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Erstbesuche** dargestellt:
+
+![Komponenten entfernen](assets/new_remove.png)
+
 ## Benennen einer Scorecard
 
 Um die Scorecard zu benennen, klicken Sie auf den Namensbereich in der oberen linken Ecke des Bildschirms und geben Sie den neuen Namen ein.
@@ -136,10 +160,10 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
 1. Füllen Sie die Felder im Formular **[!UICONTROL Mobile Scorecard freigeben]** aus, indem Sie:
 
-   * den Namen der Scorecard angeben
-   * eine Beschreibung der Scorecard angeben
+   * Angeben des Namens der Scorecard
+   * Beschreibung der Scorecard
    * relevante Tags hinzufügen
-   * die Empfänger der Scorecard angeben
+   * Empfänger für die Scorecard angeben
 
 1. Klicken Sie auf **[!UICONTROL Freigabe]**.
 
@@ -147,4 +171,4 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
 Nachdem Sie eine Scorecard freigegeben haben, können Ihre Empfänger in ihren Analytics-Dashboards darauf zugreifen. Wenn Sie nachfolgende Änderungen an der Scorecard im Scorecard Builder vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
-Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
+Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass Ihre ausführenden Benutzer Zugriff auf diese Änderungen haben.
