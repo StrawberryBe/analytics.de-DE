@@ -3,9 +3,9 @@ title: getNewRepeat
 description: Verfolgen Sie die Aktivitäten neuer oder wiederkehrender Besucher.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '552'
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getNewRepeat` verwendet die folgenden Argumente:
+Die `getNewRepeat`-Funktion verwendet die folgenden Argumente:
 
 * **`d`** (Ganzzahl, optional): Die erforderliche Mindestanzahl von Tagen zwischen Besuchen, die Besucher auf `"New"` zurücksetzt. Wenn dieses Argument nicht festgelegt ist, wird der Standardwert 30 Tage verwendet.
 
-Diese Funktion gibt den Wert von `"New"` zurück, wenn das vom Plug-in eingestellte Cookie nicht vorhanden oder abgelaufen ist. Gibt den Wert von `"Repeat"` zurück, wenn das vom Plug-in eingestellte Cookie vorhanden ist und die Zeit seit dem aktuellen Treffer und die im Cookie festgelegte Zeit länger als 30 Minuten sind. Diese Funktion gibt denselben Wert für einen gesamten Besuch zurück.
+Diese Funktion gibt den Wert von `"New"` zurück, wenn das vom Plug-in eingestellte Cookie nicht vorhanden oder abgelaufen ist. Gibt den Wert von `"Repeat"` zurück, wenn das vom Plug-in eingestellte Cookie vorhanden ist und die Zeit seit dem aktuellen Treffer und die im Cookie festgelegte Zeit länger als 30 Minuten sind. Diese Funktion gibt denselben Wert für den gesamten Besuch zurück.
 
 Dieses Plug-in verwendet ein Cookie mit dem Namen `"s_nr[LENGTH]"`, bei dem `[LENGTH]` mit dem `d`-Argument übereinstimmt. Das Cookie enthält einen Unix-Zeitstempel, der die aktuelle Zeit und den aktuellen Status des Besuchers (`"New"` oder `"Repeat"`) darstellt.
 
