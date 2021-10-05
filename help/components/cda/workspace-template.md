@@ -3,9 +3,9 @@ title: CDA Workspace-Vorlage
 description: Beschreibt die einzelnen Felder in der CDA-Vorlage in Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe bietet eine Vorlage zum Anzeigen wichtiger geräteübergreifender Leistung
 1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie oben auf das 9-Raster-Symbol und dann auf Analytics.
 1. Klicken Sie oben auf [!UICONTROL Workspace] und anschließend auf [!UICONTROL Neues Projekt erstellen].
-1. Suchen Sie die Vorlage &quot;Geräteübergreifende Analyse&quot;und klicken Sie dann auf [!UICONTROL Erstellen].
+1. Suchen Sie nach der Vorlage „Geräteübergreifende Analyse“ und klicken Sie dann auf [!UICONTROL Erstellen].
 1. Ändern Sie bei Aufforderung die Report Suite in eine Report Suite, die CDA unterstützt.
 
 Es wird ein Analysis Workspace-Projekt erstellt, das mehrere Bedienfelder enthält. Oben werden ein Inhaltsverzeichnis und eine Einführung angezeigt, die den Kontext zum Bericht geben und die Navigation zu einzelnen Berichten ermöglichen. Klicken Sie auf einen Link im Inhaltsverzeichnis oder erweitern Sie das Akkordeon eines Bedienfelds, um diese Berichte anzuzeigen.
