@@ -4,9 +4,9 @@ title: Problembehebung in Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Sie versuchen, [ein neues Werbekonto einzurichten](/help/integrate/c-advertising
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Die Report Suite ist nicht der Experience Cloud-Organisations-ID des angemeldeten Benutzers zugeordnet. </p> </td> 
-   <td colname="col2"> <p>Wenden Sie sich an die Kundenunterstützung , um die Report Suite einer IMS-Organisation zuzuordnen.</p> </td> 
+   <td colname="col2"> <p>Wenden Sie sich an den Kunden-Support, um die Report Suite einer IMS-Organisation zuzuordnen.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Die Report Suite wurde nicht für Advertising Analytics-Reporting bereitgestellt. </p> </td> 
