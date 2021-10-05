@@ -4,9 +4,9 @@ description: Erfahren Sie, welche Variablen Sie in die an Adobe gesendeten Daten
 keywords: Appmeasurement;Variablen;Vars;Konfiguration;Seite;Implementierung
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
