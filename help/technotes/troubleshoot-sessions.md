@@ -3,9 +3,9 @@ title: Fehlerbehebung bei Sitzungen in Adobe Analytics
 description: Erfahren Sie, wie Sie Probleme bei der Abmeldung von Adobe Analytics beheben können.
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Um festzustellen, ob das Unternehmensnetzwerk, mit dem Sie verbunden sind, Probl
 
 ## Probleme aufgrund von Proxy
 
-Adobe verwendet bei Anforderungen an Adobe einen Autorisierungs-Header. Einige Proxys, wie Edge Secure Web Gateway (früher Bluecoat), entfernen wichtige Informationen zum Autorisierungs-Header, die von Adobe Analytics verwendet werden. Wenn Adobe den Autorisierungs-Header nicht empfängt, läuft die Sitzung ab.
+Adobe verwendet bei Anforderungen an Adobe einen Autorisierungs-Header. Einige Proxys wie Edge Secure Web Gateway (früher Bluecoat) entfernen wichtige Informationen vom Autorisierungs-Header, die von Adobe Analytics verwendet werden. Wenn Adobe den Autorisierungs-Header nicht empfängt, läuft die Sitzung ab.
 
 Um dieses Problem zu beheben, empfiehlt Adobe, mit dem IT-Team Ihres Unternehmens zusammenzuarbeiten, um den Autorisierungs-Header über den Proxy Ihres Unternehmens zuzulassen.
 
@@ -31,7 +31,7 @@ Um dieses Problem zu beheben, empfiehlt Adobe, mit dem IT-Team Ihres Unternehmen
 >
 >Mitglieder der Analytics-Community fanden die folgenden Links hilfreich, die allerdings nicht zu Adobe gehören. Berücksichtigen Sie diese Anmerkung bei der Anzeige der Inhalte.
 
-Informationen zu Proxys und Authentifizierungskopfzeilen finden Sie hier:
+Informationen zu Symantec-Proxys und Authentifizierungs-Headern finden Sie hier:
 
 * [Konfigurieren der Upstream-Proxy-Authentifizierung in einer Proxy-Kettenbereitstellung auf einer ProxySG- oder ASG-Appliance](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
-* [Weiterleiten von Benutzeranmeldeinformationen an einen Server hinter der ProxySG-Einheit](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
+* [Weiterleiten von Anmeldeinformationen von Benutzern an einen Server hinter der ProxySG-Einheit](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
