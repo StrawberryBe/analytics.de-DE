@@ -3,15 +3,15 @@ title: Warenkorb
 description: Die Anzahl der Treffer, bei denen ein Besucher sein erstes Produkt einem Warenkorb hinzugefügt hat.
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Warenkorb
 
-Die Metrik &quot;Warenkorb&quot;gibt die Anzahl der Treffer an, bei denen ein Besucher sein erstes Produkt zu einem Warenkorb hinzugefügt hat.
+Die Metrik „Warenkörbe“ zeigt die Anzahl der Treffer, bei denen ein Besucher sein erstes Produkt zu einem Warenkorb hinzugefügt hat.
 
 ## Berechnung dieser Metrik
 
