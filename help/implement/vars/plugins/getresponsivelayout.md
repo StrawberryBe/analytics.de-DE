@@ -3,9 +3,9 @@ title: getResponsiveLayout
 description: Ermitteln Sie, welches Layout einer Website gerade angezeigt wird.
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getResponsiveLayout` verwendet die folgenden Argumente:
+Die `getResponsiveLayout`-Funktion verwendet die folgenden Argumente:
 
 * **`ppw`** (erforderlich, Ganzzahl): Die maximale Breite von Pixeln, die ein Browser-Fenster haben kann, bevor die Seite von einem Smartphone-Hochformat-Layout zu einem Smartphone-Querformat-Layout wechselt
 * **`plw`** (Erforderlich, Ganzzahl): Die maximale Breite von Pixeln, die ein Browser-Fenster haben kann, bevor die Seite von einem Smartphone-Querformat-Layout zu einem Tablet-Layout wechselt
-* **`tw`** (erforderlich, Ganzzahl): Die maximale Breite von Pixeln, die ein Browser-Fenster haben kann, bevor die Seite von einem Tablet-Layout zu einem Desktop-Layout wechselt
+* **`tw`** (erforderlich, Ganzzahl): Die maximale Breite in Pixeln, die ein Browser-Fenster haben kann, bevor die Seite von einem Tablet-Layout zu einem Desktop-Layout wechselt
 
-Der Aufruf dieser Funktion gibt eine Zeichenfolge zurück, die zwei durch einen Doppelpunkt (`:`) getrennte Teile enthält. Der erste Teil der Zeichenfolge enthält einen der folgenden Werte, je nach Browser-Breite und obigen Argumenten:
+Der Aufruf dieser Funktion gibt eine Zeichenfolge zurück, die zwei durch einen Doppelpunkt (`:`) getrennte Teile enthält. Der erste Teil der Zeichenfolge enthält einen der folgenden Werte, je nach Browser-Breite und den obigen Argumenten:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
