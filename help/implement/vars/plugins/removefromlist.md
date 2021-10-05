@@ -3,9 +3,9 @@ title: rfl
 description: Entfernen Sie einen bestimmten Wert aus einer durch Zeichen getrennten Zeichenfolge.
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1043'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## Verwenden des Plug-ins
 
-Die Funktion `rfl` verwendet die folgenden Argumente:
+Die `rfl`-Funktion verwendet die folgenden Argumente:
 
 * **`lv`** (erforderlich, Zeichenfolge): Eine Variable (oder Zeichenfolge), die eine Liste mit getrennten Werten enthält.
 * **`vr`** (erforderlich, Zeichenfolge): Der Wert, der aus dem `lv`-Argument entfernt werden soll. Adobe empfiehlt, während eines einzelnen `rfl`-Aufrufs nicht mehrere Werte zu entfernen.
@@ -70,7 +70,7 @@ Die Funktion `rfl` verwendet die folgenden Argumente:
 * **`d2`** (optional, Zeichenfolge): Das Trennzeichen, das die Rückgabezeichenfolge verwenden soll. Die Standardeinstellung ist derselbe Wert wie das `d1`-Argument.
 * **`df`** (optional, boolesch): Wenn auf `true` gesetzt, werden anstelle aller Instanzen nur doppelte Instanzen des `vr`-Arguments vom `lv`-Argument entfernt. Die Standardeinstellung ist `false`, wenn nicht festgelegt.
 
-Der Aufruf dieser Funktion gibt eine geänderte Zeichenfolge zurück, die das `lv`-Argument enthält, jedoch keine Instanzen (oder doppelten Instanzen) des im `vr`-Argument angegebenen Werts.
+Der Aufruf dieser Methode gibt eine geänderte Zeichenfolge zurück, die das `lv`-Argument enthält, jedoch keine Instanzen (oder doppelten Instanzen) des im `vr`-Argument angegebenen Werts.
 
 ## Beispielaufrufe
 
@@ -136,7 +136,7 @@ s.events = rfl(s.events);
 s.events = "";
 ```
 
-Wenn das Argument `lv` oder das Argument `vr` in einem `rfl`-Aufruf leer ist, gibt das Plug-in nichts zurück.
+Wenn entweder das `lv`-Argument oder das `vr`-Argument leer ist (bei einem `rfl` Aufruf), dann liefert das Plug-in nichts zurück.
 
 ### Beispiel 4
 
@@ -164,7 +164,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Beachten Sie, dass das Plug-in nur einen Wert zurückgibt. die Variable, die über das `lv`-Argument übergeben wird, nicht zurückgesetzt wird.
+Beachten Sie, dass das Plug-in nur einen Wert zurückgibt; es setzt die durch das `lv`-Argument übergebene Variable nicht wirklich zurück.
 
 ### Beispiel 5
 
@@ -186,7 +186,7 @@ s.prop4 = rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-Stellen Sie das `d1`-Argument ein, wenn der `lv`-Argumentwert ein anderes Trennzeichen als der Standardwert (d. h. Komma) enthält.
+Setzen Sie immer dann, wenn der `lv`-Argumentwert ein anderes Trennzeichen als den Standardwert (z. B. ein Komma) enthält, das `d1`-Argument.
 
 ### Beispiel 6
 
@@ -250,7 +250,7 @@ s.events = rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-Wenn Sie ein Ereignis entfernen müssen, das eine Serialisierung und/oder numerische/Währungs-Syntax verwendet, sollten Sie im `rfl`-Aufruf nur das Ereignis selbst angeben (d. h. ohne die Serialisierungs-/numerischen/Währungswerte).
+Wenn Sie ein Ereignis entfernen müssen, das eine Serialisierung und/oder numerische oder Währungs-Syntax verwendet, sollten Sie im `rfl`-Aufruf nur das Ereignis selbst angeben (d. h. ohne die nummerischen oder Währungswerte bzw. Serialisierung).
 
 ### Beispiel 9
 
@@ -332,7 +332,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-Das Festlegen mehrerer Werte im `vr`-Argument wird nicht unterstützt. Die `rfl`-Logik im obigen Beispiel würde zunächst die Werte im `lv`-Argument (d. h. s.events) aufteilen und dann versuchen, jeden getrennten Wert mit dem vollständigen `vr`-Argumentwert abzugleichen (d. h. `"event23,event24"`).
+Das Festlegen mehrerer Werte im `vr`-Argument wird nicht unterstützt. Die `rfl`-Logik im obigen Beispiel würde zunächst die Werte im `lv`-Argument (d. h. s.events) aufspalten und dann versuchen, jeden abgegrenzten Wert mit dem vollständigen `vr`-Argumentwert (d. h. `"event23,event24"`) abzugleichen.
 
 ### Beispiel 13
 
@@ -355,7 +355,7 @@ s.events = rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Jeder aus der Liste zu entfernende Wert sollte in seinem eigenen `rfl` -Aufruf enthalten sein.
+Jeder aus der Liste zu entfernende Wert sollte in seinem eigenen `rfl`-Aufruf enthalten sein.
 
 ### Beispiel 14
 
@@ -377,7 +377,7 @@ s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-Die letzten drei Argumente (d. h. &quot;,&quot;,&quot;,&quot;,false) am Ende dieses `rfl`-Aufrufs sind nicht erforderlich, verletzen aber auch nichts, da sie den Standardeinstellungen entsprechen.
+Die letzten drei Argumente (d. h. &quot;,&quot;,&quot;,&quot;,false) am Ende dieses `rfl`-Aufrufs sind nicht erforderlich, sind aber auch nicht hinderlich, da sie mit den Standardeinstellungen übereinstimmen.
 
 ### Beispiel 15
 
@@ -399,7 +399,7 @@ rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Beachten Sie erneut, dass das Plug-in nur einen Wert zurückgibt. die Variable, die über das `lv`-Argument übergeben wird, nicht zurückgesetzt wird.
+Beachten Sie auch hier, dass das Plug-in nur einen Wert zurückgibt; es setzt die durch das `lv`-Argument übergebene Variable nicht wirklich zurück.
 
 ## Versionsverlauf
 
