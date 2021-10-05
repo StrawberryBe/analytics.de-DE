@@ -1,38 +1,38 @@
 ---
 title: Best Practices für die Attribution
-description: Was sind die Best Practices bei der Entscheidung über ein Attributionsmodell?
-source-git-commit: 3f586a6a183baf5ff388a55105886eb31fd4366a
-workflow-type: tm+mt
+description: Welche Best Practices bestehen für die Wahl eines Attributionsmodells?
+exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
+source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Best Practices für die Attribution
 
-Das Auswählen des richtigen Attributionsmodells für Ihre Organisation hängt von einer Reihe von Überlegungen ab. In diesem Artikel werden eine Methodik und einige allgemeine Best Practices untersucht.
+Welches Attributionsmodells für Ihr Unternehmen am besten geeignet ist, hängt von einer Reihe von Überlegungen ab. Dieser Artikel zeigt eine Methodik sowie einige allgemeine Best Practices auf.
 
-## Schritt 1: Sondierungsanalyse
+## Schritt 1: Explorative Analyse
 
 >[!NOTE]
->Diese Analyse muss durchgeführt werden, bevor Sie ein Attributionsmodell auswählen.
+>Diese Analyse muss der Entscheidung für ein bestimmtes Attributionsmodell vorangehen.
 
-Diese Phase besteht zunächst aus dem Verständnis des Kundenverhaltens und der Definition von Konversionsmetriken. Basierend auf den Konversionsmetriken erleichtern Tools wie [Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (für Rohdaten) oder Analysis Workspace Ihr Verständnis von
+In dieser vorbereitenden Phase geht es darum, ein Verständnis des Kundenverhaltens zu gewinnen und Konversionsmetriken zu bestimmen. Basierend auf der Konversionsmetrik erleichtern Tools wie [Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=de) (für Rohdaten) oder Analysis Workspace Ihr Verständnis von
 
-* Wie viele Kunden greifen vor der Konvertierung auf verschiedene Marketing-Kanäle zu?
+* Wie viele Kunden haben jeweils Kontakt mit den einzelnen Marketing-Kanälen, bevor es zu ihrer Konversion kommt?
 * Der Anteil/die Verteilung dieser Verhaltensweisen.
 
-Wenn beispielsweise 50 % der Kunden vor der Konvertierung drei Kanäle berühren, besteht dann eine Interaktion zwischen diesen drei Kanälen?
-Sie können dann eine Ober- und Unterstrichanalyse durchführen, um Ihr Verständnis zu erweitern.
+Wenn beispielsweise 50 % der Kunden vor ihrer Konversion über drei Kanäle mit Ihnen in Kontakt kommen, besteht dann eine Interaktion zwischen diesen drei Kanälen?
+Sie können dann eine Analyse des oberen und des unteren Ende des Trichters durchführen, um Ihr Verständnis zu erweitern.
 
-### Analyse des oberen Trichters
+### Analyse des oberen Ende des Trichters
 
-Die Upper-Trichter-Analyse analysiert Kanäle, die verwendet werden, um Marken- oder Produktbewusstsein zu schaffen. Das Ziel der meisten TV-Anzeigen ist beispielsweise das Markenbewusstsein. Sie können das Attributionsmodell [&quot;Zeitverfall&quot;](/help/analyze/analysis-workspace/attribution/models.md) verwenden, da Benutzer Ihre TV-Anzeige im Laufe der Zeit vergessen werden.
+Bei der Analyse des oberen Ende des Trichters werden diejenigen Kanäle untersucht, die zur Förderung der Marken- oder Produkwahrnehmung dienen. So zielen etwa TV-Werbespots in der Regel auf die Markenwahrnehmung ab. Hierfür empfiehlt sich das [Attributionsmodell des Zeitverfalls](/help/analyze/analysis-workspace/attribution/models.md), da Ihr TV-Werbespot im Zeitverlauf aus dem Gedächtnis Ihrer Zielgruppe verschwinden wird.
 
-### Analyse des unteren Trichters
+### Analyse des unteren Ende des Trichters
 
-In dieser Analyse wird davon ausgegangen, dass die Menschen bereits über Ihre Marke wissen und Sie möchten, dass sie konvertieren. Verwenden Sie E-Mail- oder Push-Benachrichtigungen oder Facebook-Anzeigen.
+Dieser Analyse liegt die Annahme zugrunde, dass Ihre Zielgruppe Ihre Marke bereits kennt und dass Sie versuchen, diese anhand bestimmter Methoden zur Konversion zu bringen. Dies geschieht über E-Mail- und Push-Benachrichtigungen oder etwa auch über Facebook-Anzeigen.
 
 ## Schritt 2: Regelbasierte Attribution
 
@@ -40,18 +40,18 @@ Dieser Schritt dient der Validierung Ihrer Hypothesen.
 
 **Beispiel 1**
 
-Nehmen wir einmal an, Ihre Hypothese lautet &quot;Mein Erstkontaktkanal hat einen größeren Einfluss auf die Konversion als mein Letztkontakt-Kanal. Anschließend verwenden Sie das Attributionsmodell [&quot;Umgekehrt J-förmig&quot;](/help/analyze/analysis-workspace/attribution/models.md), um diese Hypothese zu testen. Mit diesem Modell werden 60 % des Guthabens dem Erstkontaktpunkt gutgeschrieben.
+Angenommen, Ihre Hypothese lautet: „Mein für den Erstkontakt verwendeter Kanal hat größeren Einfluss auf die Konversion als mein für den Letztkontakt verwendeter“. In diesem Fall würden Sie das [Attributionsmodell Umgekehrt J-förmig](/help/analyze/analysis-workspace/attribution/models.md) anwenden, um diese Hypothese zu testen. Dieses Modell schreibt dem ersten Kontaktpunkt (bzw. „Touchpoint“) eine Gewichtung von 60 % zu.
 
 **Beispiel 2**
 
-Ihre Hypothese könnte sein: &quot;In unserer Branche (z. B. der Reisebranche) beträgt das Attributionsfenster 60 oder 90 Tage, nicht 30 Tage, da Kunden vor dem Kauf eines Produkts viel recherchieren. Anschließend ändern Sie Ihr [Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) in 90 Tage.
+Ihre Hypothese könnte lauten: „In unserer Branche (z. B. der Reisebranche) liegt das Attributionsfenster nicht bei 30, sondern bei 60 oder 90 Tagen, da Kunden vor dem Produktkauf intensive Recherchen vornehmen“. In diesem Fall würden Sie das [Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) entsprechend auf 90 Tage anpassen.
 
 ## Schritt 3: Algorithmische Attribution verwenden
 
-Da es sehr schwierig ist, eine große Anzahl möglicher Hypothesen und Kombinationen zu validieren, können Sie [algorithmische Attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md) verwenden, um diese Arbeit integrierten Algorithmen zu überlassen. Wenn Sie bereits das perfekte Attributionsmodell gefunden haben, das all Ihre Fragen beantwortet und perfekt passt, dann müssen Sie diesen Schritt offensichtlich nicht tun.
+Die Validierung einer großen Anzahl möglicher Hypothesen und Kombinationen ist mit einem enormen Aufwand verbunden. Diese komplexe Aufgabe können Sie mittels [algorithmischer Attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md) jedoch auch von integrierten Algorithmen erledigen lassen. Sofern Sie bereits das Attributionsmodell ermittelt haben, das ihre Fragen allesamt beantwortet und perfekt zu Ihren Anforderungen passt, ist dieser Schritt logischerweise nicht vonnöten.
 
-## Sonstige Aspekte
+## Weiter Überlegungen
 
-* Möglicherweise müssen Sie die Dienste eines Datenwissenschaftlers verwenden, anstatt sich allein auf Analysis Workspace zu verlassen.
-* Sie können sich auf Rohdaten verlassen, wie in Adobe Data Feeds.
+* Möglicherweise sollten Sie ergänzend zu Analysis Workspace einen Datenwissenschaftler hinzuziehen.
+* Sie können sich auf Rohdaten verlassen, wie in Daten-Feeds von Adobe.
 * Erwägen Sie beispielsweise die Verwendung von [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.
