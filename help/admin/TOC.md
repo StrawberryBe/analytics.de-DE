@@ -5,9 +5,9 @@ user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über das Verwalten von Benutzern und Produkten in der Experience Cloud-Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 0%
    + [CNIL-Zustimmungsfreistellung](c-data-governance/cnil-consent-exemption.md)
    + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics-Workflow zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
-   + [Data Governance-Einstellungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
+   + [Data-Governance-Einstellungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
    + [Report Suite-Daten beschriften](c-data-governance/gdpr-setup-reportsuite.md)
    + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
    + [Datenschutzbezeichnungen für Analytics-Variablen](c-data-governance/gdpr-labels.md)
