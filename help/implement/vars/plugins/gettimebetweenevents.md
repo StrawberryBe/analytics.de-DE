@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: Messen Sie den Zeitraum zwischen zwei Ereignissen.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '800'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getTimeBetweenEvents` verwendet die folgenden Argumente:
+Die `getTimeBetweenEvents`-Funktion verwendet die folgenden Argumente:
 
 * **`ste`** (erforderlich, Zeichenfolge): Start-Timer-Ereignisse. Eine durch Komma getrennte Zeichenfolge aus Analytics-Ereignissen, die den Timer starten sollen.
 * **`rt`** (erforderlich, boolesch): Option, den Timer erneut zu starten. Setzen Sie das Argument auf `true`, wenn Sie den Timer jedes Mal neu starten möchten, wenn die `events`-Variable ein Start-timer-Ereignis enthält. Setzen Sie das Argument auf `false`, wenn der Timer bei einem Start-Timer-Ereignis nicht neu gestartet werden soll.
@@ -81,7 +81,7 @@ Die Funktion `getTimeBetweenEvents` verwendet die folgenden Argumente:
 * **`bml`** (optional, Zahl): Die Länge des Rundungs-Benchmarks entsprechend dem Format des `fmt`-Arguments. Wenn das `fmt`-Argument beispielsweise `"s"` ist und dieses Argument `2` lautet, wird der Rückgabewert auf den nächsten 2-Sekunden-Benchmark gerundet. Wenn das `fmt`-Argument `"m"` ist und dieses Argument `0.5` lautet, wird der Rückgabewert auf den nächsten Halbminuten-Benchmark gerundet.
 * **`rte`** (optional, Zeichenfolge): Durch Komma getrennte Zeichenfolge von Analytics-Ereignissen, die den Timer entfernen oder löschen. Die Standardeinstellung ist leer.
 
-Der Aufruf dieser Funktion gibt eine Ganzzahl zurück, die die Zeit zwischen dem Start-Timer-Ereignis und dem Stopp-Timer-Ereignis im gewünschten Format darstellt.
+Beim Aufrufen dieser Funktion wird eine Ganzzahl zurückgegeben, die die Zeit zwischen dem Start-Timer-Ereignis und dem Stop-Timer-Ereignis im gewünschten Format darstellt.
 
 ## Beispielaufrufe
 
