@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 * Sie können [sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) erstellen.
 * Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
-Weitere Informationen finden Sie im Beitrag [Verbessern der Segmentierung in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) im Adoben-Blog .
+Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) im Adobe-Blog.
 
 ## Zugriff auf die Segmentierungswerkzeuge {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie im Beitrag [Verbessern der Segmentierung in Ado
 
 Sie können wie folgt auf den Segment Builder zugreifen:
 
-* Zeigen Sie einen vorhandenen Bericht an und klicken Sie im linken Navigationsbereich auf das Segmentsymbol ![Segmentsymbol](assets/segment_icon.png) . Klicken Sie in der angezeigten Segmentleiste auf **[!UICONTROL Hinzufügen]** oder
+* Öffnen Sie einen vorhandenen Bericht und klicken Sie auf das ![Segmentsymbol](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie in der angezeigten Segmentleiste auf **[!UICONTROL Hinzufügen]** oder
 
 * Klicken Sie oben im Segment-Manager auf **[!UICONTROL + Hinzufügen]**.  ![Schaltfläche hinzufügen](assets/add_button.png)
 
@@ -53,7 +53,7 @@ Sie können wie folgt auf den Segment-Manager zugreifen:
 
 * Wechseln Sie in der oberen Navigation zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Segmente]** oder
 
-* Zeigen Sie einen vorhandenen Bericht an und klicken Sie im linken Navigationsbereich auf das Segmentsymbol ![Segmentsymbol](assets/segment_icon.png) . Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
+* Öffnen Sie einen vorhandenen Bericht und klicken Sie auf das ![Segmentsymbol](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
 
 * drücken Sie an einer beliebigen Stelle die Schrägstrich-Taste (/) und suchen Sie nach Segment Manager.
 
