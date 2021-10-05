@@ -3,9 +3,9 @@ title: Übersicht über die JavaScript-Implementierung mit H-Code
 description: Erfahren Sie mehr über den Workflow zur Implementierung von H-Code auf Ihrer Website.
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '389'
+ht-degree: 100%
 
 ---
 
