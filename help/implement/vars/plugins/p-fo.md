@@ -3,9 +3,9 @@ title: p_fo (Page First Only (nur einmal pro Seite))
 description: Stellen Sie sicher, dass bestimmte Routinen nur einmal pro Seite ausgelöst werden.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Verwenden des Plug-ins
 
-Die Funktion `p_fo` verwendet die folgenden Argumente:
+Die `p_fo`-Funktion verwendet die folgenden Argumente:
 
 * **on** (erforderlich, Zeichenfolge): Der Name des JavaScript-Objekts, das vom Plug-in erzeugt wird, wenn das Objekt noch nicht auf der Seite vorhanden ist.
 
@@ -78,7 +78,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**HINWEIS:**  Jedes Mal, wenn ein neues Seitenobjekt/DOM geladen wird (oder die aktuelle Seite neu geladen wird), ist das im on-Argument angegebene Objekt nicht mehr vorhanden. Daher gibt das p_fo-Plug-in nach dem ersten Laden der Seite erneut &quot;true&quot;zurück, wenn es ausgeführt wird.
+**HINWEIS:** Jedes Mal, wenn ein neues Seitenobjekt/DOM geladen wird (oder die aktuelle Seite erneut geladen wird), ist das im on-Argument angegebene Objekt nicht mehr vorhanden. Daher gibt das p_fo-Plug-in bei der ersten Ausführung nach Abschluss des Ladevorgangs der Seite erneut den Wert „true“ zurück.
 
 ## Versionsverlauf
 
