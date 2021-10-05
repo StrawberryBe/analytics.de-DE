@@ -3,9 +3,9 @@ title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '666'
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getQueryParam` verwendet die folgenden Argumente:
+Die `getQueryParam`-Funktion verwendet die folgenden Argumente:
 
 * **`qsp`** (erforderlich): Eine durch Komma getrennte Liste von Abfragezeichenfolgenparametern, nach denen in der URL gesucht werden soll. Es wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 * **`de`** (optional): Das zu verwendende Trennzeichen, wenn mehrere Abfragezeichenfolgenparameter übereinstimmen. Der Standardwert ist eine leere Zeichenfolge.
@@ -63,10 +63,10 @@ Die Funktion `getQueryParam` verwendet die folgenden Argumente:
 
 Der Aufruf dieser Funktion gibt einen Wert zurück, der von den oben genannten Argumenten und der URL abhängt:
 
-* Wenn kein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Funktion eine leere Zeichenfolge zurück.
-* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Funktion den Parameterwert der Abfragezeichenfolge zurück.
-* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, der Wert jedoch leer ist, gibt die Funktion `true` zurück.
-* Wenn mehrere übereinstimmende Abfragezeichenfolgenparameter gefunden werden, gibt die Funktion eine Zeichenfolge zurück, bei der jeder Parameterwert durch die Zeichenfolge im `de`-Argument getrennt wird.
+* Wenn kein übereinstimmender Abfragezeichenfolgen-Parameter gefunden wird, gibt die Funktion eine leere Zeichenfolge zurück.
+* Wenn ein übereinstimmender Abfragezeichenfolgen-Parameter gefunden wird, gibt die Funktion den Parameterwert der Abfragezeichenfolge zurück.
+* Wenn ein übereinstimmender Abfragezeichenfolgen-Parameter gefunden wird, der Wert jedoch leer ist, gibt die Funktion `true` zurück.
+* Wenn mehrere übereinstimmende Abfragezeichenfolgen-Parameter gefunden werden, gibt die Funktion eine Zeichenfolge zurück, bei der jeder Parameterwert durch die Zeichenfolge im `de`-Argument getrennt wird.
 
 ## Beispiele
 
