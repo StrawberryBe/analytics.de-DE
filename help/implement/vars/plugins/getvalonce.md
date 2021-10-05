@@ -3,9 +3,9 @@ title: getValOnce
 description: Verhindern Sie, dass eine Analytics-Variable zweimal hintereinander auf denselben Wert gesetzt wird.
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '577'
+ht-degree: 100%
 
 ---
 
@@ -59,14 +59,14 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getValOnce` verwendet die folgenden Argumente:
+Die `getValOnce`-Funktion verwendet die folgenden Argumente:
 
 * **`vtc`** (erforderlich, Zeichenfolge): Die Variable, die daraufhin geprüft werden soll, ob sie gerade zuvor auf einen identischen Wert gesetzt wurde
 * **`cn`** (optional, Zeichenfolge): Der Name des Cookies, das den zu prüfenden Wert enthält. Die Standardeinstellung ist `"s_gvo"`
 * **`et`** (optional, Ganzzahl): Der Ablauf des Cookies in Tagen (oder Minuten, je nach dem `ep`-Argument). Die Standardeinstellung ist `0`, die am Ende der Browser-Sitzung abläuft
 * **`ep`** (optional, Zeichenfolge): Legen Sie dieses Argument nur fest, wenn das `et`-Argument ebenfalls festgelegt ist. Setzen Sie dieses Argument auf `"m"`, wenn Sie möchten, dass das `et`-Argument in Minuten statt in Tagen abläuft. Die Standardeinstellung ist `"d"`, die das `et`-Argument in Tagen festlegt.
 
-Wenn das `vtc`-Argument und der Cookie-Wert übereinstimmen, gibt diese Funktion eine leere Zeichenfolge zurück. Wenn das `vtc`-Argument und der Cookie-Wert nicht übereinstimmen, gibt die Funktion das `vtc`-Argument als Zeichenfolge zurück.
+Wenn das Argument `vtc` und der Cookie-Wert übereinstimmen, gibt diese Funktion eine leere Zeichenfolge zurück. Wenn das Argument `vtc` und der Cookie-Wert nicht übereinstimmen, gibt die Funktion das Argument `vtc` als Zeichenfolge zurück.
 
 ## Beispiele
 
