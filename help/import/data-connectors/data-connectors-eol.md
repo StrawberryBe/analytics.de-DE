@@ -3,9 +3,9 @@ description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht m
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 82%
 
 Seit mehr als einem Jahrzehnt ist Adobe Analytics bestrebt, die marktführende Web- und Marketing-Analyselösung zur Erfüllung der Kundenanforderungen bereitzustellen. Im Zuge der Entwicklung von Technologie- und Geschäftsanforderungen streben wir danach, stets die höchsten Standards zu erfüllen.  Leider entsprechen die APIs, die diese Integration unterstützen, nicht mehr diesen Standards und sind in der modernen Adobe Analytics-Technologieinfrastruktur nicht mehr haltbar.
 
-**Mit Wirkung vom 19. August 2021** hat Adobe die Data Connectors-Integrationen eingestellt. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und Adobe zielt darauf ab, den Übergang für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
+**Mit dem 19. August 2021** wird Adobe Integrationen von Daten-Connectors einstellen. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und Adobe zielt darauf ab, den Übergang für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
 
 ## Warum schaffen wir diese Funktion ab?
 
@@ -23,7 +23,7 @@ Diese Funktion basiert auf älterer Technologie, die nicht mehr funktionsfähig 
 
 Wenn Sie Adobe-Partner sind, finden Sie [hier](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) in unserer Dokumentation Detailinformationen zur Migration Ihrer Integration in unser neues Adobe Exchange-Programm.
 
-Wenn Sie ein Data Connector-Kunde sind und eine Migration der verwendeten Integration anfordern möchten, sollten Sie *alle Anfragen direkt an den Integrationspartner weiterleiten*. Der Partner muss sich dazu verpflichten, zu den neuen APIs zu wechseln. Leider kann die Kundenunterstützung von Adobe Partner nicht dazu zwingen, zu den neuen APIs zu wechseln.
+Wenn Sie ein Data Connector-Kunde sind und eine Migration der verwendeten Integration anfordern möchten, sollten Sie *alle Anfragen direkt an den Integrationspartner weiterleiten*. Der Partner muss sich dazu verpflichten, zu den neuen APIs zu wechseln. Leider kann die Adobe-Kundenunterstützung Partner nicht dazu zwingen, zu den neuen APIs zu wechseln.
 
 Jede Firma, die eine Integration bereitstellt, erhielt die Möglichkeit, ihre Integration in Adobe Exchange zu migrieren oder ihre Integration einzustellen. Nachstehend finden Sie eine Zusammenfassung zu jeder aktuellen Integration und zu ihrer begleitenden Entscheidung.
 
