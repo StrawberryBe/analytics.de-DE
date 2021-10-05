@@ -3,9 +3,9 @@ title: getPageName
 description: Erstellen Sie einen leicht verständlichen Seitennamen aus dem aktuellen Website-Pfad.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getPageName` verwendet die folgenden Argumente:
+Die `getPageName`-Funktion verwendet die folgenden Argumente:
 
 * **`si`** (optional, Zeichenfolge): Eine ID, die am Anfang der Zeichenfolge eingefügt wird, welche die ID der Website darstellt. Dieser Wert kann entweder eine numerische ID oder ein benutzerfreundlicher Name sein. Wenn sie nicht eingestellt ist, wird standardmäßig die aktuelle Domäne verwendet.
 * **`qv`** (optional, Zeichenfolge): Eine durch Komma getrennte Liste von Abfragezeichenfolgenparametern, die, falls sie in der URL enthalten sind, der Zeichenfolge hinzugefügt werden
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Aktualisieren von früheren Versionen
 
-Version 4.0+ des Plug-ins `getPageName` ist nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. dem `s`-Objekt) abhängig. Wenn Sie auf diese Version aktualisieren, ändern Sie den Code, der das Plug-in aufruft, indem Sie alle Instanzen des `s` -Objekts aus dem Aufruf entfernen. Ändern Sie beispielsweise `s.getPageName();` in `getPageName();`.
+Die Ausführung von Version 4.0+ des `getPageName`-Plug-ins hängt nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. des `s`-Objekts) ab). Wenn Sie sich für eine Aktualisierung auf diese Version entscheiden, müssen Sie den Code ändern, der das Plug-in aufruft, indem Sie alle Instanzen des `s`-Objekts aus dem Aufruf entfernen. Ändern Sie beispielsweise `s.getPageName();` in `getPageName();`.
 
 ## Versionsverlauf
 
