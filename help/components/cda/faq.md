@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
 source-wordcount: '1949'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -120,9 +120,9 @@ Die Vorteile der Verwendung des eintägigen Wiederholungs-Lookback-Fensters sind
 
 Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordnete Daten. Alle zuvor zugeordneten Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites für geräteübergreifende Analyse jetzt keine geräteübergreifende Zuordnung widerspiegeln. Die Daten ähneln der ursprünglich nicht zugeordneten Report Suite.
 
-## Warum unterscheidet sich die Gesamtzahl der Treffer zwischen meiner Quell-Report Suite und der Virtual Report Suite der geräteübergreifenden Analyse?
+## Warum unterscheidet sich die Gesamtzahl der Treffer zwischen meiner ursprünglichen Report Suite und der Virtual Report Suite der geräteübergreifenden Analyse?
 
-Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für die geräteübergreifende Analyse erwartet. Sie hat nur geringe Auswirkungen auf die geräteübergreifenden Funktionen.
+Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für die geräteübergreifende Analyse erwartet. Dies hat nur geringe Auswirkungen auf die geräteübergreifenden Funktionen.
 
 ## Warum ist die Metrik &quot;Identifizierte Personen&quot;überhöht?
 

@@ -7,7 +7,7 @@ user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Ko
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
    + [Tage bis Erstkauf](dimensions/days-before-first-purchase.md)
    + [Tage seit letztem Kauf](dimensions/days-since-last-purchase.md)
    + [Tage seit dem letzten Besuch](dimensions/days-since-last-visit.md)
-   + [Domäne](dimensions/domain.md)
+   + [Domain](dimensions/domain.md)
    + [Downloadlink](dimensions/download-link.md)
    + [Einstiegsdimensionen](dimensions/entry-dimensions.md)
    + [eVar](dimensions/evar.md)
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [Berechnete Metriken insgesamt](c-calcmetrics/cm-totals.md)
 + Virtual Report Suites {#virtual-report-suites}
    + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
-   + [Virtual Report Suite - Komponentenkuratierung](vrs/vrs-components.md)
+   + [Virtual Report Suite – Kuratierung von Komponenten](vrs/vrs-components.md)
    + [VRS-Unterstützung in Mobile Services](vrs/vrs-mobile-services.md)
    + [Kontextbezogene Sitzungen](vrs/vrs-mobile-visit-processing.md)
    + [Berichtszeitverarbeitung](vrs/vrs-report-time-processing.md)
