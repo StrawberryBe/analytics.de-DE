@@ -3,9 +3,9 @@ title: getVisitNum
 description: Verfolgen Sie die aktuelle Besuchsnummer eines Besuchers.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '684'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getVisitNum` verwendet die folgenden Argumente:
+Die `getVisitNum`-Funktion verwendet die folgenden Argumente:
 
 * **`rp`** (optional, Ganzzahl ODER Zeichenfolge): Die Anzahl der Tage, bevor der Besuchsnummerzähler zurückgesetzt wird.  Die Standardeinstellung ist `365`, wenn nicht festgelegt.
    * Wenn dieses Argument `"w"` ist, wird der Zähler am Ende der Woche (an diesem Samstag um 23:59 Uhr) zurückgesetzt
@@ -65,7 +65,7 @@ Die Funktion `getVisitNum` verwendet die folgenden Argumente:
    * Wenn dieses Argument `"y"` ist, wird der Zähler am Ende des Jahres (am 31. Dezember) zurückgesetzt
 * **`erp`** (optional, boolesch): Wenn das `rp`-Argument eine Zahl ist, bestimmt dieses Argument, ob die Gültigkeit der Besuchsnummer verlängert werden soll. Wenn der Wert auf `true` gesetzt wird, wird der Besuchsnummernzähler durch nachfolgende Treffer auf Ihrer Website zurückgesetzt. Wenn der Wert auf `false` gesetzt wird, werden nachfolgende Treffer auf Ihrer Website nicht verlängert, wenn der Zähler für die Besuchsnummer zurückgesetzt wird. Die Standardeinstellung ist `true`. Dieses Argument ist nicht gültig, wenn das `rp`-Argument eine Zeichenfolge ist.
 
-Die Anzahl der Besuche wird erhöht, wenn der Besucher nach 30 Minuten Inaktivität zu Ihrer Website zurückkehrt. Der Aufruf dieser Funktion gibt eine Ganzzahl zurück, die die aktuelle Besuchsnummer des Besuchers darstellt.
+Die Anzahl der Besuche wird erhöht, wenn der Besucher nach 30 Minuten Inaktivität zu Ihrer Website zurückkehrt. Der Aufruf dieser Funktion gibt eine Ganzzahl zurück, die die aktuelle Besuchsnummer des Besuchers angibt.
 
 Dieses Plug-in setzt ein Erstanbieter-Cookie mit dem Namen `"s_vnc[LENGTH]"`, wobei `[LENGTH]` der Wert ist, der an das `rp`-Argument übergeben wird. Beispiele: `"s_vncw"`, `"s_vncm"` oder `"s_vnc365"`. Der Wert des Cookies ist eine Kombination aus einem Unix-Zeitstempel, der angibt, wann die Besuchsanzahl zurückgesetzt wird, z. B. Ende der Woche, Ende des Monats oder nach 365 Tagen Inaktivität. Er enthält auch die aktuelle Besuchsnummer. Dieses Plug-in setzt ein weiteres Cookie mit dem Namen `"s_ivc"`, das auf `true` gesetzt ist und nach 30 Minuten Inaktivität abläuft.
 
