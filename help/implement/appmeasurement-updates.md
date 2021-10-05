@@ -4,9 +4,9 @@ description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2201'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 Releasedatum: **7. September 2021**
 
-* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` immer bei Tracking-Links einbezogen. Hier finden Sie eine [vollständige Liste der Zustimmungsvariablen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Hier finden Sie eine [vollständige Liste der Zustimmungsvariablen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=de).
 
 ## Version 2.22.1
 
 Releasedatum: **17. August 2021**
 
-* Kunden, die das Opt-out verwenden, haben möglicherweise gesehen, dass die Opt-out-Parameter für die serverseitige Weiterleitung beim Tracking von Links nicht berücksichtigt wurden. Die Korrekturen in dieser Version führen dazu, dass die Opt-out-Flags gesendet werden, wenn sie bei Tracking-Links vorhanden sind.
+* Kunden, die das Opt-out verwenden, haben möglicherweise gesehen, dass die Opt-out-Parameter für die Server-seitige Weiterleitung beim Verfolgen von Links nicht berücksichtigt wurden. Die Korrekturen in dieser Version führen dazu, dass die Opt-out-Flags gesendet werden, wenn sie beim Verfolgen von Links vorhanden sind.
 
 ## Version 2.22.0
 
@@ -437,7 +437,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) zu unterstützen.
 
 ## Version 1.1.1
 
