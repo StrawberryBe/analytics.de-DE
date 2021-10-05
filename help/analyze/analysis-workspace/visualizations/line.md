@@ -2,23 +2,23 @@
 description: Linienvisualisierung zur Darstellung von (zeitbasierten) Trend-Datensätzen verwenden
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: Visualisierungen
+feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
 # Linie
 
-Die Visualisierung [!UICONTROL Zeile] stellt Metriken anhand einer Zeile dar, um zu zeigen, wie sich Werte über einen bestimmten Zeitraum ändern. Ein [!UICONTROL Liniendiagramm] kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
+Die [!UICONTROL Linien]-Visualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein [!UICONTROL Linien]-Diagramm kann nur verwendet werden, wenn die Zeit eine der Dimensionen ist.
 
 ![Linienvisualisierung](assets/line-viz.png)
 
-Klicken Sie auf das Zahnradsymbol oben rechts in der Visualisierung [!UICONTROL Zeile] , um auf [**Visualisierungseinstellungen**](freeform-analysis-visualizations.md) zuzugreifen. Die Einstellungen sind in folgende Kategorien unterteilt:
+Klicken Sie auf das Zahnrad-Symbol in der oberen rechten [!UICONTROL Linien]-Visualisierung zum Zugriff auf die verfügbaren [**Visualisierungseinstellungen**](freeform-analysis-visualizations.md). Die Einstellungen sind in folgende Kategorien unterteilt:
 
 * **Allgemein**: Einstellungen, die für verschiedene Visualisierungstypen gelten
 * **Achse**: Einstellungen, die sich auf die x- oder y-Achse der Linienvisualisierung auswirken
