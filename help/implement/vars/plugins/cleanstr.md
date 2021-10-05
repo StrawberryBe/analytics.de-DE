@@ -3,9 +3,9 @@ title: cleanStr
 description: Entfernen oder ersetzen Sie alle unnötigen Zeichen aus einer Zeichenfolge.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Verwenden des Plug-ins
 
-Die Funktion `cleanStr` verwendet die folgenden Argumente:
+Die `cleanStr`-Funktion verwendet die folgenden Argumente:
 
 * **`str`** (erforderlich, Zeichenfolge): Der Wert, den Sie von der HTML-Codierung, zusätzlichen Leerzeichen, Tabulatoren oder anderen unnötigen Zeichen bereinigen möchten.
 
