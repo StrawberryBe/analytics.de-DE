@@ -3,10 +3,10 @@ description: So erstellen Sie eine Scorecard für Adobe Analytics-Dashboards
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 58%
+source-wordcount: '1195'
+ht-degree: 59%
 
 ---
 
@@ -104,7 +104,7 @@ Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue 
 
 ### Visualisierungen anwenden
 
-Analytics-Dashboards bieten jetzt vier Visualisierungen, die großartige Einblicke in Dimensionselemente bieten. Wenden Sie eine andere Visualisierung an, indem Sie den [!UICONTROL Diagrammtyp] der Eigenschaften einer Kachel ändern:
+Analytics-Dashboards bieten vier Visualisierungen, die Ihnen einen umfassenden Einblick in Dimensionselemente und Metriken bieten. Wechseln Sie zu einer anderen Visualisierung, indem Sie den [!UICONTROL Diagrammtyp] der Eigenschaften einer Kachel ändern:
 
 ![Kacheleigenschaften](assets/properties.png)
 
@@ -116,7 +116,9 @@ Analytics-Dashboards bieten jetzt vier Visualisierungen, die großartige Einblic
 
 **Linienvisualisierung**
 
-Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
+Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Linien-Diagramm kann nur verwendet werden, wenn die Zeit eine der Dimensionen ist.
+
+
 
 **[!UICONTROL Horizontale ] Barvisualisierung**
 
