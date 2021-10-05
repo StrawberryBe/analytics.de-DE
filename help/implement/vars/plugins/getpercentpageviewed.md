@@ -3,9 +3,9 @@ title: getPercentPageViewed
 description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher aufgerufen hat.
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '689'
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getPercentPageViewed` verwendet die folgenden Argumente:
+Die `getPercentPageViewed`-Funktion verwendet die folgenden Argumente:
 
 * **`pid`** (optional, Zeichenfolge): Eine seitenbasierte Kennung, die Sie mit den Prozentsätzen korrelieren können, die durch die Messungen des Plug-ins bereitgestellt werden.  Ist standardmäßig die `pageName`-Variable.
 * **`ch`** (optional, boolesch): Setzen Sie dies auf `false` (oder `0`), wenn Sie nicht möchten, dass das Plug-in Änderungen berücksichtigt, die nach dem ersten Laden an der Größe einer Seite vorgenommen wurden. Wenn dieses Argument weggelassen wird, wird standardmäßig `true` verwendet. Adobe empfiehlt, dieses Argument in den meisten Fällen wegzulassen.
