@@ -3,9 +3,9 @@ title: pt
 description: Führt eine Funktion für eine Liste von Variablen aus.
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '608'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Das `pt`-Plug-in führt eine Funktion oder Methode für eine Liste von Analytics-Variablen aus. Beispielsweise können Sie die Funktion [`clearVars`](../functions/clearvars.md) selektiv für mehrere Variablen ausführen, ohne die Funktion jedes Mal manuell aufzurufen. Mehrere andere Plug-ins sind auf diesen Code angewiesen, um korrekt zu funktionieren. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehrere Analytics-Variablen ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
+Das `pt`-Plug-in führt eine Funktion oder Methode für eine Liste von Analytics-Variablen aus. Beispielsweise können Sie die [`clearVars`](../functions/clearvars.md)-Methode selektiv für mehrere Variablen ausführen, ohne die Methode jedes Mal manuell aufzurufen. Mehrere andere Plug-ins sind auf diesen Code angewiesen, um korrekt zu funktionieren. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehrere Analytics-Variablen ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
 
 ## Installieren des Plug-ins mithilfe von Tags in Adobe Experience Platform
 
@@ -57,14 +57,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## Verwenden des Plug-ins
 
-Die Funktion `pt` verwendet die folgenden Argumente:
+Die `pt`-Methode verwendet die folgenden Argumente:
 
 * **`l`** (erforderlich, Zeichenfolge): Eine Liste von Variablen, für die die im `cf`-Argument enthaltene Funktion ausgeführt werden kann.
 * **`de`** (optional, Zeichenfolge): Das Trennzeichen, das die Liste der Variablen im `l`-Argument trennt. Der Standardwert ist ein Komma (`,`).
 * **`cf`** (erforderlich, Zeichenfolge): Der Name der Callback-Funktion im AppMeasurement-Objekt, die für jede der im `l`-Argument enthaltenen Variablen aufgerufen werden soll.
 * **`fa`** (optional, Zeichenfolge): Wenn die Funktion im `cf`-Argument bei Ausführung zusätzliche Argumente benötigt, schließen Sie sie hier ein. Die Standardeinstellung ist `undefined`.
 
-Der Aufruf dieser Funktion gibt einen Wert zurück, wenn die Callback-Funktion (im `cf`-Argument) einen Wert zurückgibt.
+Der Aufruf dieser Methode gibt einen Wert zurück, wenn die Callback-Funktion (im `cf`-Argument) einen Wert zurückgibt.
 
 ## Beispielaufrufe
 
