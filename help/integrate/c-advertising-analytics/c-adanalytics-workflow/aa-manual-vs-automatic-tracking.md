@@ -3,9 +3,9 @@ description: Tracking bestimmt, wie Suchmaschinendaten von Ihrer Adobe Analytics
 title: 'Tracking: Manueller Modus und Auto-Modus'
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
