@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,8 +85,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `hier1 - hier5` | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste. Das in den Report Suite-Einstellungen gewählte Trennzeichen. | varchar(255) |
 | `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. Trefferquellen 1, 2 und 6 werden in Rechnung gestellt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social <br>10: Server-seitige Weiterleitung in Audience Manager verwendet | tinyint unsigniert |
 | `hit_time_gmt` | Der Zeitstempfel der Adobe-Datenerfassungsserver erhielt den Treffer, basierend auf der Unix-Zeit. | int |
-| `hitid_high` | Wird zusammen mit `hitid_low` verwendet, um einen Treffer zu identifizieren. | bigint unsigniert |
-| `hitid_low` | Wird zusammen mit `hitid_high` verwendet, um einen Treffer zu identifizieren. | bigint unsigniert |
+| `hitid_high` | Wird zusammen mit `hitid_low` zur Identifizierung eines Treffers verwendet. | bigint unsigniert |
+| `hitid_low` | Wird zusammen mit `hitid_high` zur Identifizierung eines Treffers verwendet. | bigint unsigniert |
 | `homepage` | Wird nicht mehr verwendet. Wird angezeigt, wenn die aktuelle URL die Browser-Startseite ist. | char(1) |
 | `hourly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer stündlicher Besucher ist. | tinyint unsigniert |
 | `ip` | IP-Adresse basierend auf dem HTTP-Header der Bildanforderung. | char(20) |
@@ -105,7 +105,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mcvisid` | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | `mobile_id` | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
 | `mobileaction` | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
-| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:    `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:   `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
 | `mobileappperformancecrashid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
 | `mobileappstoreobjectid` | Wird im Appfigures-Daten-Connector verwendet. App Store-Objekt-ID. | varchar(255) |
@@ -199,7 +199,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `state` | Statusvariable. | varchar(50) |
 | `stats_server` | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
 | `t_time_info` | Lokale Zeit des Besuchers. Das Format ist: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die er derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
 | `tnt_action` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die der Treffer qualifiziert ist. | text |
 | `tnt_post_vista` | Wird nicht mehr verwendet. Verwenden Sie stattdessen `post_tnt`. | text |
 | `transactionid` | Eine eindeutige Kennung, bei der später verschiedene Datenpunkte via Datenquellen hochgeladen werden können. Erfasst mithilfe der Variablen [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
