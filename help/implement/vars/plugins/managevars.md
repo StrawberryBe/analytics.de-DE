@@ -3,9 +3,9 @@ title: manageVars
 description: Ändern Sie die Werte mehrerer Analytics-Variablen gleichzeitig.
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '703'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Verwenden des Plug-ins
 
-Die Funktion `manageVars` verwendet die folgenden Argumente:
+Die `manageVars`-Funktion verwendet die folgenden Argumente:
 
 * **`cb`** (erforderlich, Zeichenfolge): Der Name einer Callback-Funktion, mit der das Plug-in die Analytics-Variablen bearbeiten kann. Sie können eine Adobe-Funktion wie `cleanStr` oder Ihre eigene benutzerdefinierte Funktion verwenden.
 * **`l`** (optional, Zeichenfolge): Eine kommagetrennte Liste der Analytics-Variablen, die Sie bearbeiten möchten. Wenn nicht festgelegt, werden standardmäßig ALLE Adobe Analytics-Variablen bearbeiten. Dazu gehören:
