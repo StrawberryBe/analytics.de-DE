@@ -3,9 +3,9 @@ title: addProductEvent
 description: Fügt den Variablen „products“ und „events“ benutzerspezifische Ereignisse hinzu.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -57,17 +57,17 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## Verwenden des Plug-ins
 
-Die Funktion `addProductEvent` verwendet die folgenden Argumente:
+Die `addProductEvent`-Funktion verwendet die folgenden Argumente:
 
 * **`en`** (erforderlich, Zeichenfolge): Das Ereignis, das zum letzten Eintrag in der `products`-Variablen hinzugefügt wird. Wenn die `products`-Variable leer ist, wird ein „leerer“ Produkteintrag mit dem angehängten Ereignis (und dessen Wert) erstellt.
-* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im `en`-Argument zugewiesen wird.  Die Standardeinstellung ist `1`, wenn nicht festgelegt. In Anführungszeichen gesetzte Zahlen sind ebenfalls gültig.
+* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im `en`-Argument zugewiesen wird.  Die Standardeinstellung ist `1`, wenn nicht festgelegt. Nicht in Anführungszeichen gesetzte Zahlen sind ebenfalls gültig.
 * **`ap`** (optional, boolesch): Wenn die Variable „products“ derzeit mehr als einen Produkteintrag enthält, wird mit dem Wert `true` (oder `1`) das Ereignis allen Produkteinträgen hinzugefügt.  Die Standardeinstellung ist `false`, wenn nicht festgelegt.
 
 `addProductEvent` gibt nichts zurück. Stattdessen werden das Ereignis und sein Wert der `products`-Variablen hinzugefügt. Das Plug-in fügt das Ereignis auch automatisch der [`events`](../page-vars/events/events-overview.md)-Variablen hinzu, da es auch dort benötigt wird.
 
 ## Cookies
 
-Die Funktion `addProductEvent` erstellt oder verwendet keine Cookies.
+Die Funktion `addProductEvent` erstellt und verwendet keine Cookies.
 
 ## Beispiele
 
