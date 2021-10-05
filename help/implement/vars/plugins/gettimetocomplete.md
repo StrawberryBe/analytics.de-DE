@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: Messen Sie die Zeit, die zum Ausführen einer Aufgabe benötigt wird.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getTimeToComplete` verwendet die folgenden Argumente:
+Die `getTimeToComplete`-Funktion verwendet die folgenden Argumente:
 
 * **`sos`** (optional, Zeichenfolge): Stellen Sie `"start"` ein, wenn Sie den Timer starten möchten. Stellen Sie `"stop"` ein, wenn Sie den Timer anhalten möchten. Die Standardeinstellung ist `"start"`.
 * **`cn`** (optional, Zeichenfolge): Der Name des Cookies, in dem der Startzeit gespeichert werden soll. Die Standardeinstellung ist `"s_gttc"`.
 * **`exp`** (optional, Ganzzahl): Die Anzahl der Tage, in denen das Cookie (und der Timer) abläuft. Die Standardeinstellung ist `0`, was das Ende der Browser-Sitzung darstellt.
 
-Der Aufruf dieser Funktion gibt eine Zeichenfolge zurück, die die Anzahl der Tage, Stunden, Minuten und/oder Sekunden zwischen der Aktion `"start"` und `"stop"` enthält.
+Beim Aufrufen dieser Funktion wird eine Zeichenfolge zurückgegeben, die die Anzahl der Tage, Stunden, Minuten und/oder Sekunden zwischen der `"start"`- und der `"stop"`-Aktion enthält.
 
 ## Beispiele
 
