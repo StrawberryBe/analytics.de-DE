@@ -1,13 +1,13 @@
 ---
 description: Quick Insights ist ein Tool für neue Workspace-Benutzer, das diese beim Erstellen von Datentabellen und Visualisierungen unterstützt.
 title: Bedienfeld „Quick Insights“
-feature: Bedienfelder
+feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Um Ihnen dabei zu helfen und basierend auf der Nutzung von Datenkomponenten durc
 * Ausführen einfacher Aufschlüsselungen von Dimensionen, Hinzufügen mehrerer Metriken oder Vergleichen von Segmenten in einer [!UICONTROL Freiformtabelle].
 * Ändern oder Ausprobieren verschiedener Visualisierungstypen, um das Suchwerkzeug für Ihre Analyse schnell und intuitiv zu finden.
 
-Im Folgenden finden Sie eine Videoübersicht zum Bedienfeld [!UICONTROL Quick Insights] :
+Im Folgenden finden Sie eine Videoübersicht zum Bedienfeld [!UICONTROL Quick Insights]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
