@@ -3,9 +3,9 @@ title: getPreviousValue
 description: Rufen Sie den letzten Wert ab, der an eine Variable übergeben wird.
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '664'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getPreviousValue` verwendet die folgenden Argumente:
+Die `getPreviousValue`-Funktion verwendet die folgenden Argumente:
 
 * **`v`** (Zeichenfolge erforderlich): Die Variable mit dem Wert, der an die nächste Bildanforderung übergeben werden soll. Eine häufig verwendete Variable ist `s.pageName`, um den Wert der vorherigen Seite abzurufen.
 * **`c`** (Zeichenfolge, optional): Der Name des Cookies, in dem der Wert gespeichert wird.  Wenn dieses Argument nicht festgelegt ist, wird standardmäßig `"s_gpv"` verwendet.
@@ -83,7 +83,7 @@ s.eVar10 = getPreviousValue(s.eVar1);
 
 ## Unwahrscheinliche Eigenheiten
 
-Wenn die Variable, die mit dem `v`-Argument verknüpft ist, auf einen neuen Wert festgelegt ist und das `getPreviousValue`-Plug-in ausgeführt wird, aber KEIN Analytics-Server-Aufruf gleichzeitig gesendet wird, wird der neue `v`-Argumentwert bei der nächsten Ausführung des Plug-ins weiterhin als &quot;vorheriger Wert&quot;betrachtet.
+Wenn die mit dem `v`-Argument verknüpfte Variable auf einen neuen Wert eingestellt ist und das `getPreviousValue`-Plug-in ausgeführt wird, aber gleichzeitig KEIN Analytics-Server-Aufruf gesendet wird, wird der neue Wert des `v`-Arguments bei der nächsten Ausführung des Plug-ins weiterhin als „vorheriger Wert“ betrachtet.
 Angenommen, der folgende Code wird auf der ersten Seite des Besuchs ausgeführt:
 
 ```js
@@ -92,14 +92,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Dieser Code erzeugt einen Server-Aufruf, bei dem `pageName` &quot;Home&quot;und prop7 nicht festgelegt ist.  Der Aufruf von `getPreviousValue` speichert jedoch den Wert von `pageName` im Cookie `gpv_Page`. Angenommen, unmittelbar danach wird auf derselben Seite der folgende Code ausgeführt:
+Dieser Code erzeugt einen Server-Aufruf, bei dem `pageName` „Home“ lautet und prop7 nicht festgelegt ist. Der Aufruf von `getPreviousValue` speichert jedoch den Wert von `pageName` im Cookie `gpv_Page`. Angenommen, unmittelbar danach wird auf derselben Seite der folgende Code ausgeführt:
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-Da die Funktion `t()` in diesem Codeblock nicht ausgeführt wird, wird keine weitere Bildanforderung gesendet.  Wenn der Funktionscode `getPreviousValue` dieses Mal ausgeführt wird, wird `prop7` auf den vorherigen Wert von `pageName` (&quot;Home&quot;) gesetzt und der neue Wert von `pageName` (&quot;New value&quot;) wird im Cookie `gpv_Page` gespeichert. Nehmen wir als Nächstes an, dass der Besucher zu einer anderen Seite navigiert und der folgende Code auf dieser Seite ausgeführt wird:
+Da die Funktion `t()` in diesem Code-Block nicht ausgeführt wird, wird keine weitere Bildanforderung gesendet. Wenn der Funktions-Code `getPreviousValue` dieses Mal ausgeführt wird, wird jedoch `prop7` auf den vorherigen Wert von `pageName` („Home“) gesetzt und der neue Wert von `pageName` („New value“) im Cookie `gpv_Page` gespeichert. Nehmen wir nun an, der Besucher navigiert zu einer anderen Seite, und der folgende Code wird auf dieser Seite ausgeführt:
 
 ```js
 s.pageName = "Page 2";
@@ -107,7 +107,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Wenn die Funktion `t()` ausgeführt wird, wird eine Bildanforderung erstellt, bei der `pageName` &quot;Seite 2&quot;und `prop7` &quot;Neuer Wert&quot;ist. Dies war der Wert von `pageName`, als der letzte Aufruf von `getPreviousValue` stattfand. Der `prop7`-Wert von `"Home"` war nie in einer Bildanforderung enthalten, obwohl &quot;Home&quot;der erste Wert war, der an `pageName` übergeben wurde.
+Wenn die Funktion `t()` ausgeführt wird, wird eine Bildanforderung erstellt, bei der `pageName` „Page 2“ und `prop7` „New value“ lautet. Dies war der Wert von `pageName`, als der letzte Aufruf von `getPreviousValue` stattfand. Der `prop7`-Wert `"Home"` war nie in einer Bildanforderung enthalten, obwohl „Home“ der erste Wert war, der an `pageName` übergeben wurde.
 
 ## Versionsverlauf
 
