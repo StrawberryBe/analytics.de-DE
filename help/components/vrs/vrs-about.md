@@ -4,9 +4,9 @@ title: Virtual Report Suites – Übersicht
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann.
 
-Bei vielen Kunden fließen Daten in eine globale Report Suite aber auch in kleinere Report Suites. In diesem Fall legen sie eine Variable für mehrere Report Suites fest und senden ihre Daten an mehrere Report Suites. Dies wird als *Multi-Suite-Tagging* oder *Basis-/übergeordnete Report Suites* bezeichnet.
+Bei vielen Kunden fließen Daten in eine globale Report Suite aber auch in kleinere Report Suites. In diesem Fall legen sie eine Variable für mehrere Report Suites fest und senden ihre Daten an mehrere Report Suites. Die Bezeichnung dafür lautet *Multi-Suite-Tagging* oder *zugrunde liegende/übergeordnete Report Suites*.
 
 Beispielsweise können Sie alle Daten in einer einzelnen Report Suite erfassen, aber anschließend Report Suites einrichten, sodass die Personen in Ihrem Unternehmen Zugriff auf einen Teil der Daten haben, jedoch nicht auf alle. Die Daten können nach Region eingeteilt werden. Möglicherweise verwenden Sie für verschiedene Länder unterschiedliche Websites. Weitere Beispiele sind spezielle Marken, die zwar zu einem größeren Unternehmen gehören, aber jeweils über ein eigenes Marketingteam verfügen.
 
