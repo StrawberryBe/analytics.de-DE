@@ -3,9 +3,9 @@ title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Sowohl nicht authentifizierte als auch authentifizierte Treffer auf neuen Gerät
 
 >[!NOTE]
 >
->Treffer mit Zeitstempel, die älter als 12 Stunden sind, werden im Live-Fluss nicht zugeordnet. Diese Treffer sind jedoch in der Wiederholungszuordnung enthalten, solange sie im Lookback-Fenster für die Wiederholung fallen.
+>Treffer mit Zeitstempel, die älter als 12 Stunden sind, werden im Live-Fluss nicht zugeordnet. Diese Treffer sind jedoch in der Wiederholungszuordnung enthalten, solange sie in das Lookback-Fenster für die Wiederholung fallen.
 
 ### Wiederholungszuordnung
 
