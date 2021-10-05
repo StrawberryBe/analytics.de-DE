@@ -3,9 +3,9 @@ title: getTimeParting
 description: Messen Sie die Zeit, zu der eine bestimmte Aktion stattfindet.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '718'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Verwenden des Plug-ins
 
-Die Funktion `getTimeParting` verwendet das folgende Argument:
+Die `getTimeParting`-Funktion verwendet das folgende Argument:
 
 **`t`** (Optional, aber empfohlen, Zeichenfolge): Der Name der Zeitzone, in die die Ortszeit des Besuchers umgerechnet werden soll.  Die Standardeinstellung ist die UTC/GMT-Zeit. Eine vollständige Liste der gültigen Werte finden Sie unter [List of tz database time zones (Liste der Zeitzonen der Zeitzonen-Datenbank)](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) auf Wikipedia.
 
@@ -74,7 +74,7 @@ Zu den üblichen gültigen Werten gehören:
 * `"America/Denver"` für Mountain Time (MST)
 * `"America/Los_Angeles"` für Pacific Time (PST)
 
-Der Aufruf dieser Funktion gibt eine Zeichenfolge zurück, die die folgende durch einen senkrechten Strich (`|`) getrennte Zeichenfolge enthält:
+Beim Aufrufen dieser Funktion wird eine Zeichenfolge zurückgegeben, die die folgenden durch einen senkrechten Strich (`|`) getrennten Zeichen enthält:
 
 * Das aktuelle Jahr
 * Der aktuelle Monat
