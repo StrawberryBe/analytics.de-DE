@@ -3,9 +3,9 @@ title: inList
 description: Überprüfen Sie, ob ein Wert in einem anderen, durch Zeichen getrennten Wert enthalten ist.
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Verwenden des Plug-ins
 
-Die Funktion `inList` gibt je nach Eingabe einen booleschen Wert zurück. Es verwendet die folgenden Argumente:
+Die Funktion `inList` gibt je nach Eingaben einen booleschen Wert zurück. Sie verwendet die folgenden Argumente:
 
 * **`lv`** (erforderlich, Zeichenfolge oder Array): Eine durch Trennzeichen getrennte Liste von Werten oder ein JavaScript-Array-Objekt, die durchsucht werden soll
 * **`vtc`** (erforderlich, Zeichenfolge): Der zu suchende Wert
 * **`d`** (optional, Zeichenfolge): Das Trennzeichen, mit dem die einzelnen Werte im `lv`-Argument getrennt werden. Die Standardeinstellung ist ein Komma (`,`), wenn nicht festgelegt.
-* **`cc`** (optional, boolesch): Wenn auf  `true` oder  `1` gesetzt, wird die Groß-/Kleinschreibung überprüft. Wenn auf `false` gesetzt oder nicht festgelegt, wird die Groß-/Kleinschreibung nicht überprüft. Die Standardeinstellung ist `false`.
+* **`cc`** (optional, boolesch): Wenn auf `true` oder `1` gesetzt, wird die Groß-/Kleinschreibung geprüft. Wenn auf `false` gesetzt oder nicht festgelegt, wird die Groß-/Kleinschreibung nicht überprüft. Die Standardeinstellung ist `false`.
 
-Der Aufruf dieser Funktion gibt `true` zurück, wenn eine Übereinstimmung gefunden wird, und `false`, wenn keine Übereinstimmung gefunden wird.
+Der Aufruf dieser Funktion gibt `true` zurück, wenn sie eine Übereinstimmung findet, und `false`, wenn sie keine Übereinstimmung findet.
 
 ## Beispiele
 
