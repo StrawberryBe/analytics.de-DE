@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Wenn Sie auf das **Zahnradsymbol** klicken, werden die folgenden Visualisierungs
 | Clusterradius | Gruppiert Datenpunkte, die sich innerhalb der festgelegten Pixelanzahl befinden. Der Standardwert ist 50. |
 | Benutzerdefinierter Maximalwert | Ermöglicht es Ihnen, die Schwelle für den Maximalwert für die Zuordnung zu verändern. Wird dieser Wert angepasst, ändert sich auch die Skala für die Werte der Blasen/Heatmap (Farbe und Größe) relativ zum festgelegten Maximalwert. |
 
-## Erstellen einer Heatmap für die Zeitunterteilung
+## Erstellen einer Heatmap für die Zeitaufteilung
 
 Hier finden Sie ein Video zum Thema:
 
