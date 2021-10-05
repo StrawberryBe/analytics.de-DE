@@ -7,9 +7,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer�
 
 In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten miteinander vergleichen.
 
-Im Folgenden finden Sie ein Video zum Vergleichen von Segmenten in Fallout:
+Im Folgenden finden Sie ein Video zum Vergleichen von Segmenten im Fallout:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
