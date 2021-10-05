@@ -3,9 +3,9 @@ title: apl (appendToList)
 description: Fügen Sie Werte an Variablen an, die mehrere Werte unterstützen.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '695'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## Verwenden des Plug-ins
 
-Die Funktion `apl` verwendet die folgenden Argumente:
+Die `apl`-Funktion verwendet die folgenden Argumente:
 
 * **`lv`** (erforderlich, Zeichenfolge): Die Variable, die eine durch Trennzeichen getrennte Liste von Elementen enthält, der ein neuer Wert hinzugefügt werden soll
 * **`vta`** (erforderlich, Zeichenfolge): Eine durch Komma getrennte Liste der neuen Werte, die dem `lv`-Argumentwert hinzugefügt werden sollen.
@@ -71,7 +71,7 @@ Die Funktion `apl` verwendet die folgenden Argumente:
 * **`d2`** (optional, Zeichenfolge): Das Ausgabetrennzeichen. Der Standardwert ist derselbe Wert wie `d1`, wenn nicht festgelegt.
 * **`cc`** (optional, boolesch): Eine Markierung, die anzeigt, ob bei einer Prüfung die Groß-/Kleinschreibung beachtet wird. Wenn die Markierung `true` ist, wird bei der Duplizierungsprüfung die Groß- und Kleinschreibung beachtet. Wenn die Markierung `false` oder nicht gesetzt ist, wird bei der Duplizierungsprüfung nicht zwischen Groß- und Kleinschreibung unterschieden. Die Standardeinstellung ist `false`.
 
-Die Funktion `apl` gibt den Wert des `lv`-Arguments sowie alle nicht duplizierten Werte im `vta`-Argument zurück.
+Die `apl`-Funktion gibt den Wert des `lv`-Arguments sowie alle nicht duplizierten Werte im `vta`-Argument zurück.
 
 ## Beispiele
 
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5 (18. Februar 2016)
 
-* Verwendet jetzt die Funktion `inList` für die Vergleichsverarbeitung
+* Verwendet jetzt die `inList`-Funktion für die Vergleichsverarbeitung
 
 ### 2.0 (26. Januar 2016)
 
