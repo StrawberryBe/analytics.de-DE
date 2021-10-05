@@ -3,9 +3,9 @@ title: formatTime
 description: Konvertieren Sie eine Anzahl von Sekunden in das Äquivalent in Minuten, Stunden usw.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '600'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## Verwenden des Plug-ins
 
-Die Funktion `formatTime` verwendet die folgenden Argumente:
+Die `formatTime`-Funktion verwendet die folgenden Argumente:
 
 * **`ns`** (erforderlich, Ganzzahl): Die Anzahl der Sekunden, die konvertiert oder formatiert werden sollen
 * **`tf`** (optional, Zeichenfolge): Der Formattyp, in dem die Sekunden zurückgegeben werden; standardmäßig auf Sekunden gesetzt
@@ -67,7 +67,7 @@ Die Funktion `formatTime` verwendet die folgenden Argumente:
    * Legen Sie diese Einstellung auf `"s"` fest, wenn Sie die Zeit in Sekunden wünschen (standardmäßig auf den nächsten 5-Sekunden-Benchmark gerundet)
 * **`bml`** (optional, Zahl): Die Länge der Rundungs-Benchmarks. Standardmäßig auf die im `tf`-Argument aufgeführten Benchmarks gesetzt
 
-Die Funktion gibt die Anzahl der Sekunden zurück, die mit der im `tf`-Argument angegebenen Einheit formatiert wurden. Wenn das `tf`-Argument nicht festgelegt ist:
+Die Funktion gibt die Anzahl der Sekunden zurück, wobei mit der im `tf`-Argument angegebenen Einheit formatiert wird. Wenn das `tf`-Argument nicht festgelegt ist:
 
 * Alles unter einer Minute wird auf den nächstliegenden 5-Sekunden-Benchmark gerundet
 * Alles zwischen einer Minute und einer Stunde wird auf den nächsten 1/2-Minuten-Benchmark gerundet
