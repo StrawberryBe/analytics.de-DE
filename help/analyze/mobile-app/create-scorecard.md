@@ -3,10 +3,10 @@ description: So erstellen Sie eine Scorecard für Adobe Analytics-Dashboards
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
+source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 59%
+source-wordcount: '1341'
+ht-degree: 53%
 
 ---
 
@@ -62,7 +62,7 @@ So implementieren Sie die Scorecard-Vorlage:
 
 1. Von jeder Kachel aus können Sie auf eine Detailansicht zugreifen, die zusätzliche Informationen über die Metrik anzeigt, wie z. B. die obersten Elemente in einer Liste verwandter Dimensionen.
 
-### Dimensionen oder Metriken hinzufügen
+## Dimensionen oder Metriken hinzufügen
 
 Um einer Metrik eine verwandte Dimension hinzuzufügen, ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab.
 
@@ -70,7 +70,7 @@ Sie können beispielsweise geeignete Dimensionen (wie **[!DNL Marketing Channel]
 
 ![Dimensionen hinzufügen](assets/layer_dimensions.png)
 
-### Segmente anwenden
+## Segmente anwenden
 
 Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab.
 
@@ -78,7 +78,7 @@ Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen 
 
 ![Segmente für Filter erstellen](assets/segment_ui.png)
 
-### Datumsbereiche hinzufügen
+## Datumsbereiche hinzufügen
 
 Um Datumsbereichskombinationen, die in Ihrer Wertungsliste ausgewählt werden können, hinzuzufügen oder zu entfernen, wählen Sie die Dropdown-Liste „Datumsbereich“ aus.
 
@@ -102,11 +102,21 @@ Wenn der gewünschte Datumsbereich noch nicht erstellt wurde, können Sie durch 
 
 Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue Komponente für den Datumsbereich erstellen und speichern können.
 
-### Visualisierungen anwenden
+## Visualisierungen anwenden
 
-Analytics-Dashboards bieten vier Visualisierungen, die Ihnen einen umfassenden Einblick in Dimensionselemente und Metriken bieten. Wechseln Sie zu einer anderen Visualisierung, indem Sie den [!UICONTROL Diagrammtyp] der Eigenschaften einer Kachel ändern:
+Analytics-Dashboards bieten vier Visualisierungen, die Ihnen einen umfassenden Einblick in Dimensionselemente und Metriken bieten. Wechseln Sie zu einer anderen Visualisierung, indem Sie den [!UICONTROL Diagrammtyp] der [!UICONTROL Eigenschaften] einer Kachel ändern. Wählen Sie einfach die rechte Kachel aus und ändern Sie dann den Diagrammtyp.
 
 ![Kacheleigenschaften](assets/properties.png)
+
+Oder klicken Sie in der linken Leiste auf das Symbol [!UICONTROL Visualisierungen] und ziehen Sie die rechte Visualisierung auf die Kachel:
+
+![Visualisierungen](assets/vizs.png)
+
+**[!UICONTROL Zusammenfassungsnummer]**
+
+Verwenden Sie die Visualisierung der Zusammenfassungsnummer, um eine große Zahl hervorzuheben, die in einem Projekt wichtig ist.
+
+![Zusammenfassungszahl](assets/sparkline.png)
 
 ** Donutvisualisierung**
 
@@ -116,15 +126,29 @@ Analytics-Dashboards bieten vier Visualisierungen, die Ihnen einen umfassenden E
 
 **Linienvisualisierung**
 
-Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Linien-Diagramm kann nur verwendet werden, wenn die Zeit eine der Dimensionen ist.
+Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm zeigt Dimensionen im Zeitverlauf an, funktioniert aber bei jeder Visualisierung. In diesem Beispiel visualisieren Sie die Dimension &quot;Produktkategorie&quot;.
 
+![Linienvisualisierung](assets/line.png)
 
 
 **[!UICONTROL Horizontale ] Barvisualisierung**
 
-Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer oder mehreren Metriken darstellen.
+Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. Um beispielsweise Ihre wichtigsten Produkte einfach anzuzeigen, verwenden Sie [!UICONTROL Horizontalbalken] für Ihre bevorzugte Visualisierung.
 
-### Anzeigen und Konfigurieren von Kacheleigenschaften
+![Horizontalbalken](assets/horizontal.png)
+
+**Nicht   angegebene Dimensionselemente entfernen**
+
+Wenn Sie [!UICONTROL Nicht angegebene] Dimensionselemente aus Ihren Daten entfernen möchten, gehen Sie wie folgt vor:
+
+1. Wählen Sie die richtige Kachel aus.
+1. Wählen Sie in der rechten Leiste unter **[!UICONTROL Drillins]** den Pfeil nach rechts neben dem Dimensionselement aus, dessen **[!UICONTROL Nicht angegebene]** Elemente Sie entfernen möchten.
+
+   ![nicht angegeben](assets/unspecified.png)
+
+1. Klicken Sie auf das Symbol neben **[!UICONTROL Nicht angegeben]**, um nicht spezifizierte Daten aus Ihrem Reporting zu entfernen. (Sie können auch jedes andere Dimensionselement entfernen.)
+
+## Anzeigen und Konfigurieren von Kacheleigenschaften
 
 Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die dieser Kachel zugeordnet sind. In dieser Leiste können Sie einen neuen **[!UICONTROL Titel]** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
 
@@ -142,7 +166,7 @@ Aufschlüsselungen verfeinern Ihre Analyse, indem sie Metriken und Dimensionen b
 
 Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der Detailansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
 
-### Komponenten entfernen
+## Komponenten entfernen
 
 Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Erstbesuche** dargestellt:
 
