@@ -3,9 +3,9 @@ description: So erstellen Sie eine Scorecard für Adobe Analytics-Dashboards
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 53%
 
 ---
@@ -112,32 +112,32 @@ Oder klicken Sie in der linken Leiste auf das Symbol [!UICONTROL Visualisierunge
 
 ![Visualisierungen](assets/vizs.png)
 
-**[!UICONTROL Zusammenfassungsnummer]**
+### [!UICONTROL Zusammenfassungsnummer]
 
 Verwenden Sie die Visualisierung der Zusammenfassungsnummer, um eine große Zahl hervorzuheben, die in einem Projekt wichtig ist.
 
-![Zusammenfassungszahl](assets/sparkline.png)
+![Zusammenfassungszahl](assets/summary-number.png)
 
-** Donutvisualisierung**
+### [!UICONTROL Ringdiagramm]
 
 Ähnlich wie bei einem Tortendiagramm zeigt diese Visualisierung Daten als Teile oder Segmente eines Ganzen an. Verwenden Sie ein Ringdiagramm, wenn Sie Prozentsätze eines Gesamtwerts vergleichen. Nehmen wir beispielsweise an, Sie möchten sehen, welche Anzeigenplattform zur Gesamtzahl der Unique Visitors beigetragen hat:
 
 ![Donut-Visualisierung](assets/donut-viz.png)
 
-**Linienvisualisierung**
+### [!UICONTROL Linie]
 
 Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm zeigt Dimensionen im Zeitverlauf an, funktioniert aber bei jeder Visualisierung. In diesem Beispiel visualisieren Sie die Dimension &quot;Produktkategorie&quot;.
 
 ![Linienvisualisierung](assets/line.png)
 
 
-**[!UICONTROL Horizontale ] Barvisualisierung**
+### [!UICONTROL Horizontalbalken]
 
 Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. Um beispielsweise Ihre wichtigsten Produkte einfach anzuzeigen, verwenden Sie [!UICONTROL Horizontalbalken] für Ihre bevorzugte Visualisierung.
 
 ![Horizontalbalken](assets/horizontal.png)
 
-**Nicht   angegebene Dimensionselemente entfernen**
+### Entfernen Sie [!UICONTROL Nicht spezifizierte] Dimensionselemente
 
 Wenn Sie [!UICONTROL Nicht angegebene] Dimensionselemente aus Ihren Daten entfernen möchten, gehen Sie wie folgt vor:
 
