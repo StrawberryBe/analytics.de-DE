@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 98%
+source-wordcount: '1006'
+ht-degree: 97%
 
 ---
 
@@ -312,8 +312,8 @@ ht-degree: 98%
 + Adobe Analytics-Dashboards {#mobapp}
    + [Adobe Analytics-Dashboards – Übersicht](mobile-app/home.md)
    + [Kuratoreinleitung](mobile-app/curator.md)
-   + [Scorecard erstellen](mobile-app/create-scorecard.md)
-   + [Richten Sie Führungskräfte zur Verwendung von Scorecards ein.](mobile-app/set-up-execs.md)
+   + [Mobile Scorecard erstellen](mobile-app/create-scorecard.md)
+   + [Einrichten von Führungskräften für die Verwendung von Dashboards](mobile-app/set-up-execs.md)
    + [Schnellstarthandbuch für ausführende Benutzer](mobile-app/executive.md)
 + [Berichterstellungs-API](reporting-api.md)
 + [Labs](labs.md)

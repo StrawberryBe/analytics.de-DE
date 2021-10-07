@@ -1,19 +1,19 @@
 ---
 description: So erstellen Sie eine Scorecard für Adobe Analytics-Dashboards
-title: Scorecard erstellen
+title: Mobile Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 53%
+source-wordcount: '1349'
+ht-degree: 51%
 
 ---
 
 
-# Scorecard erstellen
+# Mobile Scorecard erstellen
 
-Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Beginnen Sie mit dem Video zum Adobe Analytics Dashboards Scorecard Builder :
+Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten, wie mobile Scorecards für ausführende Benutzer konfiguriert und präsentiert werden. Beginnen Sie mit dem Video zum Adobe Analytics Dashboards Scorecard Builder :
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Wenn der gewünschte Datumsbereich noch nicht erstellt wurde, können Sie durch 
 Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue Komponente für den Datumsbereich erstellen und speichern können.
 
 ## Visualisierungen anwenden
+
+Sehen Sie sich ein Video zu Visualisierungen für mobile Scorecards an:
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Analytics-Dashboards bieten vier Visualisierungen, die Ihnen einen umfassenden Einblick in Dimensionselemente und Metriken bieten. Wechseln Sie zu einer anderen Visualisierung, indem Sie den [!UICONTROL Diagrammtyp] der [!UICONTROL Eigenschaften] einer Kachel ändern. Wählen Sie einfach die rechte Kachel aus und ändern Sie dann den Diagrammtyp.
 
