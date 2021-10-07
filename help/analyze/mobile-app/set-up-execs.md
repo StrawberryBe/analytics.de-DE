@@ -3,10 +3,10 @@ description: So erstellen Sie eine Analytics-Dashboards-Scorecard
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 74%
+source-wordcount: '729'
+ht-degree: 64%
 
 ---
 
@@ -111,28 +111,6 @@ Wenn sich der ausführende Benutzer anmeldet und eine Meldung angezeigt wird, da
 * Die Scorecard wurde möglicherweise nicht für den ausführenden Benutzer freigegeben.
 
 Stellen Sie sicher, dass sich der ausführende Benutzer bei der richtigen Adobe Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
-
-### Fehler melden
-
-Tippen Sie auf die Option und wählen Sie eine Unterkategorie für den Fehler aus. Geben Sie im Formular zur Meldung eines Fehlers im obersten Feld Ihre E-Mail-Adresse und im Feld darunter eine Beschreibung des Fehlers an. Ein Screenshot Ihrer Kontoinformationen wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um den Bericht zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
-
-![Fehler melden](assets/newbug.png)
-
-### Feedback hinterlassen
-
-1. Tippen Sie auf das Einstellungssymbol oben recht im App-Bildschirm.
-1. Tippen Sie auf dem Bildschirm **[!UICONTROL Einstellungen]** auf die Option **[!UICONTROL Feedback]**.
-1. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
-
-   ![Einstellungsbildschirm](assets/settings.png)
-
-### Verbesserungsvorschläge
-
-Tippen Sie auf die Option und wählen Sie eine Unterkategorie für den Vorschlag aus. Geben Sie im Vorschlagsformular im obersten Feld Ihre E-Mail-Adresse und im Feld darunter eine Beschreibung des Vorschlags an. Ein Screenshot Ihrer Kontoinformationen wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um den Vorschlag zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
-
-### Frage stellen
-
-Tippen Sie auf die Option und geben Sie im obersten Feld Ihre E-Mail-Adresse und im Feld darunter Ihre Frage an. Ein Screenshot wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um die Frage zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
 
 >[!IMPORTANT]
 >

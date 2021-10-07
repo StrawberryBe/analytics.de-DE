@@ -4,35 +4,18 @@ title: Handbuch zu Adobe Analytics-Dashboards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 98%
+source-wordcount: '1230'
+ht-degree: 97%
 
 ---
 
-# Adobe Analytics-Dashboards: Schnellstarthandbuch für ausführende Benutzer
+# Schnellstarthandbuch für ausführende Benutzer
 
 Im Folgenden finden Sie Informationen zu Best Practices für die Verwendung und Anzeige von Adobe Analytics-Dashboards. Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – In-App-Erlebnis](https://youtu.be/QXqQ_PkArbA).
 
-## Einführung
-
-Adobe Analytics-Dashboards bieten jederzeit und überall Erkenntnisse aus Adobe Analytics.  Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
-
 Dieses Handbuch soll ausführenden Benutzern helfen, Scorecards in Analytics-Dashboards zu lesen und zu interpretieren. Das Programm ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
-
-## Glossar
-
-| Begriff | Definition |
-|--- |--- |
-| Verbraucher | Ausführende Person, die wichtige Schlüsselmetriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
-| Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
-| Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
-| Scorecard | Eine Ansicht der Dashboards mit einer oder mehreren Kacheln |
-| Kachel | Wiedergabe einer Metrik in einer Scorecard-Ansicht |
-| Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard zugänglich ist. Diese Ansicht erweitert die auf der Kachel dargestellte Metrik und zeigt optional Informationen über zusätzliche Aufschlüsselungsdimensionen an |
-| Datumsbereich | Der primäre Datumsbereich für die Berichterstellung über die Dashboards |
-| Vergleichsdatumsbereich | Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird |
 
 ## Dashboards auf Ihrem Gerät einrichten
 
@@ -73,9 +56,9 @@ So verwenden Sie Dashboards:
 
    ![Anmeldesequenz](assets/signseq.png)
 
-2. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird der Bildschirm **[!UICONTROL Unternehmen auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
+1. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird der Bildschirm **[!UICONTROL Unternehmen auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
 
-3. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
+1. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 
    ![Wählen Sie ein Unternehmen aus.](assets/nextseq.png)
 
@@ -86,7 +69,7 @@ So verwenden Sie Dashboards:
 
    ![Nichts freigegeben](assets/nothing.png)
 
-4. Untersuchen Sie, wie die Kacheln in der Scorecard angezeigt werden. (Die erste Scorecard wird im Dunkelmodus angezeigt. Weitere Informationen finden Sie unter **[!UICONTROL Voreinstellungen]** weiter unten).
+1. Untersuchen Sie, wie die Kacheln in der Scorecard angezeigt werden. (Die erste Scorecard wird im Dunkelmodus angezeigt. Weitere Informationen finden Sie unter **[!UICONTROL Voreinstellungen]** weiter unten).
 
    ![Erklärte Kacheln](assets/newexplain.png)
 
@@ -105,12 +88,12 @@ So verwenden Sie Dashboards:
 
    ![Beispiel-Scorecard](assets/intro_scorecard.png)
 
-5. Tippen Sie auf eine Kachel, um zu sehen, wie eine detaillierte Aufschlüsselung für die Kachel funktioniert.
+1. Tippen Sie auf eine Kachel, um zu sehen, wie eine detaillierte Aufschlüsselung für die Kachel funktioniert.
 
    ![Aufschlüsselungsansicht](assets/sparkline.png)
 
 
-6. So ändern Sie Datumsbereiche für Ihre Scorecard:
+1. So ändern Sie Datumsbereiche für Ihre Scorecard:
 
    ![Datum ändern](assets/changedate.png)
 
@@ -118,13 +101,13 @@ So verwenden Sie Dashboards:
 
    * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **[!UICONTROL VERGLEICHEN MIT]** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **[!UICONTROL Fertig]**. Das Feld **[!UICONTROL Datumsbereiche]** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
-7. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf die Filter-Dropdown-Liste und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) in der App funktionieren auf dieselbe Weise wie in Analytics Workspace.
+1. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf die Filter-Dropdown-Liste und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) in der App funktionieren auf dieselbe Weise wie in Analytics Workspace.
 
    ![Segmentfilter](assets/segment_filter.png)
 
-8. Fordern Sie eine Scorecard-Aktualisierung an. Wenn eine Scorecard nicht alle Metriken oder Aufschlüsselungen enthält, die für Sie von Interesse sein könnten, wenden Sie sich an Ihr Analytics-Team, um die Scorecard zu aktualisieren. Nach der Aktualisierung können Sie die Karte auf dem Bildschirm nach unten ziehen, um sie zu aktualisieren und die kürzlich hinzugefügten Daten zu laden.
+1. Fordern Sie eine Scorecard-Aktualisierung an. Wenn eine Scorecard nicht alle Metriken oder Aufschlüsselungen enthält, die für Sie von Interesse sein könnten, wenden Sie sich an Ihr Analytics-Team, um die Scorecard zu aktualisieren. Nach der Aktualisierung können Sie die Karte auf dem Bildschirm nach unten ziehen, um sie zu aktualisieren und die kürzlich hinzugefügten Daten zu laden.
 
-9. So hinterlassen Sie Feedback zu dieser App:
+1. So hinterlassen Sie Feedback zu dieser App:
 
    1. Tippen Sie auf das Einstellungssymbol oben recht im App-Bildschirm.
    2. Tippen Sie auf dem Bildschirm **[!UICONTROL Einstellungen]** auf die Option **[!UICONTROL Feedback]**.
@@ -132,7 +115,7 @@ So verwenden Sie Dashboards:
 
       ![Einstellungsbildschirm](assets/settings.png)
 
-10. Um die Voreinstellungen zu ändern, tippen Sie auf die Option **[!UICONTROL Voreinstellungen]** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dunkelmodus einstellen:
+1. Um die Voreinstellungen zu ändern, tippen Sie auf die Option **[!UICONTROL Voreinstellungen]** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dunkelmodus einstellen:
 
    ![Dunkelmodus](assets/darkmode.png)
 
@@ -151,3 +134,17 @@ Tippen Sie auf die Option und wählen Sie eine Unterkategorie für den Vorschlag
 **So stellen Sie eine Frage:**
 
 Tippen Sie auf die Option und geben Sie im obersten Feld Ihre E-Mail-Adresse und im Feld darunter Ihre Frage an. Ein Screenshot wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um die Frage zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
+
+## Glossar
+
+| Begriff | Definition |
+|--- |--- |
+| Verbraucher | Ausführende Person, die wichtige Schlüsselmetriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
+| Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
+| Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
+| Scorecard | Eine Ansicht der Dashboards mit einer oder mehreren Kacheln |
+| Kachel | Wiedergabe einer Metrik in einer Scorecard-Ansicht |
+| Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard zugänglich ist. Diese Ansicht erweitert die auf der Kachel dargestellte Metrik und zeigt optional Informationen über zusätzliche Aufschlüsselungsdimensionen an |
+| Datumsbereich | Der primäre Datumsbereich für die Berichterstellung über die Dashboards |
+| Vergleichsdatumsbereich | Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird |
+
