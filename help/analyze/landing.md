@@ -3,9 +3,9 @@ description: Erläutert die neue Landingpage, die Analysis Workspace und Reports
 title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ So erstellen Sie einen neuen Unternehmensbericht:
 
 1. Fügen Sie alle gewünschten Felder zum Modal hinzu und speichern Sie es.
 
-   Der Bericht wird der Liste Unternehmensberichte hinzugefügt und steht denjenigen in Ihrem Unternehmen zur Verfügung.
+   Der Bericht wird der Liste Unternehmensberichte hinzugefügt und steht denjenigen Ihres Anmeldeunternehmens zur Verfügung.
 
 Weitere Lernoptionen:
 
