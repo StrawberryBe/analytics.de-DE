@@ -5,9 +5,9 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 99%
    + [Seitenereignisse](metrics/page-events.md)
    + [Seitenansichten](metrics/page-views.md)
    + [Seiten nicht gefunden](metrics/pages-not-found.md)
-   + [Personen mit Experience Cloud-ID](metrics/people-with-exp-cloud-id.md)
+   + [Personen mit Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
    + [Personen](metrics/people.md)
    + [Produktansichten](metrics/product-views.md)
    + [Neuladungen](metrics/reloads.md)
