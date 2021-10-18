@@ -3,7 +3,7 @@ title: Regionen
 description: Die geografische Region des Besuchers.
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ Die Dimension „Regionen“ gibt die geografische Region des Besuchers an. Dies
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://info.digitalelement.com/de/) zusammen, um die Suche zwischen IP-Adresse und Land zu unterstützen. Diese Dimension ist bei allen Implementierungen vorkonfiguriert.
+Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um die Suche zwischen IP-Adresse und Land zu unterstützen. Diese Dimension ist bei allen Implementierungen vorkonfiguriert.
 
 ## Dimensionselemente
 
