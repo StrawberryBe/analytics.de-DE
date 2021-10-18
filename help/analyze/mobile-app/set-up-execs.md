@@ -1,12 +1,12 @@
 ---
-description: So erstellen Sie eine Analytics-Dashboards-Scorecard
+description: Erstellen einer Analytics-Dashboards-Scorecard
 title: Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätz
 
 ## Sicherstellen, dass Mobile-App-Benutzer Zugriff auf Adobe Analytics haben
 
-1. Richten Sie neue Benutzer in der [Experience Cloud-Admin Console](/help/admin/admin-console/permissions/product-profile.md) ein.
+1. Richten Sie neue Benutzer in der [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md) ein.
 
-1. Um Scorecards freigeben zu können, müssen Sie App-Benutzern Berechtigungen für den Zugriff auf Scorecard-Komponenten wie Analysis Workspace, die Report Suites, auf denen Scorecards basieren, sowie Segmente, Metriken und Dimensionen gewähren.
+1. Um Scorecards freigeben zu können, müssen Sie Mobile-App-Benutzern Berechtigungen für den Zugriff auf Scorecard-Komponenten wie Analysis Workspace, die Report Suites, auf denen Scorecards basieren, sowie Segmente, Metriken und Dimensionen gewähren.
 
-## Systemanforderungen von App-Benutzern
+## Systemanforderungen von Mobile-App-Benutzern
 
-Um sicherzustellen, dass ausführende Benutzer Zugriff auf Ihre Scorecards in der App haben, stellen Sie Folgendes sicher:
+Damit ausführende Benutzer Zugriff auf Ihre Scorecards in der Mobile App haben, müssen folgende Voraussetzungen gegeben sein:
 
 * Auf den Geräten Ihrer Benutzer muss mindestens iOS-Version 10 oder Android-Version 4.4 (KitKat) installiert sein.
 * Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein..
-* Sie haben mobile Scorecards für sie korrekt erstellt und für diese freigegeben.
-* Sie haben Zugriff auf die Komponenten, die die Scorecard enthält. Beachten Sie, dass Sie beim Freigeben Ihrer Scorecards für **[!UICONTROL Freigeben eingebetteter Komponenten]** eine Option auswählen können.
+* Sie haben die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben.
+* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **[!UICONTROL eingebettete Komponenten freizugeben]**.
 
-## Hilfe für Führungskräfte beim Herunterladen und Installieren der App
+## Ausführenden Benutzern helfen, die Mobile App herunterzuladen und zu installieren
 
 **Für ausführende Benutzer mit iOS-Geräten:**
 
@@ -48,26 +48,26 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
 
 ![Willkommensbildschirm der App](assets/welcome.png)
 
-## Helfen Sie Führungskräften beim Zugriff auf Ihre Scorecard.
+## Ausführenden Benutzern helfen, auf Ihre Scorecard zuzugreifen
 
-1. Lassen Sie ausführende Benutzer sich bei der App anmelden.
+1. Fordern Sie die ausführenden Benutzer auf, sich bei der Mobile App anzumelden.
 
-   Der Bildschirm **[!UICONTROL Unternehmen]** auswählen wird angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann.
+   Der Bildschirm **[!UICONTROL Unternehmen auswählen]** wird angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann.
 
-1. Bitten Sie sie, auf den Namen des angemeldeten Unternehmens oder der Experience Cloud-Organisation zu tippen, der für die von Ihnen freigegebene Scorecard gilt.
+1. Fordern Sie sie auf, den Namen der Unternehmensanmeldung oder die Experience Cloud-Organisation für die von Ihnen freigegebene Scorecard anzutippen.
 
-   In der Scorecard-Liste werden dann alle Scorecards angezeigt, die für den ausführenden Benutzer unter diesem Anmeldeunternehmen freigegeben wurden.
+   Die Scorecard-Liste zeigt alle Scorecards an, die für den ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
 
-1. Lassen Sie sie diese Liste gegebenenfalls nach **[!UICONTROL Zuletzt geändert]** sortieren.
+1. Helfen Sie den Benutzern, diese Liste ggf. nach der **[!UICONTROL zuletzt geänderten Scorecard]** zu sortieren.
 
-1. Lassen Sie sie auf den Namen der Scorecard tippen, um sie anzuzeigen.
+1. Fordern Sie sie auf, den Namen der Scorecard anzutippen, die angezeigt werden soll.
 
-   ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
+   ![Unternehmen auswählen](assets/accesscard.png)
 
 
 ### Scorecard-Benutzeroberfläche erläutern
 
-Erklären Sie dem ausführenden Benutzer, wie Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden.
+Erklären Sie dem ausführenden Benutzer, wie die Kacheln in den von Ihnen freigegebenen Scorecards dargestellt werden.
 
 ![Kacheln erklären](assets/newexplain.png)
 
@@ -95,7 +95,7 @@ Zusätzliche Informationen zu Kacheln:
 
    ![Datum ändern](assets/changedate.png)
 
-## App-Voreinstellungen ändern
+## Mobile-App-Voreinstellungen ändern
 
 Um die Voreinstellungen zu ändern, tippen Sie auf die Option **[!UICONTROL Voreinstellungen]** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dunkelmodus einstellen:
 
@@ -108,9 +108,9 @@ Wenn sich der ausführende Benutzer anmeldet und eine Meldung angezeigt wird, da
 ![Nichts freigegeben](assets/nothing.png)
 
 * Der ausführende Benutzer hat möglicherweise die falsche Analytics-Instanz ausgewählt oder
-* Die Scorecard wurde möglicherweise nicht für den ausführenden Benutzer freigegeben.
+* eventuell wurde die Scorecard nicht für den ausführenden Benutzer freigegeben.
 
-Stellen Sie sicher, dass sich der ausführende Benutzer bei der richtigen Adobe Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
+Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Adobe Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 >[!IMPORTANT]
 >
