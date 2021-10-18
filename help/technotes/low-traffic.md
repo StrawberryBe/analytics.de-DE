@@ -5,9 +5,9 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sicher
 Warum verschiebt Adobe ein Element aus dem Zeileneintrag [!UICONTROL Geringer Traffic] in einen eigenen Zeileneintrag? Dies geschieht, wenn eine beliebte neue Seite oder ein neues Element erkannt wird, die bzw. das später im Monat hinzugefügt wurde (nachdem eindeutige Werte überschritten wurden) und viele Treffer/Aufrufe erhält. Die Verschiebung soll nicht alle Elemente erfassen, die eine bestimmte Anzahl von Treffern/Aufrufen pro Tag oder Monat erhalten.
 
 >[!NOTE]
->Die Anzahl der Seitensuchvorgänge umfasst nicht nur Werte für [!UICONTROL pagename]/[!UICONTROL page_url]. Die Suchtabelle der Seite enthält mehrere Spalten/Felder wie [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] und den Klickkontext (die alte ClickMap -Daten).
+>Die Anzahl der Seitensuchvorgänge umfasst nicht nur Werte für [!UICONTROL pagename]/[!UICONTROL page_url]. Die Seitensuchtabelle enthält mehrere Spalten/Felder wie [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] und den Klickkontext (die alten ClickMap-Daten).
 
 ## Ändern der Schwellenwerte für eindeutige Werte
 
