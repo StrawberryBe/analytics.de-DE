@@ -7,7 +7,7 @@ exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 Im Folgenden finden Sie Informationen zu Best Practices für die Verwendung und Anzeige von Adobe Analytics-Dashboards. Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – In-App-Erlebnis](https://youtu.be/QXqQ_PkArbA).
 
-Dieses Handbuch soll ausführenden Benutzern helfen, Scorecards in Analytics-Dashboards zu lesen und zu interpretieren. Das Programm ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in den Analytics-Dashboards zu lesen und zu interpretieren. Das Programm ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
 
 ## Dashboards auf Ihrem Gerät einrichten
 
@@ -56,7 +56,7 @@ So verwenden Sie Dashboards:
 
    ![Anmeldesequenz](assets/signseq.png)
 
-1. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird der Bildschirm **[!UICONTROL Unternehmen auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
+1. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird die **[!UICONTROL Unternehmen auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
 
 1. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 
