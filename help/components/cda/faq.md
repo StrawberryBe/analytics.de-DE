@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
 source-wordcount: '1949'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Sie können eine [!UICONTROL Fluss]-Visualisierung mit der Dimension „Mobilger
 3. Klicken Sie auf die Registerkarte „Komponenten“ auf der linken Seite und ziehen Sie die Dimension „Mobilgerätetyp“ an die mittlere Position mit der Bezeichnung „Dimension oder Element“.
 4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
 
-## Kann ich sehen, wie Benutzer zwischen verschiedenen Benutzererlebnissen wechseln (z. B. zwischen Desktop-Browser, mobilem Browser und mobiler App)?
+## Kann ich sehen, wie Benutzer zwischen verschiedenen Benutzererlebnissen wechseln (z. B. zwischen Desktop-Browser, mobilem Browser und Mobile App)?
 
-Im oben gezeigten Beispiel zum Mobilgerätetyp können Sie sehen, wie Benutzer zwischen Mobilgerätetypen und Desktop-Gerätetypen wechseln. Desktop-Browser können jedoch nicht von mobilen Browsern unterschieden werden. Wenn Sie diesen Einblick wünschen, können Sie eine benutzerdefinierte Variable erstellen (z. B. eine Prop oder eine eVar), die aufzeichnet, ob das Erlebnis in einem Desktop-Browser, mobilen Browser oder mobilen App aufgetreten ist. Anschließend können Sie ein Flussdiagramm wie oben beschrieben erstellen, indem Sie die benutzerdefinierte Variable anstelle der Dimension Mobilgerätetyp verwenden. Diese Methode bietet eine etwas andere Ansicht zum geräteübergreifenden Verhalten.
+Anhand des Beispiels mit dem oben beschriebenen Mobilgerätetyp können Sie sehen, wie Personen zwischen Mobilgerätetypen und Desktop-Gerätetypen wechseln. Desktop-Browser können jedoch nicht von mobilen Browsern unterschieden werden. Wenn Sie diese Information wünschen, können Sie eine benutzerdefinierte Variable erstellen (z. B. eine Prop oder eVar), die aufzeichnet, ob das Erlebnis in einem Desktop-Browser, einem mobilen Browser oder einer Mobile App stattfand. Anschließend können Sie ein Flussdiagramm wie oben beschrieben erstellen, indem Sie die benutzerdefinierte Variable anstelle der Mobilgerätetyp-Dimension verwenden. Durch diese Methode erhalten Sie eine etwas andere Ansicht des geräteübergreifenden Verhaltens.
 
 ## Wie weit reicht die Zuordnung der geräteübergreifenden Analyse für Besucher zurück?
 
@@ -53,7 +53,7 @@ Kunden, die bereits eine benutzerdefinierte Besucher-ID verwenden, können auf C
 In einigen Situationen ist es möglich, dass sich mehrere Personen von demselben Gerät aus anmelden. Beispiele dafür sind freigegebene Geräte zu Hause, freigegebene PCs in einer Bibliothek oder ein Terminal in einem Einzelhandelsgeschäft.
 
 * **Bei Verwendung eines Gerätediagramms** ist die Handhabung gemeinsam genutzter Geräte eingeschränkt. Das Gerätediagramm verwendet einen Algorithmus, um die Eigentümerschaft eines „Clusters“ zu bestimmen, und kann sich bei jeder Veröffentlichung dieses Clusters ändern. Benutzer des gemeinsam genutzten Geräts unterliegen dem Cluster, zu dem sie gehören.
-* **Bei der Verwendung des feldbasierten Stitching** überschreibt die Eigenschaft oder das eVar, die bzw. das Sie zur Identifizierung der angemeldeten Benutzer verwenden, andere Kennungen. Gemeinsam genutzte Geräte werden als separate Personen betrachtet, auch wenn sie vom gleichen Gerät stammen.
+* **Bei der Verwendung des feldbasierten Stitching** überschreibt die Prop oder eVar, die Sie zur Identifizierung der angemeldeten Benutzer verwenden, andere Kennungen. Gemeinsam genutzte Geräte werden als separate Personen betrachtet, auch wenn sie vom gleichen Gerät stammen.
 
 ## Wie behandelt die geräteübergreifende Analyse Situationen, in denen eine einzelne Person über VIELE Geräte/ECIDs verfügt?
 
@@ -64,16 +64,16 @@ In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl v
 
 ## Was ist der Unterschied zwischen der Metrik „Personen“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
-Die Metriken [Personen](/help/components/metrics/people.md) und [Unique Visitors](/help/components/metrics/unique-visitors.md) zielen darauf ab, einzelne Besucher (Individuen) zu zählen. Beachten Sie jedoch die Möglichkeit, dass zwei verschiedene Geräte derselben Person angehören können. Die geräteübergreifende Analyse ordnet die 2 Geräte derselben Person zu, während die 2 Geräte außerhalb der geräteübergreifenden Analyse als 2 separate &quot;Unique Visitors&quot;aufgezeichnet werden.
+Die Metriken [Personen](/help/components/metrics/people.md) und [Unique Visitors](/help/components/metrics/unique-visitors.md) zählen einzelne Besucher (Einzelpersonen). Beachten Sie jedoch, dass zwei verschiedene Geräte derselben Person gehören können. Die geräteübergreifende Analyse ordnet die beiden Geräte derselben Person zu, während die zwei Geräte außerhalb der geräteübergreifenden Analyse als zwei separate „Unique Visitors“ erfasst werden.
 
-## Was ist der Unterschied zwischen der Metrik „Unique Devices“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
+## Was ist der Unterschied zwischen der Metrik „Eindeutige Geräte“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
-Diese beiden Metriken sind in etwa gleich. Unterschiede zwischen den beiden Metriken treten auf, wenn:
+Diese beiden Metriken sind in etwa gleich. Unterschiede zwischen diesen beiden Metriken treten auf, wenn:
 
-* Ein freigegebenes Gerät wird mehreren Personen zugeordnet. In diesem Szenario wird 1 Unique Visitor gezählt, während mehrere Unique Devices gezählt werden.
-* Ein Gerät weist sowohl nicht zugewiesenen als auch verknüpften Traffic vom gleichen Besucher auf. Beispiel: Ein Browser generiert identifizierten verknüpften Traffic + anonymen historischen Traffic, der nicht zugeordnet wurde. In diesem Fall wird 1 Unique Visitor gezählt, während 2 eindeutige Geräte gezählt werden.
+* Ein gemeinsam genutztes Gerät mehreren Personen zugeordnet wird. In diesem Szenario werden 1 Unique Visitor und mehrere eindeutige Geräte gezählt.
+* Ein Gerät sowohl nicht zugeordneten als auch zugeordneten Traffic vom gleichen Besucher aufweist. Beispiel: Ein Browser generiert identifizierten zugeordneten Traffic sowie anonymen historischen Traffic, der nicht zugeordnet wurde. In diesem Fall werden 1 Unique Visitor und 2 eindeutige Geräte gezählt.
 
-Weitere Beispiele und Details zur Funktionsweise finden Sie unter [Eindeutige Geräte](/help/components/metrics/unique-devices.md) .
+Weitere Beispiele und Details zur Funktionsweise finden Sie unter [Eindeutige Geräte](/help/components/metrics/unique-devices.md).
 
 ## Kann ich CDA-Metriken über die 2.0 API einbinden?
 
@@ -98,9 +98,9 @@ Beide diese Kennungen werden von Adobe zum Zeitpunkt der Berichterstellung berec
 
 Der Wechsel vom Gerätediagramm zur feldbasierten Zuordnung oder umgekehrt kann über die Kundenunterstützung angefordert werden. Es kann jedoch einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist, und *historische zugeordnete Daten aus der vorherigen Methode gehen verloren*.
 
-## Wie behandelt Adobe eindeutige Beschränkungen für eine Prop oder eine eVar, die beim feldbasierten Stitching verwendet werden?
+## Wie geht Adobe mit individuellen Einschränkungen für eine Prop oder eVar um, die beim feldbasierten Stitching verwendet wird?
 
-Die geräteübergreifende Analyse ruft die Dimensionselemente der Kennungsvariablen ab, bevor sie für die Berichterstellung optimiert werden. Sie müssen sich bei der geräteübergreifenden Analyse keine Sorgen um individuelle Einschränkungen machen. Wenn Sie jedoch versucht haben, diese Eigenschaft oder eVar in einem Workspace-Projekt zu verwenden, können Sie weiterhin das Dimensionselement [(Geringer Traffic)](/help/technotes/low-traffic.md) sehen.
+Die geräteübergreifende Analyse ruft Identifizierungsvariablen-Dimensionselemente ab, bevor sie für das Reporting optimiert werden. Sie müssen sich bei der geräteübergreifenden Analyse keine Sorgen um individuelle Einschränkungen machen. Wenn Sie jedoch versucht haben, diese Prop/eVar in einem Workspace-Projekt zu verwenden, wird weiterhin das Dimensionselement [(Geringer Traffic)](/help/technotes/low-traffic.md) angezeigt.
 
 ## Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse aktiviert werden?
 
@@ -124,12 +124,12 @@ Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordne
 
 Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für die geräteübergreifende Analyse erwartet. Dies hat nur geringe Auswirkungen auf die geräteübergreifenden Funktionen.
 
-## Warum ist die Metrik &quot;Identifizierte Personen&quot;überhöht?
+## Warum ist die Metrik „Identifizierte Personen“ überhöht?
 
-Die Zahl der Metrik &quot;Identifizierte Personen&quot;kann etwas höher sein, wenn die Kennungseigenschaft/der eVar in eine [Hash-Kollision](/help/implement/validate/hash-collisions.md) läuft.
+Die Metrik „Identifizierte Personen“ kann etwas höher sein, wenn für die Prop//eVar der Kennung eine [Hash-Kollision](/help/implement/validate/hash-collisions.md) besteht.
 
-Bei feldbasiertem Stitching wird bei der benutzerdefinierten Variablen &quot;identifier&quot;zwischen Groß- und Kleinschreibung unterschieden. Die Zahl der Metrik &quot;Identifizierte Personen&quot;kann erheblich höher sein, wenn die Kennungswerte nicht mit der Groß-/Kleinschreibung übereinstimmen. Wenn beispielsweise `bob` und `Bob` gesendet und als dieselbe Person erwartet werden, interpretiert die geräteübergreifende Analyse diese beiden Werte als unterschiedlich.
+Bei feldbasiertem Stitching wird bei der benutzerdefinierten Identifizierungsvariablen zwischen Groß- und Kleinschreibung unterschieden. Die Zahl der Metrik „Identifizierte Personen“ kann erheblich höher sein, wenn die Kennungswerte nicht mit der Groß-/Kleinschreibung übereinstimmen. Wenn beispielsweise `bob` und `Bob` gesendet und eigentlich dieselbe Person sind, interpretiert die geräteübergreifende Analyse diese beiden Werte als unterschiedlich.
 
-## Warum sehe ich bei der Anzeige der Identifizierungseigenschaft/eVar Werte ungleich null für die Metrik &quot;Nicht identifizierte Personen&quot;?
+## Warum sehe ich für die Metrik „Nicht identifizierte Personen“ bei der Anzeige der Prop/eVar der Kennung Werte ungleich null?
 
-Diese Situation tritt normalerweise auf, wenn ein Besucher im Berichtsfenster sowohl authentifizierte als auch nicht authentifizierte Treffer generiert. Der Besucher gehört sowohl zu &quot;Nicht identifiziert&quot;als auch zu &quot;Identifiziert&quot;in der Dimension [Identifizierter Status](/help/components/dimensions/identified-state.md), was zu einer Zuordnung von nicht identifizierten Treffern zu einer Kennung führt. Dieses Szenario kann sich nach der Ausführung von [Replay](replay.md) ändern, je nach Wiederholungshäufigkeit und Erfolgsrate.
+Diese Situation tritt normalerweise auf, wenn für einen Besucher im Berichtsfenster sowohl authentifizierte als auch nicht authentifizierte Treffer generiert werden. Der Besucher gehört in der Dimension [Identifikationsstatus](/help/components/dimensions/identified-state.md) sowohl zu „Nicht identifiziert“ als auch zu „Identifiziert“, weshalb nicht identifizierte Treffer einer Kennung zugeordnet werden. Dieses Szenario kann sich nach der Ausführung von [Wiederholen](replay.md) ändern, je nach der Wiederholungshäufigkeit und der Erfolgsrate.
