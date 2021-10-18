@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Schritte zum Ausführen der verschiedenen Berichtstypen.
 
-## Führen Sie einen Rangbericht aus {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+## Rangbericht ausführen {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 In Rangberichten zeigt die Tabelle die Rangordnung der Berichtsseiten als Zahl oder Prozentwert im Verhältnis zur Metrik an. Bei Rangberichten können mehrere Metriken in einem Bericht angezeigt werden.
 
@@ -57,11 +57,11 @@ Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe
 
 Seitenflussberichte zeigen die Reihenfolge an, in der Ihre Besucher auf Seiten zugreifen und auf Ihrer Website navigieren. Dieser Bericht bietet Antworten
 
-Sehen Sie sich die [Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an!
+Sehen Sie sich die [Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) in Analysis Workspace an.
 
 Klicken Sie zum Beispiel auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Nächster Seitenfluss]**.
 
-## Marketingkanalbericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
+## Marketing-Kanal-Bericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
 
 Marketingkanalberichte geben einen Überblick über die Zuordnung der First Touch- und Last Touch-Kanäle mit standardmäßigen Berichterstellungsmetriken wie Umsatz, Bestellungen und Kosten. Diese Berichte ermöglichen Ihnen eine Analyse der Umsätze der einzelnen Kanäle.
 
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie im [Marketingkanal](/help/components/c-marketin
 
 ## Anomalieerkennungsbericht ausführen {#task_4808C96327354D789C075823F5C3A049}
 
-Sie können [Anomalieerkennung und Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de) nur in Analysis Workspace ausführen.
+[Anomalieerkennung und Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de) können nur in Analysis Workspace ausgeführt werden.
 
 ## Echtzeitbericht ausführen {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -79,7 +79,7 @@ Beschreibt, wie Sie Echtzeitberichte anzeigen und interpretieren.
 
 Bei der Echtzeitberichterstattung stehen zwei Hauptberichte zur Verfügung: ein Übersichtsbericht und ein Detailbericht. Sie bestehen jeweils aus mehreren Reportlets.
 
-Weitere Informationen finden Sie unter [Übersicht über die Echtzeitberichterstellung](/help/components/c-real-time-reporting/realtime.md) .
+Weitere Informationen finden Sie unter [Übersicht über das Echtzeit-Reporting](/help/components/c-real-time-reporting/realtime.md).
 
 1. Sehen Sie sich den **[!UICONTROL Übersichtsbericht]** und dessen Komponenten an:  ![](assets/rtr_overview_report.png)
 
@@ -90,7 +90,7 @@ Weitere Informationen finden Sie unter [Übersicht über die Echtzeitberichterst
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report Suite auswählen</strong></td> 
-   <td class="chdesc stentry"> Zeigt die Report Suite an, die von diesem Echtzeitbericht behandelt wird. Informationen zum Ändern der Report Suite finden Sie unter <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Konfiguration von Echtzeitberichten </a>. </td> 
+   <td class="chdesc stentry"> Zeigt die Report Suite an, die von diesem Echtzeitbericht behandelt wird. Informationen zum Ändern der Report Suite finden Sie unter <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=de"  >Konfiguration von Echtzeitberichten </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Zwischen Berichten wechseln</strong></td> 
