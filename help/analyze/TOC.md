@@ -7,7 +7,7 @@ user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichti
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 97%
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
       + [Bedienfeld „Gleichzeitige Medienbetrachter“](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Bedienfeld &quot;Besuchszeit für Medienwiedergabe&quot;](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Panel „Verbrachte Zeit bei der Medienwiedergabe“](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
       + Bedienfeld für den Segmentvergleich {#segment-comparison}
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -147,7 +147,7 @@ ht-degree: 97%
       + [Datenanforderungen – Anforderungs-Assistent: Schritt 1](report-builder/data-requests/data-requests.md)
       + [Datenanforderung erstellen](report-builder/data-requests/t-create-a-data-request.md)
       + Report Suites {#report-suites}
-         + [Report Suite auswählen ](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Report Suite auswählen](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Report Suite aus einer bestehenden Anforderung in Excel auswählen](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel zum Suchen einer Report Suite-ID verwenden](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Segmente verwalten](report-builder/data-requests/segmentation.md)
@@ -311,7 +311,7 @@ ht-degree: 97%
    + [Fehlerbehebung](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics-Dashboards {#mobapp}
    + [Adobe Analytics-Dashboards – Übersicht](mobile-app/home.md)
-   + [Kuratoreinleitung](mobile-app/curator.md)
+   + [Einleitung für Kuratoren](mobile-app/curator.md)
    + [Mobile Scorecard erstellen](mobile-app/create-scorecard.md)
    + [Einrichten von Führungskräften für die Verwendung von Dashboards](mobile-app/set-up-execs.md)
    + [Schnellstarthandbuch für ausführende Benutzer](mobile-app/executive.md)
