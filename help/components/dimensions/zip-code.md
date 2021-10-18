@@ -3,9 +3,9 @@ title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/hel
 
 Die Dimensionselemente beinhalten die Postleitzahl des Besuchers.
 
-## Unterstützte Postleitzahlenländer
+## Länder mit unterstützten Postleitzahlen
 
 * Aland-Inseln
 * Albanien
