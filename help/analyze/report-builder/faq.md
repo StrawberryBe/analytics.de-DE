@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,6 +29,6 @@ Als Alternative zu diesen Excel-Funktionen empfiehlt Adobe dringend die Verwendu
 
 Report Builder unterstützt Arbeitsmappen bis zu den folgenden Grenzen:
 
-* **1000 Anfragen**: Eine einzelne Arbeitsmappe kann bis zu 1000 Datenanforderungen enthalten. Wenn Sie Berichte oder Projekte haben, für die mehr als 1000 Anforderungen erforderlich sind, empfiehlt Adobe, diese in mehrere Arbeitsmappen aufzuteilen.
+* **1.000 Anfragen**: Eine einzelne Arbeitsmappe kann bis zu 1.000 Datenanfragen enthalten. Wenn Sie Berichte oder Projekte haben, für die mehr als 1000 Anforderungen erforderlich sind, empfiehlt Adobe, diese in mehrere Arbeitsmappen aufzuteilen.
 * **20.000 Anfragen pro Stunde und Firma**: Report Builder verwendet die Analytics-Reporting-API zum Abrufen von Daten. Jede einzelne Anfrage verwendet einen API-Aufruf, wenn sie erstellt oder aktualisiert wird. Wenn sich für Ihr Unternehmen mehr als 20.000 API-Aufrufe in einer bestimmten Stunde ansammeln, müssen Sie bis zur nächsten Stunde warten, um die Daten erneut abzurufen.
-* **4-Stunden-Verarbeitungszeit**: Geplante Berichte werden nach der Verarbeitung für mehr als 4 Stunden beendet. Wenn Ihre Arbeitsmappe viele komplexe Anforderungen mit großen Datensätzen enthält, kann der terminierte Bericht fehlschlagen.
+* **Vierstündige Verarbeitungszeit**: Terminierte Berichte werden beendet, wenn deren Verarbeitung mehr als vier Stunden dauert. Wenn Ihre Arbeitsmappe viele komplexe Anfragen mit großen Datensätzen enthält, kann der terminierte Bericht fehlschlagen.
