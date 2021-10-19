@@ -2,10 +2,10 @@
 title: Analytics-Integration
 description: Erfahren Sie, wie Sie Daten von anderen Speicherorten in Adobe Analytics integrieren können.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 89%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 100%
 
 Dieser Leitfaden konzentriert sich auf die Integration mehrerer Experience Cloud-Lösungen. Wenn Sie nach Analytics-Data Connectors suchen, finden Sie auf der Seite [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) im Benutzerhandbuch zum Importieren weitere Informationen.
 
-Konfiguration von Integrationen mit anderen Adobe Experience Cloud-Lösungen, wie Audience Manager, Advertising Cloud oder Target. Zu diesem Dienst gehören:
+Konfiguration von Integrationen mit anderen Adobe Experience Cloud-Lösungen, wie Audience Manager, Advertising Cloud oder Target. Zu diesem Service gehören:
 
 * **Audience Analytics:** Integration von Adobe Audience Manager mit Adobe Analytics.
 * **Advertising Analytics:** zur Anzeige von Paid Search-Daten gemeinsam mit Adobe Analytics-Daten.
+* **Analytics für Advertising Cloud:** Integration von Adobe Analytics und Adobe Advertising Cloud zur Erweiterung und Erweiterung der Produktkapazität
 * **Analytics for Target:** A4T integriert Adobe Analytics mit Adobe Target.
 * **Adobe Campaign Reporting:** Integration von Adobe Analytics mit Adobe Campaign.
 * **AEM Assets Reporting:** Ermöglicht die Erfassung von Impressionen und Klicks auf Assets, die von Adobe Experience Manager bereitgestellt werden.
