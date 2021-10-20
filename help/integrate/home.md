@@ -2,10 +2,10 @@
 title: Analytics-Integration
 description: Erfahren Sie, wie Sie Daten von anderen Speicherorten in Adobe Analytics integrieren können.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
+source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 89%
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
-Dieser Leitfaden konzentriert sich auf die Integration mehrerer Experience Cloud-Lösungen. Wenn Sie nach Analytics-Data Connectors suchen, finden Sie auf der Seite [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) im Benutzerhandbuch zum Importieren weitere Informationen.
+Dieser Leitfaden konzentriert sich auf die Integration mehrerer Adobe Experience Cloud-Lösungen. Wenn Sie nach Analytics-Data Connectors suchen, finden Sie auf der Seite [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) im Benutzerhandbuch zum Importieren weitere Informationen.
 
 Konfiguration von Integrationen mit anderen Adobe Experience Cloud-Lösungen, wie Audience Manager, Advertising Cloud oder Target. Zu diesem Service gehören:
 
