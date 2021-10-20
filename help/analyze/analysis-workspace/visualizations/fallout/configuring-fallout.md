@@ -2,13 +2,13 @@
 description: Sie können die Touchpoints angeben, um eine mehrdimensionale Fallout-Sequenz zu erstellen.
 title: Fallout-Visualisierung konfigurieren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualisierungen
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Pfad am Ende </p> <p>(Standard) </p> </td> 
-   <td colname="col2"> <p>Die Besucher, die „letztendlich“ auf der nächsten Seite im Pfad in dieser Sitzung, aber nicht notwendigerweise beim nächsten Treffer landen, werden gezählt. </p> </td> 
+   <td colname="col2"> <p>Besucher (oder Besuche) werden gezählt, wenn sie schließlich am nächsten Touchpoint im Pfad landen. Umwege sind zwischen Touchpoints erlaubt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nächster Hit </p> </td> 
-   <td colname="col2"> <p>Die Besucher, die auf der nächsten Seite im Pfad, genau beim nächsten Hit landen, werden gezählt. </p> </td> 
+   <td colname="col2"> <p>Besucher (oder Besuche) werden gezählt, wenn sie sofort auf dem nächsten Touchpoint im Pfad landen. Der nächste Treffer enthält jeden beliebigen Treffertyp (Seiten-Ansichten oder Links). Zwischen Touchpoints sind keine Umwege zulässig. </p> </td> 
   </tr> 
  </tbody> 
 </table>
