@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map unterstützt die aktuelle Version der gängigsten Browser.
 
 Activity Map sendet keine Server-Aufrufe von sich aus. Stattdessen werden die Kontextdatenvariablen von Activity Map in die Seitenaufrufe der Analytics-Ansicht auf der nachfolgenden Seite einbezogen.
 
-## Warum fehlen für einige Elemente, denen ein Rang zugewiesen wurde, die Überlagerungen?**
+## Warum fehlen für einige Elemente, denen ein Rang zugewiesen wurde, die Überlagerungen?
 
 Einige Rang-Links, wie z. B. Untermenü-Links, werden auf der Seite ausgeblendet. Daher werden die entsprechenden Link-Überlagerungen nicht angezeigt. Der Rang wird für alle Links auf der Seite berechnet, einschließlich ausgeblendeter Links.
 
@@ -83,3 +83,16 @@ Nein, Segmente funktionieren nicht im Live-Modus. Die Funktionalität entspricht
 ## Ist Activity Map mit Virtual Report Suites kompatibel?
 
 Ja. Aufgrund der Einschränkungen von Virtual Report Suites ist jedoch der Live-Modus von Activity Map nicht mit Virtual Report Suites kompatibel.
+
+## Wie kann ich Activity Map deaktivieren?
+
+Sie haben drei Optionen:
+
+* Löschen Sie die `AppMeasurement_Module_ActivityMap` Funktion aus der JS-Datei
+* hinzufügen benutzerdefinierter Code, der die oben stehende Funktion mit einem leeren Textkörper umschreibt, z. B.:
+
+   ```
+   function AppMeasurement_Module_ActivityMap() {}
+   ```
+
+* AppMeasurement durch Einstellung konfigurieren `s.trackClickMap` und `s.trackInlineStats` nach `false`
