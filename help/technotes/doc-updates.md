@@ -3,10 +3,10 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen in der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
 workflow-type: tm+mt
-source-wordcount: '2918'
-ht-degree: 99%
+source-wordcount: '2957'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Datum | Beschreibung |
 | --- | --- |
 | **Oktober 2021** |  |
-| 7. Oktober 2021 | Neue Dokumentation zu [Visualisierungen für mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
+| 21. Oktober 2021 | Neue Dokumentation zu [Schnellsegmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
+| 21. Oktober 2021 | Neue Dokumentation zu [Besuchszeit für Medienwiedergabe](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html?lang=de) in Analysis Workspace. |
+| 7. Oktober 2021 | Neue Dokumentation zu [Visualisierungen für mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#visualisierungen-anwenden) |
 | **August 2021** |  |
 | 18. August 2021 | Struktur auf oberster Ebene überarbeitet und in eine einzelne [Landingpage](https://experienceleague.adobe.com/docs/analytics.html?lang=de) konsolidiert |
 | 18. August 2021 | Neues Thema zu [A4T und Virtual Report Suites](/help/components/vrs/vrs-a4t.md) |
