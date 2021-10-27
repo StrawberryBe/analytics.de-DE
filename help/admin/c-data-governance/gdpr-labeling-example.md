@@ -3,10 +3,10 @@ description: Zeigt Beispiele zum Beschriften von Daten für Trefferdaten, Zugrif
 title: Beschriftungsbeispiele
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
+workflow-type: tm+mt
+source-wordcount: '814'
+ht-degree: 81%
 
 ---
 
@@ -132,7 +132,7 @@ Wenn Sie eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in 
     <td>true (wahr)</td>
     <td>Gerät</td>
     <td>nicht vorhanden</td>
-    <td>55, 77</td>
+    <td>55,77</td>
     <td>nicht vorhanden</td>
     <td>M, P, R</td>
     <td>W, X</td>
@@ -362,8 +362,9 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 
 Beachten Sie Folgendes:
 
-* Zellen in Zeilen, die `user=Mary` und die Beschriftung `DEL-DEVICE` oder `DEL-PERSON` enthalten, sind ebenso betroffen wie Zellen mit der Beschriftung `DEL-DEVICE` in Zeilen mit einer beliebigen Besucher-ID (AAID), die in einer Zeile mit dem Wert `user=Mary` auftritt.
-* Die Einstellung „expandIDs“ wird nicht auf den Aufruf erweitert, um in MyEvar3 vorhandene Werte einzuschließen, die eine ID-DEVICE-Beschriftung haben, wenn `user=Mary` verwendet wird. Bei „expandIDs“ kommt es nur zu einer Erweiterung, um Besucher-IDs (in diesem Beispiel AAIDs, aber auch die ECID) in Zeilen mit `user=Mary` einzuschließen.
-* `MyEvar2` in der vierten und fünften Zeile wird aktualisiert, weil diese Zeilen dieselben Besucher-ID-Werte enthalten wie die Daten in der ersten und zweiten Zeile. Daher werden sie bei der ID-Erweiterung für Löschvorgänge auf Geräteebene einbezogen.
-* Die Werte von `MyEvar2` in den Zeilen zwei und fünf stimmen sowohl vor als auch nach dem Löschvorgang überein. Nach dem Löschen stimmen sie jedoch nicht mehr mit dem Wert N in der letzten Zeile überein, da diese Zeile im Rahmen der Löschanfrage nicht aktualisiert wurde.
+* Zellen in Zeilen, die `user=Mary` und `DEL-PERSON` -Beschriftung betroffen sind.
+* Aufgrund der ID-Erweiterung können Zellen in Zeilen, die `AAID=77`, `AAID=88` oder `AAID=99` (dies sind die AAID-Werte in Zeilen, die `user=Mary`) und `DEL-DEVICE` -Beschriftung betroffen sind. Dazu gehören Zellen mit einer `DEL-DEVICE` Beschriftung in Zeilen mit `user=Mary`. Dies verursacht Zellen in den Zeilen 4 und 5 (sowie den Zeilen 1-3) mit `DEL-DEVICE` -Beschriftungen (AAID, MyEvar2 und MyEvar3) verschleiert werden.
+* Die Einstellung &quot;expandIDs&quot;wird nicht auf den Aufruf erweitert, um in MyEvar3 vorhandene Werte einzuschließen (`X`, `Y` und `Z`), die über eine ID-DEVICE-Beschriftung verfügt, wenn `user=Mary`. Bei „expandIDs“ kommt es nur zu einer Erweiterung, um Besucher-IDs (in diesem Beispiel AAIDs, aber auch die ECID) in Zeilen mit `user=Mary` einzuschließen. Daher die letzten beiden Zeilen, die MyEvar3-Werte von `X` und `Z` nicht betroffen sind.
+* `MyEvar2` in der vierten und fünften Zeile wird aktualisiert, da diese Zeilen dieselben Besucher-ID-Werte (`77` und `88`) als die Werte in der ersten und zweiten Zeile. Daher werden sie bei der ID-Erweiterung für Löschvorgänge auf Geräteebene einbezogen.
+* Die Werte von `MyEvar2` in den Zeilen zwei und fünf stimmen sowohl vor als auch nach dem Löschvorgang überein. Nach dem Löschen stimmen sie jedoch nicht mehr mit dem Wert überein `N` , der in der letzten Zeile auftritt, da diese Zeile im Rahmen der Löschanfrage nicht aktualisiert wurde.
 * `MyEvar3` verhält sich mit ID-Erweiterung anders als ohne, da ohne ID-Erweiterung keine `ID-DEVICES` übereingestimmt haben. Jetzt stimmt `AAID` in den ersten fünf Zeilen überein.
