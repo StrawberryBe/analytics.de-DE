@@ -5,10 +5,10 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Im **Standardmodus** können Sie den Datumsbereich in der Symbolleiste wie unten
 
 ![](assets/standard_mode.png)
 
-In diesem Modus werden Handelsmetriken ohne aktivierte Option „Teilnahme“ linear zugewiesen. Nehmen wir mal an, ein Benutzer klickt auf der Startseite auf einen „iPod mini“-Link und navigiert dann durch 3 weitere Seiten. Auf der 4. Seite kauft dieser Benutzer einen iPod mini für 200 €. Dabei wird dem „iPod mini“-Link ein Teilhabeumsatz in Höhe von 200 € und ein (linear zugewiesener) Umsatz von 50 € (200 geteilt durch 4) zugeteilt.
+In diesem Modus werden Handelsmetriken ohne aktivierte Option „Teilnahme“ linear zugewiesen. Nehmen wir mal an, ein Benutzer klickt auf der Startseite auf einen „iPod mini“-Link und navigiert dann durch 3 weitere Seiten. Auf der vierten Seite kauft der Benutzer ein IPod mini für 200 Euro. Dabei wird dem „iPod mini“-Link ein Teilhabeumsatz in Höhe von 200 € und ein (linear zugewiesener) Umsatz von 50 € (200 geteilt durch 4) zugeteilt.
 
 F: Was passiert, wenn auf verschiedenen Teilen einer Seite Links mit demselben Linknamen vorkommen? Werden den Links separat Werte zugewiesen, da sie zwar in verschiedenen Bereichen stehen, aber auf der Seite denselben Linknamen aufweisen?
 
