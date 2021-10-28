@@ -4,16 +4,20 @@ title: Übersicht über Bedienfelder
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 91%
 
 ---
 
 # Übersicht über Bedienfelder
 
-Ein [!UICONTROL Bedienfeld] ist eine Sammlung von Tabellen und Visualisierungen. Sie können auf Bedienfelder über das Symbol oben links in Workspace oder über ein [leeres Bedienfeld](blank-panel.md) zugreifen. Bedienfelder sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Anwendungsfällen für Analysen organisieren möchten. Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
+Ein [!UICONTROL Bedienfeld] ist eine Sammlung von Tabellen und Visualisierungen. Sie können auf Bedienfelder über das Symbol oben links in Workspace oder über ein [leeres Bedienfeld](blank-panel.md) zugreifen. Bedienfelder sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Anwendungsfällen für Analysen organisieren möchten.
+
+## Bedienfeldtypen
+
+Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
 
 | Name des Bedienfelds | Beschreibung |
 | --- | --- |
