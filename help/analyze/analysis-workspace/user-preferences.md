@@ -1,13 +1,13 @@
 ---
 title: So legen Sie Benutzereinstellungen in Analysis Workspace fest
-description: Sie können allgemeine Voreinstellungen und Projektvoreinstellungen für Benutzer festlegen.
-feature: Grundlagen zu Workspace
+description: Sie können allgemeine Voreinstellungen und Projekteinstellungen für Benutzer sowie eine Voreinstellung für dunkle Themen festlegen.
+feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 79%
 
 ---
 
@@ -41,3 +41,13 @@ Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace 
 |  | [Typ des Bedienfelds](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) | <ul><li>Freiform (Standard)</li><li>Leer</li><li>Quick Insights</li></ul> |
 |  | Zahlenformat | <ul><li>1.000,00 (Standard)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV-Trennzeichen   Zeichen | <ul><li>Komma (Standard)</li><li>Semikolon</li><li>Doppelpunkt</li><li>Verkettungszeichen</li><li>Zeitraum</li><li>Leerzeichen</li><li>Tab</li></ul> |
+
+## [!UICONTROL Dunkles Design]
+
+Wenn Sie einen dunklen Hintergrund für Ihre Adobe Analytics-Benutzeroberfläche bevorzugen, können Sie [!UICONTROL Dunkles Thema].
+
+1. Klicken Sie oben rechts auf das Experience Cloud-Benutzersymbol.
+
+   ![dark-theme](assets/dark-theme.png)
+
+1. Verschieben Sie die **[!UICONTROL Dunkles Thema]** nach rechts umschalten.
