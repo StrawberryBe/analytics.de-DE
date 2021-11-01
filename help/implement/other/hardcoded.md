@@ -2,10 +2,10 @@
 title: Implementieren mit fest programmierten Bildanforderungen
 description: Adobe Analytics mithilfe eines HTML-Bild-Tags (einer fest programmierten Bildanforderung) implementieren
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: ht
-source-wordcount: '672'
-ht-degree: 100%
+source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Diese Implementierungsmethode kann auf jeder Plattform verwendet werden, auf der
 Im Folgenden finden Sie ein Beispiel für eine fest programmierte Bildanforderung mit HTML:
 
 ```html
-<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1/s234234238479?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` bezeichnet das Protokoll. Stimmen Sie das in der Bildanforderung verwendete Protokoll mit dem Protokoll ab, das der Rest Ihrer Website verwendet.
@@ -32,6 +32,7 @@ Im Folgenden finden Sie ein Beispiel für eine fest programmierte Bildanforderun
 * `/b/ss/` ist in allen Bildanforderungen enthalten. Dabei handelt es sich um einen Teil der Dateistruktur für Bilder, die auf Adobe-Datenerfassungs-Servern gespeichert werden.
 * `examplersid` ist die Report Suite-ID, an die Sie Daten senden möchten. Trennen Sie die IDs bei mehreren Report Suites durch Kommas und ohne Leerzeichen (z. B. `examplersid1,examplersid2` usw.).
 * `/1/` ist die Trefferquelle. Siehe `hit_source` unter [Datenspaltenreferenz](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) im Exportbenutzerhandbuch. Steuert die Reihenfolge, in der Cookies und andere Methoden Besucher identifizieren.
+* `/s234234238479` (`"s"` + eine zufällige Nummer) verhindert, dass der Browser die Bildanforderung zwischenspeichert.
 * Alles nach dem Trennzeichen der Abfragezeichenfolge (`?`) sind Daten, die Sie in Berichte aufnehmen möchten. Eine vollständige Liste der Parameter, die Sie in eine Bildanforderung einbeziehen können, finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md).
 
 ## Hartkodierte Bildanforderungen in Microsoft Outlook

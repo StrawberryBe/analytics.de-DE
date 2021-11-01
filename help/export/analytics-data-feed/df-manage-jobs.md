@@ -2,11 +2,10 @@
 title: Verwalten von Daten-Feed-Aufträgen
 description: Erfahren Sie, wie Sie einzelne Aufträge in Daten-Feeds verwalten.
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '495'
-ht-degree: 100%
+source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +60,7 @@ Jeder Auftrag zeigt mehrere Spalten mit Informationen an. Klicken Sie auf eine S
    * Warten auf Daten: Der Auftrag ist betriebsfähig, und Daten für das Berichtsfenster werden erfasst.
    * In Verarbeitung: Der Auftrag erstellt die Datendateien und bereitet das Senden dieser Dateien vor.
    * Abgeschlossen: Der Auftrag wurde ohne Probleme abgeschlossen.
-   * Fehlgeschlagen: Der Auftrag wurde nicht abgeschlossen. Informationen zur Ermittlung der Fehlerursache finden Sie unter [Fehlerbehebung bei Aufträgen](jobs-troubleshooting.md).
+   * Fehlgeschlagen: Der Auftrag wurde nicht abgeschlossen. Siehe [Fehlerbehebung bei Daten-Feeds](troubleshooting.md) um die Ursache des Fehlschlagens zu ermitteln.
    * Warten auf Export: Die Daten für das Berichtsfenster wurden noch nicht vollständig verarbeitet.
    * Keine Daten: Die Report Suite enthält für das angeforderte Berichtsfenster keine Daten.
 * **Abschlusszeit**: Der Zeitpunkt, zu dem der Auftrag abgeschlossen wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.

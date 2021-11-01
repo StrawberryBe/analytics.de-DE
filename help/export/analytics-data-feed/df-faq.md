@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zu Daten-Feeds
 keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: ht
-source-wordcount: '1440'
-ht-degree: 100%
+source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ Wenn eine FTP-Übertragung fehlschlägt (aufgrund einer verweigerten Anmeldung, 
 
 Wenn eine Übertragung fehlschlägt, können Sie einen Auftrag erneut ausführen, bis er erfolgreich ist.
 
-Wenn Sie Probleme haben, einen Daten-Feed auf Ihrer FTP-Site anzuzeigen, finden Sie weitere Informationen unter [Fehlerbehebung bei Vorgängen](jobs-troubleshooting.md).
+Wenn Sie Probleme haben, einen Daten-Feed auf Ihrer FTP-Site anzuzeigen, lesen Sie [Fehlerbehebung bei Daten-Feeds](troubleshooting.md).
 
 ## Wie sende ich einen Vorgang erneut? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
@@ -99,8 +99,3 @@ Objekte erben jedoch keine Berechtigungen vom übergeordneten Bucket. Lädt Benu
 >[!NOTE]
 >
 >[!DNL Analytics] bestimmt nicht, ob der Bucket über eine Richtlinie verfügt, die erfordert, dem Bucket-Inhaber die volle Kontrolle über neue Objekte zu geben, oder auch dann, wenn sich der Bucket-Inhaber in einem anderen Konto befindet als der Benutzer, der die Daten schreibt. Stattdessen fügt [!DNL Analytics] den Bucket-Inhaber bei jedem Feed-Upload automatisch zur BucketOwnerFullControl-ACL hinzu.
-
->[!MORELIKETHIS]
->
->* [Fehlerbehebung bei Aufträgen](jobs-troubleshooting.md)
-
