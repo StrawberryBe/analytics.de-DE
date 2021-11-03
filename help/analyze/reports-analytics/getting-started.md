@@ -1,17 +1,20 @@
 ---
 description: Bevor Sie Reports & Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 title: Erste Schritte mit Reports & Analytics
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
 # Erste Schritte mit Reports &amp; Analytics
+
+>[!NOTE]
+>Dieses Produkt ist in Nordamerika und anderen Regionen, in denen das Produkt tatsächlich verkauft wird, zum Verkauf zugelassen und entspricht möglicherweise nicht den Anforderungen für den Verkauf in anderen Ländern oder Regionen.
 
 Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
@@ -31,15 +34,10 @@ Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanä
 
 Browser- und Systemanforderungen zur Anmeldung in der Benutzeroberfläche von Reports &amp; Analytics.
 
-* Browser:
+>[!NOTE]
+>Adobe unterstützt den Internet Explorer 11 in Adobe Analytics seit dem 13. November 2018 nicht mehr. Bitte wechseln Sie so bald wie möglich zu Microsoft Edge oder einem anderen unterstützten Browser.
 
-   * Bevorzugt: Aktuelle Versionen von Firefox, Chrome, Safari oder Edge.
-   * Aktuelle Version von Microsoft Internet Explorer 11
-
-      >[!NOTE]
-      >
-      >Adobe unterstützt den Internet Explorer 11 in Adobe Analytics seit dem 13. November 2018 nicht mehr. Bitte wechseln Sie so bald wie möglich zu Microsoft Edge oder einem anderen unterstützten Browser.
-
+* Bevorzugte Browser: Neueste Versionen von Firefox, Chrome, Safari oder Edge.
 * Cookies und JavaScript müssen aktiviert sein.
 * Bildschirmauflösung von 1024 x 768 mit einer Farbtiefe von mindestens 16 Bit.
 
@@ -94,7 +92,7 @@ Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die f
 | Kontaktperson | Geben Sie die folgenden persönlichen Daten für Ihr Konto an:<ul><li>Vorname (erforderlich)</li><li>Nachname (erforderlich)</li><li>Anrede/Titel</li><li>E-Mail-Adresse (erforderlich)</li><li>Telefonnummer</li></ul> |
 | Anmelden | Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. Siehe auch: [Zurücksetzen des Kennworts für Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=de). |
 | Webdienst | Zeigt den Webdienst-Benutzernamen und den gemeinsamen geheimen Schlüssel zu Ihrem Konto an. Mit diesen Anmeldedaten können Sie über die Webdienste-APIs auf die Experience Cloud zugreifen. Weitere Informationen finden Sie unter Developer Connection. **Anmerkung:** Diese Informationen werden nur angezeigt, wenn das Konto als Webdienste-Benutzer autorisiert ist. |
-| Diesen Computer ausschließen | Wendet ein Cookie auf den aktuellen Computer an, um diesen von der Datenkollektion auszuschließen. Dies ist hilfreich wenn Sie vermeiden möchten, dass Ihre Online-Aktivitäten die Seitenansichts- und Besucher-Zahlen in Ihrer Domäne beeinflussen. **Anmerkung:** Um diese Funktion nutzen zu können müssen Cookies in Ihrem Browser aktiviert sein. Wenn Sie Cookies auf Ihrem Computer löschen, müssen Sie das Ausschlusscookie wieder zurücksetzen. |
+| Diesen Computer ausschließen | Wendet ein Cookie auf den aktuellen Computer an, um diesen von der Datenkollektion auszuschließen. Dies ist hilfreich wenn Sie vermeiden möchten, dass Ihre Online-Aktivitäten die Seitenansichts- und Besucher-Zahlen in Ihrer Domain beeinflussen. **Anmerkung:** Um diese Funktion nutzen zu können müssen Cookies in Ihrem Browser aktiviert sein. Wenn Sie Cookies auf Ihrem Computer löschen, müssen Sie das Ausschlusscookie wieder zurücksetzen. |
 
 ## Sprache der Benutzeroberfläche ändern
 
