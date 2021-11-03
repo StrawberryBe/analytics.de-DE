@@ -1,10 +1,11 @@
 ---
 title: Merchandising-eVars und Methoden zur Produktsuche
 description: Ein tiefer Einblick in die Konzepte hinter Merchandising-eVars und deren Verarbeitung und Zuordnung von Daten.
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
-workflow-type: ht
-source-wordcount: '5324'
-ht-degree: 100%
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,7 +87,7 @@ Bei **[!UICONTROL Produktsyntax]** wird die eVar jedoch nur innerhalb der Adobe 
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Kategorie] ist eine veraltete Funktion und wird nicht mehr als praktikable Option zur Nachverfolgung der Produktkategorieleistung empfohlen. Die bloße Existenz zeigt, warum bei den meisten Implementierungen der Variablen „products“ ein einzelnes Semikolon dem „productID“-Teil des Variablenwerts vorangeht.
+* [!UICONTROL Kategorie] wird nicht mehr als praktikable Option zur Nachverfolgung der Produktkategorieleistung empfohlen.  Die bloße Existenz zeigt, warum bei den meisten Implementierungen der Variablen „products“ ein einzelnes Semikolon dem „productID“-Teil des Variablenwerts vorangeht.
 * [!UICONTROL Menge] und [!UICONTROL Umsatz] sind nützlich, wenn ein Produktkauf verfolgt wird.
 * [!UICONTROL Ereignisse] ist nützlich für die Aufzeichnung benutzerdefinierter inkrementeller oder Währungsereigniswerte, die nicht als Umsatz gezählt werden sollen (z. B. Versandkosten, Rabatte usw.)
 

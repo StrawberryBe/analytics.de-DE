@@ -2,10 +2,10 @@
 title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,9 @@ Sie können eine dieser Erweiterungen oder den Editor für benutzerdefinierten C
 
 Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
 
-* **Kategorie** (optional): Die übergeordnete Produktkategorie. Ihr Unternehmen entscheidet, wie Produkte in Kategorien unterteilt werden. Die maximale Länge für dieses Feld beträgt 100 Byte.
+>[!IMPORTANT]
+>**[!UICONTROL Kategorie ]**wird nicht mehr als praktikable Option zur Nachverfolgung der Produktkategorieleistung empfohlen. Daher sollten alle Produktzeichenfolgen mit dem Semikolon beginnen, was für das leere erste Feld steht.
+
 * **Produktname** (erforderlich): Der Name des Produkts. Die maximale Länge für dieses Feld beträgt 100 Byte.
 * **Menge** (optional): Die Anzahl dieser Produkte im Warenkorb. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
 * **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Menge größer als 1, setzen Sie den Preis auf den Gesamtpreis und nicht auf den Einzelproduktpreis. Stellen Sie sicher, dass die Währung dieses Werts mit der [`currencyCode`](../config-vars/currencycode.md)-Variablen übereinstimmt. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
@@ -41,14 +43,14 @@ Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pr
 
 ```js
 // Set a single product using all available fields
-s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
+s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
 Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge für die gesamte `products`-Zeichenfolge beträgt 64 K. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
+s.products = ";Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -61,39 +63,39 @@ Die `products`-Variable ist flexibel, wenn Felder ausgelassen und mehrere Produk
 
 ```js
 // Include only product and category. Common on individual product pages
-s.products = "Example category;Example product";
+s.products = ";Example product";
 
-// Include only product name if you do not want to use product category
+// Include only product name
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product 1,;Example product 2";
+s.products = ";Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
-s.products = "Example category;Example product;1;6.99";
+s.products = ";Example product;1;6.99";
 
 // A visitor purchases multiple products with different quantities
 s.events = "purchase";
-s.products = "Example category;Example product 1;9;26.91,Example category;Example product 2;4;9.96";
+s.products = ";Example product 1;9;26.91,Example category;Example product 2;4;9.96";
 
 // Attribute currency event1 only to product 2 and not product 1
 s.events = "event1";
-s.products = "Example category 1;Example product 1;1;1.99,Example category 2;Example product 2;1;2.69;event1=1.29";
+s.products = ";Example product 1;1;1.99,Example category 2;Example product 2;1;2.69;event1=1.29";
 
 // Use multiple numeric events in the product string
 s.events = "event1,event2";
-s.products = "Example category;Example product;1;4.20;event1=2.3|event2=5";
+s.products = ";Example product;1;4.20;event1=2.3|event2=5";
 
 // Use merchandising eVars without any events. Note the adjacent semicolons to skip events
-s.products = "Example category;Example product;1;6.69;;eVar1=Merchandising value";
+s.products = ";Example product;1;6.69;;eVar1=Merchandising value";
 
 // Use merchandising eVars without category, quantity, price, or events
 s.products = ";Example product;;;;eVar1=Merchandising value";
 
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
-s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+s.products = ";Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
 Wenn Sie die `digitalData`-[Datenschicht](../../prepare/data-layer.md) verwenden, können Sie das `digitalData.product`-Objekt-Array iterativ durchlaufen:
