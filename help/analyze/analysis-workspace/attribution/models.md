@@ -4,10 +4,10 @@ description: Die Art und Weise, wie verschiedene Arten von Attribution Gewichtun
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 100%
+source-wordcount: '1492'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 * **Besucher-Lookback-Fenster:** Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind groß, da sie viele Besuche umfassen können. Bei der Besucher-Lookback-Funktion werden alle Werte ab dem Monatsanfang des Datumsbereichs des Berichts berücksichtigt. Wenn der Datumsbereich des Berichts beispielsweise zwischen dem 15. September und dem 30. September liegt, liegt der Besucher-Lookback-Datumsbereich zwischen dem 1. September und dem 30. September.
 
 * **Benutzerdefiniertes Lookback-Fenster:** Ermöglicht Ihnen, das Attributionsfenster über den Datumsbereich des Berichts hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konversion im Berichtszeitraum ausgewertet. Beispiel: Bei einer Konversion am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Touchpoints der Dimension vom 10. bis 20. Februar im Attributionsmodell auswerten.
+
+   Hier finden Sie ein Video zu benutzerdefinierten Lookback-Fenstern:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
 
 ## Beispiel
 

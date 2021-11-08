@@ -2,19 +2,23 @@
 description: Verwenden Sie die Fallout-Visualisierung in einem Workspace-Projekt.
 title: Fallout-Übersicht
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: Visualisierungen
+feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
 # Fallout-Übersicht
 
 Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind).
+
+Hier finden Sie ein Video zur Fallout-Visualisierung:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
 Mit Fallout-Visualisierungen können Sie:
 
@@ -33,8 +37,6 @@ Eine Fallout-Visualisierung ist zur Analyse der folgenden Punkte nützlich:
 * Konversionssätze durch bestimmte Abläufe auf Ihrer Site (wie z. B. ein Kauf- oder Registrierungsablauf).
 * Allgemeiner, breiter gefasster Trafficfluss: Dieser Fluss zeigt, wie viele Personen, die sich die Homepage ansahen, anschließend eine Suche durchführten und dann ein bestimmtes Element anzeigten.
 * Korrelationen zwischen Ereignissen auf Ihrer Site. Korrelationen zeigen, welcher Prozentsatz von Personen, die die Datenschutzrichtlinien durchlasen, ein Produkt kauften.
-
-[Tutorial zur Fallout-Visualisierung](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=de) (4:15)
 
 ## Segmentierung als Grundlage für Fluss und Fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 

@@ -4,10 +4,10 @@ keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
 title: Analytics-Daten-Feed-Dokumentation
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 98%
 
 ---
 
@@ -67,4 +67,8 @@ Sobald Sie den grundlegenden Workflow beim Abrufen von Daten-Feeds kennen, könn
 
 Video zur Navigation auf der Daten-Feed-Oberfläche:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html?lang=de)
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+
+Video zur Suche nach Ihrer Daten-Feed-ID:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)

@@ -2,12 +2,12 @@
 description: Verwenden Sie die Flussvisualisierung in einem Workspace-Projekt.
 title: Flussübersicht
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualisierungen
+feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -37,3 +37,7 @@ Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension p
 ## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
+
+## Erweiterung bei Flussvisualisierung
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

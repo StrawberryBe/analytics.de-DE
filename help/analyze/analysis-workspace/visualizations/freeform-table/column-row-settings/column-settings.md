@@ -2,13 +2,13 @@
 description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatierung konfigurieren. Einige davon sind bedingt.
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: Freiformtabellen
+feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -69,3 +69,9 @@ Analysis Workspace unterstützt die [Attribution](/help/analyze/analysis-workspa
 >
 >* [Datenquellen verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
+
+## Dynamische Spalten
+
+Im Folgenden finden Sie ein Video zur Verwendung dynamischer Spalten in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)

@@ -3,13 +3,13 @@ description: Schlüsseln Sie Dimensionen und Dimensionselemente in Analysis Work
 keywords: Analysis Workspace
 title: Dimensionen aufschlüsseln
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 88%
 
 ---
 
@@ -30,12 +30,22 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
    >
    >Die Anzahl der in der Tabelle angezeigten Aufschlüsselungen ist auf 200 beschränkt. Für das Exportieren von Aufschlüsselungen ist diese Einschränkung höher.
 
-[Hinzufügen von Dimensionen und Metriken zu Ihrem Projekt in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=de) (11:39)
-
-[Arbeiten mit Dimensionen in einer Freiformtabelle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html?lang=de) (15:35)
-
 ## Attributionsmodelle auf Aufschlüsselungen anwenden
 
 Auf jede Aufschlüsselung innerhalb einer Tabelle kann auch ein beliebiges Attributionsmodell angewandt werden. Dieses Attributionsmodell kann mit der übergeordneten Spalte identisch sein oder sich von ihr unterscheiden. Sie können beispielsweise lineare Bestellungen in Ihrer Dimension „Marketing-Kanäle“ analysieren, jedoch U-förmige Bestellungen auf spezifische Trackingcodes in einem Kanal anwenden. Bewegen Sie zum Bearbeiten des auf eine Aufschlüsselung angewendeten Attributionsmodells einfach den Mauszeiger auf das Aufschlüsselungsmodell und klicken Sie auf **[!UICONTROL Bearbeiten]**:
 
 ![Aufschlüsselungseinstellungen](assets/breakdown_settings.png)
+
+## Videos
+
+Hinzufügen von Dimensionen und Metriken zu Ihrem Projekt in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+
+Arbeiten mit Dimensionen in einer Freiformtabelle:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+
+Im Folgenden finden Sie ein Video zu Dimensionsaufschlüsselungen nach Position:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)

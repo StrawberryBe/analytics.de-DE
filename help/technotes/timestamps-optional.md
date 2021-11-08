@@ -5,9 +5,9 @@ title: Verwendung von „Zeitstempel optional“
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # Verwendung von „Zeitstempel optional“
 
 In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der Einstellung „Zeitstempel optional“.
+
+Hier finden Sie ein Video zum Thema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 „Zeitstempel optional“ ist die Standardeinstellung für alle neuen Report Suites.
 
@@ -34,7 +38,6 @@ Mit der Funktion „Zeitstempel optional“ können Sie Daten mit und ohne Zeits
 
 * **Daten mit Zeitstempel**: Client-seitige Daten mit Zeitstempel werden erfasst und direkt mit den Gerätedaten über Client-seitige Zeitstempelvariablen übertragen: mittels Javascript von einer Webseite oder mittels eines Mobile SDK-Aufrufs ([!DNL offlineEnabled=true]) aus einer App.
 * **Daten ohne Zeitstempel**: Adobe versieht Daten einer Report Suite ohne Zeitstempel mit einem Zeitstempel, sobald die Daten beim Erfassungsserver eintreffen.
-
 
 Eine Report Suite kann eine der folgenden Zeitstempeleinstellungen haben:
 
@@ -66,7 +69,7 @@ Nachfolgend finden Sie Best Practices in Verbindung mit Zeitstempeln sowie einig
 
 * Im Allgemeinen müssen die Zeitstempel für einen bestimmten Besucher oder Besuch in korrekter chronologischer Reihenfolge bei Adobe eintreffen.
 
-   Daten außerhalb der Reihenfolge können verspätet eintreffende Daten aus Offline-Datenerfassungen, verspätet eintreffende Treffer oder nicht synchronisierte Zeiten von Offline-Mobilgeräten sein. Diese nicht chronologischen Daten können Berechnungen (z. B. die Angabe der Dauer), Zuordnungen (eVar-Persistenz), Besucherzahlen und Pfadsetzungsberichte beeinträchtigen.
+   Daten außerhalb der Reihenfolge können verspätet eintreffende Daten aus Offline-Datenerfassungen, verspätet eintreffende Treffer oder nicht synchronisierte Zeiten von Offline-Mobilgeräten sein. Diese nicht chronologischen Daten können Berechnungen (z. B. die Angabe der Dauer), Zuordnungen (eVar-Persistenz), Besucherzahlen und Pfadberichte beeinträchtigen.
 
 * Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](/help/implement/vars/config-vars/visitorid.md) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
 

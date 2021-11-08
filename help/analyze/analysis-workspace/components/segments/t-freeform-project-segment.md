@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
-workflow-type: ht
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 In Workspace können Sie verschiedene Arten von Segmenten erstellen, je nachdem, wie komplex sie sein müssen, ob sie nur für das vorliegende Projekt gelten sollen usw. Im Folgenden finden Sie eine Zusammenfassung der Segmenttypen:
 
-| Segmenttyp | Wo erstellt? | Wo anwendbar? | Verwendungsbereiche |
+| Segmenttyp | Wo erstellt? | Wird wo angewendet? | Verwendungsbereiche |
 | --- | --- | --- | --- |
 | Segment der Komponentenliste | Klicken Sie auf +, um zu [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) zu gelangen. | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
 | Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Flexibilität beim Hinzufügen/Bearbeiten einer oder mehrerer Regeln |
@@ -26,9 +26,15 @@ In Workspace können Sie verschiedene Arten von Segmenten erstellen, je nachdem,
 | - Berechnetes metrikbasiertes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=de) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
 | - VRS-basiertes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer VRS-Definition |
 
-In diesem Video wird die Verwendung von Segmenten in Analysis Workspace erklärt:
+## Videos
+
+Verwenden von Segmenten in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+Suchen und Erstellen von Segmenten:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## Erstellen von Segmenten {#section_693CFADA668B4542B982446C2B4CF0F5}
 

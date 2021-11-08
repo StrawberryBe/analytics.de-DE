@@ -2,17 +2,20 @@
 title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 
 # Verwalten von Daten-Feeds
 
 Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstellen, bearbeiten und löschen. Wenn Sie berechtigt sind, auf den Daten-Feed-Manager zuzugreifen, können Sie Daten-Feeds für alle Report Suites verwalten, die für Sie sichtbar sind.
+
+Im Folgenden finden Sie ein Video zur Benutzeroberfläche für die Verwaltung von Daten-Feeds:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
 Gehen Sie wie folgt vor, um auf das Daten-Feed-Management zuzugreifen:
 

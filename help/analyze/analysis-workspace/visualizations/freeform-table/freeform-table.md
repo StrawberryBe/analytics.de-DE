@@ -1,13 +1,13 @@
 ---
 title: Freiformtabelle
 description: Freiformtabellen sind die Grundlage für die Analyse von Daten in Workspace
-feature: Freiformtabellen
+feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,20 @@ Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten als CSV-Datei herunterladen]** lädt die angezeigten Tabellendaten als CSV-Datei herunter. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl als CSV-Datei herunterladen]**.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Projekt > Elemente als CSV-Datei herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
 
-Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
+Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) aller Daten für Analysis Workspace.
 
 ![](assets/export-options.png)
+
+## Videos
+
+Übersicht über den Freiformtabellen-Builder:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+
+Freiformtabellenfilter:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+
+Gesamtwerte der Freiformtabelle:
+
+>[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
