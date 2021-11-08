@@ -5,16 +5,20 @@ title: Übersicht über Erfolgsereignisse
 feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 97%
 
 ---
 
 # Übersicht über Erfolgsereignisse
 
-Erfolgsereignisse sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Beispiel: Wenn ein Besucher einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden..
+Erfolgsereignisse (auch Konversionsereignisse oder benutzerspezifische Ereignisse genannt) sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Beispiel: Wenn ein Besucher einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden..
+
+Im Folgenden finden Sie eine Videoübersicht:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
 Rufen Sie die Seite „Erfolgsereignisse“ in den Report Suite-Einstellungen auf:
 
@@ -34,7 +38,7 @@ Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen
 * **High Tech**: Download von White Papers, Gebotsanfragen, Formularausfüllung, Supportanfragen
 * **Automotive**: Leadeinsendung, Preisanfrage, Download von Broschüren
 
-Die Variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
+Die Variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=de) definiert ein Erfolgsereignis.
 
 ## Seite „Erfolgsereignisse“ – Beschreibungen  {#section_681ECEC981694CABBDBF00E18165B447}
 

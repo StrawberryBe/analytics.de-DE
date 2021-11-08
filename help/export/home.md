@@ -2,10 +2,10 @@
 title: Exportleitfaden für Analytics
 description: In diesem Handbuch werden Möglichkeiten erläutert, wie Daten mithilfe von Daten-Feeds und Data Warehouse aus Adobe Analytics abgerufen werden können.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -13,10 +13,14 @@ ht-degree: 100%
 
 ![Banner](../../assets/doc_banner_export.png)
 
-In diesem Handbuch wird beschrieben, wie Sie Daten aus Adobe Analytics abrufen können. Zu diesem Dienst gehören:
+In diesem Handbuch wird beschrieben, wie Sie Daten aus Adobe Analytics abrufen können. Zu diesem Service gehören:
 
 * **Daten-Feeds:** Hiermit erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein separater Treffer und jede Spalte ist eine Variable. Daten-Feeds werden normalerweise an FTP-Sites gesendet.
 * **Data Warehouse:** Verwenden Sie einen Anfrageassistenten, um Daten in Form einer Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und von eindeutigen Werten zu ermöglichen.
+
+Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Wichtige Artikel über den Export in Analytics
 

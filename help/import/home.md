@@ -2,10 +2,10 @@
 title: Importleitfaden für Analytics
 description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Datenquellen, der Dateneinfügungs-API und Data Connectors in Analytics aufnehmen können.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 94%
 
 ---
 
@@ -13,11 +13,15 @@ ht-degree: 100%
 
 ![Banner](../../assets/doc_banner_import.png)
 
-In diesem Leitfaden wird erklärt, wie Daten in Analytics importiert werden. Zu diesem Dienst gehören:
+In diesem Leitfaden wird erklärt, wie Daten in Analytics importiert werden. Zu diesem Service gehören:
 
 * **[Data Sources](c-data-sources/datasrc-home.md)**: Zum Hochladen einer Datei auf eine dafür vorgesehene Adobe FTP-Site. Adobe ruft die Datei ab und fügt die Daten zu Ihrer Report Suite hinzu.
 * **[Dateneinfüge-API](c-data-insertion-api/c-data-insertion-api.md)**: Zum Senden von Daten über eine API direkt an die Datenerfassung von Adobe.
 * **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: Arbeiten Sie mit einem unterstützten Drittanbieter zusammen, um dessen Daten in Adobe Analytics aufzunehmen und Ihre Report Suite anzureichern.
+
+Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Weitere Benutzerhandbücher für Analytics
 
