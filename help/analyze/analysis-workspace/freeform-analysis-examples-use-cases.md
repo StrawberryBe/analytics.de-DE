@@ -2,12 +2,12 @@
 description: Beispiele zur Verwendung von Datentabellen und Segmenten sowie exemplarische Anwendungsfälle für Analysis Workspace.
 keywords: Analysis Workspace
 title: Anwendungsfälle von Analysis Workspace
-feature: Grundlagen zu Reports & Analytics
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -61,3 +61,8 @@ Angenommen Sie sind Marketinganalyst eines Einzelhändlers für Outdoor-Ausrüst
 
    Jetzt können Sie den Bericht für diese Merchandising-Teams  [freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
 
+## Cross-Sell-Analyse in Analysis Workspace
+
+Hier finden Sie ein Video zu diesem Thema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
