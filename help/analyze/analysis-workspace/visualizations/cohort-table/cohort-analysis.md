@@ -4,10 +4,10 @@ description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgrupp
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 447f03c240580462b92b04254ca682cef69b6ffc
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,13 @@ Beispiele für die Nutzung einer [!UICONTROL Kohortenanalyse]:
 
 Die [!UICONTROL Kohortenanalyse] steht allen Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analysis Workspace] zur Verfügung.
 
-[Video-Tutorial zur Kohortenanalyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=de) (4:36)
+Video zu Kohortentabellen in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Kohortenanalyse]
->
->unterstützt keine nicht segmentierbaren Metriken (einschließlich berechneter Metriken), Nicht-Ganzzahlmetriken (z. B. Umsatz) oder Vorfälle. Nur Metriken, die in Segmenten verwendet werden können, können in der
->[!UICONTROL Kohortenanalyse] verwendet werden. Sie können jeweils nur um 1 inkrementiert werden.
+>[!UICONTROL Kohortenanalyse] unterstützt keine nicht segmentierbaren Metriken (einschließlich berechneter Metriken), nicht ganzzahligen Metriken (z. B. Umsatz > oder Vorfälle). Nur Metriken, die in Segmenten verwendet werden können, können in [!UICONTROL Kohortenanalyse]und sie können jeweils nur um mehr als 1 inkrementiert werden.
 
 ## Funktionen der Kohortenanalyse
 

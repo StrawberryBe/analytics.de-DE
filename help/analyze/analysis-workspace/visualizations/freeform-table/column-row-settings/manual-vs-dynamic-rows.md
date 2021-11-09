@@ -1,13 +1,13 @@
 ---
 title: Dynamische und statische Dimensionselemente in Freiform-Tabellen
 description: Interaktion mit dynamischen und statischen Dimensionselementen in Tabellen.
-feature: Freiformtabellen
+feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -54,3 +54,9 @@ Dynamische und statische Zeilen verhalten sich in der Freiform-Gesamtzeile unter
 
 * Dynamische Zeilen werden Server-seitig summiert und deduplizieren Metriken wie „Besuche“ oder „Besucher“.
 * Statische Zeilen werden Client-seitig summiert und deduplizieren **keine** Metriken. Um die Gesamtzeile Server-seitig zu berechnen, ändern Sie die Zeileneinstellung auf **Gesamtsumme anzeigen**. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=de)
+
+## Neuanordnen von statischen Zeilen
+
+Hier finden Sie ein Video zum Thema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)

@@ -4,10 +4,10 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,12 @@ In Ihrem Workspace-Projekt können Sie von der linken Leiste aus auf **Bereiche,
 **Bedienfelder** dienen zur Organisation Ihrer Analyse in einem Projekt und können viele Tabellen und Visualisierungen enthalten. Viele der in Analysis Workspace bereitgestellten Bedienfelder generieren einen vollständigen Satz von Analysen auf der Grundlage einiger Benutzereingaben. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Bedienfelder]** oben aus, um eine vollständige Liste der verfügbaren [Bedienfelder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) anzuzeigen.
 
 ![](assets/build-panels.png)
+
+### Projektmanagement in Analysis Workspace
+
+Im Folgenden finden Sie eine Videoübersicht zum Projekt-Management:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## Zusätzliche Ressourcen {#resources}
 

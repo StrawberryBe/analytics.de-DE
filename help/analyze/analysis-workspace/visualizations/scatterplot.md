@@ -1,13 +1,13 @@
 ---
 title: Streudiagramm
 description: Eine Visualisierung, die die Beziehung zwischen bis zu drei Metriken anzeigt.
-feature: Visualisierungen
+feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 94%
 
 ---
 
@@ -22,3 +22,7 @@ Die Streudiagramm-Visualisierung zeigt die Beziehung zwischen Dimensionselemente
 * Alle nachfolgenden Spalten in einer Freiform-Tabelle werden von der Streudiagramm-Visualisierung ignoriert.
 
 ![Streudiagramm](assets/scatter.png)
+
+Im Folgenden finden Sie ein Video zu Streudiagrammvisualisierungen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)

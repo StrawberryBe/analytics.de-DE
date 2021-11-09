@@ -1,13 +1,13 @@
 ---
 description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen von metrischen Dimensionen, Segmenten und Ereignissen für das Segmentieren von Besuchern auf der Grundlage von Behälterhierarchielogik, Regeln und Operatoren. Mit diesem integrierten Entwicklungstool können Sie einfache oder komplexe Segmente erstellen und speichern, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden.
 title: Segmente erstellen
-feature: Segmentierung
+feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2036'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '2046'
+ht-degree: 99%
 
 ---
 
@@ -120,6 +120,10 @@ Sie können beispielsweise ganz einfach ein Segment erstellen, das „alle, die 
 Erstellen Sie einen Behälter „Besuch“ und fügen Sie den Zeitraum [!UICONTROL Letzte 60 Tage] und die Metrik [!UICONTROL Menge größer als oder gleich 1] mit einem AND-Operator hinzu:
 
 ![](assets/date-ranges.png)
+
+Hier finden Sie ein Video zur Verwendung rollierender Datumsbereiche in Segmenten:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
 ## Stapeln von Segmenten {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
