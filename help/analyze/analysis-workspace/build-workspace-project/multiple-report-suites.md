@@ -1,13 +1,13 @@
 ---
 title: Mehrere Report Suites
 description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren Report Suites erstellen
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,10 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 * Daten aus zwei verschiedenen Regionen vergleichen und sich die Daten in zwei verschiedenen Report Suites befinden. Sie können Tabellen und Visualisierungen erstellen, um die Daten nebeneinander zu vergleichen.
 
 * ein Dashboard mit Metriken und Visualisierungen erstellen, um Berichte an andere Organisationen zu senden. Sie können jetzt Daten aus verschiedenen Report Suites in dasselbe Projekt ziehen.
+
+Hier ist ein Video zum Thema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
 ## Report Suite auf alle Bedienfelder anwenden
 
@@ -35,7 +39,7 @@ Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Ver
 >Sie können Objekte per Drag-and-Drop in ein beliebiges Bedienfeld ziehen, das sich in derselben Report Suite wie das aktive Bedienfeld befindet. Durch Ziehen eines Objekts in ein inaktives Bedienfled derselben Report Suite wird das Bedienfeld aktiv.
 
 | Aufgabe | Aktives Bedienfeld | Inaktives Bedienfeld |
-|---|---|---|
+| --- | --- | --- |
 | Report Suite ändern | Ja | Nein |
 | Komponenten per Drag &amp; Drop verschieben | Ja | Ja, für alle Bedienfelder, die sich in derselben Report Suite wie Ihr aktives Bedienfeld befinden. |
 | Visualisierungen per Drag &amp; Drop verschieben | Ja | Ja, für alle Bedienfelder, die sich in derselben Report Suite wie Ihr aktives Bedienfeld befinden. |

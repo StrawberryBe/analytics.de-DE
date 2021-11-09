@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ Die Zuordnungsvisualisierung in Analysis Workspace
 * Unterstützt PDF-Export.
 * nutzt WebGL für die Grafikdarstellung. Wenn Ihre Grafiktreiber die WebGL-Ausgabe nicht unterstützen, müssen Sie Ihre Treiber unter Umständen aktualisieren.
 
+Im Folgenden finden Sie eine Videoübersicht:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## Eine Zuordnungsvisualisierung erstellen {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. Ziehen Sie eine **[!UICONTROL Zuordnung]** aus der Liste der Visualisierungen in ein Freiform-Bedienfeld:
@@ -33,18 +37,10 @@ Die Zuordnungsvisualisierung in Analysis Workspace
 1. Ziehen Sie eine Metrik aus der Liste der Metriken (gilt auch für berechnete Metriken) dazu.
 1. Legen Sie die Datenquelle fest, die Sie nutzen möchten. (Dieses Dialogfeld wird nur angezeigt, wenn die Standortverfolgung für die Daten Ihrer mobilen App aktiviert ist.)
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Mobiler Breitengrad/Längengrad</b> </p> </td> 
-   <td colname="col2"> <p>Diese Option stellt die Daten der mobilen App dar. </p> <p>Diese Option wird Ihnen nur angezeigt, wenn Sie sie für Ihre Report Suite unter <span class="ignoretag"> <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol"> &lt;gewünschte Report Suite&gt; </span> &gt; <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Mobile Management</span> &gt; <span class="uicontrol">Standortverfolgung aktivieren </span> </span> aktiviert haben. </p> <p>Das ist die Standardeinstellung (sofern die Standardverfolgung aktiviert ist). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Geographische Dimensionen</b> </p> </td> 
-   <td colname="col2"> <p>Diese Option stellt anhand der IP-Adresse eines Besuchers gewonnene Geo Segmentierung-Daten über seinen Standort dar. Diese Daten werden in „Land“, „Region“ und „Stadt“ umgewandelt. Beachten Sie, dass diese Daten nicht bis zu den Ebenen „Designated Market Area“ oder „Postleitzahl“ reichen. </p> <p>Diese Dimension ist für beinahe alle Report Suites aktiviert. Wenn das bei Ihrer Report Suite nicht der Fall ist, bitten Sie die Adobe-Kundenunterstützung um Hilfe bei der Aktivierung geographischer Berichte. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Einstellung | Beschreibung |
+| --- | --- |
+| [!UICONTROL Mobiler Breitengrad/Längengrad] | Diese Option stellt die Daten der mobilen App dar. Diese Option wird nur angezeigt, wenn Sie sie für Ihre Report Suite in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (Report Suite auswählen) > [!UICONTROL Einstellungen bearbeiten] >  [!UICONTROL Mobile Management] > [!UICONTROL Standortverfolgung aktivieren]. Das ist die Standardeinstellung (sofern die Standardverfolgung aktiviert ist). |
+| [!UICONTROL Geographische Dimensionen] | Diese Option stellt anhand der IP-Adresse eines Besuchers gewonnene Geo Segmentierung-Daten über seinen Standort dar. Diese Daten werden in [!UICONTROL Land], [!UICONTROL Region]und [!UICONTROL Ort]. Beachten Sie, dass diese Daten nicht bis zu den Ebenen „Designated Market Area“ oder „Postleitzahl“ reichen. Diese Dimension ist für beinahe alle Report Suites aktiviert. Wenn das bei Ihrer Report Suite nicht der Fall ist, bitten Sie die Adobe-Kundenunterstützung um Hilfe bei der Aktivierung geographischer Berichte. |
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 

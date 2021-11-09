@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 99%
@@ -52,7 +52,7 @@ ht-degree: 99%
             + [Zeileneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische im Vergleich zu statischen Elementen](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Paginierung, Filtern und Sortieren von Tabellen](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Workspace-Summen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Arbeitsbereich-Summen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Kohortentabelle {#cohort-table}
          + [Was ist eine Kohortenanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Konfigurieren eines Kohortenanalyseberichts](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -60,7 +60,7 @@ ht-degree: 99%
       + Fallout {#fallout}
          + [Fallout-Übersicht](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Fallout-Visualisierung konfigurieren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Interdimensionaler Fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Mehrdimensionaler Fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Segmente in der Fallout-Analyse anwenden](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Fluss {#flow}
          + [Flussübersicht](analysis-workspace/visualizations/c-flow/flow.md)
@@ -126,7 +126,7 @@ ht-degree: 99%
          + [Warnhinweis-Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Intelligente Warnhinweise – Anwendungsfälle](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Benutzerpräferenzen](analysis-workspace/user-preferences.md)
-   + Häufig gestellte Fragen zu Workspace {#workspace-faq}
+   + Häufig gestellte Fragen zu Arbeitsbereich {#workspace-faq}
       + [Häufig gestellte Fragen](analysis-workspace/workspace-faq/faq.md)
       + [Optimieren der Analysis Workspace-Leistung](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Fehlermeldungen](analysis-workspace/workspace-faq/error-messages.md)
@@ -312,8 +312,8 @@ ht-degree: 99%
 + Adobe Analytics-Dashboards {#mobapp}
    + [Adobe Analytics-Dashboards – Übersicht](mobile-app/home.md)
    + [Einleitung für Kuratoren](mobile-app/curator.md)
-   + [Mobile Scorecard erstellen](mobile-app/create-scorecard.md)
-   + [Einrichten von Führungskräften für die Verwendung von Dashboards](mobile-app/set-up-execs.md)
+   + [Mobile-Scorecard erstellen](mobile-app/create-scorecard.md)
+   + [Führungskräften die Nutzung von Dashboards ermöglichen](mobile-app/set-up-execs.md)
    + [Schnellstarthandbuch für ausführende Benutzer](mobile-app/executive.md)
 + [Berichterstellungs-API](reporting-api.md)
 + [Labs](labs.md)

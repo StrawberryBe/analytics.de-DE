@@ -2,10 +2,10 @@
 title: Übersicht über Klassifizierungen
 description: Passen Sie die Gruppierung von Dimensionselementen an.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ Beim Klassifizieren bilden Sie eine Beziehung zwischen der Variablen und den Met
 Nach der Classification kann jeder Bericht, den Sie mithilfe der Schlüsselvariable erstellen können, auch mithilfe der zugeordneten Attribute erstellt werden. Sie können beispielsweise [!UICONTROL Produkt-IDs] mit zusätzlichen Produktattributen wie Produktname, Farbe, Größe, Beschreibung und SKU klassifizieren. Durch die Erweiterung der Reports &amp; Analysen-Daten um zusätzliche Attribute werden tiefergehende und komplexere Berichte möglich.
 
 Nach dem Erstellen der Klassifizierungen können Sie die neuen Datenattribute im gesamten Adobe Analytics nutzen.
+
+Hier finden Sie ein Übersichtsvideo zu Adobe Analytics-Klassifizierungen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 ## Beispiel zu Trackingcodes
 
