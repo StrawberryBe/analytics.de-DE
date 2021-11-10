@@ -3,28 +3,28 @@ description: „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Eins
 title: Berichtszeitverarbeitung
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
-workflow-type: ht
-source-wordcount: '1421'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 86%
 
 ---
 
 # Berichtszeitverarbeitung
 
-„Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Einstellung zur zerstörungsfreien, rückwirkenden Verarbeitung von Daten.
+[!UICONTROL „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Einstellung zur zerstörungsfreien, rückwirkenden Verarbeitung von Daten.]
 
 >[!NOTE]
 >
->Die Berichtszeitverarbeitung ist nur für Analysis Workspace verfügbar.
+>[!UICONTROL Die Berichtszeitverarbeitung ist nur für Analysis Workspace verfügbar.]
 
-„Berichtszeitverarbeitung“ betrifft nur die Daten in der Virtual Report Suite und hat keinen Einfluss auf Daten oder Datensammlungen in der zugrunde liegenden Report Suite. Der Unterschied zwischen Berichtszeitverarbeitung und der herkömmlichen Analytics-Verarbeitung lässt sich mithilfe des folgenden Diagramms am besten nachvollziehen:
+[!UICONTROL Berichtszeitverarbeitung] betrifft nur die Daten in der Virtual Report Suite und hat keine Auswirkungen auf Daten oder Datenerfassung in der zugrunde liegenden Report Suite. Der Unterschied zwischen [!UICONTROL Berichtszeitverarbeitung] und die herkömmliche Analytics-Verarbeitung sollten mithilfe des folgenden Diagramms am besten verstanden werden:
 
 ![Google1](assets/google1.jpg)
 
 Während der Datenverarbeitung in Analytics fließen die Daten durch die Datenerfassungspipeline und einen Vorverarbeitungsschritt, indem die Daten für die Berichterstellung vorbereitet werden. In diesem Schritt der Vorverarbeitung werden die Besuchsablauflogik und eVar-Persistenzlogik (unter anderem) auf die Daten angewendet, während sie erfasst werden. Der primäre Nachteil dieses Vorverarbeitungsmodells besteht darin, dass jegliche Konfiguration vorab erfolgen muss, noch bevor die Daten erfasst werden. Das heißt, dass die an den Vorverarbeitungseinstellungen vorgenommen Änderungen nur ab diesem Zeitpunkt und für neue Daten gelten. Dies ist problematisch, wenn defekte Daten eingehen oder wenn Einstellungen falsch konfiguriert wurden.
 
-„Berichtszeitverarbeitung“ ist eine grundlegend andere Methode zur Verarbeitung von Analytics-Daten für die Berichterstellung. Anstatt vor dem Erfassen von Daten die Verarbeitungslogik vorab zu bestimmen, ignoriert Analytics die während des Vorverarbeitungsschritts festgelegten Daten und wendet diese Logik bei jeder Berichtsausführung an:
+[!UICONTROL „Berichtszeitverarbeitung“ ist eine grundlegend andere Methode zur Verarbeitung von Analytics-Daten für die Berichterstellung. ] Anstatt vor dem Erfassen von Daten die Verarbeitungslogik vorab zu bestimmen, ignoriert Analytics die während des Vorverarbeitungsschritts festgelegten Daten und wendet diese Logik bei jeder Berichtsausführung an:
 
 ![Google2](assets/google2.jpg)
 
@@ -32,13 +32,21 @@ Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsopt
 
 „Berichtszeitverarbeitung“ ermöglicht zudem, dass Analytics verhindert, dass Hintergrundtreffer neue Besuche starten und dass das [mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) die Berichterstellung zum Starten eines neuen Besuchs anweist, sobald ein App-Startereignis ausgelöst wird.
 
+## Konfigurationsoptionen
+
 Die folgenden Konfigurationsoptionen sind momentan für Virtual Report Suites mit aktiviertem Berichtszeitverarbeitung verfügbar:
 
-* **Besuchstimeout:** Die Einstellung des Besuchstimeouts definiert den Umfang der Inaktivität, der für einen Unique Visitor erforderlich ist, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchstimeout auf 15 Minuten festlegen, wird für jede Sequenz mit erfassten Treffern eine neue Besuchsgruppierung erstellt, die nach 15 Minuten Inaktivität separiert ist. Diese Einstellung beeinflusst nicht nur Ihre Besuchszahlen, sondern auch die Art und Weise der Evaluierung von Besuchssegmentcontainern und die Besuchsablauflogik für eVars, die bei einem Besuch ablaufen. Durch eine Verringerung des Besuchstimeouts erhöht sich wahrscheinlich die Gesamtzahl der Besuche in der Berichterstellung, während eine Erhöhung des Besuchstimeouts wahrscheinlich zu einer Reduzierung der Gesamtbesuche in der Berichterstellung führt.
-* **Besuchseinstellungen für Mobile Apps:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://www.adobe.io/apis/cloudplatform/mobile.html) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind nicht destruktiv und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Sie haben keinen Einfluss auf Daten, die außerhalb der Mobile SDKs erfasst wurden.
-* **Starten neuer Besuche durch Hintergrundtreffer verhindern:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn die App im Hintergrund ausgeführt wird.
-* **Starten neuer Besuche bei allen App-Starts:** Zusätzlich zum Besuchstimeout können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein App-Startereignis aufgezeichnet wurde. Das Inaktivitätsfenster ist dabei unerheblich. Diese Einstellung nimmt Einfluss auf die Besuchsmetrik und den Besuchssegmentcontainer sowie die Besuchsablauflogik für eVars.
-* **Starten neuer Besuche mit Ereignis:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung auftrat oder nicht. Zur neuen Sitzung gehört auch das Ereignis, das sie ausgelöst hat. Zudem können Sie mehrere Ereignisse nutzen, um eine Sitzung zu starten, und eine neue Sitzung wird dann begonnen, wenn beliebige dieser Ereignisse in den Daten auftreten. Diese Einstellung wirkt sich auf Ihre Besuchszählung, den Besuchssegmentierungs-Container sowie die Besuchsablauflogik von eVars aus.
+* **[!UICONTROL Besuchstimeout]:** Die Einstellung des Besuchstimeouts definiert den Umfang der Inaktivität, den ein Unique Visitor haben muss, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchstimeout auf 15 Minuten festlegen, wird für jede Sequenz mit erfassten Treffern eine neue Besuchsgruppierung erstellt, die nach 15 Minuten Inaktivität separiert ist. Diese Einstellung beeinflusst nicht nur Ihre Besuchszahlen, sondern auch die Art und Weise der Evaluierung von Besuchssegmentcontainern und die Besuchsablauflogik für eVars, die bei einem Besuch ablaufen. Durch eine Verringerung des Besuchstimeouts erhöht sich wahrscheinlich die Gesamtzahl der Besuche in der Berichterstellung, während eine Erhöhung des Besuchstimeouts wahrscheinlich zu einer Reduzierung der Gesamtbesuche in der Berichterstellung führt.
+* **[!UICONTROL Besuchseinstellungen für mobile Apps]:** Für Report Suites mit Daten, die von mobilen Apps über die [Adobe Mobile SDKs](https://www.adobe.io/apis/cloudplatform/mobile.html), sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind nicht destruktiv und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Sie haben keinen Einfluss auf Daten, die außerhalb der Mobile SDKs erfasst wurden.
+* **[!UICONTROL Starten neuer Besuche durch Hintergrundtreffer verhindern]:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn die App im Hintergrund ausgeführt wird.
+* **[!UICONTROL Starten eines neuen Besuchs bei jedem App-Start]:** Zusätzlich zum Besuchstimeout können Sie den Beginn eines Besuchs erzwingen, sobald von den Mobile SDKs ein App-Startereignis aufgezeichnet wurde, unabhängig vom Inaktivitätsfenster. Diese Einstellung nimmt Einfluss auf die Besuchsmetrik und den Besuchssegmentcontainer sowie die Besuchsablauflogik für eVars.
+* **[!UICONTROL Neuen Besuch mit Ereignis starten]:** Eine neue Sitzung beginnt, wenn ein Ereignis ausgelöst wird, unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung aufgetreten ist. Zur neuen Sitzung gehört auch das Ereignis, das sie ausgelöst hat. Zudem können Sie mehrere Ereignisse nutzen, um eine Sitzung zu starten, und eine neue Sitzung wird dann begonnen, wenn beliebige dieser Ereignisse in den Daten auftreten. Diese Einstellung wirkt sich auf Ihre Besuchszählung, den Besuchssegmentierungs-Container sowie die Besuchsablauflogik von eVars aus.
+
+Hier finden Sie ein Video zum Starten eines neuen Besuchs mit einem Ereignis:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+
+## Berichtszeitverarbeitungsbeschränkungen
 
 „Berichtszeitverarbeitung“ unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Auf Virtual Report Suites mit Berichtszeitverarbeitung können Sie nur über Analysis Workspace zugreifen, nicht aber über [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Daten-Feeds oder der Reporting-API.
 
@@ -58,9 +66,11 @@ Nachstehend finden Sie eine Liste der Metriken und Dimensionen, die bei Verwendu
 * **Dimension „Tage seit dem letzten Besuch“:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Dimension nicht unterstützt.
 * **Dimension „Ursprüngliche Entrypage“:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Dimension nicht unterstützt.
 * **eVars für die lineare Zuordnung:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
-* **Dimension „Ursprünglich verweisende Domäne“:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
+* **Dimension „Ursprünglich verweisende Domain“:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
 * **Besuchnummer:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Metrik nicht unterstützt. Als Alternative zu mobilen Apps können Sie eine berechnete Metrik verwenden, die Besucher/Besuche mit der Metrik „App-Installation“umfasst, um neue Besucher oder Besuche zu identifizieren.
 * **Transaktions-ID-Data Sources:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
+
+## Betroffene Dimensionen und Metriken
 
 Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den ausgewählten Einstellungen für „Berichtszeitverarbeitung“ betroffen sind:
 

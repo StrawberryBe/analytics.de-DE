@@ -1,13 +1,12 @@
 ---
 description: Verwalten Sie geplante Projekte in Analysis Workspace
-keywords: 'Analysis Workspace '
+keywords: Analysis Workspace
 title: Manager für geplante Projekte
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '164'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +18,10 @@ Verwalten Sie geplante Projekte in Analysis Workspace.
 **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Geplante Projekte]**.
 
 ![](assets/components-scheduled-projects.png)
+
+Hier finden Sie ein Video zu geplanten und herunterladbaren Projekten in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24709/?quality=12)
 
 Im Manager für geplante Projekte können regelmäßige Projektlieferungen bearbeitet und gelöscht werden. Sie können Bereitstellungspläne erstellen, die Ihre Berichte per E-Mail an eine festgelegte Adresse senden. Sie können diese Pläne zum automatischen Versand der Berichte in bestimmten befristeten oder unbefristeten Intervallen konfigurieren oder die Bereitstellung eines sich wiederholenden Projekts stoppen.
 
@@ -32,6 +35,5 @@ Im Manager für geplante Projekte werden die Elemente angezeigt, die von einem b
 * Taggen geplanter Projekte
 * Spezifizieren/Ändern des Eigentümers eines geplanten Projekts
 * Hinzufügen anderer Filter wie „Genehmigt“, „Fehlgeschlagen“, „Favoriten“, „Meine“, „Alle anzeigen“ und „Abgelaufene Projekte“
-
 * Definieren eines Ablaufdatums für geplante Projekte
 
