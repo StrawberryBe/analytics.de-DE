@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Anwendungsfälle von Analysis Workspace
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -66,3 +66,15 @@ Angenommen Sie sind Marketinganalyst eines Einzelhändlers für Outdoor-Ausrüst
 Hier finden Sie ein Video zu diesem Thema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## Tabulatorübergreifende Analyse für grundlegende Marketing-Attribution verwenden
+
+Es gibt verschiedene Möglichkeiten, Ihre Attributionsmethode mit Adobe Analytics weiter zu verfeinern. In diesem Video gehen wir darauf ein, wie Sie mithilfe tabulatorübergreifender Analysen in Workspace tiefere Einblicke aus dem Bericht Marketing-Kanäle gewinnen können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## Verwenden von Teilnahmemetriken in Analysis Workspace
+
+In diesem Video erfahren Sie, wie Sie Beitragsmetriken mit berechneten Metriken abrufen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

@@ -1,13 +1,13 @@
 ---
 description: Verwenden der Visualisierungsfarbpalette in Analysis Workspace
 title: Was sind Visualisierungsfarbpaletten und wie funktionieren sie?
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,10 @@ Bitte beachten Sie:
 * Die dritte bis fünfte Farbpalette unter den ersten beiden wurden auf Farbharmonie optimiert.
 
 ## So ändern Sie Ihre Farbpalette:
+
+Im Folgenden finden Sie ein Video zur Verwendung von benutzerdefinierten Farbpaletten:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. Navigieren Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**.
 1. Aus der Dropdown-Liste **[!UICONTROL Projekt-Farbenpalette]** können Sie eines von fünf voreingestellten Farbschemata auswählen.

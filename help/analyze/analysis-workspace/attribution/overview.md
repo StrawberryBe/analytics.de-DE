@@ -4,10 +4,10 @@ description: Das Konzept der Zuordnung eines Erfolgsereignisses zu mehreren Dime
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 96%
 
 ---
 
@@ -45,3 +45,9 @@ Attribution IQ umfasst die folgenden Funktionen:
 * [Attribution auf eine Metrik anwenden](../visualizations/freeform-table/column-row-settings/column-settings.md): Verwenden Sie eine nicht standardmäßige Attribution für eine beliebige Metrik in einem Projekt.
 * [Attribution auf eine Aufschlüsselung anwenden](../components/dimensions/t-breakdown-fa.md): Verwenden Sie eine nicht standardmäßige Attribution für eine Aufschlüsselung.
 * [Attributionsmodelle vergleichen](../components/apply-create-metrics.md): Vergleichen Sie verschiedene Attributionsmodelle für eine beliebige Metrik.
+
+## Videos
+
+Hier finden Sie ein Video zur Verwendung verschiedener Attribution IQ-Modelle mit Segmenten in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

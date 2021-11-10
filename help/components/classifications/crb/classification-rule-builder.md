@@ -5,16 +5,20 @@ title: Classification Rule Builder-Workflow
 feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 98%
 
 ---
 
 # Classification Rule Builder-Workflow
 
 Statt Classifications bei jeder Trackingcode-Änderung zu verwalten und hochzuladen, können Sie automatische, regelbasierte Classifications erstellen und diese auf mehrere Report Suites anwenden. Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
+
+Im Folgenden finden Sie eine Videoübersicht zum Classification Rule Builder:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
 
 ## Wichtiger Hinweis vor Beginn
 

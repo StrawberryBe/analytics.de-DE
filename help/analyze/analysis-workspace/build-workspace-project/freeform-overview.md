@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1428'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,12 @@ Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) in der linken Leis
 
 ![](assets/left-rail.png)
 
+## Rechtsklick auf Menü
+
+Im Folgenden finden Sie ein Video zur Verwendung des Kontextmenüs in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## Arbeitsfläche des Projekts {#canvas}
 
 Auf der Arbeitsfläche des Projekts können Sie Bedienfelder, Tabellen, Visualisierungen und Komponenten zusammenführen, um Ihre Analyse zu erstellen. Ein Projekt kann viele Bedienfelder enthalten, und jedes Bedienfeld kann aus vielen Tabellen und Visualisierungen bestehen.
@@ -101,7 +107,9 @@ Je nach Ausgangspunkt, den Sie für Ihre Projekte ausgewählt haben, befindet si
 
 ## Projektmanager {#manager}
 
-Analysis Workspace-Projekte können unter **„Analysen“ > „Komponenten“ > „Projekte“** verwaltet werden. Im Projekt-Manager werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Die Inhaberschaft eines Projekts kann unter „Administration“ > „Analytics-Benutzer und -Assets“ > „Assets übertragen“ an einen neuen Benutzer übertragen werden.
+Analysis Workspace-Projekte können unter **[!UICONTROL Analytics] > [!UICONTROL Komponenten] >  [!UICONTROL Projekte]**. Im Projekt-Manager werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden.
+
+Das Projekteigentum kann unter an einen neuen Benutzer übertragen werden. [!UICONTROL Admin] > [!UICONTROL Analytics-Benutzer und -Assets] > [!UICONTROL Transfer Assets].
 
 Im Projekt-Manager können Sie u. a. Elemente hinzufügen, taggen, freigeben und duplizieren/kopieren. Suchen Sie in der Suchleiste oder mithilfe der Filteroptionen in der linken Leiste nach einem Projekt. Sie können u. a. nach Tag, Inhaber und Projekttyp filtern.
 

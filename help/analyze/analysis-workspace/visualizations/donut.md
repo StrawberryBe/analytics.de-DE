@@ -1,18 +1,22 @@
 ---
 description: Verwenden Sie die Donut-Visualisierung in einem Workspace-Projekt.
 title: Ringdiagramm
-feature: Visualisierungen
+feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '44'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 50%
 
 ---
 
-# Ringdiagramm
+# [!UICONTROL Ringdiagramm]
 
-Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. Ein Ringdiagramm kann für den Vergleich der prozentualen Anteile eines Ganzen verwendet werden, typischerweise bei einer geringen Anzahl an Werten.
+Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. Verwenden Sie eine [!UICONTROL Ringdiagramm] beim Vergleich der Prozentsätze eines Gesamtwerts, in der Regel mit einer geringen Anzahl von Elementen.
 
 ![](assets/donut.png)
+
+Im Folgenden finden Sie ein Video zur Verwendung der [!UICONTROL Ringdiagramm] Visualisierung:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)

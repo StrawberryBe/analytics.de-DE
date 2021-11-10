@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 99%
+source-wordcount: '1121'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen s
 | Kann bearbeiten | Empfänger können Änderungen an einem Projekt **[!UICONTROL speichern]** und als Miteigentümer auftreten. Diese Rolle ist nützlich, wenn Sie ein Projekt mit anderen Kollegen gemeinsam verwalten möchten. Dazu gehören das Bearbeiten, Löschen und Bearbeiten von Empfängerlisten für ein freigegebenes Projekt. <br>Hinweis: Analysis Workspace unterstützt derzeit keine Live-Zusammenarbeit. Es wird daher empfohlen, dass zu jedem Zeitpunkt nur ein Benutzer ein Projekt bearbeitet. Wenn Projekte zum gleichen Zeitpunkt gespeichert werden, wird die letzte Version beibehalten. |
 | Kann duplizieren | Empfänger können **[!UICONTROL Speichern unter]** verwenden und auf die linke Navigationsleiste zugreifen. Projektinteraktionen sind in dieser Rolle nicht beschränkt. Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analysis Workspace verstehen, Ihr Projekt jedoch nicht ändern möchten. |
 | Kann anzeigen | Empfänger können „Speichern unter“ nicht verwenden und auch nicht auf die linke Navigationsleiste zugreifen. Auch die Projektinteraktionen sind begrenzt. Diese Rolle ist hilfreich, wenn Sie ein Projekt für Benutzer freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen nicht so vertraut sind. Sie möchten jedoch, dass sie Daten und Erkenntnisse in einer sicheren Umgebung einsehen können.<br>Weitere Informationen zum [Projekterlebnis „Kann anzeigen“](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
+
+Hier finden Sie ein Video zu schreibgeschützten Projekten in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 >[!IMPORTANT]
 > Vor dem 18. Juni 2020 hinzugefügte Empfänger wurden in eine Projektrolle migriert. Admin-Benutzer wurden in die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Admin-Benutzer in die Rolle **[!UICONTROL Kann duplizieren]** migriert. Diese Rollen bieten dasselbe Projekterlebnis wie zuvor. Außerdem wurden alle Gruppen (einschließlich „Alle“) in die Rolle **[!UICONTROL Kann duplizieren]** migriert.
