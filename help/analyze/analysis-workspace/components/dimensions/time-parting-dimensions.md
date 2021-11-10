@@ -2,19 +2,23 @@
 description: Bei einer Zeitunterteilung wird der Zeitstempel erfasster Hits in aussagekräftigere Dimensionen wie „Stunde des Tages“ oder „Tag der Woche“ unterteilt.
 title: Dimensionen für die Zeitunterteilung
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 97%
 
 ---
 
 # Dimensionen für die Zeitunterteilung
 
 Bei einer Zeitunterteilung wird der Zeitstempel erfasster Hits in aussagekräftigere Dimensionen wie „Stunde des Tages“ oder „Tag der Woche“ unterteilt.
+
+Im Folgenden finden Sie ein Video zu Zeitunterteilungsdimensionen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 Die Dimensionen für die Zeitunterteilung basieren auf der Zeitzone der Report Suite bzw. der virtuellen Report Suite. Diese Dimensionen sind in Analysis Workspace verfügbar und können bei der Beantwortung der folgenden Fragen hilfreich sein:
 
@@ -30,7 +34,7 @@ Die Dimensionen für die Zeitunterteilung basieren auf der Zeitzone der Report S
 Zu den Dimensionen für die Zeitunterteilung in Analysis Workspace zählen:
 
 | Dimension | Beispielwerte |
-|--- |--- |
+| --- | --- |
 | Stunde des Tages | 0–23 |
 | Vormittag/Nachmittag | Vormittag (AM), Nachmittag (PM) |
 | Wochentag | Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag |

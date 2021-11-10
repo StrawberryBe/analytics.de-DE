@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1414'
 ht-degree: 98%
 
 ---
@@ -71,6 +71,10 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 * **Schulungsanleitung – Internal Search Analysis**: Das Tutorial zur internen Suche hilft Ihnen zu verstehen, wonach Ihre Besucher auf der Website oder in der Mobile App suchen, jedoch nicht finden. Durch die Analyse dieser Art von Daten können sich Optimierungsmöglichkeiten für Inhalte offenbaren.
 
 * **Schulungsanleitung – Marketing Analysis**: In diesem Tutorial erfahren Sie, wie Sie eine Marketing-Analyse für Ihre Führungskräfte erstellen, einschließlich der wichtigen benutzerdefinierten Dimensionen und Metriken.
+
+Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### Werbung
 

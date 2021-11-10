@@ -2,13 +2,13 @@
 description: Faktoren, die sich auf die Leistung von Workspace auswirken, und die Optimierungen, die Sie ausführen können
 title: Leistungsfaktoren und Optimierung von Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '2012'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2024'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ Zu den weiteren Faktoren, die nicht unter Hilfe > Leistung aufgeführt sind, zä
 | Größe der Report Suite | Die Menge der in Ihrer Report Suite erfassten Daten. | – | Wenden Sie sich an Ihr Implementierungs-Team oder einen Adobe-Experten, um festzustellen, ob es Verbesserungen bei der Implementierung gibt, die zur Verbesserung des Gesamterlebnisses mit Adobe Analytics beitragen können. |
 | Gleichzeitige Abfragen | Die Anzahl der Abfragen, die Ihre Organisation gleichzeitig von Adobe anfordert. Jede Organisation hat Anspruch auf mindestens 5 gleichzeitige Abfragen. | Wenn ein Bericht lange dauert, liegt dies in der Regel daran, dass er sich in einer Warteschlange mit anderen Berichten befindet. Das heißt, dass Ihre Organisation versucht, zu viele Anfragen gleichzeitig für eine bestimmte Report Suite auszuführen. Abfragen können von API-Anforderungen, Reporting-Benutzeroberflächen (Analysis Workspace, Reports &amp; Analytics, Report Builder usw.), geplanten Projekten, terminierten Berichten, terminierten Warnhinweisen und gleichzeitig von Benutzern gestellten Anfragen stammen. | Verteilen Sie Ihre Anfragen und Zeitpläne für die Report Suite gleichmäßig über den Tag. Verlagern Sie außerdem Ihre Anforderungen nach Möglichkeit auf Nebenzeiten. Montagmorgen, Dienstagmorgen und der erste Tag eines Monats sind Spitzenzeiten für das Reporting. |
 | Kapazität des Rechenzentrums | Die Reporting-Kapazitäten, die Sie und andere Kunden in einem Rechenzentrum von Adobe gemeinsam nutzen. | Dies wird durch die Anzahl gleichzeitiger Abfragen von Ihrer Organisation und anderen Unternehmen innerhalb Ihres Rechenzentrums beeinflusst. | Ihre Organisation hat Anspruch auf eine bestimmte Kapazität. Ist das System nur wenig ausgelastet, überträgt Adobe mehr Kapazität auf Sie, auch über das Ihnen zustehende Maß hinaus. |
+
+## Tipps zur Produktivitätssteigerung in Analysis Workspace
+
+Hier finden Sie ein Video zum Thema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
