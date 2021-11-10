@@ -1,10 +1,10 @@
 ---
 title: Häufig gestellte Fragen zu Marketing-Kanälen
 description: Häufig gestellte Fragen zu Marketing-Kanälen.
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
-workflow-type: ht
-source-wordcount: '1485'
-ht-degree: 100%
+source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
+workflow-type: tm+mt
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Vergewissern Sie sich, dass der Parametername in den Feldern des Abfragenzeichen
 
 ![](assets/example_email.png)
 
-## Warum wird der gesamte Letztkontakt-Traffic einer internen Domäne zugeschrieben?
+## Warum wird der gesamte Letztkontakt-Traffic einer internen Domain zugeschrieben?
 
 Sie verwenden eine Regel, die internem Traffic entspricht. Denken Sie daran, dass diese Regeln für jeden Treffer auf Ihrer Site verarbeitet werden, nicht nur beim Erstbesuch. Wenn Sie eine Regel wie    *`Page URL exists`* ohne weitere Kriterien verwenden, wird bei jedem nachfolgenden Treffer auf Ihrer Site eine Übereinstimmung mit dem betreffenden Kanal erfasst, da die Seiten-URL immer vorhanden ist.
 
@@ -52,7 +52,7 @@ Stellen Sie sicher, dass Sie einen Kanal für diese drei Möglichkeiten haben. E
 
 2. **[!UICONTROL Referrer entspricht internen URL-Filtern]** und **[!UICONTROL Ist erste Seite des Besuchs]**. (Siehe [Internal](/help/components/c-marketing-channels/c-faq.md).)
 
-3. **[!UICONTROL Verweisende Domäne]** und **[!UICONTROL Vorhanden]** und **[!UICONTROL Verweis stimmt nicht mit internen URL-Filtern überein]**.
+3. **[!UICONTROL Verweisende Domain]** und **[!UICONTROL Vorhanden]** und **[!UICONTROL Verweis stimmt nicht mit internen URL-Filtern überein]**.
 
 Erstellen Sie abschließend einen Kanal *Sonstige*, der die verbleibenden Treffer erfasst, wie in [Kein Kanal identifiziert](/help/components/c-marketing-channels/c-faq.md#no-channel-identified) beschrieben.
 
@@ -70,7 +70,7 @@ Wenn Ihre Regeln keine Daten erfassen oder die Regeln nicht korrekt konfiguriert
 
 ![](assets/example_other.png)
 
-Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal-Traffic stets externem Traffic entspricht und in der Regel nicht **[!UICONTROL Kein Kanal identifiziert zugeordnet wird]**. Achten Sie darauf, keine Regel zu erstellen, die auch internen Traffic erkennt. Zur Erstellung einer wirksamen Regel „Sonstige“ ist es häufig am sinnvollsten, den Kanalwert auf **[!UICONTROL Verweisende Domäne]** oder **[!UICONTROL Seiten-URL]** zu setzen.
+Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal-Traffic stets externem Traffic entspricht und in der Regel nicht **[!UICONTROL Kein Kanal identifiziert zugeordnet wird]**. Achten Sie darauf, keine Regel zu erstellen, die auch internen Traffic erkennt. Zur Erstellung einer wirksamen Regel „Sonstige“ ist es häufig am sinnvollsten, den Kanalwert auf **[!UICONTROL Verweisende Domain]** oder **[!UICONTROL Seiten-URL]** zu setzen.
 
 >[!NOTE]
 >
@@ -80,19 +80,19 @@ Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal
 
 Eine Letztkontakt-Sitzungsaktualisierung („Intern“) kann nur auftreten, wenn es sich auch um den Erstkontakt handelt. Weitere Informationen finden Sie unter „Beziehung zwischen Erstkontakt und Letztkontakt“ weiter oben. Die folgenden Szenarien erläutern, wie eine Sitzungsaktualisierung ein Erstkontaktkanal sein könnte.
 
-* **Sitzungstimeout**: Ein Besucher ruft die Website auf und lässt die Registerkarte dann in seinem Browser geöffnet, um sie später erneut zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domäne ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
+* **Sitzungstimeout**: Ein Besucher ruft die Website auf und lässt die Registerkarte dann in seinem Browser geöffnet, um sie später erneut zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domain ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
 
 * **Nicht alle Seiten der Site werden mit Tags versehen**: Ein Besucher landet auf Seite A, die nicht mit Tags versehen ist, und wechselt dann zu Seite B, die mit Tags versehen ist. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
 * **Umleitungen**: Wenn eine Umleitung nicht so eingerichtet ist, dass Referrer-Daten an die neue Landingpage weitergegeben werden, gehen die Referrer-Daten verloren, und die Umleitungsseite (wahrscheinlich eine interne Seite) erscheint als Referrer-Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-* **Domänenübergreifender Traffic**: Ein Besucher wechselt von einer Domäne, die zu Suite A führt, zu einer zweiten Domäne, die zu Suite B führt wird. Wenn in Suite B die internen URL-Filter die erste Domäne enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketingkanäle ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Domänenübergreifender Traffic**: Ein Besucher wechselt von einer Domain, die zu Suite A führt, zu einer zweiten Domain, die zu Suite B führt wird. Wenn in Suite B die internen URL-Filter die erste Domain enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketingkanäle ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
 * **Lange Ladezeiten der Entrypage**: Ein Besucher landet auf Seite A mit viel Inhalt, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
 * **Löschen von Cookies auf der Site**: Ein Besucher besucht die Site und löscht seine Cookies während der Sitzung. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
 
-Unten finden Sie ein Beispiel, indem „Intern“ (Sitzungsaktualisierung) sowohl als Erstkontakt- als auch als Letztkontakt-Kanal festgelegt wird:
+Nachstehend finden Sie ein Beispiel dafür, wie &quot;Intern&quot;(Sitzungsaktualisierung) sowohl als Erstkontakt- als auch als Letztkontakt-Kanal festgelegt wird:
 
 * Tag 1: Der Benutzer gelangt per Anzeige zur Site. Erstkontakt- und Letztkontakt-Kanäle werden auf „Anzeige“ eingestellt.
 * Tag 2: Der Benutzer gelangt per natürlicher Suche zur Site. Erstkontakt bleibt „Anzeige“, Letztkontakt wird auf „Natürliche Suche“ eingestellt.
