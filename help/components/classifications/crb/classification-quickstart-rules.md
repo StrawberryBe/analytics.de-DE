@@ -4,10 +4,10 @@ subtopic: Classifications
 title: Klassifizierungsregeln
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2028'
-ht-degree: 100%
+source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Mit dem Rule Builder können Sie einen *Classification-Regelsatz* erstellen –
 
 Classification-Regeln eignen sich für Folgendes:
 
-* **E-Mail-** und **Display-Anzeigen:** Erstellen Sie Classification-Regeln, die die einzelnen Display-Anzeigekampagnen gruppieren, so dass ersichtlich wird, wie die Display-Kampagnen im Vergleich zu den E-Mail-Kampagnen abschneiden.
+* **Email** und **Display-Anzeigen**: Erstellen Sie Classification-Regeln, um einzelne Display-Anzeigenkampagnen zu gruppieren, sodass Sie erfahren, wie die Display-Kampagnen im Vergleich zu E-Mail-Kampagnen abschneiden.
 
 * **Trackingcodes:** Erstellen Sie Classification-Regeln, die die aus den Zeichenfolgen in den Trackingcodes abgeleiteten Schlüsselwerte kategorisieren und dann prüfen, ob diese Schlüsselwerte mit den angegebenen Kriterien übereinstimmen.
 * **Suchbegriffe**: Mithilfe von   [regulären Ausdrücken](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
@@ -153,7 +153,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regulärer Ausdruck | Zeichenfolge oder Übereinstimmungsergebnis | Zugehörige Übereinstimmungsgruppen |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuniAusverkauf:20130601  `$1`: em  `$2`: JuniAusverkauf`$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | Aufbauen der Syntax | `^` = Beginn einer Zeile () = gruppiert Zeichen und ermöglicht das Extrahieren von übereinstimmenden Zeichen in den Klammern.  `(.+)` = erfasst ein ( . ) Zeichen und ( + ) beliebige mehr \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
 
 Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
@@ -202,10 +202,10 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 |--- |--- |--- |--- |
 | Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Regulärer Ausdruck  Für Übereinstimmungszeichenfolge a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Reguläre Ausdrücke – Beispiel für „enthält nicht“  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -284,7 +284,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
 | 1 | Enthält | Cowboys | Suchtyp | Team |
-| 2 | Enthält | Fantasy | Suchtyp | Fantasy |
+| 2 | Enthält | Fantasy | Suchtyp | Fantasie |
 | 3 | Enthält | Romo | Suchtyp | Spieler |
 
 Wenn ein Benutzer nach   *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
@@ -328,8 +328,8 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    >Report Suites werden *nur dann* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:
    >
    >* Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
-   >
-   >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
+      >
+      >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
    >
    >* Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
 
