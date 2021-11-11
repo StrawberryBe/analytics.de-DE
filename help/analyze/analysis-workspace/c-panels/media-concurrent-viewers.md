@@ -1,13 +1,13 @@
 ---
 title: Bedienfeld „Gleichzeitige Medienbetrachter“
 description: Verwendung und Interpretation des Bedienfelds „Gleichzeitige Medienbetrachter“ in Analysis Workspace.
-feature: Bedienfelder
+feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1005'
-ht-degree: 100%
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+workflow-type: tm+mt
+source-wordcount: '1012'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ Media Analytics-Kunden können gleichzeitige Betrachter analysieren, um zu verst
 In Analysis Workspace bezeichnet der Begriff „Gleichzeitige Betrachter“ die Anzahl der Unique Visitors, die sich Ihre Medien-Streams unabhängig von der Anzahl der Sitzungen zu einem bestimmten Zeitpunkt ansehen.
 
 Das Bedienfeld „Gleichzeitige Medienbetrachter“ ermöglicht die Analyse von gleichzeitigen Betrachtern im Zeitverlauf mit Details zu Spitzenzeiten des gleichzeitigen Betrachtens und der Möglichkeit, Unterteilungen und Vergleiche vorzunehmen. Um auf das Bedienfeld „Gleichzeitige Medienbetrachter“ zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten Media Analytics-Komponenten. Klicken Sie dann auf das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld in Ihr Analysis Workspace-Projekt.
+
+Im Folgenden finden Sie eine Videoübersicht zu diesem Bedienfeld:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Bedienfeldeingaben {#Input}
 

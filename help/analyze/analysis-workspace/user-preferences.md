@@ -4,10 +4,10 @@ description: Sie können allgemeine Voreinstellungen und Projekteinstellungen f�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 79%
+source-wordcount: '277'
+ht-degree: 84%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 79%
 Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzereinstellungen] können Sie Einstellungen für Analysis Workspace und die zugehörigen Komponenten auf Benutzerebene verwalten. Benutzereinstellungen gelten für alle *neuen* Projekte oder Bedienfelder.
 
 ![Benutzerpräferenzen](assets/user-preferences.png)
+
+Im Folgenden finden Sie ein kurzes Video zu den Benutzereinstellungen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## Allgemeine Voreinstellungen
 
@@ -50,4 +54,4 @@ Wenn Sie einen dunklen Hintergrund für Ihre Adobe Analytics-Benutzeroberfläche
 
    ![dark-theme](assets/dark-theme.png)
 
-1. Verschieben Sie die **[!UICONTROL Dunkles Thema]** nach rechts umschalten.
+1. Schieben Sie den Umschalter **[!UICONTROL Dunkles Thema]** nach rechts.
