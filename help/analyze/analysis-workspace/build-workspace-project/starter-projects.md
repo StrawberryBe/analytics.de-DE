@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 97%
+source-wordcount: '1410'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 ![](assets/start_modal.png)
 
-## Erstellen einer benutzerdefinierten Vorlage {#create-custom-template}
+## Benutzerdefinierte Vorlagen erstellen {#create-custom-template}
 
 Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benutzerdefinierte Vorlage machen. So geht’s:
 
@@ -41,9 +41,7 @@ Im Folgenden finden Sie ein Video zum Erstellen und Verwalten benutzerdefinierte
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Auf benutzerdefinierte Vorlagen anwendbare Aktionen
-
-![](assets/custom_templates.png)
+### Benutzerdefinierte Vorlagen verwalten {#manage-custom-template}
 
 | Aktion | Beschreibung |
 |--- |--- |
@@ -66,11 +64,7 @@ Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen V
 
 ### Schulung
 
-Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schritte zum Erstellen Ihrer ersten Analyse in Workspace. Sie sind als Standardvorlage im Modal „Neues Projekt“ enthalten und ersetzen das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben.
-
-* **Schulungsanleitung – Internal Search Analysis**: Das Tutorial zur internen Suche hilft Ihnen zu verstehen, wonach Ihre Besucher auf der Website oder in der Mobile App suchen, jedoch nicht finden. Durch die Analyse dieser Art von Daten können sich Optimierungsmöglichkeiten für Inhalte offenbaren.
-
-* **Schulungsanleitung – Marketing Analysis**: In diesem Tutorial erfahren Sie, wie Sie eine Marketing-Analyse für Ihre Führungskräfte erstellen, einschließlich der wichtigen benutzerdefinierten Dimensionen und Metriken.
+Diese Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Erstellen Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modal „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben.
 
 Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
 
@@ -80,38 +74,40 @@ Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
 
 >[!IMPORTANT]
 >
->Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für Advertising Cloud aktiviert ist.
+>Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **Paid Search-Suchmaschinen**: Diese Vorlage bietet eine Aufschlüsselung nach Werbe-Trends, Anzeigenplattformen, Keywords, Konten, Kampagnen und mehr.
 
 ### Handel
 
-* **Magento: Marketing und Handel**: Diese Vorlage schlüsselt Ihre E-Commerce-Konversionen nach der Marketing-Kanal-Attribution auf und bietet Einblicke nach Suchbegriff, Landingpage, Standort und mehr. Eine Videoübersicht finden Sie unter:
+* **Magento: Marketing und Handel**: Diese Vorlage schlüsselt Ihre E-Commerce-Konversionen nach der Marketing-Kanal-Attribution auf und bietet Einblicke nach Suchbegriff, Landingpage, Standort und mehr. Hier finden Sie ein Video-Tutorial zum Thema [Magento: Marketing- und Commerce-Vorlage](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=de).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=de)
+### Datenerfassung
+
+* **ITP-Auswirkung**: Erfahren Sie, wie sich die ITP von Apple auf Ihre Daten auswirkt und wie Sie die Berichterstellung entsprechend anpassen.
 
 ### Medien
 
-* **Audio-Konsum**: Welche Inhalte werden von Benutzern am häufigsten aufgerufen? Hier finden Sie ein Video zur Vorlage Audionutzung :
+* **Content-Nutzung**: Wer sind meine treuen Leser?
+* **Neuigkeit - Häufigkeit - Treue**: Welche Inhalte werden am häufigsten verwendet und sind für Benutzer interessant?
+* **Nutzung von Streaming-Medien**: Bietet Trends und Top-Metriken zum Medienkonsum auf allen digitalen Geräten. Hier finden Sie ein Video zur Verbrauchsvorlage für Streaming-Medien:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
-
-* **Neuigkeit - Häufigkeit - Treue**: Wer sind meine treuen Leser?
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->Mobile Vorlagen sind nur dann verfügbar, wenn Ihre Report Suite für „Mobile“ aktiviert ist.
+>Mobile Vorlagen sind nur verfügbar, wenn Ihre Report Suite für die Analyse mobiler Apps aktiviert ist.
 
-* **Messaging:** Mit Augenmerk auf die Leistung von In-App- und Push-Nachrichten
-* **Standort:** Beinhaltet eine Karte zur Anzeige von Standortdaten
-* **Schlüsselmetriken:** Sehen Sie sich die wichtigsten Metriken Ihrer App genauer an.
-* **App-Nutzung:** Wie viele App-Benutzer, Starts und erste Starts hat die App verzeichnet und wie lange dauerte eine durchschnittliche Sitzung?
 * **Akquise:** Erfahren Sie mehr zur Leistung von mobilen Akquiselinks
+* **App-Nutzung:** Wie viele App-Benutzer, Starts und erste Starts hat die App verzeichnet und wie lange dauerte eine durchschnittliche Sitzung?
+* **Journeys:** Welche markanten Verwendungsmuster weist meine App auf?
+* **Schlüsselmetriken:** Sehen Sie sich die wichtigsten Metriken Ihrer App genauer an.
+* **Standort:** Beinhaltet eine Karte zur Anzeige von Standortdaten
+* **Messaging:** Mit Augenmerk auf die Leistung von In-App- und Push-Nachrichten
 * **Leistung:** Welche Leistung erzielt die Anwendung und wo haben Benutzer Probleme?
 * **Bindungsgrad:** Wer sind meine treuen Benutzer und was tun sie?
-* **Journeys:** Welche markanten Verwendungsmuster weist meine App auf?
 
 ### Einzelhandel
 
@@ -121,6 +117,7 @@ Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
 ### Web
 
 * **Akquise:** Was sind die wichtigsten Faktoren, durch die Traffic auf meine Website geleitet wird?
+* **AEM Site-Performance - Übersicht:** Welche Leistung erzielt meine Adobe Experience Manager-Site?
 * **Content-Konsum:** Wohin navigieren Besucher auf meiner Website am häufigsten?
 * **Bindungsgrad:** Welche Arten von Benutzern bleiben meiner Website wahrscheinlich treu?
 * **Technologie:** Welche Technologien werden verwendet, um auf meine Website zu gelangen?
@@ -130,10 +127,6 @@ Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
 >[!NOTE]
 >
 >Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=de) verfügbar.
-
-Videoüberblick über die Vorlage &quot;Personen&quot;:
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version der Metrik „Unique Visitors“ ist. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
 
