@@ -3,10 +3,10 @@ description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen,
 title: Daten- und Codereferenz für die serverseitige Weiterleitung
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '611'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header 
 
 ## Konfigurationsvariablen {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf Systemebene, die von unseren [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) verwendet werden. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf Systemebene, die von unseren [Datenerfassungsservern](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=de) (DCS) verwendet werden. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=de).
 
 | Parameter | Beschreibung |
 |--- |--- |
@@ -29,16 +29,14 @@ Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf 
 
 Diese Header sind Felder und enthalten Informationen wie Aufrufe für Daten und Antworten in einem HTTP-Aufruf.
 
-<!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
-
-| HTTP-Header | Beschreibung |
-|--- |--- |
-| Host | Diese Einstellung wird auf den jeweiligen Hostnamen der Datenerfassung des Clients festgelegt, der in der Hostkonfigurationsdatei von Analytics angegeben ist. Die Anzeige erscheint als   `host name .demdex.net` .  Siehe Aufrufe an die Domäne „demdex.net“. |
-| User-Agent | Festgelegt auf den an Analytics übergebenen Benutzer-Agent-Header. |
-| X-Original-User-Agent | Die Festlegung erfolgt nur dann, wenn von einem dieser Header ein alternativer Benutzer-Agent angegeben wurde: </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
-| X-Forwarded-For | Festgelegt auf die IP-Adresse des anfragenden Clients. Analytics hat den eingehenden Header `X-Forwarded-For` bereits analysiert und die korrekte zu verwendende IP-Adresse bestimmt. |
-| Accept-Language | Festgelegt auf den an Analytics übergebenen `Accept-Language`-Header. |
-| Referrer | Festgelegt auf die Seiten-URL, die an Analytics übergeben oder aus dem Referrer-Header erfasst wurde, der an Analytics übergeben worden ist. |
+| HTTP-Header | Beschreibung | h_ vom Audience Manager akzeptierte Schlüssel |
+| --- | --- | --- |
+| Host | Diese Einstellung wird auf den jeweiligen Hostnamen der Datenerfassung des Clients festgelegt, der in der Hostkonfigurationsdatei von Analytics angegeben ist. Die Anzeige erscheint als `host name .demdex.net`. Siehe [Aufrufe an die Domain „demdex.net“](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de). | `h_host` |
+| User-Agent | Festgelegt auf den an Analytics übergebenen Benutzer-Agent-Header. | `h_user-agent` |
+| Accept-Language | Festgelegt auf den an Analytics übergebenen `Accept-Language`-Header. | `h_accept-language` |
+| Referrer | Festgelegt auf die Seiten-URL, die an Analytics übergeben oder aus dem `Referer`-Header erfasst wurde, der an Analytics übergeben worden ist. | `h_referer` |
+| Referrer | Festgelegt auf die Seiten-URL, die an Analytics übergeben oder aus dem `Referrer`-Header erfasst wurde, der an Analytics übergeben worden ist. | `h_referrer` |
+| IP | Signal, das von der IP des Hosts generiert wird, der die Anfrage an DCS sendet. | `h_ip` |
 
 ## Kundendefinierte Signale {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
@@ -49,7 +47,7 @@ Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Sie
 | c_browserWidth und c_browserHeight | Breite und Höhe des Browser-Fensters. |
 | c_campaign | Festgelegt durch s.campaign. |
 | c_channel | Festgelegt durch s.channel. |
-| c_clientDateTime | Zeitstempel formatiert als TT/MM/JJJ hh:mm:ss W TZ .    TZ ist in Minuten angegeben und stimmt mit der Rückgabe der Methode Date.getTimezoneOffset überein. |
+| c_clientDateTime | Zeitstempel formatiert als TT/MM/JJJJ hh:mm:s W TZ .    TZ ist in Minuten angegeben und stimmt mit der Rückgabe der Methode Date.getTimezoneOffset überein. |
 | c_colorDepth | Angabe als 16- oder 32-Bit-Farbe. |
 | c_connectionType | Gibt den Verbindungstyp an. Zu den Optionen zählen:<ul><li>modem</li><li>lan</li></ul> |
 | c_contextData.* | Beispiele:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Signal: c_contextData.category=news</li></ul> |
