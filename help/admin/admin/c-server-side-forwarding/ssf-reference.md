@@ -3,10 +3,10 @@ description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen,
 title: Daten- und Codereferenz für die serverseitige Weiterleitung
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
+source-git-commit: 4bfe2005e48a0ed6aabdc66f58980ca687e174c6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 94%
+source-wordcount: '510'
+ht-degree: 93%
 
 ---
 
@@ -20,10 +20,10 @@ Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf 
 
 | Parameter | Beschreibung |
 |--- |--- |
-| d_rs | (Wird mit veralteter/Tracking-Server-basierter serverseitiger Weiterleitung eingestellt) <br>Auf die Report Suites eingestellt, die mit dem Hit an Analytics übergeben werden. |
-| d_dst_filter | (Wird mit Report Suite-basierter serverseitiger Weiterleitung eingestellt) <br>Auf die Report Suite-IDs eingestellt, die mit dem Hit an Analytics weitergeleitet werden. |
-| d_dst | Festlegung von d_dst=1<br>, wenn die Anfrage an Analytics erwartet, dass Inhalte über das Ziel an den Client zurückgesendet werden. |
-| d_mid | Die an Analytics übergebene Experience Cloud ID. |
+| `d_rs` | (Wird mit veralteter/Tracking-Server-basierter serverseitiger Weiterleitung eingestellt) <br>Auf die Report Suites eingestellt, die mit dem Hit an Analytics übergeben werden. |
+| `d_dst_filter` | (Wird mit Report Suite-basierter serverseitiger Weiterleitung eingestellt) <br>Auf die Report Suite-IDs eingestellt, die mit dem Hit an Analytics weitergeleitet werden. |
+| `d_dst` | Festlegung von `d_dst=1`, wenn die Anfrage an Analytics erwartet, dass Inhalte über das Ziel an den Client zurückgesendet werden.<br> |
+| `d_mid` | Die an Analytics übergebene Experience Cloud ID. |
 
 ## HTTP-Header {#section_0549705E76004F9585224AEF872066C0}
 
@@ -43,38 +43,38 @@ Diese Header sind Felder und enthalten Informationen wie Aufrufe für Daten und 
 Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Beschreibung |
-|--- |--- |
-| c_browserWidth und c_browserHeight | Breite und Höhe des Browser-Fensters. |
-| c_campaign | Festgelegt durch s.campaign. |
-| c_channel | Festgelegt durch s.channel. |
-| c_clientDateTime | Zeitstempel formatiert als TT/MM/JJJJ hh:mm:s W TZ .    TZ ist in Minuten angegeben und stimmt mit der Rückgabe der Methode Date.getTimezoneOffset überein. |
-| c_colorDepth | Angabe als 16- oder 32-Bit-Farbe. |
-| c_connectionType | Gibt den Verbindungstyp an. Zu den Optionen zählen:<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Beispiele:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Signal: c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | Gibt an, ob Cookies aktiviert werden können. Zu den Optionen zählen: ja, nein, unbekannt |
-| c_currencyCode | Typ der für die Transaktion verwendeten Währung. |
-| c_evar# | Benutzerdefinierte eVars |
-| c_events | Festgelegt durch s.events. |
-| c_hier# | Benutzerdefinierte Hierarchievariablen. |
-| c_javaEnabled | Gibt an, ob Java aktiviert werden kann. Zu den Optionen zählen: ja, nein, unbekannt |
-| c_javaScriptVersion | Version von Javascript, die von einem Browser unterstützt wird. |
-| c_latitude | Numerische Breite |
-| c_linkClick | Zu den Optionen gehören: benutzerdefiniert, herunterladen, beenden |
-| c_linkCustomName | Der benutzerdefinierte Name (sofern vorhanden), der für den Link bereitgestellt wurde. |
-| c_linkDownloadURL | Die URL der Download-Links. |
-| c_linkExitURL | Die Exitlink-URL. |
-| c_list# | Benutzerdefinierte Listenvariablen. |
-| c_longitude | Numerische Länge. |
-| c_mediaPlayerType | Für Medienstream-Verfolgungsanfragen. Zu den Optionen zählen:    andere, primetime |
-| c_pageName | Der Seitenname (sofern festgelegt). |
-| c_pageURL | Die Adresse der Seite in der Adressleiste des Browsers. |
-| c_products | Die Produktzeichenfolge (festgelegt durch s.products). |
-| c_prop | Benutzerdefinierte Eigenschaften. |
-| c_purchaseID | Eine eindeutige ID für den Kauf. |
-| c_referrer | Die Seite vor der aktuellen Seite. |
-| c_screenResolution | Bildschirmbreite und -höhe (in Pixeln). |
-| c_server | Name des Webservers (festgelegt durch s.server). |
-| c_state | Geografische Region (festgelegt durch s.state). |
-| c_timezone | Zeitversatz (in Stunden). |
-| c_transactionID | Eine eindeutige ID für eine Transaktion. |
-| c_zip | Postleitzahl (festgelegt durch s.zip). |
+| --- |--- |
+| `c_browserWidth`  und `c_browserHeight` | Breite und Höhe des Browser-Fensters. |
+| `c_campaign` | Festlegen von `s.campaign`. |
+| `c_channel` | Festlegen von `s.channel`. |
+| `c_clientDateTime` | Zeitstempel formatiert als `dd/mm/yyy hh:mm:ss  W TZ` . `TZ` ist in Minuten angegeben und stimmt mit der Rückgabe der Methode überein.`Date.getTimezoneOffset` |
+| `c_colorDepth` | Angabe als 16- oder 32-Bit-Farbe. |
+| `c_connectionType` | Gibt den Verbindungstyp an. Zu den Optionen zählen:<ul><li>modem</li><li>lan</li></ul> |
+| `c_contextData.*` | Beispiele:<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Signal: `c_contextData.category=news`</li></ul> |
+| `c_cookiesEnabled` | Gibt an, ob Cookies aktiviert werden können. Zu den Optionen zählen: ja, nein, unbekannt |
+| `c_currencyCode` | Typ der für die Transaktion verwendeten Währung. |
+| `c_evar#` | Benutzerdefinierte eVars |
+| `c_events` | Festlegen von `s.events`. |
+| `c_hier#` | Benutzerdefinierte Hierarchievariablen. |
+| `c_javaEnabled` | Gibt an, ob Java aktiviert werden kann. Zu den Optionen zählen: ja, nein, unbekannt |
+| `c_javaScriptVersion` | Version von Javascript, die von einem Browser unterstützt wird. |
+| `c_latitude` | Numerische Breite |
+| `c_linkClick` | Zu den Optionen gehören: benutzerdefiniert, herunterladen, beenden |
+| `c_linkCustomName` | Der benutzerdefinierte Name (sofern vorhanden), der für den Link bereitgestellt wurde. |
+| `c_linkDownloadURL` | Die URL der Download-Links. |
+| `c_linkExitURL` | Die Exitlink-URL. |
+| `c_list#` | Benutzerdefinierte Listenvariablen. |
+| `c_longitude` | Numerische Länge. |
+| `c_mediaPlayerType` | Für Medienstream-Verfolgungsanfragen. Zu den Optionen zählen:    andere, primetime |
+| `c_pageName` | Der Seitenname (sofern festgelegt). |
+| `c_pageURL` | Die Adresse der Seite in der Adressleiste des Browsers. |
+| `c_products` | Die Produktzeichenfolge (festgelegt durch `s.products`). |
+| `c_prop` | Benutzerdefinierte Eigenschaften. |
+| `c_purchaseID` | Eine eindeutige ID für den Kauf. |
+| `c_referrer` | Die Seite vor der aktuellen Seite. |
+| `c_screenResolution` | Bildschirmbreite und -höhe (in Pixeln). |
+| `c_server` | Name des Webservers (festgelegt durch `s.server`). |
+| `c_state` | Geografische Region (festgelegt durch `s.state`). |
+| `c_timezone` | Zeitversatz (in Stunden). |
+| `c_transactionID` | Eine eindeutige ID für eine Transaktion. |
+| `c_zip` | Postleitzahl (festgelegt durch `s.zip`). |
