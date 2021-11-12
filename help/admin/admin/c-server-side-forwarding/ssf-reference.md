@@ -3,10 +3,10 @@ description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen,
 title: Daten- und Codereferenz für die serverseitige Weiterleitung
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
+source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 93%
+source-wordcount: '511'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,8 @@ Diese Header sind Felder und enthalten Informationen wie Aufrufe für Daten und 
 | Accept-Language | Festgelegt auf den an Analytics übergebenen `Accept-Language`-Header. | `h_accept-language` |
 | Referrer | Festgelegt auf die Seiten-URL, die an Analytics übergeben oder aus dem `Referer`-Header erfasst wurde, der an Analytics übergeben worden ist. | `h_referer` |
 | Referrer | Festgelegt auf die Seiten-URL, die an Analytics übergeben oder aus dem `Referrer`-Header erfasst wurde, der an Analytics übergeben worden ist. | `h_referrer` |
-| IP | Signal, das von der IP des Hosts generiert wird, der die Anfrage an DCS sendet. | `h_ip` |
+
+Zusätzlich wird eine `h_ip` -Signal wird von der IP des Hosts generiert, der die Anfrage an DCS sendet.
 
 ## Kundendefinierte Signale {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
