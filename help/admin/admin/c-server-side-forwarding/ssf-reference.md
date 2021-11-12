@@ -3,7 +3,7 @@ description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen,
 title: Daten- und Codereferenz für die serverseitige Weiterleitung
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 4bfe2005e48a0ed6aabdc66f58980ca687e174c6
+source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf 
 
 Diese Header sind Felder und enthalten Informationen wie Aufrufe für Daten und Antworten in einem HTTP-Aufruf.
 
-| HTTP-Header | Beschreibung | h_ vom Audience Manager akzeptierte Schlüssel |
+| HTTP-Header | Beschreibung | h_key, der vom Audience Manager akzeptiert wird |
 | --- | --- | --- |
 | Host | Diese Einstellung wird auf den jeweiligen Hostnamen der Datenerfassung des Clients festgelegt, der in der Hostkonfigurationsdatei von Analytics angegeben ist. Die Anzeige erscheint als `host name .demdex.net`. Siehe [Aufrufe an die Domain „demdex.net“](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de). | `h_host` |
 | User-Agent | Festgelegt auf den an Analytics übergebenen Benutzer-Agent-Header. | `h_user-agent` |
