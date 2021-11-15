@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,9 @@ Damit können Sie:
 >
 >Informationen dazu, wie sich die Ergebnisse bei der Anwendung von Segmenten auf den Fluss zwischen Analysis Workspace und Reports &amp; Analytics unterscheiden können, finden Sie unter [Segmentierung als Grundlage für Fluss und Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Tutorial zur Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=de) (4:56)
+Hier finden Sie ein Video-Tutorial zur Flussvisualisierung :
+
+>[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
 ## Interdimensionale Flüsse {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
