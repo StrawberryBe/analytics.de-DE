@@ -23,7 +23,6 @@ Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen 
 >* Downloads, die nach einer Umleitung ausgelöst werden
 >* Mit der rechten Maustaste klicken und „Ziel speichern unter...“ auswählen
 >* Links, die JavaScript verwenden, wie z. B. `javascript:openLink()`
-
 >
 >Bei diesen Download-Typen können Sie die [`tl()`](../functions/tl-method.md)-Methode manuell aufrufen.
 
