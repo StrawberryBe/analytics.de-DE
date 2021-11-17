@@ -2,13 +2,13 @@
 description: Versenden Sie ein Projekt aus Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
 keywords: Analysis Workspace
 title: Planen von Projekten
-feature: Kuratieren und Freigeben
+feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,22 @@ Geplante Analysis Workspace-Projekte können unter **Analytics > Komponenten > G
 
 Im Manager für geplante Projekte können wiederkehrende Projektzeitpläne bearbeitet und gelöscht werden. Suchen Sie in der Suchleiste oder mithilfe der Filteroptionen in der linken Leiste nach einem Zeitplan. Sie können nach Tag, genehmigten Zeitplänen, Inhabern und mehr filtern.
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| Feld | Beschreibung |
+| --- | --- |
+| Favoriten | Wenn Sie das Sternsymbol auswählen, wird dieser Zeitplan zu einem Favoriten. |
+| Zeitplan-ID | Diese ID wird hauptsächlich zum Debugging verwendet. |
+| Titel und Beschreibung | Titel und Beschreibung dieses Projekts. |
+| Inhaber | Die Person, die das Projekt erstellt hat und deren Eigentümer ist. |
+| Tags | (optional) Tagging ist eine gute Möglichkeit, Projekte zu organisieren. Alle Benutzer können Tags erstellen und eines oder mehrere Tags auf ein Projekt anwenden. Sie können Tags jedoch nur für die Projekte sehen, deren Inhaber Sie sind oder die für Sie freigegeben wurden. |
+| Zugestellt an | Empfänger dieses geplanten Projekts. |
+| Ablaufdatum | Das standardmäßige Ablaufdatum beträgt ein Jahr ab dem Erstellungsdatum. |
+| Häufigkeit | Wie oft Sie dieses Planprojekt an den/die Empfänger senden möchten. |
+| Ausführungszeit | Zu welcher Tageszeit wird dieses geplante Projekt gesendet. |
+| Anzahl der Abfragen | Die Anzahl der Abfragen für dieses Projekt. |
+
+## Allgemeine Aktionen
 
 Die folgenden Aktionen werden im Manager für geplante Projekte häufig ausgeführt:
 

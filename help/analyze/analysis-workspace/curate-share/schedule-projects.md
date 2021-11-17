@@ -3,15 +3,15 @@ description: Verwalten Sie geplante Projekte in Analysis Workspace
 keywords: Analysis Workspace
 title: Manager für geplante Projekte
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
 
 
-# Manager für geplante Projekte
+# Manager für terminierte Projekte
 
 Verwalten Sie geplante Projekte in Analysis Workspace.
 
@@ -28,6 +28,10 @@ Im Manager für geplante Projekte können regelmäßige Projektlieferungen bearb
 Im Manager für geplante Projekte werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt.
 
 ![](assets/scheduled-projects.png)
+
+## Planen von Projekt-Manager-Aufgaben
+
+Im [!UICONTROL Geplante Projekte] Die Benutzeroberfläche bietet folgende Möglichkeiten:
 
 * Bearbeiten geplanter Projekte
 * Zeitplan-ID eines Projekts anzeigen (hauptsächlich für Debug-Zwecke)
