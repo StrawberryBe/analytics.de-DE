@@ -2,10 +2,10 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
-workflow-type: ht
-source-wordcount: '451'
-ht-degree: 100%
+source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collect
 
 >[!IMPORTANT]
 >
->Das Add-on-Paket zur regionalen Datenerfassung in China (Leistungsoptimierung für China) ist ein kostenpflichtiges Add-On für Adobe Analytics. Die Leistungsoptimierung von Adobe in Festlandchina ermöglicht es Kunden in China, Daten direkt an den chinesischen Edge-Knoten zu senden anstatt an andere Standorte weltweit. Dies verbessert die Seitenladezeiten und die Datengenauigkeit gegenüber dem Versand der Daten an Knoten außerhalb Chinas. Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um weitere Informationen zu erhalten.
+>Das Add-on-Paket zur regionalen Datenerfassung in China (Leistungsoptimierung für China) ist ein kostenpflichtiges Add-On für Adobe Analytics. Die Leistungsoptimierung von Adobe auf dem chinesischen Festland ermöglicht es Kunden mit Nutzern innerhalb Chinas, diese Daten direkt an den China Edge-Knoten und nicht an andere globale Standorte zu senden. Dies verbessert die Seitenladezeiten und die Datengenauigkeit gegenüber dem Versand der Daten an Knoten außerhalb Chinas. Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um weitere Informationen zu erhalten.
 
 RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
@@ -31,17 +31,19 @@ Hinweis: Wenn Ihre Analytics-Bildanforderung an die Endpunkte `adobedc`, `2o7.ne
 
 ## Erstanbieter-HTTPS-Datenerfassung
 
-| RDC-Typ | Data Collection Centers |
+| RDC-Typ | Datenerfassungszentren |
 |---------------------|-------------------|
 | Global (Standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
+| Global + China* | China*, Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 | Nur Amerika | Oregon, Virginia |
 | Nur Europa | Irland, Paris |
 | Nur Asien | Mumbai, Singapur, Tokio, Sydney |
 | Nur China* | Peking |
 
-*Die regionale Datenerfassung für China benötigt das Add-on-Paket für China. Beachten Sie hierzu auch den wichtigen Hinweis oben.
+*Nur China und Global + China RDC-Typen erfordern das China Add-On-Paket. Beachten Sie hierzu auch den wichtigen Hinweis oben. Global + China leitet Daten aus China an unsere China RDC weiter, während Daten aus China an die nächstgelegene RDC außerhalb Chinas weitergeleitet werden.
 
-Hinweis: Experience-Edge „Global“ bietet die beste Leistung für Ihre Endanwender.  Wenn Sie einen alternativen RDC-Typ verwenden möchten, wenden Sie sich zur Unterstützung an die Adobe-Kundenunterstützung.
+>[!NOTE]
+>Experience Edge Global und Global + China bieten die beste Leistung für Ihre Endbenutzer. Wenn Sie einen alternativen RDC-Typ verwenden möchten, wenden Sie sich zur Unterstützung an die Kundenunterstützung von Adobe.
 
 ## Vorteile von RDC
 
