@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1011'
 ht-degree: 99%
 
 ---
@@ -87,7 +87,10 @@ ht-degree: 99%
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
       + [Bedienfeld „Gleichzeitige Medienbetrachter“](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Panel „Verbrachte Zeit bei der Medienwiedergabe“](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + Bei Medienwiedergabe verbrachte Zeit {#media-playback-timespent}
+         + [Überblick](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Eingabe- und Ausgabeeinstellungen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [Häufig gestellte Fragen (FAQ)](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
       + Bedienfeld für den Segmentvergleich {#segment-comparison}
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
