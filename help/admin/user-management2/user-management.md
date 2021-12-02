@@ -5,10 +5,10 @@ title: Verwalten von Benutzern und Produkten
 feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f184cc7a98f0b15e2b96d5132e2a35b12d0f3556
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 92%
+source-wordcount: '557'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ Verwalten Sie Analytics-Benutzer, -Gruppen und -Produkte in der Admin Console.
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Kunden migriert wurden, werden Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Kunden migriert wurden, können Sie Inhalt für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** wird eingestellt.
 
 ## Hilfematerialien für Admin Console-Administratoren {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -36,7 +36,7 @@ Verwalten Sie Analytics-Benutzer, -Gruppen und -Produkte in der Admin Console.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console starten </p> </td> 
-   <td colname="col2"> <p>Nachdem die Benutzerkonten migriert wurden, können Sie Benutzer und Produkte über alle Lösungen hinweg in der Admin Console verwalten. </p> <p>Gehen Sie zu: <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Hilfe finden Sie unter <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">Verwalten von Experience Cloud-Benutzern und -Produkten</a>. Dort sind Aktualisierungen in der Verwaltung von Experience Cloud-Benutzern und -Produkten in der Admin Console zu finden. </p> </td> 
+   <td colname="col2"> <p>Nachdem die Benutzerkonten migriert wurden, können Sie Benutzer und Produkte über alle Lösungen hinweg in der Admin Console verwalten. </p> <p>Gehen Sie zu: <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Hilfe finden Sie unter <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de">Verwalten von Experience Cloud-Benutzern und -Produkten</a>. Dort sind Aktualisierungen in der Verwaltung von Experience Cloud-Benutzern und -Produkten in der Admin Console zu finden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
