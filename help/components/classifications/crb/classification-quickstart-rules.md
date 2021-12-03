@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Klassifizierungsregeln
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 97%
@@ -257,7 +257,7 @@ In diesem Ergebnis zeigt `a:b:1313` keine Übereinstimmung an.
 | `\W` | Beliebiges Zeichen, das nicht in Wörtern zulässig ist |
 | `\b` | Beliebige Wortgrenze |
 | `(...)` | Alles erfassen zwischen |
-| `(a|b)` | a oder b |
+| `(a\b)` | a oder b |
 | `a?` | Null oder eins von a |
 | `a*` | Null oder mehr von a |
 | `a+` | Ein oder mehr von a |
