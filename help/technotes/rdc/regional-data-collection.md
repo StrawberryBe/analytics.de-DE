@@ -2,10 +2,10 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
+source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collect
 
 RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
-## Drittanbieter- und HTTP-Datenerfassung
+## Datenerfassung durch Dritte
 
 | RDC-Typ | Data Collection Centers |
 |---------------------|-------------------|
@@ -31,7 +31,7 @@ RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 >
 >Wenn Ihre Analytics-Bildanforderung an die `adobedc`, `2o7.net` oder `omtrdc.net` -Endpunkte verwenden, wird die Datenerfassung durch Drittanbieter durchgeführt. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
 
-## Erstanbieter-HTTPS-Datenerfassung
+## First-Party-Datenerfassung
 
 | RDC-Typ | Datenerfassungszentren |
 |---------------------|-------------------|
