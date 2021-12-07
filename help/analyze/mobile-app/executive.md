@@ -7,7 +7,7 @@ exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Nach dem Herunterladen und Installieren können sich ausführende Benutzer mit i
 
 So verwenden Sie Dashboards:
 
-1. Melden Sie sich bei der App an. Der Anmeldebildschirm wird beim Start der Dashboards angezeigt. Folgen Sie den Anweisungen und melden Sie sich mit Ihren bestehenden Adobe Analytics-Anmeldeinformationen an. Adobe und Enterprise/Federated IDs werden unterstützt.
+1. Melden Sie sich bei der Mobile App an. Der Anmeldebildschirm wird beim Start der Dashboards angezeigt. Folgen Sie den Anweisungen und melden Sie sich mit Ihren bestehenden Adobe Analytics-Anmeldeinformationen an. Adobe und Enterprise/Federated IDs werden unterstützt.
 
    ![Anmeldesequenz](assets/signseq.png)
 
-1. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird die **[!UICONTROL Unternehmen auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
+1. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird der Bildschirm **[!UICONTROL Organisation auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
 
 1. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 

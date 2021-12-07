@@ -1,19 +1,19 @@
 ---
 description: So erstellen Sie eine Scorecard für Adobe Analytics-Dashboards
-title: Mobile Scorecard erstellen
+title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Mobile Scorecard erstellen
+# Mobile-Scorecard erstellen
 
-Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten, wie mobile Scorecards für ausführende Benutzer konfiguriert und präsentiert werden. Sehen Sie sich zunächst das Video zu Scorecard Builder von Adobe Analytics-Dashboards an:
+Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten eine Anleitung dazu, wie sie Mobile-Scorecards für Führungskräfte konfigurieren und darstellen können. Sehen Sie sich zunächst das Video zu Scorecard Builder von Adobe Analytics-Dashboards an:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -36,7 +36,7 @@ Sie können die Vorlage [!UICONTROL Leere mobile Scorecard] öffnen, indem Sie e
 
 ### Neues Projekt erstellen
 
-1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **[!UICONTROL Workspace]**.
+1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **[!UICONTROL Arbeitsbereich]**.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Projekt erstellen]** und wählen Sie die Projektvorlage **[!UICONTROL Leere mobile Scorecard]** aus.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -104,19 +104,19 @@ Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue 
 
 ## Visualisierungen anwenden
 
-Sehen Sie sich ein Video zu Visualisierungen für mobile Scorecards an:
+Video zu Visualisierungen für Mobile-Scorecards ansehen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Analytics-Dashboards bieten vier Visualisierungen, die Ihnen einen umfassenden Einblick in Dimensionselemente und Metriken bieten. Ändern Sie die [!UICONTROL Diagrammtyp] der [!UICONTROL Eigenschaften]. Wählen Sie einfach die rechte Kachel aus und ändern Sie dann den Diagrammtyp.
+Analytics-Dashboards verfügen über vier Visualisierungen, die Ihnen einen nützlichen Einblick in Dimensionselemente und -metriken bieten. Wenn Sie eine andere Visualisierung anwenden möchten, ändern Sie den [!UICONTROL Diagrammtyp] in den [!UICONTROL Eigenschaften] einer Kachel. Wählen Sie einfach die rechte Kachel aus und ändern Sie dann den Diagrammtyp.
 
 ![Kacheleigenschaften](assets/properties.png)
 
-Oder klicken Sie auf die [!UICONTROL Visualisierungen] in der linken Leiste und ziehen Sie die rechte Visualisierung auf die Kachel:
+Oder klicken Sie auf das Symbol für [!UICONTROL Visualisierungen] in der linken Leiste und ziehen Sie die rechte Visualisierung per Drag &amp; Drop auf die Kachel:
 
 ![Visualisierungen](assets/vizs.png)
 
-### [!UICONTROL Zusammenfassungsnummer]
+### [!UICONTROL Zusammenfassungszahl]
 
 Verwenden Sie die Visualisierung der Zusammenfassungsnummer, um eine große Zahl hervorzuheben, die in einem Projekt wichtig ist.
 
@@ -130,27 +130,27 @@ Verwenden Sie die Visualisierung der Zusammenfassungsnummer, um eine große Zahl
 
 ### [!UICONTROL Linie]
 
-Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm zeigt Dimensionen im Zeitverlauf an, funktioniert aber bei jeder Visualisierung. In diesem Beispiel visualisieren Sie die Dimension &quot;Produktkategorie&quot;.
+Die Linienvisualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm zeigt Dimensionen im Zeitverlauf an, funktioniert aber bei jeder Visualisierung. In diesem Beispiel visualisieren Sie die Dimension „Produktkategorie“.
 
 ![Linienvisualisierung](assets/line.png)
 
 
 ### [!UICONTROL Horizontalbalken]
 
-Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. Verwenden Sie zum Beispiel [!UICONTROL Horizontalbalken] für Ihre bevorzugte Visualisierung.
+Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. Verwenden Sie zum Beispiel [!UICONTROL Horizontalbalken] als bevorzugte Visualisierung, um ganz leicht zu erkennen, welches Ihre Top-Produkte sind.
 
-![Horizontalbalken](assets/horizontal.png)
+![Horizontaler Balken](assets/horizontal.png)
 
-### Entfernen [!UICONTROL Nicht angegeben] Dimensionselemente
+### Entfernen Sie [!UICONTROL nicht angegebene] Dimensionselemente
 
-Wenn Sie [!UICONTROL Nicht angegeben] -Dimensionselemente aus Ihren Daten verwenden, gehen Sie wie folgt vor:
+Wenn Sie [!UICONTROL nicht angegebene] Dimensionselemente aus Ihren Daten entfernen möchten, gehen Sie wie folgt vor:
 
 1. Wählen Sie die richtige Kachel aus.
-1. In der rechten Leiste unter **[!UICONTROL Drilldown]**, wählen Sie den Pfeil neben dem Dimensionselement aus, dessen **[!UICONTROL Nicht angegeben]** -Elemente, die Sie entfernen möchten.
+1. Wählen Sie in der rechten Leiste unter **[!UICONTROL Drill-ins]** den Rechtspfeil neben dem Dimensionselement aus, für das Sie Elemente des Typs **[!UICONTROL Nicht angegeben]** entfernen möchten.
 
    ![nicht angegeben](assets/unspecified.png)
 
-1. Klicken Sie auf das Symbol neben **[!UICONTROL Nicht angegeben]** , um nicht spezifizierte Daten aus Ihrem Reporting zu entfernen. (Sie können auch jedes andere Dimensionselement entfernen.)
+1. Klicken Sie auf das Symbol neben **[!UICONTROL Nicht angegeben]**, um nicht spezifizierte Daten aus Ihrem Reporting zu entfernen. (Sie können auch jedes andere Dimensionselement entfernen.)
 
 ## Kacheleigenschaften anzeigen und konfigurieren
 

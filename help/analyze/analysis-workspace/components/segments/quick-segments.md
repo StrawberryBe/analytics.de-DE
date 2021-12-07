@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: 533c58f3bcc3974dafab1d6b7dd3e239ad80831b
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -35,24 +35,24 @@ Klicken Sie in einer Freiformtabelle in der Panel-Überschrift auf das Symbol �
 
 ![](assets/quick-seg1.png)
 
-Konfigurieren Sie das Schnellsegment aus dieser leeren Tabelle:
+Schnellsegment aus dieser leeren Liste konfigurieren:
 
-![leeres Schnellsegment](assets/qs-blank-slate.png)
+![Leeres Schnellsegment](assets/qs-blank-slate.png)
 
 | Einstellung | Beschreibung |
 | --- | --- |
 | Name | Der Standardname eines Segments besteht aus der Kombination der Regelnamen im Segment. Sie können das Segment umbenennen. |
 | Ein-/Ausschließen | Sie können Komponenten in Ihrer Segmentdefinition entweder ein- oder ausschließen, aber nicht beides. |
-| Treffer-/Besuchs-/Besucher-Container | Schnellsegmente enthalten nur einen [Segment-Container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=de#section_AF2A28BE92474DB386AE85743C71B2D6), mit dem Sie eine Dimension/eine Metrik/einen Datumsbereich in das Segment einbeziehen (oder daraus ausschließen) können. [!UICONTROL Besucher] enthält für den Besucher spezifische übergreifende Daten zu allen Besuchen und Seitenansichten. Mit dem [!UICONTROL Besuchs-Container] können Sie Regeln festlegen, mit denen die Besucherdaten auf der Grundlage von Besuchen aufgeschlüsselt werden. Mit dem [!UICONTROL Treffer-Container] können Sie die Besucherinformationen auf der Grundlage einzelner Seitenansichten aufschlüsseln. Der Standard-Container ist [!UICONTROL Treffer]. |
-| Komponenten (Dimension/Metrik/Datumsbereich) | Definieren Sie bis zu 3 Regeln, indem Sie Komponenten (Dimensionen und/oder Metriken und/oder Datumsbereiche) und deren Werte hinzufügen. Es gibt drei Möglichkeiten, die richtige Komponente zu finden:<ul><li>Beginnen Sie mit der Eingabe und der [!UICONTROL Quick Segment] Builder findet automatisch die entsprechende Komponente.</li><li>Verwenden Sie die Dropdown-Liste, um die Komponente zu finden.</li><li>Ziehen Sie Komponenten aus der der linken Leiste.</li></ul> |
-| Operator | Verwenden Sie das Dropdown-Menü, um Standardoperatoren und [!UICONTROL Einzelzählungs]-Operatoren zu finden. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=de) |
-| Pluszeichen (+) | Weitere Regel hinzufügen |
+| Treffer-/Besuchs-/Besucher-Container | Schnellsegmente enthalten nur einen [Segment-Container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=de#section_AF2A28BE92474DB386AE85743C71B2D6), mit dem Sie eine Dimension/eine Metrik/einen Datumsbereich in das Segment einbeziehen (oder daraus ausschließen) können. [!UICONTROL Besucher] enthält für den Besucher spezifische übergreifende Daten zu allen Besuchen und Seitenansichten. Mit einen Container [!UICONTROL Besuch] können Sie Regeln für die Aufschlüsselung der Besucherdaten auf der Grundlage der Besuche festlegen und mit einem Container [!UICONTROL Treffer] können Sie die Besucherinformationen auf der Grundlage der einzelnen Seitenaufrufe aufschlüsseln. Der Standard-Container ist [!UICONTROL Treffer]. |
+| Komponenten (Dimension/Metrik/Datumsbereich) | Definieren Sie bis zu 3 Regeln, indem Sie Komponenten (Dimensionen und/oder Metriken und/oder Datumsbereiche) und deren Werte hinzufügen. Es gibt drei Möglichkeiten, die richtige Komponente zu finden:<ul><li>Beginnen Sie mit der Eingabe und der [!UICONTROL Quick Segment] Builder findet automatisch die entsprechende Komponente.</li><li>Verwenden Sie die Dropdown-Liste, um die Komponente zu finden.</li><li>Per Drag-and-Drop aus der der linken Leiste ziehen.</li></ul> |
+| Operator | Dropdown-Menü verwenden, um Standardoperatoren und Operatoren des Typs [!UICONTROL Distinct Count] zu finden. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=de) |
+| Plus (+)-Zeichen | Eine weitere Regel hinzufügen |
 | AND/OR-Kennzeichung | Sie können den Regeln „AND“ oder „OR“ hinzufügen, aber Sie können „AND“ und „OR“ aber nicht in einer Segmentdefinition kombinieren. |
 | Anwenden | Dieses Segment auf das Panel anwenden. Wenn das Segment keine Daten enthält, werden Sie gefragt, ob Sie fortfahren möchten. |
-| Builder öffnen | Öffnet Segment Builder. Nachdem Sie das Segment im Segmentaufbau gespeichert oder angewendet haben, wird es nicht mehr als &quot;Schnellsegment&quot;betrachtet. Es wird Teil der Segmentbibliothek der Komponentenliste. |
+| Builder öffnen | Öffnet Segment Builder. Nachdem Sie das Segment in Segment Builder gespeichert oder übernommen haben, ist es kein „Schnellsegment“ mehr. Es wird Teil der Segmentbibliothek der Komponentenliste. |
 | Abbrechen | Abbrechen dieses Schnellsegments. Es wird nicht angewendet. |
 | Datumsbereich | Der Validator verwendet den Datumsbereich des Panels für die Datensuche. Doch jeder in einem Schnellsegment angewendete Datumsbereich überschreibt den Datumsbereich des Panels im oberen Bereich des Panels. |
-| Vorschau (oben rechts) | Ermöglicht festzustellen, ob ein gültiges Segment vorhanden ist und wie groß es ist. Stellt eine Aufschlüsselung des Datensatzes dar, der bei der Anwendung dieses Segments zu erwarten ist. Möglicherweise erhalten Sie einen Hinweis, der anzeigt, dass dieses Segment über keine Daten verfügt. In diesem Fall können Sie die Segmentdefinition fortsetzen oder ändern. |
+| Vorschau (oben rechts) | Ermöglicht festzustellen, ob ein gültiges Segment vorhanden ist und wie groß es ist. Stellt eine Aufschlüsselung des Datensatzes dar, der bei der Anwendung dieses Segments zu erwarten ist. Möglicherweise erhalten Sie den Hinweis, dass dieses Segment über keine Daten verfügt. Wenn dies der Fall ist, können Sie entweder fortfahren oder die Segmentdefinition ändern. |
 
 Hier ist ein Beispiel für ein Segment, in dem Dimensionen und Metriken kombiniert werden:
 
@@ -85,10 +85,10 @@ Beachten Sie, dass die Seitenleiste des Segments nicht mehr blau gestreift, sond
 
 ## Was sind reine Projektsegmente?
 
-Reine Projektsegmente sind entweder Schnellsegmente oder Ad-hoc-Workspace-Projektsegmente. Beim Bearbeiten/Öffnen im [!UICONTROL Segment Builder], wird das Feld &quot;Nur Projekt&quot;angezeigt. Wenn Sie ein Schnellsegment in Segment Builder anwenden, aber das Kontrollkästchen „Verfügbar machen“ nicht aktivieren, ist es weiterhin ein reines Projektsegment, kann jedoch nicht mehr in [!UICONTROL Quick Segment Builder] geöffnet werden.
+Reine Projektsegmente sind entweder Schnellsegmente oder Ad-hoc-Arbeitsbereich-Projektsegmente. Beim Bearbeiten/Öffnen in [!UICONTROL Segment Builder] wird das Feld „Nur Projekt“ angezeigt. Wenn Sie ein Schnellsegment in Segment Builder anwenden, aber das Kontrollkästchen „Verfügbar machen“ nicht aktivieren, ist es weiterhin ein reines Projektsegment, kann jedoch nicht mehr in [!UICONTROL Quick Segment Builder] geöffnet werden.
 
-![Nur Projekt deaktiviert](assets/project-only-unchecked.png)
+![„Nur Projekt“ deaktiviert](assets/project-only-unchecked.png)
 
 Wenn Sie das Kontrollkästchen aktivieren und auf **[!UICONTROL Speichern]** klicken, wird es zu einem Komponentensegment.
 
-![Nur Projekt aktiviert](assets/project-only-checked.png)
+![„Nur Projekt“ aktiviert](assets/project-only-checked.png)
