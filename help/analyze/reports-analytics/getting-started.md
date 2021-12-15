@@ -4,17 +4,14 @@ title: Erste Schritte mit Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 94%
 
 ---
 
 # Erste Schritte mit Reports &amp; Analytics
-
->[!NOTE]
->Dieses Produkt ist in Nordamerika und anderen Regionen, in denen das Produkt tatsächlich verkauft wird, zum Verkauf zugelassen und entspricht möglicherweise nicht den Anforderungen für den Verkauf in anderen Ländern oder Regionen.
 
 Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
@@ -102,3 +99,6 @@ In diesen Schritten wird beschrieben, wie Sie die Sprache der Benutzeroberfläch
 1. Klicken Sie in der Fußzeile der Seite auf die aktive Sprache im Menü **[!UICONTROL Sprache]** und wählen Sie dann Ihre bevorzugte Sprache aus.
 
 Sie können auf die Dokumentation und die entsprechende Startseite über die Adobe Experience Cloud zugreifen. (**[!UICONTROL Hilfe]** > **[!UICONTROL Hilfe-Startseite]**.)
+
+>[!NOTE]
+>Dieses Produkt ist zum Verkauf in Nordamerika und anderen Regionen zugelassen, in denen das Produkt tatsächlich verkauft wird. Sie kann die örtlichen Verkaufsanforderungen in anderen Ländern oder Regionen nicht erfüllen.
