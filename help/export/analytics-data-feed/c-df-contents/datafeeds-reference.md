@@ -6,10 +6,10 @@ title: Datenspaltenreferenz
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
-workflow-type: ht
-source-wordcount: '3420'
-ht-degree: 100%
+source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
+workflow-type: tm+mt
+source-wordcount: '3432'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `color` | Farbtiefen-ID, basierend auf dem Wert der Spalte `c_color`. Verweist auf die Suchtabelle `color_depth.tsv`. | smallint unsigniert |
 | `connection_type` | Numerische ID, die den Verbindungstyp darstellt. Variable, die in der Dimension [Verbindungstyp](/help/components/dimensions/connection-type.md) verwendet wird. Verweist auf die Suchtabelle `connection_type.tsv` | tinyint unsigniert |
 | `cookies` | Variable, die in der Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) verwendet wird.<br>Y: aktiviert<br>N: deaktiviert<br>U: unbekannt | char(1) |
-| `country` | Numerische ID, die das Land angibt, aus dem der Treffer stammt. Wird in der Dimension [Länder](/help/components/dimensions/countries.md) verwendet. Verwendet die `country.tsv`-Suche. | smallint unsigniert |
+| `country` | Numerische ID, die die in der `country.tsv` suchen. Wird im Bericht zu Domänen auf oberster Ebene in Reports &amp; Analytics verwendet. | smallint unsigniert |
 | `ct_connect_type` | Verknüpft mit der Spalte `connection_type`. Die häufigsten Werte sind LAN/WLAN, Mobilnetzbetreiber und Modem. | char(20) |
 | `curr_factor` | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet. Für USD werden beispielsweise zwei Dezimalstellen verwendet, sodass der Spaltenwert 2 ist. | tinyint |
 | `curr_rate` | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
@@ -73,14 +73,14 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `exclude_hit` | Flag, das angibt, dass der Hit nicht in das Reporting einfließt. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
 | `first_hit_page_url` | Die allererste URL des Besuchers. | varchar(255) |
 | `first_hit_pagename` | Variable, die in der Dimension [Ursprüngliche Entrypage](/help/components/dimensions/entry-dimensions.md) verwendet wird. Der Name der ursprünglichen Entrypage des Besuchers. | varchar(100) |
-| `first_hit_ref_domain` | Variable, die in der Dimension [Ursprüngliche verweisende Domain](/help/components/dimensions/original-referring-domain.md) verwendet wird. Basierend auf `first_hit_referrer`. Die allererste verweisende Domäne des Besuchers. | varchar(100) |
+| `first_hit_ref_domain` | Variable, die in der Dimension [Ursprüngliche verweisende Domain](/help/components/dimensions/original-referring-domain.md) verwendet wird. Basierend auf `first_hit_referrer`. Die allererste verweisende Domain des Besuchers. | varchar(100) |
 | `first_hit_ref_type` | Numerische ID des Typs der verweisenden Stelle der allerersten verweisenden Stelle des Besuchers. Verwendet die `referrer_type.tsv`-Suche. | tinyint unsigniert |
 | `first_hit_referrer` | Die allererste verweisende URL des Besuchers. | varchar(255) |
 | `first_hit_time_gmt` | Zeitstempel des allerersten Treffers des Besuchers in Unix-Zeit. | int |
 | `geo_city` | Name der Stadt, aus der der Treffer stammt, basierend auf der IP. Wird in der Dimension [Städte](/help/components/dimensions/cities.md) verwendet. | char(32) |
-| `geo_country` | Abkürzung für das Land, aus dem der Treffer stammt, basierend auf der IP. | char(4) |
+| `geo_country` | Abkürzung des Landes, aus dem der Treffer stammt, basierend auf der IP. Wird in der Dimension [Länder](/help/components/dimensions/countries.md) verwendet. | char(4) |
 | `geo_dma` | Numerische ID des demografischen Bereichs, aus dem der Treffer stammt, basierend auf der IP. Wird in der Dimension [US DMA](/help/components/dimensions/us-dma.md) verwendet. | int unsigniert |
-| `geo_region` | Name des Bundeslands oder der Region, aus der der Treffer stammt, basierend auf der IP. Wird in der Dimension [Regionen](/help/components/dimensions/regions.md) verwendet. | char(32) |
+| `geo_region` | Name des Bundeslands oder der Region, aus dem/der der Treffer stammt, basierend auf der IP. Wird in der Dimension [Regionen](/help/components/dimensions/regions.md) verwendet. | char(32) |
 | `geo_zip` | Die Postleitzahl, von der der Treffer stammt, basierend auf der IP. Hilft beim Ausfüllen der Dimension [Postleitzahl](/help/components/dimensions/zip-code.md). Siehe auch `zip`. | varchar(16) |
 | `hier1 - hier5` | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste. Das in den Report Suite-Einstellungen gewählte Trennzeichen. | varchar(255) |
 | `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. Trefferquellen 1, 2 und 6 werden in Rechnung gestellt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social <br>10: Server-seitige Weiterleitung in Audience Manager verwendet | tinyint unsigniert |
@@ -171,7 +171,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `prop1` – `prop75` | Benutzerdefinierte Traffic-Variablen 1 bis 75. Wird in den Dimensionen [Prop](/help/components/dimensions/prop.md) verwendet. | varchar(100) |
 | `purchaseid` | Eindeutige Kennung für einen Kauf, so wie durch das Festlegen der Variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) bestimmt. Von der Spalte `duplicate_purchase` verwendet. | char(20) |
 | `quarterly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer Quartals-Besucher ist. | tinyint unsigniert |
-| `ref_domain` | Basiert auf der Referrer-Spalte. Die verweisende Domäne des Treffers. In der Dimension [Verweisende Domain](/help/components/dimensions/referring-domain.md) verwendet. | varchar(100) |
+| `ref_domain` | Basiert auf der Referrer-Spalte. Die verweisende Domain des Treffers. In der Dimension [Verweisende Domain](/help/components/dimensions/referring-domain.md) verwendet. | varchar(100) |
 | `ref_type` | Eine numerische ID, die den Typ des Verweises für den Treffer darstellt. In der Dimension [Referrer-Typ](/help/components/dimensions/referrer-type.md) verwendet. <br>1: Auf Ihrer Site<br>2: Andere Websites <br>3: Suchmaschinen <br>4: Festplatte <br>5: USENET <br>6: Eingegeben/mit Lesezeichen versehen (kein Referrer) <br>7: E-Mail <br>8: Kein JavaScript <br>9: Soziale Netzwerke | tinyint unsigniert |
 | `referrer` | Seiten-URL der vorherigen Seite. In der Dimension [Referrer](/help/components/dimensions/referrer.md) verwendet. Beachten Sie, dass während `referrer` einen Datentyp von varchar(255) verwendet, `post_referrer` einen Datentyp von varchar(244) verwendet. | varchar(255) |
 | `resolution` | Numerische ID, die die Auflösung des Bildschirms darstellt. In der Dimension [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md) verwendet. Verwendet die Suchtabelle `resolution.tsv`. | smallint unsigniert |
@@ -269,7 +269,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `visit_keywords` | Variable, die in der Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md) verwendet wird. Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung von varchar(244), um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
 | `visit_num` | Variable, die in der Dimension [Anzahl der Besuche](/help/components/dimensions/visit-number.md) verwendet wird. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
 | `visit_page_num` | Variable, die in der Dimension [Hit-Tiefe](/help/components/dimensions/hit-depth.md) verwendet wird. Wird für jeden vom Benutzer generierten Treffer um 1 erhöht. Setzt jeden Besuch zurück. | int unsigniert |
-| `visit_ref_domain` | Basierend auf der Spalte `visit_referrer`. Die allererste verweisende Domäne des Besuchs. | varchar(100) |
+| `visit_ref_domain` | Basierend auf der Spalte `visit_referrer`. Die allererste verweisende Domain des Besuchs. | varchar(100) |
 | `visit_ref_type` | Numerische ID des Typs der verweisenden Stelle der ersten verweisenden Stelle des Besuchs. Verwendet die Suchtabelle `referrer_type.tsv`. | tinyint unsigniert |
 | `visit_referrer` | Die erste verweisende Stelle des Besuchs. | varchar(255) |
 | `visit_search_engine` | Numerische ID der ersten Suchmaschine des Besuchs. Verwendet die `search_engines.tsv`-Suche. | smallint unsigniert |
