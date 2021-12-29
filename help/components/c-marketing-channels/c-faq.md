@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu Marketing-Kanälen
 description: Häufig gestellte Fragen zu Marketing-Kanälen.
 source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Eine Letztkontakt-Sitzungsaktualisierung („Intern“) kann nur auftreten, wenn
 
 * **Löschen von Cookies auf der Site**: Ein Besucher besucht die Site und löscht seine Cookies während der Sitzung. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
 
-Nachstehend finden Sie ein Beispiel dafür, wie &quot;Intern&quot;(Sitzungsaktualisierung) sowohl als Erstkontakt- als auch als Letztkontakt-Kanal festgelegt wird:
+Unten finden Sie ein Beispiel, in dem „Intern“ (Sitzungsaktualisierung) sowohl als Erstkontakt- als auch als Letztkontaktkanal festgelegt wird:
 
 * Tag 1: Der Benutzer gelangt per Anzeige zur Site. Erstkontakt- und Letztkontakt-Kanäle werden auf „Anzeige“ eingestellt.
 * Tag 2: Der Benutzer gelangt per natürlicher Suche zur Site. Erstkontakt bleibt „Anzeige“, Letztkontakt wird auf „Natürliche Suche“ eingestellt.
