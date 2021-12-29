@@ -5,9 +5,9 @@ title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Hier sehen Sie einen Vergleich zwischen den jeweiligen Möglichkeiten, die berec
 Sie können
 
 * Metriken in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse] erstellen.
-* Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, ohne die Implementierung ändern zu müssen. Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren. Hier finden Sie ein Video zu Implementierungslosen-Metriken:
+* Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, ohne die Implementierung ändern zu müssen. Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren. Im Folgenden finden Sie ein Video zu implementierungslosen Metriken:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * Metriken über Report Suites hinweg freigeben. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
-* (Nur erweiterte berechnete Metriken) Segmente für Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der Personen gezählt werden, für die dies die erste Sitzung ist. Hier finden Sie ein Video zu diesem Thema:
+* (Nur erweiterte berechnete Metriken) Metriken segmentieren. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der Personen gezählt werden, für die dies die erste Sitzung ist. Im Folgenden finden Sie ein Video zu diesem Thema:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
