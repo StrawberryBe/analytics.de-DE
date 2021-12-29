@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -61,13 +61,13 @@ In Ihrem Workspace-Projekt können Sie von der linken Leiste aus auf **Bereiche,
 
 ![](assets/build-panels.png)
 
-### Projektmanagement in Analysis Workspace
+### Projektverwaltung in Analysis Workspace
 
-Im Folgenden finden Sie eine Videoübersicht zum Projekt-Management:
+Im Folgenden finden Sie eine Videoübersicht zur Projektverwaltung:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## Zusätzliche Ressourcen {#resources}
 
 * Adobe bietet Hunderte von [Analytics-Video-Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=de).
-* Siehe [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) für Aktualisierungen über neue Funktionen.
+* Für neue Funktionen siehe [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de#analytics).
