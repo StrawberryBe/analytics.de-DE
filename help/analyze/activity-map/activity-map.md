@@ -1,14 +1,14 @@
 ---
-description: Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen.
+description: Activity Map ist eine Adobe Analytics-Anwendung, die der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen.
 title: Was ist Activity Map?
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 9d0d8bc3fbba2ef83416f8230b5ed5fa9b03d019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >[!IMPORTANT]
 >Am 16. Januar 2020 begann Adobe Analytics mit dem Wechsel zur neuen Domain https://experience.adobe.com/analytics. Diese Änderung kann in bestimmten Fällen dazu führen, dass die Activity Map für einige Kunden nicht mehr funktioniert. Wie Sie wissen, wird Activity Map in einem iframe in die Kundenseite eingefügt (ein iframe für die Activity Map-Symbolleiste und ein iframe für das untere Bedienfeld von Activity Map). Möglicherweise haben Sie auf Ihrer Webseite eine Richtlinie zur Inhaltssicherheit für „frame-src“ festgelegt, die „.adobe.com“ nicht enthält. In diesem Fall wird Activity Map auf einer solchen Webseite nicht mehr funktionieren.
 
-Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen.
+Activity Map ist eine Adobe Analytics-Anwendung, die der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen.
 
 Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleunigte Kundenaktivität zu erkennen, Marketinginitiativen zu quantifizieren und auf die Bedürfnisse und das Verhalten der Zielgruppe zu reagieren.
 
