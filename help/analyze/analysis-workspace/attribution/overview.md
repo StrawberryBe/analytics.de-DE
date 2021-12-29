@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,11 +56,11 @@ Attribution IQ in berechneten Metriken
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Über die Attribution IQ-Leiste:
+Verwenden des Panels „Attribution IQ“
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Hinzufügen von Direktvergleichen von Attribution IQ-Modellen:
+Hinzufügen von nebeneinander angezeigten Vergleichen von Attribution IQ-Modellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
