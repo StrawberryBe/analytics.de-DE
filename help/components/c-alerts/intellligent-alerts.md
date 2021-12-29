@@ -1,18 +1,18 @@
 ---
-description: Das System Intelligente Warnhinweise ermöglicht eine präzisere Kontrolle über Warnhinweise und integriert die Anomalieerkennung in das Warnhinweissystem.
+description: Das neue System für intelligente Warnhinweise erlaubt eine feiner abgestufte Kontrolle über Warnhinweise und integriert die Anomalieerkennung in das Warnhinweissystem.
 title: Intelligente Warnhinweise
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Intelligente Warnhinweise
 
-Das System Intelligente Warnhinweise ermöglicht eine präzisere Kontrolle über Warnhinweise und integriert die Anomalieerkennung in das Warnhinweissystem.
+Das neue System für intelligente Warnhinweise erlaubt eine feiner abgestufte Kontrolle über Warnhinweise und integriert die Anomalieerkennung in das Warnhinweissystem.
 
 Im Folgenden finden Sie eine Videoübersicht:
 
@@ -31,7 +31,7 @@ Mithilfe intelligenter Warnhinweise können Sie
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken.
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
 
-Zu den Komponenten des Warnsystems gehören: Warnhinweiserstellung, Warnhinweis-Manager, Warnhinweisvorschau und besserer kontextbezogener Zugriff zum Erstellen von Warnhinweisen. Die Benutzeroberfläche für das alte Warnhinweissystem wird nicht mehr zur Verfügung stehen, die Warnhinweise werden jedoch migriert. Einige alte Warnhinweisfunktionen [sind nicht mehr verfügbar](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=de).
+Das neue Warnhinweissystem enthält die folgenden Komponenten: Warnhinweiserstellung, Warnhinweis-Manager, Warnhinweisvorschau. Es bietet darüber hinaus einen besseren kontextbezogenen Zugang zur Erstellung von Warnhinweisen. Die Benutzeroberfläche für das alte Warnhinweissystem wird nicht mehr zur Verfügung stehen, die Warnhinweise werden jedoch migriert. Einige alte Warnhinweisfunktionen [werden nicht mehr zur Verfügung stehen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=de).
 
 Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
