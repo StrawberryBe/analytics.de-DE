@@ -4,51 +4,51 @@ title: Berichtszeitverarbeitung
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1442'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Berichtszeitverarbeitung
 
-[!UICONTROL „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Einstellung zur zerstörungsfreien, rückwirkenden Verarbeitung von Daten.]
+[!UICONTROL Berichtszeitverarbeitung] ist eine Virtual Report Suite-Einstellung, die eine nicht destruktive, rückwirkende Verarbeitung von Daten ermöglicht.
 
 >[!NOTE]
 >
->[!UICONTROL Die Berichtszeitverarbeitung ist nur für Analysis Workspace verfügbar.]
+>[!UICONTROL Berichtszeitverarbeitung] ist nur für Analysis Workspace verfügbar.
 
-[!UICONTROL Berichtszeitverarbeitung] betrifft nur die Daten in der Virtual Report Suite und hat keine Auswirkungen auf Daten oder Datenerfassung in der zugrunde liegenden Report Suite. Der Unterschied zwischen [!UICONTROL Berichtszeitverarbeitung] und die herkömmliche Analytics-Verarbeitung sollten mithilfe des folgenden Diagramms am besten verstanden werden:
+[!UICONTROL Berichtszeitverarbeitung] betrifft nur die Daten in der Virtual Report Suite und hat keinen Einfluss auf Daten oder die Datenerfassung in der zugrunde liegenden Report Suite. Der Unterschied zwischen [!UICONTROL Berichtszeitverarbeitung] und der herkömmlichen Analytics-Verarbeitung lässt sich am besten anhand des folgenden Diagramms veranschaulichen:
 
 ![Google1](assets/google1.jpg)
 
 Während der Datenverarbeitung in Analytics fließen die Daten durch die Datenerfassungspipeline und einen Vorverarbeitungsschritt, indem die Daten für die Berichterstellung vorbereitet werden. In diesem Schritt der Vorverarbeitung werden die Besuchsablauflogik und eVar-Persistenzlogik (unter anderem) auf die Daten angewendet, während sie erfasst werden. Der primäre Nachteil dieses Vorverarbeitungsmodells besteht darin, dass jegliche Konfiguration vorab erfolgen muss, noch bevor die Daten erfasst werden. Das heißt, dass die an den Vorverarbeitungseinstellungen vorgenommen Änderungen nur ab diesem Zeitpunkt und für neue Daten gelten. Dies ist problematisch, wenn defekte Daten eingehen oder wenn Einstellungen falsch konfiguriert wurden.
 
-[!UICONTROL „Berichtszeitverarbeitung“ ist eine grundlegend andere Methode zur Verarbeitung von Analytics-Daten für die Berichterstellung. ] Anstatt vor dem Erfassen von Daten die Verarbeitungslogik vorab zu bestimmen, ignoriert Analytics die während des Vorverarbeitungsschritts festgelegten Daten und wendet diese Logik bei jeder Berichtsausführung an:
+[!UICONTROL Berichtszeitverarbeitung] ist eine völlig andere Methode zur Verarbeitung von Analytics-Daten für die Berichterstellung. Anstatt vor dem Erfassen von Daten die Verarbeitungslogik vorab zu bestimmen, ignoriert Analytics die während des Vorverarbeitungsschritts festgelegten Daten und wendet diese Logik bei jeder Berichtsausführung an:
 
 ![Google2](assets/google2.jpg)
 
 Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsoptionen. Sie können beispielsweise die Timeout-Zeitspanne für Besuche auf nicht destruktive Art und Weise beliebig ändern. Diese Änderungen spiegeln sich retroaktiv in der eVar-Persistenz und den Segmentcontainern wider, als hätten Sie diese Einstellungen vor dem Erfassen der Daten angewendet. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-„Berichtszeitverarbeitung“ ermöglicht zudem, dass Analytics verhindert, dass Hintergrundtreffer neue Besuche starten und dass das [mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) die Berichterstellung zum Starten eines neuen Besuchs anweist, sobald ein App-Startereignis ausgelöst wird.
+Mit der [!UICONTROL Berichtszeitverarbeitung] kann in Analytics verhindert werden, dass durch Hintergrundtreffer neue Besuche gestartet werden. Darüber hinaus kann durch das [Mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) die Berichterstellung zum Starten eines neuen Besuchs angewiesen werden, sobald ein Startereignis einer Mobile App ausgelöst wird.
 
 ## Konfigurationsoptionen
 
-Die folgenden Konfigurationsoptionen sind momentan für Virtual Report Suites mit aktiviertem Berichtszeitverarbeitung verfügbar:
+Die folgenden Konfigurationsoptionen sind derzeit für Virtual Report Suites mit aktivierter Berichtszeitverarbeitung verfügbar:
 
-* **[!UICONTROL Besuchstimeout]:** Die Einstellung des Besuchstimeouts definiert den Umfang der Inaktivität, den ein Unique Visitor haben muss, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchstimeout auf 15 Minuten festlegen, wird für jede Sequenz mit erfassten Treffern eine neue Besuchsgruppierung erstellt, die nach 15 Minuten Inaktivität separiert ist. Diese Einstellung beeinflusst nicht nur Ihre Besuchszahlen, sondern auch die Art und Weise der Evaluierung von Besuchssegmentcontainern und die Besuchsablauflogik für eVars, die bei einem Besuch ablaufen. Durch eine Verringerung des Besuchstimeouts erhöht sich wahrscheinlich die Gesamtzahl der Besuche in der Berichterstellung, während eine Erhöhung des Besuchstimeouts wahrscheinlich zu einer Reduzierung der Gesamtbesuche in der Berichterstellung führt.
-* **[!UICONTROL Besuchseinstellungen für mobile Apps]:** Für Report Suites mit Daten, die von mobilen Apps über die [Adobe Mobile SDKs](https://www.adobe.io/apis/cloudplatform/mobile.html), sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind nicht destruktiv und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Sie haben keinen Einfluss auf Daten, die außerhalb der Mobile SDKs erfasst wurden.
-* **[!UICONTROL Starten neuer Besuche durch Hintergrundtreffer verhindern]:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn die App im Hintergrund ausgeführt wird.
-* **[!UICONTROL Starten eines neuen Besuchs bei jedem App-Start]:** Zusätzlich zum Besuchstimeout können Sie den Beginn eines Besuchs erzwingen, sobald von den Mobile SDKs ein App-Startereignis aufgezeichnet wurde, unabhängig vom Inaktivitätsfenster. Diese Einstellung nimmt Einfluss auf die Besuchsmetrik und den Besuchssegmentcontainer sowie die Besuchsablauflogik für eVars.
-* **[!UICONTROL Neuen Besuch mit Ereignis starten]:** Eine neue Sitzung beginnt, wenn ein Ereignis ausgelöst wird, unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung aufgetreten ist. Zur neuen Sitzung gehört auch das Ereignis, das sie ausgelöst hat. Zudem können Sie mehrere Ereignisse nutzen, um eine Sitzung zu starten, und eine neue Sitzung wird dann begonnen, wenn beliebige dieser Ereignisse in den Daten auftreten. Diese Einstellung wirkt sich auf Ihre Besuchszählung, den Besuchssegmentierungs-Container sowie die Besuchsablauflogik von eVars aus.
+* **[!UICONTROL Maximale Wartezeit für Besuch]:** Mit dieser Einstellung wird die Dauer der Inaktivität eines Unique Visitor definiert, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchstimeout auf 15 Minuten festlegen, wird für jede Sequenz mit erfassten Treffern eine neue Besuchsgruppierung erstellt, die nach 15 Minuten Inaktivität separiert ist. Diese Einstellung beeinflusst nicht nur Ihre Besuchszahlen, sondern auch die Art und Weise der Evaluierung von Besuchssegmentcontainern und die Besuchsablauflogik für eVars, die bei einem Besuch ablaufen. Durch eine Verringerung des Besuchstimeouts erhöht sich wahrscheinlich die Gesamtzahl der Besuche in der Berichterstellung, während eine Erhöhung des Besuchstimeouts wahrscheinlich zu einer Reduzierung der Gesamtbesuche in der Berichterstellung führt.
+* **[!UICONTROL Besuchseinstellungen für Mobile Apps]:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://www.adobe.io/apis/cloudplatform/mobile.html) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind nicht destruktiv und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Sie haben keinen Einfluss auf Daten, die außerhalb der Mobile SDKs erfasst wurden.
+* **[!UICONTROL Starten neuer Besuche durch Hintergrundtreffer verhindern]:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn sich die Mobile App in einem Hintergrundzustand befindet.
+* **[!UICONTROL Bei jedem Anwendungsstart einen neuen Besuch starten]:** Zusätzlich zur maximalen Wartezeit für Besuche können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein Startereignis einer Mobile App aufgezeichnet wurde. Die Inaktivitätsdauer ist dabei unerheblich. Diese Einstellung hat einen Einfluss auf die Besuchsmetrik und den Besuchssegment-Container sowie die Besuchsgültigkeitslogik für eVars.
+* **[!UICONTROL Neuen Besuch mit Ereignis starten]:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung aufgetreten ist oder nicht. Zur neuen Sitzung gehört auch das Ereignis, das sie ausgelöst hat. Zudem können Sie mehrere Ereignisse nutzen, um eine Sitzung zu starten, und eine neue Sitzung wird dann begonnen, wenn beliebige dieser Ereignisse in den Daten auftreten. Diese Einstellung wirkt sich auf Ihre Besuchszählung, den Besuchssegmentierungs-Container sowie die Besuchsablauflogik von eVars aus.
 
-Hier finden Sie ein Video zum Starten eines neuen Besuchs mit einem Ereignis:
+Im Folgenden finden Sie ein Video zum Starten eines neuen Besuchs mit einem Ereignis:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
 
-## Berichtszeitverarbeitungsbeschränkungen
+## Einschränkungen bei der Berichtszeitverarbeitung
 
-„Berichtszeitverarbeitung“ unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Auf Virtual Report Suites mit Berichtszeitverarbeitung können Sie nur über Analysis Workspace zugreifen, nicht aber über [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Daten-Feeds oder der Reporting-API.
+Die Berichtszeitverarbeitung unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Auf Virtual Report Suites mit Berichtszeitverarbeitung können Sie nur über Analysis Workspace zugreifen, nicht aber über [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Daten-Feeds oder der Reporting-API.
 
 Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus dem Datumsbereich der Berichterstellung stammen (nachfolgend als „Datumsfenster“ bezeichnet). Demnach bleiben auf „laufen nie ab“ festgelegte eVar-Werte für einen Besucher vor dem Datumsbereich der Berichterstellung in den Berichterstellungsfenstern nicht erhalten, und sie erscheinen nicht in Berichten. Das heißt auch, dass Kundenloyalitätsmessungen ausschließlich auf den im Berichterstellungsdatumsbereich vorhandenen Daten und nicht auf dem gesamten Verlauf vor dem Berichterstellungsdatumsbereich basieren.
 
