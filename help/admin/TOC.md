@@ -5,7 +5,7 @@ user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über das Verwalten von Benutzern und Produkten in der Experience Cloud-Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
 ht-degree: 100%
 
