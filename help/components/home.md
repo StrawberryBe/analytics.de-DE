@@ -3,9 +3,9 @@ title: Komponentenleitfaden für Analytics
 description: Erfahren Sie mehr über die verschiedenen Komponenten, die Adobe Analytics bietet.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
