@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ In Workspace können Sie verschiedene Arten von Segmenten erstellen, je nachdem,
 | Segment der Komponentenliste | Klicken Sie auf +, um zu [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) zu gelangen. | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
 | Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Flexibilität beim Hinzufügen/Bearbeiten einer oder mehrerer Regeln |
 | Ad-hoc-Segmente: |  |  |  |
-| - Ad-hoc-Projektsegment in Workspace | [In den Segmentablagebereich eines Projekts ziehen und dort ablegen](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Nur Projekt, kann jedoch in Ihrer Segmentliste speichern und hinzufügen. | Für Segmente mit einer einzigen Regel |
+| - Ad-hoc-Projektsegment in Workspace | [In den Segmentablagebereich eines Projekts ziehen und dort ablegen](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Für Segmente mit einer einzigen Regel |
 | - Berechnetes metrikbasiertes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=de) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
 | - VRS-basiertes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer VRS-Definition |
 
 ## Videos
 
-Verwenden von Segmenten in Analysis Workspace:
+Verwendung von Segmenten in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
