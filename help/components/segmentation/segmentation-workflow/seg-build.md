@@ -1,13 +1,13 @@
 ---
 description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen von metrischen Dimensionen, Segmenten und Ereignissen für das Segmentieren von Besuchern auf der Grundlage von Behälterhierarchielogik, Regeln und Operatoren. Mit diesem integrierten Entwicklungstool können Sie einfache oder komplexe Segmente erstellen und speichern, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden.
-title: Segmente erstellen
+title: Erstellen von Segmenten
 feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Sie können Regeldefinitionen und Container hinzufügen, um Ihre Segmente zu def
 
 Die Funktionsweise von Segmenten mit eingebetteten Datumsbereichen ist in Analysis Workspace und [!UICONTROL Reports &amp; Analytics] weiterhin unterschiedlich: In Workspace wird der Datumsbereich des Bedienfelds mit dem eingebetteten Datumsbereich des Segments überschrieben. Im Gegensatz dazu erhalten Sie in [!UICONTROL Reports &amp; Analytics] die Schnittmenge des Datumsbereichs des Berichts und des eingebetteten Datumsbereichs des Segments.
 
-## Segmente erstellen {#build-segments}
+## Erstellen von Segmenten {#build-segments}
 
 1. Ziehen Sie einfach eine Dimension, ein Segment oder ein metrisches Ereignis aus dem linken Fenster in das Feld [!UICONTROL Definitionen].
 
@@ -84,7 +84,7 @@ Die Funktionsweise von Segmenten mit eingebetteten Datumsbereichen ist in Analys
 
 1. Legen Sie den [Operator](/help/components/segmentation/seg-reference/seg-operators.md) im Dropdown-Menü fest.
 1. Geben Sie für das ausgewählte Element einen Wert ein oder wählen Sie einen aus.
-1. Fügen Sie, sofern erforderlich, mithilfe von **[!UICONTROL Und]**-, **[!UICONTROL Oder]**- oder **[!UICONTROL Dann]**-Regeln weitere Behälter hinzu.
+1. Fügen Sie, sofern erforderlich, mithilfe von **[!UICONTROL AND]**-, **[!UICONTROL OR]**- oder **[!UICONTROL THEN]**-Regeln weitere Behälter hinzu.
 1. Sehen Sie sich nach dem Platzieren der Behälter und dem Festlegen der Regeln rechts oben im Validierungsdiagramm die Ergebnisse des Segments an. Der Validator zeigt den Prozentsatz und die absolute Anzahl der Seitenansichten, Besuche und Unique Visitors an, die mit dem erstellten Segment übereinstimmen.
 1. Taggen Sie unter **[!UICONTROL Tags]** den Behälter, indem Sie ein vorhandenes [Tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) auswählen oder ein neues erstellen.
 1. Klicken Sie zum **[!UICONTROL Speichern]** des Segments auf Speichern.
@@ -121,7 +121,7 @@ Erstellen Sie einen Behälter „Besuch“ und fügen Sie den Zeitraum [!UICONTR
 
 ![](assets/date-ranges.png)
 
-Hier finden Sie ein Video zur Verwendung rollierender Datumsbereiche in Segmenten:
+Im Folgenden finden Sie ein Video zur Verwendung rollierender Datumsbereiche in Segmenten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
