@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Im Folgenden finden Sie eine Videoübersicht:
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| [!UICONTROL Mobiler Breitengrad/Längengrad] | Diese Option stellt die Daten der mobilen App dar. Diese Option wird nur angezeigt, wenn Sie sie für Ihre Report Suite in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (Report Suite auswählen) > [!UICONTROL Einstellungen bearbeiten] >  [!UICONTROL Mobile Management] > [!UICONTROL Standortverfolgung aktivieren]. Das ist die Standardeinstellung (sofern die Standardverfolgung aktiviert ist). |
-| [!UICONTROL Geographische Dimensionen] | Diese Option stellt anhand der IP-Adresse eines Besuchers gewonnene Geo Segmentierung-Daten über seinen Standort dar. Diese Daten werden in [!UICONTROL Land], [!UICONTROL Region]und [!UICONTROL Ort]. Beachten Sie, dass diese Daten nicht bis zu den Ebenen „Designated Market Area“ oder „Postleitzahl“ reichen. Diese Dimension ist für beinahe alle Report Suites aktiviert. Wenn das bei Ihrer Report Suite nicht der Fall ist, bitten Sie die Adobe-Kundenunterstützung um Hilfe bei der Aktivierung geographischer Berichte. |
+| [!UICONTROL Mobiler Breitengrad/Längengrad] | Diese Option stellt die Daten der Mobile App dar. Diese Option wird Ihnen nur angezeigt, wenn Sie sie für Ihre Report Suite unter [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (gewünschte Report Suite) > [!UICONTROL Einstellungen bearbeiten] >  [!UICONTROL Mobile Management] > [!UICONTROL Standortverfolgung aktivieren] aktiviert haben. Das ist die Standardeinstellung (sofern die Standortverfolgung aktiviert ist). |
+| [!UICONTROL Geographische Dimension] | Diese Option stellt anhand der IP-Adresse eines Besuchers gewonnene Geosegmentierungsdaten über seinen Standort dar. Diese Daten werden in [!UICONTROL Land], [!UICONTROL Region] und [!UICONTROL Stadt] umgewandelt. Beachten Sie, dass dies nicht bis zu den Ebenen „DMA“ oder „Postleitzahl“ reicht. Diese Dimension ist für beinahe alle Report Suites aktiviert. Wenn das bei Ihrer Report Suite nicht der Fall ist, bitten Sie die Adobe-Kundenunterstützung um Hilfe bei der Aktivierung geographischer Berichte. |
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -88,6 +88,6 @@ Wenn Sie auf das **Zahnradsymbol** klicken, werden die folgenden Visualisierungs
 
 ## Erstellen einer Heatmap für die Zeitaufteilung
 
-Hier finden Sie ein Video zum Thema:
+Im Folgenden finden Sie ein Video zum Thema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
