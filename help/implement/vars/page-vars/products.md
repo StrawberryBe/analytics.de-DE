@@ -3,9 +3,9 @@ title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 9ec16e61560dd31f5240c7dd169ae8720761fbc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ Sie können eine dieser Erweiterungen oder den Editor für benutzerdefinierten C
 
 ## s.products in AppMeasurement und im benutzerdefinierten Code-Editor
 
-Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
+Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Trennen Sie die Felder in der Zeichenfolge mit einem Semikolon voneinander (`;`).
 
 >[!IMPORTANT]
->**[!UICONTROL Kategorie ]**wird nicht mehr als praktikable Option zur Nachverfolgung der Produktkategorieleistung empfohlen. Daher sollten alle Produktzeichenfolgen mit dem Semikolon beginnen, was für das leere erste Feld steht.
+>**[!UICONTROL Kategorie ]**wird nicht mehr als praktikable Option zur Nachverfolgung der Produktkategorieleistung empfohlen. Daher sollten alle Produktzeichenfolgen mit dem Semikolon beginnen, was bedeutet, dass das erste Feld leer ist.
 
 * **Produktname** (erforderlich): Der Name des Produkts. Die maximale Länge für dieses Feld beträgt 100 Byte.
 * **Menge** (optional): Die Anzahl dieser Produkte im Warenkorb. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
