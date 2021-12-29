@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis
 
 ![](assets/view-only-project.png)
 
-Im Folgenden finden Sie eine Videoübersicht zu schreibgeschützten Projekten:
+Im Folgenden finden Sie eine Videoübersicht über Projekte, die nur zur Ansicht bestimmt sind:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
