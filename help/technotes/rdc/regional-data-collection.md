@@ -4,8 +4,8 @@ description: Informationen zur regionalen Datenerfassung
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collect
 
 >[!IMPORTANT]
 >
->Das Add-on-Paket zur regionalen Datenerfassung in China (Leistungsoptimierung für China) ist ein kostenpflichtiges Add-On für Adobe Analytics. Die Leistungsoptimierung von Adobe auf dem chinesischen Festland ermöglicht es Kunden mit Nutzern innerhalb Chinas, diese Daten direkt an den China Edge-Knoten und nicht an andere globale Standorte zu senden. Dies verbessert die Seitenladezeiten und die Datengenauigkeit gegenüber dem Versand der Daten an Knoten außerhalb Chinas. Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um weitere Informationen zu erhalten.
+>Das Add-on-Paket zur regionalen Datenerfassung in China (Leistungsoptimierung für China) ist ein kostenpflichtiges Add-On für Adobe Analytics. Die Leistungsoptimierung von Adobe auf dem chinesischen Festland ermöglicht es Kunden, die Anwender in China betreuen, diese Daten direkt an den chinesischen Edge-Knoten statt an andere weltweite Standorte zu senden. Dies verbessert die Seitenladezeiten und die Datengenauigkeit gegenüber dem Versand der Daten an Knoten außerhalb Chinas. Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um weitere Informationen zu erhalten.
 
 RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
@@ -29,7 +29,7 @@ RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
 >[!NOTE]
 >
->Wenn Ihre Analytics-Bildanforderung an die `adobedc`, `2o7.net` oder `omtrdc.net` -Endpunkte verwenden, wird die Datenerfassung durch Drittanbieter durchgeführt. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
+>Wenn Ihre Analytics-Bildanfrage an die Endpunkte `adobedc`, `2o7.net` oder `omtrdc.net` gesendet wird, erfolgt die Datenerfassung durch Dritte. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
 
 ## First-Party-Datenerfassung
 
@@ -42,11 +42,11 @@ RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 | Nur Asien | Mumbai, Singapur, Tokio, Sydney |
 | Nur China* | Peking |
 
-*Nur China und Global + China RDC-Typen erfordern das China Add-On-Paket. Beachten Sie hierzu auch den wichtigen Hinweis oben. Global + China leitet Daten aus China an unsere China RDC weiter, während Daten aus China an die nächstgelegene RDC außerhalb Chinas weitergeleitet werden.
+*Die RDC-Typen „Nur China“ und „Global + China“ erfordern das China-Zusatzpaket. Beachten Sie hierzu auch den wichtigen Hinweis oben. „Global + China“ leitet Daten aus China an unsere China-RDC weiter, während Daten, die von außerhalb Chinas stammen, an die nächstgelegene RDC außerhalb Chinas weitergeleitet werden.
 
 >[!NOTE]
 >
->Experience Edge Global bietet die beste Leistung für Ihre Endbenutzer.  Wenn Sie einen alternativen RDC-Typ verwenden möchten, wenden Sie sich zur Unterstützung an die Kundenunterstützung von Adobe.
+>Experience Edge Global bietet die beste Leistung für Ihre Endanwender.  Wenn Sie einen anderen RDC-Typ verwenden möchten, wenden Sie sich an die Adobe-Kundenunterstützung.
 
 ## Vorteile von RDC
 

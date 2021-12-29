@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Browser- und Systemanforderungen zur Anmeldung in der Benutzeroberfläche von Re
 >[!NOTE]
 >Adobe unterstützt den Internet Explorer 11 in Adobe Analytics seit dem 13. November 2018 nicht mehr. Bitte wechseln Sie so bald wie möglich zu Microsoft Edge oder einem anderen unterstützten Browser.
 
-* Bevorzugte Browser: Neueste Versionen von Firefox, Chrome, Safari oder Edge.
+* Bevorzugte Browser: aktuelle Versionen von Firefox, Chrome, Safari oder Edge.
 * Cookies und JavaScript müssen aktiviert sein.
 * Bildschirmauflösung von 1024 x 768 mit einer Farbtiefe von mindestens 16 Bit.
 

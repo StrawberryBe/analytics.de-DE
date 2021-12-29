@@ -1,15 +1,15 @@
 ---
-title: Importleitfaden für Analytics
+title: Importhandbuch für Analytics
 description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Datenquellen, der Dateneinfügungs-API und Data Connectors in Analytics aufnehmen können.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Importleitfaden für Analytics
+# Importhandbuch für Analytics
 
 ![Banner](../../assets/doc_banner_import.png)
 
