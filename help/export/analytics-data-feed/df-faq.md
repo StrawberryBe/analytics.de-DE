@@ -4,9 +4,9 @@ keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Wenn eine FTP-Übertragung fehlschlägt (aufgrund einer verweigerten Anmeldung, 
 
 Wenn eine Übertragung fehlschlägt, können Sie einen Auftrag erneut ausführen, bis er erfolgreich ist.
 
-Wenn Sie Probleme haben, einen Daten-Feed auf Ihrer FTP-Site anzuzeigen, lesen Sie [Fehlerbehebung bei Daten-Feeds](troubleshooting.md).
+Wenn Sie Probleme haben, einen Daten-Feed auf Ihrer FTP-Site anzuzeigen, finden Sie weitere Informationen unter [Fehlerbehebung bei Daten-Feeds](troubleshooting.md).
 
 ## Wie sende ich einen Vorgang erneut? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
