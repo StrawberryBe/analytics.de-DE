@@ -6,21 +6,21 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Sammelnummer und Sammeländerung
+# [!UICONTROL Zusammenfassungszahl] und [!UICONTROL Zusammenfassungsänderung]
 
-Hier finden Sie ein Video zu diesen beiden Visualisierungen:
+Im Folgenden finden Sie ein Video zu diesen beiden Visualisierungen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
-## [!UICONTROL Visualisierung für Zusammenfassungsnummer] {#summary-number}
+## Visualisierung der [!UICONTROL Zusammenfassungszahl] {#summary-number}
 
-Verwenden Sie die [!UICONTROL Zusammenfassungsnummer] Visualisierung verwenden, um eine große Zahl hervorzuheben, die für ein Projekt wichtig ist. Diese Visualisierung verhält sich folgendermaßen:
+Verwenden Sie die Visualisierung der [!UICONTROL Zusammenfassungszahl], um eine große Zahl hervorzuheben, die für ein Projekt wichtig ist. Diese Visualisierung verhält sich folgendermaßen:
 
 * Wenn keine Zelle ausgewählt ist, wird die gesamte Spalte ausgewählt.
 * Wenn eine einzelne Zelle ausgewählt ist, wird die Zusammenfassung für diese Zelle angezeigt.
@@ -31,14 +31,14 @@ Klicken Sie oben rechts auf den **Visualisierungseinstellungen**, um die Einstel
 
 | Einstellung | Definition |
 |--- |--- |
-| [!UICONTROL Prozentsatz] | Zeigt Prozentsätze und keine Rohdaten an. |
-| [!UICONTROL Legende sichtbar] | Zeigt Informationen zur angezeigten Metrik an. |
-| [!UICONTROL Wert abkürzen] | Wählen Sie diese Option, um Werte zu kürzen und bis zu 3 Dezimalstellen anzuzeigen. |
-| [!UICONTROL Wert zusammenfassen nach] | Wählen Sie diese Option, um das Maximum, das Minimum, den Mittelwert, den Median oder die Summe für eine Auswahl von Daten anzuzeigen. |
+| [!UICONTROL Prozentsätze] | Zeigt Prozentsätze anstatt von Rohdaten an. |
+| [!UICONTROL Legende eingeblendet] | Zeigt Informationen zur angezeigten Metrik an. |
+| [!UICONTROL Wert kürzen] | Wählen Sie diese Option, um Werte zu kürzen und bis zu 3 Dezimalstellen anzuzeigen. |
+| [!UICONTROL Wert zusammenfassen nach] | Wählen Sie diese Option, um für ausgewählte Daten das Maximum, das Minimum, den Mittelwert, den Median oder die Summe anzuzeigen. |
 
-## [!UICONTROL Visualisierung für Zusammenfassungsänderung:] {#summary-change}
+## Visualisierung der [!UICONTROL Zusammenfassungsänderung:] {#summary-change}
 
-Verwenden Sie die [!UICONTROL Zusammenfassungsänderung] Visualisierung, um das Delta (die Änderung) zwischen zwei Zahlen anzuzeigen. Die grüne und rote Farbe der [!UICONTROL Zusammenfassungsänderung] kann durch [benutzerdefinierte Ereignispolarität](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=de) oder einer berechneten Metrik [Aufwärts-Trend anzeigen als](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=de) -Option.
+Verwenden Sie die Visualisierung der [!UICONTROL Zusammenfassungsänderung], um das Delta (die Änderung) zwischen zwei Zahlen anzuzeigen. Die grüne und rote Farbe der [!UICONTROL Zusammenfassungsänderung] kann über die [benutzerdefinierte Ereignispolarität](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=de) oder die Option [Aufwärts-Trend anzeigen als](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=de) einer berechneten Metrik angepasst werden.
 
 Diese Visualisierung verhält sich folgendermaßen:
 
@@ -57,7 +57,7 @@ Klicken Sie oben rechts auf den **Visualisierungseinstellungen**, um die Einstel
 
 | Einstellung | Definition |
 | --- | --- |
-| [!UICONTROL Prozentsatz] | Zeigt Prozentsätze und keine Rohdaten an. |
-| [!UICONTROL Legende sichtbar] | Zeigt Informationen zur angezeigten Metrik an. |
-| [!UICONTROL Prozentuale Veränderung anzeigen] | Zeigt die prozentuale Änderung zwischen den 2 Zahlen an. |
+| [!UICONTROL Prozentsätze] | Zeigt Prozentsätze anstatt von Rohdaten an. |
+| [!UICONTROL Legende eingeblendet] | Zeigt Informationen zur angezeigten Metrik an. |
+| [!UICONTROL Prozentuale Veränderung anzeigen] | Zeigt die prozentuale Änderung zwischen den beiden Zahlen an. |
 | [!UICONTROL Rohdifferenz anzeigen] | Zeigt den tatsächlichen Unterschied zwischen den beiden Zahlen. Mit dieser Option können Sie auch Werte kürzen und bis zu 3 Dezimalstellen anzeigen. |
