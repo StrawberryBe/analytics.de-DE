@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -56,12 +56,12 @@ Im Manager für geplante Projekte können wiederkehrende Projektzeitpläne bearb
 | Favoriten | Wenn Sie das Sternsymbol auswählen, wird dieser Zeitplan zu einem Favoriten. |
 | Zeitplan-ID | Diese ID wird hauptsächlich zum Debugging verwendet. |
 | Titel und Beschreibung | Titel und Beschreibung dieses Projekts. |
-| Inhaber | Die Person, die das Projekt erstellt hat und deren Eigentümer ist. |
-| Tags | (optional) Tagging ist eine gute Möglichkeit, Projekte zu organisieren. Alle Benutzer können Tags erstellen und eines oder mehrere Tags auf ein Projekt anwenden. Sie können Tags jedoch nur für die Projekte sehen, deren Inhaber Sie sind oder die für Sie freigegeben wurden. |
-| Zugestellt an | Empfänger dieses geplanten Projekts. |
-| Ablaufdatum | Das standardmäßige Ablaufdatum beträgt ein Jahr ab dem Erstellungsdatum. |
-| Häufigkeit | Wie oft Sie dieses Planprojekt an den/die Empfänger senden möchten. |
-| Ausführungszeit | Zu welcher Tageszeit wird dieses geplante Projekt gesendet. |
+| Verantwortlicher | Die Person, die das Projekt erstellt hat und dafür verantwortlich ist. |
+| Tags | (Optional) Mit Tagging können Projekte praktisch organisiert werden. Alle Benutzer können Tags erstellen und eines oder mehrere Tags auf ein Projekt anwenden. Sie sehen Tags jedoch nur für die Projekte, deren Verantwortlicher Sie sind oder die für Sie freigegeben wurden. |
+| Gesendet an | Der/die Empfänger dieses geplanten Projekts. |
+| Ablaufdatum | Standardmäßig liegt das Ablaufdatum ein Jahr nach dem Erstellungsdatum. |
+| Häufigkeit | Wie oft Sie dieses geplante Projekt an den/die Empfänger senden möchten. |
+| Durchführungszeit | Zu welcher Tageszeit dieses geplante Projekt gesendet wird.  |
 | Anzahl der Abfragen | Die Anzahl der Abfragen für dieses Projekt. |
 
 ## Allgemeine Aktionen
