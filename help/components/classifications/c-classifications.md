@@ -3,9 +3,9 @@ title: Übersicht über Klassifizierungen
 description: Passen Sie die Gruppierung von Dimensionselementen an.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Nach der Classification kann jeder Bericht, den Sie mithilfe der Schlüsselvaria
 
 Nach dem Erstellen der Klassifizierungen können Sie die neuen Datenattribute im gesamten Adobe Analytics nutzen.
 
-Hier finden Sie ein Übersichtsvideo zu Adobe Analytics-Klassifizierungen:
+Im Folgenden finden Sie ein Video zu Klassifizierungen in Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
