@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 96%
 
 Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
 
-Hier finden Sie ein Video zur Verwendung von Datumsbereichen und Kalendern in Analysis Workspace:
+Im Folgenden finden Sie ein Video zur Verwendung von Datumsbereichen und Kalendern in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
-Wenn Sie im Kalender etwas auswählen, bezieht sich diese Auswahl auf das jeweilige Bedienfeld. Sie haben jedoch die Möglichkeit, die Auswahl auf sämtliche Bedienfelder anzuwenden. Wenn Sie in Workspace auf einen Datumsbereich klicken, zeigt die Benutzeroberfläche den aktuellen Kalendermonat und den vorherigen Kalendermonat an. Sie können diese beiden Kalender anpassen, indem Sie auf die Rechts- und Linkspfeile in den jeweiligen oberen Ecken klicken.
+Wenn Sie im Kalender etwas auswählen, bezieht sich diese Auswahl auf das jeweilige Panel. Sie haben jedoch die Möglichkeit, die Auswahl auf sämtliche Panels anzuwenden. Wenn Sie in Workspace auf einen Datumsbereich klicken, zeigt die Benutzeroberfläche den aktuellen Kalendermonat und den vorherigen Kalendermonat an. Sie können diese beiden Kalender anpassen, indem Sie auf die Rechts- und Linkspfeile in den jeweiligen oberen Ecken klicken.
 
 ![Kalender](assets/aw_calendar.png)
 
