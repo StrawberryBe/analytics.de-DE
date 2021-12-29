@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,11 +88,11 @@ Ja. Aufgrund der Einschränkungen von Virtual Report Suites ist jedoch der Live-
 
 Sie haben drei Optionen:
 
-* Löschen Sie die `AppMeasurement_Module_ActivityMap` Funktion aus der JS-Datei
-* hinzufügen benutzerdefinierter Code, der die oben stehende Funktion mit einem leeren Textkörper umschreibt, z. B.:
+* Löschen der Funktion `AppMeasurement_Module_ActivityMap` aus der JS-Datei
+* Hinzufügen von benutzerspezifischem Code, der die obige Funktion mit einem leeren Text umschreibt, z. B.:
 
    ```
    function AppMeasurement_Module_ActivityMap() {}
    ```
 
-* AppMeasurement durch Einstellung konfigurieren `s.trackClickMap` und `s.trackInlineStats` nach `false`
+* Konfigurieren von AppMeasurement, indem Sie `s.trackClickMap` und `s.trackInlineStats` auf `false` festlegen
