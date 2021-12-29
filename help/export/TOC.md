@@ -5,9 +5,9 @@ user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
 source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 98%
    + Von Adobe gehostete FTP-Konten einrichten {#set-up-ftp-accounts}
       + [FTP-Konten einrichten – Übersicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
-      + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
+      + [Datenquellen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Daten-Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Von Data Warehouse bereitgestellte Berichte](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
