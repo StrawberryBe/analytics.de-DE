@@ -6,34 +6,34 @@ feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # Venn
 
-Die [!UICONTROL Venn] Mit der Visualisierung können Sie bis zu 3 Segmente einfügen (aus [!UICONTROL Komponenten]) und einer Metrik, um eine [!UICONTROL Venn] Diagramm.
+Bei der [!UICONTROL Venn]-Visualisierung können Sie bis zu drei Segmente (aus den [!UICONTROL Komponenten]) und eine Metrik einfügen, um ein [!UICONTROL Venn]-Diagramm zu erstellen.
 
 ![](assets/venn.png)
 
-Sie können den Mauszeiger über Segmente bewegen, damit mehr Details zu Prozentzahlen usw. angezeigt werden.
+Sie können dann den Mauszeiger über die Segmente bewegen, um mehr Details z. B. zu den Prozentzahlen anzuzeigen.
 
 ![](assets/venn_hover.png)
 
-## drehen [!UICONTROL Venn] Diagramm in [!UICONTROL Freiform] table
+## Umwandeln eines [!UICONTROL Venn]-Diagramms in eine [!UICONTROL Freiformtabelle]
 
-Um das Venn-Diagramm in eine Freiformtabelle umzuwandeln, klicken Sie auf den farbigen Punkt neben der Überschrift **[!UICONTROL Venn]** und wählen Sie **[!UICONTROL Data Sources verwalten]** > **[!UICONTROL Verfügbare Data Sources]** > **[!UICONTROL Freiformtabelle]** aus.
+Um das Venn-Diagramm in eine Freiformtabelle umzuwandeln, klicken Sie auf den farbigen Punkt neben der Überschrift **[!UICONTROL Venn]** und wählen Sie **[!UICONTROL Datenquellen verwalten]** > **[!UICONTROL Verfügbare Datenquellen]** > **[!UICONTROL Freiformtabelle]** aus.
 
-## Normalisieren [!UICONTROL Venn] Diagramm
+## Normalisieren eines [!UICONTROL Venn]-Diagramms
 
-So normalisieren Sie die [!UICONTROL Venn] Diagramm (die Größe entfernen), klicken Sie auf das Symbol für die Visualisierungseinstellungen und wählen Sie **[!UICONTROL Normalisierung]**.
+Um das [!UICONTROL Venn]-Diagramm zu normalisieren (d. h. die Größeninformationen zu entfernen), klicken Sie auf das Symbol für seine Visualisierungseinstellungen und wählen Sie **[!UICONTROL Normalisierung]** aus.
 
 ![](assets/normalization.png)
 
 ## Video
 
-Im Folgenden finden Sie ein Video zum [!UICONTROL Venn] diagramm:
+Im Folgenden finden Sie ein Video zum [!UICONTROL Venn]-Diagramm:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
