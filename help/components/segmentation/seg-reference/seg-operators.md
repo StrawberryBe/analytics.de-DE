@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ Sie können nach einer bestimmten Anzahl von Elementen innerhalb einer Dimension
 | größer als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
 | kleiner als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
 
-Im Folgenden finden Sie ein Video zur Segmentierung von unterschiedlichen Dimensionszahlen:
+Im Folgenden finden Sie ein Video zur Segmentierung anhand einer bestimmten Anzahl von Dimensionselementen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
