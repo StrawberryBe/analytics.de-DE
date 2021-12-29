@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 
 * ein Dashboard mit Metriken und Visualisierungen erstellen, um Berichte an andere Organisationen zu senden. Sie können jetzt Daten aus verschiedenen Report Suites in dasselbe Projekt ziehen.
 
-Hier ist ein Video zum Thema:
+Im Folgenden finden Sie ein Video zum Thema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
-## Report Suite auf alle Bedienfelder anwenden
+## Anwenden einer Report Suite auf alle Panels
 
 Sie können eine Report Suite auf alle Bedienfelder gleichzeitig anwenden, indem Sie mit der rechten Maustaste auf eine beliebige Bedienfeldüberschrift klicken und **[!UICONTROL Report Suite auf alle Bedienfelder anwenden]** auswählen.
 
