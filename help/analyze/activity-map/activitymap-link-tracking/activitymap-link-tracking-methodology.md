@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Daher wird InnerText verwendet, um von folgenden Vorteilen gegenüber der Linkak
 * Wenn ein Link auf der Seite neu positioniert wird, hat dies keine Auswirkungen auf InnerText.
 * Die Lesbarkeit wird verbessert, sodass Benutzer Linktracking-Berichte außerhalb von Activity Map analysieren können.
 
-## Linkregion {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## Link-Region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 Dieses neue Attribut ermöglicht Benutzern, eine Zeichenfolge anzugeben, die für die Seitenregion, in der sich der Link befindet, repräsentativ ist.
 
@@ -119,7 +119,7 @@ Beachten Sie, dass diese Variablen nur zu Referenzzwecken aufgelistet werden. Ac
 
 ### `s.ActivityMap.regionIDAttribute`
 
-String, der das Tag-Attribut identifiziert, das als Region-ID aus einem Vorgängerelement (übergeordnet, übergeordnet, ...) verwendet werden soll. `s.linkObject`, d. h. **das angeklickte Element**.
+Zeichenfolge, die angibt, dass das Tag-Attribut als Regions-ID eines übergeordneten Elements (parent, parent.parent...) von `s.linkObject` verwendet werden soll, d. h. **das Element, auf das geklickt wurde**.
 
 **Beispiel**
 
@@ -127,7 +127,7 @@ Standardeinstellung ist der Parameter „id“. Sie können auch einen anderen P
 
 ### `s.ActivityMap.link`
 
-Funktion, die den angeklickten `HTMLElement` und sollte einen String-Wert zurückgeben, der den angeklickten Link darstellt. Wenn der Rückgabewert „false“ lautet („null“, „undefined“, leere Zeichenfolge, 0) wird kein Link verfolgt.
+Funktion, die das angeklickte `HTMLElement` erhält und einen Zeichenfolgewert zurückgeben sollte, der dem angeklickten Link entspricht. Wenn der Rückgabewert „false“ („null“, „undefined“, leere Zeichenfolge, 0) lautet, wird kein Link verfolgt.
 
 **Beispiel**
 
@@ -144,7 +144,7 @@ function(clickedElement) {
 
 ### `s.ActivityMap.region`
 
-Funktion, die das geklickte HTML-Element erhält und einen Zeichenfolgewert für **die Region, in der sich der Link befand, als auf ihn geklickt wurde, zurückgeben soll.** Wenn der Rückgabewert „false“ lautet („null“, „undefined“, leere Zeichenfolge, 0) wird kein Link verfolgt.
+Funktion, die das angeklickte HTML-Element erhält und einen Zeichenfolgewert für **die Region zurückgeben sollte, in der sich der Link befand, als auf ihn geklickt wurde.** Wenn der Rückgabewert „false“ („null“, „undefined“, leere Zeichenfolge, 0) lautet, wird kein Link verfolgt.
 
 **Beispiel**
 
