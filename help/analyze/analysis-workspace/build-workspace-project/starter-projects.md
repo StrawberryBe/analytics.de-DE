@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 ![](assets/start_modal.png)
 
-## Benutzerdefinierte Vorlagen erstellen {#create-custom-template}
+## Erstellen benutzerdefinierter Vorlagen {#create-custom-template}
 
 Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benutzerdefinierte Vorlage machen. So geht’s:
 
@@ -41,7 +41,7 @@ Im Folgenden finden Sie ein Video zum Erstellen und Verwalten benutzerdefinierte
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Benutzerdefinierte Vorlagen verwalten {#manage-custom-template}
+### Verwalten benutzerdefinierter Vorlagen {#manage-custom-template}
 
 | Aktion | Beschreibung |
 |--- |--- |
@@ -64,9 +64,9 @@ Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen V
 
 ### Schulung
 
-Diese Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Erstellen Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modal „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben.
+Diese Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zur Erstellung Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage unter „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben.
 
-Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
+Im Folgenden finden Sie ein Video zur Vorlage [!UICONTROL Schulungsanleitung]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -74,7 +74,7 @@ Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
 
 >[!IMPORTANT]
 >
->Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=de) aktiviert ist.
 
 * **Paid Search-Suchmaschinen**: Diese Vorlage bietet eine Aufschlüsselung nach Werbe-Trends, Anzeigenplattformen, Keywords, Konten, Kampagnen und mehr.
 
@@ -84,28 +84,28 @@ Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
 
 ### Datenerfassung
 
-* **ITP-Auswirkung**: Erfahren Sie, wie sich die ITP von Apple auf Ihre Daten auswirkt und wie Sie die Berichterstellung entsprechend anpassen.
+* **Auswirkung von ITP**: Informationen dazu, wie sich ITP von Apple auf Ihre Daten auswirkt und Sie die Berichterstattung entsprechend anpassen können.
 
 ### Medien
 
-* **Content-Nutzung**: Wer sind meine treuen Leser?
-* **Neuigkeit - Häufigkeit - Treue**: Welche Inhalte werden am häufigsten verwendet und sind für Benutzer interessant?
-* **Nutzung von Streaming-Medien**: Bietet Trends und Top-Metriken zum Medienkonsum auf allen digitalen Geräten. Hier finden Sie ein Video zur Verbrauchsvorlage für Streaming-Medien:
+* **Nutzung von Inhalten**: Wer sind meine treuen Leser?
+* **Neuigkeit – Häufigkeit – Treue**: Welche Inhalte werden am häufigsten genutzt und sind für Benutzer besonders interessant?
+* **Nutzung von Streaming-Medien**: Liefert die Entwicklung und die wichtigsten Metriken der Mediennutzung auf allen digitalen Geräten. Im Folgenden finden Sie ein Video zur Vorlage zur Nutzung von Streaming-Medien:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
-### Mobile
+### Mobil
 
 >[!IMPORTANT]
 >
->Mobile Vorlagen sind nur verfügbar, wenn Ihre Report Suite für die Analyse mobiler Apps aktiviert ist.
+>Mobile Vorlagen sind nur dann verfügbar, wenn Ihre Report Suite für die Analyse von Mobile Apps aktiviert ist.
 
-* **Akquise:** Erfahren Sie mehr zur Leistung von mobilen Akquiselinks
-* **App-Nutzung:** Wie viele App-Benutzer, Starts und erste Starts hat die App verzeichnet und wie lange dauerte eine durchschnittliche Sitzung?
-* **Journeys:** Welche markanten Verwendungsmuster weist meine App auf?
-* **Schlüsselmetriken:** Sehen Sie sich die wichtigsten Metriken Ihrer App genauer an.
-* **Standort:** Beinhaltet eine Karte zur Anzeige von Standortdaten
-* **Messaging:** Mit Augenmerk auf die Leistung von In-App- und Push-Nachrichten
+* **Akquise:** Hier erfahren Sie mehr zur Leistung von mobilen Akquise-Links.
+* **Anwendungsnutzung:** Wie viele Anwendungsbenutzer, Starts und erste Starts hat die Anwendung verzeichnet und wie lange dauerte eine durchschnittliche Sitzung?
+* **Journeys:** Welche markanten Verwendungsmuster weist meine Anwendung auf?
+* **Schlüsselmetriken:** Sehen Sie sich die wichtigsten Metriken Ihrer Anwendung genauer an.
+* **Standort:** Beinhaltet eine Karte zur Anzeige von Standortdaten.
+* **Messaging:** Zeigt die Leistung von In-App- und Push-Nachrichten.
 * **Leistung:** Welche Leistung erzielt die Anwendung und wo haben Benutzer Probleme?
 * **Bindungsgrad:** Wer sind meine treuen Benutzer und was tun sie?
 
@@ -117,7 +117,7 @@ Im Folgenden finden Sie ein Video zum [!UICONTROL Schulungsanleitung] template:
 ### Web
 
 * **Akquise:** Was sind die wichtigsten Faktoren, durch die Traffic auf meine Website geleitet wird?
-* **AEM Site-Performance - Übersicht:** Welche Leistung erzielt meine Adobe Experience Manager-Site?
+* **AEM Site-Performance – Übersicht:** Welche Leistung erzielt meine Adobe Experience Manager-Site?
 * **Content-Konsum:** Wohin navigieren Besucher auf meiner Website am häufigsten?
 * **Bindungsgrad:** Welche Arten von Benutzern bleiben meiner Website wahrscheinlich treu?
 * **Technologie:** Welche Technologien werden verwendet, um auf meine Website zu gelangen?
@@ -138,7 +138,7 @@ Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version de
 * herausfinden, wie Sie die Segmentstapelung mit der Metrik für Personen verwenden;
 * Entdecken Sie, wie die Experience Cloud ID in Ihrer Umgebung zur Effizienzverbesserung der Metrik für Personen beiträgt.
 
-### Journey IQ: Vorlage für geräteübergreifende Analyse
+### Journey-IQ: Vorlage für geräteübergreifende Analysen
 
 <!--This content is mirrored in the CDA doc.-->
 
