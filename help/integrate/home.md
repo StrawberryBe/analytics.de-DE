@@ -3,9 +3,9 @@ title: Analytics-Integration
 description: Erfahren Sie, wie Sie Daten von anderen Speicherorten in Adobe Analytics integrieren können.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: 80698e880e2fe218525854d4ccc8dba341b1da5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 73%
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
-Dieser Leitfaden konzentriert sich auf die Integration mehrerer Adobe Experience Cloud-Lösungen wie Audience Manager, Advertising Cloud oder Target. Zu diesem Service gehören:
+In diesem Handbuch wird die Integration mehrerer Adobe Experience Cloud-Lösungen wie Audience Manager, Advertising Cloud oder Target beschrieben. Zu diesem Service gehören:
 
 * **Audience Analytics:** Integration von Adobe Audience Manager mit Adobe Analytics.
 * **Advertising Analytics:** zur Anzeige von Paid Search-Daten gemeinsam mit Adobe Analytics-Daten.
-* **Analytics für Advertising Cloud DSP:** Integriert Adobe Analytics und Adobe Advertising Cloud, um die Funktionen der einzelnen Produkte zu erweitern und zu erweitern. Im Folgenden finden Sie eine Videoübersicht:
+* **Analytics für Advertising Cloud DSP:** Integriert Adobe Analytics und Adobe Advertising Cloud, um die Funktionen der einzelnen Produkte zu erweitern und zu verbessern. Im Folgenden finden Sie eine Videoübersicht:
    >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target:** A4T integriert Adobe Analytics mit Adobe Target.
 * **Adobe Campaign Reporting:** Integration von Adobe Analytics mit Adobe Campaign.
