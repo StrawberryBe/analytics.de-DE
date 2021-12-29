@@ -3,9 +3,9 @@ title: Implementieren mit fest programmierten Bildanforderungen
 description: Adobe Analytics mithilfe eines HTML-Bild-Tags (einer fest programmierten Bildanforderung) implementieren
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
