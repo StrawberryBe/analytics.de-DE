@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Sequenzielle Segmente werden über den THEN-Operator anstelle von AND oder OR er
 
 Darüber hinaus können Sie sequenzielle Segmente nach spezifischer Zeitdauer, Granularität und Anzahl zwischen Checkpoints beschränken. Verwenden Sie dazu die [After- und In-Within](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Hier finden Sie ein Video zur sequenziellen Segmentierung:
+Im Folgenden finden Sie ein Video zur sequenziellen Segmentierung:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
