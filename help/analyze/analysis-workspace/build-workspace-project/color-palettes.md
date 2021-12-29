@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können die in Workspace verwendete Visualisierungsfarbpalette ändern, inde
 
 ![](assets/color_palettes.png)
 
-Bitte beachten Sie:
+Beachten Sie:
 
 * Es stehen fünf voreingestellte Farbpaletten zur Auswahl. Die Standardpalette und die unten stehende wurden für optimalen Kontrast optimiert und sind für Farbenblindheit besser zugänglich.
 * Die dritte bis fünfte Farbpalette unter den ersten beiden wurden auf Farbharmonie optimiert.
