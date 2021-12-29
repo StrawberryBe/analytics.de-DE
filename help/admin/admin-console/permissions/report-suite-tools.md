@@ -1,17 +1,17 @@
 ---
-title: Produktprofilberechtigungen für Report Suite-Tools in Adobe Admin Console
+title: Produktprofil-Berechtigungen für Report Suite-Werkzeuge in Adobe Admin Console
 description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report Suite-Werkzeuge vertraut.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Produktprofil-Berechtigungen für Report Suite-Werkzeuge
 
-Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report Suite-Tools in Adobe Admin Console zu verstehen.
+Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter „Report Suite-Werkzeuge“ in Adobe Admin Console.
 
 | Berechtigungselement der Report Suite-Tools | Beschreibung |
 |------|------|
