@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Pfad am Ende </p> <p>(Standard) </p> </td> 
-   <td colname="col2"> <p>Besucher (oder Besuche) werden gezählt, wenn sie schließlich am nächsten Touchpoint im Pfad landen. Umwege sind zwischen Touchpoints erlaubt. </p> </td> 
+   <td colname="col2"> <p>Besucher (oder Besuche) werden gezählt, wenn sie am nächsten Touchpoint im Pfad ankommen. Umwege sind zwischen Touchpoints erlaubt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nächster Hit </p> </td> 
-   <td colname="col2"> <p>Besucher (oder Besuche) werden gezählt, wenn sie sofort auf dem nächsten Touchpoint im Pfad landen. Der nächste Treffer enthält jeden beliebigen Treffertyp (Seiten-Ansichten oder Links). Zwischen Touchpoints sind keine Umwege zulässig. </p> </td> 
+   <td colname="col1"> <p>Nächster Treffer </p> </td> 
+   <td colname="col2"> <p>Besucher (oder Besuche) werden gezählt, sobald sie am nächsten Touchpoint im Pfad landen. Der nächste Treffer kann jeden Treffertyp enthalten (Seitenansichten oder Links). Umwege sind zwischen Touchpoints nicht zulässig. </p> </td> 
   </tr> 
  </tbody> 
 </table>
