@@ -2,9 +2,9 @@
 title: Suche nach Merchandising-eVar-Instanzen in post_product_list
 description: Suchen Sie in der Spalte „post_product_list“ in einem Daten-Feed nach der Merchandising-eVar-Instanz für jeden Lookup-Wert.
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '579'
+ht-degree: 100%
 
 ---
 
