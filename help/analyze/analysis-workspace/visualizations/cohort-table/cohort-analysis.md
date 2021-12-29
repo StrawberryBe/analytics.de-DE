@@ -5,17 +5,17 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Weitere Informationen zur [!UICONTROL Kohortenanalyse] in Adobe Analytics
 
-Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die [!UICONTROL Kohortenanalyse] ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Erläuterungen zur [!UICONTROL Kohortenanalyse] sind im Internet verfügbar, z. B. unter [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die [!UICONTROL Kohortenanalyse] ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Erläuterungen zur [!UICONTROL Kohortenanalyse] sind im Internet verfügbar, z. B. unter [Cohort Analysis 101](https://de.wikipedia.org/wiki/Cohort_analysis).)
 
-Nachdem Sie einen Kohortenbericht erstellt haben, können Sie dessen Komponenten (bestimmte Dimensionen, Metriken und Segmente) kuratieren und den Kohortenbericht dann für andere freigeben. Weitere Informationen finden Sie unter [Kuratieren und freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
+Nachdem Sie einen Kohortenbericht erstellt haben, können Sie dessen Komponenten (bestimmte Dimensionen, Metriken und Segmente) kuratieren und den Kohortenbericht dann für andere freigeben. Siehe [Kuratieren und freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Beispiele für die Nutzung einer [!UICONTROL Kohortenanalyse]:
 
@@ -33,7 +33,7 @@ Video zu Kohortentabellen in Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Kohortenanalyse] unterstützt keine nicht segmentierbaren Metriken (einschließlich berechneter Metriken), nicht ganzzahligen Metriken (z. B. Umsatz > oder Vorfälle). Nur Metriken, die in Segmenten verwendet werden können, können in [!UICONTROL Kohortenanalyse]und sie können jeweils nur um mehr als 1 inkrementiert werden.
+>Die [!UICONTROL Kohortenanalyse] unterstützt keine nicht segmentierbaren Metriken (einschließlich berechneter Metriken), Nicht-Ganzzahlmetriken (z. B. Umsatz) oder Vorkommnisse. In der [!UICONTROL Kohortenanalyse] können nur Metriken verwendet werden, die auch in Segmenten verwendet werden können. Darüber hinaus können diese Metriken jeweils nur um > 1 inkrementiert werden.
 
 ## Funktionen der Kohortenanalyse
 
