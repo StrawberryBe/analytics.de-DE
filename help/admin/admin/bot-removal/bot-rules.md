@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1364'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Mit Bot-Regeln können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots generiert wird. Durch das Ausblenden des Bot-Traffics kann die Benutzeraktivität auf Ihrer Website genauer gemessen werden.
 
-Hier finden Sie ein Video zum Konfigurieren von Bot-Regeln:
+Im Folgenden finden Sie ein Video zum Konfigurieren von Bot-Regeln:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
 
