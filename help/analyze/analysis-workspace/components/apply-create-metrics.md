@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ In Analysis Workspace gibt es zwei Möglichkeiten zur Verwendung von Metriken.
 
 * Oder Sie können auf **[!UICONTROL Komponenten]** > **[!UICONTROL Neue Metrik]** klicken. Sie gelangen so zum [Generator für berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md), wo Sie aus bereits vorhandenen Metriken benutzerdefinierte Metriken erstellen können.
 
-Hier finden Sie ein Video zum Arbeiten mit Metriken in einer Freiformtabelle:
+Im Folgenden finden Sie ein Video über die Verwendung von Metriken in einer Freiformtabelle:
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -46,8 +46,8 @@ Wenn Sie Attributionsmodelle schnell und einfach miteinander vergleichen möchte
 
 Dadurch können Sie Attributionsmodelle schnell und einfach miteinander vergleichen, ohne eine Metrik hereinzuziehen und sie zweifach zu konfigurieren.
 
-## Verwenden Sie die [!UICONTROL kumulativer Durchschnitt] Funktion zum Anwenden der Metrikglättung
+## Verwenden der Funktion [!UICONTROL Kumulativer Durchschnitt] zum Anwenden der Metrikausgleichung
 
-Hier finden Sie ein Video zum Thema:
+Im Folgenden finden Sie ein Video zum Thema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
