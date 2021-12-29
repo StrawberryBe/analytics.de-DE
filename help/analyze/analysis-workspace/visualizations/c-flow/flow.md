@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Damit können Sie:
 >
 >Informationen dazu, wie sich die Ergebnisse bei der Anwendung von Segmenten auf den Fluss zwischen Analysis Workspace und Reports &amp; Analytics unterscheiden können, finden Sie unter [Segmentierung als Grundlage für Fluss und Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-Hier finden Sie ein Video-Tutorial zur Flussvisualisierung :
+Im Folgenden finden Sie ein Video-Tutorial zur Flussvisualisierung:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
@@ -40,6 +40,6 @@ Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension p
 
 Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
 
-## Erweiterung bei Flussvisualisierung
+## Erweiterte Optionen bei der Flussvisualisierung
 
 >[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
