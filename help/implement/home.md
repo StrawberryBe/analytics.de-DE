@@ -3,9 +3,9 @@ title: Implementieren von Adobe Analytics
 description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft oder Anwendung.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
