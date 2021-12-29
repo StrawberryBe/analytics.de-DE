@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 Mithilfe der Fallout-Funktion in Analysis Workspace können Sie Dimensionen und Metriken als Touchpoints in Trichtern und Workflows kombinieren. Das gibt Ihnen mehr Flexibilität beim Definieren der Benutzerschritte, die Sie näher untersuchen möchten.
 
-Hier ist ein Video zum Thema:
+Im Folgenden finden Sie ein Video zum Thema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
