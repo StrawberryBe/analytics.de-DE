@@ -3,9 +3,9 @@ title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
