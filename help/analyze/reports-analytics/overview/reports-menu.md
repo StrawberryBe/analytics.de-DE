@@ -2,19 +2,22 @@
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 96%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
 # Menü Berichte{#reports-menu}
 
 Eine Übersicht zum Menü „Berichte“ in Reports &amp; Analytics.
+
+>[!IMPORTANT]
+>effektiv **31. Dezember 2023**, beabsichtigt Adobe, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen einzustellen. Zu diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die Reports &amp; Analytics nutzen, entsprechen nicht mehr den Technologiestandards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In diesem Hinweis wird der Prozess zum Ende des Lebenszyklus erläutert.
 
 Das Menü „Berichte“ bietet:
 
@@ -31,7 +34,7 @@ Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten mö
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Detaillierte Informationen zu einzelnen Berichten finden Sie unter [Dimensionen](/help/components/dimensions/overview.md).
+Weitere Informationen zu einzelnen Berichten finden Sie unter [Dimensionen](/help/components/dimensions/overview.md).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -113,7 +116,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1">Report Suite-Auswahl <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Hier können Sie <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >normale Report Suites</a> und <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >Virtual Report Suites</a> auswählen. </td> 
+   <td colname="col2">Hier können Sie <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=de"  >normale Report Suites</a> und <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >Virtual Report Suites</a> auswählen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 

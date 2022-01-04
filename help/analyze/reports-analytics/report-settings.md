@@ -4,10 +4,10 @@ title: Einstellungen zur Berichtsanzeige und Navigation
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 99%
+source-wordcount: '1557'
+ht-degree: 94%
 
 ---
 
@@ -15,9 +15,12 @@ ht-degree: 99%
 
 Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informationen, die Ihnen helfen, Standardmenüoptionen im vereinfachten Menü zu finden.
 
+>[!IMPORTANT]
+>effektiv **31. Dezember 2023**, beabsichtigt Adobe, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen einzustellen. Zu diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die Reports &amp; Analytics nutzen, entsprechen nicht mehr den Technologiestandards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In diesem Hinweis wird der Prozess zum Ende des Lebenszyklus erläutert.
+
 ## Einstellungen zur Berichtsanzeige und Navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Komponenten]**  >  **[!UICONTROL Alle Komponenten]**  >  **[!UICONTROL Berichtseinstellungen]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Berichtseinstellungen]**
 
 | Element | Beschreibung |
 |--- |--- |

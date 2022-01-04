@@ -1,13 +1,13 @@
 ---
 title: Berichte
 description: Die Dimensionen und Metriken, die Reports & Analytics für die einzelnen Berichte verwendet.
-feature: Berichte & Analytics-Grundlagen
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,9 @@ Jeder Bericht in Reports &amp; Analytics verwendet eine bestimmte Dimension und 
 >[!NOTE]
 >
 >Ihr Berichtsmenü kann je nach den Anpassungen, die ein Administrator in Ihrer Organisation vorgenommen hat, unterschiedlich aussehen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Menüanpassung](/help/admin/admin/customize-menus.md).
+
+>[!IMPORTANT]
+>effektiv **31. Dezember 2023**, beabsichtigt Adobe, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen einzustellen. Zu diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die Reports &amp; Analytics nutzen, entsprechen nicht mehr den Technologiestandards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In diesem Hinweis wird der Prozess zum Ende des Lebenszyklus erläutert.
 
 ## Site-Metriken
 
@@ -173,8 +176,8 @@ Enthält Berichte darüber, wer Ihre Site besucht.
    * US DMA: Verwendet die Dimension [US DMA](/help/components/dimensions/us-dma.md).
 * Sprachen: Verwendet die Dimension [Sprache](/help/components/dimensions/language.md).
 * Zeitzonen: Verwendet die Zeitzonendimension (in Analysis Workspace nicht mehr verfügbar). Die Dimensionselemente sind der GMT-Versatz des Treffers.
-* Domäne: Verwendet die Dimension [Domäne](/help/components/dimensions/domain.md).
-* Domäne auf oberster Ebene: Verwendet die Dimension „Domäne auf oberster Ebene“ (in Analysis Workspace nicht mehr verfügbar). Sie gruppiert die Dimension [Domänen](/help/components/dimensions/domain.md) in Kategorien auf höherer Ebene, in der Regel nach Land der Domäne.
+* Domain: Verwendet die Dimension [Domain](/help/components/dimensions/domain.md).
+* Domain auf oberster Ebene: Verwendet die Dimension „Domain auf oberster Ebene“ (in Analysis Workspace nicht mehr verfügbar). Sie gruppiert die Dimension [Domänen](/help/components/dimensions/domain.md) in Kategorien auf höherer Ebene, in der Regel nach Land der Domain.
 * Technologie: Ordner mit Berichten darüber, was der Besucher für den Zugriff auf Ihre Site verwendet hat.
    * Browser: Verwendet die Dimension [Browser](/help/components/dimensions/browser.md).
    * Browsertyp: Verwendet die Dimension [Browsertyp](/help/components/dimensions/browser-type.md).

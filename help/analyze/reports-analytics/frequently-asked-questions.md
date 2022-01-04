@@ -5,16 +5,19 @@ title: Häufig gestellte Fragen
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
 # Häufig gestellte Fragen
 
 Bietet Antworten und Vorschläge zur Fehlerbehebung zu einigen der am häufigsten gestellten Analytics-Fragen zu Reports &amp; Analytics. Häufig gestellte Fragen zur Implementierung finden Sie in den [FAQs](/help/implement/faq.md) im Benutzerhandbuch zur Implementierung.
+
+>[!IMPORTANT]
+>effektiv **31. Dezember 2023**, beabsichtigt Adobe, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen einzustellen. Zu diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die Reports &amp; Analytics nutzen, entsprechen nicht mehr den Technologiestandards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In diesem Hinweis wird der Prozess zum Ende des Lebenszyklus erläutert.
 
 **Mein Konto wurde gesperrt. Wie kann ich es freischalten?**
 

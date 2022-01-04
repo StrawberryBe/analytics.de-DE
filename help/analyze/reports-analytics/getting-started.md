@@ -4,16 +4,19 @@ title: Erste Schritte mit Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 84%
 
 ---
 
 # Erste Schritte mit Reports &amp; Analytics
 
 Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
+
+>[!IMPORTANT]
+>effektiv **31. Dezember 2023**, beabsichtigt Adobe, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen einzustellen. Zu diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die Reports &amp; Analytics nutzen, entsprechen nicht mehr den Technologiestandards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In diesem Hinweis wird der Prozess zum Ende des Lebenszyklus erläutert.
 
 Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Einige Beispiele für Berichte:
 
@@ -30,9 +33,6 @@ Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanä
 ## Browser- und Systemanforderungen
 
 Browser- und Systemanforderungen zur Anmeldung in der Benutzeroberfläche von Reports &amp; Analytics.
-
->[!NOTE]
->Adobe unterstützt den Internet Explorer 11 in Adobe Analytics seit dem 13. November 2018 nicht mehr. Bitte wechseln Sie so bald wie möglich zu Microsoft Edge oder einem anderen unterstützten Browser.
 
 * Bevorzugte Browser: aktuelle Versionen von Firefox, Chrome, Safari oder Edge.
 * Cookies und JavaScript müssen aktiviert sein.
