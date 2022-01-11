@@ -4,8 +4,8 @@ description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Date
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ In diesem Leitfaden wird erklärt, wie Daten in Analytics importiert werden. Zu 
 
 * **[Data Sources](c-data-sources/datasrc-home.md)**: Zum Hochladen einer Datei auf eine dafür vorgesehene Adobe FTP-Site. Adobe ruft die Datei ab und fügt die Daten zu Ihrer Report Suite hinzu.
 * **[Dateneinfüge-API](c-data-insertion-api/c-data-insertion-api.md)**: Zum Senden von Daten über eine API direkt an die Datenerfassung von Adobe.
-* **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Suchen Sie nach aktuellen Integrationen, die zur Anreicherung Ihrer Adobe Analytics Report Suite verfügbar sind.
+* **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Suchen Sie nach aktuellen Integrationen, die zur Anreicherung Ihrer Adobe Analytics-Report Suite verfügbar sind.
 
 Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 

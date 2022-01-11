@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -44,7 +44,7 @@ Richten Sie vor einem Zugriff auf die Schnittstelle mit Ihrem Kundenbetreuer ode
 
 ## Über die Experience Cloud anmelden
 
-Schritte, die das Anmelden über die Experience Cloud beschreiben.
+Schritte, die das Anmelden über die Adobe Experience Cloud beschreiben.
 
 1. Öffnen Sie auf einem Computer mit Internetverbindung einen Webbrowser.
 1. Öffnen von [!DNL https://login.experiencecloud.adobe.com/].
@@ -80,7 +80,7 @@ Informationen zum Bearbeiten von Benutzerkonten, Zurücksetzen von Benutzerkennw
 
 Sie können Kontaktdaten anzeigen und bearbeiten, ein Kennwort festlegen, Informationen zu Web-Services anzeigen und diesen Computer von der Datenkollektion ausschließen.
 
-Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png)und anschließend auf das Symbol **[!UICONTROL Kontoeinstellungen]** (Rädchensymbol) neben Ihrem Anmeldenamen.
+Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png) und anschließend auf das Symbol **[!UICONTROL Kontoeinstellungen]** (Rädchensymbol) neben Ihrem Anmeldenamen.
 
 Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die folgenden Informationen sind für die Ansicht oder Bearbeitung verfügbar:
 
@@ -101,4 +101,4 @@ In diesen Schritten wird beschrieben, wie Sie die Sprache der Benutzeroberfläch
 Sie können auf die Dokumentation und die entsprechende Startseite über die Adobe Experience Cloud zugreifen. (**[!UICONTROL Hilfe]** > **[!UICONTROL Hilfe-Startseite]**.)
 
 >[!NOTE]
->Dieses Produkt ist zum Verkauf in Nordamerika und anderen Regionen zugelassen, in denen das Produkt tatsächlich verkauft wird. Sie kann die örtlichen Verkaufsanforderungen in anderen Ländern oder Regionen nicht erfüllen.
+>Dieses Produkt ist zum Verkauf in Nordamerika und anderen Regionen zugelassen, in denen das Produkt tatsächlich verkauft wird. Es erfüllt möglicherweise nicht die lokalen Anforderungen für den Verkauf in anderen Ländern oder Regionen.
