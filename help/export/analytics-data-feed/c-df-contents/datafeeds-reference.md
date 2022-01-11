@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `color` | Farbtiefen-ID, basierend auf dem Wert der Spalte `c_color`. Verweist auf die Suchtabelle `color_depth.tsv`. | smallint unsigniert |
 | `connection_type` | Numerische ID, die den Verbindungstyp darstellt. Variable, die in der Dimension [Verbindungstyp](/help/components/dimensions/connection-type.md) verwendet wird. Verweist auf die Suchtabelle `connection_type.tsv` | tinyint unsigniert |
 | `cookies` | Variable, die in der Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) verwendet wird.<br>Y: aktiviert<br>N: deaktiviert<br>U: unbekannt | char(1) |
-| `country` | Numerische ID, die die in der `country.tsv` suchen. Wird im Bericht zu Domänen auf oberster Ebene in Reports &amp; Analytics verwendet. | smallint unsigniert |
+| `country` | Numerische ID, die die bei der Suche in `country.tsv` gefundenen Werte darstellt. Wird im Bericht zu Domains auf oberster Ebene in Reports &amp; Analytics verwendet. | smallint unsigniert |
 | `ct_connect_type` | Verknüpft mit der Spalte `connection_type`. Die häufigsten Werte sind LAN/WLAN, Mobilnetzbetreiber und Modem. | char(20) |
 | `curr_factor` | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet. Für USD werden beispielsweise zwei Dezimalstellen verwendet, sodass der Spaltenwert 2 ist. | tinyint |
 | `curr_rate` | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
@@ -78,9 +78,9 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `first_hit_referrer` | Die allererste verweisende URL des Besuchers. | varchar(255) |
 | `first_hit_time_gmt` | Zeitstempel des allerersten Treffers des Besuchers in Unix-Zeit. | int |
 | `geo_city` | Name der Stadt, aus der der Treffer stammt, basierend auf der IP. Wird in der Dimension [Städte](/help/components/dimensions/cities.md) verwendet. | char(32) |
-| `geo_country` | Abkürzung des Landes, aus dem der Treffer stammt, basierend auf der IP. Wird in der Dimension [Länder](/help/components/dimensions/countries.md) verwendet. | char(4) |
+| `geo_country` | Abkürzung für das Land, aus dem der Treffer stammt, basierend auf der IP. Wird in der Dimension [Länder](/help/components/dimensions/countries.md) verwendet. | char(4) |
 | `geo_dma` | Numerische ID des demografischen Bereichs, aus dem der Treffer stammt, basierend auf der IP. Wird in der Dimension [US DMA](/help/components/dimensions/us-dma.md) verwendet. | int unsigniert |
-| `geo_region` | Name des Bundeslands oder der Region, aus dem/der der Treffer stammt, basierend auf der IP. Wird in der Dimension [Regionen](/help/components/dimensions/regions.md) verwendet. | char(32) |
+| `geo_region` | Name des Bundeslandes oder der Region, aus dem/der der Treffer stammt, basierend auf der IP. Wird in der Dimension [Regionen](/help/components/dimensions/regions.md) verwendet. | char(32) |
 | `geo_zip` | Die Postleitzahl, von der der Treffer stammt, basierend auf der IP. Hilft beim Ausfüllen der Dimension [Postleitzahl](/help/components/dimensions/zip-code.md). Siehe auch `zip`. | varchar(16) |
 | `hier1 - hier5` | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste. Das in den Report Suite-Einstellungen gewählte Trennzeichen. | varchar(255) |
 | `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. Trefferquellen 1, 2 und 6 werden in Rechnung gestellt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social <br>10: Server-seitige Weiterleitung in Audience Manager verwendet | tinyint unsigniert |
