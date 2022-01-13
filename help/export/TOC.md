@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
-source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 98%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 100%
    + [Passiven FTP-Modus verwenden](ftp-and-sftp/ftp-passive.md)
    + [FTP-Verarbeitungszeiten](ftp-and-sftp/ftp-processing.md)
    + Secure File Transfer Protocol {#secure-file-transfer-protocol}
+      + [Aktualisierung der SFTP-Dienste - Häufig gestellte Fragen](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [Secure File Transfer Protocol – Übersicht](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Verbindung zu einem Adobe FTP-Konto mit SFTP herstellen](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [Adobe-Daten an ein externes FTP-Konto mit SFTP senden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
