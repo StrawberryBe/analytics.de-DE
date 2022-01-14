@@ -11,4 +11,4 @@ jobs:
       - name: 'Auto-assign issue'
         uses: pozil/auto-assign-issue@v1.2.0
         with:
-           teams: adobeloc
+           teams: sccm-loc
