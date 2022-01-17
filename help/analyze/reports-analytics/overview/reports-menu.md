@@ -1,23 +1,23 @@
 ---
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
-title: Menü Berichte
+title: 'Menü „Berichte“ '
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Menü Berichte{#reports-menu}
+# Menü „Berichte“ {#reports-menu}
 
 Eine Übersicht zum Menü „Berichte“ in Reports &amp; Analytics.
 
 >[!IMPORTANT]
->effektiv **31. Dezember 2023**, beabsichtigt Adobe, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen einzustellen. Zu diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die Reports &amp; Analytics nutzen, entsprechen nicht mehr den Technologiestandards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In diesem Hinweis wird der Prozess zum Ende des Lebenszyklus erläutert.
+>Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
 
 Das Menü „Berichte“ bietet:
 
@@ -34,7 +34,7 @@ Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten mö
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Weitere Informationen zu einzelnen Berichten finden Sie unter [Dimensionen](/help/components/dimensions/overview.md).
+Details zu individuellen Berichten finden Sie unter [Dimensionen](/help/components/dimensions/overview.md).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud-Lösungsmenü<img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud-Lösungsmenü <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Wenn Sie auf dieses Symbol klicken, wird das Experience Cloud-Menü eingeblendet, über das Sie auf andere Marketing Cloud-Lösungen zugreifen können. </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1">Report Suite-Auswahl <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Hier können Sie <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=de"  >normale Report Suites</a> und <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >Virtual Report Suites</a> auswählen. </td> 
+   <td colname="col2">Hier können Sie <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=de"  >normale Report Suites</a> und <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de"  >Virtual Report Suites</a> auswählen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -127,4 +127,4 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
 
 ## Anpassen des Menüs „Alle Berichte“  {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) in der Admin-Hilfe.
+Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=de) in der Admin-Hilfe.
