@@ -5,9 +5,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
 >[!IMPORTANT]
->effektiv **31. Dezember 2023**, beabsichtigt Adobe, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen einzustellen. Zu diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die Reports &amp; Analytics nutzen, entsprechen nicht mehr den Technologiestandards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In diesem Hinweis wird der Prozess zum Ende des Lebenszyklus erläutert.
+>Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
 
 Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Einige Beispiele für Berichte:
 
@@ -80,7 +80,7 @@ Informationen zum Bearbeiten von Benutzerkonten, Zurücksetzen von Benutzerkennw
 
 Sie können Kontaktdaten anzeigen und bearbeiten, ein Kennwort festlegen, Informationen zu Web-Services anzeigen und diesen Computer von der Datenkollektion ausschließen.
 
-Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png) und anschließend auf das Symbol **[!UICONTROL Kontoeinstellungen]** (Rädchensymbol) neben Ihrem Anmeldenamen.
+Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png) und anschließend auf das Symbol **[!UICONTROL Kontoeinstellungen]** (Rädchensymbol) neben Ihrem Anmeldenamen.
 
 Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die folgenden Informationen sind für die Ansicht oder Bearbeitung verfügbar:
 
