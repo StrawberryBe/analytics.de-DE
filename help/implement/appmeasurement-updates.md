@@ -3,10 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 99%
+source-wordcount: '2267'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 Releasedatum: **11. Januar 2022**
 
-* s.tl() wurde dahingehend korrigiert, dass Objekte mit href-Objekten anstelle von href-Zeichenfolgen korrekt ignoriert werden.
+* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an dieses übergeben wird, eine `href` Attribut des Typs `string`. Wenn es sich nicht um eine `string`, wird die `href` -Attribut anstatt eines Fehlschlagens. Dies kann bei der `svg` -Objekte zum Linktracking-Aufruf.
 
 ## Version 2.22.3
 
