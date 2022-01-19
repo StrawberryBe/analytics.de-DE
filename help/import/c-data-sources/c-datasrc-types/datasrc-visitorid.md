@@ -5,47 +5,46 @@ title: Visitor ID
 topic-fix: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: a7a116ddc9eddc500a52111e9c002bdbee3e4a56
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 81%
 
 ---
 
-# Besucher-ID
+# VisitorID
 
-Besucher-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
+Besucher-IDs können durch Auswahl der [!UICONTROL Callcenter-Daten] Kategorie.
 
 Weitere Informationen finden Sie im Thema über das [Integrieren von Offline-Daten](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
-<p class="head"> <b>Besucher-ID-Dimensionen</b> </p>
+## VisitorID-Dimensionen
 
 | Spaltenname | Beschreibung |
 |--- |--- |
-| Besucher-ID | (Erforderlich) Eindeutiger Wert, der einen Kunden in Online- und Offline-Systemen kennzeichnet. |
-| Datum | Verwenden Sie das folgende Datumsformat: MM/TT/JJJJ/HH/mm/SS (zum Beispiel 07/14/2017/06/00/00) |
-| Trackingcode | Name des Trackingcodes. |
-| Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
-| Kanal | Kanalname. |
-| eVarn | eVarn-Name. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
-| Produkt | Produktname. |
-| Bundesland | Name des Landes. |
-| Zip | Postleitzahl. |
+| [!UICONTROL VisitorID] | (Erforderlich) Eindeutiger Wert, der einen Kunden in Online- und Offline-Systemen kennzeichnet. |
+| [!UICONTROL Datum] | Verwenden Sie das folgende Datumsformat: `MM/DD/YYYY/hh/mm/ss` (z. B. 14.7.2017/06/00/00) |
+| [!UICONTROL Trackingcode] | Name des Trackingcodes. |
+| [!UICONTROL Kategorie] | Name der Kategorie. Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
+| [!UICONTROL Kanal] | Kanalname. |
+| [!UICONTROL eVar ]*n* | Name von eVar *n*. Gültige Werte für *n* sind Ganzzahlen zwischen 1 und 75. |
+| [!UICONTROL Produkt] | Produktname. |
+| [!UICONTROL Bundesland] | Name des Landes. |
+| [!UICONTROL Zip] | Postleitzahl. |
 
-**Besucher-ID-Metriken**
+## Besucher-ID-Metriken
 
 | Spaltenname | Beschreibung |
-|--- |--- |
-| Clickthroughs | Anzahl der Trackingcode-Ansichten. |
-| Hinzufügen zum Einkaufswagen | Anzahl der Zusätze zum Einkaufswagen. |
-| Öffnung des Einkaufswagens | Anzahl der Öffnungen des Einkaufswagens. |
-| Entnahmen aus dem Einkaufswagen | Anzahl der Entnahmen aus dem Einkaufswagen. |
-| Warenkorbansichten | Anzahl der Einkaufswagenansichten. |
-| Checkouts | Anzahl der Kassengänge. |
-| Ereignis n | Häufigkeit, in der Ereignis n eintritt. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
-| eVarn-Ansichten | Häufigkeit, in der eVar n angezeigt wurde. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
-| Preis | Produktpreis. |
-| Bestellungen | Anzahl der aufgegebenen Bestellungen. |
-| Produktansichten | Anzahl der Produktansichten. |
-| Menge | Anzahl der verkauften Einheiten. |
+| --- | --- |
+| [!UICONTROL Clickthroughs] | Anzahl der Trackingcode-Ansichten. |
+| [!UICONTROL Hinzufügen zum Einkaufswagen] | Anzahl der Zusätze zum Einkaufswagen. |
+| [!UICONTROL Öffnung des Einkaufswagens] | Anzahl der Öffnungen des Einkaufswagens. |
+| [!UICONTROL Entnahmen aus dem Einkaufswagen] | Anzahl der Entnahmen aus dem Einkaufswagen. |
+| [!UICONTROL Warenkorbansicht] | Anzahl der Einkaufswagenansichten. |
+| [!UICONTROL Checkouts] | Anzahl der Kassengänge. |
+| *Ereignis n* | Anzahl der geraden *n* aufgetreten. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie eine [!UICONTROL Ansicht] -Ereignis verwenden, müssen Sie auch die entsprechende Datendimension (eVar) angeben. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
+| [!UICONTROL eVar ]*n*-Ansichten | Häufigkeit, in der eVar *n* angezeigt wurde. Gültige Werte für *n* sind Ganzzahlen zwischen 1 und 75. |
+| [!UICONTROL Preis] | Produktpreis. |
+| [!UICONTROL Bestellungen] | Anzahl der aufgegebenen Bestellungen. |
+| [!UICONTROL Produktansichten] | Anzahl der Produktansichten. |
+| [!UICONTROL Menge] | Anzahl der verkauften Einheiten. |
