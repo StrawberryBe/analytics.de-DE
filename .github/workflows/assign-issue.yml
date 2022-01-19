@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Auto-assign issue'
-        uses: pozil/auto-assign-issue@v${{ secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE_VERSION }}
+        uses: pozil/auto-assign-issue@v${{secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE_VERSION}}
         with:
            repo-token: ${{ secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE }}
            teams: sccm-loc
