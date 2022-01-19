@@ -11,7 +11,7 @@ jobs:
       - name: 'Auto-assign issue'
         env:
           VERSION_SUFFIX: ${{ secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE_VERSION }}
-        uses: pozil/auto-assign-issue@v$VERSION_SUFFIX
+        uses: pozil/auto-assign-issue@v${{ env.VERSION_SUFFIX }}
         with:
            repo-token: ${{ secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE_TOKEN }}
            teams: sccm-loc
