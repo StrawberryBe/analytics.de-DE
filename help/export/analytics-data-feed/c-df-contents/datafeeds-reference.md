@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 0884c5a13fba7a22589e2962a4d79f4a6525dd8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `latlon1` | Standort (bis 10 km) | varchar(255) |
 | `latlon23` | Standort (bis 100 m) | varchar(255) |
 | `latlon45` | Standort (bis 1 m) | varchar(255) |
-| `mc_audiences` | Liste der Audience Manager-Segment-IDs, zu denen der Besucher gehört. Die `post_mc_audiences` -Spalte ändert das Trennzeichen in `--**--`. | text |
+| `mc_audiences` | Liste der Segment-IDs von Audience Manager, zu denen der Besucher gehört. Die Spalte `post_mc_audiences` ändert das Trennzeichen in `--**--`. | text |
 | `mcvisid` | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | `mobile_id` | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
 | `mobileaction` | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
@@ -146,7 +146,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mobilerelaunchcampaigntrackingcode` | Erfasst mit der Kontextdatenvariablen `a.launch.campaign.trackingcode`. Wird bei der Akquise als Trackingcode für die Startkampagne verwendet. | varchar(255) |
 | `mobileresolution` | Auflösung des Mobilgeräts. `[Width] x [Height]` in Pixel. | varchar(255) |
 | `monthly_visitor` | Flag, das angibt, dass der Benutzer im aktuellen Monat eindeutig ist. | tinyint unsigniert |
-| `mvvar1` - `mvvar3` | Listenvariablenwerte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die `post_mvvar1` - `post_mvvar3` -Spalten ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
+| `mvvar1` - `mvvar3` | Listenvariablenwerte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
 | `namespace` | Nicht verwendet. Teil einer veralteten Funktion. | varchar(50) |
 | `new_visit` | Ein Flag, das bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe-Servern nach einer 30-minütigen Besuchsinaktivität festgelegt. | tinyint unsigniert |
 | `os` | Numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Verwendet die `os`-Suche. | int unsigniert |
