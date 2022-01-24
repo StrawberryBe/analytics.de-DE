@@ -20,9 +20,9 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 ## Version 2.22.4
 
-Releasedatum: **18. Januar 2022**
+Veröffentlichungsdatum: **18. Januar 2022**
 
-* `s.tl()``href``string` `string``href` `svg`
+* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an dieses übergeben wird, eine `href` Attribut des Typs `string`. Wenn es sich nicht um eine `string`, wird die `href` -Attribut anstatt eines Fehlschlagens. Dies kann bei der `svg` -Objekte zum Linktracking-Aufruf.
 
 ## Version 2.22.3
 
