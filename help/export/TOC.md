@@ -5,9 +5,9 @@ user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Daten-Feeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
 source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 98%
    + [FTP und SFTP mit der Adobe Experience Cloud verwenden](ftp-and-sftp/ftp-overview.md)
    + Von Adobe gehostete FTP-Konten einrichten {#set-up-ftp-accounts}
       + [FTP-Konten einrichten – Übersicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
-      + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
+      + [Klassifizierungen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Datenquellen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Daten-Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
@@ -62,7 +62,7 @@ ht-degree: 98%
    + [Passiven FTP-Modus verwenden](ftp-and-sftp/ftp-passive.md)
    + [FTP-Verarbeitungszeiten](ftp-and-sftp/ftp-processing.md)
    + Secure File Transfer Protocol {#secure-file-transfer-protocol}
-      + [Aktualisierung der SFTP-Dienste - Häufig gestellte Fragen](ftp-and-sftp/c-sftp/sftp-upgrade.md)
+      + [Aktualisierung der SFTP-Services – Häufig gestellte Fragen](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [Secure File Transfer Protocol – Übersicht](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Verbindung zu einem Adobe FTP-Konto mit SFTP herstellen](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [Adobe-Daten an ein externes FTP-Konto mit SFTP senden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
