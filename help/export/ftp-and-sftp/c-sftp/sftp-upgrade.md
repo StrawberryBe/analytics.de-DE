@@ -1,35 +1,35 @@
 ---
-title: Aktualisierung der SFTP-Dienste - Häufig gestellte Fragen
-description: Häufig gestellte Fragen zum geplanten Upgrade der SFTP-Dienste im Mai 2022.
-source-git-commit: eb9bdcbd99d45afc913c5ade37e8fb5c62a3a456
-workflow-type: tm+mt
+title: Aktualisierung der SFTP-Services – Häufig gestellte Fragen
+description: Häufig gestellte Fragen zur geplanten Aktualisierung der SFTP-Services im Mai 2022.
+exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
+source-git-commit: d78f711e8beeb7a194c642103472417c7bc897d4
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
+# Aktualisierung der SFTP-Services – Häufig gestellte Fragen
 
-# Aktualisierung der SFTP-Dienste - Häufig gestellte Fragen
+Am **2. Mai 2022** werden in Adobe Analytics die [SFTP]-Service (Secure File Transfer Protocol) zur Verbesserung der Sicherheit für Dateiübertragungen aktualisiert. Mit dieser Änderung werden einige SFTP-Client-Konfigurationen nicht mehr unterstützt. Wir werden auch einige Verbindungsoptionen hinzufügen, die am **1. März 2022** verfügbar sein werden. Dies wirkt sich nur auf Daten aus, die über SFTP an Adobe Analytics gesendet oder von dort aus abgerufen werden. Das FTP-Protokoll ist davon nicht betroffen. Um Service-Unterbrechungen zu vermeiden, stellen Sie sicher, dass Ihre SFTP-Clients (Code, Tools, Services) den unten beschriebenen Änderungen entsprechen.
 
-on **2. Mai 2022**, aktualisiert Adobe Analytics sein Secure File Transfer Protocol [SFTP] Dienste zur Verbesserung der Sicherheit für Dateiübertragungen. Mit dieser Änderung werden einige SFTP-Client-Konfigurationen nicht mehr unterstützt. Wir werden auch einige Verbindungsoptionen hinzufügen, die verfügbar sind von **1. März 2022**. Dies wirkt sich nur auf Daten aus, die über SFTP an Adobe Analytics gesendet oder aus abgerufen werden. Das FTP-Protokoll ist davon nicht betroffen. Um Dienstunterbrechungen zu vermeiden, stellen Sie bitte sicher, dass Ihre SFTP-Clients (Code, Tools, Dienste) den unten beschriebenen Änderungen entsprechen.
-
-## Wie kann ich feststellen, welche Algorithmen, Verbindungstypen und Protokolle derzeit von meinem Unternehmen verwendet werden?
+## Wie kann ich feststellen, welche Algorithmen, Verbindungstypen und Protokolle derzeit von meiner Organisation verwendet werden?
 
 Die FTP-/SFTP-Software, die Sie verwenden, sollte angeben, welche spezifischen Einstellungen in den Verbindungen verwendet werden, die Sie für den Datenaustausch mit Adobe Analytics konfiguriert haben. Diese Software sollte auch eine Dokumentation zu den verschiedenen verfügbaren Optionen für Verbindungen enthalten. Die Optionen, die nach dieser Aktualisierung unterstützt werden, werden in der Branche weithin unterstützt und akzeptiert.
 
-## Welche Adobe Analytics-Funktionen verwenden SFTP für die Datenerfassung?
+## Welche Adobe Analytics-Funktionen verwenden SFTP für die Datenaufnahme?
 
 Die folgenden Funktionen bieten eine Option zum Hochladen von Daten in Adobe Analytics mithilfe von SFTP.
 
-* [Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)
+* [Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=de)
 
-* [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html)
+* [Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=de)
 
-* [Datenquellen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html)
+* [Datenquellen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=de)
 
-* [Von Data Warehouse bereitgestellte Berichte](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html)
+* [Von Data Warehouse bereitgestellte Berichte](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=de)
 
-* Darüber hinaus werden einige benutzerdefinierte Implementierungen durch erstellt. [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html) kann SFTP verwenden, um Daten mit Adobe auszutauschen.
+* Darüber hinaus können einige benutzerdefinierte Implementierungen, die durch [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=de) erstellt wurden, SFTP zum Datenaustausch mit Adobe verwenden.
 
 ## Welche spezifischen Änderungen werden in dieser Aktualisierung enthalten sein?
 
@@ -37,15 +37,15 @@ Nachstehend finden Sie eine detaillierte Liste, welche Verbindungen und Algorith
 
 * SFTP-Protokoll mac-Algorithmen:
 
-   * Wir werden Folgendes nicht mehr unterstützen: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
+   * Wir werden die folgenden nicht mehr unterstützen: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
 
-   * Wir werden nur Folgendes unterstützen: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
+   * Wir werden nur die folgenden unterstützen: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
 
-* SFTP-Protokollskriptalgorithmus:
+* Algorithmus zur Verschlüsselung des SFTP-Protokolls:
 
-   * Wir werden Folgendes nicht mehr unterstützen: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
+   * Wir werden die folgenden nicht mehr unterstützen: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
 
-   * Wir werden nur Folgendes unterstützen: aes128-ctr, aes192-ctr, aes256-ctr
+   * Wir werden nur die folgenden unterstützen: aes128-ctr, aes192-ctr, aes256-ctr
 
 * Vom SFTP-Protokoll unterstützte Verbindungen:
 
@@ -53,8 +53,8 @@ Nachstehend finden Sie eine detaillierte Liste, welche Verbindungen und Algorith
 
    * Wir unterstützen nur reine SFTP-Protokollverbindungen
 
-* Unterstützte FTP-/SFTP-Clients/Protokolle:
+* Unterstützte FTP-/SFTP-Clients/-Protokolle:
 
-   * FTP: vsftpd-Version 3.0.2-25 oder höher
+   * FTP: vsftpd Version 3.0.2-25 oder höher
 
    * SFTP: openssh Version 7.4p1-21 oder höher
