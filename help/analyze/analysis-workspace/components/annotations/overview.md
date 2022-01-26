@@ -1,35 +1,38 @@
 ---
 title: Anmerkungen – Übersicht
-description: How to use annotations in Workspace.
+description: Verwendung von Anmerkungen in Workspace.
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '138'
+ht-degree: 3%
 
 ---
 
 # Anmerkungen – Übersicht
 
-Annotations enable you to effectively communicate data nuances and insights about your data to your organization. [!DNL Reports & Analytics]
+>[!NOTE]
+>
+>Diese Funktion wird derzeit nur eingeschränkt getestet.
+
+Mit Anmerkungen können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv kommunizieren. Mit Anmerkungen können Sie Kalenderereignisse mit bestimmten Dimensionen/Metriken verknüpfen. Sie können Ereignisse grafisch darstellen und sehen, ob Kampagnen oder andere Ereignisse den Traffic, den Umsatz oder eine andere Metrik auf Ihrer Site beeinflusst haben. Zuvor als [!UICONTROL Kalenderereignisse] in [!DNL Reports & Analytics]können Sie ein Datum für Datenprobleme, Feiertage, Kampagnenstarts usw. kommentieren.
 
 ## Sichtbarkeit
 
-Annotations are visible in a variety of ways:
+Anmerkungen sind auf verschiedene Weise sichtbar:
 
-* Insert line viz image>
+* Einfügen einer Linie in Bild>
 
-* Insert freeform table
+* Freiformtabelle einfügen
 
-* Insert PDF
+* PDF einfügen
 
+## Aktivieren oder Deaktivieren von Anmerkungen
 
-## Turn annotations on or off
+Anmerkungen können an einigen Stellen aktiviert oder deaktiviert werden:
 
-Annotations can be turned on or off in a few places:
+* Visualisierungsebene: Visualisierungseinstellungen > Anmerkungen anzeigen
 
-* Visualization level: Visualization settings > Show annotations
+* Projektebene: Projektinfo und Einstellungen > Anmerkungen anzeigen
 
-* Project level: Project info &amp; settings > Show annotations
-
-* User level: Components > User preferences > Data > Show annotations
+* Benutzerebene: Komponenten > Benutzereinstellungen > Daten > Anmerkungen anzeigen

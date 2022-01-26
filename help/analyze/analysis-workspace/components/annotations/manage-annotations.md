@@ -2,15 +2,19 @@
 title: Anmerkungen verwalten
 description: Verwalten von Anmerkungen in Workspace.
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 11%
 
 ---
 
 
 # Anmerkungen verwalten
+
+>[!NOTE]
+>
+>Diese Funktion wird derzeit nur eingeschränkt getestet.
 
 Die [!UICONTROL Komponenten] > [!UICONTROL Anmerkungen] manager bietet viele Möglichkeiten zum Verwalten von Anmerkungen, z. B. das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
 
@@ -22,5 +26,12 @@ Die [!UICONTROL Anmerkungen] manager zeigt Ihnen alle Anmerkungen an, die Ihnen 
 
 ## Benutzeroberfläche von Annotations Manager
 
-Bild einfügen
+| UI-Element | Beschreibung |
+| --- | --- | 
+| Titel und Beschreibung |  |
+| Report Suite |  |
+| Verantwortlicher |  |
+| Angewandter Datumsbereich |  |
+| Freigegeben für |  |
+| Änderungsdatum |  |
 
