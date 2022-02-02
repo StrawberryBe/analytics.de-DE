@@ -2,13 +2,13 @@
 description: Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die in Analysis Workspace verfügbar sind.
 keywords: Analysis Workspace
 title: Hotkeys (Tastaturbefehle)
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -40,6 +40,7 @@ Hinweis:
 | --- | --- |
 | Linke Leiste durchsuchen | Strg + / |
 | Erstellen eines Warnhinweises | Strg+Umsch+A |
+| Erstellen von Anmerkungen | STRG + UMSCHALT + O |
 | Berechnete Metrik erstellen | Strg + Umsch + C |
 | Datumsbereich erstellen | Strg + Umsch + D |
 | Segment erstellen | Strg + Umsch + E |

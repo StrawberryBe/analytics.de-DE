@@ -2,10 +2,10 @@
 title: Produktprofilberechtigungen für Analytics-Werkzeuge
 description: Verwenden Sie die Berechtigungselemente der Analytics-Werkzeuge, um Zugriff auf Funktionen in Adobe Analytics zu gewähren.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,6 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | [!UICONTROL Erstellung von Segmenten] | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | [!UICONTROL Advertising Analytics-Verwaltung] | Nicht verwendet. |
 | [!UICONTROL Segmentveröffentlichung] | Gewährt die Möglichkeit, ein Segment beim Erstellen oder Bearbeiten zu einer Experience Cloud-Zielgruppe zu machen. |
-| [!UICONTROL Integrationen (Erstellen)] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
-| [!UICONTROL Integrationen (Aktualisieren)] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Ändern vorhandener Connector-Konfigurationen. |
-| [!UICONTROL Integrationen (Löschen)] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Löschen von Data Connectors. |
+| [!UICONTROL Integrationen (Erstellen)] | Nicht verwendet. Data Connectors wurden eingestellt. |
+| [!UICONTROL Integrationen (Aktualisieren)] | Nicht verwendet. |
+| [!UICONTROL Integrationen (Löschen)] | Nicht verwendet. |

@@ -3,9 +3,9 @@ title: Anmerkungen – Übersicht
 description: Verwendung von Anmerkungen in Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: ba7a3193ef01f5865300554ed0ebb610146ebc5a
+source-git-commit: fe918ca35a8e28aaf77c165f5ea3ca80964a4b3b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
@@ -16,24 +16,51 @@ ht-degree: 3%
 >
 >Diese Funktion wird derzeit nur eingeschränkt getestet.
 
-Mit Anmerkungen können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv kommunizieren. Mit Anmerkungen können Sie Kalenderereignisse mit bestimmten Dimensionen/Metriken verknüpfen. Sie können Ereignisse grafisch darstellen und sehen, ob Kampagnen oder andere Ereignisse den Traffic, den Umsatz oder eine andere Metrik auf Ihrer Site beeinflusst haben. Zuvor als [!UICONTROL Kalenderereignisse] in [!DNL Reports & Analytics]können Sie ein Datum für Datenprobleme, Feiertage, Kampagnenstarts usw. kommentieren.
+Mit Anmerkungen können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv kommunizieren. Damit können Sie Kalenderereignisse mit bestimmten Dimensionen/Metriken verknüpfen. Sie können einen Datumsbereich oder einen Datumsbereich für Datenprobleme, Feiertage, Kampagnenstarts usw. mit Anmerkungen versehen. Anschließend können Sie Ereignisse grafisch darstellen und sehen, ob Kampagnen oder andere Ereignisse den Traffic, den Umsatz oder eine andere Metrik auf Ihrer Site beeinflusst haben.
 
-## Sichtbarkeit
+Angenommen, Sie teilen Projekte, die Sie für Ihre Organisation erstellt haben. Sie bemerken einen Rückgang oder eine Spitze bei Traffic- oder anderen Daten und binden eine Anmerkung an die betroffenen Metriken, Dimensionen oder Segmente. Diese Anmerkungen werden dann in einer Tabelle oder einer Linienvisualisierung angezeigt und bieten Datenkontext für Sie und die Verbraucher Ihrer Workspace-Projekte.
 
-Sie können Anmerkungen auf verschiedene Weise anzeigen:
+* Anmerkungen können an ein einzelnes Datum oder einen Datumsbereich gebunden werden.
 
-* Einfügen einer Linie in Bild>
+* Sie können auf Ihren gesamten Datensatz oder auf bestimmte Metriken, Dimensionen oder Segmente angewendet werden.
 
-* Freiformtabelle einfügen
+* Sie können auf das Projekt, in dem sie erstellt wurden (Standard) oder auf alle Projekte angewendet werden.
 
-* PDF einfügen
+* Sie können auf die Report Suite angewendet werden, in der sie erstellt wurden (Standard), oder auf alle Report Suites.
+
+## Zugriffsberechtigung
+
+Standardmäßig können nur Administratoren Anmerkungen erstellen. Benutzer haben die Berechtigung, Anmerkungen anzuzeigen, wie dies bei anderen Analytics-Komponenten der Fall ist (z. B. Segmente, berechnete Metriken usw.).
+
+Administratoren können jedoch die [!UICONTROL Erstellung von Anmerkungen] -Berechtigung (Analytics-Tools) für Benutzer über die [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
+
+## Anzeigen von Anmerkungen
+
+Sie können Anmerkungen auf verschiedene Weise anzeigen: as a [!UICONTROL Linie] Visualisierung (da es sich um Trenddaten handelt) als [!UICONTROL Freiform] Tabelle, [!UICONTROL Balken] oder in einer exportierten .pdf -Datei.
+
+### Linienvisualisierung
+
+zu folgen
+
+### Freiformtabelle
+
+zu folgen
+
+### Balkendiagramm
+
+zu folgen
+
+### PDF-Datei
+
+zu folgen
 
 ## Aktivieren oder Deaktivieren von Anmerkungen
 
-Anmerkungen können an einigen Stellen aktiviert oder deaktiviert werden:
+Anmerkungen können auf verschiedenen Ebenen aktiviert oder deaktiviert werden:
 
-* Visualisierungsebene: Visualisierungseinstellungen > Anmerkungen anzeigen
+* Auf Visualisierungsebene: [!UICONTROL Visualisierung] Einstellungen > [!UICONTROL Anmerkungen anzeigen]
 
-* Projektebene: Projektinfo und Einstellungen > Anmerkungen anzeigen
+* Auf Projektebene: [!UICONTROL Projektinfo und Einstellungen] > [!UICONTROL Anmerkungen anzeigen]
 
-* Benutzerebene: Komponenten > Benutzereinstellungen > Daten > Anmerkungen anzeigen
+* Auf Benutzerebene: [!UICONTROL Komponenten] > [!UICONTROL Benutzereinstellungen] > [!UICONTROL Daten] > [!UICONTROL Anmerkungen anzeigen]
+
