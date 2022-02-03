@@ -2,15 +2,19 @@
 title: Anzeigen von Anmerkungen
 description: Anzeigen von Anmerkungen in Workspace.
 role: User, Admin
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '133'
 ht-degree: 5%
 
 ---
 
 
 # Anzeigen von Anmerkungen
+
+>[!NOTE]
+>
+>Diese Funktion wird derzeit nur eingeschränkt getestet.
 
 Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen Datumsbereich erstrecken, etwas unterschiedlich angezeigt.
 
