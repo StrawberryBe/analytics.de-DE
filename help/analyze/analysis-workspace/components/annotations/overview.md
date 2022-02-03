@@ -3,10 +3,10 @@ title: Anmerkungen – Übersicht
 description: Verwendung von Anmerkungen in Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: fe918ca35a8e28aaf77c165f5ea3ca80964a4b3b
+source-git-commit: 0516696ee9d51ac843c659390ae99d8337812cbb
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 3%
+source-wordcount: '354'
+ht-degree: 4%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 3%
 Mit Anmerkungen können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv kommunizieren. Damit können Sie Kalenderereignisse mit bestimmten Dimensionen/Metriken verknüpfen. Sie können einen Datumsbereich oder einen Datumsbereich für Datenprobleme, Feiertage, Kampagnenstarts usw. mit Anmerkungen versehen. Anschließend können Sie Ereignisse grafisch darstellen und sehen, ob Kampagnen oder andere Ereignisse den Traffic, den Umsatz oder eine andere Metrik auf Ihrer Site beeinflusst haben.
 
 Angenommen, Sie teilen Projekte, die Sie für Ihre Organisation erstellt haben. Sie bemerken einen Rückgang oder eine Spitze bei Traffic- oder anderen Daten und binden eine Anmerkung an die betroffenen Metriken, Dimensionen oder Segmente. Diese Anmerkungen werden dann in einer Tabelle oder einer Linienvisualisierung angezeigt und bieten Datenkontext für Sie und die Verbraucher Ihrer Workspace-Projekte.
+
+Beachten Sie:
 
 * Anmerkungen können an ein einzelnes Datum oder einen Datumsbereich gebunden werden.
 
