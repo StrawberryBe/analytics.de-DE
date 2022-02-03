@@ -2,10 +2,10 @@
 title: Anmerkungen verwalten
 description: Verwalten von Anmerkungen in Workspace.
 role: User, Admin
-source-git-commit: c4ffa987cd652b3e8f36fadf61ee6a395365fda0
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 18%
 
 ---
 
@@ -47,23 +47,18 @@ Die Bearbeitung einer Anmerkung bedeutet, dass Sie Datumsbereiche, Farben, Umfan
 
 Beide dieser Optionen landen im Anmerkungs-Builder zurück. Dort können Sie die erforderlichen Anpassungen vornehmen und die neue Version speichern.
 
-## Freigeben von Anmerkungen
+## Sonstige Anmerkungsaufgaben
 
-![](assets/share-ann.png)
+Mit dem Anmerkungs-Manager können Administratoren Anmerkungen bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Er ist für Nicht-Admin-Benutzer nicht sichtbar.
 
-1. Wählen Sie die Anmerkungen aus, die Sie freigeben möchten, und klicken Sie auf [!UICONTROL Freigeben].
+Wählen Sie einfach eine oder mehrere der Anmerkungen aus und die Taskleiste wird angezeigt.
 
-1. Im [!UICONTROL Komponente freigeben] -Dialogfeld die Personen oder Gruppen durchsuchen, für die Sie die Anmerkungen freigeben möchten.
-
-1. under [!UICONTROL Einrichtung], ....
-
-1. Klicken Sie auf [!UICONTROL Speichern].
-
-## Anmerkungen taggen
-
-Gehen Sie wie folgt vor
-
-
-
-
-
+| Aufgabe | Beschreibung |
+| --- | --- |
+| Fügen Sie | Sie gelangen zum Generator für Anmerkungen , in dem Sie neue Anmerkungen erstellen können. |
+| Tag | Alle Benutzer können Tags für Anmerkungen erstellen und einen oder mehrere Tags auf eine Anmerkung anwenden. Sie sehen Tags jedoch nur für die Segmente, deren Inhaber Sie sind. Welche Arten von Tags sollten Sie erstellen? Hier finden Sie einige Vorschläge für nützliche Tags:<ul><li>Auf Teamnamen basierende Tags wie Social Marketing, Mobile Marketing</li><li>Projekt-Tags (Analyse-Tags) wie Entrypage-Analyse</li><li>Kategorie-Tags: Männer, Region</li><li>Arbeitsablauf-Tags: Kuratiert für (einen bestimmten Geschäftsbereich), Genehmigt</li></ul> |
+| Löschen | Durch das Löschen einer Anmerkung wird sie aus jedem Projekt in Ihrer Organisation entfernt. |
+| Umbenennen | Beim Umbenennen einer Anmerkung wird sie in allen Projekten, auf die sie angewendet wurde, umbenannt. |
+| Kopieren | Erstellt eine eindeutige Kopie mit einer eigenen Anmerkungs-ID, jedoch mit demselben Namen und derselben Definition. |
+| In CSV exportieren | Exportieren Sie die Anmerkungsdefinition in eine CSV-Datei. |
+| Filter (linke Leiste) | Filtern Sie nach Tags, Report Suite, Inhabern und anderen Filtern (Meine, Genehmigt, Favoriten, Für mich freigegeben und Alle anzeigen). |
