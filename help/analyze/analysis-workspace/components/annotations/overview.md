@@ -3,10 +3,10 @@ title: Anmerkungen – Übersicht
 description: Verwendung von Anmerkungen in Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -36,26 +36,6 @@ Standardmäßig können nur Administratoren Anmerkungen erstellen. Benutzer habe
 
 Administratoren können jedoch die [!UICONTROL Erstellung von Anmerkungen] -Berechtigung (Analytics-Tools) für Benutzer über die [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
 
-## Anzeigen von Anmerkungen
-
-Sie können Anmerkungen auf verschiedene Weise anzeigen: in [!UICONTROL Linie] Visualisierung (da es sich um Trenddaten handelt) in einer [!UICONTROL Freiform] Tabelle, [!UICONTROL Balken] oder in einer exportierten .pdf -Datei.
-
-### Linienvisualisierung
-
-zu folgen
-
-### Freiformtabelle
-
-zu folgen
-
-### Balkendiagramm
-
-zu folgen
-
-### PDF-Datei
-
-zu folgen
-
 ## Aktivieren oder Deaktivieren von Anmerkungen
 
 Anmerkungen können auf verschiedenen Ebenen aktiviert oder deaktiviert werden:
@@ -66,3 +46,6 @@ Anmerkungen können auf verschiedenen Ebenen aktiviert oder deaktiviert werden:
 
 * Auf Benutzerebene: [!UICONTROL Komponenten] > [!UICONTROL Benutzereinstellungen] > [!UICONTROL Daten] > [!UICONTROL Anmerkungen anzeigen]
 
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)
