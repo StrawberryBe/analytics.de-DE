@@ -1,29 +1,29 @@
 ---
 description: Besucher-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
 subtopic: Data sources
-title: Visitor ID
+title: Besucher-ID
 topic-fix: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
 source-git-commit: a7a116ddc9eddc500a52111e9c002bdbee3e4a56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # VisitorID
 
-Besucher-IDs können durch Auswahl der [!UICONTROL Callcenter-Daten] Kategorie.
+Besucher-IDs können integriert werden, indem die Kategorie [!UICONTROL Call-Center-Daten] ausgewählt wird.
 
 Weitere Informationen finden Sie im Thema über das [Integrieren von Offline-Daten](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
-## VisitorID-Dimensionen
+## VisitorID-Abmessungen
 
 | Spaltenname | Beschreibung |
 |--- |--- |
 | [!UICONTROL VisitorID] | (Erforderlich) Eindeutiger Wert, der einen Kunden in Online- und Offline-Systemen kennzeichnet. |
-| [!UICONTROL Datum] | Verwenden Sie das folgende Datumsformat: `MM/DD/YYYY/hh/mm/ss` (z. B. 14.7.2017/06/00/00) |
+| [!UICONTROL Datum] | Verwenden Sie das folgende Datumsformat: `MM/DD/YYYY/hh/mm/ss` (z. B. 14.07.2017/06.00.00) |
 | [!UICONTROL Trackingcode] | Name des Trackingcodes. |
 | [!UICONTROL Kategorie] | Name der Kategorie. Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
 | [!UICONTROL Kanal] | Kanalname. |
@@ -42,7 +42,7 @@ Weitere Informationen finden Sie im Thema über das [Integrieren von Offline-Dat
 | [!UICONTROL Entnahmen aus dem Einkaufswagen] | Anzahl der Entnahmen aus dem Einkaufswagen. |
 | [!UICONTROL Warenkorbansicht] | Anzahl der Einkaufswagenansichten. |
 | [!UICONTROL Checkouts] | Anzahl der Kassengänge. |
-| *Ereignis n* | Anzahl der geraden *n* aufgetreten. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie eine [!UICONTROL Ansicht] -Ereignis verwenden, müssen Sie auch die entsprechende Datendimension (eVar) angeben. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
+| [!UICONTROL Ereignis ]*n* | Häufigkeit, in der Ereignis *n* eintritt. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie ein [!UICONTROL Ansicht]ereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
 | [!UICONTROL eVar ]*n*-Ansichten | Häufigkeit, in der eVar *n* angezeigt wurde. Gültige Werte für *n* sind Ganzzahlen zwischen 1 und 75. |
 | [!UICONTROL Preis] | Produktpreis. |
 | [!UICONTROL Bestellungen] | Anzahl der aufgegebenen Bestellungen. |
