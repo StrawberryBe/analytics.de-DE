@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ Auf jede Aufschlüsselung innerhalb einer Tabelle kann auch ein beliebiges Attri
 
 ![Aufschlüsselungseinstellungen](assets/breakdown_settings.png)
 
-Dies ist das erwartete Verhalten beim Anwenden von Attributionsmodellen auf Aufschlüsselungen oder deren Bearbeitung:
+Dies ist das erwartete Verhalten, wenn Attributionsmodelle auf Aufschlüsselungen angewendet oder bearbeitet werden:
 
-* Wenn Sie eine Attribution anwenden, wenn keine anderen Attribute vorhanden sind, gilt die Attribution für die gesamte Spaltenstruktur.
+* Wenn Sie eine Zuordnung anwenden, wenn keine anderen Zuordnungen vorhanden sind, gilt die Zuordnung für die gesamte Spaltenstruktur.
 
-* Wenn Sie eine Aufschlüsselung hinzufügen, nachdem eine Attribution angewendet wurde, wird für die hinzugefügte Aufschlüsselung der Standardwert verwendet, sofern diese Dimension über einen Standardwert verfügt. Andernfalls wird die Aufschlüsselung aus der übergeordneten Spalte verwendet. Einige Dimensionen haben eine Standardzuordnung.  Beispiel: [!UICONTROL Zeit] Dimensionen und [!UICONTROL Referrer] use [!UICONTROL Selber Kontakt]. Die [!UICONTROL Produkt] Dimensionsverwendungen [!UICONTROL Letztkontakt]. Andere Dimensionen haben keine Standardeinstellung und verwenden die Zuordnung der übergeordneten Spalte.
+* Wenn Sie eine Aufschlüsselung hinzufügen, nachdem eine Attribution angewendet wurde, wird der Standardwert für die angegebene Aufschlüsselung verwendet, die hinzugefügt wurde, wenn diese Dimension einen Standardwert hat. Andernfalls wird die Aufschlüsselung aus der übergeordneten Spalte verwendet. Einige Dimensionen haben eine Standardzuweisung.  Zum Beispiel verwenden [!UICONTROL Time] Dimensionen und [!UICONTROL Referrer] [!UICONTROL Same Touch]. Die Dimension [!UICONTROL Produkt] verwendet [!UICONTROL Letzte Berührung]. Andere Dimensionen haben keinen Standardwert und verwenden die Zuordnung der übergeordneten Spalte.
 
-* Wenn sich bereits Attribute in der Spaltenstruktur befinden, wirkt sich eine Änderung der Attribution nur auf die Zuordnung aus, die Sie bearbeiten.
+* Wenn im Spaltenbaum bereits Zuordnungen vorhanden sind, wirkt sich eine Änderung der Zuordnung nur auf diejenige aus, die Sie gerade bearbeiten.
 
 ## Videos
 
