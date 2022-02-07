@@ -1,15 +1,19 @@
 ---
 title: Aktuelle Adobe Analytics-Versionshinweise anzeigen
 description: Neueste Analytics-Versionshinweise
-source-git-commit: f8c2d98e49ead838781b175aa9f22712d6802a9d
+source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
 
 
 # Neueste Adobe Analytics-Versionshinweise
+
+**Januar 2022**
+
+Erfahren Sie mehr über die neuesten Versions-Updates für [Adobe Experience Cloud-Produkte](https://business.adobe.com/de/products/adobe-experience-cloud-products.html). Hier finden Sie die aktuelle Dokumentation, Tutorials und Kurse zu Experience League.
 
 ## Neue Funktionen in Adobe Analytics {#aa-features}
 
