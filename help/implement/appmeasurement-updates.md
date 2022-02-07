@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 Veröffentlichungsdatum: **18. Januar 2022**
 
-* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an dieses übergeben wird, eine `href` Attribut des Typs `string`. Wenn es sich nicht um eine `string`, wird die `href` -Attribut anstatt eines Fehlschlagens. Dies kann bei der `svg` -Objekte zum Linktracking-Aufruf.
+* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an diesen übergeben wird, ein `href`-Attribut des Typs `string` enthält. Wenn es kein `string` ist, wird das `href`-Attribut einfach ignoriert, anstatt fehlzuschlagen. Dies kann passieren, wenn `svg`-Objekte an den Linktracking-Aufruf übergeben werden.
 
 ## Version 2.22.3
 
