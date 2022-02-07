@@ -4,9 +4,9 @@ title: Vollständige Verarbeitung
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung. Die vollständige Verarbeitung von Datenquellen wurde von Adobe am 31. Januar 2022 eingestellt. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe empfiehlt Ihnen, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=de) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Adobe hat Datenquellen mit vollständiger Verarbeitung am 31. Januar 2022 als veraltet markiert. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 
@@ -42,7 +42,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>Kampagne </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>Konversion-Kampagnen-Trackingcode. </p> </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95"</code>). Kann einen Höchstwert von 4096 Byte pro Zeile enthalten.</p> </td> 
+   <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95"</code>). Kann einen maximalen Wert von 4096 Byte pro Zeile aufnehmen.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
@@ -171,7 +171,7 @@ Die folgende Tabelle enthält Traffic-Variablen, die automatisch ausgefüllt wer
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. </p> <p>Eine vollständige Liste finden Sie im Whitepaper <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Multi-Byte Character Sets</a> (Internationalisierung). </p> </td> 
+   <td colname="col2"> <p>Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. </p> <p>Eine vollständige Liste finden Sie im Whitepaper <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=de"  >Multi-Byte Character Sets</a> (Internationalisierung). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
