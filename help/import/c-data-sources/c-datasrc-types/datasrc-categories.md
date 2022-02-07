@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 91%
 
 Mithilfe von Datenquellen-Kategorien werden die unterschiedlichen Datenquellen-Typen identifiziert, die ähnliche Funktionen bieten.
 
-Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu gruppieren. Beim Erstellen einer Datenquelle über die [!DNL Data Sources] Wählen Sie zuerst eine Datenquellen-Kategorie und dann einen bestimmten Datenquellen-Typ aus. Jede Kategorie enthält Datenquellen-Typen, die ähnliche Datentypen unterstützen. [!DNL Data Sources] stellt die folgenden Datenquellenkategorien bereit:
+Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu gruppieren. Wählen Sie beim Erstellen einer Datenquelle über die [!DNL Data Sources]-Benutzeroberfläche zuerst eine Datenquellenkategorie und dann einen bestimmten Datenquellentyp aus. Jede Kategorie enthält Datenquellen-Typen, die ähnliche Datentypen unterstützen. [!DNL Data Sources] bietet die folgenden Datenquellenkategorien:
 
 ## Website-Gebrauch {#web-usage}
 
 | Datenquelle | Verarbeitungstyp | Beschreibung |
 | --- | --- | --- |
 | [!UICONTROL Webserver-Protokolldateien] | [Webprotokoll](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md) | Die meisten Webserver generieren Protokolldateien, die jede Seite in ihrem Versorgungsnetz aufzeichnen. Mithilfe dieser Datenquelle können Sie die Protokolldateien der meisten Webserver-Daten verarbeiten und diese Daten zu Ihren Berichten hinzufügen. |
-| [!UICONTROL Massen-Upload in Advertising Cloud] | [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Bietet manuelle und Excel-automatisierte Massen-Uploads in [!DNL Advertising Cloud]. |
-| [!UICONTROL Traffic-Datenquelle auf Site-Ebene] | [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importiert Traffic-Daten für Ihre gesamte Website. Beispiel: [!UICONTROL Seitenansichten]. |
-| [!UICONTROL Unterteilte Traffic-Datenquelle] | [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importiert Traffic-Daten, die durch eine andere Website-Variable unterteilt werden. Beispiel: [!UICONTROL Seitenansichten] aufgeschlüsselt nach [!UICONTROL Produkt]. |
+| [!UICONTROL Massen-Upload in Advertising Cloud] | [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Ermöglicht den manuellen und von Excel automatisierten Massen-Upload in [!DNL Advertising Cloud]. |
+| [!UICONTROL Traffic-Datenquelle auf Site-Ebene] | [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importiert Traffic-Daten für Ihre gesamte Website. Zum Beispiel [!UICONTROL Seitenansichten]. |
+| [!UICONTROL Unterteilte Traffic-Datenquelle] | [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importiert Traffic-Daten, die durch eine andere Website-Variable unterteilt werden. Beispiel: [!UICONTROL Seitenaufrufe] aufgeschlüsselt nach [!UICONTROL Produkt]. |
 
 ## Werbekampagnen   {#ad-campaigns}
 
@@ -39,7 +39,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu g
 
 | Datenquelle | Verarbeitungstyp | Beschreibung |
 | --- | --- | --- |
-| [!UICONTROL Allgemeine Telefonzentrale] | [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Ermöglicht Ihnen die Integration von Informationen zu Ihrer Telefonzentrale (Call Center) in Marketingberichte. Zu den häufiger importierten Metriken zählen die Anzahl der Anrufe, die Gesprächszeit, der Agent und der Gesamtumsatz.  Dies ist die generische Anrufzentrale-Datenquelle, die verwendet werden sollte, wenn Ihre spezifische Call-Center-Software nicht unterstützt wird. |
+| [!UICONTROL Allgemeines Callcenter] | [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Ermöglicht Ihnen die Integration von Informationen zu Ihrer Telefonzentrale (Call Center) in Marketingberichte. Zu den häufiger importierten Metriken zählen die Anzahl der Anrufe, die Gesprächszeit, der Agent und der Gesamtumsatz.  Dies ist die generische Anrufzentrale-Datenquelle, die verwendet werden sollte, wenn Ihre spezifische Call-Center-Software nicht unterstützt wird. |
 | [!UICONTROL Allgemeine Kundensupportanwendung] | [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Ermöglicht Ihnen die Integration von Informationen aus Ihrer Kundensupport-Software in Marketingberichte. Diese enthält Metriken wie die Anzahl der neuen Fälle, die Anzahl der gelösten Fälle und den Zeitaufwand zur Lösung der Fälle.  Dies ist die generische Kundensupport-Datenquelle, die verwendet werden sollte, wenn Ihre spezifische Kundenservice-Anwendung nicht unterstützt wird. |
 
 ## Kundenzufriedenheit   {#csat}
@@ -59,8 +59,8 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu g
 | Datenquelle | Verarbeitungstyp | Beschreibung |
 | --- | --- | --- |
 | [!UICONTROL Generische Datenquelle (nur Zusammenfassungsdaten)] | [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Verwenden Sie diese Datenquelle, wenn es keine bessere Entsprechung für den Datentyp gibt, den Sie in Marketing Reports &amp; Analysen importieren möchten. |
-| [!UICONTROL Generische Datenquelle (volle Verarbeitung)] | Vollständige Verarbeitung | Die vollständige Verarbeitung von Datenquellen wurde von Adobe am 31. Januar 2022 eingestellt. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe empfiehlt, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstatt. |
-| [!UICONTROL Generische Datenquelle (Transaktions-ID)] | <ul><li>Transaktions-ID</li><li>Besucher-ID</li></ul> | Ermöglicht es Ihnen, ein Offline-Ereignis mit einem Online-Ereignis zu verbinden. Die [!UICONTROL Transaktions-ID] fungiert als Schlüssel zwischen Offline- und Online-Ereignissen. |
+| [!UICONTROL Generische Datenquelle (volle Verarbeitung)] | Vollständige Verarbeitung | Adobe hat Datenquellen mit vollständiger Verarbeitung am 31. Januar 2022 als veraltet markiert. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe empfiehlt, stattdessen die [Bulk Data Insertion API (BDIA](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=de) zu verwenden. |
+| [!UICONTROL Generische Datenquelle (Transaktions-ID)] | <ul><li>Transaktions-ID</li><li>Besucher-ID</li></ul> | Ermöglicht es Ihnen, ein Offline-Ereignis mit einem Online-Ereignis zu verbinden. Die [!UICONTROL Transaktions-ID] dient als Schlüssel zwischen Offline- und Online-Ereignissen. |
 
 ## Online-Käufe {#purchases}
 
