@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 99%
 
 ---
 
 
-# [!DNL Analytics]-Komponentenleitfaden {#components}
+# [!DNL Adobe Analytics]-Komponentenleitfaden {#components}
 
 + [Komponentenleitfaden für Analytics](home.md)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensionen {#dimensions}
    + [Dimensionen – Übersicht](dimensions/overview.md)
    + [Kompatibilität der Dimensionen](dimensions/compatibility.md)
