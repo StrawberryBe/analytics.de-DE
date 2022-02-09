@@ -1,17 +1,17 @@
 ---
-description: Erläutert die neue Strategie zur kontinuierlichen Veröffentlichung von Funktionen für Adobe Analytics.
+description: Erläuterung der kontinuierlichen Veröffentlichungsstrategie für Adobe Analytics
 title: Veröffentlichung von Adobe Analytics-Funktionen
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 92%
 
 ---
 
 # Veröffentlichung von Adobe Analytics-Funktionen
 
-Bisher wurden die Adobe Analytics-Funktionen nach einem festen monatlichen Zeitplan veröffentlicht. Ab April 2020 wurde Adobe Analytics auf ein kontinuierliches Bereitstellungsmodell umgestellt, das einen skalierbareren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht.
+Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen skalierbareren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht.
 
 ## Veröffentlichungsstrategie
 
