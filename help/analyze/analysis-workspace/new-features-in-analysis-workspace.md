@@ -5,7 +5,7 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
+source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
 workflow-type: tm+mt
 source-wordcount: '8286'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Neuerungen in Analysis Workspace
 
 >[!IMPORTANT]
->Weitere Analysis Workspace-Aktualisierungen wurden auf der Seite [Adobe Analytics-Dokumentationsaktualisierungen](/help/technotes/doc-updates.md) hinzugefügt.
+>Weitere Analysis Workspace-Aktualisierungen wurden auf der Seite [Adobe Analytics-Dokumentationsaktualisierungen](/help/release-notes/doc-updates.md) hinzugefügt.
 
 Unter [Adobe Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) finden Sie Aktualisierungen zum übergeordneten Produkt.
 
@@ -23,7 +23,7 @@ Unter [Adobe Experience Cloud-Versionshinweise](https://experienceleague.adobe.c
 
 | Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
-| [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie die Einstellungen von [!UICONTROL Analysis Workspace] und dessen zugehörige Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Workspace-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Workspace-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
+| [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] | 25. März 2021 | Auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen] können Sie die Einstellungen von [!UICONTROL Analysis Workspace] und dessen zugehörige Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Arbeitsbereich-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Arbeitsbereich-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
 | [!UICONTROL Histogramm Smart Bucket Prediction] | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket Prediction] hilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
 
 ## Februar 2021
@@ -106,7 +106,7 @@ Am 12. März 2020 veröffentlichte neue Funktionen.
 | Funktion | Beschreibung |
 |--- |--- |
 | Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein gemeinsames Projekt bringen und sie nebeneinander darstellen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de) |
-| Schulungsanleitung | Diese neue Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modal „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Weitere Informationen ...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| Schulungsanleitung | Diese neue Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage unter „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Weitere Informationen ...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Februar 2020
 
@@ -125,7 +125,7 @@ Am 16. Januar 2020 veröffentlichte neue Funktion.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| [Freiformtabellen-Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
+| [Freiformtabellen-Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Arbeitsbereich Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
 
 ## Oktober 2019
 

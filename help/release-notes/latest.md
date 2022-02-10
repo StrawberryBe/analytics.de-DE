@@ -2,10 +2,10 @@
 title: Aktuelle Adobe Analytics-Versionshinweise anzeigen
 description: Neueste Analytics-Versionshinweise
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 61%
+source-wordcount: '641'
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ Erfahren Sie mehr über die neuesten Versions-Updates für [Adobe Experience Clo
 
 ## Neue Funktionen in Adobe Analytics {#aa-features}
 
-| Funktion | Beschreibung | [Zieldatum](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=de) |
+| Funktion | Beschreibung | [Zieldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Vorschaumodus für Mobile Scorecard-Projekte | Starten Sie eine Vorschau Ihrer mobilen Scorecard in der Analytics-Dashboards-App, direkt vom Scorecard-Builder aus. Im Vorschaumodus können Benutzer auf die gleiche Weise mit Filtern und Diagrammen wie in der App interagieren, sodass sie eine Vorschau des Erlebnisses anzeigen können, bevor sie die Scorecard speichern und freigeben. Benutzer können die Geräteauswahl auch im Vorschaumodus verwenden, um zu sehen, wie ihre Scorecard auf verschiedenen Geräten aussieht. | 16. Februar 2022 |
 
