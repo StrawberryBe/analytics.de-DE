@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zur Verwaltung von Adobe Analytics-Daten
 title: Häufig gestellte Fragen
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Wie unterstützt Adobe Analytics Zugriffs- und Löschanfragen für Endbenutzer (Datensubjekte), die von Kunden (Datenverantwortlichen) validiert wurden?</b> </p> </td> 
-   <td colname="col2"> <p>Wenn verschiedene Datenschutzregeln (DSGVO, CCPA) in Kraft treten, unterstützt Adobe Analytics das Verarbeiten von verifizierten Anfragen, die von Datenverantwortlichen an die Datenschutz-API der Experience Cloud gesendet werden, um einen stärker automatisierten Prozess zu ermöglichen. Die Datenschutz-API von Adobe ist dafür konzipiert, die Verarbeitung individueller Rechtsanfragen (z. B. Zugriffs- und Löschanfragen) für die Daten unserer Kunden zu unterstützen, die in den Adobe Experience Cloud-Lösungen gespeichert sind. Sie ist flexibel und wird entsprechend der Anzahl der Datenzugriffs- und Löschanfragen skaliert, die Ihr Unternehmen von Datensubjekten erhält. Zudem ermöglicht die Datenschutz-API dem Kunden die Statusüberprüfung dahingehend, inwiefern die Datenzugriffs- und Löschanfragen erfüllt werden. </p> <p>Weitere Informationen finden Sie in der <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"> Data Privacy API-Dokumentation. </a> </p> </td> 
+   <td colname="col2"> <p>Wenn verschiedene Datenschutzregeln (DSGVO, CCPA) in Kraft treten, unterstützt Adobe Analytics das Verarbeiten von verifizierten Anfragen, die von Datenverantwortlichen an die Datenschutz-API der Experience Cloud gesendet werden, um einen stärker automatisierten Prozess zu ermöglichen. Die Datenschutz-API von Adobe ist dafür konzipiert, die Verarbeitung individueller Rechtsanfragen (z. B. Zugriffs- und Löschanfragen) für die Daten unserer Kunden zu unterstützen, die in den Adobe Experience Cloud-Lösungen gespeichert sind. Sie ist flexibel und wird entsprechend der Anzahl der Datenzugriffs- und Löschanfragen skaliert, die Ihr Unternehmen von Datensubjekten erhält. Die Privacy Service-API ermöglicht es dem Kunden außerdem, den Status zu überprüfen, wie die Datenzugriffs- und Löschanfragen erfüllt werden. </p> <p>Weitere Informationen finden Sie unter <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Dokumentation zur Privacy Service-API. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wer ist für das Empfangen, Akzeptieren und Erfüllen von Datenschutz-Anfragen von Endbenutzern zuständig?</b> </p> </td> 
