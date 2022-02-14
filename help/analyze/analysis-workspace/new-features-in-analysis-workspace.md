@@ -5,10 +5,10 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8286'
-ht-degree: 100%
+source-wordcount: '8276'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Beitragsanalyse: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de"  > Token-Benachrichtigung </a> </p> </td> 
-   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung lautet „Anomalieerkennung und Beitragsanalyse“. Sie finden Sie unter <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Alle Administratoren</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span>.)  </p> </td> 
+   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind. </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung heißt "Anomalieerkennung und Beitragsanalyse"unter <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Alle Administratoren </span>  &gt; <span class="uicontrol"> Benutzerverwaltung </span>&gt; <span class="uicontrol"> Gruppen bearbeiten </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten </span> &gt; <span class="uicontrol"> Anpassen der Report Suite-Tools </span> &gt; <span class="uicontrol"> Tools und Berichte </span>. ) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-Dateien mit Multibyte-Zeichen </p> </td> 
@@ -598,7 +598,7 @@ Am 26. Oktober 2017 veröffentlichte neue Funktionen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Zuordnungsvisualisierung </a> </p> </td> 
-   <td colname="col2"> <p>Mit der neuen Funktion „Zuordnungsvisualisierung“ können Sie mühelos die Interaktionen Ihrer Kunden im Zusammenhang mit ihren Standorten anzeigen. Sie können mühelos zwischen verschiedenen Hierarchieebenen der Visualisierung wechseln, um regionsübergreifend Benutzergruppierungen anzuzeigen – von einer Makroansicht (global) bis zu einer Mikroansicht (Stadt). </p> <p>Sie können Standortdaten per IP-Adresse (für nichtmobile Datensätze) visualisieren oder für Kunden, die Mobile SDK verwenden, Längen- und Breitengraddaten in Analysis Workspace nutzen.  </p> </td> 
+   <td colname="col2"> <p>Mit der neuen Funktion "Zuordnungsvisualisierung"können Sie mühelos die Interaktionen Ihrer Kunden im Zusammenhang mit ihrem Standort anzeigen. Sie können mühelos zwischen verschiedenen Hierarchieebenen der Visualisierung wechseln, um regionsübergreifend Benutzergruppierungen anzuzeigen – von einer Makroansicht (global) bis zu einer Mikroansicht (Stadt). </p> <p>Sie können Standortdaten über IP-Adressen (für nicht mobile Datensätze) visualisieren oder Längen- und Breitengraddaten (für Kunden, die das Mobile SDK verwenden) in Analysis Workspace nutzen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Granularitätsselektor für Trend-Visualisierungen </a> </p> </td> 
