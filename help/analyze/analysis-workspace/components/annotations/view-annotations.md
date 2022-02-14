@@ -2,13 +2,13 @@
 title: Anzeigen von Anmerkungen
 description: Anzeigen von Anmerkungen in Workspace.
 role: User, Admin
-source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
+source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 6%
 
 ---
-
 
 # Anzeigen von Anmerkungen
 
@@ -34,3 +34,9 @@ Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen 
 Da Sie nicht den Mauszeiger über Symbole in einer PDF-Datei bewegen können, enthält diese Datei (nach dem Export) am unteren Rand eines Bedienfelds Anmerkungen zu Erklärungen. Siehe folgendes Beispiel:
 
 ![](assets/ann-pdf.png)
+
+## Anzeigen von Anmerkungen, die nicht auf Daten basieren
+
+Manchmal sind Anmerkungen nicht an ein Datum gebunden, sondern an eine bestimmte Dimension. In diesem Fall werden sie nur in einer Zusammenfassungsanmerkung in der rechten unteren Ecke angezeigt. Siehe folgendes Beispiel:
+
+![](assets/non-date.png)
