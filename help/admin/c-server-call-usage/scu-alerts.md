@@ -1,14 +1,14 @@
 ---
 description: Fügen Sie Warnhinweise zur Nutzung von Server-Aufrufen hinzu oder verwalten Sie diese. Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites und Anmeldeunternehmen eines Abrechnungsunternehmens.
 title: Warnhinweise zur Nutzung von Server-Aufrufen
-uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Server Call Usage
+exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
-
 
 # Warnhinweise zur Nutzung von Server-Aufrufen
 
@@ -77,4 +77,3 @@ Warnhinweise verwalten:
    | Aktivieren/deaktivieren | Sie können alle Warnhinweise mit Ausnahme der standardmäßigen Warnhinweise aktivieren oder deaktivieren. |
    | Verlängern | Wenn ein oder mehrere Warnhinweise ausgewählt sind, können diese verlängert werden. Dadurch werden die Ablaufdaten ab dem Tag, an dem auf [!UICONTROL Verlängern] geklickt wurde, unabhängig vom ursprünglichen Ablaufdatum um 1 Jahr verlängert. |
    | In CSV exportieren | Siehe [Nutzungsbericht herunterladen](/help/admin/c-server-call-usage/report-suite-usage.md) |
-

@@ -1,13 +1,12 @@
 ---
 description: Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorlage auswählen oder eine Ihrer vorhandenen Report Suites als Modell verwenden.
 title: Neue Report Suite – Einstellungen
-feature: Admin Tools
+feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '535'
 ht-degree: 93%
 
 ---
@@ -48,7 +47,7 @@ Beschreibung der verwendeten Elemente beim  [Erstellen einer Report Suite](/help
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Standardseite</span> </td> 
-   <td colname="col2"> <p>(Optional) Bereinigt Vorkommnisse des Werts <span class="wintitle">Standardseite</span> von den dabei auftretenden URL-Adressen. Wenn der Bericht <span class="wintitle">Bevorzugte Seiten</span> URLs statt Seitennamen enthält, verhindert diese Einstellung, dass für eine Webseite mehrere URLs angegeben werden. </p> <p>Beispielsweise sind die URLs<span class="filepath"> https://example.com</span> und <span class="filepath"> https://example.com/index.html</span> normalerweise dieselbe Seite. Sie können externe Dateinamen entfernen, damit beide URLs in Ihren Berichten als <span class="filepath"> https://example.com</span> angezeigt werden. </p> <p>Wenn Sie diesen Wert nicht angeben, entfernt Analytics automatisch die folgenden Dateinamen aus den URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> und <span class="filepath">home.asp</span>. </p> <p>Wenn Sie die Bereinigung von Dateinamen deaktivieren möchten, geben Sie einen Wert für „Standardseite“ an, der in keiner URL-Adresse vorkommt. </p> </td> 
+   <td colname="col2"> <p>(Optional) Bereinigt Vorkommnisse des Werts <span class="wintitle">Standardseite</span> von den dabei auftretenden URL-Adressen. Wenn der Bericht <span class="wintitle">Bevorzugte Seiten</span> URLs statt Seitennamen enthält, verhindert diese Einstellung, dass für eine Webseite mehrere URLs angegeben werden. </p> <p>Beispielsweise die URLs<span class="filepath"> https://example.com</span> und <span class="filepath"> https://example.com/index.html</span> sind normalerweise dieselbe Seite. Sie können irrelevante Dateinamen entfernen, damit beide URLs als <span class="filepath"> https://example.com</span> in Ihren Berichten. </p> <p>Wenn Sie diesen Wert nicht angeben, entfernt Analytics automatisch die folgenden Dateinamen aus den URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> und <span class="filepath">home.asp</span>. </p> <p>Wenn Sie die Bereinigung von Dateinamen deaktivieren möchten, geben Sie einen Wert für „Standardseite“ an, der in keiner URL-Adresse vorkommt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aufschaltdatum </p> </td> 

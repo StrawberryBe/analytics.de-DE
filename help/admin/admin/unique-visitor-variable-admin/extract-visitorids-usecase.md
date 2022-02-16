@@ -2,12 +2,10 @@
 description: Data Warehouse verfügt über eine Funktion, mit der Sie eine Liste mit Besucher-IDs extrahieren können. Diese IDs sind keine Cookie-IDs, sondern IDs, die Sie in einer der Konversionsvariablen erfassen. Obwohl diese Informationen auch auf andere Weise erhalten werden können, stellt das folgende Beispiel einen kürzeren Weg zum Generieren einer Data Warehouse-Anforderung dar.
 title: Verwendungsfall – Extrahieren von Besucher-IDs
 feature: Admin Tools
-uuid: ed228334-619c-43d7-b781-a18af73b00bb
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---

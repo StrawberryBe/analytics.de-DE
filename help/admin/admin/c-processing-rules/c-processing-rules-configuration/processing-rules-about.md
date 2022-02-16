@@ -2,13 +2,11 @@
 description: Mit Verarbeitungsregeln können Sie Änderungen an den Daten auf der Grundlage definierter Bedingungen vornehmen. Wenn Attribute oder Werte definierten Bedingungen entsprechen, können Werte festgelegt und gelöscht sowie Ereignisse festgelegt werden.
 subtopic: Processing rules
 title: Funktionsweise von Verarbeitungsregeln
-feature: Admin Tools
-uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 Mit Verarbeitungsregeln können Sie Änderungen an den Daten auf der Grundlage definierter Bedingungen vornehmen. Wenn Attribute oder Werte definierten Bedingungen entsprechen, können Werte festgelegt und gelöscht sowie Ereignisse festgelegt werden.
 
-Verarbeitungsregeln werden auf Daten während der Erfassung angewandt, und Regeln werden auf alle Daten angewandt, die über die AppMeasurement-Bibliotheken und durch die Dateneinfüge-API eingehen. Außerdem gelten die Verarbeitungsregeln für vollständige Data Sources und Protokolldatenquellen. Diese Quellen enthalten Daten, die für einen  *`hit`* oder für eine Aktion, die ein Benutzer ausführt, stehen. Für andere Datenquellen gelten die Verarbeitungsregeln nicht.
+Verarbeitungsregeln werden auf Daten während der Erfassung angewandt, und Regeln werden auf alle Daten angewandt, die über die AppMeasurement-Bibliotheken und durch die Dateneinfüge-API eingehen. Außerdem gelten die Verarbeitungsregeln für vollständige Datenquellen und Protokolldatenquellen. Diese Quellen enthalten Daten, die für einen  *`hit`* oder für eine Aktion, die ein Benutzer ausführt, stehen. Für andere Datenquellen gelten die Verarbeitungsregeln nicht.
 
 ## Wichtige Konzepte {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -102,7 +100,7 @@ Sie können eine Regel ohne Bedingungen erstellen, wenn bestimmte Aktionen immer
 
 Variablen werden nicht automatisch auf bestimmte Werte überprüft, bevor Aktionen durchgeführt werden. So enthält „Prop1“ einen beliebigen Wert, und „eVar1“ ist leer. Wenn Sie festlegen, dass „Prop1“ den Wert von „eVar1“ annimmt, sind beide Werte leer. Wenn dies verhindert werden soll, müssen Sie mit einer Bedingung testen, ob ein Wert vorhanden ist.
 
-## Aktionen für Verarbeitungsregeln   {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## Aktionen für Verarbeitungsregeln  {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 Mit Aktionen werden Seitenvariablen festgelegt oder gelöscht und Ereignisse ausgelöst. Mit Aktionen können auch Werte für eine Berichtanzeige miteinander verkettet werden.
 

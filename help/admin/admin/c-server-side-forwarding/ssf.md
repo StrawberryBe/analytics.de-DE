@@ -1,10 +1,10 @@
 ---
 description: Die serverseitige Weiterleitung ist für Kunden bestimmt, die Daten aus Analytics für andere Experience Cloud-Lösungen in Echtzeit freigeben möchten. Bei entsprechender Aktivierung ermöglicht die serverseitige Weiterleitung während des Datenerfassungsprozesses Analytics das Übergeben von Daten an andere Experience Cloud-Lösungen und diesen Lösungen das Übergeben von Daten an Analytics.
-solution: Audience Manager
+solution: Analytics
 title: Übersicht über die serverseitige Weiterleitung
-uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
+feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 94%
@@ -32,7 +32,7 @@ Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Imple
 
 ## ![Grafik step1_icon.png](assets/step1_icon.png) ECID-Dienstimplementierung überprüfen
 
-Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Dienst implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=de) prüfen.
+Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Service implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=de) prüfen.
 
 Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festgelegt wurde. Dies gibt darüber Auskunft, dass der Identity Service korrekt implementiert wurde. Dies ist eine Voraussetzung für die serverseitige Weiterleitung.
 
@@ -64,7 +64,7 @@ Die serverseitige Weiterleitung auf Ebene der Report Suite wird dem alten Ansatz
 
 Gehen Sie zu **Analytics** > **Admin** > **Report Suites** > (**Report Suites** auswählen) > **Einstellungen bearbeiten** > **Allgemein** > **Serverseitige Weiterleitung**. Wenn das Kontrollkästchen folgenden Zustand aufweist, gilt das Nachfolgende:
 
-* **Inaktiv**  (Sie können keine Auswahl treffen oder das Menü existiert nicht): Sie haben die ausgewählten Report Suites nicht einer IMS-Organisation zugeordnet. Wenden Sie sich an die Kundenunterstützung , um sicherzustellen, dass die Report Suite korrekt zugeordnet ist.
+* **Inaktiv** (Sie können keine Auswahl treffen oder das Menü existiert nicht): Sie haben die ausgewählten Report Suites nicht einer IMS-Organisation zugeordnet. Wenden Sie sich an die Kundenunterstützung , um sicherzustellen, dass die Report Suite korrekt zugeordnet ist.
 * **Deaktiviert**: Die neue serverseitige Weiterleitung ist nicht aktiviert. Lesen Sie den Inhalt der Seite, und fahren Sie dann mit der Aktivierung der Funktion fort.
 * **Aktiviert**: Die neue serverseitige Weiterleitung ist bereitgestellt. Sie können auch diese Audience Analytics-Integration einrichten.
 

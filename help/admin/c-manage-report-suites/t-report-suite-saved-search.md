@@ -1,13 +1,11 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie einen Kriteriensatz definieren, mit dem die Mitglieder einer Report Suite-Suche ermittelt werden.
 title: Speichern einer Report Suite-Suche
-feature: Admin Tools
-uuid: dd83eed6-1374-429c-9fc3-709055698a44
+feature: Report Suite Settings
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---

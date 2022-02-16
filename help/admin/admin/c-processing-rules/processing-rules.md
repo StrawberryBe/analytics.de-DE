@@ -2,13 +2,11 @@
 description: Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltung der Inhalte, die an die Berichterstellung gesendet wurden.
 subtopic: Processing rules
 title: Übersicht über Verarbeitungsregeln
-feature: Admin Tools
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '394'
 ht-degree: 68%
 
 ---
@@ -28,13 +26,13 @@ Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltu
 
 ## Berechtigungen für Verarbeitungsregeln {#section_8A4846688050453784DAE4D89355169A}
 
-Administratoren haben standardmäßig die Berechtigung, Verarbeitungsregeln **zu verwenden.** Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. Eine Anleitung finden Sie unter []
+Administratoren haben Berechtigungen zur Verwendung von Verarbeitungsregeln **standardmäßig**. Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. Eine Anleitung finden Sie unter []
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Da Verarbeitungsregeln dauerhafte Auswirkungen auf Analytics-Daten haben, empfiehlt Adobe dringend, dass Verarbeitungsregeladministratoren eine Zertifizierungsschulung in Adobe Analytics erhalten und mit allen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Sites, mobile Apps, Dateneinfüge-API usw.) vertraut sein sollten. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
+>Da Verarbeitungsregeln dauerhafte Auswirkungen auf Analytics-Daten haben, empfiehlt Adobe dringend, dass Verarbeitungsregeladministratoren eine Zertifizierung für Adobe Analytics erhalten und mit allen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Sites, mobile Apps, Dateneinfüge-API usw.) vertraut sind. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
 
 ## Vereinfachung der Datenerfassung durch Kontextdaten  {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -46,20 +44,20 @@ s.contextData['section'] = "Books";
 s.contextData['genre'] = "Youth";
 ```
 
-Nach der Einstellung im Code können Sie Verarbeitungsregeln festlegen, um Variablen Werte zuzuweisen. Beispiel:
+Sobald sie im Code festgelegt ist, können Sie Verarbeitungsregeln festlegen, um Variablen Werte zuzuweisen. Beispiel:
 
-1. Ordnen Sie `author` zu `eVar2` zu
-2. Ordnen Sie `section` zu `prop1` und `eVar3` zu
-3. Wenn `author` und `section` vorhanden sind, setzen Sie `event5`
+1. Zuordnung `author` nach `eVar2`
+2. Zuordnung `section` nach `prop1` und `eVar3`
+3. Wenn `author` und `section` vorhanden, Satz `event5`
 
-Weitere Informationen finden Sie unter [contextData](/help/implement/vars/page-vars/contextdata.md) im Benutzerhandbuch für die Implementierung.
+Siehe [contextData](/help/implement/vars/page-vars/contextdata.md) Weitere Informationen finden Sie im Benutzerhandbuch zu Implementierungen .
 
-## Verwenden von Verarbeitungsregeln zum Korrigieren von Daten und zum Auslösen von Ereignissen   {#section_8284E72E999244E091CD7FB1A22342B6}
+## Verwenden von Verarbeitungsregeln zum Korrigieren von Daten und zum Auslösen von Ereignissen  {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Mit Verarbeitungsregeln können eingehende Werte überwacht werden. Dabei werden gängige Schreibfehler korrigiert und Ereignisse auf Basis der Berichtsdaten festgelegt. Props können in eVars kopiert werden, Werte lassen sich zu Berichtzwecken miteinander verketten, und Ereignisse können festgelegt werden.
 
-## Verwenden von Kontextdatenvariablen in Berichten   {#section_BD098BC503024A0B8703596628071134}
+## Verwenden von Kontextdatenvariablen in Berichten  {#section_BD098BC503024A0B8703596628071134}
 
 Sobald in Ihrer Implementierung Kontextdatenvariablen definiert sind, müssen diese in Variablen wie eVars kopiert werden, damit sie in Berichten verwendet werden können.
 
-Weitere Informationen finden Sie unter [Kopieren einer Kontextdatenvariablen in eine eVar](processing-rules-examples/processing-rules-copy-context-data.md) und [Festlegen eines Ereignisses mithilfe einer Kontextdatenvariablen](processing-rules-examples/processing-rules-copy-context-data-event.md).
+Siehe [Kontextdatenvariable in eine eVar kopieren](processing-rules-examples/processing-rules-copy-context-data.md) und [Ereignis mit einer Kontextdatenvariablen festlegen](processing-rules-examples/processing-rules-copy-context-data-event.md) für weitere Informationen.

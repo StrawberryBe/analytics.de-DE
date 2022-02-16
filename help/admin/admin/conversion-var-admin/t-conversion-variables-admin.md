@@ -2,11 +2,10 @@
 description: Schritte, die beschreiben, wie Konversionsvariablen hinzugefügt oder bearbeitet werden.
 title: Bearbeiten von Konversionsvariablen
 feature: Admin Tools
-uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---

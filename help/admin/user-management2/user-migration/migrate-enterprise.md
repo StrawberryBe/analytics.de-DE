@@ -1,17 +1,16 @@
 ---
 description: Migrieren von Analytics-Benutzerkonten als Enterprise IDs oder Federated IDs in die Admin Console.
 title: Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs
-uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+feature: Admin Tools
+exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
 
-
-# Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs {#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
 Migrieren von Analytics-Benutzerkonten als Enterprise IDs oder Federated IDs in die Admin Console.
 
@@ -29,7 +28,7 @@ Vgl. als Hilfe [Einrichten eines Identitätssystems](https://helpx.adobe.com/de/
 
 Wenn ein Verzeichnis bereits in einer anderen Organisation von einer anderen Geschäftseinheit oder einem anderen Team erstellt wurde, führen Sie die Schritte unter [Vertrauenswürdiges Verzeichnis](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html#Directorytrusting) durch, um das Verzeichnis in der Organisation zu erstellen, für die Sie Analytics verwenden.
 
-## Migrieren von-Benutzerkonten für Enterprise IDs und Federated IDs  {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
+## Migrieren von-Benutzerkonten für Enterprise IDs und Federated IDs {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 Diese Vorgehensweise ermöglicht Ihnen Folgendes:
 
@@ -127,8 +126,8 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
    <td colname="col2"> <p><span class="term"> Federated ID</span> oder <span class="term"> Enterprise ID</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Domäne </p> </td> 
-   <td colname="col2"> <p>Achten Sie darauf, dass die Domänen in den Spalten <span class="term">Domäne</span> und <span class="term">E-Mail</span> mit den Domänen übereinstimmen, die in den Voraussetzungen</a> festgelegt wurden. </p> </td> 
+   <td colname="col1"> <p>Domain </p> </td> 
+   <td colname="col2"> <p>Achten Sie darauf, dass die Domänen in den Spalten <span class="term">Domain</span> und <span class="term">E-Mail</span> mit den Domänen übereinstimmen, die in den Voraussetzungen</a> festgelegt wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ländercode </p> </td> 

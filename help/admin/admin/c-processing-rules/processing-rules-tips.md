@@ -2,13 +2,11 @@
 description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
 subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
-feature: Admin Tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -27,7 +25,7 @@ Für Kriterien, die auf einer Suche basieren, z. B., ob prop1 das Wort „Neuigk
 
 **Testen von Regeln, die Variablen lesen**
 
-Erstellen Sie eine leere HTML-Seite auf Ihrem Desktop, nehmen Sie den s_code von Ihrer Website auf und stellen Sie die `s.account`-Variable auf eine dev-Report Suite ein. Wenn Ihre Regeln auf einer verweisenden Stelle, einer verweisenden Domäne usw. basieren, nehmen Sie einige Beispiel-URLs aus dem Live-Verweisbericht, stellen Sie die `s.referrer`-Variable auf einen dieser Werte ein und laden Sie die Seite. Auf die gleiche Weise können Sie, wenn die Regel auf dem Seiten-URL-Wert basiert, `s.pageURL` einstellen. Dieser Prozess kann für alle Variablen genutzt werden.
+Erstellen Sie eine leere HTML-Seite auf Ihrem Desktop, nehmen Sie den s_code von Ihrer Website auf und stellen Sie die `s.account`-Variable auf eine dev-Report Suite ein. Wenn Ihre Regeln auf einer verweisenden Stelle, einer verweisenden Domain usw. basieren, nehmen Sie einige Beispiel-URLs aus dem Live-Verweisbericht, stellen Sie die `s.referrer`-Variable auf einen dieser Werte ein und laden Sie die Seite. Auf die gleiche Weise können Sie, wenn die Regel auf dem Seiten-URL-Wert basiert, `s.pageURL` einstellen. Dieser Prozess kann für alle Variablen genutzt werden.
 
 **Verwenden einer dev-Report Suite**
 
@@ -43,7 +41,7 @@ Es ist auch wichtig, die Verarbeitungsreihenfolge zu beachten. Im folgenden Beis
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Überschreiben von Werten vermeiden   {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## Überschreiben von Werten vermeiden  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 Im folgenden Beispiel werden zwei Kontextdatenvariablen auf der Website zur Erfassung von Suchbegriffen verwendet: „Suchkeyword“ und „Suchbegriff“. Basierend auf der Konfiguration wird jedoch der Wert search_keyword immer überschrieben, selbst wenn „Suchbegriff“ leer ist.
 
@@ -51,13 +49,13 @@ Diese Regel sollte umkonfiguriert werden, sodass jede Kontextdatenvariable auf e
 
 ![](assets/tips-search-keyword.png)
 
-## Suchbegriffe auf UTF-8 oder Unicode kodieren   {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## Suchbegriffe auf UTF-8 oder Unicode kodieren  {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 Suchbegriffe, die aus einer Abfragezeichenfolge gezogen werden, müssen korrekt kodiert sein, oder die Zuordnung durch Verarbeitungsregeln erfolgt nicht korrekt.
 
 ![](assets/tips-multibyte.png)
 
-## „Beginnt mit“, „Enthält“ und „Endet mit“   {#section_80CE853244FC435B844A09EA51868D8D}
+## „Beginnt mit“, „Enthält“ und „Endet mit“  {#section_80CE853244FC435B844A09EA51868D8D}
 
 Wählen Sie die korrekte Übereinstimmungsbedingung, um die restriktivste Bedingung zu finden, die korrekt übereinstimmt. Sie können nach Werten in einem Bericht suchen, bevor Sie eine Regel erstellen, um sicherzugehen, dass es keine ungewünschten Übereinstimmungen gibt. Beispielsweise sollten Sie den Prop2-Bericht durchsuchen, um alle Stellen zu finden, auf die diese Bedingung zutrifft, bevor Sie diese Regel aktivieren.
 

@@ -1,10 +1,10 @@
 ---
 description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header und Datensignale in Aufrufen der serverseitigen Weiterleitung.
 title: Daten- und Codereferenz für die Server-seitige Weiterleitung
-uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
+feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Zusätzlich wird ein `h_ip`-Signal von der IP des Hosts generiert, der die Anfra
 
 ## Kundendefinierte Signale {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=de).
+Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Beschreibung |
 | --- |--- |

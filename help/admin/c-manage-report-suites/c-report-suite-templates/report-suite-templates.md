@@ -1,11 +1,9 @@
 ---
 description: Mit Report Suite-Vorlagen werden die grundlegendsten Einstellungen für verschiedene Arten von Report Suites konfiguriert.
 title: Übersicht über Report Suite-Vorlagen
-feature: Admin Tools
-uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
+feature: Report Suite Settings
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
@@ -18,4 +16,4 @@ Mit Report Suite-Vorlagen werden die grundlegendsten Einstellungen für verschi
 
 Um beim Erstellen einer neuen Report Suite Zeit zu sparen, können Sie eine Vorlage auswählen, die der von Ihnen entworfenen Report Suite-Konfiguration ähnlich ist. Beim Auswählen einer Report Suite-Vorlage wird Ihre Implementierung auf keinerlei Weise eingeschränkt. Sämtliche von einer Report Suite-Vorlage vorgenommenen Konfigurationen können nach Erstellung der Report Suite geändert werden.
 
-<!-- Meike, links to relevant articles? -->
+[Weitere Infos](/help/admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)

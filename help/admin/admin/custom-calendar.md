@@ -2,11 +2,10 @@
 description: Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. Zu den Optionen zählen die 4-4-5-, 4-5-4- und 5-4-4-Kalendermodelle, die alle als Standard im Einzelhandel genutzt werden. Darüber hinaus bietet die Berichterstellung eine Option für einen komplett individualisierbaren Kalender, den Sie selbst einrichten können.
 title: Anpassen von Kalendern benutzerspezifisch einstellen
 feature: Admin Tools
-uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-source-git-commit: 16d762e9d327153737ab25a4a56cf4830c777479
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '514'
 ht-degree: 84%
 
 ---

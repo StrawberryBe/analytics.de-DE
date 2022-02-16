@@ -1,18 +1,18 @@
 ---
 description: Erläutert Verbesserungen der serverseitigen Weiterleitung, die durch die EU-Cookie-Kompatibilitätsverordnung veranlasst wurden.
 title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
-uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
 # DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 
-In diesem Abschnitt werden Verbesserungen der serverseitigen Weiterleitung erläutert, die durch die [EU-Cookie-Compliance-Verordnung](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+und+ähnliche+Technologien) erforderlich wurden, die am 30. September 2017 in Kraft trat.
+In diesem Abschnitt werden Verbesserungen der serverseitigen Weiterleitung erläutert, die vom [EU-Cookie-Compliance-Verordnung](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+und+ähnliche+Technologien), das am 30. September 2017 in Kraft trat.
 
 Die serverseitige Weiterleitung wird verwendet, um Daten in Echtzeit von Adobe Analytics zu anderen [!DNL Experience Cloud Solutions] wie Audience Manager zu übertragen. Bei entsprechender Aktivierung ermöglicht die serverseitige Weiterleitung während des Datenerfassungsprozesses Analytics das Übergeben von Daten an andere Experience Cloud-Lösungen und diesen Lösungen das Übergeben von Daten an Analytics.
 
@@ -28,7 +28,7 @@ Befolgen Sie abhängig von Ihrer Implementierungsmethode die folgenden Schritte.
 
 | Implementierungsmethode | Schritte |
 |--- |--- |
-| Tags in Adobe Experience Platform | Wenn Sie die Adobe Analytics-Erweiterung installiert haben, fügen Sie dem benutzerdefinierten Code-Editor innerhalb der Aktionskonfiguration einer Regel die folgende Definition für Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis:  Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert &quot;1&quot;fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die `contextdata`-Variable den Wert *0* für Kunden fest, die gezieltem Marketing zugestimmt haben. |
+| Tags in Adobe Experience Platform | Wenn Sie die Adobe Analytics-Erweiterung installiert haben, fügen Sie dem benutzerdefinierten Code-Editor innerhalb der Aktionskonfiguration einer Regel die folgende Definition für Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert &quot;1&quot;fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die `contextdata`-Variable den Wert *0* für Kunden fest, die gezieltem Marketing zugestimmt haben. |
 | AppMeasurement | Fügen Sie die Kontextdatenvariablendefinition zur Datei „AppMeasurement.js“ hinzu:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die Kontextdatenvariable den Wert „0“ für Kunden fest, die gezieltem Marketing zugestimmt haben. |
 
 ## Berichterstellung (Optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}

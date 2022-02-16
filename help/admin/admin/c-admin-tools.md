@@ -1,11 +1,10 @@
 ---
 description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -24,9 +23,9 @@ ht-degree: 100%
 + [Code-Manager](code-manager-admin.md)
 + [Konversionsvariablen (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Währungscodes](currency.md)
-+ [Beschreibung benutzerspezifischer Berichte](custom-desc-admin.md)
-+ [Kalender anpassen](custom-calendar.md)
-+ [Data Sources](data-sources.md)
++ [Benutzerdefinierte Berichtbeschreibungen](custom-desc-admin.md)
++ [Anpassen von Kalendern benutzerspezifisch einstellen](custom-calendar.md)
++ [Datenquellen](data-sources.md)
 + [Standardmetriken](default-metrics.md)
 + [Nach IP-Adresse ausschließen](exclude-ip.md)
 + [Suchmethoden](finding-methods.md)
@@ -45,11 +44,11 @@ ht-degree: 100%
 + [Übersicht über Verarbeitungsregeln](c-processing-rules/processing-rules.md)
 + [Übersicht über Echtzeitberichte](realtime/realtime.md)
 + [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
-+ [Übersicht über die serverseitige Weiterleitung](c-server-side-forwarding/ssf.md)
++ [Übersicht über die Server-seitige Weiterleitung](c-server-side-forwarding/ssf.md)
 + [Vereinfachtes Berichtsmenü](t-simplified-menu.md)
 + [Social-Media-Verwaltung](social-management.md)
 + [Übersicht über Erfolgsereignisse](c-success-events/success-event.md)
 + [Zeitstempel optional](timestamp-optional.md)
 + [Übersicht über Traffic-Variablen (Eigenschaft)](c-traffic-variables/traffic-var.md)
 + [Festlegen der Unique-Visitor-Variable](unique-visitor-variable-admin/t-unique-visitor-variable.md)
-+ [Videomanagement](video-management.md)
++ [Video-Management](video-management.md)
