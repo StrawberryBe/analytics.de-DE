@@ -4,16 +4,16 @@ title: Was sind Visualisierungsfarbpaletten und wie funktionieren sie?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Visualisierungsfarbpaletten
 
-Sie können die in Workspace verwendete Visualisierungsfarbpalette ändern, indem Sie eine andere Farbpalette auswählen oder Ihre eigene Palette festlegen, die den Markenfarben Ihres Unternehmens entsprechen könnte. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus. Die Zusammenfassungsänderung, die bedingte Formatierung in Freiformtabellen und die Zuordnungsvisualisierung sind davon jedoch **nicht** betroffen.
+Sie können die in Workspace verwendete Visualisierungsfarbpalette ändern, indem Sie eine andere Farbpalette auswählen oder Ihre eigene Palette festlegen, die den Markenfarben Ihres Unternehmens entsprechen könnte. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus, aber sie tut dies **not** betreffen [!UICONTROL Zusammenfassungsänderung], bedingte Formatierung in [!UICONTROL Freiform] und die [!UICONTROL Zuordnung] Visualisierung.
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ Beachten Sie:
 * Es stehen fünf voreingestellte Farbpaletten zur Auswahl. Die Standardpalette und die unten stehende wurden für optimalen Kontrast optimiert und sind für Farbenblindheit besser zugänglich.
 * Die dritte bis fünfte Farbpalette unter den ersten beiden wurden auf Farbharmonie optimiert.
 
-## So ändern Sie Ihre Farbpalette:
+## Ändern Sie Ihre [!UICONTROL Farbpalette]:
 
-Im Folgenden finden Sie ein Video zur Verwendung von benutzerdefinierten Farbpaletten:
+Im Folgenden finden Sie ein Video zur Verwendung benutzerdefinierter [!UICONTROL Farbpaletten]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 

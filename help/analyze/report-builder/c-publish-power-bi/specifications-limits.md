@@ -1,13 +1,12 @@
 ---
 description: Einschränkungen bei der Verwendung von Report Builder und Microsoft Power BI.
 title: Einschränkungen und Spezifikationen
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 94%
 
 ---
@@ -70,5 +69,5 @@ Standardmäßig wird der Name aus dem Dateinamen der Arbeitsmappe abgeleitet (oh
 Bedenken Sie Folgendes
 
 * Die Bezeichnung darf keine Kombination aus Buchstaben und Zahlen sein, die mit einer Zeilen- und Spaltenadresse verwechselt werden kann. Beispielsweise darf die Bezeichnung nicht A100 lauten, da dies die Adresse einer Zelle in einem Arbeitsblatt ist.
-* Die folgenden Zeichen sind keine gültigen Beschriftungszeichen: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; und `'~', ' '` . Sie werden durch einen Unterstrich ersetzt.
+* Die folgenden Zeichen sind keine gültigen Beschriftungszeichen: `'#', '@', '!', '$', '^', '&', '&#42;', '`&quot; und `'~', ' '` . Sie werden durch einen Unterstrich ersetzt.
 * Wenn Sie einen ungültigen Namen eingeben, wird eine Warnmeldung angezeigt, in der ein automatisch generierter Name vorgeschlagen wird. Wenn Sie auf **[!UICONTROL Ja]** klicken, wird dieser Name verwendet. Wenn Sie auf **[!UICONTROL Nein]** klicken, können Sie im erweiterten Assistenten einen neuen Namen eingeben.

@@ -1,15 +1,15 @@
 ---
-description: Erstellen einer Analytics-Dashboards-Scorecard
-title: Scorecard erstellen
+description: Ausführende Benutzer benötigen möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
+title: Festlegen von ausführenden Benutzern mit der Applikation
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
-
 
 # Festlegen von ausführenden Benutzern mit der Applikation
 

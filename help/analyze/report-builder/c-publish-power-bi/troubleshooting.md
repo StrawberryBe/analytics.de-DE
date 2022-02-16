@@ -1,13 +1,12 @@
 ---
 description: Häufige Probleme bei der Verwendung von Report Builder mit Power BI.
 title: Fehlerbehebung für die Power BI-Integration
-uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 51%
 
 ---
@@ -38,8 +37,8 @@ Im Folgenden werden die wichtigsten Gründe für beschädigte Visualisierungen n
 
 ## Report Builder müssen für den Zugriff auf die Ressourcen Ihrer Organisation autorisiert sein. Dieser Zugriff kann nur von einem Administrator gewährt werden. Bitten Sie einen Administrator, Ihnen die Berechtigung zu erteilen.
 
-Bitten Sie einen Microsoft-Administrator, die Einstellung &quot;Benutzer können Anwendung registrieren&quot;zu überprüfen, die Sie unter finden: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Benutzereinstellungen ermöglichen Optionen]**. Wenn diese Option auf &quot;Nein&quot;festgelegt ist, kann dieser Administrator diese Anwendungstypen registrieren.
+Bitten Sie einen Microsoft-Administrator, die Einstellung &quot;Benutzer können Anwendung registrieren&quot;zu überprüfen, die Sie unter folgendem Link finden: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Benutzereinstellungen ermöglichen Optionen]**. Wenn diese Option auf &quot;Nein&quot;festgelegt ist, kann dieser Administrator diese Anwendungstypen registrieren.
 
-Benutzer können den Zugriff über den folgenden [Link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) gewähren.
+Benutzer können den Zugriff mithilfe der folgenden Optionen gewähren: [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-Administratoren gewährten Zugriff für jede Person durch Verwendung des folgenden [Links](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Administratoren gewähren Zugriff für jede Person, indem sie Folgendes verwenden: [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
