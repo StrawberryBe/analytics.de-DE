@@ -2,10 +2,10 @@
 description: Administrative Schritte für die Aktivierung von AEM Assets Reporting in Analytics.
 title: Berichten über AEM Assets in Adobe Analytics
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: 0b9059aa03777d429a671f11c29e5f9831fac6ba
-workflow-type: ht
+source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ Administrative Schritte für die Aktivierung von AEM Assets Reporting in Analyti
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets Reporting]**
 
-Hiermit können in Analytics die Impressionen und Klicks auf Assets erfasst werden, die durch AEM Asset Insights bereitgestellt werden. Durch diese Integration ist
+Ermöglicht Analytics die Erfassung von Impressionen und Klicks auf [!UICONTROL Assets] über AEM Asset Insights bereitgestellt. Durch diese Integration ist
 
 * die Berichterstellung in Analytics möglich.
 * Fügt neue Dimensionen zu den Asset-Variablen in Analysis Workspace hinzu: Asset-ID, Asset-Quelle und angeklickte Asset-ID
