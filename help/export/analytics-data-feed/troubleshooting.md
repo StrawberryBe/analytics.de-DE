@@ -2,9 +2,10 @@
 title: Fehlerbehebung bei Daten-Feeds
 description: Hier erfahren Sie, wie Sie Probleme mit Daten-Feeds ermitteln und beheben können.
 keywords: Vorgang;Fehlerbehebung;Fehler;FTP;chdir;verbinden;anmelden;verschieben
+feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 

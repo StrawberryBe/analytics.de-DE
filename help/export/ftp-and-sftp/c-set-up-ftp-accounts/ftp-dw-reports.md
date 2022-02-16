@@ -2,13 +2,12 @@
 description: Mithilfe von Data Warehouse können Sie individuelle Fragen stellen und Berichte anfordern, die darauf basierende erweiterte Datenbeziehungen aus Rohdaten enthalten.
 keywords: FTP, sFTP
 title: Von Data Warehouse bereitgestellte Berichte
-uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
+feature: FTP Export
 exl-id: d49217a4-33ab-49f8-9207-c5d31e8f798d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

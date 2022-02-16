@@ -2,11 +2,10 @@
 description: Sie können Analytics nutzen, um FTP-basierte Datenquellen zu erstellen und zu verwalten, wodurch die FTP-Dateiübertragung genutzt werden kann, um Offline- oder historische Daten in Experience Cloud zu importieren.
 keywords: FTP, sFTP
 title: Data Sources
-uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
+feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 100%
 

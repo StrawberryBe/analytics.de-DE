@@ -1,15 +1,14 @@
 ---
-description: Planen Sie die Ausführung von Anforderungen in Data Warehouse auf Wiederholungsbasis.
+description: Planen Sie die wiederholte Ausführung von Anforderungen in Data Warehouse.
 title: Planen einer wiederkehrenden Anforderung
-uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Data Warehouse
+exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 85%
 
 ---
-
 
 # Planen einer wiederkehrenden Anforderung
 
@@ -27,4 +26,3 @@ Möchten Sie tägliche/monatliche/jährliche Data Warehouse-Anfragen planen, ste
    ![](assets/dw_schedule.png)
 
 1. Klicken Sie auf **[!UICONTROL Zeitplan]**.
-

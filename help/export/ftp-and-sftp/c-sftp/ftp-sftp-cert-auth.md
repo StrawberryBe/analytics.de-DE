@@ -2,11 +2,10 @@
 description: Eine Verbindung zu FTP-Konten kann nur dann ohne Kennwort hergestellt werden, wenn sowohl eine SFTP-Verbindung als auch ein alternatives Authentifizierungsverfahren genutzt werden. Hierzu sind zwei Dateien erforderlich (eine im FTP-Konto und die andere auf Ihrem Computer), die eine Kombination aus öffentlichem und privatem Schlüssel bilden.
 keywords: FTP, sFTP
 title: Verbindung zu Adobe über SFTP ohne Kennwort herstellen
-uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
+feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 

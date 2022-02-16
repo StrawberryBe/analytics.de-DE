@@ -2,10 +2,10 @@
 description: Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
 subtopic: Dashboards
 title: Dashboards und Kurzberichte
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 98%
@@ -42,11 +42,11 @@ Bedenken Sie, dass einige häufig angezeigte Berichte nicht in Dashboards umgewa
 
 Neben den Dashboards, die Sie erstellen, stehen jedem Benutzer die folgenden, voreingestellten Dashboards zur Verfügung:
 
-**[!UICONTROL Komponenten]  >  [!UICONTROL Alle Komponenten]  >  [!UICONTROL Dashboards]  >  [!UICONTROL Freigegebene Dashboards]  >  [!UICONTROL Lokale Sites]**
+**[!UICONTROL Komponenten] > [!UICONTROL Alle Komponenten] > [!UICONTROL Dashboards] > [!UICONTROL Freigegebene Dashboards] > [!UICONTROL Lokale Sites]**
 
 Das anpassbare Dashboard bietet Ihnen eine Möglichkeit, Reportlets in der bereitgestellten Vorlage abzulegen.
 
-**[!UICONTROL Komponenten]  >  [!UICONTROL Alle Komponenten]  >  [!UICONTROL Dashboards]  >  [!UICONTROL Freigegebene Dashboards]  > Dashboard für  [!UICONTROL Site-Vorgänge]**
+**[!UICONTROL Komponenten] > [!UICONTROL Alle Komponenten] > [!UICONTROL Dashboards] > [!UICONTROL Freigegebene Dashboards] > [!UICONTROL Dashboard &quot;Site-Betrieb&quot;]**
 
 Dieses Dashboard bietet Ihnen eine Übersicht über die Schlüsselmetriken in Bezug auf den Betrieb Ihrer Website. Zu den Berichten dieses Dashboards zählen:
 
@@ -187,7 +187,7 @@ t_dashboard_edit.xml
 
 **So bearbeiten Sie Dashboard- und Reportlet-Daten**
 
-1. Klicken Sie auf **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]** > *Dashboard-Name* , um ein Dashboard zu öffnen.
+1. Klicken **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]** > *Dashboard-Name* , um ein Dashboard zu öffnen.
 1. Klicken Sie auf **[!UICONTROL Layout]**.
 
 | Hierzu | Führen Sie folgende Schritte aus |
@@ -215,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]**  >  **[!UICONTROL Admin]**  >  **[!UICONTROL Alle Admin]**  >  **[!UICONTROL Unternehmenseinstellungen]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Unternehmenseinstellungen]**.
 1. Klicken Sie auf der Seite [!UICONTROL Unternehmenseinstellungen] auf **[!UICONTROL Co-Branding der Adobe Experience Cloud]**.
 1. Klicken Sie auf **[!UICONTROL Co-Branding aktivieren]**.
 1. Durchsuchen Sie Ihre Verzeichnisse, um das Bild auszuwählen, und klicken Sie auf **[!UICONTROL Speichern]**.

@@ -2,12 +2,11 @@
 description: In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe von Daten-Feeds berechnet werden.
 keywords: Daten-Feed;Auftrag;Metrik;vor Spalte;nach Spalte;Bots;Datumsfilterung;Ereigniszeichenfolge;allgemein;Formeln
 title: Metriken berechnen
-feature: Grundlagen zu Reports & Analytics
-uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
+feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '460'
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '457'
 ht-degree: 100%
 
 ---

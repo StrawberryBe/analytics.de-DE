@@ -2,11 +2,10 @@
 description: Die Verarbeitungszeit für eine FTP-Datei, ob für Klassifizierungen oder für Datenquellen, hängt von der Anzahl der Dateien ab, die sich bereits in der Verarbeitungswarteschlange befinden, sowie von der Größe der Datei.
 keywords: FTP, sFTP
 title: FTP-Verarbeitungszeiten
-uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
+feature: FTP Export
 exl-id: 151a5f42-d581-457f-a1d5-113dee21cf1a
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
