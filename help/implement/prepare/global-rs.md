@@ -1,9 +1,10 @@
 ---
 title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
+feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -34,15 +35,15 @@ Adobe empfiehlt in den meisten Fällen die Implementierung einer globalen Report
 Befolgen Sie die folgenden allgemeinen Richtlinien, um die Implementierung einer globalen Report Suite zu verstehen.
 
 1. Erstellen Sie die globale Report Suite in Adobe Analytics. Weitere Informationen finden Sie unter [Erstellen einer Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) im Admin-Benutzerhandbuch.
-1. Arbeiten Sie mit Teams in Ihrer Organisation zusammen, die für die jeweilige Domäne zuständig sind. Viele Teams verfügen über Reporting-Anforderungen, die sich auf ihren Geschäftsbereich beziehen.
+1. Arbeiten Sie mit Teams in Ihrer Organisation zusammen, die für die jeweilige Domain zuständig sind. Viele Teams verfügen über Reporting-Anforderungen, die sich auf ihren Geschäftsbereich beziehen.
 1. Erfassen und aggregieren Sie alle diese Anforderungen in einem [Lösungsdesigndokument](solution-design.md). Wenn Teams ähnliche Anforderungen an eine Dimension haben, können sie dieselbe benutzerdefinierte Variable verwenden. Wenn beispielsweise sowohl Site A als auch Site B eine Breadcrumb-Dimension erfordern, können Implementierungen für beide Sites diese Daten über eVar1 senden.
 
    >[!IMPORTANT]
    >
    >Achten Sie darauf, dass jede benutzerdefinierte Variable domänenübergreifend gleich verwendet wird. Verwenden Sie nicht dieselbe eVar oder dasselbe Ereignis zu verschiedenen Zwecken auf Ihren Sites.
-1. Stellen Sie sicher, dass jede Domäne über eine Datenschicht verfügt, um die Datenerfassung zu vereinfachen. Daten können weiterhin ohne Datenschicht erfasst werden, doch die Zuverlässigkeit und Langlebigkeit Ihrer Implementierung nimmt dann ab, insbesondere wenn Ihre Site neu gestaltet wird.
-1. Verwenden Sie Tags in Adobe Experience Platform, um Analytics zu implementieren. Verschiedene Sites erfordern wahrscheinlich unterschiedliche Datenelemente. Verwenden Sie für jede Domäne spezifische Regeln, um sicherzustellen, dass jedes Datenelement korrekt ausgefüllt wird, und weisen Sie diese Datenelemente dann ihren jeweiligen eVars und Ereignissen zu. Siehe [Tags – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
-1. Schließen Sie den [Adobe Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) ein und verwenden Sie die Funktion [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=de). Diese Funktion führt Besucherdaten zusammen, wenn Benutzer von einer Domäne auf eine andere klicken.
+1. Stellen Sie sicher, dass jede Domain über eine Datenschicht verfügt, um die Datenerfassung zu vereinfachen. Daten können weiterhin ohne Datenschicht erfasst werden, doch die Zuverlässigkeit und Langlebigkeit Ihrer Implementierung nimmt dann ab, insbesondere wenn Ihre Site neu gestaltet wird.
+1. Verwenden Sie Tags in Adobe Experience Platform, um Analytics zu implementieren. Verschiedene Sites erfordern wahrscheinlich unterschiedliche Datenelemente. Verwenden Sie für jede Domain spezifische Regeln, um sicherzustellen, dass jedes Datenelement korrekt ausgefüllt wird, und weisen Sie diese Datenelemente dann ihren jeweiligen eVars und Ereignissen zu. Siehe [Tags – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
+1. Schließen Sie den [Adobe Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) ein und verwenden Sie die Funktion [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=de). Diese Funktion führt Besucherdaten zusammen, wenn Benutzer von einer Domain auf eine andere klicken.
 
 ## Ändern einer bestehenden Implementierung mit einer globalen Report Suite
 

@@ -1,10 +1,10 @@
 ---
 title: Tracking über verschiedene Implementierungstypen hinweg
 description: Verwenden Sie unterschiedliche Implementierungstypen und verfolgen Sie Besucher nahtlos zwischen ihnen.
+feature: Implementation Basics
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 

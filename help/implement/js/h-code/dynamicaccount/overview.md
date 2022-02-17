@@ -1,9 +1,10 @@
 ---
 title: Übersicht über dynamische Konten
 description: Erfahren Sie, wie Sie eine Report Suite mit H-Code dynamisch auswählen.
+feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 

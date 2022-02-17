@@ -2,9 +2,10 @@
 title: Paket-Analyzer
 description: Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
 keywords: Paket-Sniffer, http-Status, 200, 302, Charles
+feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
 

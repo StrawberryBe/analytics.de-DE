@@ -1,9 +1,10 @@
 ---
 title: linkInternalFilters
 description: Verwenden Sie die Variable „linkInternalFilters“, um das automatische Tracking von Exitlinks zu unterstützen.
+feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -21,7 +22,7 @@ Activity Map verwendet diese Variable, um zu ermitteln, welche Links interne Lin
 
 >[!NOTE]
 >
->`linkInternalFilters` und [interne URL-Filter](/help/admin/admin/internal-url-filter-admin.md) sind separate Funktionen, die unterschiedliche Zwecke erfüllen. Die `linkInternalFilters`-Variable wird speziell für das Tracking von Exitlinks verwendet. Interne URL-Filter sind eine Admin-Einstellung, die bei Traffic-Quellendimensionen (wie z. B. verweisende Domäne) hilfreich ist.
+>`linkInternalFilters` und [interne URL-Filter](/help/admin/admin/internal-url-filter-admin.md) sind separate Funktionen, die unterschiedliche Zwecke erfüllen. Die `linkInternalFilters`-Variable wird speziell für das Tracking von Exitlinks verwendet. Interne URL-Filter sind eine Admin-Einstellung, die bei Traffic-Quellendimensionen (wie z. B. verweisende Domain) hilfreich ist.
 
 ## Ausgehende Links – „Niemals verfolgen“ bei Verwendung von Tags in Adobe Experience Platform
 

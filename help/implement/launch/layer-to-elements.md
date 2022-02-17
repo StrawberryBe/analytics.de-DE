@@ -1,9 +1,10 @@
 ---
 title: Zuordnen von Datenschichtobjekten zu Datenelementen
 description: Konfigurieren Sie Tags, um aus Ihrer Datenschicht zu lesen.
+feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 

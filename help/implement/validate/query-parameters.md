@@ -1,9 +1,10 @@
 ---
 title: Datenerfassungs-Abfrageparameter
 description: Listet alle in Bildanforderungen verwendeten Abfragezeichenfolgenparameter auf.
+feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 7025d132da9d281da6d57973a195a5e86a39bf18
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -27,7 +28,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | Zeigt das Ende der Kontextdatenvariablen an. Enthält nie einen Wert. |
 | `c1` – `c75` | [`prop1` – `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) oder benutzerspezifische Traffic-Variablen. |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | Die im Treffer verwendete Währung. |
-| `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | Die Anzahl der Punkte in einer Domäne. Dient zum korrekten Speichern von Cookies. |
+| `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | Die Anzahl der Punkte in einer Domain. Dient zum korrekten Speichern von Cookies. |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | Die Zeichencodierung der Bildanforderung. |
 | `cl` | [`cookieLifetime`](../vars/config-vars/cookielifetime.md) | Die Lebensdauer des Besucher-Cookies. |
 | `ch` | [`channel`](../vars/page-vars/channel.md) | Wird in der Dimension [Website-Bereiche](/help/components/dimensions/site-section.md) verwendet. |

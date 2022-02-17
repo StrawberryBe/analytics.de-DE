@@ -1,10 +1,10 @@
 ---
 title: Hash-Kollisionen
 description: Beschreibt, was eine Hash-Kollision ist und wie sie sich manifestieren kann.
+feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -79,4 +79,4 @@ Wenn Sie ein Segment erstellen, das auf Besuche mit eVar62=&quot;value 500&quot;
 
 Wenn das Segment erneut ausgeführt wird, prüft es den Hash von „value 500“, findet 123, und der Bericht gibt alle Besuche mit dem Hash 123 zurück. Auf diese Weise werden Besuche am 18. Februar in den Ergebnissen eingebunden.
 
-Diese Situation kann bei der Verwendung von Analytics Probleme verursachen. Adobe sucht weiter nach Wegen, die Wahrscheinlichkeit von Hash-Kollisionen in der Zukunft zu verringern. Um diese Situation zu vermeiden, müssen Wege gefunden werden, die einzigartigen Werte zwischen Variablen zu verteilen, nicht erforderliche Werte mit Verarbeitungsregeln zu entfernen oder die Anzahl an Werten pro Variable anderweitig zu verringern.
+Diese Situation kann bei der Verwendung von Analytics Probleme verursachen. Adobe sucht weiter nach Wegen, die Wahrscheinlichkeit von Hash-Kollisionen in der Zukunft zu verringern. Um diese Situation zu vermeiden, müssen Wege gefunden werden, die eindeutigen Werte zwischen Variablen zu verteilen, nicht erforderliche Werte mit Verarbeitungsregeln zu entfernen oder die Anzahl an Werten pro Variable anderweitig zu verringern.

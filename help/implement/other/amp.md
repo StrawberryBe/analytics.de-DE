@@ -1,9 +1,10 @@
 ---
 title: Implementieren mit AMP
 description: Implementieren Sie Adobe Analytics auf AMP-Seiten.
+feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%
 
@@ -157,7 +158,7 @@ Die `"adobeanalytics_nativeConfig"`-Vorlage kann zudem Abfragezeichenfolgenparam
 
 >[!IMPORTANT]
 >
->Ihre `stats.html`-Seite muss in einer anderen Unterdomäne als der Domäne gehostet werden, in der AMP selbst gehostet wird. Das AMP-Framework lässt keine iFrames aus derselben Unterdomäne zu, in der sich die AMP-Seite selbst befindet. Wenn Ihr AMP beispielsweise auf `amp.example.com` gehostet wird, hosten Sie Ihre `stats.html`-Seite in einer anderen Unterdomäne wie `ampmetrics.example.com`.
+>Ihre `stats.html`-Seite muss in einer anderen Unterdomäne als der Domain gehostet werden, in der AMP selbst gehostet wird. Das AMP-Framework lässt keine iFrames aus derselben Unterdomäne zu, in der sich die AMP-Seite selbst befindet. Wenn Ihr AMP beispielsweise auf `amp.example.com` gehostet wird, hosten Sie Ihre `stats.html`-Seite in einer anderen Unterdomäne wie `ampmetrics.example.com`.
 
 Wenn ein Benutzer bei dieser Methode das Tracking auf Ihrer primären Website deaktiviert, wird das Tracking auf all Ihren AMPs ebenfalls deaktiviert. Bei Verwendung dieser Dienstprogrammseite kann AMP auch den Adobe Experience Cloud ID-Dienst unterstützen. Eine separate Report Suite ist nicht erforderlich.
 

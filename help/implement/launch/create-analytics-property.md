@@ -1,9 +1,10 @@
 ---
 title: Erstellen einer Analytics-Eigenschaft in Tags
 description: Erstellen Sie mithilfe von Tags einen Bereich, um die Art der Datenerfassung anzupassen.
+feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -26,7 +27,7 @@ Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verw
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf **[!UICONTROL Neue Eigenschaft]**.
-1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domäne ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domain ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie auf die neu erstellte Tag-Eigenschaft, um deren Einstellungen einzugeben.
 1. Klicken Sie auf den Tab **[!UICONTROL Erweiterungen]** und dann auf **[!UICONTROL Katalog]**.
 1. Suchen Sie nach „Identitätsdienst“ und klicken Sie dann auf **[!UICONTROL Installieren]**.

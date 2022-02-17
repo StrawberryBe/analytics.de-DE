@@ -1,9 +1,10 @@
 ---
 title: Util.cookieRead
 description: Ruft den Wert aus einem Cookie ab.
+feature: Variables
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -11,7 +12,7 @@ ht-degree: 100%
 
 # Util.cookieRead
 
-Cookies können Informationen über Seiten in derselben Domäne hinweg speichern und abrufen. Verwenden Sie die `Util.cookieRead()`-Methode, um einen Wert aus einem Cookie abzurufen.
+Cookies können Informationen über Seiten in derselben Domain hinweg speichern und abrufen. Verwenden Sie die `Util.cookieRead()`-Methode, um einen Wert aus einem Cookie abzurufen.
 
 ## Lesen von Cookies mithilfe von Tags in Adobe Experience Platform
 

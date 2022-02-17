@@ -1,13 +1,14 @@
 ---
 description: Erfahren Sie, wie Sie Multi-Suite-Tagging implementieren, um Bildanforderungen an mehrere Report Suites zu senden.
 title: Implementieren von Multi-Suite-Tagging
-source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: ht
+feature: Implementation Basics
+exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
-
 
 # Implementieren von Multi-Suite-Tagging
 
