@@ -6,7 +6,7 @@ exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 6%
+ht-degree: 78%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Diese Funktion wird derzeit nur eingeschränkt getestet.
+>Diese Funktion wird derzeit eingeschränkt getestet.
 
 Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen Datumsbereich erstrecken, etwas unterschiedlich angezeigt.
 
@@ -23,7 +23,7 @@ Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen 
 | Datum | Erscheinungsbild |
 | --- | --- |
 | **Einzeltag** | ![](assets/single-day.png) |
-| **Datumsbereich** | Das Symbol ändert sich. Wenn Sie den Mauszeiger darüber bewegen, wird der Datumsbereich angezeigt.<p>![](assets/multi-day.png)<p>In einer Tabelle wird an jedem Datum im Datumsbereich ein Symbol angezeigt.<p>![](assets/multi-day-table.png)<p>Beachten Sie Folgendes: an Tagen mit mehr als einer Anmerkung verknüpft ist, wird das Symbol grau dargestellt. |
+| **Datumsbereich** | Das Symbol ändert sich, und wenn Sie den Mauszeiger darüber bewegen, wird der Datumsbereich angezeigt.<p>![](assets/multi-day.png)<p>In einer Tabelle wird an jedem Datum im Datumsbereich ein Symbol angezeigt.<p>![](assets/multi-day-table.png)<p>Beachten Sie Folgendes: An Tagen, an die mehr als eine Anmerkung gebunden ist, wird das Symbol grau dargestellt. |
 
 ## Anzeigen von Anmerkungen in einem Zusammenfassungsdiagramm
 
@@ -31,7 +31,7 @@ Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen 
 
 ## Anzeigen von Anmerkungen in einer PDF-Datei
 
-Da Sie nicht den Mauszeiger über Symbole in einer PDF-Datei bewegen können, enthält diese Datei (nach dem Export) am unteren Rand eines Bedienfelds Anmerkungen zu Erklärungen. Siehe folgendes Beispiel:
+Da Symbole in einer PDF-Datei nicht auf den Mauszeiger reagieren können, enthält diese Datei (nach dem Export) am unteren Rand eines Bedienfelds Anmerkungen zu Erklärungen. Siehe folgendes Beispiel:
 
 ![](assets/ann-pdf.png)
 

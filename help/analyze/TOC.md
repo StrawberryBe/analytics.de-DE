@@ -7,7 +7,7 @@ user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichti
 source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 97%
       + [Komponentenübersicht](analysis-workspace/components/analysis-workspace-components.md)
       + Anmerkungen {#annotations}
          + [Anmerkungen – Übersicht](analysis-workspace/components/annotations/overview.md)
-         + [Anmerkungen erstellen](analysis-workspace/components/annotations/create-annotations.md)
-         + [Anmerkungen verwalten](analysis-workspace/components/annotations/manage-annotations.md)
+         + [Erstellen von Anmerkungen](analysis-workspace/components/annotations/create-annotations.md)
+         + [Verwalten von Anmerkungen](analysis-workspace/components/annotations/manage-annotations.md)
          + [Anzeigen von Anmerkungen](analysis-workspace/components/annotations/view-annotations.md)
       + Dimensionen {#dimensions}
          + [Dimensionsvorschau](analysis-workspace/components/dimensions/view-dimensions.md)
@@ -289,7 +289,7 @@ ht-degree: 97%
    + [Fehlerbehebung bei der Browsererweiterung](activity-map/troubleshooting-browser-extensions.md)
    + [Fehlerbehebung bei der Datenerfassung](activity-map/troubleshoot-data-collection.md)
 + Reports and Analytics {#reports-analytics}
-   + [Erste Schritte mit Reports &amp; Analytics](reports-analytics/getting-started.md)
+   + [Erste Schritte mit Reports and Analytics](reports-analytics/getting-started.md)
    + Übersicht über die Berichterstellungsoberfläche {#reporting-interface}
       + [Über die Datenerfassung](reports-analytics/overview/overview-data-collection.md)
       + [Menü Berichte](reports-analytics/overview/reports-menu.md)
