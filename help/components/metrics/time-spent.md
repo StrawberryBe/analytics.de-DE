@@ -1,9 +1,10 @@
 ---
 title: Berechnung der Besuchszeit in Adobe Analytics
 description: Eine aggregierte Seite mit Dimensionen und Metriken zur Besuchszeit.
+feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 085fd95da383671a51ce1e5888bea3db92c038bd
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '1581'
 ht-degree: 100%
 

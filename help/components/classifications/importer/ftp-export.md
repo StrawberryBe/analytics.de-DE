@@ -1,13 +1,14 @@
 ---
 title: Export von Klassifizierungsdaten über FTP
 description: Der FTP-Export bietet mehr Flexibilität beim Herunterladen von Datensätzen, z. B. die Fähigkeit, Daten aus mehreren Report Suites oder Datensatzdatein mit mehr als 50.000 Datenzeilen herunterzuladen.
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
+feature: Classifications
+exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
 ---
-
 
 # Export von Klassifizierungsdaten über FTP
 
@@ -47,4 +48,3 @@ In diesen Schritten wird beschrieben, wie Sie Klassifizierungen aus Adobe Analyt
 | [!UICONTROL FTP-Konto] | Geben Sie die Informationen zum FTP-Server an, auf den Adobe die Datendatei herunterladen soll, inklusive Host-Namen und Port, Pfad des Zielverzeichnisses, Benutzername und Kennwort. |
 | [!UICONTROL Benachrichtigung] | Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen zu diesem FTP-Download gesendet werden sollen. |
 | [!UICONTROL Codierung] | Wählen Sie die Zeichencodierung für die Datendatei aus. Das Standardcodierungsformat ist entweder UTF-8 oder ISO-8859-1, basierend auf der für die Classification hochgeladenen Codierung. Mit „UTF-8 zu UTF-16“ können Sie UTF-8-codierte Classifications in UTF-16-Codierung konvertieren. Mit „ISO-8859-1 zu UTF-16“ können Sie ISO-8859-1-kodierte Classifications in UTF-16-Kodierung konvertieren.<br>**Hinweis:** Wenn Sie die Konvertierung in UTF-16 auswählen, muss die Quellkodierung mit der Kodierung des Original-Uploads übereinstimmen. Andernfalls kann es zu unerwarteten Ergebnissen kommen. Es wird empfohlen, alle hochgeladenen Dateien in UTF-8 ohne BOM zu kodieren. |
-

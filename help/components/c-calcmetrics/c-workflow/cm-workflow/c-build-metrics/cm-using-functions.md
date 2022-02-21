@@ -1,11 +1,10 @@
 ---
 description: Mit Funktionen können Sie Daten filtern/sortieren und eine statistische Analyse vornehmen.
 title: Funktionen verwenden
-uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
+feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 

@@ -1,8 +1,9 @@
 ---
 title: Häufig gestellte Fragen zu Klassifizierungen
 description: Häufig gestellte Fragen zur Verwendung von Klassifizierungen
+feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%

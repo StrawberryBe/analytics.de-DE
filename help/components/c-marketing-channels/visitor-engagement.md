@@ -2,12 +2,11 @@
 description: Erfahren Sie, wie Sie den Besucherinteraktionsablauf in Marketing-Kanälen festlegen.
 subtopic: Marketing channels
 title: Marketing-Kanalablauf
-feature: Grundlagen zu Reports & Analytics
-uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 100%
 
 ---

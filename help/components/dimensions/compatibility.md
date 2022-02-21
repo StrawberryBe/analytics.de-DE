@@ -1,10 +1,10 @@
 ---
 title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
+feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analy
 | Benutzerspezifischer Link | `customlink` |
 | Tage bis Erstkauf | `daysbeforefirstpurchase` |
 | Tage seit letztem Kauf | `dayssincelastpurchase` |
-| Domäne | `filtereddomain` |
+| Domain | `filtereddomain` |
 | Downloadlink | `downloadlink` |
 | Entrypage | `entrypage` |
 | Ursprüngliche Entrypage | `entrypageoriginal` |

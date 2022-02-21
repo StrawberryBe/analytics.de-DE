@@ -1,10 +1,10 @@
 ---
 title: Referrer-Typ
 description: Der Typ des Referrers, je nachdem, woher der Besucher stammt.
+feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Zu den Dimensionselementen gehören die Typen der Referrer des Treffers. Zu den 
 
 ### Soziale Netzwerke
 
-Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale Netzwerke“. Adobe stellt diese Liste den Kunden von Adobe Analytics zur Verfügung. Wenn Sie empfehlen möchten, dass Adobe dieser Liste eine Domäne hinzufügt, bitten Sie einen Support-Mitarbeiter in Ihrem Unternehmen, sich an die Kundenunterstützung zu wenden.
+Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale Netzwerke“. Adobe stellt diese Liste den Kunden von Adobe Analytics zur Verfügung. Wenn Sie empfehlen möchten, dass Adobe dieser Liste eine Domain hinzufügt, bitten Sie einen Support-Mitarbeiter in Ihrem Unternehmen, sich an die Kundenunterstützung zu wenden.
 
 >[!NOTE]
 >
@@ -200,4 +200,4 @@ Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale 
 Wenn Sie bestimmte Domänen in der Dimension „Referrer-Typ“ anzeigen, kann es vorkommen, dass Domänen, die Sie unter „Suchmaschinen“ erwarten würden, stattdessen unter „Andere Websites“ aufgeführt sind. Beispielsweise sehen Sie möglicherweise `'google.com'` unter „Andere Websites“.
 
 * **Suchmaschinendomänen im Dimensionselement „Suchmaschinen“**: Der Referrer erfüllte alle Kriterien, um von Adobe als Suchmaschine klassifiziert zu werden. Die Referrer-Domäne ist eine gültige Suchmaschine *und* die Referrer-URL enthält einen Abfragezeichenfolgenparameter für Suchbegriffe.
-* **Suchmaschinendomänen im Dimensionselement „Andere Websites“**: Die Referrer-URL erfüllte nicht alle Kriterien, um als Suchmaschine klassifiziert zu werden. Häufige Beispiele sind Unterdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel sind `mail.google.com` und `autos.yahoo.com` keine Suchmaschinen, sondern befinden sich in einer Domäne auf oberster Ebene, die normalerweise mit der Suche verbunden ist. Diese Unterdomänen enthalten keine Abfragezeichenfolge für Suchbegriffe. Daher werden sie unter „Andere Websites“ und nicht unter „Suchmaschinen“ aufgeführt.
+* **Suchmaschinendomänen im Dimensionselement „Andere Websites“**: Die Referrer-URL erfüllte nicht alle Kriterien, um als Suchmaschine klassifiziert zu werden. Häufige Beispiele sind Unterdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel sind `mail.google.com` und `autos.yahoo.com` keine Suchmaschinen, sondern befinden sich in einer Domain auf oberster Ebene, die normalerweise mit der Suche verbunden ist. Diese Unterdomänen enthalten keine Abfragezeichenfolge für Suchbegriffe. Daher werden sie unter „Andere Websites“ und nicht unter „Suchmaschinen“ aufgeführt.

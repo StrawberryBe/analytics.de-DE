@@ -1,10 +1,10 @@
 ---
 description: 'Informationen '
 title: Metriktyp und Attribution
-uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 

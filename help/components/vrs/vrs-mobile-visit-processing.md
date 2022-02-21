@@ -1,10 +1,10 @@
 ---
 description: Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics mobile Besuche berechnet. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
 title: Kontextbezogene Sitzungen
-uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
+feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 100%
 

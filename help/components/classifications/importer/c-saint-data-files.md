@@ -1,16 +1,14 @@
 ---
 description: Mit dem Importeur können Sie Classification-Daten in großen Mengen in Form einer Classification-Datendatei in die Analytics-Berichterstellung hochladen. Für den Import ist ein besonderes Dateiformat erforderlich, damit die Daten erfolgreich hochgeladen werden.
-subtopic: Classifications
 title: Klassifizierungsdatendateien
-feature: Admin Tools
-uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
-source-wordcount: '1785'
+feature: Classifications
+exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '1783'
 ht-degree: 100%
 
 ---
-
 
 # Klassifizierungsdatendateien
 
@@ -206,5 +204,4 @@ Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
 
 ## Fehlerbehebung für Classifications
 
-* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
-
+* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.

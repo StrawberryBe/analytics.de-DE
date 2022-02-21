@@ -1,16 +1,14 @@
 ---
 description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
-subtopic: Classifications
 title: Klassifizierungsvorlage
-feature: Admin Tools
-uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
-source-wordcount: '353'
+feature: Classifications
+exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # Klassifizierungsvorlage
 
@@ -20,14 +18,14 @@ ht-degree: 100%
 
 (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 | Element | Beschreibung |
 | --- | ---|
 | Report Suite auswählen | Wählen Sie die Report Suite aus, die in der Vorlage genutzt werden soll. Report Suite und Datensatz müssen übereinstimmen. |
 | Datensatz, der klassifiziert werden soll | Wählen Sie den Typ der Daten für die Datendatei aus. Das Menü enthält alle Berichte aus Ihren Report Suites, die für Classifications konfiguriert sind. |
 | Export von Numerisch 2 | **Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
-| Kodierung | Wählen Sie die Zeichenkodierung für die Datendatei aus. Standardmäßig wird das Kodierungsformat UTF-8 verwendet.<br>**Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
+| Codierung | Wählen Sie die Zeichencodierung für die Datendatei aus. Standardmäßig wird das Kodierungsformat UTF-8 verwendet.<br>**Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
 | Download | Lädt die Vorlagendatei herunter. |
 
 Die Vorlage beinhaltet die aktuell definierten Classifications (Spaltenüberschriften) eines spezifischen Datensatzes ohne die jeder Classification zugeordneten Daten.
@@ -52,4 +50,3 @@ Die Vorlage liefert das Dateiformat, das für Classifications genutzt werden mus
 1. Speichern Sie die Vorlagendatei auf Ihrem lokalen System.
 
    Die Vorlagendatei ist eine tabulatorgetrennte Datendatei (Dateierweiterung [!DNL .tab]), die von den meisten Tabellenkalkulationsprogrammen unterstützt wird.
-

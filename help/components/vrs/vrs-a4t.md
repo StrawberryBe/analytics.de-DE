@@ -1,9 +1,10 @@
 ---
 description: Besondere Hinweise bei der Verwendung von Virtual Report Suites in A4T und Adobe Analytics
 title: Virtual Report Suites und Analytics for Target (A4T)
+feature: VRS
 exl-id: b81e5100-f512-4219-a8ab-5d7f6219d206
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 

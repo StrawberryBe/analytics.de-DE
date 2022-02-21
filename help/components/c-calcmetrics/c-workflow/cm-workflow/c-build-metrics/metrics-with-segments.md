@@ -1,10 +1,10 @@
 ---
 description: 'Durch die Segmentierung einzelner Metriken können Sie Metriken innerhalb eines Berichts vergleichen. '
 title: Segmentierte Metriken
-uuid: 88f9829b-76e4-4598-9494-084a91602bc1
+feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 

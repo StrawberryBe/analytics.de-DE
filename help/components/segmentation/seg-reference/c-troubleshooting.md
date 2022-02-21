@@ -1,11 +1,10 @@
 ---
 description: Behebung von Fehlern und Erkennen von Problemen im Zusammenhang mit Segmenten.
 title: Fehlerbehebung bei der Segmentierung
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -13,14 +12,14 @@ ht-degree: 100%
 
 # Fehlerbehebung bei der Segmentierung
 
-## Fehler: „Inkompatible Elemente in diesem Segment“ {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Fehler: „Inkompatible Elemente in diesem Segment“  {#incompatible}
 
 Dieser Fehler wird angezeigt, wenn Sie versuchen, ein Segment im Data Warehouse-Ordner zu speichern und das Segment Elemente enthält, die mit Data Warehouse nicht kompatibel sind. Um den Fehler zu beheben, befolgen Sie eine der beiden folgenden Möglichkeiten:
 
 * Speichern Sie das Segment in einem anderen Ordner.
 * Entfernen oder ändern Sie die inkompatiblen Segmentbestandteile.
 
-## Warum gibt mein Segment überhaupt keine Daten zurück? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Warum gibt mein Segment überhaupt keine Daten zurück? {#no-data}
 
 Mögliche Gründe:
 
@@ -28,7 +27,7 @@ Mögliche Gründe:
 * Der Bericht unterstützt keine Segmentierung.
 * Es stimmen keine Daten mit den Segmentierungskriterien überein.
 
-## Warum sehe ich das Segment, das ich erstellt habe, nicht im Segment-Manager? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Warum sehe ich das Segment, das ich erstellt habe, nicht im Segment-Manager? {#invisible}
 
 Mögliche Gründe:
 
@@ -40,7 +39,7 @@ Mögliche Gründe:
 * Das Segment wurde nicht gespeichert.
 * Die IP-Adresse ist möglicherweise auf Seiten des Benutzers gesperrt.
 
-## Warum sind die Seitendaten, die nach dem Anwenden eines Segments angezeigt werden, falsch? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Warum sind die Seitendaten, die nach dem Anwenden eines Segments angezeigt werden, falsch? {#page-data}
 
 Mögliche Gründe:
 

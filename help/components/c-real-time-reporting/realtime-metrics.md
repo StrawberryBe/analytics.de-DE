@@ -2,9 +2,9 @@
 description: Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werden. Ggfs. definierte Classifications werden ebenfalls unterstützt.
 title: Unterstützte Echtzeit-Metriken und -Dimensionen
 topic-fix: Reports
-uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
+feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%

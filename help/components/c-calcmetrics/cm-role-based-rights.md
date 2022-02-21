@@ -1,12 +1,12 @@
 ---
 description: Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administratorebene und Nicht-Administratoren unterschieden.
 title: 'Berechnete Metriken: Rollenbasierte Rechte'
-uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administrat
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
-   <td colname="col02"> Administratoren können berechnete Metriken sowie <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de"  >Gruppen</a> erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. </td> 
+   <td colname="col02"> Administratoren können berechnete Metriken sowie Produktprofile in der Admin Console erstellen, um die Benutzerrechte zur Erstellung berechneter Metriken zu begrenzen. </td> 
    <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
    <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: Können ihre eigenen berechneten Metriken und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword"> Report Builder </span>: Hiermit können Sie die eigenen berechneten sowie die freigegeben Metriken anzeigen/bearbeiten/löschen usw. </p> </td> 
    <td colname="col4"> Können berechnete Metriken als autorisiert genehmigen. </td> 

@@ -1,9 +1,10 @@
 ---
 title: Referrer
 description: Die URL, auf der sich ein Besucher befand, bevor er zu Ihrer Site durchklickte.
+feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 
@@ -32,7 +33,7 @@ Zu den Dimensionselementen gehören die URLs, durch die Besucher zu Ihrer Site k
 
 ### Dimensionselemente, die `googleusercontent.com` enthalten
 
-Benutzer können Dimensionselemente mit der Domäne `googleusercontent.com` anzeigen.
+Benutzer können Dimensionselemente mit der Domain `googleusercontent.com` anzeigen.
 
 * **Zwischengespeicherte Seiten**: Die Spider von Google durchsuchen ständig das Web und speichern Kopien von Seiten, falls diese offline geschaltet werden. Diese zwischengespeicherten Seiten sind neben den meisten Suchergebnissen verfügbar, indem Sie auf den Link „Zwischengespeichert“ klicken. Wenn ein Nutzer auf diesen Link klickt und den von Google zwischengespeicherten Inhalt anzeigt, ist `webcache.googleusercontent.com` ein typisches Dimensionselement.
-* **Übersetzte Seiten**: Google bietet einen robusten und bequemen Übersetzungsdienst. Wenn Sie eine Site mit diesem Dienst anzeigen, stammt sie von `translate.googleusercontent.com`. Dieses Dimensionselement wird angezeigt, wenn der Benutzer auf einen Link klickt, um zum ursprünglichen Inhalt zurückzukehren.
+* **Übersetzte Seiten**: Google bietet einen robusten und bequemen Übersetzungsdienst. Wenn Sie eine Site mit diesem Service anzeigen, stammt sie von `translate.googleusercontent.com`. Dieses Dimensionselement wird angezeigt, wenn der Benutzer auf einen Link klickt, um zum ursprünglichen Inhalt zurückzukehren.

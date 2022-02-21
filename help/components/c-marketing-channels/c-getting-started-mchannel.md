@@ -1,13 +1,14 @@
 ---
 title: Erste Schritte mit Marketing-Kanälen
 description: Informieren Sie sich über den Workflow für Marketing-Kanäle, zur automatischen Einrichtung und zur Übernahme von Report Suite-Vorlageneinstellungen für mehrere Report Suites.
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+feature: Marketing Channels
+exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit Marketing-Kanälen
 
@@ -95,4 +96,3 @@ So verwenden Sie eine Master-Report Suite als Vorlage, um Ihre Marketingkanalkon
    1. Wählen Sie auf der Seite Report Suite-Manager die Vorlagen-Report Suite sowie eine oder mehrere Ziel-Report Suites aus.
    1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Verarbeitungsregeln]**.
    1. Klicken Sie auf **[!UICONTROL Speichern]**. Wenn die Schaltfläche „Speichern“ deaktiviert ist, aktivieren Sie sie, indem Sie eine der Regeln erweitern.
-

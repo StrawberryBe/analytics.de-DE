@@ -1,16 +1,14 @@
 ---
 description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
-subtopic: Classifications
 title: Klassifizierungsregelsätze
-feature: Admin Tools
-uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Classifications
+exl-id: 5c118541-d143-4947-b693-514d7042abe6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
-
 
 # Klassifizierungsregelsätze
 

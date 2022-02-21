@@ -1,10 +1,10 @@
 ---
 title: Produktansichten
 description: Die Anzahl der Aufrufe der Produktseiten.
+feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 
