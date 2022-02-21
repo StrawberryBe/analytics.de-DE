@@ -3,9 +3,9 @@ description: Data Sources bietet zwei zusätzliche Möglichkeiten, um Ereignisse
 subtopic: Data sources
 title: Transaktions- und Kundenintegration
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 79%
@@ -38,7 +38,7 @@ Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Repo
 
  -->
 
-Um zu sehen, ob die Transaktions-ID-Aufzeichnung aktiviert ist, navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Datenquellen]**.
+Um zu sehen, ob die Transaktions-ID-Aufzeichnung aktiviert ist, navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ Mithilfe von Transaktions-IDs können Sie den Status eines Besuchers zu einem be
 
 Der Wechsel von der Online- in die Offline-Umgebung verläuft oftmals anonym.
 
-Transaktions-ID-Ereignis sind nicht in den Metriken zum Besuchsbeitrag enthalten (die in den Marketing-Berichten angezeigt werden). Dies liegt daran, dass die Transaktions-ID-Daten nicht mit einem Besuch verknüpft sind (da das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verknüpft sind.
+Transaktions-ID-Ereignisse sind nicht in den Metriken zum Besuchsbeitrag enthalten (diejenigen, die in den Marketing-Berichten angezeigt werden). Dies liegt daran, dass die Transaktions-ID-Daten nicht mit einem Besuch verknüpft sind (da das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verknüpft sind.
 
 Siehe [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

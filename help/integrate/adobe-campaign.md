@@ -1,10 +1,10 @@
 ---
 description: Erfahren Sie, wie Sie Adobe Campaign-Berichte in Adobe Analytics aktivieren
 title: Wie integriere ich Adobe Campaign-Berichte in Adobe Analytics?
+feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -62,8 +62,8 @@ Die folgenden **Metriken** sind in Campaign der Adobe Analytics Report Suites ve
 * Adobe Campaign – Geklickt
 * Adobe Campaign – Verarbeitet
 * Adobe Campaign – Geliefert
-* Adobe Campaign – Einmalige Öffnung
-* Adobe Campaign – Einmaliger Klick
+* Adobe Campaign – Einzelöffnung
+* Adobe Campaign – Einzelklick
 * Adobe Campaign – Abonnement beendet
 * Adobe Campaign – Rücksendungen insgesamt
 * Adobe Campaign – Instanzen für ID der ausgeführten Bereitstellung

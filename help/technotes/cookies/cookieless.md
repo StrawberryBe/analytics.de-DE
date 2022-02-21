@@ -1,13 +1,14 @@
 ---
 title: Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies
 description: Erfahren Sie, wie Sie die Auswirkungen von Beschränkungen für Browser-Cookies reduzieren können, um die Datenerfassung für Adobe Analytics zu verbessern.
-source-git-commit: 6c354a343648162ce2951c52a70a688970e1304d
-workflow-type: ht
+feature: Data Configuration and Collection
+exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
 ---
-
 
 # Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies
 
@@ -37,5 +38,4 @@ Praktische Schritte, mit denen Ihr Unternehmen die Abkehr von Third-Party-Cookie
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics und Browser-Cookies](cookies.md)>
->
+>[Adobe Analytics und Browser-Cookies](cookies.md)

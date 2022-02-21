@@ -3,12 +3,12 @@ description: Schritte, die Sie durchführen können, um die Verwendung von Daten
 subtopic: Data sources
 title: Vorbereiten auf die Verwendung von Data Sources
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Sie müssen die Metriken oder Messungen verstehen, die in den Datenquellen entha
 
 Nachdem Sie die entsprechenden Metrik-zu-Ereignis-Zuordnungen für die Data Sources-Daten bestimmt haben, benennen Sie die Ereignisse mit beschreibenden Namen für die zugeordnete Data Sources-Metrik um.
 
-Siehe [Erfolgsereignisse](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe der Admin Tools.
+Siehe [Erfolgsereignisse](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=de) in der Hilfe der Admin Tools.
 
 >[!NOTE]
 >

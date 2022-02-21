@@ -1,8 +1,9 @@
 ---
 title: Transaktions-ID-Datenquellen
 description: Erfahren Sie mehr über den allgemeinen Workflow bei der Verwendung der Transaktions-ID-Datenquellen.
+feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 45%
@@ -21,11 +22,11 @@ Wenn ein Transaktionsdatenquellen-Treffer gesendet wird, sucht die Transaktions-
 
 ## Beispiel
 
-Wenn ein Online-Treffer mit der Transaktions-ID 1256 übergeben und darauf `evar1=blue`, `evar2=water` und `event1` festgelegt wird, werden Transaktionsdaten für die Transaktions-ID 1256 mit `evar1=blue`, `evar2=water` gespeichert. Im Rahmen der Transaktionsinformationen werden keine Ereigniswerte gespeichert.
+Wenn ein Online-Treffer mit der Transaktions-ID 1256 übergeben und weitergegeben wird `evar1=blue`, `evar2=water` und `event1` festgelegt sind, werden Transaktionsdaten für die Transaktions-ID 1256 mit `evar1=blue`, `evar2=water`. Im Rahmen der Transaktionsinformationen werden keine Ereigniswerte gespeichert.
 
-Nehmen wir nun an, ein Datenquellen-Transaktionstreffer wird dann über das System übergeben, wobei die Transaktions-ID 1256 und `evar1=yellow`, `evar3=mountain` und `event2` festgelegt sind. Das System findet die gespeicherten Transaktionsdaten und in den Treffersätzen der Datenquellentransaktion `evar2=water` (da dies auf den ursprünglichen Treffer festgelegt wurde). Sie wird nicht auf `evar1=blue` gesetzt (wie beim ursprünglichen Treffer), da für `evar1` (gelb) bereits ein Wert für den Datenquellen-Transaktionstreffer festgelegt wurde.  Der Treffer der Datenquellentransaktion führt also zu `evar1=yellow`, `evar2=water` (aus dem ursprünglichen Online-Treffer) und `evar3=mountain`. Diese 3 eVar haben `event2` festgelegt - das -Ereignis aus dem Datenquellen-Transaktionstreffer.
+Nehmen wir nun an, dass ein Datenquellen-Transaktionstreffer dann über das System mit der Transaktions-ID 1256 und `evar1=yellow`, `evar3=mountain` und `event2` gesetzt. Das System findet die gespeicherten Transaktionsdaten und die Treffersätze der Datenquelle. `evar2=water` (da dies für den ursprünglichen Treffer festgelegt wurde). Sie wird nicht festgelegt `evar1=blue` (da es sich um den ursprünglichen Treffer handelte), da ein Wert für `evar1` (gelb) bereits im Treffer der Datenquelle-Transaktion festgelegt.  Somit führt der Treffer der Datenquellentransaktion dazu, dass `evar1=yellow`, `evar2=water` (aus dem ursprünglichen Online-Treffer) und `evar3=mountain`. Diese 3 eVar haben `event2` set - das Ereignis aus dem Datenquellen-Transaktionstreffer.
 
-Es werden keine Werte aus dem Datenquellen-Transaktionstreffer `event1` festgelegt, wenn der Datenquellen-Transaktionstreffer verarbeitet wird.
+Es werden keine Werte aus dem Datenquellen-Transaktionstreffer abgerufen `event1` festgelegt wird, wenn der Treffer der Datenquelle-Transaktion verarbeitet wird.
 
 ## Allgemeiner Workflow Transaktions-ID-Datenquellen
 

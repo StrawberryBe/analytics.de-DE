@@ -3,9 +3,9 @@ description: Die Importdatei-Vorlage hilft Ihnen, mit dem Import zu beginnen.
 subtopic: Data sources
 title: Importdatei-Vorlage generieren
 topic-fix: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 98%
@@ -25,7 +25,7 @@ Die Datenquelle-Vorlage ist eine .txt-Datei, die Sie mit einem beliebigen Texted
 Siehe [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) für weitere Details.
 
 1. Bei Analytics anmelden.
-1. Wählen Sie in der Suite-Kopfzeile **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
+1. Wählen Sie in der Kopfzeile der Suite die Option **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
 1. Wählen Sie unter Data Sources auf der Registerkarte **[!UICONTROL „Erstellen“]** eine Vorlagenkategorie und einen Typ aus.
 1. Überprüfen Sie die Aktivierungsanweisungen/-informationen und klicken Sie auf **[!UICONTROL „Aktivieren“]**. 
 

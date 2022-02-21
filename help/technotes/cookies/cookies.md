@@ -1,13 +1,14 @@
 ---
 title: Adobe Analytics und Browser-Cookies
 description: Erfahren Sie, wie sich Tracking-Präventionsmaßnahmen auf von Adobe Analytics gesetzte Third-Party- und First-Party-Cookies auswirken.
-source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
-workflow-type: ht
+feature: Data Configuration and Collection
+exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics und Browser-Cookies
 
@@ -50,9 +51,9 @@ ITP-Richtlinien werden häufig weiterentwickelt. Die neuesten Richtlinien finden
 
 Alle von Adobe gesetzten First-Party-Cookies und die zugehörigen JavaScript-Bibliotheken sind von ITP-Richtlinien betroffen:
 
-* [AMCV-Cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), die von der Bibliothek des Besucher-ID-Diensts von Adobe Experience Cloud (ECID) festgelegt werden
+* [AMCV-Cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html), die von der Bibliothek des Besucher-ID-Diensts von Adobe Experience Cloud (ECID) festgelegt werden
 * Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de), wenn es für die First-Party-Datenerfassung mit CNAME konfiguriert ist
-* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
+* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
 
 #### Wie wirkt sich ITP auf Safari auf Analytics aus?
 
@@ -73,7 +74,7 @@ Wenn sich diese Einschränkungen auf Ihre Daten auswirken, sehen Sie Folgendes:
 
 Third-Party-Cookies werden nicht von den Websites erstellt, die Anwender besuchen.
 
-Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Third-Party-Cookies eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Third-Party-Cookie, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Third-Party-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Third-Party-Cookies eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Third-Party-Cookie, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Third-Party-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 In Analytics-Implementierungen werden Third-Party-Cookies für Domain-übergreifendes Tracking und für Werbeanwendungen wie Retargeting-Anzeigen verwendet. Mit Third-Party-Cookies können Sie Besucher identifizieren, die verschiedene Domains besuchen, deren Inhaber Sie sind, oder denen Anzeigen auf Sites präsentiert werden, deren Inhaber Sie nicht sind.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -121,7 +122,7 @@ Die folgende Tabelle fasst die SameSite-Attribute für Analytics-Cookies zusamme
 
 Vergewissern Sie sich, dass Ihre JavaScript-Konfiguration HTTPS für alle Aufrufe an Adobe-Dienste verwendet.
 
-Wenn Ihre Site den Besucher-ID-Dienst von Experience Cloud verwendet, leitet der Dienst HTTP-Aufrufe von Drittanbietern an den HTTPS-Endpunkt weiter, was die Latenz erhöhen kann, aber auch bedeutet, dass Sie Ihre Konfiguration nicht ändern müssen.
+Wenn Ihre Site den Besucher-ID-Dienst von Experience Cloud verwendet, leitet der Service HTTP-Aufrufe von Drittanbietern an den HTTPS-Endpunkt weiter, was die Latenz erhöhen kann, aber auch bedeutet, dass Sie Ihre Konfiguration nicht ändern müssen.
 
 #### Ändern des SameSite-Werts bei Verwendung eines CNAME für mehrere Domains {#samesite-one-cname}
 

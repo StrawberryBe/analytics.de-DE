@@ -2,9 +2,10 @@
 description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 title: Vollständige Verarbeitung
 topic-fix: Developer and implementation
+feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -42,7 +43,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>Kampagne </p> </td> 
    <td colname="col3"> <p>Konversion-Kampagnen-Trackingcode. </p> </td> 
   </tr> 
   <tr> 
@@ -199,7 +200,7 @@ Die folgende Tabelle enthält Traffic-Variablen, die automatisch ausgefüllt wer
   </tr> 
   <tr> 
    <td colname="col1"> <p>colorDepth </p> </td> 
-   <td colname="col2"> <p>Bildschirmfarbtiefe in Bit (z. B. 24) </p> </td> 
+   <td colname="col2"> <p>Bildschirmfarbtiefe in Bit (z. B. 24). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 

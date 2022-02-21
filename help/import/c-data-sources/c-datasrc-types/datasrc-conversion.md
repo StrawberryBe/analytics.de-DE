@@ -3,10 +3,9 @@ description: Data Sources unterstützt die folgenden Konversion-Datendimensionen
 subtopic: Data sources
 title: Konversion
 topic-fix: Developer and implementation
-uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+feature: Data Sources
 exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Data Sources unterstützt die folgenden Konversion-Datendimensionen und -Metriken für Datentypen, die als Konversion verarbeitet werden.
 
-## Konversion  Dimensionen und Metriken {#section_FA1731B232B246DABEDF5A5D84159084}
+## Konversion-Dimensionen und -Metriken  {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. Die Anzahl der von einer Bericht-Suite unterstützten benutzerspezifischen Ereignisse und eVar-Ansichten ist vom Vertrag abhängig und kann sich je nach Unternehmen unterscheiden.
 

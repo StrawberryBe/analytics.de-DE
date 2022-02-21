@@ -1,10 +1,10 @@
 ---
 description: Verschiedene Berichte in Adobe Analytics können abhängig vom aufgerufenen spezifischen Bericht „Nicht angegeben“, „Keine“, „Sonstige“ oder „Unbekannt“ anzeigen. Im Allgemeinen bedeutet dieser Zeileneintrag, dass die Variable nicht definiert wurde oder anderweitig nicht verfügbar war.
 title: „Nicht angegeben“, „Keine“, „Sonstige“ und „Unbekannt“ in Berichten
+feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 100%
 

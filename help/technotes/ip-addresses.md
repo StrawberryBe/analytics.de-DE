@@ -1,9 +1,10 @@
 ---
 title: Von Adobe Analytics verwendete IPs und Domains
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
+feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -21,7 +22,7 @@ Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datene
 
 Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen zur Zulassungsliste Ihrer Firewall hinzuzufügen, um eine optimale Nutzung von Adobe Analytics zu gewährleisten.
 
-| Technologie | Domäne |
+| Technologie | Domain |
 | --- | --- |
 | Adobe Analytics-Domains | `adobe.com`, `adobe.net`, `adobe.io` |
 | Veraltete Adobe Analytics-Domäne | `omniture.com` |

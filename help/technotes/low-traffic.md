@@ -1,11 +1,10 @@
 ---
 description: Wenn ein Bericht eine große Anzahl eindeutiger Werte aufweist, kann mit Adobe nun sichergestellt werden, dass die wichtigsten Werte in Ihrem Bericht auftauchen.
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
-feature: Metrics
-uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
+feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
 

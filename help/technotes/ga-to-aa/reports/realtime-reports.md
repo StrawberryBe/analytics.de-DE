@@ -1,10 +1,10 @@
 ---
 title: Echtzeitberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Echtzeitberichte in Adobe Analytics abrufen, die auf Anwender ausgerichtet sind, die mit Google Analytics besser vertraut sind.
+feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Echtzeitereignisse zeigen Ihnen, welche Ereignisse derzeit auf Ihrer Site am hä
 
 >[!NOTE]
 >
->Bei Verwendung benutzerdefinierter Ereignisse in Echtzeitberichten muss der Dimensionswert im selben Treffer wie das benutzerspezifische Ereignis definiert werden. Wenn Sie beispielsweise ein benutzerdefiniertes Ereignis „Registrierungen“ für die Dimension „Referrer-Domäne“ anzeigen, werden ohne zusätzliche Implementierung keine Daten zurückgegeben. Da die verweisende Domäne nur beim ersten Treffer angezeigt wird und ein benutzerspezifisches Ereignis normalerweise später während des Besuchs auftritt, können die Daten nicht in Echtzeitberichten verknüpft werden. Diese Daten stehen in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz von 30 bis 90 Minuten zur Verfügung.
+>Bei Verwendung benutzerdefinierter Ereignisse in Echtzeitberichten muss der Dimensionswert im selben Treffer wie das benutzerspezifische Ereignis definiert werden. Wenn Sie beispielsweise ein benutzerdefiniertes Ereignis „Registrierungen“ für die Dimension „Referrer-Domäne“ anzeigen, werden ohne zusätzliche Implementierung keine Daten zurückgegeben. Da die verweisende Domain nur beim ersten Treffer angezeigt wird und ein benutzerspezifisches Ereignis normalerweise später während des Besuchs auftritt, können die Daten nicht in Echtzeitberichten verknüpft werden. Diese Daten stehen in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz von 30 bis 90 Minuten zur Verfügung.
 
 ## Echtzeitkonversionen
 

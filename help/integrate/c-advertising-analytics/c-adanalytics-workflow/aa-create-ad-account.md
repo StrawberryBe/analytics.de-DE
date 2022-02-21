@@ -3,10 +3,10 @@ title: Einrichten eines Werbekontos in Advertising Analytics
 description: Ermöglicht die Erstellung neuer Werbekonten und die Zuordnung mehrerer Konten zu mehreren Report Suites.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 93%
+source-wordcount: '819'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
    | --- | --- |
    | Typ | Sie haben zwei Möglichkeiten: Google AdWords und Microsoft Bing.  Hinweis: Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar. |
    | Kontoname | Sie können einen beliebigen Kontonamen festlegen. Dieser Name wird später in der Benutzeroberfläche angezeigt. |
-   | OAuth-Token | **Hinweis:** Bei OAuth handelt es sich um einen offenen Zugriffsstandard, der häufig eingesetzt wird, um Websites oder Anwendungen Zugang zu Informationen auf anderen Websites zu bieten, ohne hierzu Passwörter preiszugeben. Sie werden feststellen, dass Sie an eine Drittanbieter-URL (efrontier.com) weitergeleitet werden. Adobe nutzt efrontier, um den OAuth-Authentifizierungsprozess für alle drei Suchmaschinen zu verarbeiten. Wenn Sie Internet Explorer 11 (oder früher) verwenden, können Sie das OAuth-Token für keine der drei Suchmaschinen erfolgreich abrufen. Verwenden Sie stattdessen einen anderen Webbrowser.<p>Wenn Sie auf **[!UICONTROL Token abrufen]** klicken, wird der OAuth2-Authentifizierungsprozess gestartet. Sie werden daraufhin aufgefordert, sich mit Ihren Anmeldedaten bei Ihrem Google- oder Bing-Suchkonto anzumelden. Je nach ausgewählter Suchmaschine unterscheidet sich der Prozess leicht: <ul><li>Google AdWords: Geben Sie die Google-Konto-ID an</li><li>Microsoft Bing: Geben Sie die Bing-Konto-ID und die Bing-Kunden-ID an.</li></ul>Weitere Informationen finden Sie unter [Finden Sie Ihre Konto-ID. ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) Sobald Sie sich erfolgreich angemeldet haben, wird die **[!UICONTROL OAuth-Token]** Feldanzeigen **[!UICONTROL Abrufen]**. |
+   | OAuth-Token | **Hinweis:** Bei OAuth handelt es sich um einen offenen Zugriffsstandard, der häufig eingesetzt wird, um Websites oder Anwendungen Zugang zu Informationen auf anderen Websites zu bieten, ohne hierzu Passwörter preiszugeben. Sie werden feststellen, dass Sie an eine Drittanbieter-URL (efrontier.com) weitergeleitet werden. Adobe nutzt efrontier, um den OAuth-Authentifizierungsprozess für alle drei Suchmaschinen zu verarbeiten. Wenn Sie Internet Explorer 11 (oder früher) verwenden, können Sie das OAuth-Token für keine der drei Suchmaschinen erfolgreich abrufen. Verwenden Sie stattdessen einen anderen Webbrowser.<p>Wenn Sie auf **[!UICONTROL Token abrufen]** klicken, wird der OAuth2-Authentifizierungsprozess gestartet. Sie werden aufgefordert, sich mit Ihren Anmeldedaten bei Ihrem Google-/Bing-Suchkonto anzumelden. Je nach ausgewählter Suchmaschine unterscheidet sich der Prozess leicht: <ul><li>Google AdWords: Geben Sie die Google-Konto-ID an</li><li>Microsoft Bing: Geben Sie die Bing-Konto-ID und die Bing-Kunden-ID an.</li></ul>Weitere Informationen finden Sie unter [Finden Sie Ihre Konto-ID. ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) Sobald Sie sich erfolgreich angemeldet haben, wird die **[!UICONTROL OAuth-Token]** Feldanzeigen **[!UICONTROL Abrufen]**. |
 
 1. Geben Sie im Abschnitt **[!UICONTROL Tracking]** Informationen dazu ein, wie die Suchmaschine von Ihrer Adobe Analytics-Implementierung verfolgt wird. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß mit den Suchmaschinendaten zu ergänzen.
 Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlinien fest:

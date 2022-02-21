@@ -1,9 +1,10 @@
 ---
 title: Ende der Lebensdauer für Full Processing Data Sources
 description: Gründe für das Ende der Lebensdauer und Vergleiche zwischen der Bulk Data Insertion-API und Full Processing Data Sources.
+feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -29,7 +30,7 @@ Die Bulk Data Insertion-API (BDIA) bietet zusätzliche Funktionalität und deckt
 
 ## Hauptunterschiede in Dateiformat und Inhalt
 
-* Bulk Data Insertion hat einige zusätzliche erforderliche Felder. Einzelheiten finden Sie in der [Dokumentation](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=de#!AdobeDocs/analytics-2.0-apis/master/bdia.md).
+* Bulk Data Insertion hat einige zusätzliche erforderliche Felder. Einzelheiten finden Sie in der [Dokumentation](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md).
 * Um die Besucherkontinuität und -zuordnung sicherzustellen, erfordert das Einfügen von Massendaten, dass Zeilen innerhalb von Dateien in chronologischer Reihenfolge sortiert werden. Weitere Informationen zur dateiübergreifenden Sortierung von Besucheraktivitäten finden Sie unter [Besuchergruppen](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=de#!AdobeDocs/analytics-2.0-apis/master/bdia.md#visitor-groups).
 * Bulk Data Insertion erfordert, dass die Dateien im .gzip-Format .csv-komprimiert sind.
 * BDIA verwendet „timestamp“ statt „date“.
@@ -43,7 +44,7 @@ Weitere Einzelheiten finden Sie im folgenden Vergleich der Feldwerte, die in Bul
 | aamlh | Nicht unterstützt | Standorthinweis für Adobe Audience Manager. |
 | browserHeight | browserHeight | Browser-Höhe in Pixel (z. B. 768) |
 | browserWidth | browserWidth | Browser-Breite in Pixel (z. B. 1024) |
-| campaign | campaign | Konversion-Kampagnen-Trackingcode |
+| campaign | Kampagne | Konversion-Kampagnen-Trackingcode |
 | channel | channel | Kanal-Zeichenfolge (z. B. Sportabteilung) |
 | colorDepth | colorDepth | Bildschirmfarbtiefe in Bit (z. B. 24) |
 | connectionType | connectionType | Verbindungstyp des Besuchers (LAN oder Modem) |

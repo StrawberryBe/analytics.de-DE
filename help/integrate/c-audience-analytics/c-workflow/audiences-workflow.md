@@ -1,19 +1,19 @@
 ---
 description: Bereitstellen, Weitergeben und Verwenden von Zielgruppendaten.
-solution: Experience Cloud
-title: Workflow-Übersicht
-uuid: 211e079b-46ee-4238-856d-7cac40620717
+solution: Analytics
+title: Übersicht über den Audience Analytics-Workflow
+feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 86%
 
 ---
 
-# Workflow-Übersicht
+# Übersicht über den Audience Analytics-Workflow
 
-Bereitstellen, Weitergeben und Verwenden von Zielgruppendaten.
+Bereitstellen, Freigeben und Verwenden von Zielgruppendaten.
 
 | Schritt # | Beschreibung der Aufgabe | Hinweise |
 |--- |--- |--- |

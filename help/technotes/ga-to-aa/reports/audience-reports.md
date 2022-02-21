@@ -1,10 +1,10 @@
 ---
 title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace zielgruppenbasierte Berichte erstellen.
+feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -147,12 +147,12 @@ Weitere Informationen zu den jeweiligen Dimensionen finden Sie auf den folgenden
 
 ## Technologie – Netzwerk
 
-Der Netzwerkbericht ähnelt der Dimension **Domäne**.
+Der Netzwerkbericht ähnelt der Dimension **Domain**.
 
-1. Suchen Sie im Menü „Komponenten“ die Dimension **Domäne** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
+1. Suchen Sie im Menü „Komponenten“ die Dimension **Domain** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Domäne](/help/components/dimensions/domain.md) im Benutzerhandbuch zu Komponenten.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Domain](/help/components/dimensions/domain.md) im Benutzerhandbuch zu Komponenten.
 
 ## Mobil – Übersicht
 

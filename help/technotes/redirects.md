@@ -1,12 +1,10 @@
 ---
 description: Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu einem neuen Standort. Sie werden entweder auf Webbrowser-Ebene (clientseitige Umleitungen) oder Webserver-Ebene (serverseitige Umleitungen) durchgeführt.
 keywords: Analytics-Implementierung
-subtopic: Redirects
 title: Umleitungen und Aliase
-topic-fix: Developer and implementation
-uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 100%
@@ -43,7 +41,7 @@ Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht um
 Umleitungen können dazu führen, dass der Browser die eigentliche verweisende URL ausblendet. Betrachten wir das folgende Szenario:
 
 1. Der Benutzer verweist seinen Browser auf `https://www.google.com`, gibt *Discount-Airline Tickets* in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
-1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaiiforfree.com/]. Diese *Vanity*-Domäne ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
+1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaiiforfree.com/]. Diese *Vanity*-Domain ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
 1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit sind die ursprünglichen Suchinformationen nicht mehr vorhanden, die in den [!DNL Analytics]-Berichten (z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen], [!UICONTROL Keywords]) verwendet wurden.
 
 ## Umleitungen implementieren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
@@ -202,4 +200,4 @@ hp=N
 [AQE]
 ```
 
-Nachdem Sie überprüft haben, ob der Adobe [!UICONTROL Debugger] diese Variablen anzeigt, sollten Sie sich immer vergewissern, dass die Suchbegriffe und die ursprünglich (vor der Umleitung) verweisende Domäne in Berichten Traffic verzeichnen.
+Nachdem Sie überprüft haben, ob der Adobe [!UICONTROL Debugger] diese Variablen anzeigt, sollten Sie sich immer vergewissern, dass die Suchbegriffe und die ursprünglich (vor der Umleitung) verweisende Domain in Berichten Traffic verzeichnen.

@@ -1,12 +1,10 @@
 ---
 description: Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
-subtopic: Data sources
 title: Data Sources-Datei hochladen
 topic-fix: Developer and implementation
-uuid: 5a9dde91-1297-47e5-9393-611b40413c17
+feature: Data Sources
 exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 87%
@@ -19,7 +17,7 @@ Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Ve
 
 * Wählen Sie auf der Registerkarte [!UICONTROL Data Sources-Manager] neben dem Datenquelleneintrag die Option „FTP-Info“ aus, um den FTP-Host sowie Anmelde- und Kennwortinformationen für das FTP-Konto der Datenquelle anzuzeigen. Jeder mit Zugriff auf diese Informationen kann Daten in Ihre Report Suite hochladen.
 * Aus Sicherheitsgründen werden FTP-Konten nach 30 Tagen Inaktivität geschlossen.
-* FTP-Konten sind Datenquellen-spezifisch. Sie können nicht ein FTP-Konto zum Hochladen von Data Sources-Dateien in mehrere Datenquellen verwenden.
+* FTP-Konten sind Datenquellen-spezifisch. Sie können nicht ein FTP-Konto zum Hochladen von Datenquellen-Dateien in mehrere Datenquellen verwenden.
 
 **So laden Sie eine Datenquellen-Datei hoch**
 
@@ -32,7 +30,7 @@ Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Ve
    Die [!DNL .fin]-Datei muss genau den gleichen Namen aufweisen wie die Data Sources-Datei, mit Ausnahme der Dateierweiterung. Adobe stellt die Data Sources-Datei nicht für die Verarbeitung in eine Warteschlange, bis Sie die [!DNL .fin]-Datei hochgeladen haben.
 
    Laden Sie die Datei erst hoch, wenn alle Data Sources-Dateien vollständig hochgeladen wurden. Anderenfalls könnte Data Sources versuchen, eine unvollständige Datei zu verarbeiten.
-1. Nachdem die .fin-Datei hochgeladen wurde, müssen Sie sich unbedingt von der Data Sources-FTP-Site abmelden. Analytics verwendet daher Abmeldedateien als Trigger, um anzugeben, dass die Ereignisse zur Verarbeitung bereit sind.
+1. Nachdem die .fin -Datei hochgeladen wurde, ist es wichtig, dass Sie sich von der Data Sources-FTP-Site abmelden. Der Grund dafür ist, dass Analytics Abmeldeereignisse als Trigger verwendet, um anzugeben, dass Dateien zur Verarbeitung bereit sind.
 1. Achten Sie darauf, ob bei der Verarbeitung der Data Sources-Datei Meldungen ausgegeben werden.
 
    Im Data Sources-Manager werden Fehler angezeigt, die u. U. während der Dateiverarbeitung auftreten.

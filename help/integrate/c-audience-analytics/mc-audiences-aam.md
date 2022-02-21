@@ -2,10 +2,10 @@
 description: Adobe Audience Manager (AAM) ist eine leistungsfähige Datenverwaltungsplattform, mit deren Hilfe Sie eindeutige Zielgruppenprofile durch Integration von Daten aus erster, zweiter (Partner) und dritter Hand aufbauen können. Advertiser können mithilfe dieser Zielgruppenprofile die wertvollsten Segmente für beliebige digitale Kanäle ermitteln.
 solution: Experience Cloud
 title: Audience Analytics-Übersicht
-uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
+feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 

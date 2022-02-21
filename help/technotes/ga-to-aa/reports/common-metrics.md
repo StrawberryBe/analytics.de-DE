@@ -1,10 +1,10 @@
 ---
 title: Übersetzungshandbuch für häufig verwendete Metriken anderer Plattformen
 description: Erfahren Sie, wie Sie Metrikdaten für viele häufig verwendete Berichte abrufen können, indem Sie Terminologie verwenden, die Google Analytics-Anwendern besser bekannt ist.
+feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
