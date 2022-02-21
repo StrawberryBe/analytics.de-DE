@@ -1,64 +1,64 @@
 ---
-title: Anmerkungen verwalten
+title: Verwalten von Anmerkungen
 description: Verwalten von Anmerkungen in Workspace.
 role: User, Admin
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
-workflow-type: tm+mt
+exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
+source-git-commit: 4706c815dfb34938716fa674865b9cb1ef6cd604
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
-
-# Anmerkungen verwalten
-
->[!NOTE]
->
->Diese Funktion wird derzeit nur eingeschränkt getestet.
-
-Die [!UICONTROL Komponenten] > [!UICONTROL Anmerkungen] manager bietet viele Möglichkeiten zum Verwalten von Anmerkungen, z. B. das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
-
-Die [!UICONTROL Anmerkungen] manager zeigt Ihnen alle Anmerkungen an, die Ihnen gehören und für alle Ihre Projekte gelten und die für Sie freigegeben wurden.
+# Verwalten von Anmerkungen
 
 >[!NOTE]
 >
->[!UICONTROL Anmerkungen] die Sie nur für ein bestimmtes Projekt erstellt haben, werden nicht im Manager angezeigt.
+>Diese Funktion wird derzeit eingeschränkt getestet.
 
-## Benutzeroberfläche von Annotations Manager
+Die Anmerkungsverwaltung ([!UICONTROL Komponenten] > [!UICONTROL Anmerkungen]) bietet viele Möglichkeiten zum Verwalten von Anmerkungen, z. B. Freigeben, Filtern, Markieren, Genehmigen, Kopieren, Löschen und Markieren als Favorit.
+
+Die [!UICONTROL Anmerkungsverwaltung] zeigt Ihnen alle Anmerkungen an, die Ihnen gehören und für alle Ihre Projekte gelten und die für Sie freigegeben wurden.
+
+>[!NOTE]
+>
+>[!UICONTROL Anmerkungen], die Sie nur für ein bestimmtes Projekt erstellt haben, werden nicht in der Anmerkungsverwaltung angezeigt.
+
+## Benutzeroberfläche der Anmerkungsverwaltung
 
 ![](assets/annotation-mgr.png)
 
 | UI-Element | Beschreibung |
 | --- | --- | 
-| [!UICONTROL Titel und Beschreibung] | Wird im Anmerkungs-Builder bereitgestellt. Um den Titel und die Beschreibung zu bearbeiten, klicken Sie auf den Titel-Link. Dadurch gelangen Sie zurück zum Anmerkungs-Builder. |
-| [!UICONTROL Report Suite] | Die Report Suites, für die diese Anmerkung gilt. |
-| [!UICONTROL Inhaber] | Gibt an, wem die Anmerkung gehört. Als Nicht-Administrator können Sie nur Anmerkungen anzeigen, deren Inhaber Sie sind, sowie Anmerkungen, die für Sie freigegeben wurden. |
-| [!UICONTROL Angewandter Datumsbereich] | Das Datum oder der Datumsbereich, für das bzw. den diese Anmerkung gilt. |
-| [!UICONTROL Freigegeben für] | Listet auf, für wie viele Einzelpersonen oder Gruppen Sie die Anmerkung freigegeben haben. Klicken Sie für weitere Details auf . |
+| [!UICONTROL Titel und Beschreibung] | Werden durch den Anmerkungsgenerator bereitgestellt. Klicken Sie auf den Titel-Link, um den Titel und die Beschreibung zu bearbeiten. Dadurch gelangen Sie zurück zum Anmerkungsgenerator. |
+| [!UICONTROL Report Suite] | Die Report Suite(s), für die diese Anmerkung gilt. |
+| [!UICONTROL Inhaber] | Zeigt an, wer Inhaber der Anmerkung ist. Wenn Sie kein Administrator sind, können Sie nur Anmerkungen sehen, deren Inhaber Sie sind, sowie Anmerkungen, die für Sie freigegeben wurden. |
+| [!UICONTROL Angewendeter Datumsbereich] | Das Datum oder der Datumsbereich, für das bzw. den diese Anmerkung gilt. |
+| [!UICONTROL Freigegeben für] | Listet auf, für wie viele Einzelpersonen oder Gruppen Sie die Anmerkung freigegeben haben. Klicken Sie hier, um weitere Details anzuzeigen. |
 | [!UICONTROL Änderungsdatum] | Zeigt das Datum und die Uhrzeit der letzten Änderung der Anmerkung an. |
 
-## Anmerkungen bearbeiten
+## Bearbeiten von Anmerkungen
 
-Die Bearbeitung einer Anmerkung bedeutet, dass Sie Datumsbereiche, Farben, Umfang oder nicht alle Report Suites oder Projekte anpassen können. Sie können Anmerkungen auf zwei Arten bearbeiten:
+Sie können eine Anmerkung bearbeiten, indem Sie Datumsbereiche, Farben oder den Umfang anpassen. Sie können ebenfalls festlegen, ob die Anmerkung für alle Report Suites oder Projekte gilt oder nicht. Anmerkungen können auf zwei Arten bearbeitet werden:
 
 * Bewegen Sie in einem Liniendiagramm den Mauszeiger über die Anmerkung und klicken Sie im Popover auf das Stiftsymbol.
 
-* Im [!UICONTROL Anmerkungs-Manager]klicken Sie auf den Titel der Anmerkung.
+* Klicken Sie in der [!UICONTROL Anmerkungsverwaltung] auf den Titel der Anmerkung.
 
-Beide dieser Optionen landen im Anmerkungs-Builder zurück. Dort können Sie die erforderlichen Anpassungen vornehmen und die neue Version speichern.
+Beide dieser Optionen bringen Sie zum Anmerkungsgenerator zurück. Dort können Sie die erforderlichen Anpassungen vornehmen und die neue Version speichern.
 
-## Sonstige Anmerkungsaufgaben
+## Sonstige Aktionen mit Anmerkungen
 
-Mit dem Anmerkungs-Manager können Administratoren Anmerkungen bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Er ist für Nicht-Admin-Benutzer nicht sichtbar.
+Mit der Anmerkungsverwaltung können Administratoren Anmerkungen bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Dies ist für Nicht-Admin-Benutzer nicht sichtbar.
 
-Wählen Sie einfach eine oder mehrere der Anmerkungen aus und die Taskleiste wird angezeigt.
+Wählen Sie einfach eine oder mehrere der Anmerkungen aus, und die Task-Leiste wird angezeigt.
 
 | Aufgabe | Beschreibung |
 | --- | --- |
-| Fügen Sie | Sie gelangen zum Generator für Anmerkungen , in dem Sie neue Anmerkungen erstellen können. |
-| Tag | Alle Benutzer können Tags für Anmerkungen erstellen und einen oder mehrere Tags auf eine Anmerkung anwenden. Sie sehen Tags jedoch nur für die Segmente, deren Inhaber Sie sind. Welche Arten von Tags sollten Sie erstellen? Hier finden Sie einige Vorschläge für nützliche Tags:<ul><li>Auf Teamnamen basierende Tags wie Social Marketing, Mobile Marketing</li><li>Projekt-Tags (Analyse-Tags) wie Entrypage-Analyse</li><li>Kategorie-Tags: Männer, Region</li><li>Arbeitsablauf-Tags: Kuratiert für (einen bestimmten Geschäftsbereich), Genehmigt</li></ul> |
+| Hinzufügen | Sie gelangen zum Anmerkungsgenerator, in dem Sie neue Anmerkungen erstellen können. |
+| Tag | Alle Benutzer können Tags für Anmerkungen erstellen und ein oder mehrere Tags auf eine Anmerkung anwenden. Sie sehen Tags jedoch nur für die Segmente, deren Inhaber Sie sind. Welche Arten von Tags sollten Sie erstellen? Hier finden Sie einige Vorschläge für nützliche Tags:<ul><li>Auf Teamnamen basierende Tags wie Social Marketing, Mobile Marketing</li><li>Projekt-Tags (Analyse-Tags) wie Entrypage-Analyse</li><li>Kategorie-Tags: Männer, Region</li><li>Arbeitsablauf-Tags: Kuratiert für (einen bestimmten Geschäftsbereich), Genehmigt</li></ul> |
 | Löschen | Durch das Löschen einer Anmerkung wird sie aus jedem Projekt in Ihrer Organisation entfernt. |
 | Umbenennen | Beim Umbenennen einer Anmerkung wird sie in allen Projekten, auf die sie angewendet wurde, umbenannt. |
-| Kopieren | Erstellt eine eindeutige Kopie mit einer eigenen Anmerkungs-ID, jedoch mit demselben Namen und derselben Definition. |
-| In CSV exportieren | Exportieren Sie die Anmerkungsdefinition in eine CSV-Datei. |
-| Filter (linke Leiste) | Filtern Sie nach Tags, Report Suite, Inhabern und anderen Filtern (Meine, Genehmigt, Favoriten, Für mich freigegeben und Alle anzeigen). |
+| Kopieren | Erstellt eine eigenständige Kopie mit einer eigenen neuen Anmerkungs-ID, jedoch mit demselben Namen und derselben Definition. |
+| In CSV exportieren | Exportiert die Anmerkungsdefinition in eine CSV-Datei. |
+| Filter (linke Leiste) | Filtern Sie nach Tags, Report Suite, Inhabern und anderen Filtern („Meine“, „Genehmigt“, „Favoriten“, „Für mich freigegeben“ und „Alle anzeigen“). |
