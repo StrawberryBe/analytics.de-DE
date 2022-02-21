@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ Hinweis:
 | Zum Fenster „Bedienfelder“ | Alt+Umsch+1 |
 | Zum Fenster „Visualisierungen“ | Alt+Umsch+2 |
 | Zum Fenster „Komponenten“ | Alt+Umsch+3 |
-| Alle Bedienfelder reduzieren/erweitern | Alt + M |
+| Alle Bedienfelder reduzieren/erweitern | Alt+M |
 | Aktives Bedienfeld reduzieren/erweitern | Alt+Strg+M |
 | Zum nächsten Bedienfeld wechseln | Alt+Rechtstaste |
-| Zum vorherigen Bedienfeld wechseln | Alt + Linkstaste |
+| Zum vorherigen Bedienfeld wechseln | Alt+Linkstaste |
 
 ## Analyseaktionen
 
@@ -40,14 +40,14 @@ Hinweis:
 | --- | --- |
 | Linke Leiste durchsuchen | Strg + / |
 | Erstellen eines Warnhinweises | Strg+Umsch+A |
-| Erstellen von Anmerkungen | STRG + UMSCHALT + O |
-| Berechnete Metrik erstellen | Strg + Umsch + C |
-| Datumsbereich erstellen | Strg + Umsch + D |
-| Segment erstellen | Strg + Umsch + E |
+| Erstellen einer Anmerkung | Strg+Umschalt+O |
+| Berechnete Metrik erstellen | Strg+Umsch+C |
+| Datumsbereich erstellen | Strg+Umsch+D |
+| Segment erstellen | Strg+Umsch+E |
 | Alle löschen | Alt+W |
 | Kopieren | Strg+C |
 | Wiederherstellen | Strg+Umsch+Z |
-| Rückgängig | Strg + Z |
+| Rückgängig | Strg+Z |
 | Komponenten aktualisieren | Alt+Umsch+R |
 | Projekt aktualisieren | Alt+R |
 | Als Landingpage festlegen | Strg+Umsch+L |
@@ -63,7 +63,7 @@ Hinweis:
 | Neues Bedienfeld „Gleichzeitige Medienbetrachter“ | Alt+H |
 | Neues Bedienfeld „Quick Insights“ | Alt+F |
 | Neues Bedienfeld für Segmentvergleich | Alt+C |
-| Neue Freiformtabelle | Alt + 1 |
+| Neue Freiformtabelle | Alt+1 |
 | Neuer Kantengraph | Alt+2 |
 | Neues Balkendiagramm | Alt+3 |
 
@@ -71,13 +71,13 @@ Hinweis:
 
 | Aktion | Tastaturbefehl |
 | --- | --- |
-| Projekt speichern | Strg + S |
+| Projekt speichern | Strg+S |
 | Projekt speichern unter | Strg+Umsch+S |
 | Als Vorlage speichern | Alt+T |
 | Als CSV herunterladen | Strg+Umsch+V |
-| Als PDF herunterladen | Strg + Umsch + B |
-| Projekt kuratieren | Strg + Umsch + G |
-| Projekt freigeben | Strg + G |
-| Projekt-Link abrufen | Alt + L |
+| Als PDF herunterladen | Strg+Umsch+B |
+| Projekt kuratieren | Strg+Umsch+G |
+| Projekt freigeben | Strg+G |
+| Projekt-Link abrufen | Alt+L |
 | Datei jetzt senden | Alt+S |
 | Datei planmäßig senden | Umsch+Alt+S |
