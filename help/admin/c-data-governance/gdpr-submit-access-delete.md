@@ -1,10 +1,10 @@
 ---
 description: So fordern Sie Datenzugriff und -löschung in Adobe Analytics an.
 title: Zugriffs- und Löschanfragen einreichen
-uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 100%
 

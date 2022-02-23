@@ -1,34 +1,37 @@
 ---
 description: Auf dieser Seite werden die Partner-Variablen in den Data Connectors (zuvor bezeichnet als Genesis) aufgelistet, die direkt identifizierbare Daten von Datensubjekten oder indirekt identifizierbare Daten enthalten könnten.
 title: Datenschutz und Data Connectors (Genesis)
-uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '436'
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
 
 # Datenschutz und Data Connectors (Genesis)
 
-Auf dieser Seite werden die Partner-Variablen in den Data Connectors (zuvor bezeichnet als Genesis) aufgelistet, die direkt identifizierbare Daten von Datensubjekten oder indirekt identifizierbare Daten enthalten könnten.
+>[!NOTE]
+>
+>**Mit dem 19. August 2021** wird Adobe Integrationen von Data Connectors einstellen. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und Adobe zielt darauf ab, den Übergang für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
 
-Mithilfe dieser Informationen können Sie beliebige direkt identifizierbare Daten oder indirekt identifizierbare Daten identifizieren, die über unsere Connectors importiert werden, wenn sie eine Datenschutzanfrage erhalten.
+<!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 
-Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können Sie ganz einfach prüfen, welche Partnervariablen/Klassifizierungen in Ihrer Integration direkt oder indirekt identifizierbare Daten enthalten könnten.
+This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a Data Privacy request.
+
+If you are using an integration of any of the below connectors, you can simply check which partner variables/classifications in your integration may potentially contain directly identifiable data or indirectly identifiable data.
 
 >[!NOTE]
 >
->Diese Informationen werden Ihnen bereitgestellt, um Ihnen zu helfen, Variablen zu identifizieren, die [beschriftet werden müssen](/help/admin/c-data-governance/gdpr-setup-reportsuite.md). Es liegt in Ihrer Verantwortung als Datenverantwortlicher, die entsprechenden Beschriftungen anzubringen oder sonstige Maßnahmen zu ergreifen, um gemäß des [Datenschutzes vorbereitet zu sein](/help/admin/c-data-governance/an-gdpr-overview.md) (Aktualisierung der Klassifizierungen etc.).
+>This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Connector-Name </th> 
-   <th colname="col2" class="entry"> Variablen </th> 
-   <th colname="col4" class="entry"> Typ </th> 
+   <th colname="col1" class="entry"> Connector Name </th> 
+   <th colname="col2" class="entry"> Variables </th> 
+   <th colname="col4" class="entry"> Type </th> 
   </tr>
  </thead>
  <tbody> 
@@ -44,7 +47,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -54,17 +57,17 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ContactLab 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Datran Media</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Delivra</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +81,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>DREAMmail 2.0</b> </p> </td> 
-   <td colname="col2"> <p>E-Mail eVar </p> </td> 
+   <td colname="col2"> <p>Email eVar </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +96,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Emarsys Xpress</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -107,7 +110,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
-   <td colname="col2"> <p>E-Mail-Adresse </p> <p>Customer Key </p> </td> 
+   <td colname="col2"> <p>Email Address </p> <p>Customer Key </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -125,18 +128,18 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Foresee-Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
+   <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Listrak</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Lyris HQ</b> </p> </td> 
-   <td colname="col2"> <p>E-Mail-Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Email Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -146,7 +149,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>optivo broadmail</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -161,11 +164,11 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Selligent</b> </p> </td> 
-   <td colname="col2"> <p>Empfänger-ID </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Empfänger-ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>Recipient ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -175,7 +178,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage (v2.0)</b> </p> </td> 
-   <td colname="col2"> <p>Silverpop ID </p> <p>E-Mail-Adresse </p> </td> 
+   <td colname="col2"> <p>Silverpop ID </p> <p>Email Address </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -199,4 +202,4 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->

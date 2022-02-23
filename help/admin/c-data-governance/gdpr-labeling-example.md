@@ -1,10 +1,10 @@
 ---
 description: Zeigt Beispiele zum Beschriften von Daten für Trefferdaten, Zugriffsanfragen und Löschanfragen
 title: Beschriftungsbeispiele
-uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Wenn Sie eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in 
     <td>true (wahr)</td>
     <td>Gerät</td>
     <td>nicht vorhanden</td>
-    <td>55, 77</td>
+    <td>55,77</td>
     <td>nicht vorhanden</td>
     <td>M, P, R</td>
     <td>W, X</td>
