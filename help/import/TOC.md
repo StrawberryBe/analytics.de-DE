@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Importhandbuch für Analytics
 breadcrumb-title: Importleitfaden
 user-guide-description: 'Transferieren Sie Daten aus externen Quellen in Analytics, entweder als Massendatei oder in Echtzeit. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '140'
 ht-degree: 92%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 92%
    + [Transaktions- und Kundenintegration](c-data-sources/datasrc-integrating-offline-data.md)
    + [Transaktions-ID und Besucherprofile](c-data-sources/datasrc-tid-visitor-profile.md)
    + [Häufig gestellte Fragen zu Datenquellen](c-data-sources/datasrc-faq.md)
++ [Bulk-Dateneinfüge-API](bulk-data-insertion-api/bulk-data-insert.md)
 + [Dateneinfüge-API](c-data-insertion-api/c-data-insertion-api.md)
 + Daten-Connectoren {#dataconnectors}
    + [Abschaffung der Analytics Data Connectors](data-connectors/data-connectors-eol.md)
