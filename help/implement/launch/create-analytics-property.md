@@ -3,10 +3,10 @@ title: Erstellen einer Analytics-Eigenschaft in Tags
 description: Erstellen Sie mithilfe von Tags einen Bereich, um die Art der Datenerfassung anzupassen.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verw
 1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domain ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie auf die neu erstellte Tag-Eigenschaft, um deren Einstellungen einzugeben.
 1. Klicken Sie auf den Tab **[!UICONTROL Erweiterungen]** und dann auf **[!UICONTROL Katalog]**.
-1. Suchen Sie nach „Identitätsdienst“ und klicken Sie dann auf **[!UICONTROL Installieren]**.
+1. Suchen Sie nach &quot;Experience Cloud-ID-Dienst&quot;und klicken Sie auf **[!UICONTROL Installieren]**.
 1. Alle Einstellungen, einschließlich Experience Cloud-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Suchen Sie im Erweiterungskatalog nach Adobe Analytics und klicken Sie auf **[!UICONTROL Installieren]**.
 
