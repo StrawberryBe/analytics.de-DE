@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zur Verwaltung von Adobe Analytics-Daten
 title: Häufig gestellte Fragen
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 98%
+source-wordcount: '1802'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie finden Adobe-Kunden (Datenverantwortliche) heraus, welchen IDs Datenschutzanfragen in Adobe Analytics zur Datenschutzverarbeitung zugeordnet sind?</b> </p> </td> 
-   <td colname="col2"> <p>Die Datenverantwortlichen bestimmen, wie die Identität für Anfragen von den Datensubjekten aufgelöst wird. Ziehen Sie die <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">Bereitstellung des Datenschutz-ID-Abruftags von Adobe in Erwägung. </a> Durch die Verwendung unseres Datenschutz-ID-Abruftags zum Erfassen der Benutzer-IDs (Cookie-IDs) und das anschließende Senden dieser IDs per Data Privacy API an die relevanten Lösungen in Adobe Experience Cloud zur Datenschutz-Anfragenverarbeitung sparen Ihren Entwicklungsteams Zeit. </p> <p>Die Datenschutz-API kann eine Vielzahl von Benutzer-IDs in mehreren Adobe-Lösungen unterstützen. Wenn ein Datensubjekt eine Anfrage zusammen mit einer Kennzeichnung (benutzerdefinierte Variable – Prop oder eVar) sendet, prüft Adobe Analytics den gesamten gespeicherten Verlauf der Daten, die für die jeweilige Kennzeichnung erfasst wurden. Weitere Informationen zum Konfigurieren von benutzerdefinierten IDs, die in Props oder eVars von Analytics gespeichert sind, finden Sie in der Analytics-Dokumentation unter <a href="/help/admin/c-data-governance/gdpr-namespaces.md">Namespaces.</a>
+   <td colname="col2"> <p>Die Datenverantwortlichen bestimmen, wie die Identität für Anfragen von den Datensubjekten aufgelöst wird. Ziehen Sie die <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Bereitstellung des Datenschutz-ID-Abruftags von Adobe in Erwägung. </a> Durch die Verwendung unseres Datenschutz-ID-Abruftags zum Erfassen der Benutzer-IDs (Cookie-IDs) und das anschließende Senden dieser IDs per Data Privacy API an die relevanten Lösungen in Adobe Experience Cloud zur Datenschutz-Anfragenverarbeitung sparen Ihren Entwicklungsteams Zeit. </p> <p>Die Datenschutz-API kann eine Vielzahl von Benutzer-IDs in mehreren Adobe-Lösungen unterstützen. Wenn ein Datensubjekt eine Anfrage zusammen mit einer Kennzeichnung (benutzerdefinierte Variable – Prop oder eVar) sendet, prüft Adobe Analytics den gesamten gespeicherten Verlauf der Daten, die für die jeweilige Kennzeichnung erfasst wurden. Weitere Informationen zum Konfigurieren von benutzerdefinierten IDs, die in Props oder eVars von Analytics gespeichert sind, finden Sie in der Analytics-Dokumentation unter <a href="/help/admin/c-data-governance/gdpr-namespaces.md">Namespaces.</a>
     </p> </td> 
   </tr> 
   <tr> 
