@@ -4,10 +4,10 @@ description: Anzeigen von Anmerkungen in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 78%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen 
 | Datum | Erscheinungsbild |
 | --- | --- |
 | **Einzeltag** | ![](assets/single-day.png) |
-| **Datumsbereich** | Das Symbol ändert sich, und wenn Sie den Mauszeiger darüber bewegen, wird der Datumsbereich angezeigt.<p>![](assets/multi-day.png)<p>In einer Tabelle wird an jedem Datum im Datumsbereich ein Symbol angezeigt.<p>![](assets/multi-day-table.png)<p>Beachten Sie Folgendes: An Tagen, an die mehr als eine Anmerkung gebunden ist, wird das Symbol grau dargestellt. |
+| **Datumsbereich** | Das Symbol ändert sich, und wenn Sie den Mauszeiger darüber bewegen, wird der Datumsbereich angezeigt.<p>![](assets/multi-day.png)<p>In einer Tabelle wird an jedem Datum im Datumsbereich ein Symbol angezeigt.<p>![](assets/multi-day-table.png)<p>Beachten Sie Folgendes: an Tagen mit mehr als einer Anmerkung verknüpft ist, wird das Symbol grau dargestellt. |
 
 ## Anzeigen von Anmerkungen in einem Zusammenfassungsdiagramm
 
