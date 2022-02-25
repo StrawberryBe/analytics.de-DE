@@ -4,10 +4,10 @@ description: Anzeigen von Anmerkungen in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 66%
+source-wordcount: '228'
+ht-degree: 50%
 
 ---
 
@@ -23,8 +23,9 @@ Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen 
 
 | Datum | Erscheinungsbild |
 | --- | --- |
-| **Einzeltag** | ![](assets/single-day.png) |
-| **Datumsbereich** | Das Symbol ändert sich, und wenn Sie den Mauszeiger darüber bewegen, wird der Datumsbereich angezeigt.<p>![](assets/multi-day.png)<p>In einer Tabelle wird an jedem Datum im Datumsbereich ein Symbol angezeigt.<p>![](assets/multi-day-table.png)<p>Beachten Sie Folgendes: an Tagen mit mehr als einer Anmerkung verknüpft ist, wird das Symbol grau dargestellt. |
+| **Einzeltag** | ![](assets/single-day.png)<p>Wenn Sie den Mauszeiger über die Anmerkung bewegen, können Sie deren Details anzeigen, sie durch Auswahl des Stiftsymbols bearbeiten oder sie löschen:<p> ![](assets/hover.png) |
+| **Datumsbereich** | Das Symbol ändert sich, und wenn Sie den Mauszeiger darüber bewegen, wird der Datumsbereich angezeigt.<p>![](assets/multi-day.png)<p>Wenn Sie sie im Liniendiagramm auswählen, werden die Anmerkungsmetadaten angezeigt und Sie können sie bearbeiten oder löschen:![](assets/multi-hover.png)<p>In einer Tabelle wird an jedem Datum im Datumsbereich ein Symbol angezeigt.<p>![](assets/multi-day-table.png) |
+| **Überlappende Anmerkungen** | An Tagen mit mehr als einer Anmerkung wird das Symbol grau dargestellt.<p>![](assets/grey.png)<p>Wenn Sie den Mauszeiger über das graue Symbol bewegen, werden alle überlappenden Anmerkungen angezeigt:<p>![](assets/overlap.png) |
 
 ## Anzeigen von Anmerkungen in einem Zusammenfassungsdiagramm
 
