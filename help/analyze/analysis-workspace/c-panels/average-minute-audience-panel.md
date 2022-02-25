@@ -3,14 +3,19 @@ title: Bereich "Zielgruppendurchschnitt pro Minute"
 description: Verwendung und Interpretation des Bereichs Zielgruppendurchschnitt pro Minute in Analysis Workspace.
 feature: Panels
 role: User, Admin
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
+source-git-commit: 86f546da8a5eaded5abb4ee2ce8d4a536818574a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 10%
+source-wordcount: '1320'
+ht-degree: 11%
 
 ---
 
 # Bereich &quot;Zielgruppendurchschnitt pro Minute&quot;
+
+>[!NOTE]
+>
+>Diese Funktion wird derzeit eingeschränkt getestet.
 
 Media Analytics-Kunden können das durchschnittliche Minutenzielgruppen-Bedienfeld verwenden, um den durchschnittlichen Verbrauch ihrer Inhalte besser zu verstehen. Die Zielgruppe &quot;Durchschnittliche Minute&quot;ermöglicht Vergleiche der Programmierung beliebiger Länge oder Genres. Darüber hinaus können Kunden diese durchschnittliche Minutenzielgruppe für digitale Sendungen mit linearen TV-Durchschnittsminuten-Metriken vergleichen oder anhängen. Dieses Bedienfeld bietet mehr Flexibilität, um die durchschnittliche Zielgruppe für benutzerdefinierte Zeiträume sowie den Zeitpunkt zu messen, zu dem die Classification der Dauer nach der Tatsache aktualisiert wurde. Die Metrik für die aktuelle durchschnittliche Minute-Zielgruppe funktioniert nur, wenn die Dauer zur Verarbeitungszeit verfügbar ist.
 
