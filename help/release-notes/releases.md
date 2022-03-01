@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Veröffentlichung von Adobe Analytics-Funktionen
 
-Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht.
+Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht.
 
 ## Veröffentlichungsstrategie
 
