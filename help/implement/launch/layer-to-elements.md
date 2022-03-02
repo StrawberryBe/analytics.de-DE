@@ -3,9 +3,9 @@ title: Zuordnen von Datenschichtobjekten zu Datenelementen
 description: Konfigurieren Sie Tags, um aus Ihrer Datenschicht zu lesen.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
@@ -13,9 +13,6 @@ ht-degree: 100%
 # Zuordnen von Datenschichtobjekten zu Datenelementen
 
 Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implementiert hat, können Sie innerhalb von Tags Datenschichtobjekte Datenelementen zuordnen.
-
->[!NOTE]
->Adobe Experience Platform Launch wurde umbenannt und umfasst eine Suite von Datenerfassungstechnologien in Experience Platform. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen vorgenommen. Eine Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de).
 
 ## Voraussetzungen
 

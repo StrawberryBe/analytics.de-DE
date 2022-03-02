@@ -3,10 +3,10 @@ title: Entwicklungsimplementierung validieren und in der Produktion veröffentli
 description: Hier erfahren Sie, wie Sie Tags in Adobe Experience Platform verwenden, um Adobe Analytics in Ihrer Produktionsumgebung bereitzustellen.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 84%
 
 ---
 
@@ -14,27 +14,22 @@ ht-degree: 100%
 
 Sobald Ihre Tag-Bibliothek in die Produktion verschoben wurde, kann Ihr Unternehmen Adobe Analytics verwenden, um grundlegende Berichte abzurufen.
 
->[!NOTE]
->Adobe Experience Platform Launch wurde umbenannt und umfasst eine Suite von Datenerfassungstechnologien in Experience Platform. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen vorgenommen. Eine Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de).
-
 ## Voraussetzungen
 
 [Stellen Sie Ihre Analytics-Implementierung in Ihrer Entwicklungsumgebung bereit](deploy-dev.md): Eine Analytics-Implementierung muss in Ihrer Entwicklungsumgebung veröffentlicht werden, um dieser Seite zu folgen.
 
 ## Überprüfung der Dev-Implementierung mit dem Experience Cloud-Debugger
 
-Der Experience Cloud-Debugger ist ein Chrome-Plug-in, das alle auf einer Seite vorhandenen Experience Cloud-Tags anzeigt.
+Der Experience Cloud-Debugger ist eine Erweiterung, die alle Experience Cloud-Tags anzeigt, die auf einer Seite vorhanden sind.
 
-1. Öffnen Sie den [Chrome-Webbrowser](https://www.google.com/intl/de/chrome/) und gehen Sie zu [Adobe Experience Cloud-Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) im Chrome Web Store, um die Erweiterung zu installieren.
+1. Installieren Sie die Erweiterung für [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder [Firefox](https://addons.mozilla.org/de/firefox/addon/adobe-experience-platform-dbg/).
 2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Tags implementiert haben.
-3. Klicken Sie oben rechts in Chrome auf das Symbol für den Adobe Experience Cloud-Debugger.
-4. Wenn alles ordnungsgemäß implementiert ist, sollten Sie Inhalte in Adobe Analytics, Tags und den Besucher-ID-Service von Adobe Experience Cloud sehen:
-
-![Debugger][assets/debugger.png]
+3. Klicken Sie in Ihrem Browser auf das Adobe Experience Cloud-Debugger-Symbol.
+4. Wenn alles ordnungsgemäß implementiert ist, sollten Sie Inhalte in Adobe Analytics, Tags und den Besucher-ID-Service von Adobe Experience Cloud sehen.
 
 ## Bereitstellen der Dev-Implementierung für Staging/Produktion.
 
-Nachdem Sie überprüft haben, dass Daten angezeigt werden, können Sie Ihre Implementierung an die Live-Version Ihrer Site übertragen.
+Nachdem Sie überprüft haben, ob Daten für Sie sichtbar sind, können Sie Ihre Implementierung an die Live-Version Ihrer Site übertragen.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
@@ -45,7 +40,7 @@ Nachdem Sie überprüft haben, dass Daten angezeigt werden, können Sie Ihre Imp
 1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek und wählen Sie **[!UICONTROL Für Publishing genehmigen]**.
 1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt]) und wählen Sie **[!UICONTROL Erstellen und in Produktion veröffentlichen]**.
 1. Klicken Sie auf der Registerkarte „Umgebungen“ auf **[!UICONTROL Produktionsumgebung]**.
-1. Kopieren Sie den Produktions-Kopf- und -Fußzeilencode und stellen Sie ihn Ihren Website-Inhabern zur Verfügung. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
+1. Kopieren Sie den Produktions-Installationscode und stellen Sie ihn Ihren Website-Eigentümern zur Verfügung. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
 
 ## Überprüfen der Produktionsimplementierung
 
@@ -63,7 +58,7 @@ Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beg
 * Es gibt keine JavaScript-Fehler in der Konsole. Wenden Sie sich an die Website-Inhaber Ihres Unternehmens, um sicherzustellen, dass alle JS-Fehler behoben sind.
 * Der Kopfzeilencode ist ordnungsgemäß implementiert: Stellen Sie sicher, dass sich der Kopfzeilencode innerhalb des `<head>`-Tags befindet und dass die Datei vorhanden ist.
 * AppMeasurement-Bibliothek vorhanden: Navigieren Sie direkt zur JS-Quelle, um sicherzustellen, dass die JS-Datei Code enthält. Ist dies nicht der Fall, stellen Sie sicher, dass jede Umgebung erstellt und die Bibliothek in der entsprechenden Umgebung veröffentlicht wurde.
-* Störende Plug-ins: Einige Chrome-Plug-ins können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Plug-ins, die verhindern könnten, dass Daten an die Adobe-Server gesendet werden.
+* Erweiterungen abhören: Einige Erweiterungen, wie z. B. Anzeigensperren, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die verhindern könnten, dass Daten an Adobe gesendet werden.
 
 ## Nächste Schritte
 
