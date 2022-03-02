@@ -4,10 +4,10 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 100%
+source-wordcount: '876'
+ht-degree: 77%
 
 ---
 
@@ -15,15 +15,11 @@ ht-degree: 100%
 
 Sie können innerhalb eines Projekts Schnellsegmente erstellen, anstatt den komplexeren [Segment Builders](/help/components/segmentation/segmentation-workflow/seg-build.md) aufzurufen. Schnellsegmente
 
-* Nur anwendbar auf Projekte, in denen sie erstellt wurden (Sie können dies ändern).
+* Anwenden als [Nur-Projekt-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * Mit bis zu drei Regeln.
 * Verschachtelte Container oder sequenzielle Regeln werden nicht unterstützt.
-* Für die Arbeit in Projekten mit mehreren Report Suites.
 
 Einen Vergleich zwischen Schnellsegmenten und vollständigen Segmenten in der Komponentenliste finden Sie [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
-
->[!IMPORTANT]
-> Schnellsegmente werden derzeit nur eingeschränkt getestet und sind ab dem 21. Oktober 2021 allgemein verfügbar.
 
 ## Voraussetzungen
 
@@ -81,14 +77,16 @@ Das Segment wird oben angezeigt. Beachten Sie die blau gestreifte Seitenleiste d
 1. Optional: Benennen Sie das Segment um.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Beachten Sie, dass die Seitenleiste des Segments nicht mehr blau gestreift, sondern blau ist. Jetzt wird es in der Komponentenliste in der linken Leiste angezeigt.
+Beachten Sie, dass die Seitenleiste des Segments nicht mehr blau gestreift, sondern blau ist. Sie wird jetzt auch in der Komponentenliste der linken Leiste angezeigt.
 
 ## Was sind reine Projektsegmente?
 
-Reine Projektsegmente sind entweder Schnellsegmente oder Ad-hoc-Arbeitsbereich-Projektsegmente. Beim Bearbeiten/Öffnen in [!UICONTROL Segment Builder] wird das Feld „Nur Projekt“ angezeigt. Wenn Sie ein Schnellsegment in Segment Builder anwenden, aber das Kontrollkästchen „Verfügbar machen“ nicht aktivieren, ist es weiterhin ein reines Projektsegment, kann jedoch nicht mehr in [!UICONTROL Quick Segment Builder] geöffnet werden.
+Nur-Projekt-Segmente sind Segmente, die nur für das aktuelle Projekt gelten, in dem sie erstellt wurden. Sie sind in anderen Projekten nicht verfügbar und können nicht für andere Benutzer freigegeben werden. Sie sind für die schnelle Untersuchung Ihrer Daten gedacht, ohne ein Segment in der linken Leiste erstellen und speichern zu müssen. Nur-Projekt-Segmente können entweder mit Schnellsegmenten oder in der Dropzone des Bedienfelds erstellt werden. [Ad-hoc-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+
+Wenn ein reines Projekt-Segment im [!UICONTROL Segment Builder], wird eine Benachrichtigung nur für Projekte angezeigt. Wenn Sie nicht &quot;Dieses Segment verfügbar machen..&quot;aktivieren. und klicken Sie auf **[!UICONTROL ANWENDEN]** festgelegt ist, bleibt das Segment ein reines Projekt-Segment. Hinweis: Wenn Sie ein Schnellsegment aus dem Segmentaufbau anwenden, kann es nicht mehr im [!UICONTROL Quick Segment Builder].
 
 ![„Nur Projekt“ deaktiviert](assets/project-only-unchecked.png)
 
-Wenn Sie das Kontrollkästchen aktivieren und auf **[!UICONTROL Speichern]** klicken, wird es zu einem Komponentensegment.
+Wenn Sie die Option &quot;Dieses Segment verfügbar machen..&quot;aktivieren. und klicken Sie auf **[!UICONTROL SPEICHERN]** wird das Segment in der Komponentenliste der linken Leiste für die Verwendung in anderen Projekten verfügbar. Sie kann auch mit anderen Benutzern über den Segment-Manager freigegeben werden.
 
 ![„Nur Projekt“ aktiviert](assets/project-only-checked.png)
