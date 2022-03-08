@@ -2,16 +2,16 @@
 title: Feldbasiertes Stitching
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe von feldbasiertem Stitching vertraut.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
-workflow-type: ht
+source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
+workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Feldbasiertes Stitching
 
-Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei dieser Methode wird eine Analytics-Variable verwendet, z. B. eine [Prop](/help/implement/vars/page-vars/prop.md) oder [eVar](/help/implement/vars/page-vars/evar.md), die eine Personenkennung enthält. Anhand dieser Variablen werden Geräte miteinander verknüpft. Adobe empfiehlt diese Stitching-Option, um die Transparenz und Vorhersehbarkeit beim Besucher-Tracking zu erhöhen.
+Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei dieser Methode wird eine Analytics-Variable verwendet, z. B. eine [Prop](/help/implement/vars/page-vars/prop.md) oder [eVar](/help/implement/vars/page-vars/evar.md), die eine Personenkennung enthält. Anhand dieser Variablen werden Geräte miteinander verknüpft. Adobe empfiehlt diese Stitching-Option für mehr Transparenz und Vorhersehbarkeit beim Besucher-Tracking.
 
 ## Spezifische Voraussetzungen für feldbasiertes Stitching
 

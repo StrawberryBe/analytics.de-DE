@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
+source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1941'
 ht-degree: 100%
 
 ---
@@ -122,7 +122,7 @@ Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordne
 
 ## Warum unterscheidet sich die Gesamtzahl der Treffer zwischen meiner ursprünglichen Report Suite und der Virtual Report Suite der geräteübergreifenden Analyse?
 
-Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für die geräteübergreifende Analyse erwartet. Dies hat nur geringe Auswirkungen auf die geräteübergreifenden Funktionen.
+Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für die geräteübergreifende Analyse erwartet.
 
 ## Warum ist die Metrik „Identifizierte Personen“ überhöht?
 
