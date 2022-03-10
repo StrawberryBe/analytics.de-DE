@@ -3,10 +3,10 @@ description: Informieren Sie sich über die Richtlinien und Empfehlungen für di
 title: Was sind die CNIL-Richtlinien für Cookies und die Zustimmung der Benutzer?
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ Die Leitlinien sehen eine begrenzte Freistellung von der Zustimmungspflicht vor 
 
 Es gelten zusätzlich folgende Überlegungen:
 
+* Adobe Analytics betreibt Datenverarbeitungszentren in den USA, Großbritannien und Singapur, um allen Kunden Flexibilität bei der Erfassung, Verarbeitung und Speicherung ihrer Daten auf regionaler Ebene zu bieten. Bei der Konfiguration der anfänglichen Einrichtung von Adobe Analytics wählen Kunden den gewünschten Standort des Rechenzentrums aus. Die Kundendaten werden letztendlich in ihrer ausgewählten Region für das Analytics-Hauptprodukt gespeichert.
 * Ziehen Sie in Erwägung, den Opt-in-Status in einer Analytics-Variablen zu erfassen, um Opt-in-Daten und Opt-out-Daten bei der Segmentierung oder bei Virtual Report Suites zu trennen oder zu separaten Endpunkten weiterzuleiten.
 * Keine Messung außerhalb der Site oder App ohne vorherige Zustimmung, z. B. keine Offsite-Kampagnen, E-Mail-Kampagnen oder iFrames.
 * Die Erfassung personenbezogener Daten in Variablen ist ohne Zustimmung nicht gestattet. [Experience Cloud-Aktivitäten auf Basis des Benutzereinverständnisses steuern](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de&quot;\l&quot;implementation#implementation)
