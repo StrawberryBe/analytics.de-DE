@@ -4,7 +4,7 @@ description: Verwalten von Anmerkungen in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
+source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 65%
@@ -60,7 +60,9 @@ Beachten Sie Folgendes beim Freigeben von Anmerkungen oder Arbeiten mit Anmerkun
 
 ## Anmerkungen und Zeitzonen
 
-Alle Anmerkungen werden mit einem Zeitstempel erstellt, jedoch ohne Stunden- oder Zeitzoneninformationen. Zum Zeitpunkt des Berichts wird immer die Zeitzone der Report Suite des Bedienfelds angewendet. Daher wird am 25. Dezember eine für Weihnachten erstellte Anmerkung erstellt - unabhängig davon, in welcher Report Suite-Zeitzone Sie sich befinden. Ein weiteres Beispiel ist der Neujahrstag. Jede Stunde wird eine andere Zeitzone mit Feuerwerkskörper eingerichtet, wenn das neue Jahr beginnt. Um 22:00 Uhr US Mountain Time startet die US-Ostküste Feuerwerke, weil es bereits 12:00 Uhr Eastern Time ist.
+Alle Anmerkungen werden mit einem Zeitstempel erstellt, jedoch ohne Stunden- oder Zeitzoneninformationen. Zum Zeitpunkt des Berichts wird immer die Zeitzone der Report Suite des Bedienfelds angewendet. Daher wird am 25. Dezember eine für Weihnachten erstellte Anmerkung erstellt - unabhängig davon, in welcher Report Suite-Zeitzone Sie sich befinden.
+
+Ein weiteres Beispiel ist der Neujahrstag. Jede Stunde wird eine andere Zeitzone mit Feuerwerkskörper eingerichtet, wenn das neue Jahr beginnt. Um 22:00 Uhr US Mountain Time startet die US-Ostküste Feuerwerke, weil es bereits 12:00 Uhr Eastern Time ist.
 
 ## Sonstige Aktionen mit Anmerkungen
 
