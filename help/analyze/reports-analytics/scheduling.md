@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 97%
+source-wordcount: '1717'
+ht-degree: 89%
 
 ---
 
@@ -30,16 +30,16 @@ Aufgrund der unterschiedlichen Verarbeitungsmechanismen und Plattformen gelten f
 
 Diese Einschränkungen gelten für individuelle terminierte und heruntergeladene Berichte. Dashboards sind auf den Platz beschränkt, der in einem Reportlet verfügbar ist.
 
->[!NOTE]
->
->Der vom Benutzer unter „Zeitpunkt der Bereitstellung“ oder „Tageszeit“ eingegebene Zeitpunkt gibt an, ab wann mit der Verarbeitung des Berichts begonnen wird, und nicht, wann der Bericht bereitgestellt wird. Der tatsächliche Bereitstellungszeitpunkt des Berichts hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (komplexe und umfangreiche Berichte benötigen mehr Verarbeitungszeit als einfachere Berichte). Wenn die Verarbeitung eines Berichts z. B. 15 Minuten dauert, liegt der tatsächliche Bereitstellungszeitpunkt mindestens 15 Minuten nach dem ursprünglich unter „Zeitpunkt der Bereitstellung“ oder „Tageszeit“ eingegebenen Zeitpunkt.
->Darüber hinaus gibt es eine Reihe zusätzlicher Faktoren, durch die sich die tatsächliche Berichtsbereitstellung weiter verzögern kann:
->
-> * **Wenn Sie mehrere verschiedene Zeitpläne desselben Typs gleichzeitig ausführen** (z. B. mehrere Dashboards) ist das System möglicherweise überlastet. Das Planungssystem kann nur eine begrenzte Anzahl von Berichten (5 bis 10) des gleichen Typs auf einmal ausführen. Wenn also mehr als 5 bis 10 Berichte auf einmal geplant sind, müssen einige Berichte warten, bis die Verarbeitung anderer Berichte abgeschlossen ist. Sie können dieses Problem umgehen, indem Sie die Ausführung der Berichte Ihres Unternehmens über einen Tag oder eine Stunde staffeln, statt sie alle auf einmal auszuführen.
-> * Darüber hinaus werden Berichte unabhängig vom Berichtstyp (Dashboards usw.) in die Warteschlange gestellt, wenn das Unternehmen **mehr als 15 bis 20 Berichte eines beliebigen Typs gleichzeitig geplant hat**. Dieses Problem kann durch gestaffelte Zeitpläne gelöst werden, sodass nicht viele gleichzeitig ausgeführt werden.
-> * **Probleme bei nachgeschalteten Diensten**, von denen die Planung abhängt, können sich ebenfalls auf die Bereitstellung von Berichten auswirken. Wenn Sie z. B. die APIs sowohl zum Ausführen von Berichten als auch zum Füllen der API-Anforderungswarteschlange verwenden, kann es durch den Wettstreit um die Ressourcen zu Verzögerungen bei den terminierten Berichten kommen.
-> * Auch die **Report Suite-Latenz** (eine Verzögerung bei der Datenerfassung) kann die Bereitstellung einiger terminierter Berichte verzögern.
+## Bereitstellungszeit vs. Verarbeitungszeit
 
+Der vom Benutzer unter &quot;Zeitpunkt der Bereitstellung&quot;oder &quot;Tageszeit&quot;eingegebene Zeitpunkt gibt den Zeitpunkt an, zu dem die Verarbeitung des Berichts beginnen soll, und nicht den Zeitpunkt, zu dem er tatsächlich bereitgestellt wird. Der Zeitpunkt, zu dem der Bericht bereitgestellt wird, hängt in erster Linie davon ab, wie lange die Verarbeitung dauert. Die Verarbeitung komplexer und großer Berichte dauert länger als die einfacheren Berichte. Wenn beispielsweise die Verarbeitung eines Berichts 15 Minuten dauert, liegt die tatsächliche Versandzeit mindestens 15 Minuten nach der ursprünglich angegebenen &quot;Bereitstellungszeit&quot;oder &quot;Tageszeit&quot;.
+
+Darüber hinaus gibt es eine Reihe zusätzlicher Faktoren, durch die sich die tatsächliche Berichtsbereitstellung weiter verzögern kann:
+
+* **Wenn Sie mehrere verschiedene Zeitpläne desselben Typs gleichzeitig ausführen** (z. B. mehrere Dashboards) ist das System möglicherweise überlastet. Das Planungssystem ermöglicht nur die gleichzeitige Ausführung einiger (5-10) Berichte eines Typs. Wenn mehr als 5 bis 10 gleichzeitig geplant sind, müssen einige warten, bis andere Berichte fertig sind, bevor die Verarbeitung beginnen kann. Sie können dieses Problem umgehen, indem Sie die Ausführung der Berichte Ihres Unternehmens über einen Tag oder eine Stunde staffeln, statt sie alle auf einmal auszuführen.
+* Darüber hinaus werden Berichte unabhängig vom Berichtstyp (Dashboards usw.) in die Warteschlange gestellt, wenn das Unternehmen **mehr als 15 bis 20 Berichte eines beliebigen Typs gleichzeitig geplant hat**. Dieses Problem kann durch gestaffelte Zeitpläne gelöst werden, sodass nicht viele gleichzeitig ausgeführt werden.
+* **Probleme bei nachgeschalteten Diensten**, von denen die Planung abhängt, können sich ebenfalls auf die Bereitstellung von Berichten auswirken. Wenn Sie z. B. die APIs sowohl zum Ausführen von Berichten als auch zum Füllen der API-Anforderungswarteschlange verwenden, kann es durch den Wettstreit um die Ressourcen zu Verzögerungen bei den terminierten Berichten kommen.
+* Auch die **Report Suite-Latenz** (eine Verzögerung bei der Datenerfassung) kann die Bereitstellung einiger terminierter Berichte verzögern.
 
 
 ## Bericht senden {#task_27642CD33D484FD0BF59EBD159EEF52C}
@@ -59,7 +59,7 @@ In diesen Schritten wird beschrieben, wie Sie Berichte in einer Vielzahl von For
 1. Klicken Sie auf **[!UICONTROL Erweiterte Auslieferungsoptionen]**, um einen Auslieferungszeitplan festzulegen.
 
 | Option | Beschreibung |
-|--- |--- |
+| --- |--- |
 | Berichtsdateiname | Gibt den Namen des Berichts an. Das Standardformat ist `<report name> for <suite> - <report date range>`. Um einen benutzerspezifischen Namen festzulegen wählen Sie [!UICONTROL Benutzerdefiniert] aus. |
 | Berichtsformat | Ermöglicht die Auswahl des Formats für die Auslieferung (PDF, CSV, Excel, HTML, Word oder Mobil). Wenn Sie CSV auswählen können Sie auch die Kodierung für CSV auswählen:<ul><li>Shift-JIS: Japanische Zeichenkodierung.</li><li>EUC-JP: Extended Unix Code, hauptsächlich für Japanisch, Koreanisch und vereinfachtes Chinesisch.</li></ul> |
 | Berichtsinhalt | <ul><li>Anzahl der Zeilen in der Tabelle: Gibt die Anzahl der Zeilen an, die in der versendeten Tabelle des Berichts angezeigt werden sollen.</li><li>Sprache für Kopf- und Fußzeile: Gibt die Sprache der Kopfzeile und Fußzeile an.</li><li>Kommentare: Gibt den Text an, der zu Beginn des Berichts erscheint.</li></ul> |
@@ -119,7 +119,7 @@ In diesen Schritten wird beschrieben, wie Sie einen Bericht freigeben, indem Sie
 
 Wenn der Empfänger auf den Link klickt, fordert das System zur Eingabe der Anmeldeangaben (Firmenname, Benutzername und Passwort) auf. Nach der Anmeldung wird dem Empfänger der vom Verfasser erstellte Bericht angezeigt. Dabei gelten die standardmäßigen Zugriffsrechte.
 
-**So geben Sie einen Bericht-Link frei**
+So geben Sie einen Bericht-Link frei,
 
 1. Einen Bericht ausführen.
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Link zu diesem Bericht]**.
