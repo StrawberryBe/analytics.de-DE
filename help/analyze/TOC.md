@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Anleitungen für Analysis Workspace, das führende Analyse- und Visualisierungswerkzeug für Analytics, sowie Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1039'
 ht-degree: 96%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 96%
       + [Attributionsbedienfeld](analysis-workspace/c-panels/attribution.md)
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
-      + [Bereich &quot;Zielgruppendurchschnitt pro Minute&quot;](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Bedienfeld „Gleichzeitige Medienbetrachter“](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Mit Medienwiedergabe verbrachte Zeit {#media-playback-timespent}
          + [Überblick](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
@@ -298,6 +298,7 @@ ht-degree: 96%
       + [Adobe Analytics für iOS](reports-analytics/overview/app-ios.md)
    + [Einstellungen zur Berichtsanzeige und Navigation](reports-analytics/report-settings.md)
    + [Berichtsplanung und -verteilung](reports-analytics/scheduling.md)
+   + [Hinweis zur Einstellung der Berichtserstellung für terminierte Berichte](reports-analytics/scheduled-reports-eol.md)
    + [Berichtstypen](reports-analytics/reports.md)
    + [Verschiedene Berichtstypen ausführen](reports-analytics/t-running-report-types.md)
    + Berichte anpassen {#customize-reports}

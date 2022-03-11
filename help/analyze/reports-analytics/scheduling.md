@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '1750'
-ht-degree: 100%
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+workflow-type: tm+mt
+source-wordcount: '1714'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 Informationen zum Planen, Herunterladen und Verteilen von Berichten.
 
 >[!IMPORTANT]
->Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
+>Ab dem 15. April 2022 beabsichtigt Adobe, alle terminierten Berichte, deren Erstellungsdatum mehr als zwei Jahre beträgt, anzuhalten (alle Aufgaben, die vor dem 31. Januar 2020 erstellt wurden). Es werden keine Berichte oder Daten gelöscht. Nur Berichte, die älter als zwei Jahre sind, werden angehalten und keine weiteren terminierten Berichte werden gesendet. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Verwenden Sie die Zeitplan- und Verteilungstools, um einen Bericht zur Bereitstellung in einer Adobe Analytics-Anwendung vorzumerken, den automatischen Versand von Dateien zu prüfen und die Bereitstellung abzuändern oder zu beenden.
 

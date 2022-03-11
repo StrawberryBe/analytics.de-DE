@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 76%
+source-wordcount: '913'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +43,8 @@ AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN-
 
 | Hinweis | Hinzugefügt oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
-| Aktualisierung der ISO-Region 2022 | 11. März 2021 | Adobe führt am 10. Juni 2022 Aktualisierungen der ISO-Region durch. Nach dieser Version sollten Sie mit kleineren Aktualisierungen rechnen. |
+| Ältere terminierte Berichte wurden angehalten | 11. März 2022 | effektiv **15. April 2022** Adobe beabsichtigt, alle terminierten Berichte anzuhalten, deren Erstellungsdatum mehr als zwei Jahre beträgt (die vor dem 31. Januar 2020 erstellt wurden). Es werden keine Berichte oder Daten gelöscht. Nur Berichte, die älter als zwei Jahre sind, werden angehalten und keine weiteren terminierten Berichte werden gesendet. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| Aktualisierung der ISO-Region 2022 | 11. März 2021 | Adobe führt 2022 Aktualisierungen der ISO-Region durch **10. Juni 2022**. Nach dieser Version sollten Sie mit kleineren Aktualisierungen rechnen. |
 | Ändern der Verarbeitung von A4T-Daten durch Analytics, die über Experience Edge erfasst wurden | 25. Februar 2022 | on **7. März 2022**&#x200B;ändern wir, wie wir mit einigen Target-bezogenen Daten umgehen, die über Experience Edge an Adobe Analytics gesendet werden. Bei Verwendung des Adobe Experience Platform Web SDK mit Analytics und Target wurden einige Personalisierungsereignisse in [!DNL Adobe Analytics] as [!UICONTROL Seitenansichten]. Dies führte zu überhöhten Seitenansichtszahlen und zusätzlichen Server-Aufrufen. Mit der Änderung werden Personalisierungsaufrufe ohne Analytics-Inhalt ignoriert. Personalisierungsaufrufe mit A4T-Daten zeichnen die A4T-Daten auf, werden jedoch nicht als abrechnungsfähige Server-Aufrufe aufgezeichnet und wirken sich auch nicht auf Seitenansichten oder Linkereignismetriken aus. |
 | Anhalten älterer geplanter Report Builder-Aufgaben | 24. Februar 2022 | **Wirksam ab 15. April 2022** Adobe beabsichtigt, alle geplanten Report Builder-Aufgaben, die vor mehr als zwei Jahren erstellt wurden, anzuhalten. Diese Pause gilt insbesondere für alle Aufgaben, die vor dem 31. Januar 2020 erstellt wurden. Es werden keine Aufgaben, Arbeitsmappen oder Daten gelöscht. Aufgaben, die älter als zwei Jahre sind, werden jedoch ausgesetzt und es werden keine weiteren geplanten Aufgaben gesendet. [Weitere Informationen](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | Ablauf der Zulassungslisten-Verlängerung für das Ende der Nutzungsdauer für veraltete Analytics-OAuth-/JWT-Integrationen | 14. Januar 2022 | Am **25. Mai 2022** läuft die Erweiterung der Zulassungsliste für [Analytics 1.3 API, 1.4 SOAP API und Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) ab. Sie wurde angeboten, um Kunden, die noch die veralteten OAuth/JWT-Anmeldeinformationen für [!DNL Adobe Analytics] verwenden, zusätzliche Zeit für die Migration ihrer Client-Integrationen auf die [Adobe IMS-Anmeldeinformationen](https://developer.adobe.com/console) zu geben. Dieser Gültigkeitsablauf betrifft (ist jedoch nicht auf beschränkt auf) Kunden von [!DNL Adobe Analytics Livestream] und [!DNL Adobe Campaign], die die erforderlichen IMS-Migrationen nicht abgeschlossen haben. Kunden, die derzeit veraltete [!DNL Analytics]-OAuth-/JWT-Anmeldeinformationen über die Zulassungsliste-Verlängerung verwenden und die ihre Migration zu IMS-Anmeldeinformationen nicht bis zum 25. Mai 2022 abgeschlossen haben, verlieren den Zugriff auf Adobe-Services. Livestream-Kunden können im Hinblick auf die Umstellung ihrer Client-Programme auf IMS-Anmeldeinformationen diese [Anweisungen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) zurate ziehen. [!DNL Campaign]-Kunden können sich zwecks Upgrade auf die neueste Version von [!DNL Campaign] an ihr Adobe-Account-Team wenden. |
