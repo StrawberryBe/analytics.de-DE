@@ -1,12 +1,12 @@
 ---
-title: Einzelseitenbesuche
+title: Einzelseitenbesuche (Metriken)
 description: Die Häufigkeit, mit der sich das Dimensionselement „Seite“ bei einem Besuch nicht geändert hat.
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 97%
 
 ---
 

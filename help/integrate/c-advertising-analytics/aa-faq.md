@@ -1,12 +1,12 @@
 ---
 description: Häufig gestellte Fragen zu Advertising Analytics.
-title: Häufig gestellte Fragen
+title: Häufig gestellte Fragen zu Werbeanalysen
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 99%
 
 ---
 
