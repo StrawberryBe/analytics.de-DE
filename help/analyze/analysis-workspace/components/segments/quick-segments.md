@@ -4,10 +4,10 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 77%
+source-wordcount: '878'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,7 @@ Das Segment wird oben angezeigt. Beachten Sie die blau gestreifte Seitenleiste d
 1. Optional: Benennen Sie das Segment um.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Beachten Sie, dass die Seitenleiste des Segments nicht mehr blau gestreift, sondern blau ist. Sie wird jetzt auch in der Komponentenliste der linken Leiste angezeigt.
+Beachten Sie, dass sich die Seitenleiste des Segments von gestreiftem Blau in helleres Blau ändert. Sie wird jetzt auch in der Komponentenliste der linken Leiste angezeigt.
 
 ## Was sind reine Projektsegmente?
 
