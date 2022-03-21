@@ -3,14 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9892291d5386c3faaec0da06084a1ce7695a78a
+source-git-commit: 99572e3ed2b519b5479a31680a48c17e2aed4fd9
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 52%
+source-wordcount: '888'
+ht-degree: 53%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (März 2022)
+
+**Zuletzt aktualisiert: 21. März 2022**
 
 >[!IMPORTANT]
 >
@@ -24,7 +26,7 @@ ht-degree: 52%
 | Funktion | Beschreibung | [Zieldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Anmerkungen in Workspace | Mit Anmerkungen in Workspace können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv kommunizieren. [Weitere Informationen](/help/analyze/analysis-workspace/components/annotations/overview.md) | 23. März 2022 |
-| Aktualisierungen der Adobe Analytics-Landingpage | Aktualisierungen der gemeinsamen Landingpage von Workspace/Reports &amp; Analytics, die die Benutzerfreundlichkeit verbessern und die Navigation erleichtern. [Weitere Informationen](/help/analyze/landing.md) | TBD |
+| Aktualisierungen der Adobe Analytics-Landingpage | Aktualisierungen der gemeinsamen Landingpage von Workspace/Reports &amp; Analytics, die die Benutzerfreundlichkeit verbessern und die Navigation erleichtern. [Weitere Informationen](/help/analyze/landing.md) | 1. April 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
