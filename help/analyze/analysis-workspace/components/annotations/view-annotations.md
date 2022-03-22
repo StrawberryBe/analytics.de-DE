@@ -4,10 +4,10 @@ description: Anzeigen von Anmerkungen in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
+source-git-commit: 70dc0fedc6ba16cb521af7a94524a4df99200d25
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 50%
+source-wordcount: '251'
+ht-degree: 43%
 
 ---
 
@@ -27,18 +27,18 @@ Anmerkungen werden je nachdem, ob sie sich über einen einzelnen Tag oder einen 
 | **Datumsbereich** | Das Symbol ändert sich, und wenn Sie den Mauszeiger darüber bewegen, wird der Datumsbereich angezeigt.<p>![](assets/multi-day.png)<p>Wenn Sie sie im Liniendiagramm auswählen, werden die Anmerkungsmetadaten angezeigt und Sie können sie bearbeiten oder löschen:![](assets/multi-hover.png)<p>In einer Tabelle wird an jedem Datum im Datumsbereich ein Symbol angezeigt.<p>![](assets/multi-day-table.png) |
 | **Überlappende Anmerkungen** | An Tagen mit mehr als einer Anmerkung wird das Symbol grau dargestellt.<p>![](assets/grey.png)<p>Wenn Sie den Mauszeiger über das graue Symbol bewegen, werden alle überlappenden Anmerkungen angezeigt:<p>![](assets/overlap.png) |
 
-## Anzeigen von Anmerkungen in einem Zusammenfassungsdiagramm
-
-![](assets/ann-summary.png)
-
 ## Anzeigen von Anmerkungen in einer PDF-Datei
 
 Da Symbole in einer PDF-Datei nicht auf den Mauszeiger reagieren können, enthält diese Datei (nach dem Export) am unteren Rand eines Bedienfelds Anmerkungen zu Erklärungen. Siehe folgendes Beispiel:
 
 ![](assets/ann-pdf.png)
 
-## Anzeigen von Anmerkungen, die nicht auf Daten basieren
+## Anzeigen von Anmerkungen mit Daten ohne Trendansicht
 
-Manchmal sind Anmerkungen nicht an ein Datum gebunden, sondern an eine bestimmte Dimension. In diesem Fall werden sie nur in einer Zusammenfassungsanmerkung in der rechten unteren Ecke angezeigt. Siehe folgendes Beispiel:
+Manchmal werden Anmerkungen mit Daten ohne Trendansicht angezeigt, die jedoch an eine bestimmte Dimension gebunden sind. In diesem Fall werden sie nur in einer Zusammenfassungsanmerkung in der rechten unteren Ecke angezeigt. Siehe folgendes Beispiel:
 
 ![](assets/non-date.png)
+
+Das Zusammenfassungsdiagramm wird in allen Visualisierungstypen in der Ecke angezeigt, nicht nur in nicht Trend-Freiformtabellen und Zusammenfassungsnummern. Es wird auch in Visualisierungen wie [!UICONTROL Ringdiagramm], [!UICONTROL Fluss],[!UICONTROL Fallout],[!UICONTROL Kohorte]usw.
+
+![](assets/ann-summary.png)
