@@ -3,12 +3,12 @@ description: Anhand von Lesezeichen haben Sie Zugriff auf die Berichte, die Sie 
 subtopic: Bookmarks
 title: Lesezeichen-Manager
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '326'
 ht-degree: 98%
 
 ---
@@ -29,12 +29,12 @@ t_bookmarks_creating.xml
 
 1. Führen Sie einen Bericht aus und klicken Sie anschließend auf **[!UICONTROL Lesezeichen]**.
 
-       |Name|Ein benutzerfreundlicher Name für das Lesezeichen.|
-       |---|---|
-       |Hinzufügen zu| Geben Sie den Ordner an, in dem Sie das Lesezeichen ablegen möchten.|
-       |Als öffentlich einstellen| Dieses Lesezeichen steht Benutzern mit Zugriff auf die Report Suite zur Verfügung.|
-       |Bericht bei Anmeldung anzeigen| Zeigt den Bericht an, wenn Sie sich anmelden.|
-   
+   | Name | Ein benutzerfreundlicher Name für das Lesezeichen. |
+   |---|---|
+   | Hinzufügen zu | Gibt den Ordner an, in dem Sie das Lesezeichen ablegen. |
+   | Als öffentlich einstellen | Dieses Lesezeichen steht Benutzern mit Zugriff auf die Report Suite zur Verfügung. |
+   | Bericht bei Anmeldung anzeigen | Zeigt den Bericht bei Ihrer Anmeldung an. |
+
 ## Lesezeichen verwalten {#task_1EE793CB52EA467787817BBD98DEF150}
 
 Nachdem Sie Lesezeichen erstellt haben, können Sie diese im [!UICONTROL Lesezeichen-Manager] verwalten. Hier haben Sie die Möglichkeit, Ihre Lesezeichen und Ordner zentral zu bearbeiten, zu löschen und zu organisieren.
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Komponenten]**  >  **[!UICONTROL Alle Komponenten]**  >  **[!UICONTROL Lesezeichen]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Lesezeichen]**.
 
 **Meine Lesezeichen**
 
