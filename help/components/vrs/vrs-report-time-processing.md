@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
+source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 96%
+source-wordcount: '1521'
+ht-degree: 91%
 
 ---
 
@@ -88,3 +88,4 @@ Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den 
 * **Nicht-Merchandising-eVars/reservierte eVars:** Die in einer eVar festgelegten Werte werden aufgrund des Datumsfensters für die Berichtszeitverarbeitung nur dann beibehalten, wenn der Wert innerhalb des Datumsbereichs für die Berichterstellung festgelegt wurde. Zudem können zeitbasierte Abläufe eine Stunde zu früh oder zu spät ablaufen, wenn sich die Persistenz über eine Zeitumstellung erstreckt.
 * **Merchandising-eVars/reservierte eVars:** Siehe oben. Zudem wird bezüglich der Konversionssyntax „Beliebige Treffer“ verwendet, wenn die Bindung auf „Beliebiges Ereignis“ festgelegt ist.
 * **Treffertyp:** Diese Dimension gibt an, ob es sich bei einem Treffer um einen Vorder- oder Hintergrundtreffer handelt.
+* **Dimensionen mit (geringem Traffic) oder &quot;Individuelle Werte überschritten&quot;:** Der Zeileneintrag (geringer Traffic) wird bei der Verwendung der Berichtszeitverarbeitung etwas anders bestimmt und entspricht nicht garantiert dem, was bei der Berichterstellung für die zugrunde liegende Report Suite beobachtet wird. Darüber hinaus ist nicht garantiert, dass Dimensionselemente, die nicht Teil von &quot;Geringer Datenverkehr&quot;sind, 100 % der Daten für diesen Zeileneintrag darstellen, anders als bei einer zugrunde liegenden Report Suite. Diese Unterschiede werden umso deutlicher, je höher die Anzahl eindeutiger Werte in einer Dimension ist.
