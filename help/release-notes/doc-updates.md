@@ -4,10 +4,10 @@ description: Wichtige Aktualisierungen in der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 100%
+source-wordcount: '3096'
+ht-degree: 96%
 
 ---
 
@@ -23,10 +23,18 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 | --- | --- |
+| **März 2022** |  |
+| New documentation on Annotations in Workspace | [Anmerkungen in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) ermöglichen Ihnen die effektive Kommunikation kontextueller Datennuancen und Einblicke in Ihr Unternehmen. |
+| Aktualisierungen der Adobe Analytics-Landingpage | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports &amp; Analytics landing page that improves usability and ease of navigation. |
+| [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] Arbeitsbereich | This panel allows you to explore items that follow or precede a dimension item of your choice. |
+| [!UICONTROL Page Summary] Workspace panel | Dieses Bedienfeld bietet eine Tiefenanalyse für eine Seite Ihrer Wahl. |
+| **Februar 2022** |  |
+| Vorschaumodus für Mobile Scorecard-Projekte | Die [Vorschaumodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#preview) ermöglicht es Ihnen, eine Vorschau des Erlebnisses anzuzeigen, bevor Sie eine Scorecard speichern und freigeben. |
+| API-Projekt-Endpunkt | Hinzufügen, Bearbeiten oder Löschen von Analysis Workspace-Projekten mithilfe der API. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | **Oktober 2021** |  |
 | 21. Oktober 2021 | Neue Dokumentation zu [Schnellsegmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=de) in Analysis Workspace |
 | 21. Oktober 2021 | Neue Dokumentation zum Panel [Medienwiedergabe – Besuchszeit](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=de) in Analysis Workspace. |
-| 7. Oktober 2021 | Neue Dokumentation zu [Visualisierungen für Mobile-Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#apply-visualizations) |
+| 7. Oktober 2021 | Neue Dokumentation zu [Visualisierungen für Mobile-Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#viz) |
 | **August 2021** |  |
 | 18. August 2021 | Struktur auf oberster Ebene überarbeitet und in eine einzelne [Landingpage](https://experienceleague.adobe.com/docs/analytics.html?lang=de) konsolidiert |
 | 18. August 2021 | Neues Thema zu [A4T und Virtual Report Suites](/help/components/vrs/vrs-a4t.md) |
@@ -82,9 +90,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 25. Juni 2020 | Neue Dokumentation zum [Bedienfeld „Analytics for Target“](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) in Arbeitsbereich. Damit können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse mit Leichtigkeit analysieren. |
 | 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Algorithmische Zuordnung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
 | 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Benutzerdefinierte Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
-| 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“.  |
+| 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. |
 | 18. Juni 2020 | Neue Dokumentation zu [Arbeitsbereich-Projekten, die nur angezeigt werden können](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de). Freigegebene Projekte können von Benutzern nur angesehen werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten, keine linke Leiste und verfügt nur über beschränkte Interaktionen. |
-| 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“.  |
+| 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. |
 | 18. Juni 2020 | Neue Dokumentation zum [Co-Editing von Arbeitsbereich-Projekten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. |
 | **Mai 2020** |  |
 | 31. Mai 2020 | Neue Dokumentation zur [Bulk Data Insertion-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
