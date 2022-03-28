@@ -1,11 +1,11 @@
 ---
-description: Wenn ein Bericht eine große Anzahl eindeutiger Werte aufweist, verwendet Adobe das Dimensionselement "Geringer Datenverkehr", um die Berichtsleistung zu verbessern.
+description: Wenn ein Bericht viele eindeutige Werte aufweist, verwendet Adobe das Dimensionselement "Geringer Datenverkehr", um die Berichtsleistung zu verbessern.
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
+source-git-commit: ddd1473ccfe27dbcb28c0c51992628c9bf03cb5c
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '622'
 ht-degree: 49%
 
 ---
@@ -20,10 +20,10 @@ Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sicher
 * Wenn eine Variable 500.000 eindeutige Werte erreicht, werden die Daten unter [!UICONTROL Geringer Traffic]. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
    * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
    * Wenn ein Wert noch nicht in Berichten enthalten ist, wird er zunächst im [!UICONTROL Geringer Traffic] Dimensionselement.
-   * Wenn ein Wert, der unter [!UICONTROL Geringer Traffic] in diesem Monat irgendwo in zweistelligen Ziffern angezeigt wird, wird es als eigenes Dimensionselement erkannt. Vor Erreichen der Schwelle gesammelte Instanzen bleiben unter [!UICONTROL Geringer Traffic]. Der genaue Schwellenwert weist viele Abhängigkeiten auf, z. B. die Anzahl der Server, die Daten für die Report Suite verarbeiten, und die Zeit zwischen den einzelnen Dimensionselementinstanzen.
-* Wenn eine Report Suite mehr als 1.000.000 eindeutige Werte erreicht, wird eine aggressivere Filterung angewendet. Eindeutige Werte erfordern Instanzen in den dreistelligen Ziffern, bevor sie als eigenes Dimensionselement erkannt werden.
+   * Wenn ein Wert, der unter [!UICONTROL Geringer Traffic] einen Traffic-Zustrom erhält (typischerweise Instanzen in den zweistelligen Stellen an einem einzelnen Tag), wird er als eigenes Dimensionselement erkannt. Vor Erreichen der Schwelle gesammelte Instanzen bleiben unter [!UICONTROL Geringer Traffic]. Der genaue Schwellenwert weist viele Abhängigkeiten auf, z. B. die Anzahl der Server, die Daten für die Report Suite verarbeiten, und die Zeitspanne zwischen den einzelnen Dimensionselementinstanzen.
+* Wenn eine Report Suite mehr als 1.000.000 eindeutige Werte erreicht, wird eine aggressivere Filterung angewendet. Eindeutige Werte erfordern Instanzen in den dreistelligen Stellen an einem Tag, bevor sie als eigenes Dimensionselement erkannt werden.
 
-Diese Logik ermöglicht es der Adobe, die Berichterstellungsfunktionen zu optimieren und gleichzeitig Ihrem Unternehmen die Möglichkeit zu geben, über wichtige Dimensionselemente zu berichten, die später im Monat erfasst wurden. Ihre Organisation betreibt beispielsweise eine Site mit Millionen von Artikeln und ein neuer Artikel wurde gegen Ende des Monats beliebt (nachdem beide individuelle Schwellenwerte überschritten wurden). Sie können die Leistung dieses Artikels weiterhin analysieren, ohne dass er unter [!UICONTROL Geringer Traffic]. Beachten Sie, dass diese Logik nicht dazu gedacht ist, alles aufzuheben, das eine bestimmte Anzahl von Seitenansichten pro Tag oder Monat erhält.
+Diese Logik ermöglicht es der Adobe, die Berichterstellungsfunktionen zu optimieren und gleichzeitig Ihrem Unternehmen die Möglichkeit zu geben, über wichtige Dimensionselemente zu berichten, die später im Monat erfasst wurden. Ihre Organisation betreibt beispielsweise eine Site mit Millionen von Artikeln und ein neuer Artikel wurde gegen Ende des Monats beliebt (nachdem beide individuelle Schwellenwerte überschritten wurden). Sie können die Leistung dieses Artikels weiterhin analysieren, ohne dass er unter [!UICONTROL Geringer Traffic]. Diese Logik ist nicht dazu gedacht, alles aufzuheben, das eine bestimmte Anzahl von Seitenansichten pro Tag oder Monat erhält.
 
 >[!NOTE]
 >Die [Seite](../components/dimensions/page.md) -Dimension verwendet mehrere Backend-Spalten, die alle auf eindeutige Schwellenwerte angerechnet werden, darunter `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`und `click_context`. Diese Backend-Spalten können [!UICONTROL Geringer Traffic] -Logik angewendet werden, bevor die Anzahl der eindeutigen Seitendimensionen in Workspace 500.000 erreicht.
