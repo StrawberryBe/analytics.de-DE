@@ -4,10 +4,10 @@ description: Wichtige Aktualisierungen in der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 96%
+source-wordcount: '3169'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,16 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Datum | Beschreibung |
 | --- | --- |
 | **März 2022** |  |
-| New documentation on Annotations in Workspace | [Anmerkungen in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) ermöglichen Ihnen die effektive Kommunikation kontextueller Datennuancen und Einblicke in Ihr Unternehmen. |
-| Aktualisierungen der Adobe Analytics-Landingpage | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports &amp; Analytics landing page that improves usability and ease of navigation. |
-| [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] Arbeitsbereich | This panel allows you to explore items that follow or precede a dimension item of your choice. |
-| [!UICONTROL Page Summary] Workspace panel | Dieses Bedienfeld bietet eine Tiefenanalyse für eine Seite Ihrer Wahl. |
-| **Februar 2022** |  |
+| Neues Thema zu unterstützten HTTPS-Verschlüsselungsalgorithmen | [Unterstützte HTTPS-Verschlüsselungsalgorithmen](/help/technotes/rdc/encryption-algos.md) für Kunden, deren cipher-Sicherheitsstufe auf &quot;Hoch&quot;eingestellt ist. |
+| Neue Dokumentation zu Anmerkungen in Workspace | [Anmerkungen in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) ermöglichen Ihnen die effektive Kommunikation kontextueller Datennuancen und Einblicke in Ihr Unternehmen. |
+| Aktualisierungen der Adobe Analytics-Landingpage | [Updates](/help/analyze/landing.md) zur gemeinsamen Landingpage für Workspace/Reports &amp; Analytics, wodurch die Benutzerfreundlichkeit und die einfache Navigation verbessert werden. |
+| [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] Arbeitsbereich | In diesem Bedienfeld können Sie Elemente untersuchen, die einem Dimensionselement Ihrer Wahl folgen oder diesem vorausgehen. |
+| [!UICONTROL Seitenzusammenfassung] Arbeitsbereich | Dieses Bedienfeld bietet eine Tiefenanalyse für eine Seite Ihrer Wahl. |
+| Neues Thema zum Anhalten älterer terminierter Berichte | effektiv **15. April 2022**, beabsichtigt die Adobe, [Alle terminierten Berichte mit einem Erstellungsdatum von mehr als zwei Jahren anhalten](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **Februar 2022** |
 | Vorschaumodus für Mobile Scorecard-Projekte | Die [Vorschaumodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#preview) ermöglicht es Ihnen, eine Vorschau des Erlebnisses anzuzeigen, bevor Sie eine Scorecard speichern und freigeben. |
 | API-Projekt-Endpunkt | Hinzufügen, Bearbeiten oder Löschen von Analysis Workspace-Projekten mithilfe der API. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| Aktualisiertes Thema zum Anhalten älterer geplanter Report Builder-Aufgaben | **Wirksam ab 15. April 2022**, beabsichtigt die Adobe, [Anhalten aller geplanten Report Builder-Aufgaben, die vor mehr als zwei Jahren erstellt wurden](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Oktober 2021** |  |
 | 21. Oktober 2021 | Neue Dokumentation zu [Schnellsegmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=de) in Analysis Workspace |
 | 21. Oktober 2021 | Neue Dokumentation zum Panel [Medienwiedergabe – Besuchszeit](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=de) in Analysis Workspace. |
