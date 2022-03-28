@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analysetool oder einer bestimmten Komponente gehören.
-source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
+source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 100%
 + Regionale Datenerfassung {#rdc}
    + [Hilfe zur regionalen Datenerfassung](rdc/regional-data-collection.md)
    + [SSL-Zertifizierungslizenzierung](rdc/ssl-cert-licensing.md)
+   + [Unterstützte HTTPS-Verschlüsselungsalgorithmen](rdc/encryption-algos.md)
 + [Sicherheitsressourcen](security.md)
 + [Verwendete Begriffe (Glossar)](terms.md)
 + [Zeitstempel optional](timestamps-optional.md)
