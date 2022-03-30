@@ -4,9 +4,9 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
+source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '886'
 ht-degree: 75%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 75%
 
 Sie können innerhalb eines Projekts Schnellsegmente erstellen, anstatt den komplexeren [Segment Builders](/help/components/segmentation/segmentation-workflow/seg-build.md) aufzurufen. Schnellsegmente
 
-* Anwenden als [Nur-Projekt-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
+* Apply as [project-only segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * Mit bis zu drei Regeln.
 * Verschachtelte Container oder sequenzielle Regeln werden nicht unterstützt.
 
 Einen Vergleich zwischen Schnellsegmenten und vollständigen Segmenten in der Komponentenliste finden Sie [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+
+Im Folgenden finden Sie eine Videoübersicht zu Schnellsegmenten:
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## Voraussetzungen
 
@@ -77,16 +81,16 @@ Das Segment wird oben angezeigt. Beachten Sie die blau gestreifte Seitenleiste d
 1. Optional: Benennen Sie das Segment um.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Beachten Sie, dass sich die Seitenleiste des Segments von gestreiftem Blau in helleres Blau ändert. Sie wird jetzt auch in der Komponentenliste der linken Leiste angezeigt.
+Notice how the segment&#39;s side bar changes from striped blue to a lighter blue. Sie wird jetzt auch in der Komponentenliste der linken Leiste angezeigt.
 
 ## Was sind reine Projektsegmente?
 
-Nur-Projekt-Segmente sind Segmente, die nur für das aktuelle Projekt gelten, in dem sie erstellt wurden. Sie sind in anderen Projekten nicht verfügbar und können nicht für andere Benutzer freigegeben werden. Sie sind für die schnelle Untersuchung Ihrer Daten gedacht, ohne ein Segment in der linken Leiste erstellen und speichern zu müssen. Nur-Projekt-Segmente können entweder mit Schnellsegmenten oder in der Dropzone des Bedienfelds erstellt werden. [Ad-hoc-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+Nur-Projekt-Segmente sind Segmente, die nur für das aktuelle Projekt gelten, in dem sie erstellt wurden. Sie sind in anderen Projekten nicht verfügbar und können nicht für andere Benutzer freigegeben werden. Sie sind für die schnelle Untersuchung Ihrer Daten gedacht, ohne ein Segment in der linken Leiste erstellen und speichern zu müssen. Project-only segments can be created in the panel drop zone either with Quick segments or [ad-hoc segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
 
 Wenn ein reines Projekt-Segment im [!UICONTROL Segment Builder], wird eine Benachrichtigung nur für Projekte angezeigt. Wenn Sie nicht &quot;Dieses Segment verfügbar machen..&quot;aktivieren. und klicken Sie auf **[!UICONTROL ANWENDEN]** festgelegt ist, bleibt das Segment ein reines Projekt-Segment. Hinweis: Wenn Sie ein Schnellsegment aus dem Segmentaufbau anwenden, kann es nicht mehr im [!UICONTROL Quick Segment Builder].
 
 ![„Nur Projekt“ deaktiviert](assets/project-only-unchecked.png)
 
-Wenn Sie die Option &quot;Dieses Segment verfügbar machen..&quot;aktivieren. und klicken Sie auf **[!UICONTROL SPEICHERN]** wird das Segment in der Komponentenliste der linken Leiste für die Verwendung in anderen Projekten verfügbar. Sie kann auch mit anderen Benutzern über den Segment-Manager freigegeben werden.
+If you check &quot;Make this segment available..&quot; und klicken Sie auf **[!UICONTROL SPEICHERN]** wird das Segment in der Komponentenliste der linken Leiste für die Verwendung in anderen Projekten verfügbar. Sie kann auch mit anderen Benutzern über den Segment-Manager freigegeben werden.
 
 ![„Nur Projekt“ aktiviert](assets/project-only-checked.png)
