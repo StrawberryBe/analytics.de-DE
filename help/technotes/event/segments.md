@@ -2,7 +2,7 @@
 title: Ausschließen spezifischer Daten in der Analyse
 description: Tipps zum Ausschließen von Datumsangaben oder Datumsbereichen, wenn Sie sie nicht in Berichte aufnehmen möchten.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-source-git-commit: 84f00a330334d6f4272f35140da0fecbf43622c9
+source-git-commit: d03206b127e16cbb98d1318b0acc6c304f91ca48
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 Wenn Sie Daten haben [von einem Ereignis beeinflusst](overview.md)können Sie ein Segment verwenden, um alle Datumsbereiche auszuschließen, die Sie nicht in Ihre Berichte aufnehmen möchten. Die Segmentierung ereignisbetroffener Daten kann verhindern, dass Ihr Unternehmen Entscheidungen zu partiellen Daten trifft.
 
-## Betroffene Tage isolieren
+## Betroffene Tage isolieren {#isolate}
 
 Erstellen Sie ein Segment, das den betroffenen Tag oder Datumsbereich isoliert. Dieses Segment ist nützlich, wenn Sie sich nur auf die Problemtage konzentrieren möchten, um mehr Informationen über die Auswirkungen zu erhalten.
 
@@ -31,7 +31,7 @@ Adobe empfiehlt die Verwendung der orangefarbenen Dimensionskomponenten und nich
 
 ![Segmenttag ausschließen](assets/exclude_segment_day_type.jpg)
 
-## Betroffene Tage ausschließen
+## Betroffene Tage ausschließen {#exclude}
 
 Erstellen Sie ein Segment, das den betroffenen Tag oder Datumsbereich ausschließt. Dieses Segment ist nützlich, wenn Sie die Tage ausschließen möchten, an denen Probleme aufgetreten sind, um die Auswirkungen auf die Gesamtberichterstattung zu minimieren.
 
@@ -46,7 +46,7 @@ Erstellen Sie ein Segment, das den betroffenen Tag oder Datumsbereich ausschlie�
 
 Nachdem Sie das Ausschlusssegment erstellt haben, können Sie es genau so verwenden, wie Sie andere Segmente verwenden würden.
 
-### Segmente in einem Trendbericht vergleichen
+### Segmente in einem Trendbericht vergleichen {#compare}
 
 Sie können sowohl das Segment &quot;Betroffene Tage&quot;als auch das Segment &quot;Betroffene Tage ausschließen&quot;in einem Bericht anwenden, um ihn nebeneinander zu vergleichen. Ziehen Sie beide Segmente über oder unter eine Metrik, um sie zu vergleichen:
 
@@ -60,7 +60,7 @@ Wenn Sie keine Nullen in Ihrer Tabelle oder Ihren Visualisierungen anzeigen möc
 
 ![Null interpretieren](assets/interpret_zero.png)
 
-### Anwenden des Ausschlusssegments auf ein Projekt
+### Anwenden des Ausschlusssegments auf ein Projekt {#apply}
 
 Sie können das Segment &quot;Betroffene Tage ausschließen&quot;auf ein Workspace-Projekt anwenden. Ziehen Sie das Ausschlusssegment in den Arbeitsbereich-Arbeitsbereich mit der Bezeichnung *Segment hier ablegen*.
 
@@ -70,7 +70,7 @@ Sie können das Segment &quot;Betroffene Tage ausschließen&quot;auf ein Workspa
 
 ![Auf ein Bedienfeld angewendetes Segment](assets/exclude_segment_panel.jpg)
 
-### Verwenden des Ausschlusssegments in einer Virtual Report Suite
+### Verwenden des Ausschlusssegments in einer Virtual Report Suite {#use-vrs}
 
 Sie können das Segment in einem [Virtual Report Suite](/help/components/vrs/vrs-about.md) um die Daten leichter auszuschließen. Diese Option ist optimal, da Sie nicht daran denken müssen, das Segment auf jeden Bericht anzuwenden, der den betroffenen Datumsbereich enthält. Wenn Sie Virtual Report Suites bereits als primäre Datenquelle verwenden, können Sie das Segment zu einer vorhandenen VRS hinzufügen.
 

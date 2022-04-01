@@ -3,9 +3,9 @@ title: Neueste Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2665aadca6d11aca99bfc522f9f7e54311dadf77
+source-git-commit: 433a750ddf4aca56fd9fbe5ec2482f66cf45125f
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1138'
 ht-degree: 41%
 
 ---
@@ -49,7 +49,7 @@ AN-256929; AN-270937; AN-272158 AN-275130; AN-277830; AN-278635; AN-279066; AN-2
 
 | Hinweis | Hinzugefügt oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
-| Änderung der Verarbeitung von A4T-Daten durch Analytics, die über Experience Edge erfasst wurden | 31. März 2022 | on **7. März 2022** wurde die Art und Weise geändert, wie wir einige Aufrufe von Experience Edge verarbeiten, die Target-Inhalte für A4T-Berichte enthalten. Ab dem 7. März wurden alle Treffer mit A4T-Berichtsinhalten geändert, sodass sie nicht als Seitenansichts- oder Link-Ereignisse behandelt wurden. **Ab 31. März 2022** haben wir unsere Logik so geändert, dass sie selektiver ist, sodass die standardmäßigen Seitenansichts- und Klickereignisse nicht geändert werden. Künftig werden nur noch Personalisierungsaufrufe mit A4T-Inhalt geändert. |
+| Änderung der Verarbeitung von A4T-Daten durch Analytics, die über Experience Edge erfasst wurden | 31. März 2022 | on **7. März 2022** wurde die Art und Weise geändert, wie wir einige Aufrufe von Experience Edge verarbeiten, die Target-Inhalte für die Berichterstellung von Analytics for Target (A4T) enthalten. Ab dem 7. März wurden alle Treffer mit A4T-Berichtsinhalten geändert, sodass sie nicht als Seitenansichts- oder Link-Ereignisse behandelt wurden. **Ab 31. März 2022** haben wir unsere Logik so geändert, dass sie selektiver ist, sodass die standardmäßigen Seitenansichts- und Klickereignisse nicht geändert werden. Künftig werden nur noch Personalisierungsaufrufe mit A4T-Inhalt geändert. |
 | Aktualisierung der Browserverschlüsselungsmethoden, die von bestimmten Kunden unterstützt werden | 28. März 2022 | Adobe bietet zwei Sicherheitsstufen, die den unterschiedlichen Kundenanforderungen an die Sicherheit bei der Erstanbieter-Datenerfassung gerecht werden. on **23. Juni 2022** Wir werden die Unterstützung für bestimmte HTTPS-Verschlüsselungsalgorithmen, auch als Verschlüsseler bezeichnet, für Kunden entfernen, deren Sicherheitsstufe auf &quot;Hoch&quot;eingestellt ist. Dies bedeutet, dass einige ältere Betriebssysteme keine Daten mehr an Analytics senden können, da sie keine modernen Verschlüsselungsmethoden unterstützen. Kunden, die die standardmäßigen Verschlüsselungssicherheitseinstellungen &quot;Standard&quot;verwenden, sind davon nicht betroffen. Alle Kunden, die derzeit die Einstellung &quot;Hoch&quot;verwenden, wurden bereits direkt kontaktiert. Eine detaillierte Liste der von dieser Änderung betroffenen Chiffren finden Sie unter [here](/help/technotes/rdc/encryption-algos.md). |
 | Anhalten älterer terminierter Berichte | 11. März 2022 | effektiv **15. April 2022** Adobe beabsichtigt, alle terminierten Berichte anzuhalten, deren Erstellungsdatum mehr als zwei Jahre beträgt (die vor dem 31. Januar 2020 erstellt wurden). Es werden keine Berichte oder Daten gelöscht. Nur Berichte, die älter als zwei Jahre sind, werden angehalten und keine weiteren terminierten Berichte werden gesendet. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | Aktualisierung der ISO-Region 2022 | 11. März 2021 | Adobe führt 2022 Aktualisierungen der ISO-Region durch **10. Juni 2022**. Nach dieser Version werden voraussichtlich kleinere Geo-Informationen aktualisiert. |
