@@ -4,7 +4,7 @@ description: Setzen Sie den Zeitstempel des Treffers manuell fest.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## Werte nach ISO 8601
 
-Die nach [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) angegebenen Daten und Zeiten können in verschiedenen Formen verwendet werden. Adobe unterstützt nicht alle Funktionen von ISO 8601.
+Die nach [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) angegebenen Daten und Zeiten können in verschiedenen Formen verwendet werden. Adobe unterstützt nicht alle Funktionen von ISO 8601.
 
 * Sowohl das Datum als auch die Uhrzeit müssen durch `T` getrennt angegeben werden.
 * Stunden und Minuten sind erforderlich; Sekunden sind optional, werden aber empfohlen.
