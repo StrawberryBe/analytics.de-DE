@@ -5,7 +5,7 @@ keywords: Paket-Sniffer, http-Status, 200, 302, Charles
 feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
 ht-degree: 100%
 
@@ -47,10 +47,10 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 Wenn AppMeasurement Daten an die Datenerfassungs-Server der Adobe sendet, antworten die Server mit einem Antwortstatus-Code.
 
 * **200 OK**: Die häufigste Antwort von Datenerfassungs-Servern. Die Bildanforderung wurde erfolgreich empfangen und ein transparentes Bild zurückgegeben.
-* **302 GEFUNDEN**: Es gibt mehrere mögliche Gründe, warum Sie diese Antwort erhalten:
+* **302 FOUND**: Es gibt mehrere mögliche Gründe, warum Sie diese Antwort erhalten:
    * Die erste Bildanforderung eines Besuchers: Eine Umleitung tritt auf, wenn ein Benutzer Ihre Site zum ersten Mal besucht. Diese Umleitung dient zum Abrufen eines Besucher-Cookies. Die Datenerfassung wird dadurch nicht beeinflusst.
    * Integration zwischen Comscore und Adobe: Wenn Ihr Unternehmen eine Comscore-/Analytics-Integration verwendet, ergibt jede Bildanforderung immer eine 302-Antwort.
-* **404 NICHT GEFUNDEN**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungs-Server von Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Wenden Sie sich an die Person oder das Team, die/das Analytics implementiert hat, um dieses Problem zu beheben.
+* **404 NOT FOUND**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungs-Server von Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Wenden Sie sich an die Person oder das Team, die/das Analytics implementiert hat, um dieses Problem zu beheben.
 
 ## NS_BINDING_ABORTED in Antwortcodes
 
