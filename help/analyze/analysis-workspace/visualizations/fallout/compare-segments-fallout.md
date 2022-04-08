@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Im Folgenden finden Sie ein Video zum Vergleichen von Segmenten im Fallout:
 
    ![](assets/segment-drop.png)
 
-1. Optional: Sie können „Alle Besuche“ als Standardcontainer belassen oder löschen.
+1. Optional: Sie können „Alle Besuche“ als Standard-Container belassen oder ihn löschen.
 
    ![](assets/seg-compare.png)
 
