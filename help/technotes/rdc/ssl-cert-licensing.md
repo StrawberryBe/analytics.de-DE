@@ -1,12 +1,12 @@
 ---
-title: SSL-Zertifikatslizenzierung
+title: SSL-Zertifikatlizenzierung
 description: Zertifizierungsverfahren für kundenverwaltete Zertifikate
 feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 Adobe empfiehlt, dass Sie Ihr Zertifikat ohne zusätzliche Kosten im Rahmen des [Adobe-Programms für verwaltete Zertifikate](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=de) verwalten. Das Adobe-Programm für verwaltete Zertifikate ist vollständig automatisiert und stellt sicher, dass Zertifikate zeitnah erneuert werden, sodass abgelaufene Zertifikate keine Auswirkungen haben.
 
-Wenn Sie das [Adobe-Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) nicht verwenden möchten, sind Sie für die Bereitstellung eines SSL-/TLS-Zertifikats für Erstanbieter-Cookies verantwortlich.
+Wenn Sie das [Adobe-Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=de) nicht verwenden möchten, sind Sie für die Bereitstellung eines SSL-/TLS-Zertifikats für Erstanbieter-Cookies verantwortlich.
 
 Bei Bereitstellung Ihres eigenen Zertifikats sind Sie dafür verantwortlich, diese SSL-Zertifikate zu kaufen und zu verwalten.  Ihr SSL-/TLS-Zertifikat muss eine unbegrenzte Server-Lizenz enthalten.
 
