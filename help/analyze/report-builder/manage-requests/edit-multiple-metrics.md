@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Mit der Funktion „Metriken mit Mehrfachanforderungen bearbeiten“ können Sie Metriken in einer vorhandenen Anforderung bzw. in einer Gruppe von Anforderungen mühelos hinzufügen, entfernen oder ersetzen.
 
-## Metriken hinzufügen {#section_3FBDA9668039404895059618D70FCBCD}
+## Kennzahlen hinzufügen {#section_3FBDA9668039404895059618D70FCBCD}
 
 Bedenken Sie Folgendes
 
@@ -33,7 +33,7 @@ So fügen Sie eine oder mehrere Metriken hinzu:
 
 1. Aktualisieren Sie die Anforderung, um die tatsächlichen Daten anzuzeigen. Die Offline-Daten werden so lange angezeigt, bis Sie eine Aktualisierung durchführen.
 
-## Metrik ersetzen {#section_D773AAC7B30C4FBEBDB66B203C217818}
+## Kennzahl ersetzen {#section_D773AAC7B30C4FBEBDB66B203C217818}
 
 Bedenken Sie Folgendes
 
@@ -57,7 +57,7 @@ So ersetzen Sie eine Metrik:
 1. Wählen Sie aus, welche Metrik ersetzt werden soll und durch welche Metrik sie ersetzt werden soll.
 1. Aktualisieren Sie die Anforderung. Die Offline-Daten werden so lange angezeigt, bis Sie eine Aktualisierung durchführen.
 
-## Metriken entfernen {#section_D3CD5BAC7670416593B633B2B8423C60}
+## Kennzahlen entfernen {#section_D3CD5BAC7670416593B633B2B8423C60}
 
 Bedenken Sie Folgendes
 
