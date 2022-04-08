@@ -4,9 +4,9 @@ title: Angeben einer dauerhaften Traffic-Zunahme
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Im Abschnitt „Persistenter Traffic“ können Sie die erwarteten Traffic-Menge
 
 Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Zunahmen](/help/admin/c-traffic-management/traffic-lead-time.md), bevor Sie eine dauerhafte Traffic-Zunahme festlegen.
 
-1. Öffnen Sie den Report Suite Manager durch Klicken auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**.
+1. Öffnen Sie Report Suite Manager durch Klicken auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic-Management]** > **[!UICONTROL Persistenter Traffic]**.
 1. Geben Sie im Feld **[!UICONTROL Neue erwartete tägliche Seitenansichten]** an, mit wie vielen Seitenaufrufen pro Tag Sie beim neuen Traffic-Niveau rechnen.
