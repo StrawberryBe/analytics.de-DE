@@ -4,9 +4,9 @@ title: Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze
 feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 Hiermit können Sie die durchschnittliche Anzahl der Server-Aufrufe pro Tag im letzten Jahr innerhalb eines bestimmten Zeitraums abrufen und die erwartete Steigerung des Server-Aufrufvolumens für das aktuelle Jahr anzeigen. Anschließend können Sie anhand dieses Multiplikationsfaktors eine Traffic-Spitze planen.
 
-1. Melden Sie sich bei Analytics als Administrator an und wechseln Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Traffic-Management]**.
+1. Melden Sie sich bei Analytics als Administrator an und gehen Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Traffic-Verwaltung]**.
 
 1. Klicken Sie auf **[!UICONTROL Erweitern]**, um die Report Suite-Liste zu erweitern, und klicken Sie auf **[!UICONTROL Report Suites auswählen]**, um mehrere Report Suites auszuwählen.
 
