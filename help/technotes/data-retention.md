@@ -4,7 +4,7 @@ description: Eine Richtlinie zur Datenaufbewahrung bestimmt, wie lange Adobe Ihr
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
 ht-degree: 100%
 
