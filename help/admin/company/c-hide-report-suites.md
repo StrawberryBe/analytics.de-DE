@@ -5,9 +5,9 @@ title: Ausblenden von Report Suites
 feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Das Ausblenden einer Report Suite führt dazu, dass sie nicht mehr im Dropdown-M
 >
 >Daten, die von Ihrer Site an eine ausgeblendete Report Suite gesendet werden, werden weiterhin erfasst, verarbeitet und abgerechnet. So wird eine Report Suite nie vollständig gelöscht.
 
-Um die Report Suite auszublenden, navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Report Suites ausblenden]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]** links neben dem Namen der Report Suite.
+Um die Report Suite auszublenden, gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Firmeneinstellungen]** > **[!UICONTROL Report Suites ausblenden]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]** links neben dem Namen der Report Suite.
 
 Um die Report Suite wieder einzublenden, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]**.
 
