@@ -4,7 +4,7 @@ description: Erstellen Sie einen leicht verständlichen Seitennamen aus dem aktu
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Aktualisieren von früheren Versionen
 
-Die Ausführung von Version 4.0+ des `getPageName`-Plug-ins hängt nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. des `s`-Objekts) ab). Wenn Sie sich für eine Aktualisierung auf diese Version entscheiden, müssen Sie den Code ändern, der das Plug-in aufruft, indem Sie alle Instanzen des `s`-Objekts aus dem Aufruf entfernen. Ändern Sie beispielsweise `s.getPageName();` in `getPageName();`.
+Die Ausführung von Version 4.0+ des `getPageName`-Plug-ins hängt nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. des `s`-Objekts) ab. Wenn Sie sich für eine Aktualisierung auf diese Version entscheiden, müssen Sie den Code ändern, der das Plug-in aufruft, indem Sie alle Instanzen des `s`-Objekts aus dem Aufruf entfernen. Ändern Sie beispielsweise `s.getPageName();` in `getPageName();`.
 
 ## Versionsverlauf
 
