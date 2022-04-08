@@ -3,19 +3,19 @@ product: analytics
 audience: end-user
 user-guide-title: Importhandbuch für Analytics
 breadcrumb-title: Importleitfaden
-user-guide-description: 'Importieren Sie Daten aus externen Quellen in Adobe Analytics, entweder als Massendatei oder in Echtzeit. '
+user-guide-description: 'Importieren Sie Daten entweder als Massenimport oder in Echtzeit von externen Quellen nach Adobe Analytics. '
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics-Importanleitung {#import}
+# Importhandbuch für Adobe Analytics {#import}
 
 + [Importhandbuch für Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Datenquellen {#data-sources}
    + [Datenquellen – Übersicht](c-data-sources/datasrc-home.md)
    + [Funktionsweise von Datenquellen](c-data-sources/datasrc-how-data-sources-works.md)
@@ -42,7 +42,7 @@ ht-degree: 83%
    + [Häufig gestellte Fragen zu Datenquellen](c-data-sources/datasrc-faq.md)
 + [Bulk-Dateneinfüge-API](bulk-data-insertion-api/bulk-data-insert.md)
 + [Dateneinfüge-API](c-data-insertion-api/c-data-insertion-api.md)
-+ Daten-Connectoren {#dataconnectors}
++ Data Connectors {#dataconnectors}
    + [Abschaffung der Analytics Data Connectors](data-connectors/data-connectors-eol.md)
 + Anwendungsfälle für Importe {#use-cases}
    + [Importieren von Paid Search-Metriken mithilfe von Data Sources](use-cases/paid-search-metrics.md)
