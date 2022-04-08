@@ -1,16 +1,16 @@
 ---
 description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“).
-title: Segmente filtern
+title: Filtern von Segmenten
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
 ---
 
-# Segmente filtern
+# Filtern von Segmenten
 
 Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“).
 
