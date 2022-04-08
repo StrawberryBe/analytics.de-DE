@@ -1,16 +1,16 @@
 ---
 description: Sie können benutzerspezifische Berichtbeschreibungen für eVars, Props, Classifications und Ereignisse angeben. Die Beschreibungen sind für alle Endbenutzer verfügbar.
-title: Benutzerdefinierte Berichtbeschreibungen
+title: Beschreibung benutzerspezifischer Berichte
 feature: Admin Tools
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
 ---
 
-# Benutzerdefinierte Berichtbeschreibungen
+# Beschreibung benutzerspezifischer Berichte
 
 Sie können benutzerspezifische Berichtbeschreibungen für eVars, Props, Classifications und Ereignisse angeben. Die Beschreibungen sind für alle Endbenutzer verfügbar.
 
@@ -18,7 +18,7 @@ Sie können benutzerspezifische Berichtbeschreibungen für eVars, Props, Classif
 
 >[!NOTE]
 >
->Das Hinzufügen von Beschreibungen ist für die meisten traditionellen Klassifizierungen verfügbar, derzeit jedoch nicht für mobile Klassifizierungen.
+>Das Hinzufügen von Beschreibungen ist für die meisten traditionellen Klassifizierungen verfügbar, derzeit jedoch nicht für Klassifizierungen in Mobile Apps.
 
 ![](assets/report_descriptions.png)
 
