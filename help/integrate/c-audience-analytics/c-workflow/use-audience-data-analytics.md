@@ -5,7 +5,7 @@ title: Zielgruppendaten in Analytics verwenden
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ AAM-Segmentdaten werden pro Treffer an Analytics weitergeleitet und stellen die 
 
 ![](assets/flow-aamaudiences.png)
 
-Zielgruppen können außerdem für [Fallout-Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) verwendet werden.
+Zielgruppen können außerdem für [Fallout-Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) verwendet werden.
 
 ## Venn-Visualisierung in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
