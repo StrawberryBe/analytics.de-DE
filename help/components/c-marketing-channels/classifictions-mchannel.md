@@ -4,7 +4,7 @@ description: Classifications werden verwendet, um Werte in Gruppen zu kategorisi
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Klassifizierungen, die Sie in diesem Vorgang hinzufügen, werden im [!UICONTROL 
 >
 >Die Marketing-Kanal-Classification-Berichte verhalten sich etwas anders als die Standard-Classifications: Wenn Sie Classifications für Erstkontakt- oder Letztkontakt-Berichte erstellen, werden diese automatisch auf beide angewendet. Sie müssen stets beides klassifizieren.
 
-## Marketingkanal-Classifications – Definitionen {#mktg-channel-classifications}
+## Klassifizierungen von Marketing-Kanälen – Definitionen {#mktg-channel-classifications}
 
 | Begriff | Definition |
 |--- |--- |
@@ -36,7 +36,7 @@ Klassifizierungen, die Sie in diesem Vorgang hinzufügen, werden im [!UICONTROL 
 | Name | Name der Classification. Die hinzugefügte Classification erscheint als Kanalunterteilungsoption im Marketing-Kanal-Manager. |
 | Optionen | Name der Classification. Die hinzugefügte Classification erscheint als Kanalunterteilungsoption im Marketing-Kanal-Manager. |
 
-## Erstellen von Marketing-Kanalklassifizierungen {#create-mktg-channel-classifications}
+## Erstellen von Klassifizierungen von Marketing-Kanälen {#create-mktg-channel-classifications}
 
 Erstellen Sie Klassifizierungen für [!UICONTROL Marketing-Kanäle].
 
