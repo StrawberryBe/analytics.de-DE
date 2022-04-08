@@ -5,15 +5,15 @@ solution: Analytics
 feature: Release Notes
 exl-id: 5f6822e9-895a-4285-8f30-48a2ed9f1f0a
 source-git-commit: 49a8035ff7e230877da15e858d9c044ced9b9901
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics - Versionshinweise für 2019 (und früher)
+# Adobe Analytics – Versionshinweise für 2019 (und früher)
 
-Beachten Sie, dass diese .pdf-Dateien mit Versionshinweisen für alle Adobe Experience Cloud-Lösungen enthalten.
+Beachten Sie, dass diese PDF-Dateien Versionshinweise für alle Adobe Experience Cloud-Lösungen enthalten.
 
 * [Versionshinweise für 2019 im PDF-Format](2019-Adobe-Experience-Cloud-Release-Notes.pdf)
 * [Versionshinweise für 2018 im PDF-Format](2018-Adobe-Experience-Cloud-Release-Notes.pdf)
