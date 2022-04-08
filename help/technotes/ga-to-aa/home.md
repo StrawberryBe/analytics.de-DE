@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die wichtigsten Konzepte zum Abrufen von Be
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
@@ -27,9 +27,9 @@ Die meisten Berichte können sowohl in [!UICONTROL Reports &amp; Analytics] als 
 
 Adobe empfiehlt, mit den absoluten Grundlagen des Abrufs von Berichtsdaten zu beginnen:
 
-* [Basisbericht in Analysis Workspace für GA-Anwender erstellen](reports/create-report.md)
+* [Erstellen eines Basisberichts in Analysis Workspace für GA-Anwender](reports/create-report.md)
 
-Sobald Sie sich mit den Komponenten in [!UICONTROL Analysis Workspace] vertraut gemacht haben, können Sie lernen, wie sich die meisten Berichte mithilfe der richtigen Komponenten nachbilden lassen.
+Wenn Sie sich mit den Komponenten in [!UICONTROL Analysis Workspace] vertraut gemacht haben, können Sie sich anschließend anschauen, wie sich die meisten Berichte mithilfe der richtigen Komponenten nachbilden lassen.
 
 * [Erstellen von Echtzeitberichten in Adobe Analytics](reports/realtime-reports.md)
 * [Erstellen von Zielgruppenberichten in Adobe Analytics](reports/audience-reports.md)
