@@ -1,16 +1,16 @@
 ---
 description: In der Experience Cloud verwendete Währungscodes.
-title: Währungscodes
+title: Währungs-Codes
 feature: Admin Tools
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
 ht-degree: 100%
 
 ---
 
-# Währungscodes
+# Währungs-Codes
 
 In der Experience Cloud verwendete Währungscodes.
 
@@ -39,7 +39,7 @@ In der Experience Cloud verwendete Währungscodes.
 | BSD | Bahamas Dollar |
 | BTN | Bhutan Ngultrum |
 | BWP | Botswana Pula |
-| BYR | Weißrussland Rubel |
+| BYR | Belarus Rubel |
 | BZD | Belize Dollar |
 | CAD | Kanada Dollar |
 | CDF | Kongo/Kinshasa Franc |
@@ -53,7 +53,7 @@ In der Experience Cloud verwendete Währungscodes.
 | CVE | Kap Verde Escudo |
 | CYP | Zypern Pfund |
 | CZK | Tschechische Republik Krone |
-| DJF | Dschibouti Franc |
+| DJF | Dschibuti Franc |
 | DKK | Dänemark Krone |
 | DOP | Dominikanische Republik Peso |
 | DZD | Algerien Dinar |
@@ -82,7 +82,7 @@ In der Experience Cloud verwendete Währungscodes.
 | ILS | Israel Neuer Schekel |
 | IMP | Isle of Man Pfund |
 | INR | Indien Rupie |
-| IQD | Iraq Dinar |
+| IQD | Irak Dinar |
 | IRR | Iran Rial |
 | ISK | Island Krone |
 | JEP | Jersey Pfund |
@@ -151,7 +151,7 @@ In der Experience Cloud verwendete Währungscodes.
 | SLL | Sierra Leone Leone |
 | SOS | Somalia Schilling |
 | SPL | Seborga Luigino |
-| SRG | Suriname Gulden |
+| SRG | Surinam Gulden |
 | STD | São Tome und Principe Dobras |
 | SVC | El Salvador Colon |
 | SYP | Syrien Pfund |
@@ -187,7 +187,7 @@ In der Experience Cloud verwendete Währungscodes.
 | ZAR | Südafrika Rand |
 | ZMK | Sambia Kwacha |
 | ZWD | Simbabwe Dollar |
-| SRD | Suriname Dollar |
+| SRD | Surinam Dollar |
 | CUC | Kuba Konvertible Peso |
 | TRY | Türkische Lira |
 | RUB | Russland Rubel |
