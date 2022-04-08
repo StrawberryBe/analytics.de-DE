@@ -4,9 +4,9 @@ title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Seit mehr als einem Jahrzehnt ist Adobe Analytics bestrebt, die marktführende W
 
 ## Warum haben wir diese Funktion eingestellt?
 
-Diese Funktion basiert auf einer älteren Technologie, die nicht mehr funktionsfähig ist oder unterstützt wird. Der [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) ist jetzt der Ort, an dem Sie aktuelle Integrationen für Adobe-Lösungen finden.
+Diese Funktion basierte auf einer alten Technologie, die nicht mehr praktikabel ist und nicht mehr unterstützt wird. Der [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) ist jetzt der Ort, an dem Sie aktuelle Integrationen für Adobe-Lösungen finden.
 
 ## Wie wirkt sich die Abschaffung dieser Funktion auf Sie aus?
 
