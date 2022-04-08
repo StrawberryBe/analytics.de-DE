@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Erstellen, verwalten und zeigen Sie die Nutzung von Datenquellen in einer Report
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
 
-## Registerkarte „Erstellen“  {#section_74603FDA3D8842E49F1A51624A06DE20}
+## Registerkarte „Erstellen“ {#section_74603FDA3D8842E49F1A51624A06DE20}
 
 Über die Registerkarte [!UICONTROL Erstellen] können Sie eine neue Datenquelle für die aktuell ausgewählte Report Suite konfigurieren. Wenn Sie eine Datenquelle aktivieren, führt Sie der [!UICONTROL Data Sources-Assistent] durch den Erstellungsvorgang einer Data Sources-Vorlage und legt einen FTP-Speicherort zum Hochladen der Daten an.
 
 Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswahl auf der Registerkarte „Erstellen“ abhängig. Siehe   [Erstellen einer Importdatei-Vorlage](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
-## Registerkarte „Verwalten“  {#section_DD559A6701CA45F1A85E56F840F48DBE}
+## Registerkarte „Verwalten“ {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
@@ -78,4 +78,4 @@ Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswah
 
 ## Registerkarte „Dateiprotokoll“   {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
-Das Dateiprotokoll enthält eine Suchfunktion, mit der Sie anhand von Datenquelle-Name, Datenquelle-Typ, Dateiname, Empfangsdatum oder Status nach Informationen suchen können.
+Das Dateiprotokoll enthält eine Suchfunktion, mit der Sie anhand von Datenquellennamen, Datenquellentyp, Dateinamen, Empfangsdatum oder Status nach Informationen suchen können.
