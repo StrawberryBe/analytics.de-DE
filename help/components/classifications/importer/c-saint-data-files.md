@@ -4,7 +4,7 @@ title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1783'
 ht-degree: 100%
 
@@ -204,4 +204,4 @@ Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
 
 ## Fehlerbehebung für Classifications
 
-* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
+* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
