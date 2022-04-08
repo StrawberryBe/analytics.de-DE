@@ -4,7 +4,7 @@ title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
 ht-degree: 100%
 
@@ -282,7 +282,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
 | 1 | Enthält | Cowboys | Suchtyp | Team |
-| 2 | Enthält | Fantasy | Suchtyp | Fantasie |
+| 2 | Enthält | Fantasy | Suchtyp | Fantasy |
 | 3 | Enthält | Romo | Suchtyp | Spieler |
 
 Wenn ein Benutzer nach   *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
@@ -326,8 +326,8 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    >Report Suites werden *nur dann* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:
    >
    >* Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
-   >
-   >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
+      >
+      >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
    >
    >* Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
 
