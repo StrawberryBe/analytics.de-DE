@@ -4,7 +4,7 @@ title: Daten- und Codereferenz für die Server-seitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Zusätzlich wird ein `h_ip`-Signal von der IP des Hosts generiert, der die Anfra
 
 ## Kundendefinierte Signale {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=de).
 
 | Signal | Beschreibung |
 | --- |--- |
