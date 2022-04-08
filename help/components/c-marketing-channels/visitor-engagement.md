@@ -5,7 +5,7 @@ title: Marketing-Kanalablauf
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Die Ablaufeinstellungen umfassen Folgendes:
 | Nie | Die Zeit der Besucherinteraktion läuft nie ab. |
 | Kanal zurücksetzen | Lässt alle Besucherinteraktionszeiträume ablaufen.  Wenn Sie alle Marketingkanaldaten zurücksetzen müssen, können Sie die Besucherinteraktionszeiträume ablaufen lassen. Sie müssen möglicherweise Daten zurücksetzen, wenn die Verarbeitungsregeln zuvor falsch konfiguriert wurden. Alle Erst- und Letztkontaktkanalwerte laufen sofort ab und werden bei der Rückkehr der Besucher zurückgesetzt. |
 
-## Definieren des Marketing-Kanalablaufs {#define-expiration}
+## Definieren der Marketing-Kanalgültigkeit {#define-expiration}
 
 Geben Sie den Zeitraum der Besucherinteraktion an.
 
