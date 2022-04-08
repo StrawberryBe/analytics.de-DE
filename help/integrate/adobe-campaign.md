@@ -4,7 +4,7 @@ title: Wie integriere ich Adobe Campaign-Berichte in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Durch die Integration zwischen Adobe Campaign Standard und Adobe Analytics wird 
 |--- |--- |
 | Adobe Campaign – ID der ausgeführten Bereitstellung | Zeigt aus Adobe Campaign importierte Daten über E-Mails an, die in Adobe Campaign gesendet wurden. |
 
-## Schritt 3. Adobe Campaign Classifications {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## Schritt 3. Verwenden von Klassifizierungen in Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 
