@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Report Suite mit H-Code dynamisch auswä
 feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
