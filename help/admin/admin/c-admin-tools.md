@@ -4,7 +4,7 @@ title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 >
 >Vermeiden Sie das Öffnen mehrerer Admin-Tabs im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
 
-+ [Rechnungsstellung](billing-admin.md)
++ [Abrechnung](billing-admin.md)
 + [Übersicht über Bot-Regeln](bot-removal/bot-rules.md)
 + [Code-Manager](code-manager-admin.md)
 + [Konversionsvariablen (eVar)](conversion-var-admin/conversion-var-admin.md)
-+ [Währungscodes](currency.md)
-+ [Benutzerdefinierte Berichtbeschreibungen](custom-desc-admin.md)
-+ [Anpassen von Kalendern benutzerspezifisch einstellen](custom-calendar.md)
++ [Währungs-Codes](currency.md)
++ [Beschreibung benutzerspezifischer Berichte](custom-desc-admin.md)
++ [Anpassen von Kalendern](custom-calendar.md)
 + [Datenquellen](data-sources.md)
 + [Standardmetriken](default-metrics.md)
 + [Nach IP-Adresse ausschließen](exclude-ip.md)
@@ -35,8 +35,8 @@ ht-degree: 100%
 + [Marketing-Kanäle](marketing-channels-admin.md)
 + [Menüanpassung](customize-menus.md)
 + [Metriksichtbarkeit](metric-visibility.md)
-+ [Mobile Management](mobile-management.md)
-+ [Übersicht über die Erkennung von Paid Search](paid-search-detection/paid-search-detection.md)
++ [Mobile-Management](mobile-management.md)
++ [Übersicht über die Paid-Search-Erkennung](paid-search-detection/paid-search-detection.md)
 + [Veröffentlichungslisten](publishing-list.md)
 + [Veröffentlichungs-Widget](publishing-widgets-admin.md)
 + [Voreinstellungs-Manager](preferences-manager.md)
