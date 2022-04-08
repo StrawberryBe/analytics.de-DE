@@ -4,7 +4,7 @@ title: Übersicht über Bot-Regeln
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1364'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Jede Zeile in der Importdatei kann nur eine der folgenden Bot-Definitionen entha
 
 ### Mehrere mit OR kombinierte Regeln
 
-Um eine Übereinstimmung für einen Bot mithilfe einer ODER-Kombination aus Regeln zu finden (z. B. Benutzeragent ODER IP-Adresse), geben Sie einen identischen Namen für alle Regeln an, die Sie in dem Bot-Namensfeld kombinieren möchten. AND-Übereinstimmungen werden nicht unterstützt.
+Um eine Übereinstimmung für einen Bot mithilfe einer OR-Kombination aus Regeln zu finden (z. B. Benutzeragent ODER IP-Adresse), geben Sie einen identischen Namen für alle Regeln an, die Sie in dem Bot-Namensfeld kombinieren möchten. AND-Übereinstimmungen werden nicht unterstützt.
 
 ### Überschreiben aller Regeln mit einer hochgeladenen Datei
 
