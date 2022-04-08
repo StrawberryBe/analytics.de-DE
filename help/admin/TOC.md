@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
-user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, z. B. die Verwaltung von Benutzern und Produkten in der Experience Cloud-Admin Console, die Konfiguration von Report Suites und mehr.
+user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 95%
 # Administratorhandbuch für Adobe Analytics {#admin}
 
 + [Administratorhandbuch für Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Administratorübersicht für Analytics {#admin-overview}
    + [Welches Adobe Analytics-Tool sollte ich verwenden?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics – Produktvergleich und Voraussetzungen](c-analytics-product-comparison/analytics-product-comparison.md)
 + [Systemanforderungen](sys-reqs.md)
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
-   + [Rechnungsstellung](admin/billing-admin.md)
+   + [Abrechnung](admin/billing-admin.md)
    + Bot-Entfernung {#bot-removal}
       + [Bot-Entfernung](admin/bot-removal/bot-removal.md)
       + [Übersicht über Bot-Regeln](admin/bot-removal/bot-rules.md)
@@ -38,7 +38,7 @@ ht-degree: 95%
       + [Merchandising-eVars](admin/conversion-var-admin/merchandising-evars.md)
    + [Währungs-Codes](admin/currency.md)
    + [Beschreibung benutzerspezifischer Berichte](admin/custom-desc-admin.md)
-   + [Kalender anpassen](admin/custom-calendar.md)
+   + [Anpassen von Kalendern](admin/custom-calendar.md)
    + [Datenquellen](admin/data-sources.md)
    + [Standardmetriken](admin/default-metrics.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
@@ -51,7 +51,7 @@ ht-degree: 95%
    + [Metriksichtbarkeit](admin/metric-visibility.md)
    + [Mobile-App-Verwaltung](admin/mobile-management.md)
    + Erkennung von Paid Search {#paid-search-detection}
-      + [Übersicht über die Erkennung von Paid Search](admin/paid-search-detection/paid-search-detection.md)
+      + [Übersicht über die Paid-Search-Erkennung](admin/paid-search-detection/paid-search-detection.md)
       + [Konfigurieren der Erkennung von Paid Search](admin/paid-search-detection/t-paid-search-detection.md)
    + [Veröffentlichungslisten](admin/publishing-list.md)
    + [Veröffentlichungs-Widget](admin/publishing-widgets-admin.md)
@@ -154,7 +154,7 @@ ht-degree: 95%
       + [Analytics-Benutzermigration zur Admin Console](user-management2/user-migration/c-migration-tool.md)
       + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](user-management2/user-migration/t-migrate-users.md)
       + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](user-management2/user-migration/migrate-enterprise.md)
-      + [Deaktivieren von bisherigen Anmeldedaten](user-management2/user-migration/t-disable-legacy-login.md)
+      + [Deaktivieren von veralteten Anmeldedaten](user-management2/user-migration/t-disable-legacy-login.md)
       + [Von der Migration betroffene APIs](user-management2/user-migration/developer.md)
 + Data Governance {#data-governance}
    + [Adobe Analytics und die DSGVO](c-data-governance/an-gdpr-overview.md)
