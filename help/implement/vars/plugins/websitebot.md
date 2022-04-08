@@ -4,7 +4,7 @@ description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 
