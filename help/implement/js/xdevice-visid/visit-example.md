@@ -6,7 +6,7 @@ title: Beispiel zur geräteübergreifenden Besucheridentifizierung
 feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
