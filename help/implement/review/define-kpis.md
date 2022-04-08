@@ -1,16 +1,16 @@
 ---
-title: Definieren Sie Ihre fünf wichtigsten KPIs
+title: Definieren Ihrer fünf wichtigsten KPIs
 description: Stellen Sie sicher, dass Ihre wichtigsten Leistungsindikatoren sowie die zugehörigen Metriken und Dimensionen eng an Ihren geschäftlichen Anforderungen ausgerichtet sind.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
 ht-degree: 100%
 
 ---
 
-# Definieren Sie Ihre fünf wichtigsten KPIs
+# Definieren Ihrer fünf wichtigsten KPIs
 
 Sie können einfach nicht alles messen und Ihre Adobe Analytics-Implementierung ist am erfolgreichsten, wenn Sie vor allem das messen, was für das Unternehmen am wichtigsten ist. Arbeiten Sie mit Ihren Geschäftsführern zusammen, um die wichtigsten Leistungsindikatoren (KPIs) zu definieren, die für Ihr Unternehmen die größte Wirkung haben. Konzentrieren Sie Ihre Bemühungen dann auf die Metriken und Variablen, die diese KPIs unterstützen.
 
