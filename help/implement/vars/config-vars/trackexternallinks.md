@@ -4,7 +4,7 @@ description: Aktivieren oder deaktivieren Sie das automatische Linktracking für
 feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
 ht-degree: 100%
 
