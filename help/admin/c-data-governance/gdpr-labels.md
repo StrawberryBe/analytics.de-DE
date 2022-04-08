@@ -4,17 +4,17 @@ title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3913'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Datenschutzbezeichnungen für Analytics-Variablen
 
-## Grund der Datenbeschriftung  {#why-label}
+## Grund der Datenbeschriftung {#why-label}
 
-Viele Adobe-Kunden verfügen über Rechtsabteilungen, die die Datenschutzgesetze (DSGVO, CCPA usw.) überprüft haben. Diese Teams haben möglicherweise eigene Schlussfolgerungen dazu gezogen, wie Daten verarbeitet werden sollten, um die Datenschutzgesetze einzuhalten. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Um diesen unterschiedlichen Vorstellungen bei der Datenverarbeitung unter Einhaltung des Datenschutzes und den verschiedenen Datensätzen beizukommen, können Datenverantwortliche die Einstellungen für die Datenverarbeitung unter Einhaltung des Datenschutzes ihrer individuellen Daten nach eigenen Wünschen anpassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
+Viele Adobe-Kunden verfügen über juristische Teams, die die Datenschutzgesetze (DSGVO, CCPA usw.) geprüft haben. Diese Teams haben möglicherweise ihre eigenen Schlussfolgerungen bezüglich des Umgangs mit Daten gezogen, um Datenschutzgesetze einzuhalten. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Um diesen unterschiedlichen Vorstellungen bei der Datenverarbeitung unter Einhaltung des Datenschutzes und den verschiedenen Datensätzen beizukommen, können Datenverantwortliche die Einstellungen für die Datenverarbeitung unter Einhaltung des Datenschutzes ihrer individuellen Daten nach eigenen Wünschen anpassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
 
 Adobe Analytics stellt Werkzeuge zur Verfügung, um Daten entsprechend ihrer Sensibilität und ihren vertraglichen Beschränkungen zu kennzeichnen. Kennzeichnungen sind wichtig und nützlich, denn sie helfen (1) die betroffenen Personen zu identifizieren, (2) zu bestimmen, welche Daten im Rahmen einer Zugriffsanforderung zurückgegeben werden sollen, und (3) Datenfelder zu identifizieren, die im Rahmen einer Löschanfrage gelöscht werden müssen.
 
@@ -87,7 +87,7 @@ Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertra
 
 ## Data Governance-Beschriftungen (Datenschutz) {#data-governance-labels}
 
-Über Beschriftungen für Data Governance können Benutzer Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten.
+Über Data Governance-Beschriftungen können Benutzer Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten.
 
 ### Datenschutz-Zugriffsbeschriftungen
 
@@ -177,7 +177,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
   <tr> 
    <td colname="col1"> <p>Keine </p> </td> 
    <td colname="col2"> <p>Diese Variable enthält keine ID, die für Datenschutzanfragen verwendet wird. </p> </td> 
-   <td colname="col3"> <p>Sie müssen eine dieser anderen Beschriftungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie beim Senden von Zugriffs- oder Löschanfragen über die [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) oder -Benutzeroberfläche verwenden. </p> </td> 
+   <td colname="col3"> <p>Sie müssen eine dieser anderen Kennzeichnungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie bei der Übermittlung von Zugriffs- oder Löschanfragen über die [Privacy Service-API] (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) oder die Benutzeroberfläche verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
 
 | Beschriftung | Definition | Weitere Anforderungen |
 | --- | --- | --- |
-| Keine | Diese Variable enthält keine ID, die für Datenschutzanfragen verwendet wird. | Sie müssen eine dieser anderen Beschriftungen nur festlegen, wenn dieses Feld eine ID enthält, die Sie beim Senden von Zugriffs- oder Löschanfragen über die [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) oder Benutzeroberfläche. |
+| Keine | Diese Variable enthält keine ID, die für Datenschutzanfragen verwendet wird. | Sie müssen eine dieser anderen Kennzeichnungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie bei der Übermittlung von Zugriffs- oder Löschanfragen über die [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) oder die Benutzeroberfläche verwenden werden. |
 | ID-DEVICE | Dieses Feld enthält eine ID, die Sie zur Identifizierung eines Geräts für eine Datenschutzanfrage verwenden können. Sie kann jedoch nicht zwischen den verschiedenen Benutzern eines gemeinsam genutzten Geräts unterscheiden.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | Erfordert auch eine I1- oder I2-Beschriftung.<ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Classifications festgelegt werden</li></ul> |
 | ID-PERSON | Dieses Feld enthält eine ID, die verwendet werden kann, um einen authentifizierten Benutzer (eine bestimmte Person) für eine Datenschutzanfrage zu identifizieren.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | Erfordert auch eine I1- oder I2-Beschriftung.<ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Classifications festgelegt werden</li></ul> |
 
@@ -323,7 +323,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Klassifizierungen </p> </td> 
+   <td colname="col2"> <p>Classifications </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/S1/S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -441,7 +441,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
    <td colname="col2"> <p> Gibt den Namen der Analytics Report Suite an, die die Daten enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Besucher-ID </p> <p>MCID/ECID </p> </td> 
+   <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
    <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Zahlen der Unique Visitors im Verlaufsbericht. </p> </td> 
   </tr> 
   <tr> 
@@ -488,4 +488,4 @@ Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
 Für den Code zur Generierung der für Datenschutz-Zugriffsanfragen zurückgegebenen Dateien ist es erforderlich, dass mindestens eine der ersten drei Zeitstempelvariablen in die Zugriffsanfrage aufgenommen wird (mit einer ACC-Beschriftung, die für die Art der Anforderung gilt). Wenn keine davon enthalten ist, wird „Custom Hit Time UTC“ so behandelt, als hätte es eine „ACC-ALL“-Beschriftung.
 
-Die CSV-Datei auf Trefferebene, die für Datenschutz-Zugriffsanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Uhrzeitfelder im Format JJJ-MM-TT HH:MM:SS (z. B. 2018-05-01 13:49:22). In der zusammenfassenden HTML-Datei werden diese Zeitstempelwerte abgeschnitten, sodass nur das Datum JJJJ-MM-TT enthalten ist, um die Anzahl der eindeutigen Werte, die für diese Felder auftreten, zu reduzieren.
+Die CSV-Datei auf Trefferebene, die für Datenschutz-Zugriffsanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Zeitfelder im Format JJJJ-MM-TT HH:MM:SS (z. B. 2018-05-01 13:49:22). In der zusammenfassenden HTML-Datei werden diese Zeitstempelwerte abgeschnitten, sodass nur das Datum JJJJ-MM-TT enthalten ist, um die Anzahl der eindeutigen Werte, die für diese Felder auftreten, zu reduzieren.
