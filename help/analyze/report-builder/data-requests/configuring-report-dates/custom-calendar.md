@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Die einzelnen Kalenderformate werden im Folgenden beschrieben.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzerdefinierter Kalender </p> </td> 
-   <td colname="col2"> <p> Bietet drei Formate, basierend auf der Anzahl der Wochen je Monat. Die Anzahl der Wochen je Monat hängt von dem ausgewählten ersten Tag des Jahres ab. </p> <p>Ein Jahr hat 52 Wochen. Bei einer Aufteilung in vier Quartale kommen 13 Wochen pro Quartal heraus. Doch in einem Quartal sind drei Monate enthalten. Die Zahl 13 ist nicht durch 3 teilbar. Folglich muss die übrig gebliebene Woche aus Konsistenzgründen einem der Monate hinzugefügt werden. 5-4-4 bedeutet, dass die übrig gebliebene Woche im 1. Monat des Quartals ist. 4-5-4 bedeutet, dass sie im 2. Monat ist, usw. Im 5-4-4-Kalender wird die 53. Woche dem letzten Quartal des Jahres hinzugefügt. </p> 
+   <td colname="col2"> <p> Bietet drei Formate, basierend auf der Anzahl der Wochen je Monat. Die Anzahl der Wochen in jedem Monat hängt vom ausgewählten ersten Tag des Jahres ab. </p> <p>Ein Jahr hat 52 Wochen. Bei einer Aufteilung in vier Quartale kommen 13 Wochen pro Quartal heraus. Doch in einem Quartal sind drei Monate enthalten. Die Zahl 13 ist nicht durch 3 teilbar. Folglich muss die restliche Woche aus Konsistenzgründen zu einem der Monate hinzugefügt werden. 5-4-4 bedeutet, dass die übrig gebliebene Woche im 1. Monat des Quartals ist. 4-5-4 bedeutet, dass sie im 2. Monat ist, usw. Im 5-4-4-Kalender wird die 53. Woche dem letzten Quartal des Jahres hinzugefügt. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: Januar hat vier Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Januar hat vier Wochen, Februar hat vier Wochen, März hat fünf Wochen usw. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: Januar hat fünf Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
-    </ul> <p>Hinweis: Diese Kalenderoption wird in allen Adobe Analytics-Tools (Analysis Workspace, Reports &amp; Analytics, Report Builder und Activity Map) unterstützt. Die Ausnahme ist Data Warehouse, die benutzerdefinierte Kalender nicht unterstützt. </p> </td> 
+    </ul> <p>Hinweis: Diese Kalenderoption wird in allen Adobe Analytics-Tools (Analysis Workspace, Reports &amp; Analytics, Report Builder und Activity Map) unterstützt. Die Ausnahme ist Data Warehouse, wo benutzerdefinierte Kalender nicht unterstützt werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
