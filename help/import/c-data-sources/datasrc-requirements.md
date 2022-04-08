@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 * [Daten ](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
 * [Allgemein](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
 * [Multibyte-Unterstützung](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [Hochladen von Webprotokolldateien ](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [Hochladen von Web-Protokolldateien](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
-## Größenbeschränkungen  {#section_77B06D82CB374FFABD39F7D9A49D8E18}
+## Größenbeschränkungen {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
 * Jedes FTP-Konto kann maximal Daten in Höhe von 50 MB umfassen. Die Verarbeitung wird angehalten, wenn die Datenmenge 50 MB übersteigt, und wird erst fortgesetzt, wenn die Gesamtmenge unter 50 MB liegt.
 
@@ -45,7 +45,7 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 * Daten aus Webprotokollen, Traffic- und einige generische Data Sources-Gruppen stehen nicht in Data Warehouse oder Discover zur Verfügung. Weitere Informationen finden Sie unter [Datentypen und -kategorien](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Data Sources unterstützt keine serialisierten Ereignisse.
 
-## Multibyte-Unterstützung {#section_96C8D26B21184C3E839865DB6F23EA22}
+## Multi-Byte-Unterstützung {#section_96C8D26B21184C3E839865DB6F23EA22}
 
 Data Sources unterstützt Multibyte-Codierung. Data Sources versucht, das Format der eingehenden Data Sources-Datei zu erkennen und ggf. in ein unterstütztes Format zu konvertieren. Die folgende Tabelle enthält gängige Zeichenformate und den jeweiligen Unterstützungsstatus.
 
@@ -89,12 +89,12 @@ Wenn Sie eine UTF-8- oder ISO-8859-1-Datei einreichen und Ihre Bericht-Suite die
 * Wenn der Fehler während der Konversion erkannt wird, erhalten Sie eine Meldung wie die folgende: „Fehlerhaftes Zeichen in Datei an Position 18 beim Konvertieren von UTF-8 nach ISO-8859-1“.
 * Die Datei wird ohne Fehler verarbeitet, aber es werden unleserliche Daten im Bericht ausgegeben.
 
-## Hochladen von Webprotokolldateien  {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Hochladen von Web-Protokolldateien  {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Die nützlichsten Berichte zum Anzeigen von Webprotokolldaten sind Traffic-Berichte wie Seitenansichten.
 * Seitennamen werden als gesamte URL angezeigt, darunter auch die Abfragezeichenfolge.
 * Jede Dateianforderung wird als eigenständige Seitenansicht angezeigt, darunter Style Sheets und Grafikdateien.
-* Wenn Sie Informationen an die URL anhängen, können Dateien als eigenständige Seiten aufgezeichnet werden. Beispielsweise zeichnet Adobe die folgenden URLs als zwei separate Seiten auf:
+* Wenn Sie Informationen an die URL anhängen, können Dateien als eigenständige Seiten aufgezeichnet werden. Adobe zeichnet beispielsweise die folgenden URLs als zwei eigenständige Seiten auf:
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
