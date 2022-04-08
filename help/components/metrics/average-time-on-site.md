@@ -4,9 +4,9 @@ description: Die durchschnittliche Zeitspanne, in der ein bestimmtes Dimensionse
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Betrachten Sie beispielsweise den folgenden Besuch:
 
 Wenn Sie die durchschnittliche Besuchszeit pro Site für das Dimensionselement `Product page A` wünschen, nehmen Sie zunächst die Zeit, die zwischen den Treffern für diese Dimension verstrichen ist:
 
-* **12:04:20. bis 12.:05:30** - 1 Minute 10 Sekunden
-* **12:05:30-12:07:00** - 1 Minute 30 Sekunden
-* **12:07:40-12:08:10** - 30 Sekunden
+* **12:04:20 - 12:05:30** – 1 Minute 10 Sekunden
+* **12:05:30 - 12:07:00** – 1 Minute 30 Sekunden
+* **12:07:40 - 12:08:10** – 30 Sekunden
 * **12:25:40 - ?** - Nicht eingeschlossen
 
 Die Gesamtbesuchszeit für `Product page A` beträgt `00:03:10`. Bei diesem Besuch gab es zwei Sequenzen: die erste Sequenz für die beiden aufeinander folgenden Werte und die zweite vor dem Checkout. Der letzte Treffer des Besuchs ist keine Sequenz, da es keinen Endzeitstempel gibt.
