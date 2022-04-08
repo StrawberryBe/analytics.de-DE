@@ -1,24 +1,24 @@
 ---
 title: Planen von Traffic-Spitzen
-description: Partner mit Adobe , um sicherzustellen, dass Ereignisse mit hohem Traffic keine Latenz erfahren.
+description: Arbeiten Sie mit Adobe zusammen, um sicherzustellen, dass Ereignisse mit hohem Traffic keine Latenz erfahren.
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 # Planen von Traffic-Spitzen
 
-Adobe sucht die Partnerschaft mit Kunden, um den Erfolg eines Ereignisses mit hohem Traffic sicherzustellen. Die Planung von Traffic-Spitzen ist der Ausgangspunkt dieses Partnerschaftsprozesses. Im Abschnitt Traffic-Spitze planen können Sie Adobe vor temporären Traffic-Spitzen warnen, sodass ausreichende Ressourcen zugewiesen werden können.
+Adobe sucht die Partnerschaft mit Kunden, um den Erfolg eines Ereignisses mit hohem Traffic sicherzustellen. Die Planung von Traffic-Spitzen ist der Ausgangspunkt dieses Partnerschaftsprozesses. Im Abschnitt „Spitze planen“ können Sie Adobe vor temporären Traffic-Spitzen warnen, sodass ausreichende Ressourcen zugewiesen werden können.
 
-Der erweiterte serverseitige Datenausgleich mit mehreren dedizierten Mitarbeitern sorgt dafür, dass alle Kunden über die aktuellsten Berichte verfügen. Wenn Ihr Unternehmen die Adobe von Traffic-Spitzen benachrichtigt, kann Adobe sicherstellen, dass der plötzliche Traffic-Anstieg ein positives Erlebnis darstellt. Wenn die Adobe nicht über einen Anstieg des Traffics informiert wird, kann die Latenz in kritischen Berichtszeiträumen zunehmen.
+Der erweiterte Server-seitige Datenausgleich mit mehreren dedizierten Mitarbeitern sorgt dafür, dass alle Kunden über die aktuellsten Berichte verfügen. Wenn Ihr Unternehmen Adobe über Traffic-Spitzen informiert, kann Adobe sicherstellen, dass der plötzliche Traffic-Anstieg ein positives Erlebnis darstellt. Wenn Adobe nicht über einen Traffic-Anstieg informiert wird, kann die Latenz in kritischen Reporting-Zeiträumen zunehmen.
 
-Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Zunahmen](/help/admin/c-traffic-management/traffic-lead-time.md) bevor Sie eine Traffic-Spitze planen.
+Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für den Traffic-Anstieg](/help/admin/c-traffic-management/traffic-lead-time.md), bevor Sie eine Traffic-Spitze planen.
 
-1. Klicken **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic-Management]** > **[!UICONTROL Spitze planen]**.
 1. Geben Sie im Feld **[!UICONTROL Spitzenstartdatum]** an, ab welchem Datum mit der Traffic-Spitze zu rechnen ist.
@@ -33,16 +33,16 @@ Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Zunahmen]
 
 ## Warum es wichtig ist, Traffic-Spitzen immer zu planen
 
-Wenn Kunden die Adobe von Traffic-Spitzen für jede Report Suite benachrichtigen, unternimmt Adobe alles, um sicherzustellen, dass dies minimale Auswirkungen auf die Berichterstellung hat.
+Wenn Kunden Adobe über Traffic-Spitzen für jede Report Suite informieren, unternimmt Adobe alles, um sicherzustellen, dass dies minimale Auswirkungen auf das Reporting hat.
 
-* Organisationen mit geplanten Traffic-Spitzen erhalten Priorität, wenn Daten latent werden. Die Bedeutung dieses Konzepts ist besonders während der Weihnachtszeit von entscheidender Bedeutung, da viele Unternehmen Traffic-Spitzen planen.
-* Wenn Adobe feststellt, dass Sie den erwarteten Traffic im Vergleich zu Vorjahren erheblich überschätzt/unterschätzt haben, kann der Kunde Sie kontaktieren, um Genauigkeit sicherzustellen.
-* Es ist wichtig, jedes Jahr eine Traffic-Spitze zu planen, auch wenn Ihre Organisation jedes Jahr die gleiche Spitze erhält. Viele Unternehmen veröffentlichen im Laufe des Jahres neue Apps, kombinieren Report Suites und migrieren bzw. deaktivieren Report Suites. Adobe kann nur dann feststellen, welche Report Suites zusätzlichen Traffic erhalten, wenn Ihr Unternehmen eine Traffic-Spitze jedes Mal plant. Während Adobe historische Daten verwendet, um eine Schätzung zu erhalten, ist es wichtig, dass zusätzliche Ressourcen in die richtige Report Suite eingefügt werden.
+* Organisationen mit geplanten Traffic-Spitzen erhalten Priorität, wenn Daten latent werden. Die Bedeutung dieses Konzepts ist besonders während der Urlaubszeit von entscheidender Bedeutung, wenn viele Unternehmen Traffic-Spitzen planen.
+* Wenn Adobe feststellt, dass Sie den erwarteten Traffic im Vergleich zu Vorjahren erheblich überschätzt/unterschätzt haben, können Sie kontaktiert werden, um Genauigkeit sicherzustellen.
+* Es ist wichtig, jedes Jahr eine Traffic-Spitze zu planen, auch wenn bei Ihrer Organisation jedes Jahr die gleiche Spitze vorliegt. Viele Unternehmen veröffentlichen im Laufe des Jahres neue Mobile Apps, kombinieren Report Suites und migrieren bzw. deaktivieren Report Suites. Adobe kann nur dann feststellen, welche Report Suites zusätzlichen Traffic erhalten, wenn Ihr Unternehmen jedes Mal eine Traffic-Spitze plant. Adobe nutzt Verlaufsdaten zur Einschätzung; und es ist wichtig, dass zusätzliche Ressourcen der richtigen Report Suite hinzugefügt werden.
 
-## Aktionen, die Ihr Unternehmen ausführen kann
+## Aktionen, die Ihre Organisation unternehmen kann
 
-Adobe möchte sicherstellen, dass Ihr Erlebnis mit aktueller Berichterstellung konsistent ist. Um diese Aufgabe optimal zu erfüllen, empfiehlt Adobe dringend Folgendes:
+Adobe möchte sicherstellen, dass Ihr Erlebnis mit aktuellem Reporting konsistent ist. Um diese Aufgabe optimal zu erfüllen, empfiehlt Adobe dringend Folgendes:
 
-* Planen Sie alle Traffic-Spitzen gemäß [Erforderliche Vorlaufzeit für Traffic-Zunahmen](traffic-lead-time.md). **Es ist besonders wichtig, dass alle in den Monaten November-Dezember erwarteten Traffic-Spitzen bis zum 15. September geplant werden**. Wenn Sie die Frist verpassen, planen Sie Ihre Spitze so bald wie möglich. Weniger Vorlaufzeit ist besser als keine, und die Adobe arbeitet mit den aktuellen Ressourcen, um Ihre Report Suites am besten aufzunehmen.
-* Wenn Sie von Adobe bezüglich einer geplanten Traffic-Spitze kontaktiert werden, stellen Sie sicher, dass Sie kommunizieren, ob Echtzeitberichte oder Berichte zur vollständigen Verarbeitung wichtiger sind. Einige Unternehmen sind stärker auf Echtzeitberichte als andere angewiesen. Indem Sie wissen, welche Berichtstyp Sie verwenden, können Sie der Adobe bei der entsprechenden Priorisierung helfen.
-* Wenn Sie mit Ihrem Kundenbetreuer kommunizieren, welche Berichte am wichtigsten sind und wann Sie sie abrufen, können Sie sich für Sie einsetzen.
+* Planen Sie alle Traffic-Spitzen gemäß [Erforderliche Vorlaufzeit für den Traffic-Anstieg](traffic-lead-time.md). **Es ist besonders wichtig, dass alle in den Monaten November und Dezember erwarteten Traffic-Spitzen bis zum 15. September geplant werden**. Wenn Sie die Frist verpassen, planen Sie Ihre Spitze so bald wie möglich. Weniger Vorlaufzeit ist besser als keine, und Adobe arbeitet mit den aktuellen Ressourcen, um Ihre Report Suites optimal zu berücksichtigen.
+* Wenn Sie von Adobe bezüglich einer geplanten Traffic-Spitze kontaktiert werden, geben Sie auf jeden Fall an, ob Echtzeit-Reporting oder Reporting zur vollständigen Verarbeitung wichtiger ist. Einige Organisationen stützen sich mehr auf Echtzeit-Reporting als andere. Wenn Sie wissen, welchen Reporting-Typ Sie verwenden, können Sie Adobe bei der entsprechenden Priorisierung helfen.
+* Wenn Sie Ihrem Account Manager mitteilen, welche Berichte am wichtigsten sind und wann Sie sie abrufen, können Sie unterstützt werden.
