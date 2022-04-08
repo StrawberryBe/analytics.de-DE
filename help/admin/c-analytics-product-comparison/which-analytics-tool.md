@@ -4,9 +4,9 @@ title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ In diesem Video werden verschiedene Adobe Analytics-Tools verglichen:
    * Transaktions-ID: Datenuploads, die einen Online-Endpunkt mit Offlinedaten verknüpfen und importierte Daten vollständig einem online erstellten Besucher-Schnappschuss zuordnen (z. B. online abgeschlossene Bestellungen, die offline zurückgegeben werden).
    * Volle Verarbeitung: Datenquellen mit Zeitstempel, verarbeitet, als ob es sich dabei um einen von Adobe-Servern abgerufenen Treffer handeln würde. D. h. die Daten werden direkt in die Visitor Journey eingefügt.
 
-**[Adobe Exchange-Integrationen](https://www.adobeexchange.com/experiencecloud.html)** sollte verwendet werden:
+**[Adobe Exchange-Integrationen](https://www.adobeexchange.com/experiencecloud.html)** sollten verwendet werden:
 
-* Wenn Sie mit einem Drittanbieter interagieren, der eine unterstützte Schnittstelle für Adobe Analytics erstellt hat. Integrationsanwendungen integrieren normalerweise Daten der Zusammenfassungsebene dauerhaft und automatisch, regelmäßig, in Adobe Analytics.
+* Wenn Sie mit einem Drittanbieter interagieren, der eine unterstützte Schnittstelle für Adobe Analytics erstellt hat. Integrations-Mobile-Apps übernehmen meist zusammengefasste Daten automatisch, dauerhaft und wiederholt in Adobe Analytics.
 
 Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** sollte verwendet werden:
 
