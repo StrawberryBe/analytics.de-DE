@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Die Datenquelle-Vorlage ist eine .txt-Datei, die Sie mit einem beliebigen Texted
 Siehe [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) für weitere Details.
 
 1. Bei Analytics anmelden.
-1. Wählen Sie in der Kopfzeile der Suite die Option **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
+1. Wählen Sie in der Kopfzeile der Suite **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
 1. Wählen Sie unter Data Sources auf der Registerkarte **[!UICONTROL „Erstellen“]** eine Vorlagenkategorie und einen Typ aus.
 1. Überprüfen Sie die Aktivierungsanweisungen/-informationen und klicken Sie auf **[!UICONTROL „Aktivieren“]**. 
 
