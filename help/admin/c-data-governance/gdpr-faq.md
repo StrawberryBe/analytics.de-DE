@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Wie unterstützt Adobe Analytics Zugriffs- und Löschanfragen für Endbenutzer (Datensubjekte), die von Kunden (Datenverantwortlichen) validiert wurden?</b> </p> </td> 
-   <td colname="col2"> <p>Wenn verschiedene Datenschutzregeln (DSGVO, CCPA) in Kraft treten, unterstützt Adobe Analytics das Verarbeiten von verifizierten Anfragen, die von Datenverantwortlichen an die Datenschutz-API der Experience Cloud gesendet werden, um einen stärker automatisierten Prozess zu ermöglichen. Die Datenschutz-API von Adobe ist dafür konzipiert, die Verarbeitung individueller Rechtsanfragen (z. B. Zugriffs- und Löschanfragen) für die Daten unserer Kunden zu unterstützen, die in den Adobe Experience Cloud-Lösungen gespeichert sind. Sie ist flexibel und wird entsprechend der Anzahl der Datenzugriffs- und Löschanfragen skaliert, die Ihr Unternehmen von Datensubjekten erhält. Die Privacy Service-API ermöglicht es dem Kunden außerdem, den Status zu überprüfen, wie die Datenzugriffs- und Löschanfragen erfüllt werden. </p> <p>Weitere Informationen finden Sie unter <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Dokumentation zur Privacy Service-API. </a> </p> </td> 
+   <td colname="col2"> <p>Wenn verschiedene Datenschutzregeln (DSGVO, CCPA) in Kraft treten, unterstützt Adobe Analytics das Verarbeiten von verifizierten Anfragen, die von Datenverantwortlichen an die Datenschutz-API der Experience Cloud gesendet werden, um einen stärker automatisierten Prozess zu ermöglichen. Die Datenschutz-API von Adobe ist dafür konzipiert, die Verarbeitung individueller Rechtsanfragen (z. B. Zugriffs- und Löschanfragen) für die Daten unserer Kunden zu unterstützen, die in den Adobe Experience Cloud-Lösungen gespeichert sind. Sie ist flexibel und wird entsprechend der Anzahl der Datenzugriffs- und Löschanfragen skaliert, die Ihr Unternehmen von Datensubjekten erhält. Zudem ermöglicht die Datenschutz-API dem Kunden zu überprüfen, inwiefern die Datenzugriffs- und Löschanfragen erfüllt werden. </p> <p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Dokumentation zur Datenschutz-API</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wer ist für das Empfangen, Akzeptieren und Erfüllen von Datenschutz-Anfragen von Endbenutzern zuständig?</b> </p> </td> 
@@ -30,7 +30,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie finden Adobe-Kunden (Datenverantwortliche) heraus, welchen IDs Datenschutzanfragen in Adobe Analytics zur Datenschutzverarbeitung zugeordnet sind?</b> </p> </td> 
-   <td colname="col2"> <p>Die Datenverantwortlichen bestimmen, wie die Identität für Anfragen von den Datensubjekten aufgelöst wird. Ziehen Sie die <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Bereitstellung des Datenschutz-ID-Abruftags von Adobe in Erwägung. </a> Durch die Verwendung unseres Datenschutz-ID-Abruftags zum Erfassen der Benutzer-IDs (Cookie-IDs) und das anschließende Senden dieser IDs per Data Privacy API an die relevanten Lösungen in Adobe Experience Cloud zur Datenschutz-Anfragenverarbeitung sparen Ihren Entwicklungsteams Zeit. </p> <p>Die Datenschutz-API kann eine Vielzahl von Benutzer-IDs in mehreren Adobe-Lösungen unterstützen. Wenn ein Datensubjekt eine Anfrage zusammen mit einer Kennzeichnung (benutzerdefinierte Variable – Prop oder eVar) sendet, prüft Adobe Analytics den gesamten gespeicherten Verlauf der Daten, die für die jeweilige Kennzeichnung erfasst wurden. Weitere Informationen zum Konfigurieren von benutzerdefinierten IDs, die in Props oder eVars von Analytics gespeichert sind, finden Sie in der Analytics-Dokumentation unter <a href="/help/admin/c-data-governance/gdpr-namespaces.md">Namespaces.</a>
+   <td colname="col2"> <p>Die Datenverantwortlichen bestimmen, wie die Identität bei Anfragen von betroffenen Personen aufgelöst wird. Ziehen Sie die <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Bereitstellung des Datenschutz-ID-Abruftags von Adobe in Erwägung. </a> Durch die Verwendung unseres Datenschutz-ID-Abruftags zum Erfassen der Benutzer-IDs (Cookie-IDs) und das anschließende Senden dieser IDs per Data Privacy API an die relevanten Lösungen in Adobe Experience Cloud zur Datenschutz-Anfragenverarbeitung sparen Ihren Entwicklungsteams Zeit. </p> <p>Die Datenschutz-API kann eine Vielzahl von Benutzer-IDs in mehreren Adobe-Lösungen unterstützen. Wenn ein Datensubjekt eine Anfrage zusammen mit einer Kennzeichnung (benutzerdefinierte Variable – Prop oder eVar) sendet, prüft Adobe Analytics den gesamten gespeicherten Verlauf der Daten, die für die jeweilige Kennzeichnung erfasst wurden. Weitere Informationen zum Konfigurieren von benutzerdefinierten IDs, die in Props oder eVars von Analytics gespeichert sind, finden Sie in der Analytics-Dokumentation unter <a href="/help/admin/c-data-governance/gdpr-namespaces.md">Namespaces.</a>
     </p> </td> 
   </tr> 
   <tr> 

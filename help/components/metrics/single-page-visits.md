@@ -1,12 +1,12 @@
 ---
 title: Einzelseitenbesuche (Metriken)
 description: Die Häufigkeit, mit der sich das Dimensionselement „Seite“ bei einem Besuch nicht geändert hat.
-feature: Metrics
-exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
+feature: Dimensions
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 Die Metrik [!UICONTROL Einzelseitenbesuche] gibt die Anzahl der Besuche an, bei denen das Dimensionselement [Seite](../dimensions/page.md) nur einen einzigen, eindeutigen Wert für den gesamten Besuch enthält. Diese Metrik ist hilfreich bei Dimensionen, in denen Sie kurze Besuche anzeigen, aber keine so strengen Regeln wie bei [[!UICONTROL Absprüngen]](bounces.md) verwenden möchten.
 
-## Berechnung dieser Metrik
+Berechnung dieser Metrik[](../segmentation/seg-home.md)
 
-Diese Metrik zählt die Anzahl der Besuche, bei denen das Dimensionselement [!UICONTROL Seite] nur einen einzigen, eindeutigen Wert für den gesamten Besuch enthält. Wenn ein Besucher die Seite neu lädt oder Linktracking-Aufrufe auslöst, zählt dies immer noch als Einzelseitenbesuch. Sobald die Dimension „Seite“ in einen zweiten eindeutigen Wert geändert wird, gilt der Besuch nicht mehr als ein Einzelseitenbesuch.
+## Diese Metrik zählt die Anzahl der Besuche, bei denen das Dimensionselement [!UICONTROL Seite] nur einen einzigen, eindeutigen Wert für den gesamten Besuch enthält. Wenn ein Besucher die Seite neu lädt oder Linktracking-Aufrufe auslöst, zählt dies immer noch als Einzelseitenbesuch. Sobald die Dimension „Seite“ in einen zweiten eindeutigen Wert geändert wird, gilt der Besuch nicht mehr als ein Einzelseitenbesuch.
 
 Einen Vergleich der Metriken finden Sie unter [Einzelzugriff](single-access.md).
 

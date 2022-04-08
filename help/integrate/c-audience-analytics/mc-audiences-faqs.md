@@ -6,8 +6,8 @@ feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>F: Warum wird in meinem Analytics-Bericht „Zielgruppenlimit erreicht“ angezeigt? (Hinweis: wird dies auch als Zielgruppen-ID = -1 und "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>F: Warum wird in meinem Analytics-Bericht „Zielgruppenlimit erreicht“ angezeigt? (Hinweis: Dies wird in Data Warehouse auch als Audience ID = -1 und „::max_audiences_exceeded::“ dargestellt)</b> </p> </td> 
    <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für AAM alle Segmente pro Treffer an Analytics, für die sich ein Besucher qualifiziert. Wenn ein Besucher bei einem einzigen Treffer mehr als 150 AAM-Segmenten angehört, werden die <b>150 aktuellsten qualifizierten Segmente</b> an Analytics gesendet und der Rest der Liste wird nicht gesendet. </p> <p>Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Lassen Sie die Integration weiterhin im Out-of-the-Box-Zustand arbeiten und die 150 Segmente eines bestimmten Benutzers senden, für die dieser sich zuletzt qualifiziert hat. </li> 

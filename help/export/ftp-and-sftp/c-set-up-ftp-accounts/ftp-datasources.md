@@ -1,17 +1,17 @@
 ---
 description: Sie können Analytics nutzen, um FTP-basierte Datenquellen zu erstellen und zu verwalten, wodurch die FTP-Dateiübertragung genutzt werden kann, um Offline- oder historische Daten in Experience Cloud zu importieren.
-keywords: FTP, sFTP
-title: Datenquellen – Übersicht
+keywords: ftp;sftp
+title: Datenquellen Übersicht
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Data Sources
+# Datenquellen
 
 Sie können Analytics nutzen, um FTP-basierte Datenquellen zu erstellen und zu verwalten, wodurch die FTP-Dateiübertragung genutzt werden kann, um Offline- oder historische Daten in Experience Cloud zu importieren.
 
@@ -23,7 +23,7 @@ Suchen Sie im Fenster [!UICONTROL Data Sources verwalten] nach Ihrer Datenquelle
 
 Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md).
 
-## Informationen zur FIN-Datei für Uploads für Classifications und Data Sources {#section_1484719F8A134EAE91212DBD8F15174F}
+## Informationen zur FIN-Datei für Uploads für Klassifizierungen und Datenquellen {#section_1484719F8A134EAE91212DBD8F15174F}
 
 Beim Hochladen einer Classification oder einer [!UICONTROL Datenquell]-Datei ([!DNL .tab] oder [!DNL .txt]) muss eine leere Datei mit exakt demselben Namen wie der der importierten Datei, jedoch mit der Dateierweiterung [!DNL .fin], hochgeladen werden. Diese [!DNL .fin]-Datei ist eine Finish-Datei. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. Über die [!DNL .fin]-Datei erkennt Adobe, dass Sie mit Ihrem Import fertig sind. Nachdem Sie diese Datei übermittelt haben, entfernt Adobe beide Dateien aus dem FTP-Konto und startet den Importprozess.
 Importdatei: [!DNL Classifications.tab]

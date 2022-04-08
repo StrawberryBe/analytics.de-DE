@@ -6,8 +6,8 @@ feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Die schrittweise Einführung dieser Funktion beginnt am 23. März 2022. Allgemeine Verfügbarkeit: 11. April 2022.
+>Die schrittweise Einführung dieser Funktion beginnt am 23. März 2022. General Availability: April 11, 2022.
 
 1. Um Anmerkungen zu erstellen, haben Sie verschiedene Möglichkeiten zur Verfügung:
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
    | Element | Beschreibung |
    | --- | --- |
-   | [!UICONTROL Schreibgeschützte Anmerkungen] | Standardmäßig gilt die Anmerkung für das aktuelle Projekt. Wenn Sie dieses Kontrollkästchen aktivieren, können Sie die Anmerkung für alle Projekte verfügbar machen, deren Inhaber Sie sind.<p> ![](assets/project-only.png) |
+   | [!UICONTROL Project-only Annotation] | Standardmäßig gilt die Anmerkung für das aktuelle Projekt. Wenn Sie dieses Kontrollkästchen aktivieren, können Sie die Anmerkung für alle Projekte verfügbar machen, deren Inhaber Sie sind.<p> ![](assets/project-only.png) |
    | [!UICONTROL Titel] | Benennen Sie die Anmerkung, z. B. „Gedenktag“ |
    | [!UICONTROL Beschreibung] | (Optional) Geben Sie eine Beschreibung für die Anmerkung ein, z. B. „Feiertage in den USA“. |
    | [!UICONTROL Tags] | (Optional) Organisieren Sie Anmerkungen, indem Sie ein Tag erstellen oder anwenden. |

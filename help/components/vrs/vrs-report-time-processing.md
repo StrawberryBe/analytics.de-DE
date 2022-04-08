@@ -7,8 +7,8 @@ feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Während der Datenverarbeitung in Analytics fließen die Daten durch die Datener
 
 Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsoptionen. Sie können beispielsweise die Timeout-Zeitspanne für Besuche auf nicht destruktive Art und Weise beliebig ändern. Diese Änderungen spiegeln sich retroaktiv in der eVar-Persistenz und den Segmentcontainern wider, als hätten Sie diese Einstellungen vor dem Erfassen der Daten angewendet. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-[!UICONTROL Berichtszeitverarbeitung] ermöglicht Analytics auch, zu verhindern, dass Hintergrundtreffer neue Besuche starten, und ermöglicht die [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) , um die Berichterstellung anzuweisen, einen neuen Besuch zu starten, sobald ein App-Startereignis ausgelöst wird.
+Durch [!UICONTROL die Berichtszeitverarbeitung] wird außerdem ermöglicht, dass Analytics verhindert, dass durch Hintergrundtreffer neue Besuche gestartet werden, und dass das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) die Berichterstellung zum Starten eines neuen Besuchs anweist, sobald ein App-Startereignis ausgelöst wird.
 
 ## Konfigurationsoptionen
 

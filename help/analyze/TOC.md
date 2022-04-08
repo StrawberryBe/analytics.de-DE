@@ -1,21 +1,21 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Leitfaden für Analytics-Tools
+user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
-user-guide-description: Anleitungen für Analysis Workspace, das führende Analyse- und Visualisierungswerkzeug für Analytics, sowie Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
+user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Adobe Analytics Tools-Anleitung {#analyze}
+# Handbuch für Adobe Analytics-Tools {#analyze}
 
-+ [Leitfaden für Analytics-Tools](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Handbuch für Analytics-Tools](home.md)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace – Übersicht](analysis-workspace/home.md)
@@ -92,7 +92,7 @@ ht-degree: 96%
       + [Attributionsbedienfeld](analysis-workspace/c-panels/attribution.md)
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
-      + [Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Bedienfeld „Zielgruppendurchschnitt pro Minute“](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Bedienfeld „Gleichzeitige Medienbetrachter“](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Mit Medienwiedergabe verbrachte Zeit {#media-playback-timespent}
          + [Überblick](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
@@ -161,7 +161,7 @@ ht-degree: 96%
          + [Report Suite aus einer bestehenden Anforderung in Excel auswählen](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel zum Suchen einer Report Suite-ID verwenden](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Segmente verwalten](report-builder/data-requests/segmentation.md)
-      + [Überschreibungen der Veröffentlichungsliste zulassen](report-builder/data-requests/allow-publishing-list-overrides.md)
+      + [Zulassen von Überschreibungen der Veröffentlichungsliste](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Berichtstypen {#report-types}
          + [Übersicht über Berichtstypen](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Pfad- und Pfad-Fallout-Berichte in Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)

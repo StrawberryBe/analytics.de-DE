@@ -1,24 +1,24 @@
 ---
-description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics
+description: Erstellen eines einfachen Containers für die Datenerfassung in Adobe Analytics
 title: Erstellen einer Report Suite
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Erstellen einer Report Suite
 
-Bei einer Report Suite handelt es sich um einen Datenspeicher, mit dem Adobe Analytics Berichte abruft. Eine Organisation kann über viele Report Suites verfügen, die jeweils unterschiedliche Datensätze enthalten. Auch wenn in der Vergangenheit separate Report Suites wichtig waren, hat sich eine einzelne Report Suite als vorteilhafter erwiesen. Die Einführung von [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) und die Berichtszeitverarbeitung ermöglichen es Administratoren, eigene Datenuntergruppen zu erstellen, sodass sie flexibel sowohl globale als auch Site-spezifische Daten abrufen können.
+Bei einer Report Suite handelt es sich um einen Datenspeicher, mit dem Adobe Analytics Berichte abruft. Eine Organisation kann über viele Report Suites verfügen, die jeweils unterschiedliche Datensätze enthalten. Auch wenn in der Vergangenheit separate Report Suites wichtig waren, hat sich eine einzelne Report Suite als vorteilhafter erwiesen. Die Einführung von [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de#virtual-report-suites) und die Verarbeitung von Berichtszeiten ermöglicht es Administratoren, eigene Untergruppen von Daten zu erstellen, was die Flexibilität bietet, sowohl globale als auch Site-spezifische Daten zu erhalten.
 
-Dieser Artikel richtet sich an Administratoren auf Systemebene oder Adobe Analytics-Administratoren, die sich auf die Datenerfassung vorbereiten.
+Dieser Artikel wurde für Administratoren oder Adobe Analytics-Administratoren auf Systemebene zur Vorbereitung auf die Datenerfassung erstellt.
 
 ## Voraussetzungen
 
-[Erste Administratorhandbuch für Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): Stellen Sie sicher, dass Ihnen ein Administrator auf Systemebene über die Experience Cloud-Admin Console Zugriff auf Adobe Analytics gewährt hat.
+[Adobe Analytics-Handbuch für erste Administratoren](/help/admin/admin-console/first-admin-guide.md): Vergewissern Sie sich, dass Ihnen ein Systemadministrator über die Admin Console von Experience Cloud Zugriff auf Adobe Analytics gewährt hat.
 
 ## Erstellen einer Report Suite {#create-report-suite}
 
@@ -43,4 +43,4 @@ Das bedeutet, dass Ihrem Konto nicht die richtigen Berechtigungen für Analytics
 
 ## Nächste Schritte
 
-[Erstellen einer Adobe Analytics-Tag-Eigenschaft](/help/implement/launch/create-analytics-property.md): Erstellen Sie einen Bereich zur Verwaltung Ihrer Analytics-Implementierung.
+[Erstellen einer Adobe Analytics-Tag-Eigenschaft](/help/implement/launch/create-analytics-property.md): Erstellen eines Bereichs zur Verwaltung Ihrer Analytics-Implementierung.
