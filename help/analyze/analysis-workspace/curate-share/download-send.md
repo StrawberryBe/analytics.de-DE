@@ -5,7 +5,7 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Beachten Sie beim Herunterladen von Projekten Folgendes:
 * PDF-Downloads werden als einzelne Seite ohne Seitenumbruch gerendert.
 * Bei der PDF-Ausgabe eines Projekts wird das gerendert, was sich auf der Seite befindet. Wenn ein Projekt Visualisierungen und Bedienfelder in benutzerdefinierter Größe enthält, müssen Sie diese so ändern, dass die Größe automatisch bestimmt wird (Schaltfläche in der oberen rechten Ecke), damit der Inhalt nicht abgeschnitten wird.
 
-## Daten in die Zwischenablage kopieren (Hotkey: Strg+C) {#copy-data}
+## Daten in die Zwischenablage kopieren (Hotkey: Strg + C) {#copy-data}
 
 Mit der Rechtsklick-Option **[!UICONTROL In Zwischenablage kopieren]** können Sie Daten schnell aus Workspace kopieren und an einer anderen Stelle einfügen.
 
