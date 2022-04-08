@@ -4,7 +4,7 @@ description: Verwenden Sie unterschiedliche Implementierungstypen und verfolgen 
 feature: Implementation Basics
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
 ht-degree: 100%
 
