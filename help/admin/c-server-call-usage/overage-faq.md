@@ -4,7 +4,7 @@ title: Häufig gestellte Fragen zur Nutzung von Server-Aufrufen
 feature: Server Call Usage
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 | Frage | Antwort |
 |--- |--- |
 | F.: Ich bin Analytics-Administrator. Warum sehe ich im Administratorbereich meines Anmeldeunternehmens keinen Link zur [!UICONTROL Nutzung von Server-Aufrufen]? | A.: Sie können auswählen, welche Ihrer Anmeldeunternehmen im Administratorbereich den Link zur [!UICONTROL Nutzung von Server-Aufrufen] anzeigen. Falls Sie keinen sehen, dann kontaktieren Sie bitte den Kundendienst, um ihn zu aktivieren. |
-| F.: Ist die Funktion zur [!UICONTROL Nutzung der Server-Aufrufe] Administratoren vorbehalten? | A: Nein. Genau wie bei der Funktion [!UICONTROL Abrechnung], die durch die [!UICONTROL  Nutzung der Server-Aufrufe] ersetzt wird, können Sie Nicht-Administratoren die Berechtigung geben, auf diesen Link zuzugreifen. |
+| F.: Ist die Funktion zur [!UICONTROL Nutzung der Server-Aufrufe] Administratoren vorbehalten? | A: Nein. Genau wie bei der Funktion [!UICONTROL Abrechnung], die durch die [!UICONTROL Nutzung der Server-Aufrufe] ersetzt wird, können Sie Nicht-Administratoren die Berechtigung geben, auf diesen Link zuzugreifen. |
 | F.: Sind alle Informationen über die [!UICONTROL Nutzung der Server-Aufrufe] und die Zusage auf ein Anmeldeunternehmen ausgerichtet? | A.: Nein. Die Informationen über die Nutzung der Server-Aufrufe und die Zusage gelten für alle Anmeldeunternehmen, die zu Ihrem Adobe Analytics-Vertrag gehören. |
 | F.: Auf dem Tab [!UICONTROL Nutzung der Report Suite] kann ich den Verbrauch der Report Suites sehen, die unter dem aktuellen Anmeldeunternehmen nicht für das Reporting verfügbar sind. Ist das ein Bug? | A: Nein. Die Liste der Report Suites umfasst genau wie die Informationen über die [!UICONTROL Nutzung der Server-Aufrufe] und die Zusage alle Anmeldeunternehmen, die zu Ihrem Analytics-Vertrag gehören. |
 | F.: Ist die Nutzungsperiode genauso lang wie mein Analytics-Vertrag oder mein Abrechnungszeitraum? | A.: Nein. Die Nutzungsperiode bezeichnet den Zeitraum, für den Ihre Zusage für Server-Aufrufe gilt. Damit kann Sie sich von Ihrer Vertragsdauer oder Ihrem Abrechnungszeitraum unterscheiden. Beispielsweise könnte Sie Ihr Jahresvertrag zu einer Milliarde Server-Aufrufe pro Monat berechtigen. In diesem Fall läge Ihre Zusage bei einer Milliarde Server-Aufrufen und einer Nutzungsperiode von einem Monat. |
