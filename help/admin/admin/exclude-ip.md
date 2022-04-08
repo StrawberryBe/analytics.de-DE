@@ -4,9 +4,9 @@ description: Verhindern, dass von bestimmten IP-Adressen generierte Daten in Ber
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websi
 
 >[!NOTE]
 >
->Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Server-Aufrufe](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html) in Rechnung gestellt.
+>Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Server-Aufrufe](https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=de) in Rechnung gestellt.
 
 Mit Platzhaltern (*) können Sie einen ganzen Adressenbereich ausschließen. Zum Beispiel würde `[!DNL 0.0.*.0]` sämtliche IP-Adressen zwischen `[!DNL 0.0.0.0]` und `[!DNL 0.0.255.0]` ausschließen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
 
 >[!TIP]
 >
->Private IP-Adressen müssen nicht ausgeschlossen werden. Nur externe IP-Adressen erreichen die Datenerfassungsserver der Adobe. Private Adressen enthalten `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`und `169.254.*.*`.
+>Private IP-Adressen müssen nicht ausgeschlossen werden. Nur externe IP-Adressen gelangen zu den Adobe-Datenerfassungs-Servern. Private Adressen enthalten `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` und `169.254.*.*`.
 
 ## Auswirkung der IP-Verschleierung  {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
