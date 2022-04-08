@@ -4,7 +4,7 @@ description: Referenz zu Analytics-Dimensionen und -Berichten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analy
 | Produkt | `product` |
 | Referrer | `referrer` |
 | Referrer-Typ | `referrertype` |
-| Referrer-Domäne | `referringdomain` |
+| Referrer-Domain | `referringdomain` |
 | Regionen | `georegion` |
 | Rückkehrhäufigkeit | `returnfrequency` |
 | SC-TnT | `tntbase` |
