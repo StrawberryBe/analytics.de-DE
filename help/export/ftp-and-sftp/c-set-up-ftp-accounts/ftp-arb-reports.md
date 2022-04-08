@@ -1,11 +1,11 @@
 ---
 description: Verwenden Sie das Adobe Report Builder-Add-in für Microsoft Excel, um benutzerdefinierte Anforderungen von Web-Analysedaten zu erstellen, die Sie in Ihre Excel-Arbeitsblätter einfügen können.
-keywords: FTP, sFTP
+keywords: ftp;sftp
 title: Von Report Builder bereitgestellte Berichte
 feature: FTP Export
 exl-id: 0026b6dc-023f-4896-ba0d-0eec16a9d469
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
