@@ -5,9 +5,9 @@ title: Traffic-Classifications
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassi
 
 ## Traffic-Classifications {#concept_028079B29A9C412AA68910A87E11176F}
 
-Traffic-Classifications können Sie Traffic-Variablen (Props) klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
+Traffic-Classifications ermöglichen Ihnen, Traffic-Variablen (Eigenschaften) zu klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
 
 Auf der Seite „Traffic-Classifications“ können Sie Classifications für ausgewählte Report Suites erstellen. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der zugeordneten Attribute erstellt werden.
 
@@ -31,9 +31,9 @@ t_classification_add_traffic.xml
 
  -->
 
-Schritte, die beschreiben, wie Classifications für bestimmte Report Suites hinzugefügt oder bearbeitet werden.
+Schritte, die beschreiben, wie Klassifizierungen für bestimmte Report Suites hinzugefügt oder bearbeitet werden.
 
-1. Klicken Sie im Suite Header auf  **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
+1. Klicken Sie im Suite Header auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
 1. Wählen Sie eine Report Suite aus.
 1. Wählen Sie im Feld **[!UICONTROL Einen Klassifizierungstyp auswählen]** die Variable aus, für die Sie eine Klassifizierung hinzufügen möchten.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Classifications]**.
