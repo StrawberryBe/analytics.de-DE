@@ -4,7 +4,7 @@ description: Kopieren Sie Variablen, ohne die Bildanforderungslänge zu erhöhen
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere k
 
 In früheren Versionen von Analytics war die Länge der Bildanforderung wichtig, um abgeschnittene Daten zu verhindern. Verbesserungen an AppMeasurement ermöglichen wesentlich längere Abfragezeichenfolgen für Bildanforderungen, sodass dynamische Variablen normalerweise nicht benötigt werden.
 
-Dynamische Variablen unterstützen Abfragezeichenfolgenparameter oder HTTP-Header in einer Bildanforderung. Eine vollständige Liste der verfügbaren Parameter, die referenziert werden können, finden Sie unter [Datenerfassungs-Abfrageparameter](../../validate/query-parameters.md). Eine vollständige Liste der verfügbaren HTTP-Anforderungsfelder, die referenziert werden können, finden Sie unter [Standardisierte Anfrage-Felder](https://de.wikipedia.org/wiki/Liste_der_HTTP-Headerfelder#Anfrage-Felder) in Wikipedia.
+Dynamische Variablen unterstützen Abfragezeichenfolgenparameter oder HTTP-Header in einer Bildanforderung. Eine vollständige Liste der verfügbaren Parameter, die referenziert werden können, finden Sie unter [Datenerfassungs-Abfrageparameter](../../validate/query-parameters.md). Eine vollständige Liste der verfügbaren HTTP-Anforderungsfelder, die referenziert werden können, finden Sie unter [Standardisierte Anfrage-Felder](https://de.wikipedia.org/wiki/Liste_der_HTTP-Headerfelder) in Wikipedia.
 
 Wenn Adobe ein Präfix für dynamische Variablen erkennt, kopiert es automatisch die Abfragezeichenfolge oder den HTTP-Header-Wert in Ihre Report Suite. Diese Aktion erfolgt vor jeder anderen Verarbeitung, einschließlich Verarbeitungsregeln und VISTA-Regeln.
 
