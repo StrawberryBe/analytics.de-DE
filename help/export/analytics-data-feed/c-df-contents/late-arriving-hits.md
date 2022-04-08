@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Daten-Feeds verspätete Treffer handhaben.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
@@ -31,5 +31,5 @@ Verspätete Treffer können von Adobe für einzelne Daten-Feeds manuell aktivier
 Wenn Sie für einen vorhandenen wiederkehrenden Daten-Feed verspätete Treffer aktivieren möchten, bitten Sie einen unterstützten Benutzer, sich an die Kundenunterstützung zu wenden und folgende Angaben zu machen:
 
 * Eine Mitteilung, dass Sie für einen bestimmten Daten-Feed verspätete Treffer aktivieren möchten
-* Die Report Suite-ID
+* Report Suite-ID
 * Den Namen des Daten-Feeds
