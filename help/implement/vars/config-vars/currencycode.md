@@ -4,7 +4,7 @@ description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweil
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Die folgenden Währungscodes sind gültig:
 | `BSD` | Bahamas Dollar |
 | `BTN` | Bhutan Ngultrum |
 | `BWP` | Botswana Pula |
-| `BYR` | Weißrussland Rubel |
+| `BYR` | Belarus Rubel |
 | `BZD` | Belize Dollar |
 | `CAD` | Kanada Dollar |
 | `CDF` | Kongo/Kinshasa Franc |
@@ -96,7 +96,7 @@ Die folgenden Währungscodes sind gültig:
 | `CVE` | Kap Verde Escudo |
 | `CYP` | Zypern Pfund |
 | `CZK` | Tschechische Republik Krone |
-| `DJF` | Dschibouti Franc |
+| `DJF` | Dschibuti Franc |
 | `DKK` | Dänemark Krone |
 | `DOP` | Dominikanische Republik Peso |
 | `DZD` | Algerien Dinar |
@@ -125,7 +125,7 @@ Die folgenden Währungscodes sind gültig:
 | `ILS` | Israel Neuer Schekel |
 | `IMP` | Isle of Man Pfund |
 | `INR` | Indien Rupie |
-| `IQD` | Iraq Dinar |
+| `IQD` | Irak Dinar |
 | `IRR` | Iran Rial |
 | `ISK` | Island Krone |
 | `JEP` | Jersey Pfund |
@@ -194,8 +194,8 @@ Die folgenden Währungscodes sind gültig:
 | `SLL` | Sierra Leone Leone |
 | `SOS` | Somalia Schilling |
 | `SPL` | Seborga Luigino |
-| `SRD` | Suriname Dollar |
-| `SRG` | Suriname Gulden |
+| `SRD` | Surinam Dollar |
+| `SRG` | Surinam Gulden |
 | `STD` | São Tomé und Príncipe |
 | `SVC` | El Salvador Colon |
 | `SYP` | Syrien Pfund |
