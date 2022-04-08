@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Neben den Dashboards, die Sie erstellen, stehen jedem Benutzer die folgenden, vo
 
 Das anpassbare Dashboard bietet Ihnen eine Möglichkeit, Reportlets in der bereitgestellten Vorlage abzulegen.
 
-**[!UICONTROL Komponenten] > [!UICONTROL Alle Komponenten] > [!UICONTROL Dashboards] > [!UICONTROL Freigegebene Dashboards] > [!UICONTROL Dashboard &quot;Site-Betrieb&quot;]**
+**[!UICONTROL Komponenten] > [!UICONTROL Alle Komponenten] > [!UICONTROL Dashboards] > [!UICONTROL Freigegebene Dashboards] > [!UICONTROL Site Operations Dashboard]**
 
 Dieses Dashboard bietet Ihnen eine Übersicht über die Schlüsselmetriken in Bezug auf den Betrieb Ihrer Website. Zu den Berichten dieses Dashboards zählen:
 
@@ -61,7 +61,7 @@ Verwenden Sie den [!UICONTROL „Dashboard-Manager“], um Dashboards zu bearbei
 
 Siehe [Verwalten von Dashboards](/help/analyze/reports-analytics/dashboard-manage.md).
 
-## Dashboard erstellen {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
+## Ein Dashboard erstellen {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
 In diesen Schritten wird beschrieben, wie Sie ein Dashboard erstellen.
 
@@ -92,7 +92,7 @@ Bevor Sie einen Bericht (als Reportlet) zu einem Dashboard hinzufügen, legen Si
 
 1. (Optional) Um das Dashboard als Ihre Landingpage einzurichten, klicken Sie auf **[!UICONTROL Mehr Optionen]** > **[!UICONTROL Als Landingpage festlegen]**.
 
-## Reportlet erstellen {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
+## Ein Reportlet erstellen {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
 In diesen Schritten wird beschrieben, wie Sie ein Reportlet erstellen. Nachdem Sie ein Reportlet erstellt haben, ist es zur Anzeige in einem Dashboard verfügbar.
 
@@ -175,7 +175,7 @@ Durch Angabe von URLs können folgende Benutzerinhalt-Reportlets erstellt werden
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Dashboard- und Reportlet-Daten bearbeiten {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
+## Bearbeiten von Dashboard- und Reportlet-Daten {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
 Sie können Dateneinstellungen auf Dashboard- oder Reportlet-Ebene ändern. Sie können zum Beispiel die Report Suite ändern, die Report Suite sperren, Daten ändern, Segmente anwenden usw. Sie können ein Dashboard weiter individualisieren, indem Sie die Vertraulichkeitserklärung Ihres Unternehmens hinzusetzen und HTML-, XML-, Web API- und CSV-Daten in Ihre spezifischen Reportlets aufnehmen.
 
@@ -187,7 +187,7 @@ t_dashboard_edit.xml
 
 **So bearbeiten Sie Dashboard- und Reportlet-Daten**
 
-1. Klicken **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]** > *Dashboard-Name* , um ein Dashboard zu öffnen.
+1. Klicken Sie auf **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]** > *Dashboard-Name*, um ein Dashboard zu öffnen.
 1. Klicken Sie auf **[!UICONTROL Layout]**.
 
 | Hierzu | Führen Sie folgende Schritte aus |
@@ -207,7 +207,7 @@ t_dashboard_edit.xml
 
 ## Co-Branding eines Dashboards {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-In diesen Schritten wird beschrieben, wie Sie ein Bild zur Anzeige in einem Dashboard hochladen.
+In diesen Schritten wird beschrieben, wie Sie ein Bild hochladen, damit es in einem Dashboard angezeigt wird.
 
 <!-- 
 
