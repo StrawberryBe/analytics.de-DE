@@ -1,10 +1,10 @@
 ---
-description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
+description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
 title: Klassifizierungsvorlage
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -12,11 +12,11 @@ ht-degree: 100%
 
 # Klassifizierungsvorlage
 
-(Optional) Vor dem Importieren von Klassifizierungen in Marketing-Berichte können Sie eine Vorlage herunterladen, um eine Klassifizierungsdatendatei zu erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
+(Optional) Vor dem Importieren von Klassifizierungen in Marketing-Berichte können Sie eine Vorlage herunterladen, um eine Klassifizierungsdatendatei zu erstellen. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
 
 ## Klassifizierungsvorlage {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
-(Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
+(Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
