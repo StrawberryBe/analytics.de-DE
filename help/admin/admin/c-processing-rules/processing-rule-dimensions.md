@@ -5,9 +5,9 @@ title: F체r Verarbeitungsregeln verf체gbare Dimensionen
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
  </tbody> 
 </table>
 
-## Hit-Attribute {#section_07E69A86A47741A083FD84F112EB80D0}
+## Trefferattribute {#section_07E69A86A47741A083FD84F112EB80D0}
 
 <table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
  <thead> 
@@ -89,11 +89,11 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Website-Name </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis: Linktracking-Aufrufe entfernen <code>pageName</code> vor dem Erreichen der Verarbeitungsregeln. Wenn Sie einen Seitennamenwert mithilfe von Verarbeitungsregeln erneut einf체gen, wird der Treffer als Seitenansicht und nicht als Linktracking-Aufruf betrachtet. Adobe empfiehlt, zu 체berpr체fen, ob der Seitenname bereits festgelegt ist, bevor Sie ihn 채ndern. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis: Linktracking-Aufrufe entfernen die <code>pageName</code>-Variablen vor dem Erreichen der Verarbeitungsregeln. Wenn Sie einen Seitennamenwert mithilfe von Verarbeitungsregeln erneut einf체gen, wird der Treffer als Seitenansicht und nicht als Linktracking-Aufruf betrachtet. Adobe empfiehlt zu 체berpr체fen, ob der Seitenname bereits festgelegt ist, bevor Sie ihn 채ndern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seiten-URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> oder die aktuelle Seiten-URL, wenn <code> s.pageURL</code> nicht spezifiziert ist. <p>Hinweis: Linktracking-Aufrufe entfernen <code>pageURL</code> vor dem Erreichen der Verarbeitungsregeln. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einf체gen, wird der Treffer als Seitenansicht und nicht als Linktracking-Aufruf betrachtet. Adobe empfiehlt, zu 체berpr체fen, ob die Seiten-URL bereits festgelegt ist, bevor Sie sie 채ndern. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> oder die aktuelle Seiten-URL, wenn <code> s.pageURL</code> nicht spezifiziert ist. <p>Hinweis: Linktracking-Aufrufe entfernen die <code>pageURL</code>-Variablen vor dem Erreichen der Verarbeitungsregeln. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einf체gen, wird der Treffer als Seitenansicht und nicht als Linktracking-Aufruf betrachtet. Adobe empfiehlt zu 체berpr체fen, ob die Seiten-URL bereits festgelegt ist, bevor Sie sie 채ndern. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abfragezeichenfolgenparameter </p> </td> 
