@@ -5,9 +5,9 @@ feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 | --- | --- |
 | Direkt zur Warnhinweiserstellung wechseln | **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** |
 | Verwenden des Tastaturbefehls in Workspace | `Ctrl + Shift + A` (Windows) oder `Cmd + Shift + A` (Mac) |
-| Ein oder mehrere Freiform-Tabellenzeilenelemente auswählen | Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Warnhinweis aus Auswahl erstellen]**. Dadurch wird die [!UICONTROL Warnhinweiserstellung] und füllt die entsprechenden Metriken und angewendeten Filter aus. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten. ![Warnhinweis aus Auswahl erstellen](assets/create-alert-from-selection.png) |
-| Aus einem Reports &amp; Analytics-Bericht | Navigieren Sie zu  **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** . Dadurch wird die Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden vorausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten. ![Warnhinweis hinzufügen](assets/add-alert.png) |
+| Wählen Sie ein oder mehrere Freiform-Tabellenzeilenelemente aus | Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Warnhinweis aus Auswahl erstellen]**. Dadurch wird die [!UICONTROL Warnhinweiserstellung] geöffnet und die entsprechenden Metriken und angewendeten Filter aus der Tabelle werden vorab ausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten. ![Warnhinweis aus Auswahl erstellen](assets/create-alert-from-selection.png) |
+| Aus einem Reports &amp; Analytics-Bericht | Navigieren Sie zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]**. Dadurch wird die Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden vorab ausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten. ![Warnhinweis hinzufügen](assets/add-alert.png) |
 
 Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität  werden [verschiedene Modelle](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99.75 %).
 
