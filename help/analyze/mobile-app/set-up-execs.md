@@ -1,17 +1,17 @@
 ---
-description: Ausführende Benutzer benötigen möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
-title: Festlegen von ausführenden Benutzern mit der Applikation
+description: In einigen Fällen benötigen die Benutzer möglicherweise zusätzliche Hilfe, um auf die Mobile App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
+title: Einrichten von Benutzern für das Programm
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Festlegen von ausführenden Benutzern mit der Applikation
+# Einrichten von Benutzern für das Programm
 
 In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
 
