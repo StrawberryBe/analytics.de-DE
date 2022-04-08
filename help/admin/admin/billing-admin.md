@@ -1,16 +1,16 @@
 ---
 description: Auf der Seite Rechnungsstellung können Sie auf die Rechnungsinfomationen zugreifen, einschließlich der Traffic-Details der einzelnen Report Suites. Nur autorisierte Administratoren haben Zugriff auf diese Seite.
-title: Rechnungsstellung
+title: Abrechnung
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
 ---
 
-# Rechnungsstellung
+# Abrechnung
 
 Auf der Seite Rechnungsstellung können Sie auf die Rechnungsinfomationen zugreifen, einschließlich der Traffic-Details der einzelnen Report Suites. Nur autorisierte Administratoren haben Zugriff auf diese Seite.
 
