@@ -4,7 +4,7 @@ description: Die Stadt, aus der der Treffer stammt.
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Die Dimension „Städte“ gibt die Stadt an, aus der der Treffer stammt. Diese
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://info.digitalelement.com/de/) zusammen, um die Suche zwischen IP-Adresse und Stadt zu unterstützen. Diese Dimension ist bei allen Implementierungen vorkonfiguriert.
+Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um die Suche zwischen IP-Adresse und Stadt zu unterstützen. Diese Dimension ist bei allen Implementierungen vorkonfiguriert.
 
 ## Dimensionselemente
 
