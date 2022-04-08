@@ -3,9 +3,9 @@ title: Importhandbuch für Analytics
 description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Datenquellen, der Dateneinfügungs-API und Data Connectors in Analytics aufnehmen können.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 In diesem Leitfaden wird erklärt, wie Daten in Analytics importiert werden. Zu diesem Service gehören:
 
 * **[Data Sources](c-data-sources/datasrc-home.md)**: Zum Hochladen einer Datei auf eine dafür vorgesehene Adobe FTP-Site. Adobe ruft die Datei ab und fügt die Daten zu Ihrer Report Suite hinzu.
-* **[Bulk Data Insertion API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** können Sie Server-Aufrufdaten in Dateistapeln hochladen, anstatt clientseitige Bibliotheken wie AppMeasurement zu verwenden.
+* Mit der **[Bulk Data Insertion-API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** können Sie Server-Aufrufdaten in Datei-Batches hochladen, anstatt Client-seitige Bibliotheken wie AppMeasurement zu verwenden.
 * **[Dateneinfüge-API](c-data-insertion-api/c-data-insertion-api.md)**: Zum Senden von Daten über eine API direkt an die Datenerfassung von Adobe.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Suchen Sie nach aktuellen Integrationen, die zur Anreicherung Ihrer Adobe Analytics-Report Suite verfügbar sind.
 
