@@ -4,9 +4,9 @@ title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=de">Dokumentation zu Classifications Importer (Hochladen)</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Transaktions-ID-Aufzeichnung aktivieren </p> </td> 
+   <td colname="col1"> <p>Aktivieren der Aufzeichnung einer Transaktions-ID </p> </td> 
    <td colname="col2"> 
     <ol id="ol_4F3028A440C94447890498CF2E64C15B"> 
      <li id="li_243C7F7DF3074F7FB9893BEFDA8B0732"> <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span>. Wählen Sie dann eine Report Suite aus. </li> 
@@ -60,7 +60,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ClickMap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade auf Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html?lang=de"> Upgrade auf Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-Regeln </p> </td> 
