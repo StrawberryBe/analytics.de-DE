@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
-user-guide-description: Hilfe bei der Verwaltung Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Warnhinweisen, Marketing-Kanälen, Klassifizierungen und Informationen zur geräteübergreifenden Analyse.
+user-guide-description: Verwalten Sie Ihre Daten mithilfe von Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Warnhinweisen, Marketing-Kanälen und Klassifizierungen und erfahren Sie mehr über die geräteübergreifende Analyse.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics]-Komponentenleitfaden {#components}
 
 + [Komponentenleitfaden für Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Dimensionen {#dimensions}
    + [Dimensionen – Übersicht](dimensions/overview.md)
    + [Kompatibilität der Dimensionen](dimensions/compatibility.md)
@@ -113,7 +113,7 @@ ht-degree: 95%
    + [Zusatz zum Warenkorb](metrics/cart-additions.md)
    + [Entnahme aus Warenkorb](metrics/cart-removals.md)
    + [Warenkorbansicht](metrics/cart-views.md)
-   + [Warenkorb](metrics/carts.md)
+   + [Warenkörbe](metrics/carts.md)
    + [Checkouts](metrics/checkouts.md)
    + [Content-Geschwindigkeit](metrics/content-velocity.md)
    + [Benutzerspezifische Ereignisse](metrics/custom-events.md)
@@ -161,7 +161,7 @@ ht-degree: 95%
       + [Segmente freigeben](segmentation/segmentation-workflow/t-seg-share.md)
       + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Segmente auswählen und anwenden](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [Segmente filtern](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Filtern von Segmenten](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Segmente als Favoriten markieren](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Segmente löschen](segmentation/segmentation-workflow/seg-delete.md)
       + [Segmente verwalten](segmentation/segmentation-workflow/seg-manage.md)
