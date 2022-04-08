@@ -4,9 +4,9 @@ title: Erstellen einer Datenaggregations-Report Suite
 feature: Report Suite Settings
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Schritte, die beschreiben, wie eine Datenaggregations-Report Suite erstellt wir
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] ist das einzige Tool, das Datenaggregations-Berichte unterstützt und Adobe die Verwendung von Datenaggregationen nicht mehr empfiehlt. Siehe[Report Suite-Ansätze](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot;für Alternativen.
+>[!DNL Reports & Analytics] ist das einzige Tool, das Datenaggregationsberichte unterstützt, und Adobe empfiehlt die Verwendung von Datenaggregationen nicht mehr. Zu Alternativen siehe [Report Suite-Ansätze](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html?lang=de).
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Klicken Sie in den [!UICONTROL Report Suite-Gruppen] auf **[!UICONTROL Hinzufügen]** neben der Überschrift **[!UICONTROL Datenaggregationen]**.
