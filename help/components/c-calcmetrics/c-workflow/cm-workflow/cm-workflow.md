@@ -4,7 +4,7 @@ title: Workflow bei berechneten Metriken
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -22,5 +22,5 @@ Erfahren Sie mehr über die Schritte zum Erstellen von berechneten Metriken.
 | Berechnete Metriken [genehmigen](cm-approving.md) | Genehmigen Sie berechnete Metriken, um sie als autorisiert zu kennzeichnen. |
 | Berechnete Metriken anwenden | Sie können Metriken direkt in einem Bericht über die Metrikauswahl anwenden (klicken Sie dazu auf Metriken anzeigen). |
 | Berechnete Metriken [freigeben](cm-sharing.md) | Geben Sie Ihre Metriken für die gewünschte Zielgruppe in anderen [!DNL Analytics]-Werkzeugen und in Adobe Target und der Adobe Experience Cloud frei. |
-| Berechnete Metriken filtern | Klicken Sie in der Metrikauswahl auf Erweiterte Auswahl und filtern Sie nach Tags, Inhabern und anderen Kriterien (Alle anzeigen, Meine, Für mich freigegeben, Favoriten und Genehmigt). |
+| Filtern von berechneten Metriken | Klicken Sie in der Metrikauswahl auf Erweiterte Auswahl und filtern Sie nach Tags, Inhabern und anderen Kriterien (Alle anzeigen, Meine, Für mich freigegeben, Favoriten und Genehmigt). |
 | Berechnete Metriken markieren als [Favoriten](cm-finding.md) | Das Kennzeichnen von Metriken als Favoriten bietet eine weitere Möglichkeit, diese für die einfache Verwendung zu organisieren. |
