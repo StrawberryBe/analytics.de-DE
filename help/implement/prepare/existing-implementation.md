@@ -4,7 +4,7 @@ description: Anweisungen für Administratoren, die neu zu einer bestehenden Adob
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -26,4 +26,4 @@ Siehe auch:
 
 * [Checkliste „Gezielte Prüfung“ zur Überprüfung Ihrer Implementierung nach jeder Website-Veröffentlichung](/help/implement/review/focused-review.md)
 * [Checkliste „Vollständige Prüfung“ Ihrer Implementierung alle 6 Monate](/help/implement/review/full-review.md)
-* [Definieren Sie Ihre fünf wichtigsten KPIs](/help/implement/review/define-kpis.md)
+* [Definieren Ihrer fünf wichtigsten KPIs](/help/implement/review/define-kpis.md)
