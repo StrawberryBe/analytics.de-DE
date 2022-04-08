@@ -4,9 +4,9 @@ title: Ausstehende Aktionen
 feature: Company Settings
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
