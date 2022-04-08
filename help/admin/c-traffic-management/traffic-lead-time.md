@@ -4,7 +4,7 @@ title: Erforderliche Vorlaufzeit für Traffic-Zunahme
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Die Zuordnung von Hardware wird durch Warnhinweise gesteuert, die über die Benu
 
 >[!IMPORTANT]
 >
->Adobe kann keine Traffic-Änderungsanforderungen für „Platzhalter“ berücksichtigen. Sofern nicht anders angegeben, halten Sie die vorgeschlagene Vorlaufzeit so gut wie möglich ein. Senden Sie wenn möglich auch keinen Warnhinweis zu früh. Siehe [Planen von Traffic-Spitzen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) oder [Angeben einer dauerhaften Traffic-Zunahme](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>Adobe kann keine Traffic-Änderungsanfragen für „Platzhalter“ berücksichtigen. Sofern nicht anders angegeben, halten Sie die vorgeschlagene Vorlaufzeit so gut wie möglich ein. Senden Sie wenn möglich auch keinen Warnhinweis zu früh. Siehe [Planen von Traffic-Spitzen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) oder [Angeben einer dauerhaften Traffic-Zunahme](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Verkehrswarnhinweis übermitteln müssen:
 
@@ -34,7 +34,7 @@ Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Ve
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Bis zu 1,000,000 </td>
+   <td colname="col1"> Bis zu 1.000.000 </td>
    <td colname="col2"> Keine Vorlaufzeit notwendig </td>
    <td colname="col3"> Keine Vorlaufzeit notwendig </td>
   </tr>
