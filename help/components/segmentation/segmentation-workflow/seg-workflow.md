@@ -4,7 +4,7 @@ title: Übersicht über den Segmentierungs-Workflow
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Sie können Segmente direkt in einem Bericht auf der Segmentleiste (Segmente anz
 
 Geben Sie Ihre Segmente für die gewünschte Zielgruppe in anderen Analytics-Werkzeugen und in Adobe Target und der Adobe Experience Cloud frei.
 
-![](assets/step7_icon.png) [ Segmente filtern](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+![](assets/step7_icon.png) [ Filtern von Segmenten](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
 
 Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“).
 
