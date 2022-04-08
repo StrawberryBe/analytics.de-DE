@@ -5,7 +5,7 @@ feature: Report Suite Settings
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die An
 | Umsatz | Zähler | `purchase` |
 | Bestellungen | Zähler | `purchase` |
 | Einheiten | Zähler | `purchase` |
-| Warenkorb | Zähler | `scOpen` |
+| Warenkörbe | Zähler | `scOpen` |
 | Warenkorbansichten | Zähler | `scView` |
 | Instanzen | Zähler | nicht angegeben |
 | Checkouts | Zähler | `scCheckout` |
