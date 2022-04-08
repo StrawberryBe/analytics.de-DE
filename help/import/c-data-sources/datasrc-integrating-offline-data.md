@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Data Sources bietet zwei zusätzliche Möglichkeiten, um Ereignisse, die offline
 
 Diese Integrationen ordnen Offline-Daten einer bestimmten Online-Transaktion oder einem Online-Besucher zu.
 
-## Transaktions-ID-Aufzeichnung aktivieren {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
+## Aktivieren der Aufzeichnung einer Transaktions-ID {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
 
 Die Transaktions-ID kann von der Benutzeroberfläche aus aktiviert/deaktiviert werden, ohne dass ClientCare miteinbezogen werden muss.
 
@@ -38,7 +38,7 @@ Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Repo
 
  -->
 
-Um zu sehen, ob die Transaktions-ID-Aufzeichnung aktiviert ist, navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
+Um festzustellen, ob die Aufzeichnung von Transaktions-IDs aktiviert ist, navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ Mithilfe von Transaktions-IDs können Sie den Status eines Besuchers zu einem be
 
 Der Wechsel von der Online- in die Offline-Umgebung verläuft oftmals anonym.
 
-Transaktions-ID-Ereignisse sind nicht in den Metriken zum Besuchsbeitrag enthalten (diejenigen, die in den Marketing-Berichten angezeigt werden). Dies liegt daran, dass die Transaktions-ID-Daten nicht mit einem Besuch verknüpft sind (da das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verknüpft sind.
+Transaktions-ID-Ereignisse sind nicht in Besuchsbeitragsmetriken enthalten (die in Marketing-Berichten angezeigt werden). Der Grund hierfür besteht darin, dass die Transaktions-ID-Daten nicht mit einem Besuch verbunden sind (weil das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher. 
 
 Siehe [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
