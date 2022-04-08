@@ -4,7 +4,7 @@ title: Übersicht zur Nutzung von Server-Aufrufen
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Analytics-Administratoren erhalten automatisch die Berechtigung zur Nutzung von 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Melden Sie sich bei login.experiencecloud.adobe.com an.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Klicken Sie auf <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigieren Sie zu <span class="ignoretag"><span class="uicontrol"> Produkte</span> &gt; <span class="uicontrol">Produktprofil</span> &gt; <span class="uicontrol">Berechtigungen</span> &gt; <span class="uicontrol">Analytics-Tools</span> &gt; <span class="uicontrol">Nutzung der Server-Aufrufe</span></span>. </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigieren Sie zu <span class="ignoretag"> <span class="uicontrol"> Produkte</span> &gt; <span class="uicontrol">Produktprofil</span> &gt; <span class="uicontrol">Berechtigungen</span> &gt; <span class="uicontrol">Analytics-Tools</span> &gt; <span class="uicontrol">Nutzung der Server-Aufrufe</span></span>. </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
