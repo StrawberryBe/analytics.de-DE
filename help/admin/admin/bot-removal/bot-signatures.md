@@ -4,7 +4,7 @@ description: Erkennen Sie die üblichen Kennungen von Bots.
 feature: Bot Removal
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Während die Identifizierung von Bots in einem Datensatz je nach Umgebung unters
 
 ## Hohe Anzahl an Seitenansichten pro Besuch
 
-Sie können einen Data Warehouse-Bericht mit IP-Adresse, Ansichten und Unique Visitors abrufen.&quot; Erstellen Sie dann in Excel eine Berechnung für Seitenaufrufe pro Besuch und sortieren Sie vom höchsten zum niedrigsten Wert. Bots haben in der Regel eine sehr hohe Anzahl von Seitenansichten pro Besuch (mehrere Hundert bis Tausende). Wenn Sie sich dem tatsächlichen realen Traffic nähern, werden Sie einen starken Rückgang feststellen.
+Sie können einen Data Warehouse-Bericht mit IP-Adresse, Ansichten und Unique Visitors abrufen. Erstellen Sie dann in Excel eine Berechnung für Seitenaufrufe pro Besuch und sortieren Sie vom höchsten zum niedrigsten Wert. Bots haben in der Regel eine sehr hohe Anzahl von Seitenansichten pro Besuch (mehrere Hundert bis Tausende). Wenn Sie sich dem tatsächlichen realen Traffic nähern, werden Sie einen starken Rückgang feststellen.
 
 ## Keine verweisende Stelle
 
@@ -32,7 +32,7 @@ Wir wollen das großartige Open-Source-Betriebssystem Linux nicht diskreditieren
 
 ## Seitenansichten = Besuche = Individuelle Besucher
 
-Dies gilt insbesondere für den Benutzeragenten-Bericht. Wie Sie im folgenden Screenshot sehen können, hat die „unbekannte Version“ dieser Browser fast dieselbe Anzahl von Besuchern wie Unique Visitors (und fast dieselbe Anzahl von Seitenansichten).&quot; Dies kann in der Segmentierung isoliert werden, indem ein [!UICONTROL Include]-Container für `Single Page Visits equals Enabled` oder `Hit Depth is less than 2` erstellt wird.
+Dies gilt insbesondere für den Benutzeragenten-Bericht. Wie Sie im folgenden Screenshot sehen können, hat die „unbekannte Version“ dieser Browser fast dieselbe Anzahl von Besuchern wie Unique Visitors (und fast dieselbe Anzahl von Seitenansichten). Dies kann in der Segmentierung isoliert werden, indem ein [!UICONTROL Include]-Container für `Single Page Visits equals Enabled` oder `Hit Depth is less than 2` erstellt wird.
 
 ![](assets/bots-browsers-unknown.png)
 
