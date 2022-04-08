@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berich
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1578'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Berichte zu Quellen und Medien zeigen die Domänen an, die den Traffic zu Ihrer 
 
 Weitere Informationen zu den jeweiligen Dimensionen finden Sie auf den folgenden Seiten im Benutzerhandbuch zu Komponenten:
 
-* [Referrer-Domäne](/help/components/dimensions/referring-domain.md)
+* [Referrer-Domain](/help/components/dimensions/referring-domain.md)
 * [Referrer-Typ](/help/components/dimensions/referrer-type.md)
 * [Suchbegriff](/help/components/dimensions/search-keyword.md)
 
