@@ -4,13 +4,13 @@ description: Erfahren Sie, wie Sie einen einfachen Bericht in Analysis Workspace
 feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
 ---
 
-# Basisbericht in Analysis Workspace für GA-Anwender erstellen
+# Erstellen eines Basisberichts in Analysis Workspace für GA-Anwender
 
 Analysis Workspace (eine der Hauptfunktionen in Adobe Analytics) bietet Anwendern einen leistungsstarken Bereich, um Einblicke in erfasste Daten zu erhalten. Das Reporting in Adobe Analytics unterscheidet sich stark von Google Analytics:
 
@@ -59,7 +59,7 @@ Erstellen Sie die Vorlage für Content-Verbrauch (ähnlich dem Bericht „Alle S
 
 Da Analysis Workspace ein Berichtswerkzeug ist, hat dies keine Auswirkungen auf die Datenerfassung. Komponenten wahllos in ein Projekt zu ziehen, um zu sehen, was funktioniert, hat keine weiteren Folgen. Ziehen Sie verschiedene Kombinationen von Dimensionen und Metriken in Ihr Workspace-Projekt, um zu sehen, welche Möglichkeiten Sie haben.
 
-Wenn Sie versehentlich eine ungültige Komponente in Ihr Workspace-Projekt ziehen oder einen Schritt zurückgehen möchten, drücken Sie Strg+Z (Windows) oder Befehl+Z (Mac), um die letzte durchgeführte Aktion rückgängig zu machen. Sie können auch mit einem leeren Arbeitsbereich beginnen, indem Sie im Menü oben links auf *[!UICONTROL Projekt] > [!UICONTROL Neu]* klicken.
+Wenn Sie versehentlich eine ungültige Komponente in Ihr Workspace-Projekt ziehen oder einen Schritt zurückgehen möchten, drücken Sie Strg + Z (Windows) oder Befehl + Z (Mac), um die letzte durchgeführte Aktion rückgängig zu machen. Sie können auch mit einem leeren Arbeitsbereich beginnen, indem Sie im Menü oben links auf *[!UICONTROL Projekt] > [!UICONTROL Neu]* klicken.
 
 In Analysis Workspace finden sich in den Kontextmenüs, die sich über die rechte Maustaste aufrufen lassen, eine Menge nützlicher Funktionen. Die meisten Visualisierungen und Komponenten können mit der rechten Maustaste angeklickt werden, um eine detailliertere Analyse und Interaktion zu erhalten. Wenn Sie mit der rechten Maustaste auf Komponenten in Ihrem Arbeitsbereich klicken, sehen Sie, welche Optionen verfügbar sind.
 
