@@ -4,7 +4,7 @@ description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzu
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Seitendomäne und Pfad | Die Domain und der Pfad, z. B. `products.example.co.uk/mens/pants/overview.html`. |
 | Stammdomäne der Seite (TLD+1) | Die Stammdomäne der Seite, auf der der Besucher landet, z. B. example.co.uk. |
 | Seiten-URL | Die URL einer Webseite auf Ihrer Site. |
-| Referrer-Domäne | Die Domain, von der Ihre Besucher kamen, als sie Ihre Site aufriefen; Referrer können z. B. `abcsite.com` oder `xyzsite.com` sein. |
+| Referrer-Domain | Die Domain, von der Ihre Besucher kamen, als sie Ihre Site aufriefen; Referrer können z. B. `abcsite.com` oder `xyzsite.com` sein. |
 | Abfragezeichenfolgenparameter | Wenn die Seiten-URL Ihrer Site beispielsweise `https://example.com/?page=12345&cat=1` lautet, sind sowohl „page“ als auch „cat“ Parameter der Abfragezeichenfolge. (Siehe `https://en.wikipedia.org/wiki/Query_string`.)  Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter `ANY` als Operator und fügen Sie dann der Regel neue Abfragezeichenfolgenparameter hinzu. Bei Parametern der Abfragezeichenfolge wird nicht zwischen Groß- und Kleinschreibung unterschieden. Beispielsweise werden „cat“ und „CAT“ gleich bewertet. |
 | Referrer | Die Webseite (volle URL), auf der sich Besucher befanden, bevor sie zu Ihrer Site kamen. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domain. |
 | Verweisende Domain und Pfad | Eine Verkettung aus verweisender Domain und URL-Pfad. Beispiele sind: `www.example.com/products/id/12345` oder `ad.example.com/foo` |
@@ -104,7 +104,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Suchmaschine + Keywords | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie z. B. nach dem Begriff „computer“ suchen, werden die Suchmaschine und Keyword wie folgt identifiziert:  `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:** „n“ = kostenlos; „p“ = gebührenpflichtig |
 | Den Kanalwert setzen auf | Neben der Erkenntnis, welche Marketing-Kanäle einen Besucher zu Ihrer Site führen, ist es auch von Interesse, welche Bannerwerbung, welches Keyword und welche E-Mail-Kampagne in dem Kanal die Gutschrift für die Site-Aktivität des Besuchers erhält. Diese ID ist ein Kanalwert, der mit dem Kanal gespeichert wird. Häufig handelt es sich dabei um eine Kampagnen-ID, die in die Landingpage oder die verweisende URL integriert ist. In anderen Fällen ist es eine Kombination aus Suchmaschine und Keyword oder die verweisende URL, die den Besucher aus einem bestimmten Kanal am genauesten identifiziert. |
 
-## Reihenfolge von Marketing-Kanalregeln und Definitionen {#channel-rules}
+## Reihenfolge der Regeln und Definitionen für Marketing-Kanäle {#channel-rules}
 
 Kanalregeln werden in der angegebenen Reihenfolge verarbeitet. Ein empfohlener Ansatz für die Kanalreihenfolge besteht darin, bezahlte oder verwaltete Kanäle zuerst zu platzieren (z. B. Paid Search, natürliche Suche, Display, E-Mail), damit sie Gutschriften erhalten, gefolgt von organischen Kanälen (z. B. direkte, interne, Referrer-Domänen).
 
@@ -114,7 +114,7 @@ Nachfolgend finden Sie die empfohlene Reihenfolge für Kanalregeln und Beispield
 
 Paid Search ist ein Begriff oder eine Wortgruppe, die auf Bezahlung von der Suchmaschine in die Suchergebnisse gesetzt wird. Dieser Kanal wird in der Regel auf der Grundlage von Abfragezeichenfolgenparametern (siehe das Beispiel für einen Anzeige-Kanal) oder Regeln der gebührenpflichtige Sucherkennung definiert. Die Entscheidung hängt von den Details des Marketing-Kanals ab, den Sie aufzeichnen möchten.
 
-#### Erkennung von Paid Search
+#### Paid-Search-Erkennung
 
 Zum Erfüllen der Erkennungsregeln von Paid Search verwendet der Marketing-Kanal die auf der Seite [!UICONTROL Gebührenpflichtige Sucherkennung] konfigurierten Einstellungen. (**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Gebührenpflichtige Sucherkennung]**). Die Ziel-URL stimmt mit der vorhandenen gebührenpflichtigen Sucherkennungsregel für die betreffende Suchmaschine überein.
 
@@ -128,7 +128,7 @@ Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https
 
 Bei einer natürlichen Suche finden Besucher Ihre Website durch eine Web-Suche, bei der die Suchmaschine Ihre Website aufführt, ohne dass Sie dafür Gebühren entrichten müssen.
 
-Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Weitere Informationen finden Sie unter [Paid-Search-Erkennung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
+Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Weitere Informationen finden Sie unter [Paid-Search-Erkennung](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=de) in „Admin“.
 
 Die kostenlosen Sucheinstellungen für die Marketing-Kanalregel lauten wie folgt:
 
@@ -178,7 +178,7 @@ Diese Regel identifiziert Besucher, die über keine Referrer-Domäne verfügen. 
 
 ![](assets/example_direct.png)
 
-### Kanal „Referrer-Domänen“  {#referring-domains}
+### Kanal „Referrer Domains“  {#referring-domains}
 
 Der Kanal „Referrer-Domänen“ identifiziert Besucher mit einer Referrer-Domäne. Gemeinsam fungieren die Kanäle „Intern“, „Direkt“ und „Referrer-Domänen“ als Sammelstelle für alle verbleibenden Treffer, die noch nicht in einen Kanal kategorisiert wurden.
 
