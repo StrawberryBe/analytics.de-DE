@@ -4,7 +4,7 @@ title: Konfiguration von Echtzeitberichten
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Konfiguration von Echtzeitberichten
 
-Administrative Schritte zum Einrichten von Echtzeit-Berichten.
+Administrative Schritte zum Einrichten von Echtzeitberichten.
 
 Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen Sie die Report Suite aus und konfigurieren Sie bis zu drei Berichte.
 
