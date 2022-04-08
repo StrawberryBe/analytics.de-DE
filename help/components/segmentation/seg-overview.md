@@ -4,7 +4,7 @@ title: Segmente und Container
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3705'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ Segmente können auf folgenden Werten basieren:
 * Auf Exits und Entries basierende Besucher: Besucher von Facebook, einer bestimmten Landingpage, Referrerdomäne.
 * Auf benutzerdefinierten Variablen basierende Benutzer: Formularfeld, definierte Kategorien, Kunden-ID.
 
-Beim Erstellen von Zielgruppensegmenten in Segment Builder definieren Sie Bedingungen, für die Sie zwischen den Containern die Operatoren [!UICONTROL UND] und [!UICONTROL ODER] verwenden.
+Beim Erstellen von Zielgruppensegmenten in Segment Builder definieren Sie Bedingungen, für die Sie zwischen den Containern die Operatoren [!UICONTROL AND] und [!UICONTROL OR] verwenden.
 
 ![](assets/standard_segment_containers.png)
 
-Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL UND] und [!UICONTROL ODER] verbunden werden.
+Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL AND] und [!UICONTROL OR] verbunden werden.
 
 ## Sequenzielle Segmente {#section_EE5B14287FC44E0B96E77679A2438948}
 
@@ -132,7 +132,7 @@ Sie können die Verschachtelung zwischen Containern sowie zwischen Regeln in ein
 
 **Mehrere Container in eine einzelne Definition einbeziehen**
 
-Indem Sie mehrere Segmente in ein neues verbundenes Segment einbeziehen, können Sie Ihre Daten sogar noch weiter verfeinern. Das Zusammenziehen von zwei vorhandenen Segmenten agiert beim Filtern der Besucher als ODER-Anweisung. Alle Container auf der Arbeitsfläche werden gegen alle Daten geprüft und alle Daten, die mit einem der Container übereinstimmen, werden in den Bericht einbezogen.
+Indem Sie mehrere Segmente in ein neues verbundenes Segment einbeziehen, können Sie Ihre Daten sogar noch weiter verfeinern. Das Zusammenziehen von zwei vorhandenen Segmenten agiert beim Filtern der Besucher als OR-Anweisung. Alle Container auf der Arbeitsfläche werden gegen alle Daten geprüft und alle Daten, die mit einem der Container übereinstimmen, werden in den Bericht einbezogen.
 
 Wenn Sie z. B. einen Besuchs-Container, in dem gilt „Land = Vereinigte Staaten“ mit einem Besuchs-Container zusammenziehen, in dem „Auftrag = Wahr“ ist,
 
