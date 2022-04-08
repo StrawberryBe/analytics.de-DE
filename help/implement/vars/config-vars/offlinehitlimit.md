@@ -4,7 +4,7 @@ description: Legen Sie die maximale Anzahl von Treffern fest, die zum Offline-Tr
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
 ht-degree: 100%
 
