@@ -4,7 +4,7 @@ title: Klassifizierungsregelsätze
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Die Seite [!UICONTROL Classifications Rule Builder] bietet die nachfolgenden Fel
 
 ## Erstellen eines Klassifizierungsregelsatzes {#create-classification-rule-set}
 
-Benennen Sie den Classification-Regelsatz, wenden Sie die Variable an und legen Sie die Einstellungen für Überschreiben fest.
+Benennen Sie den Klassifizierungsregelsatz, wenden Sie die Variable an und legen Sie die Einstellungen für das Überschreiben fest.
 
 1. (Voraussetzung) Definieren Sie die Classification-Struktur in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
