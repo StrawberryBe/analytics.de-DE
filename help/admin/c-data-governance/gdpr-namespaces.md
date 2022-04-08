@@ -4,9 +4,9 @@ title: Namespaces
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereit
 * ein Feld „type“, das bei den meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält
 * ein Feld „value“, das die ID enthält, nach der Analytics in den zugehörigen Namespace-Variablen all Ihrer Report Suites suchen soll
 
-Weitere Einzelheiten finden Sie in der [Dokumentation der Experience Cloud-Datenschutz-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en).
+Weitere Einzelheiten finden Sie in der [Dokumentation der Experience Cloud-Datenschutz-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de).
 
 ## Cookie-ID
 
