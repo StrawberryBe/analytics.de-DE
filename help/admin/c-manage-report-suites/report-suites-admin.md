@@ -4,7 +4,7 @@ title: Report Suite Manager
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Eine Report Suite definiert die vollständige, unabhängige Berichterstellung ü
 
 >[!NOTE]
 >
->Virtual Report Suites werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der [Dokumentation zur Virtual Report Suite](/help/components/vrs/vrs-about.md).
+>Virtual Report Suites werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der [Dokumentation zu Virtual Report Suites](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager-Beschreibungen {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
