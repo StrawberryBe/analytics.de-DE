@@ -1,11 +1,11 @@
 ---
 description: Die Adobe-FTP-Richtlinie deaktiviert automatisch den Zugriff auf FTP-Konten, die an 90 aufeinanderfolgenden Tagen ungenutzt bleiben.
-keywords: FTP, sFTP
+keywords: ftp;sftp
 title: FTP-Daten und FTP-Konten löschen
 feature: FTP Export
 exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
 ht-degree: 100%
 
