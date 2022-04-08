@@ -4,9 +4,9 @@ title: Verwalten von Traffic
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,6 +16,6 @@ Auf der Seite „Traffic-Management“ können Sie Informationen zu erwarteten �
 
 So rufen Sie [!UICONTROL Trafficmanagement] auf:
 
-1. Klicken **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite.
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic-Management]** > *`<selection>`*.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic-Verwaltung]** > *`<selection>`*.
