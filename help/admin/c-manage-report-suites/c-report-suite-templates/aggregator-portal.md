@@ -4,7 +4,7 @@ title: Aggregatorportal
 feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die An
 | Umsatz | Zähler | `purchase` |
 | Bestellungen | Zähler | `purchase` |
 | Einheiten | Zähler | `purchase` |
-| Warenkorb | Zähler | `scOpen` |
+| Warenkörbe | Zähler | `scOpen` |
 | Warenkorbansichten | Zähler | `scView` |
 | Instanzen | Zähler | nicht angegeben |
 | Checkouts | Zähler | `scCheckout` |
