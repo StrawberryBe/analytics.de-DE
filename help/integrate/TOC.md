@@ -3,19 +3,19 @@ product: analytics
 audience: end-user
 user-guide-title: Integrationsleitfaden für Analytics
 breadcrumb-title: Integrationsleitfaden
-user-guide-description: Konfigurieren Sie Integrationen mit anderen Adobe Experience Cloud-Lösungen wie Audience Manager und Advertising Cloud.
+user-guide-description: Konfiguration von Integrationen mit anderen Adobe Experience Cloud-Lösungen wie Audience Manager und Advertising Cloud.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics-Integrationsleitfaden {#integration}
+# Handbuch für die Adobe Analytics-Integration {#integration}
 
 + [Analytics-Integration](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Audience Analytics {#audience-analytics}
    + [Audience Analytics-Übersicht](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics-Workflow {#audience-analytics-workflow}
@@ -39,7 +39,7 @@ ht-degree: 86%
       + [Problembehebung in Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Häufig gestellte Fragen](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics für Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=de)
-+ [Adobe Analytics für Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
++ [Adobe Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
 + [Adobe Campaign-Reporting in Adobe Analytics](adobe-campaign.md)
 + [Integration von Adobe Analytics-Daten mit Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Berichterstellung für AEM Assets](aem-assets-reporting.md)
