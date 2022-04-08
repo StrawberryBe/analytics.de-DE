@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
@@ -37,10 +37,10 @@ Weitere Informationen finden Sie im Thema über das [Integrieren von Offline-Dat
 | Spaltenname | Beschreibung |
 | --- | --- |
 | [!UICONTROL Clickthroughs] | Anzahl der Trackingcode-Ansichten. |
-| [!UICONTROL Hinzufügen zum Einkaufswagen] | Anzahl der Zusätze zum Einkaufswagen. |
-| [!UICONTROL Öffnung des Einkaufswagens] | Anzahl der Öffnungen des Einkaufswagens. |
-| [!UICONTROL Entnahmen aus dem Einkaufswagen] | Anzahl der Entnahmen aus dem Einkaufswagen. |
-| [!UICONTROL Warenkorbansicht] | Anzahl der Einkaufswagenansichten. |
+| [!UICONTROL Hinzufügen zum Einkaufswagen] | Anzahl der Hinzufügungen zum Warenkorb. |
+| [!UICONTROL Öffnung des Einkaufswagens] | Anzahl der Öffnungen des Warenkorbs. |
+| [!UICONTROL Entnahmen aus dem Einkaufswagen] | Anzahl der Entfernungen aus dem Warenkorb. |
+| [!UICONTROL Warenkorbansicht] | Anzahl der Ansichten des Warenkorbs. |
 | [!UICONTROL Checkouts] | Anzahl der Kassengänge. |
 | [!UICONTROL Ereignis ]*n* | Häufigkeit, in der Ereignis *n* eintritt. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie ein [!UICONTROL Ansicht]ereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
 | [!UICONTROL eVar ]*n*-Ansichten | Häufigkeit, in der eVar *n* angezeigt wurde. Gültige Werte für *n* sind Ganzzahlen zwischen 1 und 75. |
