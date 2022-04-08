@@ -4,9 +4,9 @@ title: Best Practices für Beschriftungen
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2698'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Anhand dieser Tabelle können Sie die ID-Typen bestimmen, mit deren Hilfe Sie Da
    <td colname="col1"> <p>Cookie-IDs </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=de">Analytics-Cookie (Legacy)</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de">Identity Service Cookie</a> (ECID), zuvor als Marketing Cloud ID (MCID) bezeichnet </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de">Identity Service-Cookie</a> (ECID), zuvor als Marketing Cloud ID (MCID) bezeichnet </li> 
     </ul> </td> 
    <td colname="col2"> <p>Diese Cookies identifizieren ein Gerät oder genauer gesagt einen Browser für einen Benutzer eines Geräts. Auf einem gemeinsam genutzten Gerät, auf dem ein allgemeiner Login verwendet wird, kann diese ID für mehrere/alle Benutzer des Geräts gelten. Adobe hat <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> einheitlichen JavaScript-Code</a> entwickelt, den Sie in Ihre Website einfügen können, um diese Cookies zu erfassen, sofern Sie sie für Datenschutzanfragen zulassen möchten. </p> <p>Benutzer des mobilen Adobe Analytics-SDK verfügen auch über eine Experience Cloud ID (ECID). Im SDK sind API-Aufrufe enthalten, die diese ID auslesen. So können Sie Ihre App so erweitern, dass sie die ID für Datenschutzanfragen erfasst. </p> <p>Viele Unternehmen behandeln Browsercookie-IDs wie IDs gemeinsam genutzter Geräte. Dementsprechend unterstützen sie in Absprache mit ihren Rechtsabteilungen diese IDs möglicherweise nicht als zulässige IDs für Datenschutzanfragen, geben nur begrenzte Daten zurück, wenn diese IDs verwendet werden, oder akzeptieren sie nur für Löschanfragen. </p> <p>Diese Cookies verfügen über eine ID-DEVICE-Beschriftung, die nicht geändert werden kann (sowie die Beschriftungen „I2“ und „DEL-DEVICE“). Die standardmäßige Adobe Analytics-Konfiguration gibt nur allgemeine Informationen zum Gerät, wie z. B. Gerätetyp, Betriebssystem, Browser usw., sowie Uhrzeit und Datum des Besuchs unter Verwendung dieser IDs zurück. Wenn Sie diese IDs jedoch wie unten erläutert für Datenschutzanfragen unterstützen möchten, können Sie ACC-ALL-Beschriftungen hinzufügen oder entfernen, um genau die Felder zu konfigurieren, die bei einer Datenschutz-Zugriffsanfrage zurückgegeben werden sollen. </p> <p>Insbesondere wenn die Report Suite zu einer Mobile App gehört und Ihre Mobile App eine Anmeldung erfordert, gehen Sie möglicherweise davon aus, dass die Experience Cloud ID für das Gerät mit einem bestimmten Benutzer verknüpft ist, und versehen deshalb mehr Felder mit der ACC-ALL-Beschriftung, einschließlich der Namen der besuchten Seiten, aufgerufener Produkte usw. </p> <p>Hinweis: Wenn Sie die Option „expandIds“ in Ihrer Datenschutzanfrage angeben, enthalten Ihre Anfragen zusätzlich zu den anderen von Ihnen angegebenen IDs immer Cookie-IDs. Weitere Informationen finden Sie unter <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID-Erweiterung</a>. In diesen Instanzen geben Treffer, die außer einer Cookie-ID keine weiteren IDs aufweisen, im Rahmen der Zugriffsanfragen nur mit ACC-ALL beschriftete Daten zurück. </p> </td> 
   </tr> 
