@@ -1,12 +1,12 @@
 ---
-description: Data Sources unterstützt die folgenden Konversion-Datendimensionen und -Metriken für Datentypen, die als Konversion verarbeitet werden.
+description: Datenquellen unterstützen die folgenden Konversions-Datendimensionen und -Metriken für Datentypen, die als Konversion verarbeitet werden.
 subtopic: Data sources
 title: Konversion
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Konversion
 
-Data Sources unterstützt die folgenden Konversion-Datendimensionen und -Metriken für Datentypen, die als Konversion verarbeitet werden.
+Datenquellen unterstützen die folgenden Konversions-Datendimensionen und -Metriken für Datentypen, die als Konversion verarbeitet werden.
 
 ## Konversion-Dimensionen und -Metriken  {#section_FA1731B232B246DABEDF5A5D84159084}
 
@@ -37,11 +37,11 @@ Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Daten
 
 | Spaltenname | Beschreibung |
 |--- |--- |
-| Clickthroughs | Anzahl der Trackingcode-Ansichten. |
-| Hinzufügen zum Einkaufswagen | Anzahl der Zusätze zum Einkaufswagen. |
-| Öffnung des Einkaufswagens | Anzahl der Öffnungen des Einkaufswagens. |
-| Entnahmen aus dem Einkaufswagen | Anzahl der Entnahmen aus dem Einkaufswagen. |
-| Warenkorbansichten | Anzahl der Einkaufswagenansichten. |
+| Durchklickrate | Anzahl der Trackingcode-Ansichten. |
+| Hinzufügungen zum Warenkorb | Anzahl der Hinzufügungen zum Warenkorb. |
+| Öffnungen des Warenkorbs | Anzahl der Öffnungen des Warenkorbs. |
+| Entfernungen aus dem Warenkorb | Anzahl der Entfernungen aus dem Warenkorb. |
+| Warenkorbansichten | Anzahl der Ansichten des Warenkorbs. |
 | Checkouts | Anzahl der Kassengänge. |
 | Ereignis n | Häufigkeit, in der Ereignis n eintritt. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
 | eVarn-Ansichten | Häufigkeit, in der eVar n angezeigt wurde. Gültige Werte für n sind Ganzzahlen zwischen 1 und 250. |
