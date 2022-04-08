@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu g
 | Datenquelle | Verarbeitungstyp | Beschreibung |
 | --- | --- | --- |
 | [!UICONTROL Generische Datenquelle (nur Zusammenfassungsdaten)] | [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Verwenden Sie diese Datenquelle, wenn es keine bessere Entsprechung für den Datentyp gibt, den Sie in Marketing Reports &amp; Analysen importieren möchten. |
-| [!UICONTROL Generische Datenquelle (volle Verarbeitung)] | Vollständige Verarbeitung | Adobe hat Datenquellen mit vollständiger Verarbeitung am 31. Januar 2022 als veraltet markiert. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe empfiehlt, stattdessen die [Bulk Data Insertion API (BDIA](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=de) zu verwenden. |
+| [!UICONTROL Generische Datenquelle (volle Verarbeitung)] | Vollständige Verarbeitung | Adobe hat Datenquellen mit vollständiger Verarbeitung am 31. Januar 2022 als veraltet markiert. [Weitere Infos](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe empfiehlt, stattdessen die [Bulk Data Insertion API (BDIA](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) zu verwenden. |
 | [!UICONTROL Generische Datenquelle (Transaktions-ID)] | <ul><li>Transaktions-ID</li><li>Besucher-ID</li></ul> | Ermöglicht es Ihnen, ein Offline-Ereignis mit einem Online-Ereignis zu verbinden. Die [!UICONTROL Transaktions-ID] dient als Schlüssel zwischen Offline- und Online-Ereignissen. |
 
 ## Online-Käufe {#purchases}
