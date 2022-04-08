@@ -1,23 +1,23 @@
 ---
 description: Wenn Sie einen Bericht planen, können Sie eine Veröffentlichungsliste auswählen, die für die Verteilung verwendet werden soll.
-title: Veröffentlichungsliste darf außer Kraft gesetzt werden
+title: Zulassen von Überschreibungen der Veröffentlichungsliste
 feature: Report Builder
 role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Veröffentlichungsliste darf außer Kraft gesetzt werden
+# Zulassen von Überschreibungen der Veröffentlichungsliste
 
 Wenn Sie einen Bericht planen, können Sie eine Veröffentlichungsliste auswählen, die für die Verteilung verwendet werden soll.
 
 Veröffentlichungslisten werden in den Admin Tools von Analytics eingerichtet.
 
-Siehe [Veröffentlichungslisten-Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html) in der Analytics-Referenz.
+Siehe [Veröffentlichungslisten-Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html?lang=de) in der Analytics-Referenz.
 
 Um diese Funktion zu aktivieren, navigieren Sie zum Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1].
 
