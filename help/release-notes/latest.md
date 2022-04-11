@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 14881de9527796430f13199a6fc5d06452a94a60
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1138'
 ht-degree: 47%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (März 2022)
 
-**Zuletzt aktualisiert: 6. April 2022**
+**Zuletzt aktualisiert: 31. März 2022**
 
 * Versionshinweise für Februar 2022 finden Sie unter [here](/help/release-notes/2022.md).
 * Versionshinweise zu Customer Journey Analytics finden Sie unter [here](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=de)
@@ -21,14 +21,12 @@ ht-degree: 47%
 
 ## Neue Funktionen in Adobe Analytics {#aa-features}
 
-**Zuletzt aktualisiert: 6. April 2022**
-
 | Funktion | Beschreibung | [Zieldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Anmerkungen in Workspace | Mit Anmerkungen in Workspace können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv kommunizieren. [Weitere Informationen](/help/analyze/analysis-workspace/components/annotations/overview.md) | Die schrittweise Einführung beginnt am 23. März 2022. Allgemeine Verfügbarkeit: 11. April 2022 |
 | Aktualisierungen der Adobe Analytics-Landingpage | Aktualisierungen der gemeinsamen Landingpage für Workspace/Reports &amp; Analytics, die die Benutzerfreundlichkeit und die einfache Navigation verbessern. [Weitere Informationen](/help/analyze/landing.md) | 1. April 2022 |
-| [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] Arbeitsbereich | Die [!UICONTROL Nächstes oder vorheriges Element] -Bedienfeld können Sie Elemente untersuchen, die einem Dimensionselement Ihrer Wahl folgen oder diesem vorausgehen. Verwenden Sie sie beispielsweise, wenn Sie die nächsten oder vorherigen Seiten zu einer bestimmten Produktseite, einem Marketingkanal oder sogar Gerätetyp anzeigen möchten. Dieses Bedienfeld geht über die alte nächste/vorherige Berichterstellung hinaus, da es Ihnen ermöglicht, eine beliebige Dimension anzuzeigen und keine neue Implementierung erforderlich ist, um Einblicke zu erhalten. | 20. April 2022 |
-| [!UICONTROL Seitenzusammenfassung] Arbeitsbereich | Die [!UICONTROL Seitenzusammenfassung] -Bedienfeld bietet eine Tiefenanalyse für eine Seite Ihrer Wahl. Sie enthält dieselben Details wie die alten Reports &amp; Analytics-Versionen. [!UICONTROL Seitenzusammenfassung] und vieles mehr. | 20. April 2022 |
+| [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] Arbeitsbereich | Die [!UICONTROL Nächstes oder vorheriges Element] -Bedienfeld können Sie Elemente untersuchen, die einem Dimensionselement Ihrer Wahl folgen oder diesem vorausgehen. Verwenden Sie sie beispielsweise, wenn Sie die nächsten oder vorherigen Seiten zu einer bestimmten Produktseite, einem Marketingkanal oder sogar Gerätetyp anzeigen möchten. Dieses Bedienfeld geht über die alte nächste/vorherige Berichterstellung hinaus, da es Ihnen ermöglicht, eine beliebige Dimension anzuzeigen und keine neue Implementierung erforderlich ist, um Einblicke zu erhalten. | 1. April 2022 |
+| [!UICONTROL Seitenzusammenfassung] Arbeitsbereich | Die [!UICONTROL Seitenzusammenfassung] -Bedienfeld bietet eine Tiefenanalyse für eine Seite Ihrer Wahl. Sie enthält dieselben Details wie die alten Reports &amp; Analytics-Versionen. [!UICONTROL Seitenzusammenfassung] und vieles mehr. | 1. April 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 

@@ -4,10 +4,10 @@ description: Erstellen von Anmerkungen in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die schrittweise Einführung dieser Funktion beginnt am 23. März 2022. General Availability: April 11, 2022.
+>Die schrittweise Einführung dieser Funktion beginnt am 23. März 2022. Allgemeine Verfügbarkeit: 11. April 2022.
 
 1. Um Anmerkungen zu erstellen, haben Sie verschiedene Möglichkeiten zur Verfügung:
 
@@ -26,7 +26,6 @@ ht-degree: 0%
 | **Klicken Sie mit der rechten Maustaste auf einen Punkt in einem [!UICONTROL Linien] diagramm.** | Der [!UICONTROL Anmerkungsgenerator] wird geöffnet. Beachten Sie, dass die auf diese Weise erstellten Anmerkungen standardmäßig nur in dem Projekt sichtbar sind, in dem sie erstellt wurden. Sie können sie aber für alle Projekte verfügbar machen. Beachten Sie, dass das Datum und ggf. Metriken usw. bereits ausgefüllt sind.<p>![](assets/annotate-line.png) |
 | **Wechseln Sie in Workspace zu [!UICONTROL Komponenten] > [!UICONTROL Anmerkung erstellen].** | Der [!UICONTROL Anmerkungsgenerator] wird geöffnet. |
 | **Verwenden Sie dieses Tastenkürzel**, um den Anmerkungsgenerator zu öffnen: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Beachten Sie, dass Sie durch Verwendung des Tastenkürzels zur Erstellung einer Anmerkung eine eintägige Anmerkung für das aktuelle Datum ohne einen vorab ausgewählten Bereich (Kennzahlen oder Dimensionen) erstellen. |
-| **Verwenden Sie die [2.0 API für Anmerkungen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | Mit den Analytics 2.0-APIs für Anmerkungen können Sie Anmerkungen programmgesteuert über Adobe I/O erstellen, aktualisieren oder abrufen. Diese APIs verwenden dieselben Daten und Methoden, die Adobe innerhalb der Produktoberfläche verwendet. |
 
 1. Füllen Sie die Elemente des [!UICONTROL Anmerkungsgenerators] aus.
 
@@ -34,7 +33,7 @@ ht-degree: 0%
 
    | Element | Beschreibung |
    | --- | --- |
-   | [!UICONTROL Project-only Annotation] | Standardmäßig gilt die Anmerkung für das aktuelle Projekt. Wenn Sie dieses Kontrollkästchen aktivieren, können Sie die Anmerkung für alle Projekte verfügbar machen, deren Inhaber Sie sind.<p> ![](assets/project-only.png) |
+   | [!UICONTROL Schreibgeschützte Anmerkungen] | Standardmäßig gilt die Anmerkung für das aktuelle Projekt. Wenn Sie dieses Kontrollkästchen aktivieren, können Sie die Anmerkung für alle Projekte verfügbar machen, deren Inhaber Sie sind.<p> ![](assets/project-only.png) |
    | [!UICONTROL Titel] | Benennen Sie die Anmerkung, z. B. „Gedenktag“ |
    | [!UICONTROL Beschreibung] | (Optional) Geben Sie eine Beschreibung für die Anmerkung ein, z. B. „Feiertage in den USA“. |
    | [!UICONTROL Tags] | (Optional) Organisieren Sie Anmerkungen, indem Sie ein Tag erstellen oder anwenden. |
