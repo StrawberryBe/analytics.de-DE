@@ -4,8 +4,8 @@ title: Manager für geplante Aufgaben
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Im [!UICONTROL Manager für geplante Aufgaben] finden Sie eine Liste mit den vor
 
 ## Anhalten älterer geplanter Aufgaben
 
-**Wirksam ab 15. April 2022**. Adobe beabsichtigt, alle geplanten Report Builder-Aufgaben, die vor mehr als zwei Jahren erstellt wurden, anzuhalten. Diese Pause gilt insbesondere für **vor dem 31. Januar 2020 erstellte Aufgaben**. Es werden keine Aufgaben, Arbeitsmappen oder Daten gelöscht. Aufgaben, die älter als zwei Jahre sind, werden angehalten und es werden keine weiteren geplanten Aufgaben gesendet.
+**Mit Wirkung zum 21. April 2022** beabsichtigt Adobe, alle geplanten Report Builder-Aufgaben, die vor mehr als zwei Jahren erstellt wurden, zu pausieren. Diese Pause gilt insbesondere für **vor dem 31. Januar 2020 erstellte Aufgaben**. Es werden keine Aufgaben, Arbeitsmappen oder Daten gelöscht. Aufgaben, die älter als zwei Jahre sind, werden angehalten und es werden keine weiteren geplanten Aufgaben gesendet.
 
 Alle Aufgaben, die fortgesetzt werden sollen, können reaktiviert werden. Melden Sie sich bei Report Builder an und starten Sie den [!UICONTROL Manager für geplante Aufgaben]. Klicken Sie auf **[!UICONTROL Reaktivieren]** für die geplante Aufgabe, für die Sie den Versand fortsetzen möchten. Die Gültigkeit von reaktivierten Aufgaben beträgt standardmäßig 18 Monate – es sei denn, es wird ein kürzeres Ablaufdatum ausgewählt.
 
