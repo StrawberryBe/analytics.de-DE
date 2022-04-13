@@ -3,10 +3,10 @@ title: Produktansichten
 description: Die Anzahl der Aufrufe der Produktseiten.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 88%
 
 ---
 
@@ -19,4 +19,4 @@ Die Metrik „Produktansichten“ zeigt an, wie oft ein Produkt angezeigt wurde.
 Diese Metrik zählt die Anzahl der Treffer, die mit **einer** der folgenden Aussage übereinstimmen:
 
 * Der Wert `prodView` ist in der [`events`](/help/implement/vars/page-vars/events/events-overview.md)-Variable vorhanden oder
-* Die [`products`](/help/implement/vars/page-vars/products.md)-Variable ist festgelegt, und es gibt keine Warenkorbereignisse in der `events`-Variable. Jedes Ereignis, das nicht benutzerspezifisch ist (`event1` – `event1000`), ist ein Warenkorbereignis.
+* Die [`products`](/help/implement/vars/page-vars/products.md) festgelegt ist und die `events` leer ist.
