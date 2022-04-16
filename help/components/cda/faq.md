@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ Die geräteübergreifende Analyse ruft Identifizierungsvariablen-Dimensionseleme
 
 ## Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse aktiviert werden?
 
-Es können mehrere Report Suites aktiviert werden. Jede zusätzliche Report Suite erhöht jedoch die Bereitstellungszeit, wenn mehrere Report Suites gleichzeitig angefordert werden. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (mit Daten von mehreren Oberflächen wie Desktop-Web, mobilem Web, App usw.).
+Ab dem 1. Mai 2022 ist jede neue Implementierung der geräteübergreifenden Analyse auf maximal drei Report Suite-IDs (RSIDs) pro Kunde beschränkt. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (mit Daten von mehreren Oberflächen wie Desktop-Web, mobilem Web, App usw.)..
 
 ## Wenn meine Experience Cloud-Organisation (auch IMS-Organisation genannt) mehrere Unternehmen in verschiedenen Regionen hat, kann ich dann die geräteübergreifende Analyse für alle Unternehmen aktivieren?
 

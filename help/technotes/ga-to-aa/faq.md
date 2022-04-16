@@ -3,14 +3,14 @@ title: Häufig gestellte Fragen zur Migration nach Adobe Analytics
 description: Erhalten Sie Antworten auf häufig gestellte Fragen, wenn Sie von einer Plattform eines Drittanbieters zu Adobe wechseln.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
-# Häufig gestellte Fragen
+# Häufig gestellte Fragen zur Migration nach Adobe Analytics
 
 **Wie migriere ich meine historischen Daten von meiner Drittanbieterplattform zu Adobe Analytics?**
 

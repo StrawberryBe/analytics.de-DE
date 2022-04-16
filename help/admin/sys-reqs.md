@@ -1,16 +1,16 @@
 ---
-title: Systemanforderungen
+title: Systemanforderungen von Adobe Analytics
 description: Die Systemanforderungen für die Verwendung von Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 92%
 
 ---
 
-# Systemanforderungen
+# Systemanforderungen von Adobe Analytics
 
 Listet die Systemanforderungen zur Verwendung verschiedener Produktlösungen in Adobe Analytics auf.
 
