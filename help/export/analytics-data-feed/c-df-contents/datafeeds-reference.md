@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 591c7af7fe721b94b4da0c1f09f63f88603f9af9
+source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3445'
+ht-degree: 100%
 
 ---
 
@@ -198,7 +198,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `state` | Statusvariable. | varchar(50) |
 | `stats_server` | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
 | `t_time_info` | Lokale Zeit des Besuchers. Das Format ist: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die er derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die er derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
 | `tnt_action` | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die der Treffer qualifiziert ist. | text |
 | `tnt_post_vista` | Wird nicht mehr verwendet. Verwenden Sie stattdessen `post_tnt`. | text |
 | `transactionid` | Eine eindeutige Kennung, bei der später verschiedene Datenpunkte via Datenquellen hochgeladen werden können. Erfasst mithilfe der Variablen [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
