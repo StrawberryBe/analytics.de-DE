@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
+source-git-commit: 0bab340afcffdf337d0ff6bacb0351d744c1d9a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1516'
+ht-degree: 95%
 
 ---
 
@@ -88,4 +88,4 @@ Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den 
 * **Nicht-Merchandising-eVars/reservierte eVars:** Die in einer eVar festgelegten Werte werden aufgrund des Datumsfensters für die Berichtszeitverarbeitung nur dann beibehalten, wenn der Wert innerhalb des Datumsbereichs für die Berichterstellung festgelegt wurde. Zudem können zeitbasierte Abläufe eine Stunde zu früh oder zu spät ablaufen, wenn sich die Persistenz über eine Zeitumstellung erstreckt.
 * **Merchandising-eVars/reservierte eVars:** Siehe oben. Zudem wird bezüglich der Konversionssyntax „Beliebige Treffer“ verwendet, wenn die Bindung auf „Beliebiges Ereignis“ festgelegt ist.
 * **Treffertyp:** Diese Dimension gibt an, ob es sich bei einem Treffer um einen Vorder- oder Hintergrundtreffer handelt.
-* **Dimensionen mit (geringem Traffic) oder &quot;Individuelle Werte überschritten&quot;:** Der Zeileneintrag (geringer Traffic) wird bei der Verwendung der Berichtszeitverarbeitung etwas anders bestimmt und entspricht nicht garantiert dem, was bei der Berichterstellung für die zugrunde liegende Report Suite beobachtet wird. Darüber hinaus ist nicht garantiert, dass Dimensionselemente, die nicht Teil von &quot;Geringer Datenverkehr&quot;sind, 100 % der Daten für diesen Zeileneintrag darstellen, anders als bei einer zugrunde liegenden Report Suite. Diese Unterschiede werden umso deutlicher, je höher die Anzahl eindeutiger Werte in einer Dimension ist.
+* **Dimensionen mit (geringem Traffic) oder &quot;Individuelle Werte überschritten&quot;:** Der Zeileneintrag (geringer Traffic) wird bei der Verwendung der Berichtszeitverarbeitung etwas anders bestimmt und entspricht nicht garantiert dem, was bei der Berichterstellung für die zugrunde liegende Report Suite beobachtet wird. Zeileneinträge von Dimensionen, die nicht Teil von &quot;Geringer Datenverkehr&quot;sind, stellen nicht garantiert 100 % der Daten für diesen Zeileneintrag dar. Je höher die Anzahl eindeutiger Werte in einer Dimension ist, desto größer können diese Unterschiede sein.
