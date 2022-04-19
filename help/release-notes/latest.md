@@ -3,9 +3,9 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '996'
 ht-degree: 40%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 40%
 | Funktion | Beschreibung | [Zieldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Aktualisierungen der Adobe Analytics-Landingpage | Aktualisierungen der gemeinsamen Landingpage für Workspace/Reports &amp; Analytics, die die Benutzerfreundlichkeit und die einfache Navigation verbessern. [Weitere Informationen](/help/analyze/landing.md) | 20. April 2022 |
-| [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] Arbeitsbereich | Die [!UICONTROL Nächstes oder vorheriges Element] -Bedienfeld können Sie Elemente untersuchen, die einem Dimensionselement Ihrer Wahl folgen oder diesem vorausgehen. Verwenden Sie sie beispielsweise, wenn Sie die nächsten oder vorherigen Seiten zu einer bestimmten Produktseite, einem Marketingkanal oder sogar Gerätetyp anzeigen möchten. Dieses Bedienfeld geht über die alte nächste/vorherige Berichterstellung hinaus, da es Ihnen ermöglicht, eine beliebige Dimension anzuzeigen und keine neue Implementierung erforderlich ist, um Einblicke zu erhalten. | 20. April 2022 |
-| [!UICONTROL Seitenzusammenfassung] Arbeitsbereich | Die [!UICONTROL Seitenzusammenfassung] -Bedienfeld bietet eine Tiefenanalyse für eine Seite Ihrer Wahl. Sie enthält dieselben Details wie die alten Reports &amp; Analytics-Versionen. [!UICONTROL Seitenzusammenfassung] und vieles mehr. | 20. April 2022 |
+| [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] Arbeitsbereich | Die [!UICONTROL Nächstes oder vorheriges Element] -Bedienfeld können Sie Elemente untersuchen, die einem Dimensionselement Ihrer Wahl folgen oder diesem vorausgehen. Verwenden Sie sie beispielsweise, wenn Sie die nächsten oder vorherigen Seiten zu einer bestimmten Produktseite, einem Marketingkanal oder sogar Gerätetyp anzeigen möchten. Dieses Bedienfeld geht über die alte nächste/vorherige Berichterstellung hinaus, da es Ihnen ermöglicht, eine beliebige Dimension anzuzeigen und keine neue Implementierung erforderlich ist, um Einblicke zu erhalten. [Weitere Informationen](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20. April 2022 |
+| [!UICONTROL Seitenzusammenfassung] Arbeitsbereich | Die [!UICONTROL Seitenzusammenfassung] -Bedienfeld bietet eine Tiefenanalyse für eine Seite Ihrer Wahl. Sie enthält dieselben Details wie die alten Reports &amp; Analytics-Versionen. [!UICONTROL Seitenzusammenfassung] und vieles mehr. [Weitere Informationen](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20. April 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
