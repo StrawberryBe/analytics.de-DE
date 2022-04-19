@@ -3,9 +3,9 @@ description: Das Bedienfeld "Seitenzusammenfassung"zeigt zusammenfassende Inform
 title: Seitenzusammenfassungsbereich
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '469'
 ht-degree: 9%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Seitenzusammenfassungsbereich
 
-Die [!UICONTROL Seitenzusammenfassung] wurde in Reports &amp; Analytics als Bericht unter Berichte > Interaktion > Seitenanalyse > Seitenzusammenfassung gestartet. In diesem Arbeitsbereich können Sie einfach Schlüsselstatistiken zu bestimmten Seiten durchsuchen.
+Die [!UICONTROL Seitenzusammenfassung] wurde in Reports &amp; Analytics als Bericht unter Berichte > Interaktion > Seitenanalyse > Seitenzusammenfassung gestartet. Es handelt sich jetzt auch um einen Arbeitsbereich-Bereich. In diesem Bedienfeld können Sie einfach Schlüsselstatistiken zu bestimmten Seiten durchsuchen.
 
 ## Zugriff auf den Bereich
 

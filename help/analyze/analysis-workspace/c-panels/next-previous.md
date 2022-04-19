@@ -3,9 +3,9 @@ description: Ein Bedienfeld, das die nächsten oder vorherigen Dimensionselement
 title: Nächstes oder vorheriges Objekt-Panel
 feature: Panels
 role: User, Admin
-source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '484'
 ht-degree: 8%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Nächstes oder vorheriges Objekt-Panel
 
-Die [!UICONTROL Nächstes oder vorheriges Element] wurde in Reports &amp; Analytics als Bericht gestartet, unter [!UICONTROL Berichte] > [!UICONTROL Am häufigsten] > [!UICONTROL Nächste Seite/Vorherige Seite]. Dieses Workspace-Bedienfeld enthält eine Reihe von Tabellen und Visualisierungen, mit denen Sie das nächste oder vorherige Dimensionselement für eine bestimmte Dimension einfach identifizieren können. Sie können beispielsweise untersuchen, welche Seiten Kunden nach dem Besuch der Startseite am häufigsten besucht haben.
+Die [!UICONTROL Nächstes oder vorheriges Element] wurde in Reports &amp; Analytics als Bericht gestartet, unter [!UICONTROL Berichte] > [!UICONTROL Am häufigsten] > [!UICONTROL Nächste Seite/Vorherige Seite]. Es handelt sich jetzt auch um einen Arbeitsbereich-Bereich. Dieses Bedienfeld enthält eine Reihe von Tabellen und Visualisierungen, um das nächste oder vorherige Dimensionselement für eine bestimmte Dimension einfach zu identifizieren. Sie können beispielsweise untersuchen, welche Seiten Kunden nach dem Besuch der Startseite am häufigsten besucht haben.
 
 ## Zugriff auf den Bereich
 
