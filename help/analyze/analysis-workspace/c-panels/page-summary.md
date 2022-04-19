@@ -3,13 +3,13 @@ description: Das Bedienfeld "Seitenzusammenfassung"zeigt zusammenfassende Inform
 title: Seitenzusammenfassungsbereich
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # Seitenzusammenfassungsbereich
 
@@ -26,12 +26,12 @@ Sie können über [!UICONTROL Berichte] oder innerhalb [!UICONTROL Arbeitsbereic
 
 ## Bedienfeldeingaben {#Input}
 
-Sie können die [!UICONTROL Nächstes oder vorheriges Element] Bedienfeld mit den folgenden Eingabeeinstellungen:
+Sie können die [!UICONTROL Seitenzusammenfassung] Bedienfeld mit diesen Eingabeeinstellungen:
 
 | Einstellung | Beschreibung |
 | --- | --- |
 | Dropzone Segment (oder andere Komponente) | Sie können Segmente oder andere Komponenten per Drag-and-Drop verschieben, um die Ergebnisse Ihrer Bedienfelder weiter zu filtern. |
-| Seitendimensionselement | Wählen Sie aus der Dropdownliste das Dimensionselement aus, dessen Schlüsselstatistiken Sie untersuchen möchten. |
+| Seitendimensionselement | Wählen Sie aus der Dropdownliste das Dimensionselement Seite aus, dessen Schlüsselstatistiken Sie untersuchen möchten. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ Die [!UICONTROL Seitenzusammenfassung] -Bedienfeld gibt einen umfangreichen Satz
 | [!UICONTROL Fluss] | Ein Flussdiagramm mit der ausgewählten Seite als Fokuspunkt. Sie können wie bei jeder [Flussdiagramm](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![Seitenzusammenfassungsbereich](assets/page-sum1.png)
+
+![Metriken und Fluss](assets/page-sum2.png)
