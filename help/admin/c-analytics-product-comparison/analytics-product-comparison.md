@@ -3,10 +3,10 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Informationen zu den zu verwendenden Adobe Analytics-Produkten finden Sie [hier]
 
 | Produktname und Link zur Hilfe | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=de) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics-API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Zugriffsmethode** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel für Windows](/help/analyze/report-builder/setup/system-requirements.md) | Einrichtung über den Browser. [Weitere Infos](/help/admin/sys-reqs.md) | [Windows 64 Bit](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=de) | Einrichtung über den Browser. [Weitere Infos](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful-API-Tools. Melden Sie sich mit den Adobe I/O-Anmeldedaten an. [Weitere Infos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Zugriffsmethode** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel für Windows](/help/analyze/report-builder/setup/system-requirements.md) | Einrichtung über den Browser. [Weitere Infos](/help/admin/sys-reqs.md) | [Windows 64 Bit](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=de) | Einrichtung über den Browser. [Weitere Infos](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful-API-Tools. Melden Sie sich mit Adobe Developer-Anmeldeinformationen an. [Weitere Infos](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Datengranularität** | Aggregiert | Aggregiert | Aggregiert | Aggregiert | Treffer | Treffer | Aggregiert |
 | **Experience Cloud ID (ECID) verfügbar** | Nein | Nein | Nein | Ja | Ja | Ja | Nein |
 | **Zeitstempel verfügbar** | Nein | Nein | Nein | Nein | Ja | Ja | Nein |
