@@ -4,10 +4,10 @@ solution: Analytics
 title: Übersicht über die Server-seitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festg
 
       1. Entfernen Sie den DIL-Code, und installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de).
       1. Aktivieren Sie die serverseitige Weiterleitung auf der Analytics Admin-Benutzeroberfläche, wie unter Schritt 3 beschrieben. Durch die Aktivierung dieser Einstellung vor dem Entfernen des DIL-Codes werden die Daten dupliziert, und es werden zusätzliche abgerechnete Serveraufrufe für Audience Manager erstellt.
-   * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
+   * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
 
 
 ## ![Grafik step3_icon.png](assets/step3_icon.png) Implementierung der serverseitigen Weiterleitung der Report Suite überprüfen
@@ -64,7 +64,7 @@ Die serverseitige Weiterleitung auf Ebene der Report Suite wird dem alten Ansatz
 
 Gehen Sie zu **Analytics** > **Admin** > **Report Suites** > (**Report Suites** auswählen) > **Einstellungen bearbeiten** > **Allgemein** > **Serverseitige Weiterleitung**. Wenn das Kontrollkästchen folgenden Zustand aufweist, gilt das Nachfolgende:
 
-* **Inaktiv** (Sie können keine Auswahl treffen oder das Menü existiert nicht): Sie haben die ausgewählten Report Suites nicht einer IMS-Organisation zugeordnet. Wenden Sie sich an die Kundenunterstützung, um sicherzustellen, dass die Report Suite korrekt zugeordnet ist.
+* **Inaktiv** (Sie können keine Auswahl treffen oder das Menü existiert nicht): Sie verfügen nicht über die Zuordnung der ausgewählten Report Suites zu einer Organisations-ID. Wenden Sie sich an die Kundenunterstützung , um sicherzustellen, dass die Report Suite korrekt zugeordnet ist.
 * **Deaktiviert**: Die neue serverseitige Weiterleitung ist nicht aktiviert. Lesen Sie den Inhalt der Seite, und fahren Sie dann mit der Aktivierung der Funktion fort.
 * **Aktiviert**: Die neue serverseitige Weiterleitung ist bereitgestellt. Sie können auch diese Audience Analytics-Integration einrichten.
 

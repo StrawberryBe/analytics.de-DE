@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1934'
 ht-degree: 98%
 
 ---
@@ -104,11 +104,11 @@ Die geräteübergreifende Analyse ruft Identifizierungsvariablen-Dimensionseleme
 
 ## Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse aktiviert werden?
 
-Ab dem 1. Mai 2022 ist jede neue Implementierung der geräteübergreifenden Analyse auf maximal drei Report Suite-IDs (RSIDs) pro Kunde beschränkt. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (mit Daten von mehreren Oberflächen wie Desktop-Web, mobilem Web, App usw.)..
+Ab dem 1. Mai 2022 wird jede neue Implementierung von CDA auf maximal drei Report Suite-IDs (RSIDs) pro Kunde beschränkt. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (mit Daten von mehreren Oberflächen wie Desktop-Web, mobilem Web, App usw.)..
 
-## Wenn meine Experience Cloud-Organisation (auch IMS-Organisation genannt) mehrere Unternehmen in verschiedenen Regionen hat, kann ich dann die geräteübergreifende Analyse für alle Unternehmen aktivieren?
+## Wenn meine Organisations-ID mehrere Unternehmen in verschiedenen Regionen enthält, kann ich dann die geräteübergreifende Analyse für alle Unternehmen aktivieren?
 
-Nein. Innerhalb einer Organisation kann die geräteübergreifende Analyse nur für eine Region aktiviert werden.
+Nein. Für dieselbe Organisations-ID kann die geräteübergreifende Analyse nur für eine Region aktiviert sein.
 
 ## Welche Vor- und Nachteile hat eine Wiederholung über sieben Tage gegenüber einer Wiederholung über einen Tag?
 
