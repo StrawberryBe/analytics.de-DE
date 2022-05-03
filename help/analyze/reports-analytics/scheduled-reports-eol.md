@@ -4,16 +4,16 @@ description: Adobe beabsichtigt, alle terminierten Berichte anzuhalten, deren Er
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: d3309815de29264c743f30a236c99a55fc731413
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '336'
+ht-degree: 17%
 
 ---
 
 # Hinweis zur Einstellung der Berichtserstellung für terminierte Berichte
 
-Ab dem 21. April 2022 beabsichtigt Adobe, alle terminierten Berichte, deren Erstellungsdatum mehr als zwei Jahre beträgt, anzuhalten (alle Aufgaben, die vor dem 31. Januar 2020 erstellt wurden). Es werden keine Berichte oder Daten gelöscht. Nur Berichte, die älter als zwei Jahre sind, werden angehalten und keine weiteren terminierten Berichte werden gesendet.
+Ab dem 21. April 2022 beabsichtigt Adobe, alle terminierten Berichte, deren Erstellungsdatum mehr als zwei Jahre beträgt, anzuhalten (alle Aufgaben, die vor dem 31. Januar 2020 erstellt wurden). Es werden keine Berichte oder Daten gelöscht. Nur Berichte, die älter als zwei Jahre sind, werden pausiert. In diesem Fall werden keine weiteren terminierten Berichte gesendet.
 
 Alle terminierten Berichte, die noch gesendet werden sollen, können reaktiviert werden, indem Sie sich einfach bei Analytics anmelden und die [!UICONTROL Terminierte Berichte] Manager. Klicken Sie auf [!UICONTROL Bearbeiten] und legen Sie eine neue geplante Zeit und einen neuen Ablauf fest. Für jeden Bericht, der reaktiviert wird, gilt standardmäßig eine Gültigkeit von 9 Monaten, es sei denn, es wird ein kürzeres Ablaufdatum ausgewählt.
 
@@ -27,6 +27,7 @@ Zum Zeitpunkt des Ablaufs wird der terminierte Bericht angehalten. Der Bericht k
 
 Ziel dieser Aktion ist es, unsere terminierten Berichte effektiv zu verwalten und zu verwalten, während wir uns auf das zuvor angekündigte Ende des Lebenszyklus für Reports &amp; Analytics vorbereiten. Dies wird unsere neue Governance-Politik voranbringen:
 
+* Nach dem 15. April 2022 können keine neuen terminierten Berichte mehr erstellt werden.
 * Nach dem 15. April 2022 gilt für alle terminierten Berichte ein maximales Ablaufdatum von 9 Monaten.
 * Nach 9 Monaten werden abgelaufene Aufgaben ausgesetzt und können bei Bedarf bis zum 31. Dezember 2023 reaktiviert werden.
 * Am 31. Dezember 2023 wird Reports &amp; Analytics eingestellt.
