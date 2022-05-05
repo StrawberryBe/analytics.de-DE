@@ -4,28 +4,20 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3610'
+source-wordcount: '3564'
 ht-degree: 83%
 
 ---
 
 # Neue Landingpage von Adobe Analytics
 
-Die Landingpage für Adobe Analytics vereint beide [!DNL Analysis Workspace] und [!DNL Reports & Analytics] in einer einzigen Schnittstelle und einem Zugriffspunkt unter [!DNL Workspace] Schirm. Sie enthält eine neue Startseite für den Projekt-Manager, ein aktualisiertes Berichtsmenü und aktualisierte Berichte sowie einen Lernbereich, der Ihnen dabei hilft, die ersten Schritte effektiver zu bewältigen.
-
->[!IMPORTANT]
->
->Diese Landingpage befindet sich derzeit in der Open Beta-Phase. Dies ist ein optionaler Ausgangspunkt. Sie können Ihre vorhandene Landingpage verwenden, unabhängig davon, ob dies [!UICONTROL Arbeitsbereich] oder [!UICONTROL Berichte]. Wenn Sie sich für das Beta-Programm entscheiden, rufen Sie die Seite auf und klicken Sie oben auf dem Bildschirm auf **[!UICONTROL Feedback geben]**, um Ihr Feedback und alle Fehler, auf die Sie eventuell stoßen, zu melden. Sie können sich jederzeit vom Beta-Programm abmelden und wieder anmelden. Jede Arbeit, die in der Beta-Benutzeroberfläche ausgeführt wird, wird in den vorhandenen/aktuellen übernommen. [!UICONTROL Arbeitsbereich] Erlebnis.
+Die Landingpage für Adobe Analytics vereint beide [!DNL Analysis Workspace] und [!DNL Reports & Analytics] in einer einzigen Schnittstelle und einem Zugriffspunkt unter [!DNL Workspace] Schirm. Sie enthält eine neue Startseite für den Projekt-Manager, ein aktualisiertes Berichtsmenü und aktualisierte Berichte sowie einen Lernbereich, der Ihnen dabei hilft, die ersten Schritte effektiver zu bewältigen. Im Folgenden finden Sie eine Videoübersicht:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Neue Landingpage-Funktionen
-
->[!NOTE]
->
->Diese Ergänzungen und Änderungen sind derzeit [in begrenztem Umfang](/help/release-notes/releases.md).
+## Neue Landingpage-Funktionen {#new-features}
 
 | Funktion | Beschreibung | Screenshot |
 | --- | --- | --- |
@@ -36,7 +28,7 @@ Die Landingpage für Adobe Analytics vereint beide [!DNL Analysis Workspace] und
 | Einen Bericht durch einfaches Klicken öffnen | Zuvor musste ein Doppelklick durchgeführt werden. |  |
 | Neue Links zu **[!UICONTROL Reports &amp; Analytics]** Berichte | <ul><li>**[!UICONTROL Berichte]** > **[!UICONTROL Zielgruppe]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Berichte]** > **[!UICONTROL Zielgruppe]** > **[!UICONTROL Bot-Seiten]**<li>**[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Echtzeit]**</li></ul> | ![Neue Links](assets/report-links.png) |
 | Neue native Berichte | <ul><li>**[!UICONTROL Berichte]** > **[!UICONTROL Am häufigsten]** > **[!UICONTROL Nächste Seite]**</li><li>**[!UICONTROL Berichte]** > **[!UICONTROL Am häufigsten]** > **[!UICONTROL Vorherige Seite]**</li><li>**[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Seitenanalyse]** > **[!UICONTROL Seitenzusammenfassung]**</li></ul>Beachten Sie, dass diese Berichte in [!UICONTROL Arbeitsbereich] formatieren und eine Konfiguration und Erstellung erfordern. Die Ausgabe besteht aus einem Bereich mit allgemeinen Metriken, Trenddaten, [!UICONTROL Fluss] Visualisierung und mehr. Sie können diese Berichte ändern und Dimensionen, Dimensionselemente usw. ändern. Diese Berichte sind auch als Bedienfelder unter Workspace-Bedienfeldern verfügbar. | ![Nächste Seite](assets/next-page.png) |
-| **[!UICONTROL Neu erstellen]** modal is back | Wenn Sie auf **[!UICONTROL Neu erstellen]** In Workspace haben Sie erneut die Wahl zwischen einem [!UICONTROL Leeres Projekt] und [!UICONTROL Leere mobile Scorecard]. Sie können auch aus beliebigen Vorlagen wählen, die Ihr Unternehmen erstellt hat. | ![Neuen erstellen](assets/create-new.png) |
+| **[!UICONTROL Neu erstellen]** modal is back | Wenn Sie auf **[!UICONTROL Neu erstellen]** In Workspace haben Sie erneut die Wahl zwischen einem [!UICONTROL Leeres Projekt] und [!UICONTROL Leere mobile Scorecard]. Sie können auch aus beliebigen Vorlagen wählen, die Ihr Unternehmen erstellt hat. | ![Neu erstellen](assets/create-new.png) |
 | Auch in CJA verfügbar | Diese Landingpage in geänderter Form ist auch in CJA verfügbar. |  |
 
 {style=&quot;table-layout:auto&quot;}
@@ -47,7 +39,7 @@ Nachdem Sie sich bei Adobe Experience Cloud und Analytics angemeldet haben, akti
 
 ![Landing](assets/landing.png)
 
-## Menüstruktur
+## Oberste Menüstruktur {#top-menu}
 
 ![Menü oben](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ Die Registerkarte [!UICONTROL Berichte] fasst drei Berichtssätze zusammen:
 
 Wie bereits erwähnt, sind hier nur die am häufigsten verwendeten Berichte verfügbar, die zuvor in Reports &amp; Analytics gruppiert waren. Einige wenige selten verwendete oder nicht mehr relevante Berichte wurden nicht migriert. Weitere Informationen finden Sie in den FAQ unten.
 
-### Menüs und Untermenüs
+### Menüs und Untermenüs {#menus}
 
 Dies sind die Menüs und ihre Untermenüs. Wenn Sie einen bestimmten Bericht nicht finden können, führen Sie eine „Suche auf Seite“ durch, um ihn zu finden.
 
@@ -125,7 +117,7 @@ Dies sind die Menüs und ihre Untermenüs. Wenn Sie einen bestimmten Bericht nic
 | **[!UICONTROL Akquise]** | <ul><li>Marketing-Kanäle > Erstkontakt-Kanal, Details zum Erstkontakt-Kanal (Welcher Erstkontakt-Kanal und welcher spezifische Erstkontakt-Kanal schneidet am besten ab?)</li><li>Marketing-Kanäle > Erster letzter Kanal, Details des ersten letzten Kanals (Welcher Letztkontakt-Kanal und welcher spezifische Letztkontakt-Kanal schneidet am besten ab?)</li><li>Kampagnen > Kampagnen (Welche Kampagnen liegen meinen Schlüsselmetriken zugrunde?)</li><li>Kampagnen > Kampagnenleistung (Welche Kampagnen erzielen den höchsten Umsatz?)</li><li>Kampagnen > Trackingcode (Welche Kampagnen-Trackingcodes erzielen die besten Ergebnisse?)</li><li>[Web-Akquise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#web)</li><li>[Mobile-Akquise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: Paid Search](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#advertising)</li><li>Suchbegriffe – alle, gebührenpflichtig, kostenlos (Welche Suchbegriffe und gebührenpflichtigen/kostenlosen Suchbegriffe bringen meine Schlüsselmetriken am besten voran?)</li><li>Suchmaschinen – alle, gebührenpflichtig, kostenlos (Welche Suchmaschinen und gebührenpflichtigen/kostenlosen Suchmaschinen bringen meine Schlüsselmetriken am besten voran?)</li><li>Ranking aller Suchseiten (Von welcher Suchseite aus besuchen mich meine Benutzer?)</li><li>Verweisende Domains (Von welchen Domains kommt der Traffic auf meine Seite?)</li><li>Ursprüngliche verweisende Domain (Was waren die ersten Domains, auf denen sich Benutzer vor dem Besuch meiner Site befanden?)</li><li>Referrer (Auf welchen URLs waren meine Benutzer, bevor sie sich zu meiner Website durchgeklickt haben?)</li><li>Referrer-Typen (Zu welcher Kategorie gehören die auf mich verweisenden URLs?)</li></ul> |
 | **[!UICONTROL Unternehmensberichte]** | Berichte, die Ihr Unternehmen für Ihre Verwendung erstellt hat. Siehe „Erstellen eines Unternehmensberichts“ unten. |
 
-### Speicherort der Vorlagen (jetzt als Berichte bezeichnet)
+### Speicherort der Vorlagen (jetzt als Berichte bezeichnet) {#templates}
 
 | Name des Berichts (Vorlage) | Berichtsort |
 | --- | --- |
@@ -152,7 +144,7 @@ Dies sind die Menüs und ihre Untermenüs. Wenn Sie einen bestimmten Bericht nic
 | Web-Akquise | Akquise > Web-Akquise |
 | Advertising Analytics: Gebührenpflichtige Suche | Akquise > Advertising Analytics: Gebührenpflichtige Suche |
 
-### Verwenden der Registerkarte „Berichte“
+### Verwenden der Registerkarte „Berichte“ {#use-reports}
 
 Aktuelle Benutzer von Reports &amp; Analytics finden hier einen kurzen Einstieg in die Verwendung der Berichte, die sie kennen und die jetzt in Arbeitsbereich angezeigt werden. Berichte verhalten sich wie vorhandene Vorlagen: Wenn Sie Änderungen daran vornehmen, werden Sie aufgefordert, Ihre Änderungen zu speichern/zu verwerfen, wenn Sie weg navigieren oder zu einem anderen Bericht gehen. Wenn Sie Änderungen speichern möchten, wird der Bericht als neues Projekt gespeichert.
 
@@ -170,7 +162,7 @@ Aktuelle Benutzer von Reports &amp; Analytics finden hier einen kurzen Einstieg 
    * Sie können den Datumsbereich ändern, indem Sie oben rechts in den Kalender wechseln.
    * Sie können Dimensionsaufschlüsselungen hinzufügen, andere Metriken einfügen und den Bericht allgemein beliebig anpassen.
 
-### Erstellen eines (benutzerdefinierten) Unternehmensberichts
+### Erstellen eines (benutzerdefinierten) Unternehmensberichts {#company-report}
 
 Benutzerspezifische Berichte werden als Unternehmensberichte bezeichnet und finden sich im Menü „Unternehmensberichte“ (siehe unten). Alle zuvor erstellten und alle neuen werden hier aufgelistet.
 
@@ -199,6 +191,22 @@ Die Seite „Lernen“ enthält praktische Videoführungen und -Tutorials sowie 
 * Die Tour [!UICONTROL Arbeitsbereich-Grundlagen] führt Sie direkt zu Arbeitsbereich und zeigt Ihnen das Arbeitsbereich-Layout und wo Sie die häufigsten Aktionen finden/durchführen können. Diese Tour kann auch jederzeit direkt in Arbeitsbereich über das QuickInfo-Pop-over in der Kopfzeile des Bedienfelds neu gestartet werden.
 * Durch Klicken auf ein Video/eine Tour wird ein Tag **[!UICONTROL Angezeigt]** hinzugefügt. Mit diesem Tag können Sie Ihren Fortschritt durch den Lerninhalt verfolgen. Sie können auf das Tag klicken und es wird ausgeblendet, falls Sie den Inhalt noch nicht abgeschlossen haben.
 * Die Schaltfläche **[!UICONTROL Weitere Informationen]** im Video-Modal bietet Zugriff auf eine Adobe Experience League-Dokumentationsseite mit weiteren Hilfeinhalten zu dem Video, das Sie gerade angesehen haben.  **[!UICONTROL Weitere Videos anzeigen]** führt Sie zur vollständigen YouTube-Playlist für Analysis Workspace.
+
+## Landingpage festlegen {#set-landing}
+
+Benutzer können ihre bevorzugte Landingpage festlegen.
+
+1. Gehen Sie zu Analytics > [!UICONTROL Komponenten] > [!UICONTROL Voreinstellungen] > [!UICONTROL Allgemein].
+1. Überprüfen Sie, welche Landingpage Sie bevorzugen:
+
+   ![Landingpage festlegen](assets/landing-pref.png)
+
+## Registerkarte &quot;Bericht ausblenden&quot; {#hide-reports}
+
+Administratoren können die Registerkarte Berichte für alle Benutzer in ihrer Organisation ausblenden.
+
+1. Navigieren Sie zu [!UICONTROL Analytics] > [!UICONTROL Komponenten] > [!UICONTROL Voreinstellungen] > [!UICONTROL Firma].
+1. Überprüfen **[!UICONTROL Registerkarte &quot;Berichte ausblenden&quot;]**.
 
 ## Häufig gestellte Fragen zu Landingpages. {#landing-faq}
 
