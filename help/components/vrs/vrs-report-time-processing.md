@@ -5,34 +5,30 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 0bab340afcffdf337d0ff6bacb0351d744c1d9a5
+source-git-commit: ec4edb257490d326ab8f8de51a4ab9412a2b4a28
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 95%
+source-wordcount: '1306'
+ht-degree: 84%
 
 ---
 
 # Berichtszeitverarbeitung
 
-[!UICONTROL Berichtszeitverarbeitung] ist eine Virtual Report Suite-Einstellung, die eine nicht destruktive, rückwirkende Verarbeitung von Daten ermöglicht.
-
->[!NOTE]
->
->[!UICONTROL Berichtszeitverarbeitung] ist nur für Analysis Workspace verfügbar.
+[!UICONTROL Berichtszeitverarbeitung] ist eine Virtual Report Suite-Einstellung, mit der Daten in Analysis Workspace zerstörungsfrei und rückwirkend verarbeitet werden können.
 
 [!UICONTROL Berichtszeitverarbeitung] betrifft nur die Daten in der Virtual Report Suite und hat keinen Einfluss auf Daten oder die Datenerfassung in der zugrunde liegenden Report Suite. Der Unterschied zwischen [!UICONTROL Berichtszeitverarbeitung] und der herkömmlichen Analytics-Verarbeitung lässt sich am besten anhand des folgenden Diagramms veranschaulichen:
 
-![Google1](assets/google1.jpg)
+![Traditionelle Verarbeitungs-Pipeline](assets/google1.jpg)
 
 Während der Datenverarbeitung in Analytics fließen die Daten durch die Datenerfassungspipeline und einen Vorverarbeitungsschritt, indem die Daten für die Berichterstellung vorbereitet werden. In diesem Schritt der Vorverarbeitung werden die Besuchsablauflogik und eVar-Persistenzlogik (unter anderem) auf die Daten angewendet, während sie erfasst werden. Der primäre Nachteil dieses Vorverarbeitungsmodells besteht darin, dass jegliche Konfiguration vorab erfolgen muss, noch bevor die Daten erfasst werden. Das heißt, dass die an den Vorverarbeitungseinstellungen vorgenommen Änderungen nur ab diesem Zeitpunkt und für neue Daten gelten. Dies ist problematisch, wenn defekte Daten eingehen oder wenn Einstellungen falsch konfiguriert wurden.
 
 [!UICONTROL Berichtszeitverarbeitung] ist eine völlig andere Methode zur Verarbeitung von Analytics-Daten für die Berichterstellung. Anstatt vor dem Erfassen von Daten die Verarbeitungslogik vorab zu bestimmen, ignoriert Analytics die während des Vorverarbeitungsschritts festgelegten Daten und wendet diese Logik bei jeder Berichtsausführung an:
 
-![Google2](assets/google2.jpg)
+![Pipeline zur Berichtszeitverarbeitung](assets/google2.jpg)
 
-Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsoptionen. Sie können beispielsweise die Timeout-Zeitspanne für Besuche auf nicht destruktive Art und Weise beliebig ändern. Diese Änderungen spiegeln sich retroaktiv in der eVar-Persistenz und den Segmentcontainern wider, als hätten Sie diese Einstellungen vor dem Erfassen der Daten angewendet. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
+Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsoptionen. Sie können beispielsweise den Timeout-Zeitraum für Besuche auf eine beliebige Zeitdauer ohne Zerstörung ändern, und diese Änderungen werden in Ihrer eVar-Persistenz und den Segmentbehältern für den gesamten Berichtszeitraum übernommen. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-Durch [!UICONTROL die Berichtszeitverarbeitung] wird außerdem ermöglicht, dass Analytics verhindert, dass durch Hintergrundtreffer neue Besuche gestartet werden, und dass das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) die Berichterstellung zum Starten eines neuen Besuchs anweist, sobald ein App-Startereignis ausgelöst wird.
+[!UICONTROL Berichtszeitverarbeitung] ermöglicht Analytics auch, zu verhindern, dass Hintergrundtreffer neue Besuche starten, und ermöglicht die [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) , um einen neuen Besuch zu starten, sobald ein App-Startereignis ausgelöst wird.
 
 ## Konfigurationsoptionen
 
@@ -54,23 +50,23 @@ Die Berichtszeitverarbeitung unterstützt nicht alle Metriken und Dimensionen, d
 
 Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus dem Datumsbereich der Berichterstellung stammen (nachfolgend als „Datumsfenster“ bezeichnet). Demnach bleiben auf „laufen nie ab“ festgelegte eVar-Werte für einen Besucher vor dem Datumsbereich der Berichterstellung in den Berichterstellungsfenstern nicht erhalten, und sie erscheinen nicht in Berichten. Das heißt auch, dass Kundenloyalitätsmessungen ausschließlich auf den im Berichterstellungsdatumsbereich vorhandenen Daten und nicht auf dem gesamten Verlauf vor dem Berichterstellungsdatumsbereich basieren.
 
-Nachstehend finden Sie eine Liste der Metriken und Dimensionen, die bei Verwendung von „Berichtszeitverarbeitung“ momentan nicht unterstützt werden:
+Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung nicht unterstützt:
 
-* **Analytics for Target:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
-* **Analytics for Advertising Cloud – reservierte Metriken/Dimensionen:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
-* **Metrik „Einzelzugriff“:** Dauerhaft nicht unterstützt.
-* **Listenvariablen:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
-* **Zähler-eVars:** Dauerhaft nicht unterstützt.
-* **Marketing-Kanal-Variablen:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
-* **Dimension „Tage seit letztem Kauf“:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Dimension nicht unterstützt.
-* **Dimension „Tage bis Erstkauf“:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Dimension nicht unterstützt.
-* **Dimension „Rückkehrhäufigkeit“:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Dimension nicht unterstützt. Ein alternativer Ansatz mithilfe einer Besuchsanzahlmetrik in einem Segment oder der Besuchsmetrik in einem Histogrammbericht kann verwendet werden.
-* **Dimension „Tage seit dem letzten Besuch“:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Dimension nicht unterstützt.
-* **Dimension „Ursprüngliche Entrypage“:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Dimension nicht unterstützt.
-* **eVars für die lineare Zuordnung:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
-* **Dimension „Ursprünglich verweisende Domain“:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
-* **Besuchnummer:** Aufgrund der Eigenschaften des Datumsfensters für die Berichtszeitverarbeitung wird diese Metrik nicht unterstützt. Als Alternative zu mobilen Apps können Sie eine berechnete Metrik verwenden, die Besucher/Besuche mit der Metrik „App-Installation“umfasst, um neue Besucher oder Besuche zu identifizieren.
-* **Transaktions-ID-Data Sources:** Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant.
+* **Analytics for Target**
+* **Analytics für Advertising Cloud-Dimensionen/-Metriken**
+* **Zähler-eVars**
+* **Tage bis Erstkauf**
+* **Tage seit letztem Kauf**
+* **Tage seit dem letzten Besuch**
+* **Ursprüngliche Entrypage**
+* **eVars für die lineare Zuordnung**
+* **Listen-Vars**
+* **Marketing-Kanal-Dimensionen**
+* **Ursprüngliche Referrer-Domäne**
+* **Rückkehrhäufigkeit**
+* **Einzelzugriff**
+* **Transaktions-ID-Datenquellen**
+* **Besuchnummer**
 
 ## Betroffene Dimensionen und Metriken
 
