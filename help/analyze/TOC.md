@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 99%
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 99%
       + Fluss {#flow}
          + [Flussübersicht](analysis-workspace/visualizations/c-flow/flow.md)
          + [Flussvisualisierung konfigurieren](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Neue Flussvisualisierung (Beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flusseinstellungen](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Interdimensionale Flüsse](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histogramm](analysis-workspace/visualizations/histogram.md)
@@ -98,8 +99,8 @@ ht-degree: 99%
          + [Überblick](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Eingabe- und Ausgabeeinstellungen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Häufig gestellte Fragen (FAQ)](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [Nächstes oder vorheriges Objekt-Panel](analysis-workspace/c-panels/next-previous.md)
-      + [Seitenzusammenfassungsbereich](analysis-workspace/c-panels/page-summary.md)
+      + [Nächstes oder vorheriges Element](analysis-workspace/c-panels/next-previous.md)
+      + [Bedienfeld „Seitenzusammenfassung“](analysis-workspace/c-panels/page-summary.md)
       + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
       + Bedienfeld für den Segmentvergleich {#segment-comparison}
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # Interdimensionale Flüsse
 
-Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade über verschiedene Dimensionen hinweg untersuchen.
-
-Im Folgenden finden Sie ein Video zum Textumbruch und zum multidimensionalen Fluss in Analysis Workspace:
+Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade über verschiedene Dimensionen hinweg untersuchen. Im Folgenden finden Sie ein Video zum Textumbruch und zum multidimensionalen Fluss in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ Eine Dimensionsbezeichnung jeweils oben in der Spalte „Fluss“ vereinfacht di
 
 Sehen wir uns 2 Anwendungsfälle an: einen App-Anwendungsfall und einen Web-Anwendungsfall.
 
-## Anwendungsfall 1: Mobile App {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Anwendungsfall 1: Mobile App {#app}
 
 Die Dimension [!UICONTROL Aktionsname] wurde dem Fluss hinzugefügt, wobei das oberste zurückgegebene Element [!UICONTROL ItemAdded] ist:
 
@@ -56,7 +54,7 @@ Wenn Sie eine weitere Dimension Aktionsname am Ende der Visualisierung hinzufüg
 
 Dies gibt Ihnen tiefere Einblicke in die App, die Sie analysieren möchten, und erlaubt geeignete Änderungen.
 
-## Anwendungsfall 2: Web {#section_8D55983FA0C84926995270052AE01CD8}
+## Anwendungsfall 2: Web {#web}
 
 Dieser Verwendungsfall zeigt, wie Sie anaysieren können, welche Kampagnen die meisten Einstiege auf einer Website einbringen.
 
