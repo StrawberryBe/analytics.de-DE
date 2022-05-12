@@ -3,24 +3,24 @@ title: Von Adobe Analytics verwendete IPs und Domains
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 86%
 
 ---
 
 # Von Adobe Analytics verwendete IPs und Domains
 
-Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datenerfassungs-Servern oder -Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens so zu ändern, dass der Zugriff und das Senden von Daten aus Ihrem Unternehmen heraus möglich ist.
+Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datenerfassungs-Servern oder -Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens so zu ändern, dass der Zugriff und das Senden von Daten aus Ihrem Unternehmen heraus möglich ist. Diese Seite enthält sowohl eingehende Systeme (z. B. die Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds), die von Adobe verwendet werden.
 
 >[!IMPORTANT]
 >
->Adobe bemüht sich nach besten Kräften, dieses Dokument aktuell zu halten, kann jedoch nicht garantieren, dass die Liste der IP-Bereiche unverändert bleibt. Zu den möglichen Änderungen gehören Wachstum und Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen am IP-Adressraum von Adobe, oder ein Internet-Dienstleister funktioniert nicht mehr.
+>Adobe versucht zwar nach besten Kräften, dieses Dokument aktuell zu halten, kann aber nicht garantieren, dass die Liste der IP-Bereiche unverändert bleibt. Zu den möglichen Änderungen gehören Wachstum und Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen am IP-Adressraum von Adobe, oder ein Internet-Dienstleister funktioniert nicht mehr.
 
 ## Abhängige Technologiedomänen zulassen
 
-Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen zur Zulassungsliste Ihrer Firewall hinzuzufügen, um eine optimale Nutzung von Adobe Analytics zu gewährleisten.
+Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über die Firewall Ihres Unternehmens zuzulassen, damit eine optimale Nutzung von Adobe Analytics gewährleistet ist.
 
 | Technologie | Domain |
 | --- | --- |
