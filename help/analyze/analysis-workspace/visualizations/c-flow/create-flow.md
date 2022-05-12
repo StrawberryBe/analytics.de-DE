@@ -3,13 +3,13 @@ description: Verwenden Sie die Flussvisualisierung in einem Workspace-Projekt.
 title: Flussvisualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
-source-git-commit: 141daf54e845970254f478e8c3e95be2239013c5
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
+source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 44%
+source-wordcount: '794'
+ht-degree: 41%
 
 ---
-
 
 # Flussvisualisierung konfigurieren
 
@@ -17,13 +17,13 @@ ht-degree: 44%
 >
 >Diese neue Version der [!UICONTROL Fluss] Die Visualisierung befindet sich derzeit in der privaten Beta-Phase. Siehe [diese Seite](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) für die aktuelle Funktion.
 
-Mit Fluss können Sie die exakten Journey verfolgen, die Ihre Kunden auf Ihrer Website oder in Ihrer App einnehmen. Sie verfolgt einen Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken. Jeder Fluss hat einen Startpunkt und einen Endpunkt sowie eine Metrik oder Dimension (oder ein Element), die bzw. das Sie verfolgen.
+Mit der aktualisierten Flussvisualisierung können Sie die Journey verstehen, die von einem bestimmten Konversionsereignis auf Ihrer Website oder in Ihrer App ausgehen oder dazu führen. Sie verfolgt einen Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken. Mit &quot;Fluss&quot;können Sie den Anfang oder das Ende des Pfades konfigurieren, an dem Sie interessiert sind, oder alle Pfade analysieren, die durch eine Dimension oder ein Dimensionselement fließen.
 
 Die neue [!UICONTROL Fluss] Erlebnis verbessert Ihren Workflow auf verschiedene Weise:
 
-* Damit können neben Dimensionen und Dimensionselementen auch Metriken verfolgt werden.
+* Sie können jetzt Ihren Pfad mit der Kombination aus einer Metrik und einer Pfaddimension starten oder beenden.
 * Enthält [!UICONTROL Erweiterte Einstellungen] , damit Sie die [!UICONTROL Fluss].
-* Damit können Sie die [!UICONTROL Fluss] vor dem Erstellen.
+* Mit der neuen Schaltfläche &quot;Erstellen&quot;sparen Sie Zeit in der Analyse, indem Sie die Journey alle gleichzeitig konfigurieren, dann Abfragen und dann automatisch mehrere Spalten und Knoten gleichzeitig &#x200B; erstellen können.
 
 ![Neue Fluss-Benutzeroberfläche](assets/new-flow.png)
 
@@ -53,7 +53,7 @@ Die neue [!UICONTROL Fluss] Erlebnis verbessert Ihren Workflow auf verschiedene 
    | --- | --- |
    | **[!UICONTROL Wiederholungsinstanzen einschließen]** | Flussvisualisierungen basieren auf Instanzen einer Dimension. Diese Einstellung gibt Ihnen die Möglichkeit, wiederholte Instanzen ein- oder auszuschließen, z. B. Seitenneuladungen. Wiederholungen können jedoch nicht aus Flussvisualisierungen entfernt werden, die Dimensionen mit mehreren Werten enthalten, wie listVars, listProps, s.product, Merchandising-eVars usw. Standard = deaktiviert. |
    | **[!UICONTROL Umbruch-Bezeichnungen]** | Die Bezeichnungen der Flusselemente werden üblicherweise aus Platzgründen auf dem Bildschirm abgeschnitten. Aktivieren Sie dieses Kontrollkästchen, um die gesamte Bezeichnung anzuzeigen.  Standard = deaktiviert. |
-   | **[!UICONTROL Beschränkung auf Ein-/Austritte]** | Die Ergebnisse sind auf Pfade beschränkt, bei denen der erste/letzte Touchpoint und der Einstieg/Ausstieg sind. |
+   | **[!UICONTROL Auf das erste/letzte Vorkommen beschränken]** | Begrenzen Sie Pfade auf Pfade, die mit dem ersten/letzten Vorkommen einer Dimension/eines Elements/einer Metrik beginnen/enden. |
    | **[!UICONTROL Anzahl der Spalten]** | Legt fest, wie viele Spalten Sie in Ihrem Flussdiagramm anzeigen möchten. |
    | **[!UICONTROL Elemente pro Spalte erweitert]** | Wie viele Elemente Sie in jeder Spalte anzeigen möchten. |
    | **[!UICONTROL Fluss-Container]** | <ul><li>Besuch</li><li>Besucher.</li></ul> Hiermit können Sie bei der Analyse der Besucherpfade zwischen Besuch und Besucher wechseln. Mithilfe dieser Einstellungen können Sie Einblicke in Besucheraktivitäten auf der Besucherebene (besuchsübergreifend) erhalten oder die Analyse auf einen einzelnen Besuch einschränken. |
