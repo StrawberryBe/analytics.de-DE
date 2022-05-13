@@ -3,10 +3,10 @@ title: Datenerfassungs-Abfrageparameter
 description: Listet alle in Bildanforderungen verwendeten Abfragezeichenfolgenparameter auf.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `p` | Keine | Wird nicht mehr verwendet. Liste der im Browser verwendeten Plug-ins. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Wird in der Dimension [Seite](/help/components/dimensions/page.md) verwendet. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Wird in der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. |
-| `pccr` | Keine | Nur für neue Besucher und immer auf `true` gesetzt. Hilft, endlose Umleitungen zu verhindern. |
+| `pccr` | Keine | Nur für neue Besucher und immer auf `true` gesetzt. Hilft, unendliche Weiterleitungen zu verhindern, wenn ein Besucher Cookies ablehnt. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Bestimmt den Typ des benutzerspezifischen Links. Für [benutzerspezifische Links](/help/components/dimensions/custom-link.md), [Downloadlinks](/help/components/dimensions/download-link.md) und [Exitlinks](/help/components/dimensions/exit-link.md) erforderlich. |
 | `pev1` | Keine | Die URL, unter der der benutzerdefinierte Link aufgetreten ist. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Anzeigename des benutzerspezifischen Links. |
@@ -77,7 +77,8 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimension [Trackingcode](/help/components/dimensions/tracking-code.md). |
 | `v1` – `v250` | [`evar1` – `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) oder benutzerspezifische Konversionsdimensionen. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Besucher-ID-Variable. |
-| `vmk` | `vmk` | Wird nicht mehr verwendet. Migrationsschlüssel für Besucher, mit dem Implementierungen von Drittanbieter-Cookies zu Erstanbieter-Cookies migriert wurden. |
+| `vidn` | Keine | Wird von AppMeasurement für neue Besucher festgelegt. Enthält den im Besucher-Cookie gespeicherten ID-Wert. |
+| `vmk` | `vmk` | Wird nicht mehr verwendet. Migrationsschlüssel der Besucher, der die Migration von Implementierungen von Drittanbieter-Cookies zu Erstanbieter-Cookies unterstützt hat. |
 | `vvp` | `variableProvider` | Wird in Data Connectors verwendet. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Wird mit Data Sources verwendet, um Online- und Offline-Daten miteinander zu verbinden. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Wird in der Dimension [Postleitzahl](/help/components/dimensions/zip-code.md) verwendet. |
