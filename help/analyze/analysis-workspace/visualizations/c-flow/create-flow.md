@@ -4,10 +4,10 @@ title: Flussvisualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 41%
+source-wordcount: '808'
+ht-degree: 40%
 
 ---
 
@@ -45,6 +45,10 @@ Die neue [!UICONTROL Fluss] Erlebnis verbessert Ihren Workflow auf verschiedene 
 
    ![Pfaddimension](assets/pathing-dim.png)
 
+   >[!IMPORTANT]
+   >
+   >Berechnete Metriken können nicht im  **[!UICONTROL Beginnt mit]** oder **[!UICONTROL Endet in]** Ablageflächen.
+
 1. (Optional) Klicken Sie auf **[!UICONTROL Erweiterte Einstellungen anzeigen]** zum Konfigurieren der erweiterten Einstellungen:
 
    ![Erweiterte Einstellungen](assets/adv-settings.png)
@@ -53,7 +57,7 @@ Die neue [!UICONTROL Fluss] Erlebnis verbessert Ihren Workflow auf verschiedene 
    | --- | --- |
    | **[!UICONTROL Wiederholungsinstanzen einschließen]** | Flussvisualisierungen basieren auf Instanzen einer Dimension. Diese Einstellung gibt Ihnen die Möglichkeit, wiederholte Instanzen ein- oder auszuschließen, z. B. Seitenneuladungen. Wiederholungen können jedoch nicht aus Flussvisualisierungen entfernt werden, die Dimensionen mit mehreren Werten enthalten, wie listVars, listProps, s.product, Merchandising-eVars usw. Standard = deaktiviert. |
    | **[!UICONTROL Umbruch-Bezeichnungen]** | Die Bezeichnungen der Flusselemente werden üblicherweise aus Platzgründen auf dem Bildschirm abgeschnitten. Aktivieren Sie dieses Kontrollkästchen, um die gesamte Bezeichnung anzuzeigen.  Standard = deaktiviert. |
-   | **[!UICONTROL Auf das erste/letzte Vorkommen beschränken]** | Begrenzen Sie Pfade auf Pfade, die mit dem ersten/letzten Vorkommen einer Dimension/eines Elements/einer Metrik beginnen/enden. |
+   | **[!UICONTROL Begrenzung auf erstes/letztes Auftreten]** | Begrenzen Sie Pfade auf Pfade, die mit dem ersten/letzten Vorkommen einer Dimension/eines Elements/einer Metrik beginnen/enden. |
    | **[!UICONTROL Anzahl der Spalten]** | Legt fest, wie viele Spalten Sie in Ihrem Flussdiagramm anzeigen möchten. |
    | **[!UICONTROL Elemente pro Spalte erweitert]** | Wie viele Elemente Sie in jeder Spalte anzeigen möchten. |
    | **[!UICONTROL Fluss-Container]** | <ul><li>Besuch</li><li>Besucher.</li></ul> Hiermit können Sie bei der Analyse der Besucherpfade zwischen Besuch und Besucher wechseln. Mithilfe dieser Einstellungen können Sie Einblicke in Besucheraktivitäten auf der Besucherebene (besuchsübergreifend) erhalten oder die Analyse auf einen einzelnen Besuch einschränken. |
