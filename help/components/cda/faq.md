@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1934'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,13 +102,13 @@ Der Wechsel vom Gerätediagramm zur feldbasierten Zuordnung oder umgekehrt kann 
 
 Die geräteübergreifende Analyse ruft Identifizierungsvariablen-Dimensionselemente ab, bevor sie für das Reporting optimiert werden. Sie müssen sich bei der geräteübergreifenden Analyse keine Sorgen um individuelle Einschränkungen machen. Wenn Sie jedoch versucht haben, diese Prop/eVar in einem Workspace-Projekt zu verwenden, wird weiterhin das Dimensionselement [(Geringer Traffic)](/help/technotes/low-traffic.md) angezeigt.
 
-## Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse aktiviert werden?
+## Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse (CDA) aktiviert werden?
 
 Ab dem 1. Mai 2022 wird jede neue Implementierung von CDA auf maximal drei Report Suite-IDs (RSIDs) pro Kunde beschränkt. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (mit Daten von mehreren Oberflächen wie Desktop-Web, mobilem Web, App usw.)..
 
-## Wenn meine Organisations-ID mehrere Unternehmen in verschiedenen Regionen enthält, kann ich dann die geräteübergreifende Analyse für alle Unternehmen aktivieren?
+## Kann ich dann CDA für alle Unternehmen aktivieren, wenn meine Organisations-ID mehrere Unternehmen in verschiedenen Regionen enthält?
 
-Nein. Für dieselbe Organisations-ID kann die geräteübergreifende Analyse nur für eine Region aktiviert sein.
+Nein. Für dieselbe Organisations-ID kann nur eine Region CDA aktiviert haben.
 
 ## Welche Vor- und Nachteile hat eine Wiederholung über sieben Tage gegenüber einer Wiederholung über einen Tag?
 
@@ -122,7 +122,7 @@ Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordne
 
 ## Warum unterscheidet sich die Gesamtzahl der Treffer zwischen meiner ursprünglichen Report Suite und der Virtual Report Suite der geräteübergreifenden Analyse?
 
-Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für die geräteübergreifende Analyse erwartet.
+Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für CDA erwartet.
 
 ## Warum ist die Metrik „Identifizierte Personen“ überhöht?
 
