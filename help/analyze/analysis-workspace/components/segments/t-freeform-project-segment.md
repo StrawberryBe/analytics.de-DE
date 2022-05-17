@@ -4,10 +4,10 @@ title: Segmente
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 5e9894e3b7ea3e6c36e45b3683c08a1c767df8f0
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,9 @@ In Workspace können Sie verschiedene Arten von Segmenten erstellen, je nachdem,
 | Segmenttyp | Wo erstellt? | Wird wo angewendet? | Verwendungsbereiche |
 | --- | --- | --- | --- |
 | Segment der Komponentenliste | Klicken Sie auf +, um zu [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) zu gelangen. | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
-| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [Nur Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), können jedoch speichern und Ihrer Segmentliste hinzufügen. | Flexibilität beim Hinzufügen/Bearbeiten einer oder mehrerer Regeln |
+| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [Nur Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), können jedoch speichern und Ihrer Segmentliste hinzufügen. | Flexibilität für Hinzufügen/Bearbeiten einer oder mehrerer Regeln |
 | Ad-hoc-Segmente: |  |  |  |
-| - Ad-hoc-Projektsegment in Workspace | [In den Segmentablagebereich eines Projekts ziehen und dort ablegen](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Nur Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), können jedoch speichern und Ihrer Segmentliste hinzufügen. | Für Segmente mit einer einzigen Regel |
+| - Ad-hoc-Workspace-Projektsegment | [Ziehen und Ablegen in den Segmentablagebereich eines Projekts](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Nur Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), können jedoch speichern und Ihrer Segmentliste hinzufügen. | Für Segmente mit einer einzigen Regel |
 | - Berechnetes metrikbasiertes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=de) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
 | - VRS-basiertes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer VRS-Definition |
 

@@ -1,13 +1,13 @@
 ---
-description: Ad-hoc-Segmente in Analysis Workspace verwenden.
+description: Verwenden Sie Ad-hoc-Segmente in Analysis Workspace.
 title: Ad-hoc-Segmente
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ Hier finden Sie ein Video zum Erstellen von Ad-hoc-Projektsegmenten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. Legen Sie einen beliebigen Komponententyp (Dimension, Dimensionselement, Ereignis, Metrik, Segment, Segmentvorlage, Datumsbereich) oben in einem Panel in der Ablagefläche für Segmente ab. Komponententypen werden automatisch in Ad-hoc-Segmente oder [Schnellsegmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=de) wenn kompatibel.
+1. Legen Sie einen beliebigen Komponententyp (Dimension, Dimensionselement, Ereignis, Metrik, Segment, Segmentvorlage, Datumsbereich) oben in einem Panel in der Ablagefläche für Segmente ab. Komponententypen werden automatisch in Ad-hoc-Segmente oder [Schnellsegmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) wenn kompatibel.
 Hier ist ein Beispiel für das Erstellen eines Segments für die Twitter-Referrer-Domain:
 
    ![](assets/ad-hoc1.png)
