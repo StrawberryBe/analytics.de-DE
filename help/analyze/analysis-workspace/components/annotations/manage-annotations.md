@@ -4,18 +4,14 @@ description: Verwalten von Anmerkungen in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '677'
+ht-degree: 65%
 
 ---
 
 # Verwalten von Anmerkungen
-
->[!NOTE]
->
->Die schrittweise Einführung dieser Funktion beginnt am 23. März 2022. Allgemeine Verfügbarkeit: 11. April 2022.
 
 Die Anmerkungsverwaltung ([!UICONTROL Komponenten] > [!UICONTROL Anmerkungen]) bietet viele Möglichkeiten zum Verwalten von Anmerkungen, z. B. Freigeben, Filtern, Markieren, Genehmigen, Kopieren, Löschen und Markieren als Favorit.
 
@@ -48,21 +44,21 @@ Sie können eine Anmerkung bearbeiten, indem Sie Datumsbereiche, Farben oder den
 
 Beide Optionen bringen Sie zurück in die [!UICONTROL Anmerkungs-Builder]. Dort können Sie die erforderlichen Anpassungen vornehmen und die neue Version speichern.
 
-## Share annotations
+## Freigeben von Anmerkungen
 
 Beachten Sie Folgendes beim Freigeben von Anmerkungen oder Arbeiten mit Anmerkungen, die für Sie freigegeben wurden:
 
-* Angenommen, Sie erstellen ein Projekt mit nur projektbezogenen Anmerkungen und geben das Projekt dann für einen anderen Benutzer frei. These annotations will be displayed, but they cannot be edited or deleted by anyone you share the project with.
+* Angenommen, Sie erstellen ein Projekt mit nur projektbezogenen Anmerkungen und geben das Projekt dann für einen anderen Benutzer frei. Diese Anmerkungen werden angezeigt, können jedoch von niemandem bearbeitet oder gelöscht werden, für den Sie das Projekt freigeben.
 
-* If you save an annotation and share it directly with a user, they can edit/delete the annotation only if they have admin rights.
+* Wenn Sie eine Anmerkung speichern und sie direkt für einen Benutzer freigeben, kann dieser die Anmerkung nur bearbeiten/löschen, wenn er über Administratorrechte verfügt.
 
-* To recap, if the project is shared with you, it will show up only in that project. If the annotation is shared directly with you, it will show up in all projects where that annotation can be displayed.
+* Wenn das Projekt für Sie freigegeben ist, wird es nur in diesem Projekt angezeigt. Wenn die Anmerkung direkt für Sie freigegeben ist, wird sie in allen Projekten angezeigt, in denen diese Anmerkung angezeigt werden kann.
 
 ## Anmerkungen und Zeitzonen
 
 Alle Anmerkungen werden mit einem Zeitstempel erstellt, jedoch ohne Stunden- oder Zeitzoneninformationen. Zum Zeitpunkt des Berichts wird immer die Zeitzone der Report Suite des Bedienfelds angewendet. Daher wird am 25. Dezember eine für Weihnachten erstellte Anmerkung erstellt - unabhängig davon, in welcher Report Suite-Zeitzone Sie sich befinden.
 
-Ein weiteres Beispiel ist der Neujahrstag. Jede Stunde wird eine andere Zeitzone mit Feuerwerkskörper eingerichtet, wenn das neue Jahr beginnt. At 10pm US Mountain Time, the US east coast is setting off fire works because it is already 12am Eastern Time.
+Ein weiteres Beispiel ist der Neujahrstag. Jede Stunde wird eine andere Zeitzone mit Feuerwerkskörper eingerichtet, wenn das neue Jahr beginnt. Um 22:00 Uhr US Mountain Time startet die US-Ostküste Feuerwerke, weil es bereits 12:00 Uhr Eastern Time ist.
 
 ## Sonstige Aktionen mit Anmerkungen
 
@@ -78,4 +74,4 @@ Wählen Sie einfach eine oder mehrere der Anmerkungen aus, und die Task-Leiste w
 | [!UICONTROL Umbenennen] | Beim Umbenennen einer Anmerkung wird sie in allen Projekten, auf die sie angewendet wurde, umbenannt. |
 | [!UICONTROL Copy] | Erstellt eine eigenständige Kopie mit einer eigenen neuen Anmerkungs-ID, jedoch mit demselben Namen und derselben Definition. |
 | [!UICONTROL In CSV exportieren] | Exportiert die Anmerkungsdefinition in eine CSV-Datei. |
-| [!UICONTROL Filter] (left rail) | Filtern Sie nach Tags, Report Suite, Inhabern und anderen Filtern („Meine“, „Genehmigt“, „Favoriten“, „Für mich freigegeben“ und „Alle anzeigen“). |
+| [!UICONTROL Filter] (linke Leiste) | Filtern Sie nach Tags, Report Suite, Inhabern und anderen Filtern („Meine“, „Genehmigt“, „Favoriten“, „Für mich freigegeben“ und „Alle anzeigen“). |

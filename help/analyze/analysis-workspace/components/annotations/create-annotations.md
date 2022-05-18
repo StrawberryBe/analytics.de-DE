@@ -4,18 +4,14 @@ description: Erstellen von Anmerkungen in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 95%
+source-wordcount: '587'
+ht-degree: 96%
 
 ---
 
 # Erstellen von Anmerkungen
-
->[!NOTE]
->
->Die schrittweise Einführung dieser Funktion beginnt am 23. März 2022. Allgemeine Verfügbarkeit: 11. April 2022.
 
 1. Um Anmerkungen zu erstellen, haben Sie verschiedene Möglichkeiten zur Verfügung:
 
