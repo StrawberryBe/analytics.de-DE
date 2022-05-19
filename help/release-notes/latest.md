@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
+source-git-commit: b9bf373d7d62d7b6df405629cdf304246b80649f
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 82%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 
 | Funktion | Beschreibung | [Zieldatum](releases.md) |
 | ----------- | ---------- | ------- |
-| Auffüllen von Lebenszyklusdimensionen und Metriken über Experience Edge | Viele Lebenszyklusereignisse werden jetzt automatisch XDM-Feldern zugeordnet. Nicht automatisch zugeordnete Ereignisse können über Schlüssel/Wert-Paare in Freiform an Adobe gesendet werden. [Weitere Informationen - in Kürze verfügbar] | 27. Mai 2022 |
+| Auffüllen von Lebenszyklusdimensionen und Metriken über Experience Edge | Mobile Lebenszyklusdaten, die über Experience Edge gesendet werden, werden jetzt in Analytics-Berichten angezeigt. Weitere Informationen dazu, welche Lebenszyklusdaten über Experience Edge erfasst werden und wie sie mit vorhandenen Lebenszyklusberichten übereinstimmen, finden Sie in der Dokumentation . [Weitere Informationen - in Kürze verfügbar] | 27. Mai 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
