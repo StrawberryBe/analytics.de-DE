@@ -3,9 +3,9 @@ title: Administratorhandbuch für Analytics
 description: Hilfe zur Verwaltung für Adobe Analytics-Administratoren, darunter zu Benutzer- und Produktverwaltung in der Admin Console, Einrichtung von Report Suites, Variablen, Klassifizierungen und Datenerfassung.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
-source-wordcount: '328'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin 
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/?lang=de#home)

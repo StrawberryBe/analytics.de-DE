@@ -2,9 +2,9 @@
 title: Exportleitfaden für Analytics
 description: In diesem Handbuch werden Möglichkeiten erläutert, wie Daten mithilfe von Daten-Feeds und Data Warehouse aus Adobe Analytics abgerufen werden können.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '173'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '174'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/?lang=de#home)

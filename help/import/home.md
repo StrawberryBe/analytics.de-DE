@@ -2,9 +2,9 @@
 title: Importhandbuch für Analytics
 description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Datenquellen, der Dateneinfügungs-API und Data Connectors in Analytics aufnehmen können.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: ht
-source-wordcount: '160'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/?lang=de#home)
