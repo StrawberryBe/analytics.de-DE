@@ -7,7 +7,7 @@ user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichti
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 98%
          + [Überblick](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Eingabe- und Ausgabeeinstellungen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Häufig gestellte Fragen (FAQ)](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [Nächstes oder vorheriges Element](analysis-workspace/c-panels/next-previous.md)
+      + [Bedienfeld „Nächstes oder vorheriges Element“](analysis-workspace/c-panels/next-previous.md)
       + [Bedienfeld „Seitenzusammenfassung“](analysis-workspace/c-panels/page-summary.md)
       + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
       + Bedienfeld für den Segmentvergleich {#segment-comparison}
@@ -301,7 +301,7 @@ ht-degree: 98%
       + [Adobe Analytics für iOS](reports-analytics/overview/app-ios.md)
    + [Einstellungen zur Berichtsanzeige und Navigation](reports-analytics/report-settings.md)
    + [Berichtsplanung und -verteilung](reports-analytics/scheduling.md)
-   + [Hinweis zur Einstellung der Berichtserstellung für terminierte Berichte](reports-analytics/scheduled-reports-eol.md)
+   + [Hinweis auf das Auslaufen der terminierten Berichte](reports-analytics/scheduled-reports-eol.md)
    + [Berichtstypen](reports-analytics/reports.md)
    + [Verschiedene Berichtstypen ausführen](reports-analytics/t-running-report-types.md)
    + Berichte anpassen {#customize-reports}
