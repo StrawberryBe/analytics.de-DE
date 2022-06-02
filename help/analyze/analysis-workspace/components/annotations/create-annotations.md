@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
    | Element | Beschreibung |
    | --- | --- |
-   | [!UICONTROL Schreibgeschützte Anmerkungen] | Standardmäßig gilt die Anmerkung für das aktuelle Projekt. Wenn Sie dieses Kontrollkästchen aktivieren, können Sie die Anmerkung für alle Projekte verfügbar machen, deren Inhaber Sie sind.<p> ![](assets/project-only.png) |
+   | [!UICONTROL Projektspezifische Anmerkungen] | Standardmäßig gilt die Anmerkung für das aktuelle Projekt. Wenn Sie dieses Kontrollkästchen aktivieren, können Sie die Anmerkung in allen Projekten verfügbar machen, deren Inhaber Sie sind.<p> ![](assets/project-only.png) |
    | [!UICONTROL Titel] | Benennen Sie die Anmerkung, z. B. „Gedenktag“ |
    | [!UICONTROL Beschreibung] | (Optional) Geben Sie eine Beschreibung für die Anmerkung ein, z. B. „Feiertage in den USA“. |
    | [!UICONTROL Tags] | (Optional) Organisieren Sie Anmerkungen, indem Sie ein Tag erstellen oder anwenden. |
