@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -44,23 +44,23 @@ Sie können eine Anmerkung bearbeiten, indem Sie Datumsbereiche, Farben oder den
 
 * Klicken Sie in der [!UICONTROL Anmerkungsverwaltung] auf den Titel der Anmerkung.
 
-Beide Optionen bringen Sie zurück in die [!UICONTROL Anmerkungs-Builder]. Dort können Sie die erforderlichen Anpassungen vornehmen und die neue Version speichern.
+Beide Optionen führen Sie zurück in den [!UICONTROL Anmerkungsgenerator]. Dort können Sie die erforderlichen Anpassungen vornehmen und die neue Version speichern.
 
 ## Freigeben von Anmerkungen
 
 Beachten Sie Folgendes beim Freigeben von Anmerkungen oder Arbeiten mit Anmerkungen, die für Sie freigegeben wurden:
 
-* Angenommen, Sie erstellen ein Projekt mit nur projektbezogenen Anmerkungen und geben das Projekt dann für einen anderen Benutzer frei. Diese Anmerkungen werden angezeigt, können jedoch von niemandem bearbeitet oder gelöscht werden, für den Sie das Projekt freigeben.
+* Angenommen, Sie erstellen ein Projekt mit projektbezogenen Anmerkungen und geben das Projekt dann für einen anderen Benutzer frei. Diese Anmerkungen werden angezeigt, können jedoch von niemandem bearbeitet oder gelöscht werden, für den Sie das Projekt freigeben.
 
 * Wenn Sie eine Anmerkung speichern und sie direkt für einen Benutzer freigeben, kann dieser die Anmerkung nur bearbeiten/löschen, wenn er über Administratorrechte verfügt.
 
-* Wenn das Projekt für Sie freigegeben ist, wird es nur in diesem Projekt angezeigt. Wenn die Anmerkung direkt für Sie freigegeben ist, wird sie in allen Projekten angezeigt, in denen diese Anmerkung angezeigt werden kann.
+* Wenn das Projekt für Sie freigegeben ist, wird die Anmerkung nur in diesem Projekt angezeigt. Wenn die Anmerkung direkt für Sie freigegeben ist, wird sie in allen Projekten angezeigt, in denen diese Anmerkung angezeigt werden kann.
 
 ## Anmerkungen und Zeitzonen
 
 Alle Anmerkungen werden mit einem Zeitstempel erstellt, jedoch ohne Stunden- oder Zeitzoneninformationen. Zum Zeitpunkt des Berichts wird immer die Zeitzone der Report Suite des Bedienfelds angewendet. Daher wird am 25. Dezember eine für Weihnachten erstellte Anmerkung erstellt - unabhängig davon, in welcher Report Suite-Zeitzone Sie sich befinden.
 
-Ein weiteres Beispiel ist der Neujahrstag. Jede Stunde wird eine andere Zeitzone mit Feuerwerkskörper eingerichtet, wenn das neue Jahr beginnt. Um 22:00 Uhr US Mountain Time startet die US-Ostküste Feuerwerke, weil es bereits 12:00 Uhr Eastern Time ist.
+Ein weiteres Beispiel ist der Neujahrstag. Jede Stunde wird eine andere Zeitzone mit Feuerwerk eingerichtet, wenn das neue Jahr beginnt. Um 22:00 Uhr US Mountain Time startet die US-Ostküste Feuerwerk, weil es bereits 00:00 Uhr Eastern Time ist.
 
 ## Sonstige Aktionen mit Anmerkungen
 
@@ -71,10 +71,10 @@ Wählen Sie einfach eine oder mehrere der Anmerkungen aus, und die Task-Leiste w
 | Aufgabe | Beschreibung |
 | --- | --- |
 | [!UICONTROL Hinzufügen] | Sie gelangen zum Anmerkungsgenerator, in dem Sie neue Anmerkungen erstellen können. |
-| [!UICONTROL Tag] | Alle Benutzer können Tags für Anmerkungen erstellen und ein oder mehrere Tags auf eine Anmerkung anwenden. Sie können Tags jedoch nur für die Anmerkungen anzeigen, deren Inhaber Sie sind. Welche Arten von Tags sollten Sie erstellen? Hier finden Sie einige Vorschläge für nützliche Tags:<ul><li>Auf Teamnamen basierende Tags wie Social Marketing, Mobile Marketing</li><li>Projekt-Tags (Analyse-Tags) wie Entrypage-Analyse</li><li>Kategorie-Tags: Männer, Region</li><li>Arbeitsablauf-Tags: Kuratiert für (einen bestimmten Geschäftsbereich), Genehmigt</li></ul> |
+| [!UICONTROL Tag] | Alle Benutzer können Tags für Anmerkungen erstellen und ein oder mehrere Tags auf eine Anmerkung anwenden. Sie sehen Tags jedoch nur für die Anmerkungen, deren Inhaber Sie sind. Welche Arten von Tags sollten Sie erstellen? Hier finden Sie einige Vorschläge für nützliche Tags:<ul><li>Auf Teamnamen basierende Tags wie Social Marketing, Mobile Marketing</li><li>Projekt-Tags (Analyse-Tags) wie Entrypage-Analyse</li><li>Kategorie-Tags: Männer, Region</li><li>Workflow-Tags: Kuratiert für (einen bestimmten Geschäftsbereich), Genehmigt</li></ul> |
 | [!UICONTROL Löschen] | Durch das Löschen einer Anmerkung wird sie aus jedem Projekt in Ihrer Organisation entfernt. |
-| [!UICONTROL Umbenennen] | Beim Umbenennen einer Anmerkung wird sie in allen Projekten, auf die sie angewendet wurde, umbenannt. |
-| [!UICONTROL Copy] | Erstellt eine eigenständige Kopie mit einer eigenen neuen Anmerkungs-ID, jedoch mit demselben Namen und derselben Definition. |
+| [!UICONTROL Umbenennen] | Beim Umbenennen einer Anmerkung wird sie in allen Projekten umbenannt, auf die sie angewendet wurde. |
+| [!UICONTROL Kopieren] | Erstellt eine eigenständige Kopie mit einer eigenen neuen Anmerkungs-ID, jedoch mit demselben Namen und derselben Definition. |
 | [!UICONTROL In CSV exportieren] | Exportiert die Anmerkungsdefinition in eine CSV-Datei. |
 | [!UICONTROL Filter] (linke Leiste) | Filtern Sie nach Tags, Report Suite, Inhabern und anderen Filtern („Meine“, „Genehmigt“, „Favoriten“, „Für mich freigegeben“ und „Alle anzeigen“). |
 
