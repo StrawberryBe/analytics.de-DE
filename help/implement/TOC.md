@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,22 @@ ht-degree: 100%
    + [Implementierungs-Modal](prepare/implementation-modal.md)
    + [Lösungsdesigndokument erstellen](prepare/solution-design.md)
    + [Übernahme einer bestehenden Adobe Analytics-Implementierung](prepare/existing-implementation.md)
++ Analytics mit Experience Platform Edge implementieren {#aep-edge}
+   + [Übersicht über Experience Edge](aep-edge/overview.md)
+   + [Variablenzuordnung](aep-edge/variable-mapping.md)
+   + Web SDK {#web-sdk}
+      + [Web SDK – Übersicht](aep-edge/web-sdk/overview.md)
+   + Mobile SDK {#mobile-sdk}
+      + [Mobile SDK - Übersicht](aep-edge/mobile-sdk/overview.md)
+   + Edge-API {#edge-api}
+      + [Übersicht über die Edge-API](aep-edge/edge-api/overview.md)
++ Implementieren von Analytics mithilfe von Tags in Adobe Experience Platform {#launch}
+   + [Übersicht über Tags](launch/overview.md)
+   + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)
+   + [Bereitstellen in einer Entwicklungsumgebung](launch/deploy-dev.md)
+   + [Validieren und Veröffentlichen in der Produktionsumgebung](launch/validate-publish-prod.md)
+   + [Zuordnen von Datenschichtobjekten zu Datenelementen](launch/layer-to-elements.md)
+   + [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
 + Analytics mit JavaScript implementieren {#js}
    + [JavaScript-Übersicht](js/overview.md)
    + [Implementieren von Ausschluss-Links](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 100%
       + [Besuchsbeispiel](js/xdevice-visid/visit-example.md)
       + [Häufig gestellte Fragen zu veralteten geräteübergreifenden Themen](js/xdevice-visid/xdevice-faq.md)
    + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
-+ Implementieren von Analytics mithilfe von Tags in Adobe Experience Platform {#launch}
-   + [Übersicht über Tags](launch/overview.md)
-   + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)
-   + [Bereitstellen in einer Entwicklungsumgebung](launch/deploy-dev.md)
-   + [Validieren und Veröffentlichen in der Produktionsumgebung](launch/validate-publish-prod.md)
-   + [Zuordnen von Datenschichtobjekten zu Datenelementen](launch/layer-to-elements.md)
-   + [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
 + Analytics auf anderen Plattformen implementieren {#other}
    + [Analytics mit fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
    + [Analytics mit DTM implementieren](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 100%
    + [Gezielte Prüfung (nach jeder Website-Veröffentlichung)](review/focused-review.md)
    + [Vollständige Prüfung (alle 6 Monate)](review/full-review.md)
    + [Definieren Ihrer fünf wichtigsten KPIs](review/define-kpis.md)
-+ Verwenden von XDM-Daten mit Analytics {#aep-edge}
-   + [Verwenden von AEP Web SDK](aep-edge/xdmoverview.md)
-   + [Manuelles Zuordnen von XDM-Daten zu Analytics](aep-edge/xdm-manual.md)
