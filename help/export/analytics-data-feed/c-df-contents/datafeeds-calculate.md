@@ -4,10 +4,10 @@ keywords: Daten-Feed;Auftrag;Metrik;vor Spalte;nach Spalte;Bots;Datumsfilterung;
 title: Metriken berechnen
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe von Daten-Feeds berechnet werden.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Treffer, die normalerweise von Adobe Analytics ausgeschlossen sind, werden in Daten-Feeds eingeschlossen. Mit `exclude_hit > 0` können Sie ausgeschlossene Treffer aus Abfragen von Rohdaten entfernen. Daten aus Datenquellen werden in Daten-Feeds ebenfalls eingeschlossen. Wenn Sie Datenquellen ausschließen möchten, schließen Sie alle Zeilen mit `hit_source = 5,7,8,9` aus.
 

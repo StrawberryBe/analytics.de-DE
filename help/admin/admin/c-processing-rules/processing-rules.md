@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Übersicht über Verarbeitungsregeln
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,7 @@ Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltu
 
 Administratoren sind **standardmäßig** dazu berechtigt, Verarbeitungsregeln zu verwenden. Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. Eine Anleitung finden Sie unter []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->Da die Verarbeitungsregeln dauerhafte Auswirkungen auf die Analytics-Daten haben, empfiehlt Adobe dringend, dass für Verarbeitungsregeln zuständige Administratoren eine Schulung für Adobe Analytics erhalten, damit sie mit sämtlichen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Websites, Mobile Apps, Data Insertion API usw.) vertraut sind. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
+![Verarbeitungsregeln](assets/processing-rules.png)
 
 ## Vereinfachung der Datenerfassung durch Kontextdaten  {#section_09EEA03612D24C15839631AA9E9668D8}
 

@@ -3,10 +3,10 @@ title: Prop
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Bei Props wird standardmäßig nicht zwischen Groß- und Kleinschreibung untersc
 
 Sie können bei allen Props die Groß-/Kleinschreibung beachten. Sie können auch die Groß-/Kleinschreibung für jede Prop deaktivieren, sobald sie aktiviert ist. Wenden Sie sich an die Adobe-Kundenunterstützung mit der Report Suite-ID und den gewünschten Variablen, um die Groß-/Kleinschreibung zu ändern.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Beim Umschalten der Groß-/Kleinschreibung können Dimensionselemente abgeschnitten werden, unerwartete Ergebnisse bei Segmenten hervorgerufen werden und Probleme mit Filtern auftreten. Adobe empfiehlt dringend, diese Einstellung zwischen zwei Hauptzeiträumen umzuschalten, z. B. am Anfang eines Monats oder Jahres.
 

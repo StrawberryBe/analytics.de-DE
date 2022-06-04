@@ -3,8 +3,8 @@ title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
 description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Wenn `currencyCode` definiert ist und mit der Währung der Report Suite überein
 
 Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unterscheidet, wendet Adobe eine Währungsumrechnung auf der Grundlage des aktuellen Tageswechselkurses an. Adobe arbeitet mit [XE](https://xe.com) zusammen, um täglich Währungen umzurechnen. Alle in Datenerfassungs-Servern gespeicherten Werte werden letztendlich in der Währung der Report Suite gespeichert.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Wenn `currencyCode` einen ungültigen Wert enthält, wird der gesamte Treffer verworfen, was zu Datenverlust führt. Stellen Sie sicher, dass diese Variable korrekt definiert ist, wenn Sie sie in Ihrer Implementierung verwenden.
 

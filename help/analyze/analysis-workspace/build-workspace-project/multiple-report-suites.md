@@ -4,10 +4,10 @@ description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Sie können eine Report Suite auf alle Bedienfelder gleichzeitig anwenden, indem
 
 Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Vergleich zum „interaktiven Bedienfeld“ ein. Sie erkennen das aktive Bedienfeld am hellblauen Rand. Durch einfaches Klicken in ein Bedienfeld wird dieses Bedienfeld zum aktiven Bedienfeld.
 
->[!IMPORTANT]
+>[!TIP]
 >Sie können Objekte per Drag-and-Drop in ein beliebiges Bedienfeld ziehen, das sich in derselben Report Suite wie das aktive Bedienfeld befindet. Durch Ziehen eines Objekts in ein inaktives Bedienfled derselben Report Suite wird das Bedienfeld aktiv.
 
 | Aufgabe | Aktives Bedienfeld | Inaktives Bedienfeld |

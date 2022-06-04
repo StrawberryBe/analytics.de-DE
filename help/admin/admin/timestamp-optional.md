@@ -4,11 +4,10 @@ title: Zeitstempel optional
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
 * Senden Sie Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite.
 * Aktualisieren Sie Apps, um die Offline-Nachverfolgung zu verwenden, ohne eine neue Report Suite erstellen zu müssen.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Wenn Sie „Zeitstempel optional“ verwenden, dürfen Sie für bereits mit einem Zeitstempel versehene Daten [s.visitorID](/help/implement/vars/config-vars/visitorid.md) nicht festlegen. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Attribution (eVar-Persistenz), Besuchsnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
 

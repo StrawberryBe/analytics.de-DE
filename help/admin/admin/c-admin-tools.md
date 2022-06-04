@@ -3,10 +3,10 @@ description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Vermeiden Sie das Öffnen mehrerer Admin-Tabs im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
 
