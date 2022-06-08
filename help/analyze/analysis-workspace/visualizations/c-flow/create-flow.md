@@ -4,7 +4,7 @@ title: Flussvisualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 40%
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->Diese neue Version der [!UICONTROL Fluss] Die Visualisierung befindet sich derzeit in der privaten Beta-Phase. Siehe [diese Seite](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) für die aktuelle Funktion.
+>Diese neue Version der [!UICONTROL Fluss] Die Visualisierung wird derzeit nur eingeschränkt getestet. Siehe [diese Seite](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) für die aktuelle Funktion.
 
 Mit der aktualisierten Flussvisualisierung können Sie die Journey verstehen, die von einem bestimmten Konversionsereignis auf Ihrer Website oder in Ihrer App ausgehen oder dazu führen. Sie verfolgt einen Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken. Mit &quot;Fluss&quot;können Sie den Anfang oder das Ende des Pfades konfigurieren, an dem Sie interessiert sind, oder alle Pfade analysieren, die durch eine Dimension oder ein Dimensionselement fließen.
 
