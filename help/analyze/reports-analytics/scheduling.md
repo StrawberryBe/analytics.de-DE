@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 89%
+source-wordcount: '1772'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 Informationen zum Planen, Herunterladen und Verteilen von Berichten.
 
 >[!IMPORTANT]
->Ab dem 15. April 2022 beabsichtigt Adobe, alle terminierten Berichte, deren Erstellungsdatum mehr als zwei Jahre beträgt, anzuhalten (alle Aufgaben, die vor dem 31. Januar 2020 erstellt wurden). Es werden keine Berichte oder Daten gelöscht. Nur Berichte, die älter als zwei Jahre sind, werden angehalten und keine weiteren terminierten Berichte werden gesendet. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>Am 21. April 2022 haben wir bekannt gegeben, dass einige Funktionen für terminierte Berichte eingestellt wurden, um die zuvor angekündigte Einstellung des Lebenszyklus für Reports &amp; Analytics vorzubereiten. Zu diesen Funktionen gehörte die Möglichkeit, neue Berichte sowie neue Datenextraktionen zu planen. Auf Kundenanfragen, die eine Erweiterung anstreben und den Übergang von Reports &amp; Analytics erleichtern, haben wir beschlossen, den Zugriff auf diese Funktionen bis zum 31. Januar 2023 zu verlängern. Bitte beachten Sie, dass das Ablauffenster für Berichte und Datenextrakte weiterhin auf neun Monate begrenzt ist. Die Bereitstellung von Berichten und Datenextraktionen wird am Ende dieses Zeitraums ausgesetzt, es sei denn, der Zeitplan wird reaktiviert. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Verwenden Sie die Zeitplan- und Verteilungstools, um einen Bericht zur Bereitstellung in einer Adobe Analytics-Anwendung vorzumerken, den automatischen Versand von Dateien zu prüfen und die Bereitstellung abzuändern oder zu beenden.
 
