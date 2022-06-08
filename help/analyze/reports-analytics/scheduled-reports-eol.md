@@ -4,18 +4,20 @@ description: Adobe beabsichtigt, alle terminierten Berichte, deren Erstellungsda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 3a307eefec4f9e6559c5109819ef55b200852b3b
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 61%
 
 ---
 
 # Hinweis auf das Auslaufen der terminierten Berichte
 
-Mit Wirkung vom **21. April 2022** hat Adobe alle terminierten Berichte mit einem Erstellungsdatum von vor mehr als zwei Jahren (alle Aufgaben, die vor dem 31. Januar 2020 erstellt wurden) pausiert. Es wurden keine Berichte oder Daten gelöscht. Nur Berichte, die als älter als zwei Jahre identifiziert wurden, wurden pausiert, und es können keine weiteren terminierten Berichte gesendet werden.
+Am 21. April 2022 haben wir angekündigt, dass einige Funktionen für terminierte Berichte eingestellt wurden, um die zuvor angekündigte [Abschaffung der Unterstützung für Reports &amp; Analytics](https://express.adobe.com/page/6WnF8JK6IRDhf/). Zu diesen Funktionen gehörte die Möglichkeit, neue Berichte sowie neue Datenextraktionen zu planen. Als Antwort auf Kundenanfragen, die eine Erweiterung anstreben und den Übergang von Reports &amp; Analytics erleichtern möchten, haben wir beschlossen, den Zugriff auf diese Funktionen bis zum **31. Januar 2023**. Bitte beachten Sie, dass das Ablauffenster für Berichte und Datenextrakte weiterhin auf neun Monate begrenzt ist. Die Bereitstellung von Berichten und Datenextraktionen wird am Ende dieses Zeitraums ausgesetzt, es sei denn, der Zeitplan wird reaktiviert.
 
-Alle terminierten Berichte, die noch versendet werden sollen, können reaktiviert werden, indem Sie sich einfach bei Analytics anmelden und den Manager für [!UICONTROL Geplante Berichte] öffnen. Klicken Sie auf [!UICONTROL Bearbeiten] und legen Sie eine neue geplante Zeit und ein neues Ablaufdatum fest. Die Gültigkeit von reaktivierten Berichten beträgt standardmäßig 9 Monate – es sei denn, es wird ein früheres Ablaufdatum ausgewählt.
+Diese Funktionen werden am 31. Januar 2023 eingestellt. Danach müssen Sie Ihre terminierten Berichte auf einen der anderen Mechanismen migrieren, die Ihnen in Adobe Analytics zur Verfügung stehen.
+
+Alle terminierten Berichte, die noch versendet werden sollen, können reaktiviert werden, indem Sie sich einfach bei Analytics anmelden und den Manager für [!UICONTROL Geplante Berichte] öffnen. Klicken Sie auf **[!UICONTROL Bearbeiten]** und legen Sie eine neue geplante Zeit und ein neues Ablaufdatum fest. Die Gültigkeit von reaktivierten Berichten beträgt standardmäßig 9 Monate – es sei denn, es wird ein früheres Ablaufdatum ausgewählt.
 
 Darüber hinaus gilt für alle Berichte mit einem Erstellungsdatum von vor weniger als zwei Jahren ohne aktuelles Ablaufdatum (oder mit einem Ablaufdatum von mehr als zwei Jahren) das standardmäßige Ablaufdatum von 9 Monaten. Das neue Ablaufdatum ist der 15. Dezember 2022. Sie können dieses Ablaufdatum auf weniger als 9 Monate ändern, es kann jedoch nicht länger sein.
 
@@ -27,10 +29,10 @@ Zum Zeitpunkt des Ablaufs wird der terminierte Bericht angehalten. Der Bericht k
 
 Der Zweck dieser Aktion ist es, die terminierten Berichte effektiv zu verwalten und zu pflegen, während wir uns auf das bereits angekündigte Ende der Lebensdauer von Reports &amp; Analytics vorbereiten. Dies wird künftig unsere neue Governance-Richtlinie sein:
 
-* Nach dem 21. April 2022 können keine neuen terminierten Berichte mehr erstellt werden.
-* Seit dem 21. April 2022 haben alle terminierten Berichte ein maximales Ablaufdatum von 9 Monaten.
+* Nach dem 31. Januar 2023 können keine neuen terminierten Berichte mehr erstellt werden.
+* Nach dem 31. Januar 2023 gilt für alle terminierten Berichte ein maximales Ablaufdatum von 9 Monaten.
 * Nach 9 Monaten werden abgelaufene Aufgaben angehalten und können bei Bedarf bis zum 31. Dezember 2023 reaktiviert werden.
 * Am 31. Dezember 2023 wird Reports &amp; Analytics eingestellt.
-* Ab dem 21. April 2022 können Sie keine neuen Datenextraktionen mehr einrichten. Vorhandene werden weiterhin ausgeführt, aber es können keine neuen geplant werden.
+* Ab dem 31. Januar 2023 können Sie keine neuen Datenextrahierungen mehr einrichten. Vorhandene werden weiterhin ausgeführt, aber es können keine neuen geplant werden.
 
 Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenunterstützung von Adobe.
