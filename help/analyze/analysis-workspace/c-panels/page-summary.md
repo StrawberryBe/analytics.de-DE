@@ -1,17 +1,17 @@
 ---
 description: Das Bedienfeld "Seitenzusammenfassung"zeigt zusammenfassende Informationen für eine von Ihnen ausgewählte Seite an.
-title: Seitenzusammenfassungsbereich
+title: Bedienfeld „Seitenzusammenfassung“
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
 
 ---
 
-# Seitenzusammenfassungsbereich
+# Bedienfeld „Seitenzusammenfassung“
 
 Die [!UICONTROL Seitenzusammenfassung] wurde in Reports &amp; Analytics als Bericht unter Berichte > Interaktion > Seitenanalyse > Seitenzusammenfassung gestartet. Es handelt sich jetzt auch um einen Arbeitsbereich-Bereich. In diesem Bedienfeld können Sie einfach Schlüsselstatistiken zu bestimmten Seiten durchsuchen.
 
@@ -53,10 +53,10 @@ Die [!UICONTROL Seitenzusammenfassung] -Bedienfeld gibt einen umfangreichen Satz
 | [!UICONTROL Neuladungen] | Die [!UICONTROL Neuladungen] gibt an, wie oft ein Dimensionselement während einer Neuladung vorhanden war. Ein Besucher, der seinen Browser aktualisiert, stellt die häufigste Methode dar, eine Neuladung auszulösen. |
 | [!UICONTROL Einträge] | Die [!UICONTROL Einträge] gibt an, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. |
 | [!UICONTROL Ausstiege] | Die [!UICONTROL Ausstiege] gibt an, wie oft ein bestimmtes Dimensionselement als letzter Wert bei einem Besuch erfasst wird. |
-| [!UICONTROL Fluss] | Ein Flussdiagramm mit der ausgewählten Seite als Fokuspunkt. Sie können wie bei jeder [Flussdiagramm](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL Fluss] | Ein Flussdiagramm mit der ausgewählten Seite als Fokuspunkt. Sie können wie bei jeder [Flussdiagramm](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
-![Seitenzusammenfassungsbereich](assets/page-sum1.png)
+![Bedienfeld „Seitenzusammenfassung“](assets/page-sum1.png)
 
 ![Metriken und Fluss](assets/page-sum2.png)
