@@ -3,10 +3,10 @@ title: Erstellen einer Analytics-Eigenschaft in Tags
 description: Erstellen Sie mithilfe von Tags einen Bereich, um die Art der Datenerfassung anzupassen.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf
 
 Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verwenden. Mit Erweiterungen können Sie produktspezifische Tags installieren und konfigurieren.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
 1. Klicken Sie auf **[!UICONTROL Neue Eigenschaft]**.
 1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domain ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie auf die neu erstellte Tag-Eigenschaft, um deren Einstellungen einzugeben.
@@ -37,7 +37,7 @@ Die vollständige Dokumentation finden Sie in der [Adobe Analytics-Erweiterung](
 
 Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von Variablenwerten.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Datenelemente]** und dann auf **[!UICONTROL Datenelement hinzufügen]**.
 1. Legen Sie für das Datenelement die folgenden Einstellungen fest:
@@ -58,7 +58,7 @@ Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von 
 
 Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann diese Werte an die Adobe-Server gesendet werden.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 1. Klicken Sie auf **[!UICONTROL Regeln]** Registerkarte und klicken Sie dann auf **[!UICONTROL Regel hinzufügen]**. Benennen Sie ihn `Global Rule`.
 1. Klicken Sie neben „Ereignisse“ auf **[!UICONTROL Hinzufügen]** und geben Sie die folgenden Einstellungen ein:

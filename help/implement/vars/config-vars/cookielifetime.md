@@ -3,10 +3,10 @@ title: cookieLifetime
 description: Überschreiben Sie die Gültigkeit für von AppMeasurement erstellte Cookies.
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 80%
 
 ---
 
@@ -18,13 +18,17 @@ Von AppMeasurement gesetzte Cookies haben in der Regel eine Gültigkeit von 2 Ja
 >
 >Diese Variable wirkt sich auf die Zählung und Attribution von Unique Visitors aus. Gehen Sie beim Festlegen dieser Variablen mit Bedacht vor.
 
-## Cookie-Lebensdauer bei Verwendung von Tags in Adobe Experience Platform
+## Cookie-Lebensdauer mit dem Web SDK
+
+Das Web SDK bietet noch keine Anpassung an die Lebensdauer der von ihm festgelegten Cookies.
+
+## Cookie-Lebensdauer mit der Adobe Analytics-Erweiterung
 
 „Cookie-Lebensdauer“ ist ein Dropdown-Menü unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 1. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Dropdown-Menü [!UICONTROL Cookie-Lebensdauer] angezeigt wird.
 
 Dieses Dropdown-Menü enthält die folgenden Werte:
@@ -34,7 +38,7 @@ Dieses Dropdown-Menü enthält die folgenden Werte:
 * **Sitzung**: Cookie läuft am Ende der Sitzung des Besuchers ab.
 * **Sekunden**: Cookie läuft nach der angegebenen Anzahl von Sekunden ab. Wenn Sie dieses Dropdown-Menü beispielsweise auf [!UICONTROL Sekunden] festlegen und `86400` in das benutzerdefinierte Feld platzieren, laufen Cookies nach genau 24 Stunden ab.
 
-## s.cookieLifetime in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.cookieLifetime in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.cookieLifetime`-Variable ist eine Zeichenfolge, die das Ablaufdatum der von AppMeasurement gesetzten Cookies festlegt.
 

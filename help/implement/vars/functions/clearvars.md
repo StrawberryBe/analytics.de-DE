@@ -3,10 +3,10 @@ title: clearVars
 description: Löscht die folgenden Werte aus dem Instanzobjekt. Diese Funktion entfernt die Elemente (legt sie als „undefiniert“ fest).
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 74%
 
 ---
 
@@ -29,17 +29,21 @@ Diese Methode akzeptiert keine Argumente und gibt keinen Wert zurück. Der einzi
 * `zip`
 * `campaign`
 
-## Löschen von Variablen mithilfe von Tags in Adobe Experience Platform
+## Variablen mithilfe des Web SDK löschen
+
+Wenn Sie Daten mit dem Web SDK an Adobe senden, werden alle XDM-Daten automatisch gelöscht.
+
+## Variablen mithilfe der Adobe Analytics-Erweiterung löschen
 
 Legen Sie beim Konfigurieren einer Regel die Aktion „Variablen löschen“ fest.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-2. Klicken Sie auf die gewünschte Eigenschaft.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen löschen].
 
-## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Sie können die `s.clearVars()`-Methode an einer beliebigen Stelle in Ihrer Implementierung aufrufen, nachdem Sie die Analytics-Objektinstanz instanziiert haben.
 

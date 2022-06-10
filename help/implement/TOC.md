@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
-source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 93%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 95%
       + [Mobile SDK - Übersicht](aep-edge/mobile-sdk/overview.md)
    + Edge-API {#edge-api}
       + [Übersicht über die Edge-API](aep-edge/edge-api/overview.md)
-+ Implementieren von Analytics mithilfe von Tags in Adobe Experience Platform {#launch}
++ Analytics mithilfe der Adobe Analytics-Erweiterung implementieren {#launch}
    + [Übersicht über Tags](launch/overview.md)
    + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)
    + [Bereitstellen in einer Entwicklungsumgebung](launch/deploy-dev.md)

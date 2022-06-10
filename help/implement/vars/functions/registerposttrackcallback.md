@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Erstellen Sie Callback-Funktionen, nachdem Sie einen Treffer an Adobe gesendet haben.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,29 @@ Jedes Mal, wenn Sie die `registerPostTrackCallback`-Variable aufrufen, binden Si
 >
 >Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen [`registerPreTrackCallback`](registerpretrackcallback.md) und `registerPostTrackCallback` ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
 
-## Registrieren von Callback nach Tracking bei Verwendung von Tags in Adobe Experience Platform
+## Callback nach dem Tracking mit der Web SDK-Erweiterung
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In Vorbereitung!
 
-## s.registerPostTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor
+## Rückruf nach der Rückverfolgung - Manuelles Implementieren des Web SDK
+
+Sie können beim Senden eines Ereignisses einen JavaScript-Promise verwenden, um eine Funktion zu registrieren, nachdem die Daten erfolgreich an Adobe gesendet wurden.
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+Siehe [Umgang mit Antworten von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+
+## Registrieren von Callback nach Tracking mit der Adobe Analytics-Erweiterung
+
+Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+
+## s.registerPostTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Funktion `s.registerPostTrackCallback` akzeptiert als einziges Argument eine Funktion. Die verschachtelte Funktion wird direkt nach dem erfolgreichen Senden einer Bildanforderung ausgeführt.
 

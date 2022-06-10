@@ -3,10 +3,10 @@ title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 79%
 
 ---
 
@@ -16,11 +16,17 @@ Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefiniert
 
 Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen, statt in nummerierten Variablen zu erfassen. Anstatt beispielsweise anzufordern, dass Entwicklungsteams den Autor der Seite `eVar10` zuweisen, können Sie sie stattdessen auffordern, ihn `s.contextData["author"]` zuzuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen Analysevariablen für die Berichterstellung zuzuordnen. Entwicklungsteams würden sich letztlich nur um Kontextdatenvariablen kümmern, nicht um die vielen Seitenvariablen, die Adobe anbietet.
 
-## Kontextdatenvariablen mit Tags in Adobe Experience Platform
+## Kontextdatenvariablen mit dem Web SDK
 
-Die Datenerfassungs-Benutzeroberfläche verfügt über keinen speziellen Ort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Wenn ein XDM-Feld nicht [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), wird sie automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) , um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
 
-## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor
+Obwohl es sich als Best Practice empfiehlt, Daten den korrekten XDM-Feldern im Datastream zuzuordnen, erzielt diese Methode ähnliche Ergebnisse.
+
+## Kontextdatenvariablen mit der Adobe Analytics-Erweiterung
+
+Die Adobe Experience Platform-Datenerfassung verfügt nicht über einen speziellen Speicherort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+
+## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.contextData`-Variable nimmt keinen Wert direkt an. Setzen Sie stattdessen die Eigenschaften dieser Variable auf eine Zeichenfolge.
 

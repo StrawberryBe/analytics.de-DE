@@ -3,10 +3,10 @@ title: doPlugins
 description: Konfigurieren Sie die Logik, kurz bevor ein Treffer kompiliert und an Adobe gesendet wird.
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 57%
 
 ---
 
@@ -19,9 +19,32 @@ Die `doPlugins`-Variable dient als „letzte Chance“, um Werte in Ihrer Implem
 
 Verwenden Sie die `doPlugins`-Variable, um Plug-in-Code aufzurufen und endgültige Variablenwerte festzulegen, bevor eine Bildanforderung kompiliert und an Adobe gesendet wird.
 
-## Plug-ins bei Verwendung von Tags in Adobe Experience Platform
+## Verwenden von On Before Event Send Callback-Code mit der Web SDK-Erweiterung
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+anstelle von `doPlugins`verwendet das Web SDK `onBeforeEventSend` mit ähnlichen Funktionen.
+
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
+1. under [!UICONTROL Datenerfassung], klicken Sie auf die **[!UICONTROL Bearbeiten am vor dem Senden des Callback-Codes eines Ereignisses]** Schaltfläche.
+1. Platzieren Sie den gewünschten Code im Editor.
+
+## Verwendung `onBeforeEventSend` Manuelles Implementieren des Web SDK
+
+anstelle von `doPlugins`verwendet das Web SDK `onBeforeEventSend` mit ähnlichen Funktionen. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## Plug-ins mit der Adobe Analytics-Erweiterung
+
+Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.doPlugins in AppMeasurement und im benutzerdefinierten Code
 
@@ -31,7 +54,7 @@ Stellen Sie die `s.doPlugins`-Variable auf eine Funktion ein, die den gewünscht
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Setzen Sie eine Funktion in Ihrer Implementierung nur einmal auf die `doPlugins`-Variable. Wenn Sie die `doPlugins`-Variable mehrmals festlegen, wird nur der neueste Code verwendet.
 

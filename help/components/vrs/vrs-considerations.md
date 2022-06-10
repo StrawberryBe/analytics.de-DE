@@ -4,10 +4,10 @@ keywords: Virtual Report Suite, VRS
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1753'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Wenn Sie sich dafür entscheiden, sekundäre Server-Aufrufe zugunsten von Virtua
    * Es empfiehlt sich, die [Segmentstapelung](/help/components/segmentation/segmentation-workflow/seg-build.md) als Best Practice zu verwenden, sodass Sie ein Segment an einem Ort bearbeiten und es auf alle abhängigen Virtual Report Suites anwenden können.
    * Verwenden Sie Treffercontainer, wenn Virtual Report Suites sich gegenseitig ausschließen sollen.
 2. Nachdem Sie bestätigt haben, dass die Virtual Report Suites korrekt eingerichtet sind, entfernen Sie die sekundären Report Suite-IDs aus Ihrer Implementierung. So entfernen Sie sekundäre Report Suites:
-   * Klicken Sie in der Datenerfassungs-Benutzeroberfläche in Adobe Experience Platform jeweils auf das „x“ neben den Report Suites, die Sie nicht mehr verwenden möchten.
+   * Klicken Sie in der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung auf das &quot;x&quot;neben allen Report Suites, die Sie nicht mehr verwenden möchten.
    * Suchen Sie in veralteten JavaScript-Implementierungen die `s.account`-Variable und entfernen Sie alle Report Suite-IDs, die Sie nicht mehr verwenden möchten.
    * Behalten Sie in jedem Fall nur die IDs der globalen/übergeordneten Report Suites bei, die Daten Ihrer Sites und Apps erfassen.
    * Navigieren Sie zu „Admin“ > „Report Suites“ und blenden Sie alle nicht mehr verwendeten sekundären Report Suites aus.

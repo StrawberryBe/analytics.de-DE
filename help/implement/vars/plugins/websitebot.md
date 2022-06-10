@@ -3,10 +3,10 @@ title: websiteBot
 description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Dieses Plug-in führt zwei Prüfungen durch:
 
 Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, kann das Plug-in 
 
-* Führen Sie entweder einen Aufruf mit der Regel „Direktaufruf“ mithilfe von Tags in Adobe Experience Platform durch oder
+* Führen Sie entweder einen Direktaufrufregel-Aufruf mit dem Web SDK oder der Adobe Analytics-Erweiterung durch oder
 * Führen Sie einen Linktracking-Aufruf aus, um anzugeben, dass der Besucher kein Bot ist.
 
 ## Voraussetzungen

@@ -3,10 +3,10 @@ title: timestamp
 description: Setzen Sie den Zeitstempel des Treffers manuell fest.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ Die `timestamp`-Variable legt den Zeitstempel des Treffers für Report Suites mi
 >
 >Verwenden Sie diese Variable nicht, wenn Ihre Report Suite nicht explizit für die Annahme von Treffern mit Zeitstempel konfiguriert ist. AppMeasurement legt die Zeit eines Treffers für Report Suites automatisch fest, die keine Treffer mit Zeitstempel unterstützen. Wenn Sie einen Treffer mit dieser Variablen an eine Report Suite senden, die keine Zeitstempel unterstützt, gehen diese Daten dauerhaft verloren.
 
-## Zeitstempel bei Verwendung von Tags in Adobe Experience Platform
+## Zeitstempel mit der Adobe Analytics-Erweiterung
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.timestamp in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.timestamp in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.timestamp`-Variable ist eine Zeichenfolge, die das Datum und die Uhrzeit des Treffers enthält. Gültige Zeitstempelformate sind [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) und [UnixZeit](https://de.wikipedia.org/wiki/Unixzeit).
 
@@ -42,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## Werte nach ISO 8601
 
-Die nach [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) angegebenen Daten und Zeiten können in verschiedenen Formen verwendet werden. Adobe unterstützt nicht alle Funktionen von ISO 8601.
+Die nach [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) angegebenen Daten und Zeiten können in verschiedenen Formen verwendet werden. Adobe unterstützt nicht alle Funktionen von ISO 8601.
 
 * Sowohl das Datum als auch die Uhrzeit müssen durch `T` getrennt angegeben werden.
 * Stunden und Minuten sind erforderlich; Sekunden sind optional, werden aber empfohlen.

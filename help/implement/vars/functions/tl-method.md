@@ -3,10 +3,10 @@ title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 80%
 
 ---
 
@@ -16,20 +16,38 @@ Die `tl()`-Methode ist eine wichtige Kernkomponente von Adobe Analytics. Sie nim
 
 Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackExternalLinks`](../config-vars/trackexternallinks.md) aktiviert ist, ruft AppMeasurement automatisch die `tl()`-Methode auf, um Download- und Exitlinktracking-Daten zu senden. Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten haben möchte, können Sie die `tl()`-Methode manuell aufrufen. Benutzerspezifische Links können nur manuell verfolgt werden.
 
-## Linktracking-Aufruf mithilfe von Tags in Adobe Experience Platform
+## Linktracking mit dem Web SDK
 
-Die Datenerfassungs-Benutzeroberfläche verfügt über einen speziellen Ort, um einen Linktracking-Aufruf festzulegen.
+Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. beide verwenden `sendEvent` Befehl. Wenn Adobe Analytics ein bestimmtes Ereignis als Linktracking-Aufruf zählen soll, stellen Sie sicher, dass Ihre XDM-Daten `web.webInteraction.name`, `web.webInteraction.URL`und `web.webInteraction.type`.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-1. Klicken Sie auf die gewünschte Eigenschaft.
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Linktracking mit der Adobe Analytics-Erweiterung
+
+Die Adobe Analytics-Erweiterung verfügt über einen speziellen Speicherort, um einen Linktracking-Aufruf festzulegen.
+
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
-1. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie [!UICONTROL Aktionstyp] auf „Beacon senden“.
+1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine Aktion hinzuzufügen.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Signal senden]**.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
-Sie können in der Datenerfassungs-Benutzeroberfläche keine optionalen Argumente festlegen.
+Sie können keine optionalen Argumente in der Analytics-Erweiterung festlegen.
 
-## s.tl()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.tl() -Methode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Rufen Sie die `s.tl()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 

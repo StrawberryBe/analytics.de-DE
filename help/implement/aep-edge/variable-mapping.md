@@ -2,9 +2,9 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge
 description: Anzeigen der XDM-Felder, die Edge automatisch Analytics-Variablen zuordnet
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 1ed07727530ef5e3c9afbb291772f668fdee5d45
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,13 @@ Die folgende Tabelle zeigt die Variablen, die das Adobe Experience Platform Edge
 | `environment.operatingSystem` | Mobile Dimension [Betriebssystem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | Mobile Dimension [Betriebssystemversion](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.type` | Gibt an, ob das Ereignis von einer [Wearable](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html) Gerät. Gültige Werte sind `Application` (Das Ereignis stammt aus der App), `Extension` (das Ereignis stammt von der Wearable App) oder `Widget` (Das Ereignis stammt von einem mobilen Widget). |
+| `_experience.analytics.customDimensions.eVars.eVar1` -<br/>`_experience.analytics.customDimensions.eVars.eVar250` | Legt die entsprechenden fest [eVar](../../components/dimensions/evar.md) Dimension. |
+| `_experience.analytics.customDimensions.listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.listProps.prop75.delimiter` | Das für eine bestimmte [Listen-Prop](../vars/page-vars/prop.md#list-props). |
+| `_experience.analytics.customDimensions.listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.listProps.prop75.values` | Ein Zeichenfolgen-Array, das die entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props) -Werte. |
+| `_experience.analytics.customDimensions.lists.list1.list` -<br/>`_experience.analytics.customDimensions.lists.list3.list` | Legt die entsprechenden fest [Listenvariable](../vars/page-vars/list.md). |
+| `_experience.analytics.customDimensions.props.prop1` -<br/>`_experience.analytics.customDimensions.props.prop75` | Legt die entsprechenden fest [Prop](../../components/dimensions/prop.md) Dimension. |
+| `_experience.analytics.event1to100.event1.id` -<br/>`_experience.analytics.event901to1000.event1000.value` | Gilt [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) an die jeweiligen [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) Metrik. |
+| `_experience.analytics.event1to100.event1.value` -<br/>`_experience.analytics.event901to1000.event1000.value` | Erhöht die jeweilige [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) um den gewünschten Betrag. |
 | `identityMap.ECID[0].id` | Die [Adobe Experience Cloud Identity-Dienst-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). |
 | `marketing.trackingCode` | Legt die [Trackingcode](../../components/dimensions/tracking-code.md) Dimension. |
 | `media.mediaTimed.completes.value` | Die Media Analytics-Metrik [Inhaltsbeendigung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete). |
@@ -101,10 +108,10 @@ Die folgende Tabelle zeigt die Variablen, die das Adobe Experience Platform Edge
 | `placeContext.geo.longitude` | Die Länge der Mobile-Dimension. |
 | `placeContext.geo.postalCode` | Die [Postleitzahl](../../components/dimensions/zip-code.md) Dimension. |
 | `placeContext.geo.stateProvince` | Die [US-Staaten](../../components/dimensions/us-states.md) Dimension. |
-| `productListItems[N].lineItemId` | Die [Kategorie](../../components/dimensions/category.md) Dimension. |
-| `productlistitems[N].name` | Die [Produkt](../../components/dimensions/product.md) Dimension. |
-| `productlistitems[N].priceTotal` | Hilft bei der Bestimmung der [Umsatz](../../components/metrics/revenue.md) Metrik. |
-| `productlistitems[N].quantity` | Hilft bei der Bestimmung der [Einheiten](../../components/metrics/units.md) Metrik. |
+| `productListItems[].lineItemId` | Die [Kategorie](../../components/dimensions/category.md) Dimension. |
+| `productListItems[].name` | Die [Produkt](../../components/dimensions/product.md) Dimension. |
+| `productListItems[].priceTotal` | Hilft bei der Bestimmung der [Umsatz](../../components/metrics/revenue.md) Metrik. |
+| `productListItems[].quantity` | Hilft bei der Bestimmung der [Einheiten](../../components/metrics/units.md) Metrik. |
 | `web.webInteraction.URL` | Die [linkURL](../vars/config-vars/linkurl.md) Implementierungsvariable. |
 | `web.webInteraction.name` | Die [Benutzerspezifischer Link](../../components/dimensions/custom-link.md), [Downloadlink](../../components/dimensions/download-link.md)oder [Exitlink](../../components/dimensions/exit-link.md) Dimension, abhängig vom Wert in `web.webInteraction.type` |
 | `web.webInteraction.type` | Bestimmt den Typ des angeklickten Links. Gültige Werte sind `lnk_o` (Benutzerspezifische Links), `lnk_d` (Downloadlinks) und `lnk_e` (Exitlinks). |

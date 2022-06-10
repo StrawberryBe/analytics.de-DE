@@ -3,10 +3,10 @@ title: fpcookieDomainPeriods
 description: Hilft AppMeasurement zu verstehen, welche Domain Cookies speichern soll, wenn Ihre Domain einen Punkt im Suffix hat.
 feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 82%
 
 ---
 
@@ -21,18 +21,22 @@ Mithilfe der `fpCookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo
 >
 >Berücksichtigen Sie für diese Variable keine Subdomains. Legen Sie beispielsweise nicht `fpCookieDomainPeriods` für die Beispiel-URL `store.toys.example.com` fest. AppMeasurement erkennt standardmäßig, dass Cookies auf `example.com` gespeichert werden sollen. Das gilt auch für URLs mit vielen Unterdomänen.
 
-## Punkte im Namen von Erstanbieter-Domains bei Verwendung von Tags in Adobe Experience Platform
+## Erstanbieter-Domänenpunkte, die das Web SDK verwenden
+
+Das Web SDK kann die richtige Cookie-Speicherdomäne ohne diese Variable ermitteln.
+
+## Erstanbieter-Domänenpunkte, die die Adobe Analytics-Erweiterung verwenden
 
 „Erstanbieter-Domain-Punkte“ ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Feld [!UICONTROL Erstanbieter-Domänenpunkte] angezeigt wird.
 
 Setzen Sie dieses Feld nur bei Domänen, die einen Punkt im Suffix enthalten, auf `3`. Andernfalls kann dieses Feld leer gelassen werden.
 
-## s.fpCookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.fpCookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Variable `fpCookieDomainPeriods` ist eine Zeichenfolge, die normalerweise auf `"3"` gesetzt wird, und zwar nur bei Domänen, die einen Punkt in ihrem Suffix enthalten. Der Standardwert ist `"2"`, der für die meisten Domänen geeignet ist.
 

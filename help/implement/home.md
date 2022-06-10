@@ -3,10 +3,10 @@ title: Implementieren von Adobe Analytics
 description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft oder Anwendung.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,8 @@ Der JavaScript-Code sendet eine Bildanforderung an die Adobe-Datenerfassungs-Ser
 
 Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um Daten an die Datenerfassungs-Server zu senden. Abhängig von der Plattform und den Anforderungen Ihres Unternehmens gibt es verschiedene Methoden, um diesen Code zu implementieren.
 
-* **Tags in Adobe Experience Platform**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Platzieren Sie ein Loader-Tag auf jeder Seite und verwenden Sie die Datenerfassungs-Benutzeroberfläche, um jede Variable zu definieren.
+* **Web SDK**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Installieren Sie die Web SDK-Erweiterung in der Adobe Experience Platform-Datenerfassung, verwenden Sie auf jeder Seite ein Lader-Tag und senden Sie Daten an Adobe Experience Platform Edge in einem für Ihr Unternehmen geeigneten Format. Experience Edge leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
+* **Adobe Analytics-Erweiterung**: Installieren Sie die Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung. Platzieren Sie ein Loader-Tag auf jeder Seite und verwenden Sie die Analytics-Erweiterung, um zu bestimmen, wie die einzelnen Variablen definiert sind.
 * **Legacy JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Führt Variablen und Einstellungen auf, die in einer Implementierung verwendet werden. Dies kann für ta-Implementierungen hilfreich sein, bei denen Regeln mit benutzerdefiniertem Code verwendet werden.
 * **Mobile SDK**: Spezifische Bibliotheken zum einfachen Senden von Daten aus Ihrer App an Adobe.
 

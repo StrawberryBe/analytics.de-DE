@@ -3,10 +3,10 @@ title: Adobe Analytics-Berechtigungen – Übersichtstabellen
 description: Tabellen, die die verfügbaren Adobe Analytics-Berechtigungen in Admin Console zusammenfassen.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 
 | Analytics-Werkzeug | Administration | Zugriffskontrollen | Reine Berichtsfunktionen | Nicht mehr verwendet | Beschreibung |
 | --- | --- | --- | --- | --- | --- |
-| Code-Manager | x |  |  |  | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen können Sie stattdessen die in der Datenerfassungs-Benutzeroberfläche enthaltenen Bibliotheken verwenden. |
+| Code-Manager | x |  |  |  | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen verwenden Sie stattdessen die Bibliotheken, die in der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung enthalten sind. |
 | Code-Manager – Web-Services | x |  |  |  | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
 | Ausblenden von Report Suites | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Report Suites ausblenden“. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
 | Integrationen (Erstellen) | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Erstellen von Data Connectors. |

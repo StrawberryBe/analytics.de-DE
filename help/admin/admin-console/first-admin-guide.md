@@ -3,10 +3,10 @@ title: Adobe Analytics-Handbuch für erste Administratoren
 description: Hier erfahren Sie, wie Sie mit Adobe Analytics, allgemeinen Rollentypen und der Anmeldung bei der Benutzeroberfläche beginnen.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '942'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Ein erster Administrator ist der Ausgangspunkt, um dem Rest der Organisation die
 Wenn Ihre Organisation Adobe Analytics erworben hat, sollten Sie folgende wichtige Rollen berücksichtigen:
 
 * **Adobe Analytics-Administratoren:** Diese Benutzer haben vollen Zugriff auf alle Funktionen in Adobe Analytics, einschließlich Report Suite-Einstellungen und Benutzerberechtigungen. Je nachdem, wie Ihre Organisation strukturiert ist, können verschiedene Mitarbeiter oder Teams für unterschiedliche Facetten der Analytics-Verwaltung verantwortlich sein. Beispielsweise ist eine Person für die Benennung der Variablen verantwortlich, die in einer Implementierung verwendet werden sollen. Eine andere Person kann dafür verantwortlich sein, dass Benutzer Berichte korrekt abrufen können, indem sie sicherstellt, dass jeder über die richtigen Berechtigungen verfügt. Identifizieren Sie mindestens einen Benutzer, der für die Einstellungen und Benutzerberechtigungen in Analytics verantwortlich sein kann. Dieser kann dann weitere Analytics-Administratoren einladen.
-* **Datenerfassungs-Administratoren**: Diese Benutzer haben vollen Zugriff auf alle Elemente in der Datenerfassungs-Benutzeroberfläche (ehemals Experience Platform Launch-Benutzeroberfläche), einschließlich Veröffentlichungsberechtigungen, der Berechtigung zur Erstellung von Containern und Benutzerberechtigungen. Diese Benutzer müssen nicht unbedingt Programmierer sein, aber zumindest Anfängerkenntnisse in HTML, CSS und JavaScript sind von Vorteil. Diese Personen sind dafür verantwortlich, mit den Website-Verantwortlichen Ihrer Organisation zusammenzuarbeiten, um die Experience Platform-Tags auf Ihrer Site zu implementieren. Bestimmen Sie mindestens einen Benutzer, der für die Implementierung in Ihrer Organisation verantwortlich ist. Dieser kann dann weitere Datenerfassungs-Administratoren einladen.
+* **Datenerfassungs-Administratoren:** Diese Benutzer haben vollen Zugriff auf alles in der Adobe Experience Platform-Datenerfassung, einschließlich Veröffentlichungsberechtigungen, Erstellen von Containern und Benutzerberechtigungen. Diese Benutzer müssen nicht unbedingt Programmierer sein, aber zumindest Anfängerkenntnisse in HTML, CSS und JavaScript sind von Vorteil. Sie sind dafür verantwortlich, mit den Website-Eigentümern Ihres Unternehmens zusammenzuarbeiten, um Tags auf Ihrer Site implementieren zu können. Bestimmen Sie mindestens einen Benutzer, der für die Implementierung in Ihrer Organisation verantwortlich ist. Dieser kann dann weitere Datenerfassungs-Administratoren einladen.
 * **Support-//Beauftragter**: Auch als unterstützte Benutzer bezeichnet, haben sie keine zusätzlichen Berechtigungen in der Analytics-Oberfläche. Stattdessen erhalten sie bei der Kommunikation mit der Adobe-Kundenunterstützung zusätzliche Berechtigungen. Diese Benutzer sind fast immer auch Analytics-Administratoren, da sie der Kundenunterstützung bei der Fehlerbehebung helfen. Identifizieren Sie mindestens einen Analytics-Administrator, der für die Erleichterung der Interaktionen zwischen Endbenutzern und der Adobe-Kundenunterstützung zuständig ist.
 * **Website-Verantwortliche:** Diese Personen oder Teams sind für die Codierung und Entwicklung Ihrer Website verantwortlich. Sie benötigen keine Konten, sollten jedoch mit Datenerfassungs-Administratoren zusammenarbeiten, um den Tag-Code zu erhalten und ihn auf Ihrer Website zu implementieren.
 * **Endbenutzer:** Diese Benutzer zeigen in der Regel Berichte an und suchen nach Antworten auf Geschäftsfragen. Analytics-Administratoren gewähren diesen Benutzern die Berechtigung, im Produkt zu arbeiten.

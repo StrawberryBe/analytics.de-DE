@@ -3,10 +3,10 @@ title: s_gi()
 description: Erstellen und verfolgen Sie Instanzen von AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 68%
 
 ---
 
@@ -14,18 +14,43 @@ ht-degree: 100%
 
 Die `s_gi()`-Funktion instanziiert oder findet eine Instanz von AppMeasurement nach Report Suite-ID. AppMeasurement verfolgt jede erstellte Instanz, und die `s_gi()`-Funktion gibt die vorhandene Instanz für eine Berichtssuite zurück, falls eine solche existiert. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt.
 
-## s_gi() bei Verwendung von Tags in Adobe Experience Platform
+## Instanziieren eines Tracking-Objekts mit der Web SDK-Erweiterung
+
+Die Web SDK-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch den Namen des Tracking-Objekts in den Erweiterungseinstellungen anpassen:
+
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter Adobe Experience Platform Web SDK.
+1. Ändern Sie die [!UICONTROL Name] auf den gewünschten Wert. Der Standardwert lautet `alloy`.
+
+## Manuelles Implementieren des Web SDK durch ein Tracking-Objekt instanziieren
+
+Der folgende Code lädt das Web SDK und instanziiert ein Tracking-Objekt. Sie können den Namen des Tracking-Objekts anpassen, indem Sie die Zeichenfolge ändern `"alloy"` am Ende des Inline-Skripts zum gewünschten Wert hinzu.
+
+```js
+<script>
+  !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+  []).push(o),n[o]=function(){var u=arguments;return new Promise(
+  function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+  (window,["alloy"]);
+</script>
+<script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
+```
+
+Siehe [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+
+## Instanziieren eines Tracking-Objekts mit der Adobe Analytics-Erweiterung
 
 Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch auch ein globales Tracking-Objekt im Akkordeon [!UICONTROL Bibliotheksverwaltung] festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
-4. Erweitern Sie das Akkordeon [!UICONTROL Bibliotheksverwaltung] und wählen Sie eine andere Optionsschaltfläche als [!UICONTROL Bibliothek für mich verwalten] aus.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
+1. Erweitern Sie das Akkordeon [!UICONTROL Bibliotheksverwaltung] und wählen Sie eine andere Optionsschaltfläche als [!UICONTROL Bibliothek für mich verwalten] aus.
 
 Im Textfeld für globale Variablen können Sie ein benutzerdefiniertes Tracking-Objekt festlegen. Der Standardwert lautet `s`.
 
-## s_gi() in AppMeasurement und im benutzerdefinierten Code-Editor
+## s_gi() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Rufen Sie die `s_gi()`-Funktion auf, um ein Tracking-Objekt zu instanziieren. Das einzige Argument enthält eine kommagetrennte Zeichenfolge von Report Suite-IDs. Das Argument der Report Suite-ID ist erforderlich.
 

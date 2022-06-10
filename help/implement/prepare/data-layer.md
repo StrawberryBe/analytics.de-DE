@@ -3,10 +3,10 @@ title: Datenschicht erstellen
 description: Erfahren Sie, was eine Datenschicht in Ihrer Analytics-Implementierung ist und wie sie zur Zuordnung von Variablen in Adobe Analytics verwendet werden kann.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerwe
    >
    >Das Befolgen der von Adobe empfohlenen Datenschichtspezifikationen ist optional. Wenn Sie bereits über eine Datenschicht verfügen oder sich anderweitig gegen die Adobe-Spezifikationen entscheiden, stellen Sie sicher, dass Ihre Organisation sich an den zu befolgenden Spezifikationen orientiert.
 1. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `digitalData.page.pageInfo.pageID`.
-1. **Verwenden Sie Tags in Adobe Experience Platform, um Datenschichtobjekte Datenelementen zuzuordnen**: Erstellen Sie Datenelemente in der Datenerfassungs-Benutzeroberfläche in Adobe Experience Platform und ordnen Sie sie den in Ihrer Datenschicht beschriebenen JavaScript-Attributen zu.
+1. **Verwenden der Adobe Experience Platform-Datenerfassung zum Zuordnen von Datenschichtobjekten zu Datenelementen**: Erstellen Sie Datenelemente in der Adobe Experience Platform-Datenerfassung und ordnen Sie sie den in Ihrer Datenschicht beschriebenen JavaScript-Attributen zu.
 1. **Verwenden Sie die Tag-Erweiterung von Adobe Analytics, um Datenelemente Analytics-Variablen zuzuordnen**: Ordnen Sie entsprechend Ihrem Lösungsentwurfsdokument jedes Datenelement der entsprechenden Analytics-Variablen zu.
 
 ## Spezifikationen

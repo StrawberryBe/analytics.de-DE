@@ -3,10 +3,10 @@ title: pageType
 description: Stellen Sie fest, ob es sich bei der aktuellen Seite um einen 404-Fehler handelt.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 77%
 
 ---
 
@@ -18,11 +18,11 @@ Die `pageType`-Variable ist eine Markierung, mit der Sie Fehlerseiten (wie z. B
 >
 >Legen Sie diese Variable nicht auf Seiten ohne Fehler fest.
 
-## Seitentyp bei Verwendung von Tags in Adobe Experience Platform
+## Seitentyp mit der Adobe Analytics-Erweiterung
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.pageType in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.pageType in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.pageType`-Variable ist eine Zeichenfolge, bei der der `errorPage`-Wert der einzige gültige Wert ist. Setzen Sie diese Variable auf diesen Wert auf jeder Fehlerseite Ihrer Website, z. B. auf 404-Seiten.
 

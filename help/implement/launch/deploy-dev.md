@@ -3,10 +3,10 @@ title: Adobe Analytics in einer Entwicklungsumgebung bereitstellen
 description: Hier erfahren Sie, wie Sie Tags verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 43%
 
 ---
 
@@ -22,7 +22,7 @@ Nachdem Sie eine Tag-Eigenschaft erstellt und konfiguriert haben, können die Bi
 
 Tags ermöglichen durch die Bereitstellung von Code zahlreiche betriebliche Arbeitsabläufe. Führen Sie die folgenden Schritte aus, um die erforderlichen Mindestkomponenten für eine Analytics-Implementierung zu erstellen. Als Tag-Administrator können Sie innerhalb Ihres Unternehmens den richtigen Arbeitsablauf für die Bereitstellung von Adobe-Lösungen einrichten.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
 2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 3. Klicken **[!UICONTROL Hosts]** Klicken Sie auf **[!UICONTROL Organisation hinzufügen]**.
 4. Benennen Sie ihn `"Adobe managed"`und wählen Sie **[!UICONTROL Verwaltet nach Adobe]** in der Dropdown-Liste Typ . Klicken Sie auf „Speichern“.
@@ -36,7 +36,7 @@ Tags ermöglichen durch die Bereitstellung von Code zahlreiche betriebliche Arbe
 
 Trotz aller bisherigen Änderungen und Konfigurationen wurde kein Code veröffentlicht. Wenn Sie eine Bibliothek erstellen, also eine Sammlung von Änderungen, können Sie Code auf Ihrer Website veröffentlichen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
 2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 3. Klicken Sie auf **[!UICONTROL Veröffentlichungsfluss]** Registerkarte und klicken Sie dann auf **[!UICONTROL Bibliothek hinzufügen]**. Siehe [Veröffentlichungsübersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) in der Dokumentation zu Tags finden Sie weitere Informationen zu dieser Seite.
 4. Benennen Sie die Bibliothek. `'Initial changes'`und wählen Sie Ihre Entwicklungsumgebung aus.

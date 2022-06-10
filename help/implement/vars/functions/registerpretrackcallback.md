@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: Erstellen Sie Callback-Funktionen, bevor Sie einen Treffer an Adobe senden.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 55%
 
 ---
 
@@ -24,11 +24,34 @@ Jedes Mal, wenn Sie die `registerPreTrackCallback`-Variable aufrufen, binden Sie
 >
 >Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen `registerPreTrackCallback` und `registerPostTrackCallback` ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
 
-## Registrieren von Callback vor Tracking mithilfe von Tags in Adobe Experience Platform
+## Rückruf-Vorverfolgung mit der Web SDK-Erweiterung
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Das Web-SDK kann eine Funktion nicht verbinden, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet wird. Sie können jedoch `onBeforeEventSend` um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird.
 
-## s.registerPreTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
+1. under [!UICONTROL Datenerfassung], klicken Sie auf die **[!UICONTROL Bearbeiten am vor dem Senden des Callback-Codes eines Ereignisses]** Schaltfläche.
+1. Platzieren Sie den gewünschten Code im Editor.
+
+## Rückruf manuell zurückverfolgen, um das Web SDK manuell zu implementieren
+
+Das Web-SDK kann eine Funktion nicht verbinden, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet wird. Sie können jedoch `onBeforeEventSend` , um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird, ähnlich wie bei `doPlugins`. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## Rückruf-Vorverfolgung mit der Adobe Analytics-Erweiterung
+
+Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+
+## s.registerPreTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Funktion `s.registerPreTrackCallback` akzeptiert als einziges Argument eine Funktion. Die verschachtelte Funktion wird direkt vor dem Senden einer Bildanforderung ausgeführt.
 

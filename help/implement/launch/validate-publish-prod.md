@@ -3,10 +3,10 @@ title: Entwicklungsimplementierung validieren und in der Produktion veröffentli
 description: Hier erfahren Sie, wie Sie Tags in Adobe Experience Platform verwenden, um Adobe Analytics in Ihrer Produktionsumgebung bereitzustellen.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,7 @@ Der Experience Cloud-Debugger ist eine Erweiterung, die alle Experience Cloud-Ta
 
 Nachdem Sie überprüft haben, ob Daten für Sie sichtbar sind, können Sie Ihre Implementierung an die Live-Version Ihrer Site übertragen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Publishing]** und suchen Sie die Bibliothek in der Spalte „Entwicklung“.
 1. Klicken Sie in der Bibliothek auf das Dropdown-Menü und wählen Sie **[!UICONTROL Zur Genehmigung übermitteln]**. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.

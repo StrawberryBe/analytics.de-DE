@@ -3,10 +3,10 @@ title: useLinkTrackSessionStorage
 description: Speichern von Linktracking-Daten im Sitzungsspeicher statt in einem Cookie.
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 81%
 
 ---
 
@@ -25,11 +25,15 @@ Die Verwendung der Sitzungsspeicherung eines Browsers für Linktracking unterlie
 
 AppMeasurement entfernt die Sitzungsspeicherungs-Linktracking-Daten, nachdem ein Treffer an Adobe gesendet wurde. Die Speicherung wird auch automatisch eingestellt, wenn die Browser-Registerkarte geschlossen wird.
 
-## Verwenden der Linktracking-Sitzungsspeicherung mithilfe von Tags in Adobe Experience Platform
+## Verwenden der Linktracking-Sitzungsspeicherung mithilfe des Web SDK
 
-In der Datenerfassungs-Benutzeroberfläche gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Das Web SDK unterstützt diese Funktion nicht.
 
-## s.useLinkTrackSessionStorage in AppMeasurement und im benutzerspezifischen Code-Editor
+## Verwenden des Linktracking-Sitzungsspeichers mithilfe der Adobe Analytics-Erweiterung
+
+Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+
+## s.useLinkTrackSessionStorage in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Variable `s.useLinkTrackSessionStorage` ist ein boolescher Wert, der bestimmt, ob AppMeasurement die Sitzungsspeicherung anstelle des `s_sq`-Cookies für die Linktracking-Daten verwendet. Der Standardwert lautet `false`. Legen Sie diese Variable auf `true` fest, wenn Sie möchten, dass AppMeasurement die Sitzungsspeicherung anstelle des `s_sq`-Cookies für Linktracking und Activity Map verwendet.
 

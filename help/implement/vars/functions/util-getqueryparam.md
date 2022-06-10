@@ -3,10 +3,10 @@ title: Util.getQueryParam
 description: Gibt den Wert eines Abfragezeichenfolgenparameters zurück.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 81%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 Abfragezeichenfolgenparameter in einer Browser-URL enthalten häufig wichtige Daten für Analytics. Verwenden Sie die `Util.getQueryParam()`-Methode, um Daten aus der Abfragezeichenfolge abzurufen.
 
-## Abrufen von Abfragezeichenfolgenparameterdaten mithilfe von Tags in Adobe Experience Platform
+## Abrufen von Abfragezeichenfolgenparameterdaten mithilfe der Adobe Analytics-Erweiterung und der Web SDK-Erweiterung
 
 Sie können Abfragezeichenfolgenparameterdaten abrufen, indem Sie Werte in Datenelementen festlegen.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-2. Klicken Sie auf die gewünschte Eigenschaft.
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Datenelemente] und klicken Sie dann auf das gewünschte Datenelement (oder erstellen Sie ein Datenelement).
-4. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] [!UICONTROL Core] aus und setzen Sie [!UICONTROL Datenelementtyp] auf [!UICONTROL Abfragezeichenfolgenparameter].
+4. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] **[!UICONTROL Core]** aus und setzen Sie [!UICONTROL Datenelementtyp] auf **[!UICONTROL Abfragezeichenfolgenparameter]**.
 5. Geben Sie den Abfragezeichenfolgenparameter in das Textfeld ein.
 
-Der Wert des Abfragezeichenfolgenparameters wird im Datenelement gespeichert. Anschließend können Sie auf das Datenelement in Regeln verweisen, um Analytics-Variablen zuzuweisen.
+Der Wert des Abfragezeichenfolgenparameters wird im Datenelement gespeichert. Anschließend können Sie das Datenelement in Regeln referenzieren, um die gewünschten Variablen zuzuweisen.
 
-## s.Util.getQueryParam() in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.Util.getQueryParam() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Rufen Sie die `s.Util.getQueryParam()`-Methode auf, um einen Abfragezeichenfolgenwert aus der Browser-URL abzurufen. Das Zeichenfolgenargument, das einen Abfragezeichenfolgenparameter enthält, ist erforderlich. Diese Methode gibt eine Zeichenfolge zurück, die Sie Analytics-Variablen zuweisen können:
 

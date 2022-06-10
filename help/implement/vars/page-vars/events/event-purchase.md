@@ -3,10 +3,10 @@ title: Kaufereignis
 description: Verwenden Sie das Kaufereignis, um Daten zu den Metriken „Bestellungen“, „Einheiten“ und „Umsatz“ zu erfassen.
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 72%
 
 ---
 
@@ -22,20 +22,28 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 
 >[!NOTE]
 >
->Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispiel: `s.products="Womens;Socks;5;4.50"` wird nicht als 22,50 USD im Umsatz ausgewiesen, sondern als 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist. Beispiel: `s.products="Womens;Socks;5;22.50"`.
+>Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispiel: `s.products="Womens;Socks;5;4.50"` überweist keine 22,50 USD in den Umsatz; Er überspringt 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist. Zum Beispiel `s.products="Womens;Socks;5;22.50"`.
 
-## Festlegen des Kaufereignisses mit Tags in Adobe Experience Platform
+## Festlegen des Kaufereignisses mit dem Web SDK
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-2. Klicken Sie auf die gewünschte Eigenschaft.
+Das Kaufereignis ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter mehreren XDM-Feldern:
+
+* Bestellungen werden zugeordnet zu `commerce.purchases.value`.
+* Einheiten werden der Summe aller `productListItems[].quantity` -Felder.
+* Der Umsatz wird der Summe aller `productListItems[].priceTotal` -Felder.
+
+## Festlegen des Kaufereignisses mit der Adobe Analytics-Erweiterung
+
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse] und wählen Sie im Dropdown-Menü „Ereignisse“ [!UICONTROL purchase] aus.
 
-Andere abhängige Variablen wie `products` und `purchaseID` verfügen über keine eigenen Felder in der Datenerfassungs-Benutzeroberfläche. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Andere abhängige Variablen wie `products` und `purchaseID` verfügen nicht über dedizierte Felder in der Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor festlegen
+## Festlegen des Kaufereignisses in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Das Kaufereignis ist eine Zeichenfolge, die als Teil der Ereignisvariablen festgelegt wird.
 

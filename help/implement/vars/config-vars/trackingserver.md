@@ -3,10 +3,10 @@ title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 69%
 
 ---
 
@@ -18,22 +18,47 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 >
 >Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Zahl der Unique Visitors kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
 
-## Tracking-Server bei Verwendung von Tags in Adobe Experience Platform
+## Edge-Domäne mit der Web SDK-Erweiterung
+
+Das Web SDK verwendet [!UICONTROL Edge-Domäne] zur Verarbeitung von Tracking-Server und Secure Tracking Server. Sie können die gewünschte [!UICONTROL Edge-Domäne] Wert beim Konfigurieren der Web SDK-Erweiterung.
+
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
+1. Festlegen der gewünschten **[!UICONTROL Edge-Domäne]** Textfeld.
+
+Siehe [Konfigurieren der Adobe Experience Platform Web SDK-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+
+>[!TIP]
+>
+>Wenn Ihr Unternehmen von einer Implementierung der AppMeasurement- oder Analytics-Erweiterung zum Web SDK wechselt, kann dieses Feld denselben Wert verwenden, der in `trackingServerSecure` (oder `trackingServer`).
+
+## Edge-Domäne, die das Web SDK manuell implementiert
+
+SDK mit konfigurieren [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de). Das Feld ist eine Zeichenfolge, die die Domäne bestimmt, an die Daten gesendet werden sollen.
+
+```json
+alloy("configure", {
+  "edgeDomain": "data.example.com"
+});
+```
+
+## Tracking-Server mit der Adobe Analytics-Erweiterung
 
 „Tracking-Server“ ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/data-collection) an.
-2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 4. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Tracking-Server] angezeigt wird.
 
 Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid].data.adobedc.net`ausgewählt.
 
-## s.trackingServer in AppMeasurement und im benutzerdefinierten Code-Editor
+## s.trackingServer in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.trackingServer`-Variable ist eine Zeichenfolge, die den Ort enthält, an die Daten gesendet werden sollen.
 
-## Bestimmen des Werts für „trackingServer“
+## Bestimmen des Werts für „`trackingServer`
 
 Der Wert dieser Variablen hängt davon ab, ob Sie Erstanbieter-Cookies oder Drittanbieter-Cookies verwenden. Adobe empfiehlt dringend, Erstanbieter-Cookies in Ihrer Implementierung zu verwenden.
 
