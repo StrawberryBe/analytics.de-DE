@@ -3,10 +3,10 @@ title: timestamp
 description: Setzen Sie den Zeitstempel des Treffers manuell fest.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '276'
+ht-degree: 78%
 
 ---
 
@@ -17,6 +17,10 @@ Die `timestamp`-Variable legt den Zeitstempel des Treffers für Report Suites mi
 >[!WARNING]
 >
 >Verwenden Sie diese Variable nicht, wenn Ihre Report Suite nicht explizit für die Annahme von Treffern mit Zeitstempel konfiguriert ist. AppMeasurement legt die Zeit eines Treffers für Report Suites automatisch fest, die keine Treffer mit Zeitstempel unterstützen. Wenn Sie einen Treffer mit dieser Variablen an eine Report Suite senden, die keine Zeitstempel unterstützt, gehen diese Daten dauerhaft verloren.
+
+## Zeitstempel mit dem Web SDK
+
+Zeitstempel: [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter dem XDM-Feld `_experience.analytics.session.timestamp`. Dieses Feld unterstützt nur die Unix-Zeit.
 
 ## Zeitstempel mit der Adobe Analytics-Erweiterung
 

@@ -3,10 +3,10 @@ title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,11 @@ Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackEx
 
 ## Linktracking mit dem Web SDK
 
-Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. beide verwenden `sendEvent` Befehl. Wenn Adobe Analytics ein bestimmtes Ereignis als Linktracking-Aufruf zählen soll, stellen Sie sicher, dass Ihre XDM-Daten `web.webInteraction.name`, `web.webInteraction.URL`und `web.webInteraction.type`.
+Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. beide verwenden `sendEvent` Befehl. Wenn Sie möchten, dass Adobe Analytics ein bestimmtes XDM-Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihre XDM-Daten enthalten oder zugeordnet sind zu `web.webInteraction.name`, `web.webInteraction.URL`und `web.webInteraction.type`.
+
+* Linkname wird zugeordnet zu `web.webInteraction.name`.
+* Link-URL wird zugeordnet zu `web.webInteraction.URL`.
+* Link-Typ wird zugeordnet `web.webInteraction.type`. Gültige Werte sind `other` (Benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks).
 
 ```js
 alloy("sendEvent", {

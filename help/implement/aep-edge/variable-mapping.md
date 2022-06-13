@@ -2,7 +2,7 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge
 description: Anzeigen der XDM-Felder, die Edge automatisch Analytics-Variablen zuordnet
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Die folgende Tabelle zeigt die Variablen, die das Adobe Experience Platform Edge
 | `productListItems[].quantity` | Hilft bei der Bestimmung der [Einheiten](../../components/metrics/units.md) Metrik. |
 | `web.webInteraction.URL` | Die [linkURL](../vars/config-vars/linkurl.md) Implementierungsvariable. |
 | `web.webInteraction.name` | Die [Benutzerspezifischer Link](../../components/dimensions/custom-link.md), [Downloadlink](../../components/dimensions/download-link.md)oder [Exitlink](../../components/dimensions/exit-link.md) Dimension, abhängig vom Wert in `web.webInteraction.type` |
-| `web.webInteraction.type` | Bestimmt den Typ des angeklickten Links. Gültige Werte sind `lnk_o` (Benutzerspezifische Links), `lnk_d` (Downloadlinks) und `lnk_e` (Exitlinks). |
+| `web.webInteraction.type` | Bestimmt den Typ des angeklickten Links. Gültige Werte sind `other` (Benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks). |
 | `web.webPageDetails.URL` | Die [Seiten-URL](../../components/dimensions/page-url.md) Dimension. |
 | `web.webPageDetails.errorPage` | Flag, das bei der Bestimmung von &quot;Seiten nicht gefunden&quot;hilft [Dimension](../../components/dimensions/pages-not-found.md) und [Metrik](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | Die [Seite](../../components/dimensions/page.md) Dimension. |
