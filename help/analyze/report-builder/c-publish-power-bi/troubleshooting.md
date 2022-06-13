@@ -4,10 +4,10 @@ title: Fehlerbehebung für die Power BI-Integration
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '370'
-ht-degree: 100%
+source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 66%
 
 ---
 
@@ -42,3 +42,26 @@ Bitten Sie einen Microsoft-Administrator, die Einstellung „Benutzer können An
 Benutzer können über den folgenden [Link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) Zugriff gewähren.
 
 Administratoren gewähren über folgenden [Link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) Zugriff für alle Benutzer.
+
+## API-Limit erreichen
+
+Die Berichterstellung in Power BI funktioniert mit der Analytics Reporting-API, sodass API-Schwellenwerte gelten. Bei Analytics 2.0-APIs wird die Drosselgrenze auf 120 Aufrufe pro Minute und Benutzer festgelegt, unabhängig von Report Suite oder Unternehmen. Wenn die Drosselung überschritten wird, gibt der Server dem Benutzer mit diesem Nachrichteninhalt den HTTP-429-Status zurück:
+
+```
+too many requests
+{"error_code":"429050","message":"Too many requests"}
+```
+
+Adobe empfiehlt, dass Sie *sich an* die folgenden Richtlinien:
+
+* Stellen Sie mehrere, kleinere Anforderungen anstelle einer großen, einzelnen Anforderung.
+* Daten einmalig anfordern und zwischenspeichern.
+* Führen Sie keine Umfrage nach neuen Daten in einem Intervall von 30 Minuten durch.
+* Rufen Sie historische Daten ab und erhöhen Sie sie regelmäßig, anstatt den gesamten Datensatz anzufordern.
+
+Adobe empfiehlt, dass Sie *vermeiden* Folgendes:
+
+* So viele Daten wie möglich in einer einzelnen Anfrage anfordern
+* Fordern Sie täglich Daten für ein Jahr an, um ein rollierendes 12-Monats-Fenster zu erhalten. Adobe empfiehlt, stattdessen die Daten des neuen Tages anzufordern und sie mit den Daten der vorherigen Tage zusammenzuführen.
+* Führen Sie eine Webseite mit einem Site-Performance-Widget durch, indem Sie jedes Mal, wenn die Webseite geladen wird, eine API-Anfrage stellen.
+* Migration von 1.4
