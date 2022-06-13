@@ -5,8 +5,8 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
-workflow-type: ht
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+workflow-type: tm+mt
 source-wordcount: '8276'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Unter [Adobe Experience Cloud-Versionshinweise](https://experienceleague.adobe.c
 | Funktion | Beschreibung |
 | --- | --- |
 | [Download von 50.000 Objekten für eine einzige Dimension](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de#download-items) | Sie können jetzt 50.000 Elemente für eine Dimension in einer Freiformtabelle herunterladen, wobei Segmente und Filter angewendet werden. Auf diese Weise können Sie auf mehr als 400 Datenzeilen außerhalb von Analysis Workspace zugreifen. |
-| [Verbesserungen der Linienvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=de) | <ul><li>Sie können die X- und Y-Achse jeder [!UICONTROL Linienvisualisierung] ein- oder ausblenden. Dies kann besonders dann hilfreich sein, wenn Ihre [!UICONTROL Linienvisualisierungen] kompakt sind.</li><li>Sie können bei jeder Linienvisualisierung eine Mindest- und Höchstwertebeschriftung darstellen, um rasch die Spitzen und Täler in einer Metrik hervorzuheben.</li><li>Sie können bei jeder Linienvisualisierung verschiedene Regressions-Trend-Linien einblenden, um den Daten-Trend leichter erkennbar zu machen. Zu den Optionen gehören [!UICONTROL Linear], [!UICONTROL Logarithmisch], [!UICONTROL Exponentiell], [!UICONTROL Leistung] und [!UICONTROL Quadratisch].</li></ul> |
+| [Verbesserungen der Linienvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Sie können die X- und Y-Achse jeder [!UICONTROL Linienvisualisierung] ein- oder ausblenden. Dies kann besonders dann hilfreich sein, wenn Ihre [!UICONTROL Linienvisualisierungen] kompakt sind.</li><li>Sie können bei jeder Linienvisualisierung eine Mindest- und Höchstwertebeschriftung darstellen, um rasch die Spitzen und Täler in einer Metrik hervorzuheben.</li><li>Sie können bei jeder Linienvisualisierung verschiedene Regressions-Trend-Linien einblenden, um den Daten-Trend leichter erkennbar zu machen. Zu den Optionen gehören [!UICONTROL Linear], [!UICONTROL Logarithmisch], [!UICONTROL Exponentiell], [!UICONTROL Leistung] und [!UICONTROL Quadratisch].</li></ul> |
 | Neue Datumsbereiche | Es wurden fünf neue Datumsbereiche hinzugefügt, sodass Sie aus Datumsbereichen wählen können, die keine partiellen Tagesdaten von heute enthalten: Letzte 7 volle Tage, Letzte 14 volle Tage, Letzte 30 volle Tage, Letzte 60 volle Tage, Letzte 90 volle Tage. |
 
 ## August 2020
@@ -76,7 +76,7 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 | Attribution IQ: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution IQ so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Diese erhöht in der Regel die Attributionsgenauigkeit bei Ereignissen, die zu Beginn des Reporting-Zeitraums eintreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten stattgefunden haben. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
 | Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
 | Schreibgeschützte Workspace-Projekte | Workspace-Projekte können schreibgeschützt für Benutzer freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten, keine linke Leiste und verfügt nur über beschränkte Interaktionen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de) |
-| Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
+| Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Aktualisiertes leeres Bedienfeld | Das leere Bedienfeld umfasst jetzt Bedienfelder und Visualisierungen, damit Sie den Analyse-Workflow, der für Sie am besten geeignet ist, einfacher auswählen können. |
 | Bedienfeld „Quick Insights“ (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Bedienfeld „Analytics for Target“ in Workspace (25. Juni 2020) | Im Bedienfeld „Analytics for Target“ (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -169,7 +169,7 @@ Verbesserung veröffentlicht am 9. Mai 2019.
 
 | Verbesserung | Beschreibung |
 |--- |--- |
-| Eine neue Einstellung wurde zu den Fluss-Visualisierungseinstellungen hinzugefügt: Wiederholungsinstanzen einschließen. | [Flusseinstellungen](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| Eine neue Einstellung wurde zu den Fluss-Visualisierungseinstellungen hinzugefügt: Wiederholungsinstanzen einschließen. | [Flusseinstellungen](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 
 ## April 2019
 
@@ -811,7 +811,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Fluss</b> </a>-Verbesserungen </td>
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  > <b>Fluss</b> </a>-Verbesserungen </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Es wurde eine neue Visualisierungseinstellung namens <span class="wintitle"> Bezeichnungskürzung deaktivieren </span> hinzugefügt (Standard = deaktiviert). </li>
