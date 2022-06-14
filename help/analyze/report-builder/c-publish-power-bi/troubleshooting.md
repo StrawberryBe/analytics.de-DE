@@ -4,10 +4,10 @@ title: Fehlerbehebung für die Power BI-Integration
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 66%
+source-wordcount: '408'
+ht-degree: 90%
 
 ---
 
@@ -45,23 +45,4 @@ Administratoren gewähren über folgenden [Link](https://login.microsoftonline.c
 
 ## API-Limit erreichen
 
-Die Berichterstellung in Power BI funktioniert mit der Analytics Reporting-API, sodass API-Schwellenwerte gelten. Bei Analytics 2.0-APIs wird die Drosselgrenze auf 120 Aufrufe pro Minute und Benutzer festgelegt, unabhängig von Report Suite oder Unternehmen. Wenn die Drosselung überschritten wird, gibt der Server dem Benutzer mit diesem Nachrichteninhalt den HTTP-429-Status zurück:
-
-```
-too many requests
-{"error_code":"429050","message":"Too many requests"}
-```
-
-Adobe empfiehlt, dass Sie *sich an* die folgenden Richtlinien:
-
-* Stellen Sie mehrere, kleinere Anforderungen anstelle einer großen, einzelnen Anforderung.
-* Daten einmalig anfordern und zwischenspeichern.
-* Führen Sie keine Umfrage nach neuen Daten in einem Intervall von 30 Minuten durch.
-* Rufen Sie historische Daten ab und erhöhen Sie sie regelmäßig, anstatt den gesamten Datensatz anzufordern.
-
-Adobe empfiehlt, dass Sie *vermeiden* Folgendes:
-
-* So viele Daten wie möglich in einer einzelnen Anfrage anfordern
-* Fordern Sie täglich Daten für ein Jahr an, um ein rollierendes 12-Monats-Fenster zu erhalten. Adobe empfiehlt, stattdessen die Daten des neuen Tages anzufordern und sie mit den Daten der vorherigen Tage zusammenzuführen.
-* Führen Sie eine Webseite mit einem Site-Performance-Widget durch, indem Sie jedes Mal, wenn die Webseite geladen wird, eine API-Anfrage stellen.
-* Migration von 1.4
+Die Berichterstellung in Power BI funktioniert mit der Analytics Reporting-API, sodass API-Schwellenwerte gelten. Weitere Informationen finden Sie unter [Wie hoch ist das Ratenlimit für API-Aufrufe?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
