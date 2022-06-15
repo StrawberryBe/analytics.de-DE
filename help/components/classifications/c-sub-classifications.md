@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
-title: Informationen über Unterklassifizierungen
+title: Unterklassifizierungen
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '651'
+source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
 
-# Informationen über Unterklassifizierungen
+# Unterklassifizierungen
 
 Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
 
@@ -88,6 +88,6 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 
 | SCHLÜSSEL | CODE | CODE^FARBE |
 |---|---|---|
-| * | 01 | Stein |
-| * | 03 | Heather |
-| * | 23 | Aqua |
+| &#42; | 01 | Stein |
+| &#42; | 03 | Heather |
+| &#42; | 23 | Aqua |

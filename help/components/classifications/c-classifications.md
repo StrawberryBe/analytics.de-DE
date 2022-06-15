@@ -3,66 +3,25 @@ title: Übersicht über Klassifizierungen
 description: Passen Sie die Gruppierung von Dimensionselementen an.
 feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 25%
 
 ---
 
 # Übersicht über Klassifizierungen
 
-Eine Classification ist eine Methode, mit der Sie Analytics-Variablendaten in Kategorien aufgliedern und diese Daten auf unterschiedliche Weise darstellen, sobald Sie einen Bericht erzeugen.
+Eine Classification ist eine Methode, mit der Sie Analytics-Variablendaten in Kategorien aufgliedern und diese Daten auf unterschiedliche Weise darstellen, sobald Sie einen Bericht erzeugen. Sie stellen eine Beziehung zwischen einem Variablenwert und Metadaten her, die sich auf diesen Wert beziehen. Classifications können für die meisten benutzerdefinierten Dimensionen wie Trackingcode, Props und eVars verwendet werden.
 
-Videoüberblick über [Analytics-Classifications](https://video.tv.adobe.com/v/16853/).
+Adobe bietet mehrere Möglichkeiten, Daten zu klassifizieren. Alle Classification-Daten funktionieren bei der Berichterstellung gleich und Sie können eine dieser Methoden kombinieren, die am besten zu Ihrem Unternehmen passt. Jede Klassifizierungsmethode bietet ihre eigenen Vorteile.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > *`<Traffic or Conversion>`*
+* **Klassifizierungssätze**: Erstellen und verwalten Sie Klassifizierungen und deren Regeln in einer einzigen, vereinfachten Benutzeroberfläche.
+* **Klassifizierungsregeln**: Erstellen Sie Regeln, die ein bestimmtes Dimensionselement einem Classification-Dimensionselement zuweisen. Diese Methode zum Klassifizieren von Daten empfiehlt sich am besten, wenn eine Dimension häufig neue eindeutige Werte findet oder wenn eine manuelle Klassifizierung häufig und aufwändig wäre.
+* **Classification Importer**: Exportieren Sie eine Vorlagentabelle mit Dimensionselementen in jeder Zeile. Spalten stellen jede Classification für eine Dimension dar. Diese Methode zur Datenklassifizierung ist am besten, wenn alle Dimensionselemente bekannt sind und keine häufige Aktualisierung erforderlich ist.
 
-Beim Klassifizieren bilden Sie eine Beziehung zwischen der Variablen und den Metadaten, die mit dieser Variable zusammenhängen. Classifications kommen am häufigsten in Kampagnen zum Einsatz. Die mit Variablen (eVars, Props und Ereignisse) erfassten Daten lassen sich durch Anwenden von Metadaten zusammenfassen.
+Sobald eine Dimension Classification-Daten enthält, ist eine neue Dimension in Berichten verfügbar, die nur Classification-Dimensionselemente enthält. Sie können beispielsweise [!UICONTROL Produkt-IDs] mit zusätzlichen Produktattributen wie Produktname, Farbe, Größe, Beschreibung und SKU klassifizieren. Durch die Erweiterung der Reports &amp; Analysen-Daten um zusätzliche Attribute werden tiefergehende und komplexere Berichte möglich.
 
-![Schritt-Info](assets/sub_class_create.png)
-
-Nach der Classification kann jeder Bericht, den Sie mithilfe der Schlüsselvariable erstellen können, auch mithilfe der zugeordneten Attribute erstellt werden. Sie können beispielsweise [!UICONTROL Produkt-IDs] mit zusätzlichen Produktattributen wie Produktname, Farbe, Größe, Beschreibung und SKU klassifizieren. Durch die Erweiterung der Reports &amp; Analysen-Daten um zusätzliche Attribute werden tiefergehende und komplexere Berichte möglich.
-
-Nach dem Erstellen der Klassifizierungen können Sie die neuen Datenattribute im gesamten Adobe Analytics nutzen.
-
-Im Folgenden finden Sie ein Video zu Klassifizierungen in Adobe Analytics:
+Eine einzelne Dimension kann mehrere Classification-Dimensionen verwenden. Sie können beispielsweise den Trackingcode nach Suchmaschine, Keyword und Kampagnenkanal klassifizieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
-
-## Beispiel zu Trackingcodes
-
-Angenommen, Sie möchten die Kampagnen nicht nur nach dem Trackingcode betrachten, sondern die Kampagnenergebnisse sollen nach Suchmaschinen, Keywords und Kampagnenkanälen angezeigt werden. In diesem Fall muss nicht jeweils eine Konversionsvariable festgelegt werden. Stattdessen können Sie drei Classifications der Kampagnenvariable für Suchmaschine, Keyword und Kampagnenkanal anlegen. Mit dieser Strategie werden die Erfolgsereignisse der Website ohne zusätzliches Tagging nach allen vier Variablen dargestellt.
-
-Die Reports &amp; Analysen Funktion beinhaltet vordefinierte Classifications für die Trackingcode-Variable, mit der Classification-Basierte Berichte namens „Kreative Elemente“ und „Kampagnen“ erstellt werden können. Für alle anderen Konversion- und Traffic-Variablen müssen Sie die Classifications manuell konfigurieren.
-
-Weitere Informationen finden Sie unter [Traffic-Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md) und [Konversion-Classifications](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=de).
-
-In der folgenden Tabelle werden die verschiedenen verfügbaren Classification-Typen und die Variablentypen, die sie unterstützen, beschrieben. Beachten Sie die Informationen unter [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md) vor dem Hochladen von Datendateien.
-
-<table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>TYP </p> </th> 
-   <th colname="col2" class="entry"> <p>VERFÜGBARKEIT </p> </th> 
-   <th colname="col3" class="entry"> <p>BESCHREIBUNG </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Text</span> </p> </td> 
-   <td colname="col2"> <p>Konversion- und Traffic-Variablen </p> </td> 
-   <td colname="col3"> <p>Text-Classifications definieren eine Kategorie, mit der Sie unterschiedliche Daten zu Berichtzwecken gruppieren können. </p> <p>Wenn Sie beispielsweise Hemden verkaufen, möchten Sie möglicherweise den Hemdenverkauf (Konversionen) nach Farbe, Größe und Stil kategorisieren, um Berichte zu erstellen, in denen die Hemdenverkäufe nach diesen Kategorien organisiert sind. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Datumsaktivierter Text</span> </p> <p>Hinweis: Seit der Analytics-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für datumsaktivierte Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten Klassifizierungen hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung. </p> </td> 
-   <td colname="col2"> <p>Konversionsvariablen </p> </td> 
-   <td colname="col3"> <p>Mit einer datumsaktivierten Text-Classification können Sie einer Text-Classification Datumsbereiche zuweisen. Dies wird üblicherweise bei Kampagnen-Classifications gemacht, damit Sie die Vorteile der Gantt-Diagrammansicht im <span class="wintitle">Kampagnen</span> bericht nutzen können. </p> <p>Sie können die Datumsangaben der Kampagne in die Datendatei aufnehmen, mit der die Classification-Daten bestückt werden. </p> <p>Reports &amp; Analytics sammelt Kampagnen-Trackingcodes selbst dann, wenn das Enddatum der Kampagne bereits erreicht wurde. Die nach Ende der Kampagne gesammelten Daten werden jedoch nicht der Kampagne zugeordnet. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Numerisch</span> <p>Hinweis: Seit der Analytics-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für numerische Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen numerischen Klassifizierungen hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung. </p> </p> </td> 
-   <td colname="col2"> <p>Konversionsvariablen </p> </td> 
-   <td colname="col3"> <p>Mit numerischen Classifications können Sie feste numerische Werte auf <span class="wintitle">Konversions</span> berichte anwenden. Diese Classifications werden als Metriken in Berichten angezeigt. </p> <p>Bei der Erwägung, ob eine <span class="wintitle">numerische</span> Classification hinzugefügt werden soll, muss der numerische Wert fest eingestellt sein und darf sich im Laufe der Zeit nicht verändern. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
