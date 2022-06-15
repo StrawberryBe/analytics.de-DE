@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 0e7a9aa92c8c5b61fffae96d42bd1b258920e99d
+source-git-commit: 43dc28d7c6b4560fd1b8397ce10cc8fbf8f5ca91
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,23 +23,23 @@ Um Anmerkungen in mobilen Scorecards aufzudecken, erstellen Sie die Anmerkung zu
 
 Informationen zum Erstellen von Anmerkungen finden Sie unter [Anmerkungen erstellen](create-annotations.md). Anmerkungen sind standardmäßig in mobilen Scorecards deaktiviert und müssen für jede Scorecard aktiviert sein, die Sie in mobilen Scorecards platzieren möchten.
 
-1. Aktivieren Sie Anmerkungen. Informationen zum Aktivieren von Anmerkungen finden Sie unter [Aktivieren oder Deaktivieren von Anmerkungen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en#turn-annotations-on-or-off).
+1. Aktivieren Sie Anmerkungen. Informationen zum Aktivieren von Anmerkungen finden Sie unter [Aktivieren oder Deaktivieren von Anmerkungen](overview.md#on-off).
 
 1. Erstellen Sie eine Anmerkung und stellen Sie sicher, dass sie für alle Ihre Projekte freigegeben ist. Informationen zum Erstellen einer Anmerkung in Workspace finden Sie unter [Anmerkungen erstellen](create-annotations.md).
 
 1. Auswählen **Anmerkungen anzeigen** , um die Anmerkung in mobilen Scorecards anzuzeigen.
 
-<img src="assets/show-annotations.png"  width="75%">
+   <img src="assets/show-annotations.png"  width="80%">
 
 1. Bestätigen Sie, dass die Option Anmerkungen anzeigen ausgewählt ist, gehen Sie zu **Projekt** > **Projektinformationen und Einstellungen**.
 
-<img src="assets/project-info-settings.png" width="40%">
+   <img src="assets/project-info-settings.png" width="25%">
 
 ## Anzeigen von Anmerkungen in mobilen Scorecards
 
 Wenn Anmerkungen aktiviert sind, werden im Scorecard Builder Anmerkungssymbole angezeigt. Anmerkungen werden nur in Diagrammen und Tabellen in der Detailansicht angezeigt. Anmerkungen sind in der Ansicht der Hauptkachel der Scorecard nicht sichtbar.
 
-<img src="assets/view-annotations.png"  width="75%">
+<img src="assets/view-annotations.png"  width="80%">
 
 Wenn Anmerkungssymbole sichtbar sind, können Sie Anmerkungen auf der Arbeitsfläche des Builders nicht vollständig anzeigen oder damit interagieren. Verwenden Sie den Vorschaumodus, um Anmerkungen so anzuzeigen und zu bearbeiten, wie sie in der App angezeigt werden. ![](assets/preview-icon.png)
 
@@ -49,6 +49,6 @@ Anmerkungsfarben werden ausgewählt, wenn die Anmerkung in Workspace erstellt wi
 
 | Datum | Erscheinungsbild |
 | --- | --- |
-| **Einzeltag** | <img src="assets/single-day-mobile-annotations.png"  width="30%"><br></br> |
-| **Datumsbereich** | <img src="assets/date-range.png"  width="30%"> |
-| **Überlappende Anmerkungen** | <img src="assets/overlapping-annotations.png"  width="30%"><br></br>Um Anmerkungsdetails in der Analytics-Dashboards-App anzuzeigen, tippen Sie auf ein Anmerkungssymbol. <br></br>Wenn Sie eine Anmerkung in einem Diagramm anzeigen, können Sie nach links und rechts wischen, um durch alle im Diagramm vorhandenen Anmerkungen zu navigieren. Wischen Sie beim Anzeigen einer Anmerkung in der Tabelle nach links und rechts, um durch alle Anmerkungen zu navigieren, die mit diesem Zeilenelement in der Tabelle verknüpft sind. <br></br><img src="assets/swipe-multiple-annotations.png"  width="30%"> <br></br>In Diagrammen ohne zeitbasierte *x-Achse*, wie z. B. Ringdiagramme oder horizontale Balkendiagramme, können Anmerkungen, die für das Diagramm gelten, durch Tippen auf das Symbol unten rechts angezeigt werden.<br></br> <img src="assets/charts-without-timebase.png"  width="30%"> |
+| **Einzeltag** | <img src="assets/single-day-mobile-annotations.png"  width="50%"><br></br> |
+| **Datumsbereich** | <img src="assets/date-range.png"  width="50%"> |
+| **Überlappende Anmerkungen** | <img src="assets/overlapping-annotations.png"  width="50%"><br></br>Um Anmerkungsdetails in der Analytics-Dashboards-App anzuzeigen, tippen Sie auf ein Anmerkungssymbol. <br></br>Wenn Sie eine Anmerkung in einem Diagramm anzeigen, können Sie nach links und rechts wischen, um durch alle im Diagramm vorhandenen Anmerkungen zu navigieren. Wischen Sie beim Anzeigen einer Anmerkung in der Tabelle nach links und rechts, um durch alle Anmerkungen zu navigieren, die mit diesem Zeilenelement in der Tabelle verknüpft sind. <br></br><img src="assets/swipe-multiple-annotations.png"  width="50%"> <br></br>In Diagrammen ohne zeitbasierte *x-Achse*, wie z. B. Ringdiagramme oder horizontale Balkendiagramme, können Anmerkungen, die für das Diagramm gelten, durch Tippen auf das Symbol unten rechts angezeigt werden.<br></br> <img src="assets/charts-without-timebase.png"  width="50%"> |
