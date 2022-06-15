@@ -1,22 +1,19 @@
 ---
-title: 'Anmerkungen zu mobilen Scorecards    '
+title: Anmerkungen zu mobilen Scorecards
 description: Erfahren Sie, wie Sie Anmerkungen in mobilen Scorecards aufdecken.
 role: User, Admin
 solution: Analytics
 feature: Components
-source-git-commit: bb6b14e2b44c0e83e6f1f0bbc5914eb86c09adc1
+exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
+source-git-commit: 0e7a9aa92c8c5b61fffae96d42bd1b258920e99d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
 
 # Freigeben von Anmerkungen in mobilen Scorecards
-
->[!NOTE]
->
->Diese Funktion wird derzeit [eingeschränkt getestet](/help/release-notes/releases.md).
 
 Sie können in Workspace erstellte Anmerkungen in mobilen Scorecards anzeigen. Auf diese Weise können Sie kontextbezogene Datennuancen und Einblicke in Ihre Organisation und Kampagnen direkt in mobilen Scorecard-Projekten freigeben, die in der mobilen App der Analytics-Dashboards angezeigt werden.
 
@@ -32,17 +29,17 @@ Informationen zum Erstellen von Anmerkungen finden Sie unter [Anmerkungen erstel
 
 1. Auswählen **Anmerkungen anzeigen** , um die Anmerkung in mobilen Scorecards anzuzeigen.
 
-![](assets/show-annotations.png)
+<img src="assets/show-annotations.png"  width="75%">
 
 1. Bestätigen Sie, dass die Option Anmerkungen anzeigen ausgewählt ist, gehen Sie zu **Projekt** > **Projektinformationen und Einstellungen**.
 
-![](assets/project-info-settings.png)
+<img src="assets/project-info-settings.png" width="40%">
 
 ## Anzeigen von Anmerkungen in mobilen Scorecards
 
 Wenn Anmerkungen aktiviert sind, werden im Scorecard Builder Anmerkungssymbole angezeigt. Anmerkungen werden nur in Diagrammen und Tabellen in der Detailansicht angezeigt. Anmerkungen sind in der Ansicht der Hauptkachel der Scorecard nicht sichtbar.
 
-![](assets/view-annotations.png)
+<img src="assets/view-annotations.png"  width="75%">
 
 Wenn Anmerkungssymbole sichtbar sind, können Sie Anmerkungen auf der Arbeitsfläche des Builders nicht vollständig anzeigen oder damit interagieren. Verwenden Sie den Vorschaumodus, um Anmerkungen so anzuzeigen und zu bearbeiten, wie sie in der App angezeigt werden. ![](assets/preview-icon.png)
 
@@ -52,6 +49,6 @@ Anmerkungsfarben werden ausgewählt, wenn die Anmerkung in Workspace erstellt wi
 
 | Datum | Erscheinungsbild |
 | --- | --- |
-| **Einzeltag** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **Datumsbereich** | ![](assets/date-range.png) |
-| **Überlappende Anmerkungen** | ![](assets/overlapping-annotations.png)<br></br>Um Anmerkungsdetails in der Analytics-Dashboards-App anzuzeigen, tippen Sie auf ein Anmerkungssymbol. <br></br>Wenn Sie eine Anmerkung in einem Diagramm anzeigen, können Sie nach links und rechts wischen, um durch alle im Diagramm vorhandenen Anmerkungen zu navigieren. Wischen Sie beim Anzeigen einer Anmerkung in der Tabelle nach links und rechts, um durch alle Anmerkungen zu navigieren, die mit diesem Zeilenelement in der Tabelle verknüpft sind. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>In Diagrammen ohne zeitbasierte *x-Achse*, wie z. B. Ringdiagramme oder horizontale Balkendiagramme, können Anmerkungen, die für das Diagramm gelten, durch Tippen auf das Symbol unten rechts angezeigt werden.<br></br> ![](assets/charts-without-timebase.png) |
+| **Einzeltag** | <img src="assets/single-day-mobile-annotations.png"  width="30%"><br></br> |
+| **Datumsbereich** | <img src="assets/date-range.png"  width="30%"> |
+| **Überlappende Anmerkungen** | <img src="assets/overlapping-annotations.png"  width="30%"><br></br>Um Anmerkungsdetails in der Analytics-Dashboards-App anzuzeigen, tippen Sie auf ein Anmerkungssymbol. <br></br>Wenn Sie eine Anmerkung in einem Diagramm anzeigen, können Sie nach links und rechts wischen, um durch alle im Diagramm vorhandenen Anmerkungen zu navigieren. Wischen Sie beim Anzeigen einer Anmerkung in der Tabelle nach links und rechts, um durch alle Anmerkungen zu navigieren, die mit diesem Zeilenelement in der Tabelle verknüpft sind. <br></br><img src="assets/swipe-multiple-annotations.png"  width="30%"> <br></br>In Diagrammen ohne zeitbasierte *x-Achse*, wie z. B. Ringdiagramme oder horizontale Balkendiagramme, können Anmerkungen, die für das Diagramm gelten, durch Tippen auf das Symbol unten rechts angezeigt werden.<br></br> <img src="assets/charts-without-timebase.png"  width="30%"> |
