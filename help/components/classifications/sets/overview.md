@@ -1,13 +1,13 @@
 ---
 title: Classification-Sets - Übersicht
 description: Verwenden Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # Classification-Sets - Übersicht
 
@@ -15,7 +15,7 @@ Klassifizierungssätze bieten eine einzige Oberfläche zur Verwaltung von Klassi
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihren Kundenbetreuer, der Ihre Anfrage zur Bereitstellung an das Classification-Set-Team weiterleiten kann.
+>Diese Funktion ist derzeit in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihren Kundenbetreuer, der Ihre Anfrage zur Bereitstellung an das Classifications-Team weiterleitet.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]**
 

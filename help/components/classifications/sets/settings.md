@@ -1,13 +1,13 @@
 ---
 title: Einstellungen für Klassifizierungssätze
 description: Erstellen oder bearbeiten Sie einen Classification-Satz.
-source-git-commit: c9465ea0524225494aa5067d00ca5e7aba4bca92
+exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
+source-git-commit: c849f216f8dda83070fc3f8d8b1c25fba4d2786a
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
-
 
 # Einstellungen für Klassifizierungssätze
 
@@ -41,3 +41,25 @@ Zeigen Sie die derzeit konfigurierten Klassifizierungsdimensionen für dieses Ab
    * **[!UICONTROL Dateikodierung]**: Wählen Sie die richtige Dateikodierung mithilfe dieses Dropdown-Menüs aus. Zu den gültigen Optionen gehören [!UICONTROL UTF-8] und [!UICONTROL Latin1].
    * **[!UICONTROL Trennzeichen auflisten]**: Wählen Sie das richtige Listentrennzeichen aus. Wenn Sie eine heruntergeladene Datei oder Vorlagendatei verwenden, stellen Sie sicher, dass die Variable [!UICONTROL Trennzeichen auflisten] hier stimmt mit der [!UICONTROL Trennzeichen auflisten] wenn die Datei heruntergeladen wurde.
    * **[!UICONTROL Anwenden]**: Speichern Sie die hochgeladenen Classification-Daten in den Classification-Satz.
+
+   ![Classification-Set-Upload](../assets/classification-set-upload.png)
+
+* **[!UICONTROL Download]**: Laden Sie Schlüsselwerte und ihre Classification-Spalten herunter.
+   * **[!UICONTROL Zeilen]**: Die maximale Anzahl von Zeilen, die in die Download-Datei aufgenommen werden sollen.
+   * **[!UICONTROL Zeilen herunterladen, die zwischen]**: Eine Datumsauswahl im Kalender , mit der Sie Schlüsselwerte nach dem Zeitpunkt filtern können, zu dem sie in Berichten angezeigt werden. Wenn in diesem Datumsbereich kein Schlüsselwert erfasst wurde, wird er nicht in der heruntergeladenen Datei angezeigt.
+   * **[!UICONTROL Zurückgegebene Daten]**: Ein Dropdown-Menü, mit dem Sie die in der heruntergeladenen Datei enthaltenen Schlüsselwerte anhand der zugehörigen Classification-Daten filtern können.
+      * **[!UICONTROL Alle klassifizierten Werte]**: Umfasst Zeilen, in denen Classification-Daten in mindestens einer Spalte enthalten sind.
+      * **[!UICONTROL Alle nicht klassifizierten Werte]**: Umfasst Zeilen, in denen Classification-Daten in mindestens einer Spalte fehlen.
+   * **[!UICONTROL Dateiformat]**: Dropdown-Liste, das das Dateiformat der Download-Datei bestimmt. Optionen umfassen [!UICONTROL JSON], [!UICONTROL Kommagetrennte Werte]und [!UICONTROL Excel-Tabulatorgetrennte Werte].
+   * **[!UICONTROL Dateikodierung]**: Dropdown, das die Dateikodierung bestimmt. Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
+   * **[!UICONTROL Trennzeichen auflisten]**: Dropdown-Liste, das das Listentrennzeichen bestimmt, das Classification-Spalten in jeder Zeile trennt.
+
+   ![Herunterladen von Klassifizierungssets](../assets/classification-set-download.png)
+
+* **[!UICONTROL Vorlage]**: Laden Sie eine Vorlagendatei herunter. Diese Datei ähnelt der [!UICONTROL Download] -Schaltfläche, mit der Ausnahme, dass sie keine Classification-Daten oder Schlüsselwerte enthält.
+   * **[!UICONTROL Dateiformat]**: Dropdown-Liste, das das Dateiformat der Vorlagendatei bestimmt. Optionen umfassen [!UICONTROL Kommagetrennte Werte]und [!UICONTROL Excel-Tabulatorgetrennte Werte].
+   * **[!UICONTROL Dateikodierung]**: Dropdown, das die Dateikodierung bestimmt. Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
+   * **[!UICONTROL Trennzeichen auflisten]**: Dropdown-Liste, das das Listentrennzeichen bestimmt, das Classification-Spalten in jeder Zeile trennt.
+* **[!UICONTROL Auftragsverlauf]**: Ein Verknüpfungslink, über den Sie zum [Job Manager](job-manager.md), die Aufträge nur für diesen Classification-Satz anzeigt.
+
+   ![Classification-Set-Vorlage](../assets/classification-set-template.png)
