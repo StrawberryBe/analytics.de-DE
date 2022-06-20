@@ -4,10 +4,10 @@ title: Fehlerbehebung für die Power BI-Integration
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
+source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 89%
 
 ---
 
@@ -45,4 +45,4 @@ Administratoren gewähren über folgenden [Link](https://login.microsoftonline.c
 
 ## API-Limit erreichen
 
-Die Berichterstellung in Power BI funktioniert mit der Analytics Reporting-API, sodass API-Schwellenwerte gelten. Weitere Informationen finden Sie unter [Wie hoch ist das Ratenlimit für API-Aufrufe?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+Die Berichterstellung in Power BI funktioniert mit der Analytics Reporting-API, sodass API-Schwellenwerte gelten. Weitere Informationen finden Sie unter [Web-Services-Fehlercodes](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
