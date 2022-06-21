@@ -2,9 +2,9 @@
 title: Classification Set Manager
 description: Verwalten Sie Klassifizierungssätze in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ Die folgenden Spalten sind im Classification Set Manager verfügbar:
 * **[!UICONTROL Abonnements]**: Die Anzahl der Abonnements oder die Anzahl der Report Suites, für die dieser Classification-Satz gilt.
 * **[!UICONTROL Inhaber]**: Der Inhaber des Classification-Sets.
 * **[!UICONTROL Klassifizierungen]**: Die Anzahl der Classification-Dimensionen, die der Classification-Satz enthält.
-* **[!UICONTROL Automatisiert]**: Gibt an, ob der Klassifizierungssatz so konfiguriert ist, dass Daten automatisch von einer FTP-Site abgerufen werden.
 * **[!UICONTROL Zuletzt geändert]**: Datum und Uhrzeit der letzten Änderung des Classification-Sets.
-* **[!UICONTROL FTP-Host + Pfad]**: Wenn automatisiert, wird der FTP-Speicherort, aus dem der Classification-Satz Daten abruft, vom Server abgerufen.
 
 ## Erstellen oder Bearbeiten von Optionen
 

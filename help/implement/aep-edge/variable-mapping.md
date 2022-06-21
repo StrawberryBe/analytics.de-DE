@@ -2,9 +2,9 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge
 description: Anzeigen der XDM-Felder, die Edge automatisch Analytics-Variablen zuordnet
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: f92ad30f2a27f70b8478d55ab71f223cd1c82b24
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ Die folgende Tabelle zeigt die Variablen, die das Adobe Experience Platform Edge
 | `environment.operatingSystem` | Mobile Dimension [Betriebssystem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | Mobile Dimension [Betriebssystemversion](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.type` | Gibt an, ob das Ereignis von einer [Wearable](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html) Gerät. Gültige Werte sind `Application` (Das Ereignis stammt aus der App), `Extension` (das Ereignis stammt von der Wearable App) oder `Widget` (Das Ereignis stammt von einem mobilen Widget). |
-| `_experience.analytics.customDimensions.eVars.eVar1` -<br/>`_experience.analytics.customDimensions.eVars.eVar250` | Legt die entsprechenden fest [eVar](../../components/dimensions/evar.md) Dimension. |
-| `_experience.analytics.customDimensions.listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.listProps.prop75.delimiter` | Das für eine bestimmte [Listen-Prop](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.listProps.prop75.values` | Ein Zeichenfolgen-Array, das die entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props) -Werte. |
-| `_experience.analytics.customDimensions.lists.list1.list` -<br/>`_experience.analytics.customDimensions.lists.list3.list` | Legt die entsprechenden fest [Listenvariable](../vars/page-vars/list.md). |
-| `_experience.analytics.customDimensions.props.prop1` -<br/>`_experience.analytics.customDimensions.props.prop75` | Legt die entsprechenden fest [Prop](../../components/dimensions/prop.md) Dimension. |
-| `_experience.analytics.event1to100.event1.id` -<br/>`_experience.analytics.event901to1000.event1000.value` | Gilt [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) an die jeweiligen [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) Metrik. |
-| `_experience.analytics.event1to100.event1.value` -<br/>`_experience.analytics.event901to1000.event1000.value` | Erhöht die jeweilige [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) um den gewünschten Betrag. |
+| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Legt die entsprechenden fest [eVar](../../components/dimensions/evar.md) Dimension. |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Das für eine bestimmte [Listen-Prop](../vars/page-vars/prop.md#list-props). |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Ein Zeichenfolgen-Array, das die entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props) -Werte. |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | Legt die entsprechenden fest [Listenvariable](../vars/page-vars/list.md). |
+| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Legt die entsprechenden fest [Prop](../../components/dimensions/prop.md) Dimension. |
+| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Gilt [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) an die jeweiligen [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) Metrik. |
+| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Erhöht die jeweilige [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) um den gewünschten Betrag. |
 | `identityMap.ECID[0].id` | Die [Adobe Experience Cloud Identity-Dienst-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). |
 | `marketing.trackingCode` | Legt die [Trackingcode](../../components/dimensions/tracking-code.md) Dimension. |
 | `media.mediaTimed.completes.value` | Die Media Analytics-Metrik [Inhaltsbeendigung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete). |
@@ -108,6 +108,8 @@ Die folgende Tabelle zeigt die Variablen, die das Adobe Experience Platform Edge
 | `placeContext.geo.longitude` | Die Länge der Mobile-Dimension. |
 | `placeContext.geo.postalCode` | Die [Postleitzahl](../../components/dimensions/zip-code.md) Dimension. |
 | `placeContext.geo.stateProvince` | Die [US-Staaten](../../components/dimensions/us-states.md) Dimension. |
+| `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Gilt [Produktsyntax](../vars/page-vars/products.md) Merchandising in eVars. |
+| `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Gilt [Produktsyntax](../vars/page-vars/products.md) Merchandising für Ereignisse. |
 | `productListItems[].lineItemId` | Die [Kategorie](../../components/dimensions/category.md) Dimension. |
 | `productListItems[].name` | Die [Produkt](../../components/dimensions/product.md) Dimension. |
 | `productListItems[].priceTotal` | Hilft bei der Bestimmung der [Umsatz](../../components/metrics/revenue.md) Metrik. |
