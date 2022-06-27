@@ -4,10 +4,10 @@ description: Wichtige Aktualisierungen in der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
+source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
-source-wordcount: '3372'
-ht-degree: 96%
+source-wordcount: '3420'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Datum | Beschreibung |
 | --- | --- |
 | **Juni 2022** |  |
+| Dokumentation zu Experience Platform Edge | Neue Artikel zur Implementierung von Adobe Analytics über [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en)und [Edge-API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
 | Aktualisierte Dokumentation zur Flussvisualisierung | Basierend auf [neue Benutzeroberfläche](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
 | Dokumentation zum Freigeben von Anmerkungen in mobilen Scorecards | Sie können [Anmerkungen, die in Workspace erstellt wurden - in mobilen Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
 | Dokumentation zur Produktsyntaxversion von Merchandising-Variablen mit Edge Collection | Sie können jetzt Merchandising-Variablen mit der Entsprechung der Produktsyntax festlegen, indem Sie die entsprechenden XDM-Felder festlegen. Weitere Informationen zur Produktsyntax für Merchandising-Variablen [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=de). Siehe Zuordnungen zur Produktsyntax [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
@@ -54,7 +55,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 18. August 2021 | Neues Thema zu [Best Practices für die Attribution](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5. August 2021 | Neues Thema zum [Zählen wiederholter Instanzen](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=de) |
 | 5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=de), [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=de) und [Browser-Export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=de) wurde aktualisiert, um Optionen anzuzeigen, die für Report Suites nicht verfügbar sind, welche für die neue Klassifizierungsarchitektur aktiviert sind. |
-| 2. August 2021 | Mehrere Seiten wurden wegen des Rebrandings von [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=de) aktualisiert. |
+| 2. August 2021 | Mehrere Seiten wurden wegen des Rebrandings von [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) aktualisiert. |
 | **Juli 2021** |  |
 | 23. Juli 2021 | Neue ausführliche Erläuterung von [Merchandising-eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15. Juli 2021 | Neue Dokumentation zur neuen [Adobe Analytics-Landingpage](/help/analyze/landing.md) hinzugefügt |
