@@ -7,7 +7,7 @@ user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um 
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -131,13 +131,13 @@ ht-degree: 93%
    + [Implementierungs-Modal](prepare/implementation-modal.md)
    + [Lösungsdesigndokument erstellen](prepare/solution-design.md)
    + [Übernahme einer bestehenden Adobe Analytics-Implementierung](prepare/existing-implementation.md)
-+ Analytics mit Experience Platform Edge implementieren {#aep-edge}
++ Implementieren von Analytics unter Verwendung von Experience Platform Edge {#aep-edge}
    + [Übersicht über Experience Edge](aep-edge/overview.md)
    + [Variablenzuordnung](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK – Übersicht](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
-      + [Mobile SDK - Übersicht](aep-edge/mobile-sdk/overview.md)
+      + [Mobile SDK – Übersicht](aep-edge/mobile-sdk/overview.md)
    + Edge-API {#edge-api}
       + [Übersicht über die Edge-API](aep-edge/edge-api/overview.md)
 + Analytics mithilfe der Adobe Analytics-Erweiterung implementieren {#launch}
