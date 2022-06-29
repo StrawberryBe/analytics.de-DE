@@ -2,10 +2,10 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 66724724788c406fff3abf30c711090accd2d632
+source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 89%
+source-wordcount: '1340'
+ht-degree: 88%
 
 ---
 
@@ -17,6 +17,8 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | --- | --- |
 | `application.id` | Die Mobile-Dimension [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
 | `application.isClose` | Ermöglicht die Definition der Mobile-Metrik [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
+| `application.isInstall` | Hilft bei der Bestimmung, wann die Mobilmetrik erhöht werden soll [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | Hilft bei der Bestimmung, wann die Mobilmetrik erhöht werden soll [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.closeType` | Bestimmt, ob ein Schließen-Ereignis ein Absturz ist oder nicht. Gültige Werte sind `close` (eine Lebenszyklussitzung endet und ein Pausenereignis wurde für die vorherige Sitzung empfangen) und `unknown` (eine Lebenszyklussitzung endet ohne Pausenereignis). Hilft beim Festlegen der [Abstürze](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) Metrik. |
 | `application.isInstall` | Die Mobile-Metrik [Installs](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Die Mobile-Metrik [Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -28,10 +30,15 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `commerce.checkouts.value` | Inkrementiert die Metrik [Checkouts](../../components/metrics/checkouts.md) um den gewünschten Wert. |
 | `commerce.order.currencyCode` | Definiert die Konfigurationsvariable [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Definiert die Seitenvariable [purchaseID](../vars/page-vars/purchaseid.md). |
+| `commerce.productListAdds.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Cart Additions](../../components/metrics/cart-additions.md) an. |
 | `commerce.productListAdds.value` | Erhöht die [Zusatz zum Warenkorb](../../components/metrics/cart-additions.md) Metrik. |
+| `commerce.productListOpens.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Carts](../../components/metrics/carts.md) an. |
 | `commerce.productListOpens.value` | Erhöht die [Warenkorb](../../components/metrics/carts.md) Metrik. |
+| `commerce.productListRemovals.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Cart Removals](../../components/metrics/cart-removals.md) an. |
 | `commerce.productListRemovals.value` | Erhöht die [Entnahme aus Warenkorb](../../components/metrics/cart-removals.md) Metrik. |
+| `commerce.productListViews.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Cart Views](../../components/metrics/cart-views.md) an. |
 | `commerce.productListViews.value` | Erhöht die [Warenkorbansichten](../../components/metrics/cart-views.md) Metrik. |
+| `commerce.productViews.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Product Views](../../components/metrics/product-views.md) an. |
 | `commerce.productViews.value` | Erhöht die [Produktansichten](../../components/metrics/product-views.md) Metrik. |
 | `commerce.purchases.value` | Erhöht die [Bestellungen](../../components/metrics/orders.md) Metrik. |
 | `device.model` | Die Mobile-Dimension [Device Name](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
@@ -49,7 +56,8 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `environment.connectionType` | Ermöglicht die Definition der Dimension [Connection type](../../components/dimensions/connection-type.md). |
 | `environment.ipV4` | Wird als Fallback-Identifizierungsmethode für [Unique Visitor](../../components/metrics/unique-visitors.md) verwendet. Wird normalerweise unter Verwendung der HTTP-Kopfzeile `X-Forwarded-For` befüllt. |
 | `environment.language` | Die Mobile-Dimension „Locale“. |
-| `environment.operatingSystemVersion` | Die Mobile-Dimension [Operating System Version](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystem` | Die Mobile-Dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystemVersion` | Hilft beim Festlegen der [Betriebssystemversion](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) Dimension. |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Legt die entsprechenden fest [eVar](../../components/dimensions/evar.md) Dimension. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Das für eine bestimmte [Listen-Prop](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Ein Zeichenfolgen-Array, das die entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props) -Werte. |
@@ -117,12 +125,6 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
-<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
-<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
-<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
-<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
-<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
-<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## Zuordnen anderer XDM-Felder zu Analytics-Variablen
 
