@@ -4,36 +4,42 @@ title: Metriken in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '409'
+ht-degree: 22%
 
 ---
 
 # Metriken
 
-In Analysis Workspace gibt es zwei Möglichkeiten zur Verwendung von Metriken.
+Mit Metriken können Sie Datenpunkte in Analysis Workspace quantifizieren. Sie werden meist als Spalten in einer Visualisierung verwendet und sind an Dimensionen gebunden.
 
-* Sie können entweder eine Standardmetrik, eine berechnete Metrik oder eine Vorlage für berechnete Metriken aus dem Menü [!UICONTROL Komponenten] in die Tabelle ziehen:
+Adobe bietet verschiedene Arten von Metriken zur Verwendung in Analysis Workspace:
 
-   ![](assets/metrics_icons.png)
+* **Standardmetriken**: Die meisten Metriken, die Sie in Projekten verwenden, sind Standardmetriken. Beispiele sind [Seitenansichten](/help/components/metrics/page-views.md), [Umsatz](/help/components/metrics/revenue.md)oder [Benutzerspezifische Ereignisse](/help/components/metrics/custom-events.md). Siehe [Übersicht über Metriken](/help/components/metrics/overview.md) Weitere Informationen finden Sie im Benutzerhandbuch zu Komponenten.
 
-   >[!NOTE]
-   >
-   >Die Verwendung von Metriken ist einfach und leistungsstark zugleich. Sie können einem Bericht Metriken hinzufügen, indem Sie die entsprechende Metrik in den Metrikabschnitt einer Tabelle ziehen. Sie können Dimensionen auch nach Metriken aufschlüsseln, um die Tabellenansicht detailliert zu steuern. Außerdem können Sie eine Metrik als Dimension und eine Dimension als Metrik einfügen, um einen Zeitverlaufsbericht zu erstellen. Spielen Sie mit den verschiedenen Komponenten und sehen Sie, was Sie tun können. Die Möglichkeiten sind endlos.
+   ![Standardmetrik](assets/standard-metric.png)
 
-* Oder Sie können auf **[!UICONTROL Komponenten]** > **[!UICONTROL Neue Metrik]** klicken. Sie gelangen so zum [Generator für berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md), wo Sie aus bereits vorhandenen Metriken benutzerdefinierte Metriken erstellen können.
+* **Berechnete Metriken**: Benutzerdefinierte Metriken, die auf Standardmetriken, statischen Zahlen oder algorithmischen Funktionen basieren. Benutzerdefinierte berechnete Metriken zeigen ein Rechnersymbol in der Liste der verfügbaren Komponenten. Siehe [Übersicht über berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) Weitere Informationen finden Sie im Benutzerhandbuch zu Komponenten.
 
-Im Folgenden finden Sie ein Video über die Verwendung von Metriken in einer Freiformtabelle:
+   ![Berechnete Metrik](assets/calculated-metric.png)
+
+* **Vorlagen für berechnete Metriken**: Von Adoben definierte Metriken, die sich ähnlich wie berechnete Metriken verhalten. Sie können sie unverändert in Workspace-Projekten verwenden oder eine Kopie speichern, um ihre Logik anzupassen. In Vorlagen für berechnete Metriken wird in der Liste der verfügbaren Adoben ein Symbol angezeigt.
+
+   ![Vorlage für berechnete Metriken](assets/calculated-metric-template.png)
+
+Metriken sind in ihrer Verwendung in Analysis Workspace flexibel. Ziehen Sie eine Metrik in eine leere Freiformtabelle, um die Trendansicht dieser Metrik über den Datumsbereich des Projekts anzuzeigen. Sie können auch eine Metrik ziehen, wenn eine Dimension vorhanden ist, um diese Metrik im Vergleich zu jedem Dimensionselement anzuzeigen. Wenn Sie eine Metrik auf eine vorhandene Metrik-Kopfzeile ziehen, wird sie ersetzt und durch Ziehen einer Metrik neben eine Kopfzeile können Sie beide Metriken nebeneinander sehen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
 ## Berechnete Metriken
 
-Um das schnelle Erstellen berechneter Metriken zu vereinfachen, wurde dem Spalten-Kontextmenü von Freiformtabellen die Option **[!UICONTROL Metrik aus Auswahl erstellen]** hinzugefügt. Diese Option wird angezeigt, wenn mindestens eine Spaltenüberschriftszelle ausgewählt ist.
+Berechnete Metriken ermöglichen es Ihnen, mithilfe einfacher Operatoren oder statistischer Funktionen einfach zu erkennen, wie sich Metriken zueinander verhalten. Es gibt mehrere Möglichkeiten, berechnete Metriken zu erstellen:
 
-![](assets/calc_metrics.png)
+* Klicken Sie auf das Pluszeichen neben der Überschrift Metriken unter der Liste der Komponenten auf der linken Seite.
+* Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Berechnete Metriken]** > **[!UICONTROL Hinzufügen]**.
+* Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift > **[!UICONTROL Metrik aus Auswahl erstellen]** wenn mindestens eine Spaltenüberschriftszelle ausgewählt ist. Diese Option erstellt automatisch eine berechnete Metrik für Sie, ohne dass der Regel-Builder für berechnete Metriken verwendet werden muss.
 
 [Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=de) (3:42)
 
