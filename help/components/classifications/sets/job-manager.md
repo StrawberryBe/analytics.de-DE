@@ -1,54 +1,54 @@
 ---
 title: Auftrags-Manager für Klassifizierungssätze
-description: Zeigen Sie aktuelle und abgeschlossene Classification-Aufträge an, die aus Classification-Sets generiert wurden.
+description: Zeigen Sie aktuelle und abgeschlossene Klassifizierungsaufträge an, die aus Klassifizierungssätzen generiert wurden.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Auftrags-Manager für Klassifizierungssätze
 
-Mit dem Job Manager für Klassifizierungssätze können Sie aktuelle und abgeschlossene Klassifizierungsaufträge anzeigen, die aus Klassifizierungssets generiert wurden. Sie können diese Benutzeroberfläche auch verwenden, um Classification-Daten oder Vorlagen für einen bestimmten Auftrag herunterzuladen oder zusätzliche Daten in einen Auftrag hochzuladen.
+Mit dem Auftrags-Manager für Klassifizierungssätze können Sie aktuelle und abgeschlossene Klassifizierungsaufträge anzeigen, die aus Klassifizierungssätzen generiert wurden. Sie können diese Benutzeroberfläche auch verwenden, um Klassifizierungsdaten oder Vorlagen für einen bestimmten Auftrag herunterzuladen oder zusätzliche Daten in einen Auftrag hochzuladen.
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihren Kundenbetreuer, der Ihre Anfrage zur Bereitstellung an das Classifications-Team weiterleitet.
+>Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihre*n Account Manager, der*die Ihre Anfrage zur Bereitstellung an das Classifications-Team weiterleitet.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Aufträge]**
 
-Beachten Sie, dass Sie keine Aufträge über diese Benutzeroberfläche erstellen können. Stattdessen können Sie Aufträge erstellen, indem Sie Daten in einen Klassifizierungssatz hochladen, eine Download-Datei anfordern oder eine Vorlagendatei anfordern.
+Beachten Sie, dass Sie über diese Benutzeroberfläche keine Aufträge erstellen können. Stattdessen können Sie Aufträge erstellen, indem Sie Daten in einen Klassifizierungssatz hochladen, eine Datei zum Herunterladen anfordern oder eine Vorlagendatei anfordern.
 
-## Filtern von Classification-Sets
+## Filtern von Klassifizierungssätzen
 
-Auf der linken Seite des Classification Set Job Manager finden Sie Filtereinstellungen, um den gewünschten Auftrag zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Classification-Sets nach **[!UICONTROL Klassifizierungssatz]**, **[!UICONTROL Abschlusszeit]** oder **[!UICONTROL Status]**.
+Auf der linken Seite des Auftrags-Managers für Klassifizierungssätze finden Sie Filtereinstellungen, um den gewünschten Auftrag zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Klassifizierungssätze nach **[!UICONTROL Klassifizierungssatz]**, **[!UICONTROL Abschlusszeit]** oder **[!UICONTROL Status]** filtern.
 
-![Klassifizierungsset-Auftragsfilter](../assets/classification-set-job-filters.png)
+![Filter für Klassifizierungssatzaufträge](../assets/classification-set-job-filters.png)
 
-Zusätzliche Filteroptionen sind über den Spalten für den Classification Set Job Manager verfügbar:
+Zusätzliche Filteroptionen sind über den Spalten des Auftrags-Managers für Klassifizierungssätze verfügbar:
 
-* **[!UICONTROL Suche nach Titel]**: Suchen Sie nach Aufträgen anhand des Dateinamens.
-* **[!UICONTROL Mehr laden]**: Der Job Manager für Klassifizierungssets zeigt zunächst bis zu 1000 Aufträge an. Klicken Sie auf diese Schaltfläche, um 1000 weitere Aufträge zu laden.
-* **Spalten ein-/ausblenden**: Sichtbarkeit für eine beliebige Spalte außer [!UICONTROL Dateiname] und [!UICONTROL Abschlusszeit].
+* **[!UICONTROL Suche nach Titel]**: Suche nach Aufträgen anhand des Dateinamens.
+* **[!UICONTROL Mehr laden]**: Der Auftrags-Manager für Klassifizierungssätze zeigt zunächst bis zu 1000 Aufträge an. Klicken Sie auf diese Schaltfläche, um 1000 weitere Aufträge zu laden.
+* **Spalten ein-/ausblenden**: Ein-/Ausschalten der Sichtbarkeit für eine beliebige Spalte außer [!UICONTROL Dateiname] und [!UICONTROL Abschlusszeit].
 
-## Spalten im Classification Set Job Manager
+## Spalten im Auftrags-Manager für Klassifizierungssätze
 
-Die folgenden Spalten sind im Classification Set Job Manager verfügbar:
+Die folgenden Spalten sind im Auftrags-Manager für Klassifizierungssätze verfügbar:
 
-* **[!UICONTROL Dateiname]**: Der Name der Upload- oder Download-Datei.
-* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes, für den die Datei gilt. Sie können auf den Namen des Klassifizierungssatzes klicken, um die [Einstellungen](settings.md).
+* **[!UICONTROL Dateiname]**: Der Name der Datei zum Hoch- oder Herunterladen.
+* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes, für den die Datei gilt. Sie können auf den Namen des Klassifizierungssatzes klicken, um zu den [Einstellungen](settings.md) des Klassifizierungssatzes zu gelangen.
 * **[!UICONTROL Größe]**: Die Größe der Datei.
 * **[!UICONTROL Status]**: Der Status des Auftrags, der die Datei verarbeitet.
    * **[!UICONTROL Erstellt]**: Der Auftrag wurde eingereicht.
-   * **[!UICONTROL In Warteschlange]**: Die Datei ist bereit zur Verarbeitung und wartet auf die Verarbeitung der Datei durch einen Classification-Server.
+   * **[!UICONTROL In Warteschlange]**: Die Datei ist bereit zur Verarbeitung und wartet auf ihre Verarbeitung durch einen Klassifizierungs-Server.
    * **[!UICONTROL Validiert]**: Die Datei ist gültig und wartet auf die Verarbeitung.
-   * **[!UICONTROL Fehlgeschlagene Validierung]**: Die Datei ist falsch oder anderweitig ungültig formatiert. Die Datei wird nicht verarbeitet.
+   * **[!UICONTROL Fehlgeschlagene Validierung]**: Die Datei ist falsch formatiert oder anderweitig ungültig. Die Datei wird nicht verarbeitet.
    * **[!UICONTROL Verarbeitung]**: Die Datei wird aktiv von Adobe verarbeitet.
-   * **[!UICONTROL Fehlerhafte Verarbeitung]**: Die Verarbeitung der Datei ist fehlgeschlagen.
+   * **[!UICONTROL Fehlgeschlagene Verarbeitung]**: Die Verarbeitung der Datei ist fehlgeschlagen.
    * **[!UICONTROL Fertig]**: Die Verarbeitung ist abgeschlossen. Klassifizierungsdaten sind in Berichten sichtbar.
    * **[!UICONTROL Fehlgeschlagen]**: Generischer Fehler, der nicht mit der Validierung oder Verarbeitung in Zusammenhang steht.
 * **[!UICONTROL Typ]**: Die Art des Auftrags.
-* **[!UICONTROL Dateidownload]**: Gilt nur für Download-Aufträge, wie das Herunterladen von Classification-Daten oder das Herunterladen von Vorlagen. Wenn ein Download bereit ist, enthält diese Spalte einen Download-Link.
+* **[!UICONTROL Datei-Download]**: Gilt nur für Aufträge zum Herunterladen, wie das Herunterladen von Klassifizierungsdaten oder das Herunterladen von Vorlagen. Wenn ein Download bereit ist, enthält diese Spalte einen Link zum Herunterladen.
 * **[!UICONTROL Abschlusszeit]**: Datum und Uhrzeit des Abschlusses (oder Fehlschlagens) des Auftrags.

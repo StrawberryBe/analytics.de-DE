@@ -1,69 +1,69 @@
 ---
-title: Einstellungen für Klassifizierungssätze
-description: Erstellen oder bearbeiten Sie einen Classification-Satz.
+title: Einstellungen für Classification Set
+description: Erstellen oder bearbeiten Sie ein Classification Set.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Einstellungen für Klassifizierungssätze
+# Einstellungen für Classification Set
 
-Konfigurieren Sie einen Classification-Satz, laden Sie Daten hoch oder laden Sie Daten herunter.
+Konfigurieren Sie ein Classification Set, laden Sie Daten hoch oder herunter.
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihren Kundenbetreuer, der Ihre Anfrage zur Bereitstellung an das Classifications-Team weiterleitet.
+>Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihre*n Account Manager, der*die Ihre Anfrage zur Bereitstellung an das Classifications-Team weiterleitet.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]** > Klicken Sie auf den Namen des gewünschten Klassifizierungssatzes
 
-Beim Bearbeiten eines Classification-Sets stehen zwei Registerkarten zur Verfügung. **[!UICONTROL Schema]** und **[!UICONTROL Einstellungen]**.
+Beim Bearbeiten eines Klassifizierungssatzes stehen zwei Registerkarten zur Verfügung. **[!UICONTROL Schema]** und **[!UICONTROL Einstellungen]**.
 
 ## Einstellungen 
 
-Die folgenden Felder sind im [!UICONTROL Einstellungen] und kann bearbeitet werden:
+Die folgenden Felder sind auf der Registerkarte [!UICONTROL Einstellungen] verfügbar und können bearbeitet werden:
 
 * **[!UICONTROL Name]**: Der Name des Klassifizierungssatzes.
-* **[!UICONTROL Beschreibung]**: Die Beschreibung für den Classification-Satz.
-* **[!UICONTROL Name des Inhabers]**: Der Name des Eigentümers.
-* **[!UICONTROL E-Mail-Inhaber]**: Die E-Mail-Adresse des Eigentümers.
-* **[!UICONTROL Über Probleme informieren]**: Eine kommagetrennte Liste von E-Mail-Adressen, die über Probleme mit diesem Klassifizierungssatz benachrichtigt werden.
-* **[!UICONTROL Tags]**: Fügen Sie den ausgewählten Classification-Sets ein oder mehrere Tags hinzu, um Classification-Sets zu organisieren oder zu gruppieren, damit sie in Zukunft leichter zu finden sind.
+* **[!UICONTROL Beschreibung]**: Die Beschreibung für den Klassifizierungssatz.
+* **[!UICONTROL Name des Inhabers]**: Der Name des/der Verantwortlichen.
+* **[!UICONTROL E-Mail des Inhabers]**: Die E-Mail-Adresse des/der Verantwortlichen.
+* **[!UICONTROL Über Probleme informieren]**: Eine kommagetrennte Liste von E-Mail-Adressen, die bei Problemen mit diesem Klassifizierungssatz benachrichtigt werden.
+* **[!UICONTROL Tags]**: Fügen Sie ein oder mehrere Tags zu den ausgewählten Klassifizierungssätzen hinzu, um Klassifizierungssätze zu organisieren oder zu gruppieren, damit sie später leichter zu finden sind.
 
 Zusätzliche Felder stehen zu Informationszwecken zur Verfügung und können nicht bearbeitet werden:
 
-* **[!UICONTROL Typ]**: Der Classification-Typ zwischen [!UICONTROL Primär] und [!UICONTROL Suche]. Normalerweise werden Primäre Classifications verwendet.
-* **[!UICONTROL Abonnements]**: Die Report Suite und Variable, für die der Classification-Satz gilt. Derzeit wird nur eine Report Suite für einen bestimmten Classification-Satz unterstützt. Unterstützung für mehrere Report Suites ist geplant.
+* **[!UICONTROL Typ]**: Der Typ der Klassifizierung, entweder [!UICONTROL Primär] oder [!UICONTROL Suche]. Normalerweise werden primäre Klassifizierungen verwendet.
+* **[!UICONTROL Abonnements]**: Die Report Suite und Variable, für die der Klassifizierungssatz gilt. Derzeit wird nur eine Report Suite für einen bestimmten Klassifizierungssatz unterstützt. Unterstützung für mehrere Report Suites ist geplant.
 
 ## Schema
 
-Zeigen Sie die derzeit konfigurierten Klassifizierungsdimensionen für dieses Abonnement an. Die folgenden Schaltflächen sind verfügbar:
+Zeigen Sie die derzeit konfigurierten Klassifizierungsdimensionen für dieses Abonnement an. Folgende Schaltflächen sind verfügbar:
 
-* **[!UICONTROL Hochladen]**: Manuelles Hochladen von Classification-Daten für eine oder mehrere Classification-Dimensionen. JSON-, CSV-, TSV- und TAB-Dateien werden unterstützt. Beim Hochladen einer gültigen Datei wird eine Tabellenvorschau der zu klassifizierenden Daten angezeigt.
-   * **[!UICONTROL Dateikodierung]**: Wählen Sie die richtige Dateikodierung mithilfe dieses Dropdown-Menüs aus. Zu den gültigen Optionen gehören [!UICONTROL UTF-8] und [!UICONTROL Latin1].
-   * **[!UICONTROL Trennzeichen auflisten]**: Wählen Sie das richtige Listentrennzeichen aus. Wenn Sie eine heruntergeladene Datei oder Vorlagendatei verwenden, stellen Sie sicher, dass die Variable [!UICONTROL Trennzeichen auflisten] hier stimmt mit der [!UICONTROL Trennzeichen auflisten] wenn die Datei heruntergeladen wurde.
-   * **[!UICONTROL Anwenden]**: Speichern Sie die hochgeladenen Classification-Daten in den Classification-Satz.
+* **[!UICONTROL Hochladen]**: Manuelles Hochladen von Klassifizierungsdaten für eine oder mehrere Klassifizierungsdimensionen. JSON-, CSV-, TSV- und TAB-Dateien werden unterstützt. Beim Hochladen einer gültigen Datei wird eine Tabellenvorschau der zu klassifizierenden Daten angezeigt.
+   * **[!UICONTROL Dateicodierung]**: Wählen Sie mithilfe dieser Dropdown-Liste die richtige Dateicodierung aus. Zu den gültigen Optionen gehören [!UICONTROL UTF-8] und [!UICONTROL Latin1].
+   * **[!UICONTROL Listentrennzeichen]**: Wählen Sie das richtige Listentrennzeichen aus. Wenn Sie eine heruntergeladene Datei oder eine Vorlagendatei verwenden, stellen Sie sicher, dass das [!UICONTROL Listentrennzeichen] hier mit dem [!UICONTROL Listentrennzeichen] übereinstimmt, das beim Herunterladen der Datei verwendet wurde.
+   * **[!UICONTROL Anwenden]**: Speichern der hochgeladenen Klassifizierungsdaten in den Klassifizierungssatz.
 
-   ![Classification-Set-Upload](../assets/classification-set-upload.png)
+   ![Hochladen eines Klassifizierungssatzes](../assets/classification-set-upload.png)
 
-* **[!UICONTROL Download]**: Laden Sie Schlüsselwerte und ihre Classification-Spalten herunter.
-   * **[!UICONTROL Zeilen]**: Die maximale Anzahl von Zeilen, die in die Download-Datei aufgenommen werden sollen.
-   * **[!UICONTROL Zeilen herunterladen, die zwischen]**: Eine Datumsauswahl im Kalender , mit der Sie Schlüsselwerte nach dem Zeitpunkt filtern können, zu dem sie in Berichten angezeigt werden. Wenn in diesem Datumsbereich kein Schlüsselwert erfasst wurde, wird er nicht in der heruntergeladenen Datei angezeigt.
-   * **[!UICONTROL Zurückgegebene Daten]**: Ein Dropdown-Menü, mit dem Sie die in der heruntergeladenen Datei enthaltenen Schlüsselwerte anhand der zugehörigen Classification-Daten filtern können.
-      * **[!UICONTROL Alle klassifizierten Werte]**: Umfasst Zeilen, in denen Classification-Daten in mindestens einer Spalte enthalten sind.
-      * **[!UICONTROL Alle nicht klassifizierten Werte]**: Umfasst Zeilen, in denen Classification-Daten in mindestens einer Spalte fehlen.
-   * **[!UICONTROL Dateiformat]**: Dropdown-Liste, das das Dateiformat der Download-Datei bestimmt. Optionen umfassen [!UICONTROL JSON], [!UICONTROL Kommagetrennte Werte]und [!UICONTROL Excel-Tabulatorgetrennte Werte].
-   * **[!UICONTROL Dateikodierung]**: Dropdown, das die Dateikodierung bestimmt. Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
-   * **[!UICONTROL Trennzeichen auflisten]**: Dropdown-Liste, das das Listentrennzeichen bestimmt, das Classification-Spalten in jeder Zeile trennt.
+* **[!UICONTROL Herunterladen]**: Laden Sie Schlüsselwerte und ihre Classification-Spalten herunter.
+   * **[!UICONTROL Zeilen]**: Die maximale Anzahl von Zeilen, die in die herunterzuladene Datei aufgenommen werden sollen.
+   * **[!UICONTROL Zeilen herunterladen, die eingingen zwischen]**: Eine Datumsauswahl im Kalender, mit der Sie Schlüsselwerte nach dem Zeitpunkt filtern können, zu dem sie in Berichten angezeigt werden. Wenn in diesem Datumsbereich kein Schlüsselwert erfasst wurde, erscheint er nicht in der heruntergeladenen Datei.
+   * **[!UICONTROL Zurückgegebene Daten]**: Ein Dropdown-Menü, mit dem Sie die in der heruntergeladenen Datei enthaltenen Schlüsselwerte anhand der zugehörigen Klassifizierungsdaten filtern können.
+      * **[!UICONTROL Alle klassifizierten Werte]**: Umfasst Zeilen, in denen in mindestens einer Spalte Klassifizierungsdaten enthalten sind.
+      * **[!UICONTROL Alle nicht klassifizierten Werte]**: Umfasst Zeilen, in denen in mindestens einer Spalte Klassifizierungsdaten fehlen.
+   * **[!UICONTROL Dateiformat]**: Dropdown-Liste, in der das Dateiformat der herunterzuladenden Datei bestimmt wird. Die Optionen umfassen [!UICONTROL JSON], [!UICONTROL Kommagetrennte Werte] und [!UICONTROL Tabulatorgetrennte Werte für Excel].
+   * **[!UICONTROL Dateicodierung]**: Dropdown-Liste, in der die Dateicodierung bestimmt wird. Die Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
+   * **[!UICONTROL Listentrennzeichen]**: Dropdown-Liste, in der das Listentrennzeichen bestimmt wird, das Klassifizierungsspalten in jeder Zeile trennt.
 
    ![Herunterladen von Klassifizierungssets](../assets/classification-set-download.png)
 
-* **[!UICONTROL Vorlage]**: Laden Sie eine Vorlagendatei herunter. Diese Datei ähnelt der [!UICONTROL Download] -Schaltfläche, mit der Ausnahme, dass sie keine Classification-Daten oder Schlüsselwerte enthält.
-   * **[!UICONTROL Dateiformat]**: Dropdown-Liste, das das Dateiformat der Vorlagendatei bestimmt. Optionen umfassen [!UICONTROL Kommagetrennte Werte]und [!UICONTROL Excel-Tabulatorgetrennte Werte].
-   * **[!UICONTROL Dateikodierung]**: Dropdown, das die Dateikodierung bestimmt. Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
-   * **[!UICONTROL Trennzeichen auflisten]**: Dropdown-Liste, das das Listentrennzeichen bestimmt, das Classification-Spalten in jeder Zeile trennt.
-* **[!UICONTROL Auftragsverlauf]**: Ein Verknüpfungslink, über den Sie zum [Job Manager](job-manager.md), die Aufträge nur für diesen Classification-Satz anzeigt.
+* **[!UICONTROL Vorlage]**: Herunterladen einer Vorlagendatei. Diese Datei ähnelt der Datei, die mit der Schaltfläche [!UICONTROL Herunterladen] erhalten wird, mit der Ausnahme, dass sie keine Klassifizierungsdaten oder Schlüsselwerte enthält.
+   * **[!UICONTROL Dateiformat]**: Dropdown-Liste, in der das Dateiformat der Vorlagendatei bestimmt wird. Die Optionen umfassen [!UICONTROL Kommagetrennte Werte] und [!UICONTROL Tabulatorgetrennte Werte für Excel].
+   * **[!UICONTROL Dateikodierung]**: Dropdown-Liste, in der die Dateicodierung bestimmt wird. Die Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
+   * **[!UICONTROL Listentrennzeichen]**: Dropdown-Liste, in der das Listentrennzeichen bestimmt wird, das Klassifizierungsspalten in jeder Zeile trennt.
+* **[!UICONTROL Auftragsverlauf]**: Ein Verknüpfungs-Link, über den Sie zum [Job Manager](job-manager.md) gelangen, der Aufträge nur für diesen Klassifizierungssatz anzeigt.
 
-   ![Classification-Set-Vorlage](../assets/classification-set-template.png)
+   ![Klassifizierungssatz-Vorlage](../assets/classification-set-template.png)
