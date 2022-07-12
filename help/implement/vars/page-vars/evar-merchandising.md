@@ -4,10 +4,10 @@ description: Benutzerdefinierte Variablen, die mit Einzelprodukten verknüpft si
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
+source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 75%
+source-wordcount: '523'
+ht-degree: 72%
 
 ---
 
@@ -80,7 +80,7 @@ XDM-Struktur:
 Resultierender Parameter &quot;products&quot;, der an Analytics übergeben wird:
 
 ```js
-pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
 ```
 
 ## Implementieren mit Syntax der Konversionsvariablen
@@ -107,6 +107,8 @@ Der Wert `"Aviary"` für `eVar1` wird dem Produkt `"Canary"` zugewiesen. Alle na
 
 Sie können dieselben Informationen mithilfe von XDM-Feldern angeben, die Analytics-Feldern zugeordnet sind. Sie können eine Liste aller Zuordnungen von XDM zu Analytics-Parametern anzeigen [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Das XDM-Spiegeln des obigen Beispiels würde wie folgt aussehen:
 
+Legen Sie die eVar für denselben oder vorherigen Ereignisaufruf fest:
+
 ```js
                   "_experience": {
                       "analytics": {
@@ -116,7 +118,12 @@ Sie können dieselben Informationen mithilfe von XDM-Feldern angeben, die Analyt
                               }
                           }
                       }
-                  },
+                  }
+```
+
+Legen Sie das Binding-Ereignis und die Werte für die Produktzeichenfolge fest:
+
+```js
                   "commerce": {
                       "productViews" : {
                           "value" : 1
