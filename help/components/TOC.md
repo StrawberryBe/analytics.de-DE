@@ -7,7 +7,7 @@ user-guide-description: Verwalten Sie Ihre Daten mithilfe von Komponenten wie Se
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -228,7 +228,7 @@ ht-degree: 97%
 + Classifications {#classifications}
    + [Übersicht über Klassifizierungen](classifications/c-classifications.md)
    + Klassifizierungssätze {#sets}
-      + [Classification-Sets - Übersicht](classifications/sets/overview.md)
+      + [Klassifizierungssätze – Übersicht](classifications/sets/overview.md)
       + [Classification Sets Manager](classifications/sets/set-manager.md)
       + [Auftrags-Manager für Klassifizierungssätze](classifications/sets/job-manager.md)
       + [Erstellen eines Klassifizierungssatzes](classifications/sets/create.md)

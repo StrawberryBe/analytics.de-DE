@@ -5,7 +5,7 @@ user-guide-title: Importhandbuch für Analytics
 breadcrumb-title: Importleitfaden
 user-guide-description: 'Importieren Sie Daten entweder als Massenimport oder in Echtzeit von externen Quellen nach Adobe Analytics. '
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
