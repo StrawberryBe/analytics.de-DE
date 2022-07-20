@@ -4,10 +4,10 @@ keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 98%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ Objekte erben jedoch keine Berechtigungen vom übergeordneten Bucket. Lädt Benu
 
 >[!NOTE]
 >
->[!DNL Analytics] bestimmt nicht, ob der Bucket über eine Richtlinie verfügt, die erfordert, dem Bucket-Inhaber die volle Kontrolle über neue Objekte zu geben, oder auch dann, wenn sich der Bucket-Inhaber in einem anderen Konto befindet als der Benutzer, der die Daten schreibt. Stattdessen fügt [!DNL Analytics] den Bucket-Inhaber bei jedem Feed-Upload automatisch zur BucketOwnerFullControl-ACL hinzu.
+>Adobe Analytics bestimmt nicht, ob der Behälter eine Richtlinie hat, die es erfordert, dass der Bucket-Eigentümer die volle Kontrolle über neue Objekte erhält, oder selbst wenn sich der Bucket-Eigentümer in einem anderen Konto befindet als der Benutzer, der die Daten schreibt. Stattdessen fügt Analytics den Bucket-Eigentümer automatisch zum `BucketOwnerFullControl` ACL bei jedem Feed-Upload.
+

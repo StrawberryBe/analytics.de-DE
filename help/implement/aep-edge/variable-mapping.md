@@ -2,10 +2,10 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 100%
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -15,14 +15,13 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 
 | XDM-Feldpfad | Analytics-Dimension und Beschreibung |
 | --- | --- |
-| `application.id` | Die Mobile-Dimension [App-ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
 | `application.isClose` | Ermöglicht die Definition der Mobile-Metrik [Abstürze](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
 | `application.isInstall` | Hilft bei der Bestimmung, wann die Mobile-Metrik [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) erhöht werden soll. |
 | `application.isLaunch` | Hilft bei der Bestimmung, wann die Mobile-Metrik [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) erhöht werden soll. |
 | `application.closeType` | Bestimmt, ob ein Schließen-Ereignis ein Absturz ist oder nicht. Gültige Werte sind `close` (eine Lebenszyklussitzung endet und ein Pausenereignis wurde für die vorherige Sitzung empfangen) und `unknown` (eine Lebenszyklussitzung endet ohne Pausenereignis). Hilft beim Festlegen der Metrik [Abstürze](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | Die Mobile-Metrik [Installs](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Die Mobile-Metrik [Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.name` | Ermöglicht die Definition der Mobile-Dimension [App-ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `application.name` | Ermöglicht die Definition der Mobile-Dimension [App-ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
 | `application.isUpgrade` | Die Mobile-Metrik [Upgrades](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.version` | Ermöglicht die Definition der Mobile-Dimension [App-ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.sessionLength` | Die Mobile-Metrik [Länge der vorherigen Sitzung](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -128,7 +127,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 
 ## Zuordnen anderer XDM-Felder zu Analytics-Variablen
 
-Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun. Alle XDM-Feldelemente werden als Kontextdaten mit dem Präfix `a.x` an Adobe Analytics gesendet. Sie können dann diese Kontextdatenvariable unter Verwendung von [Verarbeitungsregeln](../../admin/admin/c-processing-rules/processing-rules.md) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
+Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun. Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix a.x an Adobe Analytics gesendet. Sie können diese Kontextdatenvariable dann der gewünschten Analytics-Variablen zuordnen, indem Sie [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de). Angenommen, Sie senden das folgende Ereignis:
 
 ```js
 alloy("event",{

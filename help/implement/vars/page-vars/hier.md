@@ -3,10 +3,10 @@ title: hier
 description: Implementieren Sie Hierarchievariablen in Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,10 @@ Hierarchievariablen sind benutzerdefinierte Variablen, mit denen Sie die Struktu
 >[!TIP]
 >
 >Diese Variable wurde in früheren Versionen von Adobe Analytics häufiger verwendet. Adobe empfiehlt stattdessen die Verwendung von [eVars](evar.md) und Klassifizierungen.
+
+>[!IMPORTANT]
+>
+>Hierarchie wird bei der Datenerfassung mit XDM für Experience Edge nicht unterstützt.
 
 Diese Variable ist nützlich bei Sites mit mehr als drei Ebenen in der Site-Struktur. Eine Medien-Site kann beispielsweise vier Ebenen zum Abschnitt „Sport“ haben: `Sports`, `Local Sports`, `Baseball` und `Team name`. Wenn ein Besucher die Fußballseite aufruft, wird dieser Besuch in den Ebenen „Sport“, „Lokaler Sport“ und „Fußball“ wiedergegeben.
 
