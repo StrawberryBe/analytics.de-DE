@@ -3,7 +3,7 @@ title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 84%
@@ -22,9 +22,7 @@ Benutzerdefinierte Ereignisse sind [für Adobe Analytics zugeordnet](https://exp
 
 * Benutzerdefinierte Ereignisse 1-100 werden zugeordnet zu `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Benutzerdefinierte Ereignisse 101-200 werden zugeordnet zu `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Dieses Muster wiederholt alle 100 Ereignisse zu `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
-* `eventx.value` wird verwendet, um den Wert anzugeben.
-* `eventx.id` wird verwendet, um die ID für die Serialisierung anzugeben.
+* Dieses Muster wiederholt alle 100 Ereignisse zu `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` wird verwendet, um den Wert anzugeben. `eventx.id` wird verwendet, um die ID für die Serialisierung anzugeben.
 * Bestellungen werden zugeordnet zu `commerce.purchases.value`.
 * Einheiten werden der Summe aller `productListItems[].quantity` -Felder.
 * Der Umsatz wird der Summe aller `productListItems[].priceTotal` -Felder.
