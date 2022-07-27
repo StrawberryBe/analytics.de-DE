@@ -3,10 +3,10 @@ title: pt
 description: Führt eine Funktion für eine Liste von Variablen aus.
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '502'
+ht-degree: 97%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 94%
 
 Das `pt`-Plug-in führt eine Funktion oder Methode für eine Liste von Analytics-Variablen aus. Beispielsweise können Sie die [`clearVars`](../functions/clearvars.md)-Methode selektiv für mehrere Variablen ausführen, ohne die Methode jedes Mal manuell aufzurufen. Mehrere andere Plug-ins sind auf diesen Code angewiesen, um korrekt zu funktionieren. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehrere Analytics-Variablen ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
 
-## Installieren des Plug-ins mit dem Web SDK oder der Adobe Analytics-Erweiterung
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
-1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
-   * Bedingung: Keine
-   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
-   * Erweiterung: Common Analytics Plugins
-   * Aktionstyp: pt initialisieren
-1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize pt
+1. Save and publish the changes to the rule.-->
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 

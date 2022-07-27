@@ -3,9 +3,9 @@ title: cleanStr
 description: Entfernen oder ersetzen Sie alle unnötigen Zeichen aus einer Zeichenfolge.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '356'
 ht-degree: 79%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 79%
 
 Das `cleanStr`-Plug-in entfernt oder ersetzt alle unnötigen Zeichen aus einer Zeichenfolge, einschließlich HTML-Tag-Zeichen, zusätzliche Leerzeichen, Tabulatoren und Zeilenumbrüche/Zeilenumschalter. Es ersetzt auch einfache linke/rechte Anführungszeichen (`‘` und `’`) durch gerade einfache Anführungszeichen (`'`). Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie unnötige Zeichen aus Variablenwerten entfernen möchten und die Funktion &quot;Text bereinigen&quot;in der Adobe Experience Platform-Datenerfassung Ihre Implementierungsanforderungen nicht erfüllt. Dieses Plug-in ist nicht erforderlich, wenn die erfassten Daten keine unnötigen Zeichen enthalten oder die Funktion &quot;Text bereinigen&quot;in der Adobe Experience Platform-Datenerfassung ausreicht.
 
-## Installieren des Plug-ins mit dem Web SDK oder der Adobe Analytics-Erweiterung
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
-1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
-   * Bedingung: Keine
-   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
-   * Erweiterung: Common Analytics Plugins
-   * Aktionstyp: cleanStr initialisieren
-1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize cleanStr
+1. Save and publish the changes to the rule.-->
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 

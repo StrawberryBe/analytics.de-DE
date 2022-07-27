@@ -3,10 +3,10 @@ title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,21 +20,21 @@ Mit dem `getQueryParam`-Plug-in können Sie den Wert eines beliebigen Abfragezei
 
 Dieses Plug-in bietet stabile Funktionen zum Analysieren komplexer URLs, einschließlich Hashes und URLs, die mehrere Abfragezeichenfolgenparameter enthalten. Wenn Sie nur einfache Abfragezeichenfolgenparameter benötigen, empfiehlt Adobe die Verwendung der URL-Parameterfunktionen mithilfe des Web SDK oder der Adobe Analytics-Erweiterung oder der [`Util.getQueryParam()`](../functions/util-getqueryparam.md) -Methode in AppMeasurement enthalten.
 
-## Installieren des Plug-ins mit dem Web SDK oder der Adobe Analytics-Erweiterung
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
-1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
-   * Bedingung: Keine
-   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
-   * Erweiterung: Common Analytics Plugins
-   * Aktionstyp: getQueryParam initialisieren
-1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getQueryParam
+1. Save and publish the changes to the rule.-->
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
