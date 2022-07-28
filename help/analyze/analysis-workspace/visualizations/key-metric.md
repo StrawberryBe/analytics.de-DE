@@ -3,9 +3,9 @@ description: Verwenden Sie die Visualisierung der Schlüsselmetrik-Zusammenfassu
 title: Zusammenfassung einer Schlüsselmetrik
 feature: Visualizations
 role: User, Admin
-source-git-commit: a126f51c82cf7b23f4e03134c2d870d216dadc47
+source-git-commit: 73de5dca8584d8d04b57a0d50dffcb57cfeefb08
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 >
 >Diese Funktion wird derzeit [eingeschränkt getestet](/help/release-notes/releases.md).
 
-Mit der Visualisierung der Schlüsselmetrik-Zusammenfassung können Sie sehen, wie eine wichtige Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht. Außerdem können Sie damit die Leistung von Metriken über zwei Zeitrahmen hinweg vergleichen. Sie bietet die Vorteile mehrerer Visualisierungen, die in einer Visualisierung kombiniert werden:
+Die [!UICONTROL Zusammenfassung der Schlüsselmetriken] -Visualisierung können Sie sehen, wie eine wichtige Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht. Außerdem können Sie damit die Leistung von Metriken über zwei Zeitrahmen hinweg vergleichen. Sie bietet die Vorteile mehrerer Visualisierungen, die in einer Visualisierung kombiniert werden:
 
 * **[!UICONTROL Linie]** Visualisierungen, die zeigen, wie die Metrik Trends für die primären und Vergleichsdatumsbereiche darstellt
 
@@ -62,7 +62,7 @@ Bitte beachten Sie:
 
 * Die **[!UICONTROL Vorheriger Zeitraum]** Kantengraph (immer grau dargestellt) entspricht dem **[!UICONTROL Vergleichsdatumsbereich]** im Konfigurationsschritt.
 
-* Wenn ein Vergleichsdatumsbereich während der Konfiguration nicht ausgewählt oder in den Visualisierungseinstellungen ausgeblendet wird (siehe Einstellungen unten), wird nur das Liniendiagramm für den primären Datumsbereich angezeigt. Die Zusammenfassungsänderung wird ausgeblendet.
+* Wenn während der Konfiguration kein Vergleichsdatumsbereich angegeben oder in den Visualisierungseinstellungen ausgeblendet wird, wird nur das Liniendiagramm für den primären Datumsbereich angezeigt. Die Zusammenfassungsänderung wird ausgeblendet.
 
 * Von hier aus können Sie mit dem Mauszeiger über die Liniendiagramme fahren, um die Statistiken für einzelne Tage anzuzeigen:
 
@@ -76,16 +76,16 @@ Die Zusammenfassung der Schlüsselmetriken bietet mehrere flexible Einstellungen
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| Prozentuale Veränderung hervorheben | Änderung der Zusammenfassung im markanten fett gedruckten Typ in der Mitte der Visualisierung anzeigen |
-| Wert der Hervorhebung | Zusammenfassungsnummer in markanter Fettschrift in der Mitte der Visualisierung anzeigen |
-| Legende sichtbar | Legende unten in der Visualisierung ein- oder ausblenden |
-| Anmerkungen anzeigen | Anzeigen oder Ausblenden von Anmerkungen, die von einem Administrator hinzugefügt wurden |
-| Sparklines anzeigen | Zeigen Sie Liniendiagramme am unteren Rand des Diagramms an oder blenden Sie sie aus. Wenn die Legende ausgeblendet wird, wird sie nicht mehr visuell auf die Zeilen verweisen |
-| Min. und Max. für Wortgrafiken anzeigen | Mindest- und Höchstwerte in Primär- und Vergleichsliniendiagrammen ein- oder ausblenden |
-| Vergleich anzeigen | Vergleichsdaten ein- oder ausblenden. Wenn diese Option ausgeblendet ist, werden sowohl das Vergleichszeilendiagramm als auch die Zusammenfassungsänderung der Objekte ausgeblendet. |
-| Gesamtanzahl anzeigen | Zusammenfassungsnummer anzeigen oder ausblenden |
-| Rohdifferenz anzeigen | Rohdifferenz zwischen dem Gesamtwert der Metrik im primären Datumsbereich und im sekundären Datumsbereich anzeigen oder ausblenden |
-| Wert abkürzen | Abkürzung für Zahlenwerte zur Vereinfachung kommunizierter Einblicke (z. B. 20.000 -> 20.000) |
+| **[!UICONTROL Prozentuale Veränderung hervorheben]** | Änderung der Zusammenfassung im markanten fett gedruckten Typ in der Mitte der Visualisierung anzeigen |
+| **[!UICONTROL Wert der Hervorhebung]** | Zusammenfassungsnummer in markanter Fettschrift in der Mitte der Visualisierung anzeigen |
+| **[!UICONTROL Legende eingeblendet]** | Legende unten in der Visualisierung ein- oder ausblenden |
+| **[!UICONTROL Anmerkungen anzeigen]** | Anzeigen oder Ausblenden von Anmerkungen, die von einem Administrator hinzugefügt wurden |
+| **[!UICONTROL Sparklines anzeigen]** | Zeigen Sie Liniendiagramme am unteren Rand des Diagramms an oder blenden Sie sie aus. Wenn die Legende ausgeblendet wird, wird sie nicht mehr visuell auf die Zeilen verweisen |
+| **[!UICONTROL Min. und Max. für Wortgrafiken anzeigen]** | Mindest- und Höchstwerte in Primär- und Vergleichsliniendiagrammen ein- oder ausblenden |
+| **[!UICONTROL Vergleich anzeigen]** | Vergleichsdaten ein- oder ausblenden. Wenn diese Option ausgeblendet ist, werden sowohl das Vergleichszeilendiagramm als auch die Zusammenfassungsänderung der Objekte ausgeblendet. |
+| **[!UICONTROL Gesamtanzahl anzeigen]** | Zusammenfassungsnummer anzeigen oder ausblenden |
+| **[!UICONTROL Rohdifferenz anzeigen]** | Rohdifferenz zwischen dem Gesamtwert der Metrik im primären Datumsbereich und im sekundären Datumsbereich anzeigen oder ausblenden |
+| **[!UICONTROL Wert kürzen]** | Abkürzung für Zahlenwerte zur Vereinfachung kommunizierter Einblicke (z. B. 20.000 -> 20.000) |
 
 ## Visualisierung bearbeiten
 
