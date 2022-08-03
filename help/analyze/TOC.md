@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
+source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -73,20 +73,21 @@ ht-degree: 100%
          + [Flussübersicht](analysis-workspace/visualizations/c-flow/flow.md)
          + [Flussvisualisierung konfigurieren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale Flüsse](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Histogramm](analysis-workspace/visualizations/histogram.md)
-      + [Zusammenfassung einer Schlüsselmetrik](analysis-workspace/visualizations/key-metric.md)
-      + [Zuordnung](analysis-workspace/visualizations/map-visualization.md)
-      + [Venn](analysis-workspace/visualizations/venn.md)
       + [Bereich und Bereich gestapelt](analysis-workspace/visualizations/area.md)
       + [Balken und Balken gestapelt](analysis-workspace/visualizations/bar.md)
       + [Lineardiagramm](analysis-workspace/visualizations/bullet-graph.md)
+      + [Kombinationsdiagramm](analysis-workspace/visualizations/combo-charts.md)
       + [Ringdiagramm](analysis-workspace/visualizations/donut.md)
+      + [Histogramm](analysis-workspace/visualizations/histogram.md)
       + [Horizontalbalken und Horizontalbalken gestapelt](analysis-workspace/visualizations/horizontal-bar.md)
+      + [Zusammenfassung einer Schlüsselmetrik](analysis-workspace/visualizations/key-metric.md)
       + [Linie](analysis-workspace/visualizations/line.md)
+      + [Zuordnung](analysis-workspace/visualizations/map-visualization.md)
       + [Streudiagramm](analysis-workspace/visualizations/scatterplot.md)
       + [Sammelnummer und Sammeländerung](analysis-workspace/visualizations/summary-number-change.md)
       + [Text](analysis-workspace/visualizations/text.md)
       + [Baumdiagramm](analysis-workspace/visualizations/treemap.md)
+      + [Venn](analysis-workspace/visualizations/venn.md)
    + Bedienfelder {#panels}
       + [Übersicht über Bedienfelder](analysis-workspace/c-panels/panels.md)
       + [Bedienfeld „Analytics for Target“ (A4T)](analysis-workspace/c-panels/a4t-panel.md)
