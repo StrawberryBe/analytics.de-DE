@@ -3,10 +3,10 @@ description: Ermöglicht Ihnen die einfache Visualisierung von Vergleichsdaten i
 title: Visualisierung von Combo-Diagrammen
 feature: Visualizations
 role: User, Admin
-source-git-commit: e2cd08ae4109e037f8b54edf21239fa6fa659896
+source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 32%
+source-wordcount: '763'
+ht-degree: 34%
 
 ---
 
@@ -30,9 +30,9 @@ Verwenden Sie eine [!UICONTROL Combo-Diagramm] nach
 Bedenken Sie, dass Sie
 
 * Mehrere Vergleiche in einem einzigen [!UICONTROL Combo-Diagramm].
-* Wenn Sie einen oder mehrere Vergleiche hinzufügen, müssen diese vom gleichen Typ sein, z. B. Zeitraum.
+* Wenn Sie einen oder mehrere Vergleiche hinzufügen, müssen diese vom gleichen Typ sein, z. B. [!UICONTROL Zeitvergleich].
 * Sie können bis zu 5 Vergleiche hinzufügen.
-* Sie können einen Filter auf eine Metrik anwenden.
+* Sie können bis zu 3 Filter (Segmente) auf eine Metrik anwenden.
 
 ## Erstellen eines Combo-Diagramms
 
@@ -46,9 +46,9 @@ Bedenken Sie, dass Sie
 
    | Kantenvergleichstyp | Definition |
    | --- | --- |
-   | Zeitraum | Der häufigste Vergleichstyp - z. B. Vergleich dieses Zeitraums mit dem vor 4 Wochen. Wenn Sie den Zeitraum ausgewählt haben, wählen Sie eine sekundäre Auswahl, mit welchem Zeitraum Sie vergleichen möchten.<p>![](assets/combo-time-period.png) |
-   | Zusätzliche Metrik | Sie können beispielsweise [!UICONTROL Umsatz] zu einer anderen Metrik hinzu.<p>![](assets/combo-2metrics.png) |
-   | Funktion | Sie können eine Funktion wie [!UICONTROL Durchschnittlich] in den Vergleich ein. Eine Liste der unterstützten Funktionen finden Sie unten.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Zeitvergleich]** | Der häufigste Vergleichstyp - z. B. Vergleich dieses Zeitraums mit dem vor 4 Wochen. Wenn Sie [!UICONTROL Zeitvergleich], wählen Sie eine sekundäre Auswahl, um welchen Zeitraum Sie vergleichen möchten.<p>![](assets/combo-time-period.png) |
+   | **[!UICONTROL Zusätzliche Metrik]** | Sie können beispielsweise [!UICONTROL Umsatz] zu einer anderen Metrik hinzu.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL Funktion]** | Sie können eine Funktion wie [!UICONTROL Durchschnittlich] in den Vergleich ein. Eine Liste der unterstützten Funktionen finden Sie unten.<p>![](assets/combo-functions.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -66,11 +66,13 @@ Wenn Sie **[!UICONTROL Funktion]** als [!UICONTROL Kantenvergleichstyp], wird ei
 
 | Funktion | Definition |
 | --- | --- |
+| **[!UICONTROL Spaltensumme]** | Addiert alle numerischen Werte für eine Metrik innerhalb einer Spalte (über die Elemente einer Dimension hinweg) |
 | **[!UICONTROL Kumulativer Durchschnitt]** | Gibt den Durchschnitt der letzten N Zeilen zurück. |
-| **[!UICONTROL Summe]** | Addiert alle numerischen Werte für eine Metrik innerhalb einer Spalte (über die Elemente einer Dimension hinweg) |
-| **[!UICONTROL Exponent]** | Gibt *e* hoch eine angegebene Zahl zurück. |
+| **[!UICONTROL Median]** | Gibt den Medianwert für eine Metrik in einer Spalte zurück. Der Medianwert ist die Zahl in der Mitte eines Zahlensatzes, d. h. die Hälfte der Zahlen hat Werte größer oder gleich dem Medianwert und die Hälfte ist kleiner oder gleich dem Medianwert. |
+| **[!UICONTROL Kumulativ]** | Die kumulierte Summe der N Zeilen. |
+| **[!UICONTROL Spaltenmaximum]** | Gibt den größten Wert in einem Satz aus Dimensionselementen für eine Metrikspalte zurück. |
 | **[!UICONTROL Mittel]** | Gibt das arithmetische Mittel (oder den Durchschnitt) einer Metrik zurück. |
-| **[!UICONTROL Quartil]** | Gibt das Quartil der Werte für eine Metrik zurück. Anhand von Quartilen können Sie beispielsweise die oberen 25 % der Produkte finden, die den meisten Umsatz generieren. |
+| **[!UICONTROL Spaltenminimum]** | Gibt den kleinsten Wert in einem Satz aus Dimensionselementen für eine Metrikspalte zurück. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -90,13 +92,15 @@ Klicken Sie auf das Zahnradsymbol oben rechts in einem Kombinationsdiagramm, um 
 
 | Einstellung | Definition |
 | --- | --- |
+| **[!UICONTROL Visualisierungstyp]** | Hiermit können Sie zu einem anderen Visualisierungstyp wechseln. |
+| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste ändern. |
 | **[!UICONTROL Allgemein]** |  |
 | **[!UICONTROL Prozentsätze]** | Zeigt Werte als Prozentzahlen an. |
 | **[!UICONTROL Legende eingeblendet]** | Ermöglicht das Ausblenden des detaillierten Legendentextes für die Visualisierung von Combo-Diagrammen. |
-| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste ändern. |
+| **[!UICONTROL Maximale Elemente begrenzen]** | Reduziert die Anzahl der Elemente auf der X-Achse. Wenn Sie einen Big Data-Datensatz haben, können Sie nur die ersten 10 Elemente anzeigen (oder einen beliebigen Wert). |
 | **[!UICONTROL Überlagerungen]** | Ein- oder Ausblenden von Grillen auf Linien. |
 | **[!UICONTROL Achse]** |  |
-| **[!UICONTROL Zwei-Achsen-Display]** | Gilt nur, wenn Sie zwei Metriken haben – möglich sind eine Y-Achse links (für die eine Metrik) und eine rechts (für die andere). Dies ist hilfreich, wenn grafisch dargestellte Metriken sehr unterschiedliche Größenordnungen aufweisen. |
+| **[!UICONTROL Zwei-Achsen-Display]** | Gilt nur, wenn Sie zwei Metriken haben – möglich sind eine Y-Achse links (für die eine Metrik) und eine rechts (für die andere). Dies ist hilfreich, wenn grafisch dargestellte Metriken sehr unterschiedliche Größenordnungen aufweisen. Die Farbe der Doppelachse entspricht der Farbe der Tabelle, es sei denn, es gibt mehrere Vergleiche. In diesem Fall ist die Farbe für alle Vergleiche grau. |
 | **[!UICONTROL Normalisierung]** | Erzwingt Metriken für gleiche Anteile. Dies ist hilfreich, wenn grafisch dargestellte Metriken sehr unterschiedliche Größenordnungen aufweisen. |
 | **[!UICONTROL X-Achse anzeigen]** | Zeigen Sie die X-Achse an oder blenden Sie sie aus. |
 | **[!UICONTROL y-Achse anzeigen]** | Zeigen Sie die Y-Achse an oder blenden Sie sie aus. |
