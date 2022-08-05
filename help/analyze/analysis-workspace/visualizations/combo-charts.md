@@ -3,13 +3,13 @@ description: Ermöglicht Ihnen die einfache Visualisierung von Vergleichsdaten i
 title: Visualisierung von Combo-Diagrammen
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 34%
 
 ---
-
 
 # Kombinationsdiagramm
 
@@ -47,8 +47,8 @@ Bedenken Sie, dass Sie
    | Kantenvergleichstyp | Definition |
    | --- | --- |
    | **[!UICONTROL Zeitvergleich]** | Der häufigste Vergleichstyp - z. B. Vergleich dieses Zeitraums mit dem vor 4 Wochen. Wenn Sie [!UICONTROL Zeitvergleich], wählen Sie eine sekundäre Auswahl, um welchen Zeitraum Sie vergleichen möchten.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Zusätzliche Metrik]** | Sie können beispielsweise [!UICONTROL Umsatz] zu einer anderen Metrik hinzu.<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL Funktion]** | Sie können eine Funktion wie [!UICONTROL Durchschnittlich] in den Vergleich ein. Eine Liste der unterstützten Funktionen finden Sie unten.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Sekundäre Metrik]** | Sie können beispielsweise [!UICONTROL Umsatz] zu einer anderen Metrik hinzu.<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ Klicken Sie auf das Zahnradsymbol oben rechts in einem Kombinationsdiagramm, um 
 | **[!UICONTROL Y-Achse bei null verankern]** | Wenn alle im Diagramm dargestellten Werte deutlich größer als null sind, wird der untere Teil der Y-Achse standardmäßig zu NICHT-NULL gemacht. Wenn Sie dieses Kontrollkästchen aktivieren, wird die Y-Achse zwangsweise auf null gesetzt (und das Diagramm neu gezeichnet). |
 
 {style=&quot;table-layout:auto&quot;}
-
-
