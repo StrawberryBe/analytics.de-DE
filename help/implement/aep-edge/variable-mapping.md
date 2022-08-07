@@ -3,9 +3,9 @@ title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | XDM-Feldpfad | Analytics-Dimension und Beschreibung |
 | --- | --- |
 | `application.isClose` | Ermöglicht die Definition der Mobile-Metrik [Abstürze](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
-| `application.isInstall` | Hilft bei der Bestimmung, wann die Mobile-Metrik [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) erhöht werden soll. |
-| `application.isLaunch` | Hilft bei der Bestimmung, wann die Mobile-Metrik [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) erhöht werden soll. |
-| `application.closeType` | Bestimmt, ob ein Schließen-Ereignis ein Absturz ist oder nicht. Gültige Werte sind `close` (eine Lebenszyklussitzung endet und ein Pausenereignis wurde für die vorherige Sitzung empfangen) und `unknown` (eine Lebenszyklussitzung endet ohne Pausenereignis). Hilft beim Festlegen der Metrik [Abstürze](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isInstall` | Die Mobile-Metrik [Installs](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | Die Mobile-Metrik [Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isInstall` | Hilft bei der Bestimmung, wann die Mobile-Metrik [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics) erhöht werden soll. |
+| `application.isLaunch` | Hilft bei der Bestimmung, wann die Mobile-Metrik [Erste Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics) erhöht werden soll. |
+| `application.closeType` | Bestimmt, ob ein Schließen-Ereignis ein Absturz ist oder nicht. Gültige Werte sind `close` (eine Lebenszyklussitzung endet und ein Pausenereignis wurde für die vorherige Sitzung empfangen) und `unknown` (eine Lebenszyklussitzung endet ohne Pausenereignis). Hilft beim Festlegen der Metrik [Abstürze](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
+| `application.isInstall` | Die Mobile-Metrik [Installs](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
+| `application.isLaunch` | Die Mobile-Metrik [Starts](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
 | `application.name` | Ermöglicht die Definition der Mobile-Dimension [App-ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
-| `application.isUpgrade` | Die Mobile-Metrik [Upgrades](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.version` | Ermöglicht die Definition der Mobile-Dimension [App-ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.sessionLength` | Die Mobile-Metrik [Länge der vorherigen Sitzung](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isUpgrade` | Die Mobile-Metrik [Upgrades](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
+| `application.version` | Ermöglicht die Definition der Mobile-Dimension [App-ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
+| `application.sessionLength` | Die Mobile-Metrik [Länge der vorherigen Sitzung](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#metrics). |
 | `commerce.checkouts.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Checkouts](../../components/metrics/checkouts.md) an. |
 | `commerce.checkouts.value` | Inkrementiert die Metrik [Checkouts](../../components/metrics/checkouts.md) um den gewünschten Wert. |
 | `commerce.order.currencyCode` | Definiert die Konfigurationsvariable [currencyCode](../vars/config-vars/currencycode.md). |
@@ -40,7 +40,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `commerce.productViews.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Produktansichten](../../components/metrics/product-views.md) an. |
 | `commerce.productViews.value` | Erhöht die Metrik [Produktansichten](../../components/metrics/product-views.md). |
 | `commerce.purchases.value` | Erhöht die Metrik [Bestellungen](../../components/metrics/orders.md). |
-| `device.model` | Die Mobile-Dimension [Gerätename](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `device.model` | Die Mobile-Dimension [Gerätename](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
 | `device.colorDepth` | Ermöglicht die Definition der Dimension [Farbtiefe](../../components/dimensions/color-depth.md). |
 | `device.screenHeight` | Ermöglicht die Definition der Dimension [Bildschirmauflösung.](../../components/dimensions/monitor-resolution.md) |
 | `device.screenWidth` | Ermöglicht die Definition der Dimension [Bildschirmauflösung.](../../components/dimensions/monitor-resolution.md) |
@@ -51,12 +51,12 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `environment.browserDetails.userAgent` | Wird als Fallback-Identifizierungsmethode für [Unique Visitor](../../components/metrics/unique-visitors.md) verwendet. Wird normalerweise unter Verwendung der HTTP-Anfrage-Kopfzeile `User-Agent` befüllt. Sie können dieses Feld einer eVar zuordnen, wenn Sie es in Berichten verwenden möchten. |
 | `environment.browserDetails.viewportHeight` | Definiert die Dimension [Browser-Höhe](../../components/dimensions/browser-height.md). |
 | `environment.browserDetails.viewportWidth` | Definiert die Dimension [Browser-Breite](../../components/dimensions/browser-width.md). |
-| `environment.carrier` | Die Mobile-Dimension [Betreibername](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.carrier` | Die Mobile-Dimension [Betreibername](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
 | `environment.connectionType` | Ermöglicht die Definition der Dimension [Verbindungstyp](../../components/dimensions/connection-type.md). |
 | `environment.ipV4` | Wird als Fallback-Identifizierungsmethode für [Unique Visitor](../../components/metrics/unique-visitors.md) verwendet. Wird normalerweise unter Verwendung der HTTP-Kopfzeile `X-Forwarded-For` befüllt. |
 | `environment.language` | Die Mobile-Dimension „Locale“. |
-| `environment.operatingSystem` | Die Mobile-Dimension [Betriebssystem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.operatingSystemVersion` | Hilft beim Festlegen der Dimension [Betriebssystemversion](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystem` | Die Mobile-Dimension [Betriebssystem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
+| `environment.operatingSystemVersion` | Hilft beim Festlegen der Dimension [Betriebssystemversion](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=de#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Legt die entsprechende [eVar](../../components/dimensions/evar.md)-Dimension fest. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Das Begrenzungszeichen, das für eine bestimmte [Listen-Prop](../vars/page-vars/prop.md#list-props) verwendet wird. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Ein Zeichenfolgen-Array, das die Werte der entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props) enthält. |
@@ -127,7 +127,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 
 ## Zuordnen anderer XDM-Felder zu Analytics-Variablen
 
-Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun. Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix a.x an Adobe Analytics gesendet. Sie können diese Kontextdatenvariable dann der gewünschten Analytics-Variablen zuordnen, indem Sie [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de). Angenommen, Sie senden das folgende Ereignis:
+Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun. Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix a.x an Adobe Analytics gesendet. Sie können diese Kontextdatenvariable dann unter Verwendung der [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
 
 ```js
 alloy("event",{
