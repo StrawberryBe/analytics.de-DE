@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
 source-wordcount: '3448'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Datum | Beschreibung |
 | --- | --- |
 | **Juni 2022** |  |
-| Merchandising-Variablen in XDM für die Edge-Sammlung | Dokumentation zu [Unterstützung für Merchandising-Variablen in XDM für Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=de) |
+| Unterstützung für Merchandising-Variablen in XDM für Edge-Erfassung | Dokumentation über [Unterstützung für Merchandising-Variablen in XDM für Edge-Erfassung](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=de) |
 | Experience Platform Edge-Dokumentation | Neue Artikel zur Implementierung von Adobe Analytics über das [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=de), das [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=de) und die [Edge-API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=de). |
 | Aktualisierte Dokumentation zur Flussvisualisierung | Basierend auf der [neuen Benutzeroberfläche](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=de) |
-| Dokumentation zum Freigeben von Anmerkungen in mobilen Scorecards | Sie können [Anmerkungen, die in Workspace erstellt wurden, in mobilen Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=de) anzeigen. |
-| Dokumentation zur Produktsyntaxversion von Merchandising-Variablen mit Edge Collection | Sie können jetzt Merchandising-Variablen mit der Entsprechung der Produktsyntax festlegen, indem Sie die entsprechenden XDM-Felder festlegen. Weitere Informationen zur Produktsyntax für Merchandising-Variablen finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=de). Die Zuordnungen für die Produktsyntax finden Sie [hier](http://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de#aep-edge). |
+| Dokumentation zum Freigeben von Anmerkungen in mobilen Scorecards | Sie können [Anmerkungen, die in Analysis Workspace erstellt wurden, in mobilen Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=de) anzeigen. |
+| Dokumentation zur Produktsyntaxversion von Merchandising-Variablen mit Edge Collection | Sie können jetzt Merchandising-Variablen mit der Entsprechung der Produktsyntax festlegen, indem Sie die entsprechenden XDM-Felder festlegen. Weitere Informationen zur Produktsyntax für Merchandising-Variablen finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=de). Die Zuordnungen für die Produktsyntax finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de#aep-edge). |
 | **Mai 2022** |  |
 | Auffüllen von Lebenszyklusdimensionen und Metriken über Experience Edge | Mobile Lebenszyklusdaten, die über Experience Edge gesendet werden, werden jetzt in Analytics-Berichten angezeigt. In der Dokumentation finden Sie Einzelheiten darüber, welche XDM-Felder den vorhandenen mobilen Lifecycle-Berichten zugeordnet werden können. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) |
 | **April 2022** |  |
