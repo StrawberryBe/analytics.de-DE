@@ -3,10 +3,10 @@ title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 73%
+source-wordcount: '602'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 ## Produkte mit dem Web SDK
 
-Produkte sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter mehreren XDM-Feldern:
+Produkte sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter mehreren XDM-Feldern:
 
 * Die Kategorie ist zugeordnet zu `productListItems[].lineItemId`.
 * Das Produkt ist `productListItems[].name`.
@@ -31,8 +31,7 @@ Produkte sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.c
 
 >[!NOTE]
 >
->`lineItemId` muss als benutzerdefiniertes Feld hinzugefügt werden, da es nicht Teil des standardmäßigen Analytics-Ereignisschemas ist. Zukünftig wird ein spezielles Feld &quot;Kategorie&quot; hinzugefügt.
-
+>`lineItemId` muss als benutzerdefiniertes Feld hinzugefügt werden, da es noch nicht Teil des standardmäßigen Analytics-Ereignisschemas ist. Adobe plant, in Zukunft ein dediziertes Kategoriefeld hinzuzufügen.
 
 ## Produkte mit der Adobe Analytics-Erweiterung
 

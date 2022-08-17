@@ -3,10 +3,10 @@ title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 91%
+source-wordcount: '522'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,58 @@ Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und
 
 ## Einrichten von Listenvariablen in den Report Suite-Einstellungen
 
-Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellungen konfigurieren, bevor Sie sie in Ihrer Implementierung verwenden. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/list-var-admin.md).
+Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellungen konfigurieren, bevor Sie sie in Ihrer Implementierung verwenden. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen. ](/help/admin/admin/conversion-var-admin/list-var-admin.md) Dieser Schritt gilt für alle Implementierungsmethoden.
+
+>[!NOTE]
+>
+>Listenvariablen, die mit zugeordneten Feldern im Web SDK implementiert wurden, verwenden das standardmäßige Trennzeichen (&#39;)`,`&quot;).
+
+## Listenvariablen mit dem Web SDK
+
+Listenvariablen sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.lists.list1.list[]` nach `_experience.analytics.customDimensions.lists.list3.list[]`. Jedes Array-Element enthält eine `"value"` -Objekt, das jede Zeichenfolge enthält. Beispielsweise füllt das folgende XDM-Objekt die `list1` Variable mit `"Example value 1,Example value 2,Example value 3"`.
+
+```json
+"xdm": {
+    "_experience": {
+        "analytics": {
+            "customDimensions": {
+                "lists": {
+                    "list1": {
+                        "list": [
+                            {
+                                "value": "Example value 1"
+                            },
+                            {
+                                "value": "Example value 2"
+                            },
+                            {
+                                "value": "Example value 3"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+Wenn Ihr Unternehmen ein anderes Trennzeichen als ein Komma (&#39;`,`&#39;) können Sie die gesamte Listenzeichenfolge, einschließlich der gewünschten Trennzeichen, in ein benutzerdefiniertes XDM-Feld übergeben. Stellen Sie sicher, dass die Listenvariable so konfiguriert ist, dass das gewünschte Trennzeichen in [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md).
+
+```json
+"xdm": {
+    "custom_object": {
+        "custom_path": {
+            "custom_listvar": "Example value 1|Example value 2|Example value 3"
+        }
+    }
+}
+```
+
+Sie können dann entweder:
+
+* Ordnen Sie das benutzerdefinierte XDM-Feld der gewünschten Listenvariablen in Adobe Experience Edge zu. oder
+* Erstellen Sie eine Verarbeitungsregel, um die gewünschte Listenvariable mit der Kontextdatenvariablen zu überschreiben. Siehe [Zuordnen anderer XDM-Felder zu Analytics-Variablen](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
 
 ## Listenvariablen mit der Adobe Analytics-Erweiterung
 
@@ -30,7 +81,7 @@ Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variab
 
 ## s.list1 - s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Sie haben keine maximale Byte-Anzahl; jeder einzelne Wert hat jedoch ein Maximum von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in den Report Suite-Einstellungen festgelegt. Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
+Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Sie haben keine maximale Byte-Anzahl; jeder einzelne Wert hat jedoch ein Maximum von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md). Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
 
 ```js
 // A list variable configured with a comma as a delimiter
@@ -39,7 +90,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->Wenn Sie im selben Treffer doppelte Werte festlegen, dedupliziert Adobe alle Instanzen dieser Werte. Wenn Sie z. B. `s.list1 = "Example,Example";` festlegen, wird eine Instanz in Berichten gezählt.
+>Wenn Sie im selben Treffer doppelte Werte festlegen, dedupliziert Adobe alle Instanzen dieser Werte. Wenn Sie z. B. `s.list1 = "Brick,Brick";` festlegen, wird eine Instanz in Berichten gezählt.
 
 ## Vergleich von Listen-Props mit Listenvariablen
 
