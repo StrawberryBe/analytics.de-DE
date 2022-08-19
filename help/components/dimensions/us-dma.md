@@ -3,16 +3,16 @@ title: US-DMA
 description: Das ausgewiesene Marktgebiet des Treffers.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 97%
 
 ---
 
 # US-DMA
 
-Die Dimension „US-DMA“ gibt das ausgewiesene Marktgebiet (DMA) des Besuchers an. Sie basiert auf den von [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/) erstellten Medienmärkten.
+Die Dimension „US-DMA“ gibt das ausgewiesene Marktgebiet (DMA) des Besuchers an. Sie basiert auf den von [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/) erstellten Medienmärkten.
 
 ## Füllen dieser Dimension mit Daten
 
