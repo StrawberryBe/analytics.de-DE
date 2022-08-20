@@ -3,10 +3,10 @@ title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 62%
+source-wordcount: '547'
+ht-degree: 59%
 
 ---
 
@@ -57,6 +57,10 @@ Listenvariablen sind [für Adobe Analytics zugeordnet](https://experienceleague.
     }
 }
 ```
+
+>[!NOTE]
+>
+>Das Adobe-XDM-Schema enthält `key` Objekte zusätzlich zu `value` Objekte in jedem `list[]` Array. Adobe verwendet diese `key` Objekte beim Senden von Daten an Adobe Analytics.
 
 Wenn Ihr Unternehmen ein anderes Trennzeichen als ein Komma (&#39;`,`&#39;) können Sie die gesamte Listenzeichenfolge, einschließlich der gewünschten Trennzeichen, in ein benutzerdefiniertes XDM-Feld übergeben. Stellen Sie sicher, dass die Listenvariable so konfiguriert ist, dass das gewünschte Trennzeichen in [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
