@@ -3,20 +3,16 @@ title: Datenschicht erstellen
 description: Erfahren Sie, was eine Datenschicht in Ihrer Analytics-Implementierung ist und wie sie zur Zuordnung von Variablen in Adobe Analytics verwendet werden kann.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 92%
+source-wordcount: '514'
+ht-degree: 63%
 
 ---
 
 # Datenschicht erstellen
 
-Eine Datenschicht ist ein Framework von JavaScript-Objekten auf Ihrer Website, die alle in Ihrer Implementierung verwendeten Variablenwerte enthalten. Sie ermöglicht eine bessere Kontrolle und einfachere Wartung Ihrer Implementierung.
-
-Im Folgenden finden Sie ein Video zur Verwendung von Datenschichten:
-
->[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+Eine Datenschicht ist ein Framework von JavaScript-Objekten auf Ihrer Site, die die in Ihrer Analytics-Implementierung verwendeten Variablenwerte enthalten. Dies ermöglicht eine bessere Kontrolle und einfachere Wartung beim Zuweisen von Werten zu Analytics-Variablen.
 
 ## Voraussetzungen
 
@@ -31,145 +27,18 @@ Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerwe
    >[!NOTE]
    >
    >Das Befolgen der von Adobe empfohlenen Datenschichtspezifikationen ist optional. Wenn Sie bereits über eine Datenschicht verfügen oder sich anderweitig gegen die Adobe-Spezifikationen entscheiden, stellen Sie sicher, dass Ihre Organisation sich an den zu befolgenden Spezifikationen orientiert.
-1. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `digitalData.page.pageInfo.pageID`.
-1. **Verwenden der Adobe Experience Platform-Datenerfassung zum Zuordnen von Datenschichtobjekten zu Datenelementen**: Erstellen Sie Datenelemente in der Adobe Experience Platform-Datenerfassung und ordnen Sie sie den in Ihrer Datenschicht beschriebenen JavaScript-Attributen zu.
-1. **Verwenden Sie die Tag-Erweiterung von Adobe Analytics, um Datenelemente Analytics-Variablen zuzuordnen**: Ordnen Sie entsprechend Ihrem Lösungsentwurfsdokument jedes Datenelement der entsprechenden Analytics-Variablen zu.
+1. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `adobeDataLayer.page.title`.
+1. **Verwenden der Adobe Experience Platform-Datenerfassung zum Zuordnen von Datenschichtobjekten zu Datenelementen**: Dieser Schritt variiert je nach Implementierungsmethode Ihres Unternehmens:
+   * **Bei Verwendung des Web SDK**: Ordnen Sie die gewünschten Datenschichtobjekte den gewünschten XDM-Feldern in Adobe Experience Platform Edge zu. Siehe [Analytics-Variablenzuordnung](../aep-edge/variable-mapping.md) , um die gewünschte Datenschichtzuordnung zu bestimmen.
+   * **Bei Verwendung der Analytics-Erweiterung**: Erstellen Sie Datenelemente unter Tags in der Adobe Experience Platform-Datenerfassung und weisen Sie sie den gewünschten Datenschichtobjekten zu. Weisen Sie dann innerhalb der Analytics-Erweiterung jedes Datenelement der entsprechenden Analytics-Variablen zu.
 
 ## Spezifikationen
 
-Adobe empfiehlt, sich an die von der [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/) veröffentlichten Dokumentation [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) zu halten. In den folgenden Abschnitten erfahren Sie, wie Datenschichtelemente mit Adobe Analytics interagieren.
+Adobe empfiehlt die Verwendung der [Adobe Client-Datenschicht](https://github.com/adobe/adobe-client-data-layer/wiki) für neue oder umstrukturierte Implementierungen.
 
-Es wird empfohlen, das übergreifende Datenschichtobjekt `digitalData` zu verwenden. Im folgenden Beispiel wird ein etwas umfangreiches JSON-Objekt mit Beispielwerten aufgeführt:
+Ihr Unternehmen kann andere Datenschichtspezifikationen verwenden, z. B. die [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf)oder einer anderen benutzerdefinierten Datenschicht vollständig. Am wichtigsten ist es, eine konsistente Datenschicht zu schaffen, die den Anforderungen Ihres Unternehmens entspricht.
 
-```js
-digitalData = {
-    pageInstanceID: "Example page - production",
-    page: {
-        pageInfo: {
-            pageID: "5093",
-            pageName: "Example page",
-            destinationURL: "https://example.com/index.html",
-            referringURL: "https://example.com/referrer.html",
-            sysEnv: "desktop",
-            variant: "2",
-            version: "1.14",
-            breadCrumbs: ["Home","Example group","Example page"],
-            author: "J Smith",
-            issueDate: "Example date",
-            effectiveDate: "Example date",
-            expiryData: "Example date",
-            language: "en-US",
-            geoRegion: "US",
-            industryCodes: "Example industry codes",
-            publisher: "Example publisher"
-        },
-        category: {
-            primaryCategory: "Example page category",
-            subCategory: "Sub-category example"
-        },
-        attributes: {
-            country: "US",
-            language: "en-US"
-        }
-    },
-    product: [{
-        productInfo: {
-            productID: "4859",
-            productName: "Example product",
-            description: "Example description",
-            productURL: "https://example.com/product.html",
-            productImage: "https://example.com/product_image.png",
-            productThumbnail: "https://example.com/product_thumbnail.png",
-            manufacturer: "Example manufacturer",
-            quantity: 1,
-            size: "Product size"
-        },
-        category: {
-            primaryCategory: "Example product category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    cart: {
-        cartID: "934856",
-        price: {
-            basePrice: 200.00,
-            voucherCode: "EXAMPLEVOUCHER1",
-            voucherDiscount: 0.50,
-            currency: "USD",
-            taxRate: 0.20,
-            shipping: 5.00,
-            shippingMethod: "UPS",
-            priceWithTax: 120,
-            cartTotal: 125
-        }
-    },
-    transaction: {
-        transactionID: "694025",
-        profile: {
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com"
-            },
-            address: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            },
-            shippingAddress: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            }
-        }
-    },
-    event: [{
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    component: [{
-        componentInfo: {
-            componentID: "4921",
-            componentName: "Example component"
-        },
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    user: [{
-        segment: "Premium membership",
-        profile: [{
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com",
-                language: "en-US",
-                returningStatus: "New"
-            },
-            social: {
-                facebook: "examplefacebookid",
-                twitter: "exampletwitterhandle"
-            }
-        }]
-    }],
-    privacy: {
-        accessCategories: [{
-            categoryName: "Default",
-            domains: "adobedtm.com"
-        }]
-    },
-    version: "1.0"
-}
-```
+
 
 Details zu den einzelnen Objekten und Unterobjekten finden Sie im Bericht [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf). Nicht alle Websites verwenden alle Objekte. Wenn Sie beispielsweise eine Nachrichten-Website hosten, werden Sie das `digitalData.product`-Objekt-Array wahrscheinlich nicht verwenden.
 
