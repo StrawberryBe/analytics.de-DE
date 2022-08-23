@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das wichtigste Analyse- und Visualisierungs-Tool für Analytics, sowie für Tools wie Adobe Analytics-Dashboards, Report Builder und Activity Map.
 source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 + [Handbuch für Analytics-Tools](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
-+ [Landing page](landing.md)
++ [Landingpage](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace – Übersicht](analysis-workspace/home.md)
    + [Neue Funktionen in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
