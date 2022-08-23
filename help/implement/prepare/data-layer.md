@@ -3,10 +3,10 @@ title: Datenschicht erstellen
 description: Erfahren Sie, was eine Datenschicht in Ihrer Analytics-Implementierung ist und wie sie zur Zuordnung von Variablen in Adobe Analytics verwendet werden kann.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerwe
 
 Adobe empfiehlt die Verwendung der [Adobe Client-Datenschicht](https://github.com/adobe/adobe-client-data-layer/wiki) für neue oder umstrukturierte Implementierungen.
 
-Ihr Unternehmen kann andere Datenschichtspezifikationen verwenden, z. B. die [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf)oder einer anderen benutzerdefinierten Datenschicht vollständig. Am wichtigsten ist es, eine konsistente Datenschicht zu schaffen, die den Anforderungen Ihres Unternehmens entspricht.
-
-
-
-Details zu den einzelnen Objekten und Unterobjekten finden Sie im Bericht [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf). Nicht alle Websites verwenden alle Objekte. Wenn Sie beispielsweise eine Nachrichten-Website hosten, werden Sie das `digitalData.product`-Objekt-Array wahrscheinlich nicht verwenden.
+Ihr Unternehmen kann andere Datenschichtspezifikationen verwenden, z. B. die [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf), oder eine andere benutzerdefinierte Spezifikation vollständig. Am wichtigsten ist es, eine konsistente Datenschicht zu schaffen, die den Anforderungen Ihres Unternehmens entspricht.
 
 Datenschichten sind erweiterbar. Wenn Sie unternehmensspezifische Anforderungen haben, können Sie Objekte in Ihre Datenschicht aufnehmen, um diese Anforderungen zu erfüllen.
 
