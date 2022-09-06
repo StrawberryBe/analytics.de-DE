@@ -3,10 +3,10 @@ title: Erstellen oder Bearbeiten eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen oder bearbeiten.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 60335be9a60b467969f5e1796ce465a7d453951f
+source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 56%
+source-wordcount: '948'
+ht-degree: 100%
 
 ---
 
@@ -26,69 +26,27 @@ Das Vorliegen grundlegender Kenntnisse zu Daten-Feeds ist empfehlenswert, bevor 
 * **Start- und Enddaten**: Das Startdatum gibt das erste Datum an, an dem Sie einen Daten-Feed erstellen möchten. Legen Sie dieses Datum in der Vergangenheit fest, um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen. Feeds werden bis zum Enddatum verarbeitet. Start- und Enddatum basieren auf der Zeitzone der Report Suite.
 * **Kontinuierlicher Feed**: Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung.
 
-## Zielfeld
+## Zielfelder
 
 Die unter den Zielfeldern verfügbaren Felder hängen vom Zieltyp ab.
 
-### Google Cloud Platform
+### FTP
 
-GCP-Speicher-Buckets als sicheres Ziel aufrufen
+Datenfeed-Daten können für einen von Adobe oder vom Kunden gehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
 
-**Felder**
-* *Typ:* Zieltyp der Google Cloud-Plattform
-* *Projekt-ID:* GCP-Projekt-ID, an der der Speicherbehälter vorhanden ist
-* *Speichername:* Behälternamen ohne Punkte sind auf 3-63 Zeichen begrenzt. Namen, die Punkte enthalten, können bis zu 222 Zeichen enthalten, jede Komponente mit Punkt-Trennzeichen darf jedoch nicht länger als 63 Zeichen sein.
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
+![FTP-Info](assets/dest-ftp.jpg)
 
-![GCP-Info](assets/dest-gcp.png)
+### SFTP
 
-**Prozess zur Erstellung von Dienstkonten**
+SFTP-Unterstützung für Daten-Feeds ist verfügbar. Erfordert einen SFTP-Host und Benutzernamen. Außerdem muss die Ziel-Site einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
 
-Der Benutzer muss ein Dienstkonto für das Google Cloud Platform-Ziel erstellen.
+![SFTP-Info](assets/dest-sftp.jpg)
 
-Pro Analytics-Organisation ist nur ein GCP-Dienstkonto zulässig. Nachdem das Dienstkonto für den Datenfeed erstellt wurde, werden alle zusätzlichen Datenfeeds innerhalb der Organisation vorab mit dem Dienstkonto ausgefüllt.
+### S3
 
-![GCP-Dienstkontoinformationen](assets/service-account.png)
+Sie können Feeds direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
 
-
-### Amazon S3
-
-Amazon S3-Behälterspeicher, auf den über die IAM-Rolle innerhalb einer vertrauenswürdigen Entität zugegriffen wird.
-
-**Felder**
-
-* *Typ:* Zieltyp des Amazon S3
-* *Bucket:* S3-Behältername
-* *Vertrauenswürdige Entitäts-ARN:* AWS IAM Entity ARN `arn:aws:iam::<12 digit account number>:user/<username>`
-* *Rolle ARN:* AWS IAM Role ARN `arn:aws:iam::<12 digit account number>:role/<role name>`
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
-* *Region angeben (optional):* Dropdown-Liste aller verfügbaren AWS-Regionen, einschließlich KN-Regionen
-
-![Amazon S3-Info](assets/dest-s3-secure.png)
-
-
-**Erstellen und Auswählen einer vertrauenswürdigen Entität**
-
-Der Benutzer kann aus allen im Dropdown-Menü aufgeführten Optionen eine vertrauenswürdige Entität auswählen oder eine neue erstellen und abrufen, indem er auf die `Create Entity` Schaltfläche.
-
-Nach dem Klicken auf die `Create Entity` -Schaltfläche, wird der Benutzer zu einem Authentifizierungsprozess umgeleitet. Nachdem sich der Benutzer authentifiziert hat, wird die vertrauenswürdige Entität erstellt und den Optionen im Dropdown-Menü hinzugefügt.
-
-Das Dropdown-Menü listet alle vertrauenswürdigen Entitäten auf, die von diesem Benutzer in der Organisation erstellt wurden.
-
-![Entitätsinformationen](assets/entity-creation.png)
-
-Sie können Feeds direkt über die veraltete Methode an Amazon S3-Behälter senden. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
-
-**Felder - veraltet**
-
-* *Typ:* Zieltyp der veralteten S3-Methode
-* *Bucket:* Amazon S3-Bucket-Name
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
-* *Zugriffsschlüssel:* Zugriffsschlüssel-ID des AWS-Benutzers
-* *Geheimer Schlüssel:* Geheimer Schlüssel für AWS-Benutzer
-* *Geheimen Schlüssel bestätigen:* Geheimschlüssel des AWS-Benutzers erneut eingeben
-
-![S3-Info](assets/dest-s3-dpr.png)
+![S3-Info](assets/dest-s3.jpg)
 
 Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
@@ -96,9 +54,12 @@ Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folg
 * s3:PutObject
 * s3:PutObjectAcl
 
-[!DNL Analytics] fügt für jeden Upload in einen Amazon S3-Bucket den Bucket-Eigentümer zur BucketOwnerFullControl-ACL hinzu, unabhängig davon, ob der Bucket eine Richtlinie enthält, die dies erfordert. Weitere Informationen finden Sie unter [Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Daten-Feeds?](df-faq.md#BucketOwnerFullControl).
+   >[!NOTE]
+   >
+   >[!DNL Analytics] fügt für jeden Upload in einen Amazon S3-Bucket den Bucket-Eigentümer zur BucketOwnerFullControl-ACL hinzu, unabhängig davon, ob der Bucket eine Richtlinie enthält, die dies erfordert. Weitere Informationen finden Sie unter [Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Daten-Feeds?](df-faq.md#BucketOwnerFullControl).
 
-**Unterstützte AWS-Regionen**:
+Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
+
 * us-east-2
 * us-east-1
 * us-west-1
@@ -115,78 +76,20 @@ Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folg
 * eu-west-3
 * eu-north-1
 * sa-east-1
-* cn-north-1
-* cn-northwest-1
 
+>[!NOTE]
+>
+>Die Region „cn-north-1“ wird nicht unterstützt.
 
 ### Azure Blob
 
-Azure Blob-sicheres Ziel mit rollenbasierter Zugriffssteuerung (RBAC) oder Shared Access Signature (SAS). Bei Auswahl der Zugriffskontrolle wird der Inhalt des Bedienfelds aktualisiert, um die entsprechenden Felder widerzuspiegeln.
+Daten-Feeds unterstützen Azure Blob-Ziele. Erfordert einen Container, ein Konto und einen Schlüssel. Amazon verschlüsselt die Daten automatisch während der Ruhezeit. Wenn Sie die Daten herunterladen, werden sie automatisch entschlüsselt. Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
 
-**Felder - RBAC**
-* *Typ:* Zieltyp von Azure Blob
-* *Zugriffskontrolle:* Option zur Verwendung von RBAC oder SAS
-* *Active Directory-Mandanten-ID:* Organisations-ID des Azure-Kontos
-* *Anwendungs-ID:* Anwendungs-ID von Active Directory Adapter
-* *Client Secret:* Azure Client Secret
-* *Name des Speicherkontos:* Name des Kontos, das Datenobjekte enthält
-* *Container Name:* Container, der zu einem bestimmten Speicherkonto gehört.
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
-
-![Azure RBAC-Info](assets/dest-azure-rbac.png)
-
-**Felder - SAS**
-* *Typ:* Zieltyp von Azure Blob
-* *Zugriffskontrolle:* Option zur Verwendung von RBAC oder SAS
-* *Active Directory-Mandanten-ID:* ID der Azure Active Directory-Instanz
-* *Anwendungs-ID:* Anwendungs-ID von Active Directory Adapter
-* *Client Secret:* Azure Client Secret
-* *Key Vault URI:* Speicherort des Azure Key Vault
-* *Key Vault Secret Name:* Geheimer Name für den Zugriff auf sicheres Key Vault
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
-
-![Azure SAS-Info](assets/dest-azure-sas.png)
-
-**Felder - veraltet**
-* *Typ:* Zieltyp von Azure Blob
-* *Container:* Name des Azure-Containers
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
-* *Konto:* Azure-Konto-Geheimnis
-* *Key Vault URI:* Speicherort des Azure Key Vault
-* *Key Vault Secret Name:* Geheimer Name für den Zugriff auf sicheres Key Vault
-
-Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Feed-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
-Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
-
-![Azure - veraltete Informationen](assets/dest-azure-dpr.png)
+![Azure-Info](assets/azure.png)
 
 >[!NOTE]
 >
 >Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Feed-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
-
-### FTP - veraltet
-
-**Felder**
-* *Typ:* Zieltyp des FTP
-* *Host:* Endpunkt für den Zugriff auf den Host
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
-* *Benutzername:* Benutzername für Host
-* *Kennwort:* Kennwort für Host
-* *Kennwort bestätigen:* Kennwort für Host erneut eingeben und überprüfen
-
-![FTP-Info](assets/dest-ftp-dpr.png)
-
-### SFTP - Nicht mehr verwendet
-
-SFTP-Unterstützung für Daten-Feeds ist verfügbar. Erfordert einen SFTP-Host und Benutzernamen. Außerdem muss die Ziel-Site einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
-
-**Felder**
-* *Typ:* Zieltyp von SFTP
-* *Host:* Endpunkt für den Zugriff auf den Host
-* *Pfad (optional):* &amp; *Report Suite-ID an Pfad anhängen:* Speicherort der abzurufenden oder zu speichernden Ressourcen
-* *RSA Public Key:* oder *DSA Public Key:* Öffentlicher Schlüssel für den Zugriff auf den Host
-
-![SFTP-Info](assets/dest-sftp-dpr.png)
 
 ## Datenspaltendefinitionen
 
