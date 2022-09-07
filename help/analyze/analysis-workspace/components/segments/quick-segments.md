@@ -4,10 +4,10 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 75%
+source-wordcount: '909'
+ht-degree: 73%
 
 ---
 
@@ -71,7 +71,7 @@ Das Segment wird oben angezeigt. Beachten Sie die blau gestreifte Seitenleiste d
 ## Schnellsegmente speichern
 
 >[!IMPORTANT]
->Nachdem Sie das Segment gespeichert oder angewendet haben, können Sie es nicht mehr im Quick Segment Builder bearbeiten, sondern nur noch im regulären Segment Builder.
+>Nachdem Sie das Segment gespeichert oder angewendet haben, können Sie es nicht mehr im Quick Segment Builder bearbeiten, sondern nur noch im regulären Segment Builder. Nur Produktadministratoren von Adobe Analytics und der Ersteller des Schnellsegments können Änderungen an einem vorhandenen Schnellsegment speichern.
 
 1. Nachdem Sie das Schnellsegment angewendet haben, halten Sie den Mauszeiger darüber und wählen Sie das Infosymbol („i“) aus.
 
