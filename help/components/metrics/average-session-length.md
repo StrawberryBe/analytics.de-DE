@@ -3,16 +3,16 @@ title: Durchschnittliche Sitzungslänge (Mobil)
 description: Die durchschnittliche Sitzungslänge für das Mobilgerät.
 feature: Metrics
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
-source-wordcount: '81'
-ht-degree: 100%
+source-git-commit: 47d5a532505aff48d43972836c78620870bd8221
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 65%
 
 ---
 
 # Durchschnittliche Sitzungslänge (Mobil)
 
-Die Metrik „Durchschnittliche Sitzungslänge (Mobil)“ zeigt die durchschnittliche Zeit an, die ein bestimmtes Dimensionselement pro Dimensionselement vorhanden ist. Sie ähnelt der Metrik [Durchschnittliche Besuchszeit pro Site](average-time-on-site.md), allerdings verwendet diese Metrik für die Berechnung mobile SDK-spezifische Komponenten.
+Die Metrik „Durchschnittliche Sitzungslänge (Mobil)“ zeigt die durchschnittliche Zeit an, die ein bestimmtes Dimensionselement pro Dimensionselement vorhanden ist. Sie ähnelt dem [Zeit pro Besuch [Sekunden]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) -Metrik, mit der Ausnahme, dass diese Metrik mobile SDK-spezifische Komponenten als Teil ihrer Berechnung verwendet.
 
 ## Berechnung dieser Metrik
 
