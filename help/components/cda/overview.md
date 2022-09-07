@@ -2,9 +2,9 @@
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -15,11 +15,7 @@ Die geräteübergreifende Analyse ist eine Funktion, mit der Analytics von einer
 
 * [**Feldbasiertes Stitching**](field-based-stitching.md): Diese Stitching-Option wird empfohlen, da sie nur deterministische Abgleiche verwendet, um Geräte miteinander zu verknüpfen.
 Ermöglicht die Auswahl einer Analytics-Variablen als Grundlage für die geräteübergreifende Zuordnung in einer Virtual Report Suite.
-* [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem Gerätediagramm, um Geräte einander zuzuordnen. Das Co-op-Diagramm nutzt sowohl deterministische als auch probabilistische Abgleiche.
-
->[!NOTE]
->
->Lesen Sie mehr über das [Ende der Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=de).
+* [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem Gerätediagramm, um Geräte einander zuzuordnen.
 
 Mithilfe der geräteübergreifenden Analyse können Sie Fragen beantworten wie z. B.:
 

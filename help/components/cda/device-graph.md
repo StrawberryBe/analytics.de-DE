@@ -2,23 +2,16 @@
 title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe des Gerätediagramms vertraut.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 92%
 
 ---
 
 # Gerätediagramm
 
-Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Diese Methode verwendet das Co-op-Diagramm oder das private Diagramm des Adobe Experience Platform Identity Service, um Daten zuzuordnen. Die geräteübergreifende Analyse kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
-
-## Unterschiede zwischen Co-op-Diagramm und privatem Diagramm
-
-Adobe bietet im Rahmen des ID-Dienstes zwei Arten von Gerätediagrammen an:
-
-* **Co-op-Diagramm**: Ein Repository mit Hash-Geräte-IDs, zu dem jeder Kunde beitragen und auf das er verweisen kann. Da diese Art von Gerätediagramm kollaborativ ist, entspricht es normalerweise mehr Geräten als ein privates Diagramm.
-* **Privates Diagramm**: Ein Repository mit Hash-Geräte-IDs, auf das nur Ihr Unternehmen verweist.
+Geräteübergreifende Analysen können das private Diagramm verwenden, um Daten miteinander zu verknüpfen. Das private Diagramm ist ein Repository mit Hash-Geräte-IDs, das für Ihr Unternehmen spezifisch ist. Die geräteübergreifende Analyse kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
 
 ## Besondere Voraussetzungen für das Gerätediagramm
 

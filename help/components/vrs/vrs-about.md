@@ -3,9 +3,9 @@ description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodas
 title: Virtual Report Suites – Übersicht
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '790'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -35,8 +35,7 @@ Virtual Report Suites sind für Folgendes hilfreich:
 * Vereinfachung der Implementierung, weil Sie nur eine einzige Report Suite-ID (RSID) für alle Sites/Domänen verwenden können. Da sich alle Daten in einer einzigen Report Suite befinden, werden mit der nächsten Generation von Adobe Analytics Kundenanalysen möglich.
 * Geschäftliche Benutzer in Ihrer Organisation sehen immer nur die für sie relevanten Datensegmente.
 * Verbesserung der Sicherheit, da Administratoren nach der Implementierung den Datenzugriff einfacher kontrollieren und genauer steuern können.
-* Nutzungsmöglichkeit der Co-op-Funktion des Geräts
-* Metrik für Personen
+* Personen-Metrik
 * Einzelkundenansicht der Daten (künftig)
 * Möglichkeit zur Erstellung unbegrenzter Virtual Report Suites zum Segmentieren von Daten
 

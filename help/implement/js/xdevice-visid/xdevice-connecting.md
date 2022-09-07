@@ -5,10 +5,10 @@ subtopic: Visitors
 title: Benutzer geräteübergreifend verbinden
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 95%
 
 ---
 
@@ -31,4 +31,4 @@ Nachdem sich der Kunde von jedem Gerät aus angemeldet hat, sind alle an dasselb
 Die Verwendung eigener benutzerdefinierter Besucher-IDs gibt Ihnen mehr Kontrolle darüber, wie Besucher identifiziert werden, allerdings mit Einschränkungen.
 
 * **Die Besucherdeduplizierung ist nicht rückwirkend**: Wenn ein Besucher Ihre Website zum ersten Mal aufruft und sich dann authentifiziert, werden zwei Unique Visitors gezählt. Ein Unique Visitor wird für die generische Analytics-ID gezählt, die automatisch generiert wird, und ein weiterer für die benutzerdefinierte Besucher-ID, wenn er sich anmeldet. Diese Duplizierung von Unique Visitors erfolgt immer dann, wenn ein Besucher ein neues Gerät verwendet oder seine Cookies löscht.
-* **Inkompatibilität mit dem Experience Cloud ID-Dienst**: Seit der Einführung der geräteübergreifenden Besucheridentifizierung hat Adobe leistungsfähigere und zuverlässigere Methoden zum geräteübergreifenden Tracking von Besuchern eingeführt. Diese neuen Identifikationsmethoden sind nicht mit der Überschreibung der benutzerdefinierten Besucher-ID kompatibel. Wenn Sie planen, den ID-Dienst, Cross-Device Analytics oder die Gerätekooperation zu verwenden, empfiehlt Adobe dringend, die `visitorID`-Variable nicht zu verwenden.
+* **Inkompatibilität mit dem Experience Cloud ID-Dienst**: Seit der Einführung der geräteübergreifenden Besucheridentifizierung hat Adobe leistungsfähigere und zuverlässigere Methoden zum geräteübergreifenden Tracking von Besuchern eingeführt. Diese neuen Identifikationsmethoden sind nicht mit der Überschreibung der benutzerdefinierten Besucher-ID kompatibel. Wenn Sie planen, den ID-Dienst oder die geräteübergreifende Analyse (Cross-Device Analytics, CDA) zu verwenden, empfiehlt Adobe dringend, die `visitorID` -Variable.

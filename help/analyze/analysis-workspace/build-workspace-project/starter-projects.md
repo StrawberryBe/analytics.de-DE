@@ -4,10 +4,10 @@ title: Vorlagen
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '1410'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 95%
 
 ---
 
@@ -123,19 +123,15 @@ Im Folgenden finden Sie ein Video zur Vorlage [!UICONTROL Schulungsanleitung]:
 
 ### Personen
 
->[!NOTE]
->
->Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=de) verfügbar.
+Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version der Metrik „Unique Visitors“ ist. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie:
 
-Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version der Metrik „Unique Visitors“ ist. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
-
-* Ihre Daten für die USA/Kanada gegen die restliche Welt segmentieren (Device Co-op ist momentan nur in Nordamerika verfügbar);
-* die Metriken für Personen und Unique Visitors nebeneinander vergleichen;
-* die Komprimierungsrate anzeigen (dabei handelt es sich um eine berechnete Metrik, mit der Sie bestimmen können, um wie viel geringer die Metrik für Personen als Prozentsatz der Unique Visitors ist);
+* Segmentieren Sie Ihre Daten für die USA/Kanada im Vergleich zum Rest der Welt.
+* Metriken für Personen und Unique Visitors nebeneinander vergleichen
+* Sehen Sie die &quot;Komprimierungsrate&quot;, eine berechnete Metrik, die berechnet, wie viel kleiner die Metrik für Personen als Prozentsatz von Unique Visitors ist.
 * die Gesamtzahlen der Gerätetypen vergleichen, die Ihre Kunden verwenden;
-* anzeigen, wie viele Geräte durchschnittlich pro Person verwendet werden;
-* herausfinden, wie Sie die Segmentstapelung mit der Metrik für Personen verwenden;
-* Entdecken Sie, wie die Experience Cloud ID in Ihrer Umgebung zur Effizienzverbesserung der Metrik für Personen beiträgt.
+* Ermitteln Sie, wie viele Geräte pro Person im Durchschnitt verwendet werden
+* herausfinden, wie Sie die Segmentstapelung mit der Metrik für Personen verwenden
+* Entdecken Sie, wie die Experience Cloud ID in Ihrer Umgebung zur Effizienzverbesserung der Metrik für Personen beiträgt
 
 ### Journey-IQ: Vorlage für geräteübergreifende Analysen
 
@@ -143,10 +139,8 @@ Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version de
 
 Mit dieser Vorlage können Sie wichtige geräteübergreifende Leistungsdaten erfassen. Sie steht nur Kunden zur Verfügung, die Zugriff auf [geräteübergreifende Analysen](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=de) (Cross-Device Analytics, CDA) haben.
 
-* **Besondere Anmerkung für die Mitglieder des Co-op-Diagramms**: Zeigt, welcher Teil Ihrer Report Suite Besucher enthält, die aus Regionen stammen, in denen das Co-op-Diagramm unterstützt wird, und welcher Teil aus Regionen stammt, in denen es nicht unterstützt wird.
 * **Identifizierung der Benutzer**: Zeigt an, wie oft Besucher Ihrer Site mit Methoden identifiziert werden, die auf geräteübergreifenden Analysen basieren.
 * **Messen der Zielgruppengröße**: Zeigt einen Vergleich von „Eindeutige Geräte“ mit „Personen“ an. Der Anteil dieser beiden Zahlen wird als „geräteübergreifende Komprimierung“ bezeichnet, eine berechnete Metrik, die in diesem Bedienfeld angezeigt wird. Diese Komprimierungsmetrik hängt von einer Vielzahl von Faktoren ab:
-   * **Verwenden des Co-op-Diagramms oder des privaten Diagramms**: Im Allgemeinen erhalten Organisationen, die die Co-op-Funktion von Geräten verwenden, bessere Komprimierungsraten als Organisationen, die das private Diagramm verwenden.
    * **Anmelderate**: Je mehr Benutzer sich auf Ihrer Site anmelden, desto besser kann Adobe Besucher geräteübergreifend identifizieren und zuordnen. Sites mit einer niedrigen Anmelderate haben auch niedrige Komprimierungsraten.
    * **Experience Cloud ID-Abdeckung**: Es können nur Besucher mit einer ECID zugeordnet werden. Ein geringerer Prozentsatz der Site-Besucher, die eine ECID verwenden, steht im Zusammenhang mit niedrigeren Komprimierungsraten.
    * **Verwendung mehrerer Geräte**: Wenn Besucher Ihrer Site nicht mehrere Geräte verwenden, erhalten Sie niedrigere Komprimierungsraten.
