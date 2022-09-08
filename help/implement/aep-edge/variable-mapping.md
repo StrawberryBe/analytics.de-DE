@@ -2,10 +2,10 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 100%
+source-wordcount: '1386'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `commerce.checkouts.value` | Inkrementiert die Metrik [Checkouts](../../components/metrics/checkouts.md) um den gewünschten Wert. |
 | `commerce.order.currencyCode` | Definiert die Konfigurationsvariable [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Definiert die Seitenvariable [purchaseID](../vars/page-vars/purchaseid.md). |
+| `commerce.order.transactionID` | Legt die [transactionID](../vars/page-vars/transactionid.md) Seitenvariable. |
 | `commerce.productListAdds.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Cart Additions](../../components/metrics/cart-additions.md) an. |
 | `commerce.productListAdds.value` | Erhöht die Metrik [Warenkorbhinzufügungen](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Warenkörbe](../../components/metrics/carts.md) an. |
