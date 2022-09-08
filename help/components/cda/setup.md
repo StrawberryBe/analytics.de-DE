@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse einrichten
 description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '533'
-ht-degree: 100%
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering be
 
 * Ihre Adobe Experience Cloud-Organisations-ID (eine alphanumerische Zeichenfolge, die mit @AdobeOrg endet)
 * Die Report Suite-ID für die geräteübergreifende Report Suite, die mit CDA zu aktivieren ist
-* Welche CDA-Methode Sie verwenden möchten (feldbasiertes Stitching, privates Diagramm von Adobe oder Co-op-Diagramm von Adobe)
+* Welche CDA-Methode Sie verwenden möchten (feldbasiertes Stitching oder Adobe Device Graph)
 * Wenn Sie die feldbasierte Zuordnung nutzen möchten, verwenden Sie die Prop oder die eVar, die die Benutzer-ID enthält
 * Ihre Voreinstellung für die Häufigkeit der Wiederholungen und die Lookback-Länge. Zu den verfügbaren Optionen gehören eine Wiederholung pro Woche mit einem 7-tägigen Lookback-Fenster oder eine tägliche Wiederholung mit einem 1-tägigen Lookback-Fenster.
 Die Standardeinstellung ist eine wöchentliche Wiederholung mit einem 7-tägigen Lookback-Fenster. In diesem Fall können sich die Daten der letzten Woche ändern (da sie nach und nach zugeordnet und aktualisiert werden).

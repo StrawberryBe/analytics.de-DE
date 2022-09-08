@@ -2,10 +2,10 @@
 title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe des Gerätediagramms vertraut.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 92%
+source-wordcount: '325'
+ht-degree: 69%
 
 ---
 
@@ -22,15 +22,14 @@ Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode i
 >Wenn nicht alle Voraussetzungen erfüllt sind, ist die Aktivierung der geräteübergreifenden Analyse unter Umständen nicht möglich oder die Ergebnisse bei der Datenzuordnung sind schlecht.
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
-* Ihre Organisation muss das Co-op-Diagramm oder das private Diagramm des Identity Service der Adobe Experience Platform verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=de) im Benutzerhandbuch zur Co-op-Funktion des Geräts.
-* Ihre Implementierung muss die aktuelle Version des Experience Cloud Identity Service verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) im Benutzerhandbuch des Experience Cloud Identity Service. Bei den meisten Implementierungen mit Tags in Adobe Experience Platform ist die ECID wahrscheinlich schon bereitgestellt.
-* Ihre Implementierung muss die `setCustomerIDs`-Funktion (oder das SDK-Äquivalent) immer dann aufrufen, wenn eine Person identifiziert werden kann, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Weitere Informationen finden Sie unter [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=de) im Benutzerhandbuch des Experience Cloud Identity Service.
+* Ihr Unternehmen muss [Adobe Experience Platform Identity Service - Privates Diagramm](https://business.adobe.com/products/experience-platform/identity-service.html). Siehe auch [Startseite](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de) im Benutzerhandbuch zu Identity Service.
+* Ihre Implementierung muss die neueste Version des Experience Cloud ID-Diensts (ECID) verwenden. Siehe [Startseite](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) im Benutzerhandbuch zum ID-Dienst. Die meisten Implementierungen mit [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform wahrscheinlich bereits ID-Dienst bereitgestellt ist.
+* Ihre Implementierung muss die `setCustomerIDs`-Funktion (oder das SDK-Äquivalent) immer dann aufrufen, wenn eine Person identifiziert werden kann, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Siehe [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=de) im Benutzerhandbuch zum ID-Dienst.
 
 ## Besondere Einschränkungen für das Gerätediagramm
 
 * Veraltete Analytics-IDs werden nicht unterstützt. Nur Besucher mit Experience Cloud IDs werden zugeordnet.
 * Wenn Ihr Unternehmen ein privates Diagramm verwendet, dauert es bis zu 24 Stunden, bis neue Geräte zugeordnet werden.
-* Wenn Ihr Unternehmen das Co-op-Diagramm verwendet, kann es bis zu zwei Wochen dauern, bis neue Geräte, die Ihre Site besuchen, zugeordnet werden. Die Zuordnungsrate in der geräteübergreifenden Analyse in den letzten zwei Wochen ist in der Regel niedriger als in Datumsbereichen, die älter als zwei Wochen sind.
 * Gerätediagramme von Drittanbietern werden nicht unterstützt.
 
 ## Nächste Schritte

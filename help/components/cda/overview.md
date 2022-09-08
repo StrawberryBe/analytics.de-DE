@@ -2,20 +2,21 @@
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Geräteübergreifende Analyse
 
-Die geräteübergreifende Analyse ist eine Funktion, mit der Analytics von einer geräteorientierten Ansicht zu einer personenorientierten Ansicht wechselt. Analysten können so das Benutzerverhalten über Browser, Geräte oder Apps hinweg nachvollziehen. Adobe unterstützt zwei übergreifende Workflows zum Verknüpfen von Gerätedaten:
+Die geräteübergreifende Analyse (Cross-Device Analytics, CDA) ist eine Funktion, die Analytics von einer geräteorientierten Ansicht in eine personenorientierte Ansicht umwandelt. Analysten können so das Benutzerverhalten über Browser, Geräte oder Apps hinweg nachvollziehen. Adobe unterstützt zwei übergreifende Workflows zum Verknüpfen von Gerätedaten:
 
 * [**Feldbasiertes Stitching**](field-based-stitching.md): Diese Stitching-Option wird empfohlen, da sie nur deterministische Abgleiche verwendet, um Geräte miteinander zu verknüpfen.
 Ermöglicht die Auswahl einer Analytics-Variablen als Grundlage für die geräteübergreifende Zuordnung in einer Virtual Report Suite.
-* [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem Gerätediagramm, um Geräte einander zuzuordnen.
+
+* [**Gerätediagramm**](device-graph.md): Die geräteübergreifende Analyse kommuniziert mit einem privaten Diagramm, um Geräte einander zuzuordnen.
 
 Mithilfe der geräteübergreifenden Analyse können Sie Fragen beantworten wie z. B.:
 
@@ -36,7 +37,7 @@ Weitere Informationen zu den Funktionen der geräteübergreifenden Analyse finde
 Die Verwendung der geräteübergreifenden Analyse erfordert Folgendes: Die Methoden zum [feldbasierten Stitching](field-based-stitching.md) und der [Gerätediagrammme](device-graph.md) haben ebenfalls eigene spezifische Voraussetzungen.
 
 * Es muss ein Vertrag bei Adobe mit Adobe Analytics Ultimate abgeschlossen werden.
-* Die geräteübergreifende Analyse wird pro Report Suite aktiviert. Adobe empfiehlt, dass eine Report Suite geräteübergreifende Daten enthält, d. h. Daten von mehreren Gerätetypen (Web, App usw.). Einige Organisationen bezeichnen dieses Konzept als „globale“ Report Suite, obwohl die geräteübergreifende Analyse aus geografischer Sicht nicht unbedingt global sein muss.
+* Ihre Organisation wählt die Report Suites aus, die die geräteübergreifende Analyse aktivieren sollen. Adobe empfiehlt Report Suites, die geräteübergreifende Daten enthalten, d. h. Daten von mehreren Geräten/Browsern/App-Typen. Einige Organisationen bezeichnen dieses Konzept als „globale“ Report Suite, obwohl die geräteübergreifende Analyse aus geografischer Sicht nicht unbedingt global sein muss.
 
 ## Einschränkungen
 
