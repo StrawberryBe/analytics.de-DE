@@ -4,10 +4,10 @@ description: Benutzerdefinierte Variablen, die mit Einzelprodukten verknüpft si
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 75%
+source-wordcount: '541'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +48,10 @@ Merchandising-Variablen mit Produktsyntax sind [für Adobe Analytics zugeordnet]
 
 * Merchandising-eVars mit Produktsyntax werden unter `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` nach `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Merchandising-Ereignisse mit Produktsyntax werden unter `productListItems[]._experience.analytics.event1to100.event1.value` nach `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Ereignis-Serialisierung](events/event-serialization.md) XDM-Felder werden unter `productListItems[]._experience.analytics.event1to100.event1.id` nach `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>Beim Festlegen von Ereignissen unter `productListItems`müssen Sie sie nicht in der Ereigniszeichenfolge festlegen. Wenn sie an beiden Stellen festgelegt werden, hat der Wert in der Ereigniszeichenfolge Vorrang.
 
 Das folgende Beispiel zeigt eine [product](products.md) Verwendung mehrerer Merchandising-eVars und -Ereignisse:
 
