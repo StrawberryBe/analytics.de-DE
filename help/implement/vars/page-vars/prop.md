@@ -3,10 +3,10 @@ title: prop
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 89%
+source-wordcount: '603'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-d
 
 ## Props mit dem Web SDK
 
-Props sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter den XDM-Feldern `_experience.analytics.customDimensions.props.prop1` nach `_experience.analytics.customDimensions.props.prop75`.
+Props sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.props.prop1` nach `_experience.analytics.customDimensions.props.prop75`. Listen-Props werden in einem separaten Satz von Feldern angegeben.
 
 ## Props mit der Adobe Analytics-Erweiterung
 
@@ -53,13 +53,17 @@ Listen-Props sind eine Einstellung, die auf Props angewendet wird, mit denen die
 
 ### Konfigurieren von Listen-Props
 
-Aktivieren Sie Listen-Props in den Report Suite-Einstellungen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Traffic-Variablen](/help/admin/admin/c-traffic-variables/traffic-var.md). Vergewissern Sie sich, dass das gewünschte Trennzeichen richtig konfiguriert ist. Adobe stellt kein Standardtrennzeichen bereit.
+Aktivieren Sie Listen-Props in [Traffic-Variablen](/help/admin/admin/c-traffic-variables/traffic-var.md) unter den Report Suite-Einstellungen. Vergewissern Sie sich, dass das gewünschte Trennzeichen richtig konfiguriert ist. Adobe stellt kein Standardtrennzeichen bereit.
 
 >[!TIP]
 >
->Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes beliebige Trennzeichen verwenden, das am besten zu Ihrer Implementierung passt.
+>Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes nicht erweiterte ASCII-Trennzeichen verwenden, das Ihrer Implementierung am besten entspricht.
 
-### Festlegen von Listen-Props
+### Festlegen von Listen-Props mit dem Web SDK
+
+Nachdem Sie Listen-Props in den Report Suite-Einstellungen mit dem gewünschten Trennzeichen konfiguriert haben, werden Listen-Props für Adobe Analytics unter `_experience.analytics.customDimensions.listProps.prop1.values[]` nach `_experience.analytics.customDimensions.listProps.prop75.values[]`. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `_experience.analytics.customDimensions.props.prop1.delimiter`), das das Trennzeichen überschreibt, das automatisch aus den Report Suite-Einstellungen abgerufen wird, und zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
+
+### Festlegen von Listen-Props mit der Adobe Analytics-Erweiterung und AppMeasurement
 
 Sobald Sie Listen-Props in den Report Suite-Einstellungen mit dem gewünschten Trennzeichen konfigurieren, gibt es außer der Verwendung des Trennzeichens keine weiteren Implementierungsunterschiede.
 
