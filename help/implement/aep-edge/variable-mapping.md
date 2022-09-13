@@ -2,10 +2,10 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 99%
+source-wordcount: '1398'
+ht-degree: 98%
 
 ---
 
@@ -106,6 +106,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `placeContext.geo.longitude` | Die Mobile-Dimension „Längengrad“. |
 | `placeContext.geo.postalCode` | Die Dimension [Postleitzahl](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | Die Dimension [US-Bundesstaaten](../../components/dimensions/us-states.md). |
+| `placeContext.localTime` | Hilft beim Ausfüllen [Zeitzonen](/help/analyze/reports-analytics/reports.md) in Reports &amp; Analytics. Erscheint als `t_time_info` in [Datenfeeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Wendet die [Produktsyntax](../vars/page-vars/products.md) für das Merchandising auf eVars an. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Wendet die [Produktsyntax](../vars/page-vars/products.md) für das Merchandising auf Ereignisse an. |
 | `productListItems[].lineItemId` | Die Dimension [Kategorie](../../components/dimensions/category.md). Siehe auch die Seitenvariable [products](../vars/page-vars/products.md). |
