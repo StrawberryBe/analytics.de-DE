@@ -3,10 +3,10 @@ title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 73%
+source-wordcount: '632'
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ Produkte sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.c
 * Menge wird zugeordnet zu `productListItems[].quantity`.
 * Der Preis wird `productListItems[].priceTotal`.
 * Merchandising-eVars werden zugeordnet zu `productListItems._experience.analytics.customDimensions.eVars.eVar1` nach `productListItems._experience.analytics.customDimensions.eVars.eVar250`, je nachdem, welche eVar Sie an ein Produkt binden möchten.
-* Merchandising-Ereignisse werden zugeordnet zu `productListItems[]._experience.analytics.event1to100.event1.value` nach `productListItems._experience.analytics.event901to1000.event1000.value`, je nachdem, welches Ereignis Sie an ein Produkt binden möchten.
+* Merchandising-Ereignisse werden zugeordnet zu `productListItems[]._experience.analytics.event1to100.event1.value` nach `productListItems._experience.analytics.event901to1000.event1000.value`, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [event](events/events-overview.md) an Adobe Analytics gesendete Zeichenfolge.
 
 >[!NOTE]
 >
