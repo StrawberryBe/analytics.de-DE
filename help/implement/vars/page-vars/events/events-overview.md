@@ -3,10 +3,10 @@ title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
+source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 84%
+source-wordcount: '809'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Benutzerdefinierte Ereignisse sind [für Adobe Analytics zugeordnet](https://exp
 
 * Benutzerdefinierte Ereignisse 1-100 werden zugeordnet zu `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Benutzerdefinierte Ereignisse 101-200 werden zugeordnet zu `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Dieses Muster wiederholt alle 100 Ereignisse zu `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` wird verwendet, um den Wert anzugeben. `eventx.id` wird verwendet, um die ID für die Serialisierung anzugeben.
+* Dieses Muster wiederholt alle 100 Ereignisse zu `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` wird verwendet, um den zu inkrementierenden Betrag anzugeben. `eventx.id` wird für [Serialisierung](event-serialization.md).
 * Bestellungen werden zugeordnet zu `commerce.purchases.value`.
 * Einheiten werden der Summe aller `productListItems[].quantity` -Felder.
 * Der Umsatz wird der Summe aller `productListItems[].priceTotal` -Felder.
@@ -32,6 +32,10 @@ Benutzerdefinierte Ereignisse sind [für Adobe Analytics zugeordnet](https://exp
 * Entnahme aus Warenkorb wird zugeordnet zu `commerce.productListRemovals.value`.
 * Warenkorbansichten werden zugeordnet `commerce.productListViews.value`.
 * Checkouts werden zugeordnet zu `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>Wenn ein Ereignis unter `productListItems` (z. B. `productListItems._experience.analytics.event1.value`) und sich dieses Ereignis noch nicht in diesem Feld befindet, wird dieses Ereignis automatisch diesem Feld hinzugefügt.
 
 ## Ereignisse mit der Adobe Analytics-Erweiterung
 
@@ -49,7 +53,7 @@ Es stehen verschiedene Funktionen zur Verfügung:
 * Mithilfe einer Dropdown-Liste können Sie das Ereignis auswählen, das eingeschlossen werden soll.
 * Ein optionales Textfeld zur Serialisierung. Weitere Informationen finden Sie unter [Ereignis-Serialisierung](event-serialization.md).
 * Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Wenn Sie beispielsweise `event1` unter der Dropdown-Liste auswählen und `10` in dieses Feld einschließen, wird `event1` in der Berichterstellung um 10 inkrementiert.
-* Eine Schaltfläche zum Hinzufügen eines weiteren Ereignisses. Die Anzahl der Ereignisse, die Sie in einen Treffer einbeziehen können, ist gewissermaßen unbegrenzt.
+* Eine Schaltfläche zum Hinzufügen eines weiteren Ereignisses. Sie können so viele Ereignisse hinzufügen, wie Sie einer einzelnen Regel innerhalb eines Verlaufs hinzufügen möchten.
 
 ## s.events in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
