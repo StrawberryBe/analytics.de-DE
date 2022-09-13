@@ -3,10 +3,10 @@ title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 59%
+source-wordcount: '477'
+ht-degree: 67%
 
 ---
 
@@ -24,13 +24,9 @@ Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und
 
 Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellungen konfigurieren, bevor Sie sie in Ihrer Implementierung verwenden. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen. ](/help/admin/admin/conversion-var-admin/list-var-admin.md) Dieser Schritt gilt für alle Implementierungsmethoden.
 
->[!NOTE]
->
->Listenvariablen, die mit zugeordneten Feldern im Web SDK implementiert wurden, verwenden das standardmäßige Trennzeichen (&#39;)`,`&quot;).
-
 ## Listenvariablen mit dem Web SDK
 
-Listenvariablen sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.lists.list1.list[]` nach `_experience.analytics.customDimensions.lists.list3.list[]`. Jedes Array-Element enthält eine `"value"` -Objekt, das jede Zeichenfolge enthält. Beispielsweise füllt das folgende XDM-Objekt die `list1` Variable mit `"Example value 1,Example value 2,Example value 3"`.
+Listenvariablen sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.lists.list1.list[]` nach `_experience.analytics.customDimensions.lists.list3.list[]`. Jedes Array-Element enthält eine `"value"` -Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Es wird automatisch unter Verwendung des in [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md). Wenn beispielsweise ein Komma (&#39;`,`&#39;) als Trennzeichen für die Listenvariable 1 konfiguriert ist, füllt das folgende XDM-Objekt die `list1` Variable mit `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -62,23 +58,6 @@ Listenvariablen sind [für Adobe Analytics zugeordnet](https://experienceleague.
 >
 >Das Adobe-XDM-Schema enthält `key` Objekte zusätzlich zu `value` Objekte in jedem `list[]` Array. Adobe verwendet diese `key` Objekte beim Senden von Daten an Adobe Analytics.
 
-Wenn Ihr Unternehmen ein anderes Trennzeichen als ein Komma (&#39;`,`&#39;) können Sie die gesamte Listenzeichenfolge, einschließlich der gewünschten Trennzeichen, in ein benutzerdefiniertes XDM-Feld übergeben. Stellen Sie sicher, dass die Listenvariable so konfiguriert ist, dass das gewünschte Trennzeichen in [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md).
-
-```json
-"xdm": {
-    "custom_object": {
-        "custom_path": {
-            "custom_listvar": "Example value 1|Example value 2|Example value 3"
-        }
-    }
-}
-```
-
-Sie können dann entweder:
-
-* Ordnen Sie das benutzerdefinierte XDM-Feld der gewünschten Listenvariablen in Adobe Experience Edge zu. oder
-* Erstellen Sie eine Verarbeitungsregel, um die gewünschte Listenvariable mit der Kontextdatenvariablen zu überschreiben. Siehe [Zuordnen anderer XDM-Felder zu Analytics-Variablen](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
-
 ## Listenvariablen mit der Adobe Analytics-Erweiterung
 
 Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
@@ -100,6 +79,6 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 Listen-Props und Listenvariablen können beide im selben Treffer mehrere Werte enthalten. Zwischen diesen beiden Variablentypen gibt es jedoch einige wichtige Unterschiede.
 
-* Jede Prop kann eine Listen-Prop werden. Sie können bis zu 75 Listen-Props haben, wenn jede Prop eine Listen-Prop ist. Es sind nur 3 Listenvariablen verfügbar.
+* Jede Prop kann eine Listen-Prop werden. Sie können bis zu 75 Listen-Props haben, wenn jede Prop eine Listen-Prop ist. Es sind nur drei Listenvariablen verfügbar.
 * Listen-Props haben eine 100-Byte-Grenze für die gesamte Variable. Listenvariablen haben eine 255-Byte-Grenze pro Wert und keine Gesamt-Byte-Grenze.
 * Listen-Props bleiben nicht über den festgelegten Treffer hinaus erhalten. Für Listenvariablen gelten die gewünschten Gültigkeitseinstellungen. Bei der [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md) können Sie jedoch sowohl auf Listen-Props als auch auf Listenvariablen eine benutzerdefinierte Attribution anwenden.
