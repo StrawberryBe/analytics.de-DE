@@ -3,10 +3,10 @@ description: Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite ent
 title: Übersicht über Bot-Regeln
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 97%
+source-wordcount: '1369'
+ht-degree: 96%
 
 ---
 
@@ -118,12 +118,11 @@ Aktivieren Sie das Kontrollkästchen **[!UICONTROL Bestehende Regeln überschrei
 
 Über die Schaltfläche **[!UICONTROL Hochgeladene Bot-Datei exportieren]** werden alle in der Benutzeroberfläche definierten Regeln in ein CSV-Format exportiert.
 
-
 ## Auswirkung von Bot-Regeln auf die Datenerfassung {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 Bot-Regeln gelten für alle Analysedaten. Mithilfe von Bot-Regeln entfernte Daten sind nur in den Berichten „Bots“ und „Bot-Seiten“ sichtbar.
 
-VISTA-Regeln werden nach den Bot-Regeln angewendet (siehe [Verarbeitungsreihenfolge).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+VISTA-Regeln werden nach den Bot-Regeln angewendet. Siehe [Verarbeitungsreihenfolge](/help/technotes/processing-order.md) im Technotes-Benutzerhandbuch.
 
 **Verarbeitung von Besuchen mit hoher Hit-Zahl:** Wenn mehr als 100 Hits in einem Besuch auftreten, wird bei der Berichterstellung ermittelt, ob der Zeitraum des Besuchs (in Sekunden) kleiner oder gleich der Anzahl der Hits bei diesem Besuch ist. In dieser Situation beginnt die Berichterstellung mit dem nächsten Besuch neu, da die Verarbeitung langer, intensiver Besuche hohe Kosten verursacht. Besuche mit hoher Hit-Zahl werden in der Regel durch Bot-Angriffe verursacht und gelten nicht als normales Browsen von Besuchern.
 

@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Funktionsweise von Verarbeitungsregeln
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -47,7 +47,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden vor VISTA-Regeln und Marketingkanalregeln angewendet. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Verarbeitungsreihenfolge </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/technotes/processing-order.md"> Verarbeitungsreihenfolge </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Treffer können nicht ausgeschlossen werden. </p> </td> 

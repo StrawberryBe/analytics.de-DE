@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 100%
       + [Übersicht über Verarbeitungsregeln](admin/c-processing-rules/processing-rules.md)
       + Konfiguration der Verarbeitungsregeln {#processing-rules-configuration}
          + [Funktionsweise von Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Verarbeitungsreihenfolge](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Erstellen von Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [Anzeigen der aktiven Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Anzeigen des Verlaufs von Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)

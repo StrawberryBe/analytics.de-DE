@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analysetool oder einer bestimmten Komponente gehören.
-source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 97%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 97%
 + [Migrieren von Verarbeitungsregeln für Mobile Services nach Adobe Analytics](migrate-mobile.md)
 + [Unterstützung mehrerer Währungen](multicurrency.md)
 + [Datenschutzübersicht](privacy-overview.md)
++ [Verarbeitungsreihenfolge](processing-order.md)
 + [Progressive Web-Apps](pwa.md)
 + [Umleitungen und Aliase](redirects.md)
 + Regionale Datenerfassung {#rdc}

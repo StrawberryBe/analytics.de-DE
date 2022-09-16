@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -60,3 +60,9 @@ Suchbegriffe, die aus einer Abfragezeichenfolge gezogen werden, müssen korrekt 
 Wählen Sie die korrekte Übereinstimmungsbedingung, um die restriktivste Bedingung zu finden, die korrekt übereinstimmt. Sie können nach Werten in einem Bericht suchen, bevor Sie eine Regel erstellen, um sicherzugehen, dass es keine ungewünschten Übereinstimmungen gibt. Beispielsweise sollten Sie den Prop2-Bericht durchsuchen, um alle Stellen zu finden, auf die diese Bedingung zutrifft, bevor Sie diese Regel aktivieren.
 
 ![](assets/tips-startswith.png)
+
+## So werden Verarbeitungsregeln beim Kopieren von Hits mit VISTA angewandt 
+
+Wenn Sie eine VISTA-Regel zum Kopieren von Treffern in eine andere Report Suite konfiguriert haben, werden die Treffer über sämtliche in der anderen Report Suite definierten Verarbeitungsregeln versendet.
+
+Wenn Sie Verarbeitungsregeln für die ursprüngliche Report Suite definiert haben, können diese Regeln je nachdem, wie die VISTA-Regel von Engineering Services konfiguriert wurde, angewendet werden. Um dies herauszufinden, können Sie Ihren Implementierungsspezialisten fragen, ob die VISTA-Regel die „prä“- oder „post“-Werte in die zusätzliche Report Suite kopiert. Wenn der „prä“-Wert kopiert wird, werden die in der ursprünglichen Report Suite definierten Verarbeitungsregeln nicht angewandt. Wenn der „post“-Wert kopiert wird, werden Verarbeitungsregeln angewandt, bevor der Hit kopiert wird.
