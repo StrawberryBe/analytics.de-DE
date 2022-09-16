@@ -4,7 +4,7 @@ description: Erhalten Sie Antworten auf häufig gestellte Fragen, wenn Sie von e
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 100%
 

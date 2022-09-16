@@ -1,17 +1,17 @@
 ---
 description: Ein Bedienfeld, das die nächsten oder vorherigen Dimensionselemente für eine bestimmte Dimension anzeigt.
-title: Nächstes oder vorheriges Objekt-Panel
+title: Bedienfeld „Nächstes oder vorheriges Element“
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
+source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
-
-# Nächstes oder vorheriges Objekt-Panel
+# Bedienfeld „Nächstes oder vorheriges Element“
 
 Die [!UICONTROL Nächstes oder vorheriges Element] wurde in Reports &amp; Analytics als Bericht gestartet, unter [!UICONTROL Berichte] > [!UICONTROL Am häufigsten] > [!UICONTROL Nächste Seite/Vorherige Seite]. Es handelt sich jetzt auch um einen Arbeitsbereich-Bereich. Dieses Bedienfeld enthält eine Reihe von Tabellen und Visualisierungen, um das nächste oder vorherige Dimensionselement für eine bestimmte Dimension einfach zu identifizieren. Sie können beispielsweise untersuchen, welche Seiten Kunden nach dem Besuch der Startseite am häufigsten besucht haben.
 
@@ -34,7 +34,7 @@ Sie können die [!UICONTROL Nächstes oder vorheriges Element] Bedienfeld mit de
 | --- | --- |
 | Dropzone Segment (oder andere Komponente) | Sie können Segmente oder andere Komponenten per Drag-and-Drop verschieben, um die Ergebnisse Ihrer Bedienfelder weiter zu filtern. |
 | Dimension | Die Dimension, für die Sie die nächsten oder vorherigen Elemente untersuchen möchten. |
-| Dimensionselement | Der spezifische Artikel im Mittelpunkt Ihrer nächsten/vorherigen Anfrage. |
+| Dimension | Der spezifische Artikel im Mittelpunkt Ihrer nächsten/vorherigen Anfrage. |
 | Richtung | Geben Sie an, ob Sie nach dem [!UICONTROL Nächste] oder [!UICONTROL Vorherige] Dimensionselement. |
 | Container | [!UICONTROL Besuch] oder [!UICONTROL Besucher] (Standard) bestimmen den Umfang Ihrer Anfrage. |
 

@@ -5,7 +5,7 @@ title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Adobe Analytics erfasst die folgenden Daten:
 | Betriebssystem | Ja |
 | ISP-/Verbindungsgeschwindigkeit | Ja |
 | Anzeigeeinstellungen (z. B. Bildschirmgröße und Auflösung) | Ja |
-| IP-Adresse (zur Ermittlung des ungefähren Standorts) | Ja* |
+| IP-Adresse (zur Ermittlung des ungefähren Standorts) | Ja&#42; |
 | Informationen, die Benutzer in Formulare auf der Kunden-Site eingeben | Ja |
 | Informationen, die Benutzer in Formulare auf sozialen Sites eingeben | **Nein** |
 | Ob der Benutzer auf eine Anzeige geklickt hat | Ja |
@@ -49,7 +49,7 @@ Adobe Analytics erfasst die folgenden Daten:
 | Erfolgsraten von Werbekampagnen | Ja |
 | Produktinformationen, z. B. Farben, Preise, Stile, Fotos | Ja |
 
-*Wenn der Adobe-Kunde die IP nicht entfernt.
+&#42;Wenn der Adobe-Kunde die IP nicht entfernt.
 
 ## Sonstige Hinweise zum Datenschutz {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 

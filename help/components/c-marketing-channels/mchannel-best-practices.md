@@ -4,7 +4,7 @@ description: Aktualisierte Best Practices für die Verwendung von Marketing-Kan�
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition ab
 
 ## Best Practice 1: Attribution IQ für kontrollierte Analysen nutzen
 
-Es wird empfohlen, [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=de#analysis-workspace) anstelle der vorhandenen Marketing-Kanal-Attribution zu verwenden, um Ihre Marketing-Kanal-Analyse zu optimieren. Befolgen Sie die anderen Best Practices, um Konsistenz und zuverlässige Kontrollen Ihrer Analyse mit Attribution IQ sicherzustellen.
+Es wird empfohlen, [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) anstelle der vorhandenen Marketing-Kanal-Attribution zu verwenden, um Ihre Marketing-Kanal-Analyse zu optimieren. Befolgen Sie die anderen Best Practices, um Konsistenz und zuverlässige Kontrollen Ihrer Analyse mit Attribution IQ sicherzustellen.
 
 ![](assets/attribution.png)
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 98%
 
 ---
@@ -88,7 +88,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
    <td colname="col1"> <p>Endet mit </p> </td> 
    <td colname="col02"> <p>Gibt Ergebnisse zurück, die mit einem bestimmten Wert enden. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Stimmt mit <span class="term"> wxyz</span> überein, jedoch nicht mit <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Stimmt überein mit <span class="term"> wxyz</span> aber nicht <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Erweitert (Sonderzeichen) </p> </td> 

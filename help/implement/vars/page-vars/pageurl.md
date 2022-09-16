@@ -6,7 +6,7 @@ exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ AppMeasurement erfasst automatisch die Seiten-URL bei jedem Treffer. Wenn Sie di
 
 ## Seiten-URL mit dem Web SDK
 
-Seiten-URL ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter dem XDM-Feld `web.webPageDetails.URL`.
+Seiten-URL ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `web.webPageDetails.URL`.
 
 ## Seiten-URL mit der Adobe Analytics-Erweiterung
 

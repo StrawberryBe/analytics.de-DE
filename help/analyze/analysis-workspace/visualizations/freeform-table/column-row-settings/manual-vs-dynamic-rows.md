@@ -1,11 +1,11 @@
 ---
-title: Dynamische und statische Dimensionselemente in Freiform-Tabellen
+title: Dynamische und statische Dimensionselemente in Freiformtabellen im Vergleich
 description: Interaktion mit dynamischen und statischen Dimensionselementen in Tabellen.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 

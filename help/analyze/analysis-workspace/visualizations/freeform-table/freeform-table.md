@@ -5,7 +5,7 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -48,11 +48,11 @@ Es gibt verschiedene Arten, mit Freiformtabellen zu interagieren und sie anzupas
 
 Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
 
-* Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten in Zwischenablage kopieren]** exportiert die angezeigten Tabellendaten. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl in Zwischenablage kopieren]**. Mit dem Hotkey **Strg+C** können auch ausgewählte Daten kopiert werden.
+* Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten in Zwischenablage kopieren]** exportiert die angezeigten Tabellendaten. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl in Zwischenablage kopieren]**. Mit dem Hotkey **Strg + C** können auch ausgewählte Daten kopiert werden.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten als CSV-Datei herunterladen]** lädt die angezeigten Tabellendaten als CSV-Datei herunter. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl als CSV-Datei herunterladen]**.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Projekt > Elemente als CSV-Datei herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
 
-Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
+Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) aller Daten für Analysis Workspace.
 
 ![](assets/export-options.png)
 

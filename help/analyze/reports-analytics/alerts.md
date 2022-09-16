@@ -3,12 +3,12 @@ description: Warnhinweise in Reports & Analytics verwenden.
 subtopic: Alerts
 title: Warnhinweise
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: Warnhinweise
+feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '837'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ Intelligente Warnhinweise, das neue Warnhinweissystem für sämtliche Bereiche v
 
 Über **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweise]** können Sie in allen Berichten in Reports &amp; Analytics auf das neue Warnhinweissystem zugreifen.
 
-Weitere Informationen finden Sie in der Analysis Workspace-Dokumentation unter [Intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts?lang=de).
+Weitere Informationen finden Sie in der Analysis Workspace-Dokumentation unter [Intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de).
 
 ## Warnhinweis hinzufügen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 

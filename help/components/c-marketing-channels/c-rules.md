@@ -4,7 +4,7 @@ description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzu
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2163'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https
 
 Bei einer natürlichen Suche finden Besucher Ihre Website durch eine Web-Suche, bei der die Suchmaschine Ihre Website aufführt, ohne dass Sie dafür Gebühren entrichten müssen.
 
-Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Weitere Informationen finden Sie unter [Paid-Search-Erkennung](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=de) in „Admin“.
+Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Weitere Informationen finden Sie unter [Paid-Search-Erkennung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
 
 Die kostenlosen Sucheinstellungen für die Marketing-Kanalregel lauten wie folgt:
 

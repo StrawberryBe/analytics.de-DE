@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 | [Lineardiagramm](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Zeigt, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt. |
 | [Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse ist nützlich für die Analyse von Verweildauer, Abwanderung oder Latenzzeiten. |
 | [Ringdiagramm](/help/analyze/analysis-workspace/visualizations/donut.md) | Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. |
-| [Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Kann auf mögliche oder exakte Sequenzen eingestellt werden |
+| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Kann auf mögliche oder exakte Sequenzen eingestellt werden |
 | [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Zeigt Kundenpfade durch Ihre Websites und Programme. |
 | [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. Es bildet die Grundlage für die Analyse von Daten in Workspace. |
 | [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) | Ein Histogramm fasst Besucher, Besuche oder Treffer basierend auf einem Metrikvolumen in Behälter zusammen. |
@@ -78,7 +78,7 @@ So bearbeiten Sie eine Legendenbezeichnung:
 1. Geben Sie den neuen Beschriftungstext ein.
 1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste]**.
 
-## Rechtsklick auf Menü {#right-click}
+## Rechtsklickmenü {#right-click}
 
 Weitere Funktionen für eine Visualisierung sind verfügbar, wenn Sie mit der rechten Maustaste auf die Kopfzeile der Visualisierung klicken. Die Einstellungen variieren je nach Visualisierung. Einige der verfügbaren Einstellungen sind:
 

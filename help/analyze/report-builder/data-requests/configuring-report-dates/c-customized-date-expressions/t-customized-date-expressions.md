@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 30%
+source-wordcount: '238'
+ht-degree: 29%
 
 ---
 
@@ -20,9 +20,9 @@ Es wird empfohlen, beim Erstellen von Ausdrücken auf einen Kalender zu verweise
 
 **So aktivieren Sie benutzerdefinierte Ausdrücke**
 
-Dies ist ein Beispiel mit **[!UICONTROL Rollierenden Datumswerten]**.
+Dies ist ein Beispiel für **[!UICONTROL Rollierende Datumswerte]**.
 
-1. Im Anforderungs-Assistenten [!UICONTROL : Schritt 1], anstatt **[!UICONTROL Vordefinierte Datumswerte]** zu verwenden, wählen Sie **[!UICONTROL Rollierende Datumswerte]**.
+1. Im [!UICONTROL Anforderungs-Assistent: Schritt 1]anstatt **[!UICONTROL Vordefinierte Datumswerte]** auswählen **[!UICONTROL Rollierende Datumswerte]**.
 
    ![](assets/rolldates1.png)
 
@@ -35,8 +35,8 @@ Dies ist ein Beispiel mit **[!UICONTROL Rollierenden Datumswerten]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. Aktivieren Sie **[!UICONTROL Ausdruck anpassen]**. Durch die Auswahl der Optionen unter **[!UICONTROL Rollierende Datumswerte]** können Sie die Syntax für benutzerdefinierte Datumsausdrücke leicht sehen.
+1. Aktivieren **[!UICONTROL Ausdruck anpassen]**. Durch Auswahl der Optionen unter **[!UICONTROL Rollierende Datumswerte]** können Sie die Syntax für benutzerdefinierte Datumsausdrücke leicht sehen.
 
    ![](assets/rolldatesfor5.png)
 
-   Sie können Erweiterte Optionen verwenden, um benutzerdefinierte Datumsausdrücke zu kombinieren und zuzuordnen. Wenn Sie beispielsweise Daten vom ersten Jahr bis zum Ende des letzten vollständigen Monats anzeigen möchten, können Sie Folgendes eingeben: `From: cy` `To: cm-1d` Im Assistenten werden diese Daten als 1.1.2020-1.31.2020 angezeigt.
+   Sie können Erweiterte Optionen verwenden, um benutzerdefinierte Datumsausdrücke zu kombinieren und zuzuordnen. Wenn Sie beispielsweise Daten vom ersten Jahr bis zum Ende des letzten vollständigen Monats anzeigen möchten, können Sie Folgendes eingeben: `From: cy` `To: cm-1d`. Im Assistenten werden diese Daten als 1.1.2020-1.31.2020 angezeigt.

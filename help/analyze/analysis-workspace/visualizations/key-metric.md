@@ -1,15 +1,15 @@
 ---
-description: Verwenden Sie die Visualisierung der Schlüsselmetrik-Zusammenfassung, um die Metrikleistung über zwei Zeitleisten hinweg zu vergleichen.
+description: Verwenden Sie die Visualisierung der Schlüsselmetrik-Zusammenfassung, um die Leistung der Kennzahlen über zwei Timelines hinweg zu vergleichen.
 title: Zusammenfassung einer Schlüsselmetrik
 feature: Visualizations
 role: User, Admin
-source-git-commit: 73de5dca8584d8d04b57a0d50dffcb57cfeefb08
+exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
+source-git-commit: eee2d5ae8ed76a3efa44e73aefeeb7b9ffc21c62
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
-
 
 # Zusammenfassung einer Schlüsselmetrik
 
@@ -17,35 +17,35 @@ ht-degree: 6%
 >
 >Diese Funktion wird derzeit [eingeschränkt getestet](/help/release-notes/releases.md).
 
-Die [!UICONTROL Zusammenfassung der Schlüsselmetriken] -Visualisierung können Sie sehen, wie eine wichtige Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht. Außerdem können Sie damit die Leistung von Metriken über zwei Zeitrahmen hinweg vergleichen. Sie bietet die Vorteile mehrerer Visualisierungen, die in einer Visualisierung kombiniert werden:
+Mit der [!UICONTROL Zusammenfassung der Schlüsselmetrik] können Sie sehen, wie eine wichtige Metrik innerhalb eines einzigen Zeitrahmens trendet. Außerdem können Sie damit die Leistung von Metriken über zwei Zeitrahmen hinweg vergleichen. Sie bietet die Vorteile mehrerer Visualisierungen, die in einer Visualisierung kombiniert werden:
 
-* **[!UICONTROL Linie]** Visualisierungen, die zeigen, wie die Metrik Trends für die primären und Vergleichsdatumsbereiche darstellt
+* **[!UICONTROL Linie]** Visualisierungen, die zeigen, wie die Metrik für die primären und Vergleichsdatumsbereiche trendet.
 
-* **[!UICONTROL Prozentänderung der Zusammenfassung]** , der die Metrikerhöhung oder -verringerung zwischen den primären und den Vergleichsdatumsbereichen anzeigt.
+* **[!UICONTROL Zusammenfassende prozentuale Änderung]**, die die Zunahme oder Abnahme der Metrik zwischen dem primären und dem Vergleichsdatumsbereich anzeigt
 
-* Aktueller Gesamtwert ([!UICONTROL **Zusammenfassungsnummer**]) für die Metrik
+* Aktueller Gesamtwert ([!UICONTROL **Summenzahl**]) für die Metrik
 
 ## Anwendungsbeispiele
 
-Diese Visualisierung behandelt eine Vielzahl gängiger Anwendungsfälle, darunter:
+Diese Visualisierung eignet sich für eine Vielzahl gängiger Anwendungsfälle, darunter:
 
-* Ein Analytiker versuchte zu verstehen, wie die Schaffung von Chancen in diesem Monat im Vergleich zum gleichen Zeitrahmen im letzten Jahr aussah.
+* Ein Analyst, der versucht zu verstehen, wie die Entwicklung der Chancen in diesem Monat im Vergleich zum gleichen Zeitraum des letzten Jahres aussah.
 
-* Ein Marketer, der untersucht, wie sich die Lead-Generierung für einen bestimmten Lead-Typ von diesem Monat zum letzten Monat verändert hat.
+* Ein Vermarkter, der untersucht, wie sich die Lead-Generierung für einen bestimmten Lead-Typ von diesem Monat zum letzten Monat verändert hat.
 
-* Ein Geschäftsführer möchte verstehen, wie sich neue Buchungen von diesem Quartal zum letzten Quartal änderten.
+* Eine Führungskraft, die wissen möchte, wie sich die Buchungen in diesem Quartal im Vergleich zum letzten Quartal verändert haben.
 
-## Konfigurieren der Zusammenfassung der Schlüsselmetriken
+## Konfigurieren der Zusammenfassung einer Schlüsselmetrik
 
-1. Ziehen Sie die **[!UICONTROL Zusammenfassung der Schlüsselmetriken]** Visualisierung aus der **[!UICONTROL Visualisierungen]** in der linken Leiste in ein Bedienfeld.
+1. Ziehen Sie die Visualisierung **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** aus dem Menü **[!UICONTROL Visualisierungen]** in der linken Leiste in ein Bedienfeld.
 
-1. Konfigurieren Sie die Visualisierung, indem Sie eine Metrik, einen primären Datumsbereich, einen Vergleichsdatumsbereich und ein Segment auswählen (falls gewünscht):
+1. Konfigurieren Sie die Visualisierung, indem Sie eine Metrik, einen primären Datumsbereich, einen Vergleichsdatumsbereich und ein Segment (falls gewünscht) auswählen:
 
    ![](assets/key-metric-config.png)
 
    | Konfigurationseinstellungen | Definition |
    | --- | --- |
-   | **[!UICONTROL Metrik]** | Wählen Sie die Metrik aus, die Sie untersuchen möchten. Alle Metriken werden unterstützt. |
+   | **[!UICONTROL Metrik]** | Wählen Sie die Metrik aus, die Sie überprüfen möchten. Alle Metriken werden unterstützt. |
    | **[!UICONTROL Primärer Datumsbereich]** | Der aktuelle Datumsbereich für die Freiformtabelle. |
    | **[!UICONTROL Vergleichsdatumsbereich]** | Der Datumsbereich, mit dem Sie den primären Datumsbereich vergleichen möchten. |
    | **[!UICONTROL Segment (optional)]** | Jedes Segment, an dem Sie für diese Zusammenfassung interessiert sind. |
@@ -60,11 +60,11 @@ Diese Visualisierung behandelt eine Vielzahl gängiger Anwendungsfälle, darunte
 
 Bitte beachten Sie:
 
-* Die **[!UICONTROL Vorheriger Zeitraum]** Kantengraph (immer grau dargestellt) entspricht dem **[!UICONTROL Vergleichsdatumsbereich]** im Konfigurationsschritt.
+* Der Kantengraph **[!UICONTROL Vorheriger Zeitraum]** (immer grau dargestellt) entspricht dem **[!UICONTROL Vergleichsdatumsbereich]** im Konfigurationsschritt.
 
-* Wenn während der Konfiguration kein Vergleichsdatumsbereich angegeben oder in den Visualisierungseinstellungen ausgeblendet wird, wird nur das Liniendiagramm für den primären Datumsbereich angezeigt. Die Zusammenfassungsänderung wird ausgeblendet.
+* Wenn während der Konfiguration kein Vergleichsdatumsbereich angegeben ist, oder in den Visualisierungseinstellungen ausgeblendet wird, wird nur das Liniendiagramm für den primären Datumsbereich angezeigt. Die Änderung der Zusammenfassung wird ausgeblendet.
 
-* Von hier aus können Sie mit dem Mauszeiger über die Liniendiagramme fahren, um die Statistiken für einzelne Tage anzuzeigen:
+* Von hier aus können Sie mit dem Mauszeiger über die Liniendiagramme fahren, um die Statistiken für einzelne Tage zu sehen:
 
 ![](assets/key-metric-output2.png)
 
@@ -76,25 +76,25 @@ Die Zusammenfassung der Schlüsselmetriken bietet mehrere flexible Einstellungen
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Prozentuale Veränderung hervorheben]** | Änderung der Zusammenfassung im markanten fett gedruckten Typ in der Mitte der Visualisierung anzeigen |
-| **[!UICONTROL Wert der Hervorhebung]** | Zusammenfassungsnummer in markanter Fettschrift in der Mitte der Visualisierung anzeigen |
-| **[!UICONTROL Legende eingeblendet]** | Legende unten in der Visualisierung ein- oder ausblenden |
-| **[!UICONTROL Anmerkungen anzeigen]** | Anzeigen oder Ausblenden von Anmerkungen, die von einem Administrator hinzugefügt wurden |
-| **[!UICONTROL Sparklines anzeigen]** | Zeigen Sie Liniendiagramme am unteren Rand des Diagramms an oder blenden Sie sie aus. Wenn die Legende ausgeblendet wird, wird sie nicht mehr visuell auf die Zeilen verweisen |
-| **[!UICONTROL Min. und Max. für Wortgrafiken anzeigen]** | Mindest- und Höchstwerte in Primär- und Vergleichsliniendiagrammen ein- oder ausblenden |
+| **[!UICONTROL Prozentuale Veränderung betonen]** | Anzeige der Zusammenfassungsänderung in hervorgehobener fetter Schrift in der Mitte der Visualisierung |
+| **[!UICONTROL Zahlenwert hervorheben]** | Anzeige der Zusammenfassungsanzahl in hervorgehobener fetter Schrift in der Mitte der Visualisierung |
+| **[!UICONTROL Legende eingeblendet]** | Ein- oder Ausblenden der Legende am unteren Rand der Visualisierung |
+| **[!UICONTROL Anmerkungen anzeigen]** | Von einem Administrator hinzugefügte Anmerkungen anzeigen oder ausblenden |
+| **[!UICONTROL Sparklines anzeigen]** | Liniendiagramme am unteren Rand des Diagramms anzeigen oder ausblenden. Wenn sie ausgeblendet ist, wird die Legende so geändert, dass sie keinen visuellen Bezug mehr zu den Linien hat. |
+| **[!UICONTROL Min. und Max. für Wortgrafiken anzeigen]** | Ein- und Ausblenden von Minimal- und Maximalwerten in Primär- und Vergleichsliniendiagrammen |
 | **[!UICONTROL Vergleich anzeigen]** | Vergleichsdaten ein- oder ausblenden. Wenn diese Option ausgeblendet ist, werden sowohl das Vergleichszeilendiagramm als auch die Zusammenfassungsänderung der Objekte ausgeblendet. |
 | **[!UICONTROL Gesamtanzahl anzeigen]** | Zusammenfassungsnummer anzeigen oder ausblenden |
 | **[!UICONTROL Rohdifferenz anzeigen]** | Rohdifferenz zwischen dem Gesamtwert der Metrik im primären Datumsbereich und im sekundären Datumsbereich anzeigen oder ausblenden |
-| **[!UICONTROL Wert kürzen]** | Abkürzung für Zahlenwerte zur Vereinfachung kommunizierter Einblicke (z. B. 20.000 -> 20.000) |
+| **[!UICONTROL Wert kürzen]** | Abkürzen von Zahlenwerten zur Vereinfachung der kommunizierten Einblicke (z. B. 20.000 -> 20K) |
 
 ## Visualisierung bearbeiten
 
-Nach dem Erstellen der Visualisierung können Sie die ursprüngliche Konfiguration weiterhin bearbeiten.
+Nach dem Erstellen der Visualisierung können Sie die ursprüngliche Konfiguration noch bearbeiten.
 
 1. Klicken Sie oben rechts in der Visualisierung auf das Stiftsymbol (neben dem Zahnradsymbol für Einstellungen).
 
    ![](assets/edit-icon.png)
 
-   Sie werden nun zur ursprünglichen Konfigurationsansicht zurückgeführt.
+   Sie gelangen nun zurück zur ursprünglichen Konfigurationsansicht.
 
-1. Ändern Sie die Metrik, den primären Datumsbereich, den Vergleichsdatumsbereich oder das Segment wie gewünscht.
+1. Ändern Sie die Metrik, den primären Datumsbereich, den Vergleichsdatumsbereich oder das Segment nach Belieben.

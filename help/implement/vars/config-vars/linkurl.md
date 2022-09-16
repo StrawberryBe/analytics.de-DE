@@ -6,7 +6,7 @@ exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 61%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ Sobald ein Linktracking-Aufruf an Adobe gesendet wird, erkennen die Datenerfassu
 
 ## Link-URL mit dem Web SDK
 
-Link-URL ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter dem XDM-Feld `web.webInteraction.URL`.
+Link-URL ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `web.webInteraction.URL`.
 
 ## Link-URL mit der Adobe Analytics-Erweiterung
 

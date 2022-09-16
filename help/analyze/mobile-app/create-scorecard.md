@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 100%
 

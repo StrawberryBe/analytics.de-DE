@@ -6,7 +6,7 @@ exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,7 @@ Wenn diese Variable bei einem gegebenen Seiten-Tracking-Aufruf nicht definiert i
 
 ## Seitenname mit dem Web SDK
 
-Seite ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter dem XDM-Feld `web.webPageDetails.name`.
+Seite ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `web.webPageDetails.name`.
 
 ## Seitenname mit der Adobe Analytics-Erweiterung
 

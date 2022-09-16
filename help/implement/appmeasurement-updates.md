@@ -4,7 +4,7 @@ description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 100%
 
@@ -449,7 +449,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zu unterstützen.
 
 ## Version 1.1.1
 

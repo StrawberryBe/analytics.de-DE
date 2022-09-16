@@ -2,12 +2,12 @@
 description: In der Regel wird die Konversion zwischen Start-, End- und Meilensteinereignissen oder den Punkten in einem Konversionsprozess anhand von Konversionsquotienten gemessen. Nachdem Sie die Erfolgsereignisse auf Ihrer Website kodiert haben, werden die Quotienten zwischen den verschiedenen Erfolgsereignissen von dem Bericht erstellt und in einem Konversionstrichterbericht dargestellt.
 title: Konversionstrichter
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '320'
 ht-degree: 100%
 
 ---

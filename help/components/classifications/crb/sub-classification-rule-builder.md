@@ -4,7 +4,7 @@ title: Unterklassifizierungen und der Rule Builder
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -67,8 +67,8 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
    | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&amp;Hat;Kampagnentyp | Code einer breiten Kampagne&amp;Hat;Kampagnen-Director | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | Marke | Suzanne |  |
-   | * |  | 222 | Marke | Frank |  |
+   | &#42; |  | 111 | Marke | Suzanne |  |
+   | &#42; |  | 222 | Marke | Frank |  |
 
 1. Laden Sie eine kleine Datei (siehe oben) hoch, um die Suchtabellen zu pflegen.
 

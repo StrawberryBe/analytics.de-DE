@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '362'
 ht-degree: 61%
 
 ---
@@ -44,13 +44,13 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
    <td colname="col2">
      <br/>
      <br/>
-    Buy<br/>
+    Kaufen<br/>
      <br/>
      <br/>
     Kaufen<br/>
      <br/>
      <br/>
-    Buy<br/>
+    Kaufen<br/>
      <br/>
      <br/>
    </td> 
@@ -75,11 +75,11 @@ Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Link
 
 ## Link-ID mit s_objectID anpassen  {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Durch Erstellung einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder eine Link-Position auf einer Seite können Sie das Activity Map-Tracking verbessern oder Activity Map verwenden, um Berichte zu einem Linktyp oder einer Linkposition anstatt zur Link-URL zu erstellen. Klicken Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=de), um weitere Informationen zur Variablen zu erhalten.`s_objectID`
+Erstellen einer eindeutigen Objekt-ID, `s_objectID`für einen Link oder eine Linkposition auf einer Seite können Sie das Activity Map-Tracking verbessern oder Activity Map verwenden, um Berichte zu einem Linktyp oder einer Linkposition anstatt zur Link-URL zu erstellen. Klicken Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=de), um weitere Informationen zur Variablen zu erhalten.`s_objectID`
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass ein Semikolon (`;`) erforderlich ist, wenn `s_objectID` in Activity Map verwendet wird.
+>Beachten Sie, dass ein nachstehendes Semikolon (`;`) bei Verwendung von `s_objectID` in Activity Map.
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -106,13 +106,13 @@ Durch Erstellung einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder
    <td colname="col2">
      <br/>
      <br/>
-    Product1<br/>
+    Produkt1<br/>
      <br/>
      <br/>
     Product2<br/>
      <br/>
      <br/>
-    Product3<br/>
+    Produkt3<br/>
      <br/>
      <br/>
    </td> 
@@ -135,10 +135,10 @@ Durch Erstellung einer eindeutigen Objekt-ID (`s_objectID`) für einen Link oder
 
 ## Region anpassen  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &quot;Buy&quot;eine eigene Region definiert ist. Fügen Sie dazu einen Parameter `"id"` zu einem der übergeordneten Elemente jedes Verankerungs-Tags &quot;Buy&quot;hinzu.
+Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &quot;Buy&quot;eine eigene Region definiert ist. Fügen Sie dazu eine `"id"` -Parameter zu einem der übergeordneten Elemente jedes Verankerungs-Tags &quot;Buy&quot;.
 
 >[!NOTE]
->Sie sind nicht auf den Parameter `"id"` als Regionskennung beschränkt. Sie können Ihre eigene Kennung auch mithilfe der JavaScript-Variablen `"s.ActivityMap.regionIDAttribute"` festlegen.
+>Sie sind nicht auf die `"id"` als Regions-ID. Sie können Ihre eigene Kennung auch mithilfe der JavaScript-Variablen festlegen `"s.ActivityMap.regionIDAttribute"`.
 >
 >
 ><table id="table_250DB52A869C466B942517BABA1C287B">
@@ -167,13 +167,13 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &
    <td colname="col2">
      <br/>
      <br/>
-    Buy<br/>
+    Kaufen<br/>
      <br/>
      <br/>
     Kaufen<br/>
      <br/>
      <br/>
-    Buy<br/>
+    Kaufen<br/>
      <br/>
      <br/>
    </td> 
@@ -214,7 +214,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-`linkName` wird bei Aufrufen an `s.tl()` übergeben.
+Die `linkName` wird bei Aufrufen an `s.tl()`.
 
 ```
 s.ActivityMap.region = function(ele) {

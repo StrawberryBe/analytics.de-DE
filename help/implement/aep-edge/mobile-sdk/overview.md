@@ -4,8 +4,8 @@ description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Pl
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 100%
 
 ---
 

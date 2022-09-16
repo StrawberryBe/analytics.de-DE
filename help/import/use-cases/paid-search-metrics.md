@@ -3,7 +3,7 @@ title: Importieren von Paid-Search-Metriken
 description: Schritte zum Konfigurieren von Adobe Analytics zur Verfolgung Ihrer Paid Search-Metriken (z. B. Google AdWords, MSN, Yahoo usw.) unter Verwendung von Datenquellen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 100%
 

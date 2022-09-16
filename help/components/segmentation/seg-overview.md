@@ -4,7 +4,7 @@ title: Segmente und Container
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 100%
 
@@ -295,7 +295,7 @@ Beachten Sie, dass bei der Anzeige der Daten aus dem Besucher-Container die Seit
 
 ![](assets/container_report_persist_Visitor.png)
 
-Zusammenfassung
+Zusammenfassung,
 
 * Der Besuchs-Container gibt alle bei einem Besuch gesehenen Seiten zurück, von denen mindestens eine Seite den Kriterien entspricht. Wenn daher eine Seite nur bei Besuch 1 am Tag 1 gesehen wurde, werden alle während des gesamten Besuchs gesehenen Seiten in die Daten einbezogen.
 * Seien Sie vorsichtig, wenn es sich bei der Bedingung, nach der Sie die Segmentierung durchführen, um ein eVar oder einen anderen Typ einer persistenten Variablen handelt. Sie könnten z. B. die Bedingung „Wenn Kampagne E-Mail enthält“ verwenden, die nach 7 Tagen abläuft. Wenn die Kampagne daher auf den ersten Besuch gesetzt wird, ist sie anschließend 7 weitere Tage persistent. Jeder Besuch wird einbezogen, auch wenn die Kampagne nur auf den ersten Besuch gesetzt wird. Auch die anderen Besuche werden einbezogen (solange sie innerhalb des Datumsbereichs des Berichts liegen). Wenn Sie ausschließen möchten, dass persistente Werte einbezogen werden, können Sie entweder das Ereignis „Instanz von“ oder, sofern verfügbar, eine entsprechende Eigenschaftsvariable verwenden.

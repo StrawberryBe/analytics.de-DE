@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 93%
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 Schritte zum Konfigurieren von Datumsangaben für Echtzeitanforderungen.
 
-1. Stellen Sie sicher, dass in den [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) in Marketing Reports &amp; Analysen Echtzeitberichte aktiviert sind.
+1. Stellen Sie sicher, dass in den [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=de) in Marketing Reports &amp; Analysen Echtzeitberichte aktiviert sind.
 1. Klicken Sie im [!UICONTROL Anforderungs-Assistenten, Schritt 1] auf **[!UICONTROL Echtzeitbericht]** > **[!UICONTROL `<report type>`]**
 
    Wählen Sie beispielsweise einen Traffic-Bericht. Wenn Sie einen Echtzeitberichtstyp auswählen, werden die Optionen für die [!UICONTROL Auswahl des Zeitraums] angezeigt.

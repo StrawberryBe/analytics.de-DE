@@ -4,9 +4,9 @@ title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ Diese Zeichen haben in einer Datendatei eine spezielle Bedeutung. Vermeiden Sie 
 
 **Beispiel:** Wenn Kampagne A 10.000 USD kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 10000, und die Spalte [!UICONTROL Campaigns^~Cost~per] enthält die Angabe [!UICONTROL FIXED]. Beim Anzeigen der Kosten für Kampagne A in den Berichten sehen Sie den Betrag von 10.000 USD als Festkosten der Kampagne A für den Datumsbereich.
 
-**Beispiel:** Wenn Kampagne B ca. 2 USD pro Klick kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 2 und die Spalte **[!UICONTROL Campaigns^~Cost~per]** enthält die Angabe [!UICONTROL CLICK]. Beim Anzeigen der Kosten für Kampagne B in den Berichten führt Adobe für den Datumsbereich des Berichts schnell die Kalkulation (2 * [Anzahl Klicks]) durch. Damit erhalten Sie eine Gesamtkostenkalkulation basierend auf im Zuge von Kampagne B erfolgten Klicks.
+**Beispiel:** Wenn Kampagne B ca. 2 USD pro Klick kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 2 und die Spalte **[!UICONTROL Campaigns^~Cost~per]** enthält die Angabe [!UICONTROL CLICK]. Beim Anzeigen der Kosten für Kampagne B in den Berichten berechnet die Adobe (2) &#42; [Anzahl der Klicks]) für den Datumsbereich des Berichts. Damit erhalten Sie eine Gesamtkostenkalkulation basierend auf im Zuge von Kampagne B erfolgten Klicks.
 
 ### Datum
 
@@ -204,4 +204,4 @@ Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
 
 ## Fehlerbehebung für Classifications
 
-* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
+* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.

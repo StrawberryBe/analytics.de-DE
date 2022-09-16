@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 89%
+source-wordcount: '72'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map 
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Entfernen Sie den folgenden Inhalt aus der Datei Appmeasurement.js: 
-      
+     
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map

@@ -7,7 +7,7 @@ exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
@@ -17,12 +17,12 @@ Im [!UICONTROL Manager für geplante Aufgaben] finden Sie eine Liste mit den vor
 
 ## Anhalten älterer geplanter Aufgaben
 
-Am 21. April 2022 haben wir im Rahmen unserer Leistungs- und Versandoptimierungsbemühungen im Report Builder Änderungen an geplanten Aufgaben durchgeführt. Zu diesen Änderungen gehörte auch das Entfernen der Möglichkeit, dass geplante Sendungen &quot;nach x Vorfällen enden&quot;. Als Reaktion auf mehrere Kundenanfragen, die mehr Zeit für die Erforschung und Implementierung von Alternativen benötigen, haben wir beschlossen, diese Option in begrenztem Umfang wiederherzustellen, bis **31. Januar 2023**.
+Am 21. April 2022 haben wir im Rahmen unserer Leistungs- und Versandoptimierungsbemühungen in Report Builder Änderungen an terminierten Aufgaben durchgeführt. Zu diesen Änderungen gehörte auch das Entfernen der Möglichkeit, dass geplante Sendungen „nach x Vorfällen beendet werden“. Als Reaktion auf mehrere Kundenanfragen, die mehr Zeit für die Erkundung und Implementierung von Alternativen benötigen, haben wir beschlossen, diese Option in begrenztem Umfang wieder einzuführen und bis zum **31. Januar 2023** aufrecht zu erhalten.
 
-Sie können weiterhin stündliche Report Builder-Aufgaben planen und diese nach maximal 99 Vorkommen beenden. Beachten Sie, dass das Rollback nur für stündliche Aufgaben gilt. das &quot;Nach x Vorkommen beenden&quot;bleibt für alle anderen Versandintervalle (täglich, wöchentlich, monatlich und jährlich) nicht verfügbar.
+Sie können weiterhin stündliche Report Builder-Aufgaben planen und diese nach maximal 99 Vorkommen beenden. Bitte beachten Sie, dass das Rollback nur für stündliche Aufgaben gilt. Die Option „Nach x Vorkommen beenden“ bleibt für alle anderen Versandintervalle (täglich, wöchentlich, monatlich und jährlich) weiterhin nicht verfügbar. 
 
 Bitte beachten Sie, dass diese Option ab dem 31. Januar 2023 nicht mehr unterstützt wird.
-Weitere Fragen oder Support erhalten Sie bei der Kundenunterstützung von Adobe.
+Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenunterstützung von Adobe.
 
 Diese Pause gilt insbesondere für **vor dem 31. Januar 2020 erstellte Aufgaben**. Es werden keine Aufgaben, Arbeitsmappen oder Daten gelöscht. Aufgaben, die älter als zwei Jahre sind, werden angehalten und es werden keine weiteren geplanten Aufgaben gesendet.
 

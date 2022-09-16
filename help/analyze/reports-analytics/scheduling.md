@@ -9,7 +9,7 @@ exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
 workflow-type: tm+mt
 source-wordcount: '1772'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 86%
 Informationen zum Planen, Herunterladen und Verteilen von Berichten.
 
 >[!IMPORTANT]
->Am 21. April 2022 haben wir bekannt gegeben, dass einige Funktionen für terminierte Berichte eingestellt wurden, um die zuvor angekündigte Einstellung des Lebenszyklus für Reports &amp; Analytics vorzubereiten. Zu diesen Funktionen gehörte die Möglichkeit, neue Berichte sowie neue Datenextraktionen zu planen. Auf Kundenanfragen, die eine Erweiterung anstreben und den Übergang von Reports &amp; Analytics erleichtern, haben wir beschlossen, den Zugriff auf diese Funktionen bis zum 31. Januar 2023 zu verlängern. Bitte beachten Sie, dass das Ablauffenster für Berichte und Datenextrakte weiterhin auf neun Monate begrenzt ist. Die Bereitstellung von Berichten und Datenextraktionen wird am Ende dieses Zeitraums ausgesetzt, es sei denn, der Zeitplan wird reaktiviert. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>Am 21. April 2022 haben wir bekannt gegeben, dass einige Funktionen für terminierte Berichte eingestellt wurden, um die zuvor angekündigte Einstellung von Reports &amp; Analytics vorzubereiten. Zu diesen Funktionen gehörte die Möglichkeit, neue Berichte sowie neue Datenextraktionen zu planen. Als Reaktion auf Kundenanfragen, die um eine Verlängerung baten, und um den Übergang weg von Reports &amp; Analytics zu erleichtern, haben wir beschlossen, den Zugriff auf diese Funktionen bis zum 31. Januar 2023 zu verlängern.
+Bitte beachten Sie, dass das Ablauffenster für Berichte und Datenextrakte weiterhin auf neun Monate begrenzt ist. Die Bereitstellung von Berichten und Datenextraktionen wird am Ende dieses Zeitraums ausgesetzt, es sei denn, der Zeitplan wird reaktiviert. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Verwenden Sie die Zeitplan- und Verteilungstools, um einen Bericht zur Bereitstellung in einer Adobe Analytics-Anwendung vorzumerken, den automatischen Versand von Dateien zu prüfen und die Bereitstellung abzuändern oder zu beenden.
 

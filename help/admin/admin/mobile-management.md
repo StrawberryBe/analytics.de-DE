@@ -3,10 +3,9 @@ description: Durch die Aktivierung der App-Verwaltung aktivieren Sie die mobilen
 title: App-Verwaltung
 feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '623'
 ht-degree: 100%
 
 ---

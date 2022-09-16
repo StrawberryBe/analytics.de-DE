@@ -4,9 +4,9 @@ title: Abrechnung
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ Der [!UICONTROL Monatsrechnungs]-Bericht enthält die folgenden Informationen:
 
 >[!NOTE]
 >
->Wenn Sie eine Arbeitskopie des Berichts [!UICONTROL Monatliche Rechnungen] erstellen möchten, kopieren Sie den Bericht in die Zwischenablage und fügen Sie ihn anschließend in eine Tabellenkalkulation wie z. B. Microsoft Excel* ein.
+>So erhalten Sie eine Arbeitskopie der [!UICONTROL Monatliche Rechnung] Bericht erstellen, ihn in die Zwischenablage kopieren und in ein Tabellenprogramm wie Microsoft Excel einfügen&#42;.
 
 ## Berichtsdatum vs. Verarbeitungsdatum {#section_51A48C2F223F4904BE1407C13333C457}
 

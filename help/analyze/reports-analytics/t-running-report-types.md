@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe
 
 Seitenflussberichte zeigen die Reihenfolge an, in der Ihre Besucher auf Seiten zugreifen und auf Ihrer Website navigieren. Dieser Bericht bietet Antworten
 
-Sehen Sie sich die [Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) in Analysis Workspace an.
+Sehen Sie sich die [Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
 
 Klicken Sie zum Beispiel auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Nächster Seitenfluss]**.
 

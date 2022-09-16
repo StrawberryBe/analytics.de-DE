@@ -6,7 +6,7 @@ exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ Die Kauf-IDs gelten für alle Besucher und laufen nicht ab. Wenn ein Besucher ei
 
 ## Kauf-ID mit dem Web SDK
 
-Kauf-ID ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter dem XDM-Feld `commerce.order.purchaseID`.
+Kauf-ID ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `commerce.order.purchaseID`.
 
 ## Kauf-ID mit der Adobe Analytics-Erweiterung
 

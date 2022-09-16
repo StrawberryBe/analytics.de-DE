@@ -2,12 +2,12 @@
 description: Erfahren Sie, wie Sie freigebbare Links zu Projekten oder Visualisierungen erstellen.
 keywords: Analysis Workspace-Freigabe
 title: Erstellen von freigebbaren Links
-feature: Kuratieren und Freigeben
+feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '296'
+workflow-type: tm+mt
+source-wordcount: '293'
 ht-degree: 100%
 
 ---

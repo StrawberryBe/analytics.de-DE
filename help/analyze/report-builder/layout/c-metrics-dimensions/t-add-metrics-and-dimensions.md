@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
@@ -66,6 +66,6 @@ Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren
 
 1. Ändern Sie Metriken und Dimensionen, indem Sie [Formatoptionen](/help/analyze/report-builder/layout/t-format-display-headers.md) und Filter konfigurieren.
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]**. 
-Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Hier erstellt die Dimension [!UICONTROL Verweisende Domäne] einen Detailbericht für [!UICONTROL Seite] und [!UICONTROL Verweisende Domäne]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
+Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Hier erstellt die Dimension [!UICONTROL Verweisende Domain] einen Detailbericht für [!UICONTROL Seite] und [!UICONTROL Verweisende Domain]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
 
 ![](assets/page_pageview_02.png)

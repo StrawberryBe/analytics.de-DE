@@ -4,7 +4,7 @@ title: Migrieren von Verarbeitungsregeln für Mobile Services nach Adobe Analyti
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 

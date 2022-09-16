@@ -4,7 +4,7 @@ title: Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
  </tbody> 
 </table>
 
-Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/de/enterprise/using/users.html).
+Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/enterprise/using/users.html).
 
 >[!NOTE]
 >

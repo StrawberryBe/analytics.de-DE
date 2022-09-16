@@ -4,7 +4,7 @@ description: Welche Best Practices bestehen für die Wahl eines Attributionsmode
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 

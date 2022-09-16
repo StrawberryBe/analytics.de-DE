@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
    ![](assets/workbooks-power-bi.png)
 
-1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen.   ![](assets/view-data-pbi.png)
+1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen.    ![](assets/view-data-pbi.png)
 
 1. Sie können dann einen Bereich dieser Arbeitsmappe anheften, um sie in ein beliebiges Power BI-Dashboard einzuschließen.
 

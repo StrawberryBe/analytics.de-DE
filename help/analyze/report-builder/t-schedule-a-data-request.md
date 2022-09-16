@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Nachdem Sie einen Arbeitsmappen-Zeitplan in Report Builder erstellt haben, könn
 
 >[!NOTE]
 >
->Sie müssen über Excel 2007 verfügen oder das Compatibility Pack installieren, um eine Arbeitsmappe planen zu können. Sie können pro Report Builder-Lizenz über maximal 10 geplante Arbeitsmappen verfügen. Jedoch können Sie diese Zahl erhöhen, indem Sie bei anderen Lizenzen die benötigte Menge an Arbeitsmappen wegnehmen. Gehen Sie dazu zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Admin]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Report Builder-Berichte]**. Eine Arbeitsmappe, die geplant (oder in die Arbeitsmappen-Bibliothek hochgeladen) wurde und innerhalb von 28 Monaten nicht weiterverwendet (aktualisiert, ersetzt) wurde, wird gelöscht.
+>Sie müssen über Excel 2007 verfügen oder das Compatibility Pack installieren, um eine Arbeitsmappe planen zu können. Sie können pro Report Builder-Lizenz über maximal 10 geplante Arbeitsmappen verfügen. Jedoch können Sie diese Zahl erhöhen, indem Sie bei anderen Lizenzen die benötigte Menge an Arbeitsmappen wegnehmen. Gehen Sie dazu zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Report Builder-Berichte]**. Eine Arbeitsmappe, die geplant (oder in die Arbeitsmappen-Bibliothek hochgeladen) wurde und innerhalb von 28 Monaten nicht weiterverwendet (aktualisiert, ersetzt) wurde, wird gelöscht.
 
 >[!NOTE]
 >

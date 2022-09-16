@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Das Dialogfeld [!UICONTROL Vorlage speichern] ähnelt in einigen Punkten dem Exc
 
 Jeder Dateiname darf höchstens 255 Zeichen enthalten. Darüber hinaus darf ein Dateiname keines der folgenden Zeichen enthalten:
 
-\ ? | > &lt; : / * &#39; &quot;
+\ ? | > &lt; : / &#42; &quot; &quot;
 
 Schließlich dürfen keine Unicode-Zeichen über den Satz der erweiterten ASCII-Zeichen hinaus verwendet werden.
 

@@ -2,9 +2,8 @@
 title: VRS auf bestimmte Daten beschränken
 description: Verstehen Sie, wie Sie einen VRS-Datumsbereich so beschränken, dass er sich nur auf zusammengefügte Daten konzentriert.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

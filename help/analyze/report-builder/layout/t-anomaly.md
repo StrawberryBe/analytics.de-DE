@@ -1,5 +1,5 @@
 ---
-description: 'Schritte zum Erstellen einer Anomalieerkennungsanforderung in Report Builder. '
+description: Schritte zum Erstellen einer Anomalieerkennungsanforderung in Report Builder.
 title: Konfigurieren einer Anomalieerkennungsanforderung
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 100%
 
 ---

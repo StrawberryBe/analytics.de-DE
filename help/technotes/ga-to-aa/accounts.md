@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit einem Anmeldeunternehmen und einer Report
 feature: Third-party Integration
 exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 

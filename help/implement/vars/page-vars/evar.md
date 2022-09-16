@@ -6,7 +6,7 @@ exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie
 
 ## eVars mit dem Web SDK
 
-eVars sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter den XDM-Feldern `_experience.analytics.customDimensions.eVars.eVar1` nach `_experience.analytics.customDimensions.eVars.eVar250`.
+eVars sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.eVars.eVar1` nach `_experience.analytics.customDimensions.eVars.eVar250`.
 
 ## eVars mit der Adobe Analytics-Erweiterung
 

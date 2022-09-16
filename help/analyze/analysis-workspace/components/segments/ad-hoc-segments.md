@@ -7,7 +7,7 @@ exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
 source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -43,7 +43,7 @@ Ad-hoc-Segmente können anderen Projekten durch Speichern zur Verfügung gestell
 
 1. Bewegen Sie den Mauszeiger auf das Segment im Ablagebereich und klicken Sie auf das Symbol „i“.
 1. Klicken Sie auf den Stift &quot;Bearbeiten&quot;, um zum Segment Builder zu wechseln.
-1. Überprüfen **[!UICONTROL Bereitstellen für alle Projekte und Hinzufügen zur Komponentenliste]**.
-1. Klicken **[!UICONTROL SPEICHERN]**.
+1. Aktivieren Sie die Option **[!UICONTROL Für alle Projekte verfügbar machen und der Komponentenliste hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Nach dem Speichern ist das Segment in der Komponentenliste der linken Leiste verfügbar und kann mit anderen Benutzern über den Segment-Manager freigegeben werden.

@@ -6,7 +6,7 @@ exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 
 ## Festlegen des Kaufereignisses mit dem Web SDK
 
-Das Kaufereignis ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter mehreren XDM-Feldern:
+Das Kaufereignis ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter mehreren XDM-Feldern:
 
 * Bestellungen werden zugeordnet zu `commerce.purchases.value`.
 * Einheiten werden der Summe aller `productListItems[].quantity` -Felder.

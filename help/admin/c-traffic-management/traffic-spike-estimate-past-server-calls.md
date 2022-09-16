@@ -4,7 +4,7 @@ title: Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze
 feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
 

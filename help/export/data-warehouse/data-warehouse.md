@@ -1,25 +1,25 @@
 ---
-description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
+description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, um erweiterte Datenbeziehungen aus Rohdaten basierend auf den für Sie relevanten Fragen anzuzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
 title: Data Warehouse-Übersicht
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
 
 # Data Warehouse-Übersicht
 
-Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
+Data Warehouse bezeichnet die Kopie von Analytics-Daten für Speicherberichte und benutzerdefinierte Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, um erweiterte Datenbeziehungen aus Rohdaten basierend auf den für Sie relevanten Fragen anzuzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
 
 Adobe aktiviert Data Warehouse nur für Benutzer auf Administratorebene und nur für bestimmte Report Suites. (Die Funktion kann für globale und untergeordnete Report Suites, jedoch nicht für Datenaggregations-Report Suites aktiviert werden.) Der Administrator kann eine Gruppe erstellen, die Zugriff auf Data Warehouse hat, und anschließend Benutzer, die sich nicht auf Administrator-Ebene befinden, dieser Gruppe zuweisen.
 
 Data Warehouse ZIP-komprimiert automatisch Dateien, die größer als 1 MB sind. Die Maximalgröße für E-Mail-Anhänge beträgt 10 MB.
 
-Data Warehouse kann eine unbegrenzte Anzahl an Zeilen in einer einzigen Anforderung für einzelne terminierte und heruntergeladene Berichte verarbeiten.
+Data Warehouse kann eine unbegrenzte Anzahl an Zeilen in einer einzigen Anfrage für einzelne terminierte und heruntergeladene Berichte verarbeiten.
 
 >[!NOTE]
 >

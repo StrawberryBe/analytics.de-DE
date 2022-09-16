@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -25,5 +25,4 @@ Laden Sie freigegebene Arbeitsmappen herunter und bearbeiten Sie sie.
 >* **Bearbeiten:** Hierdurch wird eine Arbeitsmappe heruntergeladen und zur Bearbeitung geöffnet. Wenn Sie eine Arbeitsmappe, die Sie zum Bearbeiten heruntergeladen haben, wieder hochladen möchten, muss dies manuell erfolgen.
 >* **Löschen:** Hierdurch wird eine hochgeladene Arbeitsmappe gelöscht. Um eine Arbeitsmappe löschen zu können, müssen Sie deren Besitzer sein.
 >
-
 

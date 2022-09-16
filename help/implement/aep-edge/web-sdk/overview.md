@@ -1,13 +1,13 @@
 ---
 title: Implementieren von Adobe Analytics mit dem Adobe Experience Platform Web SDK
 description: Verwenden Sie die Web SDK-Erweiterung in der Adobe Experience Platform-Datenerfassung, um Daten an Adobe Analytics zu senden.
-source-git-commit: 6979736e1849d25af2141e0ab76a143605a90620
-workflow-type: ht
+exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
+source-git-commit: 72b2497c5060f2309f2232a09e46166ac63da944
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # Implementieren von Adobe Analytics mit dem Adobe Experience Platform Web SDK
 

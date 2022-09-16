@@ -4,9 +4,9 @@ title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2020'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Classification-Regeln eignen sich für Folgendes:
 * **E-Mail-** und **Display-Anzeigen:** Erstellen Sie Klassifizierungsregeln, die die einzelnen Display-Anzeigekampagnen gruppieren, sodass ersichtlich wird, wie die Display-Kampagnen im Vergleich zu den E-Mail-Kampagnen abschneiden.
 
 * **Trackingcodes:** Erstellen Sie Klassifizierungsregeln, die die aus den Zeichenfolgen in den Trackingcodes abgeleiteten Schlüsselwerte kategorisieren, und prüfen Sie dann, ob diese Schlüsselwerte mit den von Ihnen definierten Kriterien übereinstimmen.
-* **Suchbegriffe**: Mithilfe von   [regulären Ausdrücken](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
+* **Suchbegriffe**: Verwendung [reguläre Ausdrücke](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Klassifizierung von Suchbegriffen. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
 
 Der Trackingcode für eine E-Mail-Kampagnen-ID lautet beispielsweise:
 
@@ -282,7 +282,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
 | 1 | Enthält | Cowboys | Suchtyp | Team |
-| 2 | Enthält | Fantasy | Suchtyp | Fantasy |
+| 2 | Enthält | Fantasy | Suchtyp | Fantasie |
 | 3 | Enthält | Romo | Suchtyp | Spieler |
 
 Wenn ein Benutzer nach   *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
@@ -326,8 +326,8 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    >Report Suites werden *nur dann* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:
    >
    >* Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
-   >
-   >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
+      >
+      >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
    >
    >* Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
 

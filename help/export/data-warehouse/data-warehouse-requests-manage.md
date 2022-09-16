@@ -4,10 +4,9 @@ title: Verwalten von Data Warehouse-Anforderungen
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 80%
 
 ---
@@ -33,4 +32,4 @@ Die Arbeit in dieser Registerkarte ermöglicht es Ihnen,
 
 Klicken Sie auf einen Auftrag, um einzelne Anforderungen für diesen Auftrag anzuzeigen.
 
-* Eingeschränkte Rate: Ihre Organisation hat zu viele Anforderungen an die Data Warehouse. Die Anforderung wird angehalten, bis andere Datenanforderungen abgeschlossen sind.
+* Rate Limited: In Ihrem Unternehmen werden zu viele Data Warehouse-Anforderungen ausgeführt. Die Anfrage wird angehalten, bis andere Datenanforderungen abgeschlossen sind.

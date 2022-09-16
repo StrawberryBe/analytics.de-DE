@@ -1,12 +1,12 @@
 ---
-description: 'Informationen '
+description: Informationen
 title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -58,9 +58,9 @@ Es gibt einige Unterschiede in der Funktionsweise der linearen Attribution zwisc
 
 ## Funktionsweise der linearen Zuordnung vor Juli 2018
 
-Vor dem 19. Juli 2018 wurde die lineare Attribution berechnet, nachdem die Erst- bzw. Letztkontakt-Persistenz bereits erfolgt war. Gemäß dem Letztkontakt-eVar wurden die 10 USD daher wie folgt verteilt: A = 10 x (3/6) = 5 USD, B = 10 x (2/6) = 3,33 USD, C = 10 x (1/6) = 1,67 USD.
+Vor dem 19. Juli 2018 wurde die lineare Attribution berechnet, nachdem die Erst- bzw. Letztkontakt-Persistenz bereits erfolgt war. Das bedeutet, dass die 10 USD für den obigen Letztkontakt-eVar wie folgt verteilt werden: A = 10 &#42; (3/6) = 5 USD, B = 10 &#42; (2/6) = 3,33 USD, C = 10 &#42; (1/6) = 1,67 USD.
 
-Gemäß dem oberen Erstkontakt-eVar würden alle 10 USD-Beträge zu A gegeben. Für die Eigenschaft: A = 10 x (2/4) = 5 USD, B = 10 x (1/4) = 2,50 USD und C = 10 x (1/4) = 2.50 USD. Um die frühere Funktionsweise der linearen Zuordnung zusammenzufassen:
+Für den obigen Erstkontakt-eVar würden alle 10 USD an A übergeben. Für die Eigenschaft: A = 10 &#42; (2/4) = 5 USD, B = 10 &#42; (1/4) = 2,50 USD und C = 10 &#42; (1/4) = 2,50 USD. Zusammenfassend die lineare Zuordnung, wie sie zuvor funktioniert hat:
 
 | Werte | Aktueller Letztkontakt-eVar | Aktueller Erstkontakt-eVar | Aktuelle Eigenschaft |
 |---|---|---|---|
@@ -71,7 +71,7 @@ Gemäß dem oberen Erstkontakt-eVar würden alle 10 USD-Beträge zu A gegeben. 
 
 **Zusammenfassung der aktuellen Funktionsweise der linearen Zuordnung**
 
-Statt die gespeicherten Werte aufgrund von Letzt- bzw. Erstkontakt zu verwenden, verwendet [!DNL Analytics] nur die Werte, die übertragen wurden (erste Zeile der Tabelle). Daher haben die Dimensions-Zuordnungseinstellungen keinen Einfluss mehr darauf, wie die lineare Zuordnung berechnet wird (d. h. Eigenschaften und eVars werden gleich behandelt), und die Ergebnisse spiegeln wider, was ursprünglich übertragen wurde, statt der möglicherweise gespeicherten Erst- bzw. Letztkontaktwerte. In allen drei Fällen gilt dann: A = 10 x (2/4) = 5 USD, B = 10 x (1/4) = 2,50 USD und C = 10 x (1/4) = 2,50 USD.
+Statt die gespeicherten Werte aufgrund von Letzt- bzw. Erstkontakt zu verwenden, verwendet [!DNL Analytics] nur die Werte, die übertragen wurden (erste Zeile der Tabelle). Daher haben die Dimensions-Zuordnungseinstellungen keinen Einfluss mehr darauf, wie die lineare Zuordnung berechnet wird (d. h. Eigenschaften und eVars werden gleich behandelt), und die Ergebnisse spiegeln wider, was ursprünglich übertragen wurde, statt der möglicherweise gespeicherten Erst- bzw. Letztkontaktwerte. In allen drei Fällen also A = 10 &#42; (2/4) = 5 USD, B = 10 &#42; (1/4) = 2,50 USD und C = 10 &#42; (1/4) = 2,50 USD.
 
 | Werte | Neuer Letztkontakt-eVar | Neuer Erstkontakt-eVar | Neue Eigenschaft |
 |---|---|---|---|

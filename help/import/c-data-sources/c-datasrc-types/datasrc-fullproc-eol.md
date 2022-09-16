@@ -4,7 +4,7 @@ description: Gründe für das Ende der Lebensdauer und Vergleiche zwischen der B
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Weitere Einzelheiten finden Sie im folgenden Vergleich der Feldwerte, die in Bul
 | aamlh | Nicht unterstützt | Standorthinweis für Adobe Audience Manager. |
 | browserHeight | browserHeight | Browser-Höhe in Pixel (z. B. 768) |
 | browserWidth | browserWidth | Browser-Breite in Pixel (z. B. 1024) |
-| campaign | campaign | Konversion-Kampagnen-Trackingcode |
+| campaign | Kampagne | Konversion-Kampagnen-Trackingcode |
 | channel | channel | Kanal-Zeichenfolge (z. B. Sportabteilung) |
 | colorDepth | colorDepth | Bildschirmfarbtiefe in Bit (z. B. 24) |
 | connectionType | connectionType | Verbindungstyp des Besuchers (LAN oder Modem) |

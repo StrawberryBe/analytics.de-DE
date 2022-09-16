@@ -6,7 +6,7 @@ exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannt
 
 ## Kontextdatenvariablen mit dem Web SDK
 
-Wenn ein XDM-Feld nicht [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), wird sie automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) , um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
+Wenn ein XDM-Feld nicht [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de), wird sie automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) , um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
 
 Obwohl es sich als Best Practice empfiehlt, Daten den korrekten XDM-Feldern im Datastream zuzuordnen, erzielt diese Methode ähnliche Ergebnisse.
 

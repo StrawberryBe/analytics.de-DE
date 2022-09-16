@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,7 +20,7 @@ Starten Sie Excel nach der Installation Report Builder und klicken Sie auf **[!U
 
 ![](assets/report_builder_toolbar.png)
 
-**Anmelden:** Zeigt die   Anmeldung an, damit Sie sich mit Ihren Anmeldedaten oder als ein anderer Benutzer anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Anmelden bei Report Builder](/help/analyze/report-builder/setup/login.md).
+**Anmelden:** Zeigt die [!UICONTROL Anmelden] Formular, damit Sie sich mit Ihren Anmeldedaten oder als anderer Benutzer anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Anmelden bei Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Erstellen:** Startet den [!UICONTROL Anforderungs-Assistenten]. Wenn Sie noch nicht angemeldet sind, werden Sie jetzt dazu aufgefordert. Siehe [Datenanforderungen](/help/analyze/report-builder/data-requests/data-requests.md).
 

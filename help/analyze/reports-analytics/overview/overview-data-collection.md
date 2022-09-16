@@ -3,12 +3,12 @@ description: Erfahren Sie, wie Daten für Adobe Analytics gesammelt werden.
 subtopic: Get started
 title: Über die Datenerfassung
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---

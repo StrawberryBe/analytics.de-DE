@@ -4,7 +4,7 @@ description: Informieren Sie sich über häufige Probleme und Best Practices zur
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 

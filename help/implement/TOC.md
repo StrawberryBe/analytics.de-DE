@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
-user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
+user-guide-description: Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen.
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'

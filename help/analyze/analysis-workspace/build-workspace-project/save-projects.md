@@ -1,19 +1,19 @@
 ---
 description: Erfahren Sie mehr über die verschiedenen Speicheroptionen, einschließlich automatisches Speichern, Speichern unter, Speichern als Vorlage und Öffnen früherer Versionen.
 title: Projekte speichern
-feature: Grundlagen zu Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '463'
+workflow-type: tm+mt
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
 
 # Projekte speichern
 
-Um Ihre Änderungen an einem Projekt zu speichern, gehen Sie zum Menü **[!UICONTROL Projekt]** in Workspace. In Workspace werden Projekte in bestimmten Fällen auch automatisch gespeichert.
+Um Ihre Änderungen an einem Projekt zu speichern, gehen Sie zum Menü **[!UICONTROL Projekt]** in Arbeitsbereich. In Arbeitsbereich werden Projekte in bestimmten Fällen auch automatisch gespeichert.
 
 ## Projektoptionen speichern {#Save}
 
@@ -34,7 +34,7 @@ Bestehende Projekte, d.h. Projekte, die bereits mindestens einmal gespeichert wu
 
 Es gibt einige Szenarien, in denen Sie nicht gespeicherte Änderungen an einem Projekt verlassen können, was zu verschiedenen verfügbaren Aktionen führt.
 
-### Öffnen eines anderen Workspace-Projekts
+### Öffnen eines anderen Arbeitsbereich-Projekts
 
 Adobe bietet die Möglichkeit, vor dem Verlassen der Seite zu speichern. Nach dem Verlassen eines bestehenden Projekts wird die automatisch gespeicherte lokale Kopie gelöscht.
 
@@ -48,7 +48,7 @@ Der Browser warnt, dass nicht gespeicherte Änderungen verloren gehen. Sie könn
 
 ### Browser-Abstürze oder Zeitüberschreitung der Sitzung
 
-Bei **bestehenden** Projekten wird Ihnen nach der Rückkehr zu Workspace ein Modal zur **Projektwiederherstellung** angezeigt. Durch Auswahl von „Ja“ wird das Projekt von der automatisch gespeicherten lokalen Kopie wiederhergestellt. „Nein“ löscht die automatisch gespeicherte lokale Kopie und öffnet die letzte vom Benutzer gespeicherte Version des Projekts.
+Bei **bestehenden** Projekten wird Ihnen nach der Rückkehr zu Arbeitsbereich ein Modal zur **Projektwiederherstellung** angezeigt. Durch Auswahl von „Ja“ wird das Projekt von der automatisch gespeicherten lokalen Kopie wiederhergestellt. „Nein“ löscht die automatisch gespeicherte lokale Kopie und öffnet die letzte vom Benutzer gespeicherte Version des Projekts.
 
 ![](assets/project-recovery.png)
 

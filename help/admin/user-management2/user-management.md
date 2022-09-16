@@ -5,7 +5,7 @@ title: Verwalten von Benutzern und Produkten
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 

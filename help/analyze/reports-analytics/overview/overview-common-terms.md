@@ -2,12 +2,12 @@
 description: Eine Einführung in häufig verwendete Marketing-Analytics-Begriffe, die in Reports & Analytics verwendet werden.
 title: Häufig verwendete Begriffe
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '722'
 ht-degree: 93%
 
 ---

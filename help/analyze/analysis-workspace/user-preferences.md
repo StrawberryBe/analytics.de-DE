@@ -45,7 +45,7 @@ Die Projektvoreinstellungen gelten für neue Projekte und in Analysis Workspace 
 |  | [Typ des Bedienfelds](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) | <ul><li>Freiform (Standard)</li><li>Leer</li><li>Quick Insights</li></ul> |
 |  | Zahlenformat | <ul><li>1.000,00 (Standard)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV-Trennzeichen   Zeichen | <ul><li>Komma (Standard)</li><li>Semikolon</li><li>Doppelpunkt</li><li>Verkettungszeichen</li><li>Zeitraum</li><li>Leerzeichen</li><li>Tab</li></ul> |
-|  | Freiformtabelle | <ul><li>Anomalien zeigen </li><li>Sparklines zeigen</li><li>Anmerkungen anzeigen</li></ul> |
+|  | Freiformtabelle | <ul><li>Anomalien anzeigen </li><li>Sparklines anzeigen</li><li>Anmerkungen anzeigen</li></ul> |
 
 ## [!UICONTROL Dunkles Design]
 

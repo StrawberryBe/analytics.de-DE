@@ -6,7 +6,7 @@ exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -34,7 +34,7 @@ Bei Verwendung von Ereignis-IDs erfolgt eine Deduplizierung auf folgenden Ebenen
 
 ## Ereignis-IDs mit dem Web SDK verwenden
 
-Ereignis-Serialisierung ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter dem gewünschten Ereignis-XDM-Feld `id`. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
+Ereignis-Serialisierung ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem gewünschten Ereignis-XDM-Feld `id`. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
 
 Wenn Sie beispielsweise die Metrik &quot;Zusatz zum Warenkorb&quot;serialisieren möchten, legen Sie die `commerce.productListAdds.id` XDM-Feld zum gewünschten Serialisierungswert hinzu. Wenn Sie das benutzerdefinierte Ereignis 20 serialisieren möchten, legen Sie die `_experience.analytics.event1to100.event20` XDM-Feld zum gewünschten Serialisierungswert hinzu.
 

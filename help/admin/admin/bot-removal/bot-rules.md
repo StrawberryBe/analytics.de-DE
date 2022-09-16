@@ -4,9 +4,9 @@ title: Übersicht über Bot-Regeln
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Das Feld **[!UICONTROL enthält]** ist auf 100 Zeichen begrenzt. Die „enthält
 
 ### IP-Adresse (inklusive Wildcard-Übereinstimmungen)
 
-Weist eine oder mehrere IP-Adressen im selben Block mithilfe von Wildcards (*) zu. Geben Sie die numerischen Werte der IP-Adresse an, für die Sie eine Übereinstimmung suchen. Ersetzen Sie die Werte, für die Sie eine Wildcard-Übereinstimmung suchen, durch ein Sternchen (*). Die folgende Liste enthält Beispiele der IP-Adressen-Übereinstimmungszeichenfolge:
+Sucht anhand von Platzhaltern (&#42;). Geben Sie die numerischen Werte der IP-Adresse an, für die Sie eine Übereinstimmung suchen. Substitute &#42; für alle Werte, die Sie mit einem Platzhalter abgleichen möchten. Die folgende Liste enthält Beispiele der IP-Adressen-Übereinstimmungszeichenfolge:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Weist eine oder mehrere IP-Adressen im selben Block mithilfe von Wildcards (*) z
 
 ### IP-Adressbereich
 
-Geben Sie die Start- und Endbereiche der zuzuweisenden IP-Adressen an. Ersetzen Sie die Werte, für die Sie eine Wildcard-Übereinstimmung suchen, durch ein Sternchen (*).
+Geben Sie die Start- und Endbereiche der zuzuweisenden IP-Adressen an. Substitute &#42; für alle Werte, die Sie mit einem Platzhalter abgleichen möchten.
 
 ### Definieren einer benutzerdefinierten Bot-Regel
 
@@ -137,4 +137,4 @@ Die IAB-Bot-Liste basiert lediglich auf dem Benutzeragenten, so dass das Filtern
 
 Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP verschleiert wird. Kunden müssen also keine Änderungen vornehmen, wenn sie die IP-Verschleierung aktivieren.
 
-Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten angepasst werden, um IP-Adressen mit einer Null am Ende zu berücksichtigen. Übereinstimmung * sollte mit 0 übereinstimmen.
+Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten angepasst werden, um IP-Adressen mit einer Null am Ende zu berücksichtigen. Übereinstimmung &#42; sollte mit 0 übereinstimmen.

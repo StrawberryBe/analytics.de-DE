@@ -3,12 +3,12 @@ description: Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigebe
 subtopic: Dashboards
 title: Dashboard-Manager
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Grundlagen zu Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archiviere
 >
 >Als Best Practice für den Dashboard-Manager wird empfohlen, für einen Benutzer nicht mehr als 300 Dashboards zu verwenden. Beachten Sie auch, dass der Manager alle unten aufgeführten freigegebenen Dashboards lädt. Achten Sie daher auf eine sinnvolle Freigabe von Dashboards.
 
-Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]**.
+Klicken **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]**.
 
 | Element | Beschreibung |
 |--- |--- |
@@ -35,7 +35,7 @@ Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!
 
 Schritte, in denen beschrieben wird, wie Sie die Verwaltungsoptionen für freigegebene Dashboards verwenden.
 
-1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]**.
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]**.
 1. Suchen Sie unter [!UICONTROL „Freigegebene Dashboards“] das freigegebene Dashboard (oder Legacy-Dashboard), das Sie verwalten möchten, und wählen Sie eine oder mehrere der folgenden Optionen:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '354'
 ht-degree: 72%
 
 ---
@@ -29,13 +29,13 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 Wenn Sie überprüfen möchten, welches Element am häufigsten im Livemodus angeklickt wird:
 
-1. Wählen Sie den Zeitraum in der Trendlinie **[!UICONTROL Livemodus]** der Symbolleiste aus, die Sie analysieren möchten.
+1. Wählen Sie den Zeitraum auf der Symbolleiste aus. **[!UICONTROL Livemodus]** Trendlinie, die Sie analysieren möchten.
 1. Klicken Sie in der Symbolleiste auf das Symbol &quot;Auge&quot;, um auf die Tabelle &quot;Link-Bericht&quot;zuzugreifen.
 1. Sortieren Sie die Tabelle nach dem Link.
 
 ## Datenlatenz als Folge der A4T-Konfiguration
 
-Nachdem die [A4T-Integration](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) in Adobe Target aktiviert wurde, kommt es in Adobe Analytics zu einer zusätzlichen Latenz von 5 bis 10 Minuten. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
+Nach dem [A4T-Integration](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) in Adobe Target aktiviert ist, kommt es in Adobe Analytics zu einer zusätzlichen Latenz von 5 bis 10 Minuten. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
 Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analytics wider, einschließlich Live-Stream und Echtzeit-Berichterstattung, und gilt für folgende Szenarien:
 
@@ -44,4 +44,4 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 
 Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
 
-Weitere Infos [hier](/help/analyze/activity-map/activitymap-standard-live.md).
+Weitere Infos [here](/help/analyze/activity-map/activitymap-standard-live.md).

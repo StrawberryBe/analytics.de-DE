@@ -6,7 +6,7 @@ exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking
 
 * Linkname wird zugeordnet zu `web.webInteraction.name`.
 * Link-URL wird zugeordnet zu `web.webInteraction.URL`.
-* Link-Typ wird zugeordnet `web.webInteraction.type`. Gültige Werte sind `other` (Benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks).
+* Link-Typ wird zugeordnet `web.webInteraction.type`. Gültige Werte sind `other` (benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks).
 
 ```js
 alloy("sendEvent", {

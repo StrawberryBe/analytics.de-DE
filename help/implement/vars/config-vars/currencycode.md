@@ -6,7 +6,7 @@ exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass
 
 ## Währungscode mit dem Web SDK
 
-Währungscode ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) unter dem XDM-Feld `commerce.order.currencyCode`.
+Währungscode ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `commerce.order.currencyCode`.
 
 ## Währungscode mit der Adobe Analytics-Erweiterung
 

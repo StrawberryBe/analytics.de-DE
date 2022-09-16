@@ -4,7 +4,7 @@ description: Ermöglicht die Erstellung neuer Werbekonten und die Zuordnung mehr
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlin
 
    | Einstellung | Beschreibung |
    | --- | --- |
-   | Report Suite Zuordnen | Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. |
+   | Report-Suite-Zuordnung | Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. |
 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

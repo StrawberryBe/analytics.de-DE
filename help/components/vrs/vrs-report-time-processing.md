@@ -65,7 +65,7 @@ Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung n
 * **Ursprüngliche Referrer-Domäne**
 * **Rückkehrhäufigkeit**
 * **Einzelzugriff**
-* **Transaktions-ID-Datenquellen**
+* **Transaktions-ID-Data Sources**
 * **Besuchnummer**
 
 ## Betroffene Dimensionen und Metriken

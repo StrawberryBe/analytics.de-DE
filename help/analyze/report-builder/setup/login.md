@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 49%
+source-wordcount: '209'
+ht-degree: 48%
 
 ---
 
@@ -38,7 +38,7 @@ So melden Sie sich bei Report Builder an
 1. Klicken Sie auf **[!UICONTROL Anmelden]**. Durch die folgenden Aktionen wird der Anmeldevorgang ebenfalls gestartet:
 
    * Klicken Sie auf **[!UICONTROL Erstellen]**.
-   * [Wählen Sie eine Anforderung im Anforderungs-Manager](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) aus und klicken Sie dann auf  **** Hinzufügen oder  **[!UICONTROL Verwalten]**.
+   * [Auswählen einer Anforderung im Anforderungs-Manager](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)Klicken Sie auf **[!UICONTROL Hinzufügen]** oder **[!UICONTROL Verwalten]**.
    * Doppelklicken Sie auf eine Anforderung in Excel.
 
 1. Füllen Sie diese Felder auf der [!UICONTROL Anmeldeseite] aus und klicken Sie auf **[!UICONTROL OK]**.

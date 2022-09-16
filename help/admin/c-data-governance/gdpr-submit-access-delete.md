@@ -4,7 +4,7 @@ title: Zugriffs- und Löschanfragen einreichen
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 100%
 

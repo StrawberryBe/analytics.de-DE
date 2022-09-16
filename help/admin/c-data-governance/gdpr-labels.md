@@ -4,7 +4,7 @@ title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3913'
 ht-degree: 100%
 
@@ -323,7 +323,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Classifications </p> </td> 
+   <td colname="col2"> <p>Klassifizierungen </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/S1/S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -441,7 +441,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
    <td colname="col2"> <p> Gibt den Namen der Analytics Report Suite an, die die Daten enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
+   <td colname="col1"> <p>Besucher-ID </p> <p>MCID/ECID </p> </td> 
    <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Zahlen der Unique Visitors im Verlaufsbericht. </p> </td> 
   </tr> 
   <tr> 

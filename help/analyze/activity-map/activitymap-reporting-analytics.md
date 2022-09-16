@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 92%
 
 ---
@@ -21,7 +21,7 @@ Beschreibt, wie Berechtigungen festgelegt werden und welche Abmessungen in Analy
 Bevor Anwender Berichte zu Activity Map-Abmessungen erstellen können, müssen Sie als der Administrator
 
 * [Der Activity Map Access Group Anwender hinzufügen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Report Suites hinzufügen, die auf diese Gruppe zugreifen können sollen. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Activity Map-Zugriff]** > **[!UICONTROL Bearbeiten]**.
+* Report Suites hinzufügen, die auf diese Gruppe zugreifen können sollen. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Activity Map-Zugriff]** > **[!UICONTROL Bearbeiten]**.
 * Den Anwenderzugriff auf Abmessungen anpassen. Weitere Informationen dazu finden Sie im unten stehenden Abschnitt.
 
 ## Analytics Activity Map-Abmessungen {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}

@@ -4,7 +4,7 @@ title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
 
