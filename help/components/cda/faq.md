@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
 source-wordcount: '1927'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die geräteübergreifende Zuordnung der Cross-Device-Analyse erfolgt in zwei gle
 
 * Der zweite Prozess ist die sogenannte „Wiederholung“. Während der Wiederholung geht die Cross-Device-Analyse in der Zeit zurück und ordnet soweit möglich historische Daten innerhalb eines bestimmten Rückblickfensters neu zu. Dieses Rückblickfenster dauert je nach Konfiguration der Cross-Device-Analyse entweder 1 Tag oder 7 Tage. Während der Wiederholung versucht die Cross-Device-Analyse, Treffer neu darzustellen, bei denen die Person vorher unbekannt war.
 
-* **Verwenden eines Gerätediagramms**, behält Adobe Gerätediagramme für ca. 6 Monate bei. Eine ECID, die länger als sechs Monate keine Aktivität aufweist, wird aus dem Diagramm entfernt. Bereits in der geräteübergreifenden Analyse zugeordnete Daten sind nicht betroffen. nachfolgende Treffer für diese ECID als neue Person behandelt werden.
+* **Bei Verwendung eines Gerätediagramms** speichert Adobe die Gerätediagramm-Zuordnungen für etwa 6 Monate. Eine ECID, die länger als sechs Monate keine Aktivität aufweist, wird aus dem Diagramm entfernt. Bereits in CDA zugeordnete Daten sind davon nicht betroffen, aber nachfolgende Treffer für diese ECID werden als neue Person behandelt.
 
 ## Wie behandelt die geräteübergreifende Analyse Treffer mit Zeitstempel?
 
