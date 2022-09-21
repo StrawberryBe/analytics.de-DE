@@ -4,18 +4,14 @@ title: Visualisierung von Combo-Diagrammen
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
+source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 34%
+source-wordcount: '756'
+ht-degree: 33%
 
 ---
 
 # Kombinationsdiagramm
-
->[!NOTE]
->
->Diese Funktion wird derzeit [eingeschränkt getestet](/help/release-notes/releases.md).
 
 Die [!UICONTROL Combo-Diagramm] Visualisierung erleichtert das schnelle Erstellen einer Vergleichsvisualisierung, ohne dass zunächst eine Tabelle erstellt werden muss. Sie können Trends in Ihren Daten einfach in einer Zeilen-/Balkenkombination anzeigen.
 
