@@ -3,10 +3,10 @@ title: Aktualisierung der SFTP-Services – Häufig gestellte Fragen
 description: Häufig gestellte Fragen zum geplanten Upgrade der SFTP-Dienste.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: d16d97673c33203afa60599da733425b04f84660
+source-git-commit: 70ede981a0f6f7aebbbdf4dbcbf9e5187a3df495
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 89%
+source-wordcount: '449'
+ht-degree: 87%
 
 ---
 
@@ -25,6 +25,8 @@ Die Verbindungsoptionen, die entfernt werden, werden im Allgemeinen als veraltet
 Die folgenden Funktionen bieten eine Option zum Hochladen von Daten in Adobe Analytics mithilfe von SFTP.
 
 * [Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=de)
+
+* [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=en)
 
 * [Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=de)
 
