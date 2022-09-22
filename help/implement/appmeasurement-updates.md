@@ -3,10 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
 workflow-type: tm+mt
-source-wordcount: '2267'
-ht-degree: 100%
+source-wordcount: '2325'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,13 @@ Gesammelte Versionshinweise für [!DNL AppMeasurement] für JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin/admin/code-manager-admin.md) herunterladen.
+
+## Version 2.23.0
+
+Releasedatum: **TBD**
+
+* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Clienthinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder das Flag &quot;collectHighEntropyUserAgentHints&quot;verwenden. Die Sammlung von Hinweisen mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-Client-Hinweisen finden Sie hier . [Link zum Folgen].
+
 
 ## Version 2.22.4
 
