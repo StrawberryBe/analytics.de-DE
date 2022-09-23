@@ -4,10 +4,10 @@ description: Wichtige Aktualisierungen in der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
-source-wordcount: '3331'
-ht-degree: 98%
+source-wordcount: '3467'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,14 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Datum | Beschreibung |
 | --- | --- |
 | **September 2022** |  |
+| Kombodiagramme | Neues Thema zum [Kombinationsdiagramme](/help/analyze/analysis-workspace/visualizations/combo-charts.md) Visualisierung. |
+| Aktualisiertes Plug-in | Aktualisierte Version der [getvalonce](/help/implement/vars/plugins/getvalonce.md) Implementierungs-Plug-in. |
+| Neue Konfigurationsvariable | Dokumentation zu [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
+| Clienthinweise mit hoher Entropie | Neues Thema zur Verwendung von Adobe [Clienthinweise](/help/technotes/client-hints.md) zusätzlich zu User-Agent , um Geräteinformationen zu ermitteln. |
 | Verarbeitungsreihenfolge | Verschiedene Hilfeseiten wurden aggregiert, um ein einzelnes Hilfethema zu [Verarbeitungsreihenfolge](/help/technotes/processing-order.md). |
+| **August 2022** |  |
+| Unterstützung für Listenvariablen in XDM für Edge-Erfassung | Ermöglicht es Kunden, die Daten über Experience Edge/Web SDK zu erfassen, um unter Verwendung von XDM den Inhalt der Listenvariablen festzulegen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=de#list-variables-using-the-web-sdk) | 18. August 2022 |
+| Verwendung des SKU-Feldes in XDM für Edge-Erfassung beim Festlegen von Produktzeichenfolge-Variablen | Ermöglicht es Kunden, die Daten über Experience Edge/Web SDK erfassen, das Produktfeld in der Produktvariablen unter Verwendung des SKU-Werts zu festzulegen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=de#produkte-mit-dem-web-sdk) |
 | **Juni 2022** |  |
 | Unterstützung für Merchandising-Variablen in XDM für Edge-Erfassung | Dokumentation über [Unterstützung für Merchandising-Variablen in XDM für Edge-Erfassung](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge-Dokumentation | Neue Artikel zur Implementierung von Adobe Analytics über das [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), das [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) und die [Edge-API](/help/implement/aep-edge/edge-api/overview.md). |
@@ -37,7 +44,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Neues Thema zum Bedienfeld [!UICONTROL Seitenzusammenfassung] | [Bedienfeld „Seitenzusammenfassung“](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Neues Thema zum Bedienfeld [!UICONTROL Nächstes/Vorheriges Element] | [Bedienfeld „Nächstes/vorheriges Dimensionselement“](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **März 2022** |  |
-| Neues Kapitel zu unterstützten HTTPS-Verschlüsselungsalgorithmen | [Unterstützung von HTTPS-Verschlüsselungsalgorithmen](/help/technotes/rdc/encryption-algos.md) für Kunden, bei denen die Chiffrier-Sicherheitsstufe auf „Hoch“ eingestellt ist. |
+| Neues Kapitel zu unterstützten HTTPS-Verschlüsselungsalgorithmen | [Unterstützte HTTPS-Verschlüsselungsalgorithmen](/help/technotes/rdc/encryption-algos.md) für Kunden, deren cipher-Sicherheitsstufe auf &quot;Hoch&quot;eingestellt ist. |
 | Neue Dokumentation zu Anmerkungen in Analysis Workspace | [Anmerkungen in Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) ermöglichen es Ihnen, kontextbezogene Informationen und Einblicke zu Daten effektiv an Ihr Unternehmen weiterzugeben. |
 | Aktualisierungen der Landingpage von Adobe Analytics | [Aktualisierungen](/help/analyze/landing.md) der gemeinsamen Landingpage für Analysis Workspace/Reports &amp; Analytics, wodurch die Benutzerfreundlichkeit verbessert und die Navigation vereinfacht werden. |
 | Analysis Workspace-Bedienfeld [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] | In diesem Bedienfeld können Sie Elemente untersuchen, die einem von Ihnen ausgewählten Dimensionselement folgen oder vorausgehen. |
@@ -65,7 +72,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 15. Juni 2021 | [Best Practices für Marketing-Kanäle](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=de) wurde aktualisiert |
 | 3. Juni 2021 | Die Dokumentation wurde mit genaueren Erläuterungen zur [Implementierung von Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=de) [hier](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=de#BucketOwnerFullControl) aktualisiert. |
 | 25. Mai 2021 | Die Dokumentation zu [Groß-/Kleinschreibung bei eVars in Berichten](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) wurde aktualisiert. |
-| 13. Mai 2021 | Aktualisierungen für [Data Warehouse-API-Anfragen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Sie unterstützen jetzt „Stunden“. |
+| 13. Mai 2021 | Aktualisierungen für [Data Warehouse-API-Anfragen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Sie unterstützen jetzt &quot;Stunden&quot;. |
 | **März 2021** |  |
 | März, April 2021 | Aktualisierungen des [Handbuchs für ausführende Benutzer](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=de) und des [Handbuchs für Kuratoren](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=de) zu Adobe Analytics-Dashboards |
 | 25. März 2021 | Neue Dokumentation auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen]. Damit können Sie die [!UICONTROL Analysis Workspace]-Einstellungen und die zugehörigen Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Arbeitsbereich-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Arbeitsbereich-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
@@ -107,9 +114,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Algorithmische Zuordnung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
 | 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Benutzerdefinierte Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
 | 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. |
-| 18. Juni 2020 | Neue Dokumentation zu [Arbeitsbereich-Projekten, die nur angezeigt werden können](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de). Freigegebene Projekte können von Benutzern nur angesehen werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten, keine linke Leiste und verfügt nur über beschränkte Interaktionen. |
+| 18. Juni 2020 | Neue Dokumentation zu [Arbeitsbereich-Projekten, die nur angezeigt werden können](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de). Projekte können Benutzern nur als &quot;Kann anzeigen&quot;freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten, keine linke Leiste und verfügt nur über beschränkte Interaktionen. |
 | 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. |
-| 18. Juni 2020 | Neue Dokumentation zum [Co-Editing von Arbeitsbereich-Projekten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. |
+| 18. Juni 2020 | Neue Dokumentation zum [Co-Editing von Arbeitsbereich-Projekten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Empfänger, die der Rolle &quot;Kann bearbeiten&quot;hinzugefügt wurden, können ein für sie freigegebenes Projekt überschreiben. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. |
 | **Mai 2020** |  |
 | 31. Mai 2020 | Neue Dokumentation zur [Bulk Data Insertion-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 21. Mai 2020 | Neue Dokumentation für [Adobe Analytics-Dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=de) |
@@ -148,7 +155,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 21. November 2019 | Die [FAQ zum Audience Analytics-Workflow](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=de) wurden aktualisiert, um auf die Verfügbarkeit in LiveStream hinzuweisen. |
 | 25. Oktober 2019 | Die Seite [Adobe Analytics – Schlüsselkonzepte](/help/technotes/terms.md) wurde aktualisiert. |
 | 10. Oktober 2019 | Aktualisierung der Gesamtwerte einer Freiformtabelle: Sie enthalten nun zwei Summen, und zwar eine **[!UICONTROL Tabellensumme]** und einen **[!UICONTROL Gesamtwert]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=de) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=de)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
-| 10. Oktober 2019 | In Arbeitsbereich wurde eine Option zum einfachen Entfernen von „Nicht angegeben (keine)“ zu den Berichtsfiltern hinzugefügt. |
+| 10. Oktober 2019 | In Workspace wurde die Möglichkeit hinzugefügt, &quot;Nicht angegeben (keine)&quot;einfach zu entfernen, um Filter zu melden. |
 | 10. Oktober 2019 | In Arbeitsbereich werden lilafarbene Granularitätskomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) nicht mehr unterstützt. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]** in **[!UICONTROL Datumsbereiche]** umbenannt. |
 | 1. Oktober 2019 | Neuer Artikel zu [Arbeitsbereich-Gesamtwerten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=de#cja-workspace). |
 | 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](/help/implement/vars/config-vars/configuration-variables.md). |

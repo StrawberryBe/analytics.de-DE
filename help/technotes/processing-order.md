@@ -1,9 +1,9 @@
 ---
 title: Verarbeitungsreihenfolge für Daten in Adobe Analytics
 description: Erfahren Sie die Reihenfolge der Komponenten und Dienste, die Daten in Adobe Analytics verarbeiten.
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+source-git-commit: 0881efeb2ce4f7af96f42bc925e43ce5ba1f64a2
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Bevor Daten an Adobe gesendet werden, werden sie normalerweise clientseitig mit 
 
 * **AppMeasurement**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden direkt an Adobe Analytics gesendet.
 * **Adobe Experience Platform Web SDK**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden an Adobe Experience Edge gesendet.
-* **Tags in der Adobe Experience Cloud-Datenerfassung**: Eine auf jeder Seite referenzierte JavaScript-Datei mit Regeln, die in der Datenerfassungs-Benutzeroberfläche erstellt wurden. Die Adobe Analytics-Erweiterung bietet und erleichtert die Implementierung von AppMeasurement. Die Web SDK-Erweiterung bietet eine einfachere Möglichkeit, das Web SDK zu implementieren.
+* **Tags in der Adobe Experience Cloud-Datenerfassung**: Eine auf jeder Seite referenzierte JavaScript-Datei mit Regeln, die in der Datenerfassungs-Benutzeroberfläche erstellt wurden. Die Adobe Analytics-Erweiterung bietet eine einfachere Möglichkeit, AppMeasurement zu implementieren. Die Web SDK-Erweiterung bietet eine einfachere Möglichkeit, das Web SDK zu implementieren.
 
 Wenn Sie Daten an Adobe Experience Edge senden, können Sie diese so konfigurieren, dass Daten an Adobe Analytics (sowie an viele andere Adobe Experience Cloud-Lösungen) weitergeleitet werden. Unabhängig von der Implementierungsmethode wird letztendlich eine Bildanforderung mit den gewünschten Variablen an die Datenerfassungsserver von Adobe gesendet.
 
