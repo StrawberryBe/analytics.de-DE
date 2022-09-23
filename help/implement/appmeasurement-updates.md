@@ -3,9 +3,9 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 4a1d151df7cd23ebc6cf8e7c317cdf5196056bca
+source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2321'
 ht-degree: 97%
 
 ---
@@ -22,7 +22,7 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 Releasedatum: **23. September 2022**
 
-* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Clienthinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder das Flag &quot;collectHighEntropyUserAgentHints&quot;verwenden. Die Sammlung von Hinweisen mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-Client-Hinweisen finden Sie hier . [Link zum Folgen].
+* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Clienthinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder das Flag &quot;collectHighEntropyUserAgentHints&quot;verwenden. Die Sammlung von Hinweisen mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu User-Agent [Clienthinweise](/help/technotes/client-hints.md).
 
 
 ## Version 2.22.4

@@ -1,7 +1,7 @@
 ---
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den User-Agent als Quelle der Geräteinformationen ersetzen.
-source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
+source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -15,9 +15,9 @@ Client-Hinweise sind einzelne Informationen zum Gerät eines Benutzers. Sie werd
 
 Google unterteilt Benutzeragenten-Client-Hinweise in zwei Kategorien: Tiefentropie und hochentropische Hinweise.
 
-* Tipps zur geringen Entropie enthalten generischere Informationen über Geräte. Diese Hinweise werden automatisch von Chromium-Browsern bereitgestellt.
+* **Hinweise zur niedrigen Entropie** enthalten generischere Informationen über Geräte. Diese Hinweise werden automatisch von Chromium-Browsern bereitgestellt.
 
-* High-Entropy-Hinweise enthalten detailliertere Informationen. Diese Hinweise sind nur auf Anfrage verfügbar. Sowohl AppMeasurement als auch Web SDK können so konfiguriert werden, dass Hinweise mit hoher Entropie angefordert werden. Standardmäßig tun beide Bibliotheken dies **not** fordern Sie Hinweise mit hoher Entropie an.
+* **Hochentropie** Hinweise enthalten detailliertere Informationen. Diese Hinweise sind nur auf Anfrage verfügbar. Sowohl AppMeasurement als auch Web SDK können so konfiguriert werden, dass Hinweise mit hoher Entropie angefordert werden. Standardmäßig tun beide Bibliotheken dies **not** fordern Sie Hinweise mit hoher Entropie an.
 
 >[!NOTE]
 >
