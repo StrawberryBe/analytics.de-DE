@@ -2,10 +2,10 @@
 title: Auftrags-Manager für Klassifizierungssätze
 description: Zeigen Sie aktuelle und abgeschlossene Klassifizierungsaufträge an, die aus Klassifizierungssätzen generiert wurden.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+source-git-commit: cc01d492dbbf99fc6a2736c4c50d889933d6f4ff
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ Mit dem Auftrags-Manager für Klassifizierungssätze können Sie aktuelle und ab
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihre*n Account Manager, der*die Ihre Anfrage zur Bereitstellung an das Classifications-Team weiterleitet.
+>Diese Funktion steht allen Kunden zur Verfügung, deren Report Suites in die neue Klassifizierungsarchitektur migriert wurden. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Kundenbetreuer.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Aufträge]**
 
