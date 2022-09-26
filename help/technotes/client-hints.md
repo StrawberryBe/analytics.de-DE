@@ -1,9 +1,9 @@
 ---
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den User-Agent als Quelle der Geräteinformationen ersetzen.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -86,9 +86,15 @@ Client-Hinweise gelten nur für Chrome-Browser wie Google Chrome und Microsoft E
 
 +++
 
++++* Werden Client-Hinweise über unsichere Verbindungen unterstützt?
+
+Nein. Client-Hinweise können nur über eine sichere HTTP-Verbindung wie HTTPS erfasst werden.
+
++++
+
 +++**Sind Client-Hinweise in Daten verfügbar, die über den Adobe Source Connector an AEP und CJA gesendet werden?**
 
-Wir planen, im ersten Halbjahr 2023 über Adobe Source Connector Kundenhinweise in Daten aufzunehmen.
+Adobe plant, im ersten Halbjahr 2023 Client-Hinweise in Daten über Adobe Source Connector aufzunehmen.
 
 +++
 
