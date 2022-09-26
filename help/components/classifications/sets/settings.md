@@ -2,10 +2,10 @@
 title: Einstellungen für Classification Set
 description: Erstellen oder bearbeiten Sie ein Classification Set.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+source-git-commit: fa0de6241d56e10144b7eefeb72e9d6ed25a9773
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ Konfigurieren Sie ein Classification Set, laden Sie Daten hoch oder herunter.
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Wenn Sie Zugriff auf diese Funktion wünschen, wenden Sie sich an die Kundenunterstützung von Adobe oder Ihre*n Account Manager, der*die Ihre Anfrage zur Bereitstellung an das Classifications-Team weiterleitet.
+>Diese Funktion steht allen Kunden zur Verfügung, deren Report Suites in die neue Klassifizierungsarchitektur migriert wurden. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Kundenbetreuer.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]** > Klicken Sie auf den Namen des gewünschten Klassifizierungssatzes
 
