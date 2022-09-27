@@ -1,49 +1,49 @@
 ---
 title: Verarbeitungsreihenfolge für Daten in Adobe Analytics
-description: Erfahren Sie die Reihenfolge der Komponenten und Dienste, die Daten in Adobe Analytics verarbeiten.
+description: Erfahren Sie mehr zur Reihenfolge der Komponenten und Services, die Daten in Adobe Analytics verarbeiten.
 source-git-commit: 0881efeb2ce4f7af96f42bc925e43ce5ba1f64a2
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
 # Verarbeitungsreihenfolge für Daten in Adobe Analytics
 
-Adobe bietet viele Möglichkeiten, Daten zu ändern oder zu ändern, bevor sie in Berichten angezeigt werden. Auf dieser Seite wird die Reihenfolge angezeigt, in der verschiedene Adobe Analytics-Funktionen Daten verarbeiten. Sie können diese Liste verwenden, um Dateninkonsistenzen zu beheben oder die beste Funktion zu bestimmen, die bei Datenanpassungen verwendet werden sollte.
+Adobe bietet viele Möglichkeiten, Daten zu verändern oder zu bearbeiten, bevor sie in Berichten angezeigt werden. Auf dieser Seite wird die Reihenfolge angezeigt, in der verschiedene Adobe Analytics-Funktionen Daten verarbeiten. Sie können diese Liste verwenden, um Dateninkonsistenzen zu beheben oder die beste Funktion zu bestimmen, die bei notwendigen Datenanpassungen verwendet werden sollte.
 
 ![Verarbeitungsreihenfolge](assets/processing-order.png)
 
-## Daten, bevor sie an Adobe gesendet werden
+## Daten vor ihrem Senden an Adobe
 
-Bevor Daten an Adobe gesendet werden, werden sie normalerweise clientseitig mit einer der folgenden Methoden kompiliert:
+Bevor Daten an Adobe gesendet werden, werden sie normalerweise Client-seitig mit einer der folgenden Methoden kompiliert:
 
 * **AppMeasurement**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden direkt an Adobe Analytics gesendet.
 * **Adobe Experience Platform Web SDK**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden an Adobe Experience Edge gesendet.
 * **Tags in der Adobe Experience Cloud-Datenerfassung**: Eine auf jeder Seite referenzierte JavaScript-Datei mit Regeln, die in der Datenerfassungs-Benutzeroberfläche erstellt wurden. Die Adobe Analytics-Erweiterung bietet eine einfachere Möglichkeit, AppMeasurement zu implementieren. Die Web SDK-Erweiterung bietet eine einfachere Möglichkeit, das Web SDK zu implementieren.
 
-Wenn Sie Daten an Adobe Experience Edge senden, können Sie diese so konfigurieren, dass Daten an Adobe Analytics (sowie an viele andere Adobe Experience Cloud-Lösungen) weitergeleitet werden. Unabhängig von der Implementierungsmethode wird letztendlich eine Bildanforderung mit den gewünschten Variablen an die Datenerfassungsserver von Adobe gesendet.
+Wenn Sie Daten an Adobe Experience Edge senden, können Sie diese so konfigurieren, dass Daten an Adobe Analytics (sowie an viele andere Adobe Experience Cloud-Lösungen) weitergeleitet werden. Unabhängig von der Implementierungsmethode wird letztendlich eine Bildanforderung mit den gewünschten Variablen an die Datenerfassungs-Server von Adobe gesendet.
 
-## Daten beim Eingang zu den Adobe Analytics-Datenerfassungsservern
+## Daten beim Empfang bei den Adobe Analytics-Datenerfassungs-Servern
 
 Sobald Daten in Adobe Analytics eingehen, passen die folgenden Funktionen die Daten nach Bedarf an:
 
-1. **Suchtabellen**: Dimensionen, die auf Adobe-internen Suchtabellen basieren (z. B. die [Browser](/help/components/dimensions/browser.md) Dimension) mit dem entsprechenden Wert übereinstimmen.
-2. [**Dynamische Variablen**](/help/implement/vars/page-vars/dynamic-variables.md): Wenn eine dynamische Variable in einem beliebigen Teil einer Bildanforderung angezeigt wird, wird der Wert kopiert und als unabhängiger Wert behandelt, der sich in Zukunft entwickelt.
-3. [**Bot-Regeln**](/help/admin/admin/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus der Berichterstellung auszuschließen.
+1. **Suchtabellen**: Dimensionen, die auf Adobe-internen Suchtabellen basieren (z. B. die Dimension [Browser](/help/components/dimensions/browser.md)) werden dem entsprechenden Wert zugeordnet.
+2. [**Dynamische Variablen**](/help/implement/vars/page-vars/dynamic-variables.md): Wenn eine dynamische Variable in einem beliebigen Teil einer Bildanforderung angezeigt wird, wird der Wert kopiert und ab dann als unabhängiger Wert gehandhabt.
+3. [**Bot-Regeln**](/help/admin/admin/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus dem Reporting auszuschließen.
 4. [**Verarbeitungsregeln**](/help/admin/admin/c-processing-rules/processing-rules.md): Benutzerdefinierte Regeln, die von Ihrer Organisation auf Ihre Daten angewendet werden. Umfasst die Zuordnung von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) auf die entsprechende Variable.
-5. **VISTA-Regeln**: Benutzerdefinierte flexible Regeln, die von einem Adobe-Berater auf Ihre Daten angewendet werden. VISTA-Regeln können je nach den Anforderungen Ihres Unternehmens vor oder nach Verarbeitungsregeln ausgeführt werden. Die meisten VISTA-Regeln werden im Allgemeinen nach Verarbeitungsregeln ausgeführt, aber jede Organisation ist anders eingerichtet. Wenden Sie sich an Ihren Adobe Account Manager, um weitere Informationen zu bestehenden VISTA-Regeln zu erhalten.
-6. [**Marketingkanal-Verarbeitungsregeln**](/help/components/c-marketing-channels/c-rules.md): Sie können [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md) , um Daten für die Verwendung in Marketingkanal-Verarbeitungsregeln vorzubereiten.
-7. **Geolocation-Daten**: Dimensionen, die auf der Suche nach IP-Adressen basieren (z. B. die [Länder](/help/components/dimensions/countries.md) -Dimension) gefüllt werden.
-8. [**IP-Verschleierung**](/help/admin/admin/general-acct-settings-admin.md): Wenn sich Ihr Unternehmen dafür entschieden hat, IP-Adressen in Rohdaten zu verschleiern, erfolgt dies nach Abschluss aller anderen Verarbeitungsfunktionen.
+5. **VISTA-Regeln**: Benutzerdefinierte flexible Regeln, die von einer Person des Adobe-Berater-Teams auf Ihre Daten angewendet werden. VISTA-Regeln können je nach den Anforderungen Ihres Unternehmens vor oder nach den Verarbeitungsregeln ausgeführt werden. VISTA-Regeln werden meist nach den Verarbeitungsregeln ausgeführt, aber jede Organisation ist anders eingerichtet. Wenden Sie sich an Ihren Adobe Account Manager, um weitere Informationen zu bestehenden VISTA-Regeln zu erhalten.
+6. [**Marketing-Kanal-Verarbeitungsregeln**](/help/components/c-marketing-channels/c-rules.md): Sie können [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md) verwenden, um Daten für die Verwendung in Marketing-Kanal-Verarbeitungsregeln vorzubereiten.
+7. **Geolokalisierungsdaten**: Dimensionen, die auf der Suche nach IP-Adressen basieren (z. B. die Dimension [Land](/help/components/dimensions/countries.md)), werden befüllt.
+8. [**IP-Verschleierung**](/help/admin/admin/general-acct-settings-admin.md): Wenn sich Ihr Unternehmen dafür entschieden hat, IP-Adressen in Rohdaten zu verschleiern, erfolgt dies, nachdem alle anderen Verarbeitungsfunktionen abgeschlossen sind.
 
-Zu diesem Zeitpunkt wird der einzelne Treffer in den Report Suite-Datentabellen aufgezeichnet. Nach dem Standard [Latenz](latency.md) -Intervall, ist es in Berichten verfügbar.
+Zu diesem Zeitpunkt wird der einzelne Treffer in den Report Suite-Datentabellen aufgezeichnet. Nach der standardmäßigen [Latenzzeit](latency.md) ist er in Berichten verfügbar.
 
-## Daten nach der Verarbeitung ändern
+## Ändern von Daten nach ihrer Verarbeitung
 
-Die Daten in Adobe Analytics sind größtenteils dauerhaft. Es gibt jedoch einige Funktionen, die eine selektive Datenanpassung oder -löschung ermöglichen:
+Die Daten in Adobe Analytics sind größtenteils unveränderlich. Es gibt jedoch einige Funktionen, die eine selektive Datenanpassung oder -löschung ermöglichen:
 
 * [**Datenreparatur-API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): Bearbeiten Sie bestimmte Spalten oder löschen Sie die gewünschten Datenzeilen.
-* [**Data Governance**](/help/admin/c-data-governance/an-gdpr-workflow.md): Mit Datenschutzanfragen können Sie Daten dauerhaft löschen.
-* [**Klassifizierungen**](/help/components/classifications/c-classifications.md): Erstellen Sie Dimensionen anhand von Regeln oder hochgeladenen Daten, die eine unterschiedliche Organisation der Daten ermöglichen. Die zugrunde liegenden Report Suite-Daten werden nicht geändert, sodass Sie Classification-Daten frei bearbeiten oder überschreiben können.
-* [**Virtual Report Suites**](/help/components/vrs/vrs-about.md): Erstellen Sie eine alternative Report Suite-Ansicht, die das Besuchstimeout ändern oder zulassen kann, dass [Geräteübergreifende Analyse](/help/components/cda/overview.md).
+* [**Data Governance**](/help/admin/c-data-governance/an-gdpr-workflow.md): Erfüllen Sie Datenschutzanfragen, um Daten dauerhaft zu löschen.
+* [**Klassifizierungen**](/help/components/classifications/c-classifications.md): Erstellen Sie Dimensionen anhand von Regeln oder hochgeladenen Daten, um eine unterschiedliche Organisation der Daten zu ermöglichen. Die zugrunde liegenden Report Suite-Daten werden nicht geändert, sodass Sie Klassifizierungsdaten frei bearbeiten oder überschreiben können.
+* [**Virtual Report Suites**](/help/components/vrs/vrs-about.md): Erstellen Sie eine alternative Report Suite-Ansicht, durch die die maximale Wartezeit bei einem Besuch geändert oder die [geräteübergreifende Analyse](/help/components/cda/overview.md) zugelassen werden kann.
