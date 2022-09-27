@@ -5,9 +5,9 @@ title: Verarbeitungsregeln – Tipps und Tricks
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,4 +65,4 @@ Wählen Sie die korrekte Übereinstimmungsbedingung, um die restriktivste Beding
 
 Wenn Sie eine VISTA-Regel zum Kopieren von Treffern in eine andere Report Suite konfiguriert haben, werden die Treffer über sämtliche in der anderen Report Suite definierten Verarbeitungsregeln versendet.
 
-Wenn Sie Verarbeitungsregeln für die ursprüngliche Report Suite definiert haben, können diese Regeln je nachdem, wie die VISTA-Regel von Engineering Services konfiguriert wurde, angewendet werden. Um dies herauszufinden, können Sie Ihren Implementierungsspezialisten fragen, ob die VISTA-Regel die „prä“- oder „post“-Werte in die zusätzliche Report Suite kopiert. Wenn der „prä“-Wert kopiert wird, werden die in der ursprünglichen Report Suite definierten Verarbeitungsregeln nicht angewandt. Wenn der „post“-Wert kopiert wird, werden Verarbeitungsregeln angewandt, bevor der Hit kopiert wird.
+Wenn Sie Verarbeitungsregeln nutzen, die für die ursprüngliche Report Suite definiert sind, hängt die Anwendung dieser Regeln von der Konfiguration der VISTA-Regel durch Engineering Services ab. Um dies herauszufinden, können Sie Ihren Implementierungsspezialisten fragen, ob die VISTA-Regel die „prä“- oder „post“-Werte in die zusätzliche Report Suite kopiert. Wenn der „prä“-Wert kopiert wird, werden die in der ursprünglichen Report Suite definierten Verarbeitungsregeln nicht angewandt. Wenn der „post“-Wert kopiert wird, werden Verarbeitungsregeln angewandt, bevor der Hit kopiert wird.
