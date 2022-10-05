@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
-user-guide-description: Verwalten Sie Ihre Daten mithilfe von Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Warnhinweisen, Marketing-Kanälen und Klassifizierungen und erfahren Sie mehr über die geräteübergreifende Analyse.
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+user-guide-description: Verwalten Sie Daten mithilfe von Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Marketing-Kanäle und Classifications. Erfahren Sie mehr über die geräteübergreifende Analyse.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 98%
+source-wordcount: '689'
+ht-degree: 96%
 
 ---
 
