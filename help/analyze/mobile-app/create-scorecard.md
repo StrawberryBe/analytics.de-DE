@@ -4,10 +4,10 @@ title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
+source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 100%
+source-wordcount: '1747'
+ht-degree: 74%
 
 ---
 
@@ -66,7 +66,7 @@ So implementieren Sie die Scorecard-Vorlage:
 
 Um einer Metrik eine verwandte Dimension hinzuzufügen, ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab.
 
-Sie können beispielsweise geeignete Dimensionen (wie **[!DNL Marketing Channel]** in diesem Beispiel) zur Metrik **[!UICONTROL Unique Visitors]** hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Aufschlüsselungen von Dimensionen werden im Abschnitt [!UICONTROL Drill Ins] (Aufschlüsselung) der kachelspezifischen **[!UICONTROL Eigenschaften]** angezeigt. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
+Sie können beispielsweise geeignete Dimensionen (wie **[!DNL Marketing Channel]** in diesem Beispiel) zur Metrik **[!UICONTROL Unique Visitors]** hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Aufschlüsselungen von Dimensionen werden unter der [!UICONTROL Bohrinseln] Bereich der Detailfolienspezifisch **[!UICONTROL Eigenschaften]**. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
 
 ![Dimensionen hinzufügen](assets/layer_dimensions.png)
 
@@ -154,13 +154,15 @@ Wenn Sie [!UICONTROL nicht angegebene] Dimensionselemente aus Ihren Daten entfer
 
 ## Kacheleigenschaften anzeigen und konfigurieren {#tiles}
 
-Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die mit dieser Kachel verbunden sind. In dieser Leiste können Sie einen neuen **[!UICONTROL Titel]** für die Kachel angeben. Anstatt die Kachel aus der linken Leiste zu ziehen und abzulegen können Sie sie auch konfigurieren, indem Sie Komponenten angeben.
+Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Eigenschaften an, die dieser Kachel und der zugehörigen Detailfolie zugeordnet sind. In dieser Leiste können Sie eine neue **Titel** für die Kachel und konfigurieren Sie alternativ die Kachel, indem Sie Segmente anwenden.
 
 ![Kachel „Eigenschaften“](assets/properties_tile.png)
 
-Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Aufschlüsselungsansicht für ausführende Benutzer in der App dargestellt wird. Wenn keine Dimension auf die Kachel angewendet wurde, werden je nach Standarddatumsbereich entweder **Stunden** oder **Tage** als Aufschlüsselungsdimension verwendet.
+## Detailfolien anzeigen {#view-detail-slides}
 
-Aufschlüsselungen verbessern Ihre Analyse, indem sie Metriken und Dimensionen nach anderen Metriken und Dimensionen aufschlüsseln wie z. B. in diesem Beispiel eines Einzelhändlers:
+Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup-Fenster angezeigt, wie die Detailfolie für ausführende Benutzer in der App angezeigt wird. Sie können Dimensionen hinzufügen, um Ihre Daten für Ihre spezifischen Anforderungen aufzuschlüsseln. Wenn keine Dimension angewendet wurde, wird die Aufschlüsselungsdimension **hour** oder **Tage**, abhängig vom Standarddatumsbereich.
+
+Aufschlüsselungen verfeinern Ihre Analyse, indem sie die Metriken buchstäblich nach Dimensionselementen aufschlüsseln.
 
 * Metrik „Unique Visitors“ aufgeschlüsselt nach Anzeigenplattform (AMO-ID)
 * Besuche aufgeschlüsselt nach Produktkategorie (Einzelhandel)
@@ -168,7 +170,31 @@ Aufschlüsselungen verbessern Ihre Analyse, indem sie Metriken und Dimensionen n
 
 ![Aufschlüsselungsansicht](assets/break_view.png)
 
-Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der Detailansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
+Jede der Detailfolie hinzugefügte Dimension wird in einer Dropdown-Liste in der Ansicht der Detailfolie in der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
+
+## Detailfolien anpassen {#customize-detail-slide}
+
+Mit benutzerspezifischen Detailfolien können Sie noch zielgerichteter festlegen, welche Informationen Sie für Ihre Audience freigeben. Sie können das Layout für jede Detailfolie ändern und Text hinzufügen, um besser zu erklären, was der Endbenutzer in den Daten sehen kann. Sie können den Diagrammtyp auch über das Dropdown-Menü ändern.
+
+![Eigene Detailschicht](assets/custom-detail-slide.png)
+
+### Layout der Folie ändern
+
+Ändern Sie das Dialayout, um sich auf die wichtigsten Informationen zu konzentrieren. Sie können beispielsweise das Layout ändern, um nur ein Diagramm oder nur eine Tabelle anzuzeigen. Um das Dialayout zu ändern, wählen Sie eines der vordefinierten Formate aus.
+
+![Reglerlayout](assets/layout.png)
+
+Sie können das Dialayout auch ändern, indem Sie Visualisierungskomponenten aus der linken Leiste auf die Arbeitsfläche ziehen und dort ablegen. Jede Detailfolie darf nur zwei Visualisierungen gleichzeitig enthalten.
+
+![Änderung des Layouts der Folie](assets/slide-layout-change.png)
+
+### Hinzufügen von beschreibendem Text zu einer Folie
+
+Sie können Text hinzufügen, um aussagekräftige Informationen darüber bereitzustellen, was in den Diagrammen oder Nuancen zu den Daten enthalten ist.
+
+Um einer Detailfolie Text hinzuzufügen, wählen Sie ein Layout aus, das die `T` oder ziehen Sie die Komponente Textvisualisierung aus der linken Leiste herüber. Der Texteditor wird automatisch geöffnet, wenn eine neue Textvisualisierung hinzugefügt oder ein Dialayout mit Text ausgewählt wird. Der Texteditor bietet alle Standardoptionen zur Formatierung Ihres Textes. Sie können Textstile wie Absätze, Überschriften und Unterüberschriften anwenden und eine fett gedruckte und kursiv gedruckte Schriftart anwenden. Sie können Text ausrichten, Listen mit Aufzählungszeichen und Nummerierungen hinzufügen und Links hinzufügen. Wenn Sie die Bearbeitung abgeschlossen haben, klicken Sie auf die Schaltfläche &quot;Minimieren&quot; in der oberen rechten Ecke des Texteditors, um sie zu schließen. Um bereits hinzugefügten Text zu bearbeiten, wählen Sie das Stiftsymbol aus, um den Texteditor erneut zu öffnen.
+
+![Änderung des Layouts der Folie](assets/add-descriptive-text.png)
 
 ## Komponenten entfernen {#remove}
 
