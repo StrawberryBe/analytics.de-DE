@@ -4,9 +4,9 @@ description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 ## Version 2.23.0
 
-Releasedatum: **23. September 2022**
+Veröffentlichungsdatum: **23. September 2022**
 
-* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Clienthinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder das Flag &quot;collectHighEntropyUserAgentHints&quot;verwenden. Die Sammlung von Hinweisen mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu User-Agent [Clienthinweise](/help/technotes/client-hints.md).
+* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Client-Hinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Client-Hinweise über Tags konfigurieren oder das Flag „collectHighEntropyUserAgentHints“ verwenden. Die Erfassung von Hinweisen mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-[Client-Hinweisen](/help/technotes/client-hints.md).
 
 
 ## Version 2.22.4
@@ -456,7 +456,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) zu unterstützen.
 
 ## Version 1.1.1
 
