@@ -4,9 +4,9 @@ title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
+source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1750'
 ht-degree: 74%
 
 ---
@@ -156,13 +156,13 @@ Wenn Sie [!UICONTROL nicht angegebene] Dimensionselemente aus Ihren Daten entfer
 
 Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Eigenschaften an, die dieser Kachel und der zugehörigen Detailfolie zugeordnet sind. In dieser Leiste können Sie eine neue **Titel** für die Kachel und konfigurieren Sie alternativ die Kachel, indem Sie Segmente anwenden.
 
-![Kachel „Eigenschaften“](assets/properties_tile.png)
+![Kachel „Eigenschaften“](assets/properties-tile-new.png)
 
 ## Detailfolien anzeigen {#view-detail-slides}
 
-Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup-Fenster angezeigt, wie die Detailfolie für ausführende Benutzer in der App angezeigt wird. Sie können Dimensionen hinzufügen, um Ihre Daten für Ihre spezifischen Anforderungen aufzuschlüsseln. Wenn keine Dimension angewendet wurde, wird die Aufschlüsselungsdimension **hour** oder **Tage**, abhängig vom Standarddatumsbereich.
+Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup-Fenster angezeigt, wie die Detailfolie für ausführende Benutzer in der App angezeigt wird. Sie können Dimensionen hinzufügen, um Ihre Daten für Ihre spezifischen Anforderungen aufzuschlüsseln. Wenn eine Dimension nicht angewendet wurde, wird die Aufschlüsselungsdimension **hour** oder **Tage**, abhängig vom Standarddatumsbereich.
 
-Aufschlüsselungen verfeinern Ihre Analyse, indem sie die Metriken buchstäblich nach Dimensionselementen aufschlüsseln.
+Aufschlüsselungen verfeinern Ihre Analyse, indem sie Metriken nach Dimensionselementen aufschlüsseln, z. B.:
 
 * Metrik „Unique Visitors“ aufgeschlüsselt nach Anzeigenplattform (AMO-ID)
 * Besuche aufgeschlüsselt nach Produktkategorie (Einzelhandel)
