@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2dc8dc9f7dd9671cfa25095e075474d2b5463dc0
+source-git-commit: 6014be392d700fae0df1f178d1f989eb29d03477
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 78%
+source-wordcount: '1569'
+ht-degree: 75%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober 2022)
 
-**Letzte Aktualisierung**: 5. Oktober 2022
+**Letzte Aktualisierung**: 13. Oktober 2022
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -30,6 +30,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **[!UICONTROL Zusammenfassung der Schlüsselmetriken]** Visualisierung | Die [!UICONTROL Zusammenfassung der Schlüsselmetriken] Visualisierung zeigt Ihnen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitrahmens entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeitrahmen hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Schrittweise Einführung ab 5. Oktober 2022 |
 | Neu **[!UICONTROL Klassifizierungssätze]** Anwendererlebnis | Das neue Benutzererlebnis bietet eine einzige Benutzeroberfläche zum Verwalten von Klassifizierungen und Regeln und verbessert die Sichtbarkeit von kundeneigenen Klassifizierungsdaten. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | 5. Oktober 2022 |
 | Mobile App: **Benutzerdefinierte Detailansichten** | Benutzerdefinierte Detailansichten ermöglichen es Ihnen, noch zielgerichteter zu entscheiden, welche Informationen Sie für Ihre Zielgruppe freigeben, indem sie sich auf das Wichtigste konzentrieren. Sie können das Layout der Detailansicht ändern, die jeder Scorecard-Kachel zugeordnet ist, und Text hinzufügen, um besser zu erklären, was der Endbenutzer in den Daten sehen kann. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de) | 5. Oktober 2022 |
+| **Bei Variablen mit mehreren Werten wird zwischen Groß- und Kleinschreibung unterschieden** | Bei Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird, werden die in `mvvar1` - `mvvar3` in Daten-Feeds werden nicht mehr automatisch in Kleinbuchstaben geschrieben. Stattdessen spiegeln Daten-Feeds (und Daten, die über den Analytics Source Connector an Adobe Experience Platform und CJA übergeben werden) die ursprüngliche Groß-/Kleinschreibung wider, die von der Seite übergeben wurde. | 24. Oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
