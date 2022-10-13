@@ -3,9 +3,9 @@ title: Von Adobe Analytics verwendete IPs und Domains
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: be8e4c3a25dccaf7bd591f487e1131288ba26f2a
+source-git-commit: 30b4ab97798019c391e5427c97f82b1ea4a379d4
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 79%
 
 ---
@@ -61,6 +61,7 @@ Wenn Ihr Unternehmen es vorzieht, bestimmte IP-Adressbereiche zuzulassen, könne
 | Japan | `63.140.50.0/23` |
 | Japan | `66.117.31.0/24` |
 | London | `66.235.156.0/24` |
+| London | `185.34.188.0/22` |
 | Oregon | `66.235.132.0/22` |
 | Singapur | `130.248.170.0/23` |
 | Singapur | `130.248.240.0/24` |
