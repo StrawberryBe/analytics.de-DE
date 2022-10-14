@@ -1,10 +1,10 @@
 ---
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
-source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
+source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 75%
+source-wordcount: '1067'
+ht-degree: 67%
 
 ---
 
@@ -18,6 +18,10 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 * **Hinweise mit niedriger Entropie** enthalten allgemeine Informationen über Geräte. Diese Hinweise werden automatisch von Chromium-Browsern bereitgestellt.
 
 * **Hinweise mit hoher Entropie** enthalten detailliertere Informationen. Diese Hinweise sind nur auf Anfrage verfügbar. Sowohl AppMeasurement als auch Web SDK [können konfiguriert werden](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md), um Hinweise mit hoher Entropie anzufordern. Standardmäßig fordern beide Bibliotheken **keine** Hinweise mit hoher Entropie an.
+
+>[!NOTE]
+>
+>Kundenhinweise werden ab Mitte Januar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden jedoch bis Mitte Januar nicht bei der Gerätesuche verwendet. Dadurch soll verhindert werden, dass die Berichterstattung während des kritischen Jahresendzeitraums gestört wird. Wie unten erwähnt, wird die Betriebssystemversion ab Oktober eingefroren, aufgrund eines schrittweisen Rollouts und der Tatsache, dass die meisten Benutzeragenten auf die richtige Betriebssystemversion eingefroren werden, schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
 
 >[!NOTE]
 >
@@ -89,6 +93,12 @@ Diese Felder werden direkt vom User-Agent abgeleitet, aber User-Agent kann verwe
 
 +++
 
++++**Welche Teile des Benutzeragenten werden „eingefroren“ und wann?**
+
+Siehe den [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dieser kann sich aber noch ändern.
+
++++
+
 +++**Welche Analytics-Reporting-Felder werden mit Werten befüllt, die in Hinweisen mit hoher Entropie gespeichert sind?**
 
 Dies ändert sich mit der Zeit, da Google mehr Teile des Benutzeragenten &quot;einfriert&quot;. Das erste Feld, das direkt betroffen ist, ist &quot;Betriebssystem&quot;, das die Betriebssystemversion enthält. Gemäß der von Google veröffentlichten Zeitleiste für &quot;Einfrieren&quot;von Benutzeragenten-Hinweisen wird die Betriebssystemversion ab Ende Oktober 2022 mit Chromium-Version 107 eingefroren. Zu diesem Zeitpunkt ist die Betriebssystemversion im User Agent in einigen Fällen ungenau.
@@ -115,6 +125,12 @@ Nein. Client-Hinweise können nur über eine sichere HTTP-Verbindung wie HTTPS e
 
 +++
 
++++**Wie integriere ich Client-Tipp-Daten bei der Verwendung der API-Übermittlung?**
+
+Siehe die Dokumentation, die diese über [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**Sind Client-Hinweise in Daten verfügbar, die über den Adobe Source Connector an AEP und CJA gesendet werden?**
 
 Adobe plant, im ersten Halbjahr 2023 Client-Hinweise in Daten über den Adobe Source Connector zu erfassen.
@@ -124,12 +140,6 @@ Adobe plant, im ersten Halbjahr 2023 Client-Hinweise in Daten über den Adobe So
 +++**Wie werden Client-Hinweise in XDM dargestellt?**
 
 Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/datatypes/sessiondetails.schema.json#L121) in Adobe Experience Platform.
-
-+++
-
-+++**Welche Teile des Benutzeragenten werden „eingefroren“ und wann?**
-
-Siehe den [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dieser kann sich aber noch ändern.
 
 +++
 
