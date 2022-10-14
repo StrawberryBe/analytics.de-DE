@@ -1,10 +1,10 @@
 ---
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 77%
+source-wordcount: '948'
+ht-degree: 75%
 
 ---
 
@@ -99,7 +99,7 @@ Die Zeiten für das Einfrieren anderer Teile des Benutzeragenten können Sie dem
 
 +++**Wie verwendet Adobe Client-Hinweise zum Erfassen von Geräteinformationen?**
 
-Adobe verwendet einen Drittanbieter, Device Atlas, der sowohl Client-Hinweise als auch den Benutzeragenten verwendet, um Geräteinformationen zu erfassen.
+Adobe verwendet einen Drittanbieter, Device Atlas, der sowohl die Client-Hinweise als auch den User-Agent verwendet, um Geräteinformationen abzuleiten.
 
 +++
 
