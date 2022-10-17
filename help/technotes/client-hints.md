@@ -1,10 +1,10 @@
 ---
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
-source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
+source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 67%
+source-wordcount: '1073'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,7 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 * **Hinweise mit niedriger Entropie** enthalten allgemeine Informationen über Geräte. Diese Hinweise werden automatisch von Chromium-Browsern bereitgestellt.
 
-* **Hinweise mit hoher Entropie** enthalten detailliertere Informationen. Diese Hinweise sind nur auf Anfrage verfügbar. Sowohl AppMeasurement als auch Web SDK [können konfiguriert werden](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md), um Hinweise mit hoher Entropie anzufordern. Standardmäßig fordern beide Bibliotheken **keine** Hinweise mit hoher Entropie an.
+* **Hinweise mit hoher Entropie** enthalten detailliertere Informationen. Diese Hinweise sind nur auf Anfrage verfügbar. Sowohl AppMeasurement als auch Web SDK können konfiguriert werden, um Hinweise mit hoher Entropie anzufordern. Standardmäßig fordern beide Bibliotheken **keine** Hinweise mit hoher Entropie an.
 
 >[!NOTE]
 >
@@ -41,13 +41,9 @@ Dieser [Blogpost von Google](https://web.dev/user-agent-client-hints/) ist eine 
 
 +++**Wie kann ich die Sammlung von Client-Hinweisen aktivieren?**
 
-Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und sind im Prozess von Adobe zum Erkennen von Geräte- und Browserinformationen enthalten. Neuere Versionen von AppMeasurement (ab 2.23.0) und Web SDK (ab 2.12.0) können so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
+Tipps zur geringen Entropie werden automatisch vom Browser bereitgestellt und erfasst, um Geräte- und Browserinformationen abzuleiten. Neuere Versionen des Web SDK (ab 2.12.0) und AppMeasurement (ab 2.23.0) können so konfiguriert werden, dass sie High-Entropy-Hinweise über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption erfassen. Siehe Anweisungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**Wie kann ich Hinweise hoher Entropie erfassen?**
-
-Hinweise mit hoher Entropie können mit den Web-SDK- und AppMeasurement-Bibliotheken über ihre jeweiligen Tag-Erweiterungen oder direkt mit dem Flag „collectHighEntropyUserAgentHints“ konfiguriert werden.
+Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
 
 +++
 
