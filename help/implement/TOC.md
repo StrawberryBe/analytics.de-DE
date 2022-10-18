@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
-user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Passen Sie an, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
+user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

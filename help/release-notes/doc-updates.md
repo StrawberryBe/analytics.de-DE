@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
 source-wordcount: '3545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Oktober 2022** |  |
-| Zusammenfassung der Schlüsselmetriken | Neues Thema zum [Zusammenfassung der Schlüsselmetriken](/help/analyze/analysis-workspace/visualizations/key-metric.md) Visualisierung. |
-| Klassifizierungssätze | Der neue Benutzer [Klassifizierungssätze](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) Erlebnis bietet eine einzige Oberfläche zur Verwaltung von Klassifizierungen und Regeln und verbessert die Sichtbarkeit von kundeneigenen Klassifizierungsdaten. |
-| Mobile App: Benutzerdefinierte Detailansichten | Neues Thema zu [benutzerdefinierte Detailansichten](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de). |
-| Data Workbench | Data Workbench [FAQ zum Ende der Nutzungsdauer](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
+| Zusammenfassung einer Schlüsselmetrik | Neuer Artikel zur Visualisierung der [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md) |
+| Klassifizierungssätze | Das neue Benutzererlebnis [Klassifizierungssätze](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=de) bietet eine zentrale Schnittstelle zur Verwaltung von Klassifizierungen und Regeln und verbessert die Sichtbarkeit der kundeneigenen Klassifizierungsdaten. |
+| Mobile App: Benutzerdefinierte Detailansichten | Neuer Artikel zu [benutzerdefinierten Detailansichten](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de). |
+| Data Workbench | [FAQ zum Ende der Nutzungsdauer](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=de) von Data Workbench |
 | **September 2022** |  |
 | Kombinationsdiagramme | Neuer Artikel zur Visualisierung in [Kombinationsdiagrammen](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
 | Aktualisiertes Plug-in | Aktualisierte Version des Implementierungs-Plug-ins [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
@@ -68,7 +68,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 18. August 2021 | Neues Thema zu [A4T und Virtual Report Suites](/help/components/vrs/vrs-a4t.md) |
 | 18. August 2021 | Neues Thema zu [Best Practices für die Attribution](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5. August 2021 | Neues Thema zum [Zählen wiederholter Instanzen](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=de) |
-| 5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) und [Browser-Export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) wurde aktualisiert, um Optionen anzuzeigen, die für Report Suites nicht verfügbar sind, welche für die neue Klassifizierungsarchitektur aktiviert sind. |
+| 5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=de), [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=de) und [Browser-Export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=de) wurde aktualisiert, um Optionen anzuzeigen, die für Report Suites nicht verfügbar sind, welche für die neue Klassifizierungsarchitektur aktiviert sind. |
 | 2. August 2021 | Mehrere Seiten wurden wegen des Rebrandings von [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=de) aktualisiert. |
 | **Juli 2021** |  |
 | 23. Juli 2021 | Neue ausführliche Erläuterung von [Merchandising-eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=de) |
