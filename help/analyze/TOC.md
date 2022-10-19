@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
    + Projekte {#build-workspace-project}
       + [Übersicht über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
+      + Ordner in Workspace {#workspace-folders}
+         + [Über Ordner in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Erstellen von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Projekte hinzufügen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Entfernen eines Projekts](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [Speichern eines neuen Projekts](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Mehrere Report Suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Hotkeys (Tastaturbefehle)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)

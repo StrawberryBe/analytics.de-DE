@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 51fe791a0a0ea45aab3b19f9639d8cc1a10ec114
+source-git-commit: 10b0f4f99d382cbf04b63f2dc518f0d6595d689e
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 89%
+source-wordcount: '1603'
+ht-degree: 87%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober 2022)
 
-**Letztes Update**: 14. Oktober 2022
+**Letztes Update**: 19. Oktober 2022
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -27,7 +27,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Funktion | Beschreibung | [Zieldatum](releases.md) |
 | ----------- | ---------- | ------- |
-| Visualisierung der **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** | Durch die Visualisierung der [!UICONTROL Zusammenfassung einer Schlüsselmetrik] können Sie sehen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitraums entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeiträume hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=de) | Schrittweiser Rollout ab 5. Oktober 2022 |
+| **Ordner in Workspace-Projekten** | Ordner in Workspace-Projekten helfen Benutzern dabei, ihre Projekte mithilfe von Ordnern zu organisieren und zu kategorisieren, damit sie leichter abgerufen und darauf zugreifen können. Ein freigegebener Unternehmensordner ermöglicht es Administratoren, Inhalte einfach zu erstellen und für alle Workspace-Benutzer freizugeben [Weitere Infos](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19. Oktober 2022 |  | Visualisierung der **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** | Durch die Visualisierung der [!UICONTROL Zusammenfassung einer Schlüsselmetrik] können Sie sehen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitraums entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeiträume hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=de) | Schrittweiser Rollout ab 5. Oktober 2022 |
 | Neue **[!UICONTROL Klassifizierungssätze]** Anwendererlebnis | Das neue Anwendererlebnis bietet eine einzige Benutzeroberfläche zum Verwalten von Klassifizierungen und Regeln und verbessert die Sichtbarkeit von kundeneigenen Klassifizierungsdaten. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=de) | 5. Oktober 2022 |
 | Mobile App: **Benutzerdefinierte Detailansichten** | Benutzerdefinierte Detailansichten ermöglichen es Ihnen, noch zielgerichteter zu entscheiden, welche Informationen Sie für Ihre Zielgruppe freigeben, damit diese sich auf das Wichtigste konzentrieren kann. Sie können das Layout der Detailansicht ändern, die jeder Scorecard-Kachel zugeordnet ist, und Text hinzufügen, um Endbenutzerinnen und -benutzern zu helfen, die Daten besser zu verstehen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de) | 5. Oktober 2022 |
 | **Bei Variablen mit mehreren Werten wird zwischen Groß- und Kleinschreibung unterschieden** | Bei Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird, werden die in `mvvar1` - `mvvar3` in Daten-Feeds werden nicht mehr automatisch in Kleinbuchstaben geschrieben. Stattdessen spiegeln Daten-Feeds (und Daten, die über den Analytics Source Connector an Adobe Experience Platform und CJA übergeben werden) die ursprüngliche Groß-/Kleinschreibung wider, die von der Seite übergeben wurde. | 24. Oktober 2022 |
