@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Projekte aus Ordnern entfernen
 keywords: Analysis Workspace
 title: Entfernen von Projekten aus Ordnern
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Um ein Projekt aus einem Ordner zu entfernen, können Sie das Projekt an einen a
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Einige Bildschirme können sich ändern.
+>Diese Funktion ist derzeit als Betaversion verfügbar. Einige Bildschirme können sich ändern.
 
 >[!NOTE]
 >

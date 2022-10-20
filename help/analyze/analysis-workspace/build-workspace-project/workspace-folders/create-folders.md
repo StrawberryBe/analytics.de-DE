@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Ordner und Unterordner in Workspace erstellen
 keywords: Analysis Workspace
 title: Erstellen von Ordnern
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 11%
+source-wordcount: '152'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Sie können der Liste der Projekte und Ordner auf Ihrer Workspace-Landingpage ei
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Einige Bildschirme können sich ändern.
+>Diese Funktion ist derzeit als Betaversion verfügbar. Einige Bildschirme können sich ändern.
 
 ## Neuen Ordner erstellen
 

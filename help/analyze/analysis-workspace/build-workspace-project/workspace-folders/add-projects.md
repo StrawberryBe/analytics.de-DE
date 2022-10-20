@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Ordner in Workspace hinzufügen
 keywords: Analysis Workspace
 title: Hinzufügen von Ordnern in Workspace
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 4%
+source-wordcount: '224'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Sie können Projekte zu einem Ordner in der Tabellenansicht oder aus einem Ordne
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Einige Bildschirme können sich ändern.
+>Diese Funktion ist derzeit als Betaversion verfügbar. Einige Bildschirme können sich ändern.
 
 ## In der Tabellenansicht
 

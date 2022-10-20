@@ -3,10 +3,10 @@ description: Informationen zu Ordnern in Workspace
 keywords: Analysis Workspace
 title: Ordnerübersicht
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 2%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ Ordner in Workspace-Projekten sind ein Ordnerverwaltungssystem auf der Workspace
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur in begrenztem Umfang verfügbar. Einige Bildschirme können sich ändern.
+>Diese Funktion ist derzeit als Betaversion verfügbar. Einige Bildschirme können sich ändern.
 
 Ordner in Workspace-Projekten helfen Benutzern dabei, ihre Projekte zu organisieren und zu kategorisieren, um den Abruf und den Zugriff zu verbessern. Darüber hinaus ermöglicht ein freigegebener Unternehmensordner Administratoren die einfache Erstellung und Freigabe von Inhalten für alle Workspace-Benutzer. 
 

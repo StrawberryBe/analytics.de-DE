@@ -4,10 +4,10 @@ title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Verwenden Sie die Visualisierung der Zusammenfassungsnummer, um eine große Zahl
 
 ### [!UICONTROL Ringdiagramm]
 
-Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. Ein Ringdiagramm kann für den Vergleich der Teile eines Ganzen verwendet werden. Nehmen wir beispielsweise an, Sie möchten sehen, welche Anzeigenplattform zur Gesamtzahl der Unique Visitors beigetragen hat:
+Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. Ein Ringdiagramm kann für den Vergleich der prozentualen Anteile eines Ganzen verwendet werden. Nehmen wir beispielsweise an, Sie möchten sehen, welche Anzeigenplattform zur Gesamtzahl der Unique Visitors beigetragen hat:
 
 ![Ringvisualisierung](assets/donut-viz.png)
 
@@ -152,17 +152,17 @@ Wenn Sie [!UICONTROL nicht angegebene] Dimensionselemente aus Ihren Daten entfer
 
 1. Klicken Sie auf das Symbol neben **[!UICONTROL Nicht angegeben]**, um nicht spezifizierte Daten aus Ihrem Reporting zu entfernen. (Sie können auch jedes andere Dimensionselement entfernen.)
 
-## Kacheleigenschaften anzeigen und konfigurieren {#tiles}
+## Anzeigen und Konfigurieren von Kacheleigenschaften {#tiles}
 
 Wenn Sie im Scorecard Builder auf eine Kachel klicken, werden in der rechten Leiste die Eigenschaften und Merkmale angezeigt, die mit dieser Kachel und ihrer Detailfolie verbunden sind. In dieser Leiste können Sie einen neuen **Titel** für die Kachel erstellen und die Kachel konfigurieren, indem Sie Segmente anwenden.
 
 ![Kachel „Eigenschaften“](assets/properties-tile-new.png)
 
-## Detailfolien anzeigen {#view-detail-slides}
+## Anzeigen von Detailfolien {#view-detail-slides}
 
-Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Detailfolie für ausführenden Benutzerinnen und Benutzer in der Mobile App dargestellt wird. Sie können Dimensionen hinzufügen, um Ihre Daten für Ihre spezifischen Anforderungen aufzuschlüsseln. Wenn eine Dimension nicht angewendet wurde, wird die Aufschlüsselungsdimension **hour** oder **Tage**, abhängig vom Standarddatumsbereich.
+Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup-Fenster angezeigt, wie die Detailfolie für ausführende Benutzende in der Mobile App dargestellt wird. Sie können Dimensionen hinzufügen, um Ihre Daten für Ihre spezifischen Anforderungen aufzuschlüsseln. Wenn keine Dimension auf die Kachel angewendet wurde, werden je nach Standarddatumsbereich entweder **Stunden** oder **Tage** als Aufschlüsselungsdimension verwendet.
 
-Aufschlüsselungen verfeinern Ihre Analyse, indem sie Metriken nach Dimensionselementen aufschlüsseln, z. B.:
+Aufschlüsselungen verfeinern Ihre Analyse, indem sie Metriken wie die folgenden nach Dimensionselementen aufschlüsseln:
 
 * Metrik „Unique Visitors“ aufgeschlüsselt nach Anzeigenplattform (AMO-ID)
 * Besuche aufgeschlüsselt nach Produktkategorie (Einzelhandel)
@@ -172,35 +172,39 @@ Aufschlüsselungen verfeinern Ihre Analyse, indem sie Metriken nach Dimensionsel
 
 Jede der Detailfolie hinzugefügte Dimension wird in einer Dropdown-Liste in der Ansicht der Detailfolie in der Mobile App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen eine Auwahl treffen.
 
-## Detailfolien anpassen {#customize-detail-slide}
+## Anpassen von Detailfolien {#customize-detail-slide}
 
-Mit benutzerspezifischen Detailfolien können Sie noch zielgerichteter festlegen, welche Informationen Sie für Ihre Zielgruppe freigeben. Sie können das Layout für jede Detailfolie ändern und für die Endbenutzerinnen und -benutzer Erklärungen zu den Daten hinzufügen. Sie können den Diagrammtyp auch über das Dropdown-Menü ändern.
+Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit noch zielgerichteteren Informationen anzusprechen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+Sie können das Layout für jede Detailfolie ändern und Text hinzufügen, um Endbenutzenden zu helfen, die Daten besser zu verstehen. Sie können auch über das Dropdown-Menü den Diagrammtyp ändern.
 
 ![Benutzerdefinierte Detailfolie](assets/custom-detail-slide.png)
 
-### Folien-Layout ändern
+### Ändern des Folien-Layouts
 
-Ändern Sie das Folienlayout, damit Sie die wichtigsten Informationen stets im Blick haben. Sie können beispielsweise das Layout so ändern, dass nur ein Diagramm oder nur eine Tabelle angezeigt wird. Um das Folienlayout zu ändern, wählen Sie eines der vordefinierten Formate aus.
+Ändern Sie das Folien-Layout, um die Aufmerksamkeit der Betrachtenden zu fokussieren. Sie können beispielsweise das Layout so ändern, dass nur ein Diagramm oder nur eine Tabelle angezeigt wird. Um das Folien-Layout zu ändern, wählen Sie eines der vordefinierten Formate aus.
 
 ![Folien-Layout](assets/layout.png)
 
 Sie können das Folien-Layout auch ändern, indem Sie Visualisierungskomponenten aus der linken Leiste auf die Arbeitsfläche ziehen und dort ablegen. Jede Detailfolie darf nur zwei Visualisierungen gleichzeitig enthalten.
 
-![Änderung des Folien-Layouts](assets/slide-layout-change.png)
+![Ändern des Folien-Layouts](assets/slide-layout-change.png)
 
 ### Hinzufügen von beschreibendem Text zu einer Folie
 
-Sie können Text hinzufügen, um aussagekräftige Informationen über den Inhalt der Diagramme oder Nuancen der Daten bereitzustellen.
+Sie können Text hinzufügen, um aussagekräftige Informationen über den Inhalt der Diagramme oder die Bedeutung von Daten bereitzustellen.
 
-Um zu einer Detailfolie Text hinzuzufügen, wählen Sie ein Layout aus, das das Symbol `T` anzeigt, oder ziehen Sie die Textvisualisierungskomponente aus der linken Leiste auf die Folie. Der Texteditor wird automatisch geöffnet, wenn eine neue Textvisualisierung hinzugefügt oder ein Folien-Layout mit Text ausgewählt wird. Der Texteditor bietet alle Standardoptionen zur Formatierung von Texten. Sie können Textstile wie Absätze, Überschriften und Zwischenüberschriften verwenden und fett gedruckte und kursive Schriftarten anwenden. Sie können Text ausrichten sowie Listen mit Aufzählungszeichen, Nummerierungen und Links hinzufügen. Wenn Sie die Bearbeitung abgeschlossen haben, klicken Sie auf die Schaltfläche „Minimieren“ in der oberen rechten Ecke des Texteditors, um ihn zu schließen. Um bereits hinzugefügten Text zu bearbeiten, wählen Sie das Stiftsymbol aus, um den Texteditor erneut zu öffnen.
+Um einer Detailfolie Text hinzuzufügen, wählen Sie ein Layout aus, für das das Symbol `T` angezeigt wird, oder ziehen Sie die Textvisualisierungskomponente aus der linken Leiste und legen Sie diese ab. Der Texteditor wird automatisch geöffnet, wenn eine neue Textvisualisierung hinzugefügt oder ein Folien-Layout mit Text ausgewählt wird. Der Texteditor bietet alle Standardoptionen zur Textformatierung, Sie können Textstile wie Absätze, Überschriften und Unterüberschriften anwenden und eine fett oder kursiv formatierte Schriftart auswählen. Sie können Text ausrichten sowie Listen mit Aufzählungszeichen, Nummerierungen und Links hinzufügen. Wenn Sie die Bearbeitung abgeschlossen haben, klicken Sie oben rechts im Texteditor auf die Schaltfläche „Minimieren“, um den Texteditor zu schließen. Um bereits hinzugefügten Text zu bearbeiten, wählen Sie zum erneuten Öffnen des Texteditors das Stiftsymbol aus.
 
-![Änderung des Folien-Layouts](assets/add-descriptive-text.png)
+![Ändern des Folien-Layouts](assets/add-descriptive-text.png)
 
-## Komponenten entfernen {#remove}
+## Entfernen von Komponenten {#remove}
 
 Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Erstbesuche** dargestellt:
 
-![Komponenten entfernen](assets/new_remove.png)
+![Entfernen von Komponenten](assets/new_remove.png)
 
 ## Vorschau der Scorecard {#preview}
 
