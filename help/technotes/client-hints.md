@@ -2,9 +2,9 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 >[!NOTE]
 >
->Kundenhinweise werden ab Mitte Januar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden jedoch bis Mitte Januar nicht bei der Gerätesuche verwendet. Dadurch soll verhindert werden, dass die Berichterstattung während des kritischen Jahresendzeitraums gestört wird. Wie unten erwähnt, wird die Betriebssystemversion ab Oktober eingefroren, aufgrund eines schrittweisen Rollouts und der Tatsache, dass die meisten Benutzeragenten auf die richtige Betriebssystemversion eingefroren werden, schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
+>Die Client-Hinweise werden ab Mitte Januar 2023 in den Prozess der Analytics-Gerätesuche integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Januar nicht für die Gerätesuche verwendet. Damit soll eine mögliche Unterbrechung des Reportings während der kritischen Zeit zum Jahresende vermieden werden. Wie unten erwähnt, wird die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass die meisten Benutzeragenten auf die korrekte Betriebssystemversion eingefroren werden, schätzen wir, dass dies weniger als 3 % der Besuchenden mit Chrome betreffen wird.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 >[!NOTE]
 >
->AAM erfordert die Erfassung hoher Entropiehinweise, um die volle Funktionalität zu erhalten. Wenn Sie [serverseitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) können Sie die Sammlung von hochgradigen Entropiehinweisen aktivieren.
+>AAM erfordert das Erfassen von Hinweisen mit hoher Entropie, um die vollständige Funktionalität zu erhalten. Wenn Sie [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
 
 ## Häufig gestellte Fragen
 
@@ -41,7 +41,7 @@ Dieser [Blogpost von Google](https://web.dev/user-agent-client-hints/) ist eine 
 
 +++**Wie kann ich die Sammlung von Client-Hinweisen aktivieren?**
 
-Tipps zur geringen Entropie werden automatisch vom Browser bereitgestellt und erfasst, um Geräte- und Browserinformationen abzuleiten. Neuere Versionen des Web SDK (ab 2.12.0) und AppMeasurement (ab 2.23.0) können so konfiguriert werden, dass sie High-Entropy-Hinweise über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption erfassen. Siehe Anweisungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
+Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=de).
 
 Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
 
@@ -53,7 +53,7 @@ Zum jetzigen Zeitpunkt nicht. Sie können entweder alle Hinweise mit hoher Entro
 
 +++
 
-+++**Was sind die verschiedenen Werte für Client-Hinweise?**
++++**Wie lauten die verschiedenen Werte für Client-Hinweise?**
 
 In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
@@ -79,7 +79,7 @@ Die für das Reporting verfügbaren Gerätefelder ändern sich nicht. Die in die
 
 +++**Welche Analytics-Reporting-Felder werden vom Benutzeragenten befüllt?**
 
-Diese Felder werden direkt vom User-Agent abgeleitet, aber User-Agent kann verwendet werden, um Werte für andere gerätebezogene Felder abzuleiten, abhängig von den Gerätedetails.
+Diese Felder werden direkt vom Benutzeragenten abgeleitet, aber der Benutzeragent kann abhängig von den Gerätedetails zur Ableitung von Werten für andere gerätebezogene Felder verwendet werden.
 
 * [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=de)
 * [Browser-Typ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=de)
@@ -97,7 +97,7 @@ Siehe den [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021
 
 +++**Welche Analytics-Reporting-Felder werden mit Werten befüllt, die in Hinweisen mit hoher Entropie gespeichert sind?**
 
-Dies ändert sich mit der Zeit, da Google mehr Teile des Benutzeragenten &quot;einfriert&quot;. Das erste Feld, das direkt betroffen ist, ist &quot;Betriebssystem&quot;, das die Betriebssystemversion enthält. Gemäß der von Google veröffentlichten Zeitleiste für &quot;Einfrieren&quot;von Benutzeragenten-Hinweisen wird die Betriebssystemversion ab Ende Oktober 2022 mit Chromium-Version 107 eingefroren. Zu diesem Zeitpunkt ist die Betriebssystemversion im User Agent in einigen Fällen ungenau.
+Dies ändert sich im Laufe der Zeit, da Google weitere Teile des Benutzeragenten „einfriert“. Das erste unmittelbar betroffene Feld ist „Betriebssystem“, das die Betriebssystemversion beinhaltet. Nach dem von Google veröffentlichten Zeitplan für das „Einfrieren“ von Benutzeragenten-Hinweisen wird die Betriebssystemversion ab Ende Oktober 2022 beginnend mit Chromium Version 107 eingefroren. Zu diesem Zeitpunkt ist die Betriebssystemversion im Benutzeragenten in einigen Fällen ungenau.
 
 Die Zeiten für das Einfrieren anderer Teile des Benutzeragenten können Sie dem [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html), entnehmen.
 
@@ -105,13 +105,13 @@ Die Zeiten für das Einfrieren anderer Teile des Benutzeragenten können Sie dem
 
 +++**Wie verwendet Adobe Client-Hinweise zum Erfassen von Geräteinformationen?**
 
-Adobe verwendet einen Drittanbieter, Device Atlas, der sowohl die Client-Hinweise als auch den User-Agent verwendet, um Geräteinformationen abzuleiten.
+Adobe verwendet Device Atlas, einen Drittanbieter, der sowohl die Client-Hinweise als auch den Benutzeragenten zur Ermittlung von Geräteinformationen verwendet.
 
 +++
 
 +++**Welche Browser sind von Client-Hinweisen betroffen?**
 
-Client-Hinweise gelten nur für Chrome-Browser wie Google Chrome und Microsoft Edge. Daten von anderen Browsern oder Mobile Apps werden nicht geändert.
+Die Client-Hinweise gelten nur für Chromium-Browser wie Google Chrome und Microsoft Edge. Daten von anderen Browsern oder Mobile Apps werden nicht geändert.
 
 +++
 
@@ -121,9 +121,9 @@ Nein. Client-Hinweise können nur über eine sichere HTTP-Verbindung wie HTTPS e
 
 +++
 
-+++**Wie integriere ich Client-Tipp-Daten bei der Verwendung der API-Übermittlung?**
++++**Wie binde ich bei der Verwendung der API-Übermittlung Client-Hinweisdaten ein?**
 
-Siehe die Dokumentation, die diese über [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+Siehe Dokumentation zur Einbindung dieser Daten über die [Bulk-Dateneinfüge-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
 
 +++
 
@@ -135,13 +135,13 @@ Adobe plant, im ersten Halbjahr 2023 Client-Hinweise in Daten über den Adobe So
 
 +++**Wie werden Client-Hinweise in XDM dargestellt?**
 
-Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/datatypes/sessiondetails.schema.json#L121) in Adobe Experience Platform.
+Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) in Adobe Experience Platform.
 
 +++
 
-+++**Unterstützt AAM serverseitige Weiterleitung Client-Hinweise?**
++++**Unterstützt die Server-seitige Weiterleitung an AAM Client-Hinweise?**
 
-Ja. Client-Hinweise werden in die Daten aufgenommen, die an AAM weitergeleitet werden. Beachten Sie, dass AAM gesammelt werden müssen, um die volle Funktionalität zu erhalten. Wenn Sie [serverseitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dann können Sie die Sammlung von hochentropischen Hinweisen aktivieren.
+Ja. Client-Hinweise werden in den an AAM weitergeleiteten Daten enthalten sein. Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
 
 +++
 
