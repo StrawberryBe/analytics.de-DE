@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [Übersicht über Echtzeitberichte](admin/realtime/realtime.md)
       + [Konfiguration von Echtzeitberichten](admin/realtime/t-realtime-admin.md)
       + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/realtime/realtime-metrics.md)
+   + [Reporting Activity Manager](admin/reporting-activity.md)
    + [Warteschlange für terminierte Berichte](admin/scheduled-reports-admin.md)
    + Server-seitige Weiterleitung {#server-side-forwarding}
       + [Übersicht über die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf.md)
