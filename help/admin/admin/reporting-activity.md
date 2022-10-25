@@ -4,10 +4,10 @@ title: Reporting Activity Manager
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 70cfad1a04d17e1007178f32af73988be503fe90
+source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 3%
 
 ---
 
@@ -28,23 +28,21 @@ Mit dem Reporting Activity Manager können Sie die Berichtskapazität für jede 
 
 In Adobe Analytics navigieren Administratoren zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
-## Berichtwarteschlange verwalten
+## Berichtwarteschlange anzeigen
 
-Beim Öffnen des Reporting-Aktivitäts-Managers wird eine Liste der zugrunde liegenden Report Suites angezeigt. Virtual Report Suites sind in dieser Ansicht nicht enthalten.
+Beim Öffnen der Übersichtsseite &quot;Reporting Activity Manager&quot;wird eine Liste Ihrer aktivierten Basis-Report Suites angezeigt.
 
 ![Berichtwarteschlange](assets/reporting-activity1.png)
 
-Virtual Report Suites bieten Berichtsanforderungen aufgrund zusätzlicher angewendeter Filter- und Segmentierungsebenen zusätzliche Komplexität. Alle Anforderungen, die von Virtual Report Suites stammen, werden kombiniert und gelangen zur zugrunde liegenden Report Suite. Wenn Sie also 10 Anforderungen von 5 VRSs haben, sind dies 50 Anforderungen auf der Basis-Report Suite. Auf diese Weise können Sie die Kapazität sehr schnell erreichen.
-
-Im Folgenden finden Sie eine Ansicht einer VRS, deren Berichtskapazität in Echtzeit angezeigt wird:
-
-![Virtual Report Suites](assets/reporting-activity-vrs.png)
+| UI-Element | Beschreibung |
+| --- | --- |
+| **[!UICONTROL Report Suite]** | Die zugrunde liegende Report Suite |
+| **[!UICONTROL Virtual Report Suite]** | Alle Virtual Report Suites, die in diese zugrunde liegende Report Suite einfließen. Virtual Report Suites bieten Berichtsanforderungen aufgrund zusätzlicher angewendeter Filter- und Segmentierungsebenen zusätzliche Komplexität. Alle Anforderungen, die von Virtual Report Suites stammen, werden kombiniert und gelangen zur zugrunde liegenden Report Suite.<p>Wenn Sie 10 Anforderungen von 5 VRSs haben, sind dies 50 Anforderungen auf der Basis-Report Suite. Auf diese Weise können Sie die Kapazität sehr schnell erreichen. |
+| **[!UICONTROL Nutzungskapazität]** | Prozentualer Anteil, wie viel der Berichterstellungskapazität der Report Suite in Echtzeit verwendet wird. |
+| **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - Kapazität**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt.</li><li>**Gelb - Nahtfähigkeit**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen.</li><li>**Grün - verfügbar**: Die Berichtskapazität ist reichlich.</li><li>**Grau - nicht verfügbar**: Die Report Suite ist nicht für die Berichtskapazität konfiguriert.</li></ul> |
 
 Aktualisieren Sie die Seite, um die Ergebnisse zu ändern.
 
-## Auswirkungen von Workspace-Berichten
+## Report Suites filtern
 
-
-
-
-
+Sie können die Report Suites nach
