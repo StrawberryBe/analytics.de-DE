@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 100%
+source-wordcount: '3537'
+ht-degree: 96%
 
 ---
 
@@ -38,11 +38,13 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `c_color` | Bit-Tiefe der Farbpalette. Wird bei der Berechnung der Dimension [Farbtiefe](/help/components/dimensions/color-depth.md) verwendet. AppMeasurement verwendet die JavaScript-Funktion `screen.colorDepth()`. | char(20) |
 | `campaign` | Variable, die in der Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) verwendet wird. | varchar(255) |
 | `carrier` | Variable der Adobe Advertising Cloud-Integration. Gibt den Mobilnetzbetreiber an. Verweist auf die `carrier` Suchtabelle | varchar(100) |
+| `ch_hdr` | Client-Hinweise, die über den HTTP-Anforderungsheader erfasst werden. | text |
+| `ch_js` | Client-Hinweise, die über die JavaScript-API Benutzeragent Client Hints erfasst werden. | text |
 | `channel` | Variable, die in der Dimension [Site-Abschnitte](/help/components/dimensions/site-section.md) verwendet wird. | varchar(100) |
 | `click_action` | Wird nicht mehr verwendet. Adresse des Links, auf dem im veralteten ClickMap-Tool geklickt wurde. | varchar(100) |
 | `click_action_type` | Wird nicht mehr verwendet. Link-Typ des veralteten ClickMap-Tools.<br>0: HREF-URL<br>1: Benutzerspezifische ID<br>2: JavaScript onClick-Ereignis<br>3: Formularelement | tinyint unsigniert |
 | `click_context` | Wird nicht mehr verwendet. Name der Seite mit dem Link-Klick. Teil des veralteten ClickMap-Tools. | varchar(255) |
-| `click_context_type` | Wird nicht mehr verwendet. Gibt an, ob es für click_context einen Seitennamen gibt oder standardmäßig die Seiten-URL gilt.<br>0: Seiten-URL<br>1: Seitenname | tinyint unsigniert |
+| `click_context_type` | Wird nicht mehr verwendet. Gibt an, ob `click_context` einen Seitennamen hatte oder standardmäßig die Seiten-URL verwendet hat.<br>0: Seiten-URL<br>1: Seitenname | tinyint unsigniert |
 | `click_sourceid` | Wird nicht mehr verwendet. Numerische ID der Linkposition auf der Seite. Teil des veralteten ClickMap-Tools. | int unsigniert |
 | `click_tag` | Wird nicht mehr verwendet. HTML-Elementtyp, auf den geklickt wurde. | char(10) |
 | `clickmaplink` | Activity Map-Link | varchar(255) |
@@ -64,8 +66,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `date_time` | Die Uhrzeit des Treffers in lesbarem Format, basierend auf der Zeitzone der Report Suite. | datetime |
 | `domain` | Variable, die in der Dimension [Domain](/help/components/dimensions/domain.md) verwendet wird. Basierend auf dem Internetzugangspunkt des Besuchers. | varchar(100) |
 | `duplicate_events` | Listet alle Ereignisse auf, die als Duplikat gezählt wurden. | varchar(255) |
-| `duplicate_purchase` | Ein Flag, das anzeigt, dass das Kaufereignis für diesen Treffer ignoriert werden muss, da es ein Duplikat ist. | tinyint unsigniert |
-| `duplicated_from` | Wird nur in Report Suites mit VISTA-Regeln zur Trefferkopie verwendet. Gibt an, von welcher Report Suite der Treffer kopiert wurde. | varchar(40) |
+| `duplicate_purchase` | Flag, das angibt, dass das Kaufereignis für diesen Treffer ignoriert wird, da es sich um ein Duplikat handelt. | tinyint unsigniert |
+| `duplicated_from` | Wird nur in Report Suites mit VISTA-Regeln zur Trefferkopie verwendet. Gibt an, aus welcher Report Suite der Treffer kopiert wurde. | varchar(40) |
 | `ef_id` | Der in Adobe Advertising Cloud-Integrationen verwendete `ef_id`. | varchar(255) |
 | `evar1 - evar250` | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Der beste Ort für weitere Informationen dazu, wie Ihre Organisation entsprechende eVars füllt, ist ein Dokument zum Lösungsentwurf, das für Ihre Organisation gilt. | varchar(255) |
 | `event_list` | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Enthält sowohl die Standardereignisse als auch die benutzerdefinierten Ereignisse 1–1000. Verwendet die `event.tsv`-Suche. | text |
@@ -88,8 +90,9 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `hitid_low` | Wird zusammen mit `hitid_high` zur Identifizierung eines Treffers verwendet. | bigint unsigniert |
 | `homepage` | Wird nicht mehr verwendet. Wird angezeigt, wenn die aktuelle URL die Browser-Startseite ist. | char(1) |
 | `hourly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer stündlicher Besucher ist. | tinyint unsigniert |
-| `ip` | IP-Adresse basierend auf dem HTTP-Header der Bildanforderung. | char(20) |
+| `ip` | Die IPv4-Adresse basierend auf dem HTTP-Header der Bildanforderung. Gegenseitig ausschließlich für `ipv6`; wenn diese Spalte eine nicht verschleierte IP-Adresse enthält, `ipv6` leer ist. | char(20) |
 | `ip2` | Nicht verwendet. Backend-Verweis-Variable für Report Suites mit VISTA-Regeln basierend auf IP-Adressen. | char(20) |
+| `ipv6` | Die komprimierte IPv6-Adresse, falls verfügbar. Wenn eine IP-Adresse ungefähr `2001:cDBa:0000:0000:0000:0000:3257:0052`, enthält der Daten-Feed `2001:cdba::3257:52`. Gegenseitig ausschließlich für `ip`; wenn diese Spalte eine nicht verschleierte IP-Adresse enthält, `ip` leer ist. | varchar(40) |
 | `j_jscript` | Vom Browser unterstützte JavaScript-Version. | char(5) |
 | `java_enabled` | Ein Flag, das angibt, ob Java aktiviert ist. <br>Y: Aktiviert <br>N: Deaktiviert <br>U: Unbekannt | char(1) |
 | `javascript` | Such-ID der JavaScript-Version, basierend auf `j_jscript`. Verwendet eine Suchtabelle. | tinyint unsigniert |
@@ -145,7 +148,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mobilerelaunchcampaigntrackingcode` | Erfasst mit der Kontextdatenvariablen `a.launch.campaign.trackingcode`. Wird bei der Akquise als Trackingcode für die Startkampagne verwendet. | varchar(255) |
 | `mobileresolution` | Auflösung des Mobilgeräts. `[Width] x [Height]` in Pixel. | varchar(255) |
 | `monthly_visitor` | Flag, das angibt, dass der Benutzer im aktuellen Monat eindeutig ist. | tinyint unsigniert |
-| `mvvar1` - `mvvar3` | Listenvariablenwerte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
+| `mvvar1` - `mvvar3` | Listenvariablenwerte, die beim aktuellen Treffer festgelegt oder aus vorherigen Treffern beibehalten werden. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
+| `mvvar1_instances` – `mvvar3_instances` | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Die Spalten `post_mvvar1_instances` - `post_mvvar3_instances` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
 | `namespace` | Nicht verwendet. Teil einer veralteten Funktion. | varchar(50) |
 | `new_visit` | Ein Flag, das bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe-Servern nach einer 30-minütigen Besuchsinaktivität festgelegt. | tinyint unsigniert |
 | `os` | Numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Verwendet die `os`-Suche. | int unsigniert |
