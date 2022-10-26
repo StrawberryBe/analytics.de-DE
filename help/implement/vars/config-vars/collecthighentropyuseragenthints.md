@@ -1,17 +1,17 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: Verwenden Sie die Variable collectHighEntropyUserAgentHints , um zu bestimmen, ob Adobe hohe Entropy-Hinweise von Chromium-Browsern anfordert (z. B. Google Chrome und Microsoft Edge).
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: 885a8f229fa814053e4766f3b38b6e7fb209fc00
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 3%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
 
 # collectHighEntropyUserAgentHints
 
-Clienthinweise mit hoher Entropie werden von Adobe Analytics verwendet, um die Geräte- und Browseridentifizierung zu verbessern. Weitere Informationen zu Client-Hinweisen finden Sie in [diese Übersicht und FAQs](/help/technotes/client-hints.md) sowie [Google-Blog](https://web.dev/user-agent-client-hints/).
+Clienthinweise mit hoher Entropie werden von Adobe Analytics verwendet, um die Geräte- und Browseridentifizierung zu verbessern. Diese Option ist ab Version 2.23.0 von AppMeasurment.js verfügbar. Weitere Informationen zu Client-Hinweisen finden Sie in [diese Übersicht und FAQs](/help/technotes/client-hints.md) sowie [Google-Blog](https://web.dev/user-agent-client-hints/).
 
 ## Erfassen Sie mit dem Web SDK Hinweise mit hoher Entropie.
 
