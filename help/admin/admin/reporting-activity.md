@@ -2,11 +2,12 @@
 description: Erfahren Sie, wie Sie mit dem Reporting Activity Manager Kapazitätsprobleme während Spitzenzeiten der Berichterstellung diagnostizieren und beheben können.
 title: Reporting Activity Manager
 feature: Admin Tools
+mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
+source-git-commit: 77b3e8a1f8ebb1459eeac83f098cab92f671efe6
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '464'
 ht-degree: 3%
 
 ---
@@ -36,13 +37,20 @@ Beim Öffnen der Übersichtsseite &quot;Reporting Activity Manager&quot;wird ein
 
 | UI-Element | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Report Suite]** | Die zugrunde liegende Report Suite |
-| **[!UICONTROL Virtual Report Suite]** | Alle Virtual Report Suites, die in diese zugrunde liegende Report Suite einfließen. Virtual Report Suites bieten Berichtsanforderungen aufgrund zusätzlicher angewendeter Filter- und Segmentierungsebenen zusätzliche Komplexität. Alle Anforderungen, die von Virtual Report Suites stammen, werden kombiniert und gelangen zur zugrunde liegenden Report Suite.<p>Wenn Sie 10 Anforderungen von 5 VRSs haben, sind dies 50 Anforderungen auf der Basis-Report Suite. Auf diese Weise können Sie die Kapazität sehr schnell erreichen. |
+| **[!UICONTROL Report Suite]** | Die zugrunde liegende Report Suite, deren Berichtsaktivität Sie überwachen. |
+| **[!UICONTROL Virtual Report Suite]** | Zeigt alle Virtual Report Suites an, die in diese zugrunde liegende Report Suite einfließen. Virtual Report Suites bieten Berichtsanforderungen aufgrund zusätzlicher angewendeter Filter- und Segmentierungsebenen zusätzliche Komplexität. Alle Anforderungen, die von Virtual Report Suites stammen, werden kombiniert und gelangen zur zugrunde liegenden Report Suite.<p>Wenn Sie z. B. 10 Anforderungen von 5 VRSs haben, sind das 50 Anforderungen auf Basis-Report Suite. Auf diese Weise können Sie die Kapazität sehr schnell erreichen. |
 | **[!UICONTROL Nutzungskapazität]** | Prozentualer Anteil, wie viel der Berichterstellungskapazität der Report Suite in Echtzeit verwendet wird. |
-| **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - Kapazität**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt.</li><li>**Gelb - Nahtfähigkeit**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen.</li><li>**Grün - verfügbar**: Die Berichtskapazität ist reichlich.</li><li>**Grau - nicht verfügbar**: Die Report Suite ist nicht für die Berichtskapazität konfiguriert.</li></ul> |
+| **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - Kapazität**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt.</li><li>**Gelb - Nahtfähigkeit**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen.</li><li>**Grün - Alles gut**: Die Berichtskapazität ist reichlich.</li><li>**[!UICONTROL Status ausstehend]**: ?</li><li>**Grau - nicht verfügbar**: Die Report Suite ist nicht für die Berichtskapazität konfiguriert.</li></ul> |
 
-Aktualisieren Sie die Seite, um die Ergebnisse zu ändern.
+### Aktivitäten der Berichterstellung
 
-## Report Suites filtern
+* Klicken **[!UICONTROL Aktualisieren]** oben rechts, um die Ergebnisse zu aktualisieren.
+* Klicken Sie auf den Stern links neben dem Report Suite-Namen, um diese Report Suite als Favoriten zu kennzeichnen.
+* Überprüfen **[!UICONTROL Favoriten]** oben links, um Ihre Favoriten anzuzeigen.
+* Suchen Sie in der Suchleiste nach Report Suites nach Name oder Kennung.
+* Filtern von Report Suites nach ihrem Status.
 
-Sie können die Report Suites nach
+## Berichtsaktivität für einzelne Report Suites anzeigen
+
+
+
