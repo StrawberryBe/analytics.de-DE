@@ -5,10 +5,10 @@ feature: Admin Tools
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 77b3e8a1f8ebb1459eeac83f098cab92f671efe6
+source-git-commit: 123a2131be1a3cb23246e2ba591be645c7025b26
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 7%
 
 ---
 
@@ -40,9 +40,9 @@ Beim Öffnen der Übersichtsseite &quot;Reporting Activity Manager&quot;wird ein
 | **[!UICONTROL Report Suite]** | Die zugrunde liegende Report Suite, deren Berichtsaktivität Sie überwachen. |
 | **[!UICONTROL Virtual Report Suite]** | Zeigt alle Virtual Report Suites an, die in diese zugrunde liegende Report Suite einfließen. Virtual Report Suites bieten Berichtsanforderungen aufgrund zusätzlicher angewendeter Filter- und Segmentierungsebenen zusätzliche Komplexität. Alle Anforderungen, die von Virtual Report Suites stammen, werden kombiniert und gelangen zur zugrunde liegenden Report Suite.<p>Wenn Sie z. B. 10 Anforderungen von 5 VRSs haben, sind das 50 Anforderungen auf Basis-Report Suite. Auf diese Weise können Sie die Kapazität sehr schnell erreichen. |
 | **[!UICONTROL Nutzungskapazität]** | Prozentualer Anteil, wie viel der Berichterstellungskapazität der Report Suite in Echtzeit verwendet wird. |
-| **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - Kapazität**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt.</li><li>**Gelb - Nahtfähigkeit**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen.</li><li>**Grün - Alles gut**: Die Berichtskapazität ist reichlich.</li><li>**[!UICONTROL Status ausstehend]**: ?</li><li>**Grau - nicht verfügbar**: Die Report Suite ist nicht für die Berichtskapazität konfiguriert.</li></ul> |
+| **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - [!UICONTROL Kapazität]**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt.</li><li>**Gelb - [!UICONTROL Anbaufähige Kapazität]**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen.</li><li>**Green - [!UICONTROL Alles Gute]**: Die Berichtskapazität ist reichlich.</li><li>**[!UICONTROL Status ausstehend]**: ?</li><li>**Grau - nicht verfügbar**: Die Report Suite ist nicht für die Berichtskapazität konfiguriert.</li></ul> |
 
-### Aktivitäten der Berichterstellung
+### Andere Aktionen der Berichtsaktivität
 
 * Klicken **[!UICONTROL Aktualisieren]** oben rechts, um die Ergebnisse zu aktualisieren.
 * Klicken Sie auf den Stern links neben dem Report Suite-Namen, um diese Report Suite als Favoriten zu kennzeichnen.
@@ -52,5 +52,60 @@ Beim Öffnen der Übersichtsseite &quot;Reporting Activity Manager&quot;wird ein
 
 ## Berichtsaktivität für einzelne Report Suites anzeigen
 
+Klicken Sie auf den Titel-Link einer Report Suite, für die Sie Details anzeigen möchten.
+
+![Report Suite](assets/indiv-report-ste.png)
+
+### Kantengraph
+
+Das Liniendiagramm zeigt die Berichtsaktivität für die ausgewählte Report Suite in den letzten 2 Stunden an.
+
+* Die X-Achse zeigt die Daten zur Berichtskapazität über die letzten 2 Stunden an.
+* Die Y-Achse zeigt die durchschnittliche Wartezeit für eine Abfrage in Sekunden an.
+* Sie können den Mauszeiger über das Liniendiagramm bewegen, um die Zeitpunkte und die durchschnittliche Wartezeit für diesen Zeitpunkt anzuzeigen.
+
+   ![detail](assets/detail.png)
+
+### Filter
+
+Sie können die Tabelle nach Anwendung (siehe Liste in der Tabelle unten), nach Benutzer und nach Projekt filtern.
+
+![Filter](assets/filter.png)
+
+### Zusammenfassungsnummern
+
+![Filter](assets/summary_numbers.png)
+
+Die Zusammenfassungsnummern zeigen die folgenden Informationen an:
+
+| Zusammenfassungszahl | Beschreibung |
+| --- | --- |
+| Benutzer | Wie viele Benutzer derzeit Reporting-Anforderungen an diese Report Suite senden. |
+| Projekte |  |
+| Abfragen |  |
+| Durchschnittliche Wartezeit |  |
+| Nutzungskapazität | Die aktuelle Nutzungskapazität für diese Report Suite. |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Tabelle
+
+Die nachstehende detaillierte Tabelle zeigt
+
+| Spalte | Beschreibung |
+| --- | --- |
+| Abfrage-ID |  |
+| Ausführungszeit |  |
+| Wartezeit |  |
+| Startzeit |  |
+| Anwendung | Die vom Reporting Activity Manager unterstützten Anwendungen sind: <ul><li>Analysis Workspace-Benutzeroberfläche</li><li>Geplante Projekte im Arbeitsbereich</li><li>Report Builder</li><li>Builder-Benutzeroberfläche: Segment, berechnete Metriken, Anmerkungen, Zielgruppen usw.</li></ul> |
+| Benutzer |  |
+| Projekt |  |
+| Monatsgrenzen |
+| Spalten |  |
+| Segmente |  |
+| Status |  |
+
+{style=&quot;table-layout:auto&quot;}
 
 
