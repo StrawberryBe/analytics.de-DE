@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 94%
+source-wordcount: '1426'
+ht-degree: 93%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober/November 2022)
 
-**Zuletzt aktualisiert**: 25. Oktober 2022
+**Zuletzt aktualisiert**: 28. Oktober 2022
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -21,7 +21,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | Funktion | Beschreibung | [Rollout beginnt](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | Visualisierung der **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** | Durch die Visualisierung der [!UICONTROL Zusammenfassung einer Schlüsselmetrik] können Sie sehen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitraums entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeiträume hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=de) | 5. Oktober 2022 | Freitag, 19. Oktober 2023 |
-| **Mehrwert-Variablen ohne Unterscheidung von Groß- und Kleinschreibung** | Bei Mehrwert-Variablen ohne Unterscheidung von Groß- und Kleinschreibung werden die in `mvvar1` – `mvvar3` gespeicherten Werte in Daten-Feeds nicht mehr automatisch kleingeschrieben. Stattdessen spiegeln Daten-Feeds (und Daten, die über den Analytics Source Connector an Adobe Experience Platform und CJA weitergeleitet werden) die ursprüngliche Groß-/Kleinschreibung wider, die von der Seite übermittelt wurde. | Nicht angegeben | 24. Oktober 2022 |
+| **Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird** | Bei Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird, werden die in `mvvar1 - mvvar3` und `post_mvvar1 - post_mvvar3` in Daten-Feeds werden nicht mehr automatisch in Kleinbuchstaben geschrieben. Stattdessen spiegeln Daten-Feeds (und Daten, die über den Analytics Source Connector an Adobe Experience Platform und CJA weitergeleitet werden) die ursprüngliche Groß-/Kleinschreibung wider, die von der Seite übermittelt wurde. | Nicht angegeben | 24. Oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
