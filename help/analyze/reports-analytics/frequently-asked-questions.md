@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen zu Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 99%
@@ -13,6 +13,8 @@ ht-degree: 99%
 ---
 
 # Häufig gestellte Fragen
+
+{{ra-eol}}
 
 Bietet Antworten und Vorschläge zur Fehlerbehebung zu einigen der am häufigsten gestellten Analytics-Fragen zu Reports &amp; Analytics. Häufig gestellte Fragen zur Implementierung finden Sie in den [FAQs](/help/implement/faq.md) im Benutzerhandbuch zur Implementierung.
 

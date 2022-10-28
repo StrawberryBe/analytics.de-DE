@@ -5,7 +5,7 @@ uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-source-git-commit: a51577d1c13cdeaa8ac68175d4695bfd82f394ab
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 86%
@@ -13,6 +13,8 @@ ht-degree: 86%
 ---
 
 # [!UICONTROL Zielgruppen] {#concept_6516E81923E845198B7FC5D8F81DC35C}
+
+{{ra-eol}}
 
 [!UICONTROL Mithilfe von Zielen können Sie die Leistung Ihrer Website messen und den Fortschritt bei der Erreichung Ihrer Zielsetzungen verfolgen.] So möchten Sie beispielsweise die Anzahl der Besucher aus einer bestimmten Region oder den Umsatz pro Bestellung steigern oder die Anzahl der Treffer von einer bestimmten verweisenden Stelle erhöhen.
 

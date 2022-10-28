@@ -5,7 +5,7 @@ uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 021cd591-4e87-4351-bfee-9e3cc79a6a45
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # Analytics-Segmentierung{#analytics-segmentation}
+
+{{ra-eol}}
 
 Segmente sind benutzerspezifische Teildatensätze oder Daten, die durch eigens erstellte Regeln gefiltert wurden. Segmente basieren auf Hits, Besuchen und Besuchern.
 

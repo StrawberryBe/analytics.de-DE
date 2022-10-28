@@ -5,7 +5,7 @@ title: Dashboards und Kurzberichte
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # Dashboards und Kurzberichte
+
+{{ra-eol}}
 
 Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
 

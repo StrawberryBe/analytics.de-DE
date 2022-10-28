@@ -4,7 +4,7 @@ description: Die Dimensionen und Metriken, die Reports & Analytics für die einz
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Berichte
+
+{{ra-eol}}
 
 Jeder Bericht in Reports &amp; Analytics verwendet eine bestimmte Dimension und Standardmetrik. Sie können die Metrik in jedem Bericht ändern und bei Bedarf Aufschlüsselungen hinzufügen. In den folgenden Listen finden Sie, welche Dimension in den einzelnen Berichten verwendet wird.
 
