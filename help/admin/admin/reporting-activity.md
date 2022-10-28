@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie mit dem Reporting Activity Manager Kapazität
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 7%
 
 ---
@@ -45,6 +45,8 @@ Beim Öffnen der Übersichtsseite &quot;Reporting Activity Manager&quot;wird ein
 | **[!UICONTROL Virtual Report Suite]** | Zeigt alle Virtual Report Suites an, die in diese zugrunde liegende Report Suite einfließen. Virtual Report Suites bieten Berichtsanforderungen aufgrund zusätzlicher angewendeter Filter- und Segmentierungsebenen zusätzliche Komplexität. Alle Anforderungen, die von Virtual Report Suites stammen, werden kombiniert und gelangen zur zugrunde liegenden Report Suite.<p>Wenn Sie z. B. 10 Anforderungen von 5 VRSs haben, sind das 50 Anforderungen auf Basis-Report Suite. Auf diese Weise können Sie die Kapazität sehr schnell erreichen. |
 | **[!UICONTROL Nutzungskapazität]** | Prozentualer Anteil, wie viel der Berichterstellungskapazität der Report Suite in Echtzeit verwendet wird. |
 | **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - [!UICONTROL Kapazität]**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt. (95% - 100%) </li><li>**Gelb - [!UICONTROL Anbaufähige Kapazität]**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen. (90% - 94%)</li><li>**Green - [!UICONTROL Alles Gute]**: Die Berichtskapazität ist reichlich. (0% - 90%)</li><li>**Grau - [!UICONTROL Status ausstehend]**: ?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Andere Aktionen der Berichtsaktivität
 
