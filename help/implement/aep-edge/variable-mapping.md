@@ -2,10 +2,10 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 47a5f891f2769a97936a3809c3615374b0045bd4
+source-git-commit: f435453f655caef89460de42ebecf489b021dc47
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 100%
+source-wordcount: '1446'
+ht-degree: 99%
 
 ---
 
@@ -59,6 +59,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `environment.operatingSystem` | Die Mobile-Dimension [Betriebssystem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | Hilft beim Festlegen der Dimension [Betriebssystemversion](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Legt die entsprechende [eVar](../../components/dimensions/evar.md)-Dimension fest. |
+| `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1` -<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Legt die entsprechenden fest [Hierarchie](/help/components/dimensions/hierarchy.md) Dimension. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Außerkraftsetzen des Trennzeichens für Listen-Props. Die Verwendung dieses Felds wird nicht empfohlen, da das Trennzeichen automatisch von der [Traffic-Variablen-Verwaltung](/help/admin/admin/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen abgerufen wird. Die Verwendung dieses Felds kann zu einer Diskrepanz zwischen dem verwendeten Trennzeichen und dem von Analytics erwarteten Trennzeichen führen. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Ein Zeichenfolgen-Array, das die Werte der entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props) enthält. |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Verknüpft alle `value`-Zeichenfolgen im jeweiligen `list[]`-Array mit der jeweiligen [Listenvariablen](../vars/page-vars/list.md). Das Trennzeichen wird automatisch auf der Grundlage des in den [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md) definierten Werts ausgewählt. |

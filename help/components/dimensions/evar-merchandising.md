@@ -1,18 +1,18 @@
 ---
-title: eVar (Merchandising) für Dimensionen
+title: eVar (Merchandising-Dimension)
 description: Benutzerdefinierte Variablen, die mit der Produktdimension verknüpft sind.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 99%
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
 # eVar (Merchandising)
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. Weitere Informationen zum Implementieren von Merchandising-eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. Informationen zur Implementierung von Merchandising-eVars finden Sie unter [eVar (Merchandising-Variable)](/help/implement/vars/page-vars/evar-merchandising.md) im Benutzerhandbuch zur Implementierung.*
 
 Eine ausführliche Erläuterung der Funktionsweise von Merchandising-eVars finden Sie unter [Merchandising-eVars und Methoden zur Produktsuche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=de).
 

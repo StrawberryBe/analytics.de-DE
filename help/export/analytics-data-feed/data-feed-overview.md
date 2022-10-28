@@ -4,10 +4,10 @@ keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
 title: Analytics-Daten-Feed-Dokumentation
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Daten-Feeds sind eine leistungsstarke Methode, Rohdaten aus Adobe Analytics abzu
 
 ## Voraussetzungen
 
-Bevor Sie Daten-Feeds verwenden, müssen Sie alle folgenden Anforderungen erfüllen.
+Bevor Sie Daten-Feeds verwenden, stellen Sie sicher, dass Sie alle folgenden Anforderungen erfüllen.
 
 * Sie haben eine FTP-Site und Anmeldeinformationen zur Hand. Daten-Feeds können nur an ein Serverziel gesendet werden. Ihr Unternehmen stellt in der Regel FTP-Anmeldeinformationen bereit. Adobe kann auf Anfrage einen FTP-Speicherort mit einer bescheidenen Menge Speicher bereitstellen. Wenden Sie sich an die Kundenunterstützung, um ein FTP-Ziel für Daten-Feeds anzufordern.
 * Eine funktionierende Implementierung, die Daten an Adobe-Datenerfassungsserver sendet. Siehe [Überprüfen und Veröffentlichen einer Implementierung](/help/implement/launch/validate-publish-prod.md) im Benutzerhandbuch zur Implementierung.

@@ -3,10 +3,10 @@ description: Sie können das Segment für Marketingaktivitäten in der Zielgrupp
 title: Veröffentlichen von Segmenten in Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 100%
+source-wordcount: '1324'
+ht-degree: 96%
 
 ---
 
@@ -55,12 +55,12 @@ Weitere Informationen finden Sie in diesem Video:
 1. Geben Sie einen Titel und eine Beschreibung für das Segment ein. Andernfalls können Sie es nicht speichern.
 1. Aktivieren Sie die Option **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
 
-![](assets/publish-ec.png)
+![Experience Cloud veröffentlichen](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Stellen Sie sicher, dass Sie „Besucher mit Experience Cloud ID“ verwenden, wenn Sie Segmentvorschauen in Analytics anstelle der Segmentvorschau „Unique Visitors“ insgesamt betrachten, wenn Sie Adobe Analytics-Zahlen mit Audience Manager-Zahlen vergleichen:
+>Stellen Sie sicher, dass Sie bei der Betrachtung der Segmentvorschau in Analytics &quot;Besucher mit Experience Cloud-ID&quot;anstelle der Segmentvorschau &quot;Unique Visitors&quot;insgesamt verwenden, wenn Sie Adobe Analytics-Zahlen mit den Audience Manager-Zahlen vergleichen:
 >
->![](assets/seg-vis-ecid.png)
+>![Besucher mit ECID segmentieren](assets/seg-vis-ecid.png)
 
 | Element | Beschreibung |
 |---|---|
@@ -83,7 +83,7 @@ Um ein in Experience Cloud veröffentlichtes Segment zu löschen, müssen Sie zu
 1. Navigieren Sie zu [!UICONTROL Analytics > Komponenten > Segmente].
 1. Beachten Sie die neue Spalte [!UICONTROL Veröffentlicht]. „Ja“/„Nein“ bezieht sich darauf, ob das Segment in der Experience Cloud veröffentlicht wurde oder nicht.
 
-![](assets/publish-status.png)
+![Veröffentlichungsstatus](assets/publish-status.png)
 
 ## Abrufen der [!DNL Audience Manager]-UUID
 
@@ -94,15 +94,15 @@ Es gibt zwei Möglichkeiten, die AAM-UUID zu erfassen, die derzeit mit dem Brows
 
 Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser abrufen und sie im Audience Manager-Besucherprofil-Betrachter verwenden, um Eigenschaften- und Segmentmitgliedschaften zu validieren.
 
-**Methode 1: Verwenden von Adobe Experience Cloud Debugger**
+### Methode 1: Verwenden von Adobe Experience Cloud Debugger
 
 1. Laden Sie den [Adobe Experience Cloud-Debugger](/help/implement/validate/debugger.md) im Chrome-Webstore herunter und installieren Sie ihn.
 1. Starten Sie den Debugger beim Laden einer Seite.
 1. Blättern Sie zum Audience Manager-Abschnitt und suchen Sie die AAM-UUID, die auf der aktuellen Browserseite eingestellt ist (`50814298273775797762943354787774730612` im Beispiel unten).
 
-![](assets/debugger.jpg)
+![Debugger](assets/debugger.jpg)
 
-**Methode 2: Verwenden von Chrome Developer Tools (oder anderen Browser-Entwicklertools)**
+### Methode 2: Verwenden von Chrome Developer Tools (oder anderen Browser-Entwicklertools)
 
 1. Starten Sie Chrome Developer Tools vor dem Laden einer Seite.
 1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die AAM-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) im Beispiel unten) festgelegt sein. Das Feld „demdex“ ist die AAM-UUID-Einstellung im Browser (`50814298273775797762943354787774730612` im Beispiel unten).
@@ -113,7 +113,7 @@ Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser ab
 
 Die AAM-UUID im Browser wird standardmäßig verwendet, wenn der [!UICONTROL Besucherprofil-Betrachter] geladen wird. Wenn Sie Eigenschaftsrealisierungen für andere Benutzer überprüfen, geben Sie eine UUID in das Feld „UUID“ ein und klicken Sie auf [!UICONTROL Aktualisieren]. Weitere Informationen finden Sie unter [Besucherprofil-Betrachter](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=de).
 
-![](assets/aam-vpv.png)
+![Audience Manager-Profil-Viewer](assets/aam-vpv.png)
 
 ## Anzeigen von Segmenteigenschaften in [!DNL Audience Manager]
 
@@ -121,12 +121,12 @@ In AAM wird die Liste der Besucher mit ECIDs für ein bestimmtes Segment in Form
 
 1. Gehen Sie in [!DNL Audience Manager] zu [!UICONTROL Zielgruppendaten > Eigenschaften > Analytics-Eigenschaften]. Es wird ein Ordner für jede Analytics Report Suite angezeigt, die mit Ihrer Experience Cloud-Organisation verknüpft ist. Diese Ordner (für Eigenschaften, Segmente und Data Sources) werden erstellt, wenn der Hauptdienst Profile und Zielgruppen/Personen initiiert oder bereitstellt.
 1. Wählen Sie den Ordner für die Report Suite aus, in der Sie zuvor das Segment erstellt haben, das Sie für [!DNL Audience Manager] freigeben möchten. Sie sehen das Segment/die Zielgruppe, das/die Sie erstellt haben. Wenn Sie ein Segment freigeben, geschehen in [!DNL Audience Manager] zwei Dinge:
-* Eine Eigenschaft wird erstellt, zunächst ohne Daten. Ca. 8 Stunden nach der Veröffentlichung des Segments in [!DNL Analytics] wird die Liste der ECIDs für [!DNL Audience Manager] und andere Experience Cloud-Lösungen integriert und freigegeben.
+   * Eine Eigenschaft wird erstellt, zunächst ohne Daten. Ca. 8 Stunden nach der Veröffentlichung des Segments in [!DNL Analytics] wird die Liste der ECIDs für [!DNL Audience Manager] und andere Experience Cloud-Lösungen integriert und freigegeben.
 
-![](assets/aam-traits.png)
+      ![Audience Manager-Eigenschaften](assets/aam-traits.png)
 
-* Es wird ein Segment mit einer Eigenschaft erstellt. Es verwendet die Datenquelle, die mit der Report Suite verknüpft ist, in der Sie das Segment veröffentlicht haben.
-* Die Eigenschaft läuft nun nach 16 Tagen ab (zuvor waren es 2 Tage).
+   * Es wird ein Segment mit einer Eigenschaft erstellt. Es verwendet die Datenquelle, die mit der Report Suite verknüpft ist, in der Sie das Segment veröffentlicht haben.
+   * Die Eigenschaft läuft nun nach 16 Tagen ab (zuvor waren es 2 Tage).
 
 ## Anzeigen des Segments in [!DNL Adobe Target]
 

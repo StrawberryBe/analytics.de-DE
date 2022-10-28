@@ -3,10 +3,10 @@ description: Mit dem Importeur können Sie Classification-Daten in großen Menge
 title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 98%
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
 * Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß    [maskiert wurde](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
    * v2.0 ignoriert Anführungszeichen und nimmt an, dass sie alle Bestandteil der angegebenen Schlüssel und Werte sind. Beachten Sie z. B. diesen Wert: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;. v2.0 würde dies wörtlich wie folgt interpretieren: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;.
    * v2.1 teilt Classifications mit, dass sie Anführungszeichen als Bestandteil der in Excel-Dateien verwendeten Dateiformatierungen betrachten sollen. Daher würde v2.1 das obenstehende Beispiel wie folgt umformatieren: Dies ist &quot;irgendein Wert&quot;.
    * Es kann zu Problemen kommen, wenn in der Datei v2.1 angegeben ist, jedoch tatsächlich v2.0 gewünscht wurde – und zwar, wenn Anführungszeichen auf eine Weise verwendet werden, die bei Excel-Formatierung nicht zulässig wäre. Z. B., wenn folgender Wert vorliegt: „VP NO REPS“ S/l Dress w/ Overlay. Im Fall von v2.1 ist diese Formatierung nicht korrekt (der Wert sollte von öffnenden und schließenden Anführungszeichen eingeschlossen sein, und Anführungszeichen, die Bestandteil des eigentlichen Werts sind, müssen von Anführungszeichen umgeben sein), und Classifications funktionieren über diesen Punkt hinaus nicht.
-   * Vergewissern Sie sich, dass Sie eine der folgenden Aktionen durchführen: Ändern Sie das Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den Dateien ändern, die Sie hochladen, ODER setzen Sie die Anführungszeichen für Excel in allen Ihren Dateien korrekt um.
+   * Führen Sie einen der folgenden Schritte aus: Ändern Sie Ihr Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den hochgeladenen Dateien ändern ODER die Excel-Anführungszeichen in allen Dateien ordnungsgemäß implementieren.
 
 * Die erste (Nicht-Kommentar)-Zeile der Datendatei enthält die Spaltenüberschriften, die die Classification-Daten in der Spalte bezeichnen. Für Spaltenüberschriften ist im Importeur ein bestimmtes Format erforderlich. Weitere Informationen finden Sie unter [Format der Spaltenüberschrift](/help/components/classifications/importer/c-saint-data-files.md).
 * Unmittelbar auf die Überschriftenzeile in einer Datendatei folgen die Datenzeilen. Jede Zeile mit Daten sollte ein Datenfeld für jede Spaltenüberschrift enthalten.

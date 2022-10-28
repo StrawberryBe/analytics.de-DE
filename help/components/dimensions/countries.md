@@ -3,16 +3,16 @@ title: Länder
 description: Das Land, aus dem der Treffer stammt.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 89%
 
 ---
 
 # Länder
 
-Die Dimension „Länder“ gibt das Land an, aus dem der Treffer stammt. Diese Dimension ist nützlich, um die beliebtesten Länder zu ermitteln, aus denen die Besucher beim Besuch Ihrer Website stammen. Mithilfe dieser Daten können Sie sich auf Marketing-Maßnahmen in diesen Ländern konzentrieren oder sicherstellen, dass Ihr Site-Erlebnis in Ländern mit unterschiedlichen Hauptsprachen optimal ist.
+Die Dimension „Länder“ gibt das Land an, aus dem der Treffer stammt. Diese Dimension ist nützlich, um die beliebtesten Länder zu ermitteln, aus denen die Besucher beim Besuch Ihrer Website stammen. Sie können diese Daten verwenden, um sich auf Marketing-Maßnahmen in diesen Ländern zu konzentrieren oder sicherzustellen, dass Ihr Site-Erlebnis in Ländern mit unterschiedlichen Hauptsprachen optimal ist.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -1,12 +1,12 @@
 ---
-title: eVar für Dimensionen
-description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
+title: eVar (Dimension)
+description: Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden können.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datene
 
 ## Dimensionselemente
 
-Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede eVar gelten. Vergewissern Sie sich, dass Sie den Zweck jeder eVar und die typischen Dimensionselemente in einem [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) aufzeichnen.
+Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede eVar gelten. Vergewissern Sie sich, dass Sie den Zweck jedes eVar und die typischen Dimensionselemente in einer [Lösungsdesigndokument](/help/implement/prepare/solution-design.md).
 
 ## Funktionsweise von eVars
 

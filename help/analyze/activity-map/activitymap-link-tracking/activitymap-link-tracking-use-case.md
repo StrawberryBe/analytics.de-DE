@@ -5,10 +5,10 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 61%
+source-wordcount: '363'
+ht-degree: 57%
 
 ---
 
@@ -80,6 +80,7 @@ Erstellen einer eindeutigen Objekt-ID, `s_objectID`für einen Link oder eine Lin
 >[!IMPORTANT]
 >
 >Beachten Sie, dass ein nachstehendes Semikolon (`;`) bei Verwendung von `s_objectID` in Activity Map.
+
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -138,10 +139,10 @@ Erstellen einer eindeutigen Objekt-ID, `s_objectID`für einen Link oder eine Lin
 Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &quot;Buy&quot;eine eigene Region definiert ist. Fügen Sie dazu eine `"id"` -Parameter zu einem der übergeordneten Elemente jedes Verankerungs-Tags &quot;Buy&quot;.
 
 >[!NOTE]
+>
 >Sie sind nicht auf die `"id"` als Regions-ID. Sie können Ihre eigene Kennung auch mithilfe der JavaScript-Variablen festlegen `"s.ActivityMap.regionIDAttribute"`.
->
->
-><table id="table_250DB52A869C466B942517BABA1C287B">
+
+<table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
   <tr>
    <th colname="col02" class="entry"> Code-Beispiel </th>
@@ -197,11 +198,12 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &
 ## Activity Map-Moduldatei AppMeasurement anpassen  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
-Sie sollten den geänderten Code unbedingt testen, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
+>
+>Stellen Sie sicher, dass Sie den geänderten Code testen, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
 
 Im Folgenden finden Sie einige Beispiele für **allgemeine** Link-/Regionsfunktionen, die Sie (in geänderter Form) in die Datei AppMeasurement.js einschließen können.
 
-```
+```js
 s.ActivityMap.link = function(ele, linkName) {
   if (linkName) {
     return linkName;
@@ -216,7 +218,7 @@ s.ActivityMap.link = function(ele, linkName) {
 
 Die `linkName` wird bei Aufrufen an `s.tl()`.
 
-```
+```js
 s.ActivityMap.region = function(ele) {
   var className,
   classNames = {

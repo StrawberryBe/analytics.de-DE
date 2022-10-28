@@ -5,10 +5,10 @@ title: Vorbereiten auf die Verwendung von Data Sources
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können für eine Metrik mehrere Datendimensionen definieren, aber jede Metr
 
 Wenn Sie die zu verwendende Datendimension mit einer Datenquelle definiert haben, integrieren Sie die Dimensionsdaten in Marketingberichte, indem Sie sie einer Variablen zuordnen. Verwenden Sie entweder Standardberichte (z. B. Produkt, Trackingcode, Keyword) oder Konversion-Traffic-Variablen (eVars).
 
-Wenn Sie eVars verwenden, können Sie entweder vorhandene eVars oder neue eVars als Datendimensionen verwenden. Stellen Sie nach Auswahl einer eVar für den Empfang einer Datendimension aus Data Sources sicher, dass Sie sie ordnungsgemäß benennen.
+Wenn Sie eVars verwenden, können Sie entweder vorhandene eVars oder neue eVars als Datendimensionen verwenden. Nachdem Sie eine eVar ausgewählt haben, um eine Datendimension aus Data Sources zu erhalten, achten Sie darauf, sie angemessen zu benennen.
 
 Siehe [Erfolgsereignisse](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe zu Analytics.
 

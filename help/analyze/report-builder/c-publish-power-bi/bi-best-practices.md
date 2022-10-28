@@ -4,10 +4,10 @@ title: Best Practices
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '139'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Wenn Sie eine Anforderung erstellen, besitzt diese Anforderung immer die gleiche Referenz in Power BI. Wenn Sie jedoch eine Anforderung löschen, wird die Referenz von einer neuen Anforderung verwendet, die Sie für die gleiche Dimension erstellen.
 
-Wenn Sie eine Anforderung in Ihrer Arbeitsmappe löschen, stellen Sie sicher, dass in Power BI keine Visualisierung auf diese Anforderung verweist, da die Visualisierung dadurch beschädigt wird.
+Wenn Sie eine Anforderung in Ihrer Arbeitsmappe löschen, stellen Sie sicher, dass Sie keine Visualisierung haben, die in Power BI auf diese Anforderung verweist, da andernfalls die Visualisierung beschädigt wird.
 
 * Sofern möglich, löschen Sie keine Anforderungen, die Sie in Report Builder erstellt haben.
 * Wenn Sie Anforderungen in Report Builder löschen müssen, löschen Sie auch die entsprechenden Visualisierungen in Power BI.

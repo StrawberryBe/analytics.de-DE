@@ -3,10 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: ht
-source-wordcount: '2321'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -275,7 +275,7 @@ Aktualisiert: **4. August 2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 des [!DNL Experience Cloud] ID-Diensts *erfordert* [!DNL AppMeasurement] für [!DNL JavaScript]-Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des Experience Cloud ID-Diensts aktualisieren möchten, stellen Sie sicher, dass Sie [!DNL AppMeasurement]-Code der Version 1.6.3 oder höher verwenden.
+>Version 1.6.0 des [!DNL Experience Cloud] ID-Diensts *erfordert* [!DNL AppMeasurement] für [!DNL JavaScript]-Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des Experience Cloud-ID-Diensts aktualisieren möchten, stellen Sie sicher, dass Sie AppMeasurement 1.6.3 oder höher verwenden.
 
 ## Version 1.6.2
 
@@ -456,7 +456,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zu unterstützen.
 
 ## Version 1.1.1
 

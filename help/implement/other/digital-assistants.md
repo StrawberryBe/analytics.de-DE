@@ -3,10 +3,10 @@ title: Implementieren von Analytics für digitale Assistenten
 description: Implementieren Sie Adobe Analytics für digitale Assistenten, wie Amazon Alexa oder Google Home.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1265'
+ht-degree: 98%
 
 ---
 
@@ -113,7 +113,7 @@ Jeder digitale Assistent verfügt über Algorithmen, die Intents erkennen und da
 
 Wenn ein Benutzer beispielsweise sagt: „Siri, sende John 20 $ für das Abendessen gestern über meine Bank-App“, dann lautet der Intent etwa *sendMoney*.
 
-Indem Sie jede dieser Anfragen als eVar einsenden, können Sie Pfadsetzungsberichte für jeden Intent für Konversations-Apps erstellen. Stellen Sie sicher, dass Ihre App Anfragen auch ohne Intent bearbeiten kann. Adobe empfiehlt, „Kein Intent angegeben“ an die Intent-Kontextdatenvariable zu übergeben, anstatt die Variable zu überspringen.
+Indem Sie jede dieser Anfragen als eVar einsenden, können Sie Pfadsetzungsberichte für jeden Intent für Konversations-Apps erstellen. Stellen Sie sicher, dass Ihre App Anforderungen auch ohne Intent verarbeiten kann. Adobe empfiehlt, „Kein Intent angegeben“ an die Intent-Kontextdatenvariable zu übergeben, anstatt die Variable zu überspringen.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1

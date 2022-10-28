@@ -5,10 +5,10 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '8276'
-ht-degree: 100%
+source-wordcount: '8277'
+ht-degree: 99%
 
 ---
 
@@ -1051,7 +1051,7 @@ Am 20. Oktober 2016 veröffentlichte neue Funktionen:
 Am 16. Juni 2016 veröffentlichte neue Funktionen:
 
 * [Neue Gruppenberechtigung](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de), über die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** für Benutzer zulassen oder verweigern können. Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
-* Das [Bedienfeld „Segmentvergleich“](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) erkennt die meisten statistisch signifikanten Unterschiede zwischen zwei beliebigen Segmenten mithilfe einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben.
+* Das [Bedienfeld &quot;Segmentvergleich&quot;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)erkennt die meisten statistisch signifikanten Unterschiede zwischen zwei beliebigen Segmenten durch eine automatisierte Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben.
 * [Neue Menüstruktur für „Projekte“](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), die das obere Menü neu gestaltet und erweiterbarer macht. Um z. B. ein **neues Kohorten-Bedienfeld** zu erstellen, muss jetzt ein leeres Bedienfeld erstellt werden, in dem eine Kohortentabellenvisualisierung abgelegt wird.
 * [Neue linke Leiste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Bedienfelder, Visualisierungen, Komponenten.
 * Eine neue [Venn-Visualisierung](/help/analyze/analysis-workspace/visualizations/venn.md), in der Sie bis zu 3 Segmente und eine Metrik ablegen und ein Venn-Diagramm erstellen können.

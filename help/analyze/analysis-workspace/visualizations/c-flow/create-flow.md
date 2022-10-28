@@ -4,10 +4,10 @@ title: Flussvisualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 89%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ Die neue [!UICONTROL Fluss]-Funktion verbessert Ihren Workflow auf mehrfache Wei
 
    * Verwenden Sie das Dropdown-Menü, um Metriken oder Dimensionen auszuwählen.
    * Ziehen Sie Elemente aus der Dimensionen- oder Metrikliste.
-   * Verwenden Sie die Suche, um die gewünschten Metriken oder Dimensionen zu finden.
+   * Verwenden Sie die Suche, um die Dimension oder Metrik zu finden, nach der Sie suchen.
 
    Nehmen wir beispielsweise an, Sie möchten alle Etappen nachverfolgen, die zu einem Checkout-Ereignis führen. In diesem Fall würden Sie eine mit dem Checkout zusammenhängende Dimension oder Metrik (z. B. [!UICONTROL Bestellung vorhanden]) in die Ablagefläche **[!UICONTROL Endet mit]** ziehen.
 

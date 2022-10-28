@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Verarbeitungsregeln für Mobile Services nach
 title: Migrieren von Verarbeitungsregeln für Mobile Services nach Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Wenn Sie jedoch zusätzliche Verarbeitungsregeln in der Mobile Services-Benutzer
 
    ![Kontextvariable](assets/context-var.png)
 
-1. Wechseln Sie in Experience Cloud zu Adobe Analytics und stellen Sie sicher, dass Sie sich in derselben mobilen Report Suite befinden, die Sie auch in Mobile Services angezeigt haben.
+1. Wechseln Sie in Experience Cloud zu Adobe Analytics und stellen Sie sicher, dass Sie sich in derselben mobilen Report Suite befinden, die Sie auch in Mobile Services verwendet haben.
 1. Wechseln Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]**.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
 1. Ignorieren Sie die Bedingungen und fügen Sie die gleichen Kontextvariablen hinzu, die in Mobile Services vorhanden sind.
@@ -59,7 +59,7 @@ Im Folgenden finden Sie einen Ausschnitt der Vorlage „Mobile App Usage“:
 So greifen Sie auf die Vorlagen zu:
 
 1. Melden Sie sich bei `experience.adobe.com` an, und wählen Sie Analytics aus.
-1. Vergewissern Sie sich, dass Sie sich in einer Report Suite befinden, die für Mobile Services aktiviert ist.
+1. Stellen Sie sicher, dass Sie sich in einer Report Suite befinden, die für Mobile Services aktiviert ist.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Workspace]**.
 1. Klicken Sie auf **[!UICONTROL Neues Projekt erstellen]**.
 1. Wählen Sie eine der Mobile-Vorlagen aus und klicken Sie auf **[!UICONTROL Erstellen]**.

@@ -1,18 +1,18 @@
 ---
-description: Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. Machen Sie sich hierzu zunächst mit den Beschriftungen und ihren Definitionen vertraut.
+description: Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen.
 title: Report Suite-Daten beschriften
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
 # Report Suite-Daten beschriften
 
-Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. Machen Sie sich hierzu zunächst mit den Beschriftungen und ihren Definitionen vertraut.
+Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. Machen Sie sich zunächst mit den Bezeichnungen und deren Definitionen vertraut.
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
 **Beispiel**: Sie als Datenverantwortlicher planen die Erfassung von E-Mail-Adressen und Cookie-IDs von Datensubjekten, um ihre Datenschutzanfragen zu verarbeiten. Diese Cookie-IDs werden in einer Adobe Analytics Report Suite gespeichert. Um eine Beschriftung für E-Mail-Adressen und Cookie-IDs zu erstellen, müssen Sie das Adobe Cloud Platform-DULE-Framework (Data Usage Labeling &amp; Enforcement) in Analytics verwenden.
 
-1. Öffnen Sie hierzu in Analytics **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (Wählen Sie die gewünschte Report Suite aus)]** ![](assets/privacy_rs_settings.png)
+1. Öffnen Sie hierzu in Analytics **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (Wählen Sie die gewünschte Report Suite aus)]** ![Datenschutzeinstellungen](assets/privacy_rs_settings.png)
 
 1. Wählen Sie aus, welche Variablengruppe Sie beschriften wollen.
 
-   ![](assets/variables.png)
+   ![Variablen](assets/variables.png)
 
    * **Standarddimensionen** (standardmäßig verfügbare Adobe Analytics-Dimensionen)
    * **Standardmetriken** (standardmäßig verfügbare Adobe Analytics-Metriken)
@@ -39,11 +39,11 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
 1. (Optional) Klicken Sie auf das Informationssymbol (i) neben den einzelnen Variablen, um die häufigsten Werte der letzten 90 Tage besser nachvollziehen zu können. (Diese Funktionalität steht für Dimensionen zur Datenverarbeitung nicht zur Verfügung, da sie in der Analytics-UI nicht verfügbar sind.)
 
-   ![](assets/info.png)
+   ![Info](assets/info.png)
 
 1. Wählen Sie mindestens eine Variable aus, indem Sie das entsprechende Kontrollkästchen aktivieren, und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]** (rechts), um sie zu bearbeiten.
 
-   ![](assets/edit.png)
+   ![Bearbeiten](assets/edit.png)
 
 1. Das Dialogfeld für **Identitätsdaten**-Beschriftungen öffnet sich automatisch. Diese Beschriftungen geben an, welche Daten allein oder in Kombination mit anderen Daten verwendet werden können, um eine Person zu identifizieren oder direkten Kontakt herzustellen. Weitere Informationen zu diesen Optionen finden Sie unter [Beschriftungen für Identitätsdaten (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
@@ -51,15 +51,15 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
    >
    >Das DULE-Framework (Data Usage Labeling &amp; Enforcement) wurde entwickelt, um über Lösungen, Services und Plattformen hinweg eine einheitliche Methode zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in der Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche vertraglichen Beschränkungen für die Daten gelten.
 
-   ![](assets/identity_labels.png)
+   ![Identitätsbeschriftungen](assets/identity_labels.png)
 
 1. Öffnen Sie den Bereich **Vertrauliche Daten**, um Beschriftungen für vertrauliche Daten festzulegen, mit deren Hilfe die geografischen Daten kategorisiert werden. Weitere Informationen zu diesen Optionen finden Sie unter [Beschriftungen für vertrauliche Daten (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
-   ![](assets/sensitive_data.png)
+   ![Sentimentive Daten](assets/sensitive_data.png)
 
 1. Öffnen Sie den Bereich „Datenschutzdaten“, um **Data Governance**-Beschriftungen festzulegen. In diesem Bereich können Sie Adobe anweisen, wie die einzelnen Variablen für Datenschutz-Zugriffs- und -Löschanfragen verarbeitet werden, und Sie können definieren, welche Variablen überprüft werden sollen, um die Datensubjekt-IDs für diese Anfragen zu finden. Weitere Informationen zu diesen Optionen finden Sie unter [Beschriftungen für Data Governance (Datenschutz).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![](assets/privacy_labels.png)
+   ![Datenschutzbezeichnungen](assets/privacy_labels.png)
 
 1. Nachdem Sie sämtliche Beschriftungen abgeschlossen haben, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
@@ -71,7 +71,7 @@ Wenn Sie DULE-/Datenschutzeinstellungen auf mehr als eine Report Suite anwenden 
 1. Wählen Sie eine oder alle Variablen in dieser Gruppe aus.
 1. Klicken Sie oben rechts im Dialogfenster „Data Governance“ auf **[!UICONTROL Beschriftungen zu Report Suite(s) kopieren]**.
 
-   ![](assets/apply_as_template.png)
+   ![Als Vorlage anwenden](assets/apply_as_template.png)
 
 1. Aktivieren Sie entweder das Kontrollkästchen **[!UICONTROL Alle auswählen]**, um Beschriftungen für die ausgewählten Variablen in alle Report Suites zu kopieren, oder wählen Sie die einzelnen Report Suites aus, in die Sie die Beschriftungen kopieren möchten.
 

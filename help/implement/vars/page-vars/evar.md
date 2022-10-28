@@ -1,12 +1,12 @@
 ---
-title: eVar-Variablen
+title: eVar (Variable)
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 88%
+source-wordcount: '406'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind
 
 ## Einrichten von eVars in den Report Suite-Einstellungen
 
-Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie jede eVar in den Report Suite-Einstellungen konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
+Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie die einzelnen eVar in den Report Suite-Einstellungen konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
 ## eVars mit dem Web SDK
 

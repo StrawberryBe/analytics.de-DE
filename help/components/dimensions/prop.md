@@ -1,12 +1,12 @@
 ---
 title: Prop
-description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
+description: Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden können.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datene
 
 ## Dimensionselemente
 
-Da Props benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede Prop gelten. Vergewissern Sie sich, dass Sie den Zweck jeder Prop und die typischen Dimensionselemente in einem [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) aufzeichnen.
+Da Props benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede Prop gelten. Vergewissern Sie sich, dass Sie den Zweck jeder Prop und die typischen Dimensionselemente in einer [Lösungsdesigndokument](/help/implement/prepare/solution-design.md).
 
 ## Groß-/Kleinschreibung
 

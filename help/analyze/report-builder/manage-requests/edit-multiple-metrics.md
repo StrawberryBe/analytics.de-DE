@@ -4,10 +4,10 @@ title: Metriken mit Mehrfachanforderungen bearbeiten
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Bedenken Sie Folgendes
 
 * Metriken können nur zu Anforderungen des Typs „Pivot-Layout“ hinzugefügt werden. Wenn einige der ausgewählten Anforderungen benutzerdefinierte Layouts sind, können keine Metriken hinzugefügt werden. Der Grund dafür liegt darin, dass Report Builder nicht weiß, wo im Arbeitsblatt die neue Metrik hinzugefügt werden soll, da das Layout benutzerdefiniert ist.
 * Deshalb ist die Option **[!UICONTROL Metrik(en) hinzufügen]** nicht verfügbar, wenn Sie ausschließlich benutzerdefinierte Layout-Anforderungen ausgewählt haben.
-* Durch das Hinzufügen von Metriken erhöht sich die Größe einer Anforderung, weshalb sie sich mit einer anderen überschneiden könnte. Achten Sie darauf, dass Ihre Anforderung rundherum ausreichend Platz zum Hinzufügen von Metriken hat.
+* Durch das Hinzufügen von Metriken erhöht sich die Größe einer Anforderung, weshalb sie sich mit einer anderen überschneiden könnte. Stellen Sie sicher, dass Ihre Anforderung genügend Platz hat, um Metriken hinzufügen zu können.
 * Wenn die hinzugefügte Metrik bereits in einer der ausgewählten Anforderungen vorhanden ist, wird sie nicht zu dieser hinzugefügt.
 
 So fügen Sie eine oder mehrere Metriken hinzu:
@@ -29,7 +29,7 @@ So fügen Sie eine oder mehrere Metriken hinzu:
 1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten]** aus. (Oder klicken Sie auf **[!UICONTROL Verwalten]** > **[!UICONTROL Mehrere bearbeiten]** > `<choose metric>` > **[!UICONTROL Gruppe bearbeiten]**, um die zu ändernde Anforderungsgruppe auszuwählen.)
 1. Wählen Sie **[!UICONTROL Metrik(en) hinzufügen]** und danach die entsprechenden Metriken aus.
 
-   ![](assets/add_metric.png)
+   ![Metrik hinzufügen](assets/add_metric.png)
 
 1. Aktualisieren Sie die Anforderung, um die tatsächlichen Daten anzuzeigen. Die Offline-Daten werden so lange angezeigt, bis Sie eine Aktualisierung durchführen.
 
@@ -52,7 +52,7 @@ So ersetzen Sie eine Metrik:
 
 1. Wählen Sie **[!UICONTROL Metrik ersetzen]** aus.
 
-   ![](assets/replace_metric.png)
+   ![Kennzahl ersetzen](assets/replace_metric.png)
 
 1. Wählen Sie aus, welche Metrik ersetzt werden soll und durch welche Metrik sie ersetzt werden soll.
 1. Aktualisieren Sie die Anforderung. Die Offline-Daten werden so lange angezeigt, bis Sie eine Aktualisierung durchführen.
@@ -72,7 +72,7 @@ So entfernen Sie Metriken:
 
 1. Wählen Sie **[!UICONTROL Metrik(en) entfernen]**.
 
-   ![](assets/remove_metric.png)
+   ![Metrik entfernen](assets/remove_metric.png)
 
 1. Wählen Sie mindestens eine Metrik aus, die aus der Anforderung entfernt werden soll.
 1. Aktualisieren Sie die Anforderung. Die Offline-Daten werden so lange angezeigt, bis Sie eine Aktualisierung durchführen.
