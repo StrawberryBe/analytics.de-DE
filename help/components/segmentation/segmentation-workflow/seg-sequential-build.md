@@ -3,10 +3,10 @@ description: Sequenzielle Segmente werden über den THEN-Operator anstelle von A
 title: Sequentielle Segmente erstellen
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
 workflow-type: tm+mt
-source-wordcount: '3864'
-ht-degree: 100%
+source-wordcount: '3827'
+ht-degree: 97%
 
 ---
 
@@ -210,14 +210,7 @@ Erstellen Sie ein Segment, wie Sie dies für ein  einfaches oder verschachteltes
 
 Wenn sich der Ausschluss-Checkpoint am Anfang eines sequenziellen Segments befindet, wird sichergestellt, dass vor dem ersten nicht ausgeschlossenen Treffer keine ausgeschlossene Seitenansicht aufgetreten ist.
 
-**Beispiel**: Besucher hat Seite A und nicht Seite B besucht.
-
-**Nutzungsszenarios**
-
-Die folgenden Anwendungsbeispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
-
-* Besucher, die Seite A, aber nicht Seite B besucht haben.
-* Ein Restaurant möchte treue Benutzer erkennen, die die Haupt-Landingpage umgehen und direkt zur Bestellseite navigieren.
+Beispiel: Ein Restaurant möchte invasive Benutzer sehen, die die Haupt-Landingpage vermeiden und direkt zur Bestellseite gehen. Dieses Beispiel kann für einen Besucher vereinfacht werden, der den Besuch von Seite A vermeidet und direkt zur Seite B wechselt.
 
 **Dieses Segment erstellen**
 
@@ -229,14 +222,7 @@ Erstellen Sie zwei separate Trefferbehälter in einem Besucherbehälter der ober
 
 Wenn der Ausschluss-Checkpoint am Ende einer Sequenz liegt, wird sichergestellt, dass der Checkpoint nicht zwischen dem letzten nicht ausgeschlossenen Checkpoint und dem Ende der Besuchersequenz auftritt.
 
-**Beispiel**: Besucher besuchen Seite A und sie haben dann im aktuellen Besuch oder in darauf folgenden Besuchen nicht Seite B besucht.
-
-**Nutzungsszenarios**
-
-Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
-
-* Besucher, die Seite A, aber nicht Seite B besucht haben.
-* Ein Restaurant möchte treue Benutzer erkennen, die die Haupt-Landingpage umgehen und direkt zur Bestellseite navigieren.
+Ein Bekleidungsladen möchte beispielsweise alle Besucher sehen, die eine Produktseite angesehen, aber anschließend ihren Warenkorb nie besucht haben. Dieses Beispiel kann für einen Besucher vereinfacht werden, der Seite A besucht und dann bei aktuellen oder nachfolgenden Besuchen nie Seite B besucht.
 
 **Dieses Segment erstellen**
 
