@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie mit dem Reporting Activity Manager Kapazität
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '919'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Beim Öffnen der Übersichtsseite &quot;Reporting Activity Manager&quot;wird ein
 | **[!UICONTROL Report Suite]** | Die zugrunde liegende Report Suite, deren Berichtsaktivität Sie überwachen. |
 | **[!UICONTROL Virtual Report Suite]** | Zeigt alle Virtual Report Suites an, die in diese zugrunde liegende Report Suite einfließen. Virtual Report Suites bieten Berichtsanforderungen aufgrund zusätzlicher angewendeter Filter- und Segmentierungsebenen zusätzliche Komplexität. Alle Anforderungen, die von Virtual Report Suites stammen, werden kombiniert und gelangen zur zugrunde liegenden Report Suite.<p>Wenn Sie z. B. 10 Anforderungen von 5 VRSs haben, sind das 50 Anforderungen auf Basis-Report Suite. Auf diese Weise können Sie die Kapazität sehr schnell erreichen. |
 | **[!UICONTROL Nutzungskapazität]** | Prozentualer Anteil, wie viel der Berichterstellungskapazität der Report Suite in Echtzeit verwendet wird. |
-| **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - [!UICONTROL Kapazität]**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt. (95% - 100%) </li><li>**Gelb - [!UICONTROL Anbaufähige Kapazität]**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen. (90% - 94%)</li><li>**Green - [!UICONTROL Alles Gute]**: Die Berichtskapazität ist reichlich. (0% - 90%)</li><li>**Grau - [!UICONTROL Status ausstehend]**: ?</li></ul> |
+| **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot - [!UICONTROL Kapazität]**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt. (100%) </li><li>**Gelb - [!UICONTROL Anbaufähige Kapazität]**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen. (90% - 99%)</li><li>**Green - [!UICONTROL Alles Gute]**: Die Berichtskapazität ist reichlich. (0% - 89%)</li><li>**Grau - [!UICONTROL Status ausstehend/Nicht aktiviert]**: Berichtskapazität nicht verfügbar.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ Die Zusammenfassungsnummern zeigen die folgenden Informationen an:
 
 | Zusammenfassungszahl | Beschreibung |
 | --- | --- |
-| Benutzer | Wie viele Benutzer derzeit Reporting-Anforderungen an diese Report Suite senden. |
-| Projekte | Workspace-Projekte, Report Builder-Arbeitsmappen usw. |
-| Abfragen | Die Anzahl der derzeit ausgeführten Abfragen. |
-| Durchschnittliche Wartezeit | Die durchschnittliche Wartezeit für alle ausgeführten Abfragen. |
-| Nutzungskapazität | Die aktuelle Nutzungskapazität für diese Report Suite. |
+| [!UICONTROL Benutzer] | Wie viele Benutzer derzeit Reporting-Anforderungen an diese Report Suite senden. |
+| [!UICONTROL Projekte] | Workspace-Projekte, Report Builder-Arbeitsmappen usw. |
+| [!UICONTROL Abfragen] | Die Anzahl der derzeit ausgeführten Abfragen. |
+| [!UICONTROL Durchschnittliche Wartezeit] | Die durchschnittliche Wartezeit für alle ausgeführten Abfragen. |
+| [!UICONTROL Nutzungskapazität] | Die aktuelle Nutzungskapazität für diese Report Suite. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 
 | Spalte | Beschreibung |
 | --- | --- |
-| Abfrage-ID | Kann zur Fehlerbehebung verwendet werden. |
-| Ausführungszeit | Dauer der Abfrage. |
-| Wartezeit | Dauer der Verarbeitung der Abfrage. Im Allgemeinen bei &quot;0&quot;, wenn genügend Kapazität vorhanden ist. |
-| Startzeit | Der Zeitpunkt, zu dem die Verarbeitung der Abfrage begonnen hat (Ortszeit des Administrators). |
-| Anwendung | Die vom Reporting Activity Manager unterstützten Anwendungen sind: <ul><li>Analysis Workspace-Benutzeroberfläche</li><li>Geplante Projekte im Arbeitsbereich</li><li>Report Builder</li><li>Builder-Benutzeroberfläche: Segment, berechnete Metriken, Anmerkungen, Zielgruppen usw.</li><li>API-Aufrufe von 1.4- oder 2.0-API (5 gleichzeitige Anfragen)</li><li>Intelligente Warnhinweise</li></ul> |
-| Benutzer | Der Benutzer, der die Abfrage initiiert hat. |
-| Projekt | Workspace-Projekte, Report Builder-Arbeitsmappen usw. |
-| Monatsgrenzen | Wie viele Monatsgrenzen eine Anforderung überschreitet. Dies erhöht die Komplexität der Anfrage. |
-| Spalten | Die Anzahl der Metriken und Aufschlüsselungen in Workspace, um die Komplexität der Anforderung abzuschätzen. |
-| Segmente | Wie viele Segmente auf diese Anforderung angewendet werden. Dies erhöht die Komplexität der Anfrage. |
-| Status | Vier mögliche Statusindikatoren: <ul><li>**Rot - [!UICONTROL Kapazität]**: Die Report Suite wird in Bezug auf die Berichtskapazität festgelegt. (95 % und mehr)</li><li>**Gelb - [!UICONTROL Anbaufähige Kapazität]**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen (90 % - 95 %).</li><li>**Green - [!UICONTROL Alles Gute]**: Die Berichtskapazität ist reichlich.</li><li>**[!UICONTROL Status ausstehend]**: Status nicht verfügbar.</li></ul> |
+| [!UICONTROL Abfrage-ID] | Kann zur Fehlerbehebung verwendet werden. |
+| [!UICONTROL Ausführungszeit] | Dauer der Abfrage. |
+| [!UICONTROL Wartezeit] | Dauer der Verarbeitung der Abfrage. Im Allgemeinen bei &quot;0&quot;, wenn genügend Kapazität vorhanden ist. |
+| [!UICONTROL Startzeit] | Der Zeitpunkt, zu dem die Verarbeitung der Abfrage begonnen hat (Ortszeit des Administrators). |
+| [!UICONTROL Anwendung] | Die vom Reporting Activity Manager unterstützten Anwendungen sind: <ul><li>Analysis Workspace-Benutzeroberfläche</li><li>Geplante Projekte im Arbeitsbereich</li><li>Report Builder</li><li>Builder-Benutzeroberfläche: Segment, berechnete Metriken, Anmerkungen, Zielgruppen usw.</li><li>API-Aufrufe aus der API 1.4 oder 2.0</li><li>Intelligente Warnhinweise</li></ul> |
+| [!UICONTROL Benutzer] | Der Benutzer, der die Abfrage initiiert hat. |
+| [!UICONTROL Projekt ] | Workspace-Projektnamen, API-Bericht-IDs usw. gespeichert. (Metadaten können von Anwendung zu Anwendung variieren.) |
+| [!UICONTROL Monatsgrenzen] | Wie viele Monatsgrenzen eine Anforderung überschreitet. Dies erhöht die Komplexität der Anfrage. |
+| [!UICONTROL Spalten] | Die Anzahl der Metriken und Aufschlüsselungen in Workspace, um die Komplexität der Anforderung abzuschätzen. |
+| [!UICONTROL Segmente] | Wie viele Segmente auf diese Anforderung angewendet werden. Dies erhöht die Komplexität der Anfrage. |
+| [!UICONTROL Status] | Statusindikatoren: <ul><li>**Läuft**: Die Anfrage wird derzeit verarbeitet.</li><li>**Ausstehend**: Die Anfrage wartet auf die Verarbeitung.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ Anwendungsbenutzer in Workspace sehen beispielsweise in ihren Projekten den folg
 | Frage | Antwort |
 | --- | --- |
 | Kann ich zusätzliche Berichtskapazitäten erwerben? | Diese Funktion wird demnächst verfügbar sein. |
-| Andere Fragen? |  |
 
 {style=&quot;table-layout:auto&quot;}
