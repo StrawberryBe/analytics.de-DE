@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie mit dem Reporting Activity Manager Kapazität
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
+source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 7%
@@ -17,7 +17,7 @@ ht-degree: 7%
 >
 >Diese Funktion befindet sich derzeit im Beta-Test.
 
-Mit dem Reporting Activity Manager können Sie die Berichtskapazität für jede Report Suite in Ihrer Organisation anzeigen. Als Administrator erhalten Sie detaillierte Einblicke in den Berichtsverbrauch und können mühelos Kapazitätsprobleme während Spitzenzeiten der Berichterstellung diagnostizieren und beheben.
+Die [!UICONTROL Reporting Activity Manager] zeigt die Berichtskapazität für jede Report Suite in Ihrer Organisation an. Als Administrator erhalten Sie detaillierte Einblicke in den Berichtsverbrauch und können mühelos Kapazitätsprobleme während Spitzenzeiten der Berichterstellung diagnostizieren und beheben.
 
 Wenn Ihr Unternehmen die Berichtsanforderungskapazität erreicht und die Berichtsleistung verschlechtert wird, können Sie jetzt Reporting-Probleme selbstdiagnostizieren, ohne dass dies vom Kundendienst oder vom Techniker der Adobe vorgenommen wird. Sie können einfach Berichtwarteschlangen in einer einzigen Oberfläche verwalten und sofort &#x200B; handeln, um das Benutzererlebnis zu verbessern. Dieses Tool:
 
@@ -35,7 +35,7 @@ Sie benötigen Analytics-Systemadministratorberechtigungen, um Berichtsaktivitä
 
 ## Berichtwarteschlange anzeigen
 
-Beim Öffnen der Übersichtsseite &quot;Reporting Activity Manager&quot;wird eine Liste Ihrer aktivierten Basis-Report Suites angezeigt.
+Beim Öffnen der [!UICONTROL Berichtsaktivität] Manager-Übersichtsseite angezeigt, sehen Sie eine Liste Ihrer aktivierten Basis-Report Suites.
 
 ![Berichtwarteschlange](assets/reporting-activity1.png)
 
@@ -104,7 +104,7 @@ Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 | [!UICONTROL Ausführungszeit] | Dauer der Abfrage. |
 | [!UICONTROL Wartezeit] | Dauer der Verarbeitung der Abfrage. Im Allgemeinen bei &quot;0&quot;, wenn genügend Kapazität vorhanden ist. |
 | [!UICONTROL Startzeit] | Der Zeitpunkt, zu dem die Verarbeitung der Abfrage begonnen hat (Ortszeit des Administrators). |
-| [!UICONTROL Anwendung] | Die vom Reporting Activity Manager unterstützten Anwendungen sind: <ul><li>Analysis Workspace-Benutzeroberfläche</li><li>Geplante Projekte im Arbeitsbereich</li><li>Report Builder</li><li>Builder-Benutzeroberfläche: Segment, berechnete Metriken, Anmerkungen, Zielgruppen usw.</li><li>API-Aufrufe aus der API 1.4 oder 2.0</li><li>Intelligente Warnhinweise</li></ul> |
+| [!UICONTROL Anwendung] | Die von der [!UICONTROL Reporting Activity Manager] sind: <ul><li>Analysis Workspace-Benutzeroberfläche</li><li>Geplante Projekte im Arbeitsbereich</li><li>Report Builder</li><li>Builder-Benutzeroberfläche: Segment, berechnete Metriken, Anmerkungen, Zielgruppen usw.</li><li>API-Aufrufe aus der API 1.4 oder 2.0</li><li>Intelligente Warnhinweise</li></ul> |
 | [!UICONTROL Benutzer] | Der Benutzer, der die Abfrage initiiert hat. |
 | [!UICONTROL Projekt ] | Workspace-Projektnamen, API-Bericht-IDs usw. gespeichert. (Metadaten können von Anwendung zu Anwendung variieren.) |
 | [!UICONTROL Monatsgrenzen] | Wie viele Monatsgrenzen eine Anforderung überschreitet. Dies erhöht die Komplexität der Anfrage. |
