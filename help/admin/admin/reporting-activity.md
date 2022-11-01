@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie mit dem Reporting Activity Manager Kapazität
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '928'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ In Adobe Analytics navigieren Administratoren zu **[!UICONTROL Admin]** > **[!UI
 
 ## Zugriffsberechtigungen
 
-Sie benötigen Analytics-Systemadministratorberechtigungen, um Berichtsaktivitäten zu verwalten. Der Produktadministratorzugriff reicht nicht aus.
+Sie benötigen Analytics Product Admin-Berechtigungen, um Berichtaktivitäten zu verwalten.
 
 ## Berichtwarteschlange anzeigen
 
@@ -118,7 +118,7 @@ Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 
 So brechen Sie eine Anforderung ab
 
-1. Aktivieren Sie das Kontrollkästchen links neben einem oder mehreren **[!UICONTROL Abfrage-ID]** in der Tabelle und klicken Sie auf **[!UICONTROL Anforderungen abbrechen]** unten.
+1. Aktivieren Sie das Kontrollkästchen links neben einem oder mehreren **[!UICONTROL Abfrage-ID]** in der Tabelle und klicken Sie auf **[!UICONTROL Anforderungen abbrechen]** unten. (Sie können Anforderungen auch stapelweise abbrechen, indem Sie Details anzeigen durch [!UICONTROL Benutzer], [!UICONTROL Projekt]oder [!UICONTROL Anwendung].
 1. Im **[!UICONTROL Abbrechen der X-Abfrage]** angezeigt wird, können Sie bei Bedarf die Abbruchsnachricht ändern.
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -127,7 +127,6 @@ So brechen Sie eine Anforderung ab
 Anwendungsbenutzer in Workspace sehen beispielsweise in ihren Projekten den folgenden Hinweis:
 
 ![cancel-user-notification](assets/cancel-user-facing.png)
-
 
 ## Häufig gestellte Fragen
 

@@ -4,10 +4,10 @@ keywords: Datenschutz
 title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Deutschland </td> 
-   <td colname="col2"> <p>Wenn Kunden nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten sie ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. </p> <p>Adobe hat einen Vertrag für Auftragsdatenverarbeitung (ADV) für Analytics vorbereitet, der vom Bayerischen Landesamt für Datenschutzaufsicht (BayLDA) geprüft und genehmigt wurde. Der ADV ist auf Deutsch und auf Englisch verfügbar. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie noch keinen Datenverarbeitungsvertrag für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie sich an Ihren Kundenbetreuer oder Kundenerfolgsmanager wenden, der mit der Rechtsabteilung der Adobe zusammenarbeitet, um den DPA einzurichten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
