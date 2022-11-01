@@ -3,28 +3,31 @@ title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
 description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 94%
+source-wordcount: '955'
+ht-degree: 72%
 
 ---
 
 # currencyCode
 
-Bei Websites, die Commerce verwenden, sind Umsatz und Währung ein wichtiger Bestandteil von Analytics. Viele Websites, insbesondere solche, die sich über mehrere Länder erstrecken, verwenden verschiedene Währungen. Verwenden Sie die `currencyCode`-Variable, um sicherzustellen, dass die Umsatzattribute der richtigen Währung entsprechen.
+Bei Websites, die Commerce verwenden, sind Umsatz und Währung ein wichtiger Bestandteil von Analytics. Viele Websites, insbesondere solche, die sich über mehrere Länder erstrecken, verwenden verschiedene Währungen. Verwenden Sie die `currencyCode` , um sicherzustellen, dass der Umsatz der richtigen Währung zugeordnet wird.
 
-Wenn `currencyCode` nicht definiert ist, werden die für die [`products`](../page-vars/products.md)-Variablen und die Währungsereignisse definierten Geldwerte so behandelt, als ob sie mit der Währung der Report Suite identisch wären. Informationen zur Währung einer Report Suite finden Sie unter [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) im Admin-Benutzerhandbuch.
+Die Währungsumrechnung verwendet bei jedem Treffer die folgende Logik. Diese Schritte gelten für Umsatzwerte, die [`products`](../page-vars/products.md) und alle als &quot;Währung&quot;aufgelisteten Ereignisse in [Erfolgsereignisse](/help/admin/admin/c-success-events/success-event.md) unter Report Suite-Einstellungen.
 
-Wenn `currencyCode` definiert ist und mit der Währung der Report Suite übereinstimmt, wird keine Währungsumrechnung angewendet.
+* Wenn `currencyCode` nicht definiert ist, geht Adobe davon aus, dass alle Währungswerte die Währung der Report Suite sind. Siehe [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) in den Report Suite-Einstellungen, um die Währung der Report Suite anzuzeigen.
+* Wenn `currencyCode` definiert ist und mit der Währung der Report Suite übereinstimmt, wird keine Währungsumrechnung angewendet.
+* Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unterscheidet, wendet Adobe eine Währungsumrechnung auf der Grundlage des aktuellen Tageswechselkurses an. Adobe arbeitet mit [XE](https://xe.com) zusammen, um täglich Währungen umzurechnen. Alle in der Report Suite gespeicherten Werte beziehen sich auf die Währung der Report Suite.
+* Wenn `currencyCode` auf einen ungültigen Wert festgelegt ist, **wird der gesamte Treffer verworfen, was zu Datenverlust führt.** Stellen Sie sicher, dass diese Variable bei jeder Verwendung korrekt definiert ist.
 
-Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unterscheidet, wendet Adobe eine Währungsumrechnung auf der Grundlage des aktuellen Tageswechselkurses an. Adobe arbeitet mit [XE](https://xe.com) zusammen, um täglich Währungen umzurechnen. Alle in Datenerfassungs-Servern gespeicherten Werte werden letztendlich in der Währung der Report Suite gespeichert.
+Diese Variable bleibt nicht über Treffer hinweg bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält, die nicht mit der Standardwährung der Report Suite übereinstimmen.
 
->[!WARNING]
+>[!NOTE]
 >
->Wenn `currencyCode` einen ungültigen Wert enthält, wird der gesamte Treffer verworfen, was zu Datenverlust führt. Stellen Sie sicher, dass diese Variable korrekt definiert ist, wenn Sie sie in Ihrer Implementierung verwenden.
+>Während sich Währungscodes zwischen Seiten ändern können, müssen alle Währungsmetriken eines einzelnen Treffers dieselbe Währung verwenden.
 
-Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält.
+Ein Zeitraum **must** als Währungstrennzeichen für alle Währungen bei der Implementierung dieser Variablen verwendet werden. Beispielsweise muss die Schwedische Krone, die normalerweise ein Kommatrennzeichen anzeigt, so geändert werden, dass sie einen Punkt im `products` und alle Währungsereignisse. Adobe zeigt das richtige Währungstrennzeichen in Berichten an.
 
 ## Währungscode mit dem Web SDK
 
@@ -53,7 +56,7 @@ Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Wä
 
 ## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Die `s.currencyCode`-Variable ist eine Zeichenfolge, die einen dreistelligen Code in Großbuchstaben enthält, der die Währung auf der Seite darstellt.
+Die `s.currencyCode`-Variable ist eine Zeichenfolge, die einen dreistelligen Code in Großbuchstaben enthält, der die Währung auf der Seite darstellt. Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden.
 
 ```js
 s.currencyCode = "USD";
@@ -61,7 +64,7 @@ s.currencyCode = "USD";
 
 Die folgenden Währungscodes sind gültig:
 
-| Währungscode | Währungsbeschreibung |
+| Währungscode | Beschriftung |
 | --- | --- |
 | `AED` | Vereinigte Arabische Emirate Dirham |
 | `AFA` | Afghanistan Afghani |
