@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie Ordner und Unterordner in Workspace erstellen.
+description: Erfahren Sie, wie Sie Ordner und Unterordner in Workspace erstellen
 keywords: Analysis Workspace
 title: Erstellen von Ordnern
 feature: Workspace Basics
@@ -8,24 +8,24 @@ hidefromtoc: true
 source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 
 # Erstellen von Ordnern
 
-Sie können der Liste der Projekte und Ordner auf Ihrer Workspace-Landingpage einen neuen Ordner oder einen Unterordner hinzufügen.
+Sie können zur Liste der Projekte und Ordner auf Ihrer Workspace-Landingpage einen neuen Ordner oder einen Unterordner hinzufügen.
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit als Betaversion verfügbar. Einige Bildschirme können sich ändern.
+>Diese Funktion befindet sich derzeit in der Betaversion. Einige Bildschirme können sich ändern.
 
-## Neuen Ordner erstellen
+## Erstellen eines neuen Ordners
 
 So erstellen Sie einen neuen Ordner:
 
-1. Klicken **Neu erstellen**.
+1. Klicken Sie auf **Neu erstellen**.
 
 1. Geben Sie einen Namen für den neuen Ordner ein.
 
@@ -37,17 +37,17 @@ So erstellen Sie einen neuen Ordner:
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
 
-   Der neue Ordner wird der Hauptliste der Projekte und Ordner hinzugefügt.
+   Der neue Ordner wird zur Hauptliste der Projekte und Ordner hinzugefügt.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
 ## Erstellen eines Unterordners
 
-Mit Unterordnern können Sie zusätzliche Ebenen für Projektmanagement und -organisation bereitstellen.
+Mit Unterordnern können Sie zusätzliche Ebenen für Projekt-Management und -organisation bereitstellen.
 
 So erstellen Sie einen Unterordner, wenn ein vorhandener Ordner geöffnet ist:
 
-1. Klicken **Neuen Ordner erstellen**.
+1. Klicken Sie auf **Neuen Ordner erstellen**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
@@ -57,12 +57,12 @@ So erstellen Sie einen Unterordner, wenn ein vorhandener Ordner geöffnet ist:
 
 1. Klicken Sie auf **Erstellen**.
 
-   Der neue Unterordner wird der Liste der Projekte und Unterordner hinzugefügt.
+   Der neue Unterordner wird zur Liste der Projekte und Unterordner hinzugefügt.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
 
    >[!NOTE]
    >
-   >Sie können bis zu 10 Ebenen von Unterordnern in einem Ordner erstellen.
+   >Sie können in einem Ordner bis zu 10 Ebenen von Unterordnern erstellen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)

@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober/November 2022)
 
-**Zuletzt aktualisiert**: 28. Oktober 2022
+**Letztes Update**: 28. Oktober 2022
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 

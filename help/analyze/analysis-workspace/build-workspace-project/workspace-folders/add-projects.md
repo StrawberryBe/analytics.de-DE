@@ -8,28 +8,28 @@ hidefromtoc: true
 source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Projekte zu Ordnern hinzufügen
+# Hinzufügen von Projekten zu Ordnern
 
-Sie können Projekte zu einem Ordner in der Tabellenansicht oder aus einem Ordner hinzufügen.
+Sie können Projekte zu einem Ordner in der Tabellenansicht oder innerhalb eines Ordners hinzufügen.
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit als Betaversion verfügbar. Einige Bildschirme können sich ändern.
+>Diese Funktion befindet sich derzeit in der Betaversion. Einige Bildschirme können sich ändern.
 
-## In der Tabellenansicht
+## Aus der Tabellenansicht
 
-Fügen Sie in der Tabellenansicht auf der Startseite Projekte zu einem Ordner hinzu.
+Fügen Sie auf der Startseite aus der Tabellenansicht Projekte zu einem Ordner hinzu.
 
 1. Wählen Sie ein oder mehrere Projekte aus, die Sie einem Ordner hinzufügen möchten.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Auswählen **Verschieben nach**. Das Dialogfeld Ordner auswählen wird angezeigt.
+1. Wählen Sie **Verschieben nach** aus. Das Dialogfeld „Ordner auswählen“ wird angezeigt.
 
 1. Wählen Sie einen Ordnernamen aus dem Dropdown-Menü aus.
 
@@ -43,37 +43,37 @@ Fügen Sie in der Tabellenansicht auf der Startseite Projekte zu einem Ordner hi
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   Auf der Workspace -Landingpage wird nun der Ordner mit (3) Projekten angezeigt.
+   Auf der Startseite von Workspace wird nun angezeigt, dass der Ordner (3) Projekte enthält.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Von innerhalb eines Ordners
+## Aus dem Inneren eines Ordners
 
-Sie können auch Projekte aus einem Ordner hinzufügen, indem Sie den Link mit den Auslassungspunkten verwenden.
+Sie können auch Projekte aus dem Inneren eines Ordners hinzufügen, indem Sie den Link mit den Auslassungspunkten verwenden.
 
-1. Wählen Sie einen Ordner aus und öffnen Sie ihn in der Tabellenansicht.
+1. Wählen Sie einen Ordner in der Tabellenansicht aus und öffnen Sie ihn.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Klicken Sie auf **...** Symbol mit Auslassungspunkten oben rechts.
+1. Klicken Sie auf das Symbol mit den Auslassungspunkten **...** oben rechts.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
-   In einem Dropdown-Menü wird die Option zum Hinzufügen von Projekten zum Ordner angezeigt. Zusätzliche Optionen ermöglichen das Umbenennen, Verschieben oder Löschen des Ordners und das Verwalten von Ordnerberechtigungen.
+   In einem Dropdown-Menü wird die Option zum Hinzufügen von Projekten zum Ordner angezeigt. Zusätzliche Optionen ermöglichen es Ihnen, den Ordner umzubenennen, zu verschieben oder zu löschen und die Ordnerberechtigungen zu verwalten.
 
-1. Auswählen **Projekte hinzufügen** und wählen Sie aus der Dropdown-Liste das Projekt aus, das Sie hinzufügen möchten.
+1. Wählen Sie **Projekte hinzufügen** und wählen Sie das Projekt, das Sie hinzufügen möchten, aus der Dropdown-Liste.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   Sie können dem Ordner mehrere Projekte hinzufügen.
+   Sie können mehrere Projekte zu dem Ordner hinzufügen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Klicken **Hinzufügen** , um die Projekte zum Ordner hinzuzufügen.
+1. Klicken Sie auf **Hinzufügen**, um die Projekte zu dem Ordner hinzuzufügen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
 
 
 >[!NOTE]
 >
->Nur Administratoren können Projekte zum Unternehmensordner hinzufügen oder ein neues Projekt erstellen und im Unternehmensordner speichern
+>Nur Admins können dem Unternehmensordner Projekte hinzufügen oder ein neues Projekt erstellen und es im Unternehmensordner speichern.

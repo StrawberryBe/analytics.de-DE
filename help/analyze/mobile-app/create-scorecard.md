@@ -174,7 +174,7 @@ Jede der Detailfolie hinzugefügte Dimension wird in einer Dropdown-Liste in der
 
 ## Anpassen von Detailfolien {#customize-detail-slide}
 
-Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit noch zielgerichteteren Informationen anzusprechen.
+Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Audience mit noch zielgerichteteren Informationen anzusprechen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410002)
 

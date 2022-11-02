@@ -26,7 +26,7 @@ ht-degree: 100%
       + Ordner in Workspace {#workspace-folders}
          + [Über Ordner in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Erstellen von Ordnern und Unterordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Hinzufügen von Projekte](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Hinzufügen von Projekten](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Entfernen eines Projekts](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Speichern eines neuen Projekts](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
