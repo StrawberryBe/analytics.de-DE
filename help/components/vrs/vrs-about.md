@@ -3,9 +3,9 @@ description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodas
 title: Virtual Report Suites – Übersicht
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '807'
 ht-degree: 95%
 
 ---
@@ -59,6 +59,8 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 | Unterstützt die Erstellung von DL-Berichten, Lesezeichen, Dashboards, Zielgruppen, Warnhinweisen, Segmenten, berechneten Metriken... | Ja | Ja |
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
 | Kann Admin-Funktionen verwenden, um einzelne Einstellungen für diese Report Suite zu ändern (Admin > Report Suites) | Nein (Einstellungen werden von der übergeordneten Report Suite geerbt.) | Ja |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Kombinieren von Virtual Report Suites und Multi-Suite-Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
