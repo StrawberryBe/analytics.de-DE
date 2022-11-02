@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Das Menü „Berichte“ bietet:
 
 Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten möglich. Klicken Sie auf **[!UICONTROL Alle Berichte anzeigen]** oder betätigen Sie die Schrägstrich-Taste (/) und anschließend die Taste „Pfeil nach unten“ (↓), um das Menü mithilfe der Pfeiltasten schnell anzuzeigen und in ihm zu navigieren. Betätigen Sie die Escape-Taste, um das Menü zu schließen, ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 Details zu individuellen Berichten finden Sie unter [Dimensionen](/help/components/dimensions/overview.md).
 

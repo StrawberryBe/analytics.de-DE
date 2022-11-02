@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,6 @@ ht-degree: 100%
 Unter der Voraussetzung, dass das richtige Browser-Plugin installiert ist, können Sie Activity Map direkt von Ihrer Webseite aus starten.
 
 1. Klicken Sie auf das Adobe Analytics-Symbol rechts neben der Adressleiste Ihres Browsers:\
-   ![](assets/an_icon.png){width=&quot;90px&quot;}
+   ![](assets/an_icon.png){width="90px"}
 1. Melden Sie sich mit Ihrem Unternehmensnamen, Ihrem Benutzernamen und Ihrem Kennwort an.
 1. Die Anwendung sollte gestartet werden und die Symbolleiste sowie die Überlagerungen anzeigen.

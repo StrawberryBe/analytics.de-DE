@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -27,13 +27,13 @@ Das folgende Beispiel zeigt einen [!UICONTROL Seitenbericht]. Die Konfigurations
 
 Ein Beispiel für einen Seitenbericht (**[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seitenberichte]** > **[!UICONTROL Seiten]**).
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## Berichtssymbolleiste {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Ermöglicht die Freigabe Ihrer Berichtsdaten an Entscheidungsträger, die anhand der Daten Änderungen an Ihrer Site- oder Marketingstrategie vornehmen können
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 Siehe auch [Anpassen eines Berichts](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -41,7 +41,7 @@ Siehe auch [Anpassen eines Berichts](/help/analyze/reports-analytics/reports-cus
 
 Zeigt Berichtseinstellungen an und ermöglicht das Konfigurieren des Berichtstyps, das Auswählen von Metriken und anderes mehr. Die für diese Gruppe verfügbaren Optionen variieren entsprechend der ausgeführten Berichte. 
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 Weitere Informationen finden Sie unter [Anpassen eines Berichts](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -49,7 +49,7 @@ Weitere Informationen finden Sie unter [Anpassen eines Berichts](/help/analyze/r
 
 Legen Sie das Datum fest, indem Sie auf die Kalenderschaltfläche klicken und einen Datumsbereich auswählen. Zum Leistungsvergleich können Sie auch zwei Zeiträume wählen.
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 Siehe [Auswählen eines Datums oder eines Datumsbereichs](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) und [Vergleichen von Daten](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Activity Map Browser-Plugins:
 1. Kehren Sie zur Adressleiste von Chrome zurück und geben Sie `chrome://extensions` ein.
 1. Aktivieren Sie das Kontrollkästchen für den Entwicklermodus.
 1. Klicken Sie auf die Schaltfläche zum Herunterladen der extrahierten Erweiterungen und wählen Sie den extrahierten Ordner aus dem Popup aus.
-1. Wenn das Adobe Analytics-Symbol ![](assets/an_icon.png){width=&quot;70px&quot;} in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
+1. Wenn das Adobe Analytics-Symbol ![](assets/an_icon.png){width="70px"} in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
 
 ## Activity Map-Plugin für Firefox installieren {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -45,7 +45,7 @@ Activity Map Browser-Plugins:
 1. Klicken Sie auf **[!UICONTROL Activity Map-Plugin installieren]**.
 1. Klicken Sie auf **[!UICONTROL Zulassen]**, wenn diese Meldung angezeigt wird: ![](assets/firefox_install2.png)
 1. Klicken Sie auf **[!UICONTROL Jetzt installieren]**.
-1. Klicken Sie auf das Symbol **[!UICONTROL Menü öffnen]** oben rechts und wählen Sie **[!UICONTROL Add-ons]** aus. ![](assets/firefox_install3.png){width=&quot;250px&quot;}
+1. Klicken Sie auf das Symbol **[!UICONTROL Menü öffnen]** oben rechts und wählen Sie **[!UICONTROL Add-ons]** aus. ![](assets/firefox_install3.png){width="250px"}
 1. Activity Map sollte als eines der Firefox-Add-ons aufgeführt werden.
 1. Wenn das Adobe Analytics-Symbol ![](assets/an_icon.png) in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
 
