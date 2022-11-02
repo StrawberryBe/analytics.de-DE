@@ -3,10 +3,10 @@ description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodas
 title: Virtual Report Suites – Übersicht
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 | Funktion | Virtual Report Suite | Multi-Suite-Tagging |
 |--- |--- |--- |
 | Bietet Berichte mit Echtzeit- oder aktuellen Daten | Nein | Ja |
-| Funktioniert in allen Analytics-Tools (Analysis Workspace, Report Builder usw.) | Ja. **Hinweis:** Diese können nur in Reports &amp; Analytics als Virtual Report Suites identifiziert und bearbeitet werden. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden. | Ja |
+| Funktioniert in allen Analytics-Tools (Analysis Workspace, Report Builder usw.) | Ja. **Hinweis:** Sie können sie nur in bearbeiten und als Virtual Report Suites identifizieren [!UICONTROL Analytics] > [!UICONTROL Komponenten] > [!UICONTROL Virtual Report Suites]. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden.<p>**Wichtig**: Virtual Report Suites mit Berichtszeitverarbeitung und Variablenanpassung werden derzeit in Adobe Report Builder nicht unterstützt. | Ja |
 | Hochladen von Daten (über Classifications, Datenfeeds usw.) | Nein | Ja |
 | Unterstützt die Erstellung von DL-Berichten, Lesezeichen, Dashboards, Zielgruppen, Warnhinweisen, Segmenten, berechneten Metriken... | Ja | Ja |
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
