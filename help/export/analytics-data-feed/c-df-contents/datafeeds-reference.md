@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 5c178ebb86ffc932ecd90f427bd0a5e90fada1cb
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '3526'
-ht-degree: 96%
+source-wordcount: '3599'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendet Zeitstempel in Unix-Zeit. | int |
 | **`cust_visid`** | Wurde eine benutzerdefinierte Besucher-ID festgelegt, wird sie in diese Spalte aufgenommen. | varchar(255) |
 | **`daily_visitor`** | Flag zur Bestimmung, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
+| **`dataprivacyconsentoptin`** | Variable, die in der Variablen [Opt-in für die Einverständnisverwaltung](/help/components/dimensions/cm-opt-in.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable, die in der Variablen [Opt-out aus der Einverständnisverwaltung](/help/components/dimensions/cm-opt-out.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`|`). Gültige Werte sind `SSF`, `DMP`und `SELL`. | varchar(100) |
 | **`date_time`** | Die Uhrzeit des Treffers in lesbarem Format, basierend auf der Zeitzone der Report Suite. | datetime |
 | **`domain`** | Variable, die in der Dimension [Domain](/help/components/dimensions/domain.md) verwendet wird. Basierend auf dem Internetzugangspunkt des Besuchers. | varchar(100) |
 | **`duplicate_events`** | Listet alle Ereignisse auf, die als Duplikat gezählt wurden. | varchar(255) |
@@ -201,9 +203,12 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`socialownedpropertypropertyvsapp`** | Wird nicht mehr verwendet. Social – eigene Eigenschaft vs App | varchar(255) |
 | **`state`** | Statusvariable. | varchar(50) |
 | **`stats_server`** | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
+| **`survey`** | Wird nicht mehr verwendet. Adobe Survey-Variable. | text |
+| **`survey_instances`** | Wird nicht mehr verwendet. Adobe Survey-Instanzvariable. | text |
 | **`t_time_info`** | Lokale Zeit des Besuchers. Das Format ist: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die er derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
 | **`tnt_action`** | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die der Treffer qualifiziert ist. | text |
+| **`tnt_instances`** | Wird in Adobe Target-Integrationen verwendet. Target-Instanzen . | text |
 | **`tnt_post_vista`** | Wird nicht mehr verwendet. Verwenden Sie stattdessen `post_tnt`. | text |
 | **`transactionid`** | Eine eindeutige Kennung, bei der später verschiedene Datenpunkte via Datenquellen hochgeladen werden können. Erfasst mithilfe der Variablen [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | **`truncated_hit`** | Ein Flag, das angibt, dass die Bildanforderung gekürzt wurde. Zeigt den Erhalt eines teilweisen Treffers an. <br>Y: Treffer abgeschnitten; Teiltreffer erhalten <br>N: Treffer nicht abgeschnitten; vollständigen Treffer erhalten | char(1) |
@@ -268,7 +273,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`visid_low`** | Wird zusammen mit `visid_high` zur eindeutigen Identifizierung eines Besuchers verwendet. | bigint unsigniert |
 | **`visid_new`** | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
 | **`visid_timestamp`** | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in Unix-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
-| **`visid_type`** | Nicht zur externen Verwendung; intern von Adobe für Verarbeitungsoptimierungen verwendet. Numerische ID, die die Methode angibt, die zur Identifizierung des Besuchers verwendet wurde.<br>0: Benutzerspezifische Besucher-ID oder unbekannt/nicht anwendbar<br>1: IP- und Benutzeragenten-Fallback<br>2: HTTP-Kopfzeile mobiler Teilnehmer <br>3: Alter Cookie-Wert (`s_vi`) <br>4: Fallback-Cookie-Wert (`s_fid`) <br>5: Identity Service | tinyint unsigniert |
+| **`visid_type`** | Nicht zur externen Verwendung; intern von Adobe für Verarbeitungsoptimierungen verwendet. Numerische ID, die die Methode angibt, die zur Identifizierung des Besuchers verwendet wurde.<br>`0`: Benutzerspezifische Besucher-ID oder Unbekannt/nicht zutreffend<br>`1`: IP- und Benutzeragenten-Fallback <br>`2`: HTTP-Kopfzeile für Mobilteilnehmer <br>`3`: Alter Cookie-Wert (`s_vi`) <br>`4`: Ausweich-Cookie-Wert (`s_fid`) <br>`5`: Identity Service | tinyint unsigniert |
 | **`visit_keywords`** | Variable, die in der Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md) verwendet wird. Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung von varchar(244), um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
 | **`visit_num`** | Variable, die in der Dimension [Anzahl der Besuche](/help/components/dimensions/visit-number.md) verwendet wird. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
 | **`visit_page_num`** | Variable, die in der Dimension [Hit-Tiefe](/help/components/dimensions/hit-depth.md) verwendet wird. Wird für jeden vom Benutzer generierten Treffer um 1 erhöht. Setzt jeden Besuch zurück. | int unsigniert |
