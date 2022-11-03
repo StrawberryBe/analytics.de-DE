@@ -1,9 +1,9 @@
 ---
 title: Einwilligungsmanagement Opt-out
 description: Ermitteln Sie, von welchen Datenschutzeinstellungen ein Besucher abgemeldet hat.
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
+source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 5%
 
 ---
@@ -26,6 +26,6 @@ Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariab
 
 Zu den Dimension-Elementen gehören die folgenden drei Werte:
 
-* **`SSF`**: Der Besucher hat sich abgemeldet von [Serverseitige Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf.md). Dieses Dimensionselement ist vorhanden, wenn die Kontextdatenvariable `cm.ssf` gleich `1`. Siehe [Datenschutz - Übersicht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) im Benutzerhandbuch für Audience Manager finden Sie weitere Informationen.
-* **`DMP`**: Der Besucher hat sich gegen die Freigabe für Datenverwaltungsplattformen entschieden. Dieses Dimensionselement ist vorhanden, wenn die Kontextdatenvariable `opt.dmp` gleich `N`. Der Treffer wird nicht an Adobe Audience Manager weitergeleitet.
+* **`SSF`**: Der Besucher hat sich abgemeldet von [Serverseitige Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf.md). Dieses Dimensionselement ist vorhanden, wenn die Kontextdatenvariable `cm.ssf` gleich `1`. Siehe [Datenschutz - Übersicht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) im Benutzerhandbuch für Audience Manager finden Sie weitere Informationen. Der Treffer wird nicht an Adobe Audience Manager weitergeleitet.
+* **`DMP`**: Der Besucher hat sich gegen die Freigabe für Datenverwaltungsplattformen entschieden. Dieses Dimensionselement ist vorhanden, wenn die Kontextdatenvariable `opt.dmp` gleich `N`. Ähnlich wie `SSF`, wird der Treffer nicht an Adobe Audience Manager weitergeleitet.
 * **`SELL`**: Der Besucher widersprach der Freigabe oder dem Verkauf der Daten an Dritte. Diese Dimension ist vorhanden, wenn die Kontextdatenvariable `opt.sell` gleich `N`.
