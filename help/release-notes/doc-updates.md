@@ -4,10 +4,11 @@ description: Wichtige Aktualisierungen in der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+mini-toc-levels: 3
+source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
 workflow-type: tm+mt
-source-wordcount: '3545'
-ht-degree: 100%
+source-wordcount: '3550'
+ht-degree: 99%
 
 ---
 
@@ -16,14 +17,17 @@ ht-degree: 100%
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 * Informationen zu [!UICONTROL Customer Journey Analytics] finden Sie [hier](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de).
-* Eine umfassende Liste der neuen Adobe Analytics-Funktionen, Admin-Benachrichtigungen und Fehlerbehebungen finden Sie in den aktuellen [Versionshinweisen zu Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
-* Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de).
+* Informationen zu Adobe Medien Analytics finden Sie unter [Messen von Audio und Video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de).
 
 ## Details zu wichtigen Aktualisierungen der Dokumentation
+
+### 2022 {#22}
 
 | Funktion | Beschreibung |
 | --- | --- |
 | **Oktober 2022** |  |
+| Data Workbench | [Mitteilung zum Ende der Nutzungsdauer](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| Client-Hinweise | Neu [Übersicht und FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | Zusammenfassung einer Schlüsselmetrik | Neuer Artikel zur Visualisierung der [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md) |
 | Klassifizierungssätze | Das neue Benutzererlebnis [Klassifizierungssätze](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=de) bietet eine zentrale Schnittstelle zur Verwaltung von Klassifizierungen und Regeln und verbessert die Sichtbarkeit der kundeneigenen Klassifizierungsdaten. |
 | Mobile App: Benutzerdefinierte Detailansichten | Neuer Artikel zu [benutzerdefinierten Detailansichten](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de). |
@@ -59,6 +63,11 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Vorschaumodus für Mobile Scorecard-Projekte | Der [Vorschaumodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#preview) ermöglicht es Ihnen, eine Vorschau eines Erlebnisses anzuzeigen, bevor Sie eine Scorecard speichern und freigeben. |
 | API-Projekt-Endpunkt | Sie können mit der API Analysis Workspace-Projekte hinzufügen, bearbeiten oder löschen. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Aktualisiertes Kapitel zum Pausieren älterer terminierter Report Builder-Aufgaben | **Ab 15. April 2022** pausiert Adobe [alle terminierten Report Builder-Aufgaben, die vor mehr als zwei Jahren erstellt wurden](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+
+### 2021 {#21}
+
+| Funktion | Beschreibung |
+| --- | --- |
 | **Oktober 2021** |  |
 | 21. Oktober 2021 | Neue Dokumentation zu [Schnellsegmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=de) in Analysis Workspace |
 | 21. Oktober 2021 | Neue Dokumentation zum Panel [Medienwiedergabe – Besuchszeit](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=de) in Analysis Workspace. |
@@ -90,6 +99,11 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 14. Januar 2021 | Die Dokumentation zu Analytics-Dashboards wurde um eine Sprachauswahloption erweitert. |
 | 14. Januar 2021 | Es wurde Dokumentation hinzugefügt, wie Sie Bilder zu Arbeitsbereich-Projekten hinzufügen können, indem Sie auf eine öffentliche Bild-URL verweisen. |
 | 14. Januar 2021 | Kombinierter Quellen- und Einstellungs-Manager für Arbeitsbereich-Visualisierungen: Der [!UICONTROL Datenquellen]-Manager (Punkt) und der Einstellungs-Manager (Zahnrad) für Visualisierungen wurden zu einem einzigen Pop-up zusammengefasst, sodass Sie Ihre Quelle und Einstellungen einfach vom gleichen Ort aus verwalten können. |
+
+### 2020 {#20}
+
+| Funktion | Beschreibung |
+| --- | --- |
 | **Dezember 2020** |  |
 | 7. Dezember 2020 | Es wurden alle relevanten Seiten dahingehend geändert, dass sie den Endpunkt „adobedc.net“ enthalten oder ersetzen. |
 | 8. Dezember 2020 | Aktualisierungen der Seite [Neues Projekt erstellen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=de) in Arbeitsbereich. |
@@ -152,7 +166,11 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 16. Januar 2020 | Neue Dokumentation zu [Freiformtabellen-Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de). Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Arbeitsbereich Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
 | 13. Januar 2020 | [Adobe Analytics und Browser-Cookies](/help/technotes/cookies/cookies.md) wurde hinzugefügt. |
 | 13. Januar 2020 | Die Seite [Welches Adobe Analytics-Tool sollte ich verwenden?](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=de) wurde geändert. |
-| **2019** |  |
+
+### 2019 {#19}
+
+| Funktion | Beschreibung |
+| --- | --- |
 | 19. Dezember 2020 | Die standardmäßige [FTP-Datenspeichergrenze](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=de) wurde auf 10 GB geändert. |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25. November 2019 | Neues Thema zur Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen. |
