@@ -3,9 +3,9 @@ description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen,
 title: Daten- und Codereferenz für die Server-seitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---

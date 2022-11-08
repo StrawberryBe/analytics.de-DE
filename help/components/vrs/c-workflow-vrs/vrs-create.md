@@ -4,10 +4,10 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ Im Folgenden finden Sie ein Video zum Anpassen einer Besuchsdefinition in einer 
 ![](assets/components.png)
 
 1. Aktivieren Sie auf der Registerkarte [!UICONTROL Komponenten] das Kontrollkästchen, um die Kuratierung anzuwenden und Komponenten für diese Virtual Report Suite in Analysis Workspace einzuschließen, auszuschließen und umzubenennen.
-Weitere Informationen zur VRS-Kuratierung finden Sie unter [Kuratierung der Virtual Report Suite-Komponenten](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=de#virtual-report-suites).
+Weitere Informationen zur VRS-Kuratierung finden Sie unter [Kuratierung der Virtual Report Suite-Komponenten](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
 
 1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die VRS einbeziehen möchten, in den Abschnitt [!UICONTROL Einbezogene Komponenten].
 

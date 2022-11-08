@@ -4,10 +4,10 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 98%
 
 ---
 
@@ -70,4 +70,4 @@ Im Folgenden finden Sie eine Videoübersicht zur Projektverwaltung:
 ## Zusätzliche Ressourcen {#resources}
 
 * Adobe bietet Hunderte von [Analytics-Video-Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=de).
-* Für neue Funktionen siehe [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de#analytics).
+* Für neue Funktionen siehe [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics).

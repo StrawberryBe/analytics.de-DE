@@ -4,10 +4,10 @@ title: Allgemeine Kontoeinstellungen
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 81%
+source-wordcount: '809'
+ht-degree: 83%
 
 ---
 
@@ -36,5 +36,5 @@ Im Folgenden finden Sie ein Video zum Konfigurieren der allgemeinen Kontoeinstel
 | Zip-Option | Hier können Sie die Postleitzahl angeben, anstatt die von unserer Geo-IP-Suche erzeugten Elemente zu verwenden. |
 | Multibytezeichenunterstützung | Bei der Multibytezeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multibytezeichenunterstützung für eine Report Suite geändert werden soll. |
 | Aktiviert | Gibt an, ob diese Report Suite aktiviert ist oder nicht. |
-| Basiswährung | Hier können Sie die Basis angeben [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) für diese Report Suite. |
+| Basiswährung | Hier können Sie die Basis angeben [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=de) für diese Report Suite. |
 | Organisations-ID | Die Ihrem bereitgestellten Experience Cloud-Unternehmen zugeordnete ID. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |

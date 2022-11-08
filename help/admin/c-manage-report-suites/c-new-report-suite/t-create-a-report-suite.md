@@ -3,16 +3,16 @@ description: Erstellen eines einfachen Containers für die Datenerfassung in Ado
 title: Erstellen einer Report Suite
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 95%
+source-wordcount: '316'
+ht-degree: 92%
 
 ---
 
 # Erstellen einer Report Suite
 
-Bei einer Report Suite handelt es sich um einen Datenspeicher, mit dem Adobe Analytics Berichte abruft. Eine Organisation kann über viele Report Suites verfügen, die jeweils unterschiedliche Datensätze enthalten. Auch wenn in der Vergangenheit separate Report Suites wichtig waren, hat sich eine einzelne Report Suite als vorteilhafter erwiesen. Die Einführung von [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de#virtual-report-suites) und die Verarbeitung von Berichtszeiten ermöglicht es Administratoren, eigene Untergruppen von Daten zu erstellen, was die Flexibilität bietet, sowohl globale als auch Site-spezifische Daten zu erhalten.
+Bei einer Report Suite handelt es sich um einen Datenspeicher, mit dem Adobe Analytics Berichte abruft. Eine Organisation kann über viele Report Suites verfügen, die jeweils unterschiedliche Datensätze enthalten. Auch wenn in der Vergangenheit separate Report Suites wichtig waren, hat sich eine einzelne Report Suite als vorteilhafter erwiesen. Die Einführung von [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites) und die Verarbeitung von Berichtszeiten ermöglicht es Administratoren, eigene Untergruppen von Daten zu erstellen, was die Flexibilität bietet, sowohl globale als auch Site-spezifische Daten zu erhalten.
 
 Dieser Artikel wurde für Administratoren oder Adobe Analytics-Administratoren auf Systemebene zur Vorbereitung auf die Datenerfassung erstellt.
 

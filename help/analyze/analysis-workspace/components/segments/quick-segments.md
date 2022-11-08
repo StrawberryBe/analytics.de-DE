@@ -4,10 +4,10 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 73%
+source-wordcount: '899'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 Sie können innerhalb eines Projekts Schnellsegmente erstellen, anstatt den komplexeren [Segment Builders](/help/components/segmentation/segmentation-workflow/seg-build.md) aufzurufen. Schnellsegmente
 
-* Anwenden als [Nur-Projekt-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
+* Anwenden als [Nur-Projekt-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
 * Mit bis zu drei Regeln.
 * Verschachtelte Container oder sequenzielle Regeln werden nicht unterstützt.
 
@@ -43,7 +43,7 @@ Schnellsegment aus dieser leeren Liste konfigurieren:
 | --- | --- |
 | Name | Der Standardname eines Segments besteht aus der Kombination der Regelnamen im Segment. Sie können das Segment umbenennen. |
 | Ein-/Ausschließen | Sie können Komponenten in Ihrer Segmentdefinition entweder ein- oder ausschließen, aber nicht beides. |
-| Treffer-/Besuchs-/Besucher-Container | Schnellsegmente enthalten nur einen [Segment-Container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=de#section_AF2A28BE92474DB386AE85743C71B2D6), mit dem Sie eine Dimension/eine Metrik/einen Datumsbereich in das Segment einbeziehen (oder daraus ausschließen) können. [!UICONTROL Besucher] enthält für den Besucher spezifische übergreifende Daten zu allen Besuchen und Seitenansichten. Mit einen Container [!UICONTROL Besuch] können Sie Regeln für die Aufschlüsselung der Besucherdaten auf der Grundlage der Besuche festlegen und mit einem Container [!UICONTROL Treffer] können Sie die Besucherinformationen auf der Grundlage der einzelnen Seitenaufrufe aufschlüsseln. Der Standard-Container ist [!UICONTROL Treffer]. |
+| Treffer-/Besuchs-/Besucher-Container | Schnellsegmente enthalten nur einen [Segment-Container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6), mit dem Sie eine Dimension/eine Metrik/einen Datumsbereich in das Segment einbeziehen (oder daraus ausschließen) können. [!UICONTROL Besucher] enthält für den Besucher spezifische übergreifende Daten zu allen Besuchen und Seitenansichten. Mit einen Container [!UICONTROL Besuch] können Sie Regeln für die Aufschlüsselung der Besucherdaten auf der Grundlage der Besuche festlegen und mit einem Container [!UICONTROL Treffer] können Sie die Besucherinformationen auf der Grundlage der einzelnen Seitenaufrufe aufschlüsseln. Der Standard-Container ist [!UICONTROL Treffer]. |
 | Komponenten (Dimension/Metrik/Datumsbereich) | Definieren Sie bis zu 3 Regeln, indem Sie Komponenten (Dimensionen und/oder Metriken und/oder Datumsbereiche) und deren Werte hinzufügen. Es gibt drei Möglichkeiten, die richtige Komponente zu finden:<ul><li>Beginnen Sie mit der Eingabe und der [!UICONTROL Quick Segment] Builder findet automatisch die entsprechende Komponente.</li><li>Verwenden Sie die Dropdown-Liste, um die Komponente zu finden.</li><li>Per Drag-and-Drop aus der der linken Leiste ziehen.</li></ul> |
 | Operator | Dropdown-Menü verwenden, um Standardoperatoren und Operatoren des Typs [!UICONTROL Distinct Count] zu finden. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=de) |
 | Plus (+)-Zeichen | Eine weitere Regel hinzufügen |
@@ -85,7 +85,7 @@ Beachten Sie, dass sich die Seitenleiste des Segments von gestreiftem Blau in he
 
 ## Was sind reine Projektsegmente?
 
-Nur-Projekt-Segmente sind Segmente, die nur für das aktuelle Projekt gelten, in dem sie erstellt wurden. Sie sind in anderen Projekten nicht verfügbar und können nicht für andere Benutzer freigegeben werden. Sie sind für die schnelle Untersuchung Ihrer Daten gedacht, ohne ein Segment in der linken Leiste erstellen und speichern zu müssen. Nur-Projekt-Segmente können entweder mit Schnellsegmenten oder in der Dropzone des Bedienfelds erstellt werden. [Ad-hoc-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+Nur-Projekt-Segmente sind Segmente, die nur für das aktuelle Projekt gelten, in dem sie erstellt wurden. Sie sind in anderen Projekten nicht verfügbar und können nicht für andere Benutzer freigegeben werden. Sie sind für die schnelle Untersuchung Ihrer Daten gedacht, ohne ein Segment in der linken Leiste erstellen und speichern zu müssen. Nur-Projekt-Segmente können entweder mit Schnellsegmenten oder in der Dropzone des Bedienfelds erstellt werden. [Ad-hoc-Segmente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
 
 Wenn ein reines Projekt-Segment im [!UICONTROL Segment Builder], wird eine Benachrichtigung nur für Projekte angezeigt. Wenn Sie nicht &quot;Dieses Segment verfügbar machen..&quot;aktivieren. und klicken Sie auf **[!UICONTROL ANWENDEN]** festgelegt ist, bleibt das Segment ein reines Projekt-Segment. Hinweis: Wenn Sie ein Schnellsegment aus dem Segmentaufbau anwenden, kann es nicht mehr im [!UICONTROL Quick Segment Builder].
 

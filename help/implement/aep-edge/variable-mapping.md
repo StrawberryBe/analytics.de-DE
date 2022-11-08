@@ -2,9 +2,9 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 99%
 
 ---
@@ -131,7 +131,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 
 ## Zuordnen anderer XDM-Felder zu Analytics-Variablen
 
-Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun. Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix a.x an Adobe Analytics gesendet. Sie können diese Kontextdatenvariable dann unter Verwendung der [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
+Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun. Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix a.x an Adobe Analytics gesendet. Sie können diese Kontextdatenvariable dann unter Verwendung der [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
 
 ```js
 alloy("event",{

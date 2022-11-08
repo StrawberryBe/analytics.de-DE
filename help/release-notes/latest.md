@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 93%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober/November 2022)
 
-**Letztes Update**: 28. Oktober 2022
+**Zuletzt aktualisiert**: 28. Oktober 2022
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,7 +20,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Funktion | Beschreibung | [Rollout beginnt](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Visualisierung der **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** | Durch die Visualisierung der [!UICONTROL Zusammenfassung einer Schlüsselmetrik] können Sie sehen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitraums entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeiträume hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=de) | 5. Oktober 2022 | Freitag, 19. Oktober 2023 |
+| Visualisierung der **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** | Durch die Visualisierung der [!UICONTROL Zusammenfassung einer Schlüsselmetrik] können Sie sehen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitraums entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeiträume hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5. Oktober 2022 | 19. Oktober 2023 |
 | **Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird** | Bei Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird, werden die in `mvvar1 - mvvar3` und `post_mvvar1 - post_mvvar3` in Daten-Feeds werden nicht mehr automatisch in Kleinbuchstaben geschrieben. Stattdessen spiegeln Daten-Feeds (und Daten, die über den Analytics Source Connector an Adobe Experience Platform und CJA weitergeleitet werden) die ursprüngliche Groß-/Kleinschreibung wider, die von der Seite übermittelt wurde. | Nicht angegeben | 24. Oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -55,7 +55,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | --- | --- | --- |
 | **EOL für die [!UICONTROL Veröffentlichungslisten]-Funktion** | 29. September 2022 | Im Rahmen des EOL von Reports &amp; Analytics ist geplant, dass die Veröffentlichungslisten im **Dezember 2023** das Ende ihrer Lebensdauer erreichen. Sie können keine neuen Veröffentlichungslisten erstellen oder auf vorhandene zugreifen, um Projekte in Analysis Workspace zu senden oder zu planen. [Weitere Informationen](/help/admin/admin/publishing-list.md) |
 | **EOL für Data Workbench** | 14. September 2022 | Adobe beabsichtigt, Data Workbench ab **31. Dezember 2023** einzustellen. Siehe [Mitteilung zum Ende der Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=de) für Details. Wenden Sie sich bei Fragen an den Kundenbetreuer Ihrer Adobe. |
-| **EOL für [!DNL Reports & Analytics]** | 4. Januar 2022 | Adobe beabsichtigt, [!DNL Reports & Analytics] und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die [!DNL Reports & Analytics] unterstützen, entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Funktionen von [!DNL Reports & Analytics] sind in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de) verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen von [!DNL Reports & Analytics] nach Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In [dieser Mitteilung](https://spark.adobe.com/page/6WnF8JK6IRDhf/) wird der Ablauf der Produktlebensdauer erläutert. |
+| **EOL für [!DNL Reports & Analytics]** | 4. Januar 2022 | Adobe beabsichtigt, [!DNL Reports & Analytics] und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die [!DNL Reports & Analytics] unterstützen, entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Funktionen von [!DNL Reports & Analytics] sind in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen von [!DNL Reports & Analytics] nach Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In [dieser Mitteilung](https://spark.adobe.com/page/6WnF8JK6IRDhf/) wird der Ablauf der Produktlebensdauer erläutert. |
 
 {style=&quot;table-layout:auto&quot;}
 

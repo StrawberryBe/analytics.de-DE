@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse funktioniert nicht in allen Report Suites und kombiniert auch keine Daten aus mehreren Report Suites.
 * Adobe Analytics-Report Suites können nicht mit mehr als einer Organisations-ID verknüpft werden. Da CDA Geräte innerhalb einer bestimmten Report Suite zusammenfügt, kann CDA nicht verwendet werden, um Daten über mehrere Organisations-IDs hinweg zusammenzufügen.
 * CDA verwendet eine komplexe Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Dies wird parallel zum Analytics-Basisberichterstellungs-Workflow ausgeführt. Daher ist eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der virtuellen CDA-Report Suite zu erwarten.
-* CDA verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Sie unterstützen etwa derzeit keine Marketing-Kanal-Variablen. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de) und [Berichtszeitverarbeitung](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=de).
+* CDA verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Sie unterstützen etwa derzeit keine Marketing-Kanal-Variablen. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de) und [Berichtszeitverarbeitung](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations).
 * Das private Diagramm nutzt dieselben ID-Synchronisierungen wie die, die die Funktion [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de#customer-attributes) in Experience Cloud und Adobe Analytics verwendet. Virtual Report Suites für geräteübergreifende Analyse (unabhängig davon, ob sie auf privatem Diagramm oder feldbasierter Zuordnung basieren) sind jedoch nicht mit dem Rest der Funktion „Kundenattribute“ kompatibel. Kundenattribut-basierte Dimensionen sind also nicht zur Verwendung in Virtual Report Suites für CDA verfügbar.
 * CDA ist derzeit nicht mit A4T kompatibel.
 * Die 1.4 API wird nicht unterstützt. Power BI-Connectoren und Report Builder basieren beide auf der 1.4 API und sind daher nicht mit der geräteübergreifenden Analyse kompatibel.

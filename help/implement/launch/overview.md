@@ -3,9 +3,9 @@ title: Implementieren von Adobe Analytics mit Tags in Adobe Experience Platform
 description: Hier erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags implementieren
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 94%
 
 ---
@@ -33,6 +33,6 @@ Erste Schritte finden Sie unter [Erstellen einer Analytics-Tag-Eigenschaft](crea
 
 Tags können in hohem Maße angepasst werden. Erfahren Sie, wie Sie Adobe Analytics optimal nutzen können, indem Sie die richtigen Daten in Ihre Implementierung aufnehmen.
 
-* [Tags-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de): Hier erfahren Sie, wie die Benutzeroberfläche funktioniert und welche Erweiterungen verfügbar sind.
+* [Tags-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de#): Hier erfahren Sie, wie die Benutzeroberfläche funktioniert und welche Erweiterungen verfügbar sind.
 * [Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de): Verwenden Sie die Analytics-Erweiterung, um Daten an Adobe Analytics zu senden.
 * [Implementierungsvariablen](../vars/overview.md): Legen Sie fest, welche Variablen Sie an Datenerfassungs-Server senden möchten.

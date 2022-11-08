@@ -4,9 +4,9 @@ title: Vorlagen
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1311'
 ht-degree: 95%
 
 ---
@@ -123,7 +123,7 @@ Im Folgenden finden Sie ein Video zur Vorlage [!UICONTROL Schulungsanleitung]:
 
 ### Personen
 
-Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version der Metrik „Unique Visitors“ ist. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie:
+Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version der Metrik „Unique Visitors“ ist. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie 
 
 * Segmentieren Sie Ihre Daten für die USA/Kanada im Vergleich zum Rest der Welt.
 * Metriken für Personen und Unique Visitors nebeneinander vergleichen

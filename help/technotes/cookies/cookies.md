@@ -3,10 +3,10 @@ title: Adobe Analytics und Browser-Cookies
 description: Erfahren Sie, wie sich Tracking-Präventionsmaßnahmen auf von Adobe Analytics gesetzte Third-Party- und First-Party-Cookies auswirken.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1985'
-ht-degree: 100%
+source-wordcount: '1981'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ In diesem Dokument wird erläutert, wie sich die Tracking-Präventionsmaßnahmen
 ## Wie haben Browser die Verwendung von Cookies eingeschränkt?
 
 >[!NOTE]
->[Geräteübergreifende Analysen](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=de#cda) und [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de#comparing-cja-to-traditional-adobe-analytics) können Cookies mithilfe einer Personen-ID (z. B. einer Hash-Anmelde-ID) zuordnen, sofern eine solche ID verfügbar ist.
+>[Geräteübergreifende Analysen](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) und [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) können Cookies mithilfe einer Personen-ID (z. B. einer Hash-Anmelde-ID) zuordnen, sofern eine solche ID verfügbar ist.
 
 ### Einschränkungen bei Third-Party-Cookies
 

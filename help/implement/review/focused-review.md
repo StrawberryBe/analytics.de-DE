@@ -3,10 +3,10 @@ title: Gezielte Prüfung (nach jeder Website-Veröffentlichung)
 description: Führen Sie diese Schritte aus, um sicherzustellen, dass Ihre Implementierung fehlerfrei und im Einklang mit Ihren KPIs ausgeführt wird.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 84%
+source-wordcount: '511'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Stellen Sie sicher, dass die letzte Site-Veröffentlichung die Datenerfassung f�
 
 Wenn Sie kürzlich Kennzahlen oder Variablen hinzugefügt oder geändert haben, müssen Sie Ihr Unternehmensanforderungsdokument (Business Requirement Document, BRD) und Ihre Lösungs-Design-Referenz (Solution Design Reference, SDR) aktualisieren.
 
-Wenn Sie keine Dokumentation Ihrer Implementierung haben, exportieren Sie eine Liste von Variablen und erstellen Sie Ihr BRD oder Ihre SDR mit [dieser Vorlage](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=de#implementation).
+Wenn Sie keine Dokumentation Ihrer Implementierung haben, exportieren Sie eine Liste von Variablen und erstellen Sie Ihr BRD oder Ihre SDR mit [dieser Vorlage](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Beheben Sie sofort alle Lücken in Ihrer Datenqualität
 

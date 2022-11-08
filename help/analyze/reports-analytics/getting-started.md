@@ -4,10 +4,10 @@ title: Erste Schritte mit Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die f
 | Art der Informationen | Definition |
 | --- | --- |
 | Kontaktperson | Geben Sie die folgenden persönlichen Daten für Ihr Konto an:<ul><li>Vorname (erforderlich)</li><li>Nachname (erforderlich)</li><li>Anrede/Titel</li><li>E-Mail-Adresse (erforderlich)</li><li>Telefonnummer</li></ul> |
-| Anmelden | Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. Siehe auch: [Zurücksetzen des Kennworts für Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=de). |
+| Anmelden | Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. Siehe auch: [Zurücksetzen des Kennworts für Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Webdienst | Zeigt den Webdienst-Benutzernamen und den gemeinsamen geheimen Schlüssel zu Ihrem Konto an. Mit diesen Anmeldedaten können Sie über die Webdienste-APIs auf die Experience Cloud zugreifen. Weitere Informationen finden Sie unter Developer Connection. **Anmerkung:** Diese Informationen werden nur angezeigt, wenn das Konto als Webdienste-Benutzer autorisiert ist. |
 | Diesen Computer ausschließen | Wendet ein Cookie auf den aktuellen Computer an, um diesen von der Datenkollektion auszuschließen. Dies ist hilfreich wenn Sie vermeiden möchten, dass Ihre Online-Aktivitäten die Seitenansichts- und Besucher-Zahlen in Ihrer Domain beeinflussen. **Anmerkung:** Um diese Funktion nutzen zu können müssen Cookies in Ihrem Browser aktiviert sein. Wenn Sie Cookies auf Ihrem Computer löschen, müssen Sie das Ausschlusscookie wieder zurücksetzen. |
 

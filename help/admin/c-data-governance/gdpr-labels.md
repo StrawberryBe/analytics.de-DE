@@ -3,10 +3,10 @@ description: Beispiele für Datenschutzbezeichnungen für Adobe Analytics-Variab
 title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '3913'
-ht-degree: 100%
+source-wordcount: '3909'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
   <tr> 
    <td colname="col1"> <p>Keine </p> </td> 
    <td colname="col2"> <p>Diese Variable enthält keine ID, die für Datenschutzanfragen verwendet wird. </p> </td> 
-   <td colname="col3"> <p>Sie müssen eine dieser anderen Kennzeichnungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie bei der Übermittlung von Zugriffs- oder Löschanfragen über die [Privacy Service-API] (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) oder die Benutzeroberfläche verwenden. </p> </td> 
+   <td colname="col3"> <p>Sie müssen eine dieser anderen Beschriftungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie beim Senden von Zugriffs- oder Löschanfragen über die [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) oder -Benutzeroberfläche verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
 
 | Beschriftung | Definition | Weitere Anforderungen |
 | --- | --- | --- |
-| Keine | Diese Variable enthält keine ID, die für Datenschutzanfragen verwendet wird. | Sie müssen eine dieser anderen Kennzeichnungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie bei der Übermittlung von Zugriffs- oder Löschanfragen über die [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) oder die Benutzeroberfläche verwenden werden. |
+| Keine | Diese Variable enthält keine ID, die für Datenschutzanfragen verwendet wird. | Sie müssen eine dieser anderen Kennzeichnungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie bei der Übermittlung von Zugriffs- oder Löschanfragen über die [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) oder die Benutzeroberfläche verwenden werden. |
 | ID-DEVICE | Dieses Feld enthält eine ID, die Sie zur Identifizierung eines Geräts für eine Datenschutzanfrage verwenden können. Sie kann jedoch nicht zwischen den verschiedenen Benutzern eines gemeinsam genutzten Geräts unterscheiden.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | Erfordert auch eine I1- oder I2-Beschriftung.<ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Classifications festgelegt werden</li></ul> |
 | ID-PERSON | Dieses Feld enthält eine ID, die verwendet werden kann, um einen authentifizierten Benutzer (eine bestimmte Person) für eine Datenschutzanfrage zu identifizieren.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | Erfordert auch eine I1- oder I2-Beschriftung.<ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Classifications festgelegt werden</li></ul> |
 
