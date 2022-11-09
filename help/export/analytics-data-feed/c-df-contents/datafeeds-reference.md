@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
-source-wordcount: '3621'
+source-wordcount: '3638'
 ht-degree: 93%
 
 ---
@@ -29,6 +29,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | Spaltenname | Spaltenbeschreibung | Datentyp |
 | --- | --- | --- |
 | **`accept_language`** | Führt alle unterstützten Sprachen, wie im HTTP-Header Accept-Language angegeben, in einer Bildanforderung auf. | char(20) |
+| **`adload`** | Medien-Anzeigenladevorgänge | varchar(255) |
 | **`aemassetid`** | Eine mehrwertige Variable, die Asset-IDs (GUIDs) einer Reihe von Adobe Experience Manager Assets entspricht. Erhöht Impressionsereignisse. | text |
 | **`aemassetsource`** | Identifiziert die Quelle des Asset-Ereignisses. Wird in Adobe Experience Manager verwendet. | varchar(255) |
 | **`aemclickedassetid`** | Asset-ID eines Adobe Experience Manager-Assets. Erhöht Klickereignisse. | varchar(255) |
@@ -143,6 +144,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`mobileplaceaccuracy`** | Erfasst mit der Kontextdatenvariablen `a.loc.acc`. Gibt die Genauigkeit des GPS in Metern zum Erfassungszeitpunkt an. | varchar(255) |
 | **`mobileplacecategory`** | Erfasst mit der Kontextdatenvariablen `a.loc.category`. Beschreibt die Kategorie eines bestimmten Orts. | varchar(255) |
 | **`mobileplaceid`** | Erfasst mit der Kontextdatenvariablen `a.loc.id`. Kennung für einen bestimmten Zielpunkt. | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services Push-Anmeldung | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services-Push-Payload-ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Startinhalte für Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Startmedium für Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Startquelle für Mobile Services | varchar(255) |
@@ -202,7 +205,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`socialownedpropertyid`** | Wird nicht mehr verwendet. Soziale eigene Eigenschafts-ID | varchar(255) |
 | **`socialownedpropertyname`** | Wird nicht mehr verwendet. Sozialer eigener Eigenschaftsname | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | Wird nicht mehr verwendet. Social – eigene Eigenschaft vs App | varchar(255) |
-| **`sourceid`** | . | int unsigniert |
+| **`sourceid`** | Quell-ID | int unsigniert |
 | **`state`** | Statusvariable. | varchar(50) |
 | **`stats_server`** | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
 | **`survey`** | Wird nicht mehr verwendet. Adobe Survey-Variable. Nur die `post` verfügbar ist. | text |
@@ -294,6 +297,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 
 Die folgende Liste von Spalten wird nicht verwendet und enthält keine Daten:
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
