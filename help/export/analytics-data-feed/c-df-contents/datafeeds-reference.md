@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 94%
+source-wordcount: '3621'
+ht-degree: 93%
 
 ---
 
@@ -63,8 +63,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendet Zeitstempel in Unix-Zeit. | int |
 | **`cust_visid`** | Wurde eine benutzerdefinierte Besucher-ID festgelegt, wird sie in diese Spalte aufgenommen. | varchar(255) |
 | **`daily_visitor`** | Flag zur Bestimmung, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
-| **`dataprivacyconsentoptin`** | Variable, die in der Variablen [Opt-in für die Einverständnisverwaltung](/help/components/dimensions/cm-opt-in.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | Variable, die in der Variablen [Opt-out aus der Einverständnisverwaltung](/help/components/dimensions/cm-opt-out.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`|`). Gültige Werte sind `SSF`, `DMP`und `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | Variable, die in der Variablen [Opt-in für die Einverständnisverwaltung](/help/components/dimensions/cm-opt-in.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable, die in der Variablen [Opt-out aus der Einverständnisverwaltung](/help/components/dimensions/cm-opt-out.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP`und `SELL`. | varchar(100) |
 | **`date_time`** | Die Uhrzeit des Treffers in lesbarem Format, basierend auf der Zeitzone der Report Suite. | datetime |
 | **`domain`** | Variable, die in der Dimension [Domain](/help/components/dimensions/domain.md) verwendet wird. Basierend auf dem Internetzugangspunkt des Besuchers. | varchar(100) |
 | **`duplicate_events`** | Listet alle Ereignisse auf, die als Duplikat gezählt wurden. | varchar(255) |
@@ -163,6 +163,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`page_type`** | Wird zum Füllen der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. Wird nur für 404-Seiten verwendet. Diese Variable sollte entweder leer sein oder den Wert `ErrorPage` enthalten. | char(20) |
 | **`page_url`** | Die URL des Treffers. Beachten Sie, dass `post_page_url` für Bildanforderungen zum Linktracking entfernt wird und einen Datentyp von varchar(255) verwendet. | text |
 | **`pagename`** | Wird zum Füllen der Dimension [Seite](/help/components/dimensions/page.md) verwendet. Wenn die Variable [`pagename`](/help/implement/vars/page-vars/pagename.md) leer ist, verwendet Analytics stattdessen `page_url`. | varchar(100) |
+| **`pagename_no_url`** | Ähnlich wie `pagename`, allerdings wird nicht auf `page_url`. Nur die `post` verfügbar ist. | varchar(100) |
 | **`paid_search`** | Flag, das gesetzt wird, wenn der Treffer mit der gebührenpflichtigen Sucherkennung übereinstimmt. | tinyint unsigniert |
 | **`partner_plugins`** | Nicht verwendet. Teil einer veralteten Funktion. | varchar(255) |
 | **`persistent_cookie`** | Wird in der Dimension [Unterstützung persistenter Cookies](/help/components/dimensions/persistent-cookie-support.md) verwendet. Gibt an, ob der Benutzer Cookies unterstützt, die nicht nach jedem Treffer gelöscht werden. | char(1) |
@@ -201,9 +202,10 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`socialownedpropertyid`** | Wird nicht mehr verwendet. Soziale eigene Eigenschafts-ID | varchar(255) |
 | **`socialownedpropertyname`** | Wird nicht mehr verwendet. Sozialer eigener Eigenschaftsname | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | Wird nicht mehr verwendet. Social – eigene Eigenschaft vs App | varchar(255) |
+| **`sourceid`** | . | int unsigniert |
 | **`state`** | Statusvariable. | varchar(50) |
 | **`stats_server`** | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
-| **`survey`** | Wird nicht mehr verwendet. Adobe Survey-Variable. | text |
+| **`survey`** | Wird nicht mehr verwendet. Adobe Survey-Variable. Nur die `post` verfügbar ist. | text |
 | **`survey_instances`** | Wird nicht mehr verwendet. Adobe Survey-Instanzvariable. | text |
 | **`t_time_info`** | Lokale Zeit des Besuchers. Das Format ist: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die er derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
