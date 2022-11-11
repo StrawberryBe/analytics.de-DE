@@ -3,13 +3,13 @@ description: Erfahren Sie, wie Sie mit dem Reporting Activity Manager Kapazität
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '934'
 ht-degree: 7%
 
 ---
-
 
 # Reporting Activity Manager
 
@@ -31,7 +31,9 @@ In Adobe Analytics navigieren Administratoren zu **[!UICONTROL Admin]** > **[!UI
 
 ## Zugriffsberechtigungen
 
-Sie benötigen Analytics Product Admin-Berechtigungen, um Berichtaktivitäten zu verwalten.
+Sie benötigen die Berechtigung für Analytics-Produkt-Administrator (in Adobe Admin Console), um die Berichterstellungsaktivität zu verwalten.
+
+Berechtigung ![](assets/rep-mgr-permission.png)
 
 ## Berichtwarteschlange anzeigen
 
