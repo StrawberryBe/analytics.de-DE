@@ -4,9 +4,9 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '962'
 ht-degree: 7%
 
 ---
@@ -88,7 +88,7 @@ Die Zusammenfassungsnummern zeigen die folgenden Informationen an:
 
 | Zusammenfassungszahl | Beschreibung |
 | --- | --- |
-| [!UICONTROL Benutzer] | Wie viele Benutzer derzeit Reporting-Anforderungen an diese Report Suite senden. |
+| [!UICONTROL Benutzer] | Die Anzahl der Benutzer, die zurzeit Reporting-Anforderungen an diese Report Suite senden. |
 | [!UICONTROL Projekte] | Workspace-Projekte, Report Builder-Arbeitsmappen usw. |
 | [!UICONTROL Abfragen] | Die Anzahl der derzeit ausgeführten Abfragen. |
 | [!UICONTROL Durchschnittliche Wartezeit] | Die durchschnittliche Wartezeit für alle ausgeführten Abfragen. |
@@ -120,7 +120,10 @@ Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 
 So brechen Sie eine Anforderung ab
 
-1. Aktivieren Sie das Kontrollkästchen links neben einem oder mehreren **[!UICONTROL Abfrage-ID]** in der Tabelle und klicken Sie auf **[!UICONTROL Anforderungen abbrechen]** unten. (Sie können Anforderungen auch stapelweise abbrechen, indem Sie Details anzeigen durch [!UICONTROL Benutzer], [!UICONTROL Projekt]oder [!UICONTROL Anwendung].
+1. Aktivieren Sie das Kontrollkästchen links neben einem oder mehreren **[!UICONTROL Abfrage-ID]** in der Tabelle und klicken Sie auf **[!UICONTROL Anforderungen abbrechen]** unten.
+
+   Sie können Anforderungen auch stapelweise abbrechen, indem Sie Details anzeigen durch [!UICONTROL Benutzer], [!UICONTROL Projekt]oder [!UICONTROL Anwendung]. Nachfolgende Anforderungen für ein Projekt, einen Benutzer oder eine Anwendung, die sich zum Zeitpunkt des Abbruchs nicht in der Warteschlange befanden oder nicht ausgeführt wurden, können weiterhin angezeigt werden, wenn die Aktivität aktualisiert wird.
+
 1. Im **[!UICONTROL Abbrechen der X-Abfrage]** angezeigt wird, können Sie bei Bedarf die Abbruchsnachricht ändern.
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
