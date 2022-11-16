@@ -5,9 +5,9 @@ title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics erfasst die folgenden Daten:
 | Erfolgsraten von Werbekampagnen | Ja |
 | Produktinformationen, z. B. Farben, Preise, Stile, Fotos | Ja |
 
-&#42;Wenn der Adobe-Kunde die IP nicht entfernt.
+&#42;Es sei denn, der Adobe-Kunde entfernt die IP.
 
 ## Sonstige Hinweise zum Datenschutz {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Deutschland </td> 
-   <td colname="col2"> <p>Wenn Sie noch keinen Datenverarbeitungsvertrag für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie sich an Ihren Kundenbetreuer oder Kundenerfolgsmanager wenden, der mit der Rechtsabteilung der Adobe zusammenarbeitet, um den DPA einzurichten. </p> </td> 
+   <td colname="col2"> <p>Wenn SIe nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie Ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
