@@ -6,13 +6,13 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Berichtsdaten filtern {#concept_09DC5B986A644738B12204DAC76A90E1}
+# Filtern von Berichtsdaten {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 {{ra-eol}}
 
@@ -52,11 +52,11 @@ Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzeleleme
 
 >[!NOTE]
 >
-> Leerzeichen können nicht in Filtern verwendet werden, da sie als Trennzeichen bei Suchvorgängen verwendet werden.
+>Leerzeichen können nicht in Filtern verwendet werden, da sie als Trennzeichen bei Suchvorgängen verwendet werden.
 
 **Enthält nicht**
 
-Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) aus Berichten filtern.
+Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=de) aus Berichten filtern.
 
 Enthält nicht: `none`
 
@@ -139,7 +139,7 @@ Mit dem erweiterten Filter können Sie Platzhalter- und andere komplexe Suchvorg
 | `-` | Nicht. <br>Verwenden Sie kein Leerzeichen zwischen dem Sonderzeichen und dem Suchausdruck. |
 | `|` | Oder<br>Hinweis: Sie müssen ein Leerzeichen auf jeder Seite des Senkrechtstriches (`" | "`) einfügen. |
 
-## Berichtsspezifische Filter erstellen {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
+## Erstellen von berichtsspezifischen Filtern {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
 In diesen Schritten wird beschrieben, wie Filter für Berichte erstellt werden.
 
@@ -161,7 +161,7 @@ Wenn Sie auf diese Filter zugreifen, werden Berichtsmetriken für die in der Lis
 1. Geben Sie zur Suche nach einem Element eine Zeichenfolge in das **[!UICONTROL Suchfeld]** ein.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
-## Korrelationsfilter hinzufügen {#task_065042E384DA4BF3864C58AF2B88D6E2}
+## Hinzufügen eines Korrelationsfilters {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
 In diesen Schritten wird beschrieben, wie Sie einen Korrelationsfilter hinzufügen.
 
