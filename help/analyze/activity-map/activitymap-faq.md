@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 97%
 
 Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
 
-+++Haben alle Analytics-Kunden Zugriff auf die Seite „Activity Map – Aktivierung“ in den Admin Tools?
-Organisationen mit Verträgen für Adobe Analytics Standard, Premium und Ultimate haben Zugang zu Activity Map.
++++Haben alle Analytics-Kunden Zugriff auf die Seite „ActivityMap – Aktivierung“ in den Admin Tools?
+Organisationen mit Verträgen für Adobe Analytics Standard, Premium und Ultimate haben Zugriff auf Activity Map.
 +++
 
-+++Wie unterstützt Activity Map Single-Page Applications (SPA)?
-Alle paar Sekunden scannt Activity Map die Web-Seite und sucht nach Änderungen an der Seite. Activity Map findet neuen Inhalt auf der Seite, ohne dass die Seite neu geladen werden muss. Dieser neue Inhalt wird jedoch immer dem ersten pageName zugeordnet, der beim Laden der Seite gefunden wurde.
++++Wie unterstützt Activity Map Einzelseiten-Programme (SPA)?
+Alle paar Sekunden scannt Activity Map die Web-Seite und sucht nach Änderungen an der Seite. ActivityMap findet neuen Inhalt auf der Seite, ohne dass die Seite neu geladen werden muss. Dieser neue Inhalt wird jedoch immer dem ersten pageName zugeordnet, der beim Laden der Seite gefunden wurde.
 
 * Activity Map prüft, ob sich die Sichtbarkeit von bekannten Links geändert hat. Wenn eine Änderung der Sichtbarkeit festgestellt wird, wird die Spalte „Präsenz“ der Tabelle „Links auf Seite“ für diesen Link mit [!UICONTROL Angezeigt] oder [!UICONTROL Ausgeblendet] aktualisiert.
 
 * Wenn durch Benutzerinteraktion neue Inhalte erstellt werden, werden alle neuen Elemente, die von AppMeasurement als Link erkannt werden, zur Tabelle [!UICONTROL Links auf Seite] hinzugefügt. Activity Map sendet eine neue Datenanfrage, die diese neuen Links enthält. Die neuen Links sollten in der Tabelle [!UICONTROL Links auf Seite] angezeigt werden, wenn die Datenanfrage von der Benutzeroberfläche verarbeitet wird.
 +++
 
-+++ Bietet Activity Map Daten zu &quot;Ansichten&quot;?
++++Bietet Activity Map Daten zu „Ansichten“?
 Nein, Adobe verfolgt keine Links, die angezeigt wurden.
 +++
 
@@ -57,7 +57,7 @@ Standardmäßig verwendet Activity Map die Report Suite, die mit dem ersten Tag 
 Activity Map sucht bis zu 20 Sekunden nach Adobe Analytics, nachdem ein „page complete“-Ereignis abgeschlossen ist.
 +++
 
-+++Wie behandelt Activity Map dynamischen Inhalte?
++++Wie behandelt Activity Map dynamische Inhalte?
 Activity Map sucht alle zwei Sekunden nach Statusänderungen der Web-Seite wie:
 
 * HTML-Inhalt wurde angezeigt
@@ -72,7 +72,7 @@ Alle angezeigten Daten basieren auf Seitenansichten.
 +++
 
 +++Kann ich Kontextdatenvariablen aus Activity Map über Daten-Feeds exportieren?
-Ja. Die [Datenspalten](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) die Activity Map verwendet `clickmaplink`, `clickmaplinkbyregion`, `clickmappage`und `clickmapregion`.
+Ja. Activity Map verwendet die [Datenspalten](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) `clickmaplink`, `clickmaplinkbyregion`, `clickmappage` und `clickmapregion`.
 +++
 
 +++Funktionieren Segmente im Live-Modus?
