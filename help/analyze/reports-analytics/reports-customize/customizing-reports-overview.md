@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert anpassen, um die Daten nach Ihren Wünschen anzuzeigen und zu analysieren. Sie haben die Möglichkeit Berichtsdaten zu filtern, die Art und Weise der grafischen Präsentation zu ändern, die Datums-Granularität zu ändern usw.
 
-## Benutzerspezifische Berichte erstellen {#task_BA6EACA3039C40AEA5605E1D8C76E646}
+## Erstellen benutzerspezifischer Berichte {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
 In diesen Schritten wird beschrieben, wie Sie die aktuelle Konfiguration eines Berichts als neuen benutzerspezifischen Bericht speichern, den alle Benutzer anzeigen können.
 
@@ -74,7 +74,7 @@ Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öff
 
 1. Klicken Sie auf **[!UICONTROL Bericht ausführen]**.
 
-## Sie können Datumswerte vergleichen {#task_95155C3700774B709F5FB81AE96B0824}
+## Vergleichen von Datumswerten {#task_95155C3700774B709F5FB81AE96B0824}
 
 In diesen Schritten wird beschrieben, wie Sie den Kalender verwenden können, um Datumsvergleiche zwischen Rangberichten auszuführen.
 
@@ -88,7 +88,7 @@ Datumsvergleiche aus Trendberichten sind nicht möglich.
 
 >[!NOTE]
 >
->Wenn Sie einen Datumsvergleich bei Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mit zwei separaten Anforderungen in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=de) übertragen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
+>Wenn Sie einen Datumsvergleich bei Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mithilfe von zwei separaten Anfragen in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=de) übertragen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
 
 So führen Sie Datumsvergleiche zwischen Rangberichten in Reports &amp; Analytics aus:
 
@@ -211,7 +211,7 @@ Diese Funktion gilt nur für Trendberichte, die nach dem Datumsbereich „Woche�
 1. Führen Sie einen Trendbericht über einen festgelegten Datumsbereich aus.
 1. Klicken Sie auf den Link **[!UICONTROL Wochentag]** und klicken Sie anschließend einen Link an.
 
-## Schaltfläche „In Arbeitsbereich ausprobieren“  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Schaltfläche „In Arbeitsbereich ausprobieren“ {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 Durch einen Klick auf die Schaltfläche **[!UICONTROL In Arbeitsbereich ausprobieren]** oben im Report wird der Bericht in Analysis Workspace geladen.
 
