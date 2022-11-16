@@ -1,12 +1,12 @@
 ---
-description: In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Zielgruppe den größten Nutzen bietet.
+description: In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Audience den größten Nutzen bietet.
 title: Berichtsdiagramme ändern
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Zielgruppe den größten Nutzen bietet.
+In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Audience den größten Nutzen bietet.
 
 Die verfügbaren Diagrammtypen sind vom Berichtstyp abhängig, den Sie ausführen. Zum Beispiel sind Trendkantengraphen bei Trendberichten hilfreich, jedoch können Sie auch ein Vertikalbalkendiagramm mit Trendlinien verwenden, das Trends über Tage, Wochen, Monate usw. eindeutig illustriert. Alternativ dazu könnten Sie ein Kreisdiagramm verwenden, um die Prozentwerte der angezeigten Dateien zu veranschaulichen.
 
