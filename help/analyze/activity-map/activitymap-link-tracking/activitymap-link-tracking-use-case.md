@@ -1,20 +1,20 @@
 ---
-description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID, die Region oder die Activity Map-Moduldatei AppMeasurement anpassen.
+description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID, die Region oder die ActivityMap-Moduldatei AppMeasurement anpassen.
 title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 
-Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID, die Region oder die Activity Map-Moduldatei AppMeasurement anpassen.
+Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID, die Region oder die ActivityMap-Moduldatei AppMeasurement anpassen.
 
 Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activity Map unter der gleichen Link-ID und Region identifiziert werden:
 
@@ -44,26 +44,26 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
    <td colname="col2">
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    Empfehlungsbereich<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    Empfehlungsbereich<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    Empfehlungsbereich<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -71,15 +71,15 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
  </tbody>
 </table>
 
-Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Links zu unterscheiden? Sie haben drei Optionen: Sie können die Link-ID anpassen, die Region anpassen oder die Activity Map-Moduldatei AppMeasurement anpassen.
+Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Links zu unterscheiden? Sie haben drei Optionen: Sie können die Link-ID anpassen, die Region anpassen oder die ActivityMap-Moduldatei AppMeasurement anpassen.
 
 ## Link-ID mit s_objectID anpassen  {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Erstellen einer eindeutigen Objekt-ID, `s_objectID`für einen Link oder eine Linkposition auf einer Seite können Sie das Activity Map-Tracking verbessern oder Activity Map verwenden, um Berichte zu einem Linktyp oder einer Linkposition anstatt zur Link-URL zu erstellen. Klicken Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=de), um weitere Informationen zur Variablen zu erhalten.`s_objectID`
+Durch Erstellung einer eindeutigen Objekt-ID, `s_objectID`, für einen Link oder eine Link-Position auf einer Seite können Sie die Activity Map-Verfolgung verbessern. Sie können Activity Map auch anstelle der Link-URL zum Generieren von Berichten zum Link-Typ oder zur Link-Position verwenden. Klicken Sie [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=de), um weitere Informationen zur Variablen `s_objectID` zu erhalten.
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass ein nachstehendes Semikolon (`;`) bei Verwendung von `s_objectID` in Activity Map.
+>Bei Verwendung von `s_objectID` in Activity Map muss ein Semikolon (`;`) folgen.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
@@ -107,26 +107,26 @@ Erstellen einer eindeutigen Objekt-ID, `s_objectID`für einen Link oder eine Lin
    <td colname="col2">
      <br/>
      <br/>
-    Produkt1<br/>
+    Product1<br/>
      <br/>
      <br/>
     Product2<br/>
      <br/>
      <br/>
-    Produkt3<br/>
+    Product3<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    Empfehlungsbereich<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    Empfehlungsbereich<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    Empfehlungsbereich<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -134,13 +134,13 @@ Erstellen einer eindeutigen Objekt-ID, `s_objectID`für einen Link oder eine Lin
  </tbody>
 </table>
 
-## Region anpassen  {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Anpassen der Region  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &quot;Buy&quot;eine eigene Region definiert ist. Fügen Sie dazu eine `"id"` -Parameter zu einem der übergeordneten Elemente jedes Verankerungs-Tags &quot;Buy&quot;.
+Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link vom Typ „Buy“ eine eigene Region definiert ist. Fügen Sie dazu einem der übergeordneten Elemente jedes Anker-Tags „Buy“ den Parameter `"id"` hinzu.
 
 >[!NOTE]
 >
->Sie sind nicht auf die `"id"` als Regions-ID. Sie können Ihre eigene Kennung auch mithilfe der JavaScript-Variablen festlegen `"s.ActivityMap.regionIDAttribute"`.
+>Sie sind nicht auf den Parameter `"id"` zur Identifikation einer Region beschränkt. Sie können auch eine eigene ID mithilfe der JavaScript-Variablen `"s.ActivityMap.regionIDAttribute"` festlegen.
 
 <table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
@@ -168,13 +168,13 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &
    <td colname="col2">
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Kaufen<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -195,11 +195,11 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &
  </tbody>
 </table>
 
-## Activity Map-Moduldatei AppMeasurement anpassen  {#section_B933BB9F944E4D5389002908A5A881F8}
+## Anpassen der ActivityMap-Moduldatei AppMeasurement  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
->Stellen Sie sicher, dass Sie den geänderten Code testen, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
+>Sie sollten den geänderten Code unbedingt testen, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
 
 Im Folgenden finden Sie einige Beispiele für **allgemeine** Link-/Regionsfunktionen, die Sie (in geänderter Form) in die Datei AppMeasurement.js einschließen können.
 
@@ -216,7 +216,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-Die `linkName` wird bei Aufrufen an `s.tl()`.
+`linkName` wird bei Aufrufen an `s.tl()` übergeben.
 
 ```js
 s.ActivityMap.region = function(ele) {
