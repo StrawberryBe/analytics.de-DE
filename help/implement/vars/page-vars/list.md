@@ -4,17 +4,17 @@ description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer e
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Liste
+# list
 
 Listenvariablen sind benutzerspezifische Variablen, die Sie beliebig verwenden können. Sie funktionieren ähnlich wie eVars, allerdings können sie mehrere Werte im selben Treffer enthalten. Listenvariablen haben keine Zeichenbeschränkung.
 
-Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und deren Logik in Ihrer [Lösungsdesigndokument](../../prepare/solution-design.md).
+Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und deren Logik in Ihrem [Lösungs-Design-Dokument](../../prepare/solution-design.md) aufzeichnen.
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und
 
 ## Einrichten von Listenvariablen in den Report Suite-Einstellungen
 
-Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellungen konfigurieren, bevor Sie sie in Ihrer Implementierung verwenden. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen. ](/help/admin/admin/conversion-var-admin/list-var-admin.md) Dieser Schritt gilt für alle Implementierungsmethoden.
+Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellungen konfigurieren, bevor Sie sie in Ihrer Implementierung verwenden. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/list-var-admin.md). Dieser Schritt gilt für alle Implementierungsmethoden.
 
-## Listenvariablen mit dem Web SDK
+## Listenvariablen, die das Web SDK verwenden
 
-Listenvariablen sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.lists.list1.list[]` nach `_experience.analytics.customDimensions.lists.list3.list[]`. Jedes Array-Element enthält eine `"value"` -Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Es wird automatisch unter Verwendung des in [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md). Wenn beispielsweise ein Komma (&#39;`,`&#39;) als Trennzeichen für die Listenvariable 1 konfiguriert ist, füllt das folgende XDM-Objekt die `list1` Variable mit `"Example value 1,Example value 2,Example value 3"`.
+Listenvariablen sind [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.lists.list1.list[]` bis `_experience.analytics.customDimensions.lists.list3.list[]` zugeordnet. Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Es wird automatisch unter Verwendung des in den [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md) angegebenen Werts eingeschlossen. Wenn beispielsweise ein Komma (&#39;`,`&#39;) als Trennzeichen für die Listenvariable 1 konfiguriert ist, füllt das folgende XDM-Objekt die `list1`-Variable mit `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -56,15 +56,15 @@ Listenvariablen sind [für Adobe Analytics zugeordnet](https://experienceleague.
 
 >[!NOTE]
 >
->Das Adobe-XDM-Schema enthält `key` Objekte zusätzlich zu `value` Objekte in jedem `list[]` Array. Adobe verwendet diese `key` Objekte beim Senden von Daten an Adobe Analytics.
+>Das Adobe-XDM-Schema enthält `key`-Objekte zusätzlich zu `value`-Objekten in jedem `list[]`-Array. Adobe verwendet diese `key`-Objekte nicht beim Senden von Daten an Adobe Analytics.
 
-## Listenvariablen mit der Adobe Analytics-Erweiterung
+## Listenvariablen, die die Adobe Analytics-Erweiterung verwenden
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.list1 - s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.list1 – s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Sie haben keine maximale Byte-Anzahl; jeder einzelne Wert hat jedoch ein Maximum von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md). Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
+Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Sie haben keine maximale Byte-Anzahl; jeder einzelne Wert hat jedoch ein Maximum von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in den [Report Suite-Einstellungen](/help/admin/admin/conversion-var-admin/list-var-admin.md) festgelegt. Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
 
 ```js
 // A list variable configured with a comma as a delimiter
