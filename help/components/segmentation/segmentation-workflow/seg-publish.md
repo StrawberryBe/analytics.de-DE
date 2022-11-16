@@ -4,9 +4,9 @@ title: Veröffentlichen von Segmenten in Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,12 +55,12 @@ Weitere Informationen finden Sie in diesem Video:
 1. Geben Sie einen Titel und eine Beschreibung für das Segment ein. Andernfalls können Sie es nicht speichern.
 1. Aktivieren Sie die Option **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
 
-![Experience Cloud veröffentlichen](assets/publish-ec.png)
+![Veröffentlichen in Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Stellen Sie sicher, dass Sie bei der Betrachtung der Segmentvorschau in Analytics &quot;Besucher mit Experience Cloud-ID&quot;anstelle der Segmentvorschau &quot;Unique Visitors&quot;insgesamt verwenden, wenn Sie Adobe Analytics-Zahlen mit den Audience Manager-Zahlen vergleichen:
+>Stellen Sie sicher, dass Sie „Besucher mit Experience Cloud-ID“ verwenden, wenn Sie Segmentvorschauen in Analytics anstelle der Segmentvorschau „Unique Visitors“ insgesamt betrachten, wenn Sie Adobe Analytics-Zahlen mit Audience Manager-Zahlen vergleichen:
 >
->![Besucher mit ECID segmentieren](assets/seg-vis-ecid.png)
+>![Segmentieren von Besuchern mit ECID](assets/seg-vis-ecid.png)
 
 | Element | Beschreibung |
 |---|---|
@@ -102,7 +102,7 @@ Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser ab
 
 ![Debugger](assets/debugger.jpg)
 
-### Methode 2: Verwenden von Chrome Developer Tools (oder anderen Browser-Entwicklertools)
+### Methode 2: Verwenden von Chrome Developer Tools (oder anderen Browser-Entwickler-Tools)
 
 1. Starten Sie Chrome Developer Tools vor dem Laden einer Seite.
 1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die AAM-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) im Beispiel unten) festgelegt sein. Das Feld „demdex“ ist die AAM-UUID-Einstellung im Browser (`50814298273775797762943354787774730612` im Beispiel unten).
@@ -113,7 +113,7 @@ Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser ab
 
 Die AAM-UUID im Browser wird standardmäßig verwendet, wenn der [!UICONTROL Besucherprofil-Betrachter] geladen wird. Wenn Sie Eigenschaftsrealisierungen für andere Benutzer überprüfen, geben Sie eine UUID in das Feld „UUID“ ein und klicken Sie auf [!UICONTROL Aktualisieren]. Weitere Informationen finden Sie unter [Besucherprofil-Betrachter](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=de).
 
-![Audience Manager-Profil-Viewer](assets/aam-vpv.png)
+![Audience Manager-Profil-Betrachter](assets/aam-vpv.png)
 
 ## Anzeigen von Segmenteigenschaften in [!DNL Audience Manager]
 
