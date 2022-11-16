@@ -4,9 +4,9 @@ description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verw
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind
 
 ## Einrichten von eVars in den Report Suite-Einstellungen
 
-Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie die einzelnen eVar in den Report Suite-Einstellungen konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
+Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie jede eVar in den Report Suite-Einstellungen konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
-## eVars mit dem Web SDK
+## eVars, die das Web SDK verwenden
 
-eVars sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.eVars.eVar1` nach `_experience.analytics.customDimensions.eVars.eVar250`.
+eVars sind [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.eVars.eVar1` bis `_experience.analytics.customDimensions.eVars.eVar250` zugeordnet.
 
-## eVars mit der Adobe Analytics-Erweiterung
+## eVars, die die Adobe Analytics-Erweiterung verwenden
 
 Sie können eVars entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
@@ -39,7 +39,7 @@ Sie können eVars entweder beim Konfigurieren der Analytics-Erweiterung (globale
 
 Sie können eine eVar auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
 
-## s.eVar1 - s.eVar250 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.eVar1 – s.eVar250 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Jede eVar ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Die maximale Länge beträgt 255 Byte. Werte, die länger als 255 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 
