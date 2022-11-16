@@ -5,16 +5,16 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Häufig gestellte Fragen
 
 +++Was sind die Voraussetzungen für die Verwendung von Analysis Workspace?
-[Senden von Daten an Adobe Analytics mithilfe von Adobe Analytics-Erweiterungen](/help/implement/launch/validate-publish-prod.md): Für die Verwendung von Analysis Workspace ist eine funktionierende Implementierung erforderlich. Stellen Sie sicher, dass Ihr Unternehmen Daten an Adobe sendet, bevor Sie das Tool verwenden. Andere Implementierungen wie DTM oder ältere manuelle Implementierungen können ebenfalls funktionieren.
+[Senden von Daten an Adobe Analytics mithilfe von Adobe Analytics-Erweiterungen](/help/implement/launch/validate-publish-prod.md): Für die Verwendung von Analysis Workspace ist eine funktionierende Implementierung erforderlich. Vergewissern Sie sich, dass Ihre Organisation Daten an Adobe sendet, bevor Sie das Tool verwenden. Andere Implementierungen wie DTM oder ältere manuelle Implementierungen können ebenfalls funktionieren.
 +++
 
 +++Welche Administrations- und Zugriffsanforderungen gibt es für Analysis Workspace?
@@ -29,15 +29,15 @@ Da Analysis Workspace ein Berichtswerkzeug ist, hat dies keine Auswirkungen auf 
 Sie können jetzt in Analysis Workspace Projekte mit Daten aus [mehreren Report Suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de) erstellen.
 +++
 
-+++Wie wird der Analysis Workspace implementiert?
++++Wie wird Analysis Workspace implementiert?
 Es ist keine spezielle Implementierung erforderlich. Der Analysis Workspace steht allen Unternehmen mit Analytics Standard oder Premium zur Verfügung. Es gelten jedoch die Standardberechtigungen für Inhalte (z. B. Report Suites und Projektkomponenten) und für die Kuratierung und Freigabe von Projekten. Weitere Informationen finden Sie unter [Administrations- und Zugriffsanforderungen](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++Ändert der Analysis Workspace die vorkonfigurierten Berichte in Adobe Analytics?
++++Ändert Analysis Workspace die vorkonfigurierten Berichte in Adobe Analytics?
 Nein. Da es sich hier um eine separate Umgebung handelt, ergeben sich keine Änderungen an Ihren vorhandenen oder vorkonfigurierten Berichten in Adobe Analytics. Sie können mit Analysis Workspace weiterhin Standardberichte aus Reports &amp; Analytics sowie vom Report Builder nutzen.
 +++
 
-+++Kann ich den Analysis Workspace für Data Warehouse verwenden?
++++Kann ich Analysis Workspace für Data Warehouse verwenden?
 Der Analysis Workspace wird für den Export von Massendaten nicht empfohlen. Es handelt sich um Arbeitsplatz für die Visualisierung, über den dashboardartiger Analyseprojekte erstellt werden können.
 +++
 
@@ -60,11 +60,11 @@ Sehen Sie sich dieses Video zur Nutzungsprotokollverfolgung für Analysis Worksp
 
 +++
 
-+++ Wenn ich eine Metrik ziehe, steht &quot;Ungültige Daten&quot;. Wie kann ich dieses Problem beheben?
++++Wenn ich eine Metrik per Drag-and-Drop ziehe, wird die Meldung „Ungültige Daten“ angezeigt. Wie kann ich dieses Problem beheben?
 „Ungültige Daten“ bedeuten, dass Adobe keine Daten mit der Kombination von Dimensionen und Metriken zurückgeben kann, die im Bericht verwendet werden. Beispielsweise können zwei Metriken, die übereinander gestapelt sind, nicht als Daten zurückgegeben werden, da es nicht möglich ist, zwei Metriken in dieser Weise anzuzeigen. Platzieren Sie die Metriken stattdessen nebeneinander.
 +++
 
-+++Wenn ich eine Metrik ziehe, sehe ich keine tatsächlichen Daten - nur Nullen. Wie kann ich dieses Problem beheben?
++++Wenn ich eine Metrik per Drag-and-drop ziehe, sehe ich keine tatsächlichen Daten, sondern nur Nullen. Wie kann ich dieses Problem beheben?
 Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vorhanden sind, können Sie einige Punkte prüfen:
 
 * Überprüfen Sie die Report Suite und stellen Sie sicher, dass sie mit Daten gefüllt ist.
