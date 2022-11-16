@@ -4,9 +4,9 @@ title: Sequentielle Segmente erstellen
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3827'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,7 +210,7 @@ Erstellen Sie ein Segment, wie Sie dies für ein  einfaches oder verschachteltes
 
 Wenn sich der Ausschluss-Checkpoint am Anfang eines sequenziellen Segments befindet, wird sichergestellt, dass vor dem ersten nicht ausgeschlossenen Treffer keine ausgeschlossene Seitenansicht aufgetreten ist.
 
-Beispiel: Ein Restaurant möchte invasive Benutzer sehen, die die Haupt-Landingpage vermeiden und direkt zur Bestellseite gehen. Dieses Beispiel kann für einen Besucher vereinfacht werden, der den Besuch von Seite A vermeidet und direkt zur Seite B wechselt.
+Ein Restaurant möchte beispielsweise treue Benutzer erkennen, die die Haupt-Landingpage umgehen und direkt zur Bestellseite navigieren. Dieses Beispiel kann dahingehend vereinfacht werden, dass ein Besucher den Besuch von Seite A vermeidet und direkt zur Seite B geht.
 
 **Dieses Segment erstellen**
 
@@ -222,7 +222,7 @@ Erstellen Sie zwei separate Trefferbehälter in einem Besucherbehälter der ober
 
 Wenn der Ausschluss-Checkpoint am Ende einer Sequenz liegt, wird sichergestellt, dass der Checkpoint nicht zwischen dem letzten nicht ausgeschlossenen Checkpoint und dem Ende der Besuchersequenz auftritt.
 
-Ein Bekleidungsladen möchte beispielsweise alle Besucher sehen, die eine Produktseite angesehen, aber anschließend ihren Warenkorb nie besucht haben. Dieses Beispiel kann für einen Besucher vereinfacht werden, der Seite A besucht und dann bei aktuellen oder nachfolgenden Besuchen nie Seite B besucht.
+Ein Bekleidungsgeschäft möchte beispielsweise alle Besucher sehen, die sich eine Produktseite angesehen, aber anschließend nie ihren Warenkorb besucht haben. Dieses Beispiel kann dahingehend vereinfacht werden, dass ein Besucher Seite A besucht und dann beim aktuellen Besuch oder nachfolgenden Besuchen nie zu Seite B geht.
 
 **Dieses Segment erstellen**
 
