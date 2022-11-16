@@ -4,9 +4,9 @@ description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft o
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um 
 * **Web SDK-Erweiterung**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Installieren Sie die Web SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, verwenden Sie auf jeder Seite ein Lader-Tag und senden Sie Daten an Adobe Experience Platform Edge in einem für Ihr Unternehmen geeigneten Format. Experience Edge leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
 * **Web SDK**: Wenn Sie die Adobe Experience Platform-Datenerfassung nicht verwenden möchten, können Sie die Web SDK-Bibliotheken manuell auf Ihre Site laden. Verweisen Sie auf jeder Seite auf die Web SDK-Bibliothek und senden Sie die gewünschten Tracking-Aufrufe an Adobe Experience Edge.
 * **Adobe Analytics-Erweiterung**: Installieren Sie die Adobe Analytics-Erweiterung in der Datenerfassung von Adobe Experience Platform. Platzieren Sie ein Lader-Tag auf jeder Seite und verwenden Sie die Analytics-Erweiterung, um zu bestimmen, wie jede Variable definiert wird.
-* **Legacy JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Führt die in einer Implementierung verwendeten Variablen und Einstellungen auf, die für Implementierungen mit Regeln mit benutzerdefiniertem Code nützlich sein können.
+* **Veraltetes JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Führt Variablen und Einstellungen auf, die in einer Implementierung verwendet werden. Dies kann für Implementierungen hilfreich sein, bei denen Regeln mit benutzerdefiniertem Code verwendet werden.
 * **Mobile SDK**: Spezifische Bibliotheken zum einfachen Senden von Daten aus Ihrer App an Adobe.
 
 ## Wichtige Artikel zur Analytics-Implementierung
@@ -55,4 +55,4 @@ Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um 
 * [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
-* [Experience League](https://experienceleague.adobe.com/?lang=de#home)
+* [Experience League](https://experienceleague.adobe.com/?lang=de#dashboard/learning)
