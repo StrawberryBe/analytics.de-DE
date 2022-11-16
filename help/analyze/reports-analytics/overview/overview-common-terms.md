@@ -1,14 +1,14 @@
 ---
-description: Eine Einführung in häufig verwendete Marketing-Analytics-Begriffe, die in Reports & Analytics verwendet werden.
+description: Eine Einführung in häufig verwendete Begriffe der Marketing-Analyse, die in Reports & Analytics verwendet werden
 title: Häufig verwendete Begriffe
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p>Besuch </p> </td> 
-   <td> <p>Eine Folge von Seitenansichten während einer Sitzung. Der Besuch wird nach 30-minütiger Inaktivität oder nach zwölfstündiger kontinuierlicher Aktivität beendet. (Diese Zeitmessung ist der Branchenstandard für Marketing Analytics.) Besuche werden anhand von Cookies nachverfolgt. Ein Besuch beginnt, wenn ein Besucher auf eine Seite zugreift. Ein Besuch wird auch bezeichnet als   <span class="term">Sitzung</span> bezeichnet, es handelt sich jedoch nicht um eine Browser-Sitzung. Das Aufrufen einer anderen Seite, das Schließen des Browsers und sogar ein Neustart des Computers führt nicht zu einer Beendigung eines Besuchs. </p> <p> Wenn das Zeitlimit für Inaktivität erreicht wird während ein Besucher auf die Seite zugreift, wird der Besuch abgebrochen und verarbeitet. Ein neuer Besuch beginnt wenn der Besucher auf eine andere Seite zugreift. </p> <p>Wenn sich das Datum während eines Besuchs ändert, beispielsweise wenn eine Seite um Mitternacht aufgerufen wird, wird diesem Besuch das Datum des Beginns des Besuchs zugewiesen. </p> </td> 
+   <td> <p>Eine Folge von Seitenansichten während einer Sitzung. Der Besuch wird nach 30-minütiger Inaktivität oder nach zwölfstündiger kontinuierlicher Aktivität beendet. (Diese Zeitvorgaben sind der Branchenstandard für Marketing-Analysen.) Besuche werden anhand von Cookies nachverfolgt. Ein Besuch beginnt, wenn ein Besucher auf eine Seite zugreift. Ein Besuch wird auch bezeichnet als   <span class="term">Sitzung</span> bezeichnet, es handelt sich jedoch nicht um eine Browser-Sitzung. Das Aufrufen einer anderen Seite, das Schließen des Browsers und sogar ein Neustart des Computers führt nicht zu einer Beendigung eines Besuchs. </p> <p> Wenn das Zeitlimit für Inaktivität erreicht wird während ein Besucher auf die Seite zugreift, wird der Besuch abgebrochen und verarbeitet. Ein neuer Besuch beginnt wenn der Besucher auf eine andere Seite zugreift. </p> <p>Wenn sich das Datum während eines Besuchs ändert, beispielsweise wenn eine Seite um Mitternacht aufgerufen wird, wird diesem Besuch das Datum des Beginns des Besuchs zugewiesen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Unique Visitor </p> </td> 
@@ -64,7 +64,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p>Konversions-(Erfolgs-)Ereignisse </p> </td> 
-   <td> <p>Als Konversionsereignisse werden die Aktivitäten bezeichnet, die die Besucher auf Ihrer Website ausführen sollen (dies sind die wichtigen Leistungsindikatoren). Auf einer E-Commerce-Site können Konversionsereignisse eine ausführliche Produktansicht, ein Kassengang oder ein Kauf sein. Für eine Lead-Generierungssite ist das Ereignis möglicherweise das Ausfüllen eines Formulars. Konversionsereignisse werden auf der Site gezählt und in speziellen Berichten aufgeführt. Diese Ereignisse können zudem als Metriken in andere Berichte aufgenommen werden und verdeutlichen, weshalb die Konversionsereignisse eingetreten sind und was dazu geführt hat. </p> <p>Eine Ausnahme von der Regel, dass ein Ereignis einer Metrik entspricht, ist das Kaufereignis, das drei Metriken hervorbringt: Umsatz, Bestellungen und Einheiten. </p> <p>Es gibt mehr Konversionsmetriken, die hier nicht definiert sind. Konversionsmetriken bilden jedoch die Grundlage Ihrer Marketing-Analyse, auf der andere Metriken und Berichte basieren. </p> </td> 
+   <td> <p>Als Konversionsereignisse werden die Aktivitäten bezeichnet, die die Besucher auf Ihrer Website ausführen sollen (dies sind die wichtigen Leistungsindikatoren). Auf einer E-Commerce-Site können Konversionsereignisse eine ausführliche Produktansicht, ein Kassengang oder ein Kauf sein. Für eine Lead-Generierungssite ist das Ereignis möglicherweise das Ausfüllen eines Formulars. Konversionsereignisse werden auf der Site gezählt und in speziellen Berichten aufgeführt. Diese Ereignisse können zudem als Metriken in andere Berichte aufgenommen werden und verdeutlichen, weshalb die Konversionsereignisse eingetreten sind und was dazu geführt hat. </p> <p>Eine Ausnahme von der Regel, dass ein Ereignis einer Metrik entspricht, ist das Kaufereignis, das drei Metriken hervorbringt: Umsatz, Bestellungen und Einheiten. </p> <p>Es gibt zusätzliche Konversionsmetriken, die hier nicht definiert sind. Konversionsmetriken bilden jedoch die Grundlage Ihrer Marketing-Analysen, auf denen andere Metriken und Berichte beruhen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Kanal </p> </td> 
