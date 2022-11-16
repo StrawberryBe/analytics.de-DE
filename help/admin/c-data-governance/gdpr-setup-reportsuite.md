@@ -4,15 +4,15 @@ title: Report Suite-Daten beschriften
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Report Suite-Daten beschriften
 
-Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. Machen Sie sich zunächst mit den Bezeichnungen und deren Definitionen vertraut.
+Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. Machen Sie sich hierzu zunächst mit den Beschriftungen und ihren Definitionen vertraut.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
    ![Info](assets/info.png)
 
-1. Wählen Sie mindestens eine Variable aus, indem Sie das entsprechende Kontrollkästchen aktivieren, und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]** (rechts), um sie zu bearbeiten.
+1. Wählen Sie mindestens eine Variable aus, indem Sie die entsprechenden Kontrollkästchen aktivieren, und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]** (rechts), um sie zu bearbeiten.
 
    ![Bearbeiten](assets/edit.png)
 
@@ -51,15 +51,15 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
    >
    >Das DULE-Framework (Data Usage Labeling &amp; Enforcement) wurde entwickelt, um über Lösungen, Services und Plattformen hinweg eine einheitliche Methode zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in der Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche vertraglichen Beschränkungen für die Daten gelten.
 
-   ![Identitätsbeschriftungen](assets/identity_labels.png)
+   ![Beschriftungen von Identitäten](assets/identity_labels.png)
 
-1. Öffnen Sie den Bereich **Vertrauliche Daten**, um Beschriftungen für vertrauliche Daten festzulegen, mit deren Hilfe die geografischen Daten kategorisiert werden. Weitere Informationen zu diesen Optionen finden Sie unter [Beschriftungen für vertrauliche Daten (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
+1. Öffnen Sie den Bereich **Sensible Daten**, um Beschriftungen für vertrauliche Daten festzulegen, mit deren Hilfe die geografischen Daten kategorisiert werden. Weitere Informationen zu diesen Optionen finden Sie unter [Beschriftungen für vertrauliche Daten (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
-   ![Sentimentive Daten](assets/sensitive_data.png)
+   ![Sensible Daten](assets/sensitive_data.png)
 
 1. Öffnen Sie den Bereich „Datenschutzdaten“, um **Data Governance**-Beschriftungen festzulegen. In diesem Bereich können Sie Adobe anweisen, wie die einzelnen Variablen für Datenschutz-Zugriffs- und -Löschanfragen verarbeitet werden, und Sie können definieren, welche Variablen überprüft werden sollen, um die Datensubjekt-IDs für diese Anfragen zu finden. Weitere Informationen zu diesen Optionen finden Sie unter [Beschriftungen für Data Governance (Datenschutz).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![Datenschutzbezeichnungen](assets/privacy_labels.png)
+   ![Beschriftungen zu Datenschutz](assets/privacy_labels.png)
 
 1. Nachdem Sie sämtliche Beschriftungen abgeschlossen haben, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
