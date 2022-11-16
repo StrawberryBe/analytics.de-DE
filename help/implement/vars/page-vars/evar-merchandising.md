@@ -7,19 +7,19 @@ mini-toc-levels: 3
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 62%
+ht-degree: 98%
 
 ---
 
 # eVar (Merchandising)
 
-*Auf dieser Hilfeseite wird die Implementierung von Merchandising-eVars beschrieben. Informationen dazu, wie Merchandising-eVars als Dimension funktionieren, finden Sie unter [eVars (Merchandising-Dimension)](/help/components/dimensions/evar-merchandising.md) im Benutzerhandbuch zu Komponenten.*
+*Auf dieser Hilfeseite wird die Implementierung von Merchandising-eVars beschrieben. Informationen dazu, wie Merchandising-eVars als Dimension funktionieren, finden Sie unter [eVar (Merchandising-Dimensino)](/help/components/dimensions/evar-merchandising.md) im Komponenten-Benutzerhandbuch.*
 
 Eine ausführliche Erläuterung der Funktionsweise von Merchandising-eVars finden Sie unter [Merchandising-eVars und Methoden zur Produktsuche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 ## Einrichten von eVars in den Report Suite-Einstellungen
 
-Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie die eVar in den Report Suite-Einstellungen auf die gewünschte Syntax konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
+Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie die eVar in den Report Suite-Einstellungen gemäß der gewünschten Syntax konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
 >[!WARNING]
 >
@@ -42,18 +42,18 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 Der Wert für `eVar1` wird dem Produkt zugewiesen. Alle nachfolgenden Erfolgsereignisse, die dieses Ereignis betreffen, werden dem eVar-Wert gutgeschrieben.
 
-### Produktsyntax mit dem Web SDK
+### Produktsyntax, die das Web SDK verwendet
 
-Merchandising-Variablen mit Produktsyntax sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter mehreren verschiedenen XDM-Feldern.
+Merchandising-Variablen mit Produktsyntax sind [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter mehreren verschiedenen XDM-Feldern zugeordnet.
 
-* Merchandising-eVars mit Produktsyntax werden unter `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` nach `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Merchandising-Ereignisse mit Produktsyntax werden unter `productListItems[]._experience.analytics.event1to100.event1.value` nach `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Ereignis-Serialisierung](events/event-serialization.md) XDM-Felder werden unter `productListItems[]._experience.analytics.event1to100.event1.id` nach `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Merchandising-eVars mit Produktsyntax sind unter `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` bis `productListItems[]._experience.analytics.customDimensions.eVars.eVar250` zugeordnet.
+* Merchandising-Ereignisse mit Produktsyntax sind unter `productListItems[]._experience.analytics.event1to100.event1.value` bis `productListItems[]._experience.analytics.event901to1000.event1000.value` zugeordnet. XDM-Felder zur [Ereignis-Serialisierung](events/event-serialization.md) sind unter `productListItems[]._experience.analytics.event1to100.event1.id` bis `productListItems[]._experience.analytics.event901to1000.event1000.id` zugeordnet.
 
 >[!NOTE]
 >
->Beim Festlegen von Ereignissen unter `productListItems`müssen Sie sie nicht in der Ereigniszeichenfolge festlegen. Wenn sie an beiden Stellen festgelegt werden, hat der Wert in der Ereigniszeichenfolge Vorrang.
+>Beim Festlegen von Ereignissen unter `productListItems` müssen Sie diese nicht in der Ereigniszeichenfolge festlegen. Falls sie an beiden Stellen festgelegt sind, hat der Wert in der Ereigniszeichenfolge Vorrang.
 
-Das folgende Beispiel zeigt eine [product](products.md) Verwendung mehrerer Merchandising-eVars und -Ereignisse:
+Das folgende Beispiel zeigt ein [Produkt](products.md) unter Verwendung mehrerer Merchandising-eVars und -Ereignisse:
 
 ```js
 "productListItems": [
@@ -84,7 +84,7 @@ Das folgende Beispiel zeigt eine [product](products.md) Verwendung mehrerer Merc
 ]
 ```
 
-Das obige Beispielobjekt wird als `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+Das obige Beispielobjekt würde wie folgt an Adobe Analytics gesendet werden: `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
 ## Implementieren mit Syntax der Konversionsvariablen
 
@@ -106,11 +106,11 @@ Der Wert `"Aviary"` für `eVar1` wird dem Produkt `"Canary"` zugewiesen. Alle na
 * Die eVar läuft ab (basierend auf der Einstellung „Läuft ab nach“).
 * Die Merchandising-eVar wird mit einem neuen Wert überschrieben.
 
-### Konversionsvariablensyntax mit dem Web SDK
+### Konversionsvariablensyntax, die das Web SDK verwendet
 
-Die Syntax der Konversionsvariablen mit dem Web SDK funktioniert ähnlich wie die Implementierung anderer [eVars](evar.md) und [events](events/events-overview.md). Das XDM-Spiegeln des obigen Beispiels würde wie folgt aussehen:
+Die Konversionsvariablensyntax, die das Web SDK verwendet, funktioniert ähnlich wie die Implementierung anderer [eVars](evar.md) und [Ereignisse](events/events-overview.md). Das XDM-Spiegeln des obigen Beispiels würde wie folgt aussehen:
 
-Legen Sie die eVar für denselben oder vorherigen Ereignisaufruf fest:
+Festlegen der eVar für denselben oder vorherigen Ereignisaufruf:
 
 ```js
 "_experience": {
@@ -124,7 +124,7 @@ Legen Sie die eVar für denselben oder vorherigen Ereignisaufruf fest:
 }
 ```
 
-Legen Sie das Binding-Ereignis und die Werte für die Produktzeichenfolge fest:
+Festlegen des Binding-Ereignisses und der Werte für die Produktzeichenfolge:
 
 ```js
 "commerce": {

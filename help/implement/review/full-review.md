@@ -6,19 +6,19 @@ exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 86%
+ht-degree: 95%
 
 ---
 
 # Vollständige Prüfung (zweimal jährlich zur Prüfung Ihrer Implementierung)
 
-Warum sollten Sie Ihre Implementierung alle 6 Monate prüfen? Da Sie sicherstellen müssen, dass Ihre Implementierung an Ihren geschäftlichen Anforderungen ausgerichtet bleibt! Außerdem sollten Sie alle Probleme mit der Datenqualität beheben, solange sie noch klein sind und bevor sie sich zu größeren Datenproblemen auswachsen, die das Vertrauen der Stakeholder untergraben könnten. Zusätzlich zu diesen vollständigen Prüfungen alle 6 Monate sollten Sie auch [gezielte Prüfungen](/help/implement/review/focused-review.md) nach jeder Website-Veröffentlichung durchführen.
+Warum sollten Sie Ihre Implementierung alle 6 Monate prüfen? Weil Sie sicherstellen müssen, dass Ihre Implementierung an Ihren Geschäftsanforderungen ausgerichtet bleibt! Außerdem sollten Sie alle Probleme mit der Datenqualität beheben, solange sie noch klein sind und bevor sie sich zu größeren Datenproblemen auswachsen, die das Vertrauen der Stakeholder untergraben könnten. Zusätzlich zu diesen vollständigen Prüfungen alle 6 Monate sollten Sie auch [gezielte Prüfungen](/help/implement/review/focused-review.md) nach jeder Website-Veröffentlichung durchführen.
 
-## 1. Stellen Sie sicher, dass Ihre Implementierung weiterhin vollständig auf unsere Geschäftsanforderungen abgestimmt ist.
+## 1. Stellen Sie sicher, dass Ihre Implementierung weiterhin vollständig an unseren Geschäftsanforderungen ausgerichtet ist
 
 Treffen Sie sich mit dem Geschäftsinhaber und/oder den Business Analysten, um die sich wandelnden Geschäftsanforderungen zu besprechen. Finden Sie für alle Anforderungen oder Messgelegenheiten, die derzeit von Ihrer Implementierung nicht erfüllt werden, heraus, wie Sie Ihre KPIs und Messpläne aktualisieren können. Denken Sie daran, Ihre Änderungen in Ihrer [BRD und SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation) aufzuzeichnen.
 
-## 2. Stellen Sie sicher, dass Ihre Metriken und Variablen weiterhin gut funktionieren.
+## 2. Stellen Sie sicher, dass Ihre Metriken und Variablen weiterhin ihre Aufgabe gut erfüllen
 
 Prüfen Sie kurz all Ihre Kennzahlen und Variablen in der Reihenfolge ihrer Bedeutung für das Unternehmen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginnen Sie mit Ihren zentralen Metriken und Variablen – denjenigen, die mit Ihren [5 wichtigsten KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review) verbunden sind. Gehen Sie folgendermaßen vor:
 

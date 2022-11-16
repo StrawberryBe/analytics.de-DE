@@ -1,39 +1,39 @@
 ---
 title: collectHighEntropyUserAgentHints
-description: Verwenden Sie die Variable collectHighEntropyUserAgentHints , um zu bestimmen, ob Adobe hohe Entropy-Hinweise von Chromium-Browsern anfordert (z. B. Google Chrome und Microsoft Edge).
-source-git-commit: 885a8f229fa814053e4766f3b38b6e7fb209fc00
+description: Verwenden Sie die Variable „collectHighEntropyUserAgentHints“, um zu bestimmen, ob Adobe Hinweise mit hoher Entropie von Chromium-Browsern (z. B. Google Chrome und Microsoft Edge) anfordern soll.
+exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '224'
+ht-degree: 100%
 
 ---
 
-
 # collectHighEntropyUserAgentHints
 
-Clienthinweise mit hoher Entropie werden von Adobe Analytics verwendet, um die Geräte- und Browseridentifizierung zu verbessern. Diese Option ist ab Version 2.23.0 von AppMeasurment.js verfügbar. Weitere Informationen zu Client-Hinweisen finden Sie in [diese Übersicht und FAQs](/help/technotes/client-hints.md) sowie [Google-Blog](https://web.dev/user-agent-client-hints/).
+Client-Hinweise mit hoher Entropie werden von Adobe Analytics verwendet, um die Geräte- und Browser-Identifizierung zu verbessern. Diese Option ist ab Version 2.23.0 von AppMeasurment.js verfügbar. Weitere Informationen zu Client-Hinweisen finden Sie in [diesem Überblick und diesen häufig gestellten Fragen](/help/technotes/client-hints.md) sowie im [Google-Blog](https://web.dev/user-agent-client-hints/).
 
-## Erfassen Sie mit dem Web SDK Hinweise mit hoher Entropie.
+## Erfassen von Hinweisen mit hoher Entropie über das Web SDK 
 
-Clienthinweise mit hoher Entropie sind Teil der Kontextkategorien im Web SDK. Siehe [Konfigurieren des Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) für weitere Details.
+Client-Hinweise mit hoher Entropie sind Teil der Web SDK-Kontextkategorien. Weitere Informationen finden Sie unter [Konfigurieren von Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de).
 
-## Erfassen Sie mit der Adobe Analytics-Erweiterung Hinweise mit hoher Entropie.
+## Erfassen von Hinweisen mit hoher Entropie über die Adobe Analytics-Erweiterung
 
-**[!UICONTROL Benutzeragenten-Hinweise mit hoher Entropie sammeln]** ist ein Kontrollkästchen unter dem Akkordeon Allgemein bei der Konfiguration der Adobe Analytics-Erweiterung.
+**[!UICONTROL Benutzeragenten-Hinweise mit hoher Entropie erfassen]** ist ein Kontrollkästchen unter dem Akkordeon „Allgemein“ bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/#/@adobepm/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/#/@adobepm/data-collection?lang=de) mit Ihren Adobe ID-Anmeldeinformationen an.
 
 1. Klicken Sie auf die gewünschte [!UICONTROL Tag-Eigenschaft].
 
-1. Navigieren Sie zu [!UICONTROL Erweiterungen] Registerkarte und klicken Sie dann auf [!UICONTROL Konfigurieren] unter Adobe Analytics.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
 
-1. Erweitern Sie die [!UICONTROL Allgemein] Akkordeon, das die [!UICONTROL Benutzeragenten-Hinweise mit hoher Entropie sammeln] aktivieren. Sie ist standardmäßig deaktiviert.
+1. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], um das Kontrollkästchen [!UICONTROL Benutzeragenten-Hinweise mit hoher Entropie erfassen] anzuzeigen. Es ist standardmäßig deaktiviert.
 
 ## collectHighEntropyUserAgentHints in AppMeasurement
 
-Die `s.collectHighEntropyUserAgentHints` bestimmt, ob AppMeasurement High-Entropy-Hinweise von Chromium-Browsern anfordert (z. B. Google Chrome und Microsoft Edge). Diese Hinweise werden von Adobe Analytics zur Verbesserung der Geräte- und Browseridentifizierung verwendet.
+Die Variable `s.collectHighEntropyUserAgentHints` bestimmt, ob AppMeasurement Hinweise mit hoher Entropie von Chromium-Browsern (z. B. Google Chrome und Microsoft Edge) anfordern soll. Diese Hinweise werden von Adobe Analytics verwendet, um die Geräte- und Browser-Identifizierung zu verbessern.
 
-Wenn auf TRUE gesetzt, werden alle hohen Entropy-Hinweise vom Browser angefordert.
+Ist TRUE festgelegt, werden alle Hinweise mit hoher Entropie vom Browser angefordert.
 
 `s.collectHighEntropyUserAgentHints = TRUE`
 

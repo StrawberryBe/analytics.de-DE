@@ -6,34 +6,34 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Oktober/November 2022)
+# Aktuelle Adobe Analytics-Versionshinweise (Oktober/November 2022)
 
-**Zuletzt aktualisiert**: 28. Oktober 2022
+**Letztes Update**: 28. Oktober 2022
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue oder aktualisierte Funktionen in Adobe Analytics
 
-| Funktion | Beschreibung | [Rollout beginnt](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
+| Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Visualisierung der **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** | Durch die Visualisierung der [!UICONTROL Zusammenfassung einer Schlüsselmetrik] können Sie sehen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitraums entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeiträume hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5. Oktober 2022 | 19. Oktober 2023 |
-| **Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird** | Bei Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird, werden die in `mvvar1 - mvvar3` und `post_mvvar1 - post_mvvar3` in Daten-Feeds werden nicht mehr automatisch in Kleinbuchstaben geschrieben. Stattdessen spiegeln Daten-Feeds (und Daten, die über den Analytics Source Connector an Adobe Experience Platform und CJA weitergeleitet werden) die ursprüngliche Groß-/Kleinschreibung wider, die von der Seite übermittelt wurde. | Nicht angegeben | 24. Oktober 2022 |
+| Visualisierung der **[!UICONTROL Zusammenfassung einer Schlüsselmetrik]** | Durch die Visualisierung der [!UICONTROL Zusammenfassung einer Schlüsselmetrik] können Sie sehen, wie sich eine wichtige Metrik innerhalb eines einzigen Zeitraums entwickelt. Außerdem können Sie damit die Leistung von Metriken über zwei Zeiträume hinweg vergleichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5. Oktober 2022 | 19. Oktober 2023 |
+| **Variablen mit mehreren Werten, bei denen nicht zwischen Groß- und Kleinschreibung unterschieden wird** | Bei Mehrwert-Variablen ohne Unterscheidung von Groß- und Kleinschreibung werden die in `mvvar1 - mvvar3` und `post_mvvar1 - post_mvvar3` gespeicherten Werte in Daten-Feeds nicht mehr automatisch kleingeschrieben. Stattdessen spiegeln Daten-Feeds (und Daten, die über den Analytics Source Connector an Adobe Experience Platform und CJA weitergeleitet werden) die ursprüngliche Groß-/Kleinschreibung wider, die von der Seite übermittelt wurde. | Nicht angegeben | 24. Oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Fehlerbehebungen in Adobe Analytics
 
-* Es wurde ein Problem behoben, bei dem aktuelle MacOS-Versionen fälschlicherweise als &quot;Macintosh&quot;bezeichnet wurden. Mit dieser Fehlerbehebung beginnt die Betriebssystemdimension mit der Nummerierung der MacOS-Version, beginnend mit MacOS 11. (AN-301834)
-* Es wurde ein Problem mit dem Datumsbereich &quot;Feste Datumswerte&quot;im Report Builder behoben. (AN-303684)
+* Es wurde ein Problem behoben, bei dem aktuelle macOS-Versionen fälschlicherweise als „Macintosh“ bezeichnet wurden. Ab dieser Fehlerbehebung beginnt die Betriebssystemdimension mit der Nummerierung der macOS-Version, beginnend mit macOS 11. (AN-301834)
+* Es wurde ein Problem mit dem Datumsbereich „Feste Datumswerte“ in Report Builder behoben. (AN-303684)
 * Es wurden Probleme behoben, die dazu führten, dass die Daten-Feed-Benutzeroberfläche nicht geladen wurde. (AN-303803, AN-303784)
 
 ### Weitere Fehlerbehebungen
 
--295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036; AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
+AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036;  AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren
 
@@ -54,7 +54,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | Ende der Nutzungsdauer eines Produkts oder einer Funktion | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | --- | --- | --- |
 | **EOL für die [!UICONTROL Veröffentlichungslisten]-Funktion** | 29. September 2022 | Im Rahmen des EOL von Reports &amp; Analytics ist geplant, dass die Veröffentlichungslisten im **Dezember 2023** das Ende ihrer Lebensdauer erreichen. Sie können keine neuen Veröffentlichungslisten erstellen oder auf vorhandene zugreifen, um Projekte in Analysis Workspace zu senden oder zu planen. [Weitere Informationen](/help/admin/admin/publishing-list.md) |
-| **EOL für Data Workbench** | 14. September 2022 | Adobe beabsichtigt, Data Workbench ab **31. Dezember 2023** einzustellen. Siehe [Mitteilung zum Ende der Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=de) für Details. Wenden Sie sich bei Fragen an den Kundenbetreuer Ihrer Adobe. |
+| **EOL für Data Workbench** | 14. September 2022 | Adobe beabsichtigt, Data Workbench ab **31. Dezember 2023** einzustellen. Weitere Informationen finden Sie in der [Mitteilung zum Ende der Nutzungsdauer von Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=de). Wenden Sie sich bei Fragen an den für Ihre Organisation zuständigen Adobe-Kundenbetreuer. |
 | **EOL für [!DNL Reports & Analytics]** | 4. Januar 2022 | Adobe beabsichtigt, [!DNL Reports & Analytics] und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die [!DNL Reports & Analytics] unterstützen, entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Funktionen von [!DNL Reports & Analytics] sind in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen von [!DNL Reports & Analytics] nach Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In [dieser Mitteilung](https://spark.adobe.com/page/6WnF8JK6IRDhf/) wird der Ablauf der Produktlebensdauer erläutert. |
 
 {style=&quot;table-layout:auto&quot;}

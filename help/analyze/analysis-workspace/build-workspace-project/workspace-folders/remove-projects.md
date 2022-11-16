@@ -5,13 +5,13 @@ title: Entfernen von Projekten aus Ordnern
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # Entfernen eines Projekts aus einem Ordner
 
@@ -23,7 +23,7 @@ Um ein Projekt aus einem Ordner zu entfernen, können Sie das Projekt an einen a
 
 >[!NOTE]
 >
->Wenn ein Admin ein Projekt in den Firmenordner verschiebt, wird der Ordner für alle freigegeben, selbst wenn die ursprünglichen freigegebenen Berechtigungen eingeschränkt waren. Wenn ein Admin ein Projekt aus dem Firmenordner verschiebt, bleiben die ursprünglichen oder früheren Freigabeberechtigungen erhalten.
+>Wenn ein Administrator bzw. eine Administratorin ein Projekt in den Unternehmensordner verschiebt, wird der Ordner für alle freigegeben, selbst wenn die ursprünglichen Freigabeberechtigungen eingeschränkt waren. Wenn ein Admin ein Projekt aus dem Firmenordner verschiebt, bleiben die ursprünglichen oder früheren Freigabeberechtigungen erhalten.
 
 ## Verschieben eines Projekts
 
