@@ -4,9 +4,9 @@ title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1784'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
    * v2.0 ignoriert Anführungszeichen und nimmt an, dass sie alle Bestandteil der angegebenen Schlüssel und Werte sind. Beachten Sie z. B. diesen Wert: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;. v2.0 würde dies wörtlich wie folgt interpretieren: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;.
    * v2.1 teilt Classifications mit, dass sie Anführungszeichen als Bestandteil der in Excel-Dateien verwendeten Dateiformatierungen betrachten sollen. Daher würde v2.1 das obenstehende Beispiel wie folgt umformatieren: Dies ist &quot;irgendein Wert&quot;.
    * Es kann zu Problemen kommen, wenn in der Datei v2.1 angegeben ist, jedoch tatsächlich v2.0 gewünscht wurde – und zwar, wenn Anführungszeichen auf eine Weise verwendet werden, die bei Excel-Formatierung nicht zulässig wäre. Z. B., wenn folgender Wert vorliegt: „VP NO REPS“ S/l Dress w/ Overlay. Im Fall von v2.1 ist diese Formatierung nicht korrekt (der Wert sollte von öffnenden und schließenden Anführungszeichen eingeschlossen sein, und Anführungszeichen, die Bestandteil des eigentlichen Werts sind, müssen von Anführungszeichen umgeben sein), und Classifications funktionieren über diesen Punkt hinaus nicht.
-   * Führen Sie einen der folgenden Schritte aus: Ändern Sie Ihr Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den hochgeladenen Dateien ändern ODER die Excel-Anführungszeichen in allen Dateien ordnungsgemäß implementieren.
+   * Vergewissern Sie sich, dass Sie eine der folgenden Aktionen durchführen: Ändern Sie das Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den Dateien ändern, die Sie hochladen, ODER setzen Sie die Anführungszeichen für Excel in allen Ihren Dateien korrekt um.
 
 * Die erste (Nicht-Kommentar)-Zeile der Datendatei enthält die Spaltenüberschriften, die die Classification-Daten in der Spalte bezeichnen. Für Spaltenüberschriften ist im Importeur ein bestimmtes Format erforderlich. Weitere Informationen finden Sie unter [Format der Spaltenüberschrift](/help/components/classifications/importer/c-saint-data-files.md).
 * Unmittelbar auf die Überschriftenzeile in einer Datendatei folgen die Datenzeilen. Jede Zeile mit Daten sollte ein Datenfeld für jede Spaltenüberschrift enthalten.
@@ -109,7 +109,7 @@ Jeder Wert muss innerhalb des Systems eindeutig sein. Der Wert in diesem Feld en
 
 ### Überschrift einer Klassifizierungsspalte
 
-Reports &amp; Analytics enthalten beispielsweise automatisch zwei Classifications für [!UICONTROL Kampagnen] variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
+Reports and Analytics enthalten beispielsweise automatisch zwei Classifications für [!UICONTROL Kampagnen] variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ Diese Zeichen haben in einer Datendatei eine spezielle Bedeutung. Vermeiden Sie 
 
 **Beispiel:** Wenn Kampagne A 10.000 USD kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 10000, und die Spalte [!UICONTROL Campaigns^~Cost~per] enthält die Angabe [!UICONTROL FIXED]. Beim Anzeigen der Kosten für Kampagne A in den Berichten sehen Sie den Betrag von 10.000 USD als Festkosten der Kampagne A für den Datumsbereich.
 
-**Beispiel:** Wenn Kampagne B ca. 2 USD pro Klick kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 2 und die Spalte **[!UICONTROL Campaigns^~Cost~per]** enthält die Angabe [!UICONTROL CLICK]. Beim Anzeigen der Kosten für Kampagne B in den Berichten berechnet die Adobe (2) &#42; [Anzahl der Klicks]) für den Datumsbereich des Berichts. Damit erhalten Sie eine Gesamtkostenkalkulation basierend auf im Zuge von Kampagne B erfolgten Klicks.
+**Beispiel:** Wenn Kampagne B ca. 2 USD pro Klick kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 2 und die Spalte **[!UICONTROL Campaigns^~Cost~per]** enthält die Angabe [!UICONTROL CLICK]. Beim Anzeigen der Kosten für Kampagne B in den Berichten führt Adobe für den Datumsbereich des Berichts schnell entsprechende Berechnungen (2 &#42; [Anzahl der Klicks]) durch. Damit erhalten Sie eine Gesamtkostenkalkulation basierend auf im Zuge von Kampagne B erfolgten Klicks.
 
 ### Datum
 
@@ -204,4 +204,4 @@ Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
 
 ## Fehlerbehebung für Classifications
 
-* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
+* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
