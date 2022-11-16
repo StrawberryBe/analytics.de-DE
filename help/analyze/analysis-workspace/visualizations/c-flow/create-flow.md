@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Die neue [!UICONTROL Fluss]-Funktion verbessert Ihren Workflow auf mehrfache Wei
 
 * Sie können jetzt Ihren Pfad mit der Kombination aus einer Metrik und einer Pfaddimension beginnen oder beenden.
 * Die Fluss-Funktion enthält [!UICONTROL erweiterte Einstellungen], über die Sie den [!UICONTROL Fluss] zusätzlich anpassen können.
-* Mit der neuen Schaltfläche &quot;Erstellen&quot;sparen Sie Zeit in der Analyse, indem Sie die Journey alle gleichzeitig konfigurieren, dann Abfragen und dann automatisch mehrere Spalten und Knoten gleichzeitig &#x200B; erstellen können.
+* Mit der neuen Schaltfläche „Erstellen“ sparen Sie Zeit bei der Analyse, indem Sie die Journey auf einmal konfigurieren, dann Abfragen durchführen und danach automatisch mehrere Spalten und Knoten gleichzeitig erstellen.
 
 ![Neue Fluss-Benutzeroberfläche](assets/new-flow.png)
 
@@ -37,7 +37,7 @@ Die neue [!UICONTROL Fluss]-Funktion verbessert Ihren Workflow auf mehrfache Wei
 
    * Verwenden Sie das Dropdown-Menü, um Metriken oder Dimensionen auszuwählen.
    * Ziehen Sie Elemente aus der Dimensionen- oder Metrikliste.
-   * Verwenden Sie die Suche, um die Dimension oder Metrik zu finden, nach der Sie suchen.
+   * Verwenden Sie die Suche, um die gewünschte Dimension oder Metrik zu finden.
 
    Nehmen wir beispielsweise an, Sie möchten alle Etappen nachverfolgen, die zu einem Checkout-Ereignis führen. In diesem Fall würden Sie eine mit dem Checkout zusammenhängende Dimension oder Metrik (z. B. [!UICONTROL Bestellung vorhanden]) in die Ablagefläche **[!UICONTROL Endet mit]** ziehen.
 
@@ -119,7 +119,7 @@ Beachten Sie bei Verwendung dieser Option Folgendes:
 * Bei Verwendung mit einem Fluss des Typs **[!UICONTROL Beginnt mit]** wird nur das erste Vorkommen einbezogen, das den Startkriterien entspricht.
 * Bei Verwendung mit einem Fluss des Typs **[!UICONTROL Endet mit]** wird nur das letzte Vorkommen einbezogen, das den Endkriterien entspricht.
 * Die verwendete Reihe unterscheidet sich je nach Container. Bei Verwendung des Containers **[!UICONTROL Besuch]** wird die Trefferreihe die Sitzung sein. Bei Verwendung des Containers **[!UICONTROL Besucher]** besteht die Trefferreihe aus allen Treffern einer bestimmten benutzenden Person im bereitgestellten Datumsbereich.
-* Die **[!UICONTROL Auf das erste/letzte Vorkommen beschränken]** kann in den erweiterten Einstellungen konfiguriert werden, wenn eine Metrik oder ein Element der Dimension in den Feldern &quot;Beginnt mit&quot;oder &quot;Endet mit&quot;verwendet wird.
+* Die Option **[!UICONTROL Begrenzung auf erstes/letztes Auftreten]** kann in den erweiterten Einstellungen konfiguriert werden, wenn ein Metrik- oder Dimensionselement in den Feldern „Beginnt mit“ oder „Endet mit“ verwendet wird.
 
 Beispielreihe von Treffern:
 
@@ -131,11 +131,14 @@ Startseite > Produkte > Zum Warenkorb hinzufügen > Produkte > Zum Warenkorb hin
 * Pfaddimension [!UICONTROL Seite]
 * Container [!UICONTROL Besuch]
 
-Wenn **[!UICONTROL Auf das erste/letzte Vorkommen beschränken]** is *disabled*und dann zählt diese einzelne Trefferreihe zwei Instanzen von &quot;Zum Warenkorb hinzufügen&quot;.
-Erwartete Flussausgabe: &quot;Zum Warenkorb hinzufügen&quot;(2) —> &quot;Produkte&quot;(1) -> &quot;Rechnungsstellung&quot;(1)
+Wenn die Option **[!UICONTROL Begrenzung auf erstes/letztes Auftreten]** *deaktiviert* ist, zählt diese einzelne Trefferreihe als zwei Vorkommnisse von „Zum Warenkorb hinzufügen“.
+Erwartete Flussausgabe: 
+„Zum Warenkorb hinzufügen“ (2) —> „Produkte“ (1)
+-> „Rechnungsstellung“ (1)
 
-Wenn **[!UICONTROL Auf das erste/letzte Vorkommen beschränken]** is *enabled*, wird nur das erste Vorkommen von &quot;Zum Warenkorb hinzufügen&quot;in die Analyse aufgenommen.
-Erwartete Flussausgabe: &quot;Zum Warenkorb hinzufügen&quot;(1) —> &quot;Produkte&quot;(1)
+Wenn jedoch **[!UICONTROL Begrenzung auf erstes/letztes Auftreten]** *aktiviert* ist, wird nur das erste Vorkommnis von „Zum Warenkorb hinzufügen“ in die Analyse aufgenommen.
+Erwartete Flussausgabe:
+„Zum Warenkorb hinzufügen“ (1) —> „Produkte“ (1)
 
 ### Betrachten Sie die gleiche Reihe von Treffern, jedoch unter Verwendung der folgenden Einstellungen:
 
@@ -143,8 +146,10 @@ Erwartete Flussausgabe: &quot;Zum Warenkorb hinzufügen&quot;(1) —> &quot;Prod
 * Pfaddimension [!UICONTROL Seite]
 * Container [!UICONTROL Besuch]
 
-Wenn **[!UICONTROL Auf das erste/letzte Vorkommen beschränken]** is *disabled*festgelegt ist, würde diese einzelne Trefferreihe zwei Vorkommen von &quot;Zum Warenkorb hinzufügen&quot;zählen.
-Erwartete Flussausgabe: &quot;Products&quot; (2) &lt;— &quot;Add to cart&quot; (2)
+Wenn die Option **[!UICONTROL Begrenzung auf erstes/letztes Auftreten]** *deaktiviert* ist, zählt diese einzelne Trefferreihe als zwei Vorkommnisse von „Zum Warenkorb hinzufügen“.
+Erwartete Flussausgabe: 
+„Produkte“ (2) &lt;— „Zum Warenkorb hinzufügen“ (2)
 
 Wenn jedoch **[!UICONTROL Begrenzung auf erstes/letztes Auftreten]** *aktiviert* ist, würde nur das letzte Auftreten von [!UICONTROL Zum Warenkorb hinzufügen] in die Analyse einbezogen.
-Erwartete Flussausgabe: &quot;Produkte&quot;(1) &lt;— &quot;Zum Warenkorb hinzufügen&quot;(1)
+Erwartete Flussausgabe: 
+„Produkte“ (1) &lt;— „Zum Warenkorb hinzufügen“ (1)
