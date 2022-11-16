@@ -1,12 +1,12 @@
 ---
 title: Definieren Ihrer fünf wichtigsten KPIs
-description: Stellen Sie sicher, dass Ihre wichtigsten Leistungsindikatoren sowie die zugehörigen Metriken und Dimensionen eng mit Ihren geschäftlichen Anforderungen übereinstimmen.
+description: Stellen Sie sicher, dass Ihre wichtigsten Leistungsindikatoren (KPIs) sowie die zugehörigen Metriken und Dimensionen eng an Ihren geschäftlichen Anforderungen ausgerichtet sind.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
