@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 99%
+source-wordcount: '1461'
+ht-degree: 96%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober/November 2022)
 
-**Letztes Update**: 28. Oktober 2022
+**Letzte Aktualisierung**: 18. November 2022
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -39,6 +39,7 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | Hinweis | Hinzugefügt oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
+| **Aktualisierte Richtlinien für Traffic-Spitzenbenachrichtigungen** | 18. November 2022 | Frühere Richtlinien stützten sich streng auf Treffervolumen. Die [neue Leitlinien](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) basieren auf einer Kombination aus Report Suite-Größe und prozentualem Anstieg. |
 | **Aktualisierung der Gerätesuche aufgrund von Google-Client-Hinweisen** | 14. Oktober 2022 | Die ursprünglich für den 26. Oktober 2022 geplante Verwendung von Client-Hinweisen bei der Gerätesuche wurde auf **Januar 2023** verschoben. <p> <p>Ab Oktober 2022 ist es möglich, Client-Hinweise entweder mit den Web SDK- oder den AppMeasurement-JavaScript-Bibliotheken zu erfassen. Die Client-Hinweise werden jedoch erst im Januar 2023 in die Gerätesuche integriert. Zu diesem Zeitpunkt wird Adobe bei der Erfassung bestimmter Geräteinformationen für Treffer in Chromium-Browsern wie Google Chrome und Microsoft Edge zusätzlich zum Benutzeragenten auch Client-Hinweise verwenden. Dies ist eine Reaktion auf den Plan von Google, die Informationen, die der Benutzeragenten-Zeichenfolge entnommen werden können, schrittweise zu reduzieren und stattdessen Daten über Client-Hinweise zu übermitteln. <p> <p>Aufgrund dieser Änderung verwendet Adobe künftig Device Atlas für alle Geräte-Suchvorgänge im Zusammenhang mit dem Benutzeragenten. [Weitere Informationen](/help/technotes/client-hints.md) |
 | **Standard-Landingpage** | 29. September 2022 | Die [neue Landingpage](/help/analyze/landing.md) wurde Anfang dieses Jahres eingeführt und wird ab **Januar 2023** zum Standarderlebnis für alle Benutzerinnen und Benutzer. Die aktuelle Seite wird eingestellt, sodass nur mehr die neue Seite verwendet wird. |
 | Bedingungen für die automatische Ausführung der **[!UICONTROL Anomalieerkennung]** | 29. September 2022 | Die [!UICONTROL Anomalieerkennung] wird automatisch für alle Spalten von Zeitreihen-Freiformtabellen ausgeführt. Um sicherzustellen, dass Daten für die Analyse verfügbar sind und Projekte schneller geladen werden, verändert Adobe die automatische Ausführung der Anomalieerkennung. Ab dem **26. Oktober 2022** wird die [!UICONTROL Anomalieerkennung] nur für die erste Metrikspalte in einer Tabelle automatisch ausgeführt. Sie können die Spalteneinstellungen bei Bedarf so konfigurieren, dass die Anomalieerkennung für andere Spalten ausgeführt wird. |
