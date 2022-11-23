@@ -3,18 +3,30 @@ description: Eine Report Suite definiert die vollständige, unabhängige Bericht
 title: Report Suite Manager
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 88%
 
 ---
 
 # Report Suite Manager
 
-Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Webseiten. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende Report Suite aus (außer bei Verwendung von Datenaggregationen mit kombinierten Report Suites). Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
+Eine Report Suite definiert die vollständige, unabhängige Berichterstellung für einen der folgenden Datenspeicher:
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
+* Eine einzelne Website (am häufigsten)
+
+* Ein Teil oder eine Untergruppe einer einzelnen Website
+
+* Ein globales Segment, das aus den Zahlen mehrerer Sites besteht, um die Gesamtwerte zu erhalten
+
+Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
+
+Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende Report Suite aus (außer bei Verwendung von Datenaggregationen mit kombinierten Report Suites).
+
+So greifen Sie auf eine Report Suite zu:
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**
 
 >[!NOTE]
 >
