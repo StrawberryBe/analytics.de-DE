@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -125,13 +125,13 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`mobilecampaignterm`** | Bezahlte Suchbegriffe oder andere Begriffe, die Sie mit dieser Akquise verfolgen möchten. Erfasst durch App-Akquise. | varchar(255) |
 | **`mobiledayofweek`** | Nummer des Wochentags, an dem die App gestartet wurde. | varchar(255) |
 | **`mobiledayssincefirstuse`** | Anzahl der Tage, die seit dem ersten Ausführen der App vergangen sind. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | Wird mit der Kontextdatenvariablen a.DaysSinceLastUpgrade erfasst. Die Anzahl der Tage, die seit der vorherigen Sitzung vergangen sind. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | RETIRED - Wird mit der Kontextdatenvariablen a.DaysSinceLastUpgrade erfasst. Die Anzahl der Tage, die seit der vorherigen Sitzung vergangen sind. | varchar(255) |
 | **`mobiledayssincelastuse`** | Anzahl der Tage, die vergangen sind, seitdem die App das letzte Mal ausgeführt wurde. | varchar(255) |
 | **`mobiledeeplinkid`** | Erfasst mit der Kontextdatenvariablen `a.deeplink.id`. Wird in Akquise-Berichten als Identifikator für mobilen Akquise-Link verwendet. | varchar(255) |
 | **`mobiledevice`** | Mobilgerätname. Unter iOS als kommagetrennte 2-Ziffern-Zeichenfolge gespeichert. Die erste Zahl gibt die Gerätegeneration an und die zweite die Gerätefamilie. | varchar(255) |
 | **`mobilehourofday`** | Gibt die Stunde des Tages an, zu der die App gestartet wurde. Angaben im 24-Stunden-Format. | varchar(255) |
 | **`mobileinstalldate`** | Installationsdatum der mobilen App. Stellt das Datum zur Verfügung, an dem ein Benutzer die Mobile App erstmalig geöffnet hat. | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | Wird mit der Kontextdatenvariablen a.LaunchesSinceUpgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | RETIRED - Wird mit der Kontextdatenvariablen a.LaunchesSinceUpgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
 | **`mobilelaunchnumber`** | Wird immer dann erhöht, wenn die Mobile App gestartet wird. | varchar(255) |
 | **`mobileltv`** | Wird nicht mehr verwendet. Erfasst durch trackLifetimeValue-Methoden. | varchar(255) |
 | **`mobilemessagebuttonname`** | Erfasst mit der Kontextdatenvariablen `a.message.button.id`. Wird für In-App-Nachrichten verwendet, um die Schaltfläche zu identifizieren, mit der die Nachricht geschlossen wurde. | varchar(100) |
@@ -139,7 +139,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`mobilemessageonline`** | In-App-Online-Nachricht | varchar(255) |
 | **`mobilemessagepushoptin`** | Erfasst mit der Kontextdatenvariablen `a.push.optin`. Setzen Sie sie auf „true“, wenn sich der Benutzer für Push-Nachrichten anmeldet; andernfalls ist der Wert „false“. | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Erfasst mit der Kontextdatenvariablen `a.push.payloadid`. Wird in Push-Nachrichten als Payload-ID verwendet. | varchar(255) |
-| **`mobileosenvironment`** | Erfasst mit der Kontextdatenvariablen `a.OSEnvironment`. Gibt das Betriebssystem an, z. B. Android oder iOS. | varchar(255) |
+| **`mobileosenvironment`** | RETIRED - Wird mit der Kontextdatenvariablen erfasst `a.OSEnvironment`. Gibt das Betriebssystem an, z. B. Android oder iOS. | varchar(255) |
 | **`mobileosversion`** | Betriebssystemversion der Mobile Services | varchar(255) |
 | **`mobileplaceaccuracy`** | Erfasst mit der Kontextdatenvariablen `a.loc.acc`. Gibt die Genauigkeit des GPS in Metern zum Erfassungszeitpunkt an. | varchar(255) |
 | **`mobileplacecategory`** | Erfasst mit der Kontextdatenvariablen `a.loc.category`. Beschreibt die Kategorie eines bestimmten Orts. | varchar(255) |
