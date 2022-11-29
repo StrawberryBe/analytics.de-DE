@@ -1,13 +1,13 @@
 ---
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
-source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 88%
 
 ---
-
 
 # Überblick über Client-Hinweise und häufig gestellte Fragen
 
@@ -41,7 +41,7 @@ Dieser [Blogpost von Google](https://web.dev/user-agent-client-hints/) ist eine 
 
 +++**Wie kann ich die Sammlung von Client-Hinweisen aktivieren?**
 
-Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=de).
+Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
 
@@ -81,17 +81,25 @@ Die für das Reporting verfügbaren Gerätefelder ändern sich nicht. Die in die
 
 Diese Felder werden direkt vom Benutzeragenten abgeleitet, aber der Benutzeragent kann abhängig von den Gerätedetails zur Ableitung von Werten für andere gerätebezogene Felder verwendet werden.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=de)
-* [Browser-Typ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=de)
-* [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)
-* [Betriebssystemtypen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=de)
-* [Mobilgerät und Mobilgerätetyp](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=de)
+* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [Browser-Typ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Betriebssystemtypen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Mobilgerät und Mobilgerätetyp](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
 +++**Welche Teile des Benutzeragenten werden „eingefroren“ und wann?**
 
 Siehe den [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dieser kann sich aber noch ändern.
+
++++
+
++++**Wie hängt Analytics vom Benutzeragenten ab?**
+
+Geräteinformationen in Berichten werden vom Benutzeragenten abgeleitet. Wir haben unsere Prozesse aktualisiert, um sowohl Benutzeragent- als auch Client-Hinweise zu verwenden, sofern verfügbar.
+
+Die Ausweich-ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) wird vom Benutzeragenten und von der IP-Adresse abgeleitet. Diese ID wird nur verwendet, wenn ein Cookie nicht gesetzt werden kann und daher nicht häufig verwendet wird.
 
 +++
 
@@ -105,7 +113,7 @@ Die Zeiten für das Einfrieren anderer Teile des Benutzeragenten können Sie dem
 
 +++**Wie verwendet Adobe Client-Hinweise zum Erfassen von Geräteinformationen?**
 
-Adobe verwendet Device Atlas, einen Drittanbieter, der sowohl die Client-Hinweise als auch den Benutzeragenten zur Ermittlung von Geräteinformationen verwendet.
+Adobe verwendet einen Drittanbieter, Device Atlas, der sowohl Client-Hinweise als auch den User-Agent verwendet, um Geräteinformationen abzuleiten.
 
 +++
 
@@ -141,7 +149,6 @@ Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/
 
 +++**Unterstützt die Server-seitige Weiterleitung an AAM Client-Hinweise?**
 
-Ja. Client-Hinweise werden in den an AAM weitergeleiteten Daten enthalten sein. Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
+Ja. Client-Hinweise werden in den an AAM weitergeleiteten Daten enthalten sein. Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
 
 +++
-
