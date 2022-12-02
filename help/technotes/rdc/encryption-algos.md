@@ -3,10 +3,10 @@ title: Unterstützte HTTPS-Verschlüsselungsalgorithmen
 description: Am 23. Juni 2022 werden wir die Unterstützung für TLS 1.2-Chiffren entfernen, die SHA1 oder CBC für Kunden verwenden, deren cipher-Sicherheitsstufe auf "Hoch"eingestellt ist.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: a1ae98d6907960135c1dfa03ed10738eac8bec0d
+source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 6%
+source-wordcount: '285'
+ht-degree: 5%
 
 ---
 
@@ -24,6 +24,8 @@ Die folgenden TLS 1.2-Chiffren werden nicht mehr unterstützt:
 * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 * TLS_RSA_WITH_AES_128_CBC_SHA
 * TLS_RSA_WITH_AES_256_CBC_SHA
+* TLS_RSA_WITH_AES_128_GCM_SHA256
+* TLS_RSA_WITH_AES_256_GCM_SHA384
 
 Die folgenden Clients sind von dieser Änderung bekanntermaßen betroffen, da sie die aktuellen Verschlüsselungsstandards nicht unterstützen:
 
