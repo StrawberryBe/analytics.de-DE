@@ -3,10 +3,10 @@ title: Produktprofile für Adobe Analytics
 description: Erfahren Sie, wie Produktprofile als Berechtigungsvorgaben verwendet werden können, die Produktadministratoren Benutzern in einer Organisation zuweisen können.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 95%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 Produktprofile sind Berechtigungsvorgaben, die Produktadministratoren Benutzern in einer Organisation zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
 
-Allgemeine Informationen zu Produktprofilen finden Sie unter [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html) im Enterprise-Benutzerhandbuch.
+Siehe [Verwalten von Produktprofilen für Unternehmensbenutzer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) allgemeine Informationen zu Produktprofilen finden Sie im Enterprise-Benutzerhandbuch .
 
 ## Produktprofiladministratoren
 
