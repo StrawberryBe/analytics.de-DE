@@ -4,10 +4,10 @@ description: Das Konzept der Zuordnung eines Erfolgsereignisses zu mehreren Dime
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
+source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -64,3 +64,6 @@ Hinzufügen von nebeneinander angezeigten Vergleichen von Attribution IQ-Modelle
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
+## Adobe Analytics-Tools, die Attribution IQ nicht unterstützen
+
+Alle Tools, die die Analytics 2.0-API nicht unterstützen, wie z. B. Report Builder, unterstützen Attribution IQ nicht.
