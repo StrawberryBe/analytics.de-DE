@@ -3,20 +3,20 @@ title: Systemanforderungen von Adobe Analytics
 description: Die Systemanforderungen für die Verwendung von Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
+source-git-commit: 1ff50284015588888f9118f7640b4057232457d2
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 76%
+source-wordcount: '125'
+ht-degree: 63%
 
 ---
 
 # Systemanforderungen von Adobe Analytics
 
-Die meisten Adobe Analytics-Lösungen werden im Browser ausgeführt. Die folgenden Abschnitte enthalten Systemanforderungen für Browser- und Client-Lösungen:
+Die meisten Adobe Analytics-Lösungen werden im Browser ausgeführt. Die Informationen in diesem Artikel enthalten Systemanforderungen für Browser- und Client-Lösungen.
 
 ## Systemanforderungen für Browser-basierte Lösungen
 
-Die meisten Adobe Analytics-Lösungen, einschließlich Analysis Workspace, sind Browser-basiert. Daher ist die wichtigste Voraussetzung für die Verwendung von Adobe Analytics ein moderner Webbrowser. Adobe unterstützt die neueste stabile Version dieser Browser:
+Die meisten Adobe Analytics-Lösungen, einschließlich Analysis Workspace, sind Browser-basiert. Daher ist die wichtigste Voraussetzung für die Verwendung von Adobe Analytics ein moderner Webbrowser. Adobe unterstützt die neueste stabile Version der folgenden Browser:
 
 * Microsoft Edge
 * Google Chrome
@@ -31,5 +31,5 @@ Die meisten Adobe Analytics-Lösungen, einschließlich Analysis Workspace, sind 
 
 Die Systemanforderungen dieser Lösungen finden Sie auf der verlinkten Seite der entsprechenden Lösung.
 
-* [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=de)
+* [Report Builder Systemanforderungen](/help/analyze/report-builder/setup/system-requirements.md)
+* [Systemanforderungen der Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=de)
