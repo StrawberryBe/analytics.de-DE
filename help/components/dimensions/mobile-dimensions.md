@@ -3,10 +3,10 @@ title: Mobilgerätedimensionen
 description: Dimensionen basierend auf der IP-Adresse des Geräts.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Tags in Adobe Exp
 * **Mobilnetzbetreiber**: Die Werte für diese Dimension werden aufgefüllt, indem Daten von Drittanbietern (Digital Elements) basierend auf den von Analytics erfassten IP-Adressen gesucht werden. Zu den Beispielwerten gehören `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` und `"Verizon"`.
 * **Mobilgerät – Farbtiefe**: Die Farbtiefe des Mobilgeräts in Bit.
 * **Mobilgerät – Cookie-Unterstützung**: Stellt fest, ob das Mobilgerät Cookies unterstützt. Dieser Bericht gibt nicht an, ob der Browser Cookies akzeptiert. Zu den Dimensionselementen gehören `"Supported"`, `"Not supported"` und `"Unknown"`.
-* **Mobilgerät**: Das Mobilgerät, das der Besucher verwendet.
+* **Mobilgerät**: Das Mobilgerät, das der Besucher verwendet. **Hinweis**: Digital Elements veröffentlicht regelmäßig Aktualisierungen, um neue/aktualisierte Geräte zu erkennen.
 * **Mobilgerätenummer**: Stellt fest, ob das Mobilgerät seine Nummer übermittelt. Zu den Dimensionselementen gehören `"Supported"`, `"Not supported"` und `"Unknown"`.
 * **Mobilgerätetyp**: Der Typ des Mobilgeräts. Zu den Beispielwerten gehören `"Mobile phone"`, `"Tablet"`, `"Media player"` und `"Gaming console"`.
 * **Mobil-DRM**: Der DRM-Typ, den das Mobilgerät unterstützt. Zu den Beispielwerten gehören `"DRM OMA forward"`, `"DRM OMA combined delivery"` und `"DRM OMA separate delivery"`.
