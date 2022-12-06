@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Übersicht über Verarbeitungsregeln
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ Mit Verarbeitungsregeln können eingehende Werte überwacht werden. Dabei werden
 Nachdem in Ihrer Implementierung Kontextdatenvariablen definiert sind, müssen diese in Variablen wie eVars kopiert werden, damit sie in Berichten verwendet werden können.
 
 Siehe [Kontextdatenvariable in eine eVar kopieren](processing-rules-examples/processing-rules-copy-context-data.md) und [Ereignis mit einer Kontextdatenvariablen festlegen](processing-rules-examples/processing-rules-copy-context-data-event.md) für weitere Informationen.
+
+## Bekannte Einschränkungen
+
+**Verwendung von Katzen (^) in Verarbeitungsregeln.** Wenn Sie in Verarbeitungsregeln als Trennzeichen oder für andere Zwecke verwenden möchten, muss jeder einzelne Karat durch zwei Karat repräsentiert sein. Stellen Sie beispielsweise einen einzelnen Karat als ^^, einen doppelten Karat als ^^^ etc. dar.
