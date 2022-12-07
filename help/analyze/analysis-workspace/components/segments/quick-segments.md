@@ -4,10 +4,10 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 71%
+source-wordcount: '943'
+ht-degree: 65%
 
 ---
 
@@ -43,7 +43,7 @@ Schnellsegment aus dieser leeren Liste konfigurieren:
 | --- | --- |
 | Name | Der Standardname eines Segments besteht aus der Kombination der Regelnamen im Segment. Sie können das Segment umbenennen. |
 | Ein-/Ausschließen | Sie können Komponenten in Ihrer Segmentdefinition entweder ein- oder ausschließen, aber nicht beides. |
-| Treffer-/Besuchs-/Besucher-Container | Schnellsegmente enthalten nur einen [Segment-Container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6), mit dem Sie eine Dimension/eine Metrik/einen Datumsbereich in das Segment einbeziehen (oder daraus ausschließen) können. [!UICONTROL Besucher] enthält für den Besucher spezifische übergreifende Daten zu allen Besuchen und Seitenansichten. Mit einen Container [!UICONTROL Besuch] können Sie Regeln für die Aufschlüsselung der Besucherdaten auf der Grundlage der Besuche festlegen und mit einem Container [!UICONTROL Treffer] können Sie die Besucherinformationen auf der Grundlage der einzelnen Seitenaufrufe aufschlüsseln. Der Standard-Container ist [!UICONTROL Treffer]. |
+| Treffer-/Besuchs-/Besucher-Container | Schnellsegmente enthalten nur einen [Segment-Container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6), mit dem Sie eine Dimension/eine Metrik/einen Datumsbereich in das Segment einbeziehen (oder daraus ausschließen) können. [!UICONTROL Besucher] enthält für den Besucher spezifische übergreifende Daten zu allen Besuchen und Seitenansichten. A [!UICONTROL Besuch] -Container können Sie Regeln festlegen, mit denen die Besucherdaten auf der Grundlage von Besuchen aufgeschlüsselt werden, und eine [!UICONTROL Treffer] -Container können Sie die Besucherinformationen auf der Grundlage einzelner Seitenansichten aufschlüsseln. Der Standard-Container ist [!UICONTROL Treffer]. |
 | Komponenten (Dimension/Metrik/Datumsbereich) | Definieren Sie bis zu 3 Regeln, indem Sie Komponenten (Dimensionen und/oder Metriken und/oder Datumsbereiche) und deren Werte hinzufügen. Es gibt drei Möglichkeiten, die richtige Komponente zu finden:<ul><li>Beginnen Sie mit der Eingabe und der [!UICONTROL Quick Segment] Builder findet automatisch die entsprechende Komponente.</li><li>Verwenden Sie die Dropdown-Liste, um die Komponente zu finden.</li><li>Per Drag-and-Drop aus der der linken Leiste ziehen.</li></ul> |
 | Operator | Dropdown-Menü verwenden, um Standardoperatoren und Operatoren des Typs [!UICONTROL Distinct Count] zu finden. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=de) |
 | Plus (+)-Zeichen | Eine weitere Regel hinzufügen |
@@ -94,3 +94,10 @@ Wenn ein reines Projekt-Segment im [!UICONTROL Segment Builder], wird eine Benac
 Wenn Sie die Option &quot;Dieses Segment verfügbar machen..&quot;aktivieren. und klicken Sie auf **[!UICONTROL SPEICHERN]** wird das Segment in der Komponentenliste der linken Leiste für die Verwendung in anderen Projekten verfügbar. Sie kann auch mit anderen Benutzern über den Segment-Manager freigegeben werden.
 
 ![„Nur Projekt“ aktiviert](assets/project-only-checked.png)
+
+## Bekanntes Problem
+
+1. Erstellen Sie ein Schnellsegment mit zwei Einträgen und **[!UICONTROL Speichern]** als Test1.
+1. Klicken **[!UICONTROL Speichern unter]** und speichern Sie dieses Schnellsegment als Test2.
+1. Bearbeiten Sie das Schnellsegment Test2 und speichern Sie es erneut als Test2.
+Beachten Sie, dass das Schnellsegment Test1 durch Test2 geändert wird.
