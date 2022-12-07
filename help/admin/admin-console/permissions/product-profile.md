@@ -3,10 +3,10 @@ title: Produktprofile für Adobe Analytics
 description: Erfahren Sie, wie Produktprofile als Berechtigungsvorgaben verwendet werden können, die Produktadministratoren Benutzern in einer Organisation zuweisen können.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
+source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 91%
+source-wordcount: '714'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 Produktprofile sind Berechtigungsvorgaben, die Produktadministratoren Benutzern in einer Organisation zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
 
-Siehe [Verwalten von Produktprofilen für Unternehmensbenutzer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) allgemeine Informationen zu Produktprofilen finden Sie im Enterprise-Benutzerhandbuch .
+Allgemeine Informationen zu Produktprofilen, einschließlich der Erstellung von Produktprofilen und der Zuweisung von Benutzern, finden Sie unter [Verwalten von Produktprofilen für Unternehmensbenutzer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) im Enterprise-Benutzerhandbuch.
 
 ## Produktprofiladministratoren
 
@@ -24,6 +24,8 @@ Produktprofiladministratoren sind eine optionale Gruppe, die Benutzer zu diesem 
 * Produktprofiladministratoren können die Berechtigungselemente in ihrem Produktprofil anpassen.
 * Produktprofiladministratoren können Benutzergruppen Produktprofile zuweisen oder entziehen.
 * Produktprofiladministratoren eignen sich ideal für Teamleiter oder Manager, die für ihr Team den Zugriff auf Adobe Analytics gewähren und verwalten müssen. Für Einzelpersonen ist es nicht erforderlich, dass Systemadministratoren oder Produktadministratoren sich die Mühe geben, Zugriff auf Adobe Analytics zu gewähren.
+
+Informationen zum Zuweisen von Produktprofiladministratoren finden Sie im Abschnitt &quot;Verwalten von Produktprofiladministratoren&quot;im Artikel, [Verwalten von Produktprofilen für Unternehmensbenutzer](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) im Enterprise-Benutzerhandbuch.
 
 ## Adobe Analytics-Berechtigungselemente
 
