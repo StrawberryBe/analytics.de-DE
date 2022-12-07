@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 97%
@@ -20,6 +20,16 @@ ht-degree: 97%
    + [Welches Adobe Analytics-Tool sollte ich verwenden?](admin/get-started/which-analytics-tool.md)
    + [Analytics – Produktvergleich und Voraussetzungen](admin/get-started/analytics-product-comparison.md)
    + [Systemanforderungen](admin/get-started/sys-reqs.md)
+   + Unternehmenseinstellungen {#company-settings}
+      + [Übersicht über Unternehmenseinstellungen](admin/get-started/company/c-company-settings.md)
+      + [Funktionszugriffsebenen](admin/get-started/company/feature-access-levels.md)
+      + [Web-Services](admin/get-started/company/web-services-admin.md)
+      + [Report Builder-Berichte](admin/get-started/company/report-builder-reports-admin.md)
+      + [Single Sign-on](admin/get-started/company/single-signon-admin.md)
+      + [Ausstehende Aktionen](admin/get-started/company/pending-actions-admin.md)
+      + [Co-Branding](admin/get-started/company/co-branding-admin.md)
+      + [Ausblenden von Report Suites](admin/get-started/company/c-hide-report-suites.md)
+      + [Sicherheits-Manager](admin/get-started/company/security-manager.md)
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Abrechnung](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 97%
       + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
    + [Erste Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
    + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-+ Unternehmenseinstellungen {#company-settings}
-   + [Übersicht über Unternehmenseinstellungen](company/c-company-settings.md)
-   + [Funktionszugriffsebenen](company/feature-access-levels.md)
-   + [Web-Services](company/web-services-admin.md)
-   + [Report Builder-Berichte](company/report-builder-reports-admin.md)
-   + [Single Sign-on](company/single-signon-admin.md)
-   + [Ausstehende Aktionen](company/pending-actions-admin.md)
-   + [Co-Branding](company/co-branding-admin.md)
-   + [Ausblenden von Report Suites](company/c-hide-report-suites.md)
-   + [Sicherheits-Manager](company/security-manager.md)
 + Report Suites verwalten {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Datenaggregations-Report Suites und globale Report Suites](c-manage-report-suites/rollup-report-suite.md)
