@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
+source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 97%
+source-wordcount: '679'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,15 @@ ht-degree: 97%
       + [Co-Branding](admin/get-started/company/co-branding-admin.md)
       + [Ausblenden von Report Suites](admin/get-started/company/c-hide-report-suites.md)
       + [Sicherheits-Manager](admin/get-started/company/security-manager.md)
++ Benutzerberechtigungen in der Adobe Admin Console {#admin-console}
+   + [Analytics in der Adobe Admin Console](admin-console/home.md)
+   + Zugriffsberechtigung {#permissions}
+      + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
+      + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
+      + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
+   + [Erste Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Abrechnung](admin/billing-admin.md)
@@ -118,15 +127,6 @@ ht-degree: 97%
       + [Festlegen der Unique-Visitor-Variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Anwendungsfall – Extrahieren von Besucher-IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Video-Management](admin/video-management.md)
-+ Analytics   in der Adobe Admin Console {#admin-console}
-   + [Analytics in der Adobe Admin Console](admin-console/home.md)
-   + Zugriffsberechtigung {#permissions}
-      + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
-      + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
-      + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
-   + [Erste Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
-   + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Report Suites verwalten {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Datenaggregations-Report Suites und globale Report Suites](c-manage-report-suites/rollup-report-suite.md)
