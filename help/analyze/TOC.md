@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 100%
          + [Report Suite aus einer bestehenden Anforderung in Excel auswählen](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel zum Suchen einer Report Suite-ID verwenden](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Segmente verwalten](report-builder/data-requests/segmentation.md)
-      + [Zulassen von Überschreibungen der Veröffentlichungsliste](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Berichtstypen {#report-types}
          + [Übersicht über Berichtstypen](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Pfad- und Pfad-Fallout-Berichte in Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)

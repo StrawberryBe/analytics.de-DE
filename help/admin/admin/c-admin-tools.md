@@ -3,9 +3,9 @@ description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 100%
 + [Metriksichtbarkeit](metric-visibility.md)
 + [Mobile-Management](mobile-management.md)
 + [Übersicht über die Paid-Search-Erkennung](paid-search-detection/paid-search-detection.md)
-+ [Veröffentlichungslisten](publishing-list.md)
-+ [Veröffentlichungs-Widget](publishing-widgets-admin.md)
 + [Voreinstellungs-Manager](preferences-manager.md)
 + [Datenschutzeinstellungen](privacy-settings.md)
 + [Übersicht über Verarbeitungsregeln](c-processing-rules/processing-rules.md)
@@ -46,7 +44,6 @@ ht-degree: 100%
 + [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
 + [Übersicht über die Server-seitige Weiterleitung](c-server-side-forwarding/ssf.md)
 + [Vereinfachtes Berichtsmenü](t-simplified-menu.md)
-+ [Social-Media-Verwaltung](social-management.md)
 + [Übersicht über Erfolgsereignisse](c-success-events/success-event.md)
 + [Zeitstempel optional](timestamp-optional.md)
 + [Übersicht über Traffic-Variablen (Eigenschaft)](c-traffic-variables/traffic-var.md)

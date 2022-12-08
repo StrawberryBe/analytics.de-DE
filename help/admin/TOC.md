@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '673'
 ht-degree: 96%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 96%
       + [Sicherheits-Manager](get-started/company/security-manager.md)
 + Benutzerberechtigungen in der Adobe Admin Console {#admin-console}
    + [Analytics in der Adobe Admin Console](admin-console/home.md)
+   + [Erste Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Zugriffsberechtigung {#permissions}
       + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
       + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
       + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
-   + [Erste Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
-   + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Abrechnung](admin/billing-admin.md)
@@ -72,8 +72,6 @@ ht-degree: 96%
    + Erkennung von Paid Search {#paid-search-detection}
       + [Übersicht über die Paid-Search-Erkennung](admin/paid-search-detection/paid-search-detection.md)
       + [Konfigurieren der Erkennung von Paid Search](admin/paid-search-detection/t-paid-search-detection.md)
-   + [Veröffentlichungslisten](admin/publishing-list.md)
-   + [Veröffentlichungs-Widget](admin/publishing-widgets-admin.md)
    + [Voreinstellungs-Manager](admin/preferences-manager.md)
    + [Datenschutzeinstellungen](admin/privacy-settings.md)
    + [Datenschutzberichte](admin/privacy-reporting.md)
@@ -113,7 +111,6 @@ ht-degree: 96%
       + [Überprüfen der Server-seitigen Weiterleitungsimplementierung](admin/c-server-side-forwarding/ssf-verify.md)
       + [Häufig gestellte Fragen zur Server-seitigen Weiterleitung](admin/c-server-side-forwarding/ssf-faq.md)
    + [Vereinfachtes Berichtsmenü](admin/t-simplified-menu.md)
-   + [Social-Media-Verwaltung](admin/social-management.md)
    + Erfolgsereignisse {#success-events}
       + [Übersicht über Erfolgsereignisse](admin/c-success-events/success-event.md)
       + [Konfigurieren von Erfolgsereignissen](admin/c-success-events/t-success-events.md)

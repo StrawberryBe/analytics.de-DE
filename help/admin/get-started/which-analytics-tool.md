@@ -3,9 +3,9 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1164'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,6 @@ In diesem Video werden verschiedene Adobe Analytics-Tools verglichen:
 * Zum Einrichten von Zielen
 * Zum Anzeigen von Bot-Berichten
 * Für den Zugriff auf eindeutige Videovisualisierungen von Videotagesabschnitten und Zuschauerrückgängen.
-* Zur Nutzung von Veröffentlichungslisten für terminierte Berichte
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=de)** sollte verwendet werden:
 
