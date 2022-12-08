@@ -4,8 +4,8 @@ description: Die Dimensionen und Metriken, die Reports & Analytics für die einz
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Jeder Bericht in Reports &amp; Analytics verwendet eine bestimmte Dimension und 
 
 >[!NOTE]
 >
->Ihr Berichtsmenü kann je nach den Anpassungen, die ein Administrator in Ihrer Organisation vorgenommen hat, unterschiedlich aussehen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Menüanpassung](/help/admin/admin/customize-menus.md).
+>Ihr Berichtsmenü kann je nach den Anpassungen, die ein Administrator in Ihrer Organisation vorgenommen hat, unterschiedlich aussehen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Menüanpassung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md).
 
 >[!IMPORTANT]
 >Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
@@ -119,7 +119,7 @@ Enthält Berichte, mit denen Sie Pfaddaten für Besucher anzeigen können.
 
 ## Traffic-Quellen
 
-Enthält Berichte, die Aufschluss darüber geben, woher Besucher kamen, bevor sie zu Ihrer Site gelangten. Diese Berichte funktionieren nur dann ordnungsgemäß, wenn Sie die [internen URL-Filter](../../admin/admin/internal-url-filter-admin.md) unter den Report Suite-Einstellungen korrekt festlegen.
+Enthält Berichte, die Aufschluss darüber geben, woher Besucher kamen, bevor sie zu Ihrer Site gelangten. Diese Berichte funktionieren nur dann ordnungsgemäß, wenn Sie die [internen URL-Filter](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) unter den Report Suite-Einstellungen korrekt festlegen.
 
 * Suchbegriffe - Alle: Verwendet die Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md).
 * Suchbegriffe - Gebührenpflichtig: Verwendet die Dimension [Suchbegriff - Gebührenpflichtig](/help/components/dimensions/search-keyword.md).
@@ -230,4 +230,4 @@ Enthält von Ihnen erstellte Zielgruppen. Weitere Informationen finden Sie unter
 
 >[!NOTE]
 >
->Wenn Sie Ihren Bericht auf dieser Hilfeseite nicht finden können, hat Ihr Administrator möglicherweise Ordner umbenannt oder angepasst. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Menüanpassung](/help/admin/admin/customize-menus.md).
+>Wenn Sie Ihren Bericht auf dieser Hilfeseite nicht finden können, hat Ihr Administrator möglicherweise Ordner umbenannt oder angepasst. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Menüanpassung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md).

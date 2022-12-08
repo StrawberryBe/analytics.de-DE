@@ -1,13 +1,13 @@
 ---
 title: VISTA-Regeln in Adobe Analytics
 description: Erfahren Sie mehr über VISTA-Regeln und ihre Funktionen.
-source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
-workflow-type: ht
+exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # VISTA-Regeln in Adobe Analytics
 
@@ -21,7 +21,7 @@ Typische Anwendungsfälle von VISTA-Regeln sind etwa:
 * Duplizieren von Variablenwerten in andere Variablen
 * Hochladen von Dateien auf eine Adobe-FTP-Site mit möglichen Auswirkungen auf Variablenwerte
 
-Viele Anwendungsfälle für VISTA-Regeln werden bereits von [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md), [Bot-Regeln](/help/admin/admin/bot-removal/bot-rules.md), [Virtual Report Suites](/help/components/vrs/vrs-about.md) oder einfach durch eine Aktualisierung Ihrer Adobe Analytics-Implementierung abgedeckt. Adobe empfiehlt VISTA-Regeln nur als letztes Mittel.
+Viele Anwendungsfälle für VISTA-Regeln werden bereits von [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md), [Bot-Regeln](/help/admin/admin/bot-removal/bot-rules.md), [Virtual Report Suites](/help/components/vrs/vrs-about.md) oder einfach durch eine Aktualisierung Ihrer Adobe Analytics-Implementierung abgedeckt. Adobe empfiehlt VISTA-Regeln nur als letztes Mittel.
 
 >[!IMPORTANT]
 >

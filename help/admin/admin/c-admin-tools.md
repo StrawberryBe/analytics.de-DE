@@ -3,7 +3,7 @@ description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -24,22 +24,22 @@ ht-degree: 100%
 + [Konversionsvariablen (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Währungs-Codes](currency.md)
 + [Beschreibung benutzerspezifischer Berichte](custom-desc-admin.md)
-+ [Anpassen von Kalendern](custom-calendar.md)
++ [Anpassen von Kalendern](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [Datenquellen](data-sources.md)
 + [Standardmetriken](default-metrics.md)
 + [Nach IP-Adresse ausschließen](exclude-ip.md)
 + [Suchmethoden](finding-methods.md)
-+ [Allgemeine Kontoeinstellungen](general-acct-settings-admin.md)
-+ [Interne URL-Filter](internal-url-filter-admin.md)
++ [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
++ [Interne URL-Filter](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [Protokolle](logs.md)
 + [Marketing-Kanäle](marketing-channels-admin.md)
-+ [Menüanpassung](customize-menus.md)
++ [Menüanpassung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [Metriksichtbarkeit](metric-visibility.md)
 + [Mobile-Management](mobile-management.md)
-+ [Übersicht über die Paid-Search-Erkennung](paid-search-detection/paid-search-detection.md)
++ [Übersicht über die Paid-Search-Erkennung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
 + [Voreinstellungs-Manager](preferences-manager.md)
 + [Datenschutzeinstellungen](privacy-settings.md)
-+ [Übersicht über Verarbeitungsregeln](c-processing-rules/processing-rules.md)
++ [Übersicht über Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
 + [Übersicht über Echtzeitberichte](realtime/realtime.md)
 + [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
 + [Übersicht über die Server-seitige Weiterleitung](c-server-side-forwarding/ssf.md)

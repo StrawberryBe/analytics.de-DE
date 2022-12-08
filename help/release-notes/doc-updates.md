@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 94%
@@ -203,7 +203,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 11. April 2019 | Verbesserungen der Best Practices zur Arbeitsbereich-Optimierung: [Leistungsoptimierung](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11. April 2019 | Aktualisierung von [Optimize Arbeitsbereich Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14. März 2019 | Umfassende Aktualisierung von [Regionale Datenerfassung](/help/technotes/rdc/regional-data-collection.md). |
-| 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md). |
+| 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17. Januar 2019 | [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md): Umfangreiche Verbesserungen an der Kohortenanalyse ermöglichen Ihnen Folgendes:<ul><li>Anwendung einer Segmentaufnahme und separate Rückgabe von Metriken. </li><li>Anzeige von Abwanderung statt Treue.</li><li>Anzeige von Latenztabellen (verstrichene Zeit vor und nach einem Aufnahmeereignis).</li><li>Anpassung der Kohortendimension (Gruppierung von Besuchern basierend auf einem eVar, nicht nur auf der Zeit).</li><li>Führen Sie eine rollierende Kohortenberechnung durch: Berechnung von Bindung/Abwanderung basierend auf dem vorherigen Zeitraum, nicht auf der ursprünglichen Kohorte. </li><li>Hinzufügen mehrerer Metriken in Aufnahme- und Rückkehrfeldern sowie Anwendung von Segmenten. (Berechnete Metriken werden nicht unterstützt)</li></ul> |
 | 17. Januar 2019 | [Dichte anzeigen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Mit dieser neuen Einstellung können Sie mehr Daten auf einem einzigen Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren. Zugriff erhalten Sie über „Projekt“ > „Projektinfo und Einstellungen“. |

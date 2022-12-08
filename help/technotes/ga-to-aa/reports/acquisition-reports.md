@@ -3,7 +3,7 @@ title: Akquiseberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berichte erstellen.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
@@ -127,7 +127,7 @@ Es ist möglich, UTM-Parameter in Adobe Analytics mithilfe von benutzerspezifisc
 
 ## Kampagnen – Bezahlte Keywords
 
-Der Bericht zu gebührenpflichtigen Keywords zeigt die Leistung der einzelnen Suchbegriffe an, nachdem ein Besucher in einer Suchmaschine auf einen Paid-Search-Link geklickt hat. Die Dimension **Suchbegriffe – Gebührenpflichtig** ist in Analysis Workspace verfügbar, erfordert jedoch eine einmalige Einrichtung der Paid-Search-Erkennung, um Daten zu erfassen. Weitere Informationen zur Einrichtung finden Sie unter [Paid-Search-Erkennung](/help/admin/admin/paid-search-detection/paid-search-detection.md) im Administratorhandbuch.
+Der Bericht zu gebührenpflichtigen Keywords zeigt die Leistung der einzelnen Suchbegriffe an, nachdem ein Besucher in einer Suchmaschine auf einen Paid-Search-Link geklickt hat. Die Dimension **Suchbegriffe – Gebührenpflichtig** ist in Analysis Workspace verfügbar, erfordert jedoch eine einmalige Einrichtung der Paid-Search-Erkennung, um Daten zu erfassen. Weitere Informationen zur Einrichtung finden Sie unter [Paid-Search-Erkennung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) im Administratorhandbuch.
 
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Suchbegriff – Gebührenpflichtig** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).

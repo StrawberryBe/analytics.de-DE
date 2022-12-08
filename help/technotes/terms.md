@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -83,7 +83,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Persistenz:** ein abstraktes Konzept für Konversionsvariablen, das die Verknüpfung zwischen einem Variablenwert und einem Ereignis bei separaten Treffern ermöglicht. Siehe auch „Gültigkeit“.
 * **Primärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, handelt es sich bei der ersten Report Suite um einen primären Server-Aufruf und bei den anderen um sekundäre Server-Aufrufe. Diese Regel gilt für alle Treffertypen, einschließlich Seitenansicht und Linktracking. Siehe auch „Sekundäre Server-Aufrufe“.
 * **Verarbeitungsregeln:** kann sich auf Folgendes beziehen:
-   * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md) im Administratorhandbuch.
+   * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) im Administratorhandbuch.
    * Marketing-Kanal-Verarbeitungsregeln, ein Regelsatz, der bestimmt, zu welchem Marketing-Kanal ein Treffer gehört. Siehe [Marketing-Kanal-Verarbeitungsregeln](/help/admin/admin/marketing-channels-admin.md) im Administratorhandbuch.
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.

@@ -3,7 +3,7 @@ title: Suchbegriff
 description: Der Suchbegriff, mit dem der Besucher Ihre Site erreichte.
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchbegriff k
 * Die Referrer-Domäne wird von Adobe als gültige [Suchmaschine](search-engine.md) erkannt.
 * In der Referrer-URL ist ein Abfragezeichenfolgenparameter für Suchbegriffe vorhanden. Wenn die Abfragezeichenfolge für Suchbegriffe vorhanden ist, jedoch keinen Wert enthält, wird sie unter dem Dimensionselement `"Keyword unavailable"` gruppiert.
 
-Wenn Sie zwischen gebührenpflichtiger und kostenloser Suche unterscheiden möchten, ist eine [Gebührenpflichtige Sucherkennung](/help/admin/admin/paid-search-detection/paid-search-detection.md) erforderlich. Für Suchbegriffe stehen mehrere Dimensionen zur Verfügung:
+Wenn Sie zwischen gebührenpflichtiger und kostenloser Suche unterscheiden möchten, ist eine [Gebührenpflichtige Sucherkennung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) erforderlich. Für Suchbegriffe stehen mehrere Dimensionen zur Verfügung:
 
 * **Suchbegriff**: Der Suchbegriff, mit dem Sie Ihre Site erreichen, unabhängig davon, ob die Suche gebührenpflichtig oder kostenlos ist.
 * **Suchbegriff - bezahlt**: Der Suchbegriff, mit dem Ihre Site erreicht wurde und der mit der gebührenpflichtigen Sucherkennung übereinstimmt.
@@ -31,7 +31,7 @@ Wenn Sie zwischen gebührenpflichtiger und kostenloser Suche unterscheiden möch
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
+Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
 
 ## Dimensionselemente
 

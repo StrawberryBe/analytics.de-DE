@@ -3,8 +3,8 @@ title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
 description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Bei Websites, die Commerce verwenden, sind Umsatz und Währung ein wichtiger Bes
 
 Die Währungsumrechnung verwendet bei jedem Treffer die folgende Logik. Diese Schritte gelten für Umsatzwerte, die die Variable [`products`](../page-vars/products.md) und alle als „Währung“ aufgelisteten Ereignisse in [Erfolgsereignissen](/help/admin/admin/c-success-events/success-event.md) in den Report Suite-Einstellungen festlegen.
 
-* Wenn `currencyCode` nicht definiert ist, geht Adobe davon aus, dass alle Währungswerte der Report Suite-Währung entsprechen. Siehe [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) in den Report Suite-Einstellungen, um die Report Suite-Währung anzuzeigen.
+* Wenn `currencyCode` nicht definiert ist, geht Adobe davon aus, dass alle Währungswerte der Report Suite-Währung entsprechen. Siehe [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in den Report Suite-Einstellungen, um die Report Suite-Währung anzuzeigen.
 * Wenn `currencyCode` definiert ist und mit der Währung der Report Suite übereinstimmt, wird keine Währungsumrechnung angewendet.
 * Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unterscheidet, wendet Adobe eine Währungsumrechnung auf der Grundlage des aktuellen Tageswechselkurses an. Adobe arbeitet mit [XE](https://xe.com) zusammen, um täglich Währungen umzurechnen. Alle in der Report Suite gespeicherten Werte beziehen sich auf die Report Suite-Währung.
 * Wenn für `currencyCode` ein ungültiger Wert festgelegt ist, **wird der gesamte Treffer verworfen, was zu Datenverlust führt.** Stellen Sie sicher, dass diese Variable bei jeder Verwendung korrekt definiert ist.
