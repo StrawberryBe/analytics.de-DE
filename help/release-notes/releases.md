@@ -3,7 +3,7 @@ description: Erläutert die Strategie zur kontinuierlichen Veröffentlichung von
 title: Veröffentlichung von Adobe Analytics-Funktionen
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 517c12482ea87a8b600f1d8eab3143ff90ff0524
+source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
@@ -41,4 +41,4 @@ Die stufenweise Veröffentlichung ermöglicht es Adobe, den Software-Implementie
 | Frage | Antwort |
 | --- | --- |
 | Kann ich frühzeitigen Zugriff auf eine Funktion anfordern? | Nein. Es wird kein frühzeitiger Zugriff gewährt.<br>Wenn Sie frühe Analytics-Konzepte testen möchten, empfehlen wir Ihnen, [Adobe Analytics Labs](/help/analyze/labs.md) zu testen, um Feedback zu unseren branchenführenden Innovationen zu geben. |
-| Hat diese Veröffentlichungsstrategie Auswirkungen auf meinen Zugriff auf Funktionen? | Nein. Sobald eine Funktion GA erreicht hat, haben Sie Zugriff auf die Funktion, wenn sie in Ihrem Analytics-Paket enthalten ist.<br>Details zu Ihrem Analytics-Paket finden Sie unter [Funktionszugriffsebenen](/help/admin/admin/get-started/company/feature-access-levels.md). |
+| Hat diese Veröffentlichungsstrategie Auswirkungen auf meinen Zugriff auf Funktionen? | Nein. Sobald eine Funktion GA erreicht hat, haben Sie Zugriff auf die Funktion, wenn sie in Ihrem Analytics-Paket enthalten ist.<br>Details zu Ihrem Analytics-Paket finden Sie unter [Funktionszugriffsebenen](/help/admin/get-started/company/feature-access-levels.md). |

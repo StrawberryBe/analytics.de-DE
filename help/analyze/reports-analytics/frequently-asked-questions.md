@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen zu Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 88df864b58cecef71aadc0314d1d2d81c5b9b72f
+source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Sie können Daten aus internen Website-Aktivitäten, wie Site-Tests und Mitarbei
 +++
 
 +++Kann ich eine Report Suite löschen?
-Das Löschen einer Report Suite ist nicht möglich. Eine Report Suite kann jedoch in Adobe Analytics für alle Ansichten ausgeblendet werden. Beachten Sie, dass an eine ausgeblendete Report Suite gesendete Serveraufrufe weiterhin auf Ihre monatliche vertragliche Beschränkung angerechnet werden. Weitere Informationen finden Sie unter [Ausblenden von Report Suites](/help/admin/admin/get-started/company/c-hide-report-suites.md) im Admin-Benutzerhandbuch.
+Das Löschen einer Report Suite ist nicht möglich. Eine Report Suite kann jedoch in Adobe Analytics für alle Ansichten ausgeblendet werden. Beachten Sie, dass an eine ausgeblendete Report Suite gesendete Serveraufrufe weiterhin auf Ihre monatliche vertragliche Beschränkung angerechnet werden. Weitere Informationen finden Sie unter [Ausblenden von Report Suites](/help/admin/get-started/company/c-hide-report-suites.md) im Admin-Benutzerhandbuch.
 +++
 
 +++Welchen Container sollte ich für die Segmentierung verwenden? Seitenansicht, Besuch oder Besucher?

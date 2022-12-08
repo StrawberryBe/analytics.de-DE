@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
+source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 96%
@@ -17,19 +17,19 @@ ht-degree: 96%
 + [Administratorhandbuch für Analytics](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Erste Schritte mit der Analytics-Verwaltung {#admin-overview}
-   + [Welches Adobe Analytics-Tool sollte ich verwenden?](admin/get-started/which-analytics-tool.md)
-   + [Analytics – Produktvergleich und Voraussetzungen](admin/get-started/analytics-product-comparison.md)
-   + [Systemanforderungen](admin/get-started/sys-reqs.md)
+   + [Welches Adobe Analytics-Tool sollte ich verwenden?](get-started/which-analytics-tool.md)
+   + [Analytics – Produktvergleich und Voraussetzungen](get-started/analytics-product-comparison.md)
+   + [Systemanforderungen](get-started/sys-reqs.md)
    + Unternehmenseinstellungen {#company-settings}
-      + [Übersicht über Unternehmenseinstellungen](admin/get-started/company/c-company-settings.md)
-      + [Funktionszugriffsebenen](admin/get-started/company/feature-access-levels.md)
-      + [Web-Services](admin/get-started/company/web-services-admin.md)
-      + [Report Builder-Berichte](admin/get-started/company/report-builder-reports-admin.md)
-      + [Single Sign-on](admin/get-started/company/single-signon-admin.md)
-      + [Ausstehende Aktionen](admin/get-started/company/pending-actions-admin.md)
-      + [Co-Branding](admin/get-started/company/co-branding-admin.md)
-      + [Ausblenden von Report Suites](admin/get-started/company/c-hide-report-suites.md)
-      + [Sicherheits-Manager](admin/get-started/company/security-manager.md)
+      + [Übersicht über Unternehmenseinstellungen](get-started/company/c-company-settings.md)
+      + [Funktionszugriffsebenen](get-started/company/feature-access-levels.md)
+      + [Web-Services](get-started/company/web-services-admin.md)
+      + [Report Builder-Berichte](get-started/company/report-builder-reports-admin.md)
+      + [Single Sign-on](get-started/company/single-signon-admin.md)
+      + [Ausstehende Aktionen](get-started/company/pending-actions-admin.md)
+      + [Co-Branding](get-started/company/co-branding-admin.md)
+      + [Ausblenden von Report Suites](get-started/company/c-hide-report-suites.md)
+      + [Sicherheits-Manager](get-started/company/security-manager.md)
 + Benutzerberechtigungen in der Adobe Admin Console {#admin-console}
    + [Analytics in der Adobe Admin Console](admin-console/home.md)
    + Zugriffsberechtigung {#permissions}
