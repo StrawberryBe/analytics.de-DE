@@ -3,7 +3,7 @@ title: Was ist die Variable „currencyCode“ und wie verwende ich sie?
 description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweiligen Seite verwendet wird.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Bei Websites, die Commerce verwenden, sind Umsatz und Währung ein wichtiger Bestandteil von Analytics. Viele Websites, insbesondere solche, die sich über mehrere Länder erstrecken, verwenden verschiedene Währungen. Verwenden Sie die Variable `currencyCode`, um sicherzustellen, dass der Umsatz der richtigen Währung entspricht.
 
-Die Währungsumrechnung verwendet bei jedem Treffer die folgende Logik. Diese Schritte gelten für Umsatzwerte, die die Variable [`products`](../page-vars/products.md) und alle als „Währung“ aufgelisteten Ereignisse in [Erfolgsereignissen](/help/admin/admin/c-success-events/success-event.md) in den Report Suite-Einstellungen festlegen.
+Die Währungsumrechnung verwendet bei jedem Treffer die folgende Logik. Diese Schritte gelten für Umsatzwerte, die die Variable [`products`](../page-vars/products.md) und alle als „Währung“ aufgelisteten Ereignisse in [Erfolgsereignissen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in den Report Suite-Einstellungen festlegen.
 
 * Wenn `currencyCode` nicht definiert ist, geht Adobe davon aus, dass alle Währungswerte der Report Suite-Währung entsprechen. Siehe [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in den Report Suite-Einstellungen, um die Report Suite-Währung anzuzeigen.
 * Wenn `currencyCode` definiert ist und mit der Währung der Report Suite übereinstimmt, wird keine Währungsumrechnung angewendet.

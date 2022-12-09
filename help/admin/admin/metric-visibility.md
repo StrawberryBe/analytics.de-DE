@@ -3,7 +3,7 @@ description: Sie können Standardmetriken (integrierte Metriken), benutzerspezif
 title: Metriksichtbarkeit
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Sie können Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
 
-1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**. [Mehr …](/help/admin/admin/c-success-events/t-success-events.md)
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**. [Mehr …](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. Legen Sie für die Spalte „Sichtbarkeit“ entweder **[!UICONTROL Überall eingeblendet]**, **[!UICONTROL Builder]** oder **[!UICONTROL Überall ausgeblendet]** fest.
 
 Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik aus, sondern nur auf die Sichtbarkeit in der Benutzeroberfläche. Diese Einstellungen wirken sich wie folgt auf die Sichtbarkeit der Metriken auf der Benutzeroberfläche aus:

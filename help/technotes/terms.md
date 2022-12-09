@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Admin Console:** kann sich auf Folgendes beziehen:
    * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Anwenderberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/admin/c-admin-tools.md) im Administratorhandbuch.
    * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Anwenderberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
-* **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
+* **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Analysis Workspace:** Browser-Lösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse. Bietet mehr Berichtsflexibilität als Reports and Analytics.
 * **Anomalie:** Eine Anomalie wird mithilfe statistischer Modellierung entdeckt, um automatisch nach unerwarteten Trends in Daten zu suchen. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) im Benutzerhandbuch zu Analysen.
 * **AppMeasurement:** die Code-Bibliothek, mit der Daten erfasst und an Adobe gesendet werden. Siehe [Startseite](/help/implement/home.md) des Benutzerhandbuchs zu Implementierungen.
@@ -55,7 +55,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **eVar:** Siehe „Konversionsvariable“.
 * **Ereignis:** Siehe „Erfolgsereignis“.
 * **ExcelClient:** wird nicht mehr als Begriff verwendet. Name des Vorgängers von Report Builder.
-* **Gültigkeit:** wie lange der Wert im Backend einer Konversionsvariablen erhalten bleibt. Durch diese Persistenz können Ereignisse mit Variablenwerten vor dem Treffer des Ereignisses verknüpft werden. Siehe [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
+* **Gültigkeit:** wie lange der Wert im Backend einer Konversionsvariablen erhalten bleibt. Durch diese Persistenz können Ereignisse mit Variablenwerten vor dem Treffer des Ereignisses verknüpft werden. Siehe [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Fluss:** ein Visualisierungstyp in Analysis Workspace, der zeigt, welche Pfade Anwender auf Ihrer Site genutzt haben. Siehe [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) im Benutzerhandbuch zu Analysen.
 * **Genesis:** wird nicht mehr als Begriff verwendet. Früherer Name von Data Connectors.
 * **Globale Report Suite:** ein informeller Begriff, der für eine Report Suite bestimmt ist, die Treffer von mehreren Sites erfasst.
