@@ -3,7 +3,7 @@ description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 + [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 + [Interne URL-Filter](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [Protokolle](logs.md)
-+ [Marketing-Kanäle](marketing-channels-admin.md)
++ [Marketing-Kanäle](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
 + [Menüanpassung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [Metriksichtbarkeit](metric-visibility.md)
 + [Mobile-Management](mobile-management.md)

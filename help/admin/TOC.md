@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -53,7 +53,6 @@ ht-degree: 95%
    + [Standardmetriken](admin/default-metrics.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
-   + [Marketing-Kanäle](admin/marketing-channels-admin.md)
    + [Metriksichtbarkeit](admin/metric-visibility.md)
    + [Mobile-App-Verwaltung](admin/mobile-management.md)
    + [Voreinstellungs-Manager](admin/preferences-manager.md)
@@ -138,6 +137,13 @@ ht-degree: 95%
                + [Übersicht über Erfolgsereignisse](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [Konfigurieren von Erfolgsereignissen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [Informationen zum Ändern des Ereignistyps](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+         + [Marketing-Kanäle](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + Traffic-Management {#traffic-management}
+            + [Verwalten von Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Planen von Traffic-Spitzen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+            + [Angeben einer dauerhaften Traffic-Zunahme](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [Erforderliche Vorlaufzeit für Traffic-Zunahme](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
    + Server-seitige Weiterleitung {#server-side-forwarding}
       + [Übersicht über die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf.md)
       + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [Anzeigen der Nutzung der Report Suite](c-server-call-usage/report-suite-usage.md)
    + [Warnhinweise zur Nutzung von Server-Aufrufen](c-server-call-usage/scu-alerts.md)
    + [Häufig gestellte Fragen zur Nutzung von Server-Aufrufen](c-server-call-usage/overage-faq.md)
-+ Traffic-Management {#traffic-management}
-   + [Verwalten von Traffic](c-traffic-management/traffic-management.md)
-   + [Planen von Traffic-Spitzen](c-traffic-management/t-traffic-schedule-spike.md)
-   + [Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-   + [Angeben einer dauerhaften Traffic-Zunahme](c-traffic-management/t-traffic-permanent.md)
-   + [Erforderliche Vorlaufzeit für Traffic-Zunahme](c-traffic-management/traffic-lead-time.md)
 + [Admin-API](c-admin-api/c-admin-api.md)

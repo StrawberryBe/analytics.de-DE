@@ -4,7 +4,7 @@ keywords: fehlende Daten;langsam
 title: Datenverfügbarkeit und -latenz
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Einige Funktionen von Adobe Experience Cloud verfügen zusätzlich zur standardm
 
 Zur Vermeidung von Latenzzeiten oder Verkürzung der Wiederherstellungsdauer bei eingetretener Latenz gibt es mehrere Strategien:
 
-* **Informieren Sie Adobe über erwartete Traffic-Spitzen:** Es ist zwar nicht möglich, jede Traffic-Spitze Ihrer Site vorherzusehen, es kann jedoch vorkommen, dass Sie einen erheblichen Traffic-Anstieg erwarten. Beispiele sind besonders erfolgreiche Phasen während der Feiertagssaison oder kurz nach dem Start einer großen Kampagne. In diesen Situationen stellt Adobe eine Möglichkeit bereit, wie Ihre Firma uns über erwartete Trafficzunahmen informieren kann, damit wir Ihrer Report Suite zusätzliche Verarbeitungsressourcen zuweisen können. Weitere Informationen zur Benachrichtigung von Adobe über erhöhten Traffic finden Sie unter [Planen von Traffic-Spitzen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) im Administratorhandbuch.
+* **Informieren Sie Adobe über erwartete Traffic-Spitzen:** Es ist zwar nicht möglich, jede Traffic-Spitze Ihrer Site vorherzusehen, es kann jedoch vorkommen, dass Sie einen erheblichen Traffic-Anstieg erwarten. Beispiele sind besonders erfolgreiche Phasen während der Feiertagssaison oder kurz nach dem Start einer großen Kampagne. In diesen Situationen stellt Adobe eine Möglichkeit bereit, wie Ihre Firma uns über erwartete Trafficzunahmen informieren kann, damit wir Ihrer Report Suite zusätzliche Verarbeitungsressourcen zuweisen können. Weitere Informationen zur Benachrichtigung von Adobe über erhöhten Traffic finden Sie unter [Planen von Traffic-Spitzen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) im Administratorhandbuch.
 * **Berücksichtigen Sie beim Aktivieren neuer Funktionen die Verarbeitungslast:** Einige Funktionen sind verarbeitungsintensiver als andere. Je mehr Funktionen für eine Report Suite aktiviert sind, desto schwieriger ist die Wiederherstellung des normalen Betriebs nach dem Auftreten von Latenzzeiten. Beachten Sie beim Aktivieren von Funktionen für eine Report Suite, dass die folgenden Funktionen die zu verarbeitende Datenmenge vergrößern:
 
    * Implementieren von mehr als 20 Ereignissen auf derselben Seite
