@@ -3,7 +3,7 @@ title: Administratorhandbuch für Analytics
 description: Hilfe zur Verwaltung für Adobe Analytics-Administratoren, darunter zu Benutzer- und Produktverwaltung in der Admin Console, Einrichtung von Report Suites, Variablen, Klassifizierungen und Datenerfassung.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin 
 ## Wichtige Artikel
 
 * [Analytics-Administratorhandbuch für Einsteiger](admin-console/first-admin-guide.md): Wenn Sie Adobe Analytics noch nicht kennen, lesen Sie dieses Handbuch, um Adobe Analytics optimal zu nutzen.
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Report Suite Manager enthält Einstellungen für die Verwaltung von Variablen, Classifications, Zeitzonen und vielem mehr.
+* [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Report Suite Manager enthält Einstellungen für die Verwaltung von Variablen, Classifications, Zeitzonen und vielem mehr.
 
 ## Weitere Benutzerhandbücher für Analytics
 
@@ -46,4 +46,4 @@ Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin 
 * [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
-* [Experience League](https://experienceleague.adobe.com/?lang=de#home)
+* [Experience League](https://experienceleague.adobe.com/?lang=de#dashboard/learning)

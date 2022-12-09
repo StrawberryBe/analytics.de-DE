@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie Multi-Suite-Tagging implementieren, um Bildan
 title: Implementieren von Multi-Suite-Tagging
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Implementieren von Multi-Suite-Tagging
 
-Mit [Multi-Suite-Tagging](/help/admin/c-manage-report-suites/rollup-report-suite.md) können Sie Bildanforderungen nicht nur an eine globale Report Suite, sondern auch an einzelne untergeordnete Report Suites senden, damit Sie Untergruppen der globalen Report Suite-Daten Ihres Unternehmens verschiedenen Endbenutzern bereitstellen können.
+Mit [Multi-Suite-Tagging](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) können Sie Bildanforderungen nicht nur an eine globale Report Suite, sondern auch an einzelne untergeordnete Report Suites senden, damit Sie Untergruppen der globalen Report Suite-Daten Ihres Unternehmens verschiedenen Endbenutzern bereitstellen können.
 
 Um Multi-Suite-Tagging zu implementieren, müssen Sie die Report Suite-ID (RSID) für die globale Report Suite sowie die RSIDs für die entsprechenden untergeordneten Report Suites in den Trackingcode für Ihre Webseiten und Apps aufnehmen.
 

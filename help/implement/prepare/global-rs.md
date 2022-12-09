@@ -3,7 +3,7 @@ title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe empfiehlt in den meisten Fällen die Implementierung einer globalen Report
 * **Aggregierte Daten:** Globale Report Suites ermöglichen es Ihnen, KPIs und Erfolgsereignisse über Ihre eigenen Sites hinweg anzuzeigen. Mithilfe von Segmentierung und Virtual Report Suites können Site-spezifische Daten angezeigt werden.
 * **Unterstützung für Cross-Device Analytics:** Cross-Device Analytics erfordert eine Report Suite, die Daten von mehreren Stellen sammelt, z. B. von Ihrer Website und Ihrer Mobile App. Separate Geräte können bei korrekter Implementierung Daten zuordnen. Weitere Informationen finden Sie unter [Cross-Device Analytics](../../components/cda/overview.md) im Benutzerhandbuch zu den Komponenten.
 * **Nicht mehr als eine Report Suite erforderlich:** Alle Daten können in einer einzigen Report Suite gesammelt werden. So ist es weniger wahrscheinlich, dass ein Entwickler fälschlicherweise Daten an die falsche Report Suite sendet.
-* **Keine Datenaggregation erforderlich:** Datenaggregationen sind eine ziemlich veraltete Funktion, mit der individuelle Report Suite-Daten täglich aggregiert werden. Datenaggregationen deduplizieren keine Besuchs- oder Besucherdaten, was zu verfälschten Zahlen führen kann. Weitere Informationen finden Sie unter [Datenaggregationen](../../admin/c-manage-report-suites/rollup-report-suite.md) im Admin-Benutzerhandbuch.
+* **Keine Datenaggregation erforderlich:** Datenaggregationen sind eine ziemlich veraltete Funktion, mit der individuelle Report Suite-Daten täglich aggregiert werden. Datenaggregationen deduplizieren keine Besuchs- oder Besucherdaten, was zu verfälschten Zahlen führen kann. Weitere Informationen finden Sie unter [Datenaggregationen](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) im Admin-Benutzerhandbuch.
 * **Zeit sparen:** Workspace-Projekte, Klassifizierungen, Segmente und berechnete Metriken sind mit derselben globalen Report Suite verknüpft. Administratoren verbringen weniger Zeit mit der Verwaltung dieser Komponenten und der Datenverwaltung.
 * **Präzisere markenübergreifende Attribution:** Wenn ein Besuch auf einer Site beginnt und der Besucher dann auf eine andere Ihrer eigenen Sites klickt, bevor ein Erfolgsereignis ausgelöst wird, wird die Attribution genau erfasst. Beispiel: Ein Besucher klickt auf einen Paid Search-Link und landet auf Site A. Anschließend klickt er auf einen Link zu Site B und tätigt dort einen Kauf. Eine globale Report Suite ordnet die erworbenen Produkte korrekt der Paid Search zu.
 * **Vereinfachte Implementierung:** Da alle Marken/Sites Daten an dieselbe Report Suite senden, sind Ihre Implementierungen auf jeder Site aufeinander abgestimmt. Diese erzwungene Verwaltung stellt sicher, dass eine bestimmte Dimension oder Metrik in derselben eVar oder demselben Ereignis gespeichert wird. Administratoren, Tester, Tag-Management-Inhaber und Analysten profitieren von dieser Vereinfachung.
@@ -34,7 +34,7 @@ Adobe empfiehlt in den meisten Fällen die Implementierung einer globalen Report
 
 Befolgen Sie die folgenden allgemeinen Richtlinien, um die Implementierung einer globalen Report Suite zu verstehen.
 
-1. Erstellen Sie die globale Report Suite in Adobe Analytics. Weitere Informationen finden Sie unter [Erstellen einer Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) im Admin-Benutzerhandbuch.
+1. Erstellen Sie die globale Report Suite in Adobe Analytics. Weitere Informationen finden Sie unter [Erstellen einer Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) im Admin-Benutzerhandbuch.
 1. Arbeiten Sie mit Teams in Ihrer Organisation zusammen, die für die jeweilige Domain zuständig sind. Viele Teams verfügen über Reporting-Anforderungen, die sich auf ihren Geschäftsbereich beziehen.
 1. Erfassen und aggregieren Sie alle diese Anforderungen in einem [Lösungsdesigndokument](solution-design.md). Wenn Teams ähnliche Anforderungen an eine Dimension haben, können sie dieselbe benutzerdefinierte Variable verwenden. Wenn beispielsweise sowohl Site A als auch Site B eine Breadcrumb-Dimension erfordern, können Implementierungen für beide Sites diese Daten über eVar1 senden.
 
@@ -57,4 +57,4 @@ Der Prozess der Umstellung einer vorhandenen Implementierung über mehrere Sites
 ## Weiterführende Seiten
 
 [Umstellung von Multi-Suite-Tagging zu einer globalen Report Suite und Virtual Report Suites](../../components/vrs/vrs-considerations.md)
-[Vergleich von Datenaggregationen und globalen Report Suites](../../admin/c-manage-report-suites/rollup-report-suite.md)
+[Vergleich von Datenaggregationen und globalen Report Suites](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)
