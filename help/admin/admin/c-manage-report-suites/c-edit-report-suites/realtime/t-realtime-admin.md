@@ -1,8 +1,8 @@
 ---
 description: Administrative Schritte zum Einrichten von Echtzeitberichten.
-title: Echtzeitberichte konfigurieren
+title: Konfiguration von Echtzeitberichten
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -10,13 +10,13 @@ ht-degree: 100%
 
 ---
 
-# Echtzeitberichte konfigurieren
+# Konfiguration von Echtzeitberichten
 
 Administrative Schritte zum Einrichten von Echtzeitberichten.
 
-Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurichten, wählen Sie die Report Suite aus und konfigurieren Sie bis zu drei Berichte.
+Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen Sie die Report Suite aus und konfigurieren Sie bis zu drei Berichte.
 
-1. Wählen Sie die Report Suite aus, für die Sie Echtzeit-Berichte aktivieren möchten.
+1. Wählen Sie die Report Suite aus, für die Sie Echtzeitberichte aktivieren möchten.
 
    Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Alle Berichte anzeigen > Site-Metriken]** > **[!UICONTROL Echtzeit]** und wählen Sie die Report Suite oben aus dem Dropdown-Menü aus:
 
@@ -33,13 +33,13 @@ Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurich
 1. Aktivieren Sie die Einstellung **[!UICONTROL Echtzeit aktivieren]**.
 1. Richten Sie die Echtzeit-Datenerfassung für bis zu drei Berichte ein, wobei pro Bericht eine Metrik und drei Dimensionen oder Classifications erstellt werden.
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    Informationen zu unterstützten Echtzeit-Metriken und -Dimensionen finden Sie unter [Unterstützte Metriken und Dimensionen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Falls Sie Classifications erstellt haben, werden sie unter der Dimension angezeigt, für die sie definiert wurden:
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

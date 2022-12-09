@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -87,7 +87,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Marketing-Kanal-Verarbeitungsregeln, ein Regelsatz, der bestimmt, zu welchem Marketing-Kanal ein Treffer gehört. Siehe [Marketing-Kanal-Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md) im Administratorhandbuch.
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.
-* **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/realtime/realtime.md) im Administratorhandbuch.
+* **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) im Administratorhandbuch.
 * **Report Builder:** Ein Add-in für Microsoft Excel, mit dem Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen können.
 * **Report Suite:** ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
 * **Reports &amp; Analytics:** Zuvor als „SiteCatalyst“ bezeichnet. Browserlösung zur Berichterstellung und Analyse. Starter-Tool im Analytics-Paket.

@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 94%
@@ -190,7 +190,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 12. September 2019 | Das Dokument [Gesamtwerte für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=de) wurde aktualisiert. |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](/help/technotes/pwa.md). |
 | 8. August 2019 | Neuer Artikel zu [Gesamtwerten für berechnete Metriken](/help/components/c-calcmetrics/cm-totals.md). |
-| 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/timestamp-optional.md). | 8. August 2019 | Adobe hat in Arbeitsbereich die Anzahl der Elemente, die in einem Dropdown-Filter platziert werden können, von 50 auf 200 erhöht. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
+| 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8. August 2019 | Adobe hat in Arbeitsbereich die Anzahl der Elemente, die in einem Dropdown-Filter platziert werden können, von 50 auf 200 erhöht. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
 | 2. August 2019 | Umfassende Aktualisierung des [Analytics-Glossars](/help/technotes/terms.md). |
 | 22. Juli 2019 | Magento wurde hinzugefügt: Marketing- und Commerce-Vorlage in der Dokumentation [zu Analysis Workspace-Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18. Juli 2019 | Aktualisierung der [Einstellungen der Kohortentabellen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |

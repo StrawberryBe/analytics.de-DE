@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics-Übersicht
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Die Audience Analytics-Integration umfasst die folgenden wesentlichen Vorteile:
 ![](assets/mc-aud-dataflow.png)
 
 1. Bei jedem Besuch eines Benutzers Ihrer digitalen Eigenschaften werden Treffer gesammelt und an Analytics weitergeleitet.
-1. Mit [Serverseitige Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf.md) wird jeder Treffer, den Analytics erhält, automatisch in Echtzeit an AAM gesendet.
+1. Mit [Serverseitige Weiterleitung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) wird jeder Treffer, den Analytics erhält, automatisch in Echtzeit an AAM gesendet.
 1. Durch die Audience Analytics-Integration wird in Echtzeit für jeden Treffer die Zugehörigkeit eines Besuchers in einer Zielgruppe in AAM überprüft und eine Liste von Segment-IDs an Analytics zur Verarbeitung zurückgegeben.
 
 Da AAM-Segmente auf Grundlage übereinstimmender Treffer eingefügt werden, haben Sie die Gewissheit, dass die in AAM verfügbaren Daten zu einem Besucher für den jeweiligen Treffer vollständig und aktuell sind. Dies ist einem AppMeasurement-Plugin überlegen, da ein Plugin diese Segmente erst beim nächsten Treffer (und nicht schon beim aktuellen Treffer) verfügbar machen kann.
@@ -49,6 +49,6 @@ Stellen Sie sicher, dass folgende Voraussetzungen erfüllt sind:
 * Sie sind ein Audience Manager-Administrator.
 * Sie verwenden den Identitätsdienst v1.5 oder höher.
 * AAM und Adobe Analytics werden derselben Experience Cloud-Organisation zugeordnet.
-* Sie nutzen [die serverseitige Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf.md) und haben das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de) AppMeasurement 1.5 oder höher (kein DIL-Code) implementiert.
+* Sie nutzen [die serverseitige Weiterleitung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) und haben das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de) AppMeasurement 1.5 oder höher (kein DIL-Code) implementiert.
 
 Diese Voraussetzungen werden im [Audience Analytics-Workflow](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md) beschrieben.

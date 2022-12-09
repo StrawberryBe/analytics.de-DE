@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Funktionsweise von Verarbeitungsregeln
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden sofort nach ihrer Speicherung auf die Report Suite angewendet. </p> </td> 
-   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von  <a href="/help/admin/admin/realtime/t-realtime-admin.md"> Echtzeitberichten</a> in Ihrer Test-Report Suite, so dass Sie die Ergebnisse der Verarbeitungsregel schnell sehen können. </p> </td> 
+   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von  <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> Echtzeitberichten</a> in Ihrer Test-Report Suite, so dass Sie die Ergebnisse der Verarbeitungsregel schnell sehen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln sind die einzige Möglichkeit für den Zugriff auf Kontextdatenvariablen. </p> </td> 

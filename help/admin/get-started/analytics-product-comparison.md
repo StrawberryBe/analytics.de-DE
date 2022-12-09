@@ -3,7 +3,7 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden soll, finde
 | **Datengranularität** | Aggregiert | Aggregiert | Aggregiert | Aggregiert | Treffer | Treffer | Aggregiert |
 | **Experience Cloud ID (ECID) verfügbar** | Nein | Nein | Nein | Ja | Ja | Ja | Nein |
 | **Zeitstempel verfügbar** | Nein | Nein | Nein | Nein | Ja | Ja | Nein |
-| **Verarbeitungsstufe** | Vollständig verarbeitet | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/components/c-real-time-reporting/realtime.md) | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/components/c-real-time-reporting/realtime.md) | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet |
-| **Admin-Bot-Filterdaten enthalten** <br> [Weitere Infos](/help/admin/admin/bot-removal/bot-removal.md) | Nein | Ja - separater Bot-Bericht | Ja - separater Bot-Bericht | Nein | Nein | Nein | Nein |
+| **Verarbeitungsstufe** | Vollständig verarbeitet | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet |
+| **Admin-Bot-Filterdaten enthalten** <br> [Weitere Infos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Nein | Ja - separater Bot-Bericht | Ja - separater Bot-Bericht | Nein | Nein | Nein | Nein |
 | **Geringer Traffic (Individuelle Werte überschritten) wird angezeigt** <br> [Weitere Infos](/help/technotes/low-traffic.md) | Ja | Ja | Ja | Nein | Nein | Nein | Ja |
 | **Begrenzung der sichtbaren Zeilen (vor der Paginierung)** | 400 | 200 | 50000 | Unbegrenzt | Unbegrenzt | Unbegrenzt | 50000 |
 | **Mehrere Report Suites** | [Ja](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Ja, mit Einschränkungen | Ja | Nein | Ja | Nein | Ja |

@@ -4,7 +4,7 @@ description: Die Dimensionen und Metriken, die Reports & Analytics für die einz
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -56,9 +56,9 @@ Enthält Berichte, die in der Regel einen Trend hinsichtlich eines Datumsbereich
    * Checkouts: Zeigt die Trends der Metrik [Checkouts](/help/components/metrics/checkouts.md) im Zeitverlauf an.
 * Benutzerspezifische Ereignisse: Enthält alle Berichte zu benutzerspezifischen [Ereignissen](/help/components/metrics/custom-events.md), die für Ihre Implementierung spezifisch sind.
 * Bots: Zeigt Bot-bezogene Berichte an.
-   * Bots: Zeigt die Bots an, die Ihre Site am häufigsten besuchen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Bot-Regeln](../../admin/admin/bot-removal/bot-rules.md).
+   * Bots: Zeigt die Bots an, die Ihre Site am häufigsten besuchen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
    * Bot-Seiten: Zeigt die Seiten mit den meisten Bot-Hits an.
-* Echtzeit: Zeigt bestimmte Dimensionen und Metriken innerhalb von Sekunden nach der Datenerfassung an. Weitere Informationen finden Sie unter [Echtzeitberichte](/help/components/c-real-time-reporting/realtime.md).
+* Echtzeit: Zeigt bestimmte Dimensionen und Metriken innerhalb von Sekunden nach der Datenerfassung an. Weitere Informationen finden Sie unter [Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md).
 
 ## Site-Content
 

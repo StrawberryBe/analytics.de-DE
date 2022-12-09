@@ -4,7 +4,7 @@ keywords: fehlende Daten;langsam
 title: Datenverfügbarkeit und -latenz
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Zur Vermeidung von Latenzzeiten oder Verkürzung der Wiederherstellungsdauer bei
    * Mehr als 20 Werte in der Variable products
    * Ereignis-Serialisierung
 
-* Aktivieren Sie die IAB-Bot-Filterung: Durch die [Bot-Filterung](/help/admin/admin/bot-removal/bot-removal.md) können Latenzzeiten deutlich reduziert werden, wenn Ihre Report Suite häufig von Bots oder Crawlern besucht wird. Verwenden Sie die IAB-Botliste, da diese vom [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) aktualisiert und gewartet wird. Anwender können in Ergänzung zu den IAB-Regeln eigene Bot-Regeln erstellen.
+* Aktivieren Sie die IAB-Bot-Filterung: Durch die [Bot-Filterung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) können Latenzzeiten deutlich reduziert werden, wenn Ihre Report Suite häufig von Bots oder Crawlern besucht wird. Verwenden Sie die IAB-Botliste, da diese vom [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) aktualisiert und gewartet wird. Anwender können in Ergänzung zu den IAB-Regeln eigene Bot-Regeln erstellen.
 
 ## Verfahren bei Latenzzeit
 

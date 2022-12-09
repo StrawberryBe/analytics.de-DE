@@ -2,7 +2,7 @@
 title: Fehlerbehebung bei Datenspitzen und Datenrückgängen
 description: Informieren Sie sich über mögliche Gründe, warum Sie in Trend-Berichten dramatische Zu- oder Abnahmen feststellen können.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Traffic-Spitzen werden in zwei Kategorien eingeteilt: nahezu doppelte Daten und 
 
 ### Andere mögliche Ursachen für erhöhten Traffic
 
-* **Spiders oder Bots**: Wenn Sie einen starken plötzlichen Anstieg des Traffics sehen, sollten Sie als Erstes nach einer möglichen Spider oder einem Bot suchen. Die Identifizierung von Bots kann manchmal schwierig sein, da jeder einzelne seine eigene Methode hat, Code auf Ihrer Site auszuführen. Erstellen Sie einen Data Warehouse-Bericht mit IP als Dimension, um festzustellen, welche Adressen den meisten Datenverkehr verursachen. Sie können dann entweder [Bot-Regeln](/help/admin/admin/bot-removal/bot-rules.md) oder eine VISTA-Regel verwenden, um Bot-Traffic aus zukünftigen Berichten zu eliminieren.
+* **Spiders oder Bots**: Wenn Sie einen starken plötzlichen Anstieg des Traffics sehen, sollten Sie als Erstes nach einer möglichen Spider oder einem Bot suchen. Die Identifizierung von Bots kann manchmal schwierig sein, da jeder einzelne seine eigene Methode hat, Code auf Ihrer Site auszuführen. Erstellen Sie einen Data Warehouse-Bericht mit IP als Dimension, um festzustellen, welche Adressen den meisten Datenverkehr verursachen. Sie können dann entweder [Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) oder eine VISTA-Regel verwenden, um Bot-Traffic aus zukünftigen Berichten zu eliminieren.
 * **Gestartete Kampagnen**: Marketing-Bemühungen wie E-Mail-Kampagnen oder Suchmaschinenoptimierung können möglicherweise zu einer Traffic-Spitze auf Ihrer Site führen. Zeigen Sie die Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) in der Trend-Ansicht an, um weiter zu recherchieren. Es kann auch hilfreich sein, Ihr Marketing-Team zu kontaktieren, um sicherzustellen, dass die Spitze beabsichtigt war.
 * **Umwelt- oder situationsbedingte Gründe**: Wenn ein Feiertag oder ein situationsbedingtes Ereignis aufgetreten ist (ein wichtiges Ereignis, bei dem Ihre Site eine bekannte Ressource ist, oder verbleibende Marketing-Anstrengungen anderer Organisationen), kann der Traffic auf Ihrer Website zunehmen. Es ist schwierig, die genaue Ursache zu ermitteln, da es eine nahezu unbegrenzte Anzahl von situationsbedingten Gründen gibt, aus denen der Traffic zunehmen kann. Diese Ursachen sind jedoch besonders wichtig, damit Ihr Unternehmen sie nutzen und entsprechende Geschäftsentscheidungen treffen kann. Die Dimension [Seite](/help/components/dimensions/page.md) oder [Referrer](/help/components/dimensions/referrer.md) in der Trendansicht anzuzeigen,ist höchstwahrscheinlich der beste Ausgangspunkt für die Ermittlung der Traffic-Quelle.
 

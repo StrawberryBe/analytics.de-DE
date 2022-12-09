@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -39,14 +39,17 @@ ht-degree: 95%
       + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
       + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
+   + Benutzer und Produkte verwalten (alt) {#user-product-management}
+      + [Verwalten von Benutzern und Produkten](admin-console/user-management2/user-management.md)
+      + Migrieren von Benutzern zur Adobe Admin Console {#migrate-users}
+         + [Analytics-Benutzermigration zur Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
+         + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](admin-console/user-management2/user-migration/t-migrate-users.md)
+         + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](admin-console/user-management2/user-migration/migrate-enterprise.md)
+         + [Deaktivieren von veralteten Anmeldedaten](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+         + [Von der Migration betroffene APIs](admin-console/user-management2/user-migration/developer.md)
 + Analytics-Administrator {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Abrechnung](admin/billing-admin.md)
-   + Bot-Entfernung {#bot-removal}
-      + [Bot-Entfernung](admin/bot-removal/bot-removal.md)
-      + [Übersicht über Bot-Regeln](admin/bot-removal/bot-rules.md)
-      + [Allgemeine Bot-Signaturen](admin/bot-removal/bot-signatures.md)
-      + [Bot-Ausschlussmethoden](admin/bot-removal/bot-exclusion-methods.md)
    + [Code-Manager](admin/code-manager-admin.md)
    + [Währungs-Codes](admin/currency.md)
    + [Datenquellen](admin/data-sources.md)
@@ -54,21 +57,14 @@ ht-degree: 95%
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
    + [Metriksichtbarkeit](admin/metric-visibility.md)
-   + [Mobile-App-Verwaltung](admin/mobile-management.md)
    + [Voreinstellungs-Manager](admin/preferences-manager.md)
-   + [Datenschutzeinstellungen](admin/privacy-settings.md)
    + [Datenschutzberichte](admin/privacy-reporting.md)
-   + Echtzeitberichte {#real-time-reports}
-      + [Übersicht über Echtzeitberichte](admin/realtime/realtime.md)
-      + [Konfiguration von Echtzeitberichten](admin/realtime/t-realtime-admin.md)
-      + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/realtime/realtime-metrics.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
    + [Warteschlange für terminierte Berichte](admin/scheduled-reports-admin.md)
    + Report Suite Manager {#manage-report-suites}
       + [Report Suites verwalten](admin/c-manage-report-suites/report-suites-admin.md)
       + [Datenaggregations-Report Suites und globale Report Suites](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Speichern einer Report Suite-Suche](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [Individuelle Report Suite-Einstellungen](admin/c-manage-report-suites/individual-rs-settings.md)
       + [Herunterladen von Report Suite-Einstellungen](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Neue Report Suite {#c-new-report-suite}
          + [Erstellen einer Report Suite](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -117,6 +113,20 @@ ht-degree: 95%
                   + [Festlegen eines Ereignisses mit einer Kontextdatenvariablen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Entfernen eines Ereignisses aus einem Treffer](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Verarbeitungsregeln – Tipps und Tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + Bot-Entfernung {#bot-removal}
+               + [Bot-Entfernung](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [Übersicht über Bot-Regeln](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Allgemeine Bot-Signaturen](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
+               + [Bot-Ausschlussmethoden](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
+            + [Datenschutzeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [Zeitstempel optional](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + Server-seitige Weiterleitung {#server-side-forwarding}
+               + [Übersicht über die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [Anforderungen an die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [Daten- und Codereferenz für die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [Überprüfen der Server-seitigen Weiterleitungsimplementierung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [Häufig gestellte Fragen zur Server-seitigen Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Traffic-Variablen {#traffic-variables}
             + [Übersicht über Traffic-Variablen (Eigenschaft)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Aktivieren von Traffic-Variablen-Berichten](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -144,24 +154,20 @@ ht-degree: 95%
             + [Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [Angeben einer dauerhaften Traffic-Zunahme](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [Erforderliche Vorlaufzeit für Traffic-Zunahme](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-   + Server-seitige Weiterleitung {#server-side-forwarding}
-      + [Übersicht über die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf.md)
-      + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Anforderungen an die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [Daten- und Codereferenz für die Server-seitige Weiterleitung](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Überprüfen der Server-seitigen Weiterleitungsimplementierung](admin/c-server-side-forwarding/ssf-verify.md)
-      + [Häufig gestellte Fragen zur Server-seitigen Weiterleitung](admin/c-server-side-forwarding/ssf-faq.md)
+         + [Individuelle Report Suite-Einstellungen](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [Mobile-App-Verwaltung](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + Echtzeitberichte {#real-time-reports}
+            + [Übersicht über Echtzeitberichte](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [Konfiguration von Echtzeitberichten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + [Vereinfachtes Berichtsmenü](admin/t-simplified-menu.md)
-   + [Zeitstempel optional](admin/timestamp-optional.md)
    + [Video-Management](admin/video-management.md)
-+ Benutzer und Produkte verwalten (alt) {#user-product-management}
-   + [Verwalten von Benutzern und Produkten](user-management2/user-management.md)
-   + Migrieren von Benutzern zur Adobe Admin Console {#migrate-users}
-      + [Analytics-Benutzermigration zur Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](user-management2/user-migration/t-migrate-users.md)
-      + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](user-management2/user-migration/migrate-enterprise.md)
-      + [Deaktivieren von veralteten Anmeldedaten](user-management2/user-migration/t-disable-legacy-login.md)
-      + [Von der Migration betroffene APIs](user-management2/user-migration/developer.md)
+   + Nutzung der Server-Aufrufe {#server-call-usage}
+      + [Übersicht zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-overview.md)
+      + [Anzeigen der aktuellen Nutzung der Server-Aufrufe](admin/c-server-call-usage/server-call-usage-dashboard.md)
+      + [Anzeigen der Nutzung der Report Suite](admin/c-server-call-usage/report-suite-usage.md)
+      + [Warnhinweise zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/scu-alerts.md)
+      + [Häufig gestellte Fragen zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-faq.md)
 + Data Governance {#data-governance}
    + [Adobe Analytics und die DSGVO](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics und der CCPA](c-data-governance/an-ccpa-overview.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [Beschriftungsbeispiel](c-data-governance/gdpr-labeling-example.md)
    + [Datenschutz und Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologie zum Datenschutz](c-data-governance/gdpr-terminology.md)
-+ Nutzung der Server-Aufrufe {#server-call-usage}
-   + [Übersicht zur Nutzung von Server-Aufrufen](c-server-call-usage/overage-overview.md)
-   + [Anzeigen der aktuellen Nutzung der Server-Aufrufe](c-server-call-usage/server-call-usage-dashboard.md)
-   + [Anzeigen der Nutzung der Report Suite](c-server-call-usage/report-suite-usage.md)
-   + [Warnhinweise zur Nutzung von Server-Aufrufen](c-server-call-usage/scu-alerts.md)
-   + [Häufig gestellte Fragen zur Nutzung von Server-Aufrufen](c-server-call-usage/overage-faq.md)
 + [Admin-API](c-admin-api/c-admin-api.md)

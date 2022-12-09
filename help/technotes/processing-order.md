@@ -2,7 +2,7 @@
 title: Verarbeitungsreihenfolge für Daten in Adobe Analytics
 description: Erfahren Sie mehr zur Reihenfolge der Komponenten und Services, die Daten in Adobe Analytics verarbeiten.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Sobald Daten in Adobe Analytics eingehen, passen die folgenden Funktionen die Da
 
 1. **Suchtabellen**: Dimensionen, die auf Adobe-internen Suchtabellen basieren (z. B. die Dimension [Browser](/help/components/dimensions/browser.md)) werden dem entsprechenden Wert zugeordnet.
 2. [**Dynamische Variablen**](/help/implement/vars/page-vars/dynamic-variables.md): Wenn eine dynamische Variable in einem beliebigen Teil einer Bildanforderung angezeigt wird, wird der Wert kopiert und ab dann als unabhängiger Wert gehandhabt.
-3. [**Bot-Regeln**](/help/admin/admin/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus dem Reporting auszuschließen.
+3. [**Bot-Regeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus dem Reporting auszuschließen.
 4. [**Verarbeitungsregeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): Benutzerdefinierte Regeln, die von Ihrer Organisation auf Ihre Daten angewendet werden. Umfasst die Zuordnung von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) auf die entsprechende Variable.
 5. **VISTA-Regeln**: Benutzerdefinierte flexible Regeln, die von einer Person des Adobe-Berater-Teams auf Ihre Daten angewendet werden. VISTA-Regeln können je nach den Anforderungen Ihres Unternehmens vor oder nach den Verarbeitungsregeln ausgeführt werden. VISTA-Regeln werden meist nach den Verarbeitungsregeln ausgeführt, aber jede Organisation ist anders eingerichtet. Wenden Sie sich an Ihren Adobe Account Manager, um weitere Informationen zu bestehenden VISTA-Regeln zu erhalten.
 6. [**Marketing-Kanal-Verarbeitungsregeln**](/help/components/c-marketing-channels/c-rules.md): Sie können [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um Daten für die Verwendung in Marketing-Kanal-Verarbeitungsregeln vorzubereiten.

@@ -4,7 +4,7 @@ keywords: Virtual Report Suite, VRS
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Mit Virtual Report Suites werden Daten einer Report Suite angezeigt, die in Ihren digitalen Properties erfasst werden, aber über ein dauerhaft zugewiesenes Segment verfügen.
 
-In vielen Fällen können Sie Virtual Report Suites verwenden, um Multi-Suite-Tagging zu ersetzen. Durch den Wechsel zu Virtual Report Suites kann die Notwendigkeit [sekundärer Server-Aufrufe](/help/admin/c-server-call-usage/overage-overview.md) effektiv beseitigt werden. Ihre Organisation verfügt beispielsweise über 6 verschiedene Websites, von denen jede Daten an ihre eigene Report Suite sowie eine kombinierte globale Report Suite sendet. Jede Site erhält einen sekundären Server-Aufruf, einen an die Report Suite der jeweiligen Marken und einen zweiten an die globale Report Suite. Stattdessen können Sie Daten von allen Sites ausschließlich an die globale Report Suite senden und dann mehrere Virtual Report Suites verwenden, um die Marken voneinander zu trennen.
+In vielen Fällen können Sie Virtual Report Suites verwenden, um Multi-Suite-Tagging zu ersetzen. Durch den Wechsel zu Virtual Report Suites kann die Notwendigkeit [sekundärer Server-Aufrufe](/help/admin/admin/c-server-call-usage/overage-overview.md) effektiv beseitigt werden. Ihre Organisation verfügt beispielsweise über 6 verschiedene Websites, von denen jede Daten an ihre eigene Report Suite sowie eine kombinierte globale Report Suite sendet. Jede Site erhält einen sekundären Server-Aufruf, einen an die Report Suite der jeweiligen Marken und einen zweiten an die globale Report Suite. Stattdessen können Sie Daten von allen Sites ausschließlich an die globale Report Suite senden und dann mehrere Virtual Report Suites verwenden, um die Marken voneinander zu trennen.
 
 Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suites ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und die Anzahl der Server-Aufrufe reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen für Virtual Report Suites. Die folgenden Richtlinien sollen Ihnen bei der Entscheidung helfen, ob auf einer globalen Report Suite erstellte Virtual Report Suites der richtige Ansatz für Sie sind.
 
@@ -35,7 +35,7 @@ Segmente aus einer Virtual Report Suite können noch nicht für die Personalisie
 
 Virtual Report Suites unterstützen keine Echtzeitberichte, weil die Daten segmentiert sind. Die Funktion „Aktuelle Daten“ wird in Virtual Report Suites nicht unterstützt, da sie keine Segmentierung unterstützt. Beide Funktionen sind spezifisch für Reports &amp; Analytics.
 
-[Echtzeitberichte](/help/admin/admin/realtime/t-realtime-admin.md) und [Aktuelle Daten](/help/technotes/latency.md) stehen in Virtual Report Suites nicht zur Verfügung. Dies betrifft Benutzer, die innerhalb von Sekunden oder Minuten nach der Datenerfassung auf Trends in Reports &amp; Analytics reagieren. Dazu könnten beispielsweise Bearbeiter in einem Newsroom gehören, die die Schlagzeilen basierend auf dem Inhaltskonsum in Echtzeit anpassen. Erwägen Sie die Verwendung von Multi-Suite-Tagging, wenn Sie über erhebliche Echtzeitdaten verfügen, die für einzelne Report Suites spezifisch sind. Echtzeitdaten und aktuelle Daten können weiterhin in der globalen Report Suite verwendet werden.
+[Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) und [Aktuelle Daten](/help/technotes/latency.md) stehen in Virtual Report Suites nicht zur Verfügung. Dies betrifft Benutzer, die innerhalb von Sekunden oder Minuten nach der Datenerfassung auf Trends in Reports &amp; Analytics reagieren. Dazu könnten beispielsweise Bearbeiter in einem Newsroom gehören, die die Schlagzeilen basierend auf dem Inhaltskonsum in Echtzeit anpassen. Erwägen Sie die Verwendung von Multi-Suite-Tagging, wenn Sie über erhebliche Echtzeitdaten verfügen, die für einzelne Report Suites spezifisch sind. Echtzeitdaten und aktuelle Daten können weiterhin in der globalen Report Suite verwendet werden.
 
 ### Individuelle Einschränkungen
 

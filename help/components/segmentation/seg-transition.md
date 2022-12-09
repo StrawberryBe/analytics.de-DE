@@ -3,7 +3,7 @@ description: Häufig gestellte Fragen zur Segmentierung.
 title: Häufig gestellte Fragen zur Segmentierung
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 99%
@@ -66,7 +66,7 @@ in der linken Navigation, woraufhin die Segmentleiste angezeigt wird.
 
 Das Dropdown-Feld für die Report Suite wurde in die obere rechte Ecke jedes Berichts oder Dashboards neben die Datumsauswahl verschoben.
 
-![Report Suite-Auswahl](assets/report_suite_selector.png)
+![Report Suite-Auswahl](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## Zugriffsberechtigung {#section_648DFA3A882146C485A84ED014EEC707}
 

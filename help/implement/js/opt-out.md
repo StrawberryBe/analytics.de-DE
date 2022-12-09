@@ -3,10 +3,10 @@ title: Ausschluss-Links
 description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,14 +22,14 @@ Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-C
 
 >[!TIP]
 >
->Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Datenschutzeinstellungen](../../admin/admin/privacy-settings.md).
+>Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Datenschutzeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md).
 
 ## Opt-out-URL
 
 Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](../vars/config-vars/trackingserver.md)-Variablen in Ihrer Implementierung ab.
 
 * In der Analytics-Erweiterung:
-   1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+   1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
    1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
    1. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
    1. Klicken Sie auf das Akkordeon [!UICONTROL Allgemein] und notieren Sie den Wert [!UICONTROL Tracking-Server].

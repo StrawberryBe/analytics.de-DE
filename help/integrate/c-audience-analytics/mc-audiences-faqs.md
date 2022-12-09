@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen zum Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 99%
@@ -130,7 +130,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  </tbody> 
 </table>
 
-Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serverseitigen Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serverseitigen Weiterleitung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
 
 ## Allgemeine FAQs {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
