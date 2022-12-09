@@ -4,7 +4,7 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 92%
@@ -33,13 +33,13 @@ In Adobe Analytics navigieren Admins zu **[!UICONTROL Admin]** > **[!UICONTROL R
 
 Sie benötigen die Berechtigung für Analytics-Produkt-Administrator (in Adobe Admin Console), um die Berichterstellungsaktivität zu verwalten.
 
-Berechtigung ![](assets/rep-mgr-permission.png)
+Berechtigung ![](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## Anzeigen der Berichtswarteschlange
 
 Beim Öffnen der [!UICONTROL Reporting Activity Manager]-Übersichtsseite wird eine Liste Ihrer aktivierten zugrunde liegenden Report Suites angezeigt.
 
-![Berichtswarteschlange](assets/reporting-activity1.png)
+![Berichtswarteschlange](/help/admin/admin/assets/reporting-activity1.png)
 
 | UI-Element | Beschreibung |
 | --- | --- |
@@ -62,7 +62,7 @@ Beim Öffnen der [!UICONTROL Reporting Activity Manager]-Übersichtsseite wird e
 
 Klicken Sie auf den Titel-Link einer Report Suite, für die Sie Details anzeigen möchten.
 
-![Report Suite](assets/indiv-report-ste.png)
+![Report Suite](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### Liniendiagramm
 
@@ -72,17 +72,17 @@ Das Liniendiagramm zeigt die Berichtsaktivität für die ausgewählte Report Sui
 * Die Y-Achse zeigt die durchschnittliche Wartezeit für eine Abfrage in Sekunden an.
 * Sie können den Mauszeiger über das Liniendiagramm bewegen, um Zeitpunkte und die durchschnittliche Wartezeit für einen bestimmten Zeitpunkt anzuzeigen.
 
-   ![Detail](assets/detail.png)
+   ![Detail](/help/admin/admin/assets/detail.png)
 
 ### Filter
 
 Sie können die Tabelle nach Programm (siehe Liste in der Tabelle unten), nach Benutzer und nach Projekt filtern.
 
-![Filter](assets/filter.png)
+![Filter](/help/admin/admin/assets/filter.png)
 
 ### Zusammenfassungszahlen
 
-![Filter](assets/summary_numbers.png)
+![Filter](/help/admin/admin/assets/summary_numbers.png)
 
 Die Zusammenfassungszahlen geben die folgenden Informationen an:
 
@@ -127,11 +127,11 @@ So brechen Sie eine Anfrage ab:
 1. Im Fenster **[!UICONTROL X-Abfrage abbrechen]** können Sie bei Bedarf die Abbruchsmeldung ändern.
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 Programmbenutzern in Workspace wird beispielsweise in ihren Projekten der folgende Hinweis angezeigt:
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## Häufig gestellte Fragen
 

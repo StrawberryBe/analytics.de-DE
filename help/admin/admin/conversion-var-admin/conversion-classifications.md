@@ -3,7 +3,7 @@ description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategori
 title: Konversionsklassifizierungen
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Schritte, die beschreiben, wie Konversionsklassifizierungen in der Admin-Konsole
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversion-Classifications]**.
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Einen Klassifizierungstyp auswählen]** die Variable aus, der Sie eine Klassifizierung hinzufügen möchten.
 
-   ![Schritt-Info](../assets/sub_class_create.png)
+   ![Schritt-Info](/help/admin/admin/assets/sub_class_create.png)
 
 1. Bewegen Sie den Mauszeiger über das Symbol **[!UICONTROL Klassifizierung bearbeiten]** und wählen Sie dann **[!UICONTROL Klassifizierung hinzufügen]**.
 1. Wählen Sie im Feld **[!UICONTROL Typ auswählen]** den Classification-typ aus, den Sie der Variablen hinzufügen möchten.

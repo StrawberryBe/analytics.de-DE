@@ -3,7 +3,7 @@ description: Erläutert Optimierungen der Server-seitigen Weiterleitung, die dur
 title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Sie können Adobe Analytics verwenden, um Berichte dazu zu erstellen, wie viel 
 Um diese Art der Berichterstellung zu konfigurieren, weisen Sie die neue Kontextvariable über Verarbeitungsregeln einer benutzerdefinierten Traffic-Variable (Eigenschaft) hinzu. Gehen Sie dazu wie folgt vor
 
 1. Implementieren Sie die Variable „cm.ssf“ (wie oben dargestellt.)
-1. [Aktivieren Sie die Eigenschaft.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [Aktivieren Sie die Eigenschaft.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. Weisen Sie die Kontextvariable über Verarbeitungsregeln der Eigenschaft hinzu.
 
    1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Wählen Sie dann eine Report Suite aus.

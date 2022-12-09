@@ -4,7 +4,7 @@ title: Berechnete Metriken
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
@@ -25,7 +25,7 @@ In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filte
 
 ## Filtern von berechneten Metriken {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtern** Sie berechnete Metriken, indem Sie auf das Filtersymbol klicken:  ![](assets/segment_filter.png)
+**Filtern** Sie berechnete Metriken, indem Sie auf das Filtersymbol klicken:  ![](/help/admin/admin/assets/filter.png)
 
   Im Dialogfeld „Erweiterte Filter“ werden die Standardmetriken und berechneten Metriken aufgeführt.
 

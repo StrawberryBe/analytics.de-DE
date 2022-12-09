@@ -4,7 +4,7 @@ title: Vereinfachtes Berichtsmenü
 feature: Admin Tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 exl-id: fa383f68-9858-4d85-972a-a375b24da61a
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
@@ -17,7 +17,7 @@ In diesen Schritten wird beschrieben, wie das vereinfachte Menü „Berichte“ 
 
 Das Adobe Reports &amp; Analytics-Menü ermöglicht die Auswahl eines alternativen vereinfachten Menüs mit neu strukturierten Unterordnern. Das vereinfachte Menü zeigt standardmäßig die folgenden Optionen an:
 
-![](assets/simplified-menu.png)
+![](/help/admin/admin/assets/simplified-menu.png)
 
 >[!NOTE]
 >
@@ -28,6 +28,6 @@ Das Adobe Reports &amp; Analytics-Menü ermöglicht die Auswahl eines alternativ
 1. Navigieren Sie zu **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Menüs anpassen]**.
 1. Klicken Sie auf **[!UICONTROL Vereinfacht wiederherstellen]**, um die vereinfachte Menüstruktur zu implementieren.
 
-   ![](assets/restore-simplified.png)
+   ![](/help/admin/admin/assets/restore-simplified.png)
 
 1. Um das (nicht angepasste) Standardmenü wiederherzustellen, klicken Sie auf **[!UICONTROL Standardangaben wiederherstellen]**.

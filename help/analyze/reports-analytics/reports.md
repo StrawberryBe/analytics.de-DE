@@ -4,7 +4,7 @@ description: Die Dimensionen und Metriken, die Reports & Analytics für die einz
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -115,7 +115,7 @@ Enthält Berichte, mit denen Sie Pfaddaten für Besucher anzeigen können.
 
 >[!NOTE]
 >
->In diesem Ordner können andere Berichte angezeigt werden. Es handelt sich dabei um andere Dimensionen, wie z. B. Eigenschaften, bei denen die [Pfade unter den Report Suite-Einstellungen aktiviert](../../admin/admin/c-traffic-variables/traffic-var.md) sind.
+>In diesem Ordner können andere Berichte angezeigt werden. Es handelt sich dabei um andere Dimensionen, wie z. B. Eigenschaften, bei denen die [Pfade unter den Report Suite-Einstellungen aktiviert](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) sind.
 
 ## Traffic-Quellen
 
