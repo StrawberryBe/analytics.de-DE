@@ -3,10 +3,10 @@ title: Administratorhandbuch für Analytics
 description: Hilfe zur Verwaltung für Adobe Analytics-Administratoren, darunter zu Benutzer- und Produktverwaltung in der Admin Console, Einrichtung von Report Suites, Variablen, Klassifizierungen und Datenerfassung.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '328'
+ht-degree: 93%
 
 ---
 
@@ -23,11 +23,11 @@ Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 Adobe Analytics verfügt derzeit über zwei Bereiche für Administratoren:
 
 * Adobe Admin Console: In diesem Bereich können Sie Experience Cloud-Werkzeuge bereitstellen und Benutzerberechtigungen verwalten. Die Adobe Admin Console finden Sie unter [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Analytics Admin Console: In diesem Bereich können Sie Report Suites und Variablen verwalten. Der Zugriff darauf erfolgt über [!UICONTROL Admin] in der oberen Kopfzeile von Adobe Analytics.
+* Analytics Admin Tools: Verwenden Sie diesen Bereich für die Verwaltung von Report Suites und Variablen. Der Zugriff darauf erfolgt über [!UICONTROL Admin] in der oberen Kopfzeile von Adobe Analytics.
 
 Dieses Handbuch beinhaltet:
 
-* Alle Aufgaben, die Sie in der Analytics Admin Console ausführen können. Dieser Bereich umfasst die Einrichtung von Report Suites, Variablen, Klassifizierungen und Daten-Governance. Eine Liste der verfügbaren Einstellungsoptionen für die Report Suite und das Unternehmen finden Sie unter [Admin Tools](admin/c-admin-tools.md).
+* Alle Aufgaben, die in den Admin Tools von Analytics ausgeführt werden. Dieser Bereich umfasst die Einrichtung von Report Suites, Variablen, Klassifizierungen und Daten-Governance. Eine Liste der verfügbaren Einstellungsoptionen für die Report Suite und das Unternehmen finden Sie unter [Admin Tools](admin/c-admin-tools.md).
 * Alle Analytics-spezifischen Aufgaben, die in der Adobe Admin Console ausgeführt werden. In diesem Bereich können Produkte bereitgestellt und Benutzerberechtigungen verwaltet werden. Eine Liste der Aktionen, die in der Adobe Admin Console ausgeführt werden können, finden Sie unter [Adobe Analytics in der Adobe Admin Console](admin-console/home.md).
 
 Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin Console. Siehe stattdessen [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) im Enterprise-Benutzerhandbuch.

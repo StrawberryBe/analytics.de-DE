@@ -3,10 +3,10 @@ description: Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie A
 title: Kontextbezogene Sitzungen
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 100%
+source-wordcount: '1562'
+ht-degree: 97%
 
 ---
 
@@ -131,7 +131,7 @@ Die verbrachte Zeit wird weiterhin analog zur Berechnung ohne Hintergrundtreffer
 
 ## Einstellungen zur Verarbeitung von Treffern im Hintergrund
 
-Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Berichtszeitverarbeitung verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Navigieren Sie für den Zugriff auf diese Einstellung zur Adobe Analytics Admin Console, rufen Sie die Einstellungen der jeweiligen zugrunde liegenden Report Suite auf, navigieren Sie dann zum Menü „Mobile Verwaltung“ und dann zum Untermenü „Mobile App-Berichte“.
+Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Berichtszeitverarbeitung verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Um auf diese Einstellung zuzugreifen, navigieren Sie zu Adobe Analytics Admin Tools, navigieren Sie zu den Einstellungen der entsprechenden Basis-Report Suite, navigieren Sie zum Menü &quot;Mobile Management&quot;und dann zum Untermenü &quot;Mobilanwendungs-Berichterstellung&quot;.
 
 1. „Legacy-Verarbeitung Ein“: Standardeinstellung für alle Report Suites. Wenn Sie die Legacy-Verarbeitung aktiviert lassen, werden Hintergrundtreffer in der Verarbeitungspipeline wie normale Treffer behandelt, was die zugrunde liegende Report Suite ohne Zuordnung der Berichtszeit betrifft. Demnach inkrementieren Hintergrundtreffer, die in der zugrunde liegenden Report Suite angezeigt werden, Besuche als normalen Treffer. Wenn keine Hintergrundtreffer in Ihrer zugrunde liegenden Report Suite angezeigt werden sollen, ändern Sie diese Einstellung zu „Aus“.
 1. „Legacy-Verarbeitung Aus“: Wenn die Legacy-Verarbeitung für Hintergrundtreffer aus ist, werden an die zugrunde liegende Report Suite gesendete Hintergrundtreffer von der zugrunde liegenden Report Suite ignoriert, und sie sind nur zugänglich, wenn eine in dieser zugrunde liegenden Report Suite erstellte Virtual Report Suite für die Verwendung der Funktion „Berichtszeitverarbeitung“ konfiguriert ist. Demnach werden von den Hintergrundtreffern erfasste Daten, die an diese zugrunde liegende Report Suite gesendet werden, nur in einer Virtual Report Suite mit aktivierter Funktion „Berichtszeitverarbeitung“ angezeigt.

@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics-Berechtigungen – Übersichtstabellen
-description: Tabellen, die die verfügbaren Adobe Analytics-Berechtigungen in Admin Console zusammenfassen.
+description: Tabellen, die die verfügbaren Adobe Analytics-Berechtigungen in Adobe Admin Console zusammenfassen.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 96%
 
 ---
 
 # Adobe Analytics-Berechtigungen – Übersichtstabellen
 
-Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Berechtigungen in Admin Console logisch gruppiert zu ermitteln.
+Verwenden Sie die folgenden Zusammenfassungstabellen, um Adobe Analytics-Berechtigungen in der Adobe Admin Console nach logischen Gruppierungen zu identifizieren.
 
 ## Report Suite-Tools
 
