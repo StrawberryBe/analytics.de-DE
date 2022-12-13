@@ -3,9 +3,9 @@ description: Über das Data-Governance-Dialogfeld in den Admin Tools können Sie
 title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -33,3 +33,5 @@ ht-degree: 100%
 | **[!UICONTROL Gruppen]** | Die Gruppierungsfunktionalität ist derzeit nicht implementiert. |
 | Linke Sidebar | Klicken Sie auf das Trichtersymbol, um die Sidebar zu öffnen oder zu schließen. Im Abschnitt [!UICONTROL Organisationszuordnung] wird die Anzahl der Report Suites angezeigt, die in jede der beschriebenen Kategorien fallen. Im Abschnitt [!UICONTROL Datenspeicherungsrichtlinie] wird jede einzelne Datenspeicherungsrichtlinie angezeigt, die derzeit für Ihre Organisation gilt, sowie die Anzahl der Report Suites, denen diese Speicherrichtlinie zugewiesen wurde. |
 | **[!UICONTROL In CSV exportieren]** | Wenn Sie das Kontrollkästchen neben einer oder mehreren Report Suites aktivieren, wird die Option „In CSV exportieren“ angezeigt. Mithilfe dieser Option können Sie eine CSV-Datei mit allen aktuellen Beschriftungsdefinitionen für sämtliche Variablen aller ausgewählten Report Suites herunterladen. Es wird empfohlen, dass Ihre Rechtsabteilung die Beschriftungseinstellungen überprüft. Diese Überprüfung wird mithilfe dieser Option vereinfacht. Statt die Überprüfung durchführen zu müssen, während Sie bei der Data-Governance-Benutzeroberfläche angemeldet sind, können Sie einfach die CSV-Datei weitergeben. |
+
+{style=&quot;table-layout:auto&quot;}
