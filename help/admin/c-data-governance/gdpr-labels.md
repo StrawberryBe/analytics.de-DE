@@ -3,10 +3,10 @@ description: Beispiele für Datenschutzbezeichnungen für Adobe Analytics-Variab
 title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
 workflow-type: tm+mt
-source-wordcount: '3672'
-ht-degree: 98%
+source-wordcount: '3685'
+ht-degree: 96%
 
 ---
 
@@ -144,7 +144,9 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
 | <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (Nicht-Merchandising-eVars)</li></ul> | Alle Beschriftungen | - |
 | Die meisten anderen Variablen  (*Siehe Tabelle unten mit Ausnahmen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
-## Variablen, bei denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen/geändert werden können {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+{style=&quot;table-layout:auto&quot;}
+
+## Variablen, denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen/geändert werden können {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -213,122 +215,47 @@ Die Adobe Analytics-Unterstützung für Datenschutz-Löschanfragen soll die Ausw
 
 Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. Die Liste ist nicht vollständig.
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variablen </th> 
-   <th colname="col2" class="entry"> Löschmethode </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* Traffic-Variablen (Props) </p> <p>* Commerce-Variablen (eVars) </p> </td> 
-   <td colname="col2"> <p>Der bestehende Wert wird durch einen neuen Wert der Form „Datenschutz-356396D55C4F9C7AB3FBB2F2FA223482“ ersetzt, wobei der 32-stellige Hexadezimalwert nach dem Präfix „Datenschutz-“ eine kryptografisch starke 128-Bit-Pseudozufallszahl ist. Da der Wert im Wesentlichen durch eine zufällige Zeichenfolge ersetzt wird, gibt es keine Möglichkeit, den ursprünglichen Wert aus diesem neuen Wert zu bestimmen, und keine Möglichkeit, den neuen Wert abzuleiten, wenn der ursprüngliche Wert bekannt ist. </p> <p>Wenn bei einer Variablen der ersetzte Wert auch in anderen Treffern auftritt, die im Rahmen derselben Datenschutzanfrage ebenfalls gelöscht werden, werden alle Instanzen dieses Werts durch den neuen Wert ersetzt. </p> <p>Wenn einige Instanzen eines Werts mit einer Löschanfrage ersetzt werden und im Rahmen einer späteren Anfrage andere (neue) Instanzen des ursprünglichen Werts gelöscht werden, unterscheidet sich der neue Ersatzwert vom ursprünglichen Ersatzwert. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Kauf-ID </p> </td> 
-   <td colname="col2"> <p>Der bestehende Wert wird durch einen neuen Wert der Form „G-7588FCD8642718EC50“ ersetzt, wobei der 18-stellige Hexadezimalwert nach dem Präfix „G-“ den ersten 18 Stellen einer kryptografisch starken 128-Bit-Pseudozufallszahl entspricht. Alle Kommentare, die sich auf das Löschen von Traffic- und Commerce-Variablen beziehen, gelten auch hier. </p> <p>Die Kauf-ID ist eine Transaktions-ID, die primär sicherstellen soll, dass ein Kauf nicht zweimal berechnet wird, z. B. wenn jemand die Bestätigungsseite aktualisiert. Die ID selbst kann den Kauf mit einer Zeile in Ihrer eigenen Datenbank verknüpfen, wo der Kauf aufgezeichnet wird. In den meisten Fällen ist es nicht notwendig, diese ID zu löschen, sodass sie standardmäßig nicht gelöscht wird. Wenn Sie nach der Datenschutz-Löschanfrage Ihrer eigenen Daten den Kauf noch an einen Benutzer binden können, müssen Sie dieses Feld möglicherweise löschen, damit die Analytics-Daten für diesen Besucher nicht an den Käufer gebunden werden können. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor ID </p> </td> 
-   <td colname="col2"> <p>Der Wert ist eine 128-Bit-Ganzzahl und wird durch einen kryptographisch starken 128-Bit-Pseudozufallswert ersetzt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* Benutzerspezifische Besucher-ID </p> <p>* IP-Adresse </p> <p>* IP-Adresse 2 </p> </td> 
-   <td colname="col2"> <p>Der Wert wird gelöscht (entweder durch eine leere Zeichenfolge oder „0“, je nach Variablentyp). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* ClickMap-Aktion (Legacy) </p> <p>* ClickMap-Kontext (Legacy) </p> <p>* Seite </p> <p>* Seiten-URL </p> <p>* URL der ursprünglichen Entrypage </p> <p>* Referrer </p> <p>* URL der Besuchsstartseite </p> </td> 
-   <td colname="col2"> <p>Die URL-Parameter werden gelöscht/entfernt. Wenn der Wert nicht wie eine URL aussieht, wird der Wert gelöscht (auf die leere Zeichenfolge gesetzt). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* Breitengrad </p> <p>* Längengrad </p> </td> 
-   <td colname="col2"> <p>Die Genauigkeit wird auf maximal einen Kilometer reduziert. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variablen | Löschmethode |
+| --- | --- |
+| <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (eVars)</li></ul> | Der bestehende Wert wird durch einen neuen Wert der Form „Datenschutz-356396D55C4F9C7AB3FBB2F2FA223482“ ersetzt, wobei der 32-stellige Hexadezimalwert nach dem Präfix „Datenschutz-“ eine kryptografisch starke 128-Bit-Pseudozufallszahl ist.<p>Da der Wert im Wesentlichen durch eine zufällige Zeichenfolge ersetzt wird, gibt es keine Möglichkeit, den ursprünglichen Wert aus diesem neuen Wert zu bestimmen, und keine Möglichkeit, den neuen Wert abzuleiten, wenn der ursprüngliche Wert bekannt ist.  Wenn bei einer Variablen der ersetzte Wert auch in anderen Treffern auftritt, die im Rahmen derselben Datenschutzanfrage ebenfalls gelöscht werden, werden alle Instanzen dieses Werts durch den neuen Wert ersetzt.<p>Wenn einige Instanzen eines Werts mit einer Löschanfrage ersetzt werden und im Rahmen einer späteren Anfrage andere (neue) Instanzen des ursprünglichen Werts gelöscht werden, unterscheidet sich der neue Ersatzwert vom ursprünglichen Ersatzwert. |
+| Kauf-ID | Der bestehende Wert wird durch einen neuen Wert der Form „G-7588FCD8642718EC50“ ersetzt, wobei der 18-stellige Hexadezimalwert nach dem Präfix „G-“ den ersten 18 Stellen einer kryptografisch starken 128-Bit-Pseudozufallszahl entspricht. Alle Kommentare, die sich auf das Löschen von Traffic- und Commerce-Variablen beziehen, gelten auch hier.<p>Die Kauf-ID ist eine Transaktions-ID, die primär sicherstellen soll, dass ein Kauf nicht zweimal berechnet wird, z. B. wenn jemand die Bestätigungsseite aktualisiert. Die ID selbst kann den Kauf mit einer Zeile in Ihrer eigenen Datenbank verknüpfen, wo der Kauf aufgezeichnet wird. In den meisten Fällen ist es nicht notwendig, diese ID zu löschen, sodass sie standardmäßig nicht gelöscht wird.<p>Wenn Sie nach der Datenschutz-Löschanfrage Ihrer eigenen Daten den Kauf noch an einen Benutzer binden können, müssen Sie dieses Feld möglicherweise löschen, damit die Analytics-Daten für diesen Besucher nicht an den Käufer gebunden werden können. |
+| Visitor ID | Der Wert ist eine 128-Bit-Ganzzahl und wird durch einen kryptographisch starken 128-Bit-Pseudozufallswert ersetzt. |
+| <ul><li>MCID</li><li>Benutzerspezifische Besucher-ID</li><li>IP-Adresse</li><li>IP-Adresse 2 | Der Wert wird gelöscht (entweder durch eine leere Zeichenfolge oder „0“, je nach Variablentyp). |
+| <ul><li>ClickMap-Aktion (Legacy)</li><li>ClickMap-Kontext (Legacy)</li><li>Seite</li><li>Seiten-URL</li><li>URL der ursprünglichen Entrypage</li><li>Referrer</li><li>URL der Besuchsstartseite</li></ul> | Die URL-Parameter werden gelöscht/entfernt. Wenn der Wert nicht wie eine URL aussieht, wird der Wert gelöscht (auf die leere Zeichenfolge gesetzt). |
+| <ul><li>Breitengrad</li><li>Längengrad</li></ul> | Die Genauigkeit wird auf maximal einen Kilometer reduziert. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Variablen, die die erwarteten Löschbeschriftungen nicht unterstützen {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung nicht unterstützen. Manchmal werden diese Variablen von anderen Personen als Analytics-Benutzern (z. B. von der Rechtsabteilung) gelöscht, die den in der Variablen enthaltenen Datentyp nicht kennen und deshalb anhand des Variablennamens von einem falschen Typ ausgehen. Im Folgenden finden Sie eine Liste dieser Variablen und erfahren, warum sie keine Löschung erfordern bzw. warum sie nicht über eine spezifische Löschbeschriftung verfügen.
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Kommentare </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Neue Besucher-ID </p> </td> 
-   <td colname="col2"> <p>„Neue Besucher-ID“ ist ein boolescher Wert, der beim ersten Auftritt der entsprechenden Besucher-ID „true“ lautet. Sie müssen den Wert nicht löschen, nachdem die Besucher-ID anonymisiert wurde. Nach der Anonymisierung entspricht der Wert dem ersten Auftritt der anonymisierten ID. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Postleitzahl </p> <p>Geo-Postleitzahl </p> </td> 
-   <td colname="col2"> <p>Postleitzahlen werden nur für Hits aus den USA festgelegt. Für Hits aus der EU werden sie nicht verwendet. Selbst wenn sie festgelegt werden, beschreiben sie nur einen breiten geografischen Bereich, der die Identifizierung der betroffenen Person schwierig gestaltet. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Geo-Breitengrad </p> <p>Geo-Längengrad </p> </td> 
-   <td colname="col2"> <p>Diese bieten einen ungefähren Standort, der aus der IP-Adresse abgeleitet wird. Die Genauigkeit ist im Allgemeinen ähnlich wie bei einer Postleitzahl, also einige Dutzend Kilometer vom tatsächlichen Standort. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Benutzeragent </p> </td> 
-   <td colname="col2"> <p>Der User Agent identifiziert die Version des verwendeten Browsers. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Benutzer-ID </p> </td> 
-   <td colname="col2"> <p> Gibt die Analytics Report Suite (als Nummer) an, die die Daten enthält. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report Suite-ID </p> </td> 
-   <td colname="col2"> <p> Gibt den Namen der Analytics Report Suite an, die die Daten enthält. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Besucher-ID </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Zahlen der Unique Visitors im Verlaufsbericht. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO-ID </p> </td> 
-   <td colname="col2"> <p> Bei der Adobe Advertising Cloud-ID handelt es sich um eine Lösungsvariable, die über eine nicht veränderbare DEL-DEVICE-Beschriftung verfügt. Sie wird über ein Cookie festgelegt, genau wie die Besucher-ID und die MCID. Sie sollte aus Hits gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Informationen finden Sie in den Beschreibungen der entsprechenden Variablen. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variable | Kommentare |
+| --- | --- |
+| Neue Besucher-ID | „Neue Besucher-ID“ ist ein boolescher Wert, der beim ersten Auftritt der entsprechenden Besucher-ID „true“ lautet. Sie müssen den Wert nicht löschen, nachdem die Besucher-ID anonymisiert wurde. Nach der Anonymisierung entspricht der Wert dem ersten Auftritt der anonymisierten ID. |
+| Postleitzahl<p>Geo-Postleitzahl | Postleitzahlen werden nur für Hits aus den USA festgelegt. Für Hits aus der EU werden sie nicht verwendet. Selbst wenn sie festgelegt werden, beschreiben sie nur einen breiten geografischen Bereich, der die Identifizierung der betroffenen Person schwierig gestaltet. |
+| Geo-Breitengrad<p>Geo-Längengrad | Diese bieten einen ungefähren Standort, der aus der IP-Adresse abgeleitet wird. Die Genauigkeit ist im Allgemeinen ähnlich wie bei einer Postleitzahl, also einige Dutzend Kilometer vom tatsächlichen Standort. |
+| Benutzeragent | Der User Agent identifiziert die Version des verwendeten Browsers. |
+| Benutzer-ID | Gibt die Analytics Report Suite (als Nummer) an, die die Daten enthält. |
+| Report Suite-ID | Gibt den Namen der Analytics Report Suite an, die die Daten enthält. |
+| Besucher-ID<p>MCID/ECID | Diese IDs haben eine DEL-DEVICE-Beschriftung, aber die DEL-PERSON-Beschriftung kann nicht hinzugefügt werden. Wenn Sie [!UICONTROL ID-Erweiterung] bei jeder Anfrage werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden.<p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Zahlen der Unique Visitors im Verlaufsbericht. |
+| AMO-ID | Die Adobe Advertising Cloud ID ist eine Lösungsvariable, die nicht geändert werden kann. [!UICONTROL DEL-DEVICE] Beschriftung. Sie wird über ein Cookie festgelegt, genau wie die Besucher-ID und die MCID. Sie sollte aus Hits gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Informationen finden Sie in den Beschreibungen der entsprechenden Variablen. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Datumsfelder für Zugriffsanfragen {#access-requests}
 
 Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Zeitstempel </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Hit Time UTC </p> </td> 
-   <td colname="col2"> <p>Der Zeitpunkt, zu dem der Treffer von Adobe Analytics empfangen wurde. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Custom Hit Time UTC </p> </td> 
-   <td colname="col2"> <p>Der Zeitpunkt, zu dem der Treffer stattgefunden hat, der bei einigen mobilen Apps und anderen Implementierungen vor dem Zeitpunkt liegen kann, zu dem der Treffer empfangen wurde. Wenn beispielsweise eine Netzwerkverbindung zum Zeitpunkt des Auftretens nicht verfügbar war, kann die App den Treffer halten und übermitteln, wenn eine Verbindung verfügbar wird. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Date Time </p> </td> 
-   <td colname="col2"> <p>Derselbe Wert wie „Custom Hit Time UTC“, jedoch in der Zeitzone der Report Suite und nicht in GMT.</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First Hit Time GMT </p> </td> 
-   <td colname="col2"> <p>Der „Custom Hit Time UTC“-Wert für den ersten Treffer, der für den Besucher-ID-Wert für diesen Treffer empfangen wurde. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visit Start Time UTC </p> </td> 
-   <td colname="col2"> <p>Der „Custom Hit Time UTC“-Wert für den ersten Treffer, der für den aktuellen Besuch für diese Besucher-ID empfangen wurde.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Zeitstempel | Definition |
+| --- | --- |
+| Hit Time UTC | Der Zeitpunkt, zu dem der Treffer von Adobe Analytics empfangen wurde. |
+| Custom Hit Time UTC | Der Zeitpunkt, zu dem der Treffer stattgefunden hat, der bei einigen mobilen Apps und anderen Implementierungen vor dem Zeitpunkt liegen kann, zu dem der Treffer empfangen wurde. Wenn beispielsweise eine Netzwerkverbindung zum Zeitpunkt des Auftretens nicht verfügbar war, kann die App den Treffer halten und übermitteln, wenn eine Verbindung verfügbar wird. |
+| Date Time | Derselbe Wert wie „Custom Hit Time UTC“, jedoch in der Zeitzone der Report Suite und nicht in GMT. |
+| First Hit Time GMT | Der „Custom Hit Time UTC“-Wert für den ersten Treffer, der für den Besucher-ID-Wert für diesen Treffer empfangen wurde. |
+| Visit Start Time UTC | Der „Custom Hit Time UTC“-Wert für den ersten Treffer, der für den aktuellen Besuch für diese Besucher-ID empfangen wurde. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Für den Code zur Generierung der für Datenschutz-Zugriffsanfragen zurückgegebenen Dateien ist es erforderlich, dass mindestens eine der ersten drei Zeitstempelvariablen in die Zugriffsanfrage aufgenommen wird (mit einer ACC-Beschriftung, die für die Art der Anforderung gilt). Wenn keine davon enthalten ist, wird „Custom Hit Time UTC“ so behandelt, als hätte es eine „ACC-ALL“-Beschriftung.
 
