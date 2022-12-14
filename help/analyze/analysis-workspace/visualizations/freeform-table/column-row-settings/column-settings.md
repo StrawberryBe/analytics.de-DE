@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,23 @@ Mithilfe der [!UICONTROL Spalteneinstellungen] können Sie die Spaltenformatieru
 
 ## [!UICONTROL Spalteneinstellungen] bearbeiten {#edit-column-settings}
 
-Um die [!UICONTROL Spalteneinstellungen] aufzurufen, ziehen Sie eine Freiformtabelle in das Projekt und klicken Sie dann auf das Zahnrad-Symbol in der Spaltenüberschrift.
+Sie können Spalteneinstellungen für eine einzelne Spalte oder für mehrere Spalten gleichzeitig bearbeiten.
 
-![](assets/column_settings.png)
+1. Ziehen Sie in Analysis Workspace eine Freiformtabelle in Ihr Projekt.
 
-Sie können Einstellungen **für mehrere Spalten gleichzeitig** bearbeiten. Wählen Sie hierzu einfach mehrere Spalten aus und klicken Sie in einer der Spalten auf das Einstellungs-Symbol. Sämtliche Änderungen, die Sie hier vornehmen, werden auf die markierten Zellen aller Spalten angewendet.
+1. (Bedingt) Wenn Sie mehrere Spalten gleichzeitig bearbeiten möchten, wählen Sie jede Spalte aus, die Sie bearbeiten möchten, während Sie die Umschalttaste gedrückt halten.
+
+1. Bewegen Sie den Mauszeiger über die Spalte, die Sie bearbeiten möchten, und wählen Sie dann das Zahnradsymbol aus.
+
+   Wenn Sie mehrere Spalten ausgewählt haben, klicken Sie auf das Zahnradsymbol für eine der ausgewählten Spalten. Alle Änderungen, die Sie vornehmen, gelten für alle ausgewählten Spalten.
+
+   ![](assets/column_settings.png)
+
+1. Fahren Sie mit [Spalteneinstellungen](#column-settings).
+
+## Spalteneinstellungen
+
+Die folgenden Spalteneinstellungen sind beim Bearbeiten von Spalten in Analysis Workspace verfügbar:
 
 | Element | Beschreibung |
 | --- | --- |
