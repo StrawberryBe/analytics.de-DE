@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Allgemeine Voreinstellungen gelten für Ihr Adobe Analytics-Erlebnis im Browser.
 
 | Einstellung | Optionen |
 | --- | --- |
-| Landing page | <ul><li>Projektliste (Standard)</li><li>Leeres Projekt</li><li>Spezifisches Projekt   ausgewählt aus einer Liste</li></ul> |
+| Landingpage | <ul><li>Projektliste (Standard)</li><li>Leeres Projekt</li><li>Spezifisches Projekt   ausgewählt aus einer Liste</li></ul> |
 | Tipps | <ul><li>Aktiviert (Standard)</li><li>Deaktiviert</li></ul> |
 
 ## Projekteinstellungen
