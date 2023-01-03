@@ -5,9 +5,9 @@ user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 + [Administratorhandbuch für Analytics](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
-+ Erste Schritte mit der Analytics-Verwaltung {#admin-overview}
++ Erste Schritte mit der Analytics-Administration {#admin-overview}
    + [Welches Adobe Analytics-Tool sollte ich verwenden?](get-started/which-analytics-tool.md)
    + [Analytics – Produktvergleich und Voraussetzungen](get-started/analytics-product-comparison.md)
    + [Systemanforderungen](get-started/sys-reqs.md)
@@ -32,7 +32,7 @@ ht-degree: 95%
       + [Sicherheits-Manager](get-started/company/security-manager.md)
 + Benutzerberechtigungen in der Adobe Admin Console {#admin-console}
    + [Analytics in der Adobe Admin Console](admin-console/home.md)
-   + [Erste Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Erstes Adobe Analytics-Handbuch für Admins](admin-console/first-admin-guide.md)
    + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Zugriffsberechtigung {#permissions}
       + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
@@ -47,7 +47,7 @@ ht-degree: 95%
          + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [Deaktivieren von veralteten Anmeldedaten](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [Von der Migration betroffene APIs](admin-console/user-management2/user-migration/developer.md)
-+ Analytics-Administrator {#admin-tools}
++ Analytics-Admin {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Abrechnung](admin/billing-admin.md)
    + [Code-Manager](admin/code-manager-admin.md)
@@ -62,7 +62,7 @@ ht-degree: 95%
    + [Reporting Activity Manager](admin/reporting-activity.md)
    + [Warteschlange für terminierte Berichte](admin/scheduled-reports-admin.md)
    + Report Suite Manager {#manage-report-suites}
-      + [Report Suites verwalten](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Verwalten von Report Suites](admin/c-manage-report-suites/report-suites-admin.md)
       + [Datenaggregations-Report Suites und globale Report Suites](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Speichern einer Report Suite-Suche](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Herunterladen von Report Suite-Einstellungen](admin/c-manage-report-suites/t-download-rs-settings.md)
@@ -82,7 +82,7 @@ ht-degree: 95%
          + [Job-Portal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
          + [Lead-Generierung](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [Unterstützungsmedien](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
-      + Einstellungen einer Report Suite bearbeiten {#edit-report-suite}
+      + Bearbeiten der Einstellungen einer Report Suite {#edit-report-suite}
          + Allgemein {#report-suite-general}
             + [Allgemeine Kontoeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Interne URL-Filter](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
