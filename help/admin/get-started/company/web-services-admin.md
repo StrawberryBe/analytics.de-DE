@@ -4,9 +4,9 @@ title: Web-Services
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Die Web Services APIs bieten Programmierungszugriff auf Marketing-Berichte und a
 
 Sie können in der [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) den Benutzern Berechtigungen erteilen, die Zugriff auf die Webservices-APIs benötigen.
 
-## WSDL: Web-Services-API-WSDL für Web-Services-Entwickler herunterladen
+## WSDL: Laden Sie die WSDL der Web-Services-API für Entwickler von Web-Services herunter.
 
-Besuch [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), der Dokumentation, Beispielcode und Foren im Zusammenhang mit den Web-Services-APIs bereitstellt. Weitere Informationen finden Sie unter „Übersicht über Web-Services-APIs“.
+Besuchen Sie [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), wo Sie Dokumentation, Beispiel-Code und Foren zu den Web-Services-APIs finden. Weitere Informationen finden Sie unter „Übersicht über Web-Services-APIs“.
 
 ## Filteroptionen
 
