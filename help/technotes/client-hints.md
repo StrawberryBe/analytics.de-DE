@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 88%
+source-wordcount: '1133'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 >[!NOTE]
 >
->Die Client-Hinweise werden ab Mitte Januar 2023 in den Prozess der Analytics-Gerätesuche integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Januar nicht für die Gerätesuche verwendet. Damit soll eine mögliche Unterbrechung des Reportings während der kritischen Zeit zum Jahresende vermieden werden. Wie unten erwähnt, wird die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass die meisten Benutzeragenten auf die korrekte Betriebssystemversion eingefroren werden, schätzen wir, dass dies weniger als 3 % der Besuchenden mit Chrome betreffen wird.
+>Client-Hinweise werden ab dem 25. Januar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Januar nicht für die Gerätesuche verwendet. Damit soll eine mögliche Unterbrechung des Reportings während der kritischen Zeit zum Jahresende vermieden werden. Wie unten erwähnt, wird die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass die meisten Benutzeragenten auf die korrekte Betriebssystemversion eingefroren werden, schätzen wir, dass dies weniger als 3 % der Besuchenden mit Chrome betreffen wird.
 
 >[!NOTE]
 >
@@ -82,9 +82,9 @@ Die für das Reporting verfügbaren Gerätefelder ändern sich nicht. Die in die
 Diese Felder werden direkt vom Benutzeragenten abgeleitet, aber der Benutzeragent kann abhängig von den Gerätedetails zur Ableitung von Werten für andere gerätebezogene Felder verwendet werden.
 
 * [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
-* [Browser-Typ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Browser-Typ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=de)
 * [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [Betriebssystemtypen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Betriebssystemtypen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=de)
 * [Mobilgerät und Mobilgerätetyp](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
@@ -149,6 +149,6 @@ Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/
 
 +++**Unterstützt die Server-seitige Weiterleitung an AAM Client-Hinweise?**
 
-Ja. Client-Hinweise werden in den an AAM weitergeleiteten Daten enthalten sein. Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
+Ja. Client-Hinweise werden in den an AAM weitergeleiteten Daten enthalten sein. Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
 
 +++
