@@ -3,13 +3,11 @@ description: Erfahren Sie, wie Sie Projekte aus Ordnern entfernen
 keywords: Analysis Workspace
 title: Entfernen von Projekten aus Ordnern
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 89%
 
 ---
 
@@ -19,13 +17,11 @@ Um ein Projekt aus einem Ordner zu entfernen, können Sie das Projekt an einen a
 
 >[!NOTE]
 >
->Diese Funktion befindet sich derzeit in der Betaversion. Einige Bildschirme können sich ändern.
-
->[!NOTE]
->
 >Wenn ein Administrator bzw. eine Administratorin ein Projekt in den Unternehmensordner verschiebt, wird der Ordner für alle freigegeben, selbst wenn die ursprünglichen Freigabeberechtigungen eingeschränkt waren. Wenn ein Admin ein Projekt aus dem Firmenordner verschiebt, bleiben die ursprünglichen oder früheren Freigabeberechtigungen erhalten.
 
-## Verschieben eines Projekts
+## Verschieben eines Projekts {#move-project-in-folder}
+
+Sie können Projekte aus einem Ordner in einen anderen Ordner verschieben, den Sie erstellt haben.
 
 1. Klicken Sie in einem Projektordner auf die Auslassungspunkte **...** neben dem Projektnamen.
 
@@ -43,7 +39,7 @@ Um ein Projekt aus einem Ordner zu entfernen, können Sie das Projekt an einen a
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Löschen eines Projekts aus einem Projektordner
+## Löschen eines Projekts aus einem Projektordner {#delete-project-in-folder}
 
 Wenn Sie ein Projekt aus einem Ordner löschen, wird das Projekt vollständig gelöscht.
 
