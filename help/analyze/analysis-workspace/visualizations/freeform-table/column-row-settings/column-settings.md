@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,9 @@ Sie können Spalteneinstellungen für eine einzelne Spalte oder für mehrere Spa
 
 ## Spalteneinstellungen
 
-Die folgenden Spalteneinstellungen sind beim Bearbeiten von Spalten in Analysis Workspace verfügbar:
+Sie können die folgenden Spalteneinstellungen für einzelne Tabellen in Analysis Workspace aktualisieren, wie unter [Spalteneinstellungen bearbeiten](#edit-uicontrol-column-settings).
+
+Einige dieser Einstellungen können auch für alle neuen Projekte verwaltet werden, die Sie in Analysis Workspace erstellen, wie unter [Benutzereinstellungen](/help/analyze/analysis-workspace/user-preferences.md)
 
 | Element | Beschreibung |
 | --- | --- |

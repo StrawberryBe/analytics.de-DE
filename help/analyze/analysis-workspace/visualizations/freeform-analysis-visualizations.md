@@ -5,10 +5,10 @@ title: Visualisierungsübersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 91%
 
 ---
 
@@ -43,9 +43,25 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Verwendet Kreise zur Darstellung der Metriküberschneidung von bis zu drei Segmenten. |
 
-## Einstellungen {#settings}
+## Visualisierungseinstellungen anpassen
 
-Jede Visualisierung verfügt über eigene Einstellungen, die Sie verwalten können. Um auf [!UICONTROL Visualisierungseinstellungen] zuzugreifen, klicken Sie auf das Zahnradsymbol [!UICONTROL Visualisierungseinstellungen].
+Sie können Visualisierungseinstellungen für eine individuelle Visualisierung oder für alle von Ihnen erstellten Visualisierungen anpassen.
+
+### Visualisierungseinstellungen für eine einzelne Visualisierung anpassen
+
+So greifen Sie auf [!UICONTROL Visualisierungseinstellungen] für eine individuelle Visualisierung:
+
+1. Bewegen Sie in Analysis Workspace den Mauszeiger über die Visualisierung, deren Einstellungen Sie anpassen möchten.
+
+1. Klicken Sie auf das Zahnradsymbol.
+
+   Jeder Visualisierungstyp verfügt über eindeutige Einstellungen, die Sie anpassen können. Informationen zu den verfügbaren Einstellungen finden Sie unter [Einstellungen](#settings).
+
+### Visualisierungseinstellungen für alle erstellten Visualisierungen anpassen
+
+Sie können die Einstellungen für alle erstellten Visualisierungen anpassen. Weitere Informationen finden Sie unter [Benutzereinstellungen](/help/analyze/analysis-workspace/user-preferences.md).
+
+## Einstellungen  {#settings}
 
 ![](assets/settings.png)
 
