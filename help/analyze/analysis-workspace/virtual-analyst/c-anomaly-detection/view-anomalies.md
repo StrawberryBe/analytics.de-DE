@@ -4,10 +4,10 @@ title: Anomalien in Analysis Workspace anzeigen
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 16%
+source-wordcount: '469'
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,11 @@ Sie können Anomalien in einer Freiformtabelle für Zeitreihen anzeigen.
 
 1. Wählen Sie das Symbol für die Spalteneinstellungen in der Spaltenüberschrift aus und stellen Sie sicher, dass die [!UICONTROL **Anomalien**] in der Optionsliste ausgewählt ist. Weitere Informationen finden Sie unter [Spalteneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. Die Tabelle zeigt Anomalien wie folgt:
+1. Klicken Sie im Einstellungsmenü weg, um die aktualisierte Tabelle anzuzeigen.
 
    ![](assets/anomaly_detected.png)
+
+1. Die Tabelle zeigt Anomalien wie folgt:
 
    A **dunkelgraues Dreieck** in der oberen rechten Ecke jeder Zeile angezeigt, in der eine Datenanomalie erkannt wird.
 
