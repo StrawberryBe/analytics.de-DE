@@ -4,7 +4,7 @@ description: Sie können allgemeine Voreinstellungen und Projekteinstellungen f�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 23d2297440e25ab519751d690552c61f6e32133c
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 48%
@@ -43,7 +43,7 @@ Sie können allgemeine Voreinstellungen für alle neuen Projekte anpassen, die S
 | --- | --- |
 | Landingpage | Wählen Sie aus, welche Seite beim Zugriff auf Adobe Analytics als Standardseite angezeigt wird: <ul><li>Projektliste (Standard)</li><li>Leeres Projekt</li><li>Spezifisches Projekt   ausgewählt aus einer Liste</li></ul> |
 | Tipps anzeigen | Zeigt Tipps in einem blauen Feld im rechten unteren Bereich von Analysis Workspace an. <p>Standardmäßig ist diese Option aktiviert.</p> |
-| <span class="preview">Komponenten, die in Gruppen auf der linken Leiste angezeigt werden</span> | Wählen Sie in der linken Leiste aus, wie viele Komponenten im Menü Komponenten angezeigt werden sollen. <p>Wenn Sie &quot;0&quot;auswählen, ist die Komponente nicht mehr über die linke Leiste Ihrer Arbeitsbereiche zugänglich.</p><p>Standardmäßig werden für jede der folgenden Komponenten fünf Komponenten angezeigt:</p> <ul><li>Dimensionen</li><li>Metriken</li><li>Filter</li><li>Datumsbereiche</li></ul> <p>Weitere Informationen zu Komponenten in Analysis Workspace finden Sie unter [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+| Komponenten, die in Gruppen auf der linken Leiste angezeigt werden | Wählen Sie in der linken Leiste aus, wie viele Komponenten im Menü Komponenten angezeigt werden sollen. <p>Wenn Sie &quot;0&quot;auswählen, ist die Komponente nicht mehr über die linke Leiste Ihrer Arbeitsbereiche zugänglich.</p><p>Standardmäßig werden für jede der folgenden Komponenten fünf Komponenten angezeigt:</p> <ul><li>Dimensionen</li><li>Metriken</li><li>Filter</li><li>Datumsbereiche</li></ul> <p>Weitere Informationen zu Komponenten in Analysis Workspace finden Sie unter [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
 ## Projekteinstellungen
 
@@ -57,7 +57,7 @@ Klicken Sie auf die verknüpften Präferenztitel, um weitere Informationen und d
 | --- | --- | --- |
 | **Anzeigen** |  |  |
 |  | [Dichte anzeigen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=de) | Wählen Sie aus, wie viel Inhalt auf dem Bildschirm angezeigt werden soll, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren. <ul><li>Kompakt</li><li>Komfortabel</li><li>Erweitert (Standard)</li></ul> |
-|  | [Farbpalette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=de) | Wählen Sie die in Analysis Workspace verwendete Visualisierungsfarbpalette aus. <ul><li>Adobe-Paletten (Standard)</li><li><span class="preview">Bedingte Formatierungspalette </span></li><li><span class="preview">Nach-oben-/Nach-unten-Palette (divergierend)</span><li>Benutzerdefinierte Paletten</li></ul> |
+|  | [Farbpalette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=de) | Wählen Sie die in Analysis Workspace verwendete Visualisierungsfarbpalette aus. <ul><li>Adobe-Paletten (Standard)</li><li>Bedingte Formatierungspalette </li><li>Nach-oben-/Nach-unten-Palette (divergierend)<li>Benutzerdefinierte Paletten</li></ul> |
 | **Daten** |  |  |
 |  | [Report Suite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#report-suite) | Wählen Sie aus, von wo aus Tabellen und Visualisierungen ihre Daten ableiten. <ul><li>Zuletzt verwendet (Standard)</li><li>Spezifische Report Suite, die aus einer Liste ausgewählt wurde</li></ul> |
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#calendar) | Wählen Sie aus einer Liste, die Folgendes enthält: <ul><li>Von Adobe bereitgestellte Bereiche (Standard ist „Diesen Monat“)</li><li>Benutzerdefinierte Bereiche</li></ul> |
