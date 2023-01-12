@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 96%
 
 ---
@@ -234,7 +234,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`video`** | Videoinhalt | varchar(255) |
 | **`videoad`** | Name der Videoanzeige | varchar(255) |
 | **`videoadinpod`** | Videoanzeigenposition innerhalb der Werbeunterbrechung | varchar(255) |
-| **`videoadlength`** | Länge der Videoanzeige | varchar(255) |
+| **`videoadlength`** | Länge der Videoanzeige | Ganzzahl |
 | **`videoadload`** | Ladeaufforderungen der Videoanzeige | varchar(255) |
 | **`videoadname`** | Name der Videoanzeige | varchar(255) |
 | **`videoadplayername`** | Name des Videoanzeigen-Players | varchar(255) |
@@ -254,12 +254,13 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`videoepisode`** | Videoepisode | varchar(255) |
 | **`videofeedtype`** | Video-Feed-Typ | varchar(255) |
 | **`videogenre`** | Video-Genre | text |
-| **`videolength`** | Videolänge | varchar(255) |
+| **`videolength`** | Videolänge | Ganzzahl |
 | **`videomvpd`** | Video-MVPD | varchar(255) |
 | **`videoname`** | Videoname | varchar(255) |
 | **`videonetwork`** | Videonetzwerk | varchar(255) |
 | **`videopath`** | Videopfad | varchar(100) |
 | **`videoplayername`** | Name des Videoplayers | varchar(255) |
+| **`videotime`** | Videodauer | Ganzzahl |
 | **`videoqoebitrateaverageevar`** | Videoqualität – Durchschnittliche Bitrate | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Videoqualität – Anzahl Änderungen | varchar(255) |
 | **`videoqoebuffercountevar`** | Videoqualität – Anzahl Puffer | varchar(255) |
