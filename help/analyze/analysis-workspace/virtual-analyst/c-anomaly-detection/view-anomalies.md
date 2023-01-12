@@ -4,10 +4,10 @@ title: Anomalien in Analysis Workspace anzeigen
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 15%
+source-wordcount: '467'
+ht-degree: 16%
 
 ---
 
@@ -59,7 +59,7 @@ So zeigen Sie Anomalien in einem Liniendiagramm an:
 
    Die **gepunktete Linie** ist der genaue erwartete Wert.
 
-1. Klicken Sie auf einen weißen Punkt, um die folgenden Informationen zur Anomalie anzuzeigen:
+1. Klicken Sie auf eine Anomalie (weißer Punkt), um die folgenden Informationen anzuzeigen:
 
    * Das Datum, an dem die Anomalie aufgetreten ist
 
