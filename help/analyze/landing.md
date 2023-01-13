@@ -4,10 +4,10 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 82%
+source-wordcount: '3727'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,18 @@ Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] al
 | Symbol „Tabelle anpassen“ | Auswahl der Spalten, die in der Tabelle angezeigt werden sollen. Um Spalten aus der Projektliste hinzuzufügen oder daraus zu entfernen, klicken Sie auf das Spaltensymbol (![Landing all](/help/analyze/assets/select-column.png) ) oben rechts klicken und dann Spaltentitel auswählen oder deaktivieren. |
 | SHOW: Ordner und Projekte oder Alle Projekte | Ändert die Anzeigeeinstellung auf der Tabelle, sodass Ordner und Projekte entsprechend Ihrer Ordnerorganisation angezeigt werden **oder** alle Projekte in einer unorganisierten Liste anzeigen. |
 | &lt; (Schaltfläche „Zurück“) | Gibt Sie zur neuesten Landingpage-Konfiguration in einem Workspace-Projekt oder einem Bericht zurück. Die Seitenkonfiguration, die Sie beim Verlassen der Landingpage vorgenommen haben, bleibt bestehen, wenn Sie zurückkehren. |
+
+### Veraltete Seite des Projekt-Managers {#deprecate-pm-page}
+
+Mit der Veröffentlichung der neuen Landingpage haben wir den Projekt-Manager eingestellt, der unter dem Komponenten-Manager aufgeführt ist. Die neue Landingpage verarbeitet alle Funktionen der alten Seite &quot;Projektmanager&quot;und mehr.
+
+Ein gängiger Anwendungsfall für die Seite &quot;Projektmanager&quot;war die Ansicht aller Ihrer Projekte. Um mithilfe der Filterleiste alle Ihre Projekte auf der neuen Landingpage anzuzeigen, wählen Sie **SONSTIGE FILTER** und wählen Sie **Alle anzeigen**.
+
+![Sonstige Filter](assets/other-filters.png)
+
+Wenn Sie sich in der Ansicht &quot;Ordner &amp; Projekte&quot;befinden, wird ein modales Popup angezeigt, in dem Sie gefragt werden, ob Sie zur Ansicht &quot;Alle Projekte&quot;wechseln möchten. Dies erleichtert die Anzeige aller Ihrer Projekte außerhalb der Ordner, in denen sie möglicherweise organisiert sind.   Auswählen **Zur Ansicht &quot;Alle Projekte&quot;wechseln** , um alle Projekte, auf die Sie Zugriff haben, besser anzuzeigen.
+
+![Alle Projekte wechseln](assets/switch-all-projects-view.png)
 
 ## Navigieren durch die Registerkarte [!UICONTROL Berichte] {#navigate-reports}
 
