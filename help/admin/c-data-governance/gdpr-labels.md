@@ -3,16 +3,16 @@ description: Beispiele für Datenschutzbezeichnungen für Adobe Analytics-Variab
 title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3685'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Datenschutzbezeichnungen für Analytics-Variablen
 
-## Grund der Datenbeschriftung {#why-label}
+## Warum Ihre Daten beschriften? {#why-label}
 
 Viele Adobe-Kunden verfügen über juristische Teams, die die Datenschutzgesetze (DSGVO, CCPA usw.) geprüft haben. Diese Teams haben möglicherweise ihre eigenen Schlussfolgerungen bezüglich des Umgangs mit Daten gezogen, um Datenschutzgesetze einzuhalten. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Um diesen unterschiedlichen Vorstellungen bei der Datenverarbeitung unter Einhaltung des Datenschutzes und den verschiedenen Datensätzen beizukommen, können Datenverantwortliche die Einstellungen für die Datenverarbeitung unter Einhaltung des Datenschutzes ihrer individuellen Daten nach eigenen Wünschen anpassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
 
@@ -39,7 +39,7 @@ Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu
 
 {style=&quot;table-layout:auto&quot;}
 
-## Kennzeichnungen für vertrauliche Daten (DULE) {#sensitive-data-labels}
+## Beschriftungen für vertrauliche Daten (DULE) {#sensitive-data-labels}
 
 Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenbeschriftungen eingeführt, um andere Arten vertraulicher Informationen zu identifizieren.
 
@@ -50,7 +50,7 @@ Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertra
 
 {style=&quot;table-layout:auto&quot;}
 
-## Data Governance-Beschriftungen (Datenschutz) {#data-governance-labels}
+## Data Governance-Beschriftungen (Datenschutz) {#data-governance-labels}
 
 Über Data Governance-Beschriftungen können Benutzer Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten.
 
@@ -89,7 +89,7 @@ Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der di
 
 {style=&quot;table-layout:auto&quot;}
 
-## Bereitstellen eines Namespace beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON {#provide-namespace}
 
 Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren.
 
@@ -102,7 +102,7 @@ Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmel
 
 ![](assets/namespace.png)
 
-### Definieren eines neuen Namespace
+### Neuen Namespace definieren
 
 Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-Zeichenfolgen auf alphanumerische Zeichen sowie Unterstriche, Bindestriche und Leerzeichen zu beschränken. Alle Zeichen werden in Kleinschreibung konvertiert.
 
@@ -146,7 +146,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variablen, bei denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen/geändert werden können {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variablen, bei denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen/geändert werden können {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -202,14 +202,14 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
    <td colname="col4"> <p>Sie können die DEL-Beschriftung zwar nicht ändern, Sie können sie jedoch zu DEL-DEVICE oder DEL-PERSON oder beidem ändern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap-Aktion (Legacy), </p> <p>ClickMap-Kontext (Legacy), </p> <p>Seite, </p> <p>Seiten-URL, </p> <p>URL der ursprünglichen Entrypage, </p> <p>Verweisende Stelle, </p> <p>URL der Besuchsstartseite </p> </td> 
+   <td colname="col2"> <p>ClickMap-Aktion (Legacy), </p> <p>ClickMap-Kontext (Legacy), </p> <p>Seite, </p> <p>Seiten-URL, </p> <p>URL der ursprünglichen Entrypage, </p> <p>Verweisende Stelle, </p> <p>Besuchen der Startseiten-URL </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Variablen können URL-Parameter enthalten, die möglicherweise direkt oder indirekt identifizierbare Daten beinhalten. Wenn Ihre Implementierung keine direkt oder indirekt identifizierbaren Daten in diesen Variablen erfasst, benötigen sie keine Identitäts- oder Löschbeschriftungen. </p> <p>Hinweis: Beim Löschen werden die URL-Parameter entfernt, aber die Basis-URL wird beibehalten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Löschverarbeitung {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Löschverarbeitung {#deletion}
 
 Die Adobe Analytics-Unterstützung für Datenschutz-Löschanfragen soll die Auswirkungen auf das Reporting minimieren. In den meisten Fällen sollten sich die in Berichten angezeigten Metriken nicht ändern. Ein Verlaufsbericht, der vor der Datenschutzlöschung ausgeführt wurde, stimmt mit dem Bericht nach der Löschung überein. Dies wird erreicht, indem die gelöschten Daten vollständig von der betroffenen Person getrennt werden, während nicht identifizierbare Daten beibehalten werden, damit die angezeigten Werte gleich bleiben.
 
@@ -221,12 +221,12 @@ Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. D
 | Kauf-ID | Der bestehende Wert wird durch einen neuen Wert der Form „G-7588FCD8642718EC50“ ersetzt, wobei der 18-stellige Hexadezimalwert nach dem Präfix „G-“ den ersten 18 Stellen einer kryptografisch starken 128-Bit-Pseudozufallszahl entspricht. Alle Kommentare, die sich auf das Löschen von Traffic- und Commerce-Variablen beziehen, gelten auch hier.<p>Die Kauf-ID ist eine Transaktions-ID, die primär sicherstellen soll, dass ein Kauf nicht zweimal berechnet wird, z. B. wenn jemand die Bestätigungsseite aktualisiert. Die ID selbst kann den Kauf mit einer Zeile in Ihrer eigenen Datenbank verknüpfen, wo der Kauf aufgezeichnet wird. In den meisten Fällen ist es nicht notwendig, diese ID zu löschen, sodass sie standardmäßig nicht gelöscht wird.<p>Wenn Sie nach der Datenschutz-Löschanfrage Ihrer eigenen Daten den Kauf noch an einen Benutzer binden können, müssen Sie dieses Feld möglicherweise löschen, damit die Analytics-Daten für diesen Besucher nicht an den Käufer gebunden werden können. |
 | Besucher-ID | Der Wert ist eine 128-Bit-Ganzzahl und wird durch einen kryptographisch starken 128-Bit-Pseudozufallswert ersetzt. |
 | <ul><li>MCID</li><li>Benutzerspezifische Besucher-ID</li><li>IP-Adresse</li><li>IP-Adresse 2 | Der Wert wird gelöscht (d. h. je nach Variablentyp entweder durch eine leere Zeichenfolge oder „0“ ersetzt). |
-| <ul><li>ClickMap-Aktion (Legacy)</li><li>ClickMap-Kontext (Legacy)</li><li>Seite</li><li>Seiten-URL</li><li>URL der ursprünglichen Entrypage</li><li>Referrer</li><li>URL der Startseite des Besuchs</li></ul> | Die URL-Parameter werden gelöscht/entfernt. Wenn der Wert nicht wie eine URL aussieht, wird der Wert gelöscht (auf die leere Zeichenfolge gesetzt). |
+| <ul><li>ClickMap-Aktion (Legacy)</li><li>ClickMap-Kontext (Legacy)</li><li>Seite</li><li>Seiten-URL</li><li>URL der ursprünglichen Entrypage</li><li>Referrer</li><li>Besuchen der Startseiten-URL</li></ul> | Die URL-Parameter werden gelöscht/entfernt. Wenn der Wert nicht wie eine URL aussieht, wird der Wert gelöscht (auf die leere Zeichenfolge gesetzt). |
 | <ul><li>Breitengrad</li><li>Längengrad</li></ul> | Die Genauigkeit wird auf maximal einen Kilometer reduziert. |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variablen, die die erwarteten Löschkennzeichnungen nicht unterstützen {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variablen, die die erwarteten Löschkennzeichnungen nicht unterstützen {#no-delete-support}
 
 Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung nicht unterstützen. Manchmal werden diese Variablen von anderen Personen als Analytics-Benutzern (z. B. von der Rechtsabteilung) gelöscht, die den in der Variablen enthaltenen Datentyp nicht kennen und deshalb anhand des Variablennamens von einem falschen Typ ausgehen. Im Folgenden finden Sie eine Liste dieser Variablen und erfahren, warum sie keine Löschung erfordern bzw. warum sie nicht über eine spezifische Löschbeschriftung verfügen.
 

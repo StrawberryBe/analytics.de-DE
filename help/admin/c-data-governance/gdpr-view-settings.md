@@ -1,37 +1,90 @@
 ---
-description: Über das Data-Governance-Dialogfeld in den Admin Tools können Sie einsehen, welche Report Suites für Data Governance konfiguriert wurden, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob für die entsprechende Report Suite eine Richtlinie zur Datenaufbewahrung vorhanden ist.
-title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
+description: Das Dialogfeld Datenschutzbezeichnungen für Data Governance bietet einen Überblick über die Datenschutzbezeichnungen und Namespaces einer Report Suite. Sie können die Einstellungen von hier aus auch in eine CSV-Datei exportieren.
+title: Datenschutzbezeichnungen für Data Governance anzeigen/verwalten
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: f719691800e4560aeb822825170a15ead5044e7b
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 44%
 
 ---
 
-# Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
-
-Über das Data-Governance-Dialogfeld in den Admin Tools können Sie einsehen, welche Report Suites für Data Governance konfiguriert wurden, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob für die entsprechende Report Suite eine Richtlinie zur Datenaufbewahrung vorhanden ist.
-
-1. Melden Sie sich bei Adobe Experience Cloud an.
-1. Öffnen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**.
+# Datenschutzbezeichnungen für Data Governance anzeigen/verwalten
 
 >[!NOTE]
 >
->Wenn dieser Menüpunkt nicht angezeigt wird, müssen Sie sich zu einem [Produktprofil in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de) hinzufügen lassen, das über die entsprechenden Berechtigungen für diese Funktion verfügt.
+>Diese aktualisierte Benutzeroberfläche wird derzeit nur eingeschränkt getestet.
 
-1. So zeigen Sie alle Report Suites an, die zu Ihrem angemeldeten Unternehmen gehören:
+Die **[!UICONTROL Datenschutzbezeichnungen für Data Governance]** bietet einen Überblick über die Datenschutzbezeichnungen und Namespaces einer Report Suite. Sie können die Einstellungen von hier aus auch in eine CSV-Datei exportieren.
 
-   ![](assets/privacy_setup_an.png)
+## Datenschutzbezeichnungen anzeigen {#view-privacy}
+
+1. Melden Sie sich bei Adobe Experience Cloud an.
+1. Navigieren Sie zu  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
+
+   >[!NOTE]
+   >
+   >Wenn dieser Menüpunkt nicht angezeigt wird, müssen Sie sich zu einem [Produktprofil in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de) hinzufügen lassen, das über die entsprechenden Berechtigungen für diese Funktion verfügt.
+
+1. Wählen Sie oben rechts eine Report Suite aus, deren Datenschutzbezeichnungen Sie anzeigen oder verwalten möchten.
+
+   ![](assets/privacy_labeling.png)
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Report Suites]** | Die erste Zeile enthält den Anzeigenamen der Report Suite. Die zweite Zeile enthält den internen Namen der Report Suite. Wenn Sie Beschriftungen für eine Report Suite festlegen dürfen, befindet sich in der ersten Zeile ein Link, auf den Sie klicken können und über den Sie zur Beschriftungsseite gelangen. |
-| **[!UICONTROL Organisationszuordnung]** | <ul><li>Zugeordnet: Diese Report Suite wurde bereits derselben Experience Cloud-Organisation wie das Analytics-Anmeldeunternehmen zugeordnet, bei dem Sie angemeldet sind. Es können nur Report Suites mit dieser Einstellung beschriftet werden.</li><li>Einer anderen Organisation zugeordnet: Diese Report Suite wurde bereits einer anderen Experience Cloud-Organisation zugeordnet.</li></ul> |
-| **[!UICONTROL Richtlinie zur Datenaufbewahrung]** | Für die Datenschutzimplementierung in Analytics müssen Sie eine Richtlinie zur Datenaufbewahrung erstellen. Diese Einstellung zeigt:<ul><li>ob eine Richtlinie zur Datenaufbewahrung für die entsprechende Report Suite vorhanden ist und</li><li>wie lange die Daten von Adobe aufbewahrt werden, bis sie gelöscht werden. Standardmäßig beträgt der Aufbewahrungszeitraum 25 Monate.</li></ul>**Hinweis:** Adobe Analytics kann Sie nicht bei der Verarbeitung von Anfragen an die Datenschutz-API unterstützen, also bei der Verarbeitung von Zugriffs- oder Löschungsanfragen, die Sie von Ihren Endnutzer/innen erhalten, wenn keine Datenspeicherungsfrist festgelegt wurde. Wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen. |
-| **[!UICONTROL Gruppen]** | Die Gruppierungsfunktionalität ist derzeit nicht implementiert. |
-| Linke Sidebar | Klicken Sie auf das Trichtersymbol, um die Sidebar zu öffnen oder zu schließen. Im Abschnitt [!UICONTROL Organisationszuordnung] wird die Anzahl der Report Suites angezeigt, die in jede der beschriebenen Kategorien fallen. Im Abschnitt [!UICONTROL Datenspeicherungsrichtlinie] wird jede einzelne Datenspeicherungsrichtlinie angezeigt, die derzeit für Ihre Organisation gilt, sowie die Anzahl der Report Suites, denen diese Speicherrichtlinie zugewiesen wurde. |
-| **[!UICONTROL In CSV exportieren]** | Wenn Sie das Kontrollkästchen neben einer oder mehreren Report Suites aktivieren, wird die Option „In CSV exportieren“ angezeigt. Mithilfe dieser Option können Sie eine CSV-Datei mit allen aktuellen Beschriftungsdefinitionen für sämtliche Variablen aller ausgewählten Report Suites herunterladen. Es wird empfohlen, dass Ihre Rechtsabteilung die Beschriftungseinstellungen überprüft. Diese Überprüfung wird mithilfe dieser Option vereinfacht. Statt die Überprüfung durchführen zu müssen, während Sie bei der Data-Governance-Benutzeroberfläche angemeldet sind, können Sie einfach die CSV-Datei weitergeben. |
+| **[!UICONTROL Name der Komponente]** | Diese Spalte listet alle Komponenten (Dimensionen, Metriken) auf, die Teil dieser Report Suite sind. |
+| **[!UICONTROL Identität]** | Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#identity-data-labels) |
+| **[!UICONTROL Sensitivität]** | Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenbeschriftungen eingeführt, um andere Arten vertraulicher Informationen zu identifizieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#sensitive-data-labels) |
+| **[!UICONTROL DSGVO-Zugriff]** | Über Data Governance-Beschriftungen können Benutzer Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-access-labels) |
+| **[!UICONTROL DSGVO-Löschung]** | Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zum Datensubjekt zulassen würde (d. h., der die Identifizierung des Datensubjekts ermöglicht). Andere persönliche Daten (Favoriten, Browser-/Einkaufsverlauf, Gesundheitszustand usw.) müssen nicht gelöscht werden, da die Zuordnung zum Datensubjekt erschwert wird. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#section_F0A47AF8DA384A26BD56032D0ABFD2D7) |
+| **[!UICONTROL Kategorie]** | Bezieht den Komponententyp, z. B. Standardkomponente, Konversionsvariable usw. |
 
 {style=&quot;table-layout:auto&quot;}
+
+## Kopieren von Datenschutzbezeichnungen in eine Report Suite  {#copy-to-rs}
+
+Gehen Sie wie folgt vor, wenn Sie DULE-/Datenschutzeinstellungen auf mehrere Report Suites anwenden möchten:
+
+1. Wählen Sie die Variable aus, die Sie kopieren möchten. Beachten Sie, dass Sie die Beschriftungen nur für jeweils eine Variable kopieren können.
+1. Klicken **[!UICONTROL In Report Suite(s) kopieren]** unten im Dialogfeld &quot;Data Governance&quot;.
+
+   ![In die Report Suite kopieren](assets/copy_to_reportsuite.png)
+
+1. Der sich ergebende Bildschirm zeigt den Variablennamen, die aktuell angewendeten Beschriftungen, die Sie kopieren möchten, die Report Suites und deren IDs sowie die Übereinstimmung der Einstellungen in den Ziel-Report Suites.
+
+   ![Kopieren der Beschriftung in die Report Suite](assets/copy_to_rs.png)
+
+   >[!IMPORTANT]
+   >
+   >Denken Sie daran, dass alle ausgewählten Report Suites Ihrer Experience Cloud-Organisation zugeordnet sein müssen.
+
+   Wenn Sie die Beschriftungen für eine Variable oder Variablengruppe in eine andere Report Suite kopieren, wird die Kopie an der entsprechenden Stelle in der Ziel-Report Suite abgelegt. Bei Standardkomponenten, Listenvariablen und Erfolgsereignissen werden die Beschriftungen mit der Variablen **gleicher Name** in der Ziel-Report Suite.
+
+   Bei Konversionsvariablen (eVars) und Traffic-Dimensionen (Props) wird die Kopie jedoch in die Variable mit der Variablen **gleiche Zahl** in der Ziel-Report Suite. eVar12 wird beispielsweise zu eVar12 in allen Ziel-Report Suites kopiert. Die Namen dieser Variablen werden bei der Bestimmung des Ziels der Kopie ignoriert. Wenn die entsprechende Variable in der Ziel-Report Suite nicht aktiviert ist, schlägt die Kopie für diese Variable fehl.
+
+   Beim Kopieren der Beschriftungen für Klassifizierungen, die für eine Variable definiert sind, werden die Beschriftungen in eine Klassifizierung für die entsprechende Variable in der Ziel-Report Suite kopiert (z. B. eVar 7 bis eVar 7), deren Name mit der kopierten Klassifizierung identisch ist. Andernfalls schlägt die Kopie für die Beschriftungen der betreffenden Classification fehl.
+
+1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Report Suites, bei denen die Einstellungen übereinstimmen.
+1. Klicken Sie auf **[!UICONTROL Anwenden]**.
+
+   Nach dem Anwenden von Bezeichnungen wird eine Statusmeldung angezeigt. Die Statusmeldung enthält die Namen der Zielvariablen oder Klassifizierungen und die zugehörigen Report Suites, für die die Kopie fehlgeschlagen ist.
+
+   >[!IMPORTANT]
+   >
+   >Sie sollten immer die Ziel-Report Suites überprüfen, um sicherzustellen, dass die Beschriftungen korrekt kopiert wurden. Dies ist insbesondere für Variablen mit ID- oder DEL-Beschriftungen wichtig.
+
+## Exportieren in eine CSV-Datei
+
+Sie können eine CSV-Datei herunterladen, die alle aktuellen Beschriftungsdefinitionen für alle Variablen für die ausgewählten Report Suites enthält. Es wird empfohlen, dass Ihr Rechtsteam Ihre Beschriftungsoptionen überprüft. Diese Option erleichtert diese Überprüfung. Statt die Überprüfung durchführen zu müssen, während Sie bei der Data-Governance-Benutzeroberfläche angemeldet sind, können Sie einfach die CSV-Datei weitergeben.
+
+1. Klicken **[!UICONTROL CSV exportieren]** oben rechts und dieses Dialogfeld wird angezeigt:
+
+   ![](assets/export_csv.png)
+
+1. Wählen Sie eine oder mehrere Report Suites aus, für die Sie alle Data Governance-Einstellungen exportieren möchten.
+
+## Bearbeiten von Datenschutzbezeichnungen
+
+Siehe [Zuweisen oder Bearbeiten von Datenschutzbezeichnungen für Report Suites](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).
