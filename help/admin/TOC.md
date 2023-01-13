@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
+source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 98%
    + [CNIL-Zustimmungsfreistellung](c-data-governance/cnil-consent-exemption.md)
    + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics-Workflow zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
-   + [Data-Governance-Einstellungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
+   + [Datenschutzbezeichnungen für Analytics-Komponenten](c-data-governance/gdpr-labels.md)
    + [Report Suite-Daten beschriften](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
-   + [Datenschutzbezeichnungen für Analytics-Variablen](c-data-governance/gdpr-labels.md)
-   + [Namespaces](c-data-governance/gdpr-namespaces.md)
-   + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
+   + [Datenschutzbezeichnungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
    + [Best Practices für Beschriftungen](c-data-governance/gdpr-analytics-ids.md)
    + [Beschriftungsbeispiel](c-data-governance/gdpr-labeling-example.md)
+   + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
+   + [Namespaces](c-data-governance/gdpr-namespaces.md)
+   + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
    + [Datenschutz und Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologie zum Datenschutz](c-data-governance/gdpr-terminology.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
