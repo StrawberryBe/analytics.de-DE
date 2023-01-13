@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 4ed166bb05d8dfb32706008ad23c13f61908d1e9
+source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 99%
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 99%
          + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [Deaktivieren von veralteten Anmeldedaten](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [Von der Migration betroffene APIs](admin-console/user-management2/user-migration/developer.md)
-+ Analytics-Admin {#admin-tools}
-   + [Admin Tools](admin/c-admin-tools.md)
++ Admin Tools für Analytics {#admin-tools}
+   + [Übersicht über Admin Tools](admin/c-admin-tools.md)
    + [Abrechnung](admin/billing-admin.md)
    + [Code-Manager](admin/code-manager-admin.md)
    + [Währungs-Codes](admin/currency.md)
