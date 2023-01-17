@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
+source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 87%
+source-wordcount: '1174'
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,10 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 >[!NOTE]
 >
 >Ab Oktober 2022 werden neue Versionen von Chromium-Browsern die in der Benutzeragenten-Zeichenfolge dargestellte Betriebssystemversion „einfrieren“. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
+
+>[!NOTE]
+>
+> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch dargestellt, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Siehe [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de) für weitere Informationen.
 
 >[!NOTE]
 >
