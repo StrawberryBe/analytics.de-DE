@@ -3,10 +3,10 @@ description: Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, de
 title: In der Beitragsanalyse verwendete statistische Verfahren
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Die Beitragsanalyse erreicht dies durch Ausführung eines zweiteiligen Algorithm
 
    ![](assets/cramers-v.png)
 
-1. Für jedes Dimensionselement wird der PR-Wert (Person’s Residual, Restwert der Person) verwendet, um den Zusammenhang zwischen der anormalen Metrik und jedem Dimensionselement zu messen. Da der PR-Wert einer gewöhnlichen Normalverteilung folgt, kann der Algorithmus die PRs von zwei zufälligen Variablen miteinander vergleichen, selbst wenn die Abweichungen nicht vergleichbar sind. In der Praxis ist der Fehler nicht bekannt und wird mittels finiter Stichprobenkorrektur abgeschätzt.
+1. Für jedes Dimensionselement wird der PR-Wert (Residual, Restwert von Pearson) verwendet, um den Zusammenhang zwischen der anormalen Metrik und jedem Dimensionselement zu messen. Da der PR-Wert einer gewöhnlichen Normalverteilung folgt, kann der Algorithmus die PRs von zwei zufälligen Variablen miteinander vergleichen, selbst wenn die Abweichungen nicht vergleichbar sind. In der Praxis ist der Fehler nicht bekannt und wird mittels finiter Stichprobenkorrektur abgeschätzt.
 
    In der vorherigen Beispieltabelle 1 wird der PR mittels finiter Stichprobenkorrektur für das Land i und den Zeitraum 2 angegeben durch
 
