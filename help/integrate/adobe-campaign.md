@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Adobe Campaign-Berichte in Adobe Analytics ak
 title: Wie integriere ich Adobe Campaign-Berichte in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Mithilfe dieser Integration zwischen Adobe Analytics und Adobe Campaign
 * werden Verfolgungsformeln mit Adobe Analytics-Parametern erweitert.
 * wird unter **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Adobe Campaign]** ein neuer Bericht hinzugefügt.
 * werden 5 neue Adobe Campaign-Klassifizierungen hinzugefügt.
-* werden 10 neue Adobe Campaign-Metriken hinzugefügt.
+* werden 9 neue Adobe Campaign-Metriken hinzugefügt.
 * werden 6 neue Adobe Campaign-Dimensionen hinzugefügt.
 * werden Daten alle 15 Minuten mit Analytics synchronisiert.
 
@@ -60,7 +60,6 @@ Die folgenden **Metriken** sind in Campaign der Adobe Analytics Report Suites ve
 * Adobe Campaign – Gesendet
 * Adobe Campaign – Geöffnet
 * Adobe Campaign – Geklickt
-* Adobe Campaign – Verarbeitet
 * Adobe Campaign – Geliefert
 * Adobe Campaign – Einzelöffnung
 * Adobe Campaign – Einzelklick
