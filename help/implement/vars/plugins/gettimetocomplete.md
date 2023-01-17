@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: Messen Sie die Zeit, die zum Ausführen einer Aufgabe benötigt wird.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 1. Erweitern Sie das Akkordeon [!UICONTROL Tracking mit benutzerdefiniertem Code konfigurieren], wodurch die Schaltfläche [!UICONTROL Editor öffnen] angezeigt wird.
@@ -62,7 +62,8 @@ Die `getTimeToComplete`-Funktion verwendet die folgenden Argumente:
 
 * **`sos`** (optional, Zeichenfolge): Stellen Sie `"start"` ein, wenn Sie den Timer starten möchten. Stellen Sie `"stop"` ein, wenn Sie den Timer anhalten möchten. Die Standardeinstellung ist `"start"`.
 * **`cn`** (optional, Zeichenfolge): Der Name des Cookies, in dem der Startzeit gespeichert werden soll. Die Standardeinstellung ist `"s_gttc"`.
-* **`exp`** (optional, Ganzzahl): Die Anzahl der Tage, in denen das Cookie (und der Timer) abläuft. Die Standardeinstellung ist `0`, was das Ende der Browser-Sitzung darstellt.
+* **`exp`** (optional, Ganzzahl): Die Anzahl der Sekunden, Stunden oder Tage (je nach `tp` Zeitunterteilungsargument), dass das Cookie (und der Timer) abläuft. Der Standardwert ist 30 Minuten.
+* **`tp`** (optional, Zeichenfolge): Die Zeitunterteilungszeichenfolge, die das Cookie (und der Timer) abläuft und mit der `exp` -Argument. Auf &quot;d&quot;für Tage, &quot;h&quot;für Stunden oder &quot;s&quot;für Sekunden festlegen. Wenn dies nicht festgelegt ist, wird der Standardwert für das Ablaufdatum des Cookies (und Timers) auf 30 Minuten festgelegt, unabhängig davon, was die Variable `exp` wurde auf gesetzt.
 
 Beim Aufrufen dieser Funktion wird eine Zeichenfolge zurückgegeben, die die Anzahl der Tage, Stunden, Minuten und/oder Sekunden zwischen der `"start"`- und der `"stop"`-Aktion enthält.
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Versionsverlauf
