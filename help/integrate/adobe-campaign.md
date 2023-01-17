@@ -1,20 +1,23 @@
 ---
-description: Erfahren Sie, wie Sie Adobe Campaign-Berichte in Adobe Analytics aktivieren
-title: Wie integriere ich Adobe Campaign-Berichte in Adobe Analytics?
+description: Erfahren Sie, wie Sie die Adobe Campaign Standard-Berichterstellung in Adobe Analytics aktivieren
+title: Wie integriere ich Adobe Campaign Standard Reporting in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '518'
+ht-degree: 68%
 
 ---
 
-# Berichterstellung für Adobe Campaign
+# Adobe Campaign Standard Reporting
 
 Weitere Informationen zum Konfigurieren dieser Integrationen finden Sie in der [Adobe Campaign-Dokumentation](https://helpx.adobe.com/de/campaign/standard/integrating/using/about-campaign-analytics-integration.html)
 
-Mithilfe dieser Integration zwischen Adobe Analytics und Adobe Campaign
+>[!IMPORTANT]
+>Dieser Artikel gilt für Adobe Campaign **Standard** nur Berichterstellung. Siehe [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) zum Hinzufügen von Adobe Campaign **Classic** Berichterstellung.
+
+Diese Integration zwischen Adobe Analytics und Adobe Campaign Standard:
 
 * können Sie Ihre KPI (Key Performance Indicator)-Daten aus Adobe Campaign Standard in Adobe Analytics freigeben.
 * werden Verfolgungsformeln mit Adobe Analytics-Parametern erweitert.
@@ -22,11 +25,11 @@ Mithilfe dieser Integration zwischen Adobe Analytics und Adobe Campaign
 * werden 5 neue Adobe Campaign-Klassifizierungen hinzugefügt.
 * werden 9 neue Adobe Campaign-Metriken hinzugefügt.
 * werden 6 neue Adobe Campaign-Dimensionen hinzugefügt.
-* werden Daten alle 15 Minuten mit Analytics synchronisiert.
+* Synchronisiert Daten alle 15 Minuten mit Analytics über eine automatisch bereitgestellte Datenquelle.
 
-## Schritt 1. Aktivieren der Berichterstellung für Adobe Campaign {#section_C685EF10505045708A6536BB13F6CD58}
+## Schritt 1. Adobe Campaign Standard Reporting aktivieren {#section_C685EF10505045708A6536BB13F6CD58}
 
-Wenn Sie Campaign-Daten in Analytics anzeigen möchten, müssen Sie zunächst Campaign-Berichte aktivieren.
+Um Campaign Standard-Daten in Analytics anzeigen zu können, müssen Sie zunächst die Kampagnenberichterstellung im Report Suite Manager aktivieren.
 
 1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Berichterstellung für Adobe Campaign]** .
 1. Klicken Sie auf **[!UICONTROL Berichterstellung für Campaign aktivieren]**.
@@ -37,9 +40,7 @@ Wenn Sie Campaign-Daten in Analytics anzeigen möchten, müssen Sie zunächst Ca
 
 Durch die Integration zwischen Adobe Campaign Standard und Adobe Analytics wird die folgende Berichtsnummer unter **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** hinzugefügt.
 
-| Bericht | Definition |
-|--- |--- |
-| Adobe Campaign – ID der ausgeführten Bereitstellung | Zeigt aus Adobe Campaign importierte Daten über E-Mails an, die in Adobe Campaign gesendet wurden. |
+* **[!UICONTROL Ausgeführte Adobe Campaign-Bereitstellungs-ID]**: Zeigt Daten zu aus Adobe Campaign importierten E-Mails an, die von Adobe Campaign gesendet wurden. |
 
 ## Schritt 3. Verwenden von Klassifizierungen in Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -47,13 +48,15 @@ Durch die Integration zwischen Adobe Campaign Standard und Adobe Analytics wird 
 
 Nach der Aktivierung der Report Suite für Adobe Campaign sind die folgenden Klassifizierungen verfügbar:
 
-* Bereitstellungs-ID (in Campaign angezeigter, interner Bereitstellungsname)
-* Bereitstellungsbezeichnung (Bereitstellung in Campaign – Individuelle Bereitstellung/Periodische Bereitstellung/Transaktionsbereitstellung)
-* Kampagnen-ID (in Campaign angezeigter, interner Kampagnenname)
-* Bereitstellungsbezeichnung (Campaign in Adobe Campaign)
-* Ausgeführte Bereitstellungsbezeichnung (Liste der individuellen ausgeführten Bereitstellungen)
+| Klassifizierung | Beschreibung |
+| --- | --- |
+| [!UICONTROL Bereitstellungs-ID] | Interner Versandname, den Sie in Campaign sehen |
+| [!UICONTROL Versandtitel] | Versand in Campaign - Individuelle Bereitstellung/wiederkehrende Bereitstellung/Transaktionsbereitstellung |
+| [!UICONTROL Kampagnen-ID] | Interner Kampagnenname, den Sie in Campaign sehen |
+| [!UICONTROL Kampagnenbezeichnung] | Campaign in Adobe Campaign |
+| [!UICONTROL Bezeichnung der ausgeführten Bereitstellung] | Liste der jeweils ausgeführten Sendungen |
 
-## In Adobe Analytics verfügbare Adobe Campaign-Dimensionen und -Metriken {#section_F33385C9660644AF84172EC39601469B}
+## In Adobe Analytics verfügbare Adobe Campaign Standard-Dimensionen und -Metriken {#section_F33385C9660644AF84172EC39601469B}
 
 Die folgenden **Metriken** sind in Campaign der Adobe Analytics Report Suites verfügbar:
 
@@ -70,7 +73,7 @@ Die folgenden **Metriken** sind in Campaign der Adobe Analytics Report Suites ve
 Die folgenden **Dimensionen** sind in Campaign der Adobe Analytics Report Suites verfügbar:
 
 | Name der Dimension | Definition |
-|--- |--- |
+| --- | --- |
 | Kampagnen-ID | ID aller Kampagnen, für die während der Dauer KPIs gesendet wurden. |
 | Kampagnenbezeichnung | Bezeichnungen der Kampagnen-IDs |
 | Bereitstellungs-ID | ID aller Bereitstellungen, für die während der Dauer KPIs gesendet wurden. Beinhaltet zudem die IDs von Master-Bereitstellungen für periodische Bereitstellungen und Transaktionsbereitstellungen. Beispiel: Eine periodische Bereitstellung DM1 wurde geplant und DM2, DM3, DM4 und DM5 waren untergeordnete Bereitstellungen der periodischen Bereitstellung.  Die Bereitstellungs-ID zeigt Ergebnisse für alle Bereitstellungen von DM1 bis DM5 an. |
