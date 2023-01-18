@@ -3,10 +3,10 @@ title: Implementieren von Adobe Analytics
 description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft oder Anwendung.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 79%
 
 ---
 
@@ -23,18 +23,16 @@ Adobe benötigt Code auf Ihrer Website oder in Ihrer App, um Daten an die Adobe-
 1. Wenn ein Besucher Ihre Site aufruft, erfolgt eine Anfrage an Ihren Web-Server.
 2. Der Web-Server Ihrer Site sendet die Informationen zum Seiten-Code, und die Seiten wird im Browser angezeigt.
 3. Die Seite wird geladen, und der Analytics JavaScript-Code wird ausgeführt.
-Der JavaScript-Code sendet eine Bildanforderung an die Adobe-Datenerfassungs-Server. Die Seitendaten, die Sie in Ihrer Implementierung definiert haben, werden als Teil einer Abfragezeichenfolge in dieser Bildanforderung gesendet.
+4. Der JavaScript-Code sendet eine Bildanforderung von 1 x 1 Pixel an die Datenerfassungsserver von Adobe. Die Seitendaten, die Sie in Ihrer Implementierung definiert haben, werden als Teil einer Abfragezeichenfolge in dieser Bildanforderung gesendet.
+5. Die Datenerfassungsserver der Adobe geben das angeforderte Bild zurück.
+6. Adobe-Server analysieren und speichern die erfassten Daten in einer Report Suite.
+7. Report Suite-Daten erscheinen in den Berichten, auf die Sie in einem Webbrowser zugreifen können.
 
-4. Adobe gibt ein transparentes Pixelbild zurück.
-5. Adobe-Server speichern erfasste Daten in einer oder mehreren *Report Suites*.
-6. Report Suite-Daten erscheinen in den Berichten, auf die Sie in einem Webbrowser zugreifen können.
 
-   Die JavaScript Code-Ausführung erfolgt schnell und hat keine größeren Auswirkungen auf die Seitenladezeiten. Dieser Ansatz ermöglicht es Ihnen, Seiten zu zählen, die angezeigt wurden, wenn ein Besucher zum Erreichen einer Seite auf **[!UICONTROL Neu laden]** oder **[!UICONTROL Zurück]** klickt, da das JavaScript auch dann ausgeführt wird, wenn die Seite aus dem Cache abgerufen wird.
+Adobe bietet je nach Plattform und den Anforderungen Ihres Unternehmens verschiedene Methoden zur Implementierung dieses Codes.
 
-Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um Daten an die Datenerfassungs-Server zu senden. Abhängig von der Plattform und den Anforderungen Ihres Unternehmens gibt es verschiedene Methoden, um diesen Code zu implementieren.
-
-* **Web SDK-Erweiterung**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Installieren Sie die Web SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, verwenden Sie auf jeder Seite ein Lader-Tag und senden Sie Daten an Adobe Experience Platform Edge in einem für Ihr Unternehmen geeigneten Format. Experience Edge leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
-* **Web SDK**: Wenn Sie die Adobe Experience Platform-Datenerfassung nicht verwenden möchten, können Sie die Web SDK-Bibliotheken manuell auf Ihre Site laden. Verweisen Sie auf jeder Seite auf die Web SDK-Bibliothek und senden Sie die gewünschten Tracking-Aufrufe an Adobe Experience Edge.
+* **Web SDK-Erweiterung**: Die aktuelle, standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Installieren Sie die Web SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, verwenden Sie auf jeder Seite ein Lader-Tag und senden Sie Daten an Adobe Experience Platform Edge in einem für Ihr Unternehmen geeigneten Format. Experience Edge leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
+* **Web SDK**: Wenn Sie keine Tags verwenden möchten, können Sie die Web SDK-Bibliotheken manuell auf Ihre Site laden. Verweisen Sie auf jeder Seite auf die Web SDK-Bibliothek und senden Sie die gewünschten Tracking-Aufrufe an Adobe Experience Edge.
 * **Adobe Analytics-Erweiterung**: Installieren Sie die Adobe Analytics-Erweiterung in der Datenerfassung von Adobe Experience Platform. Platzieren Sie ein Lader-Tag auf jeder Seite und verwenden Sie die Analytics-Erweiterung, um zu bestimmen, wie jede Variable definiert wird.
 * **Veraltetes JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Führt Variablen und Einstellungen auf, die in einer Implementierung verwendet werden. Dies kann für Implementierungen hilfreich sein, bei denen Regeln mit benutzerdefiniertem Code verwendet werden.
 * **Mobile SDK**: Spezifische Bibliotheken zum einfachen Senden von Daten aus Ihrer App an Adobe.
