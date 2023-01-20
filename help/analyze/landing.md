@@ -4,10 +4,10 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 79%
+source-wordcount: '3947'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] al
 
 Mit der Veröffentlichung der neuen Landingpage haben wir den Projekt-Manager eingestellt, der unter dem Komponenten-Manager aufgeführt ist. Die neue Landingpage verarbeitet alle Funktionen der alten Seite &quot;Projektmanager&quot;und mehr.
 
-Ein gängiger Anwendungsfall für die Seite &quot;Projektmanager&quot;war die Ansicht aller Ihrer Projekte. Um mithilfe der Filterleiste alle Ihre Projekte auf der neuen Landingpage anzuzeigen, wählen Sie **SONSTIGE FILTER** und wählen Sie **Alle anzeigen**.
+Ein gängiger Anwendungsfall für die Seite &quot;Projektmanager&quot;war die Ansicht aller Ihrer Projekte.
 
-![Sonstige Filter](assets/other-filters.png)
+Um mithilfe der Filterleiste alle Ihre Projekte auf der neuen Landingpage anzuzeigen, wählen Sie **SONSTIGE FILTER** und wählen Sie **Alle anzeigen**.
+
+![Alle Projekte anzeigen](assets/show-all-fIlter.png)
 
 Wenn Sie sich in der Ansicht &quot;Ordner &amp; Projekte&quot;befinden, wird ein modales Popup angezeigt, in dem Sie gefragt werden, ob Sie zur Ansicht &quot;Alle Projekte&quot;wechseln möchten. Dies erleichtert die Anzeige aller Ihrer Projekte außerhalb der Ordner, in denen sie möglicherweise organisiert sind.   Auswählen **Zur Ansicht &quot;Alle Projekte&quot;wechseln** , um alle Projekte, auf die Sie Zugriff haben, besser anzuzeigen.
 
 ![Alle Projekte wechseln](assets/switch-all-projects-view.png)
+
+Ein weiterer Anwendungsfall für Administratoren ist die Verwaltung von Unternehmensberichten, um Berichte zu löschen, umzubenennen, zu taggen oder zu genehmigen. Informationen zum Verwalten von Berichten finden Sie unter [Verwalten von Unternehmensberichten](#manage-company-reports).
 
 ## Navigieren durch die Registerkarte [!UICONTROL Berichte] {#navigate-reports}
 
@@ -189,7 +193,37 @@ Weitere Lernoptionen:
 * Hier finden Sie einen Link zur [vollständigen Dokumentation zu Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Hier finden Sie die vollständige [YouTube-Playlist für Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-## Navigieren Sie zur Registerkarte „Lernen“. {#navigate-learning}
+### Verwalten von Unternehmensberichten {#manage-company-reports}
+
+Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Die fixierten Elemente bleiben fixiert, gefolgt von der Liste der Unternehmensberichte, die von der ![Berichtssymbol](assets/report-icon.png) Berichtssymbol. In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
+
+So zeigen Sie Unternehmensberichte an und verwalten sie
+
+1. Wählen Sie in der Filterleiste **SONSTIGE FILTER** und wählen Sie **Unternehmensberichte**.
+Eine Liste der Unternehmensberichte wird angezeigt. Alle regulären Projekte werden nicht angezeigt, es sei denn, sie sind fixiert.
+
+   ![Filter für Unternehmensberichte anzeigen](assets/company-reports-filter.png)
+
+   Wenn Unternehmensberichte angezeigt werden, können Administratoren den Bericht löschen, umbenennen, ein Tag hinzufügen oder genehmigen.
+
+1. Wählen Sie in der Berichtsliste einen einzelnen Bericht oder mehrere Berichte aus.
+
+1. Klicken Sie auf **...** Auslassungssymbol neben einem Bericht, um die verfügbaren Optionen anzuzeigen (Löschen, Umbenennen, Tag und Genehmigen).
+
+   ![Aktionen bei Unternehmensberichten](assets/company-reports-actions.png)
+
+1. Wählen Sie eine Option aus (Löschen, Umbenennen, Taggen und Genehmigen).
+
+1. Um nach Abschluss des Vorgangs zur regulären Ansicht zurückzukehren, deaktivieren Sie in der Filterleiste erneut die Option Unternehmensberichte .
+
+### Löschen eines Unternehmensberichts
+
+Administratoren können einen Bericht mithilfe der (oben beschriebenen) Option Liste der Unternehmensberichte löschen oder einen Bericht aus dem Modal Projekt erstellen löschen.
+
+![Sonstige Filter](assets/delete-fr-create-project-modal.png)
+
+
+## Navigieren Sie zur Registerkarte „Lernen“ {#navigate-learning}
 
 Die Seite „Lernen“ enthält praktische Videoführungen und -Tutorials sowie Links zur Dokumentation.
 
