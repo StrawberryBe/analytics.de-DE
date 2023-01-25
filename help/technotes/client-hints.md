@@ -2,7 +2,7 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
+source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 74%
@@ -21,7 +21,7 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 >[!NOTE]
 >
->Client-Hinweise werden ab dem 15. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber bis Mitte Februar nicht bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
+>Client-Hinweise werden ab dem 15. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber erst Mitte Februar bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Dieser [Blogpost von Google](https://web.dev/user-agent-client-hints/) ist eine 
 
 +++**Wie kann ich die Sammlung von Client-Hinweisen aktivieren?**
 
-Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anweisungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
 
