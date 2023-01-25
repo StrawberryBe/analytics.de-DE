@@ -35,7 +35,7 @@ In diesem Video werden verschiedene Adobe Analytics-Tools verglichen:
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=de)** sollte verwendet werden:
 
-* Als flexibelste Analyseoption (bis hin zur Analyse auf Besucher-/Trefferebene).
+* Als die flexibelste Analytics-Tool-Option (bis hin zur Analyse auf Besucher- und Trefferebene).
 * Für die Erstellung eines Mehrkanal-Datensatzes der Online- und Offline-Interaktionen von CRM über POS bis Web.
 * Für erweiterte Attribution (regelbasierte und Algorithmus-Modelle).
 * Für prädiktive statistische Modellierung (Tendenzauswertung, Clustering, Korrelationen usw.).
