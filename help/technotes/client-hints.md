@@ -2,7 +2,7 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
+source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 74%
@@ -21,7 +21,7 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 >[!NOTE]
 >
->Client-Hinweise werden ab dem 15. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber erst Mitte Februar bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
+>Client-Hinweise werden ab dem 16. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber erst Mitte Februar bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
 
 >[!NOTE]
 >
