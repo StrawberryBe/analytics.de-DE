@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
+source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 85%
+source-wordcount: '1230'
+ht-degree: 74%
 
 ---
 
@@ -21,11 +21,11 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 >[!NOTE]
 >
->Client-Hinweise werden ab dem 25. Januar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Januar nicht für die Gerätesuche verwendet. Damit soll eine mögliche Unterbrechung des Reportings während der kritischen Zeit zum Jahresende vermieden werden. Wie unten erwähnt, wird die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass die meisten Benutzeragenten auf die korrekte Betriebssystemversion eingefroren werden, schätzen wir, dass dies weniger als 3 % der Besuchenden mit Chrome betreffen wird.
+>Client-Hinweise werden ab dem 15. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber bis Mitte Februar nicht bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
 
 >[!NOTE]
 >
->Ab Oktober 2022 werden neue Versionen von Chromium-Browsern die in der Benutzeragenten-Zeichenfolge dargestellte Betriebssystemversion „einfrieren“. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
+>Ab Oktober 2022 starteten neue Versionen von Chromium-Browsern das &quot;Einfrieren&quot;der Betriebssystemversion, die in der Benutzeragenten-Zeichenfolge dargestellt wird. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
 
 >[!NOTE]
 >
@@ -48,6 +48,8 @@ Dieser [Blogpost von Google](https://web.dev/user-agent-client-hints/) ist eine 
 Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
+
+Für Daten, die über API übermittelt werden, z. B. über [Dateneinfüge-API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) oder [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), müssen Hinweise explizit in die Payload aufgenommen werden. Weitere Informationen finden Sie in der entsprechenden Dokumentation .
 
 +++
 
@@ -72,6 +74,8 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 | Sec-CH-UA-Full-Version-List | Liste der Marken mit ihrer Version | Hoch | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-Model | Gerätemodell | Hoch | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Betriebssystem/Platform-Version | Hoch | &quot;10&quot; |
+
+Hohe Entropiehinweise werden über den JavaScript-Aufruf erfasst und über den Abfrageparameter übergeben
 
 +++
 
