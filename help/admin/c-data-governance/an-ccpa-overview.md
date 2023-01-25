@@ -35,7 +35,7 @@ Machen Sie sich mit der [DSGVO-Verarbeitung in Adobe Analytics](https://www.adob
 ## CCPA-Bereitschaft und Ihre Adobe Analytics-Daten
 
 Wir wissen, dass Sie die individuellen Daten Ihrer Report Suites am besten kennen. Deshalb bietet Adobe Ihnen die Möglichkeit, Ihre Data-Governance-Einstellungen und -Präferenzen selbst zu definieren.
-Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz festlegen, die direkt oder indirekt identifizierbare Daten enthalten, damit Sie Zugriffs- und Löschanfragen zu diesen Daten einreichen können. Bei jeder Anfrage werden die in der Data-Governance-Benutzeroberfläche festgelegten Beschriftungen für die spezifische ID berücksichtigt, die mit der Anfrage übereinstimmt.
+Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz festlegen, die direkt oder indirekt identifizierbare Daten enthalten, damit Sie Zugriffs- und Löschanfragen zu diesen Daten einreichen können. Bei jeder Anfrage werden die in der Analytics Data Governance-Benutzeroberfläche definierten Beschriftungen für die spezifische ID, die mit der Anfrage übereinstimmt, berücksichtigt.
 
 Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).
 
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help/ad
 * Verbinden Sie Ihr Anmeldeunternehmen ggf. mit einer Experience Cloud-Organisation. Wenden Sie sich an die Adobe-Kundenunterstützung und lesen Sie die Informationen unter [Organisationen und Kontoverknüpfung.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de)
 * Legen Sie für jede Report Suite eine Richtlinie zur Datenaufbewahrung fest, damit CCPA-Zugriffs- und -Löschanfragen bearbeitet werden können.
 
-   Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die Privacy Services API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Bitte wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen.
+   Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die Privacy Services API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Bitte wenden Sie sich an Ihren Customer Success Manager, um die Speicherdauer Ihrer Daten festzulegen.
 
 * Überprüfen Sie Ihre Berechtigungen: Um die Analytics-Benutzeroberfläche zur Data-Governance-Verwaltung zu verwenden, müssen Sie Adobe Analytics-Administrator sein.
 * Erwägen Sie die Implementierung der [Managementvariablen zur Einwilligung](/help/admin/admin/privacy-reporting.md), um den Genehmigungsstatus auf Trefferebene zu verfolgen.
