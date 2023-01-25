@@ -3,9 +3,9 @@ title: Betriebssystem
 description: Das Betriebssystem des Besuchers.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 26de81f090cebb45473a04a2edbe281f1c8591a4
+source-git-commit: 17c441f8855b8ca0604076763817de8d4d3b8efb
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 29%
 
 ---
@@ -28,16 +28,16 @@ Nachstehend finden Sie eine Liste spezifischer Probleme mit der Darstellung des 
 
 ### Änderung der Namenskonvention für das Apple-Betriebssystem:
 
-Ab Version 11 verwenden wir OS X anstelle von Mac OS, um auf das Apple-Betriebssystem zu verweisen.
+Ab Version 11 verwenden wir MacOS anstelle von OS X, um auf das Apple-Betriebssystem zu verweisen.
 
 Beispiele:
 
-* macOS-Version 10.15.7 (siehe Hinweis unten zu Version 10.15.7 über die Darstellung in UA-Zeichenfolgen).
-* OS X Version 11.0.0
+* &quot;OS X 10.15&quot;(siehe Hinweis unten über Version 10.15.7 über die Darstellung in UA-Zeichenfolgen).
+* &quot;MacOS 11.0.0
 
 ### Mac OS-Version ist im Benutzeragenten nach Version 10.15.7 falsch 
 
-Ab Januar 2023 zeigt der Benutzeragent in allen Browsern die Mac OS-Version als 10.15.7 an, auch für neuere Versionen. Dies geschah, weil die Aufnahme von Version 11 in die UA anscheinend Probleme mit einigen Websites verursacht hat. Apple stellt außerdem fest, dass die Aufnahme einer falschen Betriebssystemversion in die Benutzeroberfläche einige Datenschutzvorteile bietet.
+Der Benutzeragent auf Apple-Computern zeigt die Betriebssystemversion als 10.15.7 an, selbst wenn es sich um eine neuere Version handelt. Dies geschah, weil die Aufnahme von Version 11 in die UA anscheinend Probleme mit einigen Websites verursacht hat. Dies gilt für *alle Browser* und ist nicht mit dem &quot;Einfrieren&quot;des Benutzeragenten durch Google in Chromium-Browsern verbunden.
 
 Beachten Sie, dass Client-Hinweise die richtige Version im Hinweis zur Plattformversion enthalten (&quot;Sec-CH-UA-Platform-Version&quot;). Dies ist ein Hinweis mit hoher Entropie, sodass nicht automatisch von Adobe erfasst wird. Siehe [Häufig gestellte Fragen zu Adobe Analytics-Hinweisen](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) für Details zur Erfassung von Hinweisen zur Entropie mit hoher Entropie.
 
