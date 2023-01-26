@@ -3,8 +3,8 @@ description: So fordern Sie Datenzugriff und -löschung in Adobe Analytics an.
 title: Zugriffs- und Löschanfragen einreichen
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Beachten Sie, dass der Benutzerabschnitt drei Blöcke enthält, die drei separat
 Bedenken Sie Folgendes
 
 * Der Wert „5D7236525AA6D9580A495C6C@AdobeOrg“ im Abschnitt „companyContexts“ muss mit dem Wert Ihrer eigenen Experience Cloud-Organisation aktualisiert werden.
-* Die Felder „type“ und „namespace“ werden im Abschnitt [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) beschrieben.
+* Die Felder „type“ und „namespace“ werden im Abschnitt [Namespaces](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md) beschrieben.
 * Die Felder „description“ werden ignoriert.
 * Die Felder „key“ können beliebige Werte enthalten. Wenn Sie über eine interne ID zum Verfolgen von Datenschutzanfragen verfügen, können Sie hier den Wert ablegen, um die Zuordnung von Anfragen im Adobe-System zu denen in Ihren eigenen Systemen zu vereinfachen.
 

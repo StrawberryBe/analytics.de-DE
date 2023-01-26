@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 97%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 97%
       + [Warnhinweise zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/scu-alerts.md)
       + [Häufig gestellte Fragen zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-faq.md)
 + Data Governance {#data-governance}
-   + [Adobe Analytics und die DSGVO](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics und der CCPA](c-data-governance/an-ccpa-overview.md)
-   + [CNIL-Zustimmungsfreistellung](c-data-governance/cnil-consent-exemption.md)
-   + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics-Workflow zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
-   + [Datenschutzbezeichnungen für Analytics-Komponenten](c-data-governance/gdpr-labels.md)
-   + [Report Suite-Daten beschriften](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Datenschutzbezeichnungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
-   + [Best Practices für Beschriftungen](c-data-governance/gdpr-analytics-ids.md)
-   + [Beschriftungsbeispiel](c-data-governance/gdpr-labeling-example.md)
+   + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
+   + Datenbeschriftung {#data-labels}
+      + [Datenschutzbezeichnungen für Analytics-Komponenten](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Report Suite-Daten beschriften](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Datenschutzbezeichnungen von Report Suites anzeigen/verwalten](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Best Practices für Beschriftungen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Beschriftungsbeispiel](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
-   + [Namespaces](c-data-governance/gdpr-namespaces.md)
    + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
-   + [Datenschutz und Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminologie zum Datenschutz](c-data-governance/gdpr-terminology.md)
+   + [CNIL-Zustimmungsfreistellung](c-data-governance/cnil-consent-exemption.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
