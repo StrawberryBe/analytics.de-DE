@@ -4,10 +4,10 @@ title: Projekte speichern
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 39%
+source-wordcount: '727'
+ht-degree: 38%
 
 ---
 
@@ -85,10 +85,6 @@ Auswählen **Nein** , um die automatisch gespeicherte Kopie zu löschen und die 
 Bei **neuen** Projekten, die noch nie gespeichert wurden, können nicht gespeicherte Änderungen nicht wiederhergestellt werden.
 
 ## Öffnen einer vorherigen Version {#previous-version}
-
->[!NOTE]
->
->Frühere Projektversionen sind derzeit in begrenztem Umfang verfügbar.
 
 So öffnen Sie eine frühere Version eines Projekts:
 
