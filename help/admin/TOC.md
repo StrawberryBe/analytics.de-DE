@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
+source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 97%
@@ -20,16 +20,6 @@ ht-degree: 97%
    + [Welches Adobe Analytics-Tool sollte ich verwenden?](get-started/which-analytics-tool.md)
    + [Analytics – Produktvergleich und Voraussetzungen](get-started/analytics-product-comparison.md)
    + [Systemanforderungen](get-started/sys-reqs.md)
-   + Unternehmenseinstellungen {#company-settings}
-      + [Übersicht über Unternehmenseinstellungen](get-started/company/c-company-settings.md)
-      + [Funktionszugriffsebenen](get-started/company/feature-access-levels.md)
-      + [Web-Services](get-started/company/web-services-admin.md)
-      + [Report Builder-Berichte](get-started/company/report-builder-reports-admin.md)
-      + [Single Sign-on](get-started/company/single-signon-admin.md)
-      + [Ausstehende Aktionen](get-started/company/pending-actions-admin.md)
-      + [Co-Branding](get-started/company/co-branding-admin.md)
-      + [Ausblenden von Report Suites](get-started/company/c-hide-report-suites.md)
-      + [Sicherheits-Manager](get-started/company/security-manager.md)
 + Benutzerberechtigungen in der Adobe Admin Console {#admin-console}
    + [Analytics in der Adobe Admin Console](admin-console/home.md)
    + [Erstes Adobe Analytics-Handbuch für Admins](admin-console/first-admin-guide.md)
@@ -160,6 +150,16 @@ ht-degree: 97%
             + [Übersicht über Echtzeitberichte](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Konfiguration von Echtzeitberichten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+   + Unternehmenseinstellungen {#company-settings}
+      + [Übersicht über Unternehmenseinstellungen](admin/company/c-company-settings.md)
+      + [Funktionszugriffsebenen](admin/company/feature-access-levels.md)
+      + [Web-Services](admin/company/web-services-admin.md)
+      + [Report Builder-Berichte](admin/company/report-builder-reports-admin.md)
+      + [Single Sign-on](admin/company/single-signon-admin.md)
+      + [Ausstehende Aktionen](admin/company/pending-actions-admin.md)
+      + [Co-Branding](admin/company/co-branding-admin.md)
+      + [Ausblenden von Report Suites](admin/company/c-hide-report-suites.md)
+      + [Sicherheits-Manager](admin/company/security-manager.md)
    + [Vereinfachtes Berichtsmenü](admin/t-simplified-menu.md)
    + [Video-Management](admin/video-management.md)
    + Nutzung der Server-Aufrufe {#server-call-usage}
