@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '3556'
+source-wordcount: '3549'
 ht-degree: 99%
 
 ---
@@ -178,7 +178,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 24. Januar 2020 | Aktualisierungen der Seite [Zeileneinstellungen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=de#cja-workspace) in Arbeitsbereich. |
 | 16. Januar 2020 | Neue Dokumentation zu [Freiformtabellen-Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=de). Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Arbeitsbereich Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
 | 13. Januar 2020 | [Adobe Analytics und Browser-Cookies](/help/technotes/cookies/cookies.md) wurde hinzugefügt. |
-| 13. Januar 2020 | Die Seite [Welches Adobe Analytics-Tool sollte ich verwenden?](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=de) wurde geändert. |
+| 13. Januar 2020 | Die Seite [Welches Adobe Analytics-Tool sollte ich verwenden?](/help/analyze/get-started/which-analytics-tool.md) wurde geändert. |
 
 ### 2019 {#19}
 

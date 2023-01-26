@@ -3,10 +3,10 @@ title: Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-
 description: Erfahren Sie, wie Sie die Auswirkungen von Beschränkungen für Browser-Cookies reduzieren können, um die Datenerfassung für Adobe Analytics zu verbessern.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Diese Browser-Beschränkungen spiegeln einen allgemeinen Übergang vom anonymen 
 
 Die Server-seitige Erfassung bietet die Flexibilität, Ihre eigene Kennung bereitzustellen, anstatt sich bei der Festlegung von Cookies auf Browser-Mechanismen zu verlassen.
 
-Sie können Daten Server-seitig mit der [Data Insertion-API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) oder der [Bulk Data Insertion-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) an Analytics senden. Die Bulk Data Insertion-API wird für neue Server-seitige Implementierungen empfohlen. Einen Vergleich der beiden APIs finden Sie unter „[Welches Adobe Analytics-Werkzeug sollte ich verwenden](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=de)“.
+Sie können Daten Server-seitig mit der [Data Insertion-API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) oder der [Bulk Data Insertion-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) an Analytics senden. Die Bulk Data Insertion-API wird für neue Server-seitige Implementierungen empfohlen. Einen Vergleich der beiden APIs finden Sie unter[Welches Adobe Analytics-Tool sollte verwendet werden](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## Erstanbieter-Geräte-ID (FPID) mit Web SDK
 
