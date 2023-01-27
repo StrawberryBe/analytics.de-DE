@@ -1,8 +1,8 @@
 ---
-source-git-commit: d42b7ef770a51f0379e358367a5b64202970fd60
+source-git-commit: 9d8471189788dbf7b86374ea3976e0e8b4b0d00b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '120'
+ht-degree: 15%
 
 ---
 # Snippets
@@ -17,10 +17,10 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->Die in diesem Artikel beschriebene Funktion befindet sich in der Phase der eingeschränkten Testphase der Veröffentlichung. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+>Die in diesem Artikel beschriebene Funktion befindet sich in der Phase der eingeschränkten Testphase der Veröffentlichung und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
 
 ## Abschnitt zur eingeschränkten Testphase der Release-Phase {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->Die in diesem Abschnitt beschriebene Funktion befindet sich in der Phase der eingeschränkten Testphase der Veröffentlichung. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+>Die in diesem Abschnitt beschriebene Funktion befindet sich in der Phase der eingeschränkten Testphase der Veröffentlichung und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
