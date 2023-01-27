@@ -3,7 +3,7 @@ description: Beispiele für Datenschutzbezeichnungen für Adobe Analytics-Variab
 title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3685'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Datenschutzbezeichnungen für Analytics-Variablen
 
-## Warum Ihre Daten beschriften? {#why-label}
+## Warum beschriften Sie Ihre Daten? {#why-label}
 
 Viele Adobe-Kunden verfügen über juristische Teams, die die Datenschutzgesetze (DSGVO, CCPA usw.) geprüft haben. Diese Teams haben möglicherweise ihre eigenen Schlussfolgerungen bezüglich des Umgangs mit Daten gezogen, um Datenschutzgesetze einzuhalten. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Um diesen unterschiedlichen Vorstellungen bei der Datenverarbeitung unter Einhaltung des Datenschutzes und den verschiedenen Datensätzen beizukommen, können Datenverantwortliche die Einstellungen für die Datenverarbeitung unter Einhaltung des Datenschutzes ihrer individuellen Daten nach eigenen Wünschen anpassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
 
@@ -66,7 +66,7 @@ Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertra
 
 Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon auszugehen, dass auf eine Vielzahl Ihrer Variablen Zugriffsbeschriftungen angewendet werden. Es obliegt jedoch Ihnen, nach Absprache mit Ihrer Rechtsabteilung zu entscheiden, welche von Ihnen erfassten Daten für die Datensubjekte freigegeben werden sollen.
 
-### Datenschutz-Löschbeschriftungen
+### Datenschutz - Löschbeschriftungen
 
 Im Gegensatz zu anderen Beschriftungen schließen sich diese Löschbeschriftungen nicht gegenseitig aus. Sie können eine von ihnen, beide oder keine auswählen. Eine separate [!UICONTROL None]-Beschriftung ist nicht erforderlich, da [!UICONTROL None] einfach dadurch angezeigt wird, dass keine der Löschoptionen aktiviert wird.
 
@@ -79,7 +79,7 @@ Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der di
 
 {style=&quot;table-layout:auto&quot;}
 
-### Datenschutz-Identitätsbeschriftungen
+### Datenschutz-Identitätsbezeichnungen
 
 | Beschriftung | Definition | Weitere Anforderungen |
 | --- | --- | --- |

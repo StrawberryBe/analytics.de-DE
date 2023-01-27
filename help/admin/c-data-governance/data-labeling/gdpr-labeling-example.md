@@ -3,16 +3,16 @@ description: Zeigt Beispiele zum Beschriften von Daten für Trefferdaten, Zugrif
 title: Beschriftungsbeispiele
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Beschriftungsbeispiele
 
-## Treffer-Beispieldaten
+## Beispieltrefferdaten {#hit}
 
 Angenommen, es liegen die folgenden Trefferdaten vor:
 
@@ -32,7 +32,7 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## Beispiel einer Zugriffsanfrage
+## Beispielzugriffsanfrage {#access}
 
 Wenn Sie eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in der Tabelle unten angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur dann zurückgegeben, wenn eine Personen-ID verwendet wird und wenn die Option „expandIDs“ auf „true“ festgelegt ist.
 
@@ -141,7 +141,7 @@ Wenn Sie eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in 
 
 Beachten Sie, dass die Einstellung für „expandIDs“ keinen Einfluss auf die Ausgabe hat, wenn eine Cookie-ID verwendet wird.
 
-## Beispiellöschanfragen
+## Beispiellöschanfragen {#delete}
 
 Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwendet werden, wird die Treffertabelle aktualisiert und sieht dann folgendermaßen aus:
 

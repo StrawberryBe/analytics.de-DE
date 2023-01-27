@@ -3,7 +3,7 @@ description: Das Dialogfeld Datenschutzbezeichnungen für Data Governance bietet
 title: Datenschutzbezeichnungen für Data Governance anzeigen/verwalten
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, wenn Sie DULE-/Datenschutzeinstellungen auf mehrere Rep
    >
    >Sie sollten immer die Ziel-Report Suites überprüfen, um sicherzustellen, dass die Beschriftungen korrekt kopiert wurden. Dies ist insbesondere für Variablen mit ID- oder DEL-Beschriftungen wichtig.
 
-## Exportieren in eine CSV-Datei
+## Exportieren in eine CSV-Datei {#export-csv}
 
 Sie können eine CSV-Datei herunterladen, die alle aktuellen Beschriftungsdefinitionen für alle Variablen für die ausgewählten Report Suites enthält. Es wird empfohlen, dass Ihr Rechtsteam Ihre Beschriftungsoptionen überprüft. Diese Option erleichtert diese Überprüfung. Statt die Überprüfung durchführen zu müssen, während Sie bei der Data-Governance-Benutzeroberfläche angemeldet sind, können Sie einfach die CSV-Datei weitergeben.
 
@@ -85,6 +85,6 @@ Sie können eine CSV-Datei herunterladen, die alle aktuellen Beschriftungsdefini
 
 1. Wählen Sie eine oder mehrere Report Suites aus, für die Sie alle Data Governance-Einstellungen exportieren möchten.
 
-## Bearbeiten von Datenschutzbezeichnungen
+## Bearbeiten von Datenschutzbezeichnungen {#edit}
 
 Siehe [Zuweisen oder Bearbeiten von Datenschutzbezeichnungen für Report Suites](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

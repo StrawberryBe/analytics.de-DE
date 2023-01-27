@@ -3,10 +3,10 @@ description: Informieren Sie sich über die IDs, die in Ihren Analytics-Daten er
 title: Best Practices für Beschriftungen
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Beachten Sie, dass die Beschriftung jedes Mal überprüft werden muss, wenn eine neue Report Suite erstellt wird oder in einer vorhandenen Report Suite eine neue Variable aktiviert wird. Sie müssen die Beschriftung möglicherweise auch dann überprüfen, wenn neue Lösungsintegrationen aktiviert werden, da sie neue Variablen zur Verfügung stellen können, für die eine Beschriftung erforderlich ist. Durch eine erneute Implementierung Ihrer Mobile Apps oder Websites kann sich die Art und Weise der Verwendung vorhandener Variablen ändern. Dadurch kann ebenfalls eine Aktualisierung der Beschriftungen erforderlich sein.
 
-## Direkt und indirekt identifizierbare IDs {#section_030799AA1397433FBA61A2BC60A7A750}
+## Direkt oder indirekt identifizierbare IDs {#direct-vs-indirect}
 
 Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern hinzugefügt werden müssen, sollten Sie zunächst die Grundlagen zu den IDs kennen, die Sie in Ihren Analytics-Daten erfassen, und entscheiden, welche hiervon Sie für Datenschutzanfragen verwenden wollen. Datenschutz erweitert den Umfang dessen, was als ID gilt. IDs lassen sich allgemein in zwei Klassen unterteilen: direkt identifizierbare (Identitätsbeschriftung: I1) und indirekt identifizierbare IDs (Identitätsbeschriftung: I2).
 
@@ -32,7 +32,7 @@ Selbst wenn Ihr Unternehmen innerhalb Ihrer Analytics-Daten viele verschiedene I
 * Manche IDs gelten für mehrere Personen und Sie können nicht riskieren, Informationen zu anderen Personen mit derselben ID zurückzugeben. Selbst wenn Sie beispielsweise validieren können, dass der Name der Person Max Müller lautet, können Sie nicht alle Daten über alle Max Müllers in Ihrem System zurückgeben.
 * Ein weiteres Beispiel ist die Geräte-ID, wie z. B. die Analytics-Cookie-ID. Wenn die ID in einer App auftritt, gehen Sie vielleicht davon aus, dass alle Interaktionen unter Verwendung dieser ID dem Besitzer des entsprechenden Mobilgeräts zur Verfügung stehen sollten. Wenn diese ID jedoch auf einem gemeinsam genutzten Gerät verwendet wird, wie z. B. einem PC oder Computer in einer Bibliothek oder einem Internetcafé, können Sie nicht zwischen den verschiedenen Benutzern dieses Geräts unterscheiden. Deshalb ist das Risiko, Daten anderer Benutzer zurückzugeben, möglicherweise zu hoch, um diesen ID-Typ zu verwenden.
 
-## Best Practices für Analytics-unterstützte IDs {#section_B6481505FF1949498D4B4B35B780D050}
+## Best Practices für von Analytics unterstützte IDs {#best-practices-an}
 
 Anhand dieser Tabelle können Sie die ID-Typen bestimmen, mit deren Hilfe Sie Datenschutzanfragen an Analytics senden. Sobald Sie diese Informationen kennen, können Sie die anderen Beschriftungen, die Sie für Ihre Variablen verwenden sollten, leichter bestimmen.
 
@@ -68,7 +68,7 @@ Anhand dieser Tabelle können Sie die ID-Typen bestimmen, mit deren Hilfe Sie Da
  </tbody> 
 </table>
 
-## Best Practices für Löschbeschriftungen {#section_08166C99B48E49218392FAC18922C10E}
+## Best Practices zum Festlegen von Löschbeschriftungen {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Die Löschbeschriftungen DEL-DEVICE und DEL-PERSON sollten sparsam eingesetzt we
 
    Wenn beispielsweise drei Treffer den Wert „foo“ in eVar7 enthalten, jedoch nur einer davon auch eine ID in einer anderen Variable beinhaltet, die einem Löschvorgang zugeordnet ist, wird der Wert „foo“ für diesen Treffer zu einem Wert wie „Datenschutz-123456789“ geändert, während er für die anderen beiden Treffer unverändert bleibt. In einem Bericht, der Aufschluss über die Anzahl eindeutiger Werte für eVar7 gibt, werden nun mehr eindeutige Werte angezeigt als zuvor. In einem Bericht mit den Höchstwerten für eVars ist „foo“ möglicherweise nur mit zwei Instanzen enthalten (anstatt zuvor mit 3), und der neue Wert wird ebenfalls mit einer einzelnen Instanz angezeigt.
 
-## Best Practices für Zugriffsbeschriftungen {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Best Practices zum Festlegen von Zugriffsbeschriftungen {#best-practices-access}
 
 Zwar verfügen nur wenige Felder über einige der anderen Beschriftungen, jedoch wird es häufig vorkommen, dass viele Felder ACC-Beschriftungen aufweisen. Die passenden Zugriffsbeschriftungen hängen von den IDs ab, die Sie für Datenschutzanfragen verwenden.
 

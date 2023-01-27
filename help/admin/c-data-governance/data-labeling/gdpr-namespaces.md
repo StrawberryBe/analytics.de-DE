@@ -3,10 +3,10 @@ description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace 
 title: Namespaces
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Der Wert muss in Form von zwei Hexadezimalzahlen, getrennt durch einen Bindestri
 
 Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"namespace": "AAID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
-## Legacy-Analytics-Tracking-Cookie: Veraltete Form
+## Legacy-Analytics-Tracking-Cookie: Veraltetes Formular
 
 ```
 {
@@ -52,7 +52,7 @@ Veraltete Form:
 
 Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, Unterstrich oder Doppelpunkt getrennt sein. Vorangestellte Nullen sollten hinzugefügt werden, wenn beide Zahlen nicht genügend Ziffern haben.
 
-## Identity Service Cookie
+## Identity Service-Cookie
 
 ```
 {
@@ -90,7 +90,7 @@ Der JavaScript-Code füllt den JSON-Abschnitt mit anderen Schlüssel-Wert-Paaren
 
 Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
 
-## IDs in benutzerspezifischen Variablen
+## IDs in benutzerdefinierten Variablen
 
 ```
 {
