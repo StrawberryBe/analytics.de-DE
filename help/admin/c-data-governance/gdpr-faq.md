@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zur Verwaltung von Adobe Analytics-Daten
 title: Häufig gestellte Fragen zu Data Governance
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 88%
+source-wordcount: '2164'
+ht-degree: 87%
 
 ---
 
@@ -49,6 +49,20 @@ Das Data Governance-Tool beinhaltet die folgenden Datenbeschriftungen:
 * Beschriftungen von Datenschutzdaten:  Werden zum Definieren der Felder verwendet, die möglicherweise persönliche, in Datenschutzanfragen verwendete Kennzeichnungen enthalten oder die im Rahmen der Datenschutz-Löschanfrage entfernt werden sollen. In einigen Fällen können sich diese Beschriftungen mit den Beschriftungen für Identitätsdaten und vertrauliche Daten überschneiden.
 
 Weitere Informationen zu den Data Governance-Beschriftungen finden Sie unter [Datenschutzbeschriftungen für Analytics-Variablen](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+
++++
+
++++ **Wie kann ich überprüfen, ob die Datenschutzanfragen ordnungsgemäß funktionieren, um Daten aus Adobe Analytics zu löschen?**
+
+In der Regel richten Analytics-Kunden einige Test-Report Suites ein, um die Funktionalität zu überprüfen, bevor sie für die allgemeine Öffentlichkeit freigegeben werden. Bevor echter Traffic an die Produktions-Report Suites gesendet wird, senden Staging-Websites und -Apps die Daten an die entsprechenden Test-, Entwicklungs- oder QS-Report Suites, um zu überprüfen, wie sie nach Veröffentlichung des Codes funktionieren werden.
+
+Mit einer normalen Konfiguration kann die Verarbeitung von DSGVO-Anfragen jedoch nicht erst an diesen Test-Report Suites getestet werden, bevor sie auf die Produktions-Report Suites angewendet wird. Grund hierfür ist, dass eine Datenschutzanfrage automatisch auf alle Report Suites in der Experience Cloud-Organisation angewendet wird, was häufig allen Report Suites für Ihr Unternehmen entspricht.
+
+Es gibt jedoch einige Möglichkeiten, wie Sie Ihre Datenschutzverarbeitung vor der Anwendung auf all Ihre Report Suites testen können:
+
+* Eine Option ist die Einrichtung einer separaten Experience Cloud-Organisation, die nur Test-Report Suites enthält. Verwenden Sie dann diese Experience Cloud-Organisation für Ihren Datenschutztest und Ihre normale Experience Cloud-Organisation für die eigentliche Datenschutzverarbeitung.
+
+* Eine weitere Option ist es, den IDs in Ihren Test-Report-Suites andere Namespaces zuzuweisen als in den Produktions-Report-Suites. Sie können beispielsweise jedem Namespace in Ihren Test-Report Suites „qs-“ voranstellen. Wenn Sie Datenschutzanfragen senden, die nur Namespaces mit dem Präfix „qs-“ enthalten, werden diese Anfragen nur im Rahmen Ihrer Test-Report Suites ausgeführt. Wenn Sie die Anfragen später ohne das Präfix senden, werden sie auf Ihre Produktions-Report Suites angewendet. **Dies ist der empfohlene Ansatz, es sei denn, Sie verwenden die visitorId-, AAID-, ECID- oder customVisitorId-Namespaces. Diese Namespaces sind hartcodiert und Sie können keine alternativen Namen für sie in Ihren Test-Report Suites angeben.**
 
 +++
 
