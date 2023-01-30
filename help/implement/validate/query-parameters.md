@@ -3,10 +3,10 @@ title: Datenerfassungs-Abfrageparameter
 description: Listet alle in Bildanforderungen verwendeten Abfragezeichenfolgenparameter auf.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | URLs, die länger als 255 Byte sind, werden geteilt. Die ersten 255 Byte werden im `g`-Parameter und alle verbleibenden Byte im `-g`-Parameter angezeigt. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Abkürzung für die `pageName`-Abfragezeichenfolge. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Abkürzung für die `pageType`-Abfragezeichenfolge. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Präfix für mehrere Variablen, die [Client-Hinweise](/help/technotes/client-hints.md). |
 | `h1` – `h5` | [`hier1` – `hier5`](../vars/page-vars/hier.md) | Hierarchiedimensionen. |
 | `hp` | Keine | Wird nicht mehr verwendet. Legte in früheren Versionen von Adobe Analytics fest, ob die aktuelle URL die Homepage des Browsers war. |
 | `j` | Keine | Die im Browser installierte JavaScript-Version. |
