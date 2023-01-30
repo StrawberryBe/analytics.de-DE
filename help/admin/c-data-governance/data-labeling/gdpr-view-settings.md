@@ -3,9 +3,9 @@ description: Das Dialogfeld Datenschutzbezeichnungen für Data Governance bietet
 title: Datenschutzbezeichnungen für Data Governance anzeigen/verwalten
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 44%
 
 ---
@@ -45,7 +45,7 @@ Die **[!UICONTROL Datenschutzbezeichnungen für Data Governance]** bietet einen 
 
 ## Kopieren von Datenschutzbezeichnungen in eine Report Suite  {#copy-to-rs}
 
-Gehen Sie wie folgt vor, wenn Sie DULE-/Datenschutzeinstellungen auf mehrere Report Suites anwenden möchten:
+Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwenden möchten, führen Sie die folgenden Schritte aus:
 
 1. Wählen Sie die Variable aus, die Sie kopieren möchten. Beachten Sie, dass Sie die Beschriftungen nur für jeweils eine Variable kopieren können.
 1. Klicken **[!UICONTROL In Report Suite(s) kopieren]** unten im Dialogfeld &quot;Data Governance&quot;.
