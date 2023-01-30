@@ -3,10 +3,10 @@ description: Erläutert die Strategie zur kontinuierlichen Veröffentlichung von
 title: Veröffentlichung von Adobe Analytics-Funktionen
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 90%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmod
 
 [!UICONTROL Analysis Workspace] verwendet Funktionsmarkierungen (auch als „Umschalter“ bezeichnet), um die Sichtbarkeit neuer Funktionen zu steuern, sodass vor der Vollversion ein kontrollierter Skalierungstest durchgeführt werden kann. Diese Veröffentlichungsstrategie umfasst die folgenden Phasen:
 
-* **Freigabe für die Produktion (RTP)**: Der Code wird für die Produktion freigegeben, wobei die Sichtbarkeit der Funktionen in Analysis Workspace deaktiviert ist. Die Funktion ist manchmal in der Analytics-API 2.0 verfügbar.
+* **Eingeschränktes Testen**: Eine schrittweise Veröffentlichung beginnt mit Tests durch interne Adobe-Benutzer. Sie wird dann einer kleinen Gruppe von Kundenkonten zur Verfügung gestellt, um sicherzustellen, dass die Funktion den Kundenanforderungen und Erwartungen entspricht.
 
-* **Eingeschränktes Testen**: Eine schrittweise Veröffentlichung beginnt mit Tests durch interne Adobe-Benutzer. Die Verfügbarkeit der Version wird dann im Laufe einiger Monate von 0 % auf 100 % skaliert. Die schrittweise Einführung erfolgt auf der Organisationsebene in Experience Cloud, sodass alle Benutzer mit Berechtigung in einem Unternehmen dasselbe Erlebnis erhalten.
+* **Start des Rollouts**: Der Rollout einer stufenweisen Veröffentlichung beginnt mit der Phase des eingeschränkten Testens. Die Verfügbarkeit der Version für Kunden wird dann im Laufe einiger Monate von 0 % auf 100 % skaliert. Die schrittweise Einführung erfolgt auf der Organisationsebene in Experience Cloud, sodass alle Benutzer mit Berechtigung in einem Unternehmen dasselbe Erlebnis erhalten.
 
 * **Allgemeine Verfügbarkeit (GA)**: Die Funktion steht 100 % der berechtigten Experience Cloud-Organisationen zur Verfügung und die Veröffentlichung der Funktion ist abgeschlossen.
 
