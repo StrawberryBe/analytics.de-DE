@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 2ee9007bdb3e359c9d5babe81c6f64bd7d7b6e8e
+source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 99%
+source-wordcount: '1075'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 99%
             + [Spalteneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Zeileneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische im Vergleich zu statischen Elementen](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Paginierung, Filtern und Sortieren von Tabellen](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Tabellen filtern und sortieren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Arbeitsbereich-Summen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Kohortentabelle {#cohort-table}
          + [Was ist eine Kohortenanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
