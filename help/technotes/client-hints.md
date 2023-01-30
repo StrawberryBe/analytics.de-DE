@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1248'
+ht-degree: 73%
 
 ---
 
@@ -63,7 +63,7 @@ Zum jetzigen Zeitpunkt nicht. Sie können entweder alle Hinweise mit hoher Entro
 
 In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
-| Hinweis | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
+| Hinweis* | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | Browser und Hauptversion | Niedrig | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | TRUE |
@@ -75,7 +75,11 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 | Sec-CH-UA-Model | Gerätemodell | Hoch | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Betriebssystem/Platform-Version | Hoch | &quot;10&quot; |
 
-Hohe Entropiehinweise werden über den JavaScript-Aufruf erfasst und über den Abfrageparameter übergeben
+
+* Über die Kopfzeile werden Hinweise zur geringen Entropie erfasst. Hohe Entropiehinweise werden über JavaScript erfasst und in Abfragezeichenfolgenparametern übergeben.
+
+* High-Entropy-Hinweise werden über den JavaScript-Aufruf erfasst und über den Abfrageparameter übergeben
+
 
 +++
 
