@@ -1,13 +1,13 @@
 ---
-description: Video über Paginierung, Filterung und Sortierung
-title: Paginierung, Filtern und Sortieren von Tabellen
+description: Dokumentation, in der beschrieben wird, wie Tabellen in Analysis Workspace gefiltert und sortiert werden.
+title: Tabellen filtern und sortieren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 3%
+source-wordcount: '653'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ So filtern Sie Daten in Freiformtabellen:
 
    ![Filtersymbol in einer Tabelle](assets/table-filter-icon.png)
 
-1. Im [!UICONTROL **Suchbegriff oder -satz**] ein Wort oder eine Wortgruppe angeben, nach dem/der Sie filtern möchten. Es werden nur Zeilen angezeigt, die das Wort oder den exakten Satz enthalten, die angegeben sind.
+1. Im [!UICONTROL **Suchbegriff oder -satz**] ein Wort oder eine Wortgruppe angeben, nach dem/der Sie filtern möchten. Es werden nur Zeilen angezeigt, die das Wort oder den genauen Wortlaut enthalten.
 
 1. (Optional) Um nach verschiedenen Kriterien oder nach mehreren Kriterien zu filtern, wählen Sie [!UICONTROL **Erweitert anzeigen**].
 
@@ -46,7 +46,7 @@ So filtern Sie Daten in Freiformtabellen:
 
 ## Tabellen sortieren
 
-Sie können die Daten einer Freiformtabelle nach einer der in Analysis Workspace verfügbaren Spalten sortieren.
+Sie können die Daten einer Freiformtabelle nach jeder Spalte in Analysis Workspace sortieren, bei der es sich um eine Metrik handelt.
 
 Symbol für einen Abwärtspfeil ![Symbol mit Abwärtspfeil Sortierte Tabellenspalte](assets/table-sort-arrow-icon.png) ist in der Kopfzeile der Spalte sichtbar, nach der die Daten derzeit sortiert werden.
 

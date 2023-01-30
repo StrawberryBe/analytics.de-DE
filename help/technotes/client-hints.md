@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 73%
+source-wordcount: '1232'
+ht-degree: 72%
 
 ---
 
@@ -63,23 +63,20 @@ Zum jetzigen Zeitpunkt nicht. Sie können entweder alle Hinweise mit hoher Entro
 
 In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
-| Hinweis* | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
+| Hinweis | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | Browser und Hauptversion | Niedrig | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | TRUE |
-| Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Architektur der Site | Hoch | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Architektur-Bitnes | Hoch | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Vollständige Version des Browsers | Hoch | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Liste der Marken mit ihrer Version | Hoch | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Gerätemodell | Hoch | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Betriebssystem/Platform-Version | Hoch | &quot;10&quot; |
+| Sec-CH-UA | Browser und Hauptversion | Niedrig | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | `true` |
+| Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | `"Android"` |
+| Sec-CH-UA-Arch | Architektur der Site | Hoch | `"arm"` |
+| Sec-CH-UA-Bitness | Architektur-Bitnes | Hoch | `"64"` |
+| Sec-CH-UA-Full-Version | Vollständige Version des Browsers | Hoch | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | Gerätemodell | Hoch | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | Betriebssystem/Platform-Version | Hoch | `"10"` |
 
-
-* Über die Kopfzeile werden Hinweise zur geringen Entropie erfasst. Hohe Entropiehinweise werden über JavaScript erfasst und in Abfragezeichenfolgenparametern übergeben.
-
-* High-Entropy-Hinweise werden über den JavaScript-Aufruf erfasst und über den Abfrageparameter übergeben
-
+* Über den Anfrageheader werden Hinweise mit geringer Entropie erfasst.
+* High-Entropy-Hinweise werden über JavaScript erfasst und über Abfragezeichenfolgen-Parameterwerte weitergegeben. Die Abfragezeichenfolgenparameter verwenden `h.` als Präfix in der Bildanforderung.
 
 +++
 
