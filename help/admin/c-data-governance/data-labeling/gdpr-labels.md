@@ -3,9 +3,9 @@ description: Beispiele für Datenschutzbezeichnungen für Adobe Analytics-Variab
 title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern h
 
 Die Adobe Analytics-Datenschutzimplementierung unterstützt folgende Beschriftungen für Identitätsdaten, vertrauliche Daten und Data Governance.
 
-## DULE-Beschriftungen {#dule-labels}
-
->[!NOTE]
->
->Das DULE-Framework (Data Usage Labeling &amp; Enforcement) wurde entwickelt, um über alle Lösungen, Services und Plattformen von Adobe hinweg eine einheitliche Methode zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in der Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche vertraglichen Beschränkungen für die Daten gelten. In dieser ersten Version zeigt Analytics nur die DULE-Beschriftungen, die für den Datenschutz relevant sind. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
-
-## Beschriftungen für Identitätsdaten (DULE) {#identity-data-labels}
+## Identitätsdatenbezeichnungen {#identity-data-labels}
 
 Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann.
 
@@ -39,7 +33,7 @@ Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu
 
 {style=&quot;table-layout:auto&quot;}
 
-## Beschriftungen für vertrauliche Daten (DULE) {#sensitive-data-labels}
+## Beschriftungen für vertrauliche Daten {#sensitive-data-labels}
 
 Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenbeschriftungen eingeführt, um andere Arten vertraulicher Informationen zu identifizieren.
 
@@ -133,9 +127,9 @@ Als weiteres Beispiel dient der Fall, in dem Sie eine CRM-ID verwenden, die manc
 >
 >Die Namespaces „visitorId“ und „customVisitorId“ sind zur Identifikation des früheren Tracking-Cookies von Analytics und der benutzerdefinierten Besucher-ID von Analytics reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic-Variablen oder Konversionsvariablen.
 
-## Variablentypen und unterstützte Datenschutz-/DULE-Beschriftungen {#variable-types}
+## Variablentypen und unterstützte Datenschutzbezeichnungen {#variable-types}
 
-Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Variablen aus. Nicht alle Variablen unterstützen alle Beschriftungen. Die folgende Tabelle zeigt, welche Variablen welche Beschriftungen unterstützen.
+Die Datenschutzbeschriftung wirkt sich auf vier Klassen von Analytics-Variablen aus. Nicht alle Variablen unterstützen alle Beschriftungen. Die folgende Tabelle zeigt, welche Variablen welche Beschriftungen unterstützen.
 
 | Variablentyp | Unterstützte Beschriftungen | Nicht unterstützte Beschriftungen |
 |--- |--- |--- |
