@@ -3,8 +3,8 @@ title: Implementieren von Adobe Analytics mit dem Adobe Experience Platform Mobi
 description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Platform-Datenerfassung, um Daten an Adobe Analytics zu senden.
 source-git-commit: 5adc3fe1eab0a358573ebdc12e51c6753e85b14c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

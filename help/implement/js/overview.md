@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie Adobe Analytics mit JavaScript ohne Tag-Manag
 feature: Implementation Basics
 source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 45%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
