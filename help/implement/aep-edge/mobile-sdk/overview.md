@@ -1,27 +1,42 @@
 ---
 title: Implementieren von Adobe Analytics mit dem Adobe Experience Platform Mobile SDK
 description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Platform-Datenerfassung, um Daten an Adobe Analytics zu senden.
-exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5adc3fe1eab0a358573ebdc12e51c6753e85b14c
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 20%
 
 ---
 
 # Implementieren von Adobe Analytics mit dem Adobe Experience Platform Mobile SDK
 
-Mit dem Adobe Experience Platform Mobile SDK können Sie die Experience Cloud-Lösungen und -Services von Adobe in Ihren Mobile Apps nutzen. Es ist für Android, iOS und verschiedene plattformübergreifende Entwicklungs-Frameworks verfügbar. Die Konfiguration erfolgt über die Datenerfassung von Adobe Experience Platform.
-
-So senden Sie Daten mit dem Mobile SDK an Adobe Experience Edge:
-
-1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
-2. Wählen Sie die gewünschte Eigenschaft aus der Liste aus oder [richten Sie eine Mobile-Eigenschaft ein](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
-3. Navigieren Sie zur Registerkarte „Erweiterungen“ und installieren Sie die Erweiterung [Identity for Edge Network](https://aep-sdks.gitbook.io/docs/foundation-extensions/identity-for-edge-network).
-4. Installieren Sie [Adobe Experience Platform Edge Network](https://aep-sdks.gitbook.io/docs/foundation-extensions/experience-platform-extension).
-5. [Konfigurieren Sie einen Datenstrom](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams) und fügen Sie Adobe Analytics als Service hinzu, der auf die gewünschte Report Suite verweist.
-6. [Installieren Sie das SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) in Ihrer Mobile App.
-
+Mit dem Adobe Experience Platform Mobile SDK können Sie die Experience Cloud-Lösungen und -Services von Adobe in Ihren Mobile Apps nutzen. Es ist für Android™, iOS und verschiedene plattformübergreifende Entwicklungs-Frameworks verfügbar. Die Konfiguration erfolgt über die Datenerfassung von Adobe Experience Platform.
 >[!IMPORTANT]
 >
 >Eine Adobe Analytics-Erweiterung ist ebenfalls in der Datenerfassung von Adobe Experience Platform verfügbar. Wenn Sie diese Erweiterung installieren, nutzen Sie weder XDM noch das Edge-Netzwerk.
+
+## Adobe Experience Platform SDK
+
+Eine allgemeine Übersicht über die Implementierungsaufgaben:
+
+![Adobe Analytics mithilfe des Workflows für die Analytics-Erweiterung](../../assets/mobilesdk-annotated.png)
+
+| | Aufgabe | Weitere Informationen | |-| —|—| | 1 | Stellen Sie sicher, dass **Report Suite definiert haben**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Einrichten von Schemata und Datensätzen**. Um die Datenerfassung für die Verwendung in allen Anwendungen zu standardisieren, die Adobe Experience Platform nutzen, hat Adobe den offenen und öffentlich dokumentierten Standard Experience-Datenmodell (XDM) erstellt. | [Einrichten von Schemata und Datensätzen](https://developer.adobe.com/client-sdks/documentation/getting-started/set-up-schemas-and-datasets/) | | 3 | **Konfigurieren eines Datenspeichers**. Ein Datastream stellt die serverseitige Konfiguration bei der Implementierung des Adobe Experience Platform Web SDK dar. | [Konfigurieren eines Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) | | 4 | **Hinzufügen eines Adobe Analytics-Dienstes** in Ihren Datastream. Dieser Dienst steuert, ob und wie Daten an Adobe Analytics gesendet werden. | [Hinzufügen des Adobe Analytics-Dienstes zu einem Datenspeicher](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics) | | 5 | **Erstellen einer mobilen Eigenschaft**. Eine Eigenschaft ist ein Container, den Sie mit Erweiterungen, Regeln, Datenelementen und Bibliotheken füllen. | [Einrichten einer mobilen Eigenschaft](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 6 | **Installieren der Adobe Experience Platform Edge Network-Erweiterung** in der mobilen Tag-Eigenschaft und konfigurieren Sie den Datastream in der Erweiterung. | [Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network/) | | 7 | **Verwenden des Codes in Ihrer App** , um die erforderlichen Erweiterungen zu registrieren und Ihre Tag-Konfiguration zu laden. | [Einrichten der Konfiguration](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 8 | **Implementieren und Testen von Funktionen** Verwenden Sie eine Kombination aus den Datenelementen, Regeln, zusätzlichen Erweiterungen und SDK-API-Aufrufen des Tags in Ihrer App. Datenerfassung und Erlebnisse für Ihre Mobile App in Inspect validieren und debuggen. | [Beispielanwendung verwenden](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 9 | **Mobile-App-Implementierung erweitern und validieren** bevor sie in die Produktion verschoben wird. | |
+
+
+## Adobe Analytics-Erweiterung.
+
+Eine allgemeine Übersicht über die Implementierungsaufgaben:
+
+![Adobe Analytics mithilfe des Workflows für die Analytics-Erweiterung](../../assets/mobilesdk-analytics-annotated.png)
+
+| | Aufgabe | Weitere Informationen | |-| —|—| | 1 | Stellen Sie sicher, dass **Report Suite definiert haben**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Erstellen einer mobilen Eigenschaft**. Eine Eigenschaft ist ein Container, den Sie mit Erweiterungen, Regeln, Datenelementen und Bibliotheken füllen. | [Einrichten einer mobilen Eigenschaft](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 3 | **Installieren der Adobe Analytics-Erweiterung** in der mobilen Tag-Eigenschaft und konfigurieren Sie die Erweiterung so, dass sie auf Ihre Report Suite verweist. | [Adobe Analytics-Erweiterung für mobile Eigenschaft](https://developer.adobe.com/client-sdks/documentation/adobe-analytics/) | | 4 | **Verwenden des Codes in Ihrer App** , um die erforderlichen Erweiterungen zu registrieren und Ihre Tag-Konfiguration zu laden. | [Einrichten der Konfiguration](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 5 | **Implementieren und Testen von Funktionen** Verwenden Sie eine Kombination aus den Datenelementen, Regeln, zusätzlichen Erweiterungen und SDK-API-Aufrufen des Tags in Ihrer App. Datenerfassung und Erlebnisse für Ihre Mobile App in Inspect validieren und debuggen. | [Beispielanwendung verwenden](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 6 | **Mobile-App-Implementierung erweitern und validieren** bevor sie in die Produktion verschoben wird. | |
+
+## Zusätzliche Ressourcen
+
+- [Dokumentation zu Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de#)
+
+- [Mobile-SDKs – Dokumentation](https://developer.adobe.com/client-sdks/documentation/)
+
+
+
