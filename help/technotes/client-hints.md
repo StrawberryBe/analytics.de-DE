@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 72%
+source-wordcount: '1245'
+ht-degree: 71%
 
 ---
 
@@ -77,6 +77,8 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
 * Über den Anfrageheader werden Hinweise mit geringer Entropie erfasst.
 * High-Entropy-Hinweise werden über JavaScript erfasst und über Abfragezeichenfolgen-Parameterwerte weitergegeben. Die Abfragezeichenfolgenparameter verwenden `h.` als Präfix in der Bildanforderung.
+
+Hohe Entropiehinweise werden über den JavaScript-Aufruf erfasst und über den Abfrageparameter übergeben
 
 +++
 

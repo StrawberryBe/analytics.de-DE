@@ -4,10 +4,10 @@ title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 100%
+source-wordcount: '1789'
+ht-degree: 98%
 
 ---
 
@@ -102,6 +102,16 @@ Wenn der gewünschte Datumsbereich noch nicht erstellt wurde, können Sie durch 
 
 Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue Komponente für den Datumsbereich erstellen und speichern können.
 
+### Vergleichsdatumsbereiche anzeigen {#showo-comparison-dates}
+
+Um Vergleichsdatumsbereiche einzubeziehen, schalten Sie die **Vergleichsdaten einschließen** -Einstellung.
+
+![Vergleichsdaten einschließen](assets/include-comparison-dates.png)
+
+Die Einstellung lautet *on* Standardmäßig. Deaktivieren Sie die Option, wenn Sie keine Vergleichsdaten anzeigen möchten.
+
+![Nicht ausgewählte Vergleichsdatumseinstellung](assets/no-comparison-dates.png)
+
 ## Visualisierungen anwenden {#viz}
 
 Video zu Visualisierungen für Mobile-Scorecards ansehen:
@@ -174,7 +184,7 @@ Jede der Detailfolie hinzugefügte Dimension wird in einer Dropdown-Liste in der
 
 ## Anpassen von Detailfolien {#customize-detail-slide}
 
-Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Audience mit noch zielgerichteteren Informationen anzusprechen.
+Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit noch zielgerichteteren Informationen anzusprechen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410002)
 

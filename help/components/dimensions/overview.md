@@ -3,10 +3,10 @@ title: Dimensionen – Übersicht
 description: Variablen, die Zeichenfolgenwerte enthalten.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 63%
 
 ---
 
@@ -26,6 +26,4 @@ Jede Dimension stellt einen anderen Teil oder eine andere Facette Ihrer Site dar
 
 ## Hinzufügen von Dimensionsbeschreibungen
 
-In diesem Video wird beschrieben, wie Sie in Adobe Analytics Beschreibungen von Dimensionen (und Metriken) hinzufügen:
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics-Administratoren können Beschreibungen für Dimensionen und andere Komponenten entweder innerhalb der Report Suite oder direkt in Analysis Workspace hinzufügen. Informationen zum Hinzufügen von Beschreibungen zu Dimensionen finden Sie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

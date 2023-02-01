@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
+source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '614'
 ht-degree: 95%
 
 ---
@@ -133,11 +133,9 @@ ht-degree: 95%
             + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [Marketing-Kanäle](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + Traffic-Management {#traffic-management}
-            + [Verwalten von Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [Planen von Traffic-Spitzen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-            + [Angeben einer dauerhaften Traffic-Zunahme](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-            + [Erforderliche Vorlaufzeit für Traffic-Zunahme](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+            + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Spitze planen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Dauerhafter Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Individuelle Report Suite-Einstellungen](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Mobile-App-Verwaltung](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Echtzeitberichte {#real-time-reports}
@@ -171,6 +169,7 @@ ht-degree: 95%
       + [Best Practices für Beschriftungen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [Beschriftungsbeispiel](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
    + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
    + [CNIL-Zustimmungsfreistellung](c-data-governance/cnil-consent-exemption.md)
 + [Admin-API](c-admin-api/c-admin-api.md)

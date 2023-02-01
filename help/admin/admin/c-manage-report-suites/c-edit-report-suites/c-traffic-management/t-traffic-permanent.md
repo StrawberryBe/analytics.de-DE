@@ -3,18 +3,20 @@ description: Im Abschnitt „Persistenter Traffic“ können Sie die erwarteten 
 title: Angeben einer dauerhaften Traffic-Zunahme
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 78%
 
 ---
 
 # Angeben einer dauerhaften Traffic-Zunahme
 
-Im Abschnitt „Persistenter Traffic“ können Sie die erwarteten Traffic-Mengen ändern, damit Adobe die Ressourcen im Hinblick auf das neue Traffic-Niveau neu zuordnen kann.
+Sie können die erwarteten Traffic-Niveaus ändern, sodass die Adobe Ressourcen neu zuweisen kann, um das neue Traffic-Niveau zu verarbeiten. (Alternativ können Sie [Traffic-Spitze planen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) , wenn Sie Ressourcen vorübergehend neu zuweisen möchten.)
 
-Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Zunahmen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md), bevor Sie eine dauerhafte Traffic-Zunahme festlegen.
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## Dauerhaften Traffic-Anstieg angeben
 
 1. Öffnen Sie Report Suite Manager durch Klicken auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.

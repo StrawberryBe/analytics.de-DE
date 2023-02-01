@@ -4,10 +4,10 @@ title: Übersicht über Kalender und Datumsbereiche
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: b08200266204bc01c943194ea2b0b002c2bfa878
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 67%
 
 ---
 
@@ -21,7 +21,7 @@ Im Folgenden finden Sie ein Video zur Verwendung von Datumsbereichen und Kalende
 
 Wenn Sie im Kalender etwas auswählen, bezieht sich diese Auswahl auf das jeweilige Panel. Sie haben jedoch die Möglichkeit, die Auswahl auf sämtliche Panels anzuwenden. Wenn Sie in Workspace auf einen Datumsbereich klicken, zeigt die Benutzeroberfläche den aktuellen Kalendermonat und den vorherigen Kalendermonat an. Sie können diese beiden Kalender anpassen, indem Sie auf die Rechts- und Linkspfeile in den jeweiligen oberen Ecken klicken.
 
-![Kalender](assets/aw_calendar.png)
+![Kalender](assets/aw_calendar1.png)
 
 Beim ersten Klick auf einen Kalender wird die Auswahl eines Datumsbereichs begonnen. Mit dem zweiten Klick wird die Auswahl des Datumsbereichs beendet und hervorgehoben. Wenn die `Shift` Taste gedrückt gehalten wird (oder ein Rechtsklick verwendet wird), wird der entsprechende Bereich an den derzeit ausgewählten Bereich angehängt.
 
@@ -32,7 +32,29 @@ Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspa
 | Einstellung | Beschreibung |
 |--- |--- |
 | Ausgewählte Tage | Ausgewählte Tage/Wochen/Monate/Jahre |
-| Rollierende Daten verwenden | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul>Ein Beispiel dazu finden Sie [hier](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| Erstellen von Datumsbereichskomponenten relativ zum Panel-Kalender | Beibehalten von Datumsangaben basierend auf dem Datumsbereich des Bedienfelds. |
+| Rollierende Daten verwenden | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul>Ein Beispiel finden Sie unter [Benutzerdefinierte Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Standardmäßig ausgewählt. |
 | Datumsbereich | Hier können Sie einen voreingestellten Datumsbereich auswählen. Der Standardwert lautet „Letzte 30 Tage“. **[!UICONTROL Diese Woche/Monat/Quartal/Jahr (außer heute)]** ermöglicht Ihnen, aus Datumsbereichen auszuwählen, die keine Daten von heute enthalten. |
 | In alle Bedienfelder übernehmen | Hiermit können Sie den ausgewählten Datumsbereich nicht nur für das aktuelle Bedienfeld, sondern für alle Bedienfelder des Projekts ändern. |
 | Übernehmen | Hiermit wird der Datumsbereich nur in diesem Bedienfeld übernommen. |
+
+## Über relative Bereichsdatumsbereiche {#relative-panel-dates}
+
+Wenn Sie in Workspace arbeiten, können Sie die Datumsbereichskomponenten relativ zum Bedienfeldkalender gestalten, damit die in der linken Leiste (oder in Komponenten) in der Vorschau angezeigten Daten auf dem Datumsbereich des Bedienfelds basieren. Drei gängige Anwendungsfälle, in denen relative Bereichsdaten wirksam werden, sind Kombinationsdiagramme, Schlüsselmetrikzusammenfassungen und Datumsbereiche der Freiformtabelle.
+
+So verwenden Sie relative Bereichsdatumsbereiche
+
+1. Wählen Sie die **Arbeitsbereich** Registerkarte.
+1. Auswählen **Leeres Projekt**.
+1. Fügen Sie Dimensionen, Metriken und Segmente über die linke Leiste hinzu.
+1. Klicken Sie auf das Feld für den Datumsbereich des Bedienfelds, um die Einstellung für den relativen Datumsbereich des Bedienfelds umzuschalten.
+1. Auswählen oder Aufheben der Auswahl **Stellen Sie Datumsbereichskomponenten relativ zum Bedienfeldkalender her.**.
+   * Wählen Sie die Option aus, um die Komponenten für den Datumsbereich relativ zum Bedienfeldkalender zu gestalten.
+   * Wenn Sie diese Option deaktivieren, werden die Datumsbereiche im Bedienfeld (entweder Schlüsselmetrikzusammenfassung, Kombinierte Diagramme oder violette Datumsabfragen) nicht aktualisiert, wenn der Datumsbereich des Bedienfelds geändert wird. Dies ist die Standardvorgehensweise.
+
+   ![relative Bereichsdaten](assets/relative-date-snippet.png)
+
+1. Klicken Sie auf **Anwenden**.
+Die relativen Daten werden oben rechts angezeigt.
+
+   ![relative Daten in Freiform ](assets/relative-date-range1.png)

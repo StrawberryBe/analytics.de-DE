@@ -3,10 +3,10 @@ title: Metriken – Übersicht
 description: Betrachten Sie Mengen von Dimensionselementen oder Daten im Zeitverlauf.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 82%
 
 ---
 
@@ -29,6 +29,4 @@ Wenn Sie eine bestimmte Metrik-Hilfeseite nicht finden können, handelt es sich 
 
 ## Hinzufügen von Metrikbeschreibungen
 
-In diesem Video wird beschrieben, wie Sie in Adobe Analytics Beschreibungen von Metriken (und Dimensionen) hinzufügen:
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics-Administratoren können entweder innerhalb der Report Suite oder direkt in Analysis Workspace Beschreibungen für Metriken und andere Komponenten hinzufügen. Informationen zum Hinzufügen von Beschreibungen zu Metriken finden Sie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

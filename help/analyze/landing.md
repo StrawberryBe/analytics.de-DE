@@ -4,7 +4,7 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
 ht-degree: 74%
@@ -195,7 +195,7 @@ Weitere Lernoptionen:
 
 ### Verwalten von Unternehmensberichten {#manage-company-reports}
 
-Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Die fixierten Elemente bleiben fixiert, gefolgt von der Liste der Unternehmensberichte, die von der ![Berichtssymbol](assets/report-icon.png) Berichtssymbol. In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
+Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Die fixierten Elemente bleiben fixiert, gefolgt von der Liste der Unternehmensberichte, die von der ![Berichtssymbol](assets/report-icon.png) Berichtssymbol . In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
 
 So zeigen Sie Unternehmensberichte an und verwalten sie
 
