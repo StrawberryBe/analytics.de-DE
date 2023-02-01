@@ -5,8 +5,8 @@ feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
