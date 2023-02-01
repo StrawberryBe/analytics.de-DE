@@ -4,8 +4,8 @@ description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft o
 feature: Implementation Basics
 source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 40%
 
 ---
 
