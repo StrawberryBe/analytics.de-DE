@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 3e023a3cbf4eb8c1ec337a791f816458786835f5
+source-git-commit: 526c7b0739ac9a4c1424bbb3cdfb320369725de6
 workflow-type: tm+mt
-source-wordcount: '3578'
+source-wordcount: '3592'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **Februar 2023** |  |
+| Implementierung | Aktualisierter Inhalt zum [Adobe Analytics für Web und Mobilgeräte implementieren](../implement/home.md). |
 | **Januar 2023** |  |
 | Tabellen filtern und sortieren | Aktualisierter Inhalt (einschließlich des Hinzufügens von Verfahren und der Erläuterung der verfügbaren Optionen) im [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) Artikel. Dieser Artikel wurde aus &quot;Paginierung, Filterung und Sortierung von Tabellen&quot;umbenannt. |
 | Ordner | Dedizierte Seiten für [Ordnerverwaltung](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
