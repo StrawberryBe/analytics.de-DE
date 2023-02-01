@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 96%
 + [Administratorhandbuch für Analytics](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Adobe Admin Console {#admin-console}
-   + [Analytics in der Adobe Admin Console](admin-console/home.md)
+   + [Überblick](admin-console/home.md)
    + [Erstes Adobe Analytics-Handbuch für Admins](admin-console/first-admin-guide.md)
    + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Zugriffsberechtigung {#permissions}
+   + Übersicht über die Berechtigungen für Analytics-Tools {#permissions}
       + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
       + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [Co-Branding](admin/company/co-branding-admin.md)
       + [Ausblenden von Report Suites](admin/company/c-hide-report-suites.md)
       + [Sicherheits-Manager](admin/company/security-manager.md)
-   + [Vereinfachtes Berichtsmenü](admin/t-simplified-menu.md)
    + [Video-Management](admin/video-management.md)
    + Nutzung der Server-Aufrufe {#server-call-usage}
       + [Übersicht zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-overview.md)
