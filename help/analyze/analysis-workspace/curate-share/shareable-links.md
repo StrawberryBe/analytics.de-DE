@@ -5,10 +5,10 @@ title: Erstellen von freigebbaren Links
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: '298'
+ht-degree: 80%
 
 ---
 
@@ -32,14 +32,6 @@ Sie können auch einen Link zu einem bestimmten Teil eines Projekts freigeben, z
 [Sehen Sie sich das Video an](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=de), wie Sie Links erstellen und diese verwenden, um Empfänger zu bestimmten Teilen Ihres Projekts zu führen.
 
 ![](assets/get-viz-link.png)
-
-## Öffentlichen Link abrufen
-
-{{release-limited-testing-section}}
-
-Sie können Analysis Workspace-Projekte für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Dies kann Personen außerhalb Ihres Unternehmens oder innerhalb Ihres Unternehmens umfassen, die nicht für Adobe Analytics bereitgestellt wurden.
-
-Weitere Informationen finden Sie unter [Öffentlichen Link für alle freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Links in Inhaltsverzeichnissen verwenden {#TOC}
 

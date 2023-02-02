@@ -5,31 +5,14 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 35%
+source-wordcount: '1132'
+ht-degree: 49%
 
 ---
 
 # Freigeben von Projekten
-
-Sie können ein Analysis Workspace-Projekt für die folgenden Personentypen freigeben:
-
-* Benutzer und Gruppen in Ihrem Unternehmen, die Zugriff auf Adobe Analytics haben
-
-* Benutzer und Gruppen in Ihrem Unternehmen, die keinen Zugriff auf Adobe Analytics haben
-
-* Personen außerhalb Ihrer Organisation
-
-Alle [Kuratierung](curate.md) Sie vor der Freigabe beantragen, wird beim Öffnen des Projekts durch die Empfänger angezeigt.
-
-Im Folgenden finden Sie eine Videoübersicht zur gemeinsamen Nutzung von Projekten:
-
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
-
-
-## Freigeben für Adobe Analytics-Benutzer und -Gruppen in Ihrer Organisation {#Add}
 
 Sie können ein Projekt für bestehende Adobe Analytics-Benutzer oder -Gruppen in Ihrem Unternehmen freigeben. Wenn Sie ein Projekt wie in diesem Abschnitt beschrieben freigeben, müssen die Benutzer, für die Sie freigeben, bereits über ein Adobe Analytics-Konto verfügen.
 
@@ -39,7 +22,7 @@ Sie können eine bestimmte Rolle für Benutzer oder Gruppen freigeben oder einen
 
 * [Link zu einem Projekt freigeben](#share-a-link-to-a-project)
 
-### Freigeben einer bestimmten Projektrolle
+## Freigeben einer bestimmten Projektrolle
 
 Beachten Sie beim Freigeben einer bestimmten Projektrolle für Benutzer und Gruppen in Ihrer Organisation Folgendes:
 
@@ -77,7 +60,7 @@ Wenn nicht gespeicherte Änderungen vorhanden sind, werden Sie aufgefordert, Ihr
 1. Klicken Sie auf **[!UICONTROL Freigabe]**.
 Sie können auch auf **[!UICONTROL Kuratieren und freigeben]** klicken, um die Projektkuratierung automatisch anzuwenden. Wenn ein Projekt bereits freigegeben wurde, werden für diese Schaltflächen **[!UICONTROL Aktualisieren]** und **[!UICONTROL Kuratieren und aktualisieren]** angezeigt. Weitere Informationen zur [Projektkuratierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
 
-### Link zu einem Projekt freigeben
+## Link zu einem Projekt freigeben
 
 Beachten Sie bei der Freigabe eines Links wie in diesem Abschnitt beschrieben Folgendes:
 
@@ -95,59 +78,6 @@ Wenn nicht gespeicherte Änderungen vorhanden sind, werden Sie aufgefordert, Ihr
 1. Klicken **[!UICONTROL Link kopieren]** neben dem **[!UICONTROL URL-Feld freigeben]**.
 
 1. Geben Sie den Link für Benutzer in Ihrer Organisation frei. Sie können sie beispielsweise in eine E-Mail, eine interne Website usw. einfügen.
-
-## Öffentlichen Link für alle freigeben (keine Anmeldung erforderlich) {#share-public-link}
-
-{{release-limited-testing-section}}
-
-Sie können Analysis Workspace-Projekte für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Dies kann Folgendes umfassen:
-
-* Personen außerhalb Ihrer Organisation
-
-* Personen in Ihrem Unternehmen, die nicht für Adobe Analytics bereitgestellt werden
-
->[!NOTE]
->
->Diese Option kann vom Analytics-Administrator deaktiviert werden, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Wenn Sie einen öffentlichen Link nicht wie in diesem Abschnitt beschrieben freigeben können, hat Ihr Analytics-Administrator diese Möglichkeit deaktiviert.
-
-So geben Sie einen öffentlichen Link zu einem Analysis Workspace-Projekt frei:
-
-1. Öffnen Sie das Analysis Workspace-Projekt, das Sie freigeben möchten.
-
-1. Klicken **[!UICONTROL Freigeben]** > **[!UICONTROL Öffentlichen Link freigeben]**.
-
-   Wenn nicht gespeicherte Änderungen vorhanden sind, werden Sie aufgefordert, Ihr Projekt zu speichern.
-
-   <!-- Add screen shot of new modal -->
-
-1. Aktivieren Sie die **[!UICONTROL Link-aktiv]** -Option, wenn sie noch nicht aktiviert ist.
-
-1. Wählen Sie aus, ob die folgenden Sicherheitsoptionen aktiviert werden sollen (diese Optionen können von Ihrem Analytics-Administrator gesteuert werden):
-
-   * **[!UICONTROL Authentifizierung mit Single Sign-on (SSO) erfordern]:**
-
-      Personen mit dem Link müssen sich über SSO authentifizieren, bevor sie Zugriff auf das freigegebene Projekt erhalten. Wählen Sie diese Option aus, wenn das Projekt nur für Benutzer in Ihrer Organisation zugänglich sein soll.
-
-      Analytics-Administratoren können diese Voreinstellung für das Unternehmen festlegen, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
-
-      * Wenn diese Option nicht angezeigt wird, ist die einmalige Anmeldung für Ihr Unternehmen nicht aktiviert oder Ihr Analytics-Administrator hat diese Funktion nicht aktiviert.
-
-      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator eine SSO-Authentifizierung, um auf alle öffentlichen Links zugreifen zu können.
-   * **[!UICONTROL Kennwort erforderlich]:** Personen mit dem Link müssen ein Kennwort angeben, bevor sie auf das Analysis Workspace-Projekt zugreifen können. Dies bietet ein zusätzliches Sicherheitsniveau für Ihr Projekt.
-
-      Wenn Sie diese Option auswählen, geben Sie ein Kennwort an. Denken Sie daran, dieses Kennwort zusammen mit dem Projekt-Link zu teilen, wenn Sie es für andere freigeben. <!--go through this workflow and see how it works.-->
-
-      Wenn diese Option aktiviert und abgeblendet ist, erfordert Ihr Analytics-Administrator, dass alle öffentlichen Links kennwortgeschützt sind. Analytics-Administratoren können diese Voreinstellung für das Unternehmen festlegen, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md).
-
-
-1. Neben dem **[!UICONTROL Mit anderen teilen (keine Anmeldung erforderlich)]** und klicken Sie auf das **Link kopieren** -Symbol, um den Link in die Zwischenablage Ihres Systems zu kopieren.
-
-1. Geben Sie den Link für die Personen frei, die Zugriff auf das Projekt haben möchten. Sie können beispielsweise den Link in eine E-Mail einfügen.
-
-   Alle Personen, für die Sie den Link freigeben, können das Analysis Workspace-Projekt anzeigen. Wenn Sie sich dafür entschieden haben, ein Passwort zu benötigen, müssen Sie das Passwort auch für alle freigeben, die auf den Link zugreifen möchten.
-
-1. Auswählen **[!UICONTROL Schließen]** , um das Dialogfeld &quot;Freigeben&quot;zu schließen. Ihre Änderungen werden automatisch gespeichert. <!-- True? -->
-
 
 ## Freigeben von Projekten im Projekt-Manager {#Manager}
 
