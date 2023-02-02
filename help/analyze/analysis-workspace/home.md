@@ -4,10 +4,10 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ In Ihrem Arbeitsbereich-Projekt können Sie von der linken Leiste aus auf **Bere
 
 ### Visualisierungen
 
-**Visualisierungen** wie Balken- oder Liniendiagramme werden dann über den Daten hinzugefügt, um sie visuell darzustellen. Wählen Sie in der linken Leiste das mittlere Symbol **[!UICONTROL Visualisierungen]** aus, um die vollständige Liste der verfügbaren [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) anzuzeigen.
+**Visualisierungen**, wie z. B. ein Balken- oder Liniendiagramm, verwendet werden, um Daten visuell darzustellen. Wählen Sie in der linken Leiste das mittlere Symbol **[!UICONTROL Visualisierungen]** aus, um die vollständige Liste der verfügbaren [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) anzuzeigen.
 
 ![](assets/build-visualizations.png)
 

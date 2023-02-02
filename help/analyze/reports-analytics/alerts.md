@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 96%
+source-wordcount: '841'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie in der Analysis Workspace-Dokumentation unter 
 
 ## Warnhinweis hinzufügen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-In diesen Schritten wird beschrieben, wie Sie Warnhinweise in Adobe Analytics hinzufügen.
+Sie können einen Warnhinweis in Adobe Analytics entweder über die Warnhinweiserstellung oder aus einem bestimmten Bericht hinzufügen.
 
 <!-- 
 
@@ -40,7 +40,11 @@ t_add_an_alert.xml
 
  -->
 
-Navigieren Sie zur neuen Warnhinweiserstellung im Menü **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]**. Sie können jedoch trotzdem aus Berichten in Reports &amp; Analytics darauf zugreifen:
+### Warnhinweis aus der Warnhinweiserstellung hinzufügen
+
+1. Auswählen **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** , um die Warnhinweiserstellung zu öffnen.
+
+### Warnhinweis aus einem einzelnen Bericht hinzufügen
 
 1. Öffnen Sie in Reports &amp; Analytics den Bericht, für den Sie einen Warnhinweis einrichten möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]**.
@@ -48,7 +52,7 @@ Navigieren Sie zur neuen Warnhinweiserstellung im Menü **[!UICONTROL Analytics]
 
 ## Bestehende Warnhinweise anzeigen oder bearbeiten {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-Aufgabenkontext
+<!-- add Task Context-->
 
 1. Gehen Sie zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**. Dadurch werden Sie zum neuen [Warnhinweis-Manager](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html) geleitet.
 

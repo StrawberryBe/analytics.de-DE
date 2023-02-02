@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Klicken **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTRO
 
 ## Freigegebene Dashboards verwalten
 
-Schritte, in denen beschrieben wird, wie Sie die Verwaltungsoptionen für freigegebene Dashboards verwenden.
+So verwalten Sie freigegebene Dashboards:
 
 1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Alle Komponenten]** > **[!UICONTROL Dashboards]**.
 1. Suchen Sie unter [!UICONTROL „Freigegebene Dashboards“] das freigegebene Dashboard (oder Legacy-Dashboard), das Sie verwalten möchten, und wählen Sie eine oder mehrere der folgenden Optionen:
@@ -92,7 +92,9 @@ Beim Kopieren eines Legacy-Dashboards öffnet das System dieses zur Bearbeitung,
 
 ## Dashboard freigeben
 
-In diesen Schritten wird beschrieben, wie ein Administrator ein Dashboard für mehrere Benutzer freigeben (oder auf diese übertragen) kann. Wenn Sie Benutzern Dashboards senden, stehen die Dashboards diesen Benutzern in deren [!UICONTROL freigegebenen Dashboards] zur Verfügung.
+Analytics-Administratoren können ein Dashboard für mehrere Benutzer freigeben (oder pushen). Wenn Sie Benutzern Dashboards senden, stehen die Dashboards diesen Benutzern in deren [!UICONTROL freigegebenen Dashboards] zur Verfügung.
+
+So geben Sie ein Dashboard für mehrere Benutzer frei:
 
 1. Suchen Sie im [!UICONTROL Dashboard-Manager] das Dashboard und aktivieren Sie anschließend **[!UICONTROL Freigegeben]**.
 1. Klicken Sie auf **[!UICONTROL An Benutzer senden]**.  ![](assets/push.png)
@@ -110,18 +112,3 @@ Im [!UICONTROL Dashboard-Manager] können Sie sehen, ob ein Dashboard für die A
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Senden]**.
 
    Weitere Informationen finden Sie unter [Planung und Verteilung](/help/analyze/reports-analytics/scheduling.md).
-
-## Dashboard archivieren
-
->[!NOTE]
->
->Diese Funktion ist ab Januar 2020 nicht mehr verfügbar.
-
-In diesen Schritten wird beschrieben, wie Sie ein gesendetes Dashboard als PDF-Datei archivieren können. Das System speichert die archivierte Datei zwei Jahre lang oder bis das 4-GB-Limit für archivierte Berichte erreicht wurde, je nachdem, was zuerst eintritt.
-
-1. Öffnen Sie ein Dashboard.
-1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Senden]**.
-1. Aktivieren Sie in der Gruppe [!UICONTROL Bericht per E-Mail] die Option **[!UICONTROL Archiv]**.
-1. Legen Sie die gewünschten Übermittlungsoptionen fest und klicken Sie anschließend auf **[!UICONTROL Senden]**.
-
-   Archivierte Dashboards können Sie im Dashboard-Manager anzeigen. Alternativ können Sie ein Dashboard öffnen und auf **[!UICONTROL Mehr]** > **[!UICONTROL Archiv anzeigen]** klicken.

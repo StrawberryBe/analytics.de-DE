@@ -3,10 +3,10 @@ description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategori
 title: Konversionsklassifizierungen
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Nach der Aktivierung der Classifications verwenden Sie den [Classification Impor
 
 ## Konversionsklassifizierungen hinzufügen
 
-Schritte, die beschreiben, wie Konversionsklassifizierungen in der Admin-Konsole hinzugefügt werden.
+So fügen Sie Konversionsklassifizierungen in Admin hinzu:
 
 1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.

@@ -4,10 +4,10 @@ title: Erste Schritte mit Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Richten Sie vor einem Zugriff auf die Schnittstelle mit Ihrem Kundenbetreuer ode
 
 ## Über die Experience Cloud anmelden
 
-Schritte, die das Anmelden über die Adobe Experience Cloud beschreiben.
+So melden Sie sich über die Adobe Experience Cloud an:
 
 1. Öffnen Sie auf einem Computer mit Internetverbindung einen Webbrowser.
 1. Öffnen von [!DNL https://login.experiencecloud.adobe.com/].
@@ -62,7 +62,7 @@ Schritte, die das Anmelden über die Adobe Experience Cloud beschreiben.
 
 ## Einen Bericht ausführen
 
-In diesen Schritten wird beschrieben, wie Sie einen Bericht generieren.
+So generieren Sie einen Bericht:
 
 1. Melden Sie sich bei [!UICONTROL Reports &amp; Analytics] an.
 
@@ -86,14 +86,16 @@ Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die f
 
 | Art der Informationen | Definition |
 | --- | --- |
-| Kontaktperson | Geben Sie die folgenden persönlichen Daten für Ihr Konto an:<ul><li>Vorname (erforderlich)</li><li>Nachname (erforderlich)</li><li>Anrede/Titel</li><li>E-Mail-Adresse (erforderlich)</li><li>Telefonnummer</li></ul> |
+| Kontakt | Geben Sie die folgenden persönlichen Daten für Ihr Konto an:<ul><li>Vorname (erforderlich)</li><li>Nachname (erforderlich)</li><li>Anrede/Titel</li><li>E-Mail-Adresse (erforderlich)</li><li>Telefonnummer</li></ul> |
 | Anmelden | Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. Siehe auch: [Zurücksetzen des Kennworts für Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Webdienst | Zeigt den Webdienst-Benutzernamen und den gemeinsamen geheimen Schlüssel zu Ihrem Konto an. Mit diesen Anmeldedaten können Sie über die Webdienste-APIs auf die Experience Cloud zugreifen. Weitere Informationen finden Sie unter Developer Connection. **Anmerkung:** Diese Informationen werden nur angezeigt, wenn das Konto als Webdienste-Benutzer autorisiert ist. |
 | Diesen Computer ausschließen | Wendet ein Cookie auf den aktuellen Computer an, um diesen von der Datenkollektion auszuschließen. Dies ist hilfreich wenn Sie vermeiden möchten, dass Ihre Online-Aktivitäten die Seitenansichts- und Besucher-Zahlen in Ihrer Domain beeinflussen. **Anmerkung:** Um diese Funktion nutzen zu können müssen Cookies in Ihrem Browser aktiviert sein. Wenn Sie Cookies auf Ihrem Computer löschen, müssen Sie das Ausschlusscookie wieder zurücksetzen. |
 
 ## Sprache der Benutzeroberfläche ändern
 
-In diesen Schritten wird beschrieben, wie Sie die Sprache der Benutzeroberfläche ändern können. Sie können die Benutzeroberfläche von Reports &amp; Analytics in der Sprache Ihrer Wahl anzeigen.
+Sie können die Sprache der Benutzeroberfläche ändern. Sie können die Benutzeroberfläche von Reports &amp; Analytics in der Sprache Ihrer Wahl anzeigen.
+
+Um die Oberflächensprache zu ändern gehen Sie wie folgt vor:
 
 1. Melden Sie sich bei Analytics an und wählen Sie die Registerkarte **[!UICONTROL Berichte]** aus.
 1. Klicken Sie in der Fußzeile der Seite auf die aktive Sprache im Menü **[!UICONTROL Sprache]** und wählen Sie dann Ihre bevorzugte Sprache aus.

@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 92%
+source-wordcount: '1761'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,7 @@ Darüber hinaus gibt es eine Reihe zusätzlicher Faktoren, durch die sich die ta
 
 ## Bericht senden {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-In diesen Schritten wird beschrieben, wie Sie Berichte in einer Vielzahl von Formaten herunterladen und per E-Mail versenden können und wie Sie die Bereitstellung von Berichten planen.
+So laden Sie Berichte in verschiedenen Formaten herunter und senden sie per E-Mail an sie und planen die Bereitstellung eines Berichts:
 
 1. Führen Sie einen Bericht aus und klicken Sie anschließend auf **[!UICONTROL Mehr]** > **[!UICONTROL Senden]**.
 1. Legen Sie die Auslieferungsoptionen fest:
@@ -79,7 +79,7 @@ In diesen Schritten wird beschrieben, wie Sie Berichte in einer Vielzahl von For
 
 ## Bericht drucken {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
-In diesen Schritten wird beschrieben, wie Sie einen Bericht drucken.
+So drucken Sie einen Bericht:
 
 1. Einen Bericht ausführen.
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Drucken]**.  ![](assets/print.png)
@@ -116,11 +116,11 @@ Im [!UICONTROL „Manager für geplante Berichte“] werden die Elemente angezei
 
 ## Berichtlink freigeben {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-In diesen Schritten wird beschrieben, wie Sie einen Bericht freigeben, indem Sie einen Link (URL) für den Bericht generieren, der an andere Benutzer gesendet werden kann.
+Sie können einen Bericht freigeben, indem Sie einen Bericht-Link (URL) generieren, der an einen anderen Benutzer gesendet werden soll.
 
 Wenn der Empfänger auf den Link klickt, fordert das System zur Eingabe der Anmeldeangaben (Firmenname, Benutzername und Passwort) auf. Nach der Anmeldung wird dem Empfänger der vom Verfasser erstellte Bericht angezeigt. Dabei gelten die standardmäßigen Zugriffsrechte.
 
-So geben Sie einen Bericht-Link frei,
+So geben Sie einen Bericht-Link frei:
 
 1. Einen Bericht ausführen.
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Link zu diesem Bericht]**.

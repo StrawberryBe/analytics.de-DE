@@ -3,10 +3,10 @@ description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. 
 title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 99%
+source-wordcount: '2015'
+ht-degree: 97%
 
 ---
 
@@ -282,7 +282,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
 | 1 | Enthält | Cowboys | Suchtyp | Team |
-| 2 | Enthält | Fantasy | Suchtyp | Fantasie |
+| 2 | Enthält | Fantasy | Suchtyp | Fantasy |
 | 3 | Enthält | Romo | Suchtyp | Spieler |
 
 Wenn ein Benutzer nach   *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-In diesen Schritten wird beschrieben, wie Sie Classification-Regeln hinzufügen oder bearbeiten.
-
 Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, und legen Sie die gewünschte Aktion fest.
 
 >[!NOTE]
 >
 >Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von   [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
+
+So fügen Sie eine Classification-Regel hinzu oder bearbeiten sie:
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/classifications/crb/classification-rule-set.md).
 1. Klicken Sie auf der Regelsatzseite auf **[!UICONTROL Regel hinzufügen]**.
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-In diesen Schritten wird beschrieben, wie Sie eine Classification-Regel oder einen Classification-Regelsatz testen. Im Rahmen des Tests werden alle Regeln innerhalb eines Satzes übeprüft.
+Sie können eine Classification-Regel oder einen Regelsatz testen. Im Rahmen des Tests werden alle Regeln innerhalb eines Satzes übeprüft.
+
+So testen Sie einen Classification-Regelsatz:
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/classifications/crb/classification-rule-set.md).
 1. Klicken Sie im [!UICONTROL Classification Rule Builder] auf den Namen des Regelsatzes.
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-In diesen Schritten wird beschrieben, wie Sie Classification-Regeln validieren und aktivieren.
+Überprüfen und Aktivieren von Classification-Regeln:
 
 1. [Erstellen Sie einen Classification-Regelsatz](/help/components/classifications/crb/classification-rule-set.md) und [fügen Sie dem Satz dann Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md) hinzu.
 1. Klicken Sie im Regeleditor auf **[!UICONTROL Aktivieren]**.

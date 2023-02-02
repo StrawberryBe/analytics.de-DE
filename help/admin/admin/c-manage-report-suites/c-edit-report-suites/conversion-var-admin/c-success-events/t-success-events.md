@@ -3,16 +3,16 @@ description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfigu
 title: Konfigurieren von Erfolgsereignissen
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
 # Konfigurieren von Erfolgsereignissen
 
-In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
+So konfigurieren Sie Erfolgsereignisse:
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.

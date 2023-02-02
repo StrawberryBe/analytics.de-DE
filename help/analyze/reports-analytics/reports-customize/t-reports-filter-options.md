@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Mit dem erweiterten Filter können Sie Platzhalter- und andere komplexe Suchvorg
 
 ## Erstellen von berichtsspezifischen Filtern {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-In diesen Schritten wird beschrieben, wie Filter für Berichte erstellt werden.
+Sie können Filter für Berichte erstellen.
 
 <!-- 
 
@@ -153,7 +153,7 @@ Bestimmte Berichte enthalten einen Filter, der speziell an diesen angepasst ist.
 
 Wenn Sie auf diese Filter zugreifen, werden Berichtsmetriken für die in der Liste angegebenen Elemente angezeigt.
 
-**So erstellen Sie berichtsspezifische Filter**
+So erstellen Sie berichtsspezifische Filter:
 
 1. Erstellen Sie einen Bericht, wie zum Beispiel einen [!UICONTROL Kaufbericht] (**[!UICONTROL Site-Metriken]** > **[!UICONTROL Kauf]** > **[!UICONTROL Einkaufs-Konversionstrichter]**).
 1. Klicken Sie im Berichtkopf auf den Link **[!UICONTROL Filter]**.
@@ -162,8 +162,6 @@ Wenn Sie auf diese Filter zugreifen, werden Berichtsmetriken für die in der Lis
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
 ## Hinzufügen eines Korrelationsfilters {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-In diesen Schritten wird beschrieben, wie Sie einen Korrelationsfilter hinzufügen.
 
 <!-- 
 
@@ -175,7 +173,7 @@ Bestimmten Berichten können Sie benutzerspezifische Korrelationsfilter hinzufü
 
 Sie können die in einem Korrelationsbericht angezeigten Daten anhand einer beliebigen verfügbaren Korrelation filtern. Das hier dargestellte Beispiel zeigt, wie Sie einen Korrelationsfilter für Suchmaschinen hinzufügen.
 
-**So fügen Sie einen Korrelationsfilter hinzu**
+So fügen Sie einen Korrelationsfilter hinzu:
 
 1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (Siehe [Ausführen eines Detailberichts](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. Klicken Sie in dem Berichtkopf auf den Link **[!UICONTROL „Korrelationsfilter“]**.

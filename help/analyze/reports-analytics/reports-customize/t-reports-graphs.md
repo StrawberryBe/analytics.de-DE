@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Audience den größten Nutzen bietet.
+Sie können das Diagramm so anpassen, dass es für die gewünschte Zielgruppe am nützlichsten ist.
 
 Die verfügbaren Diagrammtypen sind vom Berichtstyp abhängig, den Sie ausführen. Zum Beispiel sind Trendkantengraphen bei Trendberichten hilfreich, jedoch können Sie auch ein Vertikalbalkendiagramm mit Trendlinien verwenden, das Trends über Tage, Wochen, Monate usw. eindeutig illustriert. Alternativ dazu könnten Sie ein Kreisdiagramm verwenden, um die Prozentwerte der angezeigten Dateien zu veranschaulichen.
 
-**So ändern Sie ein Berichtsdiagramm**
+So ändern Sie ein Berichtsdiagramm:
 
 1. Einen Bericht ausführen.
 1. Klicken Sie auf **[!UICONTROL Grafik konfigurieren]**.

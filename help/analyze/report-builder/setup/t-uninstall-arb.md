@@ -5,16 +5,16 @@ uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
 role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '121'
+ht-degree: 95%
 
 ---
 
 # Report Builder deinstallieren
 
-Schritte für die Deinstallation von Adobe Report Builder.
+Deinstallieren von Adobe Report Builder.
 
 1. Stellen Sie sicher, dass Microsoft Excel geschlossen ist.
 1. Klicken Sie auf **[!UICONTROL Start]** > **[!UICONTROL Systemsteuerung]**.

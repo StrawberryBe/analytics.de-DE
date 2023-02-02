@@ -4,10 +4,10 @@ title: Übersicht über Metriken in Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Eine vollständige Liste der Metriken finden Sie unter [Metriken – Übersicht]
 
 ## Standard-Berichtsmetriken auswählen
 
-In diesen Schritten wird beschrieben, wie Sie Standardmetriken auf Berichtsebene auswählen können.
+So wählen Sie Standardmetriken auf Berichtsebene aus:
 
 <!-- 
 

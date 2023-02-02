@@ -5,10 +5,10 @@ title: Dashboards und Kurzberichte
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1827'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,6 @@ Siehe [Verwalten von Dashboards](/help/analyze/reports-analytics/dashboard-manag
 
 ## Ein Dashboard erstellen {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-In diesen Schritten wird beschrieben, wie Sie ein Dashboard erstellen.
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 Bevor Sie einen Bericht (als Reportlet) zu einem Dashboard hinzufügen, legen Sie das Layout des Dashboards fest.
+
+So erstellen Sie ein Dashboard:
 
 1. Gehen Sie zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Dashboards verwalten]**.
 1. Klicken Sie auf **[!UICONTROL Dashboard hinzufügen]**.
@@ -96,13 +97,15 @@ Bevor Sie einen Bericht (als Reportlet) zu einem Dashboard hinzufügen, legen Si
 
 ## Ein Reportlet erstellen {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-In diesen Schritten wird beschrieben, wie Sie ein Reportlet erstellen. Nachdem Sie ein Reportlet erstellt haben, ist es zur Anzeige in einem Dashboard verfügbar.
+Nachdem Sie ein Reportlet erstellt haben, kann es in einem Dashboard angezeigt werden.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+So erstellen Sie ein Reportlet:
 
 1. Einen Bericht ausführen.
 1. Klicken Sie auf **[!UICONTROL Dashboard]**.
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## Inhalt zu einem Dashboard hinzufügen {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Schritte zum Hinzufügen von Inhalten aus anderen Dashboards und freigegebenen Dashboards. Darüber hinaus können Sie Inhalte aus eigenen und externen Quellen hinzufügen, wie z. B. Text und Bilder.
+Sie können Inhalte aus anderen Dashboards und freigegebenen Dashboards hinzufügen. Darüber hinaus können Sie Inhalte aus eigenen und externen Quellen hinzufügen, wie z. B. Text und Bilder.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+So fügen Sie einem Dashboard Inhalte hinzu:
 
 1. Öffnen Sie ein Dashboard und klicken Sie auf **[!UICONTROL Layout]**.
 1. Klicken Sie auf **[!UICONTROL Content hinzufügen]** und ziehen Sie die Elemente anschließend in das Dashboard.
@@ -209,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Co-Branding eines Dashboards {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-In diesen Schritten wird beschrieben, wie Sie ein Bild hochladen, damit es in einem Dashboard angezeigt wird.
+So laden Sie ein Bild zur Anzeige in einem Dashboard hoch:
 
 <!-- 
 

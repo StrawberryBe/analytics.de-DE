@@ -3,10 +3,10 @@ description: Nicht klassifizierte Schlüssel werden in Classification-Berichten 
 title: Nicht klassifizierte Schlüssel
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-In diesen Schritten wird beschrieben, wie Sie einen nicht klassifizierten Schlüssel, der in den Berichten als *`none`* angezeigt wird, umbenennen.
+So benennen Sie einen nicht klassifizierten Schlüssel um, der als *`none`* in Berichten:
 
 1. Exportieren Sie mit Hilfe des Importeurs die Classifications in eine lokale Datei.
 1. Fügen Sie der Datei eine Zeile hinzu und geben Sie in die Spalte „Schlüssel“ den Wert `~none~` ein.

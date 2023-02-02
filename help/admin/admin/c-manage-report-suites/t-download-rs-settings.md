@@ -3,16 +3,16 @@ description: In diesen Schritten wird beschrieben, wie Sie ein Excel-Arbeitsblat
 title: Herunterladen von Report Suite-Einstellungen
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '71'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 79%
 
 ---
 
 # Herunterladen von Report Suite-Einstellungen
 
-In diesen Schritten wird beschrieben, wie Sie ein Excel-Arbeitsblatt mit allen Einstellungen für die ausgewählte Report Suite erzeugen.
+So generieren Sie eine Excel-Tabelle mit allen Einstellungen für die ausgewählte Report Suite:
 
 1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite in der [!UICONTROL Report Suite]-Tabelle aus.

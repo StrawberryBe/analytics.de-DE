@@ -5,10 +5,10 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '921'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert
 
 ## Erstellen benutzerspezifischer Berichte {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
-In diesen Schritten wird beschrieben, wie Sie die aktuelle Konfiguration eines Berichts als neuen benutzerspezifischen Bericht speichern, den alle Benutzer anzeigen können.
+Sie können die aktuelle Konfiguration eines Berichts als neuen benutzerdefinierten Bericht speichern, der allen Benutzern angezeigt werden kann.
 
 <!-- 
 
@@ -30,7 +30,7 @@ t_reports_custom.xml
 
 Benutzerspezifische Berichte können nur durch Administratoren erstellt werden. Wenn Sie einen benutzerspezifischen Bericht erstellen, wird dieser im Hauptberichtsmenü neben dem Bericht hinzugefügt, auf dem er beruht.
 
-**So erstellen Sie einen benutzerspezifischen Bericht**
+So erstellen Sie einen benutzerspezifischen Bericht:
 
 1. Führen Sie einen Bericht aus und konfigurieren Sie ihn nach Bedarf.
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Benutzerspezifischen Bericht erstellen]**.
@@ -45,7 +45,7 @@ Benutzerspezifische Berichte können nur durch Administratoren erstellt werden. 
 
 ## Datum oder Datumsbereich auswählen {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
-In diesen Schritten wird beschrieben, wie Sie die Zeiträume für Ihre Berichtsdaten auswählen.
+Sie können die Zeiträume für Ihre Berichtsdaten auswählen.
 
 <!-- 
 
@@ -57,7 +57,7 @@ So z. B. bestimmte Tage, Wochen, Monate oder Jahre. Sie können außerdem Vergle
 
 Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öffnen, können Sie einen neuen Datumsbereich im Kalender festlegen. Die Änderungen gelten für alle Reportlets im Dashboard.
 
-**So wählen Sie einen Datumsbereich aus**
+So wählen Sie einen Datumsbereich aus:
 
 1. Einen Bericht ausführen.
 1. Klicken Sie oben rechts auf das Kalendersymbol.
@@ -76,7 +76,7 @@ Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öff
 
 ## Vergleichen von Datumswerten {#task_95155C3700774B709F5FB81AE96B0824}
 
-In diesen Schritten wird beschrieben, wie Sie den Kalender verwenden können, um Datumsvergleiche zwischen Rangberichten auszuführen.
+Mit dem Kalender lassen sich auch Datumsvergleiche aus Rangberichten durchführen.
 
 <!-- 
 
@@ -100,7 +100,7 @@ So führen Sie Datumsvergleiche zwischen Rangberichten in Reports &amp; Analytic
 
 ## Prozentwerte als Diagramm anzeigen {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
-In diesen Schritten wird beschrieben, wie Sie festlegen können, ob Prozentwerte in einer Berichtstabelle als Diagramm angezeigt werden sollen.
+Sie können festlegen ob Sie den Prozentwert in einem Bericht als Diagramm anzeigen möchten.
 
 <!-- 
 
@@ -110,12 +110,12 @@ t_reports_graph_percent.xml
 
 Diese Art der Visualisierung ist auch in Dashboard-Reportlets verfügbar.
 
+So zeigen Sie den Prozentsatz als Diagramm in einer Berichtstabelle an:
+
 1. Führen Sie einen Bericht aus, der Prozentwerte unterstützt, wie zum Beispiel [!UICONTROL Seitenberichte].
 1. Klicken Sie auf **[!UICONTROL Prozentwert angezeigt als: Diagramm]**.
 
 ## Berichtsdaten normalisieren {#task_8005B55E59BD479DA67BC618FF8BC94A}
-
-In diesen Schritten wird beschrieben, wie Sie Berichtsdaten normalisieren.
 
 <!-- 
 
@@ -125,7 +125,7 @@ t_reports_normalize.xml
 
 Nachdem Sie einen Bericht mit verglichenen Datumswerten oder für A/B-Vergleiche ausgeführt haben, können Sie die Daten normalisieren, um die prozentuale Änderung zwischen den Berichten anzuzeigen. Der sekundäre Datensatz wird angepasst, um für Abweichungen in der Anzahl der gewählten Tage oder aufgrund unterschiedlichen Traffic-Aufkommens zu kompensieren.
 
-**So normalisieren Sie Berichtsdaten**
+So normalisieren Sie Berichtsdaten:
 
 1. Führen Sie einen Bericht aus, der Datenvergleiche unterstützt.
 1. Klicken Sie auf **[!UICONTROL Datumsvergleich]** und legen Sie Ihren Datumsvergleich fest.
@@ -134,7 +134,7 @@ Nachdem Sie einen Bericht mit verglichenen Datumswerten oder für A/B-Vergleiche
 
 ## Seitenauswahl für einen Bericht {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
-In diesen Schritten wird beschrieben, wie Sie eine bestimmte Seite aus den Seiten Ihrer Website für einen Bericht auswählen.
+So wählen Sie eine bestimmte Seite aus den Seiten Ihrer Website für einen Bericht aus:
 
 <!-- 
 
@@ -150,7 +150,7 @@ t_reports_select_page.xml
 
 ## Report Suites vergleichen {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
-In diesen Schritten wird beschrieben, wie Sie Berichte aus zwei Report Suites im selben Bericht anzeigen.
+Sie können Berichte aus zwei Report Suites im selben Bericht anzeigen.
 
 <!-- 
 
@@ -172,7 +172,7 @@ Neben der grafischen Darstellung bietet die Tabelle des Berichts einen prozentua
 * Target
 * Umfrage
 
-**So vergleichen Sie Report Suites**
+So vergleichen Sie Report Suites:
 
 1. Erstellen Sie einen Bericht, der Ihnen den Vergleich von Berichten ermöglicht.
 1. Klicken Sie auf den Link **[!UICONTROL Mit Site vergleichen]**.
@@ -181,7 +181,7 @@ Neben der grafischen Darstellung bietet die Tabelle des Berichts einen prozentua
 
 ## Berichtsgranularität festlegen {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-In diesen Schritten wird beschrieben, wie Sie Summen aus Berichten auf stündlicher, täglicher, wöchentlicher, monatlicher, quartalsmäßiger oder jährlicher Basis anzeigen.
+Sie können die Berichtssummen auf stündlicher, täglicher, wöchentlicher, monatlicher, vierteljährlicher oder jährlicher Basis anzeigen.
 
 <!-- 
 
@@ -191,14 +191,14 @@ t_reports_granularity.xml
 
 Der Zeitraum eines Berichts bestimmt, welche Granularitätsoptionen verfügbar sind. So können Sie z. B. nur **[!UICONTROL Stündlich]** auswählen, wenn Sie einen ein- oder zweitägigen Zeitrahmen ausgewählt haben. Die Granularität **[!UICONTROL Jährlich]** können Sie nur auswählen, wenn Sie mehr als ein Jahr ausgewählt haben.
 
-**So geben Sie die Berichtsgranularität an**
+So geben Sie die Berichtsgranularität an:
 
 1. Erstellen Sie einen Trendbericht, wie zum Beispiel **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**.
 1. Klicken Sie auf **[!UICONTROL Ansicht nach]** und anschließend auf Granularität.
 
 ## Wochentagsbericht ausführen {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
-In diesen Schritten wird beschrieben, wie Sie Berichte an einem bestimmten Wochentag ausführen, z. B. jeden Montag im angegebenen Datumsbereich.
+Sie können Berichte an einem bestimmten Wochentag ausführen, z. B. jeden Montag im angegebenen Datumsbereich.
 
 <!-- 
 
@@ -207,6 +207,8 @@ t_reports_day_of_week.xml
  -->
 
 Diese Funktion gilt nur für Trendberichte, die nach dem Datumsbereich „Woche“ oder „Tag“ gefiltert sind.
+
+So führen Sie einen Wochentagsbericht aus:
 
 1. Führen Sie einen Trendbericht über einen festgelegten Datumsbereich aus.
 1. Klicken Sie auf den Link **[!UICONTROL Wochentag]** und klicken Sie anschließend einen Link an.
