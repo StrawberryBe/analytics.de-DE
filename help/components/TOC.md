@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Verwalten Sie Daten mithilfe von Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Marketing-Kanälen und Klassifikationen. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 97%
 
 ---
@@ -259,6 +259,7 @@ ht-degree: 97%
    + [Unterklassifizierungen](classifications/c-sub-classifications.md)
    + [Häufig gestellte Fragen zu Klassifizierungen](classifications/faq.md)
 + [Kalenderereignisse](t-calendar-event.md)
++ [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
 + Echtzeitberichterstellung {#real-time-reporting}
    + [Übersicht über die Echtzeitberichterstellung](c-real-time-reporting/realtime.md)
    + [Echtzeitberichte konfigurieren](c-real-time-reporting/t-realtime-admin.md)
