@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
+source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 71%
+source-wordcount: '1247'
+ht-degree: 70%
 
 ---
 
@@ -13,27 +13,23 @@ ht-degree: 71%
 
 Client-Hinweise sind spezifische Informationen zum Gerät eines Benutzers. Sie werden von Chromium-Browsern wie Google Chrome und Microsoft Edge bereitgestellt. Bei diesen Browsern wird der Benutzeragent schrittweise durch Client-Hinweise als Quelle von Geräteinformationen ersetzt. Adobe Analytics wird seinen Gerätesuchprozess aktualisieren, sodass zusätzlich zum Benutzeragenten Client-Hinweise zum Ermitteln von Geräteinformationen verwendet werden.
 
+## Clienthinweise mit geringer Entropie und hoher Entropie
+
 Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinweise mit niedriger oder hoher Entropie.
 
 * **Hinweise mit niedriger Entropie** enthalten allgemeine Informationen über Geräte. Diese Hinweise werden automatisch von Chromium-Browsern bereitgestellt.
 
 * **Hinweise mit hoher Entropie** enthalten detailliertere Informationen. Diese Hinweise sind nur auf Anfrage verfügbar. Sowohl AppMeasurement als auch Web SDK können konfiguriert werden, um Hinweise mit hoher Entropie anzufordern. Standardmäßig fordern beide Bibliotheken **keine** Hinweise mit hoher Entropie an.
 
->[!NOTE]
->
->Client-Hinweise werden ab dem 16. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber erst Mitte Februar bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
+Ab Oktober 2022 starteten neue Versionen von Chromium-Browsern das &quot;Einfrieren&quot;der Betriebssystemversion, die in der Benutzeragenten-Zeichenfolge dargestellt wird. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
 
->[!NOTE]
->
->Ab Oktober 2022 starteten neue Versionen von Chromium-Browsern das &quot;Einfrieren&quot;der Betriebssystemversion, die in der Benutzeragenten-Zeichenfolge dargestellt wird. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
+Client-Hinweise werden ab dem 16. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber erst Mitte Februar bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
 
 >[!NOTE]
 >
 > Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch dargestellt, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Siehe [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de) für weitere Informationen.
 
->[!NOTE]
->
->AAM erfordert das Erfassen von Hinweisen mit hoher Entropie, um die vollständige Funktionalität zu erhalten. Wenn Sie [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
+AAM erfordert die Erfassung von Hinweisen zur Entropie mit hoher Entropie, um die volle Funktionalität zu erhalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
 
 ## Häufig gestellte Fragen
 
