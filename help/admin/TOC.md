@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 95%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 95%
    + [Standardmetriken](admin/default-metrics.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
-   + [Voreinstellungs-Manager](admin/preferences-manager.md)
    + [Datenschutzberichte](admin/privacy-reporting.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
    + [Warteschlange für terminierte Berichte](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 95%
             + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spitze planen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Dauerhafter Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [Individuelle Report Suite-Einstellungen](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Mobile-App-Verwaltung](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Echtzeitberichte {#real-time-reports}
             + [Übersicht über Echtzeitberichte](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 95%
             + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + Unternehmenseinstellungen {#company-settings}
       + [Übersicht über Unternehmenseinstellungen](admin/company/c-company-settings.md)
-      + [Funktionszugriffsebenen](admin/company/feature-access-levels.md)
+      + [Sicherheits-Manager](admin/company/security-manager.md)
       + [Web-Services](admin/company/web-services-admin.md)
       + [Report Builder-Berichte](admin/company/report-builder-reports-admin.md)
       + [Single Sign-on](admin/company/single-signon-admin.md)
-      + [Ausstehende Aktionen](admin/company/pending-actions-admin.md)
       + [Co-Branding](admin/company/co-branding-admin.md)
       + [Ausblenden von Report Suites](admin/company/c-hide-report-suites.md)
-      + [Sicherheits-Manager](admin/company/security-manager.md)
+      + [Voreinstellungs-Manager](admin/company/preferences-manager.md)
+      + [Ausstehende Aktionen](admin/company/pending-actions-admin.md)
+      + [Funktionszugriffsebenen](admin/company/feature-access-levels.md)
    + [Video-Management](admin/video-management.md)
    + Nutzung der Server-Aufrufe {#server-call-usage}
       + [Übersicht zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-overview.md)
