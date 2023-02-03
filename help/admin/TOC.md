@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 95%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 95%
    + [Code-Manager](admin/code-manager-admin.md)
    + [Währungs-Codes](admin/currency.md)
    + [Datenquellen](admin/data-sources.md)
-   + [Standardmetriken](admin/default-metrics.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
@@ -109,12 +108,12 @@ ht-degree: 95%
                + [Daten- und Codereferenz für die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [Überprüfen der Server-seitigen Weiterleitungsimplementierung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Häufig gestellte Fragen zur Server-seitigen Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-         + Traffic-Variablen {#traffic-variables}
+         + Traffic {#traffic-variables}
             + [Übersicht über Traffic-Variablen (Eigenschaft)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Aktivieren von Traffic-Variablen-Berichten](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Traffic-Klassifizierungen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Beschreibung benutzerspezifischer Berichte](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-         + Konversionsvariablen {#conversion-variables}
+         + Konversion {#conversion-variables}
             + [Konversionsvariablen (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [Suchmethoden](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [Konversionsklassifizierungen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -133,10 +132,11 @@ ht-degree: 95%
             + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spitze planen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Dauerhafter Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [Mobile-App-Verwaltung](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Standardmetriken](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
+         + [App-Verwaltung](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Medienverwaltung](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Datenschutzberichte](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Echtzeitberichte {#real-time-reports}
+         + Echtzeit {#real-time-reports}
             + [Übersicht über Echtzeitberichte](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Konfiguration von Echtzeitberichten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
