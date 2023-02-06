@@ -1,8 +1,7 @@
 ---
-description: Administrative Schritte für die Aktivierung der Activity Map-Berichterstellung in Analytics
-title: Activity Map-Berichterstellung
-feature: Activity Map
-exl-id: e1d3f894-b769-4294-b550-f46869b812be
+description: Sie können Activity Map-Daten in Adobe Analytics anzeigen
+title: Anzeigen von Activity Map-Daten in Adobe Analytics
+feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
 source-wordcount: '0'
@@ -10,7 +9,8 @@ ht-degree: 0%
 
 ---
 
-# Activity Map-Berichterstellung
+
+# Anzeigen von Activity Map-Daten in Adobe Analytics
 
 Administrative Schritte für die Aktivierung der Activity Map-Berichterstellung in Analytics
 
@@ -30,4 +30,4 @@ Hierdurch kann Analytics von Activity Map (früher ClickMap) bereitgestellte Ben
 
 Damit Daten in diese Berichte eingespeist werden können, muss eine Implementierung entsprechend der Anleitung erfolgen, die Sie in der [Activity Map-Dokumentation](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=de) finden.
 
-<!--The content in this article is duplicated with the content in the Admin guide (activity-map.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
