@@ -3,14 +3,20 @@ description: Beschreibt, wie Sie den Marketing-Kanalbericht ausführen und besch
 title: Berechtigungen für Marketing-Kanäle
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
 # Berechtigungen für Marketing-Kanäle
+
+>[!NOTE]
+>
+>Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
+>
+>Analytics-Administratoren können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketingkanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Im Folgenden finden Sie die Report Suite Tools-Berechtigungen, die in der [Admin Console](https://adminconsole.adobe.com/) erforderlich sind, um mit verschiedenen Aspekten von Marketing-Kanälen arbeiten zu können.
 

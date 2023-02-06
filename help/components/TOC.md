@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Verwalten Sie Daten mithilfe von Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Marketing-Kanälen und Klassifikationen. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '684'
 ht-degree: 97%
 
 ---
@@ -267,10 +267,6 @@ ht-degree: 97%
 + Marketing-Kanäle {#marketing-channels}
    + [Erste Schritte mit Marketing-Kanälen](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ mit Marketing-Kanälen](c-marketing-channels/mchannel-best-practices.md)
-   + [Marketing-Kanäle verwalten](c-marketing-channels/c-channels.md)
-   + [Verarbeitungsregeln für Marketing-Kanäle](c-marketing-channels/c-rules.md)
-   + [Klassifizierungen in Marketing-Kanälen](c-marketing-channels/classifictions-mchannel.md)
-   + [Besucherinteraktionsablauf](c-marketing-channels/visitor-engagement.md)
    + [Analysieren von Marketing-Kanälen](c-marketing-channels/analyze-mc.md)
    + [Berechtigungen für Marketing-Kanäle](c-marketing-channels/c-channel-report-access.md)
    + [Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen](c-marketing-channels/c-faq.md)
