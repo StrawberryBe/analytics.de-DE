@@ -3,7 +3,7 @@ title: getPercentPageViewed
 description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher aufgerufen hat.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
+source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 87%
@@ -69,8 +69,7 @@ Der Aufruf dieser Funktion gibt nichts zurück. Stattdessen werden die folgenden
 * `window._ppvFinalPercentViewed`: Der Prozentsatz der vorherigen Seite, der zu dem Zeitpunkt sichtbar war, zu dem der Besucher auf die aktuelle Seite wechselte. Dieser Wert ist gleich oder größer als der anfängliche Prozentsatz der angezeigten Seite und entspricht oder kleiner als der höchsten angezeigten Seite.
 * `window._ppvHighestPixelsSeen`: Die höchste Anzahl der insgesamt angesehenen Pixel (in der Höhe), während der Besucher einen Bildlauf auf der vorherigen Seite ausgeführt hat.
 * `window._ppvFoldsAvailable`: Die Anzahl der insgesamt verfügbaren „Seitenfalten“, die zum Scrollen auf der vorherigen Seite verfügbar sind. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `1`.
-* 
-   * `window._ppvFoldsSeen`: Die höchste Anzahl von „Seitenfalten“, die erreicht wurde, als der Besucher die vorherige Seite nach unten gescrollt hat. Diese Variable enthält die Falte „Seitenanfang“. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `1`.
+* `window._ppvFoldsSeen`: Die höchste Anzahl von „Seitenfalten“, die erreicht wurde, als der Besucher die vorherige Seite nach unten gescrollt hat. Diese Variable enthält die Falte „Seitenanfang“. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `1`.
 
 Weisen Sie eine oder mehrere dieser Variablen eVars zu, um Dimensionsdaten in Berichten anzuzeigen.
 
