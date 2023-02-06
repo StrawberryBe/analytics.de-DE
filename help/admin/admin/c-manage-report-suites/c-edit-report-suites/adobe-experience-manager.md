@@ -4,8 +4,8 @@ title: Anzeigen von Adobe Experience Manager-Daten in Adobe Analytics
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '119'
+ht-degree: 72%
 
 ---
 
