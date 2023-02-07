@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 98%
+source-wordcount: '1101'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 98%
          + [Übersicht über Kalender und Datumsbereiche](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Benutzerdefinierte Datumsbereiche erstellen](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumsvergleich](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + Datenwörterbuch {#data-dictionary}
+         + [Datenwörterbuch - Übersicht](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [Komponenteninformationen im Datenwörterbuch anzeigen](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Überwachen des Zustands von Datenwörterbüchern](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisierungen {#visualizations}
       + [Visualisierungsübersicht](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Datenquellen verwalten](analysis-workspace/visualizations/t-sync-visualization.md)
