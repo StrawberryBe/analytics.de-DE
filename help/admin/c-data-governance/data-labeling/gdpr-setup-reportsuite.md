@@ -3,18 +3,14 @@ description: Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Va
 title: Report Suite-Daten beschriften
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 48%
+source-wordcount: '531'
+ht-degree: 44%
 
 ---
 
 # Report Suite-Daten beschriften
-
->[!NOTE]
->
->Diese aktualisierte Benutzeroberfläche wird derzeit nur eingeschränkt getestet.
 
 Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. Machen Sie sich zunächst mit der [Bezeichnungen und ihre Definitionen](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
@@ -24,7 +20,7 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
 ## Zuweisen oder Bearbeiten von Datenschutzbezeichnungen für Report Suites {#assign-edit}
 
-**Beispiel**: Sie als Datenverantwortlicher planen die Erfassung von E-Mail-Adressen und Cookie-IDs von Datensubjekten, um ihre Datenschutzanfragen zu verarbeiten. Diese Cookie-IDs werden in einer Adobe Analytics Report Suite gespeichert.
+**Beispiel**: Als Datenverantwortlicher planen Sie die Erfassung von E-Mail-Adressen und Cookie-IDs von betroffenen Personen, um deren Datenschutzanfragen zu verarbeiten. Diese Cookie-IDs werden in einer Adobe Analytics Report Suite gespeichert.
 
 1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
 

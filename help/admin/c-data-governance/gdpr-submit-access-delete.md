@@ -3,30 +3,30 @@ description: So fordern Sie Datenzugriff und -löschung in Adobe Analytics an.
 title: Zugriffs- und Löschanfragen einreichen
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
 # Zugriffs- und Löschanfragen einreichen
 
-Wenn Ihre Kunden (Verbraucher/Datensubjekte) wissen möchten, welche Daten Sie über sie besitzen, oder verlangen, dass ihre Daten aus Ihren Analytics-Datensätzen gelöscht werden, sind Sie als Datenverantwortlicher für die Beantwortung solcher Anfragen verantwortlich. Der Datenverantwortliche legt fest, wie die Organisation mit betroffenen Personen interagiert (z. B. über ein entsprechendes Benutzerportal), und managt die Interaktion mit ihnen. Es unterliegt darüber hinaus der Verantwortung des Datenverantwortlichen, die Kommunikation mit dem Datensubjekt abzuschließen, nachdem die Anfrage bearbeitet wurde. Als Auftragsverarbeiter akzeptiert Adobe Experience Cloud also keine Anfragen direkt von betroffenen Personen und gibt keine Daten direkt an diese zurück. Stattdessen erhält Adobe Anfragen nur von Ihnen als Datenverantwortlicher und gibt Daten auch nur an Sie zurück.
+Wenn Ihre Kunden (Verbraucher/Datensubjekte) wissen möchten, welche Daten Sie über sie verwalten, oder entscheiden, dass sie aus Ihren Analytics-Eigenschaften gelöscht werden sollen, sind Sie als Datenverantwortlicher für die Beantwortung dieser Anfragen verantwortlich. Der Datenverantwortliche bestimmt, wie Ihr Unternehmen mit betroffenen Personen interagiert (z. B. über ein Benutzerportal für betroffene Personen), und verwaltet die Interaktionen mit der betroffenen Person. Es liegt auch in der Verantwortung des Datenverantwortlichen, die Schleife mit dem Datensubjekt zu schließen, wenn die Anfrage erfüllt wird. Mit anderen Worten: Adobe Experience Cloud als Datenverarbeiter akzeptiert keine Anforderungen direkt von betroffenen Personen oder gibt Daten direkt an diese zurück. Stattdessen erhält Adobe Anfragen von und gibt Daten nur als Datenverantwortlicher an Sie zurück.
 
-Sie sollten in Erwägung ziehen, Ihren Apps und Websites Hinweise hinzuzufügen, über die Sie betroffene Personen über ihre Rechte zu direkt oder indirekt identifizierbaren sowie über andere von Ihnen erfasste Daten informieren.
+Sie können auch sicherstellen, dass Ihre mobilen Apps und Websites über relevante Popup-Benachrichtigungen und unterstützende Materialien zu den Rechten der betroffenen Personen hinsichtlich ihrer direkt oder indirekt identifizierbaren Daten und anderen von Ihnen erfassten Daten verfügen.
 
 ## Kundeneinwilligung verwalten {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwilligung von den betroffenen Personen einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Abmeldemechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) zu implementieren. Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
+Als Datenverantwortlicher sind Sie dafür verantwortlich, die ausdrückliche Einwilligung von Ihren Datensubjekten einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten), und eine [Opt-out-Mechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) auf Ihrer Website. Auf diese Weise können sich Ihre betroffenen Personen von der künftigen Adobe Experience Cloud-Datenerfassung abmelden.
 
 ## Benutzer und ihre Daten validieren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-Sie als Datenverantwortlicher müssen sicherstellen, dass das Datensubjekt die Person ist, für die sie sich ausgibt, und zum Zugriff auf die angeforderten Daten berechtigt ist. Darüber hinaus müssen Sie sicherstellen, dass dem Datensubjekt die richtigen Daten bereitgestellt werden und dass es nicht unumkehrbar Daten zu anderen Datensubjekten erhält.
+Als Datenverantwortlicher sind Sie dafür verantwortlich, zu überprüfen, ob das Datensubjekt die Person ist, für die es sich ausgibt, und dass es ein Recht auf die Daten hat, die von Ihnen angefordert werden. Außerdem müssen Sie sicherstellen, dass die richtigen Daten an die betroffene Person zurückgegeben werden und dass diese nicht versehentlich Daten über andere betroffene Personen erhält.
 
-Hierzu müssen Sie auch die im Rahmen der Datenschutz-Zugriffsanfrage von Adobe Analytics zurückgegebenen Daten überprüfen, bevor Sie sie an das Datensubjekt senden. Besonders vorsichtig sollten Sie sein, wenn Sie Personen-IDs verwenden und nicht nur Daten zurückgeben, in denen diese ID enthalten ist, sondern auch Daten für andere Hits auf gemeinsam genutzten Geräten, auf denen die entsprechende ID manchmal genutzt wurde. Siehe [ID-Erweiterung.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+Dazu gehört das Überprüfen der von Adobe Analytics im Rahmen einer Datenschutz-Zugriffsanfrage zurückgegebenen Daten, bevor sie an die betroffene Person gesendet werden. Besonders vorsichtig sollten Sie sein, wenn Sie Personen-IDs verwenden und nicht nur Daten zurückgeben, in denen diese ID enthalten ist, sondern auch Daten für andere Hits auf gemeinsam genutzten Geräten, auf denen die entsprechende ID manchmal genutzt wurde. Siehe [ID-Erweiterung.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
-Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch zusätzliche Kopien replizierter Hits. Sie können entscheiden, welche dieser Dateien Sie an die betroffene Person zurückgeben. Sie können auch Daten extrahieren oder mit Daten aus anderen Systemen kombinieren, bevor Sie sie an das Datensubjekt zurücksenden.
+Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch zusätzliche Kopien replizierter Hits. Sie können entscheiden, welche dieser Dateien an die betroffene Person zurückgegeben werden soll. Oder Sie können einige dieser Daten extrahieren und mit Daten aus anderen Systemen kombinieren, bevor Sie sie an die betroffene Person zurücksenden.
 
 ## Anfragen einreichen  {#submit-requests}
 
@@ -98,7 +98,7 @@ Hier sehen Sie den JSON-Abschnitt, der über die Datenschutz-API oder -UI einger
 } 
 ```
 
-Beachten Sie, dass der Benutzerabschnitt drei Blöcke enthält, die drei separate Anfragen für vermutlich drei verschiedene Datensubjekte darstellen.
+Beachten Sie, dass im Abschnitt des Benutzers drei Blöcke vorhanden sind, die drei separate Anforderungen darstellen, vermutlich für drei verschiedene Datensubjekte.
 
 * Bei der ersten Anfrage handelt es sich um eine Zugriffsanfrage, in der eine herkömmliche Adobe Analytics-Cookie-ID (AAID) verwendet wird.
 * Die zweite Anfrage ist ebenfalls eine Zugriffsanfrage, in der jedoch ein MCID-/ECID-Cookie verwendet wird.
@@ -117,7 +117,7 @@ Diese Abschnitte enthalten Reaktionsdetails zum Zugriff und zum Löschen.
 
 **Reaktionsdetails zum Zugriff**
 
-Die auf Zugriffsanfragen zurückgegebenen Daten enthalten eine URL, über die Sie als Datenverantwortlicher eine ZIP-Datei herunterladen können, die ein Verzeichnis für jedes Ihrer Adobe-Produkte enthält. Im Analytics-Ordner können sich folgende Elemente befinden:
+Die für eine Zugriffsanfrage zurückgegebenen Daten enthalten eine URL, mit der Sie als Datenverantwortlicher eine ZIP-Datei herunterladen können, die einen Ordner für jedes Adobe-Produkt enthält, dessen Inhaber Sie sind. Im Analytics-Ordner können sich folgende Elemente befinden:
 
 * Personendateien, abgeleitet aus Hits, die mit ID-PERSON übereinstimmen
 
@@ -131,7 +131,7 @@ Die auf Zugriffsanfragen zurückgegebenen Daten enthalten eine URL, über die Si
 
 Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch zusätzliche Kopien replizierter Hits.
 
-Sie können entscheiden, welche dieser Daten Sie an das Datensubjekt zurückgeben. Sie können auch Daten extrahieren oder mit Daten aus anderen Systemen kombinieren, bevor Sie sie an das Datensubjekt zurücksenden.
+Sie können entscheiden, welche dieser Daten an die betroffene Person zurückgegeben werden soll. Oder Sie können einige dieser Daten extrahieren und mit Daten aus anderen Systemen kombinieren, bevor Sie sie an die betroffene Person zurücksenden.
 
 **Reaktionsdetails zum Löschen**
 

@@ -3,10 +3,10 @@ description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace 
 title: Namespaces
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
 
-Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage eingereicht wird, enthält die Anfrage einen JSON-Abschnitt, der die Datensubjekt-IDs angibt, die für die Anfrage verwendet werden sollen. Es können mehrere IDs in einer einzelnen Anfrage für eine betroffene Person enthalten sein. Dieser JSON-Abschnitt enthält Folgendes:
+Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage gesendet wird, enthält die Anfrage einen JSON-Abschnitt, in dem die Datensubjekt-IDs angegeben werden, die für die Anfrage verwendet werden sollen. Mehrere IDs können als Teil einer einzelnen Anfrage für eine betroffene Person enthalten sein. Dieser JSON-Abschnitt enthält Folgendes:
 
 * ein Feld „namespace“ mit der Namespace-Zeichenfolge
 * ein Feld „type“, das bei den meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält
@@ -38,7 +38,7 @@ Der Wert muss in Form von zwei Hexadezimalzahlen, getrennt durch einen Bindestri
 
 Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"namespace": "AAID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
-## Legacy-Analytics-Tracking-Cookie: Veraltetes Formular
+## Legacy-Analytics-Tracking-Cookie: veraltetes Formular
 
 ```
 {

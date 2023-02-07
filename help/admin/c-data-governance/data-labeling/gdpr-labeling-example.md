@@ -3,10 +3,10 @@ description: Zeigt Beispiele zum Beschriften von Daten für Trefferdaten, Zugrif
 title: Beschriftungsbeispiele
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -365,6 +365,6 @@ Beachten Sie Folgendes:
 * Dies hat Einfluss auf Zellen in Zeilen, die `user=Mary` und eine `DEL-PERSON`-Kennzeichnung enthalten.
 * Aufgrund der ID-Erweiterung sind Zellen in Zeilen betroffen, die `AAID=77`, `AAID=88` oder `AAID=99` (dies sind die AAID-Werte in Zeilen, die `user=Mary` enthalten) und eine `DEL-DEVICE`-Kennzeichnung enthalten. Dazu gehören Zellen mit einer `DEL-DEVICE`-Kennzeichnung in Zeilen mit `user=Mary`. Dies hat zur Folge, dass Zellen in den Zeilen 4 und 5 (sowie in den Zeilen 1 bis 3) mit `DEL-DEVICE`-Kennzeichnungen (AAID, MyEvar2 und MyEvar3) verschleiert werden.
 * Die Einstellung „expandIDs“ wird nicht auf den Aufruf erweitert, um Werte in MyEvar3 (`X`, `Y` und `Z`) einzuschließen, das eine ID-DEVICE-Kennzeichnung hat, wenn `user=Mary` verwendet wird. Bei „expandIDs“ kommt es nur zu einer Erweiterung, um Besucher-IDs (in diesem Beispiel AAIDs, aber auch die ECID) in Zeilen mit `user=Mary` einzuschließen. Daher sind die letzten beiden Zeilen, die MyEvar3-Werte von `X` und `Z` enthalten, nicht betroffen.
-* `MyEvar2` in der vierten und fünften Zeile wird aktualisiert, weil diese Zeilen dieselben Besucher-ID-Werte (`77` und `88`) enthalten wie die Daten in der ersten und zweiten Zeile. Daher werden sie bei der ID-Erweiterung für Löschvorgänge auf Geräteebene einbezogen.
+* `MyEvar2` in der vierten und fünften Zeile werden aktualisiert, da diese Zeilen dieselben Besucher-ID-Werte (`77` und `88`) als die Werte in der ersten und zweiten Zeile. Daher werden sie bei der ID-Erweiterung für Löschvorgänge auf Geräteebene einbezogen.
 * Die Werte von `MyEvar2` in den Zeilen zwei und fünf stimmen sowohl vor als auch nach dem Löschvorgang überein. Nach dem Löschen stimmen sie jedoch nicht mehr mit dem Wert `N` in der letzten Zeile überein, da diese Zeile im Rahmen der Löschanfrage nicht aktualisiert wurde.
 * `MyEvar3` verhält sich mit ID-Erweiterung anders als ohne, da ohne ID-Erweiterung keine `ID-DEVICES` übereingestimmt haben. Jetzt stimmt `AAID` in den ersten fünf Zeilen überein.
