@@ -3,10 +3,10 @@ description: Informieren Sie sich über die IDs, die in Ihren Analytics-Daten er
 title: Best Practices für Beschriftungen
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
+source-git-commit: a36654fcf10712e0d12917bad832bb46f343d6fd
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,7 @@ Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern h
 * **Direkt identifizierbare IDs (I1)**: benennen entweder die Person oder bieten eine direkte Methode, sie zu kontaktieren. Dies umfasst beispielsweise den Namen einer Person (selbst ein allgemeiner Name, wie z. B. Max Müller, den viele Menschen gemeinsam haben), E-Mail-Adressen, Telefonnummern usw. Auch eine Postanschrift ohne Name kann als direkt identifizierbar gelten, obwohl statt einer bestimmten Person ein übergeordneter Haushalt oder ein Unternehmen identifiziert wird.
 * **Indirekt identifizierbare IDs (I2)**: ermöglichen nicht die direkte Identifikation einer Person, sondern müssen mit anderen Informationen (ob in Ihrem Besitz oder nicht) kombiniert werden, um die Person zu bestimmen. Beispiele für eine indirekt identifizierbare ID sind eine Kundenloyalitätsnummer oder eine vom CRM-System eines Unternehmens verwendete Kennung, die für jeden Kunden eindeutig ist. Unter Datenschutz können die anonymen IDs, die in von Analytics verwendeten Tracking-Cookies gespeichert werden, als indirekt identifizierbar gelten, obwohl sie nur ein Gerät und keine Person identifizieren können. Auf einem gemeinsam genutzten Gerät können diese Cookies nicht zwischen den verschiedenen Nutzern des Systems unterscheiden. Das Cookie kann beispielsweise nicht dazu verwendet werden, einen Computer zu finden, der das Cookie enthält, jedoch kann eine Person, die auf den Computer zugreifen kann und das Cookie dort findet, das Analytics-Cookie auf den Computer zurückführen.
 
-   Eine IP-Adresse wird auch als indirekt identifizierbar betrachtet, da sie zu jedem Zeitpunkt nur einem einzelnen Gerät zugewiesen werden kann. Internetprovider können die IP-Adressen der meisten Benutzer jedoch ändern und tun dies regelmäßig. Deshalb können IP-Adressen mit der Zeit von mehreren Benutzern verwendet werden. Darüber hinaus kommt es nicht selten vor, dass mehrere Kunden eines Internetanbieters oder viele Mitarbeiter eines Unternehmens, die sich im selben Intranet befinden, eine externe IP-Adresse teilen. Deswegen unterstützt Adobe die Verwendung von IP-Adressen als IDs für [Datenschutzanfragen nicht.](/help/admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests) Wenn eine zulässige ID im Rahmen einer Löschanfrage verwendet wird, löschen wir darüber hinaus die IP-Adressen, die mit dieser ID aufgetreten sind. Sie müssen entscheiden, ob andere abgerufene IDs vorhanden sind, die in diese Kategorie (I1 oder I2) fallen, aber nicht als eindeutige ID für Datenschutzanfragen verwendet werden können.
+   Eine IP-Adresse wird auch als indirekt identifizierbar betrachtet, da sie zu jedem Zeitpunkt nur einem einzelnen Gerät zugewiesen werden kann. Internetprovider können die IP-Adressen der meisten Benutzer jedoch ändern und tun dies regelmäßig. Deshalb können IP-Adressen mit der Zeit von mehreren Benutzern verwendet werden. Darüber hinaus kommt es nicht selten vor, dass mehrere Kunden eines Internetanbieters oder viele Mitarbeiter eines Unternehmens, die sich im selben Intranet befinden, eine externe IP-Adresse teilen. Daher unterstützt Adobe die Verwendung einer IP-Adresse als ID für eine Datenschutzanfrage nicht. Wenn eine zulässige ID im Rahmen einer Löschanfrage verwendet wird, löschen wir darüber hinaus die IP-Adressen, die mit dieser ID aufgetreten sind. Sie müssen entscheiden, ob andere abgerufene IDs vorhanden sind, die in diese Kategorie (I1 oder I2) fallen, aber nicht als eindeutige ID für Datenschutzanfragen verwendet werden können.
 
 Selbst wenn Ihr Unternehmen innerhalb Ihrer Analytics-Daten viele verschiedene IDs erfasst, können Sie nur einen Teil dieser IDs für Datenschutzanfragen verwenden. Hierfür gibt es folgende mögliche Gründe:
 
