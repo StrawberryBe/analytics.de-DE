@@ -4,7 +4,7 @@ title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
+source-git-commit: b585743c835312b579ae810a04b7849c5e4f4953
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 98%
@@ -102,7 +102,7 @@ Wenn der gewünschte Datumsbereich noch nicht erstellt wurde, können Sie durch 
 
 Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue Komponente für den Datumsbereich erstellen und speichern können.
 
-### Vergleichsdatumsbereiche anzeigen {#showo-comparison-dates}
+### Vergleichsdatumsbereiche anzeigen {#show-comparison-dates}
 
 Um Vergleichsdatumsbereiche einzubeziehen, schalten Sie die **Vergleichsdaten einschließen** -Einstellung.
 
