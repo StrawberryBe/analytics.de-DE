@@ -2,10 +2,10 @@
 title: Klassifizierungssätze – Übersicht
 description: Verwenden Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: faa1c730e051000032b4c442b43f17bd9c4d76d1
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 46%
 
 ---
 
@@ -13,11 +13,24 @@ ht-degree: 100%
 
 Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassifizierungen und Regeln. Dieser Workflow kombiniert das Konzept der Erstellung von Klassifizierungen in den Report Suite-Einstellungen mit dem Konzept des Classification Importer, um eine intuitivere Benutzeroberfläche zum Erstellen und Verwalten von Klassifizierungsdaten zu bieten.
 
+**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]**
+
 >[!NOTE]
 >
 >Klassifizierungssätze stehen allen Kunden zur Verfügung, deren Report Suites in die neue Klassifizierungsarchitektur migriert wurden. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Account Manager.
 
-**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]**
+Die Backend-Architektur, die mit Classification Sets veröffentlicht wurde, enthält einige wichtige Verbesserungen:
+
+* Deutlich verkürzte Verarbeitungszeit (72 Stunden → 24 Stunden)
+* Möglichkeit zur Verwendung der Benutzeroberfläche für Klassifizierungssets
+* Die Option, Classification-Daten in Adobe Experience Platform künftig über die [Adobe Analytics-Quell-Connector für Classification-Daten](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+
+Die Backend-Architektur, die mit Classification Sets veröffentlicht wurde, enthält auch einige wichtige Änderungen:
+
+* Bei Verwendung des Browser-Imports wird[!UICONTROL Bei Konflikt überschreiben]&quot; ist immer aktiviert.
+* Bei Verwendung des Browser-Imports wird die Option zum unmittelbaren Export nach dem Import nicht mehr unterstützt. Exporte müssen separat initiiert werden.
+* Die Analytics 2.0-API `GetDimensions` -Endpunkt gibt jetzt Zeichenfolgenkennungen für Classifications anstelle numerischer Kennungen zurück. Numerische IDs können weiterhin verwendet werden. Adobe empfiehlt jedoch, nach Möglichkeit die neuen Zeichenfolgen-IDs zu verwenden. Numerische IDs können mithilfe der `?expansion=hidden` Abfragezeichenfolgen-Parameter.
+
 
 Klassifizierungssätze bestehen aus zwei Hauptbereichen:
 
