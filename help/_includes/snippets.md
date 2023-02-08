@@ -1,7 +1,7 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '604'
 ht-degree: 7%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 7%
 |---------|----------|
 | [!UICONTROL **Genehmigt**] | Gibt an, dass die Komponente vom Administrator geprüft und genehmigt wurde. Administratoren sehen eine [!UICONTROL **Genehmigung erforderlich**] Option für nicht genehmigte Komponenten. Wenn Sie diese Option auswählen, wird sie als &quot;Genehmigt&quot;gekennzeichnet. |
 | [!UICONTROL **Beschreibung**] | Beschreibt die vorgesehene Funktion der Komponente. (Diese Informationen werden vom Analytics-Administrator hinzugefügt, wie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md). |
-| [!UICONTROL **Häufig mit**] | Zeigt die 5 Komponenten an, die am häufigsten mit der Komponente verwendet werden, die Sie über die fünf primären Komponententypen hinweg anzeigen: Metrik, berechnete Metrik, Dimension, Segment und Datumsbereich. Diese Liste basiert auf Daten aus den letzten 90 Tagen. Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben. |
-| [!UICONTROL **Ähnlich wie**] | Zeigt bis zu 5 Komponenten mit ähnlichen Beschriftungen wie die Komponente an, die Sie für die fünf primären Komponententypen anzeigen: Metrik, berechnete Metrik, Dimension, Segment und Datumsbereich. Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben. |
-| [!UICONTROL **Tags**] | Zeigt alle Tags an, die auf die Komponente angewendet werden. |
+| [!UICONTROL **Häufig mit**] | Zeigt die 5 Komponenten an, die am häufigsten mit der Komponente verwendet werden, die Sie über die fünf primären Komponententypen hinweg anzeigen: Metrik, berechnete Metrik, Dimension, Segment und Datumsbereich. Diese Liste basiert auf Daten aus den letzten 90 Tagen. Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Ähnlich wie**] | Zeigt bis zu 5 Komponenten mit ähnlichen Beschriftungen wie die Komponente an, die Sie für die fünf primären Komponententypen anzeigen: Metrik, berechnete Metrik, Dimension, Segment und Datumsbereich. Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Tags**] | Zeigt alle Tags an, die auf die Komponente angewendet werden. Benutzer mit Administratorzugriff können Tags beim Bearbeiten der Komponente hinzufügen. |
 | [!UICONTROL **Typ der Komponente**] | Listet den Komponententyp auf, der es ist, unabhängig davon, ob es sich um eine Dimension, eine Metrik, ein Segment oder einen Datumsbereich handelt. |
 | [!UICONTROL **Erstellt von**] | Zeigt den Namen des Benutzers an, der die Komponente erstellt hat. |
 | [!UICONTROL **Vorschau**] | Zeigt eine Vorschau des Erscheinungsbilds der Komponente in Analysis Workspace an. |

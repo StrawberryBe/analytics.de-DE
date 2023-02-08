@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ So zeigen Sie Informationen zu einer Komponente im Datenwörterbuch an:
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. Stellen Sie sicher, dass die Report Suite, die die Komponente enthält, die Sie anzeigen möchten, im Dropdown-Menü ausgewählt ist.
+1. Stellen Sie sicher, dass die Report Suite, die die Komponente enthält, die Sie anzeigen möchten, im Dropdown-Menü ausgewählt ist. Standardmäßig wird die Report Suite angezeigt, in der Sie sich bereits befinden.
 
 1. (Optional) Geben Sie im Suchfeld den Namen der Komponente ein, die Sie anzeigen möchten.
 

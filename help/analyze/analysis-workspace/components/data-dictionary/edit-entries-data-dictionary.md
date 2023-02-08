@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ So bearbeiten Sie eine Komponente im Datenwörterbuch:
 
    ![Administratoransicht des Datenwörterbuchs](assets/data-dictionary-admin.png)
 
-1. Stellen Sie sicher, dass im Dropdown-Menü die richtige Report Suite ausgewählt ist.
+1. Stellen Sie sicher, dass im Dropdown-Menü die richtige Report Suite ausgewählt ist. Standardmäßig wird die Report Suite angezeigt, in der Sie sich bereits befinden.
 
 1. (Optional) Geben Sie im Suchfeld den Namen der Komponente ein, die Sie bearbeiten möchten.
 
