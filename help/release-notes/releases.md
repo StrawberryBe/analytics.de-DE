@@ -3,10 +3,10 @@ description: Erläutert die Strategie zur kontinuierlichen Veröffentlichung von
 title: Veröffentlichung von Adobe Analytics-Funktionen
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
+source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 90%
+source-wordcount: '390'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmod
 
 * **Allgemeine Verfügbarkeit (GA)**: Die Funktion steht 100 % der berechtigten Experience Cloud-Organisationen zur Verfügung und die Veröffentlichung der Funktion ist abgeschlossen.
 
-Bei jeder Funktionsveröffentlichung kann die Timeline von RTP bis GA variieren. Ziel ist es, die Veröffentlichungen kurz zu halten, sodass innerhalb von 2 Monaten nach Beginn der Veröffentlichung (RTP) eine Funktion allgemein verfügbar (GA) ist.
+Bei jeder Funktionsveröffentlichung kann die Zeitleiste vom Start des Rollouts bis zur allgemeinen Verfügbarkeit variieren. Ziel ist es, die Versionen kurz zu halten, sodass innerhalb von 2 Monaten nach Start der Rollout-Funktion eine allgemeine Funktion verfügbar ist.
 
 ## Funktionsmarkierungen
 
