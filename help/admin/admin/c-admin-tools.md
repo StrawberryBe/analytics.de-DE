@@ -3,7 +3,7 @@ description: Index der Admin Tools in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 42dba33eb77ac875fea801e8f62fa74ed564671f
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 13%
@@ -28,7 +28,7 @@ Im Folgenden finden Sie eine Aufschlüsselung dieser beiden Bereiche:
 
    Verwenden Sie dieses Tool, um Benutzer bereitzustellen und Zugriffsberechtigungen zu ändern.
 
-   Für alle Unternehmen, die zu Adobe IMS migriert werden, werden diese Aufgaben in der Adobe Admin Console ausgeführt. Weitere Informationen finden Sie unter [Erste Administratorhandbuch für Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Wenn Ihr Unternehmen noch nicht zu Adobe IMS migriert wurde, lesen Sie [Analytics-Benutzermigration zur Adobe Admin Console](/help/admin/admin-console/user-management2/user-migration/c-migration-tool.md).
+   Für alle Unternehmen, die zu Adobe IMS migriert werden, werden diese Aufgaben in der Adobe Admin Console ausgeführt. Weitere Informationen finden Sie unter [Erste Administratorhandbuch für Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Wenn Ihr Unternehmen noch nicht zu Adobe IMS migriert wurde, lesen Sie [Analytics-Benutzermigration zur Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
 
 ## Auf Admin Tools zugreifen
 
