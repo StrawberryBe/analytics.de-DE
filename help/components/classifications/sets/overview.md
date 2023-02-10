@@ -2,10 +2,10 @@
 title: Klassifizierungssätze – Übersicht
 description: Verwenden Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 46%
+source-wordcount: '264'
+ht-degree: 45%
 
 ---
 
@@ -27,8 +27,8 @@ Die Backend-Architektur, die mit Classification Sets veröffentlicht wurde, enth
 
 Die Backend-Architektur, die mit Classification Sets veröffentlicht wurde, enthält auch einige wichtige Änderungen:
 
-* Bei Verwendung des Browser-Imports wird[!UICONTROL Bei Konflikt überschreiben]&quot; ist immer aktiviert.
-* Bei Verwendung des Browser-Imports wird die Option zum unmittelbaren Export nach dem Import nicht mehr unterstützt. Exporte müssen separat initiiert werden.
+* Bei Verwendung des Browsers oder FTP-Imports wird[!UICONTROL Bei Konflikt überschreiben]&quot; ist immer aktiviert.
+* Bei Verwendung des Browsers oder FTP-Imports wird die Option zum sofortigen Export nach dem Import nicht mehr unterstützt. Exporte müssen separat initiiert werden.
 * Die Analytics 2.0-API `GetDimensions` -Endpunkt gibt jetzt Zeichenfolgenkennungen für Classifications anstelle numerischer Kennungen zurück. Numerische IDs können weiterhin verwendet werden. Adobe empfiehlt jedoch, nach Möglichkeit die neuen Zeichenfolgen-IDs zu verwenden. Numerische IDs können mithilfe der `?expansion=hidden` Abfragezeichenfolgen-Parameter.
 
 
