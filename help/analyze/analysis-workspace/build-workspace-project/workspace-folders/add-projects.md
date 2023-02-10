@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Hinzufügen von Ordnern in Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 66%
 
 ---
 
 # Hinzufügen von Projekten zu Ordnern
 
 Sie können Projekte zu einem Ordner in der Tabellenansicht oder innerhalb eines Ordners hinzufügen.
+
+>[!NOTE]
+>
+>Nur Analytics-Administratoren können Projekte zum Unternehmensordner hinzufügen oder ein neues Projekt erstellen und im Unternehmensordner speichern
 
 ## Aus der Tabellenansicht {#table-view}
 
@@ -23,13 +27,15 @@ Fügen Sie auf der Startseite aus der Tabellenansicht Projekte zu einem Ordner h
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Wählen Sie **Verschieben nach** aus. Das Dialogfeld „Ordner auswählen“ wird angezeigt.
+1. Wählen Sie **Verschieben nach** aus.
 
-1. Wählen Sie einen Ordnernamen aus dem Dropdown-Menü aus.
+   Das Dialogfeld „Ordner auswählen“ wird angezeigt.
+
+1. Wählen Sie im Dropdown-Menü den Ordner aus, in den Sie die ausgewählten Projekte verschieben möchten.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Klicken Sie auf **Hinzufügen**.
+1. Auswählen **Verschieben**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -49,25 +55,19 @@ Sie können auch Projekte aus dem Inneren eines Ordners hinzufügen, indem Sie d
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Klicken Sie auf das Symbol mit den Auslassungspunkten **...** oben rechts.
+1. Wählen Sie die **...** Symbol mit Auslassungspunkten oben rechts.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   In einem Dropdown-Menü wird die Option zum Hinzufügen von Projekten zum Ordner angezeigt. Zusätzliche Optionen ermöglichen es Ihnen, den Ordner umzubenennen, zu verschieben oder zu löschen und die Ordnerberechtigungen zu verwalten.
 
 1. Wählen Sie **Projekte hinzufügen** und wählen Sie das Projekt, das Sie hinzufügen möchten, aus der Dropdown-Liste.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   Sie können mehrere Projekte zu dem Ordner hinzufügen.
+
+1. (Optional) Wählen Sie aus der Dropdownliste zusätzliche Projekte aus, um mehrere Projekte hinzuzufügen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Klicken Sie auf **Hinzufügen**, um die Projekte zu dem Ordner hinzuzufügen.
+1. Auswählen **Hinzufügen** , um die Projekte zum Ordner hinzuzufügen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
-
->[!NOTE]
->
->Nur Admins können dem Unternehmensordner Projekte hinzufügen oder ein neues Projekt erstellen und es im Unternehmensordner speichern.
