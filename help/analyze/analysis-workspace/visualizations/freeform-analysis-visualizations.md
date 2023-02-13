@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -43,23 +43,23 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Verwendet Kreise zur Darstellung der Metriküberschneidung von bis zu drei Segmenten. |
 
-## Visualisierungseinstellungen anpassen
+## Anpassen von Visualisierungseinstellungen
 
-Sie können Visualisierungseinstellungen für eine individuelle Visualisierung oder für alle von Ihnen erstellten Visualisierungen anpassen.
+Sie können die Einstellungen für eine einzelne oder für alle von Ihnen erstellten Visualisierungen anpassen.
 
-### Visualisierungseinstellungen für eine einzelne Visualisierung anpassen
+### Anpassen der Einstellungen für eine einzelne Visualisierung
 
-So greifen Sie auf [!UICONTROL Visualisierungseinstellungen] für eine individuelle Visualisierung:
+So greifen Sie auf die [!UICONTROL Einstellungen] für eine einzelne Visualisierung zu:
 
 1. Bewegen Sie in Analysis Workspace den Mauszeiger über die Visualisierung, deren Einstellungen Sie anpassen möchten.
 
 1. Klicken Sie auf das Zahnradsymbol.
 
-   Jeder Visualisierungstyp verfügt über eindeutige Einstellungen, die Sie anpassen können. Informationen zu den verfügbaren Einstellungen finden Sie unter [Einstellungen](#settings).
+   Jeder Visualisierungstyp verfügt über eigene Einstellungen, die Sie anpassen können. Informationen zu den verfügbaren Einstellungen finden Sie unter [Einstellungen](#settings).
 
-### Visualisierungseinstellungen für alle erstellten Visualisierungen anpassen
+### Anpassen der Einstellungen für alle von Ihnen erstellten Visualisierungen
 
-Sie können die Einstellungen für alle erstellten Visualisierungen anpassen. Weitere Informationen finden Sie unter [Benutzereinstellungen](/help/analyze/analysis-workspace/user-preferences.md).
+Sie können die Einstellungen für alle von Ihnen erstellten Visualisierungen anpassen. Weitere Informationen finden Sie unter [Benutzervoreinstellungen](/help/analyze/analysis-workspace/user-preferences.md).
 
 ## Einstellungen  {#settings}
 
