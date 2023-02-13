@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 source-git-commit: 2525180898d8f4cf29df891a5f228cfd82e6ffc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können Spalteneinstellungen für eine einzelne Spalte oder für mehrere Spa
 
 1. Ziehen Sie in Analysis Workspace eine Freiformtabelle in Ihr Projekt.
 
-1. (Bedingt) Wenn Sie mehrere Spalten gleichzeitig bearbeiten möchten, wählen Sie jede Spalte aus, die Sie bearbeiten möchten, während Sie die Umschalttaste gedrückt halten.
+1. (Bedingt) Wenn Sie mehrere Spalten gleichzeitig bearbeiten möchten, halten Sie die Umschalttaste gedrückt, während Sie alle Spalten auswählen, die Sie bearbeiten möchten.
 
 1. Bewegen Sie den Mauszeiger über die Spalte, die Sie bearbeiten möchten, und wählen Sie dann das Zahnradsymbol aus.
 
@@ -30,13 +30,13 @@ Sie können Spalteneinstellungen für eine einzelne Spalte oder für mehrere Spa
 
    ![](assets/column_settings.png)
 
-1. Fahren Sie mit [Spalteneinstellungen](#column-settings).
+1. Fahren Sie mit den [Spalteneinstellungen](#column-settings) fort.
 
 ## Spalteneinstellungen
 
-Sie können die folgenden Spalteneinstellungen für einzelne Tabellen in Analysis Workspace aktualisieren, wie unter [Spalteneinstellungen bearbeiten](#edit-uicontrol-column-settings).
+Sie können die folgenden Spalteneinstellungen für einzelne Tabellen in Analysis Workspace aktualisieren, indem Sie gemäß der Beschreibung in [Bearbeiten von Spalteneinstellungen](#edit-uicontrol-column-settings) vorgehen.
 
-Einige dieser Einstellungen können auch für alle neuen Projekte verwaltet werden, die Sie in Analysis Workspace erstellen, wie unter [Benutzereinstellungen](/help/analyze/analysis-workspace/user-preferences.md)
+Einige dieser Einstellungen können auch für alle in Analysis Workspace neu erstellten Projekte verwaltet werden, indem Sie gemäß der Beschreibung in [Benutzervoreinstellungen](/help/analyze/analysis-workspace/user-preferences.md) vorgehen.
 
 | Element | Beschreibung |
 | --- | --- |
@@ -56,17 +56,17 @@ Einige dieser Einstellungen können auch für alle neuen Projekte verwaltet werd
 
 ## Bedingte Formatierung {#conditional-formatting}
 
-Die bedingte Formatierung gilt für Obergrenzen, Mittelwerte und Untergrenzen, die Sie definieren. Das Anwenden bedingter Formatierung (z. B. Farben) in Freiformtabellen ist auch bei Aufschlüsselungen automatisch aktiviert, es sei denn, es sind &quot;benutzerdefinierte&quot;Beschränkungen ausgewählt.
+Die bedingte Formatierung gilt für Obergrenzen, Mittelwerte und Untergrenzen, die Sie definieren können. Das Anwenden bedingter Formatierung (z. B. Farben) in Freiformtabellen ist bei Aufschlüsselungen auch automatisch aktiviert, wenn keine benutzerdefinierten Beschränkungen ausgewählt sind.
 
 ![](assets/conditional-formatting.png)
 
 | Element | Beschreibung |
 | --- | --- |
-| Bedingte Formatierung | Wendet einen vorkonfigurierten Farbsatz Ihrer Auswahl auf Zellen an. Je nachdem, welches der vier ausgewählten Farbschemas verwendet wird, werden den hohen Werten, Mittelwerten und niedrigen Werten unterschiedliche Farben zugewiesen. <br> Wenn Sie eine Dimension in der Tabelle ersetzen, werden die Grenzwerte für die bedingte Formatierung zurückgesetzt. Wenn Sie eine Metrik ersetzen, werden die Grenzwerte für diese Spalte zurückgesetzt (dabei wird eine Metrik auf der X-Achse und eine Dimension auf der Y-Achse dargestellt). |
+| Bedingte Formatierung | Wendet einen von Ihnen ausgewählten vorkonfigurierten Farbsatz auf Zellen an. Je nachdem, welches der vier ausgewählten Farbschemata verwendet wird, werden den hohen Werten, Mittelwerten und niedrigen Werten unterschiedliche Farben zugewiesen. <br> Wenn Sie eine Dimension in der Tabelle ersetzen, werden die Grenzwerte für die bedingte Formatierung zurückgesetzt. Wenn Sie eine Metrik ersetzen, werden die Grenzwerte für diese Spalte zurückgesetzt (dabei wird eine Metrik auf der X-Achse und eine Dimension auf der Y-Achse dargestellt). |
 | Prozentbegrenzungen verwenden | Ändern Sie das Limit, das auf Prozentsätzen basieren soll anstatt auf absoluten Werten. Diese Einstellung funktioniert mit Metriken, die rein prozentbasiert sind (beispielweise Absprungrate) oder eine Anzahl und einen Prozentsatz aufweisen (beispielsweise Seitenansichten). |
 | Automatisch generiert | Obere/mittlere/untere Limits automatisch auf Basis der Daten berechnen. Die Obergrenze entspricht dem höchsten Wert in dieser Spalte. Die Untergrenze entspricht dem niedrigsten Wert und der Mittelpunkt ist der Durchschnittswert der Ober- und der Untergrenze. |
 | Anpassen | Obere/mittlere/untere Limits manuell zuweisen. So können Sie flexibel bestimmen, ob der Wert einer Spalte gut, durchschnittlich oder schlecht ist. |
-| Bedingte Formatierungspalette | Wählen Sie aus den 4 verfügbaren Farbschemata, die für die bedingte Formatierung verwendet werden sollen. |
+| Bedingte Formatierungspalette | Wählen Sie aus, welches der vier verfügbaren Farbschemata für die bedingte Formatierung verwendet werden soll. |
 
 ## Nicht standardmäßiges Attributionsmodell verwenden {#attribution}
 
