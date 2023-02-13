@@ -4,9 +4,9 @@ description: Hilft Ihnen, Metriken auf Ihrer Website zu deduplizieren.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Bei Verwendung von Ereignis-IDs erfolgt eine Deduplizierung auf folgenden Ebenen
 >
 >Wenn Sie das [`purchase`](event-purchase.md)-Ereignis deduplizieren möchten, verwenden Sie stattdessen die [`purchaseID`](../purchaseid.md)-Variable.
 
-## Ereignis-IDs mit dem Web SDK verwenden
+## Verwenden von Ereignis-IDs mit dem Web SDK
 
-Ereignis-Serialisierung ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem gewünschten Ereignis-XDM-Feld `id`. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
+Die Ereignis-Serialisierung für [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) erfolgt über die `id` des gewünschten Ereignis-XDM-Felds. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
 
-Wenn Sie beispielsweise die Metrik &quot;Zusatz zum Warenkorb&quot;serialisieren möchten, legen Sie die `commerce.productListAdds.id` XDM-Feld zum gewünschten Serialisierungswert hinzu. Wenn Sie das benutzerdefinierte Ereignis 20 serialisieren möchten, legen Sie die `_experience.analytics.event1to100.event20` XDM-Feld zum gewünschten Serialisierungswert hinzu.
+Wenn Sie beispielsweise die Metrik „Hinzufügungen zum Warenkorb“ serialisieren möchten, legen Sie das XDM-Feld `commerce.productListAdds.id` auf den gewünschten Serialisierungswert fest. Wenn Sie das benutzerdefinierte Ereignis 20 serialisieren möchten, legen Sie das XDM-Feld `_experience.analytics.event1to100.event20` auf den gewünschten Serialisierungswert fest.
 
-## Ereignis-IDs mit der Adobe Analytics-Erweiterung verwenden
+## Verwenden von Ereignis-IDs mit der Adobe Analytics-Erweiterung
 
 Sie können das Feld für die Ereignis-ID entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder als Aktion in einer Regel festlegen.
 
@@ -51,7 +51,7 @@ Sie können das Feld für die Ereignis-ID entweder beim Konfigurieren der Analyt
 
 Gültige Werte sind alphanumerische Zeichen bis zu 20 Byte. Wenn Sie einen Wert eingeben, der länger als 20 Byte ist, kürzt das System ihn auf die ersten 20 Byte.
 
-## Ereignis-IDs in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung verwenden
+## Verwenden von Ereignis-IDs in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Ereignis-Serialisierung ist Teil der `s.events`-Variablen. Weisen Sie jedem Ereignis mithilfe eines Doppelpunkts in der Zeichenfolge eine ID zu.
 
