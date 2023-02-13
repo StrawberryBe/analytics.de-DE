@@ -4,9 +4,9 @@ description: Ein tiefer Einblick in die Konzepte hinter Merchandising-eVars und 
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5289'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Um zu demonstrieren, wie Sie diese Variablen festlegen können, ist hier ein Bei
 
 Wenn Sie diese beiden Variablen auf diese spezifischen Werte setzen, wissen Sie, dass der Besucher den internen Keyword-Suchbegriff „Sandalen“ verwendet, um ein Produkt zu finden. Gleichzeitig wissen Sie, dass der Besucher nicht die anderen Produktsuchmethoden verwendet, um Produkte zu finden (z. B. durchsucht er nicht die Produktkategorien, während er eine Suchbegriffsuche durchführt). Um sicherzustellen, dass eine ordnungsgemäße Zuordnung pro Produkt erfolgt, sollten diese nicht verwendeten Methoden nicht für die Suche nach einem Produkt angerechnet werden, das über eine interne Keyword-Suche gefunden wurde. Daher müssen Sie eine Logik in den Code einfügen (z. B. AppMeasurement, AEP Web SDK usw.), der die mit diesen anderen Suchmethoden verknüpften eVars automatisch auf einen Wert einer „Nicht-Suchmethode“ setzt.
 
-Wenn ein Benutzer beispielsweise mithilfe des Suchbegriffs &quot;sandals&quot;nach Produkten sucht, sollte die Logik des Analytics-Codes die Variablen auf der Seite mit den internen Suchergebnissen für Suchbegriffe auf die folgenden setzen:
+Wenn Benutzende beispielsweise mithilfe des Suchbegriffs „Sandalen“ nach Produkten suchen, sollte die Logik des Analytics-Codes die Variablen auf der Seite mit den internen Suchergebnissen für Suchbegriffe auf die folgenden Werte setzen:
 
 * eVar2=„Sandalen“: das Keyword „Sandalen“ wurde in der internen Keyword-Suche verwendet
 * eVar1=„internal keyword search“: die Suchmethode nach internen Keywords wurde verwendet
@@ -57,7 +57,7 @@ Wenn ein Benutzer beispielsweise mithilfe des Suchbegriffs &quot;sandals&quot;na
 
 Im Folgenden finden Sie die verschiedenen Einstellungen, die Sie mit Ihren Merchandising-eVars verwenden können. Der folgende Screenshot stammt aus dem Report Suite Manager. Greifen Sie auf sie zu, indem Sie zu [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Einstellungen bearbeiten] > [!UICONTROL Konversion] > [!UICONTROL Konversionsvariablen] > [!UICONTROL Neu hinzufügen] > [!UICONTROL Merchandising aktivieren] navigieren.
 
-![Merch eVars](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
+![Merchandising-eVars](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
 
 Weitere Informationen zu diesen Einstellungen finden Sie in den Abschnitten unter der Tabelle.
 
@@ -88,7 +88,7 @@ Bei **[!UICONTROL Produktsyntax]** wird die eVar jedoch nur innerhalb der Adobe 
 
 `s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Kategorie] und [!UICONTROL Name] das angegebene Produkt identifizieren.
+* Das angegebene Produkt wird durch [!UICONTROL Kategorie] und [!UICONTROL Name] identifiziert.
 * [!UICONTROL Menge] und [!UICONTROL Umsatz] sind nützlich, wenn ein Produktkauf verfolgt wird.
 * [!UICONTROL Ereignisse] ist nützlich für die Aufzeichnung benutzerdefinierter inkrementeller oder Währungsereigniswerte, die nicht als Umsatz gezählt werden sollen (z. B. Versandkosten, Rabatte usw.)
 
@@ -116,7 +116,7 @@ Wenn die Zuordnungseinstellung einer standardmäßigen eVar gleich „Zuletzt ve
 
 Wie bereits erwähnt, wird allen Merchandising-eVars mit Konversionsvariablensyntax nur die Zuordnung „Zuletzt verwendet (Letzte)“ zugewiesen. Daher wird in der Zuordnungseinstellung für Merchandising-eVars nicht festgelegt, welche Werte in die Spalte „post_evar“ eingefügt werden, da ein Besucher die Site weiterhin verwendet. Stattdessen wird durch die Zuordnungseinstellung festgelegt, welcher eVar-Wert an ein Produkt gebunden ist und wie die Erfolgsereignisse dieser Produkte wieder den eVar-Werten zugeordnet werden, an die sie gebunden sind.
 
-Folgendes geschieht, wenn die Einstellung für die Zuordnung (d. h. Bindung) eines Merchandising-eVar auf &quot;Ausgangswert (Erster)&quot;gesetzt ist: Alle Produkte, die neben der Spalte post_evar gesetzt wurden und noch nicht an die entsprechende &quot;vorverarbeitete&quot;eVar der Spalte post_evar gebunden waren, sind an den Wert in der Spalte post_evar gebunden.  Diese Bindung zwischen eVar und Produkt ändert sich erst, wenn die eVar gemäß der Einstellung &quot;Läuft ab nach&quot;in den Report Suite-Einstellungen abläuft.
+Folgendes geschieht, wenn die Einstellung für die Zuordnung (d. h. Bindung) einer Merchandising-eVar auf „Ausgangswert (Erste)“ gesetzt ist: Alle Produkte, die neben der Spalte „post_evar“ gesetzt wurden und noch nicht an die entsprechende „vorverarbeitete“ eVar der Spalte „post_evar“ gebunden waren, werden an den Wert in der Spalte „post_evar“ gebunden. Diese Bindung zwischen eVar-Wert und Produkt ändert sich erst, wenn die eVar gemäß der Einstellung für „Läuft ab nach“ in den Report Suite-Einstellungen abläuft.
 
 Jedes Mal, wenn eine Bildanforderung die Kriterien erfüllt, die ein bereits gebundenes Produkt ansonsten an den zuletzt festgelegten eVar-Wert binden würden, zwingt die Einstellung „Ausgangswert (Erste)“ die Adobe Analytics-Datenerfassungs-Server dazu, solche weiteren Versuche zu ignorieren. Das Gegenteil geschieht mit Merchandising-eVars, bei denen die Einstellung für die Zuordnung (Bindung) gleich „Zuletzt verwendet (Letzte)“ ist. Jedes Mal, wenn eine Bildanforderung die Kriterien erfüllt, die ein Produkt an eine Merchandising-eVar binden, bindet das Produkt sich selbst an den neuesten Wert, der an die eVar übergeben wurde, oder an den Wert, der (immer) in der Spalte `post_evar` enthalten ist.
 
@@ -134,7 +134,7 @@ Eine eVar kann ablaufen, wenn entweder ein Erfolgsereignis aufgezeichnet wird od
 
 Für die Suchmethode für Produkte ist die Best Practice zum Festlegen des Ablaufs einer Merchandising-eVar, sie
 
-* Entweder die Dauer, über die ein Produkt im Warenkorb einer Site aufbewahrt wird, bevor die Site es automatisch aus dem Warenkorb entfernt (z. B. 14 Tage, 30 Tage usw.)
+* ENTWEDER auf die Dauer zu setzen, über die ein Produkt im Warenkorb einer Site aufbewahrt wird, bevor die Site es automatisch aus dem Warenkorb entfernt (z. B. 14 Tage, 30 Tage usw.),
 * ODER auf den Zeitpunkt des Kaufereignisses.
 
 Mit beiden Ablaufeinstellungen werden bei jedem von einem Besucher gekauften Produkt die Werte für Bestellung/Einheiten/Umsatz den Merchandising-eVar-Werten zugeordnet, mit denen die Produkte zu diesem Zeitpunkt verbunden waren.
@@ -170,7 +170,7 @@ Wenn Sie die „interne Keyword-Suche“ an die Produkt-ID 12345 binden möchten
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-Erfolgsereignisse (Hinzufügungen zum Warenkorb, Käufe), die gleichzeitig mit der Produkt-ID 12345 erfasst werden, werden sowohl der Produkt-ID 12345 als auch dem eVar &quot;Interne Keyword-Suche&quot;gutgeschrieben. Ein anderer eVar1-Wert erhält nur dann die Zuordnung der mit der Produkt-ID 12345 verknüpften Erfolgsereignisse, wenn eVar1 später in der Variablen „products“ auf einen anderen Wert festgelegt wird (neben der Produkt-ID 12345).
+Alle Erfolgsereignisse (Hinzufügen zum Warenkorb, Käufe), die gleichzeitig mit der Produkt-ID 12345 erfasst werden, werden sowohl der Produkt-ID 12345 als auch dem eVar1-Wert „interne Keyword-Suche“ zugeschrieben. Ein anderer eVar1-Wert erhält nur dann die Zuordnung der mit der Produkt-ID 12345 verknüpften Erfolgsereignisse, wenn eVar1 später in der Variablen „products“ auf einen anderen Wert festgelegt wird (neben der Produkt-ID 12345).
 
 Beispiel:
 
@@ -178,7 +178,7 @@ Beispiel:
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
-Durch diese Variableneinstellung wird die Bindung der Produkt-ID 12345 vom eVar &quot;Interne Keyword-Suche&quot;in den eVar1-Wert &quot;Interne Kampagne&quot;geändert. Außerdem erfolgt diese Neubindungsänderung, wenn der eVar für die Verwendung der Produktsyntax und der Zuordnungseinstellung (Bindung) &quot;Zuletzt verwendet (Letzter)&quot;konfiguriert ist. Wenn die Einstellung &quot;Zuordnung (Bindung)&quot;stattdessen auf &quot;Ausgangswert (Erster)&quot;festgelegt wurde, würde die Einstellung von eVar 1 auf &quot;Interne Kampagne&quot;neben der Produkt-ID 12345 die Produkt-ID 12345 nicht erneut an den eVar1-Wert von &quot;Interne Kampagne&quot;binden. Stattdessen bleibt die Bindung mit dem ursprünglich gebundenen Wert - &quot;Interne Keyword-Suche&quot;.
+Diese Konfiguration ändert die Bindung der Produkt-ID 12345 vom eVar1-Wert „Interne Keyword-Suche“ in den eVar1-Wert „Interne Kampagne“. Diese Bindungsänderung erfolgt auch, wenn die eVar für die Verwendung der Produktsyntax und der Zuordnungseinstellung (Bindung) „Zuletzt verwendet (Letzte)“ konfiguriert wird. Wäre die Einstellung für die Zuordnung (Bindung) stattdessen auf „Ausgangswert (Erste)“ festgelegt worden, würde das Festlegen von eVar1 auf „Interne Kampagne“ neben der Produkt-ID 12345 die Produkt-ID 12345 nicht erneut an den eVar1-Wert „Interne Kampagne“ binden. Stattdessen bliebe die Bindung mit dem ursprünglich gebundenen Wert „Interne Keyword-Suche“ bestehen.
 
 ### Herausforderungen bei der Verwendung der Produktsyntax
 
@@ -201,7 +201,7 @@ Die folgenden Werte weisen alle 1 Bestellung, 1 Einheit und 79,95 USD Umsatz auf
 * eVar1-Wert von „internal keyword search“
 * eVar3-Wert von „non-internal campaign“
 * eVar4-Wert von „non-browse“
-* eVar5-Wert von &quot;non-cross-sell&quot;
+* eVar5-Wert von „non-cross-sell“
 
 Dies ist eine korrekte Zuordnung, was kein Problem darstellt. Das Hauptproblem bei diesem Ansatz besteht vielmehr darin, zu bestimmen, wie und wann die eVars für die Produktsuchmethode festgelegt werden sollen.
 
@@ -244,7 +244,7 @@ In diesem Fall werden die Werte `eVar10` (childSKU) von „tshirt123-M-blau“ u
 
 ### Herausforderungen bei der Zuordnung „Zuletzt verwendet“
 
-Bei Verwenden der Einstellung „Zuletzt verwendet (Letzte)“ für die Zuordnung (Bindung) können zusätzliche Probleme auftreten. Beim Surfen im Web kommt es oft vor, dass Besucher ein Produkt, das sie bereits angesehen und/oder zum Warenkorb hinzugefügt haben, „neu finden“. Dies geschieht normalerweise über einen nachfolgenden Besuch oder unmittelbar vor der Entscheidung, einen Kauf abzuschließen. Angenommen, während eines Besuchs der Site findet ein Besucher das Produkt &quot;sandal123&quot;über die Keyword-Suche von &quot;Sandalen&quot;. Er fügt es sofort von der Suchergebnisseite aus zum Warenkorb hinzu. Der Code, der das Hinzufügen zum Warenkorb erfasst, würde wie folgt festgelegt:
+Bei Verwenden der Einstellung „Zuletzt verwendet (Letzte)“ für die Zuordnung (Bindung) können zusätzliche Probleme auftreten. Beim Surfen im Web kommt es oft vor, dass Besucher ein Produkt, das sie bereits angesehen und/oder zum Warenkorb hinzugefügt haben, „neu finden“. Dies geschieht normalerweise über einen nachfolgenden Besuch oder unmittelbar vor der Entscheidung, einen Kauf abzuschließen. Angenommen, ein Besucher findet bei einem Besuch der Website das Produkt „Sandale123“ über die Keyword-Suche von „Sandalen“. Er fügt es sofort von der Suchergebnisseite aus zum Warenkorb hinzu. Der Code, der das Hinzufügen zum Warenkorb erfasst, würde wie folgt festgelegt:
 
 ```js
 s.linkTrackVars="products,events";
@@ -254,7 +254,7 @@ s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-
 
 Daher sind alle in dieser Bildanforderung angezeigten eVars an das Produkt „Sandale123“ gebunden.
 
-Stellen Sie sich vor, der Besucher kauft das Produkt während dieses Besuchs nicht, kehrt aber drei Tage später auf die Site zurück, wobei das Produkt &quot;sandals123&quot;noch im Warenkorb ist. Der Besucher möchte mehr über das Produkt erfahren, bevor er den Kauf tätigt. Aber anstatt eine Keyword-Suche zu verwenden, um das Produkt zu finden, durchsucht der Besucher die Website. Er landet im Merchandising-Abschnitt „Damen“ > „Schuhe“ > „Sandalen“, direkt bevor er das Produkt „neu findet“. Wenn er schließlich die Produktdetailseite für das Produkt „Sandale123“ erneut findet, werden die Variablen wie folgt festgelegt (beim Laden der Seite):
+Stellen Sie sich nun vor, der Besucher kauft das Produkt während dieses Besuchs nicht, kehrt aber drei Tage später auf die Site zurück, wobei das Produkt „Sandale123“ noch im Warenkorb ist. Der Besucher möchte mehr über das Produkt erfahren, bevor er den Kauf tätigt. Aber anstatt eine Keyword-Suche zu verwenden, um das Produkt zu finden, durchsucht der Besucher die Website. Er landet im Merchandising-Abschnitt „Damen“ > „Schuhe“ > „Sandalen“, direkt bevor er das Produkt „neu findet“. Wenn er schließlich die Produktdetailseite für das Produkt „Sandale123“ erneut findet, werden die Variablen wie folgt festgelegt (beim Laden der Seite):
 
 ```js
 s.events="prodView";
