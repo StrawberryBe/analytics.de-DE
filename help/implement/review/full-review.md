@@ -4,9 +4,9 @@ description: Prüfen Sie Ihre Implementierung alle 6 Monate, um weiterhin die Au
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ Warum sollten Sie Ihre Implementierung alle 6 Monate prüfen? Weil Sie sicherst
 
 ## 1. Stellen Sie sicher, dass Ihre Implementierung weiterhin vollständig an unseren Geschäftsanforderungen ausgerichtet ist
 
-Treffen Sie sich mit dem Geschäftsinhaber und/oder den Business Analysten, um die sich wandelnden Geschäftsanforderungen zu besprechen. Finden Sie für alle Anforderungen oder Messgelegenheiten, die derzeit von Ihrer Implementierung nicht erfüllt werden, heraus, wie Sie Ihre KPIs und Messpläne aktualisieren können. Denken Sie daran, Ihre Änderungen in Ihrer [BRD und SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation) aufzuzeichnen.
+Treffen Sie sich mit dem Geschäftsinhaber und/oder den Business Analysten, um die sich wandelnden Geschäftsanforderungen zu besprechen. Finden Sie für alle Anforderungen oder Messgelegenheiten, die derzeit von Ihrer Implementierung nicht erfüllt werden, heraus, wie Sie Ihre KPIs und Messpläne aktualisieren können. Denken Sie daran, Ihre Änderungen in Ihrer [BRD und SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=de#implementation) aufzuzeichnen.
 
 ## 2. Stellen Sie sicher, dass Ihre Metriken und Variablen weiterhin ihre Aufgabe gut erfüllen
 
-Prüfen Sie kurz all Ihre Kennzahlen und Variablen in der Reihenfolge ihrer Bedeutung für das Unternehmen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginnen Sie mit Ihren zentralen Metriken und Variablen – denjenigen, die mit Ihren [5 wichtigsten KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review) verbunden sind. Gehen Sie folgendermaßen vor:
+Prüfen Sie kurz all Ihre Kennzahlen und Variablen in der Reihenfolge ihrer Bedeutung für das Unternehmen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginnen Sie mit Ihren zentralen Metriken und Variablen – denjenigen, die mit Ihren [5 wichtigsten KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=de#review) verbunden sind. Gehen Sie folgendermaßen vor:
 
 * Erstellen Sie Dashboards, um monatliche Trendansichten Ihrer Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de#analysis-workspace) für jede einzelne ein), um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um den Grund herauszufinden.
 * Führen Sie das [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um allgemeine Trends Ihrer Kennzahlen und Variablen zu überwachen.
