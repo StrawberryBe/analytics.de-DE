@@ -4,7 +4,7 @@ title: Daten- und Codereferenz für die Server-seitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Zusätzlich wird ein `h_ip`-Signal von der IP des Hosts generiert, der die Anfra
 
 ## Kundendefinierte Signale {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Siehe auch [Unterstützte Attribute für DCS-API-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=de).
 
 | Signal | Beschreibung |
 | --- |--- |
@@ -53,12 +53,12 @@ Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Sie
 | `c_colorDepth` | Angabe als 16- oder 32-Bit-Farbe. |
 | `c_connectionType` | Gibt den Verbindungstyp an. Zu den Optionen zählen:<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | Beispiele:<ul><li>AppMeasurement: `s.contextData`</li><li>[Kategorie] = &quot;news&quot;;</li><li>Signal: `c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | Gibt an, ob Cookies aktiviert werden können. Zu den Optionen zählen: ja, nein, unbekannt |
+| `c_cookiesEnabled` | Gibt an, ob Cookies aktiviert werden können. Zu den Optionen zählen:  ja, nein, unbekannt |
 | `c_currencyCode` | Typ der für die Transaktion verwendeten Währung. |
 | `c_evar#` | Benutzerdefinierte eVars |
 | `c_events` | Festgelegt durch `s.events`. |
 | `c_hier#` | Benutzerdefinierte Hierarchievariablen. |
-| `c_javaEnabled` | Gibt an, ob Java aktiviert werden kann. Zu den Optionen zählen: ja, nein, unbekannt |
+| `c_javaEnabled` | Gibt an, ob Java aktiviert werden kann. Zu den Optionen zählen:  ja, nein, unbekannt |
 | `c_javaScriptVersion` | Version von JavaScript, die von einem Browser unterstützt wird. |
 | `c_latitude` | Numerischer Breitengrad |
 | `c_linkClick` | Zu den Optionen gehören: benutzerdefiniert, herunterladen, beenden |
@@ -67,7 +67,7 @@ Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Sie
 | `c_linkExitURL` | Die Exitlink-URL. |
 | `c_list#` | Benutzerdefinierte Listenvariablen. |
 | `c_longitude` | Numerischer Längengrad. |
-| `c_mediaPlayerType` | Für Medienstream-Verfolgungsanfragen. Zu den Optionen zählen:    andere, primetime |
+| `c_mediaPlayerType` | Für Medienstream-Verfolgungsanfragen. Zu den Optionen zählen:      andere, primetime |
 | `c_pageName` | Der Seitenname (sofern festgelegt). |
 | `c_pageURL` | Die Adresse der Seite in der Adressleiste des Browsers. |
 | `c_products` | Die Produktzeichenfolge (festgelegt durch `s.products`). |
