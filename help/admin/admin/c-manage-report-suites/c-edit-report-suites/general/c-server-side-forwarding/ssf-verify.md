@@ -5,9 +5,9 @@ title: Überprüfen der serverseitigen Weiterleitungsimplementierung
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ So überprüfen Sie den Status der serverseitigen Weiterleitung:
 
 >[!CAUTION]
 >
->Wenn die Antwort das Schlüssel/Wert-Paar „`"status":"SUCCESS"`“ oder ein 2-x-2-Bild enthält, ist die serverseitige Weiterleitung nicht korrekt konfiguriert. Stellen Sie sicher, dass der Identity-Dienst ordnungsgemäß bereitgestellt ist, Sie das App Measurement-Modul bereitgestellt haben, dass die jeweilige Report Suite der richtigen Organisations-ID zugeordnet wurde und dass die serverseitige Weiterleitung in den Analytics Admin Tools aktiviert wurde.
+>Wenn die Antwort das Schlüssel/Wert-Paar „`"status":"SUCCESS"`“ oder ein 2-x-2-Bild enthält, ist die serverseitige Weiterleitung nicht korrekt konfiguriert. Stellen Sie sicher, dass der Identity Service ordnungsgemäß bereitgestellt ist, dass Sie das AppMeasurement-Modul bereitgestellt haben, dass die jeweilige Report Suite der korrekten Organisations-ID zugewiesen wurde und dass die Server-seitige Weiterleitung in den Analytics Admin-Tools aktiviert wurde.
 
 >[!MORELIKETHIS]
 >
