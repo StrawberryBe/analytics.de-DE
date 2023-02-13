@@ -4,9 +4,9 @@ description: Gründe für das Ende der Lebensdauer und Vergleiche zwischen der B
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Weitere Einzelheiten finden Sie im folgenden Vergleich der Feldwerte, die in Bul
 | aamlh | Nicht unterstützt | Standorthinweis für Adobe Audience Manager. |
 | browserHeight | browserHeight | Browser-Höhe in Pixel (z. B. 768) |
 | browserWidth | browserWidth | Browser-Breite in Pixel (z. B. 1024) |
-| campaign | Kampagne | Konversion-Kampagnen-Trackingcode |
+| campaign | campaign | Konversion-Kampagnen-Trackingcode |
 | channel | channel | Kanal-Zeichenfolge (z. B. Sportabteilung) |
 | colorDepth | colorDepth | Bildschirmfarbtiefe in Bit (z. B. 24) |
 | connectionType | connectionType | Verbindungstyp des Besuchers (LAN oder Modem) |
@@ -54,9 +54,9 @@ Weitere Einzelheiten finden Sie im folgenden Vergleich der Feldwerte, die in Bul
 | customerID.[customerIDType].authState | Nicht unterstützt | Der authentifizierte Zustand des Besuchers. Unterstützte Werte sind: 0, 1, 2, UNKNOWN, AUTHENTICATED, LOGGED_OUT oder &#39;&#39; (Groß-/Kleinschreibung wird nicht beachtet). Zwei aufeinanderfolgende einfache Anführungszeichen (&#39;&#39;) bewirken, dass der Wert in der Abfragezeichenfolge weggelassen wird, was bei einem Treffer zu 0 übersetzt wird. Bitte beachten Sie, dass die unterstützten authState-Zahlenwerte Folgendes bedeuten: 0 = UNKNOWN, 1 = AUTHENTICATED, 2 = LOGGED_OUT. Der customerIDType kann eine beliebige alphanumerische Zeichenfolge sein, es sollte jedoch zwischen Groß- und Kleinschreibung unterschieden werden. |
 | customerID.[customerIDType].id | Nicht unterstützt | Die zu verwendende Kunden-ID. Der customerIDType kann eine beliebige alphanumerische Zeichenfolge sein, es sollte jedoch zwischen Groß- und Kleinschreibung unterschieden werden. |
 | customerID.[customerIDType].isMCSeed | Nicht unterstützt | Ob dies der Seed für die Experience Cloud-Besucher-ID ist oder nicht. Unterstützte Werte sind: 0, 1, TRUE, FALSE, &#39;&#39; (Groß-/Kleinschreibung wird nicht beachtet). Die Verwendung von 0, FALSE oder zwei aufeinanderfolgenden einfachen Anführungszeichen (&#39;&#39;) bewirkt, dass der Wert in der Abfragezeichenfolge weggelassen wird. Der customerIDType kann eine beliebige alphanumerische Zeichenfolge sein, es sollte jedoch zwischen Groß- und Kleinschreibung unterschieden werden. |
-| eVarN | eVarN, d. h. `<eVar2>`...`<eVar>` | Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen ( eVar1 - eVar75 ) Sie können den eVar-Namen (eVar12) oder einen Anzeigenamen (Werbekampagne 3) angeben. |
-| events | events | [Ereigniszeichenfolge](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), mit derselben Syntax für die Variable s.events formatiert. Zum Beispiel: scAdd,event1,event7 |
-| hierN | hierN, d.h. `<hier2>`...`</hier2>` | Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen (  hier1 - hier5 ). Sie können den Standardhierarchienamen (`hier2`) oder einen benutzerfreundlichen Namen (Yankees) festlegen. |
+| eVarN | eVarN, d. h. `<eVar2>`...`<eVar>` | Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen (  eVar1 - eVar75 ) Sie können den eVar-Namen (eVar12) oder einen Anzeigenamen (Werbekampagne 3) angeben. |
+| events | events | [Ereigniszeichenfolge](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=de#vars), mit derselben Syntax für die Variable s.events formatiert. Zum Beispiel: scAdd,event1,event7 |
+| hierN | hierN, d.h. `<hier2>`...`</hier2>` | Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen (   hier1 - hier5 ). Sie können den Standardhierarchienamen (`hier2`) oder einen benutzerfreundlichen Namen (Yankees) festlegen. |
 | homePage | homePage | Y oder N, ist die aktuelle Seite die Homepage des Besuchers. |
 | ipaddress | Nicht unterstützt | Die IP-Adresse des Besuchers. |
 | javaEnabled | javaEnabled | Y oder N, hat der Besucher Java aktiviert. |
@@ -66,7 +66,7 @@ Weitere Einzelheiten finden Sie im folgenden Vergleich der Feldwerte, die in Bul
 | linkType | linkType | Art des Links. Folgende Werte werden unterstützt: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF des Links. |
 | listn Zum Beispiel list2. | Nicht unterstützt | Eine Liste getrennter Werte, die in eine Variable überführt und bei der Berichterstellung als einzelne Zeilenelemente behandelt werden |
-| marketingCloudVisitorID | Nicht unterstützt | Experience Cloud ID. Siehe [Besucheridentifizierung](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) und den Experience Cloud-Besucher-ID-Service |
+| marketingCloudVisitorID | Nicht unterstützt | Experience Cloud ID. Siehe [Besucheridentifizierung](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de#id-service-api) und den Experience Cloud-Besucher-ID-Service |
 | Nicht unterstützt | charSet | Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. |
 | Nicht unterstützt | clickAction | Objekt-ID für Besucher-ClickMap (oid). |
 | Nicht unterstützt | clickActionType | Objekt-ID-Typ für Besucher-ClickMap (oidt). |
@@ -89,9 +89,9 @@ Weitere Einzelheiten finden Sie im folgenden Vergleich der Feldwerte, die in Bul
 | resolution | resolution | Bildschirmauflösung (z. B. 1024x768). |
 | server | server | Serverzeichenfolge. |
 | state | state | Konversion-Status-Zeichenfolge. |
-| timestamp | Datum | Verwenden Sie das ISO 8601-Datumsformat YYYY-MM-DDThh:mm:ss±UTC_offset (z. B. 2021-09-01T12:00:00-07:00 ) oder Unix-Zeitformat (die Anzahl der seit dem 1. Januar 1970 verstrichenen Sekunden). |
+| timestamp | Datum | Verwenden Sie das ISO 8601-Datumsformat JJJJ-MM-TTThh:mm:ss±UTC_offset (z. B. 2021-09-01T12:00:00-07:00 ) oder Unix-Zeitformat (die Anzahl der seit dem 1. Januar 1970 verstrichenen Sekunden). |
 | trackingServer | Nicht unterstützt | Kann nur über Spaltenkopfzeile geliefert werden. |
-| transactionID | Nicht unterstützt | Allgemeiner Wert zur Bündelung von mehrkanaligen Benutzeraktivitäten für Berichtszwecke. Weitere Informationen finden Sie im [Benutzerhandbuch für Data Sources](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
+| transactionID | Nicht unterstützt | Allgemeiner Wert zur Bündelung von mehrkanaligen Benutzeraktivitäten für Berichtszwecke. Weitere Informationen finden Sie im [Benutzerhandbuch für Data Sources](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=de#data-sources). |
 | userAgent | Nicht unterstützt | Benutzeragenten-Zeichenfolge |
-| visitorID | visitorID | Analytics-ID des Besuchers. Siehe [Besucheridentifizierung](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| visitorID | visitorID | Analytics-ID des Besuchers. Siehe [Besucheridentifizierung](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). |
 | zip | zip | Konversion-PLZ. |
