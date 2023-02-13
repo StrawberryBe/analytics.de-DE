@@ -4,9 +4,9 @@ description: Verfolgen Sie die Ladezeit einer Seite.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 Das `getPageLoadTime`-Plug-in verwendet das JavaScript-Performance-Objekt, mit dem Sie die Zeit messen können, die eine Seite zum vollständigen Laden benötigt. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie messen möchten, wie lange das Laden von Seiten dauert.
 
->HINWEIS/WARNUNG: Wenn Sie dieses Plug-in von einer früheren Version aktualisieren, müssen Sie höchstwahrscheinlich auch den Code ändern, der diese Funktion aufruft.  Überprüfen Sie Ihre Implementierung und testen Sie sie gründlich, bevor Sie sie in der Produktion bereitstellen.
+>HINWEIS/WARNUNG: Wenn Sie dieses Plug-in von einer früheren Version aktualisieren, müssen Sie höchstwahrscheinlich auch den Code ändern, der diese Funktion aufruft. Überprüfen Sie Ihre Implementierung und testen Sie sie gründlich, bevor Sie sie in der Produktion bereitstellen.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -62,16 +62,16 @@ Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der A
 
 Die `getPercentPageViewed`-Funktion verwendet die folgenden Argumente:
 
-* **`pv`** (optional, Zeichenfolge): Die Dimension, mit der die Seitenladezeit korreliert werden soll.  Dieser Wert sollte gleich einem Wert sein, der die Seite selbst identifiziert. Wenn dieses Argument nicht festgelegt ist, wird standardmäßig die Variable &quot;pageName&quot;von Adobe AppMeasurement (d. h. s.pageName) oder die URL verwendet, wenn s.pageName nicht festgelegt ist.
+* **`pv`** (optional, Zeichenfolge): Die Dimension, mit der die Seitenladezeit korreliert werden soll. Dieser Wert sollte gleich einem Wert sein, der die Seite selbst identifiziert. Ist er nicht festgelegt, wird für dieses Argument standardmäßig die Variable „pageName“ von Adobe AppMeasurement verwendet (d. h. s.pageName) oder die URL, wenn s.pageName nicht festgelegt ist.
 
 Der Aufruf dieser Funktion gibt nichts zurück. Stattdessen werden die folgenden Variablen festgelegt:
 
-* `window._pltPreviousPage`: Der -Wert der vorherigen Seite (d. h., was an das pv-Argument übergeben wurde)
+* `window._pltPreviousPage`: Der Wert der vorherigen Seite (d. h., was an das pv-Argument übergeben wurde)
 * `window._pltLoadTime`: Die Zeit in Sekunden, die das Laden der vorherigen Seite dauerte.
 
-Das getPageLoadTime-Plug-in erstellt ein Erstanbieter-Cookie:
+Das getPageLoadTime-Plug-in erstellt ein First-Party-Cookie:
 
-* `s_plt`: Die Zeit in Sekunden, die das Laden der vorherigen Seite dauerte.  Enthält auch den Wert dessen, was an das pv-Argument übergeben wurde.  Läuft am Ende der Browser-Sitzung ab.
+* `s_plt`: Die Zeit in Sekunden, die das Laden der vorherigen Seite dauerte.  Enthält auch den Wert dessen, was an das pv-Argument übergeben wurde. Läuft am Ende der Browser-Sitzung ab.
 
 ## Beispiel
 
@@ -94,10 +94,10 @@ if(window._pltPreviousPage)
 
 ### 3.0 (6. Dezember 2022)
 
-* Komplette Neufassung des Plug-ins, um es lösungsunabhängig zu machen.  Dies ist beispielsweise jetzt mit dem AEP Web SDK kompatibel.
-* Erstellt die `_pltPreviousPage` und `_pltLoadTime` Variablen im Fensterobjekt (anstatt im Objekt AppMeasurement s )
-* Die Notwendigkeit des Cookies s_pltp wird beseitigt - alles wird jetzt nur im Cookie s_plt gespeichert
-* Enthält die Funktion &quot;getVersion&quot;, die die Fehlerbehebung unterstützt
+* Komplette Neuerstellung des Plug-ins, um es lösungsunabhängig zu machen.  Es ist jetzt beispielsweise mit dem AEP Web SDK kompatibel.
+* Erstellt die Variablen `_pltPreviousPage` und `_pltLoadTime` im Fensterobjekt (anstatt im Objekt AppMeasurement s )
+* Das Cookie s_pltp ist nicht mehr nötig. Alles wird jetzt im Cookie s_plt gespeichert.
+* Enthält die Funktion getVersion, die bei der Fehlerbehebung hilft
 
 ### 2.0.1 (26. März 2021)
 
