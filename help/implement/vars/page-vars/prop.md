@@ -4,9 +4,9 @@ description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verw
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie
 
 Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 75 Props verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
-## Props mit dem Web SDK
+## Props, die das Web SDK verwenden
 
-Props sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.props.prop1` nach `_experience.analytics.customDimensions.props.prop75`. Listen-Props werden in einem separaten Satz von Feldern angegeben.
+Props sind [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.props.prop1` bis `_experience.analytics.customDimensions.props.prop75` zugeordnet. Listen-Props werden in einem separaten Satz von Feldern spezifiziert.
 
-## Props mit der Adobe Analytics-Erweiterung
+## Props, die die Adobe Analytics-Erweiterung verwenden
 
 Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -39,7 +39,7 @@ Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale
 
 Sie können eine Prop auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
 
-## s.prop1 - s.prop75 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.prop1 – s.prop75 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Jede Prop-Variable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Die maximale Länge beträgt 100 Byte. Werte, die länger als 100 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 
@@ -57,11 +57,11 @@ Aktivieren Sie Listen-Props in [Traffic-Variablen](/help/admin/admin/c-manage-re
 
 >[!TIP]
 >
->Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes nicht erweiterte ASCII-Trennzeichen verwenden, das Ihrer Implementierung am besten entspricht.
+>Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes beliebige nicht-erweiterte ASCII-Trennzeichen verwenden, das am besten zu Ihrer Implementierung passt.
 
 ### Festlegen von Listen-Props mit dem Web SDK
 
-Nachdem Sie Listen-Props in den Report Suite-Einstellungen mit dem gewünschten Trennzeichen konfiguriert haben, werden Listen-Props für Adobe Analytics unter `_experience.analytics.customDimensions.listProps.prop1.values[]` nach `_experience.analytics.customDimensions.listProps.prop75.values[]`. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `_experience.analytics.customDimensions.props.prop1.delimiter`), das das Trennzeichen überschreibt, das automatisch aus den Report Suite-Einstellungen abgerufen wird, und zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
+Nachdem Sie Listen-Props in den Report Suite-Einstellungen mit dem gewünschten Trennzeichen konfiguriert haben, werden Listen-Props für Adobe Analytics unter `_experience.analytics.customDimensions.listProps.prop1.values[]` bis `_experience.analytics.customDimensions.listProps.prop75.values[]` zugewiesen. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `_experience.analytics.customDimensions.props.prop1.delimiter`), wird das Trennzeichen überschrieben, das automatisch aus den Report Suite-Einstellungen abgerufen wird, was zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
 
 ### Festlegen von Listen-Props mit der Adobe Analytics-Erweiterung und AppMeasurement
 
