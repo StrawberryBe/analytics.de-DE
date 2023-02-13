@@ -4,9 +4,9 @@ description: Messen Sie die Zeit, die zum Ausführen einer Aufgabe benötigt wir
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,8 +62,8 @@ Die `getTimeToComplete`-Funktion verwendet die folgenden Argumente:
 
 * **`sos`** (optional, Zeichenfolge): Stellen Sie `"start"` ein, wenn Sie den Timer starten möchten. Stellen Sie `"stop"` ein, wenn Sie den Timer anhalten möchten. Die Standardeinstellung ist `"start"`.
 * **`cn`** (optional, Zeichenfolge): Der Name des Cookies, in dem der Startzeit gespeichert werden soll. Die Standardeinstellung ist `"s_gttc"`.
-* **`exp`** (optional, Ganzzahl): Die Anzahl der Sekunden, Stunden oder Tage (je nach `tp` Zeitunterteilungsargument), dass das Cookie (und der Timer) abläuft. Der Standardwert ist 30 Minuten.
-* **`tp`** (optional, Zeichenfolge): Die Zeitunterteilungszeichenfolge, die das Cookie (und der Timer) abläuft und mit der `exp` -Argument. Auf &quot;d&quot;für Tage, &quot;h&quot;für Stunden oder &quot;s&quot;für Sekunden festlegen. Wenn dies nicht festgelegt ist, wird der Standardwert für das Ablaufdatum des Cookies (und Timers) auf 30 Minuten festgelegt, unabhängig davon, was die Variable `exp` wurde auf gesetzt.
+* **`exp`** (optional, Ganzzahl): Die Anzahl der Sekunden, Stunden oder Tage (je nach dem Zeitunterteilungsargument `tp`), in denen das Cookie (und der Timer) abläuft. Die Standardeinstellung lautet 30 Minuten.
+* **`tp`** (optional, Zeichenfolge): Die Zeitunterteilungszeichenfolge, gemäß der das Cookie (und der Timer) abläuft, verwendet mit dem Argument `exp`. Festgelegt auf „d“ für Tage, „h“ für Stunden oder „s“ für Sekunden. Ist nichts festgelegt, beträgt der Standardwert für das Ablaufdatum des Cookies (und Timers) 30 Minuten, unabhängig davon, wie die Variable `exp` festgelegt wurde.
 
 Beim Aufrufen dieser Funktion wird eine Zeichenfolge zurückgegeben, die die Anzahl der Tage, Stunden, Minuten und/oder Sekunden zwischen der `"start"`- und der `"stop"`-Aktion enthält.
 
