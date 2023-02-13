@@ -1,18 +1,18 @@
 ---
 title: Aktualisierung der SFTP-Services – Häufig gestellte Fragen
-description: Häufig gestellte Fragen zum geplanten Upgrade der SFTP-Dienste.
+description: Häufig gestellte Fragen zur geplanten Aktualisierung der SFTP-Services
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Aktualisierung der SFTP-Services – Häufig gestellte Fragen
 
-Am 20. September 2022 wird Adobe Analytics sein Secure File Transfer Protocol aktualisieren [SFTP] Dienste zur Verbesserung der Sicherheit für Dateiübertragungen. Mit dieser Änderung werden einige SFTP-Client-Konfigurationen nicht mehr unterstützt. Dies wirkt sich nur auf Daten aus, die über SFTP an Adobe Analytics gesendet oder von abgerufen werden. Das FTP-Protokoll ist davon nicht betroffen. Um Service-Unterbrechungen zu vermeiden, stellen Sie sicher, dass Ihre SFTP-Clients (Code, Tools, Services) den unten beschriebenen Änderungen entsprechen.
+Am 20. September 2022 werden in Adobe Analytics der [SFTP]-Service (Secure File Transfer Protocol) zur Verbesserung der Sicherheit für Dateiübertragungen aktualisiert. Mit dieser Änderung werden einige SFTP-Client-Konfigurationen nicht mehr unterstützt. Dies wirkt sich nur auf Daten aus, die über SFTP an Adobe Analytics gesendet oder über SFTP von Adobe Analytics abgerufen werden. Das FTP-Protokoll ist davon nicht betroffen. Um Service-Unterbrechungen zu vermeiden, stellen Sie sicher, dass Ihre SFTP-Clients (Code, Tools, Services) den unten beschriebenen Änderungen entsprechen.
 
 ## Wie kann ich feststellen, welche Algorithmen, Verbindungstypen und Protokolle derzeit von meiner Organisation verwendet werden?
 
@@ -26,7 +26,7 @@ Die folgenden Funktionen bieten eine Option zum Hochladen von Daten in Adobe Ana
 
 * [Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=de)
 
-* [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=de)
 
 * [Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=de)
 
