@@ -4,15 +4,15 @@ title: Erstellen einer Report Suite
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Erstellen einer Report Suite
 
-Bei einer Report Suite handelt es sich um einen Datenspeicher, mit dem Adobe Analytics Berichte abruft. Eine Organisation kann über viele Report Suites verfügen, die jeweils unterschiedliche Datensätze enthalten. Auch wenn in der Vergangenheit separate Report Suites wichtig waren, hat sich eine einzelne Report Suite als vorteilhafter erwiesen. Die Einführung von [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites) und die Verarbeitung von Berichtszeiten ermöglicht es Administratoren, eigene Untergruppen von Daten zu erstellen, was die Flexibilität bietet, sowohl globale als auch Site-spezifische Daten zu erhalten.
+Bei einer Report Suite handelt es sich um einen Datenspeicher, mit dem Adobe Analytics Berichte abruft. Eine Organisation kann über viele Report Suites verfügen, die jeweils unterschiedliche Datensätze enthalten. Auch wenn in der Vergangenheit separate Report Suites wichtig waren, hat sich eine einzelne Report Suite als vorteilhafter erwiesen. Die Einführung von [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de#virtual-report-suites) und die Verarbeitung von Berichtszeiten ermöglicht es Administratoren, eigene Untergruppen von Daten zu erstellen, was die Flexibilität bietet, sowohl globale als auch Site-spezifische Daten zu erhalten.
 
 Dieser Artikel wurde für Administratoren oder Adobe Analytics-Administratoren auf Systemebene zur Vorbereitung auf die Datenerfassung erstellt.
 
@@ -24,13 +24,13 @@ Dieser Artikel wurde für Administratoren oder Adobe Analytics-Administratoren a
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Klicken Sie auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Report Suite]**.
-1. Wählen Sie entweder eine vordefinierte Vorlage oder eine vorhandene Report Suite aus, die als [template](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
+1. Wählen Sie entweder eine vordefinierte Vorlage oder eine vorhandene Report Suite als [Vorlage](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md) aus.
 
    >[!NOTE]
    >
    >Es können nur Einstellungen und keine Daten kopiert werden. Wenn die Kundenunterstützung die Einstellungen kopiert, müssen Sie den Haftungsausschluss der Kundenunterstützung bezüglich der involvierten Risiken schriftlich bestätigen. Weitere Informationen finden Sie unter [Aus einer Quell-Report Suite nicht kopierte Einstellungen](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md).
 
-1. Füllen Sie die Felder aus, die unter [Neue Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
+1. Füllen Sie die unter [Neue Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md) beschriebenen Felder aus.
 1. Klicken Sie auf **[!UICONTROL Report Suite erstellen]**.
 
 Eine Report Suite-ID hat eine maximale Länge von 40 Byte. Ein benutzerfreundlicher Name einer Report Suite hat eine maximale Länge von 255 Byte.
