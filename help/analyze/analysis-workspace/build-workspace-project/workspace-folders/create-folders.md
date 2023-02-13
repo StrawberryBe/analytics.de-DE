@@ -5,9 +5,9 @@ title: Erstellen von Ordnern
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ So erstellen Sie einen neuen Ordner:
 
 1. Geben Sie einen Namen für den neuen Ordner ein.
 
-1. Wählen Sie Tags aus dem Dropdown-Menü aus oder fügen Sie neue Netto-Tags hinzu.
+1. Wählen Sie Tags aus dem Dropdown-Menü aus oder fügen Sie neue Tags hinzu.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
