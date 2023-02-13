@@ -6,9 +6,9 @@ title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`browser_width`** | Breite des Browser-Fensters in Pixel. | smallint unsigniert |
 | **`c_color`** | Bit-Tiefe der Farbpalette. Wird bei der Berechnung der Dimension [Farbtiefe](/help/components/dimensions/color-depth.md) verwendet. AppMeasurement verwendet die JavaScript-Funktion `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable, die in der Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) verwendet wird. | varchar(255) |
-| **`carrier`** | Integrationsvariable für Adobe Advertising. Gibt den Mobilnetzbetreiber an. Verweist auf die `carrier` Suchtabelle | varchar(100) |
+| **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Verweist auf die `carrier` Suchtabelle | varchar(100) |
 | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
 | **`channel`** | Variable, die in der Dimension [Site-Abschnitte](/help/components/dimensions/site-section.md) verwendet wird. | varchar(100) |
@@ -64,14 +64,14 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendet Zeitstempel in Unix-Zeit. | int |
 | **`cust_visid`** | Wurde eine benutzerdefinierte Besucher-ID festgelegt, wird sie in diese Spalte aufgenommen. | varchar(255) |
 | **`daily_visitor`** | Flag zur Bestimmung, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
-| **`dataprivacyconsentoptin`** | Variable, die in der Variablen [Opt-in für die Einverständnisverwaltung](/help/components/dimensions/cm-opt-in.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | Variable, die in der Variablen [Opt-out aus der Einverständnisverwaltung](/help/components/dimensions/cm-opt-out.md) Dimension. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP`und `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | Variable, die in der Dimension [Einverständnisverwaltungs-Opt-in](/help/components/dimensions/cm-opt-in.md) verwendet wird. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable, die in der Dimension [Einverständnisverwaltungs-Opt-out](/help/components/dimensions/cm-opt-out.md) verwendet wird. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP` und `SELL`. | varchar(100) |
 | **`date_time`** | Die Uhrzeit des Treffers in lesbarem Format, basierend auf der Zeitzone der Report Suite. | datetime |
 | **`domain`** | Variable, die in der Dimension [Domain](/help/components/dimensions/domain.md) verwendet wird. Basierend auf dem Internetzugangspunkt des Besuchers. | varchar(100) |
 | **`duplicate_events`** | Listet alle Ereignisse auf, die als Duplikat gezählt wurden. | varchar(255) |
 | **`duplicate_purchase`** | Ein Flag, das anzeigt, dass das Kaufereignis für diesen Treffer ignoriert werden muss, da es ein Duplikat ist | tinyint unsigniert |
 | **`duplicated_from`** | Wird nur in Report Suites mit VISTA-Regeln zur Trefferkopie verwendet. Gibt an, von welcher Report Suite der Treffer kopiert wurde. | varchar(40) |
-| **`ef_id`** | Die `ef_id` wird in Adobe Advertising-Integrationen verwendet. | varchar(255) |
+| **`ef_id`** | Die in Adobe Advertising-Integrationen verwendete `ef_id`. | varchar(255) |
 | **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Der beste Ort für weitere Informationen dazu, wie Ihre Organisation entsprechende eVars füllt, ist ein Dokument zum Lösungsentwurf, das für Ihre Organisation gilt. | varchar(255) |
 | **`event_list`** | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Enthält sowohl die Standardereignisse als auch die benutzerdefinierten Ereignisse 1–1000. Verwendet die `event.tsv`-Suche. | text |
 | **`exclude_hit`** | Flag, das angibt, dass der Hit nicht in das Reporting einfließt. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
@@ -110,7 +110,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`mcvisid`** | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | **`mobile_id`** | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
 | **`mobileaction`** | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
-| **`mobileappid`** | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:   `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:    `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
 | **`mobileappperformancecrashid`** | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
 | **`mobileappstoreobjectid`** | Wird im Appfigures-Daten-Connector verwendet. App Store-Objekt-ID. | varchar(255) |
@@ -125,13 +125,13 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`mobilecampaignterm`** | Bezahlte Suchbegriffe oder andere Begriffe, die Sie mit dieser Akquise verfolgen möchten. Erfasst durch App-Akquise. | varchar(255) |
 | **`mobiledayofweek`** | Nummer des Wochentags, an dem die App gestartet wurde. | varchar(255) |
 | **`mobiledayssincefirstuse`** | Anzahl der Tage, die seit dem ersten Ausführen der App vergangen sind. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | RETIRED - Wird mit der Kontextdatenvariablen a.DaysSinceLastUpgrade erfasst. Die Anzahl der Tage, die seit der vorherigen Sitzung vergangen sind. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | RETIRED – Wird mit der Kontextdatenvariablen a.DaysSinceLastUpgrade erfasst. Die Anzahl der Tage, die seit der vorherigen Sitzung vergangen sind. | varchar(255) |
 | **`mobiledayssincelastuse`** | Anzahl der Tage, die vergangen sind, seitdem die App das letzte Mal ausgeführt wurde. | varchar(255) |
 | **`mobiledeeplinkid`** | Erfasst mit der Kontextdatenvariablen `a.deeplink.id`. Wird in Akquise-Berichten als Identifikator für mobilen Akquise-Link verwendet. | varchar(255) |
 | **`mobiledevice`** | Mobilgerätname. Unter iOS als kommagetrennte 2-Ziffern-Zeichenfolge gespeichert. Die erste Zahl gibt die Gerätegeneration an und die zweite die Gerätefamilie. | varchar(255) |
 | **`mobilehourofday`** | Gibt die Stunde des Tages an, zu der die App gestartet wurde. Angaben im 24-Stunden-Format. | varchar(255) |
 | **`mobileinstalldate`** | Installationsdatum der mobilen App. Stellt das Datum zur Verfügung, an dem ein Benutzer die Mobile App erstmalig geöffnet hat. | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | RETIRED - Wird mit der Kontextdatenvariablen a.LaunchesSinceUpgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | RETIRED – Wird mit der Kontextdatenvariablen a.LaunchesSinceUpgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
 | **`mobilelaunchnumber`** | Wird immer dann erhöht, wenn die Mobile App gestartet wird. | varchar(255) |
 | **`mobileltv`** | Wird nicht mehr verwendet. Erfasst durch trackLifetimeValue-Methoden. | varchar(255) |
 | **`mobilemessagebuttonname`** | Erfasst mit der Kontextdatenvariablen `a.message.button.id`. Wird für In-App-Nachrichten verwendet, um die Schaltfläche zu identifizieren, mit der die Nachricht geschlossen wurde. | varchar(100) |
@@ -139,12 +139,12 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`mobilemessageonline`** | In-App-Online-Nachricht | varchar(255) |
 | **`mobilemessagepushoptin`** | Erfasst mit der Kontextdatenvariablen `a.push.optin`. Setzen Sie sie auf „true“, wenn sich der Benutzer für Push-Nachrichten anmeldet; andernfalls ist der Wert „false“. | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Erfasst mit der Kontextdatenvariablen `a.push.payloadid`. Wird in Push-Nachrichten als Payload-ID verwendet. | varchar(255) |
-| **`mobileosenvironment`** | RETIRED - Wird mit der Kontextdatenvariablen erfasst `a.OSEnvironment`. Gibt das Betriebssystem an, z. B. Android oder iOS. | varchar(255) |
+| **`mobileosenvironment`** | RETIRED – Wird mit der Kontextdatenvariablen `a.OSEnvironment` erfasst. Gibt das Betriebssystem an, z. B. Android oder iOS. | varchar(255) |
 | **`mobileosversion`** | Betriebssystemversion der Mobile Services | varchar(255) |
 | **`mobileplaceaccuracy`** | Erfasst mit der Kontextdatenvariablen `a.loc.acc`. Gibt die Genauigkeit des GPS in Metern zum Erfassungszeitpunkt an. | varchar(255) |
 | **`mobileplacecategory`** | Erfasst mit der Kontextdatenvariablen `a.loc.category`. Beschreibt die Kategorie eines bestimmten Orts. | varchar(255) |
 | **`mobileplaceid`** | Erfasst mit der Kontextdatenvariablen `a.loc.id`. Kennung für einen bestimmten Zielpunkt. | varchar(255) |
-| **`mobilepushoptin`** | Mobile Services Push-Anmeldung | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services-Push-Opt-in | varchar(255) |
 | **`mobilepushpayloadid`** | Mobile Services-Push-Payload-ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Startinhalte für Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Startmedium für Mobile Services | varchar(255) |
@@ -166,7 +166,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`page_type`** | Wird zum Füllen der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. Wird nur für 404-Seiten verwendet. Diese Variable sollte entweder leer sein oder den Wert `ErrorPage` enthalten. | char(20) |
 | **`page_url`** | Die URL des Treffers. Beachten Sie, dass `post_page_url` für Bildanforderungen zum Linktracking entfernt wird und einen Datentyp von varchar(255) verwendet. | text |
 | **`pagename`** | Wird zum Füllen der Dimension [Seite](/help/components/dimensions/page.md) verwendet. Wenn die Variable [`pagename`](/help/implement/vars/page-vars/pagename.md) leer ist, verwendet Analytics stattdessen `page_url`. | varchar(100) |
-| **`pagename_no_url`** | Ähnlich wie `pagename`, allerdings wird nicht auf `page_url`. Nur die `post` verfügbar ist. | varchar(100) |
+| **`pagename_no_url`** | Ähnlich wie `pagename`, allerdings ohne Fallback auf `page_url`. Nur die Spalte `post` ist verfügbar. | varchar(100) |
 | **`paid_search`** | Flag, das gesetzt wird, wenn der Treffer mit der gebührenpflichtigen Sucherkennung übereinstimmt. | tinyint unsigniert |
 | **`partner_plugins`** | Nicht verwendet. Teil einer veralteten Funktion. | varchar(255) |
 | **`persistent_cookie`** | Wird in der Dimension [Unterstützung persistenter Cookies](/help/components/dimensions/persistent-cookie-support.md) verwendet. Gibt an, ob der Benutzer Cookies unterstützt, die nicht nach jedem Treffer gelöscht werden. | char(1) |
@@ -184,7 +184,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`ref_type`** | Eine numerische ID, die den Typ des Verweises für den Treffer darstellt. In der Dimension [Referrer-Typ](/help/components/dimensions/referrer-type.md) verwendet. <br>1: Auf Ihrer Site<br>2: Andere Websites <br>3: Suchmaschinen <br>4: Festplatte <br>5: USENET <br>6: Eingegeben/mit Lesezeichen versehen (kein Referrer) <br>7: E-Mail <br>8: Kein JavaScript <br>9: Soziale Netzwerke | tinyint unsigniert |
 | **`referrer`** | Seiten-URL der vorherigen Seite. In der Dimension [Referrer](/help/components/dimensions/referrer.md) verwendet. Beachten Sie, dass während `referrer` einen Datentyp von varchar(255) verwendet, `post_referrer` einen Datentyp von varchar(244) verwendet. | varchar(255) |
 | **`resolution`** | Numerische ID, die die Auflösung des Bildschirms darstellt. In der Dimension [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md) verwendet. Verwendet die Suchtabelle `resolution.tsv`. | smallint unsigniert |
-| **`s_kwcid`** | Keyword-ID, die in Adobe Advertising-Integrationen verwendet wird. | varchar(255) |
+| **`s_kwcid`** | Die Keyword-ID, die in Adobe Advertising-Integrationen verwendet wird. | varchar(255) |
 | **`s_resolution`** | Rohwert der Bildschirmauflösung. Erfasst mit der JavaScript-Funktion `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | Numerische ID, die die Suchmaschine darstellt, die den Besucher auf Ihre Site verwiesen hat. Verwendet die `search_engines.tsv`-Suche. | smallint unsigniert |
 | **`search_page_num`** | Verwendet von der Dimension [Alle Suchseiten-Ranglisten](/help/components/dimensions/all-search-page-rank.md). Gibt an, auf welcher Seite der Suchergebnisse Ihre Site angezeigt wurde, ehe der Benutzer sich zu Ihrer Site durchgeklickt hat. | smallint unsigniert |
@@ -208,12 +208,12 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`sourceid`** | Quell-ID | int unsigniert |
 | **`state`** | Statusvariable. | varchar(50) |
 | **`stats_server`** | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
-| **`survey`** | Wird nicht mehr verwendet. Adobe Survey-Variable. Nur die `post` verfügbar ist. | text |
+| **`survey`** | Wird nicht mehr verwendet. Adobe Survey-Variable. Nur die Spalte `post` ist verfügbar. | text |
 | **`survey_instances`** | Wird nicht mehr verwendet. Adobe Survey-Instanzvariable. | Text |
 | **`t_time_info`** | Lokale Zeit des Besuchers. Das Format ist: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die er derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
 | **`tnt_action`** | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die der Treffer qualifiziert ist. | text |
-| **`tnt_instances`** | Wird in Adobe Target-Integrationen verwendet. Target-Instanzen . | text |
+| **`tnt_instances`** | Wird in Adobe Target-Integrationen verwendet. Target-Instanzvariable. | text |
 | **`tnt_post_vista`** | Wird nicht mehr verwendet. Verwenden Sie stattdessen `post_tnt`. | text |
 | **`transactionid`** | Eine eindeutige Kennung, bei der später verschiedene Datenpunkte via Datenquellen hochgeladen werden können. Erfasst mithilfe der Variablen [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | **`truncated_hit`** | Ein Flag, das angibt, dass die Bildanforderung gekürzt wurde. Zeigt den Erhalt eines teilweisen Treffers an. <br>Y: Treffer abgeschnitten; Teiltreffer erhalten <br>N: Treffer nicht abgeschnitten; vollständigen Treffer erhalten | char(1) |
@@ -279,7 +279,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | **`visid_low`** | Wird zusammen mit `visid_high` zur eindeutigen Identifizierung eines Besuchers verwendet. | bigint unsigniert |
 | **`visid_new`** | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
 | **`visid_timestamp`** | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in Unix-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
-| **`visid_type`** | Nicht zur externen Verwendung; intern von Adobe für Verarbeitungsoptimierungen verwendet. Numerische ID, die die Methode angibt, die zur Identifizierung des Besuchers verwendet wurde.<br>`0`: Benutzerspezifische Besucher-ID oder Unbekannt/nicht zutreffend<br>`1`: IP- und Benutzeragenten-Fallback <br>`2`: HTTP-Kopfzeile für Mobilteilnehmer <br>`3`: Alter Cookie-Wert (`s_vi`) <br>`4`: Ausweich-Cookie-Wert (`s_fid`) <br>`5`: Identity Service | tinyint unsigniert |
+| **`visid_type`** | Nicht zur externen Verwendung; intern von Adobe für Verarbeitungsoptimierungen verwendet. Numerische ID, die die Methode angibt, die zur Identifizierung des Besuchers verwendet wurde.<br>`0`: Benutzerspezifische Besucher-ID oder unbekannt/nicht anwendbar<br>`1`: IP- und Benutzeragenten-Fallback<br>`2`: HTTP-Kopfzeile mobiler Teilnehmer <br>`3`: Alter Cookie-Wert (`s_vi`) <br>`4`: Fallback-Cookie-Wert (`s_fid`) <br>`5`: Identity Service | tinyint unsigniert |
 | **`visit_keywords`** | Variable, die in der Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md) verwendet wird. Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung von varchar(244), um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
 | **`visit_num`** | Variable, die in der Dimension [Anzahl der Besuche](/help/components/dimensions/visit-number.md) verwendet wird. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
 | **`visit_page_num`** | Variable, die in der Dimension [Hit-Tiefe](/help/components/dimensions/hit-depth.md) verwendet wird. Wird für jeden vom Benutzer generierten Treffer um 1 erhöht. Setzt jeden Besuch zurück. | int unsigniert |
