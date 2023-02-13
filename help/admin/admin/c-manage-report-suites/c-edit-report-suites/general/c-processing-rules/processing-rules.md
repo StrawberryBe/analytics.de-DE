@@ -5,9 +5,9 @@ title: Übersicht über Verarbeitungsregeln
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -60,4 +60,4 @@ Siehe [Kontextdatenvariable in eine eVar kopieren](/help/admin/admin/c-manage-re
 
 ## Bekannte Einschränkungen
 
-**Verwendung von Katzen (^) in Verarbeitungsregeln.** Wenn Sie in Verarbeitungsregeln als Trennzeichen oder für andere Zwecke verwenden möchten, muss jeder einzelne Karat durch zwei Karat repräsentiert sein. Stellen Sie beispielsweise einen einzelnen Karat als ^^, einen doppelten Karat als ^^^ etc. dar.
+**Verwendung von Karat (^) in Verarbeitungsregeln.** Wenn Sie in Verarbeitungsregeln Karat als Trennzeichen oder für andere Zwecke verwenden möchten, muss jedes einzelne Karat durch zwei Karat dargestellt werden. Stellen Sie beispielsweise einen einzelnen Karat mit ^^ dar, einen doppelten Karat mit ^^^^ etc.
