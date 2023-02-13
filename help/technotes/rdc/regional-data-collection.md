@@ -4,9 +4,9 @@ description: Informationen zur regionalen Datenerfassung
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 60c2422ef32a4fadbb975006c111d12878a98f53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collect
 
 >[!IMPORTANT]
 >
->Das Add-on-Paket zur regionalen Datenerfassung in China (Leistungsoptimierung für China) ist ein kostenpflichtiges Add-On für Adobe Analytics. Die Leistungsoptimierung der Adobe auf dem chinesischen Festland ermöglicht es Kunden mit Nutzern in China, diese Daten direkt an Adobe Edge-Erfassungsserver innerhalb Chinas und nicht an andere Standorte weltweit zu senden. Dies verbessert die Seitenladezeiten und die Datengenauigkeit gegenüber dem Versand der Daten an Knoten außerhalb Chinas. Beachten Sie, dass die Daten letztendlich an eines der Data Processing Center (DPC) der Adobe außerhalb Chinas übermittelt werden. Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um weitere Informationen zu erhalten.
+>Das Add-on-Paket zur regionalen Datenerfassung in China (Leistungsoptimierung für China) ist ein kostenpflichtiges Add-On für Adobe Analytics. Durch die Leistungsoptimierung von Adobe auf dem chinesischen Festland können Kunden, die Anwender in China betreuen, diese Daten direkt an die Edge-Datenerfassungs-Server von Adobe in China statt an andere internationale Standorte senden. Dies verbessert die Seitenladezeiten und die Datengenauigkeit gegenüber dem Versand der Daten an Knoten außerhalb Chinas. Beachten Sie, dass die Daten letztendlich an eines der Data Processing Center (DPC) von Adobe außerhalb Chinas übermittelt werden. Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter, um weitere Informationen zu erhalten.
 
 RDC enthält derzeit die folgenden Speicherorte (kann sich ändern):
 
@@ -34,7 +34,7 @@ RDC enthält derzeit die folgenden Speicherorte (kann sich ändern):
 
 ## First-Party-Datenerfassung
 
-| RDC-Typ | Datenerfassungszentren |
+| RDC-Typ | Data Collection Centers |
 |---------------------|-------------------|
 | Global (Standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 | Global + China* | China*, Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
