@@ -4,9 +4,9 @@ description: Verwenden Sie diese Variable, um Online- und Offline-Daten miteinan
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Wenn Sie `transactionID` für einen Treffer festlegen, erstellt Adobe einen „S
 
 Adobe speichert standardmäßig alle (verknüpfte und nicht verknüpfte) Transaktions-ID-Werte bis zu 90 Tage lang. Wenn die Offline-Interaktion länger als 90 Tage dauert, lassen Sie diese Zeitspanne vom Kundendienst verlängern.
 
-## Transaktions-ID mit dem Web SDK
+## Transaktions-ID unter Verwendung des Web SDK
 
-Transaktions-ID ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `commerce.order.transactionID`.
+Die Transaktions-ID ist [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `commerce.order.transactionID` zugeordnet.
 
-## Transaktions-ID mit der Adobe Analytics-Erweiterung
+## Transaktions-ID unter Verwendung der Adobe Analytics-Erweiterung
 
 Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
