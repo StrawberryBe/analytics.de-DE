@@ -4,15 +4,15 @@ description: Verwenden Sie die Variable „linkInternalFilters“, um das automa
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # linkInternalFilters
 
-AppMeasurement bietet die Möglichkeit, Links, die auf eine Stelle außerhalb Ihrer Website verweisen, automatisch zu verfolgen. Wenn [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) oder [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) aktiviert ist, wird eine Bildanforderung an die Adobe gesendet, wenn ein Besucher auf einen Link klickt, um Ihre Site zu verlassen. Die Variablen [`linkExternalFilters`](linkexternalfilters.md) und `linkInternalFilters` bestimmen, welche Links als intern/extern betrachtet werden.
+AppMeasurement bietet die Möglichkeit, Links, die auf eine Stelle außerhalb Ihrer Website verweisen, automatisch zu verfolgen. Wenn [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) oder [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) aktiviert ist, wird eine Bildanfrage an Adobe geschickt, wenn ein Besucher bzw. eine Besucherin auf einen Link klickt, um Ihre Website zu verlassen. Die Variablen [`linkExternalFilters`](linkexternalfilters.md) und `linkInternalFilters` bestimmen, welche Links als intern/extern betrachtet werden.
 
 Wenn diese Variable einen Wert enthält, verhält sich das automatische Tracking von Exitlinks wie eine Blockierungsliste. Wenn ein Link-Klick keinem `linkInternalFilters`-Wert entspricht, wird er als Exitlink betrachtet. Die gesamte URL wird mit dieser Variablen verglichen. Wenn [`linkLeaveQueryString`](linkleavequerystring.md) aktiviert ist, wird auch die Abfragezeichenfolge geprüft.
 
@@ -26,11 +26,11 @@ Activity Map verwendet diese Variable, um zu ermitteln, welche Links interne Lin
 
 ## Exitlinks im Web SDK
 
-Links qualifizieren sich automatisch als Exitlink, wenn sich die Zieldomäne des Links von der aktuellen unterscheidet `window.location.hostname`. Das Web SDK bietet keine Konfigurationsvariablen, um die automatische Exitlinkerkennung zu ändern. Wenn Sie die Domänen, die als Exitlink gelten, anpassen müssen, können Sie die benutzerdefinierte Logik im `onBeforeEventSend` Callback.
+Links qualifizieren sich automatisch als Exitlink, wenn sich die Ziel-Domain des Links vom aktuellen `window.location.hostname` unterscheidet. Das Web SDK bietet keine Konfigurationsvariablen, um die automatische Exitlink-Erkennung zu ändern. Wenn Sie die Domains, die als Exitlink gelten, anpassen müssen, können Sie die benutzerdefinierte Logik im `onBeforeEventSend`-Callback verwenden.
 
-Siehe [Automatische Linktracking](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Weitere Informationen finden Sie in der Web-SDK-Dokumentation im Abschnitt [Automatisches Linktracking](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de#automaticLinkTracking).
 
-## Ausgehende Links - Verwenden Sie die Adobe Analytics-Erweiterung nie für Tracking.
+## Ausgehende Links – „Niemals verfolgen“ unter Verwendung der Adobe Analytics-Erweiterung
 
 Das Feld „Niemals verfolgen“ ist eine kommagetrennte Liste von Filtern (üblicherweise Domains) unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
