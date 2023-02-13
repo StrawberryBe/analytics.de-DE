@@ -1,20 +1,20 @@
 ---
 title: Unterstützte HTTPS-Verschlüsselungsalgorithmen
-description: Am 23. Juni 2022 werden wir die Unterstützung für TLS 1.2-Chiffren entfernen, die SHA1 oder CBC für Kunden verwenden, deren cipher-Sicherheitsstufe auf "Hoch"eingestellt ist.
+description: Ab 23. Juni 2022 werden keine TLS 1.2-Chiffren mehr unterstützt, die SHA1 oder CBC für Kunden verwenden, deren Chiffrier-Sicherheitsstufe auf „Hoch“ eingestellt ist.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
 source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # Unterstützte HTTPS-Verschlüsselungsalgorithmen
 
-Adobe bietet zwei Chiffrier-Sicherheitsstufen an, die den unterschiedlichen Sicherheitsanforderungen bei der Erfassung von First-Party-Daten gerecht werden. Diese Ebenen bestimmen, welche Verschlüsselungsalgorithmen für HTTPS-Verbindungen mit unseren Servern unterstützt werden. Kunden verwenden standardmäßig &quot;Standard&quot;, der nur moderne Verschlüsselungsalgorithmen unterstützt. &quot;Hoch&quot;unterstützt eine kleinere Liste von Verschlüsselungsalgorithmen für Kunden, die sich mehr um diese Verbindungen sorgen. Für beide Sicherheitsstufen aktualisiert Adobe regelmäßig den Satz der unterstützten Algorithmen auf der Grundlage aktueller Sicherheitspraktiken. Wenden Sie sich an die Kundenunterstützung, wenn Sie die Sicherheitseinstellungen für die Chiffre ändern möchten.
+Adobe bietet zwei Chiffrier-Sicherheitsstufen an, die den unterschiedlichen Sicherheitsanforderungen bei der Erfassung von First-Party-Daten gerecht werden. Diese Stufen bestimmen, welche Verschlüsselungsalgorithmen bei HTTPS-Verbindungen mit unseren Servern unterstützt werden. Die Standardeinstellung „Standard“ unterstützt nur moderne Verschlüsselungsalgorithmen. Die Einstellung „Hoch“ unterstützt eine kleinere Gruppe von Verschlüsselungsalgorithmen für Kunden, die mehr Sicherheit in Bezug auf diese Verbindungen wünschen. Für beide Sicherheitsstufen aktualisiert Adobe regelmäßig die unterstützten Algorithmen auf der Grundlage aktueller Sicherheitspraktiken. Wenden Sie sich an die Kundenunterstützung, wenn Sie Ihre Chiffrier-Sicherheitseinstellungen ändern möchten.
 
-Am 23. Juni 2022 werden wir die Unterstützung für TLS 1.2-Chiffren entfernen, die SHA1 oder CBC für Kunden verwenden, deren cipher-Sicherheitsstufe auf &quot;Hoch&quot;eingestellt ist.  Diese Änderung wirkt sich auf die sichere Datenerfassung für Endbenutzer auf älteren Betriebssystemen aus.
+Ab 23. Juni 2022 werden keine TLS 1.2-Chiffren mehr unterstützt, die SHA1 oder CBC für Kunden verwenden, deren Chiffrier-Sicherheitsstufe auf „Hoch“ eingestellt ist. Diese Änderung wirkt sich auf die sichere Datenerfassung von Endbenutzern und Endbenutzerinnen auf älteren Betriebssystemen aus.
 
 Die folgenden TLS 1.2-Chiffren werden nicht mehr unterstützt:
 
@@ -29,11 +29,11 @@ Die folgenden TLS 1.2-Chiffren werden nicht mehr unterstützt:
 
 Die folgenden Clients sind von dieser Änderung bekanntermaßen betroffen, da sie die aktuellen Verschlüsselungsstandards nicht unterstützen:
 
-* Windows 8.1 und früher (zuletzt aktualisiert 2018)
-* Windows Phone 8.1 und früher (zuletzt aktualisiert 2016)
-* OS X 10.10 und früher (letzte Aktualisierung 2017)
-* iOS 8.4 und früher (zuletzt aktualisiert 2015)
+* Windows 8.1 und niedriger (zuletzt aktualisiert 2018)
+* Windows Phone 8.1 und niedriger (zuletzt aktualisiert 2016)
+* OS X 10.10 und niedriger (letzte Aktualisierung 2017)
+* iOS 8.4 und niedriger (zuletzt aktualisiert 2015)
 
 Android-Geräte sind von dieser Änderung nicht betroffen.
 
-Kunden mit der Sicherheitsstufe &quot;Standard&quot;sind von dieser Änderung nicht betroffen.
+Auch Kunden mit der Sicherheitsstufe „Standard“ sind von dieser Änderung nicht betroffen.
