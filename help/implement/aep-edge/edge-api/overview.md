@@ -2,7 +2,7 @@
 title: Implementieren von Adobe Analytics mit der Adobe Experience Platform Edge-API
 description: Verwenden Sie die Adobe Experience Platform Edge-API, um Daten an Adobe Analytics zu senden.
 source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '86'
 ht-degree: 100%
 
