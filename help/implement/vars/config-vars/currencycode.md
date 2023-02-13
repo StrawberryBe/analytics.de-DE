@@ -4,9 +4,9 @@ description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweil
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Wä
 Währungs-Code wird über Kontextdatenvariablen in der Adobe Analytics-Erweiterung an die Adobe Experience Platform Mobile SDKs übergeben.
 
 1. Legen Sie den Währungs-Code in einer Kontextdatenvariablen während `trackState` oder `trackAction` fest.
-1. Erstellen Sie eine Verarbeitungsregel in den Adobe Analytics Admin Tools für die Report Suite. Legen Sie die Regel fest, um die Währungs-Code-Variable zu überschreiben.
+1. Erstellen Sie in den Adobe Analytics-Admin-Tools eine Verarbeitungsregel für die Report Suite. Legen Sie die Regel fest, um die Währungs-Code-Variable zu überschreiben.
 1. Übergeben Sie den Währungs-Code an die `products`-Variable in Ihrem Aufruf an `trackState` oder `trackAction`.
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
