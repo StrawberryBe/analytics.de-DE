@@ -4,21 +4,21 @@ title: Report Suite Manager
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Report Suite Manager
 
-Eine Report Suite definiert die vollständige, unabhängige Berichterstellung für einen der folgenden Datenspeicher:
+Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über die folgenden Datenspeicher:
 
 * Eine einzelne Website (am häufigsten)
 
-* Ein Teil oder eine Untergruppe einer einzelnen Website
+* Einen Teil oder eine Untergruppe einer einzelnen Website
 
-* Ein globales Segment, das aus den Zahlen mehrerer Sites besteht, um die Gesamtwerte zu erhalten
+* Ein globales Segment, das aus den Zahlen mehrerer Sites einen Gesamtwert erzeugt
 
 Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
 
@@ -26,7 +26,7 @@ Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende 
 
 So greifen Sie auf eine Report Suite zu:
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**
+Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Die folgende Tabelle beschreibt die Elemente auf der Seite [!UICONTROL Report Su
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Datenaggregationen</span> </td> 
-   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Rückverfolgungsdaten verschiedener anderer Report Suites kombiniert. </p> <p>Siehe <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Datenaggregations-Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Rückverfolgungsdaten verschiedener anderer Report Suites kombiniert. </p> <p>Siehe  <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Datenaggregations-Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Einstellungen bearbeiten</span> </td> 
