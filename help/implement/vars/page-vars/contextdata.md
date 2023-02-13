@@ -4,9 +4,9 @@ description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benu
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefiniert
 
 Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen, statt in nummerierten Variablen zu erfassen. Anstatt beispielsweise anzufordern, dass Entwicklungsteams den Autor der Seite `eVar10` zuweisen, können Sie sie stattdessen auffordern, ihn `s.contextData["author"]` zuzuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen Analysevariablen für die Berichterstellung zuzuordnen. Entwicklungsteams würden sich letztlich nur um Kontextdatenvariablen kümmern, nicht um die vielen Seitenvariablen, die Adobe anbietet.
 
-## Kontextdatenvariablen mit dem Web SDK
+## Kontextdatenvariablen, die das Web SDK verwenden
 
-Wenn ein XDM-Feld nicht [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de), wird sie automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) , um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
+Wenn ein XDM-Feld nicht [für Adobe Analytics zugeordnet ist](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de), wird es automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
 
-Obwohl es sich als Best Practice empfiehlt, Daten den korrekten XDM-Feldern im Datastream zuzuordnen, erzielt diese Methode ähnliche Ergebnisse.
+Obwohl es sich als Best Practice empfiehlt, Daten den korrekten XDM-Feldern im Datenstrom zuzuordnen, werden mit dieser Methode ähnliche Ergebnisse erzielt.
 
-## Kontextdatenvariablen mit der Adobe Analytics-Erweiterung
+## Kontextdatenvariablen, die die Adobe Analytics-Erweiterung verwenden
 
-Die Adobe Experience Platform-Datenerfassung verfügt nicht über einen speziellen Speicherort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Die Adobe Experience Platform-Datenerfassung verfügt über keinen speziellen Ort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
