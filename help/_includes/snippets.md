@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '718'
 ht-degree: 16%
 
 ---
@@ -19,16 +19,18 @@ ht-degree: 16%
 
    | Option | Funktion |
    |---------|----------|
+   | [!UICONTROL **Genehmigt**] | Nur Komponenten anzeigen, die von einem Administrator als genehmigt markiert wurden. |
+   | [!UICONTROL **Favoriten**] | Nur Komponenten anzeigen, die sich in Ihrer Favoritenliste befinden. Informationen zum Hinzufügen von Komponenten zur Favoritenliste finden Sie unter [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensionen**] | Nur Komponenten anzeigen, die Dimensionen sind. (Diese Option ist auch im [!UICONTROL **Schnellfilter**] beim erstmaligen Zugriff auf das Datenwörterbuch.) |
    | [!UICONTROL **Metriken**] | Nur Komponenten anzeigen, die Metriken sind. (Diese Option ist auch im [!UICONTROL **Schnellfilter**] beim erstmaligen Zugriff auf das Datenwörterbuch.) |
    | [!UICONTROL **Segmente**] | Nur Komponenten anzeigen, die Segmente sind. (Diese Option ist auch im [!UICONTROL **Schnellfilter**] beim erstmaligen Zugriff auf das Datenwörterbuch.) <!--this is Filters in CJA--> |
    | [!UICONTROL **Datumsbereiche**] | Zeigt nur Komponenten an, die Datumsbereiche sind. (Diese Option ist auch im [!UICONTROL **Schnellfilter**] beim erstmaligen Zugriff auf das Datenwörterbuch.) |
+   | [!UICONTROL **Alle anzeigen**] | Alle Komponenten anzeigen. Diese Option steht nur Administratoren zur Verfügung. |
+   | [!UICONTROL **Nicht genehmigt**] | Nur Komponenten anzeigen, die noch nicht von einem Administrator als genehmigt gekennzeichnet wurden. Als Administrator ist dies hilfreich, wenn Sie Komponenten identifizieren, die Ihre Überprüfung und Genehmigung erfordern. Diese Option steht nur Administratoren zur Verfügung. |
    | [!UICONTROL **Fehlende Beschreibung**] | Zeigt nur Komponenten an, die noch keine Beschreibung im Feld Beschreibung haben. Diese Option steht nur Administratoren zur Verfügung. |
-   | [!UICONTROL **Duplikate**] | Nur Komponenten anzeigen, die in der ausgewählten Report Suite dieselbe Beschriftung oder dieselbe Beschreibung wie in einer anderen Komponente aufweisen. Diese Option steht nur Administratoren zur Verfügung. Beschriftungen oder Beschreibungen müssen exakt übereinstimmen, damit sie als Duplikate angezeigt werden. |
-   | [!UICONTROL **Keine Daten kürzlich**] | Nur Komponenten anzeigen, die in den letzten 90 Tagen keine Daten erfasst haben. Diese Option steht nur Administratoren zur Verfügung. |
-   | [!UICONTROL **Erstellt von Adobe**] | Zeigt nur Komponenten an, die von Adobe erstellt wurden. Komponenten, die von einem Administrator oder einem anderen Benutzer in Ihrem Unternehmen erstellt wurden, werden nicht angezeigt. |
-   | [!UICONTROL **Genehmigt**] | Nur Komponenten anzeigen, die von einem Administrator als genehmigt markiert wurden. |
-   | Nicht genehmigt (nur für Administratoren verfügbar) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **Duplikate anzeigen**] | Nur Komponenten anzeigen, die in der ausgewählten Report Suite dieselbe Beschriftung oder dieselbe Beschreibung wie in einer anderen Komponente aufweisen. Beschriftungen oder Beschreibungen müssen exakt übereinstimmen, damit sie als Duplikate angezeigt werden. Diese Option steht nur Administratoren zur Verfügung. |
+   | [!UICONTROL **Keine aktuellen Daten**] | Nur Komponenten anzeigen, die in den letzten 90 Tagen keine Daten erfasst haben. Diese Option steht nur Administratoren zur Verfügung. |
+   | [!UICONTROL **Erstellt von Adobe**] <!-- I don't see this option--> | Zeigt nur Komponenten an, die von Adobe erstellt wurden. Komponenten, die von einem Administrator oder einem anderen Benutzer in Ihrem Unternehmen erstellt wurden, werden nicht angezeigt. |
 
    {style=&quot;table-layout:auto&quot;}
 

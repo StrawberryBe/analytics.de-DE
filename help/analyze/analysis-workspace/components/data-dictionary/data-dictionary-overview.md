@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Das Datenwörterbuch in Analysis Workspace hilft Benutzern und Administratoren, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
 
-Systemadministratoren sind dafür verantwortlich, diese Informationen über die einzelnen Komponenten im Datenwörterbuch zu kuratieren und sie den Benutzern zur Verfügung zu stellen.
+Analytics-Administratoren sind für das Kuratieren von Informationen zu den einzelnen Komponenten im Datenwörterbuch zuständig, damit sie Benutzern zur Verfügung gestellt werden.
 
 ## Vorteile für Benutzer
 
@@ -33,6 +33,8 @@ Zu den im Datenwörterbuch verfügbaren Informationen gehören:
 * Komponenten, die der angezeigten ähneln
 
 * Ob eine Komponente vom Systemadministrator genehmigt wird
+
+Informationen zum Zugriff auf das Datenwörterbuch und Details zu den darin enthaltenen Informationen finden Sie unter [Komponenteninformationen im Datenwörterbuch anzeigen](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Vorteile für Administratoren
 
@@ -67,7 +69,13 @@ Sie können auf das Datenwörterbuch auf eine der folgenden Arten in Analysis Wo
 
 * Im Menü: [!UICONTROL **Hilfe**] > [!UICONTROL **Datenwörterbuch**].
 
-   <!--add screenshot-->
+Detaillierte Informationen zu den verschiedenen verfügbaren Optionen im Datenwörterbuch finden Sie unter [Komponenteninformationen im Datenwörterbuch anzeigen](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## Datenwörterbuch aktualisieren und kuratieren
+
+Analytics-Administratoren sind für die Pflege eines gesunden Datenwörterbuchs für ihre Organisation verantwortlich, wie unter [Überwachen der Gesundheit von Datenwörterbüchern](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+Im Rahmen dieses Prozesses können Analytics-Administratoren Informationen zu den einzelnen Komponenten im Datenwörterbuch bearbeiten, wie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Verschieben, Minimieren oder Schließen des Datenwörterbuchs
 
