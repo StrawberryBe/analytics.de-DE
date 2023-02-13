@@ -3,7 +3,7 @@ title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 100%
 

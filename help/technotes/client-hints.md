@@ -5,7 +5,7 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 70%
+ht-degree: 94%
 
 ---
 
@@ -21,13 +21,13 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 * **Hinweise mit hoher Entropie** enthalten detailliertere Informationen. Diese Hinweise sind nur auf Anfrage verfügbar. Sowohl AppMeasurement als auch Web SDK können konfiguriert werden, um Hinweise mit hoher Entropie anzufordern. Standardmäßig fordern beide Bibliotheken **keine** Hinweise mit hoher Entropie an.
 
-Ab Oktober 2022 starteten neue Versionen von Chromium-Browsern das &quot;Einfrieren&quot;der Betriebssystemversion, die in der Benutzeragenten-Zeichenfolge dargestellt wird. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
+Ab Oktober 2022 haben neue Versionen von Chromium-Browsern die in der Benutzeragenten-Zeichenfolge dargestellte Betriebssystemversion „eingefroren“. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
 
-Client-Hinweise werden ab dem 16. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisinformationen, werden aber erst Mitte Februar bei der Gerätesuche verwendet. Wie unten erwähnt, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (siehe mehr [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher betrifft.
+Die Client-Hinweise werden ab 16. Februar 2023 in den Prozess der Analytics-Gerätesuche integriert. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Februar nicht für die Gerätesuche verwendet. Wie unten beschrieben, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (mehr dazu [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher und -Besucherinnen betrifft.
 
 >[!NOTE]
 >
-> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch dargestellt, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Siehe [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de) für weitere Informationen.
+> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch dargestellt, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de).
 
 AAM erfordert die Erfassung von Hinweisen zur Entropie mit hoher Entropie, um die volle Funktionalität zu erhalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
 
@@ -41,11 +41,11 @@ Dieser [Blogpost von Google](https://web.dev/user-agent-client-hints/) ist eine 
 
 +++**Wie kann ich die Sammlung von Client-Hinweisen aktivieren?**
 
-Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anweisungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=de).
 
 Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
 
-Für Daten, die über API übermittelt werden, z. B. über [Dateneinfüge-API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) oder [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), müssen Hinweise explizit in die Payload aufgenommen werden. Weitere Informationen finden Sie in der entsprechenden Dokumentation .
+Für Daten, die über eine API übermittelt werden, z. B. über die [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) oder die [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=de), müssen Hinweise explizit in die Payload aufgenommen werden. Einzelheiten dazu finden Sie in der entsprechenden Dokumentation.
 
 +++
 
@@ -74,7 +74,7 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 * Über den Anfrageheader werden Hinweise mit geringer Entropie erfasst.
 * High-Entropy-Hinweise werden über JavaScript erfasst und über Abfragezeichenfolgen-Parameterwerte weitergegeben. Die Abfragezeichenfolgenparameter verwenden `h.` als Präfix in der Bildanforderung.
 
-Hohe Entropiehinweise werden über den JavaScript-Aufruf erfasst und über den Abfrageparameter übergeben
+Hinweise mit hoher Entropie werden über einen JavaScript-Aufruf erfasst und mithilfe eines Abfrageparameters übergeben
 
 +++
 
@@ -88,11 +88,11 @@ Die für das Reporting verfügbaren Gerätefelder ändern sich nicht. Die in die
 
 Diese Felder werden direkt vom Benutzeragenten abgeleitet, aber der Benutzeragent kann abhängig von den Gerätedetails zur Ableitung von Werten für andere gerätebezogene Felder verwendet werden.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=de)
 * [Browser-Typ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=de)
-* [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)
 * [Betriebssystemtypen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=de)
-* [Mobilgerät und Mobilgerätetyp](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [Mobilgerät und Mobilgerätetyp](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=de)
 
 +++
 
@@ -102,11 +102,11 @@ Siehe den [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021
 
 +++
 
-+++**Wie hängt Analytics vom Benutzeragenten ab?**
++++**Inwiefern hängt Analytics vom Benutzeragenten ab?**
 
-Geräteinformationen in Berichten werden vom Benutzeragenten abgeleitet. Wir haben unsere Prozesse aktualisiert, um sowohl Benutzeragent- als auch Client-Hinweise zu verwenden, sofern verfügbar.
+Geräteinformationen in Berichten stammen vom Benutzeragenten. Wir haben unsere Prozesse aktualisiert, um sowohl Benutzeragenten- als auch Client-Hinweise zu verwenden, sofern welche verfügbar sind.
 
-Die Ausweich-ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) wird vom Benutzeragenten und von der IP-Adresse abgeleitet. Diese ID wird nur verwendet, wenn ein Cookie nicht gesetzt werden kann und daher nicht häufig verwendet wird.
+Die Fallback-ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=de)) stammt vom Benutzeragenten und von der IP-Adresse. Diese ID wird nur verwendet, wenn ein Cookie nicht gesetzt werden kann. Sie kommt daher nicht häufig zum Einsatz.
 
 +++
 
@@ -120,7 +120,7 @@ Die Zeiten für das Einfrieren anderer Teile des Benutzeragenten können Sie dem
 
 +++**Wie verwendet Adobe Client-Hinweise zum Erfassen von Geräteinformationen?**
 
-Adobe verwendet einen Drittanbieter, Device Atlas, der sowohl Client-Hinweise als auch den User-Agent verwendet, um Geräteinformationen abzuleiten.
+Adobe verwendet Device Atlas, einen Drittanbieter, der sowohl die Client-Hinweise als auch den Benutzeragenten zur Ermittlung von Geräteinformationen verwendet.
 
 +++
 

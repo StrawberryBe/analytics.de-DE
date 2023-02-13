@@ -5,8 +5,8 @@ exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,6 @@ In diesem Kapitel werden Konzepte erläutert, die Sie bezüglich der Analytics-s
 
 ## Hinzufügen eines Administrators in Adobe Analytics
 
-Sehen Sie sich die folgende Videodemonstration an, um zu erfahren, wie Sie einen Administrator in Adobe Analytics hinzufügen:
+Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie einen Administrator bzw. eine Administratorin in Adobe Analytics hinzufügen:
 
-[Hinzufügen eines Administrators in Adobe Analytics](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}
+[Hinzufügen eines Administrators bzw. einer Administratorin in Adobe Analytics](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}

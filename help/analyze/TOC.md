@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschl
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 96%
    + Projekte {#build-workspace-project}
       + [Übersicht über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
-      + Ordner in Workspace {#workspace-folders}
-         + [Über Ordner in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Ordner in Analysis Workspace {#workspace-folders}
+         + [Über Ordner in Analysis Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Erstellen von Ordnern und Unterordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Ordner löschen](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
+         + [Löschen von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Hinzufügen von Projekten](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Entfernen eines Projekts](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Speichern eines neuen Projekts](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -156,7 +156,7 @@ ht-degree: 96%
          + [Warnhinweiserstellung](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Warnhinweis-Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Intelligente Warnhinweise – Anwendungsfälle](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [Benutzerpräferenzen](analysis-workspace/user-preferences.md)
+   + [Benutzervoreinstellungen](analysis-workspace/user-preferences.md)
    + Häufig gestellte Fragen zu Workspace {#workspace-faq}
       + [Häufig gestellte Fragen](analysis-workspace/workspace-faq/faq.md)
       + [Optimieren der Analysis Workspace-Leistung](analysis-workspace/workspace-faq/optimizing-performance.md)

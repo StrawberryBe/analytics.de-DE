@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics-Berechtigungen – Übersichtstabellen
-description: Tabellen, die die verfügbaren Adobe Analytics-Berechtigungen in Adobe Admin Console zusammenfassen.
+description: Tabellen, in denen die verfügbaren Adobe Analytics-Berechtigungen in der Adobe Admin Console zusammengefasst werden.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
 # Analytics-Berechtigungen in der Admin Console
 
-Verwenden Sie die folgenden Zusammenfassungstabellen, um Adobe Analytics-Berechtigungen in der Adobe Admin Console nach logischen Gruppierungen zu identifizieren.
+Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Berechtigungen logisch gruppiert in der Adobe Admin Console anzuzeigen.
 
 ## Report Suite-Tools
 
@@ -74,7 +74,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um Adobe Analytics-Berecht
 
 | Analytics-Werkzeug | Administration | Zugriffskontrollen | Reine Berichtsfunktionen | Nicht mehr verwendet | Beschreibung |
 | --- | --- | --- | --- | --- | --- |
-| Code-Manager | x |  |  |  | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen verwenden Sie stattdessen die Bibliotheken, die in der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung enthalten sind. |
+| Code-Manager | x |  |  |  | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen können Sie stattdessen die Bibliotheken verwenden, die in der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung enthalten sind. |
 | Code-Manager – Web-Services | x |  |  |  | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
 | Ausblenden von Report Suites | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Report Suites ausblenden“. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
 | Integrationen (Erstellen) | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Data Connectors“ und ermöglicht dem Benutzer das Erstellen von Data Connectors. |
@@ -89,7 +89,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um Adobe Analytics-Berecht
 | Traffic-Management | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Traffic-Management“. |
 | Web-Services | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Web-Services“. |
 | Activity Map |  | x |  |  | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
-| Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis wird nicht mehr unterstützt. [Weitere Infos](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis wird nicht mehr unterstützt. [Weitere Informationen](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Zugriff auf Analysis Workspace |  | x |  |  | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
 | Analysis Workspace: als Vorlage speichern |  | x |  |  | Gewährt Zugriff auf „Projekt > Als Vorlage speichern“ in Analysis Workspace. |
 | Erstellung berechneter Metriken |  | x |  |  | Ermöglicht die Erstellung berechneter Metriken für alle Analytics-Funktionen. |

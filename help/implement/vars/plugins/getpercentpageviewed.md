@@ -6,7 +6,7 @@ exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 Die `getPercentPageViewed`-Funktion verwendet die folgenden Argumente:
 
-* **`pid`** (optional, Zeichenfolge): Eine Variable oder ein Wert, die bzw. der der aktuellen Seite entspricht. Die Standardeinstellung ist Analytics AppMeasurement `pageName` ODER die aktuelle URL, wenn die Variable &quot;AppMeasurement pageName&quot;nicht festgelegt ist.
+* **`pid`** (optional, Zeichenfolge): Eine Variable oder ein Wert, die bzw. der der aktuellen Seite entspricht. Standardmäßig wird die Analytics-AppMeasurement-Variable `pageName` verwendet ODER die URL, wenn die AppMeasurement-Variable „pageName“ nicht festgelegt ist.
 * **`ch`** (optional, boolesch): Setzen Sie dies auf `false` (oder `0`), wenn Sie nicht möchten, dass das Plug-in Änderungen berücksichtigt, die nach dem ersten Laden an der Größe einer Seite vorgenommen wurden. Wenn dieses Argument weggelassen wird, wird standardmäßig `true` verwendet. Adobe empfiehlt, dieses Argument in den meisten Fällen wegzulassen.
 
 Der Aufruf dieser Funktion gibt nichts zurück. Stattdessen werden die folgenden Variablen festgelegt:
@@ -66,7 +66,7 @@ Der Aufruf dieser Funktion gibt nichts zurück. Stattdessen werden die folgenden
 * `window._ppvPreviousPage`: Der Name der vorherigen angezeigten Seite. Abschließende Bildlaufmessungen für die aktuelle Seite sind erst verfügbar, nachdem eine neue Seite geladen wurde.
 * `window._ppvInitialPercentViewed`: Der Prozentsatz der vorherigen Seite, der beim ersten Laden der vorherigen Seite sichtbar war. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `100`.
 * `window._ppvHighestPercentViewed`: Der höchste Prozentsatz der vorherigen Seite, die der Besucher angezeigt hat (in der Höhe). Der am weitesten entfernte Punkt, zu dem der Besucher auf der vorherigen Seite gescrollt hat. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `100`.
-* `window._ppvFinalPercentViewed`: Der Prozentsatz der vorherigen Seite, der zu dem Zeitpunkt sichtbar war, zu dem der Besucher auf die aktuelle Seite wechselte. Dieser Wert ist gleich oder größer als der anfängliche Prozentsatz der angezeigten Seite und entspricht oder kleiner als der höchsten angezeigten Seite.
+* `window._ppvFinalPercentViewed`: Der Prozentsatz der vorherigen Seite, der zu dem Zeitpunkt sichtbar war, als der Besucher bzw. die Besucherin auf die aktuelle Seite wechselte. Dieser Wert ist gleich oder größer dem ursprünglichen Prozentsatz und gleich oder kleiner dem höchsten Prozentsatz einer Seitenansicht.
 * `window._ppvHighestPixelsSeen`: Die höchste Anzahl der insgesamt angesehenen Pixel (in der Höhe), während der Besucher einen Bildlauf auf der vorherigen Seite ausgeführt hat.
 * `window._ppvFoldsAvailable`: Die Anzahl der insgesamt verfügbaren „Seitenfalten“, die zum Scrollen auf der vorherigen Seite verfügbar sind. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `1`.
 * `window._ppvFoldsSeen`: Die höchste Anzahl von „Seitenfalten“, die erreicht wurde, als der Besucher die vorherige Seite nach unten gescrollt hat. Diese Variable enthält die Falte „Seitenanfang“. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `1`.
@@ -104,7 +104,7 @@ if(_ppvPreviousPage)
 
 ### 5.1 (8. Dezember 2022)
 
-* Der `_finalPercentViewed` Lösung
+* Die Lösung `_finalPercentViewed` wurde hinzugefügt
 
 ### 5.0.1 (22. Juni 2021)
 

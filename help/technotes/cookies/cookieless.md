@@ -6,7 +6,7 @@ exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 In diesem Dokument werden Optionen zur Beibehaltung einer beständigen Besucheridentifizierung über Eigenschaften und Lösungen hinweg besprochen, da in den wichtigsten Browsern Tracking-Präventionsmaßnahmen für Cookies implementiert sind.
 
-Adobe Analytics verwendet First-Party-Cookies, um die Aktivitäten eines Besuchers auf einer Site aufzuzeichnen. Analytics nutzt außerdem Third-Party-Cookies, um die Offsite-Aktivitäten eines Besuchers zu verstehen, z. B. Aktivitäten in anderen Domänen in Ihrem Besitz. Drittanbieter-Cookies werden in vielen Browsern blockiert und sind bei Chrome&#39; bevorstehender Entfernung der Unterstützung (derzeit für Ende 2024 geplant) weitgehend nicht mehr verfügbar. First-Party-Cookies sind in allen Browsern erlaubt, laufen jedoch unter Safari und anderen Browsern unter den [ITP-Tracking-Präventionsmaßnahmen](https://webkit.org/tracking-prevention) von Apple begrenzt ab. Weitere Informationen zu aktuellen Einschränkungen bei Browser-Cookies finden Sie unter [Adobe Analytics und Browser-Cookies](cookies.md).
+Adobe Analytics verwendet First-Party-Cookies, um die Aktivitäten eines Besuchers auf einer Site aufzuzeichnen. Analytics nutzt außerdem Third-Party-Cookies, um die Offsite-Aktivitäten eines Besuchers zu verstehen, z. B. Aktivitäten in anderen Domänen in Ihrem Besitz. Third-Party-Cookies werden in vielen Browsern blockiert und werden nach dem bevorstehenden Ende der Unterstützung durch Chrome (derzeit für Ende 2024 geplant) weitgehend nicht mehr verfügbar sein. First-Party-Cookies sind in allen Browsern erlaubt, laufen jedoch unter Safari und anderen Browsern unter den [ITP-Tracking-Präventionsmaßnahmen](https://webkit.org/tracking-prevention) von Apple begrenzt ab. Weitere Informationen zu aktuellen Einschränkungen bei Browser-Cookies finden Sie unter [Adobe Analytics und Browser-Cookies](cookies.md).
 
 Diese Browser-Beschränkungen spiegeln einen allgemeinen Übergang vom anonymen Third-Party-Tracking zum expliziten Austausch von Informationen zwischen Benutzern und Marken wider, denen sie vertrauen. Um diesen Schritt zu unterstützen, bietet Adobe Möglichkeiten für Kunden, herkömmliche Cookies zu ergänzen, indem dauerhafte Kennungen einbezogen werden, die über ihre First-Party-Beziehungen erfasst werden.
 
@@ -32,9 +32,9 @@ Die Server-seitige Erfassung bietet die Flexibilität, Ihre eigene Kennung berei
 
 Sie können Daten Server-seitig mit der [Data Insertion-API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) oder der [Bulk Data Insertion-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) an Analytics senden. Die Bulk Data Insertion-API wird für neue Server-seitige Implementierungen empfohlen. Einen Vergleich der beiden APIs finden Sie unter[Welches Adobe Analytics-Tool sollte verwendet werden](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
-## Erstanbieter-Geräte-ID (FPID) mit Web SDK
+## First-Party-Geräte-ID (FPID) mit dem Web SDK
 
-Mit dem Adobe Experience Platform Web SDK können Sie anstelle der von der Adobe generierten Experience Cloud-IDs (ECIDs) eigene Geräte-IDs festlegen und verwalten. Diese werden als Erstanbieter-Geräte-IDs (FPIDs) bezeichnet. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=de).
+Mit dem Adobe Experience Platform Web SDK können Sie anstelle der von Adobe generierten Experience Cloud-IDs (ECIDs) Ihre eigenen Geräte-IDs festlegen und verwalten. Diese werden als First-Party-Geräte-IDs (FPIDs) bezeichnet. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=de).
 
 ## Weitere Informationen
 

@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, w
 source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 94%
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Adobe Admin Console {#admin-console}
    + [Überblick](admin-console/home.md)
-   + [Erstes Adobe Analytics-Handbuch für Admins](admin-console/first-admin-guide.md)
+   + [Adobe Analytics-Handbuch für erste Administratoren](admin-console/first-admin-guide.md)
    + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Übersicht über die Berechtigungen für Analytics-Tools {#permissions}
       + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
       + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
       + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
-+ Admin Tools für Analytics {#admin-tools}
-   + [Übersicht über Admin Tools](admin/c-admin-tools.md)
++ Admin-Tools für Analytics {#admin-tools}
+   + [Übersicht über Admin-Tools](admin/c-admin-tools.md)
    + [Abrechnung](admin/billing-admin.md)
    + [Code-Manager](admin/code-manager-admin.md)
    + [Datenquellen](admin/data-sources.md)
@@ -156,7 +156,7 @@ ht-degree: 94%
       + [Warnhinweise zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/scu-alerts.md)
       + [Häufig gestellte Fragen zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-faq.md)
    + Benutzer und Produkte verwalten (alt) {#user-product-management}
-      + [Verwalten von Benutzern und Produkten (Legacy)](admin/user-management2/user-management.md)
+      + [Verwalten von Benutzenden und Produkten  (veraltet)](admin/user-management2/user-management.md)
       + Migrieren von Benutzern zur Adobe Admin Console {#migrate-users}
          + [Analytics-Benutzermigration zur Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
@@ -167,9 +167,9 @@ ht-degree: 94%
    + [Adobe Analytics-Workflow zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
    + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
    + Datenbeschriftung {#data-labels}
-      + [Datenschutzbezeichnungen für Analytics-Komponenten](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Report Suite-Daten beschriften](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Datenschutzbezeichnungen von Report Suites anzeigen/verwalten](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Datenschutzkennzeichnungen für Analytics-Komponenten](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Kennzeichnen von Report Suite-Daten](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Anzeigen/Verwalten von Datenschutzkennzeichnungen von Report Suites](c-data-governance/data-labeling/gdpr-view-settings.md)
       + [Best Practices für Beschriftungen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [Beschriftungsbeispiel](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
