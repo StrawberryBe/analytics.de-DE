@@ -5,9 +5,9 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ In Adobe Analytics navigieren Admins zu **[!UICONTROL Admin]** > **[!UICONTROL R
 
 ## Zugriffsberechtigung
 
-Sie benötigen die Berechtigung für Analytics-Produkt-Administrator (in Adobe Admin Console), um die Berichterstellungsaktivität zu verwalten.
+Sie benötigen die Berechtigung eines Analytics-Produktadministrators bzw. einer Analytics-Produktadministratorin (in der Adobe Admin Console), um die Berichterstellungsaktivität zu verwalten.
 
 Berechtigung ![](/help/admin/admin/assets/rep-mgr-permission.png)
 
@@ -88,7 +88,7 @@ Die Zusammenfassungszahlen geben die folgenden Informationen an:
 
 | Zusammenfassungszahl | Beschreibung |
 | --- | --- |
-| [!UICONTROL Benutzer] | Die Anzahl der Benutzer, die zurzeit Reporting-Anforderungen an diese Report Suite senden. |
+| [!UICONTROL Benutzer] | Die Anzahl der Benutzenden, die zurzeit Reporting-Anfragen an diese Report Suite senden. |
 | [!UICONTROL Projekte] | Workspace-Projekte, Report Builder-Arbeitsmappen usw. |
 | [!UICONTROL Abfragen] | Die Anzahl der derzeit laufenden Abfragen. |
 | [!UICONTROL Durchschnittliche Wartezeit] | Die durchschnittliche Wartezeit für alle laufenden Abfragen. |
@@ -104,7 +104,7 @@ Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 | --- | --- |
 | [!UICONTROL Abfrage-ID] | Kann zur Fehlerbehebung verwendet werden. |
 | [!UICONTROL Ausführungszeit] | Die Dauer der Abfrage. |
-| [!UICONTROL Wartezeit] | DIe Wartezeit für die Abfrage vor ihrer Verarbeitung. im Allgemeinen bei „0“, wenn genügend Kapazität vorhanden ist. |
+| [!UICONTROL Wartezeit] | Die Wartezeit für die Abfrage vor ihrer Verarbeitung. im Allgemeinen bei „0“, wenn genügend Kapazität vorhanden ist. |
 | [!UICONTROL Startzeit] | Der Zeitpunkt, zu dem die Verarbeitung der Abfrage begonnen hat (Ortszeit des Admins). |
 | [!UICONTROL Programm] | Die von [!UICONTROL Reporting Activity Manager] unterstützten Programme sind: <ul><li>Analysis Workspace-Benutzeroberfläche</li><li>Geplante Projekte im Workspace</li><li>Report Builder</li><li>Builder-Benutzeroberflächen: Segment, berechnete Metriken, Anmerkungen, Audiences usw.</li><li>API-Aufrufe aus der API 1.4 oder 2.0</li><li>Intelligente Warnhinweise</li></ul> |
 | [!UICONTROL Benutzer] | Der Benutzer, der die Abfrage initiiert hat. |
@@ -120,9 +120,9 @@ Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 
 So brechen Sie eine Anfrage ab:
 
-1. Aktivieren Sie das Kontrollkästchen links neben einem oder mehreren **[!UICONTROL Abfrage-IDs]** in der Tabelle und klicken Sie unten auf **[!UICONTROL Anfragen abbrechen.]**
+1. Aktivieren Sie das Kontrollkästchen links neben einer oder mehreren **[!UICONTROL Abfrage-IDs]** in der Tabelle und klicken Sie unten auf **[!UICONTROL Anfragen abbrechen]**.
 
-   Sie können Anforderungen auch stapelweise abbrechen, indem Sie Details anzeigen durch [!UICONTROL Benutzer], [!UICONTROL Projekt]oder [!UICONTROL Anwendung]. Nachfolgende Anforderungen für ein Projekt, einen Benutzer oder eine Anwendung, die sich zum Zeitpunkt des Abbruchs nicht in der Warteschlange befanden oder nicht ausgeführt wurden, können weiterhin angezeigt werden, wenn die Aktivität aktualisiert wird.
+   Sie können Anfragen auch stapelweise abbrechen, indem Sie Details nach [!UICONTROL Benutzer], [!UICONTROL Projekt] oder [!UICONTROL Anwendung] anzeigen. Nachfolgende Anfragen für ein Projekt, einen Benutzer oder eine Anwendung, die sich zum Zeitpunkt des Abbruchs nicht in der Warteschlange befanden oder nicht ausgeführt wurden, könnten weiterhin angezeigt werden, wenn die Aktivität aktualisiert wird.
 
 1. Im Fenster **[!UICONTROL X-Abfrage abbrechen]** können Sie bei Bedarf die Abbruchsmeldung ändern.
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
