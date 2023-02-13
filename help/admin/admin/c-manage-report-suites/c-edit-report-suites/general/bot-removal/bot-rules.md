@@ -4,9 +4,9 @@ title: Übersicht über Bot-Regeln
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Das Feld **[!UICONTROL enthält]** ist auf 100 Zeichen begrenzt. Die „enthält
 
 ### IP-Adresse (inklusive Wildcard-Übereinstimmungen)
 
-Sucht anhand von Platzhaltern (&#42;). Geben Sie die numerischen Werte der IP-Adresse an, für die Sie eine Übereinstimmung suchen. Substitute &#42; für alle Werte, die Sie mit einem Platzhalter abgleichen möchten. Die folgende Liste enthält Beispiele der IP-Adressen-Übereinstimmungszeichenfolge:
+Weist eine oder mehrere IP-Adressen im selben Block mithilfe von Wildcards (&#42;) zu. Geben Sie die numerischen Werte der IP-Adresse an, für die Sie eine Übereinstimmung suchen. Ersetzen Sie die Werte, für die Sie eine Wildcard-Übereinstimmung suchen, durch eine Wildcard (&#42;). Die folgende Liste enthält Beispiele der IP-Adressen-Übereinstimmungszeichenfolge:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Sucht anhand von Platzhaltern (&#42;). Geben Sie die numerischen Werte der IP-Ad
 
 ### IP-Adressbereich
 
-Geben Sie die Start- und Endbereiche der zuzuweisenden IP-Adressen an. Substitute &#42; für alle Werte, die Sie mit einem Platzhalter abgleichen möchten.
+Geben Sie die Start- und Endbereiche der zuzuweisenden IP-Adressen an. Ersetzen Sie die Werte, für die Sie eine Wildcard-Übereinstimmung suchen, durch eine Wildcard (&#42;).
 
 ### Definieren einer benutzerdefinierten Bot-Regel
 
@@ -122,7 +122,7 @@ Aktivieren Sie das Kontrollkästchen **[!UICONTROL Bestehende Regeln überschrei
 
 Bot-Regeln gelten für alle Analysedaten. Mithilfe von Bot-Regeln entfernte Daten sind nur in den Berichten „Bots“ und „Bot-Seiten“ sichtbar.
 
-VISTA-Regeln werden nach den Bot-Regeln angewendet. Siehe [Verarbeitungsreihenfolge](/help/technotes/processing-order.md) im Technotes-Benutzerhandbuch.
+VISTA-Regeln werden nach Bot-Regeln angewendet. Weitere Informationen finden Sie im Technote-Benutzerhandbuch unter [Verarbeitungsreihenfolge](/help/technotes/processing-order.md).
 
 **Verarbeitung von Besuchen mit hoher Hit-Zahl:** Wenn mehr als 100 Hits in einem Besuch auftreten, wird bei der Berichterstellung ermittelt, ob der Zeitraum des Besuchs (in Sekunden) kleiner oder gleich der Anzahl der Hits bei diesem Besuch ist. In dieser Situation beginnt die Berichterstellung mit dem nächsten Besuch neu, da die Verarbeitung langer, intensiver Besuche hohe Kosten verursacht. Besuche mit hoher Hit-Zahl werden in der Regel durch Bot-Angriffe verursacht und gelten nicht als normales Browsen von Besuchern.
 
@@ -136,4 +136,4 @@ Die IAB-Bot-Liste basiert lediglich auf dem Benutzeragenten, so dass das Filtern
 
 Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP verschleiert wird. Kunden müssen also keine Änderungen vornehmen, wenn sie die IP-Verschleierung aktivieren.
 
-Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten angepasst werden, um IP-Adressen mit einer Null am Ende zu berücksichtigen. Übereinstimmung &#42; sollte mit 0 übereinstimmen.
+Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten aktualisiert werden, sodass sie IP-Adressen mit einer Null am Ende berücksichtigen. Übereinstimmende &#42; sollten 0 entsprechen.
