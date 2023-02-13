@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
@@ -19,49 +19,49 @@ Sie können Anomalien in einer Tabelle oder einem Liniendiagramm anzeigen.
 
 Sie können Anomalien in einer Freiformtabelle für Zeitreihen anzeigen.
 
-1. Wählen Sie das Symbol für die Spalteneinstellungen in der Spaltenüberschrift aus und stellen Sie sicher, dass die [!UICONTROL **Anomalien**] in der Optionsliste ausgewählt ist. Weitere Informationen finden Sie unter [Spalteneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Wählen Sie das Symbol für die Spalteneinstellungen in der Spaltenüberschrift aus und stellen Sie sicher, dass die Option [!UICONTROL **Anomalien**] in der Optionsliste ausgewählt ist. Weitere Informationen finden Sie unter [Spalteneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. Klicken Sie im Einstellungsmenü weg, um die aktualisierte Tabelle anzuzeigen.
+1. Klicken Sie auf eine Stelle außerhalb des Einstellungsmenü, um die aktualisierte Tabelle anzuzeigen.
 
    ![](assets/anomaly_detected.png)
 
-1. Die Tabelle zeigt Anomalien wie folgt:
+1. Anomalien werden in der Tabelle wie folgt angezeigt:
 
-   A **dunkelgraues Dreieck** in der oberen rechten Ecke jeder Zeile angezeigt, in der eine Datenanomalie erkannt wird.
+   In der oberen rechten Ecke jeder Zeile, in der eine Datenanomalie erkannt wird, wird ein **dunkelgraues Dreieck** angezeigt.
 
-   Die Farben **vertikale Linie** in jeder Zeile gibt den erwarteten Wert an. Die Farben **schattierter Bereich** in jeder Zeile gibt den tatsächlichen Wert an. Wie sich die Linie (erwarteter Wert) mit dem schattierten Bereich (tatsächlicher Wert) vergleicht, bestimmt, ob eine Anomalie vorliegt. (Eine Beobachtung wird aufgrund der fortgeschrittenen statistischen Verfahren, die unter [In der Anomalieerkennung verwendete statistische Verfahren](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md).
+   Die farbige **senkrechte Linie** in jeder Zeile zeigt den erwarteten Wert an. Im farbig **schattierten Bereich** in jeder Zeile wird der tatsächliche Wert angezeigt. Der Vergleich der Linie (erwarteter Wert) mit dem schattierten Bereich (tatsächlicher Wert) bestimmt, ob eine Anomalie vorliegt. (Eine Anomalie wird auf der Basis fortschrittlicher statistischer Verfahren erkannt, die im Abschnitt [In der Anomalieerkennung verwendete statistische Verfahren](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) beschrieben werden.)
 
-1. Wählen Sie das graue Dreieck in der oberen rechten Ecke einer Zeile aus, um Details zur Anomalie anzuzeigen. Dies zeigt das Ausmaß (in Prozent), in dem der tatsächliche Wert über oder unter dem erwarteten Wert abweicht.
+1. Wählen Sie das graue Dreieck in der oberen rechten Ecke einer Zeile aus, um Details über die Anomalie zu erfahren. Angezeigt wird das Ausmaß (in Prozent), in dem der tatsächliche Wert über oder unter dem erwarteten Wert liegt.
 
-## Anzeigen von Anomalien in einem Liniendiagramm {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
+## Darstellen von Anomalien in einem Liniendiagramm {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
 
-Liniendiagramme sind die einzige Visualisierung, mit der Sie Anomalien anzeigen können.
+Anomalien können ausschließlich in Liniendiagrammen visuell dargestellt werden.
 
-So zeigen Sie Anomalien in einem Liniendiagramm an:
+So stellen Sie Anomalien in einem Liniendiagramm dar:
 
-1. Wählen Sie das Einstellungssymbol in der Visualisierungskopfzeile aus und stellen Sie sicher, dass die [!UICONTROL **Anomalien anzeigen**] in der Optionsliste ausgewählt ist. Weitere Informationen finden Sie unter [Linie](/help/analyze/analysis-workspace/visualizations/line.md).
+1. Wählen Sie in der Visualisierungskopfzeile das Einstellungssymbol aus und achten Sie darauf, dass die Option [!UICONTROL **Anomalien anzeigen**] in der Optionsliste ausgewählt ist. Weitere Informationen finden Sie im Abschnitt [Linie](/help/analyze/analysis-workspace/visualizations/line.md).
 
-1. (Optional) Damit das Konfidenzintervall das Diagramm skalieren kann, wählen Sie das Einstellungssymbol in der Visualisierungskopfzeile und dann die Option aus. **[!UICONTROL Anomalien können auf der Y-Achse skaliert werden]**.
+1. (Optional) Damit das Konfidenzintervall das Diagramm skalieren kann, wählen Sie das Einstellungssymbol in der Visualisierungskopfzeile und dann die Option **[!UICONTROL Anomalien können auf der Y-Achse skaliert werden]** aus.
 
-   Diese Option ist standardmäßig nicht aktiviert, da sie das Diagramm manchmal weniger lesbar machen kann.
+   Diese Option ist nicht standardmäßig aktiviert, da das Diagramm dadurch unübersichtlicher werden kann.
 
-1. Klicken Sie im Einstellungsmenü weg, um das aktualisierte Liniendiagramm anzuzeigen.
+1. Klicken Sie auf eine Stelle außerhalb des Einstellungsmenü, um das aktualisierte Liniendiagramm anzuzeigen.
 
    ![](assets/anomaly_linechart.png)
 
    Anomalien werden im Liniendiagramm wie folgt dargestellt:
 
-   A **weißer Punkt** wird immer dann in der Zeile angezeigt, wenn eine Datenanomalie erkannt wird. (Eine Beobachtung wird aufgrund der fortgeschrittenen statistischen Verfahren, die unter [In der Anomalieerkennung verwendete statistische Verfahren](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md).
+   Ein **weißer Punkt** auf der Linie bedeutet, dass an dieser Stelle eine Datenanomalie erkannt wurde. (Eine Anomalie wird auf der Basis fortschrittlicher statistischer Verfahren erkannt, die im Abschnitt [In der Anomalieerkennung verwendete statistische Verfahren](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) beschrieben werden.)
 
-   Die **hellschattierter Bereich** ist das Konfidenzband bzw. der erwartete Bereich, in dem Werte auftreten sollten. Jeder Wert, der außerhalb dieses erwarteten Bereichs liegt, ist eine Anomalie.
+   Der **hell schattierte Bereich** ist das Konfidenzband bzw. der erwartete Bereich, in dem Werte auftreten sollten. Jeder Wert, der außerhalb dieses erwarteten Bereichs liegt, ist eine Anomalie.
 
-   Wenn das Liniendiagramm mehrere Metriken enthält, werden nur die Anomalien angezeigt und Sie müssen den Mauszeiger über jede Anomalie bewegen, um das Konfidenzband für diese Metrik anzuzeigen.
+   Wenn das Liniendiagramm mehrere Metriken enthält, werden nur die Anomalien angezeigt. Bewegen Sie in diesem Fall den Mauszeiger über jede einzelne Anomalie, damit das Konfidenzband für diese Metrik eingeblendet wird.
 
-   Die **gepunktete Linie** ist der genaue erwartete Wert.
+   Die **gepunktete Linie** ist der erwartete Wert.
 
-1. Klicken Sie auf eine Anomalie (weißer Punkt), um die folgenden Informationen anzuzeigen:
+1. Durch Anklicken einer Anomalie (weißer Punkt) werden die folgenden Informationen angezeigt:
 
-   * Das Datum, an dem die Anomalie aufgetreten ist
+   * Das Datum, an dem die Anomalie auftrat
 
    * Der Rohdatenwert der Anomalie
 
