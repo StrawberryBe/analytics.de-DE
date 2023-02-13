@@ -4,9 +4,9 @@ description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Dieses Plug-in führt zwei Prüfungen durch:
 
 Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, kann das Plug-in 
 
-* Führen Sie entweder einen Direktaufrufregel-Aufruf mit dem Web SDK oder der Adobe Analytics-Erweiterung durch oder
+* Führen Sie entweder einen Aufruf für eine Direktaufrufregel mit dem Web SDK oder der Adobe Analytics-Erweiterung aus oder
 * Führen Sie einen Linktracking-Aufruf aus, um anzugeben, dass der Besucher kein Bot ist.
 
 ## Voraussetzungen
