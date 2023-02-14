@@ -3,10 +3,10 @@ description: Das Dialogfeld „Datenschutzkennzeichnungen für Data Governance�
 title: Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '867'
+ht-degree: 75%
 
 ---
 
@@ -17,15 +17,15 @@ Das Dialogfeld **[!UICONTROL Datenschutzkennzeichnungen für Data Governance]** 
 ## Anzeigen von Datenschutzkennzeichnungen {#view-privacy}
 
 1. Melden Sie sich bei Adobe Experience Cloud an.
-1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
+2. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
    >
    >Wenn dieser Menüpunkt nicht angezeigt wird, müssen Sie sich zu einem [Produktprofil in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de) hinzufügen lassen, das über die entsprechenden Berechtigungen für diese Funktion verfügt.
 
-1. Wählen Sie oben rechts eine Report Suite aus, deren Datenschutzkennzeichnungen Sie anzeigen oder verwalten möchten.
+3. Wählen Sie oben rechts eine Report Suite aus, deren Datenschutzkennzeichnungen Sie anzeigen oder verwalten möchten.
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | Einstellung | Beschreibung |
 | --- | --- |

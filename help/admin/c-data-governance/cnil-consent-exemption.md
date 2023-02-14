@@ -3,10 +3,10 @@ description: Informieren Sie sich über die Richtlinien und Empfehlungen für di
 title: Was sind die CNIL-Richtlinien für Cookies und die Zustimmung der Benutzer?
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '755'
+ht-degree: 75%
 
 ---
 
@@ -46,3 +46,4 @@ Es gelten zusätzlich folgende Überlegungen:
 
 
 Weitere Informationen finden Sie auf der Website [CNIL Cookie Exemption](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications).
+
