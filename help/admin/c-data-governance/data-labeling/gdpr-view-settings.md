@@ -1,68 +1,68 @@
 ---
-description: Das Dialogfeld Datenschutzbezeichnungen für Data Governance bietet einen Überblick über die Datenschutzbezeichnungen und Namespaces einer Report Suite. Sie können die Einstellungen von hier aus auch in eine CSV-Datei exportieren.
-title: Datenschutzbezeichnungen für Data Governance anzeigen/verwalten
+description: Das Dialogfeld „Datenschutzkennzeichnungen für Data Governance“ bietet einen Überblick über die Datenschutzkennzeichnungen und Namespaces einer Report Suite. Sie können die Einstellungen von hier aus auch in eine CSV-Datei exportieren.
+title: Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
+source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 41%
+source-wordcount: '867'
+ht-degree: 75%
 
 ---
 
-# Datenschutzbezeichnungen für Data Governance anzeigen/verwalten
+# Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
 
-Die **[!UICONTROL Datenschutzbezeichnungen für Data Governance]** bietet einen Überblick über die Datenschutzbezeichnungen und Namespaces einer Report Suite. Sie können die Einstellungen von hier aus auch in eine CSV-Datei exportieren.
+Das Dialogfeld **[!UICONTROL Datenschutzkennzeichnungen für Data Governance]** bietet einen Überblick über die Datenschutzkennzeichnungen und Namespaces einer Report Suite. Sie können die Einstellungen von hier aus auch in eine CSV-Datei exportieren.
 
-## Datenschutzbezeichnungen anzeigen {#view-privacy}
+## Anzeigen von Datenschutzkennzeichnungen {#view-privacy}
 
 1. Melden Sie sich bei Adobe Experience Cloud an.
-1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
+1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
    >
-   >Wenn dieser Menüpunkt nicht angezeigt wird, müssen Sie sich zu einem [Produktprofil in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de) hinzufügen lassen, das über die entsprechenden Berechtigungen für diese Funktion verfügt.
+   >Wenn dieser Menüpunkt nicht angezeigt wird, müssen Sie sich zu einem [Produktprofil in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de) hinzufügen lassen, das über die entsprechenden Berechtigungen für diese Funktion verfügt.
 
-1. Wählen Sie oben rechts eine Report Suite aus, deren Datenschutzbezeichnungen Sie anzeigen oder verwalten möchten.
+1. Wählen Sie oben rechts eine Report Suite aus, deren Datenschutzkennzeichnungen Sie anzeigen oder verwalten möchten.
 
    ![](assets/privacy_labeling.png)
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Name der Komponente]** | Diese Spalte listet alle Komponenten (Dimensionen, Metriken) auf, die Teil dieser Report Suite sind. |
-| **[!UICONTROL Identität]** | Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#identity-data-labels) |
-| **[!UICONTROL Sensitivität]** | Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenbeschriftungen eingeführt, um andere Arten vertraulicher Informationen zu identifizieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#sensitive-data-labels) |
-| **[!UICONTROL DSGVO-Zugriff]** | Über Data Governance-Beschriftungen können Benutzer Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL DSGVO-Löschung]** | Eine Löschbeschriftung ist nur für Felder erforderlich, die einen Wert enthalten, der die Zuordnung eines Treffers zur betroffenen Person ermöglicht (d. h. die Identifizierung der betroffenen Person ermöglichen würde). [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
-| **[!UICONTROL Namespace]** | Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#section_F0A47AF8DA384A26BD56032D0ABFD2D7) |
-| **[!UICONTROL Kategorie]** | Bezieht den Komponententyp, z. B. Standardkomponente, Konversionsvariable usw. |
+| **[!UICONTROL Name der Komponente]** | In dieser Spalte werden alle Komponenten (Dimensionen, Metriken) aufgelistet, die Teil dieser Report Suite sind. |
+| **[!UICONTROL Identität]** | Die Kennzeichnung für Identitätsdaten („I“) wird verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
+| **[!UICONTROL Vertraulichkeit]** | Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenkennzeichnungen verfügbar sein, um andere Arten vertraulicher Informationen zu kennzeichnen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
+| **[!UICONTROL DSGVO-Zugriff]** | Mit Data-Governance-Kennzeichnungen können Benutzende Daten klassifizieren, die datenschutzbezogene Informationen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
+| **[!UICONTROL DSGVO-Löschung]** | Eine Löschbeschriftung ist nur für Felder erforderlich, die einen Wert enthalten, der die Zuordnung eines Treffers zur betroffenen Person ermöglicht (d. h. die Identifizierung der betroffenen Person ermöglichen würde). [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
+| **[!UICONTROL Kategorie]** | Bezieht sich auf den Komponententyp, z. B. Standardkomponente, Konversionsvariable usw. |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Kopieren von Datenschutzbezeichnungen in eine Report Suite  {#copy-to-rs}
+## Kopieren von Datenschutzkennzeichnungen in eine Report Suite  {#copy-to-rs}
 
 Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwenden möchten, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie die Variable aus, die Sie kopieren möchten. Beachten Sie, dass Sie die Beschriftungen nur für jeweils eine Variable kopieren können.
-1. Klicken **[!UICONTROL In Report Suite(s) kopieren]** unten im Dialogfeld &quot;Data Governance&quot;.
+1. Wählen Sie die Variable aus, die Sie kopieren möchten. Beachten Sie, dass Sie jeweils nur die Kennzeichnungen für eine Variable kopieren können.
+1. Klicken Sie im Dialogfenster „Data Governance“ unten auf **[!UICONTROL In Report Suite(s) kopieren]**.
 
    ![In die Report Suite kopieren](assets/copy_to_reportsuite.png)
 
-1. Der sich ergebende Bildschirm zeigt den Variablennamen, die aktuell angewendeten Beschriftungen, die Sie kopieren möchten, die Report Suites und deren IDs sowie die Übereinstimmung der Einstellungen in den Ziel-Report Suites.
+1. Der folgende Bildschirm enthält den Variablennamen, die aktuell angewendeten Kennzeichnungen, die Sie kopieren möchten, die Report Suites und deren IDs sowie Informationen darüber, ob die Einstellungen in den Ziel-Report-Suites passend sind.
 
-   ![Kopieren der Beschriftung in die Report Suite](assets/copy_to_rs.png)
+   ![Kopieren von Kennzeichnungen in die Report Suite](assets/copy_to_rs.png)
 
    >[!IMPORTANT]
    >
    >Beachten Sie, dass alle ausgewählten Report Suites Ihrer Experience Cloud-Organisation zugeordnet sein müssen.
 
-   Wenn Sie die Beschriftungen für eine Variable oder Variablengruppe in eine andere Report Suite kopieren, wird die Kopie an der entsprechenden Stelle in der Ziel-Report Suite abgelegt. Bei Standardkomponenten, Listenvariablen und Erfolgsereignissen werden die Beschriftungen mit der Variablen **gleicher Name** in der Ziel-Report Suite.
+   Wenn Sie die Beschriftungen für eine Variable oder Variablengruppe in eine andere Report Suite kopieren, wird die Kopie an der entsprechenden Stelle in der Ziel-Report Suite abgelegt. Bei Standardkomponenten, Listenvariablen und Erfolgsereignissen werden die Kennzeichnungen in die **gleichnamige Variable** in der Ziel-Report-Suite kopiert.
 
    Bei Konversionsvariablen (eVars) und Traffic-Dimensionen (props) wird die Kopie jedoch mit der Variablen **gleiche Zahl** in der Ziel-Report Suite. eVar12 wird beispielsweise zu eVar12 in allen Ziel-Report Suites kopiert. Die Namen dieser Variablen werden bei der Bestimmung des Ziels der Kopie ignoriert. Wenn die entsprechende Variable in der Ziel-Report Suite nicht aktiviert ist, schlägt die Kopie für diese Variable fehl.
 
-   Beim Kopieren der Beschriftungen für Klassifizierungen, die für eine Variable definiert sind, werden die Beschriftungen in eine Klassifizierung für die entsprechende Variable in der Ziel-Report Suite kopiert (z. B. eVar7 zu eVar7), deren Name identisch mit der kopierten Klassifizierung ist. Andernfalls schlägt die Kopie für die Beschriftungen der betreffenden Classification fehl.
+   Beim Kopieren der Beschriftungen für Klassifizierungen, die für eine Variable definiert sind, werden die Beschriftungen in eine Klassifizierung für die entsprechende Variable in der Ziel-Report Suite kopiert (z. B. eVar7 zu eVar7), deren Name identisch mit der kopierten Klassifizierung ist. Andernfalls schlägt die Kopie der Kennzeichnung der betreffenden Klassifizierung fehl.
 
-1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Report Suites, bei denen die Einstellungen übereinstimmen.
+1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Report Suites mit passenden Einstellungen.
 1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
    Nachdem eine Beschriftung angewendet wurde, wird eine Statusmeldung angezeigt. Die Statusmeldung enthält die Namen der Zielvariablen oder Klassifizierungen und die zugehörigen Report Suites, für die die Kopie fehlgeschlagen ist.
@@ -73,14 +73,14 @@ Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwen
 
 ## Exportieren in eine CSV-Datei {#export-csv}
 
-Sie können eine CSV-Datei herunterladen, die alle aktuellen Beschriftungsdefinitionen für alle Variablen für die ausgewählten Report Suites enthält. Es wird empfohlen, dass Ihre Rechtsabteilung die Beschriftungseinstellungen überprüft. Diese Überprüfung wird mithilfe dieser Option vereinfacht. Statt die Überprüfung durchführen zu müssen, während Sie bei der Data-Governance-Benutzeroberfläche angemeldet sind, können Sie einfach die CSV-Datei weitergeben.
+Sie können eine CSV-Datei herunterladen, die alle aktuellen Beschriftungsdefinitionen für alle Variablen für die ausgewählten Report Suites enthält. Es wird empfohlen, dass Ihr Rechtsteam Ihre Beschriftungsoptionen überprüft. Diese Option erleichtert diese Überprüfung. Auf diese Weise müssen die Prüfenden zur Überprüfung nicht in der Data-Governance-Benutzeroberfläche angemeldet sein. Stattdessen können Sie ihnen einfach die CSV-Datei zusenden.
 
-1. Klicken **[!UICONTROL CSV exportieren]** oben rechts und dieses Dialogfeld wird angezeigt:
+1. Klicken Sie oben rechts auf **[!UICONTROL CSV exportieren]**. Daraufhin wird dieses Dialogfeld angezeigt:
 
    ![](assets/export_csv.png)
 
-1. Wählen Sie eine oder mehrere Report Suites aus, für die Sie alle Data Governance-Einstellungen exportieren möchten.
+1. Wählen Sie eine oder mehrere Report Suites aus, deren Data-Governance-Einstellungen exportiert werden sollen.
 
-## Bearbeiten von Datenschutzbezeichnungen {#edit}
+## Bearbeiten von Datenschutzkennzeichnungen {#edit}
 
-Siehe [Zuweisen oder Bearbeiten von Datenschutzbezeichnungen für Report Suites](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
+Siehe [Zuweisen oder Bearbeiten von Report-Suite-Datenschutzkennzeichnungen](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
