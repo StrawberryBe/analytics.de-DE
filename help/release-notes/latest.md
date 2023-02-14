@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
+source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 48%
+source-wordcount: '1053'
+ht-degree: 51%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Februar 2023)
 
-**Letzte Aktualisierung**: 13. Februar 2023
+**Letzte Aktualisierung**: 9. Februar 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -44,7 +44,6 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Ende der Nutzungsdauer eines Produkts oder einer Funktion | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | --- | --- | --- |
-| **EOL des japanischen Feature Phone-Tracking-Dienstes** | 13. Februar 2023 | Nur für unsere japanischen Kunden: Ende Mai 2023 wird der japanische Feature Phone Tracking Service (mod_ktrack) eingestellt. Wir entschuldigen uns für die Unannehmlichkeiten, bitten jedoch darum, die auf Ihrem Apache-Server installierten Module zu deinstallieren oder zu deaktivieren. Siehe Seiten 27 und 28 in [dieses Dokuments](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) als Referenz. |
 | **Entfernung einiger Funktionen für Reports &amp; Analytics und die Planung von Report Buildern** | 9. Februar 2023 | Die folgenden Planungsfunktionen wurden am 31. Januar 2023 eingestellt:<ul><li>Die Option &quot;Nach x Vorkommen beenden&quot;für stündliche Aufgaben in Report Builder</li><li>Möglichkeit, neue Berichte zu planen und Datenextraktionen in Reports and Analytics herunterzuladen</li></ul><p>**Hinweis**: Ursprünglich haben wir diese Funktionen im April 2022 beendet, aber die Änderung rückgängig gemacht. Wir haben außerdem eine Benachrichtigung gesendet, dass diese Funktionen vorübergehend wiederhergestellt wurden und am 31. Januar 2023 erneut beendet werden. |
 | **EOL für die [!UICONTROL Veröffentlichungslisten]-Funktion** | 29. September 2022 | Im Rahmen des EOL von Reports &amp; Analytics ist geplant, dass die Veröffentlichungslisten im **Dezember 2023** das Ende ihrer Lebensdauer erreichen. Sie können keine neuen Veröffentlichungslisten erstellen oder auf vorhandene zugreifen, um Projekte in Analysis Workspace zu senden oder zu planen. |
 | **EOL für Data Workbench** | 14. September 2022 | Adobe beabsichtigt, Data Workbench ab **31. Dezember 2023** einzustellen. Weitere Informationen finden Sie in der [Mitteilung zum Ende der Nutzungsdauer von Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=de). Wenden Sie sich bei Fragen an den für Ihre Organisation zuständigen Adobe-Kundenbetreuer. |
