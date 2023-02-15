@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 97%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 97%
             + [Allgemeine Kontoeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Interne URL-Filter](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [Anpassen von Kalendern](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + Erkennung von Paid Search {#paid-search-detection}
+            + Erkennung gebührenpflichtiger Suchvorgänge {#paid-search-detection}
                + [Übersicht über die Paid-Search-Erkennung](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Konfigurieren der Erkennung von Paid Search](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [Menüs benutzerspezifisch einstellen](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
@@ -65,14 +65,14 @@ ht-degree: 97%
                   + [Festlegen eines Ereignisses mit einer Kontextdatenvariablen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Entfernen eines Ereignisses aus einem Treffer](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Verarbeitungsregeln – Tipps und Tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-            + Bot-Regeln {#bot-removal}
+            + Bot-Regeln{#bot-removal}
                + [Bot-Entfernung](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Übersicht über Bot-Regeln](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Allgemeine Bot-Signaturen](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Bot-Ausschlussmethoden](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Datenschutzeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [Zeitstempel optional](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-            + Server-seitige Weiterleitung {#server-side-forwarding}
+            + [Zeitstempelkonfiguration](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + Serverseitige Weiterleitung {#server-side-forwarding}
                + [Übersicht über die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [Anforderungen an die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
@@ -99,9 +99,9 @@ ht-degree: 97%
             + [Listenvariablen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + Marketing-Kanäle {#marketing-channels}
-            + [Marketing-Kanäle verwalten](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-            + [Verarbeitungsregeln für Marketing-Kanäle](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Klassifizierungen in Marketing-Kanälen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Marketingkanal-Manager](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Marketingkanal-Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [Marketingkanal-Klassifizierungen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Marketing-Kanalablauf](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Traffic-Management {#traffic-management}
             + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
