@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
+source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 97%
+source-wordcount: '588'
+ht-degree: 94%
 
 ---
 
@@ -114,6 +114,10 @@ ht-degree: 97%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Datenschutzberichte](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Document Cloud-Management {#doc-cloud-mgt}
+            + [Konfigurieren von Document Cloud mit Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Document Cloud Reporting konfigurieren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Advertising Analytics-Konfiguration](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Echtzeit {#real-time-reports}
             + [Übersicht über Echtzeitberichte](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Konfiguration von Echtzeitberichten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
