@@ -3,10 +3,10 @@ title: Besuche
 description: Eine Folge von Seitenansichten während einer Sitzung.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: ceee6f27581abc288ff08134218ae7f6b93e9201
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Ein Besuch ist immer mit einem Zeitraum verknüpft. So wissen Sie, ob es sich um
 * **30 Minuten Inaktivität**: Fast alle Sitzungen enden auf diese Weise. Wenn mehr als 30 Minuten zwischen Treffern vergangen sind, beginnt ein neuer Besuch.
 * **12 Stunden Aktivität**: Wenn ein Benutzer über einen Zeitraum von 12 Stunden Bildanforderungen ohne 30-minütige Pausen auslöst, beginnt automatisch ein neuer Besuch.
 * **2500 Treffer**: Wenn ein Benutzer zahlreiche Treffer generiert, ohne eine neue Sitzung zu starten, wird nach 2500 Bildanforderungen ein neuer Besuch gezählt.
-* **100 Treffer in 100 Sekunden**: Wenn ein Besuch aus mehr als 100 Treffer besteht, die in weniger als 100 Sekunden stattfinden, endet der Besuch automatisch. Dieses Verhalten deutet typischerweise auf Bot-Aktivität hin. Diese Einschränkung wird durchgesetzt, um die Berichtsleistung zu verbessern.
+* **100 Treffer in 100 Sekunden**: Wenn ein Besuch mehr als 100 Treffer aufweist, die in den ersten 100 Sekunden des Besuchs auftreten, endet der Besuch automatisch. Dieses Verhalten deutet typischerweise auf Bot-Aktivität hin. Diese Einschränkung wird durchgesetzt, um die Berichtsleistung zu verbessern.
 
 Ein Besuch fällt aufgrund der oben genannten Kriterien nicht unbedingt mit einer Browser-Sitzung zusammen. Einer der häufigsten Unterschiede besteht darin, dass ein Besucher zu Ihrer Site navigiert, den Tab mehr als 30 Minuten geöffnet lässt und dann das Surfen fortsetzt. Diese Aktion ist technisch gesehen Teil derselben Browser-Sitzung. Adobe betrachtet diese Aktion jedoch als zwei separate Besuche.
 
