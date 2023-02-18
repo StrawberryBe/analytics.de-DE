@@ -3,16 +3,18 @@ title: Trackingcode
 description: Der Name des Trackingcodes oder der Kampagne.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 91%
 
 ---
 
 # Trackingcode
 
-In der Dimension „Trackingcode“ werden die Namen der Trackingcodes auf Ihrer Site aufgelistet. Diese Dimension wird in der Regel mithilfe von Abfragezeichenfolgenparametern erfasst. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension gibt an, welche Links am erfolgreichsten dazu beigetragen haben, den Traffic auf Ihre Site zu lenken.
+In der Dimension „Trackingcode“ werden die Namen der Trackingcodes auf Ihrer Site aufgelistet. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen dabei zu verstehen, welche Links am erfolgreichsten zur Erhöhung des Traffics auf Ihre Site beigetragen haben.
+
+Das Anhängen von Abfragezeichenfolgen für Trackingcodes ist in E-Mails, Anzeigen, Social-Media-Beiträgen und anderen Marketing-Maßnahmen Ihres Unternehmens üblich.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -20,7 +22,7 @@ Diese Dimension ruft Daten aus der [`v0` Abfragezeichenfolge](/help/implement/va
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören die Namen der Trackingcodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten.
+Zu den Dimensionselementen gehören die Namen der Trackingcodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Siehe [Kampagnen-Tracking](/help/implement/use-cases/campaign-tracking.md) für weitere Informationen.
 
 ## Dimension „Trackingcode“ mit Dimension „Marketing-Kanäle“ vergleichen, die Trackingcodes erfasst
 

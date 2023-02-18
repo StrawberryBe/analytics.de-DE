@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: 5015fd9b4ab98e31f30b4156d11ace554668a4b7
-workflow-type: ht
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 100%
 + Anwendungsfälle der Implementierung {#use-cases}
    + [„AppMeasurement“ mit iFrames verwenden](use-cases/iframe.md)
    + [Tracking über verschiedene Implementierungstypen hinweg](use-cases/cross-type-implementation.md)
-   + [Externes E-Mail-Tracking](use-cases/email-external.md)
+   + [Kampagnen-Tracking-Workflow](use-cases/campaign-tracking.md)
 + Ihre Implementierung validieren {#validate}
    + [Legacy Adobe Experience Cloud-Debugger](validate/debugger.md)
    + [Datenerfassungs-Abfrageparameter](validate/query-parameters.md)
