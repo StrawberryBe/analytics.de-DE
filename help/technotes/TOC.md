@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 99%
+source-wordcount: '204'
+ht-degree: 98%
 
 ---
 
@@ -43,18 +43,6 @@ ht-degree: 99%
    + [Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies](cookies/cookieless.md)
 + [Datenaufbewahrung](data-retention.md)
 + [Ausschließen von Daten](exclude-data.md)
-+ Data Governance {#data-governance}
-   + [Adobe Analytics-Workflow zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
-   + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
-   + Datenbeschriftung {#data-labels}
-      + [Datenschutzkennzeichnungen für Analytics-Komponenten](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Kennzeichnen von Report Suite-Daten](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Anzeigen/Verwalten von Datenschutzkennzeichnungen von Report Suites](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Best Practices für Beschriftungen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Beschriftungsbeispiel](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
-   + [CNIL-Zustimmungsfreistellung](c-data-governance/cnil-consent-exemption.md)
 + [Von Adobe Analytics verwendete IPs und Domains](ip-addresses.md)
 + [Latenz](latency.md)
 + [Geringer Traffic-Wert](low-traffic.md)

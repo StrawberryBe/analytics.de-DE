@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9c716438e4802d7dcdeab3302295e651cb5df30e
+source-git-commit: fa3faf6158f3ad59ac95fd226a5c8d9116f27a6f
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 42%
+source-wordcount: '1079'
+ht-degree: 49%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Februar 2023)
 
-**Letzte Aktualisierung**: 17. Februar 2023
+**Letzte Aktualisierung**: 15. Februar 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -35,9 +35,9 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Hinweis | Hinzugefügt  oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **Aktualisierung der Gerätesuche aufgrund von Google-Client-Hinweisen** | 17. Februar 2023 | **Die Verwendung von Client-Hinweisen, die für den 16. Februar 2023 geplant sind, wurde verschoben, um die Qualität der Gerätesuche mithilfe von Hinweisen besser sicherzustellen. Wir werden in Kürze ein neues Rollout-Datum mitteilen.** [Weitere Informationen](/help/technotes/client-hints.md) |
 | **Verfügbarkeit von Analytics Source Connector** | 15. Februar 2023 | Am 28. Februar 2023 wird der Analytics Source Connector im neuen Adobe Experience Platform-Rechenzentrum in Kanada zur Verfügung gestellt. |
 | **Automatische Migration zur Klassifizierungsset-Architektur** | 8. Februar 2023 | In den nächsten Monaten plant Adobe, alle Klassifizierungen unternehmensübergreifend auf die neueste Klassifizierungsarchitektur zu migrieren. Die letzten Kunden, die migriert werden, werden schätzungsweise im Mai 2023 stattfinden. Es ist keine Kundenaktion erforderlich und es wird keine Ausfallzeit erwartet. Diese neue Architektur bietet viele Vorteile, darunter:<ul><li>Deutlich verkürzte Verarbeitungszeit (72 Stunden → 24 Stunden)</li><li>Die Möglichkeit, die [Klassifizierungssätze](/help/components/classifications/sets/overview.md) Benutzeroberfläche</li><li>Die Option, Classification-Daten in Adobe Experience Platform künftig über die [Adobe Analytics-Quell-Connector für Classification-Daten](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Beachten Sie die folgenden Änderungen, die sich möglicherweise auf den Workflow Ihres Unternehmens auswirken können:<ul><li>Bei Verwendung des Browsers oder FTP-Imports wird[!UICONTROL Bei Konflikt überschreiben]&quot; ist immer aktiviert.</li><li>Bei Verwendung des Browsers oder FTP-Imports wird die Option zum sofortigen Export nach dem Import nicht mehr unterstützt.</li><li>Die Analytics 2.0-API `GetDimensions` -Endpunkt gibt jetzt Zeichenfolgenkennungen für Classifications anstelle numerischer Kennungen zurück. Numerische IDs können weiterhin verwendet werden. Adobe empfiehlt jedoch, nach Möglichkeit die neuen Zeichenfolgen-IDs zu verwenden. Numerische IDs können mithilfe der `?expansion=hidden` Abfragezeichenfolgen-Parameter.</li></ul>Wenden Sie sich an die Kundenunterstützung von Adobe, wenn Sie einen spezifischeren Migrationsplan für Ihr Unternehmen wünschen oder Fragen/Bedenken zu dieser Migration haben. [Weitere Informationen](/help/components/classifications/sets/overview.md) |
+| **Aktualisierung der Gerätesuche aufgrund von Google-Client-Hinweisen** | 25. Januar 2023 | Die Verwendung von Client-Hinweisen bei der Gerätesuche ist ab **16. Februar 2023** verfügbar. <p> <p>Ab Oktober 2022 ist es möglich, Client-Hinweise entweder mit den Web SDK- oder den AppMeasurement-JavaScript-Bibliotheken zu erfassen. Die Client-Hinweise werden jedoch erst im Februar 2023 in die Gerätesuche integriert. Zu diesem Zeitpunkt wird Adobe bei der Erfassung bestimmter Geräteinformationen für Treffer in Chromium-Browsern wie Google Chrome und Microsoft Edge zusätzlich zum Benutzeragenten auch Client-Hinweise verwenden. Dies ist eine Reaktion auf den Plan von Google, die Informationen, die der Benutzeragenten-Zeichenfolge entnommen werden können, schrittweise zu reduzieren und stattdessen Daten über Client-Hinweise zu übermitteln. <p> <p>Aufgrund dieser Änderung verwendet Adobe künftig Device Atlas für alle Geräte-Suchvorgänge im Zusammenhang mit dem Benutzeragenten. [Weitere Informationen](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
