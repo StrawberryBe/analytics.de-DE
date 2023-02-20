@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 97%
+source-wordcount: '588'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
             + [Allgemeine Kontoeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Interne URL-Filter](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [Anpassen von Kalendern](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + Erkennung von Paid Search {#paid-search-detection}
+            + Erkennung gebührenpflichtiger Suchvorgänge {#paid-search-detection}
                + [Übersicht über die Paid-Search-Erkennung](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Konfigurieren der Erkennung von Paid Search](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [Menüs benutzerspezifisch einstellen](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
@@ -65,14 +65,14 @@ ht-degree: 97%
                   + [Festlegen eines Ereignisses mit einer Kontextdatenvariablen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Entfernen eines Ereignisses aus einem Treffer](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Verarbeitungsregeln – Tipps und Tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-            + Bot-Regeln {#bot-removal}
+            + Bot-Regeln{#bot-removal}
                + [Bot-Entfernung](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Übersicht über Bot-Regeln](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Allgemeine Bot-Signaturen](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Bot-Ausschlussmethoden](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Datenschutzeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [Zeitstempel optional](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-            + Server-seitige Weiterleitung {#server-side-forwarding}
+            + [Zeitstempelkonfiguration](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + Serverseitige Weiterleitung {#server-side-forwarding}
                + [Übersicht über die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [Anforderungen an die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
@@ -99,9 +99,9 @@ ht-degree: 97%
             + [Listenvariablen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + Marketing-Kanäle {#marketing-channels}
-            + [Marketing-Kanäle verwalten](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-            + [Verarbeitungsregeln für Marketing-Kanäle](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Klassifizierungen in Marketing-Kanälen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Marketingkanal-Manager](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Marketingkanal-Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [Marketingkanal-Klassifizierungen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Marketing-Kanalablauf](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Traffic-Management {#traffic-management}
             + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
@@ -114,6 +114,10 @@ ht-degree: 97%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Datenschutzberichte](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Document Cloud-Management {#doc-cloud-mgt}
+            + [Konfigurieren von Document Cloud mit Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Document Cloud Reporting konfigurieren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Advertising Analytics-Konfiguration](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Echtzeit {#real-time-reports}
             + [Übersicht über Echtzeitberichte](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Konfiguration von Echtzeitberichten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
@@ -163,17 +167,5 @@ ht-degree: 97%
          + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Deaktivieren von veralteten Anmeldedaten](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [Von der Migration betroffene APIs](admin/user-management2/user-migration/developer.md)
-+ Data Governance {#data-governance}
-   + [Adobe Analytics-Workflow zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
-   + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
-   + Datenbeschriftung {#data-labels}
-      + [Datenschutzkennzeichnungen für Analytics-Komponenten](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Kennzeichnen von Report Suite-Daten](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Anzeigen/Verwalten von Datenschutzkennzeichnungen von Report Suites](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Best Practices für Beschriftungen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Beschriftungsbeispiel](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
-   + [CNIL-Zustimmungsfreistellung](c-data-governance/cnil-consent-exemption.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
 
