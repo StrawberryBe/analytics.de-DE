@@ -3,7 +3,7 @@ title: Richtlinie zur Datenaufbewahrung
 description: Eine Richtlinie zur Datenaufbewahrung bestimmt, wie lange Adobe Ihre Daten speichert.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Sobald die Daten Ihre Datenaufbewahrungsrichtlinie überschreiten, behält Adobe
 
 ## Anzeigen/Verwalten der aktuellen Datenspeicherungsrichtlinie
 
-Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick darüber, welche Report Suites für Data Governance konfiguriert wurden. Es gibt auch an, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob eine Datenaufbewahrungsrichtlinie für diese Report Suite vorhanden ist. [Weitere Infos](/help/admin/c-data-governance/an-gdpr-workflow.md)
+Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick darüber, welche Report Suites für Data Governance konfiguriert wurden. Es gibt auch an, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob eine Datenaufbewahrungsrichtlinie für diese Report Suite vorhanden ist. [Weitere Infos](/help/technotes/c-data-governance/an-gdpr-workflow.md)
 
 ## Häufig gestellte Fragen
 
