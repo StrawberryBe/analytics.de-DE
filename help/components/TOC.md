@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Verwalten Sie Daten mithilfe von Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Marketing-Kanälen und Klassifikationen. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '687'
+ht-degree: 96%
 
 ---
 
@@ -152,7 +152,8 @@ ht-degree: 97%
    + [Besuche](metrics/visits.md)
 + Segmentierung {#segmentation}
    + [Analytics-Segmentierung](segmentation/seg-home.md)
-   + [Info über Segmente und Container](segmentation/seg-overview.md)
+   + [Über Segmente](segmentation/seg-overview.md)
+   + [Über Segmentbehälter](segmentation/seg-containers.md)
    + [Segmentierungsfunktionen in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Segmentierungs-Workflow {#segmentation-workflow}
       + [Übersicht über den Segmentierungs-Workflow](segmentation/segmentation-workflow/seg-workflow.md)
@@ -173,7 +174,7 @@ ht-degree: 97%
       + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
-   + [Häufig gestellte Fragen](segmentation/seg-transition.md)
+   + [Häufig gestellte Fragen zur Verwaltung älterer Segmente ](segmentation/seg-transition.md)
    + [Best Practices](segmentation/best-practices.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
