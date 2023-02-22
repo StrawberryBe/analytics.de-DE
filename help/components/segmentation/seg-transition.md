@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zur Verwaltung von Legacy-Segmenten.
 title: Häufig gestellte Fragen zu veralteten Segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 92%
+source-wordcount: '1446'
+ht-degree: 91%
 
 ---
 
@@ -153,8 +153,9 @@ Auf Zeichenketten basierende Dimensionen, die einen bekannten Satz Werte besitze
 
 Folgende Dimensionen wurden in Aufzählungslisten geändert:
 
+| Name der Dimension | Name der Dimension | Name der Dimension |
+| --- | --- | --- |
 | Mobilgerätehersteller | Mobile E-Mail-Länge | Farbtiefe |
-|---|---|---|
 | Mobilgerät – Bildschirmgröße | Mobilgerätenummer | Bildschirmauflösung |
 | Mobilgerät – Bildschirmhöhe | Gebührenpflichtige Suche | Plugin |
 | Mobilgerät – Cookie-Unterstützung | Mobilgerät – Mail-Design | Betriebssystem |
@@ -171,7 +172,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 
 ## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen {#integer-based-dims}
 
-Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segmentaufbauoberfläche segmentiert werden:
+Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mithilfe der vorherigen und der neuen Segment Builder-Schnittstellen segmentiert werden:
 
 ![](assets/seg_browser_dimension.png)
 
