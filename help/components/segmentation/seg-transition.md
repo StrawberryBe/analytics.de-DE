@@ -3,36 +3,16 @@ description: Häufig gestellte Fragen zur Verwaltung von Legacy-Segmenten.
 title: Häufig gestellte Fragen zu veralteten Segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
 # Häufig gestellte Fragen zu veralteten Segmenten
 
 Beantwortet häufige Fragen zu Best Practices für die Verwaltung älterer Segmente - Segmente, die vor 2014 erstellt wurden.
-
-## Best Practices {#best-practices}
-
-+++ **Was mache ich mit doppelten Segmenten, die denselben Namen und unterschiedliche Definitionen haben?**
-Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Wir empfehlen Folgendes:
-
-* Benennen Sie Segmente um, die denselben Namen, aber unterschiedliche Definitionen haben, oder
-* Löschen Sie Segmente, die Sie nicht mehr benötigen.
-
-+++
-
-+++ **Welche Empfehlungen hat Adobe bezüglich der Segmentbereinigung?**
-
-* Markieren Sie alle alten Segmente mit einem Tag.
-* Überprüfen Sie all Ihre Segmente.
-* Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
-* Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente unter Einhaltung der  [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-
-+++
 
 ## Verwaltung alter Segmente {#legacy}
 
@@ -70,7 +50,7 @@ Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erst
 
 +++
 
-**Was ist mit vorkonfigurierten Segmenten passiert?**
++++ **Was ist mit vorkonfigurierten Segmenten passiert?**
 
 * **Einzelseitenbesuche**
 * **Besuche von Mobilgeräten**
@@ -98,7 +78,7 @@ Vorhandene Berichte, auf die diese Segmente angewendet werden, funktionieren wei
 
 +++
 
-+++ **Was geschieht mit Admin-Segmenten (auch bekannt als „globale“ Segmente)?**
++++ **Was ist mit Admin-Segmenten passiert (auch &quot;globale&quot;Segmente genannt)?**
 
 **Admin**-Segmente werden in die neue Segmentoberfläche migriert und werden dort als für alle freigegebene Segmente angezeigt.
 
@@ -110,6 +90,24 @@ Vorhandene Segmente, die Logik verwenden, die wie in diesem Dokument beschrieben
 
 +++
 
++++ **Was mache ich mit doppelten Segmenten, die denselben Namen und unterschiedliche Definitionen haben?**
+Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Wir empfehlen Folgendes:
+
+* Benennen Sie Segmente um, die denselben Namen, aber unterschiedliche Definitionen haben, oder
+* Löschen Sie Segmente, die Sie nicht mehr benötigen.
+
++++
+
++++ **Welche Empfehlungen hat Adobe bezüglich der Segmentbereinigung?**
+
+* Markieren Sie alle alten Segmente mit einem Tag.
+* Überprüfen Sie all Ihre Segmente.
+* Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
+* Genehmigen Sie vorschriftsmäßige Segmente.
+* Taggen Sie Segmente unter Einhaltung der  [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+
++++
+
 ### Tipps zur Migration
 
 Folgende Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
@@ -117,10 +115,7 @@ Folgende Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
 * Geo-Stadt/Region/Land – Suche nach und Auswahl bestimmter Städte, Regionen oder Länder, anstelle einer teilweisen Übereinstimmung.
 * Browser – benutzen Sie die Browsertypen-Dimension, um alle Browser eines Typs zu erhalten, z. B. Google Chrome.
 * Betriebssysteme – benutzen Sie die Betriebssystemtypen-Dimensionen, um alle Betriebssysteme eines Typs zu erhalten, z. B. Microsoft Windows.
-
-* [Neue und umbenannte Dimensionen](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Änderungen an „Enthält“](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Änderungen an „Weniger als“ und „Mehr als“](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* Siehe &quot;Neue und umbenannte Dimensionen&quot;(siehe unten).
 
 ## Neue und umbenannte Dimensionen {#renamed}
 

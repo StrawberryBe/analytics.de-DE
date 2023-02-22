@@ -3,10 +3,10 @@ description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen ode
 title: Über Segmente
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 88%
+source-wordcount: '1173'
+ht-degree: 87%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspace umfasst die folgenden zusätzlichen Funktionen:
 
 ## Von der Adobe bereitgestellte Segmente
 
-Die Komponentenleiste auf der linken Bildschirmseite zeigt Segmente, die von Ihnen und Ihrem Unternehmen erstellt wurden, sowie Adobe-Segmente, die standardmäßig bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]**, werden diese Segmente normalerweise unten in der Liste angezeigt und durch das rechts von der Adobe angezeigte Logo gekennzeichnet:
+Die Komponentenleiste auf der linken Bildschirmseite zeigt Segmente, die von Ihnen und Ihrem Unternehmen erstellt wurden, sowie Adobe-Segmente, die standardmäßig bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]**, werden diese Adoben in der Regel unten in der Liste angezeigt und durch das rechts von der Liste angezeigte Logo gekennzeichnet. Dies ist eine Teilliste der von der Adobe bereitgestellten Segmente:
 
 ![Adoben](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Dazu wird der [!UICONTROL THEN]-Operator verwendet.
 
-## Anleitungsvideo {#segment-video}
+## Video zur Segmentierung {#segment-video}
 
 In diesem Video erhalten Sie einen kurzen Überblick über Segment-Container und ihre Verwendung: [Segment-Container in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=de)
 
