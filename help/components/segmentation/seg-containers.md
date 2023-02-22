@@ -1,12 +1,12 @@
 ---
-description: Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um Berichte mithilfe von Analytics-Funktionen, der Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten zu erstellen.
+description: Erfahren Sie mehr über die verschiedenen Segmentierungscontainer und deren Verwendung
 keywords: Segmentierung;Segmente
-title: Analytics-Segmentierung
+title: Segment-Container
 feature: Segmentation
-source-git-commit: d361e9e97e9652acab317014aba53af49115c07c
+source-git-commit: 3569cea351a61eb79e1b8f5dad76905f8054982b
 workflow-type: tm+mt
-source-wordcount: '3139'
-ht-degree: 100%
+source-wordcount: '3120'
+ht-degree: 99%
 
 ---
 
