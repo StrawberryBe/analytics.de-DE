@@ -3,18 +3,18 @@ description: Administratoren können Beschreibungen für Komponenten entweder ü
 title: Komponentenbeschreibungen hinzufügen
 feature: Components
 role: Admin
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # Komponentenbeschreibungen hinzufügen
 
-Analytics-Administratoren können Komponentenbeschreibungen hinzufügen (Dimensionen, Metriken, Segmente und Datumsbereiche).<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Mithilfe von Beschreibungen können Benutzer wissen, wie die verschiedenen Komponenten beim Erstellen von Projekten in Analysis Workspace oder beim Anzeigen von Berichten am besten verwendet werden.
 
-Benutzer in Ihrem Unternehmen können die Beschreibungen beim Erstellen von Projekten in Analysis Workspace oder beim Anzeigen von Berichten anzeigen. Beschreibungen helfen Benutzern, die verschiedenen Komponenten am besten zu verwenden.
+Analytics-Administratoren können Komponentenbeschreibungen hinzufügen (Dimensionen, Metriken, Segmente und Datumsbereiche).<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
 ## Hinzufügen von Beschreibungen zu Komponenten in einer Report Suite
 
