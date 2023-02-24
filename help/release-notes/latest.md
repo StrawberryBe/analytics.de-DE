@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
+source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 38%
+source-wordcount: '1100'
+ht-degree: 54%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Februar 2023)
 
-**Letzte Aktualisierung**: 17. Februar 2023
+**Letzte Aktualisierung**: 23. Februar 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -24,7 +24,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **Ausblenden von Datumsbereichen für den Vergleich in mobilen Scorecards** | Mit mobilen Scorecards können Sie die **[!UICONTROL Vergleichsdaten einschließen]** Einstellung zum Anzeigen oder Ausblenden von Vergleichsdaten. | Nicht angegeben | 8. Februar 2023 |
 | **Kalenderaktualisierungen in Workspace** | <ul><li>Datumsangaben im Ankerbereich: Sie können die Datumsbereichskomponenten relativ zum Bedienfeldkalender festlegen. [Weitere Informationen](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>Aktualisierungen des Kalenderstils: Die Kalenderstile in der gesamten Benutzeroberfläche wurden aktualisiert, um einen konsistenteren und benutzerfreundlicheren Workflow zu bieten.</li><li>Aktualisierungen der Kalenderformel: Wenn Sie relative Datumswerte verwenden, spiegeln alle Kalenderformeln den Beginn des Datumsbereichs des Bedienfelds wider. [Weitere Informationen](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | Nicht angegeben | 8. Februar 2023 |
 | **Aktualisierungen des Datumsbereichs des Bedienfelds** | In Workspace wurden die folgenden Verbesserungen hinzugefügt:<ul><li>Ab der Februar-Version basieren die Komponenten- und Datenvorschau auf dem Datumsbereich des Bedienfelds und nicht auf den letzten 90 Tagen. </li><li>Alle in der linken Leiste aufgelisteten Komponenten sind basierend auf dem Datumsbereich des Bedienfelds verfügbar.</li><li>Alle Datumsvorschauen im Segment und in den Generator für berechnete Metriken basieren auf dem Datumsbereich des Bedienfelds (sofern nicht von den Komponentenmanagern zugegriffen wird, die über kein verknüpftes Bedienfeld verfügen, basieren sie weiterhin auf den letzten 90 Tagen).</li><li>Bei jeder Datenvorschau werden Daten oder Komponenten basierend auf dem Datumsbereich des Bedienfelds angezeigt.</li></ul> | Nicht angegeben | 8. Februar 2023 |
-| **Zeilen-/Spaltenfilter für Adobe Analytics Source Connector-Streaming** | Der Analytics Source Connector in Adobe Experience Platform ermöglicht jetzt das Filtern von Analytics-Daten, mit denen Profile in [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de). Die Filterung auf Zeilenebene hilft, die Anzahl der mit Profilen verknüpften Ereignisse zu reduzieren. Die Filterung auf Spaltenebene hilft, den Reichtum der Ereignisse selbst zu reduzieren, und ermöglicht es Ihnen so, die Nutzung von Profilberechtigungen zu optimieren. Diese Filterung gilt nur für Daten, die an das Echtzeit-Kundenprofil gesendet werden, und [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de). **Die Filterung wirkt sich nicht auf die Daten aus, die zur Verwendung in Anwendungen wie Customer Journey Analytics an den Data Lake gesendet werden**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | Nicht angegeben | 22. Februar 2023 |
+| **Zeilen-/Spaltenfilter für Adobe Analytics Source Connector-Streaming** | Analytics Source Connector in Adobe Experience Platform ermöglicht jetzt das Filtern von Analytics-Daten, mit denen Profile im [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de) vorausgefüllt werden. Die Filterung auf Zeilenebene hilft, die Anzahl der mit Profilen verknüpften Ereignisse zu reduzieren. Die Filterung auf Spaltenebene hilft, die Vielfalt der Ereignisse selbst zu reduzieren, und ermöglicht es Ihnen so, die Nutzung von Profilberechtigungen zu optimieren. Diese Filterung gilt nur für Daten, die an das Echtzeit-Kundenprofil und den [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de) gesendet werden. **Die Filterung wirkt sich nicht auf die Daten aus, die zur Verwendung in Anwendungen wie Customer Journey Analytics an Data Lake gesendet werden**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de#filtering-for-profile) | Nicht angegeben | Geplant für den 29. März 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
