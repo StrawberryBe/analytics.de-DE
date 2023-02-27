@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
+source-git-commit: 6d2042359e1ee97ebed0077c9faeceb2cb0fe739
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 54%
+source-wordcount: '1128'
+ht-degree: 53%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Februar 2023)
 
-**Letzte Aktualisierung**: 23. Februar 2023
+**Letzte Aktualisierung**: 27. Februar 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -36,7 +36,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Hinweis | Hinzugefügt  oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **Aktualisierung der Gerätesuche aufgrund von Google-Client-Hinweisen** | 17. Februar 2023 | **Die Verwendung von Client-Hinweisen, die für den 16. Februar 2023 geplant sind, wurde verschoben, um die Qualität der Gerätesuche mithilfe von Hinweisen besser sicherzustellen. Wir werden in Kürze ein neues Rollout-Datum mitteilen.** [Weitere Informationen](/help/technotes/client-hints.md) |
+| **Aktualisierung der Gerätesuche aufgrund von Google-Client-Hinweisen** | 27. Februar 2023 | Die Verwendung von Client-Hinweisen, die für den 16. Februar 2023 geplant sind, wurde verschoben, um die Qualität der Gerätesuche mithilfe von Hinweisen besser sicherzustellen. Wir werden am 27. Februar 2023 mit der ersten Phase der Version zur Unterstützung von Client Hints fortfahren. Wenn alles gut geht, werden wir in die zweite und letzte Phase der Veröffentlichung am Donnerstag, den 2. März 2023 eintreten. [Weitere Informationen](/help/technotes/client-hints.md) |
 | **Verfügbarkeit von Analytics Source Connector** | 15. Februar 2023 | Am 28. Februar 2023 wird der Analytics Source Connector im neuen Adobe Experience Platform-Rechenzentrum in Kanada zur Verfügung gestellt. |
 | **Automatische Migration zur Klassifizierungsset-Architektur** | 8. Februar 2023 | In den nächsten Monaten plant Adobe, alle Klassifizierungen unternehmensübergreifend auf die neueste Klassifizierungsarchitektur zu migrieren. Die letzten Kunden, die migriert werden, werden schätzungsweise im Mai 2023 stattfinden. Es ist keine Kundenaktion erforderlich und es wird keine Ausfallzeit erwartet. Diese neue Architektur bietet viele Vorteile, darunter:<ul><li>Deutlich verkürzte Verarbeitungszeit (72 Stunden → 24 Stunden)</li><li>Die Möglichkeit, die [Klassifizierungssätze](/help/components/classifications/sets/overview.md) Benutzeroberfläche</li><li>Die Option, Classification-Daten in Adobe Experience Platform künftig über die [Adobe Analytics-Quell-Connector für Classification-Daten](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Beachten Sie die folgenden Änderungen, die sich möglicherweise auf den Workflow Ihres Unternehmens auswirken können:<ul><li>Bei Verwendung des Browsers oder FTP-Imports wird[!UICONTROL Bei Konflikt überschreiben]&quot; ist immer aktiviert.</li><li>Bei Verwendung des Browsers oder FTP-Imports wird die Option zum sofortigen Export nach dem Import nicht mehr unterstützt.</li><li>Die Analytics 2.0-API `GetDimensions` -Endpunkt gibt jetzt Zeichenfolgenkennungen für Classifications anstelle numerischer Kennungen zurück. Numerische IDs können weiterhin verwendet werden. Adobe empfiehlt jedoch, nach Möglichkeit die neuen Zeichenfolgen-IDs zu verwenden. Numerische IDs können mithilfe der `?expansion=hidden` Abfragezeichenfolgen-Parameter.</li></ul>Wenden Sie sich an die Kundenunterstützung von Adobe, wenn Sie einen spezifischeren Migrationsplan für Ihr Unternehmen wünschen oder Fragen/Bedenken zu dieser Migration haben. [Weitere Informationen](/help/components/classifications/sets/overview.md) |
 
