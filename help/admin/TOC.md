@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '629'
 ht-degree: 94%
 
 ---
@@ -153,6 +153,18 @@ ht-degree: 94%
       + [Voreinstellungs-Manager](admin/company/preferences-manager.md)
       + [Ausstehende Aktionen](admin/company/pending-actions-admin.md)
       + [Funktionszugriffsebenen](admin/company/feature-access-levels.md)
+   + Datenschutzkennzeichnung für Data Governance {#data-governance}
+      + [Adobe Analytics-Workflow zum Datenschutz](admin/c-data-governance/an-gdpr-workflow.md)
+      + [Häufig gestellte Fragen](admin/c-data-governance/gdpr-faq.md)
+      + Datenbeschriftung {#data-labels}
+         + [Datenschutzkennzeichnungen für Analytics-Komponenten](admin/c-data-governance/data-labeling/gdpr-labels.md)
+         + [Kennzeichnen von Report Suite-Daten](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+         + [Anzeigen/Verwalten von Datenschutzkennzeichnungen von Report Suites](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [Best Practices für Beschriftungen](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
+         + [Beschriftungsbeispiel](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
+         + [Namespaces](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
+      + [ID-Erweiterung](admin/c-data-governance/gdpr-id-expansion.md)
+      + [CNIL-Zustimmungsfreistellung](admin/c-data-governance/cnil-consent-exemption.md)
    + Nutzung der Server-Aufrufe {#server-call-usage}
       + [Übersicht zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-overview.md)
       + [Anzeigen der aktuellen Nutzung der Server-Aufrufe](admin/c-server-call-usage/server-call-usage-dashboard.md)

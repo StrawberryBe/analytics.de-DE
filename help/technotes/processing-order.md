@@ -2,10 +2,10 @@
 title: Verarbeitungsreihenfolge für Daten in Adobe Analytics
 description: Erfahren Sie mehr zur Reihenfolge der Komponenten und Services, die Daten in Adobe Analytics verarbeiten.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -45,6 +45,6 @@ Zu diesem Zeitpunkt wird der einzelne Treffer in den Report Suite-Datentabellen 
 Die Daten in Adobe Analytics sind größtenteils unveränderlich. Es gibt jedoch einige Funktionen, die eine selektive Datenanpassung oder -löschung ermöglichen:
 
 * [**Datenreparatur-API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): Bearbeiten Sie bestimmte Spalten oder löschen Sie die gewünschten Datenzeilen.
-* [**Data Governance**](/help/technotes/c-data-governance/an-gdpr-workflow.md): Erfüllen Sie Datenschutzanfragen, um Daten dauerhaft zu löschen.
+* [**Data Governance**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md): Erfüllen Sie Datenschutzanfragen, um Daten dauerhaft zu löschen.
 * [**Klassifizierungen**](/help/components/classifications/c-classifications.md): Erstellen Sie Dimensionen anhand von Regeln oder hochgeladenen Daten, um eine unterschiedliche Organisation der Daten zu ermöglichen. Die zugrunde liegenden Report Suite-Daten werden nicht geändert, sodass Sie Klassifizierungsdaten frei bearbeiten oder überschreiben können.
 * [**Virtual Report Suites**](/help/components/vrs/vrs-about.md): Erstellen Sie eine alternative Report Suite-Ansicht, durch die die maximale Wartezeit bei einem Besuch geändert oder die [geräteübergreifende Analyse](/help/components/cda/overview.md) zugelassen werden kann.
