@@ -4,10 +4,10 @@ keywords: Datenschutz
 title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 77e50dec593722855f30c517f63141e84f665519
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 100%
+source-wordcount: '763'
+ht-degree: 96%
 
 ---
 
@@ -53,89 +53,24 @@ Adobe Analytics erfasst die folgenden Daten:
 
 ## Sonstige Hinweise zum Datenschutz {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
-<table id="table_247B425E774F403288233824870D070E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Region/Land </th> 
-   <th colname="col2" class="entry"> Übertragung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Global </td> 
-   <td colname="col2"> Adobe empfiehlt seinen Kunden, auf keinen Fall persönlich identifizierbare Informationen (PII) an Adobe weiterzugeben, insbesondere in Situationen, in denen PII nicht für Analytics benötigt werden. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Global </td> 
-   <td colname="col2"> Benutzer müssen bei der Profilierung Hinweise und Auswahlmöglichkeiten erhalten. In der europäischen Union (in einigen Ländern auf Opt-in-Basis), Kanada, Australien und vielen Ländern in Lateinamerika und im Asiatisch-Pazifischen Raum ist dies gesetzlich vorgeschrieben. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Global </td> 
-   <td colname="col2"> Bei Verwendung von Erstanbieter-Cookies bezieht sich die Analytics-Abmeldung ausschließlich auf den jeweiligen Kunden. Die Abmeldung auf Adobe.com ist nicht ausreichend. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Global </td> 
-   <td colname="col2"> Analysen von Erstanbietern sind nicht Teil des Self-Regulatory Program for Online Behavioral Advertising („AdChoices“). </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Global </td> 
-   <td colname="col2"> Geräteübergreifende Daten sollten zusammengeführt werden, außer sie sind an eine ID gebunden, die der Kunde zur Verfügung gestellt hat (z. B. einen Hash-Benutzernamen). </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Global </td> 
-   <td colname="col2"> Es gelten voraussichtlich Beschränkungen für die Kombination von Anzeigenimpressionen und PII für den Kunden. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Europa </td> 
-   <td colname="col2"> Die meisten Länder der europäischen Union erachten Analyse-Cookies nicht als unbedingt erforderlich. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">Allgemeine Kontoeinstellungen</a> im Admin-Benutzerhandbuch.</p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> Global </td> 
-   <td colname="col2"> Ein Kunde kann die Variable für die Cookie-Lebensdauer im JavaScript-Messungs-Code auf den Wert „none“, „session“ oder einen anderen spezifischen, in Sekunden gemessenen Wert setzen. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe verfügt über eine neue Einstellung für eingebauten Datenschutz, die jetzt mit Adobe ClientCare für die Versionen 14.9 und 15.4 von Adobe Analytics (früher SiteCatalyst) aktiviert werden können. Ist diese neue Einstellung aktiviert, wird das letzte Oktett (der letzte Teil) der IP-Adresse unverzüglich durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Deutschland </td> 
-   <td colname="col2"> <p>Wenn SIe nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie Ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Region/Land | Übertragung |
+|--- |--- |
+| Global | Adobe empfiehlt seinen Kunden, auf keinen Fall persönlich identifizierbare Informationen (PII) an Adobe weiterzugeben, insbesondere in Situationen, in denen PII nicht für Analytics benötigt werden. |
+| Global | Benutzer müssen bei der Profilierung Hinweise und Auswahlmöglichkeiten erhalten. In der europäischen Union (in einigen Ländern auf Opt-in-Basis), Kanada, Australien und vielen Ländern in Lateinamerika und im Asiatisch-Pazifischen Raum ist dies gesetzlich vorgeschrieben. |
+| Global | Bei Verwendung von Erstanbieter-Cookies bezieht sich die Analytics-Abmeldung ausschließlich auf den jeweiligen Kunden. Die Abmeldung auf Adobe.com ist nicht ausreichend. |
+| Global | Analysen von Erstanbietern sind nicht Teil des Self-Regulatory Program for Online Behavioral Advertising („AdChoices“). |
+| Global | Geräteübergreifende Daten sollten zusammengeführt werden, außer sie sind an eine ID gebunden, die der Kunde zur Verfügung gestellt hat (z. B. einen Hash-Benutzernamen). |
+| Global | Es gelten voraussichtlich Beschränkungen für die Kombination von Anzeigenimpressionen und PII für den Kunden. |
+| Europa | Die meisten Länder der europäischen Union erachten Analyse-Cookies nicht als unbedingt erforderlich. |
+| Europa | Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) im Admin-Benutzerhandbuch. |
+| Global | Ein Kunde kann die Variable für die Cookie-Lebensdauer im JavaScript-Messungs-Code auf den Wert „none“, „session“ oder einen anderen spezifischen, in Sekunden gemessenen Wert setzen. |
+| Europa | Adobe verfügt über eine neue Einstellung für eingebauten Datenschutz, die jetzt mit Adobe ClientCare für die Versionen 14.9 und 15.4 von Adobe Analytics (früher SiteCatalyst) aktiviert werden können. Ist diese neue Einstellung aktiviert, wird das letzte Oktett (der letzte Teil) der IP-Adresse unverzüglich durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. |
+| Deutschland | Wenn SIe nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie Ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. |
 
-## Standorte von Rechenzentren in EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA-Rechenzentrumsstandort {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-Die folgenden EMEA-Rechenzentren hosten derzeit Adobe Analytics-Daten:
+Das folgende EMEA-Rechenzentrum hostet derzeit Adobe Analytics-Daten:
 
-<table id="table_65794B3790FD4B519EE89CF4F4B88314"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Adobe-Name </th> 
-   <th colname="col2" class="entry"> Adresse </th> 
-   <th colname="col3" class="entry"> Anbietertyp (Operator) </th> 
-   <th colname="col4" class="entry"> Unterstützte Lösungskomponenten </th> 
-   <th colname="col5" class="entry"> Zertifizierungen </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> AMS1 </td> 
-   <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>Niederlande </p> </td> 
-   <td colname="col3"> <p>Colocation-Anbieter </p> <p>(Equinix) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.de/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> LON5 </td> 
-   <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>GB </p> </td> 
-   <td colname="col3"> <p>Colocation-Anbieter </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> SSAE 16 </td> 
-  </tr> 
- </tbody> 
-</table>
+| Adobe-Name | Adresse | Anbietertyp (Operator) | Unterstützte Lösungskomponenten | Zertifizierungen |
+|--- |--- |--- |--- |--- |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU Vereinigtes Königreich | Colocation Facility (Gyron) | Multichannel Analytics, Digital Analytics | SSAE 16 |
