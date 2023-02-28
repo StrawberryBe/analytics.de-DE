@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -27,12 +27,12 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **Februar 2023** |  |
 | Implementierung | Aktualisierter Inhalt zum [Adobe Analytics für Web und Mobilgeräte implementieren](../implement/home.md). |
-| Workspace-Kalender und Datumsbereiche | Der Inhalt wurde aktualisiert, um relative Datumsbereiche, Aktualisierungen der Formelberechnung und Änderungen an der Kalenderbenutzeroberfläche zu beschreiben. Siehe [Über relative Bereichsdatumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Arbeitsbereichskalender und Datumsbereiche | Der Inhalt wurde aktualisiert, um relative Datumsbereiche, Aktualisierungen der Formelberechnung und Änderungen an der Kalenderbenutzeroberfläche zu beschreiben. Siehe [Über relative Bedienfelddatumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Mobile Scorecards | Neuer Dokumentationsabschnitt, in dem beschrieben wird, wie Sie Vergleichsdatumsbereiche anzeigen und ausblenden. Siehe [Vergleichsdatumsbereiche anzeigen](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
 | 1.4 API | Die [Adobe Analytics 1.4-API](https://developer.adobe.com/analytics-apis/docs/1.4/) eine vollständige Neufassung erhalten hat und jetzt auf Adobe Developer veröffentlicht wird. |
 | Tracking über Implementierungstypen hinweg | Der Anwendungsfall wurde aktualisiert. [Tracking über verschiedene Implementierungstypen hinweg](../implement/use-cases/cross-type-implementation.md) , um den Experience Cloud-ID-Dienst aufzunehmen. |
 | **Januar 2023** |  |
-| Tabellen filtern und sortieren | Aktualisierter Inhalt (einschließlich des Hinzufügens von Verfahren und der Erläuterung der verfügbaren Optionen) im [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) Artikel. Dieser Artikel wurde aus &quot;Paginierung, Filterung und Sortierung von Tabellen&quot;umbenannt. |
+| Tabellen filtern und sortieren | Aktualisierter Inhalt (einschließlich des Hinzufügens von Verfahren und der Erläuterung der verfügbaren Optionen) im Artikel [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Dieser Artikel wurde von „Paginierung, Filterung und Sortierung von Tabellen“ umbenannt. |
 | Ordner | Eigene Seiten für [Ordnerverwaltung](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Benutzervoreinstellungen | In [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md) sind jetzt viele weitere Benutzereinstellungen verfügbar. |
 | Automatisches Speichern für Projekte | Der Inhalt wurde aktualisiert und enthält jetzt in [Projekte speichern](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) eine Funktion zum automatischen Speichern. |
