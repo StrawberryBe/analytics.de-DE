@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Erstellen von freigebbaren Links
 
-Analysis Workspace bietet viele Möglichkeiten, ein Projekt für Ihre Benutzer freizugeben, einschließlich der Möglichkeit, einen Link zu einem Projekt oder einem bestimmten Teil eines Projekts absurufen. Bei den meisten Linktypen müssen sich Benutzer, die einen Link erhalten, bei Adobe Analytics anmelden, bevor sie zum Projekt gelangen können.
+Analysis Workspace bietet viele Möglichkeiten, ein Projekt für Ihre Benutzer freizugeben, einschließlich der Möglichkeit, einen Link zu einem Projekt oder einem bestimmten Teil eines Projekts absurufen. Bei den meisten Link-Typen müssen sich Benutzerinnen und Benutzer, die einen Link erhalten, bei Adobe Analytics anmelden, bevor sie zum Projekt gelangen können.
 
 ## Projekt-Link abrufen {#project-link}
 
@@ -24,7 +24,7 @@ Um einen Link zum vollständigen Projekt freizugeben, klicken Sie auf **[!UICONT
 
 ## Bedienfeld- oder Visualisierungs-Link abrufen {#panel-link}
 
-Sie können auch einen Link zu einem bestimmten Teil eines Projekts freigeben, z. B. einem Bedienfeld oder einer individuellen Visualisierung. Dies wird manchmal auch als Intra-Linking bezeichnet. Dies kann nützlich sein, um die Aufmerksamkeit Ihrer Benutzer auf wichtige Einblicke im Projekt zu lenken.
+Sie können auch einen Link zu einem bestimmten Teil eines Projekts freigeben, z. B. einem Bedienfeld oder einer individuellen Visualisierung. Dies wird manchmal auch als Intra-Linking bezeichnet. Dies kann nützlich sein, um die Aufmerksamkeit Ihrer Benutzerinnen und Benutzer auf wichtige Erkenntnisse im Projekt zu lenken.
 
 * Klicken Sie in der Kopfzeile eines Bedienfelds mit der rechten Maustaste auf **[!UICONTROL Bedienfeld-Link abrufen]**.
 * Klicken Sie in einer Tabellen- oder Visualisierungskopfzeile mit der rechten Maustaste auf **[!UICONTROL Visualisierungs-Link abrufen]**.
@@ -37,6 +37,6 @@ Sie können auch einen Link zu einem bestimmten Teil eines Projekts freigeben, z
 
 Ein Tipp für die Nutzung der verschiedenen Link-Optionen besteht darin, immer ein Inhaltsverzeichnis am Anfang Ihres Workspace-Projekts einzufügen. Im Inhaltsverzeichnis können Sie Links zu anderen relevanten Projekten, spezifischen Bedienfeldern und spezifischen Visualisierungen erstellen. Dies erleichtert dem Empfänger des Projekts die Navigation.
 
-[Video ansehen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=de) Informationen zum Erstellen eines Inhaltsverzeichnisses mithilfe von Links und dem Rich-Text-Editor von Workspace.
+[Sehen Sie sich das Video an](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=de), wie Sie mithilfe von Links und dem Rich-Text-Editor von Workspace ein Inhaltsverzeichnis erstellen.
 
 ![](assets/toc.png)
