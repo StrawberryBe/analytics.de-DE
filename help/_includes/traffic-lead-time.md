@@ -4,9 +4,9 @@ title: Erforderliche Vorlaufzeit für Traffic-Zunahme
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -30,26 +30,26 @@ Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Ve
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Traffic-Änderungstyp </th>
+   <th colname="col1" class="entry"> Typ der Traffic-Änderung </th>
    <th colname="col2" class="entry"> Benötigte Vorlaufzeit </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Neue Kontoeinstellungen </td>
+   <td colname="col1"> Neue Kontoeinrichtung </td>
    <td colname="col2"> <ul><li>3 Werktage</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Traffic-Spitze oder plötzlicher, permanenter Traffic-Anstieg von bis zu 25 % des durchschnittlichen täglichen Volumens im Vergleich zu den letzten 30 Tagen</td>
-   <td colname="col2"> <ul><li>Report Suites mit &lt; 100 Millionen Treffern/Tag: Keine Benachrichtigung erforderlich</li><li>Report Suites mit &gt; 100 Mio Treffern/Tag: 5 Geschäftstage</li></ul></td>
+   <td colname="col1"> Traffic-Spitze oder plötzlicher permanenter Traffic-Anstieg von bis zu 25 % des durchschnittlichen täglichen Volumens im Vergleich zu den letzten 30 Tagen</td>
+   <td colname="col2"> <ul><li>Report Suites mit &lt; 100 Mio. Treffern/Tag: Keine Benachrichtigung erforderlich</li><li>Report Suites mit &gt; 100 Mio Treffern/Tag: 5 Werktage</li></ul></td>
   </tr>
   <tr>
    <td colname="col1"> Traffic-Spitze oder plötzlicher permanenter Traffic-Anstieg von mehr als 25 % des durchschnittlichen täglichen Volumens im Vergleich zu den letzten 30 Tagen</td>
-   <td colname="col2"> <ul><li>5 Geschäftstage</li></ul></td>
+   <td colname="col2"> <ul><li>5 Werktage</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Feiertagsereignisse Oktober - Dezember </td>
-   <td colname="col2"> <ul><li>Ein Kalendermonat</li></ul> </td>
+   <td colname="col1"> Feiertagsereignisse Oktober – Dezember </td>
+   <td colname="col2"> <ul><li>1 Kalendermonat</li></ul> </td>
   </tr>
  </tbody>
 </table>
