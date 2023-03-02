@@ -5,9 +5,9 @@ title: Hinzufügen von Ordnern in Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Sie können Projekte zu einem Ordner in der Tabellenansicht oder innerhalb eines
 
 >[!NOTE]
 >
->Nur Analytics-Administratoren können Projekte zum Unternehmensordner hinzufügen oder ein neues Projekt erstellen und im Unternehmensordner speichern
+>Nur Analytics-Administrierende können dem Unternehmensordner Projekte hinzufügen oder ein neues Projekt erstellen und es im Unternehmensordner speichern.
 
 ## Aus der Tabellenansicht {#table-view}
 
@@ -35,7 +35,7 @@ Fügen Sie auf der Startseite aus der Tabellenansicht Projekte zu einem Ordner h
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Auswählen **Verschieben**.
+1. Wählen Sie **Verschieben** aus. 
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -55,7 +55,7 @@ Sie können auch Projekte aus dem Inneren eines Ordners hinzufügen, indem Sie d
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Wählen Sie die **...** Symbol mit Auslassungspunkten oben rechts.
+1. Wählen Sie oben rechts das Symbol mit den Auslassungspunkten **...** aus.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
@@ -64,10 +64,10 @@ Sie können auch Projekte aus dem Inneren eines Ordners hinzufügen, indem Sie d
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
 
-1. (Optional) Wählen Sie aus der Dropdownliste zusätzliche Projekte aus, um mehrere Projekte hinzuzufügen.
+1. (Optional) Wählen Sie aus der Dropdown-Liste zusätzliche Projekte aus, um mehrere Projekte hinzuzufügen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Auswählen **Hinzufügen** , um die Projekte zum Ordner hinzuzufügen.
+1. Wählen Sie **Hinzufügen** aus, um die Projekte zu dem Ordner hinzuzufügen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
