@@ -6,15 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren einer Anomalieerkennungsanforderung
 
-So erstellen Sie eine Anomalieerkennungsanforderung in ReportBuilder:
+So erstellen Sie eine Anomalieerkennungsanfrage in Report Builder:
 
 1. Wählen Sie einen Trendbericht aus, z. B. einen Bericht für **[!UICONTROL Site-Metriken]** > **[!UICONTROL Traffic]**.
 1. Wählen Sie im Menü [!UICONTROL Granularität anwenden] den Eintrag **[!UICONTROL Tag]**.
