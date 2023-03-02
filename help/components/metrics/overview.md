@@ -4,9 +4,9 @@ description: Betrachten Sie Mengen von Dimensionselementen oder Daten im Zeitver
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ Wenn Sie eine bestimmte Metrik-Hilfeseite nicht finden können, handelt es sich 
 
 ## Hinzufügen von Metrikbeschreibungen
 
-Analytics-Administratoren können entweder innerhalb der Report Suite oder direkt in Analysis Workspace Beschreibungen für Metriken und andere Komponenten hinzufügen. Informationen zum Hinzufügen von Beschreibungen zu Metriken finden Sie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analytics-Administrierende können Beschreibungen für Metriken und andere Komponenten entweder innerhalb der Report Suite oder direkt in Analysis Workspace hinzufügen. Informationen darüber, wie Sie Beschreibungen zu Metriken hinzufügen können, finden Sie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
