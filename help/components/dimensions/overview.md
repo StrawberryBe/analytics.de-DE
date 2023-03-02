@@ -4,9 +4,9 @@ description: Variablen, die Zeichenfolgenwerte enthalten.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ Jede Dimension stellt einen anderen Teil oder eine andere Facette Ihrer Site dar
 
 ## Hinzufügen von Dimensionsbeschreibungen
 
-Analytics-Administratoren können Beschreibungen für Dimensionen und andere Komponenten entweder innerhalb der Report Suite oder direkt in Analysis Workspace hinzufügen. Informationen zum Hinzufügen von Beschreibungen zu Dimensionen finden Sie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analytics-Admins können Beschreibungen für Dimensionen und andere Komponenten entweder innerhalb der Report Suite oder direkt in Analysis Workspace hinzufügen. Informationen zum Hinzufügen von Beschreibungen zu Dimensionen finden Sie unter [Hinzufügen von Komponentenbeschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
