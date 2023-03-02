@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -102,15 +102,15 @@ Wenn der gewünschte Datumsbereich noch nicht erstellt wurde, können Sie durch 
 
 Dadurch gelangen Sie zum Generator für den Datumsbereich, in dem Sie eine neue Komponente für den Datumsbereich erstellen und speichern können.
 
-### Vergleichsdatumsbereiche einblenden/ausblenden {#show-comparison-dates}
+### Vergleichsdatumsbereiche anzeigen/ausblenden {#show-comparison-dates}
 
-Um Vergleichsdatumsbereiche ein- oder auszublenden, schalten Sie den **Vergleichsdaten einschließen** -Einstellung.
+Um Vergleichsdatumsbereiche ein- oder auszublenden, schalten Sie die Einstellung **Vergleichsdaten einbeziehen** um.
 
 ![Vergleichsdaten einschließen](assets/include-comparison-dates.png)
 
-Die Einstellung lautet *on* Standardmäßig. Deaktivieren Sie die Option, wenn Sie keine Vergleichsdaten anzeigen möchten.
+Die Einstellung ist standardmäßig *an*. Deaktivieren Sie die Option, wenn Sie keine Vergleichsdaten anzeigen möchten.
 
-![Nicht ausgewählte Vergleichsdatumseinstellung](assets/no-comparison-dates.png)
+![Abgewählte Vergleichsdatumseinstellung](assets/no-comparison-dates.png)
 
 ## Visualisierungen anwenden {#viz}
 
