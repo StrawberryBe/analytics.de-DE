@@ -4,9 +4,9 @@ title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2015'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Classification-Regeln eignen sich für Folgendes:
 * **E-Mail-** und **Display-Anzeigen:** Erstellen Sie Klassifizierungsregeln, die die einzelnen Display-Anzeigekampagnen gruppieren, sodass ersichtlich wird, wie die Display-Kampagnen im Vergleich zu den E-Mail-Kampagnen abschneiden.
 
 * **Trackingcodes:** Erstellen Sie Klassifizierungsregeln, die die aus den Zeichenfolgen in den Trackingcodes abgeleiteten Schlüsselwerte kategorisieren, und prüfen Sie dann, ob diese Schlüsselwerte mit den von Ihnen definierten Kriterien übereinstimmen.
-* **Suchbegriffe**: Verwendung [reguläre Ausdrücke](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Klassifizierung von Suchbegriffen. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
+* **Suchbegriffe**: Verwenden Sie [reguläre Ausdrücke](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhalter, um die Klassifizierung von Suchbegriffen zu vereinfachen. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
 
 Der Trackingcode für eine E-Mail-Kampagnen-ID lautet beispielsweise:
 
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, und legen Sie die gewünschte Aktion fest.
+Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Klassifizierung zu, und legen Sie die gewünschte Aktion fest.
 
 >[!NOTE]
 >
 >Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von   [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
 
-So fügen Sie eine Classification-Regel hinzu oder bearbeiten sie:
+So können Sie eine Klassifizierungsregel hinzufügen oder bearbeiten:
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/classifications/crb/classification-rule-set.md).
 1. Klicken Sie auf der Regelsatzseite auf **[!UICONTROL Regel hinzufügen]**.
@@ -363,9 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Sie können eine Classification-Regel oder einen Regelsatz testen. Im Rahmen des Tests werden alle Regeln innerhalb eines Satzes übeprüft.
+Sie können eine Klassifizierungsregel oder einen Regelsatz testen. Im Rahmen des Tests werden alle Regeln innerhalb eines Satzes überprüft.
 
-So testen Sie einen Classification-Regelsatz:
+Testen eines Klassifizierungsregelsatzes:
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/classifications/crb/classification-rule-set.md).
 1. Klicken Sie im [!UICONTROL Classification Rule Builder] auf den Namen des Regelsatzes.
@@ -397,14 +397,14 @@ t_validate_rules.xml
 
  -->
 
-Überprüfen und Aktivieren von Classification-Regeln:
+So validieren und aktivieren Sie Klassifizierungsregeln:
 
 1. [Erstellen Sie einen Classification-Regelsatz](/help/components/classifications/crb/classification-rule-set.md) und [fügen Sie dem Satz dann Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md) hinzu.
 1. Klicken Sie im Regeleditor auf **[!UICONTROL Aktivieren]**.
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) Wenn Sie Classifications überschreiben möchten, aktivieren Sie die Option **[!UICONTROL Überschreiben von Classifications für]** &lt;*Auswahl*>.
+1. (Optional) Um Klassifikationen zu überschreiben, aktivieren Sie **[!UICONTROL Überschreiben von Klassifikationen für]** &lt;*Auswahl*>.
 
    Mit dieser Option können Sie bestehende Classifications für die betroffenen Schlüssel überschreiben.
 
