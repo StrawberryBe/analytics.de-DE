@@ -1,14 +1,14 @@
 ---
-description: Mit dem Datenwörterbuch in Analysis Workspace können Benutzer die verschiedenen Komponenten in Analysis Workspace katalogisieren und verfolgen, einschließlich ihrer vorgesehenen Verwendung, der genehmigten Komponenten, der Duplikate usw.
+description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzenden, die verschiedenen Komponenten in Analysis Workspace zu katalogisieren und im Auge zu behalten, einschließlich ihres Verwendungszwecks, welche genehmigt sind, welche Duplikate sind usw.
 title: Einträge im Datenwörterbuch bearbeiten
 feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
 source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Analytics-Administratoren können Komponenteneinträge im Datenwörterbuch für eine bestimmte Report Suite bearbeiten. Alle vorgenommenen Änderungen sind für alle Benutzer der Report Suite sichtbar.
+Analytics-Admins können Komponenteneinträge im Datenwörterbuch für eine bestimmte Report Suite bearbeiten. Alle vorgenommenen Änderungen sind für alle Benutzenden der Report Suite sichtbar.
 
-So bearbeiten Sie eine Komponente im Datenwörterbuch:
+Bearbeiten einer Komponente im Datenwörterbuch:
 
 1. Wechseln Sie zum Analysis Workspace-Projekt, das die zu bearbeitende Komponente enthält.
 
-1. Wählen Sie die **Datenwörterbuch** in der linken Leiste von Analysis Workspace. (Alternative Möglichkeiten zum Zugriff auf das Datenwörterbuch werden unter &quot;Zugriff auf das Datenwörterbuch&quot;in [Datenwörterbuch - Übersicht](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+1. Wählen Sie das Symbol **Datenwörterbuch** in der linken Leiste von Analysis Workspace. (Alternative Möglichkeiten für den Zugriff auf das Datenwörterbuch sind unter „Zugriff auf das Datenwörterbuch“ in [Datenwörterbuch – Überblick](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) beschrieben.)
 
-   Das Fenster Datenwörterbuch wird angezeigt.
+   Das Fenster „Datenwörterbuch“ wird angezeigt.
 
-   ![Administratoransicht des Datenwörterbuchs](assets/data-dictionary-admin.png)
+   ![Adminansicht des Datenwörterbuchs](assets/data-dictionary-admin.png)
 
 1. Stellen Sie sicher, dass im Dropdown-Menü die richtige Report Suite ausgewählt ist. Standardmäßig wird die Report Suite angezeigt, in der Sie sich bereits befinden.
 
@@ -36,10 +36,10 @@ So bearbeiten Sie eine Komponente im Datenwörterbuch:
 
 1. Wählen Sie aus der Komponentenliste die Komponente aus, die Sie bearbeiten möchten.
 
-1. Wählen Sie die **Bearbeiten** icon ![Symbol &quot;Bearbeiten&quot;im Datenwörterbuch](assets/data-dictionary-edit-icon.png) neben dem Komponentennamen.
+1. Wählen Sie das Symbol **Bearbeiten** ![Datenwörterbuch bearbeiten](assets/data-dictionary-edit-icon.png) neben dem Komponentennamen.
 
 1. Bearbeiten Sie eine der folgenden Informationen zur Komponente:
 
    {{dd-component-information}}
 
-1. Klicken Sie auf **Speichern** icon ![Symbol zum Speichern eines Datenwörterbuchs](assets/data-dictionary-save-icon.png) , um Ihre Änderungen zu speichern.
+1. Klicken Sie auf das Symbol **Speichern** ![Datenwörterbuch speichern](assets/data-dictionary-save-icon.png), um Ihre Änderungen zu speichern.
