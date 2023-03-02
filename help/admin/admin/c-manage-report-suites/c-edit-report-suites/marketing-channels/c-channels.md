@@ -5,9 +5,9 @@ title: Marketing-Kanäle verwalten
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> Allgemeine Informationen zu Marketingkanälen finden Sie unter [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> Allgemeine Informationen zu Marketing-Kanälen finden Sie unter [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
 > Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Manager]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketing-Kanäle]** > **[!UICONTROL Marketing-Kanal-Manager]**.
 
 Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 
@@ -28,8 +28,8 @@ Der Zusatz von Kanälen in der [!UICONTROL Marketingkanal]-Seite erfolgt separat
 Beachten Sie bei der Erstellung von Kanälen die folgenden Richtlinien:
 
 * Richten Sie in der Vorbereitung eine Liste aller Kanäle ein, so dass alle Besucherzugriffe in die richtigen Kanäle eingeordnet werden.
-* Schließen Sie Kanäle für die Kategorien von ein. [intern](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) Treffer.
-* Schließen Sie einen Kanal „Sonstige Kampagnen“ ein, der nach den bezahlten Kanälen und vor den kostenlosen Kanälen platziert wird.
+* Schließen Sie Kanäle für die Kategorien [interner](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) Treffer ein.
+* Schließen Sie einen Kanal „Sonstige Kampagnen“ ein, der nach den bezahlten Kanälen und vor den organischen Kanälen platziert wird.
 
 
 ## Voraussetzungen {#prereqs}
@@ -81,7 +81,7 @@ Es gibt verschiedene Einstellungen, die für jeden Kanal auf der Seite [!UICONTR
 
 ### Überschreiben von Best Practices
 
-Es empfiehlt sich, die Option zum Außerkraftsetzen des Letztkontakts für die Kanäle &quot;Direkt&quot;und &quot;Intern&quot;zu deaktivieren, damit sie keine Gutschriften von anderen persistenten Letztkontakt-Kanälen (oder anderen) erhalten.
+Es empfiehlt sich, die Option zum Außerkraftsetzen des Letztkontakts für die Kanäle „Direkt“ und „Intern“ zu deaktivieren, damit sie keine Gutschriften von anderen persistenten Letztkontakt-Kanälen (oder voneinander) erhalten.
 
 ![](assets/int-channel2.png)
 
