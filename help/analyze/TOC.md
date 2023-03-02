@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschl
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -62,10 +62,10 @@ ht-degree: 97%
          + [Benutzerdefinierte Datumsbereiche erstellen](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumsvergleich](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + Datenwörterbuch {#data-dictionary}
-         + [Datenwörterbuch - Übersicht](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [Datenwörterbuch – Überblick](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [Komponenteninformationen im Datenwörterbuch anzeigen](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
          + [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [Überwachen des Zustands von Datenwörterbüchern](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [Überwachen des Zustands des Datenwörterbuchs](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisierungen {#visualizations}
       + [Visualisierungsübersicht](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Datenquellen verwalten](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -75,7 +75,7 @@ ht-degree: 97%
             + [Spalteneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Zeileneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische im Vergleich zu statischen Elementen](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Tabellen filtern und sortieren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Filtern und Sortieren von Tabellen](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Arbeitsbereich-Summen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Kohortentabelle {#cohort-table}
          + [Was ist eine Kohortenanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)

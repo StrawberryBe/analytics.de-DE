@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Februar 2023** |  |
-| Implementierung | Aktualisierter Inhalt zum [Adobe Analytics für Web und Mobilgeräte implementieren](../implement/home.md). |
-| Arbeitsbereichskalender und Datumsbereiche | Der Inhalt wurde aktualisiert, um relative Datumsbereiche, Aktualisierungen der Formelberechnung und Änderungen an der Kalenderbenutzeroberfläche zu beschreiben. Siehe [Über relative Bedienfelddatumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Mobile Scorecards | Neuer Dokumentationsabschnitt, in dem beschrieben wird, wie Sie Vergleichsdatumsbereiche anzeigen und ausblenden. Siehe [Vergleichsdatumsbereiche anzeigen](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
-| 1.4 API | Die [Adobe Analytics 1.4-API](https://developer.adobe.com/analytics-apis/docs/1.4/) eine vollständige Neufassung erhalten hat und jetzt auf Adobe Developer veröffentlicht wird. |
-| Tracking über Implementierungstypen hinweg | Der Anwendungsfall wurde aktualisiert. [Tracking über verschiedene Implementierungstypen hinweg](../implement/use-cases/cross-type-implementation.md) , um den Experience Cloud-ID-Dienst aufzunehmen. |
+| Implementierung | Inhalt zum [Implementieren von Adobe Analytics für Web und Mobile](../implement/home.md) aktualisiert. |
+| Workspace-Kalender und Datumsbereiche | Inhalt aktualisiert, um relative Datumsbereiche, Aktualisierungen der Formelberechnung und Änderungen an der Kalenderbenutzeroberfläche zu beschreiben. Siehe [Über relative Bedienfelddatumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Mobile Scorecards | Neuer Dokumentationsabschnitt, um zu beschreiben, wie Sie Vergleichsdatumsbereiche ein- und ausblenden. Siehe [Anzeigen von Vergleichsdatumsbereichen](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
+| 1.4 API | Die [Adobe Analytics 1.4-API](https://developer.adobe.com/analytics-apis/docs/1.4/) wurde vollständig umgestaltet und ist jetzt in Adobe Developer veröffentlicht. |
+| Tracking über verschiedene Implementierungstypen hinweg | Anwendungsfall zum [Tracking über verschiedene Implementierungstypen hinweg](../implement/use-cases/cross-type-implementation.md) aktualisiert, um den Experience Cloud-ID-Service zu berücksichtigen. |
 | **Januar 2023** |  |
-| Tabellen filtern und sortieren | Aktualisierter Inhalt (einschließlich des Hinzufügens von Verfahren und der Erläuterung der verfügbaren Optionen) im Artikel [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Dieser Artikel wurde von „Paginierung, Filterung und Sortierung von Tabellen“ umbenannt. |
+| Filtern und Sortieren von Tabellen | Inhalt (einschließlich des Hinzufügens von Verfahren und der Erläuterung der verfügbaren Optionen) im Artikel [Filtern und Sortieren von Tabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) aktualisiert. Dieser Artikel hieß vorher „Paginierung, Filterung und Sortierung von Tabellen“ und wurde umbenannt. |
 | Ordner | Eigene Seiten für [Ordnerverwaltung](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Benutzervoreinstellungen | In [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md) sind jetzt viele weitere Benutzereinstellungen verfügbar. |
 | Automatisches Speichern für Projekte | Der Inhalt wurde aktualisiert und enthält jetzt in [Projekte speichern](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) eine Funktion zum automatischen Speichern. |
@@ -62,7 +62,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Unterstützung für Listenvariablen in XDM für Edge-Erfassung | Ermöglicht es Kunden, die Daten über Experience Edge/Web SDK zu erfassen, um unter Verwendung von XDM den Inhalt der Listenvariablen festzulegen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=de#list-variables-using-the-web-sdk) | 18. August 2022 |
 | Verwendung des SKU-Feldes in XDM für Edge-Erfassung beim Festlegen von Produktzeichenfolge-Variablen | Ermöglicht es Kunden, die Daten über Experience Edge/Web SDK erfassen, das Produktfeld in der Produktvariablen unter Verwendung des SKU-Werts zu festzulegen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=de#products-using-the-web-sdk) |
 | **Juni 2022** |  |
-| Unterstützung für Merchandising-Variablen in XDM für Edge-Erfassung | Dokumentation über [Unterstützung für Merchandising-Variablen in XDM für Edge-Erfassung](/help/components/dimensions/evar-merchandising.md) |
+| Merchandising-Variablen in XDM für Edge-Erfassung | Dokumentation über [Unterstützung für Merchandising-Variablen in XDM für Edge-Erfassung](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge-Dokumentation | Neue Artikel zur Implementierung von Adobe Analytics über das [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), das [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) und die [Edge-API](/help/implement/aep-edge/edge-api/overview.md). |
 | Aktualisierte Dokumentation zur Flussvisualisierung | Basierend auf der [neuen Benutzeroberfläche](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Dokumentation zum Freigeben von Anmerkungen in mobilen Scorecards | Sie können [Anmerkungen, die in Analysis Workspace erstellt wurden, in mobilen Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md) anzeigen. |

@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Neue Landingpage von Adobe Analytics
 
-Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] als auch [!DNL Reports & Analytics] in einer einzigen Oberfläche und einem Zugangspunkt unter dem Dach von [!DNL Workspace]. Sie enthält eine neue Startseite für den Projekt-Manager, ein aktualisiertes Berichtsmenü und aktualisierte Berichte sowie einen Lernbereich, der Ihnen dabei hilft, die ersten Schritte effektiver zu bewältigen. Im Folgenden finden Sie eine Videoübersicht:
+Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] als auch [!DNL Reports & Analytics] in einer einzigen Oberfläche und einem Zugangspunkt unter dem Dach von [!DNL Workspace]. Sie enthält eine neue Startseite für den Projekt-Manager, ein aktualisiertes Berichtsmenü und aktualisierte Berichte sowie einen Lernbereich, der Ihnen dabei hilft, die ersten Schritte effektiver zu bewältigen. Hier finden Sie eine Videoübersicht:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -195,7 +195,7 @@ Weitere Lernoptionen:
 
 ### Verwalten von Unternehmensberichten {#manage-company-reports}
 
-Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Angeheftete Elemente bleiben angeheftet und sind gefolgt von der Liste der Unternehmensberichte, die durch das Berichtssymbol ![Berichtssymbol](assets/report-icon.png) gekennzeichnet sind . In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
+Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Angeheftete Elemente bleiben angeheftet und werden von der Liste der Unternehmensberichte gefolgt, die durch das Berichtssymbol ![Berichtssymbol](assets/report-icon.png) gekennzeichnet sind. In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
 
 Anzeigen und Verwalten von Unternehmensberichten
 

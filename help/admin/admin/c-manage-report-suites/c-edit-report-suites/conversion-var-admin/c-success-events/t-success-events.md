@@ -6,7 +6,7 @@ exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,12 +32,12 @@ So konfigurieren Sie Erfolgsereignisse:
 1. Geben Sie in der Spalte **[!UICONTROL Polarität]** an, ob ein Aufwärtstrend für diese Metrik positiv oder negativ ist.
 1. In der Spalte **[!UICONTROL Sichtbarkeit]** können Sie Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segment Builder integrierten Ereignisse ausblenden.
 
-   Diese Einstellung hat keine Auswirkungen auf die Datenerfassung für diese Metrik oder dieses Ereignis. Es wirkt sich nur auf die Sichtbarkeit in der Benutzeroberfläche aus, wie folgt:
+   Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik oder das Ereignis aus, sondern nur auf die Sichtbarkeit in der Benutzeroberfläche,:
 
 
    | Einstellung | Sichtbar in | Nicht sichtbar in |
    |---------|----------|---------|
-   | [!UICONTROL **Überall sichtbar**] | <ul><li>Reports &amp; Analytics (Menü und Metrikauswahl)</li><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
+   | [!UICONTROL **Überall eingeblendet**] | <ul><li>Reports &amp; Analytics (Menü und Metrikauswahl)</li><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
    | [!UICONTROL **Builder**] | <ul><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | <ul><li>Reports &amp; Analytics (Menü und Metrikauswahl)</li><li>Analysis Workspace</li></ul> |
    | [!UICONTROL **Überall ausgeblendet**] | nicht angegeben | <ul><li>Reports &amp; Analytics (Menü und Metrikauswahl)</li><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
 

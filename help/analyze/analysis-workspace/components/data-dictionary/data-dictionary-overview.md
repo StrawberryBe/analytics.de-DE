@@ -1,6 +1,6 @@
 ---
-description: Mit dem Datenwörterbuch in Analysis Workspace können Benutzer die verschiedenen Komponenten in Analysis Workspace katalogisieren und verfolgen, einschließlich ihrer vorgesehenen Verwendung, der genehmigten Komponenten, der Duplikate usw.
-title: Datenwörterbuch - Übersicht
+description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzenden, die verschiedenen Komponenten in Analysis Workspace zu katalogisieren und im Auge zu behalten, einschließlich ihres Verwendungszwecks, welche genehmigt sind, welche Duplikate sind usw.
+title: Datenwörterbuch – Überblick
 feature: Components
 role: User, Admin
 hide: true
@@ -8,66 +8,66 @@ hidefromtoc: true
 source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
-# Datenwörterbuch - Übersicht
+# Datenwörterbuch – Überblick
 
 {{release-limited-testing}}
 
-Das Datenwörterbuch in Analysis Workspace hilft Benutzern und Administratoren, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
+Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
 
 Analytics-Administratoren sind für das Kuratieren von Informationen zu den einzelnen Komponenten im Datenwörterbuch zuständig, damit sie Benutzern zur Verfügung gestellt werden.
 
-## Vorteile für Benutzer
+## Vorteile für Benutzende
 
-Das Datenwörterbuch hilft Benutzern, die einzelnen Komponenten besser zu verstehen, die ihnen zur Verfügung stehen.
+Das Datenwörterbuch hilft Benutzenden, jede Komponente besser zu verstehen, die ihnen zur Verfügung steht.
 
 Zu den im Datenwörterbuch verfügbaren Informationen gehören:
 
 * Funktion und vorgesehene Verwendung einer Komponente
 
-* Komponenten, die in der Regel mit der angezeigten verwendet werden
+* Komponenten, die in der Regel mit der angezeigten Komponente verwendet werden
 
-* Komponenten, die der angezeigten ähneln
+* Komponenten, die der angezeigten Komponente ähneln
 
-* Ob eine Komponente vom Systemadministrator genehmigt wird
+* Ob die Systemadministratorin oder der Systemadministrator eine Komponente genehmigt
 
 Informationen zum Zugriff auf das Datenwörterbuch und Details zu den darin enthaltenen Informationen finden Sie unter [Komponenteninformationen im Datenwörterbuch anzeigen](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
-## Vorteile für Administratoren
+## Vorteile für Administrierende
 
-Das Datenwörterbuch hilft Systemadministratoren dabei, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und zu kuratieren.
+Das Datenwörterbuch hilft Systemadministrierenden dabei, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und zu kuratieren.
 
-Im Folgenden finden Sie einige Möglichkeiten, wie Analytics-Administratoren das Datenwörterbuch verwenden können:
+Im Folgenden finden Sie einige Möglichkeiten, wie Analytics-Administrierende das Datenwörterbuch verwenden können:
 
-* Identifizieren Sie doppelte Komponenten, die konsolidiert werden müssen.
+* Identifizierung doppelter Komponenten, die konsolidiert werden müssen.
 
-* Identifizieren Sie Komponenten, die keine Daten erfassen, damit sie aktualisiert oder gelöscht werden können.
+* Identifizierung von Komponenten, die keine Daten erfassen, sodass sie aktualisiert oder gelöscht werden können.
 
-* Identifizieren Sie Komponenten, die noch nicht genehmigt sind.
+* Identifizierung von Komponenten, die noch nicht genehmigt sind.
 
-* Komponentenbeschreibungen direkt in Analysis Workspace aktualisieren. Alle Aktualisierungen an Komponentenbeschreibungen im Datenwörterbuch werden in der Report Suite übernommen.
+* Aktualisierung der Komponentenbeschreibungen direkt in Analysis Workspace. Alle Aktualisierungen an Komponentenbeschreibungen im Datenwörterbuch werden in der Report Suite übernommen.
 
-   Ebenso spiegeln sich alle Aktualisierungen an Komponentenbeschreibungen in der Report Suite in Analysis Workspace wider.
+   Ebenso werden alle Aktualisierungen an Komponentenbeschreibungen in der Report Suite in Analysis Workspace übernommen.
 
-   Weitere Informationen zum Hinzufügen von Komponentenbeschreibungen in Analysis Workspace oder einer Report Suite finden Sie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+   Weitere Informationen zum Hinzufügen von Komponentenbeschreibungen in Analysis Workspace oder einer Report Suite finden Sie unter [Hinzufügen von Komponentenbeschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
-## Datenwörterbuch aufrufen
+## Zugriff auf das Datenwörterbuch
 
-Sie können auf das Datenwörterbuch auf eine der folgenden Arten in Analysis Workspace zugreifen:
+Sie können auf eine der folgenden Arten in Analysis Workspace auf das Datenwörterbuch zugreifen:
 
-* Aus dem **Datenwörterbuch** in der linken Leiste.
+* über das Symbol **Datenwörterbuch** in der linken Leiste.
 
-   ![Symbol &quot;Datenwörterbuch&quot;in der linken Leiste](assets/data-dictionary-access-icon.png)
+   ![Datenwörterbuchsymbol in der linken Leiste](assets/data-dictionary-access-icon.png)
 
-* Aus dem **Datenwörterbuch** im Info-Popup einer Komponente.
+* über das Symbol **Datenwörterbuch** im Info-Pop-up einer Komponente.
 
-   ![Datenwörterbuchsymbol im Info-Popup](assets/data-dictionary-access-infopopover.png)
+   ![Datenwörterbuchsymbol im Info-Pop-up](assets/data-dictionary-access-infopopover.png)
 <!--update screenshot; this was taken from a mock-->
 
-* Im Menü: [!UICONTROL **Hilfe**] > [!UICONTROL **Datenwörterbuch**].
+* über das Menü: [!UICONTROL **Hilfe**] > [!UICONTROL **Datenwörterbuch**].
 
 Detaillierte Informationen zu den verschiedenen verfügbaren Optionen im Datenwörterbuch finden Sie unter [Komponenteninformationen im Datenwörterbuch anzeigen](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
@@ -79,18 +79,18 @@ Im Rahmen dieses Prozesses können Analytics-Administratoren Informationen zu de
 
 ## Verschieben, Minimieren oder Schließen des Datenwörterbuchs
 
-Wenn Sie das Datenwörterbuch öffnen (siehe [Datenwörterbuch aufrufen](#access-the-data-dictionary)), wird es als Fenster über Analysis Workspace angezeigt.
+Wenn Sie das Datenwörterbuch öffnen (siehe [Zugriff auf das Datenwörterbuch](#access-the-data-dictionary)), wird es als Fenster über Analysis Workspace angezeigt.
 
-Sie können das Datenwörterbuchfenster auf eine der folgenden Arten bearbeiten:
+Sie können das Datenwörterbuchfenster auf eine der folgenden Arten verändern:
 
-* Ziehen Sie es in einen beliebigen Bereich in Analysis Workspace
+* in einen beliebigen Bereich in Analysis Workspace ziehen
 
-   Wenn Sie Analysis Workspace schließen und erneut öffnen, bleibt das Datenwörterbuchfenster an der Stelle, an der Sie es zuletzt verschoben haben. <!--True?-->
+   Wenn Sie Analysis Workspace schließen und erneut öffnen, bleibt das Datenwörterbuchfenster an der Stelle, an die Sie es zuletzt verschoben haben.<!--True?-->
 
-* Minimieren
+* minimieren
 
-   Wenn dies minimiert wird, wird das Datenwörterbuch als blaue Registerkarte in der rechten unteren Ecke von Analysis Workspace angezeigt.
+   Wenn es minimiert wird, erscheint das Datenwörterbuch als blaue Registerkarte in der rechten unteren Ecke von Analysis Workspace.
 
-   Wenn Sie die blaue Registerkarte auswählen, wird das Datenwörterbuch für die Komponente geöffnet, die Sie zuletzt angezeigt haben.
+   Wenn Sie die blaue Registerkarte auswählen, wird das Datenwörterbuch für die Komponente geöffnet, die Sie zuletzt angesehen haben.
 
-* Schließen
+* schließen

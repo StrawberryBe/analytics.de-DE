@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, w
 source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
    + [Überblick](admin-console/home.md)
    + [Adobe Analytics-Handbuch für erste Administratoren](admin-console/first-admin-guide.md)
    + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Übersicht über die Berechtigungen für Analytics-Tools {#permissions}
+   + Zusammenfassung der Berechtigungen für Analytics-Tools {#permissions}
       + [Analytics-Berechtigungen in der Admin Console](admin-console/permissions/summary-tables.md)
       + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
@@ -42,7 +42,7 @@ ht-degree: 94%
             + Erkennung gebührenpflichtiger Suchvorgänge {#paid-search-detection}
                + [Übersicht über die Paid-Search-Erkennung](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Konfigurieren der Erkennung von Paid Search](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Menüs benutzerspezifisch einstellen](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [Anpassen von Menüs](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Verarbeitungsregeln {#c-processing-rules}
                + [Übersicht über Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Verarbeitungsregeln {#c-processing-rules-configuration}
@@ -82,7 +82,7 @@ ht-degree: 94%
          + Traffic {#traffic-variables}
             + [Traffic-Variablen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Aktivieren von Traffic-Variablen-Berichten](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
-            + [Traffic-Classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+            + [Traffic-Klassifizierung](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Beschreibung benutzerspezifischer Berichte](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Konversion {#conversion-variables}
             + [Konversionsvariablen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
@@ -102,13 +102,13 @@ ht-degree: 94%
             + [Marketingkanal-Manager](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Marketingkanal-Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [Marketingkanal-Klassifizierungen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [Marketing-Kanalablauf](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [Ablauf von Marketing-Kanälen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Traffic-Management {#traffic-management}
             + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [Spitze planen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Planen einer Spitze](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Dauerhafter Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Standardmetriken](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + [App-Verwaltung](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [App-Management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Medienverwaltung](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
@@ -156,7 +156,7 @@ ht-degree: 94%
    + Datenschutzkennzeichnung für Data Governance {#data-governance}
       + [Adobe Analytics-Workflow zum Datenschutz](admin/c-data-governance/an-gdpr-workflow.md)
       + [Häufig gestellte Fragen](admin/c-data-governance/gdpr-faq.md)
-      + Datenbeschriftung {#data-labels}
+      + Datenkennzeichnung {#data-labels}
          + [Datenschutzkennzeichnungen für Analytics-Komponenten](admin/c-data-governance/data-labeling/gdpr-labels.md)
          + [Kennzeichnen von Report Suite-Daten](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
          + [Anzeigen/Verwalten von Datenschutzkennzeichnungen von Report Suites](admin/c-data-governance/data-labeling/gdpr-view-settings.md)

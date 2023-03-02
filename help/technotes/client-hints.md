@@ -5,7 +5,7 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 58937630e6173013b622deec0433ef67b483c483
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 Client-Hinweise sind spezifische Informationen zum Gerät eines Benutzers. Sie werden von Chromium-Browsern wie Google Chrome und Microsoft Edge bereitgestellt. Bei diesen Browsern wird der Benutzeragent schrittweise durch Client-Hinweise als Quelle von Geräteinformationen ersetzt. Adobe Analytics wird seinen Gerätesuchprozess aktualisieren, sodass zusätzlich zum Benutzeragenten Client-Hinweise zum Ermitteln von Geräteinformationen verwendet werden.
 
-## Clienthinweise mit geringer Entropie und hoher Entropie
+## Client-Hinweise mit geringer und hoher Entropie
 
 Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinweise mit niedriger oder hoher Entropie.
 
@@ -27,9 +27,9 @@ Kundenhinweise werden ab dem 27. Februar 2023 in den Analytics-Prozess zur Gerä
 
 >[!NOTE]
 >
-> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch dargestellt, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de).
+> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de).
 
-AAM erfordert die Erfassung von Hinweisen zur Entropie mit hoher Entropie, um die volle Funktionalität zu erhalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
+Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
 
 ## Häufig gestellte Fragen
 
@@ -71,8 +71,8 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 | Sec-CH-UA-Model | Gerätemodell | Hoch | `"Pixel 3"` |
 | Sec-CH-UA-Platform-Version | Betriebssystem/Platform-Version | Hoch | `"10"` |
 
-* Über den Anfrageheader werden Hinweise mit geringer Entropie erfasst.
-* High-Entropy-Hinweise werden über JavaScript erfasst und über Abfragezeichenfolgen-Parameterwerte weitergegeben. Die Abfragezeichenfolgenparameter verwenden `h.` als Präfix in der Bildanforderung.
+* Über den Anfrage-Header werden Hinweise mit geringer Entropie erfasst.
+* Hinweise mit hoher Entropie werden über JavaScript erfasst und mithilfe von Abfragezeichenfolgen-Parameterwerten übergeben. Die Abfragezeichenfolgen-Parameter verwenden `h.` als Präfix in der Bildanforderung.
 
 Hinweise mit hoher Entropie werden über einen JavaScript-Aufruf erfasst und mithilfe eines Abfrageparameters übergeben
 
