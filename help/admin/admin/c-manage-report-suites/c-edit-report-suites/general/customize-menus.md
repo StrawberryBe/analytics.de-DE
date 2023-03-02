@@ -4,15 +4,15 @@ title: Menüanpassung
 feature: Admin Tools
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Benutzerspezifische Menüeinstellung
+# Anpassen von Menüs
 
-Sie können die Berichtsmenüs anpassen, die Benutzern in Reports &amp; Analytics angezeigt werden. Sie können Berichte ein- oder ausblenden und sie benutzerübergreifend in verschiedene Ordner verschieben. Dies ist besonders nützlich, wenn Ihr Unternehmen nur bestimmte Berichte verwendet und Ihr Menü auf der linken Seite nicht mit nicht verwendeten oder irrelevanten Daten überladen möchte.
+Sie können die Berichtsmenüs, die den Benutzenden in Reports &amp; Analytics angezeigt werden, anpassen. Sie können Berichte ein- oder ausblenden und sie benutzerübergreifend in verschiedene Ordner verschieben. Dies ist besonders dann nützlich, wenn in Ihrem Unternehmen nur bestimmte Berichte genutzt werden und das linke Menü nicht mit ungenutzten oder irrelevanten Daten überladen werden soll.
 
 Die Menüänderungen gelten für sämtliche Benutzer, die auf die Report Suite zugreifen. Die Benutzer haben jedoch die Möglichkeit, bei der Verwendung der Report Suite die Standardkonfiguration eines Menüs wiederherzustellen.
 
@@ -20,13 +20,13 @@ Die Menüänderungen gelten für sämtliche Benutzer, die auf die Report Suite z
 >
 >Änderungen an der Menüstruktur wirken sich nicht auf Report Builder aus. Ein umbenannter Bericht wird hingegen in diesem Tool unter dem neuen Namen angezeigt.
 
-So passen Sie die Menüs an, die Benutzer in Reports &amp; Analytics sehen:
+So passen Sie die Menüs an, die Benutzende in Reports &amp; Analytics sehen:
 
 1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, um den Report Suite Manager zu öffnen.
 1. Wählen Sie die Report Suite aus, für die Sie die vereinfachte Menüstruktur implementieren möchten.
 1. Navigieren Sie zu **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Menüs anpassen]**.
 
-   ![Menüanpassungsoptionen](assets/restore-simplified.png)
+   ![Optionen zur Menüanpassung](assets/restore-simplified.png)
 
 1. Wählen Sie aus den folgenden Menüoptionen aus:
 
