@@ -4,13 +4,13 @@ description: Tabellen, in denen die verfügbaren Adobe Analytics-Berechtigungen 
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Analytics-Berechtigungen in der Admin Console
+# Analytics-Berechtigungen in Admin Console
 
 Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Berechtigungen logisch gruppiert in der Adobe Admin Console anzuzeigen.
 
