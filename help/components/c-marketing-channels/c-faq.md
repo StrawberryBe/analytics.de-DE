@@ -4,9 +4,9 @@ description: Häufig gestellte Fragen zu Marketing-Kanälen.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1501'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >
 >Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 >
->Analytics-Administratoren können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketingkanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) beschrieben.
 
 Häufig gestellte Fragen zu Marketing-Kanälen.
 
@@ -83,7 +83,7 @@ Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal
 
 Eine Letztkontakt-Sitzungsaktualisierung („Intern“) kann nur auftreten, wenn es sich auch um den Erstkontakt handelt. Weitere Informationen finden Sie unter „Beziehung zwischen Erstkontakt und Letztkontakt“ weiter oben. Die folgenden Szenarien erläutern, wie eine Sitzungsaktualisierung ein Erstkontaktkanal sein könnte.
 
-* **Sitzungstimeout**: Ein Besucher ruft die Website auf und lässt die Registerkarte dann in seinem Browser geöffnet, um sie später erneut zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig) und verwendet die Registerkarte &quot;Öffnung&quot;, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domain ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
+* **Sitzungstimeout**: Ein Besucher ruft die Website auf und lässt die Registerkarte dann in seinem Browser geöffnet, um sie später erneut zu verwenden. Der Interaktionszeitraum der Besuchenden läuft ab (oder die Cookies werden freiwillig gelöscht), und die geöffnete Registerkarte wird verwendet, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domain ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
 
 * **Nicht alle Seiten der Site werden mit Tags versehen**: Ein Besucher landet auf Seite A, die nicht mit Tags versehen ist, und wechselt dann zu Seite B, die mit Tags versehen ist. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
@@ -91,7 +91,7 @@ Eine Letztkontakt-Sitzungsaktualisierung („Intern“) kann nur auftreten, wenn
 
 * **Domänenübergreifender Traffic**: Ein Besucher wechselt von einer Domain, die zu Suite A führt, zu einer zweiten Domain, die zu Suite B führt wird. Wenn in Suite B die internen URL-Filter die erste Domain enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketingkanäle ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-* **Lange Ladezeiten der Entrypage**: Ein Besucher landet auf Seite A mit viel Inhalt, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Lange Ladezeiten der Entrypage**: Ein Besucher landet auf Seite A mit viel Inhalt, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klicken Besuchende auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, erscheint die zweite Seite als erster Treffer des Besuchs in Adobe Analytics, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
 * **Löschen von Cookies auf der Site**: Ein Besucher besucht die Site und löscht seine Cookies während der Sitzung. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
 
