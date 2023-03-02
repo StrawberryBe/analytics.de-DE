@@ -4,9 +4,9 @@ title: Veröffentlichung von Adobe Analytics-Funktionen
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmod
 
 [!UICONTROL Analysis Workspace] verwendet Funktionsmarkierungen (auch als „Umschalter“ bezeichnet), um die Sichtbarkeit neuer Funktionen zu steuern, sodass vor der Vollversion ein kontrollierter Skalierungstest durchgeführt werden kann. Diese Veröffentlichungsstrategie umfasst die folgenden Phasen:
 
-* **Eingeschränktes Testen**: Eine schrittweise Veröffentlichung beginnt mit Tests durch interne Adobe-Benutzer. Sie wird dann einer kleinen Gruppe von Kundenkonten zur Verfügung gestellt, um sicherzustellen, dass die Funktion den Kundenanforderungen und Erwartungen entspricht.
+* **Eingeschränktes Testen**: Eine schrittweise Veröffentlichung beginnt mit Tests durch Adobe-interne Benutzende. Sie wird dann einer kleinen Gruppe von Kundenkonten zur Verfügung gestellt, um sicherzustellen, dass die Funktion den Kundenanforderungen und Erwartungen entspricht.
 
-* **Start des Rollouts**: Der Rollout einer stufenweisen Veröffentlichung beginnt mit der Phase des eingeschränkten Testens. Die Verfügbarkeit der Version für Kunden wird dann im Laufe einiger Monate von 0 % auf 100 % skaliert. Die schrittweise Einführung erfolgt auf der Organisationsebene in Experience Cloud, sodass alle Benutzer mit Berechtigung in einem Unternehmen dasselbe Erlebnis erhalten.
+* **Start des Rollouts**: Der Rollout einer stufenweisen Veröffentlichung beginnt mit der eingeschränkten Testphase. Die Verfügbarkeit der Version für Kunden wird dann im Laufe einiger Monate von 0 % auf 100 % skaliert. Die schrittweise Einführung erfolgt auf der Organisationsebene in Experience Cloud, sodass alle Benutzer mit Berechtigung in einem Unternehmen dasselbe Erlebnis erhalten.
 
 * **Allgemeine Verfügbarkeit (GA)**: Die Funktion steht 100 % der berechtigten Experience Cloud-Organisationen zur Verfügung und die Veröffentlichung der Funktion ist abgeschlossen.
 
-Bei jeder Funktionsveröffentlichung kann die Zeitleiste vom Start des Rollouts bis zur allgemeinen Verfügbarkeit variieren. Ziel ist es, die Versionen kurz zu halten, sodass innerhalb von 2 Monaten nach Start der Rollout-Funktion eine allgemeine Funktion verfügbar ist.
+Bei jeder Funktionsveröffentlichung kann die Timeline vom Start des Rollouts bis zur GA variieren. Ziel ist es, die Veröffentlichungszeiträume kurz zu halten, sodass eine Funktion innerhalb von 2 Monaten nach dem Start des Rollouts allgemein verfügbar (GA) ist.
 
 ## Funktionsmarkierungen
 
