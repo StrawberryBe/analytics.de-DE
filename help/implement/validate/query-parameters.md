@@ -4,9 +4,9 @@ description: Listet alle in Bildanforderungen verwendeten Abfragezeichenfolgenpa
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | URLs, die länger als 255 Byte sind, werden geteilt. Die ersten 255 Byte werden im `g`-Parameter und alle verbleibenden Byte im `-g`-Parameter angezeigt. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Abkürzung für die `pageName`-Abfragezeichenfolge. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Abkürzung für die `pageType`-Abfragezeichenfolge. |
-| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Präfix für mehrere Variablen, die [Client-Hinweise](/help/technotes/client-hints.md). |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Präfix für mehrere Variablen, die [Client-Hinweise](/help/technotes/client-hints.md) repräsentieren. |
 | `h1` – `h5` | [`hier1` – `hier5`](../vars/page-vars/hier.md) | Hierarchiedimensionen. |
 | `hp` | Keine | Wird nicht mehr verwendet. Legte in früheren Versionen von Adobe Analytics fest, ob die aktuelle URL die Homepage des Browsers war. |
 | `j` | Keine | Die im Browser installierte JavaScript-Version. |
@@ -56,7 +56,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `p` | Keine | Wird nicht mehr verwendet. Liste der im Browser verwendeten Plug-ins. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Wird in der Dimension [Seite](/help/components/dimensions/page.md) verwendet. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Wird in der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. |
-| `pccr` | Keine | Nur für neue Besucher und immer auf `true` gesetzt. Hilft, unendliche Weiterleitungen zu verhindern, wenn ein Besucher Cookies ablehnt. |
+| `pccr` | Keine | Nur für neue Besucher und immer auf `true` gesetzt. Vermeidet endlose Weiterleitungen, wenn ein Besucher Cookies ablehnt. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Bestimmt den Typ des benutzerspezifischen Links. Für [benutzerspezifische Links](/help/components/dimensions/custom-link.md), [Downloadlinks](/help/components/dimensions/download-link.md) und [Exitlinks](/help/components/dimensions/exit-link.md) erforderlich. |
 | `pev1` | Keine | Die URL, unter der der benutzerdefinierte Link aufgetreten ist. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Anzeigename des benutzerspezifischen Links. |
@@ -78,8 +78,8 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimension [Trackingcode](/help/components/dimensions/tracking-code.md). |
 | `v1` – `v250` | [`evar1` – `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) oder benutzerspezifische Konversionsdimensionen. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Besucher-ID-Variable. |
-| `vidn` | Keine | Wird von AppMeasurement für neue Besucher festgelegt. Enthält den im Besucher-Cookie gespeicherten ID-Wert. |
-| `vmk` | `vmk` | Wird nicht mehr verwendet. Migrationsschlüssel der Besucher, der die Migration von Implementierungen von Drittanbieter-Cookies zu Erstanbieter-Cookies unterstützt hat. |
+| `vidn` | Keine | Wird von AppMeasurement für neue Besuchende festgelegt. Enthält den im Besucher-Cookie gespeicherten ID-Wert. |
+| `vmk` | `vmk` | Wird nicht mehr verwendet. Migrationsschlüssel für Besuchende, mit dem Implementierungen von Drittanbieter-Cookies zu Erstanbieter-Cookies migriert wurden. |
 | `vvp` | `variableProvider` | Wird in Data Connectors verwendet. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Wird mit Data Sources verwendet, um Online- und Offline-Daten miteinander zu verbinden. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Wird in der Dimension [Postleitzahl](/help/components/dimensions/zip-code.md) verwendet. |
