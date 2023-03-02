@@ -1,11 +1,11 @@
 ---
-description: Sie können Activity Map-Daten in Adobe Analytics anzeigen
+description: Sie können Activity Map-Daten in Adobe Analytics anzeigen.
 title: Anzeigen von Activity Map-Daten in Adobe Analytics
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Hierdurch kann Analytics von Activity Map (früher ClickMap) bereitgestellte Ben
 
    | Bericht | Beschreibung |
    |---|---|
-   | Activity Map-Seite | Listet die Seiten auf, auf denen auf einen Link geklickt wurde |
+   | Activity Map-Seite | Listet die Seiten auf, auf denen auf einen Link geklickt wurde. |
    | Activity Map-Region | Listet alle erfassten Linkregionen auf der gesamten Website auf. Beachten Sie, dass die Metrik über alle Seiten hinweg erfasst wird, wenn eine Region auf mehreren Seiten angezeigt wird. |
    | Activity Map-Links | Listet alle erfassten Links auf der gesamten Website auf. |
    | Activity Map-Links und -Region | Listet alle erfassten Links zusammen mit ihrer Region über die gesamte Website hinweg auf. |
