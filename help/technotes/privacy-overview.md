@@ -4,10 +4,10 @@ keywords: Datenschutz
 title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Analytics erfasst die folgenden Daten:
 | Europa | Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) im Admin-Benutzerhandbuch. |
 | Global | Ein Kunde kann die Variable für die Cookie-Lebensdauer im JavaScript-Messungs-Code auf den Wert „none“, „session“ oder einen anderen spezifischen, in Sekunden gemessenen Wert setzen. |
 | Europa | Adobe verfügt über eine neue Einstellung für eingebauten Datenschutz, die jetzt mit Adobe ClientCare für die Versionen 14.9 und 15.4 von Adobe Analytics (früher SiteCatalyst) aktiviert werden können. Ist diese neue Einstellung aktiviert, wird das letzte Oktett (der letzte Teil) der IP-Adresse unverzüglich durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. |
-| Deutschland | Wenn SIe nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie Ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. |
+| Deutschland | Wenn Sie noch keinen Datenverarbeitungsvertrag für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie sich an Ihr Adobe Account Team wenden, das mit der Rechtsabteilung der Adobe zusammenarbeitet, um den DPA einzurichten. |
 
 ## EMEA-Rechenzentrumsstandort {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
