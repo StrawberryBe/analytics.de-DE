@@ -4,10 +4,10 @@ title: Einstellungen zur Berichtsanzeige und Navigation
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 100%
+source-wordcount: '1558'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informatio
 | **Sprache/Währung/Kodierung** |  |
 | Tausendertrennzeichen | Wählen Sie ein Trennzeichen für jede Tausenderzahl (Punkt oder Komma). Viele Länder verwenden einen Punkt, um die Tausenderzahlen zu trennen. (Dieses Trennzeichen wird auf alle Zahlen im System angewendet, nicht nur auf die Währung.) |
 | Standardwährung der Report Suite verwenden | Gibt an, ob die Standardwährung der Report Suite verwendet werden soll. |
-| Währung | Die Währung, in die Sie Ihre Daten umrechnen möchten. Wenn bei dieser Einstellung ein Wert ausgewählt wird, sind die in der Datenbank gespeicherten Daten nicht betroffen, werden aber als konvertierter Wert basierend auf dem aktuellen Tageswechselkurs angezeigt. Wenn diese Währungsoptionen nicht konfiguriert (auf Standard eingestellt) werden, findet keine Währungskonversion statt und alle Werte werden in US-Dollar (USD) gespeichert und angezeigt. Wenden Sie sich an Ihren Kundenbetreuer, um die Währung bei Datenverarbeitung (d. h. vor Ansicht) umzurechnen.  |
+| Währung | Die Währung, in die Sie Ihre Daten umrechnen möchten. Wenn bei dieser Einstellung ein Wert ausgewählt wird, sind die in der Datenbank gespeicherten Daten nicht betroffen, werden aber als konvertierter Wert basierend auf dem aktuellen Tageswechselkurs angezeigt. Wenn diese Währungsoptionen nicht konfiguriert (auf Standard eingestellt) werden, findet keine Währungskonversion statt und alle Werte werden in US-Dollar (USD) gespeichert und angezeigt. Wenden Sie sich an Ihr Adobe Account Team, um die Währung bei der Verarbeitung der Daten (bevor sie angezeigt werden) umzurechnen. |
 | Kodierung des terminierten Berichts | Shift-JIS für japanische Zeichenkodierung. Verwenden Sie EUC-JP für Extended Unix Code, hauptsächlich für Japanisch, Koreanisch und vereinfachtes Chinesisch. |
 | CSV-Trennzeichen | Das Zeichen, das Sie zum Trennen für CSV-Werte verwenden möchten. |
 

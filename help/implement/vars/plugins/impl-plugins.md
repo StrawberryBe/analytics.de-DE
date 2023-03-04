@@ -3,9 +3,9 @@ title: Übersicht über Plug-ins
 description: Fügen Sie Code auf Ihrer Website ein, um neue Funktionen einzuführen.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 Plug-ins sind Codefragmente, die mehrere erweiterte Funktionen ausführen, um Ihre Analytics-Implementierung zu unterstützen. Diese Plug-ins erweitern den Funktionsumfang Ihrer JavaScript-Datei um Funktionen, die bei einer Basisimplementierung nicht vorhanden sind. Im Rahmen erweiterter Lösungen bietet Adobe noch andere Plug-ins an.
 
->[!IMPORTANT]
->
->Plug-ins werden von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für diese Plug-ins, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit einem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+{{plug-in}}
 
 Adobe bietet mehrere Möglichkeiten, ein bestimmtes Plug-in zu installieren:
 

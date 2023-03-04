@@ -2,10 +2,10 @@
 title: Feldbasiertes Stitching
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe von feldbasiertem Stitching vertraut.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 97%
+source-wordcount: '523'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei
 
 ## Spezifische Voraussetzungen für feldbasiertes Stitching
 
-Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrer Organisation und Ihrem Adobe-Kundenbetreuer zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
+Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe Account Team zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
 
 >[!WARNING]
 >
@@ -23,7 +23,7 @@ Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching 
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
 * Ihre Implementierung muss eine Prop oder eVar festlegen, die eine Person eindeutig identifiziert, wann immer dies möglich ist, z. B. wenn ein Benutzer sich anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Vermeiden Sie es, der Eigenschaft oder der eVar einen Standardwert zuzuweisen.
-* Teilen Sie Ihrem Kundenbetreuer die gewünschte Identifizierungsvariable mit, wenn diese für feldbasiertes Stitching bereitgestellt wird.
+* Teilen Sie Ihrem Adobe-Kontoteam die gewünschte Identifizierungsvariable mit, wenn sie für feldbasiertes Stitching bereitgestellt wird.
 
 ## Spezifische Einschränkungen für feldbasiertes Stitching
 

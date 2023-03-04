@@ -5,10 +5,10 @@ title: Importdatei-Referenz
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 93%
 
 ---
 
@@ -58,7 +58,7 @@ Verwenden Sie die Datenquelle-Vorlage, um eine Data Sources-Datei zu erstellen, 
 * Um die Verarbeitung der Data Sources-Datei zu beschleunigen, empfiehlt Adobe die Erfassung von Ereignisdaten (Metriken) in einer einzelnen Zeile pro Datum.
 
    Wenn Ihre Data Sources-Datei beispielsweise Anzeigenimpressionsdaten dem Ereignis 6 zuordnet, erstellen Sie eine einzelne Datenzeile, die die Gesamtanzahl an Anzeigenimpressionen für jeden Tag umfasst, anstatt einen eigenen Datenzeileneintrag für jede Anzeigenimpression zu erstellen, die an einem bestimmten Tag aufgetreten ist.
-* Wenn Sie Daten mit einem Datum vor dem Erstellungsdatum der Report Suite hochladen müssen, wenden Sie sich an Ihren Kundenbetreuer, um das älteste Datum zu ändern, für das Sie Berichte ausführen können.
+* Wenn Sie Daten von Daten hochladen müssen, die vor dem Erstellungsdatum der Report Suite liegen, wenden Sie sich an Ihr Adobe Account Team, um das älteste Datum zu ändern, für das Sie Berichte ausführen können.
 
 **.FIN-Datei**
 

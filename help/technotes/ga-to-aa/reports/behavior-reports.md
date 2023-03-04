@@ -3,10 +3,10 @@ title: Verhaltensberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Verhaltensberichte in Adobe Analytics erstellen.
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,4 +87,4 @@ Da für diese Funktion Implementierungsänderungen erforderlich sind, empfiehlt 
 
 ## Publisher-Berichte
 
-Ähnlich wie auch Google eine Verbindung mit Google Ad Manager erfordert, bietet Adobe ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens.
+Ähnlich wie auch Google eine Verbindung mit Google Ad Manager erfordert, bietet Adobe ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.

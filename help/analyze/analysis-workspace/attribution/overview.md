@@ -4,10 +4,10 @@ description: Das Konzept der Zuordnung eines Erfolgsereignisses zu mehreren Dime
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Mit Attribution können Analysten anpassen, wie Erfolgsereignisse Dimensionselem
 1. Ein Besucher Ihrer Site klickt auf einen Paid-Search-Link zu einer Ihrer Produktseiten. Die Person fügt das Produkt zum Warenkorb hinzu, kauft es jedoch nicht.
 2. Am nächsten Tag sieht sie einen Social-Media-Beitrag von einer Freundin bzw. einem Freund, klickt auf den Link und schließt den Kauf ab.
 
-In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben.
+In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe haben, wenden Sie sich an Ihr Adobe Account Team.
 
 ## Wert von Attribution IQ
 

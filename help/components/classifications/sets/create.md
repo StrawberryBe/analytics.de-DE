@@ -2,10 +2,10 @@
 title: Erstellen eines Klassifizierungssatzes
 description: Verfügbare Felder und Beschreibungen beim Erstellen eines Klassifizierungssatzes.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: 759e2b1d2b4fa99cfbb699be18e736600bf358ab
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ Sie können den Classification Set Manager verwenden, um einen Klassifizierungss
 
 >[!NOTE]
 >
->Diese Funktion steht allen Kunden zur Verfügung, deren Report Suites in die neue Klassifizierungsarchitektur migriert wurden. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Account Manager.
+>Diese Funktion steht allen Kunden in der Classification Set-Architektur zur Verfügung. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Adobe Account Team.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]** > **[!UICONTROL Hinzufügen]**
 
