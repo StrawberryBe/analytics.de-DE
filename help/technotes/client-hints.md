@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,8 @@ Für Daten, die über eine API übermittelt werden, z. B. über die [Data Insert
 
 Zum jetzigen Zeitpunkt nicht. Sie können entweder alle Hinweise mit hoher Entropie oder keine erfassen.
 
+Beachten Sie, dass fullVersionList derzeit nicht erfasst wird, da die Hauptversion des Browsers als Hinweis mit geringer Entropie erfasst wird.
+
 +++
 
 +++**Wie lauten die verschiedenen Werte für Client-Hinweise?**
@@ -64,15 +66,14 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 | Sec-CH-UA | Browser und Hauptversion | Niedrig | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | `true` |
 | Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | `"Android"` |
-| Sec-CH-UA-Arch | Architektur der Site | Hoch | `"arm"` |
-| Sec-CH-UA-Bitness | Architektur-Bitnes | Hoch | `"64"` |
-| Sec-CH-UA-Full-Version | Vollständige Version des Browsers | Hoch | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | Gerätemodell | Hoch | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | Betriebssystem/Platform-Version | Hoch | `"10"` |
+| Architektur | Architektur der Site | Hoch | `"arm"` |
+| bitness | Architekturbitenz | Hoch | `"64"` |
+| fullVersionList | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | Gerätemodell | Hoch | `"Pixel 3"` |
+| platformVersion | Betriebssystem/Platform-Version | Hoch | `"10"` |
 
 * Über den Anfrage-Header werden Hinweise mit geringer Entropie erfasst.
-* Hinweise mit hoher Entropie werden über JavaScript erfasst und mithilfe von Abfragezeichenfolgen-Parameterwerten übergeben. Die Abfragezeichenfolgen-Parameter verwenden `h.` als Präfix in der Bildanforderung.
+* Hinweise mit hoher Entropie werden über JavaScript erfasst und mithilfe von Abfragezeichenfolgen-Parameterwerten übergeben. Die Abfragezeichenfolgen-Parameter verwenden `h.` als Präfix in der Bildanforderung. Beachten Sie, dass fullVersionList derzeit nicht erfasst wird, da die Hauptversion des Browsers als Hinweis für eine niedrige Entropie erfasst wird.
 
 Hinweise mit hoher Entropie werden über einen JavaScript-Aufruf erfasst und mithilfe eines Abfrageparameters übergeben
 
