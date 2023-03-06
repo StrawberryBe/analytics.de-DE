@@ -1,8 +1,8 @@
 ---
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 84%
+source-wordcount: '862'
+ht-degree: 77%
 
 ---
 # Snippets
@@ -32,7 +32,7 @@ ht-degree: 84%
    | [!UICONTROL **Keine aktuellen Daten**] | Nur Komponenten anzeigen, die in den letzten 90 Tagen keine Daten erfasst haben. Diese Option steht nur Admins zur Verfügung. |
    | [!UICONTROL **Erstellt von Adobe**] <!-- I don't see this option--> | Nur Komponenten anzeigen, die von Adobe erstellt wurden. Komponenten, die von Admins oder anderen Benutzenden in deren Organisation erstellt wurden, werden nicht angezeigt. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Komponenteninformationen für Datenwörterbuch {#dd-component-information}
 
@@ -41,15 +41,15 @@ ht-degree: 84%
 | [!UICONTROL **Genehmigt**] | <p>Zeigt an, dass die Komponente vom Admins geprüft und genehmigt wurde.</p><p>Administratoren erhalten eine Option zum [!UICONTROL **Nicht genehmigen**]. Wenn Sie diese Option auswählen, wird die Komponente für Benutzer als &quot;Nicht genehmigt&quot;gekennzeichnet.</p> |
 | [!UICONTROL **Nicht genehmigt**] | <p>Gibt an, dass die Komponente noch nicht vom Administrator überprüft und genehmigt wurde.</p><p>Administratoren erhalten eine Option zum [!UICONTROL **Genehmigen**]. Wenn Sie diese Option auswählen, wird die Komponente Benutzern als &quot;Genehmigt&quot;gekennzeichnet.</p> |
 | [!UICONTROL **Beschreibung**] | Beschreibt die beabsichtigte Funktion der Komponente. (Diese Informationen werden vom Analytics-Admins hinzugefügt, wie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md) beschrieben.) |
-| [!UICONTROL **Häufig verwendet mit**] | <p>Zeigt Komponenten an, die am häufigsten mit der Komponente verwendet werden, die Sie anzeigen.</p><p>Es werden bis zu 5 Komponenten für die 5 primären Komponententypen angezeigt: Metrik, Berechnete Metrik, Dimension, Segment und Datumsbereich.</p><p>Diese Liste basiert auf Daten aus den letzten 90 Tagen. Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
-| [!UICONTROL **Ähnlich wie**] | <p>Zeigt Komponenten mit ähnlichen Kennzeichnungen wie die angezeigte Komponente an.</p><p>Es werden bis zu 5 Komponenten für die 5 primären Komponententypen angezeigt: Metrik, Berechnete Metrik, Dimension, Segment und Datumsbereich.</p><p>Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben.</p><p>Hier werden alle doppelten Komponenten in Ihrer Report Suite angezeigt. Analytik-Admins sollten alle doppelten Komponenten identifizieren und entfernen, wie in [Überwachung des Zustands des Datenwörterbuchs](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) beschrieben. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
+| [!UICONTROL **Häufig verwendet mit**] | <p>Zeigt Komponenten an, die am häufigsten mit der Komponente verwendet werden, die Sie anzeigen.</p><p>Es werden bis zu 5 Komponenten für die 5 primären Komponententypen angezeigt: Metrik, Berechnete Metrik, Dimension, Segment und Datumsbereich.</p><p>Diese Liste basiert auf Daten aus den letzten 90 Tagen. Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben.</p><p>Administratoren sehen Optionen für [!UICONTROL **Immer einschließen**] und [!UICONTROL **Immer ausschließen**]. Mit diesen Optionen können Administratoren die Komponenten kuratieren, die Benutzer in diesem Abschnitt sehen.</p> |
+| [!UICONTROL **Ähnlich wie**] | <p>Zeigt Komponenten mit ähnlichen Kennzeichnungen wie die angezeigte Komponente an.</p><p>Es werden bis zu 5 Komponenten für die 5 primären Komponententypen angezeigt: Metrik, Berechnete Metrik, Dimension, Segment und Datumsbereich.</p><p>Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben.</p><p>Hier werden alle doppelten Komponenten in Ihrer Report Suite angezeigt. Analytics-Administratoren sollten alle doppelten Komponenten identifizieren und entfernen, wie unter [Überwachen des Zustands von Datenwörterbüchern](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Administratoren sehen Optionen für [!UICONTROL **Immer einschließen**] und [!UICONTROL **Immer ausschließen**]. Mit diesen Optionen können Administratoren die Komponenten kuratieren, die Benutzer in diesem Abschnitt sehen.</p> |
 | [!UICONTROL **Tags**] | Zeigt alle Tags an, die auf die Komponente angewendet werden. Benutzende mit Adminrechten können bei der Bearbeitung der Komponente Tags hinzufügen. |
 | [!UICONTROL **Typ der Komponente**] | Listet den Komponententyp auf, ob es sich um eine Dimension, eine Metrik, ein Segment oder einen Datumsbereich handelt. |
 | [!UICONTROL **Erstellt von**] | Zeigt den Namen der Person an, die die Komponente erstellt hat. |
 | [!UICONTROL **Vorschau**] | Zeigt eine Vorschau davon an, wie die Komponente im Analysis Workspace aussieht. |
 | [!UICONTROL **Datum der letzten Änderung**] | Zeigt den Tag an, an dem die Komponente zuletzt geändert wurde. Dieser Abschnitt wird beim Anzeigen von Segmenten, berechneten Metriken und Datumsbereichen angezeigt. <!--for CJA, it is displayed for all components--> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Eingeschränkte Testphase der Version {#release-limited-testing}
 
