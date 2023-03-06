@@ -4,10 +4,10 @@ description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Adobe
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden Adobe Analytics-Reporting- und Analyse-Werkzeuge:
 
 * **[!UICONTROL Analysis Workspace]**: Die wichtigste Funktion in Adobe Analytics. Workspace bietet eine Arbeitsfläche, auf die Sie Komponenten für die zu erstellenden Berichte ziehen können.
-* **[!UICONTROL Adobe Analytics-Dashboards]:** Diese Mobile App bietet Benutzern mobilen Zugriff auf intuitive Scorecards mit Schlüsselmetriken und die Möglichkeit, detailliertere Aufschlüsselungen und Trendberichte durchzuführen.
+* **[!UICONTROL Adobe Analytics-Dashboards]:** Diese mobile App ermöglicht Benutzern auf Mobilgeräten den Zugriff auf intuitive Scorecards mit Schlüsselmetriken, detaillierteren Aufschlüsselungen und Trendberichten.
 * **[!UICONTROL Activity Map]:** Ein Browser-Plug-in, das auf Ihrer Site eine Überlagerung anzeigt, die angibt, auf welche Elemente am häufigsten geklickt wurde.
 * **[!UICONTROL Report Builder]:** Ein Excel-Add-in, mit dem Sie Analytics-Daten abrufen und direkt in eine Arbeitsmappe einfügen können.
 * **[!UICONTROL Reporting-API]:** Stellen Sie Reporting-Anfragen direkt an die Server von Adobe und erhalten Sie Antworten, die Sie in Ihren eigenen Kunden-Reporting-Tools nutzen können.
-* **[!UICONTROL Reports &amp; Analytics]**: Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt für die meisten Reporting-Erfordernisse die Verwendung von Analysis Workspace.
+* **[!UICONTROL Reports &amp; Analytics]**: Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt für die meisten Reporting-Erfordernisse die Verwendung von Analysis Workspace. **Hinweis:** Reports &amp; Analytics wird [Ende des Lebenszyklus](https://express.adobe.com/page/6WnF8JK6IRDhf/) am 31. Dezember 2023.
 
 Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 

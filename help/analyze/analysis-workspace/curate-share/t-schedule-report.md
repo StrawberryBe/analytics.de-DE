@@ -5,10 +5,10 @@ title: Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: bf9f04ce6ff057ca66bcf0d9cf66540cea160444
+source-git-commit: 74d4127ccb9ff2837ab5b17c8237aa4604378485
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 88%
+source-wordcount: '622'
+ht-degree: 93%
 
 ---
 
@@ -59,7 +59,7 @@ Im Manager für geplante Projekte können wiederkehrende Projektzeitpläne bearb
 | [!UICONTROL Inhaber] | Die Person, die das Projekt erstellt hat und dafür verantwortlich ist. |
 | [!UICONTROL Tags] | (Optional) Mit Tagging können Projekte praktisch organisiert werden. Alle Benutzer können Tags erstellen und eines oder mehrere Tags auf ein Projekt anwenden. Sie sehen Tags jedoch nur für die Projekte, deren Verantwortlicher Sie sind oder die für Sie freigegeben wurden. |
 | [!UICONTROL Gesendet an] | Der/die Empfänger dieses geplanten Projekts. |
-| [!UICONTROL Ablaufdatum] | Das standardmäßige Ablaufdatum hängt von der Häufigkeit des Zeitplans ab. Siehe &quot;Ablaufdaten für geplante Projekte&quot;unten. |
+| [!UICONTROL Ablaufdatum] | Für jede geplante Projekthäufigkeit können Sie das Ablaufdatum für bis zu ein Jahr in der Zukunft festlegen. |
 | [!UICONTROL Häufigkeit] | Wie oft Sie dieses geplante Projekt an den/die Empfänger senden möchten. |
 | [!UICONTROL Durchführungszeit] | Zu welcher Tageszeit dieses geplante Projekt gesendet wird.  |
 | [!UICONTROL Anzahl der Abfragen] | Die Anzahl der Abfragen für dieses Projekt. |
@@ -78,12 +78,3 @@ Die folgenden Aktionen werden im Manager für geplante Projekte häufig ausgefü
 | **[!UICONTROL Zeitplan-ID anzeigen]** | Navigieren Sie oben rechts zu den Spaltenoptionen und fügen Sie der Tabelle die Spalte „Zeitplan-ID“ hinzu. Die Zeitplan-ID ist oft zum Debugging nützlich. |
 
 Im Manager für geplante Projekte werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt. Die Eigentuemerschaft eines geplanten Projekts kann unter **Admin > Analytics-Benutzer und -Assets > Assets übertragen** **übertragen** werden.
-
-## Ablaufdaten für geplante Projekte
-
-Die Ablaufdaten für geplante Projekte hängen von der geplanten Versandhäufigkeit ab:
-
-* Stündliche Sendungen laufen in einer Woche ab.
-* Die täglichen Sendungen laufen in einem Monat ab.
-* Wöchentliche Sendungen laufen in 6 Monaten ab.
-* Die monatlichen/jährlichen Sendungen laufen in einem Jahr ab.
