@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu Data Sources
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 100%
+source-wordcount: '1601'
+ht-degree: 94%
 
 ---
 
@@ -146,3 +146,9 @@ Wenn Ereignisse vom Typ „numerisch“, „Währung“ oder „Zähler“ (grö
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## Warum wird mein FTP-Upload nicht erfasst?
+
+Nachdem die .fin -Datei hochgeladen wurde, ist es wichtig, dass Sie sich von der Data Sources-FTP-Site abmelden. Analytics verwendet Abmeldeereignisse nämlich als Trigger dafür, dass Dateien zur Verarbeitung bereit sind. Wenn Sie die Dateien programmgesteuert hochladen, ist es wichtig, dass sich Ihr automatisierter Prozess auch nach dem Hochladen der Dateien von der FTP-Site abmeldet.
+
+Überprüfen Sie, ob Ihre Dateinamen das richtige Format aufweisen. Das Anführen oder Anhalten von Leerzeichen im Dateinamen führt dazu, dass die Adobe nicht erkannt wird und nicht vom Aufnahmevorgang erfasst wird.
