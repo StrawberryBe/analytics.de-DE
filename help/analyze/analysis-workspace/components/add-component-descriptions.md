@@ -1,12 +1,12 @@
 ---
-description: Administrierende können Beschreibungen für Komponenten entweder über die Report Suite oder das Datenwörterbuch hinzufügen.
+description: Administratoren können mithilfe der Report Suite Beschreibungen für Komponenten hinzufügen.
 title: Komponentenbeschreibungen hinzufügen
 feature: Components
 role: Admin
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
+source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 73%
+source-wordcount: '74'
+ht-degree: 56%
 
 ---
 

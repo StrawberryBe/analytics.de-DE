@@ -5,22 +5,30 @@ title: Erstellen von freigebbaren Links
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 81%
 
 ---
 
 # Erstellen von freigebbaren Links
 
-Analysis Workspace bietet viele Möglichkeiten, ein Projekt für Ihre Benutzer freizugeben, einschließlich der Möglichkeit, einen Link zu einem Projekt oder einem bestimmten Teil eines Projekts absurufen. Bei den meisten Link-Typen müssen sich Benutzerinnen und Benutzer, die einen Link erhalten, bei Adobe Analytics anmelden, bevor sie zum Projekt gelangen können.
+Analysis Workspace bietet viele Möglichkeiten, ein Projekt für Ihre Benutzer freizugeben, einschließlich der Möglichkeit, einen Link zu einem Projekt oder einem bestimmten Teil eines Projekts absurufen. Bei einigen Linktypen muss sich der Empfänger bei Adobe Analytics anmelden, bevor er auf das Projekt zugreift, bei anderen dagegen nicht.
 
 ## Projekt-Link abrufen {#project-link}
 
 Um einen Link zum vollständigen Projekt freizugeben, klicken Sie auf **[!UICONTROL Freigeben > Projekt-Link abrufen]**. Wenn dem Empfänger des Links keine [Projektrolle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) zugewiesen wurde, erhalten Administratoren **[!UICONTROL Kann bearbeiten]**- und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**-Erlebnisse.
 
 ![](assets/get-project-link.png)
+
+## Öffentlichen Link abrufen
+
+{{release-limited-testing-section}}
+
+Sie können einen schreibgeschützten Link zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben.
+
+Weitere Informationen finden Sie unter &quot;Teilen eines öffentlichen Links für andere (keine Anmeldung erforderlich)&quot;im Artikel [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Bedienfeld- oder Visualisierungs-Link abrufen {#panel-link}
 
