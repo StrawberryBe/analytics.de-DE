@@ -2,10 +2,10 @@
 title: Klassifizierungssätze – Übersicht
 description: Verwenden Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 90%
+source-wordcount: '264'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassif
 
 >[!NOTE]
 >
->Diese Funktion steht allen Kunden in der Classification Set-Architektur zur Verfügung. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Adobe Account Team.
+>Klassifizierungssätze stehen allen Kunden zur Verfügung, deren Report Suites in die neue Klassifizierungsarchitektur migriert wurden. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Account Manager.
 
 Die Backend-Architektur, die mit Klassifizierungs-Sets veröffentlicht wurde, enthält einige wichtige Verbesserungen:
 

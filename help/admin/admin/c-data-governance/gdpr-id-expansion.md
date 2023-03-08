@@ -3,10 +3,10 @@ description: Die von Ihnen übermittelten IDs decken nicht immer alle Trefferdat
 title: ID-Erweiterung
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 97%
+source-wordcount: '1348'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Weitere Informationen finden Sie in der [Dokumentation der Privacy Service API](
 | Cookie-ID-Erweiterung | Viele Analytics-Kundinnen und -Kunden haben ursprünglich den (älteren) [Analytics-Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html?lang=de) verwendet, nutzen jedoch mittlerweile den [Experience Cloud Identity Service (ECID)](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Für Benutzende, die die Website erst nach der Umstellung zum ersten Mal besucht haben, ist nur eine ECID vorhanden. Für diejenigen, die die Website zum ersten Mal besucht haben, als nur das Legacy-Cookie verfügbar war, und die uns seither nochmals besucht haben, sind einige ihrer Daten in beiden Cookies enthalten. Die älteren Daten haben jedoch nur das Analytics-Cookie, und in seltenen Fällen verfügen die neuesten Daten möglicherweise nur über eine ECID.<p>Sie sollten sicherstellen, dass Sie sämtliche Daten von Personen finden, die über ein Analytics-Cookie (eine Besucher-ID) oder eine ECID identifiziert werden. Wenn Sie also derzeit die ECID verwenden und zuvor das Analytics-Cookie verwendet haben, sollten Sie, wenn Sie eine Anfrage mit einer der beiden Arten von IDs senden, beide IDs in die Anfrage aufnehmen oder die Option `expandIds` angeben. Wenn Sie `expandIds` angeben, sucht Adobe nach anderen ECIDs oder Analytics-Cookies, die den von Ihnen angegebenen Cookie-IDs entsprechen. Die Anfrage wird automatisch erweitert, um diese neu gefundenen Cookie-IDs hinzuzufügen. |
 | Cookie-ID-Erweiterung über benutzerspezifische ID | Auf E-Commerce-Sites ist es nicht ungewöhnlich, dass ein Besucher die Seite durchsucht, Produkte in den Warenkorb legt und den Checkout-Prozess beginnt, noch bevor er sich angemeldet hat. Wenn die ID, mit der Benutzende für eine Datenschutzanfrage identifiziert werden, nur für angemeldete Benutzende in einer benutzerdefinierten Variablen gespeichert wird, wird diese Aktivität, die vor der Anmeldung stattgefunden hat, nicht mit der ID verknüpft. Mithilfe der Analytics-Cookie-ID können Kunden die Aktivität vor der Anmeldung dem Kauf nach der Anmeldung zuordnen, da die Cookie-ID über den Login hinweg bestehen bleibt.<p>Angenommen, Ihre Implementierung speichert eine Anmelde-ID (CRM-ID, Benutzername, Kundennummer, E-Mail-Adresse usw. oder einen Hash eines dieser Werte) in einer benutzerdefinierten Variable („prop“ oder „eVar“) oder einer benutzerdefinierten Besucher-ID und verwendet diese ID dann für eine Datenschutz-Zugriffsanforderung: Die betroffene Person wäre vielleicht überrascht, dass im Rahmen der Zugriffsanfrage nicht alle Informationen über ihren Seitenbesuch zurückgegeben werden, insbesondere wenn Sie Produkte beworben haben, die zwar aufgerufen, aber noch nicht gekauft wurden. Die Analytics-Datenschutzverarbeitung unterstützt deshalb die ID-Erweiterung, bei der Analytics alle Cookie-IDs sucht, die im selben Treffer auftreten wie eine beliebige benutzerspezifische ID, und erweitert die Anfrage daraufhin so, dass auch diese IDs enthalten sind.<p>Wenn `expandIDs` gemeinsam mit einem anderen Namespace als dem Cookie-Namespace angegeben wird, wird die Anfrage erweitert, um sämtliche Cookie-IDs (ECID- oder Analytics-Cookie) hinzuzufügen, die in Treffern mit irgendeiner der angegebenen IDs gefunden wurden. Die Cookie-ID-Erweiterung wird dann wie oben beschrieben für sämtliche neu gefundenen Cookie-IDs durchgeführt.<p>Wenn die Option `expandIDs` für eine Zugriffsanfrage verwendet wird und die angegebene ID über eine ID-PERSON-Kennzeichnung verfügt, werden zwei Dateiengruppen zurückgegeben. Die erste Gruppe (die Personengruppe) enthält nur Daten aus Hits, in denen die angegebene ID gefunden wurde. Die zweite Gruppe (die Gerätegruppe) enthält nur Daten aus erweiterten IDs, in denen die angegebene ID nicht enthalten ist. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Verwendungszeitpunkt der ID-Erweiterung
 
@@ -59,4 +59,4 @@ Zusätzlich zu seinem standardmäßigen Wert unterstützt das Feld `priority` au
 
 Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Das Ergebnis ist in Situationen, in denen Sie Datenfelder löschen möchten, unerwünscht und verdeutlicht einen Grund, warum die Privacy Service-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Kundenbetreuungsteam, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von personenbezogenen Daten oder zur Lösung von Datenproblemen zu unternehmen.
+Wenden Sie sich bitte an die oder den Account Manager (CSM), um sich mit unserem Engineering Architect-Beratungs-Team abzustimmen und den Aufwand für die Entfernung  von personenbezogenen Daten oder die Lösung von Datenproblemen zu ermitteln.

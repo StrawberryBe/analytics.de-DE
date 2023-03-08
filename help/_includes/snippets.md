@@ -1,5 +1,5 @@
 ---
-source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
+source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 77%
@@ -62,6 +62,7 @@ ht-degree: 77%
 >[!AVAILABILITY]
 >
 >Die in diesem Abschnitt beschriebene Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+
 
 ## Haftungsausschluss für Plug-ins {#plug-in}
 

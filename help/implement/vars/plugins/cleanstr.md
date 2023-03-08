@@ -3,16 +3,18 @@ title: cleanStr
 description: Entfernen oder ersetzen Sie alle unnötigen Zeichen aus einer Zeichenfolge.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 80%
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
 # Adobe-Plug-in: cleanStr
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Das `cleanStr`-Plug-in entfernt oder ersetzt alle unnötigen Zeichen aus einer Zeichenfolge, einschließlich HTML-Tag-Zeichen, zusätzliche Leerzeichen, Tabulatoren und Zeilenumbrüche/Zeilenumschalter. Es ersetzt auch einfache linke/rechte Anführungszeichen (`‘` und `’`) durch gerade einfache Anführungszeichen (`'`). Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie unnötige Zeichen aus Variablenwerten entfernen möchten und die Funktion &quot;Text bereinigen&quot;in der Adobe Experience Platform-Datenerfassung Ihre Implementierungsanforderungen nicht erfüllt. Dieses Plug-in ist nicht erforderlich, wenn die erfassten Daten keine unnötigen Zeichen enthalten oder die Funktion &quot;Text bereinigen&quot;in der Adobe Experience Platform-Datenerfassung ausreicht.
 

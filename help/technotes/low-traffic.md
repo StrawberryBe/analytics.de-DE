@@ -3,7 +3,7 @@ description: Wenn ein Bericht viele eindeutige Werte aufweist, verwendet Adobe d
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 49%
@@ -30,7 +30,7 @@ Diese Logik ermöglicht es der Adobe, die Berichterstellungsfunktionen zu optimi
 
 ## Ändern der Schwellenwerte für eindeutige Werte
 
-Die Schwellenwerte liegen standardmäßig bei 500.000 und einer Million eindeutigen Werten. Diese Beschränkungen können variablenweise geändert werden. Wenden Sie sich an die Kundenunterstützung von Adobe oder Ihr Adobe Account-Team, um diese Änderung anzufordern. Fügen Sie Änderungsanforderungen Folgendes hinzu:
+Die Schwellenwerte liegen standardmäßig bei 500.000 und einer Million eindeutigen Werten. Diese Beschränkungen können variablenweise geändert werden. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Kundenbetreuer Ihres Unternehmens, um diese Änderung anzufordern. Fügen Sie Änderungsanforderungen Folgendes hinzu:
 
 * Die Report Suite-ID
 * Die Variable, für die Sie den Schwellenwert erhöhen möchten

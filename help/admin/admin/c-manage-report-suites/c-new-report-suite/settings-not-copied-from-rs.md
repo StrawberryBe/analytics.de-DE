@@ -3,10 +3,10 @@ description: Wenn Sie Einstellungen aus einer vorhandenen Report Suite kopiert h
 title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-Regeln </p> </td> 
-   <td colname="col2"> <p>Wenden Sie sich an Ihr Adobe Account Team, um Kontakt mit Engineering Services aufzunehmen. </p> </td> 
+   <td colname="col2"> <p>Wenden Sie sich an Ihren Customer Success Manager, um mit Engineering Services in Kontakt zu treten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

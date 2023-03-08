@@ -4,10 +4,10 @@ title: Neue Report Suite – Einstellungen
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 100%
 
 ---
 
@@ -31,6 +31,6 @@ Beschreibung der verwendeten Elemente beim  [Erstellen einer Report Suite](/help
 | Aufschaltdatum | Informiert Adobe über das Datum, ab dem diese Report Suite aktiv sein soll. Wenn sich der Implementierungsplan ändert, müssen Sie in der Traffic-Verwaltung mithilfe des Tools für dauerhaft erwarteten Traffic eine aktualisierte Traffic-Schätzung eingeben. |
 | Geschätzte Seitenansichten pro Tag | Gibt an, wie viele Seitenaufrufe diese Report Suite pro Tag unterstützen soll. Ein großes Traffic-Volumen beansprucht mehr Zeit im Genehmigungsprozess. Die Schätzung sollte möglichst genau ausfallen, damit es nicht zu Verzögerungen bei der Verarbeitung kommt. |
 | Basiswährung | Gibt die Standardwährung für die Speicherung sämtlicher Geldbeträge an. In der Analytics-Berichterstellung werden Transaktionen in anderen Währungen zum aktuellen Konversionskurs (d. h. zum Zeitpunkt des Eingangs der Daten) in die Basiswährung umgerechnet. Die Währung einer Transaktion wird in Analytics-Berichten mit der JavaScript-Variable „currencyCode“ erkannt. |
-| Multi-Byte-Zeichenunterstützung deaktivieren | Deaktiviert die Multi-Byte-Zeichenunterstützung für die Report Suite. Wenn Sie die Multi-Byte-Zeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im Format `ISO-8859-1` vorliegen. Auf Web-Seiten muss der Zeichensatz in der JavaScript-Variablen „charSet“ angegeben werden. <p>Bei der Multi-Byte-Zeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Web-Seite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können.  Wenden Sie sich an Ihr Adobe Account Team oder an die Kundenunterstützung, um die Multibytezeichenunterstützung für eine bestehende Report Suite zu ändern. |
+| Multi-Byte-Zeichenunterstützung deaktivieren | Deaktiviert die Multi-Byte-Zeichenunterstützung für die Report Suite. Wenn Sie die Multi-Byte-Zeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im Format `ISO-8859-1` vorliegen. Auf Web-Seiten muss der Zeichensatz in der JavaScript-Variablen „charSet“ angegeben werden. <p>Bei der Multi-Byte-Zeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Web-Seite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können.  Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multi-Byte-Zeichenunterstützung für eine Report Suite geändert werden soll. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

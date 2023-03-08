@@ -3,10 +3,10 @@ title: Fehlerbehebung bei Versandzeiten von Data Warehouse-Anforderungen
 description: Ermitteln Sie potenzielle Probleme mit einer Data Warehouse-Anforderung, die die Versandzeiten verlängern können.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ Wenn Sie diese Art von Berichten schneller benötigen, ziehen Sie die folgenden 
 
 * **Analysis Workspace**: Obwohl keine unbegrenzten Dimensionselemente verfügbar sind, sind fast alle anderen Anwendungsfälle enthalten, die von Data Warehouse bereitgestellt werden.
 * **Daten-Feed**: Nimmt täglich alle Rohdaten in einer Report Suite auf und sendet sie an eine FTP-Site. Sie können diese Daten dann in Ihre eigene Datenbank importieren und Abfragen ausführen, um die gewünschten Daten abzurufen.
-* **Individuelle Engineering Services-Lösung**: Adobe Engineering Services bieten gegen Aufpreis eine individuelle Lösung für Ihr Unternehmen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+* **Individuelle Engineering Services-Lösung**: Adobe Engineering Services bieten gegen Aufpreis eine individuelle Lösung für Ihr Unternehmen. Weitere Informationen erhalten Sie vom Kundenbetreuer Ihrer Organisation.

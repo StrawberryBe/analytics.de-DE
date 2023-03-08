@@ -4,10 +4,10 @@ keywords: Virtual Report Suite, VRS
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report 
 
 ## Richtlinien
 
-Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an Ihre anderen Adobe Analytics-Administratoren oder an Ihr Adobe Account Team. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
+Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an andere Administratoren von Adobe Analytics oder an Ihren Adobe-Kundenbetreuer. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
 
 Berücksichtigen Sie bei der Entscheidung, ob Sie Multi-Suite-Tagging oder Virtual Report Suites verwenden sollten, folgende Aspekte:
 

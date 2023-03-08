@@ -4,10 +4,10 @@ title: Einrichten von Benutzern für das Programm
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 94%
+source-wordcount: '749'
+ht-degree: 100%
 
 ---
 
@@ -114,4 +114,4 @@ Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Ado
 
 >[!IMPORTANT]
 >
->Ab Oktober 2020 führt Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der App &quot;Adobe Analytics-Dashboards&quot;zu optimieren. Diese Erweiterungen konzentrieren sich auf das Caching historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren öffentlichen Microsoft Azure-Konto in der Cloud zwischengespeichert. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie diese Leistungsverbesserungsfunktionen deaktivieren möchten.
+>Seit Oktober 2020 führt Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der Applikation „Adobe Analytics-Dashboards“ zu optimieren. Diese Erweiterungen konzentrieren sich auf das Caching historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren öffentlichen Microsoft Azure-Konto in der Cloud zwischengespeichert. Wenden Sie sich an Ihren CSM, wenn Sie diese Leistungsverbesserungsfunktionen nicht in Anspruch nehmen möchten.

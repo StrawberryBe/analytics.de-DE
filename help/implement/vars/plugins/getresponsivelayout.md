@@ -3,16 +3,18 @@ title: getResponsiveLayout
 description: Ermitteln Sie, welches Layout einer Website gerade angezeigt wird.
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
 
 # Adobe-Plug-in: getResponsiveLayout
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Mit dem `getResponsiveLayout`-Plug-in können Sie verfolgen, welche Version Ihrer auf einem responsiven Design basierenden Website aktuell von einem Besucher angesehen wird. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Ihre Website ein responsives Design verwendet und Sie die Version der von einem Besucher angezeigten Website verfolgen möchten. Dieses Plug-in ist nicht erforderlich, wenn Ihre Website kein responsives Design verwendet.
 

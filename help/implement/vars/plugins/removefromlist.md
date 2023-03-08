@@ -3,16 +3,18 @@ title: rfl
 description: Entfernen Sie einen bestimmten Wert aus einer durch Zeichen getrennten Zeichenfolge.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '934'
 ht-degree: 100%
 
 ---
 
 # Adobe-Plug-in: rfl („Remove From List“ (Aus Liste entfernen))
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Mit dem `rfl`-Plug-in können Sie Werte aus getrennten Zeichenfolgen wie [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) und anderen „sicher“ entfernen. Dieses Plug-in ist nützlich, wenn Sie bestimmte Werte aus einer mit Trennzeichen versehenen Zeichenfolge entfernen möchten, ohne sich Gedanken über Trennzeichen machen zu müssen. Mehrere andere Plug-ins sind auf diesen Code angewiesen, um korrekt zu funktionieren. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehrere Analytics-Variablen ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
 

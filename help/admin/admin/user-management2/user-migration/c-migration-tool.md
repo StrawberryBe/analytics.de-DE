@@ -3,10 +3,10 @@ description: Das müssen Sie über die Migration der Analytics-Benutzer-ID zur A
 title: Analytics-Benutzermigration zur Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '3162'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Antworten auf Fragen, die Sie vielleicht vor der Migration haben.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Stellen Sie sicher, dass Sie ein Analytics-Produktadministrator bzw. eine Analytics-Produktadministratorin in der Adobe Admin Console sind. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Benachrichtigen Sie Ihre Benutzer, dass sich der Anmeldeprozess beim Migrationsstart ändert. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Prüfen Sie Ihre aktuellen Benutzer und Berechtigungen und führen Sie verschiedene Bereinigungsaktivitäten durch. </li> 
-    </ul> <p>Wenden Sie sich zur Beschleunigung der Migration an Ihr Adobe Account Team unter <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html"> Adobe-Kundenunterstützung</a> und senden Sie eine Anfrage für ein früheres Startdatum. </p> </td> 
+    </ul> <p>Wenden Sie sich zur Beschleunigung der Migration an Ihren Customer Success Manager bei der <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html">Adobe-Kundenunterstützung</a> und beantragen Sie ein früheres Startdatum. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ich bin ein Analytics-Administrator bzw. eine Analytics-Administratorin ohne Zugriff auf die Adobe Admin Console. Wie erhalte ich Zugriff darauf? </p> </td> 

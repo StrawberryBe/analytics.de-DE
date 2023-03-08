@@ -3,10 +3,10 @@ title: Vergleichen von Adobe Analytics-Daten mit Produkten von Drittanbietern
 description: Machen Sie sich mit Ihren Optionen vertraut, wenn Sie Daten in Adobe Analytics direkt mit Daten vergleichen, die von anderen Analytics-Lösungen erfasst wurden.
 feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ Wenn Sie eine große Diskrepanz zwischen Adobe Analytics und einem Analytics-Too
 
 * **Selbstprüfung mit dem Debugger**: Sie können die Seiten auf Ihrer Site mit dem [Debugger von Adobe](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) oder einem anderen Paketmonitor überprüfen. Mit dem Debugger können Sie Ihre Implementierung überprüfen, um sicherzustellen, dass die Bildanforderungen korrekt mit den richtigen Variablen ausgelöst werden.
 * **Selbstprüfung mit Daten-Feeds**: Adobe bietet Ihrem Unternehmen die Möglichkeit, täglich [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) mit allen Rohdaten zu erhalten. Ihr Unternehmen kann diese Daten dann verwenden und mit Ihren Analytics-Tools von Drittanbietern vergleichen, um Abweichungen festzustellen.
-* **Unterstützte Prüfung und Datenvalidierung mit Adobe Consulting**: Wenn Sie möchten, dass ein offizieller Adobe-Support-Mitarbeiter eine vollständige Implementierungsprüfung auf Ihrer Site durchführt, wenden Sie sich an Ihr Adobe Account Team. Sie können ein Treffen mit einem Implementierungsberater vereinbaren, der Ihre Site basierend auf dem Vertrag Ihres Unternehmens prüfen kann.
+* **Unterstützte Prüfung und Datenvalidierung mit Adobe Consulting**: Wenn Sie möchten, dass ein offizieller Adobe-Support-Mitarbeiter eine vollständige Implementierungsprüfung auf Ihrer Website durchführt, wenden Sie sich an den Account Manager Ihres Unternehmens. Sie können ein Treffen mit einem Implementierungsberater vereinbaren, der Ihre Site basierend auf dem Vertrag Ihres Unternehmens prüfen kann.

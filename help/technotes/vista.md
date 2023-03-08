@@ -2,10 +2,10 @@
 title: VISTA-Regeln in Adobe Analytics
 description: Erfahren Sie mehr über VISTA-Regeln und ihre Funktionen.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 81%
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ Viele Anwendungsfälle für VISTA-Regeln werden bereits von [Verarbeitungsregeln
 
 >[!IMPORTANT]
 >
->VISTA-Regeln erfordern eine entgeltliche Vereinbarung zwischen Ihrem Unternehmen und Adobe Professional Services. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie eine VISTA-Regel erstellen oder aktualisieren möchten.
+>VISTA-Regeln erfordern eine entgeltliche Vereinbarung zwischen Ihrem Unternehmen und Adobe Professional Services. Wenden Sie sich an den für Ihre Organisation zuständigen Adobe-Kundenbetreuer, wenn Sie eine VISTA-Regel erstellen oder aktualisieren möchten.
 
 ## Erstellen einer VISTA-Regel
 
-Sie müssen mit Adobe Professional Services zusammenarbeiten, um eine VISTA-Regel zu erstellen. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie eine VISTA-Regel erstellen möchten.
+Sie müssen mit Adobe Professional Services zusammenarbeiten, um eine VISTA-Regel zu erstellen. Wenden Sie sich an den für Ihre Organisation zuständigen Adobe-Kundenbetreuer, wenn Sie eine VISTA-Regel erstellen möchten.
 
 ## Anzeigen vorhandener VISTA-Regeln.
 
-Adobe bietet keine Benutzeroberfläche zum Anzeigen vorhandener VISTA-Regeln. Wenden Sie sich an Ihr Adobe Account Team oder an die Kundenunterstützung mit der gewünschten Report Suite, um eine Liste der vorhandenen VISTA-Regeln abzurufen.
+Adobe bietet keine Benutzeroberfläche zum Anzeigen vorhandener VISTA-Regeln. Wenden Sie sich mit der gewünschten Report Suite an den für Ihre Organisation zuständigen Adobe-Kundenbetreuer oder die Adobe-Kundenunterstützung, um eine Liste der vorhandenen VISTA-Regeln zu erhalten.

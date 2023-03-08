@@ -2,10 +2,10 @@
 title: Classification Set Manager
 description: Verwalten Sie Klassifizierungssätze in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 92%
+source-wordcount: '320'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Mit dem Classification Set Manager können Sie Klassifizierungssätze erstellen,
 
 >[!NOTE]
 >
->Diese Funktion steht allen Kunden in der Classification Set-Architektur zur Verfügung. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Adobe Account Team.
+>Diese Funktion steht allen Kunden zur Verfügung, deren Report Suites in die neue Klassifizierungsarchitektur migriert wurden. Weitere Informationen erhalten Sie bei der Kundenunterstützung von Adobe oder Ihrem Account Manager.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]**
 

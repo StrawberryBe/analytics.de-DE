@@ -4,10 +4,10 @@ title: Allgemeine Kontoeinstellungen
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '809'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Im Folgenden finden Sie ein Video zum Konfigurieren der allgemeinen Kontoeinstel
 | Transaktions-ID-Speicher | Ermöglicht die Verwendung von [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)-Datenquellen. |
 | Data Warehouse aktivieren | Aktiviert die Data Warehouse-Benutzeroberfläche unter „Analytics“ > „Tools“ > „Data Warehouse“. |
 | Postleitzahl-Option | Hier können Sie die Postleitzahl angeben, anstatt die von unserer Geo-IP-Suche erzeugten Elemente zu verwenden. |
-| Unterstützung von Multi-Byte-Zeichen | Bei der Multi-Byte-Zeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Web-Seite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. Wenden Sie sich an Ihr Adobe Account Team oder an die Kundenunterstützung, um die Multibytezeichenunterstützung für eine bestehende Report Suite zu ändern. |
+| Unterstützung von Multi-Byte-Zeichen | Bei der Multi-Byte-Zeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Web-Seite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multi-Byte-Zeichenunterstützung für eine Report Suite geändert werden soll. |
 | Aktiviert | Gibt an, ob diese Report Suite aktiviert ist oder nicht. |
 | Basiswährung | Hier können Sie die [Basiswährung](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=de) für diese Report Suite angeben. |
 | Organisations-ID | Die ID, die Ihrem bereitgestellten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |

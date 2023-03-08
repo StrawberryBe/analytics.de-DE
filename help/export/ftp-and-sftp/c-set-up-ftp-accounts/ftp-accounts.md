@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: FTP-Konten einrichten – Übersicht
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Sobald Wartungsmaßnahmen geplant werden, erhalten Adobe-Kunden auf dem übliche
 * Benutzer sollten Daten, die von Adobe an das FTP-Konto gesendet wurden, löschen, nachdem diese erfolgreich in ihr System übertragen wurden.
 * Benachrichtigen Sie Adobe, wenn FTP-Konten nicht mehr benötigt werden und deaktiviert werden können.
 
-Der Name des Adobe FTP-Hosts lautet `ftp.omniture.com` oder `ftp2.omniture.com`.
+Der Name des Adobe FTP-Hosts lautet [!DNL ftp.omniture.com] oder [!DNL ftp2.omniture.com].
 
-Diese Information wird zusammen mit dem Benutzernamen und dem Kennwort entweder in der [!UICONTROL Experience Cloud] (für Classifications und Data Sources) bereitgestellt oder durch den Adobe-Support-Mitarbeiter, der für das Einrichten des von Ihnen angeforderten Kontos zuständig ist. Wenn Sie nicht wissen, welche FTP-Adresse verwendet werden soll, wenden Sie sich an Ihr Adobe Account Team, das die richtige Adresse angeben kann. Außerdem gibt es bei Adobe für Classifications- und Data Sources-Konten keine bestimmte Tageszeit für die Verarbeitung von FTP-Dateien. Adobe nutzt stattdessen ein Skript, das FTP-Konten laufend im Hinblick auf neue Dateiprozesse abfragt. In diese Konten hochgeladene Dateien werden schnellstmöglich verarbeitet.
+Diese Information wird zusammen mit dem Benutzernamen und dem Kennwort entweder in der [!UICONTROL Experience Cloud] (für Classifications und Data Sources) bereitgestellt oder durch den Adobe-Support-Mitarbeiter, der für das Einrichten des von Ihnen angeforderten Kontos zuständig ist. Falls Sie nicht wissen, welche FTP-Adresse Sie verwenden sollen, wenden Sie sich an Ihren Adobe-Kundenbetreuer, um die richtige Adresse zu erfahren. Außerdem gibt es bei Adobe für Classifications- und Data Sources-Konten keine bestimmte Tageszeit für die Verarbeitung von FTP-Dateien. Adobe nutzt stattdessen ein Skript, das FTP-Konten laufend im Hinblick auf neue Dateiprozesse abfragt. In diese Konten hochgeladene Dateien werden schnellstmöglich verarbeitet.

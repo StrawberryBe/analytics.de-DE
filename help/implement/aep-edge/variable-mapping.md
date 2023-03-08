@@ -2,16 +2,16 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1441'
+ht-degree: 100%
 
 ---
 
 # Analytics-Variablenzuordnung in Adobe Experience Edge Network
 
-In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden. Diese Felder sind im **[!UICONTROL Adobe Analytics ExperienceEvent-Vorlage]** Feldergruppe.
+In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
 
 | XDM-Feldpfad | Analytics-Dimension und Beschreibung |
 | --- | --- |
@@ -125,7 +125,7 @@ In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform
 | `web.webPageDetails.siteSection` | Die Dimension [Site-Bereich](../../components/dimensions/site-section.md). |
 | `web.webReferrer.URL` | Die Dimension [Referrer](../../components/dimensions/referrer.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 
