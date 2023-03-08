@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 66%
+source-wordcount: '1600'
+ht-degree: 69%
 
 ---
 
@@ -136,23 +136,17 @@ So geben Sie einen öffentlichen Link zu einem Analysis Workspace-Projekt frei:
 
 1. Aktivieren Sie die **[!UICONTROL Link-aktiv]** -Option, wenn sie noch nicht aktiviert ist.
 
-1. Wählen Sie aus, ob die folgenden Sicherheitsoptionen aktiviert werden sollen (diese Optionen können von Ihrem Analytics-Administrator gesteuert werden):
+1. Wählen Sie aus, ob die folgende Sicherheitsoption aktiviert werden soll (diese Option kann von Ihrem Analytics-Administrator gesteuert werden):
 
-   * **[!UICONTROL Authentifizierung mit Single Sign-on (SSO) erfordern]:**
+   * **[!UICONTROL Experience Cloud-Authentifizierung erforderlich]:**
 
-      Personen mit dem Link müssen sich über SSO authentifizieren, bevor sie Zugriff auf das freigegebene Projekt erhalten. Wählen Sie diese Option aus, wenn das Projekt nur für Benutzer in Ihrer Organisation zugänglich sein soll.
+      Wenn diese Option aktiviert ist, können nur Empfänger, die über eine Federated ID verfügen und sich bei Adobe Experience Cloud anmelden können, auf freigegebene öffentliche Links zugreifen. Personen mit dem Link müssen sich mit ihrer Adobe Experience Cloud-Anmeldung authentifizieren, damit sie Zugriff auf das freigegebene Projekt erhalten.
 
       Analytics-Administratoren können diese Voreinstellung für das Unternehmen festlegen, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
 
-      * Wenn diese Option nicht angezeigt wird, ist die einmalige Anmeldung für Ihr Unternehmen nicht aktiviert oder Ihr Analytics-Administrator hat diese Funktion nicht aktiviert.
+      * Wenn diese Option nicht angezeigt wird, hat Ihr Analytics-Administrator diese Funktion nicht aktiviert.
 
-      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator eine SSO-Authentifizierung, um auf alle öffentlichen Links zugreifen zu können.
-   * **[!UICONTROL Kennwort erforderlich]:** Personen mit dem Link müssen ein Kennwort angeben, bevor sie auf das Analysis Workspace-Projekt zugreifen können. Dies bietet ein zusätzliches Sicherheitsniveau für Ihr Projekt.
-
-      Wenn Sie diese Option auswählen, geben Sie ein Kennwort an. Denken Sie daran, dieses Kennwort zusammen mit dem Projekt-Link zu teilen, wenn Sie es für andere freigeben. <!--go through this workflow and see how it works.-->
-
-      Wenn diese Option aktiviert und abgeblendet ist, erfordert Ihr Analytics-Administrator, dass alle öffentlichen Links kennwortgeschützt sind. Analytics-Administratoren können diese Voreinstellung für das Unternehmen festlegen, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator eine Experience Cloud-Authentifizierung, um auf alle öffentlichen Links zugreifen zu können.
 
 1. Neben dem **[!UICONTROL Mit anderen teilen (keine Anmeldung erforderlich)]** und klicken Sie auf das **Link kopieren** -Symbol, um den Link in die Zwischenablage Ihres Systems zu kopieren.
 
