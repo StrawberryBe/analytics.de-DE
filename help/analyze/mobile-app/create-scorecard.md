@@ -4,7 +4,7 @@ title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -233,7 +233,7 @@ Erstellen Sie Ihren Datenverlauf, indem Sie einer Kachel mehrere Detailfolien hi
 1. Beginnen Sie mit einem mobilen Scorecard-Projekt.
 1. Wählen Sie eine Kachel aus, aus der Sie eine Geschichte erstellen möchten.
    ![Erstellen eines Datenverlaufs](assets/data-story1.png)
-   ![Erstellen von Datenverlaufssymbolen](assets/create-data-story.png){width="25%"}
+   ![Erstellen von Datenverlaufssymbolen](assets/create-data-story.png){width=".50%"}
 1. Fügen Sie Folien hinzu, um Ihre Datenstory zu erstellen. Die erste Folie wird standardmäßig generiert.
 Um neue Folien hinzuzufügen, halten Sie den Mauszeiger über eine Folie oder klicken Sie auf sie. Wählen Sie dann aus den verfügbaren Optionen aus:
    * Tippen Sie auf das Pluszeichen (+), um eine neue Folie zu erstellen.
