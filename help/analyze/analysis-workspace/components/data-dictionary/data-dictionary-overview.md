@@ -3,9 +3,7 @@ description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzend
 title: Datenwörterbuch – Überblick
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 77%
@@ -65,7 +63,7 @@ Sie können auf eine der folgenden Arten in Analysis Workspace auf das Datenwör
 * über das Symbol **Datenwörterbuch** im Info-Pop-up einer Komponente.
 
    ![Datenwörterbuchsymbol im Info-Pop-up](assets/data-dictionary-access-infopopover.png)
-<!--update screenshot; this was taken from a mock-->
+   <!--update screenshot; this was taken from a mock-->
 
 * über das Menü: [!UICONTROL **Hilfe**] > [!UICONTROL **Datenwörterbuch**].
 
