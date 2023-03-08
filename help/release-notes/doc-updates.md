@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '3679'
-ht-degree: 100%
+source-wordcount: '3693'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **März 2023** |  |
+| Standardberechnete Metriken | Es wurden Inhalte hinzugefügt, die die [von Adobe bereitgestellte standardmäßige berechnete Metriken](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | **Februar 2023** |  |
 | Implementierung | Inhalt zum [Implementieren von Adobe Analytics für Web und Mobile](../implement/home.md) aktualisiert. |
 | Workspace-Kalender und Datumsbereiche | Inhalt aktualisiert, um relative Datumsbereiche, Aktualisierungen der Formelberechnung und Änderungen an der Kalenderbenutzeroberfläche zu beschreiben. Siehe [Über relative Bedienfelddatumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
