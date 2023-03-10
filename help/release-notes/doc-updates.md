@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
+source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
 workflow-type: tm+mt
-source-wordcount: '3773'
-ht-degree: 97%
+source-wordcount: '3801'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **März 2023** |  |
+| Erstellen von Datengeschichten in mobilen Scorecards | A [Datenverlauf](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) ist eine Sammlung unterstützender Datenpunkte, Geschäftskontexte und verwandter Metriken, die auf einem zentralen Thema oder einer zentralen Metrik basieren. |
 | Standardberechnete Metriken | Es wurden Inhalte hinzugefügt, die die [von Adobe bereitgestellte standardmäßige berechnete Metriken](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Datenwörterbuch | <p>Eine neue Dokumentation für das Datenwörterbuch wurde hinzugefügt, einschließlich einer [Übersicht](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Anzeigen](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Bearbeiten](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)und [Überwachung](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) das Datenwörterbuch.</p><p>Informationen in [Hinzufügen von Komponentenbeschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md) wurde aktualisiert, um die Datenwörterbuchfunktionalität zu berücksichtigen.</p> |
 | Linkfreigabe für Projekte (keine Anmeldung erforderlich) | <p>Die vorhandene Dokumentation wurde aktualisiert, um zu erklären, wie ein schreibgeschützter Link eines Projekts für Personen freigegeben werden kann, die keinen Zugriff auf Analysis Workspace haben.</p> <p>Aktualisierte Benutzerdokumentation enthält [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md) und [Erstellen von freigebbaren Links](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Optionen für Administratoren wurden hinzugefügt zu [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md).</p> |
