@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
+source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 69%
+source-wordcount: '1584'
+ht-degree: 70%
 
 ---
 
@@ -140,9 +140,9 @@ So geben Sie einen öffentlichen Link zu einem Analysis Workspace-Projekt frei:
 
    * **[!UICONTROL Experience Cloud-Authentifizierung erforderlich]:**
 
-      Wenn diese Option aktiviert ist, können nur Empfänger, die über eine Federated ID verfügen und sich bei Adobe Experience Cloud anmelden können, auf freigegebene öffentliche Links zugreifen. Personen mit dem Link müssen sich mit ihrer Adobe Experience Cloud-Anmeldung authentifizieren, damit sie Zugriff auf das freigegebene Projekt erhalten.
+      Wenn diese Option aktiviert ist, können nur Benutzer, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde, diesen Link verwenden.
 
-      Analytics-Administratoren können diese Voreinstellung für das Unternehmen festlegen, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
+      Analytics-Administratoren können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
 
       * Wenn diese Option nicht angezeigt wird, hat Ihr Analytics-Administrator diese Funktion nicht aktiviert.
 
