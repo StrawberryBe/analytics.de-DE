@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
+source-git-commit: 3d2e6966fbc765cd19f7a258457d89af3097083f
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 55%
+source-wordcount: '1208'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **Datenmeldungen in mobilen Dashboards** | Mit Datengeschichten können Sie mehrere anpassbare Detailansichten zu Kacheln in mobilen Scorecard-Projekten hinzufügen. Verwenden Sie Datengeschichten, um tiefer in wichtige Treiber, zugehörige Metriken und verschiedene Schritte entlang der Journey zu tauchen. Sie können diese Ansichten einfach durchwischen, um die gesamte Geschichte hinter Ihren Schlüsselmetriken zu verstehen. [Weitere Informationen](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | Nicht angegeben | 8. März 2023 |
 | **Ablaufdaten für geplante Projekte** | Sie können die maximalen Ablaufdaten für geplante Projekte auf bis zu ein Jahr festlegen, unabhängig von der Häufigkeit des Zeitplans. | Nicht angegeben | 8. März 2023 |
 | **Linkfreigabe für Projekte (keine Anmeldung erforderlich)** - Nur privaten Beta-Zugriff | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Sie können Projektlinks für Personen außerhalb Ihres Unternehmens oder für Personen in Ihrem Unternehmen freigeben, die nicht für Adobe Analytics bereitgestellt sind. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Wenden Sie sich an Ihr Adobe Account Team, um an die private Betaversion teilzunehmen.</p> | 15. März 2023 (private Beta-Version) | April 2023 |
+| **Aktualisierungen des Datumsbereichs des Bedienfelds** | In Workspace wurden die folgenden Verbesserungen hinzugefügt:<ul><li>Ab der Februar-Version basieren Dimensionselemente und Datenvorschauen auf dem Datumsbereich des Bedienfelds und nicht auf den letzten 90 Tagen. </li><li>Alle aufgelisteten Dimensionselemente basieren auf Daten innerhalb des Datumsbereichs des Bedienfelds. Wenn ein Dimensionselement Daten außerhalb des Datumsbereichs enthält, können Sie zusätzliche Daten über den Datumsbereich hinaus am unteren Rand der Liste anzeigen.</li><li>Dimensionen ohne Daten können in der linken Leiste angezeigt werden. Klicken Sie auf die Optionen Weitere Optionen anzeigen , um Dimensionselemente mit Daten außerhalb des Datumsbereichs des Bedienfelds anzuzeigen.</li><li>Die Datenvorschau im Segment und die Generator für berechnete Metriken basieren auf dem Datumsbereich des Bedienfelds, es sei denn, der Zugriff erfolgt über die Komponentenmanager, die kein Bedienfeld haben und weiterhin auf den letzten 90 Tagen basieren.</li><li>Datenvorschau zeigt Daten oder Komponenten basierend auf dem Datumsbereich des Bedienfelds an.</li></ul> | Nicht angegeben | 8. Februar 2023 |
 
 ## Fehlerbehebungen in Adobe Analytics 
 
