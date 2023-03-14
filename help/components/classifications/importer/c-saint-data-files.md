@@ -3,10 +3,10 @@ description: Mit dem Importeur können Sie Classification-Daten in großen Menge
 title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1784'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ Jeder Wert muss innerhalb des Systems eindeutig sein. Der Wert in diesem Feld en
 
 ### Überschrift einer Klassifizierungsspalte
 
-Reports and Analytics enthalten beispielsweise automatisch zwei Classifications für [!UICONTROL Kampagnen] variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
+Beispiel: Ihre Implementierung von Reports &amp; Analytics enthält automatisch zwei Klassifizierungen für [!UICONTROL Kampagne] Variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
 
 >[!NOTE]
 >
->Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn der Administrator beispielsweise im [!UICONTROL Campaign Set-up Manager] [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] ändert, muss dies ebenfalls in die Spaltenüberschrift übernommen werden.
+>Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn der Administrator beispielsweise im [!UICONTROL Campaign Set-up Manager] [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] ändert, muss dies ebenfalls in die Spaltenüberschrift übernommen werden. &quot;Schlüssel&quot;ist ein reservierter Classification-Wert (Kopfzeile). Neue Klassifizierungen mit dem Namen &quot;Schlüssel&quot;werden nicht unterstützt.
 
 Darüber hinaus unterstützt die Datendatei weitere Überschriftenkonventionen zur Kennzeichnung von Unter-Classifications und anderen spezialisierten Datenspalten:
 
