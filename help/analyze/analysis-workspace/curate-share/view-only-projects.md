@@ -5,16 +5,16 @@ title: Schreibgeschützte Projekte
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 7d79d6a329c5d42ede2d15d8afd67021fde23e1c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Schreibgeschützte Projekte
 
-Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md) für Empfänger als „schreibgeschützt“ freigeben. Empfänger mit der Rolle „Kann anzeigen“ erhalten ein eingeschränkteres Projekterlebnis. Dies kann wünschenswert sein, wenn Sie ein Projekt für Benutzer freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung einsehen sollen.
+Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md) für Empfänger als „schreibgeschützt“ freigeben. Empfänger mit der Rolle „Kann anzeigen“ erhalten ein eingeschränkteres Projekterlebnis. Dies kann gewünscht werden, wenn Sie ein Projekt für Benutzer freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung nutzen möchten.
 
 ![](assets/view-only-project.png)
 

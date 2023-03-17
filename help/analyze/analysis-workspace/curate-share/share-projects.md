@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
+source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 70%
+source-wordcount: '1587'
+ht-degree: 65%
 
 ---
 
@@ -35,9 +35,9 @@ Im Folgenden finden Sie eine Videoübersicht zur gemeinsamen Nutzung von Projekt
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 
-## Freigeben für Adobe Analytics-Benutzer und -Gruppen in Ihrer Organisation {#Add}
+## Freigeben für Analysis Workspace-Benutzer und -Gruppen in Ihrer Organisation {#Add}
 
-Sie können ein Projekt für bestehende Adobe Analytics-Benutzende oder -Gruppen in Ihrer Organisation freigeben. Wenn Sie ein Projekt wie in diesem Abschnitt beschrieben freigeben, müssen die Benutzenden, für die Sie es freigeben, bereits über ein Adobe Analytics-Konto verfügen.
+Sie können ein Projekt für bestehende Analysis Workspace-Benutzer oder -Gruppen in Ihrem Unternehmen freigeben. Wenn Sie ein Projekt wie in diesem Abschnitt beschrieben freigeben, müssen die Benutzer, für die Sie freigeben, bereits Zugriff auf Adobe Analytics haben.
 
 Sie können eine bestimmte Rolle für Benutzende oder Gruppen freigeben oder einen Link freigeben.
 
@@ -59,7 +59,7 @@ Beachten Sie beim Freigeben einer bestimmten Projektrolle für Benutzende und Gr
 
 So geben Sie eine bestimmte Projektrolle für Benutzende oder Gruppen in Ihrer Organisation frei:
 
-1. Wechseln Sie zu dem Projekt, das Sie freigeben möchten, und klicken Sie dann auf **[!UICONTROL Freigeben]** > **[!UICONTROL Projekt freigeben]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Wechseln Sie zu dem Projekt, das Sie freigeben möchten, und klicken Sie dann auf **[!UICONTROL Freigeben]** > **[!UICONTROL Freigeben für Workspace-Benutzer]**.
 Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projekt zuerst zu speichern.
 
    ![](assets/share-proj-modal.png)
@@ -96,16 +96,16 @@ Beachten Sie bei der Freigabe eines Links, wie in diesem Abschnitt beschrieben, 
 
 So geben Sie den Projekt-Link für Benutzende in Ihrer Organisation frei:
 
-1. Klicken Sie auf **[!UICONTROL Freigeben]** > **[!UICONTROL Projekt freigeben]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Klicken **[!UICONTROL Freigeben]** > **[!UICONTROL Freigeben für Workspace-Benutzer]**.
 Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projekt zuerst zu speichern.
 
    ![](assets/share-proj-modal.png)
 
-1. Klicken Sie auf **[!UICONTROL Link kopieren]** neben dem Feld **[!UICONTROL URL teilen]**.
+1. Klicken **[!UICONTROL Kopieren]** neben dem **[!UICONTROL Über Link freigeben]** -Feld.
 
-1. Geben Sie den Link für Benutzende in Ihrer Organisation frei. Sie können ihn beispielsweise in eine E-Mail oder eine interne Website usw. einfügen.
+1. Geben Sie den Link für Benutzende in Ihrer Organisation frei. Sie können sie beispielsweise in eine E-Mail, eine interne Website usw. einfügen.
 
-## Öffentlichen Link für alle freigeben (keine Anmeldung erforderlich) {#share-public-link}
+## Projekt für andere freigeben (keine Anmeldung erforderlich) {#share-public-link}
 
 {{release-limited-testing-section}}
 
@@ -117,44 +117,44 @@ Sie können [Schreibgeschützter Zugriff](/help/analyze/analysis-workspace/curat
 
 >[!NOTE]
 >
->Beachten Sie beim Freigeben eines öffentlichen Links Folgendes:
+>Beachten Sie Folgendes bei der Freigabe eines Analysis Workspace-Projekts für Personen, die keinen Zugriff auf Adobe Analytics haben:
 >
->* Die Möglichkeit, einen öffentlichen Zugriffslink freizugeben, kann vom Analytics-Administrator deaktiviert werden, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Wenn Sie einen öffentlichen Link nicht wie in diesem Abschnitt beschrieben freigeben können, hat Ihr Analytics-Administrator diese Möglichkeit deaktiviert.
+>* Die Möglichkeit, ein Projekt auf diese Weise freizugeben, kann vom Analytics-Administrator deaktiviert werden, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Wenn Sie ein Projekt nicht wie in diesem Abschnitt beschrieben freigeben können, hat Ihr Analytics-Administrator diese Möglichkeit deaktiviert.
 >
->* Projekte mit mehr als 14 erweiterten Visualisierungen können nicht über einen öffentlichen Zugriffslink freigegeben werden.
+>* Projekte mit mehr als 14 erweiterten Visualisierungen können nicht für Personen freigegeben werden, die keinen Zugriff auf Adobe Analytics haben.
 
 
-So geben Sie einen öffentlichen Link zu einem Analysis Workspace-Projekt frei:
+So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugriff auf Adobe Analytics haben:
 
 1. Öffnen Sie das Analysis Workspace-Projekt, das Sie freigeben möchten.
 
-1. Klicken **[!UICONTROL Freigeben]** > **[!UICONTROL Öffentlichen Link freigeben]**.
+1. Klicken **[!UICONTROL Freigeben]** > **[!UICONTROL Für alle freigeben]**.
 
    Wenn nicht gespeicherte Änderungen vorhanden sind, werden Sie aufgefordert, Ihr Projekt zu speichern.
 
    <!-- Add screen shot of new modal -->
 
-1. Aktivieren Sie die **[!UICONTROL Link-aktiv]** -Option, wenn sie noch nicht aktiviert ist.
+1. Aktivieren Sie die **[!UICONTROL Link ist aktiv]** -Option, wenn sie noch nicht aktiviert ist.
 
 1. Wählen Sie aus, ob die folgende Sicherheitsoption aktiviert werden soll (diese Option kann von Ihrem Analytics-Administrator gesteuert werden):
 
-   * **[!UICONTROL Experience Cloud-Authentifizierung erforderlich]:**
+   * **[!UICONTROL Experience Cloud-Authentifizierung erfordern]:**
 
-      Wenn diese Option aktiviert ist, können nur Benutzer, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde, diesen Link verwenden.
+      Wenn diese Option aktiviert ist, können nur Benutzer, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde, auf das Projekt zugreifen.
 
       Analytics-Administratoren können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
 
       * Wenn diese Option nicht angezeigt wird, hat Ihr Analytics-Administrator diese Funktion nicht aktiviert.
 
-      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator eine Experience Cloud-Authentifizierung, um auf alle öffentlichen Links zugreifen zu können.
+      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator eine Experience Cloud-Authentifizierung für alle Benutzer, die auf Analysis Workspace-Projekte zugreifen.
 
-1. Neben dem **[!UICONTROL Mit anderen teilen (keine Anmeldung erforderlich)]** und klicken Sie auf das **Link kopieren** -Symbol, um den Link in die Zwischenablage Ihres Systems zu kopieren.
+1. Neben dem **[!UICONTROL Mit anderen teilen (keine Anmeldung erforderlich)]** und klicken Sie auf das **Link kopieren** icon ![Symbol &quot;Link kopieren&quot;](assets/copy-link-icon.png) , um den Link in die Zwischenablage Ihres Systems zu kopieren.
 
 1. Geben Sie den Link für die Personen frei, die Zugriff auf das Projekt haben möchten. Sie können beispielsweise den Link in eine E-Mail einfügen.
 
-   Alle Personen, für die Sie den Link freigeben, können das Analysis Workspace-Projekt anzeigen. Wenn Sie sich dafür entschieden haben, ein Passwort zu benötigen, müssen Sie das Passwort auch für alle freigeben, die auf den Link zugreifen möchten.
+   Alle Personen, für die Sie den Link freigeben, können das Analysis Workspace-Projekt anzeigen.
 
-1. Auswählen **[!UICONTROL Schließen]** , um das Dialogfeld &quot;Freigeben&quot;zu schließen. Ihre Änderungen werden automatisch gespeichert. <!-- True? -->
+1. Auswählen **[!UICONTROL Schließen]** , um das Dialogfeld &quot;Freigeben&quot;zu schließen. Ihre Änderungen werden automatisch gespeichert.
 
 ## Freigeben von Projekten im Projekt-Manager {#Manager}
 
