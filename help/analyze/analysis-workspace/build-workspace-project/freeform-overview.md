@@ -5,10 +5,10 @@ title: Übersicht über Projekte
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+source-git-commit: 5b22de34d4c99d68609d39711a970f871c893b74
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 84%
+source-wordcount: '1555'
+ht-degree: 83%
 
 ---
 
@@ -38,8 +38,6 @@ Die Seite &quot;Projekte&quot;enthält die folgenden Informationen:
 | [Voreinstellungen bearbeiten](/help/analyze/analysis-workspace/user-preferences.md) | Verwalten Sie Einstellungen für Analysis Workspace und die zugehörigen Komponenten für alle neuen Projekte oder Bereiche, die Sie erstellen. |
 | [Ordner erstellen](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Fügen Sie der Liste der Projekte und Ordner einen neuen Ordner oder Unterordner hinzu. |
 | [Projekt erstellen](/help/analyze/analysis-workspace/home.md) | Ein neues Projekt von Grund auf neu starten oder von einem [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#analysis-workspace). |
-| Projekte verwalten <!--I don't see this option--> | Wenn Sie auf diesen Link klicken, wird der Projektkomponentenmanager aufgerufen (**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Projekte]**). Dort sind all Ihre Projekte aufgeführt und Sie können Projekte taggen, freigeben, löschen, umbenennen, genehmigen, kopieren und in CSV exportieren. |
-| Als Landingpage festlegen <!--I don't see this option--> | Wandelt diese Seite in Ihre Workspace-Landingpage um. |
 | Mehr zeigen | Zeigt Optionen zum Erstellen eines leeren Projekts oder einer mobilen Scorecard an, [Anzeigen von Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=de)oder [Versionshinweise anzeigen](/help/release-notes/latest.md). |
 | Ordner und Projekte anzeigen | Wählen Sie aus, ob die Ordnerstruktur der Projekte angezeigt werden soll. Weitere Informationen finden Sie unter [Über Ordner in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Tabelle anpassen (Symbol) | Ermöglicht die Anpassung der Informationen, die für jedes Projekt auf der Seite &quot;Projekte&quot;angezeigt werden. |
@@ -58,8 +56,6 @@ Die Seite &quot;Projekte&quot;enthält die folgenden Informationen:
 | Längster Datumsbereich | Der längste Datumsbereich des Projekts. |
 | Anzahl der Abfragen | Die Gesamtzahl der im Projekt enthaltenen Abfragen. |
 | Standort | Der Ordner, in dem sich das Projekt befindet. |
-| Meine Favoriten <!--I don't see this option--> | Um ein Projekt als Favoriten zu markieren, öffnen Sie das Projekt und klicken Sie auf den Stern neben seinem Namen. Wenn Sie Workspace das nächste Mal öffnen, wird das Projekt in dieser Liste angezeigt. |
-| Häufig angesehene Projekte <!--I don't see this option--> | Listet alle häufig geöffneten Projekte auf, um den Zugriff zu erleichtern. |
 
 ## Menüleiste {#menu-bar}
 
