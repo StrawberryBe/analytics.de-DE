@@ -3,16 +3,14 @@ description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzend
 title: Datenwörterbuch anzeigen
 feature: Components
 role: User, Admin
-source-git-commit: 5d83d2621ee5eee7dbbc2af3793a9e1d3de0f97b
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 58%
+source-wordcount: '280'
+ht-degree: 71%
 
 ---
 
 # Komponenteninformationen im Datenwörterbuch anzeigen
-
-{{release-limited-testing}}
 
 Mit dem Datenwörterbuch können Sie Informationen über eine Komponente anzeigen, einschließlich der Komponentenbeschreibung, ähnlicher Komponenten, anderer Komponenten, mit denen eine Komponente häufig verwendet wird, und mehr.
 
@@ -32,16 +30,7 @@ So zeigen Sie Informationen zu einer Komponente im Datenwörterbuch an:
 
 1. (Optional) Geben Sie im Suchfeld den Namen der Komponente ein, die Sie anzeigen möchten.
 
-   Neben den Komponentennamen werden Symbole angezeigt, die den Komponententyp angeben:
-
-   | Symbol | Bedeutung |
-   |---------|----------|
-   | ![Symbol &quot;Dimension&quot;](assets/dimension-icon.png) | Gibt einen **Dimension**. Dimensionen werden durch Adobe bereitgestellt. Vorhandene Dimensionen können nicht geändert werden und neue Dimensionen können nicht erstellt werden. |
-   | ![Metriksymbol](assets/default-metric-icon.png) | Gibt einen **Standardmetrik** (nicht berechnet). Standardmetriken werden von Adobe bereitgestellt und können nicht geändert werden. |
-   | ![Symbol &quot;Adobe&quot;](assets/default-calc-metric-icon.png) | Gibt einen **Vorlage für berechnete Metriken** oder **Segmentvorlage**. Diese Komponenten werden von Adobe bereitgestellt und können nicht geändert werden. |
-   | ![Symbol &quot;Rechner&quot;](assets/calculated-metric-icon-created.png) | Gibt einen **berechnete Metrik** wurde von einem Analytics-Administrator in Ihrem Unternehmen erstellt. |
-   | ![Segmentsymbol](assets/segment-icon.png) | Gibt einen **Segment**. Hierbei kann es sich um von Adobe bereitgestellte oder von einem Analytics-Administrator in Ihrem Unternehmen erstellte Segmente handeln. |
-   | ![Symbol für Datumsbereich](assets/date-range-icon.png) | Gibt einen **Datumsbereich**. Dabei kann es sich um Datumsbereiche handeln, die von Adobe bereitgestellt oder von einem Analytics-Administrator in Ihrem Unternehmen erstellt werden. |
+   Der Komponententyp kann sowohl durch Farbe als auch durch Symbol identifiziert werden. **Dimensionen** ![Symbol &quot;Dimension&quot;](assets/dimension-icon.png) orange sind, **Segmente** ![Segmentsymbol](assets/segment-icon.png) blau sind, **Datumsbereiche** ![Symbol für Datumsbereich](assets/date-range-icon.png) violett sind und **Metriken** ![Metriksymbol](assets/default-metric-icon.png) sind grün. Das Symbol Adobe ![Symbol &quot;Adobe&quot;](assets/default-calc-metric-icon.png) gibt entweder eine Vorlage für berechnete Metriken oder eine Segmentvorlage an und das Symbol für den Rechner ![Symbol &quot;Rechner&quot;](assets/calculated-metric-icon-created.png) eine berechnete Metrik angezeigt, die von einem Analytics-Administrator in Ihrer Organisation erstellt wurde.
 
 {{dd-filter-criteria}}
 

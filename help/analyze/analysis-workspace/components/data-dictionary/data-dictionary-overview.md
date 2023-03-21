@@ -3,7 +3,7 @@ description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzend
 title: Datenwörterbuch – Überblick
 feature: Components
 role: User, Admin
-source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 77%
@@ -11,8 +11,6 @@ ht-degree: 77%
 ---
 
 # Datenwörterbuch – Überblick
-
-{{release-limited-testing}}
 
 Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
 
