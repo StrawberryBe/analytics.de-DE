@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ca99382a39644dc422baaf7dbd5c4d95942455af
+source-git-commit: ff90d4da4b0bbce35716e9a42ae33ea21f650cdf
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 88%
+source-wordcount: '1267'
+ht-degree: 84%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (März 2023)
 
-**Zuletzt aktualisiert**: 10. März 2023
+**Zuletzt aktualisiert**: 21. März 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -44,6 +44,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 
 | Ende der Nutzungsdauer eines Produkts oder einer Funktion | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | --- | --- | --- |
+| **EOL des japanischen Feature Phone-Tracking-Dienstes** | 21. März 2023 | Nur für unsere japanischen Kunden: Ende Mai 2023 wird der japanische Feature Phone Tracking Service (mod_ktrack) eingestellt. Wir entschuldigen uns für die Unannehmlichkeiten, bitten jedoch darum, die auf Ihrem Apache-Server installierten Module zu deinstallieren oder zu deaktivieren. Siehe Seiten 27 und 28 in [dieses Dokuments](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) als Referenz. |
 | **EOL für [!DNL Reports & Analytics]** | 7. März 2023 | Adobe beabsichtigt, [!DNL Reports & Analytics] und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Die Berichte, Visualisierungen und zugrunde liegenden Technologien, die [!DNL Reports & Analytics] unterstützen, entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Funktionen von [!DNL Reports & Analytics] sind in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de) verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen von [!DNL Reports & Analytics] nach Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In [dieser Mitteilung](https://spark.adobe.com/page/6WnF8JK6IRDhf/) wird der Ablauf der Produktlebensdauer erläutert.<p>Am 31. Dezember 2023 werden wir viele der zugehörigen Reports &amp; Analytics-Funktionen einstellen, insbesondere: Terminierte Berichte, Datenextraktionen und DL-Berichte. Nach dem 31. Dezember 2023 werden terminierte Berichte nicht mehr gesendet. Im **April 2023** werden alle Berichte, die nach dem 31. Dezember 2023 ablaufen sollten, automatisch aktualisiert und auf den 31. Dezember 2023 zurückgesetzt. Darüber hinaus können Sie nach dem 31. Dezember 2023 keine zukünftigen Berichte mehr planen. |
 | **Ende der Nutzungsdauer der [!UICONTROL Personen]-Metrik** | 9. März 2023 | Mit der Einstellung der [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html?lang=de) ist die Metrik „Personen“, die sich auf die Device Co-op bezieht, nicht mehr relevant. Am 8. Mai 2023 werden wir die [!UICONTROL Personen] Metrik. An diesem Punkt werden wir diese Daten an die [!UICONTROL Unique Visitor]-Metrik umleiten, um zu verhindern, dass Projekte, Segmente und berechnete Metriken beschädigt werden.<p>**Hinweis**: Die [[!UICONTROL Personen]-Metrik, die mit der geräteübergreifenden Analyse verknüpft ist](/help/components/metrics/people.md), ist von dieser Ankündigung nicht betroffen. |
 | **EOL für die [!UICONTROL Veröffentlichungslisten]-Funktion** | 29. September 2022 | Im Rahmen des Endes der Nutzungsdauer von Reports &amp; Analytics werden [!UICONTROL Veröffentlichungslisten] voraussichtlich im **Dezember 2023** das Ende der Nutzungsdauer erreichen. Sie werden keine neuen [!UICONTROL Veröffentlichungslisten] erstellen oder auf bestehende [!UICONTROL Analysis Workspace]-Projekte zugreifen können, um diese zu senden oder zu planen. |
