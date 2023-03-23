@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
-user-guide-description: Verwalten Sie Daten mithilfe von Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites, Marketing-Kanälen und Klassifikationen. Erfahren Sie mehr über geräteübergreifende Analysen.
+user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -201,7 +201,7 @@ ht-degree: 95%
       + [Metrikkompatibilität](c-calcmetrics/cm-compatibility.md)
       + [Berechnete Metriken: Rollenbasierte Rechte](c-calcmetrics/cm-role-based-rights.md)
       + [Berechnete Metriken insgesamt](c-calcmetrics/cm-totals.md)
-      + [Standardberechnete Metriken](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [Standardmäßig berechnete Metriken](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
    + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
    + [Virtual Report Suite – Kuratierung von Komponenten](vrs/vrs-components.md)
