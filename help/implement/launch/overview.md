@@ -2,8 +2,8 @@
 title: Implementieren von Adobe Analytics mit der Analytics-Erweiterung
 description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags und der Analytics-Erweiterung implementieren
 feature: Launch Implementation
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
-workflow-type: ht
+source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>2</td>
-<td><b>Erstellen Sie eine Datenschicht</b>, um das Tracking der Daten auf Ihrer Website zu verwalten</td>
+<td><b>Erstellen Sie eine Datenschicht</b>, um das Tracking der Daten auf Ihrer Website zu verwalten.</td>
 <td>
 <a href="../prepare/data-layer.md">Datenschicht erstellen</a>
 </td>
