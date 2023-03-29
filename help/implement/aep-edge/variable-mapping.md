@@ -2,16 +2,18 @@
 title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 100%
+source-wordcount: '1466'
+ht-degree: 98%
 
 ---
 
 # Analytics-Variablenzuordnung in Adobe Experience Edge Network
 
 In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
+
+Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
 
 | XDM-Feldpfad | Analytics-Dimension und Beschreibung |
 | --- | --- |
