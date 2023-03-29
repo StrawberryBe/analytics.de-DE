@@ -4,10 +4,10 @@ description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -79,7 +79,9 @@ Ja, Klassifizierungen werden vollständig unterstützt.
 
 ## Funktioniert Attribution mit Datenquellen?
 
-Ja, die meisten Datenquellen werden unterstützt. Bei Datenquellen auf Zusammenfassungsebene ist eine Attribution nicht möglich, da sie nicht mit einer Analytics-Besucher-ID verknüpft sind. Als Datenquellen werden auch Transaktions-IDs unterstützt, es sei denn sie werden in einer Virtual Report Suite mit aktivierter Berichtszeitverarbeitung verwendet.
+Ja, die meisten Datenquellen werden unterstützt. Bei Datenquellen auf Zusammenfassungsebene ist eine Attribution nicht möglich, da sie nicht mit einer Analytics-Besucher-ID verknüpft sind.
+
+Transaktions-ID-Datenquellen werden wie andere Treffer behandelt. sie verwenden nicht die spezielle Verarbeitung, die sie normalerweise für die herkömmliche Berichterstellung verwenden.
 
 ## Funktioniert Attribution mit der Advertising Analytics-Integration?
 
@@ -87,7 +89,7 @@ Metadatendimensionen wie Übereinstimmungstyp und Keyword funktionieren mit Attr
 
 ## Wie funktioniert die Attribution bei Marketing-Kanälen?
 
-Als Marketing-Kanäle eingeführt wurden, hatten sie nur die Dimensionen „Erstkontakt“ und „Letztkontakt“. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe stellt allgemeine Dimensionen für „Marketing-Kanal“ und „Marketing-Kanal-Detail“ bereit, damit Sie diese mit Ihrem gewünschten Attributionsmodell verwenden können. Diese allgemeinen Dimensionen verhalten sich identisch mit den Dimensionen des Letztkontakt-Kanals, sind jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Attributionsmodell zu vermeiden.
+Als Marketing-Kanäle eingeführt wurden, hatten sie nur die Dimensionen „Erstkontakt“ und „Letztkontakt“. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe bietet allgemeine [!UICONTROL Marketingkanal] und [!UICONTROL Marketingkanaldetails] -Dimensionen, damit Sie sie mit Ihrem gewünschten Attributionsmodell verwenden können. Diese allgemeinen Dimensionen verhalten sich identisch mit [!UICONTROL Letztkontakt-Kanal] -Dimensionen, sind jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Attributionsmodell zu vermeiden.
 
 Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition abhängen (wie in den Verarbeitungsregeln definiert), kann ihre Besuchsdefinition nicht mit Virtual Report Suites geändert werden.
 
@@ -107,4 +109,4 @@ Wenn Sie z. B. eine VRS mit angewendetem Segment „Hits anzeigen“ erstellen, 
 
 >[!NOTE]
 >
->Wenn ein Segment Treffer unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter könnten jedoch lediglich einige Dimensionselemente ausgeblendet werden, ohne dass dies Auswirkungen auf die im jeweiligen Attributionsmodell verarbeiteten Metriken hat. Daher kann ein Segment niedrigere Werte zurückgeben als ein Filter mit einer vergleichbaren Definition.
+>Wenn ein Segment Treffer unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter werden jedoch lediglich einige Dimensionselemente ausgeblendet, ohne dass dies Auswirkungen auf die Metriken hat, die pro Attributionsmodell verarbeitet werden. Daher kann ein Segment niedrigere Werte zurückgeben als ein Filter mit einer vergleichbaren Definition.
