@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -122,6 +122,10 @@ Sie können [Schreibgeschützter Zugriff](/help/analyze/analysis-workspace/curat
 >* Die Möglichkeit, ein Projekt auf diese Weise freizugeben, kann vom Analytics-Administrator deaktiviert werden, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Wenn Sie ein Projekt nicht wie in diesem Abschnitt beschrieben freigeben können, hat Ihr Analytics-Administrator diese Möglichkeit deaktiviert.
 >
 >* Projekte mit mehr als 14 erweiterten Visualisierungen können nicht für Personen freigegeben werden, die keinen Zugriff auf Adobe Analytics haben.
+>
+>* Benutzer, für die Sie freigeben, können alle Filter anzeigen, die auf das Projekt während der [Kuratierung](curate.md).
+> 
+>* Benutzer, für die Sie freigeben, können den Projektdatumsbereich ändern. Der Datumsbereich, den Sie für das Projekt festgelegt haben, wird standardmäßig angezeigt.
 
 
 So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugriff auf Adobe Analytics haben:
@@ -153,6 +157,8 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 1. Geben Sie den Link für die Personen frei, die Zugriff auf das Projekt haben möchten. Sie können beispielsweise den Link in eine E-Mail einfügen.
 
    Alle Personen, für die Sie den Link freigeben, können das Analysis Workspace-Projekt anzeigen.
+
+1. (Optional) Sie können auf die **Neuen Link erstellen** icon ![Symbol &quot;Link generieren&quot;](assets/regenerate-link.png) , um den Zugriff von Benutzern zu entfernen, die zuvor einen Link zum Projekt erhalten haben. Es wird ein neuer Link generiert, den Sie für Benutzer freigeben können, die auf das Projekt zugreifen möchten.
 
 1. Auswählen **[!UICONTROL Schließen]** , um das Dialogfeld &quot;Freigeben&quot;zu schließen. Ihre Änderungen werden automatisch gespeichert.
 
