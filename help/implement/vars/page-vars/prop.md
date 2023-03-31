@@ -3,10 +3,10 @@ title: prop
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie
 
 >[!TIP]
 >
->Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
+>Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Die Adobe hat eVars jedoch insofern verbessert, als sie nun fast alle Anwendungsfälle für Props erfüllen.
 
 Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 75 Props verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 

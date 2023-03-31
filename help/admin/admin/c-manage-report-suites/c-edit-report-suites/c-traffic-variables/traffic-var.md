@@ -3,17 +3,48 @@ description: Benutzerspezifische Insight-Traffic-Variablen (oder Eigenschaften/P
 title: Übersicht über Traffic-Variablen (Eigenschaft)
 feature: Admin Tools
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
-source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+source-git-commit: 507e669f798cf8a451f0383eb8bcb18b1f793e35
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 32%
 
 ---
 
-# Übersicht über Traffic-Variablen (Eigenschaft)
+# Übersicht über Traffic-Variablen (Props)
 
 Benutzerspezifische Insight-Traffic-Variablen (oder Eigenschaften/Props) ermöglichen die Korrelation von benutzerspezifischen Daten mit spezifischen Traffic-bezogenen Ereignissen. Die Eigenschaftsvariablen sind in den Implementierungscode auf jeder Seite der Website eingebunden.
 
-Auf der Seite [!UICONTROL Traffic-Variablen] können Sie Traffic-Variablen-Berichte aktivieren, deaktivieren und umbenennen. Deaktivierte Berichte für Traffic-Variablen werden in der Benutzeroberfläche nicht mehr aufgeführt.
+>[!TIP]
+>
+>Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](/help/implement/vars/page-vars/evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Die Adobe hat eVars jedoch insofern verbessert, als sie nun fast alle Anwendungsfälle für Props erfüllen.
 
-Siehe auch [Prop](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
+Sie können Traffic-Variablenberichte hinzufügen und aktivieren. Sie können auch vorhandene Traffic-Variablenberichte deaktivieren oder umbenennen.
+
+## Hinzufügen und Aktivieren von Traffic-Variablen-Berichten
+
+1. Auswählen **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Auswählen **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]**.
+1. Auswählen **[!UICONTROL Neu hinzufügen]**, und benennen Sie den Bericht.
+1. Im [!UICONTROL **Aktiviert**] Spalte auswählen [!UICONTROL **Aktiviert**] aus dem Dropdown-Menü.1. Wählen Sie **[!UICONTROL Speichern]**.
+
+## Berichte zu Traffic-Variablen deaktivieren
+
+Nachdem ein Traffic-Variablenbericht deaktiviert wurde, wird er nicht mehr in der Benutzeroberfläche angezeigt.
+
+So deaktivieren Sie einen Traffic-Variablen-Bericht:
+
+1. Auswählen **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Auswählen **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]**.
+1. Wählen Sie den Traffic-Variablen-Bericht aus, den Sie deaktivieren möchten.
+1. Im [!UICONTROL **Aktiviert**] Spalte auswählen [!UICONTROL **Behinderte**] aus dem Dropdown-Menü.
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
+
+## Umbenennen von Traffic-Variablenberichten
+
+1. Auswählen **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Auswählen **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]**.
+1. Wählen Sie den Traffic-Variablen-Bericht aus, den Sie umbenennen möchten.
+1. Im [!UICONTROL **Name**] geben Sie einen neuen Namen für den Bericht an.
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
+
+Siehe auch [prop](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
