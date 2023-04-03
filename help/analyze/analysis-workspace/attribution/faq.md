@@ -4,10 +4,10 @@ description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 89%
+source-wordcount: '1071'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Ja, Klassifizierungen werden vollständig unterstützt.
 
 Ja, die meisten Datenquellen werden unterstützt. Bei Datenquellen auf Zusammenfassungsebene ist eine Attribution nicht möglich, da sie nicht mit einer Analytics-Besucher-ID verknüpft sind.
 
-Transaktions-ID-Datenquellen werden wie andere Treffer behandelt. sie verwenden nicht die spezielle Verarbeitung, die sie normalerweise für die herkömmliche Berichterstellung verwenden.
+Transaktions-ID-Datenquellen werden wie andere Treffer behandelt. sie verwenden nicht die spezielle Verarbeitung, die sie normalerweise für die herkömmliche Berichterstellung verwenden. Mit anderen Worten: Bei der Verwendung der Berichtszeitverarbeitung werden bei Transaktions-ID-Treffern eVar von Treffern übertragen, die nahe dem Zeitstempel des Transaktions-ID-Treffers auftreten. Die Werte werden nicht aus Treffern übernommen, die in der Nähe des Zeitpunkts der ursprünglichen Transaktion aufgetreten sind.
 
 ## Funktioniert Attribution mit der Advertising Analytics-Integration?
 
