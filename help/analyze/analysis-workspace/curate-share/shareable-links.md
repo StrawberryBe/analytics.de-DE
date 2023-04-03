@@ -5,10 +5,10 @@ title: Erstellen von freigebbaren Links
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 73%
+source-wordcount: '380'
+ht-degree: 61%
 
 ---
 
@@ -18,15 +18,15 @@ Analysis Workspace bietet viele Möglichkeiten, ein Projekt für Ihre Benutzer f
 
 ## Projekt-Link zur Freigabe für andere Workspace-Benutzer abrufen {#project-link}
 
-Um einen Link zum vollständigen Projekt freizugeben, navigieren Sie zu [!UICONTROL **Freigeben**] > [!UICONTROL **Freigeben für Workspace-Benutzer**] > [!UICONTROL **Über Link freigeben**]. Wenn dem Empfänger des Links keine [Projektrolle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) zugewiesen wurde, erhalten Administratoren **[!UICONTROL Kann bearbeiten]**- und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**-Erlebnisse.
+Um einen Link zu einem Projekt freizugeben, gehen Sie zu dem Projekt, das Sie freigeben möchten, und wählen Sie dann Navigieren Sie zu [!UICONTROL **Freigeben**] > [!UICONTROL **Freigeben für Workspace-Benutzer**] > [!UICONTROL **Über Link freigeben**]. Benutzer, für die Sie den Link freigeben, müssen sich anmelden.
 
-![](assets/get-project-link.png)
+Wenn dem Empfänger des Links kein [Projektrolle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de), erhalten Administratoren **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]** Erlebnisse.
 
 ## Einen schreibgeschützten Link zur Freigabe für alle abrufen
 
 {{release-limited-testing-section}}
 
-Sie können einen schreibgeschützten Link zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben.
+Sie können einen schreibgeschützten Link zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Benutzer, für die Sie den Link freigeben, müssen sich nicht anmelden.
 
 Weitere Informationen finden Sie unter &quot;Freigeben eines Projekts für andere (keine Anmeldung erforderlich)&quot;im Artikel [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 

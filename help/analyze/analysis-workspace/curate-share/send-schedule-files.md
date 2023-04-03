@@ -4,10 +4,10 @@ title: Menü „Freigeben“
 feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
@@ -15,10 +15,14 @@ ht-degree: 100%
 
 Sie können PDF-/CSV-Projekte für Empfänger in Ihrer Organisation im **Menü „Freigeben“** in Workspace kuratieren, freigeben und planen.
 
+>[!AVAILABILITY]
+>
+>Einige in diesem Artikel beschriebene Funktionen befinden sich in der Phase der eingeschränkten Testphase der Veröffentlichung und sind möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+
 | Menüoption | Beschreibung |
 |---|---|
-| Projekt freigeben | Stellen Sie ein Projekt für andere Analysis Workspace-Benutzer in Ihrer Organisation zur Verfügung. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
-| Projekt-Link abrufen | Erstellen Sie einen freigebbaren Link, um schnell auf ein Projekt zugreifen zu können. Benutzer müssen sich hierzu anmelden. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=de) |
-| Datei jetzt senden | Senden Sie ein Projekt als CSV- oder PDF-Datei sofort an bestimmte Empfänger. |
-| Datei planmäßig senden | Senden Sie ein Projekt als CSV- oder PDF-Datei planmäßig an bestimmte Empfänger. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=de) |
-| Projekt kuratieren | Beschränken Sie die in einem Projekt verfügbaren Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche). [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de)  |
+| Für Arbeitsbereich-Benutzende freigeben | Stellen Sie ein Projekt für andere Analysis Workspace-Benutzer in Ihrer Organisation zur Verfügung. Geben Sie Inhalte für bestimmte Benutzer frei oder erstellen Sie einen freigebbaren Link, über den Sie schnell auf ein Projekt zugreifen können. Benutzer müssen sich anmelden. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Für alle freigeben | Gewähren Sie Benutzern ohne Zugriff auf Adobe Analytics schreibgeschützten Zugriff auf Analysis Workspace-Projekte. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Datei exportieren | Senden Sie ein Projekt als CSV- oder PDF-Datei sofort an bestimmte Empfänger. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
+| Dateiexport planen | Senden Sie ein Projekt als CSV- oder PDF-Datei planmäßig an bestimmte Empfänger. [Weitere Infos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
+| Projekt kuratieren | Beschränken Sie die in einem Projekt verfügbaren Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche). [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/curate.md)  |
