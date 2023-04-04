@@ -3,7 +3,7 @@ title: Verbindungstyp
 description: Wie sich der Besucher mit dem Internet verbindet.
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Diese Dimension verwendet eine Kombination aus der [`ct` Abfragezeichenfolge](/h
 1. Wenn die `ct` Abfragezeichenfolge `"modem"` entspricht, setze das Dimensionselement auf `"Modem"`. AppMeasurement erfasst diese Daten nur in nicht unterstützten Internet Explorer-Browsern, wodurch dieses Dimensionselement nicht oft vorkommt.
 1. Überprüfen Sie die IP-Adresse des Treffers und referenzieren Sie sie auf eine Adobe-interne Nachschlagetabelle. Wenn die IP-Adresse von einem Mobilnetzbetreiber stammt, setze das Dimensionselement auf `"Mobile Carrier"`.
 1. Wenn die `ct` Abfragezeichenfolge `"lan"` entspricht, setze das Dimensionselement auf `"LAN/Wifi"`.
-1. Wenn der Treffer von einer [Datenquelle](/help/import/c-data-sources/datasrc-home.md) stammt oder anderweitig als spezieller Treffertyp gilt, setze das Dimensionselement auf `"Not specified"`.
+1. Wenn der Treffer von einer [Datenquelle](/help/import/data-sources/overview.md) stammt oder anderweitig als spezieller Treffertyp gilt, setze das Dimensionselement auf `"Not specified"`.
 1. Wenn keine der oben genannten Regeln erfüllt ist, verwende als Standard den Wert `"LAN/Wifi"`.
 
 ## Dimensionselemente

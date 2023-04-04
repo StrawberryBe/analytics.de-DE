@@ -3,8 +3,8 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: ht
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ In diesem Video werden verschiedene Adobe Analytics-Tools verglichen:
    * Rule Builder: verwenden, wenn für eine Variable Werte in einem vorhersagbaren Format erfasst werden, z. B. durch Trennzeichen getrennte Werte. Mit diesem Ansatz können Sie Regeln einmal erstellen, ohne sich später weiter damit beschäftigen zu müssen.
    * Browser-Importtool: verwenden, wenn Sie nicht über vorhersagbare Werte oder über eine begrenzte Liste von Werten verfügen, die eine einmalige Aktualisierung erfordern. Bei diesem Ansatz ist eine fortlaufende Überwachung der Klassifizierungen auf neue Werte nötig.
 
-**[Data Sources](/help/import/c-data-sources/datasrc-home.md)** sollte verwendet werden:
+**[Data Sources](/help/import/data-sources/overview.md)** sollte verwendet werden:
 
 * Wenn Offline-Daten vorliegen, die dauerhaft in Adobe Analytics geschrieben werden sollen.
 * Optionen:

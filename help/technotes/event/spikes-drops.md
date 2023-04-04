@@ -2,7 +2,7 @@
 title: Fehlerbehebung bei Datenspitzen und Datenrückgängen
 description: Informieren Sie sich über mögliche Gründe, warum Sie in Trend-Berichten dramatische Zu- oder Abnahmen feststellen können.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Traffic-Spitzen werden in zwei Kategorien eingeteilt: nahezu doppelte Daten und 
 ### Mögliche Ursachen dafür, dass die erwarteten Daten nahezu oder genau doppelt so hoch sind
 
 * **Mehrere Bildanforderungen innerhalb einer Implementierung**: Wenn Ihre Implementierung mehr als einen [`t()`](/help/implement/vars/functions/t-method.md)-Methodenaufruf pro Seite enthält, werden alle erfassten Daten effektiv verdoppelt. Verwenden Sie den Debugger auf Ihrer Site und achten Sie auf mehrere Bildanforderungen, um Duplikate abzufangen.
-* **Doppelte Datenquelldateien hochgeladen**: Wenn Ihr Unternehmen [Datenquellen](/help/import/c-data-sources/datasrc-home.md) verwendet, kann ein Benutzer in Ihrem Unternehmen dieselbe Datei zweimal in Adobe Analytics hochladen. Wenn Sie diesen doppelten Upload durchführen, verdoppeln sich die Daten in der Berichterstellung, was zu einer Traffic-Spitze führt.
+* **Doppelte Datenquelldateien hochgeladen**: Wenn Ihr Unternehmen [Datenquellen](/help/import/data-sources/overview.md) verwendet, kann ein Benutzer in Ihrem Unternehmen dieselbe Datei zweimal in Adobe Analytics hochladen. Wenn Sie diesen doppelten Upload durchführen, verdoppeln sich die Daten in der Berichterstellung, was zu einer Traffic-Spitze führt.
 
 ### Andere mögliche Ursachen für erhöhten Traffic
 

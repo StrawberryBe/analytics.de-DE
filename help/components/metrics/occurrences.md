@@ -3,10 +3,10 @@ title: Vorfälle
 description: Die Anzahl der Treffer, für die eine Variable festgelegt oder beibehalten wurde.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 74%
 
 ---
 
@@ -21,4 +21,4 @@ Schließen Sie von allen Treffern in einer Report Suite die Treffer ein, bei den
 ## Vergleich mit ähnlichen Metriken
 
 * **Vorfälle oder [Instanzen](instances.md)**: Vorfälle zählen Treffer, bei denen ein Dimensionselement festgelegt oder beibehalten wurde. Instanzen enthalten keine Treffer, bei denen ein Dimensionselement beibehalten wird.
-* **Vorfälle im Vergleich zu [Seitenansichten](page-views.md)**: Zu den Vorfällen gehören alle Treffertypen, einschließlich Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)). Die Metrik „Seitenansichten“ umfasst nur Seitenansicht-Tracking-Aufrufe und schließt Linktracking-Aufrufe aus.
+* **Vorfälle oder [Seitenansichten](page-views.md)**: Zu den Vorfällen gehören alle Treffertypen, einschließlich Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)), Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) und Daten aus der Zusammenfassung [Datenquellen](/help/import/data-sources/overview.md). Die Metrik &quot;Seitenansichten&quot;umfasst nur Seitenansichts-Tracking-Aufrufe, ausgenommen Linktracking-Aufrufe und Zusammenfassungsdatenquellen.

@@ -3,10 +3,10 @@ title: Seitenansichten
 description: Die Häufigkeit, mit der ein Dimensionselement in Adobe Analytics festgelegt oder beibehalten wurde.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 39%
+source-wordcount: '168'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ Die Metrik „Seitenansichten“ gibt an, wie oft ein bestimmtes Dimensionseleme
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt alle Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) in einer Report Suite. Bei Dimensionen sind auch Treffer enthalten, bei denen ein Dimensionselement definiert oder beibehalten wird. Sie enthält keine Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Diese Metrik zählt alle Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) in einer Report Suite. Bei Dimensionen sind auch Treffer enthalten, bei denen ein Dimensionselement definiert oder beibehalten wird. Sie enthält keine Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) oder Daten aus der Zusammenfassung [Datenquellen](/help/import/data-sources/overview.md).
 
 ## Vergleich mit ähnlichen Metriken
 
