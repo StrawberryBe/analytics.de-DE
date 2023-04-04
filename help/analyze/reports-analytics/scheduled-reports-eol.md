@@ -4,16 +4,16 @@ description: Adobe beabsichtigt, alle terminierten Berichte, deren Erstellungsda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Hinweis auf das Auslaufen der terminierten Berichte
 
-Am 21. April 2022 haben wir angekündigt, dass einige Funktionen für terminierte Berichte eingestellt wurden, um die zuvor angekündigte [Abschaffung von Reports and Analytics](https://express.adobe.com/page/6WnF8JK6IRDhf/) vorzubereiten. Zu diesen Funktionen gehörte die Möglichkeit, neue Berichte sowie neue Datenextraktionen zu planen. Als Reaktion auf Kundenanfragen, die um eine Verlängerung baten, und um den Übergang weg von Reports &amp; Analytics zu erleichtern, haben wir beschlossen, den Zugriff auf diese Funktionen bis zum **31. Januar 2023** zu verlängern.
+Am 21. April 2022 haben wir angekündigt, dass einige Funktionen für terminierte Berichte eingestellt wurden, um die zuvor angekündigte [Abschaffung von Reports and Analytics](https://www.adobe.com/go/analytics_rnaeol_en) vorzubereiten. Zu diesen Funktionen gehörte die Möglichkeit, neue Berichte sowie neue Datenextraktionen zu planen. Als Reaktion auf Kundenanfragen, die um eine Verlängerung baten, und um den Übergang weg von Reports &amp; Analytics zu erleichtern, haben wir beschlossen, den Zugriff auf diese Funktionen bis zum **31. Januar 2023** zu verlängern.
 Bitte beachten Sie, dass das Ablauffenster für Berichte und Datenextrakte weiterhin auf neun Monate begrenzt ist. Die Bereitstellung von Berichten und Datenextraktionen wird am Ende dieses Zeitraums ausgesetzt, es sei denn, der Zeitplan wird reaktiviert.
 
 Um es noch einmal zu sagen: Diese Funktionen werden am 31. Januar 2023 eingestellt. Bis dahin müssen Sie Ihre terminierten Berichte auf einen der anderen Mechanismen migriert haben, die Ihnen in Adobe Analytics zur Verfügung stehen.

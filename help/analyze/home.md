@@ -4,10 +4,10 @@ description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Adobe
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden
 * **[!UICONTROL Activity Map]:** Ein Browser-Plug-in, das auf Ihrer Site eine Überlagerung anzeigt, die angibt, auf welche Elemente am häufigsten geklickt wurde.
 * **[!UICONTROL Report Builder]:** Ein Excel-Add-in, mit dem Sie Analytics-Daten abrufen und direkt in eine Arbeitsmappe einfügen können.
 * **[!UICONTROL Reporting-API]:** Stellen Sie Reporting-Anfragen direkt an die Server von Adobe und erhalten Sie Antworten, die Sie in Ihren eigenen Kunden-Reporting-Tools nutzen können.
-* **[!UICONTROL Reports &amp; Analytics]**: Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt für die meisten Reporting-Erfordernisse die Verwendung von Analysis Workspace. **Hinweis:** Reports &amp; Analytics wird [Ende des Lebenszyklus](https://express.adobe.com/page/6WnF8JK6IRDhf/) am 31. Dezember 2023.
+* **[!UICONTROL Reports &amp; Analytics]**: Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt für die meisten Reporting-Erfordernisse die Verwendung von Analysis Workspace. **Hinweis:** Reports &amp; Analytics wird [Ende des Lebenszyklus](https://www.adobe.com/go/analytics_rnaeol_en) am 31. Dezember 2023.
 
 Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 
