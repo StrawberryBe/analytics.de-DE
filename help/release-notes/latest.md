@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: cc774376b2f98506eb9c1a737e2e6fba3ea73a45
+source-git-commit: 78ab323ca7f508b319c293975b430c2cb3e043de
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 73%
+source-wordcount: '1574'
+ht-degree: 67%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (März 2023)
 
-**Letzte Aktualisierung**: 3. April 2023
+**Letzte Aktualisierung**: 5. April 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,7 +20,8 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | 29. März 2023 |
+| **Teilweise Unterstützung für Activity Map mit Web SDK** | Ab Web SDK-Version 2.15.0 beginnen wir mit dem Ausfüllen von Activity Map-Daten, wenn das Linktracking aktiviert ist. Dies ermöglicht es Web SDK-Benutzern, Activity Map-Berichte zu erhalten, wenn das Linktracking mit dem Web SDK und der in Analytics konfigurierten Activity Map aktiviert ist.<p>Beachten Sie, dass die Aktivierung der Linktracking mit dem Web SDK Verknüpfungsereignisse sendet, wenn ein Kunde von einer Seite zur nächsten navigiert. Daher werden zusätzliche abrechnungsfähige Treffer an Adobe gesendet. Wir arbeiten an einer Methode, mit der das Web SDK Activity Map erfassen kann, die dem entspricht, was AppMeasurement tut. In einigen Fällen sendet AppMeasurement Daten bei nachfolgenden Seitenansichten separat, was die Anzahl der Server-Aufrufe verringert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) | Nicht angegeben | 31. März 2023 |
+| **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | **Vorübergehend nicht verfügbar** |
 | **Daten-Storys in mobilen Dashboards** | Mit Daten-Storys können Sie mehrere anpassbare Detailansichten zu Kacheln in mobilen Scorecard-Projekten hinzufügen. Verwenden Sie Daten-Storys, um tiefer in wichtige Treiber, zugehörige Metriken und verschiedene Schritte während der Customer Journey einzutauchen. Sie können einfach durch diese Ansichten wischen, um die ganze Story hinter Ihren Schlüsselmetriken zu verstehen. [Weitere Informationen](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | Nicht angegeben | 8. März 2023 |
 | **Ablaufdaten für geplante Projekte** | Sie können die maximalen Ablaufdaten für geplante Projekte auf bis zu ein Jahr festlegen, unabhängig von der Häufigkeit des Zeitplans. | Nicht angegeben | 8. März 2023 |
 | **Link-Freigabe für Projekte (keine Anmeldung erforderlich)** – Nur privater Beta-Zugriff | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Sie können Projekt-Links für Personen außerhalb Ihrer Organisation oder für Personen innerhalb Ihrer Organisation freigeben, die nicht für Adobe Analytics vorgesehen sind. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Um an der privaten Beta-Version teilzunehmen, wenden Sie sich an Ihr Adobe Account Team.</p> | 26. April 2023 | Juni 2023 |
