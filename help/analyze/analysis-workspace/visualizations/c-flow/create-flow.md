@@ -4,22 +4,16 @@ title: Flussvisualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1377'
-ht-degree: 100%
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 96%
 
 ---
 
 # Flussvisualisierung konfigurieren
 
-Die aktualisierte Flussvisualisierung hilft Ihnen, die Journey zu verstehen, die von einem bestimmten Konversionsereignis auf Ihrer Website oder in Ihrer Mobile App ausgeht oder dazu führt. Die Flussvisualisierung folgt einem Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken. Mit der Flussvisualisierung können Sie den Anfang oder das Ende des Pfads konfigurieren, an dem Sie interessiert sind, oder alle Pfade analysieren, die durch eine Dimension oder ein Dimensionselement führen.
-
-Die neue [!UICONTROL Fluss]-Funktion verbessert Ihren Workflow auf mehrfache Weise:
-
-* Sie können jetzt Ihren Pfad mit der Kombination aus einer Metrik und einer Pfaddimension beginnen oder beenden.
-* Die Fluss-Funktion enthält [!UICONTROL erweiterte Einstellungen], über die Sie den [!UICONTROL Fluss] zusätzlich anpassen können.
-* Mit der neuen Schaltfläche „Erstellen“ sparen Sie Zeit bei der Analyse, indem Sie die Journey auf einmal konfigurieren, dann Abfragen durchführen und danach automatisch mehrere Spalten und Knoten gleichzeitig erstellen.
+Flussvisualisierungen helfen Ihnen dabei, die Journey zu verstehen, die von einem bestimmten Konversionsereignis auf Ihrer Website oder in Ihrer App ausgehen oder dazu führen. Die Flussvisualisierung folgt einem Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken. Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads, an dem Sie interessiert sind, konfigurieren oder alle Pfade analysieren, die durch eine Dimension oder ein Dimensionselement fließen.
 
 ![Neue Fluss-Benutzeroberfläche](assets/new-flow.png)
 
