@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 78ab323ca7f508b319c293975b430c2cb3e043de
+source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 67%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Teilweise Unterstützung für Activity Map mit Web SDK** | Ab Web SDK-Version 2.15.0 beginnen wir mit dem Ausfüllen von Activity Map-Daten, wenn das Linktracking aktiviert ist. Dies ermöglicht es Web SDK-Benutzern, Activity Map-Berichte zu erhalten, wenn das Linktracking mit dem Web SDK und der in Analytics konfigurierten Activity Map aktiviert ist.<p>Beachten Sie, dass die Aktivierung der Linktracking mit dem Web SDK Verknüpfungsereignisse sendet, wenn ein Kunde von einer Seite zur nächsten navigiert. Daher werden zusätzliche abrechnungsfähige Treffer an Adobe gesendet. Wir arbeiten an einer Methode, mit der das Web SDK Activity Map erfassen kann, die dem entspricht, was AppMeasurement tut. In einigen Fällen sendet AppMeasurement Daten bei nachfolgenden Seitenansichten separat, was die Anzahl der Server-Aufrufe verringert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) | Nicht angegeben | 31. März 2023 |
+| **Teilweise Unterstützung für Activity Map mit Web SDK** | Ab Web SDK-Version 2.15.0 beginnen wir mit dem Ausfüllen von Activity Map-Daten, wenn das Linktracking aktiviert ist. Dies ermöglicht es Web SDK-Benutzern, Activity Map-Berichte zu erhalten, wenn das Linktracking mit dem Web SDK und der in Analytics konfigurierten Activity Map aktiviert ist.<p>Durch die Aktivierung des Linktrackings mit dem Web SDK werden derzeit Linkereignisse gesendet, wenn ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden. Weitere Infos [here](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) und [here](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | Nicht angegeben | 31. März 2023 |
 | **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | **Vorübergehend nicht verfügbar** |
 | **Daten-Storys in mobilen Dashboards** | Mit Daten-Storys können Sie mehrere anpassbare Detailansichten zu Kacheln in mobilen Scorecard-Projekten hinzufügen. Verwenden Sie Daten-Storys, um tiefer in wichtige Treiber, zugehörige Metriken und verschiedene Schritte während der Customer Journey einzutauchen. Sie können einfach durch diese Ansichten wischen, um die ganze Story hinter Ihren Schlüsselmetriken zu verstehen. [Weitere Informationen](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | Nicht angegeben | 8. März 2023 |
 | **Ablaufdaten für geplante Projekte** | Sie können die maximalen Ablaufdaten für geplante Projekte auf bis zu ein Jahr festlegen, unabhängig von der Häufigkeit des Zeitplans. | Nicht angegeben | 8. März 2023 |
