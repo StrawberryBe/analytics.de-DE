@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie ein Excel-Arbeitsblat
 title: Herunterladen von Report Suite-Einstellungen
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
+source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ So generieren Sie eine tabulatorgetrennte Datei mit allen Einstellungen für die
 
 3. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 
-   Eine Datei mit dem Namen Report Suite Data.tab wird auf Ihren lokalen Computer heruntergeladen.
+   Eine Datei mit dem Namen `Report Suite Data.tab` wird auf Ihren lokalen Computer heruntergeladen.
 
 Sie können die Datei in einem beliebigen Texteditor öffnen, der tabulatorgetrennte Dateien verarbeiten kann.
 
