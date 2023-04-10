@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
+source-git-commit: 4e9b96fc29ee8c409019c292d565ea229e7c521f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1545'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Teilweise Unterstützung für Activity Map mit Web SDK** | Ab Web SDK-Version 2.15.0 beginnen wir mit dem Ausfüllen von Activity Map-Daten, wenn das Linktracking aktiviert ist. Dies ermöglicht es Web SDK-Benutzern, Activity Map-Berichte zu erhalten, wenn das Linktracking mit dem Web SDK und der in Analytics konfigurierten Activity Map aktiviert ist.<p>Durch die Aktivierung des Linktrackings mit dem Web SDK werden derzeit Linkereignisse gesendet, wenn ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden. Weitere Infos [here](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) und [here](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | Nicht angegeben | 31. März 2023 |
-| **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | **Vorübergehend nicht verfügbar** |
+| **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | 29. März 2023 |
 | **Daten-Storys in mobilen Dashboards** | Mit Daten-Storys können Sie mehrere anpassbare Detailansichten zu Kacheln in mobilen Scorecard-Projekten hinzufügen. Verwenden Sie Daten-Storys, um tiefer in wichtige Treiber, zugehörige Metriken und verschiedene Schritte während der Customer Journey einzutauchen. Sie können einfach durch diese Ansichten wischen, um die ganze Story hinter Ihren Schlüsselmetriken zu verstehen. [Weitere Informationen](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | Nicht angegeben | 8. März 2023 |
 | **Ablaufdaten für geplante Projekte** | Sie können die maximalen Ablaufdaten für geplante Projekte auf bis zu ein Jahr festlegen, unabhängig von der Häufigkeit des Zeitplans. | Nicht angegeben | 8. März 2023 |
 | **Link-Freigabe für Projekte (keine Anmeldung erforderlich)** – Nur privater Beta-Zugriff | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Sie können Projekt-Links für Personen außerhalb Ihrer Organisation oder für Personen innerhalb Ihrer Organisation freigeben, die nicht für Adobe Analytics vorgesehen sind. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Um an der privaten Beta-Version teilzunehmen, wenden Sie sich an Ihr Adobe Account Team.</p> | 26. April 2023 | Juni 2023 |
