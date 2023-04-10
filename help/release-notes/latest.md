@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4e9b96fc29ee8c409019c292d565ea229e7c521f
+source-git-commit: c24a78f914faf1a236a1cb7ae2ce51dd9265012f
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1535'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | 29. März 2023 |
 | **Daten-Storys in mobilen Dashboards** | Mit Daten-Storys können Sie mehrere anpassbare Detailansichten zu Kacheln in mobilen Scorecard-Projekten hinzufügen. Verwenden Sie Daten-Storys, um tiefer in wichtige Treiber, zugehörige Metriken und verschiedene Schritte während der Customer Journey einzutauchen. Sie können einfach durch diese Ansichten wischen, um die ganze Story hinter Ihren Schlüsselmetriken zu verstehen. [Weitere Informationen](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | Nicht angegeben | 8. März 2023 |
 | **Ablaufdaten für geplante Projekte** | Sie können die maximalen Ablaufdaten für geplante Projekte auf bis zu ein Jahr festlegen, unabhängig von der Häufigkeit des Zeitplans. | Nicht angegeben | 8. März 2023 |
-| **Link-Freigabe für Projekte (keine Anmeldung erforderlich)** – Nur privater Beta-Zugriff | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Sie können Projekt-Links für Personen außerhalb Ihrer Organisation oder für Personen innerhalb Ihrer Organisation freigeben, die nicht für Adobe Analytics vorgesehen sind. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Um an der privaten Beta-Version teilzunehmen, wenden Sie sich an Ihr Adobe Account Team.</p> | 26. April 2023 | Juni 2023 |
+| **Link-Freigabe für Projekte (keine Anmeldung erforderlich)** – Nur privater Beta-Zugriff | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Sie können Projekt-Links für Personen außerhalb Ihrer Organisation oder für Personen innerhalb Ihrer Organisation freigeben, die nicht für Adobe Analytics vorgesehen sind. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> | 26. April 2023 | Juni 2023 |
 | **Aktualisierungen des Datumsbereichs des Bedienfelds** | In Workspace wurden die folgenden Verbesserungen hinzugefügt:<ul><li>Ab der Februar-Version basieren Dimensionselemente und Datenvorschauen auf dem Datumsbereich des Bedienfelds und nicht auf den letzten 90 Tagen. </li><li>Alle aufgelisteten Dimensionselemente basieren auf Daten innerhalb des Datumsbereichs des Bedienfelds. Wenn ein Dimensionselement Daten außerhalb des Datumsbereichs enthält, können Sie zusätzliche Daten über den Datumsbereich hinaus am unteren Rand der Liste anzeigen.</li><li>Dimensionen ohne Daten können in der linken Leiste angezeigt werden. Klicken Sie auf die Optionen Weitere Optionen anzeigen , um Dimensionselemente mit Daten außerhalb des Datumsbereichs des Bedienfelds anzuzeigen.</li><li>Die Datenvorschau im Segment und die Generator für berechnete Metriken basieren auf dem Datumsbereich des Bedienfelds, es sei denn, der Zugriff erfolgt über die Komponentenmanager, die kein Bedienfeld haben und weiterhin auf den letzten 90 Tagen basieren.</li><li>Datenvorschau zeigt Daten oder Komponenten basierend auf dem Datumsbereich des Bedienfelds an.</li></ul> | Nicht angegeben | 8. Februar 2023 |
 
 {style="table-layout:auto"}
