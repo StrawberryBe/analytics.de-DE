@@ -4,7 +4,7 @@ title: Mobile-Scorecard erstellen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
+source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -28,7 +28,7 @@ Als Kurator dieser Scorecard können Sie mit dem Scorecard Builder festlegen, we
 Zur Erstellung der Scorecard führen Sie folgende Schritte aus:
 
 1. Öffnen Sie die Vorlage für [!UICONTROL leere mobile Scorecards].
-2. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
+1. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
 
 ## Zugriff auf die Vorlage für [!UICONTROL leere mobile Scorecards] {#template}
 
@@ -232,14 +232,23 @@ Erstellen Sie Ihren Datenverlauf, indem Sie einer Kachel mehrere Detailfolien hi
 
 1. Beginnen Sie mit einem mobilen Scorecard-Projekt.
 1. Wählen Sie eine Kachel aus, aus der Sie eine Geschichte erstellen möchten.
+
    ![Erstellen eines Datenverlaufs](assets/data-story1.png)
+
    ![Erstellen von Datenverlaufssymbolen](assets/create-data-story.png){width=".50%"}
+
 1. Fügen Sie Folien hinzu, um Ihre Datenstory zu erstellen. Die erste Folie wird standardmäßig generiert.
-Um neue Folien hinzuzufügen, halten Sie den Mauszeiger über eine Folie oder klicken Sie auf sie. Wählen Sie dann aus den verfügbaren Optionen aus:
-   * Tippen Sie auf das Pluszeichen (+), um eine neue Folie zu erstellen.
+
+   Um neue Folien hinzuzufügen, halten Sie den Mauszeiger über eine Folie oder klicken Sie auf sie. Wählen Sie dann aus den verfügbaren Optionen aus:
+
+   * Tippen Sie auf [!UICONTROL +] signieren, um eine neue Folie zu erstellen.
+
    * Tippen Sie auf das Symbol Duplizieren , um die vorhandene Folie zu duplizieren.
+
 1. Wenn Sie eine leere Folie erstellen, ziehen Sie Komponenten aus der linken Leiste oder wählen Sie ein Layout aus, um die Folie automatisch mit den Daten aus der Kachel zu füllen.
+
    ![Erstellen eines Datenverlaufs](assets/data-story2.png)
+
 Um eine Folie zu löschen, tippen Sie auf das Papierkorbsymbol.
 
 ### Anpassen einer Datengeschichte {#customize-data-story}
@@ -251,9 +260,13 @@ Mit Datengeschichten können Sie alles anpassen, sodass Sie Informationen, die S
 1. Tippen Sie auf eine Kachel. Die ausgewählte Kachel wird blau dargestellt und im rechten Bereich werden die Kacheleigenschaften angezeigt.
 1. Ändern Sie den Titel, den Diagrammtyp und andere Optionen für Kacheln.
 1. Ziehen Sie eine Komponente auf die Kachel.
+
    ![Erstellen eines Datenverlaufs](assets/data-story3.png)
-Wenn Sie eine Komponente, z. B. eine Visualisierung, auf eine Kachel ziehen, wird die Komponente auf alle Datenverlauf-Folien angewendet.
+
+   Wenn Sie eine Komponente, z. B. eine Visualisierung, auf eine Kachel ziehen, wird die Komponente auf alle Datenverlauf-Folien angewendet.
+
 1. Um nur eine Änderung des Titels vorzunehmen, halten Sie die Umschalttaste gedrückt, um die Änderung anzuwenden.
+
    ![Erstellen eines Datenverlaufs](assets/data-story4.png)
 
 >[!NOTE]
@@ -272,7 +285,9 @@ Nachdem Sie einen Datenverlauf erstellt haben, verwenden Sie die **Vorschau** -S
 In der Navigationsleiste werden Symbole angezeigt, die den Inhalt der einzelnen Folien darstellen. Die Navigationsleiste erleichtert die Navigation zu einer bestimmten Folie, wenn Sie viele Folien haben.
 
 Um zwischen der Kachel und den Folien zu wechseln, tippen Sie auf die Navigationsleiste.
+
 ![Erstellen eines Datenverlaufs](assets/data-story5.png)
+
 ![Erstellen eines Datenverlaufs](assets/data-story-nav.png){width="25%"}
 
 Sie können auch mit den Pfeilen auf der Tastatur hin- und hernavigieren oder eine Komponente auswählen und zum Bildlauf links oder rechts auf dem Bildschirm gedrückt halten.
