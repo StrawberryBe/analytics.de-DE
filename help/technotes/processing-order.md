@@ -2,10 +2,10 @@
 title: Verarbeitungsreihenfolge für Daten in Adobe Analytics
 description: Erfahren Sie mehr zur Reihenfolge der Komponenten und Services, die Daten in Adobe Analytics verarbeiten.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Sobald Daten in Adobe Analytics eingehen, passen die folgenden Funktionen die Da
 2. [**Dynamische Variablen**](/help/implement/vars/page-vars/dynamic-variables.md): Wenn eine dynamische Variable in einem beliebigen Teil einer Bildanforderung angezeigt wird, wird der Wert kopiert und ab dann als unabhängiger Wert gehandhabt.
 3. [**Bot-Regeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus dem Reporting auszuschließen.
 4. [**Verarbeitungsregeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): Benutzerdefinierte Regeln, die von Ihrer Organisation auf Ihre Daten angewendet werden. Umfasst die Zuordnung von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) auf die entsprechende Variable.
-5. **VISTA-Regeln**: Benutzerdefinierte flexible Regeln, die von einer Person des Adobe-Berater-Teams auf Ihre Daten angewendet werden. VISTA-Regeln können je nach den Anforderungen Ihres Unternehmens vor oder nach den Verarbeitungsregeln ausgeführt werden. VISTA-Regeln werden meist nach den Verarbeitungsregeln ausgeführt, aber jede Organisation ist anders eingerichtet. Wenden Sie sich an Ihren Adobe Account Manager, um weitere Informationen zu bestehenden VISTA-Regeln zu erhalten.
+5. **VISTA-Regeln**: Benutzerdefinierte flexible Regeln, die von einer Person des Adobe-Berater-Teams auf Ihre Daten angewendet werden. VISTA-Regeln können je nach den Anforderungen Ihres Unternehmens vor oder nach den Verarbeitungsregeln ausgeführt werden. VISTA-Regeln werden meist nach den Verarbeitungsregeln ausgeführt, aber jede Organisation ist anders eingerichtet. Wenden Sie sich an Ihr Adobe Account Team, um weitere Informationen zu bestehenden VISTA-Regeln zu erhalten.
 6. [**Marketing-Kanal-Verarbeitungsregeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): Sie können [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um Daten für die Verwendung in Marketing-Kanal-Verarbeitungsregeln vorzubereiten.
 7. **Geolokalisierungsdaten**: Dimensionen, die auf der Suche nach IP-Adressen basieren (z. B. die Dimension [Land](/help/components/dimensions/countries.md)), werden befüllt.
 8. [**IP-Verschleierung**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): Wenn sich Ihr Unternehmen dafür entschieden hat, IP-Adressen in Rohdaten zu verschleiern, erfolgt dies, nachdem alle anderen Verarbeitungsfunktionen abgeschlossen sind.

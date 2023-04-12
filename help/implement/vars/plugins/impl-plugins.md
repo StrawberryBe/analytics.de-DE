@@ -3,10 +3,10 @@ title: Übersicht über Plug-ins
 description: Fügen Sie Code auf Ihrer Website ein, um neue Funktionen einzuführen.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 96%
 
 ---
 
@@ -14,15 +14,13 @@ ht-degree: 100%
 
 Plug-ins sind Codefragmente, die mehrere erweiterte Funktionen ausführen, um Ihre Analytics-Implementierung zu unterstützen. Diese Plug-ins erweitern den Funktionsumfang Ihrer JavaScript-Datei um Funktionen, die bei einer Basisimplementierung nicht vorhanden sind. Im Rahmen erweiterter Lösungen bietet Adobe noch andere Plug-ins an.
 
->[!IMPORTANT]
->
->Plug-ins werden von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für diese Plug-ins, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit einem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+{{plug-in}}
 
 Adobe bietet mehrere Möglichkeiten, ein bestimmtes Plug-in zu installieren:
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1. Einfügen des Plug-in-Codes mit dem benutzerdefinierten Code-Editor
-1. Einfügen des Plug-in-Codes in Ihre `AppMeasurement.js`-Datei.
+* Verwenden der Erweiterung &quot;Common Analytics Plugins&quot;mit der Adobe Analytics-Erweiterung
+* Einfügen des Plug-in-Codes mit dem benutzerdefinierten Code-Editor
+* Einfügen des Plug-in-Codes in Ihre `AppMeasurement.js`-Datei.
 
 Jedes Unternehmen hat unterschiedliche Implementierungsanforderungen, sodass Sie entscheiden können, wie Sie sie in Ihre Implementierung einbeziehen möchten. Stellen Sie sicher, dass Sie die folgenden Kriterien erfüllen, wenn Sie den Code auf Ihrer Website einbeziehen:
 

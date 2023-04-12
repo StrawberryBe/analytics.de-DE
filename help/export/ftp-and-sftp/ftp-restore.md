@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Gelöschte FTP-Daten und FTP-Konten wiederherstellen
 feature: FTP Export
 exl-id: 5aca2196-9c7c-4891-93c9-5af2e7f97fb9
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 100%
+ht-degree: 63%
 
 ---
 
@@ -15,4 +15,4 @@ ht-degree: 100%
 
 Adobe kann keine Daten wiederherstellen, die aus einem FTP-Konto gelöscht wurden.
 
-Falls ein FTP-Konto deaktiviert wurde, das Sie noch verwenden möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer, der Ihnen dann weitere Optionen erläutert.
+Wenn ein FTP-Konto, das Sie verwenden möchten, deaktiviert wurde, wenden Sie sich an Ihr Adobe Account-Team, um weitere Optionen mit Ihnen besprechen zu können.

@@ -3,10 +3,10 @@ title: Akquiseberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berichte erstellen.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -141,4 +141,4 @@ Der Bericht zu kostenlosen Keywords zeigt die Leistung der einzelnen Suchbegriff
 
 ## Kostenanalyse
 
-Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe bietet ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens.
+Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe bietet ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.

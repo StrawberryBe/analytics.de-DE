@@ -3,42 +3,59 @@ title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 94%
+source-wordcount: '759'
+ht-degree: 74%
 
 ---
 
 # Adobe-Plug-in: getQueryParam
 
->[!IMPORTANT]
->
->Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+{{plug-in}}
 
 Mit dem `getQueryParam`-Plug-in können Sie den Wert eines beliebigen Abfragezeichenfolgenparameters extrahieren, der in einer URL enthalten ist. Dies ist nützlich, um interne und externe Kampagnencodes aus den Landingpage-URLs zu extrahieren. Dies ist auch beim Extrahieren von Suchbegriffen oder anderen Abfragezeichenfolgenparametern nützlich.
 
 Dieses Plug-in bietet stabile Funktionen zum Analysieren komplexer URLs, einschließlich Hashes und URLs, die mehrere Abfragezeichenfolgenparameter enthalten. Wenn Sie nur einfache Abfragezeichenfolgenparameter benötigen, empfiehlt Adobe die Verwendung der URL-Parameterfunktionen mithilfe des Web SDK oder der Adobe Analytics-Erweiterung oder der [`Util.getQueryParam()`](../functions/util-getqueryparam.md) -Methode in AppMeasurement enthalten.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installieren des Plug-ins mit der Web SDK-Erweiterung
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit dem Web SDK verwenden können.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getQueryParam
-1. Save and publish the changes to the rule.-->
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
+1. Klicken **[!UICONTROL Tags]** auf der linken Seite und klicken Sie dann auf die gewünschte Tag-Eigenschaft.
+1. Klicken **[!UICONTROL Erweiterungen]** auf der linken Seite und klicken Sie dann auf das **[!UICONTROL Katalog]** tab
+1. Suchen und installieren Sie die **[!UICONTROL Allgemeine Web SDK-Plug-ins]** -Erweiterung.
+1. Klicken **[!UICONTROL Datenelemente]** Klicken Sie links auf das gewünschte Datenelement.
+1. Legen Sie den gewünschten Datenelementnamen mit der folgenden Konfiguration fest:
+   * Erweiterung: Allgemeine Web SDK-Plug-ins
+   * Datenelement: `getQueryParam`
+1. Legen Sie die gewünschten Parameter auf der rechten Seite fest.
+1. Speichern und veröffentlichen Sie die Änderungen am Datenelement.
+
+## Installieren Sie das Plug-in manuell, um das Web SDK zu implementieren
+
+Dieses Plug-in wird noch nicht für die Verwendung in einer manuellen Implementierung des Web SDK unterstützt.
+
+## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
+
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
+
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
+1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: getQueryParam initialisieren
+1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
+Wenn Sie die Plug-in-Erweiterung &quot;Common Analytics Plugins&quot;nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Eigenschaft.

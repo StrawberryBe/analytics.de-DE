@@ -3,10 +3,10 @@ title: Richtlinie zur Datenaufbewahrung
 description: Eine Richtlinie zur Datenaufbewahrung bestimmt, wie lange Adobe Ihre Daten speichert.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ Die gespeicherten Daten basieren auf dem aktuellen Datum und dem Datum/der Uhrze
 
 ## Anpassen der standardmäßigen Datenaufbewahrungszeit
 
-Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie die standardmäßige Datenaufbewahrungszeit verkürzen oder verlängern möchten.
+Wenden Sie sich an Ihr Adobe Account Team, wenn Sie die standardmäßige Datenaufbewahrungsdauer verkürzen oder verlängern möchten.
 
 * Für die Verkürzung der standardmäßigen Datenaufbewahrungszeit fallen keine Gebühren an.
 * Die Verlängerung der Datenspeicherung über den Standardzeitraum von 25 Monaten hinaus erfordert den Kauf von Erweiterungen, die in Schritten von jeweils einem Jahr verfügbar sind. Es können bis zu acht Erweiterungen erworben werden, für insgesamt zehn Jahre und einen Monat (zwei Jahre und ein Monat aus der Standardaufbewahrung plus acht gebührenpflichtige Jahre).
@@ -49,9 +49,9 @@ In der Datenaufbewahrungsrichtlinie wird ein rollierendes Zeitfenster für die D
 
 **Kann ich eine Kopie meiner Daten erhalten, bevor sie gelöscht werden?**
 
-Ja. Adobe kann einen Verlaufsdaten-Dump roher Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn die Anforderungen für den Datenexport außerhalb des Umfangs der Benutzeroberfläche liegen. Hierfür können besondere Vorkehrungen getroffen werden. Die Kosten können variieren.
+Ja. Adobe kann einen Verlaufsdaten-Dump roher Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten. Wenden Sie sich an Ihr Adobe Account Team, wenn die Anforderungen an den Datenexport außerhalb des Umfangs der Benutzeroberfläche liegen. Hierfür können besondere Vorkehrungen getroffen werden. Die Kosten können variieren.
 
 **Wann löscht Adobe Daten?**
 
-Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, um Näheres zu dem Zeitrahmen zu erfahren, in dem die Löschung Ihrer Daten geplant ist. Daten werden in der Regel nach einem rollierenden monatlichen Zeitplan gelöscht.
+Wenden Sie sich an Ihr Adobe Account Team, um zu erfahren, wann das Löschen Ihrer Daten geplant ist. Daten werden in der Regel nach einem rollierenden monatlichen Zeitplan gelöscht.
 

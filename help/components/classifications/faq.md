@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen zu Klassifizierungen
 description: Häufig gestellte Fragen zur Verwendung von Klassifizierungen
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Klassifizierungsdateien, die mit einem Schlüsselwert oder einem Klassifizierung
 
    *Wenn die [Dimension] gleich `0` ist, überschreiben Sie den Wert der [Dimension] mit dem benutzerdefinierten Wert `Zero`.*
 
-* **Eine VISTA-Regel anfordern**: Ein Engineering Services-Berater richtet gegen Aufpreis eine Server-seitige Regel für Sie ein. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, um eine VISTA-Regel anzufordern.
+* **Eine VISTA-Regel anfordern**: Ein Engineering Services-Berater richtet gegen Aufpreis eine Server-seitige Regel für Sie ein. Wenden Sie sich an Ihr Adobe Account Team, um eine VISTA-Regel anzufordern.
 
 ## Kann ich mit Classification Importer Dimensionselemente klassifizieren, die noch nicht vorhanden sind?
 

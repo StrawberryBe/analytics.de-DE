@@ -2,10 +2,10 @@
 title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe des Gerätediagramms vertraut.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 68%
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ Geräteübergreifende Analysen können das private Diagramm verwenden, um Daten 
 
 ## Besondere Voraussetzungen für das Gerätediagramm
 
-Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrer Organisation und Ihrem Adobe-Kundenbetreuer zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
+Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe Account Team zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
 
 >[!WARNING]
 >

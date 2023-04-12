@@ -3,40 +3,42 @@ title: manageVars
 description: Ändern Sie die Werte mehrerer Analytics-Variablen gleichzeitig.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 88%
 
 ---
 
 # Adobe-Plug-in: manageVars
 
->[!IMPORTANT]
->
->Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+{{plug-in}}
 
 Mit dem `manageVars`-Plug-in können Sie die Werte mehrerer Analytics-Variablen gleichzeitig bearbeiten. Sie können Werte auch auf Kleinbuchstaben setzen oder unnötige Zeichen gleichzeitig aus mehreren Variablenwerten entfernen. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie den Wert mehrerer Variablen gleichzeitig bereinigen möchten.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installieren des Plug-ins mit der Web SDK- oder Web SDK-Erweiterung
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Dieses Plug-in wird noch nicht für die Verwendung im Web SDK unterstützt.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize manageVars
-1. Save and publish the changes to the rule.-->
+## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
+
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
+
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
+1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: manageVars initialisieren
+1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
+Wenn Sie die Plug-in-Erweiterung &quot;Common Analytics Plugins&quot;nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
@@ -136,7 +138,7 @@ manageVars("cleanStr");
 
 * Entfernt die HTML-Codierung
 * Entfernt Leerzeichen am Anfang und Ende des Werts
-* Ersetzt linke/rechte einfache Anführungszeichen (z. B. ‘) mit einem geraden einfachen Anführungszeichen (&#39;)
+* Ersetzt einfache linke/rechte Anführungszeichen durch ein gerades einfaches Anführungszeichen (`'`)
 * Ersetzt Tabulatorzeichen, Zeilenumbruchzeichen und Zeilenumschalterzeichen durch Leerzeichen
 * Ersetzt alle doppelten (oder dreifachen usw.) Leerzeichen mit einem Leerzeichen
 

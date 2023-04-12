@@ -3,10 +3,10 @@ description: Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics 
 title: Adobe Analytics und der CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help/ad
 * Verbinden Sie Ihr Anmeldeunternehmen ggf. mit einer Experience Cloud-Organisation. Wenden Sie sich an die Adobe-Kundenunterstützung und lesen Sie die Informationen unter [Organisationen und Kontoverknüpfung.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de)
 * Legen Sie für jede Report Suite eine Richtlinie zur Datenaufbewahrung fest, damit CCPA-Zugriffs- und -Löschanfragen bearbeitet werden können.
 
-   Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die Privacy Services API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Bitte wenden Sie sich an Ihren Customer Success Manager, um die Speicherdauer Ihrer Daten festzulegen.
+   Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die Privacy Services API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Wenden Sie sich an Ihr Adobe Account Team, um Ihre Datenaufbewahrungsdauer festzulegen.
 
 * Überprüfen Sie Ihre Berechtigungen: Um die Analytics-Benutzeroberfläche zur Data-Governance-Verwaltung zu verwenden, müssen Sie Adobe Analytics-Administrator sein.
 * Erwägen Sie die Implementierung der [Managementvariablen zur Einwilligung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md), um den Genehmigungsstatus auf Trefferebene zu verfolgen.

@@ -3,40 +3,57 @@ title: getAndPersistValue
 description: Speichern Sie einen Wert, der später jederzeit abgerufen werden kann.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '677'
+ht-degree: 70%
 
 ---
 
 # Adobe-Plug-in: getAndPersistValue
 
->[!IMPORTANT]
->
->Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+{{plug-in}}
 
 Mit dem `getAndPersistValue`-Plug-in können Sie einen Wert in einem Cookie speichern, das später während eines Besuchs abgerufen werden kann. Sie erfüllt eine ähnliche Rolle wie die [!UICONTROL Aufbewahrungsdauer] in der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie eine Analytics-Variable bei nachfolgenden Treffern automatisch auf dem gleichen Wert belassen wollen, nachdem die Variable gesetzt wurde. Dieses Plug-in ist nicht erforderlich, wenn die Variable [!UICONTROL Aufbewahrungsdauer] -Funktion in der Analytics-Erweiterung ist ausreichend. Es ist auch nicht erforderlich, dieses Plug-in zu verwenden, wenn Sie Variablen in nachfolgenden Treffern nicht auf denselben Wert setzen und beibehalten müssen. Die integrierte Persistenz von eVars erfordert keine Verwendung dieses Plug-ins, da eVars von Adobe Server-seitig persistiert werden.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installieren des Plug-ins mit der Web SDK-Erweiterung
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit dem Web SDK verwenden können.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getAndPersistValue
-1. Save and publish the changes to the rule.-->
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
+1. Klicken **[!UICONTROL Tags]** auf der linken Seite und klicken Sie dann auf die gewünschte Tag-Eigenschaft.
+1. Klicken **[!UICONTROL Erweiterungen]** auf der linken Seite und klicken Sie dann auf das **[!UICONTROL Katalog]** tab
+1. Suchen und installieren Sie die **[!UICONTROL Allgemeine Web SDK-Plug-ins]** -Erweiterung.
+1. Klicken **[!UICONTROL Datenelemente]** Klicken Sie links auf das gewünschte Datenelement.
+1. Legen Sie den gewünschten Datenelementnamen mit der folgenden Konfiguration fest:
+   * Erweiterung: Allgemeine Web SDK-Plug-ins
+   * Datenelement: `getAndPersistValue`
+1. Legen Sie die gewünschten Parameter auf der rechten Seite fest.
+1. Speichern und veröffentlichen Sie die Änderungen am Datenelement.
+
+## Installieren Sie das Plug-in manuell, um das Web SDK zu implementieren
+
+Dieses Plug-in wird noch nicht für die Verwendung in einer manuellen Implementierung des Web SDK unterstützt.
+
+## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
+
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
+
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
+1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog].
+1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: getAndPersistValue initialisieren
+1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
+Wenn Sie die Plug-in-Erweiterung &quot;Common Analytics Plugins&quot;nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
