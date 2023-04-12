@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -216,81 +216,81 @@ Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, 
 
 ![Komponenten entfernen](assets/new_remove.png)
 
-## Erstellen von Datenspeichern {#create-data-story}
+## Erstellen von Daten-Storys {#create-data-story}
 
-Eine Datengeschichte ist eine Sammlung unterstützender Datenpunkte, Geschäftskontexte und verwandter Metriken, die auf einem zentralen Thema oder einer zentralen Metrik basieren.
+Eine Daten-Story ist eine Sammlung unterstützender Datenpunkte, Geschäftskontexte und verwandter Metriken, die auf einem zentralen Thema oder einer zentralen Metrik basieren.
 
-Wenn Sie sich beispielsweise auf den Web-Traffic konzentrieren, kann es sich bei Ihrer wichtigsten Metrik um Besuche handeln, Sie können aber auch an neuen Besuchern oder Unique Visitors interessiert sein und Sie möchten möglicherweise Daten sehen, die nach Web-Seite oder Gerätetyp aufgeschlüsselt sind, von dem der Traffic stammt. Datengeschichten in mobilen Scorecard-Projekten ermöglichen es Ihnen, die wichtigsten Metriken in den Vordergrund zu stellen und gleichzeitig die gesamte Geschichte mit mehreren Detailfolien hinter den Metriken zu erzählen.
+Wenn Sie sich beispielsweise auf den Webtraffic konzentrieren, können Besuche Ihre wichtigste Metrik sein. Neue Visitors oder Unique Visitors sind für Sie aber möglicherweise ebenfalls interessant. Vielleicht möchten Sie auch Daten sehen, die nach Web-Seite oder dem Gerätetyp aufgeschlüsselt sind, von dem der Traffic stammt. Daten-Storys in mobilen Scorecard-Projekten ermöglichen es Ihnen, die wichtigsten Metriken in den Vordergrund zu stellen und gleichzeitig die gesamte Story hinter den Metriken mithilfe mehrerer Detailfolien zu erzählen.
 
-Sehen Sie sich das Video an, um mehr über das Erstellen von Datenmeldungen in mobilen Scorecard-Projekten in Analysis Workspace zu erfahren.
+Sehen Sie sich das Video an, um mehr über das Erstellen von Daten-Storys in Mobile-Scorecard-Projekten in Analysis Workspace zu erfahren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**So erstellen Sie einen Datenverlauf**
+**Erstellen einer Daten-Story**
 
-Erstellen Sie Ihren Datenverlauf, indem Sie einer Kachel mehrere Detailfolien hinzufügen.
+Erstellen Sie Ihre Daten-Story, indem Sie einer Kachel mehrere Detailfolien hinzufügen.
 
-1. Beginnen Sie mit einem mobilen Scorecard-Projekt.
-1. Wählen Sie eine Kachel aus, aus der Sie eine Geschichte erstellen möchten.
+1. Beginnen Sie mit einem Mobile-Scorecard-Projekt.
+1. Wählen Sie eine Kachel aus, anhand der Sie eine Story erstellen möchten.
 
-   ![Erstellen eines Datenverlaufs](assets/data-story1.png)
+   ![Erstellen einer Daten-Story](assets/data-story1.png)
 
-   ![Erstellen von Datenverlaufssymbolen](assets/create-data-story.png){width=".50%"}
+   ![Symbole zum Erstellen einer Daten-Story](assets/create-data-story.png){width=".50%"}
 
-1. Fügen Sie Folien hinzu, um Ihre Datenstory zu erstellen. Die erste Folie wird standardmäßig generiert.
+1. Fügen Sie Folien hinzu, um Ihre Daten-Story zu erstellen. Die erste Folie wird standardmäßig generiert.
 
-   Um neue Folien hinzuzufügen, halten Sie den Mauszeiger über eine Folie oder klicken Sie auf sie. Wählen Sie dann aus den verfügbaren Optionen aus:
+   Um neue Folien hinzuzufügen, bewegen Sie den Mauszeiger über eine Folie oder klicken Sie auf sie. Wählen Sie dann eine der verfügbaren Optionen aus:
 
    * Tippen Sie auf [!UICONTROL +] signieren, um eine neue Folie zu erstellen.
 
-   * Tippen Sie auf das Symbol Duplizieren , um die vorhandene Folie zu duplizieren.
+   * Tippen Sie auf das Duplizieren-Symbol, um die vorhandene Folie zu duplizieren.
 
-1. Wenn Sie eine leere Folie erstellen, ziehen Sie Komponenten aus der linken Leiste oder wählen Sie ein Layout aus, um die Folie automatisch mit den Daten aus der Kachel zu füllen.
+1. Wenn Sie eine leere Folie erstellen, ziehen Sie Komponenten per Drag-and-Drop aus der linken Leiste oder wählen Sie ein Layout aus, um die Folie automatisch mit den Daten aus der Kachel aufzufüllen.
 
-   ![Erstellen eines Datenverlaufs](assets/data-story2.png)
+   ![Erstellen einer Daten-Story](assets/data-story2.png)
 
 Um eine Folie zu löschen, tippen Sie auf das Papierkorbsymbol.
 
-### Anpassen einer Datengeschichte {#customize-data-story}
+### Anpassen einer Daten-Story {#customize-data-story}
 
-Mit Datengeschichten können Sie alles anpassen, sodass Sie Informationen, die Sie freigeben möchten, freigeben und alles ausschließen können, was Sie nicht benötigen. Sie können Kacheln und einzelne Folien anpassen, um Filter hinzuzufügen, Aufschlüsselungen anzuzeigen, das Layout zu ändern und die Visualisierungen zu ändern.
+Mit Daten-Storys können Sie alles anpassen, sodass Sie Informationen, die Sie weitergeben möchten, freigeben und alles ausschließen können, was Sie nicht benötigen. Sie können Kacheln und einzelne Folien anpassen, um Filter hinzuzufügen, Aufschlüsselungen anzuzeigen, das Layout zu ändern und die Visualisierungen zu ändern.
 
 **Anpassen von Kacheln**
 
-1. Tippen Sie auf eine Kachel. Die ausgewählte Kachel wird blau dargestellt und im rechten Bereich werden die Kacheleigenschaften angezeigt.
-1. Ändern Sie den Titel, den Diagrammtyp und andere Optionen für Kacheln.
+1. Tippen Sie auf eine Kachel. Die ausgewählte Kachel wird blau dargestellt, und im rechten Bereich werden die Kacheleigenschaften angezeigt.
+1. Ändern Sie den Titel, den Diagrammtyp und andere Kacheloptionen.
 1. Ziehen Sie eine Komponente auf die Kachel.
 
-   ![Erstellen eines Datenverlaufs](assets/data-story3.png)
+   ![Erstellen einer Daten-Story](assets/data-story3.png)
 
    Wenn Sie eine Komponente, z. B. eine Visualisierung, auf eine Kachel ziehen, wird die Komponente auf alle Datenverlauf-Folien angewendet.
 
-1. Um nur eine Änderung des Titels vorzunehmen, halten Sie die Umschalttaste gedrückt, um die Änderung anzuwenden.
+1. Für eine reine Titeländerung halten Sie die Umschalttaste gedrückt, um die Änderung anzuwenden.
 
-   ![Erstellen eines Datenverlaufs](assets/data-story4.png)
+   ![Erstellen einer Daten-Story](assets/data-story4.png)
 
 >[!NOTE]
 >Folien übernehmen Komponenten von der Kachel, Kacheln übernehmen jedoch keine Komponenten von Folien.
 
-**So passen Sie einzelne Folien an**
+**Anpassen einzelner Folien**
 
-Sie können die Visualisierung für einzelne Folien in einem Datenverlauf ändern. Sie können beispielsweise einen horizontalen Balken für eine bestimmte Folie in einen Zweitausendgraphen ändern. Sie können auch das Layout ändern. Siehe [Detailfolien anpassen](#customize-detail-slide).
+Sie können die Visualisierung für einzelne Folien in einer Daten-Story ändern. Sie können beispielsweise einen horizontalen Balken für eine bestimmte Folie in ein Ringdiagramm ändern. Sie können auch das Layout ändern. Siehe [Anpassen von Detailfolien](#customize-detail-slide).
 
-### Vorschau eines Datenverlaufs {#preview-data-story}
+### Vorschau einer Daten-Story {#preview-data-story}
 
-Nachdem Sie einen Datenverlauf erstellt haben, verwenden Sie die **Vorschau** -Schaltfläche, um einen Datenverlauf so anzuzeigen und mit ihm zu interagieren, als wären Sie ein App-Benutzer. Informationen zur Vorschau Ihrer Datengeschichte finden Sie unter [Vorschau einer Scorecard anzeigen](#preview)
+Nachdem Sie eine Daten-Story erstellt haben, verwenden Sie die Schaltfläche **Vorschau**, um eine Daten-Story so anzuzeigen und mit ihr zu interagieren, als würden Sie eine App nutzen. Informationen zur Vorschau Ihrer Daten-Story finden Sie unter [Vorschau einer Scorecard](#preview).
 
-### Zwischen Kacheln und Folien navigieren {#navigate-tiles-slides}
+### Navigieren zwischen Kacheln und Folien {#navigate-tiles-slides}
 
-In der Navigationsleiste werden Symbole angezeigt, die den Inhalt der einzelnen Folien darstellen. Die Navigationsleiste erleichtert die Navigation zu einer bestimmten Folie, wenn Sie viele Folien haben.
+In der Navigationsleiste werden Symbole angezeigt, die für den Inhalt der einzelnen Folien stehen. Die Navigationsleiste erleichtert die Navigation zu einer bestimmten Folie, wenn viele Folien vorhanden sind.
 
 Um zwischen der Kachel und den Folien zu wechseln, tippen Sie auf die Navigationsleiste.
 
-![Erstellen eines Datenverlaufs](assets/data-story5.png)
+![Erstellen einer Daten-Story](assets/data-story5.png)
 
-![Erstellen eines Datenverlaufs](assets/data-story-nav.png){width="25%"}
+![Erstellen einer Daten-Story](assets/data-story-nav.png){width="25%"}
 
-Sie können auch mit den Pfeilen auf der Tastatur hin- und hernavigieren oder eine Komponente auswählen und zum Bildlauf links oder rechts auf dem Bildschirm gedrückt halten.
+Sie können auch hin und her navigieren, indem Sie die Pfeile auf der Tastatur verwenden oder eine Komponente auswählen und links bzw. rechts auf dem Bildschirm gedrückt halten, um einen Bildlauf durchzuführen.
 
 
 ## Vorschau der Scorecard {#preview}
