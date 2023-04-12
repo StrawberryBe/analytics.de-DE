@@ -5,16 +5,20 @@ title: Besuchermigration
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
 # Besuchermigration
 
-Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domain zu einer anderen migriert.
+>[!NOTE]
+>
+>Wenn Sie den Experience Cloud-Besucher-ID-Dienst bereits implementiert haben, gilt die Übergangsphase nicht für Sie und sollte nicht aktiviert werden.
+
+Bei der Besuchermigration handelt es sich um einen Prozess, bei dem das Besucher-ID-Cookie(s_vi) von einer Domäne zu einer anderen migriert wird.
 
 Beim Migrieren von Besuchern können Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
 
