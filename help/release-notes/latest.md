@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6d9b568a0ce9d0e8b25d04e934052d2f8012da8c
+source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
