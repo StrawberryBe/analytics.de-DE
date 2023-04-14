@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3929'
 ht-degree: 98%
 
 ---
@@ -27,6 +27,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **April 2023** |  |
 | 2 neue Endpunkthandbücher für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics-Metrik-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde optimiert und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten werden jetzt mit den Schritten für [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | **März 2023** |  |
 | Web SDK-Unterstützung für Activity Map | Aktualisiert [Implementieren von Adobe Analytics](/help/implement/home.md) und [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Übersicht über Traffic-Variablen (Props) | Es wurden Abschnitte und schrittweise Anweisungen zur Klarstellung und Verbesserung des Artikelinhalts hinzugefügt. Inhalte aus dem Artikel „Aktivieren von Traffic-Variablen-Berichten“ wurden zusammengeführt und dieser Artikel entfernt. Siehe [Übersicht über Traffic-Variablen (Props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |

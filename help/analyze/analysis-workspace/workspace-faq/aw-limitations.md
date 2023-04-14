@@ -4,10 +4,10 @@ title: Bekannte Einschränkungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ Im Folgenden finden Sie eine Liste der bekannten Einschränkungen in Analysis Wo
 ## Komponenten > Segmente
 
 * Bestimmte Metriken und Dimensionen können nicht segmentiert werden, wie [!UICONTROL Vorfälle], [!UICONTROL Unique Visitors] usw.
-* Ad-hoc-Segmente, die in der [Bedienfeld-Dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) erstellt wurden, werden nicht in der linken Leiste von Workspace oder im Segment-Komponenten-Manager angezeigt, es sei denn, sie werden veröffentlicht. Dies erreichen Sie durch das Bearbeiten des Segments und Auswählen von **[!UICONTROL Dieses Segment veröffentlichen]**.
+* Ad-hoc-Segmente, die im [Bedienfeld-Dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) sind eine Art Schnellfilter. Sie werden nicht in der linken Leiste von Workspace oder im Segment-Komponenten-Manager angezeigt, es sei denn, sie werden veröffentlicht. Weitere Informationen finden Sie unter [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Komponenten > Berechnete Metriken
 

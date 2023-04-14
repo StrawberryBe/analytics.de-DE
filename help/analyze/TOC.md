@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 100%
       + Segmente {#segments}
          + [Erstellen von Segmenten](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Schnellsegmente](analysis-workspace/components/segments/quick-segments.md)
-         + [Ad-hoc-Segmente](analysis-workspace/components/segments/ad-hoc-segments.md)
       + Kalender und Datumsbereiche {#calendar-date-ranges}
          + [Übersicht über Kalender und Datumsbereiche](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Benutzerdefinierte Datumsbereiche erstellen](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
