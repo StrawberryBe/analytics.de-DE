@@ -4,9 +4,9 @@ description: Freiformtabellen sind die Grundlage für die Analyse von Daten in W
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 69%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 In Analysis Workspace bildet eine Freiformtabelle die Grundlage für die interaktive Analyse von Daten. Sie können eine Kombination von [Komponenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=de) per Drag und Drop in die Zeilen und Spalten ziehen, um eine benutzerdefinierte Tabelle für Ihre Analyse zu erstellen. Wenn jede Komponente abgelegt wird, wird die Tabelle sofort aktualisiert, sodass Sie schnell analysieren und tiefer gehen können.
 
-Um dies zu veranschaulichen, beginnen Sie mit einer leeren Freiformtabelle.
+## Einfache Freiformtabelle erstellen
+
+Sie beginnen mit einer leeren Freiformtabelle.
 
 ![Leere Freiformtabelle](assets/freeform-table-1.png)
 
-Wenn Sie die **[!UICONTROL ** Besuche **]** Metrik auf der **[!UICONTROL ** Metrik hier ablegen (oder eine andere Komponente)**]** festgelegt ist, wird die Freiformtabelle für den ausgewählten Zeitraum automatisch mit Besuchen pro Tag gefüllt.
+Wenn Sie die **[!UICONTROL ** Besuche **]** Metrik auf der **[!UICONTROL ** Metrik hier ablegen (oder eine andere Komponente)**]** festgelegt ist, wird die Freiformtabelle für den ausgewählten Kalenderzeitraum automatisch mit Besuchen pro Tag gefüllt.
 
 ![Besuche Freiformtabelle](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Wenn Sie dann **[!UICONTROL ** Seite **]** Dimension, die ersetzt werden soll **
 
 ![Besuche nach Seiten-Freiformtabelle](assets/freeform-table-3.png)
 
-Und dann können Sie zum Beispiel die **[!UICONTROL ** category:5 **]** Seite durch Ablegen der **[!UICONTROL ** Marketingkanal **]** Dimension auf **[!UICONTROL ** category:5 **]** Zeile.
+Sie können dann beispielsweise die **[!UICONTROL ** category:5 **]** Seite durch Ablegen der **[!UICONTROL ** Marketingkanal **]** Dimension auf **[!UICONTROL ** category:5 **]** Zeile.
 
 ![Besuchsaufschlüsselung nach Freiformtabelle der Seite](assets/freeform-table-4.png)
 
