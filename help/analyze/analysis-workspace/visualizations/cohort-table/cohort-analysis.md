@@ -4,9 +4,9 @@ description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgrupp
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '490'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,6 @@ Beispiele für die Nutzung einer [!UICONTROL Kohortenanalyse]:
 * Erhöhen Sie das Marketingbudget genau zum richtigen Zeitpunkt im Kundenlebenszyklus.
 * Erkennen Sie, wann eine Testphase oder ein Angebot beendet werden sollte, um den Wert zu maximieren.
 * Gewinnen Sie Ideen für A/B-Tests in Bereichen wie Preisstruktur, Upgrade-Pfad usw.
-* Zeigen Sie einen [!UICONTROL Kohortenanalysebericht] mit einem angeleiteten Analysebericht an.
 
 Die [!UICONTROL Kohortenanalyse] steht allen Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analysis Workspace] zur Verfügung.
 
