@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 57%
+source-wordcount: '1752'
+ht-degree: 55%
 
 ---
 
@@ -138,6 +138,10 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
    <!-- Add screen shot of new modal -->
 
 1. Aktivieren Sie die **[!UICONTROL Link ist aktiv]** -Option, wenn sie noch nicht aktiviert ist.
+
+   Wenn Sie diese Option auswählen, wird ein Link zum Projekt erstellt, der für alle freigegeben werden kann. Sie können den Zugriff auf das Projekt jederzeit deaktivieren, indem Sie diese Option deaktivieren.
+
+   Der Eigentümer des Projekts ist auch Eigentümer dieses Links. Das Linkeigentum kann nur dann an einen anderen Benutzer übertragen werden, wenn das Projekteigentum übertragen wird, wie unter [Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs](/help/admin/admin/user-management2/users-assets.md) im Analytics Admin-Handbuch.
 
 1. Wählen Sie aus, ob die folgende Sicherheitsoption aktiviert werden soll (diese Option kann von Ihrem Analytics-Administrator gesteuert werden):
 
