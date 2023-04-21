@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 96%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (April 2023)
 
-**Letzte Aktualisierung**: 12. April 2023
+**Letzte Aktualisierung**: 21. April 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,6 +20,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Aufstockung für Nicht-Produktions-Sandboxes** | Beim Erstellen eines Analytics Source Connector-Datenflusses in einer Nicht-Produktions-Sandbox ist die Aufstockung in Nicht-Produktions-Sandboxes auf 3 Monate beschränkt. Für Produktions-Sandboxes bleibt sie bei 13 Monaten. | Nicht angegeben | 26. April 2023 |
 | **Zeilen-/Spaltenfilter für Analytics Source Connector-Streaming** | Der Analytics-Source-Connector in Adobe Experience Platform ermöglicht jetzt das Filtern von Analytics-Daten, mit denen Profile in [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de) gefüllt werden. Die Filterung auf Zeilenebene hilft, die Anzahl der mit Profilen verknüpften Ereignisse zu reduzieren. Die Filterung auf Spaltenebene hilft, die Vielfalt der Ereignisse selbst zu reduzieren, und ermöglicht es Ihnen so, die Nutzung von Profilberechtigungen zu optimieren. Diese Filterung gilt nur für Daten, die an das Echtzeit-Kundenprofil und an [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de) gesendet werden. **Die Filterung wirkt sich nicht auf die Daten aus, die zur Verwendung in Anwendungen wie Customer Journey Analytics an Data Lake gesendet werden**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de#filtering-for-profile) | Nicht angegeben | 29. März 2023 |
 | **Partielle Unterstützung für Activity Map mit Web SDK** | Ab Version 2.15.0 des Web SDK wird mit dem Ausfüllen von Activity Map-Daten begonnen, wenn das Linktracking aktiviert ist. Dies ermöglicht es Web SDK-Benutzenden, Activity Map-Berichte zu erhalten, wenn das Linktracking mit dem Web SDK und der in Analytics konfigurierten Activity Map aktiviert ist.<p>Durch die Aktivierung von Linktracking mit dem Web SDK werden derzeit Link-Ereignisse gesendet, wenn eine Kundin oder ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden. Weitere Informationen sind [hier](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) und [hier](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) verfügbar | Nicht angegeben | 31. März 2023 |
 | **IP-Verschleierung für Experience Edge** | Experience Edge unterstützt die IP-Verschleierung für Daten, die direkt an Adobe Experience Platform gesendet werden. Dies kommt Kundinnen und Kunden zugute, die Daten zur Verwendung in CJA oder anderen Platform-Lösungen direkt an Platform senden. Die IP-Verschleierung wird auf Datenstrom-Ebene konfiguriert. Sie unterstützt das Entfernen des letzten Bytes oder der gesamten IP-Adresse.<p>**Hinweis**: Die Verschleierung gilt NICHT für Daten, die an Adobe Analytics gesendet werden. Analytics erhält weiterhin die vollständige IP-Adresse. Die IP-Verarbeitung erfolgt weiterhin separat in Analytics. In Zukunft planen wir, die Verschleierung von Analytics-Daten an der Edge zuzulassen. | Nicht angegeben | AEP-Version vom 26. April 2023 |
