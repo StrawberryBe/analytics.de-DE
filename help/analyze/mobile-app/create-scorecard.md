@@ -241,7 +241,7 @@ Erstellen Sie Ihre Daten-Story, indem Sie einer Kachel mehrere Detailfolien hinz
 
    Um neue Folien hinzuzufügen, bewegen Sie den Mauszeiger über eine Folie oder klicken Sie auf sie. Wählen Sie dann eine der verfügbaren Optionen aus:
 
-   * Tippen Sie auf [!UICONTROL +] signieren, um eine neue Folie zu erstellen.
+   * Tippen Sie auf das Pluszeichen ([!UICONTROL +]), um eine neue Folie zu erstellen.
 
    * Tippen Sie auf das Duplizieren-Symbol, um die vorhandene Folie zu duplizieren.
 
@@ -263,7 +263,7 @@ Mit Daten-Storys können Sie alles anpassen, sodass Sie Informationen, die Sie w
 
    ![Erstellen einer Daten-Story](assets/data-story3.png)
 
-   Wenn Sie eine Komponente, z. B. eine Visualisierung, auf eine Kachel ziehen, wird die Komponente auf alle Datenverlauf-Folien angewendet.
+   Wenn Sie eine Komponente, z. B. eine Visualisierung, per Drag-and-Drop auf eine Kachel ziehen, wird die Komponente auf alle Daten-Story-Folien angewendet.
 
 1. Für eine reine Titeländerung halten Sie die Umschalttaste gedrückt, um die Änderung anzuwenden.
 
