@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
+source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 96%
+source-wordcount: '1630'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **Partielle Unterstützung für Activity Map mit Web SDK** | Ab Version 2.15.0 des Web SDK wird mit dem Ausfüllen von Activity Map-Daten begonnen, wenn das Linktracking aktiviert ist. Dies ermöglicht es Web SDK-Benutzenden, Activity Map-Berichte zu erhalten, wenn das Linktracking mit dem Web SDK und der in Analytics konfigurierten Activity Map aktiviert ist.<p>Durch die Aktivierung von Linktracking mit dem Web SDK werden derzeit Link-Ereignisse gesendet, wenn eine Kundin oder ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden. Weitere Informationen sind [hier](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) und [hier](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) verfügbar | Nicht angegeben | 31. März 2023 |
 | **IP-Verschleierung für Experience Edge** | Experience Edge unterstützt die IP-Verschleierung für Daten, die direkt an Adobe Experience Platform gesendet werden. Dies kommt Kundinnen und Kunden zugute, die Daten zur Verwendung in CJA oder anderen Platform-Lösungen direkt an Platform senden. Die IP-Verschleierung wird auf Datenstrom-Ebene konfiguriert. Sie unterstützt das Entfernen des letzten Bytes oder der gesamten IP-Adresse.<p>**Hinweis**: Die Verschleierung gilt NICHT für Daten, die an Adobe Analytics gesendet werden. Analytics erhält weiterhin die vollständige IP-Adresse. Die IP-Verarbeitung erfolgt weiterhin separat in Analytics. In Zukunft planen wir, die Verschleierung von Analytics-Daten an der Edge zuzulassen. | Nicht angegeben | AEP-Version vom 26. April 2023 |
 | **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | 29. März 2023 |
-| **Link-Freigabe für Projekte (keine Anmeldung erforderlich)** – Nur privater Beta-Zugriff | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Sie können Projekt-Links für Personen außerhalb Ihrer Organisation oder für Personen innerhalb Ihrer Organisation freigeben, die nicht für Adobe Analytics vorgesehen sind. [Weitere Informationen](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Um an der privaten Beta-Version teilzunehmen, wenden Sie sich an Ihr Adobe Account Team.</p> | 26. April 2023 | Juni 2023 |
+| **Link-Freigabe für Projekte (keine Anmeldung erforderlich)** | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Dazu gehört die Freigabe für Personen außerhalb Ihres Unternehmens oder für Personen in Ihrem Unternehmen, die nicht für Adobe Analytics bereitgestellt werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>Diese Funktion ist standardmäßig aktiviert und kann vom Systemadministrator deaktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 26. April 2023 (nur privater Beta-Zugriff) | Juni 2023 |
 | 2 neue Endpunkthandbücher für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics-Metrik-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | Nicht angegeben | 10. April 2023 |
 
 {style="table-layout:auto"}
