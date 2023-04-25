@@ -4,10 +4,10 @@ title: Visualisierung von Kombinationsdiagrammen
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ Sie können ein [!UICONTROL Kombinationsdiagramm] für Folgendes verwenden:
 
 Beachten Sie:
 
-* Sie können mehrere Vergleiche in einem [!UICONTROL Combo-Diagramm].
+* Sie können einem einzigen [!UICONTROL Kombinationsdiagramm] mehrere Vergleiche hinzufügen.
 * Wenn Sie einen oder mehrere Vergleiche hinzufügen, müssen diese vom gleichen Typ sein, z. B. [!UICONTROL ein Zeitvergleich].
 * Sie können bis zu 5 Vergleiche hinzufügen.
 * Sie können bis zu 3 Filter (Segmente) auf eine Metrik anwenden.
-* Berechnete Metriken werden in Combo-Diagrammen nicht unterstützt.
+* Berechnete Metriken werden in Kombinationsdiagrammen nicht unterstützt.
 
 ## Erstellen eines Kombinationsdiagramms
 
@@ -47,7 +47,7 @@ Beachten Sie:
    | **[!UICONTROL Funktion]** | Sie können zum Vergleich eine Funktion wie [!UICONTROL Durchschnitt] hinzufügen. Eine Liste der unterstützten Funktionen finden Sie unten.<p>![](assets/combo-functions.png) |
    | **[!UICONTROL Sekundäre Metrik]** | Sie können beispielsweise den [!UICONTROL Umsatz] mit einer anderen Metrik vergleichen.<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -71,7 +71,7 @@ Wenn Sie **[!UICONTROL Funktion]** als [!UICONTROL Linienvergleichstyp] auswähl
 | **[!UICONTROL Mittel]** | Gibt das arithmetische Mittel (bzw. den Durchschnitt) einer Metrik zurück. |
 | **[!UICONTROL Spaltenminimum]** | Gibt den kleinsten Wert in einem Satz aus Dimensionselementen für eine Metrikspalte zurück. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Im Folgenden finden Sie ein Beispiel für den kumulativen Durchschnitt der Umsatzmetrik:
 
@@ -90,7 +90,7 @@ Klicken Sie in einem Kombinationsdiagramm oben rechts auf das Zahnradsymbol, um 
 | Einstellung | Definition |
 | --- | --- |
 | **[!UICONTROL Visualisierungstyp]** | Hiermit können Sie zu einem anderen Visualisierungstyp wechseln. |
-| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste ändern. |
+| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste aus. |
 | **[!UICONTROL Allgemein]** |  |
 | **[!UICONTROL Prozentsätze]** | Zeigt Werte als Prozentzahlen an. |
 | **[!UICONTROL Legende eingeblendet]** | Ermöglicht das Ausblenden des detaillierten Legendentextes für die Kombinationsdiagramm-Visualisierung. |
@@ -103,4 +103,4 @@ Klicken Sie in einem Kombinationsdiagramm oben rechts auf das Zahnradsymbol, um 
 | **[!UICONTROL y-Achse anzeigen]** | Zeigen Sie die Y-Achse an oder blenden Sie sie aus. |
 | **[!UICONTROL Y-Achse bei null verankern]** | Wenn alle im Diagramm dargestellten Werte deutlich größer als null sind, wird der untere Teil der Y-Achse standardmäßig zu NICHT-NULL gemacht. Wenn Sie dieses Kontrollkästchen aktivieren, wird die Y-Achse zwangsweise auf null gesetzt (und das Diagramm neu gezeichnet). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

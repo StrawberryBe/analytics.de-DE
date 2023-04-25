@@ -4,10 +4,10 @@ description: Häufig gestellte Fragen zu Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Terminierte Berichte werden auf Servern verarbeitet, die wahrscheinlich nicht di
 
 Terminierte Berichte werden auch auf Servern verarbeitet, die wahrscheinlich keine Datumssyntax verwenden. Zum Beispiel kann `7/1/YYYY` je nach Land oder Region auf den 1. Juli oder den 7. Januar verweisen. Die Anwendung der Funktion `DATEVALUE()` auf dieses Datum würde zu unterschiedlichen seriellen Werten führen, je nachdem, welcher Computer die Funktion ausführt.
 
-Als Alternative zu diesen Excel-Funktionen empfiehlt Adobe dringend die Verwendung von Datumsbereichen innerhalb von Report Builder-Anfragen. Wählen Sie auf der ersten Seite des Anfrage-Assistenten in der Dropdown-Liste **[!UICONTROL Vordefinierte Datumswerte]** und dann unter „Häufig verwendete Datumswerte“ die Option **[!UICONTROL Heute]** oder einen anderen gewünschten Datumsbereich. Bei dieser Einstellung wird die Zeit der Report Suite zum Zeitpunkt der Ausführung berücksichtigt und nicht die Zeit, zu der der Server die Anforderung verarbeitet.
+Als Alternative zu diesen Excel-Funktionen empfiehlt Adobe dringend die Verwendung von Datumsbereichen innerhalb von Report Builder-Anfragen. Wählen Sie auf der ersten Seite des Anforderungs-Assistenten die Option **[!UICONTROL Vordefinierte Datumswerte]** Wählen Sie in der Dropdown-Liste und dann unter &quot;Häufig verwendete Datumswerte&quot;die Option **[!UICONTROL Heute]** oder einen anderen gewünschten Datumsbereich. Bei dieser Einstellung wird die Zeit der Report Suite zum Zeitpunkt der Ausführung berücksichtigt und nicht die Zeit, zu der der Server die Anforderung verarbeitet.
 
 ## Wie groß und komplex kann ich meine Arbeitsmappen machen?
 

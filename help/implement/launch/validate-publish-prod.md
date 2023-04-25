@@ -3,10 +3,10 @@ title: Entwicklungsimplementierung validieren und in der Produktion veröffentli
 description: Hier erfahren Sie, wie Sie Tags in Adobe Experience Platform verwenden, um Adobe Analytics in Ihrer Produktionsumgebung bereitzustellen.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 83%
+source-wordcount: '635'
+ht-degree: 76%
 
 ---
 
@@ -31,14 +31,14 @@ Der Experience Cloud-Debugger ist eine Erweiterung, die alle Experience Cloud-Ta
 
 Nachdem Sie überprüft haben, ob Daten für Sie sichtbar sind, können Sie Ihre Implementierung an die Live-Version Ihrer Site übertragen.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Publishing]** und suchen Sie die Bibliothek in der Spalte „Entwicklung“.
-1. Klicken Sie in der Bibliothek auf das Dropdown-Menü und wählen Sie **[!UICONTROL Zur Genehmigung übermitteln]**. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.
-1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek (jetzt in der Spalte „Gesendet“) und wählen Sie **[!UICONTROL Für Staging erstellen]**.
+1. Klicken Sie auf die Dropdownliste in der Bibliothek und wählen Sie **[!UICONTROL Zur Genehmigung einreichen]**. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.
+1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt in der Spalte &quot;Gesendet&quot;) und wählen Sie **[!UICONTROL Build für das Staging]**.
 1. Nach einigen Augenblicken wird das gelbe Licht der Bibliothek grün, was auf eine erfolgreiche Erstellung hinweist.
-1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek und wählen Sie **[!UICONTROL Für Publishing genehmigen]**.
-1. Klicken Sie erneut auf das Dropdown-Menü der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt]) und wählen Sie **[!UICONTROL Erstellen und in Produktion veröffentlichen]**.
+1. Klicken Sie erneut auf die Dropdownliste der Bibliothek und wählen Sie **[!UICONTROL Zur Veröffentlichung genehmigen]**.
+1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt im [!UICONTROL Genehmigt] ) und wählen Sie **[!UICONTROL Erstellen und in Produktion veröffentlichen]**.
 1. Klicken Sie auf der Registerkarte „Umgebungen“ auf **[!UICONTROL Produktionsumgebung]**.
 1. Kopieren Sie den Produktions-Installationscode und stellen Sie ihn Ihren Website-Eigentümern zur Verfügung. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
 

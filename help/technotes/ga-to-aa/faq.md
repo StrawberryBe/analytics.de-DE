@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen zur Migration zu Adobe Analytics
 description: Erhalten Sie Antworten auf häufig gestellte Fragen, wenn Sie von einer Plattform eines Drittanbieters zu Adobe wechseln.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 74%
 
 ---
 
@@ -20,14 +20,14 @@ Wenden Sie sich an Ihr Adobe-Kundenbetreuungsteam, wenn Sie Altdaten in Adobe ü
 
 Für die Übertragung historischer Daten empfehlen wir [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de), das beliebige Omni-Channel-Datenquellen einbringen kann.
 
-**Ich bin es gewohnt, in vielen meiner Berichte eine Dropdown-Liste zur Segmentierung aufzurufen. Wie erhalte ich eine solche Funktion in [!UICONTROL Analysis Workspace]?**
+**Ich bin es gewohnt, in vielen meiner Berichte eine Dropdownliste zur Segmentierung aufzurufen. Wie erhalte ich eine solche Funktion in [!UICONTROL Analysis Workspace]?**
 
-Dropdown-Filter sind eine flexible und zuverlässige Funktion in [!UICONTROL Analysis Workspace], die die Segmentierung per Dropdown-Liste ermöglicht. In einem Workspace-Projekt:
+Dropdown-Filter sind eine flexible und zuverlässige Funktion in [!UICONTROL Analysis Workspace] , die eine Dropdown-Liste für die Segmentierung ermöglicht. In einem Workspace-Projekt:
 
-1. Halten Sie Strg (Windows) oder Befehlstaste (Mac) gedrückt und klicken Sie auf die Komponenten, die Sie in die Dropdown-Liste aufnehmen möchten. Sie sind nicht auf Segmente beschränkt. Jede Komponente kann in einen Dropdown-Filter aufgenommen werden.
+1. Verwenden Sie Strg+Klicken (Windows) oder Befehl+Klicken (Mac) für die Komponenten, die Sie in den Dropdown-Filter aufnehmen möchten. Sie sind nicht auf Segmente beschränkt. Jede Komponente kann in einen Dropdown-Filter aufgenommen werden.
 2. Ziehen Sie die Gruppe von Komponenten in den Arbeitsbereich mit der Bezeichnung „Segment hier ablegen“. Halten Sie vor dem Loslassen die Umschalttaste gedrückt.
 
-Anwender, die auf dieses [!UICONTROL Workspace]-Projekt zugreifen, können dieses Dropdown-Menü nun verwenden, um Segmente oder andere Komponenten auf das Projekt anzuwenden. Weitere Informationen finden Sie unter [Bedienfelder – Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md) im Handbuch zu Adobe Analytics-Tools.
+Benutzer, die darauf zugreifen [!UICONTROL Arbeitsbereich] -Projekt kann jetzt diesen Dropdown-Filter verwenden, um Segmente oder andere Komponenten auf das Projekt anzuwenden. Weitere Informationen finden Sie unter [Bedienfelder – Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md) im Handbuch zu Adobe Analytics-Tools.
 
 **Ich bin es gewohnt, auf ein Dimensionselement zu klicken, um einen Drilldown zu sehen. Wie kann ich diesen einfachen Workflow in Analysis Workspace replizieren?**
 

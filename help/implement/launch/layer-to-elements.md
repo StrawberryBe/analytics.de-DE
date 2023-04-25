@@ -3,10 +3,10 @@ title: Zuordnen von Datenschichtobjekten zu Datenelementen
 description: Konfigurieren Sie Tags, um aus Ihrer Datenschicht zu lesen.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 94%
 
 ---
 
@@ -29,8 +29,8 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
    ![Datenelement erstellen](assets/createelement.png)
 
 1. Geben Sie einen Namen für Ihr Datenelement ein. Dies kann eine einfache Bezeichnung sein, die einer JavaScript-Variablen in Ihrer Datenschicht entspricht, die Sie tracken möchten.
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Erweiterung]** die Option **[!UICONTROL Core]**.
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Datenelementtyp]** die Option **[!UICONTROL JavaScript-Variable]** aus. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
+1. Unter dem **[!UICONTROL Erweiterung]** Dropdown-Liste auswählen **[!UICONTROL Core]**.
+1. Unter dem **[!UICONTROL Datenelementtyp]** Dropdown-Liste auswählen **[!UICONTROL JavaScript-Variable]**. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
 1. Geben Sie die gewünschte JavaScript-Variable ein, normalerweise innerhalb Ihrer Datenschicht. Wenn beispielsweise die Datenschicht Ihres Unternehmens der empfohlenen Vorgehensweise von Adobe sehr ähnlich ist, könnte als Wert `digitalData.page.pageInfo.pageName` verwendet werden. Sie können die Syntax und Werte Ihrer JavaScript-Variablen in der Browser-Konsole überprüfen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

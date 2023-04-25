@@ -3,10 +3,10 @@ title: Util.getQueryParam
 description: Gibt den Wert eines Abfragezeichenfolgenparameters zurück.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 81%
+source-wordcount: '270'
+ht-degree: 80%
 
 ---
 
@@ -18,10 +18,10 @@ Abfragezeichenfolgenparameter in einer Browser-URL enthalten häufig wichtige Da
 
 Sie können Abfragezeichenfolgenparameterdaten abrufen, indem Sie Werte in Datenelementen festlegen.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Datenelemente] und klicken Sie dann auf das gewünschte Datenelement (oder erstellen Sie ein Datenelement).
-4. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] **[!UICONTROL Core]** aus und setzen Sie [!UICONTROL Datenelementtyp] auf **[!UICONTROL Abfragezeichenfolgenparameter]**.
+4. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Core]** und die [!UICONTROL Datenelementtyp] nach **[!UICONTROL Abfragezeichenfolgenparameter]**.
 5. Geben Sie den Abfragezeichenfolgenparameter in das Textfeld ein.
 
 Der Wert des Abfragezeichenfolgenparameters wird im Datenelement gespeichert. Anschließend können Sie das Datenelement in Regeln referenzieren, um die gewünschten Variablen zuzuweisen.

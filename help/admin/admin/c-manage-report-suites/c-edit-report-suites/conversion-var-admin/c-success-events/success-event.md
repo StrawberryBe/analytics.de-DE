@@ -4,9 +4,9 @@ keywords: event
 title: Übersicht über Erfolgsereignisse
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Rufen Sie die Seite „Erfolgsereignisse“ in den Report Suite-Einstellungen au
 2. Klicken Sie oben auf die 9-Raster-Schaltfläche und dann auf [!UICONTROL Analytics].
 3. Navigieren Sie zu [!UICONTROL Admin] > [!UICONTROL Report Suites]
 4. Wählen Sie die gewünschte Report Suite aus und navigieren Sie dann zu [!UICONTROL Einstellungen bearbeiten] > [!UICONTROL Konversion] > [!UICONTROL Erfolgsergebnisse].
-5. Suchen Sie nach dem gewünschten Ereignis und ändern Sie das Dropdown-Menü [!UICONTROL Eindeutige Ereignisaufzeichnung] in [!UICONTROL Einmal pro Besuch aufzeichnen] oder [!UICONTROL Ereignis-ID verwenden].
 
 Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen Arten zählen beispielsweise:
 

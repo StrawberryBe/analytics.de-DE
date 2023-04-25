@@ -3,10 +3,10 @@ title: clearVars
 description: Löscht die folgenden Werte aus dem Instanzobjekt. Diese Funktion entfernt die Elemente (legt sie als „undefiniert“ fest).
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 74%
+source-wordcount: '199'
+ht-degree: 72%
 
 ---
 
@@ -37,11 +37,11 @@ Wenn Sie Daten mit dem Web SDK an Adobe senden, werden alle XDM-Daten automatisc
 
 Legen Sie beim Konfigurieren einer Regel die Aktion „Variablen löschen“ fest.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
-5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen löschen].
+5. Legen Sie die [!UICONTROL Erweiterung] einer Dropdown-Liste zu Adobe Analytics und dem [!UICONTROL Aktionstyp] nach [!UICONTROL Variablen löschen].
 
 ## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

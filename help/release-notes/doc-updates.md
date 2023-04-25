@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '3929'
-ht-degree: 98%
+source-wordcount: '3930'
+ht-degree: 97%
 
 ---
 
@@ -218,7 +218,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 12. September 2019 | Das Dokument [Gesamtwerte für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=de) wurde aktualisiert. |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](/help/technotes/pwa.md). |
 | 8. August 2019 | Neuer Artikel zu [Gesamtwerten für berechnete Metriken](/help/components/c-calcmetrics/cm-totals.md). |
-| 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8. August 2019 | Adobe hat in Arbeitsbereich die Anzahl der Elemente, die in einem Dropdown-Filter platziert werden können, von 50 auf 200 erhöht. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
+| 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8. August 2019 | In Workspace wurde die Anzahl der Elemente, die in einem statischen Dropdown-Filter platziert werden können, durch die Adobe von 50 auf 200 erhöht. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
 | 2. August 2019 | Umfassende Aktualisierung des [Analytics-Glossars](/help/technotes/terms.md). |
 | 22. Juli 2019 | Magento wurde hinzugefügt: Marketing- und Commerce-Vorlage in der Dokumentation [zu Analysis Workspace-Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18. Juli 2019 | Aktualisierung der [Einstellungen der Kohortentabellen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |

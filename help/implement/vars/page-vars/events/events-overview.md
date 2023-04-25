@@ -3,10 +3,10 @@ title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '813'
+ht-degree: 92%
 
 ---
 
@@ -45,14 +45,14 @@ Sie können Ereignisse entweder beim Konfigurieren der Analytics-Erweiterung (gl
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
+5. Legen Sie die [!UICONTROL Erweiterung] einer Dropdown-Liste zu Adobe Analytics und dem [!UICONTROL Aktionstyp] nach [!UICONTROL Variablen festlegen].
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse].
 
 Es stehen verschiedene Funktionen zur Verfügung:
 
-* Mithilfe einer Dropdown-Liste können Sie das Ereignis auswählen, das eingeschlossen werden soll.
+* Eine Dropdown-Liste, in der Sie das einzuschließende Ereignis auswählen können
 * Ein optionales Textfeld zur Serialisierung. Weitere Informationen finden Sie unter [Ereignis-Serialisierung](event-serialization.md).
-* Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Wenn Sie beispielsweise `event1` unter der Dropdown-Liste auswählen und `10` in dieses Feld einschließen, wird `event1` in der Berichterstellung um 10 inkrementiert.
+* Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Beispiel: `event1` unter der Dropdown-Liste und einschließlich `10` in diesem Feld inkrementiert `event1` um 10 Uhr in der Berichterstellung.
 * Eine Schaltfläche zum Hinzufügen eines weiteren Ereignisses. Sie können zu einer einzelnen Regel beliebig viele Ereignisse hinzufügen.
 
 ## s.events in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung

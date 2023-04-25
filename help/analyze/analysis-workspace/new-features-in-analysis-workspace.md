@@ -5,10 +5,10 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '8277'
-ht-degree: 99%
+source-wordcount: '8267'
+ht-degree: 98%
 
 ---
 
@@ -133,7 +133,7 @@ Am 10. Oktober 2019 veröffentlichte Verbesserungen.
 
 | Verbesserung | Beschreibung |
 |--- |--- |
-| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]** und **[!UICONTROL Gesamtsumme]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=de)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
+| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]** und **[!UICONTROL Gesamtsumme]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=de) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=de)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
 | Option zum Entfernen von „Nicht angegeben (keine)“ | Als Option für die Berichterstellung wurde die Möglichkeit hinzugefügt, &quot;Nicht angegeben (keine)&quot;einfach zu entfernen. |
 | Wegfall der lilafarbenen Zeitkomponenten | Die lilafarbenen Zeitkomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) wurden entfernt. Diese Zeitkomponenten haben sich immer exakt wie ihre orangefarbenen Dimensionspendants verhalten. Durch diese Änderung wird das Erlebnis also optimiert. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]** in **[!UICONTROL Datumsbereiche]** umbenannt. |
 
@@ -143,7 +143,7 @@ Verbesserung veröffentlicht am 8. August 2019.
 
 | Verbesserung | Beschreibung |
 |--- |--- |
-| Erhöhung der Anzahl der Elemente im Dropdown-Filter von 50 auf 200 | Wir haben die Anzahl der Elemente von 50 auf 200 erhöht, die in einem Dropdown-Filter platziert werden können. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
+| Erhöhung der Elementgrenze für statische Dropdown-Filter von 50 auf 200 | Die Anzahl der Elemente, die in einem statischen Dropdown-Filter platziert werden können, wird von 50 auf 200 erhöht. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
 
 ## Juli 2019
 
@@ -202,29 +202,10 @@ Am 1. November 2018 veröffentlichte neue Funktionen und Verbesserungen.
 
 Am 11. Oktober 2018 veröffentlichte neue Funktionen und Verbesserungen.
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Funktion </th>
-   <th colname="col2" class="entry"> Beschreibung </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>Verwaltung von Dropdown-Menüs für Bedienfelder</b> </p> </td>
-   <td colname="col2"> <p>Es wurden einige Änderungen an der Verwaltung von Dropdown-Menüs für Bedienfelder vorgenommen, die in der September MR eingeführt wurden. Wenn Sie mit der rechten Maustaste auf das Dropdown-Menü klicken, können Sie jetzt: </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">ein Dropdown-Menü löschen (diese Option ist immer vorhanden). </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">eine Bezeichnung löschen (wenn eine Bezeichnung angezeigt wird). </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">eine Bezeichnung hinzufügen (wenn keine Bezeichnung angezeigt wird). </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>Links in QuickInfos für Bedienfelder und Visualisierungen</b> </p> </td>
-   <td colname="col2"> <p>Den QuickInfos zu Bedienfeldern und Visualisierungen wurden Links zu relevanten Videos und Dokumentation hinzugefügt. </p> </td>
-  </tr>
- </tbody>
-</table>
+| Funktion | Beschreibung |
+| --- | --- |
+| Dropdown-Verwaltung des Bedienfelds | An der Verwaltung von Dropdown-Menüs für Bedienfelder werden einige Änderungen vorgenommen. Wenn Sie mit der rechten Maustaste auf eine Dropdown-Liste klicken, können Sie jetzt die Dropdown-Liste löschen, eine Bezeichnung löschen (wenn eine Bezeichnung angezeigt wird) oder eine Bezeichnung hinzufügen (wenn keine Beschriftung angezeigt wird). |
+| Links in QuickInfos für Bedienfelder und Visualisierungen | Links zu relevanten Videos und Dokumentation zu QuickInfos zu Bedienfeldern und Visualisierungen werden hinzugefügt. |
 
 ## September 2018
 
@@ -239,7 +220,7 @@ Am 13. September 2018 veröffentlichte neue Funktionen und Verbesserungen.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b>Dropdown-Menüs für Bedienfelder</b> </p> </td>
+   <td colname="col1"> <p><b>Dropdown-Listen für Bedienfelder</b> </p> </td>
    <td colname="col2"> <p>Der Ablagebereich für Bedienfelder verfügt jetzt über eine Dropdown-Funktion. Dropdown-Menüs ermöglichen es den Endanwendern, auf kontrollierte Art und Weise mit den Daten in einem Projekt zu interagieren. Beispiel: Angenommen, Sie haben für länderspezifisches Reporting mehrere Versionen eines Projekts. Jetzt können Sie diese Projekte zu einem einzigen Projekt komprimieren und stattdessen ein Dropdown-Menü für Länder hinzufügen. </p> </td>
   </tr>
   <tr>

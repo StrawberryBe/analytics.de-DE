@@ -5,9 +5,9 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '651'
 ht-degree: 50%
 
 ---
@@ -42,7 +42,7 @@ Diese Einstellungen gelten für die Überlagerung im Standardmodus.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Dynamische Datenfilterung]** | Mit diesem Dropdown-Menü können Sie Überlagerungen für<ul><li>(Standard) Alle Links auf der Seite</li><li>Die obere (höchste) oder untere (niedrigste) Anzahl der Ranglinks auf der Seite, wobei # eine Auswahl von 1, 10, 50 oder 100 sein kann.</li></ul> |
+| **[!UICONTROL Dynamische Datenfilterung]** | In dieser Dropdownliste können Sie Überlagerungen für<ul><li>(Standard) Alle Links auf der Seite</li><li>Die obere (höchste) oder untere (niedrigste) Anzahl der Ranglinks auf der Seite, wobei # eine Auswahl von 1, 10, 50 oder 100 sein kann.</li></ul> |
 | **[!UICONTROL Überlagerungen für Links ausblenden, die keine Treffer erhalten haben]**. | Ein Kontrollkästchen, mit dem Überlagerungen für Links ohne Daten sichtbar werden.<ul><li>(Standard) Wenn das Kontrollkästchen aktiviert ist, wird keine Überlagerung angezeigt, wenn ein Link keine Activity Map-Linkdaten enthält.</li><li>Wenn das Kontrollkästchen deaktiviert ist und ein Link keine Activity Map-Linkdaten enthält, wird eine Überlagerung angezeigt, die die Bezeichnung &quot;-&quot;trägt, was bedeutet (nicht zutreffend). |
 
 ## Live-Einstellungen {#section_D30F6E62FB5D404090B588F396A460AF}

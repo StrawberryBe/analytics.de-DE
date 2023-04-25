@@ -3,10 +3,10 @@ title: Erstkontakt-Kanaldetail
 description: Details zum ersten Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 100%
+source-wordcount: '359'
+ht-degree: 90%
 
 ---
 
@@ -22,13 +22,13 @@ Führen Sie die folgenden Schritte aus, um diese Dimension auf einen bestimmten 
 
 * Achten Sie darauf, dass sich das gewünschte Dimensionselement in einem Trefferattribut oder einer benutzerdefinierten Variable befindet.
 * Legen Sie eine Marketing-Kanalverarbeitungsregel fest, die die gewünschten Kriterien für den Treffer enthält.
-* Wählen Sie den gewünschten Dropdown-Wert in der Marketing-Kanalverarbeitungsregel unter [!UICONTROL Kanalwert setzen].
+* Wählen Sie den gewünschten Dropdown-Wert unter [!UICONTROL Kanalwert festlegen] innerhalb der Marketing-Kanal-Verarbeitungsregel.
 * Der Treffer des Besuchers auf Ihrer Site muss den Kriterien entsprechen, die in der Marketing-Kanalverarbeitungsregel beschrieben sind, _und_ der erste Marketing-Kanalwert sein, auf den dies im Interaktionszeitraum des Besuchers zutrifft.
 
 Wenn ein nachfolgender Treffer Kriterien unter einem anderen Marketing-Kanal erfüllt, wird diese Dimension nicht mit dem neuen Marketing-Kanal überschrieben.
 
 ## Dimensionselemente
 
-Die Dimensionselemente hängen vom Dropdown-Menü „Kanalwert“ ab. Wenn Sie beispielsweise den Wert des Kanals auf „Seiten-URL“ setzen, umfassen die Dimensionselemente die Seiten-URLs auf Ihrer Site. Wenn Sie den Wert des Kanals auf „Referrer-Domäne“ setzen, umfassen die Dimensionselemente die Domänen, auf die Besucher geklickt haben, um zu Ihrer Site zu gelangen. Diese Dimension aggregiert alle Detaildimensionselemente, unabhängig davon, auf welchem Kanal sie sich befinden.
+Die Elemente der Dimension hängen vom Kanalwert ab, der in der Dropdownliste für die entsprechende Marketing-Kanalverarbeitungsregel aufgeführt ist. Wenn Sie beispielsweise den Wert des Kanals auf „Seiten-URL“ setzen, umfassen die Dimensionselemente die Seiten-URLs auf Ihrer Site. Wenn Sie den Wert des Kanals auf „Referrer-Domäne“ setzen, umfassen die Dimensionselemente die Domänen, auf die Besucher geklickt haben, um zu Ihrer Site zu gelangen. Diese Dimension aggregiert alle Detaildimensionselemente, unabhängig davon, auf welchem Kanal sie sich befinden.
 
 Adobe empfiehlt, Kanalwerte für den Marketing-Kanal festzulegen, um Einblick in die Kanaldetails zu erhalten.

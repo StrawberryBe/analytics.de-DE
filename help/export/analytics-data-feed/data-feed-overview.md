@@ -4,10 +4,10 @@ keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
 title: Analytics-Daten-Feed-Dokumentation
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Bevor Sie Daten-Feeds verwenden, müssen Sie alle folgenden Anforderungen erfül
    * Benutzername: Geben Sie den Benutzernamen ein, um sich bei der FTP-Site anzumelden.
    * Kennwort und Kennwort bestätigen: Geben Sie das Kennwort ein, um sich bei der FTP-Site anzumelden.
 7. Füllen Sie die [!UICONTROL Datenspaltendefinitionen] aus.
-   * Wählen Sie die neueste Vorlage „Alle Adobe-Spalten“ im Dropdown-Menü aus.
+   * Wählen Sie in der Dropdown-Liste die neueste Vorlage &quot;Alle Adobe Columns&quot; aus.
    * Komprimierungsformat: Gzip
    * Verpackungstyp: Mehrere Dateien
    * Manifest: Keine Datei

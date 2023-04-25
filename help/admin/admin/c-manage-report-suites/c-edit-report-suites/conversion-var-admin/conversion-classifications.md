@@ -3,10 +3,10 @@ description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategori
 title: Konversionsklassifizierungen
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ So fügen Sie Konversionsklassifizierungen in Admin hinzu:
    Zu den Optionen gehören **[!UICONTROL Text]** und **[!UICONTROL Numerisch]**. Weitere Informationen zu Classification-Typen finden Sie unter [Informationen über Classifications](/help/components/classifications/c-classifications.md).
 1. Konfigurieren Sie die Klassifizierung im Dialogfeld **[!UICONTROL Textklassifizierungen]** nach Bedarf.
 
-1. Fügen Sie im Dialogfeld **[!UICONTROL Dropdown-Liste]** Optionen hinzu oder entfernen Sie Optionen.
+1. Fügen Sie Optionen im Dropdown-Listendialogfeld hinzu oder entfernen Sie Optionen.
 
    Durch Hinzufügen von Optionen wird eine Liste mit für diese Classification verfügbaren Classification-Werten erstellt. Diese Option kann zusammen mit Kampagnenvariablen verwendet werden, um den Benutzern eine Liste mit unterstützten Werten für die Classification im Kampagnen-Manager bereitzustellen. Verwenden Sie dies für Classification-Dimensionen, bei denen eine kleine Zahl erlaubter Werte vorliegt, die sich selten oder nie ändern. Sie können zum Beispiel verschiedene Kampagnen durchführen, die auf verschiedene Stufen der Kundenbindung ausgerichtet sind: Silber, Gold und Platin. Sie können dann Dropdown-Listen verwenden, um sicherzustellen, dass nur solche Werte akzeptiert werden, die Ihren drei Stufen entsprechen. Der Versuch, einen anderen Wert zu verwenden, wird verworfen.
 

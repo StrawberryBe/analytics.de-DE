@@ -1,9 +1,10 @@
 ---
 title: Erste Schritte mit Datenquellen
 description: Laden Sie Beispieldaten in eine Entwicklungs-Report Suite hoch.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -18,13 +19,13 @@ Sie können diese Schritte ausführen, um einfach Beispieldaten in eine Entwickl
 
 1. Bei Adobe Analytics über anmelden [https://experience.adobe.com](https://experience.adobe.com).
 1. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
-1. Wählen Sie mithilfe des Dropdown-Menüs oben rechts eine Entwicklungs-Report Suite aus.
+1. Wählen Sie mithilfe der Dropdownliste oben rechts eine Entwicklungs-Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Erstellen]** Schaltfläche oben links.
 1. under [!UICONTROL Kategorie auswählen], wählen Sie &quot;[!UICONTROL Generisch]&quot;und unter [!UICONTROL Typ auswählen], wählen Sie &quot;[!UICONTROL Generische Datenquelle (nur Zusammenfassungsdaten)]&quot;.
 1. Klicken Sie auf **[!UICONTROL Aktivieren]**. Ein Popup-Fenster wird geöffnet, in dem die [!UICONTROL Datenquellen-Aktivierungsassistent].
    1. Schritt 1: Geben Sie der Datenquelle einen Namen und klicken Sie auf das Kontrollkästchen Haftungsausschluss .
    1. Schritt 2: Dieser Schritt wurde in früheren Versionen von Adobe Analytics besser genutzt. Aktivieren Sie ein Kontrollkästchen und geben Sie einen beliebigen Wert in das Textfeld neben dem Feld ein.
-   1. Schritt 3: Wählen Sie die Metrik aus, die in Ihre Datenquellenvorlagendatei aufgenommen werden soll. Wählen Sie &quot;Event 1&quot;aus der Dropdown-Liste aus.
+   1. Schritt 3: Wählen Sie die Metrik aus, die in Ihre Datenquellenvorlagendatei aufgenommen werden soll. Wählen Sie &quot;Ereignis 1&quot;aus der Dropdown-Liste aus.
    1. Schritt 4: Dieser Schritt wurde in früheren Versionen von Adobe Analytics besser genutzt. Aktivieren Sie ein Kontrollkästchen und geben Sie einen beliebigen Wert in das Textfeld neben dem Feld ein.
    1. Schritt 5: Wählen Sie die Dimension aus, die in Ihre Datenquellenvorlagendatei aufgenommen werden soll. Wählen Sie &quot;eVar1&quot;aus der Dropdown-Liste aus.
    1. Schritt 6: Überprüfen Sie die Zusammenfassung und zeigen Sie die Dimensionen und Metriken an, die in der Vorlagendatei enthalten sind.
@@ -34,8 +35,8 @@ Sie können diese Schritte ausführen, um einfach Beispieldaten in eine Entwickl
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. Geben Sie in mehrere Datenzeilen ein und trennen Sie jeden Eintrag durch einen Tab. Verwenden Sie keine Leerzeichen oder Kommas, um Werte zu trennen.
@@ -45,10 +46,10 @@ Sie können diese Schritte ausführen, um einfach Beispieldaten in eine Entwickl
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. Speichern Sie die Datei. Sie können ihr optional einen anderen Dateinamen geben, falls gewünscht. Nach dem Speichern der Datei können Sie den Texteditor schließen.

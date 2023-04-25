@@ -3,10 +3,10 @@ title: t
 description: Senden Sie einen Seitenansichts-Tracking-Aufruf an Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 52%
+source-wordcount: '463'
+ht-degree: 57%
 
 ---
 
@@ -40,11 +40,11 @@ Adobe empfängt die Bildanforderung und analysiert dann die Parameter für Anfor
 
 Verwenden Sie eine Aktion, um das Senden von XDM-Ereignisdaten an Adobe zu konfigurieren. Der Datastream empfängt diese Daten, wendet konfigurierte Zuordnungen an und leitet diese Daten an Adobe Analytics weiter, wenn es sich um einen hinzugefügten Dienst für diesen Datastream handelt.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine Aktion hinzuzufügen.
-1. Legen Sie die [!UICONTROL Erweiterung] Dropdown zu **[!UICONTROL Adobe Experience Platform Web SDK]** und [!UICONTROL Aktionstyp] nach **[!UICONTROL Ereignis senden]**.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Experience Platform Web SDK]** und [!UICONTROL Aktionstyp] nach **[!UICONTROL Ereignis senden]**.
 
 ## Ereignis manuell zur Implementierung des Web SDK senden
 
@@ -62,11 +62,11 @@ Siehe [Ereignisse verfolgen](https://experienceleague.adobe.com/docs/experience-
 
 Die Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung verfügt über einen speziellen Speicherort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine Aktion hinzuzufügen.
-1. Legen Sie die [!UICONTROL Erweiterung] Dropdown zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Signal senden]**.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Signal senden]**.
 1. Klicken Sie auf die Optionsschaltfläche `s.t()`.
 
 ## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung

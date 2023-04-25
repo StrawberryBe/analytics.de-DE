@@ -3,10 +3,10 @@ title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 79%
+source-wordcount: '703'
+ht-degree: 80%
 
 ---
 
@@ -42,11 +42,11 @@ alloy("sendEvent", {
 
 Die Adobe Analytics-Erweiterung verfügt über einen speziellen Speicherort, um einen Linktracking-Aufruf festzulegen.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine Aktion hinzuzufügen.
-1. Legen Sie die [!UICONTROL Erweiterung] Dropdown zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Signal senden]**.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Signal senden]**.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
 Sie können keine optionalen Argumente in der Analytics-Erweiterung festlegen.

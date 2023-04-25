@@ -4,16 +4,16 @@ title: Übersicht über Bedienfelder
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 93%
+source-wordcount: '1437'
+ht-degree: 57%
 
 ---
 
 # Übersicht über Bedienfelder
 
-Ein [!UICONTROL Bedienfeld] ist eine Sammlung von Tabellen und Visualisierungen. Sie können auf Bedienfelder über das Symbol oben links in Arbeitsbereich oder über ein [leeres Bedienfeld](blank-panel.md) zugreifen. Panels sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Analysen ordnen möchten. 
+Ein [!UICONTROL Bedienfeld] ist eine Sammlung von Tabellen und Visualisierungen. Sie können auf Bedienfelder über das Symbol oben links in Workspace oder über eine [leeres Bedienfeld](blank-panel.md). Panels sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Analysen ordnen möchten. 
 
 ## Bedienfeldtypen
 
@@ -64,7 +64,7 @@ Mit dem Ablegebereich eines Panels können Sie Segment- und Dropdown-Filter auf 
 
 Ziehen Sie ein beliebiges Segment aus der linken Leiste in den Ablagebereich des Bedienfelds, um mit dem Filtern des Bedienfelds zu beginnen.
 
-![](/help/admin/admin/assets/filter.png)
+![Filter](/help/admin/admin/assets/filter.png)
 
 ### Ad-hoc-Segmentfilter
 
@@ -74,36 +74,60 @@ Ad-hoc-Segmente sind eine Art Schnellsegment und für das Projekt lokal verfügb
 
 Weitere Informationen finden Sie unter [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### Dropdown-Filter {#dropdown-filter}
+### Statische Dropdown-Filter
 
-Zusätzlich zu den Segmentfiltern ermöglichen Ihnen Dropdown-Filter eine kontrollierte Interaktion mit den Daten. Sie können beispielsweise einen Dropdown-Filter für Gerätetypen hinzufügen, damit Sie das Bedienfeld nach Tablet, Mobiltelefon oder Desktop segmentieren können.
+Dropdown-Filter ermöglichen Ihnen die kontrollierte Interaktion mit den Daten. Sie können beispielsweise einen Dropdown-Filter für Gerätetypen hinzufügen, damit Sie das Bedienfeld nach Tablet, Mobiltelefon oder Desktop segmentieren können.
 
 Dropdown-Filter können auch verwendet werden, um viele Projekte zu einem zusammenzufassen. Wenn Sie beispielsweise mehrere Versionen desselben Projekts mit unterschiedlichen Ländersegmenten verwenden, können Sie alle Versionen in einem Projekt zusammenfassen und einen Dropdown-Filter „Land“ hinzufügen.
 
 ![](assets/dropdown-filter-intro.png)
 
-So erstellen Sie Dropdown-Filter:
+So erstellen Sie einen statischen Dropdown-Filter:
 
-1. Wenn Sie einen Dropdown-Filter mit [!UICONTROL Dimensionselementen] erstellen möchten, z. B. Werte innerhalb der Dimension [!UICONTROL Marketing-Kanal], klicken Sie in der linken Leiste auf das Pfeilsymbol neben Ihrer Dimension. Dadurch werden alle verfügbaren Elemente angezeigt. Wählen Sie ein oder mehrere Komponentenelemente aus der linken Leiste aus und legen Sie sie im Ablagebereich des Bedienfelds ab, **während Sie die Umschalttaste** gedrückt halten. Dadurch werden die Komponenten in einen Dropdown-Filter und nicht in ein einzelnes Segment umgewandelt.
-1. Wenn Sie einen Dropdown-Filter mit einer anderen Komponente wie z. B. Kennzahlen, Segmente oder Datumsbereiche erstellen möchten, wählen Sie in der linken Leiste einen Komponententyp aus und legen Sie ihn im Ablagebereich des Bedienfelds ab, **während Sie die Umschalttaste** gedrückt halten.
-1. Wählen Sie eine der Optionen aus der Dropdown-Liste aus, um die Daten im Bedienfeld zu ändern. Sie können auch auf die Filterung von Bedienfelddaten verzichten, indem Sie **[!UICONTROL Kein Filter]** auswählen.
+* Klicken Sie bei Dropdown-Filtern, die Dimensionselemente verwenden, in der linken Leiste auf das Pfeilsymbol neben der gewünschten Dimension. Diese Aktion legt alle verfügbaren Dimensionselemente offen. Mehrere Dimensionselemente aus dieser Liste auswählen mithilfe von `[Shift + Click]` oder `[Ctrl + Click]`und legen Sie sie dann in der Dropzone des Bedienfelds ab **während des Betriebs`[Shift]`**.
+* Für Dropdown-Filter mit anderen Komponenten wie Metriken, Segmenten oder Datumsbereichen wählen Sie mehrere Komponenten mithilfe von `[Shift + Click]` oder `[Ctrl + Click]`. Auswahl in die Dropzone des Bedienfelds legen **während des Betriebs`[Shift]`**. Alle Komponententypen werden in diesem Kontext als Segmente behandelt.
+* Ein einzelner Dropdown-Filter kann nur einen Komponententyp enthalten. Wenn Sie mehrere Komponententypen in Ihre Auswahl aufnehmen, wird pro Komponententyp ein separater Dropdown-Filter erstellt. Wenn Sie beispielsweise sowohl Metriken als auch Dimensionselemente in Ihre Auswahl aufnehmen, werden zwei separate Dropdown-Filter erstellt. Ein Dropdown-Filter enthält Dimensionselemente, der andere wiederum Metriken.
+
+Wählen Sie eine der Optionen aus der Dropdownliste aus, um die Daten im Bedienfeld zu ändern. Sie können auch auf die Filterung von Bedienfelddaten verzichten, indem Sie **[!UICONTROL Kein Filter]**.
 
 ![](assets/create-dropdown.png)
 
+Wenn Sie mit der rechten Maustaste auf einen Dropdown-Filter klicken, stehen folgende Optionen zur Verfügung:
+
+* **[!UICONTROL Bezeichnung hinzufügen]**: Wenn Sie einem Projekt einen Dropdown-Filter hinzufügen, wird für eine Beschriftung automatisch der Komponentenname festgelegt. Wenn Sie den Titel löschen, können Sie ihn mit dieser Option erneut hinzufügen.
+* **[!UICONTROL Titel löschen]**: Entfernen Sie den Text über einem Dropdown-Filter.
+* **[!UICONTROL Dropdown-Filter löschen]**: Entfernt den Dropdown-Filter aus dem Bereich.
+
 [Sehen Sie sich das Video an,](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=de) um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
+
+### Dynamische Dropdown-Filter
+
+Mit dynamischen Dropdown-Filtern können Sie verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Filtern bestimmen. Sie können beispielsweise zwei dynamische Dropdown-Listen mit dem [Länder](/help/components/dimensions/countries.md) Dimension und [Städte](/help/components/dimensions/cities.md) Dimension. Wenn Sie ein Land aus dem [!UICONTROL Länder] Dropdown-Liste, die [!UICONTROL Städte] dynamisch angepasst werden, um nur Städte in diesem Land anzuzeigen.
+
+Dieses Konzept gilt für alle Dimensionen. nur Dimensionselemente sichtbar, die innerhalb des Datumsbereichs des Bedienfelds und der ausgewählten Filter angezeigt werden. In statischen Dropdown-Filtern ausgewählte Dimensionen wirken sich auf verfügbare Werte in dynamischen Dropdown-Filtern aus. Das Gegenteil ist jedoch nicht wahr; In dynamischen Dropdown-Filtern ausgewählte Dimensionen wirken sich nicht auf verfügbare Werte in statischen Dropdown-Filtern aus.
+
+Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten, dass ein bestimmtes Dimensionselement in Zukunft erfasst wird. Sie können auch einen dynamischen Dropdown-Filter löschen, sodass dieser keinen Wert enthält, sodass andere dynamische Dropdown-Filter mehr Werte enthalten können. Auswählen **[!UICONTROL Alle löschen]** , um die Auswahl aus allen Dropdown-Filtern für dieses Bedienfeld zu löschen.
+
+So erstellen Sie einen dynamischen Dropdown-Filter:
+
+* Ziehen Sie eine einzelne Dimension in die Dropzone des Bedienfelds **während des Betriebs`[Shift]`**.
+* Dynamische Dropdown-Filter sind nicht für Metriken, Segmente oder Datumsbereiche verfügbar.
+* Klicken Sie mit der rechten Maustaste auf einen Dropdown-Filter und wählen Sie **[!UICONTROL Filter löschen]** , um sie zu löschen.
+
+Wenn Sie mit der rechten Maustaste auf einen dynamischen Dropdown-Filter klicken, stehen dieselben Optionen zur Verfügung wie statische Dropdown-Filter.
 
 ## Rechtsklickmenü {#right-click}
 
 Weitere Funktionen für ein Bedienfeld sind verfügbar, wenn Sie mit der rechten Maustaste auf die Bedienfeldkopfzeile klicken.
 
-![](assets/right-click-menu.png)
+![Rechtsklickmenü](assets/right-click-menu.png)
 
 Folgende Einstellungen sind verfügbar:
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| Kopiertes Bedienfeld/kopierte Visualisierung einfügen | Sie können das kopierte Bedienfeld oder die kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen. |
-| Bedienfeld kopieren | Ermöglicht es Ihnen, mit der rechten Maustaste auf ein Bedienfeld zu klicken und es zu kopieren, sodass Sie es an einer anderen Stelle innerhalb des Projekts oder in ein anderes Projekt einfügen können. |
+| Kopiertes Bedienfeld/kopierte Visualisierung einfügen | Ermöglicht das Einfügen (&quot;Einfügen&quot;) eines kopierten Bedienfelds oder einer kopierten Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein anderes Projekt. |
+| Bedienfeld kopieren | Ermöglicht Ihnen das Rechtsklicken und Kopieren eines Bedienfelds, sodass Sie es an einer anderen Stelle innerhalb des Projekts oder in ein anderes Projekt einfügen können. |
 | Anwenden einer Report Suite auf alle Panels | Damit können Sie die Report Suite des aktiven Bedienfelds auf alle Bedienfelder im Projekt anwenden. |
 | Bedienfeld duplizieren | Fertigt ein exaktes Duplikat des aktuellen Bedienfelds an, das Sie dann bearbeiten können. |
 | Alle Bedienfelder reduzieren/erweitern | Reduziert und erweitert alle Projektbedienfelder. |

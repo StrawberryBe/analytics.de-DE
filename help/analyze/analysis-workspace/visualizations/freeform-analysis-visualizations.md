@@ -5,10 +5,10 @@ title: Visualisierungsübersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
@@ -68,11 +68,11 @@ Sie können die Einstellungen für alle von Ihnen erstellten Visualisierungen an
 | Einstellung | Beschreibung |
 | --- | --- |
 | Visualisierungstyp | Ändern Sie den visuellen Typ, der zur Darstellung der Daten verwendet wird. |
-| Granularität | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste ändern. Diese Änderung gilt auch für die Datenquellentabelle. |
+| Granularität | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste aus. Diese Änderung gilt auch für die Datenquellentabelle. |
 | Prozentsatz | Zeigt Werte als Prozentzahlen an. |
 | 100 % gestapelt | Mit dieser Einstellung für die Visualisierungen „Bereich gestapelt“, „Balken gestapelt“ und „Horizontalbalken gestapelt“ wandeln Sie Diagramme in „zu 100 % gestapelte“ Visualisierungen um. Beispiel: ![Gestapelt 100%](assets/stacked_100_percent.png) |
 | Legende sichtbar | Hiermit können Sie den erklärenden Text zu Details für die Visualisierung „Zusammenfassungsnummer/Zusammenfassungsänderung“ ausblenden. |
-| Grenzwert für max. Anzahl Elemente | Hiermit können Sie die Anzahl der Elemente begrenzen, die in einer Visualisierung angezeigt werden. |
+| Grenzwert für max. Anzahl von Elementen | Hiermit können Sie die Anzahl der Elemente begrenzen, die in einer Visualisierung angezeigt werden. |
 | Y-Achse bei null verankern | Wenn alle im Diagramm dargestellten Werte deutlich größer als null sind, wird der untere Teil der Y-Achse standardmäßig zu NICHT-NULL gemacht. Wenn Sie dieses Kontrollkästchen aktivieren, wird die Y-Achse zwangsweise auf null gesetzt (und das Diagramm neu gezeichnet). |
 | Normalisierung | Erzwingt Metriken für gleiche Anteile. Dies ist hilfreich, wenn grafisch dargestellte Metriken sehr unterschiedliche Größenordnungen aufweisen. |
 | Zwei Achsen anzeigen | Gilt nur, wenn Sie zwei Metriken haben – möglich sind eine Y-Achse links (für die eine Metrik) und eine rechts (für die andere). Dies ist hilfreich, wenn grafisch dargestellte Metriken sehr unterschiedliche Größenordnungen aufweisen. |
