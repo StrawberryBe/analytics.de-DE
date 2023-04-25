@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 96%
+source-wordcount: '697'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
    + [Kompatibilität der Dimensionen](dimensions/compatibility.md)
    + [Rangansicht aller Suchseiten](dimensions/all-search-page-rank.md)
    + [Vormittag/Nachmittag](dimensions/am-pm.md)
+   + [Bot name](dimensions/bot-name.md)
    + [Browser-Höhe](dimensions/browser-height.md)
    + [Browser-Typ](dimensions/browser-type.md)
    + [Browser-Breite](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 96%
    + [Durchschnittliche Seitenansichten pro Besuch](metrics/average-page-views-per-visit.md)
    + [Durchschnittliche Sitzungslänge](metrics/average-session-length.md)
    + [Durchschnittliche Besuchszeit pro Site](metrics/average-time-on-site.md)
+   + [Bot-Vorkommen](metrics/bot-occurrences.md)
+   + [Bot-Seitenansichten](metrics/bot-page-views.md)
    + [Absprungrate](metrics/bounce-rate.md)
    + [Absprünge](metrics/bounces.md)
    + [Zusatz zum Warenkorb](metrics/cart-additions.md)
