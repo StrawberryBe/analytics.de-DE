@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3930'
+source-wordcount: '3953'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **April 2023** |  |
 | 2 neue Endpunkthandbücher für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics-Metrik-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde optimiert und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten werden jetzt mit den Schritten für [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Dynamische Suchen | Zusätzliche Informationen zu [Dynamische Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) hinzugefügt. Zuvor gab es nur Informationen für mobile Attribute, bei denen es sich um eine von mehreren dynamischen Suchen handelt. |
 | **März 2023** |  |
 | Web SDK-Unterstützung für Activity Map | [Implementieren von Adobe Analytics](/help/implement/home.md) und [Aktivieren von Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) wurden aktualisiert. |
 | Übersicht über Traffic-Variablen (Props) | Es wurden Abschnitte und schrittweise Anweisungen zur Klarstellung und Verbesserung des Artikelinhalts hinzugefügt. Inhalte aus dem Artikel „Aktivieren von Traffic-Variablen-Berichten“ wurden zusammengeführt und dieser Artikel entfernt. Siehe [Übersicht über Traffic-Variablen (Props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |

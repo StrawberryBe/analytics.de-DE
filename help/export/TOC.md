@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds zum Exportieren von Rohdaten und Data Warehouse zum Abrufen einer Tabellenausgabe von Daten. Erfahren Sie, wie Sie FTP und SFTP zur Übertragung von Dateien einsetzen können.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [Metriken berechnen](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Datenspaltenreferenz](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Seitenereignissuche](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Suche nach mobilen Attributen](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Dynamische Suchen](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [Merchandising-eVar-Suche](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Sonderzeichen](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)

@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3655'
-ht-degree: 93%
+source-wordcount: '3670'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`browser_width`** | Breite des Browser-Fensters in Pixel. | smallint unsigniert |
 | **`c_color`** | Bit-Tiefe der Farbpalette. Wird bei der Berechnung der Dimension [Farbtiefe](/help/components/dimensions/color-depth.md) verwendet. AppMeasurement verwendet die JavaScript-Funktion `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable, die in der Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) verwendet wird. | varchar(255) |
-| **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Verweist auf die `carrier` Suchtabelle | varchar(100) |
+| **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Der Schlüsselwert für `carrier.tsv` [Dynamische Suche](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
 | **`channel`** | Variable, die in der Dimension [Site-Abschnitte](/help/components/dimensions/site-section.md) verwendet wird. | varchar(100) |
@@ -110,7 +110,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`latlon45`** | Standort (bis 1 m) | varchar(255) |
 | **`mc_audiences`** | Liste der Segment-IDs von Audience Manager, zu denen der Besucher gehört. Die Spalte `post_mc_audiences` ändert das Trennzeichen in `--**--`. | text |
 | **`mcvisid`** | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
-| **`mobile_id`** | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
+| **`mobile_id`** | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. Der Schlüsselwert für `mobile_attributes.tsv` [Dynamische Suche](dynamic-lookups.md). | int |
 | **`mobileaction`** | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
 | **`mobileappid`** | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:    `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
@@ -159,7 +159,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`mvvar1_instances`** – `mvvar3_instances` | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Ersetzt das ursprüngliche Trennzeichen durch `--**--`. Enthält nicht `post` Spalte. | text |
 | **`namespace`** | Nicht verwendet. Teil einer veralteten Funktion. | varchar(50) |
 | **`new_visit`** | Ein Flag, das bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe-Servern nach einer 30-minütigen Besuchsinaktivität festgelegt. | tinyint unsigniert |
-| **`os`** | Numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Verwendet die `os`-Suche. | int unsigniert |
+| **`os`** | Numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Der Schlüsselwert für `operating_system.tsv` Standardsuche und `operating_system_type.tsv` [Dynamische Suche](dynamic-lookups.md). | int unsigniert |
 | **`p_plugins`** | Wird nicht mehr verwendet. Liste der für den Browser verfügbaren Plugins. Hat die JavaScript-Funktion `navigator.plugins()` verwendet. | text |
 | **`page_event`** | Die Art des Treffers, die in der Bildanforderung gesendet wird (Standardtreffer, Downloadlink, benutzerspezifischer Link, Exitlink). Siehe [Seitenereignissuche](datafeeds-page-event.md). | tinyint unsigniert |
 | **`page_event_var1`** | Wird nur in Linktracking-Bildanforderungen verwendet. Die URL des angeklickten Downloadlinks, Exitlinks oder benutzerspezifischen Links. | text |

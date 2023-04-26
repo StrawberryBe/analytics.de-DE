@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Sonderzeichen in Daten-Feeds
 feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Wenn diesen reservierten Werten ein umgekehrter Schrägstrich vorangestellt wird
 | `\\n` | Der Wert „`\n`“ wurde während der Datenerfassung gesendet und von Adobe mit Escape-Zeichen versehen. |
 | `\\` | Der Wert „`\`“ wurde während der Datenerfassung gesendet und von Adobe mit Escape-Zeichen versehen. |
 
-Nehmen wir an, ein Besucher Ihrer Site sucht in der internen Suche nach „search\nstring“. Sie befüllen eVar1 mit „search\nstring“ und senden diesen Wert an Adobe. Adobe erhält diesen Treffer und versieht den in der Zeichenfolge enthaltenen Zeilenumbruch mit einem Escape-Zeichen. Der tatsächliche in den Rohdaten platzierte Wert ist „search\\nstring“.
+Beispiel: Ein Besucher Ihrer Site verwendet die interne Suche und sucht nach `"search\nstring"`. Sie füllen eVar 1 mit `"search\nstring"`und senden Sie diesen Wert an Adobe. Adobe erhält diesen Treffer und versieht den in der Zeichenfolge enthaltenen Zeilenumbruch mit einem Escape-Zeichen. Der tatsächliche Wert, der in den Rohdaten platziert wird, lautet `"search\\nstring"`.
 
 ## Sonderzeichen in Variablen mit mehreren Werten (events_list, products_list, mvvars)
 
