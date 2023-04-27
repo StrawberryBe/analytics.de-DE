@@ -3,10 +3,10 @@ title: usePlugins
 description: Aktivieren oder deaktivieren Sie die doPlugins()-Funktion.
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,9 @@ Das Web SDK verfügt zwar nicht über einen booleschen Wert, der die Ausführung
 
 ## Verwenden von Plug-ins mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Adobe bietet eine Erweiterung mit der Bezeichnung &quot;Common Analytics Plugins&quot;, mit der Sie die meisten [Plug-ins](../plugins/impl-plugins.md). Installieren Sie die Erweiterung und rufen Sie das gewünschte Plug-in in einer Regel auf.
+
+Wenn das gewünschte Plug-in nicht in der Adobe-Erweiterung enthalten ist, verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
 
 ## s.usePlugins in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
