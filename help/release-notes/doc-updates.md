@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
-source-wordcount: '3953'
-ht-degree: 97%
+source-wordcount: '3972'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **April 2023** |  |
+| Übertragen von Benutzer-Assets und Festlegen des Ablaufs von Konten | Informationen zum [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](/help/admin/admin/user-management2/users-assets.md). |
 | 2 neue Endpunkthandbücher für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics-Metrik-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde optimiert und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten werden jetzt mit den Schritten für [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Dynamische Suchen | Zusätzliche Informationen zu [Dynamische Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) hinzugefügt. Zuvor gab es nur Informationen für mobile Attribute, bei denen es sich um eine von mehreren dynamischen Suchen handelt. |
