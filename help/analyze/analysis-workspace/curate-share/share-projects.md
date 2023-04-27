@@ -5,7 +5,7 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 55%
@@ -120,7 +120,7 @@ Sie können [Schreibgeschützter Zugriff](/help/analyze/analysis-workspace/curat
 >
 >* Die Möglichkeit, ein Projekt auf diese Weise freizugeben, kann vom Analytics-Administrator deaktiviert werden, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Wenn Sie ein Projekt nicht wie in diesem Abschnitt beschrieben freigeben können, hat Ihr Analytics-Administrator diese Möglichkeit deaktiviert.
 >
->* Projekte mit mehr als 14 erweiterten Visualisierungen können nicht für Personen freigegeben werden, die keinen Zugriff auf Adobe Analytics haben.
+>* Projekte mit mehr als 50 erweiterten Visualisierungen können nicht für Personen freigegeben werden, die keinen Zugriff auf Adobe Analytics haben.
 >
 >* Benutzer, für die Sie freigeben, können alle Filter anzeigen, die auf das Projekt während der [Kuratierung](curate.md).
 > 
