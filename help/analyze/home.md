@@ -1,13 +1,13 @@
 ---
 title: Leitfaden für Analytics-Tools
-description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Analytics-Dashboards (mobile App), Activity Map, Report Builder, Reporting-API und Reports & Analytics.
+description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Analytics-Dashboards (Mobile App), Activity Map, Report Builder, Reporting-API und Reports & Analytics.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: c659d85ce0dea98245eb25f1432720d69cfe77cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ Das Handbuch für Analytics-Tools enthält Informationen zu Produktfunktionen, A
 | Tool | Beschreibung |
 |-----------|----------------|
 | **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de)** | Analysis Workspace ist ein flexibles Browser-Tool, mit dem Sie schnell Analysen erstellen und Insights austauschen können. Mithilfe der Drag-and-Drop-Oberfläche können Sie Ihre Analyse gestalten, Visualisierungen hinzufügen, um Daten optisch darzustellen, einen Datensatz kuratieren sowie Projekte für andere in Ihrer Organisation freigeben und planen. |
-| **[Analytics-Dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=de)** | Mithilfe von Analytics-Dashboards und deren mobilen Scorecards können ausführende Benutzer eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzeigen. Kuratoren fügen Visualisierungen zu mobilen Scorecard-Projekten hinzu und teilen sie für Führungskräfte.  <br>Scorecards bieten eine Möglichkeit, KPIs zu bestimmen und zu messen, und bieten einen klaren Hinweis darauf, wie gut Organisationen daran arbeiten, ihre Ziele zu erreichen. |
-| **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=de)** | Activity Map ist eine Adobe Analytics-Anwendung, die der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen. <br>Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleunigte Kundenaktivität zu erkennen, Marketinginitiativen zu quantifizieren und auf die Bedürfnisse und das Verhalten der Zielgruppe zu reagieren.&quot; |
-| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=de)** | Report Builder ist ein Add-in für Microsoft Excel. Mit Report Builder können Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen, die in Ihre Excel-Arbeitsblätter eingefügt wurden. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen. |
-| **[Analytics-APIs](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Mit Analytics-APIs können Sie die Server der Adobe direkt aufrufen, um fast alle Aktionen auszuführen, die Sie in der Benutzeroberfläche ausführen können. Sie können Berichte erstellen, um wichtige Fragen zu Ihren Daten zu untersuchen, Einblicke zu erhalten oder zu beantworten. Sie können auch Komponenten von Adobe Analytics verwalten, z. B. die Erstellung von Segmenten oder berechneten Metriken. |
-| **[Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Reports &amp; Analytics ist ein Tool mit Dutzenden vordefinierten Berichten und Visualisierungen. Diese sind jetzt in Analysis Workspace verfügbar. **Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum 31. Dezember 2023 einzustellen. Adobe empfiehlt für die meisten Reporting-Erfordernisse die Verwendung von Analysis Workspace.** Weitere Informationen finden Sie unter [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de). |
+| **[Analytics-Dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=de)** | Analytics-Dashboards und deren mobile Scorecards ermöglichen es Führungskräften, eine breite Darstellung wichtiger zusammenfassender Daten schnell und einfach auf ihren eigenen mobilen Geräten anzuzeigen. Kuratorinnen und Kuratoren fügen Visualisierungen zu mobilen Scorecard-Projekten hinzu und teilen sie mit Führungskräften.  <br>Scorecards bieten eine Möglichkeit, KPIs ins Ziel zu nehmen und zu messen, und bieten einen klaren Hinweis darauf, wie gut Unternehmen dabei sind, ihre Ziele zu erreichen. |
+| **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=de)** | Activity Map ist eine Adobe Analytics-Anwendung, die der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen. <br>Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleunigte Kundenaktivität zu erkennen, Marketinginitiativen zu quantifizieren und auf die Bedürfnisse und das Verhalten der Zielgruppe zu reagieren.“ |
+| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=de)** | Report Builder ist ein Add-in für Microsoft Excel. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die in Ihre Excel-Arbeitsblätter eingefügt werden. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen. |
+| **[Analytics-APIs](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Mit Analytics-APIs können Sie Adobe-Server direkt aufrufen, um fast alle Aktionen auszuführen, die Sie in der Benutzeroberfläche ausführen können. Sie können Berichte erstellen, um wichtige Fragen zu Ihren Daten zu untersuchen, zu beantworten oder Einblicke zu ihnen zu erhalten. Sie können auch Komponenten von Adobe Analytics verwalten, z. B. die Erstellung von Segmenten oder berechneten Metriken. |
+| **[Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html?lang=de)** | Reports &amp; Analytics ist ein Tool mit Dutzenden vordefinierten Berichten und Visualisierungen. Diese sind jetzt in Analysis Workspace verfügbar. **Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum 31. Dezember 2023 einzustellen. Adobe empfiehlt für die meisten Reporting-Erfordernisse die Verwendung von Analysis Workspace.** Weitere Informationen finden Sie unter [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de). |
 
-Weitere Informationen zu den Adobe Analytics-Grundlagen finden Sie unter *Einführung in Adobe Analytics - Skill Builder-Webinar* Video unten. Das Video führt Sie durch die Grundlagen dazu, wie Daten erfasst werden, wie Daten an Adobe Analytics gesendet werden und welche Visualisierungsfunktionen Sie in Adobe Analytics verwenden können. Das Video bietet eine Grundlage für das Erstellen, Bereitstellen, Erfassen und Interpretieren von Daten...Ermöglicht es Ihnen, anhand der erfassten Daten umsetzbare Einblicke und Empfehlungen bereitzustellen.
+Weitere Informationen zu den Adobe Analytics-Grundlagen finden Sie im folgenden Video: *Einführung in Adobe Analytics – Skill Builder-Webinar*. Das Video führt Sie durch die Grundlagen, wie Daten erfasst werden, wie Daten an Adobe Analytics gesendet werden und welche Visualisierungsfunktionen Sie in Adobe Analytics verwenden können. Das Video bietet eine Grundlage für das Erstellen, Implementieren, Erfassen und Interpretieren von Daten, sodass Sie anhand der erfassten Daten umsetzbare Einblicke und Empfehlungen liefern können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-Fragen dazu, welches Tool verwendet werden soll, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
+Eine Erörterung, welches Tool verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=de).
 
-## Benutzerhandbücher für Analytics
+## Analytics-Benutzerhandbücher
 
 Detaillierte Informationen zu Adobe Analytics-Funktionen und deren Verwendung finden Sie unter [Analytics-Benutzerhandbücher](https://experienceleague.adobe.com/docs/analytics.html?lang=de)
 
