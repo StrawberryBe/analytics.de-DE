@@ -7,8 +7,8 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
-source-wordcount: '3972'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +27,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **April 2023** |  |
 | Übertragen von Benutzer-Assets und Festlegen des Ablaufs von Konten | Informationen zum [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](/help/admin/admin/user-management2/users-assets.md). |
-| 2 neue Endpunkthandbücher für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics-Metrik-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde optimiert und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten werden jetzt mit den Schritten für [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Zwei neue Endpunkt-Leitfäden für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimensions-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde vereinheitlicht und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten sind jetzt mit den Schritten zum [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md) zusammengelegt. |
 | Dynamische Suchen | Zusätzliche Informationen zu [Dynamische Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) hinzugefügt. Zuvor gab es nur Informationen für mobile Attribute, bei denen es sich um eine von mehreren dynamischen Suchen handelt. |
 | **März 2023** |  |
 | Web SDK-Unterstützung für Activity Map | [Implementieren von Adobe Analytics](/help/implement/home.md) und [Aktivieren von Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) wurden aktualisiert. |

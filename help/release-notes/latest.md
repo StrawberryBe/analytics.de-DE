@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **IP-Verschleierung für Experience Edge** | Experience Edge unterstützt die IP-Verschleierung für Daten, die direkt an Adobe Experience Platform gesendet werden. Dies kommt Kundinnen und Kunden zugute, die Daten zur Verwendung in CJA oder anderen Platform-Lösungen direkt an Platform senden. Die IP-Verschleierung wird auf Datenstrom-Ebene konfiguriert. Sie unterstützt das Entfernen des letzten Bytes oder der gesamten IP-Adresse.<p>**Hinweis**: Die Verschleierung gilt NICHT für Daten, die an Adobe Analytics gesendet werden. Analytics erhält weiterhin die vollständige IP-Adresse. Die IP-Verarbeitung erfolgt weiterhin separat in Analytics. In Zukunft planen wir, die Verschleierung von Analytics-Daten an der Edge zuzulassen. | Nicht angegeben | AEP-Version vom 26. April 2023 |
 | **Datenwörterbuch in Analysis Workspace** | Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten (Dimensionen, Metriken) in ihrer Analytics-Umgebung zu verfolgen, zu verwalten und besser zu verstehen. [Weitere Informationen](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15. März 2023 | 29. März 2023 |
 | **Link-Freigabe für Projekte (keine Anmeldung erforderlich)** | <p>Sie können jetzt schreibgeschützte Links zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Dazu gehört die Freigabe für Personen außerhalb Ihres Unternehmens oder für Personen in Ihrem Unternehmen, die nicht für Adobe Analytics bereitgestellt werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>Diese Funktion ist standardmäßig aktiviert und kann vom Systemadministrator deaktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 26. April 2023 (nur privater Beta-Zugriff) | Juni 2023 |
-| 2 neue Endpunkthandbücher für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics-Metrik-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | Nicht angegeben | 10. April 2023 |
+| Zwei neue Endpunkt-Leitfäden für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimensions-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | Nicht angegeben | 10. April 2023 |
 
 {style="table-layout:auto"}
 
