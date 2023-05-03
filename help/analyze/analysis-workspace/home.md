@@ -4,60 +4,47 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
+source-git-commit: 6a53f8e9377116c4f4a09eb32229733a44bdac9e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 70%
+source-wordcount: '612'
+ht-degree: 38%
 
 ---
 
 # Analysis Workspace – Übersicht
 
-Analysis Workspace ist ein flexibles Browser-Tool, mit dem Sie schnell Analysen erstellen und Insights austauschen können. Mithilfe der Drag-and-Drop-Oberfläche können Sie Ihre Analyse gestalten, Visualisierungen hinzufügen, um Daten optisch darzustellen, einen Datensatz kuratieren sowie Projekte für andere in Ihrer Organisation freigeben und planen.
+Mit Analysis Workspace können Sie schnell Analysen erstellen und Erkenntnisse austauschen. Mithilfe der Drag &amp; Drop-Browser-Oberfläche können Sie Ihre Analyse gestalten, Visualisierungen hinzufügen, um Daten zum Leben zu erwecken, einen Datensatz zu kuratieren und Projekte für andere in Ihrer Organisation freizugeben und zu planen.
 
-Wenn Sie nur wenige Minuten Zeit haben, sehen Sie sich diese kurze Übersicht an, um zu sehen, was möglich ist.
+Das folgende Video bietet einen kurzen Überblick über die Möglichkeiten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
+## Schlüsselbereiche in Analysis Workspace
+
+Die folgende Abbildung und Tabelle erläutern einige der Schlüsselbereiche in Analysis Workspace:
+
+![Analysis Workspace – Übersicht](assets/analysis-workspace-overvew.png)
+
+| Position im Bild | Name und Funktion |
+|---------|----------|
+| A  | **Entfernte linke Leiste:** Enthält Registerkarten zum Hinzufügen von Bedienfeldern, Visualisierungen und Komponenten zu Analysis Workspace. Enthält außerdem das Datenwörterbuchsymbol, mit dem das Datenwörterbuch geöffnet wird. |
+| B | **Linke Leiste:** Je nachdem, welche Registerkarte in der linken Leiste ausgewählt ist, enthält dieser Bereich einzelne Bedienfelder, Visualisierungen oder Komponenten. |
+| C  | **Bedienfelder:** Bedienfelder werden hier angezeigt, wenn sie zu Analysis Workspace hinzugefügt werden. Sie können Visualisierungen und Komponenten auf beliebige Bereiche ziehen, die Sie hinzufügen. |
+| D | **Dropdown-Menü für Report Suites:** Für jedes Bedienfeld in Analysis Workspace können Sie im Dropdown-Menü der Report Suite die Report Suite auswählen, die Sie als Datenquelle verwenden möchten. |
+
 ## Anmelden bei Adobe Analytics {#login}
 
-Um mit Analysis Workspace zu beginnen, melden Sie sich unter [experience.adobe.com/analytics](https://experience.adobe.com/analytics) bei Adobe Analytics an. Sie landen auf der Seite &quot;Projekte&quot;, falls noch kein bestimmtes Projekt für Sie ausgewählt wurde.
+Um mit Analysis Workspace zu beginnen, melden Sie sich unter [experience.adobe.com/analytics](https://experience.adobe.com/analytics) bei Adobe Analytics an. Die Seite &quot;Projekte&quot;wird standardmäßig angezeigt, es sei denn, für Sie wurde ein bestimmtes Projekt ausgewählt.
 
-![](assets/create-new-project.png)
+## Erstellen Sie ein Projekt {#new-project}
 
-## Verwenden des Tutorials {#training-tutorial}
+Eine Analyse in Analysis Workspace wird als [Projekt](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
-Nach der Anmeldung können Sie als Erstes die Vorlage für das Analysis Workspace-Tutorial-Training auswählen. Er führt Sie durch die gängige Terminologie und die Schritte zum Erstellen Ihrer ersten Analyse in Workspace. Um das Tutorial zu starten,
+Informationen zum Erstellen eines Projekts in Analysis Workspace finden Sie unter [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-1. Klicken Sie auf **[!UICONTROL Lernen]** auf der linken Seite.
-1. Klicken **[!UICONTROL Tutorial öffnen]**.
+## Die Bausteine des Analysis Workspace-Projekts {#analysis}
 
-![](assets/training-tutorial.png)
-
-## Neues Projekt erstellen {#new-project}
-
-Nach Abschluss des Tutorials können Sie mit der Erstellung Ihres ersten Projekts beginnen. Im [!UICONTROL Projekte] Registerkarte können Sie von
-
-* [!UICONTROL Leeres Projekt] wenn Sie Ihre Analyse über den Browser freigeben möchten, oder
-* [[!UICONTROL Leere mobile Scorecard]](/help/analyze/mobile-app/curator.md), wenn Sie Ihre Analyse über die mobile Customer Journey Analytics-Dashboards-App freigeben möchten.
-
-Sie können Ihre Analyse auch mit vordefinierten **Vorlagen** beginnen, entweder mit von Adobe bereitgestellten Standardvorlagen oder mit benutzerdefinierten Vorlagen, die von Ihrem Unternehmen erstellt wurden. Je nach Analyse oder Anwendungsfall stehen verschiedene Vorlagen zur Verfügung. Sie finden sie jetzt unter der [!UICONTROL Berichte] in der linken Leiste.
-
-## Analyse erstellen {#analysis}
-
-In Ihrem Arbeitsbereich-Projekt können Sie von der linken Leiste aus auf **Bereiche, Tabellen, Visualisierungen und Komponenten** zugreifen. Das sind Ihre Projektbausteine.
-
-### Komponenten
-
-**Komponenten** sind Dimensionen, Metriken, Segmente oder Datumsbereiche, die alle in einer **[!UICONTROL Freiformtabelle]** kombiniert werden können, um Sie bei der Beantwortung Ihrer betrieblichen Frage zu unterstützen. Machen Sie sich mit jedem [Komponententyp](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) vertraut, bevor Sie mit Ihrer Analyse fortfahren. Wenn Sie die Terminologie der Komponenten kennen, können Sie mit dem Ziehen und Ablegen beginnen, um [Ihre Analyse ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=de)in einer **[!UICONTROL Freiform-Tabelle]** zu erstellen.
-
-![](assets/build-components.png)
-
-### Visualisierungen
-
-**Visualisierungen**, wie z. B. ein Balken- oder Liniendiagramm, verwendet werden, um Daten visuell darzustellen. Wählen Sie in der linken Leiste das mittlere Symbol **[!UICONTROL Visualisierungen]** aus, um die vollständige Liste der verfügbaren [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) anzuzeigen.
-
-![](assets/build-visualizations.png)
+Die Bausteine, die Sie zum Erstellen eines Projekts in Analysis Workspace verwenden, sind Bedienfelder, Tabellen, Visualisierungen und Komponenten.
 
 ### Bedienfelder
 
@@ -65,13 +52,59 @@ In Ihrem Arbeitsbereich-Projekt können Sie von der linken Leiste aus auf **Bere
 
 ![](assets/build-panels.png)
 
-### Projektverwaltung in Analysis Workspace
+### Visualisierungen
+
+**Visualisierungen**, wie z. B. ein Balken- oder Liniendiagramm, verwendet werden, um Daten visuell darzustellen. Wählen Sie in der linken Leiste das mittlere Symbol **[!UICONTROL Visualisierungen]** aus, um die vollständige Liste der verfügbaren [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) anzuzeigen.
+
+![](assets/build-visualizations.png)
+
+### Komponenten
+
+[Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) in Analysis Workspace bestehen aus folgenden Komponenten:
+
+* Dimensionen
+
+* Metriken
+
+* Segmente
+
+* Datumsbereiche
+
+Siehe [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) , um mehr über die einzelnen Komponententypen zu erfahren.
+
+Jeder dieser Komponententypen kann zu einer Visualisierung hinzugefügt werden (z. B. einer Freiformtabelle), um Ihre Geschäftsfragen zu beantworten.
+
+Wenn Sie sich mit der Komponententerminologie vertraut gemacht haben, können Sie damit beginnen, Komponenten in Visualisierungen (einschließlich Freiformtabellen) nach [Analyse erstellen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=de).
+
+![](assets/build-components.png)
+
+<!--
+
+## The Data Dictionary
+
+
+
+## Save and share Analysis Workspace projects
+
+-->
+
+## Projektverwaltung in Analysis Workspace
 
 Im Folgenden finden Sie eine Videoübersicht zur Projektverwaltung:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
+## Verwenden des Tutorials {#training-tutorial}
+
+Eine gute Möglichkeit, Analysis Workspace kennenzulernen, ist die Vorlage Analysis Workspace-Tutorial . Diese Vorlage führt Sie durch die gängige Terminologie und die Schritte zum Erstellen Ihrer ersten Analyse in Workspace. Starten des Tutorials:
+
+1. Wählen Sie auf der Registerkarte Workspace in Adobe Analytics die Option **[!UICONTROL Lernen]** auf der linken Seite.
+1. Auswählen **[!UICONTROL Tutorial öffnen]**.
+
+![](assets/training-tutorial.png)
+
 ## Zusätzliche Ressourcen {#resources}
 
 * Adobe bietet Hunderte von [Analytics-Video-Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=de).
 * Für neue Funktionen siehe [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de#analytics).
+

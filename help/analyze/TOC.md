@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: a653d60fd423d2853254a8c96252a39f08f9a3b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1098'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 0%
    + [Neue Funktionen in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Projekte {#build-workspace-project}
       + [Übersicht über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Erstellen von Projekten](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
       + Ordner in Analysis Workspace {#workspace-folders}
          + [Über Ordner in Analysis Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
