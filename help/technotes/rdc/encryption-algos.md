@@ -1,39 +1,38 @@
 ---
 title: Unterstützte HTTPS-Verschlüsselungsalgorithmen
-description: Ab 23. Juni 2022 werden keine TLS 1.2-Chiffren mehr unterstützt, die SHA1 oder CBC für Kunden verwenden, deren Chiffrier-Sicherheitsstufe auf „Hoch“ eingestellt ist.
+description: TLS bietet Sicherheitseinstellungen und Zertifikatstypen.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
-workflow-type: ht
-source-wordcount: '285'
-ht-degree: 100%
+source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 30%
 
 ---
 
 # Unterstützte HTTPS-Verschlüsselungsalgorithmen
 
-Adobe bietet zwei Chiffrier-Sicherheitsstufen an, die den unterschiedlichen Sicherheitsanforderungen bei der Erfassung von First-Party-Daten gerecht werden. Diese Stufen bestimmen, welche Verschlüsselungsalgorithmen bei HTTPS-Verbindungen mit unseren Servern unterstützt werden. Die Standardeinstellung „Standard“ unterstützt nur moderne Verschlüsselungsalgorithmen. Die Einstellung „Hoch“ unterstützt eine kleinere Gruppe von Verschlüsselungsalgorithmen für Kunden, die mehr Sicherheit in Bezug auf diese Verbindungen wünschen. Für beide Sicherheitsstufen aktualisiert Adobe regelmäßig die unterstützten Algorithmen auf der Grundlage aktueller Sicherheitspraktiken. Wenden Sie sich an die Kundenunterstützung, wenn Sie Ihre Chiffrier-Sicherheitseinstellungen ändern möchten.
+## Cipher Security Levels
 
-Ab 23. Juni 2022 werden keine TLS 1.2-Chiffren mehr unterstützt, die SHA1 oder CBC für Kunden verwenden, deren Chiffrier-Sicherheitsstufe auf „Hoch“ eingestellt ist. Diese Änderung wirkt sich auf die sichere Datenerfassung von Endbenutzern und Endbenutzerinnen auf älteren Betriebssystemen aus.
+Adobe bietet zwei Chiffrier-Sicherheitsstufen an, die den unterschiedlichen Sicherheitsanforderungen bei der Erfassung von First-Party-Daten gerecht werden. Diese Stufen bestimmen, welche Verschlüsselungsalgorithmen bei HTTPS-Verbindungen mit unseren Servern unterstützt werden. Adobe überprüft und aktualisiert regelmäßig den Satz unterstützter Algorithmen auf der Grundlage aktueller Sicherheitspraktiken. Wenden Sie sich an die Kundenunterstützung, wenn Sie die Sicherheitseinstellungen für die Chiffre ändern möchten.
 
-Die folgenden TLS 1.2-Chiffren werden nicht mehr unterstützt:
+&quot;Standard&quot;erfordert TLS 1.2 oder höher und mindestens 128-Bit-Verschlüsselung. Es wurde entwickelt, um die größtmögliche Gerätekompatibilität zu gewährleisten und gleichzeitig die sichere Verschlüsselung zu gewährleisten.
 
-* TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
-* TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
-* TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-* TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-* TLS_RSA_WITH_AES_128_CBC_SHA
-* TLS_RSA_WITH_AES_256_CBC_SHA
-* TLS_RSA_WITH_AES_128_GCM_SHA256
-* TLS_RSA_WITH_AES_256_GCM_SHA384
+Die Sicherheitsstufe &quot;Hoch&quot;erfordert TLS 1.2 oder höher und entfernt die Unterstützung für schwächere Chiffren. Es wurde für Kunden entwickelt, die die strengste Verschlüsselung wünschen und sich nicht um die Unterstützung älterer Geräte sorgen.
 
-Die folgenden Clients sind von dieser Änderung bekanntermaßen betroffen, da sie die aktuellen Verschlüsselungsstandards nicht unterstützen:
+Die folgenden Clients sind bekanntermaßen nicht in der Lage, eine Verbindung mit der cipher-Sicherheit herzustellen, die auf &quot;Hoch&quot;gesetzt ist.
 
 * Windows 8.1 und niedriger (zuletzt aktualisiert 2018)
 * Windows Phone 8.1 und niedriger (zuletzt aktualisiert 2016)
 * OS X 10.10 und niedriger (letzte Aktualisierung 2017)
 * iOS 8.4 und niedriger (zuletzt aktualisiert 2015)
 
-Android-Geräte sind von dieser Änderung nicht betroffen.
+## Unterstützte HTTPS-Zertifikatstypen
 
-Auch Kunden mit der Sicherheitsstufe „Standard“ sind von dieser Änderung nicht betroffen.
+Adobe unterstützt sowohl RSA- als auch ECC-Zertifikatstypen, um unterschiedlichen Kundenanforderungen gerecht zu werden. RSA-Zertifikate werden für Clients häufiger unterstützt, ECC-Zertifikate verwenden jedoch weniger Verarbeitung auf Server- und Client-Seite. Für von Adobe verwaltete Zertifikate werden sowohl RSA als auch ECC bereitgestellt. Für kundenverwaltete Zertifikate werden sowohl RSA als auch ECC empfohlen. Moderne Kunden unterstützen RSA und ECC. Die folgenden Clients unterstützen bekanntermaßen nur RSA-Zertifikate:
+
+* Windows Vista und früher (zuletzt aktualisiert 2012)
+* Windows Phone 8.0 und niedriger (zuletzt aktualisiert 2014)
+* OS X 10.8 und niedriger (letzte Aktualisierung 2013)
+* iOS 5.1 und niedriger (zuletzt aktualisiert 2012)
+* Android 4.3 und früher (zuletzt aktualisiert 2013)
