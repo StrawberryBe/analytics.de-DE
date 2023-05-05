@@ -4,9 +4,9 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '749'
 ht-degree: 33%
 
 ---
@@ -90,11 +90,11 @@ Eine Analyse in Analysis Workspace wird als [Projekt](/help/analyze/analysis-wor
 
 Sie können ein Projekt in Analysis Workspace erstellen, wie unter [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-### Projekte speichern und freigeben
+### Projekt speichern und freigeben
 
 Bei der Erstellung einer Analyse in Analysis Workspace [automatisch gespeichert](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Wenn Sie das Projekt fertig erstellen und praktische Einblicke gewinnen, ist es bereit, von anderen genutzt zu werden. Sie können das Projekt für Benutzer und Gruppen in Ihrer Organisation oder auch für Personen außerhalb Ihrer Organisation freigeben. Informationen zum Freigeben eines Projekts finden Sie unter [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Wenn Sie das Projekt fertig erstellen und praktische Einblicke gewinnen, kann das Projekt von anderen genutzt werden. Sie können das Projekt für Benutzer und Gruppen in Ihrer Organisation oder auch für Personen außerhalb Ihrer Organisation freigeben. Informationen zum Freigeben eines Projekts finden Sie unter [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Projektverwaltung in Analysis Workspace
 
