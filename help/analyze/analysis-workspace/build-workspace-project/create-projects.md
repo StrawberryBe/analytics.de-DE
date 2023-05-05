@@ -3,7 +3,7 @@ description: Lernen Sie die Grundlagen zum Erstellen eines Projekts in Analysis 
 title: Erstellen von Projekten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Erstellen von Projekten
 
-[Projekte](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace können Sie geschäftskritische Daten aufdecken, die für Interessengruppen innerhalb oder außerhalb Ihres Unternehmens freigegeben werden können.
+[Projekte](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace können Sie geschäftskritische Analysen anzeigen, die für Interessengruppen innerhalb oder außerhalb Ihres Unternehmens freigegeben werden können.
 
 Allgemeine Informationen zu den ersten Schritten mit Analysis Workspace finden Sie unter [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 
@@ -42,7 +42,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und
 
    1. Suchen oder navigieren Sie zur Vorlage, die Sie verwenden möchten, und wählen Sie sie aus, wenn sie angezeigt wird.
 
-      Standardmäßig sind verschiedene Standardvorlagen verfügbar. Darüber hinaus hat Ihr Unternehmen möglicherweise benutzerdefinierte Vorlagen erstellt, aus denen Sie auswählen können.
+      Eine Reihe von Standardvorlagen ist standardmäßig verfügbar. Darüber hinaus hat Ihr Unternehmen möglicherweise benutzerdefinierte Vorlagen erstellt, aus denen Sie auswählen können.
 
       Weitere Informationen finden Sie unter [Erste Schritte mit Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md).
 +++
@@ -73,7 +73,7 @@ So fügen Sie einen Bereich hinzu:
 
 >[!TIP]
 >
->Freiformtabellen sind der gängigste Visualisierungstyp und bilden die Grundlage für die interaktive Datenanalyse. Weitere Informationen zum Arbeiten mit Freiformtabellen in Analysis Workspace finden Sie unter [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>Freiformtabellen sind der am häufigsten verwendete Visualisierungstyp und bilden die Grundlage für die interaktive Datenanalyse. Weitere Informationen zum Arbeiten mit Freiformtabellen in Analysis Workspace finden Sie unter [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 So fügen Sie eine Visualisierung hinzu:
 

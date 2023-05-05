@@ -4,14 +4,14 @@ keywords: Analysis Workspace
 title: Übersicht über Ordner
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 00c52c345be15522cd8f2aa30ab214ec05dc6575
-workflow-type: ht
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Über Ordner in Analytics
+# Ordner in Analysis Workspace
 
 „Ordner“ in Analytics ist ein Ordnerverwaltungssystem, das auf der Landingpage von Adobe Analytics angezeigt wird. Sie können es auch aufrufen, indem Sie **Workspace** > **Projekte** auswählen.
 
