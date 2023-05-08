@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 55%
+source-wordcount: '1797'
+ht-degree: 53%
 
 ---
 
@@ -125,6 +125,8 @@ Sie können [Schreibgeschützter Zugriff](/help/analyze/analysis-workspace/curat
 >* Benutzer, für die Sie freigeben, können alle Filter anzeigen, die auf das Projekt während der [Kuratierung](curate.md).
 > 
 >* Benutzer, für die Sie freigeben, können den Projektdatumsbereich ändern. Der Datumsbereich, den Sie für das Projekt festgelegt haben, wird standardmäßig angezeigt.
+>
+>* Ein Projekt kann nicht mehr zugänglich sein, wenn viele Benutzer versuchen, gleichzeitig auf einen bestimmten Link zuzugreifen. Standardmäßig können alle 5 Minuten mehr als 190 Personen auf einen einzelnen Link zugreifen. Wenn Ihr Unternehmen diese Grenze erreicht, warten Sie 5 Minuten und versuchen Sie dann erneut, auf den Link zuzugreifen.
 
 
 So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugriff auf Adobe Analytics haben:
