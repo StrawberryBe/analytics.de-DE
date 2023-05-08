@@ -3,9 +3,9 @@ description: Lernen Sie die Grundlagen zum Erstellen eines Projekts in Analysis 
 title: Erstellen von Projekten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,9 @@ So fügen Sie eine Komponente hinzu:
 
 1. Suchen Sie nach der Komponente, die Sie hinzufügen möchten. Wenn es in der linken Leiste angezeigt wird, ziehen Sie es in ein Bedienfeld oder eine Visualisierung innerhalb Ihres Projekts.
 
-### Projekt speichern und freigeben
+1. (Optional) Geben Sie das Projekt wie unter [Projekt speichern und freigeben](#save-and-share-the-project).
+
+## Projekt speichern und freigeben
 
 Bei der Erstellung einer Analyse in Analysis Workspace [automatisch gespeichert](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
