@@ -3,9 +3,9 @@ description: Lernen Sie die Grundlagen zum Erstellen eines Projekts in Analysis 
 title: Erstellen von Projekten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '685'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und
 
    +++Leeres Projekt erstellen
 
-   1. Wählen Sie die [!UICONTROL **Projekte**] Registerkarte und wählen Sie [!UICONTROL **Projekt erstellen**].
+   1. Im [!UICONTROL **Arbeitsbereich**] auswählen, wählen Sie die [!UICONTROL **Projekte**] auf der linken Seite der Seite ein und wählen Sie [!UICONTROL **Projekt erstellen**].
 
    1. Legen Sie fest, ob ein leeres Projekt oder eine leere mobile Scorecard erstellt werden soll.
 
@@ -38,7 +38,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und
 
    +++Projekt aus einer Vorlage erstellen
 
-   1. Wählen Sie die [!UICONTROL **Berichte**] Registerkarte.
+   1. Im [!UICONTROL **Arbeitsbereich**] auswählen, wählen Sie die [!UICONTROL **Berichte**] auf der linken Seite der Seite.
 
    1. Suchen oder navigieren Sie zur Vorlage, die Sie verwenden möchten, und wählen Sie sie aus, wenn sie angezeigt wird.
 
