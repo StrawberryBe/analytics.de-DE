@@ -3,10 +3,10 @@ title: Unterstützte HTTPS-Verschlüsselungsalgorithmen
 description: TLS bietet Sicherheitseinstellungen und Zertifikatstypen.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
+source-git-commit: 1ca7f750387fd9ae034d10ebf3e47190cf33d4b7
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 30%
+source-wordcount: '282'
+ht-degree: 25%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 30%
 
 ## Cipher Security Levels
 
-Adobe bietet zwei Chiffrier-Sicherheitsstufen an, die den unterschiedlichen Sicherheitsanforderungen bei der Erfassung von First-Party-Daten gerecht werden. Diese Stufen bestimmen, welche Verschlüsselungsalgorithmen bei HTTPS-Verbindungen mit unseren Servern unterstützt werden. Adobe überprüft und aktualisiert regelmäßig den Satz unterstützter Algorithmen auf der Grundlage aktueller Sicherheitspraktiken. Wenden Sie sich an die Kundenunterstützung, wenn Sie die Sicherheitseinstellungen für die Chiffre ändern möchten.
+Adobe bietet zwei Chiffrier-Sicherheitsstufen an, die den unterschiedlichen Sicherheitsanforderungen bei der Erfassung von First-Party-Daten gerecht werden. Diese Ebenen bestimmen, welche Verschlüsselungsalgorithmen für HTTPS-Verbindungen mit Adobe-Servern unterstützt werden. Adobe überprüft und aktualisiert regelmäßig den Satz unterstützter Algorithmen auf der Grundlage aktueller Sicherheitspraktiken. Wenden Sie sich an die Kundenunterstützung, wenn Sie die Sicherheitseinstellungen für die Chiffre ändern möchten.
 
-&quot;Standard&quot;erfordert TLS 1.2 oder höher und mindestens 128-Bit-Verschlüsselung. Es wurde entwickelt, um die größtmögliche Gerätekompatibilität zu gewährleisten und gleichzeitig die sichere Verschlüsselung zu gewährleisten.
+&quot;Standard&quot;erfordert TLS 1.2 oder höher und mindestens 128-Bit-Verschlüsselung. Es wurde entwickelt, um die größtmögliche Gerätekompatibilität zu gewährleisten und gleichzeitig eine sichere Verschlüsselung zu gewährleisten.
 
 Die Sicherheitsstufe &quot;Hoch&quot;erfordert TLS 1.2 oder höher und entfernt die Unterstützung für schwächere Chiffren. Es wurde für Kunden entwickelt, die die strengste Verschlüsselung wünschen und sich nicht um die Unterstützung älterer Geräte sorgen.
 
