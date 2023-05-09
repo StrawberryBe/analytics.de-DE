@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # Snippets
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **Erstellt von**] | Zeigt den Namen der Person an, die die Komponente erstellt hat. |
 | [!UICONTROL **Vorschau**] | Zeigt eine Vorschau davon an, wie die Komponente im Analysis Workspace aussieht. |
 | [!UICONTROL **Datum der letzten Änderung**] | Zeigt den Tag an, an dem die Komponente zuletzt geändert wurde. Dieser Abschnitt wird beim Anzeigen von Segmenten, berechneten Metriken und Datumsbereichen angezeigt. |
+
+{style="table-layout:auto"}
+
+## Sortieroptionen von Komponenten {#components-sort-options}
+
+| Option | Funktion |
+|---------|----------|
+| [!UICONTROL **Empfohlen**] | Sortiert Komponenten nach den empfohlenen Komponenten oben in der Liste. Komponenten, die am häufigsten und zuletzt von Ihnen oder anderen in Ihrem Unternehmen verwendet werden, werden weiter oben in der Liste angezeigt. |
+| [!UICONTROL **Alphabetisch**] | Sortiert Komponenten alphabetisch. |
+| [!UICONTROL **Kategorisch**] | Sortiert Komponenten nach Komponententyp (Dimension, Metrik, Segment, Datumsbereich). |
 
 {style="table-layout:auto"}
 

@@ -4,10 +4,10 @@ title: Komponentenübersicht
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 96%
+source-wordcount: '1120'
+ht-degree: 71%
 
 ---
 
@@ -60,18 +60,78 @@ Beispiele für Datumsbereiche sind Juli 2019, [!UICONTROL Letzte 4 Wochen] und [
 ![](assets/date-ranges.png)
 
 
-## Komponentenaktionen {#actions}
+## Komponenten verwalten {#actions}
 
-Sie können Komponenten (einzeln oder durch Auswahl mehrerer Komponenten) direkt in der linken Leiste verwalten. Klicken Sie mit der rechten Maustaste auf eine Komponente oder klicken Sie oben in der Komponentenliste auf den Punkt „Aktion“.
+Sie können Komponenten direkt in der linken Leiste verwalten.
 
-![](assets/component-actions.png)
+1. Klicken Sie mit der rechten Maustaste auf eine Komponente.
 
-| Komponentenaktion | Beschreibung |
-|--- |--- |
-| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Sie können dann in der linken Leiste nach Tags suchen, indem Sie auf den Filter klicken oder „#“ eingeben. Tags fungieren auch als Filter in den Komponenten-Managern. |
-| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Genauso wie nach Tags können Sie in der linken Leiste auch nach Favoriten suchen und diese in den Komponenten-Managern als Filter verwenden. |
-| Genehmigen | Markieren Sie Komponenten als „Genehmigt“, um Ihren Benutzern zu signalisieren, dass die Komponente vom Unternehmen genehmigt ist. Genauso wie nach Tags können Sie in der linken Leiste nach dem Status „Genehmigt“ suchen und diesen in den Komponenten-Managern als Filter verwenden. |
-| Freigeben | Freigeben von Komponenten für Benutzer in Ihrer Organisation. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
-| Löschen | Löschen Sie Komponenten, die Sie nicht mehr benötigen. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
+   Oder
+
+   Wählen Sie eine Komponente aus und wählen Sie dann die **Aktion** (3-Punkt) oben in der Komponentenliste.
+
+   >[!TIP]
+   >
+   >   Sie können mehrere Komponenten auswählen, indem Sie die Umschalttaste gedrückt halten oder die Befehlstaste (Mac) oder die Strg-Taste (Windows) gedrückt halten.
+
+
+   ![](assets/component-actions.png)
+
+   | Komponentenaktion | Beschreibung |
+   |--- |--- |
+   | [!UICONTROL **Tag**] | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Sie können dann in der linken Leiste nach Tags suchen, indem Sie auf den Filter klicken oder „#“ eingeben. Tags fungieren auch als Filter in den Komponenten-Managern. |
+   | [!UICONTROL **Favorit**] | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Genauso wie nach Tags können Sie in der linken Leiste auch nach Favoriten suchen und diese in den Komponenten-Managern als Filter verwenden. |
+   | [!UICONTROL **Genehmigen**] | Markieren Sie Komponenten als „Genehmigt“, um Ihren Benutzern zu signalisieren, dass die Komponente vom Unternehmen genehmigt ist. Genauso wie nach Tags können Sie in der linken Leiste nach dem Status „Genehmigt“ suchen und diesen in den Komponenten-Managern als Filter verwenden. |
+   | [!UICONTROL **Freigeben**] | Freigeben von Komponenten für Benutzer in Ihrer Organisation. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
+   | [!UICONTROL **Löschen**] | Löschen Sie Komponenten, die Sie nicht mehr benötigen. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
 
 Benutzerdefinierte Komponenten können auch über ihre jeweiligen Komponenten-Manager verwaltet werden. Ein Beispiel hierfür ist der [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+
+## Suchen, Filtern und Sortieren der Komponentenliste
+
+Sie können die Komponentenliste in der linken Leiste von Analysis Workspace suchen, filtern und sortieren, um eine bestimmte Komponente schnell zu finden.
+
+### Durchsuchen der Komponentenliste
+
+1. Wählen Sie die **Komponenten** icon ![Symbol &quot;Komponenten&quot;](assets/components-icon.png) in der linken Leiste.
+
+1. Geben Sie im Suchfeld den Namen der Komponente ein, die Sie in Ihrem Projekt verwenden möchten.
+
+   Der Komponententyp kann sowohl durch Farbe als auch durch Symbol identifiziert werden. **Dimensionen** ![Symbol &quot;Dimension&quot;](assets/dimension-icon.png) orange sind, **Segmente** ![Segmentsymbol](assets/segment-icon.png) blau sind, **Datumsbereiche** ![Symbol für Datumsbereich](assets/date-range-icon.png) violett sind und **Metriken** ![Metriksymbol](assets/default-metric-icon.png) sind grün. Das Symbol Adobe ![Symbol &quot;Adobe&quot;](assets/default-calc-metric-icon.png) gibt entweder eine Vorlage für berechnete Metriken oder eine Segmentvorlage an und das Symbol für den Rechner ![Symbol &quot;Rechner&quot;](assets/calculated-metric-icon-created.png) eine berechnete Metrik angezeigt, die von einem Analytics-Administrator in Ihrer Organisation erstellt wurde.
+
+1. Wählen Sie die Komponente aus, wenn sie in der Dropdown-Liste angezeigt wird.
+
+### Filtern der Komponentenliste
+
+1. Wählen Sie die **Komponenten** icon ![Symbol &quot;Komponenten&quot;](assets/components-icon.png) in der linken Leiste.
+
+1. Wählen Sie die **Filter** icon ![Symbol &quot;Datenwörterbuchfilter&quot;](assets/components-filter-icon.png).
+
+   Oder
+
+   Geben Sie das Rautenzeichen (#) in das Suchfeld ein.
+
+1. Wählen Sie eine der folgenden Filteroptionen aus, um die Liste der Komponenten zu filtern:
+
+   | Option | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Genehmigt**] | Nur Komponenten anzeigen, die von Admins als genehmigt markiert wurden. |
+   | [!UICONTROL **Favoriten**] | Nur Komponenten anzeigen, die sich in Ihrer Favoritenliste befinden. Informationen zum Hinzufügen von Komponenten zur Favoritenliste finden Sie in der [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+   | [!UICONTROL **Dimensionen**] | Nur Komponenten anzeigen, die Dimensionen sind. |
+   | [!UICONTROL **Metriken**] | Nur Komponenten anzeigen, die Metriken sind. |
+   | [!UICONTROL **Segmente**] | Nur Komponenten anzeigen, die Segmente sind. <!--this is Filters in CJA--> |
+   | [!UICONTROL **Datumsbereiche**] | Zeigt nur Komponenten an, die Datumsbereiche sind. |
+   | [!UICONTROL **Alle anzeigen**] | Alle Komponenten anzeigen. Diese Option steht nur Admins zur Verfügung. |
+   | [!UICONTROL **Nicht genehmigt**] | Nur Komponenten anzeigen, die von Admins noch nicht als genehmigt markiert wurden. Für Admins beim Identifizieren von Komponenten hilfreich, die überprüft und genehmigt werden müssen. Diese Option steht nur Admins zur Verfügung. |
+
+1. (Optional) Um die Liste weiter zu verfeinern, können Sie die Komponentenliste sortieren, wie hier beschrieben: [Sortieren der Komponentenliste](#sort-the-component-list).
+
+### Sortieren der Komponentenliste
+
+1. (Optional) Wenden Sie alle Filter auf die Komponentenliste an, wie unter [Filtern der Komponentenliste](#filter-the-component-list).
+
+1. Wählen Sie die **Komponenten** icon ![Symbol &quot;Komponenten&quot;](assets/components-icon.png) in der linken Leiste.
+
+1. Wählen Sie die **Sortieren** icon ![Symbol &quot;Komponenten sortieren&quot;](assets/component-sort-icon.png)und wählen Sie eine der folgenden Filteroptionen aus, um die Liste der Komponenten zu sortieren:
+
+   {{components-sort-options}}
