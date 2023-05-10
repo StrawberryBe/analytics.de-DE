@@ -5,10 +5,10 @@ title: Visualisierungsübersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 99%
+source-wordcount: '1280'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,7 @@ ht-degree: 99%
 
 Workspace bietet eine Reihe von Visualisierungen, mit denen Sie visuelle Darstellungen Ihrer Daten generieren können, wie beispielsweise Balkendiagramme, Donutdiagramme, Histogramme, Liniendiagramme, Karten und Streudiagramme. Die meisten Visualisierungstypen sind Ihnen schon bekannt, wenn Sie Adobe Analytics verwenden. Analysis Workspace verfügt jedoch über Visualisierungseinstellungen sowie viele neue und einzigartige Visualisierungsarten mit interaktiven Funktionen.
 
-Sie können auf Visualisierungen durch das Symbol oben links in Workspace, von einem [leeren Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=de) aus oder über das Kontextmenü in Ihrem Workflow zugreifen.
-
-![](assets/viz-rail.png)
+## Arten von Visualisierungen
 
 Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
@@ -34,6 +32,7 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 | [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. Es bildet die Grundlage für die Analyse von Daten in Workspace. |
 | [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) | Ein Histogramm fasst Besucher, Besuche oder Treffer basierend auf einem Metrikvolumen in Behälter zusammen. |
 | [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
+| [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Zeigt an, wie eine Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht, oder ermöglicht Ihnen den Vergleich der Metrikleistung über zwei Zeitrahmen hinweg. |
 | [Linie](/help/analyze/analysis-workspace/visualizations/line.md) | Stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm verwendet die Zeit entlang der X-Achse. |
 | [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
 | [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. |
@@ -42,6 +41,26 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md) | Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen. Hilfreich zum Hinzufügen zusätzlicher Kontexte zu Ihrer Analyse und zu Einblicken, zusätzlich zum Nutzen der Beschreibungen im Bedienfeld oder in Visualisierungen |
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Verwendet Kreise zur Darstellung der Metriküberschneidung von bis zu drei Segmenten. |
+
+## Visualisierungen zu einem Bedienfeld hinzufügen
+
+1. Öffnen Sie das Analysis Workspace-Projekt, dem Sie eine Visualisierung hinzufügen möchten.
+
+1. Verwenden Sie eine der folgenden Methoden, um die Visualisierung hinzuzufügen:
+
+   * Wählen Sie in der linken Leiste die **Visualisierungen** icon <!-- add icon -->, und ziehen Sie eine Visualisierung in den Bereich, dem Sie sie hinzufügen möchten.
+
+      ![](assets/viz-rail.png)
+
+   * Wählen Sie im Bereich, in dem Sie die Visualisierung hinzufügen möchten, die **Plus** und wählen Sie dann das Symbol aus, das die Visualisierung darstellt, die Sie hinzufügen möchten. Bewegen Sie den Mauszeiger über das Symbol für jede Visualisierung, um den Namen anzuzeigen.
+
+      ![Schaltfläche zum Hinzufügen einer Visualisierung](assets/visualization-add-to-panel.png)
+
+   * Hinzufügen einer [leeres Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=de)und wählen Sie dann die Visualisierung aus, die Sie hinzufügen möchten.
+
+      ![Leeres Bedienfeld](assets/blank_panel.png)
+
+   * Klicken Sie mit der rechten Maustaste auf ein vorhandenes Bedienfeld in Ihrem Analysis Workspace-Projekt und wählen Sie [!UICONTROL **Visualisierung duplizieren**] oder [!UICONTROL **Visualisierung kopieren**].
 
 ## Anpassen von Visualisierungseinstellungen
 
