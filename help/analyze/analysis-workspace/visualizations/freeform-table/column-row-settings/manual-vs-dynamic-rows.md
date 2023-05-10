@@ -4,10 +4,10 @@ description: Interaktion mit dynamischen und statischen Dimensionselementen in T
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 97%
+source-wordcount: '523'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Sie eine Dimension in eine Freiform-Tabelle ablegen, werden dynamische Zeil
 
 Wenn Sie beispielsweise die Dimension „Browser-Typ“ in die Tabelle ziehen, kehren die obersten Dimensionselemente des Browser-Typs (z. B. Microsoft, Apple, Google usw.) dynamisch zu den Tabellenzeilen zurück. Wenn sie in eine Spalte abgelegt wurde, werden die obersten 5 Browsertyp-Dimensionselemente dynamisch zurückgegeben.
 
-Dynamische Dimensionselemente verfügen über die Zeilenfilteroption und **keine** Schloss- und X-Symbole. Weitere Informationen zum Anwenden von Filtern auf Tabellen finden Sie unter [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Dynamische Dimensionselemente verfügen über die Zeilenfilteroption und die X-Symbole und tun dies **not** Schloss-Symbol vorhanden. <!--do they have the lock icon? --> Wenn Sie auf das x neben einem dynamischen Dimensionselement klicken, wird automatisch ein Filter angewendet. Weitere Informationen zum Anwenden von Filtern auf Tabellen finden Sie unter [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 
