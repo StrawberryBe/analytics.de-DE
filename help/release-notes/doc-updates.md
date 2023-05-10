@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '4008'
-ht-degree: 97%
+source-wordcount: '4121'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Mai 2023** |  |
 | Analysis Workspace – Übersicht | Aktualisiert [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md) um allgemeinere Übersichtsinformationen und Links zu relevanten Inhalten einzuschließen. |
 | Erstellen von Projekten | Es wurde ein neuer Artikel erstellt, in dem ausführlich erläutert wird, wie [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
+| Komponenten in der linken Leiste sortieren | Es wurden Informationen zum Sortieren der Komponentenliste in der linken Leiste hinzugefügt. Siehe Abschnitt &quot;Suche, Filtern und Sortieren der Komponentenliste&quot;in [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Löschen von Zeilen, die dynamische Dimensionen enthalten, aus einer Freiformtabelle | Es wurden Informationen zum schnellen Löschen bestimmter Zeilen mit dynamischen Dimensionen mithilfe des x-Symbols hinzugefügt. Siehe Abschnitt &quot;Schnelles Ausschließen bestimmter Zeilen aus einer Tabelle&quot;in [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| Schaltfläche zum Hinzufügen einer Visualisierung in einem Bedienfeld | Es wurden Informationen zu einer neuen Schaltfläche am unteren Rand jedes Bedienfelds in Analysis Workspace hinzugefügt, mit der Sie schnell eine Visualisierung hinzufügen können. Siehe Abschnitt &quot;Visualisierungen zu einem Bedienfeld hinzufügen&quot;in [Visualisierungen - Übersicht](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **April 2023** |  |
 | Übertragen von Benutzer-Assets und Festlegen des Ablaufs von Konten | Informationen zum [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](/help/admin/admin/user-management2/users-assets.md). |
 | Zwei neue Endpunkt-Leitfäden für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimensions-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
