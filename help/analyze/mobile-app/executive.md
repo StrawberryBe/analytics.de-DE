@@ -4,10 +4,10 @@ title: Handbuch zu Adobe Analytics-Dashboards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 98%
+source-wordcount: '1276'
+ht-degree: 92%
 
 ---
 
@@ -58,9 +58,15 @@ So verwenden Sie Dashboards:
 
 1. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird der Bildschirm **[!UICONTROL Organisation auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
 
-1. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
+   Die Scorecard-Liste zeigt alle Scorecards an, die für Sie freigegeben sind.
 
-   ![Wählen Sie ein Unternehmen aus.](assets/nextseq.png)
+1. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
+
+   Wenn Sie unter einer Anmeldung Zugriff auf mehr als eine Organisation haben, sind alle Scorecards Ihrer Organisation in der Scorecard-Liste verfügbar.
+
+   Sie können die Scorecard-Liste nach Scorecard-Titel, Organisationsname oder zuletzt angezeigten Namen sortieren. Sie können sogar nach einer bestimmten Scorecard suchen.
+
+   ![Unternehmen auswählen](assets/mobile-home-screen.png)
 
    Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes zusammen mit Ihrem Kurator:
 
