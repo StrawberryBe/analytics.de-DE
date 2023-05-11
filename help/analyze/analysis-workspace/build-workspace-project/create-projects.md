@@ -3,9 +3,9 @@ description: Lernen Sie die Grundlagen zum Erstellen eines Projekts in Analysis 
 title: Erstellen von Projekten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ Allgemeine Informationen zu den ersten Schritten mit Analysis Workspace finden S
 
 In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und die wichtigsten Bausteine für ein Analysis Workspace-Projekt hinzufügen: Bedienfelder, Visualisierungen und Komponenten.
 
-## Erstellen eines Projekts aus einem leeren Projekt oder einer Vorlage
+## Erstellen eines Projekts aus einem leeren Projekt oder Bericht
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Arbeitsbereich**].
 
-1. Wählen Sie aus, ob ein leeres Projekt oder ein Projekt aus einer Vorlage erstellt werden soll:
+1. Wählen Sie aus, ob ein leeres Projekt oder ein Projekt aus einem Bericht erstellt werden soll:
 
    +++Leeres Projekt erstellen
 
@@ -36,15 +36,15 @@ In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und
 
 +++
 
-   +++Projekt aus einer Vorlage erstellen
+   +++Projekt aus einem Bericht erstellen
 
    1. Im [!UICONTROL **Arbeitsbereich**] auswählen, wählen Sie die [!UICONTROL **Berichte**] auf der linken Seite der Seite.
 
-   1. Suchen oder navigieren Sie zur Vorlage, die Sie verwenden möchten, und wählen Sie sie aus, wenn sie angezeigt wird.
+   1. Suchen Sie nach dem Bericht, den Sie verwenden möchten, oder navigieren Sie zu ihm und wählen Sie ihn aus, wenn er angezeigt wird.
 
-      Eine Reihe von Standardvorlagen ist standardmäßig verfügbar. Darüber hinaus hat Ihr Unternehmen möglicherweise benutzerdefinierte Vorlagen erstellt, aus denen Sie auswählen können.
+      Eine Reihe von Standardberichten ist standardmäßig verfügbar. Darüber hinaus hat Ihr Unternehmen möglicherweise benutzerdefinierte Berichte erstellt, aus denen Sie auswählen können.
 
-      Weitere Informationen finden Sie unter [Erste Schritte mit Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md).
+      Weitere Informationen finden Sie unter &quot;Navigieren in der Registerkarte Berichte&quot;in [Adobe Analytics-Landingpage](/help/analyze/landing.md).
 +++
 
 1. Als Nächstes müssen Sie Ihrem Projekt Bedienfelder, Visualisierungen und Komponenten hinzufügen. Fügen Sie zunächst Bedienfelder zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Bedienfeldern zum Projekt](#add-panels-to-the-project). Sie können dann allen Bedienfeldern Visualisierungen hinzufügen. Schließlich können Sie allen Bedienfeldern oder Visualisierungen Komponenten hinzufügen.
