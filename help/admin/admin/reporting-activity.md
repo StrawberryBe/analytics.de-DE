@@ -4,18 +4,16 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
-ht-degree: 100%
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 95%
 
 ---
 
 # Reporting Activity Manager
 
->[!NOTE]
->
->Diese Funktion wird derzeit in Beta-Tests überprüft.
+{{release-limited-testing}}
 
 [!UICONTROL Reporting Activity Manager] zeigt die Berichtskapazität für jede Report Suite in Ihrer Organisation an. Admins erhalten detaillierte Einblicke in die Berichtsnutzung und können mühelos Kapazitätsprobleme bei Spitzen während der Berichterstellung diagnostizieren und beheben.
 
@@ -48,7 +46,7 @@ Beim Öffnen der [!UICONTROL Reporting Activity Manager]-Übersichtsseite wird e
 | **[!UICONTROL Nutzungskapazität]** | Prozentualer Anteil, wie viel der Berichterstellungskapazität der Report Suite in Echtzeit verwendet wird. |
 | **[!UICONTROL Status]** | Vier mögliche Statusindikatoren: <ul><li>**Rot – [!UICONTROL Kapazitätsgrenze erreicht]**: Die Report Suite wird in Bezug auf die Berichtskapazität maximal genutzt. (100 %) </li><li>**Gelb – [!UICONTROL Nah an der Kapazitätsgrenze]**: Diese Report Suite läuft Gefahr, ihre maximale Kapazität zu erreichen. (90 % - 99 %)</li><li>**Grün – [!UICONTROL Alles in Ordnung]**: Es ist genügend Berichtskapazität vorhanden. (0 % - 89 %)</li><li>**Grau – [!UICONTROL Status ausstehend/Nicht aktiviert]**: Es ist keine Berichtskapazität verfügbar.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Andere Berichtsaktivitätsaktionen
 
@@ -64,13 +62,13 @@ Klicken Sie auf den Titel-Link einer Report Suite, für die Sie Details anzeigen
 
 ![Report Suite](/help/admin/admin/assets/indiv-report-ste.png)
 
-### Liniendiagramm
+### Liniendiagramm {#line}
 
 Das Liniendiagramm zeigt die Berichtsaktivität für die ausgewählte Report Suite in den letzten zwei Stunden an.
 
 * Die X-Achse zeigt die Berichtskapazitätsdaten der letzten zwei Stunden an.
-* Die Y-Achse zeigt die durchschnittliche Wartezeit für eine Abfrage in Sekunden an.
-* Sie können den Mauszeiger über das Liniendiagramm bewegen, um Zeitpunkte und die durchschnittliche Wartezeit für einen bestimmten Zeitpunkt anzuzeigen.
+* Die Y-Achse zeigt die Berichtsnutzungskapazität in % für die ausgewählte Report Suite nach Minuten an.
+* Sie können mit dem Mauszeiger über das Liniendiagramm fahren, um Zeitpunkte anzuzeigen, bei denen der in Prozent dargestellte Nutzungsprozentsatz der höchste Prozentsatz für diese Minute ist.
 
    ![Detail](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ Sie können die Tabelle nach Programm (siehe Liste in der Tabelle unten), nach B
 
 ![Filter](/help/admin/admin/assets/filter.png)
 
-### Zusammenfassungszahlen
+### Zusammenfassungszahlen {#summary}
 
 ![Filter](/help/admin/admin/assets/summary_numbers.png)
 
@@ -94,9 +92,9 @@ Die Zusammenfassungszahlen geben die folgenden Informationen an:
 | [!UICONTROL Durchschnittliche Wartezeit] | Die durchschnittliche Wartezeit für alle laufenden Abfragen. |
 | [!UICONTROL Nutzungskapazität] | Die aktuelle Nutzungskapazität für diese Report Suite. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### Tabelle
+### Tabelle mit Details zur Report Suite {#details}
 
 Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 
@@ -114,9 +112,9 @@ Die nachstehende detaillierte Tabelle zeigt Details zur Report Suite.
 | [!UICONTROL Segmente] | Wie viele Segmente auf diese Anfrage angewendet werden. Dies erhöht die Komplexität der Anfrage. |
 | [!UICONTROL Status] | Statusindikatoren: <ul><li>**Läuft**: Die Anfrage wird derzeit verarbeitet.</li><li>**Ausstehend**: Die Anfrage wartet auf die Verarbeitung.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Abbrechen von Berichtsanfragen
+## Abbrechen von Berichtsanfragen {#cancel}
 
 So brechen Sie eine Anfrage ab:
 
@@ -133,10 +131,10 @@ Programmbenutzern in Workspace wird beispielsweise in ihren Projekten der folgen
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
-## Häufig gestellte Fragen
+## Häufig gestellte Fragen {#faq}
 
 | Frage | Antwort |
 | --- | --- |
 | Kann ich zusätzliche Berichtskapazitäten erwerben? | Diese Funktion wird demnächst verfügbar sein. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
