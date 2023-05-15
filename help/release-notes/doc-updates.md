@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
+source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
 workflow-type: tm+mt
-source-wordcount: '4121'
-ht-degree: 95%
+source-wordcount: '4163'
+ht-degree: 96%
 
 ---
 
@@ -26,16 +26,18 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Mai 2023** |  |
-| Analysis Workspace – Übersicht | Aktualisiert [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md) um allgemeinere Übersichtsinformationen und Links zu relevanten Inhalten einzuschließen. |
-| Erstellen von Projekten | Es wurde ein neuer Artikel erstellt, in dem ausführlich erläutert wird, wie [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
+| Verbessertes IP-Geolokalisierungs-Mapping | Erstellen eines Themas zu [FAQs](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| Reporting Activity Manager | Diese Beta-Dokumentation wurde aktualisiert, insbesondere im Abschnitt zu [Berichtsaktivität für einzelne Report Suites anzeigen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| Analysis Workspace – Übersicht | Die [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md) wurde aktualisiert, um allgemeinere Übersichtsinformationen und Links zu relevanten Inhalten einzuschließen. |
+| Erstellen von Projekten | Es wurde ein neuer Artikel erstellt, in dem das [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace ausführlich erklärt wird. |
 | Komponenten in der linken Leiste sortieren | Es wurden Informationen zum Sortieren der Komponentenliste in der linken Leiste hinzugefügt. Siehe Abschnitt &quot;Suche, Filtern und Sortieren der Komponentenliste&quot;in [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | Löschen von Zeilen, die dynamische Dimensionen enthalten, aus einer Freiformtabelle | Es wurden Informationen zum schnellen Löschen bestimmter Zeilen mit dynamischen Dimensionen mithilfe des x-Symbols hinzugefügt. Siehe Abschnitt &quot;Schnelles Ausschließen bestimmter Zeilen aus einer Tabelle&quot;in [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | Schaltfläche zum Hinzufügen einer Visualisierung in einem Bedienfeld | Es wurden Informationen zu einer neuen Schaltfläche am unteren Rand jedes Bedienfelds in Analysis Workspace hinzugefügt, mit der Sie schnell eine Visualisierung hinzufügen können. Siehe Abschnitt &quot;Visualisierungen zu einem Bedienfeld hinzufügen&quot;in [Visualisierungen - Übersicht](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **April 2023** |  |
-| Übertragen von Benutzer-Assets und Festlegen des Ablaufs von Konten | Informationen zum [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](/help/admin/admin/user-management2/users-assets.md). |
+| Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs | Es wurden Informationen zum [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](/help/admin/admin/user-management2/users-assets.md) hinzugefügt. |
 | Zwei neue Endpunkt-Leitfäden für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimensions-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde vereinheitlicht und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten sind jetzt mit den Schritten zum [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md) zusammengelegt. |
-| Dynamische Suchen | Zusätzliche Informationen zu [Dynamische Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) hinzugefügt. Zuvor gab es nur Informationen für mobile Attribute, bei denen es sich um eine von mehreren dynamischen Suchen handelt. |
+| Dynamische Suchen | Es wurden zusätzliche Informationen zu [Dynamischen Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) hinzugefügt. Zuvor gab es nur Informationen für mobile Attribute, bei denen es sich um eine von mehreren dynamischen Suchen handelt. |
 | **März 2023** |  |
 | Web SDK-Unterstützung für Activity Map | [Implementieren von Adobe Analytics](/help/implement/home.md) und [Aktivieren von Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) wurden aktualisiert. |
 | Übersicht über Traffic-Variablen (Props) | Es wurden Abschnitte und schrittweise Anweisungen zur Klarstellung und Verbesserung des Artikelinhalts hinzugefügt. Inhalte aus dem Artikel „Aktivieren von Traffic-Variablen-Berichten“ wurden zusammengeführt und dieser Artikel entfernt. Siehe [Übersicht über Traffic-Variablen (Props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
@@ -226,7 +228,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 12. September 2019 | Das Dokument [Gesamtwerte für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=de) wurde aktualisiert. |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](/help/technotes/pwa.md). |
 | 8. August 2019 | Neuer Artikel zu [Gesamtwerten für berechnete Metriken](/help/components/c-calcmetrics/cm-totals.md). |
-| 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8. August 2019 | In Workspace wurde die Anzahl der Elemente, die in einem statischen Dropdown-Filter platziert werden können, durch die Adobe von 50 auf 200 erhöht. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
+| 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8. August 2019 | Adobe hat in Workspace die Anzahl der Elemente, die in einem statischen Dropdown-Filter platziert werden können, von 50 auf 200 erhöht. Dank dieser Verbesserung werden zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) oder aller US-Bundesstaaten und Provinzen (52) zu einem Filter. |
 | 2. August 2019 | Umfassende Aktualisierung des [Analytics-Glossars](/help/technotes/terms.md). |
 | 22. Juli 2019 | Magento wurde hinzugefügt: Marketing- und Commerce-Vorlage in der Dokumentation [zu Analysis Workspace-Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18. Juli 2019 | Aktualisierung der [Einstellungen der Kohortentabellen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
