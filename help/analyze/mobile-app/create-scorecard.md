@@ -1,19 +1,19 @@
 ---
-description: So erstellen Sie eine Scorecard für Adobe Analytics-Dashboards
-title: Mobile-Scorecard erstellen
+description: Erstellen und Freigeben von Scorecards für Adobe Analytics-Dashboards
+title: Mobile Scorecards erstellen und freigeben
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
+source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2513'
+ht-degree: 82%
 
 ---
 
 # Mobile-Scorecard erstellen
 
-Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten eine Anleitung dazu, wie sie Mobile-Scorecards für Führungskräfte konfigurieren und darstellen können. Sehen Sie sich zunächst das Video zu Scorecard Builder von Adobe Analytics-Dashboards an:
+Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten eine Anleitung dazu, wie sie Mobile-Scorecards für Führungskräfte konfigurieren und darstellen können. Beginnen Sie mit dem Video zum Scorecard Builder für Adobe Analytics-Dashboards:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -21,11 +21,11 @@ Eine Adobe Analytics Scorecard stellt wie nachfolgend gezeigt wichtige Datenvisu
 
 ![Beispiel-Scorecard](assets/intro_scorecard.png)
 
-Als Kurator dieser Scorecard können Sie mit dem Scorecard Builder festlegen, welche Kacheln auf der Scorecard für den ausführenden Benutzer angezeigt werden. Sie können auch konfigurieren, wie die detaillierten Ansichten bzw. Aufschlüsselungen angepasst werden können, nachdem auf die Kacheln getippt wird. Hier sehen Sie die Scorecard Builder-Oberfläche:
+Als Kurator dieser Scorecard können Sie mit dem Scorecard Builder konfigurieren, welche Kacheln auf der Scorecard für Ihren ausführenden Verbraucher angezeigt werden. Sie können auch konfigurieren, wie die detaillierten Ansichten bzw. Aufschlüsselungen angepasst werden können, nachdem auf die Kacheln getippt wird. Die Scorecard Builder-Oberfläche ist unten dargestellt:
 
 ![Scorecard Builder](assets/scorecard_builder.png)
 
-Zur Erstellung der Scorecard führen Sie folgende Schritte aus:
+Gehen Sie wie folgt vor, um die Scorecard zu erstellen:
 
 1. Öffnen Sie die Vorlage für [!UICONTROL leere mobile Scorecards].
 1. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
@@ -37,7 +37,7 @@ Sie können die Vorlage [!UICONTROL Leere mobile Scorecard] öffnen, indem Sie e
 ### Neues Projekt erstellen {#create}
 
 1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **[!UICONTROL Arbeitsbereich]**.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Projekt erstellen]** und wählen Sie die Projektvorlage **[!UICONTROL Leere mobile Scorecard]** aus.
+1. Klicken **[!UICONTROL Projekt erstellen]** und wählen Sie die **[!UICONTROL Leere mobile Scorecard]** Projektvorlage.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
 ![Scorecard-Vorlage](assets/new_template.png)
@@ -55,7 +55,7 @@ So implementieren Sie die Scorecard-Vorlage:
 
    ![Report Suite-Auswahl](assets/properties_save.png)
 
-1. Um Ihrer Scorecard eine neue Kachel hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bereich und legen Sie sie im Bereich **[!UICONTROL Metriken hierher ziehen und ablegen]** ab. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
+1. Um Ihrer Scorecard eine neue Kachel hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bereich und legen Sie sie im **[!UICONTROL Metriken hierher ziehen und ablegen]** Zone. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
 
    ![Kacheln hinzufügen](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Sie können beispielsweise geeignete Dimensionen (wie **[!DNL Marketing Channel]
 
 Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab.
 
-Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) genauso wie in Adobe Analytics Workspace an.
+Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. You [Konfigurieren und Anwenden von Filtern für Ihre Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) auf die gleiche Weise wie in Adobe Analytics Workspace.
 
 ![Segmente für Filter erstellen](assets/segment_ui.png)
 
@@ -164,7 +164,7 @@ Wenn Sie [!UICONTROL nicht angegebene] Dimensionselemente aus Ihren Daten entfer
 
 ## Anzeigen und Konfigurieren von Kacheleigenschaften {#tiles}
 
-Wenn Sie im Scorecard Builder auf eine Kachel klicken, werden in der rechten Leiste die Eigenschaften und Merkmale angezeigt, die mit dieser Kachel und ihrer Detailfolie verbunden sind. In dieser Leiste können Sie einen neuen **Titel** für die Kachel erstellen und die Kachel konfigurieren, indem Sie Segmente anwenden.
+Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Eigenschaften an, die dieser Kachel und der zugehörigen Detailfolie zugeordnet sind. In dieser Leiste können Sie einen neuen **Titel** für die Kachel erstellen und die Kachel konfigurieren, indem Sie Segmente anwenden.
 
 ![Kachel „Eigenschaften“](assets/properties-tile-new.png)
 
@@ -212,9 +212,9 @@ Um einer Detailfolie Text hinzuzufügen, wählen Sie ein Layout aus, für das da
 
 ## Entfernen von Komponenten {#remove}
 
-Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Erstbesuche** dargestellt:
+Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard und entfernen Sie sie, indem Sie auf die **x** wird angezeigt, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für die **Erstbesuche** Segment:
 
-![Komponenten entfernen](assets/new_remove.png)
+![Entfernen von Komponenten](assets/new_remove.png)
 
 ## Erstellen von Daten-Storys {#create-data-story}
 
@@ -315,7 +315,7 @@ Sie können eine Vorschau davon anzeigen, wie die Scorecard nach ihrer Veröffen
 
 ## Scorecard benennen {#name}
 
-Um die Scorecard zu benennen, klicken Sie auf den Namensbereich in der oberen linken Ecke des Bildschirms und geben Sie den neuen Namen ein.
+Um die Scorecard zu benennen, klicken Sie auf den Namespace oben links im Bildschirm und geben Sie den neuen Namen ein.
 
 ![Scorecards benennen](assets/new_name.png)
 
@@ -336,6 +336,25 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
 ![Scorecards freigeben](assets/new_share.png)
 
-Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
+Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie nachfolgende Änderungen an der Scorecard im Scorecard Builder vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen dann die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
 Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
+
+### Scorecards über einen freigebbaren Link freigeben
+
+Durch die Verwendung eines freigebbaren Links wird es einfach, eine Scorecard in einer E-Mail, einem Dokument oder einer Textnachrichten-App freizugeben. Über den freigebbaren Link können Empfänger die Scorecard auf ihrem Desktop oder in der mobilen Dashboards-App öffnen. Durch die gemeinsame Nutzung von Deep Linking können Sie Projekte einfacher freigeben und die Interaktion mit Ihren Stakeholdern steigern.
+
+So geben Sie eine Scorecard über einen freigebbaren Link frei
+
+1. Klicken Sie auf das Menü **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL Scorecard freigeben]**.
+
+   ![Scorecards freigeben](assets/share-scorecard.png)
+
+1. Kopieren Sie den Link und fügen Sie ihn in eine E-Mail, ein Dokument oder eine IM-App ein.
+
+   Wenn ein Empfänger ein Desktop-Programm oder einen Browser verwendet, um den Link zu öffnen, wird das mobile Scorecard-Projekt in Workspace geöffnet.
+
+   Wenn ein Empfänger den Link auf einem Mobilgerät öffnet, wird die Scorecard direkt in der Analytics-Dashboards-App geöffnet.
+
+   Wenn ein Empfänger die App nicht heruntergeladen hat, wird er zur App-Liste im App Store- oder Google Play-Store weitergeleitet, wo er sie herunterladen kann.
+
