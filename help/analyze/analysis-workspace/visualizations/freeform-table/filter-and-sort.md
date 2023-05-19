@@ -4,10 +4,10 @@ title: Filtern und Sortieren von Tabellen
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 77%
+source-wordcount: '825'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Sie können bestimmte Zeilen schnell aus der Tabelle ausschließen, ohne das Dia
 
 >[!NOTE]
 >
->Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben, wird ein [!UICONTROL **Ist nicht gleich**] -Regel wird automatisch im [**[!UICONTROL Erweiterte Filter]**](#apply-a-simple-or-advanced-filter) angezeigt.
+>Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben, wird ein [!UICONTROL **Ausschließen von Elementen**] im Dialogfeld für erweiterte Filter automatisch angewendet. (Sie können die angewendete Regel anzeigen, indem Sie das Filtersymbol auswählen und dann [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table).
 
 So schließen Sie bestimmte Zeilen schnell aus einer Freiformtabelle aus:
 
@@ -54,7 +54,7 @@ So filtern Sie Daten in Freiformtabellen:
    | [!UICONTROL **Suchbegriff oder -satz**] | Geben Sie ein Wort oder eine Wortgruppe an, nach dem/der Sie filtern möchten. Es werden nur Zeilen angezeigt, die das Wort oder die exakte Phrase enthalten. |
    | [!UICONTROL **Nicht spezifizierte einschließen (keine)**] | Aktivieren Sie diese Option, um Daten in der Tabelle anzuzeigen, die nicht zu einer Dimension der Tabelle gehören. <!--what is this?--> |
 
-1. (Optional) Um nach verschiedenen Kriterien oder nach mehreren Kriterien zu filtern, wählen Sie [!UICONTROL **Erweiterte Filter**].
+1. (Optional) Um nach verschiedenen Kriterien oder nach mehreren Kriterien zu filtern, wählen Sie [!UICONTROL **Erweiterte Einstellungen anzeigen**] aus.
 
    Die folgenden erweiterten Filteroptionen sind verfügbar:
 
