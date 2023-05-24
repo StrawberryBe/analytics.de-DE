@@ -5,8 +5,8 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -61,19 +61,19 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud-Lösungsmenü <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud-Lösungsmenü <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Wenn Sie auf dieses Symbol klicken, wird das Experience Cloud-Menü eingeblendet, über das Sie auf andere Marketing Cloud-Lösungen zugreifen können. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Menü „Berichte“ ein-/ausblenden <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">Menü „Berichte“ ein-/ausblenden <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
    <td colname="col2"> Durch Klicken auf diese Schaltfläche wird das Menü „Berichte“ erweitert oder reduziert, sodass Sie einen Bericht über die gesamte Breite des Browser-Fensters sehen können. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Segmente <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Segmente <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Segmentaufbau</a> und <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de"  >Segment-Manager</a> zugreifen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Metriken <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Metriken <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> Öffnet die Metrikschiene, über die Sie Metriken und berechnete Metriken hinzufügen und verwalten können. </td> 
   </tr> 
   <tr> 

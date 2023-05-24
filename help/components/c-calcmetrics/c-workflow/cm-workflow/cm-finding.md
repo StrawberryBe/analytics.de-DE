@@ -3,10 +3,10 @@ description: 'Hier werden die zwei Hauptarten zum Suchen von Metriken beschriebe
 title: Metriken suchen
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Hier werden die zwei Hauptarten zum Suchen von Metriken beschrieben: Sortieren u
 
 ## Sortieren {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Wenn Sie einen Bericht öffnen und auf das Metriksymbol ![](assets/metrics_icon.png) auf der linken Seite des Berichts klicken, um die Metrikleiste anzuzeigen, werden in der Dropdown-Liste **[!UICONTROL Sortieren nach]** der Metrikauswahl vier Optionen zur Sortierung angezeigt:
+Wenn Sie einen Bericht öffnen und auf das Metriksymbol klicken  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) links neben einem Bericht klicken, um die Metrikleiste anzuzeigen. **[!UICONTROL Sortieren nach]** In der Dropdown-Liste der Metrikauswahl werden vier Sortieroptionen angezeigt:
 
 ![](assets/cm_sort.png)
 

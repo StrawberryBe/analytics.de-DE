@@ -4,10 +4,10 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
-source-wordcount: '3947'
-ht-degree: 100%
+source-wordcount: '3952'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] al
 | Das Modal **[!UICONTROL Projekt erstellen]** ist wieder verfügbar. | Wenn Sie in Analysis Workspace auf **[!UICONTROL Projekt erstellen]** klicken, haben Sie erneut die Wahl zwischen einem [!UICONTROL leeren Projekt] und einer [!UICONTROL leeren mobilen Scorecard]. Sie können auch aus beliebigen Vorlagen wählen, die Ihr Unternehmen erstellt hat. | ![Neu erstellen](assets/create-new.png) |
 | Auch in Customer Journey Analytics verfügbar | Diese Landingpage ist in abgeänderter Form auch in CJA verfügbar. |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Oberste Menüstruktur {#top-menu}
 
@@ -195,12 +195,12 @@ Weitere Lernoptionen:
 
 ### Verwalten von Unternehmensberichten {#manage-company-reports}
 
-Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Angeheftete Elemente bleiben angeheftet und werden von der Liste der Unternehmensberichte gefolgt, die durch das Berichtssymbol ![Berichtssymbol](assets/report-icon.png) gekennzeichnet sind. In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
+Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Angeheftete Elemente bleiben angeheftet und werden von der Liste der Unternehmensberichte gefolgt, die durch das Berichtssymbol ![Berichtssymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) gekennzeichnet sind. In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
 
 Anzeigen und Verwalten von Unternehmensberichten
 
 1. Wählen Sie in der Filterleiste **SONSTIGE FILTER** und danach **Unternehmensberichte** aus.
-Eine Liste der Unternehmensberichte wird angezeigt. Alle regulären Projekte werden nicht angezeigt, es sei denn, sie sind angeheftet.
+Eine Liste der Unternehmensberichte wird angezeigt. Alle regulären Projekte werden nicht angezeigt, es sei denn, sie sind fixiert.
 
    ![Anzeigen von Filtern für Unternehmensberichte](assets/company-reports-filter.png)
 

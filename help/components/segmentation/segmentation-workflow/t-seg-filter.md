@@ -3,10 +3,10 @@ description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeig
 title: Filtern von Segmenten
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Mei
 
 Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
 
-1. Klicken Sie im Segment-Manager auf das **[!UICONTROL Filter]**-Symbol:  ![](assets/filter_icon.png)
+1. Klicken Sie im Segment-Manager auf das **[!UICONTROL Filter]**-Symbol:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. Folgende Filter sind verfügbar:
+2. Folgende Filter sind verfügbar:
 
    | Filtername | Beschreibung |
    |---|---|

@@ -4,10 +4,10 @@ title: Filtern und Sortieren von Tabellen
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 78%
+source-wordcount: '841'
+ht-degree: 76%
 
 ---
 
@@ -67,19 +67,19 @@ So filtern Sie Daten in Freiformtabellen:
 
 1. Wählen Sie [!UICONTROL **Anwenden**] aus, um die Daten zu filtern.
 
-   Das **Filtersymbol** ![Blaues Filtersymbol zur Filterung der Tabelle](assets/table-filter-blue-icon.png) wird angezeigt, wenn ein Filter auf die Tabelle angewendet wird.
+   Das **Filtersymbol** ![Blaues Filtersymbol zur Filterung der Tabelle](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) wird angezeigt, wenn ein Filter auf die Tabelle angewendet wird.
 
 ## Sortieren von Tabellen
 
 Sie können die Daten einer Freiformtabelle nach einer beliebigen Spalte in Analysis Workspace sortieren, die eine Metrik ist.
 
-Ein Pfeil-nach-unten-Symbol ![Pfeil nach unten zur Sortierung einer Tabellenspalte](assets/table-sort-arrow-icon.png) ist in der Kopfzeile der Spalte sichtbar, nach der die Daten derzeit sortiert werden.
+Ein Pfeil-nach-unten-Symbol ![Pfeil nach unten zur Sortierung einer Tabellenspalte](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) ist in der Kopfzeile der Spalte sichtbar, nach der die Daten derzeit sortiert werden.
 
 So sortieren Sie die Daten in einer Freiformtabelle nach einer bestimmten Spalte:
 
 1. Bewegen Sie den Mauszeiger über den Spaltentitel, nach dem die Daten sortiert werden sollen.
 
-1. Wählen Sie das Pfeil-nach-unten-Symbol aus, wenn es angezeigt wird.
+2. Wählen Sie das Pfeil-nach-unten-Symbol aus, wenn es angezeigt wird.
 
    ![Pfeil nach unten zur Sortierung einer Tabellenspalte](assets/table-sort.png)
 
