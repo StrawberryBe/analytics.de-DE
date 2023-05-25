@@ -4,10 +4,10 @@ title: Segmente verwalten (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 644e2d10eac226a35705351608161fe494efe113
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 93%
+source-wordcount: '948'
+ht-degree: 91%
 
 ---
 
@@ -68,7 +68,7 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies b
 
 ## Filtern von Segmenten {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtern** Sie Segmente, indem Sie auf das Filtersymbol klicken: ![](assets/segment_filter.png).
+**Filter** Segmente durch Klicken auf das Filtersymbol:  ![Filtersymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Folgende Filter stehen zur Verfügung:
 
