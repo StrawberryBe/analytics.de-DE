@@ -4,10 +4,10 @@ title: Segmente verwalten (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '938'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 
 ## Segmente suchen und anwenden  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-In dieser Segmentliste werden alle Segmente angezeigt, die in Reports &amp; Analytics, Report Builder oder Data Warehouse erstellt wurden. Klicken Sie zum Aktualisieren der Liste auf das Aktualisierungssymbol ![](assets/refresh_icon.png).
+In dieser Segmentliste werden alle Segmente angezeigt, die in Reports &amp; Analytics, Report Builder oder Data Warehouse erstellt wurden. Klicken Sie zum Aktualisieren der Liste auf das Aktualisierungssymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies beinhaltet auch sequentielle Segmente.
 
@@ -60,7 +60,7 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies b
 
    ![](assets/seg_list.png)
 
-1. Aktivieren Sie die Segmente, die Sie anwenden möchten.
+2. Aktivieren Sie die Segmente, die Sie anwenden möchten.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
 ## Segmentliste aktualisieren  {#section_22E4A86789444B4A998532396B476EFB}
 
-Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Aktualisierungssymbol (![](assets/refresh_icon.png)) klicken, um die zwischengespeicherte Segmentliste zu aktualisieren.
+Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Symbol Aktualisieren klicken ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) , um die zwischengespeicherte Segmentliste zu aktualisieren.
 
 ## Verwalten von Segmenten in mehreren Anfragen {#section_C3D63FCBE1A94369A319243313B03C93}
 

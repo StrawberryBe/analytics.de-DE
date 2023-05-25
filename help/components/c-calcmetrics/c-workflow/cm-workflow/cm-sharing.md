@@ -3,10 +3,10 @@ description: Abhängig von Ihren Berechtigungen können Sie Metriken für Ihre g
 title: Berechnete Metriken freigeben
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 24%
+source-wordcount: '324'
+ht-degree: 28%
 
 ---
 
@@ -23,11 +23,13 @@ So geben Sie eine berechnete Metrik frei:
 
 1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen links neben den Metriken, die Sie freigeben möchten.
 
-1. Wählen Sie **[!UICONTROL Freigeben]** aus.
+1. Klicken Sie auf das Symbol **[!UICONTROL Freigabe.]**![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    Das Dialogfeld Berechnete Metrik freigeben wird angezeigt.
 
    ![](assets/cm_share.png)
+
+1. Klicken Sie auf **[!UICONTROL Freigabe]**.
 
 1. Wählen Sie aus, für wen Sie freigeben möchten:
 
@@ -45,6 +47,9 @@ So geben Sie eine berechnete Metrik frei:
 
 1. Wählen Sie **[!UICONTROL Freigeben]** aus.
 
-   Neben der Metrik wird das Freigabesymbol angezeigt:  ![](assets/share_icon.png)
+   Neben der Metrik wird das Freigabesymbol angezeigt:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+
+1. Sie können nach für Sie freigegebenen Metriken filtern, indem Sie **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Für mich freigegeben]** verwenden.
 
 1. (Optional) Um die Liste der berechneten Metriken im Manager für berechnete Metriken so zu filtern, dass nur Metriken angezeigt werden, die für Sie freigegeben sind, wählen Sie die **Filter** Symbol, erweitern **[!UICONTROL Sonstige Filter]**, wählen Sie **[!UICONTROL Freigegeben für mich]**.
+

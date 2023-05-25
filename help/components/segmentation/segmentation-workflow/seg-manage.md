@@ -3,10 +3,10 @@ description: Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratier
 title: Segmente verwalten (Segment-Manager)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratieren von Segmen
 Der Segment-Manager in Analytics zeigt Ihnen alle Segmente, die sich in Ihrem Besitz befinden und für Sie freigegeben wurden. Benutzer auf Administratorebene sehen alle Segmente der Organisation. Dieser Überblick präsentiert die Benutzeroberfläche und die Funktionen des Segment-Managers. Sie können wie folgt auf den Segment-Manager zugreifen
 
 * **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Segmente]** in der Navigation oben.
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]**.
+* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]**.
 
 ## Anleitungsvideo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

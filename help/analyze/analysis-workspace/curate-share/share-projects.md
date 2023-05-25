@@ -5,9 +5,9 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
+source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1813'
 ht-degree: 53%
 
 ---
@@ -147,7 +147,7 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
 1. Wählen Sie aus, ob die folgende Sicherheitsoption aktiviert werden soll (diese Option kann von Ihrem Analytics-Administrator gesteuert werden):
 
-   * **[!UICONTROL Experience Cloud-Authentifizierung erfordern]:**
+   * **[!UICONTROL Experience Cloud-Authentifizierung verlangen]:**
 
       Wenn diese Option aktiviert ist, können nur Benutzer, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde, auf das Projekt zugreifen.
 
@@ -157,13 +157,13 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
       * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator eine Experience Cloud-Authentifizierung für alle Benutzer, die auf Analysis Workspace-Projekte zugreifen.
 
-1. Neben dem **[!UICONTROL Mit anderen teilen (keine Anmeldung erforderlich)]** und klicken Sie auf das **Link kopieren** icon ![Symbol &quot;Link kopieren&quot;](assets/copy-link-icon.png) , um den Link in die Zwischenablage Ihres Systems zu kopieren.
+1. Neben dem **[!UICONTROL Mit anderen teilen (keine Anmeldung erforderlich)]** und klicken Sie auf das **Link kopieren** icon ![Symbol &quot;Link kopieren&quot;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) , um den Link in die Zwischenablage Ihres Systems zu kopieren.
 
 1. Geben Sie den Link für die Personen frei, die Zugriff auf das Projekt haben möchten. Sie können beispielsweise den Link in eine E-Mail einfügen.
 
    Alle Personen, für die Sie den Link freigeben, können das Analysis Workspace-Projekt anzeigen.
 
-1. (Optional) Sie können auf die **Neuen Link erstellen** icon ![Symbol &quot;Link generieren&quot;](assets/regenerate-link.png) , um den Zugriff von Benutzern zu entfernen, die zuvor einen Link zum Projekt erhalten haben. Es wird ein neuer Link generiert, den Sie für Benutzer freigeben können, die auf das Projekt zugreifen möchten.
+1. (Optional) Sie können auf die **Neuen Link erstellen** icon ![Symbol &quot;Link generieren&quot;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) , um den Zugriff von Benutzern zu entfernen, die zuvor einen Link zum Projekt erhalten haben. Es wird ein neuer Link generiert, den Sie für Benutzer freigeben können, die auf das Projekt zugreifen möchten.
 
 1. Auswählen **[!UICONTROL Schließen]** , um das Dialogfeld &quot;Freigeben&quot;zu schließen. Ihre Änderungen werden automatisch gespeichert.
 
