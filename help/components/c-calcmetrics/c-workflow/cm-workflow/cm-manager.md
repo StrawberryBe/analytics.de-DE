@@ -3,7 +3,7 @@ description: Die Seite "Berechnete Metriken"bietet viele Möglichkeiten zum Kura
 title: Manager für berechnete Metriken
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 5%
@@ -15,6 +15,10 @@ ht-degree: 5%
 Die Seite &quot;Berechnete Metriken&quot;bietet viele Möglichkeiten zum Kuratieren von Metriken, z. B. Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
 
 Auf der Seite Berechnete Metriken werden alle Segmente angezeigt, deren Inhaber Sie sind und die für Sie freigegeben wurden. Benutzer auf Administratorebene sehen alle benutzerdefinierten Metriken der Organisation.
+
+## Zugriff auf den Manager für berechnete Metriken
+
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**].
 
 ## Bereiche des Managers für berechnete Metriken
 
@@ -37,7 +41,3 @@ Die folgende Abbildung und die zugehörige Tabelle erläutern einige der Hauptbe
 | Nicht im Bild angezeigt | **Datum geändert:** Gibt das Datum an, an dem die benutzerdefinierte Metrik zuletzt geändert wurde. |
 
 {style="table-layout:auto"}
-
-## Zugriff auf den Manager für berechnete Metriken
-
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**].

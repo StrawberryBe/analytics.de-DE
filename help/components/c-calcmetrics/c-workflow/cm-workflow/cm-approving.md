@@ -3,16 +3,22 @@ description: Im Manager für berechnete Metriken können Sie einen Arbeitsablauf
 title: Berechnete Metriken genehmigen
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '245'
+ht-degree: 17%
 
 ---
 
 # Berechnete Metriken genehmigen
 
-Im Manager für berechnete Metriken können Sie einen Workflow einrichten, der die Genehmigung von Metriken für verschiedene Anwendungsebenen sowie für bestimmte Abteilungen oder Gruppen umfasst.
+Im Manager für berechnete Metriken können Administratoren einen Workflow einrichten, der die Genehmigung von Metriken für verschiedene Anwendungsebenen sowie für bestimmte Abteilungen oder Gruppen umfasst.
+
+>[!NOTE]
+>
+>Administratoren können auch berechnete Metriken (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>Alle berechneten Metriken, die im Datenwörterbuch genehmigt wurden, werden im Manager für berechnete Metriken angezeigt. Gleichermaßen werden Metriken, die im Manager für berechnete Metriken genehmigt wurden, im Datenwörterbuch angezeigt.
 
 So markieren Sie berechnete Metriken als genehmigt:
 

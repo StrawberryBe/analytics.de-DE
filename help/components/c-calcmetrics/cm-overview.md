@@ -4,16 +4,16 @@ keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metrike
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Berechnete und erweiterte berechnete (abgeleitete) Metriken
 
-Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie über vorhandene Metriken erstellen können.
+Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
 
 Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. Damit können Marketingexperten, Produktmanager und Analytiker Fragen zu den Daten beantworten, ohne die [!DNL Analytics]-Implementierung ändern zu müssen. Dies sind die benutzerdefinierten Metriken, die in den einzelnen [!DNL Analytics]-Paketen verfügbar sind:
 
@@ -22,9 +22,9 @@ Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere W
 * [Adobe Analytics Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html): Berechnet + erweitert berechnet
 * [Adobe Analytics Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html): Berechnet + erweitert berechnet
 
-Hier sehen Sie einen Vergleich zwischen den jeweiligen Möglichkeiten, die berechnete und erweiterte berechnete Metriken bieten:
+Im Folgenden finden Sie einen Vergleich der Funktionen für berechnete Metriken und erweiterte berechnete Metriken:
 
-| Generatoroptionen | Berechnete Metriken | Erweiterte berechnete (abgeleitete) Metriken |
+| Generatoroptionen | Berechnete Metriken  | Erweiterte berechnete (abgeleitete) Metriken |
 |---|---|---|
 | [Formatarten (Dezimal, Zeit, Prozent, Währung)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
 | [Attributionsänderung (Standard, Linear, Teilnahme etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
@@ -44,11 +44,11 @@ Sie können
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * Metriken über Report Suites hinweg freigeben. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
-* (Nur erweiterte berechnete Metriken) Metriken segmentieren. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der Personen gezählt werden, für die dies die erste Sitzung ist. Im Folgenden finden Sie ein Video zu diesem Thema:
+* (Nur erweiterte berechnete Metriken) Segmentieren von Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der Personen gezählt werden, für die dies die erste Sitzung ist. Im Folgenden finden Sie ein Video zu diesem Thema:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (Nur erweiterte berechnete Metriken) Statistische Funktionen miteinbeziehen, um Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
+* (Nur erweiterte berechnete Metriken) Integrieren Sie statistische Funktionen, um Ihre Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
 
 ## Einschränkungen {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ Bei einigen [!DNL Analytics]-Funktionen können Sie Ereignisse, aber keine berec
 
 ## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Im Folgenden erhalten Sie einen kurzen Überblick über die Werkzeuge für [!UICONTROL berechnete Metriken]:
+Im Folgenden finden Sie einen kurzen Überblick über die [!UICONTROL Berechnete Metriken] Tools:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
