@@ -3,18 +3,18 @@ description: Hier wird erläutert, wie Sie Segmente mit dem Generator für berec
 title: Segmente stapeln und ersetzen
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 100%
+source-wordcount: '67'
+ht-degree: 76%
 
 ---
 
 # Segmente stapeln und ersetzen
 
-Hier wird erläutert, wie Sie Segmente mit dem Generator für berechnete Metriken stapeln und ersetzen.
+Sie können Segmente im Generator für berechnete Metriken stapeln und ersetzen.
 
-## Stapelung von Segmenten {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
+## Stapeln von Segmenten {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
 Ziehen Sie das neue Segment einfach in die Arbeitsfläche „Definition“ und legen Sie es neben dem vorhandenen Segment ab:
 

@@ -3,10 +3,10 @@ description: Durch die Segmentierung einzelner Metriken können Sie Metriken inn
 title: Segmentierte Metriken
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -24,20 +24,32 @@ Beispiel: Sie möchten unterschiedliche Aspekte des Segments „Deutsche Besuche
 * Wie viele Besucher aus Deutschland navigieren im Vergleich mit internationalen Besuchern zu bestimmten Seiten (als Prozentsatz der Gesamtbesucher)?
 * Wo liegen die größten Unterschiede in Bezug darauf, welcher Inhalt von den verschiedenen Segmenten aufgerufen wird?
 
-1. Wenn kein vergleichbares Segment vorliegt, erstellen Sie im Generator für berechnete Metriken ein Ad-hoc-Segment namens „Deutsche Besucher“, bei dem Sie für „Länder“ den Wert „Deutschland“ angeben. Ziehen Sie die Dimension „Länder“ einfach in die Arbeitsfläche „Definition“ und wählen Sie als Wert „Deutschland“:
+Erstellen und speichern Sie eine Metrik namens &quot;Deutsche Besucher&quot;und eine Metrik namens &quot;Internationale Besucher&quot;:
+
+1. Erstellen Sie im Generator für berechnete Metriken ein Ad-hoc-Segment namens &quot;Deutsche Besucher&quot;, wobei &quot;Länder&quot;gleich &quot;Deutschland&quot;ist.
+
+   Ziehen Sie die Dimension Länder in die Arbeitsfläche Definition und wählen Sie [!UICONTROL **Deutschland**] als Wert:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >Sie können diesen Vorgang auch im [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) durchführen, aber wir haben den Arbeitsablauf vereinfacht. Daher stehen Dimensionen auch im Generator für berechnete Metriken zur Verfügung. „Ad hoc“ bedeutet, dass das Segment nicht in der Liste der **[!UICONTROL Segmente]** in der linken Leiste angezeigt wird. Sie können es aber auch veröffentlichen, indem Sie über das „i“ daneben fahren und auf **[!UICONTROL Als öffentlich einstellen klicken]**.
+   >Sie können dies auch im Abschnitt [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), aber wir haben den Workflow vereinfacht, indem wir Dimensionen im Generator für berechnete Metriken verfügbar gemacht haben. „Ad hoc“ bedeutet, dass das Segment nicht in der Liste der **[!UICONTROL Segmente]** in der linken Leiste angezeigt wird. Sie können es aber auch veröffentlichen, indem Sie über das „i“ daneben fahren und auf **[!UICONTROL Als öffentlich einstellen klicken]**.
 
-1. Wenn kein vergleichbares Segment vorliegt, erstellen Sie ein Segment namens „Internationale Besucher“, bei dem Sie für „Länder“ nicht „Deutschland“ angeben.
-1. Erstellen und speichern Sie eine Metrik namens „Deutsche Besucher“, indem Sie das Segment „Deutschland“ in die Arbeitsfläche „Definition“ ziehen und die Metrik „Unique Visitors“ darauf ablegen:
+1. Ziehen Sie das Segment Deutschland in die Arbeitsfläche Definition und ziehen Sie die Metrik Unique Visitors darin:
 
    ![](assets/german-visitors.png)
 
-1. Wiederholen Sie Schritt 3 mit dem Segment „Internationale Besucher“ und der Metrik „Unique Visitors“, um die Metrik „Internationale Besucher“ zu erstellen.
+1. Auswählen [!UICONTROL **Speichern**] , um die berechnete Metrik zu speichern.
+
+1. Erstellen Sie im Generator für berechnete Metriken ein Ad-hoc-Segment namens &quot;Internationale Besucher&quot;, bei dem &quot;Länder&quot;nicht mit &quot;Deutschland&quot;übereinstimmt.
+
+   Ziehen Sie die Dimension Länder in die Arbeitsfläche Definition und wählen Sie [!UICONTROL **Deutschland**] als Wert angeben, und wählen Sie dann [!UICONTROL **ist nicht gleich**] als Operator.
+
+1. Ziehen Sie die Metrik Unique Visitors hinzu.
+
+1. Auswählen [!UICONTROL **Speichern**] , um die berechnete Metrik zu speichern.
+
 1. Ziehen Sie in Analysis Workspace die Dimension **[!UICONTROL Seite]** in eine Freiform-Tabelle und dann die zwei neuen berechneten Metriken nebeneinander oben in die Tabelle:
 
    ![](assets/workspace-pages.png)

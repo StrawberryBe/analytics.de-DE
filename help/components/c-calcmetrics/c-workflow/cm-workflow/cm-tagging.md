@@ -3,34 +3,53 @@ description: Durch das Taggen von Segmenten können Sie diese im Manager für be
 title: Berechnete Metriken taggen
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 19%
 
 ---
 
 # Berechnete Metriken taggen
 
-Durch das Taggen von Segmenten können Sie diese im Manager für berechnete Metriken organisieren.
+Im Manager für berechnete Metriken können Sie Segmente organisieren, indem Sie sie mit Tags versehen.
 
-Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder mehrere Tags auf eine Metrik anwenden. Sie sehen Tags jedoch nur für die berechneten Metriken, deren Inhaber Sie sind oder die für Sie freigegeben wurden. Welche Arten von Tags sollten Sie erstellen? Hier finden Sie einige Vorschläge für nützliche Tags:
+Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder mehrere Tags auf eine Metrik anwenden. Sie sehen Tags jedoch nur für die berechneten Metriken, deren Inhaber Sie sind oder die für Sie freigegeben wurden.
 
-* Auf **Teamnamen** basierende Tags wie Social Marketing, Mobile Marketing.
-* **Projekt**-Tags (Analyse-Tags) wie Entrypage-Analyse.
-* **Kategorie**-Tags: Männer, Region.
-* **Workflow**-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich).
+>[!TIP]
+>
+>Die nützlichsten Typen von Tags sind normalerweise Tags, die auf den folgenden Kriterien basieren:
 
-1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen neben der Metrik, die Sie taggen möchten. Die Werkzeugleiste für die Verwaltung wird angezeigt:
-1. Klicken Sie auf **[!UICONTROL Taggen]** und
+* **Teamnamen**, wie Social Marketing, Mobile Marketing.
+* **Projekte** (Analyse-Tags), z. B. Entrypage-Analyse.
+* **Kategorien**, wie Frauen, Geografie.
+* **Workflows** zu genehmigen; Kuratiert für (einen bestimmten Geschäftsbereich)
 
-   * wählen Sie entweder ein vorhandenes Tag aus oder
-   * fügen Sie einen neuen Tag-Namen im Dialogfeld „Tags hinzufügen/Suchen“ hinzu und drücken Sie die **[!UICONTROL Eingabetaste]**.
+## Anwenden von Tags auf eine berechnete Metrik
 
-      ![](assets/cm_add_tags.png)
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**] , um zum Manager für berechnete Metriken zu wechseln.
 
-1. Klicken Sie erneut auf **[!UICONTROL Taggen]**, um die Metrik zu taggen.
+1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen neben den Metriken, die Sie taggen möchten.
 
-Das Tag wird jetzt in der Spalte „Tags“ angezeigt. (Klicken Sie oben rechts auf das Zahnradsymbol, um Ihre Spalten zu verwalten.)
+   ![](assets/cm_add_tags.png)
 
-Sie können unter **[!UICONTROL Filter anzeigen]** > **[!UICONTROL Tags]** auch nach Tags filtern.
+1. Im **[!UICONTROL Berechnete Metrik taggen]** Dialogfeld:
+
+   * Fügen Sie ein neues Tag hinzu. Geben Sie den Namen in die [!UICONTROL **Tags hinzufügen**] und drücken Sie die Eingabetaste.
+   * Wählen Sie einen oder mehrere vorhandene Tags aus, die auf die ausgewählten Metriken angewendet werden sollen.
+
+1. Auswählen [!UICONTROL **Speichern**] , um die Tags anzuwenden.
+
+## Angewandte Tags anzeigen
+
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**] , um zum Manager für berechnete Metriken zu wechseln.
+
+1. Im Manager für berechnete Metriken werden Tags im [!UICONTROL **Tags**] Spalte. (Klicken Sie auf das Zahnradsymbol oben rechts, um Ihre Spalten zu verwalten.)
+
+## Metriken nach Tags filtern
+
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**] , um zum Manager für berechnete Metriken zu wechseln.
+
+1. Wählen Sie im Manager für berechnete Metriken die **Filter** und wählen Sie dann die Tags aus, nach denen Sie filtern möchten.
+
+   Es werden nur Metriken angezeigt, die den von Ihnen ausgewählten Filter aufweisen.

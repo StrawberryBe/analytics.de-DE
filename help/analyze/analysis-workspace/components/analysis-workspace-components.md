@@ -4,7 +4,7 @@ title: Komponentenübersicht
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 66%
@@ -103,8 +103,6 @@ Sie können die Komponentenliste in der linken Leiste von Analysis Workspace suc
 
 ### Filtern der Komponentenliste
 
-{{release-limited-testing-section}}
-
 1. Wählen Sie die **Komponenten** icon ![Symbol &quot;Komponenten&quot;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in der linken Leiste.
 
 2. Wählen Sie die **Filter** icon ![Symbol &quot;Datenwörterbuchfilter&quot;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
@@ -129,6 +127,8 @@ Sie können die Komponentenliste in der linken Leiste von Analysis Workspace suc
 4. (Optional) Um die Liste weiter zu verfeinern, können Sie die Komponentenliste sortieren, wie hier beschrieben: [Sortieren der Komponentenliste](#sort-the-component-list).
 
 ### Sortieren der Komponentenliste
+
+{{release-limited-testing-section}}
 
 1. (Optional) Wenden Sie alle Filter auf die Komponentenliste an, wie unter [Filtern der Komponentenliste](#filter-the-component-list).
 

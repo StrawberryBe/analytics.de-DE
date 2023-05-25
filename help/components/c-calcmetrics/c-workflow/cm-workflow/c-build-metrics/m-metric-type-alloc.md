@@ -3,42 +3,41 @@ description: Informationen
 title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 93%
+source-wordcount: '472'
+ht-degree: 73%
 
 ---
 
 # Metriktyp und Attribution
 
-Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metriktyp und das Attributionsmodell angeben.
+Wann [Erstellen einer berechneten Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)können Sie den Metriktyp und das Attributionsmodell angeben.
 
 ## Metriktyp
 
-![](assets/cm_type_alloc.png)
+So legen Sie den Metriktyp beim Erstellen einer berechneten Metrik fest:
 
-| Metriktyp | Definition |
-|---|---|
-| Standard | Diese Metriken sind dieselben, die auch in der Standard-[!DNL Analytics]-Berichterstellung verwendet werden. Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Einzelposten gelten. Beispiel: [Bestellungen]/[Besuche] teilt die Bestellungen für diesen Einzelposten durch die Anzahl der Besuche für den Posten. |
-| Gesamt | Verwenden Sie den Gesamtwert für den Berichtszeitraum in jedem Einzelposten. Wenn eine Formel aus einer einzelnen Gesamtmetrik besteht, zeigt sie dieselbe Gesamtzahl für jeden Einzelposten an. Gesamtmetriken eignen sich für die Erstellung berechneter Metriken, die mit den Gesamtdaten der Site verglichen werden. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
+1. Wählen Sie das Zahnradsymbol neben der Metrik aus, deren Typ Sie auswählen möchten.
+
+   ![](assets/cm_type_alloc.png)
+
+1. Wählen Sie aus den folgenden Optionen:
+
+   | Metriktyp | Definition |
+   |---|---|
+   | Standard | Diese Metriken sind dieselben, die auch in der Standard-[!DNL Analytics]-Berichterstellung verwendet werden. Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Einzelposten gelten. Beispiel: [Bestellungen]/[Besuche] teilt die Bestellungen für diesen Einzelposten durch die Anzahl der Besuche für den Posten. |
+   | Gesamtsumme | Verwenden Sie in jedem Zeileneintrag die Gesamtsumme für den Berichtszeitraum. Wenn eine Formel aus einer einzelnen Gesamtmetrik bestand, wird für jeden Zeileneintrag dieselbe Gesamtanzahl angezeigt. Gesamtmetriken sind nützlich für die Erstellung berechneter Metriken, die mit den Gesamtdaten der Site vergleichen. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
 
 ## Spaltenattributionsmodell
 
->[!IMPORTANT]
->
->Durch [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) wurde die Art und Weise verändert, wie Zuordnungsmodelle in berechneten Metriken bewertet werden. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
->
->* Eine vollständige Liste der nicht standardmäßigen Attributionsmodelle und unterstützten Lookback-Fenster finden Sie unter [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md).
->* Die Zuordnungsmodelle „Marketing-Kanal – Letztkontakt“ und „Marketing-Kanal – Erstkontakt“ werden in das neue „Letztkontakt“- bzw. in das „Erstkontakt“-Attributionsmodell migriert. (Hinweis: Marketing-Kanäle werden nicht veraltet sein, sondern lediglich die beiden Zuordnungsmodelle, die in berechneten Metriken erscheinen.)
->* Darüber hinaus wird die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. Diese Änderung an berechneten Metriken wird in Analysis Workspace, Reports &amp; Analytics, die Reporting-API und Report Builder übernommen. Weitere Informationen finden Sie unter **Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018**) weiter unten.
-
-
 ## Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018)
 
-Im Juli 2018 wurde das Reporting für die lineare Zuordnung bei berechneten Metriken in Adobe geändert. Diese Änderung betrifft Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map und die Reporting-APIs. Die Änderung betrifft in erster Linie eVars und andere Dimensionen mit Persistenz. Diese Änderungen treffen nur auf berechnete Metriken zu und haben keinen Einfluss auf andere Berichte, die lineare Zuordnung verwenden (z. B. den Bericht „Seiten“ in Reports &amp; Analytics). Andere Berichte, die die lineare Zuordnung verwenden, werden weiter die aktuelle Methode zur linearen Zuordnung verwenden.
+[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) gibt an, wie Zuordnungsmodelle in berechneten Metriken ausgewertet werden.
 
-Im folgenden Beispiel soll illustriert werden, wie sich berechnete Metriken mit linearer Zuordnung beim Reporting ändern:
+Eine vollständige Liste der nicht standardmäßigen Attributionsmodelle und unterstützten Lookback-Fenster finden Sie unter [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md).
+
+Das folgende Beispiel zeigt, wie berechnete Metriken mit linearen Zuordnungen in Berichten funktionieren:
 
 |  | Treffer 1 | Treffer 2 | Treffer 3 | Treffer 4 | Treffer 5 | Treffer 6 | Treffer 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -55,27 +54,3 @@ Es gibt einige Unterschiede in der Funktionsweise der linearen Attribution zwisc
 
 * In Reports &amp; Analytics ist die (verarbeitete) lineare Attribution immer besuchsbasiert, während sie in Workspace besuchs- oder besuchsbasiert sein kann.
 * Wenn in Reports &amp; Analytics beim ersten Treffer eines Besuchs kein Wert übergeben wurde, bleibt der (anfängliche) Wert des vorherigen Besuchs erhalten. Dies ist in Workspace NICHT der Fall (Attribution IQ). Wenn beim ersten Treffer eines Besuchs kein Wert übergeben wird, ist „Keine“ der Ausgangswert.
-
-## Funktionsweise der linearen Zuordnung vor Juli 2018
-
-Vor dem 19. Juli 2018 wurde die lineare Attribution berechnet, nachdem die Erst- bzw. Letztkontakt-Persistenz bereits erfolgt war. Das bedeutet, dass die 10 USD für den obigen Letztkontakt-eVar wie folgt verteilt werden: A = 10 &#42; (3/6) = 5 USD, B = 10 &#42; (2/6) = 3,33 USD, C = 10 &#42; (1/6) = 1,67 USD.
-
-Für den obigen Erstkontakt-eVar würden alle 10 USD an A übergeben. Für die Eigenschaft: A = 10 &#42; (2/4) = 5 USD, B = 10 &#42; (1/4) = 2,50 USD und C = 10 &#42; (1/4) = 2,50 USD. Zusammenfassend die lineare Zuordnung, wie sie zuvor funktioniert hat:
-
-| Werte | Aktueller Letztkontakt-eVar | Aktueller Erstkontakt-eVar | Aktuelle Eigenschaft |
-|---|---|---|---|
-| PROMO A | 5,00$ | 10,00$ | 5,00$ |
-| PROMO B | 3,33$ | 0$ | 2,50$ |
-| PROMO C | 1,67$ | 0$ | 2,50$ |
-| Gesamt | 10,00$ | 10,00$ | 10,00$ |
-
-**Zusammenfassung der aktuellen Funktionsweise der linearen Zuordnung**
-
-Statt die gespeicherten Werte aufgrund von Letzt- bzw. Erstkontakt zu verwenden, verwendet [!DNL Analytics] nur die Werte, die übertragen wurden (erste Zeile der Tabelle). Daher haben die Dimensions-Zuordnungseinstellungen keinen Einfluss mehr darauf, wie die lineare Zuordnung berechnet wird (d. h. Eigenschaften und eVars werden gleich behandelt), und die Ergebnisse spiegeln wider, was ursprünglich übertragen wurde, statt der möglicherweise gespeicherten Erst- bzw. Letztkontaktwerte. In allen drei Fällen also A = 10 &#42; (2/4) = 5 USD, B = 10 &#42; (1/4) = 2,50 USD und C = 10 &#42; (1/4) = 2,50 USD.
-
-| Werte | Neuer Letztkontakt-eVar | Neuer Erstkontakt-eVar | Neue Eigenschaft |
-|---|---|---|---|
-| PROMO A | 5,00$ | 5,00$ | 5,00$ |
-| PROMO B | 2,50$ | 2,50$ | 2,50$ |
-| PROMO C | 2,50$ | 2,50$ | 2,50$ |
-| Gesamt | 10,00$ | 10,00$ | 10,00$ |

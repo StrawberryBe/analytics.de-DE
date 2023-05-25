@@ -3,29 +3,26 @@ description: Der Generator für berechnete Metriken bietet eine Arbeitsfläche, 
 title: Metriken erstellen
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 99%
+source-wordcount: '962'
+ht-degree: 90%
 
 ---
 
 # Metriken erstellen
 
-Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie Dimensionen, Segmente und Funktionen per Drag-and-Drop verschieben können, um benutzerdefinierte Metriken basierend auf Containerhierarchielogik, Regeln und Operatoren zu erstellen. Mit diesem integrierten Entwicklungs-Tool können Sie einfache berechnete Metriken oder komplexe, erweiterte berechnete Metriken erstellen und speichern.
+Adobe Analytics bietet eine Arbeitsfläche zum Ziehen und Ablegen von Dimensionen, Metriken, Segmenten und Funktionen zum Erstellen benutzerdefinierter Metriken basierend auf Containerhierarchielogik, Regeln und Operatoren. Mit diesem integrierten Entwicklungstool können Sie einfache oder komplexe berechnete Metriken erstellen und speichern.
 
-Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
+Sie können mit der Erstellung einer berechneten Metrik auf eine der folgenden Arten beginnen:
 
-* Öffnen Sie ein Projekt in Analysis Workspace und klicken Sie auf **[!UICONTROL + Neu]** > **[!UICONTROL Metrik erstellen]**.
-* Gehen Sie in [!DNL Analytics] zu **[!UICONTROL Komponenten]** > **[!UICONTROL Berechnete Metriken]**.
-
-* Klicken Sie oben im [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) auf **[!UICONTROL + Hinzufügen]** oder
-
-* gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]**, öffnen Sie einen beliebigen Bericht und klicken Sie auf das Metrikensymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg), um die Metrikenleiste aufzurufen. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+* Öffnen Sie in Analysis Workspace ein Projekt und wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Metrik erstellen]**.
+* Öffnen Sie in Analysis Workspace ein Projekt und wählen Sie dann die **Plus** Symbol neben [!UICONTROL **Metriken**] in der linken Leiste.
+* In [!DNL Analytics], gehen Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Berechnete Metriken]**, wählen Sie **[!UICONTROL + Hinzufügen]** oben auf der Seite &quot;Berechnete Metrik&quot;angezeigt.
 
 ![](assets/cm_builder_ui.png)
 
-## Komponenten der Benutzeroberfläche {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## Verfügbare Felder und Bereiche {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 
