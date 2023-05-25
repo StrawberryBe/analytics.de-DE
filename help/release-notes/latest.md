@@ -3,16 +3,16 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
+source-git-commit: d6c42d359699a574411f461485f6c8818c095b62
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 86%
+source-wordcount: '1499'
+ht-degree: 78%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Mai 2023)
 
-**Letzte Aktualisierung:**: 17. Mai 2023
+**Letzte Aktualisierung:**: 25. Mai 2023
 
 Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -38,6 +38,7 @@ AN-312098; AN-318309; AN-316675; AN-318173; AN-310359; AN-317613; AN-318836; AN-
 
 | Hinweis | Hinzugefügt oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
+| **37-monatige Gültigkeit von Kauf-IDs und Ereignis-IDs (Ereignis-Serialisierung)** | Mai 25,2023 | Eine bevorstehende Version der Analytics-Trefferverarbeitungs-Engine, die zur Veröffentlichung in **Ende Juni 2023 oder Anfang Juli 2023** beginnt mit der Erzwingung eines 37-monatigen Ablaufs von Kauf-IDs und Ereignis-IDs (Ereignis-Serialisierung). Derzeit laufen Kauf-IDs und Ereignis-IDs in Adobe Analytics nie ab. Sobald eine Kauf-ID oder Ereignis-ID gesehen/verwendet wird, wird dieser Kauf bzw. dieses Ereignis bei jedem zukünftigen Treffer, unabhängig davon, wann er als Duplikat markiert wird, als Duplikat gekennzeichnet. Mit der neuen Version der Verarbeitungs-Engine<ul><li>Kauf-IDs und Ereignis-IDs laufen nach 37 Monaten immer ab.</li><li>Wenn die Kauf-ID oder Ereignis-ID seit 37 Monaten angezeigt wurde, wird sie nicht mehr als doppelter Kauf oder Ereignis betrachtet.</li><li> Wenn Sie Kauf-IDs oder Ereignis-IDs aus mehr als 37 Monaten &quot;wiederverwenden&quot;, werden sie nicht mehr als Duplikate betrachtet.</li></ul> |
 | **Migration zu Adobe IO OAuth Server-zu-Server-Anmeldeinformationen** | 11. Mai 2023 | Adobe Analytics API- und Livestream-Kunden, die Adobe IO JWT-Anmeldeinformationen verwenden, müssen mithilfe von **1. Januar 2025**. Weitere Informationen und Zeitpläne finden Sie in der unten stehenden Tabelle unter Hinweis zum Ende der Lebensdauer . |
 | **Hinweis: Neue IPs, die von Adobe Analytics Data Feeds und Data Warehouse Egress im London Data Center verwendet werden** | 27. April 2023 | Für Kundinnen und Kunden im London Data Center, bei denen Daten-Feed-Anfragen und/oder Data Warehouse-Berichte an einen FTP-/SFTP-Dienst gesendet werden, sollten die folgenden IP-Adressbereiche zu Ihrer Firewall-Konfiguration hinzugefügt werden, um den Zugriff zu ermöglichen: <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **Gerätesuchvorgänge verwenden jetzt einen Drittanbieter für alle Gerätesuchen.** | 3. März 2023 | Am 2. März 2023 haben wir im Rahmen des Support-Rollouts für Client-Hinweise unsere Gerätesuchvorgänge so aktualisiert, dass für alle Gerätesuchen ein Drittanbieter verwendet wird. Zuvor hatten wir den Drittanbieter nur für die Suche nach Mobilgeräten verwendet. Im Zuge dieses Rollouts wurden einige Desktop-Betriebssysteme fälschlicherweise mit dem Text „Mobile“ gekennzeichnet (z. B. „Mobile OS X 10.15.7“ anstelle von „OS X 10.15.7“).<p>Bei der Adobe-Aprilversion werden wir diese Namen korrigieren. Die Analytics- und CJA-Berichte werden rückwirkend aktualisiert, da die zugehörigen Berichtsfunktionen den Betriebssystemnamen basierend auf einer ID nachschlagen, die als Teil der Ereignisdaten aufgezeichnet wird. Sobald der Suchwert, der einer ID entspricht, aktualisiert wird, werden alle Berichte korrigiert, einschließlich historischer Daten. Für [!UICONTROL Daten-Feeds] -Kunden, sind die Änderungen rückwirkend, wenn Sie zum Zeitpunkt der Berichterstellung einen ähnlichen Nachschlageprozess verwenden. Wenn Sie den Betriebssystemwert jedoch in Ihren Ereignisdaten speichern, werden nur die Berichte in der Zukunft aktualisiert. Weitere Informationen dazu finden Sie unter [Betriebssystem](/help/components/dimensions/operating-systems.md). |
