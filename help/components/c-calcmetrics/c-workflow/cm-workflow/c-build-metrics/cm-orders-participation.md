@@ -3,10 +3,10 @@ description: Erläutert, wie Sie eine Metrik erstellen, die zeigt, welche Market
 title: Bestellbeitragsmetrik
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '199'
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ Die folgenden Informationen erläutern, wie Sie eine Metrik erstellen, die anzei
 
 1. Erstellen Sie eine berechnete Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Geben Sie im Generator für berechnete Metriken den Namen der Metrik &quot;Assisted Orders&quot;an.
+1. Nennen Sie im Generator für berechnete Metriken die Metrik &quot;Assisted Orders&quot;oder eine ähnliche Metrik.
 
 1. Ziehen Sie eine Bestellungsmetrik in die Arbeitsfläche „Definition“. Passen Sie das Attributionsmodell anschließend über das Zahnradsymbol für Einstellungen an, indem Sie das Kontrollkästchen **[!UICONTROL Nicht standardmäßige Attributionsmodelle verwenden]** aktivieren.
 
