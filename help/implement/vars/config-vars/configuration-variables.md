@@ -3,10 +3,10 @@ title: Konfigurationsvariablen
 description: Verwenden Sie Konfigurationsvariablen, um festzustellen, wie Daten erfasst werden.
 feature: Variables
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 66%
+source-wordcount: '125'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung 
 
 Bei Implementierungen mit der Web SDK-Erweiterung oder der Analytics-Erweiterung befinden sich Konfigurationsvariablen normalerweise in den Einstellungen der Erweiterung:
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf [!UICONTROL Erweiterungen] Registerkarte und klicken Sie dann auf [!UICONTROL Konfigurieren] unter der Erweiterung.
 
@@ -26,4 +26,4 @@ Bei JavaScript-Implementierungen mit `AppMeasurement.js` werden die Konfiguratio
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass alle Konfigurationsvariablen festgelegt sind, bevor Sie eine Tracking-Methode ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)) aufrufen. Vermeiden Sie das Festlegen von Konfigurationsvariablen in der [`doPlugins()`](../functions/doplugins.md)-Funktion.
+>Stellen Sie sicher, dass alle Konfigurationsvariablen festgelegt sind, bevor Sie eine Tracking-Methode aufrufen ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)). Vermeiden Sie das Festlegen von Konfigurationsvariablen in der [`doPlugins()`](../functions/doplugins.md)-Funktion.

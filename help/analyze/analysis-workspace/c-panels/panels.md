@@ -4,10 +4,10 @@ title: Übersicht über Bedienfelder
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 68%
+source-wordcount: '1437'
+ht-degree: 57%
 
 ---
 
@@ -100,21 +100,21 @@ Wenn Sie mit der rechten Maustaste auf einen Dropdown-Filter klicken, stehen fol
 
 [Sehen Sie sich das Video an,](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=de) um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
 
-<!--### Dynamic drop-down filters
+### Dynamische Dropdown-Filter
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+Mit dynamischen Dropdown-Filtern können Sie verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Filtern bestimmen. Sie können beispielsweise zwei dynamische Dropdown-Listen mit dem [Länder](/help/components/dimensions/countries.md) Dimension und [Städte](/help/components/dimensions/cities.md) Dimension. Wenn Sie ein Land aus dem [!UICONTROL Länder] Dropdown-Liste, die [!UICONTROL Städte] dynamisch angepasst werden, um nur Städte in diesem Land anzuzeigen.
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+Dieses Konzept gilt für alle Dimensionen. nur Dimensionselemente sichtbar, die innerhalb des Datumsbereichs des Bedienfelds und der ausgewählten Filter angezeigt werden. In statischen Dropdown-Filtern ausgewählte Dimensionen wirken sich auf verfügbare Werte in dynamischen Dropdown-Filtern aus. Das Gegenteil ist jedoch nicht wahr; In dynamischen Dropdown-Filtern ausgewählte Dimensionen wirken sich nicht auf verfügbare Werte in statischen Dropdown-Filtern aus.
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten, dass ein bestimmtes Dimensionselement in Zukunft erfasst wird. Sie können auch einen dynamischen Dropdown-Filter löschen, sodass dieser keinen Wert enthält, sodass andere dynamische Dropdown-Filter mehr Werte enthalten können. Auswählen **[!UICONTROL Alle zurücksetzen]** , um die Auswahl aus allen Dropdown-Filtern für dieses Bedienfeld zu löschen.
 
-To create a dynamic drop-down filter:
+So erstellen Sie einen dynamischen Dropdown-Filter:
 
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* Ziehen Sie eine einzelne Dimension in die Dropzone des Bedienfelds **während des Betriebs`[Shift]`**.
+* Dynamische Dropdown-Filter sind nicht für Metriken, Segmente oder Datumsbereiche verfügbar.
+* Klicken Sie mit der rechten Maustaste auf einen Dropdown-Filter und wählen Sie **[!UICONTROL Filter löschen]** , um sie zu löschen.
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+Wenn Sie mit der rechten Maustaste auf einen dynamischen Dropdown-Filter klicken, stehen dieselben Optionen zur Verfügung wie statische Dropdown-Filter.
 
 ## Rechtsklickmenü {#right-click}
 
