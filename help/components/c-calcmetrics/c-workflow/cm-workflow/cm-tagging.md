@@ -3,9 +3,9 @@ description: Durch das Taggen von Segmenten können Sie diese im Manager für be
 title: Berechnete Metriken taggen
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 19%
 
 ---
@@ -20,10 +20,10 @@ Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder meh
 >
 >Die nützlichsten Typen von Tags sind normalerweise Tags, die auf den folgenden Kriterien basieren:
 >
->* **Teamnamen**, wie Social Marketing, Mobile Marketing.
+>* **Teamnamen**, wie Social Marketing oder Mobile Marketing.
 >* **Projekte** (Analyse-Tags), z. B. Entrypage-Analyse.
->* **Kategorien**, wie Frauen, Geografie.
->* **Workflows** zu genehmigen; Kuratiert für (einen bestimmten Geschäftsbereich)
+>* **Kategorien**, wie z. B. Frauen oder Geografie.
+>* **Workflows**, z. B. Genehmigung oder Kuratierung für (einen bestimmten Geschäftsbereich)
 
 
 ## Anwenden von Tags auf eine berechnete Metrik
