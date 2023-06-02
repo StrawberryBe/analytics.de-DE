@@ -4,10 +4,10 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
+source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 57%
+source-wordcount: '3469'
+ht-degree: 54%
 
 ---
 
@@ -370,7 +370,7 @@ Zusammenfassend wird deutlich, dass das Wissen darüber, wie die Segmentierung b
 
 Jede Aufschlüsselung von Segmentdaten hat einen Umfang, auf den diese angewendet wird. Die meisten Aufschlüsselungen basieren auf *Seitenansichten*, wobei jedoch viele wertvolle Segmente auf dem *Besuchecontainer* und in geringerem Umfang auf dem *Besuchercontainer* basieren. Es ist wichtig, dass Sie wissen, wie Berichte funktionieren, die auf dem Umfang Ihres Containers basieren.
 
-Verwenden der *Seite = Wintermäntel* Segmentbeispiel unten sind Beispiele für die Ergebnisse dieses Segments, die darauf basieren, wie die Behälterdaten angewendet werden und wie der Umfang der Daten mit dem Segmenttyp übereinstimmt.
+Verwenden der `Page equals Winter Coats` Segmentbeispiel unten sind Beispiele für die Ergebnisse dieses Segments, die darauf basieren, wie die Behälterdaten angewendet werden und wie der Umfang der Daten mit dem Segmenttyp übereinstimmt.
 
 ### Auf übereinstimmender Segmentregel basierender Segment-Container
 
@@ -407,7 +407,7 @@ Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer an
 
 Im Gegensatz zur Seitendimension ist der Wert „Referrerdomäne“ an jede Seite in diesem Besuch angehängt. Im Beispiel unten kommt der Besucher von einer verweisenden Site auf der Homepage an. Daher wird allen Seiten innerhalb dieses Besuchs derselbe Wert für die Referrer-Domäne zugewiesen.
 
-Das Segment *Referrerdomäne gleich aol.com* wird auf den **Seitenbericht** angewendet.
+Die `Referring Domain equals aol.com` Segment unten wird auf die **Seitenbericht**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -451,9 +451,9 @@ Bei einem neuen Besuch wird der Besucher von einer anderen Website verwiesen. Da
 
 ### Berichte aus dem Treffer-Container
 
-Da allen in demselben Besuch enthaltenen Seiten derselbe Wert für die Referrerdomäne zugewiesen wird, liefert ein Bericht auf Ebene des Treffer-Containers, in dem *Referrerdomäne = &quot;aol.com&quot;* ist, alle in der folgenden Tabelle aufgeführten Seiten.
+Da allen Seitenansichten innerhalb desselben Besuchs derselbe Wert für die Referrerdomäne zugewiesen wird, erfolgt die Berichterstellung auf Ebene des Trefferbehälters , wobei `Referring Domain equsls 'aol.com'` gibt alle in der folgenden Tabelle aufgeführten Seiten zurück.
 
-| Referrerdomäne = &#39;aol.com&#39; | Seitenansichten |
+| Referrerdomäne gleich &quot;aol.com&quot; | Seitenansichten |
 |----|---:|
 | Startseite  | 1 |
 | Winterkleidung | 1 |
@@ -472,9 +472,9 @@ Bei der Anzeige der Daten aus dem Treffer-Container, wurden über 92.000 Seitena
 
 ### Berichte aus dem Besuchecontainer
 
-Wenn dieselbe Bedingung für einen Seitenbericht im Besuchs-Container gefiltert wird, ist die Bedingung für alle Seiten des Besuchs, bei denen *Referrerdomäne = &quot;aol.com&quot;* gilt, wahr. Da der Wert der Referrerdomäne auf der Besuchsebene festgelegt wird, sind Berichte auf Seitenansichts- und Besuchsebene identisch.
+Wenn dieselbe Bedingung im Besuchebehälter für einen Seitenbericht gefiltert wird, dann werden alle Seiten im Besuch, auf denen `Referring Domain equals 'aol.com'`ist wahr. Da der Wert der Referrerdomäne auf der Besuchsebene festgelegt wird, sind Berichte auf Seitenansichts- und Besuchsebene identisch.
 
-| Referrerdomäne = &#39;aol.com&#39; | Seitenansichten |
+| Referrerdomäne gleich &quot;aol.com&quot; | Seitenansichten |
 |----|---:|
 | Startseite  | 1 |
 | Winterkleidung | 1 |
@@ -493,11 +493,11 @@ Da alle Seiten basierend auf dem Besuch denselben Wert für die Referrer-Domäne
 
 ### Berichte aus dem Besuchercontainer
 
-Aus dem Besucher-Container listet der Seitenbericht alle Seiten auf, die von einem Besucher angesehen wurden, bei denen *Referrerdomäne gleich „aol.com“* wahr ist. Wenn ein Besucher *&quot;aol.com&quot;* jederzeit im Verlauf (innerhalb des definierten Zeitraums) als Referrer-Domäne bezeichnet werden, werden alle Seiten im Besucherbehälter (einschließlich Seitenansichten bei anderen Besuchen) aufgelistet. Selbst Seiten, die nicht mit der primären Bedingung übereinstimmen, werden im Bericht aufgeführt, da diese Seiten im Besucherbehälter enthalten sind. Alle Seiten im Besucherbehälter werden im Bericht aufgelistet, selbst wenn sie zuvor aufgetreten sind und die Bedingungen nicht speziell erfüllen.
+Aus dem Besucherbehälter listet der Seitenbericht alle Seiten auf, die von einem Besucher aufgerufen wurden, bei dem `Referring Domain equals 'aol.com'` ist wahr. Wenn ein Besucher *&#39;aol.com&#39;* jederzeit im Verlauf (innerhalb des definierten Zeitraums) als Referrer-Domäne bezeichnet werden, werden alle Seiten im Besucherbehälter (einschließlich Seitenansichten bei anderen Besuchen) aufgelistet. Selbst Seiten, die nicht mit der primären Bedingung übereinstimmen, werden im Bericht aufgeführt, da diese Seiten im Besucherbehälter enthalten sind. Alle Seiten im Besucherbehälter werden im Bericht aufgelistet, selbst wenn sie zuvor aufgetreten sind und die Bedingungen nicht speziell erfüllen.
 
-In einem Bericht „Referrerdomäne“ ist *Referrerdomäne = &quot;aol.com&quot;* bei vier Seitenansichten wahr, bei den anderen Seiten des Besucherzugriffs ist jedoch *Referrerdomäne = &quot;weather.com&quot;* wahr. Aus dem Besucherbehälter erhalten Sie eine Liste der Besucher, bei denen &quot;aol.com&quot;wahr ist. Sie erhalten jedoch auch Seiten, auf denen die Referrer-Domäne &quot;weather.com&quot;ist, und nicht den Wert, der Ihrer ursprünglichen Anforderung im Segment entsprach.
+In einem Referrer-Domänenbericht: `Referring Domain equals 'aol.com'` ist in vier Seitenansichten wahr, aber `Referring Domain equals "weather.com"` auf den anderen Seiten &quot;true&quot;festgelegt ist, die der Besucher aufgerufen hat. Aus dem Besucherbehälter erhalten Sie eine Liste der Besucher, bei denen &quot;aol.com&quot;wahr ist. Sie erhalten jedoch auch Seiten, auf denen die Referrer-Domäne &quot;weather.com&quot;ist, und nicht den Wert, der Ihrer ursprünglichen Anforderung im Segment entsprach.
 
-| Besuch 1<br/>Referrerdomäne = &#39;aol.com&#39; | <br/>Seitenansichten |
+| Besuch 1<br/>Referrerdomäne gleich &quot;aol.com&quot; | <br/>Seitenansichten |
 |----|---:|
 | Startseite  | 1 |
 | Winterkleidung | 1 |
@@ -510,15 +510,15 @@ In einem Bericht „Referrerdomäne“ ist *Referrerdomäne = &quot;aol.com&quot
 | Wintermantel | 1 |
 | Kauf | 1 |
 
-| Besucherbehälter<br/>Referrerdomäne = &#39;aol.com&#39; | Seitenansichten |
+| Besucherbehälter<br/>Referrerdomäne gleich &quot;aol.com&quot; | Seitenansichten |
 |----|---:|
-| Winterkleidung<br/>Referrerdomäne = &#39;aol.com&#39; | 1 |
-| Winterkleidung<br/>Referrerdomäne = &#39;weather.com&#39; | 1 |
-| Startseite <br/>Referrerdomäne = &#39;aol.com&#39; | 1 |
-| Wintermantel <br/>Referrerdomäne = &#39;aol.com&#39; | 1 |
-| Kauf<br/>Referrerdomäne = &#39;aol.com&#39; | 1 |
-| Winterstiefel<br/>Referrerdomäne = &#39;weather.com&#39; | 1 |
-| Winterhaufen<br/>Referrerdomäne = &#39;weather.com&#39; | 1 |
+| Winterkleidung<br/>Verweisende Domäne: &#39;aol.com&#39; | 1 |
+| Winterkleidung<br/>Verweisende Domäne: &#39;weather.com&#39; | 1 |
+| Startseite <br/>Verweisende Domäne: &#39;aol.com&#39; | 1 |
+| Wintermantel <br/>Verweisende Domäne: &#39;aol.com&#39; | 1 |
+| Kauf<br/>Verweisende Domäne: &#39;aol.com&#39; | 1 |
+| Winterstiefel<br/>Verweisende Domäne: &#39;weather.com&#39; | 1 |
+| Winterhaufen<br/>Verweisende Domäne: &#39;weather.com&#39; | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
