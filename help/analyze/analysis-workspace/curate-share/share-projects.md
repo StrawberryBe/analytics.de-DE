@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 53%
+source-wordcount: '1852'
+ht-degree: 52%
 
 ---
 
@@ -129,6 +129,10 @@ Sie können [Schreibgeschützter Zugriff](/help/analyze/analysis-workspace/curat
 >* Ein Projekt kann nicht mehr zugänglich sein, wenn viele Benutzer versuchen, gleichzeitig auf einen bestimmten Link zuzugreifen. Standardmäßig können alle 5 Minuten mehr als 190 Personen auf einen einzelnen Link zugreifen. Wenn Ihr Unternehmen diese Grenze erreicht, warten Sie 5 Minuten und versuchen Sie dann erneut, auf den Link zuzugreifen.
 
 
+Die folgende Videodemonstration und die zugehörige Dokumentation beschreiben die Optionen im Zusammenhang mit der Freigabe eines Links für andere:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugriff auf Adobe Analytics haben:
 
 1. Öffnen Sie das Analysis Workspace-Projekt, das Sie freigeben möchten.
@@ -149,7 +153,7 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
    * **[!UICONTROL Experience Cloud-Authentifizierung verlangen]:**
 
-      Wenn diese Option aktiviert ist, können nur Benutzer, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde, auf das Projekt zugreifen.
+      Wenn diese Option aktiviert ist, können nur Benutzer auf das Projekt zugreifen, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Für Benutzer, für die Sie freigeben, ist jedoch kein Zugriff auf Adobe Analytics erforderlich.
 
       Analytics-Administratoren können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
 
