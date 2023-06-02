@@ -4,10 +4,10 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: bbe429512e9a65c6840ff10ace50bd6df6bcb481
+source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 58%
+source-wordcount: '3488'
+ht-degree: 57%
 
 ---
 
@@ -27,36 +27,22 @@ Jeder Container ermöglicht Berichte über den Verlauf eines Besuchers, nach Bes
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #FFFFFF; border: 0; " colspan="5">
-</tr>
-
-<tr style="border: none;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_container_hierarchy.png)
+<!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
 Im Folgenden finden Sie eine Videoübersicht über die Segment-Container:
 
@@ -140,133 +126,109 @@ erstellt ein Segment, das sich in dieser Reihenfolge verhält:
 
 Die sequenzielle Segmentierung verwendet dieselben grundlegenden Container wie [!UICONTROL Besucher], [!UICONTROL Besuche] und [!UICONTROL Treffer] (einschließlich Seitenansichten oder andere Dimensionen) hierarchisch verschachtelt.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/nesting_container.png)
+<!--![](assets/nesting_container.png)-->
 
 [!UICONTROL Besucher] stellen den Container mit dem höchsten Rang in der sequenziellen Segmentierung dar. Dabei sind [!UICONTROL Besuche] im [!UICONTROL Besucher-Container] und [!UICONTROL Treffer] in den [!UICONTROL Besucher]- oder [!UICONTROL Besuchs-Containern] enthalten. Diese [Container-Hierarchie](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) muss eingehalten werden, um ordnungsgemäß sortierte sequenzielle Segmente zu erstellen.
 
 **So erstellen Sie sequenzielle Segmente**, werden Behälter verschachtelt und die sequenzielle Logik wird mithilfe der [!UICONTROL THEN] -Operator, für den jeder Container erforderlich ist `true` basierend auf der Sequenz des Besuchers.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">DANN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">DANN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_nesting_3.png)
+<!--![](assets/sequential_segmentation_nesting_3.png)-->
 
 Die einzige Ausnahme für diese Container-Hierarchie besteht in der Verwendung des [Logischer Gruppen-Container](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Mit dem [!UICONTROL logischen Gruppen-Container] können Sie einen Treffer innerhalb eines Containers ohne spezielle Reihenfolge verschachteln, um Ereignisse und Dimensionen zu erfassen, jedoch außerhalb einer sequenziellen Reihenfolge.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">DANN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">DANN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> Gruppe</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
+
 </table>
 
-![](assets/logic_group_hierarchy.png)
+<!--![](assets/logic_group_hierarchy.png)-->
 
 ## Auf Containerdaten basierende Berichte {#reports}
 
@@ -278,24 +240,19 @@ Daten, die auf den einzelnen Ebenen der Hierarchie der Container Besucher > Besu
 
 Beispiel: Der unten dargestellte Besucher hat eine Site zum ersten Mal besucht, kam auf der Homepage an und hat dann drei weitere Seiten besucht und aus dem Besuch einen Kauf gemacht. Bei einem anderen Besuch landete der Besucher auf der Produktseite, wechselte dann zur Homepage, zurück zur Produktseite und schloss die Sitzung dann ab, nachdem er sich Wintermützen angesehen hat. Basierend auf den für jeden Behälter für das Segment erfassten Daten werden im Bericht unterschiedliche Werte angezeigt.
 
-Das Segment *Seiten gleich Wintermäntel* wird auf den **Seitenbericht** angewendet.
+Die `Pages equals Winter Coat` Segment unten wird auf die **Seitenbericht**.
 
-![](assets/page_winter_coat.png)
 
-Basierend auf dem ausgewählten Container zeigt der Bericht unterschiedliche Ergebnisse an.
+Basierend auf dem ausgewählten Container zeigt der Bericht unterschiedliche Ergebnisse für die folgenden Besuche und Seitenansichten eines Besuchers an.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:auto; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Besuch 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>Besuch 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -303,19 +260,17 @@ Basierend auf dem ausgewählten Container zeigt der Bericht unterschiedliche Erg
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Wintermantel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Kauf: 100 $</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Besuch 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>Besuch 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -323,15 +278,11 @@ Basierend auf dem ausgewählten Container zeigt der Bericht unterschiedliche Erg
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterstiefel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Winterhaufen</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 
-![](assets/container_overview.png)
+<!--![](assets/container_overview.png)-->
 
 ### Berichte aus dem Treffer-Container
 
@@ -341,11 +292,16 @@ Wenn sich diese Bedingung in einem Treffer-Container befindet, listet der Berich
 |---|--:|
 | Wintermantel | 1 |
 
-![](assets/container_overview_PV.png)
+<!--![](assets/container_overview_PV.png)-->
 
 Die Berichterstellung aus dem Trefferbehälter zeigt, wie sich die Berichterstellung aus verschiedenen Behältern auf die Berichtswerte insgesamt auswirkt. Beachten Sie beim Anzeigen des Segmentberichts, dass die Seitenansichten ungefähr den Besuchen entsprechen (rund 2.000 Besucher haben bei einem Besuch doppelte Seiten gesehen, was zur Gesamtzahl der Seitenansichten addiert wird). Und Unique Visitors entsprechen ungefähr der Anzahl der Besuche (etwa 2.000 Unique Visitors haben mehr als einmal besucht).
 
-![](assets/container_report_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+|---|---|--:|--:|
+|  | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **69.252** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **19%**<br/>**40%**<br/>**56%** |
+
+
+<!--![](assets/container_report_PV.png)-->
 
 >[!IMPORTANT]
 >
@@ -362,11 +318,15 @@ Wenn sich dieselbe Bedingung in einem Besuchs-Container befindet, listet der Ber
 | Wintermantel | 1 |
 | Kauf | 1 |
 
-![](assets/container_overview_visit.png)
+<!--![](assets/container_overview_visit.png)-->
 
 In den Segmentwerten aus dem Besuchs-Container sehen Sie, dass die Anzahl der Seitenansichten signifikant gestiegen ist. Dieser Anstieg liegt daran, dass die Berichterstellung aus dem Besuchebehälter alle Seiten identifiziert, die die Bedingungen erfüllen, sowie alle anderen beim Besuch angezeigten Seiten (mit allen Seitenansichten, die in jedem Besuchebehälter erfasst werden).
 
-![](assets/container_report_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+|---|---|--:|--:|
+|  | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **226.193** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **64%**<br/>**40%**<br/>**56%** |
+
+<!--![](assets/container_report_Visit.png)-->
 
 ### Berichte aus dem Besuchercontainer
 
@@ -394,11 +354,15 @@ Wenn sich dieselbe Bedingung in einem Besucher-Container befindet, listet der Be
 | Winterstiefel | 1 |
 | Winterhaufen | 1 |
 
-![](assets/container_overview_visitors.png)
+<!--![](assets/container_overview_visitors.png)-->
 
 Beim Anzeigen von Segmenten aus dem Besucher-Container können Sie sehen, dass die Seitenansichten und die Besuche angestiegen sind. Dieser Anstieg liegt daran, dass, wenn der Besucher die Wintermäntel-Seite nur einmal besucht hat (wodurch die Bedingung wahr ist), alle anderen Seitenansichten und alle anderen Besuche, die für diesen Besucher erfasst wurden.
 
-![](assets/container_report_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+|---|---|--:|--:|
+|  | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **240.094** von 351.292 <br/>**83.823** von 165.175 <br/>**63.541** von 113.169 | **68%**<br/>**50%**<br/>**56%** |
+
+<!--![](assets/container_report_Visitor.png)-->
 
 Zusammenfassend wird deutlich, dass das Wissen darüber, wie die Segmentierung bei unterschiedlichen Aufschlüsselungen von Daten funktioniert, bei der Interpretation der gelieferten Daten von entscheidender Bedeutung ist.
 
@@ -437,26 +401,22 @@ Die Verwendung des Segments mit einem Container, der kleiner als der Aufschlüss
 
 Die Filterung nach Dimensionen, die über einen Seitenbereich hinweg bestehen bleiben, wie z. B. eine Campaign-eVar oder eine Referrer-Dimension, wirkt sich auf die auf Behälterebene erfassten Daten aus und muss für die Genauigkeit der Berichterstellung verstanden werden.
 
-Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer angewendeten Variablen, über ausgewählte Seiten hinweg variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Treffer-Container gefiltert. (Siehe als Beispiel [Auf Container-Daten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrerdomäne“, sind für einen Besuch über mehrere Seiten hinweg persistent. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf des Besuchers.
+Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer angewendeten Variablen, über ausgewählte Seiten hinweg variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Treffer-Container gefiltert. (Siehe als Beispiel [Auf Container-Daten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrerdomäne“, sind für einen Besuch über mehrere Seiten hinweg persistent. Zum Beispiel: `Referring Domain equals aol.com`. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf des Besuchers.
 
-![](assets/RefDomain_aol.png)
+<!--![](assets/RefDomain_aol.png)-->
 
 Im Gegensatz zur Seitendimension ist der Wert „Referrerdomäne“ an jede Seite in diesem Besuch angehängt. Im Beispiel unten kommt der Besucher von einer verweisenden Site auf der Homepage an. Daher wird allen Seiten innerhalb dieses Besuchs derselbe Wert für die Referrer-Domäne zugewiesen.
 
 Das Segment *Referrerdomäne gleich aol.com* wird auf den **Seitenbericht** angewendet.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Besuch 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>Besuch 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
 </td>
@@ -464,19 +424,17 @@ Das Segment *Referrerdomäne gleich aol.com* wird auf den **Seitenbericht** ange
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Wintermantel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Kauf: 100 $</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Besuch 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>Besuch 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
 </td>
@@ -484,11 +442,7 @@ Das Segment *Referrerdomäne gleich aol.com* wird auf den **Seitenbericht** ange
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterstiefel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Winterhaufen</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 <!--![](assets/container_overview_persist.png)-->
@@ -506,11 +460,15 @@ Da allen in demselben Besuch enthaltenen Seiten derselbe Wert für die Referrerd
 | Wintermantel | 1 |
 | Kauf | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 Bei der Anzeige der Daten aus dem Treffer-Container, wurden über 92.000 Seitenansichten bei über 33.000 Besuchen durch nur etwas mehr als 32.000 Besucher erzeugt. Im Durchschnitt fielen bei jedem Besuch drei Seitenansichten an und nahezu sämtliche Besuche betrafen Unique Visitors.
 
-![](assets/container_report_persist_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+|---|---|--:|--:|
+|  | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **98.234** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_PV.png)-->
 
 ### Berichte aus dem Besuchecontainer
 
@@ -523,11 +481,15 @@ Wenn dieselbe Bedingung für einen Seitenbericht im Besuchs-Container gefiltert 
 | Wintermantel | 1 |
 | Kauf | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 Da alle Seiten basierend auf dem Besuch denselben Wert für die Referrer-Domäne haben, ist der Bericht auf Besuchebehälterebene (fast) mit dem Bericht aus dem Seitenansichtsbehälter identisch. Aufgrund von Datenanomalien gibt es einen leichten Offset (98.234 gegenüber 98.248).
 
-![](assets/container_report_persist_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+|---|---|--:|--:|
+|  | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **98.248** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visit.png)-->
 
 ### Berichte aus dem Besuchercontainer
 
@@ -559,14 +521,15 @@ In einem Bericht „Referrerdomäne“ ist *Referrerdomäne = &quot;aol.com&quot
 | Winterhaufen<br/>Referrerdomäne = &#39;weather.com&#39; | 1 |
 
 
-
-
-
-![](assets/container_overview_persist_Visitor.png)
+<!--![](assets/container_overview_persist_Visitor.png)-->
 
 Beachten Sie, dass bei der Anzeige der Daten aus dem Besucher-Container die Seitenansichten signifikant angestiegen sind (von 98.248 auf 112.925). Dieser Anstieg liegt daran, dass alle Seitenansichten des Besuchers (einschließlich der Seiten mit anderen Werten für die Referrerdomäne, die auf Besucherbehälterebene gespeichert sind) aufgelistet wurden. Und die zusätzlichen Besuche dieses Besuchers, die Besuche von 33.203 auf 43.448 erhöhten.
 
-![](assets/container_report_persist_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+|---|---|--:|--:|
+|  | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **112.925** von 351.165 <br/>**43.448** von 165.173 <br/>**32.269** von 113.110 | **32%**<br/>**26%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visitor.png)-->
 
 ## Zusammenfassung
 
