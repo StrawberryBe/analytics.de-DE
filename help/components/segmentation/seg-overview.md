@@ -3,9 +3,9 @@ description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen ode
 title: Über Segmente
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
+source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1183'
 ht-degree: 69%
 
 ---
@@ -237,7 +237,9 @@ Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Da
 
 ## Video zur Segmentierung {#segment-video}
 
-In diesem Video erhalten Sie einen kurzen Überblick darüber, was Segmentcontainer sind und wie sie verwendet werden: [Segmentcontainer in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=de)
+In diesem Video erhalten Sie einen kurzen Überblick darüber, was Segmentcontainer sind und wie sie verwendet werden:
+
+![](https://video.tv.adobe.com/v/25401)
 
 
 ## Zugriff auf die Segmentierungswerkzeuge {#access}
