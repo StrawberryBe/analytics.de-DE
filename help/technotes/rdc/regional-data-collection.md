@@ -3,16 +3,16 @@ title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
+source-git-commit: a4dd138f0f2198da66caa272dd62b46f24b578b2
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 36%
+source-wordcount: '482'
+ht-degree: 35%
 
 ---
 
 # Regionale Datenerfassung
 
-Die Adobe Experience Cloud verwendet die regionale Datenerfassung (Regional Data Collection, RDC), damit Interaktionen zwischen Ihren Besuchern und der Adobe so nahe wie möglich an Ihren Besuchern stattfinden. Sobald Daten regional in einem Datenerfassungscenter (Data Collection Center, DCC) erfasst wurden, werden sie über eine sichere Verbindung an ein Data Processing Center (DPC) weitergeleitet. Nach der Verarbeitung sind die Daten für Produkte in der Adobe Experience Cloud verfügbar. Wenden Sie sich zur Änderung Ihres RDC-Typs an die Kundenunterstützung von Adobe.
+Die Adobe Experience Cloud verwendet die regionale Datenerfassung (Regional Data Collection, RDC), damit Interaktionen zwischen Ihren Besuchern und der Adobe so nahe wie möglich an Ihren Besuchern stattfinden. Sobald Daten regional in einem Datenerfassungscenter (DCC, auch Edge-Site genannt) erfasst werden, werden sie über eine sichere Verbindung an ein Datenverarbeitungszentrum (DPC, auch als Core-Site bezeichnet) weitergeleitet. Nach der Verarbeitung sind die Daten für Produkte in der Adobe Experience Cloud verfügbar. Wenden Sie sich zur Änderung Ihres RDC-Typs an die Kundenunterstützung von Adobe.
 
 Der regionale Datenerfassungsprozess umfasst die folgenden Schritte:
 
