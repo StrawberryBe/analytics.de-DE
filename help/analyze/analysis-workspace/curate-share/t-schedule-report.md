@@ -5,10 +5,10 @@ title: Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: 99f9a1d1fa6238918c1566f64df41418cd13fa0e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 86%
 
 ---
 
@@ -21,8 +21,10 @@ ht-degree: 93%
 So senden Sie eine Datei sofort per E-Mail an die Empfänger:
 
 1. Klicken **[!UICONTROL Freigeben] > [!UICONTROL Datei exportieren]**.
-1. Geben Sie den Dateityp an (CSV oder PDF).
-1. (Optional) Fuegen Sie eine Beschreibung hinzu, die in der E-Mail enthalten sein wird, um die empfangene Datei zu erklären.
+1. Geben Sie den Dateityp an:
+   * [!UICONTROL **CSV**]: Wählen Sie diese Option aus, wenn Sie Daten in Textform benötigen.
+   * [!UICONTROL **PDF**]: Wählen Sie diese Option aus, wenn die heruntergeladene Datei alle angezeigten (sichtbaren) Tabellen und Visualisierungen im Projekt enthalten soll.
+1. (Optional) Fügen Sie eine Beschreibung hinzu, die in die E-Mail aufgenommen werden soll, um die empfangene Datei zu erklären.
 1. Fügen Sie Empfänger oder Gruppen hinzu. E-Mail-Adressen können auch eingegeben werden.
 1. Klicken Sie auf **[!UICONTROL Jetzt senden]**.
 1. (Optional) Klicken Sie auf **[!UICONTROL Planungsoptionen anzeigen]**, um einen Zeitplan für den Versand festzulegen.
