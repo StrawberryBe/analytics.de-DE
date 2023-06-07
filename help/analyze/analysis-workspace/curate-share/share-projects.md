@@ -5,7 +5,7 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 52%
@@ -105,8 +105,6 @@ So geben Sie den Projekt-Link für Benutzende in Ihrer Organisation frei:
 1. Geben Sie den Link für Benutzende in Ihrer Organisation frei. Sie können sie beispielsweise in eine E-Mail, eine interne Website usw. einfügen.
 
 ## Projekt für andere freigeben (keine Anmeldung erforderlich) {#share-public-link}
-
-{{release-limited-testing-section}}
 
 Sie können [Schreibgeschützter Zugriff](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) für Analysis Workspace-Projekte für Personen, die keinen Zugriff auf Adobe Analytics haben. Dies kann Folgendes umfassen:
 

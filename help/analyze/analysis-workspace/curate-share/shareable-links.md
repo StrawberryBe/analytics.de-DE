@@ -5,7 +5,7 @@ title: Erstellen von freigebbaren Links
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 61%
@@ -23,8 +23,6 @@ Um einen Link zu einem Projekt freizugeben, gehen Sie zu dem Projekt, das Sie fr
 Wenn dem Empfänger des Links kein [Projektrolle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de), erhalten Administratoren **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]** Erlebnisse.
 
 ## Einen schreibgeschützten Link zur Freigabe für alle abrufen
-
-{{release-limited-testing-section}}
 
 Sie können einen schreibgeschützten Link zu Analysis Workspace-Projekten für Personen freigeben, die keinen Zugriff auf Adobe Analytics haben. Benutzer, für die Sie den Link freigeben, müssen sich nicht anmelden.
 
