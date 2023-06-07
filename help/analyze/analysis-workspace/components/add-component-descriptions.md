@@ -3,7 +3,8 @@ description: Administratoren können mithilfe der Report Suite Beschreibungen f�
 title: Komponentenbeschreibungen hinzufügen
 feature: Components
 role: Admin
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 31%
@@ -23,8 +24,6 @@ Im folgenden Video wird beschrieben, wie Sie in einer Report Suite Dimensions- u
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
 ## Hinzufügen von Beschreibungen zu Komponenten in Analysis Workspace (mithilfe des Datenwörterbuchs) {#add-descriptions}
-
-{{release-limited-testing-section}}
 
 Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen. Dazu gehört auch die Möglichkeit für Analytics-Administratoren, Komponentenbeschreibungen direkt in Analysis Workspace hinzuzufügen.
 
