@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 441484c0547439de2ab1cdc2596fb681592df012
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 52%
+source-wordcount: '1817'
+ht-degree: 49%
 
 ---
 
@@ -18,15 +18,15 @@ Sie können ein Analysis Workspace-Projekt für die folgenden Personentypen frei
 
 * Benutzer und Gruppen in Ihrem Unternehmen, die Zugriff auf Adobe Analytics haben
 
-   Sie können den Zugriff &quot;Bearbeiten&quot;, &quot;Duplizieren&quot;oder &quot;Anzeigen&quot;freigeben
+  Sie können den Zugriff &quot;Bearbeiten&quot;, &quot;Duplizieren&quot;oder &quot;Anzeigen&quot;freigeben
 
 * Benutzer und Gruppen in Ihrem Unternehmen, die keinen Zugriff auf Adobe Analytics haben
 
-   Empfänger haben schreibgeschützten Zugriff
+  Empfänger haben schreibgeschützten Zugriff
 
 * Personen außerhalb Ihrer Organisation
 
-   Empfänger haben schreibgeschützten Zugriff
+  Empfänger haben schreibgeschützten Zugriff
 
 Alle [Kuratierung](curate.md) Sie vor der Freigabe beantragen, wird beim Öffnen des Projekts durch die Empfänger angezeigt.
 
@@ -55,7 +55,7 @@ Beachten Sie beim Freigeben einer bestimmten Projektrolle für Benutzende und Gr
 
 * Benutzende, denen mehrere Rollen zugewiesen sind, erhalten immer die maximale Berechtigung. Dies kann vorkommen, wenn Benutzende sowohl als Einzelpersonen als auch als Gruppenmitglieder hinzugefügt werden. Wenn Benutzenden beispielsweise die Rolle **[!UICONTROL Kann bearbeiten]** als Einzelpersonen und die Rolle **[!UICONTROL Kann anzeigen]** als Gruppenmitgliedern zugewiesen wird, erhalten sie die Projektberechtigung **[!UICONTROL Kann bearbeiten]**.
 
-* Administrierende, die die Rolle **[!UICONTROL Kann duplizieren]** oder **[!UICONTROL Kann anzeigen]** erhalten, verfügen über diese eingeschränkte Berechtigungen, wenn sie ein Projekt öffnen. Falls gewünscht, kann ein Administrator bzw. eine Administratorin seine/ihre Rolle jederzeit auf **[!UICONTROL Kann bearbeiten]** erhöhen, indem er/sie **[!UICONTROL Komponenten] > [!UICONTROL Projekte]** wählt.
+* Administrierende, die die Rolle **[!UICONTROL Kann duplizieren]** oder **[!UICONTROL Kann anzeigen]** erhalten, verfügen über diese eingeschränkte Berechtigungen, wenn sie ein Projekt öffnen. Ein Administrator kann seine Rolle in **[!UICONTROL Kann bearbeiten]** indem Sie das Projekt für sich selbst freigeben und die Rolle &quot;Bearbeiten&quot;zuweisen, wie im folgenden Verfahren beschrieben.
 
 So geben Sie eine bestimmte Projektrolle für Benutzende oder Gruppen in Ihrer Organisation frei:
 
@@ -126,7 +126,6 @@ Sie können [Schreibgeschützter Zugriff](/help/analyze/analysis-workspace/curat
 >
 >* Ein Projekt kann nicht mehr zugänglich sein, wenn viele Benutzer versuchen, gleichzeitig auf einen bestimmten Link zuzugreifen. Standardmäßig können alle 5 Minuten mehr als 190 Personen auf einen einzelnen Link zugreifen. Wenn Ihr Unternehmen diese Grenze erreicht, warten Sie 5 Minuten und versuchen Sie dann erneut, auf den Link zuzugreifen.
 
-
 Die folgende Videodemonstration und die zugehörige Dokumentation beschreiben die Optionen im Zusammenhang mit der Freigabe eines Links für andere:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -151,9 +150,9 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
    * **[!UICONTROL Experience Cloud-Authentifizierung verlangen]:**
 
-      Wenn diese Option aktiviert ist, können nur Benutzer auf das Projekt zugreifen, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Für Benutzer, für die Sie freigeben, ist jedoch kein Zugriff auf Adobe Analytics erforderlich.
+     Wenn diese Option aktiviert ist, können nur Benutzer auf das Projekt zugreifen, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Für Benutzer, für die Sie freigeben, ist jedoch kein Zugriff auf Adobe Analytics erforderlich.
 
-      Analytics-Administratoren können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
+     Analytics-Administratoren können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md). Je nachdem, wie der Administrator diese Option konfiguriert hat, können die folgenden Szenarien auftreten:
 
       * Wenn diese Option nicht angezeigt wird, hat Ihr Analytics-Administrator diese Funktion nicht aktiviert.
 
@@ -196,6 +195,5 @@ Im Folgenden finden Sie ein Video zum Thema:
 | Frage | Antwort |
 | --- | --- |
 | Was passiert, wenn zwei Bearbeiter ein Projekt gleichzeitig speichern? | Die Änderungen werden nicht zusammengeführt und die zuletzt gespeicherte Projektversion bleibt erhalten. Analysis Workspace unterstützt derzeit keine Live-Zusammenarbeit. |
-| Welches Projekterlebnis sehe ich als Administrator? | Administratoren, die in die Rolle **[!UICONTROL Kann duplizieren]** oder **[!UICONTROL Kann anzeigen]** aufgenommen werden, erhalten diese eingeschränkten Erlebnisse, wenn sie ein Projekt öffnen. Falls gewünscht, kann ein Administrator seine Rolle jederzeit auf **[!UICONTROL Kann bearbeiten]** erhöhen, indem er **[!UICONTROL Komponenten] > [!UICONTROL Projekte]** wählt. |
 | Was passiert, wenn ein Empfänger als Einzelperson einer Rolle und als Gruppenmitglied einer weiteren Rolle zugewiesen wird? | Wenn einem Empfänger mehrere Rollen zugewiesen werden, erhält er immer das höhere Erlebnis. Wenn einem Empfänger beispielsweise die Rolle **[!UICONTROL Kann bearbeiten]** als Einzelperson und die Rolle **[!UICONTROL Kann anzeigen]** als Gruppenmitglied zugewiesen wird, erhält er das Projekterlebnis **[!UICONTROL Kann bearbeiten]**. |
 | Welches Erlebnis erhält ein Empfänger, wenn er einen Projekt-Link öffnet? | Empfänger erhalten die Rolle, die Sie ihnen im Freigabe-Modal zugewiesen haben. Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt erhält (**[!UICONTROL Freigeben]** > **[!UICONTROL Freigeben für Workspace-Benutzer]**, wählen Sie **[!UICONTROL Kopieren]** neben dem **[!UICONTROL Über Link freigeben]** ), werden sie standardmäßig in eine Rolle eingefügt. Administrierende erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administrierende erhalten die Rolle **[!UICONTROL Kann duplizieren]**. |
