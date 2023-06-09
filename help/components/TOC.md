@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
-   + [Häufig gestellte Fragen zur Verwaltung älterer Segmente ](segmentation/seg-transition.md)
+   + [Häufig gestellte Fragen zur Verwaltung älterer Segmente](segmentation/seg-transition.md)
    + [Best Practices](segmentation/best-practices.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
@@ -235,11 +235,17 @@ ht-degree: 90%
 + Classifications {#classifications}
    + [Übersicht über Klassifizierungen](classifications/c-classifications.md)
    + Klassifizierungssätze {#sets}
-      + [Klassifizierungssätze – Übersicht](classifications/sets/overview.md)
-      + [Classification Sets Manager](classifications/sets/set-manager.md)
+      + [Übersicht über Klassifizierungssätze](classifications/sets/overview.md)
+      + Verwalten von Classification-Sets {#manage}
+         + [Classification Set Manager](classifications/sets/manage/set-manager.md)
+         + [Erstellen eines Classification-Sets](classifications/sets/manage/create.md)
+         + [Einstellungen für Klassifizierungssätze](classifications/sets/manage/settings.md)
+         + [Klassifizierungsset-Schema](classifications/sets/manage/schema.md)
+         + [Classification-Set-Regeln](classifications/sets/manage/rules.md)
       + [Auftrags-Manager für Klassifizierungssätze](classifications/sets/job-manager.md)
-      + [Erstellen eines Klassifizierungssatzes](classifications/sets/create.md)
-      + [Einstellungen für Klassifizierungssätze](classifications/sets/settings.md)
+      + Klassifizierungssatz-Konsolidierung {#consolidations}
+         + [Konsolidierungs-Manager für Klassifizierungssätze](classifications/sets/consolidations/manage.md)
+         + [Konsolidierungsprozess für Klassifizierungssätze](classifications/sets/consolidations/process.md)
    + Classification Rule Builder {#classifications-rulebuilder}
       + [Classification Rule Builder-Workflow](classifications/crb/classification-rule-builder.md)
       + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [FTP-Export](classifications/importer/ftp-export.md)
       + [Verarbeitungszeit](classifications/importer/processing-time.md)
       + [Fehlerbehebung](classifications/importer/troubleshooting.md)
+
    + [Unterklassifizierungen](classifications/c-sub-classifications.md)
    + [Häufig gestellte Fragen zu Klassifizierungen](classifications/faq.md)
 + [Kalenderereignisse](t-calendar-event.md)

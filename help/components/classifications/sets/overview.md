@@ -1,34 +1,38 @@
 ---
-title: Klassifizierungssätze – Übersicht
-description: Verwenden Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten.
+title: Übersicht über Klassifizierungssätze
+description: Verwenden Sie Classification-Sets, um Classification-Daten zu verwalten.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 05243d37d252274d88650566de049327ff2bd439
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 26%
 
 ---
 
-# Klassifizierungssätze – Übersicht
+# Übersicht über Klassifizierungssätze
 
-Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassifizierungen und Regeln. Dieser Workflow kombiniert das Konzept der Erstellung von Klassifizierungen in den Report Suite-Einstellungen mit dem Konzept des Classification Importer, um eine intuitivere Benutzeroberfläche zum Erstellen und Verwalten von Klassifizierungsdaten zu bieten.
+Klassifizierungssätze bieten eine einzige Oberfläche zur Verwaltung von Klassifizierungen und Regeln. Dieser Workflow kombiniert das Konzept der Erstellung von Classifications in den Report Suite-Einstellungen mit dem Konzept des Classification Importer, um eine intuitivere Oberfläche zum Erstellen und Verwalten von Classification-Daten zu bieten.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]**
 
-Die Backend-Architektur, die mit Klassifizierungs-Sets veröffentlicht wurde, enthält einige wichtige Verbesserungen:
+Die mit Classification-Sets veröffentlichte Backend-Architektur enthält einige wichtige Verbesserungen:
 
-* deutlich verkürzte Verarbeitungszeit (72 Stunden → 24 Stunden)
-* Möglichkeit zur Verwendung der Benutzeroberfläche für Klassifizierungs-Sets
+* Geringere Verarbeitungszeit (72 Stunden → 24 Stunden)
+* Die Verwendung der Benutzeroberfläche für Klassifizierungssätze
 * Die Option, Klassifizierungsdaten in Adobe Experience Platform künftig über den [Adobe Analytics-Quell-Connector für Klassifizierungsdaten](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=de) zu verwenden
 
-Die Backend-Architektur, die mit Klassifizierungs-Sets veröffentlicht wurde, enthält auch einige wichtige Änderungen:
+Die Backend-Architektur, die mit Classification-Sets veröffentlicht wurde, enthält auch einige wichtige Änderungen:
 
-* Bei Verwendung des Browsers oder FTP-Imports ist [!UICONTROL Bei Konflikt überschreiben] immer aktiviert.
-* Bei Verwendung des Browser- oder FTP-Imports wird die Option zum sofortigen Export nach dem Import nicht mehr unterstützt. Exporte müssen separat initiiert werden.
+* Bei Verwendung des Browsers oder des automatisierten Imports[!UICONTROL Bei Konflikt überschreiben]&quot; ist immer aktiviert.
+* Bei Verwendung des Browsers oder des automatisierten Imports wird die Option zum sofortigen Export nach dem Import nicht mehr unterstützt. Exporte müssen separat initiiert werden.
 * Die Analytics 2.0-API `GetDimensions`-Endpunkt gibt jetzt Zeichenfolgenkennungen für Klassifizierungen anstelle numerischer Kennungen zurück. Numerische Kennungen können zwar weiterhin verwendet werden, Adobe empfiehlt jedoch, nach Möglichkeit die neuen Zeichenfolgenkennungen zu verwenden. Numerische Kennungen können mithilfe der `?expansion=hidden` Abfragezeichenfolgen-Parameter abgerufen werden.
 
+>[!IMPORTANT]
+>
+>Die Leistung von Classification-Sets hängt hauptsächlich von der Anzahl der eindeutigen Schlüsselwerte ab, die Daten enthalten. Adobe empfiehlt, bei Variablen mit einer großen Anzahl individueller Werte Vorsicht walten zu lassen. Diese Vorsicht gilt insbesondere bei der Kombination von Variablen aus mehreren Report Suites und Dimensionen zu einem einzigen Classification-Satz.
 
-Klassifizierungssätze bestehen aus zwei Hauptbereichen:
+Klassifizierungssätze bestehen aus drei Hauptbereichen:
 
-* [**[!UICONTROL Classification Sets Manager]**](set-manager.md): Erstellen, bearbeiten und löschen von Klassifizierungssätze.
-* [**[!UICONTROL Auftrags-Manager für Klassifizierungssätze]**](job-manager.md): Zeigt den Status der Klassifizierungssatz-Aufträge an und ermöglicht, die Exportdateien herunterzuladen.
+* [**[!UICONTROL Classification Sets Manager]**](manage/set-manager.md): Erstellen, bearbeiten und löschen Sie Classification-Sets.
+* [**[!UICONTROL Auftrags-Manager für Klassifizierungssätze]**](job-manager.md): Zeigen Sie den Status der Classification-Set-Aufträge an und laden Sie die Exportdateien herunter.
+* [**[!UICONTROL Klassifizierungssatz-Konsolidierung]**](consolidations/manage.md): Kombinieren Sie mehrere Classification-Sets zu einem einzigen Classification-Satz.

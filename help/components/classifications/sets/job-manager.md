@@ -1,40 +1,40 @@
 ---
 title: Auftrags-Manager für Klassifizierungssätze
-description: Zeigen Sie aktuelle und abgeschlossene Klassifizierungsaufträge an, die aus Klassifizierungssätzen generiert wurden.
+description: Zeigen Sie aktuelle und abgeschlossene Classification-Aufträge an, die aus Classification-Sets generiert wurden.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 49%
 
 ---
 
 # Auftrags-Manager für Klassifizierungssätze
 
-Mit dem Auftrags-Manager für Klassifizierungssätze können Sie aktuelle und abgeschlossene Klassifizierungsaufträge anzeigen, die aus Klassifizierungssätzen generiert wurden. Sie können diese Benutzeroberfläche auch verwenden, um Klassifizierungsdaten oder Vorlagen für einen bestimmten Auftrag herunterzuladen oder zusätzliche Daten in einen Auftrag hochzuladen.
+Mit dem Job Manager für Klassifizierungssätze können Sie aktuelle und abgeschlossene Klassifizierungsaufträge anzeigen, die aus Klassifizierungssätzen generiert wurden. Sie können diese Benutzeroberfläche auch verwenden, um Klassifizierungsdaten oder Vorlagen für einen bestimmten Auftrag herunterzuladen oder zusätzliche Daten in einen Auftrag hochzuladen.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Aufträge]**
 
-Beachten Sie, dass Sie über diese Benutzeroberfläche keine Aufträge erstellen können. Stattdessen können Sie Aufträge erstellen, indem Sie Daten in einen Klassifizierungssatz hochladen, eine Datei zum Herunterladen anfordern oder eine Vorlagendatei anfordern.
+Auf dieser Benutzeroberfläche können keine Aufträge erstellt werden. Erstellen Sie Aufträge, indem Sie Daten in einen Classification-Satz hochladen (entweder manuell oder über einen konfigurierten externen Speicherort), eine Download-Datei anfordern oder eine Vorlagendatei anfordern.
 
-## Filtern von Klassifizierungssätzen
+## Filtern von Classification-Sets
 
-Auf der linken Seite des Auftrags-Managers für Klassifizierungssätze finden Sie Filtereinstellungen, um den gewünschten Auftrag zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Klassifizierungssätze nach **[!UICONTROL Klassifizierungssatz]**, **[!UICONTROL Abschlusszeit]** oder **[!UICONTROL Status]** filtern.
+Die linke Seite des Auftrags-Managers für den Klassifizierungssatz enthält Filtereinstellungen, um den gewünschten Auftrag zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Classification-Sets nach **[!UICONTROL Klassifizierungssatz]**, **[!UICONTROL Abschlusszeit]**, **[!UICONTROL Status]**, **[!UICONTROL Auftragstyp]** oder **[!UICONTROL Quelle]**.
 
-![Filter für Klassifizierungssatzaufträge](../assets/classification-set-job-filters.png)
+![Auftragsfilter für Classification-Sets](../assets/classification-set-job-filters.png)
 
-Zusätzliche Filteroptionen sind über den Spalten des Auftrags-Managers für Klassifizierungssätze verfügbar:
+Zusätzliche Filteroptionen sind über den Spalten für den Classification-Satz Job Manager verfügbar:
 
 * **[!UICONTROL Suche nach Titel]**: Suche nach Aufträgen anhand des Dateinamens.
-* **[!UICONTROL Mehr laden]**: Der Auftrags-Manager für Klassifizierungssätze zeigt zunächst bis zu 1000 Aufträge an. Klicken Sie auf diese Schaltfläche, um 1000 weitere Aufträge zu laden.
+* **[!UICONTROL Mehr laden]**: Der Job Manager für Klassifizierungssätze zeigt zunächst bis zu 1000 Aufträge an. Wenn weitere Aufträge vorhanden sind, klicken Sie auf diese Schaltfläche, um 1000 weitere Aufträge zu laden.
 * **Spalten ein-/ausblenden**: Ein-/Ausschalten der Sichtbarkeit für eine beliebige Spalte außer [!UICONTROL Dateiname] und [!UICONTROL Abschlusszeit].
 
-## Spalten im Auftrags-Manager für Klassifizierungssätze
+## Spalten des Classification-Sets für Auftragsmanager
 
-Die folgenden Spalten sind im Auftrags-Manager für Klassifizierungssätze verfügbar:
+Die folgenden Spalten sind im Job Manager für Klassifizierungssätze verfügbar:
 
 * **[!UICONTROL Dateiname]**: Der Name der Datei zum Hoch- oder Herunterladen.
-* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes, für den die Datei gilt. Sie können auf den Namen des Klassifizierungssatzes klicken, um zu den [Einstellungen](settings.md) des Klassifizierungssatzes zu gelangen.
+* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes, für den die Datei gilt. Sie können auf den Namen des Klassifizierungssatzes klicken, um die [Einstellungen](manage/settings.md).
 * **[!UICONTROL Größe]**: Die Größe der Datei.
 * **[!UICONTROL Status]**: Der Status des Auftrags, der die Datei verarbeitet.
    * **[!UICONTROL Erstellt]**: Der Auftrag wurde eingereicht.
@@ -45,6 +45,9 @@ Die folgenden Spalten sind im Auftrags-Manager für Klassifizierungssätze verf�
    * **[!UICONTROL Fehlgeschlagene Verarbeitung]**: Die Verarbeitung der Datei ist fehlgeschlagen.
    * **[!UICONTROL Fertig]**: Die Verarbeitung ist abgeschlossen. Klassifizierungsdaten sind in Berichten sichtbar.
    * **[!UICONTROL Fehlgeschlagen]**: Generischer Fehler, der nicht mit der Validierung oder Verarbeitung in Zusammenhang steht.
-* **[!UICONTROL Typ]**: Die Art des Auftrags.
+* **[!UICONTROL Auftragstyp]**: Die Art des Auftrags.
+* **[!UICONTROL Quelle]**: Die Auftragsquelle.
 * **[!UICONTROL Datei-Download]**: Gilt nur für Aufträge zum Herunterladen, wie das Herunterladen von Klassifizierungsdaten oder das Herunterladen von Vorlagen. Wenn ein Download bereit ist, enthält diese Spalte einen Link zum Herunterladen.
+* **[!UICONTROL Geänderte Zeilen]**: Die Anzahl der geänderten Zeilen.
+* **[!UICONTROL Abgeschlossene Zeilen]**: Die Anzahl der abgeschlossenen Zeilen.
 * **[!UICONTROL Abschlusszeit]**: Datum und Uhrzeit des Abschlusses (oder Fehlschlagens) des Auftrags.
