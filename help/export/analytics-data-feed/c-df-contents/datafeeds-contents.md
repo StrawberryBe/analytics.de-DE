@@ -5,16 +5,30 @@ subtopic: data feeds
 title: Daten-Feed-Inhalte – Übersicht
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
-# Daten-Feed-Inhalte – Übersicht
+# Daten-Feed-Inhalte - Übersicht
 
-In diesem Abschnitt werden die Dateien beschrieben, die in einer Daten-Feed-Bereitstellung enthalten sind.
+In den folgenden Abschnitten wird beschrieben, wie Sie auf die Dateien in einer Daten-Feed-Bereitstellung zugreifen und diese verstehen.
+
+## Zugriff auf Daten-Feed-Inhalte
+
+So greifen Sie auf den Inhalt eines Daten-Feeds zu:
+
+1. Melden Sie sich bei der Daten-Feed-Ziel-Site an.
+
+   Dies ist die Ziel-Site, die Sie beim Erstellen des Daten-Feeds eingerichtet haben, z. B. ein Amazon S3- oder Google Cloud Platform-Bucket.
+
+1. Laden Sie die komprimierte Daten-Feed-Datei auf Ihren lokalen Computer herunter.
+
+1. Dekomprimieren Sie die komprimierte Datei mit einem Programm, das `.tar.gz`-Dateierweiterungen unterstützt.
+
+1. Öffnen Sie die `hit_data.tsv`-Datei in Ihrer gewünschten Tabellenkalkulations- oder Datenbankanwendung, um die Rohdaten für diesen Tag anzuzeigen. —>
 
 ## Manifestdatei {#feed-manifest}
 

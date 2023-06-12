@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Daten-Feeds
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 89%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 Data Feeds sind Exporte von durch Adobe empfangene Clickstream-Daten. Verfügbar sind sowohl standardmäßige als auch benutzerdefinierte [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 Wenn Sie Adobe Data Warehouse und [!UICONTROL Standard Data Feeds] erworben haben, können Sie eigene Analytics-Daten-Feeds einrichten. Diese können an ein beliebiges FTP-Konto gesendet werden (entweder ein durch Adobe eingerichtetes oder ein externes FTP-Konto). Adobe Engineering Services bieten benutzerdefinierte [!UICONTROL Data Feeds], die auf nahezu jede Art gesendet werden können.
+
+>[!NOTE]
+>
+>Die folgenden Informationen beziehen sich auf FTP- und SFTP-Zieltypen. FTP und SFTP sind veraltete Zieltypen. Beim Konfigurieren eines Daten-Feeds sollten Sie einen sichereren Cloud-Zieltyp verwenden.
+
 
 [!UICONTROL Daten-Feed]-FTP-Konten sind auf 10 GB beschränkt (standardmäßig). Für alle anderen Standard-FTP-Konten gilt eine Obergrenze von 50 MB. In Fällen, in denen Kunden das FTP-Konto bestimmungsgemäß verwenden, kann es bei Benutzern mit hohem Traffic-Aufkommen schnell passieren, dass die Konten voll sind. Wenn ein FTP-Konto voll ist, können keine weiteren Dateien in das Konto übertragen werden. An dieses FTP-Konto gelieferte Dateien ([!UICONTROL Daten-Feeds]-, Data Warehouse-Anforderungen usw.) werden daher nicht ausgeliefert. Dies ist einer Gründe, aus denen es wichtig ist, dass Sie Ihr Adobe FTP-Konto verwalten und empfangene Dateien nach dem Herunterladen entfernen.
 

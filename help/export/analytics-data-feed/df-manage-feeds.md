@@ -3,10 +3,10 @@ title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Klicken Sie auf die Registerkarte „Aufträge“, um einzelne Aufträge anzuzei
 
 ### Fügen Sie
 
-Klicken Sie in der Nähe der Registerkarten „Feeds“ und „Aufträge“ auf die Schaltfläche + [!UICONTROL Hinzufügen], um einen neuen Feed zu erstellen. Weitere Informationen finden Sie unter [Hinzufügen eines Feeds](create-feed.md).
+Klicken Sie in der Nähe der Registerkarten „Feeds“ und „Aufträge“ auf die Schaltfläche + [!UICONTROL Hinzufügen], um einen neuen Feed zu erstellen. Siehe [Erstellen eines Daten-Feeds](create-feed.md) für weitere Informationen.
 
 ### Spalten
 
@@ -66,8 +66,8 @@ Jeder erstellte Feed zeigt mehrere Spalten mit Informationen an. Klicken Sie auf
 * **Report Suite-ID**: Die eindeutige Kennung der Report Suite.
 * **Datenspalten**: Gibt an, welche Datenspalten für den Feed aktiv sind. In den meisten Fällen gibt es so viele Spalten, dass sie in diesem Format nicht alle angezeigt werden können.
 * **Intervall**: Gibt an, ob der Feed stündlich oder täglich ist.
-* **Zieltyp**: Der Zieltyp für den Feed. Zum Beispiel FTP, Amazon S3 oder Azure.
-* **Zielhost**: Der Speicherort der Datei. Beispiel: `ftp.example.com`.
+* **Zieltyp**: Der Zieltyp für den Feed. Zum Beispiel Amazon S3, GCP oder Azure.
+* **Zielhost**: Der Speicherort der Datei.
 * **Inhaber**: Das Benutzerkonto, über das der Feed erstellt wurde.
 * **Status:** Der Status des Feeds.
    * Aktiv: Der Feed ist betriebsfähig.

@@ -4,14 +4,18 @@ keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
 title: Analytics-Daten-Feed-Dokumentation
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 98%
+source-wordcount: '622'
+ht-degree: 83%
 
 ---
 
 # Analytics-Daten-Feed-Dokumentation
+
+>[!AVAILABILITY]
+>
+>Einige der auf dieser Seite beschriebenen Zieltypen befinden sich in der eingeschränkten Testphase der Veröffentlichung und sind möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
 
 Daten-Feeds sind eine leistungsstarke Methode, Rohdaten aus Adobe Analytics abzurufen. Diese Rohdaten können nach Ermessen Ihrer Organisation auf anderen Plattformen außerhalb von Adobe verwendet werden. Die Daten werden in stündlichen Stapeln am Ende jeder Stunde oder in täglichen Stapeln am Ende jedes Tages bereitgestellt.
 
@@ -19,11 +23,12 @@ Daten-Feeds sind eine leistungsstarke Methode, Rohdaten aus Adobe Analytics abzu
 
 Bevor Sie Daten-Feeds verwenden, müssen Sie alle folgenden Anforderungen erfüllen.
 
-* Sie haben eine FTP-Site und Anmeldeinformationen zur Hand. Daten-Feeds können nur an ein Serverziel gesendet werden. Ihr Unternehmen stellt in der Regel FTP-Anmeldeinformationen bereit. Adobe kann auf Anfrage einen FTP-Speicherort mit einer bescheidenen Menge Speicher bereitstellen. Wenden Sie sich an die Kundenunterstützung, um ein FTP-Ziel für Daten-Feeds anzufordern.
-* Eine funktionierende Implementierung, die Daten an Adobe-Datenerfassungsserver sendet. Siehe [Überprüfen und Veröffentlichen einer Implementierung](/help/implement/launch/validate-publish-prod.md) im Benutzerhandbuch zur Implementierung.
+* Eine funktionierende Implementierung, die Daten an Adobe-Datenerfassungsserver sendet. Siehe [Implementierung validieren und veröffentlichen](/help/implement/launch/validate-publish-prod.md) im Implementierungshandbuch.
 * Ihr Konto ist ein Analytics-Produktadministrator, oder Ihr Konto gehört zu einem Produktprofil mit Zugriff auf Daten-Feeds.
+* Ein Bucket, der für Amazon S3, Google Cloud Platform, Azure RBAC oder Azure SAS konfiguriert wurde.
+* (Veraltet: Nur für veraltete FTP- und SFTP-Zieltypen erforderlich) Verwenden Sie eine FTP-Site und Ihre Anmeldeinformationen (FTP-Anmeldeinformationen, die von Ihrem Unternehmen bereitgestellt werden).
 
-## Erste Schritte
+## Empfohlene Daten-Feed-Ressourcen
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 2. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
@@ -58,17 +63,15 @@ Bevor Sie Daten-Feeds verwenden, müssen Sie alle folgenden Anforderungen erfül
 
 Sobald Sie den grundlegenden Workflow beim Abrufen von Daten-Feeds kennen, können Sie mit Teams in Ihrer Organisation zusammenarbeiten, um Rohdaten in einer Datenbank zu speichern oder zu erfassen.
 
+* [Best Practices für Datenfeeds](/help/export/analytics-data-feed/data-feeds-best-practices.md): Best Practices zum Erstellen und Verwalten von Daten-Feeds.
 * [Erstellen von Daten-Feeds](create-feed.md): Technische Details zum Erstellen eines Daten-Feed, detaillierte Erläuterungen einzelner Felder
 * [Verwalten von Daten-Feeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Daten-Feed-Benutzeroberfläche
-* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Informationen zum Inhalt der komprimierten Datei
-* [Definitionen der Datenspalten](c-df-contents/datafeeds-reference.md): Eine vollständige Liste aller verfügbaren Spalten
+* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Informationen zum Inhalt der komprimierten Datei <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Definitionen der Datenspalten](c-df-contents/datafeeds-reference.md): Eine vollständige Liste aller verfügbaren Spalten.
+* Video zur Navigation auf der Daten-Feed-Oberfläche:
 
-## Zusätzliche Ressourcen
+  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-Video zur Navigation auf der Daten-Feed-Oberfläche:
+* Video zur Suche nach Ihrer Daten-Feed-ID:
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
-
-Video zur Suche nach Ihrer Daten-Feed-ID:
-
->[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
