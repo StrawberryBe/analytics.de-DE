@@ -4,10 +4,10 @@ title: Mobile Scorecards erstellen und freigeben
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -340,7 +340,7 @@ Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Anal
 
 Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
 
-### Scorecards über einen freigebbaren Link freigeben
+### Scorecards über einen freigebbaren Link freigeben {#shareable-link}
 
 Durch die Verwendung eines freigebbaren Links wird es einfach, eine Scorecard in einer E-Mail, einem Dokument oder einer Textnachrichten-App freizugeben. Über den freigebbaren Link können Empfänger die Scorecard auf ihrem Desktop oder in der mobilen Dashboards-App öffnen. Durch die gemeinsame Nutzung von Deep Linking können Sie Projekte einfacher freigeben und die Interaktion mit Ihren Stakeholdern steigern.
 
