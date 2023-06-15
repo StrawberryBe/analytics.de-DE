@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '3670'
+source-wordcount: '3671'
 ht-degree: 92%
 
 ---
@@ -100,7 +100,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`ipv6`** | Die komprimierte IPv6-Adresse, falls verfügbar. Sich gegenseitig ausschließend für `ip`; wenn diese Spalte eine nicht verschleierte IP-Adresse enthält, ist `ip` leer. | varchar(40) |
 | **`j_jscript`** | Vom Browser unterstützte JavaScript-Version. | char(5) |
 | **`java_enabled`** | Ein Flag, das angibt, ob Java aktiviert ist. <br>Y: Aktiviert <br>N: Deaktiviert <br>U: Unbekannt | char(1) |
-| **`javascript`** | Such-ID der JavaScript-Version, basierend auf `j_jscript`. Verwendet eine Suchtabelle. | tinyint unsigniert |
+| **`javascript`** | Such-ID der JavaScript-Version, basierend auf `j_jscript`. Verweist auf die Suchtabelle `javascript_version` | tinyint unsigniert |
 | **`language`** | Numerische ID der Sprache. Verwendet die Suchtabelle `languages.tsv`. | smallint unsigniert |
 | **`last_hit_time_gmt`** | Zeitstempel (in UNIX®-Zeit) des vorherigen Treffers. Wird zur Berechnung der Dimension [Tage seit dem letzten Besuch](/help/components/dimensions/days-since-last-visit.md) verwendet. | int |
 | **`last_purchase_num`** | Variable, die in der Dimension [Kundenloyalität](/help/components/dimensions/customer-loyalty.md) verwendet wird. Die Anzahl der vorherigen Käufe des Besuchers. <br>0: Keine vorherigen Käufe (kein Kunde) <br>1: 1 vorheriger Kauf (neuer Kunde) <br>2: 2 vorherige Käufe (Bestandskunde) <br>3: 3 oder mehr vorherige Käufe (treuer Kunde) | int unsigniert |

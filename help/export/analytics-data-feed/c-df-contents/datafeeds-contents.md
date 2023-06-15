@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Daten-Feed-Inhalte – Übersicht
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ Lookup-Dateien werden in einer komprimierten ZIP-Datei bereitgestellt, die nach 
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (angepasst für diesen Daten-Feed)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (angepasst für diesen Daten-Feed)
+* **`column_headers.tsv`**: Eine einzelne Zeile mit den Spaltenüberschriften für `hit_data.tsv`.
+* **`browser.tsv`**: Ordnet die Browser-ID (die `browser` Feed-Spalte) zum Anzeigenamen des Browsers hinzu.
+* **`browser_type.tsv`**: Ordnet die Browser-ID (die `browser` Feed-Spalte) zum Browsertyp hinzu.
+* **`color_depth.tsv`**: Ordnet die Farbtiefen-ID (die `color` Feed-Spalte) in die Farbtiefe.
+* **`connection_type.tsv`**: Ordnet die Verbindungstyp-ID (die `connection_type` Feed-Spalte) zum Verbindungstyp hinzu.
+* **`country.tsv`**: Ordnet die Länder-ID zu (die `country` Feed-Spalte) zum Ländernamen hinzu.
+* **`javascript_version.tsv`**: Ordnet die JavaScript-Versions-ID (die `javascript` -Feed-Spalte) zur JavaScript-Version hinzugefügt.
+* **`languages.tsv`**: Ordnet die Sprach-ID (die `language` Feed-Spalte) in die Sprache hinzu.
+* **`operating_systems.tsv`**: Ordnet die Betriebssystem-ID zu (die `os` Feed-Spalte) auf den Namen des Betriebssystems hinzu.
+* **`plugins.tsv`**: Ordnet die Plug-in-IDs (die `plugin` Feed-Spalte) zu den jeweiligen Plug-in-Namen hinzu.
+* **`resolution.tsv`**: Ordnet die Auflösungs-ID (die `resolution` Feedspalte) zur Bildschirmauflösung hinzu.
+* **`referrer_type.tsv`**: Ordnet die Referrer-Typ-ID zu (die `ref_type` Feed-Spalte) zum Typ der verweisenden Stelle.
+* **`search_engines.tsv`**: Ordnet die Suchmaschinen-ID (die `search_engine` Feed-Spalte) zum Suchmaschinennamen hinzu.
+* **`event.tsv`**: Ordnet jede Ereignis-ID zu (die `event_list` Feed-Spalte) auf den entsprechenden Ereignisnamen hinzu.
 
 ## Trefferdatendateien
 
-Die Trefferdaten werden in der Datei [!DNL hit_data.tsv] bereitgestellt. Die Menge an Daten in dieser Datei richtet sich nach dem Auslieferungsformat (stündlich oder täglich sowie danach, ob die Auslieferung in einer oder in mehreren Dateien erfolgt). Diese Datei enthält nur die Trefferdaten. Die Spaltenkopfzeilen werden separat mit den Lookup-Dateien geliefert. Jede Zeile in dieser Datei entspricht einem einzelnen Server-Aufruf.
+Die Trefferdaten werden in der Datei `hit_data.tsv` bereitgestellt. Die Menge an Daten in dieser Datei richtet sich nach dem Auslieferungsformat (stündlich oder täglich sowie danach, ob die Auslieferung in einer oder in mehreren Dateien erfolgt). Diese Datei enthält nur die Trefferdaten. Die Spaltenkopfzeilen werden separat mit den Lookup-Dateien geliefert. Jede Zeile in dieser Datei entspricht einem einzelnen Server-Aufruf.
 
 Die von Adobe bereitgestellten Dateien variieren je nach Art des konfigurierten Daten-Feeds. Alle Dateien sind ISO-8859-1-kodiert.
 

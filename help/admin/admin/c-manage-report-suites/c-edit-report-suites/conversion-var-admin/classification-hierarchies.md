@@ -4,16 +4,18 @@ subtopic: Classifications
 title: Klassifizierungshierarchien
 feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 97%
 
 ---
 
 # Klassifizierungshierarchien
 
 Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierarchien definieren, auf deren Grundlage Sie Hierarchieberichte mit dem gleichen Namen erstellen können.
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Klassifizierungshierarchien]**
 
 ## Klassifizierungshierarchien {#concept_10A956342D7D4C3E9114CCFCE1364741}
 

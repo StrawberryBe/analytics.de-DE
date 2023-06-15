@@ -3,31 +3,27 @@ title: Listenvariablen
 description: Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten.
 feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 92%
 
 ---
 
 # Listenvariablen
 
-Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten. Legen Sie hier Trennzeichen, Ablauf, Zuordnung und Höchstwert fest.
+Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten. Legen Sie die Werte für Trennzeichen, Ablauf, Zuordnung und Höchstwert fest.
 
-Sie können auf die Konfiguration in der Admin Console zugreifen:
-
-1. Navigieren Sie zu: **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-2. Wählen Sie die Report Suite aus.
-3. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Listenvariablen]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Suchmethoden]**
 
 * **Name**: Jeder durch ein Trennzeichen begrenzte Wert kann maximal 255 Zeichen (bei Multibytezeichen weniger) enthalten. Dies ist die maximale Länge jedes Elements.
 * **Trennzeichen für Werte**: Das Zeichen, mit dem Werte in der Listenvariable voneinander getrennt werden. Häufig handelt es sich dabei um Zeichen wie Komma, Doppelpunkt, senkrechter Strich (Pipe) usw.
 
-   >[!NOTE]
-   >
-   >Multi-Byte-Zeichen werden als Trennzeichen in Listenvariablen nicht unterstützt. Das Trennzeichen muss ein Single-Byte-Zeichen sein.
+  >[!NOTE]
+  >
+  >Multi-Byte-Zeichen werden als Trennzeichen in Listenvariablen nicht unterstützt. Das Trennzeichen muss ein Single-Byte-Zeichen sein.
 
-* **Ablauf**: Bestimmt, ähnlich wie beim eVar-Ablaufdatum, den Zeitraum, der zwischen der Listenvariable und dem zugehörigen Konversionsereignis liegen kann.
+* **Ablauf**: Ähnlich wie beim Ablauf von eVar bestimmt dieses Feld die Zeitspanne, die zwischen der Listenvariable und dem Konversionsereignis für die Zuordnung auftreten kann.
    * **Auf Seitenansichts- oder Besuchsebene**: Erfolgsereignisse außerhalb der Seitenansicht oder des Besuchs werden nicht wieder mit Werten in der Listenvariablen verknüpft.
    * **Auf Basis eines Zeitraums (Tag, Woche, Monat usw.)**: Erfolgsereignisse außerhalb des angegebenen Zeitraums werden nicht wieder mit Werten in der Listenvariablen verknüpft. Hier kann auch eine benutzerspezifische Anzahl von Tagen festgelegt werden.
    * **Bestimmte Konversionsereignisse**: Alle anderen Erfolgsereignisse, die nach dem angegebenen Ereignis ausgelöst werden, werden nicht wieder mit Werten in der Listenvariable verknüpft.

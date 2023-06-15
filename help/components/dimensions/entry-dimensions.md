@@ -4,10 +4,10 @@ description: Führt Einstiegsdimensionen und deren Verwendung auf.
 keywords: Entrypage, Einstiegsbereich, Einstiegs-Server, Custom Insight zum Einstieg
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *Auf dieser Hilfeseite wird beschrieben, wie Einstiege als Dimension funktionieren. Informationen dazu, wie Einstiege als Metrik funktionieren, finden Sie unter der Metrik [Einstiege](../metrics/entries.md).*
 
-Einstiegsdimensionen sind besuchsbasiert. Sie zeichnen das erste Dimensionselement auf und behalten es für die gesamte Dauer des Besuchs bei. Einstiegsdimensionen sind für alle Variablen verfügbar, bei denen die Pfadsetzung unter [Traffic-Variablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen aktiviert ist.
+Einstiegsdimensionen sind [besuchsbasiert](../metrics/visits.md). Sie zeichnen das erste Dimensionselement auf und behalten es für die gesamte Dauer des Besuchs bei. Einstiegsdimensionen sind für alle Variablen verfügbar, bei denen die Pfadsetzung unter [Traffic-Variablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen aktiviert ist.
 
 ## Füllen von Einstiegsdimensionen mit Daten
 
