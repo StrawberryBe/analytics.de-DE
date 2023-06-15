@@ -34,7 +34,7 @@ Sie können sich Ihre aktiven Funktionsmarkierungen jederzeit unter **Hilfe > Ü
 
 ## Vorteile
 
-Die stufenweise Veröffentlichung ermöglicht es Adobe, den Software-Implementierungsprozess besser zu skalieren und sicherzustellen, dass die Funktionen vor der allgemeinen Verfügbarkeit vollständig gehärtet sind. Außerdem können Funktionen veröffentlicht werden, sobald sie verfügbar sind, anstatt sich an ein festes monatliches Veröffentlichungsfenster zu halten.
+Die stufenweise Veröffentlichung ermöglicht es Adobe, den Software-Bereitstellungsprozess besser zu skalieren und sicherzustellen, dass die Funktionen vor der allgemeinen Verfügbarkeit vollständig gehärtet sind. Außerdem können Funktionen veröffentlicht werden, sobald sie verfügbar sind, anstatt sich an ein festes monatliches Veröffentlichungsfenster zu halten.
 
 ## Häufig gestellte Fragen (FAQ)
 
