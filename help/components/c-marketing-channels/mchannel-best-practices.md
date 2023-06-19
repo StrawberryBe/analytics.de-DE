@@ -3,10 +3,10 @@ title: Best Practices für die Implementierung von Adobe Analytics-Marketing-Kan
 description: Aktualisierte Best Practices für die Verwendung von Marketing-Kanälen mit Attribution IQ und Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 93%
+source-wordcount: '630'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Um Ihre Implementierung von Marketing-Kanälen zukunftssicher zu machen und sich
 
 Als Marketing-Kanäle eingeführt wurden, hatten sie nur die Dimensionen „Erstkontakt“ und „Letztkontakt“. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe stellt allgemeine Dimensionen für „Marketing-Kanal“ und „Marketing-Kanal-Detail“ bereit, damit Sie diese mit Ihrem gewünschten Attributionsmodell verwenden können. Diese allgemeinen Dimensionen verhalten sich identisch mit den Dimensionen des Letztkontakt-Kanals, sind jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Attributionsmodell zu vermeiden.
 
-Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition abhängen (wie in den Verarbeitungsregeln definiert), kann ihre Besuchsdefinition nicht mit Virtual Report Suites geändert werden. Diese überarbeiteten Vorgehensweisen ermöglichen klare und kontrollierte Lookback-Fenster mit Attribution IQ und CJA.
+Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition abhängen (wie in den Verarbeitungsregeln definiert), kann ihre Besuchsdefinition nicht mit Virtual Report Suites geändert werden. Diese überarbeiteten Vorgehensweisen ermöglichen klare und kontrollierte Lookback-Fenster mit Attribution IQ und Customer Journey Analytics.
 
 ## Best Practice 1: Attribution IQ für kontrollierte Analysen nutzen
 

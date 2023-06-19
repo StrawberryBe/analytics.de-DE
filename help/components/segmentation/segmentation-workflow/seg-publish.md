@@ -3,10 +3,10 @@ description: Sie können das Segment für Marketingaktivitäten in der Zielgrupp
 title: Veröffentlichen von Segmenten in Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1324'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '1338'
+ht-degree: 88%
 
 ---
 
@@ -87,43 +87,43 @@ Um ein in Experience Cloud veröffentlichtes Segment zu löschen, müssen Sie zu
 
 ## Abrufen der [!DNL Audience Manager]-UUID
 
-Es gibt zwei Möglichkeiten, die AAM-UUID zu erfassen, die derzeit mit dem Browser verknüpft ist:
+Es gibt zwei Möglichkeiten, die Adobe Audience Manager-UUID zu erfassen, die derzeit mit dem Browser verknüpft ist:
 
 * Adobe Experience Cloud-Debugger
 * Natives Entwicklertool in Browsern (z. B. Chrome Developer Tools)
 
-Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser abrufen und sie im Audience Manager-Besucherprofil-Betrachter verwenden, um Eigenschaften- und Segmentmitgliedschaften zu validieren.
+Die folgenden Screenshots zeigen Ihnen, wie Sie die Adobe Audience Manager-UUID in Ihrem Browser abrufen und in Audience Manager Visitor Profile Viewer verwenden können, um Eigenschaften und Segmentmitgliedschaften zu validieren.
 
 ### Methode 1: Verwenden von Adobe Experience Cloud Debugger
 
 1. Laden Sie den [Adobe Experience Cloud-Debugger](/help/implement/validate/debugger.md) im Chrome-Webstore herunter und installieren Sie ihn.
 1. Starten Sie den Debugger beim Laden einer Seite.
-1. Blättern Sie zum Audience Manager-Abschnitt und suchen Sie die AAM-UUID, die auf der aktuellen Browserseite eingestellt ist (`50814298273775797762943354787774730612` im Beispiel unten).
+1. Scrollen Sie zum Bereich Audience Manager und suchen Sie nach der Adobe Audience Manager-UUID, die auf der aktuellen Browserseite festgelegt ist (`50814298273775797762943354787774730612` im Beispiel unten)
 
 ![Debugger](assets/debugger.jpg)
 
 ### Methode 2: Verwenden von Chrome Developer Tools (oder anderen Browser-Entwickler-Tools)
 
 1. Starten Sie Chrome Developer Tools vor dem Laden einer Seite.
-1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die AAM-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) im Beispiel unten) festgelegt sein. Das Feld „demdex“ ist die AAM-UUID-Einstellung im Browser (`50814298273775797762943354787774730612` im Beispiel unten).
+1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die Adobe Audience Manager-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) im Beispiel unten). Das Feld demdex ist die Adobe Audience Manager-UUID, die im Browser festgelegt wird (`50814298273775797762943354787774730612` im Beispiel unten).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Verwenden des Audience Manager-[!UICONTROL Besucherprofil-Betrachters]
 
-Die AAM-UUID im Browser wird standardmäßig verwendet, wenn der [!UICONTROL Besucherprofil-Betrachter] geladen wird. Wenn Sie Eigenschaftsrealisierungen für andere Benutzer überprüfen, geben Sie eine UUID in das Feld „UUID“ ein und klicken Sie auf [!UICONTROL Aktualisieren]. Weitere Informationen finden Sie unter [Besucherprofil-Betrachter](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=de).
+Die Adobe Audience Manager-UUID im Browser wird standardmäßig verwendet, wenn [!UICONTROL Besucherprofil-Betrachter] geladen wurde. Wenn Sie Eigenschaftsrealisierungen für andere Benutzer überprüfen, geben Sie eine UUID in das Feld „UUID“ ein und klicken Sie auf [!UICONTROL Aktualisieren]. Weitere Informationen finden Sie unter [Besucherprofil-Betrachter](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=de).
 
 ![Audience Manager-Profil-Betrachter](assets/aam-vpv.png)
 
 ## Anzeigen von Segmenteigenschaften in [!DNL Audience Manager]
 
-In AAM wird die Liste der Besucher mit ECIDs für ein bestimmtes Segment in Form von Streaming ausgewertet, da Analytics Segmente mit Experience Cloud teilt.
+In Adobe Audience Manager wird die Liste der Besucher mit ECIDs für ein bestimmtes Segment streaming-artig ausgewertet, da Analytics Segmente mit Experience Cloud teilt.
 
 1. Gehen Sie in [!DNL Audience Manager] zu [!UICONTROL Zielgruppendaten > Eigenschaften > Analytics-Eigenschaften]. Es wird ein Ordner für jede Analytics Report Suite angezeigt, die mit Ihrer Experience Cloud-Organisation verknüpft ist. Diese Ordner (für Eigenschaften, Segmente und Data Sources) werden erstellt, wenn der Hauptdienst Profile und Zielgruppen/Personen initiiert oder bereitstellt.
 1. Wählen Sie den Ordner für die Report Suite aus, in der Sie zuvor das Segment erstellt haben, das Sie für [!DNL Audience Manager] freigeben möchten. Sie sehen das Segment/die Zielgruppe, das/die Sie erstellt haben. Wenn Sie ein Segment freigeben, geschehen in [!DNL Audience Manager] zwei Dinge:
    * Eine Eigenschaft wird erstellt, zunächst ohne Daten. Ca. 8 Stunden nach der Veröffentlichung des Segments in [!DNL Analytics] wird die Liste der ECIDs für [!DNL Audience Manager] und andere Experience Cloud-Lösungen integriert und freigegeben.
 
-      ![Audience Manager-Eigenschaften](assets/aam-traits.png)
+     ![Audience Manager-Eigenschaften](assets/aam-traits.png)
 
    * Es wird ein Segment mit einer Eigenschaft erstellt. Es verwendet die Datenquelle, die mit der Report Suite verknüpft ist, in der Sie das Segment veröffentlicht haben.
    * Die Eigenschaft läuft nun nach 16 Tagen ab (zuvor waren es 2 Tage).

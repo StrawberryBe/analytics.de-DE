@@ -3,10 +3,10 @@ description: Es gibt Besuchermetriken in Adobe Analytics und Adobe Audience M
 title: Unterschiede in der Besucherzahl
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 86%
 
 ---
 
@@ -25,11 +25,11 @@ Die Besuchermetriken sind:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > AAM: Segmentpopulation insgesamt</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Segmentpopulation insgesamt</a> </p> </td> 
    <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud IDs), die während des Lookback-Zeitraums Teil Ihres Segments waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Segmentpopulation in Echtzeit</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Segmentpopulation in Echtzeit</a> </p> </td> 
    <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud IDs), die während des Lookback-Zeitraums Teil Ihres Segments waren und Ihre Eigenschaften erreicht haben. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ Die Besuchermetriken sind:
  </tbody> 
 </table>
 
-Die AAM-Segmentpopulation in Echtzeit und die in der Audience Analytics-Berichterstellung verwendeten Analytics-Besucher mit Experience Cloud ID entsprechen sich am ehesten. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
+Die Segmentpopulation in Adobe Audience Manager in Echtzeit und Analytics-Besucher mit der Experience Cloud-ID, die in der Audience Analytics-Berichterstellung verwendet wird, sind am ähnlichsten. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Faktor </th> 
-   <th colname="col2" class="entry"> AAM: Segmentpopulation in Echtzeit </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager: Segmentpopulation in Echtzeit </th> 
    <th colname="col3" class="entry"> Analytics: Besucher mit Experience Cloud ID </th> 
   </tr>
  </thead>

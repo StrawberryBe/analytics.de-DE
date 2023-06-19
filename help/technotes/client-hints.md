@@ -2,10 +2,10 @@
 title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 95%
+source-wordcount: '1295'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ Kundenhinweise werden ab dem 27. Februar 2023 in den Analytics-Prozess zur Gerä
 >
 > Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de).
 
-Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
+Adobe Audience Manager erfordert die Erfassung von Hinweisen zur Entropie mit hoher Entropie, um die volle Funktionalität zu erhalten. Wenn Sie [serverseitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) dann können Sie die Sammlung von hochentropischen Hinweisen aktivieren.
 
 ## Häufig gestellte Fragen
 
@@ -143,7 +143,7 @@ Siehe Dokumentation zur Einbindung dieser Daten über die [Bulk-Dateneinfüge-AP
 
 +++
 
-+++**Sind Client-Hinweise in Daten verfügbar, die über den Adobe Source Connector an AEP und CJA gesendet werden?**
++++**Sind Kundenhinweise in Daten verfügbar, die über den Adobe Source Connector an Adobe Experience Platform und Customer Journey Analytics gesendet werden?**
 
 Adobe plant, im ersten Halbjahr 2023 Client-Hinweise in Daten über den Adobe Source Connector zu erfassen.
 
@@ -155,8 +155,8 @@ Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/
 
 +++
 
-+++**Unterstützt die Server-seitige Weiterleitung an AAM Client-Hinweise?**
++++**Unterstützt die serverseitige Weiterleitung von Adobe Audience Manager Client-Hinweise?**
 
-Ja. Client-Hinweise werden in den an AAM weitergeleiteten Daten enthalten sein. Beachten Sie, dass AAM die Sammlung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Sammlung von Hinweisen mit hoher Entropie aktivieren.
+Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass für Adobe Audience Manager hochgradige Entropy-Hinweise gesammelt werden müssen, um die volle Funktionalität zu erhalten. Wenn Sie [serverseitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) dann können Sie die Sammlung von hochentropischen Hinweisen aktivieren.
 
 +++

@@ -4,8 +4,8 @@ title: Komponentenübersicht
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
-workflow-type: ht
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Sie können die Komponentenliste in der linken Leiste von Analysis Workspace suc
    | [!UICONTROL **Favoriten**] | Nur Komponenten anzeigen, die sich in Ihrer Favoritenliste befinden. Informationen zum Hinzufügen von Komponenten zur Favoritenliste finden Sie in der [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensionen**] | Nur Komponenten anzeigen, die Dimensionen sind. |
    | [!UICONTROL **Metriken**] | Nur Komponenten anzeigen, die Metriken sind. |
-   | [!UICONTROL **Segmente**] | Nur Komponenten anzeigen, die Segmente sind. <!--this is Filters in CJA--> |
+   | [!UICONTROL **Segmente**] | Nur Komponenten anzeigen, die Segmente sind. <!--this is Filters in Customer Jourey Analytics--> |
    | [!UICONTROL **Datumsbereiche**] | Zeigt nur Komponenten an, die Datumsbereiche sind. |
    | [!UICONTROL **Alle anzeigen**] | Alle Komponenten anzeigen. Diese Option steht nur Admins zur Verfügung. |
    | [!UICONTROL **Nicht genehmigt**] | Nur Komponenten anzeigen, die von Admins noch nicht als genehmigt markiert wurden. Für Admins beim Identifizieren von Komponenten hilfreich, die überprüft und genehmigt werden müssen. Diese Option steht nur Admins zur Verfügung. |

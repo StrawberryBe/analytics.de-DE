@@ -3,10 +3,10 @@ description: Erläutert Optimierungen der Server-seitigen Weiterleitung, die dur
 title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 60%
 
 ---
 
@@ -16,11 +16,11 @@ In diesem Abschnitt werden Optimierungen an der Server-seitigen Weiterleitung er
 
 Die serverseitige Weiterleitung wird verwendet, um Daten in Echtzeit von Adobe Analytics zu anderen [!DNL Experience Cloud Solutions] wie Audience Manager zu übertragen. Bei entsprechender Aktivierung ermöglicht die Server-seitige Weiterleitung während des Datenerfassungsprozesses Analytics das Übergeben von Daten an andere Experience Cloud-Lösungen und diesen Lösungen das Übergeben von Daten an Analytics.
 
-Zuvor gab es bei der Server-seitigen Weiterleitung keine Möglichkeit zur Unterscheidung zwischen Ereignissen/Treffern vor und nach einer erfolgten Zustimmung. Ab dem 1. November 2018 hatten Sie als Datenverantwortlicher (Adobe Analytics-Kunde) die Möglichkeit, die vor einer erfolgten Zustimmung zugänglichen Daten auf Adobe Analytics zu beschränken sowie die serverseitige Weiterleitung an AAM zu unterbinden. Eine neue Variable im Implementierungskontext ermöglicht es, die Treffer zu kennzeichnen, bei denen noch keine Zustimmung erfolgt ist. Diese Variable, sofern festgelegt, verhindert, dass die Treffer vor einer Zustimmung an AAM weitergeleitet werden.
+Zuvor gab es bei der Server-seitigen Weiterleitung keine Möglichkeit zur Unterscheidung zwischen Ereignissen/Treffern vor und nach einer erfolgten Zustimmung. Ab dem 1. November 2018 haben Sie als Datenverantwortlicher (Adobe Analytics-Kunde) die Möglichkeit, Daten vor der Einwilligung auf Adobe Analytics zu beschränken und zu verhindern, dass sie an Adobe Audience Manager weitergeleitet werden. Eine neue Variable im Implementierungskontext ermöglicht es, die Treffer zu kennzeichnen, bei denen noch keine Zustimmung erfolgt ist. Wenn diese Variable festgelegt ist, verhindert sie, dass diese Treffer an Adobe Audience Manager gesendet werden, bis die Einwilligung eingeholt wurde.
 
-Wenn diese neue Kontextvariable `cm.ssf=1` bei einem Hit vorhanden ist, wird dieser Hit gekennzeichnet und nicht serverseitig an AAM weitergeleitet. Taucht die Zeichenfolge hingegen nicht bei einem Treffer auf, wird der Treffer an AAM weitergeleitet.
+Wenn diese neue Kontextvariable `cm.ssf=1`, bei einem Treffer vorhanden ist, wird dieser Treffer gekennzeichnet und nicht serverseitig an Adobe Audience Manager weitergeleitet. Wenn diese Zeichenfolge hingegen bei einem Treffer nicht angezeigt wird, wird der Treffer an Adobe Audience Manager weitergeleitet.
 
-Die serverseitige Weiterleitung ist bidirektional, d. h. wenn sie auf einen Treffer angewendet und dieser Treffer an AAM weitergeleitet wird, erhält Audience Analytics Segmentinformationen für diesen Treffer von AAM und sendet diese zurück an Analytics. Aus diesem Grund werden Treffer, die nicht serverseitig von Analytics an AAM weitergeleitet werden, nicht mit der Liste von Segment-IDs aus AAM versehen. Aus diesem Grund gibt es einen Teilsatz von Traffic/Treffern, die keine Segment-ID-Informationen von AAM erhalten.
+Die serverseitige Weiterleitung erfolgt bidirektional, d. h. wenn sie auf einen Treffer angewendet wird und dieser Treffer an Adobe Audience Manager weitergeleitet wird, erhält der Audience Analytics Segmentinformationen für diesen Treffer von Adobe Audience Manager und sendet ihn zurück an Analytics. Daher werden Treffer, die nicht serverseitig von Analytics an Adobe Audience Manager weitergeleitet werden, nicht mit der Liste der Segment-IDs aus Adobe Audience Manager angereichert. Daher gibt es eine Untergruppe von Traffic/Treffern, die keine Segment-ID-Informationen von Adobe Audience Manager erhalten.
 
 ## Implementierungsdetails {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -33,7 +33,7 @@ Befolgen Sie abhängig von Ihrer Implementierungsmethode die folgenden Schritte.
 
 ## Reporting (optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Sie können Adobe Analytics verwenden, um Berichte dazu zu erstellen, wie viel von Ihrem Traffic zustimmungsbasiert ist und somit serverseitig weitergeleitet wurde, im Vergleich zu wie viel von Ihrem Traffic nicht zustimmungsbasiert ist und nicht an AAM weitergeleitet wurde.
+Sie können Adobe Analytics verwenden, um Berichte dazu zu erstellen, wie viel Ihres Traffics auf der Zustimmung basiert und somit serverseitig weitergeleitet wurde, im Vergleich dazu, wie viel Ihres Traffics nicht auf der Zustimmung basiert und nicht an Adobe Audience Manager weitergeleitet wurde.
 
 Um diese Art der Berichterstellung zu konfigurieren, weisen Sie die neue Kontextvariable über Verarbeitungsregeln einer benutzerdefinierten Traffic-Variable (Eigenschaft) hinzu. Gehen Sie dazu wie folgt vor
 

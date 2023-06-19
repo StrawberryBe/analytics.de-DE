@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zu den Funktionen, der Funktionalität und
 title: Häufig gestellte Fragen zur serverseitigen Weiterleitung
 feature: Server-Side Forwarding
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 96%
 
 ---
 
@@ -30,10 +30,9 @@ Häufig gestellte Fragen zu den Funktionen, der Funktionalität und den Probleme
 | F: Wie verhält es sich, wenn ich das Multi-Suite-Taggen verwende und nur eine meiner Report Suites meiner Experience Cloud-Org. zugewiesen ist und die andere nicht? | Der Hit wird an den entsprechenden Datenerfassungsserver für die Experience Cloud-Org. der zugewiesenen Report Suite weitergeleitet. Da die nicht zugewiesene Report Suite jedoch keine zugeordnete Datenquelle in Audience Manager hat, werden für die nicht zugewiesene Report Suite in Audience Manager keine Daten aufgezeichnet. |
 | F: Wie verhält es sich, wenn ich eine Report Suite verwende, die mehreren Experience Cloud-Org. zugewiesen ist? | Analytics betrachtet diese Report Suite als nicht zugewiesen und lässt nicht zu, dass die serverseitige Weiterleitung für diese Report Suite aktiviert wird. Wenden Sie sich an den Kundendienst, um dieses Zuweisungsproblem zu beheben. |
 | F: Ist die Report Suite-basierte, serverseitige Weiterleitungsmethode langsamer als die Tracking-Server-basierte, serverseitige Weiterleitung? | Nein, die Antwortzeit ist dieselbe. |
-| F: Wie verhält es sich, wenn ich zwei Experience Cloud-Org. (oder AAM-Instanzen) verwende und Daten zwischen beiden Experience Cloud-Org. freigeben möchte? Kann ich einen einzelnen Analytics-Hit mithilfe der serverseitigen Methode an mehrere Experience Cloud-Org. weiterleiten? | Nein. Wenn Sie unter einer Experience Cloud-Org. erfasste Daten für eine andere Experience Cloud-Org. freigeben müssen, wird empfohlen, die relevanten Zielgruppen mithilfe des Audience Marketplace aus einer Audience Manager-Instanz an eine andere zu senden. |
+| F: Was passiert, wenn wir über zwei Experience Cloud-Organisationen (oder Adobe Audience Manager-Instanzen) verfügen und Daten zwischen beiden Experience Cloud-Organisationen freigeben möchten? Kann ich einen einzelnen Analytics-Hit mithilfe der serverseitigen Methode an mehrere Experience Cloud-Org. weiterleiten? | Nein. Wenn Sie unter einer Experience Cloud-Org. erfasste Daten für eine andere Experience Cloud-Org. freigeben müssen, wird empfohlen, die relevanten Zielgruppen mithilfe des Audience Marketplace aus einer Audience Manager-Instanz an eine andere zu senden. |
 | F: Führt die serverseitige Weiterleitung zu einer zusätzlichen Rechnungsstellung in Audience Manager oder Analytics? | In Analytics erfolgt keine zusätzliche Rechnungsstellung. In Audience Manager werden weitergeleitete Hits wie andere Hits behandelt und abgerechnet.  Daher ist es wichtig, dass DIL und die serverseitige Weiterleitung nicht gleichzeitig aktiviert sind. Dies könnte zu einer doppelten Rechnungsstellung und einer Duplizierung der Daten führen. |
 
 >[!MORELIKETHIS]
 >
 >* [Serverseitige Weiterleitung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
-

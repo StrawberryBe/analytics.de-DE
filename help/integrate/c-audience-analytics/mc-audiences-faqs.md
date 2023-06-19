@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '1126'
+ht-degree: 76%
 
 ---
 
@@ -41,13 +41,13 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  </tbody> 
 </table>
 
-## AAM-spezifische FAQs {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Adobe Audience Manager-spezifische FAQs {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie erstelle ich ein Analytics-Ziel in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Siehe <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=de"  >Konfigurieren des Analytics-Ziels in AAM</a>. </td> 
+   <td colname="col2"> Siehe <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=de"  > Konfigurieren eines Analytics-Ziels in Adobe Audience Manager </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie lange dauert es nach dem Erstellen und Speichern eines Analytics-Ziels, bis Daten in meinen ausgewählten Report Suites angezeigt werden?</b> </p> </td> 
@@ -58,7 +58,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
    <td colname="col2"> <p>Ein Analytics-Ziel wird aus dem Bereich „Zielzuweisungen“ eines Segments entfernt, wenn Sie die Option <span class="uicontrol">Alle aktuellen und zukünftigen Segmente automatisch zuweisen</span> in <span class="uicontrol">Segmentzuweisungen</span> auswählen. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Um das zu vermeiden, wählen Sie statt der automatischen Option <span class="uicontrol">Segmente manuell zuweisen</span> aus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>F: Erhalte ich damit alle Informationen von AAM in Analytics?</b> </p> </td> 
+   <td colname="col1"> <p> <b>F: Erhalte ich damit alle Informationen aus Adobe Audience Manager in Analytics?</b> </p> </td> 
    <td colname="col2"> <p>Nein, nur Daten, die sich auf Personen beziehen, die während oder nach der Aktivierung von Audience Manager-Zielgruppen und während oder nach der Qualifizierung des Segments auf Ihre Site kommen. </p> </td> 
   </tr> 
   <tr> 
@@ -90,27 +90,27 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Warum kommen keine Daten in Analytics durch?</b> </p> </td> 
-   <td colname="col2"> <p>Wahrscheinlich gibt es bei Ihnen einen Konflikt bei den AAM-Datenschutzbestimmungen zwischen der Datenquelle und dem Ziel. </p> </td> 
+   <td colname="col2"> <p>Wahrscheinlich gibt es zwischen Datenquelle und Ziel einen Konflikt bei den Adobe Audience Manager-Datenschutzbestimmungen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Warum fehlen einige meiner Segmente in Analytics, obwohl ich ausgewählt habe, dass alle Segmente gesendet werden sollen?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">Unter Umständen stehen Ihre AAM-Datenexportbestimmungen für das Ziel und die Datenquellen der Segmente in Konflikt, wodurch einige Segmente nicht gesendet werden können. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Ihre Adobe Audience Manager-Datenexportkontrollen für das Ziel und die Datenquellen der Segmente können in Konflikt geraten, was verhindert, dass bestimmte Segmente gesendet werden. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">Wenn Sie Eigenschaften mit Drittpartei-Daten in Ihren Segmenten verwenden, können diese Segmente nicht an ein Ziel (einen Satz von Report Suites) weitergeleitet werden, das persönliche Daten enthält. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Warum wird in meinem Analytics-Bericht „Zielgruppenlimit erreicht“ angezeigt? (Hinweis: Dies wird in Data Warehouse auch als Audience ID = -1 und „::max_audiences_exceeded::“ dargestellt)</b> </p> </td> 
-   <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für AAM alle Segmente pro Treffer an Analytics, für die sich ein Besucher qualifiziert. Wenn ein Besucher bei einem einzigen Treffer mehr als 150 AAM-Segmenten angehört, werden die <b>150 aktuellsten qualifizierten Segmente</b> an Analytics gesendet und der Rest der Liste wird nicht gesendet. </p> <p>Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen: </p> 
+   <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle , für die sich ein Besucher pro Treffer qualifiziert, an Analytics. Wenn ein Besucher bei einem einzelnen Treffer zu mehr als 150 Adobe Audience Manager-Segmenten gehört, wird die <b>150 zuletzt qualifizierte Segmente</b> werden an Analytics gesendet, während die verbleibende Liste abgeschnitten ist. </p> <p>Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Lassen Sie die Integration weiterhin im Out-of-the-Box-Zustand arbeiten und die 150 Segmente eines bestimmten Benutzers senden, für die dieser sich zuletzt qualifiziert hat. </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: Wählen Sie in AAM die 150 Segmente für die Integration aus, die am bedeutsamsten für Ihr Unternehmen sind. Daraufhin überprüft AAM Besucher nur auf diese 150 Segmente. Der Nachteil dieser Vorgehensweise ist, dass Sie bei allen Besuchern nur noch diese 150 Segmente erhalten. Dahingegen liefert die Vorgehensweise in Option 1 dadurch, dass die Integration pro Treffer Segmente sendet, eine unbegrenzte Anzahl an Segmenten. </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: Wählen Sie in Adobe Audience Manager die 150 Segmente aus, die für Ihr Unternehmen für die Integration am wichtigsten sind. Adobe Audience Manager überprüft dann Besucher nur anhand der 150 Segmente. Der Nachteil dieser Vorgehensweise ist, dass Sie bei allen Besuchern nur noch diese 150 Segmente erhalten. Dahingegen liefert die Vorgehensweise in Option 1 dadurch, dass die Integration pro Treffer Segmente sendet, eine unbegrenzte Anzahl an Segmenten. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Werden bei dieser Integration zusätzliche Server-Aufrufe für Analytics berechnet?</b> </p> </td> 
-   <td colname="col2"> <p>Nein. AAM-Zielgruppen sind serverseitig Teil des Analytics-Treffers. Dabei fallen keine zusätzlichen Server-Aufrufe für Analytics an (primär oder sekundär). </p> </td> 
+   <td colname="col2"> <p>Nein. Adobe Audience Manager-Zielgruppen sind serverseitig in Analytics-Treffer integriert. Dabei fallen keine zusätzlichen Server-Aufrufe für Analytics an (primär oder sekundär). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>F: Wenn ich eine veraltete serverseitige Weiterleitung implementiert habe, muss ich die serverseitige Weiterleitung von Report Suites dann ebenfalls in Analytics Admin aktivieren?</b> </p> </td> 
-   <td colname="col2"> <p>Ja. In der AAM-Zieleinrichtung sehen Sie nur Report Suites, bei denen die serverseitige Weiterleitung aktiviert ist. </p> </td> 
+   <td colname="col2"> <p>Ja. In der Adobe Audience Manager-Zieleinrichtung werden nur Report Suites angezeigt, bei denen SSF aktiviert ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Warum kann ich bestimmte Report Suites nicht in Analytics Admin aktivieren?</b> </p> </td> 
@@ -138,15 +138,15 @@ Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>F: Warum unterscheiden sich die Besucherzahlen für Segmente in Audience Manager und Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe  <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen „Zielgruppen“ in AAM und „Segmenten“ in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe  <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmente in Analytics und Audience Manager – Grundlagen </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
+   <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen "Zielgruppen"in Adobe Audience Manager und "Segmenten"in Analytics?</b> </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmente in Analytics und Audience Manager - Grundlagen </a>. </p> <p>Adobe Audience Manager-Zielgruppen werden gesendet und als "Dimensionskomponenten"freigegeben, die in Analytics verwendet werden können. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen Kundenattributen und von AAM integrierten Kundendaten?</b> </p> </td> 
-   <td colname="col2"> <p>Kundenattribute sind nicht zeitbasiert; sie gelten rückwirkend und zukünftig. Von AAM integrierte Daten sind zeitbasiert und gelten nur zukünftig. Außerdem stellen Kundenattribute eine Nachschlagetabelle für Experience Cloud-Besucher-IDs dar, während die AAM-Integration Daten umfasst, die einem Besucher bei jedem Treffer zugeordnet werden. </p> </td> 
+   <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen Kundenattributen und in Adobe Audience Manager integrierten Kundendaten?</b> </p> </td> 
+   <td colname="col2"> <p>Kundenattribute sind nicht zeitbasiert; sie gelten rückwirkend und zukünftig. Adobe Audience Manager-integrierte Daten sind zeitbasiert und nur zukünftig verfügbar. Darüber hinaus sind Kundenattribute eine Suchtabelle für Experience Cloud-Besucher-IDs, während die Adobe Audience Manager-Integration Daten enthält, die bei jedem Treffer für einen Besucher zugeordnet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie steht es mit veralteten Ansätzen für dieses Problem, beispielsweise der alten Beta-Version oder der Nutzung von Plugin-Cookie-Zielen?</b> </p> </td> 

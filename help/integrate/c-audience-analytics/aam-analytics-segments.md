@@ -3,10 +3,10 @@ description: Sowohl Analytics als auch der Audience Manager verwenden Segmente.
 title: Segmente in Analytics und Audience Manager – Grundlagen
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 96%
 
 ---
 
@@ -35,13 +35,13 @@ Ein Analytics-Segment ist ein Filtermechanismus für Daten in Ihren Berichten. D
 
 * Analytics-Segmente stützen sich auf einen anderen Datensatz als Audience Manager-Segmente. Während der Datenerfassung wendet Analytics viele verschiedene Nachbearbeitungsschritte auf die Daten an, die Audience Manager nicht zur Verfügung stehen. Die Nachbearbeitung kann unter anderem die eVar-Speicherung, Verarbeitungsregeln, Suchbegriffe (Geo-Standort, Mobilgerät) und VISTA umfassen. Audience Manager erhält über die serverseitige Weiterleitung (oder DIL) bereits vorverarbeitete Daten.
 
-   Häufige Diskrepanzen bei den Daten treten auf, wenn Segmente, die auf Dimensionen basieren, die in Analytics niemals ablaufen, mit derselben Dimension in Audience Manager verglichen werden. Zum Beispiel listVars oder Merchandising eVars, die niemals ablaufen.
+  Häufige Diskrepanzen bei den Daten treten auf, wenn Segmente, die auf Dimensionen basieren, die in Analytics niemals ablaufen, mit derselben Dimension in Audience Manager verglichen werden. Zum Beispiel listVars oder Merchandising eVars, die niemals ablaufen.
 
-   Ein Beispiel: Wenn „eVar = blau“ und so konfiguriert ist, dass es in Analytics niemals abläuft, enthält jedes beliebige Segment mit dem Kriterium „eVar = blau“ stets diesen Besucher. Im Gegensatz dazu könnte dieser Besucher nach einem festgelegten Zeitraum aus einem ähnlich definierten Segment in Audience Manager ausscheiden.
+  Ein Beispiel: Wenn „eVar = blau“ und so konfiguriert ist, dass es in Analytics niemals abläuft, enthält jedes beliebige Segment mit dem Kriterium „eVar = blau“ stets diesen Besucher. Im Gegensatz dazu könnte dieser Besucher nach einem festgelegten Zeitraum aus einem ähnlich definierten Segment in Audience Manager ausscheiden.
 
-* Analytics-Segmente bieten mehr Funktionen als AAM-Segmente. Audience Manager-Segmente werden immer auf der Besucherebene ausgewertet. Analytics-Segmente können auf Besucher-, Besuchs- oder Trefferebene (oder einer Kombination dieser Ebenen) definiert werden. Darüber hinaus unterstützt Analytics erweiterte Segmentierungsfähigkeiten, die es im Audience Manager nicht gibt, beispielsweise die sequenzielle Segmentierung.
+* Analytics-Segmente bieten mehr Funktionen als Adobe Audience Manager-Segmente. Audience Manager-Segmente werden immer auf der Besucherebene ausgewertet. Analytics-Segmente können auf Besucher-, Besuchs- oder Trefferebene (oder einer Kombination dieser Ebenen) definiert werden. Darüber hinaus unterstützt Analytics erweiterte Segmentierungsfähigkeiten, die es im Audience Manager nicht gibt, beispielsweise die sequenzielle Segmentierung.
 * Je nachdem, ob sie die Segmentkriterien zu einem bestimmten Zeitpunkt erfüllen, können Audience Manager-Besucher wie erwähnt Teil eines Segments werden oder daraus ausscheiden.
 
-   Im Gegensatz dazu werden Besucher in Analytics basierend auf dem Datumsbereich für die Berichterstellung zu Segmenten hinzugefügt oder daraus entfernt. Ein Beispiel: Ein einzelner Besucher hat im vergangenen Monat einen Kauf getätigt. In AAM wäre dieser Besucher Teil eines „Käufer“-Segments, unabhängig vom Datumsbereich. In Analytics wäre der Besucher bei einem auf diesem Monat basierenden Bericht nicht im Segment enthalten. Allerdings wäre der Besucher bei einem auf diesem und dem vergangenen Monat basierenden Bericht im Segment enthalten.
+  Im Gegensatz dazu werden Besucher in Analytics basierend auf dem Datumsbereich für die Berichterstellung zu Segmenten hinzugefügt oder daraus entfernt. Ein Beispiel: Ein einzelner Besucher hat im vergangenen Monat einen Kauf getätigt. In Adobe Audience Manager würde dieser Besucher unabhängig vom Datumsbereich in ein Segment &quot;Käufer&quot;einbezogen. In Analytics wäre der Besucher bei einem auf diesem Monat basierenden Bericht nicht im Segment enthalten. Allerdings wäre der Besucher bei einem auf diesem und dem vergangenen Monat basierenden Bericht im Segment enthalten.
 
 Weitere Informationen finden Sie im [Analytics-Segmentierungsleitfaden](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de).

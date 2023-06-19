@@ -3,10 +3,10 @@ title: Merchandising-eVars und Methoden zur Produktsuche
 description: Ein tiefer Einblick in die Konzepte hinter Merchandising-eVars und deren Verarbeitung und Zuordnung von Daten.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '5289'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '5297'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Um zu demonstrieren, wie Sie diese Variablen festlegen können, ist hier ein Bei
 * `eVar2` entspricht dem Suchbegriff, der in der Suche verwendet wurde („Sandalen“)
 * `eVar1` entspricht der verwendeten Suchmethode für das Produkt („interne Keyword-Suche“).
 
-Wenn Sie diese beiden Variablen auf diese spezifischen Werte setzen, wissen Sie, dass der Besucher den internen Keyword-Suchbegriff „Sandalen“ verwendet, um ein Produkt zu finden. Gleichzeitig wissen Sie, dass der Besucher nicht die anderen Produktsuchmethoden verwendet, um Produkte zu finden (z. B. durchsucht er nicht die Produktkategorien, während er eine Suchbegriffsuche durchführt). Um sicherzustellen, dass eine ordnungsgemäße Zuordnung pro Produkt erfolgt, sollten diese nicht verwendeten Methoden nicht für die Suche nach einem Produkt angerechnet werden, das über eine interne Keyword-Suche gefunden wurde. Daher müssen Sie eine Logik in den Code einfügen (z. B. AppMeasurement, AEP Web SDK usw.), der die mit diesen anderen Suchmethoden verknüpften eVars automatisch auf einen Wert einer „Nicht-Suchmethode“ setzt.
+Wenn Sie diese beiden Variablen auf diese spezifischen Werte setzen, wissen Sie, dass der Besucher den internen Keyword-Suchbegriff „Sandalen“ verwendet, um ein Produkt zu finden. Gleichzeitig wissen Sie, dass der Besucher nicht die anderen Produktsuchmethoden verwendet, um Produkte zu finden (z. B. durchsucht er nicht die Produktkategorien, während er eine Suchbegriffsuche durchführt). Um sicherzustellen, dass eine ordnungsgemäße Zuordnung pro Produkt erfolgt, sollten diese nicht verwendeten Methoden nicht für die Suche nach einem Produkt angerechnet werden, das über eine interne Keyword-Suche gefunden wurde. Daher müssen Sie Logik in den Code einfügen (z. B. AppMeasurement, Adobe Experience Platform Web SDK usw.), der die mit diesen anderen Suchmethoden verknüpften eVars automatisch auf einen Wert &quot;Suchmethode ohne Ergebnisse&quot;setzt.
 
 Wenn Benutzende beispielsweise mithilfe des Suchbegriffs „Sandalen“ nach Produkten suchen, sollte die Logik des Analytics-Codes die Variablen auf der Seite mit den internen Suchergebnissen für Suchbegriffe auf die folgenden Werte setzen:
 
@@ -80,7 +80,7 @@ Wenn die Einstellung „Merchandising aktivieren“ auf „Aktiviert“ gesetzt 
 
 Diese Option ist nicht für standardmäßige eVars verfügbar. Mit der Einstellung [!UICONTROL Merchandising] können Sie als Methode zur Erfassung der Merchandising-eVar entweder [!UICONTROL Konversionsvariablensyntax] oder [!UICONTROL Produktsyntax] auswählen.
 
-**[!UICONTROL Konversionsvariablensyntax]** bedeutet, dass Sie den Wert der eVar in einer eigenen Variablen festlegen. Mit der Konversionsvariablensyntax wird beispielsweise der `eVar1`-Wert von „internal keyword search“ im Seiten-Code (oder im AppMeasurement-Code, AEP Web SDK-Code usw.) wie folgt festgelegt:
+**[!UICONTROL Konversionsvariablensyntax]** bedeutet, dass Sie den Wert der eVar in einer eigenen Variablen festlegen. Bei der Konversionsvariablensyntax muss beispielsweise die Variable `eVar1` Der Wert &quot;Interne Keyword-Suche&quot;wird im Seiten-Code (oder im AppMeasurement-Code, im Adobe Experience Platform Web SDK-Code usw.) wie folgt festgelegt:
 
 `s.eVar1="internal keyword search";`
 
@@ -271,11 +271,11 @@ Wenn der Besucher ein Produkt zum Warenkorb hinzufügt, es jedoch nie kauft, erm
 
 ### Verwenden von Konversionsvariablensyntax
 
-Kehren wir zur Frage der „Produktsyntax“ im Vergleich zur „Konversionsvariablensyntax“ zurück. Adobe hat eine einfachere Methode gefunden, um sowohl die Merchandising-eVars der Produktsuchmethode zu erfassen als auch ihre Werte an Produkte zu binden, die Besucher gefunden haben: Die Verwendung der Konversionsvariablensyntax reduziert die Implementierungsarbeit, für die die Entwickler des Kunden verantwortlich sind. Sie bietet weiterhin die gleichen – oder besseren – Informationen wie die Methode der Produktsyntax. Entwickler müssen einfach die Implementierungsanweisungen befolgen, die ihnen gegeben wurden, und der Rest des Codes kann in die Adobe AppMeasurement/AEP Web SDK-Datei eingefügt werden.
+Kehren wir zur Frage der „Produktsyntax“ im Vergleich zur „Konversionsvariablensyntax“ zurück. Adobe hat eine einfachere Methode gefunden, um sowohl die Merchandising-eVars der Produktsuchmethode zu erfassen als auch ihre Werte an Produkte zu binden, die Besucher gefunden haben: Die Verwendung der Konversionsvariablensyntax reduziert die Implementierungsarbeit, für die die Entwickler des Kunden verantwortlich sind. Sie bietet weiterhin die gleichen – oder besseren – Informationen wie die Methode der Produktsyntax. Entwickler müssen lediglich die Bereitstellungsanweisungen befolgen, die sie erhalten haben, und der Rest des Codes kann in die Adobe AppMeasurement/Adobe Experience Platform Web SDK-Datei eingefügt werden.
 
 Sehen wir uns beispielsweise die empfohlene Lösung zur Verfolgung der Suchleistung nach internen Keywords an. Sie besagt, dass der Code auf der Suchergebnisseite für den Suchbegriff das gesuchte Schlüsselwort über eine Prop (z. B. prop4) und eine andere Prop (z. B. prop5) erfasst. Diese Props verfolgen die Anzahl der Ergebnisse, die bei der Suche angezeigt werden. Immer wenn eine Adobe Analytics-Bildanforderung auf der Suchergebnisseite generiert wird, verwendete sie die Datenschichtobjekte (oder den Seiten-Code), die von den Entwicklern bereitgestellt wurden, um die oben genannten Variablen (die Props) auszufüllen.
 
-Zusätzliche Logik in der AppMeasurement/AEP Web SDK-Datei kann die restlichen Variablen (die Merchandising-eVars/Dimensionen) ausfüllen, die gleichzeitig festgelegt werden müssen.\
+Zusätzliche Logik in der AppMeasurement/Adobe Experience Platform Web SDK-Datei kann die restlichen Variablen (die Merchandising-eVars/Dimensionen) ausfüllen, die gleichzeitig festgelegt werden müssen.\
 Wenn beispielsweise ein neuer Besucher nach „Sandalen“ sucht und 25 Ergebnisse auf der Suchergebnisseite zurückgegeben wurden, würde der auszulösende Code (über den Seiten-Code ODER die Datenschichterfassung) wie folgt aussehen:
 
 ```js

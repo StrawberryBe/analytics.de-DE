@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Verarbeitungsregeln für Mobile Services nach
 title: Migrieren von Verarbeitungsregeln für Mobile Services nach Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 93%
+source-wordcount: '690'
+ht-degree: 90%
 
 ---
 
@@ -77,4 +77,4 @@ Wenn Sie Mobile Services für gebührenpflichtige Funktionen nutzen, haben Sie k
 
 * Für Akquise-Links können wir Sie zu Adobe-Partnern weiterleiten, um Ihren Bedarf zu decken.
 * Push-Nachrichten und In-App-Nachrichten sind in Adobe Campaign Standard und Adobe Campaign Classic (nur Push) verfügbar. Der für die Zielgruppenbestimmung verwendete Datensatz ist jedoch anders. Wir empfehlen Ihnen, mit Ihrem Adobe-Account-Team zusammenzuarbeiten, um Migrationsoptionen für Nachrichtendaten zu ermitteln.
-* Für die Standort-Funktionen sollten Sie den neuen [Adobe Experience Platform Location Service](https://www.adobe.com/de/experience-platform/location-service.html) anwenden, der für alle Adobe Experience Platform-Kunden kostenlos ist.
+* Für die Standortfunktion wird empfohlen, die neue [Adobe Experience Platform Location Service](https://www.adobe.com/de/experience-platform/location-service.html), der für alle Adobe Experience Platform-Kunden kostenlos ist.

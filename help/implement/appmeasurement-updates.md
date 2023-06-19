@@ -3,10 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: ht
-source-wordcount: '2319'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '2323'
+ht-degree: 99%
 
 ---
 
@@ -324,7 +324,7 @@ Releasedatum: **5. November 2015**
 Releasedatum: **17. September 2015**
 
 * Aufnahme der Visitor API 1.5.2
-* [!DNL Audience Manager]-Modul aktualisiert, um AAM DIL 6.2 zu verwenden – Abrufen von Kunden-IDs aus VisitorAPI.js und Übergeben der IDs bei einem /event-Aufruf an AAM. (AN-104978)
+* Aktualisiert [!DNL Audience Manager] -Modul zur Verwendung von Adobe Audience Manager DIL 6.2 - Abrufen von Kunden-IDs von VisitorAPI.js und Übergeben dieser IDs im /event -Aufruf an Adobe Audience Manager. (AN-104978)
 
 ## Version 1.5
 

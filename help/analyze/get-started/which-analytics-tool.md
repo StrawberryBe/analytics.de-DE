@@ -3,10 +3,10 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 96%
 
 ---
 
@@ -80,7 +80,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** sollte verwendet werden:
 
-* Wenn Sie Zielgruppendaten des Adobe Audience Manager (AAM) – wie beispielsweise demografische Daten (z. B. Geschlecht oder Verdienstniveau), psychografische Daten (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten – in einen beliebigen Analytics-Workflow einbetten möchten.
+* Wenn Sie Adobe Audience Manager-Zielgruppendaten wie demografische Informationen (z. B. Geschlecht oder Einkommensstufe), psychografische Informationen (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten in einen beliebigen Analytics-Workflow integrieren möchten.
 * Wenn Sie möchten, dass hochgeladene CRM-Daten zeitbasiert sind, da diese Integration für jeden Treffer Daten an Analytics übermittelt.
 
 ## Exportieren von Daten aus Adobe Analytics {#export}
