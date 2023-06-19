@@ -4,9 +4,9 @@ description: Erstellen und verfolgen Sie Instanzen von AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ Die `s_gi()`-Funktion instanziiert oder findet eine Instanz von AppMeasurement n
 
 ## Instanziieren eines Tracking-Objekts mit der Web SDK-Erweiterung
 
-Die Web SDK-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch den Namen des Tracking-Objekts in den Erweiterungseinstellungen anpassen:
+Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch den Namen des Tracking-Objekts in den Erweiterungseinstellungen anpassen:
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter Adobe Experience Platform Web SDK.
-1. Ändern Sie die [!UICONTROL Name] auf den gewünschten Wert. Der Standardwert lautet `alloy`.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Experience Platform Web SDK“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
+1. Ändern Sie das Feld [!UICONTROL Name] in den gewünschten Wert. Der Standardwert lautet `alloy`.
 
-## Manuelles Implementieren des Web SDK durch ein Tracking-Objekt instanziieren
+## Instanziieren eines Tracking-Objekts durch die manuelle Implementierung des Web SDK
 
-Der folgende Code lädt das Web SDK und instanziiert ein Tracking-Objekt. Sie können den Namen des Tracking-Objekts anpassen, indem Sie die Zeichenfolge ändern `"alloy"` am Ende des Inline-Skripts zum gewünschten Wert hinzu.
+Der folgende Code lädt das Web SDK und instanziiert ein Tracking-Objekt. Sie können den Namen des Tracking-Objekts anpassen, indem Sie die Zeichenfolge `"alloy"` am Ende des Inline-Skripts in den gewünschten Wert ändern.
 
 ```js
 <script>
@@ -37,13 +37,13 @@ Der folgende Code lädt das Web SDK und instanziiert ein Tracking-Objekt. Sie k�
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-Siehe [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Weitere Informationen finden Sie in der Web SDK-Dokumentation im Abschnitt [Installieren des SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de).
 
 ## Instanziieren eines Tracking-Objekts mit der Adobe Analytics-Erweiterung
 
 Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch auch ein globales Tracking-Objekt im Akkordeon [!UICONTROL Bibliotheksverwaltung] festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 1. Erweitern Sie das Akkordeon [!UICONTROL Bibliotheksverwaltung] und wählen Sie eine andere Optionsschaltfläche als [!UICONTROL Bibliothek für mich verwalten] aus.
