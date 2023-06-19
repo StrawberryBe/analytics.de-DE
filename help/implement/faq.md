@@ -4,7 +4,7 @@ description: Häufig gestellte Fragen zur Implementierung sowie Links zu weitere
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -48,7 +48,6 @@ var s = new Object();
 >* Ändern Sie die Report Suite nicht in einen ungültigen Wert, da dies die Server von Adobe unnötig belastet.
 >* Entfernen Sie die `s_code.js`-Datei nicht vollständig, es sei denn, Sie entfernen alle Verweise auf die Datei auf jeder Seite.
 >* Ändern Sie die `trackingServer`-Variable nicht von Adobe weg. AppMeasurement sendet weiterhin Bildanforderungen, die 404-Fehler zurückgeben.
-
 
 ## Ich habe AppMeasurement über einen Code Analyzer ausgeführt und die Verwendung von `Math.random()` wurde als potenzielles Sicherheitsrisiko gekennzeichnet. Wird `Math.random()` mit vertraulichen Daten verwendet?
 
