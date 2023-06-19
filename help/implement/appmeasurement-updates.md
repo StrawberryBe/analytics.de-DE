@@ -4,7 +4,7 @@ description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -376,24 +376,24 @@ Releasedatum: **18. September 2014**
 
 * Es wurde eine `tagContainerMarker`-Variable hinzugefügt, die in der Implementierung die Angabe von bis zu 4 Zeichen ermöglicht. Diese Zeichen werden zusammen mit einer zusätzlichen Gedankenstrich-Zeichenbegrenzung an die Versionszeichenfolge angehängt. Diese Variable wird im dynamischen Tag-Management verwendet.
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   Die 4 Zeichen sind auf in URL-Dateipfaden zulässige Zeichen beschränkt, dazu zählen beispielsweise alphanumerische Zeichen und Punkte.
+  Die 4 Zeichen sind auf in URL-Dateipfaden zulässige Zeichen beschränkt, dazu zählen beispielsweise alphanumerische Zeichen und Punkte.
 
 * Auf doppelt getaggten Seiten mit H-Code wurde eine Schleife behoben, die während des automatischen Linktrackings auftreten kann (Herunterladen und Beenden), wenn das erzwungene Linktracking aktiviert ist (Standardeinstellung in Webkit-Browsern). Zudem wurde eine allgemeine Schutzmaßnahme für das automatische Linktracking hinzugefügt, um ähnliche Schleifen zu verhindern. Durch diese Schutzmaßnahme wird das automatische Linktracking für wiederholte Klicks auf *dasselbe* Objekt auf ein 10-Sekunden-Intervall beschränkt. Diese Schutzmaßnahme gilt nur für das automatische Linktracking. Demzufolge werden Aufrufe mit manuellem Linktracking (s.tl) nicht beschränkt. Klicks auf verschiedene Objekte sind von dieser Schutzmaßnahme ebenfalls nicht betroffen und werden verfolgt.
 * Die Verarbeitung eines angeklickten Objekts mit erforderlicher Verzögerung wurde korrigiert.
 * Es wurde ein Problem behoben, das bei einem Aufruf von s.t über eine Link-Klickfunktion zu einer doppelten Seitenansichtszahl geführt hat, wenn die Visitor API noch nicht über die benötigten Werte verfügt.
 * HTTP-POST-Unterstützung.
 
-   >[!IMPORTANT]
-   >
-   >Damit ein [!DNL Analytics]-Aufruf in [!DNL AppMeasurement] die POST-Methode anstelle der GET-Methode verwendet (eine Methode, [gekürzte URLs in IE](https://helpx.adobe.com/de/analytics/kb/shortening-image-request-urls.html) aufzulösen), müssen Sie die neueste Besucher-ID-Dienst-Implementierung für Experience Cloud verwenden.
+  >[!IMPORTANT]
+  >
+  >Damit ein [!DNL Analytics]-Aufruf in [!DNL AppMeasurement] die POST-Methode anstelle der GET-Methode verwendet (eine Methode, [gekürzte URLs in IE](https://helpx.adobe.com/de/analytics/kb/shortening-image-request-urls.html) aufzulösen), müssen Sie die neueste Besucher-ID-Dienst-Implementierung für Experience Cloud verwenden.
 
 ## Version 1.4
 
@@ -482,11 +482,11 @@ Releasedatum: **18. Juli 2013**
 
 * Hashes/Fragmentbezeichner werden nun beim automatischen Linktracking ignoriert. Zuvor wurde die folgende URL automatisch verfolgt, weil das gesamte `href` auf `.pdf` endete:
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   Nun werden Hashes/Fragmentbezeichner ignoriert, sodass der Link nur verfolgt wird, wenn der Dateiname mit einer passenden Erweiterung endet.
+  Nun werden Hashes/Fragmentbezeichner ignoriert, sodass der Link nur verfolgt wird, wenn der Dateiname mit einer passenden Erweiterung endet.
 
 ## Version 1.0.1
 
