@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
 
-Analytics-Administratoren sind für das Kuratieren von Informationen zu den einzelnen Komponenten im Datenwörterbuch zuständig, damit sie Benutzern zur Verfügung gestellt werden.
+Analytics-Administratorinnen und -Administratoren sind dafür verantwortlich, Informationen über jede Komponenten im Datenwörterbuch zu kuratieren, um sie Benutzerinnen und Benutzern verfügbar zu machen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
@@ -49,9 +49,9 @@ Im Folgenden finden Sie einige Möglichkeiten, wie Analytics-Administrierende da
 
 * Aktualisierung der Komponentenbeschreibungen direkt in Analysis Workspace. Alle Aktualisierungen an Komponentenbeschreibungen im Datenwörterbuch werden in der Report Suite übernommen.
 
-   Ebenso werden alle Aktualisierungen an Komponentenbeschreibungen in der Report Suite in Analysis Workspace übernommen.
+  Ebenso werden alle Aktualisierungen an Komponentenbeschreibungen in der Report Suite in Analysis Workspace übernommen.
 
-   Weitere Informationen zum Hinzufügen von Komponentenbeschreibungen in Analysis Workspace oder einer Report Suite finden Sie unter [Hinzufügen von Komponentenbeschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+  Weitere Informationen zum Hinzufügen von Komponentenbeschreibungen in Analysis Workspace oder einer Report Suite finden Sie unter [Hinzufügen von Komponentenbeschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Zugriff auf das Datenwörterbuch
 
@@ -59,22 +59,22 @@ Sie können auf eine der folgenden Arten in Analysis Workspace auf das Datenwör
 
 * über das Symbol **Datenwörterbuch** in der linken Leiste.
 
-   ![Datenwörterbuchsymbol in der linken Leiste](assets/data-dictionary-access-icon.png)
+  ![Datenwörterbuchsymbol in der linken Leiste](assets/data-dictionary-access-icon.png)
 
 * über das Symbol **Datenwörterbuch** im Info-Pop-up einer Komponente.
 
-   ![Datenwörterbuchsymbol im Info-Pop-up](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![Datenwörterbuchsymbol im Info-Pop-up](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * über das Menü: [!UICONTROL **Hilfe**] > [!UICONTROL **Datenwörterbuch**].
 
 Detaillierte Informationen zu den verschiedenen verfügbaren Optionen im Datenwörterbuch finden Sie unter [Komponenteninformationen im Datenwörterbuch anzeigen](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
-## Datenwörterbuch aktualisieren und kuratieren
+## Aktualisieren und Kuratieren des Datenwörterbuchs
 
-Analytics-Administratoren sind für die Pflege eines gesunden Datenwörterbuchs für ihre Organisation verantwortlich, wie unter [Überwachen der Gesundheit von Datenwörterbüchern](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+Analytics-Administratorinnen und -Administratoren sind dafür verantwortlich, das Datenwörterbuch für ihre Organisation in einem guten Zustand zu halten, wie beschrieben unter [Überwachen des Zustands des Datenwörterbuchs](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Im Rahmen dieses Prozesses können Analytics-Administratoren Informationen zu den einzelnen Komponenten im Datenwörterbuch bearbeiten, wie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+Im Rahmen dieses Prozesses können Analytics-Administratorinnen und -Administratoren die Informationen zu den einzelnen Komponenten im Datenwörterbuch bearbeiten, wie beschrieben unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Verschieben, Minimieren oder Schließen des Datenwörterbuchs
 
@@ -84,12 +84,12 @@ Sie können das Datenwörterbuchfenster auf eine der folgenden Arten verändern:
 
 * in einen beliebigen Bereich in Analysis Workspace ziehen
 
-   Wenn Sie Analysis Workspace schließen und erneut öffnen, bleibt das Datenwörterbuchfenster an der Stelle, an die Sie es zuletzt verschoben haben.<!--True?-->
+  Wenn Sie Analysis Workspace schließen und erneut öffnen, bleibt das Datenwörterbuchfenster an der Stelle, an die Sie es zuletzt verschoben haben.<!--True?-->
 
 * minimieren
 
-   Wenn es minimiert wird, erscheint das Datenwörterbuch als blaue Registerkarte in der rechten unteren Ecke von Analysis Workspace.
+  Wenn es minimiert wird, erscheint das Datenwörterbuch als blaue Registerkarte in der rechten unteren Ecke von Analysis Workspace.
 
-   Wenn Sie die blaue Registerkarte auswählen, wird das Datenwörterbuch für die Komponente geöffnet, die Sie zuletzt angesehen haben.
+  Wenn Sie die blaue Registerkarte auswählen, wird das Datenwörterbuch für die Komponente geöffnet, die Sie zuletzt angesehen haben.
 
 * schließen
