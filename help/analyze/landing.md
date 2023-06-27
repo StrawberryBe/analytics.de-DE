@@ -4,10 +4,10 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '3954'
-ht-degree: 99%
+source-wordcount: '4037'
+ht-degree: 94%
 
 ---
 
@@ -223,13 +223,24 @@ Administrierende können einen Bericht mithilfe der (oben beschriebenen) Option 
 ![Sonstige Filter](assets/delete-fr-create-project-modal.png)
 
 
-## Navigieren Sie zur Registerkarte „Lernen“ {#navigate-learning}
+## Registerkarte &quot;Lernen&quot;verwenden {#navigate-learning}
 
-Die Seite „Lernen“ enthält praktische Videoführungen und -Tutorials sowie Links zur Dokumentation.
+Die Lernseite enthält praktische Videoführungen, Tutorials und Links zur Dokumentation.
 
-* Die Tour [!UICONTROL Arbeitsbereich-Grundlagen] führt Sie direkt zu Arbeitsbereich und zeigt Ihnen das Arbeitsbereich-Layout und wo Sie die häufigsten Aktionen finden/durchführen können. Diese Tour kann auch jederzeit direkt in Arbeitsbereich über das QuickInfo-Pop-over in der Kopfzeile des Bedienfelds neu gestartet werden.
-* Durch Klicken auf ein Video/eine Tour wird ein Tag **[!UICONTROL Angezeigt]** hinzugefügt. Mit diesem Tag können Sie Ihren Fortschritt durch den Lerninhalt verfolgen. Sie können auf das Tag klicken und es wird ausgeblendet, falls Sie den Inhalt noch nicht abgeschlossen haben.
-* Die Schaltfläche **[!UICONTROL Weitere Informationen]** im Video-Modal bietet Zugriff auf eine Adobe Experience League-Dokumentationsseite mit weiteren Hilfeinhalten zu dem Video, das Sie gerade angesehen haben.  **[!UICONTROL Weitere Videos anzeigen]** führt Sie zur vollständigen YouTube-Playlist für Analysis Workspace.
+Auf der Lernseite in Adobe Analytics erfahren Sie mehr über Anfänger, Zwischenschritte oder erweiterte Funktionen und Anwendungsfälle in Adobe Analytics.
+
+### Auf die Lernseite zugreifen
+
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Arbeitsbereich**] > [!UICONTROL **Lernen**].
+
+### Funktionen von Lernseiten
+
+* **Inhalt filtern:** Mit dem Filtersymbol in der linken Leiste können Sie Lerninhalte nach Erlebnisebene (Starter, Intermediate oder Erweitert) und nach Inhaltstyp (Dokument, Video oder Tours &amp; Tutorials) filtern.
+* **Fortschritt verfolgen:** Nachdem Sie ein Inhaltselement ausgewählt haben, wird ein **[!UICONTROL Angezeigt]** -Tag angezeigt. Mit diesem Tag können Sie Ihren Fortschritt durch den Lerninhalt verfolgen. Sie können die **[!UICONTROL Angezeigt]** -Tag, um es aus einem Inhaltselement zu entfernen.
+* **Zusätzliche Inhalte anzeigen:** Wählen Sie beim Anzeigen eines Videos die **[!UICONTROL Weitere Infos]** -Schaltfläche, um zugehörige Dokumentationsinhalte auf der Experience League anzuzeigen. Wählen Sie auf der Seite Lernen eine der folgenden Optionen aus, um weitere Inhalte anzuzeigen:
+   * **[!UICONTROL Besuchen Sie YouTube]:** Zeigen Sie die vollständige Analysis Workspace YouTube-Playlist an.
+   * [!UICONTROL **Experience League des Besuchs**]: Zeigen Sie die vollständige Adobe Analytics-Dokumentation zur Experience League an.
+* **Grundlagen für neue Benutzer:** Die [!UICONTROL Workspace-Grundlagen] Diese Tour wird für neue Benutzer empfohlen. Diese Tour führt Sie direkt zu Workspace und führt Sie durch die gängigsten Aktionen. Diese Tour kann auch jederzeit in Workspace über das QuickInfo-Pop-over in der Bedienfeldkopfzeile neu gestartet werden.
 
 ## Einrichten einer Landingpage {#set-landing}
 

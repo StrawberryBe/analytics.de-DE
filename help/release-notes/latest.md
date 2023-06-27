@@ -3,9 +3,9 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09a4f0865c0297681a05da4eae98412632931626
+source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1515'
 ht-degree: 87%
 
 ---
@@ -37,7 +37,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **Neue Schaltfläche zum Hinzufügen einer Visualisierung in einem Bedienfeld** | Unten in jedem Bedienfeld in Analysis Workspace ist jetzt eine neue Schaltfläche verfügbar, mit der Sie schnell eine Visualisierung hinzufügen können. <p>Zuvor bestand die einzige Methode zum Hinzufügen einer Visualisierung zu einem Bedienfeld darin, eine Visualisierung aus der linken Leiste zu ziehen, eine vorhandene Visualisierung zu duplizieren oder zu kopieren oder ein leeres Bedienfeld zu erstellen. [Weitere Informationen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | Nicht angegeben | 17. Mai 2023 |
 | **Deep-Linking (Mobile App)** | Ermöglicht Benutzenden das Senden von Links zu Scorecards, die sie direkt zum Scorecard-Projekt in der App führen. Dies erleichtert die Freigabe von Projekten und eine stärkere Interaktion mit weniger technischen Zielgruppen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#share-scorecards-using-a-shareable-link) | Nicht angegeben | 17. Mai 2023 |
 | **Dynamische Dropdown-Filter** | Wir führen einen neuen Typ von Dropdown-Filtern ein, der verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Filtern bestimmt. Sie können dynamische Dropdown-Filter verwenden, indem Sie eine Dimension in die Dropzone des Bedienfelds ziehen, während Sie die [!UICONTROL Umschalt]-Taste gedrückt halten. Statische Dropdown-Filter bleiben unverändert, indem Sie eine Gruppe von Dimensions-Elementen in die Dropzone des Bedienfelds ziehen, während Sie die [!UICONTROL Umschalt]-Taste gedrückt halten. [Weitere Informationen](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14. Juni 2023 |
-| **Aktualisierte Lernseite für Analytics** | Die Registerkarte „Lernen“ auf der Adobe Analytics-Landingpage enthält jetzt die folgenden Verbesserungen:<ul><li>Verbessertes Design, das mehr Lerninhalte auf einer Seite mit verbesserter Navigation anzeigt</li><li>Möglichkeit zur Personalisierung von Lerninhalten nach Erlebnisebene (Anfängerinnen und Anfänger, Fortgeschrittene und Expertinnen und Experten)</li></ul>[Weitere Informationen](/help/analyze/landing.md) |  | 30. Juni 2023 |
+| **Aktualisierte Lernseite für Analytics** | Die Registerkarte „Lernen“ auf der Adobe Analytics-Landingpage enthält jetzt die folgenden Verbesserungen:<ul><li>Verbessertes Design, das mehr Lerninhalte auf einer Seite mit verbesserter Navigation anzeigt</li><li>Möglichkeit zur Personalisierung von Lerninhalten nach Erlebnisebene (Anfängerinnen und Anfänger, Fortgeschrittene und Expertinnen und Experten)</li></ul>[Weitere Informationen](/help/analyze/landing.md) | 27. Juni 2023 | 30. Juni 2023 |
 | **Sortieren von Komponenten in Analysis Workspace** | Bei der Anzeige von Komponenten in der linken Leiste oder im Datenwörterbuch in Analysis Workspace ist jetzt eine neue Sortieroption verfügbar. Sie können Komponenten nach „Empfohlen“ (die am häufigsten verwendeten), „Alphabetisch“ oder „Kategorie“ (Typ) sortieren.<p>Zuvor war es nur möglich, Komponenten zu suchen oder zu filtern. [Weitere Informationen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | Nicht angegeben | TBD |
 
 {style="table-layout:auto"}
