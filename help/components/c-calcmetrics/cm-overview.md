@@ -4,7 +4,7 @@ keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metrike
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -41,10 +41,14 @@ Sie können
 * Metriken in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse] erstellen.
 * Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, ohne die Implementierung ändern zu müssen. Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren.
 
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
 * Metriken über Report Suites hinweg freigeben. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
 * (Nur erweiterte berechnete Metriken) Segmentieren von Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der die Personen gezählt werden, für die dies die erste Sitzung ist.
 
 * (Nur erweiterte berechnete Metriken) Integrieren Sie statistische Funktionen, um Ihre Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## Einschränkungen {#section_CB878B02451541D68A68B508D4DBD19A}
 
