@@ -3,10 +3,10 @@ title: Produktprofile für Adobe Analytics
 description: Erfahren Sie, wie Produktprofile als Berechtigungsvorgaben verwendet werden können, die Produktadministratoren Benutzern in einer Organisation zuweisen können.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
-workflow-type: ht
+source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Allgemeine Informationen zu Produktprofilen, einschließlich der Erstellung von 
 Produktprofiladministratoren sind eine optionale Gruppe, die Benutzer zu diesem Produktprofil hinzufügen oder entfernen kann. Beachten Sie, dass ein Produktprofiladministrator nicht mit einem Produktadministrator identisch ist:
 
 * Produktprofil-Administrierende haben keinen vollständigen Zugriff auf Adobe Analytics. Der uneingeschränkte Zugriff auf Adobe Analytics ist Produktadministratoren vorbehalten.
-* Produktprofiladministratoren können die Berechtigungselemente in ihrem Produktprofil anpassen.
+* Produktprofiladministratoren können die Berechtigungselemente in ihrem Produktprofil nicht anpassen.
 * Produktprofiladministratoren können Benutzergruppen Produktprofile zuweisen oder entziehen.
 * Produktprofiladministratoren eignen sich ideal für Teamleiter oder Manager, die für ihr Team den Zugriff auf Adobe Analytics gewähren und verwalten müssen. Für Einzelpersonen ist es nicht erforderlich, dass Systemadministratoren oder Produktadministratoren sich die Mühe geben, Zugriff auf Adobe Analytics zu gewähren.
 
