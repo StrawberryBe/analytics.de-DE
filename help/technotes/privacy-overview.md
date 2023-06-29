@@ -4,9 +4,9 @@ keywords: Datenschutz
 title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics erfasst die folgenden Daten:
 | Artikel, die der Benutzer gekauft hat | Ja |
 | Artikel, die sich noch im Warenkorb befinden | Ja |
 | Soziales Netzwerk-Informationen (einschließlich Fotos, Benutzer-ID, Alter, Geschlecht, Standort) | **Nein** |
-| Persönliche Informationen, die der Benutzer außerhalb unserer Dienste angibt | Ja |
 | Erfolgsraten von Werbekampagnen | Ja |
 | Produktinformationen, z. B. Farben, Preise, Stile, Fotos | Ja |
 
