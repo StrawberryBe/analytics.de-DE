@@ -2,7 +2,8 @@
 title: Ableiten von Daten, die von Ereignissen betroffen sind
 description: Verwenden Sie berechnete Metriken, um die von einem Ereignis betroffenen Trenddaten zu korrigieren.
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event, Calculated Metrics
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 4%

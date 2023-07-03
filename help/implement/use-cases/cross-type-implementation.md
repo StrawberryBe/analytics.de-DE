@@ -2,9 +2,10 @@
 title: Tracking über verschiedene Implementierungstypen hinweg
 description: Verwenden Sie unterschiedliche Implementierungstypen und verfolgen Sie Besucher nahtlos zwischen ihnen.
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
-workflow-type: ht
-source-wordcount: '442'
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -23,6 +24,6 @@ Beim Einsatz mehrerer Typen von Implementierungen (wie JavaScript und fest codie
 | Tracking-Server | Die Variablen [`trackingServer`](../vars/config-vars/trackingserver.md) und [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | [!UICONTROL Tracking-Server] und [!UICONTROL SSL-Tracking-Server] im Abschnitt [!UICONTROL Allgemein] beim [Konfigurieren der Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de) | Die Eigenschaft `edgeDomain` beim [Konfigurieren des Web-SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de) | Die [!UICONTROL Edge-Domain] beim [Konfigurieren der Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de) | Der `hostname` der Bildanfrage-URL |
 | ID-Service von Experience Cloud | Implementierung von [`VisitorAPI.js`](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=de) | Verwenden der [Adobe Experience Cloud ID-Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) | Verwenden der [Adobe Experience Cloud ID-Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) | Verwenden der [Adobe Experience Cloud ID-Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) | Erstellen Sie einen [separaten Aufruf an die ID-Service-Server](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=de), um die gewünschte ID zu erhalten |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Wenn eine dieser Variablen nicht für jeden Implementierungstyp konsistent ist, werden sie von Adobe als separate Besucherinnen und Besucher betrachtet. Wenn Besucherinnen und Besucher nicht nahtlos über Implementierungstypen auf Ihrer Site hinweg verfolgt werden, besteht der häufigste Grund darin, dass der ID-Service falsch konfiguriert ist. Siehe [Implementierungsmethoden](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-methods.html?lang=de) im Benutzerhandbuch für den ID-Service, um weitere Informationen zu erhalten.

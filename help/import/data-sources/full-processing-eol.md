@@ -1,7 +1,9 @@
 ---
 title: Abschaffung der Datenquellen mit vollständiger Verarbeitung
 description: Erfahren Sie mehr über die Mitteilung zum Ende des Lebenszyklus für Datenquellen mit vollständiger Verarbeitung.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 16%
@@ -10,7 +12,7 @@ ht-degree: 16%
 
 # Abschaffung der Datenquellen mit vollständiger Verarbeitung
 
-Mit Datenquellen mit vollständiger Verarbeitung konnten Unternehmen historisch Daten auf Trefferebene an Adobe Analytics senden. Diese Daten wurden auf dieselbe Weise verarbeitet wie Daten, die mit herkömmlichen Datenerfassungsmethoden wie AppMeasurement erfasst wurden. Im Jahr 2020 veröffentlichte Adobe die [Bulk-Dateneinfüge-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), der die gleichen Funktionen wie Datenquellen mit vollständiger Verarbeitung, jedoch mit zusätzlichen Funktionen ausführt. Auf dieser Seite finden Sie Details zu zusätzlichen Funktionen der Bulk Data Insertion API und Unterschiede in den Dateiformaten.
+Mit Datenquellen mit vollständiger Verarbeitung konnten Unternehmen historisch Daten auf Trefferebene an Adobe Analytics senden. Diese Daten wurden auf die gleiche Weise verarbeitet wie Daten, die mit herkömmlichen Datenerfassungsmethoden wie AppMeasurement erfasst wurden. Im Jahr 2020 veröffentlichte Adobe die [Bulk-Dateneinfüge-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), der die gleichen Funktionen wie Datenquellen mit vollständiger Verarbeitung, jedoch mit zusätzlichen Funktionen ausführt. Auf dieser Seite finden Sie Details zu zusätzlichen Funktionen der Bulk Data Insertion API und Unterschiede in den Dateiformaten.
 
 Am 25. März 2021 verhinderte Adobe die Erstellung neuer Datenquellenverbindungen mit vollständiger Verarbeitung. Am 31. Januar 2022 wurden alle Datendienste für die vollständige Verarbeitung deaktiviert.
 

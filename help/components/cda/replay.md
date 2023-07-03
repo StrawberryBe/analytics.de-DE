@@ -2,7 +2,8 @@
 title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
@@ -41,12 +42,12 @@ Sowohl nicht authentifizierte als auch authentifizierte Treffer auf neuen Gerät
 
 * **Wenn Sie das Gerätediagramm verwenden**, werden nicht authentifizierte Treffer auf erkannten Geräten live zugeordnet, sobald ein Cluster vom Gerätediagramm veröffentlicht wird. Die Veröffentlichung von Clustern dauert zwischen drei Stunden und zwei Wochen.
 
-   Eine dritte kumulative Person wird ebenfalls hinzugefügt, wenn ein Cluster veröffentlicht wird. Diese dritte Person repräsentiert den Cluster selbst, zusätzlich zu den einzelnen Geräten. Diese dritte „Person“ bleibt bestehen, bis die Daten wiedergegeben werden.
+  Eine dritte kumulative Person wird ebenfalls hinzugefügt, wenn ein Cluster veröffentlicht wird. Diese dritte Person repräsentiert den Cluster selbst, zusätzlich zu den einzelnen Geräten. Diese dritte „Person“ bleibt bestehen, bis die Daten wiedergegeben werden.
 
-   Die Zuordnung funktioniert geräteübergreifend erst nach der Veröffentlichung eines Clusters, und selbst dann wird erst ab diesem Zeitpunkt live zugeordnet. Im obigen Beispiel werden noch keine Treffer geräteübergreifend zugeordnet. Die geräteübergreifende Attribution bei vorhandenen Treffern funktioniert erst nach der Wiederholungszuordnung.
+  Die Zuordnung funktioniert geräteübergreifend erst nach der Veröffentlichung eines Clusters, und selbst dann wird erst ab diesem Zeitpunkt live zugeordnet. Im obigen Beispiel werden noch keine Treffer geräteübergreifend zugeordnet. Die geräteübergreifende Attribution bei vorhandenen Treffern funktioniert erst nach der Wiederholungszuordnung.
 * **Wenn feldbasiertes Stitching verwendet wird**, werden nicht authentifizierte Treffer auf erkannten Geräten von diesem Punkt an live zugeordnet.
 
-   Die Attribution funktioniert, sobald die identifizierende benutzerdefinierte Variable mit einem Gerät verknüpft ist. Im obigen Beispiel werden alle Treffer mit Ausnahme der Treffer 1 und 3 live zugeordnet (sie verwenden alle die Kennung `Bob`). Die Attribution funktioniert bei Treffern 1 und 3 nach der Wiederholungszuordnung.
+  Die Attribution funktioniert, sobald die identifizierende benutzerdefinierte Variable mit einem Gerät verknüpft ist. Im obigen Beispiel werden alle Treffer mit Ausnahme der Treffer 1 und 3 live zugeordnet (sie verwenden alle die Kennung `Bob`). Die Attribution funktioniert bei Treffern 1 und 3 nach der Wiederholungszuordnung.
 
 >[!NOTE]
 >

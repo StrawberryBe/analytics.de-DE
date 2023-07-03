@@ -2,7 +2,8 @@
 title: CDA Workspace-Vorlage
 description: Beschreibt die einzelnen Felder in der CDA-Vorlage in Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 96%

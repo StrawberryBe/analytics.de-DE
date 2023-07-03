@@ -1,7 +1,9 @@
 ---
 title: Datenquellen - Übersicht
 description: Importieren Sie Daten mithilfe externer Dateien in Adobe Analytics.
-source-git-commit: e32a7c85e2f0629c04bcd7ed0fa80ec1593bb6e8
+exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%

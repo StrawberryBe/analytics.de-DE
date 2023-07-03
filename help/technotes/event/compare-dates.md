@@ -2,10 +2,11 @@
 title: Vergleichen der von einem Ereignis betroffenen Daten mit vorherigen Datumsbereichen
 description: Erfahren Sie mehr über die Auswirkungen eines Ereignisses, z. B. ein Implementierungsproblem oder ein Ausfall, indem Sie es mit früheren Trends vergleichen.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -64,7 +65,7 @@ Wenn Sie die oben genannten prozentualen Änderungen weiter analysieren möchten
 1. Fügen Sie eine Freiformtabellenvisualisierung hinzu und aktivieren Sie den Tabellen-Builder. Mit dieser Aktion können Sie die Metriken zur prozentualen Änderung in die gewünschte Reihenfolge platzieren.
 2. Halten `Ctrl` (Windows) oder `Cmd` (Mac) und ziehen Sie die 3-Prozent-Änderungsmetriken nacheinander in die Tabellenzeilen.
 
-   ![Tabellenaufbau](assets/table_builder.png)
+   ![Tabellen-Builder](assets/table_builder.png)
 
 3. Fügen Sie das Segment &quot;Alle Besuche&quot;zur Spalte der Tabelle und andere gewünschte Segmente hinzu.
 

@@ -1,7 +1,9 @@
 ---
 title: Datenquellen verwalten
 description: Navigieren Sie zur Benutzeroberfläche zum Verwalten von Datenquellen .
-source-git-commit: e32a7c85e2f0629c04bcd7ed0fa80ec1593bb6e8
+exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 2%

@@ -1,10 +1,12 @@
 ---
 title: Dynamische Suchen
 description: Erfahren Sie, was dynamische Suchen sind und wie sie aktiviert werden. Enthält Träger, Attribute für Mobilgeräte und Betriebssystemtypen.
-source-git-commit: b6084fc34165ea602fce616e13b3adfcd7bdfdbd
+exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+feature: Data Feeds
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

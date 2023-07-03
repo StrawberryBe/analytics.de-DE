@@ -1,7 +1,9 @@
 ---
 title: Häufig gestellte Fragen zu Datenquellen
 description: Häufig gestellte Fragen zu Datenquellen.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 7%

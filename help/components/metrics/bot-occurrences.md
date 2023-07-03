@@ -1,8 +1,9 @@
 ---
 title: Bot-Vorkommen
 description: Die Anzahl der Treffer, die mit Bot-Regeln übereinstimmten.
+feature: Metrics
 exl-id: 3b6cbe94-98db-4ba4-aab2-ce59cdbc420a
-source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 4%

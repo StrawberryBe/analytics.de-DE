@@ -1,8 +1,10 @@
 ---
 title: Implementieren von Adobe Analytics mit dem Adobe Experience Platform Mobile SDK
 description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Platform-Datenerfassung, um Daten an Adobe Analytics zu senden.
-source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
-workflow-type: ht
+exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -11,6 +13,7 @@ ht-degree: 100%
 # Implementieren von Adobe Analytics mit dem Adobe Experience Platform Mobile SDK
 
 Mit dem Adobe Experience Platform Mobile SDK können Sie die Experience Cloud-Lösungen und -Services von Adobe in Ihren Mobile Apps nutzen. Es ist für Android™, iOS und mehrere plattformübergreifende Entwicklungs-Frameworks verfügbar. Die Konfiguration erfolgt über die Datenerfassung von Adobe Experience Platform.
+
 >[!IMPORTANT]
 >
 >Eine Adobe Analytics-Erweiterung ist ebenfalls in der Datenerfassung von Adobe Experience Platform verfügbar. Wenn Sie diese Erweiterung installieren, nutzen Sie weder XDM noch das Edge-Netzwerk.
@@ -35,8 +38,8 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>2</td>
-<td><b>Einrichten von Schemata und Datensätzen</b>. Um die Datenerfassung für die Verwendung in allen Anwendungen zu standardisieren, die Adobe Experience Platform nutzen, hat Adobe das offene und öffentlich dokumentierte Standard Experience-Datenmodell (XDM) erstellt.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de">Übersicht über die Benutzeroberfläche von Schemata</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de">Übersicht über die Benutzeroberfläche von Datensätzen</a></td>
+<td><b>Richten Sie Schemas und Datensätze ein</b>. Um die Datenerfassung für die Verwendung in allen Anwendungen zu standardisieren, die Adobe Experience Platform nutzen, hat Adobe das offene und öffentlich dokumentierte Standard Experience-Datenmodell (XDM) erstellt.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de">Überblick über die Benutzeroberfläche für Schemas</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de">Überblick über die Benutzeroberfläche für Datensätze</a></td>
 </tr>
 
 <tr>
@@ -86,7 +89,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
-![Adobe Analytics unter Verwendung des Workflows der Analytics-Erweiterung](../../assets/mobilesdk-analytics-annotated.png)
+![Workflow von Adobe Analytics mit der Analytics-Erweiterung](../../assets/mobilesdk-analytics-annotated.png)
 
 <table style="width:100%">
 
@@ -96,14 +99,14 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>1</td>
-<td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert</b> haben.</td>
+<td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b>.</td>
 <td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Einrichten von Schemata und Datensätze</b>. Um die Datenerfassung für die Verwendung in allen Anwendungen zu standardisieren, die Adobe Experience Platform nutzen, hat Adobe das offene und öffentlich dokumentierte Standard Experience-Datenmodell (XDM) erstellt.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de">Übersicht über die Benutzeroberfläche von Schemata</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de">Übersicht über die Benutzeroberfläche von Datensätzen</a></td>
+<td><b>Richten Sie Schemas und Datensätze ein</b>. Um die Datenerfassung für die Verwendung in allen Anwendungen zu standardisieren, die Adobe Experience Platform nutzen, hat Adobe das offene und öffentlich dokumentierte Standard Experience-Datenmodell (XDM) erstellt.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de">Überblick über die Benutzeroberfläche für Schemas</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de">Überblick über die Benutzeroberfläche für Datensätze</a></td>
 </tr>
 
 <tr>
@@ -137,6 +140,3 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 - [Dokumentation zu Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de#)
 
 - [Mobile-SDKs – Dokumentation](https://developer.adobe.com/client-sdks/documentation/)
-
-
-

@@ -2,10 +2,11 @@
 title: Auswirkungen an Benutzer kommunizieren
 description: Erfahren Sie, wie Sie die Wirkung eines Ereignisses in Ihrer Organisation effektiv kommunizieren können.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -23,13 +24,13 @@ Die folgenden Abschnitte in Adobe Analytics zeigen verschiedene Möglichkeiten, 
 
 Wenn Sie ein Workspace-Projekt unter Benutzern in Ihrer Organisation freigegeben haben, können Sie die Auswirkungen eines Ereignisses über Bedienfeld- oder Visualisierungsbeschreibungen kommunizieren. Klicken Sie mit der rechten Maustaste auf einen Bereich oder eine Visualisierungsheader und wählen Sie **[!UICONTROL Beschreibung bearbeiten]**.
 
-![Bedienfeldbeschreibung](assets/panel_description.png)
+![Beschreibung des Panels](assets/panel_description.png)
 
 ## Kommunikation über Textvisualisierungen
 
 Sie können die Auswirkungen eines Ereignisses auch über spezielle Textvisualisierungen kommunizieren. Siehe [Textvisualisierungen](/help/analyze/analysis-workspace/visualizations/text.md) im Benutzerhandbuch zu Analysen.
 
-![Textvisualisierung](assets/text_visualization.png)
+![Visualisierung von Texten](assets/text_visualization.png)
 
 ## Hinzufügen benutzerdefinierter Kalenderereignisse zu Trends in Workspace
 

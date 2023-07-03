@@ -2,10 +2,11 @@
 title: VRS auf bestimmte Daten beschränken
 description: Verstehen Sie, wie Sie einen VRS-Datumsbereich so beschränken, dass er sich nur auf zusammengefügte Daten konzentriert.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -23,9 +24,9 @@ Wenn Sie die VRS einrichten, fügen Sie unter „Komponenten“ einen Datumsbere
 
 ## Schritt 2: Segment „exclude-exclude“ erstellen
 
-Erstellen Sie anschließend ein Treffersegment, das den Datumsbereich in einen Ausschluss-Container innerhalb eines anderen Ausschluss-Containers einfügt. Es handelt sich um ein „Ausschließen des Ausschließens“.
+Erstellen Sie anschließend ein Treffersegment, das den Datumsbereich in einen Ausschluss-Container innerhalb eines anderen Ausschluss-Containers einfügt. Es handelt sich um einen &quot;Ausschluss&quot;.
 
-Der Grund für den Ausschluss ist, dass Datumsbereiche den Datumsbereich des Berichts außer Kraft setzen sollen. Wenn Sie also nur den Bereich ab dem 1. Juni mit einbeziehen, wird der Datumsbereich des Berichts immer ab dem 1. Juni sein. Dies führt zu unerwünschten Ergebnissen. Wenn Sie „exclude exclude“ auswählen, wird dieses Verhalten außer Kraft gesetzt und die Daten, aus denen Sie Informationen ziehen können, werden auf den entsprechenden Datumsbereich beschränkt.
+Der Grund für den Ausschluss ist, dass Datumsbereiche den Datumsbereich des Berichts überschreiben sollen. Wenn Sie also nur den Bereich ab dem 1. Juni mit einbeziehen, wird der Datumsbereich des Berichts immer ab dem 1. Juni sein. Dies führt zu unerwünschten Ergebnissen. Wenn Sie &quot;Ausschließen&quot;auswählen, wird dieses Verhalten außer Kraft gesetzt und die Daten, aus denen Sie Daten beziehen können, werden auf den entsprechenden Datumsbereich beschränkt.
 
 ![](assets/exclude-exclude.png)
 
