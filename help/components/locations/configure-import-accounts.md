@@ -3,7 +3,7 @@ description: Konfigurieren Sie das Cloud-Importkonto und den Speicherort, an den
 keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Importkonten
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Bevor Sie Adobe Analytics-Classification-Daten aus einem Cloud-Ziel importieren können, müssen Sie das Konto und den Speicherort in diesem Konto hinzufügen und konfigurieren, in dem die Classification-Daten erfasst werden sollen.
 
-Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie in diesem Artikel beschrieben, und anschließendem Hinzufügen und Konfigurieren des Speicherorts innerhalb dieses Kontos (z. B. eines Ordners innerhalb des Kontos), wie in [Konfigurieren von Cloud-Importspeicherorten][/help/components/locations/configure-import-locations.md].
+Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie in diesem Artikel beschrieben, und anschließendem Hinzufügen und Konfigurieren des Speicherorts innerhalb dieses Kontos (z. B. eines Ordners innerhalb des Kontos), wie in [Konfigurieren von Cloud-Importspeicherorten](/help/components/locations/configure-import-locations.md).
 
 Sie müssen Adobe Analytics mit den erforderlichen Informationen konfigurieren, um auf Ihr Cloud-Zielkonto zuzugreifen.
 
