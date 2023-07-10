@@ -3,14 +3,22 @@ description: Hochladen von Datendateien über FTP.
 title: FTP-Import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 87%
+source-wordcount: '721'
+ht-degree: 81%
 
 ---
 
 # FTP-Import
+
+>[!IMPORTANT]
+>
+>Es wird nicht mehr empfohlen, FTP für den Import zu verwenden, wie auf dieser Seite beschrieben.
+>
+>FTP wird nicht empfohlen, da es sich um eine unverschlüsselte Methode der Dateifreigabe handelt. Dies bedeutet, dass jeder den Dateiinhalt sowie den Benutzernamen und das Kennwort für das Konto abfangen kann.
+>
+>Konfigurieren Sie stattdessen ein Cloud-Konto, wie unter [Konfigurieren von Cloud-Importspeicherorten](/help/components/classifications/importer/configure-import-accounts.md).
 
 In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
@@ -20,7 +28,7 @@ So laden Sie Datendateien über FTP hoch:
 
 1. **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
-Beachten Sie bitte die folgenden Empfehlungswerte. Zu viele
+Beachten Sie bitte die folgenden Empfehlungswerte.
 
 >[!IMPORTANT]
 >

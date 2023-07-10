@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
+source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 86%
+source-wordcount: '717'
+ht-degree: 88%
 
 ---
 
@@ -185,10 +185,10 @@ ht-degree: 86%
    + Workflow bei berechneten Metriken {#calcmetric-workflow}
       + [Workflow bei berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metriken suchen](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Metriken erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Metrik &quot;Seitenansichten pro Besuche&quot;erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Erstellen von Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Erstellen einer Metrik vom Typ „Seitenansichten pro Besuch“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Erstellen einer Metrik &quot;Bestellhilfen&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Metrik &quot;Beitrag&quot;erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Erstellen einer Metrik „Teilnahme“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Metriktyp und Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Segmentierte Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmente stapeln und ersetzen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -262,6 +262,7 @@ ht-degree: 86%
       + [Browser- und FTP-Import](classifications/importer/import-file.md)
       + [Browser-Import](classifications/importer/browser-import.md)
       + [Browser-Export](classifications/importer/browser-export.md)
+      + [Cloud-Import](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP-Import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP-Export](classifications/importer/ftp-export.md)
       + [Verarbeitungszeit](classifications/importer/processing-time.md)
