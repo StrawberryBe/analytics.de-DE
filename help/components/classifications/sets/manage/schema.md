@@ -3,7 +3,7 @@ title: Klassifizierungsset-Schema
 description: Anzeigen und Bearbeiten des Schemas für einen einzelnen Classification-Satz.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 42%
@@ -48,11 +48,11 @@ Folgende Schaltflächen sind verfügbar:
 * **[!UICONTROL Automatisieren]**: Daten werden automatisch von externen Speicherorten erfasst.
    * **[!UICONTROL Standortkonto]**: Eine Dropdown-Liste mit vorhandenen Standortkonten, die Ihre Organisation konfiguriert hat. Wenn Ihr Unternehmen noch kein Standortkonto konfiguriert hat, können Sie eines konfigurieren, indem Sie [!UICONTROL **Neues Konto erstellen**].
 
-     Informationen zum Konfigurieren des Standortkontos finden Sie unter [Konfigurieren von Cloud-Importspeicherorten](/help/components/classifications/importer/configure-import-accounts.md).
+     Informationen zum Konfigurieren des Standortkontos finden Sie unter [Konfigurieren von Cloud-Importkonten](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL Standort]**: Eine Dropdown-Liste, die die vorhandenen Orte anzeigt, die Ihre Organisation konfiguriert hat. Wenn Ihr Unternehmen noch keinen Standort konfiguriert hat, können Sie einen konfigurieren, indem Sie [!UICONTROL **Neuen Speicherort erstellen**].
 
-     Informationen zum Konfigurieren eines Standorts finden Sie unter [Konfigurieren von Cloud-Importspeicherorten](/help/components/classifications/importer/configure-import-accounts.md).
+     Informationen zum Konfigurieren eines Standorts finden Sie unter [Konfigurieren von Cloud-Importspeicherorten](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL Trennzeichen]**: Das Spaltentrennzeichen für hochgeladene Dateien. Optionen umfassen [!UICONTROL Komma], [!UICONTROL Semikolon], [!UICONTROL Doppelpunkt], [!UICONTROL Vertikaler Balken], [!UICONTROL Leerzeichen], [!UICONTROL Vorwärtsschrägstrich], [!UICONTROL Abwärtsschrägstrich], [!UICONTROL Dash]oder [!UICONTROL Unterstrich].
 

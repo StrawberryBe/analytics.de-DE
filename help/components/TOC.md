@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,14 +262,16 @@ ht-degree: 88%
       + [Browser- und FTP-Import](classifications/importer/import-file.md)
       + [Browser-Import](classifications/importer/browser-import.md)
       + [Browser-Export](classifications/importer/browser-export.md)
-      + [Cloud-Import](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP-Import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP-Export](classifications/importer/ftp-export.md)
       + [Verarbeitungszeit](classifications/importer/processing-time.md)
       + [Fehlerbehebung](classifications/importer/troubleshooting.md)
-
    + [Unterklassifizierungen](classifications/c-sub-classifications.md)
    + [Häufig gestellte Fragen zu Klassifizierungen](classifications/faq.md)
++ Standorte {#locations}
+   + [Locations Manager](/help/components/locations/locations-manager.md)
+   + [Cloud-Importkonten](/help/components/locations/configure-import-accounts.md)
+   + [Cloud-Importspeicherorte](/help/components/locations/configure-import-locations.md)
 + [Kalenderereignisse](t-calendar-event.md)
 + [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
 + Echtzeitberichterstellung {#real-time-reporting}
