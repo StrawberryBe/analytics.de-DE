@@ -3,7 +3,7 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
+source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 85%
@@ -39,7 +39,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | **Deep-Linking (Mobile App)** | Ermöglicht Benutzenden das Senden von Links zu Scorecards, die sie direkt zum Scorecard-Projekt in der App führen. Dies erleichtert die Freigabe von Projekten und eine stärkere Interaktion mit weniger technischen Zielgruppen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#share-scorecards-using-a-shareable-link) | Nicht angegeben | 17. Mai 2023 |
 | **Dynamische Dropdown-Filter** | Wir führen einen neuen Typ von Dropdown-Filtern ein, der verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Filtern bestimmt. Sie können dynamische Dropdown-Filter verwenden, indem Sie eine Dimension in die Dropzone des Bedienfelds ziehen, während Sie die [!UICONTROL Umschalt]-Taste gedrückt halten. Statische Dropdown-Filter bleiben unverändert, indem Sie eine Gruppe von Dimensions-Elementen in die Dropzone des Bedienfelds ziehen, während Sie die [!UICONTROL Umschalt]-Taste gedrückt halten. [Weitere Informationen](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14. Juni 2023 |
 | **Aktualisierte Lernseite für Analytics** | Die Registerkarte „Lernen“ auf der Adobe Analytics-Landingpage enthält jetzt die folgenden Verbesserungen:<ul><li>Verbessertes Design, das mehr Lerninhalte auf einer Seite mit verbesserter Navigation anzeigt</li><li>Möglichkeit zur Personalisierung von Lerninhalten nach Erlebnisebene (Anfängerinnen und Anfänger, Fortgeschrittene und Expertinnen und Experten)</li></ul>[Weitere Informationen](/help/analyze/landing.md) | 27. Juni 2023 | 30. Juni 2023 |
-| **Sortieren von Komponenten in Analysis Workspace** | Bei der Anzeige von Komponenten in der linken Leiste oder im Datenwörterbuch in Analysis Workspace ist jetzt eine neue Sortieroption verfügbar. Sie können Komponenten nach „Empfohlen“ (die am häufigsten verwendeten), „Alphabetisch“ oder „Kategorie“ (Typ) sortieren.<p>Zuvor war es nur möglich, Komponenten zu suchen oder zu filtern. [Weitere Informationen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | Nicht angegeben | TBD |
+| **Sortieren von Komponenten in Analysis Workspace** | Bei der Anzeige von Komponenten in der linken Leiste oder im Datenwörterbuch in Analysis Workspace ist jetzt eine neue Sortieroption verfügbar. Sie können Komponenten nach „Empfohlen“ (die am häufigsten verwendeten), „Alphabetisch“ oder „Kategorie“ (Typ) sortieren.<p>Zuvor war es nur möglich, Komponenten zu suchen oder zu filtern. [Weitere Informationen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | Nicht angegeben | 7. Juni 2023 |
 
 {style="table-layout:auto"}
 
