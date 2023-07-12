@@ -3,10 +3,10 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
+source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-
 | Hinweis | Hinzugefügt oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
 | **37-monatige Gültigkeit von Kauf-IDs und Ereignis-IDs (Ereignis-Serialisierung)** | Juli 10,2023 | Eine bevorstehende Version der Analytics-Trefferverarbeitungs-Engine, die für die Veröffentlichung am bestimmt ist **13. Juli 2023** beginnt mit der Erzwingung eines 37-monatigen Ablaufs von Kauf-IDs und Ereignis-IDs (Ereignis-Serialisierung). Derzeit laufen Kauf-IDs und Ereignis-IDs in Adobe Analytics nie ab. Sobald eine Kauf-ID oder Ereignis-ID gesehen/verwendet wird, wird jeder zukünftige Treffer, unabhängig vom Zeitraum, als Duplikat dieses Kaufs oder Ereignisses markiert. Mit der neuen Version der Verarbeitungs-Engine gilt Folgendes:<ul><li>Kauf-IDs und Ereignis-IDs laufen nach 37 Monaten immer ab.</li><li>Wenn die Kauf-ID oder Ereignis-ID seit 37 Monaten angezeigt wurde, wird sie nicht mehr als doppelter Kauf oder Ereignis betrachtet.</li><li> Wenn Sie Kauf-IDs oder Ereignis-IDs aus mehr als 37 Monaten „wiederverwenden“, werden sie nicht mehr als Duplikate betrachtet.</li></ul> |
-| **Migration auf Adobe I/O OAuth Server-zu-Server-Anmeldedaten** | 11. Mai 2023 | Kunden und Kundinnen von Adobe Analytics-API, und Livestream, die Adobe I/O JWT-Anmeldedaten verwenden, müssen bis zum **1. Januar 2025** auf Adobe I/O OAuth Server-zu-Server-Anmeldedaten migrieren. Weitere Informationen und Zeitpläne finden Sie in der unten stehenden Tabelle unter dem Hinweis zum Ende der Nutzungsdauer. |
+| **Migration zu Adobe I/O OAuth Server-zu-Server-Anmeldeinformationen** | 11. Mai 2023 | Adobe Analytics-API- und Livestream-Kunden, die Adobe I/O-JWT-Anmeldeinformationen verwenden, müssen zu Adobe I/O OAuth Server-zu-Server-Anmeldeinformationen migrieren, indem Sie **1. Januar 2025**. Weitere Informationen und Zeitpläne finden Sie in der unten stehenden Tabelle unter dem Hinweis zum Ende der Nutzungsdauer. |
 
 {style="table-layout:auto"}
 
