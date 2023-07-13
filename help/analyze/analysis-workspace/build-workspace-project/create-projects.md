@@ -1,16 +1,17 @@
 ---
 description: Lernen Sie die Grundlagen zum Erstellen eines Projekts in Analysis Workspace kennen
-title: Erstellen von Projekten
+title: Projekte erstellen
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
+exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
+source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '702'
 ht-degree: 5%
 
 ---
 
-# Erstellen von Projekten
+# Projekte erstellen
 
 [Projekte](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace können Sie geschäftskritische Analysen anzeigen, die für Interessengruppen innerhalb oder außerhalb Ihres Unternehmens freigegeben werden können.
 
@@ -32,6 +33,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und
 
       * **Leeres Projekt** , wenn Sie Ihre Analyse über den Browser freigeben möchten
       * [**Leere mobile Scorecard**](/help/analyze/mobile-app/curator.md) , wenn Sie Ihre Analyse über die mobile Adobe Analytics-Dashboards-App freigeben möchten.
+
    1. Wählen Sie [!UICONTROL **Erstellen**].
 
 +++
@@ -44,7 +46,10 @@ In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und
 
       Eine Reihe von Standardberichten ist standardmäßig verfügbar. Darüber hinaus hat Ihr Unternehmen möglicherweise benutzerdefinierte Berichte erstellt, aus denen Sie auswählen können.
 
-      Weitere Informationen finden Sie unter &quot;Navigieren in der Registerkarte Berichte&quot;in [Adobe Analytics-Landingpage](/help/analyze/landing.md).
+   1. Auswählen [!UICONTROL **Projekt**] > [!UICONTROL **Speichern**] , um den Bericht als neues Projekt zu speichern.
+
+      Weitere Informationen zu Berichten finden Sie unter &quot;Navigieren in der Registerkarte Berichte&quot;in [Adobe Analytics-Landingpage](/help/analyze/landing.md).
+
 +++
 
 1. Als Nächstes müssen Sie Ihrem Projekt Bedienfelder, Visualisierungen und Komponenten hinzufügen. Fügen Sie zunächst Bedienfelder zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Bedienfeldern zum Projekt](#add-panels-to-the-project). Sie können dann allen Bedienfeldern Visualisierungen hinzufügen. Schließlich können Sie allen Bedienfeldern oder Visualisierungen Komponenten hinzufügen.
@@ -108,4 +113,3 @@ So fügen Sie eine Komponente hinzu:
 Bei der Erstellung einer Analyse in Analysis Workspace [automatisch gespeichert](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Wenn Sie das Projekt fertig erstellen und praktische Einblicke gewinnen, kann das Projekt von anderen genutzt werden. Sie können das Projekt für Benutzer und Gruppen in Ihrer Organisation oder auch für Personen außerhalb Ihrer Organisation freigeben. Informationen zum Freigeben eines Projekts finden Sie unter [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
