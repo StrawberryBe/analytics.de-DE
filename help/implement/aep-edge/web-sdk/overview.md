@@ -3,10 +3,10 @@ title: Implementieren von Adobe Analytics mit dem Adobe Experience Platform Web 
 description: Verwenden Sie die Web SDK-Erweiterung in der Adobe Experience Platform-Datenerfassung, um Daten an Adobe Analytics zu senden.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können Daten direkt mit dem Web SDK oder über die Web SDK-Erweiterung in T
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
-![Implementieren von Adobe Analytics mit dem Web SDK-Workflow](../../assets/websdk-annotated.png)
+![Implementieren von Adobe Analytics mit dem Web SDK-Workflow, wie in diesem Abschnitt beschrieben.](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -86,7 +86,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
-![Implementieren von Adobe Analytics mit dem Workflow der Web SDK-Erweiterung](../../assets/websdk-extension-annotated.png)
+![Implementieren von Adobe Analytics mithilfe des Workflows Web SDK-Erweiterung , wie in diesem Abschnitt beschrieben.](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 

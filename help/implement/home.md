@@ -3,10 +3,10 @@ title: Implementieren von Adobe Analytics
 description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft oder Anwendung.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 95%
+source-wordcount: '925'
+ht-degree: 85%
 
 ---
 
@@ -35,20 +35,20 @@ Für Ihre **Website** sind die folgenden Implementierungsmethoden verfügbar:
 
 * **Web SDK-Erweiterung**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics für neue Kundinnen und Kunden. Installieren Sie die **Adobe Experience Platform Web SDK-Erweiterung** in der Adobe Experience Platform-Datenerfassung **Tags** verwenden Sie auf jeder Seite ein Lader-Tag und senden Sie Daten an Adobe Experience Platform **Edge Network** in einem für Ihre Organisation geeigneten Format. Das Edge Network leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
   ![Web SDK-Erweiterung](./assets/websdk-extension-implementation.png)
-Weitere Informationen finden Sie im Artikel [Implementieren von Adobe Analytics mit der Adobe Experience Platform Web SDK-Erweiterung](./aep-edge/overview.md).
+Siehe [Implementieren von Adobe Analytics mithilfe der Adobe Experience Platform Web SDK-Erweiterung.](./aep-edge/overview.md) für weitere Informationen.
 
 * **Web SDK**: Wenn Sie nicht die Datenerfassung von Adobe Experience Platform verwenden möchten, können Sie die Web SDK-Bibliotheken auch manuell auf Ihre Site laden. Verweisen Sie auf jeder Seite auf die Web SDK-Bibliothek (`alloy.js`) und senden Sie die gewünschten Tracking-Aufrufe an das Adobe Experience Platform **Edge Network** in einem für Ihre Organisation geeigneten Format. Das Edge Network leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
   ![Web SDK](./assets/websdk-implementation.png)
-Weitere Informationen finden Sie im Artikel [Implementieren von Adobe Analytics mit dem Adobe Experience Platform Web SDK](./aep-edge/overview.md).
+Siehe [Implementieren von Adobe Analytics mit dem Adobe Experience Platform Web SDK](./aep-edge/overview.md) für weitere Informationen.
 
 
 * **Analytics-Erweiterung**: Installieren Sie die **Adobe Analytics-Erweiterung** in den **Datenerfassungs-Tags** von Adobe Experience Platform. Platzieren Sie ein Loader-Tag auf jeder Seite und verwenden Sie die Adobe Analytics-Erweiterung, um zu bestimmen, wie jede Variable definiert wird. Nutzen Sie diese Implementierungsmethode, wenn Sie Tags, aber nicht die Edge Network-Infrastruktur verwenden möchten.
   ![Adobe Analytics-Erweiterung](./assets/analytics-extension-implementation.png)
-Weitere Informationen finden Sie im Artikel [Implementieren von Adobe Analytics mit der Analytics-Erweiterung](launch/overview.md).
+Siehe [Implementieren von Adobe Analytics mithilfe der Analytics-Erweiterung](launch/overview.md) für weitere Informationen.
 
 * **Legacy-JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Verweisen Sie auf jeder Seite auf die AppMeasurement-Bibliothek (`AppMeasurement.js`) und beschreiben Sie dann die Variablen und Einstellungen, die in einer Implementierung verwendet werden.
-  ![Legacy-JavaScript](./assets/appmeasurement-implementation.png)
-Diese Implementierungsmethode kann für Implementierungen mit benutzerdefiniertem Code nützlich sein und wird weiterhin empfohlen, wenn Sie Folgendes verwenden (möchten):
+  ![Implementieren von Adobe Analytics mit Legacy JavaScript](./assets/appmeasurement-implementation.png)
+Diese Implementierungsmethode kann für Implementierungen mit benutzerdefiniertem Code nützlich sein und wird dennoch empfohlen, wenn Sie Folgendes verwenden (möchten):
 
    * [Activity Map-Daten](../analyze/activity-map/activity-map.md),
 
@@ -66,7 +66,7 @@ Diese Implementierungsmethode kann für Implementierungen mit benutzerdefinierte
 
 Der folgende Entscheidungsbaum kann Ihnen bei der Auswahl einer Implementierungsmethode helfen:
 
-![Entscheidungsbaum](./assets/decision-tree.png)
+![Eine Entscheidungsstruktur zur Auswahl einer Implementierungsmethode, wie in diesem Abschnitt beschrieben.](./assets/decision-tree.png)
 
 
 >[!TIP]

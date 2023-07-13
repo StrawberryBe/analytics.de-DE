@@ -2,10 +2,11 @@
 title: Implementieren von Adobe Analytics mit der Analytics-Erweiterung
 description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags und der Analytics-Erweiterung implementieren
 feature: Launch Implementation
-source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +22,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 
 
-![Workflow von Adobe Analytics mit der Analytics-Erweiterung](../assets/analytics-extension-annotated.png)
+![Implementieren von Adobe Analytics mit dem Analytics-Erweiterungs-Workflow, wie in diesem Abschnitt beschrieben.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -56,7 +57,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>5</td>
-<td><b>Implementierung in einer Entwicklungsumgebung</b>. Verwenden Sie eine Umgebung, in der Sie die Entwicklung von Tags iterieren können.</td>
+<td><b>Bereitstellung in einer Entwicklungsumgebung</b>. Verwenden Sie eine Umgebung, in der Sie die Entwicklung von Tags iterieren können.</td>
 <td><a href="./deploy-dev.md">Analytics-Implementierung in einer Entwicklungsumgebung bereitstellen</td>
 </tr>
 

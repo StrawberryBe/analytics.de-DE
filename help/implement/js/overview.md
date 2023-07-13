@@ -2,10 +2,11 @@
 title: Implementieren von Adobe Analytics mit AppMeasurement für JavaScript
 description: Erfahren Sie, wie Sie Adobe Analytics mit JavaScript ohne Tag-Management-System implementieren.
 feature: Implementation Basics
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 45%
+source-wordcount: '206'
+ht-degree: 56%
 
 ---
 
@@ -13,9 +14,9 @@ ht-degree: 45%
 
 AppMeasurement für JavaScript ist seit jeher eine gängige Methode zur Implementierung von Adobe Analytics. Da Tag-Management-Systeme jedoch immer beliebter werden, wird empfohlen, [Tags in Adobe Experience Platform](../launch/overview.md) zu verwenden.
 
-Eine allgemeine Übersicht über die Implementierungsaufgaben:
+Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
-![Übersicht über das Implementieren von Adobe Analytics mit AppMeasurement](../assets/appmeasurement-annotated.png)
+![Implementieren von Adobe Analytics mit AppMeasurement für JavaScript, wie in diesem Abschnitt beschrieben.](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -24,11 +25,11 @@ Eine allgemeine Übersicht über die Implementierungsaufgaben:
 </tr>
 
 <tr>
-<td>1</td><td>Stellen Sie sicher, dass <b>Report Suite definiert haben</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Herunterladen des erforderlichen JavaScript-Codes für AppMeasurement</b> vom Code-Manager aus. Entpacken Sie die Datei.</td><td><a href="../../admin/admin/code-manager-admin.md">Code-Manager</a></td>
+<td>2</td><td><b>Herunterladen des erforderlichen JavaScript-Codes für das AppMeasurement</b> vom Code-Manager aus. Entpacken Sie die Datei.</td><td><a href="../../admin/admin/code-manager-admin.md">Code-Manager</a></td>
 </tr>
 
 <tr>
@@ -82,7 +83,7 @@ s.t();
 </tr>
 
 <tr>
-<td>7</td><td><b>Implementierung erweitern und validieren</b> bevor sie in die Produktion verschoben wird.</b></td><td></td>
+<td>7</td><td><b>Erweitern und validieren Sie die Implementierung</b>, bevor Sie sie in die Produktion verschieben.</b></td><td></td>
 </tr>
 
 </table>
