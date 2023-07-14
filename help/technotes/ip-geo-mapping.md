@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zur verbesserten Zuordnung von IP zu Geolocation
 description: Antworten auf Fragen zum neuen und verbesserten Datensatz (NetAction Pulse) für die IP-zu-Geolocation-Zuordnung.
 feature: Data Configuration and Collection
 exl-id: 9327c20c-1310-4451-a6e4-61dc0e46724d
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Unser Anbieter für IP-Suchen, Digital Element, wurde auf einen neuen verbesserten Datensatz (NetActivity Pulse) für die IP-zu-Geolocation-Zuordnung aktualisiert. Ursprünglich für Oktober 2022 geplant, nahm Adobe Analytics diesen neuen Datensatz am 11. Januar 2023 an. Die neue Datenbank ist genauer als frühere Versionen. Einige IP-zu-Geo-Zuordnungen wurden bei der Annahme der neuen Datenbank geändert/verbessert.
 
-Alle Adobe Analytics-Tools (Analysis Workspace, Reports &amp; Analytics, Reporting-API, Data Warehouse, LiveStream, Analytics-Daten-Feeds usw.) nutzen automatisch die neuen verbesserten Zuordnungen. Das Format der Daten in Daten-Feeds wurde nicht geändert. Customer Journey Analytics-Daten, die über den Analytics Source Connector bereitgestellt werden, nutzen automatisch die neuen Zuordnungen.
+Alle Adobe Analytics-Tools (Analysis Workspace, Reports &amp; Analytics, Reporting-API, Data Warehouse, LiveStream, Analytics-Daten-Feeds usw.) nutzen automatisch die neuen verbesserten Zuordnungen. Das Format der Daten in Daten-Feeds wurde nicht geändert. Die über den Analytics Source Connector bereitgestellten Customer Journey Analytics-Daten nutzen automatisch die neuen Zuordnungen.
 
 +++**Mir ist aufgefallen, dass sich meine geografischen Daten irgendwann im Januar geändert haben.  Warum?**
 Die Partner-Adobe verwendet für die IP-zu-Geolocation-Zuordnung, Digital Element, eine neue, präzisere IP-Targeting-Datenbank namens NetAction Pulse. Durch die Adobe wurde die Annahme dieser neuen Datenbank auf Januar 2023 verschoben, um zu vermeiden, dass sich in der Winterurlaubszeit Änderungen ergeben.
