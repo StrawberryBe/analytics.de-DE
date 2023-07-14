@@ -4,10 +4,10 @@ description: Erfahren Sie, welche Variablen Sie in die an Adobe gesendeten Daten
 keywords: Appmeasurement;Variablen;Vars;Konfiguration;Seite;Implementierung
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: ed018e9b9b220630193b0b39d40a1f34afeb3d35
+source-git-commit: 1516a1353c1b0a3b7365c3e3f10ce74ae1255696
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 73%
+source-wordcount: '398'
+ht-degree: 70%
 
 ---
 
@@ -32,7 +32,7 @@ Hier finden Sie ein Video zum Konfigurieren von Variablen in Adobe Analytics:
 AppMeasurement-Bibliotheken, die von Adobe Analytics veröffentlicht werden, befolgen beim Senden von Daten an Adobe eine bestimmte Reihenfolge. Wenn Sie diese Aufgaben nicht in der richtigen Reihenfolge ausführen, können die Daten unvollständig sein.
 
 1. Wenn Ihre Website eine Datenschicht verwendet, stellen Sie sicher, dass alle entsprechenden Variablen zuerst gefüllt werden. Beispiel: Sie füllen `adobeDataLayer.page.title` mit dem Seitentitel. Weitere Informationen finden Sie unter [Datenschicht](../prepare/data-layer.md).
-2. Verwenden Sie die Datenschicht, um Analytics-Variablen zu füllen. <br/>Wenn Sie Tags in Adobe Experience Platform verwenden, erfolgt dies durch die Verwendung von Datenelementen dazwischen. Datenelemente werden mit Werten aus der Datenschicht gefüllt. Beispiel für ein Datenelement `Page Title` ruft den Wert aus der Datenschichtvariablen ab `adobeDataLayer.page.title`. <br/>Anschließend können Sie das Datenelement verwenden, um Analytics-Variablen zu füllen. Beispiel `eVar4` ruft den Wert aus dem Datenelement ab `Page Title`. <br/>Weitere Informationen finden Sie unter [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=de).
+2. Verwenden Sie die Datenschicht, um Analytics-Variablen zu füllen. <br/>Wenn Sie Tags in Adobe Experience Platform verwenden, erfolgt dies durch die Verwendung von Datenelementen dazwischen. Datenelemente werden mit Werten aus der Datenschicht gefüllt. Beispiel für ein Datenelement `Page Title` ruft den Wert aus der Datenschichtvariablen ab `adobeDataLayer.page.title`. <br/>Anschließend können Sie das Datenelement verwenden, um Analytics-Variablen zu füllen. Beispiel `eVar4` ruft den Wert aus dem Datenelement ab `Page Title`. <br/>Weitere Informationen finden Sie unter [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=de), [Zuordnen von Datenschichtobjekten zu Datenelementen](../launch/layer-to-elements.md)und [Tag-Datenelemente Analytics-Variablen zuordnen](../launch/elements-to-variable.md)
 3. Rufen Sie schließlich die Tracking-Funktion auf. Die meisten AppMeasurement-Bibliotheken verwenden die `t()`-Methode, doch einige mobile SDKs verwenden `track()`. Wenn die Tracking-Funktion aufgerufen wird, werden alle im Analytics-Objekt definierten unterstützten Variablen in Form einer Bildanforderung an Adobe gesendet.
 
 ## Unzulässige Zeichen
