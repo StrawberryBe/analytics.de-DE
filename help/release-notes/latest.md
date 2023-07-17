@@ -3,7 +3,7 @@ title: Neueste Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 73%
@@ -22,7 +22,7 @@ Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitste
 | ----------- | ---------- | ------- | ---- |
 | **Speicherorte für Cloud-Konten für die Aufnahme von Classification-Daten konfigurieren** | Sie können jetzt Speicherorte für Cloud-Konten verwalten, die für die Automatisierung von Klassifizierungssätzen verwendet werden. [Weitere Informationen](/help/components/locations/configure-import-accounts.md)<p> | Nicht angegeben | 10. Juli 2023 |
 | **Verbesserungen bei Datenreparaturfiltern** | Zur Datenreparatur wurden drei Filterverbesserungen hinzugefügt:<ul><li>Filtern Sie nach einer Variablen, um eine zweite Variable zu ändern. Wenn beispielsweise `eVar2` &quot;@&quot;enthält, dann löschen `eVar3`.</li><li>Nach numerischen oder nicht numerischen Werten filtern</li><li>Anwenden mehrerer Filter mit einem AND. Beispiel: wobei `eVar2="a"` UND `eVar3="b"`</li></ul>[Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21. Juni 2023 | 12. Juli 2023 |
-| **Sichere Ziele für den Export von Daten-Feeds** | Daten-Feeds können jetzt an die folgenden Cloud-Speicher-Ziele gesendet werden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Ziele, die zuvor verfügbar waren (FTP, SFTP, S3 und Azure Blob), werden nicht mehr empfohlen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=de) | 12. Juni 2023 | 15. Juli 2023 |
+| **Sichere Ziele für den Export von Daten-Feeds** | Daten-Feeds können jetzt an die folgenden Cloud-Speicher-Ziele gesendet werden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Ziele, die zuvor verfügbar waren (FTP, SFTP, S3 und Azure Blob), werden nicht mehr empfohlen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=de) | 12. Juni 2023 | 13. Juli 2023 |
 | **Neue AppMeasurement-Variable** | Die Variable `decodeLinkParameters` ist für Fälle gedacht, in denen Implementierungen Multi-Byte-Zeichen in Linktracking-Variablen codieren. Die meisten Implementierungen müssen diese Variable nicht festlegen. [Weitere Informationen](../implement/vars/config-vars/decodelinkparameters.md) |  | 17. Juli 2023 |
 
 {style="table-layout:auto"}

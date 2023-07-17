@@ -4,7 +4,7 @@ title: Komponentenübersicht
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -127,8 +127,6 @@ Sie können die Komponentenliste in der linken Leiste von Analysis Workspace suc
 4. (Optional) Um die Liste weiter zu präzisieren, können Sie die Komponentenliste sortieren, wie in [Sortieren der Komponentenliste](#sort-the-component-list) beschrieben.
 
 ### Sortieren der Komponentenliste
-
-{{release-limited-testing-section}}
 
 1. (Optional) Wenden Sie alle Filter auf die Komponentenliste an, wie unter [Filtern der Komponentenliste](#filter-the-component-list) beschrieben.
 
