@@ -3,10 +3,10 @@ title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+source-wordcount: '656'
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,11 @@ Im Folgenden finden Sie ein Video zur Benutzeroberfläche für die Verwaltung vo
 
 Gehen Sie wie folgt vor, um auf das Daten-Feed-Management zuzugreifen:
 
-1. Melden Sie sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-2. Klicken Sie oben rechts auf das 9-Raster-Menü und dann auf [!UICONTROL Analytics].
-3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] > [!UICONTROL Daten-Feeds].
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
+1. Wählen Sie das 9-Quadrat-Symbol oben rechts aus und wählen Sie dann [!UICONTROL **Analytics**].
+1. Navigieren Sie in der oberen Navigationsleiste zu [!UICONTROL **Admin**] > [!UICONTROL **Datenfeeds**].
 
-![Daten-Feed-Menü](assets/AdminMenu.png)
-
-## Navigieren der Oberfläche
+## Navigieren in der Benutzeroberfläche
 
 Wenn Sie zur Seite „Daten-Feed-Manager“ gelangen, sieht die Oberfläche wie folgt aus:
 
@@ -36,27 +34,25 @@ Wenn keine Feeds eingerichtet wurden, wird auf der Seite die Schaltfläche [!UIC
 
 ### Filter und Suche
 
-Verwenden Sie Filter und suchen Sie nach dem gewünschten Feed.
+Suchen Sie mithilfe von Suchvorgängen oder Filtern nach einem bestimmten Feed.
 
-Klicken Sie ganz links auf das Filtersymbol, um die Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie geordnet. Klicken Sie auf das Chevron, um die Filterkategorien ein- oder auszublenden. Markieren Sie das Kontrollkästchen, um diesen Filter anzuwenden.
+* Geben Sie im Suchfeld den Namen eines Feeds ein. In der Liste der verfügbaren Feeds werden nur die Feeds angezeigt, die übereinstimmen.
 
-![Filter](assets/filters.jpg)
+* Klicken Sie ganz links auf das Filtersymbol, um die Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie geordnet. Sie können Filterkategorien reduzieren oder erweitern. Aktivieren Sie das Kontrollkästchen neben den Filtern, die Sie anwenden möchten.
 
-Suchen Sie nach einem Feed anhand des Namens.
-
-![Durchsuchen](assets/search.jpg)
+  ![Filter](assets/filters.png)
 
 ### Feeds und Aufträge
 
-Klicken Sie auf die Registerkarte „Aufträge“, um einzelne Aufträge anzuzeigen, die von den jeweiligen Feeds erstellt werden. Siehe [Verwalten von Daten-Feed-Aufträgen](df-manage-jobs.md).
+Wählen Sie die [!UICONTROL **Aufträge**] um einzelne Aufträge anzuzeigen, die von jedem Ihrer Feeds erstellt werden. Siehe [Verwalten von Daten-Feed-Aufträgen](df-manage-jobs.md).
 
 ### Fügen Sie
 
-Klicken Sie in der Nähe der Registerkarten „Feeds“ und „Aufträge“ auf die Schaltfläche + [!UICONTROL Hinzufügen], um einen neuen Feed zu erstellen. Siehe [Erstellen eines Daten-Feeds](create-feed.md) für weitere Informationen.
+Die [!UICONTROL Hinzufügen] -Schaltfläche können Sie einen neuen Feed erstellen. Siehe [Erstellen eines Daten-Feeds](create-feed.md) für weitere Informationen.
 
 ### Spalten
 
-Jeder erstellte Feed zeigt mehrere Spalten mit Informationen an. Klicken Sie auf eine Spaltenüberschrift, um sie in aufsteigender Reihenfolge zu sortieren. Klicken Sie erneut auf eine Spaltenüberschrift, um sie in absteigender Reihenfolge zu sortieren. Wenn eine bestimmte Spalte nicht angezeigt wird, klicken Sie auf das Spaltensymbol oben rechts.
+Jeder erstellte Feed zeigt mehrere Spalten mit Informationen an. Wählen Sie eine Spaltenüberschrift aus, um sie in aufsteigender Reihenfolge zu sortieren. Wählen Sie eine Spaltenüberschrift erneut aus, um sie in absteigender Reihenfolge zu sortieren. Wenn eine bestimmte Spalte nicht angezeigt wird, klicken Sie oben rechts auf das Spaltensymbol.
 
 ![Spaltensymbol](assets/cols.jpg)
 

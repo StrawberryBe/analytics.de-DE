@@ -4,10 +4,10 @@ title: Flussvisualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 58f53da6076bf57d060303538814582cb5eb009c
+source-git-commit: d1c2966bfd7cb5e397de23adf45bb38fca34e416
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 63%
+source-wordcount: '1351'
+ht-degree: 62%
 
 ---
 
@@ -23,11 +23,9 @@ Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads, an dem
 
 1. Fügen Sie ein leeres Bedienfeld zu Ihrem Projekt hinzu und klicken Sie in der linken Leiste auf das Visualisierungssymbol.
 
-1. Ziehen Sie die [!UICONTROL **Fluss**] Visualisierung in das Bedienfeld ein.
-
    Oder
 
-   Ziehen Sie die [!UICONTROL **Fluss**] Visualisierung in ein vorhandenes Projekt.
+   Fügen Sie eine Visualisierung auf eine der im Abschnitt &quot;Visualisierungen zu einem Bedienfeld hinzufügen&quot;unter [Visualisierungen - Übersicht](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Die Flussvisualisierung können Sie mit einer der folgenden Optionen verankern:
 
@@ -45,7 +43,7 @@ Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads, an dem
    >
    >Berechnete Metriken können nicht im  **[!UICONTROL Beginnt mit]** oder **[!UICONTROL Endet in]** -Felder.
 
-1. Wenn Sie eine Metrik auswählen, müssen Sie auch eine [!UICONTROL Pathing-Dimension] , um als Pfad zu verwenden, der zu Ihrer ausgewählten Komponente führt oder von dieser weg führt, wie hier dargestellt. Die Standardeinstellung ist [!UICONTROL **Seite**].
+1. Wenn Sie eine Metrik auswählen, müssen Sie auch eine [!UICONTROL **Pathing-Dimension**] , um als Pfad zu verwenden, der zu Ihrer ausgewählten Komponente führt oder von dieser weg führt, wie hier dargestellt. Die Standardeinstellung ist [!UICONTROL **Seite**].
 
    ![Pfaddimension](assets/pathing-dim.png)
 
