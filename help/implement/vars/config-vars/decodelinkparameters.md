@@ -3,7 +3,7 @@ title: decodeLinkParameters
 description: Aktivieren oder deaktivieren Sie die AppMeasurement-Doppelkodierung von Linktracking-Variablen.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # decodeLinkParameters
 
-Die `decodeLinkParameters` ist ein boolescher Wert, der bestimmt, ob Linktracking-Variablen einmal kodiert werden (bei `true`) oder zweimal (wenn auf `false`). Es betrifft nur `linkName` (Teil der [`tl()`](../functions/tl-method.md) Methode) und [`linkURL`](linkurl.md). Es ist AppMeasurement 2.23.1 oder höher erforderlich. Der Standardwert dieser Variablen ist `false`.
+Die `decodeLinkParameters` ist ein boolescher Wert, der bestimmt, ob Linktracking-Variablen einmal kodiert werden (bei `true`) oder zweimal (wenn auf `false`). Es betrifft nur `linkName` (Teil der [`tl()`](../functions/tl-method.md) Methode) und [`linkURL`](linkurl.md). Es ist AppMeasurement 2.24.0 oder höher erforderlich. Der Standardwert dieser Variablen ist `false`.
 
 In früheren Versionen von AppMeasurement waren Linktracking-Variablen immer zweimal URL-kodiert. Bei Implementierungen, die normalerweise auf Einzelbyte-Zeichen angewiesen sind, stellt die Doppelkodierung zwar kein Problem dar, sie hat aber falsch kodierte Werte für Multibytezeichen in Berichten erstellt. Diese Variable auf setzen `true` kodiert die Linktracking-Werte einmal, was normalerweise das gewünschte Verhalten ist.
 
