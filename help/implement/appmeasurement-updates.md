@@ -3,9 +3,9 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
+source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2366'
 ht-degree: 96%
 
 ---
@@ -16,7 +16,7 @@ Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Sie können die neueste Version von AppMeasurement im [GitHub](https://github.com/adobe/appmeasurement/releases).
+Sie können die neueste Version von AppMeasurement von herunterladen. [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Version 2.24.0
 
