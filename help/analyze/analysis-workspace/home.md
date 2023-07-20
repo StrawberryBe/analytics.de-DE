@@ -4,10 +4,10 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 31%
+source-wordcount: '760'
+ht-degree: 32%
 
 ---
 
@@ -77,6 +77,10 @@ Nachdem Sie sich mit der Komponententerminologie vertraut gemacht haben, können
 Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
 
 Weitere Informationen zum Datenwörterbuch finden Sie unter [Datenwörterbuch - Übersicht](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+
+### Datenquellen
+
+Beim Synchronisieren von Visualisierungen können Sie kontrollieren, welche Datentabelle oder Datenquelle zu einer Visualisierung gehört. Im Folgenden finden Sie weitere Informationen dazu, wie Sie [Datenquellen verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Mit Analysis Workspace beginnen
 

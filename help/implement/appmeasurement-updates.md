@@ -3,7 +3,7 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 96%
@@ -22,7 +22,7 @@ Sie können die neueste Version von AppMeasurement von herunterladen. [GitHub](h
 
 Releasedatum: **18. Juli 2023**
 
-* Eine optionale Konfiguration wurde hinzugefügt (`decodeLinkParameters` Standard (false), das Verknüpfungs-URLs dekodiert, die doppelt-Byte-kodierte Zeichen enthalten.
+* Eine optionale Konfiguration wurde hinzugefügt (`decodeLinkParameters` - default = false), das Verknüpfungs-URLs dekodiert, die doppelt-Byte-kodierte Zeichen enthalten.
 * Zusätzliche Fehlerbehandlung für Browser mit fehlerhafter High-Entropy User-Agent-Client-Hints-APIs mit hoher Entropie.
 * Die Content-Type-Kopfzeile der POST wurde zur Verwendung geändert `x-www-form-urlencoded` Standardmäßig.
 
