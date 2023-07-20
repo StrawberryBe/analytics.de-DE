@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Juli 2023** | |
+| Aktualisierte FTP-Größenbeschränkung | Die standardmäßige [FTP-Datenspeichergrenze](/help/export/ftp-and-sftp/ftp-limits.md) wurde auf 100 GB geändert. |
 | Neue AppMeasurement-Variable | Die Variable `decodeLinkParameters` ist für Fälle gedacht, in denen Implementierungen Multi-Byte-Zeichen in Linktracking-Variablen codieren. [Weitere Informationen](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Juni 2023** | |
 | Neue Funktionen für Klassifizierungssätze | [Klassifizierungssätze](/help/components/classifications/sets/overview.md) wurden mit verschiedenen neuen Funktionen aktualisiert:<ul><li>**Konsolidierung**: Kombinieren Sie Klassifizierungssätze zu einem einzigen konsolidierten Klassifizierungssatz. Der konsolidierte Classification-Satz kann wie andere Classification-Sets oder als Lookup-Datensatz in Customer Journey Analytics verwendet werden. [Weitere Informationen](../components/classifications/sets/consolidations/manage.md)</li><li>**Regeln**: Klassifizieren Sie Werte automatisch anhand von Regeln im Klassifizierungssatz. [Weitere Informationen](../components/classifications/sets/manage/rules.md)</li><li>**Automatisierter Import**: Automatisches Importieren von Klassifizierungsdaten aus Cloud-Speicher-Zielen. [Weitere Informationen](../components/classifications/sets/manage/schema.md)</li></ul> |
@@ -59,7 +60,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Februar 2023** | |
 | Implementierung | Inhalt zum [Implementieren von Adobe Analytics für Web und Mobile](../implement/home.md) aktualisiert. |
 | Workspace-Kalender und Datumsbereiche | Inhalt aktualisiert, um relative Datumsbereiche, Aktualisierungen der Formelberechnung und Änderungen an der Kalenderbenutzeroberfläche zu beschreiben. Siehe [Über relative Bedienfelddatumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Mobile Scorecards | Neuer Dokumentationsabschnitt, um zu beschreiben, wie Sie Vergleichsdatumsbereiche ein- und ausblenden. Siehe [Vergleichsdatumsbereiche anzeigen](/help/analyze/mobile-app/create-scorecard.md) in Customer Journey Analytics. |
+| Mobile Scorecards | Neuer Dokumentationsabschnitt, um zu beschreiben, wie Sie Vergleichsdatumsbereiche ein- und ausblenden. Siehe [Anzeigen von Vergleichsdatumsbereichen](/help/analyze/mobile-app/create-scorecard.md) in Customer Journey Analytics. |
 | 1.4 API | Die [Adobe Analytics 1.4-API](https://developer.adobe.com/analytics-apis/docs/1.4/) wurde vollständig umgestaltet und ist jetzt in Adobe Developer veröffentlicht. |
 | Tracking über verschiedene Implementierungstypen hinweg | Anwendungsfall zum [Tracking über verschiedene Implementierungstypen hinweg](../implement/use-cases/cross-type-implementation.md) aktualisiert, um den Experience Cloud-ID-Service zu berücksichtigen. |
 | **Januar 2023** | |
