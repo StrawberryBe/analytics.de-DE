@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -72,7 +72,6 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 
    * Eine begleitende Visualisierung, in diesem Fall ein [Balkendiagramm](/help/analyze/analysis-workspace/visualizations/bar.md). Die erstellte Visualisierung basiert auf dem Datentyp, den Sie der Tabelle hinzugefügt haben. Zeitbasierte Daten (z. B. [!UICONTROL Besuche] pro Tag/Monat) verwenden standardmäßig ein [!UICONTROL Liniendiagramm]. Alle nicht zeitbasierten Daten (z. B. [!UICONTROL Besuche] pro [!UICONTROL Gerät]) verwenden standardmäßig ein [!UICONTROL Balkendiagramm]. Sie können den Visualisierungstyp ändern, indem Sie auf den Dropdown-Pfeil neben dem Visualisierungstyp klicken.
 
-
 1. (Optional) Führen Sie einen Drilldown für Dimensionen durch und zeigen Sie Dimensionselemente an, indem Sie auf den Pfeil „>“ rechts neben der Dimension klicken.
 
 1. Versuchen Sie, einige weitere Verfeinerungen hinzuzufügen, wie nachfolgend unter „Weitere Tipps“ beschrieben.
@@ -85,19 +84,19 @@ Weitere nützliche Hinweise werden im [!UICONTROL Quick Insights Builder] angeze
 
 * Schließen Sie zunächst das Tutorial **[!UICONTROL Weitere Tipps]** ab: Greifen Sie über das Hilfe- Symbol (?) neben dem Titel [!UICONTROL Quick Insights] darauf zu. Dieses Tutorial wird 24 Stunden nach dem Erstellen eines Projekts mit mindestens einer Dimension und einer Metrik angezeigt.
 
-   ![](assets/qibuilder4.png)
+  ![](assets/qibuilder4.png)
 
 * **Aufschlüsselung nach**: Sie können bis zu drei Aufschlüsselungsebenen für Dimensionen verwenden, um einen Drilldown zu den Daten durchzuführen, die Sie benötigen.
 
-   ![](assets/qibuilder5.png)
+  ![](assets/qibuilder5.png)
 
 * **Weitere Metriken hinzufügen**: Mithilfe des AND-Operators können Sie bis zu 2 weitere Metriken hinzufügen.
 
-   ![](assets/qibuilder6.png)
+  ![](assets/qibuilder6.png)
 
 * **Weitere Segmente hinzufügen**: Mithilfe des AND- oder OR-Operators können Sie bis zu 2 weitere Segmente hinzufügen. Sehen Sie sich an, was mit der Tabelle passiert, wenn Sie „Mobilbenutzer OR Treue Besucher“ hinzufügen. Sie finden sie nebeneinander über den Metriken. Wenn Sie „Mobilbenutzer AND Treue Besucher“ hinzufügen, werden die Ergebnisse beider Segmente zusammen angezeigt und in der Tabelle übereinander gestapelt.
 
-   ![](assets/qibuilder7.png)
+  ![](assets/qibuilder7.png)
 
 ## Bekannte Einschränkungen
 
