@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
+source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 99%
+source-wordcount: '4529'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Juli 2023** | |
+| Globale Unternehmens-ID | Dokumentation [wie Sie die globale Unternehmens-ID finden](../admin/admin/company/web-services-admin.md) für das Analytics-Unternehmen, bei dem Sie angemeldet sind. Diese ID ist für Analytics 2.0-APIs erforderlich. |
 | Aktualisierte FTP-Größenbeschränkung | Die standardmäßige [FTP-Datenspeichergrenze](/help/export/ftp-and-sftp/ftp-limits.md) wurde auf 100 GB geändert. |
 | Neue AppMeasurement-Variable | Die Variable `decodeLinkParameters` ist für Fälle gedacht, in denen Implementierungen Multi-Byte-Zeichen in Linktracking-Variablen codieren. [Weitere Informationen](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Juni 2023** | |

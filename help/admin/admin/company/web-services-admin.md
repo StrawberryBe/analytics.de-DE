@@ -3,10 +3,10 @@ description: Die Web Services APIs bieten Programmierungszugriff auf Marketing-B
 title: Web-Services
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: d2a644d1b655153e1ad509bf9065c390d9226cfc
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 85%
 
 ---
 
@@ -14,9 +14,14 @@ ht-degree: 100%
 
 Die Web Services APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Webservices]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Webservices]** oder **API-Zugriff**
 
-## Verwalten von Webservices
+
+## Analytics 2.0 APIs
+
+Für den Zugriff auf die Analytics 2.0-APIs benötigen Sie die globale Unternehmens-ID Ihres Analytics-Unternehmens. Sie finden die globale Unternehmens-ID, bei der Sie derzeit angemeldet sind. **fett** in diesem Abschnitt.
+
+## Verwalten älterer Web-Services (nicht mehr unterstützt)
 
 Sie können in der [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) den Benutzern Berechtigungen erteilen, die Zugriff auf die Webservices-APIs benötigen.
 
