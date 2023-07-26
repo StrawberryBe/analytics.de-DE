@@ -3,16 +3,16 @@ title: Implementieren von Analytics für Mobilgeräte
 description: Bestimmen Sie, welche mobile AppMeasurement-Bibliothek verwendet werden soll.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 86b6b5b8fc406bab0634997b0297d44c82c636fe
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 78%
+source-wordcount: '70'
+ht-degree: 51%
 
 ---
 
 # Implementieren von Analytics für Mobilgeräte
 
-Informationen zur Implementierung von Analytics für Mobilgeräte finden Sie in den folgenden SDK-Repositorys und Dokumenten:
+Verwenden Sie das Adobe Experience Platform Mobile SDK, um Analytics für Mobilgeräte zu implementieren. Siehe [Mobile SDK - Übersicht](aep-edge/mobile-sdk/overview.md) für weitere Informationen.
 
 ## Mobile-SDKs für Adobe Experience Platform
 
