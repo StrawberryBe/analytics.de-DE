@@ -3,7 +3,7 @@ title: Implementieren von Adobe Analytics mit der Adobe Experience Platform Edge
 description: Verwenden Sie die Adobe Experience Platform Edge Network Server-API, um Daten an Adobe Analytics zu senden.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 41%
@@ -18,7 +18,7 @@ Beachten Sie auch die Edge Network Server-API, wenn vertrauliche Daten sicher er
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
-![Workflow von Adobe Analytics mit der Analytics-Erweiterung](../../assets/edge-network-server-api.svg)
+![Workflow von Adobe Analytics mit der Analytics-Erweiterung](../../assets/edge-network-server-api.png)
 
 <table style="width:100%">
 
