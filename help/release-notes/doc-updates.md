@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
 workflow-type: tm+mt
-source-wordcount: '4615'
-ht-degree: 98%
+source-wordcount: '4623'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Juli 2023** | |
-| Adobe Experience Platform Edge Network Server API | Es wurde eine umfassendere Dokumentation hinzugefügt, in der beschrieben wird, wann und wie die [Adobe Experience Platform Edge Network Server-API](../implement/aep-edge/server-api/overview.md). Legen Sie beispielsweise bei der Implementierung von Adobe Analytics für Desktop-Anwendungen, IoT-Geräte, die Top-Boxen fest. |
+| Adobe Experience Platform Edge Network Server API | Es wurde eine umfassendere Dokumentation hinzugefügt, in der beschrieben wird, wann und wie die Datenerfassung mit Adobe Analytics mithilfe der [Adobe Experience Platform Edge Network Server-API](../implement/aep-edge/server-api/overview.md). Beispielsweise können Sie bei der Implementierung der Datenerfassung mit Adobe Analytics in Desktop-Applikationen, IoT-Geräten, Top-Boxen festlegen. |
 | Globale Unternehmens-ID | Dokumentation [Ermitteln der globalen Unternehmens-ID](../admin/admin/company/web-services-admin.md) für das Analytics-Unternehmen, bei dem Sie angemeldet sind. Diese ID ist für Analytics 2.0-APIs erforderlich. |
 | Aktualisierte FTP-Größenbeschränkung | Die standardmäßige [FTP-Datenspeichergrenze](/help/export/ftp-and-sftp/ftp-limits.md) wurde auf 100 GB geändert. |
 | Neue AppMeasurement-Variable | Die Variable `decodeLinkParameters` ist für Fälle gedacht, in denen Implementierungen Multi-Byte-Zeichen in Linktracking-Variablen codieren. [Weitere Informationen](../implement/vars/config-vars/decodelinkparameters.md) |
