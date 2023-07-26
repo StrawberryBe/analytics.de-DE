@@ -3,9 +3,9 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3122'
 ht-degree: 22%
 
 ---
@@ -31,7 +31,7 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
 
    ![Hinzufügen von Daten-Feeds](assets/datafeed-add.png)
 
-   Eine Seite wird mit drei Hauptkategorien angezeigt: [!UICONTROL **Feed-Informationen**], [!UICONTROL **Ziel**] und [!UICONTROL **Datenspaltendefinitionen**].
+   Eine Seite wird mit drei Hauptkategorien angezeigt: [!UICONTROL **Feed-Informationen**], [!UICONTROL **Ziel**], und [!UICONTROL **Datenspaltendefinitionen**].
 1. Im [!UICONTROL **Feed-Informationen**] die folgenden Felder aus:
 
    | Feld | Funktion |
@@ -39,7 +39,7 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
    | [!UICONTROL **Name**] | Der Name des Daten-Feeds. Muss innerhalb der ausgewählten Report Suite eindeutig sein. Er kann bis zu 255 Zeichen enthalten. |
    | [!UICONTROL **Report Suite**] | Die Report Suite, auf der der Daten-Feed basiert. Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, müssen sie unterschiedliche Spaltendefinitionen haben. Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt. |
    | [!UICONTROL **E-Mail nach Abschluss**] | Die E-Mail-Adresse, die benachrichtigt werden soll, wenn die Verarbeitung eines Feeds abgeschlossen ist. Die E-Mail-Adresse muss korrekt formatiert sein. |
-   | [!UICONTROL **Feed-Intervall**] | Auswählen **Täglich** für Aufstockungsdaten oder historische Daten. Tägliche Feeds enthalten Daten zu einem vollständigen Tageswert, von Mitternacht bis Mitternacht in der Zeitzone der Report Suite.  Auswählen **Stündlich** für kontinuierliche Daten (Täglich ist auch für die Fortsetzung von Feeds verfügbar, falls gewünscht). Stündliche Feeds enthalten Daten aus einer Stunde. |
+   | [!UICONTROL **Feedintervall**] | Auswählen **Täglich** für Aufstockungsdaten oder historische Daten. Tägliche Feeds enthalten Daten zu einem vollständigen Tageswert, von Mitternacht bis Mitternacht in der Zeitzone der Report Suite.  Auswählen **Stündlich** für kontinuierliche Daten (Täglich ist auch für die Fortsetzung von Feeds verfügbar, falls gewünscht). Stündliche Feeds enthalten Daten aus einer Stunde. |
    | [!UICONTROL **Verarbeitung verzögern**] | Warten Sie eine bestimmte Zeit, bevor Sie eine Daten-Feed-Datei verarbeiten. Eine Verzögerung kann nützlich sein, um mobilen Implementierungen die Möglichkeit zu geben, dass Offlinegeräte online gehen und Daten senden können. Sie kann auch verwendet werden, um die serverseitigen Prozesse Ihrer Organisation bei der Verwaltung zuvor verarbeiteter Dateien zu berücksichtigen. In den meisten Fällen ist keine Verzögerung erforderlich. Ein Feed kann um bis zu 120 Minuten verzögert werden. |
    | [!UICONTROL **Start- und Enddaten**] | Das Startdatum gibt das erste Datum an, an dem Sie einen Daten-Feed erstellen möchten. Legen Sie dieses Datum in der Vergangenheit fest, um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen. Feeds werden bis zum Enddatum verarbeitet. Start- und Enddatum basieren auf der Zeitzone der Report Suite. |
    | [!UICONTROL **Kontinuierlicher Feed**] | Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung. |
@@ -140,8 +140,8 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Ein Name für das Azure RBAC-Konto. Dieser Name wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
-         | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure RBAC-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
+         | [!UICONTROL **Kontoname**] | Ein Name für das Azure RBAC-Konto. Dieser Name wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
+         | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure RBAC-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Zertifikate &amp; Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -152,8 +152,8 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
+         | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
+         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Konto**] | Das Azure-Speicherkonto. |
          | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie Berechtigungen zum Hochladen von Dateien in die Azure-Anwendung erteilen, die Sie zuvor erstellt haben. |
          | [!UICONTROL **Präfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
@@ -200,8 +200,8 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Ein Name für das Azure SAS-Konto. Dieser Name wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
-         | [!UICONTROL **Kontodeklaration**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
+         | [!UICONTROL **Kontoname**] | Ein Name für das Azure SAS-Konto. Dieser Name wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
+         | [!UICONTROL **Kontodeklaration**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Schlüssel-Vault-URI erstellt wurde, fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
@@ -214,8 +214,8 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und können aus einem beliebigen Namen bestehen. |
+         | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
+         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
          | [!UICONTROL **Präfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
 
@@ -262,7 +262,6 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
          | [!UICONTROL **Kontoname**] | Ein Name für das Konto. Dabei kann es sich um einen beliebigen Namen handeln. |
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Konto. |
          | [!UICONTROL **Projekt-ID**] | Ihre Google Cloud-Projekt-ID. Siehe [Dokumentation zu Google Cloud zum Abrufen einer Projekt-ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
-         | [!UICONTROL **Prinzipal**] | Der Prinzipal wird von der Adobe bereitgestellt. Sie müssen diesem Prinzipal eine Berechtigung erteilen, um Feeds zu empfangen. Siehe [Google Cloud-Dokumentation zum Hinzufügen eines Prinzipals zu einer Richtlinie](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-iam). |
 
          {style="table-layout:auto"}
 
@@ -317,6 +316,7 @@ Die folgenden Informationen enthalten Konfigurationsinformationen für die einze
 Daten-Feed-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
 
 Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informationen:
+
 * [!UICONTROL **Host**]: Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp://ftp.omniture.com`.
 * [!UICONTROL **Pfad**]: Kann leer gelassen werden
 * [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der FTP-Site anzumelden.

@@ -3,10 +3,10 @@ title: Adobe Analytics-Berechtigungen – Übersichtstabellen
 description: Tabellen, in denen die verfügbaren Adobe Analytics-Berechtigungen in der Adobe Admin Console zusammengefasst werden.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
-workflow-type: ht
-source-wordcount: '1280'
-ht-degree: 100%
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Report Suites (Schreiben) |  |  |  | x | Nicht verwendet. |
 | SiteCatalyst |  |  |  | x | Nicht verwendet. Verwenden Sie stattdessen „Zugriff auf Analysis Workspace“. |
 | Social |  |  |  | x | Nicht verwendet. |
-| Text-Reportlet |  |  |  | x | Nicht verwendet. |
+| Text-Reportlet |  |  |   | x | Nicht verwendet. |
 | Traffic-Management |  |  |  | x | Nicht verwendet. |
 | Gebrauchszusammenfassungs-Reportlet |  |  |  | x | Nicht verwendet. |
 | Videoeinstellungen |  |  |  | x | Nicht verwendet. |
@@ -88,6 +88,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Support | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Supportinfo“. |
 | Traffic-Management | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Traffic-Management“. |
 | Web-Services | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Web-Services“. |
+| Projekt-Links für alle freigeben | x |  |  |  | Ermöglicht Benutzern Zugriff auf die Freigabe für andere Benutzer unter einem Workspace-Projekt > Freigeben > Für alle freigeben . |
 | Activity Map |  | x |  |  | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
 | Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis wird nicht mehr unterstützt. [Weitere Informationen](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Zugriff auf Analysis Workspace |  | x |  |  | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
