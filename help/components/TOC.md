@@ -5,9 +5,9 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 88%
    + [Kompatibilität der Dimensionen](dimensions/compatibility.md)
    + [Rangansicht aller Suchseiten](dimensions/all-search-page-rank.md)
    + [Vormittag/Nachmittag](dimensions/am-pm.md)
-   + [Bot name](dimensions/bot-name.md)
+   + [Bot-Name](dimensions/bot-name.md)
    + [Browser-Höhe](dimensions/browser-height.md)
    + [Browser-Typ](dimensions/browser-type.md)
    + [Browser-Breite](dimensions/browser-width.md)
@@ -31,8 +31,8 @@ ht-degree: 88%
    + [Städte](dimensions/cities.md)
    + [Farbtiefe](dimensions/color-depth.md)
    + [Verbindungstyp](dimensions/connection-type.md)
-   + [Opt-in für die Einverständnisverwaltung](dimensions/cm-opt-in.md)
-   + [Opt-out aus der Einverständnisverwaltung](dimensions/cm-opt-out.md)
+   + [Einverständnisverwaltungs-Opt-in](dimensions/cm-opt-in.md)
+   + [Einverständnisverwaltungs-Opt-out](dimensions/cm-opt-out.md)
    + [Cookie-Unterstützung](dimensions/cookie-support.md)
    + [Länder](dimensions/countries.md)
    + [Benutzerspezifischer Link](dimensions/custom-link.md)
@@ -112,7 +112,7 @@ ht-degree: 88%
    + [Durchschnittliche Seitenansichten pro Besuch](metrics/average-page-views-per-visit.md)
    + [Durchschnittliche Sitzungslänge](metrics/average-session-length.md)
    + [Durchschnittliche Besuchszeit pro Site](metrics/average-time-on-site.md)
-   + [Bot-Vorkommen](metrics/bot-occurrences.md)
+   + [Bot-Vorfälle](metrics/bot-occurrences.md)
    + [Bot-Seitenansichten](metrics/bot-page-views.md)
    + [Absprungrate](metrics/bounce-rate.md)
    + [Absprünge](metrics/bounces.md)
@@ -155,8 +155,8 @@ ht-degree: 88%
    + [Besuche](metrics/visits.md)
 + Segmentierung {#segmentation}
    + [Analytics-Segmentierung](segmentation/seg-home.md)
-   + [Über Segmente](segmentation/seg-overview.md)
-   + [Über Segmentbehälter](segmentation/seg-containers.md)
+   + [Informationen zu Segmenten](segmentation/seg-overview.md)
+   + [Informationen zu Segment-Containern](segmentation/seg-containers.md)
    + [Segmentierungsfunktionen in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Segmentierungs-Workflow {#segmentation-workflow}
       + [Übersicht über den Segmentierungs-Workflow](segmentation/segmentation-workflow/seg-workflow.md)
@@ -177,7 +177,7 @@ ht-degree: 88%
       + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
-   + [Häufig gestellte Fragen zur Verwaltung älterer Segmente](segmentation/seg-transition.md)
+   + [Häufig gestellte Fragen zur Handhabung älterer Segmente](segmentation/seg-transition.md)
    + [Best Practices](segmentation/best-practices.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
@@ -187,8 +187,8 @@ ht-degree: 88%
       + [Metriken suchen](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Erstellen von Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Erstellen einer Metrik vom Typ „Seitenansichten pro Besuch“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Erstellen einer Metrik &quot;Bestellhilfen&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Erstellen einer Metrik „Teilnahme“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Erstellen einer Metrik vom Typ „Bestellhilfen“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Erstellen einer Metrik vom Typ „Teilnahme“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Metriktyp und Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Segmentierte Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmente stapeln und ersetzen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -204,7 +204,7 @@ ht-degree: 88%
       + [Metrikkompatibilität](c-calcmetrics/cm-compatibility.md)
       + [Berechnete Metriken: Rollenbasierte Rechte](c-calcmetrics/cm-role-based-rights.md)
       + [Berechnete Metriken insgesamt](c-calcmetrics/cm-totals.md)
-      + [Standardmäßig berechnete Metriken](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [Standardmäßige berechnete Metriken](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
    + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
    + [Virtual Report Suite – Kuratierung von Komponenten](vrs/vrs-components.md)
@@ -235,17 +235,17 @@ ht-degree: 88%
 + Classifications {#classifications}
    + [Übersicht über Klassifizierungen](classifications/c-classifications.md)
    + Klassifizierungssätze {#sets}
-      + [Übersicht über Klassifizierungssätze](classifications/sets/overview.md)
-      + Verwalten von Classification-Sets {#manage}
-         + [Classification Set Manager](classifications/sets/manage/set-manager.md)
-         + [Erstellen eines Classification-Sets](classifications/sets/manage/create.md)
-         + [Einstellungen für Klassifizierungssätze](classifications/sets/manage/settings.md)
-         + [Klassifizierungsset-Schema](classifications/sets/manage/schema.md)
-         + [Classification-Set-Regeln](classifications/sets/manage/rules.md)
+      + [Klassifizierungssätze – Übersicht](classifications/sets/overview.md)
+      + Verwalten von Klassifizierungssätzen {#manage}
+         + [Klassifizierungssatz-Manager](classifications/sets/manage/set-manager.md)
+         + [Erstellen eines Klassifizierungssatzes](classifications/sets/manage/create.md)
+         + [Klassifizierungssatz-Einstellungen](classifications/sets/manage/settings.md)
+         + [Klassifizierungssatz-Schema](classifications/sets/manage/schema.md)
+         + [Klassifizierungssatz-Regeln](classifications/sets/manage/rules.md)
       + [Auftrags-Manager für Klassifizierungssätze](classifications/sets/job-manager.md)
-      + Klassifizierungssatz-Konsolidierung {#consolidations}
-         + [Konsolidierungs-Manager für Klassifizierungssätze](classifications/sets/consolidations/manage.md)
-         + [Konsolidierungsprozess für Klassifizierungssätze](classifications/sets/consolidations/process.md)
+      + Klassifizierungssatz-Konsolidierungen {#consolidations}
+         + [Manager für Klassifizierungssatz-Konsolidierungen](classifications/sets/consolidations/manage.md)
+         + [Prozess für Konsolidierungssatz-Konsolidierungen](classifications/sets/consolidations/process.md)
    + Classification Rule Builder {#classifications-rulebuilder}
       + [Classification Rule Builder-Workflow](classifications/crb/classification-rule-builder.md)
       + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
@@ -269,7 +269,7 @@ ht-degree: 88%
    + [Unterklassifizierungen](classifications/c-sub-classifications.md)
    + [Häufig gestellte Fragen zu Klassifizierungen](classifications/faq.md)
 + Standorte {#locations}
-   + [Locations Manager](/help/components/locations/locations-manager.md)
+   + [Standorte-Manager](/help/components/locations/locations-manager.md)
    + [Cloud-Importkonten](/help/components/locations/configure-import-accounts.md)
    + [Cloud-Importspeicherorte](/help/components/locations/configure-import-locations.md)
 + [Kalenderereignisse](t-calendar-event.md)
