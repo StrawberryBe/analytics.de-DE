@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] al
 | Neue Links zu **[!UICONTROL Reports &amp; Analytics]**-Berichten | <ul><li>**[!UICONTROL Berichte]** > **[!UICONTROL Zielgruppe]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Berichte]** > **[!UICONTROL Zielgruppe]** > **[!UICONTROL Bot-Seiten]**<li>**[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Echtzeit]**</li></ul> | ![Neue Links](assets/report-links.png) |
 | Neue native Berichte | <ul><li>**[!UICONTROL Berichte]** > **[!UICONTROL Am beliebtesten]** > **[!UICONTROL Nächste Seite]**</li><li>**[!UICONTROL Berichte]** > **[!UICONTROL Am beliebtesten]** > **[!UICONTROL Vorherige Seite]**</li><li>**[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Seitenanalyse]** > **[!UICONTROL Seitenzusammenfassung]**</li></ul>Beachten Sie, dass diese Berichte im [!UICONTROL Arbeitsbereich]-Format vorliegen und eine Konfiguration und Erstellung erfordern. Die Ausgabe besteht aus einem Bereich mit allgemeinen Metriken, Trend-Daten, [!UICONTROL Flussvisualisierung] und mehr. Sie können diese Berichte anpassen und Dimensionen, Dimensionselemente usw. ändern. Diese Berichte sind auch als Bedienfelder unter Arbeitsbereich-Bedienfeldern verfügbar. | ![Nächste Seite](assets/next-page.png) |
 | Das Modal **[!UICONTROL Projekt erstellen]** ist wieder verfügbar. | Wenn Sie in Analysis Workspace auf **[!UICONTROL Projekt erstellen]** klicken, haben Sie erneut die Wahl zwischen einem [!UICONTROL leeren Projekt] und einer [!UICONTROL leeren mobilen Scorecard]. Sie können auch aus beliebigen Vorlagen wählen, die Ihr Unternehmen erstellt hat. | ![Neu erstellen](assets/create-new.png) |
-| Auch in Customer Journey Analytics verfügbar | Diese Landingpage in geänderter Form ist auch in Customer Journey Analytics verfügbar. |  |
+| Auch in Customer Journey Analytics verfügbar | Diese Landingpage ist in abgeänderter Form auch in Customer Journey Analytics verfügbar. |  |
 
 {style="table-layout:auto"}
 
@@ -101,7 +101,7 @@ Ein weiterer Anwendungsfall für Administrierende ist die Verwaltung von Unterne
 
 ## Navigieren durch die Registerkarte [!UICONTROL Berichte] {#navigate-reports}
 
-Die [!UICONTROL Berichte] tab fasst die folgenden Berichtssätze zusammen:
+Die Registerkarte [!UICONTROL Berichte] fasst die folgenden drei Berichtssätze zusammen:
 
 * Die vordefinierten [!UICONTROL Arbeitsbereich]-Vorlagen, die sich zuvor unter [!UICONTROL Arbeitsbereich] > [!UICONTROL Projekt] > [!UICONTROL Neu] befanden. Adobe verwendet in diesem Zusammenhang nicht mehr das Wort „Vorlage“.
 * Die meisten vordefinierten Berichte befanden sich zuvor in Adobe Analytics im oberen Menü [!UICONTROL Berichte]. Diese Berichte werden jetzt in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de) angezeigt.
@@ -110,15 +110,15 @@ Die [!UICONTROL Berichte] tab fasst die folgenden Berichtssätze zusammen:
 >
 >Beachten Sie bei der Verwendung von Berichten Folgendes:
 >* Unter „Berichte“ wird der Ordner „Favoriten“ nur angezeigt, wenn Sie einen neuen Bericht als Favoriten markieren. Es werden keine bereits vorhandenen Reports &amp; Analytics-Favoriten übernommen.
->* Es sind nur die am häufigsten verwendeten Berichte verfügbar, die zuvor in Reports &amp; Analytics gruppiert wurden. Eine Handvoll selten verwendeter oder nicht mehr relevanter Berichte ist nicht mehr verfügbar. Siehe [Häufig gestellte Fragen zu Landingpages](#landing-page-faq) unten finden Sie weitere Details.
+>* Es sind nur die am häufigsten verwendeten Berichte verfügbar, die zuvor in Reports &amp; Analytics gruppiert waren. Eine Handvoll selten verwendeter oder nicht mehr relevanter Berichte ist nicht mehr verfügbar. Sehen Sie sich im Folgenden die [häufig gestellten Fragen zu Landingpages](#landing-page-faq) an, um weitere Details zu erhalten.
 
 ![Registerkarte „Berichte“](assets/reports-tab2.png)
 
 
-### Berichte anzeigen {#menus}
+### Anzeigen von Berichten {#menus}
 
-1. Navigieren Sie zur Registerkarte [!UICONTROL **Berichte**]
-1. Verwenden Sie das Suchfeld, um nach einem bestimmten Bericht zu suchen.
+1. Navigieren Sie zur Registerkarte [!UICONTROL **Berichte**].
+1. Wenn Sie nach einem bestimmten Bericht suchen möchten, verwenden Sie das Suchfeld.
 
    Oder
 
@@ -134,12 +134,12 @@ Die [!UICONTROL Berichte] tab fasst die folgenden Berichtssätze zusammen:
    | **[!UICONTROL Zielgruppe]** | <ul><li>Personenmetrik (Wie viele Personen interagieren mit meiner Marke?)</li><li>Besucherprofil > Standortübersicht (Welche Standorte werden von Benutzern am meisten genutzt?)</li><li>Besucherprofil > GeoSegmentation > Geo-Länder, Geo-US-Bundesstaaten, Geo-Regionen, Geo-Städte, Geo-US-DMA (Aus welchen Regionen besuchen mich meine Benutzer?)</li><li>Besucherprofil > Sprachen (Welche Sprache bevorzugen meine Benutzer?)</li><li>Besucherprofil > Zeitzonen (Aus welchen Zeitzonen kommen meine Benutzer?)</li><li>Besucherprofil > Domains (Welche ISPs werden von meinen Besuchern verwendet, um auf meine Site zuzugreifen?)</li><li>Besucherprofil > Domains auf oberster Ebene (Welche Domains leiten den Traffic zu meiner Site?)</li><li>Besucherprofil > Technologie > Technologieübersicht (Welche Technologien werden verwendet, um auf meine Site zuzugreifen?)</li><li>Besucherprofil > Technologie > Browser, Browser-Typ, Browser-Breite, Browser-Höhe (welcher Browser, welche Browser-Version des Unternehmens und welche Breite und Höhe werden von Benutzern verwendet, um auf meine Site zuzugreifen?)</li><li>Besucherprofil > Technologie > Betriebssystem, Betriebssystemtypen (Welches Betriebssystem und welche Version davon verwenden meine Besucher?)</li><li>Besucherprofil > Technologie > Mobilnetzbetreiber (Welche Mobilnetzbetreiber verwenden meine Besucher, um auf meine Site zuzugreifen?)</li><li>Besuchertreue > Rückkehrhäufigkeit (Wie viel Zeit vergeht zwischen dem aktuellen Besuch meines Benutzers und vorherigen Besuchen?)</li><li>Besuchertreue > Erneute Besuche (Wie viele meiner Besucher kehren zurück?)</li><li>Besuchertreue > Besuchsnummer (Welcher Besuchsnummernbehälter liegt den meisten meiner Schlüsselmetriken zugrunde?)</li><li>Besucherbindung > Verkaufszyklus > Kundentreue (Zu welchem Treuesegment gehören meine Benutzer?)</li><li>Besucherbindung > Verkaufszyklus > Tage bis Erstkauf (Wie viele Tage sind zwischen dem ersten Besuch meiner Benutzer und dem ersten Kauf vergangen?)</li><li>Besucherbindung > Verkaufszyklus > Tage seit letztem Kauf (Wie viele Tage sind zwischen dem aktuellen Besuch meiner Benutzer und ihrem letzten Kauf vergangen? )</li><li>Besuchertreue > Mobile > Geräte und Gerätetypen (Welche Geräte und Gerätetypen verwenden meine Besucher?)</li><li>Besucherbindung > Mobile > Hersteller (Welchen Mobilgerätehersteller verwenden meine Besucher?)</li><li>Besuchertreue > Mobile > Bildschirmgröße, Bildschirmhöhe, Bildschirmbreite (Welche Bildschirmgröße/-höhe/-breite für Mobilgeräte verwenden meine Besucher?)</li><li>Besucherbindung > Mobile > [Mobile-App-Nutzung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#mobile)</li><li>Besucherbindung > Mobile > [Mobile-App-Journey](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#mobile)</li><li>Besucherbindung > Mobile > [Mobile-App-Metriken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#mobile)</li><li>Besucherbindung > Mobile > [Mobile-App-Nachrichten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#mobile)</li><li>Besuchertreue > Mobile > [Leistung von Mobile Apps](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#mobile)</li><li>Besucherbindung > Mobile > [Bindung durch Mobile Apps](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#mobile)</li></ul> |
    | **[!UICONTROL Akquise]** | <ul><li>Marketing-Kanäle > Erstkontakt-Kanal, Details zum Erstkontakt-Kanal (Welcher Erstkontakt-Kanal und welcher spezifische Erstkontakt-Kanal schneidet am besten ab?)</li><li>Marketing-Kanäle > Erster letzter Kanal, Details des ersten letzten Kanals (Welcher Letztkontakt-Kanal und welcher spezifische Letztkontakt-Kanal schneidet am besten ab?)</li><li>Kampagnen > Kampagnen (Welche Kampagnen liegen meinen Schlüsselmetriken zugrunde?)</li><li>Kampagnen > Kampagnenleistung (Welche Kampagnen erzielen den höchsten Umsatz?)</li><li>Kampagnen > Trackingcode (Welche Kampagnen-Trackingcodes erzielen die besten Ergebnisse?)</li><li>[Web-Akquise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#web)</li><li>[Mobile-Akquise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#mobile)</li><li>[Advertising Analytics: Paid Search](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de#advertising)</li><li>Suchbegriffe – alle, gebührenpflichtig, kostenlos (Welche Suchbegriffe und gebührenpflichtigen/kostenlosen Suchbegriffe bringen meine Schlüsselmetriken am besten voran?)</li><li>Suchmaschinen – alle, gebührenpflichtig, kostenlos (Welche Suchmaschinen und gebührenpflichtigen/kostenlosen Suchmaschinen bringen meine Schlüsselmetriken am besten voran?)</li><li>Ranking aller Suchseiten (Von welcher Suchseite aus besuchen mich meine Benutzer?)</li><li>Verweisende Domains (Von welchen Domains kommt der Traffic auf meine Seite?)</li><li>Ursprüngliche verweisende Domain (Was waren die ersten Domains, auf denen sich Benutzer vor dem Besuch meiner Site befanden?)</li><li>Referrer (Auf welchen URLs waren meine Benutzer, bevor sie sich zu meiner Website durchgeklickt haben?)</li><li>Referrer-Typen (Zu welcher Kategorie gehören die auf mich verweisenden URLs?)</li></ul> |
 
-### Bericht anzeigen und speichern {#use-reports}
+### Anzeigen und Speichern eines Berichts {#use-reports}
 
-Wenn Sie nach den Änderungen von einem Bericht weg navigieren, werden Sie aufgefordert, Ihre Änderungen zu speichern oder zu verwerfen. Durch Speichern von Änderungen an einem Bericht wird der Bericht als neues Projekt gespeichert.
+Wenn Sie von einem Bericht wegnavigieren, nachdem Sie ihn geändert haben, werden Sie aufgefordert, Ihre Änderungen zu speichern oder zu verwerfen. Wenn Änderungen an einem Bericht gespeichert werden, wird der Bericht als neues Projekt gespeichert.
 
-1. Navigieren Sie zur Registerkarte [!UICONTROL **Berichte**]
-1. Wählen Sie den Bericht aus, den Sie anzeigen möchten. Beispiel: unter [!UICONTROL **Am häufigsten**], wählen Sie die [!UICONTROL **Seiten**] Bericht.
+1. Navigieren Sie zur Registerkarte [!UICONTROL **Berichte**].
+1. Wählen Sie den Bericht aus, den Sie anzeigen möchten. Wählen Sie beispielsweise unter [!UICONTROL **Am beliebtesten**] den Bericht [!UICONTROL **Seiten**] aus.
 
    ![Bericht zu Seiten](assets/pages-report.png)
 
@@ -147,13 +147,13 @@ Wenn Sie nach den Änderungen von einem Bericht weg navigieren, werden Sie aufge
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Zeigen Sie den Bericht an.
-   * Ziehen Sie ein oder mehrere Segmente in die Dropzone Segment oben. Ziehen Sie beispielsweise das Segment [!UICONTROL **Mobile Kunden**] und die Ergebnisse anzeigen.
-   * Ändern Sie den Datumsbereich, indem Sie in den Kalender oben rechts wechseln.
-   * Fügen Sie Dimensionsaufschlüsselungen hinzu, ziehen Sie andere Metriken hinzu und passen Sie den Bericht im Allgemeinen an Ihre Anforderungen an.
+   * Sie können ein oder mehrere Segmente oben in den Ablagebereich ziehen. Ziehen Sie beispielsweise das Segment [!UICONTROL **Mobile-Kunden**] und sehen Sie sich die Ergebnisse an.
+   * Ändern Sie den Datumsbereich, indem Sie zum Kalender oben rechts gehen.
+   * Fügen Sie Dimensionsaufschlüsselungen hinzu, ziehen Sie andere Metriken hinzu und passen Sie den Bericht allgemein entsprechend Ihren Anforderungen an.
 
-1. (Optional) Speichern Sie den Bericht als Projekt, indem Sie [!UICONTROL **Projekt**] > [!UICONTROL **Speichern**].
+1. (Optional) Speichern Sie den Bericht als Projekt, indem Sie [!UICONTROL **Projekt**] > [!UICONTROL **Speichern**] auswählen.
 
-   Dadurch wird der Bericht als neues Projekt gespeichert. Der vorhandene Bericht wird dadurch nicht geändert. Weitere Informationen zum Speichern eines Berichts als Projekt finden Sie unter &quot;Erstellen eines Projekts aus einem leeren Projekt oder Bericht&quot;in [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Dadurch wird der Bericht als neues Projekt gespeichert. Der vorhandene Bericht wird dadurch nicht geändert. Weitere Informationen zum Speichern eines Berichts als Projekt finden Sie unter „Erstellen eines Projekts aus einem leeren Projekt oder einem Bericht“ in [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ### Erstellen eines benutzerdefinierten Unternehmensberichts {#company-report}
 
@@ -161,16 +161,16 @@ Benutzerdefinierte Berichte, die zur Verwendung durch andere Benutzende in Ihrem
 
 So erstellen Sie einen neuen Unternehmensbericht:
 
-1. Erstellen Sie ein Projekt in Analysis Workspace in Ihrem gewünschten Zustand.
-1. Auswählen [!UICONTROL **Projekt**] > **[!UICONTROL Als Unternehmensbericht speichern...]**.
+1. Erstellen Sie ein Projekt in Analysis Workspace in dem von Ihnen gewünschten Zustand.
+1. Wählen Sie [!UICONTROL **Projekt**] > **[!UICONTROL Als Unternehmensbericht speichern…]** aus.
 
    ![Unternehmensbericht](assets/company-report.png)
 
-1. Aktualisieren Sie den Namen des Berichts, fügen Sie eine Beschreibung hinzu, fügen Sie Tags hinzu und wählen Sie [!UICONTROL **Als Unternehmensbericht speichern**].
+1. Aktualisieren Sie den Namen des Berichts, fügen Sie eine Beschreibung hinzu, fügen Sie ggf. Tags hinzu und wählen Sie [!UICONTROL **Als Unternehmensbericht speichern**] aus.
 
-   Der Bericht wird zur Liste Unternehmensberichte im Modal Projekt erstellen hinzugefügt und steht Benutzern in Ihrem Anmeldeunternehmen zur Verfügung.
+   Der Bericht wird im Modal „Projekt erstellen“ zur Liste „Unternehmensberichte“ hinzugefügt und steht Benutzerinnen und Benutzern in Ihrem angemeldeten Unternehmen zur Verfügung.
 
-   Weitere Informationen dazu, wie Benutzer ein Projekt basierend auf einem Unternehmensbericht erstellen können, finden Sie unter &quot;Erstellen eines Projekts aus einem leeren Projekt oder Bericht&quot;in [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Weitere Informationen dazu, wie Benutzerinnen und Benutzer ein Projekt basierend auf einem Unternehmensbericht erstellen können, finden Sie unter „Erstellen eines Projekts aus einem leeren Projekt oder einem Bericht“ in [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 Weitere Lernoptionen:
 
@@ -181,12 +181,12 @@ Weitere Lernoptionen:
 
 ### Verwalten von Unternehmensberichten {#manage-company-reports}
 
-Administratoren können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Angeheftete Elemente bleiben angeheftet und werden von der Liste der Unternehmensberichte gefolgt, die durch das Berichtssymbol ![Berichtssymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) gekennzeichnet sind. In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
+Admins können die Projektliste filtern, um Unternehmensberichte anzuzeigen und zu verwalten. Angeheftete Elemente bleiben angeheftet und werden von der Liste der Unternehmensberichte gefolgt, die durch das Berichtssymbol ![Berichtssymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) gekennzeichnet sind. In dieser Ansicht können Sie einen oder mehrere Berichte löschen, umbenennen, taggen oder genehmigen.
 
 Anzeigen und Verwalten von Unternehmensberichten
 
 1. Wählen Sie in der Filterleiste **SONSTIGE FILTER** und danach **Unternehmensberichte** aus.
-Eine Liste der Unternehmensberichte wird angezeigt. Alle regulären Projekte werden nicht angezeigt, es sei denn, sie sind fixiert.
+Eine Liste der Unternehmensberichte wird angezeigt. Alle regulären Projekte werden nicht angezeigt, es sei denn, sie sind angeheftet.
 
    ![Anzeigen von Filtern für Unternehmensberichte](assets/company-reports-filter.png)
 
@@ -236,24 +236,24 @@ Administrierende können einen Bericht mithilfe der (oben beschriebenen) Option 
 | Advertising Analytics: Gebührenpflichtige Suche | Akquise > Advertising Analytics: Gebührenpflichtige Suche |
 
 
-## Registerkarte &quot;Lernen&quot;verwenden {#navigate-learning}
+## Verwenden der Registerkarte „Lernen“ {#navigate-learning}
 
-Die Lernseite enthält praktische Videoführungen, Tutorials und Links zur Dokumentation.
+Die Seite „Lernen“ enthält praktische Videoführungen und Tutorials sowie Links zur Dokumentation.
 
-Auf der Lernseite in Adobe Analytics erfahren Sie mehr über Anfänger, Zwischenschritte oder erweiterte Funktionen und Anwendungsfälle in Adobe Analytics.
+Verwenden Sie die Seite „Lernen“ in Adobe Analytics, um Funktionen für Anfängerinnen bzw. Anfänger, ein mittleres Niveau oder für Fortgeschrittene sowie Anwendungsfälle in Adobe Analytics zu erfahren.
 
-### Auf die Lernseite zugreifen
+### Zugreifen auf die Seite „Lernen“
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Arbeitsbereich**] > [!UICONTROL **Lernen**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Arbeitsbereich**] > [!UICONTROL **Lernen**] aus.
 
 ### Funktionen von Lernseiten
 
-* **Inhalt filtern:** Mit dem Filtersymbol in der linken Leiste können Sie Lerninhalte nach Erlebnisebene (Starter, Intermediate oder Erweitert) und nach Inhaltstyp (Dokument, Video oder Tours &amp; Tutorials) filtern.
-* **Fortschritt verfolgen:** Nachdem Sie ein Inhaltselement ausgewählt haben, wird ein **[!UICONTROL Angezeigt]** -Tag angezeigt. Mit diesem Tag können Sie Ihren Fortschritt durch den Lerninhalt verfolgen. Sie können die **[!UICONTROL Angezeigt]** -Tag, um es aus einem Inhaltselement zu entfernen.
-* **Zusätzliche Inhalte anzeigen:** Wählen Sie beim Anzeigen eines Videos die **[!UICONTROL Weitere Infos]** -Schaltfläche, um zugehörige Dokumentationsinhalte auf der Experience League anzuzeigen. Wählen Sie auf der Seite Lernen eine der folgenden Optionen aus, um weitere Inhalte anzuzeigen:
-   * **[!UICONTROL Besuchen Sie YouTube]:** Zeigen Sie die vollständige Analysis Workspace YouTube-Playlist an.
-   * [!UICONTROL **Experience League des Besuchs**]: Zeigen Sie die vollständige Adobe Analytics-Dokumentation zur Experience League an.
-* **Grundlagen für neue Benutzer:** Die [!UICONTROL Workspace-Grundlagen] Diese Tour wird für neue Benutzer empfohlen. Diese Tour führt Sie direkt zu Workspace und führt Sie durch die gängigsten Aktionen. Diese Tour kann auch jederzeit in Workspace über das QuickInfo-Pop-over in der Bedienfeldkopfzeile neu gestartet werden.
+* **Inhalt filtern:** Mit dem Filtersymbol in der linken Leiste können Sie Lerninhalte nach Erfahrungsstufe (Anfängerinnen bzw. Anfänger, mittlere Stufe oder Fortgeschrittene) und nach Inhaltstyp (Dokument, Video oder Touren und Tutorials) filtern.
+* **Fortschritt verfolgen:** Nachdem Sie ein Inhaltselement ausgewählt haben, erscheint das Tag **[!UICONTROL Angezeigt]**. Mit diesem Tag können Sie Ihren Fortschritt durch den Lerninhalt verfolgen. Sie können das Tag **[!UICONTROL Angezeigt]** auswählen, um es aus einem Inhaltselement zu entfernen.
+* **Zusätzliche Inhalte anzeigen:** Klicken Sie beim Ansehen eines Videos auf die Schaltfläche **[!UICONTROL Weitere Informationen]**, um zugehörige Dokumentationsinhalte in Experience League anzuzeigen. Wählen Sie auf der Seite „Lernen“ eine der folgenden Optionen aus, um weitere Inhalte anzuzeigen:
+   * **[!UICONTROL YouTube besuchen]:** Sehen Sie die vollständige YouTube-Playlist von Analysis Workspace.
+   * [!UICONTROL **Experience League besuchen**]: Sehen Sie die vollständige Adobe Analytics-Dokumentation in Experience League.
+* **Grundlagen für neue Benutzer:** Die Tour [!UICONTROL Workspace-Grundlagen] wird für neue Benutzerinnen und Benutzer empfohlen. Diese Tour bringt Sie direkt zu Workspace und führt Sie durch die gängigsten Aktionen. Diese Tour kann auch jederzeit direkt in Workspace über das QuickInfo-Popup in der Kopfzeile des Bedienfelds neu gestartet werden.
 
 ## Einrichten einer Landingpage {#set-landing}
 
