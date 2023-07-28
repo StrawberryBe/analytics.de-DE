@@ -4,9 +4,9 @@ description: Eine Folge von Seitenansichten während einer Sitzung.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Wenn ein Besucher eine dieser Aktionen ausführt, wird ein neuer Besuch **erst**
 
 Sie können die Definition eines Besuchs auf eine andere Zeit als 30 Minuten ändern.
 
-* Für [Virtual Report Suites](../vrs/vrs-about.md)können Sie das Besuchstimeout mithilfe der [!UICONTROL Besuchstimeout] Dropdown-Liste. Sie können das Besuchszeitlimit auf einen angemessenen Wert ändern.
+* Bei [Virtual Report Suites](../vrs/vrs-about.md) können Sie das Besuchszeitlimit mithilfe des Dropdown-Menüs [!UICONTROL Besuchszeitlimit] ändern. Sie können das Besuchszeitlimit auf einen angemessenen Wert ändern.
 * Wenden Sie sich bei Standard-Report Suites an die Kundenunterstützung, um eine Verkürzung der Besuchsdauer für eine bestimmte Report Suite anzufordern. Die Besuchslänge für Standard-Report Suites darf 30 Minuten nicht überschreiten, daher können Sie sie nur verkürzen.
 
 ## Besuche, die eine Datumsgrenze überschreiten
