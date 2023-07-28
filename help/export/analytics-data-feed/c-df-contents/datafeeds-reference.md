@@ -6,9 +6,9 @@ title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3671'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 >
 >Die meisten Spalten enthalten eine ähnliche Spalte mit dem Präfix `post_`. Post-Spalten enthalten Werte nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. Weitere Informationen finden Sie in den [häufig gestellten Fragen zu Daten-Feeds](../df-faq.md).
 
-Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | Spaltenname | Spaltenbeschreibung | Datentyp |
 | --- | --- | --- |
@@ -40,12 +40,12 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`browser_width`** | Breite des Browser-Fensters in Pixel. | smallint unsigniert |
 | **`c_color`** | Bit-Tiefe der Farbpalette. Wird bei der Berechnung der Dimension [Farbtiefe](/help/components/dimensions/color-depth.md) verwendet. AppMeasurement verwendet die JavaScript-Funktion `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable, die in der Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) verwendet wird. | varchar(255) |
-| **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Der Schlüsselwert für `carrier.tsv` [Dynamische Suche](dynamic-lookups.md). | varchar(100) |
+| **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Der Schlüsselwert für die [dynamische Suche](dynamic-lookups.md) von `carrier.tsv`. | varchar(100) |
 | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
 | **`channel`** | Variable, die in der Dimension [Site-Abschnitte](/help/components/dimensions/site-section.md) verwendet wird. | varchar(100) |
-| **`click_action`** | Wird nicht mehr verwendet. Adresse des Links, auf den im alten ClickMap-Tool geklickt wurde. | varchar(100) |
-| **`click_action_type`** | Wird nicht mehr verwendet. Link-Typ des Legacy-ClickMap-Tools.<br>0: HREF-URL<br>1: Benutzerspezifische ID<br>2: JavaScript onClick-Ereignis<br>3: Formularelement | tinyint unsigniert |
+| **`click_action`** | Wird nicht mehr verwendet. Adresse des Links, auf den im veralteten ClickMap-Tool geklickt wurde. | varchar(100) |
+| **`click_action_type`** | Wird nicht mehr verwendet. Link-Typ des veralteten ClickMap-Tools.<br>0: HREF-URL<br>1: Benutzerspezifische ID<br>2: JavaScript onClick-Ereignis<br>3: Formularelement | tinyint unsigniert |
 | **`click_context`** | Wird nicht mehr verwendet. Name der Seite mit dem Link-Klick. Teil des veralteten ClickMap-Tools. | varchar(255) |
 | **`click_context_type`** | Wird nicht mehr verwendet. Gibt an, ob es für `click_context` einen Seitennamen gab oder standardmäßig die Seiten-URL galt.<br>0: Seiten-URL<br>1: Seitenname | tinyint unsigniert |
 | **`click_sourceid`** | Wird nicht mehr verwendet. Numerische ID der Linkposition auf der Seite. Teil des veralteten ClickMap-Tools. | int unsigniert |
@@ -63,7 +63,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`curr_factor`** | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet. Für USD werden beispielsweise zwei Dezimalstellen verwendet, sodass der Spaltenwert 2 ist. | tinyint |
 | **`curr_rate`** | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
 | **`currency`** | Der während der Transaktion verwendete Währungscode. | char(8) |
-| **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendete Zeitstempel, basierend auf der UNIX®-Zeit. | int |
+| **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendete Zeitstempel in UNIX®-Zeit. | int |
 | **`cust_visid`** | Wurde eine benutzerdefinierte Besucher-ID festgelegt, wird sie in diese Spalte aufgenommen. | varchar(255) |
 | **`daily_visitor`** | Flag zur Bestimmung, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
 | **`dataprivacyconsentoptin`** | Variable, die in der Dimension [Einverständnisverwaltungs-Opt-in](/help/components/dimensions/cm-opt-in.md) verwendet wird. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
@@ -82,7 +82,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`first_hit_ref_domain`** | Variable, die in der Dimension [Ursprüngliche verweisende Domain](/help/components/dimensions/original-referring-domain.md) verwendet wird. Basierend auf `first_hit_referrer`. Die allererste verweisende Domain des Besuchers. | varchar(100) |
 | **`first_hit_ref_type`** | Numerische ID des Typs der verweisenden Stelle der allerersten verweisenden Stelle des Besuchers. Verwendet die `referrer_type.tsv`-Suche. | tinyint unsigniert |
 | **`first_hit_referrer`** | Die allererste verweisende URL des Besuchers. | varchar(255) |
-| **`first_hit_time_gmt`** | Zeitstempel des allerersten Treffers des Besuchers in UNIX®-Zeit. | int |
+| **`first_hit_time_gmt`** | Zeitstempel des allerersten Treffers der Besucherin oder des Besuchers in UNIX®-Zeit. | int |
 | **`geo_city`** | Name der Stadt, aus der der Treffer stammt, basierend auf der IP. Wird in der Dimension [Städte](/help/components/dimensions/cities.md) verwendet. | char(32) |
 | **`geo_country`** | Abkürzung für das Land, aus dem der Treffer stammt, basierend auf der IP. Wird in der Dimension [Länder](/help/components/dimensions/countries.md) verwendet. | char(4) |
 | **`geo_dma`** | Numerische ID des demografischen Bereichs, aus dem der Treffer stammt, basierend auf der IP. Wird in der Dimension [US DMA](/help/components/dimensions/us-dma.md) verwendet. | int unsigniert |
@@ -90,9 +90,9 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`geo_zip`** | Die Postleitzahl, von der der Treffer stammt, basierend auf der IP. Hilft beim Ausfüllen der Dimension [Postleitzahl](/help/components/dimensions/zip-code.md). Siehe auch `zip`. | varchar(16) |
 | **`hier1 - hier5`** | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste. Das in den Report Suite-Einstellungen gewählte Trennzeichen. | varchar(255) |
 | **`hit_source`** | Gibt die Quelle an, aus der der Treffer stammt. Trefferquellen 1, 2 und 6 werden in Rechnung gestellt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social <br>10: Server-seitige Weiterleitung in Audience Manager verwendet | tinyint unsigniert |
-| **`hit_time_gmt`** | Der Zeitstempel der Datenerfassungsserver der Hit-Adobe erhielt den Treffer, basierend auf der UNIX®-Zeit. | int |
-| **`hitid_high`** | Verwendet mit `hitid_low` , um einen Treffer zu identifizieren. | bigint unsigniert |
-| **`hitid_low`** | Verwendet mit `hitid_high` , um einen Treffer zu identifizieren. | bigint unsigniert |
+| **`hit_time_gmt`** | Der Zeitstempel des Zeitpunkts, wo der Adobe-Datenerfassungs-Server den Treffer erhielt, basierend auf der UNIX®-Zeit. | int |
+| **`hitid_high`** | Wird mit `hitid_low` zur Identifizierung eines Treffers verwendet. | bigint unsigned |
+| **`hitid_low`** | Wird mit `hitid_high` zur Identifizierung eines Treffers verwendet. | bigint unsigniert |
 | **`homepage`** | Wird nicht mehr verwendet. Wird angezeigt, wenn die aktuelle URL die Browser-Startseite ist. | char(1) |
 | **`hourly_visitor`** | Flag zur Bestimmung, ob der Treffer ein neuer stündlicher Besucher ist. | tinyint unsigniert |
 | **`ip`** | IPv4-Adresse basierend auf der HTTP-Kopfzeile der Bildanforderung. Sich gegenseitig ausschließend für `ipv6`; wenn diese Spalte eine nicht verschleierte IP-Adresse enthält, ist `ipv6` leer. | char(20) |
@@ -110,7 +110,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`latlon45`** | Standort (bis 1 m) | varchar(255) |
 | **`mc_audiences`** | Liste der Segment-IDs von Audience Manager, zu denen der Besucher gehört. Die Spalte `post_mc_audiences` ändert das Trennzeichen in `--**--`. | text |
 | **`mcvisid`** | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
-| **`mobile_id`** | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. Der Schlüsselwert für `mobile_attributes.tsv` [Dynamische Suche](dynamic-lookups.md). | int |
+| **`mobile_id`** | Die numerische Geräte-ID, wenn die Person ein Mobilgerät verwendet. Der Schlüsselwert für die `mobile_attributes.tsv` [dynamische Suche](dynamic-lookups.md). | int |
 | **`mobileaction`** | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
 | **`mobileappid`** | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:    `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
@@ -131,8 +131,8 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`mobiledayssincelastuse`** | Anzahl der Tage, die vergangen sind, seitdem die App das letzte Mal ausgeführt wurde. | varchar(255) |
 | **`mobiledeeplinkid`** | Erfasst mit der Kontextdatenvariablen `a.deeplink.id`. Wird in Akquise-Berichten als Identifikator für mobilen Akquise-Link verwendet. | varchar(255) |
 | **`mobiledevice`** | Mobilgerätname. Unter iOS als kommagetrennte 2-Ziffern-Zeichenfolge gespeichert. Die erste Zahl gibt die Gerätegeneration an und die zweite die Gerätefamilie. | varchar(255) |
-| **`mobilehourofday`** | Definiert die Stunde des Tages, zu der die App gestartet wurde. Angaben im 24-Stunden-Format. | varchar(255) |
-| **`mobileinstalldate`** | Installationsdatum der mobilen App. Stellt das Datum bereit, an dem ein Benutzer die App zum ersten Mal öffnet. | varchar(255) |
+| **`mobilehourofday`** | Gibt die Stunde des Tages an, zu der die App gestartet wurde. Angaben im 24-Stunden-Format. | varchar(255) |
+| **`mobileinstalldate`** | Installationsdatum der Mobile App. Stellt das Datum zur Verfügung, an dem eine Person die Mobile App erstmalig geöffnet hat. | varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | RETIRED – Wird mit der Kontextdatenvariablen a.LaunchesSinceUpgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
 | **`mobilelaunchnumber`** | Wird immer dann erhöht, wenn die Mobile App gestartet wird. | varchar(255) |
 | **`mobileltv`** | Wird nicht mehr verwendet. Erfasst durch trackLifetimeValue-Methoden. | varchar(255) |
@@ -156,7 +156,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`mobileresolution`** | Auflösung des Mobilgeräts. `[Width] x [Height]` in Pixel. | varchar(255) |
 | **`monthly_visitor`** | Flag, das angibt, dass der Benutzer im aktuellen Monat eindeutig ist. | tinyint unsigniert |
 | **`mvvar1`** - `mvvar3` | Listenvariablenwerte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
-| **`mvvar1_instances`** – `mvvar3_instances` | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Ersetzt das ursprüngliche Trennzeichen durch `--**--`. Enthält nicht `post` Spalte. | text |
+| **`mvvar1_instances`** – `mvvar3_instances` | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Ersetzt das ursprüngliche Trennzeichen durch `--**--`. Enthält keine `post`-Spalte. | text |
 | **`namespace`** | Nicht verwendet. Teil einer veralteten Funktion. | varchar(50) |
 | **`new_visit`** | Ein Flag, das bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe-Servern nach einer 30-minütigen Besuchsinaktivität festgelegt. | tinyint unsigniert |
 | **`os`** | Numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Der Schlüsselwert für `operating_system.tsv` Standardsuche und `operating_system_type.tsv` [Dynamische Suche](dynamic-lookups.md). | int unsigniert |
@@ -189,7 +189,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`s_kwcid`** | Die Keyword-ID, die in Adobe Advertising-Integrationen verwendet wird. | varchar(255) |
 | **`s_resolution`** | Rohwert der Bildschirmauflösung. Erfasst mit der JavaScript-Funktion `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | Numerische ID, die die Suchmaschine darstellt, die den Besucher auf Ihre Site verwiesen hat. Verwendet die `search_engines.tsv`-Suche. | smallint unsigniert |
-| **`search_page_num`** | Verwendet von der Dimension [Alle Suchseiten-Ranglisten](/help/components/dimensions/all-search-page-rank.md). Gibt an, auf welcher Seite der Suchergebnisse Ihre Site angezeigt wurde, bevor der Benutzer zu Ihrer Site durchgeklickt hat. | smallint unsigniert |
+| **`search_page_num`** | Verwendet von der Dimension [Alle Suchseiten-Ranglisten](/help/components/dimensions/all-search-page-rank.md). Gibt an, auf welcher Seite der Suchergebnisse Ihre Site angezeigt wurde, ehe die Person sich zu Ihrer Site durchgeklickt hat. | smallint unsigned |
 | **`secondary_hit`** | Flag, das sekundäre Treffer verfolgt. Stammt ursprünglich vom Multi-Suite-Tagging und von VISTA-Regeln, die Hits kopieren. | tinyint unsigniert |
 | **`service`** | Nicht verwendet. Verwenden Sie stattdessen `page_event`. | char(2) |
 | **`socialaccountandappids`** | Wird nicht mehr verwendet. Social-Media-Konto und App-IDs | varchar(255) |
@@ -277,10 +277,10 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlau
 | **`videoshow`** | Videosendung | varchar(255) |
 | **`videoshowtype`** | Typ der Videosendung | varchar(255) |
 | **`videostreamtype`** | Typ des Videostreams | varchar(255) |
-| **`visid_high`** | Verwendet mit `visid_low` , um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
-| **`visid_low`** | Verwendet mit `visid_high` , um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
+| **`visid_high`** | Wird mit `visid_low` zur eindeutigen Identifizierung von Besuchenden verwendet. | bigint unsigned |
+| **`visid_low`** | Wird mit `visid_high` zur eindeutigen Identifizierung von Besuchenden verwendet. | bigint unsigniert |
 | **`visid_new`** | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
-| **`visid_timestamp`** | Wenn die Besucher-ID neu generiert wurde, stellt den Zeitstempel (in UNIX®-Zeit) des Zeitpunkts bereit, zu dem die Besucher-ID generiert wurde. | int |
+| **`visid_timestamp`** | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in UNIX®-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
 | **`visid_type`** | Nicht zur externen Verwendung; intern von Adobe für Verarbeitungsoptimierungen verwendet. Numerische ID, die die Methode angibt, die zur Identifizierung des Besuchers verwendet wurde.<br>`0`: Benutzerspezifische Besucher-ID oder unbekannt/nicht anwendbar<br>`1`: IP- und Benutzeragenten-Fallback<br>`2`: HTTP-Kopfzeile mobiler Teilnehmer <br>`3`: Alter Cookie-Wert (`s_vi`) <br>`4`: Fallback-Cookie-Wert (`s_fid`) <br>`5`: Identity Service | tinyint unsigniert |
 | **`visit_keywords`** | Variable, die in der Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md) verwendet wird. Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung von varchar(244), um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
 | **`visit_num`** | Variable, die in der Dimension [Anzahl der Besuche](/help/components/dimensions/visit-number.md) verwendet wird. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
