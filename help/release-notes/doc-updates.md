@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
-workflow-type: ht
-source-wordcount: '4623'
-ht-degree: 100%
+source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
+workflow-type: tm+mt
+source-wordcount: '4689'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **August 2023** | |
+| Es wurde klargestellt, dass die Konfiguration von SFTP für Daten-Feeds keine Adobe-Kundenunterstützung erfordert | Klargestellt in [Senden von Adobe-Daten an ein externes FTP-Konto mit SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) -Kunden müssen sich nicht an die Kundenunterstützung von Adobe wenden, um SFTP für Daten-Feeds zu konfigurieren. <p>Außerdem wurde ein Hinweis hinzugefügt, dass SFTP nicht mehr empfohlen wird und Kunden beim Konfigurieren von Daten-Feeds ein Cloud-Ziel verwenden sollten.</p> |
 | **Juli 2023** | |
 | Adobe Experience Platform Edge Network Server API | Es wurde umfassendere Dokumentation hinzugefügt, in der beschrieben wird, wann und wie die Datenerfassung mit Adobe Analytics mithilfe der [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) implementiert werden kann. Beispielsweise bei der Implementierung der Datenerfassung mit Adobe Analytics in Desktop-Programmen, Geräten im Internet der Dinge und Set-Top-Boxen. |
 | Globale Unternehmens-ID | Es wurde dokumentiert, [wie die globale Unternehmens-ID](../admin/admin/company/web-services-admin.md) für das Analytics-Unternehmen zu finden ist, bei dem Sie angemeldet sind. Diese ID ist für Analytics 2.0-APIs erforderlich. |
