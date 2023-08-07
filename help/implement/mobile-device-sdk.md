@@ -3,10 +3,10 @@ title: Implementieren von Analytics für Mobilgeräte
 description: Bestimmen Sie, welche mobile AppMeasurement-Bibliothek verwendet werden soll.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 51%
+source-wordcount: '85'
+ht-degree: 60%
 
 ---
 
@@ -24,5 +24,5 @@ Verwenden Sie das Adobe Experience Platform Mobile SDK, um Analytics für Mobilg
 
 >[!CAUTION]
 >
->Die Unterstützung für Mobile-SDKs Version 4 endete am 30. September 2020.
+>Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den [Häufig gestellten Fragen zum Ende der Unterstützung für Mobile SDKs Version 4](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/).
 

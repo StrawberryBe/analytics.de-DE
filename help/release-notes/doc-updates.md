@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e17705adb6319a31f125cdff2810cbf79d85510c
+source-git-commit: bf111fc5529692283bf6b341655e80498107633b
 workflow-type: tm+mt
-source-wordcount: '4895'
+source-wordcount: '4907'
 ht-degree: 94%
 
 ---
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **August 2023** | |
+| Vergleich von Implementierungsmethoden | Die Dokumentation zum Vergleich verschiedener Implementierungsmethoden wurde aktualisiert. [Weitere Informationen](../implement/prepare/comparison.md) |
 | Es wurde klargestellt, dass die Konfiguration von SFTP für Daten-Feeds keine Adobe-Kundenunterstützung erfordert | Klargestellt in [Senden von Adobe-Daten an ein externes FTP-Konto mit SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) -Kunden müssen sich nicht an die Kundenunterstützung von Adobe wenden, um SFTP für Daten-Feeds zu konfigurieren. <p>Außerdem wurde ein Hinweis hinzugefügt, dass SFTP nicht mehr empfohlen wird und Kunden beim Konfigurieren von Daten-Feeds ein Cloud-Ziel verwenden sollten.</p> |
 | Dokumentationsverbesserungen für Streaming-Medien | Die folgende Dokumentation wurde für Streaming-Medien verbessert: <ul><li>Die [Allgemeine Übersicht](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) Verbesserung der Klarheit und Aufnahme von Informationen über den Customer Journey Analytics.</li><li>Die [Implementierungsübersicht](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) , um deutlich zwischen Edge-Implementierungen und reinen Analytics-Implementierungen zu unterscheiden. Es wurden auch Diagramme zur Veranschaulichung der verschiedenen Implementierungsmethoden hinzugefügt.</li><li>Spezifische Voraussetzungen für [Edge-Implementierungen](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) und [Nur Analytics-Implementierungen](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en). Außerdem wurde die [Allgemeine Voraussetzungen](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en).</li><li>Aktualisierte Tabellen in der [Abrufen von Medien-SDKs, Erweiterungen mithilfe von Tags und OTT-SDKs](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) Artikel zum Einschließen neuer Spalten für *Unterstützte Lösungen* und *Implementierungsmethode*.</li><li>Optimierter Inhalt und Organisation von Artikeln in der [Implementierung](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) -Bereich der Dokumentation. Dazu gehörte die Kategorisierung von Implementierungen nach Edge-Implementierungen und reinen Analytics-Implementierungen.</li><li>Eine zusätzliche Hierarchieebene wurde entfernt, die unter nicht benötigt wurde. [Tracking](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en) und in diesem Abschnitt wurden Umleitungen für geänderte URLs hinzugefügt.</li><ul> |
 | **Juli 2023** | |
