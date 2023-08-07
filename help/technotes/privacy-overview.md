@@ -4,72 +4,42 @@ keywords: Datenschutz
 title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
+source-git-commit: ee0bf5beeac3c9780eb0c8420845114f7e840aec
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 96%
+source-wordcount: '694'
+ht-degree: 12%
 
 ---
 
 # Datenschutzübersicht
 
-Adobe empfiehlt Ihnen, dass Sie den Besuchern Ihrer Website leicht auffindbare und leicht verständliche Informationen darüber bereitstellen, wie sie sich von der Erfassung von Browserinformationen durch Adobe-Produkte und -Dienste ausschließen lassen können.
+Besucher können mehr darüber erfahren, wie Adobe die im [Adobe-Datenschutzzentrum](https://www.adobe.com/de/privacy.html) erfassten Informationen im Allgemeinen verwendet. Es ist Sache Ihres Unternehmens, ob Sie offenlegen möchten, wie Sie die Adobe-Produkte und -Dienste verwenden. Denn nur Ihre Organisation hat die Kontrolle darüber, wie die Adobe-Dienste implementiert werden. Ihr Unternehmen ist für die Einhaltung Ihrer eigenen Datenschutzrichtlinien, Ihrer Servicevereinbarung mit Adobe und aller geltenden Gesetze verantwortlich.
 
-Besucher können mehr darüber erfahren, wie Adobe die im [Adobe-Datenschutzzentrum](https://www.adobe.com/de/privacy.html) erfassten Informationen im Allgemeinen verwendet. Es ist Sache Ihres Unternehmens, ob Sie offenlegen möchten, wie Sie die Adobe-Produkte und -Dienste verwenden. Denn nur Ihre Organisation hat die Kontrolle darüber, wie die Adobe-Dienste implementiert werden. Sie sind selbst für die Erstellung Ihrer eigenen Datenschutzrichtlinien verantwortlich sowie für die Einhaltung Ihrer Datenschutzrichtlinien, die Einhaltung Ihres Servicevertrags mit Adobe und die Einhaltung jeglichen geltenden Rechts.
+Adobe empfiehlt dringend die Einhaltung der folgenden übergreifenden Konzepte:
 
-## Aufschlüsselung der Datenerfassung {#section_F59D958D7AE44747846993E643CD4BF2}
+* **Vermeiden Sie das Sammeln von persönlich identifizierbaren Informationen in Adobe Analytics.** Mit benutzerspezifischen Variablen können Sie praktisch alles erfassen, auf das Sie zugreifen können. Beachten Sie jedoch auch die Datenschutzrichtlinien Ihres Unternehmens und die geltenden Gesetze.
+* **Bieten Sie Besuchern leicht auffindbare und leicht verständliche Informationen über Opt-out-Informationen.** Erlauben Sie ihnen, alles zu deaktivieren, was nicht unbedingt erforderlich ist. Die meisten Länder der europäischen Union erachten Analyse-Cookies nicht als unbedingt erforderlich.
 
-Adobe Analytics erfasst die folgenden Daten:
+## Aufschlüsselung der Datenerfassung
 
-| Datentyp | Erfasst Adobe Analytics diese Daten? |
-|---|---|
-| URLs von Webseiten in Kunden-Sites | Ja |
-| Name der Webseite | Ja |
-| Besuchszeit pro Seite | Ja |
-| Tageszeit | Ja |
-| URLs von Webseiten auf Sites Dritter | **Nein** |
-| Cookie-IDs (zufällig generiert) | Ja |
-| URL der Seite, die der Benutzer vor Besuch der Kundenseite besucht hat | Ja |
-| Suchabfrage, wenn Benutzer auf Link zur Kundenseite klickt | Ja |
-| Browser-Typ | Ja |
-| Gerätetyp | Ja |
-| Betriebssystem | Ja |
-| ISP-/Verbindungsgeschwindigkeit | Ja |
-| Anzeigeeinstellungen (z. B. Bildschirmgröße und Auflösung) | Ja |
-| IP-Adresse (zur Ermittlung des ungefähren Standorts) | Ja&#42; |
-| Informationen, die Benutzer in Formulare auf der Kunden-Site eingeben | Ja |
-| Informationen, die Benutzer in Formulare auf sozialen Sites eingeben | **Nein** |
-| Ob der Benutzer auf eine Anzeige geklickt hat | Ja |
-| Ob der Benutzer auf einen Link, ein Bild oder auf Text auf der Site geklickt hat | Ja |
-| Ob der Benutzer eine Datei, ein Bild etc. heruntergeladen hat | Ja |
-| Artikel, die der Benutzer gekauft hat | Ja |
-| Artikel, die sich noch im Warenkorb befinden | Ja |
-| Soziales Netzwerk-Informationen (einschließlich Fotos, Benutzer-ID, Alter, Geschlecht, Standort) | **Nein** |
-| Erfolgsraten von Werbekampagnen | Ja |
-| Produktinformationen, z. B. Farben, Preise, Stile, Fotos | Ja |
+Adobe Analytics erfasst entweder automatisch die folgenden Datentypen oder kann diese möglicherweise erfassen:
 
-&#42;Es sei denn, der Adobe-Kunde entfernt die IP.
+| Datentyp | Details | Beispielvariablen mit diesen Daten |
+| --- | --- | --- |
+| Seitennamen oder URLs von Webseiten auf Ihrer Site | Immer erfasst. Für jeden Treffer ist eine URL oder ein Seitenname erforderlich. | [Seite](../components/dimensions/page.md), [Seiten-URL](../components/dimensions/page-url.md) |
+| Zeitbasierte Daten | Immer erfasst. Für die Datenerfassung ist ein Zeitstempel erforderlich und zeitbasierte Daten werden vom Zeitstempel abgeleitet. | [Besuchszeit pro Seite](../components/dimensions/time-spent-on-page.md), [Stunde des Tages](../components/dimensions/hour-of-day.md), [Vormittag/Nachmittag](../components/dimensions/am-pm.md), [Wochentag/Wochenende](../components/dimensions/weekday-weekend.md), [Wochentag](../components/dimensions/day-of-week.md), [Monat des Jahres](../components/dimensions/month-of-year.md) |
+| Daten von Webseiten auf anderen Sites | Adobe kann keine Daten auf nicht verbundenen Sites erfassen, auf denen Sie den Quellcode der Website nicht ändern können. AppMeasurement erfasst automatisch die verweisende URL, wenn ein Besucher auf Ihre Website gelangt. Sie können Ihre Implementierung so anpassen, dass Daten in Abfragezeichenfolgen erfasst werden, nachdem sie auf Ihre Site gelangt sind. | [Referrer](../components/dimensions/referrer.md), [Verweisende Domäne](../components/dimensions/referring-domain.md) |
+| Anonymisierte Besucher-IDs | AppMeasurement generiert automatisch eine Besucher-ID und referenziert sie für jeden Browser, der Ihre Site besucht. Diese ID wird in einem Cookie gespeichert. Wenn für eine bestimmte Implementierung keine Cookies verfügbar sind, verwendet Adobe Analytics eine Ausweichmethode zur Besucheridentifizierung mit IP-Adresse und Benutzeragenten-Zeichenfolge. Siehe [Adobe Analytics- und Browsercookies](cookies/cookies.md) für weitere Informationen. | [Unique Visitors](../components/metrics/unique-visitors.md) |
+| Identifizierbare Besucher-IDs | Adobe erfasst nicht automatisch benutzerdefinierte Besucher-IDs. Sie können Ihre Implementierung jedoch anpassen, um diese Daten zu erfassen. | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
+| Externe Suchbegriffe | AppMeasurement versucht, diese Daten automatisch anhand der verweisenden URL zu erfassen. Viele moderne Suchmaschinen enthalten diese Informationen jedoch nicht mehr. | [Suchbegriff](../components/dimensions/search-keyword.md) |
+| Interne Suchbegriffe | Adobe erfasst nicht automatisch interne Suchdaten. Sie können Ihre Implementierung jedoch anpassen, um diese Daten zu erfassen. Dies ist eine gängige Praxis für Unternehmen, die Adobe Analytics verwenden. | [eVar](../components/dimensions/evar.md) |
+| Computer- und Browserspezifikationen | AppMeasurement sammelt automatisch Hinweise zu wenig entropy-Browsern wie Browser-Typ und Betriebssystemtyp und ob es sich bei dem Gerät um ein Desktop- oder Mobilgerät handelt. Es ist eine Konfiguration erforderlich, um Hinweise zur hohen Entropie zu sammeln, z. B. die spezifische Version/Build des Browsers, das Gerätemodell oder die Betriebssystemversion. Siehe [Übersicht über Client-Hinweise](client-hints.md) für weitere Informationen. | [Browser](../components/dimensions/browser.md), [Betriebssystem](../components/dimensions/operating-systems.md), [Mobilgerätedimensionen](../components/dimensions/mobile-dimensions.md), [Bildschirmauflösung](../components/dimensions/monitor-resolution.md) |
+| Geolocation-Informationen | Adobe bietet die Möglichkeit, die Erfassung von Geolocation-Daten für jede Website oder App zu aktivieren oder zu deaktivieren (auf Report Suite-Ebene). Viele Implementierungstypen, einschließlich AppMeasurement, erfassen diese Daten automatisch. | [Städte](../components/dimensions/cities.md), [Regionen](../components/dimensions/regions.md), [Länder](../components/dimensions/countries.md) |
+| IP-Adresse | Adobe bietet die Möglichkeit, beim Speichern dieser Daten das letzte Oktett zu verdecken oder die IP-Adresse des Besuchers vollständig zu verschleiern. EMEA-Kunden haben in der Regel eine vollständig verschleierte IP-Adresse. IP-Adresse ist nicht als Dimension in Adobe Analytics verfügbar. Sie ist nur in den Rohdaten enthalten ([Datenfeeds](../export/analytics-data-feed/data-feed-overview.md)). | Keine |
+| Formulardaten auf Ihrer Site | Alle Implementierungstypen müssen konfiguriert werden, um diese Daten zu erfassen. Sie können diese Daten in benutzerdefinierte Variablen einfügen. | [eVar](../components/dimensions/evar.md) |
+| Anzeigen oder Links, auf die auf Ihrer Site geklickt wurde | Wird bei Verwendung von AppMeasurement automatisch erfasst. Zusätzliche Informationen, wie der Speicherort von Klicks, sind bei aktiviertem Activity Map verfügbar. | [Activity Map](../analyze/activity-map/activity-map.md), [Exitlink](../components/dimensions/exit-link.md), [Downloadlink](../components/dimensions/download-link.md) |
+| Auf Ihrer Site gekaufte Produkte | Alle Implementierungstypen müssen konfiguriert werden, um diese Daten zu erfassen. Adobe bietet mehrere Standardvariablen zum Speichern dieser Informationen. | [Produkt](../components/dimensions/product.md), [Bestellungen](../components/metrics/orders.md), [Umsatz](../components/metrics/revenue.md) |
 
-## Sonstige Hinweise zum Datenschutz {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+{style="table-layout:auto"}
 
-| Region/Land | Übertragung |
-|--- |--- |
-| Global | Adobe empfiehlt seinen Kunden, auf keinen Fall persönlich identifizierbare Informationen (PII) an Adobe weiterzugeben, insbesondere in Situationen, in denen PII nicht für Analytics benötigt werden. |
-| Global | Benutzer müssen bei der Profilierung Hinweise und Auswahlmöglichkeiten erhalten. In der europäischen Union (in einigen Ländern auf Opt-in-Basis), Kanada, Australien und vielen Ländern in Lateinamerika und im Asiatisch-Pazifischen Raum ist dies gesetzlich vorgeschrieben. |
-| Global | Bei Verwendung von Erstanbieter-Cookies bezieht sich die Analytics-Abmeldung ausschließlich auf den jeweiligen Kunden. Die Abmeldung auf Adobe.com ist nicht ausreichend. |
-| Global | Analysen von Erstanbietern sind nicht Teil des Self-Regulatory Program for Online Behavioral Advertising („AdChoices“). |
-| Global | Geräteübergreifende Daten sollten zusammengeführt werden, außer sie sind an eine ID gebunden, die der Kunde zur Verfügung gestellt hat (z. B. einen Hash-Benutzernamen). |
-| Global | Es gelten voraussichtlich Beschränkungen für die Kombination von Anzeigenimpressionen und PII für den Kunden. |
-| Europa | Die meisten Länder der europäischen Union erachten Analyse-Cookies nicht als unbedingt erforderlich. |
-| Europa | Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) im Admin-Benutzerhandbuch. |
-| Global | Ein Kunde kann die Variable für die Cookie-Lebensdauer im JavaScript-Messungs-Code auf den Wert „none“, „session“ oder einen anderen spezifischen, in Sekunden gemessenen Wert setzen. |
-| Europa | Adobe verfügt über eine neue Einstellung für eingebauten Datenschutz, die jetzt mit Adobe ClientCare für die Versionen 14.9 und 15.4 von Adobe Analytics (früher SiteCatalyst) aktiviert werden können. Ist diese neue Einstellung aktiviert, wird das letzte Oktett (der letzte Teil) der IP-Adresse unverzüglich durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. |
-| Deutschland | Wenn SIe nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten Sie Ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. |
-
-## EMEA-Rechenzentrumsstandort {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
-
-Das folgende EMEA-Rechenzentrum hostet derzeit Adobe Analytics-Daten:
-
-| Adobe-Name | Adresse | Anbietertyp (Operator) | Unterstützte Lösungskomponenten | Zertifizierungen |
-|--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU Vereinigtes Königreich | Colocation Facility (Gyron) | Multichannel Analytics, Digital Analytics | SSAE 16 |
+Siehe Navigationsmenü unter [Übersicht über Dimensionen](../components/dimensions/overview.md) und [Übersicht über Metriken](../components/metrics/overview.md) für weitere Variablen, unter denen Adobe möglicherweise Daten erfassen kann.
