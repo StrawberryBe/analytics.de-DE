@@ -3,10 +3,10 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 22%
+source-wordcount: '3174'
+ht-degree: 21%
 
 ---
 
@@ -20,7 +20,7 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
 
 >[!NOTE]
 >
->Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse zu Daten-Feeds verfügen und alle erforderlichen Voraussetzungen erfüllen. Weitere Informationen finden Sie unter [Daten-Feeds - Übersicht](data-feed-overview.md).
+>Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse zu Daten-Feeds verfügen und sicherstellen, dass Sie alle erforderlichen Voraussetzungen erfüllen. Weitere Informationen finden Sie unter [Daten-Feeds - Übersicht](data-feed-overview.md).
 
 ## Erstellen und Konfigurieren eines Daten-Feeds
 
@@ -45,6 +45,15 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
    | [!UICONTROL **Kontinuierlicher Feed**] | Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung. |
 
 1. Im [!UICONTROL **Ziel**] im Abschnitt [!UICONTROL **Typ**] Dropdown-Menü das Ziel auswählen, an das die Daten gesendet werden sollen.
+
+   >[!NOTE]
+   >
+   >Beachten Sie beim Konfigurieren eines Berichtsziels Folgendes:
+   >
+   >* Es wird empfohlen, ein Cloud-Konto für Ihr Berichtsziel zu verwenden. [Alte FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
+   >
+   >* Cloud-Konten sind Ihrem Adobe Analytics-Benutzerkonto zugeordnet. Andere Benutzer können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
+   >
 
    ![Dropdown-Menü für Daten-Feed-Ziele](assets/datafeed-destinations-dropdown.png)
 

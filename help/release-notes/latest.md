@@ -1,35 +1,37 @@
 ---
-title: Neueste Analytics-Versionshinweise
+title: Aktuelle Adobe Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: d1b9ef79a456fc52b7fa644d088f7089c9b654e4
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 79%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Juli 2023)
+# Aktuelle Adobe Analytics-Versionshinweise (August 2023)
 
-**Letzte Aktualisierung**: 10. Juli 2023
+**Letzte Aktualisierung**: 9. August 2023
 
-Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 9. August bis 13. September 2023. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
-## Neue Funktionen oder Verbesserungen {#features}
+## Neue Funktionen oder Verbesserungen zwischen 9. August und 12. September 2023 {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Konfigurieren von Speicherorten für Cloud-Konten für die Aufnahme von Klassifizierungsdaten** | Sie können jetzt Speicherorte für Cloud-Konten verwalten, die für die Automatisierung von Klassifizierungssätzen verwendet werden. [Weitere Informationen](/help/components/locations/configure-import-accounts.md)<p> | Nicht angegeben | 10. Juli 2023 |
-| **Verbesserungen bei Datenreparaturfiltern** | Zur Datenreparatur wurden drei Filterverbesserungen hinzugefügt:<ul><li>Filtern Sie nach einer Variable, um eine zweite Variable zu ändern. Wenn zum Beispiel `eVar2` ein „@“ enthält, dann löschen Sie `eVar3`.</li><li>Filtern nach numerischen oder nicht numerischen Werten</li><li>Wenden Sie mehrere Filter mit einem „UND“ an. Zum Beispiel, wenn `eVar2="a"` UND `eVar3="b"`</li></ul>[Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21. Juni 2023 | 12. Juli 2023 |
-| **Sichere Ziele für den Export von Daten-Feeds** | Daten-Feeds können jetzt an die folgenden Cloud-Speicher-Ziele gesendet werden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Ziele, die zuvor verfügbar waren (FTP, SFTP, S3 und Azure Blob), werden nicht mehr empfohlen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=de) | 12. Juni 2023 | 13. Juli 2023 |
-| **Neue AppMeasurement-Variable** | Die Variable `decodeLinkParameters` ist für Fälle gedacht, in denen Implementierungen Multi-Byte-Zeichen in Linktracking-Variablen codieren. Die meisten Implementierungen müssen diese Variable nicht festlegen. [Weitere Informationen](../implement/vars/config-vars/decodelinkparameters.md) |  | 17. Juli 2023 |
+| **Klassifizierungssätze in API 2.0** | Bietet Adobe Analytics API 2.0-Methoden zum Speichern, Löschen, Abrufen, Importieren und Exportieren von Classification-Set-Daten. | Nicht angegeben | 31. August 2023 |
+| **Reporting Activity Manager** | Der Reporting-Aktivitäts-Manager bietet Administratoren detaillierte Einblicke in den Berichtsverbrauch für jede Report Suite, sodass sie während Spitzenzeiten der Berichterstellung mühelos Kapazitätsprobleme diagnostizieren und beheben können. [Weitere Informationen](/help/admin/admin/reporting-activity.md) | Nicht angegeben | 6. September 2023 |
 
 {style="table-layout:auto"}
 
 ## Fehlerbehebungen in Adobe Analytics
 
-AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-321013; AN-321513; AN-321520; AN-321757; AN-321820; AN-321917; AN-322034; AN-322135; AN-322140; AN-322142; AN-322251; AN-322353; AN-322378; AN-322383; AN-322427; AN-322458; AN-322543; AN-322630; AN-322637; AN-322638; AN-322647; AN-322728; AN-322732; AN-322777; AN-322817; AN-322957; AN-322958; AN-323035; AN-323074; AN-323150; AN-323196; AN-323197; AN-323205; AN-323206; AN-323217; AN-323224; AN-323225; AN-323244; AN-323257; AN-323277; AN-323280; AN-323293; AN-323309; AN-323318; AN-323468; AN-323476; AN-323514; AN-323572; AN-323592; AN-323782; AN-323835
+* Es wurde ein Problem behoben, durch das benutzerspezifische Ereignisse nicht geladen wurden. (AN-324163)
+* Es wurde ein Problem behoben, durch das Beschriftungen für Legenden in einer Visualisierung nicht bearbeitet werden konnten. (AN-323246)
+
+AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN 320869; AN-321624; AN-321693; AN-322009; AN-32244; AN-322380; AN-322432; AN-3 22466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-32380; AN-32 3492; AN-323595; AN-323755; AN-323854; AN-323916; AN-324044; AN-324200; AN-324 213; AN-324238; AN-324347; AN-323598; AN-323625; AN-323631; AN-323638; AN-3236 41; AN-323755; AN-323767; AN-323777; AN-323825; AN-323846; AN-323972; AN-3241 3; AN-324170; AN-324197; AN-324273; AN-324275; AN-324345; AN-324384; AN-32443; AN-324511; AN-324513; AN-324521; AN-324524; AN-324531; AN-324532; AN-324534; AN 324537; AN-324569; AN-324618; AN-324635; AN-324688; AN-324704; AN-324712; AN-3 24721; AN-324745; AN-324792; AN-324793; AN-324794; AN-324795; AN-324824; AN-32 4905; AN-324918; AN-324932; AN-324934; AN-324947; AN-325003; AN-325073; AN-325 143; AN-325148; AN-325153; AN-325177; AN-325187; AN-325252; AN-325305; AN-3253 63; AN-325401; AN-325439; AN-325431; AN-325491; AN-325495; AN-325508; AN-3259 4; AN-325601; AN-325660; AN-325779; AN-325857; AN-325883; AN-325885; AN-32586
+
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
 
