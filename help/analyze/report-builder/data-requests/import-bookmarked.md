@@ -4,10 +4,10 @@ title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Wenn Sie einen mit Lesezeichen markierten Bericht auswählen, belegt der Anforde
 
 So werden in Schritt 1 des Anforderungs-Assistenten ein Dashboard und die zugehörigen Kurzberichte angezeigt:
 
-![](assets/import_dashboard_reportlet.png)
+![Screenshot mit dem Anforderungs-Assistenten Schritt 1 von 2, in dem die Option Dashboards abrufen und Lesezeichen abrufen hervorgehoben wird.](assets/import_dashboard_reportlet.png)
 
 Wenn Sie auf **[!UICONTROL Ihre Dashboards abrufen]** oder auf **[!UICONTROL Ihre Lesezeichen abrufen]** klicken, werden Ihre vorhandenen Dashboard- und/oder Lesezeichendaten abgerufen und in das Arbeitsblatt eingefügt.
 

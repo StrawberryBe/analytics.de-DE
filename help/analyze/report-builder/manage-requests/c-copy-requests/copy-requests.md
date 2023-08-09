@@ -1,14 +1,14 @@
 ---
-description: Sie können Zellen, die mehr als einer Anforderung zugeordnet sind, kopieren und den Inhalt in einen leeren, ausgewählten Bereich des Arbeitsblatts einfügen.
-title: Anforderungen kopieren – Übersicht
+description: Erfahren Sie, wie Sie mit mehr als einer Anforderung zugeordnete Zellen kopieren und einfügen können.
+title: Überblick über das Kopieren von Anforderungen
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 87%
 
 ---
 

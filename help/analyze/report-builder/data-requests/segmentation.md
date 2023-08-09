@@ -4,10 +4,10 @@ title: Segmente verwalten (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 91%
+source-wordcount: '1008'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ So können Sie in Report Builder Adobe Analytics-Segmente hinzufügen, bearbeite
 
 Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmentierungsfenster, mit dem Sie folgende Aufgaben ausführen können:  Segmente erstellen und verwalten.
 
-![](assets/seg_dialog.png)
+![Screenshot mit den Segmentoptionen zum Hinzufügen, Bearbeiten oder Löschen von Segmenten und Hervorhebung der Symbole Kontrolle, Filter und Aktualisieren.](assets/seg_dialog.png)
 
 ## Hinzufügen oder Bearbeiten von Segmenten {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 1. Wählen Sie die Berichtausgabeelemente aus, die in ein Segment umgewandelt werden sollen.
 1. Klicken Sie mit der rechten Maustaste, um **[!UICONTROL In-Context-Segment erstellen in]** auszuwählen und legen Sie den rechten Container fest (Container für Seitenaufrufe, Container für Besuche, Container für Besucher).
 
-   ![](assets/seg_in_context.png)
+   ![Screenshot mit der Option In-Context-Segment erstellen in ausgewählten und verfügbaren Containeroptionen.](assets/seg_in_context.png)
 
    Weitere Informationen zu Containern finden Sie unter [Segmentierungsleitfaden](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de).
 
@@ -58,9 +58,9 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies b
 
 1. Wechseln Sie in der Dropdown-Liste zu **[!UICONTROL Segment]** und klicken Sie im Feld **[!UICONTROL Segment auswählen]** auf den kleinen Pfeil nach unten, um alle Segmente anzuzeigen.
 
-   ![](assets/seg_list.png)
+1. Aktivieren Sie die Segmente, die Sie anwenden möchten.
 
-2. Aktivieren Sie die Segmente, die Sie anwenden möchten.
+   ![Screenshot mit ausgewählten Segmenten.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -86,20 +86,22 @@ Folgende Filter stehen zur Verfügung:
 
 Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbeitsmappe zwischen Segmenten wechseln, anstatt hierfür zum Anforderungs-Assistenten wechseln zu müssen.
 
-1. Klicken Sie auf das Steuerelementsymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) neben der Dropdown-Liste &quot;Segment&quot;.
+1. Klicken Sie auf das Symbol Kontrolle . ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) neben der Dropdown-Liste &quot;Segment&quot;.
 
-   ![](assets/seg_control.png)
+1. Aktivieren Sie alle Segmente, die im Segmentsteuerelement angezeigt werden sollen oder aktivieren Sie **[!UICONTROL Alle auswählen]**.
 
-2. Aktivieren Sie alle Segmente, die im Segmentsteuerelement angezeigt werden sollen oder aktivieren Sie **[!UICONTROL Alle auswählen]**.
-3. Beachten Sie die Option **[!UICONTROL Verknüpfte Anforderungen bei Elementauswahl automatisch aktualisieren]**.
+   ![Screenshot des Dialogfelds &quot;Kontrolleinstellungen&quot;mit allen ausgewählten Einstellungen.](assets/seg_control.png)
+
+1. Beachten Sie die Option **[!UICONTROL Verknüpfte Anforderungen bei Elementauswahl automatisch aktualisieren]**.
 
    * Wenn diese aktiviert ist, werden alle Anforderungen aktualisiert, die dieses Steuerelement verwenden.
    * Wenn sie nicht aktiviert ist, werden zwar die verknüpften Anforderungsparameter aktualisiert, jedoch nicht die Anforderungen selbst.
 
-4. Legen Sie die Position für die obere linke Zelle des Steuerelements fest.
-5. Klicken Sie auf **[!UICONTROL OK]**. Das Segmentsteuerelement wird an der angegebenen Position angezeigt.
+1. Legen Sie die Position für die obere linke Zelle des Steuerelements fest.
 
-   ![](assets/seg_control2.png)
+1. Klicken Sie auf **[!UICONTROL OK]**. Das Segmentsteuerelement wird an der angegebenen Position angezeigt.
+
+   ![Screenshot mit dem Dropdown-Feld Segment auswählen .](assets/seg_control2.png)
 
 ## Segmentliste aktualisieren  {#section_22E4A86789444B4A998532396B476EFB}
 
@@ -114,7 +116,7 @@ In Report Builder 5.4 ist das Hinzufügen, Entfernen und Ersetzen einzelner oder
 1. Wählen Sie mehrere Anforderungen in einer Arbeitsmappe aus.
 1. Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Anforderungen bearbeiten]** > **[!UICONTROL Nach Segment]** aus.
 
-   ![](assets/edit_by_segment.png)
+   ![Screenshot mit den Optionen Anforderungen bearbeiten und Nach Segment ausgewählt.](assets/edit_by_segment.png)
 
 1. Wählen Sie im Dialog „Gruppe bearbeiten“ eine der folgenden vier Optionen aus:
 

@@ -5,10 +5,10 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,10 @@ Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedi
 
 1. Erstellen oder bearbeiten Sie eine Anforderung und gehen Sie zum Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2].
 
-   ![Schritt-Info](/help/admin/admin/assets/filter.png)
-
 1. Klicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] im Raster auf den Link neben der Dimension und wählen Sie dann **[!UICONTROL Filter]**.
+
+   ![Screenshot mit dem Dialogfeld Filter definieren mit Optionen zum Filtern nach Anwendung, Benutzer und Projekt.](/help/admin/admin/assets/filter.png)
+
 1. Aktivieren Sie im Dialogfeld [!UICONTROL Seiten auswählen] die Option **[!UICONTROL Am meisten bevorzugte]** und konfigurieren Sie dann die folgenden Optionen:
 
    **Startrang:** Der Startrang einer Dimension. Der Standardwert von 1 steht für das Element mit dem höchsten Wert in der Liste der berichteten Daten. Beispielsweise zeigt ein Startrang von 1 für die Dimension [!UICONTROL Seite] die Seite Ihre Website mit der absolut höchsten Besucherzahl an. Sie können beispielsweise 10 oder einen anderen Wert als Startrangzelle angeben, wodurch ein Bericht erstellt wird, der mit 10 als höchstem Wert beginnt. Metriken werden in absteigender Reihenfolge angeordnet, d. h. die Zeileneinträge mit der höchsten Aktivität werden als erste in der Liste aufgeführt. Wenn Sie mehr als 50.000 Seitennamen in einer Anforderung benötigen, aber einen Bericht über tausende von Seiten ausführen, können Sie die Anforderung kopieren und den Startrang so ändern, dass die Daten in Blöcken von 50.000 abgerufen werden.
@@ -39,17 +40,18 @@ Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedi
 
 1. Um einen Suchausdruck zu erstellen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-   ![Schritt-Info](assets/expressions_define_filter.png)
-
 1. Konfigurieren Sie im Dialogfeld [!UICONTROL Filter definieren] die Ihren Anforderungen entsprechenden Bedingungen.
 
-   ![select_cell_icon.png](assets/select_cell_icon.png): Hiermit können Sie eine Bedingung finden, die in einem Zellenwert definiert ist.
 
-   **Bedingung hinzufügen:** Fügt eine Bedingung zum Ausdruck hinzu. Die Zahl der Bedingungen, die Sie hinzufügen können, ist nicht beschränkt.
+   ![Screenshot mit dem Dialogfeld Filter definieren .](assets/expressions_define_filter.png)
+
+   Über das Symbol Zelle auswählen können Sie eine Bedingung finden, die im Wert einer Zelle definiert ist. ![Symbol &quot;Zelle auswählen&quot;](assets/select_cell_icon.png)
+
+   Die **Bedingung hinzufügen** -Link ermöglicht das Hinzufügen einer Bedingung zum Ausdruck. Die Zahl der Bedingungen, die Sie hinzufügen können, ist nicht beschränkt.
 
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
-   ![Schritt-Info](assets/choose_page_02.png)
+   ![Screenshot des Dialogfelds Filter definieren mit der Schaltfläche OK unten rechts.](assets/choose_page_02.png)
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Seiten auswählen] auf **[!UICONTROL Speichern]**, um den Ausdruck zu speichern.
 1. Klicken Sie auf **[!UICONTROL OK]**.

@@ -4,10 +4,10 @@ title: Fehlerbehebung für die Power BI-Integration
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 89%
+source-wordcount: '418'
+ht-degree: 68%
 
 ---
 
@@ -35,13 +35,14 @@ Im Folgenden werden die wichtigsten Gründe für beschädigte Visualisierungen n
 * Sie haben eine Anforderung in Report Builder bearbeitet, z. B. durch Ändern der Metriken oder Dimensionen, und sie dann erneut in Power BI veröffentlicht. Durch Bearbeiten von Anforderungen können Ihre Visualisierungen beschädigt werden.
 * Sie haben eine Anforderung gelöscht, die in einer Visualisierung verwendet wurde.
 
-## Report Builder muss für den Zugriff auf die Ressourcen Ihrer Organisation autorisiert sein. Dieser Zugriff kann nur von einem Administrator gewährt werden. Bitten Sie einen Administrator, Ihnen die Berechtigung zu erteilen.
+>[!IMPORTANT]
+>
+>Für den Report Builder ist ein Administrator erforderlich, um den Zugriff auf die Ressourcen Ihrer Organisation zu genehmigen. Wenn Sie Zugriff benötigen, bitten Sie einen Administrator, Ihnen die Berechtigung zu erteilen.
+> Ein Microsoft-Administrator kann die *Benutzer können Anwendung registrieren* -Einstellung gefunden unter: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Benutzereinstellungen ermöglichen Optionen]**. Wenn diese Option auf **Nein**, kann der Administrator diese Anwendungstypen registrieren.
 
-Bitten Sie einen Microsoft-Administrator, die Einstellung „Benutzer können Anwendung registrieren“ zu überprüfen unter: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Benutzereinstellungen lassen Optionen zu]**. Wenn diese Option auf „Nein“ festgelegt ist, kann dieser Administrator diese Anwendungstypen registrieren.
+Benutzer können den Zugriff gewähren, indem sie sich bei der [Microsoft Power BI-Konto](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-Benutzer können über den folgenden [Link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) Zugriff gewähren.
-
-Administratoren gewähren über folgenden [Link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) Zugriff für alle Benutzer.
+Administratoren können jedem Zugriff gewähren, indem sie sich bei der [Microsoft-Power BI-Konto des Administrators](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 ## API-Limit erreichen
 

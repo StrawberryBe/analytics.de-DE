@@ -1,22 +1,27 @@
 ---
-description: Kopieren Sie ein ganzes Arbeitsblatt aus einer Quellarbeitsmappe in eine oder mehrere andere Arbeitsmappen.
-title: Anforderungen und Arbeitsblätter zwischen Arbeitsmappen kopieren
+description: Erfahren Sie, wie Sie eine Tabelle aus einer Quellarbeitsmappe in eine oder mehrere Zielarbeitsmappen kopieren.
+title: So kopieren Sie Anforderungen und Arbeitsblätter zwischen Arbeitsmappen
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 79%
 
 ---
 
 # Anforderungen und Arbeitsblätter zwischen Arbeitsmappen kopieren
 
-Kopieren Sie ein ganzes Arbeitsblatt aus einer Quellarbeitsmappe in eine oder mehrere andere Arbeitsmappen.
+Kopieren Sie ein ganzes Arbeitsblatt aus einer Quellarbeitsmappe in eine oder mehrere andere Arbeitsmappen. Dazu müssen Sie mindestens zwei Arbeitsmappen in derselben Excel-Instanz geöffnet haben:
+* Die erste Quellarbeitsmappe enthält eine Tabelle (Arbeitsblatt) mit Anforderungen, die Zellen zugeordnet sind.
+* Die zusätzlichen Ziel-Arbeitsmappen sind die Ziele. Für jede neue Zielarbeitsmappe müssen Sie sich bei derselben Report Suite wie die Quellarbeitsmappe anmelden, bevor Sie Tabellen, die Anforderungen enthalten, einfügen können.
 
-Hierfür müssen Sie mindestens zwei Arbeitsmappen in derselben Excel-Instanz geöffnet haben: Die erste Quellarbeitsmappe enthält eine Tabelle (Arbeitsblatt) mit Zellen zugeordneten Anforderungen, während die zusätzliche Zielarbeitsmappe die Zielorte enthält. Für jede neue Zielarbeitsmappe müssen Sie sich bei derselben Report Suite wie die Quellarbeitsmappe anmelden, bevor Sie Tabellen, die Anforderungen enthalten, einfügen können.
+>[!NOTE]
+>
+>Sie müssen sich mit derselben Report Suite wie die Quellarbeitsmappe bei der Zielarbeitsmappe anmelden. Die Anforderungen in beiden Arbeitsmappen müssen mit Hilfe derselben Report Suite erstellt werden.
+
 1. Klicken Sie mit der rechten Maustaste auf das Arbeitsblatt in der Quellarbeitsmappe und wählen Sie **[!UICONTROL Arbeitsblatt mit Anforderungen kopieren]**.
 1. Klicken Sie in der Zielarbeitsmappe mit der rechten Maustaste auf ein Arbeitsblatt und wählen Sie **[!UICONTROL Arbeitsblatt mit Anforderungen einfügen]**.
 

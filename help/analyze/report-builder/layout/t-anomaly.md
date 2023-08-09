@@ -1,20 +1,20 @@
 ---
-description: Schritte zum Erstellen einer Anomalieerkennungsanforderung in Report Builder.
+description: Erfahren Sie, wie Sie in Report Builder eine Anomalieerkennungsanforderung erstellen.
 title: Konfigurieren einer Anomalieerkennungsanforderung
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 72%
 
 ---
 
 # Konfigurieren einer Anomalieerkennungsanforderung
 
-So erstellen Sie eine Anomalieerkennungsanfrage in Report Builder:
+So erstellen Sie eine Anomalieerkennungsanforderung in Report Builder:
 
 1. Wählen Sie einen Trendbericht aus, z. B. einen Bericht für **[!UICONTROL Site-Metriken]** > **[!UICONTROL Traffic]**.
 1. Wählen Sie im Menü [!UICONTROL Granularität anwenden] den Eintrag **[!UICONTROL Tag]**.
@@ -25,15 +25,15 @@ So erstellen Sie eine Anomalieerkennungsanfrage in Report Builder:
 
 1. Nach dem Konfigurieren der Datumsbereiche klicken Sie auf **[!UICONTROL Weiter]**.
 
-   Schritt Ergebnis 1. Im Anforderungs-Assistenten, Schritt 2 von 2, fügen Sie eine Metrik hinzu, z. B. **[!UICONTROL Besuche]**.
+   Im Anforderungs-Assistenten, Schritt 2 von 2, fügen Sie eine Metrik hinzu, z. B. **[!UICONTROL Besuche]**.
 
-   Schritt Ergebnis 1. Klicken Sie für die hinzugefügte Metrik auf den Link **[!UICONTROL Keine]**.
+   Klicken Sie für die hinzugefügte Metrik auf den Link **[!UICONTROL Keine]**.
 
-   ![Schritt Ergebnis](assets/anomaly_select.png)
+   ![Screenshot mit Anomalieerkennung, gefolgt von Einfügen und anschließenden Einfügen von Optionen für Lower und Upper Bound und erwartet.](assets/anomaly_select.png)
 
 1. Wählen Sie **[!UICONTROL Anomalieerkennung]** > **[!UICONTROL `<selection>`]** aus.
 
-   ![Schritt-Info](assets/anomaly_visit.png)
+   ![Screenshot mit dem Anforderungs-Assistenten, Schritt 2: Traffic-Bericht.](assets/anomaly_visit.png)
 
    Wenn Sie eine dieser Optionen wählen, erstellt das System für die Anomalieerkennung Kopien der ursprünglichen Metrik. Beispielsweise wird für die Besuchsmetrik der Gruppe [!UICONTROL Metrik] eine Metrik für die Untergrenze von Besuchen hinzugefügt.
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]** und wählen Sie eine Zelle für die Ausgabe in Excel.

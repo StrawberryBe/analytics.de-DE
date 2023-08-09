@@ -4,10 +4,10 @@ title: Berechnete Metriken
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 87%
 
 ---
 
@@ -25,13 +25,13 @@ In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filte
 
 ## Filtern von berechneten Metriken {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtern** Sie berechnete Metriken, indem Sie auf das Filtersymbol klicken:  ![](/help/admin/admin/assets/filter.png)
+**Filter** berechnete Metriken durch Klicken auf das Filtersymbol:  ![Screenshot der Filteroptionen mit den Feldern Anwendung, Benutzer, Projekt .](/help/admin/admin/assets/filter.png)
 
-  Im Dialogfeld „Erweiterte Filter“ werden die Standardmetriken und berechneten Metriken aufgeführt.
+Im Dialogfeld „Erweiterte Filter“ werden die Standardmetriken und berechneten Metriken aufgeführt.
 
 Folgende Filter stehen zur Verfügung:
 
-![](assets/advanced_filters.png)
+![Screenshot mit den erweiterten Filteroptionen, wie in der folgenden Tabelle beschrieben.](assets/advanced_filters.png)
 
 | Filtername | Beschreibung |
 |---|---|
@@ -47,4 +47,4 @@ Folgende Filter stehen zur Verfügung:
 
 Wenn Sie die Filter ausgewählt haben, klicken Sie auf **[!UICONTROL Übernehmen]**, um sie auf Ihre Anforderung anzuwenden. Die ausgewählten Metriken werden zum Berichtslayout hinzugefügt.
 
-![](assets/filtering_for_metric.png)
+![Screenshot mit dem Anforderungs-Assistenten, Schritt 2: Site-Summen, die auf das Fenster Erweiterte Filter verweisen, und den angewendeten Berichtsmetriken.](assets/filtering_for_metric.png)

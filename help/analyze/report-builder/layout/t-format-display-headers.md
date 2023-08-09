@@ -1,14 +1,14 @@
 ---
-description: Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- und Spaltenüberschriften angezeigt werden. Der Link „Formatoptionen“ ist für die Layouttypen „Pivot“ und „Benutzerdefiniert“ verfügbar.
-title: Anzeigeüberschriften formatieren
+description: Erfahren Sie, wie Sie Ihren Bericht benennen und konfigurieren, wie Zeilen- und Spaltenüberschriften angezeigt werden.
+title: Formatieren von Anzeigeüberschriften
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 

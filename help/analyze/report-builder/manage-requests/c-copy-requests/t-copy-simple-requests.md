@@ -1,14 +1,14 @@
 ---
-description: Kopieren Sie eher eine einfache Anforderung als eine Verweisanforderung. Eine einfache Anforderung enthält keine Verweise auf andere Anforderungen oder die Inhalte einer Zelle.
-title: Einfache Anforderungen kopieren
+description: Erfahren Sie, wie Sie eine einfache Anforderung kopieren.
+title: Kopieren einfacher Anforderungen
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
 role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 87%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 100%
 Kopieren Sie eher eine einfache Anforderung als eine Verweisanforderung. Eine einfache Anforderung enthält keine Verweise auf andere Anforderungen oder die Inhalte einer Zelle.
 
 Eine [Verweisanforderung](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) verwendet Werte aus Zellen als Eingabe für Parameter, etwa als Daten- oder relationale Filter. Diese Filter verwenden entweder Übereinstimmungen oder Trenderstellung und basieren auf den Ergebnissen einer früheren Anforderung oder auf dem vom Benutzer eingegebenen Inhalt einer Zelle. Eine solche Zelle wird Eingabezelle genannt.
+
+So kopieren Sie eine einfache Anforderung
+
 1. Es muss eine gültige Anforderung erstellt werden.
 1. Klicken Sie mit der rechten Maustaste auf eine der Zellen, die der Anforderung zugeordnet ist, oder wählen Sie einen Bereich von Zellen aus, der Anforderungen enthält.
 
@@ -24,7 +27,7 @@ Eine [Verweisanforderung](/help/analyze/report-builder/manage-requests/c-copy-re
 1. Wählen Sie **[!UICONTROL Anforderung kopieren]**.
 1. Klicken Sie in einem anderen Bereich des Arbeitsblatts mit der rechten Maustaste auf eine leere Zelle (d. h. eine Zelle, die keine Anforderung enthält).
 
-   Damit keine bereits erstellten Anforderungen verloren gehen oder beschädigt werden, ist es nicht möglich, Zellen mit Anforderungen in Zellen zu kopieren, die bereits Anforderungen zugeordnet sind. Wenn Sie Zellen kopieren oder ausschneiden, die Anforderungen enthalten, ist im Kontextmenü beim Rechtsklicken auf Zellen (oder Zellenbereiche), die Anforderungen enthalten, die Option [!UICONTROL Anforderungen einfügen] nicht verfügbar. Sie müssen eine andere Zelle als Ziel der Einfügeoperation wählen, damit sich die Anforderungen nicht überschneiden. Dies gilt sowohl für einzelne Zellen, die einzufügende Anforderungen enthalten, als auch ganze Zellenbereiche.
+   Um zu verhindern, dass Sie bereits erstellte Anforderungen verlieren oder beschädigen, können Sie Zellen, die Anforderungen enthalten, nicht in Zellen einfügen, die derzeit Anforderungen zugeordnet sind. Wenn Sie Zellen kopieren oder ausschneiden, die Anforderungen enthalten, ist im Kontextmenü beim Rechtsklicken auf Zellen (oder Zellenbereiche), die Anforderungen enthalten, die Option [!UICONTROL Anforderungen einfügen] nicht verfügbar. Sie müssen eine andere Zelle als Ziel der Einfügeoperation wählen, damit sich die Anforderungen nicht überschneiden. Dies gilt sowohl für einzelne Zellen, die einzufügende Anforderungen enthalten, als auch ganze Zellenbereiche.
 1. Klicken Sie auf **[!UICONTROL Anforderungen einfügen]**.
 
    Eine Kopie der ursprünglichen Anforderung wird in den Zellen in einer Position bzw. Positionen relativ zur ursprünglichen Anforderung abgelegt.
@@ -33,6 +36,6 @@ Eine [Verweisanforderung](/help/analyze/report-builder/manage-requests/c-copy-re
    >
    >Nur die Anforderungen werden kopiert, nicht die Zelleninhalte. Wenn weitere Informationen vorhanden sind, die nicht auf Anforderungen basieren, aber für das Verständnis der in den Zellen angezeigten Daten erforderlich sind (z. B. Spalten- oder Zeilenbezeichnungen der Tabelle), verwenden Sie die Excel-Standardbefehle für das Kopieren und Einfügen.
 
-   Da Excel für das Kopieren von Zellinhalten und das Kopieren von Anforderungen unterschiedliche Zwischenablagen verwendet, können Sie nicht aus Anforderungen stammende Inhalte und dann Anforderungen kopieren, indem Sie nacheinander „Kopieren“/„Einfügen“ und „Anforderungen kopieren“/„Anforderungen einfügen“ ausführen. Wenn Sie allerdings auf die Anforderungen im Arbeitsblatt vor dem Kopieren und Einfügen Formatierungen anwenden, wird die ursprüngliche Formatierung (hinsichtlich Rahmen, Schriften usw.) von ReportBuilder im Einfügebereich beibehalten.
+   Da Excel für das Kopieren von Zellinhalten und das Kopieren von Anforderungen unterschiedliche Zwischenablagen verwendet, können Sie nicht aus Anforderungen stammende Inhalte und dann Anforderungen kopieren, indem Sie nacheinander „Kopieren“/„Einfügen“ und „Anforderungen kopieren“/„Anforderungen einfügen“ ausführen. Wenn Sie jedoch auf die Anforderungen im Arbeitsblatt Formatierungen anwenden und diese dann kopieren und einfügen, wird die ursprüngliche Formatierung (z. B. Rahmen, Schriftarten usw.) von Report Builder beibehalten. im Einfügebereich beibehalten.
 
    Durch das Ändern einer Anforderung, die Sie kopiert oder in die Zwischenablage ausgeschnitten haben, wird die Anforderung aus der Zwischenablage entfernt. Um die Anforderung in ihrem ursprünglichen Zustand zu belassen, ändern Sie sie nicht zwischen dem Zeitpunkt des Kopierens und dem Zeitpunkt des Einfügens.
