@@ -3,10 +3,10 @@ title: Seitenereignisse
 description: Die Anzahl der ausgelösten Linktracking-Aktionen.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 60%
 
 ---
 
@@ -16,8 +16,8 @@ Die Metrik „Seitenereignisse“ gibt an, wie oft ein Linktracking-Aufruf ausge
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt alle Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) in einer Report Suite. Alle Link-Typen sind enthalten (benutzerspezifische Links, Downloadlinks und Exitlinks). Sie enthält keine Tracking-Aufrufe für Seitenansichten ([`t()`](/help/implement/vars/functions/t-method.md)).
+Diese Metrik zählt alle [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) in einer Report Suite. Alle Link-Typen sind enthalten (benutzerspezifische Links, Downloadlinks und Exitlinks). Sie umfasst nicht [Seitenansichts-Tracking-Aufrufe (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Vergleich mit ähnlichen Metriken
 
-* **Seitenereignisse im Vergleich zu [Seitenansichten](page-views.md)**: „Seitenereignisse“ zählt die Anzahl der Linktracking-Tracking-Aufrufe (`tl()`) und schließen Seitenansicht-Tracking-Aufrufe (`t()`) aus. „Seitenansichten“ im Gegensatz dazu zählt die Anzahl der Seitenansicht-Tracking-Aufrufe und schließt Links aus.
+* **Seitenereignisse vs. [Seitenansichten](page-views.md)**: Seitenereignisse zählen die Anzahl der Linktracking-Aufrufe (`tl()`) und schließen Seitenansichts-Tracking-Aufrufe (`t()`). Seitenansichten sind das Gegenteil. Sie zählt die Anzahl der Seitenansicht-Tracking-Aufrufe und schließt Links aus.
