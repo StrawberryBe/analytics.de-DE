@@ -5,10 +5,10 @@ title: Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 99f9a1d1fa6238918c1566f64df41418cd13fa0e
+source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 86%
+source-wordcount: '257'
+ht-degree: 75%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 86%
 
 So senden Sie eine Datei sofort per E-Mail an die Empfänger:
 
-1. Klicken **[!UICONTROL Freigeben] > [!UICONTROL Datei exportieren]**.
+1. Klicks **[!UICONTROL Freigeben] > [!UICONTROL Datei exportieren]**.
 1. Geben Sie den Dateityp an:
-   * [!UICONTROL **CSV**]: Wählen Sie diese Option aus, wenn Sie Daten in Textform benötigen.
-   * [!UICONTROL **PDF**]: Wählen Sie diese Option aus, wenn die heruntergeladene Datei alle angezeigten (sichtbaren) Tabellen und Visualisierungen im Projekt enthalten soll.
+   * [!UICONTROL **CSV**]: Wählen Sie diese Option, wenn Sie Daten in Textform benötigen.
+   * [!UICONTROL **PDF**]: Wählen Sie diese Option, wenn die heruntergeladene Datei alle angezeigten (sichtbaren) Tabellen und Visualisierungen im Projekt enthalten soll.
 1. (Optional) Fügen Sie eine Beschreibung hinzu, die in die E-Mail aufgenommen werden soll, um die empfangene Datei zu erklären.
 1. Fügen Sie Empfänger oder Gruppen hinzu. E-Mail-Adressen können auch eingegeben werden.
 1. Klicken Sie auf **[!UICONTROL Jetzt senden]**.
@@ -35,7 +35,7 @@ So senden Sie eine Datei sofort per E-Mail an die Empfänger:
 
 So senden Sie eine Datei basierend auf einem wiederkehrenden Zeitplan per E-Mail an die Empfänger:
 
-1. Klicken **[!UICONTROL Freigeben] > [!UICONTROL Dateiexport planen]**.
+1. Klicks **[!UICONTROL Freigeben] > [!UICONTROL Dateiexport planen]**.
 1. Geben Sie den Dateityp an (CSV oder PDF).
 1. (Optional) Fuegen Sie eine Beschreibung hinzu, die in der E-Mail enthalten sein wird, um die empfangene Datei zu erklären.
 1. Fügen Sie Empfänger oder Gruppen hinzu. E-Mail-Adressen können auch eingegeben werden.
@@ -45,38 +45,8 @@ So senden Sie eine Datei basierend auf einem wiederkehrenden Zeitplan per E-Mail
 
 ![](assets/send-on-schedule.png)
 
-## Manager für geplante Projekte
+## Geplante Projekte verwalten
 
 Geplante Analysis Workspace-Projekte können unter **Analytics > Komponenten > Geplante Projekte** verwaltet werden.
 
-Im Manager für geplante Projekte können wiederkehrende Projektzeitpläne bearbeitet und gelöscht werden. Suchen Sie in der Suchleiste oder mithilfe der Filteroptionen in der linken Leiste nach einem Zeitplan. Sie können nach Tag, genehmigten Zeitplänen, Inhabern und mehr filtern.
-
-![](assets/scheduled-project-manager2.png)
-
-| Feld | Beschreibung |
-| --- | --- |
-| [!UICONTROL Favoriten] | Wenn Sie das Sternsymbol auswählen, wird dieser Zeitplan zu einem Favoriten. |
-| [!UICONTROL Zeitplan-ID] | Diese ID wird hauptsächlich zum Debugging verwendet. |
-| [!UICONTROL Titel und Beschreibung] | Titel und Beschreibung dieses Projekts. |
-| [!UICONTROL Inhaber] | Die Person, die das Projekt erstellt hat und dafür verantwortlich ist. |
-| [!UICONTROL Tags] | (Optional) Mit Tagging können Projekte praktisch organisiert werden. Alle Benutzer können Tags erstellen und eines oder mehrere Tags auf ein Projekt anwenden. Sie sehen Tags jedoch nur für die Projekte, deren Verantwortlicher Sie sind oder die für Sie freigegeben wurden. |
-| [!UICONTROL Gesendet an] | Der/die Empfänger dieses geplanten Projekts. |
-| [!UICONTROL Ablaufdatum] | Für jede geplante Projekthäufigkeit können Sie das Ablaufdatum für bis zu ein Jahr in der Zukunft festlegen. |
-| [!UICONTROL Häufigkeit] | Wie oft Sie dieses geplante Projekt an den/die Empfänger senden möchten. |
-| [!UICONTROL Durchführungszeit] | Zu welcher Tageszeit dieses geplante Projekt gesendet wird.  |
-| [!UICONTROL Anzahl der Abfragen] | Die Anzahl der Abfragen für dieses Projekt. |
-
-## Allgemeine Aktionen
-
-Die folgenden Aktionen werden im Manager für geplante Projekte häufig ausgeführt:
-
-| Aktion | Beschreibung |
-|---|---|
-| **[!UICONTROL Zeitplan bearbeiten]** | Klicken Sie auf den Titel des Zeitplans, um seine Versandeinstellungen zu aktualisieren. |
-| **[!UICONTROL Zeitplan löschen]** | Wählen Sie das geplante Projekt in der Liste aus und klicken Sie dann im Menü auf „Löschen“. Dadurch wird der ausgewählte Zeitplan für das Projekt gelöscht. Das Projekt selbst wird nicht gelöscht. |
-| **[!UICONTROL Tags hinzufügen]** | Wählen Sie das geplante Projekt in der Liste aus und wählen Sie dann „Taggen“ oder „Genehmigen“ aus, um Ihre Zeitpläne zu organisieren und die Suche zu vereinfachen. |
-| **[!UICONTROL Fehlgeschlagene Zeitpläne anzeigen]** | Navigieren Sie zur linken Leiste > „Andere Filter“ > „Fehlgeschlagen“, um Zeitpläne anzuzeigen, die fehlgeschlagen sind. |
-| **[!UICONTROL Abgelaufene Zeitpläne anzeigen]** | Navigieren Sie zur linken Leiste > „Andere Filter“ > „Abgelaufen“, um Zeitpläne anzuzeigen, die abgelaufen sind. Klicken Sie auf den Titel des Zeitplans, um einen neuen Versandzeitplan einzurichten. |
-| **[!UICONTROL Zeitplan-ID anzeigen]** | Navigieren Sie oben rechts zu den Spaltenoptionen und fügen Sie der Tabelle die Spalte „Zeitplan-ID“ hinzu. Die Zeitplan-ID ist oft zum Debugging nützlich. |
-
-Im Manager für geplante Projekte werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt. Die Eigentuemerschaft eines geplanten Projekts kann unter **Admin > Analytics-Benutzer und -Assets > Assets übertragen** **übertragen** werden.
+Weitere Informationen finden Sie unter
