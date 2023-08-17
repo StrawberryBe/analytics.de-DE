@@ -3,10 +3,10 @@ title: purchaseID
 description: Deduplizieren Sie Treffer basierend auf einer eindeutigen Kaufkennung.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ Die `purchaseID`-Variable verhindert, dass Berichte durch Treffer mit demselben 
 
 Wenn Adobe einen Treffer als doppelten Kauf erkennt, werden alle Konversionsdaten (wie z. B. eVars und Ereignisse) nicht in der Berichterstellung angezeigt. In Daten-Feeds wird die `duplicate_purchase`-Spalte auf `1` gesetzt.
 
-Die Kauf-IDs gelten für alle Besucher und laufen nicht ab. Wenn ein Besucher eine bestimmte Kauf-ID festlegt und ein anderer Besucher dieselbe Kauf-ID ein Jahr später festlegt, wird der zweite Kauf dedupliziert.
+Die Kauf-IDs gelten für alle Besucher und laufen nach 37 Monaten ab. Wenn ein Besucher eine bestimmte Kauf-ID festlegt und ein anderer Besucher dieselbe Kauf-ID ein Jahr später festlegt, wird der zweite Kauf dedupliziert.
 
 ## Kauf-ID mit dem Web SDK
 
@@ -24,7 +24,7 @@ Kauf-ID ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com
 
 ## Kauf-ID mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.purchaseID in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
