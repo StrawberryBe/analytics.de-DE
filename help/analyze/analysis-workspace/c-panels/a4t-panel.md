@@ -4,10 +4,10 @@ title: Bedienfeld „Analytics for Target“ (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 99%
+source-wordcount: '1127'
+ht-degree: 87%
 
 ---
 
@@ -49,10 +49,10 @@ Für jede Freiformtabelle werden die folgenden Metrikspalten angezeigt:
 | Erfolgsmetrik | Die im Builder ausgewählte Metrik |
 | Konversionsrate | Erfolgsmetrik/Normalisierungsmetrik |
 | Steigerung | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis. Hinweis: Steigerung ist eine „gesperrte Metrik“ für die Dimension „Target-Erlebnisse“. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
-| Steigerung (Mindestwert) | Stellt den schlechtesten Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen kann.<br>Berechnung: (x/y ± 1,96 std_err(x,y)) / (x_control/y_control 1,96 std_err(x_control,y_control)). Hier ist std_err(x,y) gleich sqrt(xx/y - (x/y)^2), wobei xx die Summe der Quadrate angibt. |
-| Steigerung (mittlerer Wert) | Stellt den mittleren Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. Dies ist „Steigerung“ in Reports &amp; Analytics.<br>Berechnung: (x/y)/(x_control/y_control) - 1 |
-| Steigerung (Maximalwert) | Stellt den besten Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen kann.<br>Berechnung: siehe Aufstieg (unten). |
-| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Berechnung: Wenden Sie einen zweiseitigen t-Test mit y+y_control-2 Freiheitsgraden an, um den p-Wert zu finden, ob x/y gleich x_control/y_control ist. Berechnen Sie den t-Score, wobei stderr gleich sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control) ist. Geben Sie 1-p als Konfidenz zurück, dass sie unterschiedlich sind. |
+| Steigerung (Mindestwert) | Stellt den schlechtesten Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen kann.<br>Siehe [Statistische Berechnungen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) und [Vollständige Vertrauensberechnung](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-Datei für weitere Informationen. |
+| Steigerung (mittlerer Wert) | Stellt den mittleren Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. Dies ist „Steigerung“ in Reports &amp; Analytics.<br>Siehe [Statistische Berechnungen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) und [Vollständige Vertrauensberechnung](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-Datei für weitere Informationen. |
+| Steigerung (Maximalwert) | Stellt den besten Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen kann.<br>Siehe [Statistische Berechnungen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) und [Vollständige Vertrauensberechnung](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-Datei für weitere Informationen. |
+| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Siehe [Statistische Berechnungen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) und [Vollständige Vertrauensberechnung](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-Datei für weitere Informationen. |
 
 Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen. Sie können ein Segment auch entweder auf Panel-Ebene oder innerhalb der Freiformtabelle anwenden. Beachten Sie, dass Sie beim Hinzufügen in der Freiformtabelle eine Überlagerung über die gesamte Tabelle durchführen müssen, um die Steigerungs- und Konfidenzberechnungen beizubehalten. Segmente auf Spaltenebene werden derzeit nicht unterstützt.
 
