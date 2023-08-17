@@ -4,9 +4,9 @@ title: Übersicht über Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ Die [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ihre Datenanalys
 
    ![Registerkarte &quot;Arbeitsbereich&quot;](assets/components-tab.png)
 
-2. Wählen Sie eine der folgenden Produktfunktionen aus, um sie zu konfigurieren: (Abhängig von Ihren Berechtigungen sind möglicherweise nicht alle Funktionen sichtbar.)
+2. Wählen Sie eine der folgenden Produktfunktionen aus, um sie zu konfigurieren:
 
 
    | Produktfunktion | Funktion | Weitere Informationen |

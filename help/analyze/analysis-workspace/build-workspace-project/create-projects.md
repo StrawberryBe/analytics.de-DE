@@ -4,14 +4,14 @@ title: Projekte erstellen
 feature: Workspace Basics
 role: User, Admin
 exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: fabe043264e4567d54dc497897fff0aaad77eaaf
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 5%
+source-wordcount: '705'
+ht-degree: 14%
 
 ---
 
-# Projekte erstellen
+# Erstellen von Projekten in Analysis Workspace
 
 [Projekte](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace können Sie geschäftskritische Analysen anzeigen, die für Interessengruppen innerhalb oder außerhalb Ihres Unternehmens freigegeben werden können.
 
@@ -56,7 +56,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie ein Projekt erstellen und
 
 ## Hinzufügen von Bedienfeldern zum Projekt {#panels}
 
-[Bedienfelder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) sind die Grundlage für jedes Projekt in Analysis Workspace. Bedienfelder werden verwendet, um den Inhalt (Visualisierungen und Komponenten) eines Projekts zu organisieren.
+[Bedienfelder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) sind die Grundlage für jedes Projekt in Analysis Workspace. Bedienfelder dienen zum Organisieren der Inhalte (Visualisierungen und Komponenten) eines Projekts.
 
 Viele der in Analysis Workspace bereitgestellten Bedienfelder generieren einen vollständigen Satz von Analysen auf der Grundlage einiger Benutzereingaben.
 
@@ -74,7 +74,7 @@ So fügen Sie einen Bereich hinzu:
 
 ## Hinzufügen von Visualisierungen zum Projekt
 
-[Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) (z. B. eine Freiformtabelle, ein Balkendiagramm oder ein Liniendiagramm) verwendet werden, um Daten visuell darzustellen.
+[Visualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) (z. B. eine Freiformtabelle, ein Balkendiagramm oder ein Liniendiagramm) verwendet werden, um Daten visuell darzustellen.
 
 >[!TIP]
 >
@@ -82,7 +82,7 @@ So fügen Sie einen Bereich hinzu:
 
 So fügen Sie eine Visualisierung hinzu:
 
-1. Wählen Sie die **[!UICONTROL Visualisierungen]** in der linken Leiste.
+1. Wählen Sie die **[!UICONTROL Visualisierung]** in der linken Leiste.
 
    ![](assets/build-visualizations.png)
 
@@ -110,6 +110,6 @@ So fügen Sie eine Komponente hinzu:
 
 ## Projekt speichern und freigeben
 
-Bei der Erstellung einer Analyse in Analysis Workspace [automatisch gespeichert](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+Bei der Erstellung einer Analyse in Analysis Workspace wird Ihre Arbeit [automatisch gespeichert](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Wenn Sie das Projekt fertig erstellen und praktische Einblicke gewinnen, kann das Projekt von anderen genutzt werden. Sie können das Projekt für Benutzer und Gruppen in Ihrer Organisation oder auch für Personen außerhalb Ihrer Organisation freigeben. Informationen zum Freigeben eines Projekts finden Sie unter [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Wenn Sie das Projekt fertiggestellt haben und es praktische Einblicke liefert, kann das Projekt auch von anderen genutzt werden. Sie können das Projekt für Benutzende sowie Gruppen in Ihrer Organisation oder auch für Personen außerhalb Ihrer Organisation freigeben. Informationen zum Freigeben eines Projekts finden Sie unter [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).
