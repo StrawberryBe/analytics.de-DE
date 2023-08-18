@@ -1,13 +1,13 @@
 ---
-description: Allgemeine Übersichtsinformationen zu Adobe Analytics
+description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließlich Informationen zur Analytics-Oberfläche sowie Informationen zu den ersten Schritten für Administratoren, Analysten, Benutzer und Entwickler.
 title: Übersicht über Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
+source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
 workflow-type: tm+mt
-source-wordcount: '3101'
-ht-degree: 32%
+source-wordcount: '5049'
+ht-degree: 41%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics bietet die folgenden komplexen Segmentierungs- und Prognosewerkz
 
 * [Flussanalyse](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [Erweiterte Segmentierung](/https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [Erweiterte Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de)
 
 ### Marketing-Analyse
 
@@ -82,7 +82,7 @@ Die Benutzeroberfläche von Adobe Analytics umfasst die folgenden Hauptbereiche:
 
 ### Registerkarte &quot;Arbeitsbereich&quot;
 
-Die [!UICONTROL Arbeitsbereich] zeigt eine Liste der Analysis Workspace-Projekte an.
+Die [!UICONTROL Arbeitsbereich] zeigt die Registerkarte [!UICONTROL Projekte] -Bereich standardmäßig angezeigt, in dem der Ordner Firma, alle von Ihnen erstellten persönlichen Ordner, Ihre Projekte und mobile Scorecards angezeigt werden.
 
 1. Wählen Sie in Adobe Analytics die [!UICONTROL **Arbeitsbereich**] Registerkarte.
 
@@ -112,7 +112,7 @@ Die [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ihre Datenanalys
    | Segmente  | Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um Berichte mithilfe von Analytics-Funktionen, der Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten zu erstellen. | [Analytics-Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) |
    | Berechnete Metriken  | Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.  Damit können Marketing-Experten, Produktmanager und Analysten Fragen zu den Daten stellen, ohne die Analytics-Implementierung ändern zu müssen. | [Berechnete und erweiterte berechnete (abgeleitete) Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=de) |
    | Datumsbereiche | Analysis Workspace enthält eine Liste der Standarddatumsbereiche, die Benutzer beim Erstellen von Analysen verwenden können. Darüber hinaus können Sie benutzerdefinierte Datumsbereiche erstellen und sie für Benutzer in Analysis Workspace verfügbar machen. | [Erstellen von benutzerdefinierten Datumsbereichen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=de) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
-   | Virtual Report Suites |  |  |
+   | Virtual Report Suites | Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann. | [Virtual Report Suites – Übersicht](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de) |
    | Warnhinweise | Intelligente Warnhinweise ermöglichen eine präzisere Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem. | [Intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=en) |
    | Zielgruppen | Mithilfe von Zielen können Sie die Leistung Ihrer Website messen und den Fortschritt bei der Erreichung Ihrer Zielsetzungen verfolgen. Mit der Zielsetzung legen Sie fest, welche Attributmetriken oder eVars gemessen werden sollen oder ob Sie Ihre gesamte Website mit einer bestimmten Metrik vergleichen möchten. <p>Ziele sind Teil von Reports &amp; Analytics. Erfahren Sie mehr über die [Mitteilung zum Ende der Nutzungsdauer](https://express.adobe.com/page/6WnF8JK6IRDhf/) von Reports &amp; Analytics.</p> | [Zielgruppen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/targets.html?lang=en) |
    | Kalenderereignisse | Bei Berichten mit Trendansicht im Zeitverlauf können Sie mit Kalenderereignissen Ereignisse grafisch anzeigen und sehen, ob Kampagnen oder andere Ereignisse Ihren Site-Traffic, Umsatz oder andere Metriken beeinflusst haben. | [Kalenderereignisse](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=en) |
@@ -130,7 +130,7 @@ Die [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ihre Datenanalys
 
 ### Registerkarte „Tools“
 
-Registerkarte Tools ...
+<!-- The Tools tab ... -->
 
 1. Wählen Sie in Adobe Analytics die [!UICONTROL **Instrumente**] Registerkarte und wählen Sie [!UICONTROL **Alle Tools**].
 
@@ -142,23 +142,76 @@ Registerkarte Tools ...
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse bezeichnet die Kopie von Analytics-Daten für Speicherberichte und benutzerdefinierte Berichte, die Sie durch Filtern der Daten ausführen können. <p>Der Anforderungs-Manager ermöglicht es Ihnen, Anforderungen anzuzeigen, zu duplizieren und neu zu priorisieren.</p> | [Verwalten von Data Warehouse-Anforderungen](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=en) |
    | Activity Map | Activity Map ist so konzipiert, dass die Linkaktivität mithilfe visueller Überlagerungen nach Rang geordnet wird und ein Dashboard mit Echtzeitanalysen zur Verfügung gestellt wird, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen. Sie können damit verschiedene Ansichten einrichten, um die Beschleunigung der Kundenaktivität visuell zu identifizieren, Marketing-Initiativen zu quantifizieren und auf die Bedürfnisse und Verhaltensweisen der Zielgruppe zu reagieren. | [Übersicht über Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=de) |
-   | Recommendations Classic |  |  |
+   | Recommendations Classic | Recommendations ist eine Adobe Target-Funktion, mit der automatisch Produkte, Dienste oder Inhalte angezeigt werden, die basierend auf früheren Benutzeraktivitäten, Voreinstellungen oder anderen Kriterien für Ihre Besucher interessant sein könnten. | [Empfehlungen](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
    | Search&amp;Promote |  |  |
    | Mobile Services |  |  |
-   | Analytics-Dashboards (mobile App) |  |  |
-   | Report Builder |  |  |
+   | Analytics-Dashboards (mobile App) | Die Adobe Analytics-Dashboards-App bietet jederzeit und überall Erkenntnisse aus Adobe Analytics. Über das Programm können Benutzer intuitive Scorecards anzeigen, die Sie mithilfe der Adobe Analytics-Desktop-Benutzeroberfläche erstellen. | Die Adobe Analytics-Dashboards-App im iOS App Store- oder Google Play-Store |
+   | Report Builder | Adobe Report Builder ist ein Add-in für Microsoft Excel. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die Sie in Excel-Arbeitsblätter einfügen können. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen. | [Was ist Report Builder?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=de) |
 
    {style="table-layout:auto"}
 
 ### Admin-Registerkarte
 
-Registerkarte &quot;Admin&quot;...
+Die Registerkarte &quot;Admin&quot;enthält Funktionen und Konfigurationsoptionen für die Verwaltung von Adobe Analytics.
 
 1. Wählen Sie in Adobe Analytics die [!UICONTROL **Admin**] Registerkarte und wählen Sie [!UICONTROL **Alle Administratoren**].
 
    ![Registerkarte &quot;Arbeitsbereich&quot;](assets/admin-tab.png)
 
-## Erste Schritte für Administratoren, Analysten und Endbenutzer
+2. Wählen Sie eine der folgenden Produktfunktionen aus, um sie zu konfigurieren:
+
+   | Produktfunktion | Funktion | Weitere Informationen |
+   |---------|----------|----------|
+   | Analytics-Benutzer und -Assets | Während die meisten Benutzer- und Produktverwaltungsfunktionen jetzt nur noch im [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html), sind die Verwaltungsfunktionen zum Übertragen von Assets von einem Benutzer auf einen anderen sowie zum Festlegen eines Ablaufdatums für ein Benutzerkonto nur im Admin-Bereich von Adobe Analytics verfügbar. | [Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) |
+   | Benutzer-ID-Migration | Die Migration der Analytics-Benutzer-ID ermöglicht es Administratoren, Benutzerkonten einfach vom Analytics User Management zur Adobe Admin Console zu migrieren. | [Analytics-Benutzermigration zur Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=de) |
+   | Homepage für Benutzerverwaltung (alt) | Die Verwaltung von Benutzenden und Produkten wurde in die Adobe Admin Console verschoben. Verwenden Sie die Adobe Admin Console, um mit der Verwaltung von Benutzerberechtigungen für Adobe Analytics-Benutzer zu beginnen. | [Analytics in der Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de) |
+   | Gruppen (veraltet) | Die Gruppenverwaltung wurde in die Adobe Admin Console verschoben. Verwenden Sie die Adobe Admin Console, um mit der Gruppenverwaltung für Adobe Analytics zu beginnen. | [Analytics in der Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de) |
+   | Zugriff auf Report Suites | Die Methode zur Gewährung des Zugriffs auf Report Suite-Tools wurde in die Adobe Admin Console verschoben. Verwenden Sie die Adobe Admin Console, um Adobe Analytics-Benutzern Zugriff auf die Report Suite zu gewähren. | [Produktprofilberechtigungen für Report Suite-Werkzeuge](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
+   | Admin Tools-Homepage |  |  |
+   | Report Suites | Hier können Sie die Regeln definieren, die steuern, wie Daten in einer Report Suite verarbeitet werden. | [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en) |
+   | Analytics-Benutzer und -Assets | Die Benutzer- und Asset-Verwaltung wurde in die Adobe Admin Console verschoben. Verwenden Sie die Adobe Admin Console, um mit der Verwaltung von Benutzerberechtigungen für Adobe Analytics-Benutzer zu beginnen. | [Analytics in der Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de) |
+   | Classification Importer | Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics hoch. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren. | [Übersicht über Classifications importer](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
+   | Classification Rule Builder | Statt Classifications bei jeder Trackingcode-Änderung zu verwalten und hochzuladen, können Sie automatische, regelbasierte Classifications erstellen und diese auf mehrere Report Suites anwenden. | [Classification Rule Builder-Workflow](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=en) |
+   | Datenquellen  | Verwenden Sie den Datenquellen-Manager, um Datenquellen zu erstellen, zu bearbeiten oder zu deaktivieren. Sie können diese Benutzeroberfläche auch verwenden, um den Status von Dateien zu verfolgen, die an FTP-Speicherorte für Datenquellen hochgeladen wurden. | [Datenquellen verwalten](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=en) |
+   | Code-Manager | Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile Plattformen herunterladen | [Code-Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=de) |
+   | Traffic-Management | Auf der Seite „Traffic-Management“ können Sie Informationen zu erwarteten Änderungen des Trafficvolumens angeben. Auf der Grundlage dieser Einstellungen kann Adobe die entsprechenden Ressourcen zuweisen, damit der Traffic rechtzeitig nachverfolgt und verarbeitet werden kann. | [Übersicht über das Traffic-Management](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=en) |
+   | Nutzung von Server-Aufrufen | Ein Server-Aufruf, auch als „Treffer“ oder „Bildanforderung“ bezeichnet, ist eine Instanz, in der Daten zur Verarbeitung an Adobe-Server gesendet werden. Es steht ein Dashboard zur Nutzung von Server-Aufrufen zur Verfügung, in dem die Verbrauchsdaten Ihrer Server-Aufrufe verfolgt und mit Ihrem vertraglichen Limit verglichen werden. Sie können Warnhinweise einrichten, um Überschüsse zu vermeiden. | [Übersicht über die Nutzung der Server-Aufrufe](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+   | Protokolle | Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen. | [Protokolle](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=de) |
+   | Advertising Analytics | Konfigurieren Sie Adobe Analytics so, dass alle Ihre gebührenpflichtigen Google- und Bing-Suchdaten nebeneinander angezeigt werden. | [Konfigurieren von Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
+   | Datenfeeds | Daten-Feeds sind eine leistungsstarke Methode, Rohdaten aus Adobe Analytics abzurufen. Diese Rohdaten können nach Ermessen Ihrer Organisation auf anderen Plattformen außerhalb von Adobe verwendet werden. | [Analytics-Daten-Feed-Dokumentation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=de) |
+   | Nach IP ausschließen | Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websitetests und der Verwendung durch Mitarbeiter, können aus Berichten ausgeschlossen werden. Durch das Ausschließen von Daten nach der IP-Adresse wird die Genauigkeit der Berichte erhöht. Zudem können Sie Daten entfernen, die auf DoS-Angriffen oder anderen böswilligen Ereignissen beruhen und Ihre Berichte verfälschen könnten. Die Ausschlüsse lassen sich wahlweise oder über die Firewall konfigurieren. | [Nach IP-Adresse ausschließen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
+   | Veröffentlichungs-Widgets |  |  |
+   | Reporting Activity Manager | Reporting Activity Manager zeigt die Berichtskapazität für jede Report Suite in Ihrer Organisation an. Es bietet eine detaillierte Übersicht über den Berichtsverbrauch und hilft Ihnen, während Spitzenzeiten der Berichterstellung mühelos Kapazitätsprobleme zu diagnostizieren und zu beheben. | [Reporting Activity Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+   | Datenschutzkennzeichnung für Data Governance | Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. | [Report Suite-Daten beschriften](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
+   | Startseite der Unternehmenseinstellungen | Auf der Seite Unternehmenseinstellungen können Sie Einstellungen konfigurieren, die für alle von Ihrer Organisation verwalteten Report Suites gelten. | [Übersicht über Unternehmenseinstellungen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en) |
+   | Sicherheitsmanager | Mit dem Sicherheits-Manager können Sie den Zugriff auf Berichtsdaten kontrollieren. Zu den Optionen gehören sichere Passwörter, Passwortablauf, IP-Anmeldebeschränkungen und E-Mail-Domänenbeschränkungen. | [Sicherheits-Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=en) |
+   | Support-Info | Auf der Seite &quot;Support-Informationen&quot;werden die in Reports &amp; Analytics angezeigten Supportinformationen verwaltet. Reports &amp; Analytics. <p>Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum 31. Dezember 2023 einzustellen. Erfahren Sie mehr über die [Mitteilung zum Ende der Nutzungsdauer](https://www.adobe.com/go/analytics_rnaeol_de) von Reports &amp; Analytics.</p> |  |
+   | Web-Services | Die Web Services APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können. | [Webdienste](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=en) |
+   | Report Builder-Berichte | Verwalten von Lizenzen, die Report Builder-Benutzern zugewiesen wurden. | [Report Builder-Berichte](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=en) |
+   | Single Sign-On-Dienst | Single Sign-On ist in Adobe Experience Cloud über die Admin Console implementiert. | [Analytics in der Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de) |
+   | Co-Branding der Adobe Experience Cloud | Mit Hilfe der Seite „Co-Branding-Image verwalten“ können Sie Ihr Firmenlogo in über Reports &amp; Analytics heruntergeladenen Berichten und Legacy-Dashboards anzeigen. Co-Branding wird in Analysis Workspace nicht verwendet.<p>Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum 31. Dezember 2023 einzustellen. Erfahren Sie mehr über die [Mitteilung zum Ende der Nutzungsdauer](https://www.adobe.com/go/analytics_rnaeol_de) von Reports &amp; Analytics.</p> | [Co-Branding](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=en) |
+   | Ausblenden von Report Suites | Ermöglicht das Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics, wenn Sie nicht mehr möchten, dass eine Report Suite für Sie und Ihre Benutzer verfügbar ist. | [Report Suites ausblenden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=en) |  |
+
+   {style="table-layout:auto"}
+
+### Analysis Workspace
+
+Mit Analysis Workspace können Sie schnell Analysen erstellen, um Einblicke zu gewinnen und diese Einblicke dann für andere freizugeben. Mithilfe der Drag-and-Drop-Browser-Oberfläche können Sie Ihre Analyse erstellen, Visualisierungen hinzufügen, um Daten lebendig werden zu lassen, einen Datensatz kuratieren sowie Projekte für andere in Ihrer Organisation freigeben und planen.
+
+Das folgende Bild und die zugehörige Tabelle erläutern einige der Hauptbereiche in Analysis Workspace.
+
+Einen detaillierteren Überblick über Analysis Workspace finden Sie unter [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md).
+
+![Analysis Workspace – Übersicht](assets/analysis-workspace-overvew.png)
+
+| Position im Bild | Name und Funktion |
+|---------|----------|
+| A  | **Ganz linke Leiste:** Enthält Registerkarten zum Hinzufügen von Bedienfeldern, Visualisierungen und Komponenten zu Analysis Workspace. Enthält außerdem das Datenwörterbuchsymbol, mit dem das Datenwörterbuch geöffnet wird. |
+| B | **Linke Leiste:** Je nachdem, welche Registerkarte in der linken Leiste ausgewählt ist, enthält dieser Bereich einzelne Bedienfelder, Visualisierungen oder Komponenten. |
+| C  | **Arbeitsfläche:** Dies ist der Hauptbereich, in den Sie Inhalte aus den linken Leisten ziehen, um Ihr Projekt zu erstellen. Das Projekt wird dynamisch aktualisiert, wenn Sie Bereiche, Visualisierungen und Komponenten zur Arbeitsfläche hinzufügen. |
+| D | **Dropdown-Menü „Report Suite“:** Für jedes Bedienfeld in Analysis Workspace können Sie im Dropdown-Menü „Report Suite“ die Report Suite auswählen, die Sie als Datenquelle verwenden möchten. |
+
+## Erste Schritte für Administratoren, Analysten, Endbenutzer und Entwickler
 
 In einer typischen Organisation gibt es drei Arten von Adobe Analytics-Benutzern: Administratoren, Analysten und Endbenutzer.
 
@@ -170,7 +223,7 @@ Erweitern Sie die folgenden Abschnitte, um zu erfahren, wie diese Benutzer mit A
 
 Analytics-Administratoren sind für die Auswahl der Implementierungsmethode verantwortlich, die für ihre Organisation am besten geeignet ist.
 
-Nachdem Adobe Analytics implementiert wurde, müssen Administratoren verschiedene Konfigurationsaufgaben durchführen, um sicherzustellen, dass Analysten und Endbenutzer von Adobe Analytics den vollen Nutzen ziehen.
+Nachdem Adobe Analytics implementiert wurde, müssen Administratoren verschiedene Konfigurationsaufgaben durchführen, um sicherzustellen, dass Analysten und Endbenutzer von Adobe Analytics den vollen Nutzen ziehen. Administratoren sollten außerdem regelmäßig ihre Analytics-Umgebung überwachen, um sicherzustellen, dass das System effizient ausgeführt wird.
 
 #### Bestimmen der zu erfassenden Datentypen
 
@@ -217,12 +270,25 @@ Analytics-Administratoren sollten die folgenden Aufgaben ausführen, bevor sie A
 | Daten importieren | Mit Adobe Analytics-Datenquellen können Sie zusätzliche Online- oder Offline-Daten für die Berichterstellung importieren. | [Datenquellen - Übersicht](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
 | Daten mit Classifications klassifizieren | Klassifizierungen ermöglichen es Ihnen, Daten zu klassifizieren, um Variablen besser zu nutzen und so mehr Inhalt in eine Variable einzuschließen. | |
 | Komponenten verwalten | Verwenden Sie das Datenwörterbuch und die Verwaltungsbereiche für jeden Komponententyp, um zu definieren, welche Komponenten in Ihrer Analytics-Implementierung verfügbar sind und welche für Ihr Unternehmen genehmigt sind.<p>Dies sollte eine fortlaufende Aktivität sein, um sicherzustellen, dass Komponenten in Ihrem Unternehmen effektiv verwendet werden. </p> | <ul><li>[Datenwörterbuch – Überblick](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=de)</li><li>[Manager für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Segmente verwalten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de)</li><li>[Erstellen Sie benutzerdefinierte Datumsbereiche](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=de)</li></ul> |
-| Anomalieerkennung und Beitragsanalyse | | |
-| Erweiterte Segmentierung | | |
+| Fehlererkennung | Die Anomalieerkennung bietet eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. | [Übersicht über die Anomalieerkennung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de) |
+| Beitragsanalyse | Die Beitragsanalyse erkennt versteckte Muster, mit denen sich statistische Anomalien erklären und Korrelationen für nicht erwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Anstiege oder Rückgänge für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lassen. | [Übersicht über die Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=de) |
+| Analytics-Segmentierung | Ermöglicht Ihnen das Erstellen, Verwalten, Freigeben und Anwenden leistungsstarker, fokussierter Zielgruppensegmente auf Ihre Berichte mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten. | [Analytics-Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) |
 | Veröffentlichen von Zielgruppen in Audience Manager | | |
-| Attribution | | |
-| Reporting Activity Manager | | |
 | Integrationen | Sie können Informationen aus anderen Anwendungen in Adobe Analytics aufdecken. <p>Im Folgenden finden Sie einige gängige Integrationen:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de">Media Analytics</a></li> | |
+
+{style="table-layout:auto"}
+
+#### Überwachen von Adobe Analytics
+
+Es stehen verschiedene Funktionen zur Verfügung, mit denen Sie Ihre Adobe Analytics-Umgebung überwachen können.
+
+Analytics-Administratoren sollten sich der folgenden Funktionen bewusst sein, die zur Überwachung wichtiger Aspekte Ihrer Analytics-Umgebung verfügbar sind:
+
+| Aufgabe | Vorgesehene Verwendung | Weitere Informationen |
+|---------|----------|---------|
+| Reporting Activity Manager | Reporting Activity Manager zeigt die Berichtskapazität für jede Report Suite in Ihrer Organisation an. Es bietet eine detaillierte Übersicht über den Berichtsverbrauch und hilft Ihnen, während Spitzenzeiten der Berichterstellung mühelos Kapazitätsprobleme zu diagnostizieren und zu beheben. | [Reporting Activity Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+| Nutzung von Server-Aufrufen | Ein Server-Aufruf, auch als „Treffer“ oder „Bildanforderung“ bezeichnet, ist eine Instanz, in der Daten zur Verarbeitung an Adobe-Server gesendet werden. Es steht ein Dashboard zur Nutzung von Server-Aufrufen zur Verfügung, in dem die Verbrauchsdaten Ihrer Server-Aufrufe verfolgt und mit Ihrem vertraglichen Limit verglichen werden. Sie können Warnhinweise einrichten, um Überschüsse zu vermeiden. | [Übersicht über die Nutzung der Server-Aufrufe](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+| Protokolldateien | Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen. | [Protokolle](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=de) |
 
 {style="table-layout:auto"}
 
@@ -238,7 +304,7 @@ Im Folgenden finden Sie wichtige Aufgaben und Funktionen, mit denen Analysten ve
 | Attribution | Analysten können anpassen, wie Dimensionselemente Erfolgsereignissen zugeschrieben werden, indem sie verschiedene Attributionsmodelle und Lookback-Fenster in Analysis Workspace verwenden.<p>Die linearen Attributionsmodelle geben jedem Touchpoint, der zu einer Konversion führt, die gleiche Gewichtung, während Erstkontakt dem Erstkontaktpunkt die volle Gutschrift zuweist. Es stehen viele weitere Attributionsmodelle zur Verfügung, darunter das algorithmische Modell, das mithilfe statistischer Verfahren die optimale Zuordnung dynamisch bestimmt. </p> | [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md) |
 | Fehlererkennung | Die statistische Modellierung in Analysis Workspace findet automatisch unerwartete Trends in Ihren Daten, indem Sie Metriken analysieren und eine untere, obere Grenze und einen erwarteten Wertebereich bestimmen. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht. | [Übersicht über die Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | Beitragsanalyse | Verwenden Sie Analysis Workspace, um versteckte Muster in Ihren Daten zu ermitteln, um statistische Anomalien zu erklären und Korrelationen für unerwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Spitzen oder Tiefpunkte für Metriken in allen Zielgruppensegmenten zu identifizieren. | [Übersicht über die Beitragsanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
-| Intelligente Warnhinweise | Warnhinweise erstellen und verwalten, die auf Datenanomalien und &quot;gestapelten&quot;Warnhinweisen basieren, die mehrere Metriken in einem Warnhinweis erfassen. | [Übersicht über intelligente Warnhinweise](help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
+| Intelligente Warnhinweise | Warnhinweise erstellen und verwalten, die auf Datenanomalien und &quot;gestapelten&quot;Warnhinweisen basieren, die mehrere Metriken in einem Warnhinweis erfassen. | [Übersicht über intelligente Warnhinweise](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
 | Datenexport | Mit Data Warehouse und Daten-Feeds können Sie Daten an verschiedene Cloud-Ziele exportieren, z. B. Google Cloud Platform, Azure RBAC, Azure SAS und Amazon S3. | [Exportleitfaden für Analytics](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=de) |
 | Activity Map | Activity Map ist eine Adobe Analytics-Anwendung, die der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen.<p>Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleunigte Kundenaktivität zu erkennen, Marketinginitiativen zu quantifizieren und auf die Bedürfnisse und das Verhalten der Zielgruppe zu reagieren.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=de) |
 | Report Builder | Report Builder ist ein Add-in für Microsoft Excel. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die in Ihre Excel-Arbeitsblätter eingefügt werden. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen. | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=de) |
