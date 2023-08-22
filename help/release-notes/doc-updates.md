@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
+source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
 workflow-type: tm+mt
-source-wordcount: '4940'
-ht-degree: 99%
+source-wordcount: '4954'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **August 2023** | |
+| Datenverarbeitung mit Experience Edge | Hinzufügen von Inhalten wie Adobe Analytics [verarbeitet Daten aus Experience Edge](../implement/aep-edge/overview.md). |
 | Panel „Verbrachte Zeit bei der Medienwiedergabe“ | Inhalt für  [Bedienfeld &quot;Besuchszeit für Medienwiedergabe&quot;](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) , um die Lesbarkeit zu verbessern. |
 | Inhalt zur Verwaltung geplanter Projekte verschoben | Es wurde ein neuer Artikel im Analytics-Komponentenleitfaden mit dem Namen [Geplante Projekte](/help/components/scheduled-projects-manager.md). Diese Inhalte befinden sich zuvor im [Planen von Projekten](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) im Handbuch für Analytics-Tools. |
 | Vergleich von Implementierungsmethoden | Die Dokumentation zum Vergleich verschiedener Implementierungsmethoden wurde aktualisiert. [Weitere Informationen](../implement/prepare/comparison.md) |
