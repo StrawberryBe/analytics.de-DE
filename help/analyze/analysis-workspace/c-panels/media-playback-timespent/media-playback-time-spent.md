@@ -4,21 +4,37 @@ description: Verwendung und Interpretation des Panels „verbrachten Zeit bei de
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 9662c61a428923f296ca057156c06fa2bf41325d
+source-git-commit: 26e77f0670e07f90ed1293570c8a6aa60c37a1cd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 28%
 
 ---
 
 # Panel „Verbrachte Zeit bei der Medienwiedergabe“
 
-Media Analytics-Kunden können die verbrachte Zeit bei der Medienwiedergabe analysieren, um zu verstehen, wo besonders viele gleichzeitige Aufrufe stattfanden oder wo es zu Abbrüchen kam. So erhalten sie wertvolle Einblicke in die Qualität von Inhalten und die Interaktion von Betrachtern, was bei der Fehlerbehebung und der Planung von Volumen oder Skalierung helfen kann.
+In Analysis Workspace entspricht die Wiedergabedauer der Zeit, die mit der Anzeige Ihrer Medien-Streams zu einem bestimmten Zeitpunkt verbracht wurde. Er umfasst Pause, Puffer und Startzeit.
 
-In Analysis Workspace bezeichnet die verbrachte Zeit bei der Medienwiedergabe die Zeit, die mit der Anzeige Ihrer Medien-Streams zu einem bestimmten Zeitpunkt verbracht wurde. Sie beinhaltet auch Pausen, die Pufferung und die Zeit bis zum Start.
+Das Panel „Verbrachte Zeit bei der Medienwiedergabe“ ermöglicht die Analyse der Medienwiedergabe im Zeitverlauf und bietet Details zu Spitzenzeiten, in denen besonders viele gleichzeitige Aufrufe stattfanden, sowie die Möglichkeit von Aufschlüsselungen und Vergleichen.
 
-Das Panel „Verbrachte Zeit bei der Medienwiedergabe“ ermöglicht die Analyse der Medienwiedergabe im Zeitverlauf und bietet Details zu Spitzenzeiten, in denen besonders viele gleichzeitige Aufrufe stattfanden, sowie die Möglichkeit von Aufschlüsselungen und Vergleichen. Um auf das Panel „Verbrachte Zeit bei der Medienwiedergabe“ zuzugreifen, navigieren Sie zu einer Report Suite, während die Media Analytics-Komponenten aktiviert sind. Klicken Sie dann auf das Panel-Symbol ganz links und ziehen Sie das Panel in Ihr Analysis Workspace-Projekt.
+Media Analytics-Kunden können die Wiedergabedauer analysieren, um wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Betrachtern zu erhalten und bei der Fehlerbehebung oder Planung in Bezug auf Volumen oder Größe zu helfen.
 
-Dieses Panel enthält auch neue Funktionen im Kalender, mit denen Sie weniger als 24 Stunden auswählen und anzeigen können. Sie können dies für das gesamte Panel tun oder aber Segmente mithilfe aufeinanderfolgender Zeiträume erstellen, damit Sie den Ein- und Ausstieg von Zuschauern in allen Programmen oder Programmabschnitten verfolgen können. Nachdem Sie mindestens zwei dieser Datumssegmente platziert haben, sehen Sie ein Optionsfeld für die Datumssequenzanzeige. Darin werden die Linien entweder mit einem gemeinsamen X-Achsen-Beginn überlagert dargestellt oder sie werden nacheinander mit ihrem jeweiligen X-Achsen-Beginn anzeigt.
+Die Wiedergabedauer kann Ihnen dabei helfen, Folgendes zu verstehen:
+
+* Wo Spitzengleichzeitigkeit auftrat
+
+* Wo es zu Abbrüchen kam
+
+## Verwenden des Bedienfelds &quot;Besuchszeit für Medienwiedergabe&quot;
+
+1. Wechseln Sie zu einer Report Suite mit aktivierten Media Analytics-Komponenten.
+
+1. Wählen Sie das Bedienfeldsymbol ganz links aus und ziehen Sie dann das Bedienfeld in Ihr Analysis Workspace-Projekt.
+
+1. Anpassen des Bereichs Besuchszeit für Medienwiedergabe .
+
+   Weitere Informationen zu bestimmten Konfigurationsoptionen finden Sie unter [Zeiteingaben und Ausgaben des Bedienfelds &quot;Medienwiedergabe&quot;](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md).
+
+## Videoüberblick
 
 >[!VIDEO](https://video.tv.adobe.com/v/338699)
