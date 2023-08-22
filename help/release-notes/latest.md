@@ -4,9 +4,9 @@ description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -14,23 +14,23 @@ ht-degree: 79%
 
 **Letzte Aktualisierung**: 9. August 2023
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 9. August bis 13. September 2023. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 9. August bis zum 13. September 2023. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Klassifizierungssätze in API 2.0** | Bietet Adobe Analytics API 2.0-Methoden zum Speichern, Löschen, Abrufen, Importieren und Exportieren von Classification-Set-Daten. | Nicht angegeben | 31. August 2023 |
-| **Reporting Activity Manager** | Der Reporting-Aktivitäts-Manager bietet Administratoren detaillierte Einblicke in den Berichtsverbrauch für jede Report Suite, sodass sie während Spitzenzeiten der Berichterstellung mühelos Kapazitätsprobleme diagnostizieren und beheben können. [Weitere Informationen](/help/admin/admin/reporting-activity.md) | Nicht angegeben | 6. September 2023 |
+| **Klassifizierungssätze in API 2.0** | Bietet Adobe Analytics API 2.0 Methoden zum Speichern, Löschen, Abrufen, Importieren und Exportieren von Klassifizierungssatz-Daten. | Nicht angegeben | 31. August 2023 |
+| **Reporting Activity Manager** | Der Reporting Activity Manager bietet Admins detaillierte Einblicke in den Reporting-Verbrauch für jede Report Suite, sodass Admins während Spitzenzeiten des Reportings Kapazitätsprobleme einfach diagnostizieren und beheben können. [Weitere Informationen](/help/admin/admin/reporting-activity.md) | Nicht angegeben | 6. September 2023 |
 
 {style="table-layout:auto"}
 
 ## Fehlerbehebungen in Adobe Analytics
 
-* Es wurde ein Problem behoben, durch das benutzerspezifische Ereignisse nicht geladen wurden. (AN-324163)
-* Es wurde ein Problem behoben, durch das Beschriftungen für Legenden in einer Visualisierung nicht bearbeitet werden konnten. (AN-323246)
+* Es wurde ein Problem behoben, bei dem benutzerspezifische Ereignisse nicht geladen werden konnten. (AN-324163)
+* Es wurde ein Problem behoben, bei dem Beschriftungen für Legenden in einer Visualisierung nicht bearbeitet werden konnten. (AN-323246)
 
-AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN 320869; AN-321624; AN-321693; AN-322009; AN-32244; AN-322380; AN-322432; AN-3 22466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-32380; AN-32 3492; AN-323595; AN-323755; AN-323854; AN-323916; AN-324044; AN-324200; AN-324 213; AN-324238; AN-324347; AN-323598; AN-323625; AN-323631; AN-323638; AN-3236 41; AN-323755; AN-323767; AN-323777; AN-323825; AN-323846; AN-323972; AN-3241 3; AN-324170; AN-324197; AN-324273; AN-324275; AN-324345; AN-324384; AN-32443; AN-324511; AN-324513; AN-324521; AN-324524; AN-324531; AN-324532; AN-324534; AN 324537; AN-324569; AN-324618; AN-324635; AN-324688; AN-324704; AN-324712; AN-3 24721; AN-324745; AN-324792; AN-324793; AN-324794; AN-324795; AN-324824; AN-32 4905; AN-324918; AN-324932; AN-324934; AN-324947; AN-325003; AN-325073; AN-325 143; AN-325148; AN-325153; AN-325177; AN-325187; AN-325252; AN-325305; AN-3253 63; AN-325401; AN-325439; AN-325431; AN-325491; AN-325495; AN-325508; AN-3259 4; AN-325601; AN-325660; AN-325779; AN-325857; AN-325883; AN-325885; AN-32586
+AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-320869; AN-321624; AN-321693; AN-322009; AN-322244; AN-322380; AN-322432; AN-322466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-323380; AN-323492; AN-323595; AN-323755; AN-323854; AN-323916; AN-324044; AN-324200; AN-324213; AN-324238; AN-324347; AN-323598; AN-323625; AN-323631; AN-323638; AN-323641; AN-323755; AN-323767; AN-323777; AN-323825; AN-323846; AN-323972; AN-324113; AN-324170; AN-324197; AN-324273; AN-324275; AN-324345; AN-324384; AN-324433; AN-324511; AN-324513; AN-324521; AN-324524; AN-324531; AN-324532; AN-324534; AN-324537; AN-324569; AN-324618; AN-324635; AN-324688; AN-324704; AN-324712; AN-324721; AN-324745; AN-324792; AN-324793; AN-324794; AN-324795; AN-324824; AN-324905; AN-324918; AN-324932; AN-324934; AN-324947; AN-325003; AN-325073; AN-325143; AN-325148; AN-325153; AN-325177; AN-325187; AN-325252; AN-325305; AN-325363; AN-325401; AN-325439; AN-325431; AN-325491; AN-325495; AN-325508; AN-325594; AN-325601; AN-325660; AN-325779; AN-325857; AN-325883; AN-325885; AN-325886
 
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
