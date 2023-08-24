@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '891'
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-
 
 | Hinweis | Hinzugefügt oder aktualisiert am | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **37-monatige Gültigkeit von Kauf-IDs und Ereignis-IDs (Ereignis-Serialisierung)** | 10. Juli 2023 | Eine bevorstehende Version der Analytics-Trefferverarbeitungs-Engine, die für den **13. Juli 2023** geplant ist, wird damit beginnen, eine 37-monatige Gültigkeit für Kauf-IDs und Ereignis-IDs (Ereignis-Serialisierung) durchzusetzen. Derzeit laufen Kauf-IDs und Ereignis-IDs in Adobe Analytics nie ab. Sobald eine Kauf-ID oder Ereignis-ID gesehen/verwendet wird, wird jeder zukünftige Treffer, unabhängig vom Zeitraum, als Duplikat dieses Kaufs oder Ereignisses markiert. Mit der neuen Version der Verarbeitungs-Engine gilt Folgendes:<ul><li>Kauf-IDs und Ereignis-IDs laufen nach 37 Monaten immer ab.</li><li>Wenn die Kauf-ID oder Ereignis-ID seit 37 Monaten angezeigt wurde, wird sie nicht mehr als doppelter Kauf oder Ereignis betrachtet.</li><li> Wenn Sie Kauf-IDs oder Ereignis-IDs aus mehr als 37 Monaten „wiederverwenden“, werden sie nicht mehr als Duplikate betrachtet.</li></ul> |
+| **37-monatige Gültigkeit von Kauf-IDs und Ereignis-IDs (Ereignis-Serialisierung)** | 10. Juli 2023 | Die neueste Version der Analytics-Trefferverarbeitungs-Engine, veröffentlicht am **13. Juli 2023** hat mit der Erzwingung eines 37-monatigen Ablaufs von Kauf-IDs und Ereignis-IDs begonnen (Ereignis-Serialisierung). Bisher sind Kauf-IDs und Ereignis-IDs in Adobe Analytics nie abgelaufen. Sobald eine Kauf-ID oder Ereignis-ID gesehen/verwendet wurde, wird bei jedem zukünftigen Treffer, unabhängig davon, wann dieser Kauf oder dieses Ereignis als Duplikat gekennzeichnet wurde, Mit der neuen Version der Verarbeitungs-Engine gilt Folgendes:<ul><li>Kauf-IDs und Ereignis-IDs laufen nach 37 Monaten immer ab.</li><li>Wenn die Kauf-ID oder Ereignis-ID seit 37 Monaten angezeigt wurde, wird sie nicht mehr als doppelter Kauf oder Ereignis betrachtet.</li><li> Wenn Sie Kauf-IDs oder Ereignis-IDs aus mehr als 37 Monaten „wiederverwenden“, werden sie nicht mehr als Duplikate betrachtet.</li></ul> |
 | **Migration auf OAuth Server-zu-Server-Anmeldeinformationen für Adobe I/O** | 11. Mai 2023 | Kundinnen und Kunden von Adobe Analytics-API und Livestream, die JWT-Anmeldeinformationen für Adobe I/O verwenden, müssen bis zum **1. Januar 2025** auf OAuth Server-zu-Server-Anmeldeinformationen für Adobe I/O migrieren. Weitere Informationen und Zeitpläne finden Sie in der unten stehenden Tabelle unter dem Hinweis zum Ende der Nutzungsdauer. |
 
 {style="table-layout:auto"}
