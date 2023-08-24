@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 6cf07b816723ce0d5adb9183215e331c7656d928
+source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,9 @@ ht-degree: 100%
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Erste Schritte mit Adobe Analytics {#admin-overview}
    + [Übersicht über Analytics](get-started/analytics-overview.md)
+   + [Erste Schritte (nach Rolle)](get-started/get-started-by-role.md)
+   + [Analytics-Oberfläche - Grundlagen](get-started/analytics-interface.md)
+   + [Anwendungsbeispiele](get-started/use-cases.md)
    + [Welches Adobe Analytics-Tool sollte ich verwenden?](get-started/which-analytics-tool.md)
    + [Analytics – Produktvergleich und Voraussetzungen](get-started/analytics-product-comparison.md)
    + [Systemanforderungen](get-started/sys-reqs.md)
