@@ -4,18 +4,24 @@ title: Erste Schritte für Administratoren, Analysten, Endbenutzer und Entwickle
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1901'
 ht-degree: 34%
 
 ---
 
 # Erste Schritte für Administratoren, Analysten, Endbenutzer und Entwickler
 
-In einer typischen Organisation gibt es drei Arten von Adobe Analytics-Benutzern: Administratoren, Analysten und Endbenutzer.
+In einer typischen Organisation gibt es vier Arten von Adobe Analytics-Benutzern:
 
-Administratoren implementieren und konfigurieren Adobe Analytics; Analysten richten Projekte ein und erstellen Analysen mithilfe von Analysis Workspace. Endbenutzer erhalten umsetzbare Einblicke in ihre Kunden, indem sie entweder eigene Analysen erstellen oder mit Analysten zusammenarbeiten, um diese zu erstellen.
+* **Administratoren:** Implementieren und konfigurieren Sie Adobe Analytics.
+
+* **Analysten:** Einrichten von Projekten und Erstellen von Analysen mit Analysis Workspace
+
+* **Endbenutzer:** Verschaffen Sie sich umsetzbare Einblicke in Ihre Kunden, indem Sie entweder eigene Analysen erstellen oder mit Analytikern zusammenarbeiten, um diese zu erstellen.
+
+* **Entwickler:** Verwenden Sie die Adobe Analytics 2.0-APIs, um direkt Adobe-Server aufzurufen, um fast alle Aktionen auszuführen, die in der Benutzeroberfläche ausgeführt werden können, z. B. die Erstellung von Berichten zur Untersuchung, das Abrufen von Einblicken oder die Beantwortung wichtiger Fragen zu Daten.
 
 Die folgenden Informationen zeigen, wie jeder dieser Benutzer mit Adobe Analytics beginnen kann.
 
@@ -68,13 +74,13 @@ Analytics-Administratoren sollten die folgenden Aufgaben ausführen, bevor sie A
 | Berechtigungen definieren | Analytics-Administratoren müssen Produktprofile in der Admin Console für Adobe Analytics, Report Suite-Tools und Analytics-Tools zuweisen. | [Analytics-Berechtigungen in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=de) |
 | Report Suites einrichten und Einstellungen für Ihr Unternehmen definieren | Bei einer Report Suite handelt es sich um ein Datensilo, mit dem Adobe Analytics Berichte generiert.<p>Administratoren können auch [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de) zur weiteren Segmentierung von Daten.</p> | <ul><li>[Erstellen einer Report Suite](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Übersicht über Unternehmenseinstellungen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Daten importieren | Mit Adobe Analytics-Datenquellen können Sie zusätzliche Online- oder Offline-Daten für die Berichterstellung importieren. | [Datenquellen - Übersicht](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
-| Daten mit Classifications klassifizieren | Klassifizierungen ermöglichen es Ihnen, Daten zu klassifizieren, um Variablen besser zu nutzen und so mehr Inhalt in eine Variable einzuschließen. | |
+| Daten mit Classifications klassifizieren | Klassifizierungen ermöglichen es Ihnen, Daten zu klassifizieren, um Variablen besser zu nutzen und so mehr Inhalt in eine Variable einzuschließen. | [Übersicht über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) |
 | Komponenten verwalten | Verwenden Sie das Datenwörterbuch und die Verwaltungsbereiche für jeden Komponententyp, um zu definieren, welche Komponenten in Ihrer Analytics-Implementierung verfügbar sind und welche für Ihr Unternehmen genehmigt sind.<p>Dies sollte eine fortlaufende Aktivität sein, um sicherzustellen, dass Komponenten in Ihrem Unternehmen effektiv verwendet werden. </p> | <ul><li>[Datenwörterbuch – Überblick](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=de)</li><li>[Manager für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Segmente verwalten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de)</li><li>[Erstellen Sie benutzerdefinierte Datumsbereiche](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=de)</li></ul> |
 | Fehlererkennung | Die Anomalieerkennung bietet eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. | [Übersicht über die Anomalieerkennung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de) |
 | Beitragsanalyse | Die Beitragsanalyse erkennt versteckte Muster, mit denen sich statistische Anomalien erklären und Korrelationen für nicht erwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Anstiege oder Rückgänge für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lassen. | [Übersicht über die Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=de) |
 | Analytics-Segmentierung | Ermöglicht Ihnen das Erstellen, Verwalten, Freigeben und Anwenden leistungsstarker, fokussierter Zielgruppensegmente auf Ihre Berichte mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten. | [Analytics-Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) |
-| Veröffentlichen von Zielgruppen in Audience Manager | | |
-| Integrationen | Sie können Informationen aus anderen Anwendungen in Adobe Analytics aufdecken. <p>Im Folgenden finden Sie einige gängige Integrationen:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de">Media Analytics</a></li> | |
+| Veröffentlichen von Zielgruppen in Audience Manager | Adobe Audience Manager ist eine leistungsstarke Datenverwaltungsplattform, mit der Sie eindeutige Zielgruppenprofile aus Erstanbieter-, Zweitanbieter- (Partner-) und Drittanbieter-Datenintegrationen erstellen können. | [Audience Analytics-Übersicht](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de) |
+| Integrationen | Sie können Informationen aus anderen Anwendungen in Adobe Analytics aufdecken. <p>Im Folgenden finden Sie einige gängige Integrationen:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de">Media Analytics</a></li> | [Analytics-Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=de) |
 
 {style="table-layout:auto"}
 
