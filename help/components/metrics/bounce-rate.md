@@ -3,16 +3,18 @@ title: Absprungrate
 description: Das Verhältnis der Besuche mit genau einem Treffer zu den Einstiegen.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 64%
+source-wordcount: '154'
+ht-degree: 45%
 
 ---
 
 # Absprungrate
 
-Die Metrik „Absprungrate“ zeigt das Verhältnis der Besuche, die genau einen Treffer enthielten, im Vergleich zur Anzahl der Besuche auf dieser Seite. Sie können diese Metrik verwenden, um zu verstehen, welche Dimensionselemente die höchste Absprungrate aufweisen, oder um eine aggregierte Gesamtabsprungrate Ihrer Site im Zeitverlauf anzuzeigen. Hohe Absprungraten können Aufschluss über Probleme mit Ihrer Site oder App geben, z. B.: mangelhaftes Design, langsame Ladezeiten, irrelevante Inhalte oder ein Missverhältnis zwischen Besucherabsicht und Seiteninhalt.
+Die Metrik „Absprungrate“ zeigt das Verhältnis der Besuche, die genau einen Treffer enthielten, im Vergleich zur Anzahl der Besuche auf dieser Seite. Sie können diese Metrik verwenden, um zu verstehen, welche Dimensionselemente die höchste Absprungrate aufweisen, oder um eine aggregierte Gesamtabsprungrate Ihrer Site im Zeitverlauf anzuzeigen. Hohe Absprungraten können Probleme mit Ihrer Site oder App aufzeigen, wie z. B. mangelhaftes Design, langsame Ladezeiten, irrelevante Inhalte oder ein Missverhältnis zwischen Besucherabsichten und Seiteninhalten.
+
+Hier ein Beispiel: Nehmen wir an, die Homepage einer Website erhält im Monat 500 Besucher. Allerdings verlassen 250 dieser Besucher die Site nach Ansicht der Homepage und fahren nicht mit anderen Seiten fort. Die Absprungrate der Homepage würde daher 50 % betragen.
 
 ## Berechnung dieser Metrik
 

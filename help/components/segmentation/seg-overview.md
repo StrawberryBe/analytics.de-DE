@@ -1,20 +1,20 @@
 ---
 description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als kodifizierte Zielgruppeneinblicke ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
-title: Über Segmente
+title: Informationen zu Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
-# Über Segmente
+# Informationen zu Segmenten
 
-Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als Einblicke in Zielgruppen konzipiert, die Sie für Ihre spezifischen Anforderungen erstellen und dann überprüfen, bearbeiten und mit anderen Teammitgliedern teilen oder in anderen Adobe-Produkten und Analytics-Funktionen verwenden können.
+Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als Einblicke in Zielgruppen konzipiert, die Sie für Ihre spezifischen Anforderungen erstellen und dann überprüfen, bearbeiten und mit anderen Teammitgliedern teilen oder in anderen Adobe- und Analytics-Funktionen verwenden können.
 
-Segmente basieren auf einer [!UICONTROL Besucher], [!UICONTROL Besuch]und [!UICONTROL Treffer] Hierarchie der Ebene mit einem verschachtelten Behältermodell. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
+Segmente basieren auf einer [!UICONTROL Besucher], [!UICONTROL Besuch], und [!UICONTROL Treffer] Hierarchie der Ebene mit einem verschachtelten Behältermodell. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
 Sie können Segmente im Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in  Analysis Workspace) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
 
@@ -124,9 +124,9 @@ Analysis Workspace umfasst die folgenden zusätzlichen Funktionen:
 - Verwenden Sie [Segmente als Dimensionen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) bei Vergleichen.
 - Verwenden Sie Segmente in der [Fallout-Analyse](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
-## Von der Adobe bereitgestellte Segmente
+## Adobe-bereitgestellte Segmente
 
-Die Komponentenleiste auf der linken Bildschirmseite zeigt Segmente an, die von Ihnen und Ihrem Unternehmen und Ihren Adoben erstellt wurden und die standardmäßig bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]**, werden diese Adoben in der Regel unten in der Liste angezeigt und durch das rechts von der Liste angezeigte Logo gekennzeichnet.
+Die Leiste &quot;Komponente&quot;auf der linken Bildschirmseite zeigt Segmente an, die von Ihnen und Ihrem Unternehmen erstellt wurden, sowie Adobe-Segmente, die standardmäßig bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]**, werden diese Segmente in der Regel unten in der Liste angezeigt und durch das Adobe-Logo rechts gekennzeichnet.
 
 ## Sequenzielle Segmente {#sequential}
 
@@ -141,7 +141,7 @@ Mit sequenziellen Segmenten können Sie Besucher anhand der Navigation und den S
 Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 - Auf der Sequenz von Seitentreffern basierende Besucher: Seitenansichten innerhalb eines einzelnen Besuchs, Seitenansichten über verschiedene Besuche hinweg, Besuche, bei denen Seitenansichten ausgeschlossen wurden.
-- Besucher basierend auf der Zeit zwischen und nach Seitenansichten: nach einem Zeitlimit zwischen Treffern nach einem Ereignis.
+- Auf der Zeit zwischen und nach Seitenansichten basierende Besucher: nach einem Zeitlimit, zwischen Treffern, nach einem Ereignis.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -239,7 +239,7 @@ Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Da
 
 In diesem Video erhalten Sie einen kurzen Überblick darüber, was Segmentcontainer sind und wie sie verwendet werden:
 
-![](https://video.tv.adobe.com/v/25401)
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
 
 ## Zugriff auf die Segmentierungswerkzeuge {#access}
@@ -252,7 +252,7 @@ Sie können wie folgt auf den Segment Builder zugreifen:
 
 - Klicken Sie oben im Segment-Manager auf **[!UICONTROL + Hinzufügen]**.  ![Schaltfläche hinzufügen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
-   oder
+  oder
 
 - klicken Sie im Segment-Manager auf einen Segmenttitel, um das Segment im Segment Builder zu bearbeiten.
 
