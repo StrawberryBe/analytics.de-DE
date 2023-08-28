@@ -3,16 +3,16 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '3174'
+source-wordcount: '3175'
 ht-degree: 21%
 
 ---
 
 # Erstellen eines Daten-Feeds
 
-Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
+Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
 * Informationen zum Ziel, an das Rohdatendateien gesendet werden sollen
 
@@ -41,7 +41,7 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
    | [!UICONTROL **E-Mail nach Abschluss**] | Die E-Mail-Adresse, die benachrichtigt werden soll, wenn die Verarbeitung eines Feeds abgeschlossen ist. Die E-Mail-Adresse muss korrekt formatiert sein. |
    | [!UICONTROL **Feedintervall**] | Auswählen **Täglich** für Aufstockungsdaten oder historische Daten. Tägliche Feeds enthalten Daten zu einem vollständigen Tageswert, von Mitternacht bis Mitternacht in der Zeitzone der Report Suite.  Auswählen **Stündlich** für kontinuierliche Daten (Täglich ist auch für die Fortsetzung von Feeds verfügbar, falls gewünscht). Stündliche Feeds enthalten Daten aus einer Stunde. |
    | [!UICONTROL **Verarbeitung verzögern**] | Warten Sie eine bestimmte Zeit, bevor Sie eine Daten-Feed-Datei verarbeiten. Eine Verzögerung kann nützlich sein, um mobilen Implementierungen die Möglichkeit zu geben, dass Offlinegeräte online gehen und Daten senden können. Sie kann auch verwendet werden, um die serverseitigen Prozesse Ihrer Organisation bei der Verwaltung zuvor verarbeiteter Dateien zu berücksichtigen. In den meisten Fällen ist keine Verzögerung erforderlich. Ein Feed kann um bis zu 120 Minuten verzögert werden. |
-   | [!UICONTROL **Start- und Enddaten**] | Das Startdatum gibt das erste Datum an, an dem Sie einen Daten-Feed erstellen möchten. Legen Sie dieses Datum in der Vergangenheit fest, um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen. Feeds werden bis zum Enddatum verarbeitet. Start- und Enddatum basieren auf der Zeitzone der Report Suite. |
+   | [!UICONTROL **Start- und Enddaten**] | Das Startdatum gibt das Datum an, an dem der Daten-Feed beginnen soll. Um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen, setzen Sie dieses Datum auf ein Datum in der Vergangenheit, an dem Daten erfasst werden. Start- und Enddatum basieren auf der Zeitzone der Report Suite. |
    | [!UICONTROL **Kontinuierlicher Feed**] | Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung. |
 
 1. Im [!UICONTROL **Ziel**] im Abschnitt [!UICONTROL **Typ**] Dropdown-Menü das Ziel auswählen, an das die Daten gesendet werden sollen.
@@ -93,8 +93,8 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
          |---------|----------|
          | [!UICONTROL **Kontoname**] | Ein Name für das Konto. Dabei kann es sich um einen beliebigen Namen handeln. |
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Rollen-ARN**] | Sie müssen einen Role ARN (Amazon Resource Name) bereitstellen, mit dem Adobe Zugriff auf das Amazon S3-Konto erhalten kann. Dazu erstellen Sie eine IAM-Berechtigungsrichtlinie für das Quellkonto, hängen die Richtlinie an einen Benutzer an und erstellen dann eine Rolle für das Zielkonto. Weitere Informationen finden Sie unter [Diese AWS-Dokumentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **Benutzer-ARN**] | Der Benutzer-ARN (Amazon Resource Name) wird von Adobe bereitgestellt. Sie müssen diesen Benutzer an die von Ihnen erstellte Richtlinie anhängen. |
+         | [!UICONTROL **Rollen-ARN**] | Sie müssen einen Role ARN (Amazon Resource Name) bereitstellen, den Adobe verwenden kann, um Zugriff auf das Amazon S3-Konto zu erhalten. Dazu erstellen Sie eine IAM-Berechtigungsrichtlinie für das Quellkonto, hängen die Richtlinie an einen Benutzer an und erstellen dann eine Rolle für das Zielkonto. Weitere Informationen finden Sie unter [Diese AWS-Dokumentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **Benutzer-ARN**] | Die Benutzer-ARN (Amazon Resource Name) wird von Adobe bereitgestellt. Sie müssen diesen Benutzer an die von Ihnen erstellte Richtlinie anhängen. |
 
          {style="table-layout:auto"}
 
@@ -104,7 +104,7 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
          |---------|----------|
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Behälter**] | Der Behälter in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN Zugriff auf das Hochladen von Dateien in diesen Behälter hat. |
+         | [!UICONTROL **Behälter**] | Der Behälter in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN Zugriff auf das Hochladen von Dateien in diesen Bucket hat. |
          | [!UICONTROL **Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -278,10 +278,10 @@ Beim Erstellen eines Daten-Feeds bieten Sie Adobe mit:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Prinzipal**] | Der Prinzipal wird von der Adobe bereitgestellt. Sie müssen diesem Prinzipal Berechtigungen zum Empfangen von Feeds erteilen. |
+         | [!UICONTROL **Prinzipal**] | Der Prinzipal wird von Adobe bereitgestellt. Sie müssen diesem Prinzipal Berechtigungen zum Empfangen von Feeds erteilen. |
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Behälter**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal Berechtigungen zum Hochladen von Dateien in diesen Bucket erteilt haben. |
+         | [!UICONTROL **Behälter**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal die Berechtigung zum Hochladen von Dateien in diesen Bucket erteilt haben. |
          | [!UICONTROL **Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
 
          {style="table-layout:auto"}
