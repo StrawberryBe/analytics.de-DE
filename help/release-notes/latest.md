@@ -3,7 +3,7 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
+source-git-commit: 991c46091d08a3efa8c1ff90d6ccc2a4e698f208
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Aktuelle Adobe Analytics-Versionshinweise (August 2023)
 
-**Letzte Aktualisierung**: 24. August 2023
+**Letzte Aktualisierung**: 29. August 2023
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 9. August bis zum 13. September 2023. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,7 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 9. A
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Klassifizierungssätze in API 2.0** | Bietet Adobe Analytics API 2.0 Methoden zum Speichern, Löschen, Abrufen, Importieren und Exportieren von Klassifizierungssatz-Daten. | Nicht angegeben | 30. August 2023 |
+| **Klassifizierungssätze in API 2.0** | Bietet Adobe Analytics API 2.0 Methoden zum Speichern, Löschen, Abrufen, Importieren und Exportieren von Klassifizierungssatz-Daten. | Nicht angegeben | 13. September 2023 |
 | **Reporting Activity Manager** | Der Reporting Activity Manager bietet Admins detaillierte Einblicke in den Reporting-Verbrauch für jede Report Suite, sodass Admins während Spitzenzeiten des Reportings Kapazitätsprobleme einfach diagnostizieren und beheben können. [Weitere Informationen](/help/admin/admin/reporting-activity.md) | Nicht angegeben | 12. September 2023 |
 
 {style="table-layout:auto"}
