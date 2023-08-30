@@ -1,20 +1,20 @@
 ---
-description: Versenden Sie ein Projekt aus Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
+description: Senden Sie ein Analysis Workspace-Projekt per E-Mail oder planen Sie die Bereitstellung.
 keywords: Analysis Workspace
 title: Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # Planen von Projekten
 
-Über das Menü **Freigeben** in Workspace können Sie Analysis Workspace-Projekte per E-Mail an ausgewählte Empfänger senden. Dateien können im CSV- oder PDF-Format gesendet werden.
+Aus dem Arbeitsbereich **Menü freigeben** können Sie Analysis Workspace-Projekte per E-Mail an ausgewählte Empfänger senden. Dateien können im CSV- oder PDF-Format gesendet werden. Nachdem Sie geplante Projekte freigegeben haben, können Sie die Zeitplaneinstellungen bearbeiten, um die Häufigkeit, die Empfängerliste oder den Dateityp mit dem Manager für geplante Projekte zu ändern.
 
 ## Datei jetzt senden
 
@@ -46,6 +46,14 @@ So senden Sie eine Datei basierend auf einem wiederkehrenden Zeitplan per E-Mail
 ![](assets/send-on-schedule.png)
 
 ## Geplante Projekte verwalten
+
+Wenn Sie geplante Projekte verwalten, können Sie wiederkehrende Projektpläne bearbeiten und löschen:
+
+* Dateityp ändern (.csv oder PDF)
+* Aktualisieren der Projektbeschreibung
+* Empfänger hinzufügen oder entfernen
+* Häufigkeit ändern
+
 
 Geplante Analysis Workspace-Projekte können unter **Analytics > Komponenten > Geplante Projekte** verwaltet werden.
 
