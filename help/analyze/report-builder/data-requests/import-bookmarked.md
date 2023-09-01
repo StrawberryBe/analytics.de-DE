@@ -1,19 +1,19 @@
 ---
-description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden ab sofort in Schritt 1 des Anforderungs-Assistenten als Dimensionen gelistet und können als Report Builder-Anforderungen importiert werden.
+description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden jetzt in Schritt 1 des Anforderungs-Assistenten als Dimensionen aufgelistet und können als Report Builder-Anforderungen importiert werden.
 title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 95%
+ht-degree: 82%
 
 ---
 
 # Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 
-Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden ab sofort in Schritt 1 des Anforderungs-Assistenten als Dimensionen gelistet und können als Report Builder-Anforderungen importiert werden.
+Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden jetzt in Schritt 1 des Anforderungs-Assistenten als Dimensionen aufgelistet und können als Report Builder-Anforderungen importiert werden.
 
 Wenn Sie einen mit Lesezeichen markierten Bericht auswählen, belegt der Anforderungs-Assistent alle Dimensionen und Metriken, die diesen mit Lesezeichen markierten Bericht definieren. Der Datumsbereich, die Granularität und das ausgewählte Segment werden ebenfalls auf Basis des ausgewählten Lesezeichens aktualisiert.
 

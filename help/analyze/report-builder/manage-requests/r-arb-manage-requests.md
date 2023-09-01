@@ -1,30 +1,30 @@
 ---
-description: Feldbeschreibungen zur Verwaltung von Anforderungen in Report Builder.
-title: Anforderungen verwalten – Definitionen
+description: Erfahren Sie mehr über die Feldbeschreibungen für die Verwaltung von Anforderungen in Report Builder.
+title: Verwalten von Anforderungen in Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 78%
 
 ---
 
 # Anforderungen verwalten – Definitionen
 
-Feldbeschreibungen zur Verwaltung von Anforderungen in Report Builder.
+Zeigen Sie Details zum Anforderungsstatus an und verwenden Sie die Feldbeschreibungen, um Anforderungen in Report Builder zu verwalten.
 
 ## Überblick {#section_75C288C945FA4781A4EDF806711A5660}
 
-Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Übersicht der von Ihnen erstellten Anforderungen, entweder aller Anforderungen in allen Arbeitsblättern oder nur der Anforderungen der aktiven Arbeitsmappe. Sie können außerdem Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen (also typische Funktionen des [!UICONTROL Anforderungs-Assistenten] bzw. des [!UICONTROL Anforderungs-Managers] ausführen), indem Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die bereits erstellte Anforderungen enthält.
+Die [!UICONTROL Anforderungs-Manager] bietet einen detaillierten Überblick über den Status aller Anforderungen, die Sie für alle Arbeitsblätter oder nur für ein Blatt der aktiven Arbeitsmappe erstellt haben. Sie können auch Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen. Diese Funktionen sind normalerweise mit dem [!UICONTROL Anforderungs-Assistent] und [!UICONTROL Anforderungs-Manager] wenn Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die frühere Anforderungen enthält.
 
-Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL Verwalten]** klicken (![](assets/edit_request.gif) in der Report Builder-Symbolleiste).
+Die [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL Verwalten]**  ![](assets/edit_request.gif) in der Symbolleiste &quot;Report Builder&quot;.
 
 >[!NOTE]
 >
->Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
+>Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Beschränkung auf Abhängigkeiten innerhalb eines einzelnen Arbeitsblatts stellt die Ausführungszeit sicher.
 
 ## Definitionen {#section_FD29D8614DE74F32A0027FA130F40304}
 

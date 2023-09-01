@@ -1,14 +1,14 @@
 ---
-description: Nähere Informationen zur Funktion der Schaltflächen auf der Report Builder-Symbolleiste.
-title: Report Builder-Symbolleiste
+description: Erfahren Sie mehr über die Funktionen der Report Builder-Symbolleiste.
+title: Verwendung der Report Builder-Symbolleiste
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 93%
+source-wordcount: '304'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ Nähere Informationen zur Funktion der Schaltflächen auf der Report Builder-Sym
 
 Starten Sie Excel nach der Installation Report Builder und klicken Sie auf **[!UICONTROL Add-Ins]**.
 
-![](assets/report_builder_toolbar.png)
+![Symbole der Report Builder-Symbolleiste](assets/report_builder_toolbar.png)
 
 **Anmelden:** Zeigt die [!UICONTROL Anmelden] Formular, damit Sie sich mit Ihren Anmeldedaten oder als anderer Benutzer anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Anmelden bei Report Builder](/help/analyze/report-builder/setup/login.md).
 
@@ -32,7 +32,7 @@ Starten Sie Excel nach der Installation Report Builder und klicken Sie auf **[!U
 
 **Plan:** Zur Planung von Berichten entsprechend der von Ihnen festgelegten Datums- und Dateiformate. Siehe [Berichtanforderungen planen](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Bibliothek:** Die [!UICONTROL Arbeitsmappen-Bibliothek] wird gestartet, sodass Sie eine Excel-Arbeitsmappe zu Report Builder für die Freigabe hochladen können. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Siehe [Nutzung der Arbeitsmappen-Bibliothek](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)
+**Bibliothek:** Startet die [!UICONTROL Arbeitsmappen-Bibliothek] , damit Sie eine Excel-Arbeitsmappe für Report Builder hochladen können, die Sie freigeben möchten. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Siehe [Nutzung der Arbeitsmappen-Bibliothek](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)
 
 **Optionen:** Hier können Sie angeben, ob beim Aktualisieren von Daten nach dem **[!UICONTROL Ausführungsdatum]** gefragt werden soll. Außerdem kann die Protokollierung zu Fehlerbehebungszwecken aktiviert werden. Siehe [Optionen](/help/analyze/report-builder/options.md).
 

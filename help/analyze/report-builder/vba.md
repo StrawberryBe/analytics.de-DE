@@ -1,25 +1,27 @@
 ---
-title: Visual Basic-Makros in Report Builder
-description: Erweitern Sie die Funktionalität von Excel-Arbeitsmappen und Report Builder mit VBA.
+title: Verwenden von Visual Basic-Makros in Report Builder
+description: Erfahren Sie, wie Sie die Funktionalität von Excel-Arbeitsmappen und Report Builder mithilfe von VBA-Makros erweitern.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
 # Visual Basic-Makros in Report Builder
 
-Mit VBA-Makros, auch Visual Basic-Makros genannt, können Sie Arbeitsmappen so bearbeiten, wie es Microsoft Excel allein nicht kann. Visual Basic hat Zugriff auf die Arbeitsmappe, Excel und sogar auf Windows.
+Visual Basic (VBA)-Makros bieten Funktionen, mit denen Sie Excel-Arbeitsmappen aktualisieren können. Visual Basic hat Zugriff auf die Arbeitsmappe, Excel und Windows.
 
-Adobe unterstützt drei Report Builder-API-Methoden. Stellen Sie sicher, dass die neueste Version von Report Builder installiert ist, und melden Sie sich an, bevor Sie Makros ausführen.
+Sie müssen die neueste Version von Report Builder ausführen und sich anmelden, bevor Sie VBA-Makros ausführen.
 
 >[!IMPORTANT]
 >
 >Aus Sicherheitsgründen ist es nicht möglich, eine Arbeitsmappe mit einem Makro zu planen.
+
+Adobe unterstützt drei Report Builder-API-Methoden.
 
 ## `RefreshAllReportBuilderRequests()`
 

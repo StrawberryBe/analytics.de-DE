@@ -5,16 +5,16 @@ uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
 # Anomalieerkennung{#anomaly-detection}
 
-Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
+Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Treten unerwartete Spitzen oder Rückgänge auf, meldet das System dies im entsprechenden Bericht.
 
 Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 
@@ -60,7 +60,7 @@ Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispie
 
 **Berechnung der Anomalieerkennung**
 
-Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. In Report Builder sind 30 Tage verfügbar.
+Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. Im Report Builder sind 30 Tage verfügbar.
 
 Der Schulungszeitraum ist nicht notwendigerweise mit dem ausgewählten Berichtzeitraum identisch. Eine Berichtsgrafik zeigt den Datumsbereich an, den Sie im Kalender angegeben haben.
 

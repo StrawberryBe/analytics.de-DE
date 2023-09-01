@@ -1,20 +1,20 @@
 ---
-description: Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie sie speichern, indem Sie in Excel auf Datei > Speichern oder Datei > Speichern als klicken. ReportBuilder ermittelt, ob der Bericht Anforderungen enthält. Wenn Sie auf eine dieser beiden Speicheroptionen klicken, wird das Dialogfeld „Arbeitsmappe speichern als“ angezeigt.
-title: Arbeitsmappe mit Anforderungen speichern
+description: Erfahren Sie mehr über das Speichern von Berichten mit eingebetteten Anforderungen.
+title: Informationen zum Speichern einer Arbeitsmappe mit Anforderungen
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 80%
 
 ---
 
 # Arbeitsmappe mit Anforderungen speichern
 
-Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie sie speichern, indem Sie in Excel auf Datei > Speichern oder Datei > Speichern als klicken. ReportBuilder ermittelt, ob der Bericht Anforderungen enthält. Wenn Sie auf eine dieser beiden Speicheroptionen klicken, wird das Dialogfeld „Arbeitsmappe speichern als“ angezeigt.
+Wenn Sie Berichte mit eingebetteten Anforderungen erstellen, können Sie diese mit **Datei** > **Speichern** oder **Datei** > **Speichern unter** in Excel. Report Builder erkennt, ob der Bericht Anforderungen enthält. Wenn Sie eine der Speicheroptionen auswählen, führen Sie die **Arbeitsmappe speichern unter** Formular.
 
 * Die von Adobe empfohlene Best Practice bei umfangreichen Arbeiten mit Windows-Anwendungen ist, die Anforderungen in den Arbeitsblättern oft und regelmäßig zu speichern, um unerwartete Verluste von Anforderungen im Arbeitsblatt zu vermeiden.
 * Wenn Sie eine Arbeitsmappe benennen, sollten Sie eine Versionsnummer im Dateinamen verwenden, um den Verlauf Ihrer Arbeit verfolgen zu können. Nennen Sie beispielsweise Ihre erste Arbeitsmappe [!DNL web_forecast_01_01.xlsx].

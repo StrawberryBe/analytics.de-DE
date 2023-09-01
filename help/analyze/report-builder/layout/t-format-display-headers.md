@@ -5,10 +5,10 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 77%
 
 ---
 
@@ -33,15 +33,15 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
 
    **Zeilen- und Spaltenüberschriften anzeigen:** Fügt eine Zeile und Spalte zur Anzeige dieser Elemente hinzu.
 
-   In Version 3.11 konnte man eine Überschrift für jedes einzelne Element anzeigen. In Version 4 werden diese Elemente entweder alle oder gar nicht angezeigt. Wenn Sie eine Anforderung in Version 3.11 erstellt haben und sie in Version 4.x öffnen, werden Sie von ReportBuilder in Schritt 2 aufgefordert, den Zellenbereich für Elemente, die in einer Überschrift fehlen, um eine Zelle zu erweitern.
+   In Version 3.11 konnte man eine Überschrift für jedes einzelne Element anzeigen. In Version 4 werden diese Elemente entweder alle oder gar nicht angezeigt. Wenn Sie eine Anforderung in Version 3.11 erstellt und in Version 4.x geöffnet haben, fordert Sie der Report Builder in Schritt 2 auf, den Zellenbereich für Elemente, denen eine Kopfzeile fehlt, um eine Zelle zu erweitern.
 
-   **Überschriften in automatische Filterung von Excel ändern:** Nur verfügbar, wenn Zeilen- und Spaltenüberschriften angezeigt werden. Durch diese Einstellung wird in Excel ein automatischer Filter erstellt und an die Daten angehängt, die von Report Builder für die jeweilige Anforderung zurückgegeben werden.
+   **Überschriften in automatische Filterung von Excel ändern:** Nur verfügbar, wenn Zeilen- und Spaltenüberschriften angezeigt werden. Diese Einstellung erstellt einen automatischen Excel-Filter und hängt ihn an den Daten-Report Builder an, der für diese Anforderung zurückgibt.
 
    >[!NOTE]
    >
    >Excel unterstützt nur einen einzigen automatischen Filter pro Arbeitsblatt. Wenn Sie einen neuen automatischen Filter in einem Arbeitsblatt erstellen, das bereits einen automatischen Filter enthält, gibt Excel keine Warnung aus, dass der vorhandene automatische Filter ersetzt wird.
 
-   **Automatische Gliederung durchführen:** Wandelt die von Report Builder ausgegebenen Daten von einer Listen- in eine Baumansicht um.
+   **Automatische Gliederung durchführen:** Wandelt das vom Report Builder von einer Listenansicht in eine Baumansicht zurückgegebene Datum um.
 
    **Diese Anforderung benennen:** Hier können Sie einen benutzerdefinierten Namen für die Anforderung eingeben oder den in Schritt 1 ausgewählten Standardnamen verwenden. Dieser Name wird als [!UICONTROL Berichtname] im [!UICONTROL Anforderungs-Manager] angezeigt. Siehe [Eine Anforderung benennen](/help/analyze/report-builder/layout/name-a-request.md).
 

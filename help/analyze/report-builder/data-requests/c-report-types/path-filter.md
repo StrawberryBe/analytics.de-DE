@@ -4,10 +4,10 @@ title: Pfadbericht mit dem Anforderungs-Assistenten filtern
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 67%
+ht-degree: 62%
 
 ---
 
@@ -48,7 +48,7 @@ In diesem Beispiel werden Pfade für Sitebereiche verwendet.
 
    ![](assets/select_a_pattern.png)
 
-   Einige dieser Muster sind Report Builder-spezifisch: Einstiegspfadmuster für nächstes Element, Einstiegspfadmuster für vorheriges Element, Muster für nächstes Element.
+   Einige dieser Muster beziehen sich speziell auf den Report Builder: &quot;Muster für nächstes Element des Einstiegspfads&quot;, &quot;Muster für vorheriges Element des Ausstiegspfads&quot;, &quot;Muster für nächstes Element&quot;.
 
 ## So bearbeiten Sie ein vordefiniertes Muster
 

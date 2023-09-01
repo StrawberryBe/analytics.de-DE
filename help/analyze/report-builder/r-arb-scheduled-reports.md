@@ -1,13 +1,13 @@
 ---
-description: Feldbeschreibungen für den Manager für geplante Aufgaben.
-title: Manager für geplante Aufgaben
+description: Erfahren Sie mehr über die Feldbeschreibungen für den Manager für geplante Aufgaben.
+title: Über den Manager für geplante Aufgaben
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 95%
+source-wordcount: '774'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ Ziel dieser Pause ist es, unsere Datenbank geplanter Aufgaben effektiv zu verwal
 
 | Feld | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Registerkarte „Geplante Berichte“]** |  |
+| **[!UICONTROL Registerkarte „Geplante Berichte“]** | |
 | [!UICONTROL Berichtsname] | Dies ist der Name der geplanten Aufgabe. |
 | [!UICONTROL E-Mail/FTP] | Die E-Mail- oder FTP-Adresse des Empfängers. **Hinweis:** Wenn E-Mail ausgewählt ist, werden Berichte, die größer als 1 MB sind, automatisch als ZIP-Datei an die E-Mail angehängt. Dank dieser Funktion bleibt die Größe der angehängten Dateien klein. Diese Funktion kann nicht deaktiviert werden. |
 | [!UICONTROL Veröffentlichungsoptionen] | In dieser Spalte wird Power BI aufgeführt, wenn eine der [Veröffentlichungsoptionen für Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html?lang=de) ausgewählt ist. |
@@ -44,10 +44,10 @@ Ziel dieser Pause ist es, unsere Datenbank geplanter Aufgaben effektiv zu verwal
 | [!UICONTROL Dateiformat] | Das Bereitstellungsformat des Berichts, z. B. Excel, PDF, HTML usw. |
 | [!UICONTROL Reaktivieren] | Wenn eine geplante Arbeitsmappe nicht ausgeführt werden kann, unternimmt Report Builder in jeweils 15 Minuten Abstand zwei weitere Ausführungsversuche. Nach drei fehlgeschlagenen Versuchen deaktiviert Report Builder den Zeitplan und die Schaltfläche „Reaktivieren“ wird angezeigt. Wenn Sie eine Arbeitsmappe reaktivieren, wird die geplante Bereitstellung ab dem Zeitpunkt wiederaufgenommen, an dem die Deaktivierung erfolgte.<p>Wenn eine geplante Arbeitsmappe beispielsweise vor 14 Tagen deaktiviert wurde und Sie sie heute reaktivieren, wird sie für jeden fehlenden Tag, also 14-mal ausgeliefert. Wenn die Arbeitsmappe für die fehlenden Tage nicht ausgeliefert werden soll, können Sie die geplante Arbeitsmappe löschen und eine neue geplante Arbeitsmappe unter Verwendung derselben Planungsparameter erstellen.<p>**Hinweis:** Reaktivieren Sie eine Arbeitsmappe erst wieder, wenn Sie die Ursache der Deaktivierung durch das System kennen. Laden Sie zur Fehlerbehebung eine deaktivierte Arbeitsmappe herunter und aktualisieren Sie sie auf der Client-Seite. Wenn keine Fehlermeldung erfolgt, sollte die Arbeitsmappe reaktiviert werden können. |
 | [!UICONTROL Zuletzt gesendet] | Das Datum und die Uhrzeit, an denen der Bericht zuletzt gesendet wurde. |
-| **Registerkarte „Empfänger“** |  |
+| **Registerkarte „Empfänger“** | |
 | [!UICONTROL E-Mail-Adresse des Empfängers] | Die E-Mail-Adresse des Berichtempfängers. |
 | [!UICONTROL Berichte] | Die Berichte, die an die einzelnen Empfänger gesendet wurden. |
-| **Registerkarte „Berichte – Verlauf“** |  |
+| **Registerkarte „Berichte – Verlauf“** | |
 | [!UICONTROL Dateiname] | Dies ist der Name der geplanten Aufgabe. |
 | [!UICONTROL Datum] | Das Datum und die Uhrzeit, an denen der Bericht zuletzt gesendet wurde. |
 | [!UICONTROL Status] | Der Status gibt an, ob der Bericht gesendet oder nicht gesendet wurde. |

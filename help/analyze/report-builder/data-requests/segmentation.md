@@ -4,10 +4,10 @@ title: Segmente verwalten (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmen
 
 >[!NOTE]
 >
->Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre Report Builder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
+>Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre Report Builder-Sitzung bleibt aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
 
 1. Klicken Sie im Segmentfenster von Schritt 1 des Anforderungs-Assistenten auf **[!UICONTROL Hinzufügen]**.
 1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [Analytics-Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de).
@@ -47,7 +47,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 
 1. Die Segment-Builder-UI wird nun im Internet Explorer gestartet. Die Segment-Builder-UI wird mit dem von Ihnen festgelegten Container und Filter initialisiert.
 1. Nachdem Sie dem Segment einen Namen und eine Beschreibung hinzugefügt haben, speichern Sie es.
-1. Gehen Sie zurück zum Report Builder und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
+1. Kehren Sie zu Report Builder zurück und klicken Sie auf das Symbol Aktualisieren , um die Segmentliste zu aktualisieren.
 1. Nun können Sie dieses Segment anwenden.
 
 ## Segmente suchen und anwenden  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Folgende Filter stehen zur Verfügung:
 |---|---|
 | Tags | Filtert Segmente nach bestimmten  Tags. Beachten Sie, dass Tagfilter mit dem Operator AND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
 | Inhaber | Filtert Segmente nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator OR arbeiten. Wenn Sie zwei Inhaber aktivieren, werden im rechten Fenster Segmente angezeigt, die **beiden** Inhabern gehören. |
-| Weitere Filter > Nur *Name der Report Suite* | Wenn Sie im Segment Builder in [!DNL marketing reports & analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL report builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur das Segment für die ausgewählte Report Suite an. |
+| Weitere Filter > Nur *Name der Report Suite* | Wenn Sie im Segment Builder in [!DNL marketing reports & analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL Report Builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur das Segment für die ausgewählte Report Suite an. |
 | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
 | Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie  freigegeben haben. |
 | Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als  Favoriten gekennzeichnet haben. |

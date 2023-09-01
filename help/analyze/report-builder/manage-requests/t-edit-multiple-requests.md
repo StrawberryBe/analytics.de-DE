@@ -1,14 +1,14 @@
 ---
-description: Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report Suite, die Granularität und der Datumsbereich einer Anforderung zu beachten.
-title: Mehrere Anforderungen bearbeiten
+description: Erfahren Sie, wie Sie mehrere Anforderungen gleichzeitig ändern können.
+title: So bearbeiten Sie mehrere Anforderungen
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,11 @@ Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report
    * **Nach Segment**: Gruppiert die Anforderungen auf Grundlage des Segmentnamens.
 
       * **Segment auswählen**: Wird angezeigt, wenn keine Segmente für die Anforderungen vorhanden sind. Um Segmente hinzuzufügen, klicken Sie auf **[!UICONTROL Gruppe bearbeiten]** und wählen ein Segment aus dem Bedienfeld [!UICONTROL Gruppe bearbeiten].
+
    * **Nach Metrik:** Siehe [Metriken mit Mehrfachanforderungen bearbeiten](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Nach Datumsbereich und Granularität:** Gruppiert die Anzeige der Anforderungen nach Datumsbereich und Zeitgranularität.
    * **Nach Gruppe:** Gruppiert die Anzeige der Anforderungen nach einem Satz gruppierter Anforderungen.
-
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Mehrere Anforderungen bearbeiten] auf **[!UICONTROL OK]**.
 

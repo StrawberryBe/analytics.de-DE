@@ -1,20 +1,20 @@
 ---
-description: Classification-Aufschlüsselungen werden zur Zuordnung von Analyseberichtsdaten zu bestimmten Eigenschaften eingesetzt. Classifications können für zahlreiche Zwecke eingesetzt werden, werden jedoch meistens dazu verwendet, Kampagnen-Trackingcodes (sowohl interne als auch externe) und Produkt-IDs zu klassifizieren.
-title: Classification
+description: Erfahren Sie, wie Classifications verwendet werden.
+title: Informationen über Datenklassifizierungen
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 76%
 
 ---
 
 # Classifications
 
-Classification-Aufschlüsselungen werden zur Zuordnung von Analyseberichtsdaten zu bestimmten Eigenschaften eingesetzt. Classifications können für zahlreiche Zwecke eingesetzt werden, werden jedoch meistens dazu verwendet, Kampagnen-Trackingcodes (sowohl interne als auch externe) und Produkt-IDs zu klassifizieren.
+Classification-Aufschlüsselungen werden zur Zuordnung von Analyseberichtsdaten zu bestimmten Eigenschaften eingesetzt. Classifications können für verschiedene Zwecke verwendet werden, werden jedoch meist zum Klassifizieren von Kampagnen-Trackingcodes verwendet, sowohl interne als auch externe, als auch Produkt-IDs.
 
 Beispielsweise kann ein [!UICONTROL Kampagnenbericht] über eine Classification [!UICONTROL Manager] und eine Classification [!UICONTROL Outlet] verfügen. Diese Classifications können dann entsprechend einer bestimmten Hierarchie angeordnet werden, und jede Gruppe von Berichtswerten kann in Untergruppen aufgegliedert werden.
 

@@ -1,21 +1,21 @@
 ---
-description: Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von ReportBuilder-Anforderungen mehr Flexibilität.
+description: Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von Report Builder-Anforderungen mehr Flexibilität.
 title: interaktive Steuerelemente
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 90%
+ht-degree: 72%
 
 ---
 
 # interaktive Steuerelemente
 
-Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von ReportBuilder-Anforderungen mehr Flexibilität.
+Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von Report Builder-Anforderungen mehr Flexibilität.
 
-Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow erstellt, bei dem Analysten Arbeitsmappen erstellen und diese mit der Marketingorganisation teilen. Mit interaktiven Steuerelementen können Marketingexperten Anforderungen anpassen und aktualisieren, ohne dabei die Funktionsweise von ReportBuilder genau kennen zu müssen. (Beachten Sie, dass der Arbeitsmappenempfänger ein ReportBuilder-Benutzer sein muss, um eine Anforderung aktualisieren zu können.) Diese Steuerelemente funktionieren innerhalb geplanter Arbeitsmappen. Derzeit sind zwei Arten interaktiver Steuerelemente verfügbar:
+Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow erstellt, bei dem Analysten Arbeitsmappen erstellen und diese mit der Marketingorganisation teilen. Interaktive Steuerelemente ermöglichen es Marketern, Anforderungen zu ändern und zu aktualisieren, ohne über umfassende Kenntnisse der Funktionsweise von Report Builder verfügen zu müssen. (Beachten Sie, dass der Arbeitsmappen-Empfänger ein Report Builder sein muss, um eine Anforderung aktualisieren zu können.) Diese Steuerelemente funktionieren innerhalb geplanter Arbeitsmappen. Derzeit sind zwei Arten interaktiver Steuerelemente verfügbar:
 
 * Rollierender Datumsbereich
 * Segmente
@@ -23,7 +23,7 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 >[!IMPORTANT]
 >
 >Damit die interaktiven Steuerelemente funktionieren, muss Report Builder v5.0 installiert sein. >
->* Wenn Sie Microsoft Excel unter Windows ausführen, aber Ihre Report Builder-Version niedriger ist, oder Sie Report Builder nicht installiert haben, können Sie den Wert im interaktiven Steuerelement zwar ändern, es werden jedoch weder die verknüpfte Anforderung noch die zugehörigen Parameter der Anforderung aktualisiert.
+>* Wenn Sie Microsoft Excel unter Windows ausführen, aber eine niedrigere Version von Report Builder ausführen oder wenn Sie Report Builder nicht installiert haben, können Sie den Wert im interaktiven Steuerelement ändern. Es werden jedoch weder die verknüpfte Anforderung noch die zugehörigen Parameter der Anforderung aktualisiert.
 >* Wenn Sie Excel auf einem Mac ausführen, wird die folgende Nachricht angezeigt, wenn Sie den Wert im Steuerelement ändern: „Das Makro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; kann nicht gefunden werden.“
 >
 

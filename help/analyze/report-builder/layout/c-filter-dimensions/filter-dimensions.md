@@ -5,10 +5,10 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 Sie können Dimensionen filtern, die Sie dem Raster „Zeilenbezeichnungen“ hinzugefügt haben. Filter engen die von Anforderungen zurückgegebenen Daten ein und können sowohl auf Pivot- als auch auf benutzerdefinierte Layouts angewendet werden. Wenn Sie die Filterung von Dimensionen im Pivot-Layout konfigurieren, können Sie zusätzlich die Anzahl der Einträge von einer Zelle angeben.
 
-Das Formular „Ausgewählter Filter“ wird auf der Grundlage des Elements und der Metrik vorbelegt, die in der Report Builder-Anfrage ausgewählt sind.
+Das ausgewählte Filterformular wird basierend auf dem Element und der Metrik ausgefüllt, die in der Report Builder-Anforderung ausgewählt sind.
 
 ## Filter definieren – Werte und Sonderzeichen {#section_15840216A4044C40974945FAA435AD93}
 

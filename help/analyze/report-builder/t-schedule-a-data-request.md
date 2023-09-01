@@ -1,14 +1,14 @@
 ---
-description: Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateiformate planen.
-title: Eine Datenanforderung planen
+description: Erfahren Sie, wie Sie Berichte planen.
+title: Planen einer Datenanforderung
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 96%
 
 ---
 
@@ -34,17 +34,15 @@ Nachdem Sie einen Arbeitsmappen-Zeitplan in Report Builder erstellt haben, könn
 > * **Probleme bei den nachgelagerten Diensten**, auf denen die Planung basiert, können sich auch auf die Bereitstellung von Arbeitsmappen auswirken. Wenn Sie beispielsweise unabhängig voneinander die APIs zum Ausführen von Arbeitsmappen und zum Füllen der API-Anforderungswarteschlange verwenden, werden Ihre geplanten Arbeitsmappen möglicherweise langsam bereitgestellt, da Sie diese Ressource mit einer anderen Funktion teilen.
 > * **Die Report Suite-Latenz** (Verzögerung bei der Datenerfassung) kann auch eine Verzögerung bei geplanten Arbeitsmappen bewirken.
 
-
 ## Arbeitsmappe planen
 
 1. Erzeugen Sie eine Arbeitsmappe und speichern Sie ihn.
 1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Plan]**.
 
    Die Registerkarte [!UICONTROL Terminierte Berichte] enthält eine Zusammenfassung aller von Ihnen erstellten Aufgaben sowie die Anzahl der verbleibenden Aufgaben.
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Terminierte Berichte]** auf **[!UICONTROL Neu]**.
-1. Das Fenster „Planungs-Assistent – Grundlegend“ wird angezeigt:
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Terminierte Berichte]** auf **[!UICONTROL Neu]**. Der grundlegende Planungs-Assistent zeigt die Optionen an, die zur Definition des terminierten Berichts verwendet werden.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Screenshot mit dem grundlegenden Planungsassistenten.](assets/simple-schedule-wizard.png)
 
 1. Konfigurieren Sie im Fenster [!UICONTROL Planungs-Assistent – Grundlegend] die folgenden Optionen:
 

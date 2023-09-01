@@ -5,10 +5,10 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwe
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Häufig verwendete Datumsangaben </p> </td> 
-   <td colname="col2"> <p>Hier werden die am häufigsten verwendeten Datumsbereiche angezeigt. Diese Einstellung ist standardmäßig bei der Erstellung einer neuen Anforderung aktiviert. Wenn in einer Arbeitsmappe mindestens eine Anforderung vorhanden ist, verwendet ReportBuilder das Datum der bestehenden Anforderung als Standardeinstellung. </p> </td> 
+   <td colname="col2"> <p>Hier werden die am häufigsten verwendeten Datumsbereiche angezeigt. Diese Einstellung ist standardmäßig bei der Erstellung einer neuen Anforderung aktiviert. Wenn die Arbeitsmappe mindestens eine Anforderung enthält, verwendet Report Builder das Datum der bestehenden Anforderung als Standardeinstellung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vorlagen für das Speichern von Datumswerten </p> </td> 
