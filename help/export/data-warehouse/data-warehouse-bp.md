@@ -5,7 +5,7 @@ title: Best Practices für Data Warehouse
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 2ed0627efe50c000c9fe440fccafd12739b09554
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 89%
@@ -24,3 +24,4 @@ Data Warehouse bietet eine flexible Oberfläche zum Ausführen benutzerdefiniert
 | Bericht über abgeschlossene Datumsbereiche | Die Data Warehouse-Berichte werden erst dann erzeugt, wenn der angeforderte Datumsbereich abgeschlossen ist. Wenn Sie beispielsweise am Mittwoch einen Bericht über die laufende Woche anfordern, so wird der Bericht erst am darauffolgenden Sonntag erzeugt. |
 | Erstellen von Pfadberichten in Data Warehouse | Pfadmetriken (Einstiege, Ausstiege, Absprünge usw.) sind in Data Warehouse nicht verfügbar. |
 | Virtual Report Suites | Data Warehouse-Berichte zu Virtual Report Suites unterstützen die alternative Zeitzone, die in der Virtual Report Suite konfiguriert wurde. |
+
