@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2adc2ba45fb7ce740ff9dc9e376b60da7a84ea4e
+source-git-commit: 95e4a3254bafed8ac4cb59625e6f5ba2fb3b1ad0
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 68%
+source-wordcount: '792'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ Die Versionshinweise vom September beziehen sich auf den Veröffentlichungszeitr
 | ----------- | ---------- | ------- | ---- |
 | **Klassifizierungen in API 2.0** | Bietet Adobe Analytics API 2.0 Methoden zum Speichern, Löschen, Abrufen, Importieren und Exportieren von Klassifizierungssatz-Daten. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | Nicht angegeben | 13. September 2023 |
 | **Unterstützung für neue `correlationID` -Feld für A4T-Classifications** | Die `_experience.decisioning.propositions.scopeDetails.correlationID` ist jetzt im Adobe Analytics-Quell-Connector-Schema verfügbar. Diese ID wird hinzugefügt, um die einfache Verknüpfung von Classification-Daten für Adobe Target-Aktivitäten und Erlebnisereignisse zu ermöglichen. | Nicht angegeben | 13. September 2023 |
-| **Data Warehouse-Verbesserungen** | Beim Erstellen einer Data Warehouse-Anfrage können Sie jetzt ein Cloud-Konto für die Verwendung als Berichtsziel konfigurieren. Die folgenden Cloud-Kontotypen sind für das Senden von Daten verfügbar:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-Mail (diese Option war zuvor verfügbar)</li></ul>FTP, SFTP, Azure Blob und S3 sind weiterhin als Berichtsziele verfügbar, werden aber nicht mehr empfohlen.<p>Das Benutzererlebnis beim Erstellen und Verwalten von Data Warehouse-Anforderungen wurde ebenfalls verbessert. Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) und [Data Warehouse-Anforderungen verwalten](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=de). | 13. September 2023 | 4. Oktober 2023 |
+| **Data Warehouse-Verbesserungen** | Beim Erstellen einer Data Warehouse-Anfrage können Sie jetzt ein Cloud-Konto für die Verwendung als Berichtsziel konfigurieren. Die folgenden Cloud-Kontotypen sind für das Senden von Daten verfügbar:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-Mail (diese Option war zuvor verfügbar)</li></ul>FTP, SFTP, Azure Blob und S3 sind weiterhin als Berichtsziele verfügbar, werden aber nicht mehr empfohlen.<p>Das Benutzererlebnis beim Erstellen und Verwalten von Data Warehouse-Anforderungen wurde ebenfalls verbessert. Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md) und [Data Warehouse-Anforderungen verwalten](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=de). | 13. September 2023 | 4. Oktober 2023 |
 
 {style="table-layout:auto"}
 
