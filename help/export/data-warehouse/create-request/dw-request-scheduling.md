@@ -2,16 +2,22 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
-source-git-commit: 393355cd971f264da3e3e1b8736f5752fc4bdc62
+source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 13%
+source-wordcount: '530'
+ht-degree: 15%
 
 ---
 
 # Planungsoptionen für Data Warehouse-Anfragen konfigurieren
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>Einige der in diesem Artikel beschriebenen Data Warehouse-Funktionen (und andere Data Warehouse-Artikel in diesem Abschnitt) sind nur in der Phase der eingeschränkten Testphase der Veröffentlichung verfügbar und sind möglicherweise noch nicht in Ihrer Umgebung verfügbar.
+>
+>Informationen darüber, welche Funktionen noch nicht für alle Kunden verfügbar sind, sowie Informationen über die Veröffentlichungszeitleiste dieser Funktionen finden Sie in der [Versionshinweise](/help/release-notes/latest.md).
+>
+>Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
 
 Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Im Folgenden wird beschrieben, wie Sie Planungsoptionen für die Anfrage konfigurieren.
 
