@@ -3,7 +3,7 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Hier finden Sie die aktuellen Versionshinweise zu Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d4868971596c43721e0d642ae3ad91c316fc6908
+source-git-commit: 81f30a16fce33350aaf02fd8c6cf5011489c8250
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 69%
@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # Aktuelle Adobe Analytics-Versionshinweise (September 2023)
 
-**Letzte Aktualisierung**: 6. September 2023
+**Letzte Aktualisierung**: 13. September 2023
 
 Die Versionshinweise vom September beziehen sich auf den Veröffentlichungszeitraum vom 13. September 2023 bis zum 3. Oktober 2023. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
