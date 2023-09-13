@@ -2,7 +2,7 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Berichtsoptionen für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 16%
@@ -37,8 +37,8 @@ So konfigurieren Sie eine Benachrichtigungs-E-Mail für eine Data Warehouse-Anfr
 
    | Option | Funktion |
    |---------|----------|
-   | E-Mail-Benachrichtigung senden an | Geben Sie die E-Mail-Adressen der Personen an, die beim Versand des Berichts E-Mail-Benachrichtigungen erhalten sollen. <p>Sie können eine einzelne E-Mail-Adresse oder eine kommagetrennte Liste mit E-Mail-Adressen angeben.</p> |
-   | Erweiterte Optionen | Wählen Sie diese Option, um einen Betreff und Notizen für die E-Mail beim Versand der Benachrichtigung einzuschließen. |
+   | [!UICONTROL **E-Mail-Benachrichtigung senden an**] | Geben Sie die E-Mail-Adressen der Personen an, die beim Versand des Berichts E-Mail-Benachrichtigungen erhalten sollen. <p>Sie können eine einzelne E-Mail-Adresse oder eine kommagetrennte Liste mit E-Mail-Adressen angeben.</p> |
+   | [!UICONTROL **Erweiterte Optionen**] | Wählen Sie diese Option, um einen Betreff und Notizen für die E-Mail beim Versand der Benachrichtigung einzuschließen. |
 
    {style="table-layout:auto"}
 

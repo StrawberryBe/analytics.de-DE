@@ -2,9 +2,9 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '375'
 ht-degree: 15%
 
 ---
@@ -37,16 +37,12 @@ So konfigurieren Sie Planungsoptionen für eine Data Warehouse-Anforderung:
 
    | Option | Funktion |
    |---------|----------|
-   | Bericht jetzt senden | Sendet den Bericht als einmaligen Bericht. Wenn diese Option aktiviert ist, werden alle Planungsoptionen ausgeblendet. |
-   | Für später einplanen | Bietet Optionen zur Planung der Berichtbereitstellung. Alle Optionen werden nachfolgend beschrieben. |
-   | Berichtshäufigkeit | Die Häufigkeit der Bereitstellung von Berichten. <p>Die folgenden Optionen sind verfügbar:</p><ul><li>Stündlich</li><p>[!UICONTROL **Stündlich**] ist nur verfügbar, wenn die [!UICONTROL **Datumsbereiche**] -Option auf [!UICONTROL **Allgemeine Einstellungen**] Registerkarte auf [!UICONTROL **Letzte Stunde**].</p><li>Täglich</li><li>Wöchentlich</li><li>Monatlich</li><li>Jährlich</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" --> |
-   | Monatliche Wiederholung | Das Intervall zwischen den Monaten, in denen der Bericht gesendet wird. |
-   | Tag des Monats | Das Datum jedes Monats, an dem der Bericht gesendet wird.<p>Wenn diese Option verfügbar ist, wird die [!UICONTROL **Woche des Monats**] und [!UICONTROL **Wochentag**] nicht. Wählen Sie die [!UICONTROL **Alternativformat**] -Schaltfläche zum Umschalten zwischen. </p> |
-   | Woche des Monats | Die Woche jedes Monats, in der der Bericht gesendet werden soll. <p>Die folgenden Optionen sind verfügbar:</p><ul><li>Erste/r</li><li>Zweite/r</li><li>Dritte/r</li><li>Vierte/r</li><p>Senden Sie den Bericht an die 4. Woche, auch an Monate mit 5 Wochen. Auswählen [!UICONTROL **Letzte**] wenn Sie möchten, dass der Bericht an der letzten Woche jedes Monats gesendet wird.</p><li>Letzte</li></ul><p>Wenn diese Option verfügbar ist, wird die [!UICONTROL **Tag des Monats**] nicht. Wählen Sie die [!UICONTROL **Alternativformat**] -Schaltfläche zum Umschalten zwischen. </p> |
-   | Wochentage | Der Wochentag, an dem der Bericht gesendet werden soll. <p>Wenn diese Option verfügbar ist, wird die [!UICONTROL **Tag des Monats**] nicht. Wählen Sie die [!UICONTROL **Alternativformat**] -Schaltfläche zum Umschalten zwischen. </p> |
-   | Startet am | Das Datum, an dem der neue Zeitplan beginnen soll. |
-   | Tageszeit | Die Tageszeit, zu der der Bericht gesendet werden soll. |
-   | Versandoptionen beenden | Wählen Sie aus, wann die geplanten Sendungen beendet werden sollen. Sie können festlegen, dass niemals ein Ende, ein Ende nach einer bestimmten Anzahl von Vorkommnissen oder ein Ende an einem bestimmten Datum erfolgen soll. |
+   | [!UICONTROL **Bericht jetzt senden**] | Sendet den Bericht als einmaligen Bericht. Wenn diese Option aktiviert ist, werden alle Planungsoptionen ausgeblendet. |
+   | [!UICONTROL **Für später einplanen**] | Bietet Optionen zur Planung der Berichtbereitstellung. Alle Optionen werden nachfolgend beschrieben. |
+   | [!UICONTROL **Berichtshäufigkeit**] | Die Häufigkeit der Bereitstellung von Berichten. <p>Die folgenden Optionen sind verfügbar:</p><ul><li>Stündlich</li><p>[!UICONTROL **Stündlich**] ist nur verfügbar, wenn die [!UICONTROL **Datumsbereiche**] -Option auf [!UICONTROL **Allgemeine Einstellungen**] Registerkarte auf [!UICONTROL **Letzte Stunde**].</p><li>Täglich</li><li>Wöchentlich</li><li>Monatlich</li><li>Jährlich</li></ul><p>Je nach der ausgewählten Häufigkeit werden weitere Optionen angezeigt.</p> |
+   | [!UICONTROL **Startet am**] | Das Datum, an dem der neue Zeitplan beginnen soll. |
+   | [!UICONTROL **Tageszeit**] | Die Tageszeit, zu der der Bericht gesendet werden soll. |
+   | [!UICONTROL **Versandoptionen beenden**] | Wählen Sie aus, wann die geplanten Sendungen beendet werden sollen. Sie können festlegen, dass niemals ein Ende, ein Ende nach einer bestimmten Anzahl von Vorkommnissen oder ein Ende an einem bestimmten Datum erfolgen soll. |
 
    {style="table-layout:auto"}
 

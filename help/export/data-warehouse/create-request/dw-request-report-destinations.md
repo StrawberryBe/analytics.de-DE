@@ -2,10 +2,10 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 8%
+source-wordcount: '2084'
+ht-degree: 16%
 
 ---
 
@@ -59,13 +59,13 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Positionen innerhalb dieses Kontos zu haben. <p>Nach Auswahl eines Kontotyps werden die für diesen Kontotyp spezifischen Felder angezeigt. Erweitern Sie für Konfigurationsanweisungen für jeden Kontotyp den folgenden Abschnitt, der dem von Ihnen ausgewählten entspricht. </p> |
+      | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Positionen innerhalb dieses Kontos zu haben. <p>Nach Auswahl eines Kontotyps werden die für diesen Kontotyp spezifischen Felder angezeigt. </p> |
       | [!UICONTROL **Kontoname**] | Geben Sie einen Namen für das Konto an. Dieser Name wird beim Erstellen eines Standorts angezeigt. <!-- true? --> |
       | [!UICONTROL **Kontobeschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
 
       Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem [!UICONTROL **Kontotyp**] die Sie ausgewählt haben.
 
-      Verwenden Sie einen der folgenden Kontotypen beim Konfigurieren eines Berichtsziels. Erweitern Sie für Konfigurationsanweisungen den Kontotyp. (Zusätzliche alte Ziele <!-- add link --> sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
+      Verwenden Sie einen der folgenden Kontotypen beim Konfigurieren eines Berichtsziels. Erweitern Sie für Konfigurationsanweisungen den Kontotyp. (zusätzlich [Legacy-Ziele](#legacy-destinations) sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
    1. Im [!UICONTROL **Standorteigenschaften**] Informationen zum Kontotyp Ihres Standortkontos angeben.
 
-      Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem zuvor ausgewählten Kontotyp entspricht.
+      Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem [!UICONTROL **Kontotyp**] die Sie zuvor ausgewählt haben.
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
       Sie können jetzt Daten in das Konto und den Speicherort importieren, die Sie konfiguriert haben.
 
 1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der [!UICONTROL **Berichtsoptionen**] Registerkarte. Weitere Informationen finden Sie unter [Berichtsoptionen für eine Data Warehouse-Anforderung konfigurieren](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## Veraltete Ziele
+
+>[!IMPORTANT]
+>
+>Die in diesem Abschnitt beschriebenen Ziele sind veraltet und werden nicht empfohlen. Verwenden Sie stattdessen eines der folgenden Ziele beim Erstellen eines Data Warehouse-Ziels: Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS oder E-Mail. Weitere Informationen zu den einzelnen empfohlenen Zielen finden Sie in den Informationen oben.
+
+Die folgenden Informationen enthalten Konfigurationsinformationen für die einzelnen alten Ziele:
+
+### FTP
+
+Data Warehouse-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
+
+Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informationen:
+
+* [!UICONTROL **Host**]: Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp://ftp.omniture.com`.
+* [!UICONTROL **Pfad**]: Kann leer gelassen werden
+* [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der FTP-Site anzumelden.
+* [!UICONTROL **Kennwort und Kennwort bestätigen**]: Geben Sie das Kennwort ein, um sich bei der FTP-Site anzumelden.
+
+### SFTP
+
+SFTP-Unterstützung für Data Warehouse ist verfügbar. Erfordert einen SFTP-Host und Benutzernamen. Außerdem muss die Ziel-Site einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Data Warehouse-Ziels herunterladen.
+
+### S3
+
+Sie können Warehouse-Daten direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
+
+Der Benutzer, den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über Folgendes verfügen: [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>Die Region „cn-north-1“ wird nicht unterstützt.
+
+### Azure Blob
+
+Data Warehouse unterstützt Azure Blob-Ziele. Erfordert einen Container, ein Konto und einen Schlüssel. Amazon verschlüsselt die Daten automatisch während der Ruhezeit. Wenn Sie die Daten herunterladen, werden sie automatisch entschlüsselt. Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
+
+>[!NOTE]
+>
+>Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Data Warehouse-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
