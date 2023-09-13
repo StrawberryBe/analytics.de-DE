@@ -3,7 +3,7 @@ title: Unterstützung von Komponenten in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 65%
@@ -78,3 +78,4 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Neuladungen
    * Einzelzugriff
    * Besuchszeit-Metriken
+
