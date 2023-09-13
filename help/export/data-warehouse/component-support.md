@@ -3,32 +3,32 @@ title: Unterstützung von Komponenten in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 # Unterstützung von Komponenten in Data Warehouse
 
-Dank der einzigartigen Verarbeitungsarchitektur von Data Warehouse sind hier einige Komponenten vorhanden, die in anderen Funktionen von Adobe Analytics normalerweise nicht verfügbar sind. Aufgrund seiner speziellen Architektur stehen einige Komponenten weder für Berichte noch für Segmente zur Verfügung. Auf dieser Seite erfahren Sie, welche Komponenten verwendet werden können und welche nicht.
+Die eindeutige Verarbeitung in der Data Warehouse-Architektur ermöglicht einige Komponenten, die normalerweise nicht in anderen Funktionen von Adobe Analytics verfügbar sind. Aufgrund seiner speziellen Architektur stehen einige Komponenten weder für Berichte noch für Segmente zur Verfügung. Auf dieser Seite erfahren Sie, welche Komponenten verwendet werden können und welche nicht.
 
 ## Komponenten, die speziell in Data Warehouse verwendet werden
 
-Einige Dimensionen und Metriken können in Data Warehouse verwendet werden, nicht jedoch in anderen Funktionen in Adobe Analytics.
+Einige Dimensionen und Metriken, die beim Data Warehouse verwendet werden können, sind bei Verwendung anderer Funktionen in Adobe Analytics nicht verfügbar.
 
 ### Ausschließlich unterstützte Dimensionen
 
-* Experience Cloud ID: Bei Implementierungen, die den Experience Cloud ID-Dienst (ECID) verwenden, eine 128-Bit-Zahl, die aus zwei konkatenierten 64-Bit-Zahlen und 19 Ziffern besteht.
-* Seiten-URL: Die Seiten-URL, auf der der Treffer aufgetreten ist.
-* Kauf-IDs: Eindeutige ID für einen Kauf, definiert mit der Variablen purchaseID.
-* Besucher-ID: die eindeutige Kennung des Besuchers. Dieser Wert entspricht dem konkatenierten Wert der Spalten `visid_high` und `visid_low` in Daten-Feeds. Weitere Informationen finden Sie unter in der [Datenspaltenreferenz](../analytics-data-feed/c-df-contents/datafeeds-reference.md) unter Daten-Feeds.
+* **Experience Cloud-ID**: Bei Implementierungen, die den Experience Cloud ID-Dienst (ECID) verwenden, eine 128-Bit-Zahl, die aus zwei verketteten 64-Bit-Zahlen mit 19 Stellen besteht.
+* **Seiten-URL**: Die Seiten-URL, auf der der Treffer aufgetreten ist.
+* **Kauf-IDs**: Eindeutige Kennung für einen Kauf, festgelegt mit der Variablen purchaseID.
+* **Besucher-ID**: Stellt die eindeutige Kennung für den Besucher bereit. Dieser Wert entspricht dem konkatenierten Wert der Spalten `visid_high` und `visid_low` in Daten-Feeds. Weitere Informationen finden Sie unter in der [Datenspaltenreferenz](../analytics-data-feed/c-df-contents/datafeeds-reference.md) unter Daten-Feeds.
 
 ### Ausschließlich unterstützte Metriken
 
-* Besuche: In dieser Metrik werden im Zusammenhang mit Data Warehouse nicht persinstente Cookie-Besuche ausgeschlossen.
-* Besuche – alle Besucher: Diese Metrik weist im Zusammenhang mit Data Warehouse eine bessere Parität mit der Besuchsmetrik in anderen Tools innerhalb Adobe Analytics auf.
+* **Besuche**: Diese Metrik schließt im Kontext von Data Warehouse nicht persistente Cookie-Besuche aus.
+* **Besuche - Alle Besucher**: Diese Metrik hat im Kontext von Data Warehouse eine engere Parität mit der Besuchsmetrik in anderen Tools in Adobe Analytics.
 
 ## Nicht in Data Warehouse unterstützte Komponenten
 
