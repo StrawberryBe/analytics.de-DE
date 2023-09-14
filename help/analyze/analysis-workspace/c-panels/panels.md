@@ -4,7 +4,7 @@ title: Übersicht über Bedienfelder
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 57%
@@ -28,7 +28,7 @@ Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
 | [Freiform-Bedienfeld](freeform-panel.md) | Führen Sie unbegrenzte Vergleiche und Aufschlüsselungen durch und fügen Sie dann Visualisierungen hinzu, um eine ausführliche Story mit den Daten zu erzählen. |
 | [Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“](average-minute-audience-panel.md) | Analysieren Sie die durchschnittliche Besucherzahl pro Minute im Laufe der Zeit, einschließlich Details zu Spitzenwerten und der Möglichkeit, diese aufzuschlüsseln und zu vergleichen. |
 | [Bedienfeld „Gleichzeitige Medienbetrachter“](media-concurrent-viewers.md) | Analysieren Sie gleichzeitige Betrachter über einen längeren Zeitraum. Sie erhalten Details zum maximalen gleichzeitigen Zugriff und die Möglichkeit, aufzuschlüsseln und zu vergleichen. |
-| [Bedienfeld „Mit Medienwiedergabe verbrachte Zeit“](media-playback-timespent/media-playback-time-spent.md) | Analysieren Sie gleichzeitige Betrachter über einen längeren Zeitraum. Sie erhalten Details zum maximalen gleichzeitigen Zugriff und die Möglichkeit, aufzuschlüsseln und zu vergleichen. |
+| [Bedienfeld „Mit Medienwiedergabe verbrachte Zeit“](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analysieren Sie gleichzeitige Betrachter über einen längeren Zeitraum. Sie erhalten Details zum maximalen gleichzeitigen Zugriff und die Möglichkeit, aufzuschlüsseln und zu vergleichen. |
 | [Bedienfeld „Segmentvergleich“](c-segment-comparison/segment-comparison.md) | Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln. |
 
 ![](assets/panel-overview.png)
@@ -104,7 +104,7 @@ Wenn Sie mit der rechten Maustaste auf einen Dropdown-Filter klicken, stehen fol
 
 Mit dynamischen Dropdown-Filtern können Sie verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Filtern bestimmen. Sie können beispielsweise zwei dynamische Dropdown-Listen mit dem [Länder](/help/components/dimensions/countries.md) Dimension und [Städte](/help/components/dimensions/cities.md) Dimension. Wenn Sie ein Land aus dem [!UICONTROL Länder] Dropdown-Liste, die [!UICONTROL Städte] dynamisch angepasst werden, um nur Städte in diesem Land anzuzeigen.
 
-Dieses Konzept gilt für alle Dimensionen. nur Dimensionselemente sichtbar, die innerhalb des Datumsbereichs des Bedienfelds und der ausgewählten Filter angezeigt werden. In statischen Dropdown-Filtern ausgewählte Dimensionen wirken sich auf verfügbare Werte in dynamischen Dropdown-Filtern aus. Das Gegenteil ist jedoch nicht wahr; In dynamischen Dropdown-Filtern ausgewählte Dimensionen wirken sich nicht auf verfügbare Werte in statischen Dropdown-Filtern aus.
+Dieses Konzept gilt für alle Dimensionen. Es werden nur Dimensionselemente angezeigt, die innerhalb des Datumsbereichs des Bedienfelds und in den ausgewählten Filtern angezeigt werden. In statischen Dropdown-Filtern ausgewählte Dimensionen wirken sich auf verfügbare Werte in dynamischen Dropdown-Filtern aus. Das Gegenteil ist jedoch nicht der Fall. In dynamischen Dropdown-Dimensionen ausgewählte Elemente wirken sich nicht auf verfügbare Werte in statischen Dropdownfiltern aus.
 
 Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten, dass ein bestimmtes Dimensionselement in Zukunft erfasst wird. Sie können auch einen dynamischen Dropdown-Filter löschen, sodass dieser keinen Wert enthält, sodass andere dynamische Dropdown-Filter mehr Werte enthalten können. Auswählen **[!UICONTROL Alle zurücksetzen]** , um die Auswahl aus allen Dropdown-Filtern für dieses Bedienfeld zu löschen.
 

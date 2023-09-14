@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
-source-wordcount: '5089'
-ht-degree: 97%
+source-wordcount: '5136'
+ht-degree: 96%
 
 ---
 
@@ -26,12 +26,13 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **September 2023** | |
+| Die Struktur der Artikel für das Bedienfeld &quot;Besuchszeit für Medienwiedergabe&quot;wurde aktualisiert | Der Ordner &quot;Media Play-back Time Spent&quot;wurde entfernt und der Inhalt des Ordners in einen einzigen Artikel zusammengefasst: [Bedienfeld &quot;Besuchszeit für Medienwiedergabe&quot;](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Diese Änderung entspricht eher der Dokumentation für andere Bedienfelder.</p> |
 | Inhaltsverbesserungen für die ersten Schritte | Es wurden Informationen hinzugefügt, in denen wichtige Aufgaben und Ressourcen für den Einstieg von Administratoren, Analysten, Endbenutzern und Entwicklern erläutert werden. Die folgenden neuen Artikel sind jetzt verfügbar: <ul><li>[Erste Schritte (nach Rolle)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Grundlagen der Analytics-Oberfläche](/help/analyze/get-started/analytics-interface.md)<li>[Anwendungsbeispiele](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Verbesserungen der Dokumentation zur Berichterstellung für Media Analytics | Einige Inhalte im Abschnitt &quot;Berichterstellung&quot;des Streaming-Medien-Handbuchs wurden neu organisiert, einschließlich der Konsolidierung der API-Dokumentation in ihrem eigenen Abschnitt und der Anpassung der Reihenfolge einiger Artikel. <p>Der Artikel &quot;Vorlagen für Media Workspace&quot;wurde in [Medienberichte in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=de) , um die Produktbenennung besser anzupassen. </p> |
 | **August 2023** | |
 | Klärung von Daten-Feeds | Aktualisiert [Definition der Start- und Enddaten](/help/export/analytics-data-feed/create-feed.md) , um klarzustellen, dass Sie bei der Verarbeitung von Daten-Feeds für historische Daten das Startdatum auf ein Datum in der Vergangenheit setzen können, an dem Daten erfasst werden. |
 | Datenverarbeitung mit Experience Edge | Hinzufügen von Inhalten wie Adobe Analytics [verarbeitet Daten aus Experience Edge](../implement/aep-edge/overview.md). |
-| Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“ | Inhalt für [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) wurde aktualisiert, um die Lesbarkeit zu verbessern. |
+| Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“ | Inhalt für [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) wurde aktualisiert, um die Lesbarkeit zu verbessern. |
 | Inhalte zur Verwaltung terminierter Projekte verschoben | Es wurde ein neuer Artikel mit dem Titel [Terminierte Projekte](/help/components/scheduled-projects-manager.md) im Handbuch zu den Analytics-Komponenten hinzugefügt. Diese Inhalte befanden sich zuvor im Artikel [Planen von Projekten](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) im Handbuch zu Analytics-Tools. |
 | Vergleich von Implementierungsmethoden | Die Dokumentation zum Vergleich verschiedener Implementierungsmethoden wurde aktualisiert. [Weitere Informationen](../implement/prepare/comparison.md) |
 | Es wurde klargestellt, dass die Konfiguration von SFTP für Daten-Feeds keine Adobe-Kundenunterstützung erfordert | Es wurde in [Senden von Adobe-Daten an ein externes FTP-Konto mit SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) klargestellt, dass Kundinnen und Kunden sich nicht an die Kundenunterstützung von Adobe wenden müssen, um SFTP für Daten-Feeds zu konfigurieren. <p>Außerdem wurde ein Hinweis hinzugefügt, dass SFTP nicht mehr empfohlen wird und Kundinnen und Kunden beim Konfigurieren von Daten-Feeds ein Cloud-Ziel verwenden sollten.</p> |

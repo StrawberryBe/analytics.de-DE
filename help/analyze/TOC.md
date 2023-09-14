@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 + Erste Schritte mit Adobe Analytics {#admin-overview}
    + [Übersicht über Analytics](get-started/analytics-overview.md)
    + [Erste Schritte (nach Rolle)](get-started/get-started-by-role.md)
-   + [Analytics-Oberfläche - Grundlagen](get-started/analytics-interface.md)
+   + [Grundlagen der Analytics-Oberfläche](get-started/analytics-interface.md)
    + [Anwendungsbeispiele](get-started/use-cases.md)
    + [Welches Adobe Analytics-Tool sollte ich verwenden?](get-started/which-analytics-tool.md)
    + [Analytics – Produktvergleich und Voraussetzungen](get-started/analytics-product-comparison.md)
@@ -117,10 +117,7 @@ ht-degree: 99%
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
       + [Bedienfeld „Zielgruppendurchschnitt pro Minute“](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Bedienfeld „Gleichzeitige Medienbetrachter“](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Mit Medienwiedergabe verbrachte Zeit {#media-playback-timespent}
-         + [Überblick](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Eingabe- und Ausgabeeinstellungen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Häufig gestellte Fragen (FAQ)](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Panel „Verbrachte Zeit bei der Medienwiedergabe“](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Bedienfeld „Nächstes oder vorheriges Element“](analysis-workspace/c-panels/next-previous.md)
       + [Bedienfeld „Seitenzusammenfassung“](analysis-workspace/c-panels/page-summary.md)
       + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
