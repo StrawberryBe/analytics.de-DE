@@ -78,7 +78,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -90,7 +90,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -106,7 +106,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -120,7 +120,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++E-Mail
 
@@ -147,7 +147,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -160,7 +160,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -173,7 +173,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -187,7 +187,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
