@@ -4,7 +4,7 @@ description: Verwendung und Interpretation des Panels „verbrachten Zeit bei de
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -32,13 +32,10 @@ Im Folgenden finden Sie eine Videoübersicht zu diesem Bedienfeld:
 ## Verwenden des Bedienfelds &quot;Besuchszeit für Medienwiedergabe&quot;
 
 1. Wechseln Sie zu einer Report Suite mit aktivierten Media Analytics-Komponenten.
-
 1. Wählen Sie das Bedienfeldsymbol ganz links aus und ziehen Sie dann das Bedienfeld in Ihr Analysis Workspace-Projekt.
-
 1. Fahren Sie mit den folgenden Abschnitten fort, um das Bedienfeld Besuchszeit für Medienwiedergabe anzupassen
 
    * [Panel-Eingaben](#panel-inputs)
-
    * [Panel-Ausgabe](#panel-output)
 
 ## Panel-Eingaben {#Input}
