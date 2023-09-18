@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Erstellen Sie Callback-Funktionen, nachdem Sie einen Treffer an Adobe gesendet haben.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ Die `registerPostTrackCallback`-Variable ermöglicht es Ihrer Organisation, eine
 
 >[!WARNING]
 >
->Rufen Sie keine Tracking-Aufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der `registerPostTrackCallback`-Variablen auf. Tracking-Funktionen in dieser Variablen verursachen eine Endlosschleife von Bildanforderungen!
+>Führen Sie keine Tracking-Aufrufe durch, wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der `registerPostTrackCallback` -Variable. Das Festlegen von Tracking-Aufrufen in dieser Variablen führt zu einer Endlosschleife von Bildanforderungen!
 
 Jedes Mal, wenn Sie die `registerPostTrackCallback`-Variable aufrufen, binden Sie diese Funktion so ein, dass sie unmittelbar nach dem erfolgreichen Senden einer Bildanforderung ausgeführt wird. Vermeiden Sie es, dieselbe Funktion mehrmals mit demselben Seitenladevorgang zu registrieren.
 
@@ -26,7 +26,7 @@ Jedes Mal, wenn Sie die `registerPostTrackCallback`-Variable aufrufen, binden Si
 
 ## Callback nach dem Tracking mit der Web SDK-Erweiterung
 
-In Vorbereitung!
+Demnächst!
 
 ## Rückruf nach der Rückverfolgung - Manuelles Implementieren des Web SDK
 
@@ -44,7 +44,7 @@ Siehe [Umgang mit Antworten von Ereignissen](https://experienceleague.adobe.com/
 
 ## Registrieren von Callback nach Tracking mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.registerPostTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## Anwendungsbeispiel
+## Anwendungsfall
 
 Die Registrierung der [`clearVars()`](clearvars.md)-Funktion im Callback nach Tracking kann für Einzelseitenanwendungen von Vorteil sein. Jedes Mal, wenn Sie einen Treffer erfolgreich an Adobe senden, wird die `clearVars()`-Funktion ausgeführt. Ihre Implementierung kann dann Variablen erneut definieren, ohne sich Gedanken über falsche vorhandene Werte machen zu müssen.
 

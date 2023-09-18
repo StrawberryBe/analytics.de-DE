@@ -3,18 +3,18 @@ title: decodeLinkParameters
 description: Aktivieren oder deaktivieren Sie die AppMeasurement-Doppelkodierung von Linktracking-Variablen.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '303'
 ht-degree: 7%
 
 ---
 
 # decodeLinkParameters
 
-Die `decodeLinkParameters` ist ein boolescher Wert, der bestimmt, ob Linktracking-Variablen einmal kodiert werden (bei `true`) oder zweimal (wenn auf `false`). Es betrifft nur `linkName` (Teil der [`tl()`](../functions/tl-method.md) Methode) und [`linkURL`](linkurl.md). Es ist AppMeasurement 2.24.0 oder höher erforderlich. Der Standardwert dieser Variablen ist `false`.
+Die `decodeLinkParameters` ist ein boolescher Wert, der bestimmt, ob Linktracking-Variablen einmal kodiert werden (bei `true`) oder zweimal (wenn auf `false`). Es betrifft nur `linkName` (Teil der [`tl()`](../functions/tl-method.md) Methode) und [`linkURL`](linkurl.md). Es ist AppMeasurement v2.24.0 oder höher erforderlich. Der Standardwert dieser Variablen ist `false`.
 
-In früheren Versionen von AppMeasurement waren Linktracking-Variablen immer zweimal URL-kodiert. Bei Implementierungen, die normalerweise auf Einzelbyte-Zeichen angewiesen sind, stellt die Doppelkodierung zwar kein Problem dar, sie hat aber falsch kodierte Werte für Multibytezeichen in Berichten erstellt. Diese Variable auf setzen `true` kodiert die Linktracking-Werte einmal, was normalerweise das gewünschte Verhalten ist.
+In Versionen von AppMeasurement vor Version 2.24.0 waren Linktracking-Variablen immer zweimal URL-kodiert. Bei Implementierungen, die normalerweise auf Einzelbyte-Zeichen angewiesen sind, stellt die Doppelkodierung zwar kein Problem dar, sie hat aber falsch kodierte Werte für Multibytezeichen in Berichten erstellt. Diese Variable auf setzen `true` kodiert die Linktracking-Werte einmal, was normalerweise das gewünschte Verhalten ist.
 
 * Wenn Ihre Implementierung Multi-Byte-Zeichen verwendet und Linktracking-Variablen URL-dekodiert sind, um die doppelte AppMeasurement zu versetzen, setzen Sie diese Variable auf . `false`. Dieser Wert behält bestehende AppMeasurement-Funktionen bei.
 * Wenn Ihre Implementierung Multibyte-Zeichen verwendet und Sie keine URL-Dekodierung von Linktracking-Werten vornehmen, empfiehlt Adobe, diese Variable auf `true`.

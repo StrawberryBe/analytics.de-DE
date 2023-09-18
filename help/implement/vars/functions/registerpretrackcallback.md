@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: Erstellen Sie Callback-Funktionen, bevor Sie einen Treffer an Adobe senden.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 55%
+source-wordcount: '426'
+ht-degree: 54%
 
 ---
 
@@ -16,7 +16,7 @@ Mit der `registerPreTrackCallback`-Variablen kann Ihr Unternehmen eine JavaScrip
 
 >[!WARNING]
 >
->Rufen Sie keine Tracking-Aufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der [`registerPostTrackCallback`](registerposttrackcallback.md)-Variablen auf. Tracking-Funktionen in dieser Variablen verursachen eine Endlosschleife von Bildanforderungen!
+>Führen Sie keine Tracking-Aufrufe durch, wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der `registerPreTrackCallback` -Variable. Das Festlegen von Tracking-Aufrufen in dieser Variablen führt zu einer Endlosschleife von Bildanforderungen!
 
 Jedes Mal, wenn Sie die `registerPreTrackCallback`-Variable aufrufen, binden Sie diese Funktion jedes Mal ein, um sie bei jeder Kompilierung der URL einer Bildanforderung auszuführen. Vermeiden Sie es, dieselbe Funktion mehrmals mit demselben Seitenladevorgang zu registrieren.
 
@@ -26,17 +26,17 @@ Jedes Mal, wenn Sie die `registerPreTrackCallback`-Variable aufrufen, binden Sie
 
 ## Rückruf-Vorverfolgung mit der Web SDK-Erweiterung
 
-Das Web-SDK kann eine Funktion nicht verbinden, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet wird. Sie können jedoch `onBeforeEventSend` um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird.
+Das Web SDK kann eine Funktion nicht mehr hocken, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) Benutzeroberfläche mit Ihren Adobe ID-Anmeldeinformationen.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
 1. under [!UICONTROL Datenerfassung], klicken Sie auf die **[!UICONTROL Bearbeiten am vor dem Senden des Callback-Codes eines Ereignisses]** Schaltfläche.
 1. Platzieren Sie den gewünschten Code im Editor.
 
-## Rückruf manuell zurückverfolgen, um das Web SDK manuell zu implementieren
+## Rückruf-Vorverfolgung manuell zur Implementierung des Web SDK
 
-Das Web-SDK kann eine Funktion nicht verbinden, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet wird. Sie können jedoch `onBeforeEventSend` , um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird, ähnlich wie bei `doPlugins`. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Das Web SDK kann eine Funktion nicht mehr hocken, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` , um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird, ähnlich wie bei `doPlugins`. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -49,7 +49,7 @@ alloy("configure", {
 
 ## Rückruf-Vorverfolgung mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.registerPreTrackCallback in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

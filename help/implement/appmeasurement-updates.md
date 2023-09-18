@@ -3,10 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ Sie können die neueste Version von AppMeasurement von herunterladen. [GitHub](h
 
 Veröffentlichungsdatum: **12. September 2023**
 
-* Eine optionale Konfiguration wurde hinzugefügt (`bufferRequests`), um die Zuverlässigkeit bei der Erfassung von Anforderungen in Szenarien zu verbessern, in denen ein Browser die Beacon-API möglicherweise nicht ordnungsgemäß unterstützt oder Anforderungen beim Entladen einer Seite möglicherweise abbrechen kann.
+* Die optionale Methode wurde hinzugefügt. [`bufferRequests()`](vars/functions/bufferrequests.md) , um die Zuverlässigkeit bei der Erfassung von Anfragen zu erhöhen, wenn ein Browser die Beacon-API nicht unterstützt oder Anforderungen beim Entladen einer Seite abbricht.
 * Es wurden Schutzmechanismen hinzugefügt, um mehrere Nachverfolgungsrückrufe für eine einzelne Tracking-Anfrage zu verhindern.
 
 ## Version 2.24.0
 
 Releasedatum: **18. Juli 2023**
 
-* Eine optionale Konfiguration wurde hinzugefügt (`decodeLinkParameters` - default = false), das Verknüpfungs-URLs dekodiert, die doppelt-Byte-kodierte Zeichen enthalten.
+* Die optionale Konfigurationsvariable wurde hinzugefügt [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) zum Dekodieren von Link-URLs, die doppelt-Byte-kodierte Zeichen enthalten.
 * Zusätzliche Fehlerbehandlung für Browser mit fehlerhafter High-Entropy User-Agent-Client-Hints-APIs mit hoher Entropie.
 * Die Content-Type-Kopfzeile der POST wurde zur Verwendung geändert `x-www-form-urlencoded` Standardmäßig.
 
@@ -37,25 +37,25 @@ Releasedatum: **18. Juli 2023**
 
 Veröffentlichungsdatum: **23. September 2022**
 
-* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Client-Hinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Client-Hinweise über Tags konfigurieren oder das Flag „collectHighEntropyUserAgentHints“ verwenden. Die Erfassung von Hinweisen mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-[Client-Hinweisen](/help/technotes/client-hints.md).
+* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Client-Hinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder die [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) Konfigurationsvariable. Die Sammlung von Hinweisen zur Entropie mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-[Client-Hinweisen](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
 Veröffentlichungsdatum: **18. Januar 2022**
 
-* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an diesen übergeben wird, ein `href`-Attribut des Typs `string` enthält. Wenn es kein `string` ist, wird das `href`-Attribut einfach ignoriert, anstatt fehlzuschlagen. Dies kann passieren, wenn `svg`-Objekte an den Linktracking-Aufruf übergeben werden.
+* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an diesen übergeben wird, ein `href`-Attribut des Typs `string` enthält. Wenn es sich nicht um eine `string`, wird die `href` -Attribut anstatt eines Fehlschlagens. Dieses Szenario kann beim Bestätigen von `svg` -Objekte zum Linktracking-Aufruf.
 
 ## Version 2.22.3
 
 Releasedatum: **11. Oktober 2021**
 
-* Aktualisierte Dateien, die auf die Hilfedokumentation verweisen, um die aktuellen Hilfeorte aufzuzeigen.
+* Die Links in Dateien, die auf die Dokumentation verweisen, wurden aktualisiert.
 
 ## Version 2.22.2
 
 Releasedatum: **7. September 2021**
 
-* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Hier finden Sie eine [vollständige Liste der Zustimmungsvariablen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=de).
+* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Siehe [Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) im Admin-Benutzerhandbuch für weitere Informationen.
 
 ## Version 2.22.1
 
