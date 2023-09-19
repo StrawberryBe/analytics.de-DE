@@ -2,10 +2,10 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Berichtsoptionen für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '532'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ So konfigurieren Sie Berichtsoptionen für eine Data Warehouse-Anforderung:
 
    | Option | Funktion |
    |---------|----------|
-   | [!UICONTROL **Dateiname**] | Gibt den Bericht an. |
+   | [!UICONTROL **Dateiname**] | Gibt den Bericht an. <p>Wenn im Dateinamen eines der folgenden Sonderzeichen verwendet wird, kann die Anforderung nicht gespeichert werden: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>Das Zeichen % kann nur verwendet werden, wenn es wie folgt durch &quot;R&quot;, &quot;rsid&quot;oder &quot;id&quot;gefolgt wird: <code>%R</code>, <code>%rsid</code>, und <code>%id</code>.</p> |
    | [!UICONTROL **Datumsbereich des Berichts an Dateinamen anhängen**] | Fügt den Datumsbereich zum Namen der Berichtsdatei hinzu. <p>Wenn Sie beispielsweise Daten vom 1. Mai 2024 bis zum 7. Mai 2024 anfordern, enthält der Dateiname den Datumsbereich 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Stellt Berichte im CSV-Dateiformat zur Anzeige von Daten in einer Tabelle bereit. |
    | [!UICONTROL **Tableau (TDE)**] | Ermöglicht die Berichterstellung im Tableau-Datenextraktion-Dateiformat (TDE), mit dem Daten visualisiert und zusätzliche Daten in Tableau erfasst werden können. |
