@@ -3,10 +3,10 @@ description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeig
 title: Filtern von Segmenten
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 95%
+source-wordcount: '170'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
    |---|---|
    | Tags | Filtert Segmente nach bestimmten  [Tags stehen](/help/components/segmentation/segmentation-workflow/seg-tag.md). Die Spalte „Tags“ wird standardmäßig angezeigt. |
    | Inhaber | Filtert Segmente nach Inhaber. |
+   | Report Suite | Filtert nach Report Suite. |
    | Weitere Filter > Alle anzeigen | **(Nur Administrator)** Zeigt alle Segmente, deren Inhaber und das Datum der letzten Änderung an. |
    | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
    | Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie  [freigegeben](/help/components/segmentation/segmentation-workflow/t-seg-share.md) haben. |
