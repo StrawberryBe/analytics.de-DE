@@ -3,7 +3,7 @@ title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
+source-git-commit: f790407b5495d5fad679a2980c951b2247971069
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 96%
@@ -113,7 +113,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | `placeContext.localTime` | Hilft beim Ausfüllen der [Zeitzonen](/help/analyze/reports-analytics/reports.md) in Reports &amp; Analytics. Erscheint in [Daten-Feeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) als `t_time_info`. |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Wendet die [Produktsyntax](../vars/page-vars/products.md) für das Merchandising auf eVars an. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Wendet die [Produktsyntax](../vars/page-vars/products.md) für das Merchandising auf Ereignisse an. |
-| `productListItems[].lineItemId` | Die Dimension [Kategorie](../../components/dimensions/category.md). Siehe auch die Seitenvariable [products](../vars/page-vars/products.md). |
+| `productListItems[].productCategories[].categoryID` | Die Dimension [Kategorie](../../components/dimensions/category.md). Siehe auch die Seitenvariable [products](../vars/page-vars/products.md). |
 | `productListItems[].name` | Die Dimension [Produkt](../../components/dimensions/product.md). Siehe auch die Seitenvariable [products](../vars/page-vars/products.md). Wenn `productListItems[].SKU` und `productListItems[].name` beide Daten enthalten, wird der Wert in `productListItems[].SKU` verwendet. |
 | `productListItems[].priceTotal` | Hilft bei der Bestimmung der Metrik [Umsatz](../../components/metrics/revenue.md). Siehe auch die Seitenvariable [products](../vars/page-vars/products.md). |
 | `productListItems[].quantity` | Hilft bei der Bestimmung der Metrik [Einheiten](../../components/metrics/units.md). Siehe auch die Seitenvariable [products](../vars/page-vars/products.md). |
