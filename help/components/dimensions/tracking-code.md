@@ -3,16 +3,16 @@ title: Trackingcode
 description: Der Name des Trackingcodes oder der Kampagne.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 6d0771f7b8779d7a9d3bcea73a430ba3a9093e3e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
 # Trackingcode
 
-In der Dimension „Trackingcode“ werden die Namen der Trackingcodes auf Ihrer Site aufgelistet. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen dabei zu verstehen, welche Links am erfolgreichsten zur Erhöhung des Traffics auf Ihre Site beigetragen haben.
+Der Trackingcode [Dimension](overview.md) listet die Namen der Trackingcodes auf Ihrer Site auf. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen dabei zu verstehen, welche Links am erfolgreichsten zur Erhöhung des Traffics auf Ihre Site beigetragen haben.
 
 Das Anhängen von Abfragezeichenfolgen für Trackingcodes ist in E-Mails, Anzeigen, Social-Media-Beiträgen und anderen Marketing-Maßnahmen Ihres Unternehmens üblich.
 
@@ -40,6 +40,7 @@ Da „Soziale Netzwerke“ die erste Verarbeitungsregel für Marketing-Kanäle i
 ### Andere Marketing-Kanäle können die Attribution über Letztkontakt durchführen.
 
 Bei der Behandlung einer standardmäßigen Dimension &quot;Trackingcodes&quot;müssen Sie sich nicht darum sorgen, dass andere Teile Ihrer Site die Attribution stehlen. Bei Marketing-Kanälen kann ein Benutzer jedoch eine andere Regel anwenden und eine andere Attribution vornehmen. Beispiel:
+
 1. Sie haben „Trackingcodes“ als ersten Kanal und „Direkt“ als zweiten.
 2. Ein Benutzer gelangt zunächst über einen Trackingcode zu Ihrer Site, verlässt dann jedoch die Site.
 3. Am nächsten Tag geben sie Ihre URL in ihre Adressleiste ein und tätigen dann einen Kauf.
@@ -50,6 +51,7 @@ In diesem Beispiel erhält der Marketing-Kanal Trackingcodes für diesen Kauf ke
 ### Unterschiede beim Ablauf
 
 Marketingkanäle haben einen rollierenden Besucherinteraktionsablauf von 30 Tagen, unabhängig davon, ob ein Kanal berührt wurde oder nicht. Die Gültigkeit von Trackingcodes basiert auf dem Zeitpunkt, zu dem die Variable festgelegt wurde. Beispiel:
+
 1. Sie haben einen Besucherinteraktionsablauf von 30 Tagen und die Dimension „Trackingcode“ so konfiguriert, dass sie nach 30 Tagen abläuft.
 2. Ein Benutzer gelangt über einen Trackingcode zu Ihrer Site. Er durchsucht die Site und verlässt sie anschließend.
 3. Drei Wochen später kehrt er ohne Trackingcode oder Marketing-Kanal zurück und verlässt die Seite erneut.

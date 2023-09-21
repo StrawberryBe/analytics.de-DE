@@ -3,7 +3,7 @@ title: Personen mit Experience Cloud ID
 description: Die Anzahl der Personen in der geräteübergreifenden Analyse, die über eine Experience Cloud ID verfügen.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Berechnung dieser Metrik
 
-Bei jedem [Personen](people.md)-Treffer (identifiziert oder nicht identifiziert) erhöht sich diese Metrik, wenn der Treffer die Abfragezeichenfolge `mid` enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de)-Cookie).
+Bei jedem [Personen](people.md)[](overview.md)-Treffer (identifiziert oder nicht identifiziert) erhöht sich diese Metrik, wenn der Treffer die Abfragezeichenfolge `mid` enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de)-Cookie).
 
 Sie können die berechnete Metrik `[People with ECID] ÷ [People]` erstellen, um mithilfe des ID-Service den Prozentsatz der Besucher Ihrer Site festzustellen.
 

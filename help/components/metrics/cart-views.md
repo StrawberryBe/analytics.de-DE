@@ -3,16 +3,16 @@ title: Warenkorbansicht
 description: Die Anzahl der Treffer, bei denen ein Besucher den Warenkorb angezeigt hat.
 feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
-source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 92%
+ht-degree: 72%
 
 ---
 
 # Warenkorbansicht
 
-Die Metrik „Warenkorbansicht“ zeigt an, wie oft ein Besucher den Warenkorb angezeigt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden den Inhalt in ihrem Warenkorb ansehen.
+Die &quot;Warenkorbansicht&quot; [Metrik](overview.md) zeigt an, wie oft ein Besucher seinen Warenkorb angezeigt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden den Inhalt in ihrem Warenkorb ansehen.
 
 ## Berechnung dieser Metrik
 

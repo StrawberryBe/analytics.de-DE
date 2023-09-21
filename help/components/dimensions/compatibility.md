@@ -3,16 +3,16 @@ title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Kompatibilität von Analytics-Dimensionen
 
-Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analytics-Funktionen unterstützt werden.
+Diese Seite listet [Dimensionen](overview.md) unterstützt in ihren jeweiligen Analytics-Funktionen.
 
 >[!NOTE]
 >

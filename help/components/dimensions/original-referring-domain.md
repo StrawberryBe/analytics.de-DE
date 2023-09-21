@@ -3,16 +3,16 @@ title: Ursprüngliche Referrer-Domain
 description: Die erste Referrer-Domäne, auf der sich ein Besucher befand, bevor er zu Ihrer Site klickte.
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Ursprüngliche Referrer-Domain
 
-Die Dimension „Ursprüngliche Referrer-Domäne“ gibt die erste Referrer-Domäne an, von welcher ein Besucher klickte, um zu Ihrer Site zu gelangen. Sobald sie festgelegt wurde, enthält sie denselben Wert für die gesamte Lebensdauer dieser Besucher-ID. Diese Dimension ist nützlich, um zu verstehen, welche Drittanbieter-Sites den Traffic ursprünglich zu Ihrer Site leiten.
+Die &quot;ursprüngliche Referrer-Domäne&quot; [Dimension](overview.md) meldet die erste Referrer-Domäne, durch die ein Besucher zum Erreichen Ihrer Site geklickt hat. Sobald sie festgelegt wurde, enthält sie denselben Wert für die gesamte Lebensdauer dieser Besucher-ID. Diese Dimension ist nützlich, um zu verstehen, welche Drittanbieter-Sites den Traffic ursprünglich zu Ihrer Site leiten.
 
 >[!IMPORTANT]
 >

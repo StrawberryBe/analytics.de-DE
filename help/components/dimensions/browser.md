@@ -3,7 +3,7 @@ title: Browser
 description: Name und Version des verwendeten Browsers.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 39f1ac66fb6374c62f790f9a38a52fba3bf9bda1
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 38%
@@ -12,7 +12,7 @@ ht-degree: 38%
 
 # Browser
 
-Der[!UICONTROL Browser]&quot;Dimension zeigt den Namen und die Version des Browsers an, der den Treffer sendet. Diese Dimension ist nützlich, um die gängigsten Browser zu verstehen, die Besucher verwenden. Beim Testen neuer Versionen Ihrer Site können Sie diese Tests mit den wichtigsten Browsern in dieser Dimension ausführen, um den Aufwand für die Qualitätssicherung zu optimieren.
+Der[!UICONTROL Browser]&#39; [Dimension](overview.md) gibt den Namen und die Version des Browsers an, der den Treffer sendet. Diese Dimension ist nützlich, um die gängigsten Browser zu verstehen, die Besucher verwenden. Beim Testen neuer Versionen Ihrer Site können Sie diese Tests mit den wichtigsten Browsern in dieser Dimension ausführen, um den Aufwand für die Qualitätssicherung zu optimieren.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -3,16 +3,16 @@ title: Treffertiefe
 description: Die Anzahl der Treffer im Besuch.
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Treffertiefe
 
-Die Dimension „Treffertiefe“ gibt an, wie weit ein bestimmter Treffer in einem Besuch liegt. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Arten von Treffern, einschließlich Seitenansicht-Treffern ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Die Treffertiefe [Dimension](overview.md) gibt an, wie weit innerhalb eines Besuchs ein bestimmter Treffer liegt. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Arten von Treffern, einschließlich Seitenansicht-Treffern ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Füllen dieser Dimension mit Daten
 

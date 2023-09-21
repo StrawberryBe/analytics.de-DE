@@ -3,16 +3,16 @@ title: Referrer
 description: Die URL, auf der sich ein Besucher befand, bevor er zu Ihrer Site durchklickte.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Referrer
 
-Die Dimension „Referrer“ gibt an, auf welchen URLs sich die Besucher befanden, als sie sich zu Ihrer Site durchklickten. Diese Dimension ist nützlich, um zu verstehen, welche spezifischen URLs den meisten Traffic zu Ihrer Site leiten. Auf der externen URL muss ein Link vorhanden sein, und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
+Die &quot;verweisende Stelle&quot; [Dimension](overview.md) gibt an, auf welchen URLs sich Besucher befanden, als sie sich zum Erreichen Ihrer Site durchklickten. Diese Dimension ist nützlich, um zu verstehen, welche spezifischen URLs den meisten Traffic zu Ihrer Site leiten. Auf der externen URL muss ein Link vorhanden sein, und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
 
 >[!IMPORTANT]
 >

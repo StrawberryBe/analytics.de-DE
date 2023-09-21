@@ -3,16 +3,16 @@ title: Kundenloyalität
 description: Kategorien, die auf der Anzahl der vorherigen Käufe des Besuchers basieren.
 feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Kundenloyalität
 
-Die Dimension „Kundenloyalität“ zeigt die Anzahl der Besucher auf Ihrer Site an, die 0 frühere Käufe, 1 früheren Kauf, 2 frühere Käufe oder 3+ frühere Käufe getätigt haben. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre Website auf das Kaufverhalten auswirkt. Sie können diese Dimension auch in einem Segment verwenden, um sich auf Besucher zu konzentrieren, die zum Kauf zurückkehren, damit Sie ähnliche Verhaltensweisen bei neuen Besuchern fördern können.
+Die &quot;Kundentreue&quot; [Dimension](overview.md) gibt die Anzahl der Besucher Ihrer Site an, die 0 frühere Käufe, 1 vorherigen Kauf, 2 vorherige Käufe oder mehr als 3 frühere Käufe getätigt haben. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre Website auf das Kaufverhalten auswirkt. Sie können diese Dimension auch in einem Segment verwenden, um sich auf Besucher zu konzentrieren, die zum Kauf zurückkehren, damit Sie ähnliche Verhaltensweisen bei neuen Besuchern fördern können.
 
 ## Füllen dieser Dimension mit Daten
 

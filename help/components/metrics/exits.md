@@ -3,10 +3,10 @@ title: Ausstiege
 description: Eine Instanz des letzten Werts bei einem Besuch.
 feature: Metrics
 exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *Auf dieser Hilfeseite wird beschrieben, wie Ausstiege als Metrik funktionieren. Informationen dazu, wie Ausstiege als Dimension funktionieren, finden Sie unter [Ausstiegsdimensionen](../dimensions/exit-dimensions.md).*
 
-Die Metrik „Ausstiege“ gibt an, wie oft ein Dimensionselement als letzter Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über das Letzte erfahren möchten, was Besucher sehen, bevor sie Ihre Site verlassen. Wenn Sie die letzten Werte einer Dimension anzeigen, können Sie das Erlebnis eines Besuchers vor dem Verlassen besser verstehen und optimieren.
+Die Ausstiege [Metrik](overview.md) zeigt an, wie oft ein bestimmtes Dimensionselement als letzter Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über das Letzte erfahren möchten, was Besucher sehen, bevor sie Ihre Site verlassen. Wenn Sie die letzten Werte einer Dimension anzeigen, können Sie das Erlebnis eines Besuchers vor dem Verlassen besser verstehen und optimieren.
 
 ## Berechnung dieser Metrik
 

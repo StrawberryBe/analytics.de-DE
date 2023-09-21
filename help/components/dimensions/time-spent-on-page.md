@@ -3,16 +3,16 @@ title: Besuchszeit pro Seite
 description: Die Zeit, die ein Besucher auf der Seite verbracht hat.
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 91%
+ht-degree: 85%
 
 ---
 
 # Besuchszeit pro Seite
 
-Die Dimension „Besuchszeit pro Seite“ gibt die Zeit an, die ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
+Die Besuchszeit pro Seite [Dimension](overview.md) erfasst die Zeit, die ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
 
 1. Sehen Sie sich für einen bestimmten Treffer den Zeitstempel an.
 2. Vergleichen Sie diesen Treffer mit dem Zeitstempel des nächsten Treffers im Besuch. Sowohl Seitenansichts- als auch Linktracking-Treffer werden gezählt.
@@ -36,7 +36,7 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 
 Für die Besuchszeit pro Seite gibt es mehrere Dimensionen:
 
-* **Besuchszeit pro Seite – zusammengefasst**: Die Zeitdauer wird zusammengefasst. Dimensionselemente reichen von `"Less than 15 seconds"` bis `"More than 30 minutes"`. Die Zeit zwischen Treffern dauert in der Regel nicht länger als 30 Minuten. Bei Treffern mit Zeitstempel oder Datenquellen kann die Zeit zwischen Treffern jedoch 30 Minuten überschreiten.
+* **Besuchszeit pro Seite – zusammengefasst**: Die Zeitdauer wird zusammengefasst. Dimensionselemente reichen von `"Less than 15 seconds"` bis `"More than 30 minutes"`. Die Zeit zwischen Treffern dauert in der Regel nicht länger als 30 Minuten. Die Zeit zwischen Treffern kann jedoch 30 Minuten überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
 * **Besuchszeit pro Seite – präzise**: Jede Anzahl von Sekunden ist ein eindeutiges Dimensionselement.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter [Besuchszeit – Übersicht](../metrics/time-spent.md).

@@ -3,10 +3,10 @@ title: Mobilgerätedimensionen
 description: Dimensionen basierend auf der IP-Adresse des Geräts.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *Auf dieser Seite werden die Eigenschaften von Mobilgeräten aufgeführt, die auf Ihre Website zugreifen. Weitere Informationen zur Verfolgung von Geräten in einer Mobile App finden Sie unter [Implementieren von Analytics für Mobilgeräte](/help/implement/mobile-device-sdk.md) im Benutzerhandbuch zu Implementierungen.*
 
-Mobilgerätedimensionen bieten Einblicke in die Eigenschaften von Mobilgeräten, die Ihre Site besuchen. Anhand dieser Dimensionen können Sie erkennen, welche Funktionen ein Mobilgerät unterstützt.
+Mobilnummer [Dimensionen](overview.md) bieten Einblicke in die Eigenschaften von Mobilgeräten, die Ihre Site besuchen. Anhand dieser Dimensionen können Sie erkennen, welche Funktionen ein Mobilgerät unterstützt.
 
 ## Füllen dieser Dimensionen mit Daten
 
@@ -60,10 +60,10 @@ Wenn Sie die Geräteversion eines iPhone erfassen möchten, gibt es zwei Möglic
 * **Verwenden des iOS SDK**: Das Mobile SDK enthält Dimensionen, die die Geräteversion für die Verwendung beim Reporting verfügbar machen. Diese Methode eignet sich besser für Mobile Apps als für Websites.
 * **Verwenden andere Variablen, die über JavaScript verfügbar sind**: Einige Variablen, wie `screen.height` und `screen.width`, können verwendet werden, um die Geräteversion abzuleiten. Sie könnten beispielsweise den folgenden Code-Ausschnitt auf Ihrer Site verwenden:
 
-   ```js
-   if (navigator.userAgent.indexOf('iPhone') > -1) {
-     s.eVarXX = screen.width + "x" + screen.height;
-     }
-   ```
+  ```js
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
+    s.eVarXX = screen.width + "x" + screen.height;
+    }
+  ```
 
-   Dieser Code-Block erkennt zunächst, ob es sich bei dem Gerät um ein iPhone handelt. Ist dies der Fall, verwendet der Code JavaScript, um die Bildschirmauflösung in eine eVar zu ziehen. Mit dieser Methode können Sie die Geräteversion in etwa erkennen, wenn die Bildschirmauflösungen eindeutig sind.
+  Dieser Code-Block erkennt zunächst, ob es sich bei dem Gerät um ein iPhone handelt. Ist dies der Fall, verwendet der Code JavaScript, um die Bildschirmauflösung in eine eVar zu ziehen. Mit dieser Methode können Sie die Geräteversion in etwa erkennen, wenn die Bildschirmauflösungen eindeutig sind.

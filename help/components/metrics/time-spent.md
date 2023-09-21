@@ -3,7 +3,7 @@ title: Berechnung der Besuchszeit in Adobe Analytics
 description: Eine aggregierte Seite mit Dimensionen und Metriken zur Besuchszeit.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 78%
@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Besuchszeit – Übersicht
 
-In Adobe Analytics-Produkten stehen verschiedene [!UICONTROL Besuchszeit]-Metriken und -Dimensionen zur Verfügung.
+In Adobe Analytics-Produkten stehen verschiedene [!UICONTROL Besuchszeit]-Metriken und -Dimensionen zur Verfügung.[](overview.md)
 
 ## Besuchszeit-Metriken
 
@@ -21,7 +21,7 @@ In Adobe Analytics-Produkten stehen verschiedene [!UICONTROL Besuchszeit]-Metrik
 | [!UICONTROL Gesamtbesuchszeit in Sekunden] | Zeigt den Zeitraum an, über den Besucher insgesamt mit einem bestimmten Dimensionselement agieren. Enthält die Instanz eines Wertes sowie die Persistenz über alle folgenden Treffer hinweg. Bei Props wird die Besuchszeit auch über die nachfolgenden Verknüpfungsereignisse hinweg berechnet. | Analysis Workspace, Reports &amp; Analytics, Report Builder (als &quot;Gesamtbesuchszeit&quot;bezeichnet), Data Warehouse |
 | [!UICONTROL Zeit pro Besuch] (Sekunden) | Ungefähres *Gesamtbesuchszeit in Sekunden/(Besuchsabsprünge)*<br> Stellt die durchschnittliche Zeit dar, die Besucher während jedes Besuchs mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Besuchszeit pro Besucher] (Sekunden) | Ungefähres *Gesamtbesuchszeit in Sekunden/Unique Visitor*<br> Stellt die durchschnittliche Zeit dar, die Besucher über die Lebensdauer des Besuchers (Cookie-Dauer) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Besuchszeit/Benutzer (Status)] | Ungefähres *Gesamtbesuchszeit pro Mobile App in Sekunden/Unique Mobile App-Besucher*<br> Stellt die durchschnittliche Zeit dar, die Besucher mobiler Apps mit einem bestimmten Dimensionselement über die Lebensdauer des Besuchers (Cookie-Länge) hinweg interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
+| [!UICONTROL Besuchszeit/Benutzer (Status)] | Ungefähres *Gesamtbesuchszeit pro Mobile App in Sekunden/Unique Mobile App-Besucher*<br> Stellt die durchschnittliche Zeit dar, die Besucher mobiler Apps über die Lebensdauer des Besuchers (Cookie-Länge) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] (Sekunden) | Stellt die gesamte Zeit dar, die Besucher pro Dimensionselement-Sequenz mit einem bestimmten Dimensionselement interagieren. Es ist nicht nur auf &quot;Site&quot;-Durchschnittswerte beschränkt, wie der Name nahe legt. Weitere Informationen über Sequenzen finden Sie im Bereich „Berechnung der Besuchszeit“.<br>**Hinweis**: Diese Metrik unterscheidet sich auf der Dimensionselement-Ebene mit hoher Wahrscheinlichkeit von „Zeit pro Besuch“, da bei der Berechnung ein anderer Nenner verwendet wird. | Analysis Workspace, Reports &amp; Analytics (in Minuten angezeigt), Report Builder (in Minuten angezeigt) |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Dies ist dieselbe Metrik wie die *Durchschnittliche auf der Site verbrachte Zeit (Sekunden)* mit unterschiedlicher Zeitformatierung (hh:mm:ss). | Analysis Workspace |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Veraltete Metrik.<br> Stattdessen empfehlen wir die Verwendung von &quot;Durchschnittliche Besuchszeit pro Site&quot;, wenn die durchschnittliche Zeit für ein Dimensionselement erforderlich ist. | Report Builder (wenn sich eine Dimension in der Anforderung befindet) |

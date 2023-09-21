@@ -3,16 +3,16 @@ title: Einverständnisverwaltungs-Opt-out
 description: Ermitteln Sie, von welchen Datenschutzeinstellungen sich ein Besucher bzw. eine Besucherin abgemeldet hat.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Einverständnisverwaltungs-Opt-out
 
-Die Dimension „Einverständnisverwaltungs-Opt-out“ gibt an, welche Datenschutzeinstellungen ein Besucher ausdrücklich abgelehnt hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-out anzuzeigen.
+Die &quot;Opt-out-Funktion der Einverständnisverwaltung&quot; [Dimension](overview.md) zeigt an, welche Datenschutzeinstellungen ein Besucher explizit abgelehnt hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-out anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

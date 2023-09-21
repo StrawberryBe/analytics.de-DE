@@ -3,10 +3,10 @@ title: Zeit pro Besuch (Metriken)
 description: Die Zeit, die pro Besuch für das Dimensionselement verbracht wurde.
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *Auf dieser Hilfeseite wird beschrieben, wie „Zeit pro Besuch“ als Metrik funktioniert. Weitere Informationen finden Sie unter der Dimension [Zeit pro Besuch](../dimensions/time-spent-per-visit.md).*
 
-Die Metrik „Zeit pro Besuch (Sekunden)“ gibt die durchschnittliche Zeit an, die Besucher während jedes Besuchs mit einem bestimmten Dimensionselement interagieren.
+Die &quot;Zeit pro Besuch (Sekunden)&quot; [Metrik](overview.md) zeigt die durchschnittliche Zeit an, die Besucher während jedes Besuchs mit einem bestimmten Dimensionselement interagieren.
 
 Diese Metrik ist aufgrund ihrer unterschiedlichen Verarbeitungsarchitektur nicht in Data Warehouse verfügbar.
 

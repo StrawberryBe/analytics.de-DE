@@ -3,10 +3,10 @@ title: Einstiege
 description: Eine Instanz des ersten Werts bei einem Besuch.
 feature: Metrics
 exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *Auf dieser Hilfeseite wird beschrieben, wie Einstiege als Metrik funktionieren. Informationen dazu, wie Einstiege als Dimension funktionieren, finden Sie unter [Einstiegsdimensionen](../dimensions/entry-dimensions.md).*
 
-Die Metrik „Einstiege“ gibt an, wie oft ein Dimensionselement als erster Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über die ersten Impressionen erfahren möchten, die Besucher auf Ihrer Website haben. Wenn Sie die ersten Werte einer Dimension anzeigen, können Sie das Erlebnis eines neuen Besuchers besser verstehen und optimieren.
+Die Einträge [Metrik](overview.md) zeigt an, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über die ersten Impressionen erfahren möchten, die Besucher auf Ihrer Website haben. Wenn Sie die ersten Werte einer Dimension anzeigen, können Sie das Erlebnis eines neuen Besuchers besser verstehen und optimieren.
 
 ## Berechnung dieser Metrik
 

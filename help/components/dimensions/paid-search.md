@@ -3,16 +3,16 @@ title: Paid Search
 description: Unterscheidet Metriken von gebührenpflichtiger und kostenloser Suche.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Paid Search
 
-Mit der Dimension „Paid Search“ können Sie eine beliebige Metrik betrachten und zwischen gebührenpflichtiger und kostenloser Suche vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche vergleichen.
+Die &quot;gebührenpflichtige Suche&quot; [Dimension](overview.md) ermöglicht Ihnen, eine beliebige Metrik anzuzeigen und sie zwischen Paid Search und kostenloser Suche zu vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche vergleichen.
 
 ## Füllen dieser Dimension mit Daten
 

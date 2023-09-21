@@ -3,16 +3,16 @@ title: Produktansichten
 description: Die Anzahl der Aufrufe der Produktseiten.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 88%
+ht-degree: 72%
 
 ---
 
 # Produktansichten
 
-Die Metrik „Produktansichten“ zeigt an, wie oft ein Produkt angezeigt wurde. Diese Metrik ist nützlich, wenn Sie Ihre am häufigsten angezeigten Ansichten sehen möchten oder sehen wollen, wie sich die Gesamtproduktansichten im Laufe der Zeit entwickeln.
+Die Produktansichten [Metrik](overview.md) zeigt an, wie oft ein Produkt angezeigt wurde. Diese Metrik ist nützlich, wenn Sie Ihre am häufigsten angezeigten Ansichten sehen möchten oder sehen wollen, wie sich die Gesamtproduktansichten im Laufe der Zeit entwickeln.
 
 ## Berechnung dieser Metrik
 

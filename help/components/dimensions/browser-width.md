@@ -3,16 +3,16 @@ title: Browser-Breite – zusammengefasst
 description: Die Breite des Browser-Fensters in Pixel.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Browser-Breite
 
-Die Dimension „Browser-Breite – zusammengefasst“ gibt die Breite des Browser-Fensters an, klassifiziert in Gruppen von 100 Pixel. Diese Dimension ist nützlich, wenn Sie wissen möchten, wie breit Besuchern Ihr Inhalt angezeigt wird. Wenn Sie wissen, wie breit Ihr Inhalt normalerweise angezeigt wird, können Sie den Inhalt für die Anzeige optimieren.
+Die &quot;Browser-Breite - zusammengefasst&quot; [Dimension](overview.md) zeigt die Breite des Browser-Fensters, klassifiziert in Gruppen von 100 Pixel. Diese Dimension ist nützlich, wenn Sie wissen möchten, wie breit Besuchern Ihr Inhalt angezeigt wird. Wenn Sie wissen, wie breit Ihr Inhalt normalerweise angezeigt wird, können Sie den Inhalt für die Anzeige optimieren.
 
 Diese Dimension unterscheidet sich von der Bildschirmbreite. Die Browser-Breite ist die Anzahl der Pixel im sichtbaren Browser-Bereich, während die Bildschirmbreite die Breite des gesamten Monitors in Pixel darstellt. Wenn Sie den Unterschied zwischen diesen beiden Variablen auf Ihrem Computer sehen möchten, öffnen Sie die Browser-Konsole (F12 bei den meisten Browsern) und kopieren Sie den folgenden Code in die Konsole:
 

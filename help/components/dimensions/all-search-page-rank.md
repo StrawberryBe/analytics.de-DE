@@ -3,16 +3,16 @@ title: Rangansicht aller Suchseiten
 description: Bestimmen Sie, welche Seite in einer Suchmaschine ein Besucher zu Ihrer Site durchgeklickt hat.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Rangansicht aller Suchseiten
 
-Die Dimension „Rangansicht aller Suchseiten“ gibt Aufschluss darüber, auf welcher Seite der Suchergebnisse ein Besucher zu Ihrer Site durchgeklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
+Der &quot;Rangansicht aller Suchseiten&quot; [Dimension](overview.md) bietet Einblicke, auf welche Seite mit Suchergebnissen ein Besucher zu Ihrer Site durchgeklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
 
 ## Füllen dieser Dimension mit Daten
 

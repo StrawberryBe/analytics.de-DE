@@ -3,16 +3,16 @@ title: Einverständnisverwaltungs-Opt-in
 description: Ermitteln Sie, zu welchen Datenschutzeinstellungen sich ein Besucher bzw. eine Besucherin angemeldet hat.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Einverständnisverwaltungs-Opt-in
 
-Die Dimension „Einverständnisverwaltungs-Opt-in“ gibt an, welche Datenschutzeinstellungen ein Besucher ausdrücklich akzeptiert hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-in anzuzeigen.
+Das &quot;Opt-in der Einwilligungsverwaltung&quot; [Dimension](overview.md) zeigt an, welche Datenschutzeinstellungen ein Besucher aktiviert hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-in anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

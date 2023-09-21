@@ -3,16 +3,16 @@ title: Tag des Jahres
 description: Der numerische Tag des Jahres, unabhängig vom Jahr.
 feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Tag des Jahres
 
-Die Dimension „Tag des Jahres“ erfasst den numerischen Tag eines Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Tag des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen.
+Der &quot;Tag des Jahres&quot; [Dimension](overview.md) erfasst den numerischen Tag eines Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Tag des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen.
 
 ## Füllen dieser Dimension mit Daten
 

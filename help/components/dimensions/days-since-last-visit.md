@@ -3,16 +3,16 @@ title: Tage seit dem letzten Besuch
 description: Die Anzahl der Tage zwischen dem aktuellen Treffer und dem letzten Besuch.
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Tage seit dem letzten Besuch
 
-Die Dimension „Tage seit dem letzten Besuch“ misst die Zeitdauer, die zwischen dem aktuellen Treffer des Besuchers und seinem vorherigen Besuch verstrichen ist (sofern vorhanden). Diese Dimension hilft Ihnen, das Verhalten der Besucher nach dem Besuch Ihrer Website zu verstehen. Beispiele hierfür sind:
+Die &quot;Tage seit dem letzten Besuch&quot; [Dimension](overview.md) misst die Zeit, die zwischen dem aktuellen Treffer des Besuchers und seinem vorherigen Besuch verstrichen ist (sofern vorhanden). Diese Dimension hilft Ihnen, das Verhalten der Besucher nach dem Besuch Ihrer Website zu verstehen. Beispiele hierfür sind:
 
 * Wie häufig rufen Benutzer die Site erneut auf?
 * Wie verhält sich die Rückkehrfrequenz zur Konversion? Besuchen Wiederholungskäufer die Site häufig oder weniger häufig?

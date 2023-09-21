@@ -3,16 +3,16 @@ title: Besuche
 description: Eine Folge von Seitenansichten während einer Sitzung.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Besuche
 
-Die Metrik „Besuche“ gibt die Anzahl der Sitzungen für alle Besucher Ihrer Site an.
+Die Besuche [Metrik](overview.md) zeigt die Anzahl der Sitzungen für alle Besucher Ihrer Site an.
 
 ## Berechnung dieser Metrik
 

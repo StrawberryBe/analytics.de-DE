@@ -3,7 +3,7 @@ title: eVar (Dimension)
 description: Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden können.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 89%
@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # eVar
 
-*Auf dieser Hilfeseite wird beschrieben, wie eVars als Dimension funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
+*[Auf dieser Hilfeseite wird beschrieben, wie eVars als Dimension funktionieren](overview.md). Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
 
 eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie [Lösungsdesigndokument](/help/implement/prepare/solution-design.md), werden die meisten unternehmensspezifischen Dimensionen als [!UICONTROL eVars], zusätzlich zur in Adobe Analytics verfügbaren Standarddimension, z. B. &quot;Seitenname&quot;, &quot;Referrer-Domäne&quot;, &quot;Kanal&quot;. Siehe [Übersicht über Dimensionen](overview.md) für weitere Informationen.
 

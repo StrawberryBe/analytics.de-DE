@@ -3,16 +3,16 @@ title: Downloadlink
 description: Der Name des Downloadlinks.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Downloadlink
 
-Die Dimension „Downloadlink“ enthält die Namen der auf Ihrer Site implementierten Downloadlinks. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
+Der Downloadlink [Dimension](overview.md) gibt die Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
 
 * die Dateien zu bestimmen, die am häufigsten von Ihrer Site heruntergeladen werden.
 * zu erkennen, ob bestimmte Dateien zu bestimmten Zeiten häufiger heruntergeladen werden.

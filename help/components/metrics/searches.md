@@ -3,16 +3,16 @@ title: Suchvorgänge
 description: Die Häufigkeit, mit der ein Treffer externen Suchkriterien entsprach.
 feature: Metrics
 exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Suchvorgänge
 
-Die Metrik „Suchvorgänge“ zeigt die Anzahl der Treffer an, die mit der externen Sucherkennung von Adobe übereinstimmen. Diese Metrik ist nützlich, wenn Sie nicht suchbezogene Dimensionselemente betrachten und sehen möchten, wie sie zum Traffic von Suchmaschinen beigetragen haben.
+Die Suchvorgänge [Metrik](overview.md) zeigt die Anzahl der Treffer an, die mit der externen Sucherkennung von Adobe übereinstimmen. Diese Metrik ist nützlich, wenn Sie nicht suchbezogene Dimensionselemente betrachten und sehen möchten, wie sie zum Traffic von Suchmaschinen beigetragen haben.
 
 ## Berechnung dieser Metrik
 

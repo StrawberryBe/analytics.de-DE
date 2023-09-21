@@ -3,16 +3,16 @@ title: Letztkontakt-Kanaldetail
 description: Details zum neuesten Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 89%
+ht-degree: 81%
 
 ---
 
 # Letztkontakt-Kanaldetail
 
-Die Dimension „Letztkontakt-Kanaldetail“ enthält Details zum letzten Marketing-Kanal, mit dem ein Besucher während der Interaktionszeit des Besuchers (standardmäßig 30 Tage) übereinstimmt. Diese Dimension ist nützlich, um zu verstehen, was dazu beigetragen hat, dass der Treffer einem Marketing-Kanal entsprach. Wenn beispielsweise ein Besucher zu Ihrer Site gelangt ist und mit dem Marketing-Kanal „Paid Search“ übereinstimmt, können Sie anhand des Kanaldetails sehen, welche Suchmaschine verwendet wurde oder nach welchem Schlüsselwort er gesucht hat.
+Das &quot;Letztkontakt-Kanaldetail&quot; [Dimension](overview.md) in Berichte Details zum neuesten Marketing-Kanal eintragen, mit dem ein Besucher während des Interaktionszeitraums des Besuchers (standardmäßig 30 Tage) übereinstimmt. Diese Dimension ist nützlich, um zu verstehen, was dazu beigetragen hat, dass der Treffer einem Marketing-Kanal entsprach. Wenn beispielsweise ein Besucher zu Ihrer Site gelangt ist und mit dem Marketing-Kanal „Paid Search“ übereinstimmt, können Sie anhand des Kanaldetails sehen, welche Suchmaschine verwendet wurde oder nach welchem Schlüsselwort er gesucht hat.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -22,7 +22,7 @@ Führen Sie die folgenden Schritte aus, um diese Dimension auf einen bestimmten 
 
 * Achten Sie darauf, dass sich das gewünschte Dimensionselement in einem Trefferattribut oder einer benutzerdefinierten Variable befindet.
 * Legen Sie eine Marketing-Kanalverarbeitungsregel fest, die die gewünschten Kriterien für den Treffer enthält.
-* Wählen Sie den gewünschten Dropdown-Wert unter [!UICONTROL Kanalwert festlegen] innerhalb der Marketing-Kanal-Verarbeitungsregel.
+* Wählen Sie den gewünschten Dropdown-Wert unter [!UICONTROL Den Kanalwert festlegen] innerhalb der Marketing-Kanal-Verarbeitungsregel.
 * Der Treffer des Besuchers auf Ihrer Site muss den Kriterien entsprechen, die in der Marketing-Kanalverarbeitungsregel beschrieben sind.
 
 ## Dimensionselemente

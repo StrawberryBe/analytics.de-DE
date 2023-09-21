@@ -3,16 +3,16 @@ title: Durchschnittliche Besuchszeit pro Site
 description: Die durchschnittliche Zeitspanne, in der ein bestimmtes Dimensionselement zwischen Treffern existierte.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Durchschnittliche Besuchszeit pro Site
 
-Die Metrik „Durchschnittliche Besuchszeit pro Site“ gibt die Zeit an, die zwischen den Treffern für ein bestimmtes Dimensionselement verstrichen ist. Diese Metrik ist hilfreich, wenn Sie die durchschnittliche Besuchszeit für bestimmte Dimensionselemente anzeigen möchten. Sie können diese Metrik auch im Zeitverlauf als Trend verfolgen, um zu sehen, wie sich die Gesamtbesuchszeit ändert. Diese Metrik wird im `HH:MM:SS`-Format angezeigt.
+&quot;Durchschnittliche Besuchszeit pro Site&quot; [Metrik](overview.md) zeigt die Zeit an, die zwischen Treffern für ein bestimmtes Dimensionselement verstrichen ist. Diese Metrik ist hilfreich, wenn Sie die durchschnittliche Besuchszeit für bestimmte Dimensionselemente anzeigen möchten. Sie können diese Metrik auch im Zeitverlauf als Trend verfolgen, um zu sehen, wie sich die Gesamtbesuchszeit ändert. Diese Metrik wird im `HH:MM:SS`-Format angezeigt.
 
 Diese Metrik bezieht sich auf die Dimension [Besuchszeit pro Besuch](../dimensions/time-spent-per-visit.md).
 

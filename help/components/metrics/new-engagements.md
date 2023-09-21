@@ -3,16 +3,16 @@ title: Neue Interaktionen
 description: Die Häufigkeit, mit der ein Erstkontakt-Kanal eingestellt wird.
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Neue Interaktionen
 
-Die Metrik „Neue Interaktionen“ zeigt an, wie oft ein Besucher im Interaktionszeitraum des Besuchers zum ersten Mal mit einem Marketing-Kanal übereinstimmt. Diese Metrik ist nützlich, wenn Sie eine beliebige Dimension mit einem Besucher vergleichen möchten, der zum ersten Mal mit einer Verarbeitungsregel für einen Marketing-Kanal übereinstimmt.
+Die &quot;neuen Interaktionen&quot; [Metrik](overview.md) zeigt an, wie oft ein Besucher im Interaktionszeitraum des Besuchers zum ersten Mal mit einem Marketing-Kanal übereinstimmt. Diese Metrik ist nützlich, wenn Sie eine beliebige Dimension mit einem Besucher vergleichen möchten, der zum ersten Mal mit einer Verarbeitungsregel für einen Marketing-Kanal übereinstimmt.
 
 ## Berechnung dieser Metrik
 

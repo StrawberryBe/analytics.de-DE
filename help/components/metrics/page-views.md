@@ -3,8 +3,8 @@ title: Seitenansichten
 description: Die Häufigkeit, mit der ein Dimensionselement in Adobe Analytics festgelegt oder beibehalten wurde.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Seitenansichten
 
-Die Metrik **[!UICONTROL Seitenansichten]** zeigt an, wie oft ein bestimmtes Dimensionselement (Dimensionswert) auf einer Seite definiert oder beibehalten wurde (d. h. wann es abläuft). Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
+Die Metrik **[!UICONTROL Seitenansichten]** zeigt an, wie oft ein bestimmtes Dimensionselement (Dimensionswert) auf einer Seite definiert oder beibehalten wurde (d. h. wann es abläuft). [](overview.md) Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
 
 Beispiel: Die Dimension [!UICONTROL Wochentage] enthält die folgenden Dimensionselemente: Sonntag, Montag, Dienstag, Mittwoch, Donnerstag, Freitag und Samstag.
 

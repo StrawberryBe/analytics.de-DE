@@ -3,16 +3,16 @@ title: Tage bis Erstkauf
 description: Die Anzahl der Tage zwischen dem ersten Besuch eines Besuchers und seinem ersten Kauf.
 feature: Dimensions
 exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Tage bis Erstkauf
 
-Die Dimension „Tage bis Erstkauf“ gibt die Anzahl der Tage an, die zwischen dem ersten Sitebesuch eines Besuchers und dem ersten Kauf durch diesen Besucher verstrichen sind. Wenn ein Besucher beispielsweise einen Tag nach dem ersten Besuch einen Kauf tätigt, gehören alle nachfolgenden Besuche und Ereignisse zum Dimensionselement „1 Tag“.
+Die &quot;Tage bis Erstkauf&quot; [Dimension](overview.md) gibt die Anzahl der Tage an, die zwischen dem ersten Sitebesuch eines Besuchers und dem ersten getätigten Kauf verstrichen sind. Wenn ein Besucher beispielsweise einen Tag nach dem ersten Besuch einen Kauf tätigt, gehören alle nachfolgenden Besuche und Ereignisse zum Dimensionselement „1 Tag“.
 
 Nachdem ein Besucher den ersten Kauf getätigt hat, gehören sie für die restliche Cookie-Lebensdauer des Besuchers zum selben Dimensionselement.
 

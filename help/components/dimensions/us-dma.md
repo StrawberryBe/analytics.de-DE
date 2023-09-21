@@ -3,16 +3,16 @@ title: US-DMA
 description: Das ausgewiesene Marktgebiet des Treffers.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 # US-DMA
 
-Die Dimension „US-DMA“ gibt das ausgewiesene Marktgebiet (DMA) des Besuchers an. Sie basiert auf den von [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/) erstellten Medienmärkten.
+Das &quot;US-DMA&quot; [Dimension](overview.md) meldet das ausgewiesene Marktgebiet (DMA) des Besuchers. Sie basiert auf den von [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/) erstellten Medienmärkten.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -30,4 +30,4 @@ Da diese Dimension auf der IP-Adresse basiert, kann in einigen Szenarien ein Unt
 * **Mobile IP-Adressen**: Die mobile IP-Zielerfassung funktioniert auf unterschiedlichen Ebenen, je nach Standort und Netzwerk. Eine Reihe von Netzbetreibern transportiert den IP-Traffic über zentralisierte oder regionale POPs (Points of Presence).
 * **Satelliten-ISP-Benutzer**: Es ist schwierig, den spezifischen Standort dieser Benutzer zu identifizieren, da sie in der Regel vom Uplink-Standort zu stammen scheinen.
 * **Militärische und staatliche IPs**: Die Mitarbeiter sind weltweit unterwegs und der Zugriff erfolgt eher über ihren Heimatstandort als von der Basis oder der Behörde aus, in der sie gegenwärtig beschäftigt sind.
-* **Proxys, die IP-Adressen aus Datenschutzgründen verdecken**: Dienste wie der Private Relay von Apple verbergen die wahre IP-Adresse, indem Daten zufällig über einen Vermittler oder Proxy gesendet werden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.
+* **Proxys, die IP-Adressen aus Datenschutzgründen verdecken**: Dienste wie der Private Relay von Apple verbergen die wahre IP-Adresse, indem Daten per Zufall über einen Vermittler oder Proxy gesendet werden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.

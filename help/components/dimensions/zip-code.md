@@ -3,16 +3,16 @@ title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Postleitzahl
 
-Die Dimension „Postleitzahl“ gibt die Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
+Die Postleitzahl [Dimension](overview.md) gibt die Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
 
 ## Füllen dieser Dimension mit Daten
 

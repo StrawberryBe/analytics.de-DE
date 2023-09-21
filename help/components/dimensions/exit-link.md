@@ -3,16 +3,16 @@ title: Exitlink
 description: Der Name des Exitlinks.
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Exitlink
 
-Die Dimension „Exitlink“ enthält die Namen der auf Ihrer Site implementierten Exitlinks. Diese Dimension ist nützlich, wenn Sie wissen möchten, welche Links am beliebtesten sind und auf Domänen außerhalb Ihrer Site verweisen.
+Der &quot;Exitlink&quot; [Dimension](overview.md) gibt die Namen der auf Ihrer Site implementierten Exitlinks an. Diese Dimension ist nützlich, wenn Sie wissen möchten, welche Links am beliebtesten sind und auf Domänen außerhalb Ihrer Site verweisen.
 
 ## Füllen dieser Dimension mit Daten
 

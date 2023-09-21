@@ -3,16 +3,16 @@ title: Wochentag
 description: Der Wochentag, unabhängig vom Datumsbereich.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Wochentag
 
-Die Dimension „Wochentag“ zeigt den Wochentag an, an dem der Treffer stattgefunden hat. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach Woche aufschlüsseln möchten, aber keine statischen Tage als Dimensionswerte wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit jedem beliebigen Datumsbereich funktioniert.
+Der Wochentag [Dimension](overview.md) meldet den Wochentag des Treffers. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach Woche aufschlüsseln möchten, aber keine statischen Tage als Dimensionswerte wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit jedem beliebigen Datumsbereich funktioniert.
 
 ## Füllen dieser Dimension mit Daten
 

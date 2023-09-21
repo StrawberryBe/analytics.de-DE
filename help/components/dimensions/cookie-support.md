@@ -3,16 +3,16 @@ title: Cookie-Unterstützung
 description: Stellt fest, ob der Browser Cookies unterstützt.
 feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Cookie-Unterstützung
 
-Die Dimension „Cookie-Unterstützung“ wird angezeigt, wenn der Browser Cookies für einen bestimmten Treffer unterstützt. Es ist nützlich, den Anteil der Besucher zu ermitteln, die Browser verwenden, die Cookies unterstützen, und diejenigen, die sie absichtlich deaktivieren.
+Die Cookie-Unterstützung [Dimension](overview.md) gibt an, ob der Browser Cookies für einen bestimmten Treffer unterstützt. Es ist nützlich, den Anteil der Besucher zu ermitteln, die Browser verwenden, die Cookies unterstützen, und diejenigen, die sie absichtlich deaktivieren.
 
 ## Füllen dieser Dimension mit Daten
 

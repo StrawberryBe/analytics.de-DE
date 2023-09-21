@@ -3,7 +3,7 @@ title: Zeit pro Besuch (Dimensionen)
 description: Die Gesamtdauer des Besuchs.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Zeit pro Besuch
 
-*Auf dieser Hilfeseite wird beschrieben, wie „Zeit pro Besuch“ in ihren jeweiligen Dimensionen funktioniert. Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
+*[Auf dieser Hilfeseite wird beschrieben, wie „Zeit pro Besuch“ in ihren jeweiligen Dimensionen funktioniert](overview.md). Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
 
 Die Dimensionen „Zeit pro Besuch“ geben die Zeit an, die ein Besucher für den gesamten Besuch aufgewendet hat. Zur Berechnung werden die folgenden Schritte verwendet:
 

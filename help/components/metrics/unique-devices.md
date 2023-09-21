@@ -3,16 +3,16 @@ title: Eindeutige Geräte
 description: Die Anzahl der eindeutigen Geräte.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Eindeutige Geräte
 
-Die Metrik „Eindeutige Geräte“ ist eine Metrik der [geräteübergreifenden Analyse](../cda/overview.md), die die Anzahl der eindeutigen nicht identifizierten Geräte und der eindeutigen virtuellen Geräte zählt. Nicht identifizierte Geräte sind Geräte, die anonyme Treffer erzeugen. Eindeutige virtuelle Geräte sind Einzelpersonen, die pro Gerät identifiziert werden.
+Die &quot;Einzelgeräte&quot; [Metrik](overview.md) ist [Geräteübergreifende Analyse](../cda/overview.md) Metrik, die die Anzahl der eindeutigen nicht identifizierten Geräte und eindeutigen virtuellen Geräte zählt. Nicht identifizierte Geräte sind Geräte, die anonyme Treffer erzeugen. Eindeutige virtuelle Geräte sind Einzelpersonen, die pro Gerät identifiziert werden.
 
 ## Berechnung dieser Metrik
 

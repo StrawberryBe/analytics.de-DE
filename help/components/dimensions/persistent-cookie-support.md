@@ -3,16 +3,16 @@ title: Unterstützung persistenter Cookies
 description: Bestimmt, ob der Besucher persistente Cookies unterstützen kann.
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Unterstützung persistenter Cookies
 
-Die Dimension „Unterstützung persistenter Cookies“ zeigt an, ob der Treffer eine Besucher-ID verwendet hat, die aus einer persistenten Quelle stammt. Die häufigste persistente Quelle ist ein Cookie, aber auch mobile Header und andere Quellen sind möglich.
+Die &quot;Unterstützung persistenter Cookies&quot; [Dimension](overview.md) zeigt an, ob der Treffer eine Besucher-ID verwendet hat, die aus einer beständigen Quelle stammt. Die häufigste persistente Quelle ist ein Cookie, aber auch mobile Header und andere Quellen sind möglich.
 
 ## Diese Dimension mit Daten füllen
 

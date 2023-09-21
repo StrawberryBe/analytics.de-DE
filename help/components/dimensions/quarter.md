@@ -3,16 +3,16 @@ title: Quartal
 description: Das Quartal, in dem die Metrik aufgetreten ist.
 feature: Dimensions
 exl-id: e7c837d2-f891-4029-b520-4bc6c4387622
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Quartal
 
-Die Dimension „Quartal“ zeigt das Quartal an, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist das erste Quartal im Datumsbereich und das letzte Dimensionselement das letzte Quartal im Datumsbereich. Diese Dimension eignet sich ideal für Trend-Berichte, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
+Das &quot;Quartal&quot; [Dimension](overview.md) meldet das Quartal, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist das erste Quartal im Datumsbereich und das letzte Dimensionselement das letzte Quartal im Datumsbereich. Diese Dimension eignet sich ideal für Trend-Berichte, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

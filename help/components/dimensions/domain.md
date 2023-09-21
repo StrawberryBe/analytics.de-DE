@@ -3,16 +3,16 @@ title: Domain
 description: Die Organisation oder der ISP, die bzw. den der Besucher für den Internetzugang verwendet.
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
-# Domäne
+# Domain
 
-Die Dimension „Domain“ erfasst Zugriffspunkte, die Besucher für den Internetzugang verwenden.
+Die Domäne [Dimension](overview.md) meldet Zugriffspunkte, die Besucher für den Internetzugang verwenden.
 
 ## Füllen dieser Dimension mit Daten
 

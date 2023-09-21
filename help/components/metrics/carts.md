@@ -3,16 +3,16 @@ title: Warenkörbe
 description: Die Anzahl der Treffer, bei denen ein Besucher sein erstes Produkt einem Warenkorb hinzugefügt hat.
 feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 56%
+ht-degree: 45%
 
 ---
 
 # Warenkörbe
 
-Die Metrik „Warenkörbe“ zeigt die Anzahl der Treffer, bei denen ein Besucher sein erstes Produkt zu einem Warenkorb hinzugefügt hat.
+Der &quot;Warenkorb&quot; [Metrik](overview.md) zeigt die Anzahl der Treffer an, bei denen ein Besucher sein erstes Produkt zu einem Warenkorb hinzugefügt hat.
 
 ## Berechnung dieser Metrik
 
@@ -20,7 +20,7 @@ Diese Metrik zählt die Anzahl der Treffer, bei denen `scOpen` in der [`events`]
 
 ## Unterschied zwischen &quot;Warenkorb&quot;, &quot;Warenkorbansicht&quot;und &quot;Zusatz zum Warenkorb&quot;
 
-Da &quot;Warenkorb&quot;, &quot;Warenkorbansichten&quot;und &quot;Zusatz zum Warenkorb&quot;Ereignisse sind, die implementiert werden müssen, entscheidet Ihr Unternehmen über den genauen Unterschied zwischen diesen Metriken. Diese Metriken wurden jedoch von Adobe für die folgende Logik entwickelt:
+Da &quot;Warenkorb&quot;, &quot;Warenkorbansichten&quot;und &quot;Zusatz zum Warenkorb&quot;Ereignisse sind, die implementiert werden müssen, entscheidet Ihr Unternehmen über den genauen Unterschied zwischen diesen Metriken. Adobe hat diese Metriken jedoch für die folgende Logik entwickelt:
 
 * „Warenkorb“ wird nur einmal pro Kauf ausgelöst, wenn ein Besucher sein erstes Produkt in den Warenkorb legt.
 * &quot;Warenkorb&quot;Trigger jedes Mal anzeigen, wenn ein Besucher seinen Warenkorb anzeigt.

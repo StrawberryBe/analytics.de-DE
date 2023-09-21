@@ -3,16 +3,16 @@ title: Referrer-Domain
 description: Die übergeordnete Domain, auf der sich ein Besucher befand, bevor er zu Ihrer Site klickte.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Referrer-Domain
 
-Die Dimension „Referrer-Domäne“ gibt an, von welchen Domänen Besucher klicken, um zu Ihrer Site zu gelangen. Diese Dimension ist nützlich, um zu verstehen, welche Websites von Drittanbietern den meisten Traffic zu Ihrer Site leiten. Auf der externen Site muss ein Link vorhanden sein und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
+Die verweisende Domäne [Dimension](overview.md) gibt an, durch welche Domänen Besucher klicken, um zu Ihrer Site zu gelangen. Diese Dimension ist nützlich, um zu verstehen, welche Websites von Drittanbietern den meisten Traffic zu Ihrer Site leiten. Auf der externen Site muss ein Link vorhanden sein und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
 
 >[!IMPORTANT]
 >

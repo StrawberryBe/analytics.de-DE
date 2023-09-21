@@ -3,16 +3,16 @@ title: Treffertyp
 description: Bestimmt, ob es sich bei dem Treffer um einen Vordergrund- oder Hintergrundtreffer handelt.
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Treffertyp
 
-Die Dimension „Treffertyp“ bestimmt, ob sich eine mobile App im Vordergrund oder Hintergrund befand, wenn der Treffer an die Datenerfassungs-Server der Adobe gesendet wurde. Diese Dimension ist nur für Report Suites relevant, die Daten für mobile Apps enthalten. Über AppMeasurement erfasste Browser-Daten melden den Treffer immer als „Vordergrund“.
+Der Treffertyp [Dimension](overview.md) bestimmt, ob sich eine mobile App beim Senden des Treffers an Adobe-Datenerfassungsserver im Vordergrund oder Hintergrund befand. Diese Dimension ist nur für Report Suites relevant, die Daten für mobile Apps enthalten. Über AppMeasurement erfasste Browser-Daten melden den Treffer immer als „Vordergrund“.
 
 ## Füllen dieser Dimension mit Daten
 

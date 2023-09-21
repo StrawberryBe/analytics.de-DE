@@ -3,16 +3,16 @@ title: Suchmaschine
 description: Die Suchmaschine, mit der der Besucher Ihre Site erreichte.
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Suchmaschine
 
-Die Dimension „Suchmaschine“ erfasst die Suchmaschinen, die Besucher zum Erreichen Ihrer Site verwenden. Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchmaschine: klassifiziert zu werden:
+Die Suchmaschine [Dimension](overview.md) erfasst die Suchmaschinen, die Besucher zum Erreichen Ihrer Site verwenden. Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchmaschine: klassifiziert zu werden:
 
 * Die Referrer-Domäne wird von Adobe als gültige Suchmaschine erkannt.
 * In der Referrer-URL ist ein Abfragezeichenfolgenparameter für Suchbegriffe vorhanden. Der Abfragezeichenfolgenparameter kann leer sein (wie dies bei mehreren Suchmaschinen aus Datenschutzgründen der Fall ist).

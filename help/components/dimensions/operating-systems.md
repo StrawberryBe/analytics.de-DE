@@ -3,16 +3,16 @@ title: Betriebssystem
 description: Das Betriebssystem des Besuchers.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 3a0254e5cfdbcaf7b5d6f81bc710959063cd1735
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
 # Betriebssystem
 
-Die Dimension „Betriebssystem“ zeigt das Betriebssystem und die Version an, die der Besucher verwendet hat. Wenn Sie in Ihrer Web-Eigenschaft Funktionen haben, die betriebssystemspezifisch sind, hilft Ihnen diese Dimension zu verstehen, welche Betriebssysteme am häufigsten verwendet werden.
+Das Betriebssystem [Dimension](overview.md) zeigt das Betriebssystem und die Version an, die der Besucher verwendet hat. Wenn Sie in Ihrer Web-Eigenschaft Funktionen haben, die betriebssystemspezifisch sind, hilft Ihnen diese Dimension zu verstehen, welche Betriebssysteme am häufigsten verwendet werden.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -37,16 +37,16 @@ Ab Version 11 verwenden wir MacOS anstelle von OS X, um auf das Apple-Betriebssy
 Beispiele:
 
 * &quot;OS X 10.15&quot;(siehe Hinweis unten über Version 10.15.7 über die Darstellung in UA-Zeichenfolgen).
-* &quot;MacOS 11.0.0
+* &quot;MacOS 1.0.0
 
 ### Mac OS-Version ist im Benutzeragenten nach Version 10.15.7 falsch 
 
 Der Benutzeragent auf Apple-Computern zeigt die Betriebssystemversion auch für neuere Versionen als 10.15.7 an. Dies geschah, weil die Aufnahme von Version 11 in die UA anscheinend Probleme mit einigen Websites verursacht hat. Dies gilt für *alle Browser* und ist nicht mit dem &quot;Einfrieren&quot;des Benutzeragenten durch Google in Chromium-Browsern verbunden.
 
-Beachten Sie, dass Client-Hinweise die richtige Version im Hinweis zur Plattformversion enthalten (&quot;Sec-CH-UA-Platform-Version&quot;). Dies ist ein Hinweis mit hoher Entropie, sodass nicht automatisch von Adobe erfasst wird. Siehe [Häufig gestellte Fragen zu Adobe Analytics-Hinweisen](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) für Details zur Erfassung von Hinweisen zur Entropie mit hoher Entropie.
+Beachten Sie, dass Client-Hinweise die richtige Version im Hinweis zur Plattformversion enthalten (&quot;Sec-CH-UA-Platform-Version&quot;). Dies ist ein Hinweis mit hoher Entropie, sodass nicht automatisch von Adobe erfasst wird. Siehe [Häufig gestellte Fragen zu Adobe Analytics-Hinweisen](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) für Details zur Erfassung von Hinweisen zur Entropie mit hohem Risiko.
 
 ### Die Windows-Version ist im Benutzeragenten ab Windows 11 falsch
 
 Ab Januar 2023 stellt der Benutzeragent in allen Browsern Windows 11 als Windows 10 dar.
 
-Beachten Sie, dass Client-Hinweise die richtige Version im Hinweis zur Plattformversion enthalten (&quot;Sec-CH-UA-Platform-Version&quot;). Dies ist ein Hinweis mit hoher Entropie, sodass nicht automatisch von Adobe erfasst wird. Siehe [Häufig gestellte Fragen zu Adobe Analytics-Hinweisen](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) für Details zur Erfassung von Hinweisen zur Entropie mit hoher Entropie.
+Beachten Sie, dass Client-Hinweise die richtige Version im Hinweis zur Plattformversion enthalten (&quot;Sec-CH-UA-Platform-Version&quot;). Dies ist ein Hinweis mit hoher Entropie, sodass nicht automatisch von Adobe erfasst wird. Siehe [Häufig gestellte Fragen zu Adobe Analytics-Hinweisen](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) für Details zur Erfassung von Hinweisen zur Entropie mit hohem Risiko.

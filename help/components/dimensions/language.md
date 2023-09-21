@@ -3,16 +3,16 @@ title: Sprache
 description: Die bevorzugte Spracheinstellung im Browser.
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Sprache
 
-Die Dimension „Sprache“ zeigt die häufigsten Sprachen an, in denen die Besucher den Inhalt am liebsten sehen möchten. Diese Dimension ist nützlich, wenn Sie die am häufigsten bevorzugten Sprachen der Besucher verstehen möchten, um die Lokalisierungsbemühungen zu unterstützen.
+Die Sprache [Dimension](overview.md) zeigt die Sprachen an, in denen die Besucher am häufigsten Inhalte sehen. Diese Dimension ist nützlich, wenn Sie die am häufigsten bevorzugten Sprachen der Besucher verstehen möchten, um die Lokalisierungsbemühungen zu unterstützen.
 
 >[!NOTE]
 >

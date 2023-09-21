@@ -3,16 +3,16 @@ title: Bildschirmauflösung
 description: Die Auflösung des Bildschirms des Besuchers in Pixeln.
 feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Bildschirmauflösung
 
-Die Dimension „Bildschirmauflösung“ zeigt die Höhe und Breite der aktiven Anzeige in Pixeln an. Diese Dimension ist nützlich, wenn Sie wissen möchten, wo sich die Kante auf Ihrer Site für Besucher befindet oder wie breit Besucher ihr Browser-Fenster gestalten können. Wenn Sie wissen, wo die Kante ist, können Sie Inhalte für die Anzeige optimieren.
+Die &quot;Bildschirmauflösung&quot; [Dimension](overview.md) zeigt die Höhe und Breite der aktiven Anzeige in Pixel an. Diese Dimension ist nützlich, wenn Sie wissen möchten, wo sich die Kante auf Ihrer Site für Besucher befindet oder wie breit Besucher ihr Browser-Fenster gestalten können. Wenn Sie wissen, wo die Kante ist, können Sie Inhalte für die Anzeige optimieren.
 
 Diese Dimension unterscheidet sich von der Höhe und Breite des Browsers. Die Browserhöhe/-breite ist die Anzahl der Pixel im sichtbaren Browser-Bereich, während die Bildschirmauflösung die Anzahl der Pixel des gesamten Monitors ist. Wenn Sie den Unterschied zwischen diesen beiden Variablen auf Ihrem Computer sehen möchten, öffnen Sie die Browser-Konsole (F12 bei den meisten Browsern) und kopieren Sie den folgenden Code in die Konsole:
 

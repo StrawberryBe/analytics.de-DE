@@ -3,16 +3,16 @@ title: Verbindungstyp
 description: Wie sich der Besucher mit dem Internet verbindet.
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Verbindungstyp
 
-Die Dimension „Verbindungstyp“ gibt an, wie sich der Besucher mit dem Internet verbunden hat. Diese Dimension ist nützlich, um festzustellen, wie Besucher eine Internetverbindung herstellen, um auf Ihrer Site zu surfen. Damit können Sie den Site-Inhalt entsprechend der Verbindungsgeschwindigkeit der Besucher optimieren.
+Der Verbindungstyp [Dimension](overview.md) zeigt an, wie der Besucher mit dem Internet verbunden ist. Diese Dimension ist nützlich, um festzustellen, wie Besucher eine Internetverbindung herstellen, um auf Ihrer Site zu surfen. Damit können Sie den Site-Inhalt entsprechend der Verbindungsgeschwindigkeit der Besucher optimieren.
 
 ## Füllen dieser Dimension mit Daten
 

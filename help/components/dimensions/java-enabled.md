@@ -3,16 +3,16 @@ title: Java aktiviert
 description: Bestimmt, ob Java im Browser aktiviert ist.
 feature: Dimensions
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Java aktiviert
 
-Die Dimension „Java aktiviert“ bestimmt, ob Java zu diesem Zeitpunkt im Browser aktiviert ist. Das ist hilfreich, wenn Sie Java-basierte Funktionen auf Ihrer Site einführen und wissen möchten, wie viele Besucher Java bereits aktiviert haben. Für diejenigen, die Java deaktiviert haben, können Sie eine Alternative oder Anweisungen zur Aktivierung bereitstellen.
+&quot;Java aktiviert&quot; [Dimension](overview.md) bestimmt, ob Java im Browser zum Zeitpunkt aktiviert ist. Das ist hilfreich, wenn Sie Java-basierte Funktionen auf Ihrer Site einführen und wissen möchten, wie viele Besucher Java bereits aktiviert haben. Für diejenigen, die Java deaktiviert haben, können Sie eine Alternative oder Anweisungen zur Aktivierung bereitstellen.
 
 ## Füllen dieser Dimension mit Daten
 
