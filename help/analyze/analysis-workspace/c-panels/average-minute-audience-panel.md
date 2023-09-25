@@ -4,7 +4,7 @@ description: Verwenden und Interpretieren des Bedienfelds „Medien-Zielgruppend
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 5dd104c3a270efe2ca5082d9599f3617ddaf4c0f
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 91%
@@ -21,10 +21,7 @@ In Analysis Workspace bezeichnet der Zielgruppendurchschnitt pro Minute die Zeit
 Das Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“ ermöglicht die Analyse des Zielgruppendurchschnitts pro Minute je nach dem ausgewählten Inhalt, wenn die Dauer mithilfe von Klassifizierungen zur Verfügung gestellt wird.
 Das Bedienfeld „Zielgruppendurchschnitt pro Minute“ bietet außerdem Analysen über einen ausgewählten Zeitraum, die nach bestimmten Inhalten gefiltert werden können – unabhängig davon, ob die Dauer mit Klassifizierungen verfügbar ist oder nicht. Um auf das Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“ zuzugreifen, navigieren Sie zu einer Report Suite, während die Media Analytics-Komponenten aktiviert sind. Klicken Sie dann auf das Bedienfeld-Symbol ganz links und ziehen Sie das Bedienfeld in Ihr Analysis Workspace-Projekt.
 
-<!-- For more information, see the Media Average Minute Audience introduction video:
-<< replace with AMA video when available from Doug >> -->
-
-<!-- >[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12&learn=on)
 
 ## Bedienfeldeingaben {#Input}
 
