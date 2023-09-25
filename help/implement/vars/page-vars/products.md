@@ -3,10 +3,10 @@ title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 71%
+source-wordcount: '660'
+ht-degree: 68%
 
 ---
 
@@ -22,20 +22,20 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 Produkte sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter mehreren XDM-Feldern:
 
-* Die Kategorie ist zugeordnet zu `productListItems[].lineItemId`.
+* Die Kategorie ist zugeordnet zu `productListItems[].productCategories[].categoryID`. Sie verwendet das erste Element im `productCategories[]` Array. `lineItemId` auch korrekt zugeordnet werden, aber wir empfehlen `categoryID` da dies Standard-XDM ist. Wenn beide XDM-Felder vorhanden sind `lineItemId` hat Vorrang.
 * Das Produkt ist `productListItems[].SKU` oder `productListItems[].name`. Wenn beide XDM-Felder vorhanden sind, `productListItems[].SKU` verwendet.
 * Menge wird zugeordnet zu `productListItems[].quantity`.
 * Der Preis wird `productListItems[].priceTotal`.
 * Merchandising-eVars werden zugeordnet zu `productListItems._experience.analytics.customDimensions.eVars.eVar1` nach `productListItems._experience.analytics.customDimensions.eVars.eVar250`, je nachdem, welche eVar Sie an ein Produkt binden möchten.
-* Merchandising-Ereignisse werden zugeordnet zu `productListItems[]._experience.analytics.event1to100.event1.value` nach `productListItems._experience.analytics.event901to1000.event1000.value`, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [event](events/events-overview.md) an Adobe Analytics gesendete Zeichenfolge.
+* Merchandising-Ereignisse werden zugeordnet zu `productListItems[]._experience.analytics.event1to100.event1.value` nach `productListItems._experience.analytics.event901to1000.event1000.value`, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [event](events/events-overview.md) an Adobe Analytics gesendet.
 
 >[!NOTE]
 >
->`lineItemId` muss als benutzerdefiniertes Feld hinzugefügt werden, da es noch nicht Teil des standardmäßigen Analytics-Ereignisschemas ist. Adobe plant, in Zukunft ein dediziertes Kategoriefeld hinzuzufügen.
+>`lineItemId` muss als benutzerdefiniertes Feld hinzugefügt werden, da es noch nicht Teil des standardmäßigen Analytics-Ereignisschemas ist. Adobe plant, in Zukunft ein spezielles &#39;Kategorie&#39;-Feld hinzuzufügen.
 
 ## Produkte mit der Adobe Analytics-Erweiterung
 
-Es gibt kein dediziertes Feld in der Adobe Experience Platform-Datenerfassung, um diese Variable festzulegen. Es gibt jedoch mehrere Drittanbietererweiterungen, die helfen.
+Es gibt kein spezielles Feld in der Adobe Experience Platform-Datenerfassung, um diese Variable festzulegen. Es gibt jedoch mehrere Drittanbietererweiterungen, die Ihnen helfen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
