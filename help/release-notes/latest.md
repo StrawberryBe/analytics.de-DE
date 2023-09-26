@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (September 2023)
 
-**Letzte Aktualisierung**: 13. September 2023
+**Letzte Aktualisierung**: 20. September 2023
 
 Die Versionshinweise von September beziehen sich auf den Veröffentlichungszeitraum vom 13. September 2023 bis zum 3. Oktober 2023. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -23,7 +23,7 @@ Die Versionshinweise von September beziehen sich auf den Veröffentlichungszeitr
 | **Klassifizierungen in API 2.0** | Bietet Adobe Analytics API 2.0 Methoden zum Speichern, Löschen, Abrufen, Importieren und Exportieren von Klassifizierungssatz-Daten. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | Nicht angegeben | 13. September 2023 |
 | **Unterstützung für das neue Feld `correlationID` für A4T-Klassifizierungen** | Das Feld `_experience.decisioning.propositions.scopeDetails.correlationID` ist jetzt im Quell-Connector-Schema von Adobe Analytics verfügbar. Wir fügen diese ID hinzu, um die Zuordnung von Klassifizierungsdaten zu Adobe Target-Aktivitäten und Erlebnisereignissen zu erleichtern. | Nicht angegeben | 13. September 2023 |
 | **Verbesserungen bei Data Warehouse** | Beim Erstellen einer Data Warehouse-Anfrage können Sie jetzt ein Cloud-Konto für die Verwendung als Berichtsziel konfigurieren. Die folgenden Cloud-Kontotypen sind für das Senden von Daten verfügbar:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-Mail (diese Option war zuvor bereits verfügbar)</li></ul>FTP, SFTP, Azure Blob und S3 sind weiterhin als Berichtsziele verfügbar, werden aber nicht mehr empfohlen.<p>Das Benutzererlebnis beim Erstellen und Verwalten von Data Warehouse-Anfragen wurde ebenfalls verbessert. Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md) und [Verwalten von Data Warehouse-Anfragen](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=de). | 13. September 2023 | 4. Oktober 2023 |
-| **Neue Spalten verfügbar bei der Verwaltung von Komponenten** | Die folgenden neuen Spalten sind jetzt bei der Verwaltung von Komponenten verfügbar:<ul><li>Verwendet in<p>Diese Spalte ist im Abschnitt [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) und [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Zuletzt verwendet<p>Diese Spalte ist im Abschnitt [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), die [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md)und die [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss. Sie können das Datenwörterbuch zusammen mit diesen Informationen verwenden, um die Verwendung von Komponenten in Ihrem Unternehmen zu verfolgen und besser zu verstehen.</p> | 20. September 2023 | 4. Oktober 2023 |
+| **Neue Spalten verfügbar bei der Verwaltung von Komponenten** | Die folgenden neuen Spalten sind jetzt bei der Verwaltung von Komponenten verfügbar:<ul><li>Verwendet in<p>Diese Spalte ist im Abschnitt [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) und [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Zuletzt verwendet<p>Diese Spalte ist im Abschnitt [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), die [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md)und die [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Mithilfe dieser Informationen können Sie feststellen, ob eine Komponente für Benutzerinnen und Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss. Sie können das Datenwörterbuch zusammen mit diesen Informationen verwenden, um die Verwendung von Komponenten in Ihrem Unternehmen zu verfolgen und besser zu verstehen.</p> | 20. September 2023 | 4. Oktober 2023 |
 
 {style="table-layout:auto"}
 

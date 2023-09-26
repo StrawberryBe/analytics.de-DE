@@ -3,7 +3,7 @@ title: Adobe Analytics-Berechtigungen – Übersichtstabellen
 description: Tabellen, in denen die verfügbaren Adobe Analytics-Berechtigungen in der Adobe Admin Console zusammengefasst werden.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -70,6 +70,8 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Videoeinstellungen |  |  |  | x | Nicht verwendet. |
 | Webressourcen |  |  |  | x | Nicht verwendet. |
 
+{style="table-layout:auto"}
+
 ## Analytics-Werkzeuge
 
 | Analytics-Werkzeug | Administration | Zugriffskontrollen | Reine Berichtsfunktionen | Nicht mehr verwendet | Beschreibung |
@@ -110,3 +112,5 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Berechtigungen (schreiben) – Web-Services |  |  |  | x | Wird nicht mehr verwendet. Ermöglicht dem Benutzer, ältere Analytics-Berechtigungen mithilfe der Admin-API zu bearbeiten. Verwenden Sie stattdessen die Adobe Admin Console. |
 | Voreinstellungen |  |  |  | x | Nicht verwendet. |
 | Single Sign-on |  |  |  | x | Wird nicht mehr verwendet. Gewährt Zugriff auf den nicht mehr unterstützten Single-Sign-On-Service. |
+
+{style="table-layout:auto"}

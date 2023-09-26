@@ -4,7 +4,7 @@ title: Ausführen einer Beitragsanalyse
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Ausführen einer Beitragsanalyse
 
-Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. Damit soll dem Benutzer geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysieren viel schneller zu identifizieren.
+[Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. ](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) Damit soll dem Benutzer geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysieren viel schneller zu identifizieren.
 
 ## Ausführen einer Beitragsanalyse {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
