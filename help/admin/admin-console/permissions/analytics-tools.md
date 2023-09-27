@@ -3,9 +3,9 @@ title: Produktprofilberechtigungen für Analytics-Werkzeuge
 description: Verwenden Sie die Berechtigungselemente der Analytics-Werkzeuge, um Zugriff auf Funktionen in Adobe Analytics zu gewähren.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '491'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Berechtigungselement der Analytics-Tools | Beschreibung |
 |----|----|
 | [!UICONTROL Activity Map] | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
-| [!UICONTROL Advertising Analytics-Verwaltung] | Nicht verwendet. |
+| [!UICONTROL Advertising Analytics-Verwaltung] | Ermöglicht Nutzern die Einrichtung, Bearbeitung und Anzeige von Werbesuchkonten. |
 | [!UICONTROL Zugriff auf Analysis Workspace] | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
 | [!UICONTROL Analysis Workspace: als Vorlage speichern] | Gewährt Zugriff auf „Projekt > Als Vorlage speichern“ in Analysis Workspace. |
 | [!UICONTROL Anmerkungserstellung] | Ermöglicht das Erstellen von Anmerkungen. |

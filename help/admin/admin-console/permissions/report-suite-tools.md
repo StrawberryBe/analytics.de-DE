@@ -3,10 +3,10 @@ title: Produktprofil-Berechtigungen für Report Suite-Werkzeuge in Adobe Admin C
 description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report Suite-Werkzeuge vertraut.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 90%
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | Berechtigungselement der Report Suite-Tools | Beschreibung |
 |------|------|
 | [!UICONTROL Kontozusammenfassung] | Gewährt Zugriff auf „Allgemein > Allgemeine Kontoeinstellungen“ im Report Suite Manager. |
-| [!UICONTROL Advertising Analytics-Konfiguration] | Gewährt Zugriff auf alle Aspekte der Einrichtung von Advertising Analytics. |
+| [!UICONTROL Advertising Analytics-Konfiguration] | Ermöglicht Benutzern die Konfiguration von Report Suites, die für Advertising Analytics bereitgestellt werden sollen. |
 | [!UICONTROL Anomalieerkennung] | Gewährt Zugriff auf die Anomalieerkennung bei Analysis Workspace. |
 | [!UICONTROL Bot-Seiten] | Gewährt Zugriff auf den Bericht „Bot-Seiten“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
 | [!UICONTROL Bots] | Gewährt Zugriff auf den Bericht „Bots“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
@@ -44,8 +44,8 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | [!UICONTROL Echtzeitbericht] | Gewährt Zugriff auf „Site-Metriken > Echtzeit“ in Reports &amp; Analytics. Verwenden Sie das Berechtigungselement „Konfiguration für Echtzeitberichte“, um Zugriff für die Einrichtung dieses Berichts zu gewähren. |
 | [!UICONTROL Konfiguration von Echtzeitberichten] | Gewährt Zugriff auf „Echtzeit“ im Report Suite Manager. Verwenden Sie das Berechtigungselement „Echtzeitbericht“, um Zugriff auf den Bericht selbst zu gewähren. |
 | [!UICONTROL Rückkehrende Besucher] | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher“ in Reports &amp; Analytics. |
-| [!UICONTROL Berichterstellung für Activity Manager-Administratoren] | Gewährt Zugriff auf die Detailseite und die Möglichkeit, Anfragen abzubrechen. |
-| [!UICONTROL Zugriff auf Reporting Activity Manager] |  |
+| [!UICONTROL Berichterstellung für Activity Manager-Administratoren] | TBD |
+| [!UICONTROL Zugriff auf Reporting Activity Manager] | TBD |
 | [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf Report Suite Manager, erlaubt jedoch keine Änderungen. |
 | [!UICONTROL Bild-Reportlet des R&amp;A Dashboard] | Nicht verwendet. |
 | [!UICONTROL Reportlet zur Metrikmessung des Dashboards] | Nicht verwendet. |
