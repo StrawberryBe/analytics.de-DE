@@ -2,10 +2,10 @@
 description: Erläutert die Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics.
 title: Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
+source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 5%
+source-wordcount: '1133'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,9 @@ Der Migrationsprozess umfasst:
 
   Einige Dimensionen und Metriken werden automatisch abgeglichen. Bei anderen müssen Sie im Rahmen des Migrationsprozesses manuell eine Übereinstimmung finden.
 
-## Voraussetzungen
+## Vorbereitung auf eine Migration
+
+### Voraussetzungen
 
 Bevor Ihre Projekte und die zugehörigen Dimensionen und Metriken migriert werden können, müssen Sie zunächst:
 
@@ -37,7 +39,36 @@ Bevor Ihre Projekte und die zugehörigen Dimensionen und Metriken migriert werde
 
   Die Registerkarte Berechtigungen ist Teil jedes Produktprofils in Admin Console. Benutzende können zu bestimmten Produktprofilen hinzugefügt werden. Anschließend werden Rechte für bestimmte Datenansichten zugewiesen und festgelegt, welche Berechtigungen die Benutzenden in einem Produktprofil haben.
 
-## Erstellen eines Migrationsplans als Organisation
+* Erstellen Sie einen Migrationsplan, wie im folgenden Abschnitt beschrieben. [Erstellen eines Migrationsplans als Organisation](#create-a-migration-plan-as-an-organization).
+
+### Informationen zu den Funktionen einer Migration
+
+In der folgenden Tabelle wird beschrieben, welche Elemente eines Projekts und einer Komponente in einer Migration enthalten sind:
+
+
+|  | Projekte | Dimensionen und Metriken |
+|---------|----------|---------|
+| **Datumsbereiche** | Ja | Nicht angegeben |
+| **Segmente** | Ja | Nicht angegeben |
+| **Schnellsegmente** | Ja | Nicht angegeben |
+| **Bedienfelder** | Ja | Nicht angegeben |
+| **Visualisierungen** | Ja | Nicht angegeben |
+| **Inhabende** | (Definiert durch den Benutzer, der die Migration durchführt) | ? |
+| **Kuratierung** | Nein | nicht angegeben |
+| **Freigabe (Projektrollen)** | Nein | Nein |
+| **Anmerkungen** | Nein | nicht angegeben |
+| **Ordnerstruktur** | Nein | nicht angegeben |
+| **Beschreibungen** | Ja | ? |
+| **Tags** | ? | ? |
+| **Zeitpläne** | ? | Nicht angegeben |
+| **Attribution (auf Dimensionen)** | Nicht angegeben | ? |
+| **Anomalieerkennung** | ? | Nicht angegeben |
+| **Beitragsanalyse** | ? | Nicht angegeben |
+| **Warnhinweise** | ? | Nicht angegeben |
+
+{style="table-layout:auto"}
+
+### Erstellen eines Migrationsplans als Organisation
 
 Da alle Komponenten, die für eine bestimmte Projektmigration abgestimmt sind, für zukünftige Projektmigrationen für die gesamte Organisation gelten, ist es wichtig, dass Ihr Unternehmen alle Projektmigrationen im Voraus plant.
 
@@ -49,7 +80,7 @@ Sie sollten als Organisation entscheiden, welche Dimensionen und Metriken mit we
 >
 >Bevor Sie, wie in diesem Abschnitt beschrieben, Projekte auf das Customer Journey Analytics migrieren, erfahren Sie mehr über das Migrieren von Projekten im [Migration planen](#plan-the-migration) Abschnitt weiter oben.
 >
->Alle Dimensionen oder Metriken, die Sie zuordnen, sind dauerhaft, sowohl für dieses Projekt als auch für alle zukünftigen Projekte, die in Ihrer gesamten Organisation migriert werden. Wenn Sie fortfahren, können die von Ihnen erstellten Übereinstimmungen nicht geändert werden.
+>Alle Dimensionen oder Metriken, die Sie zuordnen, sind dauerhaft, sowohl für dieses Projekt als auch für alle zukünftigen Projekte, die in Ihrer gesamten Organisation migriert werden. Alle Übereinstimmungen, die Sie erstellen, können nicht geändert werden.
 
 
 
