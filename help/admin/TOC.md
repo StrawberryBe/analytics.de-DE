@@ -4,9 +4,11 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 96%
 
 ---
@@ -32,6 +34,7 @@ ht-degree: 96%
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
+   + [Komponentenmigration](admin/component-migration.md)
    + Report Suite Manager {#manage-report-suites}
       + Bearbeiten der Einstellungen einer Report Suite {#edit-report-suite}
          + Allgemein {#report-suite-general}
@@ -113,7 +116,7 @@ ht-degree: 96%
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Datenschutzberichte](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Document Cloud-Management {#doc-cloud-mgt}
-            + [Konfigurieren von Document Cloud mit Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Document Cloud mit Adobe Analytics konfigurieren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
             + [Document Cloud Reporting konfigurieren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics-Konfiguration](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Echtzeit {#real-time-reports}
@@ -151,7 +154,7 @@ ht-degree: 96%
       + [Voreinstellungs-Manager](admin/company/preferences-manager.md)
       + [Ausstehende Aktionen](admin/company/pending-actions-admin.md)
       + [Funktionszugriffsebenen](admin/company/feature-access-levels.md)
-   + Datenschutzkennzeichnung für Data Governance {#data-governance}
+   + Datenschutzkennzeichnungen für Data Governance {#data-governance}
       + [Adobe Analytics-Workflow zum Datenschutz](admin/c-data-governance/an-gdpr-workflow.md)
       + [Häufig gestellte Fragen](admin/c-data-governance/gdpr-faq.md)
       + Datenkennzeichnung {#data-labels}
@@ -171,7 +174,7 @@ ht-degree: 96%
       + [Häufig gestellte Fragen zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-faq.md)
    + Benutzer und Produkte verwalten (alt) {#user-product-management}
       + [Verwalten von Benutzenden und Produkten  (veraltet)](admin/user-management2/user-management.md)
-      + [Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs](admin/user-management2/users-assets.md)
+      + [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](admin/user-management2/users-assets.md)
       + Migrieren von Benutzern zur Adobe Admin Console {#migrate-users}
          + [Analytics-Benutzermigration zur Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
