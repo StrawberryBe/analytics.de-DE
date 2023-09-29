@@ -4,9 +4,9 @@ title: Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer 
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1974'
 ht-degree: 8%
 
 ---
@@ -116,11 +116,89 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 
 * [Warnhinweise](/help/components/c-alerts/intellligent-alerts.md)
 
-### Erstellen eines Migrationsplans als Organisation
+### Entscheiden Sie als Organisation, wie Sie nicht unterstützte Komponenten zuordnen
 
-Da alle Komponenten, die für eine bestimmte Projektmigration zugeordnet sind, für zukünftige Projektmigrationen für die gesamte Organisation gelten, ist es wichtig, dass Ihr Unternehmen alle Projektmigrationen im Voraus plant.
+>[!IMPORTANT]
+>
+>Der Migrationsprozess identifiziert Komponenten in Ihrem Adobe Analytics-Projekt, die nicht automatisch Komponenten im Customer Journey Analytics zugeordnet werden können, und ermöglicht es Ihnen, sie manuell zuzuordnen.
+>
+>**Alle Zuordnungen eines Projekts gelten für alle zukünftigen Projekte in Ihrer gesamten Organisation, unabhängig davon, welcher Benutzer die Migration durchführt. Diese Zuordnungen können nur geändert oder rückgängig gemacht werden, wenn Sie sich an die Kundenunterstützung wenden.**
+>
+>Aus diesem Grund ist es wichtig, dass Ihr Unternehmen entscheidet, wie Dimensionen und Metriken zugeordnet werden, bevor Projekte migriert werden. Dadurch wird verhindert, dass einzelne Administratoren Entscheidungen in einem Silo treffen, wenn sie nur ein einzelnes Projekt in Betracht ziehen.
+>
+>Im Folgenden finden Sie eine Liste von Dimensionen und Metriken, die Sie manuell zuordnen müssen, wenn sie in Ihrem Projekt vorhanden sind. Wir empfehlen, diese Liste vor der Migration zu überprüfen. Wenn eine dieser Komponenten in Ihrem Projekt vorhanden ist, entscheiden Sie jetzt, welchen Customer Journey Analytics-Komponenten Sie sie zuordnen möchten.
 
-Sie sollten als Organisation entscheiden, wie Dimensionen und Metriken zugeordnet werden. Dadurch wird verhindert, dass einzelne Administratoren Entscheidungen in einem Silo treffen, wenn sie nur ein einzelnes Projekt in Betracht ziehen.
+
+#### Nicht unterstützte Dimensionen
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* category
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* Exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* daysSinceLastVisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### Nicht unterstützte Metriken
+
+* timespentvisit
+* timespentvisitor
+* Neuladungen
+* Absprünge
+* bouncerate
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstances
+* downloadlinkinstances
+* darkvisitors
+* singlepagevisits
+* singlevaluevisits
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* newengagements
+* time_granularität
+* concurrent_viewers_visitors
+* concurrent_viewers_instances
+* Geräten auf
+* geschätzte Personen
+* Wiedergabedauer_Besuchszeit_Sekunden
+* play_time_used_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* Zielkonvertierung
+* Zielgruppenbestimmung
+
 
 ## Migrieren von Adobe Analytics-Projekten auf Customer Journey Analytics
 
@@ -214,11 +292,13 @@ Sie sollten als Organisation entscheiden, wie Dimensionen und Metriken zugeordne
 
 Wenn eine Migration fehlschlägt, können Sie die Migration erneut versuchen.
 
-Sie können eine fehlgeschlagene Migration auf eine der folgenden Arten wiederholen:
+Bevor Sie eine fehlgeschlagene Migration wiederholen, müssen Sie alle [nicht unterstützte Elemente](#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
 
 >[!NOTE]
 >
 >Wenn die Migration nach einem erneuten Versuch weiterhin fehlschlägt, wenden Sie sich mit der Projekt-ID an die Kundenunterstützung . Sie finden die Projekt-ID auf der Seite Migrationsstatus . <!-- when does this page display? How can they get there -->
+
+So wiederholen Sie eine fehlgeschlagene Migration:
 
 1. Wählen Sie in Adobe Analytics die Registerkarte [!UICONTROL **Admin**] und dann [!UICONTROL **Alle Admins**] aus.
 
