@@ -4,16 +4,16 @@ title: Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer 
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1784'
 ht-degree: 8%
 
 ---
 
 # Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics
 
-Adobe Analytics-Administratoren können Adobe Analytics-Komponenten und -Projekte auf Customer Journey Analytics migrieren.
+Adobe Analytics-Administratoren können Adobe Analytics-Projekte und die zugehörigen Komponenten auf Customer Journey Analytics migrieren.
 
 Der Migrationsprozess umfasst:
 
@@ -21,15 +21,17 @@ Der Migrationsprozess umfasst:
 
 * Zuordnen von Dimensionen und Metriken aus Adobe Analytics Report Suites zu Dimensionen und Metriken in Customer Journey Analytics-Datenansichten.
 
-  Einige Dimensionen und Metriken werden automatisch zugeordnet. Für andere müssen Sie im Rahmen des Migrationsprozesses manuell zuordnen.
+  Einige Dimensionen und Metriken werden automatisch zugeordnet. Für andere müssen Sie im Rahmen des Migrationsprozesses manuell zuordnen. Segmente werden ebenfalls migriert, müssen jedoch im Rahmen des Migrationsprozesses nicht zugeordnet werden.
+
+  Alle migrierten Komponenten werden nach Abschluss der Migration in der Migrationszusammenfassung angezeigt.
 
 ## Vorbereitung auf eine Migration
 
-Bevor Sie mit der Migration von Projekten in Ihrer Organisation beginnen, müssen Sie die Voraussetzungen erfüllen, lernen, was migriert wird und was nicht, und erstellen Sie einen Migrationsplan für Ihre Organisation.
+Bevor jemand in Ihrer Organisation mit der Migration von Projekten beginnt, führen Sie die folgenden Abschnitte aus.
 
 ### Voraussetzungen
 
-Bevor Ihre Projekte und die zugehörigen Dimensionen und Metriken migriert werden können, müssen Sie zunächst:
+Bevor Ihre Projekte und die zugehörigen Komponenten migriert werden können, müssen Sie zunächst:
 
 * Verwenden Sie den Analytics-Quell-Connector, um Adobe Analytics-Report Suite-Daten im Customer Journey Analytics anzuzeigen. Gehen Sie dazu folgendermaßen vor:
 
@@ -47,30 +49,72 @@ Bevor Ihre Projekte und die zugehörigen Dimensionen und Metriken migriert werde
 
 ### Informationen zu den Funktionen einer Migration
 
-In der folgenden Tabelle wird beschrieben, welche Elemente eines Projekts und einer Komponente in einer Migration enthalten sind:
+In den folgenden Tabellen wird beschrieben, welche Elemente eines Projekts und einer Komponente in einer Migration enthalten sind:
 
+#### Migrierte Komponentenelemente
 
-|  | Projekte | Dimensionen und Metriken |
-|---------|----------|---------|
-| **Datumsbereiche** | Ja | Nicht angegeben |
-| **Segmente** | Ja | Nicht angegeben |
-| **Schnellsegmente** | Ja | Nicht angegeben |
-| **Bedienfelder** | Ja | Nicht angegeben |
-| **Visualisierungen** | Ja | Nicht angegeben |
-| **Inhabende** | (Definiert durch den Benutzer, der die Migration durchführt) | ? |
-| **Kuratierung** | Nein | nicht angegeben |
-| **Freigabe (Projektrollen)** | Nein | Nein |
-| **Anmerkungen** | Nein | nicht angegeben |
-| **Ordnerstruktur** | Nein | nicht angegeben |
-| **Beschreibungen** | Ja | ? |
-| **Tags** | ? | ? |
-| **Zeitpläne** | ? | Nicht angegeben |
-| **Attribution (auf Dimensionen)** | Nicht angegeben | ? |
-| **Anomalieerkennung** | ? | Nicht angegeben |
-| **Beitragsanalyse** | ? | Nicht angegeben |
-| **Warnhinweise** | ? | Nicht angegeben |
+|  | „Migriert“ |
+|---------|---------|
+| **[Inhabende](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Freigabe](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nein |
+| **[Beschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nein |
+| **[Attribution (auf Dimensionen)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### Migrierte Projektelemente
+
+|  | „Migriert“ |
+|---------|----------|
+| **[Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Segmente](/help/components/segmentation/seg-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Dimensionen](/help/components/dimensions/overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Automatisch oder manuell zugeordnet |
+| **[Metriken](/help/components/metrics/overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Automatisch oder manuell zugeordnet |
+| **[Bedienfelder](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Inhabende](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Definiert durch den Benutzer, der die Migration durchführt |
+| **[Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md)** | Nein |
+| **[Freigabe (Projektrollen)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nein |
+| **[Freigabe (für jeden Link freigeben)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Anmerkungen](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Nein |
+| **[Ordnerstruktur](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Nein |
+| **[Beschreibungen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | Nein |
+| **[Zeitpläne](/help/components/scheduled-projects-manager.md)** | Nein |
+| **[Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[Favoriten](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### Nicht unterstützte Elemente, die Fehler verursachen
+
+Die folgenden Visualisierungen, Bedienfelder und Funktionen werden im Customer Journey Analytics nicht unterstützt. Wenn diese Elemente vor der Migration in ein Projekt einbezogen werden, kann dies entweder dazu führen, dass die Migration fehlschlägt, oder dass nach der Migration des Projekts Fehler auftreten.
+
+Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Projekt auf Customer Journey Analytics migrieren. Wenn eine Migration fehlschlägt, entfernen Sie diese Elemente, bevor Sie die Migration erneut versuchen.
+
+#### Nicht unterstützte Visualisierungen
+
+* [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### Nicht unterstützte Bedienfelder
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [Medien-Zielgruppendurchschnitt pro Minute](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [Nächstes oder vorheriges Element](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [Seitenzusammenfassung](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### Nicht unterstützte Funktionen
+
+* [Beitragsanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [Warnhinweise](/help/components/c-alerts/intellligent-alerts.md)
 
 ### Erstellen eines Migrationsplans als Organisation
 
@@ -108,7 +152,7 @@ Sie sollten als Organisation entscheiden, wie Dimensionen und Metriken zugeordne
 
 1. Im [!UICONTROL **Projektinhaber**] Geben Sie den Namen des Benutzers ein, den Sie als Projekteigentümer festlegen möchten, und wählen Sie ihn im Dropdown-Menü aus.
 
-   Der von Ihnen angegebene Eigentümer hat vollständige Verwaltungsrechte für das Projekt.
+   Der bzw. die von Ihnen angegebene Verantwortliche hat volle Verwaltungsrechte für das Projekt.
 
 1. Im [!UICONTROL **Zuordnungsschema für Report Suites**] wählen Sie eine Report Suite aus.
 
