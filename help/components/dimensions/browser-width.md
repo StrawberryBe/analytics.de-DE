@@ -3,16 +3,16 @@ title: Browser-Breite – zusammengefasst
 description: Die Breite des Browser-Fensters in Pixel.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 93%
+source-wordcount: '273'
+ht-degree: 81%
 
 ---
 
 # Browser-Breite
 
-Die &quot;Browser-Breite - zusammengefasst&quot; [Dimension](overview.md) zeigt die Breite des Browser-Fensters, klassifiziert in Gruppen von 100 Pixel. Diese Dimension ist nützlich, wenn Sie wissen möchten, wie breit Besuchern Ihr Inhalt angezeigt wird. Wenn Sie wissen, wie breit Ihr Inhalt normalerweise angezeigt wird, können Sie den Inhalt für die Anzeige optimieren.
+Die &quot;Browser-Breite - zusammengefasst&quot; [Dimension](overview.md) zeigt die Breite des Browserfensters, klassifiziert in vordefinierte Gruppen. Diese Dimension ist nützlich, wenn Sie wissen möchten, wie breit Besuchern Ihr Inhalt angezeigt wird. Wenn Sie die Breite verstehen, in der Ihr Inhalt normalerweise angezeigt wird, können Sie diesen Inhalt optimieren.
 
 Diese Dimension unterscheidet sich von der Bildschirmbreite. Die Browser-Breite ist die Anzahl der Pixel im sichtbaren Browser-Bereich, während die Bildschirmbreite die Breite des gesamten Monitors in Pixel darstellt. Wenn Sie den Unterschied zwischen diesen beiden Variablen auf Ihrem Computer sehen möchten, öffnen Sie die Browser-Konsole (F12 bei den meisten Browsern) und kopieren Sie den folgenden Code in die Konsole:
 
@@ -30,4 +30,4 @@ Adobe behält die Browser-Breite für einen Besuch bei. Wenn die Browser-Breite 
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören alle erfassten Browser-Breiten, klassifiziert in Gruppen von 100 Pixel. Wenn die Browser-Breite eines Treffers beispielsweise `1280` beträgt, wird sie im Dimensionselement `1200 to 1299` gruppiert.
+Zu den Dimensionen gehören alle erfassten Browserbreiten, klassifiziert in vordefinierte Gruppen. Wenn die Browser-Breite eines Treffers beispielsweise `1280` beträgt, wird sie im Dimensionselement `1200 to 1299` gruppiert.

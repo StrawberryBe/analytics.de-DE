@@ -3,9 +3,9 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2366'
 ht-degree: 92%
 
 ---
@@ -353,8 +353,8 @@ Releasedatum: **18. Juni 2015**
 
 Releasedatum: **21. Mai 2015**
 
-* Die iOS SDK-Version 4.5 enthält eine neue iOS-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Apps, Today Widgets, Photo Editing Widgets und allen anderen Apps der iOS-Erweiterung erlaubt. Siehe [Implementierung der iOS-Erweiterung](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=de) im Mobile Services-Benutzerhandbuch.
-* Die Android SDK-Version 4.5 enthält eine neue Android-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihrer Android Wearable App ermöglicht. Siehe [Android Wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=de) im Mobile Services-Benutzerhandbuch.
+* Die iOS SDK-Version 4.5 enthält eine neue iOS-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Apps, Today Widgets, Photo Editing Widgets und allen anderen Apps der iOS-Erweiterung erlaubt.
+* Die Android SDK-Version 4.5 enthält eine neue Android-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihrer Android Wearable App ermöglicht.
 * Aufnahme der Visitor API 1.4.
 * AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 

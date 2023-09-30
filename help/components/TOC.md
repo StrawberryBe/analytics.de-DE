@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '750'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 98%
    + [Marketing-Kanal](dimensions/marketing-channel.md)
    + [Details zum Marketing-Kanal](dimensions/marketing-detail.md)
    + [Minute](dimensions/minute.md)
-   + [Mobilgerätedimensionen](dimensions/mobile-dimensions.md)
+   + [Mobile Lebenszyklusdimensionen](dimensions/lifecycle-dimensions.md)
+   + [Mobile Suchdimensionen](dimensions/mobile-dimensions.md)
    + [Bildschirmauflösung](dimensions/monitor-resolution.md)
    + [Monat des Jahres](dimensions/month-of-year.md)
    + [Monat](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 98%
    + [Nachverfolgen des Abmeldegrunds](dimensions/tracking-opt-out-reason.md)
    + [US-DMA](dimensions/us-dma.md)
    + [US-Staaten](dimensions/us-states.md)
+   + [Sprachdimensionen](dimensions/voice-dimensions.md)
    + [Besuchstiefe](dimensions/visit-depth.md)
    + [Besuchsnummer](dimensions/visit-number.md)
    + [Woche](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 98%
    + [Ausstiege](metrics/exits.md)
    + [Identifizierte Personen](metrics/identified-people.md)
    + [Instanzen](metrics/instances.md)
+   + [Mobile Lebenszyklusmetriken](metrics/lifecycle-metrics.md)
    + [Mobilansichten](metrics/mobile-views.md)
    + [Neue Interaktionen](metrics/new-engagements.md)
    + [Vorfälle](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 98%
    + [Eindeutige Geräte](metrics/unique-devices.md)
    + [Unique Visitors](metrics/unique-visitors.md)
    + [Einheiten](metrics/units.md)
+   + [Sprachmetriken](metrics/voice-metrics.md)
    + [Besucher mit Experience Cloud ID](metrics/visitors-with-ecid.md)
    + [Besuche](metrics/visits.md)
 + Segmentierung {#segmentation}

@@ -3,10 +3,10 @@ title: Betriebssystem
 description: Das Betriebssystem des Besuchers.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 22%
+source-wordcount: '433'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,10 @@ Das Betriebssystem [Dimension](overview.md) zeigt das Betriebssystem und die Ver
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) , um die Suche zwischen Benutzeragent und Betriebssystem zu unterhalten.
+
+* Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] when [Konfigurieren eines Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 

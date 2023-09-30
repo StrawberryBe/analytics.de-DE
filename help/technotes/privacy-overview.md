@@ -4,9 +4,9 @@ keywords: Datenschutz
 title: Datenschutzübersicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 9fd055fd747c7124d49e280af1b0acc24d79be8e
+source-git-commit: 266c354cdc17e99d847ce57c1e6261386299a8cf
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -42,9 +42,9 @@ Adobe Analytics kann die folgenden Datentypen erfassen:
 | Interne Suchbegriffe | Interne Suchdaten enthalten Suchbegriffe, die aus den Suchfunktionen Ihrer Website oder App stammen. Adobe erfasst nicht automatisch interne Suchdaten. Sie können Ihre Implementierung jedoch anpassen, um diese Daten zu erfassen. Diese Vorgehensweise wird häufig bei Unternehmen angewandt, die Adobe Analytics verwenden. | [eVar](../components/dimensions/evar.md) |
 | Computer- und Browserspezifikationen | Datenerfassungsbibliotheken erfassen automatisch Browser-Hinweise mit geringer Entropie, z. B. den Browsertyp und den Betriebssystemtyp, und ob es sich bei dem Gerät um ein Desktop- oder ein Mobilgerät handelt. Eine benutzerdefinierte Konfiguration ist erforderlich, um Hinweise zur hohen Entropie zu sammeln, z. B. die spezifische Version/Build des Browsers, das Gerätemodell oder die Betriebssystemversion. Siehe [Übersicht über Client-Hinweise](client-hints.md) für weitere Informationen. | [Browser](../components/dimensions/browser.md), [Betriebssystem](../components/dimensions/operating-systems.md), [Mobilgerätedimensionen](../components/dimensions/mobile-dimensions.md), [Bildschirmauflösung](../components/dimensions/monitor-resolution.md) |
 | Geolocation-Informationen | Adobe bietet die Möglichkeit, die Erfassung von Geolocation-Daten für jede Website oder App zu aktivieren oder zu deaktivieren (auf Report Suite-Ebene). Die Erfassung von Geolocation-Daten ist standardmäßig aktiviert. | [Städte](../components/dimensions/cities.md), [Regionen](../components/dimensions/regions.md), [Länder](../components/dimensions/countries.md) |
-| IP-Adresse | Adobe bietet die Möglichkeit, beim Speichern dieser Daten das letzte Oktett zu verschleiern oder die IP-Adresse des Besuchers vollständig zu verschleiern. EMEA-Kunden haben in der Regel die Einstellung der IP-Adresse standardmäßig vollständig verschleiert. Unabhängig von der Verschleierungseinstellung ist die IP-Adresse nicht als Dimension in Adobe Analytics verfügbar. Sie ist nur in [Datenfeeds](../export/analytics-data-feed/data-feed-overview.md). | Keine |
+| IP-Adresse | Adobe bietet die Möglichkeit, die IP-Adresse des Besuchers beim Speichern dieser Daten zu verschleiern (Hash) oder vollständig zu entfernen. EMEA-Kunden haben in der Regel die Einstellung der IP-Adresse standardmäßig verschleiert. Unabhängig von der Verschleierungseinstellung ist die IP-Adresse nicht als Dimension in Analysis Workspace verfügbar. Sie ist nur in [Datenfeeds](../export/analytics-data-feed/data-feed-overview.md). Siehe [Allgemeine Kontoeinstellungen](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) im Admin-Handbuch finden Sie Details zu den verfügbaren Verschleierungseinstellungen. | Keine |
 | Formulardaten auf Ihrer Site | Alle Implementierungstypen müssen konfiguriert werden, um diese Daten zu erfassen. Sie können diese Daten in benutzerdefinierte Variablen einfügen. | [eVar](../components/dimensions/evar.md) |
-| Klicken Sie auf Anzeigen oder Links auf Ihrer Site | Wird standardmäßig bei Verwendung einer Datenerfassungsbibliothek erfasst. Zusätzliche Informationen, wie der Ort der Klicks, sind verfügbar, wenn Sie Activity Map aktivieren. | [Activity Map](../analyze/activity-map/activity-map.md), [Exitlink](../components/dimensions/exit-link.md), [Downloadlink](../components/dimensions/download-link.md) |
+| Klicken Sie auf Anzeigen oder Links auf Ihrer Site | Wird erfasst, wenn [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) oder [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) aktiviert ist. Zusätzliche Informationen, wie der Ort der Klicks, sind verfügbar, wenn Sie Activity Map aktivieren. | [Activity Map](../analyze/activity-map/activity-map.md), [Exitlink](../components/dimensions/exit-link.md), [Downloadlink](../components/dimensions/download-link.md) |
 | Auf Ihrer Site gekaufte Produkte | Alle Implementierungstypen müssen konfiguriert werden, um diese Daten zu erfassen. Adobe bietet mehrere Standardvariablen, um diese Informationen zu sammeln. | [Produkt](../components/dimensions/product.md), [Bestellungen](../components/metrics/orders.md), [Umsatz](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}
@@ -53,4 +53,4 @@ Siehe Navigationsmenü unter [Übersicht über Dimensionen](../components/dimens
 
 ## Datenverarbeitungsstandorte
 
-Adobe verwaltet drei Datenverarbeitungsorte für Adobe Analytics. Diese Sites empfangen Rohdaten und verarbeiten sie in einer Report Suite, die für Datenspeicherung und Berichtsabruf optimiert ist. Diese Datenverarbeitungsstandorte befinden sich in den USA (Oregon), Großbritannien (London) und Singapur. Siehe [Sicherheitsübersicht für Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} für weitere Informationen.
+Adobe verwaltet drei Datenverarbeitungsorte für Adobe Analytics. Diese Sites empfangen Rohdaten und verarbeiten sie in einer Report Suite, die für Datenspeicherung und Berichtsabruf optimiert ist. Diese Datenverarbeitungsstandorte befinden sich derzeit in den USA (Oregon), Großbritannien (London) und Singapur. Siehe [Sicherheitsübersicht für Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} für weitere Informationen.
