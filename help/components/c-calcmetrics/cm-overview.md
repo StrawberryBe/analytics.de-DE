@@ -4,7 +4,7 @@ keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metrike
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # Berechnete und erweiterte berechnete (abgeleitete) Metriken
 
-Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
+Berechnete und erweiterte berechnete (oder abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
 
 Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. Damit können Marketingexperten, Produktmanager und Analytiker Fragen zu den Daten beantworten, ohne die [!DNL Analytics]-Implementierung ändern zu müssen. Dies sind die benutzerdefinierten Metriken, die in den einzelnen [!DNL Analytics]-Paketen verfügbar sind:
 
@@ -22,7 +22,7 @@ Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere W
 * [Adobe Analytics Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html): Berechnet + erweitert berechnet
 * [Adobe Analytics Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html): Berechnet + erweitert berechnet
 
-Im Folgenden finden Sie einen Vergleich der Funktionen für berechnete Metriken und erweiterte berechnete Metriken:
+Im Folgenden finden Sie einen Vergleich berechneter Metriken mit erweiterten Funktionen für berechnete Metriken:
 
 | Generatoroptionen | Berechnete Metriken  | Erweiterte berechnete (abgeleitete) Metriken |
 |---|---|---|
@@ -44,7 +44,7 @@ Sie können
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
 
 * Metriken über Report Suites hinweg freigeben. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
-* (Nur erweiterte berechnete Metriken) Segmentieren von Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der die Personen gezählt werden, für die dies die erste Sitzung ist.
+* (Nur erweiterte berechnete Metriken) Segmente für Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der die Personen gezählt werden, für die dies die erste Sitzung ist.
 
 * (Nur erweiterte berechnete Metriken) Integrieren Sie statistische Funktionen, um Ihre Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
 

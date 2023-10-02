@@ -4,16 +4,16 @@ title: Berechnete Metriken
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
-# Berechnete Metriken
+# Berechnete Metriken 
 
-Report Builder 5.2 unterstützt vereinheitlichte berechnete Adobe Analytics-Metriken. Neben anderen Innovationen verfügen alle berechneten Metriken jetzt über eine globale ID – sie sind nicht mehr auf eine einzige Report Suite beschränkt.
+Report Builder 5.2 unterstützt einheitliche berechnete Adobe Analytics-Metriken. Neben anderen Innovationen verfügen alle berechneten Metriken jetzt über eine globale ID – sie sind nicht mehr auf eine einzige Report Suite beschränkt.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Weitere Informationen zum Erstellen und Verwalten von berechneten Metriken mit d
 
 In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filtern und anwenden.
 
-## Filtern von berechneten Metriken {#section_376E986D3E684999A7CDB08E53854159}
+## Berechnete Metriken filtern {#section_376E986D3E684999A7CDB08E53854159}
 
 **Filter** berechnete Metriken durch Klicken auf das Filtersymbol:  ![Screenshot der Filteroptionen mit den Feldern Anwendung, Benutzer, Projekt .](/help/admin/admin/assets/filter.png)
 
@@ -43,7 +43,7 @@ Folgende Filter stehen zur Verfügung:
 | Weitere Filter > Meine | Zeigt alle Metriken an, deren Inhaber Sie sind. |
 | Weitere Filter > Für mich freigegeben | Zeigt alle Metriken an, die für Sie freigegeben wurden. |
 
-## Berechnete Metriken anwenden  {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## Berechnete Metriken anwenden {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 Wenn Sie die Filter ausgewählt haben, klicken Sie auf **[!UICONTROL Übernehmen]**, um sie auf Ihre Anforderung anzuwenden. Die ausgewählten Metriken werden zum Berichtslayout hinzugefügt.
 
