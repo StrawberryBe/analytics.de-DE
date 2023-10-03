@@ -4,10 +4,10 @@ description: Sie können allgemeine Voreinstellungen und Projekteinstellungen f�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
-workflow-type: ht
-source-wordcount: '3063'
-ht-degree: 100%
+source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+workflow-type: tm+mt
+source-wordcount: '3156'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Sie können Unternehmensvoreinstellungen aktualisieren, die für alle Benutzerin
 
 {style="table-layout:auto"}
 
-## Projektvoreinstellungen
+## Voreinstellungen für Projekte und Analysen
 
 Sie können die Projektvoreinstellungen für alle neuen Projekte anpassen, die Sie in Analysis Workspace erstellen. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter [Aktualisieren von Voreinstellungen](#update-preferences).
 
@@ -73,7 +73,7 @@ Klicken Sie auf die verlinkten Voreinstellungstitel, um weitere Informationen un
 | --- | --- | --- |
 | **Anzeigen** | | |
 |  | [Dichte anzeigen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=de) | Wählen Sie aus, wie viel Inhalt auf dem Bildschirm angezeigt werden soll, indem Sie den vertikalen Abstand der linken Schiene, der Freiformtabellen und der Kohortentabellen verkleinern. <ul><li>Kompakt</li><li>Komfortabel</li><li>Erweitert (Standard)</li></ul> |
-| | [Farbpalette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=de) | Wählen Sie die in Analysis Workspace zu verwendende Farbpalette für Visualisierungen aus. <ul><li>Adobe-Paletten (Standard)</li><li>Bedingte Formatierungspalette </li><li>Aufwärts-/Abwärts-Palette (divergierend)<li>Benutzerdefinierte Paletten</li></ul> |
+| | [Farbpalette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=de) | Wählen Sie die in Analysis Workspace verwendeten Farbpaletten für die Visualisierung aus.<ul><li>**Kategorische Palette**: Wird auf viele Visualisierungen in Analysis Workspace angewendet. Jede Farbe stellt einen eindeutigen Kategorenwert dar. Wählen Sie aus den von Adobe bereitgestellten Optionen oder geben Sie eine benutzerdefinierte Palette ein, die durch kommagetrennte Hexadezimalwerte definiert wird.</li><li>**Divergent, Palette**: Wird auf die Kohortentabelle in Analysis Workspace angewendet. Diese Palette enthält eine numerische Bedeutung mit zwei Extremen und eine Grundlinie in der Mitte.</li><li>**Sequenzielle Palette**: Angewandt auf die geleitete Analyse der Häufigkeitstrends (gestapelte Leiste). Diese Palette hat eine numerische Bedeutung von hell bis dunkel.</li></ul> |
 | **Daten** | | |
 |  | [Report Suite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#report-suite) | Wählen Sie aus, von wo Tabellen und Visualisierungen ihre Daten beziehen sollen. <ul><li>Zuletzt verwendet (Standard)</li><li>Spezifische Report Suite, die aus einer Liste ausgewählt wurde</li></ul> |
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de#calendar) | Wählen Sie aus einer Liste, die Folgendes enthält: <ul><li>Von Adobe bereitgestellte Bereiche (Standard ist „Diesen Monat“)</li><li>Benutzerdefinierte Bereiche</li></ul> |
@@ -112,10 +112,11 @@ Klicken Sie auf die verlinkten Abschnittstitel, um weitere Informationen und den
 | **[Zeile ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Aufschlüsselung nach Position | Wählen Sie diese Option aus, wenn die Aufschlüsselung bei der Position des Elements und nicht beim Element selbst bleiben soll. Weitere Informationen zur Aufschlüsselungen finden Sie unter [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
 | | Prozentuale Berechnung | <ul><li>Spalte</li><li>Zeile</li></ul> |
+| | Spaltensummen (nur statische Zeilen) | <ul><li>Summe der Zeilen anzeigen: Zeigt die Summe der einzelnen Zeileneinträge an </li><li>Gesamtsumme anzeigen: Zeigt die deduplizierte Summe der Zeilen an.</li></ul> |
 
 ## Voreinstellungen für Visualisierungen
 
-Sie können die Visualisierungsvoreinstellungen für alle in Analysis Workspace neu erstellten Projekte aktualisieren. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter [Aktualisieren von Voreinstellungen](#update-preferences).
+Sie können die Visualisierungseinstellungen für alle neuen Projekte aktualisieren, die Sie in Analysis Workspace erstellen. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter [Aktualisieren von Voreinstellungen](#update-preferences).
 
 Einige dieser Voreinstellungen können auch für individuelle Visualisierungen angepasst werden.
 
