@@ -3,10 +3,10 @@ description: Warnhinweise verwalten.
 title: Warnhinweis-Manager - Übersicht
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
+source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 33%
+source-wordcount: '423'
+ht-degree: 41%
 
 ---
 
@@ -61,6 +61,6 @@ So konfigurieren Sie die sichtbaren Spalten im Warnhinweis-Manager:
    | Tags | Zeigt Tags an, die entweder von Ihnen oder von Personen, die den Warnhinweis für Sie freigegeben haben, auf den Warnhinweis angewendet wurden. |
    | Freigegeben für | Listet Personen oder Gruppen (nur Administrator) oder Alle (nur Administrator) auf, für die Sie die Warnung freigegeben haben. |
    | Änderungsdatum | Gibt das Datum der letzten Änderung des Warnhinweises an. |
-   | Zuletzt verwendet | **Hinweis:** Diese Funktion befindet sich in der eingeschränkten Testphase der Veröffentlichung und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Customer Journey Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).<p>Zeigt das Datum der letzten Verwendung der Warnung an.</p> <p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</p> |
+   | Zuletzt verwendet | Zeigt das Datum der letzten Verwendung der Warnung an. <p>Mithilfe dieser Informationen können Sie feststellen, ob eine Komponente für Benutzerinnen und Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</p> |
 
    {style="table-layout:auto"}

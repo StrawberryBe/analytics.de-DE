@@ -2,11 +2,9 @@
 description: Erläutert die Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics.
 title: Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics
 feature: Admin Tools
-hide: true
-hidefromtoc: true
-source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
+source-git-commit: e32b239fd64eea4516bc73b934b10346832f2bab
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2051'
 ht-degree: 8%
 
 ---
@@ -53,13 +51,15 @@ In den folgenden Tabellen wird beschrieben, welche Elemente eines Projekts und e
 
 #### Migrierte Komponentenelemente
 
+Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten auf Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), während Segmente und Datumsbereiche im Customer Journey Analytics basierend auf der
+
 |  | „Migriert“ |
 |---------|---------|
-| **[Inhabende](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
-| **[Freigabe](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nein |
-| **[Beschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nein |
-| **[Attribution (auf Dimensionen)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
+| **[Inhabende](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: ![Häkchen](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Freigabe](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: nein</p> |
+| **[Beschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: ![Häkchen](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: nein</p> |
+| **[Attribution (auf Dimensionen)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: nein</p> |
 
 {style="table-layout:auto"}
 
@@ -76,17 +76,16 @@ In den folgenden Tabellen wird beschrieben, welche Elemente eines Projekts und e
 | **[Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Inhabende](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Definiert durch den Benutzer, der die Migration durchführt |
 | **[Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md)** | Nein |
-| **[Freigabe (Projektrollen)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nein |
-| **[Freigabe (für jeden Link freigeben)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Freigabe (Projektrollen)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nein <!-- Add info on Share with Anyone? Is it the same?--> |
 | **[Anmerkungen](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Nein |
 | **[Ordnerstruktur](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Nein |
 | **[Beschreibungen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | Nein |
 | **[Zeitpläne](/help/components/scheduled-projects-manager.md)** | Nein |
-| **[Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
-| **[Favoriten](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+<!-- What about Anomaly Detection and Favorites? -->
 
 ### Nicht unterstützte Elemente, die Fehler verursachen
 
@@ -116,7 +115,7 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 
 * [Warnhinweise](/help/components/c-alerts/intellligent-alerts.md)
 
-### Entscheiden Sie als Organisation, wie Sie nicht unterstützte Komponenten zuordnen
+### Als Organisation entscheiden, wie Sie Komponenten zuordnen
 
 >[!IMPORTANT]
 >
@@ -129,7 +128,7 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 >Im Folgenden finden Sie eine Liste von Dimensionen und Metriken, die Sie manuell zuordnen müssen, wenn sie in Ihrem Projekt vorhanden sind. Wir empfehlen, diese Liste vor der Migration zu überprüfen. Wenn eine dieser Komponenten in Ihrem Projekt vorhanden ist, entscheiden Sie jetzt, welchen Customer Journey Analytics-Komponenten Sie sie zuordnen möchten.
 
 
-#### Nicht unterstützte Dimensionen
+#### Dimensionen, die manuell zugeordnet werden müssen
 
 * averagepagetime
 * pagetimeseconds
@@ -163,7 +162,7 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 * targetraw
 
 
-#### Nicht unterstützte Metriken
+#### Metriken, die manuell zugeordnet werden müssen
 
 * timespentvisit
 * timespentvisitor
