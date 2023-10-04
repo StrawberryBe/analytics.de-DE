@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
+source-git-commit: 31487111111575e267306d5f68eede23276e79a8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 96%
+source-wordcount: '637'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,9 @@ ht-degree: 96%
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
-   + [Komponentenmigration](admin/component-migration.md)
+   + Komponentenmigration {#component-migration}
+      + [Vorbereitung der Migration](admin/component-migration/prepare-component-migration.md)
+      + [Migrationsarbeitsablauf](admin/component-migration/component-migration.md)
    + Report Suite Manager {#manage-report-suites}
       + Bearbeiten der Einstellungen einer Report Suite {#edit-report-suite}
          + Allgemein {#report-suite-general}
