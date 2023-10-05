@@ -3,10 +3,10 @@ description: Warnhinweise verwalten.
 title: Warnhinweis-Manager - Übersicht
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
+source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 41%
+source-wordcount: '448'
+ht-degree: 38%
 
 ---
 
@@ -61,6 +61,6 @@ So konfigurieren Sie die sichtbaren Spalten im Warnhinweis-Manager:
    | Tags | Zeigt Tags an, die entweder von Ihnen oder von Personen, die den Warnhinweis für Sie freigegeben haben, auf den Warnhinweis angewendet wurden. |
    | Freigegeben für | Listet Personen oder Gruppen (nur Administrator) oder Alle (nur Administrator) auf, für die Sie die Warnung freigegeben haben. |
    | Änderungsdatum | Gibt das Datum der letzten Änderung des Warnhinweises an. |
-   | Zuletzt verwendet | Zeigt das Datum der letzten Verwendung der Warnung an. <p>Mithilfe dieser Informationen können Sie feststellen, ob eine Komponente für Benutzerinnen und Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</p> |
+   | Zuletzt verwendet | Zeigt das Datum der letzten Verwendung der Warnung an. <p>Mithilfe dieser Informationen können Sie feststellen, ob eine Komponente für Benutzerinnen und Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie bei der Anzeige dieser Spalte Folgendes:</p><ul><li>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</li><li>Bei einigen Komponenten enthält diese Spalte möglicherweise keine Daten, wenn die Komponente zuletzt vor September 2023 verwendet wurde.</li></ul> |
 
    {style="table-layout:auto"}
