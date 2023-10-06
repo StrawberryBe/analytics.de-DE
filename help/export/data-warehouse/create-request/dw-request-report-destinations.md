@@ -2,10 +2,11 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -78,7 +79,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -90,7 +91,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -106,7 +107,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -120,7 +121,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-Mail
 
@@ -147,7 +148,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -160,7 +161,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -173,7 +174,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -187,7 +188,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
@@ -209,14 +210,59 @@ Data Warehouse-Daten können an einen Adobe- oder kundengehosteten FTP-Speichero
 
 Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informationen:
 
-* [!UICONTROL **Host**]: Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp://ftp.omniture.com`.
-* [!UICONTROL **Pfad**]: Kann leer gelassen werden
+#### Kontofelder
+
+* [!UICONTROL **Kontoname**]: Der Name des FTP-Kontos.
+
+* [!UICONTROL **Kontobeschreibung**]: Eine Beschreibung des FTP-Kontos.
+
+* [!UICONTROL **Hostname**]: Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Nicht einschließen `ftp://` am Anfang der URL.
+
 * [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der FTP-Site anzumelden.
+
 * [!UICONTROL **Kennwort und Kennwort bestätigen**]: Geben Sie das Kennwort ein, um sich bei der FTP-Site anzumelden.
+
+#### Standortfelder
+
+* [!UICONTROL **Ortsname**]: Der Name des Speicherorts im FTP-Konto, an den Dateien gesendet werden sollen.
+
+* [!UICONTROL **Standortbeschreibung**]: Eine Beschreibung des Speicherorts im FTP-Konto.
+
+* [!UICONTROL **Verzeichnispfad**]: Der Pfad zum Speicherort im FTP-Konto.
 
 ### SFTP
 
 SFTP-Unterstützung für Data Warehouse ist verfügbar. Erfordert einen SFTP-Host und Benutzernamen. Außerdem muss die Ziel-Site einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Data Warehouse-Ziels herunterladen.
+
+Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informationen:
+
+#### Kontofelder
+
+* [!UICONTROL **Kontoname**]: Der Name des FTP-Kontos.
+
+* [!UICONTROL **Kontobeschreibung**]: Eine Beschreibung des FTP-Kontos.
+
+* [!UICONTROL **Hostname**]: Geben Sie die gewünschte SFTP-Ziel-URL ein. Zum Beispiel `sftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Nicht einschließen `sftp://` am Anfang der URL.
+
+* [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der SFTP-Site anzumelden.
+
+* [!UICONTROL **Öffentliche Schlüssel**]: Laden Sie den entsprechenden öffentlichen Schlüssel herunter, wenn Sie das Data Warehouse-Ziel erstellen.
+
+#### Standortfelder
+
+* [!UICONTROL **Ortsname**]: Der Name des Speicherorts im SFTP-Konto, an den Dateien gesendet werden sollen.
+
+* [!UICONTROL **Standortbeschreibung**]: Eine Beschreibung des Speicherorts im SFTP-Konto.
+
+* [!UICONTROL **Verzeichnispfad**]: Der Pfad zum Speicherort im SFTP-Konto.
 
 ### S3
 
