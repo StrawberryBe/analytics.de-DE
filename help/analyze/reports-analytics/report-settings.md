@@ -4,19 +4,18 @@ title: Einstellungen zur Berichtsanzeige und Navigation
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1471'
 ht-degree: 98%
 
 ---
 
 # Einstellungen zur Berichtsanzeige und Navigation
 
-Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informationen, die Ihnen helfen, Standardmenüoptionen im vereinfachten Menü zu finden.
+{{ra-eol}}
 
->[!IMPORTANT]
->Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
+Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informationen, die Ihnen helfen, Standardmenüoptionen im vereinfachten Menü zu finden.
 
 ## Einstellungen zur Berichtsanzeige und Navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
@@ -45,7 +44,7 @@ Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informatio
 | **Sprache/Währung/Kodierung** |  |
 | Tausendertrennzeichen | Wählen Sie ein Trennzeichen für jede Tausenderzahl (Punkt oder Komma). Viele Länder verwenden einen Punkt, um die Tausenderzahlen zu trennen. (Dieses Trennzeichen wird auf alle Zahlen im System angewendet, nicht nur auf die Währung.) |
 | Standardwährung der Report Suite verwenden | Gibt an, ob die Standardwährung der Report Suite verwendet werden soll. |
-| Währung | Die Währung, in die Sie Ihre Daten umrechnen möchten. Wenn bei dieser Einstellung ein Wert ausgewählt wird, sind die in der Datenbank gespeicherten Daten nicht betroffen, werden aber als konvertierter Wert basierend auf dem aktuellen Tageswechselkurs angezeigt. Wenn diese Währungsoptionen nicht konfiguriert (auf Standard eingestellt) werden, findet keine Währungskonversion statt und alle Werte werden in US-Dollar (USD) gespeichert und angezeigt. Wenden Sie sich an Ihr Adobe Account Team, um die Währung bei der Verarbeitung der Daten (bevor sie angezeigt werden) umzurechnen. |
+| Währung | Die Währung, in die Sie Ihre Daten umrechnen möchten. Wenn bei dieser Einstellung ein Wert ausgewählt wird, sind die in der Datenbank gespeicherten Daten nicht betroffen, werden aber als konvertierter Wert basierend auf dem aktuellen Tageswechselkurs angezeigt. Wenn diese Währungsoptionen nicht konfiguriert (auf Standard eingestellt) werden, findet keine Währungskonversion statt und alle Werte werden in US-Dollar (USD) gespeichert und angezeigt. Wenden Sie sich an Ihr Adobe-Account-Team, um die Währung bei der Verarbeitung der Daten (bevor sie angezeigt werden) umzurechnen. |
 | Kodierung des terminierten Berichts | Shift-JIS für japanische Zeichenkodierung. Verwenden Sie EUC-JP für Extended Unix Code, hauptsächlich für Japanisch, Koreanisch und vereinfachtes Chinesisch. |
 | CSV-Trennzeichen | Das Zeichen, das Sie zum Trennen für CSV-Werte verwenden möchten. |
 
@@ -62,92 +61,92 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 | Position im Standardmenü | Position im vereinfachten Menü |
 |---|---|
 | **Sitemetriken** |  |  |
-|  | Site-Übersicht | Metriken > Site-Übersicht |
-|  | Schlüsselmetriken | Metriken > Schlüsselmetriken |
-|  | Seitenansichten | Metriken > Seitenansichten |
-|  | Besuche | Metriken > Besuche |
-|  | Besucher | Metriken   > Besucher |
-|  | Zeit pro Besuch | Metriken > Zeit pro Besuch |
-|  | Zeit vor Ereignis | Konversion > Zeit vor Ereignis |
-|  | Einkäufe | Metriken > Einkäufe |
-|  | Warenkorb | Metriken > Warenkorb |
-|  | Benutzerspezifische Ereignisse | Metriken > Benutzerspezifische Ereignisse |
-|  | Bots | Zielgruppe > Bots |
-|  | Anomalieerkennung | Metriken > Anomalieerkennung |
-|  | Echtzeit | Metriken > Echtzeit |
+|   | Site-Übersicht | Metriken > Site-Übersicht |
+|   | Schlüsselmetriken | Metriken > Schlüsselmetriken |
+|   | Seitenansichten | Metriken > Seitenansichten |
+|   | Besuche | Metriken > Besuche |
+|   | Besucher | Metriken   > Besucher |
+|   | Zeit pro Besuch | Metriken > Zeit pro Besuch |
+|   | Zeit vor Ereignis | Konversion > Zeit vor Ereignis |
+|   | Einkäufe | Metriken > Einkäufe |
+|   | Warenkorb | Metriken > Warenkorb |
+|   | Benutzerspezifische Ereignisse | Metriken > Benutzerspezifische Ereignisse |
+|   | Bots | Zielgruppe > Bots |
+|   | Anomalieerkennung | Metriken > Anomalieerkennung |
+|   | Echtzeit | Metriken > Echtzeit |
 | **Site-Content** |  |  |
-|  | Seiten | Inhalt > Seiten |
-|  | Sitebereiche | Inhalt > Sitebereiche |
-|  | Server | Inhalt > Server |
-|  | Links | Navigation > Benutzerspezifische Links; Navigation > Exitlinks; Navigation > ClickMap; Navigation > Dateidownloads |
-|  | Seiten nicht gefunden | Navigation > Seiten nicht gefunden |
+|   | Seiten | Inhalt > Seiten |
+|   | Sitebereiche | Inhalt > Sitebereiche |
+|   | Server | Inhalt > Server |
+|   | Links | Navigation > Benutzerspezifische Links; Navigation > Exitlinks; Navigation > ClickMap; Navigation > Dateidownloads |
+|   | Seiten nicht gefunden | Navigation > Seiten nicht gefunden |
 | **Mobile** |  |  |
-|  | Geräte | Zielgruppe > Mobil > Geräte |
-|  | Gerätetyp | Zielgruppe > Mobil > Gerätetyp |
-|  | Hersteller | Zielgruppe > Mobil > Hersteller |
-|  | Bildschirmgröße | Zielgruppe > Mobil > Bildschirmgröße |
-|  | Bildschirmhöhe | Zielgruppe > Mobil > Bildschirmhöhe |
-|  | Bildschirmbreite | Zielgruppe > Mobil > Bildschirmbreite |
-|  | Cookie-Unterstützung | Zielgruppe > Mobil > Cookie-Unterstützung |
-|  | Bildunterstützung | Zielgruppe > Mobil > Bildunterstützung |
-|  | Farbtiefe | Zielgruppe > Mobil > Farbtiefe |
-|  | Audiounterstützung | Zielgruppe > Mobil > Audio-Unterstützung |
-|  | Video-Unterstützung | Zielgruppe > Mobil > Video-Unterstützung |
-|  | Betriebssystem | Zielgruppe > Mobil > Betriebssystem |
+|   | Geräte | Zielgruppe > Mobil > Geräte |
+|   | Gerätetyp | Zielgruppe > Mobil > Gerätetyp |
+|   | Hersteller | Zielgruppe > Mobil > Hersteller |
+|   | Bildschirmgröße | Zielgruppe > Mobil > Bildschirmgröße |
+|   | Bildschirmhöhe | Zielgruppe > Mobil > Bildschirmhöhe |
+|   | Bildschirmbreite | Zielgruppe > Mobil > Bildschirmbreite |
+|   | Cookie-Unterstützung | Zielgruppe > Mobil > Cookie-Unterstützung |
+|   | Bildunterstützung | Zielgruppe > Mobil > Bildunterstützung |
+|   | Farbtiefe | Zielgruppe > Mobil > Farbtiefe |
+|   | Audiounterstützung | Zielgruppe > Mobil > Audio-Unterstützung |
+|   | Video-Unterstützung | Zielgruppe > Mobil > Video-Unterstützung |
+|   | Betriebssystem | Zielgruppe > Mobil > Betriebssystem |
 | **Pfade** |  |  |
-|  | Seiten | Navigation > Pfade > Seiten |
-|  | Interne Suchbegriffe | Navigation > Pfade > Interne Suchbegriffe |
+|   | Seiten | Navigation > Pfade > Seiten |
+|   | Interne Suchbegriffe | Navigation > Pfade > Interne Suchbegriffe |
 | **Traffic-Quellen** |  |  |
-|  | Keyword – Alle | Traffic-Quellen > Keyword – Alle |
-|  | Suchbegriff – bezahlt | Traffic-Quellen > Keyword – Bezahlt |
-|  | Suchbegriff – kostenlos | Traffic-Quellen > Keyword – Natürlich |
-|  | Suchmaschinen – Alle | Traffic-Quellen > Suchmaschinen – Alle |
-|  | Suchmaschinen – Gebührenpflichtig | Traffic-Quellen > Suchmaschinen – Gebührenpflichtig |
-|  | Suchmaschinen – Kostenlos | Traffic-Quellen > Suchmaschinen – Kostenlos |
-|  | Rangansicht aller Suchseiten | Traffic-Quellen > Rangansicht aller Suchseiten |
-|  | Referrerdomänen | Traffic-Quellen > Verweisende Domänen |
-|  | Ursprünglich Referrerdomänen | Traffic-Quellen > Ursprünglich verweisende Domänen |
-|  | Verweisende Stellen | Traffic-Quellen > Verweisende Stellen |
-|  | Referrertypen | Traffic-Quellen > Typen der verweisenden Stellen |
+|   | Keyword – Alle | Traffic-Quellen > Keyword – Alle |
+|   | Suchbegriff – bezahlt | Traffic-Quellen > Keyword – Bezahlt |
+|   | Suchbegriff – kostenlos | Traffic-Quellen > Keyword – Natürlich |
+|   | Suchmaschinen – Alle | Traffic-Quellen > Suchmaschinen – Alle |
+|   | Suchmaschinen – Gebührenpflichtig | Traffic-Quellen > Suchmaschinen – Gebührenpflichtig |
+|   | Suchmaschinen – Kostenlos | Traffic-Quellen > Suchmaschinen – Kostenlos |
+|   | Rangansicht aller Suchseiten | Traffic-Quellen > Rangansicht aller Suchseiten |
+|   | Referrerdomänen | Traffic-Quellen > Verweisende Domänen |
+|   | Ursprünglich Referrerdomänen | Traffic-Quellen > Ursprünglich verweisende Domänen |
+|   | Verweisende Stellen | Traffic-Quellen > Verweisende Stellen |
+|   | Referrertypen | Traffic-Quellen > Typen der verweisenden Stellen |
 | **Kampagnen** |  |  |
-|  | Kampagnenkonversionstrichter | Traffic-Quellen > Kampagnen > Kampagnenkonversionstrichter |
-|  | Trackingcode | Traffic-Quellen > Kampagnen > Trackingcode |
+|   | Kampagnenkonversionstrichter | Traffic-Quellen > Kampagnen > Kampagnenkonversionstrichter |
+|   | Trackingcode | Traffic-Quellen > Kampagnen > Trackingcode |
 | **Produkte** |  |  |
-|  | Produktkonversionstrichter | Konversion > Produkte > Produktkonversionstrichter |
-|  | Produkte | Konversion > Produkte > Produkte |
-|  | Cross-Sell | Konversion > Produkte > Cross-Sell |
-|  | Kategorien | Konversion > Produkte > Kategorien |
+|   | Produktkonversionstrichter | Konversion > Produkte > Produktkonversionstrichter |
+|   | Produkte | Konversion > Produkte > Produkte |
+|   | Cross-Sell | Konversion > Produkte > Cross-Sell |
+|   | Kategorien | Konversion > Produkte > Kategorien |
 | **Besuchertreue** |  |  |
-|  | Rückkehrhäufigkeit | Zielgruppe > Besuchertreue > Rückkehrhäufigkeit |
-|  | Rückkehrende Besucher | Zielgruppe > Besuchertreue > Rückkehrende Besucher |
-|  | Rückkehrende Besucher pro Tag | Zielgruppe > Besuchertreue > Rückkehrende Besucher pro Tag |
-|  | Besuchsnummer | Zielgruppe > Besuchertreue > Besuchsnummer |
-|  | Verkaufszyklus | Zielgruppe > Besuchertreue > Verkaufszyklus |
+|   | Rückkehrhäufigkeit | Zielgruppe > Besuchertreue > Rückkehrhäufigkeit |
+|   | Rückkehrende Besucher | Zielgruppe > Besuchertreue > Rückkehrende Besucher |
+|   | Rückkehrende Besucher pro Tag | Zielgruppe > Besuchertreue > Rückkehrende Besucher pro Tag |
+|   | Besuchsnummer | Zielgruppe > Besuchertreue > Besuchsnummer |
+|   | Verkaufszyklus | Zielgruppe > Besuchertreue > Verkaufszyklus |
 | **Besucherprofil** |  |  |
-|  | GeoSegmentation | Zielgruppe > Besucherprofil > GeoSegmentation |
-|  | Sprachen | Zielgruppe > Besucherprofil > Sprachen |
-|  | Zeitzonen | Zielgruppe > Besucherprofil > Zeitzonen |
-|  | Domänen | Zielgruppe > Besucherprofil > Domänen |
-|  | Domänen auf oberster Ebene | Zielgruppe > Besucherprofil > Domänen auf oberster Ebene |
-|  | Technologie | Zielgruppe > Besucherprofil > Technologie |
-|  | Bundesland des Besuchers | Zielgruppe > Besucherprofil > Bundesstaat des Besuchers |
-|  | Postleitzahl des Besuchers | Zielgruppe > Besucherprofil > PLZ/Postleitzahlen des Besuchers |
+|   | GeoSegmentation | Zielgruppe > Besucherprofil > GeoSegmentation |
+|   | Sprachen | Zielgruppe > Besucherprofil > Sprachen |
+|   | Zeitzonen | Zielgruppe > Besucherprofil > Zeitzonen |
+|   | Domänen | Zielgruppe > Besucherprofil > Domänen |
+|   | Domänen auf oberster Ebene | Zielgruppe > Besucherprofil > Domänen auf oberster Ebene |
+|   | Technologie | Zielgruppe > Besucherprofil > Technologie |
+|   | Bundesland des Besuchers | Zielgruppe > Besucherprofil > Bundesstaat des Besuchers |
+|   | Postleitzahl des Besuchers | Zielgruppe > Besucherprofil > PLZ/Postleitzahlen des Besuchers |
 | **Benutzerspezifische Konversion** |  |  |
-|  | Benutzerspez. Konversion 1-10 | Konversion > Benutzerspezifische Konversion > Benutzerspez. Konversion 1-10 |
-|  | Benutzerspez. Konversion 11-20 | Konversion > Benutzerspezifische Konversion > Benutzerspez. Konversion 11-20 |
+|   | Benutzerspez. Konversion 1-10 | Konversion > Benutzerspezifische Konversion > Benutzerspez. Konversion 1-10 |
+|   | Benutzerspez. Konversion 11-20 | Konversion > Benutzerspezifische Konversion > Benutzerspez. Konversion 11-20 |
 | **Benutzerspezifischer Traffic** |  |  |
-|  | Benutzerspez. Traffic 1-10 | Inhalt > Benutzerspezifischer Traffic > Benutzerspez. Traffic 1-10 |
+|   | Benutzerspez. Traffic 1-10 | Inhalt > Benutzerspezifischer Traffic > Benutzerspez. Traffic 1-10 |
 | **Test&amp;Target** |  | Konversion > Test&amp;Target |
 | **Umfrage** |  | Zielgruppe > Survey |
 | **Marketing-Kanäle** |  |  |
-|  | Kanalübersichtsbericht | Traffic-Quellen > Marketing-Kanäle > Kanalübersichtsbericht |
-|  | Erstkontakt-Kanal | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanal |
-|  | Erstkontakt-Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanaldetail |
-|  | Letztkontakt-Kanal | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanal |
-|  | Letztkontakt-Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanaldetail |
+|   | Kanalübersichtsbericht | Traffic-Quellen > Marketing-Kanäle > Kanalübersichtsbericht |
+|   | Erstkontakt-Kanal | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanal |
+|   | Erstkontakt-Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanaldetail |
+|   | Letztkontakt-Kanal | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanal |
+|   | Letztkontakt-Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanaldetail |
 | **Mobile App** |  |  |
-|  | Übersicht Mobile Anwendung | Inhalt > Mobile Anwendung > Übersicht Mobile Anwendung |
-|  | Lebenszyklus-Berichte | Inhalt > Mobile Anwendung > Lebenszyklus-Berichte |
+|   | Übersicht Mobile Anwendung | Inhalt > Mobile Anwendung > Übersicht Mobile Anwendung |
+|   | Lebenszyklus-Berichte | Inhalt > Mobile Anwendung > Lebenszyklus-Berichte |
 | **Benutzerspezifische Berichte** |  |  |
-|  | Benutzerspezifische Berichte werden nur angezeigt, wenn Sie welche eingerichtet haben. | Benutzerspezifische Berichte |
-|  |  |  |
+|   | Benutzerspezifische Berichte werden nur angezeigt, wenn Sie welche eingerichtet haben. | Benutzerspezifische Berichte |
+|   |  |  |

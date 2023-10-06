@@ -4,9 +4,9 @@ description: Die Dimensionen und Metriken, die Reports & Analytics für die einz
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1863'
 ht-degree: 100%
 
 ---
@@ -20,9 +20,6 @@ Jeder Bericht in Reports &amp; Analytics verwendet eine bestimmte Dimension und 
 >[!NOTE]
 >
 >Ihr Berichtsmenü kann je nach den Anpassungen, die ein Administrator in Ihrer Organisation vorgenommen hat, unterschiedlich aussehen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Menüanpassung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md).
-
->[!IMPORTANT]
->Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
 
 ## Site-Metriken
 

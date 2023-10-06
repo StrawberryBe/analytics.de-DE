@@ -4,19 +4,18 @@ title: Erste Schritte mit Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 94%
+source-wordcount: '695'
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit Reports &amp; Analytics
 
-Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
+{{ra-eol}}
 
->[!IMPORTANT]
->Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
+Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
 Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Einige Beispiele für Berichte:
 

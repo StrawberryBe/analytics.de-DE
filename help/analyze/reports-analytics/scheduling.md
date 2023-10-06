@@ -6,20 +6,18 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1655'
 ht-degree: 90%
 
 ---
 
 # Berichtsplanung und -verteilung
 
-Informationen zum Planen, Herunterladen und Verteilen von Berichten.
+{{ra-eol}}
 
->[!IMPORTANT]
->Am 21. April 2022 haben wir bekannt gegeben, dass einige Funktionen für terminierte Berichte eingestellt wurden, um die zuvor angekündigte Einstellung von Reports &amp; Analytics vorzubereiten. Zu diesen Funktionen gehörte die Möglichkeit, neue Berichte sowie neue Datenextraktionen zu planen. Als Reaktion auf Kundenanfragen, die um eine Verlängerung baten, und um den Übergang weg von Reports &amp; Analytics zu erleichtern, haben wir beschlossen, den Zugriff auf diese Funktionen bis zum 31. Januar 2023 zu verlängern.
-Bitte beachten Sie, dass das Ablauffenster für Berichte und Datenextrakte weiterhin auf neun Monate begrenzt ist. Die Bereitstellung von Berichten und Datenextraktionen wird am Ende dieses Zeitraums ausgesetzt, es sei denn, der Zeitplan wird reaktiviert. [Weitere Informationen](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+Informationen zum Planen, Herunterladen und Verteilen von Berichten.
 
 Verwenden Sie die Zeitplan- und Verteilungstools, um einen Bericht zur Bereitstellung in einer Adobe Analytics-Anwendung vorzumerken, den automatischen Versand von Dateien zu prüfen und die Bereitstellung abzuändern oder zu beenden.
 

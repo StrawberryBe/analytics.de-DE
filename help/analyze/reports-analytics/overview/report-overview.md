@@ -5,9 +5,9 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '407'
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+workflow-type: tm+mt
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 100%
 Eine Einführung in die Funktionen eines Berichts, einschließlich der Symbolleiste, des Kalenders und der Detailtabelle
 
 Das folgende Beispiel zeigt einen [!UICONTROL Seitenbericht]. Die Konfigurationsoptionen können je nach ausgeführtem Bericht variieren. So sollten Sie z. B. besser die Granularität und den Seitennamen für einen Metrik-Bericht festlegen, als in einem Site-Content-Bericht [!UICONTROL Trendansicht] oder [!UICONTROL Rangansicht] auszuwählen.
-
->[!IMPORTANT]
->Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
 
 ## Beispiel für einen Seitenbericht {#section_288CC85536684C2DB184141358481EF0}
 
