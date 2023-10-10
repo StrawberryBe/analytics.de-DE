@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
 title: Abbrechen von Berichtsanforderungen im Reporting Activity Manager
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Weitere Informationen zum Reporting Activity Manager, einschließlich der wichti
 
 ## Bestimmte Anforderungen abbrechen
 
-Sie können bestimmte Anforderungen auswählen, die Sie abbrechen möchten.
+Sie können einzelne Anforderungen abbrechen, die eine große Menge an Berichtskapazität beanspruchen.
 
 1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
@@ -41,7 +41,7 @@ Sie können bestimmte Anforderungen auswählen, die Sie abbrechen möchten.
 
 1. Auswählen [!UICONTROL **Anforderungen abbrechen**].
 
-   Die [!UICONTROL **Abbrechen von x Berichtsanforderungen**] angezeigt.
+   Die [!UICONTROL **Abbrechen _x_ Berichtsanforderungen**] angezeigt.
 
 1. Im Feld Abbruchsnachricht wird die Nachricht angezeigt, die Benutzern angezeigt wird, wenn ihre Anforderungen abgebrochen werden. Eine Standardnachricht wird bereitgestellt. Sie können die Standardnachricht aktualisieren, um zusätzliche Details anzugeben.
 
@@ -76,7 +76,7 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Benutzern 
 
 1. Auswählen [!UICONTROL **Anforderungen abbrechen**].
 
-   Die [!UICONTROL **Abbrechen von x Berichtsanfragen von x Benutzern**] angezeigt.
+   Die [!UICONTROL **Abbrechen _x_ Berichtsanforderungen von x Benutzern**] angezeigt.
 
 1. Im Feld Abbruchsnachricht wird die Nachricht angezeigt, die Benutzern angezeigt wird, wenn ihre Anforderungen abgebrochen werden. Eine Standardnachricht wird bereitgestellt. Sie können die Standardnachricht aktualisieren, um zusätzliche Details anzugeben.
 
@@ -111,7 +111,7 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Projekten 
 
 1. Auswählen [!UICONTROL **Anforderungen abbrechen**].
 
-   Die [!UICONTROL **Abbrechen von x Berichtsanforderungen aus x Projekten**] angezeigt.
+   Die [!UICONTROL **Abbrechen _x_ Berichtsanforderungen aus x Projekten**] angezeigt.
 
 1. Im Feld Abbruchsnachricht wird die Nachricht angezeigt, die Benutzern angezeigt wird, wenn ihre Anforderungen abgebrochen werden. Eine Standardnachricht wird bereitgestellt. Sie können die Standardnachricht aktualisieren, um zusätzliche Details anzugeben.
 
@@ -132,6 +132,6 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Projekten 
 
 ## Erlebnis beim Zugriff auf einen abgebrochenen Bericht
 
-In Analysis Workspace wird Benutzern, die versuchen, auf einen abgebrochenen Bericht zuzugreifen, folgende Meldung angezeigt:
+In Analysis Workspace sehen Benutzer die folgende Meldung, wenn sie versuchen, auf einen Bericht zuzugreifen, der von einem Administrator abgebrochen wurde:
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
