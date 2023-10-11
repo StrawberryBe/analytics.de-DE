@@ -1,16 +1,16 @@
 ---
 description: Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
-title: Zusammenstellung der Virtual Report Suite-Komponenten
+title: Kuratierung von Komponenten der Virtual Report Suite
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 90%
 
 ---
 
-# Zusammenstellung der Virtual Report Suite-Komponenten
+# Kuratierung von Komponenten der Virtual Report Suite
 
 Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
 
@@ -20,14 +20,14 @@ Hier finden Sie ein Video zur Kuratierung von Komponenten:
 
 >[!NOTE]
 >
->Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](/help/analyze/analysis-workspace/curate-share/curate.md) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
+>Es wurden Änderungen daran vorgenommen, welche Komponenten Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites sehen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](/help/analyze/analysis-workspace/curate-share/curate.md) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
 
 So ermöglichen Sie die Kuratierung von Komponenten:
 
-1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Neue Virtual Report Suite erstellen]**.
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Neue Virtual Report Suite erstellen]**.
 1. Wenn Sie die **[!UICONTROL Einstellungen]** festgelegt haben, klicken Sie auf die Registerkarte **[!UICONTROL Komponenten]**.
 
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Benutzerdefinierte Anpassung von Komponenten virtueller Report Suites aktivieren]**:
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Aktivieren der Anpassung von Virtual Report Suite-Komponenten]**:
 
    ![](assets/vrs-enable.png)
 
@@ -40,7 +40,6 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* Analytics-Reporting-API
-
 
    Nach der Aktivierung können Sie die in die Virtual Report Suite einzubeziehenden Komponenten hinzufügen, indem Sie die betreffenden Komponenten aus der Spalte „ausgeschlossene Komponenten“ in die Spalte „eingeschlossene Komponenten“ ziehen. Die ein- und ausschließbaren Komponenten lauten wie folgt:
 

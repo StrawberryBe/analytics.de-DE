@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -102,7 +102,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Warum wird in meinem Analytics-Bericht „Zielgruppenlimit erreicht“ angezeigt? (Hinweis: Dies wird in Data Warehouse auch als Audience ID = -1 und „::max_audiences_exceeded::“ dargestellt)</b> </p> </td> 
-   <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle , für die sich ein Besucher pro Treffer qualifiziert, an Analytics. Wenn ein Besucher bei einem einzelnen Treffer zu mehr als 150 Adobe Audience Manager-Segmenten gehört, wird die <b>150 zuletzt qualifizierte Segmente</b> werden an Analytics gesendet, während die verbleibende Liste abgeschnitten ist. </p> <p>Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen: </p> 
+   <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle-Segmente, für die sich ein Besucher pro Treffer qualifiziert, an Analytics. Wenn ein Besucher bei einem einzelnen Treffer zu mehr als 150 Adobe Audience Manager-Segmenten gehört, wird die <b>150 zuletzt qualifizierte Segmente</b> werden an Analytics gesendet, während die verbleibende Liste abgeschnitten ist. </p> <p>Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Lassen Sie die Integration weiterhin im Out-of-the-Box-Zustand arbeiten und die 150 Segmente eines bestimmten Benutzers senden, für die dieser sich zuletzt qualifiziert hat. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: Wählen Sie in Adobe Audience Manager die 150 Segmente aus, die für Ihr Unternehmen für die Integration am wichtigsten sind. Adobe Audience Manager überprüft dann Besucher nur anhand der 150 Segmente. Der Nachteil dieser Vorgehensweise ist, dass Sie bei allen Besuchern nur noch diese 150 Segmente erhalten. Dahingegen liefert die Vorgehensweise in Option 1 dadurch, dass die Integration pro Treffer Segmente sendet, eine unbegrenzte Anzahl an Segmenten. </li> 
@@ -141,11 +141,11 @@ Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serv
    <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen "Zielgruppen"in Adobe Audience Manager und "Segmenten"in Analytics?</b> </p> </td> 
+   <td colname="col1"> <p><b>F: Worin besteht der Unterschied zwischen "Zielgruppen"in Adobe Audience Manager und "Segmenten"in Analytics?</b> </p> </td> 
    <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmente in Analytics und Audience Manager - Grundlagen </a>. </p> <p>Adobe Audience Manager-Zielgruppen werden gesendet und als "Dimensionskomponenten"freigegeben, die in Analytics verwendet werden können. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen Kundenattributen und in Adobe Audience Manager integrierten Kundendaten?</b> </p> </td> 
+   <td colname="col1"> <p><b>F: Worin besteht der Unterschied zwischen Kundenattributen und in Adobe Audience Manager integrierten Kundendaten?</b> </p> </td> 
    <td colname="col2"> <p>Kundenattribute sind nicht zeitbasiert; sie gelten rückwirkend und zukünftig. Adobe Audience Manager-integrierte Daten sind zeitbasiert und nur zukünftig verfügbar. Darüber hinaus sind Kundenattribute eine Suchtabelle für Experience Cloud-Besucher-IDs, während die Adobe Audience Manager-Integration Daten enthält, die bei jedem Treffer für einen Besucher zugeordnet werden. </p> </td> 
   </tr> 
   <tr> 

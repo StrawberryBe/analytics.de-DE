@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 96%
+source-wordcount: '758'
+ht-degree: 93%
 
 ---
 
@@ -219,9 +219,9 @@ ht-degree: 96%
    + [Kontextbezogene Sitzungen](vrs/vrs-mobile-visit-processing.md)
    + [Berichtszeitverarbeitung](vrs/vrs-report-time-processing.md)
    + [A4T-Überlegungen](vrs/vrs-a4t.md)
-   + [Häufig gestellte Fragen zu VRS](vrs/vrs-faq.md)
-   + [VRSs und Überlegungen zum globalen Tagging/Multi-Suite-Tagging](vrs/vrs-considerations.md)
-   + VRS-Workflow {#vrs-workflow}
+   + [Häufig gestellte Fragen zu Virtual Report Suites](vrs/vrs-faq.md)
+   + [Virtual Report Suites und Überlegungen zum globalen/Multisuite-Tagging](vrs/vrs-considerations.md)
+   + Virtual Report Suite – Workflow {#vrs-workflow}
       + [Virtual Report Suite – Workflow](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Virtual Report Suites erstellen](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtual Report Suites verwalten](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 96%
    + [Geräteübergreifende Analyse einrichten](cda/setup.md)
    + [Funktionsweise der Wiederholung](cda/replay.md)
    + [CDA Workspace-Vorlage](cda/workspace-template.md)
-   + [VRS auf bestimmte Daten beschränken](cda/limit-vrs-date.md)
+   + [Eine Virtual Report Suite auf bestimmte Daten beschränken](cda/limit-vrs-date.md)
    + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/faq.md)
 + Warnhinweise {#alerts}
    + [Intelligente Warnhinweise](c-alerts/intellligent-alerts.md)

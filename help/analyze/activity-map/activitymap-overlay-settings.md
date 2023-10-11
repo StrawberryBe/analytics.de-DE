@@ -5,7 +5,7 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 50%
@@ -25,7 +25,7 @@ Rufen Sie das Activity Map-Einstellungsbedienfeld durch Klicken auf das Zahnrads
 | Einstellung | Beschreibung |
 | --- | --- |
 | **[!UICONTROL Unternehmen]** | Wählen Sie die entsprechende Unternehmensanmeldung aus. |
-| **[!UICONTROL Report Suite]** | Die für Sie verfügbare Liste mit Report Suites ist nicht mehr beschränkt auf die im Web-Seiten-Tag definierten Report Suites. Sie können nun die ausgewählte Report Suite (die zu einem der Tags auf der Seite gehört) durch eine andere Report Suite ersetzen. Diese neue Report Suite muss nicht mit einem Tag auf der Seite verbunden sein. Wenn Sie die ausgewählte Report Suite in den Activity Map-Einstellungen ändern, werden beim Speichern alle betroffenen Analytics-Berichte aktualisiert.<br>**Wichtig**: [!UICONTROL Virtual Report Suites] sind nicht kompatibel mit [!UICONTROL Livemodus], nur mit [!UICONTROL Standardmodus]. Wenn Sie [!UICONTROL Livemodus] für eine Standard-Report Suite, aber wählen Sie eine [!UICONTROL Virtual Report Suite] in diesem Dialogfeld, sobald Sie auf **[!UICONTROL OK]** hier wird der Standardmodus angezeigt. Darüber hinaus wird das Kalendersteuerelement neu initialisiert, um dem Kalendertyp der Report Suite (Gregorianisch, Einzelhandel, benutzerdefiniert..) zu entsprechen. |
+| **[!UICONTROL Report Suite]** | Die für Sie verfügbare Liste mit Report Suites ist nicht mehr beschränkt auf die im Web-Seiten-Tag definierten Report Suites. Sie können nun die ausgewählte Report Suite (die zu einem der Tags auf der Seite gehört) durch eine andere Report Suite ersetzen. Diese neue Report Suite muss nicht mit einem Tag auf der Seite verbunden sein. Wenn Sie die ausgewählte Report Suite in den Activity Map-Einstellungen ändern, werden beim Speichern alle betroffenen Analytics-Berichte aktualisiert.<br>**Wichtig**: [!UICONTROL Virtual Report Suites] sind nicht kompatibel mit [!UICONTROL Livemodus], nur mit [!UICONTROL Standardmodus]. Wenn Sie [!UICONTROL Livemodus] für eine Standard-Report Suite, aber wählen Sie eine [!UICONTROL Virtual Report Suite] in diesem Dialogfeld, sobald Sie auf **[!UICONTROL OK]** hier wird der Standardmodus angezeigt. Darüber hinaus wird das Kalendersteuerelement neu initialisiert, um dem Kalendertyp der Report Suite (Gregorianisch, Einzelhandel, Benutzerdefiniert..) zu entsprechen. |
 | **[!UICONTROL Seitenname]** | Die Seite, auf die diese Einstellungen angewendet werden. |
 | **[!UICONTROL Sprache]** | Die Auswahl entspricht den angebotenen Sprachen für Adobe Analytics. |
 | **[!UICONTROL Overlays bezeichnen als]** | <ul><li>**[!UICONTROL Kein Label]**: nur für Verlaufsüberlagerungen In diesem Fall vermittelt die Farbe der Überlagerung einen Sinn für den Rang des Links</li><li>**[!UICONTROL Wert]**: Der unverarbeitete Gesamtwert der Metrik für den Link</li><li>**[!UICONTROL Prozent]**: Prozentsatz der Metrik für diesen Link im Vergleich zum Gesamtwert der Metrik für die Seite.</li><li>**[!UICONTROL Rang]**: Rang dieses Links im Vergleich zu allen Links auf der gerenderten Seite</li></ul> |
@@ -53,7 +53,7 @@ Diese Einstellungen gelten für die Überlagerung im Livemodus.
 
 | Einstellung | Beschreibung |
 |---|---|
-| **[!UICONTROL Anzeige oben]** | So zeigen Sie die **[!UICONTROL Gewinner]** oder **[!UICONTROL Verlierer]** (oder beides) als Überlagerungen festlegen, wählen Sie die Anzahl der Links aus. |
+| **[!UICONTROL Anzeige oben]** | So zeigen Sie **[!UICONTROL Gewinner]** oder **[!UICONTROL Verlierer]** (oder beides) als Überlagerungen die Anzahl der Links auswählen. |
 | **[!UICONTROL Unterste ausschließen (%)]** | Wählen Sie diese Option, um Links für Gewinner oder Verlierer auszuschließen, für die wenig Daten vorhanden sind. Wenn Sie diesen Prozentsatz der Links ausschließen, werden nur noch die Links angezeigt, für die genug Daten vorhanden sind, um relevante Gewinne oder Verluste anzuzeigen. Der Prozentsatz wird anhand der Anzahl der Links auf der Seite berechnet. Wenn Sie beispielsweise die unteren 10 % einer Liste mit 200 Links herausfiltern, werden die unteren 20 Links herausgefiltert. |
 | **[!UICONTROL Automatische Aktualisierung von Daten]** | Hier können Sie entscheiden, ob die in der Benutzeroberfläche angezeigten Analytics-Daten bei der Berechnung eines neuen Zeitraums automatisch aktualisiert werden. |
 | **[!UICONTROL Zeitraum für automatische Aktualisierung]** | Wenn dieses Kontrollkästchen aktiviert wird, wird die Webseite jedes Mal aktualisiert, wenn neue Daten abgerufen werden. Dadurch können die Links auf der Seite genauer mit den erfassten Daten synchronisiert werden. |

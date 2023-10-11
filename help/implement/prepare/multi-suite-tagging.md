@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Multi-Suite-Tagging implementieren, um Bildan
 title: Implementieren von Multi-Suite-Tagging
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -36,4 +36,4 @@ Multi-Suite-Tagging führt zu mehreren Server-Aufrufen für jede Bildanforderung
 
 Die Verwendung von Virtual Report Suites anstelle von Multi-Suite-Tagging ist häufig eine Best Practice, aber der beste Report Suite-Ansatz für Ihre Organisation hängt von Ihren Geschäftsanforderungen ab.
 
-Informationen dazu, ob Virtual Report Suites Ihr bestmöglicher Ansatz sind, finden Sie unter [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md). Siehe auch [Virtual Report Suites vs. Multi-Suite-Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) mit einem Vergleich von Multi-Suite-Tagging und Virtual Report Suite-Funktionalität.
+Informationen dazu, ob Virtual Report Suites Ihr bestmöglicher Ansatz sind, finden Sie unter [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md). Siehe auch &quot;[Virtual Report Suites vs. Multi-Suite-Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;, um einen Vergleich von Multi-Suite-Tagging und Virtual Report Suite-Funktionen anzuzeigen.

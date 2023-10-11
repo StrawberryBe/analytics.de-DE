@@ -3,10 +3,10 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 95%
+source-wordcount: '432'
+ht-degree: 91%
 
 ---
 
@@ -34,8 +34,8 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 | **Kohortenanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Nein | Nein | Nein | Ja | Nein | Nein |
 | **Attribution** | Ja, mit [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Begrenzt | Begrenzt | Nein | Ja | Nein | Ja, mit [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Virtual Analyst-Funktionen** <br> [Weitere Infos](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Ja | Nein | Nein | Nein | Nein | Nein | Ja |
-| **Kuratierung** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja – Projekt und VRS | Nein | Nein | Nein | Nein | Nein | Ja – nur VRS |
+| **Kuratierung** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja - Projekt und Virtual Report Suite | Nein | Nein | Nein | Nein | Nein | Ja - nur Virtual Report Suite |
 | **Projektfreigabe** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, mit Projektrollen | Ja | Ja | Nein | Ja | Nein | Nein |
 | **Geplanter Versand** | Ja | Ja | Ja | Ja | Nein | Ja | Nein |
 | **Versandziele** | E-Mail | E-Mail | E-Mail, FTP, SFTP, [Veröffentlichung auf Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC und Email | – | Amazon S3, Azure RBAC, Azure SAS und Google Cloud Platform | – |
-| **VRS-Berichtszeitverarbeitung** <br> [Weitere Infos](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nein | Nein | Nein | Nein | Nein | Ja |
+| **Zeitverarbeitung der Virtual Report Suite-Report Suite** <br> [Weitere Informationen](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nein | Nein | Nein | Nein | Nein | Ja |

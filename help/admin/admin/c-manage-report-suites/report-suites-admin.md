@@ -3,10 +3,10 @@ description: Eine Report Suite definiert die vollständige, unabhängige Bericht
 title: Report Suite Manager
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONT
 
 >[!NOTE]
 >
->Virtual Report Suites werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der [Dokumentation zu Virtual Report Suites](/help/components/vrs/vrs-about.md).
+>Virtual Report Suites werden über verwaltet **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]**. Weitere Informationen finden Sie unter [Dokumentation zu Virtual Report Suites](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager-Beschreibungen {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -66,7 +66,7 @@ Die folgende Tabelle beschreibt die Elemente auf der Seite [!UICONTROL Report Su
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Datenaggregationen</span> </td> 
-   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Rückverfolgungsdaten verschiedener anderer Report Suites kombiniert. </p> <p>Siehe  <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Datenaggregations-Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Rückverfolgungsdaten verschiedener anderer Report Suites kombiniert. </p> <p>Siehe <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Datenaggregations-Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Einstellungen bearbeiten</span> </td> 

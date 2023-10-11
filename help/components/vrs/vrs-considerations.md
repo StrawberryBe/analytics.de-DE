@@ -1,27 +1,27 @@
 ---
 description: Virtual Report Suites und Multisuite-Tagging bieten unterschiedliche Vorteile. Erfahren Sie, welche die beste Lösung für Ihr Unternehmen ist.
-keywords: Virtual Report Suite, VRS
+keywords: Virtual Report Suite
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1766'
+ht-degree: 86%
 
 ---
 
 # Virtual Report Suites und Multisuite-Tagging
 
-Mit Virtual Report Suites werden Daten einer Report Suite angezeigt, die in Ihren digitalen Properties erfasst werden, aber über ein dauerhaft zugewiesenes Segment verfügen.
+Mit Virtual Report Suites können Sie Daten aus einer Report Suite anzeigen, die Daten aus Ihren digitalen Eigenschaften erfasst, jedoch mit einem dauerhaft angewendeten Segment.
 
 In vielen Fällen können Sie Virtual Report Suites verwenden, um Multi-Suite-Tagging zu ersetzen. Durch den Wechsel zu Virtual Report Suites kann die Notwendigkeit [sekundärer Server-Aufrufe](/help/admin/admin/c-server-call-usage/overage-overview.md) effektiv beseitigt werden. Ihre Organisation verfügt beispielsweise über 6 verschiedene Websites, von denen jede Daten an ihre eigene Report Suite sowie eine kombinierte globale Report Suite sendet. Jede Site erhält einen sekundären Server-Aufruf, einen an die Report Suite der jeweiligen Marken und einen zweiten an die globale Report Suite. Stattdessen können Sie Daten von allen Sites ausschließlich an die globale Report Suite senden und dann mehrere Virtual Report Suites verwenden, um die Marken voneinander zu trennen.
 
-Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suites ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und die Anzahl der Server-Aufrufe reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen für Virtual Report Suites. Die folgenden Richtlinien sollen Ihnen bei der Entscheidung helfen, ob auf einer globalen Report Suite erstellte Virtual Report Suites der richtige Ansatz für Sie sind.
+Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suite ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und den Verbrauch von Server-Aufrufen reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen bei Virtual Report Suites. Die folgenden Richtlinien sollen Ihnen bei der Entscheidung helfen, ob auf einer globalen Report Suite erstellte Virtual Report Suites der richtige Ansatz für Sie sind.
 
 ## Richtlinien
 
-Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an Ihre anderen Adobe Analytics-Administratoren oder an Ihr Adobe Account Team. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
+Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an Ihre anderen Adobe Analytics-Administratoren oder Ihr Adobe-Account-Team. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
 
 Berücksichtigen Sie bei der Entscheidung, ob Sie Multi-Suite-Tagging oder Virtual Report Suites verwenden sollten, folgende Aspekte:
 
@@ -55,13 +55,13 @@ Stellen Sie sicher, dass die Anzahl der eindeutigen Dimensionen und Metriken in 
 
 >[!TIP]
 >
->Mit der Einführung der [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede einzelne Virtual Report Suite ändern.
+>Mit der Einführung von [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md)können Sie den Namen einer bestimmten Dimension oder Metrik für jede Virtual Report Suite ändern.
 
 ### Segmentierungsnuancen
 
 Eine Virtual Report Suite ist im Grunde genommen ein Segment, das auf eine Report Suite angewendet wird. Besuchs- und besucherbasierte Dimensionen können zu nicht intuitiven Berichtsergebnissen führen.
 
-Sie haben beispielsweise zwei Websites, A und B, die beide Daten an eine globale Report Suite senden. Einige Besucher wechseln unweigerlich von Site A zu Site B, und diese Bewegung von der einen zur anderen Site ist im Pathing der globalen Report Suite sichtbar. Wenn Sie Virtual Report Suites für die Sites A und B erstellen, wird bei einem Besuch, der auf Site A begonnen und auf Site B geendet hat, keine Entrypage in VRS B angezeigt. Die Entrypage für diesen Besuch hat auf Site A begonnen, die aus der Virtual Report Suite segmentiert ist.
+Sie haben beispielsweise zwei Websites, A und B, die beide Daten an eine globale Report Suite senden. Einige Besucher wechseln unweigerlich von Site A zu Site B, und diese Bewegung von der einen zur anderen Site ist im Pathing der globalen Report Suite sichtbar. Wenn Sie Virtual Report Suites für die Sites A und B erstellen, wird bei einem Besuch, der auf Site A begann und auf Site B endete, keine Entrypage in Virtual Report Suite B angezeigt. Die Entrypage für diesen Besuch begann auf Site A, die aus der Virtual Report Suite segmentiert ist.
 
 ### Währungsumrechnung
 
@@ -83,7 +83,7 @@ Beispielsweise ist pro Report Suite nur ein Google DCM zulässig. Viele Unterneh
 
 ### Zusammenfassungsdatenquellen
 
-Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von Zusammenfassungsdatenquellen aggregierte Metriken *ohne Besucher-ID* enthalten, können sie nicht in Containern des Typs [!UICONTROL Besuch] und [!UICONTROL Besucher] segmentiert werden. Da VRS mit Segmentierung arbeitet, sind Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites nicht verfügbar, wenn das Segment mit einem Container des Typs „Besuch“ oder „Besucher“ erstellt wurde.
+Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von Zusammenfassungsdatenquellen aggregierte Metriken *ohne Besucher-ID* enthalten, können sie nicht in Containern des Typs [!UICONTROL Besuch] und [!UICONTROL Besucher] segmentiert werden. Da Virtual Report Suite mit Segmentierung arbeitet, sind Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites nicht verfügbar, wenn das Segment mit einem Besuchs- oder Besucherbehälter erstellt wurde.
 
 Zusammenfassungsdatenquellen werden in der virtuellen Report Suite angezeigt, wenn ein Treffer-Container verwendet wird und dieser Treffer-Container Regeln enthält, die aufgrund ihrer Bedingungen die Informationen zur Datenquelle einschließen.
 
@@ -91,7 +91,7 @@ Zusammenfassungsdatenquellen werden in der virtuellen Report Suite angezeigt, we
 >
 >Datenquellen mit vollständiger Verarbeitung unterstützen die Segmentierung und können in Virtual Report Suites verwendet werden.
 
-## Schritte, die bei der Verwendung von Virtual Report Suites zu befolgen sind
+## Schritte, die bei Verwendung der Virtual Report Suite ausgeführt werden müssen
 
 Wenn Sie sich dafür entscheiden, sekundäre Server-Aufrufe zugunsten von Virtual Report Suites zu entfernen:
 

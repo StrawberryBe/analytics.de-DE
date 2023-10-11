@@ -3,10 +3,10 @@ title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace zielgruppenbasierte Berichte erstellen.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,9 +59,9 @@ Der Nutzer-Explorer-Bericht ermöglicht es Analysten, einzelne Besuche über ano
 
 Demografie- und Interessendaten liefern Informationen über Alter, Geschlecht und Interessen der Site-Anwender. Diese Daten werden von Google über Site-übergreifende Tracking-Funktionen erfasst.
 
-Demografie- und Interessensdaten werden von Adobe nicht automatisch erfasst. Wenn Ihr Unternehmen diese Daten jedoch erhält, können Sie hierfür Kundenattribute verwenden, eine Funktion innerhalb der Adobe Experience Cloud-Platform. Sie ermöglicht die vollständige Kontrolle über die Organisation der Daten nach Attributen und ist nicht auf Demografie oder Interessen beschränkt.
+Demografie- und Interessensdaten werden von Adobe nicht automatisch erfasst. Wenn Ihr Unternehmen diese Daten jedoch erhält, können Sie Kundenattribute verwenden, eine Funktion innerhalb der Adobe Experience Cloud-Plattform. Sie ermöglicht die vollständige Kontrolle über die Organisation der Daten nach Attributen und ist nicht auf Demografie oder Interessen beschränkt.
 
-Weitere Informationen finden Sie in der Hilfe zu Kundenattributen.
+Weitere Informationen finden Sie in der Hilfe zu Kundenattributen .
 
 ## Geografie – Sprache
 

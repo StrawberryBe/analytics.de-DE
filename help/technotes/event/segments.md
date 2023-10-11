@@ -3,9 +3,9 @@ title: Ausschließen spezifischer Daten in der Analyse
 description: Tipps zum Ausschließen von Datumsangaben oder Datumsbereichen, wenn Sie sie nicht in Berichte aufnehmen möchten.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Event, Segmentation
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -73,12 +73,12 @@ Sie können das Segment &quot;Betroffene Tage ausschließen&quot;auf ein Workspa
 
 ### Verwenden des Ausschlusssegments in einer Virtual Report Suite {#use-vrs}
 
-Sie können das Segment in einem [Virtual Report Suite](/help/components/vrs/vrs-about.md) um die Daten leichter auszuschließen. Diese Option ist optimal, da Sie nicht daran denken müssen, das Segment auf jeden Bericht anzuwenden, der den betroffenen Datumsbereich enthält. Wenn Sie Virtual Report Suites bereits als primäre Datenquelle verwenden, können Sie das Segment zu einer vorhandenen VRS hinzufügen.
+Sie können das Segment in einem [Virtual Report Suite](/help/components/vrs/vrs-about.md) um die Daten leichter auszuschließen. Diese Option ist optimal, da Sie nicht daran denken müssen, das Segment auf jeden Bericht anzuwenden, der den betroffenen Datumsbereich enthält. Wenn Sie Virtual Report Suites bereits als primäre Datenquelle verwenden, können Sie das Segment zu vorhandenen Virtual Report Suites hinzufügen.
 
 1. Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]**.
 2. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 3. Geben Sie den gewünschten Namen und die Beschreibung für die Virtual Report Suite ein.
 4. Ziehen Sie das Ausschlusssegment in den Bereich mit der Bezeichnung **[!UICONTROL Segment hinzufügen]**.
-5. Klicken **[!UICONTROL Weiter]** oben rechts und klicken Sie dann auf **[!UICONTROL Speichern]**.
+5. Klicks **[!UICONTROL Weiter]** oben rechts und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-![Auf VRS angewendetes Segment](assets/exclude_segment_vrs.png)
+![Segment, das auf Virtual Report Suite angewendet wird](assets/exclude_segment_vrs.png)

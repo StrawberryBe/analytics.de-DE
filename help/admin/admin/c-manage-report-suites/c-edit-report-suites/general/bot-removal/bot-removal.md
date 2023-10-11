@@ -3,10 +3,10 @@ title: Entfernen von Bots in Adobe Analytics
 description: Entfernen von Bots in Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -71,9 +71,9 @@ Denken Sie daran, die Experience Cloud-Besucher-ID als Dimension zu verwenden un
 Sobald der Data Warehouse-Bericht eintrifft, verfügen Sie über eine Liste der ECIDs, die aus historischen Daten gefiltert werden müssen. Kopieren Sie diese ECIDs und fügen Sie sie in eine leere .CSV-Datei mit nur zwei Spalten, „ECID“ und „Bot Flag“, ein.
 
 * **ECID**: Stellen Sie sicher, dass diese Spaltenüberschrift mit dem Namen übereinstimmt, den Sie für die neue deklarierte ID oben angegeben haben.
-* **Bot Flag**: Fügen Sie dies als Schema-Dimension für Kundenattribute hinzu.
+* **Bot Flag**: Fügen Sie &quot;Bot Flag&quot;als Schema-Dimension für Kundenattribute hinzu.
 
-Verwenden Sie diese .CSV-Datei als Importdatei für Kundenattribute und melden Sie dann Ihre Report Suites für das Kundenattribut an, wie in diesem [Blogpost](https://theblog.adobe.com/link-digital-behavior-customers) beschrieben.
+Verwenden Sie diese .CSV-Datei als Importdatei für Kundenattribute und abonnieren Sie dann Ihre Report Suites für das Kundenattribut, wie in diesem Abschnitt beschrieben. [Blogpost](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -85,11 +85,11 @@ Nachdem Ihr Datensatz verarbeitet und in Analysis Workspace integriert wurde, er
 
 ### Schritt 6: Dieses Segment als Virtual Report Suite-Filter verwenden
 
-Erstellen Sie abschließend eine [Virtual Report Suite](/help/components/vrs/vrs-about.md), die dieses Segment nutzt, um die identifizierten Bots auszufiltern:
+Erstellen Sie abschließend eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) , das dieses Segment verwendet, um die identifizierten Bots herauszufiltern:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
-Diese neu segmentierte Virtual Report Suite führt nun zu einem deutlich saubereren Datensatz, aus dem die identifizierten Bots entfernt wurden.
+Diese neu segmentierte Virtual Report Suite führt jetzt zu einem saubereren Datensatz, wobei die identifizierten Bots entfernt werden.
 
 ### Schritt 7: Schritte 2, 3 und 4 regelmäßig wiederholen
 

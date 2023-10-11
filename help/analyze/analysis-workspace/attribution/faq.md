@@ -4,10 +4,10 @@ description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 73%
+source-wordcount: '1222'
+ht-degree: 71%
 
 ---
 
@@ -126,7 +126,7 @@ Metadatendimensionen wie Übereinstimmungstyp und Keyword funktionieren mit Attr
 
 +++## Wie funktioniert die Attribution bei Marketing-Kanälen?
 
-Als Marketing-Kanäle eingeführt wurden, hatten sie nur die Dimensionen „Erstkontakt“ und „Letztkontakt“. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe bietet allgemeine [!UICONTROL Marketingkanal] und [!UICONTROL Marketingkanaldetails] -Dimensionen, damit Sie sie mit Ihrem gewünschten Attributionsmodell verwenden können. Diese allgemeinen Dimensionen verhalten sich identisch mit [!UICONTROL Letztkontakt-Kanal] -Dimensionen, sind jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Attributionsmodell zu vermeiden.
+Als Marketing-Kanäle eingeführt wurden, hatten sie nur die Dimensionen „Erstkontakt“ und „Letztkontakt“. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe bietet generische [!UICONTROL Marketingkanal] und [!UICONTROL Marketingkanaldetails] -Dimensionen, damit Sie sie mit Ihrem gewünschten Attributionsmodell verwenden können. Diese allgemeinen Dimensionen verhalten sich identisch mit [!UICONTROL Letztkontakt-Kanal] -Dimensionen, sind jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Attributionsmodell zu vermeiden.
 
 Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition abhängen (wie in den Verarbeitungsregeln definiert), kann ihre Besuchsdefinition nicht mit Virtual Report Suites geändert werden.
 
@@ -146,7 +146,7 @@ Wenn die Attribution auf Hits mit mehreren Werten angewendet wird, erhalten alle
 
 Die Attribution wird immer vor der Segmentierung ausgeführt und die Segmentierung wird ausgeführt, bevor Berichtsfilter angewendet werden. Dieses Konzept gilt auch für Virtual Report Suites, die Segmente verwenden.
 
-Wenn Sie z. B. eine VRS mit angewendetem Segment „Hits anzeigen“ erstellen, können Sie mithilfe einiger Attributionsmodelle andere Kanäle in einer Tabelle sehen.
+Wenn Sie beispielsweise eine Virtual Report Suite mit einem angewendeten Segment &quot;Treffer anzeigen&quot;erstellen, können Sie mithilfe einiger Attributionsmodelle andere Kanäle in einer Tabelle sehen.
 
 ![Schreibgeschützte Virtual Report Suite](assets/vrs-aiq-example.png)
 

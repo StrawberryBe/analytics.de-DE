@@ -5,10 +5,10 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
-source-wordcount: '8267'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '8268'
+ht-degree: 99%
 
 ---
 
@@ -196,7 +196,7 @@ Am 1. November 2018 veröffentlichte neue Funktionen und Verbesserungen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| [VRS und Projektkuratierung – Verbesserungen](/help/analyze/analysis-workspace/curate-share/curate.md) | Diese Änderungen wurden bereits im Oktober 2018 eingeführt. Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. <br> Vor dieser Änderung konnten alle Benutzer nicht kuratierte Komponenten anzeigen, und zwar durch Klicken auf „Alle Komponenten anzeigen“. Die aktualisierte Kuratierungserfahrung bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.</br> |
+| [Virtual Report Suite und Projektkuratierung - Verbesserungen](/help/analyze/analysis-workspace/curate-share/curate.md) | Diese Änderungen wurden bereits im Oktober 2018 eingeführt. Es wurden Änderungen daran vorgenommen, welche Komponenten Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites sehen können. <br> Vor dieser Änderung konnten alle Benutzer nicht kuratierte Komponenten anzeigen, und zwar durch Klicken auf „Alle Komponenten anzeigen“. Die aktualisierte Kuratierungserfahrung bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.</br> |
 
 ## Oktober 2018
 
@@ -537,7 +537,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr>
   <tr>
    <td colname="col1"> <p>Änderungen in Bezug auf „event#“, „eVar#“ und „prop#“ </p> </td>
-   <td colname="col2"> <p>Die 2017 in der linken Leiste zu den Namen der Dimensionen hinzugefügten Variablen „event#“, „eVar#“ und „prop#“ werden nur dann angezeigt, wenn Sie nach der Komponente <b>suchen</b>. </p> <p>(Dies gilt auch für den Virtual Report Suite-Builder.) </p> </td>
+   <td colname="col2"> <p>Die 2017 in der linken Leiste zu den Namen der Dimensionen hinzugefügten Variablen „event#“, „eVar#“ und „prop#“ werden nur dann angezeigt, wenn Sie nach der Komponente <b>suchen</b>. </p> <p>(Gilt auch für Virtual Report Suite Builder.) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Änderungen in Bezug auf „Keine“/„Nicht angegeben“ </p> </td>

@@ -1,24 +1,24 @@
 ---
-title: VRS auf bestimmte Daten beschränken
-description: Verstehen Sie, wie Sie einen VRS-Datumsbereich so beschränken, dass er sich nur auf zusammengefügte Daten konzentriert.
+title: Eine Virtual Report Suite auf bestimmte Daten beschränken
+description: Erfahren Sie, wie Sie den Datumsbereich einer Virtual Report Suite so einschränken, dass er sich nur auf zugeordnete Daten konzentriert.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 82%
+source-wordcount: '275'
+ht-degree: 35%
 
 ---
 
-# VRS auf bestimmte Daten beschränken
+# Eine Virtual Report Suite auf bestimmte Daten beschränken
 
-Wenn wir das Zusammenfügen von Daten einschalten, beginnt dieses Zusammenfügen an einem bestimmten Datum. Angenommen, dieses Datum ist der 1. Juni. Die CDA-VRS enthält Daten von vor dem 1. Juni, die noch nicht zusammengefügt wurden. Eventuell möchten Sie Daten in der VRS vor dem 1. Juni ausblenden, damit sich Ihre Analyse auf Datumsbereiche nach dem Beginn des Zusammenfügens konzentrieren kann.
+Wenn wir das Zusammenfügen von Daten einschalten, beginnt dieses Zusammenfügen an einem bestimmten Datum. Angenommen, dieses Datum ist der 1. Juni. Die Virtual Report Suite der geräteübergreifenden Analyse enthält nicht zugeordnete Daten aus dem Zeitraum vor dem 1. Juni. Möglicherweise möchten Sie Daten aus der Virtual Report Suite vor dem 1. Juni ausblenden, damit sich Ihre Analyse nach dem Stitching auf Datumsbereiche konzentrieren kann.
 
-Sie können die VRS-Daten wie folgt auf bestimmte Datumsbereiche beschränken:
+Sie können die Virtual Report Suite-Daten auf bestimmte Daten beschränken, indem Sie Folgendes ausführen:
 
-## Schritt 1: Erstellen einer VRS mit einem rollierenden täglichen Datumsbereich
+## Schritt 1: Virtual Report Suite mit einem rollierenden täglichen Datumsbereich erstellen
 
-Wenn Sie die VRS einrichten, fügen Sie unter „Komponenten“ einen Datumsbereich mit festem Beginn und einem täglich rollierenden Datumsbereich hinzu. Der feste Beginn sollte der Tag sein, an dem das Zusammenfügen begann.
+Wenn Sie die Virtual Report Suite einrichten, fügen Sie unter &quot;Komponenten&quot;einen Datumsbereich mit festem Start und einem rollierenden täglichen Datumsbereich hinzu. Der feste Beginn sollte der Tag sein, an dem das Zusammenfügen begann.
 
 ![](assets/rolling-daily.png)
 
@@ -30,7 +30,7 @@ Der Grund für den Ausschluss ist, dass Datumsbereiche den Datumsbereich des Ber
 
 ![](assets/exclude-exclude.png)
 
-## Schritt 3: Dieses Segment auf Ihre CDA VRS anwenden
+## Schritt 3: Dieses Segment auf Ihre geräteübergreifende Analytics Virtual Report Suite anwenden
 
 ![](assets/apply-segment.png)
 

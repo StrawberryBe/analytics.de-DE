@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zu Advertising Analytics.
 title: Häufig gestellte Fragen zu Werbeanalysen
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1419'
+ht-degree: 92%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 99%
    <td colname="col2"> <p>A: Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die entsprechende Suite <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >für Advertising Analytics-Reporting bereitgestellt</a> werden. </p> <p>Dies erledigen Sie über eine separate Admin-Seite, die Sie wie folgt öffnen können: <span class="ignoretag"> <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">[Experience Cloud-fähige Report Suite auswählen]</span> &gt; <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Advertising Analytics-Konfiguration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>F: Ist es möglich, einem Advertising Analytics-Konto eine <b>Virtual Report Suite</b> (VRS) zuzuweisen? </p> </td> 
-   <td colname="col2"> <p>A: Virtual Report Suites erfassen keine Daten. Deshalb können Sie ein Advertising Analytics-Konto nicht direkt einer VRS zuweisen. </p> <p>Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der VRS zuweisen, zu der die Daten hinzugefügt werden sollen. </p> <p>Die Suchmaschinenmetriken (Klicks/Kosten/Impressionen) werden unter Umständen nur dann in der VRS angezeigt, wenn Sie eine „oder“-Bedingung in Ihre Segmentlogik auf der Grundlage der AMO-ID (oder ihrer Classification) aufnehmen. Beispiel: Durch das Hinzufügen von „alle Treffer, bei denen eine AMO-ID existiert“ werden die Suchmaschinenmetriken in das Segment aufgenommen. </p> </td> 
+   <td colname="col1"> <p>F: Ist es möglich, eine <b>Virtual Report Suite</b> zu einem Advertising Analytics-Konto? </p> </td> 
+   <td colname="col2"> <p>A: Virtual Report Suites erfassen keine Daten, sodass Sie ein Advertising Analytics-Konto nicht direkt einer Virtual Report Suite zuordnen können. </p> <p>Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der Virtual Report Suite zuordnen, in der die Daten angezeigt werden sollen. </p> <p>Die Suchmaschinenmetriken (Klicks/Kosten/Impressionen) werden möglicherweise nicht in der Virtual Report Suite angezeigt, es sei denn, Sie fügen eine "oder"-Bedingung in Ihre Segmentlogik auf der Grundlage der AMO-ID (oder ihrer Classification) ein. Beispiel: Durch das Hinzufügen von „alle Treffer, bei denen eine AMO-ID existiert“ werden die Suchmaschinenmetriken in das Segment aufgenommen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Können Advertising Analytics-Metriken zum Bericht <b>Marketingkanäle</b> hinzugefügt werden? </p> </td> 

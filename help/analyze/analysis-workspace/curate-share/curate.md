@@ -5,10 +5,10 @@ title: Kuratieren von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 63%
 
 ---
 
@@ -49,26 +49,26 @@ So entfernen Sie die Projektkuratierung und stellen Sie den vollständigen Satz 
 1. Klicken Sie auf **[!UICONTROL Kuratierung entfernen]**.
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-## Virtual Report Suite (VRS)-Kuratierung
+## Kuratierung von Virtual Report Suites
 
-Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite (VRS) kuratieren](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=de).
+Wenn Sie die Kuratierung auf Report Suite-Ebene anwenden möchten, sodass sie für viele Projekte gleichzeitig gilt, können Sie [Kuratieren von Komponenten in einer Virtual Report Suite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=de).
 
 >[!NOTE]
-> Die VRS-Kuratierung wird immer vor der Projektkuratierung ausgeführt. Das bedeutet, dass selbst wenn Ihr kuratiertes Projekt bestimmte Komponenten enthält, werden diese herausgefiltert, wenn die kuratierte VRS diese nicht enthält.
+> Die Kuratierung der Virtual Report Suite wird immer vor der Projektkuratierung angewendet. Das bedeutet, dass selbst wenn Ihr kuratiertes Projekt bestimmte Komponenten enthält, diese herausgefiltert werden, wenn die kuratierte Virtual Report Suite diese nicht enthält.
 
 ## Option „Alle anzeigen“ für Komponenten
 
-In einem kuratierten Projekt oder einer VRS wird dem Empfänger die Option **[!UICONTROL Alle anzeigen]** für Komponenten in der linken Leiste angezeigt. [!UICONTROL Alle anzeigen] zeigt verschiedene Komponentensätze an, je nach:
+In einem kuratierten Projekt oder einer Virtual Report Suite wird dem Empfänger die Option **[!UICONTROL Alle anzeigen]** Komponenten in der linken Leiste. [!UICONTROL Alle anzeigen] zeigt verschiedene Komponentensätze an, je nach:
 
-* Berechtigungsebene des Benutzers (Administrator oder Nicht-Administrator)
+* Berechtigungsstufe des Benutzers (Administrator oder Nicht-Administrator)
 * Projektrolle (Inhaber/Bearbeiter oder nicht)
-* Art der angewendeten Kuratierung (VRS oder Projekt)
+* Art der angewendeten Kuratierung (Virtual Report SuiteS oder Projekt)
 * Komponenten, die dem Benutzer gehören oder für ihn freigegeben wurden. Zu den eigenen/freigegebenen Komponenten gehören Segmente, berechnete Kennzahlen und Datumsbereiche. Sie enthalten keine implementierten Komponenten wie eVars, Props und benutzerdefinierte Ereignisse.
 
 Hinweis: Rollen ohne Administratoransicht haben keinen Zugriff auf die linke Leiste in einem Projekt, daher wurden sie in der unten stehenden Tabelle weggelassen.
 
 | Kuratierungstyp | Admins | Inhaber- oder Bearbeiterrolle, kein Admin | Duplizierte Rolle „Nicht-Administrator“ |
 |---|---|---|---|
-| Kuratierte VRS | Alle nicht kuratierten VRS-Komponenten | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
+| Kuratierte Virtual Report Suite | Alle nicht kuratierten Virtual Report Suite-Komponenten | Nicht kuratierte Virtual Report Suite-Komponenten, die dieser Rolle gehören oder für sie freigegeben wurden | Nicht kuratierte Virtual Report Suite-Komponenten, die dieser Rolle gehören oder für sie freigegeben wurden |
 | Kuratierte Projekte | Alle nicht kuratierten Projektkomponenten | Alle nicht kuratierten Projektkomponenten | Nicht kuratierte Projektkomponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
-| Kuratierte Projekte in kuratierte VRS | Alle nicht kuratierten Komponenten, aufgeführt unter  **[!UICONTROL Nicht kuratierte Projektkomponenten]** und **[!UICONTROL Nicht kuratierte VRS-Komponenten]** | Alle nicht kuratierten Projektkomponenten UND nicht kuratierten VRS-Komponenten, die dieser Rolle gehören oder für sie freigegeben wurden | Nicht kuratierte VRS- und Projektkomponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
+| Kuratiertes Projekt in einer kuratierten Virtual Report Suite | Alle nicht kuratierten Komponenten, aufgeführt unter **[!UICONTROL Nicht kuratierte Projektkomponenten]** und **[!UICONTROL Nicht kuratierte Virtual Report Suite-Komponenten]** | Alle nicht kuratierten Projektkomponenten UND nicht kuratierten Virtual Report Suite-Komponenten, die dieser Rolle gehören oder für sie freigegeben wurden | Nicht kuratierte Virtual Report Suite und Projektkomponenten, die dieser Rolle gehören oder für sie freigegeben wurden |

@@ -4,10 +4,10 @@ title: Neue Report Suite – Einstellungen
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ Beschreibung der verwendeten Elemente beim  [Erstellen einer Report Suite](/help
 
 >[!NOTE]
 >
->In der [Dokumentation zur Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) erfahren Sie, wie Sie Virtual Report Suites erstellen.
+>Die [Dokumentation zu Virtual Report Suites](/help/components/vrs/c-workflow-vrs/vrs-create.md) zeigt Ihnen, wie Sie Virtual Report Suites erstellen.
 
 | Element | Beschreibung |
 | --- | --- |
@@ -28,7 +28,7 @@ Beschreibung der verwendeten Elemente beim  [Erstellen einer Report Suite](/help
 | Zeitzone | Wird zur Planung von Ereignissen und für Zeitstempeldaten verwendet. |
 | Basis-URL | (Optional) Definiert die Basisdomäne für die Report Suite. Diese URL-Adresse fungiert als interner URL-Filter, wenn Sie nicht explizit interne URL-Filter für die Report Suite definiert haben. |
 | Standardseite | (Optional) Bereinigt Vorkommnisse des Werts „Standardseite“ von den dabei auftretenden URL-Adressen. Wenn der Bericht zu den beliebtesten Seiten URLs statt Seitennamen enthält, verhindert diese Einstellung, dass für eine Web-Seite mehrere URLs angegeben werden.  Beispielsweise sind die URLs `https://example.com` und `https://example.com/index.html` normalerweise dieselben Seiten.<p> Sie können irrelevante Dateinamen entfernen, sodass beide URL-Adressen in den Berichten als `https://example.com` angezeigt werden. Wenn Sie diesen Wert nicht angeben, entfernt Analytics automatisch die folgenden Dateinamen aus den URLs: `index.htm`, `index.html`, `index.cgi`, `index.asp`, `default.htm`, `default.html`, `default.cgi`, `default.asp`, `home.htm`, `home.html`, `home.cgi` und `home.asp`. Wenn Sie die Bereinigung von Dateinamen deaktivieren möchten, geben Sie einen Wert für „Standardseite“ an, der in keiner URL-Adresse vorkommt. |
-| Aufschaltdatum | Informiert Adobe über das Datum, ab dem diese Report Suite aktiv sein soll. Wenn sich der Implementierungsplan ändert, müssen Sie in der Traffic-Verwaltung mithilfe des Tools für dauerhaft erwarteten Traffic eine aktualisierte Traffic-Schätzung eingeben. |
+| Aufschaltdatum | Informiert Adobe über das Datum, ab dem diese Report Suite aktiv sein soll. Wenn sich der Bereitstellungsplan ändert, müssen Sie in der Traffic-Verwaltung mithilfe des Tools für dauerhaft erwarteten Traffic eine aktualisierte Traffic-Schätzung eingeben. |
 | Geschätzte Seitenansichten pro Tag | Gibt an, wie viele Seitenaufrufe diese Report Suite pro Tag unterstützen soll. Ein großes Traffic-Volumen beansprucht mehr Zeit im Genehmigungsprozess. Die Schätzung sollte möglichst genau ausfallen, damit es nicht zu Verzögerungen bei der Verarbeitung kommt. |
 | Basiswährung | Gibt die Standardwährung für die Speicherung sämtlicher Geldbeträge an. In der Analytics-Berichterstellung werden Transaktionen in anderen Währungen zum aktuellen Konversionskurs (d. h. zum Zeitpunkt des Eingangs der Daten) in die Basiswährung umgerechnet. Die Währung einer Transaktion wird in Analytics-Berichten mit der JavaScript-Variable „currencyCode“ erkannt. |
 | Multi-Byte-Zeichenunterstützung deaktivieren | Deaktiviert die Multi-Byte-Zeichenunterstützung für die Report Suite. Wenn Sie die Multi-Byte-Zeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im Format `ISO-8859-1` vorliegen. Auf Web-Seiten muss der Zeichensatz in der JavaScript-Variablen „charSet“ angegeben werden. <p>Bei der Multi-Byte-Zeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Web-Seite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können.  Wenden Sie sich an Ihr Adobe Account Team oder an die Kundenunterstützung, um die Multibytezeichenunterstützung für eine bestehende Report Suite zu ändern. |

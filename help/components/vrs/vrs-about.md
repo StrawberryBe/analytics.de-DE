@@ -3,10 +3,10 @@ description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodas
 title: Virtual Report Suites – Übersicht
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 95%
+source-wordcount: '803'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Bei vielen Kunden fließen Daten in eine globale Report Suite aber auch in klein
 
 Beispielsweise können Sie alle Daten in einer einzelnen Report Suite erfassen, aber anschließend Report Suites einrichten, sodass die Personen in Ihrem Unternehmen Zugriff auf einen Teil der Daten haben, jedoch nicht auf alle. Die Daten können nach Region eingeteilt werden. Möglicherweise verwenden Sie für verschiedene Länder unterschiedliche Websites. Weitere Beispiele sind spezielle Marken, die zwar zu einem größeren Unternehmen gehören, aber jeweils über ein eigenes Marketingteam verfügen.
 
-Mithilfe einer *Virtual Report Suite* (VRS) können Sie dieses Verzweigungskonzept reproduzieren, indem Sie anstelle von mehreren Report Suites Segmente verwenden. Die Daten werden an eine Report Suite gesendet und anschließend nach Segmenten aufgeteilt. Anhand des Beispiels mit mehreren Marken können Sie für die Marke, zu der ein Element gehört, eine Eigenschaft einrichten. Mithilfe von Segmenten können Sie einen Bericht zu den Elementen erstellen, die den einzelnen Eigenschaften zugewiesen sind. Alle diese Segmente erhalten eine eigene Ansicht, wobei gewissermaßen eine neue Report Suite erstellt wird. Es werden keine Daten an das jeweilige Segment gesendet, sondern nur an die globale Report Suite. Sie funktioniert jedoch in Ihren Berichten wie eine andere Report Suite.
+A *Virtual Report Suite* können Sie dieses Verzweigungskonzept mithilfe von Segmenten anstelle mehrerer Report Suites reproduzieren. Die Daten werden an eine Report Suite gesendet und anschließend nach Segmenten aufgeteilt. Anhand des Beispiels mit mehreren Marken können Sie für die Marke, zu der ein Element gehört, eine Eigenschaft einrichten. Mithilfe von Segmenten können Sie einen Bericht zu den Elementen erstellen, die den einzelnen Eigenschaften zugewiesen sind. Alle diese Segmente erhalten eine eigene Ansicht, wobei gewissermaßen eine neue Report Suite erstellt wird. Es werden keine Daten an das jeweilige Segment gesendet, sondern nur an die globale Report Suite. Sie funktioniert jedoch in Ihren Berichten wie eine andere Report Suite.
 
 Eine Virtual Report Suite erbt die meisten Service-Levels der zugrunde liegenden Report Suite, wie die eVar-Einstellungen, Verarbeitungsregeln, Classifications usw. Die folgenden Einstellungen werden NICHT vererbt:
 
@@ -45,11 +45,11 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 
 * Die Einschränkungen von Segmenten gelten auch für Virtual Report Suites
 
-   Eine Virtual Report Suite ist lediglich ein Segment, das auf eine Report Suite angewendet wird. Da alle Report Suites über ein eigenes Data Warehouse und einen eigenen Daten-Feed verfügen, bietet die Verwendung mehrerer Report Suites einige Vorteile gegenüber Segmenten.
+  Eine Virtual Report Suite ist lediglich ein Segment, das auf eine Report Suite angewendet wird. Da alle Report Suites über ein eigenes Data Warehouse und einen eigenen Daten-Feed verfügen, bietet die Verwendung mehrerer Report Suites einige Vorteile gegenüber Segmenten.
 * Echtzeitbericht
 * Einstellungen und Variablennamen können nicht wie bei einer vollständigen Report Suite angepasst werden
 
-## Virtual Report Suites und Multi-Suite-Tagging im Vergleich {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites im Vergleich zum Multi-Suite-Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Funktion | Virtual Report Suite | Multi-Suite-Tagging |
 |--- |--- |--- |
@@ -60,7 +60,7 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
 | Kann Admin-Funktionen verwenden, um einzelne Einstellungen für diese Report Suite zu ändern (Admin > Report Suites) | Nein (Einstellungen werden von der übergeordneten Report Suite geerbt.) | Ja |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Kombinieren von Virtual Report Suites und Multi-Suite-Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
