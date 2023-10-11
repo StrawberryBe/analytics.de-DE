@@ -3,10 +3,10 @@ title: Implementieren von Adobe Analytics mit dem Adobe Experience Platform Web 
 description: Verwenden Sie die Web SDK-Erweiterung in der Adobe Experience Platform-Datenerfassung, um Daten an Adobe Analytics zu senden.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 96%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -138,8 +138,8 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>8</td>
-<td><b>Iterieren, validieren und veröffentlichen Sie</b> in der Produktionsumgebung. Fügen Sie die Tag-Eigenschaft zu Ihrer Website hinzu. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=de">Veröffentlichungsüberblick</a></td>
+<td><b>Iterieren, validieren und veröffentlichen Sie</b> in der Produktionsumgebung. Betten Sie Code ein, um Ihre Tag-Eigenschaft in die Seiten Ihrer Website aufzunehmen. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Einbettungscode</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=de">Veröffentlichungsübersicht</a></td>
 </tr>
 
 </table>

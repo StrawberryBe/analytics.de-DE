@@ -3,10 +3,10 @@ title: Implementieren von Adobe Analytics mit der Analytics-Erweiterung
 description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags und der Analytics-Erweiterung implementieren
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 87%
 
 ---
 
@@ -63,8 +63,8 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>6</td> 
-<td><b>Validieren und Veröffentlichen in der Produktionsumgebung</b>. Fügen Sie die Tag-Eigenschaft zu Ihrer Website hinzu. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
-<td><a href="./validate-publish-prod.md">Entwicklungsimplementierung validieren und in der Produktionsumgebung veröffentlichen</a></td>
+<td><b>Validieren und Veröffentlichen in der Produktionsumgebung</b>. Betten Sie Code ein, um Ihre Tag-Eigenschaft in die Seiten Ihrer Website aufzunehmen. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Einbettungscode</a><br/><a href="./validate-publish-prod.md">Entwicklungsimplementierung validieren und in der Produktion veröffentlichen</a></td>
 </tr>
 
 </table>

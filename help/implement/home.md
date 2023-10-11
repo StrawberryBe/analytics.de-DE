@@ -3,10 +3,10 @@ title: Implementieren von Adobe Analytics
 description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft oder Anwendung.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 85%
+source-wordcount: '933'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um 
 
 Für Ihre **Website** sind die folgenden Implementierungsmethoden verfügbar:
 
-* **Web SDK-Erweiterung**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics für neue Kundinnen und Kunden. Installieren Sie die **Adobe Experience Platform Web SDK-Erweiterung** in der Adobe Experience Platform-Datenerfassung **Tags** verwenden Sie auf jeder Seite ein Lader-Tag und senden Sie Daten an Adobe Experience Platform **Edge Network** in einem für Ihre Organisation geeigneten Format. Das Edge Network leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
+* **Web SDK-Erweiterung**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics für neue Kundinnen und Kunden. Installieren Sie die **Adobe Experience Platform Web SDK-Erweiterung** in der Adobe Experience Platform-Datenerfassung **Tags**, platzieren Sie auf jeder Seite einen Einbettungscode (ein Javascript-Lader-Tag) und senden Sie Daten an Adobe Experience Platform **Edge Network** in einem für Ihre Organisation geeigneten Format. Das Edge Network leitet eingehende Daten im richtigen Format an Adobe Analytics weiter.
   ![Web SDK-Erweiterung](./assets/websdk-extension-implementation.png)
 Siehe [Implementieren von Adobe Analytics mithilfe der Adobe Experience Platform Web SDK-Erweiterung.](./aep-edge/overview.md) für weitere Informationen.
 
@@ -42,7 +42,7 @@ Siehe [Implementieren von Adobe Analytics mithilfe der Adobe Experience Platform
 Siehe [Implementieren von Adobe Analytics mit dem Adobe Experience Platform Web SDK](./aep-edge/overview.md) für weitere Informationen.
 
 
-* **Analytics-Erweiterung**: Installieren Sie die **Adobe Analytics-Erweiterung** in den **Datenerfassungs-Tags** von Adobe Experience Platform. Platzieren Sie ein Loader-Tag auf jeder Seite und verwenden Sie die Adobe Analytics-Erweiterung, um zu bestimmen, wie jede Variable definiert wird. Nutzen Sie diese Implementierungsmethode, wenn Sie Tags, aber nicht die Edge Network-Infrastruktur verwenden möchten.
+* **Analytics-Erweiterung**: Installieren Sie die **Adobe Analytics-Erweiterung** in den **Datenerfassungs-Tags** von Adobe Experience Platform. Fügen Sie auf jeder Seite einen Einbettungscode (ein JavaScript-Lader-Tag) ein und bestimmen Sie mithilfe der Adobe Analytics-Erweiterung, wie die einzelnen Variablen definiert sind. Nutzen Sie diese Implementierungsmethode, wenn Sie Tags, aber nicht die Edge Network-Infrastruktur verwenden möchten.
   ![Adobe Analytics-Erweiterung](./assets/analytics-extension-implementation.png)
 Siehe [Implementieren von Adobe Analytics mithilfe der Analytics-Erweiterung](launch/overview.md) für weitere Informationen.
 
