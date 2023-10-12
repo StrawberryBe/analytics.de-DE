@@ -2,9 +2,10 @@
 description: Erläutert die erforderlichen Vorbereitungen für die Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics.
 title: Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: cbd991821dc1eefa458ec5d92b75f9b4dfcc9fa0
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
+source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '939'
 ht-degree: 15%
 
 ---
@@ -54,7 +55,9 @@ In den folgenden Tabellen wird beschrieben, welche Elemente eines Projekts und e
 
 ### Migrierte Komponentenelemente
 
-Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten auf Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), während Segmente und Datumsbereiche im Customer Journey Analytics basierend auf der
+Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten auf Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+
+Segmente, Datumsbereiche und berechnete Metriken, die noch nicht im Customer Journey Analytics vorhanden sind, werden dort anhand der zugeordneten Dimensionen und Metriken neu erstellt.
 
 |  | „Migriert“ |
 |---------|---------|
@@ -92,7 +95,7 @@ Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der 
 
 ## Nicht unterstützte Elemente, die Fehler verursachen
 
-Die folgenden Visualisierungen, Bedienfelder und Funktionen werden im Customer Journey Analytics nicht unterstützt. Wenn diese Elemente vor der Migration in ein Projekt einbezogen werden, kann dies entweder dazu führen, dass die Migration fehlschlägt, oder dass nach der Migration des Projekts Fehler auftreten.
+Die folgenden Visualisierungen und Bedienfelder werden im Customer Journey Analytics nicht unterstützt. Wenn diese Elemente vor der Migration in ein Projekt einbezogen werden, kann dies entweder dazu führen, dass die Migration fehlschlägt, oder dass nach der Migration des Projekts Fehler auftreten.
 
 Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Projekt auf Customer Journey Analytics migrieren. Wenn eine Migration fehlschlägt, entfernen Sie diese Elemente, bevor Sie die Migration erneut versuchen.
 
@@ -112,11 +115,7 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 
 * [Seitenzusammenfassung](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### Nicht unterstützte Funktionen
-
 * [Beitragsanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [Warnhinweise](/help/components/c-alerts/intellligent-alerts.md)
 
 ## Als Organisation entscheiden, wie Sie Komponenten zuordnen
 

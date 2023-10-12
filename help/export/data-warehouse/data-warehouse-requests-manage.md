@@ -4,10 +4,10 @@ title: Verwalten von Data Warehouse-Anforderungen
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ Sie können den Verlauf aller ausgeführten Berichte anzeigen.
    ![Anforderung verwalten](assets/dw-manage-request.png)
 
 1. Auswählen [!UICONTROL **Verlauf anzeigen**].
+
+   Die [!UICONTROL **Data Warehouse-Anfrage anzeigen**] zeigt eine Liste der einzelnen Berichtbereitstellungen an.
+
+   ![Seite mit Anforderungsverlauf](assets/dw-request-history.png)
+
+1. Wählen Sie einen Berichtversand und dann eine der folgenden Optionen aus:
+
+   | Option | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Zieldetails**] | Zeigt die mit der Anfrage verknüpften Konto- und Standortdetails an. Dies ist das Konto und der Speicherort, die zuvor konfiguriert wurden, wie unter [Berichtsziel für eine Data Warehouse-Anforderung konfigurieren](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Bericht abbrechen**] | Bricht den Bericht ab. Berichte mit dem Status [!UICONTROL **Abgeschlossen**] oder [!UICONTROL **Abgebrochen**]. |
+   | [!UICONTROL **Bericht erneut ausführen**] | Führt den Bericht erneut mit den Daten aus, die zum Zeitpunkt des ursprünglichen Versands vorlagen. Sie können einen Bericht mit einem der folgenden Status erneut ausführen: [!UICONTROL **Abgebrochen**], [!UICONTROL **Abgeschlossen**], [!UICONTROL **Fehler - Verarbeitung**] oder [!UICONTROL **Fehler - fehlgeschlagener Versand**]. |
+   | [!UICONTROL **Bericht erneut senden**] | Sendet die zuvor generierte Berichtsdatei erneut. Sie können einen Bericht mit einem der folgenden Status erneut senden: [!UICONTROL **Abgeschlossen**] oder [!UICONTROL **Fehler - fehlgeschlagener Versand**]. |
 
 ## Anforderungen kopieren
 

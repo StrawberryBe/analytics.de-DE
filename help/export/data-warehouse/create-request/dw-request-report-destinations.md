@@ -3,9 +3,9 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2304'
 ht-degree: 15%
 
 ---
@@ -254,6 +254,8 @@ Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informatione
 
 * [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der SFTP-Site anzumelden.
 
+* [!UICONTROL **Verwenden temporärer Dateierweiterungen beim Hochladen**]: Wenn aktiviert, wird die `.part` Dateierweiterung wird während des Upload-Prozesses verwendet. Lassen Sie diese Option aktiviert, es sei denn, Ihr SFTP-Server verhindert, dass Dateinamen nach Abschluss des Uploads geändert werden.
+
 * [!UICONTROL **Öffentliche Schlüssel**]: Laden Sie den entsprechenden öffentlichen Schlüssel herunter, wenn Sie das Data Warehouse-Ziel erstellen.
 
 #### Standortfelder
@@ -263,6 +265,8 @@ Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informatione
 * [!UICONTROL **Standortbeschreibung**]: Eine Beschreibung des Speicherorts im SFTP-Konto.
 
 * [!UICONTROL **Verzeichnispfad**]: Der Pfad zum Speicherort im SFTP-Konto.
+
+Weitere Informationen zur SFTP-Konfiguration finden Sie unter [Senden von Data Warehouse-Anfragen an SFTP-Server](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 

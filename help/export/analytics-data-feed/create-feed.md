@@ -3,9 +3,9 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3175'
+source-wordcount: '3163'
 ht-degree: 21%
 
 ---
@@ -117,9 +117,9 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
    +++Azure RBAC
 
-   Mit der RBAC-Authentifizierung können Sie Feeds direkt an einen Azure-Container senden. Dieser Zieltyp erfordert einen Behälternamen, eine Anwendungs-ID, eine Mandantenkennung und einen geheimen Schlüssel.
+   Mit der RBAC-Authentifizierung können Sie Feeds direkt an einen Azure-Container senden. Für diesen Zieltyp sind eine Anwendungs-ID, eine Mandanten-ID und ein Geheimnis erforderlich.
 
-   So konfigurieren Sie einen Azure RBAC-Behälter als Ziel für einen Daten-Feed:
+   So konfigurieren Sie ein Azure RBAC-Konto als Ziel für einen Daten-Feed:
 
    1. Erstellen Sie, falls noch nicht geschehen, eine Azure-Anwendung, die Adobe Analytics für die Authentifizierung verwenden kann, und gewähren Sie dann Zugriffsberechtigungen für die Zugriffskontrolle (IAM).
 
@@ -177,9 +177,9 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
    +++Azure SAS
 
-   Sie können Feeds mit der SAS-Authentifizierung direkt an einen Azure-Container senden. Für diesen Zieltyp sind ein Bucket-Name, eine Anwendungs-ID, eine Mandanten-ID, ein Key Vault URI, ein geheimer Schlüsselvault und ein geheimer Schlüssel erforderlich.
+   Sie können Feeds mit der SAS-Authentifizierung direkt an einen Azure-Container senden. Für diesen Zieltyp sind eine Anwendungs-ID, eine Mandantenkennung, ein URI für den Schlüssel-Vault, ein geheimer Name für den Schlüssel-Vault und ein Geheimnis erforderlich.
 
-   So konfigurieren Sie einen Azure SAS-Behälter als Ziel für einen Daten-Feed:
+   So konfigurieren Sie Azure SAS als Ziel für einen Daten-Feed:
 
    1. Erstellen Sie, falls noch nicht geschehen, eine Azure-Anwendung, die Adobe Analytics für die Authentifizierung verwenden kann.
 
@@ -210,7 +210,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          | Feld | Funktion |
          |---------|----------|
          | [!UICONTROL **Kontoname**] | Ein Name für das Azure SAS-Konto. Dieser Name wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
-         | [!UICONTROL **Kontodeklaration**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
+         | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Schlüssel-Vault-URI erstellt wurde, fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
