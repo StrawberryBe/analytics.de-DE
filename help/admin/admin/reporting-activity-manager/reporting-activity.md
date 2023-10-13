@@ -4,10 +4,10 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 19%
+source-wordcount: '1761'
+ht-degree: 18%
 
 ---
 
@@ -96,31 +96,27 @@ Bewegen Sie den Mauszeiger über das Diagramm, um die Zeitpunkte anzuzeigen, an 
 
   ![Diagramm &quot;Unique Users&quot;](assets/distinct-users-graph.png)
 
-<!--
+#### Anforderungsdiagramm
 
-#### Requests graph
+Das Anforderungsdiagramm zeigt die Anzahl der verarbeiteten und abgeschlossenen Anfragen für die ausgewählte Report Suite in den letzten 2 Stunden an.
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+Bewegen Sie den Mauszeiger über das Diagramm, um die Zeitpunkte anzuzeigen, an denen die maximale Anzahl von Anforderungen für diese Minute am höchsten war.
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **X-Achse**: Die Anzahl der verarbeiteten und abgeschlossenen Anforderungen im letzten 2-Stunden-Zeitraum.
+* **Y-Achse**: Die Anzahl der verarbeiteten Anforderungen (in violett) und der abgeschlossenen Anforderungen (in grün) nach Minuten.
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![Diagramm &quot;Unique Users&quot;](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### Einreihungsdiagramm
 
-#### Queueing graph
+Das Queuing-Diagramm zeigt die durchschnittliche Wartezeit (in Sekunden) für die Berichterstellungsanfragen für die ausgewählte Report Suite in den letzten 2 Stunden an.
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+Bewegen Sie den Mauszeiger über das Diagramm, um Zeitpunkte anzuzeigen, an denen die maximale durchschnittliche Wartezeit für diese Minute am höchsten war.
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **X-Achse**: Die durchschnittliche Wartezeit in der Warteschlange für Berichterstellungsanfragen während des letzten 2-Stunden-Zeitraums.
+* **Y-Achse**: Die durchschnittliche Wartezeit (in Sekunden).
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![Diagramm &quot;Unique Users&quot;](assets/queueing-graph.png)
 
 ### Tabelle anzeigen {#view-table}
 
