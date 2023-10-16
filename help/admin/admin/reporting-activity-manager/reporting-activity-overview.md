@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
 title: Reporting Activity Manager Übersicht
 feature: Admin Tools
-source-git-commit: fbb652c7f96197776cdb721c21b60e338a06f65d
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '291'
+ht-degree: 29%
 
 ---
 
@@ -23,7 +23,7 @@ Reporting Activity Manager bietet die folgenden Vorteile:
 
 * Ermöglicht Ihnen die Überwachung und Verwaltung der Berichtskapazität für jede Report Suite in Ihrem Unternehmen.
 * Informiert Sie in Echtzeit über Ihre aktuelle Berichtskapazität in Ihren Report Suites.
-* Enthält detaillierte Berichtsabfrageinformationen zu aktuellen Berichtsanfragen, unabhängig davon, ob diese sich in der Warteschlange befinden oder in Bearbeitung sind.
+* Enthält detaillierte Berichtinformationen zu aktuellen Berichtsanforderungen, unabhängig davon, ob sie sich in der Warteschlange befinden oder in Bearbeitung sind.
 * Ermöglicht Ihnen die Optimierung der Berichtswarteschlange durch Priorisierung einiger Berichtsanfragen und Abbruch von anderen, um Kapazitäten freizugeben. Er beantwortet Fragen wie: Ist dieser Bericht zum jetzigen Zeitpunkt notwendig oder kann ich ihn zugunsten dringender Berichte ablehnen?
 * Hier können Sie zukünftige Anforderungen für einen bestimmten Zeitraum einschränken. Sie können bestimmte Anforderungen einschränken oder alle Anforderungen eines bestimmten Benutzers oder Anforderungen einschränken, die mit einem bestimmten Projekt verknüpft sind.
 

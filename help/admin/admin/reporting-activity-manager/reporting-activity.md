@@ -4,7 +4,7 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 18%
@@ -172,7 +172,7 @@ Wenn Sie die [!UICONTROL **Projekt**] -Tab, stehen in der Tabelle die folgenden 
 
 | Spalte | Beschreibung |
 | --- | --- |
-| [!UICONTROL **Projekt**] | Das Projekt, bei dem die Abfragen eingeleitet wurden. |
+| [!UICONTROL **Projekt**] | Das Projekt, bei dem die Anfragen initiiert wurden. |
 | [!UICONTROL **Anzahl der Anfragen**] | Die Anzahl der mit dem Projekt verknüpften Anforderungen. |
 | [!UICONTROL **Anzahl der Benutzer**] | Die Anzahl der mit dem Projekt verknüpften Benutzer. <!-- ??? --> |
 | [!UICONTROL **Programm**] | Die von [!UICONTROL Reporting Activity Manager] unterstützten Programme sind: <ul><li>Analysis Workspace-Benutzeroberfläche</li><li>Geplante Projekte im Workspace</li><li>Report Builder</li><li>Builder-Benutzeroberflächen: Segment, berechnete Metriken, Anmerkungen, Audiences usw.</li><li>API-Aufrufe aus der API 1.4 oder 2.0</li><li>Intelligente Warnhinweise</li></ul> |
@@ -189,7 +189,7 @@ Wenn Sie die [!UICONTROL **Anwendung**] -Tab, stehen in der Tabelle die folgende
 
 | Spalte | Beschreibung |
 | --- | --- |
-| [!UICONTROL **Programm**] | Die Anwendung, in der die Abfragen initiiert wurden. |
+| [!UICONTROL **Programm**] | Die Anwendung, in der die Anfragen initiiert wurden. |
 | [!UICONTROL **Anzahl der Anfragen**] | Die Anzahl der mit der Anwendung verknüpften Anforderungen. |
 | [!UICONTROL **Anzahl der Benutzer**] | Die Anzahl der mit der Anwendung verknüpften Benutzer. <!--???--> |
 | [!UICONTROL **Anzahl der Projekte**] | Die Anzahl der mit der Anwendung verknüpften Projekte. <!--???--> |
@@ -199,31 +199,5 @@ Wenn Sie die [!UICONTROL **Anwendung**] -Tab, stehen in der Tabelle die folgende
 | [!UICONTROL **Durchschnittliche Segmente**] | Die durchschnittliche Anzahl von Segmenten, die auf die enthaltenen Anforderungen angewendet werden. Weitere Segmente erhöhen die Komplexität der Anforderung. |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
-
-{style="table-layout:auto"}
-
--->
 
 
