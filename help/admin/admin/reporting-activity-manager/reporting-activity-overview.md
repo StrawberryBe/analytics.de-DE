@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
 title: Reporting Activity Manager Übersicht
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ Informationen zum Anzeigen der Berichtsaktivität im Reporting-Aktivitäts-Manag
 
 Informationen zum Abbrechen von Berichtsanforderungen im Reporting-Aktivitäts-Manager finden Sie unter [Abbrechen von Berichtsanforderungen im Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## Häufig gestellte Fragen {#faq}
-
-| Frage | Antwort |
-| --- | --- |
-| Kann ich zusätzliche Berichtskapazitäten erwerben? | Diese Funktion wird demnächst verfügbar sein. |
-
-{style="table-layout:auto"}
