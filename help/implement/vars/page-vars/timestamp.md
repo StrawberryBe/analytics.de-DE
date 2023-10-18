@@ -3,10 +3,10 @@ title: timestamp
 description: Setzen Sie den Zeitstempel des Treffers manuell fest.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 81%
+source-wordcount: '278'
+ht-degree: 83%
 
 ---
 
@@ -24,11 +24,11 @@ Zeitstempel: [für Adobe Analytics zugeordnet](https://experienceleague.adobe.co
 
 ## Zeitstempel mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.timestamp in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Die `s.timestamp`-Variable ist eine Zeichenfolge, die das Datum und die Uhrzeit des Treffers enthält. Gültige Zeitstempelformate sind [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) und [UnixZeit](https://de.wikipedia.org/wiki/Unixzeit).
+Die `s.timestamp`-Variable ist eine Zeichenfolge, die das Datum und die Uhrzeit des Treffers enthält. Gültige Zeitstempelformate enthalten [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) und [Unix-Zeit](https://de.wikipedia.org/wiki/Unixzeit) in Sekunden.
 
 ```js
 // Timestamp using ISO 8601
@@ -46,7 +46,7 @@ s.timestamp = new Date().toISOString();
 
 ## Werte nach ISO 8601
 
-Die nach [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) angegebenen Daten und Zeiten können in verschiedenen Formen verwendet werden. Adobe unterstützt nicht alle Funktionen von ISO 8601.
+Die nach [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) angegebenen Daten und Zeiten können in verschiedenen Formen verwendet werden. Adobe unterstützt nicht alle Funktionen von ISO 8601.
 
 * Sowohl das Datum als auch die Uhrzeit müssen durch `T` getrennt angegeben werden.
 * Stunden und Minuten sind erforderlich; Sekunden sind optional, werden aber empfohlen.
