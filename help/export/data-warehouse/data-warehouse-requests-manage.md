@@ -4,9 +4,9 @@ title: Verwalten von Data Warehouse-Anforderungen
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1280'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 13%
 >Wenn Ihr Unternehmen noch nicht über das neue Data Warehouse-Erlebnis verfügt, das bald für alle Kunden verfügbar sein wird, verwenden Sie die Informationen unter [Data Warehouse-Anforderungen verwalten (altes Erlebnis)](#manage-data-warehouse-requests-old-experience) unten auf dieser Seite.
 
 
-Sie können Data Warehouse-Anfragen verwalten, die Sie gestellt haben. In den folgenden Abschnitten werden die Aktivitäten beschrieben, die Sie bei der Verwaltung von Anforderungen durchführen können. <!-- just those you have made? I think you can see other people's requests (you can filter by them). What can you do with other people's requests? Just view them?-->
+Sie können Data Warehouse-Anfragen, die Sie gestellt haben, anzeigen und verwalten. Nur Administratoren können Anforderungen anzeigen und verwalten, die von anderen Benutzern in der Organisation mit Administratorrechten gestellt wurden.
+
+In den folgenden Abschnitten werden die Aktivitäten beschrieben, die Sie bei der Verwaltung von Anforderungen durchführen können.
 
 ## Anforderungen anzeigen
 

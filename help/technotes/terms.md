@@ -3,10 +3,10 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Clickstream-Feed:** Siehe „Daten-Feed“.
 * **Kohorte:** eine Gruppe von Personen, die über einen bestimmten Zeitraum gemeinsame Merkmale aufweisen. Siehe [Was ist eine Kohortenanalyse?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) im Benutzerhandbuch zu Analysen.
 * **Erfassungs-Server:** Siehe „Datenerfassungs-Server“.
+* **Komponente:** Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag &amp; Drop in ein Projekt ziehen können. Siehe [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) im Benutzerhandbuch zu Analysen.
 * **Kontextdatenvariablen:** temporäre Variablen, die ausschließlich in Verarbeitungsregeln verwendet werden. Die Werte der Kontextdatenvariablen gehen dauerhaft verloren, wenn eine Verarbeitungsregel sie nicht in eine Konversions- oder Traffic-Variable kopiert. Siehe [Kontextdatenvariablen](../implement/vars/page-vars/contextdata.md) im Benutzerhandbuch zu Implementierungen.
 * **Konversionsvariable:** Auch als „eVars“ bezeichnet. Speichert einen benutzerspezifischen Wert und behält den Variablenwert bei, bis er abläuft. Weitere Informationen finden Sie unter der Dimension [eVar](/help/components/dimensions/evar.md) im Komponenten-Benutzerhandbuch.
 * **Korrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen aufgeschlüsselt. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.
