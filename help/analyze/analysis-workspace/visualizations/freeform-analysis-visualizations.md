@@ -5,10 +5,10 @@ title: Visualisierungsübersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
+source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 88%
+source-wordcount: '1324'
+ht-degree: 85%
 
 ---
 
@@ -22,25 +22,25 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
 | Name der Visualisierung | Beschreibung |
 | --- | --- |
-| [Bereich](/help/analyze/analysis-workspace/visualizations/area.md) | Wie ein Liniendiagramm, aber mit einem farbigen Bereich unterhalb der Linie. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird. |
-| [Balken](/help/analyze/analysis-workspace/visualizations/bar.md) | Zeigt vertikale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
-| [Lineardiagramm](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Zeigt, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt. |
-| [Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse ist nützlich für die Analyse von Verweildauer, Abwanderung oder Latenzzeiten. |
-| [Ringdiagramm](/help/analyze/analysis-workspace/visualizations/donut.md) | Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. |
-| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Kann auf mögliche oder exakte Sequenzen eingestellt werden |
-| [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Zeigt Kundenpfade durch Ihre Websites und Programme. |
-| [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. Es bildet die Grundlage für die Analyse von Daten in Workspace. |
-| [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) | Ein Histogramm fasst Besucher, Besuche oder Treffer basierend auf einem Metrikvolumen in Behälter zusammen. |
-| [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
-| [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Zeigt an, wie eine Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht, oder ermöglicht Ihnen den Vergleich der Metrikleistung über zwei Zeitrahmen hinweg. |
-| [Linie](/help/analyze/analysis-workspace/visualizations/line.md) | Stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm verwendet die Zeit entlang der X-Achse. |
-| [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
-| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. |
-| [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Zeigt die ausgewählte Zelle als eine große Zahl an. |
-| [Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Zeigt die Änderung zwischen den ausgewählten Zellen als eine große Zahl/Prozentzahl an. |
-| [Text](/help/analyze/analysis-workspace/visualizations/text.md) | Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen. Hilfreich zum Hinzufügen zusätzlicher Kontexte zu Ihrer Analyse und zu Einblicken, zusätzlich zum Nutzen der Beschreibungen im Bedienfeld oder in Visualisierungen |
-| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Verwendet Kreise zur Darstellung der Metriküberschneidung von bis zu drei Segmenten. |
+| [Bereich](/help/analyze/analysis-workspace/visualizations/area.md)<p>![Bereichssymbol](assets/Smock_GraphArea_18_N.svg)</p> | Wie ein Liniendiagramm, aber mit einem farbigen Bereich unterhalb der Linie. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird. |
+| [Balken](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![Balkensymbol](assets/Smock_GraphBarVertical_18_N.svg)</p> | Zeigt vertikale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
+| [Lineardiagramm](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![Symbol &quot;Aufzählungszeichen&quot;](assets/Smock_GraphBullet_18_N.svg)</p> | Zeigt, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt. |
+| [Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Symbol &quot;Kohortentabelle&quot;](assets/Smock_TextNumbered_18_N.svg)</p> | Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse ist nützlich für die Analyse von Verweildauer, Abwanderung oder Latenzzeiten. |
+| [Ringdiagramm](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![Symbol &quot;Ringdiagramm&quot;](assets/Smock_GraphDonut_18_N.svg)</p> | Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. |
+| [Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Fallout-Symbol](assets/Smock_ConversionFunnel_18_N.svg)</p> | Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Kann auf mögliche oder exakte Sequenzen eingestellt werden |
+| [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![Flusssymbol](assets/flow-icon.png)</p> | Zeigt Kundenpfade durch Ihre Websites und Programme. |
+| [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Symbol &quot;Freiformtabelle&quot;](assets/Smock_ViewTable_18_N.svg)</p> | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. Es bildet die Grundlage für die Analyse von Daten in Workspace. |
+| [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![Histogrammsymbol](assets/Smock_GraphHistogram_18_N.svg)</p> | Ein Histogramm fasst Besucher, Besuche oder Treffer basierend auf einem Metrikvolumen in Behälter zusammen. |
+| [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![Symbol &quot;Horizontalbalken&quot;](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
+| [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![Symbol Schlüsselmetrik](assets/key-metric-icon.png)</p> | Zeigt an, wie eine Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht, oder ermöglicht Ihnen den Vergleich der Metrikleistung über zwei Zeitrahmen hinweg. |
+| [Linie](/help/analyze/analysis-workspace/visualizations/line.md)<p>![Liniensymbol](assets/Smock_GraphTrend_18_N.svg)</p> | Stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm verwendet die Zeit entlang der X-Achse. |
+| [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![Landkartensymbol](assets/map-icon.png)</p> | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
+| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![Streudiagramm-Symbol](assets/Smock_GraphScatter_18_N.svg)</p> | Zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. |
+| [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Symbol für Zusammenfassungsnummer](assets/summary-number-icon.png)</p> | Zeigt die ausgewählte Zelle als eine große Zahl an. |
+| [Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Symbol für Zusammenfassungsänderung](assets/summary-change-icon.png)</p> | Zeigt die Änderung zwischen den ausgewählten Zellen als eine große Zahl/Prozentzahl an. |
+| [Text](/help/analyze/analysis-workspace/visualizations/text.md)<p>![Textsymbol](assets/Smock_Text_18_N.svg)</p> | Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen. Hilfreich zum Hinzufügen zusätzlicher Kontexte zu Ihrer Analyse und zu Einblicken, zusätzlich zum Nutzen der Beschreibungen im Bedienfeld oder in Visualisierungen |
+| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![Treemap-Symbol](assets/Smock_GraphTree_18_N.svg)</p> | Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![Venn-Symbol](assets/venn-icon.png)</p> | Verwendet Kreise zur Darstellung der Metriküberschneidung von bis zu drei Segmenten. |
 
 ## Visualisierungen zu einem Bedienfeld hinzufügen
 
@@ -48,19 +48,19 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
 1. Verwenden Sie eine der folgenden Methoden, um die Visualisierung hinzuzufügen:
 
-   * Wählen Sie in der linken Leiste die **Visualisierungen** icon <!-- add icon -->, und ziehen Sie eine Visualisierung in den Bereich, dem Sie sie hinzufügen möchten.
+   * Wählen Sie in der linken Leiste die **Visualisierung** icon <!-- add icon -->, und ziehen Sie eine Visualisierung in den Bereich, dem Sie sie hinzufügen möchten.
 
-      ![](assets/viz-rail.png)
+     ![](assets/viz-rail.png)
 
    * Wählen Sie im Bereich, in dem Sie die Visualisierung hinzufügen möchten, die **Plus** und wählen Sie dann das Symbol aus, das die Visualisierung darstellt, die Sie hinzufügen möchten. Bewegen Sie den Mauszeiger über das Symbol für jede Visualisierung, um den Namen anzuzeigen.
 
-      ![Schaltfläche zum Hinzufügen einer Visualisierung](assets/visualization-add-to-panel.png)
+     ![Schaltfläche zum Hinzufügen einer Visualisierung](assets/visualization-add-to-panel.png)
 
    * Hinzufügen einer [leeres Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=de)und wählen Sie dann die Visualisierung aus, die Sie hinzufügen möchten.
 
-      ![Leeres Bedienfeld](assets/blank_panel.png)
+     ![Leeres Bedienfeld](assets/blank_panel.png)
 
-   * Klicken Sie mit der rechten Maustaste auf ein vorhandenes Bedienfeld in Ihrem Analysis Workspace-Projekt und wählen Sie [!UICONTROL **Visualisierung duplizieren**] oder [!UICONTROL **Visualisierung kopieren**].
+   * Klicken Sie mit der rechten Maustaste auf einen vorhandenen Bereich in Ihrem Analysis Workspace-Projekt und wählen Sie [!UICONTROL **Visualisierung duplizieren**] oder [!UICONTROL **Visualisierung kopieren**].
 
 ## Anpassen von Visualisierungseinstellungen
 
@@ -87,7 +87,7 @@ Sie können die Einstellungen für alle von Ihnen erstellten Visualisierungen an
 | Einstellung | Beschreibung |
 | --- | --- |
 | Visualisierungstyp | Ändern Sie den visuellen Typ, der zur Darstellung der Daten verwendet wird. |
-| Granularität | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste aus. Diese Änderung gilt auch für die Datenquellentabelle. |
+| Granularität | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste. Diese Änderung gilt auch für die Datenquellentabelle. |
 | Prozentsatz | Zeigt Werte als Prozentzahlen an. |
 | 100 % gestapelt | Mit dieser Einstellung für die Visualisierungen „Bereich gestapelt“, „Balken gestapelt“ und „Horizontalbalken gestapelt“ wandeln Sie Diagramme in „zu 100 % gestapelte“ Visualisierungen um. Beispiel: ![Gestapelt 100%](assets/stacked_100_percent.png) |
 | Legende sichtbar | Hiermit können Sie den erklärenden Text zu Details für die Visualisierung „Zusammenfassungsnummer/Zusammenfassungsänderung“ ausblenden. |
