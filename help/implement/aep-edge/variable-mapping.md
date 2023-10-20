@@ -3,7 +3,7 @@ title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | `media.mediaTimed.thirdQuartiles.value` | Die Media Analytics-Metrik [75 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#seventy-five-progress-marker). |
 | `media.mediaTimed.timePlayed.value` | Die Media Analytics-Metrik [Besuchszeit für Inhalt](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-time-spent). |
 | `media.mediaTimed.totalTimePlayed.value` | Die Media Analytics-Metrik [Besuchszeit für Medien](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-time-spent). |
-| `placeContext.geo.latitude` | Die Mobile-Dimension „Breitengrad“. |
-| `placeContext.geo.longitude` | Die Mobile-Dimension „Längengrad“. |
+| `placeContext.geo._schema.latitude` | Die Mobile-Dimension „Breitengrad“. |
+| `placeContext.geo._schema.longitude` | Die Mobile-Dimension „Längengrad“. |
 | `placeContext.geo.postalCode` | Die Dimension [Postleitzahl](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | Die Dimension [US-Bundesstaaten](../../components/dimensions/us-states.md). |
 | `placeContext.localTime` | Hilft beim Ausfüllen der [Zeitzonen](/help/analyze/reports-analytics/reports.md) in Reports &amp; Analytics. Erscheint in [Daten-Feeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) als `t_time_info`. |
