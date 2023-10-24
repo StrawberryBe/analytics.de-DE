@@ -2,7 +2,7 @@
 description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
 title: Reporting Activity Manager Übersicht
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # Übersicht über die Berichterstellung in Activity Manager
-
-{{release-limited-testing}}
 
 Die [!UICONTROL Reporting Activity Manager] ist für Administratoren verfügbar.
 
