@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '5136'
+source-wordcount: '5165'
 ht-degree: 96%
 
 ---
@@ -25,8 +25,10 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **Oktober 2023** | |
+| Protokollinformationen zum Reporting Activity Manager hinzugefügt | Es wurden Informationen zu [Annullierungen und nachfolgende Beschränkungen der Berichtstätigkeit](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) im Reporting-Aktivitäts-Manager werden im [Protokolle](/help/admin/admin/logs.md). |
 | **September 2023** | |
-| Die Struktur der Artikel für das Bedienfeld &quot;Besuchszeit für Medienwiedergabe&quot;wurde aktualisiert | Der Ordner &quot;Media Play-back Time Spent&quot;wurde entfernt und der Inhalt des Ordners in einen einzigen Artikel zusammengefasst: [Bedienfeld &quot;Besuchszeit für Medienwiedergabe&quot;](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Diese Änderung entspricht eher der Dokumentation für andere Bedienfelder.</p> |
+| Struktur von Artikeln für das Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“ wurde aktualisiert | Der Ordner „Bei Medienwiedergabe verbrachte Zeit“ wurde entfernt und der Inhalt des Ordners in einem einzigen Artikel zusammengefasst: [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Diese Änderung entspricht eher der Dokumentation für andere Bedienfelder.</p> |
 | Inhaltsverbesserungen für die ersten Schritte | Es wurden Informationen hinzugefügt, in denen wichtige Aufgaben und Ressourcen für den Einstieg von Administratoren, Analysten, Endbenutzern und Entwicklern erläutert werden. Die folgenden neuen Artikel sind jetzt verfügbar: <ul><li>[Erste Schritte (nach Rolle)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Grundlagen der Analytics-Oberfläche](/help/analyze/get-started/analytics-interface.md)<li>[Anwendungsbeispiele](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Verbesserungen der Dokumentation zur Berichterstellung für Media Analytics | Einige Inhalte im Abschnitt &quot;Berichterstellung&quot;des Streaming-Medien-Handbuchs wurden neu organisiert, einschließlich der Konsolidierung der API-Dokumentation in ihrem eigenen Abschnitt und der Anpassung der Reihenfolge einiger Artikel. <p>Der Artikel &quot;Vorlagen für Media Workspace&quot;wurde in [Medienberichte in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=de) , um die Produktbenennung besser anzupassen. </p> |
 | **August 2023** | |

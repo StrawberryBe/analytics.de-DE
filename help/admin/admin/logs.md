@@ -3,9 +3,9 @@ description: Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben
 title: Protokolle
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '603'
 ht-degree: 67%
 
 ---
@@ -38,17 +38,17 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 
 | Ereignistyp | Beschreibung |
 | --- | --- |
-| Keine Kategorie | Kann ein beliebiger Ereignistyp sein. |
+| Keine Kategorie | Kann jeder Ereignistyp sein. |
 | Anmeldung fehlgeschlagen | Der Benutzeranmeldungsprozess ist fehlgeschlagen. |
 | Anmeldung erfolgreich | Benutzer hat sich erfolgreich angemeldet. |
-| Admin-Aktion | Es kam zu einer Administratoraktion, z. B. zum Bearbeiten einer Report Suite, zum Ändern der Unternehmenseinstellungen, zum Erstellen eines Benutzers usw. |
+| Administratoraktion | Es kam zu einer Administratoraktion, z. B. zum Bearbeiten einer Report Suite, zum Ändern der Unternehmenseinstellungen, zum Erstellen eines Benutzers, zum Abbrechen einer Reporting-Anforderung usw. |
 | Änderung der Sicherheitseinstellung | Eine Sicherheitseinstellung wurde geändert. |
-| Bericht angezeigt | Ein Reports &amp; Analytics-Bericht wurde angezeigt. |
+| Angezeigte Berichte | Ein Reports &amp; Analytics-Bericht wurde angezeigt. |
 | Bericht heruntergeladen | Ein Reports &amp; Analytics-Bericht wurde heruntergeladen. |
 | Warnhinweis gesendet | Es wurde ein Warnhinweis gesendet. |
 | Benutzeraktion | Die Benutzerinformationen wurden bearbeitet. |
 | Tool angezeigt | Ein Tool wurde angezeigt. |
-| Omniture-Aktion | Eine Aktion wurde von Adobe ausgeführt. |
+| Omniture-Aktion | Eine Aktion wurde von Adobe durchgeführt. |
 | Kennwortwiederherstellung | Ein Passwort wurde wiederhergestellt. |
 | BookMarks | Ein Lesezeichen wurde verwaltet. |
 | Dashboards | Ein Dashboard wurde verwaltet. |
@@ -61,7 +61,7 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Seiten benennen | Nicht mehr verwendet |
 | Klassifizierungen | Eine Classification wurde verwaltet. |
 | Datenquellen | Eine Datenquelle wurde verwaltet. |
-| Workspace-Projekt | Ein Workspace-Projekt wurde angezeigt oder bearbeitet. |
+| Analysis Workspace-Projekt | Ein Workspace-Projekt wurde angezeigt oder bearbeitet. |
 | Segment | Ein Segment wurde erstellt/bearbeitet. |
 | Berechnete Metrik | Eine berechnete Metrik wurde erstellt/bearbeitet. |
 | Datumsbereich | Ein Datumsbereich wurde erstellt/bearbeitet. |

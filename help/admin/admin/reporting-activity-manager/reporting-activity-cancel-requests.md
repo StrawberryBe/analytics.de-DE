@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
 title: Abbrechen von Berichtsanforderungen im Reporting Activity Manager
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1417'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,11 @@ Beachten Sie beim Abbrechen von Berichtsanforderungen Folgendes:
 
 * Sie können bestimmte Anforderungen abbrechen, alle Anforderungen eines bestimmten Benutzers abbrechen oder alle Anforderungen im Zusammenhang mit einem bestimmten Projekt abbrechen.
 
+  Wenn Sie eine Anforderung abbrechen, wird die Aktion im [Protokolle](/help/admin/admin/logs.md). Die [!UICONTROL **Ereignistyp**] -Spalte wird als [!UICONTROL **Administratoraktion**] und eine Beschreibung der Stornierung finden Sie im Abschnitt [!UICONTROL **Ereignis**] Spalte.
+
 * Wenn Sie Anforderungen abbrechen, können Sie auch nachfolgende Anforderungen für einen bestimmten Zeitraum einschränken.
+
+  Wenn Sie eine nachfolgende Anforderung einschränken, wird die Aktion im [Protokolle](/help/admin/admin/logs.md). Die [!UICONTROL **Ereignistyp**] -Spalte wird als [!UICONTROL **Administratoraktion**] und eine Beschreibung der Beschränkung finden Sie im Abschnitt [!UICONTROL **Ereignis**] Spalte.
 
 * Sie können eine Anforderung nicht abbrechen, wenn die Variable [!UICONTROL **Benutzer**] -Spalte einer Anforderung wird als [!UICONTROL **Nicht erkannt**]. In diesem Fall bedeutet dies, dass sich der Benutzer in einem Anmeldeunternehmen befindet, für das Sie keine Administratorberechtigungen haben.
 
