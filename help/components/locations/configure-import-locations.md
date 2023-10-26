@@ -3,9 +3,10 @@ description: Konfigurieren Sie das Cloud-Importkonto und den Speicherort, an den
 keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Importspeicherorten
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '543'
 ht-degree: 8%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 8%
 
 Bevor Sie Adobe Analytics-Classification-Daten aus einem Cloud-Ziel importieren können, müssen Sie das Konto und den Speicherort in diesem Konto hinzufügen und konfigurieren, in dem die Classification-Daten erfasst werden sollen.
 
-Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.) und des Speicherorts innerhalb des Kontos (z. B. eines Ordners innerhalb des Kontos).
+Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.) und des Speicherorts im Konto (z. B. eines Ordners innerhalb des Kontos).
 
 So konfigurieren Sie einen Cloud-Importspeicherort:
 
@@ -26,11 +27,11 @@ So konfigurieren Sie einen Cloud-Importspeicherort:
 1. Auswählen [!UICONTROL **Ort hinzufügen**]. <!-- add screenshot? -->
 
    Das Dialogfeld Standort wird angezeigt.
-1. Geben Sie die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name**] | Der Name des Standorts.  | | [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, das Sie in erstellt haben. [Konto hinzufügen](#add-an-account). |
+1. Geben Sie die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name**] | Der Name des Standorts.  | | [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, das Sie in [Konto hinzufügen](#add-an-account). |
 
-1. Im [!UICONTROL **Standorteigenschaften**] -Abschnitt Informationen zum Kontotyp Ihres Standortkontos angeben.
+1. Im [!UICONTROL **Standorteigenschaften**] Informationen zum Kontotyp Ihres Standortkontos angeben.
 
-   Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem Kontotyp entspricht, den Sie in der Variablen [!UICONTROL **Standortkonten**] -Feld.
+   Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem Kontotyp entspricht, den Sie in der [!UICONTROL **Standortkonten**] -Feld.
 
    +++Amazon S3 Role ARN
 
@@ -38,7 +39,7 @@ So konfigurieren Sie einen Cloud-Importspeicherort:
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Behältername**] | Der Behälter in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN Zugriff auf das Hochladen von Dateien in diesen Behälter hat. |
+   | [!UICONTROL **Behältername**] | Der Behälter in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. |
    | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: folder_name/ |
 
    {style="table-layout:auto"}
@@ -51,7 +52,7 @@ So konfigurieren Sie einen Cloud-Importspeicherort:
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Behältername**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal Berechtigungen zum Hochladen von Dateien in diesen Bucket erteilt haben. |
+   | [!UICONTROL **Behältername**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal die Berechtigung zum Hochladen von Dateien in diesen Bucket erteilt haben. |
    | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: folder_name/ |
 
    {style="table-layout:auto"}

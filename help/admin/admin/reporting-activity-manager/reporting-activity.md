@@ -4,10 +4,10 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
 source-wordcount: '1892'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -140,7 +140,7 @@ Wenn Sie die [!UICONTROL **Anfrage**] -Tab, stehen in der Tabelle die folgenden 
 
 | Spalte | Beschreibung |
 | --- | --- |
-| [!UICONTROL **Antrags-ID**] | Eine eindeutige ID, die zur Fehlerbehebung verwendet werden kann. Um die ID zu kopieren, wählen Sie die Anforderung und dann die Option aus. [!UICONTROL **Anforderungs-ID kopieren**]. |
+| [!UICONTROL **Antrags-ID**] | Eine eindeutige ID, die zur Fehlerbehebung verwendet werden kann. Um die ID zu kopieren, wählen Sie die Anforderung und dann die Option aus. [!UICONTROL **Anforderungs-IDs kopieren**]. |
 | [!UICONTROL **Ausführungszeit**] | Dauer der Ausführung der Anfrage. |
 | [!UICONTROL **Startzeit**] | Der Zeitpunkt, zu dem die Anfrage verarbeitet wurde (basierend auf der Ortszeit des Administrators). |
 | [!UICONTROL **Wartezeit**] | Wie lange die Anfrage vor der Verarbeitung gewartet hat. Dieser Wert liegt im Allgemeinen bei &quot;0&quot;, wenn ausreichend Kapazität vorhanden ist. |
