@@ -4,10 +4,10 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 40%
+source-wordcount: '1179'
+ht-degree: 39%
 
 ---
 
@@ -35,20 +35,19 @@ So erstellen Sie ein Schnellsegment:
 
    * **Ad Hoc (Drag &amp; Drop):** Ziehen Sie eine Komponente aus der linken Leiste in die Dropzone neben dem **Segment** Symbol in der Bedienfeldüberschrift und wählen Sie dann die **Bearbeiten** -Symbol, um das Segment anzupassen.
 
-      ![Bearbeiten von Ad-hoc-Segmenten](assets/filter-adhoc-edit.png)
+     ![Bearbeiten von Ad-hoc-Segmenten](assets/filter-adhoc-edit.png)
 
-      >[!NOTE]
-      >
-      > Beachten Sie beim Erstellen eines Schnellsegment Ad Hoc (Drag &amp; Drop) Folgendes:
-      > * Die folgenden Komponententypen werden nicht unterstützt: berechnete Metriken und Dimensionen sowie Metriken, aus denen Sie keine Segmente erstellen können.
-      > * Bei vollständigen Dimensionen und Ereignissen erstellt Analysis Workspace Hit-Segmente mit „vorhanden“. Beispiele: `Hit where eVar1 exists` oder `Hit where event1 exists`.
-      > * Wenn &quot;nicht angegeben&quot;oder &quot;keine&quot;in der Segment-Dropzone abgelegt werden, wird sie automatisch in ein Segment &quot;nicht vorhanden&quot;konvertiert, damit es in Segmenten korrekt behandelt wird.
-
+     >[!NOTE]
+     >
+     > Beachten Sie beim Erstellen eines Schnellsegment Ad Hoc (Drag &amp; Drop) Folgendes:
+     > * Die folgenden Komponententypen werden nicht unterstützt: berechnete Metriken und Dimensionen sowie Metriken, aus denen Sie keine Segmente erstellen können.
+     > * Bei vollständigen Dimensionen und Ereignissen erstellt Analysis Workspace Hit-Segmente mit „vorhanden“. Beispiele: `Hit where eVar1 exists` oder `Hit where event1 exists`.
+     > * Wenn &quot;nicht angegeben&quot;oder &quot;keine&quot;in der Segment-Dropzone abgelegt werden, wird sie automatisch in ein Segment &quot;nicht vorhanden&quot;konvertiert, damit es in Segmenten korrekt behandelt wird.
 
 
    * **Verwenden des Segmentsymbols:** Wählen Sie in einer Freiformtabelle die **Segment** in der Bedienfeldüberschrift.
 
-      ![Segmentfilter](assets/quick-seg1.png)
+     ![Segmentfilter](assets/quick-seg1.png)
 
 1. Passen Sie eine der folgenden Einstellungen an:
 
@@ -62,7 +61,7 @@ So erstellen Sie ein Schnellsegment:
    | Plus (+)-Zeichen | Eine weitere Regel hinzufügen |
    | AND/OR-Kennzeichung | Sie können den Regeln „AND“ oder „OR“ hinzufügen, aber Sie können „AND“ und „OR“ aber nicht in einer Segmentdefinition kombinieren. |
    | [!UICONTROL Übernehmen] | Dieses Segment auf das Panel anwenden. Wenn das Segment keine Daten enthält, werden Sie gefragt, ob Sie fortfahren möchten. |
-   | [!UICONTROL Builder öffnen] | Öffnet Segment Builder. Nachdem Sie das Segment im Segmentaufbau gespeichert oder angewendet haben, wird es nicht mehr als &quot;Schnellsegment&quot;betrachtet. Es wird Teil der Segmentbibliothek der Komponentenliste. <p>Um die Komponente für alle Projekte und in der linken Leiste verfügbar zu machen, wählen Sie die Option [!UICONTROL **Dieses Segment für alle Projekte verfügbar machen und es zu Ihrer Komponentenliste hinzufügen**].</p><p>Weitere Informationen finden Sie im Abschnitt . [Speichern eines Schnellsegments als Komponentensegment-Segment](#save-a-quick-segment-as-a-component-list-segment) in diesem Artikel.</p><p>**Hinweis:** Nur Benutzer mit der Berechtigung Segmenterstellung im [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=de#analytics-tools) kann den Segment Builder öffnen.</p> |
+   | [!UICONTROL Builder öffnen] | Öffnet Segment Builder. Nachdem Sie das Segment im Segmentaufbau gespeichert oder angewendet haben, wird es nicht mehr als &quot;Schnellsegment&quot;betrachtet. Es wird Teil der Segmentbibliothek der Komponentenliste. <p>Um die Komponente für alle Projekte und in der linken Leiste verfügbar zu machen, wählen Sie die Option [!UICONTROL **Dieses Segment für alle Projekte verfügbar machen und es zu Ihrer Komponentenliste hinzufügen**].</p><p>Weitere Informationen finden Sie im Abschnitt . [Schnellsegment als Komponentensegment speichern](#save-a-quick-segment-as-a-component-list-segment) in diesem Artikel.</p><p>**Hinweis:** Nur Benutzer mit der Berechtigung Segmenterstellung im [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) kann den Segment Builder öffnen.</p> |
    | [!UICONTROL Abbrechen] | Abbrechen dieses Schnellsegments (wenden Sie es nicht an). |
    | [!UICONTROL Datumsbereich] | Der Validator verwendet den Datumsbereich des Panels für die Datensuche. Doch jeder in einem Schnellsegment angewendete Datumsbereich überschreibt den Datumsbereich des Panels im oberen Bereich des Panels. |
    | Vorschau (oben rechts) | Ermöglicht festzustellen, ob ein gültiges Segment vorhanden ist und wie groß es ist. Stellt eine Aufschlüsselung des Datensatzes dar, der bei der Anwendung dieses Segments zu erwarten ist. Möglicherweise erhalten Sie den Hinweis, dass dieses Segment über keine Daten verfügt. In diesem Fall können Sie die Segmentdefinition fortsetzen oder ändern. |
@@ -85,12 +84,11 @@ So erstellen Sie ein Schnellsegment:
 >
 > Beachten Sie beim Speichern eines Schnellsegments Folgendes:
 > 
-> * Um ein Schnellsegment zu speichern, benötigen Sie die Berechtigung Segmenterstellung im [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=de#analytics-tools).
+> * Um ein Schnellsegment zu speichern, benötigen Sie die Berechtigung Segmenterstellung im [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md).
 > 
 > * Nachdem Sie das Segment gespeichert oder angewendet haben, kann es nicht mehr im Quick Segment Builder bearbeitet werden. Stattdessen müssen Sie den regulären Segment Builder verwenden.
 
-
-Sie können schnelle Segmente als Komponentensegmente speichern. Vorteile von Komponenten-Listensegmenten:
+Sie können Schnellsegmente als Komponentensegmente speichern. Vorteile von Komponenten-Listensegmenten:
 
 * Verfügbarkeit aller Workspace-Projekte
 * Unterstützung komplexerer Segmente sowie sequenzieller Segmente

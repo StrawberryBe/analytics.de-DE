@@ -3,10 +3,10 @@ title: Fehlerbehebung bei Sitzungen in Adobe Analytics
 description: Erfahren Sie, wie Sie Probleme bei der Abmeldung von Adobe Analytics beheben können.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -34,5 +34,5 @@ Um dieses Problem zu beheben, empfiehlt Adobe, mit dem IT-Team Ihres Unternehmen
 
 Informationen zu Symantec-Proxys und Authentifizierungs-Headern finden Sie hier:
 
-* [Konfigurieren der Upstream-Proxy-Authentifizierung in einer Proxy-Kettenbereitstellung auf einer ProxySG- oder ASG-Appliance](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [Konfigurieren der Upstream-Proxy-Authentifizierung in einer Proxy-Kettenbereitstellung auf einer ProxySG- oder ASG-Appliance](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
 * [Weiterleiten von Anmeldeinformationen von Benutzern an einen Server hinter der ProxySG-Einheit](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
