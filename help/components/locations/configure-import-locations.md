@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Importspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ So konfigurieren Sie einen Cloud-Importspeicherort:
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten in das Konto und den Speicherort importieren, die Sie konfiguriert haben.
+   Sie können jetzt Daten aus dem Konto und dem Speicherort importieren, die Sie konfiguriert haben.
+
+   Nach dem Import werden die Daten nicht mehr aus dem Cloud-Ziel gelöscht.
+
+   >[!NOTE]
+   >
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+

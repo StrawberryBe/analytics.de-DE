@@ -3,7 +3,7 @@ description: Hochladen von Datendateien über FTP.
 title: FTP-Import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 81%
@@ -18,7 +18,7 @@ ht-degree: 81%
 >
 >FTP wird nicht empfohlen, da es sich um eine unverschlüsselte Methode der Dateifreigabe handelt. Dies bedeutet, dass jeder den Dateiinhalt sowie den Benutzernamen und das Kennwort für das Konto abfangen kann.
 >
->Konfigurieren Sie stattdessen ein Cloud-Konto, wie unter [Konfigurieren von Cloud-Importspeicherorten](/help/components/locations/configure-import-accounts.md).
+>Konfigurieren Sie stattdessen ein Cloud-Konto, wie unter [Konfigurieren von Cloud-Importkonten](/help/components/locations/configure-import-accounts.md).
 
 In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
