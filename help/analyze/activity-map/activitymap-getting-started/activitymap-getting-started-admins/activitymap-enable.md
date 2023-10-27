@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: 87c2f559990674ee738e1ad57166cf192d58232c
+source-git-commit: d4caf0ddc5cf5402bfef94a64db1c00e1c725658
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 66%
+ht-degree: 74%
 
 ---
 
@@ -18,27 +18,27 @@ Erläutert die Schritte, die der Analytics-Administrator ausführen muss, um die
 
 ## Schritt 1. Implementierungscode aktualisieren {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-Das Activity Map-Modul ist Teil von AppMeasurement.js und des Web SDK (Version 2.15.0 oder höher).
+Das Activity Map-Modul ist Teil der AppMeasurement.js und des Web SDK (Version 2.15.0 oder höher).
 Die AppMeasurement-Bibliothek oder das Web-SDK lädt das Activity Map-Modul bei der Instanziierung.
 
 >[!NOTE]
 >
->Activity Map-Daten können nur erfasst werden, wenn Sie auf **AppMeasurement** **Version 1.6** oder höher oder **Web SDK** **Version 2.15.0** oder höher
+>Activity Map-Daten können nur erfasst werden, wenn Sie auf **AppMeasurement** **Version 1.6** oder höher oder **Web SDK** **Version 2.15.0** oder höher.
 
 
 1. Laden Sie die neueste JavaScript-Bibliothek herunter, je nachdem, ob Sie AppMeasurement oder Web SDK verwenden.
 
-   - **AppMeasurement** Code (AppMeasurement_Javascript-1.6.zip), indem Sie zu  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Code-Manager]** und [implementieren](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=de).
+   - **AppMeasurement** Code (AppMeasurement_Javascript-1.6.zip), indem Sie  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Code-Manager]** und [implementieren](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=de).
 
-      Der verfügbare [Beispiel-Implementierungscode](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) veranschaulicht die Änderungen, die am Code durch Einbindung des Activity Map-Moduls vorgenommen wurden.
+     Der verfügbare [Beispiel-Implementierungscode](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) veranschaulicht die Änderungen, die am Code durch Einbindung des Activity Map-Moduls vorgenommen wurden.
 
    - **Web SDK** Code (legierung.js). Siehe [Installieren des SDK - Option 2: Installieren der vordefinierten eigenständigen Version](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de#option-2%3A-installing-the-prebuilt-standalone-version) für weitere Informationen. Stellen Sie sicher, dass Sie Version 2.15 oder höher verwenden.
 
-      Siehe [Links verfolgen](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) für Informationen zur Implementierung des Linktrackings und zur Aktivierung der Aktivitätszuordnung durch Erfassen der `region` des angeklickten HTML-Elements.
+     Siehe [Links verfolgen](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) für Informationen zur Implementierung des Linktrackings und zur Aktivierung der Aktivitätszuordnung durch Erfassen der `region` des angeklickten HTML-Elements.
 
-      >[!NOTE]
-      >
-      >Durch die Aktivierung des Linktrackings mit dem Web SDK werden derzeit Linkereignisse gesendet, wenn ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden.
+     >[!NOTE]
+     >
+     >Durch die Aktivierung von Linktracking mit dem Web SDK werden derzeit Link-Ereignisse gesendet, wenn eine Kundin oder ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden.
 
 
 1. Validieren Sie die Implementierung:
