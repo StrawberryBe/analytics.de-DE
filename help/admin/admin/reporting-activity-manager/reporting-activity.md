@@ -4,9 +4,9 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ Weitere Informationen zum Reporting Activity Manager, einschließlich der wichti
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. Zeigen Sie Nutzungsinformationen zu den einzelnen Report Suites an. Sie können eine Spaltenüberschrift auswählen, um die Tabelle nach dieser Spalte zu sortieren.
+1. Zeigen Sie Nutzungsinformationen zu den einzelnen Report Suites an. Die in der Tabelle angezeigten Daten stellen die Berichtsaktivität für die Report Suite zum Zeitpunkt des letzten Ladevorgangs der Seite dar.
 
    Die folgenden Spalten sind verfügbar:
 
@@ -46,7 +46,7 @@ Weitere Informationen zum Reporting Activity Manager, einschließlich der wichti
    | **[!UICONTROL Kapazitätsauslastung]** | Der Prozentsatz der verwendeten Berichtskapazität der Report Suite in Echtzeit. <p>**Hinweis** Eine Nutzungskapazität von 100 % bedeutet nicht unbedingt, dass Sie sofort mit dem Abbrechen von Berichtsanfragen beginnen sollten. 100 % der Nutzkapazität können gesund sein, wenn die durchschnittliche Wartezeit vernünftig ist. Andererseits könnte die Nutzungskapazität von 100 % auf ein Problem hindeuten, wenn auch die Anzahl der Anforderungen in der Warteschlange wächst.</p> |
    | **[!UICONTROL Anfragen in der Warteschlange]** | Die Anzahl der zu verarbeitenden Anforderungen. <!-- ??? --> |
    | **[!UICONTROL Wartezeit in der Warteschlange]** | Die durchschnittliche Wartezeit, bevor die Verarbeitung von Anforderungen beginnt. <!-- ???? --> |
-   | **[!UICONTROL Status]** | Folgende Status sind möglich: <ul><li>[!UICONTROL **Aktiv**] (blau): Berichte wurden für die Report Suite ausgeführt und werden auf Aktivität überwacht.</li><li>[!UICONTROL **Inaaktiv**] (grau): Für die Report Suite wurden bisher keine Berichte ausgeführt. Dieser Status wird nur angezeigt, wenn Report Suites zum ersten Mal erstellt werden.</li></ul> |
+   | **[!UICONTROL Status]** | Folgende Status sind möglich: <ul><li>[!UICONTROL **Aktiv**] (blau): Berichte wurden in den letzten 2 Stunden für die Report Suite ausgeführt. Die in der Tabelle angezeigten Daten stellen die Berichtskapazität für die Report Suite zum Zeitpunkt des letzten Ladevorgangs der Seite dar.</li><li>[!UICONTROL **Inaaktiv**] (grau): In den letzten 2 Stunden wurden keine Berichte für die Report Suite ausgeführt, sodass keine Daten für die Report Suite angezeigt werden.</li></ul> |
 
    {style="table-layout:auto"}
 
