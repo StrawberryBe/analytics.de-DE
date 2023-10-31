@@ -3,10 +3,10 @@ title: Implementieren mit AMP
 description: Implementieren Sie Adobe Analytics auf AMP-Seiten.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 71%
 
 ---
 
@@ -18,34 +18,34 @@ Da Adobe Analytics zum Kompilieren und Senden einer Bildanforderung eine JavaScr
 
 ## Festlegen der Methode zum Implementieren von Adobe Analytics auf Seiten mit AMP
 
-Adobe bietet zwei Methoden zum Implementieren von Adobe Analytics auf Seiten mit AMP. Beide verwenden das HTML-Tag `<amp-analytics>`. Weitere Informationen finden Sie in der Dokumentation von Accelerated Mobile Pages (AMP) unter [amp-analytics-Tag](https://amp.dev/de/documentation/components/amp-analytics).
+Adobe bietet zwei Methoden zum Implementieren von Adobe Analytics auf Seiten mit AMP. Beide verwenden das HTML-Tag `<amp-analytics>`. Siehe [amp-analytics](https://amp.dev/de/documentation/components/amp-analytics) Weitere Informationen finden Sie in der AMP-Dokumentation .
 
-* **Tracking-Vorlage `"adobeanalytics"` verwenden**: Erstellen Sie die Analytics-Anforderung direkt auf der Seite
-* **`"analytics_nativeConfig"` Tracking-Vorlage verwenden**: Verwenden Sie einen iFrame, der denselben AppMeasurement-Code enthält, den Sie auf Ihrer normalen Website bereitstellen
+* **Verwenden Sie die `"adobeanalytics"` template**: Erstellen Sie die Analytics-Anforderung direkt auf der Seite
+* **Verwenden Sie die `"analytics_nativeConfig"` template**: Verwenden Sie einen iframe, der denselben AppMeasurement-Code enthält, den Sie auf Ihrer normalen Site bereitstellen.
 
 In der folgenden Tabelle werden die beiden Methoden verglichen:
 
-|  | **„adobeanalytics“-Vorlage** | **„adobeanalytics_nativeConfig“-Vorlage** |
+|   | **`"adobeanalytics"`bearbeiten** | **`"adobeanalytics_nativeConfig"`bearbeiten** |
 |---|---|---|
 | Besucher-/Besuchsanzahlen in bestehender Report Suite | Hohe Inflation | Minimale Inflation |
 | Separate Report Suite verwenden | Empfohlen | Nicht erforderlich |
 | Neue vs. wiederkehrende Besucher | Nicht unterstützt | Unterstützt |
 | Besucher-ID-Service | Nicht unterstützt | Unterstützt |
 | Video- und Linktracking | Teilweise unterstützt | Noch nicht unterstützt |
-| Schwierigkeitsgrad der Implementierung | Eher schwierig | Relativ einfach |
+| Schwierigkeitsgrad der Implementierung | Schwierigkeit | Relativ einfach |
 | Integrationen mit Adobe Experience Cloud | Nicht unterstützt | Teilweise unterstützt |
 
-Legen Sie anhand der Vor- und Nachteile in Ihrer Organisation fest, welche Methode Sie verwenden möchten. Beispielcode finden Sie unter [AMP-Beispiele](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) im GitHub-Repository von Adobe.
+Legen Sie die Vor- und Nachteile ab, sodass Sie die beste Implementierungsmethode für Ihr Unternehmen auswählen können.
 
 >[!WARNING]
 >
 >Verwenden Sie mit AMP nicht sowohl die `"adobeanalytics"`- als auch die `"adobeanalytics_nativeConfig"`-Vorlage auf derselben Seite. Wenn Sie dies versuchen, können Sie Fehler in der Browser-Konsole erzeugen und Besucher doppelt zählen.
 
-## Methode 1: Verwenden des amp-analytics-Tags mit der Vorlage „adobeanalytics“
+## Methode 1: Verwenden Sie die `<amp-analytics>` Tag mit dem `"adobeanalytics"` template
 
 Die Tracking-Vorlage `"adobeanalytics"` nutzt das `<amp-analytics>`-HTML-Tag, um direkt eine Tracking-Anforderung zu erstellen. Sie können Trefferanforderungen angeben, die bei bestimmten Seitenereignissen ausgelöst werden, z. B. bei der Anzeige der Seite oder bei einem Klick. Klickereignisse können angepasst werden, um sie auf bestimmte Element-IDs oder Klassen anzuwenden, indem eine Auswahl angegeben wird. Sie können die Vorlage laden, indem Sie `type="adobeanalytics"` zum amp-analytics-Tag hinzufügen.
 
-Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `click`. Der Auslöser `pageLoad` erfolgt, wenn das Dokument sichtbar wird und die `pageName`-Variable, wie im `vars`-Abschnitt definiert, enthält. Der zweite Auslöser `click` erfolgt beim Klick auf eine Schaltfläche. Für `eVar1` wird bei diesem Ereignis der Wert `button clicked` festgelegt.
+Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `click`. Der Auslöser `pageLoad` erfolgt, wenn das Dokument sichtbar wird und die `pageName`-Variable, wie im `vars`-Abschnitt definiert, enthält. Der zweite Auslöser `click` erfolgt beim Klick auf eine Schaltfläche. Die `eVar1` für dieses Ereignis mit dem Wert festgelegt ist `button clicked`.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -78,25 +78,17 @@ Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `clic
 </amp-analytics>
 ```
 
-Im `click`-Auslöser können Sie eine Auswahl festlegen, um sicherzustellen, dass bei jedem Klick auf das spezifische DOM-Element (in diesem Fall jede Schaltfläche) die `buttonClick`-Anforderung ausgelöst und automatisch zum Markieren dieses Vorgangs als Linktracking-Aufruf festgelegt wird.
-
-Zudem unterstützt `amp-analytics` eine Anzahl von Variablenersetzungen, sodass AMP bekannte Datenwerte bereitstellen kann. Weitere Informationen finden Sie unter [In amp-analytics unterstützte Variablen](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) auf GitHub.
+Die `<amp-analytics>` Tag unterstützt Variablenersetzungen, sodass AMP bekannte Datenwerte bereitstellen kann. Weitere Informationen finden Sie unter [In unterstützte Variablen`amp-analytics` auf GitHub.](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)
 
 >[!NOTE]
 >
->Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einschließen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für die Bildanforderung enthalten sind. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md).
+>Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einbeziehen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für Bildanforderungen enthalten sind. Siehe [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md) für eine vollständige Liste der Abfrageparameter für Bildanforderungen und der zugehörigen Variablen.
 
-Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist für jede andere von Adobe Analytics festgelegte ID eindeutig (z. B. das `s_vi`-Cookie). Der Adobe Experience Cloud ID-Dienst wird bei dieser Implementierungsmethode nicht unterstützt.
-
->[!NOTE]
->
->AMP verwendet CDNs zur Bereitstellung von Inhalten. Dabei wird für jedes CDN, aus dem ein Besucher Inhalte abruft, ein anderer Unique Visitor gezählt wird, wodurch die Anzahl der Unique Visitors überhöht kann.
-
-Aufgrund der Art und Weise, auf die AMP Unique Visitors identifiziert, wird die Verwendung einer separaten Report Suite für AMP-Seiten empfohlen.
+Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist für jede andere von Adobe Analytics festgelegte ID eindeutig. Für jedes CDN, aus dem ein Besucher Inhalte abruft, wird ein anderer Unique Visitor gezählt, was die Anzahl der Unique Visitors erhöhen kann. Die Verwendung einer separaten Report Suite für AMP-Seiten wird dringend empfohlen, da AMP Unique Visitors identifiziert. Der Adobe Experience Cloud ID-Dienst wird nicht unterstützt.
 
 Bei dieser Lösung muss der von Ihnen in der `host`-Eigenschaft festgelegte Trackingserver dem Trackingserver auf Ihrer Haupt-Website entsprechen, damit Ihre Datenschutzrichtlinien eingehalten werden. Andernfalls erstellen Sie eine separate Datenschutzrichtlinie für Seiten, die AMP verwenden.
 
-## Methode 2: Verwenden des amp-analytics-Tags mit der Vorlage „adobeanalytics_nativeConfig“
+## Methode 2: Verwenden Sie die `<amp-analytics>` Tag mit dem `"adobeanalytics_nativeConfig"` template
 
 Das `"adobeanalytics_nativeConfig"`-Tag ist einfacher zu implementieren, da es dieselbe Tagging-Methode wie auf Ihren normalen Websites nutzt. Fügen Sie Ihrem `amp-analytics`-Tag Folgendes hinzu:
 
@@ -154,7 +146,7 @@ Außerdem ist eine auf Ihren Webservern gehostete HTML-Seite erforderlich:
 
 Bei diesem Ansatz werden Daten über Abfragezeichenfolgenparameter, die dem `iframeMessage`-Abfrageparameter hinzugefügt werden, an eine Dienstprogramm-Website gesendet. Diese Abfragezeichenfolgenparameter können beliebig benannt werden, solange Ihre `stats.html`-Seite so konfiguriert ist, dass sie die entsprechenden Daten daraus erfassen kann.
 
-Die `"adobeanalytics_nativeConfig"`-Vorlage kann zudem Abfragezeichenfolgenparameter hinzufügen, die auf den im `extraUrlParams`-Abschnitt des amp-analytics-Tags aufgeführten Variablen basieren. Im obigen Beispiel werden die Parameter `pageName` und `v1` einbezogen.
+Die `"adobeanalytics_nativeConfig"` -Vorlage fügt zudem Abfragezeichenfolgenparameter hinzu, die auf den Variablen basieren, die im `extraUrlParams` Abschnitt `<amp-analytics>` -Tag. Im obigen Beispiel werden die Parameter `pageName` und `v1` einbezogen.
 
 >[!IMPORTANT]
 >
@@ -166,13 +158,9 @@ Mit dieser Methode können Linktracking und die Video-Tracking nicht verwendet w
 
 ## Häufig gestellte Fragen
 
-**Ist Video-Tracking für beide Methoden verfügbar?**
-
-Nein. Der AMP-Standard unterstützt nur Auslöser für „visible“ (sichtbar), „click“ (Klick) und „timer“ (Timer). Es werden noch keine expliziten Auslöser für das Video-Tracking unterstützt, die vom `amp-analytics`-Tag überwacht werden können. Außerdem kann die Vorlage `"adobeanalytics_nativeConfig"` nur einmal geladen werden, sodass nachfolgende Bildanforderungen nach dem Laden einer Seite nicht möglich sind.
-
 **Wie können AMP-Besucher in den Daten von anderen unterschieden werden?**
 
-Die Dimension [!UICONTROL JavaScript-Version] erfasst für alle AMP-Seiten einen Wert ähnlich `AMP vX.X`. Sie können auch eine benutzerdefinierte Dimension auf „AMP“ festlegen, damit Sie diese Besucher segmentieren können.
+Die Dimension [!UICONTROL JavaScript-Version] erfasst für alle AMP-Seiten einen Wert ähnlich `AMP vX.X`. Sie können auch eine benutzerdefinierte Dimension auf &quot;AMP&quot;festlegen, damit Sie diese Besucher segmentieren können.
 
 **Wie ist diese Implementierungsmethode mit Facebook Instant Articles zu vergleichen?**
 
