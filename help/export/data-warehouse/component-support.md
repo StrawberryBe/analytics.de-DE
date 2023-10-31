@@ -3,10 +3,10 @@ title: Unterstützung von Komponenten in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 
 ### Nicht unterstützte Dimensionen
 
-* Einige zeitbasierte Dimensionen, darunter:
-   * Vormittag/Nachmittag
-   * Tag des Monats
-   * Wochentag
-   * Tag des Jahres
-   * Stunde des Tages
-   * Minute
-   * Monat des Jahres
-   * Quartal des Jahres
-   * Wochentag/Wochenende
-   * Jahr
+* Vormittag/Nachmittag
 * Einige pfadbasierte Dimensionen, darunter:
    * Alle Entry-Dimensionen, außer Entrypage
    * Alle Exit-Dimensionen, außer Exitpage und Exitlink
@@ -59,7 +49,6 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Zeit vor Ereignis
    * Besuchszeit pro Seite – zusammengefasst
    * Zeit pro Besuch – zusammengefasst
-   * Besuchstiefe
 * Rangansicht aller Suchseiten
 * Hierarchievariablen
 * Treffertyp
@@ -78,4 +67,16 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Neuladungen
    * Einzelzugriff
    * Besuchszeit-Metriken
+* Beitragsmetriken (wie beschrieben in [Metrik &quot;Beitrag&quot;erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### Auf andere Weise unterstützte Dimensionen
+
+Die folgenden zeitbasierten Dimensionen werden unterstützt. Bei der Verwendung dieser Dimensionen ist die Ausgabe von Datumsangaben jedoch nicht standardmäßig. Insbesondere wird das Jahr um 1900 verrechnet und Monate sind nullbasiert.
+
+* Jahr
+* Quartal
+* Monat
+* Woche
+* Tag
+* Stunde
+* Minute
