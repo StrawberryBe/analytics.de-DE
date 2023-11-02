@@ -5,9 +5,9 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 93%
    + [Marketing-Kanal](dimensions/marketing-channel.md)
    + [Details zum Marketing-Kanal](dimensions/marketing-detail.md)
    + [Minute](dimensions/minute.md)
-   + [Mobile Lebenszyklusdimensionen](dimensions/lifecycle-dimensions.md)
-   + [Mobile Suchdimensionen](dimensions/mobile-dimensions.md)
+   + [Lebenszyklusdimensionen für Mobile](dimensions/lifecycle-dimensions.md)
+   + [Lookup-Dimensionen für Mobile](dimensions/mobile-dimensions.md)
    + [Bildschirmauflösung](dimensions/monitor-resolution.md)
    + [Monat des Jahres](dimensions/month-of-year.md)
    + [Monat](dimensions/month.md)
@@ -129,7 +129,7 @@ ht-degree: 93%
    + [Ausstiege](metrics/exits.md)
    + [Identifizierte Personen](metrics/identified-people.md)
    + [Instanzen](metrics/instances.md)
-   + [Mobile Lebenszyklusmetriken](metrics/lifecycle-metrics.md)
+   + [Lebenszyklusmetriken für Mobile](metrics/lifecycle-metrics.md)
    + [Mobilansichten](metrics/mobile-views.md)
    + [Neue Interaktionen](metrics/new-engagements.md)
    + [Vorfälle](metrics/occurrences.md)
@@ -219,8 +219,8 @@ ht-degree: 93%
    + [Kontextbezogene Sitzungen](vrs/vrs-mobile-visit-processing.md)
    + [Berichtszeitverarbeitung](vrs/vrs-report-time-processing.md)
    + [A4T-Überlegungen](vrs/vrs-a4t.md)
-   + [Häufig gestellte Fragen zu Virtual Report Suites](vrs/vrs-faq.md)
-   + [Virtual Report Suites und Überlegungen zum globalen/Multisuite-Tagging](vrs/vrs-considerations.md)
+   + [Virtual Report Suites – Häufig gestellte Fragen (FAQs)](vrs/vrs-faq.md)
+   + [Virtual Report Suites und globales/Multi-Suite-Tagging](vrs/vrs-considerations.md)
    + Virtual Report Suite – Workflow {#vrs-workflow}
       + [Virtual Report Suite – Workflow](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Virtual Report Suites erstellen](vrs/c-workflow-vrs/vrs-create.md)
@@ -233,7 +233,7 @@ ht-degree: 93%
    + [Geräteübergreifende Analyse einrichten](cda/setup.md)
    + [Funktionsweise der Wiederholung](cda/replay.md)
    + [CDA Workspace-Vorlage](cda/workspace-template.md)
-   + [Eine Virtual Report Suite auf bestimmte Daten beschränken](cda/limit-vrs-date.md)
+   + [Beschränken einer Virtual Report Suite auf bestimmte Daten](cda/limit-vrs-date.md)
    + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/faq.md)
 + Warnhinweise {#alerts}
    + [Intelligente Warnhinweise](c-alerts/intellligent-alerts.md)
