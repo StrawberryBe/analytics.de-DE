@@ -4,15 +4,15 @@ description: Die Systemanforderungen für die Verwendung von Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Systemanforderungen für Adobe Analytics und Voraussetzungen
 
-Bevor Sie mit der Implementierung von Adobe Analytics als Administrator oder der Verwendung als Analyst- oder Endbenutzer beginnen, sollten Sie sich zunächst mit den folgenden Voraussetzungen und Systemanforderungen vertraut machen:
+Bevor Sie mit der Implementierung von Adobe Analytics als Admin oder der Verwendung als Analystin bzw. Analyst oder als Endnutzerin bzw. Endbenutzer beginnen, sollten Sie sich zunächst mit den folgenden Voraussetzungen und Systemanforderungen vertraut machen:
 
 ## Voraussetzungen für die Verwendung von Adobe Analytics
 
@@ -20,11 +20,11 @@ Bevor Sie Adobe Analytics verwenden können, müssen Sie über Folgendes verfüg
 
 * Eine gültige Adobe Analytics-Lizenz
 
-  Adobe Analytics erfordert eine Site-Lizenz. Wenden Sie sich für weitere Informationen an Ihren Adobe-Kundenbetreuer. <!--is this phrased correctly? Is this important? -->
+  Adobe Analytics erfordert eine Site-Lizenz. Wenden Sie sich für weitere Informationen an Ihre Adobe Kundenbetreuung. <!--is this phrased correctly? Is this important? -->
 
-* Ein unterstützter Browser
+* Einen unterstützten Browser
 
-  Jeder Benutzer, der auf Adobe Analytics zugreift, muss einen unterstützten Browser verwenden. Weitere Informationen finden Sie unter [Systemanforderungen von Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=en).
+  Alle Benutzenden, die auf Adobe Analytics zugreifen, müssen einen unterstützten Browser verwenden. Weitere Informationen finden Sie in den [Systemanforderungen für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=de).
 
 <!-- are there more? -->
 
@@ -49,5 +49,5 @@ Die meisten Adobe Analytics-Lösungen, einschließlich Analysis Workspace, sind 
 
 Die Systemanforderungen dieser Lösungen finden Sie auf der verlinkten Seite der entsprechenden Lösung.
 
-* [Systemanforderungen für Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
+* [Report Builder Systemanforderungen](/help/analyze/report-builder/setup/system-requirements.md)
 * [Systemanforderungen für Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=de)
