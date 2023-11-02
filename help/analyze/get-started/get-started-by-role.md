@@ -4,25 +4,25 @@ title: Erste Schritte für Admins, Analystinnen und Analysten, Endbenutzerinnen 
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1891'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte für Admins, Analystinnen und Analysten, Endbenutzerinnen und Endbenutzer sowie Entwicklungspersonen
 
-In einer typischen Organisation gibt es vier Arten von Adobe Analytics-Benutzern:
+In einer typischen Organisation gibt es vier Arten von Adobe Analytics-Benutzenden:
 
-* **Administratoren:** Implementieren und konfigurieren Sie Adobe Analytics.
+* **Admins:** Implementieren und konfigurieren Adobe Analytics.
 
-* **Analysten:** Einrichten von Projekten und Erstellen von Analysen mit Analysis Workspace
+* **Analystinnen und Analysten:** Richten Projekte ein und erstellen Analysen mit Analysis Workspace
 
-* **Endbenutzer:** Verschaffen Sie sich umsetzbare Einblicke in Ihre Kunden, indem Sie entweder eigene Analysen erstellen oder mit Analytikern zusammenarbeiten, um diese zu erstellen.
+* **Endbenutzende:** Verschaffen sich umsetzbare Einblicke zu ihren Kundinnen und Kunden, indem sie entweder eigene Analysen erstellen oder sie in Zusammenarbeit mit Analytikerinnen und Analytikern erstellen lassen.
 
-* **Entwickler:** Verwenden Sie die Adobe Analytics 2.0-APIs, um direkt Adobe-Server aufzurufen, um fast alle Aktionen auszuführen, die in der Benutzeroberfläche ausgeführt werden können, z. B. die Erstellung von Berichten zur Untersuchung, das Abrufen von Einblicken oder die Beantwortung wichtiger Fragen zu Daten.
+* **Entwicklungspersonen:** Verwenden die Adobe Analytics 2.0-APIs, um Adobe-Server direkt aufzurufen und fast alle Aktionen auszuführen, die in der Benutzeroberfläche ausgeführt werden können. Dazu gehört etwa das Erstellen von Berichten, um Daten zu untersuchen, Einblicke zu ihnen zu erhalten oder wichtige Fragen über sie zu beantworten.
 
-Die folgenden Informationen zeigen, wie jeder dieser Benutzer mit Adobe Analytics beginnen kann.
+Im Folgenden wird beschrieben, wie diese Benutzerinnen und Benutzer jeweils mit Adobe Analytics beginnen können.
 
 ## Erste Schritte für Admins
 
@@ -78,7 +78,7 @@ Analytics-Admins sollten die folgenden Aufgaben ausführen, bevor sie Adobe Anal
 | Anomalieerkennung | Die Anomalieerkennung bietet eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. | [Übersicht über die Anomalieerkennung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=de) |
 | Beitragsanalyse | Die Beitragsanalyse erkennt versteckte Muster, mit denen sich statistische Anomalien erklären und Korrelationen für nicht erwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Anstiege oder Rückgänge für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lassen. | [Übersicht über die Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=de) |
 | Analytics-Segmentierung | Damit können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten Berichte zu erstellen. | [Analytics-Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) |
-| Veröffentlichen von Zielgruppen in Audience Manager | Adobe Audience Manager ist eine leistungsstarke Datenverwaltungsplattform, mit der Sie eindeutige Zielgruppenprofile aus Erstanbieter-, Zweitanbieter- (Partner-) und Drittanbieter-Datenintegrationen erstellen können. | [Audience Analytics-Übersicht](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de) |
+| Veröffentlichen von Zielgruppen in Audience Manager | Adobe Audience Manager ist eine leistungsfähige Datenverwaltungsplattform, mit deren Hilfe Sie eindeutige Zielgruppenprofile durch Integration von Daten aus erster, zweiter (Partner) und dritter Hand aufbauen können. | [Audience Analytics-Übersicht](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de) |
 | Integrationen | Sie können Informationen aus anderen Anwendungen in Adobe Analytics anzeigen lassen. <p>Im Folgenden finden Sie einige gängige Integrationen:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de">Media Analytics</a></li> | [Analytics-Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=de) |
 
 {style="table-layout:auto"}
