@@ -4,9 +4,9 @@ description: Betrachten Sie Mengen von Dimensionselementen oder Daten im Zeitver
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Analytics-Administrierende können Beschreibungen für Metriken und andere Kompo
 
 ## Verwenden von Metriken in Analysis Workspace
 
-Informationen zur Verwendung von Metriken in Analysis Workspace finden Sie unter [Metriken in Analysis Workspace verwenden](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Informationen zur Verwendung von Metriken in Analysis Workspace finden Sie unter [Verwenden von Metriken in Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
