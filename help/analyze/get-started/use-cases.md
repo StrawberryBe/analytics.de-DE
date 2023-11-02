@@ -1,21 +1,22 @@
 ---
-description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließlich Informationen zur Analytics-Oberfläche sowie Informationen zu den ersten Schritten für Administratoren, Analysten, Benutzer und Entwickler.
+description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließlich Informationen zur Analytics-Oberfläche sowie Informationen zu den ersten Schritten für Admins, Analystinnen und Analysten, Benutzende sowie Entwicklungspersonen.
 title: Anwendungsfälle für Analytics
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Anwendungsfälle für Analytics
 
-Im Folgenden finden Sie einige der wichtigsten Möglichkeiten, wie Adobe Analytics Unternehmen dabei unterstützt, wichtige Einblicke zu gewinnen, um ihren Kunden besser zu helfen.
+Im Folgenden finden Sie einige der wichtigsten Möglichkeiten, wie Adobe Analytics Unternehmen dabei unterstützt, wichtige Erkenntnisse zu gewinnen, damit sie ihren Kundinnen und Kunden besser dienen können.
 
-Weitere Informationen zu den Vorteilen, die Adobe Analytics bietet, finden Sie unter [Adobe Analytics-Produktseite](https://business.adobe.com/products/analytics/adobe-analytics.html).
+Weitere Informationen zu den Vorteilen, die Adobe Analytics bietet, finden Sie auf der [Produktseite von Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html?lang=de).
 
-## Webanalyse
+## Web-Analyse
 
 Adobe Analytics bietet die folgenden komplexen Segmentierungs- und Prognosewerkzeuge zur Analyse des Website-Traffics:
 
@@ -28,29 +29,29 @@ Adobe Analytics bietet die folgenden komplexen Segmentierungs- und Prognosewerkz
 
 ## Marketing-Analyse
 
-Adobe Analytics hilft Unternehmen dabei zu verstehen, wo Kunden mit ihren Marken interagieren, welche Kanäle sie bevorzugen und welche Erlebnisse bei ihnen Resonanz finden.
+Adobe Analytics hilft Unternehmen dabei, zu verstehen, wo Kundinnen und Kunden mit ihren Marken interagieren, welche Kanäle sie bevorzugen und welche Erlebnisse bei ihnen Resonanz finden.
 
-Die folgenden wichtigen Funktionen in Adobe Analytics bieten diese Marketingfunktionen:
+Die folgenden wichtigen Funktionen in Adobe Analytics bieten diese Marketing-Möglichkeiten:
 
-* [Multichannel-Datenerfassung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de)
+* [Kanalübergreifende Datenerfassung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de)
 
-* [Offline-Datenintegration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
+* [Offline-Datenintegration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=de)
 
 * [Ad-hoc-Analysen in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
 ## Attribution
 
-Mit Attribution können Unternehmen sehen, wie verschiedene Interaktionen auf der gesamten Journey die Konversion beeinflussen. Neben den herkömmlichen Attributionsoptionen wie Linear- oder Erstkontaktmodellen verwendet die Attribution in Adobe Analytics auch maschinelles Lernen und erweiterte statistische Modelle, um die genauen Auswirkungen jedes Kontakts zu verstehen.
+Mit Attribution können Unternehmen sehen, wie verschiedene Interaktionen auf der gesamten Journey die Konversion beeinflussen. Neben den herkömmlichen Attributionsoptionen wie Linear- oder Erstkontaktmodellen verwendet die Attribution in Adobe Analytics auch maschinelles Lernen und erweiterte statistische Modelle, um die genauen Auswirkungen jedes Kundenkontakts zu verstehen.
 
 Weitere Informationen finden Sie unter [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md).
 
-## Predictive Analytics
+## Prädiktive Analyse
 
-Predictive Analytics verwendet maschinelles Lernen und erweiterte statistische Modellierung, um Kundendaten zu analysieren, Muster zu finden und zukünftiges Verhalten wie Abwanderung oder eine Wahrscheinlichkeit für eine Konversion vorherzusagen. Dadurch können Datenanalysten von riesigen Datensätzen profitieren, die andernfalls verschwendet werden könnten.
+Prädiktive Analyse verwendet maschinelles Lernen und erweiterte statistische Modellierung, um Kundendaten zu analysieren, Muster zu finden und zukünftiges Verhalten wie Abwanderung oder eine Wahrscheinlichkeit für eine Konversion vorherzusagen. Dadurch können Datenanalystinnen und -analysten von riesigen Datensätzen profitieren, die andernfalls verschwendet wären.
 
-Die folgenden Schlüsselfunktionen in Adobe Analytics bieten diese Prognosefunktionen:
+Die folgenden Schlüsselfunktionen in Adobe Analytics bieten diese Prognosemöglichkeiten:
 
-* [Fehlererkennung](#anomaly-detection)
+* [Anomalieerkennung](#anomaly-detection)
 
 * [Beitragsanalyse](#contribution-analysis)
 
