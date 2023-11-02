@@ -5,9 +5,9 @@ title: Übersicht zu Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Verwenden Sie die folgenden Ressourcen, um die Grundlagen von Adobe Analytics ke
 
 | Dokumentationsressource | Funktion |
 |---------|----------|
-| [Erste Schritte (nach Rolle)](/help/analyze/get-started/get-started-by-role.md) | Enthält detaillierte Informationen zu den wichtigsten Funktionen und Aufgaben, die Sie kennen müssen, unabhängig davon, ob Sie Administrator, Analyst, Endbenutzer oder Entwickler sind. |
+| [Erste Schritte (nach Rolle)](/help/analyze/get-started/get-started-by-role.md) | Enthält detaillierte Informationen zu den wichtigsten Funktionen und Aufgaben, die Sie kennen müssen, unabhängig davon, ob Sie Admin, Analystin bzw. Analyst oder Entwicklungsperson sind. |
 | [Grundlagen der Analytics-Oberfläche](/help/analyze/get-started/analytics-interface.md) | Umfasst die wichtigsten Bereiche der Analytics-Oberfläche. |
-| [Anwendungsbeispiele](/help/analyze/get-started/use-cases.md) | Erläutert einige der wichtigsten Möglichkeiten, mit denen Adobe Analytics Unternehmen dabei unterstützt, wichtige Einblicke zu gewinnen, um ihren Kunden besser zu helfen. |
+| [Anwendungsbeispiele](/help/analyze/get-started/use-cases.md) | Darin werden einige der wichtigsten Möglichkeiten beschrieben, wie Adobe Analytics Unternehmen dabei unterstützt, wichtige Erkenntnisse zu gewinnen, damit sie ihren Kundinnen und Kunden besser dienen können. |
 | [Welches Adobe Analytics-Tool sollte ich verwenden?](/help/analyze/get-started/which-analytics-tool.md) | Enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. |
 | [Analytics – Produktvergleich und Voraussetzungen](/help/analyze/get-started/analytics-product-comparison.md) | Vergleicht die verschiedenen verfügbaren Adobe Analytics-Produkte. |
 | [Systemanforderungen](/help/analyze/get-started/sys-reqs.md) | Erläutert Voraussetzungen und Systemanforderungen für die Implementierung und Verwendung von Adobe Analytics. |
