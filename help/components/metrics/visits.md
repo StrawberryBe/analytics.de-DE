@@ -4,15 +4,15 @@ description: Eine Folge von Seitenansichten während einer Sitzung.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Besuche
 
-Die Besuche [Metrik](overview.md) zeigt die Anzahl der Sitzungen für alle Besucher Ihrer Site an.
+Die [Metrik](overview.md) „Besuche“ gibt die Anzahl der Sitzungen für alle Besucherinnen und Besucher Ihrer Site an.
 
 ## Berechnung dieser Metrik
 
