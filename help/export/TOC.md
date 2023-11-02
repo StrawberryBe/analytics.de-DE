@@ -5,7 +5,7 @@ user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds zum Exportieren von Rohdaten und Data Warehouse zum Abrufen einer Tabellenausgabe von Daten. Erfahren Sie, wie Sie FTP und SFTP zur Übertragung von Dateien einsetzen können.
 source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    + Erstellen einer Data Warehouse-Anforderung {#dw-create-request}
       + [Erstellen einer Data Warehouse-Anforderung](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [Allgemeine Einstellungen](/help/export/data-warehouse/create-request/dw-general-settings.md)
-      + [Erstellen Sie Ihren Bericht](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [Erstellen Ihres Berichts](/help/export/data-warehouse/create-request/dw-request-build-report.md)
       + [Berichtsziel](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
       + [Berichtsoptionen](/help/export/data-warehouse/create-request/dw-request-report-options.md)
       + [Planungsoptionen](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
