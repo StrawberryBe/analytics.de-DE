@@ -2,10 +2,11 @@
 description: Anzeigen und Verwalten von terminierten Berichten in der gesamten Organisation.
 title: Manager für geplante Projekte
 feature: Admin Tools
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
-workflow-type: tm+mt
+exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -13,19 +14,19 @@ ht-degree: 86%
 
 Geplante Analysis Workspace-Projekte können unter **Analytics > Komponenten > Geplante Projekte** verwaltet werden.
 
-Wenn Sie geplante Projekte verwalten, können Sie wiederkehrende Projektpläne bearbeiten und löschen:
+Wenn Sie geplante Projekte verwalten, können Sie Zeitpläne von wiederkehrenden Projekten bearbeiten und löschen:
 
-* Dateityp ändern (.csv oder PDF)
-* Aktualisieren der Projektbeschreibung
-* Empfänger hinzufügen oder entfernen
+* Dateityp ändern (CSV oder PDF)
+* Projektbeschreibung aktualisieren
+* Empfängerinnen und Empfänger hinzufügen oder entfernen
 * Häufigkeit ändern
 
-Ändern eines geplanten Projekts
+Um ein geplantes Projekt zu ändern:
 
-1. Auswählen **Analytics > Komponenten > Geplante Projekte**.
+1. Wählen Sie **Analytics > Komponenten > Geplante Projekte** aus.
 1. Suchen Sie in der Suchleiste oder mithilfe der Filteroptionen in der linken Leiste nach einem Zeitplan. Sie können nach [!UICONTROL Tags], [!UICONTROL Inhabenden], [!UICONTROL Favoriten] usw. filtern.
 
-![Screenshot mit der Liste der geplanten Projekte mit der Spalte mit Titel, Eigentümer, Tags, Zugestellt an und anderen Spalten, die im Abschnitt Verfügbare Spalten beschrieben sind.](assets/scheduled-project-manager2.png)
+![Screenshot mit der Liste der geplanten Projekte, in der die Spalten „Titel“, „Inhaberin bzw. Inhaber“, „Tags“, „Zugestellt an“ und andere Spalten zu sehen sind, die im Abschnitt „Verfügbare Spalten“ beschrieben werden.](assets/scheduled-project-manager2.png)
 
 ## Verfügbare Spalten
 
