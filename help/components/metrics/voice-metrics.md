@@ -1,20 +1,21 @@
 ---
-title: Sprachanalysemetriken
-description: Sprachanalysemetriken
+title: Sprache – Analysemetriken
+description: Sprache – Analysemetriken
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+exl-id: 3c1b4e4e-d8d2-446f-9582-a2ce5580a8d3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '25'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Sprachanalysemetriken
+# Sprache – Analysemetriken
 
 | Metrikname | Beschreibung | Kontextdatenvariable |
 | --- | --- | --- |
-| Stimmzutaten | | TBD |
-| Sprachende-Sitzung | | TBD |
-| Sprachfehler | | TBD |
+| Sprache – Äußerungen | | TBD |
+| Sprache – Sitzung beenden | | TBD |
+| Sprache – Fehler | | TBD |
 
 {style="table-layout:auto"}
