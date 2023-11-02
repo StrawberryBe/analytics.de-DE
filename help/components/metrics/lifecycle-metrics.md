@@ -2,14 +2,15 @@
 name: Mobile lifecycle metrics
 description: Metriken basierend auf Daten, die mit dem Mobile SDK erfasst wurden.
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '38'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
-# Mobile Lebenszyklusmetriken
+# Lebenszyklusmetriken für Mobile
 
 | Name der Lebenszyklusmetrik | Beschreibung | Kontextdatenvariable |
 | --- | --- | --- |
@@ -20,6 +21,6 @@ ht-degree: 52%
 | Gesamtsitzungslänge | | TBD |
 | Aktionsdauer insgesamt | | `a.action.time.total` |
 | Aktionsdauer in Anwendung | | `a.action.time.inapp` |
-| Lebenszeitwert (event) | | `a.ltv.amount` |
+| Lebenszeitwert (Ereignis) | | `a.ltv.amount` |
 
 {style="table-layout:auto"}
