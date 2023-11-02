@@ -4,15 +4,15 @@ description: Die Anzahl der Unique-Visitor-IDs.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Unique Visitors
 
-Die &quot;Unique Visitors&quot; [Metrik](overview.md) zeigt die Anzahl der Besucher-IDs für das Dimensionselement an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Traffic, da sie einen allgemeinen Überblick über die Beliebtheit eines Dimensionselements bietet. Beispielsweise kann ein Besucher einen Monat lang jeden Tag auf Ihre Website kommen. Er zählt aber trotzdem als ein Unique Visitor.
+Die [Metrik](overview.md) „Unique Visitors“ gibt die Anzahl der Besucher-IDs für das Dimensionselement an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Traffic, da sie einen allgemeinen Überblick über die Beliebtheit eines Dimensionselements bietet. Beispielsweise kann ein Besucher einen Monat lang jeden Tag auf Ihre Website kommen. Er zählt aber trotzdem als ein Unique Visitor.
 
 Wenn Sie die [geräteübergreifende Analyse](../cda/overview.md) verwenden, wird diese Metrik durch die Metrik [Eindeutige Geräte](unique-devices.md) ersetzt.
 
