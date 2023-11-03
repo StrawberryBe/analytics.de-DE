@@ -4,7 +4,7 @@ description: Aktivieren oder deaktivieren Sie ClickMap in Ihrer Implementierung.
 keywords: ClickMap deaktivieren
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: a3df69f7de45ba3694e1212e5c16a10bb4602cd6
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 >[!IMPORTANT]
 >
->Diese Variable wurde eingestellt. Siehe [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) anstatt.
+>Diese Variable wurde eingestellt. Siehe [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) anstatt.
 
 ClickMap ist eine veraltete Funktion in Adobe Analytics, mit der Daten darüber erfasst werden, wo Besucher klicken und worauf sie klicken. Die Funktion wurde durch [Activity Map](/help/analyze/activity-map/activity-map.md).
 

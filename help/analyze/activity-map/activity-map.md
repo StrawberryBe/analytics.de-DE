@@ -4,16 +4,16 @@ title: Was ist Activity Map?
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 2d207c76ad40522adec10cde5044b43acbb7f711
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 22%
+source-wordcount: '575'
+ht-degree: 20%
 
 ---
 
 # Übersicht über Activity Map
 
-Adobe Analytics Activity Map ist eine Funktion in Adobe Analytics, die eine visuelle Darstellung der Benutzerinteraktion auf Webseiten und mobilen Apps bietet. Sie ermöglicht es Marketing-Experten und Analysten, Benutzerinteraktionen wie Klicks, Mausberührungen und das Scroll-Verhalten zu verfolgen und zu analysieren. Activity Map generiert Heatmaps und Überlagerungsberichte, die die Beliebtheit und Effektivität verschiedener Elemente auf einer Webseite veranschaulichen, sodass Unternehmen ihre digitalen Erlebnisse optimieren und höhere Konversionen erzielen können.
+Adobe Analytics Activity Map ist eine Funktion in Adobe Analytics, die eine visuelle Darstellung der Benutzerinteraktion auf Webseiten und mobilen Apps bietet. Sie ermöglicht es Marketing-Experten und Analysten, Benutzerinteraktionen wie Klicks, Mausberührungen und das Scroll-Verhalten zu verfolgen und zu analysieren. Activity Map generiert Heatmaps und Überlagerungsberichte, die die Beliebtheit und Effektivität verschiedener Elemente auf einer Webseite veranschaulichen und Unternehmen dabei helfen, ihre digitalen Erlebnisse zu optimieren und höhere Konversionen zu erzielen.
 
 ## Funktionen und Vorteile
 
@@ -35,16 +35,11 @@ Adobe Analytics Activity Map ist eine Funktion in Adobe Analytics, die eine visu
 
 * Optimierung mobiler Apps: Adobe Analytics Activity Map ist nicht auf Websites beschränkt, sondern erweitert auch seine Funktionalität auf mobile Apps. Unternehmen können Einblicke in Benutzerinteraktionen in Apps erhalten, sodass sie die Benutzerfreundlichkeit verbessern, die Navigation verbessern und die Funktionen für ein nahtloses mobiles Erlebnis optimieren können.
 
-## Erste Schritte für Administratoren
+## Erste Schritte
 
-* [Activity Map aktivieren](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [Beispiel-Implementierungs-Code](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-* Aktivieren der Activity Map mithilfe des Web SDK
-
-## Erste Schritte für Benutzer
-
-* [Activity Map Browser-Plug-ins installieren ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [Activity Map starten](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [Aktivieren und Aktivieren von Activity Map](activitymap-getting-started/activitymap-enable.md)
+* [Activity Map Browser-Plug-ins installieren ](activitymap-getting-started/activitymap-install.md)
+* [Activity Map starten](activitymap-getting-started/activitymap-launch.md)
 
 ## Activity Map-Funktionen
 
