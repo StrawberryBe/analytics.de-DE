@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: ab1a7736d59d082c7fabc01ffed43215b0e11339
 workflow-type: tm+mt
-source-wordcount: '5296'
+source-wordcount: '5326'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **November 2023** | |
+| Aktualisierungen des Themas zur Activity Map-Aktivierung | hinzugefügt [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (sowohl manuell als auch über die Adobe Experience Platform-Tagerweiterung). |
 | **Oktober 2023** | |
 | Protokollinformationen zum Reporting Activity Manager hinzugefügt | Es wurden Informationen zu [Annullierungen und nachfolgende Beschränkungen der Berichtstätigkeit](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) im Reporting-Aktivitäts-Manager werden im [Protokolle](/help/admin/admin/logs.md). |
 | Updates der Data Warehouse-Komponentenunterstützung | Zusätzliche Verfügbarkeit für einige Komponenten und entfernte Verfügbarkeit für andere zum Data Warehouse. Diese Änderungen werden in [Komponentenunterstützung im Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Unterstützung für die Dimension Besuchstiefe hinzugefügt (Entfernung der Besuchstiefe aus der Liste der nicht unterstützten Dimensionen)</li><li>Die Unterstützung für Beitragsmetriken wurde entfernt (zur Liste der nicht unterstützten Metriken wurden Beitragsmetriken hinzugefügt).</li><li>Unterstützung für die folgenden zeitbasierten Dimensionen hinzugefügt: Jahr, Quartal, Monat, Woche, Tag, Stunde und Minute (entfernt aus der Liste der nicht unterstützten Dimensionen) <p>Zuvor unterstützte Data Warehouse diese Dimensionen nur in der ersten Spalte einer Freiformtabelle, wenn die Granularität ausgewählt wurde. Jetzt werden diese Dimensionen immer unterstützt.</p><p>Bei der Verwendung dieser Dimensionen ist die Ausgabe von Datumsangaben jedoch nicht standardmäßig. Das Jahr wird um das Jahr 1900 verrechnet und die Monate sind nullbasiert.</li></ul> |
