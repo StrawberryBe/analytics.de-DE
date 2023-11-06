@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ Erläutert die Schritte, die der Analytics-Administrator ausführen muss, um die
 
 Das Activity Map-Modul ist Teil der AppMeasurement.js-, Adobe Experience Platform-Tags- und Web-SDK (legierte.js). Activity Map-Daten können nur erfasst werden, wenn Sie auf **Web SDK-Version 2.15.0** oder höher oder **Adobe Analytics tags-Erweiterung v1.90** oder höher oder **AppMeasurement-Version 1.6** oder höher.
 
-+++Web SDK (Tags-Erweiterung)
++++Web SDK (Adobe Experience Platform-Tagerweiterung)
 
 Navigieren Sie in Adobe Experience Platform-Tags zu der Eigenschaft, für die Sie Analytics implementieren. under [!UICONTROL Erweiterungen] -> [!UICONTROL Adobe Experience Platform Web SDK]auswählen **[!UICONTROL Aktivieren der Klickdatenerfassung]** wie unten hervorgehoben. Erstellen Sie dann die Bibliothek mit den Änderungen und veröffentlichen Sie die Bibliothek in der Produktion.
 
@@ -57,7 +57,7 @@ Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICO
 
 ## Schritt 2. Activity Map-Berichte aktivieren {#enable}
 
-Zunächst müssen Sie Activity Map-Berichte auf Report Suite-Ebene aktivieren.
+Sie müssen Activity Map-Berichte auf Report Suite-Ebene aktivieren.
 
 1. Melden Sie sich bei Adobe Analytics an und navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Report Suites auswählen > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map – Berichterstattung]**.
 
