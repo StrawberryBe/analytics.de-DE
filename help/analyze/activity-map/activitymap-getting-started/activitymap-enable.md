@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '653'
+ht-degree: 28%
 
 ---
 
@@ -23,19 +23,52 @@ Das Activity Map-Modul ist Teil der AppMeasurement.js-, Adobe Experience Platfor
 
 +++Web SDK (Adobe Experience Platform-Tagerweiterung)
 
-Navigieren Sie in Adobe Experience Platform-Tags zu der Eigenschaft, für die Sie Analytics implementieren. under [!UICONTROL Erweiterungen] -> [!UICONTROL Adobe Experience Platform Web SDK]auswählen **[!UICONTROL Aktivieren der Klickdatenerfassung]** wie unten hervorgehoben. Erstellen Sie dann die Bibliothek mit den Änderungen und veröffentlichen Sie die Bibliothek in der Produktion.
+1. Navigieren Sie in Adobe Experience Platform-Tags zu der Eigenschaft, für die Sie Analytics implementieren. under [!UICONTROL Erweiterungen] -> [!UICONTROL Adobe Experience Platform Web SDK]auswählen **[!UICONTROL Aktivieren der Klickdatenerfassung]** wie unten hervorgehoben.
+1. Erstellen Sie die Bibliothek mit den Änderungen.
+1. Veröffentlichen Sie die Bibliothek in der Produktion.
 
 ![](assets/web_sdk.png)
+
+**Validierung**
+
+Interaktionsaufrufe über die Registerkarte &quot;Netzwerk der Developer Console&quot;:
+
+1. Laden Sie das Skript &quot;Development Launch&quot;auf der Site.
+1. Suchen Sie beim Klicken auf Elemente auf der Registerkarte &quot;Netzwerk&quot;nach &quot;/ee&quot;.
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform-Debugger:
+
+1. Laden Sie die [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. Navigieren Sie zu [!UICONTROL Protokolle] > [!UICONTROL Edge] > [!UICONTROL Verbinden mit Edge].
+
+   ![](assets/validation2.jpg)
+
+**Häufig gestellte Fragen (FAQ)**
+
+* **Der Interaktionsaufruf wird nicht auf der Registerkarte &quot;Netzwerk&quot;ausgelöst.**
+Wenn die Klickdatenerfassung in einem Erfassungsaufruf erfolgt, müssen wir entweder mit &quot;/ee&quot;oder mit &quot;collect?&quot;filtern.
+
+* **Es gibt keine Payload-Anzeige für den Datenerfassungsaufruf.**
+Der collect -Aufruf ist so konzipiert, dass das Tracking die Navigation zu anderen Sites nicht beeinträchtigt, sodass die Funktion zum Entladen von Dokumenten für die Abruf-Aufrufe gilt. Dies wirkt sich nicht auf Ihre Datenerfassung aus. Wenn Sie jedoch auf der Seite validieren müssen, fügen Sie target = &quot;_blank&quot; zum entsprechenden Element hinzu. Der Link wird dann in einer neuen Registerkarte geöffnet.
+
+* **Wie ignoriere ich die Erfassung von personenbezogenen Daten?**
+Fügen Sie die entsprechenden Bedingungen in&lt;&lt; on vor dem Link click send callback>> hinzu und geben Sie false zurück, um diese Werte zu ignorieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de)
+
+  Beispielcode:
+
+  ![](assets/sample-code.png)
 
 +++
 
 ++ + Manuelle Web SDK-Implementierung
 
-Siehe [Links verfolgen](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) für Informationen zur Implementierung des Linktrackings und zur Aktivierung der Aktivitätszuordnung durch Erfassen der `region` des angeklickten HTML-Elements.
+Siehe [Links verfolgen](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de) für Informationen zur Implementierung des Linktrackings und zur Aktivierung des Activity Map durch Erfassen der `region` des angeklickten HTML-Elements.
 
 >[!NOTE]
 >
->Durch die Aktivierung von Linktracking mit dem Web SDK werden derzeit Link-Ereignisse gesendet, wenn eine Kundin oder ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden.
+>Durch die Aktivierung des Linktrackings mit dem Web SDK werden derzeit Verknüpfungsereignisse gesendet, wenn ein Kunde von einer Seite zur nächsten navigiert. Dies unterscheidet sich von der Funktionsweise von AppMeasurement und kann möglicherweise zu zusätzlichen abrechnungsfähigen Treffern führen, die an Adobe gesendet werden.
 
 +++
 
