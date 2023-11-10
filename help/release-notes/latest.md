@@ -3,9 +3,9 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
-workflow-type: tm+mt
-source-wordcount: '1134'
+source-git-commit: dfb3750edabed3fd9aef758d2ea1625fc3fb6a96
+workflow-type: ht
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 23. 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Verbesserungen für Reporting Activity Manager** | Reporting Activity Manager zeigt die Berichtskapazität für jede Report Suite in Ihrer Organisation an.  Er bietet Admins detaillierte Einblicke in die Berichtsnutzung und hilft ihnen, Kapazitätsprobleme bei Spitzen während der Berichterstellung mühelos zu diagnostizieren und zu beheben. Im Folgenden finden Sie einige der Verbesserungen, die jetzt in Reporting Activity Manager verfügbar sind: <ul><li>Admins können nicht nur aktuelle Anfragen abbrechen, sondern auch Anfragen für einen bestimmten Zeitraum einschränken. Admins können Anfragen nach Anfrage, Projekt oder Benutzerin bzw. Benutzer einschränken.</li><li>Zusätzlich zu den Metriken „Nutzung“ und „Kapazität“ enthält Reporting Activity Manager jetzt weitere Daten zur Berichtsaktivität: die Spalten „Komplexität“, „Benutzerin bzw. Benutzer“ und „Verbindung“.</li><li>Alle Abbrüche und Einschränkungen, die in Reporting Activity Manager vorgenommen wurden, sind jetzt im Administratorprotokoll sichtbar. Admins können das Administratorprotokoll verwenden, um anzuzeigen, was derzeit abgebrochen wird. Abbrüche können in Reporting Activity Manager oder im Administratorprotokoll nicht rückgängig gemacht werden.</li></ul><p>Weitere Informationen finden Sie unter [Reporting Activity Manager – Übersicht](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 17. Oktober 2023 | 24. Oktober 2023 |
-| **Verbesserungen bei Data Warehouse** | Beim Erstellen einer Data Warehouse-Anfrage können Sie jetzt ein Cloud-Konto für die Verwendung als Berichtsziel konfigurieren. Die folgenden Cloud-Kontotypen sind für das Senden von Daten verfügbar:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-Mail (diese Option war zuvor bereits verfügbar)</li></ul>FTP, SFTP, Azure Blob und S3 sind weiterhin als Berichtsziele verfügbar, werden aber nicht mehr empfohlen.<p>Das Benutzererlebnis beim Erstellen und Verwalten von Data Warehouse-Anfragen wurde ebenfalls verbessert. Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md) und [Verwalten von Data Warehouse-Anfragen](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=de). | 12. September 2023 | Am oder vor dem 8. November 2023 |
+| **Verbesserungen bei Data Warehouse** | Beim Erstellen einer Data Warehouse-Anfrage können Sie jetzt ein Cloud-Konto für die Verwendung als Berichtsziel konfigurieren. Die folgenden Cloud-Kontotypen sind für das Senden von Daten verfügbar:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-Mail (diese Option war zuvor bereits verfügbar)</li></ul>FTP, SFTP, Azure Blob und S3 sind weiterhin als Berichtsziele verfügbar, werden aber nicht mehr empfohlen.<p>Das Benutzererlebnis beim Erstellen und Verwalten von Data Warehouse-Anfragen wurde ebenfalls verbessert. Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md) und [Verwalten von Data Warehouse-Anfragen](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=de). | 12. September 2023 | TBD |
 
 {style="table-layout:auto"}
 
