@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **November 2023** | |
-| Aktualisierungen des Activity Map-Aktivierungs-/Aktivierungsthemas | hinzugefügt [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (sowohl manuell als auch über die Adobe Experience Platform-Tagerweiterung). |
+| Aktualisierungen für das Themas „Aktivierung der Activity Map“ | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=de) hinzugefügt (sowohl manuell als auch über die Tags-Erweiterung von Adobe Experience Platform). |
 | **Oktober 2023** | |
 | Protokollinformationen zum Reporting Activity Manager hinzugefügt | Es wurden Informationen hinzugefügt, dass [Abbrüche und nachfolgende Beschränkungen der Berichtsaktivität](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) im Reporting Activity Manager in den [Protokollen](/help/admin/admin/logs.md) erfasst werden. |
 | Aktualisierung der Unterstützung von Data Warehouse-Komponenten | Für Data Warehouse wurde die Verfügbarkeit von einigen Komponenten hinzugefügt und von anderen entfernt. Diese Änderungen werden reflektiert in [Komponentenunterstützung in Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Unterstützung für die Dimension „Besuchstiefe“ hinzugefügt („Besuchstiefe“ wurde aus der Liste der nicht unterstützten Dimensionen entfernt)</li><li>Unterstützung für Beitragsmetriken wurde entfernt (Beitragsmetriken wurden zur Liste der nicht unterstützten Metriken hinzugefügt)</li><li>Unterstützung für die folgenden zeitbasierten Dimensionen hinzugefügt: Jahr, Quartal, Monat, Woche, Tag, Stunde und Minute (diese Dimensionen wurden aus der Liste der nicht unterstützten Dimensionen entfernt) <p>Zuvor unterstützte Data Warehouse diese Dimensionen nur in der ersten Spalte einer Freiformtabelle, wenn Granularität ausgewählt wurde. Jetzt werden diese Dimensionen immer unterstützt.</p><p>Bei der Verwendung dieser Dimensionen ist die Ausgabe von Datumsangaben jedoch nicht standardmäßig. Das Jahr ist um 1900 versetzt und die Monate sind nullbasiert.</li></ul> |
