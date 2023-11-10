@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
 source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 99%
 + Activity Map {#activity-map}
    + [Übersicht über Activity Map](activity-map/activity-map.md)
    + Erste Schritte {#getting-started}
-      + [Aktivieren und Aktivieren von Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Aktivieren der Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
       + [Activity Map Browser-Plug-ins installieren ](activity-map/activitymap-getting-started/activitymap-install.md)
       + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Zuverlässiges Linktracking](activity-map/lnk-tracking-overview.md)
