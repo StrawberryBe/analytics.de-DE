@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '985'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,6 @@ Nachdem Sie einen Arbeitsmappen-Zeitplan in Report Builder erstellt haben, könn
 | Anpassen | Ermöglicht Ihnen, das Datumsformat anzupassen. |
 | An | Zeigt Ihr gegebenenfalls vorhandenes Outlook-Adressbuch an. |
 | Senden an: E-Mail | Die E-Mail-Adresse des Empfängers der Arbeitsmappe. |
-| Senden an: Veröffentlichungsliste | Hiermit zeigen Sie eine Liste der in Ihrem Unternehmen verfügbaren Veröffentlichungslisten an. |
 | Power BI | Weitere Informationen finden Sie unter [Arbeitsmappe in Microsoft Power BI veröffentlichen](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md). |
 | Betreff | Eine benutzerdefinierte Beschreibung. |
 | Zeitplan | Hier können Sie angeben, wann die Arbeitsmappe gesendet werden soll (sofort, stündlich, täglich, wöchentlich oder jährlich). |
