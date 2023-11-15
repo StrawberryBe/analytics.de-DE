@@ -4,9 +4,9 @@ title: Fallout-Übersicht
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berich
 
 Im Folgenden finden Sie ein Video zur Fallout-Visualisierung:
 
->[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
 
 Mit Fallout-Visualisierungen können Sie:
 
@@ -36,28 +36,3 @@ Eine Fallout-Visualisierung ist zur Analyse der folgenden Punkte nützlich:
 * Konversionssätze durch bestimmte Abläufe auf Ihrer Site (wie z. B. ein Kauf- oder Registrierungsablauf).
 * Allgemeiner, breiter gefasster Trafficfluss: Dieser Fluss zeigt, wie viele Personen, die sich die Homepage ansahen, anschließend eine Suche durchführten und dann ein bestimmtes Element anzeigten.
 * Korrelationen zwischen Ereignissen auf Ihrer Site. Korrelationen zeigen, welcher Prozentsatz von Personen, die die Datenschutzrichtlinien durchlasen, ein Produkt kauften.
-
-## Segmentierung als Grundlage für Fluss und Fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
-
-Auf Workspace-Bedienfelder angewandte Segmente funktionieren ein wenig anders als Segmente, die auf Fallout- und Flussberichte in Reports &amp; Analytics angewandt werden. In den meisten Fällen liefern beide genau dieselben Ergebnisse. Der größte Unterschied besteht darin, dass in Reports &amp; Analytics das Segment bei jedem Schritt der Sequenz angewandt wird. Dies kann zu leichten Abweichungen bei den Ergebnissen führen.
-
-Hier ist ein Beispiel eines Fallouts mit zwei Schritten:
-
-![](assets/fallout_segments1.png)
-
-Wenn Sie dann ein Segment auf Workspace-Bedienfeld-Ebene anwenden, kombiniert das Segment den Fallout folgendermaßen:
-
-![](assets/fallout_seg.png)
-
-Bei der Berechnung des Segments durch Reports &amp; Analytics wird das Segment dagegen folgendermaßen kombiniert:
-
-![](assets/fallout_segments3.png)
-
-Bei Reports &amp; Analytics wird das Segment bei jedem Schritt kombiniert. Wenn sich die Container auf derselben Ebene wie der Fallout befinden (z. B. Besuch- oder Besucherebene), führt dies zu einem Angleich an die Anzahl an Besuchen oder Besuchern.
-
-Wenn sich das auf das Feld angewandte Segment jedoch unterhalb der Fallout-Ebene (d. h. Hit-Ebene) befindet, werden für das Segment je nach Kombination durch den Bericht unterschiedliche Ergebnisse angezeigt. Wie bereits erwähnt, entsprechen die Zahlen in Analysis Workspace in den meisten Fällen denen in Reports &amp; Analytics. Nur wenn alle folgenden Punkte zutreffen, stimmen sie **nicht** überein:
-
-* Das Segment befindet sich nicht auf derselben Ebene wie der Fallout.
-* Das Segment weist eine Variable auf, bei der der Besucher/Besuch während eines Besuchs/Besuchers mehrere Werte besitzen kann.
-
-Im seltenen Fall, dass Sie in Analysis Workspace Segmente auf dieselbe Weise wie in Reports &amp; Analytics auf Fallout/Fluss anwenden müssen, legen Sie das Segment einfach in jedem Fallout-Schritt in Workspace ab und erhalten dieselben Zahlen.
