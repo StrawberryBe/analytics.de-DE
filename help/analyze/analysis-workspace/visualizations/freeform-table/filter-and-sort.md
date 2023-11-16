@@ -4,9 +4,9 @@ title: Filtern und Sortieren von Freiformtabellen
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '920'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Sie können mehrere Methoden verwenden, um Zeilen aus einer Freiformtabelle zu f
 - Tabellenfilter
 - Segmentierung
 
-Lesen Sie unbedingt, wie sich die einzelnen Methoden auf [Gesamtwerte der Freiformtabelle](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+Lesen Sie unbedingt, wie sich die einzelnen Methoden auf [Gesamtwerte der Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Schnelles Ausschließen bestimmter Zeilen aus einer Tabelle
 
@@ -89,7 +89,7 @@ So filtern Sie Daten in Freiformtabellen:
 
 ### Segmentierung
 
-Siehe unsere [Dokumentation zur Segmentierung](https://docs.adobe.com/help/de-DE/analytics/components/segmentation/seg-home.html) für weitere Details.
+Siehe unsere [Dokumentation zur Segmentierung](/help/components/segmentation/seg-home.md) für weitere Details.
 
 ## Sortieren von Tabellen
 
