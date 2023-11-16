@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
-workflow-type: ht
-source-wordcount: '1096'
-ht-degree: 100%
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+workflow-type: tm+mt
+source-wordcount: '1097'
+ht-degree: 99%
 
 ---
 
@@ -78,8 +78,8 @@ ht-degree: 100%
          + Spalten- und Zeileneinstellungen {#column-row-settings}
             + [Spalteneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Zeileneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [Dynamische im Vergleich zu statischen Elementen](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtern und Sortieren von Tabellen](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+            + [Dynamische und statische Elemente](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Filtern und Sortieren von Freiformtabellen](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Arbeitsbereich-Summen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Kohortentabelle {#cohort-table}
          + [Was ist eine Kohortenanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)

@@ -1,17 +1,17 @@
 ---
 description: Dokumentation, in der beschrieben wird, wie Tabellen in Analysis Workspace gefiltert und sortiert werden.
-title: Filtern und Sortieren von Tabellen
+title: Filtern und Sortieren von Freiformtabellen
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 76%
+source-wordcount: '938'
+ht-degree: 68%
 
 ---
 
-# Filtern und Sortieren von Tabellen
+# Filtern und Sortieren von Freiformtabellen
 
 Freiformtabellen in Analysis Workspace bilden die Grundlage für die interaktive Datenanalyse. Daher können sie Tausende von Informationszeilen enthalten. Das Filtern und Sortieren der Daten kann ein wichtiger Teil der effizienten Aufdeckung der wichtigsten Informationen sein.
 
@@ -21,7 +21,18 @@ Mit Filtern in Analysis Workspace können Sie die wichtigsten Informationen aufd
 
 >[!NOTE]
 >
-> Nur dynamische Dimensionselemente können wie in diesem Abschnitt beschrieben gefiltert werden. Statische Dimensionselemente können nicht gefiltert werden. Weitere Informationen finden Sie unter [Dynamische im Vergleich zu statischen Dimensionselementen in Freiformtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> Nur dynamische Dimensionselemente können wie in diesem Abschnitt beschrieben gefiltert werden. Statische Dimensionselemente können nicht gefiltert werden. Weitere Informationen finden Sie unter [Dynamische und statische Dimensionselemente in Freiformtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## Freiformtabellenzeilen filtern
+
+Sie können mehrere Methoden verwenden, um Zeilen aus einer Freiformtabelle zu filtern. 
+
+- Klicken Sie auf das X in der Zeile
+- Rechtsklick > Ausgewählte Zeilen gelöscht
+- Tabellenfilter
+- Segmentierung
+
+Lesen Sie unbedingt, wie sich die einzelnen Methoden auf [Gesamtwerte der Freiformtabelle](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
 
 ### Schnelles Ausschließen bestimmter Zeilen aus einer Tabelle
 
@@ -29,15 +40,22 @@ Sie können bestimmte Zeilen schnell aus der Tabelle ausschließen, ohne das Dia
 
 >[!NOTE]
 >
->Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben, wird ein [!UICONTROL **Ausschließen von Elementen**] im Dialogfeld für erweiterte Filter automatisch angewendet. (Sie können die angewendete Regel anzeigen, indem Sie das Filtersymbol auswählen und dann [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table).
+>Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben, wird ein [!UICONTROL **Ausschließen von Elementen**] im Dialogfeld für erweiterte Filter automatisch angewendet wird. (Sie können die angewendete Regel anzeigen, indem Sie das Filtersymbol auswählen und dann [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table).
 
 So schließen Sie bestimmte Zeilen schnell aus einer Freiformtabelle aus:
 
 1. Bewegen Sie den Mauszeiger über die Zeile, die Sie ausschließen möchten, und wählen Sie dann das Symbol x aus.
 
-   Halten Sie die Umschalttaste gedrückt, um Bereichszeilen auszuwählen, oder halten Sie die Befehlstaste (Mac) oder die Strg-Taste (Windows) gedrückt, um mehrere Zeilen auszuwählen.
+   Halten Sie die Umschalttaste gedrückt, um einen Zeilenbereich auszuwählen, oder halten Sie die Befehlstaste (Mac) oder die Strg-Taste (Windows) gedrückt, um mehrere Zeilen auszuwählen.
 
-### Anwenden eines einfachen oder erweiterten Filters auf eine Tabelle
+### Rechtsklick > Ausgewählte Zeilen löschen
+
+1. Wählen Sie mindestens eine Zeile aus.
+1. Rechtsklicken Sie auf und wählen Sie **[!UICONTROL Ausgewählte Zeilen löschen]**.
+
+   Dadurch werden die Zeilen aus der Tabelle entfernt und ein Tabellenfilter angewendet.
+
+### Einfache oder erweiterte Filter auf Tabellen anwenden
 
 So filtern Sie Daten in Freiformtabellen:
 
@@ -69,9 +87,13 @@ So filtern Sie Daten in Freiformtabellen:
 
    Das **Filtersymbol** ![Blaues Filtersymbol zur Filterung der Tabelle](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) wird angezeigt, wenn ein Filter auf die Tabelle angewendet wird.
 
+### Segmentierung
+
+Siehe unsere [Dokumentation zur Segmentierung](https://docs.adobe.com/help/de-DE/analytics/components/segmentation/seg-home.html) für weitere Details.
+
 ## Sortieren von Tabellen
 
-Sie können die Daten einer Freiformtabelle nach einer beliebigen Spalte in Analysis Workspace sortieren, die eine Metrik ist.
+Sie können die Daten einer Freiformtabelle nach jeder Spalte in Analysis Workspace sortieren, die eine Metrik ist.
 
 Ein Pfeil-nach-unten-Symbol ![Pfeil nach unten zur Sortierung einer Tabellenspalte](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) ist in der Kopfzeile der Spalte sichtbar, nach der die Daten derzeit sortiert werden.
 
