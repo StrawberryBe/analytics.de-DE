@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen zu Marketing-Kanälen
 description: Häufig gestellte Fragen zu Marketing-Kanälen.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
-source-wordcount: '1501'
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+workflow-type: tm+mt
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
+>Um die Effektivität von Marketing-Kanälen für Attribution und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 >
 >Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) beschrieben.
 
@@ -112,7 +112,7 @@ Manchmal sind die Verarbeitungsregeln für Marketing-Kanäle falsch eingerichtet
    3. Dieser Benutzer kommt einige Tage später über die kostenlose Suche zurück und tätigt einen Kauf.
    4. Der E-Mail-Kanal erhält die Erstkontakt-Gutschrift und die kostenlose Suche erhält die Letztkontakt-Gutschrift.
 
-   Auch mehrere Tage nach Änderung der Verarbeitungsregeln können Daten im falschen Erstkontakt-Kanal erfasst werden. Erstkontakt-Daten werden kontinuierlich im falschen Kanal erfasst, bis die Benutzerinteraktion abläuft.
+  Auch mehrere Tage nach Änderung der Verarbeitungsregeln können Daten im falschen Erstkontakt-Kanal erfasst werden. Erstkontakt-Daten werden kontinuierlich im falschen Kanal erfasst, bis die Benutzerinteraktion abläuft.
 
 Der beste Weg, um diese Unstimmigkeiten zu beheben, besteht darin, eine oder beide der folgenden Aktionen auszuführen:
 

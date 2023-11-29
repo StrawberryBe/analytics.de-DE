@@ -3,9 +3,9 @@ title: Merchandising-eVars und Methoden zur Produktsuche
 description: Ein tiefer Einblick in die Konzepte hinter Merchandising-eVars und deren Verarbeitung und Zuordnung von Daten.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '5297'
+source-wordcount: '5285'
 ht-degree: 97%
 
 ---
@@ -377,7 +377,7 @@ Der in der Spalte „post_products“ enthaltene Wert ist Ihnen möglicherweise 
 
 Das bedeutet, dass durch die Bindung die eVar-Werte der Konversionsvariablensyntax über die Produktsyntax in die Variable „products“ kopiert werden. Diese Kopieraktion findet nur statt, wenn die Variable „products“ und ein Binding-Ereignis (über die eVar-Konfiguration festgelegt) in derselben Anforderung enthalten sind. Ab diesem Zeitpunkt sind die in den Spalten „post_eVar“ enthaltenen Werte an das Produkt gebunden. Diese Bindung wird über die Produktsyntax dargestellt, die in der Spalte „post_products“ gespeichert ist.
 
-## Merchandising-eVars, Instanzmetrik und Attribution IQ
+## Merchandising-eVars, Instanzmetrik und Attribution
 
 Wenn eine standardmäßige eVar in einem Analytics-Server-Aufruf gesendet wird, wird dem Wert in der Spalte „post_evar“ immer eine Instanz zugeordnet. Instanzen stellen die Häufigkeit dar, mit der eine eVar in einer Bildanforderung auf einen bestimmten Wert gesetzt wurde.
 
@@ -387,8 +387,8 @@ Instanzen für eine Merchandising-eVar geben den Werten, die die eVar sammelt, e
 
 Wenn Sie beispielsweise `s.eVar1="Internal Keyword Search"` allein festlegen, werden dem eVar1-Wert „Interne Keyword-Suche“ keine Instanzmetriken zugewiesen. Es wird jedoch in diesem Moment eine Instanz aufgezeichnet. Wenn jedoch nicht gleichzeitig mit dem Festlegen von `eVar1` ein Produkt an den Wert „Interne Keyword-Suche“ gebunden ist, wird die Instanz dem Bereich „Nicht angegeben“ zugeordnet. Mit anderen Worten, der `eVar1`-Wert von „Interne Keyword-Suche“ kann eine Instanz erhalten. Dies geschieht jedoch nur, wenn ein Produkt, das an den Wert „Interne Keyword-Suche“ gebunden ist, in der Produktvariablen in derselben Bildanforderung angezeigt wird.
 
-Zusammenfassend lässt sich sagen, dass die vorkonfigurierte Instanzmetrik für eine Merchandising-eVar ohne zusätzliche Konfiguration wenig nützlich ist. Deshalb hat Adobe [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=de) herausgebracht. Damit können Sie mehrere Attributionsmodelle auf jede benutzerdefinierte Metrik anwenden, die von Adobe Analytics erfasst wird. Metriken, die diese Attributionsmodelle anwenden, verwenden nicht die Werte in den Spalten „post_evar“ oder die Werte, die an ein bestimmtes Produkt gebunden sind. Stattdessen verwenden diese Metriken nur die Werte, die über die Bildanforderungen selbst übergeben werden (oder Werte, die über Adobe Analytics-Verarbeitungsregeln erfasst werden). Sie können die Funktionen in Attribution IQ verwenden, um eine präzise zugeordnete Instanzmetrik für alle Merchandising-eVars zu erhalten, die die Konversionsvariablensyntax verwenden.
+Zusammenfassend lässt sich sagen, dass die vorkonfigurierte Instanzmetrik für eine Merchandising-eVar ohne zusätzliche Konfiguration wenig nützlich ist. Deshalb hat Adobe [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) herausgebracht. Damit können Sie mehrere Attributionsmodelle auf jede benutzerdefinierte Metrik anwenden, die von Adobe Analytics erfasst wird. Metriken, die diese Attributionsmodelle anwenden, verwenden nicht die Werte in den Spalten „post_evar“ oder die Werte, die an ein bestimmtes Produkt gebunden sind. Stattdessen verwenden diese Metriken nur die Werte, die über die Bildanforderungen selbst übergeben werden (oder Werte, die über Adobe Analytics-Verarbeitungsregeln erfasst werden). Sie können die Funktionen in Attribution verwenden, um eine präzise zugeordnete Instanzmetrik für alle Merchandising-eVars zu erhalten, die die Konversionsvariablensyntax verwenden.
 
 ![Attributionsauswahl](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-Soll eine Instanzmetrik für eine Merchandising-eVar zu einem Bericht hinzugefügt werden, ist das richtige Attribution IQ-Modell das „Letztkontakt“-Modell. Die Einstellung „Lookback-Fenster“ für das Modell spielt in diesem Fall keine Rolle. Der Grund liegt darin, dass ein „erzwungenes“ Letztkontakt-Attributionsmodell jedem einzelnen Wert, der über eine Anfrage übergeben wird, immer Instanzzuordnungen zuweist. Dies ist unabhängig davon, ob die tatsächlichen Zuordnungs-/Bindungseinstellungen der eVar auf „Zuletzt verwendet (Letzte)“ oder auf „Ausgangswert (Erste)“ festgelegt sind.
+Beim Hinzufügen einer Instanzmetrik für ein Merchandising-eVar zu einem Bericht wäre das richtige Attributionsmodell das &quot;Letztkontakt&quot;-Modell. Die Einstellung „Lookback-Fenster“ für das Modell spielt in diesem Fall keine Rolle. Der Grund liegt darin, dass ein „erzwungenes“ Letztkontakt-Attributionsmodell jedem einzelnen Wert, der über eine Anfrage übergeben wird, immer Instanzzuordnungen zuweist. Dies ist unabhängig davon, ob die tatsächlichen Zuordnungs-/Bindungseinstellungen der eVar auf „Zuletzt verwendet (Letzte)“ oder auf „Ausgangswert (Erste)“ festgelegt sind.

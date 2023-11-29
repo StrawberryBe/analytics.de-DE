@@ -4,9 +4,9 @@ description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1220'
 ht-degree: 71%
 
 ---
@@ -108,9 +108,9 @@ Ja, die meisten Datenquellen werden unterstützt. Bei Datenquellen auf Zusammenf
 
 Transaktions-ID-Datenquellen werden wie andere Treffer behandelt. Transaktions-ID-Datenquellen verwenden nicht die spezielle Verarbeitung, die normalerweise in der herkömmlichen Berichterstellung verwendet wird. Mit anderen Worten: Bei der Verwendung der Berichtszeitverarbeitung werden bei Transaktions-ID-Treffern eVar von Treffern übertragen, die nahe dem Zeitstempel des Transaktions-ID-Treffers auftreten. Die Werte werden nicht aus Treffern übernommen, die in der Nähe des Zeitpunkts der ursprünglichen Transaktion aufgetreten sind.
 
-Wenn möglich, beruht die Attribution IQ auf dem MID-Spaltenwert, der innerhalb eines Ereignisses in der Datenquelle gesendet wird, und nicht auf einem beibehaltenen Wert. Das Attributionsmodell wird spontan auf die MID-Spaltenwerte in der Datenquelle angewendet. Wenn Sie beispielsweise die Attribution &quot;Letztkontakt&quot;verwenden, beginnt das Modell bei jeder Instanz einer Metrik und geht in den Treffern sequenziell zurück, bis das Modell den letzten in der MID-Spalte beobachteten Wert erreicht.
+Wenn möglich, beruht die Attribution auf dem MID-Spaltenwert, der innerhalb eines Ereignisses in der Datenquelle gesendet wird, und nicht auf einem beibehaltenen Wert. Das Attributionsmodell wird spontan auf die MID-Spaltenwerte in der Datenquelle angewendet. Wenn Sie beispielsweise die Attribution &quot;Letztkontakt&quot;verwenden, beginnt das Modell bei jeder Instanz einer Metrik und geht in den Treffern sequenziell zurück, bis das Modell den letzten in der MID-Spalte beobachteten Wert erreicht.
 
-Wenn dies nicht möglich ist, verwendet Attribution IQ den MID-Wert im &quot;vorherigen Datensatz&quot;in der Datenquelle zur Auswertung. Dieser vorherige Datensatz wird möglicherweise nicht sequenziell nach Zeitstempel geordnet, da AA keine Daten außerhalb der Reihenfolge unterstützt.
+Wenn dies nicht möglich ist, verwendet die Attribution den MID-Wert im &quot;vorherigen Datensatz&quot;in der Datenquelle für die Auswertung. Dieser vorherige Datensatz wird möglicherweise nicht sequenziell nach Zeitstempel geordnet, da AA keine Daten außerhalb der Reihenfolge unterstützt.
 
 Da die Datensätze nicht sequenziell angeordnet werden, können sich die erwarteten Werte aus der Anwendung der Persistenz auf die Zeit auswirken, die zwischen dem Zeitstempel der bereitgestellten Transaktions-ID und der ursprünglichen Transaktion vorhanden ist.
 

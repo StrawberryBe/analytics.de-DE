@@ -4,9 +4,9 @@ title: Bekannte Einschränkungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '411'
 ht-degree: 90%
 
 ---
@@ -36,7 +36,7 @@ Im Folgenden finden Sie eine Liste der bekannten Einschränkungen in Analysis Wo
 ## Komponenten > Segmente
 
 * Bestimmte Metriken und Dimensionen können nicht segmentiert werden, wie [!UICONTROL Vorfälle], [!UICONTROL Unique Visitors] usw.
-* Ad-hoc-Segmente, die im [Bedienfeld-Dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) sind eine Art Schnellfilter. Sie werden nicht in der linken Leiste von Workspace oder im Segment-Komponenten-Manager angezeigt, es sei denn, sie werden veröffentlicht. Weitere Informationen finden Sie unter [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* In der [Bedienfeld-Dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) sind eine Art Schnellfilter. Sie werden nicht in der linken Leiste von Workspace oder im Segment-Komponenten-Manager angezeigt, es sei denn, sie werden veröffentlicht. Weitere Informationen finden Sie unter [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Komponenten > Berechnete Metriken
 
@@ -56,6 +56,6 @@ Im Folgenden finden Sie eine Liste der bekannten Einschränkungen in Analysis Wo
 
 * Einige der Einstellungen auf der Seite [!UICONTROL Berichtseinstellungen] gelten nicht. Analysis Workspace verwendet nur die [!UICONTROL Einstellungen für Sprache/Währung/Kodierung] am unteren Rand: [!UICONTROL Tausendertrennzeichen], [!UICONTROL Kodierung des terminierten Berichts] und [!UICONTROL CSV-Trennzeichen].
 
-## Attribution IQ
+## Attribution
 
-* Eine Untergruppe von Metriken wird in [!UICONTROL Attribution IQ] nicht unterstützt. Eine vollständige Liste finden Sie in den [häufig gestellten Fragen zu Attribution IQ](../attribution/faq.md).
+* Eine Untergruppe von Metriken wird in [!UICONTROL Attribution ] nicht unterstützt. Eine vollständige Liste finden Sie in den [häufig gestellten Fragen zu Attribution ](/help/analyze/analysis-workspace/attribution/faq.md).

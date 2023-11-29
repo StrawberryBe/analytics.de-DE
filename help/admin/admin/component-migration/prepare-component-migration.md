@@ -3,7 +3,7 @@ description: Erläutert die erforderlichen Vorbereitungen für die Migration von
 title: Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 15%
@@ -89,7 +89,7 @@ Segmente, Datumsbereiche und berechnete Metriken, die noch nicht im Customer Jou
 | **[Tags](/help/analyze/landing.md)** | Nein |
 | **[Favoriten](/help/analyze/landing.md)** | Nein |
 | **[Zeitpläne](/help/components/scheduled-projects-manager.md)** | Nein |
-| **[Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
+| **[Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 
 * [Seitenzusammenfassung](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-* [Beitragsanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+* [Beitragsanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
 
 ## Als Organisation entscheiden, wie Sie Komponenten zuordnen
 

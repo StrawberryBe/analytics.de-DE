@@ -3,9 +3,9 @@ title: Verarbeitungsregeln für Marketing-Kanäle
 description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1889'
 ht-degree: 76%
 
 ---
@@ -30,7 +30,7 @@ Weitere Hinweise zur Verarbeitung:
 
 * Sehen Sie sich die Konzeptinformationen unter [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) an.
 * Erstellen Sie einen oder mehr Kanäle, um Regeln zuweisen zu können. Weitere Informationen finden Sie unter [Hinzufügen von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Lesen Sie die Best Practices für die Verwendung von [!UICONTROL Marketing-Kanälen] mit [!UICONTROL Attribution IQ].
+* Lesen Sie die Best Practices für die Verwendung von [!UICONTROL Marketing-Kanälen] mit [!UICONTROL Attribution].
 
 ## Einrichten von Marketingkanal-Verarbeitungsregeln
 

@@ -3,7 +3,7 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 97%
@@ -20,7 +20,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Anwenderberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
 * **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Analysis Workspace:** Browser-Lösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse. Bietet mehr Berichtsflexibilität als Reports and Analytics.
-* **Anomalie:** Eine Anomalie wird mithilfe statistischer Modellierung entdeckt, um automatisch nach unerwarteten Trends in Daten zu suchen. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) im Benutzerhandbuch zu Analysen.
+* **Anomalie:** Eine Anomalie wird mithilfe statistischer Modellierung entdeckt, um automatisch nach unerwarteten Trends in Daten zu suchen. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) im Benutzerhandbuch zu Analysen.
 * **AppMeasurement:** die Code-Bibliothek, mit der Daten erfasst und an Adobe gesendet werden. Siehe [Startseite](/help/implement/home.md) des Benutzerhandbuchs zu Implementierungen.
 * **ASI-Slot:** Dieser ist nicht mehr vorhanden. In früheren Versionen von Adobe Analytics boten die ASI-Slots einen temporären Report Suite-Container, um segmentierte Daten anzuzeigen. In der aktuellen Version von Adobe Analytics können Segmente sofort auf jeden Bericht angewendet werden.
 * **Aufschlüsselung:** ermöglicht die Anzeige einer Dimension im Kontext einer anderen Dimension. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.

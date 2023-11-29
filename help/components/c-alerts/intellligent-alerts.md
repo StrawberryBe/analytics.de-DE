@@ -3,7 +3,7 @@ description: Das neue System für intelligente Warnhinweise erlaubt eine feiner 
 title: Intelligente Warnhinweise
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -37,19 +37,19 @@ Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Indem Sie direkt zur Warnhinweiserstellung wechseln: **[!UICONTROL Workspace]** > **[!UICONTROL Komponenten]** > **[!UICONTROL neuer Warnhinweis]** .
 * Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**. Dadurch wird die Warnhinweiserstellung geöffnet, und die entsprechenden Metriken und angewendeten Filter aus der Tabelle werden automatisch eingetragen sein. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
-   ![](assets/create-alert-from-selection.png)
+  ![](assets/create-alert-from-selection.png)
 
 * Indem Sie von einem [!UICONTROL Reports &amp; Analytics]-Bericht aus zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren. Dadurch wird die neue Warnhinweiserstellung geöffnet, und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden automatisch eingetragen sein. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
-   ![](assets/add-alert.png)
+  ![](assets/add-alert.png)
 
 ## FAQ: Wie werden Warnhinweise berechnet und ausgelöst? {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität  [werden verschiedene Modelle](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
+Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität  [werden verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -61,7 +61,7 @@ Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Be
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Frage: Wie weit reicht die Anomalieerkennung des Warnhinweises zur Ermittlung von Datenanomalien zurück?</b> </p> </td> 
-   <td colname="col2"> <p>Der Trainingszeitraum hängt von der ausgewählten Granularität ab. Weitere Informationen finden Sie unter den statistischen Verfahren für die <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomalieerkennung</a>. Zusammenfassung: </p> 
+   <td colname="col2"> <p>Der Trainingszeitraum hängt von der ausgewählten Granularität ab. Weitere Informationen finden Sie unter den statistischen Verfahren für die <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Anomalieerkennung</a>. Zusammenfassung: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Monatlich = 15 Monate + derselbe Bereich im letzten Jahr </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Wöchentlich = 15 Wochen + derselbe Bereich im letzten Jahr </li> 

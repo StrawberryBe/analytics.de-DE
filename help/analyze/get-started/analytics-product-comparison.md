@@ -3,10 +3,10 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 97%
 
 ---
 
@@ -29,11 +29,10 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 | **Mehrere Report Suites** | [Ja](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Ja, mit Einschränkungen | Ja | Nein | Ja | Nein | Ja |
 | **Anzahl der Aufschlüsselungen** | Unbegrenzt | Bis zu 2 | Bis zu 2 | Unbegrenzt | Unbegrenzt | Unbegrenzt | Unbegrenzt, über mehrere Abfragen ausführen |
 | **Segmentierung** <br> [Weitere Informationen](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Ja | Ja | Ja | Ja, mit [Einschränkungen](/help/components/segmentation/seg-reference/seg-compatibility.md) | Ja | Nein | Ja |
-| **Berechnete Metriken** <br> [Weitere Infos](/help/components/c-calcmetrics/cm-overview.md) | Ja, mit [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Ja | Ja | Nein | Ja | Nein | Ja, mit [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Berechnete Metriken** <br> [Weitere Infos](/help/components/c-calcmetrics/cm-overview.md) | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Ja | Ja | Nein | Ja | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Marketing-Kanäle** <br> [Weitere Infos](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Ja | Ja | Ja | Ja | Ja | Ja – [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Ja |
 | **Kohortenanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Nein | Nein | Nein | Ja | Nein | Nein |
-| **Attribution** | Ja, mit [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Begrenzt | Begrenzt | Nein | Ja | Nein | Ja, mit [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
-| **Virtual Analyst-Funktionen** <br> [Weitere Infos](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Ja | Nein | Nein | Nein | Nein | Nein | Ja |
+| **Attribution** | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Begrenzt | Begrenzt | Nein | Ja | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Kuratierung** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja – Projekt und Virtual Report Suite | Nein | Nein | Nein | Nein | Nein | Ja – nur Virtual Report Suite |
 | **Projektfreigabe** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, mit Projektrollen | Ja | Ja | Nein | Ja | Nein | Nein |
 | **Geplanter Versand** | Ja | Ja | Ja | Ja | Nein | Ja | Nein |

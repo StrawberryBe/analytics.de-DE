@@ -4,10 +4,10 @@ description: Das Konzept der Zuordnung eines Erfolgsereignisses zu mehreren Dime
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 95%
+source-wordcount: '461'
+ht-degree: 93%
 
 ---
 
@@ -18,13 +18,13 @@ Mit Attribution können Analysten anpassen, wie Erfolgsereignisse Dimensionselem
 1. Ein Besucher Ihrer Site klickt auf einen Paid-Search-Link zu einer Ihrer Produktseiten. Die Person fügt das Produkt zum Warenkorb hinzu, kauft es jedoch nicht.
 2. Am nächsten Tag sieht sie einen Social-Media-Beitrag von einer Freundin bzw. einem Freund, klickt auf den Link und schließt den Kauf ab.
 
-In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben, wenden Sie sich an das Adobe Account Team Ihres Unternehmens.
+In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe haben, wenden Sie sich an das Adobe-Account-Team Ihres Unternehmens.
 
-## Wert von Attribution IQ
+## Wert der Attribution
 
 Eine Customer Journey ist nie linear und oft unvorhersehbar. Jeder Kunde hat sein eigenes Tempo. Häufig zögert er, bricht ab, beginnt neu oder zeigt ein anderes nicht-lineares Verhalten. Diese organischen Aktionen machen es schwer nachvollziehen, wie sich Marketing-Maßnahmen auf die gesamte Customer Journey auswirken. Außerdem werden die Bemühungen zur Verknüpfung mehrerer Datenkanäle behindert.
 
-![Attribution IQ-Problem](assets/attribution_iq_problem.png)
+![Attributionsproblem](assets/attribution_iq_problem.png)
 
 Adobe Analytics erweitert die Attribution und ermöglicht Ihnen Folgendes:
 
@@ -39,7 +39,7 @@ Adobe Analytics erweitert die Attribution und ermöglicht Ihnen Folgendes:
 
 ## Funktionen
 
-Attribution IQ umfasst die folgenden Funktionen:
+Attribution umfasst die folgenden Funktionen:
 
 * [Bedienfeld „Attribution“](../c-panels/attribution.md): Vergleichen Sie beliebige Dimensionen und Metriken schnell mit verschiedenen Attributionsmodellen.
 * [Attribution auf eine Metrik anwenden](../visualizations/freeform-table/column-row-settings/column-settings.md): Verwenden Sie eine nicht standardmäßige Attribution für eine beliebige Metrik in einem Projekt.
@@ -48,22 +48,22 @@ Attribution IQ umfasst die folgenden Funktionen:
 
 ## Videos
 
-Attribution IQ in Freiformtabellen:
+Attribution in Freiformtabellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-Attribution IQ in berechneten Metriken
+Attribution in berechneten Metriken
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Verwenden des Panels „Attribution IQ“
+Attributionsbedienfeld verwenden:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Hinzufügen von nebeneinander angezeigten Vergleichen von Attribution IQ-Modellen:
+Hinzufügen von parallelen Vergleichen von Attributionsmodellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Adobe Analytics-Tools, die Attribution IQ nicht unterstützen
+## Adobe Analytics-Tools, die Attribution nicht unterstützen
 
-Alle Tools, die die Analytics 2.0-API nicht unterstützen, wie z. B. Report Builder, unterstützen auch nicht Attribution IQ.
+Alle Tools, die die Analytics 2.0-API nicht unterstützen, wie z. B. Report Builder, unterstützen auch nicht Attribution.

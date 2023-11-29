@@ -3,10 +3,10 @@ title: Erste Schritte mit Marketing-Kanälen
 description: Informieren Sie sich über den Workflow für Marketing-Kanäle, zur automatischen Einrichtung und zur Übernahme von Report Suite-Vorlageneinstellungen für mehrere Report Suites.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 99%
+source-wordcount: '810'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
+>Um die Effektivität von Marketing-Kanälen für Attribution und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 >
 >Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) beschrieben.
 

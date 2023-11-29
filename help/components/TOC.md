@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '758'
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+workflow-type: tm+mt
+source-wordcount: '757'
 ht-degree: 100%
 
 ---
@@ -289,7 +289,7 @@ ht-degree: 100%
    + [Unterstützte Echtzeit-Metriken und -Dimensionen](c-real-time-reporting/realtime-metrics.md)
 + Marketing-Kanäle {#marketing-channels}
    + [Erste Schritte mit Marketing-Kanälen](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Attribution IQ mit Marketing-Kanälen](c-marketing-channels/mchannel-best-practices.md)
+   + [Attribution mit Marketing-Kanälen](c-marketing-channels/mchannel-best-practices.md)
    + [Analysieren von Marketing-Kanälen](c-marketing-channels/analyze-mc.md)
    + [Berechtigungen für Marketing-Kanäle](c-marketing-channels/c-channel-report-access.md)
    + [Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen](c-marketing-channels/c-faq.md)

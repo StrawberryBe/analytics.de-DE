@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '5327'
-ht-degree: 100%
+source-wordcount: '5323'
+ht-degree: 99%
 
 ---
 
@@ -202,8 +202,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Juni 2020** | |
 | 25. Juni 2020 | Neue Dokumentation für das [Bedienfeld „Quick Insights“](/help/analyze/analysis-workspace/c-panels/quickinsight.md) in Arbeitsbereich. Sie bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace eine Möglichkeit, geschäftliche Fragen schnell und einfach zu beantworten. |
 | 25. Juni 2020 | Neue Dokumentation zum [Bedienfeld „Analytics for Target“](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) in Arbeitsbereich. Damit können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse mit Leichtigkeit analysieren. |
-| 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Algorithmische Zuordnung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
-| 18. Juni 2020 | Neue Dokumentation zu [Attribution IQ: Benutzerdefinierte Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
+| 18. Juni 2020 | Neue Dokumentation zu [Attribution: Algorithmische Zuordnung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
+| 18. Juni 2020 | Neue Dokumentation zu [Attribution: Benutzerdefinierte Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
 | 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. |
 | 18. Juni 2020 | Neue Dokumentation zu [Arbeitsbereich-Projekten, die nur angezeigt werden können](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de). Projekte können für Benutzende schreibgeschützt freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten, keine linke Leiste und verfügt nur über beschränkte Interaktionen. |
 | 18. Juni 2020 | Neue Dokumentation zu [Projektrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) für geteilte Arbeitsbereich-Projekte. Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. |
@@ -214,7 +214,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 21. Mai 2020 | Neue Dokumentation zu [Verbesserungen der Barrierefreiheit](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=de) in Analysis Workspace, einschließlich verbesserter Tastaturnavigation, Farbkontrast und Unterstützung für Bildschirmlesehilfen. |
 | **April 2020** |  |
 | 28. April 2020 | Eine Dokumentation zur Metrik für [Content-Geschwindigkeit](/help/components/metrics/content-velocity.md) wurde hinzugefügt. |
-| 16. April 2020 | Dokumentation zum automatischen Erstellen von [!UICONTROL Freiformtabellen] in einem leeren Projekt. Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiform-Tabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiform-Tabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren [!UICONTROL Freiformtabelle] abgelegt werden. |
+| 16. April 2020 | Dokumentation zum automatischen Erstellen von [!UICONTROL Freiformtabellen] in einem leeren Projekt. Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiform-Tabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiformtabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren [!UICONTROL Freiformtabelle] abgelegt werden. |
 | **März 2020** |  |
 | 12. März 2020 | Es wurden Aktualisierungen zum [Veröffentlichen von Segmenten in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) hinzugefügt. |
 | 12. März 2020 | Aktualisierungen der CDA-Stitching-Latenz. |
@@ -276,4 +276,4 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17. Januar 2019 | [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md): Umfangreiche Verbesserungen an der Kohortenanalyse ermöglichen Ihnen Folgendes:<ul><li>Anwendung einer Segmentaufnahme und separate Rückgabe von Metriken. </li><li>Anzeige von Abwanderung statt Treue.</li><li>Anzeige von Latenztabellen (verstrichene Zeit vor und nach einem Aufnahmeereignis).</li><li>Anpassung der Kohortendimension (Gruppierung von Besuchern basierend auf einem eVar, nicht nur auf der Zeit).</li><li>Führen Sie eine rollierende Kohortenberechnung durch: Berechnung von Bindung/Abwanderung basierend auf dem vorherigen Zeitraum, nicht auf der ursprünglichen Kohorte. </li><li>Hinzufügen mehrerer Metriken in Aufnahme- und Rückkehrfeldern sowie Anwendung von Segmenten. (Berechnete Metriken werden nicht unterstützt)</li></ul> |
 | 17. Januar 2019 | [Dichte anzeigen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Mit dieser neuen Einstellung können Sie mehr Daten auf einem einzigen Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren. Zugriff erhalten Sie über „Projekt“ > „Projektinfo und Einstellungen“. |
-| 17. Januar 2019 | [Unterstützung für Mehrwert-Variablen in Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). Einige Dimensionen in Analytics können mehrere Werte für einen Hit enthalten, zum Beispiel listVars, die Produktvariable, Listen-Props oder Merchandising-eVars. Mit Analysis Workspace können Sie Attribution IQ auf jede dieser Arten von Variablen auf der Hit-Ebene anwenden. |
+| 17. Januar 2019 | [Unterstützung für Mehrwert-Variablen in Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Einige Dimensionen in Analytics können mehrere Werte für einen Hit enthalten, zum Beispiel listVars, die Produktvariable, Listen-Props oder Merchandising-eVars. Mit Analysis Workspace können Sie Attribution auf jede dieser Arten von Variablen auf der Hit-Ebene anwenden. |

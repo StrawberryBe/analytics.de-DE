@@ -3,10 +3,10 @@ description: Informationen
 title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 73%
+source-wordcount: '464'
+ht-degree: 75%
 
 ---
 
@@ -31,13 +31,13 @@ So legen Sie den Metriktyp beim Erstellen einer berechneten Metrik fest:
 
 ## Funktionsweise der linearen Zuordnung
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) gibt an, wie Zuordnungsmodelle in berechneten Metriken ausgewertet werden.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) gibt an, wie Zuordnungsmodelle in berechneten Metriken ausgewertet werden.
 
 Eine vollständige Liste der nicht standardmäßigen Attributionsmodelle und unterstützten Lookback-Fenster finden Sie unter [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md).
 
 Das folgende Beispiel zeigt, wie berechnete Metriken mit linearen Zuordnungen in Berichten funktionieren:
 
-|  | Treffer 1 | Treffer 2 | Treffer 3 | Treffer 4 | Treffer 5 | Treffer 6 | Treffer 7 |
+| | Treffer 1 | Treffer 2 | Treffer 3 | Treffer 4 | Treffer 5 | Treffer 6 | Treffer 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Eingereichte Daten | PROMO A | – | PROMO A | PROMO B | – | PROMO C | 10$ |
 | Letztkontakt-eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | 10$ |
@@ -51,4 +51,4 @@ In diesem Beispiel wurden die Werte A, B und C in eine Variable für die Treffe
 Es gibt einige Unterschiede in der Funktionsweise der linearen Attribution zwischen diesen beiden Tools:
 
 * In Reports &amp; Analytics ist die (verarbeitete) lineare Attribution immer besuchsbasiert, während sie in Workspace besuchs- oder besuchsbasiert sein kann.
-* Wenn in Reports &amp; Analytics beim ersten Treffer eines Besuchs kein Wert übergeben wurde, bleibt der (anfängliche) Wert des vorherigen Besuchs erhalten. Dies ist in Workspace NICHT der Fall (Attribution IQ). Wenn beim ersten Treffer eines Besuchs kein Wert übergeben wird, ist „Keine“ der Ausgangswert.
+* Wenn in Reports &amp; Analytics beim ersten Treffer eines Besuchs kein Wert übergeben wurde, bleibt der (anfängliche) Wert des vorherigen Besuchs erhalten. Dies ist in Workspace NICHT der Fall (Attribution). Wenn beim ersten Treffer eines Besuchs kein Wert übergeben wird, ist „Keine“ der Ausgangswert.

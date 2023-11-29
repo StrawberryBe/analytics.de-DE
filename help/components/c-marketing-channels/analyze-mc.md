@@ -3,10 +3,10 @@ title: Analysieren von Marketing-Kanälen
 description: Erfahren Sie, wie Sie die Dimensionen von Marketing-Kanäle in Workspace verwenden.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 96%
+source-wordcount: '413'
+ht-degree: 97%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Um die Effektivität von Marketing-Kanälen für Attribution IQ und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
+>Um die Effektivität von Marketing-Kanälen für Attribution und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 >
->Analytics-Administratoren können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketingkanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) beschrieben.
 
 Sie möchten wahrscheinlich wissen, welcher Ihrer Marketing-Kanäle der effektivste ist und bei wem, damit Sie Ihre Bemühungen gezielter ausrichten und eine bessere Rendite aus Ihrem Marketing-Budget erzielen können. Die Dimensionen und Metriken der Marketing-Kanäle in Workspace sind eines der Tools in Adobe Analytics, mit dem Sie den Einfluss verschiedener Kanäle auf Ihre Bestellungen, Umsätze usw. verfolgen. und nützliche Einblicke in die Kanäle gewinnen können. Hier sind die Dimensionen und Metriken, die Sie in Bezug auf Marketing-Kanäle verwenden können:
 
@@ -24,7 +24,7 @@ Sie möchten wahrscheinlich wissen, welcher Ihrer Marketing-Kanäle der effektiv
 
 | Dimension/Metrik | Definition |
 | --- | --- |
-| Marketing-Kanal | Dies ist die empfohlene Dimension für Marketing-Kanäle. Attribution IQ-Modelle können zur Laufzeit darauf angewendet werden. Diese Dimension verhält sich identisch mit den Dimensionen des Letztkontakt-Kanals, ist jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung mit einem anderen Attributionsmodell zu vermeiden. |
+| Marketing-Kanal | Dies ist die empfohlene Dimension für Marketing-Kanäle. Attributionsmodelle können zur Laufzeit darauf angewendet werden. Diese Dimension verhält sich identisch mit den Dimensionen des Letztkontakt-Kanals, ist jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung mit einem anderen Attributionsmodell zu vermeiden. |
 | Letztkontakt-Kanal | Veraltete Dimension mit vorab angewendetem und unveränderlichem Letztkontakt-Attributionsmodell. |
 | Erstkontakt-Kanal | Veraltete Dimension mit vorab angewendetem und unveränderlichem Erstkontakt-Attributionsmodell. |
 | Marketing-Kanalinstanzen | Diese Metrik misst, wie oft ein Marketing-Kanal in einer Bildanforderung definiert wurde, einschließlich standardmäßiger Seitenansichten und benutzerspezifischer Link-Aufrufe. Enthält keine persistenten Werte. |
@@ -52,7 +52,7 @@ Dieses Liniendiagramm zeigt die Trends bei Online-Bestellungen für verschiedene
 
 ## Anwenden von Attributionsmodellen
 
-Sie können [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) verwenden, um verschiedene Attributionsmodelle sofort anzuwenden:
+Sie können [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) verwenden, um verschiedene Attributionsmodelle sofort anzuwenden:
 
 ![](assets/mc-viz5.png)
 

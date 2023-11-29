@@ -5,10 +5,10 @@ title: Neuerungen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '8268'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '8261'
+ht-degree: 99%
 
 ---
 
@@ -72,8 +72,8 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Attribution IQ: algorithmische Attribution | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
-| Attribution IQ: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution IQ so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Diese erhöht in der Regel die Attributionsgenauigkeit bei Ereignissen, die zu Beginn des Reporting-Zeitraums eintreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten stattgefunden haben. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
+| Attribution: Algorithmische Zuordnung | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
+| Attribution: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Diese erhöht in der Regel die Attributionsgenauigkeit bei Ereignissen, die zu Beginn des Reporting-Zeitraums eintreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten stattgefunden haben. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
 | Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
 | Schreibgeschützte Workspace-Projekte | Workspace-Projekte können in schreibgeschützter Form für Benutzerinnen und Benutzer freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten, keine linke Leiste und verfügt nur über beschränkte Interaktionen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de) |
 | Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfängerinnen und Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
@@ -97,7 +97,7 @@ Am 16. April 2020 veröffentlichte neue Funktion.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| [!UICONTROL Freiformtabellen] können in einem leeren Projekt automatisch erstellt werden. | Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiform-Tabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiform-Tabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren [!UICONTROL Freiformtabelle] abgelegt werden. |
+| [!UICONTROL Freiformtabellen] können in einem leeren Projekt automatisch erstellt werden. | Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiform-Tabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiformtabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren [!UICONTROL Freiformtabelle] abgelegt werden. |
 
 ## März 2020
 
@@ -187,7 +187,7 @@ Am 17. Januar 2019 veröffentlichte neue Funktionen und Verbesserungen.
 |--- |--- |
 | [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Umfangreiche Verbesserungen an der Kohortenanalyse ermöglichen Ihnen Folgendes:<ul><li>Anwendung einer Segmentaufnahme und separate Rückgabe von Metriken. </li><li>Anzeige von Abwanderung statt Treue.</li><li>Anzeige von Latenztabellen (verstrichene Zeit vor und nach einem Aufnahmeereignis).</li><li>Anpassung der Kohortendimension (Gruppierung von Besuchern basierend auf einem eVar, nicht nur auf der Zeit).</li><li>Führen Sie eine rollierende Kohortenberechnung durch: Berechnung von Bindung/Abwanderung basierend auf dem vorherigen Zeitraum, nicht auf der ursprünglichen Kohorte. </li><li>Hinzufügen mehrerer Metriken in Aufnahme- und Rückkehrfeldern sowie Anwendung von Segmenten. (Berechnete Metriken werden nicht unterstützt)</li></ul> |
 | [Dichte anzeigen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Mit dieser neuen Einstellung können Sie mehr Daten auf einem einzigen Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren. Zugriff erhalten Sie über „Projekt“ > „Projektinfo und Einstellungen“. |
-| [Unterstützung für Mehrwert-Variablen in Attribution IQ](attribution/overview.md) | Einige Dimensionen in Analytics können mehrere Werte für einen Hit enthalten, zum Beispiel listVars, die Produktvariable, Listen-Props oder Merchandising-eVars. Mit Analysis Workspace können Sie Attribution IQ auf jede dieser Arten von Variablen auf der Hit-Ebene anwenden. |
+| [Unterstützung für Mehrwert-Variablen in Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Einige Dimensionen in Analytics können mehrere Werte für einen Hit enthalten, zum Beispiel listVars, die Produktvariable, Listen-Props oder Merchandising-eVars. Mit Analysis Workspace können Sie Attribution auf jede dieser Arten von Variablen auf der Hit-Ebene anwenden. |
 | Leistungsverbesserungen | Geschwindigkeitsverbesserungen bei der Visualisierung von Aufschlüsselungen – Projekte mit vielen Aufschlüsselungen werden schneller geladen. |
 
 ## November 2018
@@ -270,8 +270,8 @@ Am 19. Juli 2018 veröffentlichte neue Funktionen und Verbesserungen.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>Mit Attribution IQ können Sie komplexere und intelligentere Analysen Ihrer Marketingperformance durchführen. Neue Attributionsmodelle können auf Metriken in Analysis Workspace (auf jede Tabelle oder jede Aufschlüsselung) und in berechneten Metriken angewendet werden. Der neue Attributionsbereich sorgt für bessere Darstellung und Vergleichsmöglichkeiten. </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution </a> </b> </p> </td>
+   <td colname="col2"> <p>Mit Attribution können Sie komplexere und intelligentere Analysen Ihrer Marketingperformance durchführen. Neue Attributionsmodelle können auf Metriken in Analysis Workspace (auf jede Tabelle oder jede Aufschlüsselung) und in berechneten Metriken angewendet werden. Der neue Attributionsbereich sorgt für bessere Darstellung und Vergleichsmöglichkeiten. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> Verbesserungen der linken Leiste </b> </p> </td>
@@ -348,7 +348,7 @@ Am 10. Mai 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Sie können nun nach oben und unten scrollen, während Sie Komponenten an eine andere Stelle ziehen. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b>Zusätzliche Informationen zu <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td>
+   <td colname="col1"> <p><b>Zusätzliche Informationen zu <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td>
    <td colname="col2"> <p>Wenn Sie den Mauszeiger in einem Liniendiagramm über eine Anomalie bewegen, werden in den Informationen jetzt das Datum und der Rohdatenwert der Anomalie angezeigt. </p> </td>
   </tr>
  </tbody>
@@ -379,7 +379,7 @@ Am 12. April 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Mit der neuen Visualisierungseinstellung für die Visualisierungen „Bereich gestapelt“, „Balken gestapelt“ und „Horizontalbalken gestapelt“ erhalten Sie eine zu „100 % gestapelte“ Visualisierung, damit Sie relative Anteile messen können. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Anomalieerkennung und Beitragsanalyse </a> jetzt nur über Analysis Workspace verfügbar </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Anomalieerkennung und Beitragsanalyse </a> jetzt nur über Analysis Workspace verfügbar </p> </td>
    <td colname="col2"> <p>Anomalieerkennung und Beitragsanalyse wurden aus dem Funktionsumfang von Reports &amp; Analytics entfernt und sind nun nur noch über Analysis Workspace verfügbar. </p> <p>Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation in Workspace nur Zugriff auf die Anomalieerkennung „tägliche Granularität“ haben. </p> </td>
   </tr>
  </tbody>
@@ -610,7 +610,7 @@ Am 26. Oktober 2017 veröffentlichte neue Funktionen.
     </ul> <p>Wenn zum Beispiel das Element „Stunde des Tages“ in eine Tabelle abgelegt wird, wird es von 0 Uhr bis 23 Uhr sortiert. Sie haben auch die Möglichkeit, nach einer Metrikspalte zu sortieren. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Möglichkeit, festzulegen, dass das Konfidenzintervall erneut ein Diagramm skaliert </a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > Möglichkeit, festzulegen, dass das Konfidenzintervall erneut ein Diagramm skaliert </a> </p> </td>
    <td colname="col2"> <p>Das Konfidenzintervall der Anomalieerkennung skaliert nicht automatisch die Y-Achse einer Visualisierung, um das Diagramm nach Möglichkeit lesbarer zu machen. </p> <p>Sie können jetzt festlegen, dass das Konfidenzintervall das Diagramm skaliert. </p> </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ Am 21. September 2017 veröffentlichte neue Funktionen.
    <td colname="col1"> <p> Schaltfläche <span class="uicontrol">Alle löschen</span> für Konfiguration von Segmentvergleich und Beitragsanalyse </p> </td>
    <td colname="col2"> <p>Anstatt jedes Element manuell zu löschen, können Sie nun in folgenden Workspace-Bereichen alle Elemente löschen: </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > Beitragsanalyse – Ausgeschlossene Komponenten </a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Beitragsanalyse – Ausgeschlossene Komponenten </a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> Segmentvergleich – Ausgeschlossene Komponenten </a> </li>
     </ul> </td>
   </tr>
@@ -754,7 +754,7 @@ Am 20. Juli 2017 veröffentlichte neue Funktionen.
    <td colname="col2"> <p>Die Verwaltung von Datenquellen (auf denen Visualisierungen beruhen) wurde geändert. Es gibt keine separaten, verborgenen Tabellen mehr, wenn Sie Ihre Datenquelle in einer Tabelle festlegen. </p> <p>Stattdessen ist das Bildmaterial an die Tabelle gebunden, aus der es erstellt wurde. Dadurch wird auch ein Fehler bei live verknüpften Tabellen behoben, der bei Änderung der Granularität dazu führte, dass beim nächsten Laden des Projekts wieder die alte Granularität angezeigt wurde. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > Funktion zum Hervorheben einer bestimmten Anomalie </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Funktion zum Hervorheben einer bestimmten Anomalie </a></b> </p> </td>
    <td colname="col2"> <p>Jetzt werden Anomalien durch einen blauen Punkt in der Beitragsanalyse und in den verknüpften intelligenten Benachrichtigungsprojekten hervorgehoben. Dadurch ist die gerade analysierte Anomalie leichter zu erkennen. </p> </td>
   </tr>
   <tr>
@@ -986,7 +986,7 @@ Am 20. Oktober 2016 veröffentlichte neue Funktionen:
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Anomalieerkennung und Beitragsanalyse </a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Anomalieerkennung und Beitragsanalyse </a></b> </td>
    <td colname="col2"> <p>Teilt Ihnen mit, wenn eine wichtige Veränderung in Trenddaten auftritt und wodurch sie verursacht wurde. </p> <p>Sowohl die Anomalieerkennung als auch die Beitragsanalyse sind jetzt Kernarbeitsabläufe in Analysis Workspace. </p> <p>Wichtig: Beitragsanalyse ist nur für Adobe Analytics Premium-Kunden verfügbar. </p> <p>Sie können: </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">Statistisch signifikante Datenanomalien in Ihren Daten automatisch aufspüren. </li>
