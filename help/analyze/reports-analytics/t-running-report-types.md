@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 100%
+source-wordcount: '1069'
+ht-degree: 96%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-Schritte zum Ausführen der verschiedenen Berichtstypen.
+Sie können in Analysis Workspace viele verschiedene Berichtstypen ausführen. Im Folgenden finden Sie einige Beispiele.
 
-## Rangbericht ausführen {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+Eine vollständige Liste der verfügbaren vordefinierten Berichtstypen finden Sie unter [Verwenden von vordefinierten Berichten](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-In Rangberichten zeigt die Tabelle die Rangordnung der Berichtsseiten als Zahl oder Prozentwert im Verhältnis zur Metrik an. Bei Rangberichten können mehrere Metriken in einem Bericht angezeigt werden.
+<!-- How do you do a Ranked Report in Workspace?
 
-1. Erstellen Sie einen Bericht, wie zum Beispiel einen [!UICONTROL Seitenbericht] (**[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**).
-1. Klicken Sie im Berichtkopf auf **[!UICONTROL Rangansicht]**.
-1. Klicken Sie auf die Spaltenüberschrift in der Tabelle, um den Bericht nach Rang zu ordnen.
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   Rangberichte können bis zu 200 in der Tabelle aufgelistete Elemente enthalten (wie zum Beispiel Produkte, Kategorien, Webseiten usw.) und zehn Metriken (Umsatz, Bestellungen, Ansichten usw.).
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## Trendbericht ausführen {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-Trendberichte zeigen Metriken im Zeitverlauf an. Sie können diesen Berichtstyp verwenden, um die Leistung eines Segments von einem Zeitraum zum nächsten anzuzeigen.
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-Die meisten Konversions- und Traffic-Berichte verfügen über eine Trendanzeige. Mit dem [!UICONTROL Kalender] lassen sich Verbesserungen aus allen Zeitraumunterteilungen anzeigen, einschließlich Tage eines Monats, Wochen eines Jahres, Wochen eines Quartals, Monate eines Jahres usw. Trendberichte zeigen Trends einer Metrik (Umsatz, Bestellungen, Ansichten usw.) für bis zu fünf Elemente (Produkte, Kategorien, Webseiten usw.) an.
+-->
 
-**So führen Sie einen Trendbericht aus**
+<!-- Can you do a Trended report? 
 
-1. Führen Sie einen Konversions- oder Traffic-Bericht aus, wie zum Beispiel **[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**.
-1. Klicken Sie unter **[!UICONTROL Berichttyp]** auf **[!UICONTROL Trendansicht]**.
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## Fallout-Bericht ausführen {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://experienceleague.adobe
 1. Klicken Sie in [!UICONTROL Adobe Analytics] auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Trichteranalyse]**.
 1. Klicken Sie auf der Seite [!UICONTROL Fallout-Bericht] auf **[!UICONTROL Fallout-Bericht-Report Builder starten]**.
 
-   ![Schritt Ergebnis](assets/fallout_add_items.png)
-
 1. Legen Sie auf der Seite [!UICONTROL Checkpoints definieren] die Checkpoints fest, die Sie für den Bericht verwenden möchten.
 1. Klicken Sie auf **[!UICONTROL Bericht ausführen]**.
-
-   ![Schritt Ergebnis](assets/fallout_report.png)
 
 ## Seitenflussbericht ausführen {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Seitenflussberichte zeigen die Reihenfolge an, in der Ihre Besucher auf Seiten zugreifen und auf Ihrer Website navigieren. Dieser Bericht bietet Antworten
 
-Sehen Sie sich die [Flussvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
-
-Klicken Sie zum Beispiel auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Nächster Seitenfluss]**.
+Klicken Sie beispielsweise auf **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Nächster und vorheriger Seitenfluss]**.
 
 ## Marketing-Kanal-Bericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
 

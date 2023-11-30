@@ -3,32 +3,32 @@ description: Administrative Schritte zum Einrichten von Echtzeitberichten.
 title: Echtzeitberichte konfigurieren
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 78%
 
 ---
 
 # Echtzeitberichte konfigurieren
 
-{{ra-eol}}
+Die folgenden Informationen enthalten administrative Schritte zum Einrichten von Echtzeitberichten.
 
-Administrative Schritte zum Einrichten von Echtzeitberichten.
-
-Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurichten, wählen Sie die Report Suite aus und konfigurieren Sie bis zu drei Berichte.
+Hierzu müssen Sie die Report Suite auswählen und bis zu drei Berichte konfigurieren.
 
 1. Wählen Sie die Report Suite aus, für die Sie Echtzeit-Berichte aktivieren möchten.
 
-   Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Alle Berichte anzeigen > Site-Metriken]** > **[!UICONTROL Echtzeit]** und wählen Sie die Report Suite oben aus dem Dropdown-Menü aus:
+   1. Wählen Sie in Analysis Workspace die [!UICONTROL **Arbeitsbereich**] Registerkarte und wählen Sie [!UICONTROL **Berichte**] > [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+   1. Wählen Sie die Report Suite aus der Dropdown-Liste oben aus:
 
-   Wenn Sie versuchen, Echtzeitberichte für eine Report Suite anzuzeigen, die nicht für Echtzeitberichte eingerichtet wurde, wird eine Meldung angezeigt, die Ihnen das Einrichten der Report Suite ermöglicht.
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      Wenn Sie versuchen, Echtzeitberichte für eine Report Suite anzuzeigen, die nicht für Echtzeitberichte eingerichtet wurde, wird eine Meldung angezeigt, die Ihnen das Einrichten der Report Suite ermöglicht.
 
-1. Klicken Sie auf **[!UICONTROL Konfigurieren]** (Zahnradsymbol), um den [!UICONTROL Report Suite Manager] auszuführen.
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+
+1. Auswählen **[!UICONTROL Konfigurieren]** zum Ausführen der [!UICONTROL Report Suite Manager].
 
    (Auch verfügbar unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Echtzeit]**)
 
@@ -55,7 +55,7 @@ Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurich
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]**.
+1. Auswählen **[!UICONTROL Speichern]** oder **[!UICONTROL Bericht speichern und anzeigen]**.
 
    Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=de).
 

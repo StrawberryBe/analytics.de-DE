@@ -4,7 +4,7 @@ title: Vorlagen
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 200b275dea37f193930a04e87bea049bbd2fcb59
+source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 11%
@@ -19,7 +19,7 @@ Informationen zum Erstellen von Workspace-Berichten und zum Erstellen benutzerde
 
 | Aufgabe | Link |
 |---|---| 
-| So erfahren Sie mehr über die Startseite des Projektmanagers und das aktualisierte Menü &quot;Berichte&quot; | [Neue Landingpage von Adobe Analytics](/help/analyze/landing.md) |
-| So erstellen Sie einen benutzerdefinierten Unternehmensbericht | [Erstellen eines benutzerdefinierten Unternehmensberichts](/help/analyze/landing.md#company-report) |
-| So suchen Sie den Speicherort von Vorlagen (jetzt *Berichte*) | [Speicherort der Vorlagen (*jetzt als Berichte bezeichnet*)](/help/analyze/landing.md#templates) |
-| So navigieren Sie zur Registerkarte Berichte | [Navigieren durch die Registerkarte Berichte](/help/analyze/landing.md#navigate-reports) |
+| Erfahren Sie mehr über die Homepage des Projektmanagers und das aktualisierte Menü &quot;Berichte&quot; | [Neue Landingpage von Adobe Analytics](/help/analyze/landing.md) |
+| Erstellen eines benutzerdefinierten Unternehmensberichts | [Erstellen und Verwalten von Unternehmensberichten](/help/analyze/analysis-workspace/reports/create-company-reports.md) |
+| Anzeigen einer Liste mit vordefinierten Berichten oder Suchen nach dem Speicherort von Vorlagen (jetzt als *Berichte*) | [Verwenden von vordefinierten Berichten](/help/analyze/analysis-workspace/reports/use-reports.md) |
+| Erfahren Sie, wie Sie auf der Registerkarte Berichte navigieren | [Navigieren durch die Registerkarte Berichte](/help/analyze/landing.md#navigate-reports) |

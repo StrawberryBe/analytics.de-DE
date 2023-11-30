@@ -5,16 +5,14 @@ uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
 # Konversionstrichter
-
-{{ra-eol}}
 
 In der Regel wird die Konversion zwischen Start-, End- und Meilensteinereignissen oder den Punkten in einem Konversionsprozess anhand von Konversionsquotienten gemessen. Nachdem Sie die Erfolgsereignisse auf Ihrer Website kodiert haben, werden die Quotienten zwischen den verschiedenen Erfolgsereignissen von dem Bericht erstellt und in einem Konversionstrichterbericht dargestellt.
 
