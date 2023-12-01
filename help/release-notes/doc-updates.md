@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 99%
+source-wordcount: '5424'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **Dezember 2023** | |
+| Neuer Abschnitt &quot;Berichte&quot; | Es wurde ein neuer Abschnitt &quot;Berichte&quot;mit Informationen zu [mit vordefinierten Berichten](/help/analyze/analysis-workspace/reports/use-reports.md) und [Erstellen und Verwalten von Unternehmensberichten](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Aktualisierungen der Dokumentation zur Anomalieerkennung und Beitragsanalyse | Die Dokumentation zur Anomalieerkennung und Beitragsanalyse war zuvor in einem Abschnitt zu Virtual Analyst enthalten. Die folgenden Änderungen wurden vorgenommen: <ul><li>Der Begriff &quot;Virtual Analyst&quot;wurde aus der Dokumentation entfernt.</li><li>Der Abschnitt zu [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) wurde direkt unter den Abschnitt &quot;Analysis Workspace&quot;verschoben.</li><li>Die Dokumentation zur Beitragsanalyse wurde in der Dokumentation zur Anomalieerkennung zusammengeführt.</li></ul> |
+| &quot;Attribution IQ &quot;wurde zu &quot;Attribution&quot;geändert | Alle Instanzen von &quot;Attribution IQ&quot;wurden zu &quot;[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)&quot;in der gesamten Dokumentation. |
 | **November 2023** | |
 | Aktualisierungen für das Themas „Aktivierung der Activity Map“ | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=de) hinzugefügt (sowohl manuell als auch über die Tags-Erweiterung von Adobe Experience Platform). |
 | **Oktober 2023** | |

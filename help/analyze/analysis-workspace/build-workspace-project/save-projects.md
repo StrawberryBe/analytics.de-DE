@@ -4,9 +4,9 @@ title: Projekte speichern
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '720'
 ht-degree: 96%
 
 ---
@@ -30,7 +30,7 @@ Gehen Sie folgendermaßen vor, um ein Projekt manuell zu speichern:
    | **[!UICONTROL Speichern]** | Speichern Sie die Änderungen an Ihrem Projekt. Wenn das Projekt freigegeben ist, sehen auch die Empfänger des Projekts die Änderungen. Wenn Sie das Projekt zum ersten Mal speichern, werden Sie aufgefordert, dem Projekt einen Namen, eine (optionale) Beschreibung und (optionale) Tags hinzuzufügen. |
    | **[!UICONTROL Mit Hinweisen speichern]** | Bevor Sie das Projekt speichern, fügen Sie Notizen zu den Änderungen im Projekt hinzu. Notizen werden mit der Projektversion gespeichert und stehen allen Editoren unter [!UICONTROL Projekt] > [!UICONTROL Frühere Version öffnen] zur Verfügung. |
    | **[!UICONTROL Speichern unter]** | Erstellen Sie ein Duplikat Ihres Projekts. Das ursprüngliche Projekt bleibt davon unberührt. |
-   | **[!UICONTROL Als Unternehmensbericht speichern]** | Speichern Sie Ihr Projekt als [Unternehmensbericht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=de) wird für Ihre Organisation unter **[!UICONTROL Projekt > Neu]** |
+   | **[!UICONTROL Als Unternehmensbericht speichern]** | Speichern Sie Ihr Projekt als [Unternehmensbericht](/help/analyze/analysis-workspace/reports/create-company-reports.md) wird für Ihre Organisation unter **[!UICONTROL Projekt > Neu]** |
 
 ## Automatisches Speichern {#Autosave}
 
