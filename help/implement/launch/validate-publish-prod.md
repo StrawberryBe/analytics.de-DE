@@ -3,10 +3,10 @@ title: Entwicklungsimplementierung validieren und in der Produktion veröffentli
 description: Hier erfahren Sie, wie Sie Tags in Adobe Experience Platform verwenden, um Adobe Analytics in Ihrer Produktionsumgebung bereitzustellen.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
+source-wordcount: '622'
+ht-degree: 72%
 
 ---
 
@@ -20,12 +20,12 @@ Sobald Ihre Tag-Bibliothek in die Produktion verschoben wurde, kann Ihr Unterneh
 
 ## Überprüfung der Dev-Implementierung mit dem Experience Cloud-Debugger
 
-Der Experience Cloud-Debugger ist eine Erweiterung, die alle Experience Cloud-Tags anzeigt, die auf einer Seite vorhanden sind.
+Der Experience Cloud-Debugger ist eine Erweiterung, die alle auf einer Seite vorhandenen Experience Cloud-Tags anzeigt.
 
-1. Installieren Sie die Erweiterung für [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder [Firefox](https://addons.mozilla.org/de/firefox/addon/adobe-experience-platform-dbg/).
+1. Installieren Sie die Erweiterung für [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder Firefox.
 2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Tags implementiert haben.
 3. Klicken Sie in Ihrem Browser auf das Adobe Experience Cloud-Debugger-Symbol.
-4. Wenn alles ordnungsgemäß implementiert ist, sollten Sie Inhalte in Adobe Analytics, Tags und den Besucher-ID-Service von Adobe Experience Cloud sehen.
+4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und dem Adobe Experience Cloud-Besucher-ID-Dienst angezeigt werden.
 
 ## Bereitstellen der Dev-Implementierung für Staging/Produktion.
 
@@ -38,7 +38,7 @@ Nachdem Sie überprüft haben, ob Daten für Sie sichtbar sind, können Sie Ihre
 1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt in der Spalte &quot;Gesendet&quot;) und wählen Sie **[!UICONTROL Build für das Staging]**.
 1. Nach einigen Augenblicken wird das gelbe Licht der Bibliothek grün, was auf eine erfolgreiche Erstellung hinweist.
 1. Klicken Sie erneut auf die Dropdownliste der Bibliothek und wählen Sie **[!UICONTROL Zur Veröffentlichung genehmigen]**.
-1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt im [!UICONTROL Genehmigt] ) und wählen Sie **[!UICONTROL Erstellen und in Produktion veröffentlichen]**.
+1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt im [!UICONTROL Genehmigt] Spalte) und wählen Sie **[!UICONTROL Erstellen und in der Produktion veröffentlichen]**.
 1. Klicken Sie auf der Registerkarte „Umgebungen“ auf **[!UICONTROL Produktionsumgebung]**.
 1. Kopieren Sie den Produktions-Installationscode und stellen Sie ihn Ihren Website-Eigentümern zur Verfügung. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
 
@@ -58,7 +58,7 @@ Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beg
 * Es gibt keine JavaScript-Fehler in der Konsole. Wenden Sie sich an die Website-Inhaber Ihres Unternehmens, um sicherzustellen, dass alle JS-Fehler behoben sind.
 * Der Kopfzeilencode ist ordnungsgemäß implementiert: Stellen Sie sicher, dass sich der Kopfzeilencode innerhalb des `<head>`-Tags befindet und dass die Datei vorhanden ist.
 * AppMeasurement-Bibliothek vorhanden: Navigieren Sie direkt zur JS-Quelle, um sicherzustellen, dass die JS-Datei Code enthält. Ist dies nicht der Fall, stellen Sie sicher, dass jede Umgebung erstellt und die Bibliothek in der entsprechenden Umgebung veröffentlicht wurde.
-* Erweiterungen abhören: Einige Erweiterungen, wie z. B. Anzeigensperren, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die verhindern könnten, dass Daten an Adobe gesendet werden.
+* Störende Erweiterungen: Einige Erweiterungen, wie z. B. Anzeigenblocker, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die verhindern könnten, dass Daten an Adobe gesendet werden.
 
 ## Nächste Schritte
 

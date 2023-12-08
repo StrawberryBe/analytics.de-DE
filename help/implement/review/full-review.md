@@ -3,16 +3,16 @@ title: Vollständige Prüfung
 description: Prüfen Sie Ihre Implementierung alle 6 Monate, um weiterhin die Ausrichtung an Geschäftsanforderungen und KPIs sicherzustellen.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 80%
 
 ---
 
 # Vollständige Prüfung (zweimal jährlich zur Prüfung Ihrer Implementierung)
 
-Warum sollten Sie Ihre Implementierung alle 6 Monate prüfen? Weil Sie sicherstellen müssen, dass Ihre Implementierung an Ihren Geschäftsanforderungen ausgerichtet bleibt! Außerdem sollten Sie alle Probleme mit der Datenqualität beheben, solange sie noch klein sind und bevor sie sich zu größeren Datenproblemen auswachsen, die das Vertrauen der Stakeholder untergraben könnten. Zusätzlich zu diesen vollständigen Prüfungen alle 6 Monate sollten Sie auch [gezielte Prüfungen](/help/implement/review/focused-review.md) nach jeder Website-Veröffentlichung durchführen.
+Warum sollten Sie Ihre Implementierung alle 6 Monate prüfen? Weil Sie sicherstellen müssen, dass Ihre Implementierung an Ihren Geschäftsanforderungen ausgerichtet bleibt! Sie möchten auch alle Probleme mit der Datenqualität beheben, solange sie klein sind und bevor sie zu größeren Datenproblemen werden, die das Vertrauen der Stakeholder untergraben könnten. Zusätzlich zu diesen vollständigen Prüfungen alle 6 Monate sollten Sie auch [gezielte Prüfungen](/help/implement/review/focused-review.md) nach jeder Website-Veröffentlichung durchführen.
 
 ## 1. Stellen Sie sicher, dass Ihre Implementierung weiterhin vollständig an unseren Geschäftsanforderungen ausgerichtet ist
 
@@ -22,10 +22,10 @@ Treffen Sie sich mit dem Geschäftsinhaber und/oder den Business Analysten, um d
 
 Prüfen Sie kurz all Ihre Kennzahlen und Variablen in der Reihenfolge ihrer Bedeutung für das Unternehmen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginnen Sie mit Ihren zentralen Metriken und Variablen – denjenigen, die mit Ihren [5 wichtigsten KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=de#review) verbunden sind. Gehen Sie folgendermaßen vor:
 
-* Erstellen Sie Dashboards, um monatliche Trendansichten Ihrer Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de#analysis-workspace) für jede einzelne ein), um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um den Grund herauszufinden.
+* Erstellen Sie Dashboards, um monatliche Trendansichten Ihrer Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) für jede Datei), um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um den Grund herauszufinden.
 * Führen Sie das [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um allgemeine Trends Ihrer Kennzahlen und Variablen zu überwachen.
 
-Stellen Sie sicher, dass Ihre Implementierung nicht mit unnötigen Kennzahlen und Variablen überladen wird. Deaktivieren Sie Kennzahlen oder Variablen, die das Unternehmen nicht mehr benötigt oder verwendet. Sie können sie später löschen oder wiederverwenden.
+Lassen Sie es nicht zu, dass Ihre Implementierung mit nicht benötigten Metriken und Variablen aufgebläht wird. Deaktivieren Sie Kennzahlen oder Variablen, die das Unternehmen nicht mehr benötigt oder verwendet. Sie können sie später löschen oder wiederverwenden.
 
 ## 3. Aktualisieren Sie Ihre KPIs
 
