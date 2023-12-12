@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ So stellen Sie Anomalien in einem Liniendiagramm dar:
 
    * Der Link „Analysieren“ zum Starten der Beitragsanalyse
 
-     (Siehe [Übersicht über die Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) für weitere Informationen.)
+     (Weitere Informationen finden Sie in der [Übersicht über die Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md).)
 
 
 
