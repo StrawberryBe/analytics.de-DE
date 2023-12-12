@@ -5,21 +5,21 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1402'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Übersicht über die Anomalieerkennung
 
-Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden. Die Beitragsanalyse funktioniert in Verbindung mit der Anomalieerkennung, um herauszufinden, was zur Anomalie beigetragen hat.
+Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden. Die Beitragsanalyse arbeitet in Verbindung mit der Anomalieerkennung, um herauszufinden, was zur Anomalie beigetragen hat.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
 
 >[!IMPORTANT]
 >
->Kunden von Adobe Analytics Select und Adobe Analytics Foundation haben nur Zugriff auf die Anomalieerkennung mit &quot;täglicher Granularität&quot;in Workspace. Weitere Informationen finden Sie unter [Anomalieerkennung und Beitragsanalyse – Berechtigungen](#anomaly-detection-and-contribution-analysis-entitlements).
+>Kundinnen und Kunden von Adobe Analytics Select und Adobe Analytics Foundation haben in Workspace nur Zugriff auf die Anomalieerkennung mit „täglicher Granularität“. Weitere Informationen finden Sie unter [Anomalieerkennung und Beitragsanalyse – Berechtigungen](#anomaly-detection-and-contribution-analysis-entitlements).
 
 ## Anomalieerkennung
 
