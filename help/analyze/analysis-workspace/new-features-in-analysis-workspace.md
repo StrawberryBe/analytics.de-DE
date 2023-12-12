@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8261'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,8 +72,8 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Attribution: Algorithmische Zuordnung | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
-| Attribution: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Diese erhöht in der Regel die Attributionsgenauigkeit bei Ereignissen, die zu Beginn des Reporting-Zeitraums eintreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten stattgefunden haben. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
+| Attribution: algorithmische Attribution | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=de) |
+| Attribution: benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in der Attribution so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Diese erhöht in der Regel die Attributionsgenauigkeit bei Ereignissen, die zu Beginn des Reporting-Zeitraums eintreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten stattgefunden haben. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) |
 | Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Arbeitsbereich-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
 | Schreibgeschützte Workspace-Projekte | Workspace-Projekte können in schreibgeschützter Form für Benutzerinnen und Benutzer freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten, keine linke Leiste und verfügt nur über beschränkte Interaktionen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de) |
 | Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfängerinnen und Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de) |
@@ -187,7 +187,7 @@ Am 17. Januar 2019 veröffentlichte neue Funktionen und Verbesserungen.
 |--- |--- |
 | [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Umfangreiche Verbesserungen an der Kohortenanalyse ermöglichen Ihnen Folgendes:<ul><li>Anwendung einer Segmentaufnahme und separate Rückgabe von Metriken. </li><li>Anzeige von Abwanderung statt Treue.</li><li>Anzeige von Latenztabellen (verstrichene Zeit vor und nach einem Aufnahmeereignis).</li><li>Anpassung der Kohortendimension (Gruppierung von Besuchern basierend auf einem eVar, nicht nur auf der Zeit).</li><li>Führen Sie eine rollierende Kohortenberechnung durch: Berechnung von Bindung/Abwanderung basierend auf dem vorherigen Zeitraum, nicht auf der ursprünglichen Kohorte. </li><li>Hinzufügen mehrerer Metriken in Aufnahme- und Rückkehrfeldern sowie Anwendung von Segmenten. (Berechnete Metriken werden nicht unterstützt)</li></ul> |
 | [Dichte anzeigen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Mit dieser neuen Einstellung können Sie mehr Daten auf einem einzigen Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren. Zugriff erhalten Sie über „Projekt“ > „Projektinfo und Einstellungen“. |
-| [Unterstützung für Mehrwert-Variablen in Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Einige Dimensionen in Analytics können mehrere Werte für einen Hit enthalten, zum Beispiel listVars, die Produktvariable, Listen-Props oder Merchandising-eVars. Mit Analysis Workspace können Sie Attribution auf jede dieser Arten von Variablen auf der Hit-Ebene anwenden. |
+| [Unterstützung für Mehrwert-Variablen in der Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Einige Dimensionen in Analytics können mehrere Werte für einen Treffer enthalten, zum Beispiel listVars, die Produktvariable, Listen-Props oder Merchandising-eVars. Mit Analysis Workspace können Sie Attribution auf jede dieser Arten von Variablen auf der Trefferebene anwenden. |
 | Leistungsverbesserungen | Geschwindigkeitsverbesserungen bei der Visualisierung von Aufschlüsselungen – Projekte mit vielen Aufschlüsselungen werden schneller geladen. |
 
 ## November 2018
@@ -271,7 +271,7 @@ Am 19. Juli 2018 veröffentlichte neue Funktionen und Verbesserungen.
  <tbody>
   <tr>
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution </a> </b> </p> </td>
-   <td colname="col2"> <p>Mit Attribution können Sie komplexere und intelligentere Analysen Ihrer Marketingperformance durchführen. Neue Attributionsmodelle können auf Metriken in Analysis Workspace (auf jede Tabelle oder jede Aufschlüsselung) und in berechneten Metriken angewendet werden. Der neue Attributionsbereich sorgt für bessere Darstellung und Vergleichsmöglichkeiten. </p> </td>
+   <td colname="col2"> <p>Mit Attribution können Sie komplexere und intelligentere Analysen Ihrer Marketing-Performance durchführen. Neue Attributionsmodelle können auf Metriken in Analysis Workspace (auf jede Tabelle oder jede Aufschlüsselung) und in berechneten Metriken angewendet werden. Der neue Attributionsbereich sorgt für bessere Darstellung und Vergleichsmöglichkeiten. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> Verbesserungen der linken Leiste </b> </p> </td>
