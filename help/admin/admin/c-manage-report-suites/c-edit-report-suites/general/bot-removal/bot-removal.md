@@ -3,16 +3,16 @@ title: Entfernen von Bots in Adobe Analytics
 description: Entfernen von Bots in Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 84%
+source-wordcount: '763'
+ht-degree: 81%
 
 ---
 
 # Entfernen von Bots in Adobe Analytics
 
-In Adobe Analytics stehen Ihnen mehrere Optionen zur Verfügung, um den Bot-Traffic aus der Berichterstellung zu entfernen:
+Adobe Analytics bietet mehrere Optionen, um Bot-Traffic aus der Berichterstellung zu entfernen:
 
 ## Verwenden von Bot-Regeln
 
@@ -23,7 +23,7 @@ Sowohl Standard- als auch benutzerdefinierte Bot-Filtermethoden werden in **[!UI
 | Standard-IAB-Bot-Regeln | Wenn Sie **[!UICONTROL IAB Bot-Filterungsregeln aktivieren]** auswählen, wird die Liste „International Spiders &amp; Bots List“ von [IAB](https://www.iab.com/) (International Advertising Bureau) verwendet, um Bot-Traffic zu entfernen. Die meisten Kunden wählen mindestens diese Option aus. |
 | Benutzerdefinierte Bot-Regeln | Sie können benutzerdefinierte Bot-Regeln festlegen und hinzufügen, die auf Benutzeragenten, IP-Adressen oder IP-Bereichen basieren. |
 
-Weitere Informationen finden Sie unter [Übersicht über Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Weitere Informationen finden Sie unter [Bot-Regeln verstehen und konfigurieren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Identifizieren von Bots mit dem Plug-in [!UICONTROL websiteBot]
 

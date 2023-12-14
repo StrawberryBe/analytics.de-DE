@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '641'
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 95%
                + [Verarbeitungsregeln – Tipps und Tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + Bot-Regeln{#bot-removal}
                + [Bot-Entfernung](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Übersicht über Bot-Regeln](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Bot-Regeln verstehen und konfigurieren](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Allgemeine Bot-Signaturen](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Bot-Ausschlussmethoden](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Datenschutzeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -111,7 +111,7 @@ ht-degree: 95%
             + [Planen einer Spitze](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Dauerhafter Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Standardmetriken](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + App-Management {#app-management}
+         + App-Verwaltung {#app-management}
             + [App-Reporting](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
             + [App-Classifications](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [Medienverwaltung](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
@@ -158,7 +158,7 @@ ht-degree: 95%
       + [Voreinstellungs-Manager](admin/company/preferences-manager.md)
       + [Ausstehende Aktionen](admin/company/pending-actions-admin.md)
       + [Funktionszugriffsebenen](admin/company/feature-access-levels.md)
-   + Datenschutzkennzeichnungen für Data Governance {#data-governance}
+   + Datenschutz-Beschriftung für Data Governance {#data-governance}
       + [Adobe Analytics-Workflow zum Datenschutz](admin/c-data-governance/an-gdpr-workflow.md)
       + [Häufig gestellte Fragen](admin/c-data-governance/gdpr-faq.md)
       + Datenkennzeichnung {#data-labels}
@@ -177,8 +177,8 @@ ht-degree: 95%
       + [Warnhinweise zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/scu-alerts.md)
       + [Häufig gestellte Fragen zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-faq.md)
    + Benutzer und Produkte verwalten (alt) {#user-product-management}
-      + [Verwalten von Benutzenden und Produkten  (veraltet)](admin/user-management2/user-management.md)
-      + [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](admin/user-management2/users-assets.md)
+      + [Verwalten von Benutzenden und Produkten (veraltet)](admin/user-management2/user-management.md)
+      + [Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs](admin/user-management2/users-assets.md)
       + Migrieren von Benutzern zur Adobe Admin Console {#migrate-users}
          + [Analytics-Benutzermigration zur Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)

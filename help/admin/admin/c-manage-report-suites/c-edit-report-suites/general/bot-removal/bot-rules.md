@@ -1,35 +1,58 @@
 ---
 description: Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Durch das Ausblenden des Bot-Traffics kann die Benutzeraktivität auf Ihrer Website genauer gemessen werden.
-title: Übersicht über Bot-Regeln
+title: Bot-Regeln verstehen und konfigurieren
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '1369'
-ht-degree: 100%
+source-git-commit: 7813900a7c104acdb9b1a3ebfadf597a5070a3e7
+workflow-type: tm+mt
+source-wordcount: '1613'
+ht-degree: 71%
 
 ---
 
-# Übersicht über Bot-Regeln
+# Bot-Regeln verstehen und konfigurieren
 
 Mit Bot-Regeln können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots generiert wird. Durch das Ausblenden des Bot-Traffics kann die Benutzeraktivität auf Ihrer Website genauer gemessen werden.
 
-Im Folgenden finden Sie ein Video zum Konfigurieren von Bot-Regeln:
+Nach der Definition von Bot-Regeln wird aller eingehender Traffic mit den definierten Regeln abgeglichen. Traffic, der mit einer dieser Regeln übereinstimmt, wird nicht in der Report Suite erfasst und ist nicht in Traffic-Metriken enthalten.
+
+Mit der Entfernung von Bot-Traffic werden das Traffic-Volumen und die Konversionsmetriken vermindert. Viele Kunden stellen fest, dass die Entfernung von Bot-Traffic zu höheren Konversionsraten und zu höheren anderen Benutzerfreundlichkeitsmetriken führt.
+
+Bot-Traffic-Daten werden in einem separaten Repository zur Anzeige in den Berichten &quot;Bots&quot;und &quot;Bot Pages&quot;gespeichert.
+
+## Aktualisieren oder Hochladen von Bot-Regeln
+
+>[!IMPORTANT]
+>
+>Bevor Sie den Bot-Traffic entfernen, machen Sie Stakeholder darauf aufmerksam, damit diese die im Zuge der Änderung notwendigen Anpassungen an wichtige Kennzahlen vornehmen können. Wenn möglich, empfehlen wir, zunächst den Bot-Traffic aus einer kleinen Report Suite zu entfernen, um die potenziellen Auswirkungen abschätzen zu können.
+
+Das folgende Video zeigt, wie Bot-Regeln konfiguriert werden:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
 
-Nach der Definition von Bot-Regeln wird aller eingehender Traffic mit den definierten Regeln abgeglichen. Traffic, der mit einer dieser Regeln übereinstimmt, wird nicht in der Report Suite erfasst und ist nicht in Traffic-Metriken enthalten.
+So aktualisieren oder laden Sie Bot-Regeln hoch:
 
-Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, um Bot-Regeln zu aktualisieren oder hochzuladen. Wählen Sie die passende Report Suite aus und dann **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Bot-Regeln]**.
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-Mit der Entfernung von Bot-Traffic werden das Traffic-Volumen und die Konversionsmetriken vermindert. Viele Kunden haben die Erfahrung gemacht, dass die Entfernung von Bot-Traffic zu höheren Konversionsraten und Anstiegen in anderen Usability-Metriken führt. Bevor Sie den Bot-Traffic entfernen, machen Sie Stakeholder darauf aufmerksam, damit diese die im Zuge der Änderung notwendigen Anpassungen an wichtige Kennzahlen vornehmen können. Wenn möglich, empfehlen wir, zunächst den Bot-Traffic aus einer kleinen Report Suite zu entfernen, um die potenziellen Auswirkungen abschätzen zu können.
+1. Wählen Sie die Report Suite aus, in der Sie Bot-Regeln aktualisieren möchten, und wählen Sie dann **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Bot Rules]**.
 
-Bot-Traffic-Daten werden in einem separaten Repository zur Anzeige in den Berichten „Bots“ und „Bot-Seiten“ gespeichert. Es gibt zwei Optionen zum Aktivieren der Bot-Filterung:
+1. Verwenden Sie eine der folgenden Optionen, um Bot-Regeln für die Report Suite zu aktualisieren oder hochzuladen:
 
-| Regeltyp | Beschreibung |
-|--- |--- |
-| Standard-IAB-Bot-Regeln | Wenn Sie [!UICONTROL IAB Bot-Filterungsregeln aktivieren] auswählen, wird die Liste „International Spiders &amp; Bots List“ von [IAB](https://www.iab.com) (International Advertising Bureau) verwendet, um Bot-Traffic zu entfernen. Die meisten Kunden wählen mindestens diese Option aus. |
-| Benutzerdefinierte Bot-Regeln | Sie können benutzerdefinierte Bot-Regeln festlegen und hinzufügen, die auf Benutzeragenten, IP-Adressen oder IP-Bereichen basieren. |
+   * Auswählen [!UICONTROL **IAB Bot-Filterungsregeln aktivieren**] Entfernen von Bots in der Liste &quot;International Spiders &amp; Bots List&quot;von IAB (International Advertising Bureau), um Bot-Traffic zu entfernen.
+
+     Es wird empfohlen, diese Option mindestens auszuwählen.
+
+     Weitere Informationen finden Sie im folgenden Abschnitt: [IAB-Standardregeln](#standard-iab-bot-rules).
+
+   * Auswählen [!UICONTROL **Regel hinzufügen**] , um benutzerspezifische Bot-Regeln zu definieren und hinzuzufügen, die auf Benutzeragenten, IP-Adressen oder IP-Bereichen basieren.
+
+     Weitere Informationen finden Sie im folgenden Abschnitt: [Benutzerdefinierte Bot-Regeln](#custom-bot-rules).
+
+   * Neben dem [!UICONTROL **CSV Bot-Datei zum Importieren auswählen**] Bereich, auswählen [!UICONTROL **Datei auswählen**] und wählen Sie dann die CSV-Datei aus, die die Bot-Regeln definiert.
+
+     Weitere Informationen finden Sie im folgenden Abschnitt: [Hochladen von Bot-Regeln](#upload-bot-rules).
+
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
 ## Standard-IAB-Bot-Regeln
 
@@ -39,13 +62,15 @@ Standard-IAB-Bot-Regeln können aktiviert werden, indem Sie das Kontrollkästche
 
 Adobe kann die detaillierte IAB-Bot-Liste nicht an Kunden weitergeben, aber Sie können den Bericht „Bots“ verwenden, um eine Liste der Bots anzuzeigen, die auf Ihre Website zugegriffen haben. Um einen Bot an die IAB-Liste zu senden, gehen Sie zu [IAB](https://www.iab.com).
 
+Informationen zum Aktivieren standardmäßiger IAB-Bot-Regeln in einer Report Suite finden Sie unter [Aktualisieren oder Hochladen von Bot-Regeln](#update-or-upload-bot-rules).
+
 ## Benutzerdefinierte Bot-Regeln
 
 >[!NOTE]
 >
 >: In der Benutzeroberfläche können 500 Regeln manuell definiert werden. Wenn diese Grenze erreicht wurde, müssen Regeln über die Optionen „Datei importieren“ und „Bot-Regeln exportieren“ stapelweise verwaltet werden.
 
-Mit benutzerspezifischen Bot-Regeln können Sie Traffic auf Grundlage selbst definierter Bedingungen filtern.
+Mit benutzerspezifischen Bot-Regeln können Sie Traffic-basierte Bedingungen filtern, die Sie definieren. Informationen zum Starten der Aktivierung benutzerdefinierter Bot-Regeln in einer Report Suite finden Sie unter [Aktualisieren oder Hochladen von Bot-Regeln](#update-or-upload-bot-rules).
 
 Benutzerspezifische Bot-Regeln werden mithilfe der folgenden Bedingungstypen definiert:
 
@@ -86,37 +111,52 @@ Geben Sie die Start- und Endbereiche der zuzuweisenden IP-Adressen an. Ersetzen 
 
 Für einen Massenimport von Bot-Regeln können Sie eine CSV-Datei hochladen, in der die Regeln definiert sind.
 
-Erstellen Sie eine CSV-Datei mit den folgenden Spalten in der angegebenen Reihenfolge:
+1. Informationen zum Starten des Hochladens von Bot-Regeln in eine Report Suite finden Sie unter [Aktualisieren oder Hochladen von Bot-Regeln](#update-or-upload-bot-rules).
 
-| Spalte 1 | Spalte 2 | Spalte 3 | Spalte 4 | Spalte 5 |
-|--- |--- |---|---|---|
-| Bot-Name | IP-Start | IP-Ende | Agent-Übereinstimmungsregel<br>(enthält oder beginnt mit)</br> | Agent ausschließlich<br>(maximal 255 Zeichen)</br> |
+1. Erstellen Sie eine CSV-Datei mit den folgenden Spalten in Zeile 1 des Arbeitsblatts und in der angegebenen Reihenfolge:
 
-Sie können drei Arten von Bot-Regeln definieren:
+   | Spalte 1, Zeile 1 | Spalte 2, Zeile 1 | Spalte 3, Zeile 1 | Spalte 4, Zeile 1 | Spalte 5, Zeile 1 | Spalte 6, Zeile 1 |
+   |--- |--- |---|---|---|---|
+   | Bot-Name | IP-Beginn | IP-Ende | Regel<br>(enthält oder beginnt mit)</br> | Benutzeragent - enthalten | Benutzeragent ausschließen<br>(Längenbeschränkung von 255 Zeichen)</br> |
 
-* Benutzeragent enthält oder beginnt mit
-* Einzelne IP-Adresse oder Wildcard-Übereinstimmung
-* IP-Bereichsübereinstimmung
+   Sie können drei Arten von Bot-Regeln definieren:
 
-Jede Zeile in der Importdatei kann nur eine der folgenden Bot-Definitionen enthalten:
+   * Benutzeragent enthält oder beginnt mit
+   * Einzelne IP-Adresse oder Wildcard-Übereinstimmung
+   * IP-Bereichsübereinstimmung
 
-* **Benutzeragent enthält oder beginnt mit:** Geben Sie eine einzige Benutzeragent-Zeichenfolge zur Übereinstimmung in der Spalte „Agent einschließlich“ ein. Legen Sie den gewünschten Übereinstimmungstyp fest, indem Sie im Feld zur Agent-Übereinstimmungsregel den Vermerk *enthält* oder *beginnt mit* platzieren. Ein optionaler Wert kann in die Spalte „Agent ausschließlich“ aufgenommen werden, der eine oder mehrere längsstrichgetrennte (`|`) Zeichenketten definiert, die der Agent nicht enthalten darf. Bei Zeichenfolgen-Übereinstimmungen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Sowohl die Spalte „IP-Start“ als auch „IP-Ende“ müssen leer sein.
+   Jede Zeile in der Importdatei kann nur eine der folgenden Bot-Definitionen enthalten:
 
-* **Einzelne IP-Adresse oder Wildcard-Übereinstimmung**: Um eine Übereinstimmung mit einer einzelnen IP-Adresse (`10.10.10.1`) oder einer Platzhalter-IP-Adresse (`10.10.*.*`) herzustellen, platzieren Sie denselben Wert in den Spalten „IP-Start“ und „IP-Ende“. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
+   >[!NOTE]
+   >
+   >   Um eine Übereinstimmung für einen Bot mithilfe einer OR-Kombination aus Regeln zu finden (z. B. Benutzeragent ODER IP-Adresse), geben Sie einen identischen Namen für alle Regeln an, die Sie in dem Bot-Namensfeld kombinieren möchten. AND-Übereinstimmungen werden nicht unterstützt.
 
-* **IP-Bereichs-Übereinstimmung**: Definieren Sie einen Bereich von IP-Adressen mithilfe der Spalten „IP-Start“ und „IP-Ende“. Sie können Platzhalter nutzen, um Übereinstimmungen für IP-Bereiche zu finden, z. B. `10.10.10.*` bis `10.10.20.*`. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
 
-### Mehrere mit OR kombinierte Regeln
+   * **Benutzeragent enthält oder beginnt mit:** Geben Sie eine einzige Benutzeragent-Zeichenfolge zur Übereinstimmung in der Spalte „Agent einschließlich“ ein. Legen Sie den gewünschten Übereinstimmungstyp fest, indem Sie im Feld zur Agent-Übereinstimmungsregel den Vermerk *enthält* oder *beginnt mit* platzieren. Ein optionaler Wert kann in die Spalte „Agent ausschließlich“ aufgenommen werden, der eine oder mehrere längsstrichgetrennte (`|`) Zeichenketten definiert, die der Agent nicht enthalten darf. Bei Zeichenfolgen-Übereinstimmungen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Sowohl die Spalte „IP-Start“ als auch „IP-Ende“ müssen leer sein.
 
-Um eine Übereinstimmung für einen Bot mithilfe einer OR-Kombination aus Regeln zu finden (z. B. Benutzeragent ODER IP-Adresse), geben Sie einen identischen Namen für alle Regeln an, die Sie in dem Bot-Namensfeld kombinieren möchten. AND-Übereinstimmungen werden nicht unterstützt.
+   * **Einzelne IP-Adresse oder Wildcard-Übereinstimmung**: Um eine Übereinstimmung mit einer einzelnen IP-Adresse (`10.10.10.1`) oder einer Platzhalter-IP-Adresse (`10.10.*.*`) herzustellen, platzieren Sie denselben Wert in den Spalten „IP-Start“ und „IP-Ende“. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
 
-### Überschreiben aller Regeln mit einer hochgeladenen Datei
+   * **IP-Bereichs-Übereinstimmung**: Definieren Sie einen Bereich von IP-Adressen mithilfe der Spalten „IP-Start“ und „IP-Ende“. Sie können Platzhalter nutzen, um Übereinstimmungen für IP-Bereiche zu finden, z. B. `10.10.10.*` bis `10.10.20.*`. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
 
-Aktivieren Sie das Kontrollkästchen **[!UICONTROL Bestehende Regeln überschreiben]**, um alle bestehenden Regeln zu löschen und sie durch die in der hochgeladenen Datei definierten Regeln zu ersetzen.
+1. Auf der Seite &quot;Bot Rules&quot;im Report Suite Manager neben dem [!UICONTROL **CSV Bot-Datei zum Importieren auswählen**] Bereich, auswählen [!UICONTROL **Datei auswählen**] und wählen Sie dann die CSV-Datei aus, die die zu importierenden Bot-Regeln definiert.
 
-### Exportieren von Regeln
+1. (Optional) Wählen Sie die **[!UICONTROL Vorhandene Regeln überschreiben]** aktivieren, um alle vorhandenen Regeln zu löschen und sie durch die in der Upload-Datei definierten Regeln zu ersetzen.
 
-Über die Schaltfläche **[!UICONTROL Hochgeladene Bot-Datei exportieren]** werden alle in der Benutzeroberfläche definierten Regeln in ein CSV-Format exportiert.
+1. Auswählen [!UICONTROL **Importdatei**].
+
+1. Im [!UICONTROL **Regelsätze**] überprüfen Sie die importierten Regeln.
+
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
+
+## Exportieren von Bot-Regeln
+
+So exportieren Sie alle in der Benutzeroberfläche definierten Regeln in ein CSV-Format:
+
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+
+1. Wählen Sie die Report Suite aus, die die zu exportierenden Bot-Regeln enthält, und wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Bot Rules]**.
+
+1. Auswählen **[!UICONTROL Bot-Regeln exportieren]**, speichern Sie die CSV-Datei dann in Ihrem Dateisystem.
 
 ## Auswirkung von Bot-Regeln auf die Datenerfassung {#section_F01A3130E7A04A9993371CF26F6586F2}
 
