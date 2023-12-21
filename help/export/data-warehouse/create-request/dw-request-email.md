@@ -2,22 +2,15 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Berichtsoptionen für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 16%
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
 # Benachrichtigungs-E-Mail für eine Data Warehouse-Anfrage konfigurieren
-
->[!AVAILABILITY]
->
->Einige der in diesem Artikel beschriebenen Data Warehouse-Funktionen (und andere Data Warehouse-Artikel in diesem Abschnitt) sind nur in der Phase der eingeschränkten Testphase der Veröffentlichung verfügbar und sind möglicherweise noch nicht in Ihrer Umgebung verfügbar.
->
->Informationen darüber, welche Funktionen noch nicht für alle Kunden verfügbar sind, sowie Informationen über die Veröffentlichungszeitleiste dieser Funktionen finden Sie in der [Versionshinweise](/help/release-notes/latest.md).
->
->Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
 
 Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Im Folgenden wird beschrieben, wie Sie eine Benachrichtigungs-E-Mail für die Anfrage konfigurieren.
 
@@ -37,7 +30,7 @@ So konfigurieren Sie eine Benachrichtigungs-E-Mail für eine Data Warehouse-Anfr
 
    | Option | Funktion |
    |---------|----------|
-   | [!UICONTROL **E-Mail-Benachrichtigung senden an**] | Geben Sie die E-Mail-Adressen der Personen an, die beim Versand des Berichts E-Mail-Benachrichtigungen erhalten sollen. <p>Sie können eine einzelne E-Mail-Adresse oder eine kommagetrennte Liste mit E-Mail-Adressen angeben.</p> |
+   | [!UICONTROL **Benachrichtigungs-E-Mail an senden**] | Geben Sie die E-Mail-Adressen der Personen an, die beim Versand des Berichts E-Mail-Benachrichtigungen erhalten sollen. <p>Sie können eine einzelne E-Mail-Adresse oder eine kommagetrennte Liste mit E-Mail-Adressen angeben.</p> |
    | [!UICONTROL **Erweiterte Optionen**] | Wählen Sie diese Option, um einen Betreff und Notizen für die E-Mail beim Versand der Benachrichtigung einzuschließen. |
 
    {style="table-layout:auto"}

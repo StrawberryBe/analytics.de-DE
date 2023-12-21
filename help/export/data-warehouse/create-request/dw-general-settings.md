@@ -2,22 +2,15 @@
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
 title: Allgemeine Einstellungen für Data Warehouse-Anfragen
 feature: Data Warehouse
-source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
+exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 26%
+source-wordcount: '271'
+ht-degree: 27%
 
 ---
 
 # Allgemeine Einstellungen für Data Warehouse-Anfragen
-
->[!AVAILABILITY]
->
->Einige der in diesem Artikel beschriebenen Data Warehouse-Funktionen (und andere Data Warehouse-Artikel in diesem Abschnitt) sind nur in der Phase der eingeschränkten Testphase der Veröffentlichung verfügbar und sind möglicherweise noch nicht in Ihrer Umgebung verfügbar.
->
->Informationen darüber, welche Funktionen noch nicht für alle Kunden verfügbar sind, sowie Informationen über die Veröffentlichungszeitleiste dieser Funktionen finden Sie in der [Versionshinweise](/help/release-notes/latest.md).
->
->Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
 
 Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Im Folgenden wird beschrieben, wie Sie allgemeine Einstellungen für die Anfrage konfigurieren.
 

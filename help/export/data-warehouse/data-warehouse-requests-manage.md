@@ -4,21 +4,14 @@ title: Verwalten von Data Warehouse-Anforderungen
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 13%
+source-wordcount: '1088'
+ht-degree: 5%
 
 ---
 
 # Verwalten von Data Warehouse-Anforderungen
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->Wenn Ihr Unternehmen noch nicht über das neue Data Warehouse-Erlebnis verfügt, das bald für alle Kunden verfügbar sein wird, verwenden Sie die Informationen unter [Data Warehouse-Anforderungen verwalten (altes Erlebnis)](#manage-data-warehouse-requests-old-experience) unten auf dieser Seite.
-
 
 Sie können Data Warehouse-Anfragen, die Sie gestellt haben, anzeigen und verwalten. Nur Administratoren können Anforderungen anderer Benutzer in ihrer Organisation anzeigen und verwalten.
 
@@ -89,13 +82,13 @@ Sie können den Verlauf aller von Ihnen durchgeführten Data Warehouse-Anfragen 
    | Spalte | Beschreibung |
    |---------|----------|
    | [!UICONTROL **Erstellt am**] | Datum und Uhrzeit der Berichterstellung.<p>Dies wird in der Zeitzone des Benutzers angezeigt, der die Anfrage initiiert hat.</p> |
-   | [!UICONTROL **Datum des Beginns**] | Datum und Uhrzeit des Berichtstarts.<p>Dies wird in der Zeitzone des Benutzers angezeigt, der die Anfrage initiiert hat.</p> |
-   | [!UICONTROL **Datum der Fertigstellung**] | Datum und Uhrzeit des Abschlusses des Berichts.<p>Dies wird in der Zeitzone des Benutzers angezeigt, der die Anfrage initiiert hat.</p> |
+   | [!UICONTROL **Startdatum**] | Datum und Uhrzeit des Berichtstarts.<p>Dies wird in der Zeitzone des Benutzers angezeigt, der die Anfrage initiiert hat.</p> |
+   | [!UICONTROL **Datum abgeschlossen**] | Datum und Uhrzeit des Abschlusses des Berichts.<p>Dies wird in der Zeitzone des Benutzers angezeigt, der die Anfrage initiiert hat.</p> |
    | [!UICONTROL **Aktualisierungsdatum**] | Datum und Uhrzeit der letzten Aktualisierung des Berichts<p>Dies wird in der Zeitzone des Benutzers angezeigt, der die Anfrage initiiert hat.</p> |
    | [!UICONTROL **Status**] | Der Status des Berichtversands. Mögliche Status sind:<ul><li>[!UICONTROL **Erstellt**]: Der Bericht wurde erstellt, aber noch nicht verarbeitet.</li><li>[!UICONTROL **Ausstehend**]: Der Bericht wartet auf die Verarbeitung.</li><li>[!UICONTROL **Verarbeitung**]: Der Bericht wird derzeit verarbeitet.</li><li>[!UICONTROL **Abgeschlossen**]: Der Bericht ist abgeschlossen und ist jetzt verfügbar.</li><li>[!UICONTROL **Geplant**]: Der Bericht ist geplant, hat aber noch nicht begonnen.</li><li>[!UICONTROL **Abgebrochen**]: Der Bericht wurde vom Benutzer abgebrochen.</li><li>[!UICONTROL **Fehler - Verarbeitung**:] Der Bericht ist fehlerhaft und konnte nicht verarbeitet werden.</li><li>[!UICONTROL **Fehler - fehlgeschlagener Versand**]: Der Bericht wurde erfolgreich generiert, konnte jedoch nicht bereitgestellt werden. Überprüfen Sie die [Konfiguration Ihres Ziels](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)und senden Sie dann den Bericht erneut.</li></ul>. |
    | [!UICONTROL **Von**] | Das Startdatum des im Bericht enthaltenen Gesamtzeitrahmens.<p>Dies wird in der Zeitzone der Report Suite angezeigt.</p> |
    | [!UICONTROL **Bis**] | Das Enddatum des gesamten im Bericht enthaltenen Zeitrahmens. <p>Dies wird in der Zeitzone der Report Suite angezeigt.</p> |
-   | [!UICONTROL **Veraltete Anfrage-ID**] | Die ID, mit der ein Bericht in der alten Data Warehouse-Oberfläche identifiziert wird. Diese ID kann bei der Kontaktaufnahme mit der Adobe-Kundenunterstützung erforderlich sein. |
+   | [!UICONTROL **Legacy-Anfrage-ID**] | Die ID, mit der ein Bericht in der alten Data Warehouse-Oberfläche identifiziert wird. Diese ID kann bei der Kontaktaufnahme mit der Adobe-Kundenunterstützung erforderlich sein. |
    | [!UICONTROL **Bericht-ID**] | Die ID, mit der ein Bericht in der aktuellen Data Warehouse-Oberfläche identifiziert wird. Diese ID kann bei der Kontaktaufnahme mit der Adobe-Kundenunterstützung erforderlich sein. |
 
 
@@ -158,7 +151,7 @@ Sie können konfigurieren, welche Informationen für jede Anforderung angezeigt 
    |---------|----------|
    | Anfragename | Der Name der Person, die die Anfrage erstellt hat. |
    | Report Suite | Die mit der Anforderung verknüpfte Report Suite. |
-   | Angefordert von | Der Benutzer, der die Anforderung erstellt hat. |
+   | Angefragt von | Der Benutzer, der die Anforderung erstellt hat. |
    | Datum der Anfrage | Das Datum, an dem die Anfrage gestellt wurde. |
    | Status | Die folgenden Status sind verfügbar:<ul><li><p>**Abgeschlossen**: Die Anfrage wurde erfolgreich ausgeführt.</p></li><li><p>**Abgebrochen**: Die Anfrage wurde vom Benutzer abgebrochen.</p></li><li><p>**Geplant**: Die Anforderung ist so konfiguriert, dass sie nach einem Zeitplan ausgeführt wird.</p></li><!-- Are there other statuses? Failed? --> |
 
@@ -179,31 +172,3 @@ Sie können konfigurieren, welche Informationen für jede Anforderung angezeigt 
 1. Geben Sie im Suchfeld oben auf der Data Warehouse-Seite den Anforderungsnamen an, den Sie anzeigen möchten.
 
    Anforderungen werden bei der Eingabe gefiltert.
-
-## Data Warehouse-Anforderungen verwalten (altes Erlebnis)
-
->[!NOTE]
->
->Die folgenden Informationen gelten nur, wenn Ihr Unternehmen noch nicht über das neue Data Warehouse-Erlebnis verfügt, das demnächst für alle Analytics-Kunden verfügbar sein wird.
-
-
-Der Anforderungs-Manager ermöglicht es Ihnen, Anforderungen anzuzeigen, zu duplizieren und neu zu priorisieren.
-
-Wählen Sie in Data Warehouse die Registerkarte **[!UICONTROL Anforderungs-Manager]** aus.
-
-Die Arbeit in dieser Registerkarte ermöglicht es Ihnen,
-
-* aktuelle Berichtsanforderungen nach Berichtsnamen, angewendetem Segment, anfordernder Person, Anforderungsdatum und -status anzuzeigen.
-* Anforderungen zu duplizieren. Klicken Sie neben der Anforderung auf **[!UICONTROL Duplizieren]**.
-
-  >[!NOTE]
-  >
-  >Diese Aktion dupliziert lediglich die Anforderung, jedoch nicht den Zeitplan bzw. die Lieferdetails.
-
-* Berichte nach Berichtsnamen oder Anmeldenamen der anfordernden Person zu suchen.
-* Berichte durch Ziehen und Ablegen an einer neuen Position in der Warteschlange neu zu priorisieren.
-* Möchten Sie es anzeigen, wenn eine Anfrage verarbeitet wird, klicken Sie auf die ID einer geplanten Anfrage und prüfen Sie das sich öffnende Popup.
-
-Klicken Sie auf einen Auftrag, um einzelne Anforderungen für diesen Auftrag anzuzeigen.
-
-* Rate Limited: Ihr Unternehmen führt zu viele Data Warehouse-Anfragen aus. Die Anfrage wird angehalten, bis andere Datenanforderungen abgeschlossen sind.
