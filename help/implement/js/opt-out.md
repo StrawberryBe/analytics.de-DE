@@ -3,24 +3,24 @@ title: Ausschluss-Links
 description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # Implementieren von Ausschluss-Links
 
-*Auf dieser Hilfeseite können Adobe Analytics-Kunden Opt-out-Links für ihre Benutzer bereitstellen. Wenn Sie kein Adobe Analytics-Kunde sind, lesen Sie [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) um zu steuern, wie Adobe Ihre Informationen verwendet.*
-
 >[!IMPORTANT]
 >
->Adobe empfiehlt die Verwendung des Opt-in-Dienstes, insbesondere für Organisationen, die sich mit DSGVO-Vorschriften befassen. Weitere Informationen finden Sie unter [Übersicht über den Opt-in-Dienst](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) im Benutzerhandbuch des Experience Cloud ID-Dienstes.
+> **Auf dieser Hilfeseite können Adobe Analytics-Kunden Opt-out-Links für ihre Benutzer bereitstellen. Wenn Sie kein Adobe Analytics-Kunde sind, lesen Sie [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) um zu steuern, wie Adobe Ihre Informationen verwendet.**
 
-Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, den Besuchern Ihrer Website die Option bereitzustellen, sich von der Datenerfassung ausschließen zu lassen. Alle Implementierungsarten werden berücksichtigt; Ihre Organisation ist für Ihre eigene Datenschutzrichtlinie und für die Einhaltung der von Ihnen unterzeichneten Bedingungen verantwortlich.
+Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchern Ihrer Website die Möglichkeit zu geben, sich von der Analyse ihrer Informationen abzumelden.
 
-Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn ein Benutzer sich entscheidet, nicht verfolgt zu werden, und ein Opt-out-Cookie gesetzt wird, sendet Ihre JavaScript-Datei weiterhin Daten an die Adobe-Server. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
+Opt-out-Links bieten die Möglichkeit, dass Besucher Ihrer Website ihre Daten aus der Analytics-Berichterstellung auslassen. Diese Links beschränken sich auf AppMeasurement-Implementierungen. Adobe empfiehlt die Verwendung der [Adobe Experience Cloud Opt-in-Dienst](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) anstatt. Der Opt-in-Dienst ist robuster und funktioniert über mehrere Adobe Experience Cloud-Produkte hinweg, einschließlich Adobe Analytics und AppMeasurement.
+
+Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn ein Benutzer sich entscheidet, nicht verfolgt zu werden und ein Opt-out-Cookie gesetzt wird, sendet AppMeasurement weiterhin Daten an Adobe. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ Es gibt Einstellungen, die Sie mithilfe von Abfragezeichenfolgen automatisch auf
 
 Wechseln Sie automatisch die Sprache der Opt-out-Seite, indem Sie den Abfragezeichenfolgenparameter `locale` einbeziehen. Weisen Sie diesem Abfragezeichenfolgenparameter einen der folgenden Werte zu:
 
-* en_US (Englisch, standardmäßig)
-* bg_BG (Bulgarisch)
-* zh_CN (Vereinfachtes Chinesisch)
-* zh_TW (Traditionelles Chinesisch)
-* cs_CZ (Tschechisch)
-* da_NK (Dänisch)
-* nl_NL (Niederländisch)
-* et_EE (Estnisch)
-* fi_FI (Finnisch)
-* fr_FR (Französisch)
-* de_DE (Deutsch)
-* el_GR (Griechisch)
-* it_IT (Italienisch)
-* jp_JP (Japanisch)
-* ko_KR (Koreanisch)
-* lv_LV (Lettisch)
-* lt_LT (Litauisch)
-* nb_NO (Norwegisch)
-* pl_PL (Polnisch)
-* pt_BR (Portugiesisch)
-* sk_SK (Slowakisch)
-* es_ES (Spanisch)
+* `en_US` (Englisch, Standard)
+* `bg_BG` (Bulgarisch)
+* `zh_CN` (Vereinfachtes Chinesisch)
+* `zh_TW` (Traditionelles Chinesisch)
+* `cs_CZ` (Tschechisch)
+* `da_NK` (Dänisch)
+* `nl_NL` Niederländisch
+* `et_EE` (Estnisch)
+* `fi_FI` (Finnisch)
+* `fr_FR` (Französisch)
+* `de_DE` (Deutsch)
+* `el_GR` (Griechisch)
+* `it_IT` (Italienisch)
+* `jp_JP` (Japanisch)
+* `ko_KR` (Koreanisch)
+* `lv_LV` Lettisch
+* `lt_LT` (Litauisch)
+* `nb_NO` (Norwegisch)
+* `pl_PL` (Polnisch)
+* `pt_BR` Portugiesisch
+* `sk_SK` (Slowakisch)
+* `es_ES` (Spanisch)
 
 Zum Beispiel lädt `https://example.data.adobedc.net/optout.html?locale=ko_KR` die Opt-out-Seite auf Koreanisch.
-
->[!TIP]
->
->Der Abfragezeichenfolgewert `en_US` ist nicht erforderlich, da die Seite standardmäßig in Englisch geladen wird.
 
 ### Popup
 

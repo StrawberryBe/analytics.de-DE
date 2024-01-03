@@ -3,10 +3,10 @@ title: Seitenereignisse
 description: Die Anzahl der ausgelösten Linktracking-Aktionen.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 50%
+source-wordcount: '146'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ Die &quot;Seitenereignisse&quot; [Metrik](overview.md) zeigt an, wie oft ein Lin
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt alle [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) in einer Report Suite. Alle Link-Typen sind enthalten (benutzerspezifische Links, Downloadlinks und Exitlinks). Sie umfasst nicht [Seitenansichts-Tracking-Aufrufe (`t()`)](/help/implement/vars/functions/t-method.md).
+Diese Metrik zählt alle [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) in einer Report Suite. Alle Linktypen sind in dieser Metrik enthalten, insbesondere [Benutzerspezifische Links](../dimensions/custom-link.md), [Downloadlinks](../dimensions/download-link.md), und [Exitlinks](../dimensions/exit-link.md). Sie umfasst nicht [Seitenansichts-Tracking-Aufrufe (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Vergleich mit ähnlichen Metriken
 

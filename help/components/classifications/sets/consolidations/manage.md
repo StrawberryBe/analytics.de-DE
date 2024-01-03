@@ -1,22 +1,22 @@
 ---
 title: Konsolidierungs-Manager für Klassifizierungssatz
 description: Konsolidieren Sie einen oder mehrere Classification-Sets in einem einzigen Classification-Satz.
-exl-id: 032e93f6-9c11-4522-a02e-376eb4fd98bf
+exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
-# Konsolidierungs-Manager für Klassifizierungssätze
+# Manager für Klassifizierungssatz-Konsolidierungen
 
-Wenn Sie mehrere Classification-Sets haben, die ähnliche Daten enthalten, können Sie sie zu einem einzigen Classification-Satz zusammenfassen. Wenn Sie zwei oder mehr Classification-Sets zusammenfassen, generiert Adobe einen neuen Classification-Satz, der alle Classification-Daten aus jedem Classification-Satz enthält. Konsolidierungen sind nützlich, wenn Sie Daten in viele Report Suites oder Dimensionen hochgeladen haben, die dieselben Classification-Daten enthalten und diese zu einem einzigen Workflow zusammenführen möchten.
+Wenn Sie mehrere Classification-Sets haben, die ähnliche Daten enthalten, können Sie sie zu einem einzigen Classification-Satz zusammenfassen. Wenn Sie zwei oder mehr Classification-Sets zusammenfassen, generiert Adobe einen neuen Classification-Satz, der alle Classification-Daten aus jedem Classification-Satz enthält. Konsolidierungen sind nützlich, wenn Sie Daten in viele Report Suites oder Dimensionen hochgeladen haben, die dieselben Classification-Daten enthalten und diese zu einem einzigen Workflow zusammenführen möchten. Sie müssen über Produktadministratorzugriff für Adobe Analytics verfügen, um den Konsolidierungsmanager für Klassifizierungssätze sehen zu können.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Konsolidierung]**
 
-Sobald eine Konsolidierung ausgeführt wird, werden die ursprünglichen Classification-Sets entfernt, wobei der konsolidierte Classification-Satz ihren Platz einnimmt. Klicken **[!UICONTROL Hinzufügen]** nach [Konsolidierung erstellen](process.md).
+Sobald eine Konsolidierung ausgeführt wird, werden die ursprünglichen Classification-Sets entfernt, wobei der konsolidierte Classification-Satz ihren Platz einnimmt. Klicks **[!UICONTROL Hinzufügen]** nach [Konsolidierung erstellen](process.md).
 
 ## Filtern von Classification-Sets
 
@@ -27,7 +27,7 @@ Die linke Seite des Konsolidierungs-Managers für den Klassifizierungssatz biete
 Zusätzliche Filteroptionen sind über den Spalten des Konsolidierungs-Managers für den Classification-Satz verfügbar:
 
 * **[!UICONTROL Suche nach Titel]**: Suche nach Konsolidierungen anhand des Namens.
-* **Spalten ein-/ausblenden**: Sichtbarkeit für eine beliebige Spalte außer [!UICONTROL Name].
+* **Spalten ein-/ausblenden**: Schaltet die Sichtbarkeit für eine beliebige Spalte außer [!UICONTROL Name].
 
 ## Konsolidierungs-Manager-Spalten für Klassifizierungssätze
 
