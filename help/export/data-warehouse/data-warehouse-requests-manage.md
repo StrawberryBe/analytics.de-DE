@@ -4,9 +4,9 @@ title: Verwalten von Data Warehouse-Anforderungen
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 5%
 
 ---
@@ -153,7 +153,7 @@ Sie können konfigurieren, welche Informationen für jede Anforderung angezeigt 
    | Report Suite | Die mit der Anforderung verknüpfte Report Suite. |
    | Angefragt von | Der Benutzer, der die Anforderung erstellt hat. |
    | Datum der Anfrage | Das Datum, an dem die Anfrage gestellt wurde. |
-   | Status | Die folgenden Status sind verfügbar:<ul><li><p>**Abgeschlossen**: Die Anfrage wurde erfolgreich ausgeführt.</p></li><li><p>**Abgebrochen**: Die Anfrage wurde vom Benutzer abgebrochen.</p></li><li><p>**Geplant**: Die Anforderung ist so konfiguriert, dass sie nach einem Zeitplan ausgeführt wird.</p></li><!-- Are there other statuses? Failed? --> |
+   | Status | Die folgenden Status sind verfügbar:<ul><li><p>**Abgeschlossen**: Die Anfrage wurde erfolgreich ausgeführt.</p></li><li><p>**Abgebrochen**: Die Anfrage wurde vom Benutzer abgebrochen.</p></li><li><p>**Geplant**: Die Anforderung ist so konfiguriert, dass sie nach einem Zeitplan ausgeführt wird.</p></li><li><p>**Fehlgeschlagen**: Die Anfrage konnte nicht abgeschlossen werden. Wenn die Anfrage weiterhin fehlschlägt, wenden Sie sich an den Support.</p></li></ul> |
 
    {style="table-layout:auto"}
 

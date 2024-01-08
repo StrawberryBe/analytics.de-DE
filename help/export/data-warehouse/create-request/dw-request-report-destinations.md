@@ -3,9 +3,9 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,9 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
    ![Berichtsziel-Tab](assets/dw-report-destination.png)
 
-1. (Bedingt) Wenn Sie zuvor ein Konto (und ein Ziel für dieses Konto) konfiguriert haben, das Sie als Berichtsziel verwenden möchten:
+1. (Bedingt) Wenn ein Konto (und ein Ziel auf diesem Konto) bereits konfiguriert wurde und Sie es als Berichtsziel verwenden möchten:
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. Wählen Sie das Konto aus der [!UICONTROL **Konto auswählen**] Dropdown-Menü.
 

@@ -3,25 +3,24 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 835b7b07e46de4aa5dc0ae27bc9dee9c083660ad
+source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 96%
+source-wordcount: '980'
+ht-degree: 87%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Oktober/November 2023)
+# Aktuelle Adobe Analytics-Versionshinweise (Januar 2024)
 
 **Letzte Aktualisierung:** Dienstag, 8. Januar 2024
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 23. Oktober 2023 bis Mitte Januar 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Januar 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Verbesserungen für Reporting Activity Manager** | Reporting Activity Manager zeigt die Berichtskapazität für jede Report Suite in Ihrer Organisation an.  Er bietet Admins detaillierte Einblicke in die Berichtsnutzung und hilft ihnen, Kapazitätsprobleme bei Spitzen während der Berichterstellung mühelos zu diagnostizieren und zu beheben. Im Folgenden finden Sie einige der Verbesserungen, die jetzt in Reporting Activity Manager verfügbar sind: <ul><li>Admins können nicht nur aktuelle Anfragen abbrechen, sondern auch Anfragen für einen bestimmten Zeitraum einschränken. Admins können Anfragen nach Anfrage, Projekt oder Benutzerin bzw. Benutzer einschränken.</li><li>Zusätzlich zu den Metriken „Nutzung“ und „Kapazität“ enthält Reporting Activity Manager jetzt weitere Daten zur Berichtsaktivität: die Spalten „Komplexität“, „Benutzerin bzw. Benutzer“ und „Verbindung“.</li><li>Alle Abbrüche und Einschränkungen, die in Reporting Activity Manager vorgenommen wurden, sind jetzt im Administratorprotokoll sichtbar. Admins können das Administratorprotokoll verwenden, um anzuzeigen, was derzeit abgebrochen wird. Abbrüche können in Reporting Activity Manager oder im Administratorprotokoll nicht rückgängig gemacht werden.</li></ul><p>Weitere Informationen finden Sie unter [Reporting Activity Manager – Übersicht](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 17. Oktober 2023 | 24. Oktober 2023 |
-| **Verbesserungen bei Data Warehouse** | Beim Erstellen einer Data Warehouse-Anfrage können Sie jetzt ein Cloud-Konto für die Verwendung als Berichtsziel konfigurieren. Die folgenden Cloud-Kontotypen sind für das Senden von Daten verfügbar:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-Mail (diese Option war zuvor bereits verfügbar)</li></ul>FTP, SFTP, Azure Blob und S3 sind weiterhin als Berichtsziele verfügbar, werden aber nicht mehr empfohlen.<p>Das Benutzererlebnis beim Erstellen und Verwalten von Data Warehouse-Anfragen wurde ebenfalls verbessert. Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md) und [Verwalten von Data Warehouse-Anfragen](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=de). | 12. September 2023 | Samstag, 15. Dezember 2023 |
+| **Data Warehouse-Updates** | Die folgenden Data Warehouse-Verbesserungen sind jetzt verfügbar:<ul><li>Beim Erstellen einer Data Warehouse-Anforderung können Benutzer jetzt Anforderungen für alle Benutzer in der Organisation verfügbar machen, indem sie den neuen Umschalter mit dem Namen [!UICONTROL **Bereitstellung für Benutzer in Ihrer Organisation**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Bei der Erstellung oder Verwaltung von Data Warehouse-Berichtszielen können Systemadministratoren jetzt Konten und Orte anzeigen, die von Benutzern in der Organisation erstellt wurden, indem sie den Umschalter [!UICONTROL **Alle Ziele anzeigen**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | Nicht angegeben | Donnerstag, 10. Januar 2024 |
 
 {style="table-layout:auto"}
 
