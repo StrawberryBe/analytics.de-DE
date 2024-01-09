@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 87%
+source-wordcount: '1002'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Janu
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse-Updates** | Die folgenden Data Warehouse-Verbesserungen sind jetzt verfügbar:<ul><li>Beim Erstellen einer Data Warehouse-Anforderung können Benutzer jetzt Anforderungen für alle Benutzer in der Organisation verfügbar machen, indem sie den neuen Umschalter mit dem Namen [!UICONTROL **Bereitstellung für Benutzer in Ihrer Organisation**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Bei der Erstellung oder Verwaltung von Data Warehouse-Berichtszielen können Systemadministratoren jetzt Konten und Orte anzeigen, die von Benutzern in der Organisation erstellt wurden, indem sie den Umschalter [!UICONTROL **Alle Ziele anzeigen**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | Nicht angegeben | Donnerstag, 10. Januar 2024 |
+| **Data Warehouse-Updates** | Die folgenden Data Warehouse-Verbesserungen sind jetzt verfügbar:<ul><li>Beim Erstellen einer Data Warehouse-Anforderung können Benutzer jetzt Anforderungen für alle Benutzer in der Organisation verfügbar machen, indem sie den neuen Umschalter mit dem Namen [!UICONTROL **Bereitstellung für Benutzer in Ihrer Organisation**].<p>Weitere Informationen finden Sie unter [Allgemeine Einstellungen für Data Warehouse-Anfragen](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Bei der Erstellung oder Verwaltung von Data Warehouse-Berichtszielen können Systemadministratoren jetzt Konten und Orte anzeigen, die von Benutzern in der Organisation erstellt wurden, indem sie den Umschalter [!UICONTROL **Alle Ziele anzeigen**].<p>Weitere Informationen finden Sie unter [Berichtsziel für eine Data Warehouse-Anforderung konfigurieren](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | Nicht angegeben | Donnerstag, 10. Januar 2024 |
 
 {style="table-layout:auto"}
 

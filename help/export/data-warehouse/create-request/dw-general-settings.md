@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Allgemeine Einstellungen für Data Warehouse-Anfragen
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 27%
+source-wordcount: '327'
+ht-degree: 24%
 
 ---
 
@@ -32,7 +32,8 @@ So konfigurieren Sie allgemeine Einstellungen für eine Data Warehouse-Anforderu
    |---------|----------|
    | Anfragename | Dieser Name wird auf der Hauptseite der Data Warehouse angezeigt, wenn Anforderungen verwaltet werden. |
    | Datumsbereiche | Wählen Sie den Datumsbereich aus, der in den Bericht aufgenommen werden soll. <p>Sie können benutzerdefinierte Datumswerte oder einen vordefinierten Datumsbereich auswählen. Vorgabenbereiche beziehen sich auf das Datum des Berichtversands.</p><p>Die folgenden voreingestellten Optionen sind verfügbar:</p><ul><li>Am aktuellen Tag</li><li>Am Vortag</li><li>Letzte 7 Tage</li><li>Letzte 30 Tage</li><li>Diese Woche</li><li>Letzte Woche</li><li>Letzte 2 Wochen</li><li>Letzte 3 Wochen</li><li>Letzte 4 Wochen</li><li>Diesen Monat</li><li>Letzter Monat</li><li>Letzte Stunde</li></ul> |
-   | Granularität | <!--what does this setting do? It's not the schedule/frequency... --> Die Zeitgranularität. Gültige Werte sind „Keine“, „Stunde“, „Tag“, „Woche“, „Monat“, „Quartal“ und „Jahr“.<p>Die Berichtgranularität verlängert die Verarbeitungszeit. Wenn Sie die monatliche Granularität über ein ganzes Jahr in einem Bericht darstellen, so wird der Bericht erheblich schneller verarbeitet, wenn Sie je eine Berichtanforderung für jeden Monat senden.</p> <!-- Make this into a new row: Make available to users in your organization - All data warehouse requests are visible only to you and any system administrators. Enable this option if you want to make the request visible to everyone in your organization. <p>Enabling this option is useful if you want other users in your organization to help create or update the request.</p>--> |
+   | Granularität | <!--what does this setting do? It's not the schedule/frequency... --> Die Zeitgranularität. Gültige Werte sind „Keine“, „Stunde“, „Tag“, „Woche“, „Monat“, „Quartal“ und „Jahr“.<p>Die Berichtgranularität verlängert die Verarbeitungszeit. Wenn Sie die monatliche Granularität über ein ganzes Jahr in einem Bericht darstellen, so wird der Bericht erheblich schneller verarbeitet, wenn Sie je eine Berichtanforderung für jeden Monat senden.</p> |
+   | Für Benutzende in Ihrer Organisation verfügbar machen | Alle Data Warehouse-Anforderungen sind nur für Sie und alle Systemadministratoren sichtbar. Aktivieren Sie diese Option, wenn Sie die Anforderung für alle Mitarbeiter in Ihrer Organisation sichtbar machen möchten. <p>Die Aktivierung dieser Option ist nützlich, wenn Sie möchten, dass andere Benutzer in Ihrer Organisation beim Erstellen oder Aktualisieren der Anforderung helfen.</p> |
 
    {style="table-layout:auto"}
 
