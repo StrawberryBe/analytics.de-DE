@@ -3,10 +3,10 @@ title: Absprungrate
 description: Das Verhältnis der Besuche mit genau einem Treffer zu den Einstiegen.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 30%
+source-wordcount: '161'
+ht-degree: 11%
 
 ---
 
@@ -18,4 +18,4 @@ Hier ein Beispiel: Nehmen wir an, die Homepage einer Website erhält im Monat 50
 
 ## Berechnung dieser Metrik
 
-Diese Metrik wird mit der Formel berechnet [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+Diese Metrik wird mit der Formel berechnet [Bounces](bounces.md) dividiert durch [Einträge](entries.md).
