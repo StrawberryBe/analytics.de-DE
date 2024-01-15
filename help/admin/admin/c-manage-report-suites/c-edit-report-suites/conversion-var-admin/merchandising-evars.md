@@ -2,11 +2,12 @@
 title: Merchandising-eVars und Methoden zur Produktsuche
 description: Ein tiefer Einblick in die Konzepte hinter Merchandising-eVars und deren Verarbeitung und Zuordnung von Daten.
 feature: Admin Tools
+role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '5285'
-ht-degree: 97%
+source-wordcount: '5279'
+ht-degree: 96%
 
 ---
 
@@ -387,7 +388,7 @@ Instanzen für eine Merchandising-eVar geben den Werten, die die eVar sammelt, e
 
 Wenn Sie beispielsweise `s.eVar1="Internal Keyword Search"` allein festlegen, werden dem eVar1-Wert „Interne Keyword-Suche“ keine Instanzmetriken zugewiesen. Es wird jedoch in diesem Moment eine Instanz aufgezeichnet. Wenn jedoch nicht gleichzeitig mit dem Festlegen von `eVar1` ein Produkt an den Wert „Interne Keyword-Suche“ gebunden ist, wird die Instanz dem Bereich „Nicht angegeben“ zugeordnet. Mit anderen Worten, der `eVar1`-Wert von „Interne Keyword-Suche“ kann eine Instanz erhalten. Dies geschieht jedoch nur, wenn ein Produkt, das an den Wert „Interne Keyword-Suche“ gebunden ist, in der Produktvariablen in derselben Bildanforderung angezeigt wird.
 
-Zusammenfassend lässt sich sagen, dass die vorkonfigurierte Instanzmetrik für eine Merchandising-eVar ohne zusätzliche Konfiguration wenig nützlich ist. Deshalb hat Adobe [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) herausgebracht. Damit können Sie mehrere Attributionsmodelle auf jede benutzerdefinierte Metrik anwenden, die von Adobe Analytics erfasst wird. Metriken, die diese Attributionsmodelle anwenden, verwenden nicht die Werte in den Spalten „post_evar“ oder die Werte, die an ein bestimmtes Produkt gebunden sind. Stattdessen verwenden diese Metriken nur die Werte, die über die Bildanforderungen selbst übergeben werden (oder Werte, die über Adobe Analytics-Verarbeitungsregeln erfasst werden). Sie können die Funktionen in Attribution verwenden, um eine präzise zugeordnete Instanzmetrik für alle Merchandising-eVars zu erhalten, die die Konversionsvariablensyntax verwenden.
+Zusammenfassend lässt sich sagen, dass die vorkonfigurierte Instanzmetrik für eine Merchandising-eVar ohne zusätzliche Konfiguration wenig nützlich ist. Zum Glück veröffentlichte Adobe [Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Damit können Sie mehrere Attributionsmodelle auf jede benutzerdefinierte Metrik anwenden, die von Adobe Analytics erfasst wird. Metriken, die diese Attributionsmodelle anwenden, verwenden nicht die Werte in den Spalten „post_evar“ oder die Werte, die an ein bestimmtes Produkt gebunden sind. Stattdessen verwenden diese Metriken nur die Werte, die über die Bildanforderungen selbst übergeben werden (oder Werte, die über Adobe Analytics-Verarbeitungsregeln erfasst werden). Sie können die Funktionen in Attribution verwenden, um eine exakt zugeordnete Instanzenmetrik für alle Merchandising-eVars zu erhalten, die die Konversionsvariablensyntax verwenden.
 
 ![Attributionsauswahl](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 

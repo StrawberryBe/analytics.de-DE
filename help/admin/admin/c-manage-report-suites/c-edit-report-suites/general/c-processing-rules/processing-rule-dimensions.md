@@ -3,10 +3,11 @@ description: Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und
 subtopic: Processing rules
 title: Für Verarbeitungsregeln verfügbare Dimensionen
 feature: Processing Rules
+role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: ht
-source-wordcount: '743'
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -84,7 +85,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Report Suite-ID  (schreibgeschützt) </p> </td> 
+   <td colname="col1"> <p>Report Suite-ID (schreibgeschützt) </p> </td> 
    <td colname="col2"> <p>Die Report Suite, auf der die Verarbeitungsregel ausgeführt wird (möglicherweise nicht die ursprünglich in AppMeasurement spezifizierte Report Suite). </p> </td> 
   </tr> 
   <tr> 
@@ -208,7 +209,7 @@ Verarbeitungsregeln können Ereignisse einstellen, diese aber nicht als Bedingun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Ereignis-   1-1000 </p> <p>(Für Kunden mit SiteCatalyst 15: Ereignis 1–100.) </p> </td> 
+   <td colname="col1"> <p>Ereignis 1–1000 </p> <p>(Für Kunden mit SiteCatalyst 15: Ereignis 1–100.) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 

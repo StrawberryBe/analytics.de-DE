@@ -2,11 +2,12 @@
 description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
 title: Namespaces
 feature: Data Governance
+role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 94%
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 94%
 
 Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
 
-Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage gesendet wird, enthält die Anfrage einen JSON-Abschnitt, in dem die Datensubjekt-IDs angegeben werden, die für die Anfrage verwendet werden sollen. Mehrere IDs können als Teil einer einzelnen Anfrage für eine betroffene Person enthalten sein. Dieser JSON-Abschnitt enthält Folgendes:
+Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage eingereicht wird, enthält die Anfrage einen JSON-Abschnitt, in dem die für die Anfrage zu verwendenden IDs der betroffenen Personen angegeben sind. Mehrere IDs können als Teil einer einzigen Anfrage für eine betroffene Person angegeben werden. Dieser JSON-Abschnitt enthält Folgendes:
 
 * ein Feld „namespace“ mit der Namespace-Zeichenfolge
 * ein Feld „type“, das bei den meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält
@@ -38,7 +39,7 @@ Der Wert muss in Form von zwei Hexadezimalzahlen, getrennt durch einen Bindestri
 
 Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"namespace": "AAID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
-## Legacy-Analytics-Tracking-Cookie: veraltetes Formular
+## Legacy-Tracking-Cookie von Analytics: veraltete Form
 
 ```
 {
@@ -90,7 +91,7 @@ Der JavaScript-Code füllt den JSON-Abschnitt mit anderen Schlüssel-Wert-Paaren
 
 Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
 
-## IDs in benutzerdefinierten Variablen
+## IDs in benutzerspezifischen Variablen
 
 ```
 {
@@ -104,7 +105,7 @@ Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
 }
 ```
 
-Bei IDs in benutzerspezifischen Traffic- oder Konversionsvariablen (Props oder eVars) müssen Sie die Variable mit einer ID-DEVICE- oder ID-PERSON-Beschriftung versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)
+Bei IDs in benutzerspezifischen Traffic- oder Konversionsvariablen (Props oder eVars) müssen Sie die Variable mit einer ID-DEVICE- oder ID-PERSON-Kennzeichnung versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)
 
 Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben und diese wiederverwenden. So können Sie einfach einen Namespace für all Ihre Report Suites verwenden, die diesen ID-Typ enthalten. Darüber hinaus ist es möglich, denselben Namespace mehreren Variablen innerhalb einer Report Suite zuzuweisen. Manche Kunden speichern beispielsweise eine CRM-ID in einer Traffic- oder Konversionsvariablen (je nach Seite, manchmal auch beide). Sie können den Namespace „CRM-ID“ beiden Variablen zuweisen.
 

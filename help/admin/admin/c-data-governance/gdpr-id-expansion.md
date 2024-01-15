@@ -1,12 +1,13 @@
 ---
-description: Die von Ihnen übermittelten IDs decken nicht immer alle Trefferdaten ab, die Analytics der betroffenen Person zuordnen kann. Analytics kann eine erweiterte ID-Gruppe erstellen, um diese zugehörigen Daten zu den Datenschutzanfragen hinzuzufügen. Mit einem optionalen Parameter, der zur JSON-Anfrage hinzugefügt wird, können Sie diese Option für jede eingereichte Datenschutzanfrage anfordern
+description: Die von Ihnen übermittelten IDs decken nicht immer alle Trefferdaten ab, die Analytics der betroffenen Person zuordnen kann. Analytics kann einen erweiterten Satz von IDs erstellen, um diese verknüpften Daten in die Datenschutzanfragen einzuschließen.
 title: ID-Erweiterung
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +60,4 @@ Zusätzlich zu seinem standardmäßigen Wert unterstützt das Feld `priority` au
 
 Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Das Ergebnis ist in Situationen, in denen Sie Datenfelder löschen möchten, unerwünscht und verdeutlicht einen Grund, warum die Privacy Service-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Kundenbetreuungsteam, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von personenbezogenen Daten oder zur Lösung von Datenproblemen zu unternehmen.
+Wenden Sie sich an Ihr Adobe Account-Team, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von personenbezogenen Daten oder zur Lösung von Datenproblemen zu unternehmen.

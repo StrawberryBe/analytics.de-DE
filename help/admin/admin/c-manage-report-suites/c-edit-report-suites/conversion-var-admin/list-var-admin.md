@@ -2,11 +2,12 @@
 title: Listenvariablen
 description: Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten.
 feature: Admin Tools
+role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -23,7 +24,7 @@ Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten
   >
   >Multi-Byte-Zeichen werden als Trennzeichen in Listenvariablen nicht unterstützt. Das Trennzeichen muss ein Single-Byte-Zeichen sein.
 
-* **Ablauf**: Ähnlich wie beim Ablauf von eVar bestimmt dieses Feld die Zeitspanne, die zwischen der Listenvariable und dem Konversionsereignis für die Zuordnung auftreten kann.
+* **Ablauf**: Ähnlich wie beim Ablauf eines eVar bestimmt dieses Feld die Zeitspanne, die zwischen der Listenvariable und dem Konversionsereignis, für das sie verknüpft werden sollen, auftreten kann.
    * **Auf Seitenansichts- oder Besuchsebene**: Erfolgsereignisse außerhalb der Seitenansicht oder des Besuchs werden nicht wieder mit Werten in der Listenvariablen verknüpft.
    * **Auf Basis eines Zeitraums (Tag, Woche, Monat usw.)**: Erfolgsereignisse außerhalb des angegebenen Zeitraums werden nicht wieder mit Werten in der Listenvariablen verknüpft. Hier kann auch eine benutzerspezifische Anzahl von Tagen festgelegt werden.
    * **Bestimmte Konversionsereignisse**: Alle anderen Erfolgsereignisse, die nach dem angegebenen Ereignis ausgelöst werden, werden nicht wieder mit Werten in der Listenvariable verknüpft.

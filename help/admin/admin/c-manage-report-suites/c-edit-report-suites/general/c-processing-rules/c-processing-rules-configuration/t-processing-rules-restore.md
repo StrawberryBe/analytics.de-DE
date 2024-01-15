@@ -3,8 +3,9 @@ description: Verarbeitungsregeln können aus dem Verlauf wiederhergestellt werde
 subtopic: Processing rules
 title: Wiederherstellen von Verarbeitungsregeln
 feature: Processing Rules
+role: Admin
 exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 100%

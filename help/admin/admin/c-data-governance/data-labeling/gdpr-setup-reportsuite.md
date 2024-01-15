@@ -2,11 +2,12 @@
 description: Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen.
 title: Kennzeichnen von Report Suite-Daten
 feature: Data Governance
+role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +21,7 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
 ## Zuweisen oder Bearbeiten von Report-Suite-Datenschutzkennzeichnungen {#assign-edit}
 
-**Beispiel**: Als Datenverantwortlicher planen Sie die Erfassung von E-Mail-Adressen und Cookie-IDs von betroffenen Personen, um deren Datenschutzanfragen zu verarbeiten. Diese Cookie-IDs werden in einer Adobe Analytics Report Suite gespeichert.
+**Beispiel**: Als für die Datenverarbeitung verantwortliche Person planen Sie, E-Mail-Adressen und Cookie-IDs von betroffenen Personen zu sammeln, um deren Datenschutzanfragen zu bearbeiten. Diese Cookie-IDs werden in einer Adobe Analytics Report Suite gespeichert.
 
 1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
 
@@ -31,10 +32,10 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 1. Wählen Sie links im Filterabschnitt aus, welche Variablengruppen Sie kennzeichnen möchten. Sie können jeweils nur eine Gruppe von Variablen beschriften.
 
    * **Standardkomponenten** – Standardkomponenten sind native Analytics-Dimensionen und -Metriken, die standardmäßig bei einer Analytics-Implementierung erfasst werden.
-   * **Konversionsvariablen** – die Custom-Insight-Konversionsvariable (oder eVar) wird auf ausgewählten Web-Seiten Ihrer Site in den Adobe-Code platziert. Ihr Hauptzweck besteht darin, Konversionserfolgsmetriken in benutzerspezifischen Marketing-Berichten zu segmentieren. Eine eVar kann auf Besuchen basieren und ähnlich wie Cookies funktionieren. In eVar-Variablen übergebene Werte folgen dem Benutzer bzw. der Benutzerin für einen bestimmten Zeitraum.
+   * **Konversionsvariablen** – die Custom-Insight-Konversionsvariable (oder eVar) wird auf ausgewählten Web-Seiten Ihrer Site in den Adobe-Code platziert. Ihr Hauptzweck besteht darin, Konversionserfolgsmetriken in benutzerspezifischen Marketing-Berichten zu segmentieren. Eine eVar kann auf Besuchen basieren und ähnlich wie Cookies funktionieren. In eVar-Variablen übergebene Werte folgen den Benutzenden für einen bestimmten Zeitraum.
    * **Listenvariablen** – Listenvariablen sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie funktionieren ähnlich wie eVars, allerdings können sie mehrere Werte im selben Treffer enthalten. Listenvariablen haben keine Zeichenbeschränkung.
    * **Traffic-Variablen** – Custom-Insight-Traffic-Variablen (oder Props) ermöglichen die Korrelation von benutzerdefinierten Daten mit spezifischen Traffic-bezogenen Ereignissen. Die Eigenschaftsvariablen sind in den Implementierungs-Code auf jeder Seite der Website eingebunden.
-   * **Erfolgsereignisse** – Erfolgsereignisse (auch Konversionsereignisse oder benutzerdefinierte Ereignisse genannt) sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Beispiel: Wenn ein Besucher einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden..
+   * **Erfolgsereignisse** – Erfolgsereignisse (auch Konversionsereignisse oder benutzerdefinierte Ereignisse genannt) sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Wenn ein Besucher beispielsweise einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden.
    * **Klassifizierungen** – Klassifizierungsaufschlüsselungen werden zur Zuordnung von Analytics-Berichtsdaten zu bestimmten Eigenschaften eingesetzt. Klassifizierungen können für zahlreiche Zwecke eingesetzt werden, werden jedoch meistens dazu verwendet, um Kampagnen-Trackingcodes (sowohl interne als auch externe) und Produkt-IDs zu klassifizieren.
 
 1. Wählen Sie eine Variable aus, indem Sie das entsprechende Kontrollkästchen aktivieren, und klicken Sie dann auf **[!UICONTROL Datenschutzkennzeichnungen bearbeiten]** auf der blauen Leiste unten auf dem Bildschirm.
@@ -45,5 +46,5 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
    ![Angewandte Kennzeichnungen](assets/edit-labels2.png)
 
-1. Nachdem Sie sämtliche Kennzeichnungen abgeschlossen haben, klicken Sie auf **[!UICONTROL Übernehmen]**.
+1. Wenn sämtliche Kennzeichnungen bereit sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
 

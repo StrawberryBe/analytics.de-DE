@@ -2,10 +2,11 @@
 description: Häufig gestellte Fragen zur Verwaltung von Adobe Analytics-Daten
 title: Häufig gestellte Fragen zu Data Governance
 feature: Data Governance
+role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2042'
 ht-degree: 97%
 
 ---
@@ -30,7 +31,7 @@ Adobe muss als Auftragsverarbeiter den Datenverantwortlichen oder die Datenveran
 
 +++ **Wie finden Adobe-Kundinnen und -Kunden (Datenverantwortliche) heraus, welchen IDs Datenschutzanfragen in Adobe Analytics zur Datenschutzverarbeitung zugeordnet sind?**
 
-Die Datenverantwortlichen bestimmen, wie die Identität bei Anfragen von betroffenen Personen aufgelöst wird. Ziehen Sie den Einsatz des Tags zum Abrufen der Datenschutz-ID von Adobe in Erwägung. Ihre Entwicklungs-Teams sparen Zeit, indem sie unser Tag zum Abrufen der Datenschutz-ID verwenden, um Benutzer-IDs (Cookie-IDs) zu erfassen. Sie können dann unsere Datenschutz-API verwenden, um diese Benutzer-IDs zur Verarbeitung von Datenschutzanfragen an die entsprechenden Lösungen in Adobe Experience Cloud zu senden. Die Datenschutz-API kann eine Vielzahl von Benutzer-IDs in mehreren Adobe-Lösungen unterstützen.
+Die Datenverantwortlichen bestimmen, wie die Identität bei Anfragen von betroffenen Personen aufgelöst wird. Ziehen Sie die Bereitstellung des Tags zum Abrufen der Datenschutz-ID von Adobe in Erwägung. Ihre Entwicklungs-Teams sparen Zeit, indem sie unser Tag zum Abrufen der Datenschutz-ID verwenden, um Benutzer-IDs (Cookie-IDs) zu erfassen. Sie können dann unsere Datenschutz-API verwenden, um diese Benutzer-IDs zur Verarbeitung von Datenschutzanfragen an die entsprechenden Lösungen in Adobe Experience Cloud zu senden. Die Datenschutz-API kann eine Vielzahl von Benutzer-IDs in mehreren Adobe-Lösungen unterstützen.
 
 Wenn eine betroffene Person eine Anfrage zusammen mit einer Kennzeichnung (benutzerdefinierte Variable – Prop oder eVar) sendet, prüft Adobe Analytics den gesamten gespeicherten Verlauf der Daten, die für die jeweilige Kennzeichnung erfasst wurden. Weitere Informationen zum Konfigurieren von benutzerdefinierten IDs, die in Props oder eVars von Analytics gespeichert sind, finden Sie in der [Analytics-Dokumentation zu Namespaces](/help/admin/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 
@@ -108,7 +109,7 @@ Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-a
 
 Wir möchten Sie bitten, die Datenschutz-API nicht für andere Zwecke zu verwenden, wie z. B. das Löschen von Daten, die versehentlich durch große Besuchergruppen übermittelt wurden. Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen unerwünscht, in denen Sie Datenfelder löschen möchten, und zeigt, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Kundenbetreuungsteam, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von personenbezogenen Daten oder Datenproblemen zu unternehmen.
+Wenden Sie sich an Ihr Adobe Account-Team, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von PII- oder Datenproblemen zu unternehmen.
 
 +++
 
@@ -118,7 +119,7 @@ Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-a
 
 Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen unerwünscht, in denen Sie Datenfelder löschen möchten, und zeigt, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Kundenbetreuungsteam, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von personenbezogenen Daten oder Datenproblemen zu unternehmen.
+Wenden Sie sich an Ihr Adobe Account-Team, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von PII- oder Datenproblemen zu unternehmen.
 
 +++
 

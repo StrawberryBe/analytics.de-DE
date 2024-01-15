@@ -3,11 +3,12 @@ description: Verarbeitungsregeln werden in Report Suites festgelegt.
 subtopic: Processing rules
 title: Erstellen von Verarbeitungsregeln
 feature: Processing Rules
+role: Admin
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -28,4 +29,4 @@ Verarbeitungsregeln werden in Report Suites festgelegt.
 
    Wenn mehrere Regeln vorliegen, können Sie die Verarbeitungsreihenfolge ändern, indem Sie die Regeln auf der Seite per Drag and Drop verschieben.
 
-   Siehe [Beispiele für Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) für weitere Informationen zu den Arten der Regeln, die Sie erstellen können.
+   Siehe [Beispiele für Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) für Informationen zu den Arten von Regeln, die Sie erstellen können.

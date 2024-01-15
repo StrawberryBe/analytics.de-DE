@@ -2,10 +2,11 @@
 description: Beispiele für Datenschutzbezeichnungen für Adobe Analytics-Variablen
 title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
+role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '3578'
+source-wordcount: '3576'
 ht-degree: 99%
 
 ---
@@ -52,7 +53,7 @@ Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. 
 
 | Beschriftung | Definition | Weitere Anforderungen |
 | --- | --- | --- |
-| Keine | Wählen Sie diese Option aus, wenn diese Variable keine Daten enthält, die im Rahmen einer Datenschutz-Auskunftsanfrage in die an die betroffene Person zurückzugebenden Daten eingefügt werden müssen. |  |
+| Keine | Wählen Sie diese Option aus, wenn diese Variable keine Daten enthält, die im Rahmen einer Datenschutz-Auskunftsanfrage in die an die betroffene Person zurückzugebenden Daten eingefügt werden müssen. | |
 | ACC-ALL | Werte in diesem Feld sollten in allen Datenschutzanfragen enthalten sein. Wenn dieser Hit von einem Gerät stammt, das von mehreren Personen genutzt wird, können Sie als Datenverantwortlicher über diese Beschriftung festlegen, dass es zulässig ist, die Daten in diesem Feld an Personen mit Zugriff auf das gemeinsam genutzte Gerät zu übermitteln. | Felder mit dieser Beschriftung werden bei allen Datenschutzanfragen zurückgegeben. |
 | ACC-PERSON | Werte in diesem Feld sollten nur zu Datenschutzanfragen hinzugefügt werden, wenn Sie sich ausreichend sicher sind, dass der Treffer von der betroffenen Person stammt. Dies gilt, wenn die ID einer Datenschutzanfrage mit dem Wert im Feld ID-PERSON übereinstimmt. | Sie müssen auch eine ID-PERSON-Beschriftung in einer Variablen innerhalb dieser Report Suite festgelegt haben und Anfragen mit der entsprechenden ID übermitteln. Andernfalls wird diese Beschriftung nie angewendet. |
 
@@ -136,7 +137,7 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
 | <ul><li>Benutzerspezifische Erfolgsereignisse</li><li>Merchandising-eVars</li><li>Mehrwertige Variablen (mvVars)</li><li>Hierarchievariablen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Classifications | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (Nicht-Merchandising-eVars)</li></ul> | Alle Beschriftungen | – |
-| Die meisten anderen Variablen    (*Ausnahmen finden Sie in der unten stehenden Tabelle.*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| Die meisten anderen Variablen (*Siehe Tabelle unten mit Ausnahmen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 

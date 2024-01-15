@@ -2,11 +2,12 @@
 description: Data Warehouse verfügt über eine Funktion, mit der Sie eine Liste mit Besucher-IDs extrahieren können. Diese IDs sind keine Cookie-IDs, sondern IDs, die Sie in einer der Konversionsvariablen erfassen. Obwohl diese Informationen auch auf andere Weise erhalten werden können, stellt das folgende Beispiel einen kürzeren Weg zum Generieren einer Data Warehouse-Anforderung dar.
 title: Verwendungsfall – Extrahieren von Besucher-IDs
 feature: Admin Tools
+role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 Data Warehouse verfügt über eine Funktion, mit der Sie eine Liste mit Besucher-IDs extrahieren können. Diese IDs sind keine Cookie-IDs, sondern IDs, die Sie in einer der Konversionsvariablen erfassen. Obwohl diese Informationen auch auf andere Weise erhalten werden können, stellt das folgende Beispiel einen kürzeren Weg zum Generieren einer Data Warehouse-Anforderung dar.
 
-Nehmen Sie zum Beispiel einmal an, dass Ihre Firma Marketing-E-Mails an Kunden und Interessenten sendet. Jeder dieser E-Mail-Empfänger hat eine eindeutige ID in Ihrem E-Mail-System (wie z. B. *`EMAIL Contact ID`*). Sie richten Ihre E-Mails so ein, dass Kontakte eine E-Mail erhalten und auf einen darin enthaltenen Link klicken, wobei der Besucher dann mit einer Kampagnen-ID und einer eindeutigen EMAIL-Kontakt-ID auf Ihre Website geleitet wird. Der Link in der E-Mail kann zum Beispiel wie folgt aufgelöst werden:
+Nehmen Sie zum Beispiel einmal an, dass Ihre Firma Marketing-E-Mails an Kunden und Interessenten sendet. Jeder dieser E-Mail-Empfänger hat eine eindeutige ID in Ihrem E-Mail-System (z. B. *`EMAIL Contact ID`*). Sie richten Ihre E-Mails so ein, dass Kontakte eine E-Mail erhalten und auf einen darin enthaltenen Link klicken, wobei der Besucher dann mit einer Kampagnen-ID und einer eindeutigen EMAIL-Kontakt-ID auf Ihre Website geleitet wird. Der Link in der E-Mail kann zum Beispiel wie folgt aufgelöst werden:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

@@ -3,10 +3,11 @@ description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsr
 subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
 feature: Processing Rules
+role: Admin
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
@@ -29,7 +30,7 @@ Erstellen Sie eine leere HTML-Seite auf Ihrem Desktop, nehmen Sie den s_code von
 
 **Verwenden einer dev-Report Suite**
 
-Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich, sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
+Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich, sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt bereitstellen.
 
 ## Auf leere Werte hin überprüfen  {#section_EE84A5525E26415787930723B0CAAE0F}
 

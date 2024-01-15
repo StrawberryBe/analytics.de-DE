@@ -2,11 +2,12 @@
 description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle Kampagnen des Typs „Paid Search“ in einer Kategorie wie Popmusik zusammenfassen und Berichte zum Erfolg dieser Kategorie anhand von Metriken wie Instanzen (Durchklick-Rate) und Konversionen erstellen.
 title: Konversionsklassifizierungen
 feature: Classifications
+role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 96%
+source-wordcount: '566'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +19,7 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
-Nach der Aktivierung der Classifications verwenden Sie den [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
+Nachdem Sie die Classifications aktiviert haben, verwenden Sie die [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) , um bestimmte Werte der entsprechenden Classification zuzuweisen.
 
 >[!WARNING]
 >
@@ -50,7 +51,7 @@ So fügen Sie Konversionsklassifizierungen in Admin hinzu:
    Zu den Optionen gehören **[!UICONTROL Text]** und **[!UICONTROL Numerisch]**. Weitere Informationen zu Classification-Typen finden Sie unter [Informationen über Classifications](/help/components/classifications/c-classifications.md).
 1. Konfigurieren Sie die Klassifizierung im Dialogfeld **[!UICONTROL Textklassifizierungen]** nach Bedarf.
 
-1. Fügen Sie Optionen im Dropdown-Listendialogfeld hinzu oder entfernen Sie Optionen.
+1. Optionen im Dropdown-Listendialogfeld hinzufügen oder entfernen
 
    Durch Hinzufügen von Optionen wird eine Liste mit für diese Classification verfügbaren Classification-Werten erstellt. Diese Option kann zusammen mit Kampagnenvariablen verwendet werden, um den Benutzern eine Liste mit unterstützten Werten für die Classification im Kampagnen-Manager bereitzustellen. Verwenden Sie dies für Classification-Dimensionen, bei denen eine kleine Zahl erlaubter Werte vorliegt, die sich selten oder nie ändern. Sie können zum Beispiel verschiedene Kampagnen durchführen, die auf verschiedene Stufen der Kundenbindung ausgerichtet sind: Silber, Gold und Platin. Sie können dann Dropdown-Listen verwenden, um sicherzustellen, dass nur solche Werte akzeptiert werden, die Ihren drei Stufen entsprechen. Der Versuch, einen anderen Wert zu verwenden, wird verworfen.
 
