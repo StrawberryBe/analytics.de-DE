@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 84%
+source-wordcount: '199'
+ht-degree: 82%
 
 ---
 
@@ -21,10 +21,6 @@ Damit können Sie:
 * Visualisieren der Kundenpfade in Ihrer Website oder Anwendung
 * Analysieren, wohin Kunden vor und nach festgelegten Checkpoints navigieren, wie zum Beispiel Einsteig, eine bestimmte Dimension oder Ausstieg
 * Erstellen von Segmenten, indem Sie einen bestimmten Punkt in einem ausgewählten Pfad angeben
-
->[!NOTE]
->
->Informationen dazu, wie sich die Ergebnisse bei der Anwendung von Segmenten auf den Fluss zwischen Analysis Workspace und Reports &amp; Analytics unterscheiden können, finden Sie unter [Segmentierung als Grundlage für Fluss und Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 Im Folgenden finden Sie ein Video-Tutorial zur Flussvisualisierung:
 

@@ -4,10 +4,10 @@ title: Anpassbare Überlagerungen
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Mit Überlagerungen verfügen Sie über zahlreiche Möglichkeiten zur Konfiguration der Datenvisualisierung, sodass Sie die Beliebtheit der Links auf einer Seite einfach feststellen und verstehen können.
 
-Überlagerungen ermöglichen Ihnen, Klickdaten direkt auf der Seite zu visualisieren. Dadurch unterscheidet sich ein visuelles Analysewerkzeug wie Activity Map von anderen hauptsächlich tabellarischen und grafischen Werkzeugen wie „Reports &amp; Analytics“.
+Mit Überlagerungen können Sie Klickdaten direkt auf der Seite visualisieren.
 
 Activity Map bietet drei Überlagerungstypen:
 
@@ -51,7 +51,7 @@ Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Über
 
 >[!NOTE]
 >
->Blasenüberlagerungen für Untermenüs werden nur angezeigt, wenn Sie das Untermenü einblenden:
+>Blasenüberlagerungen für Untermenüs werden nur angezeigt, wenn Sie das Untermenü anzeigen:
 >
 >![](assets/bubbles_submenu.png)>
 

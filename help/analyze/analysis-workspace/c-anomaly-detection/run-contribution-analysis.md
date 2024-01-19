@@ -4,10 +4,10 @@ title: Ausführen einer Beitragsanalyse
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Es gibt zwei Möglichkeiten, die Beitragsanalyse in einem Projekt aufzurufen:
 1. (Optional) Nachdem Sie in einem Liniendiagramm oder einer Tabelle auf **[!UICONTROL Beitragsanalyse durchführen]** geklickt haben, können Sie die Analyse weiter eingrenzen (und damit beschleunigen), indem Sie [Dimensionen ausschließen](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Warten Sie, während Ihre Beitragsanalyse geladen wird. Dieser Vorgang kann je nach der Größe Ihrer Report Suite und der Anzahl Ihrer Dimensionen einige Zeit in Anspruch nehmen. Die Beitragsanalyse erfolgt anhand der obersten 50.000 Elemente pro Dimension.
-1. Anschließend lädt der Analysis Workspace ein neues Beitragsanalyse-Bedienfeld direkt in dieses Projekt. Wenn Sie die Beitragsanalyse schon früher in Reports &amp; Analytics genutzt haben, werden Ihnen etliche Bereiche vertraut vorkommen:
+1. Analysis Workspace lädt dann ein neues Beitragsanalyse-Bedienfeld direkt in dieses Projekt.
 
    * Eine Visualisierung, die die Anzahl der **Besuche** an diesem Tag anzeigt.
    * Eine monatliche **Besuchstrendlinie** für den Kontext.

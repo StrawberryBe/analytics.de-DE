@@ -4,10 +4,10 @@ title: Pfadberichte durch Hinzufügen von abhängigen Anforderungen filtern
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '172'
+ht-degree: 62%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 85%
 
 Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt werden.
 
-Marketing Reports &amp; Analytics bietet einige eigenständige Berichte, die Top-Pfadberichte sind und vordefinierte Filter enthalten, z. B. Berichte zu den [!UICONTROL nächsten] und [!UICONTROL vorherigen Sitebereichen], zu Ein- und [!UICONTROL Ausstiegssitebereichen] und zu [!UICONTROL einzelnen Sitebereichen].
-
-Report Builder bietet diese nicht als eigenständige Berichte an, aber Sie können sie über die Kontextmenüs **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Pfad]** erstellen. Die folgenden Berichte sind verfügbar:
+Report Builder bietet Pfadberichte nicht als eigenständige Berichte an, aber Sie können sie über die **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Pfad]** Kontextmenüs. Die folgenden Berichte sind verfügbar:
 
 * Pfad > Trichteranalyse für Seite
 * Pfad > Einstiegspfad

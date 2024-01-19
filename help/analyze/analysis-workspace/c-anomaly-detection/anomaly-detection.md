@@ -4,10 +4,10 @@ title: Übersicht über die Anomalieerkennung
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '1402'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '1275'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Etwas ist passiert. Warum? Ihr Anomalieerkennungsbericht zeigt einen ungewöhnli
 
 Mithilfe der Beitragsanalyse können Sie Ihre Daten umgehend analysieren und so herausfinden, wie es zu einer Anomalie kam. Die Analyse ermittelt die beitragenden Faktoren zu einer Anomalie innerhalb weniger Sekunden anstatt in Wochen und stellt Ihnen Muster für Zielgruppensegmente bereit, sodass Sie die Interaktionen von Kunden besser nachvollziehen können. Sie können die Beitragsanalyse strategisch einsetzen, um aussagekräftige Verbindungen zu identifizieren und erfassen, anhand derer Sie neue Zielgruppensegmente entwickeln können. Die Beitragsanalyse lässt sich auch taktisch verwenden, um außergewöhnliche oder betrügerische Aktivitäten zu erkennen, die einen Warnhinweis auslösen.
 
-Die [Anomalieerkennung](#anomaly-detection) identifiziert Datenspitzen und extreme statistische Rückgänge, basierend auf ausgewählten Metriken und Zielgruppensegmenten. Sie legt basierend auf einem Trainings-Zeitraum eine historische Norm fest und zeigt extreme Versatzwerte an, die mit spezifischen Ereignissen korrelieren. Die Erkennung kann einen steilen Anstieg bei einer positiven Bestellungsmetrik oder einen Anstieg bei einer negativen Absprungsmetrik melden oder Rückgänge bei beiden. Auf diese Weise werden statistisch relevante Datenpunkte erfasst, die bei der Beitragsanalyse ausgewertet werden. Wenn eine statistische Anomalie identifiziert wurde, können Sie mit der Beitragsanalyse für alle abweichenden Datenpunkte relevante Marketing- und Kampagnenvariablen einsehen und auswerten. Für die Auswertung von Verbindungen, die zu einer deutlichen Spitze bzw. einem deutlichen Tiefpunkt beigetragen haben, kommen fortschrittliche Algorithmen und maschinelles Lernen zum Einsatz. Diese Berechnungen werden dann in interaktiven Darstellungen angezeigt, die Ihnen unterschiedliche Perspektiven auf den Sachverhalt bieten. Auf diese Weise können Sie erkennen, warum etwas passiert ist und was dagegen zu unternehmen ist.
+Die [Anomalieerkennung](#anomaly-detection) identifiziert Datenspitzen und extreme statistische Rückgänge, basierend auf ausgewählten Metriken und Zielgruppensegmenten. Sie legt basierend auf einem Trainings-Zeitraum eine historische Norm fest und zeigt extreme Versatzwerte an, die mit spezifischen Ereignissen korrelieren. Die Erkennung kann einen steilen Anstieg bei einer positiven Bestellungsmetrik oder einen Anstieg bei einer negativen Absprungsmetrik melden oder Rückgänge bei beiden. Auf diese Weise werden statistisch relevante Datenpunkte erfasst, die bei der Beitragsanalyse ausgewertet werden. Wenn eine statistische Anomalie identifiziert wurde, können Sie mit der Beitragsanalyse für alle abweichenden Datenpunkte relevante Marketing- und Kampagnenvariablen einsehen und auswerten. Für die Auswertung von Verbindungen, die zu einer deutlichen Spitze bzw. einem deutlichen Tiefpunkt beigetragen haben, kommen fortschrittliche Algorithmen und maschinelles Lernen zum Einsatz. Diese Berechnungen werden dann in interaktiven Visualisierungen angezeigt, die Ihnen unterschiedliche Perspektiven bieten, um zu beantworten, warum etwas passiert ist und was dagegen zu tun ist.
 
 Mit Hilfe der Beitragsanalyse können Sie besser nachvollziehen, wie es zu einer Anomalie kam und wie Sie darauf reagieren. Zu diesem Zweck werden relevante Metriken erfasst und verborgene Punkte identifiziert, die einen allgemeinen Grund für die Interaktionen der Zielgruppe und Trends beim Kundeninteresse darstellen. Manchmal lässt sich eine Anomalie leicht erkennen und korrigieren. Das ist beispielsweise bei einer irrtümlichen Bestellung von 2000 Kajaks der Fall. Manchmal ist die Erkennung einer Anomalie dagegen recht schwierig, zum Beispiel bei einem aufkommenden Trend in einem bestimmten Zeitraum in einer Region, der nur in Reaktion auf eine spezifische zielgerichtete Kampagne erfolgt. Die Zusammenstellung beitragender Elemente in Metriken für unterschiedliche Dimensionen und ihre Verbindungen verschafft Ihnen einen allgemeinen Überblick über die Interaktionen Ihrer Zielgruppen und liefert wichtigen Kontext für abweichende Datenpunkte.
 
@@ -69,10 +69,6 @@ Nach der umfassenden Analyse einer Anomalie wird eine Beitragszusammenfassung f�
 
 ## Beitragsanalyse-Token – Übersicht {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
->[!IMPORTANT]
->
->Wichtig: Die Beitragsanalyse wurde aus dem Funktionsumfang von Reports &amp; Analytics entfernt und ist nun nur noch über Analysis Workspace verfügbar.
-
 Sämtliche Kunden mit einer Berechtigung für Beitragsanalysen können in Analysis Workspace pro Monat eine begrenzte Anzahl vollständiger Beitragsanalysen ausführen. **Ausgeschlossen** davon sind Spezialprodukt-Kunden (SiteCatalyst 15), Analytics Foundation-Kunden sowie Analytics Select-Kunden, die überhaupt keine Beitragsanalyse erhalten.
 
 Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschränkt, die auf der Basis des von Ihrem Unternehmen gekauften Adobe Analytics-Produkts zugeteilt werden. Dies schließt die Möglichkeit ein, die Beitragsanalyse zu beschränken, um einen Missbrauch von Token zu verhindern.
@@ -83,7 +79,6 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
 | --- | --- |
 | Warum hat Adobe Token eingeführt? | Die Beitragsanalyse ist eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. |
 | Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen? | Jedes Anmeldeunternehmen (nicht jeder Benutzer) erhält eine bestimmte Anzahl an Token pro Monat, mit denen Sie eine „vollständige“ Beitragsanalyse in Analysis Workspace durchführen können.  Jedes Mal, wenn Sie eine neue Beitragsanalyse erstellen, bezahlen Sie ein Token. Das Laden von Projekten mit bereits ausgeführten Beitragsanalysen kostet kein Token. |
-| Werden für die Beitragsanalyse in Reports &amp; Analytics Token fällig? | Nein. Die Beitragsanalyse steht seit April 2018 nicht mehr in Reports &amp; Analytics zur Verfügung. |
 | Was können wir tun, wenn unser Unternehmen keine Token mehr hat, wir aber weitere Beitragsanalysen durchführen möchten? | Sie können ein Upgrade auf ein anderes Adobe Analytics-Produkt durchführen, z. B. von Standard (2 Token/Monat) auf Ultimate (20 Token/Monat). Es ist nicht möglich, einfach zusätzliche Token zu kaufen. Sie müssen ein Upgrade innerhalb der bestehenden Paketstruktur durchführen. |
 | Wie kann ich den Zugriff auf die Beitragsanalyse beschränken? | Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können anderen Benutzern jedoch Zugriff gewähren, indem sie eine Berechtigungsgruppe in der [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de) erstellen. Erteilen Sie nur jenen Benutzern die Berechtigung zur Verwendung der Beitragsanalyse, die einen Grund zu deren Nutzung haben und den Zugriff nicht missbrauchen werden. Die Berechtigung lautet [!UICONTROL Beitragsanalyse] unter [!UICONTROL Report Suite-Werkzeuge]. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=de) |
 | Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben? | Gehen Sie zu [!UICONTROL Admin] > [!UICONTROL Alle Administratoren] > [!UICONTROL Unternehmenseinstellungen] > [!UICONTROL Funktionszugriffsebenen anzeigen]. Schauen Sie unter<ul><li>Beitragsanalyse: Anzahl der monatlichen Nutzungs-Token</li><li>Beitragsanalyse: Anzahl der diesen Monat verwendeten Nutzungs-Token</li></ul> |
@@ -91,10 +86,6 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
 ## Anomalieerkennung und Beitragsanalyse – Berechtigungen {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
 Weiter unten finden Sie eine ausführliche Liste der Berechtigungen für die Anomalieerkennung und Beitragsanalyse in Analysis Workspace.
-
->[!IMPORTANT]
->
->Anomalieerkennung und Beitragsanalyse wurden aus dem Funktionsumfang von Reports &amp; Analytics entfernt und sind nun nur noch über Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation in Workspace nur Zugriff auf die Anomalieerkennung „tägliche Granularität“ haben.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 

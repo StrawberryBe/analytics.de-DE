@@ -4,10 +4,10 @@ title: Übersicht über intelligente Warnhinweise
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 83%
 
 ---
 
@@ -19,23 +19,22 @@ Hier finden Sie ein Video-Tutorial zu [intelligenten Warnhinweisen](https://expe
 
 ## Überblick
 
-Die neuen Funktionen „Warnhinweiserstellung“ und „Warnhinweis-Manager“ in Analysis Workspace ersetzen die bisherigen Funktionen in Reports &amp; Analytics. Mithilfe intelligenter Warnhinweise können Sie:
+Die neuen Funktionen &quot;Warnhinweiserstellung&quot;und &quot;Warnhinweis-Manager&quot;in Analysis Workspace ersetzen die Warnhinweisfunktion in Reports &amp; Analytics, die eingestellt wurde. Mithilfe intelligenter Warnhinweise können Sie:
 
 * Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%-, 99-%-, 99,75-%- und 99,9-%-Schwellen, Änderungen in %, darüber/darunter)
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
 
-Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
+Es gibt drei Möglichkeiten, zur Warnhinweiserstellung zu gelangen:
 
 | Methode | Details |
 | --- | --- |
 | Direkt zur Warnhinweiserstellung wechseln | **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** |
 | Verwenden des Tastaturbefehls in Workspace | `Ctrl + Shift + A` (Windows) oder `Cmd + Shift + A` (Mac) |
 | Wählen Sie ein oder mehrere Freiform-Tabellenzeilenelemente aus | Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Warnhinweis aus Auswahl erstellen]**. Dadurch wird die [!UICONTROL Warnhinweiserstellung] geöffnet und die entsprechenden Metriken und angewendeten Filter aus der Tabelle werden vorab ausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten. ![Warnhinweis aus Auswahl erstellen](assets/create-alert-from-selection.png) |
-| Aus einem Reports &amp; Analytics-Bericht | Navigieren Sie zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]**. Dadurch wird die Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden vorab ausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten. ![Warnhinweis hinzufügen](assets/add-alert.png) |
 
-Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität  werden [verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99.75 %).
+Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Abhängig von der ausgewählten Zeitgranularität [verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) werden verwendet, um zu berechnen, wie weit (wie viele Standardabweichungen) jeder Datenpunkt von der Norm entfernt ist. Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99.75 %).
 
 >[!IMPORTANT]
 >

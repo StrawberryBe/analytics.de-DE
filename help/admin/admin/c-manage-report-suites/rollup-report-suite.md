@@ -3,10 +3,10 @@ description: Beschreibungen von Report Suite-Typen und Vergleich globaler Report
 title: Report Suite-Ansätze
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ Die Verwendung von Virtual Report Suites anstelle von Multi-Suite-Tagging ist of
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] ist das einzige Tool, das Datenaggregationsberichte unterstützt, und Adobe empfiehlt die Verwendung von Datenaggregationen nicht mehr. Verwenden Sie stattdessen eine globale Report Suite mit Multi-Suite-Tagging oder Virtual Report Suites.
-
-Ein Datenaggregationsbericht ist eine einfache Aggregation von Daten aus mehreren Report Suites ohne Deduplizierung und ohne Segment- oder Datenaufschlüsselungen. Datenaggregationen erfordern keine Implementierung von Code. So verwenden Sie Datenaggregationsberichte: [Implementieren Sie untergeordnete Report Suites](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) und verwenden Sie dann die [!UICONTROL Admin Tools], um sie [zu einem Datenaggregationsbericht zusammenzufassen](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md).
-
-Datenaggregationsberichte sind kostenlos: Die untergeordneten Report Suites beinhalten zwar eigene Server-Aufrufe, die Datenaggregation führt jedoch nicht zu zusätzlichen Aufrufen. Datenaggregationen sind eine alte Funktion und haben viele Einschränkungen.
+>[!DNL Reports & Analytics] ist das einzige Tool, das Datenaggregationsberichte unterstützt. Reports &amp; Analytics wurde am 17. Januar 2024 eingestellt.
 
 ### Einschränkungen bei Datenaggregationsberichten {#limitations-rollups}
 
@@ -80,6 +76,6 @@ Datenaggregationsberichte sind kostenlos: Die untergeordneten Report Suites bein
 
 **Berichte:** Globale Report Suites liefern Daten zu allen Dimensionen; Aggregationen stellen die gesammelten Daten lediglich in Übersichtsberichten bereit.
 
-**Unterstützte Produkte:** Datenaggregationen können nur in Reports &amp; Analytics verwendet werden. Sie werden in Analysis Workspace oder Data Warehouse nicht unterstützt. Globale Report Suites können in allen Produkten verwendet werden.
+**Unterstützte Produkte**: Datenaggregationen können nur in Reports &amp; Analytics verwendet werden. Sie werden in Analysis Workspace oder Data Warehouse nicht unterstützt. Globale Report Suites können in allen Produkten verwendet werden.
 
 **Anzahl der aggregierten Report Suites:** Datenaggregationen unterstützen nur maximal 40 untergeordnete Report Suites. Globale Report Suites können auf beliebig vielen Domänen oder Apps implementiert werden, deren Inhaber Sie sind.

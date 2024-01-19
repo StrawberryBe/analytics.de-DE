@@ -4,10 +4,10 @@ title: Segmente verwalten (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 85%
+source-wordcount: '959'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 So können Sie in Report Builder Adobe Analytics-Segmente hinzufügen, bearbeiten, anwenden und filtern.
 
-Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmentierungsfenster, mit dem Sie folgende Aufgaben ausführen können:  Segmente erstellen und verwalten.
+Report Builder bietet in Schritt 1 des Anforderungs-Assistenten einen Segmentierungsbereich, mit dem Sie Segmente erstellen und verwalten können.
 
 ![Screenshot mit den Segmentoptionen zum Hinzufügen, Bearbeiten oder Löschen von Segmenten und Hervorhebung der Symbole Kontrolle, Filter und Aktualisieren.](assets/seg_dialog.png)
 
@@ -50,9 +50,9 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 1. Kehren Sie zu Report Builder zurück und klicken Sie auf das Symbol Aktualisieren , um die Segmentliste zu aktualisieren.
 1. Nun können Sie dieses Segment anwenden.
 
-## Segmente suchen und anwenden  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Segmente suchen und anwenden  {#search}
 
-In dieser Segmentliste werden alle Segmente angezeigt, die in Reports &amp; Analytics, Report Builder oder Data Warehouse erstellt wurden. Klicken Sie zum Aktualisieren der Liste auf das Aktualisierungssymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Alle Segmente, die in Reports &amp; Analytics (jetzt Ende der Unterstützung), Report Builder oder Data Warehouse erstellt wurden, werden in dieser Segmentliste angezeigt. Um die Liste zu aktualisieren, klicken Sie auf das Symbol Aktualisieren . ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies beinhaltet auch sequentielle Segmente.
 
@@ -64,9 +64,9 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies b
 
 >[!NOTE]
 >
->Unabhängig davon, ob Sie ein Benutzer mit oder ohne Administratorrechten sind, können Sie in Report Builder nur die Segmente anzeigen, die Ihnen gehören und die für Sie freigegeben wurden. (In der Benutzeroberfläche von Marketing Reports &amp; Analytics können Administratoren alle Segmente der Organisation anzeigen.)
+>Unabhängig davon, ob Sie ein Administrator oder kein Administrator sind, können Sie im Report Builder nur die Segmente sehen, deren Inhaber Sie sind, sowie die Segmente, die für Sie freigegeben wurden.
 
-## Filtern von Segmenten {#section_376E986D3E684999A7CDB08E53854159}
+## Filtern von Segmenten {#filter}
 
 **Filter** Segmente durch Klicken auf das Filtersymbol:  ![Filtersymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -74,15 +74,15 @@ Folgende Filter stehen zur Verfügung:
 
 | Filtername | Beschreibung |
 |---|---|
-| Tags | Filtert Segmente nach bestimmten  Tags. Beachten Sie, dass Tagfilter mit dem Operator AND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
+| Tags | Filtern Sie Segmente mit bestimmten Tags. Beachten Sie, dass Tagfilter mit dem Operator AND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
 | Inhaber | Filtert Segmente nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator OR arbeiten. Wenn Sie zwei Inhaber aktivieren, werden im rechten Fenster Segmente angezeigt, die **beiden** Inhabern gehören. |
-| Weitere Filter > Nur *Name der Report Suite* | Wenn Sie im Segment Builder in [!DNL marketing reports & analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL Report Builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur das Segment für die ausgewählte Report Suite an. |
+| Weitere Filter > Nur *Name der Report Suite* | Wenn Sie &quot;Nur *Name der Report Suite*&quot;im Segmentaufbau in Adobe Analytics und zeigen Sie dann den erweiterten Filter in [!DNL Report Builder], zeigt der erweiterte Filter nur das Segment für die ausgewählte Report Suite an. |
 | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
-| Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie  freigegeben haben. |
-| Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als  Favoriten gekennzeichnet haben. |
-| Weitere Filter > Genehmigt | Zeigt alle offiziell  genehmigten Segmente an. |
+| Weitere Filter > Für mich freigegeben | Es werden alle Segmente angezeigt, die für Sie freigegeben wurden. |
+| Weitere Filter > Favoriten | Es werden alle Segmente angezeigt, die Sie als Favoriten markiert haben. |
+| Weitere Filter > Genehmigt | Es werden alle offiziell genehmigten Segmente angezeigt. |
 
-## Hinzufügen eines Segmentsteuerelements zu einer Arbeitsmappe {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Hinzufügen eines Segmentsteuerelements zu einer Arbeitsmappe {#segment-control}
 
 Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbeitsmappe zwischen Segmenten wechseln, anstatt hierfür zum Anforderungs-Assistenten wechseln zu müssen.
 
@@ -103,11 +103,11 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
    ![Screenshot mit dem Dropdown-Feld Segment auswählen .](assets/seg_control2.png)
 
-## Segmentliste aktualisieren  {#section_22E4A86789444B4A998532396B476EFB}
+## Segmentliste aktualisieren  {#refresh}
 
 Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Symbol Aktualisieren klicken ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) , um die zwischengespeicherte Segmentliste zu aktualisieren.
 
-## Verwalten von Segmenten in mehreren Anfragen {#section_C3D63FCBE1A94369A319243313B03C93}
+## Verwalten von Segmenten in mehreren Anfragen {#manage}
 
 Vor der Version v5.4 konnten Benutzer in Report Builder Segmente in mehreren Anforderungen ändern. Bei diesem Vorgang wurden jeweils die bestehenden Segmente ersetzt. Benutzer, die ein neues Segment zu einer einzelnen Anforderung hinzufügen wollten, konnten dies nicht tun, da durch Hinzufügen des Segments vorherige Segmente entfernt wurden, die der jeweiligen Anforderung bereits zugeordnet waren.
 
@@ -122,7 +122,7 @@ In Report Builder 5.4 ist das Hinzufügen, Entfernen und Ersetzen einzelner oder
 
    | Option | Beschreibung |
    |---|---|
-   | Fügen Sie  Segment | Sie können eines oder mehrere Segmente auswählen und der Liste der aktuellen Segmente hinzufügen. |
+   | Segment hinzufügen | Sie können eines oder mehrere Segmente auswählen und der Liste der aktuellen Segmente hinzufügen. |
    | Segment(e) ersetzen | Sie können auswählen, welche(s) Segment(e) Sie durch ein Segment bzw. mehrere Segmente ersetzen möchten. |
    | Alle Segmente ersetzen nach | Sie können eines oder mehrere Segmente auswählen und damit vorhandene Segmente ersetzen. |
    | Segment(e) entfernen | Sie können Segmente aus Anforderungen entfernen. |

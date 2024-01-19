@@ -3,16 +3,16 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: a733d7296c61e7cb96c637bbd101268e492a1cd4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 99%
+source-wordcount: '342'
+ht-degree: 92%
 
 ---
 
 # Analytics – Produktvergleich und Voraussetzungen
 
-Diese Seite enthält einen Vergleich verschiedener Adobe Analytics-Produkte: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds und Analytics-API 2.0.
+Diese Seite enthält einen Vergleich verschiedener Adobe Analytics-Produkte: Analysis Workspace, Report Builder, Data Warehouse, Daten-Feeds und Analytics-API 2.0.
 
 Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](/help/analyze/get-started/which-analytics-tool.md).
 
@@ -25,14 +25,14 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 | **Verarbeitungsstufe** | Vollständig verarbeitet | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet |
 | **Admin-Bot-Filterdaten enthalten** <br> [Weitere Infos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Nein | Ja - separater Bot-Bericht | Nein | Nein | Nein |
 | **Geringer Traffic (Individuelle Werte überschritten) wird angezeigt** <br> [Weitere Informationen](/help/technotes/low-traffic.md) | Ja | Ja | Nein | Nein | Ja |
-| **Begrenzung der sichtbaren Zeilen (vor der Paginierung)** | 400 | 50000 | Unbegrenzt | Unbegrenzt | Unbegrenzt | 50000 |
+| **Begrenzung der sichtbaren Zeilen (vor der Paginierung)** | 400 | 50000 | Unbegrenzt | Unbegrenzt | 50000 |
 | **Mehrere Report Suites** | [Ja](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Ja | Nein | Ja | Nein | Ja |
 | **Anzahl der Aufschlüsselungen** | Unbegrenzt | Bis zu 2 | Unbegrenzt | Unbegrenzt | Unbegrenzt, über mehrere Abfragen ausführen |
 | **Segmentierung** <br> [Weitere Informationen](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Ja | Ja | Ja, mit [Einschränkungen](/help/components/segmentation/seg-reference/seg-compatibility.md) | Nein | Ja |
-| **Berechnete Metriken** <br> [Weitere Infos](/help/components/c-calcmetrics/cm-overview.md) | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Ja, mit Attribution | Ja | Nein | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Berechnete Metriken** <br> [Weitere Infos](/help/components/c-calcmetrics/cm-overview.md) | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Ja, mit Attribution | Ja | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Marketing-Kanäle** <br> [Weitere Infos](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Ja | Ja | Ja | Ja – [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Ja |
-| **Kohortenanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Ja | Nein | Nein | Nein | Nein |
-| **Attribution** | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Begrenzt | Nein | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Kohortenanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Ja | Nein | Nein | Nein |
+| **Attribution** | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Begrenzt | Nein | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Nein |
 | **Kuratierung** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja – Projekt und Virtual Report Suite | Nein | Nein | Nein | Ja – nur Virtual Report Suite |
 | **Projektfreigabe** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, mit Projektrollen | Ja | Nein | Nein | Nein |
 | **Geplanter Versand** | Ja | Ja | Ja | Ja | Nein |

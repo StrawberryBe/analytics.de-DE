@@ -3,9 +3,9 @@ title: Adobe Analytics-Berechtigungen – Übersichtstabellen
 description: Tabellen, in denen die verfügbaren Adobe Analytics-Berechtigungen in der Adobe Admin Console zusammengefasst werden.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1130'
 ht-degree: 98%
 
 ---
@@ -44,13 +44,6 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Anomalieerkennung |  | x |  |  | Gewährt Zugriff auf die Anomalieerkennung bei Analysis Workspace. |
 | Beitragsanalyse |  | x |  |  | Gewährt Zugriff auf das Kontextmenü „Beitragsanalyse ausführen“ in Analysis Workspace. |
 | Benutzerdefinierter Data Warehouse-Bericht |  | x |  |  | Gewährt Zugriff auf „Tools > Data Warehouse“ im oberen Navigationsbereich von Analytics. |
-| Bot-Seiten |  |  | x |  | Gewährt Zugriff auf den Bericht „Bot-Seiten“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
-| Bots |  |  | x |  | Gewährt Zugriff auf den Bericht „Bots“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
-| Kanalbericht |  |  | x |  | Gewährt Zugriff auf den Kanalübersichtsbericht unter „Marketing-Kanäle“ in Reports &amp; Analytics. |
-| Rückkehrende Besucher pro Tag |  |  | x |  | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher pro Tag“ in Reports &amp; Analytics. |
-| Meine empfohlenen Berichte |  |  | x |  | Gewährt Zugriff auf „Site-Metriken > Meine empfohlenen Berichte“ in Reports &amp; Analytics. |
-| Echtzeitbericht |  |  | x |  | Gewährt Zugriff auf „Site-Metriken > Echtzeit“ in Reports &amp; Analytics. Verwenden Sie das Berechtigungselement „Konfiguration für Echtzeitberichte“, um Zugriff für die Einrichtung dieses Berichts zu gewähren. |
-| Rückkehrende Besucher |  |  | x |  | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher“ in Reports &amp; Analytics. |
 | Advertising Analytics-Konfiguration |  |  |  | x | Nicht verwendet. |
 | Firmenzusammenfassungs-Reportlet |  |  |  | x | Nicht verwendet. |
 | Data Warehouse |  |  |  | x | Nicht verwendet. Verwenden Sie stattdessen „Benutzerdefinierter Data Warehouse-Bericht“. |
@@ -94,7 +87,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Projekt-Links für alle freigeben | x |  |  |  | Ermöglicht Benutzern Zugriff auf die Freigabe für andere Benutzer unter einem Workspace-Projekt > Freigeben > Für alle freigeben . |
 | Activity Map |  | x |  |  | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
 | Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis wird nicht mehr unterstützt. [Weitere Informationen](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
-| Zugriff auf Analysis Workspace |  | x |  |  | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
+| Zugriff auf Analysis Workspace |  | x |  |  | Gewährt Zugriff auf Analysis Workspace. |
 | Analysis Workspace: als Vorlage speichern |  | x |  |  | Gewährt Zugriff auf „Projekt > Als Vorlage speichern“ in Analysis Workspace. |
 | Erstellung berechneter Metriken |  | x |  |  | Ermöglicht die Erstellung berechneter Metriken für alle Analytics-Funktionen. |
 | Labzugriff |  | x |  |  | Gewährt Zugriff auf Labs. |
@@ -102,8 +95,6 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Erstellung von Segmenten |  | x |  |  | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | Segmentveröffentlichung |  | x |  |  | Gewährt die Möglichkeit, ein Segment beim Erstellen oder Bearbeiten zu einer Experience Cloud-Zielgruppe zu machen. |
 | Zugriff auf Web Services |  | x |  |  | Ermöglicht die Verwendung der API, einschließlich Authentifizierung bei Websites von Drittanbietern und dem Senden von API-Aufrufen. |
-| Aktuelle Daten |  |  | x |  | Aktiviert die Option zum Anzeigen aktueller Daten in Reports &amp; Analytics-Berichten. |
-| Zugriff auf Reports &amp; Analytics |  |  | x |  | Gewährt Zugriff auf Reports &amp; Analytics. Benutzer müssen entweder zu dieser Gruppe oder zu „Zugriff auf Analysis Workspace“ (empfohlen) gehören, um Adobe Analytics verwenden zu können. |
 | Advertising Analytics-Verwaltung |  |  |  | x | Nicht verwendet. |
 | Co-Branding |  |  |  | x | Wird nicht mehr verwendet. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Co-Branding“. |
 | Excel-Lizenzanwender |  |  |  | x | Nicht verwendet. |

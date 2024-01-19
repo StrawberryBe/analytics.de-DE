@@ -4,10 +4,10 @@ keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metrike
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 88%
+source-wordcount: '564'
+ht-degree: 81%
 
 ---
 
@@ -38,7 +38,7 @@ Im Folgenden finden Sie einen Vergleich berechneter Metriken mit erweiterten Fun
 
 Sie können
 
-* Metriken in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse] erstellen.
+* Metriken erstellen über [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung], und [!UICONTROL Beitragsanalyse].
 * Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, ohne die Implementierung ändern zu müssen. Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -54,7 +54,6 @@ Sie können
 
 Bei einigen [!DNL Analytics]-Funktionen können Sie Ereignisse, aber keine berechneten Metriken verwenden:
 
-* [!UICONTROL Trichter] in [!UICONTROL Reports &amp; Analytics]
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
 * [!UICONTROL Kohortenanalyse] in Analysis Workspace
 * [!UICONTROL Data Warehouse]
@@ -103,7 +102,7 @@ Im Folgenden finden Sie einen kurzen Überblick über die [!UICONTROL Berechnete
   </tr> 
   <tr> 
    <td colname="col1"> Leiste „Metrikauswahl“ </td> 
-   <td colname="col2"> <p>Ersetzt das Popup-Fenster <span class="uicontrol">Metriken anzeigen</span> in <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Damit können Sie auch Metriken suchen und sie dem Bericht hinzufügen bzw. auf ihn anwenden. Außerdem können Sie die <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >Sortierfolge</a> ändern (Optionen sind: Alphabetisch, Empfohlen, Häufig verwendet, Kürzlich verwendet). Darüber hinaus können Sie nach Report Suites filtern, um nur Metriken anzuzeigen, die in einer bestimmten Report Suite erstellt wurden. </p> <p>Um auf diese Metrikauswahl zuzugreifen, klicken Sie auf das Metriksymbol <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> auf der linken Seite eines Berichts. Die Metrikauswahl sieht wie folgt aus: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Ersetzt das Popup-Fenster <span class="uicontrol">Metriken anzeigen</span> in <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Damit können Sie auch Metriken suchen und sie dem Bericht hinzufügen bzw. auf ihn anwenden. Sie können auch die <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> Reihenfolge (Optionen sind: Alphabetisch, Empfohlen, Häufig verwendet, Kürzlich verwendet). Darüber hinaus können Sie nach Report Suites filtern, um nur Metriken anzuzeigen, die in einer bestimmten Report Suite erstellt wurden. </p> <p>Um auf diese Metrikauswahl zuzugreifen, klicken Sie auf das Metriksymbol <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> auf der linken Seite eines Berichts. Die Metrikauswahl sieht wie folgt aus: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API für berechnete Metriken</a> </td> 

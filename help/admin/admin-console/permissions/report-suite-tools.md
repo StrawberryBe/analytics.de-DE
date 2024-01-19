@@ -3,10 +3,10 @@ title: Produktprofil-Berechtigungen für Report Suite-Werkzeuge in Adobe Admin C
 description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report Suite-Werkzeuge vertraut.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 94%
+source-wordcount: '540'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,6 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | [!UICONTROL Kontozusammenfassung] | Gewährt Zugriff auf „Allgemein > Allgemeine Kontoeinstellungen“ im Report Suite Manager. |
 | [!UICONTROL Advertising Analytics-Konfiguration] | Ermöglicht Benutzern die Konfiguration von Report Suites, die für Advertising Analytics bereitgestellt werden sollen. |
 | [!UICONTROL Anomalieerkennung] | Gewährt Zugriff auf die Anomalieerkennung bei Analysis Workspace. |
-| [!UICONTROL Bot-Seiten] | Gewährt Zugriff auf den Bericht „Bot-Seiten“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
-| [!UICONTROL Bots] | Gewährt Zugriff auf den Bericht „Bots“ unter „Site-Metriken > Bots“ in Reports &amp; Analytics. |
-| [!UICONTROL Kanalbericht] | Gewährt Zugriff auf den Kanalübersichtsbericht unter „Marketing-Kanäle“ in Reports &amp; Analytics. |
 | [!UICONTROL Kanäle] | Gewährt Zugriff auf „Marketing-Kanäle“, einschließlich „Marketingkanal-Manager“, „Marketingkanal-Verarbeitungsregeln“ und „Marketingkanalablauf“ im Report Suite Manager. |
 | [!UICONTROL Klassifizierungen] | Gewährt Zugriff auf alle Classification-Einstellungen in Report Suite Manager. Dieses Berechtigungselement umfasst: <br>Traffic > Traffic-Klassifizierungen<br>Konversion > Konversionsklassifizierungen<br>Konversion > Klassifizierungshierarchien<br>Marketing-Kanäle > Marketingkanal-Klassifikationen<br>App-Verwaltung > App-Klassifizierungen<br>Medienverwaltung > Medienklassifizierungen<br>AEM > AEM Assets-Klassifizierungen<br>Adobe Campaign > Adobe-Klassifizierungen |
 | [!UICONTROL Kosten] | Gewährt Zugriff auf „Marketing-Kanäle > Marketingkanal-Kosten“ im Report Suite Manager. |
@@ -38,12 +35,9 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | [!UICONTROL Suchmethoden] | Gewährt Zugriff auf „Konversion > Suchmethoden“ im Report Suite Manager. |
 | [!UICONTROL Listenvariablen] | Gewährt Zugriff auf „Konversion > Listenvariablen“ im Report Suite Manager. |
 | [!UICONTROL Menüanpassung] | Gewährt Zugriff auf „Allgemein > Menüs benutzerspezifisch einstellen“ im Report Suite Manager. |
-| [!UICONTROL Meine empfohlenen Berichte] | Gewährt Zugriff auf „Site-Metriken > Meine empfohlenen Berichte“ in Reports &amp; Analytics. |
 | [!UICONTROL Paid Search] | Gewährt Zugriff auf „Allgemein > Erkennung von Paid Search“ im Report Suite Manager. |
 | [!UICONTROL Verarbeitungsregeln] | Gewährt Zugriff auf „Allgemein > Verarbeitungsregeln“ und „Allgemein > Bot-Regeln“ im Report Suite Manager. |
-| [!UICONTROL Echtzeitbericht] | Gewährt Zugriff auf „Site-Metriken > Echtzeit“ in Reports &amp; Analytics. Verwenden Sie das Berechtigungselement „Konfiguration für Echtzeitberichte“, um Zugriff für die Einrichtung dieses Berichts zu gewähren. |
 | [!UICONTROL Konfiguration von Echtzeitberichten] | Gewährt Zugriff auf „Echtzeit“ im Report Suite Manager. Verwenden Sie das Berechtigungselement „Echtzeitbericht“, um Zugriff auf den Bericht selbst zu gewähren. |
-| [!UICONTROL Rückkehrende Besucher] | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher“ in Reports &amp; Analytics. |
 | [!UICONTROL Berichterstellung für Activity Manager-Administratoren] | Nicht verwendet. |
 | [!UICONTROL Zugriff auf Reporting Activity Manager] | Nicht verwendet. |
 | [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf Report Suite Manager, erlaubt jedoch keine Änderungen. |

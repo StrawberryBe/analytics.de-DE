@@ -4,10 +4,10 @@ title: Berechnete Metriken
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 84%
+source-wordcount: '399'
+ht-degree: 83%
 
 ---
 
@@ -36,9 +36,9 @@ Folgende Filter stehen zur Verfügung:
 | Filtername | Beschreibung |
 |---|---|
 | Tags | Filtert berechnete Metriken mit bestimmten Tags. Beachten Sie, dass Tagfilter mit dem Operator AND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Metriken angezeigt, die mit **beiden** Tags versehen wurden. |
-| Report Suites | Wenn Sie im Generator für berechnete Metriken in [!DNL Reports & Analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL Report Builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur die berechneten Metriken für die ausgewählte Report Suite an. |
+| Report Suites | Wenn Sie im Generator für berechnete Metriken in [!DNL Adobe Analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL Report Builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur die berechneten Metriken für die ausgewählte Report Suite an. |
 | Inhaber | Filtert berechnete Metriken nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator OR arbeiten. Wenn Sie zwei Inhaber aktivieren, werden im rechten Fenster Metriken angezeigt, die **beiden** Inhabern gehören. |
-| Weitere Filter > Genehmigt | Zeigt alle offiziell  genehmigten Metriken an. |
+| Weitere Filter > Genehmigt | Zeigt alle offiziell genehmigten Metriken an. |
 | Weitere Filter > Favoriten | Zeigt alle Metriken an, die Sie als Favoriten markiert haben. |
 | Weitere Filter > Meine | Zeigt alle Metriken an, deren Inhaber Sie sind. |
 | Weitere Filter > Für mich freigegeben | Zeigt alle Metriken an, die für Sie freigegeben wurden. |

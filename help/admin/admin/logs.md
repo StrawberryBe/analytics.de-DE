@@ -3,9 +3,9 @@ description: Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben
 title: Protokolle
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '587'
 ht-degree: 67%
 
 ---
@@ -18,7 +18,7 @@ Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt
 
 ## Admin-Protokoll {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
-Das Admin-Protokoll enthält alle Änderungen, die von Administratoren in den Admin-Tools vorgenommen wurden. Das Protokoll bietet ein Gateway zu benutzerdefinierten Berichten aus jedem der drei Protokolle. Sie können nach Ereignissen suchen, die Ihre Kriterien in einem bestimmten Datumsbereich erfüllen.
+Das Admin-Protokoll enthält alle Änderungen, die von Administratoren in den Admin-Tools vorgenommen wurden. Das Protokoll ermöglicht die Erstellung benutzerdefinierter Berichte aus einem der drei Protokolle. Sie können nach Ereignissen suchen, die Ihre Kriterien in einem bestimmten Datumsbereich erfüllen.
 
 ## Nutzungs- und Zugriffsprotokoll  {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
@@ -30,7 +30,7 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Anmelden | Filtern Sie das Protokoll nach dem Benutzernamen. |
 | IP | Filtern Sie das Protokoll nach der IP-Adresse. |
 | Report Suite | Filtern Sie das Protokoll nach einer bestimmten Report Suite-ID. |
-| Ereignistyp | Filtern Sie das Protokoll nach Ereignistyp. Wählen Sie einen Ereignistyp aus der Dropdownliste aus. Siehe die vollständige Liste der Ereignistypen unten. |
+| Ereignistyp | Filtern Sie das Protokoll nach Ereignistyp. Wählen Sie in der Dropdown-Liste einen Ereignistyp aus. Siehe die vollständige Liste der Ereignistypen unten. |
 | Ereignis- | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
 | Bericht herunterladen | Exportiert den Inhalt des [!UICONTROL Nutzungs- und Zugriffsprotokolls] in eine durch Tabulatoren getrennte Datei. |
 
@@ -43,14 +43,12 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Anmeldung erfolgreich | Benutzer hat sich erfolgreich angemeldet. |
 | Administratoraktion | Es kam zu einer Administratoraktion, z. B. zum Bearbeiten einer Report Suite, zum Ändern der Unternehmenseinstellungen, zum Erstellen eines Benutzers, zum Abbrechen einer Reporting-Anforderung usw. |
 | Änderung der Sicherheitseinstellung | Eine Sicherheitseinstellung wurde geändert. |
-| Angezeigte Berichte | Ein Reports &amp; Analytics-Bericht wurde angezeigt. |
-| Bericht heruntergeladen | Ein Reports &amp; Analytics-Bericht wurde heruntergeladen. |
 | Warnhinweis gesendet | Es wurde ein Warnhinweis gesendet. |
 | Benutzeraktion | Die Benutzerinformationen wurden bearbeitet. |
 | Tool angezeigt | Ein Tool wurde angezeigt. |
 | Omniture-Aktion | Eine Aktion wurde von Adobe durchgeführt. |
 | Kennwortwiederherstellung | Ein Passwort wurde wiederhergestellt. |
-| BookMarks | Ein Lesezeichen wurde verwaltet. |
+| Lesezeichen | Ein Lesezeichen wurde verwaltet. |
 | Dashboards | Ein Dashboard wurde verwaltet. |
 | Warnhinweise | Ein Warnhinweis wurde verwaltet. |
 | Kalenderereignisse | Ein Kalenderereignis wurde verwaltet. |
@@ -61,7 +59,7 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Seiten benennen | Nicht mehr verwendet |
 | Klassifizierungen | Eine Classification wurde verwaltet. |
 | Datenquellen | Eine Datenquelle wurde verwaltet. |
-| Analysis Workspace-Projekt | Ein Workspace-Projekt wurde angezeigt oder bearbeitet. |
+| Workspace-Projekt | Ein Workspace-Projekt wurde angezeigt oder bearbeitet. |
 | Segment | Ein Segment wurde erstellt/bearbeitet. |
 | Berechnete Metrik | Eine berechnete Metrik wurde erstellt/bearbeitet. |
 | Datumsbereich | Ein Datumsbereich wurde erstellt/bearbeitet. |

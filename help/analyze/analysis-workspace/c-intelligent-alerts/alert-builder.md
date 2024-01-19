@@ -1,12 +1,12 @@
 ---
 description: Lassen Sie sich Warnhinweise anzeigen, wenn Projektkomponenten bestimmte Schwellenwerte erreichen.
-title: Warnhinweiserstellung (Analysis Workspace)
+title: Alert Builder (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 99%
 
 ---
@@ -23,10 +23,9 @@ Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Indem Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
 * Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
-* Indem Sie in einem Reports &amp; Analytics-Bericht zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
 
 ## Warnhinweise erstellen
 
@@ -70,7 +69,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 * Ziehen Sie Metriken per Drag &amp; Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
 
-   Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
+  Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
 * Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
 
    * Anomalie vorhanden
@@ -81,7 +80,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
    * ändert sich um
    * Sie können einen Schwellenwert von 90 %, 95 %, 99 %, 99,75 % und 99,9 % festlegen.
 
-   Beachten Sie, dass Sie auch berechnete Metriken verwenden können.
+  Beachten Sie, dass Sie auch berechnete Metriken verwenden können.
 
 *... Mit diesen Filtern*
 

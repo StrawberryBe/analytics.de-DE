@@ -5,10 +5,10 @@ uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 feature: API
 role: Developer
 exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ Die Dokumentation zu den Adobe Analytics-APIs finden Sie unter [Adobe Developer]
 | **Beschreibung** | Vollständig verarbeitete, finale Daten, die für alle Analytics-Schnittstellen zur Verfügung stehen. | Teilweise verarbeitete, beschränkte Metriken, die innerhalb von Sekunden nach der Erfassung verfügbar sind. | Teilweise verarbeitete Trefferdaten, die innerhalb von Sekunden nach der Erfassung verfügbar sind. | Vollständig verarbeitete, finale Daten, die als Grundlage für umfangreiche Datenexporte dienen. |
 | [**Latenz**](/help/technotes/latency.md) | 30–90 Minuten | Sekunden – 10 Minuten | Sekunden – 10 Minuten | 90 Minuten oder mehr |
 | **Abschluss der Verarbeitung** | „Voll“ | Teilweise | Teilweise | „Voll“ |
-| **Berichtsschnittstellen** | Analysis Workspace, Reports &amp; Analytics, Report Builder, API | Echtzeitberichte in Reports &amp; Analytics, Report Builder, 1.4 API | Nur API | Data Warehouse-API |
+| **Berichtsschnittstellen** | Analysis Workspace, Report Builder, API | Echtzeitbericht in Report Builder, 1.4-API | Nur API | Data Warehouse-API |
 | **Datengranularität** | Zusammenfassung | Zusammenfassung | Trefferebene | Zusammenfassung |
 | **Verarbeitung von Besucherprofilen** | Ja | Nein | Nein | Ja |
 | **Segmentunterstützung** | Ja | Nein | Nein | Teilweise |

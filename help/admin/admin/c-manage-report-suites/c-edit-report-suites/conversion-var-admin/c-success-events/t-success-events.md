@@ -4,9 +4,9 @@ title: Konfigurieren von Erfolgsereignissen
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ So konfigurieren Sie Erfolgsereignisse:
 
    | Einstellung | Sichtbar in | Nicht sichtbar in |
    |---------|----------|---------|
-   | [!UICONTROL **Überall eingeblendet**] | <ul><li>Reports &amp; Analytics (Menü und Metrikauswahl)</li><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
-   | [!UICONTROL **Builder**] | <ul><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | <ul><li>Reports &amp; Analytics (Menü und Metrikauswahl)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Überall ausgeblendet**] | nicht angegeben | <ul><li>Reports &amp; Analytics (Menü und Metrikauswahl)</li><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
+   | [!UICONTROL **Überall eingeblendet**] | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
+   | [!UICONTROL **Builder**] | <ul><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Überall ausgeblendet**] | Nicht angegeben | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
 
 1. Geben Sie eine Beschreibung ein.
 1. Legen Sie fest, ob das Ereignis immer aufgezeichnet werden soll.

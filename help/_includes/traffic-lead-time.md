@@ -3,20 +3,16 @@ description: Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung
 title: Erforderliche Vorlaufzeit für Traffic-Zunahme
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # Erforderliche Vorlaufzeit für Traffic-Zunahme
 
-## Erforderliche Vorlaufzeit für Traffic-Zunahme
-
 Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Die Hardware muss vorab zugeordnet werden, um Latenz sowie mögliche negative Auswirkungen auf das gesamte System zu minimieren.
-
-Die Zuordnung von Hardware wird durch Warnhinweise gesteuert, die über die Benutzeroberfläche für Reports &amp; Analytics übermittelt werden.
 
 >[!IMPORTANT]
 >
@@ -24,7 +20,7 @@ Die Zuordnung von Hardware wird durch Warnhinweise gesteuert, die über die Benu
 
 Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Verkehrswarnhinweis übermitteln müssen:
 
-### Vorlaufzeiten Hardware-Zuordnung
+## Vorlaufzeiten Hardware-Zuordnung
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -65,6 +61,6 @@ Was Sie außerdem noch beachten müssen:
 
 * Client-Warnhinweise werden auch benötigt, wenn der Datenverkehr nachlässt oder eine Report Suite veraltet ist.
 
-### Aufhebung der Hardware-Zuordnung aufgrund von nicht realisiertem Traffic
+## Aufhebung der Hardware-Zuordnung aufgrund von nicht realisiertem Traffic
 
 Die Hardware-Zuordnungen bei neuen Konten, Traffic-Spitzen und Traffic-Zunahmen werden aufgehoben, wenn sich die Traffic-Prognose im Client-Warnhinweis nicht binnen vier Wochen ab „Aufschaltdatum“ einstellt. Wenn der Traffic nach wie vor erwartet wird, muss ein neuer Client-Warnhinweis für eine Traffic-Zunahme erstellt werden.

@@ -3,10 +3,10 @@ description: Das neue System für intelligente Warnhinweise erlaubt eine feiner 
 title: Intelligente Warnhinweise
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Mithilfe intelligenter Warnhinweise können Sie
 
 Das neue Warnhinweissystem enthält die folgenden Komponenten: Warnhinweiserstellung, Warnhinweis-Manager, Warnhinweisvorschau. Es bietet darüber hinaus einen besseren kontextbezogenen Zugang zur Erstellung von Warnhinweisen. Die Benutzeroberfläche für das alte Warnhinweissystem wird nicht mehr zur Verfügung stehen, die Warnhinweise werden jedoch migriert. Einige alte Warnhinweisfunktionen [werden nicht mehr zur Verfügung stehen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=de).
 
-Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
+Es gibt drei Möglichkeiten, zur Warnhinweiserstellung zu gelangen:
 
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
@@ -43,13 +43,10 @@ Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
   ![](assets/create-alert-from-selection.png)
 
-* Indem Sie von einem [!UICONTROL Reports &amp; Analytics]-Bericht aus zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren. Dadurch wird die neue Warnhinweiserstellung geöffnet, und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden automatisch eingetragen sein. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
-  ![](assets/add-alert.png)
+## FAQ: Wie werden Warnhinweise berechnet und ausgelöst? {#trigger}
 
-## FAQ: Wie werden Warnhinweise berechnet und ausgelöst? {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
-
-Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität  [werden verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
+Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Abhängig von der ausgewählten Zeitgranularität [verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) werden verwendet, um zu berechnen, wie weit (wie viele Standardabweichungen) jeder Datenpunkt von der Norm entfernt ist. Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
