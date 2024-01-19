@@ -3,10 +3,10 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 97%
 
 ---
 
@@ -24,28 +24,9 @@ In diesem Video werden verschiedene Adobe Analytics-Tools verglichen:
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** sollte die bevorzugte Benutzeroberfläche für alle Berichts- und Analyseaufgaben sein. Adobe investiert weiterhin in dieses Produkt und gibt monatlich Updates dafür heraus. Können Sie eine Aufgabe nicht mit Analysis Workspace durchführen, versuchen Sie eine der unten stehenden Oberflächen.**
 
-**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** sollte verwendet werden:
+**[Report Builder](/help/analyze/report-builder/home.md)** ist ein Add-in für Microsoft Excel. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die Sie in Excel-Arbeitsblätter einfügen können. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen.
 
-* Von Einsteigern, die auf eine vorkonfigurierte Berichterstellung zugreifen müssen, in der einfacher navigiert werden kann.
-* Für den Zugriff auf Echtzeitdaten in der Benutzeroberfläche
-* Zum Einrichten von Kalenderereignissen
-* Zum Einrichten von Zielen
-* Für den Zugriff auf eindeutige Videovisualisierungen von Videotagesabschnitten und Zuschauerrückgängen.
-
->[!IMPORTANT]
->
->Adobe beabsichtigt, Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **31. Dezember 2023** einzustellen. Ab diesem Zeitpunkt werden Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr funktionieren. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
-
-Es sollte **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=de)** verwendet werden:
-
-* Für prädiktive statistische Modellierung (Tendenzauswertung, Clustering, Korrelationen usw.).
-* Für die Latenzanalyse (Zeit vor/seit einem Ereignis).
-* Für die Identifikation und den Export komplexer Segmente in Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Erfahren Sie mehr über die [Mitteilung zum Ende der Nutzungsdauer](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=de) von Data Workbench.
-
+**[Adobe Analytics-Dashboards](/help/analyze/mobile-app/home.md)** ermöglicht Benutzern auf Mobilgeräten den Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
 
 ## Importieren von Daten in Adobe Analytics {#import}
 
@@ -93,7 +74,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 **[Report Builder](/help/analyze/report-builder/home.md)** sollte verwendet werden:
 
 * Wenn die individuellen Layoutoptionen von Workspace zu sehr einschränken (in Report Builder sind sämtliche Optionen möglich, die Excel bietet).
-* Zur lockeren Verknüpfung von Benutzereingaben oder Offline-Datenquellen (Impressionen, Kosten) mit Adobe-Daten. Eine dauerhaftere Lösung für das Einbinden von Daten ist Data Sources (siehe „Importieren von Daten in Analytics“).
+* Zur lockeren Verknüpfung von Benutzereingaben oder Offline-Datenquellen (Impressionen, Kosten) mit Adobe-Daten. Eine dauerhaftere Lösung für die Verknüpfung von Daten ist Data Sources (siehe Importieren von Daten in Analytics).
 * Zum Zusammenführen von Daten aus verschiedenen dimensionalen Berichten (z. B. Kombination eines Berichts über Promo-Impressionen mit einem Bericht über den Klick-zu-Konversion-Verlauf bei einer Promo).
 * Zum Zusammenführen von Daten aus verschiedenen Report Suites, entweder durch Zusammenfassen oder durch paralleles Anzeigen in derselben Tabelle.
 * Wenn bei der Planung Automatisierung gewünscht wird (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).

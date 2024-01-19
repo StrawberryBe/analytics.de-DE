@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '970'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 Sie können Arbeitsmappen planen, erweiterte Bereitstellungsoptionen festlegen, Empfänger definieren und sich frühere Zeitpläne ansehen. Erweiterte Bereitstellungsoptionen ermöglichen die Konfigurierung von Arbeitsmappen, die Sie zu einem bestimmten Zeitpunkt oder in regelmäßigen Abständen senden möchten. Sie können außerdem das Dateiformat der Arbeitsmappe festlegen.
 
 Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen so planen, dass sie umgehend oder in regelmäßigen Zeitintervallen gesendet werden, und das Dateiformat angeben. Die Dateigröße ist für einen Arbeitsmappen-Upload auf 5 MB begrenzt.
-
-Nachdem Sie einen Arbeitsmappen-Zeitplan in Report Builder erstellt haben, können Sie den Plan auch unter **[!UICONTROL Analysen]** > **[!UICONTROL Berichte]** anzeigen und bearbeiten. (Siehe [Berichtsplanung und -verteilung](/help/analyze/reports-analytics/scheduling.md) in der Hilfe zu Reports &amp; Analytics.)
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ Nachdem Sie einen Arbeitsmappen-Zeitplan in Report Builder erstellt haben, könn
 1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Plan]**.
 
    Die Registerkarte [!UICONTROL Terminierte Berichte] enthält eine Zusammenfassung aller von Ihnen erstellten Aufgaben sowie die Anzahl der verbleibenden Aufgaben.
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Terminierte Berichte]** auf **[!UICONTROL Neu]**. Der grundlegende Planungs-Assistent zeigt die Optionen an, die zur Definition des terminierten Berichts verwendet werden.
+1. Im **[!UICONTROL Terminierte Berichte]** Registerkarte, klicken **[!UICONTROL Neu]**. Der grundlegende Planungs-Assistent zeigt die Optionen an, die zur Definition des terminierten Berichts verwendet werden.
 
    ![Screenshot mit dem grundlegenden Planungsassistenten.](assets/simple-schedule-wizard.png)
 

@@ -3,10 +3,10 @@ description: Beschreibt, wie Sie Zielwährungs-Codes definieren, damit die Unter
 title: Unterstützung mehrerer Währungen
 feature: Analytics Basics
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 10%
+source-wordcount: '124'
+ht-degree: 16%
 
 ---
 
@@ -22,8 +22,3 @@ Sie können die [`currencyCode`](/help/implement/vars/config-vars/currencycode.m
 
 Jede Report Suite verfügt über eine **Basiswährung**. Diese Währung bestimmt den Kontext aller Währungsmetriken (z. B. [Umsatz](/help/components/metrics/revenue.md)). Alle gespeicherten Währungsdaten befinden sich in der Basiswährung der Report Suite.
 
-## Benutzerebene
-
-Für Reports &amp; Analytics können Benutzer unter eine andere Währung als die Basiswährung der Report Suite festlegen. [Berichtseinstellungen](/help/analyze/reports-analytics/report-settings.md). Diese Einstellung ist zerstörungsfrei, d. h., die zugrunde liegenden Daten werden nicht geändert. Stattdessen wird die grundlegende Währungsumrechnung auf alle angezeigten Berichte angewendet, die auf dem aktuellen Wechselkurs basieren. Wenn Sie denselben Bericht an unterschiedlichen Tagen anzeigen, können sich die Zahlen aufgrund unterschiedlicher Tageswechselkurse ändern.
-
-Analysis Workspace bietet derzeit keine Währungsumrechnung auf Benutzerebene an.

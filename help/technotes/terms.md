@@ -3,9 +3,9 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Kontextdatenvariablen:** temporäre Variablen, die ausschließlich in Verarbeitungsregeln verwendet werden. Die Werte der Kontextdatenvariablen gehen dauerhaft verloren, wenn eine Verarbeitungsregel sie nicht in eine Konversions- oder Traffic-Variable kopiert. Siehe [Kontextdatenvariablen](../implement/vars/page-vars/contextdata.md) im Benutzerhandbuch zu Implementierungen.
 * **Konversionsvariable:** Auch als „eVars“ bezeichnet. Speichert einen benutzerspezifischen Wert und behält den Variablenwert bei, bis er abläuft. Weitere Informationen finden Sie unter der Dimension [eVar](/help/components/dimensions/evar.md) im Komponenten-Benutzerhandbuch.
 * **Korrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen aufgeschlüsselt. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.
-* **Aktuelle Daten:** eine Option in einigen Berichten, mit der kürzlich gesammelte Daten, die noch nicht vollständig verarbeitet wurden, aufgenommen werden können. Siehe [Aktuelle Daten](/help/analyze/reports-analytics/current-data.md) im Benutzerhandbuch zu Analysen.
 * **Benutzerspezifischer Link:** ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen. Siehe auch „Treffer“.
 * **Kundenattribute:** eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de) im Benutzerhandbuch zu zentralen Diensten.
 * **Support-Beauftragter:** ein bestimmter Anwender, der zur direkten Interaktion mit der Adobe-Kundenunterstützung bestimmt ist. Siehe [Support-Beauftragte](https://helpx.adobe.com/de/experience-cloud/supported-users.html) in der Experience Cloud-Wissensdatenbank.
