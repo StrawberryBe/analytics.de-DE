@@ -3,10 +3,10 @@ description: Entdecken Sie in diesem detaillierten Leitfaden, was Sie alles mit 
 title: Ein Leitfaden zu Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing
 >
 >Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.
 
-Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Neu: [Paid Search-Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)-Vorlage in Analysis Workspace vereinfacht die Analyse.
+Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Eine neue [Paid Search-Leistung](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) -Vorlage in Workspace vereinfacht diese Analyse.
 
 ![](assets/aa_aw.png)
 
@@ -70,7 +70,7 @@ Analytics umfasst zwei Berechtigungen, die Analytics-Administratoren automatisch
 
 ## Advertising Analytics-Dimensionen und -Metriken {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics fügt folgende Dimensionen und Metriken zu Analysis Workspace, Reports &amp; Analytics, Report Builder und Analytics-Reporting-API hinzu.
+Advertising Analytics fügt die folgenden Dimensionen und Metriken zu Analysis Workspace, Report Builder und der Analytics Reporting-API hinzu.
 
 **Dimensionen**
 

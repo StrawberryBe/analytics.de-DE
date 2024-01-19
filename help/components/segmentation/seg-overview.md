@@ -3,10 +3,10 @@ description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen ode
 title: Informationen zu Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 70%
+source-wordcount: '1148'
+ht-degree: 67%
 
 ---
 
@@ -16,9 +16,9 @@ Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Int
 
 Segmente basieren auf einer [!UICONTROL Besucher], [!UICONTROL Besuch], und [!UICONTROL Treffer] Hierarchie der Ebene mit einem verschachtelten Behältermodell. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
-Sie können Segmente im Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in  Analysis Workspace) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
+Sie können Segmente im Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in  Analysis Workspace) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-Segmente identifizieren
+Identifizierung von Segmenten
 
 - wer Ihre Besucher sind (Land, Geschlecht, Café),
 - welche Geräte und Dienste sie verwenden (Browser, Suchmaschine, Mobilgerät),
@@ -282,7 +282,7 @@ Administratoren können alle Segmente bearbeiten und Segmente für Gruppen und a
 
 +++ **Kann ich alle in meinem Unternehmen vorhandenen Segmente sehen?**
 
-Ja, Administratoren können alle Segmente innerhalb der Benutzeroberflächen von [!DNL Analysis Workspace] und [!DNL Reports & Analytics] sehen.
+Ja, Administratoren können alle Segmente innerhalb der [!DNL Analysis Workspace] -Benutzeroberfläche.
 
 Report Builder zeigt Segmente an, deren Inhaber Sie sind, sowie Segmente, die für Sie freigegeben wurden.
 
@@ -292,7 +292,7 @@ Report Builder zeigt Segmente an, deren Inhaber Sie sind, sowie Segmente, die f�
 
 Ja, alle Segmente können in Segment Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
 
-Administratoren können alle Segmente innerhalb der Benutzeroberflächen von Analysis Workspace und [!DNL Reports & Analytics] sehen.
+Administratoren können alle Segmente in der Benutzeroberfläche von Analysis Workspace anzeigen.
 
 Report Builder zeigt nur von Ihnen erstellte Segmente oder Segmente, die für Sie freigegeben wurden, an.
 

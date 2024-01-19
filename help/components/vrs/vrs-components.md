@@ -3,10 +3,10 @@ description: Virtual Report Suites können so zusammengestellt werden, dass Komp
 title: Kuratierung von Komponenten der Virtual Report Suite
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Hier finden Sie ein Video zur Kuratierung von Komponenten:
 
 >[!NOTE]
 >
->Es wurden Änderungen daran vorgenommen, welche Komponenten Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites sehen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](/help/analyze/analysis-workspace/curate-share/curate.md) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
+>Die Änderungen betreffen die Komponenten, die Admins und Benutzende ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites anzeigen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](/help/analyze/analysis-workspace/curate-share/curate.md) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
 
 So ermöglichen Sie die Kuratierung von Komponenten:
 
@@ -35,7 +35,6 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    >
    >Bei Aktivierung der Komponentenanpassung ist die Virtual Report Suite **nur über Analysis Workspace** zugänglich, nicht aber über Folgendes:
    >
-   >* [!UICONTROL Reports &amp; Analytics]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]

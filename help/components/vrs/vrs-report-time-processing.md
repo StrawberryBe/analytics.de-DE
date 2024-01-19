@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 3be3de8c24e48f5ecddd37ff6d3cbcf64bca3209
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 74%
+source-wordcount: '1318'
+ht-degree: 69%
 
 ---
 
@@ -46,7 +46,7 @@ Im Folgenden finden Sie ein Video zum Starten eines neuen Besuchs mit einem Erei
 
 ## Einschränkungen bei der Berichtszeitverarbeitung
 
-Die Berichtszeitverarbeitung unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Auf Virtual Report Suites mit Berichtszeitverarbeitung können Sie nur über Analysis Workspace zugreifen, nicht aber über [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Daten-Feeds oder der Reporting-API.
+Die Berichtszeitverarbeitung unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Virtual Report Suites, die die Berichtszeitverarbeitung verwenden, stehen nur in Analysis Workspace zur Verfügung und können nicht über Data Warehouse, Report Builder, Daten-Feeds oder die Reporting-API aufgerufen werden.
 
 Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus dem Datumsbereich der Berichterstellung stammen (nachfolgend als „Datumsfenster“ bezeichnet). Demnach bleiben auf „laufen nie ab“ festgelegte eVar-Werte für einen Besucher vor dem Datumsbereich der Berichterstellung in den Berichterstellungsfenstern nicht erhalten, und sie erscheinen nicht in Berichten. Das heißt auch, dass Kundenloyalitätsmessungen ausschließlich auf den im Berichterstellungsdatumsbereich vorhandenen Daten und nicht auf dem gesamten Verlauf vor dem Berichterstellungsdatumsbereich basieren.
 
@@ -60,12 +60,12 @@ Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung n
 * [**Tage seit dem letzten Besuch**](/help/components/dimensions/days-since-last-visit.md)
 * **Ursprüngliche Entrypage**
 * **eVars für die lineare Zuordnung**
-* **Listen-Vars**
+* **Listenvariablen**
 * [**Marketing-Kanal-Dimensionen**](/help/components/dimensions/marketing-channel.md)
-* [**Ursprüngliche Referrer-Domäne**](/help/components/dimensions/original-referring-domain.md)
+* [**Ursprünglich verweisende Domäne**](/help/components/dimensions/original-referring-domain.md)
 * [**Rückkehrhäufigkeit**](/help/components/dimensions/return-frequency.md)
 * [**Einzelzugriff**](/help/components/metrics/single-access.md)
-* **Transaktions-ID-Datenquellen**
+* **Transaktions-ID-Data Sources**
 * [**Besuchsnummer**](/help/components/dimensions/visit-number.md)
 
 ## Betroffene Dimensionen und Metriken

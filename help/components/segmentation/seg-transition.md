@@ -1,16 +1,16 @@
 ---
 description: Häufig gestellte Fragen zur Verwaltung von Legacy-Segmenten.
-title: Häufig gestellte Fragen zu veralteten Segmenten
+title: Häufig gestellte Fragen zu älteren Segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 88%
 
 ---
 
-# Häufig gestellte Fragen zu veralteten Segmenten
+# Häufig gestellte Fragen zu älteren Segmenten
 
 Beantwortet häufige Fragen zu Best Practices für die Verwaltung älterer Segmente - Segmente, die vor 2014 erstellt wurden.
 
@@ -20,7 +20,7 @@ Beantwortet häufige Fragen zu Best Practices für die Verwaltung älterer Segme
 
 Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt. [Mehr …](/help/components/segmentation/seg-transition.md)
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als  Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorlagen in den Segment Builder migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet:
 
@@ -44,7 +44,7 @@ Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ 
 
 +++ **Was ist mit Data Warehouse-Segmenten passiert?**
 
-Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten, z. B. Analysis Workspace und Reports &amp; Analytics.
+Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten wie Analysis Workspace.
 
 Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erstellen oder bearbeiten. Durch den Produktkompatibilitätsmechanismus wird im Segment Builder automatisch ermittelt, ob ein Segment mit Data Warehouse kompatibel ist.
 
@@ -104,7 +104,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente unter Einhaltung der  [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Taggen Sie Segmente gemäß [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -145,7 +145,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
 | Besuchstiefe | Path Length | – |
 | Postleitzahl | Postleitzahl | – |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Änderungen an auf Zeichenketten basierenden Dimensionen, die bekannte Werte besitzen {#string-based-dims}
 

@@ -3,10 +3,10 @@ description: Mit dem Importeur können Sie Classification-Daten in großen Menge
 title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 96%
 
 ---
 
@@ -29,16 +29,16 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Der Wert von Classifications darf nicht 0 (null) sein.
 * Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 * Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
-* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß    [maskiert wurde](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
+* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, sofern das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [escaped](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   Das Komma ist kein Sonderzeichen.
+  Das Komma ist kein Sonderzeichen.
 
 * Classifications können kein Caret (^) enthalten, da mit diesem Zeichen eine Unter-Classification gekennzeichnet wird.
 * Vorsicht bei der Verwendung von Bindestrichen. Wenn Sie beispielsweise einen Bindestrich (-) in einem sozialem Begriff verwenden, erkennt Social ihn als [!DNL Not]-Operator (Minuszeichen). Wenn Sie beispielsweise mit dem Import *`fragrance-free`* als Begriff angeben, interpretiert Social den Begriff folgendermaßen: Parfüm *`minus`* frei. Dadurch werden Wortlaute mit den Begriffen *`fragrance`*, jedoch nicht *`free`* erfasst.
@@ -94,7 +94,6 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 >
 >* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html)
 
-
 ## Format der Spaltenüberschrift
 
 >[!NOTE]
@@ -109,11 +108,9 @@ Jeder Wert muss innerhalb des Systems eindeutig sein. Der Wert in diesem Feld en
 
 ### Überschrift einer Klassifizierungsspalte
 
-Beispiel: Ihre Implementierung von Reports &amp; Analytics enthält automatisch zwei Klassifizierungen für [!UICONTROL Kampagne] Variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
-
 >[!NOTE]
 >
->Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn der Administrator beispielsweise im [!UICONTROL Campaign Set-up Manager] [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] ändert, muss dies ebenfalls in die Spaltenüberschrift übernommen werden. &quot;Schlüssel&quot;ist ein reservierter Classification-Wert (Kopfzeile). Neue Klassifizierungen mit dem Namen &quot;Schlüssel&quot;werden nicht unterstützt.
+>Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn sich beispielsweise der Administrator ändert [!UICONTROL Kampagnen] nach [!UICONTROL Interne Kampagnennamen] im [!UICONTROL Campaign Set-up Manager]muss sich die Spaltenüberschrift der Datei so ändern, dass sie übereinstimmt. &quot;Schlüssel&quot;ist ein reservierter Classification-Wert (Kopfzeile). Neue Klassifizierungen mit dem Namen &quot;Schlüssel&quot;werden nicht unterstützt.
 
 Darüber hinaus unterstützt die Datendatei weitere Überschriftenkonventionen zur Kennzeichnung von Unter-Classifications und anderen spezialisierten Datenspalten:
 

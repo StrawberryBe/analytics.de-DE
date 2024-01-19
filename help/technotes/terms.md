@@ -3,9 +3,9 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2541'
 ht-degree: 97%
 
 ---
@@ -91,7 +91,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) im Administratorhandbuch.
 * **Report Builder:** Ein Add-in für Microsoft Excel, mit dem Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen können.
 * **Report Suite:** ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
-* **Reports &amp; Analytics:** Zuvor als „SiteCatalyst“ bezeichnet. Browserlösung zur Berichterstellung und Analyse. Starter-Tool im Analytics-Paket.
+* **Reports &amp; Analytics:** Zuvor als „SiteCatalyst“ bezeichnet. Browserlösung zur Berichterstellung und Analyse. Starter-Tool im Analytics-Paket. Dieses Tool wurde [Ende des Lebenszyklus](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
 * **Rollierender Datumsbereich:** ein Typ des relativen Datumsbereichs, der sich im Zeitverlauf ändert. Ein Bericht mit den letzten sieben Tagen kann beispielsweise als rollierender Datumsbereich betrachtet werden. Siehe auch „Statischer Datumsbereich“.
 * **RSID:** Abkürzung für Report Suite-ID. Eine Report Suite verfügt sowohl über einen benutzerfreundlichen Namen als auch über eine Report Suite-ID.
 * **s.t():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.track()`. Siehe [t](../implement/vars/functions/t-method.md) im Benutzerhandbuch zu Implementierungen.

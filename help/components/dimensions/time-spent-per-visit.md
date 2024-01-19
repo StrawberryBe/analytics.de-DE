@@ -3,16 +3,16 @@ title: Zeit pro Besuch (Dimensionen)
 description: Die Gesamtdauer des Besuchs.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 98%
+source-wordcount: '302'
+ht-degree: 91%
 
 ---
 
 # Zeit pro Besuch
 
-*[Auf dieser Hilfeseite wird beschrieben, wie „Zeit pro Besuch“ in ihren jeweiligen Dimensionen funktioniert](overview.md). Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie &quot;Zeit pro Besuch&quot;als ihre jeweiligen [Dimensionen](overview.md). Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
 
 Die Dimensionen „Zeit pro Besuch“ geben die Zeit an, die ein Besucher für den gesamten Besuch aufgewendet hat. Zur Berechnung werden die folgenden Schritte verwendet:
 
@@ -39,6 +39,6 @@ Diese Dimensionen sind bei allen Implementierungen vorkonfiguriert. Wenn eine Re
 Für die Zeit pro Besuch gibt es mehrere Dimensionen:
 
 * **Zeit pro Besuch – zusammengefasst**: Die Zeitdauer wird zusammengefasst. Dimensionselemente reichen von `"Less than 1 minute"` bis `"More than 15 hours"`. Besuche dauern in der Regel nicht länger als 12 Stunden. Besuche können jedoch 12 Stunden überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
-* **Zeit pro Besuch – präzise**: Jede Anzahl von Sekunden ist ein eindeutiges Dimensionselement. Diese Dimension steht in Reports &amp; Analytics oder Data Warehouse nicht zur Verfügung.
+* **Zeit pro Besuch – präzise**: Jede Anzahl von Sekunden ist ein eindeutiges Dimensionselement. Diese Dimension ist in Data Warehouse nicht verfügbar.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter [Besuchszeit – Übersicht](../metrics/time-spent.md).

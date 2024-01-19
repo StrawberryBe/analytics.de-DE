@@ -3,10 +3,10 @@ title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,7 @@ Diese Seite listet [Dimensionen](overview.md) unterstützt in ihren jeweiligen A
 >
 >Benutzerdefinierte Variablennamen, Klassifizierungen und Besucherattribute werden in dieser Liste weggelassen. Diese Dimensionselemente sind spezifisch für einzelne Report Suites.
 
->[!NOTE]
->
->Es gibt Überschneidungen, bei denen Analytics-Tools unterschiedliche Begriffe für ähnliche Dimensionen verwenden. Beispielsweise verwendet Reports &amp; Analytics `browserwidth`, während Analysis Workspace `browserwidthbucketed` verwendet.
-
-## Unterstützte Dimensionen sowohl in Reports &amp; Analytics als auch im Analysis Workspace
+## In Analysis Workspace unterstützte Dimensionen
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |---|---|
@@ -84,7 +80,7 @@ Diese Seite listet [Dimensionen](overview.md) unterstützt in ihren jeweiligen A
 | SC-TnT | `tntbase` |
 | Suchmaschine | `searchengine` |
 | Suchbegriff | `searchenginekeyword` |
-| Suchmaschine – kostenlos | `searchenginenatural` |
+| Suchmaschine - natürlich | `searchenginenatural` |
 | Suchmaschine – bezahlt | `searchenginepaid` |
 | Suchbegriff – kostenlos | `searchenginenaturalkeyword` |
 | Suchbegriff – bezahlt | `searchenginepaidkeyword` |
@@ -101,11 +97,6 @@ Diese Seite listet [Dimensionen](overview.md) unterstützt in ihren jeweiligen A
 | Besuchstiefe | `pathlength` |
 | Besuchsnummer | `visitnumber` |
 | Postleitzahl | `zip` |
-
-## Nur in Analysis Workspace unterstützte Dimensionen
-
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
-|--- |--- |
 | Vormittag/Nachmittag | `timepartampm` |
 | Browser-Höhe – zusammengefasst | `browserheightbucketed` |
 | Browser-Breite – zusammengefasst | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ Diese Seite listet [Dimensionen](overview.md) unterstützt in ihren jeweiligen A
 | Nielsen-Kanal-Asset | `nielsenchannelasset` |
 | Nielsen-Content-Typ | `nielsencontenttype` |
 
-## Dimensionen, die nur in Reports &amp; Analytics unterstützt werden
-
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
-|--- |--- |
-| Browser-Höhe | `browserheight` |
-| Browser-Breite | `browserwidth` |
-| Unique Customers pro Tag | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| JavaScript-Version | `javascriptversion` |
-| Unique Customers pro Monat | `monthlyuniquecustomers` |
-| Unique Customers pro Quartal | `quarterlyuniquecustomers` |
-| Zeitzonen | `timezone` |
-| Domänen auf oberster Ebene | `topleveldomain` |
-| Bundesland des Besuchers | `legacystate` |
-| Unique Customers pro Woche | `weeklyuniquecustomers` |
-| Unique Customers pro Jahr | `yearlyuniquecustomers` |
-
-## Inhaltsorientierte Dimensionen, die sowohl von Reports &amp; Analytics als auch vom Analysis Workspace unterstützt werden
+## Von Analysis Workspace unterstützte inhaltsorientierte Dimensionen
 
 ### Video (Media Analytics)
 

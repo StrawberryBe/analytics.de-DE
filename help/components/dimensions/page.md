@@ -3,9 +3,9 @@ title: Seite
 description: Der Name der Seite.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 94%
 
 ---
@@ -28,4 +28,4 @@ Zu den Dimensionselementen gehören die Namen der Seiten auf Ihrer Site. Ihr Unt
 
 >[!NOTE]
 >
->In Reports &amp; Analytics verwenden Konversionsmetriken die lineare Attribution für diese Dimension. Der Umsatz wird beispielsweise auf alle Seiten aufgeteilt, die bei einem Besuch vor einem `purchase`-Ereignis aufgerufen wurden. Analysis Workspace verwendet standardmäßig die letzte Attribution mit der Option, ein beliebiges Attributionsmodell zu verwenden.
+>Analysis Workspace verwendet standardmäßig die letzte Attribution mit der Option, ein beliebiges Attributionsmodell zu verwenden.

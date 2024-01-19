@@ -3,10 +3,10 @@ description: Informationen
 title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 75%
+source-wordcount: '383'
+ht-degree: 69%
 
 ---
 
@@ -46,9 +46,3 @@ Das folgende Beispiel zeigt, wie berechnete Metriken mit linearen Zuordnungen in
 
 In diesem Beispiel wurden die Werte A, B und C in eine Variable für die Treffer 1, 3, 4 und 6 gesendet, bevor ein Kauf in Höhe von 10 USD bei Treffer 7 getätigt wurde. In der zweiten Zeile werden dieses Werte bei Treffern auf Grundlage von Letztkontaktbesuchen gespeichert. In der dritten Zeile wird das Speichern auf Grundlage des Erstkontaktbesuchs dargestellt. Zu guter Letzt stellt die letzte Zeile dar, wie Daten aus einer Eigenschaft aufgezeichnet würden, bei denen kein Speichern vorgesehen ist.
 
-## Unterschiede in der Funktionsweise der linearen Zuordnung in Reports &amp; Analytics im Vergleich zu Workspace
-
-Es gibt einige Unterschiede in der Funktionsweise der linearen Attribution zwischen diesen beiden Tools:
-
-* In Reports &amp; Analytics ist die (verarbeitete) lineare Attribution immer besuchsbasiert, während sie in Workspace besuchs- oder besuchsbasiert sein kann.
-* Wenn in Reports &amp; Analytics beim ersten Treffer eines Besuchs kein Wert übergeben wurde, bleibt der (anfängliche) Wert des vorherigen Besuchs erhalten. Dies ist in Workspace NICHT der Fall (Attribution). Wenn beim ersten Treffer eines Besuchs kein Wert übergeben wird, ist „Keine“ der Ausgangswert.

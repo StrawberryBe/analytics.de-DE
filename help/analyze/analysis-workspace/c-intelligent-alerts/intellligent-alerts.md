@@ -4,10 +4,10 @@ title: Übersicht über intelligente Warnhinweise
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 83%
+source-wordcount: '320'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ Hier finden Sie ein Video-Tutorial zu [intelligenten Warnhinweisen](https://expe
 
 ## Überblick
 
-Die neuen Funktionen &quot;Warnhinweiserstellung&quot;und &quot;Warnhinweis-Manager&quot;in Analysis Workspace ersetzen die Warnhinweisfunktion in Reports &amp; Analytics, die eingestellt wurde. Mithilfe intelligenter Warnhinweise können Sie:
+Mithilfe intelligenter Warnhinweise können Sie:
 
 * Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%-, 99-%-, 99,75-%- und 99,9-%-Schwellen, Änderungen in %, darüber/darunter)
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird

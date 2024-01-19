@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Ja. Activity Map verwendet die [Datenspalten](/help/export/analytics-data-feed/c
 +++
 
 +++Funktionieren Segmente im Live-Modus?
-Nein, Segmente funktionieren nicht im Live-Modus. Die Funktionalität entspricht der von Echtzeit-Berichten in Reports &amp; Analytics, die keine Segmentierung unterstützen.
+Nein, Segmente funktionieren nicht im Livemodus.
 +++
 
 +++Ist Activity Map mit Virtual Report Suites kompatibel?
@@ -89,9 +89,9 @@ Sie haben drei Optionen:
 * Löschen der Funktion `AppMeasurement_Module_ActivityMap` aus der JS-Datei
 * Hinzufügen von benutzerspezifischem Code, der die obige Funktion mit einem leeren Text umschreibt, z. B.:
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
 * Konfigurieren von AppMeasurement, indem Sie `s.trackClickMap` und `s.trackInlineStats` auf `false` festlegen
 +++

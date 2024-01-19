@@ -3,10 +3,10 @@ description: Bei den Rechten für berechnete Metriken wird zwischen Benutzern de
 title: 'Berechnete Metriken: Rollenbasierte Rechte'
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '237'
+ht-degree: 81%
 
 ---
 
@@ -14,33 +14,7 @@ ht-degree: 100%
 
 Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administratorebene und Nicht-Administratoren unterschieden.
 
-<table id="table_13F72FD90C964B86BD4B51E6F51ED292"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col02" class="entry"> Erstellung </th> 
-   <th colname="col2" class="entry"> Freigeben </th> 
-   <th colname="col3" class="entry"> Anzeigen/Verwalten </th> 
-   <th colname="col4" class="entry"> Genehmigen </th> 
-   <th colname="col5" class="entry"> Übernehmen </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
-   <td colname="col02"> Administratoren können in der Admin Console berechnete Metriken sowie Produktprofile erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. </td> 
-   <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
-   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: Können ihre eigenen berechneten Metriken und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword"> Report Builder </span>: Hiermit können Sie die eigenen berechneten sowie die freigegeben Metriken anzeigen/bearbeiten/löschen usw. </p> </td> 
-   <td colname="col4"> Können berechnete Metriken als autorisiert genehmigen. </td> 
-   <td colname="col5"> Können beliebige berechnete Metriken innerhalb der gesamten Organisation anwenden. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Benutzer, die nicht Mitglied der Administratorebene sind</b> </td> 
-   <td colname="col02"> Standardmäßig können Benutzer berechnete Metriken erstellen. Diese Rechte können jedoch von Administratoren eingeschränkt werden. </td> 
-   <td colname="col2"> Können nur für einzelne Benutzer freigeben. </td> 
-   <td colname="col3"> Können nur nur ihre eigenen berechneten Metriken anzeigen/bearbeiten/löschen usw. <p>Nicht-Administratoren benötigen Zugriff auf alle Komponentenereignisse, um eine freigegebene Metrik anzeigen zu können (die Berechtigungen der Admin Console werden weiterhin durchgesetzt). </p> <p>Wenn ein Dashboard oder ein terminierter Bericht für einen Nicht-Administrator freigegeben wird, die Metrik für diesen Benutzer aber nicht freigegeben wurde, wird der Bericht mit angewendeter Metrik ausgeführt (vorausgesetzt, der Benutzer ist berechtigt, die Ereignisse anzuzeigen). Er kann allerdings nicht die Definition anzeigen oder die Metrik bearbeiten. </p> </td> 
-   <td colname="col4"> Können ausschließlich genehmigte berechnete Metriken nutzen. Können keine Metriken als genehmigt markieren. </td> 
-   <td colname="col5"> Können ihre eigenen berechneten Metriken und Segmente, die für sie freigegeben wurden, anwenden. </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Erstellung | Freigeben | Anzeigen/Verwalten | Genehmigen | Übernehmen |
+|--- |--- |--- |--- |--- |--- |
+| Benutzer auf Administratorebene | Administratoren können in der Admin Console berechnete Metriken sowie Produktprofile erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. | Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. | Report Builder: Kann anzeigen/bearbeiten/löschen/etc. die eigenen berechneten sowie die freigegeben Metriken anzeigen/bearbeiten/löschen usw. | Können berechnete Metriken als autorisiert genehmigen. | Können beliebige berechnete Metriken innerhalb der gesamten Organisation anwenden. |
+| Benutzer ohne Administratorrechte | Standardmäßig können Benutzer berechnete Metriken erstellen. Diese Rechte können jedoch von Administratoren eingeschränkt werden. | Können nur für einzelne Benutzer freigeben. | Können nur nur ihre eigenen berechneten Metriken. Benutzer ohne Administratorrechte müssen Zugriff auf alle Komponentenereignisse haben, damit sie eine freigegebene Metrik sehen können (die Berechtigungen in der Admin Console werden weiterhin durchgesetzt).  Wenn ein Dashboard oder ein terminierter Bericht für einen Nicht-Administrator freigegeben wird, die Metrik für diesen Benutzer aber nicht freigegeben wurde, wird der Bericht mit angewendeter Metrik ausgeführt (vorausgesetzt, der Benutzer ist berechtigt, die Ereignisse anzuzeigen). Er kann allerdings nicht die Definition anzeigen oder die Metrik bearbeiten. | Können ausschließlich genehmigte berechnete Metriken nutzen. Können keine Metriken als genehmigt markieren. | Können ihre eigenen berechneten Metriken und Segmente, die für sie freigegeben wurden, anwenden. |

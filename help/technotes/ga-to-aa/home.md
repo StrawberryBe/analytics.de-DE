@@ -3,10 +3,10 @@ title: Umstieg von einer Drittanbieter-Analyseplattform auf Adobe Analytics
 description: Erfahren Sie mehr über die wichtigsten Konzepte zum Abrufen von Berichten, die auf Anwender ausgerichtet sind, die mit anderen Plattformen wie Google Analytics vertraut sind.
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 90%
 
 ---
 
@@ -16,12 +16,7 @@ In diesem Handbuch werden allgemeine Berichtstypen vorgestellt, die Ihnen helfen
 
 Sowohl Google Analytics als auch Adobe Analytics sind leistungsstarke Plattformen, um wertvolle Einblicke in die Leistung Ihrer Website zu erhalten. Jede Plattform verfügt über eine eigene Verarbeitungsarchitektur und eine eigene Benutzeroberfläche, durch die jede Plattform einzigartige Vorteile bietet. Dieses Handbuch soll dazu beitragen, dass Anwender mit Erfahrung in Google Analytics schneller mit Adobe Analytics arbeiten können.
 
-In Adobe Analytics gibt es zwei Hauptwege, um nach der Anmeldung bei der Adobe Experience Cloud grundlegende Berichte abzurufen:
-
-* **Reports &amp; Analytics** ist die alte Methode, um grundlegende Berichte zu erstellen. Das Menü auf der linken Seite enthält eine Liste vordefinierter Berichte, die es dem Anwender ermöglicht, zu einem gewünschten Bericht zu navigieren und Daten abzurufen. Segmente und Metriken ermöglichen zusätzliche Anpassungen. Anwender mit Erfahrung mit Google Analytics-Berichten finden dieses Layout möglicherweise vertraut.
-* **Analysis Workspace** ist die derzeit empfohlene Methode für den Abruf der meisten Berichte. Im linken Menü können Anwender Komponenten per Drag-and-drop verschieben, um einen eigenen Bericht zu erstellen. Das ermöglicht viel mehr Freiheit, um die Berichtsanforderungen genau zu erfüllen. Anwender, die mit der Erstellung von Google Analytics-Dashboards und benutzerspezifischen Berichten vertraut sind, finden dieses Layout möglicherweise vertraut.
-
-Die meisten Berichte können sowohl in [!UICONTROL Reports &amp; Analytics] als auch in [!UICONTROL Analysis Workspace] erstellt werden. Einige Berichte können jedoch nur auf der einen oder anderen Plattform abgerufen werden. In den meisten Fällen empfiehlt Adobe die Verwendung von [!UICONTROL Analysis Workspace], es sei denn, eine bestimmte Funktion ist nur in [!UICONTROL Reports &amp; Analytics] verfügbar.
+In Adobe Analytics können Sie nach der Anmeldung bei der Adobe Experience Cloud hauptsächlich grundlegende Berichte abrufen, indem Sie **Analysis Workspace**. Im linken Menü können Anwender Komponenten per Drag-and-drop verschieben, um einen eigenen Bericht zu erstellen. Sie ermöglicht mehr Freiheit, um exakte Berichtsanforderungen zu erfüllen. Anwender, die mit der Erstellung von Google Analytics-Dashboards und benutzerspezifischen Berichten vertraut sind, finden dieses Layout möglicherweise vertraut.
 
 ## Empfohlener Lernpfad
 

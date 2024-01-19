@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Zielgruppendaten in Analytics verwenden
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 90%
+source-wordcount: '573'
+ht-degree: 89%
 
 ---
 
@@ -81,9 +81,3 @@ Sie können die Zielgruppendimensionen zusammen mit den von Analytics erfassten 
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics und Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. Wenn Sie den Analytics-Bericht anzeigen möchten, wechseln Sie zu **[!UICONTROL Berichte]** > **[!UICONTROL Besucherprofil]** > **[!UICONTROL Zielgruppen-ID-Berichte]**.
-1. Über diesen Ordner können Sie sowohl auf die Dimension „Zielgruppen-ID“ als auch auf die Dimension „Zielgruppenname“ zugreifen.
-
-   ![](assets/mc-audiences.png)

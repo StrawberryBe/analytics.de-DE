@@ -1,18 +1,18 @@
 ---
-description: Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports & Analytics und Report Builder.
+description: Details zur Analysis Workspace-Vorlage und Berichterstellung in Report Builder.
 title: Berichte zu Werbedaten in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 93%
 
 ---
 
 # Berichte zu Werbedaten in Adobe Analytics
 
-Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports &amp; Analytics und Report Builder.
+Details zur Analysis Workspace-Vorlage und Berichterstellung in Report Builder.
 
 >[!NOTE]
 >
@@ -43,12 +43,6 @@ Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, 
 | Werbeanzeige gesamt | Freiformtabelle der führenden Werbeanzeigen, aufgeschlüsselt nach zugehörigen Metriken |
 | Suchbegriffe | Punktdiagramm der Impressionen, Klicks und Kosten für alle Kombinationen aus Keyword und Übereinstimmungstyp |
 | Keyword gesamt | Freiformtabelle der führenden Kombinationen aus Keyword und Übereinstimmungstyp, aufgeschlüsselt nach zugehörigen Metriken |
-
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-Sobald Sie ein Advertising Analytics-Konto eingerichtet haben, steht Ihnen der Advertising Analytics-Bericht zur Verfügung.
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

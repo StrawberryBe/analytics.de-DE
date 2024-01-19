@@ -3,9 +3,9 @@ title: Unique Visitors
 description: Die Anzahl der Unique-Visitor-IDs.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '556'
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ Die [Metrik](overview.md) „Unique Visitors“ gibt die Anzahl der Besucher-IDs
 Wenn Sie die [geräteübergreifende Analyse](../cda/overview.md) verwenden, wird diese Metrik durch die Metrik [Eindeutige Geräte](unique-devices.md) ersetzt.
 
 ## Unique Visitors pro Tag, Woche, Monat, Quartal und Jahr
-
-Reports &amp; Analytics bietet Optionen für Unique Visitors pro Tag, Woche, Monat, Quartal und Jahr. Anstatt einen Unique Visitor für den gesamten Zeitraum zu zählen, werden Unique Visitor basierend auf der ausgewählten Metrik gezählt. Sie möchten beispielsweise die Unique Visitors pro Tag Ihrer Site anzeigen. Wenn ein Besucher morgens und abends auf Ihre Site kommt, zählt er als ein Unique Visitor pro Tag. Wenn ein Besucher am Montag und erneut am Dienstag auf Ihre Site kommt, zählt er als zwei Unique Visitors pro Tag.
 
 Analysis Workspace behandelt Unique Visitors auf Grundlage der Granularität des Berichts. Wenn Sie beispielsweise die Dimension [Tag](../dimensions/day.md) verwenden, sehen Sie für jedes Dimensionselement Unique Visitors pro Tag. Für den Gesamtwert des Berichts werden jedoch für den Datumsbereich der Freiformtabelle deduplizierte Unique Visitors angezeigt.
 

@@ -4,10 +4,10 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 86%
+source-wordcount: '1652'
+ht-degree: 85%
 
 ---
 
@@ -30,12 +30,6 @@ Berücksichtigen Sie bei der Entscheidung, ob Sie Multi-Suite-Tagging oder Virtu
 Für Virtual Report Suites wird die Freigabe von Segmenten in Adobe Experience Cloud derzeit nicht unterstützt. Benutzer, die ein Segment für die Experience Cloud freigeben möchten, müssen Zugriff auf die Quell-Report Suite haben.
 
 Segmente aus einer Virtual Report Suite können noch nicht für die Personalisierung und das Targeting in Adobe Experience Cloud veröffentlicht werden. Alle Benutzer, die Segmente veröffentlichen, benötigen zu diesem Zweck Zugriff auf die Quell-Report Suite. Nehmen wir an, Sie möchten, dass Ihre Benutzer ausschließlich Zugriff auf Virtual Report Suites in ihrer geografischen Region haben. Sie möchten aber, dass sie auch Segmente aus Adobe Analytics erstellen und für das Targeting mit Adobe Target in Adobe Experience Cloud freigeben können. In diesem Fall empfiehlt Adobe die Verwendung von Multi-Suite-Tagging. Wenn es Sie nicht stört, dass Benutzer Zugriff auf die globale Report Suite haben, oder keine Segmente veröffentlichen müssen, um sie in anderen Lösungen zu verwenden, können Virtual Report Suites verwendet werden.
-
-### Echtzeitdaten und aktuelle Daten
-
-Virtual Report Suites unterstützen keine Echtzeitberichte, weil die Daten segmentiert sind. Die Funktion „Aktuelle Daten“ wird in Virtual Report Suites nicht unterstützt, da sie keine Segmentierung unterstützt. Beide Funktionen sind spezifisch für Reports &amp; Analytics.
-
-[Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) und [Aktuelle Daten](/help/technotes/latency.md) stehen in Virtual Report Suites nicht zur Verfügung. Dies betrifft Benutzer, die innerhalb von Sekunden oder Minuten nach der Datenerfassung auf Trends in Reports &amp; Analytics reagieren. Dazu könnten beispielsweise Bearbeiter in einem Newsroom gehören, die die Schlagzeilen basierend auf dem Inhaltskonsum in Echtzeit anpassen. Erwägen Sie die Verwendung von Multi-Suite-Tagging, wenn Sie über erhebliche Echtzeitdaten verfügen, die für einzelne Report Suites spezifisch sind. Echtzeitdaten und aktuelle Daten können weiterhin in der globalen Report Suite verwendet werden.
 
 ### Individuelle Einschränkungen
 
