@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics in einer Entwicklungsumgebung bereitstellen
 description: Hier erfahren Sie, wie Sie Tags verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
-feature: Launch Implementation
+feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '587'
 ht-degree: 48%
 
 ---
@@ -24,13 +24,13 @@ Tags ermöglichen durch die Bereitstellung von Code zahlreiche betriebliche Arbe
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
-3. Klicken **[!UICONTROL Hosts]** Klicken Sie auf **[!UICONTROL Organisation hinzufügen]**.
-4. Benennen Sie ihn `"Adobe managed"`und wählen Sie **[!UICONTROL Verwaltet nach Adobe]** in der Dropdown-Liste Typ . Klicken Sie auf „Speichern“.
+3. Klicks **[!UICONTROL Hosts]** Klicken Sie auf **[!UICONTROL Organisation hinzufügen]**.
+4. Benennen Sie ihn `"Adobe managed"`und wählen Sie **[!UICONTROL Verwaltet von Adobe]** in der Dropdown-Liste Typ . Klicken Sie auf „Speichern“.
 5. Navigieren Sie zu **[!UICONTROL Umgebungen]** Klicken Sie auf **[!UICONTROL Umgebung hinzufügen]**.
-6. Auswählen **[!UICONTROL Entwicklung]**, nennen Sie es `"Dev Environment"`und wählen Sie dann den von der Adobe verwalteten Host aus der Dropdownliste aus. Klicken Sie auf **[!UICONTROL Speichern]**.
-7. Ein modales Fenster mit Anweisungen zur Web-Installation wird angezeigt. Wir werden zu einem späteren Zeitpunkt zu diesem Fenster zurückkehren. click **[!UICONTROL Schließen]** vorerst.
-8. Klicken **[!UICONTROL Umgebung hinzufügen]** auswählen **[!UICONTROL Staging]**, nennen Sie es `"Staging Environment"`und wählen Sie dann den von der Adobe verwalteten Host aus. Klicken **[!UICONTROL Erstellen]** und schließen Sie dann das modale Fenster mit den Installationsanweisungen.
-9. Klicken **[!UICONTROL Umgebung hinzufügen]** Wählen Sie erneut **[!UICONTROL Produktion]**, nennen Sie es `"Production Environment"`und wählen Sie dann den von der Adobe verwalteten Host aus. Klicken **[!UICONTROL Erstellen]** und schließen Sie dann das modale Fenster mit den Installationsanweisungen.
+6. Auswählen **[!UICONTROL Entwicklung]**, nennen Sie es `"Dev Environment"`und wählen Sie dann den vom Adobe verwalteten Host aus der Dropdownliste aus. Klicken Sie auf **[!UICONTROL Speichern]**.
+7. Ein modales Fenster mit Anweisungen zur Web-Installation wird angezeigt. Wir werden zu diesem Fenster zu einem späteren Zeitpunkt zurückkehren; klicken Sie auf **[!UICONTROL Schließen]** vorerst.
+8. Klicks **[!UICONTROL Umgebung hinzufügen]** auswählen **[!UICONTROL Staging]**, nennen Sie es `"Staging Environment"`und wählen Sie dann den vom Adobe verwalteten Host aus. Klicks **[!UICONTROL Erstellen]** und schließen Sie dann das modale Fenster mit den Installationsanweisungen.
+9. Klicks **[!UICONTROL Umgebung hinzufügen]** Wählen Sie erneut **[!UICONTROL Produktion]**, nennen Sie es `"Production Environment"`und wählen Sie dann den vom Adobe verwalteten Host aus. Klicks **[!UICONTROL Erstellen]** und schließen Sie dann das modale Fenster mit den Installationsanweisungen.
 
 ## Erstellen einer Dev-Bibliothek
 
@@ -39,10 +39,10 @@ Trotz aller bisherigen Änderungen und Konfigurationen wurde kein Code veröffen
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 3. Klicken Sie auf **[!UICONTROL Veröffentlichungsfluss]** Registerkarte und klicken Sie dann auf **[!UICONTROL Bibliothek hinzufügen]**. Siehe [Veröffentlichungsübersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=de) in der Dokumentation zu Tags finden Sie weitere Informationen zu dieser Seite.
-4. Benennen Sie die Bibliothek. `'Initial changes'`und wählen Sie Ihre Entwicklungsumgebung aus.
-5. Klicken **[!UICONTROL Alle geänderten Ressourcen hinzufügen]**, in der Adobe Analytics, Identity Service und Core automatisch aufgelistet werden.
+4. Benennen Sie die Bibliothek `'Initial changes'`und wählen Sie Ihre Entwicklungsumgebung aus.
+5. Klicks **[!UICONTROL Alle geänderten Ressourcen hinzufügen]**, in der Adobe Analytics, Identity Service und Core automatisch aufgelistet werden.
 6. Klicken Sie auf **[!UICONTROL Speichern]**.
-7. Klicken Sie im Bildschirm des Veröffentlichungs-Workflows auf die Dropdown-Liste neben der neuen Bibliothek und klicken Sie auf **[!UICONTROL Build für Entwicklung]**. Nach einigen Sekunden wird der gelbe Punkt in der Bibliothek grün und zeigt an, dass der Build erfolgreich war.
+7. Klicken Sie im Bildschirm des Veröffentlichungs-Workflows auf die Dropdown-Liste neben der neuen Bibliothek und klicken Sie auf **[!UICONTROL Build für Entwicklung]**. Nach einigen Sekunden wird der gelbe Punkt in der Bibliothek grün, was darauf hinweist, dass der Build erfolgreich war.
 8. Navigieren Sie zu **[!UICONTROL Umgebungen]** und klicken Sie dann auf das Installationssymbol rechts neben Ihrer Entwicklungsumgebung. Durch diese Aktion wird das modale Fenster Web-Installationsanweisungen erneut angezeigt.
 9. Kopieren Sie die Codeblöcke und stellen Sie sie den Website-Eigentümern Ihrer Organisation zur Verfügung.
 

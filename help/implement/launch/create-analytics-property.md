@@ -1,12 +1,12 @@
 ---
 title: Erstellen einer Analytics-Eigenschaft in Tags
 description: Erstellen Sie mithilfe von Tags einen Bereich, um die Art der Datenerfassung anzupassen.
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '514'
-ht-degree: 100%
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf
 
 ## Voraussetzungen
 
-[Report Suite erstellen](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Erstellen eines Silos für zu erfassende Analytics-Daten..
+[Erstellen einer Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Erstellen Sie ein Silos für zu erfassende Analytics-Daten.
 
 ## Erstellen einer Tag-Eigenschaft und Installieren wichtiger Erweiterungen
 
@@ -47,9 +47,9 @@ Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von 
    * Datenelementtyp: JavaScript-Variable
    * JavaScript-Variablenname: `window.document.title`
 
-      >[!NOTE]
-      >
-      >Dieser Wert dient als Beispiel für die ersten Schritte. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
+     >[!NOTE]
+     >
+     >Dieser Wert dient als Beispiel für die ersten Schritte. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
    * Markierter Text
    * Speicherdauer: Keine
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
