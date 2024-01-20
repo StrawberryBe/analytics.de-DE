@@ -3,10 +3,10 @@ title: Instanzen
 description: Die Anzahl der Treffer, für die eine Variable festgelegt (und nicht beibehalten) wurde.
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '263'
+ht-degree: 44%
 
 ---
 
@@ -20,4 +20,9 @@ Schließen Sie von allen Treffern in einer Report Suite nur Treffer ein, die exp
 
 Beispiel: Ein Besucher gelangt auf Ihre Site und verwendet die interne Suche. Sie verfolgen die interne Suche in eVar1. Nachdem sie die interne Suche einmal verwendet haben, besuchen sie fünf weitere Seiten, bevor sie gehen.
 
-Wenn Sie einen Bericht in Workspace anzeigen, würden Sie eine eVar1-Instanz und sechs Vorkommen sehen. Die eine Instanz, die auf der Suchergebnisseite ausgelöst wurde, während die Instanzen den Anfangswert sowie die beibehaltenen Werte gezählt haben.
+Wenn Sie einen Bericht in Workspace anzeigen, würden Sie eine eVar1-Instanz und sechs Vorkommen sehen. Eine Instanz zählt auf der Seite mit den Suchergebnissen, während die Metrik Vorfälle den Anfangswert und die nachfolgenden beibehaltenen Werte zählt.
+
+## Vergleich mit ähnlichen Metriken
+
+* **Instanzen vs. [Vorfälle](occurrences.md)**: Instanzen enthalten keine Treffer, bei denen ein Dimensionselement beibehalten wird. Vorfälle zählen Treffer, bei denen ein Dimensionselement festgelegt oder beibehalten wurde.
+* **Instanzen vs. [Seitenansichten](page-views.md)**: Instanzen umfassen alle Treffertypen, einschließlich Seitenansicht-Tracking-Aufrufen ([`t()`](/help/implement/vars/functions/t-method.md)), Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) und Daten aus der Zusammenfassung [Datenquellen](/help/import/data-sources/overview.md). Die Metrik &quot;Seitenansichten&quot;umfasst nur Seitenansichts-Tracking-Aufrufe, ausgenommen Linktracking-Aufrufe und Zusammenfassungsdatenquellen.
