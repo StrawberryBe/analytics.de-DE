@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '757'
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+workflow-type: tm+mt
+source-wordcount: '749'
 ht-degree: 100%
 
 ---
@@ -280,7 +280,6 @@ ht-degree: 100%
    + [Standorte-Manager](/help/components/locations/locations-manager.md)
    + [Cloud-Importkonten](/help/components/locations/configure-import-accounts.md)
    + [Cloud-Importspeicherorte](/help/components/locations/configure-import-locations.md)
-+ [Kalenderereignisse](t-calendar-event.md)
 + [Geplante Projekte](scheduled-projects-manager.md)
 + [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
 + Echtzeitberichterstellung {#real-time-reporting}

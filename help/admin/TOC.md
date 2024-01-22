@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 91%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 91%
             + Erkennung gebührenpflichtiger Suchvorgänge {#paid-search-detection}
                + [Übersicht über die Paid-Search-Erkennung](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Konfigurieren der Erkennung von Paid Search](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Anpassen von Menüs](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Verarbeitungsregeln {#c-processing-rules}
                + [Übersicht über Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Verarbeitungsregeln {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 91%
       + [Herunterladen von Report Suite-Einstellungen](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Neue Report Suite {#c-new-report-suite}
          + [Erstellen einer Report Suite](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Erstellen einer Datenaggregations-Report Suite](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [Erstellen einer Report Suite-Gruppe](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Neue Report Suite – Einstellungen](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Aus einer Quell-Report Suite nicht kopierte Einstellungen](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,7 +151,6 @@ ht-degree: 91%
       + [Web-Services](admin/company/web-services-admin.md)
       + [Report Builder-Berichte](admin/company/report-builder-reports-admin.md)
       + [Single Sign-on](admin/company/single-signon-admin.md)
-      + [Co-Branding](admin/company/co-branding-admin.md)
       + [Ausblenden von Report Suites](admin/company/c-hide-report-suites.md)
       + [Voreinstellungs-Manager](admin/company/preferences-manager.md)
       + [Ausstehende Aktionen](admin/company/pending-actions-admin.md)
