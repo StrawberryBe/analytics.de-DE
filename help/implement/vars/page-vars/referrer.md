@@ -3,10 +3,10 @@ title: referrer
 description: Überschreiben Sie den automatisch erfassten Referrer für einen Treffer.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: a37d6b26c2789211a9ed5602b708ef72768e289c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 84%
+source-wordcount: '293'
+ht-degree: 80%
 
 ---
 
@@ -17,6 +17,8 @@ Die `referrer`-Variable überschreibt den automatisch erfassten Referrer in Beri
 ## Referrer mit dem Web SDK
 
 Referrer ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `web.webReferrer.URL`.
+
+Das Web SDK enthält diese Dimension bei jedem Ereignisaufruf.
 
 ## Referrer mit der Adobe Analytics-Erweiterung
 
