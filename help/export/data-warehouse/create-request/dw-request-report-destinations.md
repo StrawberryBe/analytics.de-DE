@@ -3,9 +3,9 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
+source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2235'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ Informationen zum Erstellen einer Anforderung sowie Links zu anderen wichtigen K
 >
 >* Es wird empfohlen, ein Cloud-Konto oder eine E-Mail für Ihr Berichtsziel zu verwenden. Ältere FTP- und SFTP-Konten sind verfügbar, werden jedoch nicht empfohlen.
 >
->* Cloud-Konten sind Ihrem Adobe Analytics-Benutzerkonto zugeordnet. Andere Benutzer können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
+>* Data Warehouse-Anfragen sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Standardmäßig können andere Benutzer die konfigurierten Anforderungen nicht verwenden oder anzeigen. Sie können Data Warehouse-Anfragen für andere Benutzer in Ihrer Organisation bereitstellen, indem Sie die **Alle Ziele anzeigen** Umschalten, wie unter [Allgemeine Einstellungen für Data Warehouse-Anfragen](/help/export/data-warehouse/create-request/dw-general-settings.md).
 >
 >* Alle Cloud-Konten, die Sie zuvor erstellt haben [für Daten-Feeds konfiguriert](/help/export/analytics-data-feed/create-feed.md) sind für Data Warehouse verfügbar.
 >
