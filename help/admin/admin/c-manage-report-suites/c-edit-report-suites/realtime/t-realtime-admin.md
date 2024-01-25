@@ -3,10 +3,10 @@ description: Administrative Schritte zum Einrichten von Echtzeitberichten.
 title: Konfiguration von Echtzeitberichten
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 Administrative Schritte zum Einrichten von Echtzeitberichten.
 
-Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen Sie die Report Suite aus und konfigurieren Sie bis zu drei Berichte.
+Um Echtzeitberichte in Adobe Analytics einzurichten, wählen Sie die Report Suite aus und konfigurieren Sie bis zu drei Berichte.
 
-1. Wählen Sie die Report Suite aus, für die Sie Echtzeitberichte aktivieren möchten.
+1. Wählen Sie die Report Suite aus, für die Sie Echtzeit-Berichte aktivieren möchten.
 
    Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Alle Berichte anzeigen > Site-Metriken]** > **[!UICONTROL Echtzeit]** und wählen Sie die Report Suite oben aus dem Dropdown-Menü aus:
 
@@ -55,6 +55,6 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]**.
 
-   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=de).
+   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Ab diesem Zeitpunkt sind die Daten sofort verfügbar.
 
 1. Standardmäßig haben alle Benutzer Zugriff auf Echtzeitberichte.

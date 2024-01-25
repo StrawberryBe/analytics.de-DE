@@ -3,10 +3,11 @@ description: Erläutert Optimierungen der Server-seitigen Weiterleitung, die dur
 title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 60%
+source-wordcount: '564'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +21,7 @@ Zuvor gab es bei der Server-seitigen Weiterleitung keine Möglichkeit zur Unters
 
 Wenn diese neue Kontextvariable `cm.ssf=1`, bei einem Treffer vorhanden ist, wird dieser Treffer gekennzeichnet und nicht serverseitig an Adobe Audience Manager weitergeleitet. Wenn diese Zeichenfolge hingegen bei einem Treffer nicht angezeigt wird, wird der Treffer an Adobe Audience Manager weitergeleitet.
 
-Die serverseitige Weiterleitung erfolgt bidirektional, d. h. wenn sie auf einen Treffer angewendet wird und dieser Treffer an Adobe Audience Manager weitergeleitet wird, erhält der Audience Analytics Segmentinformationen für diesen Treffer von Adobe Audience Manager und sendet ihn zurück an Analytics. Daher werden Treffer, die nicht serverseitig von Analytics an Adobe Audience Manager weitergeleitet werden, nicht mit der Liste der Segment-IDs aus Adobe Audience Manager angereichert. Daher gibt es eine Untergruppe von Traffic/Treffern, die keine Segment-ID-Informationen von Adobe Audience Manager erhalten.
+Die serverseitige Weiterleitung erfolgt bidirektional, d. h. wenn sie auf einen Treffer angewendet wird und dieser Treffer an Adobe Audience Manager weitergeleitet wird, erhält Audience Analytics Segmentinformationen für diesen Treffer von Adobe Audience Manager und sendet ihn zurück an Analytics. Daher werden Treffer, die nicht serverseitig von Analytics an Adobe Audience Manager weitergeleitet werden, nicht mit der Liste der Segment-IDs aus Adobe Audience Manager angereichert. Daher gibt es eine Untergruppe von Traffic/Treffern, die keine Segment-ID-Informationen von Adobe Audience Manager erhalten.
 
 ## Implementierungsdetails {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -29,7 +30,7 @@ Befolgen Sie abhängig von Ihrer Implementierungsmethode die folgenden Schritte.
 | Implementierungsmethode | Schritte |
 |--- |--- |
 | Tags in Adobe Experience Platform | Wenn Sie die Adobe Analytics-Erweiterung installiert haben, fügen Sie dem benutzerdefinierten Code-Editor innerhalb der Aktionskonfiguration einer Regel die folgende Definition für Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die `contextdata`-Variable den Wert *0* für Kunden fest, die gezieltem Marketing zugestimmt haben. |
-| AppMeasurement | Fügen Sie die Kontextdatenvariablendefinition zur Datei „AppMeasurement.js“ hinzu:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die Kontextdatenvariable den Wert „0“ für Kunden fest, die gezieltem Marketing zugestimmt haben. |
+| AppMeasurement | Fügen Sie der Datei &quot;AppMeasurement.js&quot;die Kontextdatenvariablendefinition hinzu:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert &quot;1&quot;fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die Kontextdatenvariable den Wert „0“ für Kunden fest, die gezieltem Marketing zugestimmt haben. |
 
 ## Reporting (optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

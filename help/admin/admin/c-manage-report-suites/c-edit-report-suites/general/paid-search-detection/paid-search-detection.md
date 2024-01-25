@@ -3,7 +3,7 @@ description: Die Paid-Search-Erkennung unterscheidet in den Berichten zu Suchmas
 title: Paid-Search-Erkennung
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Die [!UICONTROL Paid-Search-Erkennung] unterscheidet in den Berichten zu [!UICONTROL Suchmaschinen] und [!UICONTROL Suchbegriffen] zwischen Paid Searches und organischen Suchvorgängen. Sie können die Suchmaschinen angeben, in denen Sie kostenpflichtige Werbung verwenden, und eine Zeichenfolge in der URL eines Besuchs bei einer kostenpflichtigen Werbung spezifizieren.
 
-## Konfigurationsoptionen {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Konfigurationsoptionen {#configuration}
 
 In der folgenden Tabelle werden die Felder und Optionen beschrieben, die Sie zur [Konfiguration der PaidSearch-Erkennung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md) verwenden.
 

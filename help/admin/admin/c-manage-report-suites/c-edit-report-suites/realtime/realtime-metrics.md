@@ -1,13 +1,13 @@
 ---
 description: Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werden. Ggfs. definierte Classifications werden ebenfalls unterstützt.
-title: Unterstützte Echtzeit-Metriken und -Dimensionen  (Administration)
+title: Unterstützte Echtzeit-Metriken und -Dimensionen (Administration)
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '107'
-ht-degree: 100%
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werden. Ggfs. definierte Classifications werden ebenfalls unterstützt.
 
-## Unterstützte Metriken {#section_514ED8B382494C47BFC0657894D1AF94}
+## Unterstützte Metriken {#metrics}
 
 * Umsatz
 * Bestellungen
@@ -28,7 +28,7 @@ Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werd
 * Instanzen
 * Benutzerspezifische Ereignisse 1-100 (falls in der Report Suite aktiviert)
 
-## Unterstützte Dimensionen {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Unterstützte Dimensionen {#dimensions}
 
 * Seite
 * Suchbegriff

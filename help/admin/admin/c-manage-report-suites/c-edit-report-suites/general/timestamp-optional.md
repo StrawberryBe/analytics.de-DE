@@ -4,9 +4,10 @@ title: Zeitstempel optional
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '319'
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -33,7 +34,7 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
 
 * Wenn sie aus einer Vorlage erstellt wird, gilt für eine neue Report Suite die Standardeinstellung „Zeitstempel optional“.
 
-   (Sie können eine neue Report Suite über **Admin > Report Suites > Neu erstellen > Report Suite** aus einer Vorlage erstellen.)
+  (Sie können eine neue Report Suite über **Admin > Report Suites > Neu erstellen > Report Suite** aus einer Vorlage erstellen.)
 * Wenn sie aus einer vorhandenen Report Suite kopiert wird, erbt die neue Report Suite die Zeitstempeleinstellung des Originals, einschließlich:
 
    * **Keine Zeitstempel zulässig** (Einstellung „s.visitorID“ wird unterstützt)

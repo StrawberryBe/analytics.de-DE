@@ -4,10 +4,11 @@ solution: Analytics
 title: Übersicht über die Server-seitige Weiterleitung
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 90%
+source-wordcount: '795'
+ht-degree: 89%
 
 ---
 

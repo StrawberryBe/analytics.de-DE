@@ -1,19 +1,20 @@
 ---
-description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um eine ordnungsgemäße Aktivierung der serverseitigen Weiterleitung zu gewährleisten.
+description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Diese Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die serverseitige Weiterleitung ordnungsgemäß aktiviert ist.
 solution: Analytics
-title: Überprüfen der serverseitigen Weiterleitungsimplementierung
+title: Überprüfen der Server-seitigen Weiterleitungsimplementierung
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 86%
 
 ---
 
 # Überprüfen der serverseitigen Weiterleitungsimplementierung
 
-Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um eine ordnungsgemäße Aktivierung der serverseitigen Weiterleitung zu gewährleisten.
+Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen zeigen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die serverseitige Weiterleitung ordnungsgemäß aktiviert ist.
 
 So überprüfen Sie den Status der serverseitigen Weiterleitung:
 
@@ -30,4 +31,3 @@ So überprüfen Sie den Status der serverseitigen Weiterleitung:
 >[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
-

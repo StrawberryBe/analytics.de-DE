@@ -3,10 +3,11 @@ title: Verarbeitungsregeln für Marketing-Kanäle
 description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 76%
+source-wordcount: '1884'
+ht-degree: 67%
 
 ---
 
@@ -29,8 +30,8 @@ Weitere Hinweise zur Verarbeitung:
 ## Voraussetzungen
 
 * Sehen Sie sich die Konzeptinformationen unter [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) an.
-* Erstellen Sie einen oder mehr Kanäle, um Regeln zuweisen zu können. Weitere Informationen finden Sie unter [Hinzufügen von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Lesen Sie die Best Practices für die Verwendung von [!UICONTROL Marketing-Kanälen] mit [!UICONTROL Attribution].
+* Erstellen Sie einen oder mehr Kanäle, um Regeln zuweisen zu können. Siehe [Hinzufügen von Marketingkanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+* Best Practices für die Verwendung von [!UICONTROL Marketingkanäle] mit [!UICONTROL Attribution].
 
 ## Einrichten von Marketingkanal-Verarbeitungsregeln
 
@@ -57,7 +58,7 @@ Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besuch
 
 ### Festlegen des Marketing-Kanalwerts
 
-**[!UICONTROL Kanalwert festsetzen]** legt die Dimension „Detail des Marketing-Kanals“ fest, die für diesen Kanal verfügbar ist.
+**[!UICONTROL Den Kanalwert festlegen]** definiert die Dimension Marketing-Kanaldetail , die für diesen Kanal verfügbar ist.
 
 ### Regelkriterien
 
@@ -74,12 +75,12 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | AMO-ID | Der primäre Trackingcode, der von den Advertising Cloud- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising Cloud-spezifische Kanäle zu identifizieren. Die Verwendung von „AMO-ID“ beginnt mit „AL“ für die Suche, „AC“ für die Anzeige oder „AO“ für Social. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden (wenn diese nicht konfiguriert sind, gehen diese Metriken zu &quot;Direkt&quot;oder &quot;Keine&quot;). |
 | AMO-EF-ID | Der von Advertising Cloud verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes besteht darin, als Schlüssel zum Zurücksenden von Daten an Ad Cloud zu dienen. Sie kann jedoch auch zur Identifizierung von Anzeige-Clickthroughs oder Anzeige-Viewthroughs verwendet werden, wenn Sie diese als zwei separate Marketing-Kanäle betrachten möchten. Dies kann durch Festlegen der Marketing-Kanal-Logik für &quot;AMO EF ID&quot;erreicht werden, die mit `:d` für Anzeige-Clickthroughs oder &quot;AMO EF ID&quot;endet mit `:i` für Display ViewThroughs. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
 | Konversionsvariablen | Setzt sich aus eVars zusammen, die für diese Report Suite aktiviert wurden, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite gesetzt wurden. |
-| Vorhanden | Mehrere Auswahlmöglichkeiten sind verfügbar, einschließlich:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer Referrer-Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die Referrer-Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält nicht**: Hiermit können Sie beispielsweise angeben, dass eine verweisende Domain einen bestimmten Wert nicht enthält (anders als bei Auswahl von  „Enthält“.)</li></ul> |
-| Den Kanal identifizieren als | Verbindet die Regel mit dem Marketing-Kanal, den Sie der Seite „Marketing-Kanal-Manager“ hinzugefügt haben. |
+| Vorhanden | Mehrere Auswahlmöglichkeiten sind verfügbar, einschließlich:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer Referrer-Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die Referrer-Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält nicht**: Hiermit können Sie beispielsweise angeben, dass eine verweisende Domäne einen bestimmten Wert nicht enthält (im Gegensatz zur Auswahl von &quot;Enthält&quot;).</li></ul> |
+| Den Kanal identifizieren als | Verbindet die Regel mit einem Marketingkanal, den Sie der Seite Marketingkanal-Manager hinzugefügt haben. |
 | Stimmt mit Erkennungsregeln gebührenpflichtiger Suchvorgänge überein | Eine von Adobe erkannte, gebührenpflichtige Suche. Gebührenpflichtige Suchvorgänge treten ein, wenn Firmen Gebühren an die Suchmaschine zahlen, damit diese deren Site auflistet. Gebührenpflichtige Suchergebnisse tauchen gewöhnlich oben oder rechts von den Suchergebnissen auf. |
 | Stimmt mit Erkennungsregeln kostenloser Suchvorgänge überein | Eine von Adobe erkannte, kostenlose Suche. |
 | Verweisende Stelle stimmt mit internen URL-Filtern überein | Ein Besuch, dessen Seiten-URL laut der Definition für die Report Suite in „Admin Tools“ mit dem internen URL-Filter übereinstimmt. |
-| Verweisende Stelle stimmt nicht mit internen URL-Filtern überein | Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit   Seiten-URL und „Existiert“ einsetzen, um eine Sammelregel zu erstellen, sodass keine Besuche im Berichtabschnitt „Kein Kanal identifiziert“ landen. |
+| Verweisende Stelle stimmt nicht mit internen URL-Filtern überein | Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit Seiten-URL und Existiert verwenden, um eine Sammelregel einzurichten, sodass keine Besuche im Berichtabschnitt Kein Kanal identifiziert landen. |
 | Treffer ignorieren, die mit internen URL-Filtern übereinstimmen | (Für verweisende Stellen) Verfolgt nur Treffer, die von extern verweisenden Stellen stammen. Normalerweise wird diese Option nicht aktiviert, es sei denn, Sie möchten internen Traffic einbeziehen. |
 | Ist erste Seite des Besuchs | Die erste Seite eines Besuchs, die in der Adobe Berichterstellung erkannt wurde. |
 | Seite | Die Dimension [Seite](/help/components/dimensions/page.md). |
@@ -95,7 +96,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Verweisende Stammdomäne | Die Stammdomäne der verweisenden Stelle. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domain. |
 | Suchmaschine | Eine Suchmaschine wie Google oder Yahoo!, über die Besucher zu Ihrer Site gelangten. |
 | Suchkeywords | Ein Wort, mit dem in einer Suchmaschine gesucht wird. |
-| Suchmaschine + Keywords | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie z. B. nach dem Begriff „computer“ suchen, werden die Suchmaschine und Keyword wie folgt identifiziert:  `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:** „n“ = kostenlos; „p“ = gebührenpflichtig |
+| Suchmaschine + Keywords | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie beispielsweise nach dem Begriff &quot;computer&quot;suchen, werden die Suchmaschine und der Suchbegriff wie folgt identifiziert: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:** n = kostenlos; p = bezahlt |
 | Den Kanalwert setzen auf | Legt die [Marketingkanaldetails](/help/components/dimensions/marketing-detail.md) Dimension. Sie bestimmen, welcher Wert im Kontext der Regel am besten ist. Beispiele sind Banneranzeigen-ID, Suchbegriff oder E-Mail-Kampagne. |
 
 ## Reihenfolge der Regeln und Definitionen für Marketing-Kanäle {#channel-rules}
@@ -106,7 +107,7 @@ Nachfolgend finden Sie die empfohlene Reihenfolge für Kanalregeln und Beispield
 
 ### Paid Search {#paid-search}
 
-Paid Search ist ein Begriff oder eine Wortgruppe, die auf Bezahlung von der Suchmaschine in die Suchergebnisse gesetzt wird. Dieser Kanal wird in der Regel auf der Grundlage von Abfragezeichenfolgenparametern (siehe das Beispiel für einen Anzeige-Kanal) oder Regeln der gebührenpflichtige Sucherkennung definiert.
+Paid Search ist ein Begriff oder eine Wortgruppe, die auf Bezahlung von der Suchmaschine in die Suchergebnisse gesetzt wird. Dieser Kanal wird in der Regel basierend auf Abfragezeichenfolgenparametern (siehe Beispiel für einen Anzeigenkanal) oder Erkennungsregeln für Paid Search definiert.
 
 #### Paid-Search-Erkennung
 
@@ -130,7 +131,7 @@ Die kostenlosen Sucheinstellungen für die Marketing-Kanalregel lauten wie folgt
 
 ### Anzeigen {#display}
 
-Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall  *`Ad_01`*. Der Parameter der Abfragezeichenfolge und die gesuchten Werte werden ohne Unterscheidung der Groß-/Kleinschreibung ausgewertet.
+Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL identifiziert, in diesem Fall *`Ad_01`*. Der Parameter der Abfragezeichenfolge und die gesuchten Werte werden ohne Unterscheidung der Groß-/Kleinschreibung ausgewertet.
 
 ![](assets/example_display.png)
 
