@@ -3,9 +3,9 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ Informationen zum Erstellen einer Anforderung sowie Links zu anderen wichtigen K
 >
 >* Es wird empfohlen, ein Cloud-Konto oder eine E-Mail für Ihr Berichtsziel zu verwenden. Ältere FTP- und SFTP-Konten sind verfügbar, werden jedoch nicht empfohlen.
 >
->* Data Warehouse-Anfragen sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Standardmäßig können andere Benutzer die konfigurierten Anforderungen nicht verwenden oder anzeigen. Sie können Data Warehouse-Anfragen für andere Benutzer in Ihrer Organisation bereitstellen, indem Sie die **Alle Ziele anzeigen** Umschalten, wie unter [Allgemeine Einstellungen für Data Warehouse-Anfragen](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* Alle Cloud-Konten, für die Sie zuvor konfiguriert haben [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Importieren von Adobe Analytics-Classification-Daten](/help/components/locations/locations-manager.md) sind für Data Warehouse verfügbar. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Classification-Daten konfiguriert sind.
 >
->* Alle Cloud-Konten, die Sie zuvor erstellt haben [für Daten-Feeds konfiguriert](/help/export/analytics-data-feed/create-feed.md) sind für Data Warehouse verfügbar.
+>* Cloud-Konten sind Ihrem Adobe Analytics-Benutzerkonto zugeordnet. Andere Benutzer können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
 >
->* Cloud-Konten, die für [Importieren von Adobe Analytics-Classification-Daten](/help/components/locations/locations-manager.md) von einem Cloud-Ziel aus können bei der Konfiguration eines Berichtsziels verwendet werden. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Classification-Daten konfiguriert sind.
 
 So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
