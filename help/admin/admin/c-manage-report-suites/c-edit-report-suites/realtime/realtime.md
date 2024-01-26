@@ -3,10 +3,10 @@ description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtz
 title: Echtzeitberichte
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 98%
+source-wordcount: '582'
+ht-degree: 96%
 
 ---
 
@@ -14,17 +14,13 @@ ht-degree: 98%
 
 Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
 
-
-
 >[!NOTE]
 >
 >Für den Echtzeitbericht sind keine zusätzlichen Implementierungen oder Taggings erforderlich. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeitberichten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-Im Folgenden finden Sie eine Videoübersicht:
+Um den Echtzeitbericht anzuzeigen, navigieren Sie zu:
 
->[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
-
-**[!UICONTROL Site-Metriken]** > **[!UICONTROL Echtzeit]**
+**[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Echtzeit]**.
 
 Beantwortet in Echtzeit die folgenden Fragen: Welche Trends sind auf meiner Site zu beobachten und warum? Marketingexperten können schnell auf die Leistung ihrer Marketinginhalte und Kampagnen reagieren und diese verwalten. Die gelieferten Echtzeitdaten verfügen über eine Latenz von weniger als zwei Minuten und werden minutenweise automatisch aktualisiert.
 
@@ -52,7 +48,7 @@ Denken Sie daran, dass eVars (Konversionsmetriken) nicht unterstützt werden, da
 
 Das Einrichten und Anzeigen von Echtzeitberichten ist auf Administratoren oder Benutzer der Berechtigungsgruppen „Zugriff auf alle Berichte“ und „Fortschrittliche Berichterstellung“ beschränkt. Die Echtzeitanzeige respektiert jedoch die Zugriffsberechtigungen. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten.
 
-## Datenlatenz als Folge der A4T-Konfiguration {#section_806CE36354FC4C539A0DED9266A5C704}
+## Datenlatenz als Folge der A4T-Konfiguration {#latency}
 
 Nach Aktivierung der A4T-Integration in Adobe Target ist in Adobe Analytics eine zusätzliche Latenz von 5 bis 10 Minuten festzustellen. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
