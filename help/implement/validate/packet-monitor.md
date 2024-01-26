@@ -4,9 +4,10 @@ description: Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer I
 keywords: Paket-Sniffer, http-Status, 200, 302, Charles
 feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '635'
 ht-degree: 100%
 
 ---

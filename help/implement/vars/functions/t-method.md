@@ -3,14 +3,15 @@ title: t
 description: Senden Sie einen Seitenansichts-Tracking-Aufruf an Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 57%
+source-wordcount: '453'
+ht-degree: 56%
 
 ---
 
-# t()
+# t() 
 
 Die `t()`-Methode ist eine wichtige Kernkomponente von Adobe Analytics. Sie nimmt alle auf der Seite definierten Analytics-Variablen, kompiliert sie in eine Bildanforderung und sendet diese Daten an die Adobe-Datenerfassungs-Server.
 
@@ -66,7 +67,7 @@ Die Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung 
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine Aktion hinzuzufügen.
-1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Signal senden]**.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Beacon senden]**.
 1. Klicken Sie auf die Optionsschaltfläche `s.t()`.
 
 ## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung

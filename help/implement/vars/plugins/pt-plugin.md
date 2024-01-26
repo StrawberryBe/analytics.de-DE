@@ -3,9 +3,10 @@ title: pt
 description: Führt eine Funktion für eine Liste von Variablen aus.
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '586'
 ht-degree: 88%
 
 ---
@@ -22,7 +23,7 @@ Dieses Plug-in wird noch nicht für die Verwendung im Web SDK unterstützt.
 
 ## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit Adobe Analytics verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.

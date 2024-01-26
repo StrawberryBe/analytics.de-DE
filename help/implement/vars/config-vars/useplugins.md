@@ -3,10 +3,11 @@ title: usePlugins
 description: Aktivieren oder deaktivieren Sie die doPlugins()-Funktion.
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 34%
 
 ---
 
@@ -16,11 +17,11 @@ Wenn `usePlugins` aktiviert ist, wird die [`doPlugins()`](../functions/doplugins
 
 ## Verwenden Sie die `onBeforeEventSend` Callback mit dem Web SDK
 
-Das Web SDK verfügt zwar nicht über einen booleschen Wert, der die Ausführung zusätzlicher Logik handhabt, bevor Daten an Adobe gesendet werden, können Sie jedoch die `onBeforeEventSend` Callback zur Änderung von Daten. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Das Web SDK verfügt zwar nicht über einen booleschen Wert, der die Ausführung zusätzlicher Logik handhabt, bevor Daten an Adobe gesendet werden, können Sie die `onBeforeEventSend` Callback zur Änderung von Daten. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
 
 ## Verwenden von Plug-ins mit der Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung mit der Bezeichnung &quot;Common Analytics Plugins&quot;, mit der Sie die meisten [Plug-ins](../plugins/impl-plugins.md). Installieren Sie die Erweiterung und rufen Sie das gewünschte Plug-in in einer Regel auf.
+Adobe bietet eine Erweiterung mit der Bezeichnung &quot;Common Analytics Plugins&quot;, mit der Sie die meisten aufrufen können. [Plug-ins](../plugins/impl-plugins.md). Installieren Sie die Erweiterung und rufen Sie das gewünschte Plug-in in einer Regel auf.
 
 Wenn das gewünschte Plug-in nicht in der Adobe-Erweiterung enthalten ist, verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
 

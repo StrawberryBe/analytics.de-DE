@@ -3,10 +3,11 @@ title: Integrationsmodul
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 96%
+source-wordcount: '883'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +44,7 @@ Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff 
 
 Für die Implementierung des Integrate-Moduls auf Ihrer Site ist der Zugriff auf die Adobe Experience Platform-Datenerfassung erforderlich. Wenn Sie eine ältere JavaScript-Implementierung verwenden, ist der Zugriff auf den Quellcode der Website Ihres Unternehmens erforderlich.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie bearbeiten möchten.
 1. Klicken Sie auf die Registerkarte „Erweiterungen“ und dann unter „Adobe Analytics“ auf „Konfigurieren“.
 1. Öffnen Sie „Tracker mit benutzerdefiniertem Code konfigurieren“ und klicken Sie dann auf „Editor öffnen“.

@@ -3,9 +3,10 @@ title: pageName
 description: Der Name der Seite auf Ihrer Website.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '257'
 ht-degree: 81%
 
 ---

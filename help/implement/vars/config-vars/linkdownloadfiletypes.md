@@ -3,10 +3,11 @@ title: linkDownloadFileTypes
 description: Legen Sie Dateierweiterungen fest, die automatisch als Downloadlinks verfolgt werden.
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 49%
+source-wordcount: '392'
+ht-degree: 55%
 
 ---
 
@@ -33,14 +34,14 @@ Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downl
 
 Die [!UICONTROL Downloadlink-Qualifizierer] Textfeld verwendet Regex, um zu bestimmen, ob ein angeklickter Link als Downloadlink qualifiziert ist.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
 1. under [!UICONTROL Datenerfassung], legen Sie den gewünschten Wert in der **[!UICONTROL Downloadlink-Qualifizierer]** Textfeld.
 
 ## Downloadlink-Qualifizierer zur manuellen Implementierung des Web SDK
 
-[Konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de) das SDK mit [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). Das Feld verwendet regex für die angeklickte URL, um zu ermitteln, ob es sich um einen gültigen Downloadlink handelt. Wenn `downloadLinkQualifier` nicht definiert ist, wird der Standardwert auf `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[Konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de) das SDK mit [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de#automaticLinkTracking). Das Feld verwendet regex für die angeklickte URL, um zu ermitteln, ob es sich um einen gültigen Downloadlink handelt. Wenn `downloadLinkQualifier` nicht definiert ist, wird der Standardwert auf `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
 
 ```json
 alloy("configure", {
@@ -52,7 +53,7 @@ alloy("configure", {
 
 Download-Erweiterungen sind eine Liste von Dateierweiterungen, in der Sie bei der Konfiguration der Adobe Analytics-Erweiterung in einem Feld unter dem Akkordeon [!UICONTROL Linktracking] weitere Erweiterungen hinzufügen können.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking], wodurch das Feld **[!UICONTROL Download-Erweiterungen]** angezeigt wird.

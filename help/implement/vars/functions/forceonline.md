@@ -3,10 +3,11 @@ title: forceOnline
 description: Legen Sie den Online-Status von AppMeasurement manuell fest.
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -26,7 +27,7 @@ Das Web SDK unterstützt kein Offline-Tracking.
 
 ## Online mithilfe der Adobe Analytics-Erweiterung erzwingen
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.forceOnline() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

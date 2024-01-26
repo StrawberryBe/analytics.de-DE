@@ -3,7 +3,8 @@ title: getAndPersistValue
 description: Speichern Sie einen Wert, der später jederzeit abgerufen werden kann.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 70%
@@ -18,26 +19,26 @@ Mit dem `getAndPersistValue`-Plug-in können Sie einen Wert in einem Cookie spei
 
 ## Installieren des Plug-ins mit der Web SDK-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit dem Web SDK verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit dem Web SDK verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-1. Klicken **[!UICONTROL Tags]** auf der linken Seite und klicken Sie dann auf die gewünschte Tag-Eigenschaft.
-1. Klicken **[!UICONTROL Erweiterungen]** auf der linken Seite und klicken Sie dann auf das **[!UICONTROL Katalog]** tab
+1. Klicks **[!UICONTROL Tags]** auf der linken Seite und klicken Sie dann auf die gewünschte Tag-Eigenschaft.
+1. Klicks **[!UICONTROL Erweiterungen]** auf der linken Seite und klicken Sie dann auf das **[!UICONTROL Katalog]** tab
 1. Suchen und installieren Sie die **[!UICONTROL Allgemeine Web SDK-Plug-ins]** -Erweiterung.
-1. Klicken **[!UICONTROL Datenelemente]** Klicken Sie links auf das gewünschte Datenelement.
+1. Klicks **[!UICONTROL Datenelemente]** auf der linken Seite und klicken Sie dann auf das gewünschte Datenelement.
 1. Legen Sie den gewünschten Datenelementnamen mit der folgenden Konfiguration fest:
-   * Erweiterung: Allgemeine Web SDK-Plug-ins
+   * Erweiterung: Allgemeine Web SDK-Plugins
    * Datenelement: `getAndPersistValue`
 1. Legen Sie die gewünschten Parameter auf der rechten Seite fest.
 1. Speichern und veröffentlichen Sie die Änderungen am Datenelement.
 
-## Installieren Sie das Plug-in manuell, um das Web SDK zu implementieren
+## Installieren Sie das Plug-in manuell für die Implementierung des Web SDK
 
 Dieses Plug-in wird noch nicht für die Verwendung in einer manuellen Implementierung des Web SDK unterstützt.
 
 ## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit Adobe Analytics verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.

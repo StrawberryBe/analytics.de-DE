@@ -3,22 +3,23 @@ title: abort
 description: Die Variable „abort“ ist ein boolescher Wert, der verhindert, dass ein Treffer an die Adobe-Datenerfassungs-Server gesendet wird.
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 40%
+source-wordcount: '331'
+ht-degree: 44%
 
 ---
 
 # abort
 
-Die Variable `abort` ist ein boolescher Wert, der verhindern kann, dass der nächste Tracking-Aufruf an Adobe gesendet wird. Ähnliche Funktionen gibt es im Web SDK, mit denen Sie `false` bevor ein XDM-Ereignis gesendet wird.
+Die `abort` ist ein boolescher Wert, der verhindern kann, dass der nächste Tracking-Aufruf an Adobe gesendet wird. Ähnliche Funktionen gibt es im Web SDK, mit denen Sie `false` bevor ein XDM-Ereignis gesendet wird.
 
 ## Senden eines Ereignisses mit der Web SDK-Erweiterung abbrechen
 
 Verwenden Sie die [!UICONTROL Ein vor Ereignis - Rückruf senden] Code-Editor und Rückgabe `false`.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
 1. under [!UICONTROL Datenerfassung], klicken Sie auf die **[!UICONTROL Bearbeiten am vor dem Senden des Callback-Codes eines Ereignisses]** Schaltfläche.
@@ -42,7 +43,7 @@ alloy("configure"), {
 
 ## Verwenden der abort-Variablen in der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.abort in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

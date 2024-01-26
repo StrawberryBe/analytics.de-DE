@@ -3,10 +3,11 @@ title: pageURL
 description: Überschreiben Sie die automatisch erfasste Seiten-URL auf Ihrer Website.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 80%
+source-wordcount: '305'
+ht-degree: 79%
 
 ---
 

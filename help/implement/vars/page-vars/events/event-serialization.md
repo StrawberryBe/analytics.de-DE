@@ -3,9 +3,10 @@ title: Ereignis-Serialisierung
 description: Hilft Ihnen, Metriken auf Ihrer Website zu deduplizieren.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '419'
 ht-degree: 96%
 
 ---

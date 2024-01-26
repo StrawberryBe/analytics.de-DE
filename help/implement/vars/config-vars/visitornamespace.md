@@ -3,10 +3,11 @@ title: visitorNameSpace
 description: Eingestellte Variable, die die Cookie-Domäne bestimmt hatte.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 86%
+source-wordcount: '219'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +27,7 @@ In früheren Versionen von Adobe Analytics verwendete AppMeasurement die `visito
 
 [!UICONTROL Besucher-Namespace] ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Feld [!UICONTROL Besucher-Namespace] angezeigt wird.

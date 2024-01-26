@@ -3,10 +3,11 @@ title: dynamicVariablePrefix
 description: Ermöglicht die Anpassung der Zeichenfolge zur Identifizierung dynamischer Variablen.
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 71%
+source-wordcount: '255'
+ht-degree: 76%
 
 ---
 
@@ -24,7 +25,7 @@ Das Web SDK verwendet keine dynamische Variablenformatierung. Stattdessen könne
 
 „Dynamisches Variablenpräfix“ ist ein Feld unter dem Akkordeon [!UICONTROL Globale Variablen] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 1. Erweitern Sie das Akkordeon [!UICONTROL Globale Variablen], wodurch das Feld [!UICONTROL Dynamisches Variablenpräfix] angezeigt wird.

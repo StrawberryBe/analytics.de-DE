@@ -3,10 +3,11 @@ title: writeSecureCookies
 description: Ermöglicht AppMeasurement das Setzen von Cookies mit dem Secure-Attribut.
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 72%
+source-wordcount: '263'
+ht-degree: 76%
 
 ---
 
@@ -30,7 +31,7 @@ Wenn Ihre Site das HTTPS-Protokoll verwendet, wird das Secure-Attribut für alle
 
 [!UICONTROL Sichere Cookies schreiben] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Kontrollkästchen [!UICONTROL Sichere Cookies schreiben] angezeigt wird.

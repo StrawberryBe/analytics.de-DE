@@ -3,10 +3,11 @@ title: s_objectID
 description: Hilft Activity Map, eindeutige Links auf Ihrer Website zu identifizieren.
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 91%
+source-wordcount: '404'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +19,7 @@ Wenn die Genauigkeit von Activity Map für Ihr Unternehmen von entscheidender Be
 
 ## Objekt-ID mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s_objectID in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

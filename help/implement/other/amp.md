@@ -3,10 +3,11 @@ title: Implementieren mit AMP
 description: Implementieren Sie Adobe Analytics auf AMP-Seiten.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 71%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe bietet zwei Methoden zum Implementieren von Adobe Analytics auf Seiten mit
 
 In der folgenden Tabelle werden die beiden Methoden verglichen:
 
-|   | **`"adobeanalytics"`bearbeiten** | **`"adobeanalytics_nativeConfig"`bearbeiten** |
+|   | **`"adobeanalytics"`template** | **`"adobeanalytics_nativeConfig"`template** |
 |---|---|---|
 | Besucher-/Besuchsanzahlen in bestehender Report Suite | Hohe Inflation | Minimale Inflation |
 | Separate Report Suite verwenden | Empfohlen | Nicht erforderlich |
@@ -78,7 +79,7 @@ Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `clic
 </amp-analytics>
 ```
 
-Die `<amp-analytics>` Tag unterstützt Variablenersetzungen, sodass AMP bekannte Datenwerte bereitstellen kann. Weitere Informationen finden Sie unter [In unterstützte Variablen`amp-analytics` auf GitHub.](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)
+Die `<amp-analytics>` Tag unterstützt Variablenersetzungen, sodass AMP bekannte Datenwerte bereitstellen kann. Siehe [werden in `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) auf GitHub .
 
 >[!NOTE]
 >

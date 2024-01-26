@@ -3,10 +3,11 @@ title: channel
 description: Füllen Sie die Dimension „Website-Bereiche“.
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 77%
+source-wordcount: '193'
+ht-degree: 76%
 
 ---
 

@@ -3,9 +3,10 @@ title: pageType
 description: Stellen Sie fest, ob es sich bei der aktuellen Seite um einen 404-Fehler handelt.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: ht
-source-wordcount: '208'
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '205'
 ht-degree: 100%
 
 ---

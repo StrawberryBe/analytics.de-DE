@@ -3,10 +3,11 @@ title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 69%
+source-wordcount: '540'
+ht-degree: 72%
 
 ---
 
@@ -22,16 +23,16 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 
 Das Web SDK verwendet [!UICONTROL Edge-Domäne] zur Verarbeitung von Tracking-Server und Secure Tracking Server. Sie können die gewünschte [!UICONTROL Edge-Domäne] Wert beim Konfigurieren der Web SDK-Erweiterung.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
-1. Festlegen der gewünschten **[!UICONTROL Edge-Domäne]** Textfeld.
+1. Legen Sie die gewünschte **[!UICONTROL Edge-Domäne]** Textfeld.
 
-Siehe [Konfigurieren der Adobe Experience Platform Web SDK-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Siehe [Konfigurieren der Adobe Experience Platform Web SDK-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de) in der Web SDK-Dokumentation finden Sie weitere Informationen.
 
 >[!TIP]
 >
->Wenn Ihr Unternehmen von einer Implementierung der AppMeasurement- oder Analytics-Erweiterung zum Web SDK wechselt, kann dieses Feld denselben Wert verwenden, der in `trackingServerSecure` (oder `trackingServer`).
+>Wenn Ihr Unternehmen von einer AppMeasurement- oder Analytics-Erweiterungsimplementierung zum Web SDK wechselt, kann dieses Feld denselben Wert verwenden, der in `trackingServerSecure` (oder `trackingServer`).
 
 ## Edge-Domäne, die das Web SDK manuell implementiert
 
@@ -47,7 +48,7 @@ alloy("configure", {
 
 „Tracking-Server“ ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Anmelden bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 4. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Tracking-Server] angezeigt wird.
@@ -58,7 +59,7 @@ Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid].data.adobedc.n
 
 Die `s.trackingServer`-Variable ist eine Zeichenfolge, die den Ort enthält, an die Daten gesendet werden sollen.
 
-## Bestimmen des Werts für „`trackingServer`
+## Den Wert für `trackingServer`
 
 Der Wert dieser Variablen hängt davon ab, ob Sie Erstanbieter-Cookies oder Drittanbieter-Cookies verwenden. Adobe empfiehlt dringend, Erstanbieter-Cookies in Ihrer Implementierung zu verwenden.
 

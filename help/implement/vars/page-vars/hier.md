@@ -3,9 +3,10 @@ title: hier
 description: Implementieren Sie Hierarchievariablen in Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '350'
 ht-degree: 95%
 
 ---

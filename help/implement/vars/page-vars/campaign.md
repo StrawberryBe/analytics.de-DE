@@ -3,9 +3,10 @@ title: campaign
 description: Füllen Sie die Dimension „Trackingcode“.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '239'
 ht-degree: 68%
 
 ---

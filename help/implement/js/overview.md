@@ -3,10 +3,11 @@ title: Implementieren von Adobe Analytics mit AppMeasurement für JavaScript
 description: Erfahren Sie, wie Sie Adobe Analytics mit JavaScript ohne Tag-Management-System implementieren.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 56%
+ht-degree: 42%
 
 ---
 
@@ -25,7 +26,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 </tr>
 
 <tr>
-<td>1</td><td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Stellen Sie sicher, dass <b>eine Report Suite definiert haben</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -61,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Definieren Sie Variablen auf Seitenebene im Seiten-Code Ihrer Website</b>. Diese Variablen bestimmen spezifische Dimensionen und Metriken, die an Adobe gesendet werden.
+<td>5</td><td><b>Definieren von Variablen auf Seitenebene im Seiten-Code Ihrer Site</b>. Diese Variablen bestimmen spezifische Dimensionen und Metriken, die an Adobe gesendet werden.
 
 ```js
 s.pageName = "Example page";
@@ -73,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Senden Sie die Daten an die Adobe mit der <code>t()</code> method</b>, wenn alle Seitenvariablen definiert sind.
+<td>6</td><td><b>Senden Sie die Daten mit dem <code>t()</code> method</b>, wenn alle Seitenvariablen definiert sind.
 
 ```js
 s.t();

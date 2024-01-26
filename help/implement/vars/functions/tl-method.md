@@ -3,9 +3,10 @@ title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 80%
 
 ---
@@ -18,7 +19,7 @@ Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackEx
 
 ## Linktracking mit dem Web SDK
 
-Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. beide verwenden `sendEvent` Befehl. Wenn Sie möchten, dass Adobe Analytics ein bestimmtes XDM-Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihre XDM-Daten enthalten oder zugeordnet sind zu `web.webInteraction.name`, `web.webInteraction.URL`und `web.webInteraction.type`.
+Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. Beide verwenden die Variable `sendEvent` Befehl. Wenn Sie möchten, dass Adobe Analytics ein bestimmtes XDM-Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihre XDM-Daten enthalten oder zugeordnet sind zu `web.webInteraction.name`, `web.webInteraction.URL`, und `web.webInteraction.type`.
 
 * Linkname wird zugeordnet zu `web.webInteraction.name`.
 * Link-URL wird zugeordnet zu `web.webInteraction.URL`.
@@ -46,12 +47,12 @@ Die Adobe Analytics-Erweiterung verfügt über einen speziellen Speicherort, um 
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine Aktion hinzuzufügen.
-1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Signal senden]**.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Beacon senden]**.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
 Sie können keine optionalen Argumente in der Analytics-Erweiterung festlegen.
 
-## s.tl() -Methode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.tl()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Rufen Sie die `s.tl()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
@@ -78,7 +79,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### Link-Typ  (erforderlich)
+### Link-Typ (erforderlich)
 
 Das Link-Typ-Argument ist eine aus einem einzigen Buchstaben bestehende Zeichenfolge, die den Typ des Linktracking-Aufrufs bestimmt. Es gibt drei gültige Werte.
 

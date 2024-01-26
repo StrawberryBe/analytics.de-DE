@@ -3,10 +3,11 @@ title: Vergleich von Implementierungsmethoden
 description: Erfahren Sie mehr über die Vorteile jeder Methode zum Datenversand an Adobe Analytics.
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+role: Admin, Developer, Leader
+source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 43%
+source-wordcount: '489'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +19,7 @@ Hier finden Sie einen Vergleich der Implementierungsmethoden von Adobe Analytics
 
 | | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics-Erweiterung](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK-Erweiterung](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
-| Implementierungsanforderungen | Referenzieren Sie `AppMeasurement.js` auf jeder Seite, definieren Sie Variablen, senden Sie Daten mit `s.t()` zu Adobe Analytics | Referenzieren Sie Tag-Lader auf jeder Seite über die Datenerfassungs-Benutzeroberfläche, um Variablen zu definieren und Daten an Adobe Analytics zu senden. | Referenz `Alloy.js` Verwenden Sie auf jeder Seite `alloy("sendEvent",{})` , um XDM-Objekte zu erstellen und die gewünschten Daten über Edge Network an Adobe Analytics zu senden. | Referenzieren Sie Tag-Lader auf jeder Seite, verwenden Sie die Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. |
+| Implementierungsanforderungen | Referenz `AppMeasurement.js` auf jeder Seite Variablen definieren, Daten senden mit `s.t()` zu Adobe Analytics | Referenzieren Sie Tag-Lader auf jeder Seite über die Datenerfassungs-Benutzeroberfläche, um Variablen zu definieren und Daten an Adobe Analytics zu senden. | Referenz `Alloy.js` Verwenden Sie auf jeder Seite `alloy("sendEvent",{})` , um XDM-Objekte zu erstellen und die gewünschten Daten über Edge Network an Adobe Analytics zu senden. | Referenzieren Sie Tag-Lader auf jeder Seite, verwenden Sie die Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. |
 | Datenziel | Direkt an Adobe Analytics gesendet | Direkt an Adobe Analytics gesendet | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden |
 | Schwierigkeiten bei der Anpassung der Implementierung | Erfordert bei jeder Implementierungsänderung Zugriff auf den Website-Code | Ändern Sie den Website-Code einmal, um das Lader-Tag zu installieren. Alle weiteren Implementierungsaktualisierungen können in der Datenerfassungs-Benutzeroberfläche vorgenommen werden. | Erfordert bei jeder Implementierungsänderung Zugriff auf den Website-Code | Ändern Sie den Website-Code einmal, um das Lader-Tag zu installieren. Alle weiteren Implementierungsaktualisierungen können in der Datenerfassungs-Benutzeroberfläche vorgenommen werden. |
 | Handhabung von A4T | A4T-Aufrufe sind in Treffern enthalten, die an Adobe gesendet werden | A4T-Aufrufe sind in Treffern enthalten, die an Adobe gesendet werden | A4T-Aufrufe werden als separate Treffer gesendet | A4T-Aufrufe werden als separate Treffer gesendet |

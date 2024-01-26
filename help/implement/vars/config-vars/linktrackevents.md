@@ -3,10 +3,11 @@ title: linkTrackEvents
 description: Bestimmen Sie, welche Ereignisse in Bildanforderungen zum Linktracking einbezogen werden sollen.
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 67%
+source-wordcount: '313'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +17,7 @@ Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen
 
 Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-method.md)-Methode) verwendet.
 
-## Bestimmen Sie mithilfe des Web SDK, welche Analytics-Ereignisse in ein XDM-Ereignis einbezogen werden sollen
+## Bestimmen Sie mithilfe des Web SDK, welche Analytics-Ereignisse in ein XDM-Ereignis einbezogen werden sollen.
 
 Das Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch die `onBeforeEventSend` Callback zum Löschen oder Festlegen der gewünschten Felder, bevor Daten an Adobe gesendet werden. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
 

@@ -3,10 +3,11 @@ title: Dynamische Variablen
 description: Kopieren Sie Variablen, ohne die Bildanforderungslänge zu erhöhen.
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 79%
+source-wordcount: '429'
+ht-degree: 78%
 
 ---
 
@@ -29,9 +30,9 @@ Wenn Adobe ein Präfix für dynamische Variablen erkennt, kopiert es automatisch
 Verwenden Sie die Datastream-Zuordnung, um Daten von einem einzelnen XDM-Feld an mehrere Analytics-Variablen zu senden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-1. Klicken **[!UICONTROL Datenspeicher]** in der linken Leiste.
+1. Klicks **[!UICONTROL Datenspeicher]** in der linken Leiste.
 1. Klicken Sie auf den gewünschten Datastream.
-1. Klicken **[!UICONTROL Zuordnung bearbeiten]** rechts.
+1. Klicks **[!UICONTROL Zuordnung bearbeiten]** rechts.
 1. Ordnen Sie die gewünschte [!UICONTROL Quellfeld] auf die gewünschte [!UICONTROL Zielfeld]. Ein einzelnes Quellfeld kann einer beliebigen Anzahl von Zielfeldern zugeordnet werden.
 
 ## Dynamische Variablen mit der Adobe Analytics-Erweiterung

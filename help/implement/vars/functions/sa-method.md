@@ -3,10 +3,11 @@ title: sa
 description: Ändern Sie die Report Suite jederzeit in Ihrer Implementierung.
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 44%
+source-wordcount: '430'
+ht-degree: 42%
 
 ---
 
@@ -19,9 +20,9 @@ Mit der `sa()`-Methode können Sie eine Report Suite jederzeit auf der Seite dyn
 Das Web SDK sendet Daten an einen bestimmten Datastream, der Daten an die gewünschten Analytics Report Suites weiterleitet. Ein einzelner Datastream kann Daten an mehrere Report Suites weiterleiten. Dieser Abschnitt gilt sowohl für die Web SDK-Erweiterung als auch für die manuelle Implementierung des Web SDK.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-1. Klicken **[!UICONTROL Datenspeicher]** auf der linken Seite.
-1. Klicken Sie auf den gewünschten Datastream oder klicken Sie auf **[!UICONTROL Neuer Datenspeicher]**.
-1. Klicken **[!UICONTROL Dienst hinzufügen]**, wählen Sie **[!UICONTROL Adobe Analytics]**.
+1. Klicks **[!UICONTROL Datenspeicher]** auf der linken Seite.
+1. Klicken Sie auf den gewünschten Datastream oder auf **[!UICONTROL Neuer Datenspeicher]**.
+1. Klicks **[!UICONTROL Dienst hinzufügen]**, wählen Sie **[!UICONTROL Adobe Analytics]**.
 1. Geben Sie die gewünschte Report Suite-ID ein. Wenn Sie dieselben Daten an mehrere Report Suites senden möchten, klicken Sie auf **[!UICONTROL Report Suite hinzufügen]**.
 1. Nachdem alle gewünschten Report Suites eingegeben wurden, klicken Sie auf **[!UICONTROL Speichern]**.
 

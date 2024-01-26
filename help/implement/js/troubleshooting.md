@@ -3,9 +3,10 @@ title: Fehlerbehebung bei der JavaScript-Implementierung
 description: Informieren Sie sich über häufige Probleme und Best Practices zur Fehlerbehebung bei der Implementierung von JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 97%
 
 ---
@@ -89,22 +90,22 @@ Bei Implementierungen, die viele Variablen mit langen Werten füllen, kann es ma
 * **Experience Cloud Identity Service verwenden**: AppMeasurement-Bibliotheken 1.4.1 und höher senden Bildanforderungen automatisch über HTTP-POST, wenn sie zu lang sind. Daten, die mit dieser Methode gesendet werden, werden unabhängig von der Länge nicht abgeschnitten. Weitere Informationen finden Sie unter [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
 * **Verarbeitungsregeln verwenden**: [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) können Werte von einer Variablen in eine andere kopieren. Diese Methode erspart Ihnen das Festlegen des gleichen Werts in mehreren Variablen. Beispiel:
 
-   Immer ausführen:<br>
+  Immer ausführen:<br>
 Wert von prop1 mit eVar1 überschreiben<br> Wert von eVar2 mit eVar1 überschreiben<br> Wert von prop2 mit eVar1 überschreiben<br>
 
-   Legen Sie dann eVar1 in Ihrer Implementierung fest:
+  Legen Sie dann eVar1 in Ihrer Implementierung fest:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
 
 * **Dynamische Variablen verwenden**: Wenn Ihre Implementierung viele Variablen mit demselben Wert füllt, können Sie die Anforderungs-URL mit [dynamischen Variablen](/help/implement/vars/page-vars/dynamic-variables.md) verkürzen:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   s.eVar2 = "D=v1";
-   s.prop1 = "D=v1";
-   s.prop2 = "D=v1";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
 
 * **Classifications verwenden**: Wenn Produkt- oder Seitennamen ungewöhnlich lang sind, können Sie einen identifizierenden Wert oder Code und anschließend [Classifications](/help/components/classifications/c-classifications.md) verwenden, um einen benutzerfreundlicheren Namen anzuzeigen.

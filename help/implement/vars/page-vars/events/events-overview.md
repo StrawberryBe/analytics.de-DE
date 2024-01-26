@@ -3,9 +3,10 @@ title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 90%
 
 ---
@@ -52,7 +53,7 @@ Es stehen verschiedene Funktionen zur Verfügung:
 
 * Eine Dropdown-Liste, in der Sie das einzuschließende Ereignis auswählen können
 * Ein optionales Textfeld zur Serialisierung. Weitere Informationen finden Sie unter [Ereignis-Serialisierung](event-serialization.md).
-* Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Beispiel: `event1` unter der Dropdown-Liste und einschließlich `10` in diesem Feld inkrementiert `event1` um 10 Uhr in der Berichterstellung.
+* Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Wählen Sie beispielsweise `event1` unter der Dropdown-Liste und einschließlich `10` in diesem Feld erhöht `event1` um 10 Uhr in der Berichterstellung.
 * Eine Schaltfläche zum Hinzufügen eines weiteren Ereignisses. Sie können zu einer einzelnen Regel beliebig viele Ereignisse hinzufügen.
 
 ## s.events in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung

@@ -3,7 +3,8 @@ title: Lösungsdesigndokument erstellen
 description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in Ihrem Unternehmen verwenden können.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 97%
@@ -41,7 +42,7 @@ Bei der Ermittlung der zu erfassenden Daten ist es leicht, „alles“ zu sagen,
 
 ## Zusätzliche Ressourcen
 
-Die Definition eines Lösungsdesigndokuments ist ein ziemlich komplexes Projekt, besonders für Unternehmen, die noch kein Projekt erstellt haben. Wenn Sie weitere Unterstützung benötigen, bietet Adobe eine spezielle Beratung an, um Ihr Unternehmen bei der Einführung von Adobe Analytics zu unterstützen. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie die Professional Services von Adobe in Anspruch nehmen möchten. Es kann ein [technischer Fragenkatalog](assets/technical-pre-implementation-questionnaire.pdf) zur Implementierung ausgefüllt werden, damit Adobe anhand der Anforderungen Ihres Unternehmens genau weiß, wie Sie dabei unterstützt werden können.
+Die Definition eines Lösungsdesigndokuments ist ein ziemlich komplexes Projekt, besonders für Unternehmen, die noch kein Projekt erstellt haben. Wenn Sie weitere Unterstützung benötigen, bietet Adobe eine spezielle Beratung an, um Ihr Unternehmen bei der Einführung von Adobe Analytics zu unterstützen. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie Adobe Professional Services in Anspruch nehmen möchten. Es kann ein [technischer Fragenkatalog](assets/technical-pre-implementation-questionnaire.pdf) zur Implementierung ausgefüllt werden, damit Adobe anhand der Anforderungen Ihres Unternehmens genau weiß, wie Sie dabei unterstützt werden können.
 
 Es gibt auch mehrere Adobe-Partner, die sich auf die Unterstützung bei der Erstellung eines Lösungsdesigndokuments sowie die Implementierung von Adobe Analytics auf Ihrer Site spezialisiert haben.
 

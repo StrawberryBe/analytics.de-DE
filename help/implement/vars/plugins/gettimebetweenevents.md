@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: Messen Sie den Zeitraum zwischen zwei Ereignissen.
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -22,7 +23,7 @@ Dieses Plug-in wird noch nicht für die Verwendung im Web SDK unterstützt.
 
 ## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit Adobe Analytics verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
@@ -66,9 +67,9 @@ Die `getTimeBetweenEvents`-Funktion verwendet die folgenden Argumente:
 * **`stp`** (erforderlich, Zeichenfolge): Stop-Timer-Ereignisse. Eine durch Komma getrennte Zeichenfolge aus Analytics-Ereignissen, die den Timer stoppen sollen.
 * **`res`** (erforderlich, boolesch): Option, den Timer zurückzusetzen. Setzen Sie das Argument auf `true`, wenn Sie die Zeit seit dem Start des Timers aufzeichnen UND den Timer nach dem Stoppen zurücksetzen möchten. Setzen Sie das Argument auf `false`, wenn Sie die Zeit aufzeichnen, den Timer jedoch nicht stoppen möchten. Wenn das Argument auf `false` gesetzt ist, läuft der Timer nach der Aufzeichnung eines Stopp-Ereignisses durch die Ereignisvariable weiter.
 
-   >[!TIP]
-   >
-   >Wenn Sie dieses Argument auf `false` setzen, empfiehlt es sich dringend, das unten stehende `rte`-Argument festzulegen.
+  >[!TIP]
+  >
+  >Wenn Sie dieses Argument auf `false` setzen, empfiehlt es sich dringend, das unten stehende `rte`-Argument festzulegen.
 * **`cn`** (optional, Zeichenfolge): Der Cookie-Name, in dem die Zeit des ersten Ereignisses gespeichert wird. Die Standardeinstellung ist `"s_tbe"`.
 * **`etd`** (optional, Ganzzahl): Die Ablaufzeit für das Cookie in Tagen. Setzen Sie das Argument auf `0`, damit das Cookie am Ende der Browser-Sitzung abläuft. Wenn kein Wert festgelegt ist, wird standardmäßig 1 Tag verwendet.
 * **`fmt`** (optional, Zeichenfolge): Das Format der Zeit, in der die Anzahl der Sekunden zurückgegeben wird (standardmäßig leer)

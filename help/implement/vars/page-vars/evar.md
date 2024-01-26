@@ -3,9 +3,10 @@ title: eVar (Variable)
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '402'
 ht-degree: 96%
 
 ---

@@ -3,9 +3,10 @@ title: Util.cookieRead
 description: Ruft den Wert aus einem Cookie ab.
 feature: Variables
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 72%
 
 ---

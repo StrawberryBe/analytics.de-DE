@@ -3,10 +3,11 @@ title: doPlugins
 description: Konfigurieren Sie die Logik, kurz bevor ein Treffer kompiliert und an Adobe gesendet wird.
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '309'
+ht-degree: 63%
 
 ---
 

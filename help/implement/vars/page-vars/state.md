@@ -3,9 +3,10 @@ title: state
 description: Füllen Sie den Bericht „Bundesstaat des Besuchers“ in Reports and Analytics.
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '223'
 ht-degree: 93%
 
 ---

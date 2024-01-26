@@ -3,10 +3,11 @@ title: trackOffline
 description: Aktivieren oder deaktivieren Sie Offline-Tracking, wodurch sich die Datenerfassung in AppMeasurement ändert.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +35,7 @@ Das Web SDK unterstützt kein Offline-Tracking.
 
 ## Offline-Tracking mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.trackOffline in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

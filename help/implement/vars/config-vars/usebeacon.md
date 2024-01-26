@@ -3,10 +3,11 @@ title: useBeacon
 description: Mit useBeacon können Sie AppMeasurement zur Verwendung der sendBeacon-API des Browsers zwingen.
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 

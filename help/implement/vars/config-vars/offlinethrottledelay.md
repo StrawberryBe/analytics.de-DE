@@ -3,10 +3,11 @@ title: offlineThrottleDelay
 description: Legt die Häufigkeit von Treffern fest, wenn ein Gerät wieder online geht.
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +19,7 @@ Wenn ein Gerät wieder online geht, werden alle auf dem Gerät gespeicherten Tre
 
 ## Offline-Einschränkungsverzögerung mit der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.offlineThrottleDelay in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

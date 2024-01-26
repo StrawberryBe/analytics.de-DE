@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: 44830c4e68c4d6f9cace620e81d7adeda1de3563
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '402'
 ht-degree: 98%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 98%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins   {#plugins}
+   + Plug-ins {#plugins}
       + [Übersicht über Plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -171,7 +171,6 @@ ht-degree: 98%
    + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
 + Analytics auf anderen Plattformen implementieren {#other}
    + [Analytics mit fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
-   + [Analytics mit DTM implementieren](other/dtm-implementation-overview.md)
    + [Analytics auf Ajax implementieren](other/ajax.md)
    + [Analytics auf AMP implementieren](other/amp.md)
    + [Analytics auf digitalen Assistenten implementieren](other/digital-assistants.md)

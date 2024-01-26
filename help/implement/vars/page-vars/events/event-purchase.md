@@ -3,10 +3,11 @@ title: Kaufereignis
 description: Verwenden Sie das Kaufereignis, um Daten zu den Metriken „Bestellungen“, „Einheiten“ und „Umsatz“ zu erfassen.
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 75%
+source-wordcount: '451'
+ht-degree: 74%
 
 ---
 
@@ -22,7 +23,7 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 
 >[!NOTE]
 >
->Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispiel: `s.products="Womens;Socks;5;4.50"` überweist keine 22,50 USD in den Umsatz; Er überspringt 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist. Zum Beispiel `s.products="Womens;Socks;5;22.50"`.
+>Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispiel: `s.products="Womens;Socks;5;4.50"` übergibt 22,50 USD nicht in den Umsatz, sondern 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist. Zum Beispiel `s.products="Womens;Socks;5;22.50"`.
 
 ## Festlegen des Kaufereignisses mit dem Web SDK
 
@@ -43,7 +44,7 @@ Das Kaufereignis ist [für Adobe Analytics zugeordnet](https://experienceleague.
 
 Andere abhängige Variablen wie `products` und `purchaseID` verfügen nicht über dedizierte Felder in der Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## Festlegen des Kaufereignisses in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung festlegen
 
 Das Kaufereignis ist eine Zeichenfolge, die als Teil der Ereignisvariablen festgelegt wird.
 

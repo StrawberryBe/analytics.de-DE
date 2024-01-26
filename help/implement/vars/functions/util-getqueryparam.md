@@ -3,10 +3,11 @@ title: Util.getQueryParam
 description: Gibt den Wert eines Abfragezeichenfolgenparameters zurück.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 80%
+source-wordcount: '268'
+ht-degree: 79%
 
 ---
 

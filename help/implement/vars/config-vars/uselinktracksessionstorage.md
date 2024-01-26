@@ -3,10 +3,11 @@ title: useLinkTrackSessionStorage
 description: Speichern von Linktracking-Daten im Sitzungsspeicher statt in einem Cookie.
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -31,7 +32,7 @@ Das Web SDK unterstützt diese Funktion nicht.
 
 ## Verwenden des Linktracking-Sitzungsspeichers mithilfe der Adobe Analytics-Erweiterung
 
-Es gibt kein spezielles Feld in der Adobe Analytics-Erweiterung, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## s.useLinkTrackSessionStorage in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
