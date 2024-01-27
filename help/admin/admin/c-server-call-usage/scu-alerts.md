@@ -3,9 +3,10 @@ description: Fügen Sie Warnhinweise zur Nutzung von Server-Aufrufen hinzu oder 
 title: Warnhinweise zur Nutzung von Server-Aufrufen
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -13,8 +14,6 @@ ht-degree: 100%
 # Warnhinweise zur Nutzung von Server-Aufrufen
 
 Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites und Anmeldeunternehmen eines Abrechnungsunternehmens.
-
-## Überblick
 
 Eine neue Warnhinweiskategorie namens **[!UICONTROL Warnhinweise zur Nutzung von Server-Aufrufen]** ist Teil der bestehenden Benutzeroberfläche [Warnhinweisverwaltung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=de).
 
@@ -31,7 +30,7 @@ Sie können mithilfe von zwei Methoden auf die Warnhinweise zur Nutzung von Serv
 * Klicken Sie auf **[!UICONTROL Warnhinweise verwalten]** in der oberen rechten Ecke der Registerkarte „Aktuelle Nutzung“ oder der Registerkarte „Nutzung der Report Suite“; oder
 * Navigieren Sie in Adobe Analytics zu **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**.
 
-## Erstellen von Warnhinweisen zur Nutzung von Server-Aufrufen {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## Erstellen von Warnhinweisen zur Nutzung von Server-Aufrufen {#create}
 
 Um zusätzliche Warnhinweise zu erstellen:
 
@@ -58,7 +57,7 @@ Legen Sie den Schwellenwert und die Bedingung (ist höher oder gleich oder niedr
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Verwalten von Warnhinweisen zur Nutzung von Server-Aufrufen {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## Verwalten von Warnhinweisen zur Nutzung von Server-Aufrufen {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -75,5 +74,7 @@ Warnhinweise verwalten:
    | Umbenennen | Sie können alle Warnhinweise mit Ausnahme des standardmäßigen Warnhinweises umbenennen. |
    | Genehmigen | Genehmigen Sie Warnhinweise, um sie „offiziell“ zu machen. |
    | Aktivieren/deaktivieren | Sie können alle Warnhinweise mit Ausnahme der standardmäßigen Warnhinweise aktivieren oder deaktivieren. |
-   | Verlängern | Wenn ein oder mehrere Warnhinweise ausgewählt sind, können diese verlängert werden. Dadurch werden die Ablaufdaten ab dem Tag, an dem auf [!UICONTROL Verlängern] geklickt wurde, unabhängig vom ursprünglichen Ablaufdatum um 1 Jahr verlängert. |
+   | Verlängern | Wenn ein oder mehrere Warnhinweise ausgewählt sind, können sie verlängert werden. Dadurch wird ihr Ablaufdatum auf ein Jahr nach dem Tag, an dem auf [!UICONTROL Verlängern] geklickt wurde, verlängert, ungeachtet des ursprünglichen Ablaufdatums. |
    | In CSV exportieren | Siehe [Nutzungsbericht herunterladen](/help/admin/admin/c-server-call-usage/report-suite-usage.md) |
+
+   {style="table-layout:auto"}

@@ -3,10 +3,11 @@ description: Die Registerkarte „Nutzung der Report Suite“ bietet Daten über
 title: Anzeigen der Nutzung der Report Suite
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +31,8 @@ Das Dashboard zur Nutzung der Report Suite
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
+## Dashboard-Einstellungen {#settings}
+
 | Spalte | Definition |
 |--- |--- |
 | Name der Report Suite | Anzeigename der Report Suite |
@@ -39,8 +42,9 @@ Das Dashboard zur Nutzung der Report Suite
 | Primäre mobile Aufrufe (%) | Alle primären mobilen Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
 | Sekundäre mobile Aufrufe (%) | Alle sekundären mobilen Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
 
+{style="table-layout:auto"}
 
-## Nutzungsbericht herunterladen {#section_D7345660B5E043CD8850954216509A3D}
+## Nutzungsbericht herunterladen {#download}
 
 Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der aktuellen Nutzungsperiode herunterladen (bis Januar 2015). Der Bericht wird als .csv-Datei heruntergeladen.
 
@@ -55,6 +59,8 @@ Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der ak
 | Enthaltene Report Suites | Diese Liste enthält jegliche Report Suites, die Sie auf der „Nutzung der Report Suite“-Seite ausgewählt haben. |
 | Enthaltene Aufrufarten | Legen Sie eine beliebige Kombination aus Folgendem fest: Alle Aufrufe (Standard), Primär, Sekundär, Primär mobil, Sekundär mobil. |
 | Zeitraum | Sie können die aktuelle Nutzungsperiode auswählen oder selbst einen Zeitraum definieren.  Wenn Sie selbst einen Zeitraum definieren möchten, dann geben Sie bitte einen Beginn des Zeitraums und ein Ende des Zeitraums ein. <br>**Hinweis:** Sie können keine Nutzungsdaten herunterladen, die vor Januar 2015 aufgezeichnet wurden</br>. |
+
+{style="table-layout:auto"}
 
 1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 

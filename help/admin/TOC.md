@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '631'
 ht-degree: 91%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 91%
             + [Konfiguration von Echtzeitberichten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [Verwalten von Report Suites](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Datenaggregations-Report Suites und globale Report Suites](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Globale Report Suites](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Speichern einer Report Suite-Suche](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Herunterladen von Report Suite-Einstellungen](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Neue Report Suite {#c-new-report-suite}

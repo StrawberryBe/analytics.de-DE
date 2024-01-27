@@ -3,14 +3,15 @@ description: Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deak
 title: Deaktivieren von veralteten Anmeldedaten
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Deaktivieren von veralteten Anmeldedaten{#disable-legacy-logins}
+# Deaktivieren von veralteten Anmeldedaten
 
 Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deaktivieren können.
 

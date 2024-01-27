@@ -3,16 +3,15 @@ description: Überblick über die Funktionen von Adobe Analytics zur Nutzung von
 title: Übersicht zur Nutzung von Server-Aufrufen
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
-source-wordcount: '0'
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
 
-# Übersicht zur Nutzung von Server-Aufrufen
-
-## Warum sollte man die Nutzung der Server-Aufrufe überwachen und Warnhinweise einrichten? {#section_060C29BF1D00444B85892AD1FCF55290}
+# Nutzung der Server-Aufrufe
 
 Mit der Nutzung der Server-Aufrufe von Adobe Analytics können Sie Einsicht in Daten über die Server-Aufrufe von Browsern und Mobilgeräten erhalten. Sie können damit auf Folgendes zugreifen:
 
@@ -31,7 +30,7 @@ Bisher konnten Sie zwar unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin]*
 * **Berechtigungen:** Um auf das Dashboard zur Nutzung von Server-Aufrufen und die Warnhinweiserstellung/-verwaltung zugreifen zu können, müssen Sie ein Adobe Analytics-Administrator sein.
 * **Berechtigungen:** Administratoren können Nicht-Administratoren die nötige Berechtigung verschaffen. Sie trägt den Namen **[!UICONTROL Nutzung der Server-Aufrufe]**. Siehe [Berechtigung zur Nutzung von Server-Aufrufen](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
-## Wichtige Begriffe {#section_CBA348A039F34563B097CD8890AB358D}
+## Wichtige Begriffe {#terminology}
 
 Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf die Nutzung der Server-Aufrufe:
 
@@ -80,7 +79,7 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
  </tbody> 
 </table>
 
-## Berechtigung zur Nutzung von Server-Aufrufen {#section_FCC58EB635954A32990D4E67B52B4369}
+## Berechtigung zur Nutzung von Server-Aufrufen {#permission}
 
 Analytics-Administratoren erhalten automatisch die Berechtigung zur Nutzung von Server-Aufrufen. Damit können Nutzer das Dashboard einsehen und Warnhinweise zu Server-Aufrufen erstellen. Administratoren können diese Berechtigung auch Nicht-Administratoren gewähren.
 

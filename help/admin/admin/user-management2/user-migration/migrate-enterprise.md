@@ -3,14 +3,15 @@ description: So migrieren Sie Analytics-Benutzerkonten als Enterprise oder Feder
 title: Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
-source-wordcount: '763'
-ht-degree: 100%
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 97%
 
 ---
 
-# Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs
 
 So migrieren Sie Analytics-Benutzerkonten als Enterprise oder Federated IDs in die Adobe Admin Console.
 
@@ -127,7 +128,7 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domain </p> </td> 
-   <td colname="col2"> <p>Achten Sie darauf, dass die Domänen in  den Spalten <span class="term">Domain</span> und <span class="term">E-Mail</span> mit den Domänen übereinstimmen, die in den Voraussetzungen</a> festgelegt wurden. </p> </td> 
+   <td colname="col2"> <p>Stellen Sie sicher, dass die Domänen in <span class="term"> Domäne</span> und <span class="term"> Email</span> -Spalte mit der/den Domäne(n) übereinstimmen, die/die in den Voraussetzungen eingerichtet wurden</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ländercode </p> </td> 

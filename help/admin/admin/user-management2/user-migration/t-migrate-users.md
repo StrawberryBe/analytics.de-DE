@@ -3,18 +3,15 @@ description: Migrieren Sie Benutzer aus dem vormaligen Analytics User Management
 title: Migrieren von Analytics-Benutzerkonten für Adobe IDs
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 99%
 
 ---
 
-# Migrieren von Analytics-Benutzerkonten für Adobe IDs{#migrate-analytics-user-accounts-for-adobe-ids}
-
-Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in die Admin Console.
-
-## Migrieren von Analytics-Benutzerkonten für Adobe IDs {#task-f3355f3b14a340feae58cfa04c0ba1c9}
+# Migrieren von Analytics-Benutzerkonten für Adobe IDs
 
 Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in die Admin Console.
 
@@ -22,17 +19,15 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
 >
 >Versuchen Admins, die nicht über die Experience Cloud angemeldet sind, auf das Benutzer-ID-Migrations-Tool zuzugreifen, werden sie zur Experience Cloud-Anmeldeseite weitergeleitet.
 
-**Migrieren von Analytics-Benutzern**
-
 1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Benutzer-ID-Migration]**.
 
    ![](/help/admin/admin/user-management2/user-migration/assets/migration-progress.png)
 
    Die Seite zur Migration von Benutzer-IDs besteht aus zwei Abschnitten: *Migrationsprozess* und *Benutzerdaten*.
 
-   **Migrationsprozess**
+## Migrationsfortschritt
 
-   <table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
+<table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
    <thead> 
    <tr> 
       <th colname="col1" class="entry"> Phase </th> 
@@ -51,28 +46,28 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
    </tbody> 
    </table>
 
-   **Benutzerdaten**
+## Benutzerinformationen
 
-   Die Benutzerdaten zeigen die Benutzer in Ihrer Organisation an, getrennt durch den Domänennamen.
+Die Benutzerdaten zeigen die Benutzer in Ihrer Organisation an, getrennt durch den Domänennamen.
 
-   <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
-   <thead> 
-   <tr> 
-      <th colname="col1" class="entry"> Element </th> 
-      <th colname="col2" class="entry"> Beschreibung </th> 
-   </tr>
-   </thead>
-   <tbody> 
-   <tr> 
-      <td colname="col1"> <p>Domain </p> </td> 
-      <td colname="col2"> <p>Domänen beziehen sich auf die E-Mail-IDs der aktuellen Analytics-Benutzerbasis. Eine Domain kann nur von einem einzigen Unternehmen und nur durch Systemadministratoren in Anspruch genommen werden. Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/de/enterprise/help/request-access-to-claimed-domain.html">Anfordern des Zugriffs auf eine beanspruchte Domain</a>. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Domain angefordert </p> </td> 
-      <td colname="col2"> <p>Wenn Sie Benutzende als Enterprise- oder Federated IDs migrieren möchten, müssen Sie Systemadministrator bzw. Systemadministratorin sein und eine verfügbare Domain über die Adobe Admin Console anfordern, bevor Sie Benutzende migrieren können. <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">Weitere Informationen</a>. </p> <p>Wenn Sie keine Domänen für Enterprise- oder Federated IDs anfordern möchten, überspringen Sie diesen Schritt und migrieren Sie Benutzer als Adobe IDs. Erfahren Sie <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">hier</a> mehr über ID-Typen. </p> </td> 
-   </tr> 
-   </tbody> 
-   </table>
+<table id="table_3822E27AF81E4A188562FEB5131548A5"> 
+<thead> 
+<tr> 
+   <th colname="col1" class="entry"> Element </th> 
+   <th colname="col2" class="entry"> Beschreibung </th> 
+</tr>
+</thead>
+<tbody> 
+<tr> 
+   <td colname="col1"> <p>Domain </p> </td> 
+   <td colname="col2"> <p>Domänen beziehen sich auf die E-Mail-IDs der aktuellen Analytics-Benutzerbasis. Eine Domain kann nur von einem einzigen Unternehmen und nur durch Systemadministratoren in Anspruch genommen werden. Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/de/enterprise/help/request-access-to-claimed-domain.html">Anfordern des Zugriffs auf eine beanspruchte Domain</a>. </p> </td> 
+</tr> 
+<tr> 
+   <td colname="col1"> <p>Domain angefordert </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Benutzende als Enterprise- oder Federated IDs migrieren möchten, müssen Sie Systemadministrator bzw. Systemadministratorin sein und eine verfügbare Domain über die Adobe Admin Console anfordern, bevor Sie Benutzende migrieren können. <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">Weitere Informationen</a>. </p> <p>Wenn Sie keine Domänen für Enterprise- oder Federated IDs anfordern möchten, überspringen Sie diesen Schritt und migrieren Sie Benutzer als Adobe IDs. Erfahren Sie <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">hier</a> mehr über ID-Typen. </p> </td> 
+</tr> 
+</tbody> 
+</table>
 
 1. Suchen Sie nach der Domain, die die zu migrierenden Benutzer-IDs enthält, und klicken Sie dann unter **[!UICONTROL Migration erforderlich]** auf **[!UICONTROL Benutzer auswählen]**.
 1. Wählen Sie auf der Seite „[!DNL Users]“ die Benutzer aus, die Sie migrieren möchten, und klicken Sie dann auf **[!UICONTROL Migrieren]**.

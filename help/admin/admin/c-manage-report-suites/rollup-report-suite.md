@@ -1,22 +1,17 @@
 ---
-description: Beschreibungen von Report Suite-Typen und Vergleich globaler Report Suites und Datenaggregations-Report Suites.
-title: Report Suite-Ansätze
+description: Beschreibung globaler Report Suites
+title: Globale Report Suites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# Report Suite-Ansätze
-
-<!-- change filename since page name changed? -->
-
-Sie können Ihre Report Suites als *globale Report Suites* oder als *Datenaggregations-Report Suites* konfigurieren.
-
-## Globale Report Suites
+# Globale Report Suites
 
 Bei einer globalen Report Suite handelt es sich um eine Report Suite, die Daten aus allen Domains und Programmen sammelt, die Ihr Unternehmen besitzt. Damit alle Bildanfragen an eine einzige Report Suite gesendet werden, ist eine Implementierung erforderlich.
 
@@ -38,13 +33,13 @@ Mit den Methoden *Multi-Suite-Tagging* und *Virtual Report Suite* können Sie Te
 
 Die Verwendung von Virtual Report Suites anstelle von Multi-Suite-Tagging ist oft empfehlenswert, aber Virtual Report Suites weisen einige Einschränkungen auf. Siehe [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md), um zu bestimmen, welcher Report Suite-Ansatz für Ihre Geschäftsanforderungen am besten geeignet ist. Einen detaillierten Vergleich der Virtual Report Suites und Multi-Suite-Tagging-Funktionen finden Sie unter[Virtual Report Suites im Vergleich zum Multi-Suite-Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## Datenaggregationsberichte
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] ist das einzige Tool, das Datenaggregationsberichte unterstützt. Reports &amp; Analytics wurde am 17. Januar 2024 eingestellt.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

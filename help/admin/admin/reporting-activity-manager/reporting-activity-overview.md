@@ -1,11 +1,13 @@
 ---
 description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
-title: Reporting Activity Manager Übersicht
+title: Übersicht über die Berichterstellung in Activity Manager
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
@@ -13,7 +15,7 @@ ht-degree: 23%
 
 Die [!UICONTROL Reporting Activity Manager] ist für Administratoren verfügbar.
 
-Wenn die Berichtsleistung Ihres Unternehmens während Spitzenzeiten bei der Berichterstellung beeinträchtigt wird, können Sie mit dem Reporting Activity Manager Kapazitätsprobleme selbstdiagnostizieren und beheben, ohne die Adobe-Kundenunterstützung zu kontaktieren. Sie können Berichtswarteschlangen einfach in einer einzigen Oberfläche verwalten und sofort handeln, um das Benutzererlebnis zu verbessern.
+Wenn die Berichtsleistung Ihres Unternehmens während Spitzenzeiten bei der Berichterstellung beeinträchtigt wird, können Sie mit dem Reporting Activity Manager Kapazitätsprobleme selbstdiagnostizieren und beheben, ohne die Adobe-Kundenunterstützung zu kontaktieren. Sie können einfach Berichtwarteschlangen in einer einzigen Oberfläche verwalten und sofort &#x200B; handeln, um das Benutzererlebnis zu verbessern.
 
 ## Vorteile
 
@@ -38,4 +40,3 @@ Informationen zum Anzeigen der Berichtsaktivität im Reporting-Aktivitäts-Manag
 ## Abbrechen von Berichtsanfragen
 
 Informationen zum Abbrechen von Berichtsanforderungen im Reporting-Aktivitäts-Manager finden Sie unter [Abbrechen von Berichtsanforderungen im Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
-

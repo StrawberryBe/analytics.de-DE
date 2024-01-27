@@ -2,21 +2,22 @@
 description: Verwalten Sie Analytics-Benutzer und deren Assets in der Adobe Admin Console.
 title: Verwalten von Analytics-Benutzern und -Assets
 feature: Admin Tools
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 6%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
-
 # Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs
 
-Die meisten Benutzer- und Produktverwaltungsfunktionen wurden in die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). (Informationen zum Verwalten von Benutzerberechtigungen für Adobe Analytics-Benutzende finden Sie unter [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md).)
+Die meisten Benutzer- und Produktverwaltungsfunktionen wurden in die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). (Informationen zum Verwalten von Benutzerberechtigungen für Adobe Analytics-Benutzer finden Sie unter [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md).
 
 Während die meisten Benutzer- und Produktverwaltungsfunktionen jetzt nur noch in der Adobe Admin Console verfügbar sind, sind die auf dieser Seite beschriebenen Verwaltungsfunktionen nur im Adobe Analytics Admin-Bereich verfügbar.
 
-## Übertragen von Assets von einem Analytics-Benutzer an einen anderen
+## Übertragen von Assets von einem Analytics-Benutzer an einen anderen {#transfer}
 
 1. Navigieren Sie zu **Admin** > [!UICONTROL **Analytics-Benutzer und -Assets**].
 Die Seite Benutzer wird angezeigt.
@@ -32,7 +33,7 @@ Die Seite Benutzer wird angezeigt.
    Alle Assets, die Sie ausgewählt haben, werden an den vorgesehenen Benutzer übertragen.
 
 
-## Ablaufdatum für ein Benutzerkonto festlegen
+## Ablaufdatum für ein Benutzerkonto festlegen {#expiration}
 
 1. Navigieren Sie zu **Admin** > [!UICONTROL **Analytics-Benutzer und -Assets**].
 Die Seite Benutzer wird angezeigt.

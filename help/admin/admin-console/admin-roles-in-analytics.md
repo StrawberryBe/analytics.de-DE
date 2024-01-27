@@ -3,9 +3,10 @@ title: Administratorrollen in Adobe Analytics
 description: Hier erfahren Sie mehr über die ersten Schritte mit Adobe Analytics, die unterschiedlichen Typen von Rollen und der Anmeldung bei der Benutzeroberfläche.
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '1128'
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '1122'
 ht-degree: 100%
 
 ---

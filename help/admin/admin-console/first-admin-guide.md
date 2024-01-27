@@ -1,32 +1,33 @@
 ---
-title: Erste Administratorhandbuch für Adobe Analytics
+title: Adobe Analytics-Handbuch für erste Administratoren
 description: Erfahren Sie, wie der erste Admin-Bereitstellungsprozess und die nächsten Schritte ablaufen.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 19%
+ht-degree: 43%
 
 ---
 
-# Erste Administratorhandbuch für Adobe Analytics
+# Adobe Analytics-Handbuch für erste Administratoren
 
-Bevor Benutzern in Adobe Analytics Benutzerrollen zugewiesen werden können, muss ein Benutzer als erster Administrator in Experience Cloud zugewiesen werden. Der erste Administrator kann dann Benutzer in der Organisation mit anderen Schlüsselrollen versorgen.
+Bevor Benutzenden in Adobe Analytics Benutzerrollen zugewiesen werden können, muss ein Benutzer bzw. eine Benutzerin als erster Administrator bzw. erste Administratorin in Experience Cloud zugewiesen werden. Der erste Administrator kann dann Benutzer in der Organisation mit anderen Schlüsselrollen versorgen.
 
 Ein erster Administrator ist der Ausgangspunkt, um dem Rest der Organisation die Verwendung der einzelnen Experience Cloud-Lösungen, einschließlich Adobe Analytics, zu ermöglichen.
 
 ## Bereitstellungsprozess für einen ersten Administrator
 
-Nach Unterzeichnung eines Vertrags:
+Nach der Unterzeichnung eines Vertrags:
 
-1. Das Bereitstellungsteam von Adobe bereitet die Erstellung des Kontos vor.
+1. Das Bereitstellungs-Team von Adobe bereitet die Erstellung des Kontos vor.
 
-1. Der erste Administrator erhält vor dem Vertragsbeginn eine E-Mail mit Anmeldeinformationen.
+1. Der erste Administrator bzw. die erste Administratorin erhält vor dem Vertragsbeginn eine E-Mail mit Anmeldeinformationen.
 
 >[!IMPORTANT]
 >
->   Es wird dringend empfohlen, sicherzustellen, dass die korrekten Kontaktinformationen des ersten Administrators vor Vertragsabschluss an Adobe weitergegeben werden.
+>   Es wird dringend empfohlen zu überprüfen, ob die korrekten Kontaktinformationen des ersten Administrators bzw. der ersten Administratorin vor Vertragsabschluss an Adobe übermittelt wurden.
 
 ## Nächste Schritte
 

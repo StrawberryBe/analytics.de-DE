@@ -3,10 +3,11 @@ title: Nach IP-Adresse ausschließen
 description: Verhindern, dass von bestimmten IP-Adressen generierte Daten in Berichten angezeigt werden.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 93%
+source-wordcount: '219'
+ht-degree: 94%
 
 ---
 
@@ -30,4 +31,4 @@ Sie können Platzhalterindikatoren (&#42;), um einen Adressbereich auszuschließ
 
 Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP verschleiert wird. Kunden müssen also keine Änderungen vornehmen, wenn sie die IP-Verschleierung aktivieren.
 
-Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten angepasst werden, um IP-Adressen mit einer Null am Ende zu berücksichtigen. Übereinstimmung &#42; sollte mit 0 übereinstimmen.
+Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten aktualisiert werden, sodass sie IP-Adressen mit einer Null am Ende berücksichtigen. Übereinstimmende &#42; sollten 0 entsprechen.

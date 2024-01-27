@@ -3,8 +3,9 @@ description: Verwalten von Lizenzen, die Report Builder-Benutzern zugewiesen wur
 title: Report Builder-Berichte
 feature: Company Settings
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: ht
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%
 

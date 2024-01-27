@@ -2,10 +2,12 @@
 description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
 title: Abbrechen von Berichtsanforderungen im Reporting Activity Manager
 feature: Admin Tools
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 15%
+source-wordcount: '1439'
+ht-degree: 13%
 
 ---
 
@@ -51,13 +53,13 @@ Sie können einzelne Anforderungen abbrechen, die eine große Menge an Berichtsk
 
    1. Aktivieren Sie die Option zum [!UICONTROL **Einschränken nachfolgender Anforderungen**]
 
-      ![Nachfolgende Anfragen einschränken](assets/restrict-subsequent-requests.png)
+      ![Einschränken nachfolgender Anforderungen](assets/restrict-subsequent-requests.png)
 
    1. Wählen Sie aus den folgenden Optionen:
 
       | Option | Funktion |
       |---------|----------|
-      | [!UICONTROL **Benutzerin bzw. Benutzer und Projekt**] | Benutzende, die mit den ausgewählten Anfragen verknüpft sind, werden vorübergehend von der Ausführung von Berichtsanfragen für die ausgewählten Projekte ausgeschlossen. |
+      | [!UICONTROL **Benutzer und Projekt**] | Benutzende, die mit den ausgewählten Anfragen verknüpft sind, werden vorübergehend von der Ausführung von Berichtsanfragen für die ausgewählten Projekte ausgeschlossen. |
       | [!UICONTROL **Benutzer**] | Benutzende, die mit den ausgewählten Anträgen verknüpft sind, können vorübergehend keine weiteren Reporting-Anfragen stellen. |
       | [!UICONTROL **Projekt**] | Projekte, die mit den ausgewählten Anfragen verknüpft sind, werden vorübergehend von allen Reporting-Anfragen ausgeschlossen. |
       | [!UICONTROL **Eingeschränkt für**] | Wählen Sie aus, wie lange Anforderungen eingeschränkt sein sollen. Sie können zwischen 1 Minute (Standard), 5 Minuten, 10 Minuten, 15 Minuten oder 30 Minuten wählen. <!-- double-check this --><p>Sie können eine Beschränkung nicht frühzeitig entfernen, nachdem sie festgelegt wurde.</p> |
@@ -98,7 +100,7 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Benutzern 
 
       | Option | Funktion |
       |---------|----------|
-      | [!UICONTROL **Benutzerin bzw. Benutzer und Projekt**] | Ausgewählte Benutzende können vorübergehend keine Berichtsanfragen für die verknüpften Projekte stellen. |
+      | [!UICONTROL **Benutzer und Projekt**] | Ausgewählte Benutzende können vorübergehend keine Berichtsanfragen für die verknüpften Projekte stellen. |
       | [!UICONTROL **Benutzer**] | Ausgewählte Benutzende können vorübergehend keine Berichtsanfragen stellen. |
       | [!UICONTROL **Projekt**] | Projekte, die mit den ausgewählten Benutzenden verbunden sind, werden von allen Berichtsanfragen ausgeschlossen, die von anderen Benutzenden gestellt werden. |
       | [!UICONTROL **Eingeschränkt für**] | Wählen Sie aus, wie lange Anforderungen eingeschränkt sein sollen. Sie können zwischen 1 Minute (Standard), 5 Minuten, 10 Minuten, 15 Minuten oder 30 Minuten wählen. <!--double-check this--> <p>Sie können eine Beschränkung nicht frühzeitig entfernen, nachdem sie festgelegt wurde.</p> |
@@ -139,7 +141,7 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Projekten 
 
       | Option | Funktion |
       |---------|----------|
-      | [!UICONTROL **Benutzerin bzw. Benutzer und Projekt**] | Ausgewählte Projekte werden vorübergehend von allen Berichtsanfragen der verknüpften Benutzenden ausgeschlossen. |
+      | [!UICONTROL **Benutzer und Projekt**] | Ausgewählte Projekte werden vorübergehend von allen Berichtsanfragen der verknüpften Benutzenden ausgeschlossen. |
       | [!UICONTROL **Benutzer**] | Benutzende, die mit den ausgewählten Projekten verknüpft sind, können vorübergehend keine weiteren Berichtsanfragen stellen. |
       | [!UICONTROL **Projekt**] | Ausgewählte Projekte sind vorübergehend von jeglichen Berichtsanfragen eines Benutzers ausgeschlossen. |
       | [!UICONTROL **Eingeschränkt für**] | Wählen Sie aus, wie lange Anforderungen eingeschränkt sein sollen. Sie können zwischen 1 Minute (Standard), 5 Minuten, 10 Minuten, 15 Minuten oder 30 Minuten wählen. <!--double-check this--> <p>Sie können eine Beschränkung nicht frühzeitig entfernen, nachdem sie festgelegt wurde.</p> |
@@ -193,7 +195,7 @@ So brechen Sie Anfragen nach Anwendung ab:
 
       | Option | Funktion |
       |---------|----------|
-      | [!UICONTROL **Benutzerin bzw. Benutzer und Projekt**] | Ausgewählte Anwendungen sind vorübergehend auf Berichterstellungsanforderungen der assoziierten Benutzer und Projekte beschränkt.<p>Dies ist die am wenigsten restriktive Option.</p> |
+      | [!UICONTROL **Benutzer und Projekt**] | Ausgewählte Anwendungen sind vorübergehend auf Berichterstellungsanforderungen der assoziierten Benutzer und Projekte beschränkt.<p>Dies ist die am wenigsten restriktive Option.</p> |
       | [!UICONTROL **Benutzer**] | Benutzer, die mit den ausgewählten Anwendungen verknüpft sind, können keine Berichterstellungsanfragen stellen. |
       | [!UICONTROL **Projekt**] | Projekte, die mit den ausgewählten Anwendungen verknüpft sind, sind auf alle Berichterstellungsanforderungen eines Benutzers beschränkt. |
       | [!UICONTROL **Eingeschränkt für**] | Wählen Sie aus, wie lange Anforderungen eingeschränkt sein sollen. Sie können zwischen 1 Minute (Standard), 5 Minuten, 10 Minuten, 15 Minuten oder 30 Minuten wählen. <!--double-check this--> <p>Sie können eine Beschränkung nicht frühzeitig entfernen, nachdem sie festgelegt wurde.</p> |

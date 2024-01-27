@@ -3,10 +3,11 @@ title: Administratorhandbuch für Analytics
 description: Hilfe zur Verwaltung für Adobe Analytics-Administratoren, darunter zu Benutzer- und Produktverwaltung in der Admin Console, Einrichtung von Report Suites, Variablen, Klassifizierungen und Datenerfassung.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +35,7 @@ Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin 
 
 ## Wichtige Artikel
 
-* [Analytics-Administratorhandbuch für Einsteiger](admin-console/first-admin-guide.md): Wenn Sie Adobe Analytics noch nicht kennen, lesen Sie dieses Handbuch, um Adobe Analytics optimal zu nutzen.
+* [Erste Administratorhandbuch für Analytics](admin-console/first-admin-guide.md): Wenn Ihr Unternehmen neu in Adobe Analytics ist, folgen Sie diesem Handbuch, um Adobe Analytics optimal zu nutzen.
 * [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Report Suite Manager enthält Einstellungen für die Verwaltung von Variablen, Classifications, Zeitzonen und vielem mehr.
 
 ## Weitere Benutzerhandbücher für Analytics
