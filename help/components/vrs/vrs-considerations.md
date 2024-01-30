@@ -4,10 +4,10 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 85%
+source-wordcount: '1636'
+ht-degree: 79%
 
 ---
 
@@ -31,13 +31,13 @@ Für Virtual Report Suites wird die Freigabe von Segmenten in Adobe Experience C
 
 Segmente aus einer Virtual Report Suite können noch nicht für die Personalisierung und das Targeting in Adobe Experience Cloud veröffentlicht werden. Alle Benutzer, die Segmente veröffentlichen, benötigen zu diesem Zweck Zugriff auf die Quell-Report Suite. Nehmen wir an, Sie möchten, dass Ihre Benutzer ausschließlich Zugriff auf Virtual Report Suites in ihrer geografischen Region haben. Sie möchten aber, dass sie auch Segmente aus Adobe Analytics erstellen und für das Targeting mit Adobe Target in Adobe Experience Cloud freigeben können. In diesem Fall empfiehlt Adobe die Verwendung von Multi-Suite-Tagging. Wenn es Sie nicht stört, dass Benutzer Zugriff auf die globale Report Suite haben, oder keine Segmente veröffentlichen müssen, um sie in anderen Lösungen zu verwenden, können Virtual Report Suites verwendet werden.
 
-### Individuelle Einschränkungen
+### Eindeutige Beschränkungen (geringer Traffic)
 
 Wenn Sie über eine globale Report Suite verfügen, die eine große Anzahl von Sites zusammenfasst, begegnet Ihnen unter Umständen regelmäßig der Zeileneintrag [geringer Traffic](/help/technotes/low-traffic.md). Wenn Sie Multi-Suite-Tagging verwenden, betrifft dieses Problem nur die globale Report Suite (einzelne Report Suites haben selten geringen Traffic). Wenn Sie Virtual Report Suites verwenden, werden individuelle Einschränkungen freigegeben, sodass einzelne Report Suites auch geringen Traffic anzeigen. Erwägen Sie die Verwendung von Multi-Suite-Tagging, wenn Sie vermeiden möchten, dass Daten mit geringem Traffic zusammengefasst werden.
 
-Beispiel: Eine große Medienorganisation verfügt über 100 Webeigenschaften. Jede Eigenschaft veröffentlicht monatlich einige tausend News-Artikel, zusätzlich zum Hosting aller Artikel aus den Vormonaten. Diese Organisation verwendet eine globale Report Suite, bei der eVar1 „Artikelname“ lautet. In diesem Bericht werden monatlich etwa 4 Millionen eindeutige Artikelnamen aus den verschiedenen Eigenschaften zusammengeführt. Bei Verwendung einer Virtual Report Suite werden die 500.000 Top-Werte, die den Großteil des Traffics ausmachen, in Virtual Report Suites einbezogen. Die verbleibenden 3,5 Millionen werden als „geringer Traffic“ klassifiziert. Wenn Multi-Suite-Tagging verwendet wird, hat jede einzelne Report Suite ihre eigenen 500.000 Top-Werte. Die individuellen Einschränkungen der globalen Report Suite sind bei Multi-Suite-Tagging und Virtual Report Suites gleich.
+Beispiel: Eine große Medienorganisation verfügt über 100 Webeigenschaften. Jede Eigenschaft veröffentlicht monatlich einige tausend News-Artikel, zusätzlich zum Hosting aller Artikel aus den Vormonaten. Diese Organisation verwendet eine globale Report Suite, bei der eVar1 „Artikelname“ lautet. Angenommen, in diesem Bericht werden monatlich etwa 5 Millionen individuelle Artikelnamen aus den verschiedenen Eigenschaften zusammengeführt. Bei Verwendung einer Virtual Report Suite wird nur ein Teil der 5 Millionen Werte in die Virtual Report Suite aufgenommen. Die übrigen sind unter &quot;Geringer Datenverkehr&quot;aufgeführt. Wenn Multi-Suite-Tagging verwendet wird, kann jede einzelne Report Suite einen eigenen Satz eindeutiger Werte sehen.
 
-Die Adobe-Kundenunterstützung kann die eindeutigen Wertgrenzen für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig beseitigt werden kann. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung und Kundenunterstützung.
+Die Adobe-Kundenunterstützung kann manchmal individuelle Wertgrenzen für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig beseitigt werden kann. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung und Kundenunterstützung.
 
 ### Freigegebene Metriken über Report Suites hinweg
 
