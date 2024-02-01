@@ -1,13 +1,14 @@
 ---
 title: Bulk-Dateneinfüge-API
-description: Die Bulk-Dateneinfüge-API (BDIA) ist eine Adobe Analytics-Funktion, mit der Sie Server-Aufrufdaten in Dateistapeln hochladen können, anstatt Client-seitige Bibliotheken wie AppMeasurement zu verwenden. Die Server-Aufrufe in diesen Batch-Dateien können entweder aktuelle (Live-) Daten oder historische Daten enthalten. Sie ist ein besser skalierbarer Nachfolger der Dateneinfüge-API in früheren Versionen der Adobe Analytics-API.
+description: Die Bulk Data Insertion API (BDIA) ist eine Adobe Analytics-Funktion, mit der Sie Server-Aufrufdaten in Dateistapeln hochladen können, anstatt Client-seitige Bibliotheken wie AppMeasurement zu verwenden.
 solution: Analytics
 feature: API
 exl-id: c9d23fae-2800-42bb-8f8d-adf915cadc62
-source-git-commit: b1ebf6e3548ef73217ffff1cbfb66af82e38fb8f
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 84%
 
 ---
 

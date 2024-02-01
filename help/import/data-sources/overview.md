@@ -3,9 +3,10 @@ title: Datenquellen - Übersicht
 description: Importieren Sie Daten mithilfe externer Dateien in Adobe Analytics.
 exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -16,17 +17,17 @@ Mit Adobe Analytics-Datenquellen können Sie zusätzliche Online- oder Offline-D
 
 1. Ihr Unternehmen erfasst Daten aus anderen Quellen. Beispiele sind Daten vor dem Klick, Callcenter-Daten oder Informationen zu Transaktionen, die außerhalb Ihrer Site aufgetreten sind.
 1. Die Formatierung der Daten erfolgt so, dass Adobe Analytics die Verwendung einer tabulatorgetrennten Textdatei versteht.
-1. Sie laden die Textdatei zusammen mit der zugehörigen Adobe auf eine FTP-Site hoch. `.fin` -Datei.
-1. Adobe erfasst die Textdatei und zeigt diese Daten zusammen mit Dimensionen und Metriken an, die auf Ihrer Site erfasst wurden.
+1. Sie laden die Textdatei zusammen mit einer zugehörigen Datei auf eine FTP-Site-Adobe hoch. `.fin` -Datei.
+1. Adobe erfasst die Textdatei und zeigt diese Daten neben Dimensionen und Metriken an, die auf Ihrer Site erfasst wurden.
 
-Adobe bietet zwei allgemeine Datenquellen-Typen. Alle Datenquellenvorlagen basieren auf einem dieser beiden Typen:
+Es gibt zwei allgemeine Arten von Datenquellen, die Adobe anbietet. Alle Datenquellenvorlagen basieren auf einem dieser beiden Typen:
 
 * **Zusammenfassungsdatenquelle**: Bietet eine einfache Möglichkeit, allgemeine Daten in Adobe Analytics zu importieren. Sie geben den Zeitstempel, den Variablenwert und die zugehörigen Metriken an. Diese Metriken für jedes Dimensionselement werden dann entsprechend erhöht. Dies ist nützlich, wenn Sie Offline- und Online-Daten nebeneinander anzeigen möchten. Es werden jedoch keine Online- und Offline-Daten miteinander verknüpft.
 * **Transaktions-ID-Datenquelle**: Wenn ein von AppMeasurement gesendeter Treffer und eine Datenquellenzeile übereinstimmende Transaktions-IDs enthalten, werden die Dimensions- und Metrikwerte in der Datenquelle an diesen Treffer angehängt.
 
 **Datenquellen mit vollständiger Verarbeitung** ab dem 25. März 2021 nicht mehr als Datenquelle angeboten werden. Siehe [Mitteilung zum Ende der Nutzungsdauer](full-processing-eol.md) für weitere Informationen.
 
-Adobe bietet auch die [Data Sources-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit dem Sie Datenquellen erstellen und Daten hochladen können, ohne die Produkt-Benutzeroberfläche oder einen FTP-Speicherort zu verwenden.
+Adobe bietet auch die [Data sources API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit dem Sie Datenquellen erstellen und Daten hochladen können, ohne die Produkt-Benutzeroberfläche oder einen FTP-Speicherort zu verwenden.
 
 ## Nächste Schritte
 

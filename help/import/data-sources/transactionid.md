@@ -3,10 +3,11 @@ title: Transaktions-ID-Datenquellen
 description: Erfahren Sie mehr über den allgemeinen Workflow bei der Verwendung der Transaktions-ID-Datenquellen.
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 54c88a275b48f2b401be450ce35767ab3ea9d40b
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 10%
+source-wordcount: '427'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +27,7 @@ Wenn Sie einen Online-Treffer senden, der eine [`transactionID`](/help/implement
 Transaktions-ID-Datenquellen haben die folgenden Eigenschaften:
 
 * Die Online-Daten müssen zuerst erfasst und verarbeitet werden. Wenn eine Transaktions-ID-Datenquelle hochgeladen wird, bevor eine Report Suite einen Treffer verarbeitet, der mit dieser Transaktions-ID übereinstimmt, werden die Daten nicht verknüpft.
-* Über AppMeasurement erfasste Transaktions-IDs laufen nach etwa 90 Tagen ab. Wenn Ihr Unternehmen ein längeres Transaktions-ID-Fenster benötigt, wenden Sie sich an die Kundenunterstützung von Adobe.
+* Über AppMeasurement erfasste Transaktions-IDs laufen nach etwa 90 Tagen ab. Wenn Ihr Unternehmen ein längeres Transaktions-ID-Fenster benötigt, wenden Sie sich an die Adobe-Kundenunterstützung.
 * Mit einer abgelaufenen Transaktions-ID hochgeladene Datenquellen werden ähnlich wie Daten behandelt, die ohne Transaktions-ID hochgeladen wurden.
 * Wenn dieselbe Variable sowohl im Online-Treffer als auch in der Transaktions-ID-Datenquelle enthalten ist, wird der Wert aus der Transaktions-ID-Datenquelle verwendet.
 * Wenn eine Variable in einem Online-Treffer, aber nicht in einem übereinstimmenden Transaktions-ID-Datenquellentreffer enthalten ist, wird die Online-Treffervariable beibehalten.
@@ -35,7 +36,7 @@ Transaktions-ID-Datenquellen haben die folgenden Eigenschaften:
 
 Zum Beispiel:
 
-1. Sie senden eine Seitenansicht aus AppMeasurement, in der:
+1. Sie senden eine Seitenansicht von einer AppMeasurement, bei der Folgendes gilt:
    * `eVar1` gleich `blue`
    * `eVar2` gleich `water`
    * `events` gleich `event1`

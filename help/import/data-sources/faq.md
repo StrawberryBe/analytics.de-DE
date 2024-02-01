@@ -3,10 +3,11 @@ title: Häufig gestellte Fragen zu Datenquellen
 description: Häufig gestellte Fragen zu Datenquellen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 7%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -30,17 +31,17 @@ Daten, die über Datenquellen hochgeladen werden, wirken sich nicht aus [Seitena
 
 +++ Kann ich Daten löschen, die mithilfe von Datenquellen importiert wurden?
 
-**Nein.** Daten, die mithilfe von Datenquellen in Berichte hochgeladen wurden, werden **dauerhaft**. Sie kann nicht entfernt werden, nicht einmal durch Adobe, nachdem sie importiert wurde. Adobe empfiehlt dringend, Datenquellen-Daten in eine Test-Report Suite hochzuladen, bevor sie in eine Produktions-Report Suite hochgeladen werden.
+**Anzahl** Daten, die mithilfe von Datenquellen in Berichte hochgeladen wurden, werden **dauerhaft**. Sie kann nicht entfernt werden, nicht einmal durch Adobe, nachdem sie importiert wurde. Adobe empfiehlt dringend, Datenquellen-Daten in eine Test-Report Suite hochzuladen, bevor sie in eine Produktions-Report Suite hochgeladen werden.
 +++
 
-+++Wie viele Daten kann ich gleichzeitig importieren?
+++ Wie viele Daten kann ich gleichzeitig importieren?
 
 Die Verarbeitung wird angehalten, wenn die Datenmenge 50 MB übersteigt, und wird erst fortgesetzt, wenn die Gesamtmenge unter 50 MB liegt. Stellen Sie sicher, dass die Gesamtgröße aller Dateien auf der FTP-Site weniger als 50 MB beträgt.
 +++
 
 ++ Was passiert, wenn ich über Datenquellen negative Werte in Berichte einfüge?
 
-Der Wert wird entsprechend verringert. Einige Unternehmen verwenden negative Datenquellenwerte, um zu versuchen, Daten zu korrigieren. Negative Datenquellenwerte können sich auf Berichte auf möglicherweise unerwünschte oder unerwartete Weise auswirken. Adobe empfiehlt, negative Datenquellen nur als letzten Ausweg zu verwenden.
+Der Wert wird entsprechend verringert. Einige Unternehmen verwenden negative Datenquellenwerte, um zu versuchen, Daten zu korrigieren. Negative Datenquellenwerte können sich auf Berichte auf möglicherweise unerwünschte oder unerwartete Weise auswirken. Adobe empfiehlt die Verwendung negativer Datenquellen nur als letztes Mittel.
 +++
 
 +++Wird bei Dateierweiterungen zwischen Groß- und Kleinschreibung unterschieden?
@@ -51,6 +52,6 @@ Ja. Dateien mit der Erweiterung `.TXT` oder `.FIN` nicht verarbeitet werden. Ste
 Sie können beliebig viele Spalten in eine Datenquellendatei aufnehmen, wenn es sich um gültige Spalten handelt. Siehe [Dateiformat](file-format.md) für eine Liste gültiger Variablen-/Spaltennamen.
 +++
 
-+++ Kann ich Datenquellen verwenden, ohne den von der Adobe bereitgestellten FTP-Speicherort zu verwenden?
-Sie können die [Data Sources-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit dem Sie API-Aufrufe direkt an Adobe senden können. Zu diesen API-Aufrufen gehören `UploadData` -Methode, mit der Sie Daten von einer JSON-Objekt-Payload senden können.
++++ Kann ich Datenquellen verwenden, ohne den vom Adobe bereitgestellten FTP-Speicherort zu verwenden?
+Sie können die [Data sources API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit dem Sie API-Aufrufe direkt an Adobe senden können. Zu diesen API-Aufrufen gehören `UploadData` -Methode, mit der Sie Daten von einer JSON-Objekt-Payload senden können.
 +++

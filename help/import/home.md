@@ -1,12 +1,12 @@
 ---
 title: Importhandbuch für Analytics
-description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Datenquellen, der Dateneinfügungs-API und Data Connectors in Analytics aufnehmen können.
+description: In diesem Handbuch wird erläutert, wie Daten mithilfe von Data Sources- und Dateneinfüge-APIs in Analytics eingespeist werden können.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 88%
 
 ---
 
