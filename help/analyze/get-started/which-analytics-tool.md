@@ -3,10 +3,10 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 93%
+source-wordcount: '1160'
+ht-degree: 91%
 
 ---
 
@@ -55,7 +55,7 @@ In diesem Video werden verschiedene Adobe Analytics-Tools verglichen:
 
 Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** sollte verwendet werden:
 
-* Wenn Sie Daten in Adobe Analytics laden und den Adobe AppMeasurement- oder mobilen SDK-Code nicht nutzen können.
+* Wenn Sie Daten in Adobe Analytics hochladen müssen und den Adobe AppMeasurement- oder Mobile SDK-Code nicht verwenden können. Es wird empfohlen, die Bulk Data Insertion API zu verwenden (siehe unten).
 
 **[Bulk-Dateneinfüge-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

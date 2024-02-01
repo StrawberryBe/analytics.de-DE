@@ -3,7 +3,8 @@ title: Feldbasiertes Stitching
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe von feldbasiertem Stitching vertraut.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 90%
@@ -16,7 +17,7 @@ Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei
 
 ## Spezifische Voraussetzungen für feldbasiertes Stitching
 
-Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe Account Team zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
+Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe-Account-Team zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
 
 >[!WARNING]
 >
@@ -24,7 +25,7 @@ Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching 
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
 * Ihre Implementierung muss eine Prop oder eVar festlegen, die eine Person eindeutig identifiziert, wann immer dies möglich ist, z. B. wenn ein Benutzer sich anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Vermeiden Sie es, der Eigenschaft oder der eVar einen Standardwert zuzuweisen.
-* Teilen Sie Ihrem Adobe-Kontoteam die gewünschte Identifizierungsvariable mit, wenn sie für feldbasiertes Stitching bereitgestellt wird.
+* Teilen Sie Ihrem Adobe-Account-Team die gewünschte Identifizierungsvariable mit, wenn sie für feldbasiertes Stitching bereitgestellt wird.
 
 ## Spezifische Einschränkungen für feldbasiertes Stitching
 

@@ -3,10 +3,11 @@ title: CDA Workspace-Vorlage
 description: Beschreibt die einzelnen Felder in der CDA-Vorlage in Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 96%
+source-wordcount: '380'
+ht-degree: 93%
 
 ---
 
@@ -32,5 +33,5 @@ Es wird ein Analysis Workspace-Projekt erstellt, das mehrere Bedienfelder enthä
    * Berichtsgranularität: Die Komprimierung nach Tag ist in der Regel kleiner als die Komprimierung nach Monat oder Jahr. Die Wahrscheinlichkeit, dass eine Person mehrere Geräte verwendet, ist innerhalb eines Tages geringer als innerhalb eines ganzen Monats. Bei der Segmentierung, Filterung oder Verwendung von Aufschlüsselungsdimensionen kann es auch zu einer niedrigeren Komprimierungsrate kommen.
 * **Benutzerbasierte Segmente**: Enthält eine Segment-Dropdownliste, mit der Sie gerätespezifische Daten anzeigen können. In diesem Bedienfeld können Sie mit Segmenten experimentieren, um festzustellen, wie sich das Einschließen oder Ausschließen von Gerätetypen auf Berichte auswirkt.
 * **Analyse der geräteübergreifenden Journey**: Bietet Fluss- und Fallout-Berichte je nach Gerätetyp.
-* **Geräteübergreifende Zuordnung**: Kombinieren Sie die Funktionen von Journey und Attribution IQ miteinander.
+* **Geräteübergreifende Attribution**: Kombinieren Sie die Funktionen von Journey IQ und Attribution miteinander.
 * **Weitere Tipps und Tricks**: Hilfreiche Themen rund um CDA, mit denen Sie die Nutzung optimieren können.

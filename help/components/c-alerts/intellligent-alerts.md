@@ -3,10 +3,10 @@ description: Das neue System für intelligente Warnhinweise erlaubt eine feiner 
 title: Intelligente Warnhinweise
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 68%
 
 ---
 
@@ -44,39 +44,37 @@ Es gibt drei Möglichkeiten, zur Warnhinweiserstellung zu gelangen:
   ![](assets/create-alert-from-selection.png)
 
 
-## FAQ: Wie werden Warnhinweise berechnet und ausgelöst? {#trigger}
+## FAQs: Wie werden Warnhinweise berechnet und ausgelöst? {#trigger}
 
 Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Abhängig von der ausgewählten Zeitgranularität [verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) werden verwendet, um zu berechnen, wie weit (wie viele Standardabweichungen) jeder Datenpunkt von der Norm entfernt ist. Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Frage </th> 
-   <th colname="col2" class="entry"> Antwort </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Frage: Wie weit reicht die Anomalieerkennung des Warnhinweises zur Ermittlung von Datenanomalien zurück?</b> </p> </td> 
-   <td colname="col2"> <p>Der Trainingszeitraum hängt von der ausgewählten Granularität ab. Weitere Informationen finden Sie unter den statistischen Verfahren für die <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Anomalieerkennung</a>. Zusammenfassung: </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">Monatlich = 15 Monate + derselbe Bereich im letzten Jahr </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Wöchentlich = 15 Wochen + derselbe Bereich im letzten Jahr </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">Täglich = 35 Tage + derselbe Bereich im letzten Jahr </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">Stündlich = 336 Stunden </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Frage: Wenn ich nur bei einem Rückgang bzw. nur bei einem Anstieg des Verhaltens einen Warnhinweis erhalten möchte, kann ich die Anomalieerkennung nutzen oder muss ich den Absolutwert verwenden?</b> </p> </td> 
-   <td colname="col2"> <p>Bei Verwendung des Absolutwerts werden Warnhinweise sowohl bei einem Rückgang als auch bei einem Anstieg ausgelöst. Sie können keine gesonderten Warnhinweise nur für Rückgänge oder nur für Anstiege einrichten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Frage: Kann ich Warnhinweise so konfigurieren, dass sie nur während bestimmten Uhrzeiten ausgelöst werden (z. B. zu Geschäftszeiten und Nicht-Geschäftszeiten)? </b> </p> </td> 
-   <td colname="col2"> <p>Derzeit ist dies leider nicht möglich. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Frage: Kann ich eine Tabelle der „erwarteten Werte“, die die gepunktete Linie ausmachen, oder eine andere Art von Darstellung dieser Werte erhalten? </b> </p> </td> 
-   <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=de"  >Anomalieerkennung in Report Builder</a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein fester 30-tägiger Schulungzeitraum verwendet, festes 95-%-Intervall. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Wie weit reicht die Anomalieerkennung des Warnhinweises zurück, um Datenanomalien zu ermitteln?
+
+Der Trainingszeitraum hängt von der ausgewählten Granularität ab. Weitere Informationen finden Sie unter den statistischen Verfahren für die <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Anomalieerkennung</a>. Zusammenfassung:
+
+* Monatlich = 15 Monate + derselbe Bereich im letzten Jahr
+* Wöchentlich = 15 Wochen + derselbe Bereich im letzten Jahr
+* Täglich = 35 Tage + derselbe Bereich im letzten Jahr
+* Stündlich = 336 Stunden
+
++++
+
++++ Kann ich die Anomaliefunktion verwenden oder einen absoluten Wert verwenden, um nur auf einen Rückgang des Verhaltens oder nur auf einen Anstieg des Verhaltens hingewiesen zu werden?
+
+Wenn Sie den absoluten Wert verwenden, werden weiterhin Trigger-Warnhinweise für Tiefpunkte und Spitzen angezeigt. Sie können keine gesonderten Warnhinweise nur für Rückgänge oder nur für Anstiege einrichten.
+
++++
+
++++ Kann ich Warnhinweise nur zu bestimmten Tageszeiten für den Trigger konfigurieren (z. B. Geschäftszeiten im Vergleich zu Geschäftszeiten außerhalb der Geschäftszeiten)?
+
+Derzeit ist dies leider nicht möglich.
+
++++
+
++++ Kann ich eine Tabelle der &quot;erwarteten Werte&quot;, die die gepunktete Linie ausmachen, oder eine Art Ausgabe davon erhalten, was diese Werte sind?
+
+Nicht in Workspace, aber Sie können in Report Builder. Siehe [dieses Video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=de) zur Anomalieerkennung im Report Builder.
+
+Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein fester 30-tägiger Schulungzeitraum verwendet, festes 95-%-Intervall.
+
++++

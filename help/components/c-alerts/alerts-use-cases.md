@@ -3,7 +3,7 @@ description: Anwendungsfälle zum Erstellen und Verwalten intelligenter Warnhinw
 title: Intelligente Warnhinweise – Anwendungsfälle
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
@@ -12,17 +12,11 @@ ht-degree: 100%
 
 # Intelligente Warnhinweise – Anwendungsfälle
 
-## Erstellen eines einfachen Warnhinweises, der nach zwei Segmenten gefiltert wird {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
-
-<!-- 
-
-Update screenshots for better readability.
-
- -->
+## Erstellen eines einfachen Warnhinweises, der nach zwei Segmenten gefiltert wird {#filter}
 
 ![](assets/alerts_example1.png)
 
-## Erstellen eines Warnhinweises aus einer Tabellenauswahl {#section_AE6D42E1255D498D908A2FA60370A419}
+## Erstellen eines Warnhinweises aus einer Tabellenauswahl {#from-selection}
 
 In Freiform-Tabellen können Sie nun kontextbezogene Warnhinweise erstellen, indem Sie mit der rechten Maustaste auf eine Tabellenzeile klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
 
@@ -32,7 +26,7 @@ Dadurch wird die Warnhinweiserstellung unverzüglich mit den entsprechenden Wert
 
 ![](assets/prepopulated_alert.png)
 
-## Warnhinweise zusammenfassen (stapeln), anstatt mehrere Warnhinweise zu erstellen {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Warnhinweise zusammenfassen (stapeln), anstatt mehrere Warnhinweise zu erstellen {#stacking}
 
 Durch das Stapeln von Warnhinweisen wird dafür gesorgt, dass Warnhinweise kombiniert werden und nicht separat angezeigt werden.
 

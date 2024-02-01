@@ -1,16 +1,17 @@
 ---
-title: Eine Virtual Report Suite auf bestimmte Daten beschränken
+title: Beschränken einer Virtual Report Suite auf bestimmte Daten
 description: Erfahren Sie, wie Sie den Datumsbereich einer Virtual Report Suite so einschränken, dass er sich nur auf zugeordnete Daten konzentriert.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 35%
+source-wordcount: '284'
+ht-degree: 41%
 
 ---
 
-# Eine Virtual Report Suite auf bestimmte Daten beschränken
+# Beschränken einer Virtual Report Suite auf bestimmte Daten
 
 Wenn wir das Zusammenfügen von Daten einschalten, beginnt dieses Zusammenfügen an einem bestimmten Datum. Angenommen, dieses Datum ist der 1. Juni. Die Virtual Report Suite der geräteübergreifenden Analyse enthält nicht zugeordnete Daten aus dem Zeitraum vor dem 1. Juni. Möglicherweise möchten Sie Daten aus der Virtual Report Suite vor dem 1. Juni ausblenden, damit sich Ihre Analyse nach dem Stitching auf Datumsbereiche konzentrieren kann.
 
