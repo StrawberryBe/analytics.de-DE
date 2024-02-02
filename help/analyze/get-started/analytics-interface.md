@@ -3,9 +3,9 @@ description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließ
 title: Grundlagen der Analytics-Oberfläche
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2066'
 ht-degree: 99%
 
 ---
@@ -50,7 +50,6 @@ Die Registerkarte [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ih
    | Datumsbereiche | Analysis Workspace enthält eine Liste von Standarddatumsbereichen, die Benutzerinnen und Benutzer beim Erstellen von Analysen verwenden können. Darüber hinaus können Sie benutzerdefinierte Datumsbereiche erstellen und sie für Benutzerinnen und Benutzer in Analysis Workspace verfügbar machen. | [Erstellen von benutzerdefinierten Datumsbereichen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=de) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtual Report Suites | Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann. | [Virtual Report Suites – Übersicht](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=de) |
    | Warnhinweise | Intelligente Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem. | [Intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=de) |
-   | Kalenderereignisse | In Trend-Berichten können Sie mithilfe von Kalenderereignissen Ereignisse grafisch darstellen und ersehen, inwieweit Kampagnen und andere Ereignisse Ihren Sitetraffic, Umsatz und andere Metriken beeinflusst haben. | [Kalenderereignisse](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=de) |
    | Anmerkungen | Mit Anmerkungen im Arbeitsbereich können Sie Ihrer Organisation kontextbezogene Informationen und Erkenntnisse zu Daten effektiv übermitteln. Durch sie können Sie Kalenderereignisse an bestimmte Dimensionen und Metriken binden. | [Verwalten von Anmerkungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=de) |
    | Klassifizierungssätze | Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassifizierungen und Regeln. <p>Eine Klassifizierung ist eine Methode, mit der Sie Analytics-Variablendaten in Kategorien aufgliedern und diese Daten auf unterschiedliche Weise darstellen, wenn Sie einen Bericht erzeugen. Sie stellen eine Beziehung zwischen einem Variablenwert und Metadaten her, die sich auf diesen Wert beziehen. Klassifizierungen können für die meisten benutzerdefinierten Dimensionen wie Trackingcode, Props und eVars verwendet werden.</p> | [Klassifizierungssätze – Übersicht](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=de) |
    | Standorte | Um Adobe Analytics-Klassifizierungsdaten aus einem Cloud-Ziel zu importieren, müssen Sie zunächst den Speicherort hinzufügen und konfigurieren, an dem die Klassifizierungsdaten erfasst werden sollen. Sie können Speicherorte erstellen, bearbeiten oder löschen. | [Standorte-Manager](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=de) |

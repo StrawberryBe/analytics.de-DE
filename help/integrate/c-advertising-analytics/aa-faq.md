@@ -3,130 +3,161 @@ description: Häufig gestellte Fragen zu Advertising Analytics.
 title: Häufig gestellte Fragen zu Werbeanalysen
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 92%
+source-wordcount: '1313'
+ht-degree: 50%
 
 ---
 
 # Häufig gestellte Fragen
 
-## Zugriff/Berechtigungen {#section_5F558C5981F747F0AF375A9E4B75C93C}
+## Zugriff/Berechtigungen {#access}
 
-<table id="table_6713C3B0B6734F768370F974EB5AC5E8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Frage </th> 
-   <th colname="col2" class="entry"> Antwort </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>F: Muss ich <b>Kunde von Adobe Advertising Cloud oder Adobe Advertising Cloud (AMO)</b> sein, um diese Funktion zu nutzen? </p> </td> 
-   <td colname="col2"> <p>A: Nein, diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung. </p> <p>AMO-Kunden können die bestehende Analytics-AMO-Integration nutzen, jedoch nicht Advertising Analytics verwenden. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Welche <b>Adobe Analytics-SKUs</b> berechtigen zur Verwendung von Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics steht für die Adobe Analytics-SKUs <a href="https://www.adobe.com/de/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html"  >Prime</a> und <a href="https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> zur Verfügung. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Müssen wir eine <b>Zusatzgebühr</b> für die Verwendung von Advertising Analytics bezahlen? </p> </td> 
-   <td colname="col2"> <p>A: Nein, abgesehen von der ordnungsgemäßen SKU-Bereitstellung verursacht Advertising Analytics keine zusätzlichen Kosten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Wird Advertising Analytics bei meiner <b>Serveraufruf-Nutzung</b> angerechnet? </p> </td> 
-   <td colname="col2"> <p>A: Nein, Advertising Analytics verwendet einen speziellen Datenquellentyp, der keine zusätzlichen Kosten für Serveraufrufe verursacht. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Wenn ich <b>bereits Advertising Cloud/AMO verwende</b>, kann ich dennoch die Advertising Analytics-Funktionen nutzen? </p> </td> 
-   <td colname="col2"> <p>A: Jedes kompatible Suchmaschinenkonto wird an Advertising Analytics übergeben und schreibgeschützt angezeigt. Sämtliche Bearbeitungen oder Aktualisierungen müssen in Advertising Cloud/AMO vorgenommen werden. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Ich besitze die richtige SKU, aber kann <b>nicht auf Advertising Analytics zugreifen</b>. Woran liegt das? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics ist nur für Adobe Analytics-Administratoren verfügbar, die jedoch auch anderen Benutzern Zugriff gewähren können. Wenden Sie sich also an Ihren Administrator, um Zugriffsrechte zu erhalten. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Muss ich Adobe Advertising Cloud- oder Adobe Advertising Cloud-Kunde (AMO) sein, um auf diese Funktion zugreifen zu können?
 
-## Verwenden von Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+Nein, diese Funktion ist für Nicht-Advertising Cloud- und Nicht-AMO-Kunden verfügbar. </p> <p>AMO-Kunden können die bestehende Analytics-AMO-Integration nutzen, jedoch nicht Advertising Analytics verwenden.
 
-<table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> Frage </th> 
-   <th colname="col2" class="entry"> Antwort </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>F: Welche <b>Suchmaschinenkonten</b> sind in Advertising Analytics enthalten? </p> </td> 
-   <td colname="col2"> <p>A: Die Suchmaschinenkonten Google AdWords und Microsoft Bing sind enthalten. </p> <p>Hinweis: Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Wo <b>greife ich auf Advertising Analytics zu</b>? </p> </td> 
-   <td colname="col2"> <p>A: Öffnen Sie nach der Anmeldung bei Adobe Analytics das Menü <span class="uicontrol">Admin</span>. Wählen Sie dann die neue Menüoption <span class="uicontrol">Advertising Analytics</span> aus, um Suchmaschinenkonten hinzuzufügen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Wie werden die <b>Daten erfasst und an Analytics übergeben</b>? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics nutzt eine Reihe spezieller APIs, um Daten über die Adobe Advertising Cloud von Suchmaschinen an Analytics zu übertragen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Welche <b>Suchdaten</b> erhalte ich mit dieser Integration? </p> </td> 
-   <td colname="col2"> <p>A: Sie erhalten 1) Impressionen, 2) Klicks, 3) Kosten, 4) Qualitätsbewertung, 5) Durchschnittliche Position direkt aus Suchmaschinen und 6) AMO-ID-Instanzen (Klickinstanzen). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Kann ich meine <b>Advertising Analytics-Daten nach anderen Analytics-Daten aufschlüsseln</b> (Metriken/Dimensionen)? </p> </td> 
-   <td colname="col2"> <p>A: Nein, die Rohdaten der Suche gehen als unabhängiger Datensatz ein. Es gibt jedoch eine Instanzenversion der Klickdaten, die nach anderen Analytics-Daten aufgeschlüsselt werden kann. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Wie lautet die Definition der verschiedenen <b>Statusanzeigen</b> für meine Konten (ausstehend, aktiv, angehalten usw.)? </p> </td> 
-   <td colname="col2"> <p>A: Jede dieser Statusanzeigen gibt die Phase im Lebenszyklus der einzelnen Suchmaschinenkonten an. </p> 
-    <ul id="ul_F68AD377B2F04A47B20355B2FF4CF345"> 
-     <li id="li_05F8D7C6D00E4742A65373BE6FAA0448"><b>Ausstehend</b> bedeutet, dass das Konto eingerichtet wurde, aber noch keine Daten abgerufen werden. </li> 
-     <li id="li_42B1557A8AEC41008B85AF6E3F625CAB"><b>Angehalten</b> bedeutet, dass das Konto zuvor eingerichtet wurde, aber inaktiv ist. </li> 
-     <li id="li_30B72CC171874F308A2B8CE552EA6930"><b>Aktiv</b> bedeutet, dass das Konto vollständig eingerichtet wurde und Suchdaten abruft. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Ich möchte <b>meine Advertising Analytics-Konten einer bestimmten Report Suite zuordnen</b>, aber sie ist nicht im Report Suite-Dialog verfügbar. Warum? </p> </td> 
-   <td colname="col2"> <p>A: Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die entsprechende Suite <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >für Advertising Analytics-Reporting bereitgestellt</a> werden. </p> <p>Dies erledigen Sie über eine separate Admin-Seite, die Sie wie folgt öffnen können: <span class="ignoretag"> <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">[Experience Cloud-fähige Report Suite auswählen]</span> &gt; <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Advertising Analytics-Konfiguration </span> </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Ist es möglich, eine <b>Virtual Report Suite</b> zu einem Advertising Analytics-Konto? </p> </td> 
-   <td colname="col2"> <p>A: Virtual Report Suites erfassen keine Daten, sodass Sie ein Advertising Analytics-Konto nicht direkt einer Virtual Report Suite zuordnen können. </p> <p>Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der Virtual Report Suite zuordnen, in der die Daten angezeigt werden sollen. </p> <p>Die Suchmaschinenmetriken (Klicks/Kosten/Impressionen) werden möglicherweise nicht in der Virtual Report Suite angezeigt, es sei denn, Sie fügen eine "oder"-Bedingung in Ihre Segmentlogik auf der Grundlage der AMO-ID (oder ihrer Classification) ein. Beispiel: Durch das Hinzufügen von „alle Treffer, bei denen eine AMO-ID existiert“ werden die Suchmaschinenmetriken in das Segment aufgenommen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Können Advertising Analytics-Metriken zum Bericht <b>Marketingkanäle</b> hinzugefügt werden? </p> </td> 
-   <td colname="col2"> <p>A: Nein, sie sind nicht im Bericht „Marketingkanäle“ enthalten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: <b>Wann</b> werden die Suchdaten in Analytics abgerufen? </p> </td> 
-   <td colname="col2"> <p>A: Die Suchdaten werden um ca. 6:00 Uhr in der Zeitzone Ihres Analytics-Rechenzentrums von den Suchmaschinen abgerufen. Zu diesem Zeitpunkt werden die AMO-Daten erfasst und in die Report Suite eingefügt. Diese Daten werden dann im Rahmen ihrer Einfügung in Analytics in die Report Suite-Zeitzonen umgewandelt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Was kann <b>vor dem Klick erfasst</b> werden? Werden Impressionen, Kosten, durchschnittliche Position usw. auch ohne Klick erfasst? </p> </td> 
-   <td colname="col2"> <p>A: Über die AMO-ID werden die Metriken der Suchmaschine erfasst: „Impressionen“, „Kosten“, „Klicks“, „Durchschnittliche Position“ und „Durchschnittliche Qualitätsbewertung“. Sind keine Klicks aber Impressionen vorhanden, werden die Daten zu Impression/Position/Qualität dennoch an Analytics gesendet. In der Regel entstehen keine Kosten, wenn keine Klicks vorhanden sind. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Auf welcher Ebene werden die Daten erfasst? <b>Besucher? Treffer?</b> </p> </td> 
-   <td colname="col2"> <p>A: Die Suchmaschinen-Metriken werden auf der Trefferebene erfasst und mit der AMO-ID (und den zugehörigen Klassifizierungen) verknüpft. Dabei handelt es sich um Daten der Zusammenfassungsebene, die nicht mit Besuchen/Besuchern verbunden sind. Daher können die Suchmaschinen-Metriken nur in Segmenten verwendet werden, die sich im Umfang der Trefferebene befinden und die auf der AMO-ID (oder zugehörigen Klassifizierungen) basieren. </p> <p>Die AMO-ID wird auch auf der Landingpage im Treffer für die betreffende Seite (über die die Verbindung zum Besuch/Besucher hergestellt wird) erfasst. Sie bleibt in der absteigenden Hierarchie bestehen, um für andere Analytics-Metriken berücksichtigt zu werden (bis sie abläuft oder durch eine neue AMO-ID überschrieben wird). Sie ist wie jede andere eVar vollständig in den Datensatz integriert. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Werden derzeit nur Daten von google.com erfasst oder auch von den <b>Länderversionen</b> (wie google.co.uk, google.it, google.fr oder google.de)? </p> </td> 
-   <td colname="col2"> <p>A: Die Anzeigenplattform-Classification erfasst folgende Werte: „Google Adwords“ und „Bing Ads“. </p> <p>Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Die Metrik „AMO-Kosten“ bezeichnet die Kosten pro Keyword/Werbeanzeige gemäß den Daten der Suchmaschine. Handelt es sich hierbei um Netto- oder Bruttokosten? </p> </td> 
-   <td colname="col2"> <p>A: „AMO-Kosten“ sind lediglich die Kosten, die an die Suchmaschinen gezahlt wurden. Sie enthalten keinerlei Gebühren für Agenturen oder Suchoptimierungs-/Verwaltungsplattformen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Sollen weitere Werbekanäle wie z. B. <b>Display</b> oder <b>Social</b> hinzugefügt werden? </p> </td> 
-   <td colname="col2"> <p>A: Nein, aktuell sind diese anderen Kanäle nicht Teil unserer Roadmap. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++
+
++++ Welche Adobe Analytics-SKUs berechtigen zur Verwendung von Advertising Analytics?
+
+Advertising Analytics ist für Adobe Analytics verfügbar
+
+* [Auswählen](https://www.adobe.com/de/data-analytics-cloud/analytics/select.html)
+
+* [Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html)
+
+* [Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html)
+
++++
+
++++ Muss ich für die Nutzung von Advertising Analytics extra bezahlen?
+
+Nein, außerhalb der richtigen SKU-Bereitstellung verursacht Advertising Analytics keine zusätzlichen Kosten.
+
++++
+
++++ Zählt Advertising Analytics die Nutzung meiner Server-Aufrufe?
+
+Nein, Advertising Analytics verwendet einen speziellen Datenquellentyp, der keine Serveraufrufkosten verursacht.
+
++++
+
++++ Wenn ich bereits Advertising Cloud/AMO verwende, kann ich dann weiterhin die Advertising Analytics-Funktion verwenden?
+
+Jedes kompatible Suchmaschinenkonto wird an Advertising Analytics übergeben und als schreibgeschützt angezeigt. Sämtliche Bearbeitungen oder Aktualisierungen müssen in Advertising Cloud/AMO vorgenommen werden.
+
++++
+
++++ Ich besitze die richtige SKU, aber ich kann nicht auf Advertising Analytics zugreifen. Warum ist das so?
+
+Advertising Analytics ist nur für Adobe Analytics-Administratoren verfügbar. Administratoren können jedoch Nicht-Administratoren Zugriff gewähren. Wenden Sie sich also an Ihren Administrator, um Zugriffsrechte zu erhalten.
+
++++
+
+## Verwenden von Advertising Analytics {#using}
+
++++ Welche Suchmaschinenkonten sind in Advertising Analytics enthalten?
+
+Zu den Suchmaschinenkonten gehören Google AdWords und Microsoft Bing.
+
++++
+
++++ Wo greife ich auf Advertising Analytics zu?
+
+Navigieren Sie nach der Anmeldung bei Adobe Analytics zum [!UICONTROL Admin]. Wählen Sie anschließend [!UICONTROL Advertising Analytics] , um Suchmaschinenkonten hinzuzufügen.
+
++++
+
++++ Wie werden die Daten erfasst und an Analytics übergeben?
+
+Advertising Analytics verwendet eine Reihe benutzerdefinierter APIs, um Daten von Suchmaschinen über Adobe Advertising Cloud an Analytics zu übergeben.
+
++++
+
++++ Welche Suchdaten erhalte ich bei dieser Integration?
+
+Sie werden
+
+* Impressions
+* Klicks
+* Kosten
+* Qualitätsbewertung
+* Durchschnittliche Position direkt aus den Suchmaschinen sowie
+* AMO-ID-Instanzen (klicken Sie auf Instanzen).
+
++++
+
++++ Kann ich meine Advertising Analytics-Daten nach anderen Analytics-Daten (Metriken/Dimensionen) aufschlüsseln?
+
+Nein, die Rohdaten der Suche werden als unabhängiger Datensatz angezeigt. Es gibt jedoch eine Instanzenversion der Klickdaten, die nach anderen Analytics-Daten aufgeschlüsselt werden kann.
+
++++ Wie werden die verschiedenen Statusindikatoren für meine Konten definiert (Ausstehend, Aktiv, Ausgesetzt usw.)? Jede dieser Statusindikatoren identifiziert die Lebenszyklusphase jedes Suchmaschinenkontos.
+
+* [!UICONTROL Ausstehend]
+* [!UICONTROL Angehalten] bedeutet, dass das Konto zuvor eingerichtet wurde, aber inaktiv ist.
+* [!UICONTROL Aktiv] bedeutet, dass das Konto vollständig eingerichtet wurde und Suchdaten abruft.
+
++++
+
++++ Ich versuche, meine Advertising Analytics-Konten einer bestimmten Report Suite zuzuordnen, aber sie ist nicht im Report Suite-Modal verfügbar. Warum?
+
+Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die gewünschte Report Suite [für Advertising Analytics Reporting bereitgestellt](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Dies erfolgt über eine separate Admin-Seite, auf die Sie zugreifen können: Admin > Report Suites > [Report Suite auswählen] > Einstellungen bearbeiten > Advertising Analytics-Konfiguration.
+
++++
+
++++ Ist es möglich, einem Advertising Analytics-Konto eine Virtual Report Suite zuzuweisen?
+
+Virtual Report Suites erfassen keine Daten, sodass Sie ein Advertising Analytics-Konto nicht direkt einer Virtual Report Suite zuordnen können. Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der Virtual Report Suite zuordnen, in der die Daten angezeigt werden sollen. Die Suchmaschinenmetriken (Klicks/Kosten/Impressionen) werden möglicherweise nicht in der Virtual Report Suite angezeigt, es sei denn, Sie fügen eine &quot;oder&quot;-Bedingung in Ihre Segmentlogik auf der Grundlage der AMO-ID (oder ihrer Classification) ein. Beispiel: Durch das Hinzufügen von „alle Treffer, bei denen eine AMO-ID existiert“ werden die Suchmaschinenmetriken in das Segment aufgenommen.
+
++++
+
++++ Können Advertising Analytics-Metriken in der <b>Marketingkanäle</b> Bericht?
+
+Nein, sie sind nicht im Marketingkanalbericht enthalten.
+
++++
+
++++ F: Wann werden die Suchdaten in Analytics abgerufen?
+
+A: Die Suchdaten werden um ca. 6:00 Uhr in der Zeitzone Ihres Analytics-Rechenzentrums von den Suchmaschinen abgerufen. Zu diesem Zeitpunkt werden die AMO-Daten erfasst und in die Report Suite eingefügt. Diese Daten werden dann im Rahmen ihrer Einfügung in Analytics in die Report Suite-Zeitzonen umgewandelt.
+
++++
+
++++ Was kann <b>vor dem Klick erfasst</b>? Werden Impressionen, Kosten, durchschnittliche Position usw. auch ohne Klick erfasst? </p> </td>
+
+Die AMO-ID erfasst die Suchmaschinenmetriken: Impressionen, Kosten, Klicks, durchschnittliche Position und durchschnittliche Qualitätsbewertung. Sind keine Klicks aber Impressionen vorhanden, werden die Daten zu Impression/Position/Qualität dennoch an Analytics gesendet. In der Regel entstehen keine Kosten, wenn keine Klicks vorhanden sind.
+
++++
+
++++ Auf welcher Ebene werden diese Daten erfasst? <b>Besucher? Treffer?</b>
+
+Die Suchmaschinenmetriken werden auf Trefferebene erfasst und mit der AMO-ID (und ihren Klassifizierungen) verbunden. Dabei handelt es sich um Daten der Zusammenfassungsebene, die nicht mit Besuchen/Besuchern verbunden sind. Daher können die Suchmaschinen-Metriken nur in Segmenten verwendet werden, die sich im Umfang der Trefferebene befinden und die auf der AMO-ID (oder zugehörigen Klassifizierungen) basieren.
+
+Die AMO-ID wird auch auf der Landingpage im Treffer für die betreffende Seite (über die die Verbindung zum Besuch/Besucher hergestellt wird) erfasst. Sie bleibt in der absteigenden Hierarchie bestehen, um für andere Analytics-Metriken berücksichtigt zu werden (bis sie abläuft oder durch eine neue AMO-ID überschrieben wird). Sie ist wie jede andere eVar vollständig in den Datensatz integriert.
+
++++
+
++++ Erfassen Sie nur google.com oder <b>Länderversionen</b> (z. B. google.co.uk, google.it, google.fr oder google.de)?
+
+Die Anzeigenplattform-Classification erfasst die folgenden Werte: &quot;Google Adwords&quot;und &quot;Bing Ads&quot;. Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten).
+
++++
+
++++ Die Metrik &quot;AMO-Kosten&quot;sind die Kosten, die für jeden Suchbegriff/jede Anzeige gezahlt werden, wie von der Suchmaschine angegeben. Handelt es sich hierbei um Netto- oder Bruttokosten?
+
+&quot;AMO-Kosten&quot;sind nur die Kosten, die den Suchmaschinen gezahlt werden. Sie enthalten keinerlei Gebühren für Agenturen oder Suchoptimierungs-/Verwaltungsplattformen.
+
++++
+
++++ Gibt es Pläne, andere Werbekanäle wie <b>Anzeige</b> oder <b>Social</b>?
+
+Nein, wir haben derzeit keine Pläne für diese anderen Kanäle auf dem Fahrplan.
+
++++
+
 
 ## Automatisches Tracking im Vergleich zu manuellem Tracking {#section_7437C4698A6D482EB7ED94A948390119}
 
