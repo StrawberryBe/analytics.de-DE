@@ -3,16 +3,17 @@ description: Eine Übersicht über die Verwendung von Standardberichten in Analy
 title: Arbeiten mit Berichten
 feature: Analysis Workspace
 role: User, Admin
-source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 82%
+exl-id: d2b4edca-b8f5-4c17-b470-ae0cf5d66fb2
+source-git-commit: dcc517c2cd24a1aeeb2594094d09b9187ea7d144
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
 # Erstellen und Verwalten von Unternehmensberichten
 
-Sie können benutzerdefinierte Berichte erstellen und diese für andere Benutzer in Ihrem Anmeldeunternehmen speichern, die sie verwenden können. Unternehmensberichte stehen zur Auswahl, wenn Sie ein Projekt erstellen, wie unter [Erstellen eines Projekts aus einem leeren Projekt oder Bericht](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) in dem Artikel [Erstellen von Projekten in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+Sie können benutzerdefinierte Berichte erstellen und diese für andere Benutzende in Ihrem Anmeldeunternehmen speichern, die sie verwenden können. Unternehmensberichte stehen zur Auswahl, wenn Sie ein Projekt erstellen, wie unter [Erstellen eines Projekts aus einem leeren Projekt oder Bericht](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) im Artikel [Erstellen von Projekten in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) beschrieben.
 
 ## Erstellen eines benutzerdefinierten Unternehmensberichts
 
