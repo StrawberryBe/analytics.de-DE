@@ -6,9 +6,9 @@ title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3897'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`color`** | Farbtiefen-ID, basierend auf dem Wert der Spalte `c_color`. Verweist auf die Suchtabelle `color_depth.tsv`. | smallint unsigniert |
 | **`connection_type`** | Numerische ID, die den Verbindungstyp darstellt. Variable, die in der Dimension [Verbindungstyp](/help/components/dimensions/connection-type.md) verwendet wird. Verweist auf die Suchtabelle `connection_type.tsv` | tinyint unsigniert |
 | **`cookies`** | Variable, die in der Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) verwendet wird.<br>Y: aktiviert<br>N: deaktiviert<br>U: unbekannt | char(1) |
-| **`country`** | Numerische ID, die die in der `country.tsv` suchen. | smallint unsigniert |
+| **`country`** | Numerische ID, die die bei der Suche in `country.tsv` gefundenen Werte darstellt.  | smallint unsigniert |
 | **`ct_connect_type`** | Verknüpft mit der Spalte `connection_type`. Die häufigsten Werte sind LAN/WLAN, Mobilnetzbetreiber und Modem. | char(20) |
 | **`curr_factor`** | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet. Für USD werden beispielsweise zwei Dezimalstellen verwendet, sodass der Spaltenwert 2 ist. | tinyint |
 | **`curr_rate`** | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
@@ -112,7 +112,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`mcvisid`** | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | **`mobile_id`** | Die numerische Geräte-ID, wenn die Person ein Mobilgerät verwendet. Der Schlüsselwert für die `mobile_attributes.tsv` [dynamische Suche](dynamic-lookups.md). | int |
 | **`mobileaction`** | Mobile Aktion. Wird automatisch erfasst, wenn in Mobile Services `trackAction` aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
-| **`mobileappid`** | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format: `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | ID der Mobile App. Speichert den Namen und die Version der App im folgenden Format: `[AppName] [BundleVersion]`.  | varchar(255) |
 | **`mobileappperformanceappid`** | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
 | **`mobileappperformancecrashid`** | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
 | **`mobileappstoreobjectid`** | Wird im Appfigures-Daten-Connector verwendet. App Store-Objekt-ID. | varchar(255) |
