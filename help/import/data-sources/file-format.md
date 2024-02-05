@@ -4,7 +4,7 @@ description: Ordnungsgemäßes Generieren einer Datei für die Verwendung in Dat
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ Adobe unterstützt keine Datenquellen für andere Dimensionen oder Metriken. Wen
 
 Der erste Wert in jeder Zeile **must** das Datum. Das Datumsformat muss eines der folgenden Formate aufweisen:
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 Wenn die Stunden/Minuten/Sekunden nicht angegeben werden, wird der Zeitstempel für diesen Tag automatisch auf 23 Uhr festgelegt.
 
