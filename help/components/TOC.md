@@ -5,7 +5,7 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ ht-degree: 100%
    + [Seitenereignisse](metrics/page-events.md)
    + [Seitenansichten](metrics/page-views.md)
    + [Seiten nicht gefunden](metrics/pages-not-found.md)
-   + [Personen mit Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
+   + [Personen mit Experience Cloud-ID](metrics/people-with-exp-cloud-id.md)
    + [Personen](metrics/people.md)
    + [Produktansichten](metrics/product-views.md)
    + [Neuladungen](metrics/reloads.md)
