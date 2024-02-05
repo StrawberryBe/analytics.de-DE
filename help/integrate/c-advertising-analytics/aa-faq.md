@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zu Advertising Analytics.
 title: Häufig gestellte Fragen zu Werbeanalysen
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 50%
+source-wordcount: '1303'
+ht-degree: 36%
 
 ---
 
@@ -161,29 +161,18 @@ Nein, wir haben derzeit keine Pläne für diese anderen Kanäle auf dem Fahrplan
 
 ## Automatisches Tracking im Vergleich zu manuellem Tracking {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Frage </th> 
-   <th colname="col2" class="entry"> Antwort </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>F: Bei der Einrichtung meines Werbekontos erhalte ich die Meldung, dass <b>Automatisches Tracking</b> ungewollte Folgen nach sich ziehen kann. Welche Art von Folgen sind hier gemeint? </p> </td> 
-   <td colname="col2"> <p>A: 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">Der Auto-Modus versucht, URL-Parameter im richtigen Format an die Tracking-Vorlagen- bzw. Ziel-URLs anzuhängen. <b>Sie müssen jedoch sicherstellen, dass die hinzugefügten URL-Parameter ordnungsgemäß und persistent auf die richtige Landingpage verweisen. </b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">Der Auto-Modus kann Keywords in die Landing-URL einfügen, die möglicherweise Sonderzeichen enthalten, die Ihr Webserver nicht unterstützt. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>F: Wenn ich zunächst manuelles oder automatisches Tracking konfiguriere, kann ich dann später in den jeweils anderen Trackingmodus <b>wechseln</b>? Was sind die Auswirkungen? </p> </td> 
-   <td colname="col2"> <p>A: Ja, Sie können wechseln, doch Sie müssen die alte Trackinglogik entfernen, bevor Sie den Wechsel vornehmen. Dies kann zu Ausfallzeiten beim Tracking am Tag des Wechsels führen (insbesondere beim Wechsel vom manuellen zum automatischen Tracking). Daher ist es empfehlenswert, einen Wechsel nur dann vorzunehmen, wenn es absolut notwendig ist. </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Wechsel vom manuellen zum automatischen Tracking</b>: Entfernen Sie die manuellen Ergänzungen der Tracking-Vorlagen. Ändern Sie dann die entsprechende Option in der Advertising Analytics-Benutzeroberfläche von „Manuell“ zu „Automatisch“ und speichern Sie die Einstellung. Beachten Sie, dass es bis zu x Stunden dauern kann, bis das System die automatischen Trackingcodes bereitstellt. </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Wechsel vom automatischen zum manuellen Tracking</b>: Aktualisieren Sie die entsprechende Option in der Setup-Benutzeroberfläche von Advertising Analytics von „Automatisch“ auf „Manuell“ und stellen Sie dann die manuellen Trackingcodes so schnell wie möglich bereit. Wenn Sie während der Bereitstellung der manuellen Trackingcodes die automatischen Trackingcodes in den Tracking-Vorlagen der Suchmaschine sehen, entfernen Sie sie. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Beim Einrichten meines Werbekontos wird darauf hingewiesen, dass<b> Automatisches Tracking</b> kann zu unbeabsichtigten Folgen führen. Welche Art von Folgen sind hier gemeint?
+
+Der automatische Modus versucht, URL-Parameter im richtigen Format an das Ende der Tracking-Vorlagen/Ziel-URLs anzuhängen. <b>Es liegt jedoch in Ihrer Verantwortung sicherzustellen, dass die hinzugefügten URL-Parameter ordnungsgemäß auf der endgültigen Landingpage beibehalten werden. Der Auto-Modus kann Keywords in die Landing-URL einfügen, die möglicherweise Sonderzeichen enthalten, die Ihr Webserver nicht unterstützt.
+
++++
+
++++ Wenn ich das manuelle oder automatische Tracking anfangs eingerichtet habe, kann ich später in den anderen Tracking-Modus wechseln? Was sind die Auswirkungen?
+
+Ja, Sie können die Tracking-Modi wechseln. Sie müssen jedoch die alte Tracking-Logik entfernen, bevor Sie den Wechsel vornehmen. Dies kann zu Ausfallzeiten beim Tracking am Tag des Wechsels führen (insbesondere beim Wechsel vom manuellen zum automatischen Tracking). Daher empfehlen wir, nur dann zu wechseln, wenn dies unbedingt erforderlich ist.
+
+* Wechsel von Manuell zu Automatisch: Entfernen Sie die manuellen Ergänzungen der Tracking-Vorlagen, schalten Sie dann in der Advertising Analytics-Benutzeroberfläche den Umschalter von Manuell zu Automatisch um und speichern Sie die Einstellung. Beachten Sie, dass es mehrere Stunden dauern kann, bis das System die automatischen Trackingcodes ausfüllt.
+
+* Wechseln von Automatisch zu Manuell: Aktualisieren Sie den Umschalter in der Advertising Analytics-Setup-Benutzeroberfläche von manuell auf automatisch und stellen Sie dann die manuellen Trackingcodes so schnell wie möglich bereit. Wenn Sie während der Bereitstellung der manuellen Trackingcodes die automatischen Trackingcodes in den Tracking-Vorlagen der Suchmaschine sehen, entfernen Sie sie.
+
++++

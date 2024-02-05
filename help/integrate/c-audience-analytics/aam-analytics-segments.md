@@ -3,10 +3,10 @@ description: Sowohl Analytics als auch der Audience Manager verwenden Segmente.
 title: Segmente in Analytics und Audience Manager – Grundlagen
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 96%
+source-wordcount: '720'
+ht-degree: 91%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 96%
 
 Sowohl Analytics als auch der Audience Manager verwenden Segmente. Jedoch ist ein Segment in Analytics nicht dasselbe wie ein Segment in Audience Manager. Diese Unterschiede tragen zu einem Teil der Diskrepanzen bei, die bei Ihren Berichten von Analytics und Audience Manager auftreten. Aus diesem Grund ist es wichtig und hilfreich, diese Unterschiede zu verstehen, wenn Sie mit der Arbeit mit Segmenten in den beiden Lösungen beginnen.
 
-## Audience Manager-Segmente {#section_417DC4B5648547778A27E42CE1D09900}
+## Audience Manager-Segmente {#aam-segments}
 
-Ein Audience Manager-Segment ist eine Gruppe von Besuchern (Benutzer-IDs), die sich für einen Satz festgelegter Eigenschaften qualifizieren, welche durch logische Regeln verbunden sind. Es gibt vier Kriterien, die bestimmen, ob ein Besucher (Benutzer-ID) Teil eines Segments in Audience Manager ist:
+Ein Audience Manager-Segment ist eine Besuchergruppe (Benutzer-IDs), die sich für einen Satz definierter Eigenschaften qualifiziert, die durch logische Regeln verbunden werden. Es gibt vier Kriterien, die bestimmen, ob ein Besucher (Benutzer-ID) Teil eines Segments in Audience Manager ist:
 
 * Regeln, die für die Segmente selbst und die Eigenschaften, aus denen die einzelnen Segmente bestehen, festgelegt wurden. Diese Regeln legen die Bedingungen fest, die eine Benutzer-ID erfüllen oder vorweisen muss, um sich für ein Segment zu qualifizieren.
 * Algorithmische Modellierung. Unter Umständen qualifizieren sich Benutzer, die sich für ein bestimmtes Segment qualifizieren, basierend auf der algorithmischen Modellierung und Analyse auch für andere Segmente.
@@ -29,7 +29,7 @@ Ein Audience Manager-Segment wird in Analytics als Zielgruppe berechnet.
 
 Weitere Informationen finden Sie unter [Populationsdaten für Eigenschaften und Segmente im Segmentaufbau](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de) und [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=de).
 
-## Analytics-Segmente {#section_62EC584BB7134E10923BCBA7F9BD89A8}
+## Analytics-Segmente {#analytics-segments}
 
 Ein Analytics-Segment ist ein Filtermechanismus für Daten in Ihren Berichten. Das Filtern kann sich auf den Besucher, den Besuch oder die Trefferebene beziehen – und nicht nur strikt auf die Besucherebene wie im Audience Manager. Es müssen verschiedene wichtige Faktoren bedacht werden, wenn ein Analytics-Segment mit einem Audience Manager-Segment verglichen wird:
 
@@ -39,7 +39,8 @@ Ein Analytics-Segment ist ein Filtermechanismus für Daten in Ihren Berichten. D
 
   Ein Beispiel: Wenn „eVar = blau“ und so konfiguriert ist, dass es in Analytics niemals abläuft, enthält jedes beliebige Segment mit dem Kriterium „eVar = blau“ stets diesen Besucher. Im Gegensatz dazu könnte dieser Besucher nach einem festgelegten Zeitraum aus einem ähnlich definierten Segment in Audience Manager ausscheiden.
 
-* Analytics-Segmente bieten mehr Funktionen als Adobe Audience Manager-Segmente. Audience Manager-Segmente werden immer auf der Besucherebene ausgewertet. Analytics-Segmente können auf Besucher-, Besuchs- oder Trefferebene (oder einer Kombination dieser Ebenen) definiert werden. Darüber hinaus unterstützt Analytics erweiterte Segmentierungsfähigkeiten, die es im Audience Manager nicht gibt, beispielsweise die sequenzielle Segmentierung.
+* Analytics-Segmente verfügen über mehr Funktionen als Adobe Audience Manager-Segmente. Audience Manager-Segmente werden immer auf der Besucherebene ausgewertet. Analytics-Segmente können auf Besucher-, Besuchs- oder Trefferebene (oder einer Kombination dieser Ebenen) definiert werden. Darüber hinaus unterstützt Analytics erweiterte Segmentierungsfähigkeiten, die es im Audience Manager nicht gibt, beispielsweise die sequenzielle Segmentierung.
+
 * Je nachdem, ob sie die Segmentkriterien zu einem bestimmten Zeitpunkt erfüllen, können Audience Manager-Besucher wie erwähnt Teil eines Segments werden oder daraus ausscheiden.
 
   Im Gegensatz dazu werden Besucher in Analytics basierend auf dem Datumsbereich für die Berichterstellung zu Segmenten hinzugefügt oder daraus entfernt. Ein Beispiel: Ein einzelner Besucher hat im vergangenen Monat einen Kauf getätigt. In Adobe Audience Manager würde dieser Besucher unabhängig vom Datumsbereich in ein Segment &quot;Käufer&quot;einbezogen. In Analytics wäre der Besucher bei einem auf diesem Monat basierenden Bericht nicht im Segment enthalten. Allerdings wäre der Besucher bei einem auf diesem und dem vergangenen Monat basierenden Bericht im Segment enthalten.

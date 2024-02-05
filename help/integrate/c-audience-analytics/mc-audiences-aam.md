@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics-Übersicht
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 44%
+source-wordcount: '470'
+ht-degree: 42%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 44%
 
 Adobe Audience Manager (Adobe Audience Manager) ist eine leistungsstarke Datenverwaltungsplattform, mit der Sie eindeutige Zielgruppenprofile aus Erstanbieter-, Zweitanbieter-/Partner- und Drittanbieter-Datenintegrationen erstellen können. Advertiser können mithilfe dieser Zielgruppenprofile die wertvollsten Segmente für beliebige digitale Kanäle ermitteln.
 
-Mit der Integration von Audience Analytics können Sie Adobe Audience Manager-Zielgruppendaten wie demografische Informationen (z. B. Geschlecht oder Einkommensstufe), psychografische Informationen (z. B. Interessen und Hobbys), CRM-Daten und Daten zu Anzeigenimpressionen in einen beliebigen Analytics-Workflow integrieren.
+Mit der Audience Analytics-Integration können Sie Adobe Audience Manager-Zielgruppendaten wie demografische Informationen (z. B. Geschlecht oder Einkommensstufe), psychografische Informationen (z. B. Interessen und Hobbys), CRM-Daten und Ad-Impression-Daten in beliebige Analytics-Workflows integrieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
-## Wesentliche Vorteile  {#section_94816D17283349E0BA28521BE55BB868}
+## Wesentliche Vorteile  {#benefits}
 
 Die Audience Analytics-Integration umfasst die folgenden wesentlichen Vorteile:
 
@@ -29,7 +29,7 @@ Die Audience Analytics-Integration umfasst die folgenden wesentlichen Vorteile:
 * Administratoren der Lösung können die Integration über die Benutzeroberfläche aktivieren. Dabei ist nur eine minimale Anpassung des Codes erforderlich.
 * Es werden nur Segmente freigegeben, die den Bestimmungen für das Exportieren von Audience Manager-Daten entsprechen.
 
-## Funktionsweise {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
+## Funktionsweise von Audience Analytics {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
@@ -41,7 +41,7 @@ Da Adobe Audience Manager-Segmente auf der Basis von Treffern eingefügt werden,
 
 Darüber hinaus klassifizieren wir die Adobe Audience Manager-Segment-IDs automatisch nach ihren Anzeigenamen, sodass Sie in Analytics-Berichten nicht nach alphanumerischen IDs suchen müssen.
 
-## Voraussetzungen {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## Voraussetzungen {#prerequisites}
 
 Stellen Sie sicher, dass folgende Voraussetzungen erfüllt sind:
 
