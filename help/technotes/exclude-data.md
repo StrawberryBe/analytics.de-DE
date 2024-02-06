@@ -3,7 +3,8 @@ title: Ausschließen von Daten in Adobe Analytics
 description: Lernen Sie verschiedene Methoden kennen, wie Sie Daten sowohl vor als auch nach der Datenerfassung ausschließen können.
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 96%
@@ -20,7 +21,7 @@ Mit den folgenden Methoden können Sie Daten im Analytics-Reporting ausschließe
 
 * **Nach IP ausschließen**: Adobe Analytics bietet grundlegende Funktionen zum Ausschließen von Daten für IP-Adressen oder Bereiche in einer Report Suite. Siehe [Nach IP ausschließen](/help/admin/admin/exclude-ip.md) im Admin-Benutzerhandbuch.
 * **Bot-Regeln**: Bot-Regeln nehmen Traffic, der zu bekannten Zeichenfolgen von Bot-Benutzeragenten gehört, und schließen ihn aus Analytics-Berichten aus. Daten, die über Bot-Regeln ausgeschlossen werden, werden im Bots-Bericht platziert. Es können benutzerdefinierte Bot-Regeln erstellt werden, um zusätzliche Daten auszuschließen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
-* **VISTA-Regeln**: Je nach Bedarf Ihres Unternehmens werden Treffer, die Ihren Anforderungen entsprechen, an eine andere Report Suite gesendet, die speziell zum Empfang ausgeschlossener Daten verwendet wird. VISTA-Regeln werden häufig in Bezug auf IP-Adressen verwendet, sind jedoch nicht auf sie beschränkt. Sie können beliebige Dimensionen verwenden, um Daten in Report Suites ein- oder auszuschließen. VISTA-Regeln unterliegen zusätzlichen Kosten. Wenden Sie sich für weitere Informationen an Ihr Adobe Account Team.
+* **VISTA-Regeln**: Je nach Bedarf Ihres Unternehmens werden Treffer, die Ihren Anforderungen entsprechen, an eine andere Report Suite gesendet, die speziell zum Empfang ausgeschlossener Daten verwendet wird. VISTA-Regeln werden häufig in Bezug auf IP-Adressen verwendet, sind jedoch nicht auf sie beschränkt. Sie können beliebige Dimensionen verwenden, um Daten in Report Suites ein- oder auszuschließen. Für VISTA-Regeln fallen zusätzliche Kosten an. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
 * **Ausschluss-Cookies**: Alle Besucher Ihrer Site können sich freiwillig gegen das Tracking in Adobe Analytics entscheiden, indem sie eine für Ihren Tracking-Server spezifische Seite besuchen. Siehe [Implementieren von Abmelde-Links](/help/implement/js/opt-out.md) im Implementierungs-Benutzerhandbuch.
 
 >[!TIP]

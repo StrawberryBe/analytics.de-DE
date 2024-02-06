@@ -1,14 +1,16 @@
 ---
-description: Erfahren Sie, wie Sie die Adobe Campaign Standard-Berichterstellung in Adobe Analytics aktivieren
+description: Erfahren Sie, wie Sie Adobe Campaign Standard-Reporting in Adobe Analytics aktivieren
 title: Wie integriere ich Adobe Campaign Standard Reporting in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 67%
 
 ---
+
 
 # Adobe Campaign Standard Reporting
 
@@ -50,11 +52,11 @@ Nach der Aktivierung der Report Suite für Adobe Campaign sind die folgenden Kla
 
 | Klassifizierung | Beschreibung |
 | --- | --- |
-| [!UICONTROL Bereitstellungs-ID] | Interner Versandname, den Sie in Campaign sehen |
+| [!UICONTROL Versandkennung] | Interner Versandname, den Sie in Campaign sehen |
 | [!UICONTROL Versandtitel] | Versand in Campaign - Individuelle Bereitstellung/wiederkehrende Bereitstellung/Transaktionsbereitstellung |
 | [!UICONTROL Kampagnen-ID] | Interner Kampagnenname, den Sie in Campaign sehen |
-| [!UICONTROL Kampagnenbezeichnung] | Campaign in Adobe Campaign |
-| [!UICONTROL Bezeichnung der ausgeführten Bereitstellung] | Liste der jeweils ausgeführten Sendungen |
+| [!UICONTROL Kampagnentitel] | Campaign in Adobe Campaign |
+| [!UICONTROL Titel des ausgeführten Versands] | Liste der jeweils ausgeführten Sendungen |
 
 ## In Adobe Analytics verfügbare Adobe Campaign Standard-Dimensionen und -Metriken {#section_F33385C9660644AF84172EC39601469B}
 

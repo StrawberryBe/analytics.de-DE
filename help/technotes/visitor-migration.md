@@ -5,10 +5,10 @@ title: Besuchermigration
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 88%
+source-wordcount: '689'
+ht-degree: 62%
 
 ---
 
@@ -32,7 +32,7 @@ Beim Migrieren von Besuchern können Sie die Cookies zur Identifizierung von Bes
 
 Wenn die Besuchermigration konfiguriert wurde und ein Benutzer die neue Domain ohne einen Besucher-ID-Cookie besucht, führt der Server eine Umleitung zum vorherigen Datenerfassungs-Hostnamen aus, ruft jegliche verfügbaren Besucher-ID-Cookies ab und wechselt dann zurück zu der neuen Domain. Wenn eine Besucher-ID unter dem früheren Hostnamen nicht gefunden werden kann, wird eine neue ID generiert. Dies erfolgt einmalig pro Besucher.
 
-## Migrieren von Besuchern {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## Migrieren von Besuchern {#process}
 
 In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren von Besuchern erforderlich sind:
 
@@ -58,7 +58,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unmittelbar nach Aktualisierung Ihres Analytics-Code</b>: Testen Sie Ihre Website, um zu verifizieren, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. </p> </td> 
-   <td colname="col3"> <p>Verwenden Sie einen <a href="../implement/validate/packet-monitor.md">Paketmonitor</a>, um zu verifizieren, dass beim erstmaligen Zugriff auf Ihre Website bzw. nach dem Löschen von Cookies zwei HTTP-Status-Codes „302“ (Redirect) vor dem HTTP-Status-Code „200“ (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
+   <td colname="col3"> <p>Verwenden Sie eine <a href="../implement/validate/packet-monitor.md"> Paketmonitor</a> um zu überprüfen, ob beim erstmaligen Zugriff auf Ihre Site oder nach dem Löschen von Cookies zwei 302-HTTP-Status-Codes (Umleitung) vor dem 200-HTTP-Status-Code (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Im gesamten Migrationszeitraum</b>: Belassen Sie den DNS-Eintrag für den vorherigen Hostnamen weiterhin aktiviert. </p> </td> 
@@ -66,3 +66,10 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
   </tr> 
  </tbody> 
 </table>
+
+| Aufgabe | Beschreibung |
+|--- |--- |
+| Zu Beginn: Wenden Sie sich an die Kundenunterstützung mit der Domäne(n), die migriert werden soll, und dem Migrationszeitraum, den Sie aktivieren möchten (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die nicht sicheren und sicheren Domänen einschließen. | Erstellen Sie eine Liste mit der genauen Syntax für die Domänen, zu denen Sie migrieren und von denen Sie migrieren möchten.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>Die Migrations-Hostnamen werden auf dem Adobe-Datenerfassungsserver konfiguriert. Der Kundendienst teilt Ihnen mit, wann die Änderung erfolgt, sodass Sie für den nächsten Schritt planen können. |
+| 6 und mehr Stunden nach der Konfigurationsänderung: Aktualisieren Sie die `s.trackingServer` und `s.trackingServerSecure` Variablen in Ihrem Analytics-JavaScript-Code verwenden, um die neuen Datenerfassungsserver zu verwenden. | Verwenden Sie nach dieser Änderung die [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) , um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungsserver gesendet wird. |
+| Sofort nach der Aktualisierung Ihres Analytics-Codes: Testen Sie Ihre Site, um sicherzustellen, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. | Verwenden Sie eine [Paketmonitor](../implement/validate/packet-monitor.md) um zu überprüfen, ob beim erstmaligen Zugriff auf Ihre Site oder nach dem Löschen von Cookies zwei 302-HTTP-Status-Codes (Umleitung) vor dem 200-HTTP-Status-Code (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. |
+| Für den gesamten Migrationszeitraum: Lassen Sie den DNS-Eintrag für den vorherigen Hostnamen aktiv. | Der vorherige Hostname muss über DNS aufgelöst werden. Andernfalls wird die Cookie-Migration nicht ausgeführt. |

@@ -3,9 +3,10 @@ title: Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-
 description: Erfahren Sie, wie Sie die Auswirkungen von Beschränkungen für Browser-Cookies reduzieren können, um die Datenerfassung für Adobe Analytics zu verbessern.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: ht
-source-wordcount: '566'
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+workflow-type: tm+mt
+source-wordcount: '515'
 ht-degree: 100%
 
 ---

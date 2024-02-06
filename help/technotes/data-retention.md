@@ -3,10 +3,10 @@ title: Richtlinie zur Datenaufbewahrung
 description: Eine Richtlinie zur Datenaufbewahrung bestimmt, wie lange Adobe Ihre Daten speichert.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance, Privacy
-source-git-commit: 065126757513df3503a5bbb34ceafe1b569ec51a
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 91%
+source-wordcount: '618'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ Von Adobe Analytics gesammelte Daten werden über einen bestimmten Zeitraum gesp
 
 Die gespeicherten Daten basieren auf dem aktuellen Datum und dem Datum/der Uhrzeit der Verlaufsdaten. Datum und Uhrzeit, die bei Treffern aufgezeichnet werden, kann sich Datum und Uhrzeit der Treffer bei Adobe unterscheiden.
 
-## Anpassen der standardmäßigen Datenaufbewahrungszeit
+## Anpassen der standardmäßigen Datenaufbewahrungsdauer
 
 Wenden Sie sich an Ihr Adobe Account Team, wenn Sie die standardmäßige Datenaufbewahrungsdauer verkürzen oder verlängern möchten.
 
@@ -39,19 +39,27 @@ Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick d
 
 ## Häufig gestellte Fragen
 
-**Wie treffe ich Entscheidungen über den Datenaufbewahrungszeitraum meines Unternehmens?**
++++ Wie treffe ich Entscheidungen über den Datenaufbewahrungszeitraum meines Unternehmens?
 
 Ihr Unternehmen kann als Datenverantwortlicher Interessengruppen (wie beispielsweise Ihre Marketing-, Analyse- und Datenschutz-Teams) innerhalb der Organisation bestimmen, die Entscheidungen über die Datenaufbewahrung treffen. Ihr Unternehmen ist am besten in der Lage, den richtigen Zeitraum für die Datenspeicherung in Adobe Analytics zu bestimmen.
 
-**Wie berechne ich das Zeitfenster zur Datenaufbewahrung?**
++++
+
++++ Wie berechne ich das Zeitfenster zur Datenaufbewahrung?
 
 In der Datenaufbewahrungsrichtlinie wird ein rollierendes Zeitfenster für die Datenaufbewahrung festgelegt, in dem vollständige Daten angezeigt und zur Berichterstellung verwendet werden können. Das Datum des Datenerfassungsbeginns wird durch das aktuelle Datum abzüglich des Datenspeicherungszeitraums bestimmt. Das Enddatum der Datenspeicherung wird vom aktuellen Datum bestimmt. Die Daten fallen in das Zeitfenster für die Datenaufbewahrung, wenn der Zeitstempel der Daten zwischen dem Start- und dem Enddatum liegt.
 
-**Kann ich eine Kopie meiner Daten erhalten, bevor sie gelöscht werden?**
++++
 
-Ja. Adobe kann einen Verlaufsdaten-Dump roher Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten. Wenden Sie sich an Ihr Adobe Account Team, wenn die Anforderungen an den Datenexport außerhalb des Umfangs der Benutzeroberfläche liegen. Hierfür können besondere Vorkehrungen getroffen werden. Die Kosten können variieren.
++++ Kann ich eine Kopie meiner Daten anfordern, bevor sie gelöscht werden?
 
-**Wann löscht Adobe Daten?**
+Ja. Adobe kann einen Verlaufsdaten-Dump roher Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten. Wenden Sie sich an Ihr Adobe Account-Team, wenn die Anforderungen an den Datenexport außerhalb des Umfangs der Benutzeroberfläche liegen. Hierfür können besondere Vorkehrungen getroffen werden. Die Kosten können variieren.
 
-Wenden Sie sich an Ihr Adobe Account Team, um zu erfahren, wann das Löschen Ihrer Daten geplant ist. Daten werden in der Regel nach einem rollierenden monatlichen Zeitplan gelöscht.
++++
+
++++ Wann löscht Adobe Daten?
+
+Wenden Sie sich an Ihr Adobe-Account-Team, um zu erfahren, wann die Löschung Ihrer Daten geplant ist. Daten werden in der Regel nach einem rollierenden monatlichen Zeitplan gelöscht.
+
++++
 

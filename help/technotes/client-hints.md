@@ -3,10 +3,11 @@ title: Client-Hinweise
 description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten als Quelle von Geräteinformationen ersetzen werden.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 87%
+source-wordcount: '1184'
+ht-degree: 84%
 
 ---
 
@@ -74,7 +75,7 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 | platformVersion | Betriebssystem/Platform-Version | Hoch | `"10"` |
 
 * Über den Anfrage-Header werden Hinweise mit geringer Entropie erfasst.
-* Hinweise mit hoher Entropie werden über JavaScript erfasst und mithilfe von Abfragezeichenfolgen-Parameterwerten übergeben. Die Abfragezeichenfolgen-Parameter verwenden `h.` als Präfix in der Bildanforderung. Beachten Sie, dass fullVersionList derzeit nicht erfasst wird, da die Hauptversion des Browsers als Hinweis für eine niedrige Entropie erfasst wird.
+* Hinweise mit hoher Entropie werden über JavaScript erfasst und mithilfe von Abfragezeichenfolgen-Parameterwerten übergeben. Die Abfragezeichenfolgenparameter verwenden `h.` als Präfix in der Bildanforderung. Beachten Sie, dass fullVersionList derzeit nicht erfasst wird, da die Hauptversion des Browsers als Hinweis für eine niedrige Entropie erfasst wird.
 
 Hinweise mit hoher Entropie werden über einen JavaScript-Aufruf erfasst und mithilfe eines Abfrageparameters übergeben
 
@@ -144,7 +145,7 @@ Siehe Dokumentation zur Einbindung dieser Daten über die [Bulk-Dateneinfüge-AP
 
 +++
 
-+++**Sind Kundenhinweise in Daten verfügbar, die über den Adobe Source Connector an Adobe Experience Platform und Customer Journey Analytics gesendet werden?**
++++**Sind Client-Hinweise in Daten verfügbar, die über den Adobe Source Connector an Adobe Experience Platform und Customer Journey Analytics gesendet werden?**
 
 Adobe plant, im ersten Halbjahr 2023 Client-Hinweise in Daten über den Adobe Source Connector zu erfassen.
 

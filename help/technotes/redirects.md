@@ -4,10 +4,10 @@ keywords: Analytics-Implementierung
 title: Umleitungen und Aliase
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 100%
+source-wordcount: '1105'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu einem neuen Standort. Sie werden entweder auf Webbrowser-Ebene (clientseitige Umleitungen) oder Webserver-Ebene (serverseitige Umleitungen) durchgeführt.
 
-## Umleitungen und Aliase {#concept_F4F1D53D473947FE8554897332545763}
+## Umleitungen und Aliase {#aliases}
 
 Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu einem neuen Standort. Sie werden entweder auf Webbrowser-Ebene (clientseitige Umleitungen) oder Webserver-Ebene (serverseitige Umleitungen) durchgeführt.
 
@@ -23,11 +23,11 @@ Da bei Umleitungen keine Interaktion des Benutzers erforderlich ist, werden Umle
 
 Obwohl es nur zwei Typen von Umleitungen gibt, können sie auf verschiedene Arten implementiert werden. Clientseitige Umleitungen können beispielsweise auftreten, da die Webseite, auf die ein Benutzer seinen Browser verwiesen hat, Scripting oder einen speziellen HTML-Code enthält, der den Browser auf eine andere URL verweist. Serverseitige Umleitungen können auftreten, da die Seite serverseitiges Scripting enthält oder da der Webserver zum Verweisen des Benutzers auf eine andere URL konfiguriert wurde.
 
-## Analytics und Umleitungen {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
+## Analytics und Umleitungen {#aa-redirects}
 
 [!DNL Analytics] erfasst einige Daten aus dem Browser und ist auf bestimmte Browsereigenschaften angewiesen. Zwei dieser Eigenschaften, die „Verweisende URL“ (oder „Verweis“) und die „Aktuelle URL“, können durch eine serverseitige Umleitung geändert werden. Da der Browser erkennt, dass eine URL abgefragt wurde, jedoch eine andere URL zurückgegeben wurde, wird die verweisende URL entfernt. Demzufolge ist die verweisende URL leer, und [!DNL Analytics] würde dann melden, dass zu der Seite kein Referrer vorhanden wäre.
 
-## Beispiel: Browsen ohne Umleitungen {#section_5C835A4D665A4625A23333C2C21F152D}
+## Beispiel: Browsen ohne Umleitungen {#browse-without}
 
 Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht umgeleitet wird:
 
@@ -36,7 +36,7 @@ Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht um
 1. Der Benutzer klickt auf den Link zu Ihrer hypothetischen Site [!DNL https://www.example.com/]. Wenn der Benutzer auf diesen Link klickt und auf die Website [!DNL example.com] gelangt, erfasst [!DNL Analytics] mithilfe von JavaScript die verweisende URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) und die aktuelle URL ( `https://www.example.com/`).
 1. [!DNL Analytics] präsentiert die während dieser Interaktion gesammelten Informationen in verschiedenen Berichten z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen] und [!DNL Search Keywords].
 
-## Beispiel: Browsen mit Umleitungen {#section_921DDD32932847848C4A901ACEF06248}
+## Beispiel: Browsen mit Umleitungen {#browse-with}
 
 Umleitungen können dazu führen, dass der Browser die eigentliche verweisende URL ausblendet. Betrachten wir das folgende Szenario:
 
@@ -44,25 +44,13 @@ Umleitungen können dazu führen, dass der Browser die eigentliche verweisende U
 1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaiiforfree.com/]. Diese *Vanity*-Domain ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
 1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit sind die ursprünglichen Suchinformationen nicht mehr vorhanden, die in den [!DNL Analytics]-Berichten (z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen], [!UICONTROL Keywords]) verwendet wurden.
 
-## Umleitungen implementieren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## Umleitungen implementieren {#implement}
 
 Damit [!DNL Analytics] Daten aus Weiterleitungen erfasst werden können, müssen vier kleinere Änderungen an dem Code, der die Weiterleitung erstellt, und an der [!DNL AppMeasurement] für JavaScript-Datei vorgenommen werden.
 
-<!-- 
-
-redirects_implement.xml
-
- -->
-
 Mit Durchführung der folgenden Schritte werden die Informationen erhalten, die der ursprüngliche Verweis (zum Beispiel `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` im obigen Szenario) an Ihre Site weitergibt:
 
-## Konfiguration von JavaScript-Code zum Außerkraftsetzen des Verweises {#section_87BB1D47D9C345C18339078824645CC4}
-
-<!-- 
-
-redirects_js_override.xml
-
- -->
+## Konfiguration von JavaScript-Code zum Außerkraftsetzen des Verweises {#override}
 
 Der nachstehende Codeabschnitt zeigt zwei JavaScript-Variablen, *`s_referrer`* und *`s_pageURL`*. Dieser Code wird auf der endgültigen Landingpage der Weiterleitung platziert.
 
@@ -82,7 +70,7 @@ s.pageURL=""
 >
 >Stellen Sie *`s.referrer`* nur einmal auf der Seite ein. Wenn Sie die Variable bei jedem Tracking-Aufruf oder jedem Link-Klick festlegen, wird sie vom Referrer und ähnlichen Dimensionen wie Suchmaschinen und Schlüsselwörtern doppelt gezählt.
 
-## Weiterleitungen mittels getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
+## Weiterleitungen mittels getQueryParam {#getqueryparam}
 
 [!UICONTROL getQueryParam] stellt eine einfache Möglichkeit dar, [!DNL Analytics]-Variablen mit Abfragezeichenfolgen-Werten aufzufüllen. Es muss jedoch in Verbindung mit einer temporären Variablen implementiert werden, damit bei einer leeren Abfragezeichenfolge keine legitimen Referrer überschrieben werden. Die beste Möglichkeit, [!UICONTROL getQueryParam] zu verwenden, erfolgt in Kombination mit dem [!UICONTROL getValue]-Plug-in, wie im folgenden Beispielcode gezeigt wird.
 
@@ -100,25 +88,13 @@ if(tempVar)
   s.referrer=tempVar;
 ```
 
-## Ändern des Weiterleitungsmechanismus {#section_2FF9921E8FCA4440B6FF90F15386E548}
+## Ändern des Weiterleitungsmechanismus {#modify}
 
-<!-- 
-
-redirects_modify_mechanism.xml
-
- -->
-
-Da der Browser die verweisende URL abdeckt, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung durchführt (zum Beispiel den Webserver, den serverseitigen Code, den clientseitigen Code), um die Informationen zum ursprünglichen Verweis weiterzugeben. Wenn Sie auch die Link-URL des Alias aufzeichnen möchten, muss dies auch auf die endgültige Landingpage übertragen werden. Verwenden Sie die Variable *`s_pageURL`* zum Überschreiben der aktuellen URL.
+Da der Browser die verweisende URL abdeckt, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung durchführt (zum Beispiel den Webserver, den serverseitigen Code, den clientseitigen Code), um die Informationen zum ursprünglichen Verweis weiterzugeben. Wenn Sie auch die Link-URL des Alias aufzeichnen möchten, muss dies auch auf die endgültige Landingpage übertragen werden. Verwenden Sie die *`s_pageURL`* zum Überschreiben der aktuellen URL.
 
 Da viele Möglichkeiten zur Implementierung einer Weiterleitung bestehen, müssen Sie ggf. mit Ihrer Web Operations-Gruppe oder Ihrem Online-Werbepartner die spezifischen Mechanismen bestimmen, die Weiterleitungen auf Ihrer Website ausführen.
 
-## Erfassung der ursprünglich verweisenden Stelle {#section_7F1A77F447CF485385B456A64B174050}
-
-<!-- 
-
-redirects_referrer.xml
-
- -->
+## Erfassung der ursprünglich verweisenden Stelle {#original}
 
 Für gewöhnlich ruft [!DNL Analytics] die verweisende URL aus der Eigenschaft [!UICONTROL document.referrer] und die aktuelle URL aus der Eigenschaft [!UICONTROL document.location] des Browsers ab. Durch Übergabe von Werten an die Variablen *`referrer`* und *`pageURL`* können Sie die Standardverarbeitung überschreiben. Durch Übergabe eines Werts an die Variable „referrer“ teilen Sie [!DNL Analytics] mit, dass die Referrer-Information in der Eigenschaft [!UICONTROL document.referrer] ignoriert und stattdessen ein anderer, von Ihnen definierter Wert verwendet werden soll.
 
@@ -137,13 +113,7 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
-## Überprüfen des Referrers mit dem Adobe Debugger {#section_B3E85941982E4E1698B271375AD669B9}
-
-<!-- 
-
-redirects_verify_referrer.xml
-
- -->
+## Überprüfen des Referrers mit dem Adobe Debugger {#verify}
 
 Führen Sie einen Test durch, um zu überprüfen, dass die verweisende Stelle, die Quell-URL (*`s_server`*) und die Kampagnenvariablen erfasst werden.
 
