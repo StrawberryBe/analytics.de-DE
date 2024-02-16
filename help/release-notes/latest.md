@@ -3,9 +3,9 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
+source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '722'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Activity Map für Web SDK ohne zusätzliche Kosten** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. Durch diese Verbesserung werden einige Linkereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung von AppMeasurement. |  | Donnerstag, 6. März 2024 |
-| **Anhebung der standardmäßigen Schwellenwerte für niedrigen Traffic** | In **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für niedrigen Traffic wie folgt: ![niedrige Traffic-Schwellenwerte](assets/thresholds.png) Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen, und wir erwarten, dass die Arbeit durch die **Ende Mai**. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für die Berichterstellung verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li></ul> | Mitte April 2024 | Ende Mai 2024 |
+| **Anhebung der standardmäßigen Schwellenwerte für niedrigen Traffic** | In **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für niedrigen Traffic wie folgt: ![niedrige Traffic-Schwellenwerte](assets/thresholds.png) Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen, und wir erwarten, dass die Arbeit durch die **Ende Mai**. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für die Berichterstellung verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Classification-Exporte können mehr Daten enthalten.</li></ul> | Mitte April 2024 | Ende Mai 2024 |
 
 {style="table-layout:auto"}
 
