@@ -3,10 +3,10 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 21%
+source-wordcount: '3215'
+ht-degree: 17%
 
 ---
 
@@ -59,7 +59,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
    Verwenden Sie einen der folgenden Zieltypen beim Erstellen eines Daten-Feeds. Erweitern Sie für Konfigurationsanweisungen den Zieltyp. (zusätzlich [Legacy-Ziele](#legacy-destinations) sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
 
-   +++Amazon S3
+   ++ + Amazon S3
 
    Sie können Feeds direkt an Amazon S3-Behälter senden. Für diesen Zieltyp sind nur Ihr Amazon S3-Konto und der Speicherort (Bucket) erforderlich.
 
@@ -93,19 +93,19 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          |---------|----------|
          | [!UICONTROL **Kontoname**] | Ein Name für das Konto. Dabei kann es sich um einen beliebigen Namen handeln. |
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Rollen-ARN**] | Sie müssen einen Role ARN (Amazon Resource Name) bereitstellen, den Adobe verwenden kann, um Zugriff auf das Amazon S3-Konto zu erhalten. Dazu erstellen Sie eine IAM-Berechtigungsrichtlinie für das Quellkonto, hängen die Richtlinie an einen Benutzer an und erstellen dann eine Rolle für das Zielkonto. Weitere Informationen finden Sie unter [Diese AWS-Dokumentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **Rolle ARN**] | Sie müssen einen Role ARN (Amazon Resource Name) bereitstellen, den Adobe verwenden kann, um Zugriff auf das Amazon S3-Konto zu erhalten. Dazu erstellen Sie eine IAM-Berechtigungsrichtlinie für das Quellkonto, hängen die Richtlinie an einen Benutzer an und erstellen dann eine Rolle für das Zielkonto. Weitere Informationen finden Sie unter [Diese AWS-Dokumentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
          | [!UICONTROL **Benutzer-ARN**] | Die Benutzer-ARN (Amazon Resource Name) wird von Adobe bereitgestellt. Sie müssen diesen Benutzer an die von Ihnen erstellte Richtlinie anhängen. |
 
          {style="table-layout:auto"}
 
-         1. Auswählen [!UICONTROL **Ort hinzufügen**] und geben Sie dann die folgenden Informationen an:
+      1. Auswählen [!UICONTROL **Ort hinzufügen**] und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Behälter**] | Der Behälter in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN Zugriff auf das Hochladen von Dateien in diesen Bucket hat. |
-         | [!UICONTROL **Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
+         | [!UICONTROL **Bucket**] | Der Behälter in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject` -Berechtigung, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, anfängliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p> |
+         | [!UICONTROL **Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -151,7 +151,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          |---------|----------|
          | [!UICONTROL **Kontoname**] | Ein Name für das Azure RBAC-Konto. Dieser Name wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure RBAC-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
-         | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Bewerbungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Zertifikate &amp; Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
@@ -165,7 +165,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Konto**] | Das Azure-Speicherkonto. |
          | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie Berechtigungen zum Hochladen von Dateien in die Azure-Anwendung erteilen, die Sie zuvor erstellt haben. |
-         | [!UICONTROL **Präfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
+         | [!UICONTROL **Präfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -175,7 +175,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
 +++
 
-   +++Azure SAS
+   +++ Azure SAS
 
    Sie können Feeds mit der SAS-Authentifizierung direkt an einen Azure-Container senden. Für diesen Zieltyp sind eine Anwendungs-ID, eine Mandantenkennung, ein URI für den Schlüssel-Vault, ein geheimer Name für den Schlüssel-Vault und ein Geheimnis erforderlich.
 
@@ -211,10 +211,10 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          |---------|----------|
          | [!UICONTROL **Kontoname**] | Ein Name für das Azure SAS-Konto. Dieser Name wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
-         | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Bewerbungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Schlüssel-Vault-URI erstellt wurde, fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-         | [!UICONTROL **Key Vault-Geheimnisname**] | Der geheime Name, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault im **Key Vault** Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **Key Vault URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Schlüssel-Vault-URI erstellt wurde, fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **Schlüsselname für geheime Schlüssel**] | Der geheime Name, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault im **Key Vault** Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Zertifikate &amp; Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
@@ -226,7 +226,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
-         | [!UICONTROL **Präfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
+         | [!UICONTROL **Präfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
 +++
 
-   +++Google Cloud Platform
+   ++ + Google Cloud Platform
 
    Sie können Feeds direkt an Google Cloud Platform-Buckets (GCP) senden. Für diesen Zieltyp sind nur der Name Ihres GCP-Kontos und der Speicherort (Bucket) erforderlich.
 
@@ -274,15 +274,15 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          {style="table-layout:auto"}
 
-         1. Auswählen [!UICONTROL **Ort hinzufügen**] und geben Sie dann die folgenden Informationen an:
+      1. Auswählen [!UICONTROL **Ort hinzufügen**] und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Prinzipal**] | Der Prinzipal wird von Adobe bereitgestellt. Sie müssen diesem Prinzipal Berechtigungen zum Empfangen von Feeds erteilen. |
+         | [!UICONTROL **Principal**] | Der Prinzipal wird von Adobe bereitgestellt. Sie müssen diesem Prinzipal Berechtigungen zum Empfangen von Feeds erteilen. |
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Behälter**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal die Berechtigung zum Hochladen von Dateien in diesen Bucket erteilt haben. |
-         | [!UICONTROL **Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Zum Beispiel, `folder_name/` |
+         | [!UICONTROL **Bucket**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben:<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit terminierten Berichten verwenden, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal keinen Zugriff auf das Überschreiben vorhandener Dateien hat.</li><li>(Empfohlen) `roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn Sie möchten, dass der Prinzipal Zugriff auf Dateien in Ihrem GCP-Konto hat, die Sie auflisten, aktualisieren und löschen können.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien für nachfolgende Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Informationen zum Gewähren von Berechtigungen finden Sie unter [Einen Prinzipal zu einer Richtlinie auf Behälterebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in der Dokumentation zu Google Cloud.</p> |
+         | [!UICONTROL **Präfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -297,9 +297,9 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
    | Feld | Funktion |
    |---------|----------|
    | [!UICONTROL **Escapezeichen entfernen**] | Beim Erfassen von Daten können einige Zeichen (z. B. Zeilenumbrüche) Probleme verursachen. Aktivieren Sie dieses Kontrollkästchen, wenn diese Zeichen aus Feed-Dateien entfernt werden sollen. |
-   | [!UICONTROL **Komprimierungsformat**] | Die verwendete Komprimierungsart. **** Gzip gibt Dateien im `.tar.gz`-Format aus. **** Zip gibt Dateien im `.zip`-Format aus. |
-   | [!UICONTROL **Verpackungstyp**] | Auswählen **Mehrere Dateien** für die meisten Daten-Feeds. Mit dieser Option werden Ihre Daten in unkomprimierte 2-GB-Blöcke paginiert. (Wenn mehrere Dateien ausgewählt sind und die nicht komprimierten Daten für das Berichtsfenster weniger als 2 GB betragen, wird eine Datei gesendet.) Auswählen **Einzelne Datei** gibt die `hit_data.tsv` Datei in einer einzigen, potenziell riesigen Datei. |
-   | [!UICONTROL **Manifest**] | Gibt an, ob Adobe eine [Manifestdatei](c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie **Manifestdatei** erhalten Sie eine Manifestdatei, die der folgenden ähnelt, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Komprimierungsformat**] | Die verwendete Komprimierungsart. **Gzip** gibt Dateien in aus `.tar.gz` Format. **Zip** gibt Dateien in aus `.zip` Format. |
+   | [!UICONTROL **Verpackungstyp**] | Auswählen **Mehrere Dateien** für die meisten Daten-Feeds. Mit dieser Option werden Ihre Daten in unkomprimierte 2-GB-Blöcke paginiert. (Wenn mehrere Dateien ausgewählt sind und die unkomprimierten Daten für das Berichtsfenster weniger als 2 GB betragen, wird eine Datei gesendet.) Auswählen **Einzelne Datei** gibt die `hit_data.tsv` Datei in einer einzigen, potenziell riesigen Datei. |
+   | [!UICONTROL **Manifest**] | Ob Adobe eine [Manifestdatei](c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel, wenn für ein Feed-Intervall keine Daten erfasst werden. Wenn Sie **Manifestdatei** erhalten Sie eine Manifestdatei, die der folgenden ähnelt, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Spaltenvorlagen**] | Bei der Erstellung vieler Daten-Feeds empfiehlt Adobe die Erstellung einer Spaltenvorlage. Bei Auswahl einer Spaltenvorlage werden automatisch die angegebenen Spalten in der Vorlage eingefügt. Adobe stellt standardmäßig auch mehrere Vorlagen bereit. |
    | [!UICONTROL **Verfügbare Spalten**] | Alle in Adobe Analytics verfügbaren Datenspalten. Klicken Sie auf [!UICONTROL Alle hinzufügen], um alle Spalten in einen Daten-Feed einzubeziehen. |
    | [!UICONTROL **Einbezogene Spalten**] | Die Spalten, die in einen Daten-Feed aufgenommen werden sollen. Klicken Sie auf [!UICONTROL Alle entfernen], um alle Spalten aus einem Daten-Feed zu entfernen. |
