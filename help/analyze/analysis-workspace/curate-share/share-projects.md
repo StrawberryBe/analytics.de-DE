@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c779035b4f1bfbde6da90b2bc6aa2864bb6353f0
+source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 40%
+source-wordcount: '1929'
+ht-degree: 31%
 
 ---
 
@@ -55,16 +55,28 @@ Beachten Sie beim Freigeben einer bestimmten Projektrolle für Benutzende und Gr
 
 * Benutzende, denen mehrere Rollen zugewiesen sind, erhalten immer die maximale Berechtigung. Dies kann vorkommen, wenn Benutzende sowohl als Einzelpersonen als auch als Gruppenmitglieder hinzugefügt werden. Wenn einem Benutzer beispielsweise die Variable **[!UICONTROL Original bearbeiten]** Rolle als Einzelperson und **[!UICONTROL Schreibgeschützt]** Als Mitglied einer Gruppe erhalten sie eine **[!UICONTROL Original bearbeiten]** Projekterlebnis.
 
-* Administratoren, die im **[!UICONTROL Kopie bearbeiten]** oder **[!UICONTROL Schreibgeschützt]** Rolle erhält diese eingeschränkten Erlebnisse beim Öffnen eines Projekts. Ein Administrator kann seine Rolle in **[!UICONTROL Original bearbeiten]** indem Sie das Projekt für sich selbst freigeben und die Rolle &quot;Bearbeiten&quot;zuweisen, wie im folgenden Verfahren beschrieben.
+* Administratoren, die im **[!UICONTROL Kopie bearbeiten]** oder **[!UICONTROL Schreibgeschützt]** Rolle erhält diese eingeschränkten Erlebnisse beim Öffnen eines Projekts. Ein Administrator kann seine Rolle in **[!UICONTROL Original bearbeiten]** durch Eigenbeteiligung des Projekts und Gewährung der **Bearbeiten** Rolle, wie im folgenden Verfahren beschrieben.
+
+* Wenn mehrere Projekte zum Freigeben ausgewählt wurden, werden die Empfänger für jedes Projekt der bestehenden Empfängerliste hinzugefügt.
+
+  Beispielsweise ist Projekt A bereits für die Empfänger 1, 2 und 3 freigegeben, während Projekt B bereits für die Empfänger 4, 5 und 6 freigegeben wurde.
+
+  Die Projekte A und B werden dann für die Empfänger 4 und 7 freigegeben. Die neue Freigabeliste für Projekt A ist jetzt 1, 2, 3, 4 und 7, während die neue Freigabeliste für Projekt B 4, 5, 6 und 7 lautet.
 
 So geben Sie eine bestimmte Projektrolle für Benutzende oder Gruppen in Ihrer Organisation frei:
 
-1. Wechseln Sie zu dem Projekt, das Sie freigeben möchten, und klicken Sie dann auf **[!UICONTROL Freigeben]** > **[!UICONTROL Freigeben für Workspace-Benutzer]**.
-Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projekt zuerst zu speichern.
+1. Wählen Sie in Adobe Analytics die [!UICONTROL **Arbeitsbereich**] Registerkarte und wählen Sie [!UICONTROL **Projekte**] in der linken Leiste.
+
+1. Aktivieren Sie das Kontrollkästchen neben einem oder mehreren freizugebenden Projekten und wählen Sie [!UICONTROL **Freigeben**].
+
+   Oder
+
+   Um nur ein einzelnes Projekt freizugeben, können Sie das Projekt öffnen, das Sie freigeben möchten, und dann **[!UICONTROL Freigeben]** > **[!UICONTROL Freigeben für Workspace-Benutzer]**.
+Wenn nicht gespeicherte Änderungen vorhanden sind, werden Sie aufgefordert, Ihr Projekt zuerst zu speichern.
+
+   Das Dialogfeld Projekt freigeben wird angezeigt. Die [!UICONTROL **Über Link freigeben**] und [!UICONTROL **Einstellungen**] -Abschnitte des Dialogfelds sind nur sichtbar, wenn ein einzelnes Projekt freigegeben wird.
 
    ![](assets/share-proj-modal.png)
-
-   Informationen dazu, wie Sie mehrere Projekte gleichzeitig freigeben, finden Sie unter [Freigeben von Projekten im Projekt-Manager](#share-projects-in-the-project-manager).
 
 1. Fügen Sie Empfänger und Empfängerinnen oder Empfängergruppen in eines der angegebenen Rollenfelder hinzu:
 
@@ -74,17 +86,17 @@ Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projek
 
    **Schreibgeschützt:** Empfänger können **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter]** und keinen Zugriff auf die linke Leiste haben. Auch die Projektinteraktionen sind begrenzt. Diese Rolle ist hilfreich, wenn Sie ein Projekt für Benutzende freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen nicht so vertraut sind. Sie möchten jedoch, dass sie Daten und Erkenntnisse in einer sicheren Umgebung einsehen können. Weitere Informationen zum [Schreibgeschütztes Projekterlebnis](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
-1. Wählen Sie aus, ob beim Freigeben des Projekts die folgenden Optionen aktiviert werden sollen:
+1. (Bedingt) Wenn Sie ein einzelnes Projekt freigeben, wählen Sie aus, ob beim Freigeben des Projekts die folgenden Optionen aktiviert werden sollen:
 
    * **Freigeben von eingebetteten Projektkomponenten**: Freigabe von Segmenten, berechneten Metriken und Datumsbereichen für alle Empfänger und Empfängerinnen. Nach der Freigabe werden diese Komponenten im Dropdown-Menü „Komponenten“ im Arbeitsbereich des Empfängers bzw. der Empfängerin angezeigt. Diese Einstellung wird nicht beibehalten. Es handelt sich um eine einmalige Aktion zum Zeitpunkt der Freigabe.
 
    * **Als Landingpage für Empfänger und Empfängerinnen festlegen:** Legt diese Seite als Landingpage für Empfänger und Empfängerinnen fest. Diese Einstellung wird nicht beibehalten. Es handelt sich um eine einmalige Aktion zum Zeitpunkt der Freigabe.
 
-1. Klicken Sie auf **[!UICONTROL Freigabe]**. (Wenn das Projekt bereits freigegeben wurde, klicken Sie auf [!UICONTROL **Aktualisieren**].
+1. Auswählen **[!UICONTROL Freigeben]**. (Wenn das Projekt bereits freigegeben wurde, wählen Sie [!UICONTROL **Aktualisieren**].
 
    Oder
 
-   Klicks **[!UICONTROL Kuratieren und freigeben]** , um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, klicken Sie auf **[!UICONTROL Kuratieren und aktualisieren]**. Weitere Informationen zur [Projektkuratierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
+   Auswählen **[!UICONTROL Kuratieren und freigeben]** , um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, wählen Sie **[!UICONTROL Kuratieren und aktualisieren]**. Weitere Informationen zur [Projektkuratierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
 
 ## Freigeben eines Links zu einem Projekt
 
@@ -148,7 +160,7 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
 1. Wählen Sie aus, ob die folgende Sicherheitsoption aktiviert werden soll (diese Option kann von Ihrem Analytics-Administrator gesteuert werden):
 
-   * **[!UICONTROL Experience Cloud-Authentifizierung verlangen]:**
+   * **[!UICONTROL Experience Cloud-Authentifizierung erforderlich]:**
 
      Wenn diese Option aktiviert ist, können nur Benutzer auf das Projekt zugreifen, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Für Benutzer, für die Sie freigeben, ist jedoch kein Zugriff auf Adobe Analytics erforderlich.
 
@@ -168,21 +180,11 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
 1. Auswählen **[!UICONTROL Schließen]** , um das Dialogfeld &quot;Freigeben&quot;zu schließen. Ihre Änderungen werden automatisch gespeichert.
 
-## Freigeben von Projekten im Projekt-Manager {#Manager}
+## Freigegebene Projekte anzeigen
 
-Projekte können auch über **[!UICONTROL Komponenten] > [!UICONTROL Projekte]** freigegeben werden. Ein einzelnes Projekt kann wie oben beschrieben freigegeben werden.  Wenn mehrere Projekte zum Freigeben ausgewählt wurden, werden die Empfänger für jedes Projekt der bestehenden Empfängerliste hinzugefügt.
+Wenn jemand ein Projekt mit Ihnen teilt, indem er [Teilen einer bestimmten Projektrolle](#share-a-specific-project-role), können Sie über die [Registerkarte &quot;Projekte&quot;auf der Analytics-Landingpage](/help/analyze/landing.md#navigate-the-projects-tab).
 
-Zum Beispiel:
-
-* Projekt A wird für die Empfänger 1, 2 und 3 freigegeben
-* Projekt B wird für die Empfänger 4, 5 und 6 freigegeben
-
-Während Projekt A und B ausgewählt sind, werden die Empfänger 4 und 7 den Freigabelisten hinzugefügt. Die neue Freigabeliste für jedes Projekt lautet nun:
-
-* Projekt A: 1, 2, 3, 4, 7
-* Projekt B: 4, 5, 6, 7
-
-![](assets/mult-proj-sharing.png)
+Wenn ein Benutzer ein Projekt für Sie teilt, indem er einen Link teilt (entweder über die [Registerkarte Projekt freigeben](#share-a-link-to-a-project) oder mithilfe einer [für alle freigeben](#share-a-project-with-anyone-no-login-required) ), müssen Sie den Link verwenden, der für Sie freigegeben wurde, um auf das Projekt zugreifen zu können. Beispielsweise könnte der Link in einer E-Mail, auf einer internen Website usw. freigegeben worden sein.
 
 ## Freigeben von eingebetteten Komponenten
 
