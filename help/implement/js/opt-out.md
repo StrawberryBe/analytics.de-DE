@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website 
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 71%
+source-wordcount: '590'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
-> **Auf dieser Hilfeseite können Adobe Analytics-Kunden Opt-out-Links für ihre Benutzer bereitstellen. Wenn Sie kein Adobe Analytics-Kunde sind, lesen Sie [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) um zu steuern, wie Adobe Ihre Informationen verwendet.**
+> Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics implementieren (planen)** auf ihrer Website eine Anleitung zur Bereitstellung von Opt-out-Links für Benutzer der Websites. <p><p>
+> Wenn Sie **Besuch einer Website, auf der Adobe Analytics implementiert wurde** und Sie möchten sich abmelden, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Siehe [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) um zu steuern, wie Adobe Ihre Informationen verwendet.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchern Ihrer Website die Möglichkeit zu geben, sich von der Analyse ihrer Informationen abzumelden.
 
