@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '3897'
-ht-degree: 100%
+source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+workflow-type: tm+mt
+source-wordcount: '3899'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`clickmaplinkbyregion`** | Activity Map-Link nach Region | varchar(255) |
 | **`clickmappage`** | Activity Map-Seite | varchar(255) |
 | **`clickmapregion`** | Activity Map-Region | varchar(255) |
-| **`code_ver`** | Bibliotheksversion von AppMeasurement, die für das Kompilieren und Senden der Bildanforderung verwendet wird. | char(16) |
+| **`code_ver`** | API- oder Client-SDK-Version zum Kompilieren und Senden der Bildanforderung. | char(16) |
 | **`color`** | Farbtiefen-ID, basierend auf dem Wert der Spalte `c_color`. Verweist auf die Suchtabelle `color_depth.tsv`. | smallint unsigniert |
 | **`connection_type`** | Numerische ID, die den Verbindungstyp darstellt. Variable, die in der Dimension [Verbindungstyp](/help/components/dimensions/connection-type.md) verwendet wird. Verweist auf die Suchtabelle `connection_type.tsv` | tinyint unsigniert |
 | **`cookies`** | Variable, die in der Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) verwendet wird.<br>Y: aktiviert<br>N: deaktiviert<br>U: unbekannt | char(1) |
