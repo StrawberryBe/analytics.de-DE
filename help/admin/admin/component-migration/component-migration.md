@@ -3,22 +3,22 @@ description: Erläutert die Migration von Komponenten und Projekten von Adobe An
 title: Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 2%
+source-wordcount: '1390'
+ht-degree: 5%
 
 ---
 
 # Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics
 
-Adobe Analytics-Administratoren können Adobe Analytics-Projekte und die zugehörigen Komponenten auf Customer Journey Analytics migrieren.
+Adobe Analytics-Admins können Adobe Analytics-Projekte und die zugehörigen Komponenten zu Customer Journey Analytics migrieren.
 
-Der Migrationsprozess umfasst:
+Der Migrationsvorgang umfasst:
 
-* Erstellen Sie Adobe Analytics-Projekte im Customer Journey Analytics neu.
+* Neuerstellung von Adobe Analytics-Projekten in Customer Journey Analytics.
 
-* Zuordnen von Dimensionen und Metriken aus Adobe Analytics Report Suites zu Dimensionen und Metriken in Customer Journey Analytics-Datenansichten.
+* Zuordnung von Dimensionen und Metriken aus Adobe Analytics-Report Suites zu Dimensionen und Metriken in Customer Journey Analytics-Datenansichten.
 
   Einige Dimensionen und Metriken werden automatisch zugeordnet. Für andere müssen Sie im Rahmen des Migrationsprozesses manuell zuordnen. Segmente werden ebenfalls migriert, müssen jedoch im Rahmen des Migrationsprozesses nicht zugeordnet werden.
 
@@ -124,7 +124,7 @@ Bevor Sie Projekte zum Customer Journey Analytics migrieren, erfahren Sie mehr �
 
 Wenn eine Migration fehlschlägt, können Sie die Migration erneut versuchen.
 
-Bevor Sie eine fehlgeschlagene Migration wiederholen, müssen Sie alle [nicht unterstützte Elemente](#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
+Bevor Sie eine fehlgeschlagene Migration wiederholen, müssen Sie alle [nicht unterstützte Elemente](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
 
 >[!NOTE]
 >
