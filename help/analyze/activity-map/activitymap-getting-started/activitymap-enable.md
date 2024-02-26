@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 29%
+source-wordcount: '622'
+ht-degree: 22%
 
 ---
 
@@ -38,9 +38,9 @@ Interaktionsaufrufe über die Registerkarte &quot;Netzwerk der Developer Console
 
    ![](assets/validation1.png)
 
-Adobe Experience Platform-Debugger:
+Adobe Experience Platform Debugger:
 
-1. Laden Sie die [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. Laden Sie die [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Navigieren Sie zu [!UICONTROL Protokolle] > [!UICONTROL Edge] > [!UICONTROL Verbinden mit Edge].
 
    ![](assets/validation2.jpg)

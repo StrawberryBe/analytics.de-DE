@@ -4,7 +4,7 @@ description: Hier erfahren Sie, wie Sie Tags in Adobe Experience Platform verwen
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 72%
@@ -23,7 +23,7 @@ Sobald Ihre Tag-Bibliothek in die Produktion verschoben wurde, kann Ihr Unterneh
 
 Der Experience Cloud-Debugger ist eine Erweiterung, die alle auf einer Seite vorhandenen Experience Cloud-Tags anzeigt.
 
-1. Installieren Sie die Erweiterung für [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder Firefox.
+1. Installieren Sie die Erweiterung für [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder Firefox.
 2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Tags implementiert haben.
 3. Klicken Sie in Ihrem Browser auf das Adobe Experience Cloud-Debugger-Symbol.
 4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und dem Adobe Experience Cloud-Besucher-ID-Dienst angezeigt werden.
