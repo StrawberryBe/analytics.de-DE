@@ -4,10 +4,10 @@ description: Häufig gestellte Fragen zu Datenquellen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Daten, die über Datenquellen hochgeladen werden, wirken sich nicht aus [Seitena
 
 +++ Kann ich Daten löschen, die mithilfe von Datenquellen importiert wurden?
 
-**Anzahl** Daten, die mithilfe von Datenquellen in Berichte hochgeladen wurden, werden **dauerhaft**. Sie kann nicht entfernt werden, nicht einmal durch Adobe, nachdem sie importiert wurde. Adobe empfiehlt dringend, Datenquellen-Daten in eine Test-Report Suite hochzuladen, bevor sie in eine Produktions-Report Suite hochgeladen werden.
+Ja. Sie können diese Daten mithilfe der [Datenreparatur-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Darüber hinaus empfiehlt Adobe dringend, Datenquellen-Daten in eine Test-Report Suite hochzuladen, bevor sie in eine Produktions-Report Suite hochgeladen werden.
 +++
 
 ++ Wie viele Daten kann ich gleichzeitig importieren?
