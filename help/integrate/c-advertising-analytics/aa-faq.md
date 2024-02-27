@@ -3,9 +3,9 @@ description: Häufig gestellte Fragen zu Advertising Analytics.
 title: Häufig gestellte Fragen zu Werbeanalysen
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1300'
 ht-degree: 36%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 36%
 
 +++ Muss ich Adobe Advertising Cloud- oder Adobe Advertising Cloud-Kunde (AMO) sein, um auf diese Funktion zugreifen zu können?
 
-Nein, diese Funktion ist für Nicht-Advertising Cloud- und Nicht-AMO-Kunden verfügbar. </p> <p>AMO-Kunden können die bestehende Analytics-AMO-Integration nutzen, jedoch nicht Advertising Analytics verwenden.
+Nein, diese Funktion ist für Nicht-Advertising Cloud- und Nicht-AMO-Kunden verfügbar.
+
+AMO-Kunden können die bestehende Analytics-AMO-Integration nutzen, jedoch nicht Advertising Analytics verwenden.
 
 +++
 
@@ -104,7 +106,7 @@ Nein, die Rohdaten der Suche werden als unabhängiger Datensatz angezeigt. Es gi
 +++ Ich versuche, meine Advertising Analytics-Konten einer bestimmten Report Suite zuzuordnen, aber sie ist nicht im Report Suite-Modal verfügbar. Warum?
 
 Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die gewünschte Report Suite [für Advertising Analytics Reporting bereitgestellt](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-Dies erfolgt über eine separate Admin-Seite, auf die Sie zugreifen können: Admin > Report Suites > [Report Suite auswählen] > Einstellungen bearbeiten > Advertising Analytics-Konfiguration.
+Dies erfolgt über eine separate Admin-Seite, auf die Sie zugreifen können: Admin > Report Suites > `[select report suite]` > Einstellungen bearbeiten > Advertising Analytics-Konfiguration.
 
 +++
 
@@ -114,7 +116,7 @@ Virtual Report Suites erfassen keine Daten, sodass Sie ein Advertising Analytics
 
 +++
 
-+++ Können Advertising Analytics-Metriken in der <b>Marketingkanäle</b> Bericht?
++++ Können Advertising Analytics-Metriken in der *Marketingkanäle* Bericht?
 
 Nein, sie sind nicht im Marketingkanalbericht enthalten.
 
@@ -126,13 +128,13 @@ A: Die Suchdaten werden um ca. 6:00 Uhr in der Zeitzone Ihres Analytics-Rechenz
 
 +++
 
-+++ Was kann <b>vor dem Klick erfasst</b>? Werden Impressionen, Kosten, durchschnittliche Position usw. auch ohne Klick erfasst? </p> </td>
++++ Was kann *vor dem Klick erfasst*? Werden Impressionen, Kosten, durchschnittliche Position usw. auch ohne Klick erfasst?
 
 Die AMO-ID erfasst die Suchmaschinenmetriken: Impressionen, Kosten, Klicks, durchschnittliche Position und durchschnittliche Qualitätsbewertung. Sind keine Klicks aber Impressionen vorhanden, werden die Daten zu Impression/Position/Qualität dennoch an Analytics gesendet. In der Regel entstehen keine Kosten, wenn keine Klicks vorhanden sind.
 
 +++
 
-+++ Auf welcher Ebene werden diese Daten erfasst? <b>Besucher? Treffer?</b>
++++ Auf welcher Ebene werden diese Daten erfasst? *Besucher? Treffer?*
 
 Die Suchmaschinenmetriken werden auf Trefferebene erfasst und mit der AMO-ID (und ihren Klassifizierungen) verbunden. Dabei handelt es sich um Daten der Zusammenfassungsebene, die nicht mit Besuchen/Besuchern verbunden sind. Daher können die Suchmaschinen-Metriken nur in Segmenten verwendet werden, die sich im Umfang der Trefferebene befinden und die auf der AMO-ID (oder zugehörigen Klassifizierungen) basieren.
 
@@ -140,7 +142,7 @@ Die AMO-ID wird auch auf der Landingpage im Treffer für die betreffende Seite (
 
 +++
 
-+++ Erfassen Sie nur google.com oder <b>Länderversionen</b> (z. B. google.co.uk, google.it, google.fr oder google.de)?
++++ Erfassen Sie nur google.com oder *Länderversionen* (z. B. google.co.uk, google.it, google.fr oder google.de)?
 
 Die Anzeigenplattform-Classification erfasst die folgenden Werte: &quot;Google Adwords&quot;und &quot;Bing Ads&quot;. Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten).
 
@@ -152,7 +154,7 @@ Die Anzeigenplattform-Classification erfasst die folgenden Werte: &quot;Google A
 
 +++
 
-+++ Gibt es Pläne, andere Werbekanäle wie <b>Anzeige</b> oder <b>Social</b>?
++++ Gibt es Pläne, andere Werbekanäle wie *Anzeige* oder *Social*?
 
 Nein, wir haben derzeit keine Pläne für diese anderen Kanäle auf dem Fahrplan.
 
@@ -161,9 +163,9 @@ Nein, wir haben derzeit keine Pläne für diese anderen Kanäle auf dem Fahrplan
 
 ## Automatisches Tracking im Vergleich zu manuellem Tracking {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Beim Einrichten meines Werbekontos wird darauf hingewiesen, dass<b> Automatisches Tracking</b> kann zu unbeabsichtigten Folgen führen. Welche Art von Folgen sind hier gemeint?
++++ Beim Einrichten meines Werbekontos wird darauf hingewiesen, dass *Automatisches Tracking* kann zu unbeabsichtigten Folgen führen. Welche Art von Folgen sind hier gemeint?
 
-Der automatische Modus versucht, URL-Parameter im richtigen Format an das Ende der Tracking-Vorlagen/Ziel-URLs anzuhängen. <b>Es liegt jedoch in Ihrer Verantwortung sicherzustellen, dass die hinzugefügten URL-Parameter ordnungsgemäß auf der endgültigen Landingpage beibehalten werden. Der Auto-Modus kann Keywords in die Landing-URL einfügen, die möglicherweise Sonderzeichen enthalten, die Ihr Webserver nicht unterstützt.
+Der automatische Modus versucht, URL-Parameter im richtigen Format an das Ende der Tracking-Vorlagen/Ziel-URLs anzuhängen. Es liegt jedoch in Ihrer Verantwortung sicherzustellen, dass die hinzugefügten URL-Parameter ordnungsgemäß auf der endgültigen Landingpage beibehalten werden. Der Auto-Modus kann Keywords in die Landing-URL einfügen, die möglicherweise Sonderzeichen enthalten, die Ihr Webserver nicht unterstützt.
 
 +++
 
