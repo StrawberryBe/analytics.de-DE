@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5186'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Februar 2024** | |
+| Aktualisierungen der Informationen zur Verwaltung von Data Warehouse-Anfragen | Es wurde klargestellt, dass Benutzer standardmäßig nur die Anforderungen anzeigen können, die sie erstellen, wenn [Verwalten von Data Warehouse-Anfragen](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | Aktualisierungen der Dokumentation zur Projektfreigabe | Es wurden Informationen zum [Anzeigen freigegebener Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Auch optimierte Informationen zu [Freigeben einzelner oder mehrerer Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Es wurden Zugriffsberechtigungen für das Hochladen von Dateien auf Azure SAS und Azure RBAC in Data Warehouse und Daten-Feeds hinzugefügt. | Es wurden genaue Berechtigungsanforderungen für das Hochladen von Dateien auf Azure SAS und Azure RBAC hinzugefügt, wenn [Konfigurieren von Zielen für Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und [beim Konfigurieren von Zielen für Daten-Feeds](/help/export/analytics-data-feed/create-feed.md). |
 | Hinzufügung von Berechtigungsanforderungen zum Hochladen von Dateien in Amazon S3- und GCP-Buckets in Data Warehouse und Daten-Feeds | Es wurden genaue Berechtigungsanforderungen für das Hochladen von Dateien in Amazon S3- und Google Cloud Platform-Buckets hinzugefügt, wenn [Konfigurieren von Zielen für Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und [beim Konfigurieren von Zielen für Daten-Feeds](/help/export/analytics-data-feed/create-feed.md). |

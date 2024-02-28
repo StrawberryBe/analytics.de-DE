@@ -4,10 +4,10 @@ title: Verwalten von Data Warehouse-Anforderungen
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 5%
+source-wordcount: '1148'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,13 @@ In den folgenden Abschnitten werden die Aktivitäten beschrieben, die Sie bei de
 
 ## Anforderungen anzeigen
 
+Standardmäßig können Sie nur die von Ihnen erstellten Anforderungen anzeigen, es sei denn, die Benutzer haben ausgewählt, ihre Anforderungen für andere in der Organisation sichtbar zu machen (wie hier beschrieben: [Allgemeine Einstellungen für Data Warehouse-Anfragen](/help/export/data-warehouse/create-request/dw-general-settings.md)). Systemadministratoren können alle Anforderungen anzeigen.
+
+So zeigen Sie Data Warehouse-Anfragen an:
+
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Instrumente**] > [!UICONTROL **Data Warehouse**].
 
-   Auf der Data Warehouse-Seite werden alle Anfragen angezeigt, die Sie gestellt haben. <!-- just those you have made? -->Daten werden in jeder Spalte angezeigt. Sie können [Konfigurieren der Spalten](#configure-columns) sichtbar sind.
+   Auf der Data Warehouse-Seite werden alle Anfragen angezeigt, die Sie gestellt haben. Daten werden in jeder Spalte angezeigt. Sie können [Konfigurieren der Spalten](#configure-columns) sichtbar sind.
 
    <!-- add screenshot of main page -->
 
