@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags und der Ana
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 89%
+source-wordcount: '365'
+ht-degree: 83%
 
 ---
 
 # Implementieren von Adobe Analytics mit der Analytics-Erweiterung
 
-Seit dem Bestehen von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die derzeit von Adobe empfohlene Methode verwendet Tags in Adobe Experience Platform.
+Seit dem Bestehen von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die aktuelle empfohlene Methode wird durch Adobe empfohlen. [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform.
 
 Tags in Adobe Experience Platform ist eine Tag-Management-Lösung, mit der Sie Analytics-Code bereitstellen und weitere Tagging-Vorgaben erfüllen können. Adobe bietet Integrationen mit anderen Lösungen und Produkten und ermöglicht die Bereitstellung von benutzerdefiniertem Code. Alle diese Aufgaben können ausgeführt werden, ohne dass Entwicklungsteams in Ihrer Organisation Code auf Ihrer Website aktualisieren müssen.
 
@@ -48,7 +48,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>3</td>
 <td><b><b>Erstellen Sie eine Tag-Eigenschaft</b>. Eigenschaften sind übergreifende Container, die für Verweise auf Tag-Management-Daten verwendet werden.</td>
-<td><a ref="../launch/create-analytics-property.md">Erstellen einer Tag-Eigenschaft in Adobe Analytics</a></td>
+<td><a href="../launch/create-analytics-property.md">Erstellen einer Tag-Eigenschaft in Adobe Analytics</a></td>
 </tr>
 
 <tr>

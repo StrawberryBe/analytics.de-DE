@@ -4,10 +4,10 @@ description: Verwenden Sie die Web SDK-Erweiterung in der Adobe Experience Platf
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 91%
+source-wordcount: '676'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 Sie können das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=de) verwenden, um Daten an Adobe Analytics zu senden. Bei dieser Implementierungsmethode wird das [Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) in ein von Analytics verwendetes Format übersetzt.
 
-Sie können Daten direkt mit dem Web SDK oder über die Web SDK-Erweiterung in Tags an Experience Edge senden.
+Sie können Daten direkt mit der [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)oder über die Web SDK-Erweiterung in Tags.
 
 ## Web SDK
 
@@ -60,14 +60,14 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 </tr>
 
 <td>6</td>
-<td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
+<td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Dieser Dienst steuert, ob und wie Daten an Adobe Analytics gesendet werden und an welche Report Suite(s) speziell.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
 </tr>
 
 <tr>
 <td>7</td>
-<td><b>Konfigurieren des Web SDKs</b>. Stellen Sie sicher, dass die Bibliothek, die Sie in Schritt 4 installiert haben, ordnungsgemäß mit der Datenstrom-ID (ehemals Edge-Konfigurations-ID (<code>edgeConfigId</code>)), der Organisations-ID (<code>orgId</code>) und anderen verfügbaren Optionen konfiguriert ist.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de">Konfigurieren des Web SDKs</a></td>
+<td><b>Konfigurieren des Web SDKs</b>. Stellen Sie sicher, dass die Bibliothek, die Sie in Schritt 4 installiert haben, ordnungsgemäß mit der Datastraam-ID konfiguriert ist (ehemals Edge-Konfigurations-ID (<code>edgeConfigId</code>), Organisations-ID (<code>orgId</code>) und anderen verfügbaren Optionen. Stellen Sie sicher, dass Variablen ordnungsgemäß zugeordnet werden. </td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de">Web SDK konfigurieren</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Analytics-Variablenzuordnung</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Manuelles Zuordnen von Variablen</a></td>
 </tr>
 
 <tr>
@@ -121,7 +121,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>5</td> 
-<td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
+<td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Dieser Dienst steuert, ob und wie Daten an Adobe Analytics gesendet werden und an welche Report Suite(s) speziell.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
 </tr>
 
