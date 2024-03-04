@@ -4,10 +4,10 @@ description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 90%
+source-wordcount: '2670'
+ht-degree: 88%
 
 ---
 
@@ -18,6 +18,13 @@ Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Sie können die neueste Version von AppMeasurement von herunterladen. [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Version 2.26.0
+
+Releasedatum: **Dienstag, 4. März 2024**
+
+* AppMeasurement erkennt und verwendet automatisch die Stammdomäne für Domänen mit Ländercode auf oberster Ebene, für die zuvor spezifische Cookie-Domänenkonfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Siehe [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) für weitere Informationen.
+* Die Verteilung umfasst Identity Service Library 5.5.0 und Data Integration Library 9.6.
 
 ## Version 2.25.0
 

@@ -4,10 +4,10 @@ description: Hilft AppMeasurement zu verstehen, welche Domain Cookies speichern 
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: fe33da47c109adacb8162c7165ad4c63bd65c08d
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 88%
+source-wordcount: '665'
+ht-degree: 43%
 
 ---
 
@@ -21,15 +21,43 @@ Mithilfe der `cookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo A
 * Bei Domänen wie `example.com` oder `www.example.com` muss diese Variable nicht eingestellt werden. Bei Bedarf können Sie diese Variable auf `"2"` setzen.
 * Bei Domänen wie `example.co.uk` oder `www.example.co.jp` setzen Sie diese Variable auf `"3"`.
 
+
 >[!IMPORTANT]
 >
 >Berücksichtigen Sie für diese Variable keine Subdomains. Legen Sie beispielsweise nicht `cookieDomainPeriods` für die Beispiel-URL `store.toys.example.com` fest. AppMeasurement erkennt standardmäßig, dass Cookies auf `example.com` gespeichert werden sollen. Das gilt auch für URLs mit vielen Unterdomänen.
 
-## Domänenpunkte mit dem Web SDK
+
+## Cookie-Domänenpunkte, Drittanbieter-Cookies und Legacy-Besucheridentifizierung
+
+Nur wenn Sie die alte Adobe Analytics-Besucheridentifizierung (anstelle des empfohlenen Experience Cloud Identity-Diensts) verwenden, wird die implizite oder explizite Konfiguration von `cookieDomainPeriods` kann sich auf die Identifizierung von Besuchern auswirken, je nachdem, ob Drittanbieter-Cookies blockiert werden oder nicht.
+
+Die folgende Tabelle zeigt vier mögliche Szenarien.
+
+| Szenario | `cookieDomainPeriods` Konfiguration ist ... | Drittanbieter-Cookies werden blockiert? | Ergebnis bei Verwendung des alten Adobe Analytics-Besucheridentifizierungsdienstes |
+|:---:|---|---|---|
+| 1 | <span style="color:green">Richtig</span> | Nein | Besucher werden mit einer `s_vi` -Cookie, Server-seitig festlegen. |
+| 2 | <span style="color:green">Richtig</span> | Ja | Besucher werden mit einem Fallback identifiziert `s_fid` -Cookie, Client-seitig festlegen (Erstanbieterseitendomäne). |
+| 3 | <span style="color:red">Falsch</span> | Nein | Besucher werden anhand einer Kombination aus Benutzeragent und IP-Adresse mit einer Ausweich-ID identifiziert. <br/>AppMeasurement ist gezwungen, Cookies als Drittanbieter-Cookies zu setzen.<br/> Die `s_vi` -Cookie wird möglicherweise gesetzt, wenn `cookieDomainPeriods` nicht ordnungsgemäß übertragen wurde. |
+| 4 | <span style="color:red">Falsch</span> | Ja | Besucher werden anhand einer Kombination aus Benutzeragent und IP-Adresse mit einer Ausweich-ID identifiziert.<br/>AppMeasurement ist gezwungen, Cookies als Drittanbieter-Cookies zu setzen, die blockiert werden, sodass keine Cookies gesetzt werden. |
+
+>[!CAUTION]
+>
+>Möglicherweise haben Sie versehentlich konfiguriert `cookieDomainPeriods` <span style="color:red">falsch</span> (wobei der Standardwert `"2"`) bei Verwendung von Domänen wie `example.co.uk`. Diese implizite falsche Konfiguration führt dazu, dass Sie Besucher nach Szenario 3 oder 4 identifizieren.
+>
+>AppMeasurement-Version 2.26.x oder höher konfiguriert `cookieDomainPeriods` automatisch mit dem richtigen Wert, sodass nur Szenarien 1 oder 2 möglich sind. Wenn Sie ein Update auf AppMeasurement-Version 2.26.x oder höher durchführen, während Sie derzeit Besucher falsch identifizieren (Szenario 3 oder 4), hat das Update erhebliche Auswirkungen.
+>
+>* Besucher-IDs werden zurückgesetzt und Besucher werden als neue Besucher angezeigt. Es gibt keine Möglichkeit, neue Aktivitäten mit der vorherigen Besucher-ID zu verknüpfen.
+>* Cookies werden gesetzt (z. B. für Linktracking oder Activity Map, z. B.`s_sq` -Cookie), was zu plötzlichen Unterschieden in der Berichterstellung führt.
+>
+>Beim korrekten Konfigurieren `cookieDomainPeriods` verbessert die AppMeasurement- und Analytics-Funktionalität. Es wird empfohlen zu prüfen, ob Sie von den Änderungen betroffen sind, die sich aus der Aktualisierung Ihrer AppMeasurement-Bibliothek ergeben.
+>
+> Siehe [Cookies in Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=de) für weitere Informationen zu den von AppMeasurement verwendeten Cookies.
+
+## Cookie-Domänenpunkte mit dem Web SDK
 
 Das Web SDK kann die richtige Cookie-Speicherdomäne ohne diese Variable ermitteln.
 
-## Domänenpunkte, die die Adobe Analytics-Erweiterung verwenden
+## Cookie-Domänenpunkte mit der Adobe Analytics-Erweiterung
 
 Domain-Punkte ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -40,7 +68,9 @@ Domain-Punkte ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konf
 
 Setzen Sie dieses Feld nur bei Domänen, die einen Punkt im Suffix enthalten, auf `3`. Andernfalls kann dieses Feld leer gelassen werden.
 
-## s.cookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## Cookie-Domänenpunkte in der Code-AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+
+Sie können die `cookieDomainPeriods` in der JavaScript-Bibliothek von AppMeasurement oder im Editor für benutzerdefinierten Code der Analytics-Erweiterung.
 
 Die Variable `cookieDomainPeriods` ist eine Zeichenfolge, die normalerweise auf `"3"` gesetzt wird, und zwar nur bei Domänen, die einen Punkt in ihrem Suffix enthalten. Der Standardwert ist `"2"`, der für die meisten Domänen geeignet ist.
 

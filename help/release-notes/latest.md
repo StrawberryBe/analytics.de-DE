@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 40%
+source-wordcount: '903'
+ht-degree: 50%
 
 ---
 
@@ -20,6 +20,9 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. 
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **AppMeasurement-Update** | [AppMeasurement-Version v2.26.0](/help/implement/appmeasurement-updates.md) ist verfügbar. | | Dienstag, 4. März 2024 |
+| **Data Warehouse-Aktualisierungen** | Die folgenden Data Warehouse-Verbesserungen sind jetzt verfügbar:<ul><li>Beim Erstellen einer Data Warehouse-Anforderung können Benutzende jetzt Anforderungen für alle Benutzenden in der Organisation verfügbar machen, indem sie den neuen Umschalter mit dem Namen [!UICONTROL **Bereitstellung für Benutzende in Ihrer Organisation**] aktivieren.<p>Weitere Informationen finden Sie unter [Allgemeine Einstellungen für Data Warehouse-Anfragen](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Bei der Erstellung oder Verwaltung von Data Warehouse-Berichtszielen können Systemadmins jetzt Konten und Orte anzeigen, die von Benutzenden in der Organisation erstellt wurden, indem sie den Umschalter [!UICONTROL **Alle Ziele anzeigen**] aktivieren.<p>Weitere Informationen finden Sie unter [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | Nicht angegeben | 10. Januar 2024 |
+| **Aktualisierungen zur Visualisierung der Schlüsselmetrikübersicht** | Bei der Visualisierung der Schlüsselmetrikübersicht kann der Vergleichs-Datumsbereich jetzt automatisch aktualisiert werden, je nachdem, ob der ausgewählte Vergleichs-Datumsbereich relativ zum primären Datumsbereich oder fest ist. [Weitere Informationen](/help/analyze/analysis-workspace/visualizations/key-metric.md). | Nicht angegeben | 17. Januar 2024 |
 | **Dokumentation zur Data Warehouse-API** | Weitere Informationen finden Sie unter [Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) für weitere Informationen. Navigieren Sie zu [!UICONTROL Definition auswählen] und wählen [!UICONTROL Data Warehouse-APIs]. | | Dienstag, 19. Februar 2024 |
 | **Activity Map für Web SDK ohne zusätzliche Kosten** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. Durch diese Verbesserung werden einige Linkereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung von AppMeasurement. |  | Donnerstag, 6. März 2024 |
 | **Anhebung der standardmäßigen Schwellenwerte für niedrigen Traffic** | In **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für niedrigen Traffic wie folgt: ![niedrige Traffic-Schwellenwerte](assets/thresholds.png) Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen, und wir erwarten, dass die Arbeit durch die **Ende Mai**. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für die Berichterstellung verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Classification-Exporte können mehr Daten enthalten.</li></ul> | Mitte April 2024 | Ende Mai 2024 |
