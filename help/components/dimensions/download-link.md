@@ -3,10 +3,10 @@ title: Downloadlink
 description: Der Name des Downloadlinks.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,11 @@ Der Downloadlink [Dimension](overview.md) gibt die Namen der auf Ihrer Site impl
 
 Diese Dimension erfasst Daten aus der [`pev2`Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen für Treffer, die auch die Abfragezeichenfolge `pe` mit dem Wert `lnk_d` aufweisen. Wenn die Abfragezeichenfolge `pe` im Treffer einen anderen Wert hat, werden in dieser Dimension keine Daten erfasst.
 
-Wenn Sie mit AppMeasurement Daten an diese Dimension senden möchten, senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md)-Bildanforderung mit einem Link-Typ-Argument `"d"`. Geben Sie im Linkname-Argument den gewünschten Wert an.
+Wenn Sie mit AppMeasurement Daten an diese Dimension senden möchten, senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md)-Bildanforderung mit einem Link-Typ-Argument `"d"`. Füllen Sie das Linknamenargument mit dem gewünschten Wert:
+
+```js
+s.tl(true,"d","Example download link");
+```
 
 ## Dimensionselemente
 
