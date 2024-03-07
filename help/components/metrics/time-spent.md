@@ -3,9 +3,9 @@ title: Berechnung der Besuchszeit in Adobe Analytics
 description: Eine aggregierte Seite mit Dimensionen und Metriken zur Besuchszeit.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1744'
 ht-degree: 72%
 
 ---
@@ -23,7 +23,7 @@ Verschiedene [!UICONTROL &quot;Besuchszeit&quot;] [Metriken](overview.md) und -D
 | [!UICONTROL Besuchszeit pro Besucher] (Sekunden) | Ungefähres *Gesamtbesuchszeit in Sekunden/Unique Visitor*<br> Stellt die durchschnittliche Zeit dar, die Besucher über die Lebensdauer des Besuchers (Cookie-Dauer) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
 | [!UICONTROL Besuchszeit/Benutzer (Status)] | Ungefähres *Gesamtbesuchszeit pro Mobile App in Sekunden/Unique Mobile App-Besucher*<br> Stellt die durchschnittliche Zeit dar, die Besucher mobiler Apps über die Lebensdauer des Besuchers (Cookie-Länge) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] (Sekunden) | Stellt die gesamte Zeit dar, die Besucher pro Dimensionselement-Sequenz mit einem bestimmten Dimensionselement interagieren. Es ist nicht nur auf &quot;Site&quot;-Durchschnittswerte beschränkt, wie der Name nahe legt. Weitere Informationen über Sequenzen finden Sie im Bereich „Berechnung der Besuchszeit“.<br>**Hinweis**: Diese Metrik unterscheidet sich auf der Dimensionselement-Ebene mit hoher Wahrscheinlichkeit von „Zeit pro Besuch“, da bei der Berechnung ein anderer Nenner verwendet wird. | Analysis Workspace, Report Builder (in Minuten angezeigt) |
-| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Dies ist dieselbe Metrik wie die *Durchschnittliche auf der Site verbrachte Zeit (Sekunden)* mit unterschiedlicher Zeitformatierung (hh:mm:ss). | Analysis Workspace |
+| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Dies ist dieselbe Metrik wie *Durchschnittliche Besuchszeit pro Site (Sekunden)*, außer als Zeit formatiert (`hh:mm:ss`) | Analysis Workspace |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Veraltete Metrik.<br> Stattdessen empfehlen wir die Verwendung von &quot;Durchschnittliche Besuchszeit pro Site&quot;, wenn die durchschnittliche Zeit für ein Dimensionselement erforderlich ist. | Report Builder (wenn sich eine Dimension in der Anforderung befindet) |
 | [!UICONTROL Gesamtsitzungslänge], also [!UICONTROL Frühere Sitzungslänge] | Nur SDK für Mobilanwendungen. <br>Wird beim nächsten Start der App für die vorangegangene Sitzung bestimmt. Diese Metrik wird in Sekunden berechnet. Allerdings zählt sie nicht, wenn sie im Hintergrund ausgeführt wird, sondern nur, wenn sie direkt verwendet wird. Es handelt sich um eine Metrik auf Sitzungsebene.<br>Beispiel: Wir installieren die App ABC, starten die App und verwenden sie 2 Minuten lang, bevor wir die App schließen. Es werden keine Daten über diese Sitzungsdauer gesendet. Wenn wir die App das nächste Mal starten, wird die [!UICONTROL Frühere Sitzungslänge] mit einem Wert von 120 gesendet. | Analysis Workspace, Report Builder, Mobile Services-Benutzeroberfläche |
 | [!UICONTROL Durchschnittliche Sitzungslänge] (Mobil) | *Gesamtsitzungslänge/(Starts – Erste Starts)*<br> Nur Mobile-App-SDK. Es handelt sich um eine Metrik auf Sitzungsebene. | Report Builder, Benutzeroberfläche von Mobile Services |

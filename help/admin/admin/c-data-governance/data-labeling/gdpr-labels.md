@@ -4,10 +4,10 @@ title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3576'
-ht-degree: 99%
+source-wordcount: '3569'
+ht-degree: 97%
 
 ---
 
@@ -262,4 +262,4 @@ Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
 Für den Code zur Generierung der für Datenschutz-Zugriffsanfragen zurückgegebenen Dateien ist es erforderlich, dass mindestens eine der ersten drei Zeitstempelvariablen in die Zugriffsanfrage aufgenommen wird (mit einer ACC-Beschriftung, die für die Art der Anforderung gilt). Wenn keine davon enthalten ist, wird „Custom Hit Time UTC“ so behandelt, als hätte es eine „ACC-ALL“-Beschriftung.
 
-Die CSV-Datei auf Trefferebene, die für Datenschutz-Zugriffsanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Zeitfelder im Format JJJJ-MM-TT HH:MM:SS (z. B. 2018-05-01 13:49:22). In der zusammenfassenden HTML-Datei werden diese Zeitstempelwerte abgeschnitten, sodass nur das Datum JJJJ-MM-TT enthalten ist, um die Anzahl der eindeutigen Werte, die für diese Felder auftreten, zu reduzieren.
+Die CSV-Datei auf Trefferebene, die für Datenschutzanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Uhrzeitfelder des Formats `YYYY-MM-DD HH:MM:SS` (zum Beispiel: `2018-05-01 13:49:22`). In der Zusammenfassungs-HTML-Datei werden diese Zeitstempelwerte abgeschnitten, um nur das Datum, `YYYY-MM-DD`, um die Anzahl der eindeutigen Werte für diese Felder zu reduzieren.

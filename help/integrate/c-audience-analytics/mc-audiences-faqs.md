@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 31%
@@ -105,7 +105,7 @@ Wahrscheinlich gibt es zwischen Datenquelle und Ziel einen Konflikt zwischen den
 
 +++
 
-+++ Warum wird in meinem Analytics-Bericht &quot;Zielgruppenlimit erreicht&quot;angezeigt? (Hinweis: Dies wird auch als Zielgruppen-ID = -1 und &quot;::max_audiences_exceeded::&quot; in Data Warehouse)
++++ Warum wird in meinem Analytics-Bericht &quot;Zielgruppenlimit erreicht&quot;angezeigt? (Hinweis: Dies wird auch als Zielgruppen-ID = -1 und `::max_audiences_exceeded::` in Data Warehouse)
 
 Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle-Segmente, für die sich ein Besucher pro Treffer qualifiziert, an Analytics. Wenn ein Besucher bei einem einzelnen Treffer zu mehr als 150 Adobe Audience Manager-Segmenten gehört, wird die **150 zuletzt qualifizierte Segmente** werden an Analytics gesendet, während die verbleibende Liste abgeschnitten ist. Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt.
 

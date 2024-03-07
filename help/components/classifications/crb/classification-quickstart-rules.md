@@ -3,10 +3,10 @@ description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. 
 title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
-source-wordcount: '2015'
-ht-degree: 100%
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+workflow-type: tm+mt
+source-wordcount: '2001'
+ht-degree: 92%
 
 ---
 
@@ -57,37 +57,37 @@ about_classification_rules.xml
 
 ## Wichtige Informationen zu Regeln
 
-* Legen Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Classifications in den [!UICONTROL Admin Tools] fest.
+* Angeben [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Classifications in [!UICONTROL Admin Tools].
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Report Suites:** Sie können erst dann eine Classification auswählen, wenn Sie mindestens eine Report Suite ausgewählt haben. Die Report Suite kann erst dann angewendet werden, wenn Sie den Regelsatz erstellt und eine Variable zugewiesen haben.
 
-   Beim Testen des Regelsatzes verwenden Sie Schlüssel (die zu klassifizierende Variable) aus dem Bericht, um zu prüfen, wie sich der Regelsatz auf diese Schlüssel auswirkt. (Der [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) ist die zu klassifizierende Variable oder die erste Spalte in der Classification-Upload-Tabelle.)
+  Beim Testen des Regelsatzes verwenden Sie Schlüssel (die zu klassifizierende Variable) aus dem Bericht, um zu prüfen, wie sich der Regelsatz auf diese Schlüssel auswirkt. (Die [key](/help/components/classifications/importer/c-saint-data-files.md) ist die zu klassifizierende Variable oder die erste Spalte in der Classification-Upload-Tabelle.)
 
 * **Regelpriorität:** Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der Spalte [!UICONTROL Classification auswählen]), wird die jeweils letzte mit der Classification übereinstimmende Regel verwendet. Siehe [Informationen zur Regelpriorität](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Beschränkungen hinsichtlich der Regelanzahl:** Für die Anzahl der erstellbaren Regeln gelten keine Einschränkungen. Eine große Regelanzahl kann jedoch die Browserleistung beeinträchtigen.
 * **Verarbeitung**: Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
 
-   Aktive Regeln werden alle vier Stunden verarbeitet, wobei die zu untersuchenden Classification-Daten in der Regel einen Monat zurückgehen. Die Regeln suchen automatisch nach neuen Werten und laden die Classification mit dem Importeur hoch.
+  Aktive Regeln werden alle vier Stunden verarbeitet, wobei die zu untersuchenden Classification-Daten in der Regel einen Monat zurückgehen. Die Regeln suchen automatisch nach neuen Werten und laden die Classification mit dem Importeur hoch.
 
 * **Überschreiben von vorhandenen Classifications:** Siehe [In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?](/help/components/classifications/crb/classification-quickstart-rules.md) Bei Bedarf können Sie vorhandene Klassifizierungen mithilfe des Imports löschen oder entfernen.
 
 ## In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?
 
-Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben. In den folgenden Situationen wird ein  [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) (eine Variable) nicht durch eine Classification-Regel klassifiziert, wenn Folgendes gilt:
+Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben. In den folgenden Situationen wird eine Classification-Regel nicht als [key](/help/components/classifications/importer/c-saint-data-files.md)(Variable) if:
 
 * Der Schlüssel wurde bereits klassifiziert, und Sie haben nicht die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) ausgewählt.
 
-   Sie können Classifications überschreiben, wenn Sie   eine Regel [hinzufügen und aktivieren](/help/components/classifications/crb/classification-quickstart-rules.md), und wenn Sie eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
+  Sie können Classifications überschreiben, wenn Sie [Hinzufügen und Aktivieren](/help/components/classifications/crb/classification-quickstart-rules.md) eine Regel und beim Aktivieren einer Data Connectors-Integration. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
 
 * Ein klassifizierter Schlüssel wird beim Überschreiben nach Ablauf eines bestimmten Zeitrahmens auch dann nicht in den Daten sichtbar, wenn Sie die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) aktiviert haben.
 * Der Schlüssel wird nicht klassifiziert, und nach Beginn des Zeitrahmens (vor etwa einem Monat) wurde der Schlüssel auch nicht in [!DNL Adobe Analytics] übergeben.
 
-   >[!NOTE]
-   >
-   >In Berichten gelten Klassifizierungen für jeden beliebigen angegebenen Zeitrahmen, sofern ein Schlüssel existiert. Der Datumsbereich eines Berichts wirkt sich nicht auf die Berichterstellung aus.
+  >[!NOTE]
+  >
+  >In Berichten gelten Klassifizierungen für jeden beliebigen angegebenen Zeitrahmen, sofern ein Schlüssel existiert. Der Datumsbereich eines Berichts wirkt sich nicht auf die Berichterstellung aus.
 
 ![](assets/overwrite_keys.png)
 
@@ -151,7 +151,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regulärer Ausdruck | Zeichenfolge oder Übereinstimmungsergebnis | Zugehörige Übereinstimmungsgruppen |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuniAusverkauf  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | Aufbauen der Syntax | `^` = Beginn einer Zeile () = gruppiert Zeichen und ermöglicht das Extrahieren von übereinstimmenden Zeichen in den Klammern.  `(.+)` = erfasst ein ( . ) Zeichen und ( + ) beliebige mehr \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
 
 Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
@@ -198,12 +198,12 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |--- |--- |--- |--- |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Regulärer Ausdruck: Für Übereinstimmungszeichenfolge a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Regulärer Ausdruck Für Übereinstimmungszeichenfolge `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Reguläre Ausdrücke – Beispiel für „enthält nicht“  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -285,7 +285,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | 2 | Enthält | Fantasy | Suchtyp | Fantasy |
 | 3 | Enthält | Romo | Suchtyp | Spieler |
 
-Wenn ein Benutzer nach   *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
+Wenn ein Benutzer nach *`Cowboys fantasy Tony Romo`*, der Begriff *`Player`* klassifiziert wurde, da sie mit der letzten in der Spalte &quot;Classification auswählen&quot;angegebenen Classification übereinstimmt.
 
 Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für die folgenden Suchbegriffe fest:
 
@@ -294,7 +294,7 @@ Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für
 | 1 | Enthält | Cowboys | Stadt | Dallas |
 | 2 | Enthält | Broncos | Stadt | Denver |
 
-Ein Benutzer sucht nach   *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
+Ein Benutzer sucht nach *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
 
 ## Hinzufügen einer Klassifizierungsregel zu einem Regelsatz {#add-classification-to-rule-set}
 
@@ -308,7 +308,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Klassifizierung zu, 
 
 >[!NOTE]
 >
->Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von   [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
+>Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie über mehr als 100 Regeln verfügen, sollten Sie den Regelsatz vereinfachen, indem Sie [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
 
 So können Sie eine Klassifizierungsregel hinzufügen oder bearbeiten:
 
@@ -330,7 +330,6 @@ So können Sie eine Klassifizierungsregel hinzufügen oder bearbeiten:
    >   (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *Variable* unter [Klassifizierungsregelsätze](/help/components/classifications/crb/classification-rule-set.md).)
    >
    >* Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
-
 
 1. Festlegen, ob vorhandene Werte überschrieben werden sollen:
 
@@ -381,7 +380,7 @@ Testen eines Klassifizierungsregelsatzes:
    * Trackingcodes
    * Keywords oder Suchausdrücke
 
-   Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md), um Informationen zum Testen von regulären Ausdrücken zu erhalten.
+   Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md) für Informationen zum Testen von regulären Ausdrücken.
 1. Klicken Sie auf **[!UICONTROL Test ausführen]**.
 
    Passende Regeln werden in der [!UICONTROL Ergebnistabelle] angezeigt.
