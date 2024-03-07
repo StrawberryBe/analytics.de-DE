@@ -1,17 +1,17 @@
 ---
-title: Analytics-Variablenzuordnung in Adobe Experience Edge Network
+title: Analytics-Variablenzuordnung mit dem Web SDK-XDM-Objekt
 description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Variablen zugeordnet werden.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bc1311171e7cec6538dcdb44ad13761b0d39851b
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 83%
+source-wordcount: '1149'
+ht-degree: 81%
 
 ---
 
-# Analytics-Variablenzuordnung in Adobe Experience Edge Network
+# Analytics-Variablenzuordnung mit dem Web SDK-XDM-Objekt
 
 In der folgenden Tabelle finden Sie die Variablen, die Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden. Diese Felder sind im **[!UICONTROL Adobe Analytics ExperienceEvent-Vorlage]** Feldergruppe.
 

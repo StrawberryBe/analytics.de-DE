@@ -4,9 +4,9 @@ title: Verstehen und Konfigurieren von Bot-Regeln
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1668'
 ht-degree: 69%
 
 ---
@@ -23,7 +23,7 @@ Bot-Traffic-Daten werden in einem separaten Repository zur Anzeige in den Berich
 
 >[!NOTE]
 >
->Adobe Experience Edge bietet eine [Bot-Erkennungsdienst](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=de) die Treffer, die als von Bots identifiziert wurden. Der Bot-Erkennungsvorgang von Adobe Analytics unterscheidet sich davon und verweist nicht auf den Bot-Wert, der in Daten enthalten ist, die über Experience Edge eingehen. Die beiden Systeme verwenden dieselbe IAB-Bot-Liste, daher sollten sie sich in dieser Hinsicht identisch verhalten.
+>Das Adobe Experience Platform Edge Network bietet eine [Bot-Erkennungsdienst](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=de) die Treffer, die als von Bots identifiziert wurden. Der in Adobe Analytics verwendete Bot-Erkennungsprozess ist separat und verweist nicht auf den Bot-Wert, der in Daten enthalten ist, die über das Edge Network eingehen. Die beiden Systeme verwenden jedoch dieselbe IAB-Bot-Liste.
 
 ## Aktualisieren oder Hochladen von Bot-Regeln
 

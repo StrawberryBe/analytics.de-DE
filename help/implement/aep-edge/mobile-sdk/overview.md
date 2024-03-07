@@ -4,10 +4,10 @@ description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Pl
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <td>4</td>
 <td><b>Fügen Sie einen Adobe Analytics-Service</b> zu Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
 </tr>
 
 <tr>

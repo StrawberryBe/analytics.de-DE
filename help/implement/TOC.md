@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
@@ -134,15 +134,15 @@ ht-degree: 98%
    + [Implementieren von Multi-Suite-Tagging](prepare/multi-suite-tagging.md)
    + [Lösungsdesigndokument erstellen](prepare/solution-design.md)
    + [Übernahme einer bestehenden Adobe Analytics-Implementierung](prepare/existing-implementation.md)
-+ Implementieren von Analytics unter Verwendung von Experience Platform Edge {#aep-edge}
-   + [Übersicht über Experience Edge](aep-edge/overview.md)
-   + [Variablenzuordnung](aep-edge/variable-mapping.md)
++ Analytics mit dem Adobe Experience Platform Edge Network implementieren {#aep-edge}
+   + [Übersicht über Edge Network](aep-edge/overview.md)
+   + [XDM-Objektvariablenzuordnung](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK – Übersicht](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK – Übersicht](aep-edge/mobile-sdk/overview.md)
    + Server-API {#server-api}
-      + [Übersicht zur Server-API](aep-edge/server-api/overview.md)
+      + [Übersicht über die Server-API](aep-edge/server-api/overview.md)
 + Implementierung von Analytics mithilfe der Adobe Analytics-Erweiterung {#launch}
    + [Übersicht über Tags](launch/overview.md)
    + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)

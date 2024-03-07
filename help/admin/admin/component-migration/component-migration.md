@@ -3,7 +3,7 @@ description: Erläutert die Migration von Komponenten und Projekten von Adobe An
 title: Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 5%
@@ -124,7 +124,7 @@ Bevor Sie Projekte zum Customer Journey Analytics migrieren, erfahren Sie mehr �
 
 Wenn eine Migration fehlschlägt, können Sie die Migration erneut versuchen.
 
-Bevor Sie eine fehlgeschlagene Migration wiederholen, müssen Sie alle [nicht unterstützte Elemente](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
+Bevor Sie eine fehlgeschlagene Migration wiederholen, müssen Sie alle [nicht unterstützte Elemente](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
 
 >[!NOTE]
 >

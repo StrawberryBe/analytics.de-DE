@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags und der Ana
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 83%
@@ -53,7 +53,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>4</td><td><b>Installieren Sie die Analytics-Erweiterung</b> in der Tag-Eigenschaft. Konfigurieren Sie die Analytics-Erweiterung, um Daten an Adobe Analytics zu senden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=de">Adobe Analytics-Erweiterung – Übersicht</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de">Adobe Analytics-Erweiterung – Übersicht</a></td>
 </tr>
 
 <tr>
@@ -65,7 +65,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>6</td> 
 <td><b>Validieren und Veröffentlichen in der Produktionsumgebung</b>. Betten Sie Code ein, um Ihre Tag-Eigenschaft in die Seiten Ihrer Website aufzunehmen. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Einbettungscode</a><br/><a href="./validate-publish-prod.md">Entwicklungsimplementierung validieren und in der Produktion veröffentlichen</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Einbettungscode</a><br/><a href="./validate-publish-prod.md">Entwicklungsimplementierung validieren und in der Produktion veröffentlichen</a></td>
 </tr>
 
 </table>

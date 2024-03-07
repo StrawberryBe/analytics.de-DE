@@ -4,18 +4,18 @@ description: Übersicht über die Verwendung von XDM-Daten aus Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 35%
+source-wordcount: '315'
+ht-degree: 23%
 
 ---
 
-# Implementieren von Adobe Analytics mit Adobe Experience Platform Edge
+# Implementieren von Adobe Analytics mit dem Adobe Experience Platform Edge Network
 
-Mit Adobe Experience Platform Edge können Sie Daten, die für mehrere Produkte bestimmt sind, an einen zentralen Ort senden. Experience Edge leitet die entsprechenden Informationen an die gewünschten Produkte weiter. Mit diesem Konzept können Sie Implementierungsaufgaben zusammenfassen, insbesondere, wenn mehrere Datenlösungen vorhanden sind.
+Mit dem Adobe Experience Platform Edge Network können Sie Daten an mehrere Produkte an einen zentralen Ort senden. Das Edge-Netzwerk leitet die entsprechenden Informationen an die gewünschten Produkte weiter. Mit diesem Konzept können Sie Implementierungsaufgaben zusammenfassen, insbesondere, wenn mehrere Datenlösungen vorhanden sind.
 
-Adobe bietet drei Methoden zum Senden von Daten an Experience Edge:
+Adobe bietet drei Hauptmethoden zum Senden von Daten an das Edge-Netzwerk:
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Verwenden Sie die Web SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, um Daten an Edge zu senden.
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Verwenden Sie die Mobile SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, um Daten an Edge zu senden.
@@ -23,13 +23,15 @@ Adobe bietet drei Methoden zum Senden von Daten an Experience Edge:
 
 
 
-## Verarbeitung von Experience Edge-Daten durch Adobe Analytics
+## Verarbeitung von Edge-Netzwerkdaten durch Adobe Analytics
 
-Daten, die an Experience Edge gesendet werden, müssen Schemas entsprechen, die auf [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de). Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Ereignisse Adobe Analytics erreichen, werden diese Ereignisse in strukturiertere Daten übersetzt, die Adobe Analytics verarbeiten kann: Seitenansichten oder Verknüpfungsereignisse.
+An das Adobe Experience Platform Edge Network gesendete Daten können zwei Formate aufweisen:
 
-XDM schreibt selbst nicht vor, wie Seitenansichten oder Verknüpfungsereignisse definiert werden, und weist Adobe Analytics auch nicht an, wie seine Payload zu behandeln ist. Zum Beispiel bestimmte vordefinierte XDM-Felder, die scheinbar mit Seitenansichten oder Link-Ereignissen verbunden sind, wie `eventType`, `web.webPageDetails.pageViews`oder `web.webInteraction.linkEvents` sind vollständig unabhängig von der Implementierung und haben keine Relevanz für Adobe Analytics.
+* XDM-Objekt: Mit Schemas konform basierend auf [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de). Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Ereignisse Adobe Analytics erreichen, werden sie in ein Format übersetzt, das von Adobe Analytics verarbeitet werden kann.
+* Datenobjekt: Senden Sie Daten mithilfe bestimmter, Adobe Analytics zugewiesener Felder an das Edge-Netzwerk. Das Edge-Netzwerk erkennt das Vorhandensein dieser Felder und leitet sie an Adobe Analytics weiter, ohne dass ein Schema konform sein muss.
 
-Um Seitenansichten und Verknüpfungsereignisse ordnungsgemäß zu verarbeiten, wird die folgende Logik auf Daten angewendet, die an das Adobe Experience Edge-Netzwerk gesendet und an Adobe Analytics weitergeleitet werden.
+
+Das Edge-Netzwerk verwendet die folgende Logik, um die Seitenansichten und Verknüpfungsereignisse in Adobe Analytics zu bestimmen
 
 | XDM-Payload enthält ... | Adobe Analytics... |
 |---|---|
@@ -40,4 +42,4 @@ Um Seitenansichten und Verknüpfungsereignisse ordnungsgemäß zu verarbeiten, w
 
 {style="table-layout:auto"}
 
-Siehe [Feldergruppe Adobe Analytics ExperienceEvent Full Extension](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) für weitere Informationen.
+Siehe [Feldergruppe Adobe Analytics ExperienceEvent Full Extension](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) für weitere Informationen.

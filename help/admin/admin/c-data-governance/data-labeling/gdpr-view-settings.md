@@ -4,7 +4,7 @@ title: Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 94%
@@ -31,11 +31,11 @@ Das Dialogfeld **[!UICONTROL Datenschutzkennzeichnungen für Data Governance]** 
 | Einstellung | Beschreibung |
 | --- | --- |
 | **[!UICONTROL Name der Komponente]** | In dieser Spalte werden alle Komponenten (Dimensionen, Metriken) aufgelistet, die Teil dieser Report Suite sind. |
-| **[!UICONTROL Identität]** | Die Kennzeichnung für Identitätsdaten („I“) wird verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
-| **[!UICONTROL Vertraulichkeit]** | Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenkennzeichnungen verfügbar sein, um andere Arten vertraulicher Informationen zu kennzeichnen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
-| **[!UICONTROL DSGVO-Zugriff]** | Mit Data-Governance-Kennzeichnungen können Benutzende Daten klassifizieren, die datenschutzbezogene Informationen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL DSGVO-Löschung]** | Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
-| **[!UICONTROL Namespace]** | Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
+| **[!UICONTROL Identität]** | Die Kennzeichnung für Identitätsdaten („I“) wird verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-identity-labels) |
+| **[!UICONTROL Vertraulichkeit]** | Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenkennzeichnungen verfügbar sein, um andere Arten vertraulicher Informationen zu kennzeichnen. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#sensitive-data-labels) |
+| **[!UICONTROL DSGVO-Zugriff]** | Mit Data-Governance-Kennzeichnungen können Benutzende Daten klassifizieren, die datenschutzbezogene Informationen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-access-labels) |
+| **[!UICONTROL DSGVO-Löschung]** | Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#provide-namespace) |
 | **[!UICONTROL Kategorie]** | Bezieht sich auf den Komponententyp, z. B. Standardkomponente, Konversionsvariable usw. |
 
 {style="table-layout:auto"}

@@ -4,7 +4,7 @@ description: Verwenden Sie die Adobe Experience Platform Edge Network Server-API
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 34%
@@ -15,7 +15,7 @@ ht-degree: 34%
 
 Normalerweise verwenden Sie die Experience Platform Edge Network Server-API, um Daten Server-seitig und nicht Client-seitig zu erfassen und bei der Datenerfassung von Geräten wie IoT-Geräten, Set-Top-Boxen und Desktop-Anwendungen. Dann senden Sie diese Daten an das Edge-Netzwerk und an Dienste wie Adobe Analytics.
 
-Beachten Sie auch die Edge Network Server-API, wenn vertrauliche Daten sicher erfasst und im Netzwerk authentifiziert werden müssen. Siehe [Authentifizierung](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) für weitere Informationen.
+Beachten Sie auch die Edge Network Server-API, wenn vertrauliche Daten sicher erfasst und im Netzwerk authentifiziert werden müssen. Siehe [Authentifizierung](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) für weitere Informationen.
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
@@ -48,12 +48,12 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>4</td>
 <td><b>Implementieren und Testen der Datenerfassung</b> Verwendung der Datenerfassungs-APIs für Einzelereignisse und Batch-Ereignisse.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en">Datenerfassung mit einem Ereignis</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en">Datenerfassung für Batch-Ereignisse</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de">Datenerfassung mit einem Ereignis</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Datenerfassung für Batch-Ereignisse</a>
 </tr>
 
 <td>5</td>
 <td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=ens">Interagieren mit Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Interagieren mit Adobe Analytics</a></td>
 </tr>
 
 

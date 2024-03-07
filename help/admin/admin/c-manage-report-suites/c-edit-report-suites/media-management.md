@@ -4,10 +4,10 @@ title: Medienverwaltung
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 6ddbf0821951e71d7323343104720fe60551dacb
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '163'
+ht-degree: 55%
 
 ---
 
@@ -21,10 +21,10 @@ Die folgenden Medienverwaltungsoptionen sind beim Bearbeiten einer Report Suite 
 
 * [!UICONTROL **Medienberichte**]
 
-   Spezifische Berichte zu Streaming-Medien sind auf der Seite Medienberichte verfügbar. Weitere Informationen zur Medienberichterstellung finden Sie unter [Aktivierung von Medienberichten](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+  Spezifische Berichte zu Streaming-Medien sind auf der Seite Medienberichte verfügbar. Weitere Informationen zur Medienberichterstellung finden Sie unter [Aktivierung von Medienberichten](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Medien-Classifications**]
 
-   Für Streaming-Medien spezifische Classifications sind auf der Seite Media Classifications verfügbar. Weitere Informationen zu Classifications finden Sie unter [Konversionsklassifizierungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Für Streaming-Medien spezifische Classifications sind auf der Seite Media Classifications verfügbar. Weitere Informationen zu Classifications finden Sie unter [Konversionsklassifizierungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
 Allgemeine Informationen zu Streaming Media Analytics finden Sie in der [Adobe Analytics für Streaming-Medien-Handbuch](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de).
