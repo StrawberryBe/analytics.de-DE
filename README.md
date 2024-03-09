@@ -1,8 +1,8 @@
 ---
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 205d86b13046bd17e321734904bf57435ef6e106
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 93%
 
 ---
 # Artikel beitragen
@@ -46,10 +46,7 @@ Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://ex
 
 ## Markdown zum Formatieren Ihres Themas verwenden
 
-Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, lesen Sie:
-
-* [Markdown-Grundlagen](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-* [Druckbares Markdown-Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, lesen Sie [Grundlegende Syntax zum Schreiben und Formatieren](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) auf GitHub-Dokumenten.
 
 ## Bezeichnungen
 
