@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
 workflow-type: tm+mt
-source-wordcount: '3899'
-ht-degree: 99%
+source-wordcount: '3928'
+ht-degree: 98%
 
 ---
 
@@ -68,6 +68,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`daily_visitor`** | Flag zur Bestimmung, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
 | **`dataprivacyconsentoptin`** | Variable, die in der Dimension [Einverständnisverwaltungs-Opt-in](/help/components/dimensions/cm-opt-in.md) verwendet wird. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Variable, die in der Dimension [Einverständnisverwaltungs-Opt-out](/help/components/dimensions/cm-opt-out.md) verwendet wird. Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP` und `SELL`. | varchar(100) |
+| **`dataprivacydmaconsent`** | Wert, der angibt, ob die Zustimmung zum Senden von Daten von Adobe Analytics über Adobe Advertising an Drittanbieter für Werbung (wie Google) eingeholt wird. Siehe [Anzeigeneinwilligung](/help/components/dimensions/ad-consent.md) für weitere Informationen. | varchar(100) |
 | **`date_time`** | Die Uhrzeit des Treffers in lesbarem Format, basierend auf der Zeitzone der Report Suite. | datetime |
 | **`domain`** | Variable, die in der Dimension [Domain](/help/components/dimensions/domain.md) verwendet wird. Basierend auf dem Internetzugangspunkt des Besuchers. | varchar(100) |
 | **`duplicate_events`** | Listet alle Ereignisse auf, die als Duplikat gezählt wurden. | varchar(255) |

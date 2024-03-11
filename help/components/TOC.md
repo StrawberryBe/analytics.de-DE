@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: 5887202603b10d7058ef82a7ced28517bc1a7efa
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 + Dimensionen {#dimensions}
    + [Dimensionen – Übersicht](dimensions/overview.md)
    + [Kompatibilität der Dimensionen](dimensions/compatibility.md)
+   + [Anzeigeneinwilligung](dimensions/ad-consent.md)
    + [Rangansicht aller Suchseiten](dimensions/all-search-page-rank.md)
    + [Vormittag/Nachmittag](dimensions/am-pm.md)
    + [Bot-Name](dimensions/bot-name.md)
