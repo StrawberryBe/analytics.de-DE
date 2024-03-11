@@ -4,10 +4,10 @@ description: Verwenden Sie die Adobe Experience Platform Edge Network Server-API
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 2e5171842794d7acc7bb67048b734f47a438cf1c
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -53,7 +53,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <td>5</td>
 <td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Interagieren mit Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=de">Interagieren mit Adobe Analytics</a></td>
 </tr>
 
 
