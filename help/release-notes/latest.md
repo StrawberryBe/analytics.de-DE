@@ -3,53 +3,54 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3c6e11dd9d0044dbf79fa0ba97e55a547966d120
+source-git-commit: 401365705caed37cff219d8000c86a0b05495050
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 50%
+source-wordcount: '1056'
+ht-degree: 26%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Februar 2024)
+# Aktuelle Adobe Analytics-Versionshinweise (März 2024)
 
-**Letzte Aktualisierung**: Donnerstag, 21. Februar 2024
+**Zuletzt aktualisiert**: Donnerstag, 13. März 2024
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. Februar 2024 bis zum 11. März 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. März 2024 bis April 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **AppMeasurement-Update** | [AppMeasurement-Version v2.26.0](/help/implement/appmeasurement-updates.md) ist verfügbar. | | Dienstag, 4. März 2024 |
-| **Data Warehouse-Aktualisierungen** | Die folgenden Data Warehouse-Verbesserungen sind jetzt verfügbar:<ul><li>Beim Erstellen einer Data Warehouse-Anforderung können Benutzende jetzt Anforderungen für alle Benutzenden in der Organisation verfügbar machen, indem sie den neuen Umschalter mit dem Namen [!UICONTROL **Bereitstellung für Benutzende in Ihrer Organisation**] aktivieren.<p>Weitere Informationen finden Sie unter [Allgemeine Einstellungen für Data Warehouse-Anfragen](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Bei der Erstellung oder Verwaltung von Data Warehouse-Berichtszielen können Systemadmins jetzt Konten und Orte anzeigen, die von Benutzenden in der Organisation erstellt wurden, indem sie den Umschalter [!UICONTROL **Alle Ziele anzeigen**] aktivieren.<p>Weitere Informationen finden Sie unter [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | Nicht angegeben | 10. Januar 2024 |
-| **Aktualisierungen zur Visualisierung der Schlüsselmetrikübersicht** | Bei der Visualisierung der Schlüsselmetrikübersicht kann der Vergleichs-Datumsbereich jetzt automatisch aktualisiert werden, je nachdem, ob der ausgewählte Vergleichs-Datumsbereich relativ zum primären Datumsbereich oder fest ist. [Weitere Informationen](/help/analyze/analysis-workspace/visualizations/key-metric.md). | Nicht angegeben | 17. Januar 2024 |
-| **Dokumentation zur Data Warehouse-API** | Weitere Informationen finden Sie unter [Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) für weitere Informationen. Navigieren Sie zu [!UICONTROL Definition auswählen] und wählen [!UICONTROL Data Warehouse-APIs]. | | Dienstag, 19. Februar 2024 |
-| **Activity Map für Web SDK ohne zusätzliche Kosten** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. Durch diese Verbesserung werden einige Linkereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung von AppMeasurement. |  | Donnerstag, 3. April 2024 |
-| **Anhebung der standardmäßigen Schwellenwerte für niedrigen Traffic** | In **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für niedrigen Traffic wie folgt: ![niedrige Traffic-Schwellenwerte](assets/thresholds.png) Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen, und wir erwarten, dass die Arbeit durch die **Ende Mai**. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für die Berichterstellung verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Classification-Exporte können mehr Daten enthalten.</li></ul> | Mitte April 2024 | Ende Mai 2024 |
+| **Auf der Landingpage &quot;Projekte&quot;verfügbare neue Spalte** | Die **[!UICONTROL Zuletzt verwendet]** ist jetzt bei Ansicht der Registerkarte Projekte auf der [Adobe Analytics-Landingpage](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=de). <p>Anhand dieser Informationen können Sie feststellen, ob ein Projekt für Benutzer in Ihrer Organisation nützlich ist, indem Sie das Datum und die Uhrzeit des letzten Öffnens des Projekts anzeigen.</p> <p>Zuvor wurde die Variable **[!UICONTROL Zuletzt verwendet]** -Spalte war nur im Manager für berechnete Metriken, im Segment-Manager und im Warnhinweismanager verfügbar.</p> |  | Donnerstag, 13. März 2024 |
+| **Analytics-Unterstützung für Genehmigungsflags, die von Google für DMA erforderlich sind** | Aufgrund neuer europäischer Datenschutzbestimmungen verlangt Google, dass die an sie gesendeten in Europa erhobenen Daten angeben müssen, ob zwei Arten von Einwilligungen erteilt wurden. **Ab dem 6. März** akzeptiert Google keine Ereignisdaten mehr, die nicht angeben, dass die entsprechende Zustimmung erteilt wurde. Adobe Analytics erwartet, dass Mitte März die Unterstützung für die Erfassung dieser Daten veröffentlicht wird. Wir werden in Kürze weitere Details bekannt geben. |  | Mitte März 2024 |
+| **Verwenden Sie dieselben Cloud-Konten für Daten-Feeds, Data Warehouse und Classification-Sets** | Von Ihnen erstellte Cloud-Konten und -Standorte können jetzt zum Exportieren von Daten (mit Daten-Feeds und Data Warehouse) und zum Importieren von Daten (mit Classification-Sets) verwendet werden.<p> **Änderungen beim Konfigurieren von Konten:** Benutzer können Cloud-Import- und -Exportkonten konfigurieren und Cloud-Import- und -Exportspeicherorte konfigurieren, die für einen der folgenden Zwecke verwendet werden können:<ul><li>Importieren von Daten mit Classification-Sets</li><li>Exportieren von Daten mit Daten-Feeds</li><li>Exportieren von Daten mit Data Warehouse.</li></ul><p>**Änderungen bei der Verwaltung von Konten**: Benutzer können die Seite Standorte (unter Komponenten > Standorte) verwenden, um alle von ihnen erstellten Konten und Orte anzuzeigen und zu verwalten, unabhängig davon, wo sie erstellt wurden. <p>Zuvor galt die Seite Standorte nur für Konten, die zum Importieren von Daten mit Classification-Sets erstellt wurden.</p> | | April 2024 |
+| **Administratoren können alle Standorte in ihrer Organisation verwalten** | Eine neue Option auf der Seite Standorte ermöglicht es Administratoren, alle Standorte in der Organisation anzuzeigen und zu verwalten. <p>Zuvor konnten Administratoren nur die von ihnen erstellten Standorte anzeigen und verwalten.</p> |  | April 2024 |
+| **Activity Map verwendet weniger Server-Aufrufe für Web SDK** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. <p>Durch diese Verbesserung werden einige Linkereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung von AppMeasurement.</p> |  | Donnerstag, 3. April 2024 |
+| **Anhebung der standardmäßigen Schwellenwerte für niedrigen Traffic** | In **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für niedrigen Traffic wie folgt: ![niedrige Traffic-Schwellenwerte](assets/thresholds.png) Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen, und wir erwarten, dass die Arbeit durch die **Ende Mai**. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für die Berichterstellung verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Classification-Exporte können mehr Daten enthalten.</li></ul> | | Mitte April 2024 |
 
 {style="table-layout:auto"}
 
 ## Fehlerbehebungen in Adobe Analytics
 
-* Es wurden folgende Klassifizierungsprobleme behoben: AN-319515; AN-337559; AN-338149; AN-338702; AN-338769; AN-338891; AN-339 AN-339649; AN-339668; AN-339669; AN-339776; AN-339822; AN-340017; AN-34020 2; AN-340476;
-* Es wurden die folgenden Probleme mit dem Classifications Rule Builder behoben: AN-338385; AN-338399; AN-338592; AN-338810; AN-338893; AN-339431; 9894; AN-339933; AN-340201; AN-340309;
-* Die folgenden A4T-Probleme wurden behoben: AN-334830; AN-336194; AN-338309; AN-338650;
-* Es wurde ein Problem mit der folgenden Datenerfassung behoben: AN-339323
-* Fehlerkorrektur - Die folgenden Data Warehouse-Probleme wurden behoben: AN-335542; AN-331425; AN-337215; AN-338445; AN-338651; AN-3394 61; AN-340066; AN-340207; AN-340460
-* Fehlerkorrektur - Die folgenden Daten-Feeds funktionieren jetzt einwandfrei: AN-335952; AN-338653; AN-339508; AN-339681; AN-340418
-* Die folgenden Data Sources-Probleme wurden behoben: AN-338648
-* Die folgenden Analysis Workspace-Probleme wurden behoben: AN-326509; AN-336186; AN-336190; AN-336309; AN-337922; AN-338094; AN-38333 23; AN-338556; AN-339600; AN-340445
+* Es wurden folgende Klassifizierungsprobleme behoben: AN-335632; AN-337559; AN-340164; AN-340370; AN-341089; AN-34121. AN-341469; AN-341481; AN-341760; AN-341778; AN-342144; AN-342258; AN-34233 8, AN-342400
+* Es wurden die folgenden Probleme mit dem Classifications Rule Builder behoben: AN-340921; AN-341269; AN-341292; AN-341467; AN-341666; AN-342145; 2329
+* Es wurde das folgende Problem mit intelligenten Warnhinweisen behoben: AN-340736
+* Es wurde das folgende Segmentierungsfehler behoben: AN-336242
+* Fehlerkorrektur - Die folgenden Data Warehouse-Probleme wurden behoben: AN-335354; AN-339446; AN-339774; AN-340221; AN-340599; AN-34127. 09; AN-342088; AN-342592
+* Fehlerkorrektur - Die folgenden Daten-Feeds funktionieren jetzt einwandfrei: AN-335508; AN-340887; AN-341050; AN-341208; AN-341479; AN-341 524; AN-341661; AN-342000; AN-342125; AN-34256; AN-342301; AN-342410; AN-3425 02; AN-342525
+* Behebung des folgenden Report Builder-Problems: AN-340540
+* Die folgenden Analysis Workspace-Probleme wurden behoben: AN-295889; AN-330981; AN-338818; AN-339730; AN-341114; AN-341520;
 
 ### Weitere behobene Fehler in Analytics
 
-AN-328239; AN-332908; AN-335449; AN-335517; AN-336075; AN-336100; AN-336128; AN 338088; AN-338270; AN-338393; AN-338494; AN-339326; AN-339742; AN-33983; AN-3 40419;
+AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN 339549; AN-341119; AN-341246; AN-341268; AN-341272; AN-341475; AN-341547; AN-3 41558; AN-341680; AN-342017;
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
-| Adobe-API-Objektmitgliederergänzungen | 17. Januar 2024 | Adobe kann vorhandenen API-Objekten jederzeit und ohne Vorankündigung oder Änderungen der Versionierung optionale Anforderungs- und Antwortmitglieder (Name/Wert-Paare) hinzufügen. Adobe empfiehlt, in der API-Dokumentation jedes Drittanbieter-Tools, das Sie in unsere APIs integrieren, nachzuschlagen, damit solche Ergänzungen bei der Verarbeitung ignoriert werden, wenn sie nicht verstanden werden. Bei ordnungsgemäßer Implementierung handelt es sich bei diesen Ergänzungen um grundlegende Änderungen für Ihre Implementierung. Adobe entfernt keine Parameter und fügt keine erforderlichen Parameter hinzu, ohne zuvor durch Versionshinweise eine Standardbenachrichtigung bereitzustellen. |
-| `getPageLoadTime`-Plug-in veraltet | 10. Januar 2024 | Dieses Plug-in wird nicht mehr unterstützt. Der Code verwendet die Methode „performance.timing“, die (laut MDN) [veraltet](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) ist. Die Arbeit an einem aktualisierten Plug-in hat begonnen. |
+| **Adobe-API-Objektmitgliedsadditionen** | 17. Januar 2024 | Adobe kann vorhandenen API-Objekten jederzeit und ohne Vorankündigung oder Änderungen der Versionierung optionale Anforderungs- und Antwortmitglieder (Name/Wert-Paare) hinzufügen. Adobe empfiehlt, in der API-Dokumentation jedes Drittanbieter-Tools, das Sie in unsere APIs integrieren, nachzuschlagen, damit solche Ergänzungen bei der Verarbeitung ignoriert werden, wenn sie nicht verstanden werden. Bei ordnungsgemäßer Implementierung handelt es sich bei diesen Ergänzungen um grundlegende Änderungen für Ihre Implementierung. Adobe entfernt keine Parameter und fügt keine erforderlichen Parameter hinzu, ohne zuvor durch Versionshinweise eine Standardbenachrichtigung bereitzustellen. |
+| **`getPageLoadTime`Plugin veraltet** | 10. Januar 2024 | Dieses Plug-in wird nicht mehr unterstützt. Der Code verwendet die Methode „performance.timing“, die (laut MDN) [veraltet](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) ist. Die Arbeit an einem aktualisierten Plug-in hat begonnen. |
 
 {style="table-layout:auto"}
 
@@ -63,7 +64,7 @@ AN-328239; AN-332908; AN-335449; AN-335517; AN-336075; AN-336100; AN-336128; AN 
 
 ## AppMeasurement
 
-Die neuesten Aktualisierungen zu AppMeasurement-Versionen (Version 2.25.0) finden Sie in den [Versionshinweisen zu AppMeasurement für JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=de).
+Die neuesten Updates zu AppMeasurement-Releases (Version 2.26.0) finden Sie unter [AppMeasurement für JavaScript - Versionshinweise](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=de).
 
 
 ## Verwandte Ressourcen
