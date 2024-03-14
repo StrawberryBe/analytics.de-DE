@@ -3,10 +3,10 @@ description: Aktivieren Sie Dimensionen der Einverständnisverwaltung.
 title: Datenschutzberichte
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
+source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 77%
+source-wordcount: '87'
+ht-degree: 71%
 
 ---
 
@@ -21,7 +21,7 @@ So greifen Sie auf diese Seite zu:
 
    ![Bearbeiten von Einstellungen](assets/rsm-privacy-select.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Datenschutzberichte aktivieren]**.
+1. Klicks **[!UICONTROL Datenschutzberichte aktivieren]**.
 
    >[!NOTE]
    >
