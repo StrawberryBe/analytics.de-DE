@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '5207'
-ht-degree: 95%
+source-wordcount: '5243'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **März 2024** | |
 | AppMeasurement-Update | [Versionshinweise](/help/implement/appmeasurement-updates.md) auf AppMeasurement Update v2.26.0.<br/>Enthält Verweis auf und Aktualisierung von [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) Dokumentation zu Konfigurationsvariablen. |
+| Nutzungsinformationen zur Spalte &quot;Verwendet in&quot;sind erst ab September 2023 verfügbar. | Diese Nutzungsinformationen zu **Verwendet in** in der Spalte [Projekt-Landingpage](/help/analyze/landing.md) reicht bis September 2023 zurück. |
 | **Februar 2024** | |
 | Aktualisierungen der Informationen zur Verwaltung von Data Warehouse-Anfragen | Es wurde klargestellt, dass Benutzer standardmäßig nur die Anforderungen anzeigen können, die sie erstellen, wenn [Verwalten von Data Warehouse-Anfragen](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | Aktualisierungen der Dokumentation zur Projektfreigabe | Es wurden Informationen zum [Anzeigen freigegebener Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Auch optimierte Informationen zu [Freigeben einzelner oder mehrerer Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
