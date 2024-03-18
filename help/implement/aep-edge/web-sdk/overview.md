@@ -4,7 +4,7 @@ description: Verwenden Sie die Web SDK-Erweiterung in der Adobe Experience Platf
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>7</td>
 <td><b>Konfigurieren des Web SDKs</b>. Stellen Sie sicher, dass die Bibliothek, die Sie in Schritt 4 installiert haben, ordnungsgemäß mit der Datastraam-ID konfiguriert ist (ehemals Edge-Konfigurations-ID (<code>edgeConfigId</code>), Organisations-ID (<code>orgId</code>) und anderen verfügbaren Optionen. Stellen Sie sicher, dass Variablen ordnungsgemäß zugeordnet werden. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK konfigurieren</a><br/><a href="../variable-mapping.md">XDM-Objektvariablenzuordnung</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK konfigurieren</a><br/><a href="../xdm-var-mapping.md">XDM-Objektvariablenzuordnung</a></td>
 </tr>
 
 <tr>

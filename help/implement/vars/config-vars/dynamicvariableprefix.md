@@ -4,10 +4,10 @@ description: Ermöglicht die Anpassung der Zeichenfolge zur Identifizierung dyna
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 76%
+source-wordcount: '275'
+ht-degree: 70%
 
 ---
 
@@ -20,6 +20,10 @@ Dynamische Variablen verwenden standardmäßig das Präfix `D=`. Mit der `dynami
 ## Dynamisches Variablenpräfix mit dem Web SDK
 
 Das Web SDK verwendet keine dynamische Variablenformatierung. Stattdessen können Sie die Datastream-Zuordnung verwenden, um mehrere Zielfelder mit einem einzigen Quellfeld zu füllen. Siehe [Dynamische Variablen mit dem Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) für weitere Informationen.
+
+Wenn Sie Daten direkt an Adobe Analytics senden, ohne einem Schema zu entsprechen, wird die folgende Variable verwendet:
+
+* [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Dynamisches Variablenpräfix mit der Adobe Analytics-Erweiterung
 

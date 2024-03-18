@@ -4,9 +4,9 @@ description: Überschreiben Sie die automatisch erfasste Seiten-URL auf Ihrer We
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,10 @@ AppMeasurement erfasst automatisch die Seiten-URL bei jedem Treffer. Wenn Sie di
 
 ## Seiten-URL mit dem Web SDK
 
-Seiten-URL ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `web.webPageDetails.URL`.
+Die Seiten-URL ist den folgenden Variablen zugeordnet:
+
+* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` oder `data.__adobe.analytics.g`
 
 ## Seiten-URL mit der Adobe Analytics-Erweiterung
 

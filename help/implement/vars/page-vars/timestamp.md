@@ -4,10 +4,10 @@ description: Setzen Sie den Zeitstempel des Treffers manuell fest.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Die `timestamp`-Variable legt den Zeitstempel des Treffers für Report Suites mi
 
 ## Zeitstempel mit dem Web SDK
 
-Zeitstempel: [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `xdm.timestamp`. Dieses Feld unterstützt nur die Unix-Zeit.
+Zeitstempel: [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) unter dem XDM-Feld `xdm.timestamp`. Dieses Feld unterstützt nur die Unix-Zeit.
 
 ## Zeitstempel mit der Adobe Analytics-Erweiterung
 
@@ -33,7 +33,7 @@ Die `s.timestamp`-Variable ist eine Zeichenfolge, die das Datum und die Uhrzeit 
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ Die nach [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) angegebenen Daten un
 * Sowohl das Datum als auch die Uhrzeit müssen durch `T` getrennt angegeben werden.
 * Stunden und Minuten sind erforderlich; Sekunden sind optional, werden aber empfohlen.
 * Wochentage und Datumsangaben mit Ordnungszahlen werden nicht unterstützt.
-* Das Datum kann im standardmäßigen oder im erweiterten Format angegeben werden. Zum Beispiel sind `2020-01-01T00:00:00Z` und `20200101T000000Z` beide gültig.
+* Das Datum kann im standardmäßigen oder im erweiterten Format angegeben werden. Zum Beispiel sind `2024-01-01T00:00:00Z` und `20240101T000000Z` beide gültig.
 * Bruchteile von Minuten und Sekunden sind technisch gültig. Die Bruchteile werden allerdings von Adobe ignoriert.
 * Zeitzonen werden in Standard- und erweiterten Formaten unterstützt.
 
 Die folgenden Beispiele sind gültige Werte nach ISO 8601 in der `timestamp`-Variablen:
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```

@@ -4,10 +4,10 @@ description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verw
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '615'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,10 @@ Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-d
 
 ## Props, die das Web SDK verwenden
 
-Props sind [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den XDM-Feldern `_experience.analytics.customDimensions.props.prop1` bis `_experience.analytics.customDimensions.props.prop75` zugeordnet. Listen-Props werden in einem separaten Satz von Feldern spezifiziert.
+Props werden den folgenden Variablen zugeordnet:
+
+* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Listen-Props werden in einer [separater Feldsatz](#list-props-web-sdk).
+* [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`oder `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - Listen-Props sind in diesen Feldern enthalten.
 
 ## Props, die die Adobe Analytics-Erweiterung verwenden
 
@@ -60,9 +63,11 @@ Aktivieren Sie Listen-Props in [Traffic-Variablen](/help/admin/admin/c-manage-re
 >
 >Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes beliebige nicht-erweiterte ASCII-Trennzeichen verwenden, das am besten zu Ihrer Implementierung passt.
 
-### Festlegen von Listen-Props mit dem Web SDK
+### Festlegen von Listen-Props mit dem Web SDK {#list-props-web-sdk}
 
-Nachdem Sie Listen-Props in den Report Suite-Einstellungen mit dem gewünschten Trennzeichen konfiguriert haben, werden Listen-Props für Adobe Analytics unter `_experience.analytics.customDimensions.listProps.prop1.values[]` bis `_experience.analytics.customDimensions.listProps.prop75.values[]` zugewiesen. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `_experience.analytics.customDimensions.props.prop1.delimiter`), wird das Trennzeichen überschrieben, das automatisch aus den Report Suite-Einstellungen abgerufen wird, was zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
+Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), werden Listen-Props zugeordnet zu `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), wird das Trennzeichen überschrieben, das automatisch aus den Report Suite-Einstellungen abgerufen wird, was zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
+
+Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md) verwendet Listen-Props dieselben Felder wie Standard-Props und befolgen die AppMeasurement-Syntax.
 
 ### Festlegen von Listen-Props mit der Adobe Analytics-Erweiterung und AppMeasurement
 

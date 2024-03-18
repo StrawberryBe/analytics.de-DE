@@ -4,10 +4,10 @@ description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf I
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 90%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -19,24 +19,26 @@ Bevor Sie Ereignisse implementieren, stellen Sie sicher, dass Sie sie in den Rep
 
 ## Ereignisse, die das Web SDK verwenden
 
-Benutzerdefinierte Ereignisse werden [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter den folgenden XDM-Feldern zugeordnet:
+Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), verwenden benutzerdefinierte Ereignisse die folgenden XDM-Felder:
 
-* Benutzerdefinierte Ereignisse 1–100 werden zugeordnet zu `_experience.analytics.event1to100.event1` – `_experience.analytics.event1to100.event100`.
-* Benutzerdefinierte Ereignisse 101–200 werden zugeordnet zu `_experience.analytics.event101to200.event100` – `_experience.analytics.event101to200.event200`.
-* Dieses Muster wiederholt alle 100 Ereignisse bis `_experience.analytics.event901to1000.event901` – `_experience.analytics.event901to1000.event1000`. `eventx.value` wird verwendet, um die zu inkrementierende Menge anzugeben. `eventx.id` wird für [Serialisierung](event-serialization.md) verwendet.
-* Bestellungen werden `commerce.purchases.value` zugeordnet.
+* Benutzerdefinierte Ereignisse 1–100 werden zugeordnet zu `xdm._experience.analytics.event1to100.event1` – `xdm._experience.analytics.event1to100.event100`.
+* Benutzerdefinierte Ereignisse 101–200 werden zugeordnet zu `xdm._experience.analytics.event101to200.event100` – `xdm._experience.analytics.event101to200.event200`.
+* Dieses Muster wiederholt alle 100 Ereignisse bis `xdm._experience.analytics.event901to1000.event901` – `xdm._experience.analytics.event901to1000.event1000`. `eventx.value` wird verwendet, um die zu inkrementierende Menge anzugeben. `eventx.id` wird für [Serialisierung](event-serialization.md) verwendet.
+* Bestellungen werden `xdm.commerce.purchases.value` zugeordnet.
 * Einheiten werden der Summe aller `productListItems[].quantity`-Felder zugeordnet.
 * Der Umsatz wird der Summe aller `productListItems[].priceTotal`-Felder zugeordnet.
-* Produktansichten werden `commerce.productListViews.value` zugeordnet.
-* Warenkörbe werden `commerce.productListOpens.value` zugeordnet.
-* Hinzufügungen zum Warenkorb werden `commerce.productListAdds.value` zugeordnet.
-* Entnahmen aus dem Warenkorb werden `commerce.productListRemovals.value` zugeordnet.
-* Warenkorbansichten werden `commerce.productListViews.value` zugeordnet.
-* Checkouts werden `commerce.checkouts.value` zugeordnet.
+* Produktansichten werden `xdm.commerce.productListViews.value` zugeordnet.
+* Warenkörbe werden `xdm.commerce.productListOpens.value` zugeordnet.
+* Hinzufügungen zum Warenkorb werden `xdm.commerce.productListAdds.value` zugeordnet.
+* Entnahmen aus dem Warenkorb werden `xdm.commerce.productListRemovals.value` zugeordnet.
+* Warenkorbansichten werden `xdm.commerce.productListViews.value` zugeordnet.
+* Checkouts werden `xdm.commerce.checkouts.value` zugeordnet.
 
 >[!NOTE]
 >
 >Wenn ein Ereignis unter `productListItems` festgelegt ist (z. B. `productListItems._experience.analytics.event1.value`) und sich dieses Ereignis noch nicht in diesem Feld befindet, wird dieses Ereignis automatisch diesem Feld hinzugefügt.
+
+Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), verwenden alle Ereignisse `data.__adobe.analytics.events`, die der AppMeasurement-String-Syntax folgt. Wenn Sie dieses Feld festlegen, werden alle im XDM-Objekt festgelegten Ereignisse überschrieben und nicht an Adobe Analytics gesendet.
 
 ## Ereignisse, die die Adobe Analytics-Erweiterung verwenden
 

@@ -4,10 +4,10 @@ description: Senden Sie einen Linktracking-Aufruf an Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackEx
 
 ## Linktracking mit dem Web SDK
 
-Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. Beide verwenden die Variable `sendEvent` Befehl. Wenn Sie möchten, dass Adobe Analytics ein bestimmtes XDM-Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihre XDM-Daten enthalten oder zugeordnet sind zu `web.webInteraction.name`, `web.webInteraction.URL`, und `web.webInteraction.type`.
+Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. Beide verwenden die Variable `sendEvent` Befehl.
 
-* Linkname wird zugeordnet zu `web.webInteraction.name`.
-* Link-URL wird zugeordnet zu `web.webInteraction.URL`.
-* Link-Typ wird zugeordnet `web.webInteraction.type`. Gültige Werte sind `other` (benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks).
+Wenn Sie ein XDM-Objekt verwenden und möchten, dass Adobe Analytics ein bestimmtes Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihre XDM-Daten Folgendes enthalten:
+
+* Linkname: zugeordnet zu `xdm.web.webInteraction.name`.
+* Link-URL: zugeordnet `xdm.web.webInteraction.URL`.
+* Link-Typ: zugeordnet zu `xdm.web.webInteraction.type`. Gültige Werte sind `other` (benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks).
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+Wenn Sie ein Datenobjekt verwenden und möchten, dass Adobe Analytics ein bestimmtes Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihr Datenobjekt Folgendes enthält:
+
+* Linkname: zugeordnet zu `data.__adobe.analytics.linkName`.
+* Link-URL: zugeordnet `data.__adobe.analytics.linkURL`.
+* Link-Typ: zugeordnet zu `data.__adobe.analytics.linkType`. Gültige Werte sind `o` (benutzerspezifische Links), `d` (Downloadlinks) und `e` (Exitlinks).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

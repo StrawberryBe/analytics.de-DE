@@ -4,10 +4,10 @@ description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benu
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,26 @@ Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannt
 
 ## Kontextdatenvariablen, die das Web SDK verwenden
 
-Wenn ein XDM-Feld nicht [für Adobe Analytics zugeordnet ist](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de), wird es automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
+Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md) festgelegt ist, werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
 
-Obwohl es sich als Best Practice empfiehlt, Daten den korrekten XDM-Feldern im Datenstrom zuzuordnen, werden mit dieser Methode ähnliche Ergebnisse erzielt.
+Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), befinden sich alle Kontextdatenvariablen in `data.__adobe.analytics.contextData` als Schlüssel-Wert-Paare:
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+Die [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) -Oberfläche anzeigen `c.example_variable` und `c.second_example` in entsprechenden Dropdown-Menüs.
 
 ## Kontextdatenvariablen, die die Adobe Analytics-Erweiterung verwenden
 

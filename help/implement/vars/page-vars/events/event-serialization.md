@@ -4,10 +4,10 @@ description: Hilft Ihnen, Metriken auf Ihrer Website zu deduplizieren.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 83%
 
 ---
 
@@ -35,9 +35,11 @@ Bei Verwendung von Ereignis-IDs erfolgt eine Deduplizierung auf folgenden Ebenen
 
 ## Verwenden von Ereignis-IDs mit dem Web SDK
 
-Die Ereignis-Serialisierung für [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) erfolgt über die `id` des gewünschten Ereignis-XDM-Felds. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
+Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), verwendet die Ereignis-Serialisierung das XDM-Feld des gewünschten Ereignisses. `id`. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
 
-Wenn Sie beispielsweise die Metrik „Hinzufügungen zum Warenkorb“ serialisieren möchten, legen Sie das XDM-Feld `commerce.productListAdds.id` auf den gewünschten Serialisierungswert fest. Wenn Sie das benutzerdefinierte Ereignis 20 serialisieren möchten, legen Sie das XDM-Feld `_experience.analytics.event1to100.event20` auf den gewünschten Serialisierungswert fest.
+Wenn Sie beispielsweise die Metrik &quot;Zusatz zum Warenkorb&quot;serialisieren möchten, legen Sie `xdm.commerce.productListAdds.id` zum gewünschten Serialisierungswert hinzu. Wenn Sie das benutzerdefinierte Ereignis 20 serialisieren möchten, legen Sie `xdm._experience.analytics.event1to100.event20` zum gewünschten Serialisierungswert hinzu.
+
+Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), verwendet die Ereignis-Serialisierung `data.__adobe.analytics.events`, die der AppMeasurement-String-Syntax folgt.
 
 ## Verwenden von Ereignis-IDs mit der Adobe Analytics-Erweiterung
 

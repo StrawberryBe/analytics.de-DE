@@ -4,10 +4,10 @@ description: Füllen Sie die Dimension „Postleitzahl“ manuell, wenn die Repo
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 94%
+source-wordcount: '270'
+ht-degree: 75%
 
 ---
 
@@ -17,11 +17,18 @@ Mit der `zip`-Variablen können Sie die Dimension „Postleitzahl“ manuell fü
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass die [!UICONTROL Postleitzahlenoption] in den Report Suite-Einstellungen auf den gewünschten Wert eingestellt ist. Sie können diese Variable nicht verwenden, wenn immer [!UICONTROL geo-zip] verwendet wird. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+>Stellen Sie sicher, dass die [!UICONTROL Postleitzahlenoption] in den Report Suite-Einstellungen auf den gewünschten Wert eingestellt ist. Diese Variable kann nicht verwendet werden, wenn [!UICONTROL Geo-Zip] wird immer verwendet. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
-## Postleitzahlen, die die Adobe Analytics-Erweiterung verwenden
+## Postleitzahl mit dem Web SDK
 
-Sie können die Postleitzahl entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder mit Regeln festlegen.
+Postleitzahl wird den folgenden Variablen zugeordnet:
+
+* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+
+## Postleitzahl mit der Adobe Analytics-Erweiterung
+
+Sie können die Postleitzahl entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.

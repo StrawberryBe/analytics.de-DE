@@ -4,10 +4,10 @@ description: Legt die Häufigkeit von Treffern fest, wenn ein Gerät wieder onli
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '195'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,11 @@ Offline-Tracking ist eine optionale Methode zur Datenerfassung in Adobe Analytic
 
 Wenn ein Gerät wieder online geht, werden alle auf dem Gerät gespeicherten Treffer an die Adobe-Datenerfassungs-Server gesendet. Eine große Anzahl von Treffern in der Warteschlange kann sich möglicherweise auf die Leistung älterer Geräte auswirken. Verwenden Sie die `offlineThrottleDelay`-Variable, um festzulegen, wie oft Treffer in der Warteschlange an Adobe gesendet werden.
 
-## Offline-Einschränkungsverzögerung mit der Adobe Analytics-Erweiterung
+## Offline-Drosselverzögerung mit dem Web SDK
+
+Das Web SDK unterstützt kein Offline-Tracking.
+
+## Offline-Drosselverzögerung bei Verwendung der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 

@@ -4,10 +4,10 @@ description: Legen Sie die maximale Anzahl von Treffern fest, die zum Offline-Tr
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 88%
+source-wordcount: '175'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,11 @@ Offline-Tracking ist eine optionale Methode zur Datenerfassung in Adobe Analytic
 
 Die `offlineHitLimit` Variable legt eine Obergrenze für die Anzahl der Treffer fest, die das Gerät lokal speichert. Diese Variable funktioniert nur, wenn [`trackOffline`](trackoffline.md) aktiviert ist.
 
-## Offline-Treffergrenze mit der Adobe Analytics-Erweiterung
+## Offline-Trefferbegrenzung mit dem Web SDK
+
+Das Web SDK unterstützt kein Offline-Tracking.
+
+## Offline-Trefferbegrenzung mithilfe der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 

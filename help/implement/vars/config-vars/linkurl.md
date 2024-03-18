@@ -4,10 +4,10 @@ description: Überschreibt die automatisch generierte Link-URL, die AppMeasureme
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 75%
+source-wordcount: '139'
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,10 @@ Sobald ein Linktracking-Aufruf an Adobe gesendet wird, erkennen die Datenerfassu
 
 ## Link-URL mit dem Web SDK
 
-Link-URL ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `web.webInteraction.URL`.
+Die Link-URL ist den folgenden Variablen zugeordnet:
+
+* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` oder `data.__adobe.analytics.pev1`
 
 ## Link-URL mit der Adobe Analytics-Erweiterung
 

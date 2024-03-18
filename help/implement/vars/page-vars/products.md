@@ -4,10 +4,10 @@ description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder si
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 68%
+source-wordcount: '688'
+ht-degree: 64%
 
 ---
 
@@ -21,18 +21,20 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 ## Produkte mit dem Web SDK
 
-Produkte sind [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter mehreren XDM-Feldern:
+Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), werden Produkte den folgenden Variablen zugeordnet:
 
-* Die Kategorie ist zugeordnet zu `productListItems[].productCategories[].categoryID`. Sie verwendet das erste Element im `productCategories[]` Array. `lineItemId` auch korrekt zugeordnet werden, aber wir empfehlen `categoryID` da dies Standard-XDM ist. Wenn beide XDM-Felder vorhanden sind `lineItemId` hat Vorrang.
-* Das Produkt ist `productListItems[].SKU` oder `productListItems[].name`. Wenn beide XDM-Felder vorhanden sind, `productListItems[].SKU` verwendet.
-* Menge wird zugeordnet zu `productListItems[].quantity`.
-* Der Preis wird `productListItems[].priceTotal`.
-* Merchandising-eVars werden zugeordnet zu `productListItems._experience.analytics.customDimensions.eVars.eVar1` nach `productListItems._experience.analytics.customDimensions.eVars.eVar250`, je nachdem, welche eVar Sie an ein Produkt binden möchten.
-* Merchandising-Ereignisse werden zugeordnet zu `productListItems[]._experience.analytics.event1to100.event1.value` nach `productListItems._experience.analytics.event901to1000.event1000.value`, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [event](events/events-overview.md) an Adobe Analytics gesendet.
+* Die Kategorie ist zugeordnet zu `xdm.productListItems[].productCategories[].categoryID`. Sie verwendet das erste Element im `productCategories[]` Array. `lineItemId` auch korrekt zugeordnet werden, aber Adobe empfiehlt `categoryID` da es Standard-XDM ist. Wenn beide XDM-Felder vorhanden sind, `lineItemId` hat Vorrang.
+* Das Produkt ist `xdm.productListItems[].SKU` oder `xdm.productListItems[].name`. Wenn beide XDM-Felder vorhanden sind, `xdm.productListItems[].SKU` verwendet.
+* Menge wird zugeordnet zu `xdm.productListItems[].quantity`.
+* Der Preis wird `xdm.productListItems[].priceTotal`.
+* Merchandising-eVars werden zugeordnet zu `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` nach `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, je nachdem, welche eVar Sie an ein Produkt binden möchten.
+* Merchandising-Ereignisse werden zugeordnet zu `xdm.productListItems[]._experience.analytics.event1to100.event1.value` nach `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [event](events/events-overview.md) an Adobe Analytics gesendet.
 
 >[!NOTE]
 >
 >`lineItemId` muss als benutzerdefiniertes Feld hinzugefügt werden, da es noch nicht Teil des standardmäßigen Analytics-Ereignisschemas ist. Adobe plant, in Zukunft ein spezielles &#39;Kategorie&#39;-Feld hinzuzufügen.
+
+Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md) verwendet die Produktvariable `data.__adobe.analytics.products` nach AppMeasurement-Syntax. Wenn Sie dieses Feld festlegen, werden alle im XDM-Objekt festgelegten Produkte überschrieben und nicht an Adobe Analytics gesendet.
 
 ## Produkte mit der Adobe Analytics-Erweiterung
 

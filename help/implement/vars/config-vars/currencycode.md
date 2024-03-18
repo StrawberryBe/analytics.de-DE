@@ -4,10 +4,10 @@ description: Legt für E-Commerce-Websites die Währung fest, die auf der jeweil
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,10 @@ Ein Punkt **muss** als Währungstrennzeichen für alle Währungen bei der Implem
 
 ## Währungs-Code bei Verwendung des Web SDK
 
-Der Währungs-Code ist [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `commerce.order.currencyCode` zugeordnet.
+Währungscode wird den folgenden Variablen zugeordnet:
+
+* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` oder `data.__adobe.analytics.cc`
 
 ## Währung-Code bei Verwendung der Adobe Analytics-Erweiterung
 

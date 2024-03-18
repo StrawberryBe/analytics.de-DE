@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
 ht-degree: 94%
@@ -141,7 +141,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Aktualisierte Dokumentation zur Flussvisualisierung | Basierend auf der [neuen Benutzeroberfläche](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Dokumentation zum Freigeben von Anmerkungen in mobilen Scorecards | Sie können [Anmerkungen, die in Analysis Workspace erstellt wurden, in mobilen Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md) anzeigen. |
 | **Mai 2022** | |
-| Auffüllen von Lebenszyklusdimensionen und Metriken über das Edge-Netzwerk | Mobile Lebenszyklusdaten, die an das Edge-Netzwerk gesendet werden, werden jetzt in Analytics-Berichten angezeigt. Im Abschnitt zum [Zuordnen von Analytics-Variablen](/help/implement/aep-edge/variable-mapping.md) finden Sie Informationen darüber, welche XDM-Felder den vorhandenen mobilen Lifecycle-Berichten zugeordnet werden können. |
+| Auffüllen von Lebenszyklusdimensionen und Metriken über das Edge-Netzwerk | Mobile Lebenszyklusdaten, die an das Edge-Netzwerk gesendet werden, werden jetzt in Analytics-Berichten angezeigt. Im Abschnitt zum [Zuordnen von Analytics-Variablen](/help/implement/aep-edge/xdm-var-mapping.md) finden Sie Informationen darüber, welche XDM-Felder den vorhandenen mobilen Lifecycle-Berichten zugeordnet werden können. |
 | **April 2022** | |
 | Aktualisierungen der Landingpage von Adobe Analytics | Aktualisierungen der gemeinsamen [Landingpage für Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md), die die Benutzerfreundlichkeit verbessern und die Navigation vereinfachen. |
 | Neues Thema zum Bedienfeld [!UICONTROL Seitenzusammenfassung] | [Bedienfeld „Seitenzusammenfassung“](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

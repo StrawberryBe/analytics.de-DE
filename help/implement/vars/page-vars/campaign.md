@@ -4,10 +4,10 @@ description: Füllen Sie die Dimension „Trackingcode“.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 68%
+source-wordcount: '240'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,10 @@ Diese Variable füllt die Variable [Trackingcode](/help/components/dimensions/tr
 
 ## Kampagne mit dem Web SDK
 
-Kampagne ist [für Adobe Analytics zugeordnet](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=de) unter dem XDM-Feld `marketing.trackingCode`.
+Campaign ist den folgenden Variablen zugeordnet:
+
+* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` oder `data.__adobe.analytics.v0`
 
 ## Campaign mit der Adobe Analytics-Erweiterung
 

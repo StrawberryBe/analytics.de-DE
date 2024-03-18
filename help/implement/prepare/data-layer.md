@@ -4,10 +4,10 @@ description: Erfahren Sie, was eine Datenschicht in Ihrer Analytics-Implementier
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerwe
 
 1. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `adobeDataLayer.page.title`.
 1. **Verwenden der Adobe Experience Platform-Datenerfassung zum Zuordnen von Datenschichtobjekten zu Datenelementen**: Dieser Schritt variiert je nach Implementierungsmethode Ihrer Organisation:
-   * **Bei Verwendung des Web SDK**: Ordnen Sie die gewünschten Datenschichtobjekte den gewünschten XDM-Feldern in Adobe Experience Platform Edge zu. Siehe [Zuordnen von Analytics-Variablen](../aep-edge/variable-mapping.md), um die gewünschte Datenschichtzuordnung zu bestimmen.
+   * **Bei Verwendung des Web SDK**: Ordnen Sie die gewünschten Datenschichtobjekte den gewünschten XDM-Feldern in Adobe Experience Platform Edge zu. Siehe [Analytics-XDM-Variablenzuordnung](../aep-edge/xdm-var-mapping.md) , um die gewünschte Datenschichtzuordnung zu bestimmen.
    * **Bei Verwendung der Analytics-Erweiterung**: Erstellen Sie Datenelemente unter „Tags“ in der Adobe Experience Platform-Datenerfassung und weisen Sie sie den gewünschten Datenschichtobjekten zu. Weisen Sie dann innerhalb der Analytics-Erweiterung jedes Datenelement der entsprechenden Analytics-Variablen zu.
 
 ## Spezifikationen

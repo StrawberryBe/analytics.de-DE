@@ -4,10 +4,10 @@ description: Die Variable „abort“ ist ein boolescher Wert, der verhindert, d
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 44%
+source-wordcount: '329'
+ht-degree: 39%
 
 ---
 
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->Die `abort`-Variable wird nach jedem Tracking-Aufruf auf `false` zurückgesetzt. Wenn Sie nachfolgende Tracking-Aufrufe auf derselben Seite abbrechen müssen, setzen Sie `abort` erneut auf `true`.
+>Die `abort`-Variable wird nach jedem Tracking-Aufruf auf `false` zurückgesetzt. Wenn Sie nachfolgende Tracking-Aufrufe auf derselben Seite abbrechen möchten, legen Sie `abort` nach `true` erneut.
 
-Beispiel: die `abort` kann in der Variablen [`doPlugins()`](../functions/doplugins.md) -Funktion, die zuletzt ausgeführt wird, bevor eine Bildanforderung an Adobe gesendet wird. Dieses Beispiel funktioniert ähnlich wie die `onBeforeEventSend` Callback mit dem Web SDK.
+Die `abort` kann in der Variablen [`doPlugins()`](../functions/doplugins.md) -Funktion, die zuletzt ausgeführt wird, bevor eine Bildanforderung an Adobe gesendet wird. Dieses Beispiel funktioniert ähnlich wie die `onBeforeEventSend` Callback mit dem Web SDK.
 
 ```js
 s.doPlugins = function(s) {
