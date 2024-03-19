@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -28,11 +28,11 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **März 2024** | |
 | AppMeasurement-Update | [Versionshinweise](/help/implement/appmeasurement-updates.md) auf AppMeasurement Update v2.26.0.<br/>Enthält Verweis auf und Aktualisierung von [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) Dokumentation zu Konfigurationsvariablen. |
 | Nutzungsinformationen zur Spalte &quot;Verwendet in&quot;sind erst ab September 2023 verfügbar. | Diese Nutzungsinformationen zu **Verwendet in** in der Spalte [Projekt-Landingpage](/help/analyze/landing.md) reicht bis September 2023 zurück. |
-| **Februar 2024** | |
+| **Februar 2024** | |
 | Aktualisierungen der Informationen zur Verwaltung von Data Warehouse-Anfragen | Es wurde klargestellt, dass Benutzer standardmäßig nur die Anforderungen anzeigen können, die sie erstellen, wenn [Verwalten von Data Warehouse-Anfragen](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
-| Aktualisierungen der Dokumentation zur Projektfreigabe | Es wurden Informationen zum [Anzeigen freigegebener Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Auch optimierte Informationen zu [Freigeben einzelner oder mehrerer Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
-| Es wurden Zugriffsberechtigungen für das Hochladen von Dateien auf Azure SAS und Azure RBAC in Data Warehouse und Daten-Feeds hinzugefügt. | Es wurden genaue Berechtigungsanforderungen für das Hochladen von Dateien auf Azure SAS und Azure RBAC hinzugefügt, wenn [Konfigurieren von Zielen für Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und [beim Konfigurieren von Zielen für Daten-Feeds](/help/export/analytics-data-feed/create-feed.md). |
-| Hinzufügung von Berechtigungsanforderungen zum Hochladen von Dateien in Amazon S3- und GCP-Buckets in Data Warehouse und Daten-Feeds | Es wurden genaue Berechtigungsanforderungen für das Hochladen von Dateien in Amazon S3- und Google Cloud Platform-Buckets hinzugefügt, wenn [Konfigurieren von Zielen für Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und [beim Konfigurieren von Zielen für Daten-Feeds](/help/export/analytics-data-feed/create-feed.md). |
+| Aktualisierungen der Dokumentation zur Projektfreigabe | Es wurden Informationen zum [Anzeigen freigegebener Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you) hinzugefügt.<p>Außerdem wurden die Informationen zum [Freigeben einzelner oder mehrerer Projekte](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role) optimiert.</p> |
+| Es wurden Berechtigungsanforderungen für das Hochladen von Dateien auf Azure SAS und Azure RBAC in Data Warehouse und Daten-Feeds hinzugefügt. | Es wurden genaue Berechtigungsanforderungen für das Hochladen von Dateien auf Azure SAS und Azure RBAC beim [Konfigurieren von Zielen für Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und beim [Konfigurieren von Zielen für Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) hinzugefügt. |
+| Es wurden Berechtigungsanforderungen für das Hochladen von Dateien in Amazon S3- und GCP-Buckets in Data Warehouse und Daten-Feeds hinzugefügt. | Es wurden genaue Berechtigungsanforderungen für das Hochladen von Dateien in Amazon S3- und Google Cloud Platform-Buckets beim [Konfigurieren von Zielen für Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und beim [Konfigurieren von Zielen für Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) hinzugefügt. |
 | **Januar 2024** | |
 | Die Komponentenmigration gilt für einzelne IMS-Organisationen | Es wurde klargestellt, dass die [Komponentenmigration](/help/admin/admin/component-migration/component-migration.md) keine IMS-Organisationsmigration unterstützt. |
 | Es wurde klargestellt, dass bestimmte Informationen nur für Admins verfügbar sind | Es wurden Informationen hinzugefügt, aus denen hervorgeht, dass die Spalten „Zuletzt verwendet“ und „Verwendet in“, die in [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) und [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) beschrieben sind, nur für Systemadmins verfügbar sind. |

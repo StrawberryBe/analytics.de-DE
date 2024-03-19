@@ -6,7 +6,7 @@ feature: Implementation Basics
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Clickstream-Feed:** Siehe „Daten-Feed“.
 * **Kohorte:** eine Gruppe von Personen, die über einen bestimmten Zeitraum gemeinsame Merkmale aufweisen. Siehe [Was ist eine Kohortenanalyse?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) im Benutzerhandbuch zu Analysen.
 * **Erfassungs-Server:** Siehe „Datenerfassungs-Server“.
-* **Komponente:** Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag &amp; Drop in ein Projekt ziehen können. Siehe [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) im Benutzerhandbuch zu Analysen.
+* **Komponente:** Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag-and-Drop in einem Projekt platzieren können. Siehe [Komponentenüberblick](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) im Benutzerhandbuch zu Analysen.
 * **Kontextdatenvariablen:** temporäre Variablen, die ausschließlich in Verarbeitungsregeln verwendet werden. Die Werte der Kontextdatenvariablen gehen dauerhaft verloren, wenn eine Verarbeitungsregel sie nicht in eine Konversions- oder Traffic-Variable kopiert. Siehe [Kontextdatenvariablen](../implement/vars/page-vars/contextdata.md) im Benutzerhandbuch zu Implementierungen.
 * **Konversionsvariable:** Auch als „eVars“ bezeichnet. Speichert einen benutzerspezifischen Wert und behält den Variablenwert bei, bis er abläuft. Weitere Informationen finden Sie unter der Dimension [eVar](/help/components/dimensions/evar.md) im Komponenten-Benutzerhandbuch.
 * **Korrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen aufgeschlüsselt. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.
@@ -74,7 +74,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Anmeldeunternehmen:** eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind.
 * **Marketing-Kanal:** eine Funktion in Adobe Analytics, die Treffer nach der Ankunft auf Ihrer Site kategorisiert. Die zur Kategorisierung von Treffern verwendete Logik kann mithilfe von Marketing-Kanal-Verarbeitungsregeln angepasst werden. Siehe [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
 * **Metrik:** ein Komponententyp, der quantitative Daten enthält. Metrikwerte enthalten in der Regel Zahlen wie Seitenansichten, Besuche und Umsatz. Eine Dimension bildet normalerweise ihr Gegenstück.
-* **Mobile Services:** Ein eingestelltes Adobe-Produkt, das mobile Marketingfunktionen für Apps aus der ganzen Adobe Experience Cloud zusammenführte, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Apps erhalten und gegebenenfalls Verbesserungen vornehmen können.
+* **Mobile Services:** Ein eingestelltes Adobe-Produkt, das Mobile-Marketing-Funktionen für Mobile Apps aus Adobe Experience Cloud zusammengeführte, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Mobile Apps erhalten und Verbesserungen vornehmen konnten.
 * **Multi-Suite-Tagging:** die Vorgehensweise, denselben Treffer an mehrere Report Suites zu senden. Mit der Einführung in Virtual Report Suites ist diese Vorgehensweise weitgehend nicht mehr erforderlich. Die meisten Multi-Suite-Tagging-Bemühungen unterstützen eine globale Report Suite.
 * **Normalisierung:** eine Möglichkeit, eine Visualisierung zu organisieren, bei der alle Metriken in gleiche Proportionen umgewandelt werden, sodass Trends leichter verglichen werden können.
 * **Vorfälle:** ein Metriktyp, der anzeigt, in wie vielen Treffern ein Dimensionselement festgelegt oder beibehalten wurde. Weitere Informationen finden Sie unter der Metrik [Vorfälle](/help/components/metrics/occurrences.md) im Komponenten-Benutzerhandbuch.
@@ -91,7 +91,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) im Administratorhandbuch.
 * **Report Builder:** Ein Add-in für Microsoft Excel, mit dem Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen können.
 * **Report Suite:** ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
-* **Reports &amp; Analytics:** Zuvor als „SiteCatalyst“ bezeichnet. Browserlösung zur Berichterstellung und Analyse. Starter-Tool im Analytics-Paket. Dieses Tool wurde [Ende des Lebenszyklus](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
+* **Reports &amp; Analytics:** Zuvor als „SiteCatalyst“ bezeichnet. Browser-Lösung für Reporting und Analyse. Starter-Tool im Analytics-Paket. Dieses Tool wurde [eingestellt](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Rollierender Datumsbereich:** ein Typ des relativen Datumsbereichs, der sich im Zeitverlauf ändert. Ein Bericht mit den letzten sieben Tagen kann beispielsweise als rollierender Datumsbereich betrachtet werden. Siehe auch „Statischer Datumsbereich“.
 * **RSID:** Abkürzung für Report Suite-ID. Eine Report Suite verfügt sowohl über einen benutzerfreundlichen Namen als auch über eine Report Suite-ID.
 * **s.t():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.track()`. Siehe [t](../implement/vars/functions/t-method.md) im Benutzerhandbuch zu Implementierungen.

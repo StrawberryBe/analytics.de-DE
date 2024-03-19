@@ -6,8 +6,8 @@ feature: Implementation Basics
 role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe bietet drei Hauptmethoden zum Senden von Daten an das Edge-Netzwerk:
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Verwenden Sie die Web SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, um Daten an Edge zu senden.
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Verwenden Sie die Mobile SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, um Daten an Edge zu senden.
-* **[Adobe Experience Platform Edge Network Server-API](server-api/overview.md)**: Senden Sie Daten mit einer API direkt an Edge.
+* **[Adobe Experience Platform Edge Network Server-API](server-api/overview.md)**: Senden Sie Daten mithilfe einer API direkt an Edge.
 
 
 
@@ -33,12 +33,12 @@ An das Adobe Experience Platform Edge Network gesendete Daten können zwei Forma
 
 Das Edge-Netzwerk verwendet die folgende Logik, um die Seitenansichten und Verknüpfungsereignisse in Adobe Analytics zu bestimmen
 
-| XDM-Payload enthält ... | Adobe Analytics... |
+| XDM-Payload enthält … | Adobe Analytics … |
 |---|---|
-| `web.webPageDetails.name` oder `web.webPageDetails.URL` und `web.webInteraction.type` | berücksichtigt Nutzdaten einer **Seitenansicht** |
-| `web.webInteraction.type` und (`web.webInteraction.name` oder `web.webInteraction.url`) | berücksichtigt Nutzdaten einer **Linkereignis** |
-| `web.webInteraction.type` und (`web.webPageDetails.name` oder `web.webPageDetails.url`) | berücksichtigt Nutzdaten einer **Linkereignis** <br/>`web.webPageDetails.name` und `web.webPageDetails.URL` auf `null` |
-| no `web.webInteraction.type` und `webPageDetails.name` und `web.webPageDetails.URL`) | die Payload entfernt und die Daten ignoriert |
+| `web.webPageDetails.name` oder `web.webPageDetails.URL` und nicht `web.webInteraction.type` | betrachtet Payload als eine **Seitenansicht** |
+| `web.webInteraction.type` und (`web.webInteraction.name` oder `web.webInteraction.url`) | betrachtet Payload als ein **Link-Ereignis** |
+| `web.webInteraction.type` und (`web.webPageDetails.name` oder `web.webPageDetails.url`) | betrachtet Payload als ein **Link-Ereignis** <br/>`web.webPageDetails.name` und `web.webPageDetails.URL` sind auf `null` gesetzt |
+| kein `web.webInteraction.type` und (kein `webPageDetails.name` und kein `web.webPageDetails.URL`) | entfernt die Payload und ignoriert die Daten |
 
 {style="table-layout:auto"}
 
