@@ -5,7 +5,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Activity Map Browser-Plugins:
 1. Kehren Sie zur Adressleiste von Chrome zurück und geben Sie `chrome://extensions` ein.
 1. Aktivieren Sie das Kontrollkästchen für den Entwicklermodus.
 1. Klicken Sie auf die Schaltfläche zum Herunterladen der extrahierten Erweiterungen und wählen Sie den extrahierten Ordner aus dem Popup aus.
-1. Wenn das Adobe Analytics-Symbol  in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md).
+1. Wenn das Adobe Analytics-Symbol in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md).
 
 ## Activity Map-Plugin für Firefox installieren {#firefox}
 
@@ -43,7 +43,7 @@ Activity Map Browser-Plugins:
 1. Klicken Sie auf **[!UICONTROL Activity Map-Plugin installieren]**.
 1. Klicken Sie auf **[!UICONTROL Zulassen]**, wenn diese Meldung angezeigt wird: ![](assets/firefox_install2.png)
 1. Klicken Sie auf **[!UICONTROL Jetzt installieren]**.
-1. Klicken Sie auf das Symbol **[!UICONTROL Menü öffnen]** oben rechts und wählen Sie **[!UICONTROL Add-ons]** aus. ![](assets/firefox_install3.png){width="250px"}
+1. Klicken Sie auf das Symbol **[!UICONTROL Menü öffnen]** oben rechts und wählen Sie **[!UICONTROL Add-ons]** aus.![](assets/firefox_install3.png){width="250px"}
 1. Activity Map sollte als eines der Firefox-Add-ons aufgeführt werden.
-1. Wenn das Adobe Analytics-Symbol  in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md).
+1. Wenn das Adobe Analytics-Symbol in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md).
 

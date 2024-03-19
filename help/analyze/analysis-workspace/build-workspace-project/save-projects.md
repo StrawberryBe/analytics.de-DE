@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
-workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '724'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Projekte in Analysis Workspace werden automatisch alle zwei Minuten gespeichert.
 
 Sie können Projekte auch manuell speichern. Beim manuellen Speichern eines Projekts stehen zusätzliche Optionen wie das Hinzufügen von Tags oder Notizen zur Verfügung.
 
-## Projekte manuell speichern {#Save}
+## Manuelles Speichern von Projekten {#Save}
 
 Beim manuellen Speichern eines Projekts in Analysis Workspace stehen verschiedene Optionen zur Verfügung.
 
@@ -30,7 +30,7 @@ Gehen Sie folgendermaßen vor, um ein Projekt manuell zu speichern:
    | **[!UICONTROL Speichern]** | Speichern Sie die Änderungen an Ihrem Projekt. Wenn das Projekt freigegeben ist, sehen auch die Empfänger des Projekts die Änderungen. Wenn Sie das Projekt zum ersten Mal speichern, werden Sie aufgefordert, dem Projekt einen Namen, eine (optionale) Beschreibung und (optionale) Tags hinzuzufügen. |
    | **[!UICONTROL Mit Hinweisen speichern]** | Bevor Sie das Projekt speichern, fügen Sie Notizen zu den Änderungen im Projekt hinzu. Notizen werden mit der Projektversion gespeichert und stehen allen Editoren unter [!UICONTROL Projekt] > [!UICONTROL Frühere Version öffnen] zur Verfügung. |
    | **[!UICONTROL Speichern unter]** | Erstellen Sie ein Duplikat Ihres Projekts. Das ursprüngliche Projekt bleibt davon unberührt. |
-   | **[!UICONTROL Als Unternehmensbericht speichern]** | Speichern Sie Ihr Projekt als [Unternehmensbericht](/help/analyze/analysis-workspace/reports/create-company-reports.md) wird für Ihre Organisation unter **[!UICONTROL Projekt > Neu]** |
+   | **[!UICONTROL Speichern als Unternehmensbericht]** | Speichern Sie Ihr Projekt als [Unternehmensbericht](/help/analyze/analysis-workspace/reports/create-company-reports.md), der für Ihr Unternehmen unter **[!UICONTROL Projekt > Neu]** zur Verfügung steht. |
 
 ## Automatisches Speichern {#Autosave}
 

@@ -1,80 +1,80 @@
 ---
-description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
-title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
+description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anfrage erstellen.
+title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2441'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-# Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
+# Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 
 Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Im Folgenden wird beschrieben, wie Sie ein Berichtsziel für die Anfrage konfigurieren.
 
-Informationen zum Erstellen einer Anforderung sowie Links zu anderen wichtigen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Informationen zum Erstellen einer Anfrage sowie Links zu anderen wichtigen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 >[!NOTE]
 >
->Beachten Sie beim Konfigurieren eines Berichtsziels Folgendes:
+>Beachten Sie bei der Konfiguration eines Berichtsziels Folgendes:
 >
->* Es wird empfohlen, ein Cloud-Konto oder eine E-Mail für Ihr Berichtsziel zu verwenden. Ältere FTP- und SFTP-Konten sind verfügbar, werden jedoch nicht empfohlen.
+>* Es wird empfohlen, ein Cloud-Konto oder eine E-Mail-Adresse für Ihr Berichtsziel zu verwenden. Alte FTP- und SFTP-Konten sind verfügbar, werden jedoch nicht empfohlen.
 >
->* Alle Cloud-Konten, für die Sie zuvor konfiguriert haben [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Importieren von Adobe Analytics-Classification-Daten](/help/components/locations/locations-manager.md) sind für Data Warehouse verfügbar. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Classification-Daten konfiguriert sind.
+>* Alle Cloud-Konten, die Sie zuvor für [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder zum [Importieren von Adobe Analytics-Klassifizierungsdaten](/help/components/locations/locations-manager.md) konfiguriert haben, sind für die Verwendung für Data Warehouse verfügbar. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind.
 >
->* Cloud-Konten sind Ihrem Adobe Analytics-Benutzerkonto zugeordnet. Andere Benutzer können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
+>* Cloud-Konten sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Andere Benutzende können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
 >
 
-So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
+Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
-1. Erstellen einer Anforderung in Adobe Analytics durch Auswahl von **[!UICONTROL Instrumente]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
+1. Erstellen Sie eine Anfrage in Adobe Analytics durch Auswahl von **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
 
    Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Wählen Sie auf der Seite Neue Data Warehouse-Anforderung die [!UICONTROL **Berichtsziel**] Registerkarte.
+1. Wählen Sie auf der Seite „Neue Data Warehouse-Anfrage“ die Registerkarte [!UICONTROL **Berichtsziel**] aus.
 
-   ![Berichtsziel-Tab](assets/dw-report-destination.png)
+   ![Registerkarte „Berichtsziel“](assets/dw-report-destination.png)
 
-1. (Bedingt) Wenn ein Konto (und ein Ziel auf diesem Konto) bereits konfiguriert wurde und Sie es als Berichtsziel verwenden möchten:
+1. (Bedingt) Wenn ein Konto (und ein Ziel in diesem Konto) bereits konfiguriert wurde und Sie es als Berichtsziel verwenden möchten:
 
-   1. (Optional) Wenn Sie Systemadministrator sind, wird die [!UICONTROL **Alle Ziele anzeigen**] verfügbar ist. Aktivieren Sie diese Option, wenn Sie Zugriff auf alle Konten und Standorte haben möchten, die von einem Benutzer in der Organisation erstellt wurden.
+   1. (Optional) Wenn Sie Systemadmin sind, ist die Option [!UICONTROL **Alle Ziele anzeigen**] verfügbar. Aktivieren Sie diese Option, um Zugriff auf alle Konten und Speicherorte zu erhalten, die von Benutzenden in der Organisation erstellt wurden.
 
-   1. Wählen Sie das Konto aus der [!UICONTROL **Konto auswählen**] Dropdown-Menü.
+   1. Wählen Sie das Konto aus dem Dropdown-Menü [!UICONTROL **Konto auswählen**] aus.
 
-      Alle Cloud-Konten, für die Sie konfiguriert haben [Importieren von Adobe Analytics-Classification-Daten](/help/components/locations/locations-manager.md) von einem Cloud-Ziel aus angezeigt werden und verwendet werden können. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Classification-Daten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
+      Alle Cloud-Konten, die Sie zum [Importieren von Adobe Analytics-Klassifizierungsdaten](/help/components/locations/locations-manager.md) von einem Cloud-Ziel konfiguriert haben, werden hier angezeigt und können verwendet werden. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
 
-   1. Wählen Sie das mit dem Konto verknüpfte Ziel aus dem [!UICONTROL **Ziel auswählen**] Dropdown-Menü. <!-- Is this correct? -->
+   1. Wählen Sie das mit dem Konto verknüpfte Ziel aus dem Dropdown-Menü [!UICONTROL **Ziel auswählen**] aus. <!-- Is this correct? -->
 
 1. (Bedingt) Wenn Sie noch kein Konto konfiguriert haben:
 
-   1. Auswählen [!UICONTROL **Konto hinzufügen**] und geben Sie dann die folgenden Informationen an:
+   1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Positionen innerhalb dieses Kontos zu haben. <p>Nach Auswahl eines Kontotyps werden die für diesen Kontotyp spezifischen Felder angezeigt. </p> |
-      | [!UICONTROL **Kontoname**] | Geben Sie einen Namen für das Konto an. Dieser Name wird beim Erstellen eines Standorts angezeigt. <!-- true? --> |
+      | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Speicherorten nach Bedarf innerhalb dieses Kontos zu führen. <p>Nach Auswahl eines Kontotyps werden die für diesen Kontotyp spezifischen Felder angezeigt. </p> |
+      | [!UICONTROL **Kontoname**] | Geben Sie einen Namen für das Konto an. Dieser Name wird beim Erstellen eines Speicherorts angezeigt. <!-- true? --> |
       | [!UICONTROL **Kontobeschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
 
-      Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem [!UICONTROL **Kontotyp**] die Sie ausgewählt haben.
+      Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem ausgewählten [!UICONTROL **Kontotyp**] entspricht.
 
-      Verwenden Sie einen der folgenden Kontotypen beim Konfigurieren eines Berichtsziels. Erweitern Sie für Konfigurationsanweisungen den Kontotyp. (zusätzlich [Legacy-Ziele](#legacy-destinations) sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
+      Verwenden Sie beim Konfigurieren eines Berichtsziels einen der folgenden Kontotypen. Erweitern Sie den Kontotyp, um Konfigurationsanweisungen anzuzeigen. (Zusätzliche [alte Ziele](#legacy-destinations) sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
 
-      ++ + Amazon S3
+      +++Amazon S3
 
-      Geben Sie die folgenden Informationen an, um ein Amazon S3 Role ARN-Konto zu konfigurieren:
+      Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Rolle ARN**] | Sie müssen einen Role ARN (Amazon Resource Name) bereitstellen, den Adobe verwenden kann, um Zugriff auf das Amazon S3-Konto zu erhalten. Dazu erstellen Sie eine IAM-Berechtigungsrichtlinie für das Quellkonto, hängen die Richtlinie an einen Benutzer an und erstellen dann eine Rolle für das Zielkonto. Weitere Informationen finden Sie unter [Diese AWS-Dokumentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Informationen zum Einrichten der Zugriffsberechtigung für den Behälter finden Sie im Artikel [Wie kann ich kontoübergreifenden Zugriff auf Objekte in Amazon S3-Buckets gewähren?](https://repost.aws/knowledge-center/cross-account-access-s3) im Wissenszentrum der Amazon. |
-      | [!UICONTROL **Benutzer-ARN**] | Die Benutzer-ARN (Amazon Resource Name) wird von Adobe bereitgestellt. Sie müssen diesen Benutzer an die von Ihnen erstellte Richtlinie anhängen. |
+      | [!UICONTROL **Rollen-ARN**] | Sie müssen einen Rollen-ARN (Amazon Resource Name) bereitstellen, den Adobe verwenden kann, um Zugriff auf das Amazon S3-Konto zu erhalten. Erstellen Sie hierfür eine IAM-Berechtigungsrichtlinie für das Quellkonto, hängen Sie die Richtlinie an eine Benutzerin oder einen Benutzer an und erstellen Sie dann eine Rolle für das Zielkonto. Spezifische Informationen finden Sie in [dieser AWS-Dokumentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Informationen zum Einrichten der Berechtigung für den Bucket finden Sie im Artikel [Wie kann ich kontoübergreifenden Zugriff auf Objekte in Amazon S3-Buckets gewähren?](https://repost.aws/knowledge-center/cross-account-access-s3) im Amazon-Wissenszentrum |
+      | [!UICONTROL **Benutzer-ARN**] | Der Benutzer-ARN (Amazon Resource Name) wird von Adobe bereitgestellt. Sie müssen diese Benutzerin oder diesen Benutzer an die von Ihnen erstellte Richtlinie anhängen. |
 
       {style="table-layout:auto"}
 
 +++
 
-      ++ + Google Cloud Platform
+      +++Google Cloud Platform
 
       Geben Sie die folgenden Informationen an, um ein Google Cloud Platform-Konto zu konfigurieren:
 
@@ -86,17 +86,17 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
 +++
 
-      +++ Azure SAS
+      +++Azure SAS
 
       Geben Sie die folgenden Informationen an, um ein Azure SAS-Konto zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Bewerbungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Key Vault URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Schlüssel-Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.</li><li>Stellen Sie sicher, dass die Anwendungs-ID zugewiesen wurde. `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des SchlüsselVault.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-      | [!UICONTROL **Schlüsselname für geheime Schlüssel**] | Der geheime Name, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault im **Key Vault** Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-      | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Zertifikate &amp; Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure finden Sie diese Informationen auf der Registerkarte **Überblick** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.</li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+      | [!UICONTROL **Key Vault-Geheimnisname**] | Der Geheimnisname, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault auf den **Key Vault**-Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+      | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
 
       {style="table-layout:auto"}
 
@@ -108,62 +108,67 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Bewerbungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen im **Zertifikate &amp; Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft-Identitätsplattform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Überblick** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Überblick** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
 
       {style="table-layout:auto"}
 
 +++
 
-      ++ + E-Mail
+      +++E-Mail
 
       Geben Sie die folgenden Informationen an, um ein E-Mail-Konto zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Empfänger**] | E-Mail-Benachrichtigungen können beim Versand des Berichts an bestimmte Benutzer gesendet werden. Geben Sie eine einzelne E-Mail-Adresse oder eine kommagetrennte Liste mit E-Mail-Adressen an. <!-- How does this differ from the Notification email tab? --> |
+      | [!UICONTROL **Empfangende**] | Es können E-Mail-Benachrichtigungen an bestimmte Benutzende gesendet werden, wenn der Bericht gesendet wird. Geben Sie eine einzelne E-Mail-Adresse oder eine durch Kommata getrennte Liste von E-Mail-Adressen an. <!-- How does this differ from the Notification email tab? --> |
 
-   1. Auswählen [!UICONTROL **Ort hinzufügen**] und geben Sie dann die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name**] | Der Name des Standorts.  | | [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, das Sie in [Konto hinzufügen](#add-an-account). |
+   1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
+|Feld | Funktion |
+|---------|----------|
+| [!UICONTROL **Name**] | Der Name des Speicherorts.  |
+| [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
+| [!UICONTROL **Speicherortkonto**] | Wählen Sie das Speicherortkonto aus, das Sie in [Konto hinzufügen](#add-an-account) erstellt haben. |
 
-   1. Im [!UICONTROL **Standorteigenschaften**] Informationen zum Kontotyp Ihres Standortkontos angeben.
+   1. Geben Sie im Abschnitt [!UICONTROL **Speicherorteigenschaften**] spezifische Informationen zum Kontotyp Ihres Speicherortkontos an.
 
-      Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem [!UICONTROL **Kontotyp**] die Sie zuvor ausgewählt haben.
+      Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem [!UICONTROL **Kontotyp**] entspricht, den Sie zuvor ausgewählt haben.
 
-      ++ + Amazon S3
+      +++Amazon S3
 
       Geben Sie die folgenden Informationen an, um einen Amazon S3-Speicherort zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Behältername**] | Der Behälter in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject` -Berechtigung, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, anfängliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p> |
-      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: folder_name/ |
+      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p> |
+      | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
       {style="table-layout:auto"}
 
 +++
 
-      ++ + Google Cloud Platform
+      +++Google Cloud Platform
 
       Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speicherort zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Behältername**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben:<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit terminierten Berichten verwenden, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal keinen Zugriff auf das Überschreiben vorhandener Dateien hat.</li><li>`roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn Sie möchten, dass der Prinzipal Zugriff auf Dateien in Ihrem GCP-Konto hat, die Sie auflisten, aktualisieren und löschen können.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien für nachfolgende Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Informationen zum Gewähren von Berechtigungen finden Sie unter [Einen Prinzipal zu einer Richtlinie auf Behälterebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in der Dokumentation zu Google Cloud.</p> |
-      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Behälter, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: folder_name/ |
+      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben:<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>`roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn der Prinzipal berechtigt sein soll, Dateien in Ihrem GCP-Konto anzuzeigen, aufzulisten, zu aktualisieren und zu löschen.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Informationen zum Gewähren von Berechtigungen finden Sie in der Google Cloud-Dokumentation unter [Hauptkonto zu einer Richtlinie auf Bucket-Ebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add).</p> |
+      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
       {style="table-layout:auto"}
 
 +++
 
-      +++ Azure SAS
+      +++Azure SAS
 
       Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Container name**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
-      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-Token-Store, den Sie bei der Konfiguration des Azure SAS-Kontos im Feld Key Vault Secret Name angegeben haben, über die `Write` -Berechtigung. Dadurch kann das SAS-Token Dateien in Ihrem Azure-Container erstellen. <p>Wenn Sie möchten, dass das SAS-Token auch Dateien überschreibt, stellen Sie sicher, dass der SAS-Token-Store über die `Delete` -Berechtigung.</p><p>Weitere Informationen finden Sie unter [Blob-Speicherressourcen](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in der Azure Blob Storage-Dokumentation.</p> |
+      | [!UICONTROL **Container-Name**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
+      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-Token-Speicher, den Sie bei der Konfiguration des Azure SAS-Kontos im Feld „Key Vault-Geheimnisname“ angegeben haben, über die `Write`-Berechtigung verfügt. Dadurch kann das SAS-Token Dateien in Ihrem Azure-Container erstellen. <p>Wenn Sie möchten, dass das SAS-Token auch Dateien überschreibt, stellen Sie sicher, dass der SAS-Token-Speicher die `Delete`-Berechtigung besitzt.</p><p>Weitere Informationen finden Sie in der Azure Blob Storage-Dokumentation unter [Blob Storage-Ressourcen](https://learn.microsoft.com/de-de/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources).</p> |
 
       {style="table-layout:auto"}
 
@@ -175,8 +180,8 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Container name**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie Berechtigungen zum Hochladen von Dateien in die Azure-Anwendung erteilen, die Sie zuvor erstellt haben. |
-      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Container, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass die Anwendungs-ID, die Sie beim Konfigurieren des Azure RBAC-Kontos angegeben haben, mit der Variablen `Storage Blob Data Contributor` Rolle für den Zugriff auf den Container (Ordner).</p> <p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
+      | [!UICONTROL **Container-Name**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie Berechtigungen zum Hochladen von Dateien in die Azure-Anwendung erteilen, die Sie zuvor erstellt haben. |
+      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass die Anwendungs-ID, die Sie beim Konfigurieren des Azure RBAC-Kontos angegeben haben, der Rolle `Storage Blob Data Contributor` zugeteilt wurde, damit der Zugriff auf den Container (Ordner) möglich ist.</p> <p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p> |
       | [!UICONTROL **Kontoname**] | Das Azure-Speicherkonto. |
 
       {style="table-layout:auto"}
@@ -187,7 +192,7 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 
       Sie können jetzt Daten in das Konto und den Speicherort importieren, die Sie konfiguriert haben.
 
-1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der [!UICONTROL **Berichtsoptionen**] Registerkarte. Weitere Informationen finden Sie unter [Berichtsoptionen für eine Data Warehouse-Anforderung konfigurieren](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der Registerkarte [!UICONTROL **Berichtsoptionen**] fort. Weitere Informationen finden Sie unter [Konfigurieren von Berichtsoptionen für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
 ## Veraltete Ziele
 
@@ -195,11 +200,11 @@ So konfigurieren Sie das Ziel, an das Data Warehouse-Berichte gesendet werden:
 >
 >Die in diesem Abschnitt beschriebenen Ziele sind veraltet und werden nicht empfohlen. Verwenden Sie stattdessen eines der folgenden Ziele beim Erstellen eines Data Warehouse-Ziels: Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS oder E-Mail. Weitere Informationen zu den einzelnen empfohlenen Zielen finden Sie in den Informationen oben.
 
-Die folgenden Informationen enthalten Konfigurationsinformationen für die einzelnen alten Ziele:
+Die folgenden Informationen enthalten Konfigurationsinformationen für die einzelnen veralteten Ziele:
 
 ### FTP
 
-Data Warehouse-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
+Data Warehouse-Daten können für einen von Adobe oder auf Kundenseite gehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
 
 Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informationen:
 
@@ -209,21 +214,21 @@ Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informatione
 
 * [!UICONTROL **Kontobeschreibung**]: Eine Beschreibung des FTP-Kontos.
 
-* [!UICONTROL **Hostname**]: Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.company.com`.
+* [!UICONTROL **Host-Name**]: Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.company.com`.
 
   >[!NOTE]
   >
-  >  Nicht einschließen `ftp://` am Anfang der URL.
+  >  Schließen Sie `ftp://` am Anfang der URL nicht mit ein.
 
 * [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der FTP-Site anzumelden.
 
 * [!UICONTROL **Kennwort und Kennwort bestätigen**]: Geben Sie das Kennwort ein, um sich bei der FTP-Site anzumelden.
 
-#### Standortfelder
+#### Speicherortfelder
 
-* [!UICONTROL **Ortsname**]: Der Name des Speicherorts im FTP-Konto, an den Dateien gesendet werden sollen.
+* [!UICONTROL **Speicherortname**]: Der Name des Speicherorts im FTP-Konto, an den Dateien gesendet werden sollen.
 
-* [!UICONTROL **Standortbeschreibung**]: Eine Beschreibung des Speicherorts im FTP-Konto.
+* [!UICONTROL **Speicherortbeschreibung**]: Eine Beschreibung des Speicherorts im FTP-Konto.
 
 * [!UICONTROL **Verzeichnispfad**]: Der Pfad zum Speicherort im FTP-Konto.
 
@@ -239,23 +244,23 @@ Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informatione
 
 * [!UICONTROL **Kontobeschreibung**]: Eine Beschreibung des FTP-Kontos.
 
-* [!UICONTROL **Hostname**]: Geben Sie die gewünschte SFTP-Ziel-URL ein. Zum Beispiel `sftp.company.com`.
+* [!UICONTROL **Host-Name**]: Geben Sie die gewünschte SFTP-Ziel-URL ein. Zum Beispiel `sftp.company.com`.
 
   >[!NOTE]
   >
-  >  Nicht einschließen `sftp://` am Anfang der URL.
+  >  Schließen Sie `sftp://` am Anfang der URL nicht mit ein.
 
 * [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der SFTP-Site anzumelden.
 
-* [!UICONTROL **Verwenden temporärer Dateierweiterungen beim Hochladen**]: Wenn aktiviert, wird die `.part` Dateierweiterung wird während des Upload-Prozesses verwendet. Lassen Sie diese Option aktiviert, es sei denn, Ihr SFTP-Server verhindert, dass Dateinamen nach Abschluss des Uploads geändert werden.
+* [!UICONTROL **Beim Hochladen temporäre Dateierweiterung verwenden**]: Wenn diese Option aktiviert ist, wird die Dateierweiterung `.part` während des Upload-Prozesses verwendet. Lassen Sie diese Option aktiviert, sofern der SFTP-Server die Änderung von Dateinamen nach Abschluss des Uploads zulässt.
 
 * [!UICONTROL **Öffentliche Schlüssel**]: Laden Sie den entsprechenden öffentlichen Schlüssel herunter, wenn Sie das Data Warehouse-Ziel erstellen.
 
-#### Standortfelder
+#### Speicherortfelder
 
-* [!UICONTROL **Ortsname**]: Der Name des Speicherorts im SFTP-Konto, an den Dateien gesendet werden sollen.
+* [!UICONTROL **Speicherortname**]: Der Name des Speicherorts im SFTP-Konto, an den Dateien gesendet werden sollen.
 
-* [!UICONTROL **Standortbeschreibung**]: Eine Beschreibung des Speicherorts im SFTP-Konto.
+* [!UICONTROL **Speicherortbeschreibung**]: Eine Beschreibung des Speicherorts im SFTP-Konto.
 
 * [!UICONTROL **Verzeichnispfad**]: Der Pfad zum Speicherort im SFTP-Konto.
 
@@ -263,9 +268,9 @@ Weitere Informationen zur SFTP-Konfiguration finden Sie unter [Senden von Data W
 
 ### S3
 
-Sie können Warehouse-Daten direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
+Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumentation.
 
-Der Benutzer, den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über Folgendes verfügen: [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
 * s3:GetObject
 * s3:PutObject

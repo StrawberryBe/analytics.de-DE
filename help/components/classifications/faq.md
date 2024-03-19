@@ -4,9 +4,9 @@ description: Häufig gestellte Fragen zur Verwendung von Klassifizierungen
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Klassifizierungsdateien, die mit einem Schlüsselwert oder einem Klassifizierung
 
 * **Verarbeitungsregeln verwenden**: Sie können Dimensionselemente zwischen der Datenerfassung und ihrer Datenspeicherung in einer Report Suite ändern. Erstellen Sie die folgende Verarbeitungsregel:
 
-   *Wenn die [Dimension] gleich `0` ist, überschreiben Sie den Wert der [Dimension] mit dem benutzerdefinierten Wert `Zero`.*
+  *Wenn die [Dimension] gleich `0` ist, überschreiben Sie den Wert der [Dimension] mit dem benutzerdefinierten Wert `Zero`.*
 
-* **Eine VISTA-Regel anfordern**: Ein Engineering Services-Berater richtet gegen Aufpreis eine Server-seitige Regel für Sie ein. Wenden Sie sich an Ihr Adobe Account Team, um eine VISTA-Regel anzufordern.
+* **Eine VISTA-Regel anfordern**: Ein Engineering Services-Berater richtet gegen Aufpreis eine Server-seitige Regel für Sie ein. Wenden Sie sich an Ihr Adobe-Acountteam, um eine VISTA-Regel anzufordern.
 
 ## Kann ich mit Classification Importer Dimensionselemente klassifizieren, die noch nicht vorhanden sind?
 

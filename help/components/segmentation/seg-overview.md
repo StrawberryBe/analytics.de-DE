@@ -4,25 +4,25 @@ title: Informationen zu Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Informationen zu Segmenten
 
-Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als Einblicke in Zielgruppen konzipiert, die Sie für Ihre spezifischen Anforderungen erstellen und dann überprüfen, bearbeiten und mit anderen Teammitgliedern teilen oder in anderen Adobe- und Analytics-Funktionen verwenden können.
+Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als Zielgruppenerkenntnisse ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
 
-Segmente basieren auf einer [!UICONTROL Besucher], [!UICONTROL Besuch], und [!UICONTROL Treffer] Hierarchie der Ebene mit einem verschachtelten Behältermodell. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
+Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Treffer]-Ebenenhierachie, wobei ein verschachteltes Container-Modell verwendet wird. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
-Sie können Segmente im Segmentaufbau erstellen und speichern oder aus einem Fallout-Bericht (in [!UICONTROL Analysis Workspace]). Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Sie können Segmente in Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in [!UICONTROL  Analysis Workspace]) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
 
-Identifizierung von Segmenten
+Segmente identifizieren
 
-- wer Ihre Besucher sind (Land, Geschlecht, Café),
+- wer Ihre Besuchenden sind (Land, Geschlecht, Café),
 - welche Geräte und Dienste sie verwenden (Browser, Suchmaschine, Mobilgerät),
-- von dem aus sie navigiert sind (Suchmaschine, vorherige Ausstiegsseite, natürliche Suche),
+- von wo aus sie kamen (Suchmaschine, vorherige Ausstiegsseite, natürliche Suche)
 - und vieles mehr.
 
 <!--![](assets/seg.png)-->
@@ -51,11 +51,11 @@ Beim Erstellen von Zielgruppensegmenten in Segment Builder definieren Sie Beding
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">AND</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">UND</td></td>
 </tr>
 
 <tr>
@@ -66,7 +66,7 @@ Beim Erstellen von Zielgruppensegmenten in Segment Builder definieren Sie Beding
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -85,11 +85,11 @@ Beim Erstellen von Zielgruppensegmenten in Segment Builder definieren Sie Beding
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">OR</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">ODER</td></td>
 </tr>
 
 <tr>
@@ -100,13 +100,13 @@ Beim Erstellen von Zielgruppensegmenten in Segment Builder definieren Sie Beding
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 </table>
 
 <!--![](assets/standard_segment_containers.png)-->
 
-Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL AND] und [!UICONTROL OR] verbunden werden.
+Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL UND] bzw. [!UICONTROL ODER] verbunden werden.
 
 - Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 - Alle Segmente gelten nun für alle Report Suites.
@@ -114,7 +114,7 @@ Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit d
 - Der neue [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ermöglicht die Einrichtung von [Workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
 - Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/segmentation/segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden.
 - Sie können [sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) erstellen.
-- Die [!UICONTROL Seitenansicht] Der Container ist jetzt [!UICONTROL Treffer] -Container, um anzugeben, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen.
+- Der Container [!UICONTROL Seitenansicht] wurde in den Container [!UICONTROL Treffer] umbenannt, da er alle Datentypen und nicht nur Seitenaufrufe segmentiert. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffer-Container vollständig ein- oder ausgeschlossen.
 
 ## Segmentierung in Analysis Workspace
 
@@ -124,9 +124,9 @@ Analysis Workspace umfasst die folgenden zusätzlichen Funktionen:
 - Verwenden Sie [Segmente als Dimensionen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) bei Vergleichen.
 - Verwenden Sie Segmente in der [Fallout-Analyse](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
-## Adobe-bereitgestellte Segmente
+## Von Adobe bereitgestellte Segmente
 
-Die Leiste &quot;Komponente&quot;auf der linken Bildschirmseite zeigt Segmente an, die von Ihnen und Ihrem Unternehmen erstellt wurden, sowie Adobe-Segmente, die standardmäßig bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]**, werden diese Segmente in der Regel unten in der Liste angezeigt und durch das Adobe-Logo rechts gekennzeichnet.
+Die Leiste „Komponente“ auf der linken Bildschirmseite zeigt Segmente an, die von Ihnen und Ihrem Unternehmen erstellt wurden, sowie Adobe-Segmente, die standardmäßig bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]** klicken, werden diese Segmente in der Regel unten in der Liste angezeigt und durch das Adobe-Logo rechts gekennzeichnet.
 
 ## Sequenzielle Segmente {#sequential}
 
@@ -136,12 +136,12 @@ Mit sequenziellen Segmenten können Sie Besucher anhand der Navigation und den S
 
 | Erster Besuch | Zweiter Besuch | Dritter Besuch |
 |---|---|---|
-| Beim ersten Besuch besuchte der Besucher die Haupt-Landingpage A, schloss die Kampagnenseite B aus und sah sich dann die Produktseite C an. | Beim zweiten Besuch besuchte der Besucher erneut die Haupt-Landingpage A, schloss die Kampagnenseite B aus, besuchte erneut die Produktseite C und dann eine neue Seite D. | Beim dritten Besuch hat der Besucher denselben Pfad wie beim ersten und zweiten Besuch eingegeben und gefolgt und dann Seite F ausgeschlossen, um direkt zu einer Targeting-Produktseite G zu wechseln. |
+| Beim ersten Besuch besuchte die Besucherin oder der Besucher die Haupt-Landingpage A, ignorierte die Kampagnenseite B und sah sich dann die Produktseite C an. | Beim zweiten Besuch besuchte die Besucherin oder der Besucher erneut die Haupt-Landingpage A, ignorierte die Kampagnenseite B, besuchte erneut die Produktseite C und dann eine neue Seite D. | Beim dritten Besuch folgte die Besucherin oder der Besucher demselben Weg wie beim ersten und zweiten Besuch und ignorierte dann die Seite F, um direkt zu einer Targeting-Produktseite G zu wechseln. |
 
 Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
-- Auf der Sequenz von Seitentreffern basierende Besucher: Seitenansichten innerhalb eines einzelnen Besuchs, Seitenansichten über verschiedene Besuche hinweg, Besuche, bei denen Seitenansichten ausgeschlossen wurden.
-- Auf der Zeit zwischen und nach Seitenansichten basierende Besucher: nach einem Zeitlimit, zwischen Treffern, nach einem Ereignis.
+- Auf Reihenfolge der Seitentreffer basierende Besuchende: Seitenansichten bei einem einzelnen Besuch, Seitenansichten über unterschiedliche Besuche hinweg, Besuche, bei denen Seitenansichten ignoriert wurden.
+- Auf der Zeit zwischen und nach Seitenansichten basierende Besuchende: nach einem Zeit-Limit, zwischen Treffern, nach einem Ereignis.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -158,7 +158,7 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -173,7 +173,7 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -192,17 +192,17 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>AND</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>UND</td></td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -217,27 +217,27 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OR</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>ODER</td></td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
 </tr>
 </tr>
 </table>
 
 <!--![](assets/sequential_segmentation_containers_view.png)-->
 
-Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Dazu wird der [!UICONTROL THEN]-Operator verwendet.
+Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Dazu wird der Operator [!UICONTROL DANN] verwendet.
 
 ## Video zur Segmentierung {#segment-video}
 
-In diesem Video erhalten Sie einen kurzen Überblick darüber, was Segmentcontainer sind und wie sie verwendet werden:
+In diesem Video erhalten Sie einen kurzen Überblick darüber, was Segment-Container sind und wie Sie sie einsetzen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
@@ -282,17 +282,17 @@ Administratoren können alle Segmente bearbeiten und Segmente für Gruppen und a
 
 +++ **Kann ich alle in meinem Unternehmen vorhandenen Segmente sehen?**
 
-Ja, Administratoren können alle Segmente innerhalb der [!DNL Analysis Workspace] -Benutzeroberfläche.
+Ja, Admins können alle Segmente innerhalb der Benutzeroberfläche von [!DNL Analysis Workspace] sehen.
 
-Report Builder zeigt Segmente an, deren Inhaber Sie sind, sowie Segmente, die für Sie freigegeben wurden.
+Report Builder zeigt Segmente an, die sich in Ihrem Besitz befinden, sowie Segmente, die für Sie freigegeben wurden.
 
 +++
 
-+++ **Kann ich alle Analytics-Segmente im Segment-Manager verwalten?**
++++ **Kann ich alle Analytics-Segmente in Segment Manager verwalten?**
 
 Ja, alle Segmente können in Segment Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
 
-Administratoren können alle Segmente in der Benutzeroberfläche von Analysis Workspace anzeigen.
+Admins können alle Segmente in der Benutzeroberfläche von Analysis Workspace sehen.
 
 Report Builder zeigt nur von Ihnen erstellte Segmente oder Segmente, die für Sie freigegeben wurden, an.
 

@@ -1,18 +1,18 @@
 ---
-description: Häufig gestellte Fragen zur Verwaltung von Legacy-Segmenten.
-title: Häufig gestellte Fragen zu älteren Segmenten
+description: Häufig gestellte Fragen zur Verwaltung veralteter Segmente.
+title: Häufig gestellte Fragen zu veralteten Segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Häufig gestellte Fragen zu älteren Segmenten
+# Häufig gestellte Fragen zu veralteten Segmenten
 
-Beantwortet häufige Fragen zu Best Practices für die Verwaltung älterer Segmente - Segmente, die vor 2014 erstellt wurden.
+Bietet Antworten auf häufig gestellte Fragen zu den Best Practices für die Verwaltung veralteter Segmente – Segmente, die vor 2014 erstellt wurden.
 
 ## Verwaltung alter Segmente {#legacy}
 
@@ -20,7 +20,7 @@ Beantwortet häufige Fragen zu Best Practices für die Verwaltung älterer Segme
 
 Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt. [Mehr …](/help/components/segmentation/seg-transition.md)
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorlagen in den Segment Builder migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorlagen in Segment Builder migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet:
 
@@ -44,7 +44,7 @@ Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ 
 
 +++ **Was ist mit Data Warehouse-Segmenten passiert?**
 
-Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten wie Analysis Workspace.
+Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten, z. B. Analysis Workspace.
 
 Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erstellen oder bearbeiten. Durch den Produktkompatibilitätsmechanismus wird im Segment Builder automatisch ermittelt, ob ein Segment mit Data Warehouse kompatibel ist.
 
@@ -58,11 +58,11 @@ Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erst
 * **Besuche über eine gebührenpflichtige Suche**
 * **Besuche mit Besucher-ID-Cookie**
 
-Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
+Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Vorhandene Berichte, auf die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
 +++
 
-+++ **Was ist mit Experience Cloud (Suite)-Segmenten passiert?**
++++ **Was ist mit Experience Cloud (Suite)-Segmenten passiert?**
 
 * Nichtkäufer
 * Käufern
@@ -72,13 +72,13 @@ Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Vorhand
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
-Die meisten dieser Segmente (mit Ausnahme der mit einem Sternchen * markierten) wurden als Segmentvorlagen in den Segment-Builder migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
+Die meisten dieser Segmente (bis auf die mit einem Sternchen „*“ markierten) werden als Segmentvorlagen in Segment Builder migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
 
-Vorhandene Berichte, auf die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
+Vorhandene Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin fehlerfrei.
 
 +++
 
-+++ **Was ist mit Admin-Segmenten passiert (auch &quot;globale&quot;Segmente genannt)?**
++++ **Was ist mit Admin-Segmenten (auch bekannt als „globale“ Segmente) passiert?**
 
 **Admin**-Segmente werden in die neue Segmentoberfläche migriert und werden dort als für alle freigegebene Segmente angezeigt.
 
@@ -104,7 +104,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente gemäß [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Markieren Sie Segmente gemäß den [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -115,7 +115,7 @@ Folgende Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
 * Geo-Stadt/Region/Land – Suche nach und Auswahl bestimmter Städte, Regionen oder Länder, anstelle einer teilweisen Übereinstimmung.
 * Browser – benutzen Sie die Browsertypen-Dimension, um alle Browser eines Typs zu erhalten, z. B. Google Chrome.
 * Betriebssysteme – benutzen Sie die Betriebssystemtypen-Dimensionen, um alle Betriebssysteme eines Typs zu erhalten, z. B. Microsoft Windows.
-* Siehe &quot;Neue und umbenannte Dimensionen&quot;(siehe unten).
+* Siehe „Neue und umbenannte Dimensionen“ (siehe unten).
 
 ## Neue und umbenannte Dimensionen {#renamed}
 
@@ -172,7 +172,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 
 ## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen {#integer-based-dims}
 
-Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mithilfe der vorherigen und der neuen Segment Builder-Schnittstellen segmentiert werden:
+Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segment Builder-Oberfläche segmentiert werden:
 
 ![](assets/seg_browser_dimension.png)
 

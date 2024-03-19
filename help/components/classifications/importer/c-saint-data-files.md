@@ -4,9 +4,9 @@ title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Der Wert von Classifications darf nicht 0 (null) sein.
 * Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 * Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
-* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, sofern das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [escaped](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
+* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [auskommentiert](/help/components/classifications/importer/t-classifications-escape-data.md) ist. Sonderzeichen umfassen:
 
   ```text
   \t     tab character 
@@ -110,9 +110,9 @@ Jeder Wert muss innerhalb des Systems eindeutig sein. Der Wert in diesem Feld en
 
 >[!NOTE]
 >
->Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn sich beispielsweise der Administrator ändert [!UICONTROL Kampagnen] nach [!UICONTROL Interne Kampagnennamen] im [!UICONTROL Campaign Set-up Manager]muss sich die Spaltenüberschrift der Datei so ändern, dass sie übereinstimmt. &quot;Schlüssel&quot;ist ein reservierter Classification-Wert (Kopfzeile). Neue Klassifizierungen mit dem Namen &quot;Schlüssel&quot;werden nicht unterstützt.
+>Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn die Administratorin oder der Administrator beispielsweise im [!UICONTROL Campaign Set-up Manager] den Wert [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] ändert, muss dies ebenfalls in die Spaltenüberschrift übernommen werden. „Schlüssel“ ist ein reservierter Klassifizierungswert (Kopfzeile). Neue Klassifizierungen mit dem Namen „Schlüssel“ werden nicht unterstützt.
 
-Darüber hinaus unterstützt die Datendatei weitere Überschriftenkonventionen zur Kennzeichnung von Unter-Classifications und anderen spezialisierten Datenspalten:
+Darüber hinaus unterstützt die Datendatei weitere Überschriftenkonventionen zur Kennzeichnung von Unterklassifizierungen und anderen spezialisierten Datenspalten:
 
 ### Überschrift einer Unter-Classification
 

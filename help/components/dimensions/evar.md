@@ -4,17 +4,17 @@ description: Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden k
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '826'
+ht-degree: 100%
 
 ---
 
 # eVar
 
-*[Auf dieser Hilfeseite wird beschrieben, wie eVars als Dimension funktionieren](overview.md). Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
+*Auf dieser Hilfeseite wird beschrieben, wie eVars als [Dimension](overview.md) funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
 
-eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie [Lösungsdesigndokument](/help/implement/prepare/solution-design.md), werden die meisten unternehmensspezifischen Dimensionen als [!UICONTROL eVars], zusätzlich zur in Adobe Analytics verfügbaren Standarddimension, z. B. &quot;Seitenname&quot;, &quot;Referrer-Domäne&quot;, &quot;Kanal&quot;. Siehe [Übersicht über Dimensionen](overview.md) für weitere Informationen.
+eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Solution-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, liegen die meisten unternehmensspezifischen Dimensionen schließlich als [!UICONTROL eVars] vor (zusätzlich zu der in Adobe Analytics verfügbaren Standarddimension, z. B. „Seitenname“, „Verweisende Domäne“ oder „Kanal“). Weitere Informationen finden Sie in der [Übersicht über Dimensionen](overview.md).
 
 Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. Sie können ihre Gültigkeit und Zuordnung unter [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in den [!UICONTROL Report Suite-Einstellungen] anpassen. Unten finden Sie ein Beispiel für eVar-Definitionen in der Benutzeroberfläche für Konversionsvariablen.
 
@@ -32,7 +32,7 @@ AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datene
 
 ## Dimensionselemente
 
-Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede eVar gelten. Vergewissern Sie sich, dass Sie den Zweck jedes eVar und die typischen Dimensionselemente in einer [Lösungsdesigndokument](/help/implement/prepare/solution-design.md).
+Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede eVar gelten. Stellen Sie sicher, dass Sie den Zweck jeder eVar und die typischen Dimensionselemente in einem [Solution-Design-Dokument](/help/implement/prepare/solution-design.md) festhalten.
 
 ## Funktionsweise von eVars
 

@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ Im Folgenden finden Sie ein Video-Tutorial zur Flussvisualisierung:
 
 ## Interdimensionale Flüsse {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) anzeigen. So können Sie beispielsweise in einem Diagramm Seiten mit Abteilungen kombinieren. In diesem Fall kann Ihr Fluss von der Startseite zur Herrenseite und dann zur Shoes-Abteilung verlaufen.
+Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) anzeigen. So können Sie beispielsweise in einem Diagramm Seiten mit Abteilungen kombinieren. In diesem Fall würde der Fluss von der Startseite zur Seite „Männer“ und dann zur Abteilung „Schuhe“ verlaufen.
 
 Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
-## Flussvisualisierung konfigurieren
+## Konfigurieren einer Flussvisualisierung
 
-Informationen zum Konfigurieren einer Flussvisualisierung finden Sie unter [Flussvisualisierung konfigurieren](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+Informationen zum Konfigurieren einer Flussvisualisierung finden Sie unter [Konfigurieren einer Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

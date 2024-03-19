@@ -4,8 +4,8 @@ title: Unterklassifizierungen
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '649'
+workflow-type: ht
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen 
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Weitere Informationen über die Datendatei finden Sie unter  [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
+Weitere Informationen zum Datendateiformat finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
 
 Mehrstufige Classifications bestehen aus über- und untergeordneten Classifications. Beispiel:
 

@@ -5,9 +5,9 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
-workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '862'
+ht-degree: 100%
 
 ---
 
@@ -79,9 +79,9 @@ Wenn Sie einen wöchentlichen benutzerspezifischen Kalender verwenden und Monate
 
 Wenn Sie ein Segment erstellen oder ein Segment mit einem rollierenden Datum verwenden, z. B. die letzten 7 Tage oder die letzten 2 Wochen, und Sie auf die Segmentvorschau klicken, beginnt das rollierende Datum ab *Heute* anstelle des Startdatums des Bedienfelds. Daher stimmt die Vorschau für das Segment nicht, wenn Sie das Segment in der Tabelle verwenden. Die Vorschau ist zwar falsch, nicht aber das Segment selbst.
 
-## Richtlinien für Bereichsdatumsbereiche und -vorschauen {#guidelines-panel-dates}
+## Richtlinien für Panel-Datumsbereiche und Vorschauen {#guidelines-panel-dates}
 
-* Ab der Februar-Version basieren die Komponenten- und Datenvorschau auf dem Datumsbereich des Bedienfelds und nicht auf den letzten 90 Tagen.
+* Ab der Februarversion basieren die Komponenten- und Datenvorschauen auf dem Datumsbereich des Bedienfelds und nicht auf den letzten 90 Tagen.
 * Alle in der linken Leiste aufgelisteten Komponenten sind basierend auf dem Datumsbereich des Bedienfelds verfügbar.
-* Alle Datumsvorschauen im Segment und in den Generator für berechnete Metriken basieren auf dem Datumsbereich des Bedienfelds (sofern nicht von den Komponentenmanagern zugegriffen wird, die über kein verknüpftes Bedienfeld verfügen, basieren sie weiterhin auf den letzten 90 Tagen).
+* Alle Datumsvorschauen im Segment und Generatoren für berechnete Metriken basieren auf dem Datumsbereich des Bedienfelds (sofern nicht von den Komponenten-Managern darauf zugegriffen wird, die über kein verknüpftes Bedienfeld verfügen, basieren sie weiterhin auf den letzten 90 Tagen).
 * Bei jeder Datenvorschau werden Daten oder Komponenten basierend auf dem Datumsbereich des Bedienfelds angezeigt.

@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Mit Attribution können Analysten anpassen, wie Erfolgsereignisse Dimensionselem
 1. Ein Besucher Ihrer Site klickt auf einen Paid-Search-Link zu einer Ihrer Produktseiten. Die Person fügt das Produkt zum Warenkorb hinzu, kauft es jedoch nicht.
 2. Am nächsten Tag sieht sie einen Social-Media-Beitrag von einer Freundin bzw. einem Freund, klickt auf den Link und schließt den Kauf ab.
 
-In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe haben, wenden Sie sich an das Adobe-Account-Team Ihres Unternehmens.
+In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenden Sie sich an das Adobe-Accountteam Ihres Unternehmens, wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben.
 
-## Wert der Attribution
+## Wert von Attribution
 
 Eine Customer Journey ist nie linear und oft unvorhersehbar. Jeder Kunde hat sein eigenes Tempo. Häufig zögert er, bricht ab, beginnt neu oder zeigt ein anderes nicht-lineares Verhalten. Diese organischen Aktionen machen es schwer nachvollziehen, wie sich Marketing-Maßnahmen auf die gesamte Customer Journey auswirken. Außerdem werden die Bemühungen zur Verknüpfung mehrerer Datenkanäle behindert.
 
-![Attributionsproblem](assets/attribution_iq_problem.png)
+![Attribution-Problem](assets/attribution_iq_problem.png)
 
 Adobe Analytics erweitert die Attribution und ermöglicht Ihnen Folgendes:
 
@@ -56,11 +56,11 @@ Attribution in berechneten Metriken
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Attributionsbedienfeld verwenden:
+Verwenden des Bedienfelds „Attribution“:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Hinzufügen von parallelen Vergleichen von Attributionsmodellen:
+Hinzufügen von nebeneinander angezeigten Vergleichen von Attribution-Modellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 

@@ -5,41 +5,41 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
 # Übersicht über Activity Map
 
-Adobe Analytics Activity Map ist eine Funktion in Adobe Analytics, die eine visuelle Darstellung der Benutzerinteraktion auf Webseiten und mobilen Apps bietet. Sie ermöglicht es Marketing-Experten und Analysten, Benutzerinteraktionen wie Klicks, Mausberührungen und das Scroll-Verhalten zu verfolgen und zu analysieren. Activity Map generiert Heatmaps und Überlagerungsberichte, die die Beliebtheit und Effektivität verschiedener Elemente auf einer Webseite veranschaulichen und Unternehmen dabei helfen, ihre digitalen Erlebnisse zu optimieren und höhere Konversionen zu erzielen.
+Adobe Analytics Activity Map ist eine Funktion in Adobe Analytics, die eine visuelle Darstellung der Benutzerinteraktion auf Web-Seiten und in Mobile Apps bietet. Sie ermöglicht es Marketing-Fachleuten sowie Analystinnen und Analysten, Benutzerinteraktionen wie Klicks, Mausbewegungen und das Scroll-Verhalten nachzuverfolgen und zu analysieren. Activity Map generiert Heatmaps und Überlagerungsberichte, die die Beliebtheit und Effektivität verschiedener Elemente auf einer Web-Seite veranschaulichen und Unternehmen dabei helfen, ihre digitalen Erlebnisse zu optimieren und höhere Konversionen zu erzielen.
 
-## Funktionen und Vorteile
+## Funktionen und Verbesserungen
 
-* Visualisierung der Benutzerinteraktion: Activity Map bietet eine dynamische visuelle Darstellung des Benutzerverhaltens, sodass Unternehmen genau sehen können, wohin Benutzer auf ihren Websites klicken, bewegen und scrollen. Diese visuellen Daten erleichtern die Identifizierung von Mustern, Trends und Interessensgebieten und ermöglichen es Unternehmen, fundierte Entscheidungen über Design, Inhaltsplatzierung und Benutzerfluss zu treffen.
+* Visualisierung der Benutzerinteraktion: Activity Map bietet eine dynamische visuelle Darstellung des Benutzerverhaltens, sodass Unternehmen genau sehen können, wohin Benutzende auf ihren Websites klicken, die Maus bewegen und scrollen. Diese visuellen Daten erleichtern die Identifizierung von Mustern, Trends und Interessensgebieten und ermöglichen es Unternehmen, fundierte Entscheidungen bezüglich Design, Inhaltsplatzierung und Benutzerfluss zu treffen.
 
-* Heatmaps: Activity Map erstellt Heatmaps, die die am häufigsten angeklickten oder interagierten Bereiche einer Webseite anzeigen. Bei Heatmaps wird die Interaktionsstufe mit Farbcodierung dargestellt, sodass Unternehmen Hotspots identifizieren und die Aufmerksamkeit auf Bereiche mit hoher Auswirkung richten können. Diese Informationen können für die Optimierung von Aktionsaufruf-Schaltflächen, Links, Formularen oder anderen interaktiven Elementen von unschätzbarem Wert sein.
+* Heatmaps: Activity Map erstellt Heatmaps, die Bereiche einer Web-Seite anzeigen, die am häufigsten angeklickt oder mit denen am häufigsten interagiert wurde. Bei Heatmaps wird die Interaktionsstufe mit Farbcodierung dargestellt, sodass Unternehmen Hotspots identifizieren und die Aufmerksamkeit auf Bereiche mit hoher Auswirkung richten können. Diese Informationen können für die Optimierung von Aktionsaufruf-Schaltflächen, Links, Formularen oder anderen interaktiven Elementen von unschätzbarem Wert sein.
 
-* Überlagerungsberichte: Überlagerungsberichte in Activity Map bieten detaillierte Klickmetriken für bestimmte Elemente auf einer Webseite. Durch Verständnis der Clickthrough-Raten und Interaktionsstufen einzelner Elemente können Unternehmen ihre Design- und Inhaltsstrategien anpassen, um Benutzererlebnisse zu verbessern und gewünschte Ergebnisse zu erzielen.
+* Überlagerungsberichte: Überlagerungsberichte in Activity Map bieten detaillierte Klickmetriken für bestimmte Elemente auf einer Web-Seite. Durch Kenntnis der Clickthrough-Raten und Interaktionsstufen einzelner Elemente können Unternehmen ihre Design- und Inhaltsstrategien optimieren, um Benutzererlebnisse zu verbessern und gewünschte Ergebnisse zu erzielen.
 
-* Segmentanalyse: Mit der Adobe Analytics-Activity Map können Unternehmen das Benutzerverhalten anhand verschiedener Segmente analysieren, z. B. Traffic-Quellen, demografische Daten oder Benutzerrollen. Durch die Segmentierung der Daten können Unternehmen wertvolle Einblicke in bestimmte Benutzergruppen gewinnen und so personalisierte Erlebnisse und zielgerichtete Marketing-Strategien ermöglichen.
+* Segmentanalyse: Mit Adobe Analytics Activity Map können Unternehmen das Benutzerverhalten anhand verschiedener Segmente analysieren, z. B. Traffic-Quellen, demografische Daten oder Benutzerrollen. Durch die Segmentierung der Daten können Unternehmen wertvolle Erkenntnisse zu bestimmten Benutzergruppen gewinnen, wodurch personalisierte Erlebnisse und zielgerichtete Marketing-Strategien ermöglicht werden.
 
 ## Praktische Anwendungen
 
-* Website-Optimierung: Activity Map hilft Unternehmen, ihre Websites zu optimieren, indem leistungsschwache Elemente identifiziert, die Navigation verbessert und das gesamte Benutzererlebnis verbessert werden. Durch die Analyse von Benutzerinteraktionen können Unternehmen datengesteuerte Entscheidungen treffen, um Benutzerflüsse zu optimieren, Formulare zu vereinfachen oder die Inhaltsplatzierung so anzupassen, dass eine maximale Wirkung erzielt wird.
+* Website-Optimierung: Activity Map hilft Unternehmen, ihre Websites zu optimieren, indem leistungsschwache Elemente identifiziert, die Navigation verbessert und das Benutzererlebnis insgesamt verbessert werden. Durch die Analyse von Benutzerinteraktionen können Unternehmen datengesteuerte Entscheidungen treffen, um Benutzerflüsse zu optimieren, Formulare zu vereinfachen oder die Inhaltsplatzierung so anzupassen, dass eine maximale Wirkung erzielt wird.
 
-* Conversion Rate Optimization (CRO): Durch Visualisierung der Benutzerinteraktion und Analyse der Clickthrough-Raten spielt Activity Map eine entscheidende Rolle bei den CRO-Bemühungen. Unternehmen können Hindernisse für die Konversion erkennen und mit verschiedenen Designvarianten experimentieren, um Konversionstrichter, Landingpages und Checkout-Prozesse zu optimieren.
+* Optimierung der Konversionsrate (Conversion Rate Optimization, CRO): Mit der Visualisierung von Benutzerinteraktionen und Analyse der Clickthrough-Raten spielt Activity Map eine entscheidende Rolle bei den CRO-Bemühungen. Unternehmen können Hindernisse für die Konversion erkennen und mit verschiedenen Design-Varianten experimentieren, um Konversionstrichter, Landingpages und Checkout-Prozesse zu optimieren.
 
-* A/B-Tests: Activity Map kann mit A/B-Tests kombiniert werden, um die Auswirkungen von Design- oder Inhaltsänderungen zu messen. Durch den Vergleich von Interaktionsmetriken zwischen verschiedenen Versionen einer Webseite können Unternehmen bestimmen, welche Varianten zu höherer Benutzerinteraktion, Konversionsrate oder Umsatz führen.
+* A/B-Tests: Activity Map kann mit A/B-Tests kombiniert werden, um die Auswirkungen von Design- oder Inhaltsänderungen zu messen. Durch den Vergleich von Interaktionsmetriken zwischen verschiedenen Versionen einer Web-Seite können Unternehmen ermitteln, welche Varianten zu höheren Benutzerinteraktionen, Konversionsraten oder Umsatz führen.
 
-* Optimierung mobiler Apps: Adobe Analytics Activity Map ist nicht auf Websites beschränkt, sondern erweitert auch seine Funktionalität auf mobile Apps. Unternehmen können Einblicke in Benutzerinteraktionen in Apps erhalten, sodass sie die Benutzerfreundlichkeit verbessern, die Navigation verbessern und die Funktionen für ein nahtloses mobiles Erlebnis optimieren können.
+* Optimierung von Mobile Apps: Adobe Analytics Activity Map ist nicht auf Websites beschränkt, sondern deckt mit seiner Funktionalität auch Mobile Apps ab. Unternehmen können Erkenntnisse zu Benutzerinteraktionen in Mobile Apps erhalten, sodass sie die Benutzerfreundlichkeit und Navigation verbessern sowie die Funktionen für nahtlose mobile Erlebnisse optimieren können.
 
 ## Erste Schritte
 
-* [Aktivieren und Aktivieren von Activity Map](activitymap-getting-started/activitymap-enable.md)
+* [Aktivieren von Activity Map](activitymap-getting-started/activitymap-enable.md)
 * [Activity Map Browser-Plug-ins installieren ](activitymap-getting-started/activitymap-install.md)
-* [Activity Map starten](activitymap-getting-started/activitymap-launch.md)
+* [Starten von Activity Map](activitymap-getting-started/activitymap-launch.md)
 
 ## Activity Map-Funktionen
 

@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
-workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '206'
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Erläutert, wie in Report Builder veröffentlichte Assets in Power BI Desktop a
 In der Power BI Desktop-Aktualisierung vom April 2017 ermöglicht Microsoft, mit dem Power BI-Dienst eine Verbindung zu Datensätzen herzustellen. Mit dieser Funktion können Sie aus vorhandenen Datensätzen, die Sie bereits in der Cloud veröffentlicht haben, neue Berichte erstellen. Sie können diese Funktion nutzen, um die Zusammenarbeit zu verbessern und doppelte Arbeit in Ihrem Team zu vermeiden.
 
 1. Gehen Sie in Power BI Desktop zu **[!UICONTROL Datei]** > **[!UICONTROL Optionen und Einstellungen]** > **[!UICONTROL Optionen]** > **[!UICONTROL Vorschaufeatures.]**
-1. Aktivieren Sie **[!UICONTROL Liveverbindung mit Power BI-Dienst]** und klicken Sie auf **[!UICONTROL OK]**. ![Klicken Sie auf Power BI Service Live Connection und dann auf OK. ](assets/bi-preview-features.png)
+1. Aktivieren Sie **[!UICONTROL Live-Verbindung mit Power BI-Dienst]** und klicken Sie auf **[!UICONTROL OK]**. ![Klicken Sie auf „Live-Verbindung mit Power BI-Dienst“ und dann auf „OK“. ](assets/bi-preview-features.png)
 
 1. Starten Sie Power BI Desktop neu.
 1. Sobald Sie Desktop neu gestartet haben, wechseln Sie zu **[!UICONTROL Start]** > **[!UICONTROL Daten abrufen]** > **[!UICONTROL Mehr...]**.
 1. Suchen Sie nach **[!UICONTROL Power BI-Dienst]** und wählen Sie ihn aus.
 1. Wählen Sie unter **[!UICONTROL Microsoft Power BI-Dienst]** > **[!UICONTROL Arbeitsbereich]** den zuvor in Report Builder veröffentlichten Datensatz aus.
 
-Weitere Informationen finden Sie unter [Microsoft-Blogpost](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/).
+Weitere Informationen finden Sie in diesem [Microsoft-Blogpost](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/).
