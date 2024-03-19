@@ -3,10 +3,10 @@ description: Aktivieren Sie Dimensionen der Einverständnisverwaltung.
 title: Datenschutzberichte
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 55%
+source-wordcount: '136'
+ht-degree: 45%
 
 ---
 
@@ -36,3 +36,7 @@ So greifen Sie auf diese Seite zu:
 1. Nach der Aktivierung wird eine Bestätigungsmeldung angezeigt. Die Dimensionen sind in Berichten verfügbar.
 
    ![Bericht](assets/consent-management.png)
+
+## Dimension &quot;Anzeigeneinwilligung&quot;
+
+Die [Dimension &quot;Anzeigeneinwilligung&quot;](/help/components/dimensions/ad-consent.md) zeigt an, ob die Zustimmung zum Senden von Daten an Drittanbieter für Werbung wie Google, Meta und andere erfasst wird.

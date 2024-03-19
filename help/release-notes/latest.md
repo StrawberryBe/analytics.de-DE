@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0cbb11623d7d262a0cbd6aabad568f752d8ffa9c
+source-git-commit: 2d80b45f95f9be9a83f2ae9eccad1e0990213dd3
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 40%
+source-wordcount: '1188'
+ht-degree: 39%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (März 2024)
 
-**Zuletzt aktualisiert**: Donnerstag, 13. März 2024
+**Zuletzt aktualisiert**: Mittwoch, 19. März 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. März 2024 bis April 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -22,7 +22,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. 
 | ----------- | ---------- | ------- | ---- |
 | **AppMeasurement-Update** | [AppMeasurement-Version v2.26.0](/help/implement/appmeasurement-updates.md) ist verfügbar. | | Dienstag, 4. März 2024 |
 | **Auf der Landingpage &quot;Projekte&quot;verfügbare neue Spalte** | Die **[!UICONTROL Zuletzt verwendet]** ist jetzt bei Ansicht der Registerkarte Projekte auf der [Adobe Analytics-Landingpage](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=de). <p>Anhand dieser Informationen können Sie feststellen, ob ein Projekt für Benutzer in Ihrer Organisation nützlich ist, indem Sie das Datum und die Uhrzeit des letzten Öffnens des Projekts anzeigen.</p> <p>Zuvor wurde die Variable **[!UICONTROL Zuletzt verwendet]** -Spalte war nur im Manager für berechnete Metriken, im Segment-Manager und im Warnhinweismanager verfügbar.</p> |  | 13. März 2024 |
-| **Analytics-Unterstützung für Genehmigungsflags, die von Google für DMA erforderlich sind** | Aufgrund neuer europäischer Datenschutzbestimmungen verlangt Google, dass die an sie gesendeten in Europa erhobenen Daten angeben müssen, ob zwei Arten von Einwilligungen erteilt wurden. **Ab dem 6. März** akzeptiert Google keine Ereignisdaten mehr, die nicht angeben, dass die entsprechende Zustimmung erteilt wurde. Adobe Analytics bietet Unterstützung für die Erfassung dieser Daten über eine neue adConsent -Variable. Die neue Variable wird in der Liste [Benutzeroberfläche für Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). Wenn Sie diese Funktion aktivieren möchten und bereits die Datenschutzfunktion für die vorherigen Zustimmungsvariablen aktiviert ist, müssen Sie den Datenschutz erneut aktivieren. |  | 13. März 2024 |
+| **Analytics-Unterstützung für Genehmigungsflags, die von Google für DMA erforderlich sind** | Aufgrund neuer europäischer Datenschutzbestimmungen verlangt Google, dass die an sie gesendeten in Europa erhobenen Daten angeben müssen, ob zwei Arten von Einwilligungen erteilt wurden. **Ab dem 6. März** akzeptiert Google keine Ereignisdaten mehr, die nicht angeben, dass die entsprechende Zustimmung erteilt wurde. Adobe Analytics bietet Unterstützung für die Erfassung dieser Daten über eine neue adConsent -Variable. Die neue Variable wird in der Liste [Benutzeroberfläche für Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). Wenn Sie diese Funktion aktivieren möchten und bereits die Datenschutzfunktion für die vorherigen Zustimmungsvariablen aktiviert ist, müssen Sie den Datenschutz erneut aktivieren.<p>Die [Dimension &quot;Anzeigeneinwilligung&quot;](/help/components/dimensions/ad-consent.md) zeigt an, ob die Zustimmung zum Senden von Daten an Drittanbieter für Werbung wie Google, Meta und andere erfasst wird. |  | 13. März 2024 |
 | **Verwendung der Report Builder in der Spalte &quot;Verwendet in&quot;des Managers für berechnete Metriken und des Segmentmanagers** | Beim Anzeigen der **Verwendet in** im Manager für berechnete Metriken oder im Segmentmanager stehen nun Nutzungsdaten für den Report Builder zur Verfügung.<p>Bisher waren Nutzungsdaten im Segment-Manager nur für Warnhinweise, Projekte, geplante Projekte und berechnete Metriken verfügbar, während Nutzungsdaten im Manager für berechnete Metriken nur für Warnhinweise, Projekte und geplante Projekte verfügbar waren.</p> |  | Ende März oder Anfang April |
 | **Verwenden Sie dieselben Cloud-Konten für Daten-Feeds, Data Warehouse und Classification-Sets** | Von Ihnen erstellte Cloud-Konten und -Standorte können jetzt zum Exportieren von Daten (mit Daten-Feeds und Data Warehouse) und zum Importieren von Daten (mit Classification-Sets) verwendet werden.<p> **Änderungen beim Konfigurieren von Konten:** Benutzer können Cloud-Import- und -Exportkonten konfigurieren und Cloud-Import- und -Exportspeicherorte konfigurieren, die für einen der folgenden Zwecke verwendet werden können:<ul><li>Importieren von Daten mit Classification-Sets</li><li>Exportieren von Daten mit Daten-Feeds</li><li>Exportieren von Daten mit Data Warehouse.</li></ul><p>**Änderungen bei der Verwaltung von Konten**: Benutzer können die Seite Standorte (unter Komponenten > Standorte) verwenden, um alle von ihnen erstellten Konten und Orte anzuzeigen und zu verwalten, unabhängig davon, wo sie erstellt wurden. <p>Zuvor galt die Seite Standorte nur für Konten, die zum Importieren von Daten mit Classification-Sets erstellt wurden.</p> | | April 2024 |
 | **Administratoren können alle Standorte in ihrer Organisation verwalten** | Eine neue Option auf der Seite Standorte ermöglicht es Administratoren, alle Standorte in der Organisation anzuzeigen und zu verwalten. <p>Zuvor konnten Administratoren nur die von ihnen erstellten Standorte anzeigen und verwalten.</p> |  | April 2024 |
