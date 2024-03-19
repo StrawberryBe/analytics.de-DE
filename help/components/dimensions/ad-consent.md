@@ -1,17 +1,17 @@
 ---
-title: Anzeigeneinwilligung
+title: Einverständnis für Anzeigenplattform
 description: Weitere Informationen finden Sie in der Konfiguration für die Werbezustimmung für Drittanbieter.
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
-# Anzeigeneinwilligung
+# Einverständnis für Anzeigenplattform
 
-Die &quot;Anzeigeneinwilligung&quot; [Dimension](overview.md) zeigt an, ob die Zustimmung zum Senden von Daten an Drittanbieter für Werbung wie Google, Meta und andere erfasst wird.
+Die Zustimmung zur Anzeigenplattform [Dimension](overview.md) zeigt an, ob die Zustimmung zum Senden von Daten an Drittanbieter für Werbung wie Google, Meta und andere erfasst wird.
 
 Diese Dimension wird derzeit nur für Google verwendet. Aufgrund der europäischen Datenschutzbestimmungen, des Digital Markets Act (DMA), verlangt Google, dass Daten, die an ihre Server gesendet und in Europa erfasst werden, angeben müssen, ob die Einwilligung eingeholt wird. Einige Analytics-Kunden senden Ereignisdaten über Adobe Advertising als Konversionsereignisse an Google.
 
@@ -52,7 +52,6 @@ Sie können die erfassten Daten der Anzeigenzustimmung verwenden:
 
 * Daten-Feeds: Die Daten zur Anzeigenzustimmung sind mit der Variablen `dataprivacydmaconsent` [column](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse-Berichte: Die Daten zur Anzeigenzustimmung sind über die **[!UICONTROL Zustimmung zur Anzeigenplattform]** Dimension.
-
 
 Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariablen. Der Wert bleibt nicht über den Treffer hinaus erhalten, für den er festgelegt wurde. Daher müssen Sie die Kontextdatenvariable auf jeder Seite festlegen.
 
