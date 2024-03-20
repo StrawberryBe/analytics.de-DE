@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 38%
+source-wordcount: '1303'
+ht-degree: 36%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN 
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
+| **13-monatiger Ablauf der gespeicherten Daten`cust_visids`** | Donnerstag, 20. März 2024 | In einer für April oder Mai geplanten Version der Analytics-Trefferverarbeitungs-Engine wird ab sofort ein 13-monatiger Ablauf der gespeicherten Daten erzwungen `cust_visids`. Wenn für die Report Suite &quot;Besucherzuordnung aktivieren&quot;aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für `visid_high/visid_low value` ohne `cust_visid` auf den Treffer. Derzeit gibt es keinen Ablauf der Zuordnung eines `cust_visid` für `visid_high/visid_low`. Mit dieser Version, wenn 13 Monate oder mehr seit `visid_high/visid_low` hatte eine `cust_visid` bei einem Treffer abläuft die Zuordnung ab. |
 | **Adobe-API-Objektmitgliedsadditionen** | 17. Januar 2024 | Adobe kann jederzeit ohne Ankündigung oder Versionsänderung optionale Anfrage- und Antwortmitglieder (Name/Wert-Paare) zu bestehenden API-Objekten hinzufügen. Adobe empfiehlt, in der API-Dokumentation jedes Drittanbieter-Tools, das Sie in unsere API integrieren, nachzuschlagen, damit solche Ergänzungen bei der Verarbeitung ignoriert werden, wenn sie nicht verstanden werden. Bei ordnungsgemäßer Implementierung stellen diese Ergänzungen keine einschneidenden Änderungen für Ihre Implementierung dar. Adobe entfernt keine Parameter und fügt keine erforderlichen Parameter hinzu, ohne zuvor durch Versionshinweise eine Standardbenachrichtigung bereitzustellen. |
 | **`getPageLoadTime`Plugin veraltet** | 10. Januar 2024 | Dieses Plug-in wird nicht mehr unterstützt. Der Code verwendet die Methode „performance.timing“, die (laut MDN) [veraltet](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) ist. Die Arbeit an einem aktualisierten Plug-in hat begonnen. |
 
