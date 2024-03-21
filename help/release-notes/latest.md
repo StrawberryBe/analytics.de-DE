@@ -3,7 +3,7 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
+source-git-commit: b5d274b6b529737b2ad1d135599fe0b0dcf4bf2a
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 36%
@@ -12,7 +12,7 @@ ht-degree: 36%
 
 # Aktuelle Adobe Analytics-Versionshinweise (März 2024)
 
-**Zuletzt aktualisiert**: Donnerstag, 20. März 2024
+**Zuletzt aktualisiert**: Freitag, 21. März 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. März 2024 bis April 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -26,7 +26,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. 
 | **Verwendung der Report Builder in der Spalte &quot;Verwendet in&quot;des Managers für berechnete Metriken und des Segmentmanagers** | Beim Anzeigen der **Verwendet in** im Manager für berechnete Metriken oder im Segmentmanager stehen nun Nutzungsdaten für den Report Builder zur Verfügung.<p>Bisher waren Nutzungsdaten im Segment-Manager nur für Warnhinweise, Projekte, geplante Projekte und berechnete Metriken verfügbar, während Nutzungsdaten im Manager für berechnete Metriken nur für Warnhinweise, Projekte und geplante Projekte verfügbar waren.</p> |  | Ende März oder Anfang April |
 | **Verwenden Sie dieselben Cloud-Konten für Daten-Feeds, Data Warehouse und Classification-Sets** | Von Ihnen erstellte Cloud-Konten und -Standorte können jetzt zum Exportieren von Daten (mit Daten-Feeds und Data Warehouse) und zum Importieren von Daten (mit Classification-Sets) verwendet werden.<p> **Änderungen beim Konfigurieren von Konten:** Benutzer können Cloud-Import- und -Exportkonten konfigurieren und Cloud-Import- und -Exportspeicherorte konfigurieren, die für einen der folgenden Zwecke verwendet werden können:<ul><li>Importieren von Daten mit Classification-Sets</li><li>Exportieren von Daten mit Daten-Feeds</li><li>Exportieren von Daten mit Data Warehouse.</li></ul><p>**Änderungen bei der Verwaltung von Konten**: Benutzer können die Seite Standorte (unter Komponenten > Standorte) verwenden, um alle von ihnen erstellten Konten und Orte anzuzeigen und zu verwalten, unabhängig davon, wo sie erstellt wurden. <p>Zuvor galt die Seite Standorte nur für Konten, die zum Importieren von Daten mit Classification-Sets erstellt wurden.</p> | | April 2024 |
 | **Administratoren können alle Standorte und Konten in ihrer Organisation verwalten** | Eine neue Option auf der Registerkarte Standorte (auf der Seite Komponenten > Standorte ) ermöglicht es Administratoren, alle Standorte in der Organisation anzuzeigen und zu verwalten.<p>Eine neue Option auf der Registerkarte Standortkonten (auf der Seite Komponenten > Standorte ) ermöglicht es Administratoren, alle Konten in der Organisation anzuzeigen und zu verwalten.</p> <p>Zuvor konnten Administratoren nur die von ihnen erstellten Standorte und Konten anzeigen und verwalten.</p> |  | April 2024 |
-| **Activity Map verwendet weniger Server-Aufrufe für Web SDK** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. <p>Durch diese Verbesserung werden einige Link-Ereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung durch AppMeasurement.</p> |  | Donnerstag, 3. April 2024 |
+| **Activity Map verwendet weniger Server-Aufrufe für Web SDK** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. <p>Durch diese Verbesserung werden einige Link-Ereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung durch AppMeasurement.</p> |  | Mittwoch, 30. April 2024 |
 | **Anhebung der standardmäßigen Schwellenwerte für geringeren Traffic** | **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für geringen Traffic wie folgt: ![Schwellenwerte für geringen Traffic](assets/thresholds.png) Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen und wir gehen davon aus, dass sie bis **Ende Mai** abgeschlossen sind. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für das Reporting verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Klassifizierungs-Exporte können mehr Daten enthalten.</li></ul> | | Mitte April 2024 |
 
 {style="table-layout:auto"}
