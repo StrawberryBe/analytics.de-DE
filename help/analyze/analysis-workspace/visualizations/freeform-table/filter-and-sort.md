@@ -4,10 +4,10 @@ title: Filtern und Sortieren von Freiformtabellen
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 71%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,6 @@ Mit Filtern in Analysis Workspace können Sie die wichtigsten Informationen aufd
 Sie können mehrere Methoden verwenden, um Zeilen aus einer Freiformtabelle zu filtern. 
 
 - Klicken Sie auf das X in der Zeile
-- Rechtsklick > Ausgewählte Zeilen gelöscht
 - Tabellenfilter
 - Segmentierung
 
