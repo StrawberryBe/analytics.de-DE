@@ -1,12 +1,12 @@
 ---
-description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
-title: Berichtsziel für eine Data Warehouse-Anforderung konfigurieren
+description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anfrage erstellen.
+title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 9%
+source-wordcount: '291'
+ht-degree: 27%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Im Folgenden wird beschrieben, wie Sie Planungsoptionen für die Anfrage konfigurieren.
 
-Informationen zum Erstellen einer Anforderung sowie Links zu anderen wichtigen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Informationen zum Erstellen einer Anfrage sowie Links zu anderen wichtigen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 So konfigurieren Sie Planungsoptionen für eine Data Warehouse-Anforderung:
 
-1. Erstellen einer Anforderung in Adobe Analytics durch Auswahl von **[!UICONTROL Instrumente]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
+1. Beginnen Sie, falls noch nicht geschehen, mit der Erstellung einer Anforderung in Adobe Analytics, indem Sie **[!UICONTROL Instrumente]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
 
    Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
