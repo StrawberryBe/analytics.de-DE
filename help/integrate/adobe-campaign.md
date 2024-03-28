@@ -5,9 +5,9 @@ feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

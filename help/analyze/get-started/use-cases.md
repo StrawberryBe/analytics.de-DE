@@ -4,9 +4,9 @@ title: Anwendungsfälle für Analytics
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics bietet die folgenden komplexen Segmentierungs- und Prognosewerkz
 
 * [Flussanalyse](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [Erweiterte Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de)
+* [Erweiterte Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
 
 ## Marketing-Analyse
@@ -35,7 +35,7 @@ Die folgenden wichtigen Funktionen in Adobe Analytics bieten diese Marketing-Mö
 
 * [Kanalübergreifende Datenerfassung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de)
 
-* [Offline-Datenintegration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [Offline-Datenintegration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=de)
 
 * [Ad-hoc-Analysen in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 

@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie unter [So implementieren Sie Adobe Analytics mi
   ![So implementieren Sie Adobe Analytics mit Legacy JavaScript](./assets/appmeasurement-implementation.png)
 Diese Implementierungsmethode kann für Implementierungen mit benutzerdefiniertem Code nützlich sein und eignet sich ideal für Implementierungstypen, die andernorts nicht angeboten werden, z. B. für [AMP-Seiten](other/amp.md).
 
-Der folgende Entscheidungsfluss kann Ihnen bei der Auswahl einer clientseitigen Implementierungsmethode helfen:
+Das folgende Entscheidungsschema kann Ihnen bei der Auswahl einer Client-seitigen Implementierungsmethode helfen:
 
 ![Ein Entscheidungsbaum zur Auswahl einer Implementierungsmethode, wie in diesem Abschnitt beschrieben.](./assets/decision-tree.png)
 
@@ -50,15 +50,15 @@ Der folgende Entscheidungsfluss kann Ihnen bei der Auswahl einer clientseitigen 
 
 ### Server-seitig
 
-Zur serverseitigen Implementierung von Adobe Analytics stehen Ihnen die folgenden Optionen zur Verfügung:
+Zur Server-seitigen Implementierung von Adobe Analytics stehen Ihnen die folgenden Optionen zur Verfügung:
 
-* **Edge Server-API**: Sie implementieren Code auf dem Server, der die Adobe Experience Platform Edge Server-API verwendet, um über einen Datenspeicher mit Adobe Analytics zu kommunizieren.
-  ![Serverseitige Implementierung](assets/edge-network-server-api.svg)
-Siehe [Implementieren von Adobe Analytics mit der Adobe Experience Platform Edge Network Server-API](/help/implement/aep-edge/server-api/overview.md) für weitere Informationen.
+* **Edge Server-API**: Sie implementieren Code auf dem Server, der die Adobe Experience Platform Edge Server-API verwendet, um über einen Datenstrom mit Adobe Analytics zu kommunizieren.
+  ![Server-seitige Implementierung](assets/edge-network-server-api.svg)
+Weitere Informationen finden Sie unter [Implementieren von Adobe Analytics mit der Adobe Experience Platform Edge Network Server-API](/help/implement/aep-edge/server-api/overview.md).
 
-* **(Bulk) Data Insertion API**: Sie verwenden die Adobe Analytics-Dateneinfüge-APIs (Bulk), um Daten Server-seitig direkt in Adobe Analytics zu erfassen.
-  ![Dateneinfüge-APIs](assets/analytics-apis.png)
-Siehe [Dateneinfüge-API](../import/c-data-insertion-api/c-data-insertion-api.md) für weitere Informationen.
+* **(Bulk) Data Insertion-API**: Sie verwenden die (Bulk) Data Insertion-API von Adobe Analytics, um Daten Server-seitig direkt in Adobe Analytics zu erfassen.
+  ![Data Insertion-APIs](assets/analytics-apis.png)
+Weitere Informationen finden Sie unter [Data Insertion-API](../import/c-data-insertion-api/c-data-insertion-api.md).
 
 ## Implementierungsmethoden für Mobile Apps
 
@@ -77,7 +77,7 @@ Für Ihre **Mobile App** sind die folgenden Implementierungsmethoden verfügbar:
 
 >[!CAUTION]
 >
->Siehe Unterstützung für ältere Versionen von Adobe Mobile SDKs unter [Mitteilungen zum Ende der Unterstützung für SDKs](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
+>Informationen zur Unterstützung älterer Versionen von Adobe Mobile SDKs finden Sie unter [Mitteilungen zum Ende der Unterstützung für SDKs](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
 
 ## Wichtige Artikel zur Analytics-Implementierung
 
@@ -85,7 +85,7 @@ Für Ihre **Mobile App** sind die folgenden Implementierungsmethoden verfügbar:
 * [Adobe Debugger](validate/debugger.md)
 * [Erstellen einer Tag-Eigenschaft in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-Aktualisierungen](appmeasurement-updates.md)
-* [Tutorial zum Einrichten von Adobe Analytics mit dem Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [Tutorial zum Einrichten von Adobe Analytics mit dem Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=de)
 * [Tutorial zur Implementierung von Adobe Experience Cloud in Mobile Apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=de)
 
 

@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] al
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-Die Adobe Analytics-Landingpage besteht aus den folgenden Unterregisterkarten: Projekte, Berichte und Lernen.
+Die Adobe Analytics-Landingpage besteht aus den folgenden Unterregisterkarten: „Projekte“, „Berichte“ und „Lernen“.
 
 **[!UICONTROL Projekte]** sind benutzerdefinierte Entwürfe, die aus Datenkomponenten, Tabellen und Visualisierungen bestehen, die von Ihnen erstellt oder einer anderen Person für Sie erstellt und freigegeben wurden. [!UICONTROL Projekte] beziehen sich auch auf leere Projekte und leere mobile Scorecards.
 
 **[!UICONTROL Berichte]** beziehen sich auf alles, was von Adobe vorkonfiguriert wurde, z. B. Vorlagen in Workspace.
 
-Die **[!UICONTROL Lernen]** enthält praktische Videoführungen, Tutorials und Links zur Dokumentation.
+Die Registarkarte **[!UICONTROL Lernen]** enthält praktische Video-Touren und Tutorials sowie Links zur Dokumentation.
 
 ## Navigieren Sie zur Registerkarte [!UICONTROL Projekte] {#navigate-projects}
 
-Die [!UICONTROL Projekte] Registerkarte dient als [!UICONTROL Arbeitsbereich] Homepage. Es zeigt den Ordner Unternehmen, alle von Ihnen erstellten persönlichen Ordner, Ihre Projekte und mobile Scorecards an. Auf dieser Seite können Sie Ordner, Projekte und mobile Scorecards anzeigen, erstellen und ändern. Weitere Informationen finden Sie unter [Über Ordner in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+Die Registerkarte [!UICONTROL Projekte] fungiert als Startseite von [!UICONTROL Arbeitsbereich]. Dort werden der Unternehmensordner, alle von Ihnen erstellten Ordner, Ihre Projekte und mobile Scorecards angezeigt. Auf dieser Seite können Sie Ordner, Projekte und mobile Scorecards anzeigen, erstellen und ändern. Weitere Informationen finden Sie unter [Über Ordner in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Landing (alle)](assets/landing-all2.png)
 
@@ -54,14 +54,14 @@ Die verfügbaren Spalten sind:
 | [!UICONTROL **Inhaber**] | Die Person, die das Projekt erstellt hat. |
 | [!UICONTROL **Freigegeben für**] | Zeigt an, für wen das Projekt derzeit freigegeben ist. |
 | [!UICONTROL **Zuletzt geändert**] | Datum und Uhrzeit der letzten Änderung des Projekts. |
-| [!UICONTROL **Zuletzt geöffnet**] | Identifiziert das Datum, an dem ein Projekt zuletzt von dem Benutzer geöffnet wurde, der sich gerade die Seite &quot;Projekte&quot;ansieht. |
-| [!UICONTROL **Zuletzt verwendet**] | Hilft festzustellen, ob ein Projekt für Benutzer in Ihrer Organisation nützlich ist, indem das Datum und die Uhrzeit der letzten Öffnung des Projekts durch einen Benutzer innerhalb der Organisation angezeigt werden.<p>Beachten Sie bei der Anzeige dieser Spalte Folgendes:</p><ul><li>Nutzungsinformationen sind ab September 2023 verfügbar.</li><li>Diese Spalte steht nur Systemadministratoren zur Verfügung.</li></ul> |
+| [!UICONTROL **Zuletzt geöffnet**] | Identifiziert das Datum, an dem ein Projekt zuletzt von der Person geöffnet wurde, die sich gerade die Seite „Projekte“ ansieht. |
+| [!UICONTROL **Zuletzt verwendet**] | Hilft bei der Feststellung, ob ein Projekt für Benutzende in Ihrer Organisation nützlich ist, indem der Zeitpunkt (Datum und Uhrzeit) angezeigt wird, zu dem das Projekt das letzte Mal von einer Person innerhalb der Organisation geöffnet wurde.<p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Nutzungsinformationen sind ab September 2023 verfügbar.</li><li>Diese Spalte steht nur Systemadmins zur Verfügung.</li></ul> |
 | [!UICONTROL **Projekt-ID**] | Kann zum Debugging von Projekten verwendet werden. |
 | [!UICONTROL **Längster Datumsbereich**] | Längere Datumsbereiche erhöhen die Komplexität von Projekten und können die Verarbeitungs- und Ladezeiten erhöhen. |
 | [!UICONTROL **Anzahl der Abfragen**] | Die Gesamtzahl der Anfragen, die an Analytics beim Laden des Projekts gesendet wurden. Eine höhere Anzahl von Projektabfragen erhöht die Komplexität eines Projekts und somit auch die Verarbeitungs- und Ladezeiten. Diese Daten sind erst verfügbar, nachdem ein Projekt geladen oder ein geplantes Projekt gesendet wurde. |
 | [!UICONTROL **Ort**] | Zeigt den Ordner an, in dem sich das Projekt befindet. |
 
-### Andere UI-Elemente auf der Seite &quot;Projekte&quot;
+### Andere Benutzeroberflächenelemente auf der Seite „Projekte“
 
 | UI-Element | Definition |
 | --- | --- |

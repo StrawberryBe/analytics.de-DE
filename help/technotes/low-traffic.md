@@ -4,9 +4,9 @@ title: Wert „Geringer Datenverkehr“ in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sicher
 * Adobe Analytics verwendet zwei Schwellenwerte, um zu bestimmen, welche eindeutigen Werte jeden Monat in Berichten angezeigt werden: einen **[!UICONTROL niedrigen Schwellenwert]** und einen **[!UICONTROL hohen Schwellenwert]**. Diese Schwellenwerte können von Zeit zu Zeit durch Adobe angepasst werden. Die aktuellen Schwellenwerte sind:
    * **[!UICONTROL Niedriger Schwellenwert]**: > 500.000 eindeutige Werte im Monat.
    * **[!UICONTROL Hoher Schwellenwert]**: > 1.000.000 eindeutige Werte im Monat.
-* In **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für niedrigen Traffic wie folgt: ![niedrige Traffic-Schwellenwerte](assets/thresholds.png)
-Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen, und wir erwarten, dass die Arbeit durch die **Ende Mai**. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für die Berichterstellung verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Classification-Exporte können mehr Daten enthalten.</li></ul>
+* **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für geringen Traffic wie folgt: ![Schwellenwerte für geringen Traffic](assets/thresholds.png)
+Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen und wir gehen davon aus, dass sie bis **Ende Mai** abgeschlossen sind. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für das Reporting verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Klassifizierungs-Exporte können mehr Daten enthalten.</li></ul>
 * Die Berichterstellung ist nicht betroffen, wenn die Variable in einem bestimmten Monat den niedrigen Schwellenwert nicht erreicht.
 * Wenn eine Variable den niedrigen Schwellenwert erreicht, werden die Daten unter [!UICONTROL Geringer Traffic] erfasst. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
    * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
@@ -37,7 +37,7 @@ Beachten Sie, dass die oben beschriebene Logik für geringen Traffic am besten m
 
 ## Ändern der Schwellenwerte für eindeutige Werte
 
-Schwellenwertbeschränkungen können manchmal variablenweise geändert werden. Wenden Sie sich an die Kundenunterstützung von Adobe oder Ihr Adobe-Accountteam, um diese Änderung anzufordern. Inwiefern die Schwellenwerte erhöht werden können, hängt von mehreren Faktoren ab, und Adobe kann möglicherweise nicht in allen Fällen Schwellenerhöhungen berücksichtigen. Fügen Sie Änderungsanforderungen Folgendes hinzu:
+Schwellenwertbeschränkungen können manchmal variablenweise geändert werden. Wenden Sie sich an die Kundenunterstützung von Adobe oder Ihr Adobe-Accountteam, um diese Änderung anzufordern. Das Ausmaß, in dem die Schwellenwerte erhöht werden können, hängt von mehreren Faktoren ab. Dabei ist Adobe möglicherweise nicht in der Lage, Schwellenwerterhöhungen in allen Fällen zu berücksichtigen. Fügen Sie Änderungsanforderungen Folgendes hinzu:
 
 * Die Report Suite-ID
 * Die Variable, für die Sie den Schwellenwert erhöhen möchten

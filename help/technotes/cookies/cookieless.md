@@ -5,9 +5,9 @@ feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Diese Browser-Beschränkungen spiegeln einen allgemeinen Übergang vom anonymen 
 
 ## Customer Journey Analytics und geräteübergreifende Analyse
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) und [geräteübergreifende Analytics](/help/components/cda/overview.md) ermöglichen es, neben Cookies auch dauerhafte Kennungen wie Hash-Anmeldungen einzuschließen. Auf diese Weise können Sie die Customer Journey geräteübergreifend und im Fall von Customer Journey Analytics auch über Online- und Offline-Kanäle hinweg nachvollziehen:
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) und [geräteübergreifende Analytics](/help/components/cda/overview.md) ermöglichen es, neben Cookies auch dauerhafte Kennungen wie Hash-Anmeldungen einzuschließen. Auf diese Weise können Sie die Customer Journey geräteübergreifend und im Fall von Customer Journey Analytics auch über Online- und Offline-Kanäle hinweg nachvollziehen:
 
 * **Customer Journey Analytics** basiert auf Adobe Experience Platform und bietet die Flexibilität, Online- und Offline-Daten in Analysis Workspace basierend auf einer beliebigen Kunden-ID zu kombinieren. Sie können für jede beliebige Analyse angeben, welche ID Sie verwenden möchten, und die Daten in Analysis Workspace untersuchen. Kunden, die Analytics Select, Prime und Ultimate verwenden, sind zum Erwerb dieses Zusatzprodukts qualifiziert.
 
@@ -35,7 +35,7 @@ Sie können Daten Server-seitig mit der [Data Insertion-API](https://github.com/
 
 ## First-Party-Geräte-ID (FPID) mit dem Web SDK
 
-Mit dem Adobe Experience Platform Web SDK können Sie anstelle der von Adobe generierten Experience Cloud-IDs (ECIDs) Ihre eigenen Geräte-IDs festlegen und verwalten. Diese werden als First-Party-Geräte-IDs (FPIDs) bezeichnet. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html).
+Mit dem Adobe Experience Platform Web SDK können Sie anstelle der von Adobe generierten Experience Cloud-IDs (ECIDs) Ihre eigenen Geräte-IDs festlegen und verwalten. Diese werden als First-Party-Geräte-IDs (FPIDs) bezeichnet. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=de).
 
 ## Weitere Informationen
 

@@ -5,17 +5,17 @@ exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '315'
+ht-degree: 100%
 
 ---
 
 # Implementieren von Adobe Analytics mit dem Adobe Experience Platform Edge Network
 
-Mit dem Adobe Experience Platform Edge Network können Sie Daten an mehrere Produkte an einen zentralen Ort senden. Das Edge-Netzwerk leitet die entsprechenden Informationen an die gewünschten Produkte weiter. Mit diesem Konzept können Sie Implementierungsaufgaben zusammenfassen, insbesondere, wenn mehrere Datenlösungen vorhanden sind.
+Mit Adobe Experience Platform Edge Network können Sie Daten, die für mehrere Produkte bestimmt sind, an einen zentralen Ort senden. Edge Network leitet die entsprechenden Informationen an die gewünschten Produkte weiter. Mit diesem Konzept können Sie Implementierungsaufgaben zusammenfassen, insbesondere, wenn mehrere Datenlösungen vorhanden sind.
 
-Adobe bietet drei Hauptmethoden zum Senden von Daten an das Edge-Netzwerk:
+Adobe bietet drei Methoden zum Senden von Daten an Edge Network:
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Verwenden Sie die Web SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, um Daten an Edge zu senden.
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Verwenden Sie die Mobile SDK-Erweiterung in der Datenerfassung von Adobe Experience Platform, um Daten an Edge zu senden.
@@ -23,15 +23,15 @@ Adobe bietet drei Hauptmethoden zum Senden von Daten an das Edge-Netzwerk:
 
 
 
-## Verarbeitung von Edge-Netzwerkdaten durch Adobe Analytics
+## Verarbeiten von Edge Network-Daten durch Adobe Analytics
 
-An das Adobe Experience Platform Edge Network gesendete Daten können zwei Formate aufweisen:
+An Adobe Experience Platform Edge Network gesendete Daten können zwei Formate aufweisen:
 
-* XDM-Objekt: Mit Schemas konform basierend auf [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de). Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Ereignisse Adobe Analytics erreichen, werden sie in ein Format übersetzt, das von Adobe Analytics verarbeitet werden kann.
-* Datenobjekt: Senden Sie Daten mithilfe bestimmter, Adobe Analytics zugewiesener Felder an das Edge-Netzwerk. Das Edge-Netzwerk erkennt das Vorhandensein dieser Felder und leitet sie an Adobe Analytics weiter, ohne dass ein Schema konform sein muss.
+* XDM-Objekt: Entsprechen Schemas, die auf [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) basieren.  Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Ereignisse Adobe Analytics erreichen, werden sie in ein Format übersetzt, das Adobe Analytics verarbeiten kann.
+* Datenobjekt: Senden Sie Daten mithilfe bestimmter, Adobe Analytics zugewiesener Felder an Edge Network. Edge Network erkennt das Vorhandensein dieser Felder und leitet sie an Adobe Analytics weiter, ohne dass sie einem Schema entsprechen müssen.
 
 
-Das Edge-Netzwerk verwendet die folgende Logik, um die Seitenansichten und Verknüpfungsereignisse in Adobe Analytics zu bestimmen
+Edge Network verwendet die folgende Logik, um die Seitenansichten und Verknüpfungsereignisse in Adobe Analytics zu bestimmen.
 
 | XDM-Payload enthält … | Adobe Analytics … |
 |---|---|
@@ -42,4 +42,4 @@ Das Edge-Netzwerk verwendet die folgende Logik, um die Seitenansichten und Verkn
 
 {style="table-layout:auto"}
 
-Siehe [Feldergruppe Adobe Analytics ExperienceEvent Full Extension](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) für weitere Informationen.
+Weitere Informationen finden Sie unter [Adobe Analytics ExperienceEvent Full Extension-Schema-Feldgruppe](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html).

@@ -5,9 +5,9 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
 source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ ht-degree: 98%
 + Implementieren von Analytics unter Verwendung von Experience Platform Edge {#aep-edge}
    + [Übersicht über Experience Edge](aep-edge/overview.md)
    + [Zuordnung von Datenobjektvariablen](aep-edge/data-var-mapping.md)
-   + [XDM-Objektvariablenzuordnung](aep-edge/xdm-var-mapping.md)
+   + [Zuordnung von XDM-Objektvariablen](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK – Übersicht](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
