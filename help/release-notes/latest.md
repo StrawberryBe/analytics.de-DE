@@ -3,7 +3,7 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b3f2f503cabd45aebd3bc200c8f9abaeb033d419
+source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -20,7 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. 
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Änderung des Löschprotokolls für Workspace-Projekte** | Zuvor wurden gelöschte Projekte nie aus dem System gelöscht. Nach 180 Tagen werden wir nun mit der Bereinigung gelöschter Projekte beginnen. In den 180 Tagen nach dem Löschen können Benutzer weiterhin über die Web-Oberfläche auf ein Projekt zugreifen, wenn sie über eine URL zum direkten Projekt verfügen. | | 14. März 2024 |
+| **Änderung des Löschprotokolls für Workspace-Projekte** | Zuvor wurden gelöschte Projekte nie aus dem System gelöscht. Nach 180 Tagen werden wir nun mit der Bereinigung gelöschter Projekte beginnen. In den 180 Tagen nach dem Löschen können Benutzer weiterhin über die Web-Oberfläche auf ein gelöschtes Projekt zugreifen, wenn sie über eine URL zum Projekt verfügen. | | 14. März 2024 |
 | **AppMeasurement-Aktualisierung** | [AppMeasurement-Version v2.26.0](/help/implement/appmeasurement-updates.md) ist verfügbar. | | Dienstag, 4. März 2024 |
 | **Auf der Landingpage „Projekte“ ist eine neue Spalte verfügbar** | Die Spalte **[!UICONTROL Zuletzt verwendet]** ist nun bei Ansicht der Registerkarte „Projekte“ auf der [Adobe Analytics-Landingpage](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=de) verfügbar. <p>Mithilfe dieser Informationen können Sie feststellen, ob ein Projekt für Benutzerinnen und Benutzer in Ihrer Organisation nützlich ist, indem angezeigt wird, an welchem Datum und zu welcher Uhrzeit das Projekt zuletzt geöffnet wurde.</p> <p>Zuvor war die Spalte **[!UICONTROL Zuletzt verwendet]** nur im Manager für berechnete Metriken, im Segment-Manager und im Warnhinweis-Manager verfügbar.</p> |  | 13. März 2024 |
 | **Analytics-Unterstützung für Einwilligungs-Flags, die von Google für DMA erforderlich sind** | Aufgrund neuer europäischer Datenschutzbestimmungen verlangt Google, dass die an Google gesendeten, in Europa erhobenen Daten angeben müssen, ob zwei spezifische Arten von Einwilligungen erteilt wurden. **Ab dem 6. März** akzeptiert Google keine Ereignisdaten mehr, die nicht angeben, dass die entsprechende Einwilligung erteilt wurde. Adobe Analytics bietet Unterstützung für die Erfassung dieser Daten über eine neue adConsent -Variable. Die neue Variable wird in der Liste [Benutzeroberfläche für Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) angezeigt. Wenn Sie diese Funktion aktivieren möchten und bereits Datenschutzfunktion für die vorherigen Einwilligungsvariablen bereits aktiviert ist, müssen Sie die Datenschutzfunktion erneut aktivieren.<p>Die [Dimension „Einverständnis für Anzeigenplattform“](/help/components/dimensions/ad-consent.md) zeigt an, ob das Einverständnis zum Senden von Daten an Drittanbieter für Werbung wie Google eingeholt wird. |  | 13. März 2024 |
