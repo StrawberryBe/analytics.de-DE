@@ -4,9 +4,9 @@ description: Zeigen Sie an, welche Datenobjektfelder Experience Platform Edge au
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
+source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,6 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | `data.__adobe.analytics.referrer` | Die Dimension [Referrer](/help/components/dimensions/referrer.md). |
 | `data.__adobe.analytics.resolution` | Die [Bildschirmauflösung](../../components/dimensions/monitor-resolution.md) Dimension. Das Kurzfeld `data.__adobe.analytics.s` wird ebenfalls unterstützt. |
 | `data.__adobe.analytics.server` | Die Dimension [Server](/help/components/dimensions/server.md). |
-| `data.__adobe.analytics.tnta` | Wird in A4T-Integrationen verwendet. |
 | `data.__adobe.analytics.transactionID` | Die [`transactionID`](../vars/page-vars/transactionid.md) Implementierungsvariable. Das Kurzfeld `data.__adobe.analytics.xact` wird ebenfalls unterstützt. |
 | `data.__adobe.analytics.zip` | Die [Postleitzahl](../../components/dimensions/zip-code.md) Dimension. |
 
