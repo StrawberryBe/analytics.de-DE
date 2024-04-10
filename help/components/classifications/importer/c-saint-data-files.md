@@ -3,10 +3,10 @@ description: Mit dem Importeur können Sie Classification-Daten in großen Menge
 title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '1768'
-ht-degree: 100%
+source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
+workflow-type: tm+mt
+source-wordcount: '1787'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 
 * Classifications können kein Caret (^) enthalten, da mit diesem Zeichen eine Unter-Classification gekennzeichnet wird.
 * Vorsicht bei der Verwendung von Bindestrichen. Wenn Sie beispielsweise einen Bindestrich (-) in einem sozialem Begriff verwenden, erkennt Social ihn als [!DNL Not]-Operator (Minuszeichen). Wenn Sie beispielsweise mit dem Import *`fragrance-free`* als Begriff angeben, interpretiert Social den Begriff folgendermaßen: Parfüm *`minus`* frei. Dadurch werden Wortlaute mit den Begriffen *`fragrance`*, jedoch nicht *`free`* erfasst.
-* Zeichenbeschränkungen werden erzwungen, um Berichtdaten zu klassifizieren. Wenn Sie beispielsweise eine Klassifizierungstextdatei für Produkte (*`s.products`*) mit Produktnamen mit mehr als 100 Zeichen (Byte) hochladen, werden die Produkte nicht in den Berichten angezeigt. Für Trackingcodes und für alle benutzerdefinierten Konversionsvariablen (eVars) sind jeweils 255 Byte zulässig.
+* Zeichenbeschränkungen werden erzwungen, um Berichtdaten zu klassifizieren. Wenn Sie beispielsweise eine Klassifizierungstextdatei für Produkte (*`s.products`*) mit Produktnamen mit mehr als 100 Zeichen (Byte) hochladen, werden die Produkte nicht in den Berichten angezeigt. Für Trackingcodes und alle benutzerdefinierten Konversionsvariablen (eVars) sind 255 Byte zulässig. Diese Richtlinie gilt auch für Classification- und Unter-Classification-Spaltenwerte, für die die gleiche 255-Byte-Grenze gilt.
 * Tabulatorgetrennte Datendatei (Sie können die Vorlagendatei mit jeder Tabellenkalkulationsanwendung oder einem Texteditor erstellen).
 * Die Dateierweiterung muss entweder [!DNL .tab] oder [!DNL .txt] lauten.
 * Ein Rautenzeichen (#) kennzeichnet eine Zeile als Benutzerkommentar. Sämtliche mit # beginnenden Zeilen werden von Adobe ignoriert.
