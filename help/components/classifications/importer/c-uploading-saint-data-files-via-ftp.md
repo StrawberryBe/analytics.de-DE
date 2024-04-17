@@ -3,10 +3,10 @@ description: Hochladen von Datendateien über FTP.
 title: FTP-Import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 81%
+source-wordcount: '724'
+ht-degree: 73%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 >
 >FTP wird nicht empfohlen, da es sich um eine unverschlüsselte Methode der Dateifreigabe handelt. Dies bedeutet, dass jeder den Dateiinhalt sowie den Benutzernamen und das Kennwort für das Konto abfangen kann.
 >
->Konfigurieren Sie stattdessen ein Cloud-Konto, wie unter [Konfigurieren von Cloud-Importkonten](/help/components/locations/configure-import-accounts.md).
+>Konfigurieren Sie stattdessen ein Cloud-Konto, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).
 
 In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
@@ -28,7 +28,7 @@ So laden Sie Datendateien über FTP hoch:
 
 1. **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
-Beachten Sie bitte die folgenden Empfehlungswerte.
+Die folgenden empfohlenen Beschränkungen sind wichtig.
 
 >[!IMPORTANT]
 >
@@ -60,12 +60,12 @@ Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](/help/expor
    | Element | Beschreibung |
    |---|---|
    | **Name** | Der Name des FTP-Kontos. |
-   | **Datensatz, der klassifiziert werden soll** | Wählen Sie in der Dropdown-Liste den zu klassifizierenden Datensatz (Marketing-Berichtsvariable) aus. |
+   | **Zu klassifizierender Datensatz** | Wählen Sie in der Dropdown-Liste den zu klassifizierenden Datensatz (Marketing-Berichtsvariable) aus. |
    | **Report Suites auswählen** | Wählen Sie die Report Suites aus, in denen Sie den ausgewählten Datensatz klassifizieren möchten. Zur Auswahl mehrerer Report Suites müssen die Classifications für jede ausgewählte Report Suite identisch sein. |
    | **Daten bei Konflikten überschreiben** | Mit dieser Option werden doppelte Daten überschrieben. Diese Option ist hilfreich, wenn Sie bestehende Classifications aktualisieren. Wenn Sie auf der [aktuelle Klassifizierungsarchitektur](../sets/overview.md)festgelegt ist, ist diese Einstellung immer aktiviert. |
-   | **Nach Abschluss des Imports** | Mit dieser Option wird der aktualisierte Datensatz automatisch auf dasselbe FTP-Konto hochgeladen, sobald der Importvorgang abgeschlossen ist. Wenn Sie auf der [aktuelle Klassifizierungsarchitektur](../sets/overview.md), ist diese Option nicht verfügbar. |
+   | **Nach Abschluss des Imports** | Wählen Sie diese Option, um den aktualisierten Datensatz automatisch in dasselbe FTP-Konto zu exportieren, sobald der Import abgeschlossen ist. Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen über dieses FTP-Konto gesendet werden sollen. Wenn Sie auf der [aktuelle Klassifizierungsarchitektur](../sets/overview.md), ist diese Option nicht verfügbar. |
    | **Benachrichtigungsempfänger** | Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen zu diesem FTP-Konto gesendet werden sollen. |
-   | **Genehmigung** | (Erforderlich) Berechtigt Adobe zum automatischen Importieren aller an das neue FTP-Konto gesendeten Datendateien. |
+   | **Autorisieren** | (Erforderlich) Berechtigt Adobe zum automatischen Importieren aller an das neue FTP-Konto gesendeten Datendateien. |
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

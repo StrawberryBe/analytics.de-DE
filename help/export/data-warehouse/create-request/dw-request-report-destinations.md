@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: ht
-source-wordcount: '2430'
-ht-degree: 100%
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
+workflow-type: tm+mt
+source-wordcount: '2584'
+ht-degree: 85%
 
 ---
 
@@ -20,12 +20,19 @@ Informationen zum Erstellen einer Anfrage sowie Links zu anderen wichtigen Konfi
 >
 >Beachten Sie bei der Konfiguration eines Berichtsziels Folgendes:
 >
->* Es wird empfohlen, ein Cloud-Konto oder eine E-Mail-Adresse für Ihr Berichtsziel zu verwenden. Alte FTP- und SFTP-Konten sind verfügbar, werden jedoch nicht empfohlen.
+>* Es wird empfohlen, ein Cloud-Konto oder eine E-Mail-Adresse für Ihr Berichtsziel zu verwenden. [Alte FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
 >
->* Alle Cloud-Konten, die Sie zuvor für [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder zum [Importieren von Adobe Analytics-Klassifizierungsdaten](/help/components/locations/locations-manager.md) konfiguriert haben, sind für die Verwendung für Data Warehouse verfügbar. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind.
+>* Alle Cloud-Konten, die Sie zuvor konfiguriert haben, stehen zum Data Warehouse zur Verfügung. Sie können Cloud-Konten auf eine der folgenden Arten konfigurieren:
+>
+>   * Bei der Konfiguration [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * Wann [Importieren von Adobe Analytics-Classification-Daten](/help/components/locations/locations-manager.md) (Konten können verwendet werden, aber alle Orte, die für diese Konten konfiguriert sind, können nicht verwendet werden.)
+>   
+>   * Klicken Sie im Standort-Manager auf [Komponenten > Standorte](/help/components/locations/configure-import-accounts.md).
 >
 >* Cloud-Konten sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Andere Benutzende können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
 >
+>* Sie können alle Orte bearbeiten, die Sie über den Locations-Manager in [Komponenten > Standorte](/help/components/locations/configure-import-accounts.md)
 
 Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
@@ -37,17 +44,27 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
    ![Registerkarte „Berichtsziel“](assets/dw-report-destination.png)
 
-1. (Bedingt) Wenn ein Konto (und ein Ziel in diesem Konto) bereits konfiguriert wurde und Sie es als Berichtsziel verwenden möchten:
+1. (Bedingt) Wenn in Adobe Analytics bereits ein Cloud-Konto (und ein Ziel auf diesem Konto) konfiguriert wurde, können Sie es als Berichtsziel verwenden:
 
-   1. (Optional) Wenn Sie Systemadmin sind, ist die Option [!UICONTROL **Alle Ziele anzeigen**] verfügbar. Aktivieren Sie diese Option, um Zugriff auf alle Konten und Speicherorte zu erhalten, die von Benutzenden in der Organisation erstellt wurden.
+   >[!NOTE]
+   >
+   >Konten stehen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, zu der Sie gehören.
+   >
+   >Wenn Sie Systemadministrator sind, wird die [!UICONTROL **Alle Ziele anzeigen**] verfügbar ist. Aktivieren Sie diese Option, um Zugriff auf alle Konten und Speicherorte zu erhalten, die von Benutzenden in der Organisation erstellt wurden.
 
    1. Wählen Sie das Konto aus dem Dropdown-Menü [!UICONTROL **Konto auswählen**] aus.
 
-      Alle Cloud-Konten, die Sie zum [Importieren von Adobe Analytics-Klassifizierungsdaten](/help/components/locations/locations-manager.md) von einem Cloud-Ziel konfiguriert haben, werden hier angezeigt und können verwendet werden. Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
+      Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
+
+      * Beim Importieren von Adobe Analytics-Classification-Daten, wie unter [Schema](/help/components/classifications/sets/manage/schema.md).
+
+        Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
+
+      * Beim Konfigurieren von Konten und Speicherorten im Bereich Standorte, wie beschrieben in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
 
    1. Wählen Sie das mit dem Konto verknüpfte Ziel aus dem Dropdown-Menü [!UICONTROL **Ziel auswählen**] aus. <!-- Is this correct? -->
 
-1. (Bedingt) Wenn Sie noch kein Konto konfiguriert haben:
+1. (Bedingt) Wenn Sie keinen Zugriff auf ein Cloud-Konto haben, das bereits in Adobe Analytics konfiguriert ist, können Sie eines konfigurieren:
 
    1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
@@ -63,7 +80,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       +++Amazon S3
 
-      Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
+      Geben Sie die folgenden Informationen an, um ein Amazon S3 Role ARN-Konto zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
@@ -72,7 +89,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -84,7 +101,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -100,7 +117,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -114,7 +131,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-Mail
 
@@ -141,12 +158,12 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p> |
+      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Behälternamen müssen bestimmten Benennungsregeln entsprechen. Sie müssen beispielsweise zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der Dokumentation zu AWS .](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -159,7 +176,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -172,7 +189,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -186,7 +203,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der Registerkarte [!UICONTROL **Berichtsoptionen**] fort. Weitere Informationen finden Sie unter [Konfigurieren von Berichtsoptionen für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
