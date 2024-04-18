@@ -1,9 +1,8 @@
 ---
 title: Senden von Daten an Adobe Analytics mithilfe der Web SDK-JavaScript-Bibliothek
 description: Beginnen Sie mit einer sauberen Web SDK-Implementierung, um mithilfe der JavaScript-Bibliothek Daten an Adobe Analytics zu senden.
-hide: true
-hidefromtoc: true
-source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
+exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
+source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -26,7 +25,7 @@ Die Verwendung der JavaScript-Bibliothek des Web SDK zum Senden von Daten an Ado
 | --- | --- |
 | <ul><li>**Direkter Ansatz**: Dieser Implementierungspfad ist einfacher als Ansätze, die vorhandene Adobe Analytics-Implementierungen verschieben. Wenn Sie keine aktuelle Adobe Analytics-Implementierung haben, um die Sie sich Sorgen machen müssen, füllen Sie die entsprechenden Web SDK-XDM-Felder aus.</li><li>**Vordefiniertes Schema**: Wenn Ihr Unternehmen kein eigenes Schema benötigt, können Sie einfach das für Adobe Analytics geeignete Schema verwenden. Dieses Konzept gilt auch bei der Umstellung auf Customer Journey Analytics. Das Konzept der Props und eVars gilt nicht für Customer Journey Analytics, Sie können aber Props und eVars weiterhin als einfache benutzerdefinierte Dimensionen verwenden.</li></ul> | <ul><li>**Implementierungsänderungen erfordern eine Intervention von Entwicklern**: Wenn Sie Änderungen an Ihrer Web SDK-Implementierung vornehmen möchten, müssen Sie sich an Ihr Entwicklungsteam wenden, um den Code auf Ihrer Site zu bearbeiten. Der Ansatz, der die [Web SDK-Tag-Erweiterung](web-sdk-tag-extension.md) vermeidet diesen Nachteil.</li><li>**Verwendung eines bestimmten Schemas blockiert**: Wenn Ihr Unternehmen zu Customer Journey Analytics wechselt, müssen Sie das Adobe Analytics-Schema weiterhin verwenden oder zum Schema Ihres eigenen Unternehmens migrieren (bei dem es sich um einen separaten Datensatz handelt). Wenn Ihr Unternehmen beim Wechsel zu Customer Journey Analytics sowohl das Adobe Analytics-Schema als auch die Migration zu einem separaten Datensatz vermeiden möchte, empfiehlt Adobe eine der beiden folgenden Methoden:</li><ul><li>Verwenden Sie die `data` -Objekt: Die `data` -Objekt können Sie Daten an Adobe Analytics senden, ohne ein XDM-Schema zu erfüllen. Nachdem das Schema Ihres Unternehmens erstellt wurde, können Sie die Zuordnung mithilfe der Datastream-Zuordnung vornehmen `data` -Objektfelder in XDM. Beide [Analytics-Erweiterung auf Web SDK-Erweiterung](analytics-extension-to-web-sdk.md) und [AppMeasurement zur JavaScript-Bibliothek des Web SDK](appmeasurement-to-web-sdk.md) Verwenden Sie diese `data` -Objekt.</li><li>Adobe Analytics vollständig überspringen: Wenn Sie das Web SDK implementieren, können Sie diese Daten zur Verwendung in Customer Journey Analytics an einen Datensatz in Adobe Experience Platform senden. Sie können ein beliebiges Schema verwenden. Adobe Analytics ist an diesem Workflow überhaupt nicht beteiligt und benötigt daher keine Adobe Analytics ExperienceEvent-Feldergruppe. Bei dieser Methode entsteht der geringste technische Schuldenstand, aber auch Adobe Analytics wird vollständig ausgeschlossen.</li></ul></ul> |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Für diese Implementierungsmethode müssen Sie ein für Adobe Analytics konfiguriertes Schema verwenden. Wenn Ihr Unternehmen in Zukunft Ihr eigenes Schema mit Customer Journey Analytics verwenden möchte, kann die Verwendung des Adobe Analytics-Schemas für Datenadministratoren oder Architekten Verwirrung stiften. Es gibt mehrere Möglichkeiten, dieses Hindernis zu beheben:
 >
