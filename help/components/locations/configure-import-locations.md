@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c81f0b8dffe07789fce1dda6efcb5ce17406be71
+source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 40%
+source-wordcount: '1190'
+ht-degree: 38%
 
 ---
 
@@ -49,7 +49,7 @@ Das Dialogfeld Standort wird angezeigt.
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. |
+   | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject` -Berechtigung, um Dateien in diesen Bucket hochzuladen. </p><p>Behälternamen müssen bestimmten Benennungsregeln entsprechen. Sie müssen beispielsweise zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der Dokumentation zu AWS .](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
    {style="table-layout:auto"}
