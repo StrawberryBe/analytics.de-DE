@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
-workflow-type: ht
-source-wordcount: '5243'
-ht-degree: 100%
+source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+workflow-type: tm+mt
+source-wordcount: '5273'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **April 2024** | |
+| Reduzierbare Abschnitte in der Dokumentation zum Konfigurieren von Cloud-Import- und -Exportspeicherorten wurden entfernt | Ausblendbare Abschnitte in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) für Informationen zu Cloud-Kontotypen. |
 | **März 2024** | |
 | AppMeasurement-Aktualisierung | [Versionshinweise](/help/implement/appmeasurement-updates.md) zur AppMeasurement-Aktualisierung v2.26.0.<br/>Enthält einen Verweis auf die und eine Aktualisierung der Dokumentation zu Konfigurationsvariablen [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |
 | Nutzungsinformationen zur Spalte „Verwendet in“ sind erst ab September 2023 verfügbar. | Es wurde klargestellt, dass die Nutzungsinformationen zur Spalte **Verwendet in** auf der [Projekte-Landingpage](/help/analyze/landing.md) nur bis September 2023 zurückreichen. |

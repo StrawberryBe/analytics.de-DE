@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
+source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 38%
+source-wordcount: '1466'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können ein Cloud-Konto (und einen Speicherort auf diesem Konto) konfigurier
 
 Sie müssen Adobe Analytics mit den für den Zugriff auf Ihr Cloud-Konto erforderlichen Informationen konfigurieren. Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md)und dann den Speicherort innerhalb dieses Kontos hinzufügen und konfigurieren (wie in diesem Artikel beschrieben).
 
-So konfigurieren Sie einen neuen Cloud-Import- oder -Exportspeicherort oder bearbeiten einen vorhandenen:
+## Erstellen oder Bearbeiten eines Cloud-Exportspeicherorts beginnen
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**].
 1. Im [!UICONTROL Standorte] Seite, wählen Sie die [!UICONTROL **Standorte**] Registerkarte.
@@ -39,13 +39,15 @@ Das Dialogfeld Standort wird angezeigt.
 
 1. Geben Sie im Abschnitt [!UICONTROL **Speicherorteigenschaften**] spezifische Informationen zum Kontotyp Ihres Speicherortkontos an.
 
-   Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem Kontotyp entspricht, den Sie in der [!UICONTROL **Standortkonten**] -Feld. (Es sind auch zusätzliche veraltete Kontotypen verfügbar, jedoch nicht empfohlen.)
+   Fahren Sie mit dem folgenden Abschnitt fort, der dem Kontotyp entspricht, den Sie in der [!UICONTROL **Standortkonten**] -Feld. (Es sind auch zusätzliche veraltete Kontotypen verfügbar, jedoch nicht empfohlen.)
 
-   **Kontotypen**
 
-   + + + Amazon S3 Role ARN
 
-   Geben Sie die folgenden Informationen an, um einen Amazon S3 Role ARN-Speicherort zu konfigurieren:
+### Amazon S3 Role ARN
+
+Geben Sie die folgenden Informationen an, um einen Amazon S3 Role ARN-Speicherort zu konfigurieren:
+
+1. [Erstellen oder Bearbeiten eines Cloud-Exportspeicherorts beginnen](#begin-creating-or-editing-a-cloud-export-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
@@ -54,11 +56,22 @@ Das Dialogfeld Standort wird angezeigt.
 
    {style="table-layout:auto"}
 
-+++
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   +++Google Cloud Platform
+   Sie können jetzt Daten in das oder aus dem von Ihnen konfigurierten Konto und Speicherort importieren oder exportieren. Verwenden Sie zum Exportieren von Daten [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren von Daten [Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
-   Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speicherort zu konfigurieren:
+   Importierte Daten werden nach dem Import nicht mehr aus dem Cloud-Ziel gelöscht.
+
+   >[!NOTE]
+   >
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+
+
+### Google Cloud Platform
+
+Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speicherort zu konfigurieren:
+
+1. [Erstellen oder Bearbeiten eines Cloud-Exportspeicherorts beginnen](#begin-creating-or-editing-a-cloud-export-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
@@ -67,11 +80,22 @@ Das Dialogfeld Standort wird angezeigt.
 
    {style="table-layout:auto"}
 
-+++
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   +++Azure SAS
+   Sie können jetzt Daten in das oder aus dem von Ihnen konfigurierten Konto und Speicherort importieren oder exportieren. Verwenden Sie zum Exportieren von Daten [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren von Daten [Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
-   Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konfigurieren:
+   Importierte Daten werden nach dem Import nicht mehr aus dem Cloud-Ziel gelöscht.
+
+   >[!NOTE]
+   >
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+
+
+### Azure SAS
+
+Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konfigurieren:
+
+1. [Erstellen oder Bearbeiten eines Cloud-Exportspeicherorts beginnen](#begin-creating-or-editing-a-cloud-export-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
@@ -80,11 +104,22 @@ Das Dialogfeld Standort wird angezeigt.
 
    {style="table-layout:auto"}
 
-+++
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   +++Azure RBAC
+   Sie können jetzt Daten in das oder aus dem von Ihnen konfigurierten Konto und Speicherort importieren oder exportieren. Verwenden Sie zum Exportieren von Daten [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren von Daten [Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
-   Geben Sie die folgenden Informationen an, um einen Azure RBAC-Speicherort zu konfigurieren:
+   Importierte Daten werden nach dem Import nicht mehr aus dem Cloud-Ziel gelöscht.
+
+   >[!NOTE]
+   >
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+
+
+### Azure RBAC
+
+Geben Sie die folgenden Informationen an, um einen Azure RBAC-Speicherort zu konfigurieren:
+
+1. [Erstellen oder Bearbeiten eines Cloud-Exportspeicherorts beginnen](#begin-creating-or-editing-a-cloud-export-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
@@ -94,88 +129,87 @@ Das Dialogfeld Standort wird angezeigt.
 
    {style="table-layout:auto"}
 
-+++
-
-   **Alte Kontotypen**
-
-   Diese veralteten Kontotypen sind nur verfügbar, wenn Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen stehen beim Datenimport mit [Klassifizierungssätze](/help/components/classifications/sets/manage/schema.md).
-
-   +++FTP
-
-   Daten-Feed-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort bereitgestellt werden. Ordner angeben Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren.
-
-   | Feld | Funktion |
-   |---------|----------|
-   | [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
-
-   {style="table-layout:auto"}
-
-+++
-
-   +++SFTP
-
-   Daten-Feed-Daten können an einen Adobe- oder kundengehosteten SFTP-Speicherort bereitgestellt werden. Die Ziel-Site muss einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
-
-   | Feld | Funktion |
-   |---------|----------|
-   | [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
-
-   {style="table-layout:auto"}
-
-+++
-
-   ++ + S3
-
-   Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumentation.
-
-   Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
-
-   * s3:GetObject
-   * s3:PutObject
-   * s3:PutObjectAcl
-
-   Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
-
-   * us-east-2
-   * us-east-1
-   * us-west-1
-   * us-west-2
-   * ap-south-1
-   * ap-northeast-2
-   * ap-southeast-1
-   * ap-southeast-2
-   * ap-northeast-1
-   * ca-central-1
-   * eu-central-1
-   * eu-west-1
-   * eu-west-2
-   * eu-west-3
-   * eu-north-1
-   * sa-east-1
-
-   >[!NOTE]
-   >
-   >Die Region „cn-north-1“ wird nicht unterstützt.
-
-+++
-
-   +++Azure Blob
-
-   Data Warehouse unterstützt Azure Blob-Ziele. Erfordert einen Container, ein Konto und einen Schlüssel. Amazon verschlüsselt die Daten automatisch während der Ruhezeit. Wenn Sie die Daten herunterladen, werden sie automatisch entschlüsselt. Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
-
-   >[!NOTE]
-   >
-   >Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Data Warehouse-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
-
-+++
-
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten in das oder aus dem von Ihnen konfigurierten Konto und Speicherort importieren oder exportieren.
+   Sie können jetzt Daten in das oder aus dem von Ihnen konfigurierten Konto und Speicherort importieren oder exportieren. Verwenden Sie zum Exportieren von Daten [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren von Daten [Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht mehr aus dem Cloud-Ziel gelöscht.
 
    >[!NOTE]
    >
    >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+
+### Alte Kontotypen
+
+Diese veralteten Kontotypen sind nur verfügbar, wenn Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen stehen beim Datenimport mit [Klassifizierungssätze](/help/components/classifications/sets/manage/schema.md).
+
++++FTP
+
+Daten-Feed-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort bereitgestellt werden. Ordner angeben Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren.
+
+| Feld | Funktion |
+|---------|----------|
+| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
+
+{style="table-layout:auto"}
+
++++
+
++++SFTP
+
+Daten-Feed-Daten können an einen Adobe- oder kundengehosteten SFTP-Speicherort bereitgestellt werden. Die Ziel-Site muss einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
+
+| Feld | Funktion |
+|---------|----------|
+| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
+
+{style="table-layout:auto"}
+
++++
+
+++ + S3
+
+Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumentation.
+
+Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>Die Region „cn-north-1“ wird nicht unterstützt.
+
++++
+
++++Azure Blob
+
+Data Warehouse unterstützt Azure Blob-Ziele. Erfordert einen Container, ein Konto und einen Schlüssel. Amazon verschlüsselt die Daten automatisch während der Ruhezeit. Wenn Sie die Daten herunterladen, werden sie automatisch entschlüsselt. Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
+
+>[!NOTE]
+>
+>Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Data Warehouse-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
+
++++
+
 
