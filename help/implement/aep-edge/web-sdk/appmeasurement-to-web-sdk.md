@@ -1,7 +1,8 @@
 ---
 title: Migration von AppMeasurement zum Web SDK
 description: Aktualisieren Sie Ihre Adobe Analytics-Implementierung von der AppMeasurement-JavaScript-Bibliothek auf die Web SDK-JavaScript-Bibliothek.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Erstellen Sie einen Datenspeicher in der Adobe Experience Platform-Datenerfassun
 1. Wählen Sie im Dropdown-Menü Dienst die Option **[!UICONTROL Adobe Analytics]**.
 1. Geben Sie dieselbe Report Suite-ID ein wie die Site, an die Sie derzeit Analysedaten senden. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-![Hinzufügen des Adobe Analytics-Dienstes](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Hinzufügen des Adobe Analytics-Dienstes](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Ihr Datastream kann jetzt Daten empfangen und an Adobe Analytics weitergeben. Notieren Sie die Datastream-ID, da diese ID für die Konfiguration des Web SDK im Code erforderlich ist.
 

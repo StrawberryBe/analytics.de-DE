@@ -4,16 +4,18 @@ description: Überschreibt die automatisch generierte Link-URL, die AppMeasureme
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 74%
+source-wordcount: '158'
+ht-degree: 65%
 
 ---
 
 # linkURL
 
 Sobald ein Linktracking-Aufruf an Adobe gesendet wird, erkennen die Datenerfassungs-Server automatisch die URL. Verwenden Sie die `linkURL`-Variable, um die erkannte URL zu überschreiben.
+
+Es gibt keine Dimensionen in Analysis Workspace, die über diese Variable berichten. Sie füllt die `page_event_var1` Spalte in [Datenfeeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Link-URL mit dem Web SDK
 

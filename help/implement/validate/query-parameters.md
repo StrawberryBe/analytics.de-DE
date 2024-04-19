@@ -4,9 +4,9 @@ description: Listet alle in Bildanforderungen verwendeten Abfragezeichenfolgenpa
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: ht
-source-wordcount: '722'
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Wird in der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. |
 | `pccr` | Keine | Nur für neue Besucher und immer auf `true` gesetzt. Vermeidet endlose Weiterleitungen, wenn ein Besucher Cookies ablehnt. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Bestimmt den Typ des benutzerspezifischen Links. Für [benutzerspezifische Links](/help/components/dimensions/custom-link.md), [Downloadlinks](/help/components/dimensions/download-link.md) und [Exitlinks](/help/components/dimensions/exit-link.md) erforderlich. |
-| `pev1` | Keine | Die URL, unter der der benutzerdefinierte Link aufgetreten ist. |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | Die URL, unter der der benutzerdefinierte Link aufgetreten ist. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Anzeigename des benutzerspezifischen Links. |
 | `pev3` | Keine | Wird nicht mehr verwendet. Verfolgte Meilensteine in früheren Versionen der Videoberichte. |
 | `pf` | Keine | Plattformmarkierung; nur zur Verwendung durch Adobe. Nicht ändern. |

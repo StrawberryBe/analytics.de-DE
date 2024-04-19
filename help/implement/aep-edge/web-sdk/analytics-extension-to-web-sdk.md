@@ -1,9 +1,10 @@
 ---
 title: Migration von der Adobe Analytics-Tag-Erweiterung zur Web SDK-Tag-Erweiterung
 description: Aktualisieren Sie Ihre Analytics-Implementierung auf Adobe Experience Platform-Datenerfassungs-Tags, um die Web SDK-Erweiterung zu verwenden.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 2%
 
 ---
@@ -46,7 +47,7 @@ Erstellen Sie einen Datenspeicher in der Adobe Experience Platform-Datenerfassun
 1. Wählen Sie im Dropdown-Menü Dienst die Option **[!UICONTROL Adobe Analytics]**.
 1. Geben Sie dieselbe Report Suite-ID ein wie die Site, an die Sie derzeit Analysedaten senden. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-![Hinzufügen des Adobe Analytics-Dienstes](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Hinzufügen des Adobe Analytics-Dienstes](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Ihr Datastream kann jetzt Daten empfangen und an Adobe Analytics weitergeben.
 
@@ -62,11 +63,11 @@ In diesem Abschnitt wird Ihr -Tag für den Großteil der Migrationsschritte vorb
 1. Auswählen **[!UICONTROL Katalog]** oben, um eine Liste aller verfügbaren Erweiterungen anzuzeigen.
 1. Suchen Sie nach und wählen Sie **[!UICONTROL Adobe Experience Platform Web SDK]** Erweiterung und klicken Sie auf **[!UICONTROL Installieren]** rechts.
 
-   ![Katalog](assets/catalog.png) {style="border:1px solid gray"}
+   ![Katalog](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. Die Erweiterungskonfigurationseinstellungen werden angezeigt. Suchen Sie den Abschnitt &quot;Datenspeicher&quot;und wählen Sie den Datenspeicher aus, den Sie im vorherigen Schritt erstellt haben.
 
-   ![Datenspeicherauswahl](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![Datenspeicherauswahl](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
@@ -83,14 +84,14 @@ Das Datenobjekt-Datenelement bietet ein intuitives Framework zum Konfigurieren e
 1. Legen Sie für das Datenelement die folgenden Einstellungen fest:
    * [!UICONTROL Name]: Alles, was Sie möchten, z. B. &quot;Datenschicht&quot;oder &quot;Datenobjekt&quot;
    * [!UICONTROL Erweiterung]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL Variable]: [!UICONTROL Variable]
+   * [!UICONTROL Datenelementtyp]: [!UICONTROL Variable]
    * Kontrollkästchen können unverändert bleiben
 1. Wählen Sie rechts die folgenden Einstellungen aus:
    * Optionsfeld &quot;Eigenschaft&quot;: [!UICONTROL Daten]
    * Lösung: [!UICONTROL Adobe Analytics]
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-![Datenelement erstellen](assets/create-data-element.png) {style="border:1px solid gray"}
+![Datenelement erstellen](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 Ihre Tag-Eigenschaft verfügt jetzt über alles, was zum Aktualisieren der einzelnen Regeln erforderlich ist.
 
@@ -103,7 +104,7 @@ Dieser Schritt enthält den Großteil des für die Migration zum Web SDK erforde
 1. Wählen Sie in der linken Navigation der Tags-Benutzeroberfläche die Option **[!UICONTROL Regeln]**.
 1. Wählen Sie eine zu bearbeitende Regel aus.
 1. Aktion auswählen **[!UICONTROL Adobe Analytics - Variablen festlegen]**
-1. Beachten Sie alle in dieser Regel festgelegten Analytics-Variablen. Beachten Sie sowohl die in den Dropdown-Menüs festgelegten Variablen als auch die in benutzerdefiniertem Code festgelegten Variablen.
+1. Beachten Sie alle in dieser Regel festgelegten Analytics-Variablen. Schließen Sie beide in den Dropdown-Menüs festgelegten Variablen und die in benutzerdefiniertem Code festgelegten Variablen ein.
 1. Ändern Sie die [!UICONTROL Aktionskonfiguration] zu den folgenden Einstellungen hinzufügen:
    * [!UICONTROL Erweiterung]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Aktionstyp]: Variable aktualisieren
@@ -146,7 +147,7 @@ Das Veröffentlichen aktualisierter Regeln folgt demselben Workflow wie jede and
 1. Testen Sie Ihre Änderungen in Ihrer Entwicklungsumgebung, um sicherzustellen, dass alle Regeln ordnungsgemäß ausgelöst werden und dass das Datenobjekt mit den erwarteten Werten gefüllt wird.
 1. Wenn die Bibliothek fertig ist, senden Sie sie zur Genehmigung, erstellen Sie sie zum Staging, genehmigen Sie sie schließlich und veröffentlichen Sie sie in der Produktion.
 
-![Veröffentlichungsfluss](assets/publishing-flow.png) {style="border:1px solid gray"}
+![Veröffentlichungsfluss](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
