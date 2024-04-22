@@ -4,7 +4,7 @@ description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf I
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -27,7 +27,7 @@ Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), verw
 * Bestellungen werden `xdm.commerce.purchases.value` zugeordnet.
 * Einheiten werden der Summe aller `productListItems[].quantity`-Felder zugeordnet.
 * Der Umsatz wird der Summe aller `productListItems[].priceTotal`-Felder zugeordnet.
-* Produktansichten werden `xdm.commerce.productListViews.value` zugeordnet.
+* Produktansichten werden `xdm.commerce.productViews.value` zugeordnet.
 * Warenkörbe werden `xdm.commerce.productListOpens.value` zugeordnet.
 * Hinzufügungen zum Warenkorb werden `xdm.commerce.productListAdds.value` zugeordnet.
 * Entnahmen aus dem Warenkorb werden `xdm.commerce.productListRemovals.value` zugeordnet.
