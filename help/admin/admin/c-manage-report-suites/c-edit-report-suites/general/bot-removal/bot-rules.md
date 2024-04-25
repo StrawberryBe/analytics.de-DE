@@ -23,7 +23,7 @@ Bot-Traffic-Daten werden in einem separaten Repository zur Anzeige in den Berich
 
 >[!NOTE]
 >
->Das Adobe Experience Platform Edge Network bietet eine [Bot-Erkennungsdienst](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=de) die Treffer, die als von Bots identifiziert wurden. Der in Adobe Analytics verwendete Bot-Erkennungsprozess ist separat und verweist nicht auf den Bot-Wert, der in Daten enthalten ist, die über das Edge Network eingehen. Die beiden Systeme verwenden jedoch dieselbe IAB-Bot-Liste.
+>Das Adobe Experience Platform Edge Network bietet einen [Bot-Erkennungsdienst](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=de) für die Treffer, die als von Bots identifiziert wurden. Der in Adobe Analytics verwendete Bot-Erkennungsprozess ist separat und verweist nicht auf den Bot-Wert, der in Daten enthalten ist, die über das Edge Network eingehen. Die beiden Systeme verwenden jedoch dieselbe IAB-Bot-Liste.
 
 ## Aktualisieren oder Hochladen von Bot-Regeln
 
